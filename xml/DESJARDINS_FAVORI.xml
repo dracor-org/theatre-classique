@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LE FAVORI, TRAGICOMÉDIE.</title>
-			<author ISNI="0000 0001 2347 8574">DESJARDINS, Marie-Catherine-Hortense dite de Villedieu (16..-1736)</author>
+			<author type="texte" ISNI="0000 0001 2347 8574">DESJARDINS, Marie-Catherine-Hortense dite de Villedieu (16..-1736)</author>
 			</titleStmt>
 			<publicationStmt>						
 				<publisher>Publié par Paul FIEVRE, avril 2015, revu janvier 2018.</publisher>
@@ -13,8 +13,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Tragi-comédie</genre>
-				<inspiration>moeurs espagnoles</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>moeurs</inspiration><structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1661-1670</periode>
 				<taille>1250-1500</taille>
@@ -43,13 +42,13 @@
 	<castItem><role id="LE ROI DE BARCELONE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>LE ROI DE BARCELONE</role>.</castItem> 
 	<castItem><role id="MONCADE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MONCADE</role>, son Favori.</castItem> 
 	<castItem><role id="CLOTAIRE" sex="1" type="H" statut='prince' age='A' stat_amour='néant'>CLOTAIRE</role>, Prince réfugié.</castItem> 
-	<castItem><role id="LINDAMIRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LINDAMIRE</role>, maîtresse du Favori.</castItem> 
-	<castItem><role id="DONA ELVIRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DONA ELVIRE</role>, dame de la Cour.</castItem> 
-	<castItem><role id="LÉONOR" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LÉONOR</role>, autre dame de la Cour.</castItem> 
+	<castItem><role id="LINDAMIRE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>LINDAMIRE</role>, maîtresse du Favori.</castItem> 
+	<castItem><role id="DONA ELVIRE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>DONA ELVIRE</role>, dame de la Cour.</castItem> 
+	<castItem><role id="LÉONOR" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>LÉONOR</role>, autre dame de la Cour.</castItem> 
 	<castItem><role id="DON ALVAR" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON ALVAR</role>, ami du Favori.</castItem> 
 	<castItem><role id="CARLOS" sex="1" type="H" statut='capitaine' age='A' stat_amour='néant'>CARLOS</role>, capitaine des Gardes.</castItem> 
 	</castList>
-<set location='Barcelone' country='Espagne' periode='XVIIème' link=''>La scène est sur une terrasse dans la maison de campagne du favori.</set>
+<set location="Barcelone" country="Espagne" periode="XVIIème" gps="41.385064, 2.173403">La scène est sur une terrasse dans la maison de campagne du favori.</set>
 </front>
 <body>
  <div1 type="act" n="1"><head>ACTE I</head>
@@ -132,7 +131,7 @@
 	<l id="64">Et l'on sait que Moncade est sorti de nos Rois,</l>
 	<l id="65">Depuis que celui-ci règne sur Barcelone</l>
 	<l id="66">Votre bras fut toujours l'appui de sa Couronne,</l>
-	<l id="67">Et quel que soit pour vous l'excès de ses bontés</l>
+	<l id="67">Et quel_que_soit pour vous l'excès de ses bontés</l>
 	<l id="68">Il doit peut-être plus au nom que vous portez :</l>
 	<l id="69">Prenez donc sur vous-même une entière assurance,</l>
 	<l id="70">Sans fatiguer le Ciel par votre indifférence,</l>
@@ -2125,7 +2124,7 @@
 	<l id="1344">Un faible mouvement de générosité :</l>
 	<l id="1345">Elle seule, Seigneur, fait agir Lindamire,</l>
 	<l id="1346">L'amour n'a point de part au zèle qui l'inspire,</l>
-	<l id="1347">Et quel que soit l'éclat qu'elle fait dans ce jour,</l>
+	<l id="1347">Et quel_que_soit l'éclat qu'elle fait dans ce jour,</l>
 	<l id="1348">C'est pitié, c'est bonté : mais ce n'est point amour.</l>
 </sp>
 </div2>
@@ -2290,4 +2289,3 @@
 </body>
 </text>
 </TEI>
-

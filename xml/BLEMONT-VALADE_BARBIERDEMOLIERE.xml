@@ -4,8 +4,8 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LE BARBIER DE PÉZENAS, COMÉDIE EN UN ACTE ET EN VERS</title>
-				<author ISNI="000 0000 8086 1601">Émile BLÉMONT (1839-1927)</author>
-				<author ISNI="0000 0000 5277 2943">Léon VALADE (1842-1884)</author>
+				<author type="texte" ISNI="000 0000 8086 1601">Émile BLÉMONT (1839-1927)</author>
+				<author type="texte" ISNI="0000 0000 5277 2943">Léon VALADE (1842-1884)</author>
 			</titleStmt>
 			<publicationStmt>
 				<editor>Texte établi par Paul FIEVRE, août 2019</editor>
@@ -14,8 +14,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
-				<inspiration>moeurs françaises</inspiration>
-				<type>vers</type>
+				<inspiration>moeurs</inspiration><type>vers</type>
 				<structure>Un acte</structure>
 				<periode>1821-1830</periode>
 				<taille>250-500</taille>
@@ -50,7 +49,7 @@
 			<castItem><role id="CLAUDINE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>CLAUDINE</role>, dix-huit ans. Melle KOLB.</castItem>
 			<castItem><role id="LE GARÇON DE GÉLY" sex="1" type="H" statut='employé' age='A' stat_amour='néant'>LE GARÇON DE GÉLY</role>, Melle VALENTINE.</castItem>
 		</castList>
-		<set location='Pézenas' country='France' periode='XVIIème' link=''>À Pézenas, dans la boutique du barbier Gély.</set>
+		<set location="Pézenas" country="France" periode="XVIIème" gps="43.461531, 3.423193">À Pézenas, dans la boutique du barbier Gély.</set>
 		<note>Extrait de "Théâtre Molièresque et Cornélien (...)", Paris, Alphonse Lemerre, éditeur, 1898. pp 41-87</note>
 </front>
 <body>
@@ -1502,4 +1501,3 @@
 </body>
 </text>
 </TEI>
-

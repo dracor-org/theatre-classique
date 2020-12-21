@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LES GALANTS RIDICULES, COMÉDIE</title>
-				<author ISNI="0000 0000 4320 3474">CHEVALIER, Jean Simonin dit</author>
+				<author type="texte" ISNI="0000 0000 4320 3474">CHEVALIER, Jean Simonin dit</author>
 			</titleStmt>
 			<publicationStmt>	
 				<editor>Texte établi par Ernest FIEVRE, mars 2018.</editor>
@@ -14,8 +14,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
-				<inspiration>moeurs françaises</inspiration>
-				<structure>Un acte</structure>
+				<inspiration>moeurs</inspiration><structure>Un acte</structure>
 				<type>vers</type>
 				<periode>1671-1680</periode>
 				<taille>500-750</taille>
@@ -43,8 +42,8 @@
 		<p>CHEVALIER.</p>
 	</div>	
 	<castList><head>LES ACTEURS.</head>
-		<castItem><role id="ANGÉLIQUE" sex="1" type="H" statut="bourgeois" age='A' stat_amour="Léandre">ANGÉLIQUE</role>, Fille du Docteur, Amante de Léandre.</castItem>
-		<castItem><role id="BÉATRIX" sex="1" type="H" statut="suivante" age='A' stat_amour="néant">BÉATRIX</role>, Suivante d'Angélique.</castItem>
+		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="bourgeois" age='A' stat_amour="Léandre">ANGÉLIQUE</role>, Fille du Docteur, Amante de Léandre.</castItem>
+		<castItem><role id="BÉATRIX" sex="2" type="H" statut="suivante" age='A' stat_amour="néant">BÉATRIX</role>, Suivante d'Angélique.</castItem>
 		<castItem><role id="RAGOTIN" sex="1" type="H" statut="valet" age='A' stat_amour="Béatrix">RAGOTIN</role>, Valet de Guillot, Amoureux de Béatrix.</castItem> 
 		<castItem><role id="GUILLOT" sex="1" type="H" statut="bourgeois" age='A' stat_amour="Angélique">GUILLOT</role>, Amoureux d'Angélique.</castItem>
 		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="docteur" age='A' stat_amour="néant">LE DOCTEUR</role>. Père d'Angélique.</castItem>
@@ -52,7 +51,7 @@
 		<castItem><role id="LE BARON DE LA TOPINIÈRE" sex="1" type="H" statut="baron" age='A' stat_amour="Angélique">LE BARON DE LA TOPINIÈRE</role>, Amoureux d'Angélique.</castItem>
 		<castItem><role id="TARASQUIN" sex="1" type="H" statut="valet" age='A' stat_amour="néant">TARASQUIN</role>, Valet du Baron.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XVIIème' link=''></set>
+	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222"></set>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE CARTEL DE  GUILLOT.</head>
@@ -1277,4 +1276,3 @@
 </body>
 </text>
 </TEI>
-

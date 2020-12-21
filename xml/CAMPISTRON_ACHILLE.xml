@@ -4,7 +4,7 @@
 	<fileDesc>
 		<titleStmt>
 			<title>ACHILLE ET POLIXÈNE, TRAGÉDIE EN MUSIQUE</title>
-			<author ISNI="0000 0001 1828 0635">CAMPISTRON, Jean Galbert de (1656-1713)</author>
+			<author type="texte" ISNI="0000 0001 1828 0635">CAMPISTRON, Jean Galbert de (1656-1713)</author>
 		</titleStmt>
 		<publicationStmt>	
 			<publisher>publié par Paul FIEVRE, février 2013, revu janvier 2017</publisher>
@@ -13,8 +13,7 @@
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Tragédie en musique</genre>
-			<inspiration>mythe grec</inspiration>
-			<structure>Cinq actes, un prologue</structure>
+			<inspiration>mythologie</inspiration>		<structure>Cinq actes, un prologue</structure>
 			<type>vers</type>
 			<periode>1681-1690</periode>
 			<taille>750-1000</taille>
@@ -40,9 +39,9 @@
 	</performance>
 	<castList><head>ACTEURS DU PROLOGUE.</head>
 		<castItem><role id="MERCURE" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>MERCURE</role>.</castItem>
-		<castItem><role id="MELPOMÈNE" sex="1" type="D" statut='muse' age='A' stat_amour='néant'>MELPOMÈNE</role>, Muse de la Tragédie.</castItem>
-		<castItem><role id="TERPSICORE" sex="1" type="D" statut='muse' age='A' stat_amour='néant'>TERPSICORE</role>, Muse de la Musique.</castItem>
-		<castItem><role id="THALIE" sex="1" type="D" statut='muse' age='A' stat_amour='néant'>THALIE</role>, Muse de la Comédie.</castItem>
+		<castItem><role id="MELPOMÈNE" sex="2" type="D" statut='muse' age='A' stat_amour='néant'>MELPOMÈNE</role>, Muse de la Tragédie.</castItem>
+		<castItem><role id="TERPSICORE" sex="2" type="D" statut='muse' age='A' stat_amour='néant'>TERPSICORE</role>, Muse de la Musique.</castItem>
+		<castItem><role id="THALIE" sex="2" type="D" statut='muse' age='A' stat_amour='néant'>THALIE</role>, Muse de la Comédie.</castItem>
 		<castItem><role id="GENIES" sex="9" type="D" statut='génie' age='A' stat_amour='néant'>Troupe de Génies qui suivent Melpomène</role>.</castItem>
 		<castItem><role id="GENIES" sex="9" type="D" statut='génie' age='A' stat_amour='néant'>Troupe de Génies qui suivent Terpsicore</role>.</castItem>
 		<castItem><role id="GENIES" sex="9" type="D" statut='génie' age='A' stat_amour='néant'>Troupe de Genies qui fuivent Thalie</role>.</castItem>
@@ -72,7 +71,7 @@
 		<castItem><role id="Troupe de TROYENNES" sex="9" type="H" statut='peuple' age='A' stat_amour='néant'>Troupe de TROYENNES</role>.</castItem>
 		<castItem><role id="Troupe de THESSALIENS" sex="9" type="H" statut='soldat' age='A' stat_amour='néant'>Troupe de THESSALIENS</role>.</castItem>
 </castList>
-<set location='Troie' country='Turquie' periode='Temps mythologiques' link=''></set>
+<set location="Troie" country="Turquie" periode="Temps mythologiques" gps="39.957480, 26.238895"></set>
 </front>
 <body>
 <div1 type="act" n='1'><head>PROLOGUE</head>
@@ -1361,4 +1360,3 @@
 </body>
 </text>
 </TEI>
-

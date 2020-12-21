@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LA MORT DE CÉSAR, COMÉDIE</title>
-				<author ISNI="0000 0000 7829 1961">BARBIER, Marie-Anne (1664-1745?)</author>
+				<author type="texte" ISNI="0000 0000 7829 1961">BARBIER, Marie-Anne (1664-1745?)</author>
 			</titleStmt>
 			<publicationStmp>	
 				<editor>texte établi par Paul FIEVRE, octobre 2018</editor>
@@ -13,8 +13,7 @@
 			</publicationStmp>
 			<SourceDesc>
 				<genre>Tragédie</genre>
-				<inspiration>histoire romaine</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>histoire</inspiration>				<structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1701-1710</periode>
 				<taille>1500-1750</taille>
@@ -98,13 +97,13 @@
 			<castItem><role id='ANTOINE' sex="1" type="H" statut='consul' age='A' stat_amour='néant'>ANTOINE</role>, Consul Romain.</castItem>
 			<castItem><role id='BRUTUS' sex="1" type="H" statut='prêteur' age='A' stat_amour='néant'>BRUTUS</role>, Prêteur.</castItem>
 			<castItem><role id='OCTAVIE' sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>OCTAVIE</role>, Nièce de Jules César.</castItem>
-			<castItem><role id='PORCIE' sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>PORCIE</role>, Fille de Caton.</castItem>
+			<castItem><role id='PORCIE' sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>PORCIE</role>, Fille de Caton.</castItem>
 			<castItem><role id='ALBIN' sex="1" type="H" statut='confident' age='J' stat_amour='néant'>ALBIN</role>, Confident de Jules César.</castItem>
 			<castItem><role id='FLAVIEN' sex="1" type="H" statut='confident' age='A' stat_amour='néant'>FLAVIEN</role>, Confident de Brutus.</castItem>
 			<castItem><role id='JULIE' sex="2" type="H" statut='confident' age='A' stat_amour='néant'>JULIE</role>, Confidente d'Octavie.</castItem>
 			<castItem><role id='PAULINE' sex="2" type="H" statut='confident' age='A' stat_amour='néant'>PAULINE</role>, Confidente de Porcie.</castItem>
 		</castList>
-		<set location='Rome' country='Italie' periode='Avant JC Ier' link=''>La Scène est à Rome dans le Palais de Jules César.</set>
+		<set location="Rome" country="Italie" periode="Avant JC Ier" gps="41.902783, 12.496365">La Scène est à Rome dans le Palais de Jules César.</set>
 		<note>Ce texte est issu du "Théâtre de Mademoiselle Barbier", Briasson, 1745, pp. 261-356. [Code BnF Yf-3650, consultable à la Réserve des Livres Rares.]</note>
 	</front>
 <body>
@@ -394,7 +393,7 @@
 <sp who="ALBIN"><speaker>ALBIN.</speaker>
 	<l id="215">Ah ! De grâce aux Romains rendez plus de justice.</l>
 	<l id="216">Pour Brutus je le crois capable d'artifice :</l>
-	<l id="217">Mais il est généreux, et quel que soit son nom,</l>
+	<l id="217">Mais il est généreux, et quel_que_soit son nom,</l>
 	<l id="218">Il a trop de vertu pour tant de trahison.</l>
 </sp>
 <sp who="CÉSAR"><speaker>CÉSAR.</speaker>
@@ -2491,4 +2490,3 @@
 </body>
 </text>
 </TEI>
-

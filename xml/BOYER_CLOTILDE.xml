@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>CLOTILDE, TRAGÉDIE.</title>
-				<author ISNI="0000 0001 1571 1997">Claude BOYER (1618-1698)</author>
+				<author type="texte" ISNI="0000 0001 1571 1997">Claude BOYER (1618-1698)</author>
 				
 			</titleStmt>
 			<publicationStmt>
@@ -15,8 +15,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Tragédie</genre>
-				<inspiration>histoire antique</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>histoire</inspiration>				<structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1651-1660</periode>
 				<taille>1750-2000</taille>
@@ -60,8 +59,8 @@
 		</div>
 		<castList>
 			<head>ACTEURS.</head>
-			<castItem><role id="CLOTILDE" sex="1" type='H' statut="comte" age='J' statut_amoureux="néant">CLOTILDE</role>, Fille de Deuthère.</castItem>
-			<castItem><role id="DEUTHÈRE" sex="1" type='H' statut="comte" age='A' statut_amoureux="néant">DEUTHÈRE</role>, Veuve du Comte de Béziers.</castItem>
+			<castItem><role id="CLOTILDE" sex="2" type='H' statut="comte" age='J' statut_amoureux="néant">CLOTILDE</role>, Fille de Deuthère.</castItem>
+			<castItem><role id="DEUTHÈRE" sex="2" type='H' statut="comte" age='A' statut_amoureux="néant">DEUTHÈRE</role>, Veuve du Comte de Béziers.</castItem>
 			<castItem><role id="CLIDAMANT" sex="1" type='H' statut="favori" age='A' statut_amoureux="néant">CLIDAMANT</role>, Favori du Roi.</castItem>
 			<castItem><role id="THEODEBERT" sex="1" type='H' statut="roi" age='A' statut_amoureux="néant">THEODEBERT</role>, Roi de Metz.</castItem>
 			<castItem><role id="CLODOMIRE" sex="1" type='H' statut="aristocrate" age='J' statut_amoureux="néant">CLODOMIRE</role>, Fils de Théodebert.</castItem>
@@ -69,7 +68,7 @@
 			<castItem><role id="LUCINDE" sex="2" type='H' statut="confident" age='A' statut_amoureux="néant">LUCINDE</role>, Confidente de Deuthère.</castItem>
 			<castItem><role id="THÉOSILE" sex="2" type='H' statut="confident" age='A' statut_amoureux="néant">THÉOSILE</role>, Confidente de Clotilde.</castItem>
 		</castList>
-		<set location='Metz' country='France' periode='VIème' link=''>La Scène est à Metz, dans le Palais Royal.</set>
+		<set location="Metz" country="France" periode="VIème" gps="49.119309, 6.175716">La Scène est à Metz, dans le Palais Royal.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
@@ -1124,7 +1123,7 @@
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="736">De grâce, explique mieux les bontés de Deuthère ;</l>
-	<l id="737">Et quel que soit le don, qu'elle vient de me faire,</l>
+	<l id="737">Et quel_que_soit le don, qu'elle vient de me faire,</l>
 	<l id="738">Ôtons-en tous ces traits de haine et de fureur</l>
 	<l id="739">Et ne m'entretiens plus que de ce grand bonheur.</l>
 	<l id="740">Je vais faire ta paix avecque la Comtesse.</l>
@@ -2911,4 +2910,3 @@
 </body>
 </text>
 </TEI>
-

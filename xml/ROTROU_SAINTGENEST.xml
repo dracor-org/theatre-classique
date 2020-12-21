@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LE VÉRITABLE SAINT GENEST, TRAGÉDIE</title>
-				<author ISNI='0000 0001 2283 1639'>ROTROU, Jean (1609-1650)</author>
+				<author type="texte" ISNI='0000 0001 2283 1639'>ROTROU, Jean (1609-1650)</author>
 			</titleStmt>
 			<publicationStmt>	
 				<publisher>publié par Ernest FIEVRE, décembre 2007, revu octobre 2017</publisher>
@@ -13,8 +13,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Tragédie</genre>
-				<inspiration>histoire romaine</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>histoire</inspiration>				<structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1641-1650</periode>
 				<taille>1750-2000</taille>
@@ -42,9 +41,9 @@
 		</performance>
 
 <castList><head>ACTEURS</head>
-	<castItem><role id="DIOCLETIAN" sex="1" type="H" statut='empereur' age='A' stat_amour='néant'>DIOCLÉTIAN</role>, Empereur.</castItem>
+	<castItem><role id="DIOCLÉTIAN" sex="1" type="H" statut='empereur' age='A' stat_amour='néant'>DIOCLÉTIAN</role>, Empereur.</castItem>
 	<castItem><role id="MAXIMIN" sex="1" type="H" statut='empereur' age='A' stat_amour='néant'>MAXIMIN</role>, Empereur. </castItem>
-	<castItem><role id="VALERIE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>VALÉRIE</role>, fille de Dioclétian. </castItem>
+	<castItem><role id="VALÉRIE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>VALÉRIE</role>, fille de Dioclétian. </castItem>
 	<castItem><role id="CAMILLE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>CAMILLE</role>, suivante.</castItem>
 	<castItem><role id="PLANCIEN" sex="1" type="H" statut='préfet' age='A' stat_amour='néant'>PLANCIEN</role>, Préfet.</castItem>
 	<castItem><role id="GENEST" sex="1" type="H" statut='comédien' age='A' stat_amour='néant'>GENEST</role>, comédien.</castItem>
@@ -53,8 +52,7 @@
 	<castItem><role id="SERGESTE" sex="1" type="H" statut='comédien' age='A' stat_amour='néant'>SERGESTE</role>, comédien.</castItem>
 	<castItem><role id="LENTULE" sex="1" type="H" statut='comédien' age='A' stat_amour='néant'>LENTULE</role>, comédien.</castItem>
 	<castItem><role id="ALBIN" sex="1" type="H" statut='comédien' age='A' stat_amour='néant'>ALBIN</role>, comédien.</castItem>
-	<castItem><role id="DECORATEUR" sex="1" type="H" statut='décorateur' age='A' stat_amour='néant'>DÉCORATEUR</role>.</castItem>
-	<castItem><role id="GEOLIER" sex="1" type="H" statut='geôlier' age='A' stat_amour='néant'>GEÔLIER</role>.</castItem>
+	<castItem><role id="DÉCORATEUR" sex="1" type="H" statut='décorateur' age='A' stat_amour='néant'>DÉCORATEUR</role>.</castItem>
 	<castItem><role id="ADRIAN" sex="1" type="H" statut='rôle' age='A' stat_amour='néant'>ADRIAN</role>, représenté par Genest.</castItem>
 	<castItem><role id="NATALIE" sex="2" type="H" statut='rôle' age='A' stat_amour='néant'>NATALIE</role>, par Marcele.</castItem>
 	<castItem><role id="FLAVIE" sex="1" type="H" statut='rôle' age='A' stat_amour='néant'>FLAVIE</role>, par Sergeste.</castItem>
@@ -64,7 +62,7 @@
 	<castItem><role id="GEÔLIER" sex="1" type="H" statut='geôlier' age='A' stat_amour='néant'>GEÔLIER</role>.</castItem>
 	<castItem><role id="GARDES" sex="9" type="H" statut='garde' age='A' stat_amour='néant'>Suite de Soldats et Gardes</role>.</castItem>
 </castList>
-<set location='Rome' country='Italie' periode='IVème' link=''></set>
+<set location="Rome" country="Italie" periode="IVème" gps="41.902783, 12.496365"></set>
 </front>
 <body>
 <div1 type="act" n='1'><head>ACTE I</head>
@@ -331,7 +329,7 @@
 </sp>
 <sp stage="toward" who='CAMILLE'><speaker>CAMILLE, à Valérie.</speaker>
 	<l id='204' part="f">Il manquait seul à vos prospérités ;</l>
-	<l id='205'>Et quel que soit votre heur, son art, pour le parfaire,</l>
+	<l id='205'>Et quel_que_soit votre heur, son art, pour le parfaire,</l>
 	<l id='206'>Semble en quelque façon vous être nécessaire.</l>
 	<l id='207'>Madame, obtenez-nous ce divertissement,</l>
 	<l id='208'>Que vous-même estimez, et trouvez si charmant.</l>
@@ -2526,5 +2524,4 @@
 </body>
 </text>
 </TEI>
-
 

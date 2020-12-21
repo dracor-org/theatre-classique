@@ -14,8 +14,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Tragédie</genre>
-				<inspiration>histoire romaine</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>histoire</inspiration>				<structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1711-1720</periode>
 				<taille>1250-1500</taille>
@@ -47,11 +46,12 @@
 	<castItem><role id="HIERON" sex="1" type="H" statut="ambassadeur" age="A" stat_amour="néant">HIÉRON</role>, ambassadeur d'Arménie et confident de Rhadamisthe.</castItem>
 	<castItem><role id="MITRANE" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">MITRANE</role>, capitaine des gardes de Pharasmane.</castItem>
 	<castItem><role id="HYDASPE" sex="1" type="H" statut="confident" age="A" stat_amour="néant">HYDASPE</role>, confident de Pharasmane.</castItem>
-	<castItem><role id="PHÉNICE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">PHÉNICE</role>, confident de Zénobie.</castItem>
+	<castItem><role id="PHÉNICE" sex="1" type="H" statut="confident" age="A" stat_amour="néant">PHÉNICE</role>, confident de Zénobie.</castItem>
 	<castItem><role id="GARDES" sex="9" type="H" statut="garde" age="A" stat_amour="néant">Gardes</role>.</castItem>
 </castList>
-<set location="Artanisse" country="Georgie" periode="Ier" link="">La scène est dans Artanisse, capitale de l'Ibérie, dans le palais de Pharasmane.</set>
+<set location="Artanisse" country="Géorgie" periode="Ier" link="42.1485, 41.6744">La scène est dans Artanisse, capitale de l'Ibérie, dans le palais de Pharasmane.</set>
 </front>
+<note>Le lieu de l'action n'est pas clairement identifié.</note>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE I. Zénobie, sous le nom d'Isménie ; Phénice.</head>
@@ -308,7 +308,7 @@
 <sp who="ZENOBIE"><speaker>ZÉNOBIE.</speaker>
 	<l id="207">Seigneur, il est trop vrai qu'une flamme funeste</l>
 	<l id="208">A fait parler ici des feux que je déteste :</l>
-	<l id="209">Mais, quel que soit le rang et le pouvoir du roi,</l>
+	<l id="209">Mais, quel_que_soit le rang et le pouvoir du roi,</l>
 	<l id="210">C'est en vain qu'il prétend disposer de ma foi.</l>
 	<l id="211">Ce n'est pas que, sensible à l'ardeur qui vous flatte,</l>
 	<l id="212">J'approuve ces transports où votre amour éclate.</l>
@@ -894,7 +894,7 @@
 	<l id="696">Ah ! Que cette vertu va vous être suspecte !</l>
 	<l id="697">Que je crains de détruire en ce même entretien</l>
 	<l id="698">Tout ce que vous pensez d'un coeur comme le mien !</l>
-	<l id="699">En effet, quel que soit le regret qui m'accable,</l>
+	<l id="699">En effet, quel_que_soit le regret qui m'accable,</l>
 	<l id="700">Je sens bien que ce coeur n'en est pas moins coupable ;</l>
 	<l id="701">Et, de quelques remords que je sois combattu,</l>
 	<l id="702">Qu'avec plus d'appareil c'est trahir ma vertu.</l>
@@ -1410,7 +1410,7 @@
 	<l id="1091">Je ne m'attendais pas à vous voir en ces lieux :</l>
 	<l id="1092">Mais, si près de quitter pour jamais Isménie,</l>
 	<l id="1093">Vous vous occupez peu du soin de votre vie ;</l>
-	<l id="1094">Et d'un père cruel quel que soit le courroux,</l>
+	<l id="1094">Et d'un père cruel quel_que_soit le courroux,</l>
 	<l id="1095">On s'oublie aisément en des moments si doux.</l>
 </sp>
 <sp who="ARSAME"><speaker>ARSAME.</speaker>
@@ -1919,4 +1919,3 @@
 </body>
 </text>
 </TEI>
-

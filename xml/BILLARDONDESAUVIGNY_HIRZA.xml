@@ -4,7 +4,7 @@
 	<fileDesc>
 		<titleStmt>
 			<title>HIRZA, TRAGÉDIE</title>
-			<author ISNI="0000 0000 8100 6092">BILLARDON DE SAUVIGNY, Edme-Louis (1736?-1812)</author>
+			<author type="texte" ISNI="0000 0000 8100 6092">BILLARDON DE SAUVIGNY, Edme-Louis (1736?-1812)</author>
 		</titleStmt>
 		<publicationStmt>	
 			<editor>Édition de Paul Fièvre et Sébastien Côté (Carleton University, Ottawa), avec la collaboration de Caroline Boland, Mara Currie, Rachel Green, Laura Groves, Sarah Healy, Shayla Hickson, Wisdom Johnson, Rodrigue Kinga, Marissa Kocent, Monica Lung, Katrina MacLean, Sissi Malula, Emma Rooke-Thompson et Sarah Starrett pour l'établissement du texte. Réalisée dans le cadre du cours FREN3213: «Du Baroque aux Lumières» et du projet La Nouvelle-France sur les planches parisiennes au xviiie siècle : contribution à l'histoire de l'imaginaire par l'édition de comédies oubliées (FFCR et CRSH).</editor>
@@ -14,8 +14,7 @@
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Tragédie</genre>
-			<inspiration>moeurs canadiennes</inspiration>
-			<structure>Un acte</structure>
+			<inspiration>moeurs</inspiration>			<structure>Un acte</structure>
 			<type>vers</type>
 			<periode>1761-1770</periode>
 			<taille>1000-1250</taille>
@@ -61,10 +60,10 @@
 		<castItem><role id="HIRZA" sex="2" type="H" statut='sauvage' age='A' stat_amour=''>HIRZA</role>. Mlle. DUBOIS.</castItem>
 		<castItem><role id="MONRÉAL" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONRÉAL</role>. M. MOLE.</castItem>
 		<castItem><role id="HIASKAR" sex="1" type="H" statut='sauvage' age='A' stat_amour=''>HIASKAR</role>, Chef de Guerre, M. LE KAIN.</castItem>
-		<castItem><role id="" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONRÉAL PÈRE</role>. M. BRIZARD.</castItem>
-		<castItem><role id="OUKÉA" sex="1" type="H" statut='sauvage' age='A' stat_amour=''>OUKÉA</role>, Chef du Conseil des Vieillards. M.D'AUBERVAL.</castItem>
+		<castItem><role id="MONRÉAL PÈRE" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONRÉAL PÈRE</role>. M. BRIZARD.</castItem>
+		<castItem><role id="OUKÉA" sex="1" type="H" statut='sauvage' age='V' stat_amour=''>OUKÉA</role>, Chef du Conseil des Vieillards. M.D'AUBERVAL.</castItem>
 	</castList>
-	<set location='Niagara' country='Canada' periode='XVIIIème' link=''></set>
+	<set location="Niagara" country="Canada" periode="XVIIIème" gps="43.086163, -79.062602"></set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
@@ -1647,7 +1646,7 @@
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="1039">Il faut donc l'accomplir ce funeste serment !</l>
 	<l id="1040">Et sur qui ?... J'en frémis ! Quels apprêts ! Quel moment!...</l>
-	<l id="1041">Non jamais, quel que soit le devoir qui me lie,</l>
+	<l id="1041">Non jamais, quel_que_soit le devoir qui me lie,</l>
 	<l id="1042">Ma main à ce vieillard n'arrachera la vie...</l>
 	<l id="1043">Mais c'est trop balancer... Étouffons nos regrets...</l>
 <stage type="toward">Aux guerriers.</stage>
@@ -1883,4 +1882,3 @@
 </body>
 </text>
 </TEI>
-

@@ -4,17 +4,17 @@
 	<fileDesc>
 		<titleStmt>
 			<title>ANNIBAL, TRAGÉDIE.</title>
-			<author ISNI="0000 0001 2145 8289">MARIVAUX, Pierre de (1688-1763)</author>
+			<author type="texte" ISNI="0000 0001 2145 8289">MARIVAUX, Pierre de (1688-1763)</author>
 		</titleStmt>
 		<publicationStmt>	
-			<publisher>publié par Paul FIEVRE, mai 2002, revu juillet 2016</publisher>
+			<editor>Texte établi par Paul FIEVRE, mai 2002, revu juillet 2016</editor>
+			<publisher>Publié par Paul FIEVRE, mai 2002, revu juillet 2016, décembre 2019</publisher>
 			<idno>MARIVAUX_ANNIBAL</idno>
 			<rights>Creative Commons BY-NC-SA</rights>
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Tragédie</genre>
-			<inspiration>histoire romaine</inspiration>
-			<structure>Cinq actes</structure>
+			<inspiration>histoire</inspiration>			<structure>Cinq actes</structure>
 			<type>vers</type>
 			<periode>1711-1720</periode>
 			<taille>1500-1750</taille>
@@ -49,7 +49,7 @@
 			<castItem><role id="FLAVIUS" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>FLAVIUS</role>, confident de Flaminius.</castItem>
 			<castItem><role id="EGINE" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>EGINE</role>, confidente de Laodice.</castItem>
 		</castList>
-		<set location='Carthagène' country='Algérie' periode='Avant JC IIème' link=''>La scène est dans le palais de Prusias.</set>
+		<set location="Izmit" country="Turquie" periode="Avant JC IIème" gps="40.765441, 29.940809">La scène est dans le palais de Prusias.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
@@ -2080,7 +2080,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X et dernière. Tous les acteurs.</head>
-<sp stage="alone" who="PRUSIAS"><speaker>PRUSIAS, à Annibal.</speaker>
+<sp stage="toward" who="PRUSIAS"><speaker>PRUSIAS, à Annibal.</speaker>
 	<l id="1562">Seigneur, serait-il vrai ce qu'Amilcar nous dit !</l>
 </sp>
 <sp who="ANNIBAL"><speaker>ANNIBAL.</speaker>
@@ -2120,4 +2120,3 @@
 </body>
 </text>
 </TEI>
-

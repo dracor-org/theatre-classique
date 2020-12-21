@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LE MORT VIVANT, COMÉDIE.</title>
-				<author ISNI="0000 0000 8342 9101">Edme BOURSAULT (1638-1701)</author>							</titleStmt>
+				<author type="texte" ISNI="0000 0000 8342 9101">Edme BOURSAULT (1638-1701)</author>							</titleStmt>
 			<publicationStmt>	
 				<editor>Texte établi par Charlotte Dias, dans le cadre d'un travail d'édition critique sous la direction de Georges Forestier. (Université Paris-Sorbonne)
 				</editor>
@@ -15,8 +15,7 @@
 			</publicationStmt>
 		<SourceDesc>
 				<genre>Comédie</genre>
-				<inspiration>moeurs espagnoles</inspiration>
-				<structure>Trois actes</structure>
+				<inspiration>moeurs</inspiration><structure>Trois actes</structure>
 				<type>vers</type>
 				<periode>1661-1670</periode>
 				<taille>750-1000</taille>
@@ -67,7 +66,7 @@
 			<castItem><role id="UNE SERVANTE" sex="2" type="H" statut="servante" age="A" stat_amour='néant'>UNE SERVANTE</role> de l'Hôte à Lazarille.</castItem>
 			<castItem><role id="L'HÔTE DE LAZARILLE" sex="1" type="H" statut="hôte" age="A" stat_amour='néant'>L'HÔTE DE LAZARILLE</role>.</castItem>
 		</castList>
-		<set location='Séville' country='Espagne' periode='XVIIème' link=''>La scène est à Séville.</set>
+		<set location="Séville" country="Espagne" periode="XVIIème" gps="37.389092, -5.984459">La scène est à Séville.</set>
 </front>
 <body>
 <div1 type="act" n='1'><head>ACTE I</head>
@@ -302,7 +301,7 @@
 	<l id="111">Mais il faut toutefois m'assurer de se taire.</l>
 </sp>
 <sp who="LAZARILLE"><speaker>LAZARILLE.</speaker>
-	<l id="112">De ce triste secret quel que soit le mystère,</l>
+	<l id="112">De ce triste secret quel_que_soit le mystère,</l>
 	<l id="113">Parlez, de vos Amis je suis l'un des plus grands.</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
@@ -2072,4 +2071,3 @@
 </body>
 </text>
 </TEI>
-

@@ -4,7 +4,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>LA VEUVE OU LE TRAÎTRE TRAHI, COMÉDIE</title>
-				<author ISNI="0000 0001 2129 6128">CORNEILLE, Pierre (1606-1684)</author>
+				<author type="texte" ISNI="0000 0001 2129 6128">CORNEILLE, Pierre (1606-1684)</author>
 				<date>1631</date>
 			</titleStmt>
 			<publicationStmt>	
@@ -14,8 +14,7 @@
 			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
-				<inspiration>moeurs françaises</inspiration>
-				<structure>Cinq actes</structure>
+				<inspiration>moeurs</inspiration><structure>Cinq actes</structure>
 				<type>vers</type>
 				<periode>1631-1640</periode>
 				<taille>2000-2250</taille>
@@ -44,7 +43,8 @@
 	<head>Madame,</head>
 	<p>Le bon accueil qu'autrefois cette Veuve a reçu de vous l'oblige à vous remercier, et l'enhardit à vous demander la faveur de votre protection. Étant exposée aux coups de l'envie et de la médisance, elle n'en peut trouver de plus assurée que celle d'une personne sur qui ces deux monstres n'ont jamais de prise. Elle espère que vous ne la méconnaîtrez pas pour être dépouillée de tous autres ornements que les siens, et que vous la traiterez aussi bien qu'alors que la grâce de la représentation la mettait en son jour. Pourvu qu'elle vous puisse divertir encore une heure, elle trop contente, et se bannira sans regret du théâtre pour avoir une place dans votre cabinet. Elle honteuse de vous ressembler si peu, et a de grands sujets d'appréhender qu'on ne l'accuse de peu de jugement de se présenter devant vous, dont les perfections la feront paraître d'autant plus imparfaite ; mais quand elle considère qu'elles en sont en un si haut point, qu'on n'en peut avoir de légères teintures sans des privilèges tout particuliers du ciel, elle se rassure entièrement, et n'ose plus craindre qu'il se rencontre des esprits assez injustes pour lui imputer à défaut le manque des choses qui sont au dessus des forces de la nature : en effet, MADAME, quelque difficulté que vous fassiez de croire aux miracles, il faut que vous en reconnaissiez en vous même, ou que vous ne vous connaissiez pas, puisqu'il est tout vrai que des vertus et des qualités si peu commune que les vôtres ne sauraient avoir d'autre nom. Ce n'est pas mon dessein d'en faire ici les éloges ; outre qu'il serait superflu de particulariser ce que tout le monde sait, la bassesse de mon discours profanerait des choses si relevées. Ma plume est trop faible pour entreprendre de voler si haut ; c'est assez pour elle de vous rendre mes devoirs, et de vous protester, avec plus de vérité que d'éloquence, que je serai toute ma vie, </p>
 	<p>MADAME,</p>
-	<p>Votre très humble et très obéissant serviteur, Corneille. </p>
+	<p>Votre très humble et très obéissant serviteur,</p>
+	<signature>CORNEILLE. </signature>
 </div>
  <div type="preface"> 
 	<head>AU LECTEUR.</head>
@@ -500,13 +500,13 @@
 			<castItem><role id="CHRYSANTE" sex="2" type="H" statut='aristocrate' age='V' stat_amour='néant'>CHRYSANTE</role>, mère de Doris.</castItem>
 			<castItem><role id="DORIS" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>DORIS</role>, soeur de Philiste.</castItem>
 			<castItem><role id="NOURRICE" sex="2" type="H" statut='nourrice' age='A' stat_amour='néant'>LA NOURRICE de Clarice</role>.</castItem>
-			<castItem><role id="GERON" sex="1" type="H" statut='bourgeois' age='A' stat_amour='Doris'>GÉRON</role>, agent de Florange, amoureux de Doris.</castItem>
+			<castItem><role id="GÉRON" sex="1" type="H" statut='bourgeois' age='A' stat_amour='Doris'>GÉRON</role>, agent de Florange, amoureux de Doris.</castItem>
 			<castItem><role id="LYCAS" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>LYCAS</role>, domestique de Philiste.</castItem>
 			<castItem><role id="POLYMAS" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>POLIMAS</role>, domestique de Clarice.</castItem>
 			<castItem><role id="DORASTE" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>DORASTE</role>, domestique de Clarice.</castItem>
 			<castItem><role id="LISTOR" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>LISTOR</role>, domestique de Clarice.</castItem>
 		</castList>
-		<set location='Paris' country='France' periode='XVIIème' link=''>La scène est à Paris.</set>
+		<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
@@ -3798,4 +3798,3 @@
 </body>
 </text>
 </TEI>
-

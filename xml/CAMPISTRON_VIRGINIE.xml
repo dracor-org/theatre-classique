@@ -4,7 +4,7 @@
 	<fileDesc>
 		<titleStmt>
 			<title>VIRGINIE, TRAGÉDIE</title>
-			<author ISNI="0000 0001 1828 0635">Jean Galbert de CAMPISTRON (1656-1713)</author>
+			<author type="texte" ISNI="0000 0001 1828 0635">Jean Galbert de CAMPISTRON (1656-1713)</author>
 		</titleStmt>
 		<publicationStmt>	
 			<editor>Texte établi par Sylvain Garnier pour le Mémoire de master I sous la direction de M. Georges Forestier, U.F.R de Littérature française et comparée, 2007.</editor>
@@ -14,8 +14,7 @@
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Tragédie</genre>
-			<inspiration>histoire romaine</inspiration>
-			<structure>Cinq actes</structure>
+			<inspiration>histoire</inspiration>			<structure>Cinq actes</structure>
 			<type>vers</type>
 			<periode>1681-1690</periode>
 			<taille>1500-1750</taille>
@@ -65,7 +64,7 @@
 	<castItem><role id="PISON" sex="1" type="H" statut='capitaine' age='A' stat_amour='néant'>PISON</role>, capitaine des Gardes d'Appius.</castItem>
 	<castItem><role id="GARDES" sex="9" type="H" statut='garde' age='A' stat_amour='néant'>Gardes</role>.</castItem>
 </castList>
-<set location='Rome' country='Italie' periode='Avant JC Vème' link=''>La Scène est à Rome dans le Palais d'Appius.</set>
+<set location="Rome" country="Italie" periode="Avant JC Vème" gps="41.902783, 12.496365">La Scène est à Rome dans le Palais d'Appius.</set>
 </front>
 <body>
 <div1 type="act" n='1'><head>ACTE I</head>
@@ -725,7 +724,7 @@
 	<l id='496'>Madame, par pitié cachez-moi vos douleurs,</l>
 	<l id='497'>C'est trop de mes ennuis, et de votre tristesse,</l>
 	<l id='498'>Mais je la finirai, croyez-en ma promesse,</l>
-	<l id='499'>Je perdrai vos tyrans, et quel que soit leur rang,</l>
+	<l id='499'>Je perdrai vos tyrans, et quel_que_soit leur rang,</l>
 	<l id='500'>Ces pleurs que vous versez leur coûteront du sang.</l>
 </sp>
 <sp who='VIRGINIE'><speaker>VIRGINIE</speaker>
@@ -2217,5 +2216,4 @@
 </body>
 </text>
 </TEI>
-
 

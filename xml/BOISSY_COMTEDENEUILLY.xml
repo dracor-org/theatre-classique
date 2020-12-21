@@ -4,7 +4,7 @@
 	<fileDesc>
 		<titleStmt>
 			<title type="main">LE COMTE DE NEUILLY</title>
-			<author ISNI="0000 0000 8077 2860">BOISSY, Louis de  (1694-1758)</author>
+			<author type="texte" ISNI="0000 0000 8077 2860">BOISSY, Louis de  (1694-1758)</author>
 		</titleStmt>
 		<publicationStmt>
 			<editor>Texte établi par Paul FIEVRE, avril 2019.</editor>
@@ -14,7 +14,7 @@
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Comédie héroïque</genre>
-			<inspiration>moeurs anglaises</inspiration>
+			<inspiration>moeurs</inspiration>
 			<structure>Cinq actes</structure>
 			<type>vers</type>
 			<periode>1731-1740</periode>
@@ -56,7 +56,7 @@
         <castItem><role id="LUCIE" sex="2" type='H' statut='aristocrate' age='A' statut_amoureux="néant">LUCIE</role>.</castItem>
         <castItem><role id="NELTON" sex="1" type='H' statut='confident' age='A' statut_amoureux="néant">NELTON</role>, Confident du Comte de Neuilly.</castItem>
       </castList>
-		<set location='Paris' country='France' periode='XVIIIème' link=''>La Scène est à Paris dans l'Hôtel de la Marquise.</set>
+		<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est à Paris dans l'Hôtel de la Marquise.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
@@ -1682,7 +1682,7 @@
 	<l id="1030">Satisfaisant l'amant, ferait rougir l'époux.</l>
 </sp>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
-	<l id="1031">La suite, quel que soit le préjugé sévère,</l>
+	<l id="1031">La suite, quel_que_soit le préjugé sévère,</l>
 	<l id="1032">Ne fait jamais rougir, quand elle est nécessaire,</l>
 	<l id="1033" syll="2" part="i">L'hymen ....</l>
 </sp>
@@ -1936,4 +1936,3 @@
 </body>
 </text>
 </TEI>
-
