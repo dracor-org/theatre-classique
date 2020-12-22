@@ -24,7 +24,18 @@ for url in $($LYNX | $GREP); do
 
   if ! [ -f $file ]; then
     wget -O $file $url
-    # add newline to end of originals for cleaner diffs
-    echo >> $file
+    rc=$?
+    if [ $rc == 0 ]; then
+      # add newline to end of originals for cleaner diffs
+      echo >> $file
+    elif [ $rc == 8 ]; then
+      # ignore 404 or other server errors
+      rm $file
+      echo "Server error. Ignoring file!"
+      echo
+    else
+      # abort on other errors
+      exit 1
+    fi
   fi
 done
