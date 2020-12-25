@@ -19,8 +19,8 @@ fi
 
 # retrieve TEI files from Theatre Classique
 for url in $($LYNX | $GREP); do
-  name=$(basename $url | sed 's/\.[Xx][Mm][Ll]$//' | sed 's/%20//g')
-  file="$TARGET_DIR/$name.xml"
+  name=$(basename $url | sed 's/%20//g')
+  file="$TARGET_DIR/$name"
 
   if ! [ -f $file ]; then
     wget -O $file $url
