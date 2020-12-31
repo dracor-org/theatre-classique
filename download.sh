@@ -19,7 +19,7 @@ fi
 
 # retrieve TEI files from Theatre Classique
 for url in $($LYNX | $GREP); do
-  name=$(basename $url | sed 's/%20//g')
+  name=$(basename $url)
   file="$TARGET_DIR/$name"
 
   if ! [ -f $file ]; then
