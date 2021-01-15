@@ -1,5 +1,52 @@
 #!/bin/sh
 
+usage () {
+  cat <<EOF
+Update repo with files from theatre-classique.fr
+
+Usage: $0 [--all | --help]
+
+OPTIONS:
+  -a, --all       update all files including existing ones
+  -h, --help      show this message
+
+EOF
+}
+
+# options parsing inspired by
+# https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
+
+ALL=""
+PARAMS=""
+
+while (( "$#" )); do
+  case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    -a|--all)
+      ALL=yes
+      shift
+      ;;
+    -v|--verbose)
+      VERBOSE=yes
+      shift
+      ;;
+    -*|--*=) # unsupported flags
+      echo "Error: Unsupported flag $1" >&2
+      exit 1
+      ;;
+    *) # preserve positional arguments
+      PARAMS="$PARAMS $1"
+      shift
+      ;;
+  esac
+done
+
+# set positional arguments in their proper place
+eval set -- "$PARAMS"
+
 # page to scrape the TEI URLs from
 INDEX_URL="http://theatre-classique.fr/pages/programmes/PageEdition.php"
 
@@ -22,7 +69,7 @@ for url in $($LYNX | $GREP); do
   name=$(basename $url)
   file="$TARGET_DIR/$name"
 
-  if ! [ -f $file ]; then
+  if ! [[ -f $file ]] || [[ -n "$ALL" ]]; then
     wget -O $file $url
     rc=$?
     if [ $rc == 0 ]; then
@@ -37,5 +84,7 @@ for url in $($LYNX | $GREP); do
       # abort on other errors
       exit 1
     fi
+  else
+    [ -z $VERBOSE ] || echo "skipping $name"
   fi
 done
