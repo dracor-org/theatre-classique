@@ -36,3 +36,13 @@ run a simple update again:
 rm xml/MOLIERE_TARTUFFE.xml
 ./update
 ```
+
+## The `dracor` branch
+
+The [`dracor`](https://github.com/dracor-org/theatre-classique/tree/dracor)
+branch contains
+[changes](https://github.com/dracor-org/theatre-classique/compare/dracor) made
+before importing the Théâtre Classique sources into FreDraCor that have not yet
+been adopted upstream.
+
+After an update the `dracor` branch should be rebases onto the `main` branch.
