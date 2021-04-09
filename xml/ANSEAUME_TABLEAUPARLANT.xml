@@ -49,7 +49,7 @@
 		<castItem><role id='LÉANDRE' sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>LÉANDRE</role>, neveu de Cassandre, amoureux d'Isabelle.</castItem>
 		<castItem><role id='PIERROT' sex="1" type="H" statut='valet' age='A' stat_amour='néant'>PIERROT</role>, valet de Léandre.</castItem>
 	</castList>
-	<set location='Campagne française' country='France'  periode='XVIIIème' link=''>La scène est chez Monsieur Casandre.</set>
+	<set location='Campagne française' country='France'  periode='XVIIIème' gps="(N/A)">La scène est chez Monsieur Casandre.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE TABLEAU PARLANT</head>
@@ -88,7 +88,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Isabelle, Colombine.</head>
-<sp who="COLOMBINE"><speaker>COLOMBINE, entre en chantant.</speaker>
+<sp stage="entrance/sing" who="COLOMBINE"><speaker>COLOMBINE, entre en chantant.</speaker>
 <stage type="title">Fragment d'une ariette de la Veuve indécise.</stage>
 	<l id="29">Il nous faut au village</l>
 	<l id="30">Un mari jeune et dodu ;</l>
@@ -1412,7 +1412,7 @@
 <stage type="low/toward">Bas, à Léandre.</stage>
 	<l id="669">Parlerai-je de la négresse ?</l>
 </sp>
-<sp who="LÉANDRE"><speaker>LÉANDRE, à Pierrot.</speaker>
+<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Pierrot.</speaker>
 	<l id="670">Coquin, si tu dis un seul mot... </l>
 <stage type="toward">À Isabelle.</stage>
 	<l id="671">Je vous dirai bien plus. Une telle victoire</l>
@@ -1494,7 +1494,7 @@
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 	<l id="710">C'est bien dit : hâtons-nous ; car la faim me talonne.</l>
 	<l id="711">Portons cette table à nous deux.</l>
-<stage type="carry/drop/decor">Ils apportent au milieu du Théâtre une table, couverte d'une nappe, et de quatre couverts.</stage>
+<stage type="carry/drop/location/furniture">Ils apportent au milieu du Théâtre une table, couverte d'une nappe, et de quatre couverts.</stage>
 	<l id="712" syll="6" part="i">Des lumières dessus.</l>
 <stage type="drop/decor">On pose deux bougies sur la table et Colombine apporte un pâté.</stage>
 	<l id="712" syll="6" part="f">Un pâté ! Bon, tant mieux.</l>
@@ -1961,7 +1961,7 @@
 </sp>
 </div2>
 <div2 type="vaudeville" n="13"><head>VAUDEVILLE.</head>
-<sp who="TOUS"><speaker>TOUS, hors Cassandre.</speaker>
+<sp stage="together" who="TOUS"><speaker>TOUS, hors Cassandre.</speaker>
 	<l id="958">Le dieu de la tendresse</l>
 	<l id="959">Sourit à la jeunesse ;</l>
 	<l id="960">Il fuit avec courroux</l>

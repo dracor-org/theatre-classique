@@ -60,7 +60,7 @@
 			<castItem><role id="SOLDATS ENNEMIS" sex="1" type="H" statut="soldat" age="A" stat_amour=''>SOLDATS ENNEMIS</role>.</castItem>
 			<castItem><role id="PEUPLE" sex="9" type="H" statut="peuple" age="A" stat_amour=''>PEUPLE</role>.</castItem>
 		</castList>
-		<set location='France' country='France' periode='XVIIIème' link=''>La scène est sur les frontières.</set>
+		<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est sur les frontières.</set>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
@@ -320,7 +320,7 @@
 	<l id="210">Quand nos rois au combat vous menaient en esclaves,</l>
 	<l id="211">Pour la patrie armés, que ne vaincra—vous pas ?</l>
 </sp>
-<sp who="SÉLIMARS"><speaker>SÉLIMARS, en montrant les troupes de ligne.</speaker>
+<sp stage="show" who="SÉLIMARS"><speaker>SÉLIMARS, en montrant les troupes de ligne.</speaker>
 	<l id="212">Oui, je vous réponds d'eux, comme de nos soldats.</l>
 	<l id="213">Citoyens connue nous, il auront ce courage</l>
 	<l id="214">Qui nous fait préférer la mort à l'esclavage ;</l>
@@ -574,7 +574,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Le Général ennemi, Le Député.</head>
-<sp who="LE GÉNÉRAL"><speaker>LE GÉNÉRAL, au Député.</speaker>
+<sp stage="toward" who="LE GÉNÉRAL"><speaker>LE GÉNÉRAL, au Député.</speaker>
 	<l id="415">Prenez place... orateur d'un peuple infortuné,</l>
 	<l id="416">Qui de tant de périls se voit environné,</l>
 	<l id="417">Venez-vous abjurer ses erreurs, son audace,</l>
@@ -837,7 +837,7 @@
 <sp who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ.</speaker>
 	<l id="611" syll="4" part="i">Quoi ! Des Français !</l>
 </sp>
-<sp who="LE PRÉLAT"><speaker>LE PRÉLAT, au député.</speaker>
+<sp stage="toward" who="LE PRÉLAT"><speaker>LE PRÉLAT, au député.</speaker>
 	<l id="611" syll="8" part="f">Leur chef porte vers nous ses pas...</l>
 </sp>
 <sp who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ.</speaker>
@@ -863,7 +863,7 @@
 <sp who="LE CHEF DES FUGITIFS"><speaker>LE CHEF DES FUGITIFS.</speaker>
 	<l id="619">C'est d'un peuple égaré qu'il faut ouvrir les yeux.</l>
 </sp>
-<sp who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ, au Prélat et au Chef dés fugitifs.</speaker>
+<sp stage="toward" who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ, au Prélat et au Chef dés fugitifs.</speaker>
 	<l id="620">Ne puis-je, sans témoins, (vous parler à tous deux ?</l>
 </sp>
 <sp who="LE PRÉLAT"><speaker>LE PRÉLAT.</speaker>
@@ -1317,7 +1317,7 @@ L'Officier Municipal, Soldats, Peuple.</head>
 	<l id="934" syll="10" part="f">Quel trouble affreux s'élève dans mon sein !...</l>
 	<l id="935" syll="6" part="i">Mon fils ne revient point.</l>
 </sp>
-<sp who="LE MAIRE"><speaker>LE MAIRE, au député.</speaker>
+<sp stage="toward" who="LE MAIRE"><speaker>LE MAIRE, au député.</speaker>
 	<l id="935" syll="6" part="f">Et quel Dieu tutélaire </l>
 	<l id="936" syll="10" part="i">À de ces furieux désarmé la colère ?</l>
 </sp>
@@ -1452,7 +1452,7 @@ L'Officier Municipal, Soldats, Peuple.</head>
 <sp stage="hugh" who="MADAME SÉLIMARS"><speaker>MADAME SÉLIMARS, se jetant sur lui.</speaker>
 	<l id="1009" syll="6" part="f">Mon fils, mon cher fils !</l>
 </sp>
-<sp who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ, aux Soldats et au Peuple.</speaker>
+<sp stage="toward" who="LE DÉPUTÉ"><speaker>LE DÉPUTÉ, aux Soldats et au Peuple.</speaker>
 	<l id="1010">Compagnons d'un héros, vengeur de son pays,</l>
 	<l id="1011">Allons rendre à son ombre un hommage funèbre ;</l>
 	<l id="1012">Et qu‘aux pieds des autels un monument célèbre,</l>

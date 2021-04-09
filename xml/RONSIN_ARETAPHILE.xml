@@ -49,7 +49,7 @@
 			<castItem><role id="PRÊTRES" sex="1" type="H" statut="prêtre" age="A" stat_amour=''>PRÊTRES</role>.</castItem>
 			<castItem><role id="PEUPLE" sex="9" type="H" statut="peuple" age="A" stat_amour=''>PEUPLE</role>.</castItem>
 		</castList>
-		<set location="Cyrène" country="Lybie" periode="Ier avant JC" link="32.803449, 21.862820">L'action se passe dans la ville de Cyrène. Le premier acte, dans la Cabane d'un pauvre ; le second, dans la Tour, le troisième, dans le Palais de Norate ; le quatrième, dans la Salle du Sénat ; et le cinquième, dans le Temple.</set>
+		<set location="Cyrène" country="Lybie" periode="Avant JC Ier" gps="32.803449, 21.862820">L'action se passe dans la ville de Cyrène. Le premier acte, dans la Cabane d'un pauvre ; le second, dans la Tour, le troisième, dans le Palais de Norate ; le quatrième, dans la Salle du Sénat ; et le cinquième, dans le Temple.</set>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
@@ -1254,7 +1254,7 @@ dans le fond du théâtre, Soldats.</head>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. Énarus, Arétaphile, Oxiane.</head>
-<sp who="ARÉTAPHILE"><speaker>ARÉTAPHILE, à Énarus.</speaker>
+<sp stage="toward" who="ARÉTAPHILE"><speaker>ARÉTAPHILE, à Énarus.</speaker>
 	<l id="794">Et toi, qui du tyran sers si bien les complots,</l>
 	<l id="795" syll="6" part="i">Que ne suis-tu ses pas ?</l>
 </sp>
@@ -1302,7 +1302,7 @@ dans le fond du théâtre, Soldats.</head>
 <sp who="ÉNARUS"><speaker>ÉNARUS.</speaker>
 	<l id="811" syll="1" part="i">Dieux !</l>
 </sp>
-<sp who="OXIANE"><speaker>OXIANE, à Arétaphile.</speaker>
+<sp stage="toward" who="OXIANE"><speaker>OXIANE, à Arétaphile.</speaker>
 	<l id="811" syll="5" part="f">Que lui dites-vous ?</l>
 </sp>
 <sp who="ARÉTAPHILE"><speaker>ARÉTAPHILE.</speaker>
@@ -1666,7 +1666,7 @@ dans le fond du théâtre, Soldats.</head>
 <sp stage="toward" who="EURYMÈNE"><speaker>EURYMÈNE, aux Soldats.</speaker>
 	<l id="1037" syll="6" part="i">Qu'on le mène à la tour.</l>
 </sp>
-<sp who="ÉGLATOR"><speaker>ÉGLATOR, bas à Enarus.</speaker>
+<sp stage="low/toward" who="ÉGLATOR"><speaker>ÉGLATOR, bas à Enarus.</speaker>
 	<l id="1037" syll="6" part="f">Mon ami, souviens-toi</l>
 	<l id="1038">Du service fatal que j'attends de ta foi.</l>
 </sp>
@@ -2003,7 +2003,7 @@ dans le fond du théâtre, Soldats.</head>
 <sp stage="drink/toward" who="NORATE"><speaker>NORATE, après avoir bu, à Oxiane.</speaker>
 	<l id="1226" syll="4" part="m">Et vous, Madame...</l>
 </sp>
-<sp who="ARÉTAPHILE"><speaker>ARÉTAPHILE, à Norate.</speaker>
+<sp stage="toward" who="ARÉTAPHILE"><speaker>ARÉTAPHILE, à Norate.</speaker>
 	<l id="1226" syll="2" part="f">Arrête.</l>
 <stage type="steal/drop">Elle lui arrache la coupe des mains et la pose sur l'autel.</stage>
 </sp>

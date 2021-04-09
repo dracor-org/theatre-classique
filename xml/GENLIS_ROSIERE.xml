@@ -47,7 +47,7 @@
 			<castItem><role id="LE BAILLI" sex="1" type="H" statut="bailli" age='A' stat_amour='néant'>LE BAILLI</role>, personnage muet.</castItem>
 			<castItem><role id="TROUPES DE JEUNES SALENCIENNES, MÉNÉTRIERS" sex="9" type="H" statut="foule" age='J' stat_amour='néant'>TROUPES DE JEUNES SALENCIENNES, MÉNÉTRIERS</role>, etc.</castItem>
 		</castList>
-		<set location='Salency' country='France' periode='XVIIIème' link=''>La scène est à Salency.</set>
+		<set location='Salency' country='France' periode='XVIIIème' gps="(N/A)">La scène est à Salency.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 299-357</note>
 	</front>
 <body>
@@ -733,7 +733,7 @@
 <p id="4">
 	<s id="1">Bien obligée, madame ; je m'asiterai donc, sous vot' bon plaisir.</s>
 </p>
-<stage type="show">Hélène lui présente une chaise.</stage>
+<stage type="show/furniture">Hélène lui présente une chaise.</stage>
 </sp>
 <sp who="LE PRIEUR"><speaker>LE PRIEUR.</speaker>
 <p id="5">
@@ -1365,7 +1365,7 @@ coutumes des Salenciens.</stage>
 	<s id="2">Je te renonce... </s>
 	<s id="3">Ah, Seigneur, que ne suis-je morte avant d'avoir vu ça...</s>
 </p>
-<stage type="cry/sit">Elle sanglote et tombe sur une chaise.</stage>
+<stage type="cry/sit/furniture">Elle sanglote et tombe sur une chaise.</stage>
 </sp>
 <sp stage="kneel" who="HÉLÈNE"><speaker>HÉLÈNE, se jetant à ses genoux.</speaker>
 <p id="43">

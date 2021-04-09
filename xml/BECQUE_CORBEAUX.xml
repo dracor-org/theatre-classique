@@ -105,7 +105,7 @@
 <p id="8">
 	<s id="1">C'est bien cela.</s>
 </p>
-<stage type="get/sit/location">Elle va prendre une chaise et revient s'asseoir près de Blanche.</stage>
+<stage type="get/furniture/sit/location">Elle va prendre une chaise et revient s'asseoir près de Blanche.</stage>
 </sp>
 <sp who="BLANCHE"><speaker>BLANCHE.</speaker>
 <p id="9">
@@ -177,7 +177,7 @@
 	<s id="1">Le voici, Monsieur_Teissier ; je me serais bien privée de sa présence.</s>
 </p>
 </sp>
-<sp who="VIGNERON"><speaker>VIGNERON, se réveillant.</speaker>
+<sp statge="awake" who="VIGNERON"><speaker>VIGNERON, se réveillant.</speaker>
 <p id="22">
 	<s id="1">Qu'est-ce que j'ai entendu là ? </s>
 	<s id="2">C'est Mademoiselle Blanche qui parle chez moi à la première personne ?</s>
@@ -753,12 +753,12 @@
 	<s id="2">La_Dame_Blanche, ce n'est donc pas de la musique ?</s>
 </p>
 </sp>
-<sp who="MARIE"><speaker>MARIE, entraînant Judith.</speaker>
+<sp stage="awake" who="MARIE"><speaker>MARIE, entraînant Judith.</speaker>
 <p id="105">
 	<s id="1">Allons, grande soeur, joue donc à papa ce qu'il te demande.</s>
 </p>
 </sp>
-<sp who="JUDITH"><speaker>JUDITH, se place au piano et attaque le morceau célèbre.</speaker>
+<sp stage="location/furniture/play" who="JUDITH"><speaker>JUDITH, se place au piano et attaque le morceau célèbre.</speaker>
 	<l id="1">D'ici voyez ce beau domaine,</l>
 	<l id="2">Dont les créneaux touchent le ciel ;</l>
 	<l id="3">Une invisible châtelaine</l>
@@ -843,7 +843,7 @@
 	<s id="1">C'est inutile.</s>
 </p>
 </sp>
-<sp who="VIGNERON"><speaker>VIGNERON, plus haut</speaker>
+<sp stage="loud" who="VIGNERON"><speaker>VIGNERON, plus haut</speaker>
 <p id="119">
 	<s id="1">Ouvre la main.</s>
 </p>
@@ -1409,7 +1409,7 @@
 	<s id="1">Les jeunes filles que je vois n'y regardent pas de si près.</s>
 </p>
 </sp>
-<sp who="JUDITH"><speaker>JUDITH, à part.</speaker>
+<sp stage="aparte" who="JUDITH"><speaker>JUDITH, à part.</speaker>
 <p id="14">
 	<s id="1">Raison de plus.</s>
 </p>
@@ -1694,7 +1694,7 @@
 	<s id="2">Nous nous battrons ensemble, je vous en préviens, si vous me débauchez mon garçon.</s>
 </p>
 </sp>
-<sp who="MADAME VIGNERON"><speaker>MADAME VIGNERON, à Madame_de_Saint-Genis.</speaker>
+<sp stage="toward" who="MADAME VIGNERON"><speaker>MADAME VIGNERON, à Madame de Saint-Genis.</speaker>
 <p id="6">
 	<s id="1">Je pense que les témoins de Monsieur_Georges vont nous arriver bras-dessus_bras-dessous.</s>
 </p>
@@ -1788,7 +1788,7 @@
 	<s id="2">Salutations.</s>
 </p>
 </sp>
-<sp who="MADAME VIGNERON"><speaker>MADAME VIGNERON, en les présentant à Bourdon.</speaker>
+<sp stage="show/toward" who="MADAME VIGNERON"><speaker>MADAME VIGNERON, en les présentant à Bourdon.</speaker>
 <p id="2">
 	<s id="1">Madame_de_Saint-Genis ; Monsieur_Merkens, le professeur de musique de ma fille aînée. Vous nous arrivez un des premiers, monsieur Bourdon, c'est bien aimable à vous.</s>
 </p>
@@ -1845,7 +1845,7 @@
 	<s id="">Est-ce que Teissier ne dîne pas avec nous ?</s>
 </p>
 </sp>
-<sp who="MADAME VIGNERON"><speaker>MADAME VIGNERON, lui montrant Teissier.</speaker>
+<sp stage="show" who="MADAME VIGNERON"><speaker>MADAME VIGNERON, lui montrant Teissier.</speaker>
 <p id="13">
 	<s id="1">Il est là, si vous désirez lui parler.</s>
 </p>
@@ -1889,7 +1889,7 @@
 </p>
 <stage type="declamate">Auguste annonce : « Monsieur Lenormand, Monsieur Georges de Saint-Genis. »</stage>
 </sp>
-<sp who="MADAME DE SAINT-GENIS"><speaker>MADAME DE SAINT-GENIS, à Mme Vigneron.</speaker>
+<sp stage="toard" who="MADAME DE SAINT-GENIS"><speaker>MADAME DE SAINT-GENIS, à Madame Vigneron.</speaker>
 <p id="20">
 	<s id="1">Je vais vous présenter Monsieur_Lenormand</s>
 </p>
@@ -2484,7 +2484,7 @@
 	<s id="2">Elle a tant pleuré, ma pauvre mère, tant pleuré, qu'elle n'a plus toujours la tête à elle.</s>
 </p>
 </sp>
-<sp who="TEISSIER"><speaker>TEISSIER, revenant.</speaker>
+<sp stage="back" who="TEISSIER"><speaker>TEISSIER, revenant.</speaker>
 <p id="2">
 	<s id="1">Il était temps que vous m'arrêtiez, mademoiselle. </s>
 	<s id="2">J'allais de ce pas assigner Madame_Vigneron au Tribunal de commerce en remboursement des avances que je lui ai faites. </s>
@@ -2526,7 +2526,7 @@
 	<s id="1">Asseyez-vous, monsieur ; je suis peut-être bien jeune pour parler d'affaires avec vous.</s>
 </p>
 </sp>
-<sp who="TEISSIER"><speaker>TEISSIER, debout, souriant toujours.</speaker>
+<sp stage="stand/smile" who="TEISSIER"><speaker>TEISSIER, debout, souriant toujours.</speaker>
 <p id="9">
 	<s id="1">Allez, causez, je vous écoute.</s>
 </p>
@@ -2737,14 +2737,14 @@
 	<s id="1">Suivez Auguste, il vous conduira près de ma mère.</s>
 </p>
 </sp>
-<sp who="TEISSIER"><speaker>TEISSIER, après avoir cherché un compliment sans le trouver.</speaker>
+<sp stage="search" who="TEISSIER"><speaker>TEISSIER, après avoir cherché un compliment sans le trouver.</speaker>
 <p id="46">
 	<s id="1">Je suis votre serviteur, Mademoiselle.</s>
 </p>
 <stage type="entrance/location">Il entre à gauche, sur un signe que lui fait Auguste de prendre par là.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. MARIE, PUIS BLANCHE.</head>
+<div2 type="scene" n="5"><head>SCÈNE V. Marie, puis Blanche.</head>
 <sp stage="cry" who="MARIE"><speaker>MARIE, fondant en larmes.</speaker>
 <p id="1">
 	<s id="1">Mon père ! </s>
@@ -3313,7 +3313,7 @@
 	<s id="2">Marie va au meuble-secrétaire, en passant devant sa mère et Teissier assis l'un près de l'autre.</s>
 </p>
 </sp>
-<sp who="TEISSIER"><speaker>TEISSIER, à Mme Vigneron.</speaker>
+<sp stage="toward" who="TEISSIER"><speaker>TEISSIER, à Madame Vigneron.</speaker>
 <p id="29">
 	<s id="1">Elle a de l'ordre, votre demoiselle ?</s>
 </p>
@@ -5939,7 +5939,7 @@ d'arranger les choses ; mais n'y comptez pas. Je suis votre serviteur.</s>
 	<s id="3">Placé comme il l'est, le pauvre garçon, entre une affection qui lui est chère et son avenir qui le préoccupe, il est incertain, il hésite.</s>
 </p>
 </sp>
-<sp who="BLANCHE"><speaker>BLANCHE, se levant précipitamment.</speaker>
+<sp stage="stand/hurry" who="BLANCHE"><speaker>BLANCHE, se levant précipitamment.</speaker>
 <p id="23">
 	<s id="1">Vous me trompez, Madame.</s>
 </p>
@@ -6284,7 +6284,7 @@ d'arranger les choses ; mais n'y comptez pas. Je suis votre serviteur.</s>
 	<s id="5">Si l'on nous avait écoutés, ton père et moi, on n'y aurait pas pensé plus d'une minute.</s>
 </p>
 </sp>
-<sp who="BLANCHE"><speaker>BLANCHE, sa tète s'égare.</speaker>
+<sp stage="dream" who="BLANCHE"><speaker>BLANCHE, sa tête s'égare.</speaker>
 <p id="16">
 	<s id="1">Mon père ! </s>
 	<s id="2">Je le vois, mon père ! </s>
@@ -6330,12 +6330,12 @@ d'arranger les choses ; mais n'y comptez pas. Je suis votre serviteur.</s>
 	<s id="2">Prends-la bien doucettement, la pauvre mignonne, et allons la coucher.</s>
 </p>
 </sp>
-<sp stahe="low" who="BLANCHE"><speaker>BLANCHE, murmurant.</speaker>
+<sp stage="low" who="BLANCHE"><speaker>BLANCHE, murmurant.</speaker>
 <p id="24">
 	<s id="1">Fille perdue !</s>
 </p>
 </sp>
-<sp who="MADAME VIGNERON"><speaker>MADAME VIGNERON, paraissant.</speaker>
+<sp stage="entrance" who="MADAME VIGNERON"><speaker>MADAME VIGNERON, paraissant.</speaker>
 <p id="25">
 	<s id="1">Qu'est-ce qu'il y a ?</s>
 </p>

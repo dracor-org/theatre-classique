@@ -280,7 +280,7 @@ gauche.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. L'Empereur, Le Duc.</head>
-<sp who="L'EMPEREUR"><speaker>L'EMPEREUR, entrant par la droite.</speaker>
+<sp stage="entrance/location" who="L'EMPEREUR"><speaker>L'EMPEREUR, entrant par la droite.</speaker>
 <p id="1">
 	<s id="1">Vous voici, Duc ! </s>
 	<s id="2">J'en suis enchanté. </s>
@@ -479,7 +479,7 @@ gauche.</stage>
 	<s id="3">Cette fresque avait besoin de vos pinceaux.</s>
 </p>
 </sp>
-<sp who="WOLFMUTH"><speaker>WOLFMUTH, regardant la fresque. </speaker>
+<sp stage="watch" who="WOLFMUTH"><speaker>WOLFMUTH, regardant la fresque. </speaker>
 <p id="6">
 	<s id="1">Des portraits ! </s>
 	<s id="2">Mais, c'est beau ! </s>
@@ -642,8 +642,7 @@ gauche.</stage>
 	<s id="1">J'ai vu quelque part un portrait de ce prince que l'on dit très ressemblant. Ses traits ne sont point sortis de ma mémoire, et il me semble que je pourrais les reproduire avec fidélité. </s>
 	<s id="2">Laissez-moi examiner la fresque.</s>
 </p>
-<stage type="closer/up/watch">Il se rapproche de la fresque et monte sur une chaise
-pour la considérer de plus près.</stage> 
+<stage type="closer/up/watch/furniture">Il se rapproche de la fresque et monte sur une chaise pour la considérer de plus près.</stage> 
 <p id="8">
 	<s id="1">Maître, en y regardant attentivement, on distingue encore les lignes principales, les couleurs... </s>
 	<s id="2">La restauration de cette figure ne sera qu'un jeu d'enfant.</s>
@@ -671,7 +670,7 @@ pour la considérer de plus près.</stage>
 <sp stage="aparte/recognize" who="DURER"><speaker>DURER, à part, en reconnaissant le Comte.</speaker>
 	<l id="34">Oui, c'est bien lui, j'en suis certain !</l>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
 	<l id="35">Quelle circonstance imprévue</l>
 	<l id="36">Le jette ainsi sur mon chemin ?...</l>
 	<l id="37">Allons, que mon trouble s'apaise !</l>
@@ -689,7 +688,7 @@ pour la considérer de plus près.</stage>
 	<s id="1">Qu'est-ce donc que ceci, Albert ?</s>
 </p>
 </sp>
-<sp who="DURER"><speaker>DURER, descendant de la chaise.</speaker>
+<sp stage="stand" who="DURER"><speaker>DURER, descendant de la chaise.</speaker>
 <p id="2">
 	<s id="2">Le jeune seigneur que vous venez de voir et qui s'est éloigné, honteux...</s>
 </p>
@@ -1140,7 +1139,7 @@ pour la considérer de plus près.</stage>
 	<s id="1">Ce sera moi !</s>
 </p>
 </sp>
-<sp who="WOLFMUTH"><speaker>WOLFMUTH, regardant l'Empereur.</speaker>
+<sp stage="watch" who="WOLFMUTH"><speaker>WOLFMUTH, regardant l'Empereur.</speaker>
 <p id="10">
 	<s id="1">Les sujets d'un prince qui veille ainsi sur un pauvre artiste ne sauraient être malheureux !</s>
 </p>
@@ -1198,7 +1197,7 @@ pour la considérer de plus près.</stage>
 	<s id="1">Voici la poignée de votre épée que vous avez laissée, il y a quelque temps, entre ses mains.</s>
 </p>
 </sp>
-<sp who="L'EMPEREUR"><speaker>L'EMPEREUR, vivement.</speaker>
+<sp stage="quick" who="L'EMPEREUR"><speaker>L'EMPEREUR, vivement.</speaker>
 <p id="20">
 	<s id="1">Comment ! </s>
 	<s id="2">Le Comte_de_Steinberg ?...</s>

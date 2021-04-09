@@ -31,7 +31,7 @@
 			<titlePart type="sub">REPRÉSENTÉE POUR LA PREMIÈRE FOIS SUR LE THÉÂTRE DU VAUDEVILLE, LE 17 JANVIER 1834.</titlePart>
 		</docTitle> 
 		<docDate value='1834'>1834.</docDate>
-		<docAuthor id='ANCELOT, ARAGO'>PAR MM. ANGELOT ET JACQUES ARAGO.</docAuthor>
+		<docAuthor id='ANCELOT, ARAGO'>PAR MM. ANCELOT ET JACQUES ARAGO.</docAuthor>
 		<docImprint>
 			<printer value=''>IMPRIMERIE DE PR. DONDEY-DUPRÉ, RUE ST.-LOUIS, R° 46, AU MARAIS.</printer>
 			<editor id='CHARDON'>MARCHAND, BOULEVART SAINT-MARTIN, N° 12 ; BARBA, LIBRAIRE AU PALAIS-ROYAL.</editor>
@@ -145,7 +145,7 @@
 	<s id="2">Nous serons gaie ce matin, je vous le promets.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, s'asseyant à côté d'elle.</speaker>
+<sp stage="sit/closer" who="SAINT-POL"><speaker>SAINT-POL, s'asseyant à côté d'elle.</speaker>
 <p id="3">
 	<s id="1">La gaîté vous sied si bien !</s>
 </p>
@@ -167,7 +167,7 @@
 	<s id="3">Ou je serais coiffée comme une femme savante.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, ôtant quelques papillotes.</speaker>
+<sp stage="dress" who="SAINT-POL"><speaker>SAINT-POL, ôtant quelques papillotes.</speaker>
 <p id="7">
 	<s id="1">Je suis jaloux de ces papiers !... </s>
 	<s id="2">Ils me privent du plaisir de voir ces cheveux si beaux !... </s>
@@ -232,9 +232,9 @@
 	<s id="2">Vous ne me respectez donc pas, moi ?</s>
 </p>
 </sp>
-<sp stage="away" who="NINON"><speaker>NINON, reculant son fauteuil.</speaker>
+<sp stage="push/furniture" who="NINON"><speaker>NINON, reculant son fauteuil.</speaker>
 <p id="16">
-	<s id="1">Si Monsieur_le_Comte de Saint-Pol le désire ?</s>
+	<s id="1">Si Monsieur_le_Comte_de_Saint-Pol le désire ?</s>
 </p>
 </sp>
 <sp who="SAINT-POL"><speaker>SAINT-POL.</speaker>
@@ -276,7 +276,7 @@
 	<s id="5">Sa lettre méritait mieux que cela.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, ouvrant une autre papillote.</speaker>
+<sp stage="dress" who="SAINT-POL"><speaker>SAINT-POL, ouvrant une autre papillote.</speaker>
 <p id="23">
 	<s id="1">Dans celle-ci on parle beaucoup d'argent.</s>
 </p>
@@ -363,7 +363,7 @@
 	<s id="1">Sur ma parole, cela me semble ainsi maintenant.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, boudant.</speaker>
+<sp stage="unhappy" who="SAINT-POL"><speaker>SAINT-POL, boudant.</speaker>
 <p id="39">
 	<s id="1">Bon !...</s>
 </p>
@@ -390,7 +390,7 @@
 	<s id="1">De l'avenir.</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, riant et se levant.</speaker>
+<sp stage="laugh/stand" who="NINON"><speaker>NINON, riant et se levant.</speaker>
 <p id="44">
 	<s id="1">Si le temps est votre rival, il faut le tuer.</s>
 </p>
@@ -626,7 +626,7 @@
 	<s id="1">Je t'en supplie à genoux.</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, avec dignité.</speaker>
+<sp stage="proud" who="NINON"><speaker>NINON, avec dignité.</speaker>
 <p id="86">
 	<s id="1">Relevez-vous, Saint-Pol : ce n'est pas là la place de mon mari.</s>
 </p>
@@ -665,7 +665,7 @@
 </p>
 <stage type="tear">Elle se dispose à le déchirer.</stage>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, l'arrêtant.</speaker>
+<sp stage="stop" who="SAINT-POL"><speaker>SAINT-POL, l'arrêtant.</speaker>
 <p id="93">
 	<s id="1">Que faites-vous ?... </s>
 	<s id="2">Votre mari vous le défend. </s>
@@ -749,12 +749,12 @@
 	<s id="3">Je suis bien reconnaissant.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, bas à Ninon.</speaker>
+<sp stage="low/toward" who="SAINT-POL"><speaker>SAINT-POL, bas à Ninon.</speaker>
 <p id="6">
 	<s id="1">Quel ton maussade et bourru !</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, de même.</speaker>
+<sp stage="low/toward" who="NINON"><speaker>NINON, de même.</speaker>
 <p id="7">
 	<s id="1">Il est encore tout étourdi de sa chute d'hier.</s>
 </p>
@@ -1008,12 +1008,12 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE VI. Molière, Madame de La Suze, Monsieur d'Estrées, Madame de Coulanges, Saint-Pol, Ninon, Madame de Lafayette, Longueville, Delaunay, Saint-Évremont.</head>
-<sp stage="loud" who="LE LAQUAIS"><speaker>UN LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>UN LAQUAIS, annonçant.</speaker>
 <p id="1">
 	<s id="1">Monsieur_de_Saint-Évremont.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
+<sp stage="aparte" who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
 <p id="2">
 	<s id="1">Bon ! </s>
 	<s id="2">Le premier est un fat !</s>
@@ -1024,7 +1024,7 @@
 	<s id="1">Salut à la plus jolie.</s>
 </p>
 </sp>
-<sp stage="loud" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
 <p id="4">
 	<s id="1">Mesdames de Lafayette et de Coulanges.</s>
 </p>
@@ -1045,12 +1045,12 @@
 	<s id="1">Je ne saurais trop vous remercier, mesdames.</s>
 </p>
 </sp>
-<sp who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
 <p id="8">
 	<s id="1">Monsieur_de_Rabutin, Madame_de_La_Suze, Monsieur_le_Vicomte_d'Estrées.</s>
 </p>
 </sp>
-<sp who="D'ESTRÉES"><speaker>D'ESTRÉES, riant.</speaker>
+<sp stage="laugh" who="D'ESTRÉES"><speaker>D'ESTRÉES, riant.</speaker>
 <p id="9">
 	<s id="1">Ah ! ah ! ah !... </s>
 	<s id="2">Mesdames !... </s>
@@ -1074,18 +1074,18 @@
 	<s id="2">J'allais le dire.</s>
 </p>
 </sp>
-<sp stage="loud" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
 <p id="13">
 	<s id="1">Monsieur Delaunay.</s>
 </p>
 <stage type="entrance">Il entre.</stage>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
+<sp stage="aparte" who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
 <p id="14">
 	<s id="1">Delaunay !</s>
 </p>
 </sp>
-<sp who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
 <p id="15">
 	<s id="1">Monsieur_le_Baron de Longueville.</s>
 </p>
@@ -1163,7 +1163,7 @@
 	<s id="1">J'en étais sûre.</s>
 </p>
 </sp>
-<sp who="LONGUEVILLE"><speaker>LONGUEVILLE, bas à Delaunay.</speaker>
+<sp stage="low/toward" who="LONGUEVILLE"><speaker>LONGUEVILLE, bas à Delaunay.</speaker>
 <p id="26">
 	<s id="1">Je ne vois pas Saint-Pol : est-ce que mon cher cousin serait déjà remplacé ?</s>
 </p>
@@ -1173,19 +1173,19 @@
 	<s id="1">Qui sait ?</s>
 </p>
 </sp>
-<sp stage="loud" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
 <p id="28">
 	<s id="1">Monsieur_le_Comte Henri, Jules de Saint-Pol. </s>
 </p>
 <stage type="entrance">Il entre.</stage>
 </sp>
-<sp who="LONGUEVILLE"><speaker>LONGUEVILLE, bas à Delaunay.</speaker>
+<sp stage="low/toward" who="LONGUEVILLE"><speaker>LONGUEVILLE, bas à Delaunay.</speaker>
 <p id="29">
 	<s id="1">À la bonne heure !... </s>
 	<s id="2">Il arrive en seigneur et maître, le dernier, et avec tous ses titres.</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, aux laquais.</speaker>
+<sp stage="toward" who="NINON"><speaker>NINON, aux laquais.</speaker>
 <p id="30">
 	<s id="1">Des sièges.</s>
 </p>
@@ -1375,12 +1375,12 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="1">Votre femme prétend...</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, vivement et se levant.</speaker>
+<sp stage="quick/stand" who="NINON"><speaker>NINON, vivement et se levant.</speaker>
 <p id="66">
 	<s id="1">Monsieur Delaunay, votre femme disait hier à Monsieur_de_Lauzun, dans sa loge, qu'elle n'irait au bal de la cour qu'avec lui.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, à part.</speaker>
+<sp stage="aparte" who="SAINT-POL"><speaker>SAINT-POL, à part.</speaker>
 <p id="67">
 	<s id="1">Bien répliqué.</s>
 </p>
@@ -1448,7 +1448,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="8">Mais le poète qui se sent du génie, le philosophe qui n'écrit point pour une époque, mais pour toutes, l'auteur austère qui veut vivre au-delà de sa vie, celui-là, Messieurs, sait découvrir dans la société qu'il creuse d'autres travers et d' autres vices que ceux qui ne dépassent point l' épiderme. Il ouvre le coeur humain, il le dissèque, il le soumet à l'analyse, et il vous dit un beau matin : Voilà ce qui tue les hommes, le mal était là, secret, caché ; je viens de le trouver, le voilà ; je le livre à vos méditations.</s>
 </p>
 </sp>
-<sp who="TOUS"><speaker>LONGUEVILLE, NINON, SAINT-POL ET LES DAMES.</speaker>
+<sp stage="together" who="TOUS"><speaker>LONGUEVILLE, NINON, SAINT-POL ET LES DAMES.</speaker>
 <p id="78">
 	<s id="1">Bravo, Molière, bravo !</s>
 </p>
@@ -1527,7 +1527,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="3">Alors !...</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, s'approchant.</speaker>
+<sp stage="closer" who="SAINT-POL"><speaker>SAINT-POL, s'approchant.</speaker>
 <p id="92">
 	<s id="1">D'où vient ce trouble, cette agitation ?</s>
 </p>
@@ -1542,7 +1542,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="1">Calmez-vous, de grâce !</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, à part.</speaker>
+<sp stage="aparte" who="NINON"><speaker>NINON, à part.</speaker>
 <p id="95">
 	<s id="1">Un mari !...</s>
 </p>
@@ -1637,7 +1637,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 </p> 
 <stage type="exit">Elle sort avec Madame de Coulanges et d'Estrées.</stage>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, avec intérêt.</speaker>
+<sp stage="listen" who="MOLIÈRE"><speaker>MOLIÈRE, avec intérêt.</speaker>
 <p id="112">
 	<s id="1">Il paraît que mon exemple ne vous a point servi.... </s>
 	<s id="2">Ah ! </s>
@@ -1659,7 +1659,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 </p>
 <stage type="exit">Molière sort.</stage>
 </sp>
-<sp who="SAINT-ÉVREMONT"><speaker>SAINT-ÉVREMONT, à Delaunay en sortant</speaker>
+<sp stage="toward/exit" who="SAINT-ÉVREMONT"><speaker>SAINT-ÉVREMONT, à Delaunay en sortant</speaker>
 <stage type="low">Bas.</stage>
 <p id="114">
 	<s id="1">C'est d'un ridicule achevé...</s>
@@ -1688,7 +1688,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 <stage type="kiss/exit">Il lui baise la main. Elle sort par la porte de droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Saint-Pol, Longueville, dans le fond.</head>
+<div2 stage="location" type="scene" n="7"><head>SCÈNE VII. Saint-Pol, Longueville, dans le fond.</head>
 <sp who="SAINT-POL"><speaker>SAINT-POL.</speaker>
 <p id="1">
 	<s id="1">À eux tous maintenant les haines et les jalousies ! </s>
@@ -1698,7 +1698,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="5">Que dites-vous de ce que vient de vous annoncer Ninon ?</s>
 </p>
 </sp>
-<sp who="LONGUEVILLE"><speaker>LONGUEVILLE, qui s'est avancé.</speaker>
+<sp stage="location" who="LONGUEVILLE"><speaker>LONGUEVILLE, qui s'est avancé.</speaker>
 <p id="2">
 	<s id="1">Que voulez-vous qu'on dise d'une folie ?</s>
 </p>
@@ -1764,7 +1764,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="1">Au nom de notre famille, je proteste contre l'union d'un de ses membres avec une...</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, avec colère</speaker>
+<sp stage="anger" who="SAINT-POL"><speaker>SAINT-POL, avec colère.</speaker>
 <p id="15">
 	<s id="1">Avec une... </s>
 	<s id="2">Eh bien ?</s>
@@ -1929,7 +1929,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp who="NINON"><speaker>NINON, seule.</speaker>
+<sp stage="alone" who="NINON"><speaker>NINON, seule.</speaker>
 <p id="1">
 	<s id="1">Allons, c'en est fait, il n'y a plus à revenir ! </s>
 	<s id="2">Me voilà enchaînée !... </s>
@@ -2308,7 +2308,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 	<s id="2">Que dit-elle ?</s>
 </p>
 </sp>
-<sp who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, à part.</speaker>
+<sp stage="aparte" who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, à part.</speaker>
 <p id="14">
 	<s id="1">J'ai frappé juste ! </s>
 </p>
@@ -2374,7 +2374,7 @@ madame votre mère vous ait gâté dès le berceau.</s>
 </p>
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
-<sp who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, à part en sortant.</speaker>
+<sp stage="aparte/exit" who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, à part en sortant.</speaker>
 <p id="25">
 	<s id="1">Mes paroles ne sont pas perdues !... </s>
 	<s id="2">Il réfléchira, car le coup a porté !...</s>
@@ -2647,7 +2647,7 @@ instant, une heure !... </s>
 	<s id="5">Car enfin je vais être votre femme.</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, un peu soucieux.</speaker>
+<sp stage="stress" who="SAINT-POL"><speaker>SAINT-POL, un peu soucieux.</speaker>
 <p id="45">
 	<s id="1">C'est là mon bonheur.</s>
 </p>
@@ -2736,7 +2736,7 @@ instant, une heure !... </s>
 	<s id="1">Où passerons-nous nos soirées ?</s>
 </p>
 </sp>
-<sp who="SAINT-POL"><speaker>SAINT-POL, étonné.</speaker>
+<sp stage="estonish" who="SAINT-POL"><speaker>SAINT-POL, étonné.</speaker>
 <p id="61">
 	<s id="1">Comment ?</s>
 </p>
@@ -2842,7 +2842,7 @@ instant, une heure !... </s>
 	<s id="1">Je confesse que je le verrais avec peine auprès de vous : car personne ne vous fut aussi cher que lui.</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, pensive, à elle-même.</speaker>
+<sp stage="think/toward" who="NINON"><speaker>NINON, pensive, à elle-même.</speaker>
 <p id="80">
 	<s id="1">Il riait ce matin des amours de sa maîtresse !... </s>
 	<s id="2">Il souffre maintenant des torts de sa femme.</s>
@@ -3008,7 +3008,7 @@ instant, une heure !... </s>
 	<s id="1">Veuillez donc vous asseoir, Madame.</s>
 </p>
 </sp>
-<sp who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, refusant.</speaker>
+<sp stage="stop" who="MADAME DE SAINT-POL"><speaker>MADAME DE SAINT-POL, refusant.</speaker>
 <p id="3">
 	<s id="1">Ne vous dérangez pas.</s>
 </p>
@@ -3102,7 +3102,7 @@ instant, une heure !... </s>
 </p>
 <stage type="tear">Elle a pris sur sa toilette la promesse de mariage, et la déchire en papillotes.</stage>
 </sp>
-<sp who="MADAME DE SAINT-POL, LONGUEVILLE, MOLIÈRE"><speaker>MADAME DE SAINT-POL, LONGUEVILLE, MOLIÈRE.</speaker>
+<sp stage="together" who="MADAME DE SAINT-POL, LONGUEVILLE, MOLIÈRE"><speaker>MADAME DE SAINT-POL, LONGUEVILLE, MOLIÈRE.</speaker>
 <p id="19">
 	<s id="1">Ah !...</s>
 </p>
@@ -3159,7 +3159,7 @@ instant, une heure !... </s>
 	<s id="1">Je vous ai patiemment écoutée : mais, croyez-vous donc que je consente à tout ceci ?</s>
 </p>
 </sp>
-<sp who="NINON"><speaker>NINON, riant.</speaker>
+<sp stage="laugh" who="NINON"><speaker>NINON, riant.</speaker>
 <p id="30">
 	<s id="1">Il le faudra bien !... </s>
 	<s id="2">La promesse est déchirée !... </s>

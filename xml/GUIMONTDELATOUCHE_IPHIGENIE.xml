@@ -56,7 +56,7 @@
 		<castItem><role id="SOLDATS" sex="9" type='H' statut='soldat' age='A' stat_amour='néant'>SOLDATS d'Oreste et de Pylade</role>.</castItem>
 		<castItem><role id="GARDES" sex="9" type='H' statut='garde' age='A' stat_amour='néant'>GARDES de Thoas</role>.</castItem>
 	</castList>
-	<set location='Tauride' country='Grèce' periode='Temps mythologiques' link=''>La scène est en Tauride, dans le temple de Diane.</set> 
+	<set location='Tauride' country='Grèce' periode='Temps mythologiques' gps="(N/A)">La scène est en Tauride, dans le temple de Diane.</set> 
 </front>
 <body>
 <div1 type='acte' n='1'><head>ACTE I.</head>
@@ -442,7 +442,7 @@
 <sp who='ORESTE'><speaker>ORESTE dans le fond du théâtre.</speaker>
 	<l id='297'>Ah ! Laissez-moi jouir du moment qui me reste,</l>
 	<l id='298' part='i'>Et respectez mon sort.</l>
-<stage>Les gardes s'éloignent.</stage>
+<stage stage="exit">Les gardes s'éloignent.</stage>
 </sp>
 </div2>
 <div2 type='scene' n='2'><head>SCÈNE II.</head>
@@ -997,7 +997,7 @@
 </sp>
 <sp who="IPHIGÉNIE"><speaker>IPHIGÉNIE.</speaker>
 	<l id='625' syll="4" part="m">Éloignez-vous !</l>
-<stage>Oreste et Pylade se retirent au fond du théâtre.</stage>
+<stage type="away/location">Oreste et Pylade se retirent au fond du théâtre.</stage>
 	<l id='625' syll="6" part="f">Ciel ! Que viens-tu m'apprendre ?</l>
 </sp>
 <sp who="ISMÉNIE"><speaker>ISMÉNIE.</speaker>
@@ -2083,7 +2083,7 @@
 </sp>
 <sp who="THOAS"><speaker>THOAS.</speaker>
 	<l id='1241'>Qu'entends-je ? Oses-tu bien, insensé, téméraire....</l>
-<stage>À Iphigénie.</stage>
+<stage stage="toward">À Iphigénie.</stage>
 	<l id='1242' part='i'>Obéissez, frappez.</l>
 </sp>
 <sp who="IPHIGÉNIE"><speaker>IPHIGÉNIE.</speaker>

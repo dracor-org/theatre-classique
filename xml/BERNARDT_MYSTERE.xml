@@ -44,7 +44,7 @@
 		<castItem><role id="LAURE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>LAURE</role>, 25 à 30 ans.</castItem>
 		<castItem><role id="JEANNETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>JEANNETTE</role>, femme de chambre.</castItem>
 	</castList>
-	<set location='France' country='France' periode='XXème' link=''></set>
+	<set location='France' country='France' periode='XXème' gps="(N/A)"></set>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 113-129</note>
 </front>
 <body>
@@ -231,7 +231,7 @@
 	<s id="1">Il y a un rapporteur de nommé...</s>
 </p>
 </sp>
-<sp who="ROSELEUR"><speaker>ROSELEUR, vague.</speaker>
+<sp stage="wave" who="ROSELEUR"><speaker>ROSELEUR, vague.</speaker>
 <p id="32">
 	<s id="1">Un rapporteur de nommé ?</s>
 </p>
@@ -241,7 +241,7 @@
 	<s id="1">C'est précisément le conseiller de ton quartier.</s>
 </p>
 </sp>
-<sp who="ROSELEUR"><speaker>ROSELEUR, machinal.</speaker>
+<sp stage="slow" who="ROSELEUR"><speaker>ROSELEUR, machinal.</speaker>
 <p id="34">
 	<s id="1">Ah ! </s>
 	<s id="2">Voilà une bonne coïncidence...</s>
@@ -299,13 +299,13 @@
 	<s id="6">C'est le plan de votre maison de retraite ?...</s>
 </p>
 </sp>
-<sp who="GERBIER"><speaker>GERBIER, dépliant le plan.</speaker>
+<sp stage="open" who="GERBIER"><speaker>GERBIER, dépliant le plan.</speaker>
 <p id="43">
 	<s id="1">Il est vraiment très séduisant. </s>
 	<s id="2">Voilà la cour d'entrée, le promenoir couvert...</s>
 </p>
 </sp>
-<sp who="ROSELEUR"><speaker>ROSELEUR, penché sur le plan</speaker>
+<sp stage="read" who="ROSELEUR"><speaker>ROSELEUR, penché sur le plan.</speaker>
 <p id="44">
 	<s id="1">C'est très bien... très bien...</s>
 </p>
@@ -472,14 +472,14 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="ROSELEUR"><speaker>ROSELEUR, seul à son bureau.</speaker>
+<sp stage="alone/location" who="ROSELEUR"><speaker>ROSELEUR, seul à son bureau.</speaker>
 <p id="20">
 	<s id="1">Avez-vous toujours cette petite boîte de laque ancienne ? </s>
 	<s id="2">Ai-je dit à l'antiquaire. </s>
 	<s id="3">- Non, je l'ai sans l'avoir, je l'ai confiée à un client qui me la rendra peut-être ces jours-ci... </s>
 	<s id="4">Et puis, nous n'avons rien dit d'autre...</s>
 </p>
-<stage type="entrance/watch.silence">Depuis un instant Laure est entrée sans qu'il s'en soit aperçu. Elle le considère en silence.</stage>
+<stage type="entrance/watch/silence">Depuis un instant Laure est entrée sans qu'il s'en soit aperçu. Elle le considère en silence.</stage>
 </sp>
 <sp who="LAURE"><speaker>LAURE.</speaker>
 <p id="21">

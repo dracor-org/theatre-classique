@@ -105,7 +105,7 @@
 	<s id="2">Qu'est-ce qu'on pourrait bien brûler ici ? </s>
 	<s id="3">Tiens, il y a encore de la chaise !</s>
 </p>
-<stage type="break">Elle met une chaise en morceaux et s'accroupit devant le poêle ; elle reprend l'air du commencement en allumant le feu.</stage>
+<stage type="break/furniture/kneel/sing">Elle met une chaise en morceaux et s'accroupit devant le poêle ; elle reprend l'air du commencement en allumant le feu.</stage>
 	<l id="8">Tradéri, déra, tradéri, déra.</l>
 	<l id="9">Cette chaise est bien vieille,</l>
 	<l id="10">Mais les morceaux, mais les morceaux</l>
@@ -219,7 +219,7 @@
 	<s id="2">Cela nous fait la jambe belle !</s>
 </p>
 </sp>
-<sp who="RISETTE"><speaker>RISETTE, regardant sa jambe. </speaker>
+<sp stage="watch" who="RISETTE"><speaker>RISETTE, regardant sa jambe. </speaker>
 <p id="20">
 	<s id="1">Dis donc ! </s>
 	<s id="2">Parle pour toi.</s>
@@ -247,7 +247,7 @@
 	<s id="2">Tu vois toujours tout en noir.</s>
 </p>
 </sp>
-<sp who="ÉVELINA"><speaker>ÉVELINA, elle s'assied et travaille. </speaker>
+<sp stage="sit/work" who="ÉVELINA"><speaker>ÉVELINA, elle s'assied et travaille. </speaker>
 <p id="25">
 	<s id="1">C'est que la situation n'est pas rose. </s>
 	<s id="2">À midi nous serons à la porte.</s>
@@ -385,7 +385,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp who="ÉVELINA"><speaker>ÉVELINA, seule.</speaker>
+<sp stage="alone" who="ÉVELINA"><speaker>ÉVELINA, seule.</speaker>
 <p id="1">
 	<s id="1">J'ai l'estomac dans les talons.</s>
 </p>
@@ -580,7 +580,7 @@
 	<s id="1">Du saucisson.</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, écrivant. </speaker>
+<sp stage="write" who="ANTONIN"><speaker>ANTONIN, écrivant. </speaker>
 <p id="34">
 	<s id="1">Pour deux ?</s>
 </p>
@@ -638,7 +638,7 @@
 	<s id="1">Quel festin !</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
 <p id="45">
 	<s id="1">Elle a des goûts... roturiers.</s>
 </p>
@@ -1052,7 +1052,7 @@
 	<s id="2">Ça lui est bien égal que j'aie l'estomac dans les talons.</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, descendant entre elles.</speaker>
+<sp stage="closer" who="ANTONIN"><speaker>ANTONIN, descendant entre elles.</speaker>
 <p id="19">
 	<s id="1">On parle bas ! </s>
 	<s id="2">Je parie qu'on dit du mal de moi !</s>
@@ -1065,7 +1065,7 @@
 </p>
 <stage type="carry/location">Elle porte les tessons dans le placard.</stage>
 </sp>
-<sp who="RISETTE"><speaker>RISETTE, sèchement.</speaker>
+<sp stage="strong" who="RISETTE"><speaker>RISETTE, sèchement.</speaker>
 <p id="21">
 	<s id="1">Les verres sont dans l'armoire, Monsieur ; il y en a un petit et un grand à pied, sans pied.</s>
 </p>
@@ -1314,7 +1314,7 @@
 	<s id="2">Je la recueille, quoi !</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
 <p id="28">
 	<s id="1">Toi, tu m'agaces !... </s>
 	<s id="2">Mais les millions!...</s>
@@ -1773,7 +1773,7 @@
 	<s id="2">Si.</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, avec douleur. </speaker>
+<sp stage="pain" who="ANTONIN"><speaker>ANTONIN, avec douleur. </speaker>
 <p id="26">
 	<s id="1">Vraiment ! </s>
 	<s id="2">Qui cela ?</s>
@@ -1883,7 +1883,7 @@
 	<s id="5">Je pleurerais dans les premiers moments... mais, après cela, il faut se faire une raison, n'est-ce pas ?...</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, avec impatience. </speaker>
+<sp stage="impatient" who="ANTONIN"><speaker>ANTONIN, avec impatience. </speaker>
 <p id="43">
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
@@ -2028,7 +2028,7 @@
 	<s id="1">La lettre !...</s>
 </p>
 </sp>
-<sp who="RISETTE"><speaker>RISETTE, allant à lui. </speaker>
+<sp stage="closer" who="RISETTE"><speaker>RISETTE, allant à lui. </speaker>
 <p id="70">
 	<s id="1">La lettre d'Amérique ! </s>
 	<s id="2">Donnez !</s>
@@ -2201,7 +2201,7 @@
 	<s id="3">Mon Dieu ! </s>
 	<s id="4">Mon Dieu !</s>
 </p>
-<stage type="fall">Il tombe sur une chaise à gauche.</stage>
+<stage type="fall/furniture/location">Il tombe sur une chaise à gauche.</stage>
 </sp>
 <sp who="RISETTE"><speaker>RISETTE.</speaker>
 <p id="102">
@@ -2451,7 +2451,7 @@
 	<s id="1">Ne me félicitez pas, Monsieur ; il est fort probable que vous ne savez guère l'anglais et que vous avez mal lu ma lettre : il y est, en effet, question de millions ; mais ces millions ne sont pas pour moi.</s>
 </p>
 </sp>
-<sp who="ANTONIN"><speaker>ANTONIN, avec joie. </speaker>
+<sp stage="happy" who="ANTONIN"><speaker>ANTONIN, avec joie. </speaker>
 <p id="7">
 	<s id="1">Comment ?</s>
 </p>
