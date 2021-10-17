@@ -45,4 +45,4 @@ branch contains
 before importing the Théâtre Classique sources into FreDraCor that have not yet
 been adopted upstream.
 
-After an update the `dracor` branch should be rebases onto the `main` branch.
+After an update the `dracor` branch should be rebased onto the `main` branch.
