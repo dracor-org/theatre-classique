@@ -43,8 +43,8 @@
 	</div>
 	<castList>
 		<head>PERSONNAGES.</head>
-		<castItem><role id="FLORENCE" sex="2" type="H" statut="" age='A' stat_amour='néant'>FLORENCE</role>, Mlle Madeleine RENAUD.</castItem>
-		<castItem><role id="LA CAISSIÈRE" sex="2" type="H" statut="caissière" age='A' stat_amour='néant'>LA CAISSIÈRE</role> Mlle Béatrice BRETTY.</castItem>
+		<castItem><role id="FLORENCE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>FLORENCE</role>, Mlle Madeleine RENAUD.</castItem>
+		<castItem><role id="LA CAISSIÈRE" sex="2" type="H" statut="caissier" age='A' stat_amour='néant'>LA CAISSIÈRE</role> Mlle Béatrice BRETTY.</castItem>
 		<castItem><role id="LA DAME SPECTRE DES BIJOUX" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LA DAME SPECTRE DES BIJOUX</role>, Mlle Lise DELAMARE.</castItem>
 		<castItem><role id="PREMIÈRE GITANE" sex="2" type="H" statut="gitan" age='A' stat_amour='néant'>PREMIÈRE GITANE</role>, Mlle Gisèle CASADESUS.</castItem>
 		<castItem><role id="SECONDE GITANE" sex="2" type="H" statut="gitan" age='A' stat_amour='néant'>SECONDE GITANE</role>, Mlle Nadine MARZIANO.</castItem>
@@ -53,9 +53,9 @@
 		<castItem><role id="VICTOR" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>VICTOR</role>, M. LEDOUX.</castItem>
 		<castItem><role id="LE GÉRANT" sex="1" type="H" statut="gérant" age='A' stat_amour='néant'>LE GÉRANT</role>, M. LAFON.</castItem>
 		<castItem><role id="LE CHAUFFEUR" sex="1" type="H" statut="chauffeur" age='A' stat_amour='néant'>LE CHAUFFEUR</role>, M. VALBOIS.</castItem>
-		<castItem><role id="LE CHASSEUR" sex="1" type="H" statut="" age='J' stat_amour='néant'>LE CHASSEUR</role>, Le petit MONTIGNY.</castItem>
+		<castItem><role id="LE CHASSEUR" sex="1" type="H" statut="chasseur" age='J' stat_amour='néant'>LE CHASSEUR</role>, Le petit MONTIGNY.</castItem>
 	</castList>
-	<set location="" country="" periode="" gps=""></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>CANTIQUE DES CANTIQUES</head>
@@ -2498,7 +2498,7 @@
 	<s id="7">J'aurais pu les garder sur moi. </s>
 	<s id="8">Il ne verrait pas sur Saint-Sébastien ses flèches. </s>
 	<s id="9">Il les heurterait au passage, sans penser à dire pardon, pendant qu'elles vibrent. </s>
-	<s id="10">Pour mes bijoux, il va avoir une parole, il aura une idée qui me les rendra tout à coup ternes, faux, inutiles.</s>
+	<s id="10">Pour mes bijoux, il va avoir une parole, il aura une idée qui me les rendra tout_à_coup ternes, faux, inutiles.</s>
 </p>
 </sp>
 <sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT.</speaker>

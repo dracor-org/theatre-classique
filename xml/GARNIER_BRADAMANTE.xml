@@ -55,15 +55,15 @@
 		<castItem><role id="HIPPALQUE" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>HIPPALQUE</role>.</castItem>
 		<castItem><role id="AYMON" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>AYMON</role>.</castItem>
 		<castItem><role id="LA MONTAGNE" sex="1" type="H" statut="soldat" age="A" stat_amour='néant'>LA MONTAGNE</role>.</castItem>
-		<castItem><role id="BEATRIX" sex="2" type="H" statut="" age="A" stat_amour='néant'>BEATRIX</role>.</castItem>
-		<castItem><role id="MARPHISE" sex="1" type="H" statut="" age="A" stat_amour='néant'>MARPHISE</role>.</castItem>
-		<castItem><role id="RENAUD" sex="1" type="H" statut="" age="A" stat_amour='néant'>RENAUD</role>.</castItem>
+		<castItem><role id="BEATRIX" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>BEATRIX</role>.</castItem>
+		<castItem><role id="MARPHISE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MARPHISE</role>.</castItem>
+		<castItem><role id="RENAUD" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>RENAUD</role>.</castItem>
 		<castItem><role id="BASILE" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>BASILE</role>, Duc d'Athenes.</castItem>
-		<castItem><role id="LA ROQUE" sex="1" type="H" statut="" age="A" stat_amour='néant'>LA ROQUE</role>.</castItem>
-		<castItem><role id="AMBASSADEURS" sex="9" type="H" statut="" age="A" stat_amour='néant'>Les Ambassadeurs de Bulgarie</role>.</castItem>
-		<castItem><role id="BRADAMANTE" sex="2" type="H" statut="" age="A" stat_amour='néant'>BRADAMANTE</role>.</castItem>
-		<castItem><role id="LÉON" sex="1" type="H" statut="" age="A" stat_amour='néant'>LÉON</role>.</castItem>
-		<castItem><role id="MELISSE" sex="1" type="H" statut="" age="A" stat_amour='néant'>MELISSE</role>.</castItem>
+		<castItem><role id="LA ROQUE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>LA ROQUE</role>.</castItem>
+		<castItem><role id="AMBASSADEURS" sex="9" type="H" statut="ambassadeur" age="A" stat_amour='néant'>Les Ambassadeurs de Bulgarie</role>.</castItem>
+		<castItem><role id="BRADAMANTE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>BRADAMANTE</role>.</castItem>
+		<castItem><role id="LÉON" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>LÉON</role>.</castItem>
+		<castItem><role id="MELISSE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MELISSE</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="IXème" gps="49.353976, 0.075122"></set>
 
@@ -871,7 +871,7 @@
 	<l id='494'>Le chagrin de nos ans nous tournerons en festes,</l>
 	<l id='495'>Et verrons dans la rue et dans les temples saints</l>
 	<l id='496'>Chacun nous applaudir de la teste et des mains.</l>
-	<l id='497'>Mon Dieu! ne laissez pas écouler, nonchalante,</l>
+	<l id='497'>Mon_Dieu! ne laissez pas écouler, nonchalante,</l>
 	<l id='498'>Ceste félicité que le ciel vous présente !</l>
 	<l id='499'>L'occasion est chauve, et qui ne la retient,</l>
 	<l id='500'>Tout soudain elle échappe et jamais ne revient.</l>
@@ -1188,7 +1188,7 @@
 	<l id='701'>Je ne veux épouser homme qui ne vous plaise.</l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
-	<l id='702'>Mon Dieu! ne craignez point, j'en serai bien fort aise!</l>
+	<l id='702'>Mon_Dieu! ne craignez point, j'en serai bien fort aise!</l>
 	<l id='703'>Aymon le voudra bien. Je m'en vais le trouver</l>
 	<l id='704'>Pour l'induire à vouloir cet accord approuver.</l>
 	<l id='705'>Las! ne pleurez donc point ; serenez votre face ;</l>
@@ -1854,7 +1854,7 @@
 	<l id='1196'>Qu'épandre pour toi seul par le monde je fais.</l>
 </sp>
 <sp who="HIPPALQUE"><speaker>HIPPALQUE.</speaker>
-	<l id='1197'>Hé mon Dieu, que vous sert cette larmeuse plainte ?</l>
+	<l id='1197'>Hé mon_Dieu, que vous sert cette larmeuse plainte ?</l>
 	<l id='1198'>Pourquoi vous gênez-vous d'une chose contrainte ?</l>
 	<l id='1199'>Pourquoi pleurez-vous tant ? Que soupirez-vous tant ?</l>
 	<l id='1200'>Pensez-vous le malheur rompre en vous tourmentant ?</l>
@@ -2356,7 +2356,7 @@
 	<l id='1455' syll="6" part="i">Il n'est plus avec nous.</l>
 </sp>
 <sp who="LÉON"><speaker>LÉON.</speaker>
-	<l id='1455' syll="6" part="f">Et où donc ? ô mon Dieu!</l>
+	<l id='1455' syll="6" part="f">Et où donc ? ô mon_Dieu!</l>
 </sp>
 <sp who="BASILE"><speaker>BASILE.</speaker>
 	<l id='1456' syll="6" part="i">Il s'en est ore allé.</l>
@@ -2889,7 +2889,7 @@
 	<l id='1824'>Il est avec Aymon qui veut que l'épousez.</l>
 </sp>
 <sp who="BRADAMANTE"><speaker>BRADAMANTE.</speaker>
-	<l id='1825'>Mon Dieu! le sens me trouble! Est-ce point quelque songe ?</l>
+	<l id='1825'>Mon_Dieu! le sens me trouble! Est-ce point quelque songe ?</l>
 </sp>
 <sp who="HIPPALQUE"><speaker>HIPPALQUE.</speaker>
 	<l id='1826'>Non, ce que je vous dis n'est songe ne mensonge.</l>

@@ -57,7 +57,7 @@
 			<castItem><role id="ORPHISE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>ORPHISE</role>, voisine de Cléonice.</castItem>
 			<castItem><role id="FLORINE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>FLORINE</role>, voisine d'Arbaze.</castItem>
 			<castItem><role id="DEUX BRAVES" sex="1" type="H" statut='soldat' age='A' stat_amour='néant'>DEUX BRAVES</role>.</castItem>
-			<castItem><role id="LE GARDEUR DE LIONS" sex="1" type="H" statut='' age='A' stat_amour='néant'>LE GARDEUR DE LIONS</role>.</castItem>
+			<castItem><role id="LE GARDEUR DE LIONS" sex="1" type="H" statut='gardien' age='A' stat_amour='néant'>LE GARDEUR DE LIONS</role>.</castItem>
 			<castItem><role id="JANOT" sex="1" type="H" statut='jardinier' age='A' stat_amour='néant'>JANOT</role>, Jardinier.</castItem>
 			<castItem><role id="TOINET" sex="1" type="H" statut='jardinier' age='A' stat_amour='néant'>TOINET</role>, jardinier.</castItem>
 		</castList>
@@ -66,7 +66,7 @@
 <body>
 <div1 type='monologue' n='1'><head></head>
 <div2 type='scene' n='1'><head>MONOLOGUE </head>
-<sp who="VOIX DU MONOLOGUE"><speaker></speaker>
+<sp who="VOIX DU MONOLOGUE"><speaker>[VOIX DU MONOLOGUE].</speaker>
 	<l id="1">Sacré père du jour, beau Soleil, sors de l'onde, </l>
 	<l id="2">Et viens voir avec moi le plus beau lieu de monde ; </l>
 	<l id="3">C'est du plus grand des Rois le superbe séjour, </l>
@@ -280,7 +280,7 @@
 	<l id="208">Peu de contentement, avec beaucoup d'ennui. </l>
 	<l id="209">Après que ces Objets ont arrêté ma vue </l>
 	<l id="210">Dessus les raretés, dont leur grâce est pourvue, </l>
-	<l id="211">J'ai tout à coup ouï retentir dans les Airs </l>
+	<l id="211">J'ai tout_à_coup ouï retentir dans les Airs </l>
 	<l id="212">Un mélange de voix, et d'instruments divers ; </l>
 	<l id="213">Dont l'aimable douceur tant de charme inspire, </l>
 	<l id="214">Que je les veux goûter, plutôt que de les dire. </l>
@@ -1507,7 +1507,7 @@
 	<l id="966">Faute de lui donner, un peu d'air seulement. </l>
 </sp>
 <sp who="MEGATE"><speaker>MEGATE.</speaker>
-	<l id="967">Il a su tout à coup me forcer à me rendre ; </l>
+	<l id="967">Il a su tout_à_coup me forcer à me rendre ; </l>
 	<l id="968">Il a fondu ma glace, il me réduit en cendre ; </l>
 	<l id="969">Et me faut avouer qu'un plus digne flambeau, </l>
 	<l id="970">Ne conduira jamais une Amante au tombeau. </l>

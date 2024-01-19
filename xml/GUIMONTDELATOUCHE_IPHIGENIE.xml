@@ -52,7 +52,7 @@
 		<castItem><role id="EUMÈNE" sex="2" type='H' statut='prêtre' age='A' stat_amour='néant'>EUMÈNE</role>, autre prêtresse.</castItem>
 		<castItem><role id="ARBAS" sex="1" type='H' statut='officier' age='A' stat_amour='néant'>ARBAS</role>, officier des Gardes de Thoas.</castItem>
 		<castItem><role id="UN ESCLAVE" sex="1" type='H' statut='esclave' age='A' stat_amour='néant'>UN ESCLAVE</role> attaché a Isménie.</castItem>
-		<castItem><role id="PRÊTRESSES" sex="9" type='prêtre' statut='prêtre' age='A' stat_amour='néant'>PRÊTRESSES</role>.</castItem>
+		<castItem><role id="PRÊTRESSES" sex="9" type='H' statut='prêtre' age='A' stat_amour='néant'>PRÊTRESSES</role>.</castItem>
 		<castItem><role id="SOLDATS" sex="9" type='H' statut='soldat' age='A' stat_amour='néant'>SOLDATS d'Oreste et de Pylade</role>.</castItem>
 		<castItem><role id="GARDES" sex="9" type='H' statut='garde' age='A' stat_amour='néant'>GARDES de Thoas</role>.</castItem>
 	</castList>
@@ -1498,12 +1498,12 @@
 <sp who='EUMÉNE'><speaker>EUMÉNE.</speaker>
 	<l id='903'>Calmez de vos frayeurs l'inutile transport,</l>
 	<l id='904'>Et d'Isménie, au moins, attendez le rapport. </l>
-	<l syll="4" id='905'>Je l'aperçois.</l>
+	<l id='905' syll="4" part="i">Je l'aperçois.</l>
 </sp>
 </div2>
 <div2 type='scene' n='2'><head>SCÈNE II. Iphigénie, Ismménie, Eumène.</head>
 <sp who="IPHIGÉNIE"><speaker>IPHIGÉNIE.</speaker>
-	<l syll="8" id='905'>Eh bien ! Que faut-il que j'espère ?</l>
+	<l  id='905' syll="8" part="f">Eh bien ! Que faut-il que j'espère ?</l>
 	<l id='906'>L'esclave et l'étranger ont-ils rejoint ton père ?</l>
 </sp>
 <sp who="ISMÉNIE"><speaker>ISMÉNIE.</speaker>

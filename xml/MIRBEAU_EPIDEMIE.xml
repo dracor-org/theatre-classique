@@ -40,14 +40,14 @@
 		<castList><head>PERSONNAGES.</head>
 			<castItem><role id="LE MAIRE" sex="1" type="H" statut="maire" age='A' stat_amour='néant'>LE MAIRE</role>, M. ANTOINE.</castItem>
 			<castItem><role id="LE MEMBRE DE L'OPPOSITION" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>LE MEMBRE DE L'OPPOSITION</role>, M. GÉMIER.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>LE MEMBRE DE LA MAJORITÉ</role>, M. ARQUILLÈRE.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="médecin" age='A' stat_amour='néant'>LE DOCTEUR TRICEPS</role>, M. PONS-ARLÈS.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='V' stat_amour='néant'>LE TRÈS VIEUX CONSEILLER</role>, M. DESFONTAINES.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>PREMIER CONSEILLER</role>, M. MARSAY.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>DEUXIÈME CONSEILLER</role>, M. CARPENTIER.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>TROISIÈME CONSEILLER</role>, M. VERSE.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>UN CONSEILLER</role>, M. DUFRESNE.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="huissier" age='A' stat_amour='néant'>L'HUISSIER</role>, M. SÉRUZIER.</castItem>
+			<castItem><role id="LE MEMBRE DE LA MAJORITÉ" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>LE MEMBRE DE LA MAJORITÉ</role>, M. ARQUILLÈRE.</castItem>
+			<castItem><role id="LE DOCTEUR TRICEPS" sex="1" type="H" statut="médecin" age='A' stat_amour='néant'>LE DOCTEUR TRICEPS</role>, M. PONS-ARLÈS.</castItem>
+			<castItem><role id="LE TRÈS VIEUX CONSEILLER" sex="1" type="H" statut="conseiller municipal" age='V' stat_amour='néant'>LE TRÈS VIEUX CONSEILLER</role>, M. DESFONTAINES.</castItem>
+			<castItem><role id="PREMIER CONSEILLER" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>PREMIER CONSEILLER</role>, M. MARSAY.</castItem>
+			<castItem><role id="DEUXIÈME CONSEILLER" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>DEUXIÈME CONSEILLER</role>, M. CARPENTIER.</castItem>
+			<castItem><role id="TROISIÈME CONSEILLER" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>TROISIÈME CONSEILLER</role>, M. VERSE.</castItem>
+			<castItem><role id="UN CONSEILLER" sex="1" type="H" statut="conseiller municipal" age='A' stat_amour='néant'>UN CONSEILLER</role>, M. DUFRESNE.</castItem>
+			<castItem><role id="L'HUISSIER" sex="1" type="H" statut="huissier" age='A' stat_amour='néant'>L'HUISSIER</role>, M. SÉRUZIER.</castItem>
 		</castList>
 		<set location="Province" country="France" periode="XIXème" gps="">De nos jours, dans une ville de province.</set>
 </front>
@@ -1288,7 +1288,7 @@ de la pièce.</stage>
 <stage type="open/frighten/shout">Enfin il ouvre le pli... devient livide, pousse un cri.</stage>
 <p id="17">
 	<s id="1">Ah ! </s>
-	<s id="2">Mon Dieu !</s>
+	<s id="2">Mon_Dieu !</s>
 </p>
 </sp>
 <sp who="LE MEMBRE DE LA MAJORITÉ"><speaker>LE MEMBRE DE LA MAJORITÉ.</speaker>
@@ -1299,7 +1299,7 @@ de la pièce.</stage>
 <sp stage="frighten" who="LE MAIRE"><speaker>LE MAIRE, tremblant.</speaker>
 <p id="19">
 	<s id="1">Ah ! </s>
-	<s id="2">Mon Dieu ! </s>
+	<s id="2">Mon_Dieu ! </s>
 </p>
 <stage type="frighten">Brouhaha de terreur.</stage>
 </sp>

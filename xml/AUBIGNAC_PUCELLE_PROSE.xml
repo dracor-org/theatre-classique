@@ -62,7 +62,7 @@
 		<castItem><role id="JEANNE D'ARC" sex="2" type="H" statut="militaire" age="A" stat_amour='néant'>JEANNE D'ARC</role>, dite la Pucelle.</castItem>
 		<castItem><role id="EDMOND" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>EDMOND</role>, le Duc de Sommerset.</castItem>
 		<castItem><role id="RICHARD" sex="1" type="H" statut="comte" age="A" stat_amour='néant'>RICHARD</role>, le Comte de Warwick.</castItem>
-		<castItem><role id="LA COMTESSE DE WARVICK" sex="2" type="H" statut="" age="A" stat_amour='néant'>LA COMTESSE DE WARVICK</role>.</castItem>
+		<castItem><role id="LA COMTESSE DE WARVICK" sex="2" type="H" statut="comte" age="A" stat_amour='néant'>LA COMTESSE DE WARVICK</role>.</castItem>
 		<castItem><role id="JEAN DE TALBOT" sex="1" type="H" statut="baron" age="A" stat_amour='néant'>JEAN DE TALBOT</role>, Baron de Salopie.</castItem>
 		<castItem><role id="CANCHON" sex="1" type="H" statut="juge" age="A" stat_amour='néant'>CANCHON</role>, juge.</castItem>
 		<castItem><role id="DESPINET" sex="1" type="H" statut="juge" age="A" stat_amour='néant'>DESPINET</role>, juge.</castItem>
@@ -70,9 +70,9 @@
 		<castItem><role id="ARONTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>ARONTE</role>, Gentilhomme du Comte de Warwick.</castItem>
 		<castItem><role id="DALINDE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>DALINDE</role>, suivante de la Comtesse.</castItem>
 		<castItem><role id="DEUX GARDES" sex="1" type="H" statut="garde" age="A" stat_amour='néant'>DEUX GARDES</role>.</castItem>
-		<castItem><role id="CHOEUR DES SOLDATS ET DU PEUPLE" sex="9" type="H" statut="choeur" age="A" stat_amour='néant'>CHOEUR DES SOLDATS ET DU PEUPLE</role>.</castItem>	
+		<castItem><role id="CHOEUR DES SOLDATS ET DU PEUPLE" sex="9" type="H" statut="peuple" age="A" stat_amour='néant'>CHOEUR DES SOLDATS ET DU PEUPLE</role>.</castItem>	
 	</castList>
-<set location='Rouen' country='France' periode='XVème' link=''>La Scène est dans la cour du Château de Rouen</set>
+<set location='Rouen' country='France' periode='XVème' gps="49.44313, 1.09932">La Scène est dans la cour du Château de Rouen.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I.</head>
@@ -448,7 +448,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. La Baron de Talbot, Canchon, Mide, La Comtesse de Warwick, Dalinde.</head>
-<sp who="CANCHON"><speaker></speaker>
+<sp who="CANCHON"><speaker>CANCHON.</speaker>
 <p id="1">
 	<s id="1">Enfin, Madame pour guérir notre état d'une peste si dangereuse, le Duc a résolu de revoir son procès, et les efforts qu'elle a fait pour s'évader nous obligent à travailler diligemment à notre sûreté.</s>
 </p>

@@ -42,14 +42,14 @@
 		<head>PERSONNAGES.</head>
 			<castItem><role id="ÉDMOND" sex="1" type="H" statut="baron" age='A' stat_amour='néant'>ÉDMOND</role>.</castItem>
 			<castItem><role id="LE POSTILLON" sex="1" type="H" statut="postillon" age='A' stat_amour='néant'>LE POSTILLON</role>.</castItem>
-			<castItem><role id="MATHILDE" sex="2" type="J" statut="aristocrate" age='A' stat_amour='néant'>MATHILDE</role>.</castItem>
+			<castItem><role id="MATHILDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MATHILDE</role>.</castItem>
 			<castItem><role id="LE PEUPLE" sex="9" type="H" statut="peuple" age='A' stat_amour='néant'>LE PEUPLE</role>.</castItem>
 			<castItem><role id="LA MARCHANDE" sex="2" type="H" statut="commerçant" age='A' stat_amour='néant'>LA MARCHANDE</role>.</castItem>
 			<castItem><role id="LE JEUNE HOMME" sex="1" type="H" statut="officier" age='A' stat_amour='néant'>LE JENUE HOMME</role>.</castItem>
 			<castItem><role id="LA MAÎTRESSE D'AUBERGE" sex="2" type="H" statut="aubergiste" age='A' stat_amour='néant'>LA MAÎTRESSE D'AUBERGE</role>.</castItem>
-			<castItem><role id="CATHERINE" sex="2" type="H" statut="employée" age='A' stat_amour='néant'>CATHERINE</role>.</castItem>
-			<castItem><role id="LE GARÇON" sex="1" type="H" statut="employ" age='A' stat_amour='néant'>LE GARÇON</role>.</castItem>
-			<castItem><role id="MADAME DE BUSSIÈRES" sex="2" type="v" statut="aristocrate" age='A' stat_amour='néant'>MADAME DE BUSSIÈRES</role>.</castItem>
+			<castItem><role id="CATHERINE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>CATHERINE</role>.</castItem>
+			<castItem><role id="LE GARÇON" sex="1" type="H" statut="employé" age='A' stat_amour='néant'>LE GARÇON</role>.</castItem>
+			<castItem><role id="MADAME DE BUSSIÈRES" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MADAME DE BUSSIÈRES</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XXème" gps="49.353976, 0.075122"></set>
 <note>Extrait de "Eugène Scribe, Proverbe" dans Musée littéraire du siècle, Michel Levy frères, 1853. pp. 335-347</note>
@@ -230,8 +230,8 @@
 </p>
 <stage type="watch">Apercevant la Madone qui est au bord de la route.</stage>
 <p id="7">
-	<s id="1">Mon Dieu ! </s>
-	<s id="2">Mon Dieu ! </s>
+	<s id="1">Mon_Dieu ! </s>
+	<s id="2">Mon_Dieu ! </s>
 	<s id="3">Protégez-moi. </s>
 	<s id="4">Édmond, je suis venue parce que je vous l'avais promis, et pour ne pas manquer à ma parole... </s>
 	<s id="5">Maintenant, laissez-moi retourner à Paris.</s>
@@ -591,7 +591,7 @@
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 <p id="44">
-	<s id="1">Oh, mon Dieu ! </s>
+	<s id="1">Oh, mon_Dieu ! </s>
 	<s id="2">Oui, et depuis ce temps-là j'ai pensé à vous, et je n'ai plus pensé à lui, bien malgré moi ; car cela me faisait de la peine de lui être infidèle. </s>
 	<s id="3">Aussi, mon coeur serait peut-être revenu sans Corinne, à qui vous devez bien de la reconnaissance. </s>
 	<s id="4">Elle me parlait toujours de vous ; elle me disait : « Il est impossible qu'avec une physionomie pareille, on ne soit pas aimable, brave, spirituel ; et puis il est baron, j'en suis sûre. » </s>
@@ -700,7 +700,7 @@
 	<s id="1">Oui, et puis la crainte que Corinne ne se moquât de moi ; sans cela... </s>
 	<s id="2">C'est si mal de les tromper ainsi ! </s>
 	<s id="3">Ma tante qui m'a toujours aimée, qui voulait m'élever, me servir de seconde mère ; et mon père qui s'éloigne, que peut-être je ne verrai plus !... </s>
-	<s id="4">Mon Dieu ! </s>
+	<s id="4">Mon_Dieu ! </s>
 	<s id="5">Que ce postillon va vite !</s>
 </p>
 </sp>
@@ -982,7 +982,7 @@
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 <p id="46">
 	<s id="1">Ah ! </s>
-	<s id="2">Mon Dieu !</s>
+	<s id="2">Mon_Dieu !</s>
 </p>
 </sp>
 <sp who="ÉDMOND"><speaker>ÉDMOND.</speaker>
@@ -1551,7 +1551,7 @@
 </sp>
 <sp stage="nervous" who="ÉDMOND"><speaker>ÉDMOND, avec emportement.</speaker>
 <p id="21">
-	<s id="1">Mon Dieu ! </s>
+	<s id="1">Mon_Dieu ! </s>
 	<s id="2">Ce n'est pas pour la valeur ; mais si on se laisse faire la loi par ces gens-là... </s>
 </p>
 <stage type="toward">Au postillon. </stage>
@@ -2392,7 +2392,7 @@
 	<s id="4">Mes sens m'abusent et m'égarent... </s>
 	<s id="5">Ce n'est pas là celui que j'aimais... celui que mon coeur avait rêvé ! </s>
 	<s id="6">Quelle différence ! </s>
-	<s id="7">Mon Dieu ! </s>
+	<s id="7">Mon_Dieu ! </s>
 	<s id="8">Et quel réveil !... </s>
 	<s id="9">Et qui dois-je accuser ? </s>
 	<s id="10">Moi, moi seule... </s>
@@ -2404,7 +2404,7 @@
 	<s id="16">Mais lui appartenir !... </s>
 	<s id="17">Ah ! </s>
 	<s id="18">Mon châtiment serait plus grand encore que ma faute... et cependant maintenant comment lui échapper ? </s>
-	<s id="19">Mon honneur, ma réputation ne sont-ils pas entre ses mains ? Que faire, ô mon Dieu ! </s>
+	<s id="19">Mon honneur, ma réputation ne sont-ils pas entre ses mains ? Que faire, ô mon_Dieu ! </s>
 	<s id="20">Que faire ? </s>
 	<s id="21">Qui viendra à mon aide ?</s>
 </p> 
@@ -2760,7 +2760,7 @@
 <sp stage="drop" who="ÉDMOND"><speaker>ÉDMOND, laissant tomber sa fourchette.</speaker>
 <p id="8">
 	<s id="1">Ah ! </s>
-	<s id="2">Mon Dieu ! </s>
+	<s id="2">Mon_Dieu ! </s>
 </p>
 <stage type="aparte">À part. </stage>
 <p id="9">

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xml:lang="fr">
 <teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>LE PARADIS TERRESTRE, DIVERTISSEMENT.</title>
-				<author born='1659' born_location='Poitiers' death='1741' death_location='Poitiers' academie=''>NADAL, Augustin</author>
-				<date>1735</date>
-			</titleStmt>
-			<publicationStmt>	
-				<p>publié par Paul Fièvre janvier 2009.</p>
-				<idno>NADAL_PARADISTERRESTRE</idno>
-			<rights>Creative Commons BY-NC-SA</rights>
-			</publicationStmt>
-			<SourceDesc>
-				<genre>Divertissement</genre>
-				<inspiration>bible</inspiration>
-				<structure>Un acte</structure>
-				<type>vers</type>
-				<periode>1731-1740</periode>
-				<taille>0-250</taille>
-				<permalien></permalien>
-				<liens>
-					<lien type='texte cité'>La Bible</lien>
-				</liens>	
-			</SourceDesc>
-		</fileDesc>
+	<fileDesc>
+		<titleStmt>
+			<title>LE PARADIS TERRESTRE, DIVERTISSEMENT.</title>
+			<author type="texte" ISNI="0000 0001 1810 0825">Augustin NADAL (1659-1741)</author>
+		</titleStmt>
+		<publicationStmt>	
+			<editor>Texte établi par Paul Fièvre janvier 2009, mai 2023.</editor>
+			<publisher>Publié par Paul Fièvre janvier 2009.</publisher>
+			<idno>NADAL_PARADISTERRESTRE</idno>
+		<rights>Creative Commons BY-NC-SA</rights>
+		</publicationStmt>
+		<SourceDesc>
+			<genre>Divertissement</genre>
+			<inspiration>bible</inspiration>
+			<structure>Un acte</structure>
+			<type>vers</type>
+			<periode>1731-1740</periode>
+			<taille>0-250</taille>
+			<permalien cote="BnF LLA Z-27876">https://gallica.bnf.fr/ark:/12148/bpt6k9346821</permalien>
+			<liens>
+				<lien type='texte cité'>La Bible</lien>
+			</liens>	
+		</SourceDesc>
+	</fileDesc>
 </teiHeader>
 <text>
 <front>
@@ -36,11 +36,7 @@
 		<docDate value='1735'>M. DCC. XXXV.</docDate>
 		<docAuthor id='NADAL, Augustin' bio='nadal'>Abbé NADAL</docAuthor>
 		<docImprint>
- 			<privilege><head></head>
-				<p></p>
-			</privilege>
-			<acheveImprime id=''></acheveImprime>
-			<printer id=''></printer>
+			<printer id='BRIASSON'>À PARIS, chez BRIASSON, rue Saint-Jacques à La Science.</printer>
 		</docImprint>
 		<div type="dedicace">
 			<adresse>À Madame Le Nains, intendante du Poitou.</adresse>
@@ -63,7 +59,7 @@
 		<set location='(non indiqué)' country='Paradis terrestre' periode='Temps mythologiques' gps="(N/A)"></set>
 </front>
 <body>
-<div1 type="act" n='1'><head></head>
+<div1 type="act" n='1'><head>LE PARADIS TERRESTRE</head>
 <div2 type="scene" n='1'><head>SCÈNE PREMIÈRE. Adam, Ève, Le Narrateur.</head>
 <sp who='LE NARRATEUR'><speaker>LE NARRATEUR.</speaker>
 	<l id='1'>Ce fut au jour marqué dans ses décrets divers,</l>
@@ -204,7 +200,7 @@
 <sp who='EVE'><speaker>ÈVE.</speaker>
 	<l id='103'>Amant si sensible et si tendre,</l>
 	<l id='104'>Ou plutôt mon maître et mon roi,</l>
-	<l id='105'>C'est de toi que je vais d"pendre ;</l>
+	<l id='105'>C'est de toi que je vais dépendre ;</l>
 	<l id='106'>Un Dieu m'en impose la loi.</l>
 	<l id='107'>Déjà sa voix s'est faite entendre,</l>
 	<l id='108'>La terre a tremblé d'effroi ;</l>
@@ -212,7 +208,7 @@
 	<l id='110'>La premier tribut se sa foi.</l>
 </sp>
 </div2>
-<div2 type="scene" n='1'><head>SCÈNE I. et DENIÈRE. L'Ange, Choeur des Anges, plusieurs vois prises du Choeur des Anges, Adam, Ève, Le Narrateur.</head>
+<div2 type="scene" n='4'><head>SCÈNE IV et DENIÈRE. L'Ange, Choeur des Anges, plusieurs vois prises du Choeur des Anges, Adam, Ève, Le Narrateur.</head>
 <sp who='LE NARRATEUR'><speaker>LE NARRATEUR.</speaker>
 	<l id='111'>La chef de ces esprits qui volent sur le faîte</l>
 	<l id='112'>Où dans sa majesté repose l'Éternel,</l>
@@ -293,4 +289,3 @@
 </body>
 </text>
 </TEI>
-
