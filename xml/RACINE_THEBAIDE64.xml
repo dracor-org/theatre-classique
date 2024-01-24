@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>vers</type>
 			<periode>1661-1670</periode>
 			<taille>1500-1750</taille>
-			<permalien></permalien>
+			<permalien/>
 			<liens>
 				<lien>Sophocle, Antigone</lien>
 				<lien>Euripide, Phéniciennes</lien>
@@ -37,14 +37,14 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1664">M. DC. LXIV. Avec Privilège du Roi.</docDate>
-		<docAuthor id="RACINE, Jean" bio='racine'></docAuthor>
+		<docAuthor id="RACINE, Jean" bio="racine"/>
 		<docImprint>
 			<privilege id="1664-10-03">3 octobre 1664</privilege>
 			<acheveImprime id="1664-30-10">30 octobre 1664</acheveImprime>
 			<printer id="Barbin">À PARIS, Chez CLAUDE BARBIN, au Palais vis à vis le grand Portail de la Sainte-Chapelle, au signe de la Croix.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1664-06-20" location='Théâtre du Palais-Royal'>Représenté la première fois le 20 juin 1664 au Théâtre du Palais-Royal.</premiere>
+			<premiere date="1664-06-20" location="Théâtre du Palais-Royal">Représenté la première fois le 20 juin 1664 au Théâtre du Palais-Royal.</premiere>
 		</performance>
 	<div type="dedicace">
 <adresse>À MONSEIGNEUR LE DUC DE SAINT-AIGNAN PAIR DE FRANCE.</adresse>
@@ -56,23 +56,24 @@
  </div>
 	
 		<castList><head>ACTEURS</head>
-			<castItem><role id="ÉTÉOCLE" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>ÉTÉOCLE</role>, roi de Thèbes.</castItem>
-			<castItem><role id="POLYNICE" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>POLYNICE</role>, frère d'Étéocle.</castItem>
-			<castItem><role id="JOCASTE" sex="2" type="H" statut="roi" age="A" stat_amour='néant'>JOCASTE</role>, mère de ces deux princes et d'Antigone.</castItem>
-			<castItem><role id="ANTIGONE" sex="2" type="H" statut="prince" age="A" stat_amour='amoureux'>ANTIGONE</role>, soeur d'Étéocle et de Polynice.</castItem>
-			<castItem><role id="CRÉON" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>CRÉON</role>, oncle des princes et de la princesse.</castItem>
-			<castItem><role id="HÉMON" sex="1" type="H" statut="prince" age="A" stat_amour='amoureux'>HÉMON</role>, fils de Créon, amant d'Antigone.</castItem>
-			<castItem><role id="OLYMPE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>OLYMPE</role>, confidente de Jocaste.</castItem>
-			<castItem><role id="ATTALE" sex="1" type="H" statut="confident" age="A" stat_amour='néant'>ATTALE</role>, confident de Créon.</castItem>
-			<castItem><role id="SOLDAT GREC" sex="1" type="H" statut="soldat" age="A" stat_amour='néant'>UN SOLDAT GREC</role>.</castItem>
-			<castItem><role id="UN PAGE" sex="1" type="H" statut="page" age="A" stat_amour='néant'>UN PAGE</role>.</castItem>
-			<castItem><role id="GARDES" sex="9" type="H" statut="garde" age="A" stat_amour='néant'>DES GARDES</role>.	</castItem>
+			<castItem><role id="ÉTÉOCLE" sex="1" type="H" statut="prince" age="A" stat_amour="néant">ÉTÉOCLE</role>, roi de Thèbes.</castItem>
+			<castItem><role id="POLYNICE" sex="1" type="H" statut="prince" age="A" stat_amour="néant">POLYNICE</role>, frère d'Étéocle.</castItem>
+			<castItem><role id="JOCASTE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">JOCASTE</role>, mère de ces deux princes et d'Antigone.</castItem>
+			<castItem><role id="ANTIGONE" sex="2" type="H" statut="prince" age="A" stat_amour="amoureux">ANTIGONE</role>, soeur d'Étéocle et de Polynice.</castItem>
+			<castItem><role id="CRÉON" sex="1" type="H" statut="prince" age="A" stat_amour="néant">CRÉON</role>, oncle des princes et de la princesse.</castItem>
+			<castItem><role id="HÉMON" sex="1" type="H" statut="prince" age="A" stat_amour="amoureux">HÉMON</role>, fils de Créon, amant d'Antigone.</castItem>
+			<castItem><role id="OLYMPE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">OLYMPE</role>, confidente de Jocaste.</castItem>
+			<castItem><role id="ATTALE" sex="1" type="H" statut="confident" age="A" stat_amour="néant">ATTALE</role>, confident de Créon.</castItem>
+			<castItem><role id="SOLDAT GREC" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">UN SOLDAT GREC</role>.</castItem>
+			<castItem><role id="UN PAGE" sex="1" type="H" statut="page" age="A" stat_amour="néant">UN PAGE</role>.</castItem>
+			<castItem><role id="GARDES" sex="9" type="H" statut="garde" age="A" stat_amour="néant">DES GARDES</role>.	</castItem>
 		</castList>
 		<set location="Thèbes" country="Grèce" periode="Temps mythologiques" gps="38.322579, 23.320431">La scène est à Thèbes, dans une salle du palais royal.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Jocaste, Olympe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Jocaste, Olympe.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="1">Ils sont sortis, Olympe ? Ah mortelles douleurs !</l>
 	<l id="2">Qu'un moment de repos me va coûter de pleurs !</l>
@@ -114,13 +115,14 @@
 	<l id="32">S'ils sont tous deux méchants, et s'ils sont parricides,</l>
 	<l id="33">Tu sais qu'ils sont sortis d'un sang incestueux,</l>
 	<l id="34">Et tu t'étonnerais s'ils étaient vertueux.</l>
-	<l id='35'>Ce sang en leur donnant la lumière céleste,</l>
-	<l id='36'>Leur donna pour le crime un pente funeste,</l>
-	<l id='37'>Et leurs coeurs infectés de ce fatal poison,</l>
-	<l id='38'>S'ouvrirent à la haine avant qu'à la raison.</l>
+	<l id="35">Ce sang en leur donnant la lumière céleste,</l>
+	<l id="36">Leur donna pour le crime un pente funeste,</l>
+	<l id="37">Et leurs coeurs infectés de ce fatal poison,</l>
+	<l id="38">S'ouvrirent à la haine avant qu'à la raison.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Jocaste, Antigone, Olympe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Jocaste, Antigone, Olympe.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="39">Ma fille, avez-vous su l'excès de nos misères.</l>
 </sp>
@@ -139,7 +141,8 @@
 	<l id="47">Madame, c'en est fait, voici le Roi lui-même.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Jocaste, Antigone, Étéocle, Olympe.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jocaste, Antigone, Étéocle, Olympe.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="48">Olympe, soutiens-moi, ma douleur est extrême.</l>
 </sp>
@@ -171,14 +174,14 @@
 	<l id="65">Lorsque l'on peut paraître au milieu des hasards,</l>
 	<l id="66">Un grand coeur est honteux de garder des remparts.</l>
 	<l id="67">J'étais las d'endurer que le fier Polynice</l>
-	<l id='68'>Me reprochât tout haut cet indigne exercice,</l>
-	<l id='69'>Et criât aux Thébains afin de les gagner,</l>
-	<l id='70'>Que je laissais aux fers ceux qui me font régner.</l>
-	<l id='71'>Le peuple à qui la faim se faisait déjà craindre,</l>
-	<l id='72'>De mon peu de vigueur commençait à se plaindre,</l>
-	<l id='73'>Ma reprochant déjà qu'il m'avait couronné,</l>
-	<l id='74'>Et que j'occupais mal le rang qu'il m'a donné.</l>
-	<l id='75'>Il le faut satisfaire, et quoi qu'il en arrive,</l>
+	<l id="68">Me reprochât tout haut cet indigne exercice,</l>
+	<l id="69">Et criât aux Thébains afin de les gagner,</l>
+	<l id="70">Que je laissais aux fers ceux qui me font régner.</l>
+	<l id="71">Le peuple à qui la faim se faisait déjà craindre,</l>
+	<l id="72">De mon peu de vigueur commençait à se plaindre,</l>
+	<l id="73">Ma reprochant déjà qu'il m'avait couronné,</l>
+	<l id="74">Et que j'occupais mal le rang qu'il m'a donné.</l>
+	<l id="75">Il le faut satisfaire, et quoi qu'il en arrive,</l>
 	<l id="76">Thèbes dès aujourd'hui ne sera plus captive,</l>
 	<l id="77">Je veux, en n'y laissant aucun de mes soldats,</l>
 	<l id="78">Qu'elle soit seulement juge de nos combats.</l>
@@ -192,14 +195,14 @@
 	<l id="84">Thèbes ne veut point voir une action si noire,</l>
 	<l id="85">Laissez là à son salut et n'y songez jamais ;</l>
 	<l id="86">La guerre vaut bien mieux que cette affreuse paix.</l>
-	<l id='87'>Dure-t-elle à jamais cette cruelle guerre,</l>
-	<l id='88'>Dont le flambeau fatal désole cette terre.</l>
-	<l id='89'>Prolongez nos malheurs, augmentez-les toujours,</l>
-	<l id='90'>Plutôt qu'un si grand crime en arrête le cours.</l>
-	<l id='91'>Vous-même d'un tel sang souilleriez vous vos armes ?</l>
-	<l id='92'>La couronne pour vous a-t-elle tant de charmes ?</l>
-	<l id='93'>Si par un parricide il la fallait gagner</l>
-	<l id='94'>Ah ! Mon fils à ce prix voudriez vous régner ?</l>
+	<l id="87">Dure-t-elle à jamais cette cruelle guerre,</l>
+	<l id="88">Dont le flambeau fatal désole cette terre.</l>
+	<l id="89">Prolongez nos malheurs, augmentez-les toujours,</l>
+	<l id="90">Plutôt qu'un si grand crime en arrête le cours.</l>
+	<l id="91">Vous-même d'un tel sang souilleriez vous vos armes ?</l>
+	<l id="92">La couronne pour vous a-t-elle tant de charmes ?</l>
+	<l id="93">Si par un parricide il la fallait gagner</l>
+	<l id="94">Ah ! Mon fils à ce prix voudriez vous régner ?</l>
 	<l id="95">Mais il ne tient qu'à vous si l'honneur vous anime,</l>
 	<l id="96">De nous donner la paix, sans le secours d'un crime,</l>
 	<l id="97">Vous pouvez-vous montrer généreux tout à fait,</l>
@@ -222,24 +225,24 @@
 	<l id="110">Et vous ne voulez pas qu'il y monte après vous ?</l>
 </sp>
 <sp who="ÉTÉOCLE"><speaker>ÉTÉOCLE.</speaker>
-	<l id='111'>Il est vrai, je promis, ce que voulut mon père,</l>
-	<l id='112'>Pour un trône est-il rien qu'on refuse de faire ?</l>
-	<l id='113'>On promet tout, Madame, afin d'y parvenir,</l>
-	<l id='114'>Mais on ne songe après qu'à s'y bien maintenir.</l>
-	<l id='115'>J'étais alors sujet, et dans l'obéissance,</l>
-	<l id='116'>Et je tiens aujourd'hui la suprême puissance :</l>
-	<l id='117'>Ce que je fis alors ne m'est plus une loi,</l>
-	<l id='118'>Le devoir d'un sujet n'est pas celui d'un Roi.</l>
-	<l id='119'>D'abord que sur sa tête il reçoit la Couronne,</l>
-	<l id='120'>Un roi sort à l'instant de sa propre personne,</l>
-	<l id='121'>L'intérêt du public doit devenir le sien,</l>
-	<l id='122'>Il doit tout à l'État, et ne se doit rien.</l>
+	<l id="111">Il est vrai, je promis, ce que voulut mon père,</l>
+	<l id="112">Pour un trône est-il rien qu'on refuse de faire ?</l>
+	<l id="113">On promet tout, Madame, afin d'y parvenir,</l>
+	<l id="114">Mais on ne songe après qu'à s'y bien maintenir.</l>
+	<l id="115">J'étais alors sujet, et dans l'obéissance,</l>
+	<l id="116">Et je tiens aujourd'hui la suprême puissance :</l>
+	<l id="117">Ce que je fis alors ne m'est plus une loi,</l>
+	<l id="118">Le devoir d'un sujet n'est pas celui d'un Roi.</l>
+	<l id="119">D'abord que sur sa tête il reçoit la Couronne,</l>
+	<l id="120">Un roi sort à l'instant de sa propre personne,</l>
+	<l id="121">L'intérêt du public doit devenir le sien,</l>
+	<l id="122">Il doit tout à l'État, et ne se doit rien.</l>
 </sp>
-<sp who='JOCASTE'><speaker>JOCASTE.</speaker>
-	<l id='123'>Au moins doit-il, mon fils, quelque choses à sa gloire,</l>
-	<l id='124'>Dont le soin ne doit pas sortir de sa mémoire,</l>
-	<l id='125'>Et quand ce nouveau rang l'affranchirait des lois,</l>
-	<l id='126'>Au moins doit il tenir sa parole à des Rois.</l>
+<sp who="JOCASTE"><speaker>JOCASTE.</speaker>
+	<l id="123">Au moins doit-il, mon fils, quelque choses à sa gloire,</l>
+	<l id="124">Dont le soin ne doit pas sortir de sa mémoire,</l>
+	<l id="125">Et quand ce nouveau rang l'affranchirait des lois,</l>
+	<l id="126">Au moins doit il tenir sa parole à des Rois.</l>
 </sp>
 <sp who="ÉTÉOCLE"><speaker>ÉTÉOCLE.</speaker>
 	<l id="127">Polynice à ce titre aurait tort de prétendre,</l>
@@ -329,7 +332,8 @@
 	<l id="202">De laisser aux Thébains à se choisir un roi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Jocaste, Étéocle, Antigone, Créon, Olympe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Jocaste, Étéocle, Antigone, Créon, Olympe.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="203">Seigneur, votre sortie a mis tout en alarmes,</l>
 	<l id="204">Thèbes qui croit vous perdre est déjà toute en larmes,</l>
@@ -366,7 +370,8 @@
 	<l id="222">Faites ce que j'ordonne, et venez sur mes pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Jocaste, Antigone, Créon, Olympe.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Jocaste, Antigone, Créon, Olympe.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="223">Qu'avez-vous fait, Madame, et par quelle conduite</l>
 	<l id="224">Forcez-vous un vainqueur à prendre ainsi la fuite ?</l>
@@ -536,7 +541,8 @@
 	<l id="326">Tous deux ils préviendront tes desseins malheureux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Jocaste, Antigone, Olympe.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Jocaste, Antigone, Olympe.
+</stage>
 <sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
 	<l id="327">Le perfide, à quel point son insolence monte !</l>
 </sp>
@@ -553,7 +559,8 @@
 	<l id="337">Seconde mes soupirs, donne force à mes pleurs,</l>
 	<l id="338">Et comme il faut enfin, fais parler mes douleurs.</l>
 </sp>
-<sp stage="closer" who="ANTIGONE"><speaker>ANTIGONE, demeurant un peu après sa mère.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE</speaker><stage type="closer">, demeurant un peu après sa mère.
+	</stage>
 	<l id="339">Et si tu prends pitié d'une flamme innocente,</l>
 	<l id="340">Ô ciel ! En ramenant Hémon à son amante.</l>
 	<l id="341">Ramène-le fidèle, et permets en ce jour,</l>
@@ -562,7 +569,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Antigone, Hémon.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Antigone, Hémon.
+</stage>
 <sp who="HEMON"><speaker>HÉMON.</speaker>
 	<l id="343">Hé quoi ! Vous me plaignez votre aimable présence,</l>
 	<l id="344">Après un an entier de supplice et d'absence,</l>
@@ -681,7 +689,8 @@
 	<l id="439">Mais les dieux quelquefois font de plus grands miracles.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Antigone, Hémon, Olympe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Antigone, Hémon, Olympe.
+</stage>
 <sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
 	<l id="440">Hé bien apprendrons-nous ce qu'ont dit les oracles ?</l>
 	<l id="441" part="i">Que faut-il faire ?</l>
@@ -763,48 +772,49 @@
 	<l id="488">C'est à vous à juger s'il vous ont offensée,</l>
 	<l id="489">Tels que seront pour eux vos arrêts tout puissants,</l>
 	<l id="490">Ils seront criminels ou seront innocents.</l>
-	<l id='491'>Aussi quand jusqu'à vous j'osai porter ma flamme,</l>
-	<l id='492'>Vos yeux seuls imprimaient la terreur de mon âme,</l>
-	<l id='493'>Et je craignais bien plus que d'offenser vos appas,</l>
-	<l id='494'>Que le courroux des Dieux que je n'offensais pas.</l>
+	<l id="491">Aussi quand jusqu'à vous j'osai porter ma flamme,</l>
+	<l id="492">Vos yeux seuls imprimaient la terreur de mon âme,</l>
+	<l id="493">Et je craignais bien plus que d'offenser vos appas,</l>
+	<l id="494">Que le courroux des Dieux que je n'offensais pas.</l>
 </sp>
-<sp who='ANTIGONE'><speaker>ANTIGONE.</speaker>
-	<l id='495'>Autant que votre amour votre erreur est extrême,</l>
-	<l id='496'>Et vous les offensiez beaucoup plus que moi-même ;</l>
-	<l id='497'>Quelque rigueur pour vous qui parût en mes yeux,</l>
-	<l id='498'>Hélas ! Ils approuvaient ce qui fâchait les Dieux.</l>
-	<l id='499'>Oui, ces Dieux ennemis de toute ma famille,</l>
-	<l id='500'>Aussi bien que le père en détestaient la fille,</l>
-	<l id='501'>Vous aimâtes, Hémon, l'objet de leur courroux,</l>
-	<l id='502'>Et leur haine pour moi s'étendit jusqu'à vous.</l>
-	<l id='503'>C'est là de vos malheurs le funeste principe,</l>
-	<l id='504'>Fuyez, Hémon, fuyez de la fille d'Oedipe,</l>
-	<l id='505'>Tâchez de n'aimer plus, pour plaire aux immortels,</l>
-	<l id='506'>Et la fille et le coeur de tant de criminels.</l>
-	<l id='507' part="i">Le crime en sa famille...</l>
+<sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
+	<l id="495">Autant que votre amour votre erreur est extrême,</l>
+	<l id="496">Et vous les offensiez beaucoup plus que moi-même ;</l>
+	<l id="497">Quelque rigueur pour vous qui parût en mes yeux,</l>
+	<l id="498">Hélas ! Ils approuvaient ce qui fâchait les Dieux.</l>
+	<l id="499">Oui, ces Dieux ennemis de toute ma famille,</l>
+	<l id="500">Aussi bien que le père en détestaient la fille,</l>
+	<l id="501">Vous aimâtes, Hémon, l'objet de leur courroux,</l>
+	<l id="502">Et leur haine pour moi s'étendit jusqu'à vous.</l>
+	<l id="503">C'est là de vos malheurs le funeste principe,</l>
+	<l id="504">Fuyez, Hémon, fuyez de la fille d'Oedipe,</l>
+	<l id="505">Tâchez de n'aimer plus, pour plaire aux immortels,</l>
+	<l id="506">Et la fille et le coeur de tant de criminels.</l>
+	<l id="507" part="i">Le crime en sa famille...</l>
 </sp>
 <sp who="HEMON"><speaker>HÉMON.</speaker>
-	<l id='507' part="f">Ah ! Madame leur crime,</l>
-	<l id='508'>Ne fait que relever votre vertu sublime,</l>
-	<l id='509'>Puisque par un effort dont les dieux sont jaloux,</l>
-	<l id='510'>Vous brillez d'un éclat qui ne vient que de vous.</l>
-	<l id='511'>Que le Ciel à son gré de ma perte dispose,</l>
-	<l id='512'>J'en chérirai toujours et l'une et l'autre cause,</l>
-	<l id='513'>Glorieux de mourir pour le sang de mes Rois,</l>
-	<l id='514'>Et plus heureux encor de mourir sous vos lois.</l>
-	<l id='515'>Plût aux Dieux seulement que votre amant fidèle,</l>
-	<l id='516'>Put avoir de leur haine une cause nouvelle,</l>
-	<l id='517'>Et que pour vous aimer méritant leur courroux,</l>
-	<l id='518'>Il put mourir encor pour être aimé de vous.</l>
-	<l id='519'>Aussi bien que ferais-je en ce commun naufrage,</l>
-	<l id='520'>Pourrais-je me résoudre à vivre davantage,</l>
-	<l id='521'>En vain les Dieux voudraient différer mon trépas,</l>
-	<l id='522'>Mon désespoir ferait ce qu'ils ne feraient pas,</l>
-	<l id='523'>Mais peut-être en ce point notre frayeur est vaine,</l>
-	<l id='524'>Attendons.... Mais voici Polynice et la Reine.</l>
+	<l id="507" part="f">Ah ! Madame leur crime,</l>
+	<l id="508">Ne fait que relever votre vertu sublime,</l>
+	<l id="509">Puisque par un effort dont les dieux sont jaloux,</l>
+	<l id="510">Vous brillez d'un éclat qui ne vient que de vous.</l>
+	<l id="511">Que le Ciel à son gré de ma perte dispose,</l>
+	<l id="512">J'en chérirai toujours et l'une et l'autre cause,</l>
+	<l id="513">Glorieux de mourir pour le sang de mes Rois,</l>
+	<l id="514">Et plus heureux encor de mourir sous vos lois.</l>
+	<l id="515">Plût aux Dieux seulement que votre amant fidèle,</l>
+	<l id="516">Put avoir de leur haine une cause nouvelle,</l>
+	<l id="517">Et que pour vous aimer méritant leur courroux,</l>
+	<l id="518">Il put mourir encor pour être aimé de vous.</l>
+	<l id="519">Aussi bien que ferais-je en ce commun naufrage,</l>
+	<l id="520">Pourrais-je me résoudre à vivre davantage,</l>
+	<l id="521">En vain les Dieux voudraient différer mon trépas,</l>
+	<l id="522">Mon désespoir ferait ce qu'ils ne feraient pas,</l>
+	<l id="523">Mais peut-être en ce point notre frayeur est vaine,</l>
+	<l id="524">Attendons.... Mais voici Polynice et la Reine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Jocaste, Polynice, Antigone, Hémon.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jocaste, Polynice, Antigone, Hémon.
+</stage>
 <sp who="POLYNICE"><speaker>POLYNICE.</speaker>
 	<l id="525">Madame, au nom des dieux, cessez de m'arrêter,</l>
 	<l id="526">Je vois bien que la paix ne peut s'exécuter.</l>
@@ -962,7 +972,8 @@
 	<l id="647">Mais que veut ce soldat ? Son âme est toute émue.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Jocaste, Polynice, Antigone, Hémon, un soldat grec.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Jocaste, Polynice, Antigone, Hémon, un soldat grec.
+</stage>
 <sp who="UN SOLDAT GREC"><speaker>UN SOLDAT GREC.</speaker>
 	<l id="648">Seigneur, on est aux mains, et la trêve est rompue,</l>
 	<l id="649">Et les Thébains, conduits par Créon, et leur roi,</l>
@@ -987,7 +998,8 @@
 </sp>
 </div2>
 </div1><div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Jocaste, Olympe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Jocaste, Olympe.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="663">Olympe, va-t-en voir ce funeste spectacle,</l>
 	<l id="664">Va voir si leur fureur n'a point trouvé d'obstacle,</l>
@@ -1011,7 +1023,8 @@
 	<l id="674">Si pourtant on peut l'être avec tant d'ennuis.</l>
 </sp>
 </div2><div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="JOCASTE"><speaker>JOCASTE, seule.</speaker>
+<sp who="JOCASTE"><speaker>JOCASTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="675">Dureront-ils toujours ces ennuis si funestes ?</l>
 	<l id="676">N'épuiseront-ils point les vengeances célestes ?</l>
 	<l id="677">Me feront-ils souffrir tant de cruels trépas,</l>
@@ -1037,7 +1050,8 @@
 	<l id="697">Et ne peuvent-ils point quand ils sont en courroux,</l>
 	<l id="698">Chercher des criminels à qui le crime est doux ?</l>
 </sp>
-</div2><div2 type="scene" n="3"><head>SCÈNE III. Jocaste, Antigone.</head>
+</div2><div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jocaste, Antigone.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="699">Hé bien en est-ce fait ? L'un ou l'autre perfide,</l>
 	<l id="700">Vient-il d'exécuter son noble parricide ?</l>
@@ -1152,7 +1166,8 @@
 	<l id="788">Ah ! Le voici, Madame, avec le roi mon frère.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Jocaste, Étéocle, Antigone, Créon.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Jocaste, Étéocle, Antigone, Créon.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="789">Mon fils, c'est donc ainsi que l'on garde sa foi ?</l>
 </sp>
@@ -1269,7 +1284,8 @@
 	<l id="874">Et ne veut revenir que le sceptre à la main.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Jocaste, Étéocle, Antigone, Créon, Attale.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Jocaste, Étéocle, Antigone, Créon, Attale.
+</stage>
 <sp who="ATTALE"><speaker>ATTALE.</speaker>
 	<l id="875">Polynice, Seigneur, demande une entrevue ;</l>
 	<l id="876">C'est ce que d'un héraut nous apprend la venue ;</l>
@@ -1320,7 +1336,8 @@
 	<l id="902">Elle sera, Créon, l'ouvrage de vos mains.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Créon, Attale.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Créon, Attale.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="903">L'intérêt des Thébains n'est pas ce qui vous touche,</l>
 	<l id="904">Dédaigneuse Princesse, et cette âme farouche,</l>
@@ -1435,7 +1452,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Étéocle, Créon.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Étéocle, Créon.
+</stage>
 <sp who="ETEOCLE"><speaker>ÉTÉOCLE.</speaker>
 	<l id="995">Oui, Créon, c'est ici qu'il doit bientôt se rendre,</l>
 	<l id="996">Et tous deux en ce lieu nous le pouvons attendre,</l>
@@ -1482,7 +1500,7 @@
 	<l id="1033">Qu'il m'abhorre toujours, et veut toujours régner,</l>
 	<l id="1034">Et qu'on peut bien le vaincre et non pas le gagner.</l>
 </sp>
-<sp who='CRÉON'><speaker>CRÉON.</speaker>
+<sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1035">Domptez-le donc, Seigneur, s'il demeure inflexible,</l>
 	<l id="1036">Quelque fier qu'il puisse être il n'est pas invincible,</l>
 	<l id="1037">Et puisque la raison ne peut rien sur son coeur,</l>
@@ -1507,7 +1525,8 @@
 	<l id="1056">Et s'il se peut, Seigneur, cachez votre colère.</l>
 	<l id="1057" part="i">Mais quelqu'un vient.</l></sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Étéocle, Créon, Attale.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Étéocle, Créon, Attale.
+</stage>
 <sp who="ETEOCLE"><speaker>ÉTÉOCLE.</speaker>
 	<l id="1057" part="f">Eh bien, sont-ils bien près d'ici ?</l>
 	<l id="1058" part="i">Vont-ils venir Attale ?</l>
@@ -1526,7 +1545,8 @@
 	<l id="1064">Et livre-les tous deux aux transports de leur rage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Jocaste, Étéocle, Polynice, Antigone, Hémon, Créon.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jocaste, Étéocle, Polynice, Antigone, Hémon, Créon.
+</stage>
 <sp who="JOCASTE"><speaker>JOCASTE.</speaker>
 	<l id="1065">Me voici donc tantôt au comble de mes voeux,</l>
 	<l id="1066">Puisque déjà le Ciel vous rassemble tous deux.</l>
@@ -1729,7 +1749,7 @@
 	<l id="1216">Si vous y montez ce sera pas le vôtre.</l>
 	<l id="1217" part="i">Conservez votre gloire.</l>
 </sp>
-<sp who='ANTIGONE'><speaker>ANTIGONE.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
 	<l id="1217" part="f">Ah ! Mon frère en effet,</l>
 	<l id="1218">Pouvez-vous concevoir cet horrible forfait ?</l>
 	<l id="1219">Ainsi donc tout_à_coup l'honneur vous abandonne ?</l>
@@ -1741,7 +1761,7 @@
 	<l id="1225">Quand on l'ose immoler on le connaît bien peu,</l>
 	<l id="1226">Et la victime hélas ! Vaut bien plus que le Dieu.</l>
 </sp>
-<sp who='HÉMON'><speaker>HÉMON.</speaker>
+<sp who="HÉMON"><speaker>HÉMON.</speaker>
 	<l id="1227">Seigneur sans vous livrer à ce malheur extrême,</l>
 	<l id="1228">Le Ciel à vos désirs offre le diadème.</l>
 	<l id="1229">Vous pouvez sans répandre une goutte de sang.</l>
@@ -1901,7 +1921,8 @@
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ANTIGONE"><speaker>ANTIGONE, seule.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE</speaker><stage type="alone">, seule.
+</stage>
 <poem type="stances">
 <lg n="1">
 	<l id="1323">À quoi te résous-tu princesse infortunée ?</l>
@@ -1944,7 +1965,8 @@
 	<l id="1354">Mais voici du combat la funeste nouvelle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Antigone, Olympe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Antigone, Olympe.
+</stage>
 <sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
 	<l id="1355">Hé bien, ma chère Olympe, as-tu vu ce forfait ?</l>
 </sp>
@@ -2015,7 +2037,8 @@
 	<l id="1407">C'est de tous nos malheurs l'auteur pernicieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Antigone, Créon, Attale, Olympe.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Antigone, Créon, Attale, Olympe.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1408">Madame, qu'ai-je appris en entrant dans ces lieux ?</l>
 	<l id="1409" part="i">Est-il vrai que la Reine...</l>
@@ -2061,10 +2084,10 @@
 <note type="C">Le vers 1432 finit par un point et la phrase est interrogative, nous mettons un point d'interrogation.</note>
 	<l id="1432">Quelque autre qu'Étéocle a-t-il fini ses jours ?</l>
 </sp>
-<sp who='CRÉON'><speaker>CRÉON.</speaker>
+<sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1433">Mais ne savez-vous pas cette sanglante histoire.</l>
 </sp>
-<sp who='ANTIGONE'><speaker>ANTIGONE.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE.</speaker>
 	<l id="1434">J'ai su que Polynice a gagné la victoire,</l>
 	<l id="1435">Et qu'Hémon a voulu les séparer en vain.</l>
 </sp>
@@ -2186,7 +2209,8 @@
 	<l id="1535">Adieu, nous ne faisons tous deux que nous gêner,</l>
 	<l id="1536">Je veux pleurer, Créon, et vous voulez régner.</l>
 </sp>
-<sp stage="stop" who="CRÉON"><speaker>CRÉON, arrêtant Antigone.</speaker>
+<sp who="CRÉON"><speaker>CRÉON</speaker><stage type="stop">, arrêtant Antigone.
+	</stage>
 	<l id="1537">Ah ! Madame, régnez et montez sur le trône,</l>
 	<l id="1538">Ce haut rang n'appartient qu'à l'illustre Antigone.</l>
 </sp>
@@ -2218,16 +2242,20 @@
 	<l id="1550">Ordonnez seulement ce qu'il faut que je fasse.</l>
 	<l id="1551" part="i">Je suis prêt...</l>
 </sp>
-<sp stage="away" who="ANTIGONE"><speaker>ANTIGONE, en s'en allant.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE</speaker><stage type="away">, en s'en allant.
+	</stage>
 	<l id="1551" part="m">Nous verrons.</l>
 </sp>
-<sp stage="kollow" who="CRÉON"><speaker>CRÉON, la suivant.</speaker>
+<sp who="CRÉON"><speaker>CRÉON</speaker><stage type="kollow">, la suivant.
+	</stage>
 	<l id="1551" part="f">J'attends vos lois ici.</l>
 </sp>
-<sp stage="away" who="ANTIGONE"><speaker>ANTIGONE, en s'en allant.</speaker>
+<sp who="ANTIGONE"><speaker>ANTIGONE</speaker><stage type="away">, en s'en allant.
+	</stage>
 	<l id="1552" part="i">Attendez.</l>
 </sp>
-</div2><div2 type="scene" n="4"><head>SCÈNE IV. Créon, Attale.</head>
+</div2><div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Créon, Attale.
+</stage>
 <sp who="ATTALE"><speaker>ATTALE.</speaker>
 	<l id="1552" part="f">Son courroux serait-il adouci ?</l>
 	<l id="1553" part="i">Croyez-vous? la fléchir ?</l>
@@ -2285,7 +2313,8 @@
 	<l id="1594" part="f">Dieux ! elle est toute en larmes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Créon, Olympe, Attale.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Créon, Olympe, Attale.
+</stage>
 <sp who="OLYMPE"><speaker>OLYMPE.</speaker>
 	<l id="1595">Qu'attendez-vous, Seigneur ? La princesse n'est plus.</l>
 </sp>
@@ -2311,7 +2340,8 @@
 </sp>
 <stage type="exit">Elle s'en va.</stage>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE DERNIÈRE. Créon, Attale.</head>
+<div2 type="scene" n="6"><head>SCÈNE DERNIÈRE.</head><stage> Créon, Attale.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1611">Et vous mourez ainsi, beau sujet de mes feux,</l>
 	<l id="1612">Et vous-même, cruelle, éteignez vos beaux yeux.</l>
@@ -2329,7 +2359,8 @@
 	<l id="1624">Et vous ne pourrez plus mourir pour m'éviter.</l>
 	<l id="1625" part="i">Mourons donc...</l>
 </sp>
-<sp stage="together" who="ATTALE"><speaker>ATTALE, et des gardes.</speaker>
+<sp who="ATTALE"><speaker>ATTALE</speaker><stage type="together">, et des gardes.
+	</stage>
 	<l id="1625" part="f">Ah ! Seigneur quelle cruelle envie.</l>
 </sp>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
@@ -2364,11 +2395,11 @@
 </body>
 </text>
 <bottom>
-<div1 type='annexe' n='1'><head>ANNEXES</head>
-<div2 type='preface' n='1'><head>Préface de l'édition 1674 et suivantes</head>
-<p type='p'>Le lecteur me permettra de lui demander un peu plus d'indulgence pour cette pièce que pour les autres qui la suivent ; j'étais fort jeune quand je la fis. Quelques vers que j'avais faits alors tombèrent par hasard entre les mains de quelques personnes d'esprit ; elles m'excitèrent à faire une tragédie, et me proposèrent le sujet de la Thébaïde. Ce sujet avait été autrefois traité par Rotrou, sous le nom d'Antigone. Mais il faisait mourir les deux frères dès le commencement de son troisième acte. Le reste était, en quelque sorte, le commencement d'une autre tragédie, où l'on entrait dans des intérêts tout nouveaux ; et il avait réuni en une seule pièce deux actions différentes, dont l'une sert de matière aux Phéniciennes d'Euripide, et l'autre à l'Antigone de Sophocle. Je compris que cette duplicité d'action avait pu nuire à sa pièce qui, d'ailleurs, était remplie de quantité de beaux endroits. Je dressai à peu près mon plan sur les Phéniciennes d'Euripide. Car pour la Thébaïde qui est dans Sénèque, je suis un peu de l'opinion d'Heinsius, et je tiens, comme lui, que non seulement ce n'est point une tragédie de Sénèque, mais que c'est plutôt l'ouvrage d'un déclamateur qui ne savait ce que c'était que tragédie.</p>
-<p type='p'>La catastrophe de ma pièce est peut-être un peu trop sanglante. En effet, il n'y paraît presque pas un acteur qui ne meure à la fin. Mais aussi c'est la Thébaïde, c'est-à-dire le sujet le plus tragique de l'antiquité.</p>
-<p type='p'>L'amour, qui a d'ordinaire tant de part dans les tragédies, n'en a presque point ici ; et je doute que je lui en donnasse davantage si c'était à recommencer, car il faudrait, ou que l'un des deux frères fût amoureux, ou tous les deux ensemble. Et quelle apparence de leur donner d'autres intérêts que ceux de cette fameuse haine qui les occupait tout entiers ? Ou bien il faut jeter l'amour sur un des seconds personnages, comme j'ai fait ; et alors cette passion, qui devient comme étrangère au sujet, ne peut produire que de médiocres effets. En un mot, je suis persuadé que les tendresses ou les jalousies des amants ne sauraient trouver que fort peu de place parmi les incestes, les parricides, et toutes les autres horreurs qui composent l'histoire d'Oedipe et de sa malheureuse famille.</p>
+<div1 type="annexe" n="1"><head>ANNEXES</head>
+<div2 type="preface" n="1"><head>Préface de l'édition 1674 et suivantes</head>
+<p type="p">Le lecteur me permettra de lui demander un peu plus d'indulgence pour cette pièce que pour les autres qui la suivent ; j'étais fort jeune quand je la fis. Quelques vers que j'avais faits alors tombèrent par hasard entre les mains de quelques personnes d'esprit ; elles m'excitèrent à faire une tragédie, et me proposèrent le sujet de la Thébaïde. Ce sujet avait été autrefois traité par Rotrou, sous le nom d'Antigone. Mais il faisait mourir les deux frères dès le commencement de son troisième acte. Le reste était, en quelque sorte, le commencement d'une autre tragédie, où l'on entrait dans des intérêts tout nouveaux ; et il avait réuni en une seule pièce deux actions différentes, dont l'une sert de matière aux Phéniciennes d'Euripide, et l'autre à l'Antigone de Sophocle. Je compris que cette duplicité d'action avait pu nuire à sa pièce qui, d'ailleurs, était remplie de quantité de beaux endroits. Je dressai à peu près mon plan sur les Phéniciennes d'Euripide. Car pour la Thébaïde qui est dans Sénèque, je suis un peu de l'opinion d'Heinsius, et je tiens, comme lui, que non seulement ce n'est point une tragédie de Sénèque, mais que c'est plutôt l'ouvrage d'un déclamateur qui ne savait ce que c'était que tragédie.</p>
+<p type="p">La catastrophe de ma pièce est peut-être un peu trop sanglante. En effet, il n'y paraît presque pas un acteur qui ne meure à la fin. Mais aussi c'est la Thébaïde, c'est-à-dire le sujet le plus tragique de l'antiquité.</p>
+<p type="p">L'amour, qui a d'ordinaire tant de part dans les tragédies, n'en a presque point ici ; et je doute que je lui en donnasse davantage si c'était à recommencer, car il faudrait, ou que l'un des deux frères fût amoureux, ou tous les deux ensemble. Et quelle apparence de leur donner d'autres intérêts que ceux de cette fameuse haine qui les occupait tout entiers ? Ou bien il faut jeter l'amour sur un des seconds personnages, comme j'ai fait ; et alors cette passion, qui devient comme étrangère au sujet, ne peut produire que de médiocres effets. En un mot, je suis persuadé que les tendresses ou les jalousies des amants ne sauraient trouver que fort peu de place parmi les incestes, les parricides, et toutes les autres horreurs qui composent l'histoire d'Oedipe et de sa malheureuse famille.</p>
 </div2>
 </div1>
 

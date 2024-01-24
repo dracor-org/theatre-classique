@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,30 +28,31 @@
 		<docTitle>
 			<titlePart type="main">À HUITAINE</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="L'AVOCAT" sex="1" type="H" statut="avocat" age='A' stat_amour='néant'>L'AVOCAT</role>.</castItem>
-			<castItem><role id="LE JUGE" sex="1" type="H" statut="juge" age='A' stat_amour='néant'>LE JUGE</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président" age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
-			<castItem><role id="LE PRÉVENU" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE PRÉVENU</role>.</castItem>
+			<castItem><role id="L'AVOCAT" sex="1" type="H" statut="avocat" age="A" stat_amour="néant">L'AVOCAT</role>.</castItem>
+			<castItem><role id="LE JUGE" sex="1" type="H" statut="juge" age="A" stat_amour="néant">LE JUGE</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président" age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="LE PRÉVENU" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PRÉVENU</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 207-213</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>À HUITAINE !</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="L'AVOCAT"><speaker>L'AVOCAT.</speaker>
 <p id="1">
 	<s id="1">Messieurs, l'homme que j'ai le plaisir compliqué de regret et le regret compliqué de plaisir de défendre aujourd'hui devant vous...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LE JUGE"><speaker>UN JUGE, bas au Président.</speaker>
+<sp who="LE JUGE"><speaker>UN JUGE</speaker><stage type="low/toward">, bas au Président.
+</stage>
 <p id="2">
 	<s id="1">Dis donc, tu sais qu'il est six heures et que nous dînons ce soir chez les Proutrépéto ?</s>
 </p>
@@ -226,7 +227,8 @@
 	<s id="2">Gardes, remmenez le prévenu.</s>
 </p>
 </sp>
-<sp stage="push/exit" who="LE PRÉVENU"><speaker>LE PRÉVENU, auquel les gardes remettent le cabriolet.</speaker>
+<sp who="LE PRÉVENU"><speaker>LE PRÉVENU</speaker><stage type="push/exit">, auquel les gardes remettent le cabriolet.
+	</stage>
 	<l id="24">On ne finira donc jamais</l>
 	<l id="25">Avec les lenteurs judiciaires.</l>
 </sp>

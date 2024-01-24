@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,8 +29,8 @@
 			<titlePart type="main">LE RETOUR DU JEUNE TOBIE</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
@@ -44,21 +44,22 @@
 			<p>* L'ange dit au vieux Tobie qu'il s'appelait Azarias, fils d'Ananias. Azarias est un mot qui signifie secours de Dieu, et Ananias grâce et don de Dieu.</p>
 		</div>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="LE VIEUX TOBIE" sex="1" type="H" statut="bourgeois" age='V' stat_amour='néant'>LE VIEUX TOBIE</role>.</castItem>
-			<castItem><role id="ANNE" sex="2" type="H" statut="bourgeois" age='V' stat_amour='néant'>ANNE, femme du vieux Tobie</role>.</castItem>
-			<castItem><role id="LE JEUNE TOBIE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE JEUNE TOBIE</role>.</castItem>
-			<castItem><role id="L'ANGE RAPHAËL" sex="1" type="D" statut="ange" age='A' stat_amour='néant'>L'ANGE RAPHAËL</role>, sous la figure d'un jeune homme, et sous le nom d'Azarias.</castItem>
-			<castItem><role id="SOPHAR" sex="1" type="H" statut="servante" age='A' stat_amour='néant'>SOPHAR</role>, servante d'Anne.</castItem>
-			<castItem><role id="ÉLIPHAS" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>ÉLIPHAS</role>, ami et parent du vieux Tobie.</castItem>
-			<castItem><role id="TROUPE DE VOISINS ET DE VOISINES" sex="9" type="H" statut="peuple" age='A' stat_amour='néant'>TROUPE DE VOISINS ET DE VOISINES</role>.</castItem>
+			<castItem><role id="LE VIEUX TOBIE" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">LE VIEUX TOBIE</role>.</castItem>
+			<castItem><role id="ANNE" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">ANNE, femme du vieux Tobie</role>.</castItem>
+			<castItem><role id="LE JEUNE TOBIE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE JEUNE TOBIE</role>.</castItem>
+			<castItem><role id="L'ANGE RAPHAËL" sex="1" type="D" statut="ange" age="A" stat_amour="néant">L'ANGE RAPHAËL</role>, sous la figure d'un jeune homme, et sous le nom d'Azarias.</castItem>
+			<castItem><role id="SOPHAR" sex="1" type="H" statut="servante" age="A" stat_amour="néant">SOPHAR</role>, servante d'Anne.</castItem>
+			<castItem><role id="ÉLIPHAS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ÉLIPHAS</role>, ami et parent du vieux Tobie.</castItem>
+			<castItem><role id="TROUPE DE VOISINS ET DE VOISINES" sex="9" type="H" statut="peuple" age="A" stat_amour="néant">TROUPE DE VOISINS ET DE VOISINES</role>.</castItem>
 		</castList>
-		<set location='Lieu biblique' country='Pays biblique' periode='Temps bibliques' gps="(N/A)">Le théâtre représente un jardin ; à droite la maison du vieux Tobie.</set>
+		<set location="Lieu biblique" country="Pays biblique" periode="Temps bibliques" gps="(N/A)">Le théâtre représente un jardin ; à droite la maison du vieux Tobie.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 233-256</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>LE RETOUR DU JEUNE TOBIE</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone/carry" who="SOPHAR"><speaker>SOPHAR, seule, un arrosoir à la main.</speaker>
+<sp who="SOPHAR"><speaker>SOPHAR</speaker><stage type="alone/carry">, seule, un arrosoir à la main.
+</stage>
 <p id="1">
 	<s id="1">Travailler au jardin, faire le ménage, servir de guide au bon vieux Tobie, tout cela ne serait rien s'il ne fallait pas encore obéir à ma maîtresse !... </s>
 	<s id="2">Oh, quelle femme ! </s>
@@ -71,7 +72,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Sophar, Éliphas.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sophar, Éliphas.
+</stage>
 <sp who="SOPHAR"><speaker>SOPHAR.</speaker>
 <p id="1">
 	<s id="1">Grâce au ciel, vous voilà de retour après trois mois d'absence ! </s>
@@ -216,7 +218,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ÉLIPHAS"><speaker>ÉLIPHAS, seul.</speaker>
+<sp who="ÉLIPHAS"><speaker>ÉLIPHAS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Si Tobie n'est pas heureux, quel mortel osera se plaindre de ne pas l'être ! </s>
 	<s id="2">Mais le Seigneur ne laissera point tant de vertu sans récompense ; il lui rendra ce fils, digne objet de ses soins et de sa tendresse... </s>
@@ -226,14 +229,16 @@
 <stage type="closer">Il va au devant de Tobie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Éliphas, Tobie, conduit par Sophar.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Éliphas, Tobie, conduit par Sophar.
+</stage>
 <sp who="TOBIE"><speaker>TOBIE.</speaker>
 <p id="1">
 	<s id="1">Où est-il ? </s>
 	<s id="2">où est Éliphas ?</s>
 </p>
 </sp>
-<sp stage="kiss" who="ÉLIPHAS"><speaker>ÉLIPHAS, l'embrassant.</speaker>
+<sp who="ÉLIPHAS"><speaker>ÉLIPHAS</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="2">
 	<s id="1">Je suis près de vous, mon ami...</s>
 </p>
@@ -253,7 +258,8 @@
 	<s id="1">Va, sois tranquille : un véritable ami est toujours un bon guide...</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="SOPHAR"><speaker>SOPHAR, à part, en s'en allant.</speaker>
+<sp who="SOPHAR"><speaker>SOPHAR</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="6">
 	<s id="1">Allons tâcher de retenir ma maîtresse, afin qu'elle ne vienne pas les troubler...</s>
 </p>	
@@ -330,8 +336,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Anne, Éliphas, Tobie.</head>
-<sp stage="strong" who="ANNE"><speaker>ANNE, vivement.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Anne, Éliphas, Tobie.
+</stage>
+<sp who="ANNE"><speaker>ANNE</speaker><stage type="strong">, vivement.
+</stage>
 <p id="1">
 	<s id="1">Éliphas, je viens d'apprendre que vous êtes ici. </s>
 	<s id="2">Pourquoi ne m'avez-vous pas demandée ? </s>
@@ -398,13 +406,15 @@
 	<s id="5">Je voudrais être seule avec Tobie...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="TOBIE"><speaker>TOBIE, bas à Éliphas.</speaker>
+<sp who="TOBIE"><speaker>TOBIE</speaker><stage type="low/toward">, bas à Éliphas.
+</stage>
 <p id="10">
 	<s id="1">Mon ami, excusez ; plaignez sa faiblesse. </s>
 	<s id="2">Je vous en prie, laissez-nous.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ÉLIPHAS"><speaker>ÉLIPHAS, bas à Tobie.</speaker>
+<sp who="ÉLIPHAS"><speaker>ÉLIPHAS</speaker><stage type="low/toward">, bas à Tobie.
+</stage>
 <p id="11">
 	<s id="1">Avec quel regret je vous quitte ! </s>
 	<s id="2">Adieu, cher Tobie ; je reviendrai ce soir.</s>
@@ -412,8 +422,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE VI. Anne, Tobie.</head>
-<sp stage="watch/exit" who="ANNE"><speaker>ANNE, regardant sortir Éliphas.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE VI.</head><stage> Anne, Tobie.
+</stage>
+<sp who="ANNE"><speaker>ANNE</speaker><stage type="watch/exit">, regardant sortir Éliphas.
+</stage>
 <p id="1">
 	<s id="1">Il s'en va, grâce au ciel ! </s>
 	<s id="2">Je n'ai jamais pu souffrir cet homme dont vous faites tant de cas... </s>
@@ -507,7 +519,8 @@
 </p>
 <stage type="noise">On entend un grand bruit du côté de la maison.</stage>
 </sp>
-<sp stage="stand" who="TOBIE"><speaker>TOBIE, se levant.</speaker>
+<sp who="TOBIE"><speaker>TOBIE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="15">
 	<s id="1">Quel bruit ! </s>
 	<s id="2">Quel tumulte !</s>
@@ -533,7 +546,8 @@
 <stage type="hurry">Elle se précipite vers la maison.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Anne, Tobie, Éliphas, Sophar.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Anne, Tobie, Éliphas, Sophar.
+</stage>
 <sp who="TROUPES DE VOISINS ET VOISINES"><speaker>TROUPES DE VOISINS ET VOISINES.</speaker>
 <p id="1">
 	<s id="1">Ils entrent tous en tumulte, et en s'écriant : Il est arrivé ! il est arrivé !...</s>
@@ -549,7 +563,8 @@
 	<s id="1">Ô mon_Dieu !</s>
 </p>
 </sp>
-<sp stage="toward" who="ÉLIPHAS"><speaker>ÉLIPHAS, à Tobie.</speaker>
+<sp who="ÉLIPHAS"><speaker>ÉLIPHAS</speaker><stage type="toward">, à Tobie.
+</stage>
 <p id="4">
 	<s id="1">Mon ami, j'ai vu ton fils ! </s>
 	<s id="2">Je viens de lui parler....</s>
@@ -560,7 +575,8 @@
 	<s id="1">Juste ciel !</s>
 </p>
 </sp>
-<sp stage="kiss" who="ANNE"><speaker>ANNE, embrassant Tobie.</speaker>
+<sp who="ANNE"><speaker>ANNE</speaker><stage type="kiss">, embrassant Tobie.
+</stage>
 <p id="6">
 	<s id="1">Ô Tobie !... </s>
 	<s id="2">Cher Éliphas !... </s>
@@ -599,7 +615,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="TOBIE"><speaker>TOBIE, seul.</speaker>
+<sp who="TOBIE"><speaker>TOBIE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Arrêtez !... </s>
 	<s id="2">Anne!... </s>
@@ -630,13 +647,16 @@
 <stage type="walk">Il fait quelques pas.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Tobie, Anne conduisant le jeune Tobie, l'Ange sous la figure d'Azarias ; Éliphas, Sophar.</head>
-<sp stage="toward/show" who="ANNE"><speaker>ANNE, à son fils, en montrant le vieux Tobie.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Tobie, Anne conduisant le jeune Tobie, l'Ange sous la figure d'Azarias ; Éliphas, Sophar.
+</stage>
+<sp who="ANNE"><speaker>ANNE</speaker><stage type="toward/show">, à son fils, en montrant le vieux Tobie.
+</stage>
 <p id="1">
 	<s id="1">Le voilà !...</s>
 </p>
 </sp>
-<sp stage="hurry/hugh" who="LE JEUNE TOBIE"><speaker>LE JEUNE TOBIE, se jetant dans les bras de son père.</speaker>
+<sp who="LE JEUNE TOBIE"><speaker>LE JEUNE TOBIE</speaker><stage type="hurry/hugh">, se jetant dans les bras de son père.
+</stage>
 <p id="2">
 	<s id="1">Mon père, recevez dans vos bras le plus tendre fils, le plus fortuné de tous les hommes !...</s>
 </p>
@@ -646,7 +666,8 @@
 	<s id="1">Cher Tobie !...</s>
 </p>
 </sp>
-<sp stage="open" who="LE JEUNE TOBIE"><speaker>LE JEUNE TOBIE, ouvrant une boîte.</speaker>
+<sp who="LE JEUNE TOBIE"><speaker>LE JEUNE TOBIE</speaker><stage type="open">, ouvrant une boîte.
+</stage>
 <p id="3">
 	<s id="1">Vous ne connaissez pas encore tout l'excès de ma félicité !</s>
 </p>
@@ -729,7 +750,8 @@
 <stage type="away/flpy">L'ange s'éloigne, un nuage descend des cieux et le dérobe
 aux yeux des spectateurs.</stage>
 </sp>
-<sp stage="kneel" who="LE VIEUX TOBIE"><speaker>LE VIEUX TOBIE, se jetant à genoux.</speaker>
+<sp who="LE VIEUX TOBIE"><speaker>LE VIEUX TOBIE</speaker><stage type="kneel">, se jetant à genoux.
+</stage>
 <p id="16">
 	<s id="1">Ô mon fils, adorons le Seigneur !</s>
 </p>

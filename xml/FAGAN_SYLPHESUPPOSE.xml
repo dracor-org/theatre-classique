@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>mixte</type>
 				<periode>1761-1770</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -36,21 +36,22 @@
 		<editor id="(inconnu)">À AMSTERDAM, Et se trouve à PARIS, Chez les Libraires qui vendent les Nouveautés.</editor>
 	</docImprint>
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="CLÉANTE" sex="1" type="H" statut="bourgeois" age='J' stat_amour="">CLÉANTE</role>.</castItem>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age='J' stat_amour="">ISABELLE</role>.</castItem>
-		<castItem><role id="URANIE" sex="2" type="D" statut="muse" age='J' stat_amour="">URANIE</role>.</castItem>
-		<castItem><role id="LA SYLPHIDE" sex="2" type="H" statut="bourgeois" age='J' stat_amour="">LA SYLPHIDE</role>.</castItem>
-		<castItem><role id="LE ROI DES SYLPHES" sex="1" type="H" statut="roi" age='J' stat_amour="">LE ROI DES SYLPHES</role>.</castItem>
-		<castItem><role id="UN GASCON" sex="1" type="H" statut="aristocrate" age='J' stat_amour="">UN GASCON</role>.</castItem>
-		<castItem><role id="PIERROT" sex="1" type="H" statut="bourgeois" age='J' stat_amour="">PIERROT</role>.</castItem>
-		<castItem><role id="TOURBILLON" sex="1" type="H" statut="bourgeois" age='J' stat_amour="">TOURBILLON</role>.</castItem>
+		<castItem><role id="CLÉANTE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">CLÉANTE</role>.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">ISABELLE</role>.</castItem>
+		<castItem><role id="URANIE" sex="2" type="D" statut="muse" age="J" stat_amour="">URANIE</role>.</castItem>
+		<castItem><role id="LA SYLPHIDE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">LA SYLPHIDE</role>.</castItem>
+		<castItem><role id="LE ROI DES SYLPHES" sex="1" type="H" statut="roi" age="J" stat_amour="">LE ROI DES SYLPHES</role>.</castItem>
+		<castItem><role id="UN GASCON" sex="1" type="H" statut="aristocrate" age="J" stat_amour="">UN GASCON</role>.</castItem>
+		<castItem><role id="PIERROT" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">PIERROT</role>.</castItem>
+		<castItem><role id="TOURBILLON" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">TOURBILLON</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">Le scène est devant un château.</set>
 	<note>extrait de "THÉÂTRE de M. FAGAN et autres OEUVRES DU MÊME AUTEUR.", Tome quatrième, Théâtre de la Foire, 1760. pp 1-50</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE SYLPHE SUPPOSÉ.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Isabelle, Cléante.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Isabelle, Cléante.
+</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 <stage type="title">AIR : Non, vous ne m'aimez pas.</stage>
 	<l id="1">Non, vous ne m'aimez pas, Cléante ;</l>
@@ -128,7 +129,8 @@
 	<l id="31">Si l'espoir venait le flatter !</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Pierrot, Isabelle, Cléante.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pierrot, Isabelle, Cléante.
+</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 <p id="1">
 	<s id="1">Je suis vraiment bien aise de vous trouver ensemble. </s>
@@ -242,7 +244,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="carry" type="scene" n="3"><head>SCÈNE III. Isabelle, Pierrot, Cléante, Uranie, un livre à la main.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="carry"> Isabelle, Pierrot, Cléante, Uranie, un livre à la main.
+</stage>
 <sp who="URANIE"><speaker>URANIE.</speaker>
 <p id="1">
 	<s id="1">Sylphonet, ayez soin d'aller chez Monsieur Pédantin ; qu'il m'envoie son Traité des Corpuscules et chez Monsieur Tourbillon, ses observations sur la nature des Esprits Aériens.</s>
@@ -267,7 +270,8 @@
 	<s id="1">Vous êtes bien à plaindre, Isabelle, de ne point donner dans système qui conduit aux pensées sublimes : c'est une faiblesse inséparable de votre jeune âge ; mais j'espère que vous vous formerez.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part. </speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">La belle espérance !</s>
 </p>
@@ -372,7 +376,8 @@
 </p>
 <stage type="read">Elle lit.</stage>
 </sp>
-<sp who="CLÉANTE"><speaker>CLÉANTE, bas.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage>, bas.
+	</stage>
 	<l id="108">Puisque de l'erreur qui l'obsède</l>
 	<l id="109">Rien n'arrête le cours fatal,</l>
 	<l id="110">Il faut chercher notre remède</l>
@@ -395,7 +400,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE IV.</head>
-<sp stage="alone" who="URANIE"><speaker>URANIE, seule.</speaker>
+<sp who="URANIE"><speaker>URANIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Que je les plains ! Peut-on douter de choses aussi claires ? </s>
 	<s id="2">Pour peu que l'on ait vécu, n'a-t-on pas eu des occasions de s'en convaincre ? </s>
@@ -413,8 +419,10 @@
 <stage type="bis">bis</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Uranie, Pierrot.</head>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Uranie, Pierrot.
+</stage>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Hanneton vole, vole, vole.</s>
 </p>
@@ -445,7 +453,8 @@
 	<l id="134">Qu'elle assure à ma maison.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Uranie, La Sylphide, accompagnée ~MJC~MrM.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Uranie, La Sylphide, accompagnée ~MJC~MrM.
+</stage>
 <sp who="URANIE"><speaker>URANIE.</speaker>
 <stage type="title">AIR : Turlutaine.</stage>
 	<l id="135">Eh ! Quel bon vent vous amène ?</l>
@@ -901,13 +910,15 @@
 	<l id="230">Donnez-moi vos deux bras.</l>
 	<l id="231">Allons gai, et c.</l>
 </sp>
-<sp stage="alone" who="URANIE"><speaker>URANIE, seule.</speaker>
+<sp who="URANIE"><speaker>URANIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="61">
 	<s id="1">Cette Sylphide m'enchante: : ses discours ont rempli la sphère de mon imagination d'idées plus séduisantes les unes que les autres. La douceur de son langage est une rosée qui instruit ce qui nourrit le coeur.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Uranie, Isabelle, Pierrot.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Uranie, Isabelle, Pierrot.
+</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1007,7 +1018,8 @@
 	<s id="1">La monnaie des Sylphes est bien légère.</s>
 </p>
 </sp>
-<sp stage="location" who="CLÉANTE"><speaker>CLÉANTE, caché.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="location">, caché.
+</stage>
 <p id="11">
 	<s id="1">Hélas !</s>
 </p>
@@ -1051,7 +1063,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Uranie, Cléante caché.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Uranie, Cléante caché.
+</stage>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 <stage type="title">AIR : Les coeurs donnent troc pour troc.</stage>
 	<l id="266">Le changement que je reçois</l>
@@ -1085,7 +1098,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Uranie, Le Gascon.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Uranie, Le Gascon.
+</stage>
 <sp who="LE GASCON"><speaker>LE GASCON.</speaker>
 <p id="1">
 	<s id="1">Bonjour à la charmante Uranie ; je suis parbleu, ravi de vous trouver seule Madame ; j'ai quelque chose à vous communiquer.</s>
@@ -1123,7 +1137,8 @@
 	<l id="285">Pour rendre mes voeux contents,</l>
 	<l id="286">Tous les jours je les attends.</l>
 </sp>
-<sp stage="location" who="CLÉANTE"><speaker>CLÉANTE, caché.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="location">, caché.
+	</stage>
 	<l id="287">Va-t-en voir s'ils viennent, Jean,</l>
 	<l id="288">Va-t-en voir s'ils viennent.</l>
 </sp>
@@ -1139,7 +1154,8 @@
 	<l id="291">Jamais dans la tendre lice,</l>
 	<l id="292">En vain mon coeur n'entrera.</l>
 </sp>
-<sp stage="location" who="CLÉANTE"><speaker>CLÉANTE, caché.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="location">, caché.
+	</stage>
 	<l id="293">On vous en ratisse, tisse, tisse,</l>
 	<l id="294">On vous en ratissera.</l>
 </sp>
@@ -1156,7 +1172,8 @@
 	<l id="297">De plus en plus s'allume :</l>
 	<l id="298">Oui, je l'obtiendrai malgré les jaloux.</l>
 </sp>
-<sp stage="location" who="CLÉANTE"><speaker>CLÉANTE, caché.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="location">, caché.
+	</stage>
 	<l id="299">C'est ce qui vous enrhume.</l>
 </sp>
 <sp who="LE GASCON"><speaker>LE GASCON.</speaker>
@@ -1208,7 +1225,8 @@
 </p>
 </sp>
 </div2> 
-<div2 type="scene" n="10"><head>SCÈNE X. Uranie, Cléante, caché.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Uranie, Cléante, caché.
+</stage>
 <sp who="URANIE"><speaker>URANIE.</speaker>
 <p id="1">
 	<s id="1">Enfin je puis donc, cher Invisible, me livrer à l'amour que tu m'inspires, et continuer un entretien dont j'ai senti la douceur ?</s>
@@ -1281,7 +1299,8 @@
 	<l id="335">Vole, etc.</l>
 </sp>
 </div2>
-<div2 type="scene" n="22"><head>SCÈNE XI. Pierrot, en être aérien, Uranie, Cléante, toujours caché.</head>
+<div2 type="scene" n="22"><head>SCÈNE XI.</head><stage> Pierrot, en être aérien, Uranie, Cléante, toujours caché.
+</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 <stage type="title">AIR : La cheminée du haut en bas.</stage>
 <note type="L">Garde-note : Qualité qui se joignait autrefois à celle de notaire. Notaire garde-note du roi au Châtelet de Paris. Aujourd'hui, dans le langage familier et par pure plaisanterie, notaire. Anciennement, titre d'office. Espèce de conseillers. [L]</note>
@@ -1299,7 +1318,8 @@
 	<l id="344">Dans ce lieu soient présents.</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Isabelle Pierrot, Uranie, Le Gascon, Cléante, toujours caché</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Isabelle Pierrot, Uranie, Le Gascon, Cléante, toujours caché
+</stage>
 <sp who="URANIE"><speaker>URANIE.</speaker>
 <stage type="title">Suite de l'air précédent.</stage>
 	<l id="345">Que mon âme est contente</l>
@@ -1340,7 +1360,8 @@
 	<s id="1">Elle a peine à mordre.</s>
 </p>
 </sp>
-<sp stage="entrance" who="CLÉANTE"><speaker>CLÉANTE, paraissant.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="entrance">, paraissant.
+</stage>
 <p id="4">
 	<s id="1">Ce coquin met ici du sien, il passe mon ordre.</s>
 </p>
@@ -1359,7 +1380,8 @@
 	<l id="363">Un tendre amant se sent toujours renaître</l>
 	<l id="364">Quand il obtient 1'objet qui l'a charmé.</l>
 </sp>
-<sp who="URANIE"><speaker>URANIE, à Cléante.</speaker>
+<sp who="URANIE"><speaker>URANIE</speaker><stage>, à Cléante.
+</stage>
 <stage type="title">AIR : Qu'a du vin.</stage>
 	<l id="365">Taisez-vous.</l>
 </sp>
@@ -1404,7 +1426,8 @@
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="387" syll="3" part="i">Le voici.</l>
 </sp>
-<sp stage="threat" who="LE GASCON"><speaker>LE GASCON, mettant l'épée à la main.</speaker>
+<sp who="LE GASCON"><speaker>LE GASCON</speaker><stage type="threat">, mettant l'épée à la main.
+	</stage>
 	<l id="388">Sortez ma lame.</l>
 	<l id="389">Haye ! haye ! haye !</l>
 	<l id="390">Haye baye ! Madame,</l>
@@ -1415,7 +1438,8 @@
 	<s id="1">Nous allons vair un Gascon.</s>
 </p>
 </sp>
-<sp stage="fight" who="LE GASCON"><speaker>LE GASCON, se débattant.</speaker>
+<sp who="LE GASCON"><speaker>LE GASCON</speaker><stage type="fight">, se débattant.
+</stage>
 <p is="8">
 	<s id="1">Cap de bious ; ce trait est noir ! </s>
 	<s id="2">Ce n'est pas, Diou me damne, le procédé d'un homme de c[oe]ur. </s>
@@ -1476,7 +1500,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Tourbillon, et les acteurs précédents.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Tourbillon, et les acteurs précédents.
+</stage>
 <sp who="TOURBILLON"><speaker>TOURBILLON.</speaker>
 <p id="1">
 	<s id="1">Demeurez, Madame ; le Souverain des airs m'envoie pour vous en donner ordre et il viendra lui-même dans un moment le confirmer.</s>
@@ -1489,7 +1514,8 @@
 	<s id="3">Ma joie ne se peut contenir !</s>
 </p>
 </sp>
-<sp stage="toward" who="CLÉANTE"><speaker>CLÉANTE à Isabelle.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="toward"> à Isabelle.
+</stage>
 <p id="3">
 	<s id="1">C'est un de mes amis qui a bien voulu se charger de ce personnage pour favoriser nos projets.</s>
 </p>
@@ -1508,7 +1534,8 @@
 	<l id="400">Du Monarque aérien !</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Le Roi des Sylphes,  les acteurs précédents.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Le Roi des Sylphes,  les acteurs précédents.
+</stage>
 <sp who="LE ROI DES SYLPHES"><speaker>LE ROI DES SYLPHES.</speaker>
 <stage type="follow">Suite de l'air.</stage>
 	<l id="401">Madame, pour vous la rendre</l>
@@ -1551,7 +1578,8 @@
 	<s id="3">Notaire, lisez haut.</s>
 </p>
 </sp>
-<sp stage="read" who="PIERROT"><speaker>PIERROT, lisant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="read">, lisant.
+</stage>
 <p id="6">
 	<s id="1">Par devant etc. furent présents en leurs personnes tels et : tels, etc. lesquels sont convenus de ce qui suit :</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,22 +29,23 @@
 			<titlePart type="main">LE MONDE RENVERSÉ</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS</titlePart>
 		</docTitle> 
-		<docDate value='1876'>1876</docDate>
-		<docAuthor id='BORNIER, Henri de' bio='bornier'>PAR HENRI DE BORNIER</docAuthor>
+		<docDate value="1876">1876</docDate>
+		<docAuthor id="BORNIER, Henri de" bio="bornier">PAR HENRI DE BORNIER</docAuthor>
 		<docImprint>
-			<editor id='OLLENDORFF'>PARIS PAUL OLLENDORFF, ÉDITEUR, 28 bis, RUE DE RICHELIEU.</editor>
-			<printer id=''>PARIS, IMPRIMERIE JULES LE CLERE et Cie, RUE CASSETTE, 29.</printer>
+			<editor id="OLLENDORFF">PARIS PAUL OLLENDORFF, ÉDITEUR, 28 bis, RUE DE RICHELIEU.</editor>
+			<printer id="">PARIS, IMPRIMERIE JULES LE CLERE et Cie, RUE CASSETTE, 29.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="ERNEST" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ERNEST</role>.</castItem>
-			<castItem><role id="THÉRÈSE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>THÉRÈSE</role>.</castItem>
+			<castItem><role id="ERNEST" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ERNEST</role>.</castItem>
+			<castItem><role id="THÉRÈSE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">THÉRÈSE</role>.</castItem>
 		</castList>
 	<set location="France" country="France" periode="XIXème" gps="48.856614, 2.352222">Un salon dans un château. - Table de jeu. - Photographies dans leurs petits cadres sur la cheminée.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE MONDE RENVERSÉ</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="watch/location" who="ERNEST"><speaker>ERNEST, regardant par la fenêtre.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="watch/location">, regardant par la fenêtre.
+	</stage>
 	<l id="1" syll="6" part="i">Il pleut... et je suis seul.</l>
 <stage type="closer">S'approchant de la cheminée.</stage>
 	<l id="1" syll="6" part="f">Regardons à notre aise,</l>
@@ -54,11 +55,13 @@
 <stage type="sit/watch">Il s'assied et regarde la photographie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ernest, Thérèse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ernest, Thérèse.
+</stage>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="5" syll="6" part="i">Tiens ! C'est vous, mon cousin ?</l>
 </sp>
-<sp stage="stand" who="ERNEST"><speaker>ERNEST, se levant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="stand">, se levant.
+	</stage>
 	<l id="5" syll="6" part="f">Quoi ! c'est vous, ma cousine ?</l>
 	<l id="6" syll="6" part="i">Mais vous arrivez donc...</l>
 </sp>
@@ -110,7 +113,8 @@
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="26" syll="4" part="f">Quand on est veuve !</l>
 </sp>
-<sp stae="happy" who="ERNEST"><speaker>ERNEST, gaiement.</speaker>
+<sp stae="happy" who="ERNEST"><speaker>ERNEST</speaker><stage>, gaiement.
+	</stage>
 	<l id="27">Oui, veuve !... Et votre deuil vient de finir, voilà</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
@@ -162,7 +166,8 @@
 	<l id="43">J'en connais tant, mais tant, qui se ressemblent tous,</l>
 	<l id="44">Que si vous n'êtes pas plus neuf, tremblez pour vous !</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="45">Je crois que je ferais mieux de prendre la fuite.</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
@@ -271,13 +276,15 @@
 	<l id="93">Ma vie est à vos pieds, Thérèse ; il faut m'entendre ;</l>
 	<l id="94">Croyez-moi, je serais le mari le plus tendre.</l>
 </sp>
-<sp stage="stand/quick" who="THÉRÈSE"><speaker>THÉRÈSE, se levant d'un bond.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="stand/quick">, se levant d'un bond.
+	</stage>
 	<l id="95">Mon mari ?... Taisez-vous ! Vous me faites des peurs !</l>
 </sp>
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
 	<l id="96" syll="3" part="i">Par grâce !</l>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, se promenant tragiquement.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage>, se promenant tragiquement.
+	</stage>
 	<l id="96" syll="9" part="f">Laissez-moi, Monsieur ; j'ai mes vapeurs !</l>
 </sp>
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
@@ -299,12 +306,14 @@
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="100" syll="2" part="i">Eh bien ?...</l>
 </sp>
-<sp stage="exit/low/watch" who="ERNEST"><speaker>ERNEST, sortant lentement à reculons, en la regardant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="exit/low/watch">, sortant lentement à reculons, en la regardant.
+	</stage>
 	<l id="100" syll="10" part="f">Mon_Dieu, je fuis ! vous le voyez, je fuis !</l>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="THÉRÈSE"><speaker>THÉRÈSE, seule.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="101">Affreux Ernest ! Mais non, j'ai ri : je suis contente !</l>
 <stage type="clOser/costume">S'approchant de la cheminée.</stage>
 	<l id="102">Ah ! des portraits nouveaux ?... Le portrait de ma tante,</l>
@@ -312,7 +321,8 @@
 	<l id="104">Photographe cruel ! il ne l'a point flatté.</l>
 </sp>
 </div2>
-<div2 type="scene" n="'"><head>SCÈNE IV. Thérèse, Ernest.</head>
+<div2 type="scene" n="'"><head>SCÈNE IV.</head><stage> Thérèse, Ernest.
+</stage>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="105" syll="2" part="i">Ernest ?...</l>
 </sp>
@@ -457,7 +467,8 @@
 	<l id="177">C'est juste. Eh bien, monsieur, Cherchez dans votre tête</l>
 	<l id="178">Le prix qu'à vos jetons vous entendez qu'on mette.</l>
 </sp>
-<sp stage="think" who="ERNEST"><speaker>ERNEST, réfléchissant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="think">, réfléchissant.
+	</stage>
 	<l id="179">Donc, pour chaque jeton, par exemple, un baiser</l>
 	<l id="180" syll="4" part="i">Que je... que vous...</l>
 </sp>
@@ -508,28 +519,35 @@
 	<l id="194">LE_MONDE_RENVERSÉ, comédie en un acte.</l>
 <stage type="silence/sit/away/watch">Ernest, après un silence, va s'asseoir ; Thérèse s'éloigne un peu et le regarde de côté.</stage>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="195" syll="6" part="i">Réfléchissons d'abord.</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="195" syll="6" part="f">Soyons grave ! Attendons.</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="196" syll="6" part="i">Il faut parler pourtant !</l>
 </sp>
-<sp stage="aparte/watch" who="ERNEST"><speaker>ERNEST, à part, apercevant et prenant une tapisserie sur la table.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte/watch">, à part, apercevant et prenant une tapisserie sur la table.
+	</stage>
 	<l id="196" syll="6" part="f">Soyons muet. Brodons !</l>
 	<l id="197" syll="6" part="i">Brodons; c'est dans mon rôle.</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="197" syll="6" part="f">Il faut que je le mate,</l>
 	<l id="198" syll="6" part="i">Et que ces dix jetons...</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="198" syll="6" part="f">Soyons très diplomate ;</l>
 	<l id="199">Ma situation a du bon et du neuf.</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="200">Dix jetons, dix baisers; c'est trop... au moins de neuf !</l>
 	<l id="201">Commençons donc l'attaque : il faut que je l'ennuie,</l>
 	<l id="202">à le rendre avant peu triste comme la pluie !</l>
@@ -537,7 +555,8 @@
 <stage type="closer">Elle marche vers lui.</stage>
 	<l id="203" syll="9" part="f">Mon cousin, avez-vous de l'esprit ?</l>
 </sp>
-<sp stage="work" who="ERNEST"><speaker>ERNEST, brodant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="work">, brodant.
+	</stage>
 	<l id="204" syll="6" part="i">Quand je n'ai rien de mieux.</l>
 <stage type="toward">À part.</stage>
 	<l id="204" syll="6" part="f">Gare ! Elle me sourit.</l>
@@ -545,12 +564,14 @@
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="205">Vous n'avez aujourd'hui rien de mieux, je suppose ?</l>
 </sp>
-<sp stage="explicit" who="ERNEST"><speaker>ERNEST, prêt de faire un compliment.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="explicit">, prêt de faire un compliment.
+	</stage>
 	<l id="206" syll="1" part="i">J'ai...</l>
 <stage type="aparte">À part, en regardant les dix jetons.</stage>
 	<l id="206" syll="11" part="f">Mes jetons ! Faisons une petite pause.</l>
 </sp>
-<sp stage="turn/closer" who="THÉRÈSE"><speaker>THÉRÈSE, tournant autour de lui.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="turn/closer">, tournant autour de lui.
+	</stage>
 	<l id="207">Eh bien, si vous avez de l'esprit, dites-moi</l>
 	<l id="208" syll="6" part="i">Pourquoi je suis heureuse en ce moment.</l>
 </sp>
@@ -563,7 +584,8 @@
 	<l id="211">C'est de pouvoir vous dire, une fois par hasard,</l>
 	<l id="212">Ce que je trouve en vous de bien : - votre regard...</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="213">Elle me raille ! Mais j'entends la raillerie.</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
@@ -572,14 +594,16 @@
 	<l id="216">Je ne les avais pas encor bien remarqués;</l>
 	<l id="217" syll="6" part="i">Le nez.., droit ! Type grec !</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="217" syll="6" part="f">Des compliments, en somme !</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="218">Je tiens beaucoup au nez... c'est tout le gentilhomme.</l>
 	<l id="219">Le menton très correct ! Le galbe également.</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="220">Mais ce qu'elle fait là, c'est mon signalement !</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
@@ -587,14 +611,17 @@
 	<l id="222">Je vous fais compliment : c'est une main de femme.</l>
 	<l id="223">Les doigts longs, effilés; des fossettes aussi...</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="224">Et dire que je suis femme en ce moment-ci !</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="225">Je ne réussis pas. Pourquoi donc ? Je l'ignore ;</l>
 	<l id="226">Il n'a pas du tout l'air de s'ennuyer encore.</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="227">Brodons, pour mieux fermer l'oreille à ces discours</l>
 <stage type="shout">Haut avec un cri.</stage>
 	<l id="228" syll="8" part="i">Ah ! Je me suis piqué le doigt.</l>
@@ -614,7 +641,8 @@
 <stage type="drop">Elle met le jasmin près de la rose.</stage>
 	<l id="233">vous êtes ravissant ! c'est à rendre pensive.</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="234">Elle se rit de moi ! Reprenons l'offensive.</l>
 <stage type="loud">Haut.</stage>
 	<l id="235" syll="3" part="i">Ah ! Mon_Dieu !</l>
@@ -622,7 +650,8 @@
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>
 	<l id="235" syll="3" part="m">Qu'avez-vous ?</l>
 </sp>
-<sp stage="drop" who="ERNEST"><speaker>ERNEST, laissant tomber la broderie.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="drop">, laissant tomber la broderie.
+	</stage>
 	<l id="235" syll="6" part="f">Je ne sais... je m'y perds.</l>
 	<l id="236" syll="2" part="i">Je souffre...</l>
 </sp>
@@ -632,7 +661,8 @@
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
 	<l id="236" syll="3" part="f">J'ai mes nerfs !</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="237" syll="6" part="i">Il se moque de moi !</l>
 </sp>
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
@@ -646,7 +676,8 @@
 	<l id="239" syll="6" part="f">Les dehors sont trompeurs,</l>
 	<l id="240">Car je souffre à présent bien plus : j'ai mes vapeurs !</l>
 </sp>
-<sp stage="touch" who="THÉRÈSE"><speaker>THÉRÈSE, lui posant la main sur le front.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="touch">, lui posant la main sur le front.
+	</stage>
 	<l id="241">Pauvre Ernest ! En effet, votre tête est brûlante ;</l>
 	<l id="242" syll="6" part="i">Fièvre soudaine !</l>
 </sp>
@@ -657,10 +688,12 @@
 	<l id="243">Ma main rafraîchira votre front, et je veux</l>
 	<l id="244">Qu'elle reste longtemps ainsi dans vos cheveux.</l>
 </sp>
-<sp stage="away" who="ERNEST"><speaker>ERNEST, lui écartant la main, d'un air pincé.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="away">, lui écartant la main, d'un air pincé.
+	</stage>
 	<l id="245">Ce n'est pas convenable, et sans être trop prude...</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="246">Tâchons de lui porter un autre coup plus rude :</l>
 	<l id="247">Pour une débutante, il se défend fort bien.</l>
 <stage type="loud">Haut.</stage>
@@ -669,11 +702,13 @@
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
 	<l id="248" syll="2" part="f">À rien.</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="249">L'impertinent !... Mais non, il reste dans son rôle,</l>
 	<l id="250" syll="6" part="i">Il raille... il fait la femme.</l>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="250" syll="6" part="f">En vérité, c'est drôle !</l>
 	<l id="251">Moi qui tremblais de peur, je la raille à présent ;</l>
 	<l id="252">Ah ! le métier de femme est bien plus amusant !</l>
@@ -688,13 +723,15 @@
 	<l id="259">Doux romans que le temps emporte dans son vol !</l>
 	<l id="260">Moi j'étais Virginie; Ernest, vous étiez Paul !</l>
 </sp>
-<sp stage="light" who="ERNEST"><speaker>ERNEST, légèrement.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="light">, légèrement.
+	</stage>
 	<l id="261">Ah ! Oui, je me souviens ! Les romans, les églogues;</l>
 	<l id="262">Mais depuis, j'ai pris goût à d'autres dialogues !</l>
 	<l id="263">Je suis peu poétique à vos yeux, je le vois,</l>
 	<l id="264" syll="3" part="i">Mais qu'y faire ?</l>
 </sp>
-<sp stage="aparte" who="THÉRÈSE"><speaker>THÉRÈSE, à part.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="264" syll="9" part="f">Il devient agaçant cette fois.</l>
 <stage type="loud">Haut.</stage>
 	<l id="265">Tenez, Ernest, mieux vaut nous arrêter... de grâce !</l>
@@ -731,10 +768,12 @@
 	<l id="287">L'Amour, arbre vivace, a plus d'un rejeton:</l>
 	<l id="288" syll="6" part="i">N'épargnons pas ses fleurs !</l>
 </sp>
-<sp stage="laugh" who="THÉRÈSE"><speaker>THÉRÈSE, éclatant de rire.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="laugh">, éclatant de rire.
+	</stage>
 	<l id="288" syll="6" part="f">Mon cousin, un jeton !</l>
 </sp>
-<sp stage="offended" who="ERNEST"><speaker>ERNEST, piqué.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="offended">, piqué.
+	</stage>
 	<l id="289">Un jeton... Il est vrai ! Mais, en_toute_franchise,</l>
 	<l id="290">Vous l'avez mal gagné, s'il faut que je le dise.</l>
 <stage type="aparte">À part.</stage>
@@ -768,7 +807,8 @@
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
 	<l id="300" syll="8" part="i">Je parlais comme vous... pour rire.</l>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, furieuse.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage>, furieuse.
+	</stage>
 	<l id="300" syll="4" part="f">Et vous osiez !</l>
 	<l id="301">Moi, j'étais dans mon droit. Et maintenant j'y songe,</l>
 	<l id="302">Ce matin, votre amour n'était donc qu'un mensonge,</l>
@@ -795,14 +835,17 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ERNEST"><speaker>ERNEST, seul.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="317">Elle est vraiment fâchée, et même je soupçonne</l>
 	<l id="318" syll="6" part="i">Qu'une larme furtive...</l>
 <stage type="noise/location">On entend le bruit d'une cloche au dehors.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Ernest, Thérèse.</head>
-<sp stage="laugh" who="THÉRÈSE"><speaker>THÉRÈSE, riant.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Ernest, Thérèse.
+</stage>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="318" syll="6" part="f">Ernest, le dîner sonne !</l>
 	<l id="319">De nos conventions il doit vous souvenir,</l>
 	<l id="320">Et quant à moi. j'y gagne assez pour y tenir :</l>
@@ -815,7 +858,8 @@
 	<l id="325">Oui ! mais chaque jeton dont vous me laissez maître</l>
 	<l id="326" syll="6" part="i">Représente un baiser.</l>
 </sp>
-<sp stage="cold" who="THÉRÈSE"><speaker>THÉRÈSE, froidement.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="cold">, froidement.
+	</stage>
 	<l id="326" syll="6" part="f">Il faut bien me soumettre.</l>
 </sp>
 <sp who="ERNEST"><speaker>ERNEST.</speaker>
@@ -909,7 +953,8 @@
 	<l id="361">Je dois agir en femme honnête, quoique tendre ;</l>
 	<l id="362">C'est à vous de parler, et c'est à moi d'attendre !</l>
 </sp>
-<sp stage="serious" who="THÉRÈSE"><speaker>THÉRÈSE, solennellement.</speaker>
+<sp who="THÉRÈSE"><speaker>THÉRÈSE</speaker><stage type="serious">, solennellement.
+	</stage>
 	<l id="363">Monsieur, vous connaissant plus d'une qualité,</l>
 	<l id="364">Vous sachant jeune, bon, plein d'amabilité,</l>
 	<l id="365">Vif comme un épagneul, et doux comme un king-charles,</l>
@@ -921,7 +966,8 @@
 	<l id="371">Vous céderez sans doute à ces motifs puissants,</l>
 	<l id="372" syll="9" part="i">Rougissez pour la forme, et dites...</l>
 </sp>
-<sp stage="hide" who="ERNEST"><speaker>ERNEST, baissant les yeux.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="hide">, baissant les yeux.
+	</stage>
 	<l id="372" syll="3" part="f">Je consens.</l>
 </sp>
 <sp who="THÉRÈSE"><speaker>THÉRÈSE.</speaker>

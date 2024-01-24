@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -33,23 +33,23 @@
 				<titlePart type="sub">La musique est de M. GRÉTRY</titlePart>
 				<titlePart type="sub">Représentée pour la première fois par les Comédiens Italiens ordinaires du Roi, le Mercredi 20 septembre 1769.</titlePart>
 			</docTitle> 
-			<docDate value='1787'>M. DCC XXXVII.</docDate>
+			<docDate value="1787">M. DCC XXXVII.</docDate>
 			<docAuthor id="ANSEAUME, Louis">Par M. ANSEAUME.</docAuthor>
 			<docImprint>
-				<printer id='DIDOT'>À PARIS, Chez DIDOT, l'aîné, Imprimeur et Libraire Rue Pavée.</printer>
+				<printer id="DIDOT">À PARIS, Chez DIDOT, l'aîné, Imprimeur et Libraire Rue Pavée.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='1769-09-20' location='Foire Saint-Germain'>Représentée pour la première fois par les Comédiens Italiens ordinaires du Roi, le Mercredi 20 septembre 1769.</premiere>
+				<premiere date="1769-09-20" location="Foire Saint-Germain">Représentée pour la première fois par les Comédiens Italiens ordinaires du Roi, le Mercredi 20 septembre 1769.</premiere>
 			</performance>
 	<div type="explicit">
 		<p>On trouve à Avignon, chez les Frères Bonnet, imprimeur, libraire, vis à vis le Puits des Boeufs, un assortiment de pièces e théâtre, imprimées dans le même goût.</p>
 	</div>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="CASSANDRE" sex="1" type="H" statut='bourgeois' age="V" stat_amour='néant'>CASSANDRE</role>.</castItem>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut='bourgeois' age="J" stat_amour='néant'>ISABELLE</role>.</castItem>
-		<castItem><role id="COLOMBINE" sex="2" type="H" statut='suivante' age="J" stat_amour='néant'>COLOMBINE</role>, Suivante d'Isabelle.</castItem>
-		<castItem><role id="LÉANDRE" sex="1" type="H" statut='bourgeois' age="A" stat_amour='néant'>LÉANDRE</role>, Neveu de Cassandre, amoureux d'Isabelle.</castItem>
-		<castItem><role id="PIERROT" sex="1" type="H" statut='valet' age="A" stat_amour='néant'>PIERROT</role>, Valet de Léandre.</castItem>
+		<castItem><role id="CASSANDRE" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">CASSANDRE</role>.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ISABELLE</role>.</castItem>
+		<castItem><role id="COLOMBINE" sex="2" type="H" statut="suivante" age="J" stat_amour="néant">COLOMBINE</role>, Suivante d'Isabelle.</castItem>
+		<castItem><role id="LÉANDRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, Neveu de Cassandre, amoureux d'Isabelle.</castItem>
+		<castItem><role id="PIERROT" sex="1" type="H" statut="valet" age="A" stat_amour="néant">PIERROT</role>, Valet de Léandre.</castItem>
 	</castList>
 	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est chez Monsieur Cassandre.</set>
 </front>
@@ -57,7 +57,8 @@
 <div1 type="acte" n="1"><head>LE TABLEAU PARLANT</head>
 <stage type="furniture/location">Le Tableau qui représente le portrait de Monsieur Cassandre est posé sur un chevalet dans le fond du Théâtre.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ISABELLE"><speaker>ISABELLE, seule.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="alone">, seule.
+</stage>
 <stage type="title">ARIETTE.</stage>
 	<l id="1">Je suis jeune, je suis fille ;</l>
 	<l id="2">On me trouve allez gentille ; </l>
@@ -89,8 +90,10 @@
 	<l id="28">Il faut la consulter... Jugement, la voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Isabelle, Colombine.</head>
-<sp stage="entrance/sing" who="COLOMBINE"><speaker>COLOMBINE, entre en chantant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Isabelle, Colombine.
+</stage>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="entrance/sing">, entre en chantant.
+</stage>
 <stage type="TITLE">Fragment d'une Ariette de la Veuve indécise.</stage>
 	<l id="29">Il nous faut au village</l>
 	<l id="30">Un mari jeune et dodu.</l>
@@ -293,12 +296,14 @@
 	<l id="143">Songez à suivre ma leçon.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Isabelle, Colombine, Cassandre.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Isabelle, Colombine, Cassandre.
+</stage>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
 	<l id="144">Bonjour ma charmante Isabelle !</l>
 	<l id="145" syll="6" part="i">Comment vous portez-vous ?</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Isabelle.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Isabelle.
+	</stage>
 	<l id="145" syll="6" part="f">Fort bien. Répondez donc.</l>
 </sp>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
@@ -316,7 +321,8 @@
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
 	<l id="151" syll="4" part="i">Quoi ! Tout de bon !</l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="151" syll="4" part="f">Comme elle ment ?</l>
 </sp>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
@@ -328,13 +334,15 @@
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="155">Colombine exagère un peu.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Cassandre.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Cassandre.
+	</stage>
 	<l id="156">Pures façons.. la modestie...</l>
 	<l id="157">Vous savez ce que c'est, Monsieur, et quels combats</l>
 	<l id="158">Éprouve dans son coeur une fille attendrie,</l>
 	<l id="159">Qui voudrait s'exprimer et qui ne l'ose pas. </l>
 </sp>
-<sp stage="laugh" who="CASSANDRE"><speaker>CASSANDRE, riant.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="160">Mais à la fin. Il vient un temps où l'honneur même</l>
 	<l id="161">L'oblige à confesser qu'elle aime,</l>
 	<l id="162">Et ce temps va bientôt venir.</l>
@@ -355,7 +363,8 @@
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="170" syll="6" part="i">Tout comme vous voudrez.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Cassandre.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Cassandre.
+	</stage>
 	<l id="170" syll="6" part="f">Eh bien ! Avais-je tort ?</l>
 <stage type="toward">À Isabelle.</stage>
 	<l id="171">Appuyez encore davantage.</l>
@@ -380,18 +389,21 @@
 	<l id="187">Cet aveu charmant</l>
 	<l id="188">Répand dans mon âme, etc.</l>
 </sp>
-<sp stage="ironic" who="COLOMBINE"><speaker>COLOMBINE, ironiquement.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="ironic">, ironiquement.
+	</stage>
 	<l id="189">Faites-lui donc quelque caresse, </l>
 	<l id="190" syll="6" part="i">À ce petit enfant.</l>
 </sp>
-<sp stage="laugh" who="CASSANDRE"><speaker>CASSANDRE, ricanant.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="laugh">, ricanant.
+	</stage>
 	<l id="190" syll="6" part="f">Hom ! hom ! La bonne pièce !</l>
 	<l id="191">Ah ! Ça, tout est dit là-dessus. </l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 	<l id="192">C'est de bon coeur, je vous assure.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="193">Plus j'en vois, plus je veux poursuivre l'aventure</l>
 	<l id="194">Et les projets que j'ai conçus. </l>
 <stage type="loud">Haut.</stage>
@@ -449,7 +461,8 @@
 	<l id="219">Le tourment...</l>
 	<l id="220">Et puis les craintes</l>
 </sp>
-<sp stage="low/toward" who="COLOMBINE"><speaker>COLOMBINE, bas à Isabelle.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="low/toward">, bas à Isabelle.
+	</stage>
 	<l id="221" syll="2" part="i">Bien, bien. </l>
 </sp>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
@@ -509,7 +522,8 @@
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 	<l id="246">Et cette affaire-là ne saurait se remettre ?</l>
 </sp>
-<sp stage="low/toward" who="ISABELLE"><speaker>ISABELLE, bas à Colombine.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="low/toward">, bas à Colombine.
+	</stage>
 	<l id="247">Tais-toi donc, laisse-le partir.</l>
 </sp>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
@@ -534,13 +548,15 @@
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
 	<l id="255" syll="3" part="m">Si pourtant.. </l>
 </sp>
-<sp stage="aparte" who="COLOMBINE"><speaker>COLOMBINE, à part.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="255" syll="6" part="f">Pars donc, maudit barbon. </l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="256">Et revenez en diligence.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="257">J'entrevois du mic-mac, mais voyons jusqu'au bout,</l>
 <stage type="toward">À Isabelle.</stage>
 	<l id="258">Dans votre appartement rentrez, ma chère amie ;</l>
@@ -628,7 +644,8 @@
 	<l id="310">Colombine...</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Cassandre, Colombine.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Cassandre, Colombine.
+</stage>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 	<l id="311">Monsieur... comment ! Encore ici ?</l>
 	<l id="312">Nous vous croyons déjà parti.</l>
@@ -783,7 +800,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="COLOMBINE"><speaker>COLOMBINE, seule.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="379">À qui diable en a t'il avec son radotage !</l>
 	<l id="380">Il est des gens d'une drôle d'humeur !</l>
 	<l id="381">Les moindres refus les irritent.</l>
@@ -807,15 +825,19 @@
 	<l id="398">Et si vous voulez même, on vous adorera.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Colombine, Pierrot.</head>
-<sp stage="location" who="PIERROT"><speaker>PIERROT, en dehors.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Colombine, Pierrot.
+</stage>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="location">, en dehors.
+	</stage>
 	<l id="399">Holà, hé, la maison... Picard... Lafleur, Lapierre.</l>
 </sp>
-<sp stage="estonish" who="COLOMBINE"><speaker>COLOMBINE, étonnée.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="estonish">, étonnée.
+</stage>
 <note type="L">Carillon : Sonnerie de cloches accordées à différents tons. Fig. et familièrement, tapage, crierie. [L]</note>
 	<l id="400">Qui diantre fait ce carillon. </l>
 </sp>
-<sp stage="run/location" who="PIERROT"><speaker>PIERROT, courant dans la chambre.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="run/location">, courant dans la chambre.
+</stage>
 <note type="L">Chambrière : Femme attachée au service de la personne et des chambres. On dit maintenant femme de chambre. [L]</note>
 	<l id="401">Pas un laquais ici, pas une chambrière...!</l>
 	<l id="402">Eh bien personne ne répond ! </l>
@@ -1010,7 +1032,8 @@
 	<l id="490">La joie et le bon vin</l>
 	<l id="491">Dissipent notre chagrin...</l>
 </sp>
-<sp stage="laugh" who="COLOMBINE"><speaker>COLOMBINE, riant.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="492" syll="10" part="i">Pierrot, mon cher ami tu viens de loin. </l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -1049,16 +1072,20 @@
 	<l id="508" syll="3" part="f">Pour trois jours,</l>
 	<l id="509" syll="6" part="i">Profitons de ce temps.</l>
 </sp>
-<sp stage="touch" who="PIERROT"><speaker>PIERROT, prenant la main de Colombine.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="touch">, prenant la main de Colombine.
+	</stage>
 	<l id="509" syll="6" part="f">C'est bien dit, mes amours </l>
 </sp>
-<sp stage="away" who="COLOMBINE"><speaker>COLOMBINE, retirant sa main.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="away">, retirant sa main.
+	</stage>
 	<l id="510" syll="3" part="i">Tais-toi donc.</l>
 </sp>
-<sp stage="" who="PIERROT"><speaker>PIERROT, batifolant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="">, batifolant.
+	</stage>
 	<l id="510" syll="3" part="m">Oui, mon coeur.</l>
 </sp>
-<sp stage="push" who="COLOMBINE"><speaker>COLOMBINE, le repoussant.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="push">, le repoussant.
+	</stage>
 	<l id="510" syll="6" part="f">Veux-tu bien être sage ! </l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -1191,15 +1218,18 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Pierrot, Léandre.</head>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Pierrot, Léandre.
+</stage>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="559">On n'a pas toujours de la peine,</l>
 	<l id="560">On rencontre parfois quelque chose de bon.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="561">As-tu fait ma commission ? </l>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part. </speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part. 
+	</stage>
 	<l id="562">Je ne m'attendais pas à cette bonne aubaine. </l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -1208,13 +1238,15 @@
 	<l id="564">Sait-il que je reviens tout exprès de Cayenne</l>
 	<l id="565">Pour le voir, l'embrasser et pour en hériter !</l>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part. </speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part. 
+	</stage>
 	<l id="566" syll="6" part="i">Ah ! Quel plaisir ! </l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="566" syll="6" part="f">Maraud, veux-tu bien m'écouter ! </l>
 </sp>
-<sp stage="qick" who="PIERROT"><speaker>PIERROT, vivement.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="qick">, vivement.
+	</stage>
 	<l id="567">Ah ! Vous voilà, Monsieur, votre bonne fortune</l>
 	<l id="568">Vous amène en ces lieux ; vous n'y trouvez point</l>
 	<l id="569">Ce que vous y cherchez : mais sur un autre point.</l>
@@ -1271,8 +1303,10 @@
 	<l id="597" syll="3" part="f">La voilà.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Léandre, Pierrot, Isabelle, Colombine.</head>
-<sp stage="run/closer" who="ISABELLE"><speaker>ISABELLE, courant au devant de Léandre. </speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Léandre, Pierrot, Isabelle, Colombine.
+</stage>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="run/closer">, courant au devant de Léandre. 
+	</stage>
 	<l id="598" syll="9" part="i">Est-ce vous que je vois cher amant ? </l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -1307,7 +1341,8 @@
 	<l id="610">Son sentiment était qu'en cette conjoncture</l>
 	<l id="611">Je devais en passer par-là. </l>
 </sp>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Colombine.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à Colombine.
+	</stage>
 	<l id="612">Pourquoi lui conseiller une insigne parjure ?</l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1327,7 +1362,8 @@
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="620" syll="1" part="f">Oui. </l>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, à Léandre.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, à Léandre.
+	</stage>
 	<l id="621">Je ne le pouvais pas décemment, moi ami.</l>
 	<l id="622">Le monde est trop méchant, pour un rien l'on nous glose.</l>
 </sp>
@@ -1407,7 +1443,8 @@
 	<l id="663" syll="5" part="f">D'accord ; mais je pense,</l>
 	<l id="664">Quand je me fais plaisir, que je t'en fais autant. </l>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, à Léandre.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, à Léandre.
+	</stage>
 	<l id="665">Mais vous m'avez cherché querelle</l>
 	<l id="666">Sur la fidélité que l'on doit en amour</l>
 	<l id="667">Pourrais-je savoir à mon tour</l>
@@ -1421,7 +1458,8 @@
 <stage type="low/toward">Bas à Léandre.</stage>
 	<l id="671">Parlerai-je de la négresse ?</l>
 </sp>
-<sp stage="low/toward" who="LÉANDRE"><speaker>LÉANDRE, bas à Pierrot.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="low/toward">, bas à Pierrot.
+	</stage>
 	<l id="672">Coquin, si tu dis un seul mot...</l>
 <stage type="toward">À lsabelle.</stage>
 	<l id="673">Je vous dirai bien plus. Une telle victoire</l>
@@ -1459,7 +1497,8 @@
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="697">Le terrain serait bon, s'il était cultivé.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Pierrot.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Pierrot.
+	</stage>
 	<l id="698" syll="6" part="i">Que fais-tu donc-là ?</l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -1467,7 +1506,8 @@
 	<l id="699">Tenez, Monsieur. Vous n'avez pas pris garde...</l>
 	<l id="700">Reconnaissez-vous ce portrait ?</l>
 </sp>
-<sp stage="watch" who="LÉANDRE"><speaker>LÉANDRE, regardant avec une loupe.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="watch">, regardant avec une loupe.
+	</stage>
 	<l id="701">Mais je dois croire.... et je crois en effet</l>
 	<l id="702">Que c'est mon très cher oncle.</l>
 	<l id="703">Oui, lui-même en personne.</l>
@@ -1482,11 +1522,13 @@
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="706">Il n'est pas dans son jour, venez le voir ici.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Pierrot.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Pierrot.
+</stage>
 <stage type="drop/location">Colombine et Pierrot posent le tableau vis-à-vis la seconde coulisse du côté de la Reine.</stage>
 	<l id="707">Posons le près de cette table.</l>
 </sp>
-<sp stage="watch" who="LÉANDRE"><speaker>LÉANDRE, considérant le tableau.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="watch">, considérant le tableau.
+	</stage>
 	<l id="708">Oui voilà bien sa mine véritable.</l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1497,7 +1539,8 @@
 <stage type="exit/together">Isabelle et Léandre sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Colombine, Pierrot.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Colombine, Pierrot.
+</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 	<l id="713">C'est bien dit : hâtons-nous. Car la faim me talonne.</l>
 	<l id="714">Pourrons cette table à nous deux.</l>
@@ -1521,7 +1564,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="CASSANDRE"><speaker>CASSANDRE, seule.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="alone">, seule.
+</stage>
 <stage type="entrance">Il sort tout doucement du Cabinet où il était caché.</stage>
 	<l id="722">Sortir par une porte, rentrer par un autre,</l>
 	<l id="723">En même temps être absent et présent,</l>
@@ -1600,12 +1644,15 @@
 l'ouverture qu'il a faite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE DERNIÈRE. Léandre, Pierrot, Isabelle, Colombine.</head>
+<div2 type="scene" n="12"><head>SCÈNE DERNIÈRE.</head><stage> Léandre, Pierrot, Isabelle, Colombine.
+</stage>
 <stage type="explicit">Cassandre dans le Tableau.</stage>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Isabelle.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à Isabelle.
+	</stage>
 	<l id="788">Comment ! Trois jours plus tard je perdais ma Maîtresse.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="789">Je connais ces visages-là.</l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
@@ -1623,7 +1670,8 @@ l'ouverture qu'il a faite.</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 	<l id="794" syll="3" part="m">M'y voilà. </l>
 </sp>
-<sp stage="sit" who="LÉANDRE"><speaker>LÉANDRE, assis à table.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="sit">, assis à table.
+	</stage>
 	<l id="794" syll="6" part="f">Comptez, ma chère amie... </l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -1641,7 +1689,8 @@ l'ouverture qu'il a faite.</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="800" syll="3" part="i">Quoi ! Votre oncle !</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="800" syll="3" part="m">On me tient. </l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -1649,21 +1698,26 @@ l'ouverture qu'il a faite.</stage>
 	<l id="801">Comme il n'a pas longtemps à vivre,</l>
 	<l id="802">J'eusse attendu sa mort assez patiemment.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="803">Le méchant garnement ! </l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à Léandre.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à Léandre.
+	</stage>
 	<l id="804" syll="3" part="i">Buvez donc.</l>
 </sp>
-<sp stage="carry" who="LÉANDRE"><speaker>LÉANDRE, tenant son verre.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="carry">, tenant son verre.
+	</stage>
 	<l id="804" syll="6" part="f">Ma chère Isabelle,</l>
 	<l id="805" syll="4" part="i">Permettez-vous.</l>
 <stage type="touch">Il choque avec elle.</stage>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="805" syll="4" part="m">Ah ! Ciel, mon vin ! </l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à Léandre.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à Léandre.
+	</stage>
 	<l id="805" syll="4" part="f">De tout mon coeur. </l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -1673,7 +1727,8 @@ l'ouverture qu'il a faite.</stage>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 	<l id="808" syll="6" part="i">Plus que je ne devais. </l>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, à Léandre.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, à Léandre.
+	</stage>
 	<l id="808" syll="6" part="f">De quoi vous plaignez-vous</l>
 	<l id="809">Pendant deux ans votre silence</l>
 	<l id="810">M'avait ôté toute espérance.</l>
@@ -1683,7 +1738,8 @@ l'ouverture qu'il a faite.</stage>
 	<l id="814">D'approuver ses tendres désirs,</l>
 	<l id="815">C'est à vous qu'en secret j'adressais mes soupirs.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="816" syll="6" part="i">Où m'allais-je fourrer ?</l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1691,7 +1747,8 @@ l'ouverture qu'il a faite.</stage>
 <note type="L">Penard : Terme de dénigrement. Vieux penard, ou, simplement, penard, vieillard usé. [L]</note>
 	<l id="817" syll="6" part="i">C'est que ce vieux penard... </l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="817" syll="6" part="f">J'étouffe de colère.</l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1701,13 +1758,16 @@ l'ouverture qu'il a faite.</stage>
 <note type="L">Céladon : Familièrement et ordinairement avec ironie, amant délicat et langoureux. [L]</note>
 	<l id="821">Comme un beau Céladon, d'être aimé pour lui-même.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="822" syll="3" part="i">La coquine.</l>
 </sp>
-<sp stage="toward/slap" who="COLOMBINE"><speaker>COLOMBINE, à Pierrot en lui donnant un soufflet.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward/slap">, à Pierrot en lui donnant un soufflet.
+	</stage>
 	<l id="822" syll="2" part="m">Faquin !</l>
 </sp>
-<sp stage="surprise" who="PIERROT"><speaker>PIERROT, surpris.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="surprise">, surpris.
+	</stage>
 	<l id="822" syll="6" part="f">Est-ce pour plaisanter 1 </l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1719,7 +1779,8 @@ l'ouverture qu'il a faite.</stage>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 	<l id="825">Non, mais il faut savoir se faire respecter.</l>
 </sp>
-<sp stage="show" who="PIERROT"><speaker>PIERROT, tenant sa joue.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="show">, tenant sa joue.
+	</stage>
 	<l id="826" syll="6" part="i">Je ne lui dirais rien. </l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1733,13 +1794,15 @@ l'ouverture qu'il a faite.</stage>
 	<l id="828">Pardi te voilà bien malade.</l>
 	<l id="829">Embrasse-moi ; tout sera dit.</l>
 </sp>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Isabelle.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à Isabelle.
+	</stage>
 	<l id="830" syll="6" part="i">Si nous faisions chorus ? </l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="830" syll="4" part="m">Avec plaisir.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="830" syll="2" part="f">J'enrage.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -1759,7 +1822,8 @@ l'ouverture qu'il a faite.</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 	<l id="839" syll="6" part="i">Fort bien imaginé.</l>
 </sp>
-<sp stage="aparte" who="CASSANDRE"><speaker>CASSANDRE, à part.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="839" syll="6" part="f">J'étais le pis_aller !</l>
 </sp>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
@@ -1811,12 +1875,14 @@ l'ouverture qu'il a faite.</stage>
 <sp who="COLOMBINE, PIERROT"><speaker>COLOMBINE ET PIERROT.</speaker>
 	<l id="854" syll="2" part="f">Si, si. </l>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, s'adressant au Tableau.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, s'adressant au Tableau.
+	</stage>
 	<l id="855">Monsieur, voilà l'amant que mon coeur a choisi,</l>
 	<l id="856">Je ne saurais aimer que lui : </l>
 	<l id="857" syll="9" part="i">Consentez-vous à me le donner ?</l>
 </sp>
-<sp stage="strong" who="CASSANDRE"><speaker>CASSANDRE, forçant sa voix.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="strong">, forçant sa voix.
+	</stage>
 	<l id="857" syll="1" part="f">Oui.</l>
 </sp>
 <note type="explicit">Le texte est présenté ensuite sous forme d'un tableau à quatre colonne.</note>
@@ -1907,7 +1973,8 @@ l'ouverture qu'il a faite.</stage>
 	<l id="931">Tout entendu, etc.</l>
 <stage type="explicit">Comme Colombine.</stage>
 </sp>
-<sp stage="toward" who="CASSANDRE"><speaker>CASSANDRE, à Isabelle.</speaker>
+<sp who="CASSANDRE"><speaker>CASSANDRE</speaker><stage type="toward">, à Isabelle.
+	</stage>
 	<l id="932">Eh bien ! Vous ne dites plus mot !</l>
 	<l id="933">Quel est donc à prêtent le soin qui vous occupe ?</l>
 </sp>
@@ -1919,7 +1986,8 @@ l'ouverture qu'il a faite.</stage>
 <stage type="toward">À Isabelle.</stage>
 	<l id="935">Vous avez cru que j'étais votre dupe. </l>
 </sp>
-<sp stage="subtil" who="ISABELLE"><speaker>ISABELLE, d'un air sournois.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="subtil">, d'un air sournois.
+	</stage>
 	<l id="936">Monsieur... C'est malgré moi... Je ne prévoyais pas.</l>
 	<l id="937">Et j'espérais si peu ... pour sortir d'embarras... </l>
 	<l id="938">Ma résolution... Parle toi. Colombine. </l>
@@ -1960,7 +2028,8 @@ l'ouverture qu'il a faite.</stage>
 	<l id="957">Être enfin le dernier à rire... </l>
 	<l id="958">Je vous unis tous deux pour me venger de vous.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Cassandre.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Cassandre.
+	</stage>
 	<l id="959">Nous ne sommes pas moins coupables.</l>
 	<l id="960">Nous avons machiné ces complots détestables.</l>
 <stage type="show">Montrant Pierrot.</stage>
@@ -1969,12 +2038,14 @@ l'ouverture qu'il a faite.</stage>
 <sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
 	<l id="962" syll="7" part="i">Mariez-vous. Allez au Diable.</l>
 </sp>
-<sp stage="wave" who="COLOMBINE"><speaker>COLOMBINE, faisant la révérence.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="wave">, faisant la révérence.
+	</stage>
 	<l id="962" syll="3" part="f">Grand-merci.</l>
 </sp>
 </div2>
 <div2 type="vaudeville" n="13"><head>VAUDEVILLE.</head>
-<sp stage="explicit" who="TOUS"><speaker>TOUS, hors Cassandre.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="explicit">, hors Cassandre.
+	</stage>
 	<l id="963">Le Dieu de la tendresse</l>
 	<l id="964">Sourit à la jeunesse.</l>
 	<l id="965">Il fuit avec courroux</l>
@@ -2011,7 +2082,8 @@ l'ouverture qu'il a faite.</stage>
 	<l id="992">D'un vieux soldat.</l>
 <stage type="sing">Tous reprennent le Rondeau. </stage>
 </sp>
-<sp stage="duo" who="LÉANDRE, ISABELLE"><speaker>LÉANDRE et ISABELLE, en Duo.</speaker>
+<sp who="LÉANDRE, ISABELLE"><speaker>LÉANDRE et ISABELLE</speaker><stage type="duo">, en Duo.
+	</stage>
 	<l id="993">L'amour de nos souhaits</l>
 	<l id="994">A comblé la mesure.</l>
 	<l id="995">Célébrons à jamais</l>
@@ -2052,4 +2124,3 @@ l'ouverture qu'il a faite.</stage>
 </body>
 </text>
 </TEI>
-

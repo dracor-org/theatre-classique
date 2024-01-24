@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">PIÈCE EN UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,19 +38,20 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR LEMORANDEL" sex="1" type="H" statut="bourgeois" age="V" stat_amour=''>MONSIEUR LEMORANDEL</role>, 66 ans, ancien magistrat.</castItem>
-		<castItem><role id="UN CAPITAINE D'INFANTERIE" sex="1" type="H" statut="capitaine" age="A" stat_amour='Irma'>UN CAPITAINE D'INFANTERIE</role>.</castItem>
-		<castItem><role id="UN HOMME" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>UN HOMME</role>.</castItem>
-		<castItem><role id="IRMA" sex="2" type="H" statut="bourgeois" age="A" stat_amour='Capitaine'>IRMA</role>.</castItem>
+		<castItem><role id="MONSIEUR LEMORANDEL" sex="1" type="H" statut="bourgeois" age="V" stat_amour="">MONSIEUR LEMORANDEL</role>, 66 ans, ancien magistrat.</castItem>
+		<castItem><role id="UN CAPITAINE D'INFANTERIE" sex="1" type="H" statut="capitaine" age="A" stat_amour="Irma">UN CAPITAINE D'INFANTERIE</role>.</castItem>
+		<castItem><role id="UN HOMME" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">UN HOMME</role>.</castItem>
+		<castItem><role id="IRMA" sex="2" type="H" statut="bourgeois" age="A" stat_amour="Capitaine">IRMA</role>.</castItem>
 	</castList>
-	<set location="Province" country="France" periode="XXème" gps=""></set>
+	<set location="Province" country="France" periode="XXème" gps=""/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 173-191</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UN HOMME DANS LA MAISON</head>
 <stage type="decor">La scène représente un petit salon dans une grande maison de campagne ; une table où il reste les reliefs d'un repas. Elle a été dressée pour un dîner improvisé. Il est dix heures du soir.</stage>
-<div2 type="scene" n="1"><head></head>
-<sp stage="stand" who="LE CAPITAINE"><speaker>LE CAPITAINE, se levant.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="LE CAPITAINE"><speaker>LE CAPITAINE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_Lemorandel, Madame_Chérolaz, je vais être obligé de vous quitter, il est dix heures et j'ai bien deux heures de bicyclette avant de rejoindre mon cantonnement. </s>
 	<s id="2">Nous partons demain dès le matin.</s>
@@ -176,7 +177,8 @@
 </p>
 <stage type="location">Il va jusqu'à la porte.</stage>
 </sp>
-<sp stage="entrance" who="IRMA"><speaker>IRMA, rentrant.</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="entrance">, rentrant.
+</stage>
 <p id="22">
 	<s id="1">Ce pauvre capitaine, nous lui avons offert un dîner de fortune.</s>
 </p>
@@ -214,7 +216,8 @@
 	<s id="1">Mon oncle, c'est votre nervosité...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="LEMORANDEL"><speaker>LEMORANDEL, l'interrompant.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="29">
 	<s id="1">On met bien des choses sur le compte de ma nervosité. </s>
 	<s id="2">Je suis très chagriné par ta conduite.</s>
@@ -309,7 +312,8 @@
 	<s id="3">Toutes les probabilités sont contre toi, mais ce ne sont pas absolument des certitudes.</s>
 </p>
 </sp>
-<sp stage="soft" who="IRMA"><speaker>IRMA, mollement</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="soft">, mollement
+</stage>
 <p id="45">
 	<s id="1">Que puis-je dire pour vous convaincre ?</s>
 </p>
@@ -333,7 +337,8 @@
 	<s id="1">Je te répète que ce ne sont là que des présomptions ; songe à notre famille, songe aussi à l'homme que tu trahirais.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="IRMA"><speaker>IRMA, détournant la conversation.</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="embarrassed">, détournant la conversation.
+</stage>
 <p id="49">
 	<s id="1">Le voiturier ne vient pas...</s>
 </p>
@@ -347,7 +352,8 @@
 	<s id="1">Ton mari...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="IRMA"><speaker>IRMA, l'interrompant.</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="52">
 	<s id="1">Une magnifique figure, vous l'avez déjà dit.</s>
 </p>
@@ -358,12 +364,14 @@
 	<s id="2">C'est vrai tout de même que ce voiturier est en retard...</s>
 </p>
 </sp>
-<sp stage="listen" who="IRMA"><speaker>IRMA, prêtant l'oreille.</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="listen">, prêtant l'oreille.
+</stage>
 <p id="54">
 	<s id="1">Attention !...</s>
 </p>
 </sp>
-<sp stage="anxious/liste," who="LEMORANDEL"><speaker>LEMORANDEL, inquiet, écoutant</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="anxious/liste,">, inquiet, écoutant
+</stage>
 <p id="55">
 	<s id="1">Qu'est-ce que c'est ?</s>
 </p>
@@ -374,7 +382,8 @@
 	<s id="2">Quelqu'un est entré en bas dans l'antichambre.</s>
 </p>
 </sp>
-<sp stage="anxious" who="LEMORANDEL"><speaker>LEMORANDEL, dont l'inquiétude redouble.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="anxious">, dont l'inquiétude redouble.
+</stage>
 <p id="57">
 	<s id="1">Mais je n'ai pas entendu la voiture. </s>
 	<s id="2">Pourquoi serait-il venu sans sa voiture ?</s>
@@ -409,7 +418,8 @@
 	<s id="1">Il faut tout de même lui dire d'entrer !</s>
 </p>
 </sp>
-<sp stage="stand" who="LEMORANDEL"><speaker>LEMORANDEL, les bras en l'air</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="stand">, les bras en l'air
+</stage>
 <p id="64">
 	<s id="">Entrez !</s>
 </p>
@@ -459,12 +469,14 @@
 	<s id="1">Et puis dans le bois, dessous les arbres, les chemins sont boueux de l'orage d'hier.</s>
 </p>
 </sp>
-<sp stage="sad" who="LEMORANDEL"><speaker>LEMORANDEL, résigné.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="sad">, résigné.
+</stage>
 <p id="73">
 	<s id="1">Eh bien, nous coucherons ici.</s>
 </p>
 </sp>
-<sp stage="wave" who="L'HOMME"><speaker>L'HOMME, saluant.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="wave">, saluant.
+</stage>
 <p id="74">
 	<s id="1">Au revoir, Monsieur, au revoir, Madame...</s>
 </p>
@@ -510,7 +522,8 @@
 	<s id="1">Mais oui; j'ai entendu la porte se fermer en bas, et une fois tirée, on ne peut l'ouvrir du dehors si on n'a pas la clef.</s>
 </p>
 </sp>
-<sp stage="low" who="LEMORANDEL"><speaker>LEMORANDEL, à voix basse.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="low">, à voix basse.
+</stage>
 <p id="82">
 	<s id="1">Cet homme a peut-être refermé la porte avec bruit, sans sortir de la maison...</s>
 </p> 
@@ -535,7 +548,8 @@
 	<s id="2">Je crois qu'il vaudrait mieux que vous alliez dormir.</s>
 </p>
 </sp>
-<sp stage="stand" who="LEMORANDEL"><speaker>LEMORANDEL, se levant péniblement.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="stand">, se levant péniblement.
+</stage>
 <p id="86">
 	<s id="1">Allons ! </s>
 </p>
@@ -563,7 +577,8 @@
 <stage type="exit/location/light">Il entre dans la chambre au premier plan à droite, Irma restée seule éteint les lampes et vient à la table... s'arrête, tend l'oreille au bruit du dehors, et entre dans la chambre au deuxième plan à gauche.</stage>
 <stage type="light/wait/entrance">La scène reste obscure et vide pendant quelques secondes, après lesquelles entre Lemorandel, toujours en costume de voyage.</stage>
 </sp>
-<sp stage="alone" who="LEMORANDEL"><speaker>LEMORANDEL, seul.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="alone">, seul.
+</stage>
 <p id="90">
 	<s id="1">Oh ! </s>
 	<s id="2">Ces bruits vagues qui ne cessent pas... </s>
@@ -598,7 +613,8 @@
 </p>
 <stage type="narration">Il prête l'oreille. Il semble entendre un bruit persistant. On monte l'étage. Sa tête effarée scande les pas de quelqu'un qui monte. Il souffle sa bougie et va se cacher derrière un rideau. La porte s'ouvre. On voit d'abord le rayon d'une lampe de poche. Puis, un homme entre avec précaution. C'est le capitaine, il a son casque et son revolver. La porte de la chambre d'Irma s'ouvre doucement.</stage>
 </sp>
-<sp stage="low/toward" who="IRMA"><speaker>IRMA, à voix basse au capitaine.</speaker>
+<sp who="IRMA"><speaker>IRMA</speaker><stage type="low/toward">, à voix basse au capitaine.
+</stage>
 <p id="95">
 	<s id="1">Mon oncle est couché. </s>
 	<s id="2">Je ne l'entends plus...</s>
@@ -631,7 +647,8 @@
 </p>
 <stage type="hugh/exit">Il l'enlace tendrement et entre dans la chambre avec elle.</stage>
 </sp>
-<sp stage="entrance/location" who="LEMORANDEL"><speaker>LEMORANDEL, sortant de sa cachette.</speaker>
+<sp who="LEMORANDEL"><speaker>LEMORANDEL</speaker><stage type="entrance/location">, sortant de sa cachette.
+</stage>
 <p id="101">
 	<s id="1">C'est effrayant ! </s>
 </p>

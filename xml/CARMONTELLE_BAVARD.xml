@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,24 +30,26 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">TRENTIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1783'>M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1783">M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='POINÇOT'>À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
+			<printer id="POINÇOT">À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA COMTESSE DE SOURVILLE" sex="2" type="H" statut="comte" age='A' stat_amour='(néant)'>LA COMTESSE DE SOURVILLE</role>, en bonnet et petite robe, coiffe blanche.</castItem>
-		<castItem><role id="LE COMMANDEUR DE GRISAC" sex="1" type="H" statut="commandeur" age='A' stat_amour='(néant)'>LE COMMANDEUR DE GRISAC</role>. Habit brodé, croix de Malte.</castItem>
-		<castItem><role id="MONSIEUR DE LA POTERNIÉRE" sex="1" type="H" statut="major" age='A' stat_amour='(néant)'>MONSIEUR DE LA POTERNIÉRE</role>, Major de Bouchain. En uniforme de place de guerre, avec une grande perruque brune, jambe de bois, croix de Saint-Louis, et une canne.</castItem>
-		<castItem><role id="DUBOIS" sex="1" type="H" statut="valet de chambre" age='A' stat_amour='(néant)'>DUBOIS</role>, Valet-de-Chambre de la Comtesse. Habit gris, vieille veste galonnée.</castItem>
+		<castItem><role id="LA COMTESSE DE SOURVILLE" sex="2" type="H" statut="comte" age="A" stat_amour="(néant)">LA COMTESSE DE SOURVILLE</role>, en bonnet et petite robe, coiffe blanche.</castItem>
+		<castItem><role id="LE COMMANDEUR DE GRISAC" sex="1" type="H" statut="commandeur" age="A" stat_amour="(néant)">LE COMMANDEUR DE GRISAC</role>. Habit brodé, croix de Malte.</castItem>
+		<castItem><role id="MONSIEUR DE LA POTERNIÉRE" sex="1" type="H" statut="major" age="A" stat_amour="(néant)">MONSIEUR DE LA POTERNIÉRE</role>, Major de Bouchain. En uniforme de place de guerre, avec une grande perruque brune, jambe de bois, croix de Saint-Louis, et une canne.</castItem>
+		<castItem><role id="DUBOIS" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="(néant)">DUBOIS</role>, Valet-de-Chambre de la Comtesse. Habit gris, vieille veste galonnée.</castItem>
    </castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La Scène est chez la Comtesse, dans la chambre à coucher.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez la Comtesse, dans la chambre à coucher.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome Second, Versailles, 1783. pp. 277-302.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE BAVARD</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Comtesse, Dubois.</head>
-<sp stage="carry/sit/furniture" who="LA COMTESSE"><speaker>LA COMTESSE, tenant une brochure, son mouchoir, un petit sac, et s'asseyant auprès d'une petite table, sur une chaise longue, avec une boîte à parfiler.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Comtesse, Dubois.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="carry/sit/furniture">, tenant une brochure, son mouchoir, un petit sac, et s'asseyant auprès d'une petite table, sur une chaise longue, avec une boîte à parfiler.
+</stage>
 <note type="L">Parfiler : Défaire fil à fil une étoffe ou un galon, soit d'or, soit d'argent, et séparer l'or et l'argent.</note>
 <p id="1">
 	<s id="1">Dubois, vous êtes sûr que le Docteur viendra dans l'après-dînée ?</s>
@@ -94,7 +96,8 @@
 </p>
 <stage type="exit">Il s'en va.</stage>
 </sp>
-<sp stage="sigh/breath" who="LA COMTESSE"><speaker>LA COMTESSE, soupirant et respirant d'un flacon.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="sigh/breath">, soupirant et respirant d'un flacon.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Cet éther-là ne vaut plus rien.</s>
@@ -111,7 +114,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, Le Commandeur.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, Le Commandeur.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Commandeur, voulez-vous que je me lève ?</s>
@@ -426,13 +430,15 @@
 <stage type="exit/entrance">Elle entre dans une garde-robe ; et le Commandeur fait entrer Monsieur de la Poterniére.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur de la Poterniére, Le Commandeur.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur de la Poterniére, Le Commandeur.
+</stage>
 <sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR.</speaker>
 <p id="1">
 	<s id="1">Monsieur_de_la_Poterniére !</s>
 </p>
 </sp>
-<sp stage="entrance/costume" who="MONSIEUR DE LA POTERNIÉRE"><speaker>MONSIEUR DE LA POTERNIÉRE, avec une jambe de bois, entrant.</speaker>
+<sp who="MONSIEUR DE LA POTERNIÉRE"><speaker>MONSIEUR DE LA POTERNIÉRE</speaker><stage type="entrance/costume">, avec une jambe de bois, entrant.
+</stage>
 <p id="2">
 	<s id="1">Me voilà, me voilà. </s>
 	<s id="2">Où est-elle donc, Madame_la_Comtesse ?</s>
@@ -611,7 +617,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Commandeur, Monsieur de la Poterniére.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Commandeur, Monsieur de la Poterniére.
+</stage>
 <sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR.</speaker>
 <p id="1">
 	<s id="1">Madame_la_Comtesse, voilà Monsieur_de_la_Poterniére, dont je vous ai parlé, que j'ai l'honneur de vous présenter.</s>
@@ -622,7 +629,8 @@
 	<s id="1">Oui, Madame ; c'est moi qui...</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMANDEUR"><speaker>LE COMMANDEUR, à Monsieur de la Poterniére.</speaker>
+<sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR</speaker><stage type="toward">, à Monsieur de la Poterniére.
+</stage>
 <p id="3">
 	<s id="1">Paix donc.</s>
 </p>
@@ -637,7 +645,8 @@
 	<s id="1">Le voilà, Madame.</s>
 </p>
 </sp>
-<sp stage="get" who="LA COMTESSE"><speaker>LA COMTESSE, prenant le mémoire.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="get">, prenant le mémoire.
+</stage>
 <p id="6">
 	<s id="1">C'est bon.</s>
 </p>
@@ -701,7 +710,8 @@
 	<s id="1">C'est pour faire voir comme l'éducation militaire est préférable à tout ; moi, par exemple, qui dormais souvent à l'air chez mon père, non pas comme Monsieur_de_Turenne sur un canon ; mais dans la basse-cour sur une botte_de_paille, ou sur un sac_de_grain ; hé bien, je n'ai jamais été malade. Il y a de l'habitude à tout ; parce que...</s>
 </p>
 </sp>
-<sp stage="toward" who="LA COMTESSE"><speaker>LA COMTESSE, au Commandeur.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="toward">, au Commandeur.
+</stage>
 <p id="18">
 	<s id="1">Monsieur, est-ce là ce que vous m'aviez dit ?</s>
 </p>
@@ -870,7 +880,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur de la Poterniére, Le Commandeur.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur de la Poterniére, Le Commandeur.
+</stage>
 <sp who="MONSIEUR DE LA POTERNIÉRE"><speaker>MONSIEUR DE LA POTERNIÉRE.</speaker>
 <p id="1">
 	<s id="1">Hé bien, vous voyez que j'ai bien fait de parler moi-même.</s>

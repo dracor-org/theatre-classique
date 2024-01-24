@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1741-1750</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,22 +29,22 @@
 			<titlePart type="sub">Représentée par les Comédiens Français, le 22 Mars 1740.</titlePart>
 		</docTitle> 
 		<docDate value="1775">M. DCC. LXXV.</docDate>
-		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio='patrat'>Par Mr. DE SAINT-FOIX.</docAuthor>
+		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio="patrat">Par Mr. DE SAINT-FOIX.</docAuthor>
 		<docImprint>
-			<printer id=''>À PARIS, Chez la Veuve DUCHESNE, Libraire, rue Saint Jacques, au Temple du Goût.</printer>
+			<printer id="">À PARIS, Chez la Veuve DUCHESNE, Libraire, rue Saint Jacques, au Temple du Goût.</printer>
 		</docImprint>
 		<performance>
 			<premiere date="1740-03-22" location="Théâtre des Délassements Comiques">Représentée par les Comédiens Français, le 22 Mars 1740.</premiere>
 		</performance>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="LA FÉE SOUVERAINE" sex="2" type="H" statut='fée' age='A' stat_amour='néant'>LA FÉE SOUVERAINE</role>.</castItem>
-		<castItem><role id="ALCINDOR" sex="1" type="H" statut='aristocrate' age='J' stat_amour='Lucinde'>ALCINDOR</role>, Fils de la Fée.</castItem>
-		<castItem><role id="LUCINDE" sex="2" type="H" statut='prince' age='J' stat_amour='Alcindor'>LUCINDE</role>, jeune Princesse, aimée d'Alcindor.</castItem>
+		<castItem><role id="LA FÉE SOUVERAINE" sex="2" type="H" statut="fée" age="A" stat_amour="néant">LA FÉE SOUVERAINE</role>.</castItem>
+		<castItem><role id="ALCINDOR" sex="1" type="H" statut="aristocrate" age="J" stat_amour="Lucinde">ALCINDOR</role>, Fils de la Fée.</castItem>
+		<castItem><role id="LUCINDE" sex="2" type="H" statut="prince" age="J" stat_amour="Alcindor">LUCINDE</role>, jeune Princesse, aimée d'Alcindor.</castItem>
 	</castList>
-	<set location="Lieu féérique" country='Pays féérique' periode='Temps féériques' gps="(N/A)">La Scène est dans le Palais de la Fée.</set>
+	<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La Scène est dans le Palais de la Fée.</set>
 </front>
 <body>
-<div1 type="act" n='1'><head></head>
+<div1 type="act" n="1"><head/>
 <div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head>
 <sp who="LA FÉE"><speaker>LA FÉE.</speaker>
 <p id="1">
@@ -188,8 +188,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Fée, Lucinde.</head>
-<sp stage="entrance/dream" who="LUCINDE"><speaker>LUCINDE entre, en rêvant profondément.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Fée, Lucinde.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="entrance/dream"> entre, en rêvant profondément.
+</stage>
 <p id="1">
 	<s id="1">Ce n'est point une illusion... ce n'est point un songe ; il avait la bouche collée sur ma main.</s>
 </p>
@@ -261,7 +263,8 @@
 	<s id="2">Un sentiment intérieur qui m'a saisi à la vue de ces deux oiseaux, répugne à ce que vous me dites ; car enfin, si j'avais pu les attraper, je les aurais caressés, baisés, flattés de la main ; je les aurais mis ensemble dans mon appartement, et j'eusse été fort attentive à tous leurs besoins : au lieu qu'en vérité je n'ai jamais pensé à ma viole ou mon clavecin, ni à regarder si ma guitare avait froid ou chaud.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA FÉE"><speaker>LA FÉE, à part.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Il faut l'étonner par un nouveau trait de mon art.</s>
 </p>
@@ -291,7 +294,8 @@
 	<s id="4">Vous le savez, dites-le moi, ma Bonne ; qui peut être venu me baiser la main tandis que je dormais.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA FÉE"><speaker>LA FÉE, riant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="16">
 	<s id="1">Je soupçonne... un jeune homme dont je crois avoir aperçu les traces, et qui rode depuis ce matin autour du Palais. </s>
 	<s id="2">Il sera d'abord accouru à vous comme à un être de son espèce ; mais vos regards, en vous éveillant, l'ont mis en fuite.</s>
@@ -361,7 +365,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LUCINDE"><speaker>LUCINDE, seule.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Elle rit... de mon impatience sans doute !... </s>
 	<s id="2">Elle a raison. </s>
@@ -389,7 +394,8 @@
 <stage type="away/watch">Voulant sortir, elle aperçoit la Fée qui entre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Fée, Alcindor, Lucinde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Fée, Alcindor, Lucinde.
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -428,7 +434,8 @@
 	<s id="6">Oui...</s>
 </p>
 </sp>
-<sp stage="imitate" who=""><speaker>LA FÉE, la contrefaisant.</speaker>
+<sp who=""><speaker>LA FÉE</speaker><stage type="imitate">, la contrefaisant.
+</stage>
 <p id="7">
 	<s id="">Ah !... </s>
 	<s id="2">Ma Bonne !... </s>
@@ -509,8 +516,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lucinde, Alcindor.</head>
-<sp stage="watch/exit" who="LUCINDE"><speaker>LUCINDE, regardant sortir la Fée.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lucinde, Alcindor.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="watch/exit">, regardant sortir la Fée.
+</stage>
 <p id="1">
 	<s id="1">Elle sort ! </s>
 	<s id="2">Tant mieux. </s>
@@ -573,19 +582,23 @@
 </p>
 <stage type="stand">Elle se lève.</stage>
 </sp>
-<sp stage="apart/stand/away/location" who="ALCINDOR"><speaker>ALCINDOR dit à part, en se levant aussi, et allant à l'autre bord du théâtre.</speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="apart/stand/away/location"> dit à part, en se levant aussi, et allant à l'autre bord du théâtre.
+</stage>
 <p id="8">
 	<s id="">Je n'y puis plus tenir ; cette situation est trop critique pour un amant.  </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. LA FEE, ALCINDOR, LUCINDE.</head>
-<sp stage="entrance/aparte" who="LA FÉE"><speaker>LA FÉE, à part, en entrant.</speaker>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> LA FEE, ALCINDOR, LUCINDE.
+</stage>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="entrance/aparte">, à part, en entrant.
+</stage>
 <p id="1">
 	<s id="1">Je reviens ; j'ai peur que mon étourdi n'ait oublié qu'il doit être sourd, muet et insensible.</s>
 </p>
 </sp>
-<sp stage="run/closer" who="LUCINDE"><speaker>LUCINDE, courant à la Fée.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="run/closer">, courant à la Fée.
+</stage>
 <p id="2">
 	<s id="1">Ma Bonne, accordez-moi une grâce.</s>
 </p>
@@ -627,7 +640,8 @@
 	<s id="1">Faut-il encore vous répéter que ces êtres qui vous amusent, peuvent bien, par la liaison de leurs ressorts, imiter quelques-unes de nos actions, mais que ces ressorts, de quelque façon qu'on les arrange, ne peuvent jamais produire une pensée ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LUCINDE"><speaker>LUCINDE, d'un ton piqué.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="stress">, d'un ton piqué.
+</stage>
 <p id="10">
 	<s id="1">Je vous entends, Madame, je vous entends. </s>
 	<s id="2">Je pénètre fort bien dans vos idées.</s>
@@ -638,7 +652,8 @@
 	<s id="1">Et qu'y voyez-vous ?</s>
 </p>
 </sp>
-<sp stage="nervous" who="LUCINDE"><speaker>LUCINDE, avec beaucoup de vivacité.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="nervous">, avec beaucoup de vivacité.
+</stage>
 <p id="12">
 	<s id="1">J'y vois, Madame, que vous êtes très savante ; que vous voudriez que je devinsse une Philosophe comme vous, pour avoir toujours quelqu'un avec qui raisonner, et que vous ne jugez pas à propos d'animer Charmant, parce que vous croyez que si nous pouvions nous entretenir ensemble, nous serions uniquement occupés du plaisir de nous voir et de nous aimer, et nous nous soucierions fort peu de nous rendre dignes de vos sublimes entretiens. </s>
 	<s id="2">Eh bien ! </s>
@@ -647,8 +662,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Fée. Alcindor.</head>
-<sp stage="watch" who="ALCINDOR"><speaker>ALCINDOR, regardant sortir Lucinde.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Fée. Alcindor.
+</stage>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="watch">, regardant sortir Lucinde.
+</stage>
 <p id="1">
 	<s id="1">Adieu les globes, les sphères et les mappe-mondes. </s>
 	<s id="2">Cet emportement n'est-il pas charmant?</s>
@@ -733,7 +750,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Lucinde, La Fée, Alcindor.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Lucinde, La Fée, Alcindor.
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 <p id="1">
 	<s id="1">Je viens de briser le Zodiaque et les Pôles, et de jeter par les fenêtres le globe de l'Univers.</s>
@@ -765,7 +783,8 @@
 	<s id="1">Il fera plus : il sifflera, fredonnera et chantera même certains airs et des paroles...</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="LUCINDE"><speaker>LUCINDE, avec transport.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="enthousiasm">, avec transport.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Faites qu'il chante, je vous prie.</s>
@@ -783,7 +802,8 @@
 	<s id="3">Faites-le donc chanter.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA FÉE"><speaker>LA FÉE, bas à Alcindor.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="low/toward">, bas à Alcindor.
+</stage>
 <p id="10">
 	<s id="1">Vous voyez le rôle que vous avez à jouer.</s>
 </p>
@@ -794,7 +814,8 @@
 <stage type="sing">Elle chante.</stage>
 	<l id="1">Tout ce qui respire...</l>
 </sp>
-<sp stage="embarrassed" who="ALCINDOR"><speaker>ALCINDOR paraît ébranlé, ému, et comme un homme qui se réveille. </speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="embarrassed"> paraît ébranlé, ému, et comme un homme qui se réveille. 
+</stage>
 <stage type="sing">Il chante.</stage>
 	<l id="2">Tout ce qui respire...</l>
 </sp>
@@ -804,7 +825,8 @@
 	<s id="2">Ma Bonne !</s>
 </p>
 </sp>
-<sp stage="sing" who="ALCINDOR"><speaker>ALCINDOR, chante.</speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="3">Reconnaît l'empire</l>
 	<l id="4">Du charmant Amour.</l>
 </sp>
@@ -813,7 +835,8 @@
 	<s id="1">Le son de sa voix pénètre jusqu'au coeur !</s>
 </p>
 </sp>
-<sp stage="sing" who="ALCINDOR"><speaker>ALCINDOR, chante.</speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="5">Je perds le souvenir d'un Oracle odieux...</l>
 </sp>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
@@ -827,7 +850,8 @@
 	<s id="1">Avez-vous déjà oublié que l'oiseau Petit-Maître répète au hasard, sans sentiment et sans raison, ce qu'il a entendu chanter ?</s>
 </p>
 </sp>
-<sp stage="nervous" who="LUCINDE"><speaker>LUCINDE, d'un ton piqué :</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="nervous">, d'un ton piqué :
+</stage>
 <p id="16">
 	<s id="1">Oui, Madame, je l'avais presque oublié : mais vous auriez été bien fâchée de ne m'en pas faire ressouvenir. </s>
 	<s id="2">Eh bien ?</s>
@@ -869,7 +893,8 @@
 	<s id="3">N'est-il pas cruel qu'il ne puisse connaître combien je l'aime ?</s>
 </p>
 </sp>
-<sp stage="low/toward/sign/pull" who="ALCINDOR"><speaker>ALCINDOR bas à la Fée qui lui ferme la bouche, lui fait des signes, et le retient pendant cette scène.</speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="low/toward/sign/pull"> bas à la Fée qui lui ferme la bouche, lui fait des signes, et le retient pendant cette scène.
+</stage>
 <p id="23">
 	<s id="1">L'Oracle est accompli, je veux répondre.</s>
 </p>
@@ -925,7 +950,8 @@
 	<s id="1">Je vous aime.</s>
 </p>
 </sp>
-<sp stage="push/stop/run/kneel" who="ALCINDOR"><speaker>ALCINDOR, se débarrassant de la Fée qui veut encore l'arrêter, et se jetant aux genoux de Lucinde.</speaker>
+<sp who="ALCINDOR"><speaker>ALCINDOR</speaker><stage type="push/stop/run/kneel">, se débarrassant de la Fée qui veut encore l'arrêter, et se jetant aux genoux de Lucinde.
+</stage>
 <p id="32">
 	<s id="1">Oui, je vous aime, je vous adore. </s>
 	<s id="2">Il n'est point de termes qui puissent exprimer mon amour. </s>

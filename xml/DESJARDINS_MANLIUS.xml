@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,18 +29,18 @@
 			<titlePart type="main">MANLIUS</titlePart>
 			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1662'>M. DC. LXII. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docDate value="1662">M. DC. LXII. AVEC PRIVILÈGE DU ROI.</docDate>
 		<docAuthor id="DESJARDINS, Mademoiselle">Par MADEMOISELLE DES JARDINS.</docAuthor>
 		<docImprint>
-			<privilege date ='1662-09-28'><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
+			<privilege date="1662-09-28"><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
 			<p>Par grâce et privilège du Roi, donné à Paris le 28. Septembre 1662, signé GUYTONNEAU. Il est permis à Claude Barbin, Marchand Libraire à Paris, de faire imprimer une pièce de Théâtre intitulée Manlius Torquatus, pendant l'espace de sept années, et défenses sont faites à tous autres de l'imprimer, sur peine1 de deux mille livres d'amende, et de tous dépens dommages et intérêts, comme il est porté plus amplement par lesdites Lettres. Et ledit Barbin a fait part du présent Privilège à Gabriel Quinet, et Gabriel Quinet, à Guillaume de Luyne, pour en jouir, suivant l'accord fait entre eux.</p>
 			<p>Registré sur le Livre de la Communauté le dixiesme Octobre 1662, signé, DUBRAY, Syndic.</p>
 		</privilege>
-		<acheveImprime id='1662-10-27'>Achevé d'imprimer pour la premiere fois Le 27. Octobre 1662. Les Exemplaires ont été fournis.</acheveImprime>
+		<acheveImprime id="1662-10-27">Achevé d'imprimer pour la premiere fois Le 27. Octobre 1662. Les Exemplaires ont été fournis.</acheveImprime>
 		<printer id="BARBIN">À PARIS, Chez CLAUDE BARBIN, au Palais, sur le degré devant la Sainte-Chapelle au signe de la Croix.</printer>
 	</docImprint>
 		<performance>
-			<premiere date='1640' location='(inconnue)'>Représenté pour la première fois en 1640.</premiere>
+			<premiere date="1640" location="(inconnue)">Représenté pour la première fois en 1640.</premiere>
 		</performance>
 	<div type=""><adresse>À MADEMOISELLE</adresse>
 		<head>MADEMOISELLE,</head>
@@ -62,19 +62,20 @@
 		<p>DESJARDINS.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="TORQUATUS" sex="1" type="H" statut="consul" age="A" stat_amour='néant'>TORQUATUS</role>, Consul Romain.</castItem>
-		<castItem><role id="MANLIUS" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>MANLIUS</role>, Fils du Consul.</castItem>
-		<castItem><role id="CAMILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>CAMILLE</role>, Veuve de Décius.</castItem>
-		<castItem><role id="OMPHALE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>OMPHALE</role>, Princesse d'Épire captive des Romains.</castItem>
-		<castItem><role id="JUNIUS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>JUNIUS</role>, Ami de Torquatus.</castItem>
-		<castItem><role id="PHÉNICE" sex="2" type="H" statut="suivante" age="A" stat_amour='néant'>PHÉNICE</role>, Suivante d'Omphale.</castItem>
-		<castItem><role id="PISON" sex="1" type="H" statut="licteur" age="A" stat_amour='néant'>PISON</role>, Licteur.</castItem>
+		<castItem><role id="TORQUATUS" sex="1" type="H" statut="consul" age="A" stat_amour="néant">TORQUATUS</role>, Consul Romain.</castItem>
+		<castItem><role id="MANLIUS" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">MANLIUS</role>, Fils du Consul.</castItem>
+		<castItem><role id="CAMILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">CAMILLE</role>, Veuve de Décius.</castItem>
+		<castItem><role id="OMPHALE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">OMPHALE</role>, Princesse d'Épire captive des Romains.</castItem>
+		<castItem><role id="JUNIUS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">JUNIUS</role>, Ami de Torquatus.</castItem>
+		<castItem><role id="PHÉNICE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">PHÉNICE</role>, Suivante d'Omphale.</castItem>
+		<castItem><role id="PISON" sex="1" type="H" statut="licteur" age="A" stat_amour="néant">PISON</role>, Licteur.</castItem>
 	</castList>
 	<set location="Rome" country="Italie" periode="IVème avant JC" gps="41.902783, 12.496365">La scène est au camp des Romains devant les tentes du Consul.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Camille, Pison.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Camille, Pison.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="1">Puis-je croire, Pison, cette étrange nouvelle ?</l>
 </sp>
@@ -102,7 +103,8 @@
 	<l id="20">Mais je vois Torquatus, laisse-nous seuls ici. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Torquatus, Camille.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Torquatus, Camille.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="21">Quoi, si matin, Madame, être hors de la tente ?</l>
 	<l id="22">Qui vous peut aujourd'hui rendre si diligente ?</l>
@@ -123,7 +125,8 @@
 	<l id="35">Et qu'Omphale a vengé tous les malheurs des siens, </l>
 	<l id="36">En mettant ses vainqueurs dans ses propres liens ?</l>
 </sp>
-<sp stage="low" who="TORQUATUS"><speaker>TORQUATUS, bas.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="37">Dieux, m'aurait-on trahi ? Que dites-vous ? Madame.</l>
 </sp>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
@@ -131,7 +134,8 @@
 	<l id="39">Veut réparer les maux que l'Épire a soufferts,</l>
 	<l id="40">Et que d'une captive il a reçu des fers. </l>
 </sp>
-<sp stage="low" who="TORQUATUS"><speaker>TORQUATUS, bas.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="41" syll="6" part="i">Quoi ? Mon fils, mon rival ?</l>
 </sp>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
@@ -145,7 +149,8 @@
 	<l id="48">Quand il se donne entier au salut de l'État,</l>
 	<l id="49">C'est porter un peu loin les effets de son zèle.</l>
 </sp>
-<sp stage="low" who="TORQUATUS"><speaker>TORQUATUS, bas.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="50">Feignons de ne pas croire une telle nouvelle. </l>
 	<l id="51">Connaissant Manlius, je ne saurais penser </l>
 	<l id="52">Qu'aux lois d'une captive il daigne s'abaisser.</l>
@@ -223,7 +228,8 @@
 	<l id="113" syll="6" part="i">La voici : je vous quitte.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Torquatus, Omphale, [Phénice].</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Torquatus, Omphale, [Phénice].
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="113" syll="6" part="f">Hé bien, belle inhumaine,</l>
 	<l id="114">Ne vous rendrez vous point à la grandeur Romaine ?</l>
@@ -332,7 +338,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Omphale, Phénice.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Omphale, Phénice.
+</stage>
 <sp who="OMPHALE"><speaker>OMPHALE.</speaker>
 	<l id="205">Voila pour me charmer un aimable langage, </l>
 	<l id="206">C'est ainsi qu'on fléchit un généreux courage,</l>
@@ -385,7 +392,8 @@
 	<l id="243" syll="6" part="f">En croirai-je mes yeux ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Omphale, Manlius, Phenice.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Omphale, Manlius, Phenice.
+</stage>
 <sp who="MANLIUS"><speaker>MANLIUS.</speaker>
 	<l id="244">Croyez-en votre coeur, s'il vous en parle mieux,</l>
 	<l id="245">Quel sera mon bonheur, adorable Princesse, </l>
@@ -487,7 +495,8 @@
 	<l id="328">Un amant fortuné n'a rien à redouter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Omphale, Phenice.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Omphale, Phénice.
+</stage>
 <sp who="OMPHALE"><speaker>OMPHALE.</speaker>
 	<l id="329">Ha ! Que tu connais mal le destin qui t'accable,</l>
 	<l id="330">Peut-être ton amour va te rendre coupable, </l>
@@ -516,7 +525,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="TORQUATUS"><speaker>TORQUATUS, seul.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="351">Vertu, Romains, Sénat, Lois, devoir trop sévère,</l>
 	<l id="352">Qui voulez arracher Manlius à son père ! </l>
 	<l id="353">Dure nécessité de voir couler un sang,</l>
@@ -558,7 +568,8 @@
 	<l id="389">Cédez à mon amour, cédez à mon devoir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Torquatus, Junius.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Torquatus, Junius.
+</stage>
 <sp who="JUNIUS"><speaker>JUNIUS.</speaker>
 	<l id="390">Seigneur, c'est Manlius qui demande à vous voir : </l>
 </sp>
@@ -566,7 +577,8 @@
 	<l id="391">Qu'il approche, ô mon coeur garde-toi de t'abattre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Torquatus, Manlius, Junius.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Torquatus, Manlius, Junius.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="392">Venez-vous demander un ordre pour combattre,</l>
 	<l id="393">Ou si vous avez crû que parmi les Romains,</l>
@@ -626,7 +638,8 @@
 	<l id="435" syll="8" part="i">Ne me répliquez plus : sortez. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Torquatus, Junius.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Torquatus, Junius.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="435" syll="'" part="f">Quelle arrogance ! </l>
 	<l id="436">À peine obtiendra-t-il de son obéissance,</l>
@@ -753,7 +766,8 @@
 	<l id="535" syll="3" part="i">Je vous suis. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Torquatus, Omphale, Phénice.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Torquatus, Omphale, Phénice.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="535" syll="9" part="f">Quel sujet dans ce lieu vous amène ?</l>
 	<l id="536">Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
@@ -817,7 +831,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Camille, Omphale, Phénice.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Camille, Omphale, Phénice.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="576" syll="6" part="i">Je vous cherchais, Omphale :</l>
 </sp>
@@ -925,7 +940,8 @@
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="CAMILLE"><speaker>CAMILLE, seule.</speaker>
+<sp who="CAMILLE"><speaker>CAMILLE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="643">Qu'ai-je entendu ? Grands Dieux ! Et que me dit Omphale ? </l>
 	<l id="644">Croire que Torquatus à ce point se ravale ?</l>
 	<l id="645">Torquatus, un vainqueur, un Consul, un Romain,</l>
@@ -978,7 +994,8 @@
 	<l id="692">Tâchons de l'irriter : Le voici qui s'avance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Camille, Manlius.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Camille, Manlius.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="693">J'ai su jeune Héros qu'un outrageant mépris, </l>
 	<l id="694">D'une grande victoire avait été le prix ;</l>
@@ -1137,7 +1154,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="MANLIUS"><speaker>MANLIUS, seul.</speaker>
+<sp who="MANLIUS"><speaker>MANLIUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="819">Ô Sort vraiment cruel ! Ô funeste aventure ! </l>
 	<l id="820">Ô mortel accident ! Ô Triste conjoncture ! </l>
 	<l id="821">Est-il rien ici-bas à ton malheur égal,</l>
@@ -1179,7 +1197,8 @@
 	<l id="857">Ranime en la voyant ton espoir abattu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Omphale, Manlius, Phénice.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Omphale, Manlius, Phénice.
+</stage>
 <sp who="MANLIUS"><speaker>MANLIUS.</speaker>
 	<l id="858">Ah, Madame, venez soutenir ma Vertu </l>
 	<l id="859">Accablé par le sort, par l'amour, par moi-même,</l>
@@ -1330,7 +1349,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="MANLIUS"><speaker>MANLIUS, seul.</speaker>
+<sp who="MANLIUS"><speaker>MANLIUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="975">Aime et te sauve, hélas ! Dans un sort si contraire,</l>
 	<l id="976">Princesse que me sert cet ordre salutaire ?</l>
 	<l id="977">Comment puis-je accorder dans ce funeste jour,</l>
@@ -1344,7 +1364,8 @@
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="TORQUATUS"><speaker>TORQUATUS, seul.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="983">Tu mourras, tu mourras, ô fils trop téméraire </l>
 	<l id="984">Dont les feux insensés ont osé me déplaire.</l>
 	<l id="985">Le sort en est jeté ; rival audacieux</l>
@@ -1398,7 +1419,8 @@
 	<l id="1033" syll="4" part="i">Holà, quelqu'un. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Torquatus, Camille.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Torquatus, Camille.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="1033" syll="2" part="m">Seigneur.</l>
 </sp>
@@ -1503,7 +1525,8 @@
 	<l id="1120" syll="6" part="i">Je prenne d'intérêt...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Torquatus, Camille, Junius.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Torquatus, Camille, Junius.
+</stage>
 <sp who="JUNIUS"><speaker>JUNIUS.</speaker>
 	<l id="1120" syll="6" part="f">Manlius a des gardes ;</l>
 	<l id="1121">Par votre ordre, Seigneur, je l'ai fait arrêter :</l>
@@ -1537,7 +1560,8 @@
 	<l id="1141">Ce que c'est que Camille : Adieu, penses y bien.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Torquatus, Junius.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Torquatus, Junius.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="1142">Dieux ! L'horrible tourment qu'un pareil entretien ! </l>
 	<l id="1143">Sa raison est sujette à certaines alarmes, </l>
@@ -1689,7 +1713,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="TORQUATUS"><speaker>TORQUATUS, seul.</speaker>
+<sp who="TORQUATUS"><speaker>TORQUATUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1279">Hélas ! Que je suis loin de ce bonheur suprême ! </l>
 	<l id="1280">Et que mon coeur est peu d'accord avec lui-même,</l>
 	<l id="1281">Je vois tous les malheurs dont je suis menacé,</l>
@@ -1702,7 +1727,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Torquatus, Omphale, Phénice.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Torquatus, Omphale, Phénice.
+</stage>
 <sp who="OMPHALE"><speaker>OMPHALE.</speaker>
 	<l id="1287">Quoi donc, Seigneur votre âme est elle inexorable ?</l>
 	<l id="1288">Faut-il laisser mourir cet illustre coupable ? </l>
@@ -1776,7 +1802,8 @@
 	<l id="1341" syll="4" part="i">Holà, Gardes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Torquatus, Omphale, Phénice, Pison.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Torquatus, Omphale, Phénice, Pison.
+</stage>
 <sp who="PISON"><speaker>PISON.</speaker>
 	<l id="1341" syll="2" part="m">Seigneur.</l>
 </sp>
@@ -1873,7 +1900,8 @@
 	<l id="1386">Tâchons sans être vu, d'écouter leurs discours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Omphale, Manlius, Phénice, [TORQUATUS, PISON].</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Omphale, Manlius, Phénice, [TORQUATUS, PISON].
+</stage>
 <sp who="OMPHALE"><speaker>OMPHALE.</speaker>
 	<l id="1387">Que de trouble je sens ! Ah ! Seigneur.</l>
 </sp>
@@ -2028,7 +2056,8 @@
 	<l id="1497">Quand un peu de raison viendra vous secourir...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Torquatus, Camille, Omphale, Phénice.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Torquatus, Camille, Omphale, Phénice.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="1498">Ha, Consul ! Ah, Cruel ! Ton fils va donc périr ! </l>
 	<l id="1499">Ta rage a triomphé, on le traîne au supplice :</l>
@@ -2038,7 +2067,8 @@
 	<l id="1503">Ton âme après ce coup n'est donc point alarmée ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Torquatus, Camille, Omphale, Phénice, Junius.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Torquatus, Camille, Omphale, Phénice, Junius.
+</stage>
 <sp who="JUNIUS"><speaker>JUNIUS.</speaker>
 	<l id="1504">Seigneur, il serait bon de veiller sur l'armée ;</l>
 	<l id="1505">Tout penche à la révolte, et je ne réponds pas,</l>
@@ -2048,11 +2078,13 @@
 	<l id="1509">Il s'élève par tout un murmure confus.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Torquatus, Camille, Omphale, Phénice, Junius, Pison.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Torquatus, Camille, Omphale, Phénice, Junius, Pison.
+</stage>
 <sp who="TORQUATUS"><speaker>TORQUATUS.</speaker>
 	<l id="1510" syll="6" part="i">Voici Pison. Mon fils ?</l>
 </sp>
-<sp stage="low" who="OMPHALE"><speaker>OMPHALE, bas.</speaker>
+<sp who="OMPHALE"><speaker>OMPHALE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1510" syll="6" part="f">Ha ! Ne balançons plus ;</l>
 	<l id="1511">Voici de quoi me joindre à l'objet de ma flamme,</l>
 </sp>
@@ -2113,7 +2145,8 @@
 	<l id="1551" syll="4" part="i">Qu'on me suive.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Torquatus, Camille, Omphale, Manlius, Phénice, Junius, Pison.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Torquatus, Camille, Omphale, Manlius, Phénice, Junius, Pison.
+</stage>
 <sp who="MANLIUS"><speaker>MANLIUS.</speaker>
 	<l id="1551" syll="2" part="m">Seigneur.....</l>
 </sp>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>OSTORIUS, TRAGÉDIE</title>
-			<author born='1620' born_location='' death='1680' death_location='' academie=''>PURE, Michel Abbé de</author>
+			<author born="1620" born_location="" death="1680" death_location="" academie="">PURE, Michel Abbé de</author>
 		</titleStmt>
 		<publicationStmt>
 			<editor>Texte établie par Ernest Fièvre à partir du document numérisé de GALLICA.</editor>
@@ -28,13 +28,13 @@
 			<titlePart type="main">OSTORIUS</titlePart>
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1659'>M. DC. LIX.</docDate>
-		<docAuthor id="PURE, Michel Abbé de" bio='pure'>PAR L'ABBÉ DE PURE.</docAuthor>
+		<docDate value="1659">M. DC. LIX.</docDate>
+		<docAuthor id="PURE, Michel Abbé de" bio="pure">PAR L'ABBÉ DE PURE.</docAuthor>
 		<docImprint>
-			<printer id='LUYNE'>À PARIS,  Chez GUILLAUME DE LUYNE,  au Palais, en la Galerie des Merciers, sous la montée de la Cour des Aides, à la Justice.</printer>
+			<printer id="LUYNE">À PARIS,  Chez GUILLAUME DE LUYNE,  au Palais, en la Galerie des Merciers, sous la montée de la Cour des Aides, à la Justice.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1658' location="Théâtre de l'Hotel de Bourgogne"></premiere>
+			<premiere date="1658" location="Théâtre de l'Hotel de Bourgogne"/>
 		</performance>
 		<div type="dedicace"><adresse>À SON ÉMINENCE</adresse>
 			<head>MONSEIGNEUR,</head>
@@ -49,20 +49,21 @@
 			<p>Ne Romæ quidem ignobile Caractaci nomen erat et Cæsar dum suum decus extollit, addidit gloriam victo. Tac. Ann. 12. </p>
 		</div>
   <castList><head>ACTEURS</head>
-		<castItem><role id="OSTORIUS" sex="1" type="H" statut='sénateur' age='A' stat_amour='Sarcide'>OSTORIUS</role>, Sénateur Romain et amoureux de Sarcide.</castItem>
-		<castItem><role id="DIDIUS" sex="1" type="H" statut='chevalier' age='A' stat_amour='néant'>DIDIUS</role>, Chevalier Romain confident d'Ostorius. </castItem>
-		<castItem><role id="CARACTACUS" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>CARACTACUS</role>, Roi des Silures dans la grande Bretagne. </castItem>
-		<castItem><role id="LE PRINCE DE SILURE" sex="1" type="H" statut='prince' age='J' stat_amour='Sarcide'>LE PRINCE DE SILURE</role> allié du Roi, et Amant de Sarcide. </castItem>
-		<castItem><role id="CARTIDE" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>CARTIDE</role>, Femme de Caractacus, et mère de Sarcide. </castItem>
-		<castItem><role id="SARCIDE" sex="2" type="H" statut='prince' age='J' stat_amour='Le Prince'>SARCIDE</role>, fille de Caractacus, et Amante du Prince. </castItem>
-		<castItem><role id="LÉONICE" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>LÉONICE</role>, confidente de Sarcide. </castItem>
+		<castItem><role id="OSTORIUS" sex="1" type="H" statut="sénateur" age="A" stat_amour="Sarcide">OSTORIUS</role>, Sénateur Romain et amoureux de Sarcide.</castItem>
+		<castItem><role id="DIDIUS" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">DIDIUS</role>, Chevalier Romain confident d'Ostorius. </castItem>
+		<castItem><role id="CARACTACUS" sex="1" type="H" statut="roi" age="A" stat_amour="néant">CARACTACUS</role>, Roi des Silures dans la grande Bretagne. </castItem>
+		<castItem><role id="LE PRINCE DE SILURE" sex="1" type="H" statut="prince" age="J" stat_amour="Sarcide">LE PRINCE DE SILURE</role> allié du Roi, et Amant de Sarcide. </castItem>
+		<castItem><role id="CARTIDE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">CARTIDE</role>, Femme de Caractacus, et mère de Sarcide. </castItem>
+		<castItem><role id="SARCIDE" sex="2" type="H" statut="prince" age="J" stat_amour="Le Prince">SARCIDE</role>, fille de Caractacus, et Amante du Prince. </castItem>
+		<castItem><role id="LÉONICE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">LÉONICE</role>, confidente de Sarcide. </castItem>
 	</castList>
 	<set location="Rome" country="Italie" periode="Ier" gps="41.902783, 12.496365">La Scène est à Rome dans le Jardin d'Ostorius.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="SARCIDE"><speaker>SARCIDE, seule.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1">Partage rigoureux, de mon âme enflammée </l>
 	<l id="2">Qui soupire et qui craint d'aimer et d'être aimée ; </l>
 	<l id="3">Cause de mon désordre, effet de mon devoir, </l>
@@ -113,7 +114,8 @@
 	<l id="48" syll="8" part="i">Mais Léonice vient, cessons. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Sarcide, Léonice.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sarcide, Léonice.
+</stage>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
 	<l id="48" syll="4" part="f">Que fait le Roi ? </l>
 </sp>
@@ -128,7 +130,8 @@
 <sp who="LÉONICE"><speaker>LÉONICE.</speaker>
 	<l id="52">Si je l'ai bien compris vous en êtes l'objet. </l>
 </sp>
-<sp stage="low" who="SARCIDE"><speaker>SARCIDE, bas.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="53">Aurait-on aperçu les troubles de mon âme </l>
 	<l id="54" syll="6" part="i">Malheureuse ! Hé pourquoi ? </l>
 </sp>
@@ -246,7 +249,8 @@
 	<l id="120">Arrête encore un peu : car je te veux parler. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Cartide, Sarcide, Léonice.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Cartide, Sarcide, Léonice.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="121">Ma Fille il faut t'armer de force et de courage, </l>
 	<l id="122">Il faut que ta vertu de nos fers nous dégage, </l>
@@ -303,7 +307,8 @@
 	<l id="143">Il faut trahir tes sens, et dégager ton coeur, </l>
 	<l id="144">En faire Ostorius le maître, et le Vainqueur. </l>
 </sp>
-<sp stage="low" who="SARCIDE"><speaker>SARCIDE, bas.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="145" syll="3" part="i">Léonice ? </l>
 </sp>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
@@ -375,7 +380,8 @@
 	<l id="192" syll="3" part="i">Il m'attend. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Sarcide, Léonice.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Sarcide, Léonice.
+</stage>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
 	<l id="192" syll="9" part="f">Vois-tu bien jusqu'où pour mon malheur... </l>
 </sp>
@@ -420,7 +426,8 @@
 	<l id="219" syll="6" part="i">Allons, retirons-nous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ostorius, Didius.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ostorius, Didius.
+</stage>
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="219" syll="6" part="f">Quoi toujours en ces lieux ? </l>
 	<l id="220">Ainsi vous exposer aux bruits des envieux ? </l>
@@ -601,7 +608,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n=""><head>SCÈNE I. Le Prince, Léonice.</head>
+<div2 type="scene" n=""><head>SCÈNE I.</head><stage> Le Prince, Léonice.
+</stage>
 <sp who="LÉONICE"><speaker>LÉONICE.</speaker>
 	<l id="353">Je craignais comme vous que l'éclat d'un grand homme, </l>
 	<l id="354">La douceur de l'espoir, ou le séjour de Rome </l>
@@ -692,7 +700,8 @@
 	<l id="414">Si cet ordre retient le progrès de sa flamme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léonice, Le Prince, Sarcide.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léonice, Le Prince, Sarcide.
+</stage>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
 	<l id="415">Notre disgrâce au moins n'aura pas le pouvoir </l>
 	<l id="416">Prince de me ravir le moyen de vous voir. </l>
@@ -704,10 +713,12 @@
 	<l id="420">D'une faveur si grande, et du bien de vous voir. </l>
 	<l id="421">Je ne me flattais pas d'un si doux avantage. </l>
 </sp>
-<sp stage="low" who="SARCIDE"><speaker>SARCIDE, bas.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="422">Mais mon coeur vois-tu bien jusqu'où l'amour t'engage. </l>
 </sp>
-<sp stage="low" who="LE PRINCE"><speaker>LE PRINCE, bas.</speaker>
+<sp who="LE PRINCE"><speaker>LE PRINCE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="423">L'excès de mon bonheur confond mes propres voeux. </l>
 </sp>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
@@ -812,7 +823,8 @@
 	<l id="492">Ce n'est pas pour longtemps que j'y puis obéir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Sarcide, Léonice.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Sarcide, Léonice.
+</stage>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
 	<l id="493" syll="6" part="i">Quoi Léonice il part ? </l>
 </sp>
@@ -935,7 +947,8 @@
 	<l id="575" syll="10" part="i">Mais Didius approche éloignons-nous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Caractacus, Didius.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Caractacus, Didius.
+</stage>
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="575" syll="2" part="f">Enfin, </l>
 	<l id="576">Grâce à votre vainqueur, vos maux sont à leur fin. </l>
@@ -1057,7 +1070,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>[SCÈNE V].</head>
-<sp stage="alone" who="DIDIUS"><speaker>DIDIUS, seul.</speaker>
+<sp who="DIDIUS"><speaker>DIDIUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="650">Ô Dieux vit-on jamais affaire à tant de faces. </l>
 	<l id="651">Tout semble nous flatter, et rire à nos desseins. </l>
 	<l id="652">D'un vainqueur amoureux, respecter les destins, </l>
@@ -1073,7 +1087,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Caractacus, Cartide.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Caractacus, Cartide.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="661">Déférez un peu moins à votre grand courage. </l>
 </sp>
@@ -1201,7 +1216,8 @@
 	<l id="741" syll="6" part="i">Mais il vient à propos. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Caractacus, Cartide, Le Prince.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Caractacus, Cartide, Le Prince.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="741" syll="4" part="f">Évitons-le. </l>
 </sp>
@@ -1257,7 +1273,8 @@
 	<l id="768">Je le veux ignorer, et pour vous, et pour moi. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Caractacus, Cartide.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Caractacus, Cartide.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="769">Vous balancez encore après cette insolence. </l>
 	<l id="770">Vous voudriez le servir encor qu'il vous offense. </l>
@@ -1306,7 +1323,8 @@
 	<l id="794">Au moins qu'à Didius je cache ma faiblesse. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Caractacus, Cartide, Didius.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Caractacus, Cartide, Didius.
+</stage>
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="795">Je viens encore à vous pour vous faire savoir. </l>
 </sp>
@@ -1353,7 +1371,8 @@
 	<l id="820" syll="9" part="f">Didius porte ailleurs tes conseils. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Cartide, Didius.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Cartide, Didius.
+</stage>
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="821">Je vous plains, et le plains d'avoir l'âme si forte, </l>
 	<l id="822">Et de craindre si peu les Ordres que je porte. </l>
@@ -1381,7 +1400,8 @@
 	<l id="834">Tu pourras mieux tout seul de mes désirs l'instruire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Ostorius, Didius.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Ostorius, Didius.
+</stage>
 <sp who="OSTORIUS"><speaker>OSTORIUS.</speaker>
 	<l id="835" syll="6" part="i">Sarcide est-elle, ici ? </l>
 </sp>
@@ -1423,7 +1443,8 @@
 	<l id="856">Un témoin en amour, ne fait qu'embarrasser. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ostorius, Sarcide, Léonice.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ostorius, Sarcide, Léonice.
+</stage>
 <sp who="SARCIDE"><speaker>SARCIDE.</speaker>
 	<l id="857">Que vous promettez-vous des peines de Sarcide, </l>
 	<l id="858">Peut-être croyez-vous que la mort l'intimide. </l>
@@ -1552,7 +1573,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>[SCÈNE VIII].</head>
-<sp stage="alone" who="OSTORIUS"><speaker>OSTORIUS, seul.</speaker>
+<sp who="OSTORIUS"><speaker>OSTORIUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="954">Beauté trop rigoureuse ! Ha plutôt que j'expire. </l>
 	<l id="955">Dures extrémités où je me vois réduit, </l>
 	<l id="956">Mon amour sans espoir, ou mon espoir sans fruit. </l>
@@ -1584,7 +1606,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Sarcide, Léonice.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Sarcide, Léonice.
+</stage>
 <sp who="LÉONICE"><speaker>LÉONICE.</speaker>
 	<l id="981">Je tremble pour ce Prince, et souffrez que ma crainte, </l>
 	<l id="982">Ose s'émanciper, et vous faire ma plainte. </l>
@@ -1663,7 +1686,8 @@
 	<l id="1010" syll="6" part="f">Le Ciel nous le renvoie. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Sarcide, Léonice, Le Prince.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sarcide, Léonice, Le Prince.
+</stage>
 <sp who="LE PRINCE"><speaker>LE PRINCE.</speaker>
 	<l id="1011">J'ose en ces lieux Madame encor me présenter, </l>
 	<l id="1012">Paraître devant vous qu'il me faut éviter. </l>
@@ -1806,17 +1830,21 @@
 	<l id="1104" syll="6" part="i">Ha c'est trop je m'en vais. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ostorius, Le Prince.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ostorius, Le Prince.
+</stage>
 <sp who="OSTORIUS"><speaker>OSTORIUS.</speaker>
 	<l id="1104" syll="6" part="f">Vous faisiez votre cour ? </l>
 </sp>
-<sp stage="low" who="LE PRINCE"><speaker>LE PRINCE, bas.</speaker>
+<sp who="LE PRINCE"><speaker>LE PRINCE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1105">Tout beau mon coeur dispense un peu ta haine. </l>
 </sp>
-<sp stage="low" who="OSTORIUS"><speaker>OSTORIUS, bas.</speaker>
+<sp who="OSTORIUS"><speaker>OSTORIUS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1106">Hélas si tu savais l'ordre de l'inhumaine. </l>
 </sp>
-<sp stage="low" who="LE PRINCE"><speaker>LE PRINCE, bas.</speaker>
+<sp who="LE PRINCE"><speaker>LE PRINCE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1107">S'il savait son bonheur, pourrait-il soupirer. </l>
 </sp>
 <sp who="OSTORIUS"><speaker>OSTORIUS.</speaker>
@@ -1895,7 +1923,8 @@
 	<l id="1153" syll="6" part="i">Hé bien... Mais le Roi vient. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Prince, Ostorius, Caractacus.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Prince, Ostorius, Caractacus.
+</stage>
 <sp who="LE PRINCE"><speaker>LE PRINCE.</speaker>
 	<l id="1153" syll="6" part="f">Ha ! Souffrez que j'embrasse. </l>
 </sp>
@@ -1916,7 +1945,8 @@
 	<l id="1160">Je cours au désespoir, et vais vous en venger. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Caractacus, Ostorius.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Caractacus, Ostorius.
+</stage>
 <sp who="OSTORIUS"><speaker>OSTORIUS.</speaker>
 	<l id="1161">Je sens bien le motif de l'effort qui le chasse, </l>
 	<l id="1162">Mais pour mieux m'en servir, je demande sa grâce, </l>
@@ -1986,7 +2016,8 @@
 	<l id="1211">Vos injustes désirs ne sont pas moins puissants. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Caractacus, Cartide, Ostorius.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Caractacus, Cartide, Ostorius.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="1212">Seigneur il se faut rendre à des coups si pressants </l>
 	<l id="1213" syll="6" part="i">Mais vous encor aux fers ? </l>
@@ -2062,7 +2093,8 @@
 	<l id="1264">On ne peut qu'en fuyant être assez généreux. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Cartide, Ostorius.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Cartide, Ostorius.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="1265">Je suis au désespoir que pour reconnaissance, </l>
 	<l id="1266">Il faille que le Roi s'obstine et vous offense : </l>
@@ -2103,7 +2135,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Ostorius, Didius.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Ostorius, Didius.
+</stage>
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="1291">Le Sénat l'a conclu, l'Empereur le désire, </l>
 	<l id="1292">Le peuple le demande et l'honneur vous l'inspire : </l>
@@ -2116,7 +2149,8 @@
 	<l id="1299">Voyez dan ce billet de quel air on vous traite, </l>
 	<l id="1300">Quels honneurs, quel triomphe à Rome on vous apprête. </l>
 </sp>
-<sp stage="read" who="OSTORIUS"><speaker>OSTORIUS, lit.</speaker>
+<sp who="OSTORIUS"><speaker>OSTORIUS</speaker><stage type="read">, lit.
+	</stage>
 	<l id="1301">Rome pour payer tes miracles,</l>
 	<l id="1302">D'un beau bruit que les temps ne puissent étouffer :</l>
 	<l id="1303">Désire te voir triompher :</l>
@@ -2187,7 +2221,8 @@
 	<l id="1349" syll="6" part="i">Mais le Roi vient à vous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Caractacus, Ostorius, Didius.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Caractacus, Ostorius, Didius.
+</stage>
 <sp who="CARACTACUS"><speaker>CARACTACUS.</speaker>
 	<l id="1349" syll="6" part="f">Un triste souvenir, </l>
 	<l id="1350">Qui trouble mes esprits me fait ici venir, </l>
@@ -2210,7 +2245,8 @@
 <sp who="CARACTACUS"><speaker>CARACTACUS.</speaker>
 	<l id="1356">À ne vous faire plus qu'une seule prière. </l>
 </sp>
-<sp stage="low" who="DIDIUS"><speaker>DIDIUS, bas.</speaker>
+<sp who="DIDIUS"><speaker>DIDIUS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1357">Qu'à son espoir si doux je pressens de revers. </l>
 </sp>
 <sp who="OSTORIUS"><speaker>OSTORIUS.</speaker>
@@ -2264,7 +2300,8 @@
 	<l id="1388" syll="6" part="i">Souffrez que mon respect... </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Caractacus, Cartide, Sarcide, Ostorius,  Didius.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Caractacus, Cartide, Sarcide, Ostorius,  Didius.
+</stage>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
 	<l id="1388" syll="6" part="f">Seigneur je vous l'amène, </l>
 	<l id="1389">Pour d'un Père insensible ébranler la rigueur, </l>
@@ -2389,7 +2426,8 @@
 	<l id="1485" syll="6" part="i">Le Prince en liberté... </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Caractacus, Cartide, Sarcide, Ostorius, Didius, Léonice. </head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Caractacus, Cartide, Sarcide, Ostorius, Didius, Léonice. 
+</stage>
 <sp who="LÉONICE"><speaker>LÉONICE.</speaker>
 	<l id="1485" syll="6" part="f">Vous me voyez en pleurs, </l>
 	<l id="1486" syll="2" part="i">Madame. </l>
@@ -2404,7 +2442,8 @@
 <sp who="CARACTACUS"><speaker>CARACTACUS.</speaker>
 	<l id="1488" syll="6" part="i">Que dis-tu Léonice. </l>
 </sp>
-<sp stage="low" who="SARCIDE"><speaker>SARCIDE, bas.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1488" syll="2" part="m">Ô Dieux ! </l>
 </sp>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>
@@ -2495,11 +2534,13 @@
 <sp who="DIDIUS"><speaker>DIDIUS.</speaker>
 	<l id="1544" syll="4" part="f">On vous l'amène. </l>
 </sp>
-<sp stage="low" who="SARCIDE"><speaker>SARCIDE, bas.</speaker>
+<sp who="SARCIDE"><speaker>SARCIDE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1545">Ne mourez pas encore infortunés soupirs. </l>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE V. Caractacus, Cartide, Le Prince, Ostorius, Didius, Sarcide, Léonice. </head>
+<div2 type="scene" n=""><head>SCÈNE V.</head><stage> Caractacus, Cartide, Le Prince, Ostorius, Didius, Sarcide, Léonice. 
+</stage>
 <sp who="CARACTACUS"><speaker>CARACTACUS.</speaker>
 	<l id="1546">Viens Prince, viens donner le comble à mes désirs. </l>
 </sp>
@@ -2530,11 +2571,13 @@
 <sp who="CARACTACUS"><speaker>CARACTACUS.</speaker>
 	<l id="1560">Lâche ainsi donc je t'ai tenu parole ? </l>
 </sp>
-<sp stage="low/toward" who="DIDIUS"><speaker>DIDIUS, bas à Ostorius.</speaker>
+<sp who="DIDIUS"><speaker>DIDIUS</speaker><stage type="low/toward">, bas à Ostorius.
+</stage>
 <note type="C">v. 1561, le vers se termine par le mot "fer" ne rime pas avec voeux.</note>
 	<l id="1561">Enfin qu'avez-vous plus à craindre dans vos feux. </l>
 </sp>
-<sp stage="toward" who="CARACTACUS"><speaker>CARACTACUS, à Ostorius.</speaker>
+<sp who="CARACTACUS"><speaker>CARACTACUS</speaker><stage type="toward">, à Ostorius.
+	</stage>
 	<l id="1562" syll="6" part="i">Je vous offre Sarcide. </l>
 </sp>
 <sp who="CARTIDE"><speaker>CARTIDE.</speaker>

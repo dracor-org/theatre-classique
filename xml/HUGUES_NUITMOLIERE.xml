@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,11 +30,11 @@
 			<titlePart type="sub">Représentée pour la première fois au Théâtre du Gymnase de Marseille, le 17 Janvier 1879</titlePart>
 			<titlePart type="sub">Suivie d'une Poésie à MOLIÈRE lue par M. Ortel au nom des artistes du Gymnase après la première représentation de la Suite de Molière.</titlePart>
 		</docTitle> 
-		<docDate value='1879'>1879. Tous droits réservés.</docDate>
+		<docDate value="1879">1879. Tous droits réservés.</docDate>
 		<docAuthor id="HUGUES, Clovis">CLOVIS HUGUES</docAuthor>
 		<docImprint>
 			<editor>MARSEILLE, LAVEIRARIÉ LIBRAIRE-ÉDITEUR Rue Grignan, 54.</editor>
-			<printer id='CHATAGNIER'>Marseille. - Imp. E. CHATAGNIER et Cie, rue Paradis, 42</printer>
+			<printer id="CHATAGNIER">Marseille. - Imp. E. CHATAGNIER et Cie, rue Paradis, 42</printer>
 		</docImprint>
 	<div type="dedicace"><adresse>À MOLIÈRE</adresse>
 		<head>POÉSIE LUE PAR M. ORTEL AU NOM DES ARTISTES DU GYMNASE après la première représentation d'Une Nuit de Molière.</head>
@@ -82,10 +82,10 @@
 	</div>
 	<castList>
 		<head>PERSONNAGES.</head>
-			<castItem><role id="MOLIÈRE" sex="1" type='H' statut='auteur' age='A' statut_amoureux="néant">MOLIÈRE</role>,  Monsieur Duchesnois.</castItem>
-			<castItem><role id="LA MUSE" sex="2" type='D' statut='muse' age='A' statut_amoureux="néant">LA MUSE</role>, Madame Andrini.</castItem>
+			<castItem><role id="MOLIÈRE" sex="1" type="H" statut="auteur" age="A" statut_amoureux="néant">MOLIÈRE</role>,  Monsieur Duchesnois.</castItem>
+			<castItem><role id="LA MUSE" sex="2" type="D" statut="muse" age="A" statut_amoureux="néant">LA MUSE</role>, Madame Andrini.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XVIIème' gps="(N/A)"></set>
+	<set location="Paris" country="France" periode="XVIIème" gps="(N/A)"/>
 </front>
 <body>
 <div1 type="act" n="1"><head>UNE NUIT DE MOLIÈRE</head>
@@ -184,8 +184,10 @@
 <stage type="fall/sit/furniture">Il tombe sur une chaise.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Molière, La Muse.</head>
-<sp stage="entrance/slow" who="LA MUSE"><speaker>LA MUSE, entrant lentement.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Molière, La Muse.
+</stage>
+<sp who="LA MUSE"><speaker>LA MUSE</speaker><stage type="entrance/slow">, entrant lentement.
+</stage>
 <poem>
 <lg n="1">
 	<l id="83">Essuie, ô mortel, les pleurs de tes yeux !</l>
@@ -464,7 +466,8 @@
 	<l id="281">Je ne me plaindrai pas, pourvu que sur ma tombe</l>
 	<l id="282">Un beau laurier se lève, un peu de gloire tombe !</l>
 </sp>
-<sp stage="give" who="LA MUSE"><speaker>LA MUSE, présentant à Molière sa plume.</speaker>
+<sp who="LA MUSE"><speaker>LA MUSE</speaker><stage type="give">, présentant à Molière sa plume.
+	</stage>
 	<l id="283">Poète, prends la plume et travaille ! Ma main,</l>
 	<l id="284">En tendant cette plume à ta main créatrice,</l>
 	<l id="285">A sur elle le poids de tout le genre humain</l>
@@ -474,21 +477,25 @@
 	<l id="289">Regarde : on la dirait dans du soleil trempée !</l>
 	<l id="290">Regarde : on la dirait vivante comme toi !</l>
 </sp>
-<sp stage="kneel" who="MOLIÈRE"><speaker>MOLIÈRE, s'agenouillant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="kneel">, s'agenouillant.
+	</stage>
 	<l id="291">Je la prends de la main comme une arme bénie.</l>
 </sp>
-<sp stage="touch" who="LA MUSE"><speaker>LA MUSE, étendant la main.</speaker>
+<sp who="LA MUSE"><speaker>LA MUSE</speaker><stage type="touch">, étendant la main.
+	</stage>
 	<l id="292">Et maintenant debout ! Fais parler ton génie,</l>
 	<l id="293">Retourne à ton théâtre, ô sublime railleur !</l>
 	<l id="294">Je t'ai sacré poète au nom de la douleur !</l>
 </sp>
-<sp stage="sit/location" who="MOLIÈRE"><speaker>MOLIÈRE, s'asseyant devant la petite table.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="sit/location">, s'asseyant devant la petite table.
+	</stage>
 	<l id="295">Allons, Molière, allons, recommence ta tâche,</l>
 	<l id="296">Reprends le fil doré de tes pantins vivants,</l>
 	<l id="297">Flagelle de nouveau, sans pitié, sans relâche,</l>
 	<l id="298">Tes faux dévots, tes faux marquis, tes faux savants !</l>
 </sp>
-<sp stage="away" who="LA MUSE"><speaker>LA MUSE, se retirant lentement.</speaker>
+<sp who="LA MUSE"><speaker>LA MUSE</speaker><stage type="away">, se retirant lentement.
+</stage>
 <poem type="quatrains">
 <lg n="1">
 	<l id="299">Ami, travaille, travaille,</l>

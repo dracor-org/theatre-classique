@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,7 +29,7 @@
 			<titlePart type="main">LA MORT C'EST LA VIE !</titlePart>
 			<titlePart type="sub">DIALOGUE EN VERS, lu à l'Académie de Clermont, le 6 janvier 1876.</titlePart>
 		</docTitle> 
-		<docDate value='1876'>1876</docDate>
+		<docDate value="1876">1876</docDate>
 		<docAuthor id="CHALMETON, Louis">de LOUIS CHALMETON, DE L'ACADÉMIE DE CLERMONT, DE LA SOCIÉTÉ DES GENS DE LETTRES.</docAuthor>
 		<docImprint>
 			<editor type="COLLAY">CLERMONT-FERRAND IMPIRMERIE FERDINAND THIBAUD, LIBRAIRE, rue Saint-Genès, 8-10</editor>
@@ -70,17 +70,19 @@
 		<p>L. C.</p>
 	</div>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="L'HOMME" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>L'HOMME</role>.</castItem>
-			<castItem><role id="LA MORT" sex="9" type="F" statut="mort" age='A' stat_amour='néant'>LA MORT</role>.</castItem>
+			<castItem><role id="L'HOMME" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">L'HOMME</role>.</castItem>
+			<castItem><role id="LA MORT" sex="9" type="F" statut="mort" age="A" stat_amour="néant">LA MORT</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XIXème" gps=""></set>
+	<set location="Paris" country="France" periode="XIXème" gps=""/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA MORT C'EST LA VIE !</head>
 <stage type="decor/location">Un cimetière éclairé par la lune. - L'homme est accoudé sur une tombe.</stage>
-<div2 type="scene" n="1"><head>DIALOGUE EN VERS. L'Homme, La Mort.</head>
+<div2 type="scene" n="1"><head>DIALOGUE EN VERS.</head><stage> L'Homme, La Mort.
+</stage>
 <stage type="entrance">La mort paraît. - Robe traînante et long voile noir.</stage>
-<sp stage="watch" who="L'HOMME"><speaker>L'HOMME, apercevant la Mort.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="watch">, apercevant la Mort.
+	</stage>
 	<l id="1" syll="6" part="i">Ô sombre Mort ! Qu'es-tu ?</l>
 <stage type="toward">À la Tombe.</stage>
 	<l id="1" syll="6" part="f">Mystérieuse tombe,</l>
@@ -129,7 +131,8 @@
 	<l id="41">Le passé, Dieu la loi, Dieu la force des choses !</l>
 	<l id="42">Dieu, le rayon du ciel, Dieu, le parfum des roses !...</l>
 </sp>
-<sp stage="interrupt" who="L'HOMME"><speaker>L'HOMME, l'interrompant.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="43" syll="6" part="i">Mais la matière meurt !</l>
 </sp>
 <sp who="LA MORT"><speaker>LA MORT.</speaker>
@@ -137,7 +140,8 @@
 	<l id="44">Ce condiment divin, d'elle rien ne périt !</l>
 	<l id="45">Le corps paraît tomber, mais l'esprit le relève.</l>
 </sp>
-<sp stage="show" who="L'HOMME"><speaker>L'HOMME, indiquant la tombe.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="show">, indiquant la tombe.
+	</stage>
 	<l id="46" syll="6" part="i">Une pierre le couvre !</l>
 </sp>
 <sp who="LA MORT"><speaker>LA MORT.</speaker>
@@ -145,10 +149,12 @@
 	<l id="47">Et mêlée aux lueurs vivantes d'un flambeau,</l>
 	<l id="48">Une céleste voix réveille le tombeau !...</l>
 </sp>
-<sp satge="dream" who="L'HOMME"><speaker>L'HOMME, rêveur.</speaker>
+<sp satge="dream" who="L'HOMME"><speaker>L'HOMME</speaker><stage>, rêveur.
+	</stage>
 	<l id="49" syll="3" part="i">Une voix ?...</l>
 </sp>
-<sp stage="sweet" who="LA MORT"><speaker>LA MORT, tendrement.</speaker>
+<sp who="LA MORT"><speaker>LA MORT</speaker><stage type="sweet">, tendrement.
+	</stage>
 	<l id="49" syll="9" part="f">Tes douleurs sont par elle apaisées !</l>
 </sp>
 <sp who="L'HOMME"><speaker>L'HOMME.</speaker>
@@ -196,7 +202,8 @@
 	<l id="81">Et le sombre néant reprend, dans ta pensée,</l>
 	<l id="82">Son droit au désespoir et sa place insensée !</l>
 </sp>
-<sp stage="nervous" who="L'HOMME"><speaker>L'HOMME, avec emportement.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="nervous">, avec emportement.
+	</stage>
 	<l id="83">Le néant ? Le néant ?... Cruelle..., mais en toi</l>
 	<l id="84">Que pourrais-je donc voir qui ne soit pas sa loi ?</l>
 	<l id="85">La mort n'est-elle pas la nuit et le silence ?</l>
@@ -243,7 +250,8 @@
 	<l id="122">Et c'est moi qui, pour toi, viens jeter la lumière</l>
 	<l id="123" syll="8" part="i">Sur ces grands horizons de l'homme ?...</l>
 </sp>
-<sp stage="enthousiasm" who="L'HOMME"><speaker>L'HOMME, avec effusion.</speaker>
+<sp who="L'HOMME"><speaker>L'HOMME</speaker><stage type="enthousiasm">, avec effusion.
+	</stage>
 	<l id="123" syll="4" part="f">Oh, je te crois !</l>
 	<l id="124">Tu me parles, ainsi que me parlait la voix !</l>
 	<l id="125">Oui !... Mais l'esprit, qu'est-il ? La matière qu'est-elle ?</l>
@@ -301,7 +309,8 @@
 	<l id="172">Par l'orage battus, atteindrons-nous le port?</l>
 	<l id="173">Dieu séparera-t-il le bon grain de l'ivraie ?</l>
 </sp>
-<sp stage="enthousiasm" who="LA MORT"><speaker>LA MORT, avec foi.</speaker>
+<sp who="LA MORT"><speaker>LA MORT</speaker><stage type="enthousiasm">, avec foi.
+	</stage>
 	<l id="174">De ce problème obscur, pour que rien ne t'effraie,</l>
 	<l id="175">Espère et crois !... D'ailleurs, sans te préoccuper</l>
 	<l id="176">Des systèmes divers qui pourraient te tromper !</l>

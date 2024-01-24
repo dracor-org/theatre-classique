@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -148,17 +148,19 @@
 
 <castList>
 	<head>ACTEURS de L'HEUREUX NATUREL.</head>
-		<castItem><role id="MONSIEUR DE BELMON" sex="1" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MONSIEUR DE BELMON</role>.</castItem>
-		<castItem><role id="MADAME DE BELMON" sex="2" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MADAME DE BELMON</role>, son épouse.</castItem>
-		<castItem><role id="LE PETIT DE BELMON" sex="1" type="H" statut='aristocrate' age='E' stat_amour='(néant)'>LE PETIT DE BELMON</role>, leur fils, âgé de dix ans.</castItem>
+		<castItem><role id="MONSIEUR DE BELMON" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR DE BELMON</role>.</castItem>
+		<castItem><role id="MADAME DE BELMON" sex="2" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MADAME DE BELMON</role>, son épouse.</castItem>
+		<castItem><role id="LE PETIT DE BELMON" sex="1" type="H" statut="aristocrate" age="E" stat_amour="(néant)">LE PETIT DE BELMON</role>, leur fils, âgé de dix ans.</castItem>
 </castList>
-<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La Scene est dans la Chambre du petit de Belmont qui est mourant dans son lit, les rideaux fermés. L'action se passe à cinq heures du soir.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scene est dans la Chambre du petit de Belmont qui est mourant dans son lit, les rideaux fermés. L'action se passe à cinq heures du soir.</set>
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>L'HEUREUX NATUREL</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur de Belmon, Le Petit de Belmon dans son Lit, les rideaux fermés.</head>
-<sp stage="alone/sit" who="MONSIEUR BELMON"><speaker>MONSIEUR BELMON, seul, assis la tête penchée sur sa main.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur de Belmon, Le Petit de Belmon dans son Lit, les rideaux fermés.
+</stage>
+<sp who="MONSIEUR BELMON"><speaker>MONSIEUR BELMON</speaker><stage type="alone/sit">, seul, assis la tête penchée sur sa main.
+</stage>
 <p id="1">
 	<s id="1">Quel moment affreux pour un père qui n'a qu'un fils, un fils unique qui se meurt ! </s>
 	<s id="2">Depuis huit ans, je ne vis plus avec ma femme ; je suis hors de toute espérance d'avoir jamais d'autres enfants : ô Ciel ! </s>
@@ -228,8 +230,10 @@
 <stage type="ring">Il sonne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les acteurs précédents, Un Laquais.</head>
-<sp stage="toward" who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON, au Laquais.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les acteurs précédents, Un Laquais.
+</stage>
+<sp who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON</speaker><stage type="toward">, au Laquais.
+</stage>
 <p id="1">
 	<s id="1">Donnez-moi tout ce qu'il faut pour écrire un mot de lettre.</s>
 </p>
@@ -239,9 +243,11 @@
 	<s id="1">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="exit" who="LE LAQUAIS"><speaker>LE LAQUAIS, sort.</speaker>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage type="exit">, sort.
+</stage>
 </sp>
-<sp stage="toward" who="MONSIEUR BELMON"><speaker>MONSIEUR BELMON, à son fils.</speaker>
+<sp who="MONSIEUR BELMON"><speaker>MONSIEUR BELMON</speaker><stage type="toward">, à son fils.
+</stage>
 <p id="3">
 	<s id="1">Je vais écrire une lettre bien positive sur ton désir et ta situation, et je ne doute pas qu'aussitôt...</s>
 </p>
@@ -256,7 +262,8 @@
 	<s id="1">Non, mon ami ; elle l'a été assez longtemps pour qu'à la fin j'aie pris sur moi de lui laisser mener une vie plus douce : depuis deux ans, elle demeure dans un couvent, d'où elle est maîtresse de sortir quand elle veut.</s>
 </p>
 </sp>
-<sp stgage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. (Impromptu).</speaker>
+<sp stgage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage> (Impromptu).
+</stage>
 <p id="6">
 	<s id="1">Et elle n'a point eu le désir de me voir, elle ne ma donc jamais aimé ?</s>
 </p>
@@ -266,7 +273,8 @@
 	<s id="1">Si, mon enfant, elle a tout fait pour te voir, mais je n'ai point voulu la satisfaire sur cela ; ton éducation m'était chère, j'ai craint que par de mauvaises impressions, elle ne détruisît mon ouvrage, et ne me noircît dans ton esprit.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. (Impromptu).</speaker>
+<sp who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage type="impromptu"> (Impromptu).
+</stage>
 <p id="8">
 	<s id="1">Mais si en la voyant, elle me rend la vie ; comme je l'espère, mon cher Papa, il faut me promettre que vous lui pardonnerez tout, et que vous revivrez ensemble en bonne intelligence,</s>
 </p>
@@ -324,20 +332,24 @@
 	<s id="1">Elle n'a pas voulu dire son nom, mais la voici elle-même.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON, bas au Laquais.</speaker>
+<sp who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON</speaker><stage type="low/toward">, bas au Laquais.
+</stage>
 <p id="17">
 	<s id="1">Rends moi ma lettre.</s>
 </p>
 <stage type="exit">Le Laquais sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="decor"><head>SCÈNE III. Monsieur et Madame de Belmon, Le Petit de Belmon, toujours dans son lit, les rideaux fermés.</head> 
-<sp stage="low" who="MADAME DE BELMON"><speaker>MADAME DE BELMON parlant bas à Monsieur de Belmon, la porte à moitié ouverte.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="decor"> Monsieur et Madame de Belmon, Le Petit de Belmon, toujours dans son lit, les rideaux fermés. 
+</stage> 
+<sp who="MADAME DE BELMON"><speaker>MADAME DE BELMON</speaker><stage type="low"> parlant bas à Monsieur de Belmon, la porte à moitié ouverte.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, j'ouvre la porte sans façon ; je sais la situation cruelle de mon fils, et j'ai crû que vous me pardonneriez une démarche que la tendresse...</s>
 </p>
 </sp>
-<sp stage="low" who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON, à voix basse.</speaker>
+<sp who="MONSIEUR DE BELMON"><speaker>MONSIEUR DE BELMON</speaker><stage type="low">, à voix basse.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, il est à toute extrémité, abandonné des médecins.</s>
@@ -366,7 +378,8 @@
 	<s id="2">Il n'en peut plus...</s>
 </p>
 </sp>
-<sp satge="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. (Impromptu ).</speaker>
+<sp satge="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage> (Impromptu ).
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, vous venez d'arriver, vous avez dit bien des choses à mon Papa ; je crois que je vous ai entendu parler de ma mère, la connaissez-vous, Madame ?</s>
@@ -377,7 +390,8 @@
 	<s id="1">Oui, mon cher ami, c'est ma meilleure amie ; elle est bien chagrine de l'état où vous êtes.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. (Impromptu).</speaker>
+<sp who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage type="impromptu"> (Impromptu ).
+</stage>
 <p id="9">
 	<s id="1">Et pourquoi n'est-elle pas venue aujourd'hui avec vous ? </s>
 	<s id="2">C'est qu'elle n'a pas osé... </s>
@@ -388,12 +402,14 @@
 	<s id="7">Madame, puisque vous êtes son amie, au cas que je meure avant qu'elle vienne, dites-lui bien que je meurs de chagrin de ne l'avoir pas connue aussitôt que l'on m'a appris qu'elle vivait, et que je pouvais la connaître.</s>
 </p>
 </sp>
-<sp stage="cry" who="MADAME DE BELMON"><speaker>MADAME DE BELMON, pleurant.</speaker>
+<sp who="MADAME DE BELMON"><speaker>MADAME DE BELMON</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="10">
 	<s id="1">Mon cher enfant, je vous réponds, comme si c'était elle, qu'elle vous aime de tout son coeur, qu'elle va arriver dans le moment, pour vous en donner les marques les plus tendres ; ranimez vos forces par cette espérance, et comptez sur elle, comme si elle ne vous avait pas perdu un moment de vue.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. {Impromptu).</speaker>
+<sp who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage type="impromptu"> (Impromptu ).
+</stage>
 <p id="11">
 	<s id="1">Vous pleurez, en me disant cela ! </s>
 	<s id="2">Si vous n'êtes que l'amie de ma mère, en pleurant ainsi, qu'est-ce qu'elle va donc devenir quand elle me verra dans mon état ? </s>
@@ -401,12 +417,14 @@
 	<s id="4">Mais si on ne la trouve pas chez elle, ah bon Dieu !</s>
 </p>
 </sp>
-<sp stage="kiss/cry" who="MADAME DE BELMON"><speaker>MADAME DE BELMON, l'embrasse toute en larmes. </speaker>
+<sp who="MADAME DE BELMON"><speaker>MADAME DE BELMON</speaker><stage type="kiss/cry">, l'embrasse toute en larmes. 
+</stage>
 <p id="12">
 	<s id="1">Si, mon enfant, mon cher enfant, on l'a trouvée chez elle, elle y est, puisqu'elle est ici auprès de toi, mon cher fils !</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON. (Impromptu).</speaker>
+<sp who="LE PETIT DE BELMON"><speaker>LE PETIT DE BELMON.</speaker><stage type="impromptu"> (Impromptu ).
+</stage>
 <p id="13">
 	<s id="1">Quoi ?... </s>
 	<s id="2">C'est vous, Madame, c'est vous qui êtes ma mère ? </s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -31,31 +31,32 @@
 		<titlePart part="sub">Saynète jouée par M. Lucien Guitry, le 2 décembre 1897, à la SALLE DES FÊTES DU JOURNAL.</titlePart> 
 	</docTitle>
    <docDate value="1900">1900.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>PARIS, LIBRAIRIE THÉÂTRALE, 30 RUE DE GRAMMOND, 30 </editor>
 		<printer>Imprimerie Générale de Chatillon-sur-Seine. - A. PICHAT</printer>
 		<copyright>Droits de traduction, reproduction, représentation réservée, pour tous les pays, y compris la Suède  et la Norvège.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA FRAPPE" sex="1" type="H" statut="voleur" age="A" stat_amour=''>LA FRAPPE</role>.</castItem>
-		<castItem><role id="UN COMMISSAIRE DE POLICE" sex="1" type="H" statut="commissaire" age="A" stat_amour=''>UN COMMISSAIRE DE POLICE</role>.</castItem>
-		<castItem><role id="UN GENDARME" sex="1" type="H" statut="gendarme" age="A" stat_amour=''>UN GENDARME</role>.</castItem>
-		<castItem><role id="UN AGENT" sex="1" type="H" statut="agent" age="A" stat_amour=''>UN AGENT</role>.</castItem>
-		<castItem><role id="UN VIEILLARD" sex="1" type="H" statut="bourgeois" age="V" stat_amour=''>UN VIEILLARD</role>.</castItem>
+		<castItem><role id="LA FRAPPE" sex="1" type="H" statut="voleur" age="A" stat_amour="">LA FRAPPE</role>.</castItem>
+		<castItem><role id="UN COMMISSAIRE DE POLICE" sex="1" type="H" statut="commissaire" age="A" stat_amour="">UN COMMISSAIRE DE POLICE</role>.</castItem>
+		<castItem><role id="UN GENDARME" sex="1" type="H" statut="gendarme" age="A" stat_amour="">UN GENDARME</role>.</castItem>
+		<castItem><role id="UN AGENT" sex="1" type="H" statut="agent" age="A" stat_amour="">UN AGENT</role>.</castItem>
+		<castItem><role id="UN VIEILLARD" sex="1" type="H" statut="bourgeois" age="V" stat_amour="">UN VIEILLARD</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE CAMBRIOLAGE</head>
 <stage type="decor/furniture/light">Une porte au fond. - Deux portes à droite.- Une fenêtre à gauche.- Un bahut au fond à droite. - Il fait nuit. La scène est faiblement éclairée par une lumière qui vient du dehors par la fenêtre de gauche.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="entrance/location" who="LAFRAPPE"><speaker>LAFRAPPE, entrant par la porte du fond.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="entrance/location">, entrant par la porte du fond.
+</stage>
 <p id="1">
 	<s id="1">Sacrée saleté de pince-monseigneur de les deux oreilles ! </s>
 	<s id="2">Je me suis arraché la peau du pouce.</s>
 </p>
-<stage type="suck/watch"></stage>
+<stage type="suck/watch"/>
 <p id="2">
 	<s id="1">C'est bien comme l'a dit le petit marchand d'oiseaux. </s>
 	<s id="2">Il ne s'était trompé dans aucun détail. </s>
@@ -286,7 +287,8 @@
 </p>
 <stage type="entrance/location/costume/carry/away/back">Le vieillard entre par la porte de droite, deuxième pan ; il est vêtu d'un pantalon et d'une chemise, il tient à la main une carabine. Pendant ce qui suit, il va lentement de la porte de droite à la fenêtre de gauche.</stage>
 </sp>
-<sp stage="low" who="LAFRAPPE"><speaker>LAFRAPPE, entre ses dents.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="low">, entre ses dents.
+</stage>
 <p id="29">
 	<s id="1">Ah ! </s>
 	<s id="2">Diable ! </s>
@@ -315,8 +317,10 @@
 <stage type="exit/location">Il disparaît par cette porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE II. Le commissaire, Un agent et un gendarme, portent des lumières.</head>
-<sp stage="entrance/light" who="L'AGENT"><speaker>UN AGENT, entrant avec une lumière.</speaker>
+<div2 type="scene" n=""><head>SCÈNE II.</head><stage> Le commissaire, Un agent et un gendarme, portent des lumières.
+</stage>
+<sp who="L'AGENT"><speaker>UN AGENT</speaker><stage type="entrance/light">, entrant avec une lumière.
+</stage>
 <p id="1">
 	<s id="1">Où est-il ? </s>
 	<s id="2">Où est-il ? </s>
@@ -325,7 +329,8 @@
 	<s id="5">Avez-vous vu comme il a tapé !</s>
 </p>
 </sp>
-<sp stage="" who="LE GENDARME"><speaker>UN GENDARME, entrant avec une autre lumière.</speaker>
+<sp who="LE GENDARME"><speaker>UN GENDARME</speaker><stage type="">, entrant avec une autre lumière.
+</stage>
 <p id="2">
 	<s id="1">Où est-il ? </s>
 	<s id="2">Où est-il ? </s>
@@ -335,7 +340,8 @@
 	<s id="6">Il a mouché du premier coup !</s>
 </p>
 </sp>
-<sp stage="entrance" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, entrant.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="3">
 	<s id="1">Où est-il ? Croyez-vous qu'il l'a bien touché !</s>
 </p>
@@ -355,7 +361,8 @@
 </p>
 <stage type="exit/location">L'agent sort par la droite, second plan.</stage>
 </sp>
-<sp stage="toward" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, au gendarme.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="toward">, au gendarme.
+</stage>
 <p id="6">
 	<s id="1">Gendarme, vous allez partir à_franc_étrier jusqu'à la préfecture, et vous direz qu'un courageux citoyen vient d'abattre d'un coup de canne... </s>
 	<s id="2">C'était bien un coup de canne ?</s>
@@ -383,8 +390,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Commissaire, L'Agent, puis Lafrappe</head>
-<sp stage="entrance/location" who="L'AGENT"><speaker>L'AGENT, rentrant par la porte du second plan à droite.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Commissaire, L'Agent, puis Lafrappe
+</stage>
+<sp who="L'AGENT"><speaker>L'AGENT</speaker><stage type="entrance/location">, rentrant par la porte du second plan à droite.
+</stage>
 <p id="1">
 	<s id="1">Il n'est pas par là.</s>
 </p>
@@ -398,7 +407,8 @@
 	<s id="1">Arrivez donc.</s>
 </p>
 </sp>
-<sp stage="shame" who="LAFRAPPE"><speaker>LAFRAPPE, sortant, tout penaud, à lui-même.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="shame">, sortant, tout penaud, à lui-même.
+</stage>
 <p id="4">
 	<s id="1">Allons ! </s>
 	<s id="2">Ça y est ! </s>
@@ -406,7 +416,8 @@
 	<s id="4">Je suis pincé.</s>
 </p>
 </sp>
-<sp stage="toward/touch" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, allant à Lafrappe et lui serrant la main.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="toward/touch">, allant à Lafrappe et lui serrant la main.
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Permettez-moi de vous féliciter !... </s>
@@ -422,13 +433,15 @@
 </p>
 <stage type="touch/shake">Il prend la main de Lafrappe et la secoue avec énergie.</stage>
 </sp>
-<sp stage="sit/location" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, s'asseyant à la table.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="sit/location">, s'asseyant à la table.
+</stage>
 <p id="7">
 	<s id="1">Vous allez me donner votre nom... </s>
 	<s id="2">Comment vous appelez-vous ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LAFRAPPE"><speaker>LAFRAPPE, ahuri.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="estonish">, ahuri.
+</stage>
 <p id="8">
 	<s id="1">Dorival !</s>
 </p>
@@ -438,7 +451,8 @@
 	<s id="1">Plaît-il ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LAFRAPPE"><speaker>LAFRAPPE, de même.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="estonish">, de même.
+</stage>
 <p id="10">
 	<s id="1">Doriveau.</s>
 </p>
@@ -448,7 +462,8 @@
 	<s id="1">Ça s'écrit ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LAFRAPPE"><speaker>LAFRAPPE, de même.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="estonish">, de même.
+</stage>
 <p id="12">
 	<s id="1">D O Du R A ri V U veau.</s>
 </p>
@@ -470,7 +485,8 @@
 	<s id="3">Mais venez demain au commissariat, vers dix heures.</s>
 </p>
 </sp>
-<sp stage="estonish" who="LAFRAPPE"><speaker>LAFRAPPE, ahuri.</speaker>
+<sp who="LAFRAPPE"><speaker>LAFRAPPE</speaker><stage type="estonish">, ahuri.
+</stage>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">Il faut que je vienne... demain...</s>
@@ -489,7 +505,8 @@
 	<s id="1">Au revoir, messieurs.</s>
 </p>
 </sp>
-<sp stage="give" who="L'AGENT"><speaker>L'AGENT, lui tendant un paquet d'argenterie.</speaker>
+<sp who="L'AGENT"><speaker>L'AGENT</speaker><stage type="give">, lui tendant un paquet d'argenterie.
+</stage>
 <p id="19">
 	<s id="1">Vous oubliez votre paquet.</s>
 </p>

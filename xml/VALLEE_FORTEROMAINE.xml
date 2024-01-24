@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -25,14 +25,14 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>LA FORTE ROMAINE</titlePart>
-			<titlePart type='sub'>EN VERS FRANÇAIS,</titlePart>
-			<titlePart type='sub'>DIVISEE EN CINQ PARTIES,</titlePart>
-			<titlePart type='sub'>ENTRETIENS, ET SOLILOQUES.</titlePart>
-			<titlePart type='sub'>Dédiée à Mademoiselle LAURA MARTINOZZI.</titlePart>
+			<titlePart type="main">LA FORTE ROMAINE</titlePart>
+			<titlePart type="sub">EN VERS FRANÇAIS,</titlePart>
+			<titlePart type="sub">DIVISEE EN CINQ PARTIES,</titlePart>
+			<titlePart type="sub">ENTRETIENS, ET SOLILOQUES.</titlePart>
+			<titlePart type="sub">Dédiée à Mademoiselle LAURA MARTINOZZI.</titlePart>
 		</docTitle> 
-		<docDate value='1656'>[sans lieu, ni date]</docDate>
-		<docAuthor id='VALLÉE'></docAuthor>
+		<docDate value="1656">[sans lieu, ni date]</docDate>
+		<docAuthor id="VALLÉE"/>
 		<docImprint>
 		</docImprint>
 	<div type="dedicace"><adresse>À MADEMOISELLE LAURA MARTINOZZI.</adresse>
@@ -45,7 +45,7 @@
 		<p>Quelqu'un blâmerait, peut-être, la façon d'écrire que j'ai suivie en ce petit ouvrage, sur ce que l'on pourrait dire, que je lui donnant pas une entière accommodation au théâtre, je devais en faire un poème continu. Mais je réponds par avance, que le dramatique est, à mon avis, celui par lequel nous exprimons le plus sensiblement ce que nous voulons représenter : Et que ce sujet contient des matières, qui ne pouvaient convenablement être débitées au théâtre : ainsi j'ai voulu me servir de la force de l'un, sans profaner la sainteté des autres. Il est facile d'observer au premier entretien, lorsque Suzanne dit à Claude (tu) seulement une fois, que c'est par le transport d'un saint zèle, et lui reprochant un blasphème.</p>
 	</div>
 	<performance>
-			<premiere date="(inconnue)" location="(inconnue)"></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 	</performance>
 	<castList><head>PERSONNAGES Nécessaires à l'expression de l'Histoire.</head>
 			<castItem><role id="SUZANNE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">SUZANNE</role>, Fille de Gabin, Seigneur Romain.</castItem> 
@@ -61,7 +61,7 @@
 			<castItem><role id="LE PRÉVOT" sex="1" type="H" statut="prévôt" age="A" stat_amour="néant">LE PRÉVOT</role>.</castItem>
 
 	</castList>
-	<set location="Rome" country="Italie" periode="IIème" gps="41.902783, 12.496365"></set>
+	<set location="Rome" country="Italie" periode="IIème" gps="41.902783, 12.496365"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>PREMIÈRE PARTIE.</head>
@@ -74,7 +74,8 @@
 	<l id="5">Ha ! Je me suis trompé, c'est sa fille, Suzanne.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>PREMIER ENTRETIEN. Suzanne, Claude.</head>
+<div2 type="scene" n="2"><head>PREMIER ENTRETIEN.</head><stage> Suzanne, Claude.
+</stage>
 <sp who="SUZANNE"><speaker>SUZANNE.</speaker>
 	<l id="6">Fuyez, mes yeux, l'objet que mon Esprit condamne.</l>
 </sp>
@@ -101,11 +102,13 @@
 	<l id="17">Les mouvements du coeur s'exprimant par paroles</l>
 	<l id="18">Font servir votre bouche au culte des idoles.</l>
 </sp>
-<sp stage="aparte" who="CLAUDE"><speaker>CLAUDE, à part soi.</speaker>
+<sp who="CLAUDE"><speaker>CLAUDE</speaker><stage type="aparte">, à part soi.
+	</stage>
 	<l id="19">Comment endurez-vous (Dieux) que l'impiété</l>
 	<l id="20">Ait pu se faire suivre un masque de beauté ? </l>
 </sp>
-<sp stage="aparte" who="SUZANNE"><speaker>SUZANNE, à part soi.</speaker>
+<sp who="SUZANNE"><speaker>SUZANNE</speaker><stage type="aparte">, à part soi.
+	</stage>
 	<l id="21">Pouvez-vous bien souffrir, Divinité suprême,</l>
 	<l id="22">Qu'un néant révolté haïsse qui vous aime ? </l>
 </sp>
@@ -307,7 +310,8 @@
 	<l id="178">Joignez à cette ardeur de la persévérance. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SECOND ENTRETIEN. Dioclétian, Maximian.</head>
+<div2 type="scene" n="3"><head>SECOND ENTRETIEN.</head><stage> Dioclétian, Maximian.
+</stage>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="179">Quoi, mon fils ! Ce grand coeur, si craint, si signalé, </l>
 	<l id="180">Nous paraîtra toujours rampant et ravalé !</l>
@@ -529,7 +533,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>SECONDE PARTIE.</head>
-<div2 type="scene" n="1"><head>PREMIER ENTRETIEN. Sérène, Virginie.</head>
+<div2 type="scene" n="1"><head>PREMIER ENTRETIEN.</head><stage> Sérène, Virginie.
+</stage>
 <sp who="VIRGINIE"><speaker>VIRGINIE.</speaker>
 	<l id="363">Madame, mon esprit n'est point si peu discret,</l>
 	<l id="364">Qu'il veuille pénétrer jusqu'à votre secret ;</l>
@@ -591,7 +596,8 @@
 	<l id="410">Quelles sont les vertus où notre esprit doit tendre. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SECOND ENTRETIEN. Dioclétian, Maxime, Artise.</head>
+<div2 type="scene" n="2"><head>SECOND ENTRETIEN.</head><stage> Dioclétian, Maxime, Artise.
+</stage>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="411">Que difficilement l'esprit peut concevoir </l>
 	<l id="412">Les soins que nos grandeurs nous obligent d'avoir ! </l>
@@ -733,7 +739,8 @@
 	<l id="528">Puisse bientôt jouir du bonheur qu'il prétend.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN. Maximian, Curce.</head>
+<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN.</head><stage> Maximian, Curce.
+</stage>
 <sp who="MAXIMIAN"><speaker>MAXIMIAN.</speaker>
 	<l id="529">Je te l'avoue, enfin il est vrai que mon âme, </l>
 	<l id="530">Dès longtemps sent l'ardeur d'une pudique flamme ;</l>
@@ -843,7 +850,8 @@
 	<l id="617" syll="6" part="i">Mais quelqu'un vient. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>QUATRIÈME ENTRETIEN. Maxime, Claude.</head>
+<div2 type="scene" n="4"><head>QUATRIÈME ENTRETIEN.</head><stage> Maxime, Claude.
+</stage>
 <sp who="MAXIME"><speaker>MAXIME.</speaker>
 	<l id="617" syll="6" part="f">	Monsieur, excusez, je vous prie,</l>
 	<l id="618">Si je vous interromps en votre rêverie.</l>
@@ -944,7 +952,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>TROISIÈME PARTIE</head>
-<div2 type="scene" n="1"><head>PREMIER ENTRETIEN. Suzanne, Claude, Maxime.</head>
+<div2 type="scene" n="1"><head>PREMIER ENTRETIEN.</head><stage> Suzanne, Claude, Maxime.
+</stage>
 <sp who="SUZANNE"><speaker>SUZANNE.</speaker>
 	<l id="665">Puisque par un bonheur, qui tout autre surpasse,</l>
 	<l id="666">Ce Dieu, plein de bonté, vous a fait cette grâce, </l>
@@ -1041,7 +1050,8 @@
 	<l id="740">Au milieu de l'erreur produis la vérité. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SECOND ENTRETIEN. Diocletian, Macédone, Artise, Le Prévot.</head> 
+<div2 type="scene" n="2"><head>SECOND ENTRETIEN.</head><stage> Diocletian, Macédone, Artise, Le Prévot. 
+</stage> 
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="741">Adorables objets de nos saints sacrifices ! </l>
 	<l id="742">Immortels ennemis des crimes et des vices ! </l>
@@ -1208,7 +1218,8 @@
 	<l id="884">Que votre majesté m'impute leur forfait. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN. Sérène, Virginie.</head>
+<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN.</head><stage> Sérène, Virginie.
+</stage>
 <sp who="SÉRÈNE"><speaker>SÉRÈNE.</speaker>
 	<l id="885">Si le temps le permet, afin que je m'acquitte, </l>
 	<l id="886">De mon dernier discours, reprenons-en la suite : </l>
@@ -1252,7 +1263,8 @@
 	<l id="916">D'une foule de peuple, ennemi de mon_Dieu ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>QUATRIEME ENTRETIEN. Macédone, Le Prevot.</head>
+<div2 type="scene" n="4"><head>QUATRIEME ENTRETIEN.</head><stage> Macédone, Le Prevot.
+</stage>
 <sp who="MACÉDONE"><speaker>MACÉDONE.</speaker>
 	<l id="917">Notre commission est de telle importance,</l>
 	<l id="918">Qu'il y faut procéder en grande diligence. </l>
@@ -1378,7 +1390,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>QUATRIÈME PARTIE</head>
-<div2 type="scene" n="1"><head>PREMIER ENTRETIEN. Dioclétian, Macédone.</head>
+<div2 type="scene" n="1"><head>PREMIER ENTRETIEN.</head><stage> Dioclétian, Macédone.
+</stage>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="1027">Beauté pleine de fard, offusquante splendeur, </l>
 	<l id="1028">Pompeux déguisement, affaissante grandeur,</l>
@@ -1414,8 +1427,9 @@
 	<l id="1054">Puisque mes ennemis naissent dans mon Empire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SECOND ENTRETIEN. Dioclétian, Macédone, 
-Le Prévot, Claude, Maxime, Suzanne.</head>
+<div2 type="scene" n="2"><head>SECOND ENTRETIEN.</head><stage> Dioclétian, Macédone, 
+Le Prévot, Claude, Maxime, Suzanne.
+</stage>
 <sp who="LE PRÉVOT"><speaker>LE PRÉVOT.</speaker>
 	<l id="1055">J'amène ces chrétiens à votre Majesté, </l>
 	<l id="1056">Seigneur, pour faire voir son ordre exécuté.</l>
@@ -1686,7 +1700,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1251">Au moins souvenez-vous étant en ce saint lieu,</l>
 	<l id="1252">D'offrir en ma faveur vos sacrés voeux à Dieu. </l>
 </sp>
-<sp stage="away" who="MAXIME"><speaker>MAXIME, s'en allant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="away">, s'en allant.
+	</stage>
 	<l id="1253">Pour oublier ce soin il est trop légitime.</l>
 </sp>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
@@ -1720,7 +1735,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1276">Mourez, pour votre gloire et mon contentement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN. Curce, Maximian.</head>
+<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN.</head><stage> Curce, Maximian.
+</stage>
 <sp who="CURCE"><speaker>CURCE.</speaker>
 	<l id="1277">Je viens vous annoncer d'agréables nouvelles,</l>
 	<l id="1278">De Suzanne, Seigneur, ce miracle des belles : </l>
@@ -1757,7 +1773,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1302">Dieux, faites que des yeux elle pénètre à l'âme.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>QUATRIÈME ENTRETIEN. Suzanne, Sérène.</head>
+<div2 type="scene" n="4"><head>QUATRIÈME ENTRETIEN.</head><stage> Suzanne, Sérène.
+</stage>
 <sp who="SUZANNE"><speaker>SUZANNE.</speaker>
 	<l id="1303">Madame, ces faveurs surprennent ma raison, </l>
 	<l id="1304">Je trouve le refuge au lieu de la prison,</l>
@@ -1811,7 +1828,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1344">Veuille accomplir les voeux que pour vous je lui fais. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>CINQUIÈME ENTRETIEN. Maximian, Sérène, Suzanne.</head>
+<div2 type="scene" n="5"><head>CINQUIÈME ENTRETIEN.</head><stage> Maximian, Sérène, Suzanne.
+</stage>
 <sp who="MAXIMIAN"><speaker>MAXIMIAN.</speaker>
 	<l id="1345">Si je vous interromps en cette conférence,</l>
 	<l id="1346">Ne me condamnez pas sans ouïr ma défense :</l>
@@ -1897,7 +1915,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 <sp who="SÉRÈNE"><speaker>SÉRÈNE.</speaker>
 	<l id="1391">Changez, ne la pouvant à vos désirs ranger. </l>
 </sp>
-<sp stage="away" who="MAXIMIAN"><speaker>MAXIMIAN, s'en allant.</speaker>
+<sp who="MAXIMIAN"><speaker>MAXIMIAN</speaker><stage type="away">, s'en allant.
+	</stage>
 	<l id="1392">Oui, Madame, bientôt l'on me verra changer. </l>
 </sp>
 <sp who="SÉRÈNE"><speaker>SÉRÈNE.</speaker>
@@ -1909,7 +1928,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>CINQUIÈME PARTIE</head>
-<div2 type="scene" n="1"><head>PREMIER ENTRETIEN. Dioclétian, Macédone, Curce.</head>
+<div2 type="scene" n="1"><head>PREMIER ENTRETIEN.</head><stage> Dioclétian, Macédone, Curce.
+</stage>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="1395">Mon esprit agité de mouvements étranges, </l>
 	<l id="1396">À peine à se résoudre en de si grands mélanges.</l>
@@ -2176,7 +2196,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1624">Qu'elle se continue en une autre patrie. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SECOND ENTRETIEN. Dioclétian, Maximian.</head>
+<div2 type="scene" n="2"><head>SECOND ENTRETIEN.</head><stage> Dioclétian, Maximian.
+</stage>
 <sp who="DIOCLÉTIAN"><speaker>DIOCLÉTIAN.</speaker>
 	<l id="1625">Si cette vision, dont l'éclat vous surprit,</l>
 	<l id="1626">Ne vous laisse à présent aucun trouble d'esprit,</l>
@@ -2242,7 +2263,8 @@ Le Prévot, Claude, Maxime, Suzanne.</head>
 	<l id="1682">Mais Macédone vient nous annoncer sa mort. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN. Macédone, Dioclétian.</head>
+<div2 type="scene" n="3"><head>TROISIÈME ENTRETIEN.</head><stage> Macédone, Dioclétian.
+</stage>
 <sp who="MACÉDONE"><speaker>MACÉDONE.</speaker>
 	<l id="1683">Seigneur, suivant votre ordre, exerçant mon office,</l>
 	<l id="1684">Le plus modérément que permet la Justice ;</l>

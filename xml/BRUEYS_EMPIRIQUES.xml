@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -21,7 +21,7 @@
 			<taille>(mesure non pertinente)</taille>
 			<permalien>https://gallica.bnf.fr/ark:/12148/bpt6k5814653n</permalien>
 		</SourceDesc>
-		<edStmt></edStmt>
+		<edStmt/>
 </fileDesc>
 </teiHeader>
 <text>
@@ -30,14 +30,14 @@
 			<titlePart type="main">LES EMPIRIQUES</titlePart>
 			<titlePart type="sub">COMÉDIE EN TROIS ACTES ET EN PROSE.</titlePart>
 		</docTitle> 
-		<docDate value='1735'>M. DCC. XXXV. Avec Approbation et Privilège du Roi</docDate>
-		<docAuthor id='BRUEYS, David-Augustin'></docAuthor>
+		<docDate value="1735">M. DCC. XXXV. Avec Approbation et Privilège du Roi</docDate>
+		<docAuthor id="BRUEYS, David-Augustin"/>
 		<docImprint>
-		<approbation value=''></approbation>
-			<acheveImprime value=''>À PARIS, Chez BRIASSON, rue Saint-Jacques, à la Science.</acheveImprime>
+		<approbation value=""/>
+			<acheveImprime value="">À PARIS, Chez BRIASSON, rue Saint-Jacques, à la Science.</acheveImprime>
 		</docImprint>
 		<performance>
-			<premiere date='1697-06-11' location='Théâtre de la rue des Fossés Saint-Germain'>Représentée pour la première fois à Paris, par les Comédiens Français, le 11 juin 1697.</premiere>
+			<premiere date="1697-06-11" location="Théâtre de la rue des Fossés Saint-Germain">Représentée pour la première fois à Paris, par les Comédiens Français, le 11 juin 1697.</premiere>
 		</performance>
 	<div type=""><head>PRÉFACE OU AVERTISSEMENT De M. Palaprat, sur les Empiriques.</head>
 		<p>Il n'est point d'Empire, ni plus généralement, ni plutôt établi, que celui de la nouveauté ; en naissant elle règne ; l'âge seul diminue ses forces, et elle n'est jamais si souveraine que dans sa minorité : mais il y a toute apparence que cette minorité durera longtemps, surtout à l'égard de la Médecine. Que l'on affiche un Élixir, une Quintessence, un Opiate avec un nom magnifique, et une nouvelle manière de s'en servir, tout le monde y court ; en effet, n'est-ce pas une chose bien gênante et bien triste, que d'être gouverné par des gens sages, d'autant plus circonspects qu'ils sont devenus savants par une longue pratique, mais que plusieurs expériences heureuses n'ont pas rendu plus téméraires ? Vive, au contraire, ces gens hardis, qui flattent et enchantent par de belles promesses ; ils commencent par assurer de l'efficacité de leur remède ; ils mettent l'esprit du malade en repos, en lui parlant affirmativement de sa guérison, et finissent souvent par l'expédier promptement ; mais en lui répondant toujours de sa vie sur leur propre tête. Ils ôtent au moins par là toutes les horreurs de la mort, et y font arriver leurs malades sans la prévenir ni la craindre. Espèce d'assassinat qu'il serait aisé de prouver être le plus cruel de tous !</p>
@@ -46,30 +46,33 @@
 	</div>
 
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour='néant'>LE BARON</role>, Père de Mariane.</castItem>
-		<castItem><role id="ARISTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>ARISTE</role>, Frère du Baron.</castItem>
-		<castItem><role id="MARIANE" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>MARIANE</role>, Fille du Baron.</castItem>
-		<castItem><role id="ÉRASTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='Mariane'>ÉRASTE</role>, Amant de Mariane.</castItem>
-		<castItem><role id="MONSIEUR DE ROMARIN" sex="1" type="H" statut="opérateur" age="A" stat_amour='néant'>MONSIEUR DE ROMARIN</role>, Empirique.</castItem>
-		<castItem><role id="MONSIEUR DE PAQUINOY" sex="1" type="H" statut="opérateur" age="A" stat_amour='néant'>MONSIEUR DE PAQUINOY</role>, Empirique.</castItem>
-		<castItem><role id="MARTON" sex="1" type="H" statut="suivante" age="A" stat_amour='néant'>MARTON</role>, Suivante de Mariane.</castItem>
-		<castItem><role id="PASQUIN" sex="1" type="H" statut="valet" age="A" stat_amour='néant'>PASQUIN</role>, Valet d'Éraste.</castItem>
-		<castItem><role id="FRIBOURG" sex="1" type="H" statut="suisse" age="A" stat_amour='néant'>FRIBOURG</role>, Suisse du Baron.</castItem>
-		<castItem><role id="LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour='néant'>LAQUAIS</role>.</castItem>
+		<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour="néant">LE BARON</role>, Père de Mariane.</castItem>
+		<castItem><role id="ARISTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ARISTE</role>, Frère du Baron.</castItem>
+		<castItem><role id="MARIANE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">MARIANE</role>, Fille du Baron.</castItem>
+		<castItem><role id="ÉRASTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="Mariane">ÉRASTE</role>, Amant de Mariane.</castItem>
+		<castItem><role id="MONSIEUR DE ROMARIN" sex="1" type="H" statut="opérateur" age="A" stat_amour="néant">MONSIEUR DE ROMARIN</role>, Empirique.</castItem>
+		<castItem><role id="MONSIEUR DE PAQUINOY" sex="1" type="H" statut="opérateur" age="A" stat_amour="néant">MONSIEUR DE PAQUINOY</role>, Empirique.</castItem>
+		<castItem><role id="MARTON" sex="1" type="H" statut="suivante" age="A" stat_amour="néant">MARTON</role>, Suivante de Mariane.</castItem>
+		<castItem><role id="PASQUIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">PASQUIN</role>, Valet d'Éraste.</castItem>
+		<castItem><role id="FRIBOURG" sex="1" type="H" statut="suisse" age="A" stat_amour="néant">FRIBOURG</role>, Suisse du Baron.</castItem>
+		<castItem><role id="LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">LAQUAIS</role>.</castItem>
   </castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La Scène est à Paris dans la maison du Baron.</set>
 <note>Extrait du Tome III du Théâtre de Monsieur de Brueys, Paris, 1735. pp. 1-82</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Éraste, Pasquin. </head>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part. </speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Éraste, Pasquin. 
+</stage>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part. 
+</stage>
 <note type="L">Parbleu : Sorte de jurement. Altération de "par Dieu'. [L]</note>
 <p id="1">
 	<s id="1">Oui, parbleu , cet homme-là est fou, ou il se moque de moi.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="2">
 	<s id="2">Ouais, il y a ici quelque chose qui va mal. </s>
 </p>
@@ -79,7 +82,8 @@
 	<s id="1">Avec tant d'amour être traité de la sorte !</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="4">
 	<s id="2">Est-ce infidélité, ou manquement de parole ? </s>
 </p>
@@ -89,7 +93,8 @@
 	<s id="1">Encore de nouveaux délais !</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="6">
 	<s id="1">C'est quelque chose de moins. </s>
 	<s id="2">Monsieur, vous m'avez commandé de me rendre ici… </s>
@@ -126,13 +131,15 @@
 	<s id="5">Va-t'en, et ne dis céans à personne que tu sois à moi.</s>
 </p>
 </sp>
-<sp stage="away" who="PASQUIN"><speaker>PASQUIN, s'en allant. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="away">, s'en allant. 
+</stage>
 <p id="12">
 	<s id="1">Je comprends à peu près que Pasquin ne sera pas aujourd'hui sans occupation.</s>
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Éraste, Marton.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Éraste, Marton.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 <p id="1">
 	<s id="1">Hé bien, Marton, tu l'as ouï toi-même. </s>
@@ -342,7 +349,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Baron, M. Romarin, Ariste, Marton. </head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Baron, M. Romarin, Ariste, Marton. 
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">J'aime à changer de lieu. </s>
@@ -451,7 +459,8 @@
 	<s id="1">C'est la bile qui se refroidit.</s>
 </p> 
 </sp>
-<sp stage="touch" who="LE BARON"><speaker>LE BARON, portant la main à l'autre côté de sa tête. </speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="touch">, portant la main à l'autre côté de sa tête. 
+</stage>
 <p id="21">
 	<s id="1">Ay ! </s>
 	<s id="2">Ay ! </s>
@@ -555,17 +564,20 @@
 	<s id="1">Il ne peut y avoir d'autre cause dans toute la nature.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE BARON"><speaker>LE BARON, riant. </speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="39">
 	<s id="1">Je ne sais donc pas comment cela se fait ; car il est bien certain que de ma vie je n'ai été saigné.</s>
 </p> 
 </sp>
-<sp who="MARTON"><speaker>MARTON, à Romarin. </speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage>, à Romarin. 
+</stage>
 <p id="40">
 	<s id="1">Allons, Monsieur, peu de chose vous embarrasse ; ayez recours à la bile. </s>
 </p>
 </sp>
-<sp stage="laugh" who="ARISTE"><speaker>ARISTE, riant. </speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="41">
 	<s id="1">Ah, ah, ah. </s>
 </p>
@@ -625,7 +637,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Baron, Ariste, Marton.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Baron, Ariste, Marton.
+</stage>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 <note type="L">Mener par le nez à un homme comme celui-là (Que vous vous laissiez) : Aujourd'hui on dirait : que vous laissiez un homme comme celui-là vous mener par le nez. (EF) </note>
 <p id="1">
@@ -686,7 +699,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Romarin, Le Baron, Ariste, Marton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Romarin, Le Baron, Ariste, Marton.
+</stage>
 <sp who="ROMARIN"><speaker>ROMARIN.</speaker>
 <p id="1">
 	<s id="1">Il y a plaisir à voir pétiller les flammes de ces fourneaux. </s>
@@ -774,7 +788,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Fribourg, Marton, Le Baron, Romarin, Ariste. </head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Fribourg, Marton, Le Baron, Romarin, Ariste. 
+</stage>
 <stage type="enntrance/slow/watch">Fribourg vient très lentement par derrière, cherchant son maître des yeux.</stage> 
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 <p id="1">
@@ -899,7 +914,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VII. Mariane, Le Baron, Ariste, Marton, Romarin. </head>
+<div2 type="scene" n="8"><head>SCÈNE VII.</head><stage> Mariane, Le Baron, Ariste, Marton, Romarin. 
+</stage>
 <sp who="MARIANE"><speaker>MARIANE. </speaker>
 <p id="1">
 	<s id="1">Ne vous alarmez pas, mon père, le danger est presque passé. </s>
@@ -920,7 +936,8 @@
 	<s id="1">Il est vrai que le feu a commencé à sa chambre, et on a jeté même ses hardes par la fenêtre.</s>
 </p> 
 </sp>
-<sp stage="exit/run" who="ROMARIN"><speaker>ROMARIN, sort en courant. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="exit/run">, sort en courant. 
+</stage>
 <p id="4">
 	<s id="1">Mes hardes ! </s>
 </p>
@@ -940,7 +957,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Paquinoy, Le Baron. </head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Paquinoy, Le Baron. 
+</stage>
 <sp who="PAQUINOY"><speaker>PAQUINOY. </speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -965,7 +983,8 @@
 	<s id="1">Non ; mais à présent il faut que j'aille... </s>
 </p>
 </sp>
-<sp stage="stop" who="PAQUINOY"><speaker>PAQUINOY, arrêtant le Baron. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="stop">, arrêtant le Baron. 
+</stage>
 <p id="5">
 	<s id="1">Quand vous saurez qui je suis... </s>
 </p>
@@ -986,7 +1005,8 @@
 	<s id="1">Nous nous verrons une autre fois : serviteur.</s>
 </p>
 </sp>
-<sp stage="stop/pull" who="PAQUINOY"><speaker>PAQUINOY, l'arrêtant et le retenant par force. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="stop/pull">, l'arrêtant et le retenant par force. 
+</stage>
 <p id="9">
 	<s id="1">J'ai, Monsieur, ce remède merveilleux, qu'on appelle les gouttes d'Angleterre. </s>
 </p>
@@ -1008,7 +1028,8 @@
 	<s id="2">Serviteur...</s>
 </p> 
 </sp>
-<sp stage="stop" who="PAQUINOY"><speaker>PAQUINOY, le reprenant. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="stop">, le reprenant. 
+</stage>
 <p id="13">
 	<s id="1">Peut-être avez-vous le ventre dur ? </s>
 </p>
@@ -1019,7 +1040,8 @@
 	<s id="2">Le bourreau !</s>
 </p> 
 </sp>
-<sp stage="pull" who="PAQUINOY"><speaker>PAQUINOY, le retenant. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="pull">, le retenant. 
+</stage>
 <p id="15">
 	<s id="1">Je vous donnerais la médecine noire, qui purge par la vue, pourvu qu'on avale en même tempos trois grands verres de tisane laxative.</s>
 </p>
@@ -1029,7 +1051,8 @@
 	<s id="1">Il faut être bien endiablé, pour...</s>
 </p>
 </sp>
-<sp stage="pull" who="PAQUINOY"><speaker>PAQUINOY, le reprenant toujours. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="pull">, le reprenant toujours. 
+</stage>
 <p id="17">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur, si par bonheur vous aviez une violente colique... </s>
@@ -1041,7 +1064,8 @@
 	<s id="2">Le traître !</s>
 </p> 
 </sp>
-<sp stage="interrupt" who="PAQUINOY"><speaker>PAQUINOY le reprenant. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="interrupt"> le reprenant. 
+</stage>
 <p id="19">
 	<s id="1">Je vous ferais prendre mon eau pacifique, ou mon essence tranquillisante... </s>
 </p>
@@ -1064,7 +1088,8 @@
 	<s id="1">Eh bien, serviteur.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="PAQUINOY"><speaker>PAQUINOY, le reprenant. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="interrupt">, le reprenant. 
+</stage>
 <p id="23">
 	<s id="">Vous voulez donc que je revienne ce soir ? </s>
 </p>
@@ -1099,7 +1124,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Mariane, Marton, Le Baron.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Mariane, Marton, Le Baron.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1129,7 +1155,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Mariane, Marton.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Mariane, Marton.
+</stage>
 <sp who="MARTON"><speaker>MARTON.</speaker>
 <p id="1">
 	<s id="1">Monsieur de Paquinoy ! </s>
@@ -1170,7 +1197,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Mariane, Marton.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Mariane, Marton.
+</stage>
 <sp who="MARIANE"><speaker>MARIANE.</speaker>
 <p id="1">
 	<s id="1">Éraste ne vient point. </s>
@@ -1213,8 +1241,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Pasquin, Mariane, Marton. </head>S
-<sp who="PASQUIN"><speaker>PASQUIN, à part, en Empirique. </speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pasquin, Mariane, Marton. S
+</stage>S
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage>, à part, en Empirique. 
+</stage>
 <p id="1">
 	<s id="1">Oh, oh, mon maître devait être ici pour me présenter. </s>
 </p>
@@ -1224,7 +1254,8 @@
 	<s id="1">Voilà un homme qui n'ose entrer.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="">Il m'avait dit qu'il y serait avant moi : attendons.</s>
 </p>
@@ -1281,7 +1312,8 @@
 	<s id="1">C'est à peu près le nom de votre très humble serviteur.</s>
 </p>
 </sp>
-<sp stage="" who="MARTON"><speaker>MARTON, d'un ton flatteur. </speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="">, d'un ton flatteur. 
+</stage>
 <p id="13">
 	<s id="1">Eh bien, Monsieur, faites-nous, s'il vous plaît, la grâce... </s>
 </p>
@@ -1314,7 +1346,8 @@
 	<s id="1">Voilà la soeur de cette Dame que vous tuâtes l'autre jour, et moi je suis sa cousine.</s>
 </p> 
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">Que diantre me vient-elle conter ? </s>
 </p>
@@ -1352,12 +1385,14 @@
 	<s id="1">Tubieu , on me prend ici pour un autre : le plus sûr est de décamper, et d'aller attendre mon maître dans la rue.</s>
 </p> 
 </sp>
-<sp stage="location" who="MARTON"><speaker>MARTON, dans une aile du Théâtre.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="location">, dans une aile du Théâtre.
+</stage>
 <p id="26">
 	<s id="1">Voilà cet empoisonneur que tu connais, chasse-le d'ici. </s>
 </p>
 </sp>
-<sp who="FRIBOURG"><speaker>FRIBOURG, sans être vu. </speaker>
+<sp who="FRIBOURG"><speaker>FRIBOURG</speaker><stage>, sans être vu. 
+</stage>
 <p id="27">
 	<s id="1">Mon camérate, à moi, à moi. </s>
 </p>
@@ -1365,7 +1400,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="PAQUINOY"><speaker>PAQUINOY, seul. </speaker>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage type="alone">, seul. 
+</stage>
 <p id="1">
 	<s id="1">Puisque Monsieur le Baron m'a dit de revenir ce soir, j'espère que je serai bien reçu : il n'est rien de tel, que de bien prendre son temps. </s>
 	<s id="2">Ne faisons pas comme tantôt ; mais attendons que quelqu'un paraisse pour me présenter à lui. </s>
@@ -1374,13 +1410,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Fribourg, un Laquais, Paquinoy.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Fribourg, un Laquais, Paquinoy.
+</stage>
 <sp who="PAQUINOY"><speaker>PAQUINOY.</speaker>
 <p id="1">
 	<s id="1">Vous êtes, sans doute...</s>
 </p>
 </sp>
-<sp stage="toward" who="FRIBOURG"><speaker>FRIBOURG, au laquais. </speaker>
+<sp who="FRIBOURG"><speaker>FRIBOURG</speaker><stage type="toward">, au laquais. 
+</stage>
 <p id="2">
 	<s id="1">Prends, toi, sti bâton ; prendre, moi, sti l'autre.</s>
 </p> 
@@ -1473,7 +1511,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ariste, Éraste, Pasquin, Paquinoy, Fribourg, le Laquais.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ariste, Éraste, Pasquin, Paquinoy, Fribourg, le Laquais.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce ci ? </s>
@@ -1505,7 +1544,8 @@
 	<s id="2">Retirez-vous. Je vous assure, Monsieur, que mon frère n'a point de part à cette violence, et qu'on les fera châtier très sévèrement.</s>
 </p>
 </sp>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, à Paquinoy. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, à Paquinoy. 
+</stage>
 <p id="6">
 	<s id="1">Pour moi, Monsieur, je vous remercie de tout mon coeur. </s>
 </p>
@@ -1535,7 +1575,8 @@
 	<s id="1">Je le crois, Monsieur, et je souhaite que pareille chose vous arrive souvent.</s>
 </p> 
 </sp>
-<sp stage="toward" who="ÉRASTE"><speaker>ÉRASTE, à Paquinoy. </speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward">, à Paquinoy. 
+</stage>
 <p id="12">
 	<s id="1">Oh ! </s>
 	<s id="2">Çà, Monsieur, Monsieur le Baron n'aurait pas à présent le temps de vous consulter : nous venons ici pour une affaire de conséquence, prenez la peine de revenir demain matin. </s>
@@ -1578,8 +1619,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Baron, Romarin, Ariste, Pasquin. </head>
-<sp stage="toward" who="LE BARON"><speaker>LE BARON, à Romarin.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Baron, Romarin, Ariste, Pasquin. 
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à Romarin.
+</stage>
 <p id="1">
 	<s id="1">Le feu aura, sans doute, brûlé la cassette dont vous êtes tant en peine. </s>
 </p>
@@ -1631,7 +1674,8 @@
 	<s id="2">Quel homme est-ce ci ?</s>
 </p> 
 </sp>
-<sp stage="low/toward" who="ROMARIN"><speaker>ROMARIN, bas au Baron. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="low/toward">, bas au Baron. 
+</stage>
 <note type="L">Afrronteur : Qui affronte, qui trompe. [L]</note>
 <p id="10">
 	<s id="1">C'est un affronteur assurément. </s>
@@ -1685,7 +1729,8 @@
 	<s id="2">Bien, Monsieur_Diamantin, vous prétendez donc professer à Paris la médecine ?</s>
 </p> 
 </sp>
-<sp stage="anger" who="PASQUIN"><speaker>PASQUIN, feignant d'être fort en colère. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="anger">, feignant d'être fort en colère. 
+</stage>
 <p id="20">
 	<s id="1">La médecine, Monsieur ! </s>
 	<s id="2">La médecine ! </s>
@@ -1774,8 +1819,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Marton, Le Baron, Romarin, Pasquin. </head>
-<sp who="LE BARON"><speaker>LE BARON, à Marton qui entre.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Marton, Le Baron, Romarin, Pasquin. 
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage>, à Marton qui entre.
+</stage>
 <p id="1">
 	<s id="1">Que viens-tu faire ici ? Toi.</s>
 </p>
@@ -1823,7 +1870,8 @@
 	<s id="1">Oui-da, très volontiers.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROMARIN"><speaker>ROMARIN, à part. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Voyons un peu comment il s'en tirera. </s>
@@ -1834,7 +1882,8 @@
 	<s id="1">Nos anciens n'ont connu que deux sortes de bile ; la jaune, et la grise.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROMARIN"><speaker>ROMARIN, au Baron. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="toward">, au Baron. 
+</stage>
 <p id="12">
 	<s id="1">La grise ! </s>
 	<s id="2">L'ignorant ! </s>
@@ -1862,7 +1911,8 @@
 	<s id="1">Or, un fameux Tartare, que j'ai connu au Japon, a découvert depuis peu avec le... microscome.</s>
 </p> 
 </sp>
-<sp stage="toward" who="ROMARIN"><speaker>ROMARIN, au Baron. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="toward">, au Baron. 
+</stage>
 <p id="17">
 	<s id="1">L'ignorant ! </s>
 	<s id="2">Vous voulez dire le microscope. </s>
@@ -1931,7 +1981,8 @@
 	<s id="1">Je l'ai toujours cru.</s>
 </p> 
 </sp>
-<sp stage="aparte" who="ROMARIN"><speaker>ROMARIN, à part. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="29">
 	<s id="1">Quel diable d'homme est-ce ci ? </s>
 	<s id="2">Il ne raisonne point trop mal. </s>
@@ -1957,7 +2008,8 @@
 	<s id="1">Vous le seriez dans vingt-quatre heures, si, heureusement pour vous, je n'étais venu à Paris. J'ai seul le remède infaillible pour ce mal-là.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROMARIN"><speaker>ROMARIN, au Baron. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="toward">, au Baron. 
+</stage>
 <p id="34">
 	<s id="1">N'en croyez rien, c'est un fourbe. </s>
 </p>
@@ -2014,7 +2066,8 @@
 	<s id="1">Et comment faites-vous ? Il semble que vous jouiez de l'épinette.</s>
 </p> 
 </sp>
-<sp who="PASQUIN"><speaker>PASQUIN, bat avec ses doigts sur le bras du Baron. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage>, bat avec ses doigts sur le bras du Baron. 
+</stage>
 <note type="">Algarot : Terme de Chimie, c'est une poudre qui se fait avec le beurre d'antimoine qui n'est que le régule de ce minerai dissous par les acides [L]. C'est à dire de l'antimoine pur. (Fur) </note>
 <p id="45">
 	<s id="1">C'est la manière des Chinois. </s>
@@ -2071,12 +2124,14 @@
 	<s id="1">Allons, dans moins de vingt-quatre heures vous n'aurez pas une goutte de bile rouge dans le corps, en faisant ce que je vais ordonner.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROMARIN"><speaker>ROMARIN, au Baron. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="toward">, au Baron. 
+</stage>
 <p id="54">
 	<s id="1">Prenez garde à ce que vous ferez. </s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="55">
 	<s id="1">La peste de l'homme !... </s>
 </p>
@@ -2085,20 +2140,23 @@
 	<s id="1">Monsieur, vous savez que chacun de nous a ses secrets, et qu'il n'est pas à propos que Monsieur sache...</s>
 </p> 
 </sp>
-<sp stage="aparte/away" who="ROMARIN"><speaker>ROMARIN, à part, en s'en allant. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte/away">, à part, en s'en allant. 
+</stage>
 <p id="57">
 	<s id="1">Eh ! </s>
 	<s id="2">Je n'en ai que faire. </s>
 	<s id="3">Il faut que je fasse suivre ce drôle-là par mon laquais lorsqu'il sortira d'ici, pour découvrir qui il est.</s>
 </p> 
 </sp>
-<sp stage="low" who="MARTON"><speaker>MARTON, bas. </speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="low">, bas. 
+</stage>
 <p id="58">
 	<s id="1">Gare la cassette. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Baron, Pasquin. Marton. </head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Baron, Pasquin. Marton. 
+</stage>
 <sp who="PASQUIN"><speaker>PASQUIN.</speaker>
 <p id="1">
 	<s id="1">Oh ! </s>
@@ -2207,7 +2265,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Éraste, Mariane, Le Baron, Pasquin, Marton.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Éraste, Mariane, Le Baron, Pasquin, Marton.
+</stage>
 <sp who="PASQUIN"><speaker>PASQUIN.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -2297,7 +2356,8 @@
 	<s id="1">Çà, que faut-il faire ?</s>
 </p> 
 </sp>
-<sp stage="serious" who="PASQUIN"><speaker>PASQUIN, gravement. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="serious">, gravement. 
+</stage>
 <p id="17">
 	<s id="1">Accipe... </s>
 	<s id="é">Tu n'entends pas le Latin ? </s>
@@ -2479,7 +2539,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Éraste, Mariane, Pasquin, Marton.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Éraste, Mariane, Pasquin, Marton.
+</stage>
 <sp who="MARIANE"><speaker>MARIANE.</speaker>
 <p id="1">
 	<s id="1">Vous avez beau dire, Éraste, ces tendres sentiments ne seront pas de durée. </s>
@@ -2548,8 +2609,10 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Baron, Romarin. </head>
-<sp who="LE BARON"><speaker>LE BARON, en robe de chambre et en bonnet de nuit. </speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Baron, Romarin. 
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage>, en robe de chambre et en bonnet de nuit. 
+</stage>
 <p id="1">
 	<s id="1">Oui, tandis qu'hier au soir vous étiez sorti pour aller chercher la cassette dont vous êtes encore en peine, </s>
 	<s id="2">Monsieur_Diamantin, que j'attends ici, me donne le remède qu'on m'avait préparé : il m'en fit bourrer, mais bourrer comme il faut ; et il me faisait aussi avaler de temps en temps de grands verres de sa potion cordiale.</s>
@@ -2657,7 +2720,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Paquinoy, Le Baron, Romarin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Paquinoy, Le Baron, Romarin.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -2686,7 +2750,8 @@
 	<s id="1">Le vent_coulis n'est pas ce que je crains ; mais c'est bien fait de la fermer, il ne vient rien de bon de ce côté-là.</s>
 </p> 
 </sp>
-<sp stage="aparte" who="ROMARIN"><speaker>ROMARIN, à part. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="5">
 	<s id="1">J'ai vu cet homme-là quelque part : il s'appelait autrement... </s>
 	<s id="2">Serviteur, Monsieur. </s>
@@ -2706,7 +2771,8 @@
 	<s id="1">Hé, hé, hé. </s>
 </p>
 </sp>
-<sp stage="aparte" who="ROMARIN"><speaker>ROMARIN, à part. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="9">
 	<s id="1">C'est lui-même. </s>
 	<s id="2">Le drôle ne me reconnaît pas ; il faut que je le découvre. </s>
@@ -2719,8 +2785,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Pasquin, Paquinoy, Romarin. </head>
-<sp stage="location" who="PASQUIN"><speaker>PASQUIN, au fond du Théâtre, où il a trouvé le Baron qui allait fermer la porte.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Pasquin, Paquinoy, Romarin. 
+</stage>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="location">, au fond du Théâtre, où il a trouvé le Baron qui allait fermer la porte.
+</stage>
 <p id="1">
 	<s id="1">Bonjour, Monsieur. </s>
 	<s id="2">L'on va vous apporter tout à l'heure deux fioles de votre potion... </s>
@@ -2760,7 +2828,8 @@
 	<s id="1">Eh ! Messieurs... Monsieur, pour l'honneur de la profession.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part soi. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part soi. 
+</stage>
 <p id="8">
 	<s id="1">Il est vrai qu'ils seraient trop longtemps à se quereller. </s>
 </p>
@@ -2837,13 +2906,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Marton, Romarin, Paquinoy, Pasquin, Le Baron, le Laquais portant deux grandes fioles. </head>
-<sp stage="toward" who="MARTON"><speaker>MARTON, à Romarin. </speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Marton, Romarin, Paquinoy, Pasquin, Le Baron, le Laquais portant deux grandes fioles. 
+</stage>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="toward">, à Romarin. 
+</stage>
 <p id="1">
 	<s id="1">Monsieur, votre laquais est là, qui a quelque chose à vous dire de pressé.</s>
 </p> 
 </sp>
-<sp who="ROMARIN"><speaker>ROMARIN, à part en s'en allant. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage>, à part en s'en allant. 
+</stage>
 <p id="2">
 	<s id="1">Il vient me donner assurément des nouvelles. </s>
 </p>
@@ -2853,8 +2925,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Marton, Le Baron, Pasquin, Paquinoy, un Laquais.</head> 
-<sp stage="show/toward" who="MARTON"><speaker>MARTON à Pasquin, lui montrant ce que porte le laquais. </speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Marton, Le Baron, Pasquin, Paquinoy, un Laquais. 
+</stage> 
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="show/toward"> à Pasquin, lui montrant ce que porte le laquais. 
+</stage>
 <p id="1">
 	<s id="1">Voilà, Monsieur, ce que votre distillateur ordinaire nous a dit de vous apporter. </s>
 </p>
@@ -2871,7 +2945,8 @@
 	<s id="1">À laquelle j'ai donné le goût d'un biscuit. </s>
 </p>
 </sp>
-<sp stage="toward" who="MARTON"><speaker>MARTON, à Paquinoy.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="toward">, à Paquinoy.
+</stage>
 <p id="4">
 	<s id="1">Monsieur, notre Fribourg vous baise les mains. </s>
 </p>
@@ -2892,7 +2967,8 @@
 	<s id="1">Voilà un nom bien extraordinaire. </s>
 </p>
 </sp>
-<sp stage="steal" who="PASQUIN"><speaker>PASQUIN lui ôtant la fiole. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="steal"> lui ôtant la fiole. 
+</stage>
 <p id="9">
 	<s id="1">Oh ! </s>
 	<s id="2">Oh ! </s>
@@ -2910,7 +2986,8 @@
 	<s id="2">Mais allez vite boire, il ne faut pas la laisser éventer.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE BARON"><speaker>LE BARON, à Paquinoy.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à Paquinoy.
+</stage>
 <p id="11">
 	<s id="1">Serviteur, Monsieur, jusqu'au revoir.</s>
 </p>
@@ -2922,14 +2999,17 @@
 	<s id="3">Je ne sortirai point.</s>
 </p>
 </sp>
-<sp stage="exit/aparte" who="MARTON"><speaker>MARTON, en s'en allant, dit à part. </speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="exit/aparte">, en s'en allant, dit à part. 
+</stage>
 <p id="13">
 	<s id="1">Je sais bien le moyen de te faire détaler : attends, attends. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Paquinoy, Pasquin. </head>
-<sp who="PAQUINOY"><speaker>PAQUINOY, à part soi. </speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Paquinoy, Pasquin. 
+</stage>
+<sp who="PAQUINOY"><speaker>PAQUINOY</speaker><stage>, à part soi. 
+</stage>
 <p id="1">
 	<s id="1">Tâchons de gagner cet homme-ci. </s>
 	<s id="2">Monsieur, je sais que vous êtes un homme extraordinaire... </s>
@@ -2964,7 +3044,8 @@
 	<s id="1">Pour cette fois-ci laissez-moi le guérir, et une autre fois je vous le livrerai.</s>
 </p> 
 </sp>
-<sp stage="exit" who="PASQUIN"><speaker>PASQUIN, en sortant. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="exit">, en sortant. 
+</stage>
 <p id="8">
 	<s id="1">Quel diable d'homme ! </s>
 	<s id="2">Si Marton n'y vient donner ordre... </s>
@@ -2977,7 +3058,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Marton, Paquinoy. </head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Marton, Paquinoy. 
+</stage>
 <sp who="MARTON"><speaker>MARTON.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -3046,15 +3128,18 @@
 	<s id="2">C'est Fribourg qui vient.</s>
 </p>
 </sp>
-<sp stage="watch" who="FRIBOURG"><speaker>FRIBOURG, sans être vu. </speaker>
+<sp who="FRIBOURG"><speaker>FRIBOURG</speaker><stage type="watch">, sans être vu. 
+</stage>
 <p id="14">
 	<s id="">Mon camérate, prendre, toi, sti bâton ; prendre, moi, sti sabre. </s>
 </p>
 <stage type="exit/hurry">Paquinoy s'enfuit. </stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Pasquin, Marton, Romarin. </head>
-<sp stage="laugh" who="MARTON"><speaker>MARTON, riant. </speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Pasquin, Marton, Romarin. 
+</stage>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="1">
 	<s id="1">Ah, ah, ah, ah.</s>
 </p>
@@ -3070,7 +3155,8 @@
 	<s id="1">Je l'aurai bientôt congédié.</s>
 </p>
 </sp>
-<sp stage="aparte/location" who="ROMARIN"><speaker>ROMARIN, à part, au fond du Théâtre. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="aparte/location">, à part, au fond du Théâtre. 
+</stage>
 <p id="4">
 	<s id="1">Je l'avais bien dit que mon laquais me portait des nouvelles de ce drôle-là... </s>
 	<s id="2">Ah, ah, Monsieur le fourbe. </s>
@@ -3102,7 +3188,8 @@
 	<s id="1">Il est enfermé.</s>
 </p>
 </sp>
-<sp stage="away" who="ROMARIN"><speaker>ROMARIN, en s'en allant. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="away">, en s'en allant. 
+</stage>
 <p id="10">
 	<s id="1">N'importe, je veux qu'il sache...</s>
 </p>
@@ -3113,7 +3200,8 @@
 	<s id="2">Vous a-t-on rendu fidèlement ce que l'on garantit hier du feu dans votre chambre ? </s>
 </p>
 </sp>
-<sp stage="back/low" who="ROMARIN"><speaker>ROMARIN, revenant, et changeant de voix. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="back/low">, revenant, et changeant de voix. 
+</stage>
 <p id="12">
 	<s id="1">Je pense, qu'oui. </s>
 	<s id="2">Comment ? </s>
@@ -3148,7 +3236,8 @@
 	<s id="1">Le Commissaire du quartier, qui avait accouru au feu, se saisit...</s>
 </p>
 </sp>
-<sp who="ROMARIN"><speaker>ROMARIN, alarmé. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage>, alarmé. 
+</stage>
 <p id="18">
 	<s id="1">De quoi ? </s>
 </p>
@@ -3192,7 +3281,8 @@
 	<s id="2">Vous ne perdrez rien : c'est un homme fort exact, il en a chargé son procès-verbal ; et il est là en bonne compagnie, pour vous rendre le tout en présence de gens.</s>
 </p>
 </sp>
-<sp stage="escape" who="ROMARIN"><speaker>ROMARIN, s'enfuyant. </speaker>
+<sp who="ROMARIN"><speaker>ROMARIN</speaker><stage type="escape">, s'enfuyant. 
+</stage>
 <p id="26">
 	<s id="1">Il est là ? </s>
 	<s id="2">Diantre ! </s>
@@ -3211,7 +3301,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Éraste, Ariste, Mariane, Pasquin, Marton.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Éraste, Ariste, Mariane, Pasquin, Marton.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 <p id="1">
 	<s id="1">Qu'a donc Monsieur de Paquinoy, qui court comme un fou ? </s>
@@ -3279,14 +3370,17 @@
 	<s id="1">Je te les ai apportés, les voilà ; si tu réussis je te les donne.</s>
 </p>
 </sp>
-<sp stage="hide" who="PASQUIN"><speaker>PASQUIN, les mettant dans sa poche. </speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="hide">, les mettant dans sa poche. 
+</stage>
 <p id="12">
 	<s id="">Il n'y a pas de plus sûre caution... Je l'entends. Tenez-vous là cachés quelque part, pour revenir, et nous laissez commencer, Marton et moi.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Le Baron, Pasquin, Marton. </head>
-<sp stage="happy" who="LE BARON"><speaker>LE BARON, un peu gai. </speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Le Baron, Pasquin, Marton. 
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="happy">, un peu gai. 
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Parbleu, Monsieur_Diamantin ! </s>
@@ -3444,7 +3538,8 @@
 	<s id="2">Ne vous en souvient-il pas ?</s>
 </p> 
 </sp>
-<sp stage="dream" who="LE BARON"><speaker>LE BARON, après avoir rêvé. </speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="dream">, après avoir rêvé. 
+</stage>
 <p id="29">
 	<s id="1">Non, parbleu. </s>
 </p>
@@ -3489,7 +3584,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Ariste, Mariane, Éraste, Le Baron, Pasquin, Marton.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Ariste, Mariane, Éraste, Le Baron, Pasquin, Marton.
+</stage>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 <p id="1">
 	<s id="1">Mon frère, je viens vous dire que, suivant l'ordre que vous m'avez donné... </s>
@@ -3500,7 +3596,8 @@
 	<s id="1">Quel ordre ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="ARISTE"><speaker>ARISTE, faisant le surpris. </speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="estonish">, faisant le surpris. 
+</stage>
 <p id="3">
 	<s id="1">Ah ! </s>
 	<s id="2">Ah ! </s>
@@ -3573,7 +3670,8 @@
 	<s id="2">Il a dressé leur contrat, vous l'avez dicté vous-même ; ne vous en souvient-il plus !</s>
 </p> 
 </sp>
-<sp stage="dream/turn/toward" who="LE BARON"><speaker>LE BARON, après avoir rêvé, se tourne vers Pasquin. </speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="dream/turn/toward">, après avoir rêvé, se tourne vers Pasquin. 
+</stage>
 <p id="16">
 	<s id="1">La potion. </s>
 </p>

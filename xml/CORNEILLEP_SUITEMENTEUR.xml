@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1641-1650</periode>
 				<taille>1750-2000</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,28 +28,29 @@
 			<titlePart type="main">LA SUITE DU MENTEUR</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1645'>1645</docDate>
-		<docAuthor id='CORNEILLE, Pierre' bio='corneillep'>Pierre Corneille</docAuthor>
+		<docDate value="1645">1645</docDate>
+		<docAuthor id="CORNEILLE, Pierre" bio="corneillep">Pierre Corneille</docAuthor>
 		<docImprint>
 		</docImprint>
 		<performance>	
-			<premiere date='1644' location='Théâtre du Marais'>Première représentation en 1644 au Théâtre du Marais.</premiere>
+			<premiere date="1644" location="Théâtre du Marais">Première représentation en 1644 au Théâtre du Marais.</premiere>
 		</performance>
 		<castList>
 			<head>ACTEURS</head>
-			<castItem><role id="DORANTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DORANTE</role>.</castItem>
-			<castItem><role id="CLITON" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>CLITON</role>, valet de Dorante.</castItem>
-			<castItem><role id="CLÉANDRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>CLÉANDRE</role>, gentilhomme de Lyon.</castItem>
-			<castItem><role id="MÉLISSE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>MÉLISSE</role>, soeur de Cléandre.</castItem>
-			<castItem><role id="PHILISTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>PHILISTE</role>, ami de Dorante et amoureux de Mélisse.</castItem>
-			<castItem><role id="LYSE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='néant'>LYSE</role>, femme de chambre de Mélisse.</castItem>
-			<castItem><role id="UN PRÉVÔT" sex="1" type="H" statut='prévôt' age='A' stat_amour='néant'>UN PRÉVÔT</role>.</castItem>
+			<castItem><role id="DORANTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DORANTE</role>.</castItem>
+			<castItem><role id="CLITON" sex="1" type="H" statut="valet" age="A" stat_amour="néant">CLITON</role>, valet de Dorante.</castItem>
+			<castItem><role id="CLÉANDRE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">CLÉANDRE</role>, gentilhomme de Lyon.</castItem>
+			<castItem><role id="MÉLISSE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MÉLISSE</role>, soeur de Cléandre.</castItem>
+			<castItem><role id="PHILISTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">PHILISTE</role>, ami de Dorante et amoureux de Mélisse.</castItem>
+			<castItem><role id="LYSE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">LYSE</role>, femme de chambre de Mélisse.</castItem>
+			<castItem><role id="UN PRÉVÔT" sex="1" type="H" statut="prévôt" age="A" stat_amour="néant">UN PRÉVÔT</role>.</castItem>
 		</castList>
 		<set location="Lyon" country="France" periode="XVIIème" gps="45.764043, 4.835659">La scène est à Lyon.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dorante, Cliton.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dorante, Cliton.
+</stage>
 <stage type="entrance/write/show">Dorante paraît écrivant dans une prison et le geôlier ouvrant la porte à Cliton et le lui montrant.</stage>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="1" part="i">Ah ! Monsieur, c'est donc vous ?</l>
@@ -282,8 +283,10 @@
 	<l id="161">Jusque dans la prison elles cherchent les gens.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dorante, Cliton, Lyse.</head>
-<sp who="CLITON"><speaker>CLITON à Lyse.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dorante, Cliton, Lyse.
+</stage>
+<sp who="CLITON"><speaker>CLITON</speaker><stage> à Lyse.
+	</stage>
 	<l id="162">Il ne fait que sortir des mains de trois sergents ;</l>
 	<l id="163">Je t'en veux avertir : un fol espoir te trouble ;</l>
 	<l id="164">Il cajole des mieux, mais il n'a pas le double.</l>
@@ -325,7 +328,8 @@
 	<l id="175">Et ce n'est pas là tout, l'amour ouvre son coffre,</l>
 	<l id="176">Et l'argent qu'elle tient vaut bien le coeur qu'elle offre.</l>
 </sp>
-<sp stage="read" who="DORANTE"><speaker>DORANTE, lit.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="read">, lit.
+	</stage>
 	<p id="1">Au bruit du monde qui vous conduisait prisonnier, j'ai
 mis les yeux à la fenêtre, et vous ai trouvé de si bonne
 mine, que mon coeur est allé dans la même prison que
@@ -353,14 +357,17 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="182">Je serai cependant aveugle en mon bonheur ?</l>
 	<l id="183">Et d'un si grand bienfait j'ignorerai la source ?</l>
 </sp>
-<sp stage="toward" who="CLITON"><speaker>CLITON, à Dorante.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="toward">, à Dorante.
+	</stage>
 	<l id="184">Curiosité bas, prenons toujours la bourse :</l>
 	<l id="185">Souvent c'est perdre tout que vouloir tout savoir.</l>
 </sp>
-<sp stage="toward" who="LYSE"><speaker>LYSE, à Dorante.</speaker>
+<sp who="LYSE"><speaker>LYSE</speaker><stage type="toward">, à Dorante.
+	</stage>
 	<l id="186" part="i">Puis-je la lui donner ?</l>
 </sp>
-<sp stage="toward" who="CLITON"><speaker>CLITON, à Lyse.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="toward">, à Lyse.
+	</stage>
 	<l id="186" part="f">Donne, j'ai tout pouvoir,</l>
 	<l id="187">Quand même ce serait le trésor de Venise.</l>
 </sp>
@@ -383,7 +390,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="192">Je m'en charge pour vous, et la prends pour mon conte.</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Lyse.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Lyse.
+	</stage>
 	<l id="193" part="i">Écoute un mot.</l>
 </sp>
 <sp who="CLITON"><speaker>CLITON.</speaker>
@@ -416,10 +424,12 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="199">Je suis ressuscité ; prêt ou don, ne m'importe.</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Cliton, et puis Lyse.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Cliton, et puis Lyse.
+	</stage>
 	<l id="200">Prends. Je le lui rendrai même avant que je sorte.</l>
 </sp>
-<sp stage="toward" who="CLITON"><speaker>CLITON, à Lyse.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="toward">, à Lyse.
+	</stage>
 	<l id="201">Écoute un mot : tu peux t'en aller à l'instant,</l>
 	<l id="202">Et revenir demain avec encore autant ;</l>
 	<l id="203">Et vous, monsieur, songez à changer de demeure :</l>
@@ -534,10 +544,12 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="LYSE"><speaker>LYSE.</speaker>
 	<l id="236" part="f">Et se nomme ?</l>
 </sp>
-<sp stage="search" who="DORANTE"><speaker>DORANTE, fouillant dans la bourse.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="search">, fouillant dans la bourse.
+	</stage>
 	<l id="237" part="i">Porte-lui cette lettre, et reçois...</l>
 </sp>
-<sp stage="pull" who="CLITON"><speaker>CLITON, lui retenant le bras.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="pull">, lui retenant le bras.
+	</stage>
 	<l id="237" part="f">Sans compter ?</l>
 </sp>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
@@ -574,7 +586,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="249" part="f">Adieu, cher babillard.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorante, Cliton.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="250">Cette fille est jolie, elle a l'esprit gaillard.</l>
 </sp>
@@ -690,30 +703,37 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="315">Mais quelqu'un vient à nous, et j'entends du murmure.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Prévôt, Cléandre, Dorante, Cliton.</head>
-<sp stage="toward" who="CLÉANDRE"><speaker>CLÉANDRE, au prévôt.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Prévôt, Cléandre, Dorante, Cliton.
+</stage>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="toward">, au prévôt.
+	</stage>
 	<l id="316">Ah ! Je suis innocent ; vous me faites injure.</l>
 </sp>
-<sp stage="toward" who="PREVOT"><speaker>LE PRÉVÔT, à Cléandre.</speaker>
+<sp who="PREVOT"><speaker>LE PRÉVÔT</speaker><stage type="toward">, à Cléandre.
+	</stage>
 	<l id="317">Si vous l'êtes, monsieur, ne craignez aucun mal ;</l>
 	<l id="318">Mais comme enfin le mort était votre rival,</l>
 	<l id="319">Et que le prisonnier proteste d'innocence,</l>
 	<l id="320">Je dois sur ce soupçon vous mettre en sa présence.</l>
 </sp>
-<sp stage="toward" who="CLÉANDRE"><speaker>CLÉANDRE, au prévôt.</speaker>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="toward">, au prévôt.
+	</stage>
 	<l id="321">Et si pour s'affranchir il ose me charger ?</l>
 </sp>
-<sp stage="toward" who="PREVOT"><speaker>LE PRÉVÔT, à Cléandre.</speaker>
+<sp who="PREVOT"><speaker>LE PRÉVÔT</speaker><stage type="toward">, à Cléandre.
+	</stage>
 	<l id="322">La justice entre vous en saura bien juger.</l>
 	<l id="323">Souffrez paisiblement que l'ordre s'exécute.</l>
 <stage type="toward">À Dorante.</stage>
 	<l id="324">Vous avez vu, Monsieur, le coup qu'on vous impute.</l>
 	<l id="325">Voyez ce cavalier ; en serait-il l'auteur ?</l>
 </sp>
-<sp stage="low" who="CLÉANDRE"><speaker>CLÉANDRE, bas.</speaker>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="326">Il va me reconnaître. Ah, Dieu ! Je meurs de peur.</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, au prévôt.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, au prévôt.
+	</stage>
 	<l id="327">Souffrez que j'examine à loisir son visage.</l>
 <stage type="low">Bas.</stage>
 	<l id="328">C'est lui, mais il n'a fait qu'en homme de courage ;</l>
@@ -721,17 +741,20 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="330">De perdre un si grand coeur quand je puis le sauver.</l>
 	<l id="331" part="i">Ne le découvrons point.</l>
 </sp>
-<sp stage="low" who="CLÉANDRE"><speaker>CLÉANDRE, bas.</speaker>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="331" part="f">Il me connaît, je tremble.</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, au prévôt.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, au prévôt.
+	</stage>
 	<l id="332">Ce cavalier, Monsieur, n'a rien qui lui ressemble ;</l>
 <stage type="low">Bas.</stage>
 	<l id="333">L'autre est de moindre taille, il a le poil plus blond,</l>
 	<l id="334">Le teint plus coloré, le visage plus rond,</l>
 	<l id="335">Et je le connais moins, tant plus je le contemple.</l>
 </sp>
-<sp stage="low" who="CLÉANDRE"><speaker>CLÉANDRE, bas.</speaker>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="336">Oh ! Générosité qui n'eut jamais d'exemple !</l>
 </sp>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
@@ -743,19 +766,23 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="338">Non, il n'a point de part au duel d'aujourd'hui.</l>
 </sp>
-<sp stage="toward" who="PREVOT"><speaker>LE PRÉVÔT, à Cléandre.</speaker>
+<sp who="PREVOT"><speaker>LE PRÉVÔT</speaker><stage type="toward">, à Cléandre.
+	</stage>
 	<l id="339">Je suis ravi, monsieur, de voir votre innocence</l>
 	<l id="340">Assurée à présent par sa reconnaissance ;</l>
 	<l id="341">Sortez quand vous voudrez, vous avez tout pouvoir.</l>
 	<l id="342">Excusez la rigueur qu'a voulu mon devoir.</l>
 	<l id="343" part="i">Adieu.</l>
 </sp>
-<sp stage="toward" who="CLÉANDRE"><speaker>CLÉANDRE, au prévôt.</speaker>
+<sp who="CLÉANDRE"><speaker>CLÉANDRE</speaker><stage type="toward">, au prévôt.
+	</stage>
 	<l id="343" part="f">Vous avez fait le dû de votre office.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Dorante, Cléandre, Cliton.</head>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Cléandre.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Dorante, Cléandre, Cliton.
+</stage>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Cléandre.
+	</stage>
 	<l id="344">Mon cavalier, pour vous je me fais injustice ;</l>
 	<l id="345">Je vous tiens pour brave homme, et vous reconnais bien ;</l>
 	<l id="346">Faites votre devoir comme j'ai fait le mien.</l>
@@ -772,7 +799,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="350">Et que je périrai pour vous tirer d'ici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dorante, Cliton.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="351">N'est-il pas vrai, Cliton, que c'eût été dommage</l>
 	<l id="352">De livrer au malheur ce généreux courage ?</l>
@@ -836,8 +864,10 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Mélisse, Lyse.</head>
-<sp stage="toward" who="MÉLISSE"><speaker>MÉLISSE, tenant une lettre ouverte en sa main.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Mélisse, Lyse.
+</stage>
+<sp who="MÉLISSE"><speaker>MÉLISSE</speaker><stage type="toward">, tenant une lettre ouverte en sa main.
+	</stage>
 	<l id="387">Certes, il écrit bien : sa lettre est excellente.</l>
 </sp>
 <sp who="LYSE"><speaker>LYSE.</speaker>
@@ -1003,7 +1033,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="482">L'amour d'un inconnu, parce qu'il est de loin.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Cléandre, Mélisse, Lyse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Cléandre, Mélisse, Lyse.
+</stage>
 <sp who="CLÉANDRE"><speaker>CLÉANDRE.</speaker>
 	<l id="483">Envers ce prisonnier as-tu fait cette feinte,</l>
 	<l id="484" part="i">Ma soeur ?</l>
@@ -1098,7 +1129,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="549">Je vous obéirai très ponctuellement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélisse, Lyse.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélisse, Lyse.
+</stage>
 <sp who="LYSE"><speaker>LYSE.</speaker>
 	<l id="550">Vous pouviez dire encore très volontairement ;</l>
 	<l id="551">Et la faveur du ciel vous a bien conservée,</l>
@@ -1161,7 +1193,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="590">Nous résoudrons après touchant l'original.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Philiste, Dorante, Cliton, dans la prison.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Philiste, Dorante, Cliton, dans la prison.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="591">Voilà, mon cher ami, la véritable histoire</l>
 	<l id="592">D'une aventure étrange et difficile à croire ;</l>
@@ -1254,7 +1287,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="651">Cliton divertira votre mélancolie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Dorante, Cliton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="652">Comment va maintenant l'amour ou la folie ?</l>
 	<l id="653">Cette dame obligeante au visage inconnu,</l>
@@ -1326,8 +1360,10 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="692">Qu'avons-nous sans cela besoin de ses paroles ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dorante, Lyse, Cliton.</head>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Lyse.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dorante, Lyse, Cliton.
+</stage>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Lyse.
+	</stage>
 	<l id="693">Je ne t'espérais pas si soudain de retour.</l>
 </sp>
 <sp who="LYSE"><speaker>LYSE.</speaker>
@@ -1483,7 +1519,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="752" part="f">Demain donc je viendrai le reprendre :</l>
 	<l id="753">Je ne puis me résoudre à vous désobliger.</l>
 </sp>
-<sp stage="toward" who="CLITON"><speaker>CLITON, à Dorante, puis à Lyse.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="toward">, à Dorante, puis à Lyse.
+	</stage>
 	<l id="754">Elle se met pour vous en un très grand danger.</l>
 	<l id="755" part="i">Dirons-nous rien nous deux ?</l>
 </sp>
@@ -1507,7 +1544,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="759" part="f">Tout me succède.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Dorante, Cliton.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="760">Viens, Cliton, et regarde. Est-elle vieille ou laide ?</l>
 	<l id="761">Voit-on des yeux plus vifs ? Voit-on des traits plus doux ?</l>
@@ -1544,7 +1582,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cléandre, Dorante, Cliton.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cléandre, Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="783">Je vous en prie encor, discourons d'autre chose,</l>
 	<l id="784">Et sur un tel sujet ayons la bouche close :</l>
@@ -1700,7 +1739,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="879" part="i">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dorante, Cliton.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="879" part="f">Ce brusque adieu marque un trouble dans l'âme :</l>
 	<l id="880" part="i">Sans doute il la connaît.</l>
@@ -1782,7 +1822,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="932">Te fait criminel d'innocent ;</l>
 	<l id="933">Sur toi retombent les vengeances...</l>
 </sp>
-<sp stage="get" who="CLITON"><speaker>CLITON, lui ôtant le portrait.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="get">, lui ôtant le portrait.
+	</stage>
 	<l id="934">Vous ne dites, monsieur, que des extravagances,</l>
 	<l id="935">Et parlez justement le langage des fous.</l>
 	<l id="936">Donnez, j'entretiendrai ce portrait mieux que vous ;</l>
@@ -1838,8 +1879,10 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="968">Je lui regarde aux mains un peu plutôt qu'aux yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorante, Mélisse, déguisée en servante, cachant son visage sous une coiffe ; Cliton, Lyse.</head>
-<sp stage="toward" who="CLITON"><speaker>CLITON, à Lyse.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorante, Mélisse, déguisée en servante, cachant son visage sous une coiffe ; Cliton, Lyse.
+</stage>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="toward">, à Lyse.
+	</stage>
 	<l id="969">Montre ton passe-port. Quoi ? Tu viens les mains vides ?</l>
 	<l id="970">Ainsi détruit le temps les biens les plus solides ;</l>
 	<l id="971">Et moins d'un jour réduit tout votre heur et le mien,</l>
@@ -1921,7 +1964,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1009">N'importe, parlez-lui : du moins vous saurez d'elle</l>
 	<l id="1010">Avec quelle chaleur j'ai pris votre querelle.</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Mélisse.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Mélisse.
+	</stage>
 	<l id="1011" part="i">Son ordre est-il si rude ?</l>
 </sp>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
@@ -1967,7 +2011,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="1036" part="i">Vous dites que...</l>
 </sp>
-<sp stage="toward" who="DORANTE"><speaker>DORANTE, à Cliton.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="toward">, à Cliton.
+	</stage>
 	<l id="1036" part="f">Tais-toi, ta sottise me perd.</l>
 <stage type="toward">À Mélisse.</stage>
 	<l id="1037">Je suivrai ton conseil, il m'a rendu la vie.</l>
@@ -2057,7 +2102,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1093">Sur ma discrétion prenez toute assurance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Philiste, Dorante, Cliton.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Philiste, Dorante, Cliton.
+</stage>
 <sp who="PHILISTE"><speaker>PHILISTE.</speaker>
 	<l id="1094">Ami, notre bonheur passe notre espérance.</l>
 	<l id="1095">Vous avez compagnie ! Ah ! Voyons, s'il vous plaît.</l>
@@ -2149,7 +2195,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1145">Adieu : je vous attends au plus tard dans une heure.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Dorante, Cliton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="1146" part="i">Tu ne dis mot, Cliton.</l>
 </sp>
@@ -2230,7 +2277,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Mélisse, Lyse.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Mélisse, Lyse.
+</stage>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
 	<l id="1185">J'en tremble encor de peur, et n'en suis pas remise.</l>
 </sp>
@@ -2362,7 +2410,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1254">Les uns l'ont importune, et la tienne est jolie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Cléandre, Mélisse, Lyse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Cléandre, Mélisse, Lyse.
+</stage>
 <sp who="CLÉANDRE"><speaker>CLÉANDRE.</speaker>
 	<l id="1255">Je viens d'avoir querelle avec ce prisonnier,</l>
 	<l id="1256" part="i">Ma soeur...</l>
@@ -2511,7 +2560,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1346">Adieu : je vais une heure entretenir Climène.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélisse, Lyse.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélisse, Lyse.
+</stage>
 <sp who="LYSE"><speaker>LYSE.</speaker>
 	<l id="1347">Vous en voilà défaite et quitte à bon marché.</l>
 	<l id="1348">Encore est-il traitable alors qu'il est fâché.</l>
@@ -2577,7 +2627,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1384">Il se verra surpris plus agréablement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dorante, Philiste, Cliton.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dorante, Philiste, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="1385">Me reconduire encore ! Cette cérémonie</l>
 	<l id="1386">D'entre les vrais amis devrait être bannie.</l>
@@ -2610,7 +2661,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1402">Vous saurez mon secret touchant cette maîtresse :</l>
 	<l id="1403">Elle demeure, ami, dans ce grand pavillon.</l>
 </sp>
-<sp stage="low" who="CLITON"><speaker>CLITON, bas.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1404">Tout se prépare mal à cet échantillon.</l>
 </sp>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
@@ -2646,7 +2698,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1417">Vous jugerez quel fruit je puis espérer d'elle</l>
 	<l id="1418">Pour Cliton, il peut faire ici la sentinelle.</l>
 </sp>
-<sp stage="away/toward" who="DORANTE"><speaker>DORANTE, parlant à Cliton, avant que Philiste s'est éloigné.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="away/toward">, parlant à Cliton, avant que Philiste s'est éloigné.
+	</stage>
 	<l id="1419">Que me vient-il de dire ? Et qu'est-ce que je vois ?</l>
 	<l id="1420">Cliton, sans doute il aime en même lieu que moi.</l>
 	<l id="1421">Ô ciel ! Que mon bonheur est de peu de durée !</l>
@@ -2656,7 +2709,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1423">Vous pouvez disputer avec votre valet</l>
 	<l id="1424">À qui mieux de vous deux gardera le mulet.</l>
 </sp>
-<sp stage="away/toward" who="DORANTE"><speaker>DORANTE, parlant à Cliton, après que Philiste s'est éloigné.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="away/toward">, parlant à Cliton, après que Philiste s'est éloigné.
+	</stage>
 	<l id="1425">Que de confusion et de trouble en mon âme !</l>
 </sp>
 <sp who="CLITON"><speaker>CLITON.</speaker>
@@ -2665,7 +2719,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1428">Et nous lui donnerons de jolis passe-temps.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mélisse, Lyse à la fenêtre, Philiste, Dorante, Cliton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mélisse, Lyse à la fenêtre, Philiste, Dorante, Cliton.
+</stage>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
 	<l id="1429" part="i">Est-ce vous ?</l>
 </sp>
@@ -2705,7 +2760,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1440">C'est quelqu'un qu'on maltraite : excusez si j'y cours ;</l>
 	<l id="1441" part="i">Madame, je reviens.</l>
 </sp>
-<sp stage="away/location" who="CLITON"><speaker>CLITON, s'éloignant toujours derrière le théâtre.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="away/location">, s'éloignant toujours derrière le théâtre.
+	</stage>
 	<l id="1441" part="f">On m'égorge, on me tue.</l>
 	<l id="1442" part="i">Au meurtre !</l>
 </sp>
@@ -2721,7 +2777,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
 	<l id="1444" part="f">Je meurs d'effroi.</l>
 </sp>
-<sp stage="location" who="CLITON"><speaker>CLITON, derrière le théâtre.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="location">, derrière le théâtre.
+	</stage>
 	<l id="1445" part="i">Je suis mort.</l>
 </sp>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
@@ -2735,7 +2792,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1448" part="i">Tu flattes mes desirs.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dorante, Mélisse, Lyse.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dorante, Mélisse, Lyse.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="1448" part="f">Madame, ce n'est rien :</l>
 	<l id="1449">Des marauds, dont le vin embrouillait la cervelle,</l>
@@ -2821,7 +2879,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1489">Soyez moins curieux, plus secret, plus modeste,</l>
 	<l id="1490">Sans ombrage, et demain nous parlerons du reste.</l>
 </sp>
-<sp stage="alone" who="DORANTE"><speaker>DORANTE, seul.</speaker>
+<sp who="DORANTE"><speaker>DORANTE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1491">Comme elle est ma maîtresse, elle m'a fait leçon,</l>
 	<l id="1492">Et d'un soupçon je tombe en un autre soupçon.</l>
 	<l id="1493">Lorsque je crains Cléandre, un ami me traverse ;</l>
@@ -2829,7 +2888,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1495" part="i">Je crois l'entendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Dorante, Philiste, Cliton.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Dorante, Philiste, Cliton.
+</stage>
 <sp who="PHILISTE"><speaker>PHILISTE.</speaker>
 	<l id="1495" part="f">Ami, vous m'avez tôt quitté.</l>
 </sp>
@@ -2886,7 +2946,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1532">Un plaisir plus solide et plus long que le mien !</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Dorante, Cliton.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Dorante, Cliton.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="1533">Cliton, si tu le peux, regarde-moi sans rire.</l>
 </sp>
@@ -2980,7 +3041,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Lyse, Cliton.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Lyse, Cliton.
+</stage>
 <sp who="CLITON"><speaker>CLITON.</speaker>
 	<l id="1581">Nous voici bien logés, Lyse, et sans raillerie,</l>
 	<l id="1582">Je ne souhaitais pas meilleure hôtellerie.</l>
@@ -3112,7 +3174,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1644">Il semble toutefois fort triste à son retour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dorante, Cliton, Lyse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dorante, Cliton, Lyse.
+</stage>
 <sp who="DORANTE"><speaker>DORANTE.</speaker>
 	<l id="1645">Tout est perdu, Cliton, il faut ployer bagage.</l>
 </sp>
@@ -3179,7 +3242,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1662">Laisser toute mon âme en prenant congé d'elle !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorante, Mélisse, Lyse, Cliton.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorante, Mélisse, Lyse, Cliton.
+</stage>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
 	<l id="1663">Au bruit de vos soupirs, tremblante et sans couleur,</l>
 	<l id="1664">Je viens savoir de vous mon crime ou mon malheur ;</l>
@@ -3346,7 +3410,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1790">Pour sauver mon honneur, je n'ai plus que la fuite.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dorante, Philiste, Mélisse, Lyse, Cltion.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dorante, Philiste, Mélisse, Lyse, Cltion.
+</stage>
 <sp who="PHILISTE"><speaker>PHILISTE.</speaker>
 	<l id="1791">Ami, je vous rencontre assez heureusement.</l>
 	<l id="1792" part="i">Vous sortiez ?</l>
@@ -3392,12 +3457,14 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1809" part="f">Le ciel à propos nous l'envoie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Dorante, Philiste, Cléandre, Mélisse, Lyse, Cliton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Dorante, Philiste, Cléandre, Mélisse, Lyse, Cliton.
+</stage>
 <sp who="CLÉANDRE"><speaker>CLÉANDRE.</speaker>
 	<l id="1810">Ma soeur, auriez-vous cru ? ... Vous montrez peu de joie !</l>
 	<l id="1811">En si bon entretien qui vous peut attrister ?</l>
 </sp>
-<sp stage="toward" who="MÉLISSE"><speaker>MÉLISSE, à Cléandre.</speaker>
+<sp who="MÉLISSE"><speaker>MÉLISSE</speaker><stage type="toward">, à Cléandre.
+	</stage>
 	<l id="1812">J'en contais le sujet, vous pouvez l'écouter.</l>
 <stage type="toward">À Philiste.</stage>
 	<l id="1813">Vous m'aimez, je l'ai su de votre propre bouche,</l>
@@ -3503,7 +3570,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 <sp who="MÉLISSE"><speaker>MÉLISSE.</speaker>
 	<l id="1896">Vous m'avez fait trembler pour croître mon bonheur.</l>
 </sp>
-<sp stage="toward" who="PHILISTE"><speaker>PHILISTE, à Mélisse.</speaker>
+<sp who="PHILISTE"><speaker>PHILISTE</speaker><stage type="toward">, à Mélisse.
+	</stage>
 	<l id="1897">J'ai voulu voir vos pleurs pour mieux voir votre flamme,</l>
 	<l id="1898">Et la crainte a trahi les secrets de votre âme.</l>
 	<l id="1899">Mais quittons désormais des compliments si vains.</l>
@@ -3512,7 +3580,8 @@ vous êtes, et il m'en demeure assez d'autres à votre service.</p>
 	<l id="1901">Recevez-moi pour tiers d'une amitié si belle,</l>
 	<l id="1902">Et croyez qu'à l'envi je vous serai fidèle.</l>
 </sp>
-<sp stage="alone" who="CLITON"><speaker>CLITON, seul.</speaker>
+<sp who="CLITON"><speaker>CLITON</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1903">Ceux qui sont las debout se peuvent aller seoir,</l>
 	<l id="1904">Je vous donne en passant cet avis, et bonsoir.</l>
 </sp>

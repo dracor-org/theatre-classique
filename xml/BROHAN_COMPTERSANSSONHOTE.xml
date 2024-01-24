@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,15 +28,15 @@
 			<titlePart type="main">COMPTER SANS SON HÔTE</titlePart>
 			<titlePart type="sub">COMÉDIE.</titlePart>
 		</docTitle> 
-		<docDate value='1888'>1888.</docDate>
-		<docAuthor id='BROHAN, Augustine'></docAuthor>
+		<docDate value="1888">1888.</docDate>
+		<docAuthor id="BROHAN, Augustine"/>
 		<docImprint>
-			<printer id='CERF'>Achevé d'imprimer le 1er mai 1888, par CERF et FILS, 59 rue Duplessis, Versailles.</printer>
+			<printer id="CERF">Achevé d'imprimer le 1er mai 1888, par CERF et FILS, 59 rue Duplessis, Versailles.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA DUCHESSE DE PRADINES" sex="2" type="H" statut="duc" age="A" stat_amour='néant'>LA DUCHESSE DE PRADINES</role>, Mme AUGUSTINE BROHAN.</castItem>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS</role>, M. DE NANSOUTY.</castItem>
-		<castItem><role id="LUCY" sex="2" type="H" statut="servante" age="A" stat_amour='néant'>LUCY</role>, Melle BERTIN.</castItem>
+		<castItem><role id="LA DUCHESSE DE PRADINES" sex="2" type="H" statut="duc" age="A" stat_amour="néant">LA DUCHESSE DE PRADINES</role>, Mme AUGUSTINE BROHAN.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>, M. DE NANSOUTY.</castItem>
+		<castItem><role id="LUCY" sex="2" type="H" statut="servante" age="A" stat_amour="néant">LUCY</role>, Melle BERTIN.</castItem>
    </castList>
 <set location="Anjou" country="France" periode="XIXème" gps="47.469741, -0.473594">La scène se passe dans un château de l'Anjou.</set>
 <note>Texte extrait de "Piécettes" par Augustine Brohan, Paris, impr. de Cerf et fils (Versailles), 1888.</note>
@@ -217,7 +217,8 @@ ouvert ; une glace sur le piano ; une fenêtre.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LA DUCHESSE"><speaker>LA DUCHESSE, seule.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="alone">, seule.
+</stage>
 <note type="C">Alexandre de Humbold (1769-1859) : savant berlinois, membre de l'Académie des Sciences de Paris et de la Société de Géographie.</note>
 <p id="1">
 	<s id="1">Il s'en va ; il a le dernier... mais aussi, c'est ma faute ; toutes les femmes qui restent chez elles, pour être veuves, ont quelque ouvrage d'étiquette, noir, blanc, ou gris de lin, qui leur donne une contenance ; voilà une précaution que j'ai négligée ; cela m'embarrasse de causer avec le Marquis, sans rien dans les mains. </s>
@@ -297,9 +298,11 @@ ouvert ; une glace sur le piano ; une fenêtre.</stage>
 	<l id="10">Reviens.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Duchesse, Le Marquis.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Duchesse, Le Marquis.
+</stage>
 <stage type="entrance/closer">Le marquis rentre et se place derrière elle.</stage>
-<sp stage="sing" who="LA DUCHESSE"><speaker>LA DUCHESSE, cessant de chanter.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="sing">, cessant de chanter.
+</stage>
 <p id="1">
 	<s id="1">Je vous préviens, Marquis, que je vous vois dans la glace.</s>
 </p>
@@ -358,7 +361,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">En ce cas, parlez-moi de Monsieur_de_Humboldt, expliquez- moi le Cosmos.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LA DUCHESSE"><speaker>LA DUCHESSE, embarrassée.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="embarrassed">, embarrassée.
+</stage>
 <p id="10">
 	<s id="1">Mais, sans doute : c'est là un beau talent, je... </s>
 	<s id="2">Eh bien, marquis, vous êtes donc revenu ?</s>
@@ -512,7 +516,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="12">Vous n'aurez point ma main.</s>
 </p>
 </sp>
-<sp stage="touch" who="LE MARQUIS"><speaker>LE MARQUIS, lui prenant la main.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="touch">, lui prenant la main.
+</stage>
 <p id="31">
 	<s id="1">J'accepte, en attendant mieux.</s>
 </p>
@@ -569,7 +574,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="1">Duchesse, laissez-moi vous suivre.</s>
 </p>
 </sp>
-<sp stage="exit" who="LA DUCHESSE"><speaker>LA DUCHESSE, sortant.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="exit">, sortant.
+</stage>
 <p id="40">
 	<s id="1">Marquis, essayez de l'absence, qui sait si ce n'est pas là le meilleur moyen de me plaire.</s>
 </p> 
@@ -577,7 +583,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Quel entêtement ! </s>
 	<s id="2">Elle ne conviendra pas qu'elle m'aime, et pourtant, voici bien les fleurs que je lui ai données, elle les a soigneusement gardées, là, dans ce coin brodé.</s>
@@ -602,7 +609,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, Lucy.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, Lucy.
+</stage>
 <sp who="LUCY"><speaker>LUCY.</speaker>
 <p id="1">
 	<s id="1">Que vous a donc fait le diable, Monsieur_le_Marquis, que vous semblez si courroucé contre lui ?</s>
@@ -619,12 +627,14 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="1">Allons donc, Monsieur_le_Marquis... si ma maîtresse vous entendait...</s>
 </p>
 </sp>
-<sp stage="watch" who="LE MARQUIS"><speaker>LE MARQUIS, observant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="watch">, observant.
+</stage>
 <p id="4">
 	<s id="1">De bonne foi, Lucy, cela lui déplairait-il un peu ?</s>
 </p>
 </sp>
-<sp stage="serious" who="LUCY"><speaker>LUCY, gravement.</speaker>
+<sp who="LUCY"><speaker>LUCY</speaker><stage type="serious">, gravement.
+</stage>
 <p id="5">
 	<s id="1">Sans aucun doute, monsieur... </s>
 	<s id="2">Madame la duchesse tient à la décence de sa maison.</s>
@@ -710,7 +720,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">Puis Madame a été, elle-même, dans les serres et a désigné les fleurs à mettre dans les vases.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Elle m'aime, c'est très évident. </s>
 </p>
@@ -736,7 +747,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="1">Je puis vous le dire, Monsieur, car je les ouvre souvent pendant que Madame est à la promenade, c'est très amusant ; il y a d'abord Monsieur Alfred_de_Musset, L'Imitation_de_Jésus-Christ et les Mystères_de_Paris.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="23">
 	<s id="1">Aïe ! </s>
 	<s id="2">Aïe ! </s>
@@ -749,7 +761,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="embarrassed" who="LUCY"><speaker>LUCY, un peu embarrassée.</speaker>
+<sp who="LUCY"><speaker>LUCY</speaker><stage type="embarrassed">, un peu embarrassée.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_le_Marquis, si cela vous est égal, je préfère une honnêteté en or.</s>
 </p>
@@ -764,15 +777,18 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </p>
 <stage type="kiss/exit">Il l'embrasse ; elle se sauve.</stage>
 </sp>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="3">
 	<s id="1">À nous deux, maintenant, Madame la sournoise ; tâchons de vous ennuyer et surtout de vous étonner.</s>
 </p>
 <stage type="sit/sleep">Il s'assied sur le canapé et fait semblant de dormir.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Marquis, La Duchesse.</head>
-<sp stage="entrance/quick" who="LA DUCHESSE"><speaker>LA DUCHESSE, entrant vivement.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Marquis, La Duchesse.
+</stage>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="entrance/quick">, entrant vivement.
+</stage>
 <p id="1">
 	<s id="1">Quel froid, bon Dieu ! </s>
 	<s id="2">Marquis, je vous dois encore de m'être enrhumée ; sans vos conversations saugrenues, je n'aurais sûrement pas songé à quitter ce feu... et je ne me serais pas exposée à... </s>
@@ -786,7 +802,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">Hum ! hum !</s>
 </p>
 </sp>
-<sp stage="open" who="LE MARQUIS"><speaker>LE MARQUIS, sans ouvrir les yeux.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="open">, sans ouvrir les yeux.
+</stage>
 <p id="3">
 	<s id="1">Je vois ce que c'est...</s>
 </p>
@@ -809,7 +826,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">Oui, sans doute, je tousse parce que j'ai pris froid... et si vous n'étiez pas là, encombrant mon canapé, j'aurais quelque chance de pouvoir me chauffer les pieds.</s>
 </p>
 </sp>
-<sp stage="stand" who="LE MARQUIS"><speaker>LE MARQUIS, se levant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="stand">, se levant.
+</stage>
 <p id="7">
 	<s id="1">Duchesse, vous me maltraitez trop, et je m'en vais tout de bon, cette fois.</s>
 </p>
@@ -867,7 +885,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">Ne puis-je parler de vos caprices, qui sont un de vos charmes, Madame, sans vous sembler grossier et mal appris ?...</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA DUCHESSE"><speaker>LA DUCHESSE, à part.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Il me faut tout mon sang-froid pour ne pas lui dire de méchantes choses. M'aime-t-il réellement ?...</s>
 </p>
@@ -975,7 +994,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">- Vous ne reconnaissez pas votre coeur, et cet excès d'attention...</s>
 </p>
 </sp>
-<sp stage="silence" who="LA DUCHESSE"><speaker>LA DUCHESSE, après un silence.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="silence">, après un silence.
+</stage>
 <p id="37">
 	<s id="1">L'affreux temps ! </s>
 	<s id="2">- Que faites-vous donc, mon cousin ?</s>
@@ -1013,7 +1033,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="8">Ayez un regret pour l'amant fidèle, pour l'ami sincère que vous repoussez si cruellement, adieu !</s>
 </p>
 </sp>
-<sp stage="" who="LA DUCHESSE"><speaker>LA DUCHESSE, un peu émue.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="">, un peu émue.
+</stage>
 <p id="43">
 	<s id="1">Adieu ! </s>
 	<s id="2">Rêvez-vous ? </s>
@@ -1026,7 +1047,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp who="LA DUCHESSE"><speaker>LA DUCHESSE, seule et émue.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage>, seule et émue.
+</stage>
 <p id="1">
 	<s id="1">Pauvre homme, comme il souffre ! </s>
 	<s id="2">Il dit vrai, c'est un ami sincère... un amant fidèle, et quoiqu'il dorme dans le jour, ce qui est un horrible défaut, j'aimerais mieux épouser lui que tout autre ; mais quand à peine je suis veuve et libre...</s>
@@ -1038,18 +1060,22 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Duchesse, assise, Lucy.</head>
-<sp stage="toward/carry" who="LA DUCHESSE"><speaker>LA DUCHESSE, à Lucy qui apporte du bois.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Duchesse, assise, Lucy.
+</stage>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="toward/carry">, à Lucy qui apporte du bois.
+</stage>
 <p id="1">
 	<s id="1">Où donc est le Marquis ?</s>
 </p>
 </sp>
-<sp stage="drop" who="LUCY"><speaker>LUCY, mettant du bois au feu.</speaker>
+<sp who="LUCY"><speaker>LUCY</speaker><stage type="drop">, mettant du bois au feu.
+</stage>
 <p id="2">
 	<s id="1">Monsieur le Marquis, Madame ? Il est sur le grand bassin ; il patine...</s>
 </p>
 </sp>
-<sp stage="surprise" who="LA DUCHESSE"><speaker>LA DUCHESSE, très surprise.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="surprise">, très surprise.
+</stage>
 <p id="3">
 	<s id="1">Comment ! </s>
 	<s id="2">Il patine ?</s>
@@ -1072,7 +1098,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le Marquis, La Duchesse.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le Marquis, La Duchesse.
+</stage>
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1106,7 +1133,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="1">C'était par fierté, Duchesse, pour que vous ne vous réjouissiez pas de ce que je souffre.</s>
 </p>
 </sp>
-<sp stage="wait" who="LA DUCHESSE"><speaker>LA DUCHESSE, après un temps.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="wait">, après un temps.
+</stage>
 <p id="7">
 	<s id="">Je ne sais que faire de vous, en vérité !</s>
 </p>
@@ -1264,7 +1292,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="8">Où trouverez-vous jamais un coeur plus épris, une affection plus sincère et plus vive ?</s>
 </p>
 </sp>
-<sp stage="touch" who="LA DUCHESSE"><speaker>LA DUCHESSE, émue.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="touch">, émue.
+</stage>
 <p id="29">
 	<s id="1">Mon cousin ! </s>
 	<s id="2">Mon cousin ! </s>
@@ -1279,7 +1308,8 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="4">D'un mot vous pouvez tout changer en joie ; vous voyez bien que je l'espère, que je l'attends !</s>
 </p>
 </sp>
-<sp who="LUCY"><speaker>LUCY, un plat d'argent à la main.</speaker>
+<sp who="LUCY"><speaker>LUCY</speaker><stage>, un plat d'argent à la main.
+</stage>
 <p id="31">
 	<s id="1">Madame, voici Monsieur_Le_Louvetier_Restaud-Mondragon_de_Céricourt, qui fait demander l'honneur de dîner avec Madame_la_Duchesse.</s>
 </p>
@@ -1304,12 +1334,14 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="1">Sur un plat d'argent.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, emphatiquement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, emphatiquement.
+</stage>
 <p id="36">
 	<s id="1">« Madame, il fait grand vent, et j'ai tué six loups. »</s>
 </p>
 </sp>
-<sp stage="frighten" who="LA DUCHESSE"><speaker>LA DUCHESSE, feignant la terreur.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="frighten">, feignant la terreur.
+</stage>
 <p id="37">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>
@@ -1351,13 +1383,15 @@ table; la Duchesse prend le livre ; le Marquis la regardant.</stage>
 	<s id="2">Le louvetier n'est plus votre louvetier ; votre voisin n'est plus votre voisin ; sa forêt n'est plus sa forêt; j'ai acheté ce matin même la baronnie de Céricourt, et, pour peu que cela vous plaise, une fois par an, le jeudi-gras, sans sortir de chez vous, vous serez Madame_la_Louvetière, baronne_de_Mondragon_de_Céricourt.</s>
 </p>
 </sp>
-<sp stage="touch" who="LA DUCHESSE"><speaker>LA DUCHESSE, lui donnant la main et plaisamment.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="touch">, lui donnant la main et plaisamment.
+</stage>
 <p id="43">
 	<s id="1">Oh ! </s>
 	<s id="2">Pour le coup, voilà qui me décide tout à fait ; que ne le disiez-vous plus tôt, Marquis ?</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, lui baisant la main.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, lui baisant la main.
+</stage>
 <p id="44">
 	<s id="1">Ah ! </s>
 	<s id="2">Duchesse, Duchesse, vous le voyez, le proverbe a raison : il ne faut. jamais compter sans son hôte.</s>

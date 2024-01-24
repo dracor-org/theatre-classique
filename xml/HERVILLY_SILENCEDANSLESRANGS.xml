@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -27,21 +27,21 @@
 			<titlePart type="main">SILENCE DANS LES RANGS !</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 			</docTitle> 
-		<docDate value='1876'>1876</docDate>
+		<docDate value="1876">1876</docDate>
 		<docAuthor id="HERVILLY, Ernest d'">PAR M. ERNEST D'HERVILLY</docAuthor>
 		<docImprint>
-				<printer id='OLLENDORF'>À PARIS, Chez Paul OLLENDORFF, ÉDITEUR, 28 bis rue de Richelieu.</printer>
+				<printer id="OLLENDORF">À PARIS, Chez Paul OLLENDORFF, ÉDITEUR, 28 bis rue de Richelieu.</printer>
 		</docImprint>
 		<performance>	
-			<premiere date='1875-03-19' location='Cercle artistique et littéraire de Bruxelles'>Représentée pour la première fois au Cercle artistique et littéraire de Bruxelles, le 19 mars 1875.</premiere>
+			<premiere date="1875-03-19" location="Cercle artistique et littéraire de Bruxelles">Représentée pour la première fois au Cercle artistique et littéraire de Bruxelles, le 19 mars 1875.</premiere>
 		</performance>
 			<editor>PARIS, PAUL OLLENDORF, ÉDITEUR, 28 bis, rue de Richelieu.</editor>
-			<acheveImprime id=''>PARIS. IMPRIMERIE JULES LE CLERE et Cie, rue Cassette, 29.</acheveImprime>
+			<acheveImprime id="">PARIS. IMPRIMERIE JULES LE CLERE et Cie, rue Cassette, 29.</acheveImprime>
 		<castList>
 			<head>PERSONNAGES.</head>
-			<castItem><role id="DAVID" sex="1" type='H' statut='capitaine' age='A' statut_amoureux="néant">DAVID</role>, capitaine au 151e de ligne. M. C. Coquelin.</castItem>
-			<castItem><role id="GEORGES DE HAZEBROUCK" sex="1" type='H' statut='commandant' age='A' statut_amoureux="néant">GEORGES DE HAZEBROUCK</role>, commandant en retraite. M. Coquelin cadet.</castItem>
-			<castItem><role id="GABRIELLE" sex="2" type='H' statut='bourgeois' age='A' statut_amoureux="néant">GABRIELLE</role>, sa jeune soeur. Melle Bartet.</castItem>
+			<castItem><role id="DAVID" sex="1" type="H" statut="capitaine" age="A" statut_amoureux="néant">DAVID</role>, capitaine au 151e de ligne. M. C. Coquelin.</castItem>
+			<castItem><role id="GEORGES DE HAZEBROUCK" sex="1" type="H" statut="commandant" age="A" statut_amoureux="néant">GEORGES DE HAZEBROUCK</role>, commandant en retraite. M. Coquelin cadet.</castItem>
+			<castItem><role id="GABRIELLE" sex="2" type="H" statut="bourgeois" age="A" statut_amoureux="néant">GABRIELLE</role>, sa jeune soeur. Melle Bartet.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Le théâtre représente l'intérieur du passage Jouffroy.</set>
 		<note>Extrait de Théâtre de Campagne, Quatrième série, Paris, Paul Ollendrof, 1878. pp. 35-42</note>
@@ -119,13 +119,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Georges, Gabrielle.</head>
-<sp who="GEORGES"><speaker>GEORGES, gaiement.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Georges, Gabrielle.
+</stage>
+<sp who="GEORGES"><speaker>GEORGES</speaker><stage>, gaiement.
+</stage>
 <p id="1">
 	<s id="1">Bonjour, petite soeur ; déjà au travail, ma jolie abeille ?</s>
 </p>
 </sp>
-<sp stage="wave" who="GABRIELLE"><speaker>GABRIELLE, faisant le salut militaire.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="wave">, faisant le salut militaire.
+</stage>
 <note type="C">Le Maréchal Josias de Rantzau (1609-1650) fut un brillant militaire qui se fit une immense réputation de glorieux aventurier.</note>
 <p id="2">
 	<s id="">Bonjour, Maréchal de Rantzau !</s>
@@ -173,7 +176,8 @@
 	<s id="4">Tu as l'air troublé !..</s>
 </p>
 </sp>
-<sp stage="smile" who="GABRIELLE"><speaker>GABRIELLE, souriant.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="7">
 	<s id="1">Moi, Georges !</s>
 </p>
@@ -207,7 +211,8 @@
 	<s id="3">Je vous bénis.</s>
 </p>
 </sp>
-<sp stage="sweet" who="GABRIELLE"><speaker>GABRIELLE, avec douceur.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="sweet">, avec douceur.
+</stage>
 <p id="11">
 	<s id="1">Non ; monsieur le capitaine David ne m'a pas fait l'honneur de me demander</s>
 </p> ma main...
@@ -400,7 +405,8 @@
 	<s id="2">Et en avant !</s>
 </p>
 </sp>
-<sp stage="listen" who="GABRIELLE"><speaker>GABRIELLE, prêtant l'oreille.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="listen">, prêtant l'oreille.
+</stage>
 <p id="37">
 	<s id="1">J'entends le pas du capitaine David...</s>
 </p>
@@ -411,21 +417,24 @@
 	<s id="2">Laisse-moi lui dire deux mots d'amitié, d'abord.</s>
 </p>
 </sp>
-<sp stage="smile" who="GABRIELLE"><speaker>GABRIELLE, souriant.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="39">
 	<s id="1">Sois bon... avec modération, Georges.</s>
 </p>
 <stage type="exit/location">Elle sort par la porte de gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. David, Georges.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> David, Georges.
+</stage>
 <sp who="GEORGES"><speaker>GEORGES.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Te voilà, Monsieur le flâneur.</s>
 </p>	
 </sp>
-<sp stage="dress" who="DAVID"><speaker>DAVID, en toilette de cérémonie.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="dress">, en toilette de cérémonie.
+</stage>
 <p id="2">
 	<s id="1">Oui, mon commandant... </s>
 	<s id="2">Et à vos ordres...</s>
@@ -445,7 +454,8 @@
 	<s id="1">Mon commandant, je veux dire Georges, c'est que je suis sur le point de faire une démarche grave dans cinq minutes : je vais demander la main d'une jeune personne.</s>
 </p>
 </sp>
-<sp stage="happy" who="GEORGES"><speaker>GEORGES, avec joie.</speaker>
+<sp who="GEORGES"><speaker>GEORGES</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="5">
 	<s id="1">Allons donc ! </s>
 	<s id="2">Tu y viens enfin, mon vieux copain ! </s>
@@ -507,7 +517,8 @@
 	<s id="2">Ce matin, j'ai pris mon courage des dimanches, j'ai passé la grande tenue civile et je vais aller solliciter la main de Mademoiselle Lucie Raymond.</s>
 </p>
 </sp>
-<sp stage="surprise" who="GEORGES"><speaker>GEORGES, tombant des nues.</speaker>
+<sp who="GEORGES"><speaker>GEORGES</speaker><stage type="surprise">, tombant des nues.
+</stage>
 <p id="13">
 	<s id="1">Lucie Raymond !... </s>
 	<s id="2">Lucie!... </s>
@@ -529,7 +540,8 @@
 	<s id="3">Mais tu l'aimes donc, la petite n°4 du père Raymond ?</s>
 </p>
 </sp>
-<sp stage="cold" who="DAVID"><speaker>DAVID, assez froidement.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="cold">, assez froidement.
+</stage>
 <p id="16">
 	<s id="1">Non, pas encore, mais c'est une très bonne créature !... </s>
 	<s id="2">Et puis je rendrai service au bonhomme Raymond. </s>
@@ -543,7 +555,8 @@
 	<s id="3">Mais tu es le capitaine au petit manteau bleu, mon cher !...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DAVID"><speaker>DAVID, avec embarras.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="18">
 	<s id="1">Ce n'est pas par charité !... </s>
 	<s id="2">C'est par sympathie... </s>
@@ -557,7 +570,8 @@
 	<s id="10">Lucie sera ma brioche...</s>
 </p>
 </sp>
-<sp who="GEORGES"><speaker>GEORGES, à mi-voix.</speaker>
+<sp who="GEORGES"><speaker>GEORGES</speaker><stage>, à mi-voix.
+</stage>
 <p id="19">
 	<s id="1">Aveugle, va !</s>
 </p>
@@ -593,7 +607,8 @@
 	<s id="1">Alors, tu m'approuves ?</s>
 </p>
 </sp>
-<sp stage="anger" who="GEORGES"><speaker>GEORGES, avec colère.</speaker>
+<sp who="GEORGES"><speaker>GEORGES</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="25">
 	<s id="1">Comme le colonel Verdière ! </s>
 	<s id="2">Va-t'en au diable !</s>
@@ -608,8 +623,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Gabrielle, Georges.</head>
-<sp stage="entrance/location" who="GABRIELLE"><speaker>GABRIELLE, passant la tête par la porte entrebaillée.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Gabrielle, Georges.
+</stage>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="entrance/location">, passant la tête par la porte entrebaillée.
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">F A I T fait ?</s>
@@ -718,9 +735,11 @@
 <stage type="exit/location">Il sort par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Gabrielle, David.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Gabrielle, David.
+</stage>
 <stage type="sit/work">Gabrielle s'assied et fait de la tapisserie avec ardeur. David paraît à la porte du fond, la tète basse.</stage>
-<sp who="DAVID"><speaker>DAVID, sans voir Gabrielle.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage>, sans voir Gabrielle.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Quelle sombre roulette que la vie ! </s>
@@ -735,7 +754,8 @@
 	<s id="1">Merci, Capitaine...</s>
 </p>
 </sp>
-<sp stage="anxious" who="DAVID"><speaker>DAVID, avec inquiétude.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="anxious">, avec inquiétude.
+</stage>
 <p id="3">
 	<s id="1">Comment ! </s>
 	<s id="2">Vous étiez là, mademoiselle ?</s>
@@ -833,7 +853,8 @@
 	<s id="3">Je débutais en homme d'honneur, franchement, sans rien cacher ; j'étais sur le terrain, je mettais habit bas, et je découvrais ma poitrine !</s>
 </p>
 </sp>
-<sp stage="aparte" who="GABRIELLE"><speaker>GABRIELLE, à part.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Quel fou ! </s>
 </p>
@@ -842,12 +863,14 @@
 	<s id="1">Et qu'a répondu Lucie à votre séduisant préambule ?...</s>
 </p>
 </sp>
-<sp stage="furious" who="DAVID"><speaker>DAVID, furieux.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="furious">, furieux.
+</stage>
 <p id="20">
 	<s id="1">Elle m'a ri au nez, en me renvoyant aux calendes grecques.</s>
 </p>
 </sp>
-<sp stage="laugh" who="GABRIELLE"><speaker>GABRIELLE, riant.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="21">
 	<s id="1">Il n'est pas possible !</s>
 </p>
@@ -889,7 +912,8 @@
 	<s id="11">Pardon, je veux dire un gantelet de fer sous une main de velours ; enfin, bref, vous me comprenez... et ce n'est pas une femmelette comme vous, ma chère Gabrielle, qui ferait mon affaire, voilà !...</s>
 </p>
 </sp>
-<sp stage="quick" who="GABRIELLE"><speaker>GABRIELLE,vivement.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="quick">,vivement.
+</stage>
 <p id="27">
 	<s id="1">Capitaine David !</s>
 </p>
@@ -936,7 +960,8 @@
 	<s id="2">Et je vous disais que...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="GABRIELLE"><speaker>GABRIELLE, l'interrompant.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="32">
 	<s id="1">Pardon, capitaine ; moi femmelette, je n'ordonne pas, je prie ; voulez-vous me rendre un autre service maintenant ?</s>
 </p>
@@ -946,14 +971,16 @@
 	<s id="1">Vingt-deux, Mademoiselle !</s>
 </p>
 </sp>
-<sp stage="laugh" who="GABRIELLE"><speaker>GABRIELLE,riant.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="laugh">,riant.
+</stage>
 <note type="L">Purpurin : Qui approche de la couleur de pourpre. [L]</note>
 <p id="34">
 	<s id="1">Eh bien, recevez de mes blanches mains ce magnifique écheveau de laine purpurine, et daignez m'aider à le dévider sans retard... </s>
 </p>
 <stage type="give">Elle lui offre un écheveau volumineux.</stage>
 </sp>
-<sp stage="give" who="DAVID"><speaker>DAVID, tendant les mains.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="give">, tendant les mains.
+</stage>
 <p id="35">
 	<s id="1">Oui, mais vous me laisserez achever mes doléances, Mademoiselle ?</s>
 </p>
@@ -964,7 +991,8 @@
 </p>
 <stage type="work">Elle lui arrange l'échevau sur les doigts. </stage>
 </sp>
-<sp stage="sit/kneel/stand" who="DAVID"><speaker>DAVID s'assied sur un tabouret, à ses genoux. Puis il se relève, et, en parlant, pivote sur lui-même. La laine s'enroule autour de lui.</speaker> 
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="sit/kneel/stand"> s'assied sur un tabouret, à ses genoux. Puis il se relève, et, en parlant, pivote sur lui-même. La laine s'enroule autour de lui. 
+</stage> 
 <p id="37">
 	<s id="1">Bref comme une carpe ! </s>
 	<s id="2">Je vous disais que je veux être l'esclave de ma femme. </s>
@@ -1019,7 +1047,8 @@
 	<s id="3">Avec cela, sans me flatter, qu'elle en trouvera beaucoup et souvent des bons garçons comme moi, joueur, coureur, flâneur, viveur... mais honnête et sensible, mais tendre, mais sincère...</s>
 </p>
 </sp>
-<sp stage="up" who="GABRIELLE"><speaker>GABRIELLE, lui relevant vivement les mains.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="up">, lui relevant vivement les mains.
+</stage>
 <p id="44">
 	<s id="1">Capitaine ! </s>
 	<s id="2">Capitaine ! </s>
@@ -1045,7 +1074,8 @@
 	<s id="6">Taisez-vous, s'il vous plaît, et relevez les pouces.</s>
 </p>
 </sp>
-<sp stage="offended" who="DAVID"><speaker>DAVID, grognon.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="offended">, grognon.
+</stage>
 <p id="47">
 	<s id="1">Non, je ne me tairai pas.</s>
 </p>
@@ -1057,7 +1087,8 @@
 	<s id="3">Lucie a pu vous éconduire, mais elle n'en reste pas moins une fille charmante.</s>
 </p>
 </sp>
-<sp stage="anger" who="DAVID"><speaker>DAVID, en colère.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="anger">, en colère.
+</stage>
 <p id="49">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Non ! </s>
@@ -1113,7 +1144,8 @@
 	<s id="1">Relevez le pouce droit...</s>
 </p>
 </sp>
-<sp stage="quiet" who="DAVID"><speaker>DAVID, il obéit.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="quiet">, il obéit.
+</stage>
 <p id="58">
 	<s id="1">Mais c'est que je commence à être fatigué, Mademoiselle !</s>
 </p>
@@ -1156,7 +1188,8 @@
 </p>
 <stage type="stand">Il se lève.</stage>
 </sp>
-<sp stage="strong/sit" who="GABRIELLE"><speaker>GABRIELLE, le forçant à se rasseoir.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="strong/sit">, le forçant à se rasseoir.
+</stage>
 <p id="66">
 	<s id="">Restez ici !</s>
 </p>
@@ -1173,7 +1206,8 @@
 </p>
 <stage type="stand">Il se lève de nouveau.</stage>
 </sp>
-<sp stage="kneel" who="GABRIELLE"><speaker>GABRIELLE, le faisant tomber à genoux.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="kneel">, le faisant tomber à genoux.
+</stage>
 <p id="68">
 	<s id="">Silence dans les rangs !</s>
 </p>
@@ -1255,7 +1289,8 @@
 	<s id="1">Mademoiselle, je n'ai jamais reculé d'une semelle et je suis franc ; je suis coureur, viveur, querelleur, flâneur, soit ! mais vous, vous êtes...</s>
 </p>
 </sp>
-<sp stage="slap" who="GABRIELLE"><speaker>GABRIELLE, lui donnant un soufflet.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="slap">, lui donnant un soufflet.
+</stage>
 <p id="82">
 	<s id="1">Silence dans les rangs !</s>
 </p>
@@ -1271,8 +1306,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Georges.</head>
-<sp who="DAVID"><speaker>DAVID, se frottant la joue.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Georges.
+</stage>
+<sp who="DAVID"><speaker>DAVID</speaker><stage>, se frottant la joue.
+</stage>
 <p id="1">
 	<s id="1">Bigre ! </s>
 	<s id="2">Le commandant ! </s>
@@ -1324,7 +1361,8 @@
 	<s id="2">Et l'homme qui essaie de supplanter un ami de vingt ans dans le coeur d'une femme, celui qui forme le projet d'enlever la fiancée d'un camarade, n'est-il pas plus déshonoré encore que l'homme qui reçoit une petite claque de la petite main d'une petite fille, tonnerre... de printemps !</s>
 </p>
 </sp>
-<sp who="DAVID"><speaker>DAVID, gravement.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage>, gravement.
+</stage>
 <note type="L">Bambocheur : Homme, femme de vie déréglée. Populaire. [L]</note>
 <p id="9">
 	<s id="1">Oh ! </s>
@@ -1376,14 +1414,16 @@
 	<s id="6">Comme dit la chanson, ou l'histoire, je ne sais plus au juste... et adore ce que tu voulais... fuir.</s>
 </p>
 </sp>
-<sp stage="knelle" who="DAVID"><speaker>DAVID, aux genoux de Gabrielle.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="knelle">, aux genoux de Gabrielle.
+</stage>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">Mademoiselle ! </s>
 	<s id="3">Est-ce que vous pourrez oublier jamais...</s>
 </p>
 </sp>
-<sp stage="sweet" who="GABRIELLE"><speaker>GABRIELLE, doucement.</speaker>
+<sp who="GABRIELLE"><speaker>GABRIELLE</speaker><stage type="sweet">, doucement.
+</stage>
 <p id="17">
 	<s id="1">Silence dans les rangs !</s>
 </p>
@@ -1421,7 +1461,8 @@
 	<s id="4">Je me sens si heureux que j'oublie de tousser, ma parole !</s>
 </p>
 </sp>
-<sp stage="kiss" who="DAVID"><speaker>DAVID, il embrasse le commandant.</speaker>
+<sp who="DAVID"><speaker>DAVID</speaker><stage type="kiss">, il embrasse le commandant.
+</stage>
 <p id="23">
 	<s id="1">Mon frère !... </s>
 	<s id="2">C'est le colonel Verdière qui va être étonné ! </s>

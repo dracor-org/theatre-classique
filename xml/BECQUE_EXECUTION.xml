@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,26 +28,27 @@
 			<titlePart type="main">UNE EXÉCUTION</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>			
 		</docTitle> 
-		<docDate value='1924'>M CM XXIV</docDate>
-		<docAuthor id='BECQUE, Henry'>d'Henry BECQUE.</docAuthor>
+		<docDate value="1924">M CM XXIV</docDate>
+		<docAuthor id="BECQUE, Henry">d'Henry BECQUE.</docAuthor>
 		<docImprint>
 			<editor>PARIS, Les édition G. GRÈS et compagnie, 21 rue d'Hautefeuille, 21.</editor>
 			<printer>5543. Tours, Imprimerie E. Arrault, et Cie.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE MAIRE" sex="1" type="H" statut='maire' age='A' stat_amour='néant'>LE MAIRE</role>.</castItem>
-		<castItem><role id="L'EMPLOYÉ DE LA GARE" sex="1" type="H" statut='employé' age='A' stat_amour='néant'>L'EMPLOYÉ DE LA GARE</role>.</castItem>
-		<castItem><role id="TABOURET" sex="1" type="H" statut='cafetier' age='A' stat_amour='néant'>TABOURET</role>, cafetier.</castItem>
-		<castItem><role id="ROBINEAU" sex="1" type="H" statut='taileur' age='A' stat_amour='néant'>ROBINEAU</role>, tailleur.</castItem>
-		<castItem><role id="GROS-JEAN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>GROS-JEAN</role>.</castItem>
-		<castItem><role id="JUSTIN" sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>JUSTIN</role>.</castItem>
+		<castItem><role id="LE MAIRE" sex="1" type="H" statut="maire" age="A" stat_amour="néant">LE MAIRE</role>.</castItem>
+		<castItem><role id="L'EMPLOYÉ DE LA GARE" sex="1" type="H" statut="employé" age="A" stat_amour="néant">L'EMPLOYÉ DE LA GARE</role>.</castItem>
+		<castItem><role id="TABOURET" sex="1" type="H" statut="cafetier" age="A" stat_amour="néant">TABOURET</role>, cafetier.</castItem>
+		<castItem><role id="ROBINEAU" sex="1" type="H" statut="taileur" age="A" stat_amour="néant">ROBINEAU</role>, tailleur.</castItem>
+		<castItem><role id="GROS-JEAN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GROS-JEAN</role>.</castItem>
+		<castItem><role id="JUSTIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">JUSTIN</role>.</castItem>
     </castList>
 	<set location="Province" country="France" periode="XIXème" gps="">À la gare d'une petite ville.</set>
 <note>Texte issu de l'ouvrage "HENRY BECQUES, OEuvres complète, tome III", Paris, G. Grès, 1924. pp.283-298.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UNE EXÉCUTION</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. LE MAIRE, UN EMPLOYÉ DE LA GARE.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> LE MAIRE, UN EMPLOYÉ DE LA GARE.
+</stage>
 <sp who="L'EMPLOYÉ"><speaker>L'EMPLOYÉ.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Monsieur_le_Maire.</s>
@@ -77,7 +78,8 @@
 	<s id="2">Vous savez que ce train-là est express et qu'il n'y a que des premières.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MAIRE"><speaker>LE MAIRE, à lui-même.</speaker>
+<sp who="LE MAIRE"><speaker>LE MAIRE</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="6">
 	<s id="1">Non, je ne le savais pas. </s>
 	<s id="2">Comment, ce mauvais drôle voyagera en première classe, quand je ne prends jamais que des secondes ! </s>
@@ -116,8 +118,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Maire, Tabouret.</head>
-<sp stage="entrance" who="TABOURET"><speaker>TABOURET, entrant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Maire, Tabouret.
+</stage>
+<sp who="TABOURET"><speaker>TABOURET</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="1">
 	<s id="1">Bonjour, Monsieur_le_Maire.</s>
 </p>
@@ -127,7 +131,8 @@
 	<s id="1">Je vous salue, Monsieur_Tabouret.</s>
 </p>
 </sp>
-<sp stage="away/back" who="TABOURET"><speaker>TABOURET, allant de droite à gauche.</speaker>
+<sp who="TABOURET"><speaker>TABOURET</speaker><stage type="away/back">, allant de droite à gauche.
+</stage>
 <p id="3">
 	<s id="1">Vous allez à Paris, Monsieur_le_Maire ?</s>
 </p>
@@ -229,8 +234,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Maire, Robineau.</head>
-<sp stage="entrance" who="ROBINEAU"><speaker>ROBINEAU, entrant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Maire, Robineau.
+</stage>
+<sp who="ROBINEAU"><speaker>ROBINEAU</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_le_Maire se porte bien ?</s>
 </p>
@@ -241,7 +248,8 @@
 	<s id="2">Qu'est-ce que vous venez faire ici ?</s>
 </p>
 </sp>
-<sp stage="low/smile" who="ROBINEAU"><speaker>ROBINEAU, bas, en souriant.</speaker>
+<sp who="ROBINEAU"><speaker>ROBINEAU</speaker><stage type="low/smile">, bas, en souriant.
+</stage>
 <p id="3">
 	<s id="1">Je viens voir.</s>
 </p>
@@ -300,7 +308,8 @@
 </p>
 <stage type="laugh">Il rit.</stage>
 </sp>
-<sp stage="watch" who="LE MAIRE"><speaker>LE MAIRE, après l'avoir regardé sévèrement.</speaker>
+<sp who="LE MAIRE"><speaker>LE MAIRE</speaker><stage type="watch">, après l'avoir regardé sévèrement.
+</stage>
 <p id="14">
 	<s id="1">Dans ce cas, Robineau, vous avez bien fait de venir. </s>
 	<s id="2">J'attends Gros-Jean, le garde champêtre. </s>
@@ -336,7 +345,8 @@
 	<s id="2">Que pensez-vous de Justin ?</s>
 </p>
 </sp>
-<sp stage="proud" who="ROBINEAU"><speaker>ROBINEAU, avec importance.</speaker>
+<sp who="ROBINEAU"><speaker>ROBINEAU</speaker><stage type="proud">, avec importance.
+</stage>
 <p id="20">
 	<s id="1">Eh ! </s>
 	<s id="2">Eh !</s>
@@ -347,7 +357,8 @@
 	<s id="1">Oui, n'est-ce pas ?</s>
 </p>
 </sp>
-<sp stage="proud" who="ROBINEAU"><speaker>ROBINEAU, de même.</speaker>
+<sp who="ROBINEAU"><speaker>ROBINEAU</speaker><stage type="proud">, de même.
+</stage>
 <p id="22">
 	<s id="1">Il y a beaucoup de choses à dire de ce garçon.</s>
 </p>
@@ -441,7 +452,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Maire, Gros-jean.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Maire, Gros-jean.
+</stage>
 <sp who="LE MAIRE"><speaker>LE MAIRE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Gros-Jean ?</s>
@@ -561,7 +573,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Maire, Justin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Maire, Justin.
+</stage>
 <sp who="LE MAIRE"><speaker>LE MAIRE.</speaker>
 <p id="1">
 	<s id="1">Voici ta place pour Paris, mon garçon. </s>
@@ -571,13 +584,15 @@
 	<s id="5">Quand cet argent sera mangé, si tu n'as pas trouvé des moyens d'existence, ne m'écris pas pour en avoir d'autre, ce serait absolument inutile.</s>
 </p>
 </sp>
-<sp stage="back" who="L'EMPLOYÉ"><speaker>L'EMPLOYÉ, revenant.</speaker>
+<sp who="L'EMPLOYÉ"><speaker>L'EMPLOYÉ</speaker><stage type="back">, revenant.
+</stage>
 <p id="2">
 	<s id="1">Les voyageurs pour Paris, en voiture, en voiture !</s>
 </p>
 <stage type="wave">Justin fait un mouvement.</stage>
 </sp>
-<sp stage="pull" who="LE MAIRE"><speaker>LE MAIRE, le retenant.</speaker>
+<sp who="LE MAIRE"><speaker>LE MAIRE</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="3">
 	<s id="1">Tu as le temps. </s>
 	<s id="2">Je voudrais pouvoir te dire que tu emportes l'estime de tes compatriotes, mais tu ne me croirais pas. </s>
@@ -586,13 +601,15 @@
 	<s id="5">Tu as de l'aplomb, tu mens avec assurance, ce ne sont pas les scrupules qui t'étouffent si tu peux trouver à entrer dans les affaires, je crois que c'est là où tes qualités seront à leur place.</s>
 </p>
 </sp>
-<sp stage="back" who="L'EMPLOYÉ"><speaker>L'EMPLOYÉ, revenant.</speaker>
+<sp who="L'EMPLOYÉ"><speaker>L'EMPLOYÉ</speaker><stage type="back">, revenant.
+</stage>
 <p id="4">
 	<s id="1">Les voyageurs pour Paris, en voiture, en voiture !</s>
 </p>
 <stage type="wave">Justin fait un mouvement.</stage>
 </sp>
-<sp stage="pull" who="LE MAIRE"><speaker>LE MAIRE, le retenant.</speaker>
+<sp who="LE MAIRE"><speaker>LE MAIRE</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="5">
 	<s id="1">Tu as le temps. </s>
 	<s id="2">Qu'est-ce que je demande ? </s>
@@ -605,7 +622,8 @@
 </p>
 <stage type="push/exit/noise">Il pousse Justin vers la barrière ; Justin disparaît ; on entend le train qui part quelques instants après.</stage>
 </sp>
-<sp stage="wipe" who="LE MAIRE"><speaker>LE MAIRE, s'épongeant.</speaker>
+<sp who="LE MAIRE"><speaker>LE MAIRE</speaker><stage type="wipe">, s'épongeant.
+</stage>
 <p id="">
 	<s id="1">Ouf ! </s>
 	<s id="2">Voilà une affaire faite. </s>

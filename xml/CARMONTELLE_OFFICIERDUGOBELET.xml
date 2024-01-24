@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1771-1780</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,26 +28,27 @@
 			<titlePart type="main">L'OFFICIER DU GOBELET</titlePart>
 			<titlePart type="sub">CINQUANTE SEPTIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='VEUVE-RIBOU'>À Paris, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
+			<printer id="VEUVE-RIBOU">À Paris, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DE SAINT-BRICE" sex="1" type="H" statut='capitaine' age='A' stat_amour='néant'>MONSIEUR DE SAINT-BRICE</role>, Capitaine d'Infanterie.</castItem>
-		<castItem><role id="MONSIEUR DU PARC" sex="1" type="H" statut='capitaine' age='A' stat_amour='néant'>MONSIEUR DU PARC</role>, Capitaine de Cavalerie.</castItem>
-		<castItem><role id="MONSIEUR DE PLAVEAU" sex="1" type="H" statut='bailli' age='A' stat_amour='néant'>MONSIEUR DE PLAVEAU</role>, Bailli de Nogent et Officier du Gobelet.</castItem>
-		<castItem><role id="MARIANNE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>MARIANNE</role>, Suivante.</castItem>
+		<castItem><role id="MONSIEUR DE SAINT-BRICE" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">MONSIEUR DE SAINT-BRICE</role>, Capitaine d'Infanterie.</castItem>
+		<castItem><role id="MONSIEUR DU PARC" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">MONSIEUR DU PARC</role>, Capitaine de Cavalerie.</castItem>
+		<castItem><role id="MONSIEUR DE PLAVEAU" sex="1" type="H" statut="bailli" age="A" stat_amour="néant">MONSIEUR DE PLAVEAU</role>, Bailli de Nogent et Officier du Gobelet.</castItem>
+		<castItem><role id="MARIANNE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">MARIANNE</role>, Suivante.</castItem>
    </castList>
 <set location="Versailles" country="France" periode="XVIIIème" gps="48.801408, 2.130122">La Scène est à  Versailles dans une Auberge.</set>
 <note>Dans PROVERBES DRAMATIQUES, Seconde edition, Tome quatrième, huitième partie.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>L'OFFICIER DU GOBELET</head>
-<div2 type="scene" n="1" stage="light"><head>SCÈNE PREMIÈRE. Monsieur de Saint-Brice, Monsieur du Parc, Marianne, les éclairant.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="light"> Monsieur de Saint-Brice, Monsieur du Parc, Marianne, les éclairant.
+</stage>
 <sp who="MONSIEUR DU PARC"><speaker>MONSIEUR DU PARC.</speaker>
 <p id="1">
 	<s id="1">C'est donc ici où tu loges ?</s>
@@ -100,7 +101,8 @@
 	<s id="1">Attends-moi.</s>
 </p>
 </sp>
-<sp stage="away" who="MARIANNE"><speaker>MARIANNE, s'en allant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="11">
 	<s id="1">Je ne vous crains pas. </s>
 	<s id="2">Monsieur vous n'avez besoin de rien ?</s>
@@ -117,7 +119,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur de Saint-Brice, Monsieur du Parc.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur de Saint-Brice, Monsieur du Parc.
+</stage>
 <sp who="MONSIEUR DU PARC"><speaker>MONSIEUR DU PARC.</speaker>
 <p id="1">
 	<s id="1">Pourquoi ne veux-tu pas venir souper chez Madame de Saint-Placide ? </s>
@@ -374,7 +377,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="search" who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE, cherchant dans le tiroir de la table.</speaker>
+<sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE</speaker><stage type="search">, cherchant dans le tiroir de la table.
+</stage>
 <p id="1">
 	<s id="1">Il n'y a ici ni plume, ni encre. </s>
 	<s id="2">Voyons si j'en ai.</s>
@@ -388,7 +392,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCENE IV. Monsieur de Saint-Brice, Marianne.</head>
+<div2 type="scene" n="4"><head>SCENE IV.</head><stage> Monsieur de Saint-Brice, Marianne.
+</stage>
 <sp who="MARIANNE"><speaker>MARIANNE.</speaker>
 <p id="1">
 	<s id="1">On y va.</s>
@@ -419,7 +424,8 @@
 	<s id="1">J'y ai regardé.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, s'en allant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, s'en allant.
+</stage>
 <p id="7">
 	<s id="1">Vous en allez avoir tout-à-l'heure.</s>
 </p>
@@ -430,7 +436,8 @@
 </p>
 <stage type="dream">Il rêve.</stage>
 </sp>
-<sp stage="back" who="MARIANNE"><speaker>MARIANNE, revenant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="back">, revenant.
+</stage>
 <p id="9">
 	<s id="1">Monsieur, voilà de l'encre.</s>
 </p>
@@ -440,7 +447,8 @@
 	<s id="1">Et une plume ?</s>
 </p>
 </sp>
-<sp stage="away" who="MARIANNE"><speaker>MARIANNE, s'en allant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="11">
 	<s id="1">Vous ne dites pas aussi.</s>
 </p>
@@ -450,7 +458,8 @@
 	<s id="1">Allez, allez.</s>
 </p>
 </sp>
-<sp stage="back" who="MARIANNE"><speaker>MARIANNE, revenant avec une plume.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="back">, revenant avec une plume.
+</stage>
 <p id="13">
 	<s id="1">Tenez, voilà une plume.</s>
 </p>
@@ -460,7 +469,8 @@
 	<s id="1">Et du papier donc ?</s>
 </p>
 </sp>
-<sp stage="away" who="MARIANNE"><speaker>MARIANNE, s'en allant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="15">
 	<s id="1">Il fallait donc le dire en même temps. </s>
 	<s id="2">Pardi, il vous faut bien des choses toujours.</s>
@@ -477,7 +487,8 @@
 	<s id="1">Ah, chère Adélaïde !</s>
 </p>
 </sp>
-<sp stage="get" who="MARIANNE"><speaker>MARIANNE, apportant du papier ,etc.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="get">, apportant du papier ,etc.
+</stage>
 <p id="18">
 	<s id="1">Voilà tout ce qu'il vous faut, n'est-ce pas ?</s>
 </p>
@@ -498,9 +509,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCENE V. Monsieur de Saint-Brice, Une Voix dans la chambre
-prochaine.</head> 
-<sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE, se mettant h ècrire.</speaker>
+<div2 type="scene" n="5"><head>SCENE V.</head><stage> Monsieur de Saint-Brice, Une Voix dans la chambre
+prochaine. 
+</stage> 
+<sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE</speaker><stage>, se mettant h ècrire.
+</stage>
 <p id="1">
 	<s id="1">Il faudra bien que je me souvienne de ce qui était dans ce Mémoire.</s>
 </p>
@@ -510,13 +523,15 @@ prochaine.</head>
 </p>
 <stage type="">Il écrit.</stage>
 </sp>
-<sp stage="modular" who="LA VOIX"><speaker>LA VOIX, sur des tons différents.</speaker>
+<sp who="LA VOIX"><speaker>LA VOIX</speaker><stage type="modular">, sur des tons différents.
+</stage>
 <p id="3">
 	<s id="1">À boire pour le Roi. </s>
 	<s id="2">À boire pour le Roi,</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE, écoutant.</speaker>
+<sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE</speaker><stage>, écoutant.
+</stage>
 <p id="4">
 	<s id="1">Qu'est-ce que j'entends là ?</s>
 </p>
@@ -651,8 +666,10 @@ prochaine.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCENE VI. Monsieur de Saint-Brice, Monsieur de Plaveau.</head> 
-<sp stage="location" who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU, à la porte.</speaker>
+<div2 type="scene" n="6"><head>SCENE VI.</head><stage> Monsieur de Saint-Brice, Monsieur de Plaveau. 
+</stage> 
+<sp who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU</speaker><stage type="location">, à la porte.
+</stage>
 <p id="1">
 	<s id="1">Est-il permis d'entrer ?</s>
 </p>
@@ -662,7 +679,8 @@ prochaine.</head>
 	<s id="1">Entrez.</s>
 </p>
 </sp>
-<sp stage="costume" who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU, en robe de chambré, une chandelle à la main.</speaker>
+<sp who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU</speaker><stage type="costume">, en robe de chambré, une chandelle à la main.
+</stage>
 <p id="3">
 	<s id="1">Monsieur, j'ai bien l'honneur de vous saluer.</s>
 </p>
@@ -914,7 +932,8 @@ prochaine.</head>
 	<s id="1">Enfin, le voilà parti !</s>
 </p>
 </sp>
-<sp stage="back" who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU, revenant.</speaker>
+<sp who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU</speaker><stage type="back">, revenant.
+</stage>
 <p id="41">
 	<s id="1">Monsieur, je pense une chose ; si je pouvais vous être utile pour votre mémoire...</s>
 </p>
@@ -969,7 +988,8 @@ prochaine.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7" stage="location"><head>SCÈNE VII. Monsieur de Saint-Brice, Monsieur de Plaveau dans sa chambre.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage type="location"> Monsieur de Saint-Brice, Monsieur de Plaveau dans sa chambre.
+</stage>
 <sp who="MONSIEUR DE SAINT-BRICE"><speaker>MONSIEUR DE SAINT-BRICE.</speaker>
 <p id="1">
 	<s id="1">Le diable emporte l'importun.</s>
@@ -1049,7 +1069,8 @@ prochaine.</head>
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE DERNIÈRE.</head>
-<sp who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU, dans fa chambre.</speaker>
+<sp who="MONSIEUR DE PLAVEAU"><speaker>MONSIEUR DE PLAVEAU</speaker><stage>, dans fa chambre.
+</stage>
 <p id="1">
 	<s id="1">Monsieur l'Officier, j'y suis. </s>
 	<s id="2">À boire pour le Roi. </s>

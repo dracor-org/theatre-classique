@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -27,27 +27,28 @@
 				<titlePart type="main">L'IN-PROMPTU</titlePart>
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location='(inconnue)'></premiere>
+				<premiere date="" location="(inconnue)"/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age='A' stat_amour='néant'>LA COMTESSE</role>.</castItem>
-		<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age='A' stat_amour='néant'>LA BARONNE</role>.</castItem>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age='A' stat_amour='néant'>LE MARQUIS</role>.</castItem>
-		<castItem><role id="DAMON" sex="1" type="H" statut="poète" age='A' stat_amour='néant'>DAMON</role>, poète.</castItem>
-		<castItem><role id="CHAMPAGNE" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>CHAMPAGNE</role>.</castItem>
+		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE</role>.</castItem>
+		<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE</role>.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>.</castItem>
+		<castItem><role id="DAMON" sex="1" type="H" statut="poète" age="A" stat_amour="néant">DAMON</role>, poète.</castItem>
+		<castItem><role id="CHAMPAGNE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">CHAMPAGNE</role>.</castItem>
 	</castList>
-	<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La Scène est dans le Château du Marquis.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans le Château du Marquis.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, Les Loix, dialogue, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome premier, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 1-22. </note>
 </front>
 <body>
-<div1 type="acte" n="1"><head></head>
-<div2 type="scene" n=""><head>SCÈNE PREMIÈRE. La Comtesse, La Baronne, La Marquis.</head>
+<div1 type="acte" n="1"><head/>
+<div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head><stage> La Comtesse, La Baronne, La Marquis.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="">
 	<s id="1">Ainsi, Madame, vous ne me jugez point capable de faire de jolis vers ?</s>
@@ -136,7 +137,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je parie qu'elles vont venir selon l'usage, l'une après l'autre, me charger de faire leurs vers ; de sorte que, dans cette affaire, je pourrais bien être juge et partie. </s>
 	<s id="2">Mais j'en userai comme les Juges ; j'aurai un secrétaire qui me fera mes écritures, et qui me donnera mes conclusions. </s>
@@ -146,7 +148,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Marquis, La Comtesse.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Marquis, La Comtesse.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Marquis ?...</s>
@@ -230,20 +233,24 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Voila déjà un baiser obtenu ; et je viens de recevoir de la vanité, ce que l'amour m 'avait toujours refusé. </s>
 	<s id="2">Voilà les femmes ; elles se plaignent de l'ingratitude des hommes ; mais si on pénétrait les motifs secrets des faveurs qu'elles accordent, on conviendrait souvent que celui qui les a obtenues, leur doit peu de reconnaissance.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, La Baronne.</head>
-<sp stage="watch/anxious" who="LA BARONNE"><speaker>LA BARONNE, regardant avec inquiétude si la Comtesse ne l'observe pas.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, La Baronne.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="watch/anxious">, regardant avec inquiétude si la Comtesse ne l'observe pas.
+</stage>
 <p id="1">
 	<s id="1">Mon cher Marquis...</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Mon cher Marquis !... </s>
 	<s id="2">C'est la première fois qu'elle m'ait parlé si tendrement. </s>
@@ -289,7 +296,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Voilà les deux baisers obtenus, il s'agit maintenant de faire les vers; mais j'ai la migraine aussi, toutes les fois qu'il faut prendre la plume. </s>
 	<s id="2">Oh ! </s>
@@ -301,7 +309,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Marquis, Champagne.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Marquis, Champagne.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 <p id="1">
 	<s id="1">Que veut Monsieur_le_Marquis ?</s>
@@ -328,8 +337,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Marquis, Damon.</head>
-<sp stage="aparte/keep" who="DAMON"><speaker>DAMON, à part, tenant une lettre à la main.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Marquis, Damon.
+</stage>
+<sp who="DAMON"><speaker>DAMON</speaker><stage type="aparte/keep">, à part, tenant une lettre à la main.
+</stage>
 <p id="1">
 	<s id="1">Je les connais donc enfin ces gens de qualité ! </s>
 	<s id="2">On m'invite à venir ici, pour faire obtenir une pension au plus acharné de mes envieux, tandis qu'on m'assure que par lettres on la sollicite pour moi ! </s>
@@ -342,7 +353,8 @@
 	<s id="1">Mon cher Damon, vous savez combien je vous aime.</s>
 </p>
 </sp>
-<sp stage="cold" who="DAMON"><speaker>DAMON, froidement.</speaker>
+<sp who="DAMON"><speaker>DAMON</speaker><stage type="cold">, froidement.
+</stage>
 <p id="3">
 	<s id="1">Oui, Monsieur, je le fais.</s>
 </p>
@@ -401,7 +413,8 @@
 	<s id="2">L'amitié n'est point capable d'échauffer votre verve !</s>
 </p>
 </sp>
-<sp stage="aparte" who="DAMON"><speaker>DAMON, à part.</speaker>
+<sp who="DAMON"><speaker>DAMON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Non, ce ne fera point l'amitié, mais la vengeance.</s>
 </p>
@@ -412,14 +425,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Il faut au moins paraître composer, afin que, si l'une d'elles venait à entrer, elle ne soupçonne pas l'artifice. </s>
 	<s id="2">Allons, prenons du papier, un crayon ; mordons nos doigts, frappons-nous le front ; de l'énergie dans l'attitude, du feu dans les yeux ; me voilà bien, je crois, comme un poète en travail.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Le Marquis, La Baronne.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Le Marquis, La Baronne.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Marquis, l'In-promptu est -il achevé ?</s>
@@ -458,7 +473,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Le Marquis, La Comtesse, La Baronne.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Le Marquis, La Comtesse, La Baronne.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Je voudrais bien savoir, Madame, ce que vous faites tête à tête avec le Marquis tandis que je vous crois dans votre cabinet occupée à composer ?</s>
@@ -495,7 +511,8 @@
 	<s id="1">Oui, Madame.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA BARONNE"><speaker>LA BARONNE, bas au Marquis.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="low/toward">, bas au Marquis.
+</stage>
 <p id="8">
 	<s id="1">Elle en est au dernier vers. </s>
 	<s id="2">Dépêchez-vous, dépêchez-vous. </s>
@@ -503,14 +520,17 @@
 <stage type="exit">Elles sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Le Marquis, Damon.</head>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Le Marquis, Damon.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">J'espère que Damon ne me manquera pas de parole. </s>
 	<s id="2">Je serAis fort embarrassé, si je n'avais pas ces vers.</s>
 </p>
 </sp>
-<sp toward="aparte" who="DAMON"><speaker>DAMON, à part.</speaker>
+<sp toward="aparte" who="DAMON"><speaker>DAMON</speaker><stage>, à part.
+</stage>
 <p id="2">
 	<s id="1">Il fera encore plus embarrassé lorsqu'il les aura.</s>
 </p>
@@ -550,7 +570,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCENE XIII. LE MARQUIS, LA COMTESSE.</head>
+<div2 type="scene" n="13"><head>SCENE XIII.</head><stage> LE MARQUIS, LA COMTESSE.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Hé bien, Marquis, avez-vous fini ? </s>
@@ -571,14 +592,17 @@
 	<s id="2">Madame, attendez que la Baronne soit ici, il sera temps alors de lire votre In-promptu.</s>
 </p>
 </sp>
-<sp stage="close" who="LA COMTESSE"><speaker>LA COMTESSE, fermant le papier.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="close">, fermant le papier.
+</stage>
 <p id="5">
 	<s id="1">Il faut donc vous obéir ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCENE XIV. Le Marquis, La Comtesse, La Baronne.</head>
-<sp stage="aparte" who="LA BARONNE"><speaker>LA BARONNE, à part.</speaker>
+<div2 type="scene" n="14"><head>SCENE XIV.</head><stage> Le Marquis, La Comtesse, La Baronne.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Ciel ! </s>
 	<s id="2">Voici la Comtesse ! </s>
@@ -596,7 +620,8 @@
 	<s id="1">Madame, les vers les plus promptement faits ne sont pas toujours les meilleurs ; j'en ai encore deux à faire.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LE MARQUIS"><speaker>LE MARQUIS, bas à la Baronne, et lui remettant le papier.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="low/toward">, bas à la Baronne, et lui remettant le papier.
+</stage>
 <p id="4">
 	<s id="1">Vous vous trompez ; ils sont faits, les voici.</s>
 </p>
@@ -618,7 +643,8 @@
 </p>
 <stage type="give">Elles se donnent réciproquement les deux papiers.</stage>
 </sp>
-<sp class="read" who="LA COMTESSE"><speaker>LA COMTESSE, lit.</speaker>
+<sp class="read" who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, lit.
+	</stage>
 	<l id="2">Damon a fait ces vers , un autre en a le prix,</l>
 	<l id="3">Et déja deux baisers sont donnés au Marquis ;</l>
 	<l id="4">Telle est l'injustice des Belles :</l>
@@ -626,7 +652,8 @@
 	<l id="6">Leurs saveurs font pour ceux qui ne les servent point.</l>
 	<l id="7">Hélas ! combien de Grands sont femmes en ce point !</l>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Ah ! </s>
 	<s id="2">Le petit scélérat de Damon !</s>
@@ -664,7 +691,8 @@
 	<s id="1">Non , Monsieur , nous vous tenons quitte.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Monsieur Damon, vous me le paierez, oh ! </s>
 	<s id="2">Vous me le paierez. </s>

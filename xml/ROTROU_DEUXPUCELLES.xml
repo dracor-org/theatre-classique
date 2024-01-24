@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>vers</type>
 				<periode>1631-1640</periode>
 				<taille>1750-2000</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -28,7 +28,7 @@
 		<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
 	</docTitle>
 	<docDate value="1639">M. DC. XXXIX. AVEC PRIVILEGE DU ROI.</docDate>
-		<docAuthor id="ROTROU, Jean" bio='rotrou'>DE ROTROU </docAuthor>
+		<docAuthor id="ROTROU, Jean" bio="rotrou">DE ROTROU </docAuthor>
 	<docImprint>
 	<privilege id=""><head>Extrait du Privilège du Roi.</head>
 		<p>Par grâce et Privilège du Roi donné à Paris, le 7. jour de Février 1637. Signé par le Roi en son Conseil de Monceaux. Il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre Intitulée, Les deux pucelles, Tragi-Comédie, durant le temps de neuf ans, à compter du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous Imprimeurs, Libraires et autres, de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine aux contrevenants de trois mille livres d'amendes, et de tous ses dépens, dommages et intérêts, ainsi qu'il est plus au long porté par lesdites lettres qui sont en vertu du présent Extrait, tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
@@ -39,7 +39,7 @@
 	<acheveImprime id="1637-11-23">Achevé d'Imprimer pour la première fois, le 23. jour de Novembre mil six cent trente sept.</acheveImprime>
 		</docImprint>
 		<performance>
-			<premiere date="" location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 		<div type="dedicace"><adresse>À MADEMOISELLE DE LONGUEVILLE.</adresse>
 			<head>MADEMOISELLE,</head>
@@ -49,28 +49,29 @@
 			<p>ROTROU.</p>	
 		</div>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="AMÉLIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='amoureux'>AMÉLIE</role>, maîtresse de Dionys. </castItem>
-		<castItem><role id="ANTOINE" sex="1" type="H" statut='serviteur' age='J' stat_amour='néant'>ANTOINE</role>, Serviteur de Théodose.</castItem>
-		<castItem><role id="LINDAMOR" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>LINDAMOR</role>, Confident d'Antoine.</castItem>
-		<castItem><role id="THÉODOSE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='Antoine'>THÉODOSE</role>, Maîtresse d'Antoine.</castItem>
-		<castItem><role id="LÉOCADIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='Alexandre'>LÉOCADIE</role>, Maîtresse d'Alexandre.</castItem>
-		<castItem><role id="DON SANCHE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON SANCHE</role>, Père de Léocadie.</castItem>
-		<castItem><role id="DORILAS" sex="1" type="H" statut='hôtelier' age='A' stat_amour='néant'>DORILAS</role>, Hôtelier.</castItem>
-		<castItem><role id="ALCIONNE" sex="2" type="H" statut='hôtelier' age='A' stat_amour='néant'>ALCIONNE</role>, Hôtelière.</castItem>
-		<castItem><role id="ALEXANDRE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>ALEXANDRE</role>, Serviteur de Léocadie.</castItem>
-		<castItem><role id="FILÉMOND" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>FILÉMOND</role>, Valet d'Alexandre.</castItem>
-		<castItem><role id="TROIS VOLEURS" sex="1" type="H" statut='voleur' age='A' stat_amour='néant'>TROIS VOLEURS</role>.</castItem>
-		<castItem><role id="QUATRE ARCHERS" sex="1" type="H" statut='archer' age='A' stat_amour='néant'>QUATRE ARCHERS</role>.</castItem>
-		<castItem><role id="DON LOUIS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON LOUIS ADORNE</role>, Père d'Antoine.</castItem>
-		<castItem><role id="DON HENRI" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DON HENRI</role>, Père de Théodose, et d'Alexandre.</castItem>
+		<castItem><role id="AMÉLIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="amoureux">AMÉLIE</role>, maîtresse de Dionys. </castItem>
+		<castItem><role id="ANTOINE" sex="1" type="H" statut="serviteur" age="J" stat_amour="néant">ANTOINE</role>, Serviteur de Théodose.</castItem>
+		<castItem><role id="LINDAMOR" sex="1" type="H" statut="confident" age="A" stat_amour="néant">LINDAMOR</role>, Confident d'Antoine.</castItem>
+		<castItem><role id="THÉODOSE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="Antoine">THÉODOSE</role>, Maîtresse d'Antoine.</castItem>
+		<castItem><role id="LÉOCADIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="Alexandre">LÉOCADIE</role>, Maîtresse d'Alexandre.</castItem>
+		<castItem><role id="DON SANCHE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DON SANCHE</role>, Père de Léocadie.</castItem>
+		<castItem><role id="DORILAS" sex="1" type="H" statut="hôtelier" age="A" stat_amour="néant">DORILAS</role>, Hôtelier.</castItem>
+		<castItem><role id="ALCIONNE" sex="2" type="H" statut="hôtelier" age="A" stat_amour="néant">ALCIONNE</role>, Hôtelière.</castItem>
+		<castItem><role id="ALEXANDRE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">ALEXANDRE</role>, Serviteur de Léocadie.</castItem>
+		<castItem><role id="FILÉMOND" sex="1" type="H" statut="valet" age="A" stat_amour="néant">FILÉMOND</role>, Valet d'Alexandre.</castItem>
+		<castItem><role id="TROIS VOLEURS" sex="1" type="H" statut="voleur" age="A" stat_amour="néant">TROIS VOLEURS</role>.</castItem>
+		<castItem><role id="QUATRE ARCHERS" sex="1" type="H" statut="archer" age="A" stat_amour="néant">QUATRE ARCHERS</role>.</castItem>
+		<castItem><role id="DON LOUIS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DON LOUIS ADORNE</role>, Père d'Antoine.</castItem>
+		<castItem><role id="DON HENRI" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DON HENRI</role>, Père de Théodose, et d'Alexandre.</castItem>
 	</castList>
-	<set location="(Lieu indéterminé)" country='Espagne' periode='(indéterminé)' gps="(N/A)"></set>
+	<set location="(Lieu indéterminé)" country="Espagne" periode="(indéterminé)" gps="(N/A)"/>
 </front>
 <body>
-<div1 type="act" n='1'><head>ACTE I</head>
-<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE.</head>
+<div1 type="act" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="light">La nuit.</stage>
-<sp stage="alone/carry/light" who="ANTOINE"><speaker>DON ANTOINE, seul une lanterne à la main.</speaker>
+<sp who="ANTOINE"><speaker>DON ANTOINE</speaker><stage type="alone/carry/light">, seul une lanterne à la main.
+	</stage>
 	<l id="1">Dieux ! Que le Ciel ce soir, couvre d'un voile obscur</l>
 	<l id="2">Le Lambris étoilé de sa voûte d'azur !</l>
 	<l id="3">Ô nuit ! Pour m'exaucer, tu passes ma prière,</l>
@@ -122,7 +123,8 @@
 	<l id="49">Me suit-il de si près ? Est-ce toi Lindamor ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lindamor, Antoine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lindamor, Antoine.
+</stage>
 <sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
 	<l id="50">Comment ce n'est pas fait ? et je vous trouve encor ?</l>
 </sp>
@@ -242,7 +244,8 @@
 	<l id="137">C'est une vertu rare, au-dessus du penser,</l>
 	<l id="138">Et qui ne trouve nul qui la puisse exercer.</l>
 </sp>
-<sp stage="stay" who="ANTOINE"><speaker>ANTOINE, restant.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="stay">, restant.
+	</stage>
 	<l id="139">Elle est rare, il est vrai, mais lâche ce me semble,</l>
 	<l id="140">Combattant je suis fort, victorieux je tremble,</l>
 	<l id="141">Je laisse un beau dessein, tout prêt à succéder,</l>
@@ -282,7 +285,8 @@
 	<l id="166">Pour quitter ce dessein, il est trop avancé.</l>
 <stage type="away/location">Il va vers la maison.</stage>
 </sp>
-<sp stage="aparte" who="LINDAMOR"><speaker>LINDAMOR, à part.</speaker>
+<sp who="LINDAMOR"><speaker>LINDAMOR</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="167">Ô combien son humeur souffre de violence,</l>
 	<l id="168">En ce choix incertain, où son esprit balance.</l>
 </sp>
@@ -302,7 +306,8 @@
 	<l id="179">En semblables combats, la peur fait la victoire,</l>
 	<l id="180">Et qui fuit le plus tôt, acquiert le plus de gloire.</l>
 </sp>
-<sp stage="read" who="ANTOINE"><speaker>ANTOINE, lit.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="read">, lit.
+	</stage>
 	<l id="181">Loin, pensers indiscrets, hors tous soupçons jaloux,</l>
 	<l id="182">Je porte le garant du bonheur que j'espère,</l>
 	<l id="183">Et par la loi qui l'a fait père,</l>
@@ -360,7 +365,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="costume/location" who="LÉOCADIE"><speaker>LÉOCADIE, en habit de nuit à sa porte.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="costume/location">, en habit de nuit à sa porte.
+	</stage>
 	<l id="225">Astres, Globes roulants sur la voûte Céleste,</l>
 	<l id="226">Suivez plus lentement le chemin qui vous reste,</l>
 	<l id="227">Du surplus de mes nuits accourcissez mes jours,</l>
@@ -414,8 +420,10 @@
 	<l id="275" syll="6" part="i">J'aurais bien moins tardé.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Don Sanche de Cardène, père de Léocadie, Léocadie.</head>
-<sp stage="costume/enrance/light" who="DON SANCHE"><speaker>DON SANCHE, en habit de nuit, sortant de sa maison, dans l'obscurité.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Don Sanche de Cardène, père de Léocadie, Léocadie.
+</stage>
+<sp who="DON SANCHE"><speaker>DON SANCHE</speaker><stage type="costume/enrance/light">, en habit de nuit, sortant de sa maison, dans l'obscurité.
+	</stage>
 	<l id="275" syll="6" part="f">Dieux ! qu'est-ce que je vois ?</l>
 </sp>
 <sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
@@ -468,7 +476,8 @@
 	<l id="307">Va, rentre, il t'ira bien cet objet de tes voeux,</l>
 	<l id="308">Porter jusqu'à ton lit, les baisers que tu veux.</l>
 </sp>
-<sp stage="exit" who="LÉOCADIE"><speaker>LÉOCADIE, se retirant.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="exit">, se retirant.
+	</stage>
 	<l id="309" syll="6" part="i">Évitons sa fureur.</l>
 </sp>
 <sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
@@ -500,7 +509,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dorilas, Alcionne, Hôte, et Hôtesse de Castelblanc.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dorilas, Alcionne, Hôte, et Hôtesse de Castelblanc.
+</stage>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
 	<l id="333">Quel est ce demi Dieu, qui sous notre figure ,</l>
 	<l id="334">Veut en vain à nos yeux déguiser sa nature ?</l>
@@ -592,7 +602,8 @@
 	<l id="394">Ce logis deviendra la demeure des Anges.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alexandre, Alcionne, Dorilas.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alexandre, Alcionne, Dorilas.
+</stage>
 <sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
 	<l id="395" syll="6" part="i">Une chambre Madame.</l>
 </sp>
@@ -660,7 +671,8 @@
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
 <stage type="light">La nuit.</stage>
 <stage type="open/decor">La chambre s'ouvre.</stage>
-<sp stage="lie/location/cry" who="THÉODOSE"><speaker>THÉODOSE, en homme couché sur un lit pleurant.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="lie/location/cry">, en homme couché sur un lit pleurant.
+	</stage>
 	<l id="437">Triste jouet du sort, chétive abandonnée,</l>
 	<l id="438">À quoi te résous-tu ? quelle est ta destinée ?</l>
 	<l id="439">Quel divorce as-tu fait avecque ta vertu,</l>
@@ -696,13 +708,15 @@
 <stage type="sleep">Elle s'endort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alcionne, avec une lanterne sourde conduisant Alexandre, Théodose.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alcionne, avec une lanterne sourde conduisant Alexandre, Théodose.
+</stage>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
 	<l id="469">Marchons à pas craintifs, écoutons, il sommeille,</l>
 	<l id="470">Ou ce profond silence abuse mon oreille,</l>
 	<l id="471">Mais un si doux repos se rompt au moindre bruit,</l>
 </sp>
-<sp stage="lie" who="ALEXANDRE"><speaker>ALEXANDRE, s'étant mis sur le lit.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="lie">, s'étant mis sur le lit.
+	</stage>
 	<l id="472" syll="2" part="i">Allez.</l>
 </sp>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
@@ -726,13 +740,15 @@
 	<l id="484">Et deviendras enfin courtoise à tes dépens.</l>
 <stage type="exit">Elle se retire.</stage>
 </sp>
-<sp stage="sleep" who="THÉODOSE"><speaker>THÉODOSE, dans son sommeil.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="sleep">, dans son sommeil.
+	</stage>
 	<l id="485">Ha ! les nuits à tous yeux ne sont pas favorables,</l>
 	<l id="486">Leur repos, n'est pas fait pour ceux des misérables,</l>
 	<l id="487">Le sommeil, pour charmer un mal comme le mien,</l>
 	<l id="488">N'a que des pavots secs, qui ne distillent rien.</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="489" syll="3" part="i">Qu'entends-je !</l>
 </sp>
 <sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
@@ -741,7 +757,8 @@
 	<l id="491">Puisque la liberté des sanglots et des pleurs</l>
 	<l id="492">Est le seul bien qui reste aux extrêmes douleurs.</l>
 </sp>
-<sp stage="low" who="ALEXANDRE"><speaker>ALEXANDRE, bas.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="493">Dans les premiers assauts des grandes infortunes</l>
 	<l id="494">Les heures de la nuit sont les plus importunes,</l>
 	<l id="495">Notre peine s'accroît dans le temps du repos,</l>
@@ -758,7 +775,8 @@
 	<l id="504">Et tout dessein vous plaît, pourvu qu'il soit nouveau.</l>
 	<l id="505" syll="1" part="i">Ha !</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="505" syll="11" part="f">Sans doute qu'au point où son âme est pressée,</l>
 	<l id="506">Quelque parole enfin trahira sa pensée. </l>
 </sp>
@@ -768,7 +786,8 @@
 	<l id="509">Tu me faisais un Dieu de l'auteur de mes peines,</l>
 	<l id="510">Mais que ses voeux sont faux, et ses promesses vaines.</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="511">Je découvre à peu près, d'où provient son ennui,</l>
 	<l id="512">Et voudrais le pouvoir partager avec lui,</l>
 	<l id="513">Sa plainte rend si beaux les malheurs de sa vie,</l>
@@ -790,7 +809,8 @@
 	<l id="527">Ce bourreau de mes nuits, ce tyran de mes jours</l>
 	<l id="528">Ha ! malheureuse fille, et maudites amours.</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="529">Fille ! qu'entends-je ô Dieux ! combien me croît l'envie,</l>
 	<l id="530">De savoir plus au long, l'histoire de sa vie,</l>
 	<l id="531">Oui, mais sans la chasser, puis-je l'entretenir ?</l>
@@ -806,14 +826,16 @@
 	<l id="534">Sans votre su , peut-être à mon oreille arrive,</l>
 	<l id="535">Fille, disgraciée, et d'amour, et du sort.</l>
 </sp>
-<sp stage="stand" who="THÉODOSE"><speaker>THÉODOSE, se levant.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="stand">, se levant.
+	</stage>
 	<l id="536">Comment quelqu'un m'écoute ? ha ! qui me fait ce tort ?</l>
 	<l id="537">Ô sensible surcroît de l'ennui qui me presse !</l>
 	<l id="538">..............................................</l>
 	<l id="539">Quoi ! ce malheur est joint à mon cruel tourment, </l>
 	<l id="540">Que même je ne puis me plaindre sûrement ?</l>
 </sp>
-<sp stage="stand" who="ALEXANDRE"><speaker>ALEXANDRE, hors de son lit aussi, la retient et dit.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="stand">, hors de son lit aussi, la retient et dit.
+	</stage>
 	<l id="541">Hé demeurez, je sors, si je vous importune,</l>
 	<l id="542">Je ne viens pas ici croître votre infortune,</l>
 	<l id="543">Je n'ai point souhaité de lire en vos secrets,</l>
@@ -868,7 +890,8 @@
 	<l id="583">Le penser que j'aurai contre votre dessein,</l>
 	<l id="584">Qu'il m'étouffe, et qu'il soit un serpent en mon sein.</l>
 </sp>
-<sp stage="lie" who="THÉODOSE"><speaker>THÉODOSE, se remettant sur le lit.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="lie">, se remettant sur le lit.
+	</stage>
 	<l id="585">Après cette assurance, entendez une histoire,</l>
 	<l id="586">Que j'aurai peine à dire, autant que vous à croire,</l>
 	<l id="587">Écoutez, mais songez à me garder la foi,</l>
@@ -900,7 +923,8 @@
 	<l id="609">J'acquiers de l'infamie, il acquiert du mérite,</l>
 	<l id="610">Je m'oublie, il apprend, je me perds, il profite.</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="611">Veillé-je, est-il bien vrai que j'ai les yeux ouverts ?</l>
 	<l id="612">Ô sort ! qui peut prévoir tes accidents divers !</l>
 </sp>
@@ -930,7 +954,8 @@
 	<l id="635">Sous la foi que j'en eus, que malgré nos jaloux ,</l>
 	<l id="636">Ses parents, et les miens il serait mon époux.</l>
 </sp>
-<sp stage="aparte" who="ALEXANDRE"><speaker>ALEXANDRE[, à part].</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="637">Ô sensible disgrâce ! ô malheureuse fille !</l>
 	<l id="638">Et cruelle à toi-même, autant qu'à ta famille.</l>
 </sp>
@@ -1029,7 +1054,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="costume/light/entrance" who="ALCIONNE"><speaker>ALCIONNE, demi nue, avec la lanterne, entrant doucement.</speaker>
+<sp who="ALCIONNE"><speaker>ALCIONNE</speaker><stage type="costume/light/entrance">, demi nue, avec la lanterne, entrant doucement.
+	</stage>
 	<l id="705">Telle Psyché d'amour, pour l'Amour même atteinte,</l>
 	<l id="706">À ce Dieu sommeillant fait sa muette plainte ,</l>
 	<l id="707">Telle va sur Hymette, à son chasseur dormant,</l>
@@ -1068,8 +1094,10 @@
 	<l id="736">Qui ne passera pas la naissance du jour. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dorilas, Alcionne, Théodose, Alexandre.</head>
-<sp stage="costume" who="DORILAS"><speaker>DORILAS, demi nu.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dorilas, Alcionne, Théodose, Alexandre.
+</stage>
+<sp who="DORILAS"><speaker>DORILAS</speaker><stage type="costume">, demi nu.
+	</stage>
 	<l id="737">Enfin, à qui des deux appartiendra la pomme ?</l>
 	<l id="738">Sans mentir, pour qui d'eux, plus d'ardeur te consomme ?</l>
 	<l id="739">Pour qui plus volontiers incline ton désir,</l>
@@ -1120,7 +1148,8 @@
 <sp who="DORILAS"><speaker>DORILAS.</speaker>
 	<l id="763" syll="6" part="f">Peut-être avec raison.</l>
 </sp>
-<sp stage="dream" who="ALEXANDRE"><speaker>ALEXANDRE, rêvant.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="dream">, rêvant.
+	</stage>
 	<l id="764">Traître, enfin purge-toi de cette trahison,</l>
 	<l id="765">Tiens ta foi parjurée, ou le sang du parjure,</l>
 </sp>
@@ -1131,16 +1160,19 @@
 	<l id="766" syll="6" part="f">Réparera l'injure.</l>
 	<l id="767">Si bientôt la raison ne te vient conseiller.</l>
 </sp>
-<sp stage="push" who="ALCIONNE"><speaker>ALCIONNE, le poussant.</speaker>
+<sp who="ALCIONNE"><speaker>ALCIONNE</speaker><stage type="push">, le poussant.
+	</stage>
 	<l id="768">L'autre pourrait l'entendre, il le faut éveiller.</l>
 </sp>
-<sp stage="awake" who="ALEXANDRE"><speaker>ALEXANDRE, éveillé.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="awake">, éveillé.
+	</stage>
 	<l id="769" syll="6" part="i">Çà, partons, est-il tard ?</l>
 </sp>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
 	<l id="769" syll="6" part="f">Le jour naissant est proche,</l>
 </sp>
-<sp stage="awake/abrupt" who="THÉODOSE"><speaker>THÉODOSE, éveillée en sursaut.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="awake/abrupt">, éveillée en sursaut.
+	</stage>
 	<l id="770">Ô Dieux ! j'entends du bruit, mais si quelqu'un m'approche,</l>
 	<l id="771">La pointe de ce fer, fera ma sûreté.</l>
 <stage type="threat">Prenant son épée.</stage>
@@ -1194,7 +1226,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alexandre, Théodose, dans le bois.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alexandre, Théodose, dans le bois.
+</stage>
 <sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
 	<l id="807">Il faut tirer ma soeur, de si justes douleurs,</l>
 	<l id="808">De plus dignes effets que des cris, et des pleurs.</l>
@@ -1225,7 +1258,8 @@
 	<l id="829" syll="3" part="i">Mais que vois-je ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Filémond, valet d'Alexandre, hors d'haleine et presque nu [, les mêmes].</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Filémond, valet d'Alexandre, hors d'haleine et presque nu [, les mêmes].
+</stage>
 <sp who="FILÉMOND"><speaker>[FILÉMOND].</speaker>
 	<l id="829" syll="6" part="f">Ha ! mon maître, ô fatale aventure.</l>
 </sp>
@@ -1265,7 +1299,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="attached/costume/alone" who="LÉOCADIE"><speaker>LÉOCADIE, attachée à un arbre, vêtue en homme.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="attached/costume/alone">, attachée à un arbre, vêtue en homme.
+	</stage>
 	<l id="847">Qu'un instable pouvoir gouverne nos destins,</l>
 	<l id="848">Combien de vilains jours suivent de beaux matins ?</l>
 	<l id="849">Mon être à peine accroît l'être commun des choses,</l>
@@ -1306,7 +1341,8 @@
 	<l id="884">Attirés par le bruit de mes tristes accents.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alexandre, Théodose, Filémond, Léocadie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alexandre, Théodose, Filémond, Léocadie.
+</stage>
 <sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
 	<l id="885" syll="6" part="i">Dieux ! quel est ce spectacle ?</l>
 </sp>
@@ -1320,7 +1356,8 @@
 	<l id="891">Ont exercé sur moi ce rigoureux effort,</l>
 	<l id="892">Et m'ayant tout ravi, m'ont refusé la mort.</l>
 </sp>
-<sp stage="unattach" who="THÉODOSE"><speaker>THÉODOSE, la déliant.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="unattach">, la déliant.
+	</stage>
 	<l id="893">La faveur qu'il implore est une oeuvre divine,</l>
 	<l id="894">Où le ciel nous oblige, outre sa bonne mine,</l>
 	<l id="895" syll="6" part="i">Mais il nous faut hâter.</l>
@@ -1374,7 +1411,8 @@
 	<l id="928">Ma cendre est amortie, et n'a plus de chaleur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Alcionne, Dorilas.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Alcionne, Dorilas.
+</stage>
 <sp who="DORILAS"><speaker>DORILAS.</speaker>
 	<l id="929">Tu ne pleureras pas d'entendre une nouvelle,</l>
 	<l id="930">Qui ne me plaît pas fort, et me met en cervelle ,</l>
@@ -1415,9 +1453,11 @@
 	<l id="956">Une petite femme, est souvent un grand mal.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Alexandre, Théodose, Léocadie.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Alexandre, Théodose, Léocadie.
+</stage>
 <stage type="location">En la chambre.</stage>
-<sp stage="sit" who="ALEXANDRE"><speaker>ALEXANDRE, assis.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="sit">, assis.
+	</stage>
 	<l id="957">Puisque notre fortune à couvert de l'outrage,</l>
 	<l id="958">De la voix maintenant nous rend un libre usage,</l>
 	<l id="959">Quel, s'il ne vous importe, est cet heureux séjour,</l>
@@ -1477,7 +1517,8 @@
 	<l id="1000">Je vais commettre l'hôte à presser son retour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Léocadie, Théodose, seuls.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Léocadie, Théodose, seuls.
+</stage>
 <sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
 	<l id="1001">Quel que soit votre sort, le ciel vous soit propice,</l>
 	<l id="1002">Mais je désirerais par un si bon office,</l>
@@ -1510,7 +1551,8 @@
 	<l id="1029">Ne désavouez point ce soupçon légitime,</l>
 	<l id="1030">À qui saura garder, et chérir votre estime.</l>
 </sp>
-<sp stage="kiss" who="LÉOCADIE"><speaker>LÉOCADIE, lui baisant les mains.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="kiss">, lui baisant les mains.
+	</stage>
 	<l id="1031">Ha ! si j'avais raison de vous désavouer,</l>
 	<l id="1032">Combien de mon destin je me devrais louer,</l>
 	<l id="1033">Mais le traître s'accorde avec votre pensée,</l>
@@ -1588,7 +1630,8 @@
 <sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
 	<l id="1089" syll="6" part="i">Je vous conterai tout.</l>
 </sp>
-<sp stage="aparte" who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1089" syll="6" part="f">Ô quelle est ma misère !</l>
 </sp>
 <sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
@@ -1767,7 +1810,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alexandre, Léocadie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alexandre, Léocadie.
+</stage>
 <sp who="ALEXANDRE"><speaker>ALEXANDRE.</speaker>
 	<l id="1217">Certes, non sans raison cet air qui toujours vole,</l>
 	<l id="1218">Cette divinité , qui n'a que la parole,</l>
@@ -1859,7 +1903,8 @@
 	<l id="1288">Et toi, t'abandonnant, seront-ils retenus ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Alcionne, Léocadie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Alcionne, Léocadie.
+</stage>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
 	<l id="1289">Monsieur, on vous attend, et la table dressée,</l>
 	<l id="1290">Doit donner pour un temps trêve à votre pensée :</l>
@@ -1884,7 +1929,8 @@
 	<l id="1300">Mais que vois-je ? fuyons, tirons-nous de ces lieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alcionne, Léocadie, Antoine, poursuivi par trois Voleurs, Lindamor, son valet.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alcionne, Léocadie, Antoine, poursuivi par trois Voleurs, Lindamor, son valet.
+</stage>
 <sp who="LÉOCADIE"><speaker>LÉOCADIE.</speaker>
 	<l id="1301">Je méconnais Antoine, ou je vois ce perfide,</l>
 	<l id="1302">C'est lui ; sauve, ma main, sauve ton homicide ;</l>
@@ -1894,7 +1940,8 @@
 	<l id="1305">Recueillez à l'écart la force qui vous reste,</l>
 	<l id="1306">Tant, que soit cette trêve à ces traîtres funeste.</l>
 </sp>
-<sp stage="location" who="ALCIONNE"><speaker>ALCIONNE, de loin.</speaker>
+<sp who="ALCIONNE"><speaker>ALCIONNE</speaker><stage type="location">, de loin.
+	</stage>
 	<l id="1307">Quel lion, fut jamais à combat plus ardent ?</l>
 	<l id="1308">Cherchons-lui du secours ; quel est cet accident ?</l>
 </sp>
@@ -1906,7 +1953,8 @@
 	<l id="1311">Quoi vous fuyez voleurs ? par cette lâcheté,</l>
 	<l id="1312">Vous faites bien juger de votre qualité.</l>
 </sp>
-<sp stage="hurt/fall" who="ANTOINE"><speaker>ANTOINE, blessé tombant.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="hurt/fall">, blessé tombant.
+	</stage>
 	<l id="1313">Je meurs, et tout mon sang par ces coups se distille,</l>
 	<l id="1314">Épargne heureux guerrier un secours inutile,</l>
 	<l id="1315">Épargne ta valeur, tous remèdes humains,</l>
@@ -1915,7 +1963,8 @@
 <sp who="LINDAMOR"><speaker>LINDAMOR.</speaker>
 	<l id="1317" syll="6" part="i">Hélas mon maître est mort.</l>
 </sp>
-<sp stage="hurt" who="LÉOCADIE"><speaker>LÉOCADIE, se jetant sur lui.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="hurt">, se jetant sur lui.
+	</stage>
 	<l id="1317" syll="6" part="f">Ô comble de mes peines</l>
 	<l id="1318">Son âme, avec le sang qui coule de ses veines,</l>
 	<l id="1319">Trouve un passage ouvert aux éternelles nuits,</l>
@@ -1927,8 +1976,10 @@
 <stage type="faint/help">Elle s'évanouit sur lui.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alcionne, Théodose, Alexandre, Dorilas, [Antoine, Léocadie, évanouis.]</head>
-<sp stage="threat" who="ALEXANDRE"><speaker>ALEXANDRE, l'épée à la main.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alcionne, Théodose, Alexandre, Dorilas, [Antoine, Léocadie, évanouis.]
+</stage>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="threat">, l'épée à la main.
+	</stage>
 	<l id="1325">Mes yeux font vers le bois une recherche vaine,</l>
 	<l id="1326">Et ne découvrent rien du côté de la plaine,</l>
 	<l id="1327" syll="6" part="i">Ils auront pris la fuite.</l>
@@ -1968,7 +2019,8 @@
 	<l id="1344">Il t'en reste à fermer, ne sors point de ces lieux,</l>
 <stage type="exit/together">Ils sortent, sauf Alcionne.</stage>
 </sp>
-<sp stage="alone" who="ALCIONNE"><speaker>ALCIONNE, seule.</speaker>
+<sp who="ALCIONNE"><speaker>ALCIONNE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1345">Capricieux enfant, petit Dieu de Cythère,</l>
 	<l id="1346">Ta malice, cruel, préside à ce mystère.</l>
 	<l id="1347">Et tous ces accidents, m'ôtent bien le dessein,</l>
@@ -1991,8 +2043,10 @@
 	<l id="1364">Qu'au lieu d'avoir aimé, je crois l'avoir songé.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Théodose, Alexandre, Antoine, Léocadie, Lindamor, en la chambre.</head>
-<sp stage="lie/location" who="LÉOCADIE"><speaker>LÉOCADIE, couchée sur Antoine.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Théodose, Alexandre, Antoine, Léocadie, Lindamor, en la chambre.
+</stage>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="lie/location">, couchée sur Antoine.
+	</stage>
 	<l id="1365">Puisque le vieux nocher du fleuve de la Parque, </l>
 	<l id="1366">N'a pas jusques au port encor rendu sa barque, </l>
 	<l id="1367">Que j'emploie, à vous dire un éternel adieu,</l>
@@ -2002,13 +2056,15 @@
 	<l id="1371">D'un signe seulement autorisez ma voix,</l>
 	<l id="1372">Et je vous parlerai pour la dernière fois.</l>
 </sp>
-<sp stage="watch" who="ANTOINE"><speaker>ANTOINE, l'ayant longtemps regardée.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="watch">, l'ayant longtemps regardée.
+	</stage>
 	<l id="1373">Parlez, que craignez-vous ? ce respect est frivole,</l>
 	<l id="1374">Mon mal ne m'ôte encor le sens, ni la parole,</l>
 	<l id="1375">Parlez Madame, hélas ! Quoi qui vienne de vous</l>
 	<l id="1376">Quelque état où je sois ne peut m'être que doux.</l>
 </sp>
-<sp stage="aparte" who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1377">Que vois-je malheureuse, il l'entend, il la voit, l'aime,</l>
 	<l id="1378">Et se plaît avec elle au sein de la mort même.</l>
 </sp>
@@ -2041,7 +2097,8 @@
 	<l id="1403">Et que jusqu'en vos bras je ne vinsse étouffer,</l>
 	<l id="1404">Si du bien que j'attends elle osait triompher.</l>
 </sp>
-<sp stage="aparte" who="THÉODOSE"><speaker>THÉODOSE[, à part].</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1405">Prouve ma passion, prouve ta violence,</l>
 	<l id="1406">Par ta punition due à son insolence</l>
 	<l id="1407">Par ce qu'elle propose, apprends ce que tu dois,</l>
@@ -2100,7 +2157,8 @@
 	<l id="1453">Dieux ! que vois-je ! À quel point est mon âme ravie ?</l>
 	<l id="1454">Que douce m'est la mort où je revoie ma vie ?</l>
 </sp>
-<sp stage="kiss" who="THÉODOSE"><speaker>THÉODOSE, l'embrasse.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="kiss">, l'embrasse.
+	</stage>
 	<l id="1455">Après cette faveur, si conforme à mes voeux,</l>
 	<l id="1456">Ne nous sépare point, ô mort ! prends-nous tous deux.</l>
 <stage type="faint/help">Elle s'évanouit sur lui.</stage>
@@ -2109,7 +2167,8 @@
 	<l id="1457">Je demeure confuse, et toutes ces merveilles,</l>
 	<l id="1458">Charment également mes yeux, et mes oreilles.</l>
 </sp>
-<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1459">De quel trouble importun sont mes sens agités ?</l>
 	<l id="1460">Sont-ce de faux objets ? sont-ce des vérités ?</l>
 	<l id="1461">Ô soupçons superflus ! ma perte est trop certaine,</l>
@@ -2135,7 +2194,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="walk/furious" who="LÉOCADIE"><speaker>LÉOCADIE, dehors marche comme furieuse.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="walk/furious">, dehors marche comme furieuse.
+	</stage>
 	<l id="1477">Paroles que permet une jalouse rage,</l>
 	<l id="1478">Aux vifs ressentiments de l'amour qu'on outrage,</l>
 	<l id="1479">Cris, plaintes, éclatez, voici votre saison,</l>
@@ -2164,7 +2224,8 @@
 	<l id="1502">Voici, qui peut m'aider à ce que je propose.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Alcionne, Léocadie.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Alcionne, Léocadie.
+</stage>
 <sp who="ALCIONNE"><speaker>ALCIONNE.</speaker>
 	<l id="1503">Monsieur, hé Dieux ! que dis-je, encor ce vêtement,</l>
 	<l id="1504">Entretenait mes yeux en leur aveuglement ;</l>
@@ -2206,7 +2267,8 @@
 	<l id="1532">S'approche sans soupçon, du lieu de son trépas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Léocadie, Théodose.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Léocadie, Théodose.
+</stage>
 <sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
 	<l id="1533">Le sort serait-il bien à mes voeux si propice,</l>
 	<l id="1534">Que vous m'obligeassiez à quelque bon office</l>
@@ -2217,7 +2279,8 @@
 	<l id="1539">Parce que je connais qu'il vous est importun,</l>
 	<l id="1540">Il me serait plus doux, s'il vous était commun.</l>
 </sp>
-<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1541">Chétive que je suis, mon malheur est extrême,</l>
 	<l id="1542">Jusques à m'obliger à ma rivale même,</l>
 	<l id="1543">La subtile qu'elle est, en m'ôtant mon amant,</l>
@@ -2237,7 +2300,8 @@
 	<l id="1555">Et qu'au point où je suis, je doute justement,</l>
 	<l id="1556">Qui j'aime plus des deux, la rivale, ou l'amant.</l>
 </sp>
-<sp stage="aparte" who="LÉOCADIE"><speaker>LÉOCADIE[, à part].</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="aparte">[, à part].
+	</stage>
 	<l id="1557">Quel fondement enfin reste à notre querelle ?</l>
 	<l id="1558">De quel front maintenant me puis-je plaindre d'elle ?</l>
 	<l id="1559">À quelle dure loi me faut-il obéir,</l>
@@ -2296,7 +2360,8 @@
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="LÉOCADIE"><speaker>LÉOCADIE, seule.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1597">Courts chemins des Enfers, abîmes, précipices,</l>
 	<l id="1598">Moyens aux malheureux si prompts, et si propices,</l>
 	<l id="1599">Pour soustraire leur vie aux injures du sort</l>
@@ -2323,13 +2388,15 @@
 	<l id="1620">À quiconque est poussé de semblable fureur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="1"><head>SCÈNE II. Léocadie, quatre Archers, et des valets.</head>
+<div2 type="scene" n="1"><head>SCÈNE II.</head><stage> Léocadie, quatre Archers, et des valets.
+</stage>
 <sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
 	<l id="1621">Ces Marchands égorgés, gisant sur la poussière,</l>
 	<l id="1622">Sont à notre exercice une digne matière,</l>
 	<l id="1623">Qu'on fasse diligence et coure tout le bois,</l>
 </sp>
-<sp stage="watch" who="LÉOCADIE"><speaker>LÉOCADIE, les voyant.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="watch">, les voyant.
+	</stage>
 	<l id="1624">La mort s'offre à nos voeux ; mourons à cette fois,</l>
 	<l id="1625">Soyons à ces Archers le butin qu'ils prétendent</l>
 	<l id="1626">Volontaire, tombons dans les pièges qu'ils tendent :</l>
@@ -2347,7 +2414,8 @@
 <sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER.</speaker>
 	<l id="1632" syll="6" part="f">Atteignons-le, donnons.</l>
 </sp>
-<sp stage="fight" who="LÉOCADIE"><speaker>LÉOCADIE, feignant de se défendre.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="fight">, feignant de se défendre.
+	</stage>
 	<l id="1633">Quoi quatre contre un seul ? quel bras, et quelle adresse,</l>
 	<l id="1634">Ne cèderaient au nombre, épargnez ma jeunesse,</l>
 </sp>
@@ -2425,7 +2493,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ALCIONNE"><speaker>ALCIONNE, seule.</speaker>
+<sp who="ALCIONNE"><speaker>ALCIONNE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1689">Quelle plus belle histoire, et quelle autre aventure,</l>
 	<l id="1690">Sera plus mémorable à la race future ?</l>
 	<l id="1691">Cette belle Angélique au sein de son Médor, </l>
@@ -2445,7 +2514,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="explicit" who="DON LOUIS"><speaker>DON LOUIS Adorne, père d'Antoine.</speaker>
+<sp who="DON LOUIS"><speaker>DON LOUIS Adorne</speaker><stage type="explicit">, père d'Antoine.
+	</stage>
 	<l id="1705">Arrivé sur le lieu fatal aux téméraires,</l>
 	<l id="1706">Qui font des lois d'honneur, d'un faux zèle de père,</l>
 	<l id="1707">Derechef je t'atteste, auteur de l'univers,</l>
@@ -2482,8 +2552,10 @@
 	<l id="1738">Signe, qui de ce fer me défende l'usage. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Don Louis Adorne, Don Henri, de Montcastre, Don Sanche, de Cardène.</head>
-<sp stage="toward" who="DON HENRI"><speaker>DON HENRI[, à Don Louis].</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Don Louis Adorne, Don Henri, de Montcastre, Don Sanche, de Cardène.
+</stage>
+<sp who="DON HENRI"><speaker>DON HENRI</speaker><stage type="toward">[, à Don Louis].
+	</stage>
 	<l id="1739">Tu dois par ce papier être suffisamment</l>
 	<l id="1740">Informé du sujet de mon ressentiment,</l>
 	<l id="1741">Tant soit ta conscience, ou criminelle, ou pure,</l>
@@ -2495,11 +2567,13 @@
 	<l id="1747">Sus donc reçois pour lui le prix que je lui dois,</l>
 	<l id="1748">Pare et réponds plutôt à mon bras, qu'à ma voix.</l>
 </sp>
-<sp stage="toward" who="DON SANCHE"><speaker>DON SANCHE[, à Don Louis].</speaker>
+<sp who="DON SANCHE"><speaker>DON SANCHE</speaker><stage type="toward">[, à Don Louis].
+	</stage>
 	<l id="1749">Dessus même sujet, même sujet m'appelle,</l>
 	<l id="1750">Donnons, et sur le champ, vidons notre querelle ;</l>
 </sp>
-<sp stage="toward" who="DON HENRI"><speaker>DON HENRI[, à Don Sanche].</speaker>
+<sp who="DON HENRI"><speaker>DON HENRI</speaker><stage type="toward">[, à Don Sanche].
+	</stage>
 	<l id="1751">Mon âge me préfère , et je veux que deux coups,</l>
 	<l id="1752">Vous laissent le champ libre, allez, éloignez-vous. </l>
 </sp>
@@ -2517,7 +2591,8 @@
 <stage type="fight">Ils se battent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Don Louis, Don Henri, Don Sanche, Antoine, Théodose, Lindamor.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Don Louis, Don Henri, Don Sanche, Antoine, Théodose, Lindamor.
+</stage>
 <sp who="ANTOINE"><speaker>ANTOINE.</speaker>
 	<l id="1763">Enfin nous découvrons du plus bas des remparts</l>
 	<l id="1764">La hauteur de ces murs, si chers à nos regards,</l>
@@ -2531,7 +2606,8 @@
 	<l id="1771">Voulez punir en lui l'excès de mon amour,</l>
 	<l id="1772">N'en veuillez qu'à moi seul, et sauvez-lui le jour.</l>
 </sp>
-<sp stage="toward" who="THÉODOSE"><speaker>THÉODOSE, à genoux.</speaker>
+<sp who="THÉODOSE"><speaker>THÉODOSE</speaker><stage type="toward">, à genoux.
+	</stage>
 	<l id="1773">Mon père ha ! que sous moi la terre n'est ouverte !</l>
 	<l id="1774">Et que ne puis-je ici me sauver par ma perte !</l>
 	<l id="1775">Digne objet que je suis, et de haine, et d'horreur, </l>
@@ -2554,17 +2630,20 @@
 <sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
 	<l id="1787" syll="3" part="i">Mon père,</l>
 </sp>
-<sp stage="kiss" who="DON HENRI"><speaker>DON HENRI, l'embrassant.</speaker>
+<sp who="DON HENRI"><speaker>DON HENRI</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="1787" syll="9" part="f">Ha ! Ce nom seul m'arrache le pardon,</l>
 	<l id="1788">Quand même je voudrais lui refuser ce don</l>
 	<l id="1789">Qu'en vain sans la nature un parent délibère</l>
 	<l id="1790">Et qu'il est malaisé d'être cruel, et père !</l>
 </sp>
-<sp stage="kiss" who="DON LOUIS"><speaker>DON LOUIS, embrassant son fils.</speaker>
+<sp who="DON LOUIS"><speaker>DON LOUIS</speaker><stage type="kiss">, embrassant son fils.
+	</stage>
 	<l id="1791">Ce pardon accordé si généreusement,</l>
 	<l id="1792">Est une loi prescrite à mon ressentiment.</l>
 </sp>
-<sp stage="toward" who="ANTOINE"><speaker>DON ANTOINE, à tous deux.</speaker>
+<sp who="ANTOINE"><speaker>DON ANTOINE</speaker><stage type="toward">, à tous deux.
+	</stage>
 	<l id="1793">Par ce bon naturel, qui tout autre surpasse,</l>
 	<l id="1794">Joignez à la première une seconde grâce,</l>
 	<l id="1795">Agréez le saint noeud dont nous sommes unis,</l>
@@ -2611,13 +2690,16 @@
 	<l id="1828">Qu'un favorable aveu de mon affection.</l>
  </sp>
  </div2>
- <div2 type="scene" n="7"><head>SCÈNE DERNIÈRE. DON HENRI, DON LOUIS, DON SANCHE, ANTOINE, THÉODOSE, LINDAMOR, ALEXANDRE, poursuivant, ARCHERS, LÉOCADIE tenue par des Valets, FILÉMOND valet d'ALEXANDRE. </head>
-<sp stage="continue" who="ANTOINE"><speaker>ANTOINE, continue.</speaker>
+ <div2 type="scene" n="7"><head>SCÈNE DERNIÈRE.</head><stage> DON HENRI, DON LOUIS, DON SANCHE, ANTOINE, THÉODOSE, LINDAMOR, ALEXANDRE, poursuivant, ARCHERS, LÉOCADIE tenue par des Valets, FILÉMOND valet d'ALEXANDRE. 
+</stage>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="1829">Mais, si je ne m'abuse, un confus bruit d'épées,</l>
 	<l id="1830">A du côté du bois mes oreilles frappées ,</l>
 	<l id="1831">Quatre hommes, par un seul rudement poursuivis,</l>
 </sp>
-<sp stage="fight" who="ALEXANDRE"><speaker>ALEXANDRE, se battant.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="fight">, se battant.
+	</stage>
 	<l id="1832" syll="2" part="i">Traîtres :</l>
 </sp>
 <sp who="DON HENRI"><speaker>DON HENRI.</speaker>
@@ -2628,7 +2710,8 @@
 	<l id="1833">Pour soustraire vos jours au courroux qui me presse </l>
 	<l id="1834">Vos sacrilèges mains n'ont pas assez d'adresse ;</l>
 </sp>
-<sp stage="attached" who="LÉOCADIE"><speaker>LÉOCADIE, qu'on tient liée.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="attached">, qu'on tient liée.
+	</stage>
 	<l id="1835" syll="2" part="i">Hé Dieux !</l>
 </sp>
 <sp who="DON HENRI"><speaker>DON HENRI.</speaker>
@@ -2643,7 +2726,8 @@
 <sp who="DON SANCHE"><speaker>DON SANCHE.</speaker>
 	<l id="1839" syll="6" part="i">Dieux ! qu'est-ce que je vois ?</l>
 </sp>
-<sp stage="toward" who="PREMIER ARCHER"><speaker>PREMIER ARCHER, à Don Sanche.</speaker>
+<sp who="PREMIER ARCHER"><speaker>PREMIER ARCHER</speaker><stage type="toward">, à Don Sanche.
+	</stage>
 	<l id="1839" syll="6" part="f">Si j'ai fait action,</l>
 	<l id="1840">Qui passe le devoir de ma commission,</l>
 	<l id="1841">J'attends votre sentence, ordonnez mon supplice,</l>
@@ -2723,7 +2807,8 @@
 	<l id="1903">Cet heur nous arrivant, quelle prospérité</l>
 	<l id="1904">Ne serait au-dessous de ma félicité ?</l>
 </sp>
-<sp stage="toward" who="ALEXANDRE"><speaker>ALEXANDRE, à Léocadie.</speaker>
+<sp who="ALEXANDRE"><speaker>ALEXANDRE</speaker><stage type="toward">, à Léocadie.
+	</stage>
 	<l id="1905">Coupable vous parliez, juste êtes-vous muette,</l>
 	<l id="1906">Et refusez-vous grâce, après qu'on vous l'a faite ;</l>
 	<l id="1907">Aurai-je en vain porté sur les ailes d'Amour,</l>
@@ -2749,14 +2834,16 @@
 	<l id="1919">Mais sachons plus au long sa naissance et son cours,</l>
 	<l id="1920">Et retrouvons Séville, au bout de ce discours.</l>
 </sp>
-<sp stage="toward" who="ANTOINE"><speaker>ANTOINE, à Léocadie.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="toward">, à Léocadie.
+	</stage>
 	<l id="1921">Que j'obtienne ma grâce, avant que l'on commence,</l>
 </sp>
 <sp who="THÉODOSE"><speaker>THÉODOSE.</speaker>
 	<l id="1922">Et moi, puisque j'ai part en si belle alliance, </l>
 	<l id="1923">Ne me défendez pas de m'en féliciter,</l>
 </sp>
-<sp stage="kiss" who="LÉOCADIE"><speaker>LÉOCADIE, la baisant.</speaker>
+<sp who="LÉOCADIE"><speaker>LÉOCADIE</speaker><stage type="kiss">, la baisant.
+	</stage>
 	<l id="1924">Il faut suivre son sort, on n'y peut résister,</l>
 	<l id="1925">La main qui m'ôte Antoine, et me donne Alexandre,</l>
 	<l id="1926">Fait les nécessités d'être pris et de prendre.</l>

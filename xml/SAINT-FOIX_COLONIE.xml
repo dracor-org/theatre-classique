@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,8 +29,8 @@
 			<titlePart type="sub">COMÉDIE EN TROIS ACTES, AVEC UN PROLOGUE.</titlePart>
 			<titlePart type="sub">Représentée par les Comédiens Français, le 25 Octobre 1749.</titlePart>
 		</docTitle>
- 		<docDate value='1778'>M. DCC. LXXVIII. Avec Approbation et Privilège du Roi</docDate>
-		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio='saintfoix'></docAuthor>
+ 		<docDate value="1778">M. DCC. LXXVIII. Avec Approbation et Privilège du Roi</docDate>
+		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio="saintfoix"/>
 		<docImprint>
 			<printer id="DUVERNOIS">À PARIS. Chez la Veuve Duschesne, Libraire, rue Saint-Jacques, au Temple du Goût.</printer>
 		</docImprint>
@@ -47,25 +47,26 @@
 			après la représentation.</p>
 		</div>
 		<castList><head>ACTEURS DU PROLOGUE.</head>
-			<castItem><role id="L'AUTEUR" sex="2" type="H" statut="auteur" age="A" stat_amour='néant'>L'AUTEUR</role>.</castItem>
-			<castItem><role id="LA CABALE" sex="9" type="A" statut="allégorie" age="A" stat_amour='néant'>LA CABALE</role>.</castItem>
+			<castItem><role id="L'AUTEUR" sex="2" type="H" statut="auteur" age="A" stat_amour="néant">L'AUTEUR</role>.</castItem>
+			<castItem><role id="LA CABALE" sex="9" type="A" statut="allégorie" age="A" stat_amour="néant">LA CABALE</role>.</castItem>
 		</castList>
 		<castList><head>ACTEURS DE LA COMÉDIE.</head>
-			<castItem><role id="LE GOUVERNEUR" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>LE GOUVERNEUR</role>.</castItem>
-			<castItem><role id="VALÈRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>VALÈRE</role>.</castItem>
-			<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>HENRIETTE</role>.</castItem>
-			<castItem><role id="RUSTAUT" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>RUSTAUT</role>.</castItem>
-			<castItem><role id="CRISPIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>CRISPIN</role>.</castItem>
-			<castItem><role id="FRONTIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>FRONTIN</role>.</castItem>
+			<castItem><role id="LE GOUVERNEUR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE GOUVERNEUR</role>.</castItem>
+			<castItem><role id="VALÈRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">VALÈRE</role>.</castItem>
+			<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">HENRIETTE</role>.</castItem>
+			<castItem><role id="RUSTAUT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">RUSTAUT</role>.</castItem>
+			<castItem><role id="CRISPIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">CRISPIN</role>.</castItem>
+			<castItem><role id="FRONTIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">FRONTIN</role>.</castItem>
 		</castList>
-		<set location='Île sauvage' country="(Pays indéterminé)" periode='XVIIIème' gps="(N/A)">La Scène est dans une îe de l'Amérique.</set>
+		<set location="Île sauvage" country="(Pays indéterminé)" periode="XVIIIème" gps="(N/A)">La Scène est dans une îe de l'Amérique.</set>
 <note>Le texte est tiré des Oeuvres complètes de M. de Saint-Foix, Tome premier, Chez La Veuve Duschesne, 1778, pp. 451-532</note>
 </front>
 <body>
 <div1 type="prologue" n="1"><head>PROLOGUE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="explicit">Ce Prologue dont j'ose dire que l'idée est neuve, fut très-applaudi.</stage>
-<sp stage="alone" who="L'AUTEUR"><speaker>L'AUTEUR, seul.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">J'avais fait un Prologue qui, je crois, aurait plu ; hier on envoie me dire qu'un accident inopiné empêche qu'on puisse le donner ; cela est cruel ! </s>
 	<s id="2">J'ai cherché vainement dans ma tête quelque autre idée ; je n'ai rien imaginé que de commun et de rebattu... </s>
@@ -73,7 +74,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2" stage="costume"><head>SCÈNE II. L'AUTEUR, LA CABALE, vêtue bizarrement.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="costume"> L'AUTEUR, LA CABALE, vêtue bizarrement.
+</stage>
 <sp who="LA CABALE"><speaker>LA CABALE.</speaker>
 <p id="1">
 	<s id="1">Que fais-tu ici ?</s>
@@ -109,7 +111,8 @@
 	<s id="1">Tu es auteur ; et la Cabale ne t'est pas connue ?</s>
 </p>
 </sp>
-<sp stage="wave" who="L'AUTEUR"><speaker>L'AUTEUR, lui faisant une profonde révérence.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="wave">, lui faisant une profonde révérence.
+</stage>
 <p id="8">
 	<s id="1">C'est une justice que vous voudrez bien me rendre ; d'ailleurs je suis votre très humble serviteur.</s>
 </p>
@@ -159,7 +162,8 @@
 	<s id="1">Tu me parais si singulier, que j'aurais presque envie d'être de tes amies.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="L'AUTEUR"><speaker>L'AUTEUR, avec embarras.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="18">
 	<s id="1">Tenez... </s>
 	<s id="2">Madame... </s>
@@ -236,14 +240,16 @@
 	<s id="2">Passons à ta petite pièce ; elle est dans un genre tout opposé ; c'est un Roi qui veut être aimé pour lui-même : tu m'avoueras que cela ne peut fournir qu'une faible intrigue, languissamment filée par des scènes de sentiments alambiqués, et qui, sans amuser le coeur, ne peuvent au plus que faire sourire de temps en temps l'esprit.</s>
 </p>
 </sp>
-<sp stage="quick" who="L'AUTEUR"><speaker>L'AUTEUR, vivement.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="quick">, vivement.
+</stage>
 <note type="">Ceux de Dom Félix et de Florine.</note>
 <p id="32">
 	<s id="1">Voilà bien parler en cabale ! </s>
 	<s id="2">Je soutiens qu'il y a dans ma petite comédie deux caractères neufs au théâtre, et assez bien contrastés pour jeter de la variété sur le fond le plus simple et le plus uniforme.</s>
 </p>
 </sp>
-<sp stage="quick" who="LA CABALE"><speaker>LA CABALE, du même ton.</speaker>
+<sp who="LA CABALE"><speaker>LA CABALE</speaker><stage type="quick">, du même ton.
+</stage>
 <p id="33">
 	<s id="1">Voilà bien répondre en auteur. </s>
 	<s id="2">Mais supposons (ce n'est qu'une supposition du moins) que tes deux Comédies soient passables, n'as-tu pas dû penser que plus on rirait à la première, et plus la seconde paraîtrait froide ?</s>
@@ -255,12 +261,14 @@
 	<s id="2">Non, et si elles ont d'ailleurs de quoi plaire, l'une et l'autre aura ses partisans ; je vous assure même que malgré leur caractère opposé, on trouverait nombre de gens qui s'accommoderaient volontiers de toutes les deux.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LA CABALE"><speaker>LA CABALE, d'un ton ironique.</speaker>
+<sp who="LA CABALE"><speaker>LA CABALE</speaker><stage type="ironic">, d'un ton ironique.
+</stage>
 <p id="35">
 	<s id="1">Tu as raison ; on va commencer ; je t'ai dit mon petit sentiment ; adieu, je vais là-bas.</s>
 </p>
 </sp>
-<sp stage="run" who="L'AUTEUR"><speaker>L'AUTEUR, courant après elle.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="run">, courant après elle.
+</stage>
 <p id="36">
 	<s id="1">Vous n'irez, parbleu, pas. </s>
 	<s id="2">Je tâcherai de vous en empêcher.</s>
@@ -273,7 +281,8 @@
 </div2>
 </div1>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. LE GOUVERNEUR, RUSTAUT.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> LE GOUVERNEUR, RUSTAUT.
+</stage>
 <sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR.</speaker>
 <p id="1">
 	<s id="1">Bonjour, mon cher Rustaut, bonjour.</s>
@@ -503,15 +512,18 @@
 	<s id="2">Eh bien, on se piquera de même ici d'avoir une belle femme, dès que sa possession y deviendra une marque d'opulence : on peut compter sur le succès d'une loi, quand la fatuité des hommes est intéressée à s'y conformer. Mais j'aperçois le jeune Valère ; on m'a dit que la crainte de perdre sa maîtresse le met au désespoir : éloignons-nous, pour ne pas l'exposer à manquer au respect qu'il me doit.</s>
 </p>
 </sp>
-<sp stage="away" who="RUSTAUT"><speaker>RUSTAUT, en s'en allant.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="44">
 	<s id="1">Morgué, quand j'y pense, la plaisante foire ! </s>
 	<s id="2">Et quels différents prix on va mettre à de la denrée, qui au fond ne fera cependant toujours que la  même !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Valère, Frontin.</head>
-<sp stage="desperate" who="VALÈRE"><speaker>VALÈRE, entrant sur le Théâtre avec toutes les démonstrations d'un homme au désespoir.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Valère, Frontin.
+</stage>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="desperate">, entrant sur le Théâtre avec toutes les démonstrations d'un homme au désespoir.
+</stage>
 <note type="L">Voir la première réplique du Misanthrope de Molière.</note>
 <p id="1">
 	<s id="1">Eh laisse-moi, laisse-moi, te dis-je.</s>
@@ -609,7 +621,8 @@
 	<s id="2">Que diable, par toutes les mesures qu'a prises le Gouverneur pour qu'ici tout le monde se marie, il paraît qu'il a furieusement à coeur la propagation de la Colonie !</s>
 </p>
 </sp>
-<sp stage="impatient" who="VALÈRE"><speaker>VALÈRE, avec impatience.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="impatient">, avec impatience.
+</stage>
 <p id="18">
 	<s id="1">Je vais au-devant de Crispin.</s>
 </p>
@@ -620,7 +633,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Valère, Frontin, Crispin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Valère, Frontin, Crispin.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Crispin ?</s>
@@ -796,13 +810,15 @@
 	<s id="1">La mort est bien vilaine, mais beaucoup moins qu'un mauvais mariage; considérez.</s>
 </p>
 </sp>
-<sp stage="watch" who="VALÈRE"><speaker>VALÈRE, apercevant Henriette.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="watch">, apercevant Henriette.
+</stage>
 <p id="32">
 	<s id="1">Considère toi-même que voici ma chère Henriette ; que je ne suis pas patient, et que tu me déplairais beaucoup, mais beaucoup, te dis-je, si tu continuais ces propos-là devant elle.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Valère, Henriette, Crispin, Frontin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Valère, Henriette, Crispin, Frontin.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Avec quelle impatience je vous attendais ! </s>
@@ -883,7 +899,8 @@
 	<s id="2">Cruel, à quoi voulez-vous me réduire ?</s>
 </p>
 </sp>
-<sp stage="aparte/imitate" who="FRONTIN"><speaker>FRONTIN, à part, la contrefaisant.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="aparte/imitate">, à part, la contrefaisant.
+</stage>
 <p id="15">
 	<s id="1">Cruel, à quoi voulez-vous me réduire ? </s>
 	<s id="2">Voilà la chute ordinaire des femmes.</s>
@@ -909,7 +926,8 @@
 	<s id="1">Haie, faquin !</s>
 </p>
 </sp>
-<sp stage="toward" who="FRONTIN"><speaker>FRONTIN, à Valère.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="toward">, à Valère.
+</stage>
 <p id="20">
 	<s id="1">Monsieur, l'argent que donneront ceux qui voudront épouser les belles, ne doit-il pas être remis aux laides pour les aider à se procurer des maris ?</s>
 </p>
@@ -938,7 +956,8 @@
 	<s id="1">Je dis que dès qu'il ne s'agira point de déranger votre fortune, j'approuverai tous les moyens que vous pourrez employer pour que je fois à vous, et que je suis prête d'aider à la toilette de Mademoiselle.</s>
 </p>
 </sp>
-<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Crispin.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="toward">, à Crispin.
+</stage>
 <p id="26">
 	<s id="1">Allons, viens mon cher ami ; viens vite que nous t'habillons.</s>
 </p>
@@ -966,7 +985,8 @@
 	<s id="">Et refuseras-tu de profiter de la seule occasion de ta vie, où tu puisses avoir une physionomie heureuse ? </s>
 </p>
 </sp>
-<sp stage="pull" who="VALÈRE"><speaker>VALÈRE, l'emmenant.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="pull">, l'emmenant.
+</stage>
 <p id="31">
 	<s id="1">Finissons, dépêchons ; nous n'avons pas un moment à perdre.</s>
 </p>
@@ -994,7 +1014,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Valère, Henriette.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Valère, Henriette.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Je suis au comble de mes voeux ; vous venez d'être déclarée la plus belle de la Colonie, et Crispin la plus laide ; les dix mille piastres que je dois donner, lui ont été adjugées ; notre stratagème a réussi ; rien ne s'oppose plus à mon bonheur. </s>
@@ -1026,7 +1047,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Henriette, Valère, Frontin, Crispin, en femme.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Henriette, Valère, Frontin, Crispin, en femme.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Approche, viens, mon cher Crispin ; viens que je t'embrasse ; tu es un garçon charmant d'être une fille aussi laide.</s>
@@ -1124,8 +1146,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Gouverneur, Henriette, Valère, Crispin, Frontin, Rustaut.</head>
-<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, à Valère et à Henriette.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Gouverneur, Henriette, Valère, Crispin, Frontin, Rustaut.
+</stage>
+<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR</speaker><stage>, à Valère et à Henriette.
+</stage>
 <p id="1">
 	<s id="1">Je viens vous faire mon compliment, et vous assurer du vrai plaisir que j'aurai à vous unir. </s>
 	<s id="2">Je ne puis pas faire valoir à la charmante Henriette le jugement que j'ai rendu et qui l'a déclarée la plus belle ; mon discernement y était intéressé ;</s>
@@ -1135,17 +1159,20 @@
 	<s id="1">Mais la cousine m'a quelque obligation : j'ai fait pencher la balance en sa faveur ; il y en avait deux ou trois, qui pouvaient peut-être lui disputer la préférence.</s>
 </p>
 </sp>
-<sp stage="shy" who="CRISPIN"><speaker>CRISPIN, d'un ton de prude.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="shy">, d'un ton de prude.
+</stage>
 <p id="3">
 	<s id="1">Sans être trop vaine, j'ai bien senti, Monsieur le Gouverneur, que votre intégrité avait quelques petits reproches à se faire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="RUSTAUT"><speaker>RUSTAUT, à part.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Morgué, si tous les Juges n'avaient pas la conscience plus chargée, ce serait une belle chose que la Justice !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, à Valère.</speaker>
+<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR</speaker><stage type="toward">, à Valère.
+</stage>
 <p id="5">
 	<s id="1">J'ai été bien aise de dédommager en quelque sorte votre généreux amour, en faisant tomber à une de vos parentes les dix mille piastres que vous êtes obligé de payer.</s>
 </p>
@@ -1160,17 +1187,20 @@
 	<s id="1">Elle peut me marquer à l'instant sa reconnaissance, en recevant un époux de ma main ; c'est Rustaut...</s>
 </p>
 </sp>
-<sp stage="aparte" who="FRONTIN"><speaker>FRONTIN, à part.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Miséricorde !</s>
 </p>
 </sp>
-<sp stage="aparte" who="VALÈRE"><speaker>VALÈRE, à part.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="9">
 	<s id="1">Nous sommes perdus !</s>
 </p>
 </sp>
-<sp stage="aparte" who="HENRIETTE"><speaker>HENRIETTE, à part.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Tout va se découvrir !</s>
 </p>
@@ -1180,14 +1210,16 @@
 	<s id="1">Frontin, soutiens-moi !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, à Crispin.</speaker>
+<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR</speaker><stage type="toward">, à Crispin.
+</stage>
 <p id="12">
 	<s id="1">Comment ? </s>
 	<s id="2">Qu'est-ce donc, Mademoiselle ? </s>
 	<s id="3">Et d'où naît, s'il vous plaît, cette frayeur ?</s>
 </p>
 </sp>
-<sp stage="imitate" who="CRISPIN"><speaker>CRISPIN, toujours d'un ton de précieuse.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="imitate">, toujours d'un ton de précieuse.
+</stage>
 <p id="13">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur le Gouverneur !... </s>
@@ -1250,14 +1282,16 @@
 <stage type="follow">Ils suivent le Gouverneur ; leur air, leurs gestes, et les mines que leur fait Crispin expriment l'inquiétude et l'embarras ou ils sont tous les quatre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Crispin, Rustaut.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Crispin, Rustaut.
+</stage>
 <sp who="RUSTAUT"><speaker>RUSTAUT.</speaker>
 <p id="1">
 	<s id="1">Sans être un galant de profession, j'avons toujours, par-ci, par-là, un peu vécu avec le beau sexe je connaissons l'humeur des filles ; je savons que devant le monde elles font des simagrées, et qu'elles feignent de refuser ce qu'au fond du coeur elles voudraient déjà tenir. </s>
 	<s id="2">Ça, la petite, nous voici seuls ; arrangeons-nous.</s>
 </p>
 </sp>
-<sp stage="proud" who="CRISPIN"><speaker>CRISPIN, d'un ton précieux.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="proud">, d'un ton précieux.
+</stage>
 <p id="2">
 	<s id="1">Arrangeons-nous ? </s>
 	<s id="2">Arrangeons-nous ? </s>
@@ -1314,7 +1348,8 @@
 	<s id="3">Vous n'aurez jamais de mari ; et cependant vous ne comptez pas mourir fille ! N'avez-vous point de honte ?...</s>
 </p>
 </sp>
-<sp stage="quick" who="CRISPIN"><speaker>CRISPIN, vivement.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="quick">, vivement.
+</stage>
 <p id="12">
 	<s id="1">N'avez-vous point de honte vous-même, de me pousser, de me presser, de me persécuter, et de me mettre, comme vous le faites, à ne savoir ce que je dis ? </s>
 	<s id="2">Fi, cela est criant !</s>
@@ -1329,7 +1364,8 @@
 	<s id="">Le Gouverneux fera son parrain, nous continuera sa protection ; et avec cette protection et vos dix mille piastres, je nous mettrons dans les affaires, je ferons fracas ; vous aurez les plus biaux habits, des bijoux, des piarreries.</s>
 </p>
 </sp>
-<sp stage="ironic" who="CRISPIN"><speaker>CRISPIN, d'un ton ironique.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="ironic">, d'un ton ironique.
+</stage>
 <p id="14">
 	<s id="1">Des pierreries à Madame Rustaut ?</s>
 </p>
@@ -1339,7 +1375,8 @@
 	<s id="1">Oui : oh ! tatigué, sans être glorieux, je ferons bien aise qu'on ne confonde pas notre femme avec la bourgeoise : dépêchez, vous dis-je, de nous bailler cette main là.</s>
 </p>
 </sp>
-<sp stage="" who="CRISPIN"><speaker>CRISPIN, toujours d'un ton de précieuse.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="">, toujours d'un ton de précieuse.
+</stage>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">Cessez donc de me tourmenter !</s>
@@ -1360,7 +1397,8 @@
 	<s id="1">Cela suffit : j'allons retrouver Monsieur le Gouverheux ; il est diablement tenace dans ce qu'il a résolu : préparez-vous à sa visite ; elle vous rendra peut-être plus traitable.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">Ah ! </s>
 	<s id="2">Cette maudite visite, me fait trembler ; tâchons...</s>
@@ -1371,7 +1409,8 @@
 	<s id="2">Rustaut ?</s>
 </p>
 </sp>
-<sp stage="st" who="RUSTAUT"><speaker>RUSTAUT, s'arrêtant.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="st">, s'arrêtant.
+</stage>
 <p id="21">
 	<s id="1">Eh bien ? </s>
 </p>
@@ -1391,7 +1430,8 @@
 	<s id="1">Je ne fais pas avec quelles femmes vous avez vécu ; mais il faut que vous en ayez trouvé d'une facilité qui vous a gâté.</s>
 </p>
 </sp>
-<sp stage="proud" who="RUSTAUT"><speaker>RUSTAUT, se rengorgeant.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="proud">, se rengorgeant.
+</stage>
 <p id="25">
 	<s id="1">Pourquoi n'en n'aurions-nous pas trouvé comme un autre ?</s>
 </p>
@@ -1438,14 +1478,16 @@
 	<s id="3">Je ne sommes pas grue ; on ne nous mène pas par le nez : tenez en un mot comme en mille, je voulons bien vous accorder deux heures pour vous déterminer à faire les choses de bonne grâce ; après lequel temps, si vous ne vous êtes pas mise à la raison, ceci deviendra l'affaire du Gouverneux : c'est un diable d'homme quand on lui résiste ; je vous laissons y penser; jusqu'au revoir, la petite.</s>
 </p>
 </sp>
-<sp who="CRISPIN"><speaker>CRISPIN, seul.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage>, seul.
+</stage>
 <p id="34">
 	<s id="1">Si tu me revois, je ferai bien trompé. </s>
 	<s id="2">Je n'en puis plus ; non, non, une furie sortie de l'enfer ne serait pas si acharnée...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Crispin, Frontin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Crispin, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Eh bien, mon ami, où en es-tu avec ton futur ?</s>
@@ -1476,7 +1518,8 @@
 	<s id="1">Il est vrai ; mais pouvais-je prévoir qu'il y aurait un mortel assez déterminé, assez hardi pour penser à t'épouser ?</s>
 </p>
 </sp>
-<sp stage="proud" who="CRISPIN"><speaker>CRISPIN, se rengorgeant.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="proud">, se rengorgeant.
+</stage>
 <p id="6">
 	<s id="1">Tu vois, cependant.</s>
 </p>
@@ -1537,7 +1580,8 @@
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/costume" who="CRISPIN"><speaker>CRISPIN, seul et toujours en femme.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="alone/costume">, seul et toujours en femme.
+</stage>
 <p id="1">
 	<s id="1">J'ai affecté d'aller au château ; je m'y suis promené assez longtemps ; ensuite j'ai passé chez Mademoiselle Henriette, d'où me voilà revenu ici. </s>
 	<s id="2">J'ai eu le plaisir de voir que Rustaut avait l'oeil sur toutes mes démarches ; qu'il m'a toujours suivi de loin, et que je puis, je crois, compter que dans l'idée que je tâcherai de profiter de la nuit pour m'enfuir, il va faire sentinelle autour de la maison ; c'est ce que je souhaite ; c'est sur la crainte qu'il a que je ne lui échappe, que j'ai imaginé le tour que nous allons lui jouer. </s>
@@ -1547,7 +1591,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="RUSTAUT"><speaker>RUSTAUT, seul.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">La voilà rentrée, et sans se douter que j'étions à sa suite ; tant je nous sommes finement conduit pour observer toutes ses allées et ses venues. </s>
 	<s id="2">Elle a beau tournaïer, elle ne nous échappera pas ; j'avons trop d'envie d'être riche. </s>
@@ -1558,23 +1603,27 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE III. Valère, Frontin, Rustaut, au fond du Théâtre et qui s'approche de temps en temps pour écouter.</head>
+<div2 type="scene" n=""><head>SCÈNE III.</head><stage> Valère, Frontin, Rustaut, au fond du Théâtre et qui s'approche de temps en temps pour écouter.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Ma vilaine cousine t'envoie, dis-tu, chez Cléon ?</s>
 </p>
 </sp>
-<sp stage="low/show" who="FRONTIN"><speaker>FRONTIN, à voix baffe, lui montrant Rustaut.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="low/show">, à voix baffe, lui montrant Rustaut.
+</stage>
 <p id="2">
 	<s id="1">Le voyez-vous ?</s>
 </p>
 </sp>
-<sp who="VALÈRE"><speaker>VALÈRE, bas.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage>, bas.
+</stage>
 <p id="3">
 	<s id="1">Je le vois.</s>
 </p>
 </sp>
-<sp stage="loud" who="FRONTIN"><speaker>FRONTIN, haut.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="loud">, haut.
+</stage>
 <p id="4">
 	<s id="1">Oui, elle m'envoie chez Monsieur Cléon, pour lui dire qu'elle voudrait bien lui parler.</s>
 </p>
@@ -1701,14 +1750,16 @@
 	<s id="1">Je rentre.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="FRONTIN"><speaker>FRONTIN, à part, en s'en allant.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="28">
 	<s id="1">Faisons semblant d'aller chercher l'ami en question ; Monsieur Rustaut, si vous ne gobez pas l'hameçon, je serai bien trompé.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="RUSTAUT"><speaker>RUSTAUT, seul.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je ne nous attendions pas à ce que je venons d'entendre. </s>
 	<s id="2">Oh ! </s>
@@ -1722,8 +1773,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Rustaut, Frontin.</head>
-<sp who="FRONTIN"><speaker>FRONTIN, affiéle de venir le heurter en courant, et tombe.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Rustaut, Frontin.
+</stage>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, affiéle de venir le heurter en courant, et tombe.
+</stage>
 <p id="1">
 	<s id="1">Qui va là ? </s>
 	<s id="é">Qui va là ?</s>
@@ -1883,7 +1936,8 @@
 	<s id="1">Je venons si rarement à la ville, que je n'y connoissons personne.</s>
 </p>
 </sp>
-<sp stage="dream" who="FRONTIN"><speaker>FRONTIN, feignant de rêver.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="dream">, feignant de rêver.
+</stage>
 <p id="29">
 	<s id="1">Que diable... </s>
 	<s id="2">J'ai beau chercher ?... </s>
@@ -1965,7 +2019,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="RUSTAUT"><speaker>RUSTAUT, seul.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="alone">, seul.
+</stage>
 <note type="L">Intérrogat : Ancien terme de pratique. Question faite par les juges ; l'ensemble des questions adressées devant le tribunal à l'une des parties. [L]</note>
 <p id="44">
 	<s id="1">Jarni, je serions à présent bien fâché que son ami n'eût pas été ivre. </s>
@@ -1974,7 +2029,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VII. Rustaut, Frontin, apportant des habits.</head>
+<div2 type="scene" n=""><head>SCÈNE VII.</head><stage> Rustaut, Frontin, apportant des habits.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Voilà tout ce qu'il vous faut.</s>
@@ -2000,19 +2056,23 @@
 	<s id="1">Ramenons les deux bouts de la perruque en devant, pour avoir l'apparence plus grave : j'affecterons de tousser de temps en temps ; et j'appuierons lentement sur nos paroles.</s>
 </p>
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, à Crispin qu'il amène.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, à Crispin qu'il amène.
+</stage>
 <p id="6">
 	<s id="1">Mademoiselle, voilà Monsieur Cléon.</s>
 </p>
 </sp>
-<sp stage="toward" who="CRISPIN"><speaker>CRISPIN, à Frontin.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="toward">, à Frontin.
+</stage>
 <p id="7">
 	<s id="1">Allez ; laissez-nous.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VIII. Rustaut, Crispin.</head>
-<sp stage="embarrassed" who="CRISPIN"><speaker>CRISPIN, affectant un ton d'embarras, de pudeur et d'innocents cependant toute cette scène.</speaker>
+<div2 type="scene" n=""><head>SCÈNE VIII.</head><stage> Rustaut, Crispin.
+</stage>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="embarrassed">, affectant un ton d'embarras, de pudeur et d'innocents cependant toute cette scène.
+</stage>
 <p id="1">
 	<s id="1">C'est moins, Monsieur, l'honneur que j'ai d'être de vos parentes, que votre réputation qui m'a déterminée à avoir recours à vous : vous passez pour un si honnête homme, si charitable, si compatissant, que je me suis flattée que je ne vous implorerais pas en vain dans mon affliction.</s>
 </p>
@@ -2022,7 +2082,8 @@
 	<s id="">Je ferons charmé de vous être utile ; et vous pouvez nous parler en toute confiance.</s>
 </p>
 </sp>
-<sp who="CRISPIN"><speaker>CRISPIN, soupirant.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage>, soupirant.
+</stage>
 <p id="3">
 	<s id="1">Par où commencer ?</s>
 </p>
@@ -2099,7 +2160,8 @@
 	<s id="1">Si vous aviez vu l'ingrat à mes genoux ; si vous aviez entendu tous les serments qu'il me fit de n'être jamais qu'à moi ; et si vous vouliez un peu réfléchir que les meilleurs coeurs sont ordinairement les plus crédules, peut-être, Monsieur, votre infortunée parente exciterait-elle moins votre indignation que votre pitié.</s>
 </p>
 </sp>
-<sp who="RUSTAUT"><speaker>RUSTAUT, à part.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage>, à part.
+</stage>
 <p id="17">
 	<s id="1">Il faut avouer qu'il y a des hommes qui ont bien le diable au corps; et quelle chienne de découverte je venons de faire ! </s>
 	<s id="2">Mais, morgue, n'éclatons pas, je pouvons doucement en tirer parti.</s>
@@ -2148,7 +2210,8 @@
 	<s id="2">Et je pense que ce drôle-là me conviendra assez.</s>
 </p>
 </sp>
-<sp stage="dress" who="RUSTAUT"><speaker>RUSTAUT, ôtant la perruque et l'habit qui le déguisent.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="dress">, ôtant la perruque et l'habit qui le déguisent.
+</stage>
 <p id="26">
 	<s id="1">Non, morguenne, ce drôle-là ne vous conviendrait pas. </s>
 	<s id="2">Me reconnaissez-vous ? </s>
@@ -2196,12 +2259,14 @@
 	<s id="4">Tenez, je voulons bien rabattre à deux mille piastres ; mais si vous barguinez encore, j'allons tout conter à Monsieur le Gouverneux ; il nous aime ; et j'obtiendrons qu'il fasse examiner vos allures, d'ici à quelque temps, afin de voir si j'aurons été un calomniateux.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="33">
 	<s id="1">Perdons quelque chose, plutôt que de nous jeter dans un nouvel embarras.</s>
 </p>
 </sp>
-<sp stage="watch" who="RUSTAUT"><speaker>RUSTAUT, voyant venir le Gouverneur.</speaker>
+<sp who="RUSTAUT"><speaker>RUSTAUT</speaker><stage type="watch">, voyant venir le Gouverneur.
+</stage>
 <p id="34">
 	<s id="1">Justement, le voici.</s>
 </p>
@@ -2218,7 +2283,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX ET DERNIÈRE. Le Gouverneur, Henriette, Valère, Frontin, Rustaut, Crispin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX ET DERNIÈRE.</head><stage> Le Gouverneur, Henriette, Valère, Frontin, Rustaut, Crispin.
+</stage>
 <sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR. </speaker>
 <p id="1">
 	<s id="1">Eh bien, êtes vous d'accord ?</s>
@@ -2250,7 +2316,8 @@
 	<s id="1">Il est vrai, mon ami ; marie-toi ; et je t'assure celui que Mademoiselle me destinait.</s>
 </p>
 </sp>
-<sp stage="toward" who="CRISPIN"><speaker>CRISPIN, aux spectateurs.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="toward">, aux spectateurs.
+</stage>
 <p id="7">
 	<s id="1">Je parais hors d'affaires ; mais je suis plus embarrassé que jamais, Messieurs, si vous n'applaudissez.</s>
 </p>

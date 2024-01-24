@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,27 +29,28 @@
 			<titlePart type="main">ON NE SAURAIT PENSER À TOUT</titlePart>
 			<titlePart type="sub">Proverbe en un acte et en prose</titlePart>
 		</docTitle> 
-		<docDate value='1889'>M DCCC LXXXIX.</docDate>
-		<docAuthor id='MUSSET, Alfred de'>PAR ALFRED DE MUSSET</docAuthor>
+		<docDate value="1889">M DCCC LXXXIX.</docDate>
+		<docAuthor id="MUSSET, Alfred de">PAR ALFRED DE MUSSET</docAuthor>
 		<docImprint>	
-			<printer id='CHARPENTIER'>PARIS, LEMERRE, ÉDITEUR, 23-31 PASSAGE CHOISEUL, 23-32.</printer>
+			<printer id="CHARPENTIER">PARIS, LEMERRE, ÉDITEUR, 23-31 PASSAGE CHOISEUL, 23-32.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='' location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE MARQUIS DE VALBERG" sex="1" type="H" statut="marquis" age="A" stat_amour=''>LE MARQUIS DE VALBERG</role>.</castItem>
-			<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour=''>LE BARON</role>.</castItem>
-			<castItem><role id="GERMAIN" sex="1" type="H" statut="valet" age="A" stat_amour=''>GERMAIN</role>.</castItem>
-			<castItem><role id="LA COMTESSE DE VERNON" sex="1" type="H" statut="comte" age="A" stat_amour=''>LA COMTESSE DE VERNON</role>.</castItem>
-			<castItem><role id="VICTOIRE" sex="1" type="H" statut="femme de chambre" age="A" stat_amour=''>VICTOIRE</role>, FEMME DE CHAMBRE DE LA COMTESSE.</castItem>
+			<castItem><role id="LE MARQUIS DE VALBERG" sex="1" type="H" statut="marquis" age="A" stat_amour="">LE MARQUIS DE VALBERG</role>.</castItem>
+			<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour="">LE BARON</role>.</castItem>
+			<castItem><role id="GERMAIN" sex="1" type="H" statut="valet" age="A" stat_amour="">GERMAIN</role>.</castItem>
+			<castItem><role id="LA COMTESSE DE VERNON" sex="1" type="H" statut="comte" age="A" stat_amour="">LA COMTESSE DE VERNON</role>.</castItem>
+			<castItem><role id="VICTOIRE" sex="1" type="H" statut="femme de chambre" age="A" stat_amour="">VICTOIRE</role>, FEMME DE CHAMBRE DE LA COMTESSE.</castItem>
 		</castList>
 		<set location="Campagne" country="France" periode="XVIème" gps="">La scène est à la campagne.</set>
 		<note>Texte issu de "Oeuvres d'Alfred de Musset, Comédies et proverbes". Paris, Lemerre, 1889. pp. 171-241</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ON NE SAURAIT PENSER À TOUT</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Baron, Germain.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Baron, Germain.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Mon neveu, dis-tu, n'est point ici ?</s>
@@ -440,7 +441,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Baron, Germain, Le Marquis.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Baron, Germain, Le Marquis.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Ah çà ! </s>
@@ -826,7 +828,8 @@
 	<s id="2">Allez, monsieur, allez prendre les lettres royales ; de mon côté, j'écrirai à ma mère ; - il est bien juste aussi que je remercie le ministre ; je laisserai mes chiens à Madame_de_Belleroche ; j'avertirai tous nos parents, et à votre retour, je l'espère, le mariage sera décidé.</s>
 </p>
 </sp>
-<sp stage="exit/stop" who="LE BARON"><speaker>LE BARON, s'arrêtant au moment de sortir.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="exit/stop">, s'arrêtant au moment de sortir.
+</stage>
 <p id="69">
 	<s id="1">Comment, le mariage ! </s>
 	<s id="2">Quel mariage ?</s>
@@ -1096,7 +1099,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Marquis, Victoire.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Marquis, Victoire.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Holà ! </s>
@@ -1153,8 +1157,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Marquis, Victoire.</head>
-<sp stage="entrance" who="LA COMTESSE"><speaker>LA COMTESSE, en entrant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Marquis, Victoire.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="entrance">, en entrant.
+</stage>
 <p id="1">
 	<s id="1">François, dites à Victoire de venir.</s>
 </p>
@@ -1262,7 +1268,8 @@
 	<s id="1">Mais vous ne m'écoutez pas, Madame.</s>
 </p>
 </sp>
-<sp stage="dress" who="LA COMTESSE"><speaker>LA COMTESSE, mettant son ruban.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="dress">, mettant son ruban.
+</stage>
 <p id="20">
 	<s id="1">Pardonnez-moi, pardonnez-moi. </s>
 	<s id="2">Ne parliez-vous pas des contraires ?</s>
@@ -1324,7 +1331,8 @@
 	<s id="1">Je vous suis obligé, parce que j'ai à vous parler très sérieusement.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA COMTESSE"><speaker>LA COMTESSE, à Victoire.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="toward">, à Victoire.
+</stage>
 <p id="30">
 	<s id="1">Ma belle-soeur, pourtant.</s>
 </p>
@@ -1413,7 +1421,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, La Comtesse.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, La Comtesse.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Vous faites des emplettes ?</s>
@@ -1504,7 +1513,8 @@
 	<s id="2">Il est venu de Paris ce matin, par ce grand orage ; - c'est là ce qui a dérangé le temps, sûrement.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, riant.
+</stage>
 <p id="16">
 	<s id="1">L'arrivée du baron ! </s>
 	<s id="2">Ah ! </s>
@@ -1517,7 +1527,8 @@
 	<s id="2">Ne parliez-vous pas de lui ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="18">
 	<s id="1">Si fait, si fait, c'est à merveille.</s>
 </p>
@@ -1568,7 +1579,8 @@
 	<s id="1">C'est que si vous voulez vous remarier...</s>
 </p>
 </sp>
-<sp stage="search/furniture" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant sur son piano.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search/furniture">, cherchant sur son piano.
+</stage>
 <p id="27">
 	<s id="1">Eh bien ?</s>
 </p>
@@ -1578,7 +1590,8 @@
 	<s id="1">Qu'est-ce que vous cherchez encore ?</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, cherchant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, cherchant.
+</stage>
 <p id="29">
 	<s id="1">Parlez, parlez toujours.</s>
 </p>
@@ -1588,7 +1601,8 @@
 	<s id="1">Vous seriez la plus heureuse femme du monde avec moi.</s>
 </p>
 </sp>
-<sp stage="search" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant toujours.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search">, cherchant toujours.
+</stage>
 <p id="31">
 	<s id="1">Avec vous ?</s>
 </p>
@@ -1650,7 +1664,8 @@
 	<s id="1">Oui, pour ce temps-là.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="43">
 	<s id="1">De 1650 ! </s>
 	<s id="2">Ah ! Ah ! Ah ! </s>
@@ -1682,7 +1697,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Comtesse, Le Marquis, Germain.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Comtesse, Le Marquis, Germain.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 <p id="1">
 	<s id="1">Pardon, madame, c'est un papier que j'apporte à Monsieur_le_Marquis, de la part de Monsieur_le_Baron.</s>
@@ -1704,7 +1720,8 @@
 </p>
 <stage type="furniture/music/play">Elle se met au piano et joue.</stage>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Justement, c'est celle de la malle.</s>
 </p>
@@ -1746,7 +1763,8 @@
 	<s id="1">Oui, et je vous ai apporté cette musique, afin d'avoir une raison d'entrer et afin de pouvoir vous dire en même temps qu'il faut une réponse sur-le-champ.</s>
 </p>
 </sp>
-<sp stage="think" who="LE MARQUIS"><speaker>LE MARQUIS, réfléchit.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="think">, réfléchit.
+</stage>
 <p id="12">
 	<s id="1">Tu as bien fait. </s>
 	<s id="2">Mais il me semble... </s>
@@ -1794,7 +1812,8 @@
 	<s id="1">Fanny, l'heureux mortel qui près de toi respire...</s>
 </p>
 </sp>
-<sp stage="location" who="GERMAIN"><speaker>GERMAIN, près de la porte.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="location">, près de la porte.
+</stage>
 <p id="20">
 	<s id="1">Cela ne prend pas le chemin de Gotha.</s>
 </p>
@@ -1815,7 +1834,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Comtesse, Le Marquis, Germain, Victoire.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Comtesse, Le Marquis, Germain, Victoire.
+</stage>
 <sp who="VICTOIRE"><speaker>VICTOIRE.</speaker>
 <p id="1">
 	<s id="1">Voilà vos étoffes, madame.</s>
@@ -1946,18 +1966,21 @@
 	<s id="2">Je vous donnerai mon volume de je ne sais plus qui, et vous trouverez la fin de notre romance.</s>
 </p>
 </sp>
-<sp stage="away" who="LE MARQUIS"><speaker>LE MARQUIS, s'en allant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="15">
 	<s id="1">Mais c'est moi...</s>
 </p>
 </sp>
-<sp stage="away" who="LA COMTESSE"><speaker>LA COMTESSE, de même.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="away">, de même.
+</stage>
 <p id="16">
 	<s id="1">Je vous dis que c'est moi...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Germain, Victoire.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Germain, Victoire.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 <p id="1">
 	<s id="1">Mam_selle_Victoire, que dites-vous de cela ? </s>
@@ -2073,7 +2096,8 @@
 	<s id="2">Posons cela sur le piano.</s>
 </p>
 </sp>
-<sp stage="write" who="GERMAIN"><speaker>GERMAIN, lisant.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="write">, lisant.
+</stage>
 <p id="23">
 	<s id="1">Mais s'ils se fâchent ?</s>
 </p>
@@ -2096,13 +2120,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Comtesse, Le Marquis.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Comtesse, Le Marquis.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Vous n'aimez pas ce pou-de-soie rose ?</s>
 </p>
 </sp>
-<sp stage="carry" who="LE MARQUIS"><speaker>LE MARQUIS, un livre à la main.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="carry">, un livre à la main.
+</stage>
 <p id="2">
 	<s id="1">Non, ce n'est pas ce que je choisirais.</s>
 </p>
@@ -2352,7 +2378,8 @@
 </p>
 <stage type="turn/furniture">Elle se retourne vers le piano, et lit tout bas ce qu'il y a sur la romance.</stage>
 </sp>
-<sp stage="sit" who="LE MARQUIS"><speaker>LE MARQUIS, assis.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sit">, assis.
+</stage>
 <p id="43">
 	<s id="1">Elle que j'aimais si tendrement ! Faut-il que j'aie pu lui déplaire ! </s>
 	<s id="2">Qu'ai-je donc fait qui l'ait offensée ? </s>
@@ -2364,12 +2391,14 @@
 	<s id="1">Il faut sans doute que j'aie commis à_mon_insu quelque faute impardonnable.</s>
 </p>
 </sp>
-<sp stage="show/location" who="LA COMTESSE"><speaker>LA COMTESSE, lui présentant le papier quand il passe devant elle.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="show/location">, lui présentant le papier quand il passe devant elle.
+</stage>
 <p id="45">
 	<s id="1">Tenez, Valberg, lisez donc cela.</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, de même.
+</stage>
 <p id="46">
 	<s id="1">Impardonnable ? </s>
 	<s id="2">Ce n'est pas possible. </s>
@@ -2379,24 +2408,28 @@
 	<s id="6">Elle est si bonne, si indulgente ! Et si gracieuse et si belle ! Pas une femme ne lui est comparable.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="47">
 	<s id="1">Je laisse passer cette distraction-là.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, de même.
+</stage>
 <p id="48">
 	<s id="1">Il est bien vrai qu'elle est coquette en diable, et paresseuse... à faire pitié ! </s>
 	<s id="2">Son étourderie continuelle...</s>
 </p>
 </sp>
-<sp stage="show" who="LA COMTESSE"><speaker>LA COMTESSE, présentant le papier.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="show">, présentant le papier.
+</stage>
 <p id="49">
 	<s id="1">Le portrait se gâte... </s>
 	<s id="2">Monsieur_de_Valberg !</s>
 </p>
 </sp>
-<sp stage="show" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="show">, de même.
+</stage>
 <p id="50">
 	<s id="1">Son étourderie continuelle pourrait-elle véritablement convenir à un homme raisonnable ? </s>
 	<s id="2">Aurait-elle ce calme, cette présence d'esprit, cette égalité de caractère nécessaires dans un ménage ? </s>
@@ -2434,7 +2467,8 @@
 	<s id="9">- Je lui plongerais un poignard dans le coeur.</s>
 </p>
 </sp>
-<sp stage="touch" who="LA COMTESSE"><speaker>LA COMTESSE, lui prenant la main.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="touch">, lui prenant la main.
+</stage>
 <p id="55">
 	<s id="1">Oh ! </s>
 	<s id="2">Que non, monsieur de Valberg.</s>
@@ -2627,7 +2661,8 @@
 </p>
 <stage type="toward">Germain sort.</stage>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="91">
 	<s id="1">Ah, mon_Dieu ! </s>
 	<s id="2">Mais quelle folie ! </s>
@@ -2768,7 +2803,8 @@
 </p>
 <stage type="entrance/carry">Entre Germain avec la malle.</stage>
 </sp>
-<sp who="GERMAIN"><speaker>GERMAIN, entrant.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage>, entrant.
+</stage>
 <p id="114">
 	<s id="1">Voilà votre malle, Monsieur_le_Marquis.</s>
 </p>
@@ -2857,7 +2893,8 @@
 	<s id="1">Voilà un bon commencement.</s>
 </p>
 </sp>
-<sp stage="watch" who="LE MARQUIS"><speaker>LE MARQUIS, arrangeant la musique.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="watch">, arrangeant la musique.
+</stage>
 <p id="131">
 	<s id="1">On l'aime beaucoup en Allemagne. </s>
 	<s id="2">Nous trouverons des connaisseurs là-bas. </s>
@@ -3026,7 +3063,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. La Comtesse, Le Marquis, Le Baron, Germain, Victoire.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> La Comtesse, Le Marquis, Le Baron, Germain, Victoire.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Madame, je vous demande pardon d'entrer ainsi à l'improviste sans en demander la permission ; mais une circonstance imprévue...</s>

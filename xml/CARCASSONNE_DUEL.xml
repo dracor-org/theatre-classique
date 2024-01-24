@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,29 +29,30 @@
 			<titlePart type="main">UN DUEL</titlePart>
 			<titlePart type="sub">COMÉDIE.</titlePart>
 		</docTitle> 
-		<docDate value='1889'>1889</docDate>
-		<docAuthor id='CARCASSONNE, Adolphe'>Adolphe CARCASSONNE.</docAuthor>
+		<docDate value="1889">1889</docDate>
+		<docAuthor id="CARCASSONNE, Adolphe">Adolphe CARCASSONNE.</docAuthor>
 		<docImprint>
-			<editor id='MARPON, FLAMMARION'>PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
+			<editor id="MARPON, FLAMMARION">PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ALFRED" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>ALFRED</role>, 12 ans.</castItem>
-		<castItem><role id="CHARLES" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>CHARLES</role>, son frère. 7 ans.</castItem>
-		<castItem><role id="FRANCIS" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>FRANCIS</role>, 12 ans.</castItem>
-		<castItem><role id="LOUIS" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>LOUIS</role>, 12 ans</castItem>
-		<castItem><role id="CLÉMENT" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>CLÉMENT</role>, 12 ans.</castItem>
-		<castItem><role id="ROBERT" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>ROBERT</role>, jeune anglais. 12 ans.</castItem>
-		<castItem><role id="L'ONCLE ROLLAND" sex="1" type="H" statut="lieutenant de vaisseau" age='A' stat_amour='(néant)'>L'ONCLE ROLLAND</role>, ancien lieutenant de vaisseau.</castItem>
-		<castItem><role id="UN MAITRE D'ÉTUDES" sex="1" type="H" statut="maître d'études" age='A' stat_amour='(néant)'>UN MAITRE D'ÉTUDES</role>.</castItem>
+		<castItem><role id="ALFRED" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">ALFRED</role>, 12 ans.</castItem>
+		<castItem><role id="CHARLES" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">CHARLES</role>, son frère. 7 ans.</castItem>
+		<castItem><role id="FRANCIS" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">FRANCIS</role>, 12 ans.</castItem>
+		<castItem><role id="LOUIS" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">LOUIS</role>, 12 ans</castItem>
+		<castItem><role id="CLÉMENT" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">CLÉMENT</role>, 12 ans.</castItem>
+		<castItem><role id="ROBERT" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">ROBERT</role>, jeune anglais. 12 ans.</castItem>
+		<castItem><role id="L'ONCLE ROLLAND" sex="1" type="H" statut="lieutenant de vaisseau" age="A" stat_amour="(néant)">L'ONCLE ROLLAND</role>, ancien lieutenant de vaisseau.</castItem>
+		<castItem><role id="UN MAITRE D'ÉTUDES" sex="1" type="H" statut="maître d'études" age="A" stat_amour="(néant)">UN MAITRE D'ÉTUDES</role>.</castItem>
    </castList>
-	<set location='À la campagne' country='France' periode='XIXème' gps=""></set>
+	<set location="À la campagne" country="France" periode="XIXème" gps=""/>
 <note>Extrait de "Nouveau Théâtre d'enfants, Dix pièces en prose, à jouer dans les familles et dans les pensionnats, Paris, Marpon et Flammarion, Le Jay Libraires, 1889. pp. 161-192.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UN DUEL</head>
 <stage type="decor">Un jardin. - À droite et à gauche, une allée par laquelle on arrive en scène.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alfred, Charles.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alfred, Charles.
+</stage>
 <sp who="CHARLES"><speaker>CHARLES.</speaker>
 <p id="1">
 	<s id="1">Frère, dis-moi ce que c'est qu'un duel, tous les grands de la classe en parlent.</s>
@@ -164,8 +165,10 @@
 <stage type="interrupt/entrance">Il est interrompu par l'arrivée de Louis et de Clément qui viennent par l'allée de droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alfred, Charles, Louis, Clément.</head>
-<sp stage="toward" who="LOUIS"><speaker>LOUIS, à Alfred.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alfred, Charles, Louis, Clément.
+</stage>
+<sp who="LOUIS"><speaker>LOUIS</speaker><stage type="toward">, à Alfred.
+</stage>
 <p id="1">
 	<s id="1">Pouvons-nous causer un moment avec toi ?</s>
 </p>
@@ -200,7 +203,8 @@
 	<s id="1">Hein ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LOUIS"><speaker>LOUIS, à Clément.</speaker>
+<sp who="LOUIS"><speaker>LOUIS</speaker><stage type="toward">, à Clément.
+</stage>
 <p id="8">
 	<s id="">C'est vrai qu'il l'a dit.</s>
 </p>
@@ -309,19 +313,23 @@
 	<s id="1">Il te faut deux témoins.</s>
 </p>
 </sp>
-<sp stage="watch/entrance/location" who="ALFRED"><speaker>ALFRED, apercevant Robert qui entre par l'allée de gauche.</speaker>
+<sp who="ALFRED"><speaker>ALFRED</speaker><stage type="watch/entrance/location">, apercevant Robert qui entre par l'allée de gauche.
+</stage>
 <p id="29">
 	<s id="1">Justement, voici Robert qui m'en servira avec son frère Percy.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Alfred, Charles, Louis, Clément, Robert.</head>
-<sp who="ALFRED"><speaker>ALFRED, à Robert.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Alfred, Charles, Louis, Clément, Robert.
+</stage>
+<sp who="ALFRED"><speaker>ALFRED</speaker><stage>, à Robert.
+</stage>
 <p id="1">
 	<s id="1">Mon cher Robert, je sais que je puis toujours compter sur ton amitié.</s>
 </p>
 </sp>
-<sp stage="imitate" who="ROBERT"><speaker>ROBERT, avec l'accent anglais.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="imitate">, avec l'accent anglais.
+</stage>
 <p id="2">
 	<s id="1">Bien sûr.</s>
 </p>
@@ -377,7 +385,8 @@
 	<s id="1">Alors, que fait-on ?</s>
 </p>
 </sp>
-<sp stage="threat" who="ROBERT"><speaker>ROBERT, mettant les deux poings en avant.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="threat">, mettant les deux poings en avant.
+</stage>
 <p id="12">
 	<s id="1">On boxe... </s>
 	<s id="2">La boxe est, chez nous, le règlement de tous les différends. </s>
@@ -447,7 +456,8 @@
 <stage type="">Louis et Clément sortent par la droite, Robert par la gauche ; Charles sort de ce côté lentement et d'un air pensif.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alfred, puis L'Oncle Rolland.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alfred, puis L'Oncle Rolland.
+</stage>
 <sp who="ALFRED"><speaker>ALFRED.</speaker>
 <p id="1">
 	<s id="1">Ce Robert est étrange, presque excentrique, mais, dans le fond, ce qu'il dit est vrai. </s>
@@ -618,8 +628,10 @@
 <stage type="entrance/follow/carry">Louis et Clément viennent par la droite, suivis de Francis. Louis porte deux épées. Robert et Percy, personnage muet, entrent par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alfred, Louis, Clément, Francis, Robert.</head>
-<sp stage="toward" who="LOUIS"><speaker>LOUIS, à Robert.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alfred, Louis, Clément, Francis, Robert.
+</stage>
+<sp who="LOUIS"><speaker>LOUIS</speaker><stage type="toward">, à Robert.
+</stage>
 <p id="1">
 	<s id="1">Une rencontre est devenue inévitable entre Francis et Alfred, car Francis persiste à demander raison de l'insulte reçue...</s>
 </p>
@@ -629,7 +641,8 @@
 	<s id="1">Absolument.</s>
 </p>
 </sp>
-<sp stage="continue" who="LOUIS"><speaker>LOUIS, continuant.</speaker>
+<sp who="LOUIS"><speaker>LOUIS</speaker><stage type="continue">, continuant.
+</stage>
 <p id="3">
 	<s id="1">Et Alfred persiste à ne pas faire des excuses.</s>
 </p>
@@ -726,7 +739,8 @@
 	<s id="1">Pas de plaisanterie !</s>
 </p>
 </sp>
-<sp stage="toward" who="ALFRED"><speaker>ALFRED, à Robert.</speaker>
+<sp who="ALFRED"><speaker>ALFRED</speaker><stage type="toward">, à Robert.
+</stage>
 <p id="21">
 	<s id="1">Je t'ai prié d'être mon témoin...</s>
 </p>
@@ -738,8 +752,10 @@
 <stage type="closer/entrance/carry">Il fait un pas vers Alfred, lorsque Charles entre ; il tient à la main un paquet enveloppé.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Charles.</head>
-<sp stage="closer" who="CHARLES"><speaker>CHARLES, venant devant Francis.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Charles.
+</stage>
+<sp who="CHARLES"><speaker>CHARLES</speaker><stage type="closer">, venant devant Francis.
+</stage>
 <p id="1">
 	<s id="1">C'est toi qui veux te battre avec grand frère, dis ?</s>
 </p>
@@ -800,7 +816,8 @@
 	<s id="1">Mon cher Francis, sans rancune.</s>
 </p>
 </sp>
-<sp stage="give" who="FRANCIS"><speaker>FRANCIS, lui tendant la main.</speaker>
+<sp who="FRANCIS"><speaker>FRANCIS</speaker><stage type="give">, lui tendant la main.
+</stage>
 <p id="13">
 	<s id="1">Aucune.</s>
 </p>
@@ -819,13 +836,15 @@
 	<s id="1">Le pion !</s>
 </p>
 </sp>
-<sp who="LE MAITRE D'ÉTUDES"><speaker>LE MAITRE D'ÉTUDES, venant en scène.</speaker>
+<sp who="LE MAITRE D'ÉTUDES"><speaker>LE MAITRE D'ÉTUDES</speaker><stage>, venant en scène.
+</stage>
 <p id="17">
 	<s id="1">Vous vous tendez la main et vous avez raison. </s>
 	<s id="2">Pour mettre un terme à vos idées belliqueuses et ridicules, je vous portais un ordre de retenue de quinze jours, combattants et témoins ; mais vous avez ri devant l'exploit de Charles et je pardonne, car j'ai ri aussi et aussi je suis désarmé.</s>
 </p>
 </sp>
-<sp stage="toward" who="ALFRED"><speaker>ALFRED, à Charles.</speaker>
+<sp who="ALFRED"><speaker>ALFRED</speaker><stage type="toward">, à Charles.
+</stage>
 <p id="18">
 	<s id="1">Bravo ! </s>
 	<s id="2">Charlot, ta botte a porté.</s>

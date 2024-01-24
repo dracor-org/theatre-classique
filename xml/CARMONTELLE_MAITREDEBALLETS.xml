@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,26 +28,28 @@
 			<titlePart type="main">LE MAÎTRE DE BALLETS</titlePart>
 			<titlePart type="sub">PREMIER PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DU PAS" sex="1" type="H" statut='maître de ballet' age='A' stat_amour='néant'>MONSIEUR DU PAS</role>, Maître de ballet.</castItem>
-		<castItem><role id="LE COMTE D'ORVILLE" sex="1" type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE D'ORVILLE</role>.</castItem>
-		<castItem><role id="LA FRANCE" sex="1" type="H" statut='laquais' age='A' stat_amour='néant'>LA FRANCE</role>, Laquais de Monsieur du Pas.</castItem>
+		<castItem><role id="MONSIEUR DU PAS" sex="1" type="H" statut="maître de ballet" age="A" stat_amour="néant">MONSIEUR DU PAS</role>, Maître de ballet.</castItem>
+		<castItem><role id="LE COMTE D'ORVILLE" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE D'ORVILLE</role>.</castItem>
+		<castItem><role id="LA FRANCE" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">LA FRANCE</role>, Laquais de Monsieur du Pas.</castItem>
 	</castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est chez Monsieur du Pas.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est chez Monsieur du Pas.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE MAÎTRE DE BALLETS.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur du Pas, La France.</head>
-<sp stage="costume" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, en robe de chambre et en peignoir, s'ôtant la poudre, à la cheminée.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur du Pas, La France.
+</stage>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="costume">, en robe de chambre et en peignoir, s'ôtant la poudre, à la cheminée.
+</stage>
 <note type="L">Chaconne : Air de danse très étendu, à trois et quelquefois à quatre temps, qui servait de finale à un ballet ou à un opéra. [L]</note>
 <p id="1">
 	<s id="1">La France, le tailleur a-t-il raccommodé mon habit de la chaconne ?</s>
@@ -140,8 +142,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur Du Pas, Le Comte, La France.</head>
-<sp stage="costume" who="LE COMTE"><speaker>LE COMTE, en chenille.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur Du Pas, Le Comte, La France.
+</stage>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="costume">, en chenille.
+</stage>
 <p id="1">
 	<s id="1">Monsieur du Pas, est-il ici ?</s>
 </p>
@@ -151,7 +155,8 @@
 	<s id="1">Oui, Monsieur, le voilà.</s>
 </p>
 </sp>
-<sp stage="turn" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, sans se retourner.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="turn">, sans se retourner.
+</stage>
 <p id="3">
 	<s id="1">Qu'est-ce qu'il y a ?</s>
 </p>
@@ -161,7 +166,8 @@
 	<s id="1">Monsieur du Pas, vous ne me connaissez point ?</s>
 </p>
 </sp>
-<sp stage="stage" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, regardant à peine.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="stage">, regardant à peine.
+</stage>
 <p id="5">
 	<s id="1">Non.</s>
 </p>
@@ -171,7 +177,8 @@
 	<s id="1">C'est que je viens vous prier de vouloir bien me dire ce que vous pensez de ma danse ; parce que je voudrais danser dans un Opéra.</s>
 </p>
 </sp>
-<sp stage="desdain" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, avec dedain.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="desdain">, avec dedain.
+</stage>
 <p id="7">
 	<s id="1">Vous ?</s>
 </p>
@@ -181,7 +188,8 @@
 	<s id="1">Oui.</s>
 </p>
 </sp>
-<sp stage="turn" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, sans se retourner.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="turn">, sans se retourner.
+</stage>
 <p id="9">
 	<s id="1">Vous êtes trop petit.</s>
 </p>
@@ -193,7 +201,8 @@
 </p>
 <stage type="danse">Il danse.</stage>
 </sp>
-<sp stage="watch" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, regardant de côté.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="watch">, regardant de côté.
+</stage>
 <p id="11">
 	<s id="1">Cela ne vaut pas le diable.</s>
 </p>
@@ -204,7 +213,8 @@
 </p>
 <stage type="danse">Il danse encore.</stage>
 </sp>
-<sp stage="watch" who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS, regardant dans la glace.</speaker>
+<sp who="MONSIEUR DU PAS"><speaker>MONSIEUR DU PAS</speaker><stage type="watch">, regardant dans la glace.
+</stage>
 <p id="13">
 	<s id="1">Pitoyable !</s>
 </p>
@@ -409,4 +419,3 @@
 </body>
 </text>
 </TEI>
-

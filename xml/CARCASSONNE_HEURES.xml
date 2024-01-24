@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,23 +29,24 @@
 			<titlePart type="main">LES HEURES</titlePart>
 			<titlePart type="sub">COMÉDIE.</titlePart>
 		</docTitle> 
-		<docDate value='1889'>1889</docDate>
-		<docAuthor id='CARCASSONNE, Adolphe'>Adolphe CARCASSONNE.</docAuthor>
+		<docDate value="1889">1889</docDate>
+		<docAuthor id="CARCASSONNE, Adolphe">Adolphe CARCASSONNE.</docAuthor>
 		<docImprint>
-			<editor id='MARPON, FLAMMARION'>PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
+			<editor id="MARPON, FLAMMARION">PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="GUSTAVE" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>GUSTAVE</role>, 10 ans.</castItem>
-		<castItem><role id="HÉLÈNE" sex="2" type="H" statut="enfant" age='E' stat_amour='(néant)'>HÉLÈNE</role>, 7 ans.</castItem>
+		<castItem><role id="GUSTAVE" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">GUSTAVE</role>, 10 ans.</castItem>
+		<castItem><role id="HÉLÈNE" sex="2" type="H" statut="enfant" age="E" stat_amour="(néant)">HÉLÈNE</role>, 7 ans.</castItem>
    </castList>
-	<set location='À la campagne' country='France' periode='XIXème' gps=""></set>
+	<set location="À la campagne" country="France" periode="XIXème" gps=""/>
 <note>Extrait de "Nouveau Théâtre d'enfants, Dix pièces en prose, à jouer dans les familles et dans les pensionnats, Paris, Marpon et Flammarion, Le Jay Libraires, 1889. pp. 239-260.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LES HEURES.</head>
 <stage type="decor/furniture">Une chambre de fillette. - À gauche, un secrétaire. - À droite une toilette. - Une fenêtre au fond.  Porte à gauche.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Gustave, Hélène.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Gustave, Hélène.
+</stage>
 <sp who="HÉLÈNE"><speaker>HÉLÈNE.</speaker>
 <p id="1">
 	<s id="1">Mon cher Gustave, il est dix heures et tu n'es pas encore allé à la pension.</s>
@@ -141,7 +142,8 @@
 	<s id="1">Mimi, c'est ma poupée.</s>
 </p>
 </sp>
-<sp stage="declamate" who="GUSTAVE"><speaker>GUSTAVE, avec emphase.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="declamate">, avec emphase.
+</stage>
 <p id="18">
 	<s id="1">C'est sa poupée, ô ciel !...</s>
 </p>
@@ -160,7 +162,8 @@
 	<s id="1">C'est énorme !</s>
 </p>
 </sp>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, continuant.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, continuant.
+</stage>
 <p id="22">
 	<s id="1">Je lui lave...</s>
 </p>
@@ -199,7 +202,8 @@
 	<s id="4">Aussi, tous les matins...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="GUSTAVE"><speaker>GUSTAVE, l'interrompant.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="29">
 	<s id="1">Avant le jour.</s>
 </p>
@@ -333,7 +337,8 @@
 	<s id="1">Laisse-moi achever : par bonté pour toi, je ne me sers pas du mot que tu mérites.</s>
 </p>
 </sp>
-<sp stage="offended" who="HÉLÈNE"><speaker>HÉLÈNE, piquée.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="offended">, piquée.
+</stage>
 <p id="53">
 	<s id="1">Ne te gêne pas, dis ce que tu voudras, ça m'est bien égal.</s>
 </p>
@@ -391,7 +396,8 @@
 	<s id="1">Méchant !</s>
 </p>
 </sp>
-<sp stage="away" who="GUSTAVE"><speaker>GUSTAVE, gagnant vers la porte.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="away">, gagnant vers la porte.
+</stage>
 <p id="64">
 	<s id="">Petite sotte !</s>
 </p>
@@ -479,8 +485,10 @@
 la porte de gauche et il s'arrête en écoutant sa soeur qui lui tourne le dos.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Hélène, Gustave.</head>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, répétant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Hélène, Gustave.
+</stage>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, répétant.
+</stage>
 <p id="1">
 	<s id="1">Deux fois trois...</s>
 </p>
@@ -494,7 +502,8 @@ la porte de gauche et il s'arrête en écoutant sa soeur qui lui tourne le dos.<
 	<s id="1">Deux fois cinq font huit...</s>
 </p>
 </sp>
-<sp stage="closer" who="GUSTAVE"><speaker>GUSTAVE, s'approchant.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="closer">, s'approchant.
+</stage>
 <p id="4">
 	<s id="1">Non, chère Hélène, deux fois cinq font dix.</s>
 </p>

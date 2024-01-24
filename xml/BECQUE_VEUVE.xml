@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,21 +28,21 @@
 			<titlePart type="main">VEUVE !</titlePart>
 			
 		</docTitle> 
-		<docDate value='1924'>M CM XXIV</docDate>
-		<docAuthor id='BECQUE, Henry'>d'Henry BECQUE.</docAuthor>
+		<docDate value="1924">M CM XXIV</docDate>
+		<docAuthor id="BECQUE, Henry">d'Henry BECQUE.</docAuthor>
 		<docImprint>
 			<editor>PARIS, Les édition G. GRÈS et compagnie, 21 rue d'Hautefeuille, 21.</editor>
 			<printer>5543. Tours, Imprimerie E. Arrault, et Cie.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME CHARPENTIER" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME MÈRE</role> mère de Charpentier.</castItem>
-		<castItem><role id="MONSIEUR CHARPENTIER" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MONSIEUR CHARPENTIER</role> père de Charpentier.</castItem>
-		<castItem><role id="MADEMOISELLE CHARPENTIER" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADEMOISELLE CHARPENTIER</role>, fille de Monsieur et Madame Charpentier.</castItem>
-		<castItem><role id="CHARPENTIER" sex="1" type="H" statut='employé' age='A' stat_amour='néant'>CHARPENTIER</role>.</castItem>
-		<castItem><role id="ERNEST" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ERNEST</role>, cousin de Charpentier.</castItem>
-		<castItem><role id="MAÎTRESSE DE CHARPENTIER" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LA MAÎTRESSE DE CHARPENTIER</role>.</castItem>
-		<castItem><role id="POLICIER" sex="1" type="H" statut='policier' age='A' stat_amour='néant'>POLICIER FRANÇAIS</role>.</castItem>
-		<castItem><role id="ALDERMAN" sex="1" type="H" statut='policier' age='A' stat_amour='néant'>ALDEMAN</role>, du port de Boston.</castItem>
+		<castItem><role id="MADAME CHARPENTIER" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME MÈRE</role> mère de Charpentier.</castItem>
+		<castItem><role id="MONSIEUR CHARPENTIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR CHARPENTIER</role> père de Charpentier.</castItem>
+		<castItem><role id="MADEMOISELLE CHARPENTIER" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADEMOISELLE CHARPENTIER</role>, fille de Monsieur et Madame Charpentier.</castItem>
+		<castItem><role id="CHARPENTIER" sex="1" type="H" statut="employé" age="A" stat_amour="néant">CHARPENTIER</role>.</castItem>
+		<castItem><role id="ERNEST" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ERNEST</role>, cousin de Charpentier.</castItem>
+		<castItem><role id="MAÎTRESSE DE CHARPENTIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LA MAÎTRESSE DE CHARPENTIER</role>.</castItem>
+		<castItem><role id="POLICIER" sex="1" type="H" statut="policier" age="A" stat_amour="néant">POLICIER FRANÇAIS</role>.</castItem>
+		<castItem><role id="ALDERMAN" sex="1" type="H" statut="policier" age="A" stat_amour="néant">ALDEMAN</role>, du port de Boston.</castItem>
     </castList>
 <set location="Province" country="France" periode="XIXème" gps="">À la gare d'une petite ville.</set>
 <note>Texte issu de l'ouvrage "HENRY BECQUE, OEuvres complète, tome III", Paris, G. Grès, 1924. pp.124-136.</note>
@@ -51,7 +51,8 @@
 <div1 type="acte" n="1"><head>VEUVE !</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor">Un petit salon tout ce qu'il y a de plus parisien. Les volets fermés aux trois quarts, ne laissent pénétrer qu'une faible lumière. Clotilde, habillée de noir, les traits tirés, songeuse, parcourt des lettres qu'elle vient de recevoir.</stage>
-<sp stage="read" who="CLOTILDE"><speaker>CLOTILDE, lisant.</speaker>
+<sp who="CLOTILDE"><speaker>CLOTILDE</speaker><stage type="read">, lisant.
+</stage>
 <p id="1">
 	<s id="1">« MA CHÈRE COUSINE,</s>
 </p>
@@ -119,7 +120,8 @@
 	<s id="2">Mais il se souvient, c'est quelque chose.</s>
 </p>
 </sp>
-<sp stage="entrance" who="ADÈLE"><speaker>ADÈLE, entrant.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="16">
 	<s id="1">Monsieur_Lafont, Madame.</s>
 </p>
@@ -129,7 +131,8 @@
 	<s id="1">Faites entrer.</s>
 </p>
 </sp>
-<sp stage="costume/face/tender/low" who="LAFONT"><speaker>LAFONT, toilette sévère, figure de circonstance, allant à elle, tendrement, à mi-voix.</speaker>
+<sp who="LAFONT"><speaker>LAFONT</speaker><stage type="costume/face/tender/low">, toilette sévère, figure de circonstance, allant à elle, tendrement, à mi-voix.
+</stage>
 <p id="18">
 	<s id="1">Comment allez-vous ?</s>
 </p>
@@ -298,7 +301,8 @@
 	<s id="1">Taisez-vous.</s>
 </p>
 </sp>
-<sp stage="entrance" who="ADÈLE"><speaker>ADÈLE, entrant.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="49">
 	<s id="">Voici des lettres pour Madame.</s>
 </p>
@@ -489,7 +493,8 @@
 	<s id="2">Tenez, passez par ici.</s>
 </p>
 </sp>
-<sp stage="location" who="LAFONT"><speaker>LAFONT, arrivé à la porte.</speaker>
+<sp who="LAFONT"><speaker>LAFONT</speaker><stage type="location">, arrivé à la porte.
+</stage>
 <p id="83">
 	<s id="1">À demain !</s>
 </p>

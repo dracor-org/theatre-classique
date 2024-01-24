@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
  <teiHeader>
   <fileDesc>
@@ -18,7 +18,7 @@
     <type>vers</type>
     <periode>1541-1550</periode>
     <taille>1000-1250</taille>
-    <permalien></permalien>
+    <permalien/>
     <liens>
 		<lien type="texte source">Bible, Génèse, chap. 22</lien>
 	</liens>
@@ -63,15 +63,15 @@
 	</div>
    <castList>
     <head>PERSONNAGES</head>
-    <castItem><role id="PROLOGUE" sex="1" type="H" statut='prologue' age='A' stat_amour='néant'>PROLOGUE</role>.</castItem>
-    <castItem><role id="ABRAHAM" sex="1" type="H" statut="berger" age='A' stat_amour='Sarah'>ABRAHAM</role>.</castItem>
-    <castItem><role id="SARAH" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>SARAH</role>.</castItem>
-    <castItem><role id="ISAAC" sex="1" type="H" statut="berger" age='E' stat_amour='néant'>ISAAC</role>.</castItem>
-    <castItem><role id="TROUPE DE BERGERS" sex="9" type="H" statut="berger" age='A' stat_amour='néant'>TROUPE DES BERGERS DE LA MAISON D'ABRAHAM</role>, divisée en deux parties.</castItem>
-    <castItem><role id="L'ANGE" sex="1" type="H" statut='ange' age='A' stat_amour='néant'>L'ANGE</role>.</castItem>
-    <castItem><role id="SATAN" sex="1" type="H" statut='ange' age='A' stat_amour='néant'>SATAN</role>.</castItem>
+    <castItem><role id="PROLOGUE" sex="1" type="H" statut="prologue" age="A" stat_amour="néant">PROLOGUE</role>.</castItem>
+    <castItem><role id="ABRAHAM" sex="1" type="H" statut="berger" age="A" stat_amour="Sarah">ABRAHAM</role>.</castItem>
+    <castItem><role id="SARAH" sex="2" type="H" statut="berger" age="A" stat_amour="néant">SARAH</role>.</castItem>
+    <castItem><role id="ISAAC" sex="1" type="H" statut="berger" age="E" stat_amour="néant">ISAAC</role>.</castItem>
+    <castItem><role id="TROUPE DE BERGERS" sex="9" type="H" statut="berger" age="A" stat_amour="néant">TROUPE DES BERGERS DE LA MAISON D'ABRAHAM</role>, divisée en deux parties.</castItem>
+    <castItem><role id="L'ANGE" sex="1" type="H" statut="ange" age="A" stat_amour="néant">L'ANGE</role>.</castItem>
+    <castItem><role id="SATAN" sex="1" type="H" statut="ange" age="A" stat_amour="néant">SATAN</role>.</castItem>
    </castList>
-   <set location="Jérusalem" country="Israël" periode="Temps bibliques" gps="31.768319, 35.213710"></set>
+   <set location="Jérusalem" country="Israël" periode="Temps bibliques" gps="31.768319, 35.213710"/>
   </front>
   <body>
 <div1 type="acte" n="1"><head>ABRAHAM SACRIFIANT.</head>
@@ -128,7 +128,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>Abraham.</head>
-<sp stage="entrance/location" who="ABRAHAM"><speaker>ABRAHAM parle, sortant de sa maison.</speaker>
+<sp who="ABRAHAM"><speaker>ABRAHAM</speaker><stage type="entrance/location"> parle, sortant de sa maison.
+	</stage>
 	<l id="49">Depuis que j'ai mon pays délaissé, </l>
 	<l id="50">Et de courir çà et là n'aI cessé,</l>
 	<l id="51">Hélas, mon_Dieu, est-il encor' un homme</l>
@@ -162,7 +163,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>Sarah, Abraham.</head>
-<sp stage="entrance/location" who="SARAH"><speaker>SARAH, sortant d'une même maison.</speaker>
+<sp who="SARAH"><speaker>SARAH</speaker><stage type="entrance/location">, sortant d'une même maison.
+	</stage>
 	<l id="79">Après avoir pensé et repensé</l>
 	<l id="80">Combien j'ai eu de biens le temps passé. </l>
 	<l id="81">De toi, mon_Dieu, qui toujours as voulu</l>
@@ -319,7 +321,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>Satan.</head>
-<sp stage="costume" who="SATAN"><speaker>SATAN, en habit de moine.</speaker>
+<sp who="SATAN"><speaker>SATAN</speaker><stage type="costume">, en habit de moine.
+	</stage>
 	<l id="195">Je vois, je viens, jour et nuit je travaille,</l>
 	<l id="196">Et m'est avis, en quelque part que j'aille,</l>
 	<l id="197">Que je ne perds ma peine aucunement.</l>
@@ -401,7 +404,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>Abraham, L'Ange.</head>
-<sp stage="entrance/location" who="ABRAHAM"><speaker>ABRAHAM ressortant de la maison.</speaker>
+<sp who="ABRAHAM"><speaker>ABRAHAM</speaker><stage type="entrance/location"> ressortant de la maison.
+	</stage>
 	<l id="271">Quoi que je die, ou que je fasse,</l>
 	<l id="272">Rien n'y a dont je ne me lasse,</l>
 	<l id="273">Tant me soit l'affaire agréable :</l>
@@ -619,7 +623,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>Abraham, Sarah, troupe de bergers.</head>
-<sp stage="entrance" who="ABRAHAM"><speaker>ABRAHAM, sortant avec Sarah.</speaker>
+<sp who="ABRAHAM"><speaker>ABRAHAM</speaker><stage type="entrance">, sortant avec Sarah.
+	</stage>
 	<l id="424">Mais tant y a qu'il appartient,</l>
 	<l id="425">Quand Dieu nous enjoint une chose,</l>
 	<l id="426">Que nous ayons la bouche close :</l>
@@ -1041,7 +1046,7 @@
 	<l id="670">C'est bien raison, ô Dieu, que je le fasse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head></head>
+<div2 type="scene" n="11"><head/>
 <sp who="SARAH"><speaker>SARAH.</speaker>
 	<l id="671">Plus on vit, plus on voit, hélas,</l>
 	<l id="672">Que c'est que de vivre ci bas !</l>
@@ -1488,7 +1493,7 @@
 	<l id="974">Puisque tu m'as porté obéissance.</l>
 </sp>
 </div2>
-<div2 type="epilogue" n="14"><head></head>
+<div2 type="epilogue" n="14"><head/>
 <sp who="ÉPILOGUE"><speaker>ÉPILOGUE.</speaker>
 	<l id="975">Or voyez vous de foi la grand' puissance</l>
 	<l id="976">Et le loyer de la vrai obéissance?</l>

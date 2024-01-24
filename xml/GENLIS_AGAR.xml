@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,24 +29,26 @@
 			<titlePart type="main">AGAR DANS LE DÉSERT</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="AGAR" sex="2" type="H" statut="paysan" age='A' stat_amour='néant'>AGAR</role>.</castItem>
-			<castItem><role id="ISMAËL" sex="1" type="H" statut="paysan" age='E' stat_amour='néant'>ISMAËL</role>, fils d'Agar et d'Abraham.</castItem>
-			<castItem><role id="L'ANGE" sex="1" type="D" statut="ange" age='A' stat_amour='néant'>L'ANGE</role>.</castItem>
+			<castItem><role id="AGAR" sex="2" type="H" statut="paysan" age="A" stat_amour="néant">AGAR</role>.</castItem>
+			<castItem><role id="ISMAËL" sex="1" type="H" statut="paysan" age="E" stat_amour="néant">ISMAËL</role>, fils d'Agar et d'Abraham.</castItem>
+			<castItem><role id="L'ANGE" sex="1" type="D" statut="ange" age="A" stat_amour="néant">L'ANGE</role>.</castItem>
 		</castList>
-		<set location='Désert' country='Pays biblique' periode='Temps bibliques' gps="(N/A)">La scène est au désert.</set>
+		<set location="Désert" country="Pays biblique" periode="Temps bibliques" gps="(N/A)">La scène est au désert.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>AGAR DANS LE DÉSERT</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Agar, Ismaël.</head>
-<sp who="AGAR"><speaker>AGAR, tenant son fils par la main, et portant un vase sur l'épaule.</speaker> 
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Agar, Ismaël.
+</stage>
+<sp who="AGAR"><speaker>AGAR</speaker><stage>, tenant son fils par la main, et portant un vase sur l'épaule. 
+</stage> 
 <p id="1">
 	<s id="1">Quels tristes lieux !... </s>
 	<s id="2">Quelle solitude affreuse !...</s>
@@ -287,7 +289,8 @@
 </p> 
 <stage type="lie">Elle tombe accablée de douleur.</stage>
 </sp>
-<sp stage="awake" who="ISMAËL"><speaker>ISMAËL, se réveillant.</speaker>
+<sp who="ISMAËL"><speaker>ISMAËL</speaker><stage type="awake">, se réveillant.
+</stage>
 <p id="43">
 	<s id="1">Mère !...</s>
 </p>
@@ -305,7 +308,8 @@
 	<s id="4">Un feu cruel me dévore.</s>
 </p>
 </sp>
-<sp stage="hugh/hide" who="AGAR"><speaker>AGAR, prenant Ismaël dans ses bras, et le couvrant de son voile.</speaker>
+<sp who="AGAR"><speaker>AGAR</speaker><stage type="hugh/hide">, prenant Ismaël dans ses bras, et le couvrant de son voile.
+</stage>
 <p id="46">
 	<s id="1">Mon_Dieu, prenez pitié de l'excès de ma peine !...</s>
 </p>
@@ -378,7 +382,8 @@
 </p>
 <stage type="knell">Elle retombe auprès de son fils.</stage>
 </sp>
-<sp stage="location" who="L'ANGE"><speaker>L'ANGE, derrière le théâtre, après un long silence.</speaker>
+<sp who="L'ANGE"><speaker>L'ANGE</speaker><stage type="location">, derrière le théâtre, après un long silence.
+</stage>
 <p id="57">
 	<s id="1">Agar !...</s>
 </p>
@@ -395,7 +400,8 @@
 <stage type="decor/entrance">La toile du fond se lève, et l'on aperçoit sur un nuage l'ange tenant une palme à la main. Le théâtre change, et représente un frais paysage.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. L'Ange, Agar, Ismaël.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> L'Ange, Agar, Ismaël.
+</stage>
 <sp who="L'ANGE"><speaker>L'ANGE.</speaker>
 <p id="1">
 	<s id="1">Agar !</s>
@@ -407,7 +413,8 @@
 	<s id="2">Ô mon fils !</s>
 </p>
 </sp>
-<sp stage="closer" who="L'ANGE"><speaker>L'ANGE, s'approchant.</speaker>
+<sp who="L'ANGE"><speaker>L'ANGE</speaker><stage type="closer">, s'approchant.
+</stage>
 <p id="3">
 	<s id="1">Agar !... </s>
 	<s id="2">Essuyez vos larmes.</s>
@@ -431,7 +438,8 @@
 	<s id="1">Votre confiance et votre foi n'égalent-elles pas votre soumission ?</s>
 </p>
 </sp>
-<sp stage="location" who="AGAR"><speaker>AGAR, toujours aux pieds de l'ange.</speaker>
+<sp who="AGAR"><speaker>AGAR</speaker><stage type="location">, toujours aux pieds de l'ange.
+</stage>
 <p id="7">
 	<s id="1">Oui, je suis résignée... </s>
 	<s id="2">Si Dieu l'exige, je m'interdirai jusqu'à la plainte. </s>
@@ -528,7 +536,8 @@ une source abondante.</stage>
 	<s id="3">Vous voulez que j'en jouisse; Ismaël va donc revivre !</s>
 </p>
 </sp>
-<sp stage="closer" who="L'ANGE"><speaker>L'ANGE s'approche d'Ismaël.</speaker>
+<sp who="L'ANGE"><speaker>L'ANGE</speaker><stage type="closer"> s'approche d'Ismaël.
+</stage>
 <p id="19">
 	<s id="1">Approchez-vous, Agar!</s>
 </p>
@@ -560,7 +569,8 @@ une source abondante.</stage>
 	<s id="1">Agar, Agar, ranimez-vous pour louer, pour adorer le Seigneur.</s>
 </p>
 </sp>
-<sp stage="awake" who="AGAR"><speaker>AGAR, revenant à elle.</speaker>
+<sp who="AGAR"><speaker>AGAR</speaker><stage type="awake">, revenant à elle.
+</stage>
 <p id="24">
 	<s id="1">Ismaël !</s>
 </p>
@@ -578,7 +588,8 @@ une source abondante.</stage>
 	<s id="4">Ce n'est point un songe !</s>
 </p>
 </sp>
-<sp stage="stand" who="ISMAËL"><speaker>ISMAËL, se soulevant.</speaker>
+<sp who="ISMAËL"><speaker>ISMAËL</speaker><stage type="stand">, se soulevant.
+</stage>
 <p id="27">
 	<s id="1">Ah ! </s>
 	<s id="2">Je renais !... </s>

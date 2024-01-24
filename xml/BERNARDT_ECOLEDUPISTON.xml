@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">La pièce a été jouée pour la première fois au Théâtre Antoine en juin 1916.</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,17 +38,17 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ROBERT SANTEUIL" sex="1" type="H" statut="auteur" age="A" stat_amour=''>ROBERT SANTEUIL</role>.</castItem>
-		<castItem><role id="BARRUCHON" sex="1" type="H" statut="sous-secrétaire" age="A" stat_amour=''>BARRUCHON</role>, sous-secrétaire aux Tabacs.</castItem>
-		<castItem><role id="LE GÉNÉRAL VARBEUF" sex="1" type="H" statut="général" age="A" stat_amour=''>LE GÉNÉRAL VARBEUF</role>.</castItem>
-		<castItem><role id="ADRIEN" sex="1" type="H" statut="employé" age="A" stat_amour=''>ADRIEN</role>.</castItem>
-		<castItem><role id="HENRI BASSOU" sex="1" type="H" statut="journaliste" age="A" stat_amour=''>HENRI BASSOU</role>.</castItem>
-		<castItem><role id="BAGONET" sex="1" type="H" statut="chef de cabinet" age="A" stat_amour=''>BAGONET</role>.</castItem>
-		<castItem><role id="EUGÈNE" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>EUGÈNE</role>.</castItem>
-		<castItem><role id="UN ADJUDANT" sex="1" type="H" statut="adjudant" age="A" stat_amour=''>UN ADJUDANT</role>.</castItem>
-		<castItem><role id="UN CAPITAINE" sex="1" type="H" statut="capitaine" age="A" stat_amour=''>UN CAPITAINE</role>.</castItem>
-		<castItem><role id="MADAME PRUNEAU" sex="2" type="H" statut="hôtelier" age="A" stat_amour=''>MADAME PRUNEAU</role>.</castItem>
-		<castItem><role id="LUCIE RUMELLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>LUCIE RUMELLE</role>.</castItem>
+		<castItem><role id="ROBERT SANTEUIL" sex="1" type="H" statut="auteur" age="A" stat_amour="">ROBERT SANTEUIL</role>.</castItem>
+		<castItem><role id="BARRUCHON" sex="1" type="H" statut="sous-secrétaire" age="A" stat_amour="">BARRUCHON</role>, sous-secrétaire aux Tabacs.</castItem>
+		<castItem><role id="LE GÉNÉRAL VARBEUF" sex="1" type="H" statut="général" age="A" stat_amour="">LE GÉNÉRAL VARBEUF</role>.</castItem>
+		<castItem><role id="ADRIEN" sex="1" type="H" statut="employé" age="A" stat_amour="">ADRIEN</role>.</castItem>
+		<castItem><role id="HENRI BASSOU" sex="1" type="H" statut="journaliste" age="A" stat_amour="">HENRI BASSOU</role>.</castItem>
+		<castItem><role id="BAGONET" sex="1" type="H" statut="chef de cabinet" age="A" stat_amour="">BAGONET</role>.</castItem>
+		<castItem><role id="EUGÈNE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">EUGÈNE</role>.</castItem>
+		<castItem><role id="UN ADJUDANT" sex="1" type="H" statut="adjudant" age="A" stat_amour="">UN ADJUDANT</role>.</castItem>
+		<castItem><role id="UN CAPITAINE" sex="1" type="H" statut="capitaine" age="A" stat_amour="">UN CAPITAINE</role>.</castItem>
+		<castItem><role id="MADAME PRUNEAU" sex="2" type="H" statut="hôtelier" age="A" stat_amour="">MADAME PRUNEAU</role>.</castItem>
+		<castItem><role id="LUCIE RUMELLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">LUCIE RUMELLE</role>.</castItem>
 	</castList>
 	<set location="Bordeaux" country="France" periode="XXème" gps="44.837789, -0.579180">La scène est à Bordeaux, en septembre-octobre 1914, dans le Vestibule d'un hôtel confortable. Au lever du rideau, Mme Pruneau, la patronne de l'hôtel (léger accent bordelais) est en conversation avec un adjudant du 184° de ligne.</set>
 	<note>La pièce a été jouée à la création par MM. LOUVIGNY, MONDOS, GABIN, PALAU, SAVOY, DELIVRY, VALLÉ, CAILLOUX, MÉRET, et par Mlles MARGUERITE DEVAL et JEANNE FUSIER.</note>
@@ -168,7 +168,8 @@
 	<s id="1">Oui.. oui...</s>
 </p>
 </sp>
-<sp stage="inetrrupt" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, le reprenant</speaker>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="inetrrupt">, le reprenant
+</stage>
 <p id="20">
 	<s id="1">Oui, mon adjudant ! </s>
 	<s id="2">Tu dois lui dire « mon adjudant ».</s>
@@ -214,9 +215,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE II. Madame Pruneau, Adrien, puis Robert
-Santeuil, suivi de Lucie Rumelle.</head>
-<sp stage="toward" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, à Adrien.</speaker>
+<div2 type="scene" n=""><head>SCÈNE II.</head><stage> Madame Pruneau, Adrien, puis Robert
+Santeuil, suivi de Lucie Rumelle.
+</stage>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="toward">, à Adrien.
+</stage>
 <p id="1">
 	<s id="1">Es-tu lavé au moins, Adrien ?</s>
 </p>
@@ -255,7 +258,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">C'est qu'il n'est pas à l'hôtel du moment, Monsieur_Bassou...</s>
 </p>
 </sp>
-<sp stage="impatient/toward" who="ROBERT"><speaker>ROBERT, impatienté, à Lucie</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="impatient/toward">, impatienté, à Lucie
+</stage>
 <p id="8">
 	<s id="1">Il n'est pas à l'hôtel pour le moment.</s>
 </p>
@@ -293,7 +297,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Alors nous allons faire une petite course dans le quartier et nous revenons.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCIE"><speaker>LUCIE, à Robert</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="toward">, à Robert
+</stage>
 <p id="15">
 	<s id="1">Donnez votre nom, en tout cas.</s>
 </p>
@@ -314,7 +319,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Elle vous connaît ?</s>
 </p>
 </sp>
-<sp stage="low/happy" who="ROBERT"><speaker>ROBERT, d'un ton vague et satisfait.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="low/happy">, d'un ton vague et satisfait.
+</stage>
 <p id="19">
 	<s id="1">Oui, oui. </s>
 </p>
@@ -337,7 +343,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <stage type="exit/entrance">Ils sortent. Adrien entre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Madame Pruneau, Adrien.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Madame Pruneau, Adrien.
+</stage>
 <sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU.</speaker>
 <p id="1">
 	<s id="1">Adrien, tiens, voilà deux francs de pourboire qu'on a laissés pour toi ce matin.</s>
@@ -358,7 +365,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Merci, Madame.</s>
 </p>
 </sp>
-<sp stage="show" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, lui montrant sa manche</speaker>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="show">, lui montrant sa manche
+</stage>
 <p id="5">
 	<s id="1">Il y a trois galons là-dessus.</s>
 </p>
@@ -395,7 +403,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <stage type="entrance">Entre Henri Bassou.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Madame Pruneau, Henri Bassou, puis Adrien.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Madame Pruneau, Henri Bassou, puis Adrien.
+</stage>
 <sp who="HENRI"><speaker>HENRI.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Madame. </s>
@@ -452,7 +461,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="entrance">Entre Adrien.</stage>
 </sp>
-<sp stage="toward" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, à Adrien.</speaker>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="toward">, à Adrien.
+</stage>
 <p id="10">
 	<s id="1">Tiens, Adrien, voilà de l'argent pour cette dépêche ; c'est plus que ça coûtera ; le reste est pour toi.</s>
 </p>
@@ -462,7 +472,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Merci, Madame.</s>
 </p>
 </sp>
-<sp stage="show" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, lui montrant sa manche.</speaker>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="show">, lui montrant sa manche.
+</stage>
 <p id="12">
 	<s id="1">J'ai là-dessus un large galon en biais.</s>
 </p>
@@ -477,7 +488,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Pas mon.</s>
 </p>
 </sp>
-<sp stage="doubt" who="ADRIEN"><speaker>ADRIEN, sans comprendre.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="doubt">, sans comprendre.
+</stage>
 <p id="15">
 	<s id="1">Pas mon ?</s>
 </p>
@@ -529,14 +541,16 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="exit">En sortant, Adrien se croise dans la porte tournante avec Robert Santeuil et Lucie Rumelle qui entrent.</stage>
 </sp>
-<sp stage="toward" who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU, à Henri Bassou.</speaker>
+<sp who="MADAME PRUNEAU"><speaker>MADAME PRUNEAU</speaker><stage type="toward">, à Henri Bassou.
+</stage>
 <p id="22">
 	<s id="1">Tenez, voilà justement les amis qui vous cherchent.</s>
 </p>
 <stage type="ecit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Robert Santeuil, Lucie Rumelle, Henri Bassou.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Robert Santeuil, Lucie Rumelle, Henri Bassou.
+</stage>
 <sp who="HENRI"><speaker>HENRI.</speaker>
 <p id="1">
 	<s id="1">Santeuil ! </s>
@@ -585,7 +599,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">J'ai trente-deux ans.</s>
 </p>
 </sp>
-<sp stage="explicit" who="HENRI"><speaker>HENRI, qui tient aussi à expliquer, comme tout le monde, sa situation militaire.</speaker> 
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="explicit">, qui tient aussi à expliquer, comme tout le monde, sa situation militaire. 
+</stage> 
 <p id="9">
 	<s id="1">Moi, je suis de la classe 97. </s>
 	<s id="2">Je suis en sursis d'appel.</s>
@@ -637,12 +652,14 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Il ne me semble pas que ça présente de grandes difficultés...</s>
 </p>
 </sp>
-<sp stage="wave" who="ROBERT"><speaker>ROBERT, hochant la tête.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="wave">, hochant la tête.
+</stage>
 <p id="18">
 	<s id="1">Ce n'est pas commode.</s>
 </p>
 </sp>
-<sp stage="wave" who="LUCIE"><speaker>LUCIE, même mouvement</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="wave">, même mouvement
+</stage>
 <p id="19">
 	<s id="1">Ce n'est pas facile du tout.</s>
 </p>
@@ -696,7 +713,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Cent vingt !</s>
 </p>
 </sp>
-<sp stage="estonish" who="HENRI"><speaker>HENRI, admiratif</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="estonish">, admiratif
+</stage>
 <p id="29">
 	<s id="1">Cent vingt !</s>
 </p>
@@ -718,13 +736,15 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">Merci, Monsieur !</s>
 </p>	
 </sp>
-<sp stage="think" who="HENRI"><speaker>HENRI, après réflexion.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="think">, après réflexion.
+</stage>
 <p id="33">
 	<s id="1">Moi personnellement, je ne peux pas du tout agir auprès du Ministère_de_la_Guerre... </s>
 	<s id="2">Non...</s>
 </p>
 </sp>
-<sp stage="desapointed" who="ROBERT"><speaker>ROBERT, déçu.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="desapointed">, déçu.
+</stage>
 <p id="34">
 	<s id="1">Oh ! </s>
 	<s id="2">Pourquoi ?</s>
@@ -738,7 +758,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="4">Et si je demandais quelque chose, je pourrais risquer ma situation au journal.</s>
 </p>
 </sp>
-<sp stage="help" who="ROBERT"><speaker>ROBERT, arrangeant.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="help">, arrangeant.
+</stage>
 <p id="36">
 	<s id="1">Tu en trouverais facilement une autre ailleurs.</s>
 </p>
@@ -787,7 +808,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Bagonet, puis Adrien, Un Capitaine.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les Mêmes, Bagonet, puis Adrien, Un Capitaine.
+</stage>
 <sp who="BAGONET"><speaker>BAGONET.</speaker>
 <p id="1">
 	<s id="1">Oui, j'ai souvent applaudi Monsieur. </s>
@@ -990,18 +1012,21 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Il y en a par là.</s>
 </p>	
 </sp>
-<sp stage="toward" who="BAGONET"><speaker>BAGONET, à Robert.</speaker>
+<sp who="BAGONET"><speaker>BAGONET</speaker><stage type="toward">, à Robert.
+</stage>
 <p id="35">
 	<s id="1">Eh bien, venez donc m'écrire ça dans le salon de lecture.</s>
 </p>
 <stage type="ENTRANCE">Entre un capitaine.</stage>
 </sp>
-<sp stage="toward" who="LE CAPITAINE"><speaker>LE CAPITAINE, à Adrien.</speaker>
+<sp who="LE CAPITAINE"><speaker>LE CAPITAINE</speaker><stage type="toward">, à Adrien.
+</stage>
 <p id="36">
 	<s id="1">Est-ce qu'on a reçu une dépêche du Général_Varbeuf ?</s>
 </p>
 </sp>
-<sp stage="proud" who="ADRIEN"><speaker>ADRIEN, prenant la position militaire.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="proud">, prenant la position militaire.
+</stage>
 <p id="37">
 	<s id="1">Oui, mon... </s>
 </p>
@@ -1031,7 +1056,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="toward" who="BAGONET"><speaker>BAGONET, à Adrien.</speaker>
+<sp who="BAGONET"><speaker>BAGONET</speaker><stage type="toward">, à Adrien.
+</stage>
 <p id="43">
 	<s id="1">C'est le Général_Varbeuf qui va descendre ici ?</s>
 </p>
@@ -1042,7 +1068,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">C'est le nom qu'il y avait sur la dépêche.</s>
 </p>
 </sp>
-<sp stage="toward" who="BAGONET"><speaker>BAGONET, à Robert.</speaker>
+<sp who="BAGONET"><speaker>BAGONET</speaker><stage type="toward">, à Robert.
+</stage>
 <p id="45">
 	<s id="1">Eh bien, nous avons de la chance! </s>
 	<s id="2">C'est précisément le général Varbeuf qui prend le commandement de la subdivision. </s>
@@ -1051,7 +1078,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="exit/entrance">Il sort pendant qu'Henri entre au salon de lecture.</stage>
 </sp>
-<sp stage="watch/toward" who="LUCIE"><speaker>LUCIE, regardant à la cantonade, à Robert.</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="watch/toward">, regardant à la cantonade, à Robert.
+</stage>
 <p id="46">
 	<s id="1">Regardez-le. </s>
 	<s id="2">Il est en train de parler au général. </s>
@@ -1080,15 +1108,18 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Je vous laisse avec lui. De l'énergie !</s>
 </p>
 </sp>
-<sp stage="entrance" who="HENRI"><speaker>HENRI, pendant qu'elle entre au salon de lecture</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="entrance">, pendant qu'elle entre au salon de lecture
+</stage>
 <p id="51">
 	<s id="1">Vous pouvez y compter.</s>
 </p>
 <stage type="">Entrent le général, puis Adrien par un autre côté.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Général, Adrien sort l'instant d'après? Robert Santeuil.</head>
-<sp stage="toward" who="LE GÉNÉRAL"><speaker>LE GÉNÉRAL, à Adrien.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Général, Adrien sort l'instant d'après? Robert Santeuil.
+</stage>
+<sp who="LE GÉNÉRAL"><speaker>LE GÉNÉRAL</speaker><stage type="toward">, à Adrien.
+</stage>
 <p id="1">
 	<s id="1">C'est par ici, ma chambre ? </s>
 </p>
@@ -1259,7 +1290,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <stage type="exit/entrance">Sort le général. Lucie et Henri sortent du salon quelques instants après.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Henri Bassou, Robert Santeuil Lucie Rumelle, puis Bagonet.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Henri Bassou, Robert Santeuil Lucie Rumelle, puis Bagonet. 
+</stage> 
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ?</s>
@@ -1322,7 +1354,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Ça ne fait rien, ça portera aussi.</s>
 </p>
 </sp>
-<sp stage="entrance" who="BAGONET"><speaker>BAGONET, entrant.</speaker>
+<sp who="BAGONET"><speaker>BAGONET</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="13">
 	<s id="1">Voici le ministre. </s>
 	<s id="2">Ça va très bien. </s>
@@ -1365,7 +1398,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <stage type="entrance/explicit">Entre le ministre. C'est un homme de quarante-cinq ans environ, barbe grise, silhouette assez imposante.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les Mêmes, Le Ministre.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les Mêmes, Le Ministre.
+</stage>
 <sp who="BAGONET"><speaker>BAGONET.</speaker>
 <p id="1">
 	<s id="1">Monsieur_le_Ministre, je tiens à vous présenter Robert_Santeuil, que vous connaissez certainement.</s>
@@ -1377,14 +1411,16 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">L'auteur des Hasards_de_l'amour ?</s>
 </p>
 </sp>
-<sp stage="wave" who="ROBERT"><speaker>ROBERT, ne voulant pas rectifier.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="wave">, ne voulant pas rectifier.
+</stage>
 <p id="3">
 	<s id="1">Oui, oui, Monsieur_le_Ministre. </s>
 	<s id="2">Voilà Mademoiselle_Lucie_Rumelle, avec qui je suis fiancé... </s>
 	<s id="3">Mais ce n'est pas encore tout à fait officiel.</s>
 </p>
 </sp>
-<sp stage="wave" who="LE MINISTRE"><speaker>LE MINISTRE, s'inclinant.</speaker>
+<sp who="LE MINISTRE"><speaker>LE MINISTRE</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="4">
 	<s id="1">Mademoiselle...</s>
 </p>
@@ -1410,7 +1446,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="low">Ils parlent ensemble tout bas.</stage>
 </sp>
-<sp stage="toward" who="LUCIE"><speaker>LUCIE, à Robert.</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="toward">, à Robert.
+</stage>
 <p id="9">
 	<s id="1">Il vous admire.</s>
 </p>
@@ -1447,7 +1484,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="11">Oui, oui, j'avais remarqué le nom parce que c'est celui de ma femme.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ROBERT"><speaker>ROBERT, gêné.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="embarrassed">, gêné.
+</stage>
 <p id="14">
 	<s id="1">Henriette, Monsieur le Ministre, ce n'est pas de moi ; c'est de mon  confrère Aubin.</s>
 </p>
@@ -1578,7 +1616,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">Je lui en parlerai à la prochaine occasion.</s>
 </p>
 </sp>
-<sp stage="proud" who="LUCIE"><speaker>LUCIE, courageusement.</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="proud">, courageusement.
+</stage>
 <p id="35">
 	<s id="1">Monsieur le Ministre, je vais vous demander une grande faveur !</s>
 </p>
@@ -1609,14 +1648,15 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <p id="40">
 	<s id="1">On ne peut rien refuser à une aussi jolie jeune fille.</s>
 </p>
-><stage type="">Il sort un portefeuille pour prendre une carte, puis, brusquement, le remet dans sa poche.</stage>
+&gt;<stage type="">Il sort un portefeuille pour prendre une carte, puis, brusquement, le remet dans sa poche.</stage>
 <p id="41">
 	<s id="1">Je ferai mieux : je dîne ce soir avec lui et je vais lui parler de votre affaire. </s>
 	<s id="2">Mais il me faut une petite note. </s>
 	<s id="3">Vous allez me faire une petite note.</s>
 </p>
 </sp>
-<sp stage="sad" who="ROBERT"><speaker>ROBERT, déçu.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="sad">, déçu.
+</stage>
 <p id="42">
 	<s id="1">Oui, monsieur le Ministre.</s>
 </p>
@@ -1724,7 +1764,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 <stage type="exit/sad/sit">Ils sortent. Robert et Lucie sont accablés. Ils s'assoient tristement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE X. Lucie Rumelle, Robert Santeuil, puis Eugëne et Henri Bassou.</head> 
+<div2 type="scene" n=""><head>SCÈNE X.</head><stage> Lucie Rumelle, Robert Santeuil, puis Eugëne et Henri Bassou. 
+</stage> 
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
 <p id="1">
 	<s id="1">C'est navrant !</s>
@@ -1774,7 +1815,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="3">Mais c'est Monsieur_Santeuil ?</s>
 </p>
 </sp>
-<sp stage="watch" who="ROBERT"><speaker>ROBERT, le dévisageant.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="watch">, le dévisageant.
+</stage>
 <p id="9">
 	<s id="1">Je ne vous remets pas.</s>
 </p>
@@ -1798,7 +1840,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="2">Je suis au bureau du capitaine-adjudant-major.</s>
 </p>
 </sp>
-<sp stage="watch" who="ROBERT"><speaker>ROBERT, regardant les numéros de son collet.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="watch">, regardant les numéros de son collet.
+</stage>
 <p id="13">
 	<s id="1">Et vous avez de la veine ! </s>
 	<s id="2">Vous êtes au 192° !</s>
@@ -1827,7 +1870,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Oui, c'est pour faire mon instruction à Bordeaux...</s>
 </p>
 </sp>
-<sp stage="open/write" who="EUGÈNE"><speaker>EUGÈNE, ouvrant son livre, écrivant.</speaker>
+<sp who="EUGÈNE"><speaker>EUGÈNE</speaker><stage type="open/write">, ouvrant son livre, écrivant.
+</stage>
 <p id="18">
 	<s id="1">Robert Santeuil... </s>
 </p>
@@ -1836,7 +1880,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 	<s id="1">Vous voilà au 192°.</s>
 </p>
 </sp>
-<sp stage="estonish" who="ROBERT"><speaker>ROBERT, stupéfait.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="estonish">, stupéfait.
+</stage>
 <p id="20">
 	<s id="1">Comment ?</s>
 </p>
@@ -1899,7 +1944,8 @@ Santeuil, suivi de Lucie Rumelle.</head>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="listen" who="HENRI"><speaker>HENRI, qui a entendu la fin de la conversation.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="listen">, qui a entendu la fin de la conversation.
+</stage>
 <p id="32">
 	<s id="1">Eh bien, c'est arrangé ?</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,23 +28,23 @@
 		<docTitle>
 			<titlePart type="main">GRANDEUR D'ÂME</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="LE MÉDECIN" sex="1" type="H" statut="médecin" age='A' stat_amour='néant'>LE MÉDECIN</role>.</castItem>
-			<castItem><role id="LA MOUILETTE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LA MOUILETTE</role>.</castItem>
-			<castItem><role id="LE PREMIER TÉMOIN" sex="1" type="A" statut="bourgeois" age='A' stat_amour='néant'>LE PREMIER TÉMOIN</role>.</castItem>
+			<castItem><role id="LE MÉDECIN" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">LE MÉDECIN</role>.</castItem>
+			<castItem><role id="LA MOUILETTE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LA MOUILETTE</role>.</castItem>
+			<castItem><role id="LE PREMIER TÉMOIN" sex="1" type="A" statut="bourgeois" age="A" stat_amour="néant">LE PREMIER TÉMOIN</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Sur le terrain.</set>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 71-77</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>GRANDEUR D'ÂME</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 <p id="1">
 	<s id="1">À cette heure vraiment solennelle, comment vous trouvez-vous, Monsieur_de_la_Mouillette ? Pas de fièvre ?  </s>
@@ -59,7 +59,8 @@
 	<s id="6">Excessivement mauvais.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MOUILETTE"><speaker>LA MOUILETTE, s'efforçant de sourire.</speaker>
+<sp who="LA MOUILETTE"><speaker>LA MOUILETTE</speaker><stage type="smile">, s'efforçant de sourire.
+</stage>
 <p id="3">
 	<s id="1">Que voulez-vous, docteur ! </s>
 	<s id="2">L'émotion inséparable d'une premier début.</s>
@@ -167,7 +168,8 @@
 </p>
 <stage type="explicit">À la gueule du pistolet de Truffe, un petit bouquet de fumée blanche est apparue.</stage>
 </sp>
-<sp stage="happy" who="LA MOUILETTE"><speaker>LA MOUILETTE, triomphant.</speaker>
+<sp who="LA MOUILETTE"><speaker>LA MOUILETTE</speaker><stage type="happy">, triomphant.
+</stage>
 <p id="19">
 	<s id="1">Il ne m'a pas touché ! </s>
 	<s id="2">Il ne m'a pas touché !</s>

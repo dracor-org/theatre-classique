@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -39,14 +39,14 @@
 			<premiere date="1880-11-29" location="Comédie Française">Représentée pour la première fois à la Comédie Française le 29 novembre 1880.</premiere>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE DUC LAËRTE" sex="1" type="H" statut="duc" age="A" stat_amour=''>LE DUC LAËRTE</role>.</castItem>
-			<castItem><role id="LE COMTE IRUS" sex="1" type="H" statut="comte" age="A" stat_amour=''>LE COMTE IRUS</role>, son neveu.</castItem>
-			<castItem><role id="SILVIO" sex="1" type="H" statut="" age="A" stat_amour=''>SILVIO</role>.</castItem>
-			<castItem><role id="NINON" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>NINON</role>, jumelle, fille du duc Laërte.</castItem>
-			<castItem><role id="NINETTE" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>NINETTE</role>, jumelle, fille du duc Laërte.</castItem>
-			<castItem><role id="FLORA" sex="2" type="H" statut="servante" age="A" stat_amour=''>FLORA</role>, servante.</castItem>
-			<castItem><role id="SPADILLE" sex="1" type="H" statut="domestique" age="A" stat_amour=''>SPADILLE</role>, domestique.</castItem>
-			<castItem><role id="QUINOLA" sex="1" type="H" statut="domestique" age="A" stat_amour=''>QUINOLA</role>, domestique.</castItem>
+			<castItem><role id="LE DUC LAËRTE" sex="1" type="H" statut="duc" age="A" stat_amour="">LE DUC LAËRTE</role>.</castItem>
+			<castItem><role id="LE COMTE IRUS" sex="1" type="H" statut="comte" age="A" stat_amour="">LE COMTE IRUS</role>, son neveu.</castItem>
+			<castItem><role id="SILVIO" sex="1" type="H" statut="" age="A" stat_amour="">SILVIO</role>.</castItem>
+			<castItem><role id="NINON" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">NINON</role>, jumelle, fille du duc Laërte.</castItem>
+			<castItem><role id="NINETTE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">NINETTE</role>, jumelle, fille du duc Laërte.</castItem>
+			<castItem><role id="FLORA" sex="2" type="H" statut="servante" age="A" stat_amour="">FLORA</role>, servante.</castItem>
+			<castItem><role id="SPADILLE" sex="1" type="H" statut="domestique" age="A" stat_amour="">SPADILLE</role>, domestique.</castItem>
+			<castItem><role id="QUINOLA" sex="1" type="H" statut="domestique" age="A" stat_amour="">QUINOLA</role>, domestique.</castItem>
 		</castList>
 		<set location="(Lieu indéterminé)" country="(Pays indéterminé)" periode="XIXème" gps="48.856614, 2.352222">La scène est où l'on voudra.</set>
 		<note>Texte issu de "Un Spectacle dans un fauteuil", Paris : Librairie d'Eugène Renduel, 1833.- pp. 129-203</note>
@@ -54,7 +54,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
 <stage type="decor">Une chambre à coucher.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Ninon, Ninette.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Ninon, Ninette.
+</stage>
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
 	<l id="1">Onze_heures vont sonner. - Bonsoir, ma chère soeur.</l>
 	<l id="2" syll="6" part="i">Je m'en vais me coucher.</l>
@@ -70,14 +71,16 @@
 	<l id="7" syll="6" part="i">Bacchanal ! Bacchanal !</l>
 <stage type="call">Elle sort en appelant son chien.</stage>
 </sp>
-<sp stage="kneel/furniture" who="NINON"><speaker>NINON, s'agenouillant à son prie-Dieu.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="kneel/furniture">, s'agenouillant à son prie-Dieu.
+	</stage>
 	<l id="8">O Christe ! Dum fixus cruci</l>
 	<l id="9">Expandis orbi brachia,</l>
 	<l id="10">Amare da crucem, tuo</l>
 	<l id="11">Da nos in amplexu mori.</l>
 <stage type="dress">Elle se déshabille.</stage>
 </sp>
-<sp stage="entrance/frigthen/sit/hurry/furniture" who="NINETTE"><speaker>NINETTE, rentrant épouvantée, et se jetant dans un fauteuil.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="entrance/frigthen/sit/hurry/furniture">, rentrant épouvantée, et se jetant dans un fauteuil.
+	</stage>
 	<l id="12">Ma chère, je suis morte.</l>
 </sp>
 <sp who="NINON"><speaker>NINON.</speaker>
@@ -131,7 +134,8 @@
 	<l id="33" syll="4" part="f">Et toi la tienne.</l>
 <stage type="kiss/exit">Elles s'embrassent. Ninette sort avec Flora.</stage>
 </sp>
-<sp stage="al6one" who="NINON"><speaker>NINON, seule, mettant son verrou.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="al6one">, seule, mettant son verrou.
+	</stage>
 	<l id="34">Des éperons d'argent, un manteau de velours !</l>
 	<l id="35">Une chaîne ! Un baiser ! - C'est extraordinaire.</l>
 <stage type="dress">Elle se décoiffe.</stage>
@@ -169,10 +173,12 @@
 	<l id="60">Rose ce soir, demain flétrie.</l>
 	<l id="61">Comment vis-tu, toi qui n'as pas d'amour ?</l>
 </sp>
-<sp stage="awake" who="NINON"><speaker>NINON, s'éveillant.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="awake">, s'éveillant.
+	</stage>
 	<l id="62">Est-ce un rêve ? J'ai cru qu'on chantait dans la cour ?</l>
 </sp>
-<sp stage="location" who="LA VOIX"><speaker>LA VOIX, au dehors.</speaker>
+<sp who="LA VOIX"><speaker>LA VOIX</speaker><stage type="location">, au dehors.
+	</stage>
 	<l id="63">Regarde-toi, la jeune fille.</l>
 	<l id="64">Ton coeur bat et ton oeil pétille.</l>
 	<l id="65">Aujourd'hui le printemps, Ninon, demain l'hiver.</l>
@@ -195,14 +201,16 @@
 	<l id="78">La vie est un sommeil, l'amour en est le rêve,</l>
 	<l id="79">Et vous aurez vécu, si vous avez aimé.</l>
 </sp>
-<sp stage="jalous" who="NINON"><speaker>NINON, soulevant sa jalousie.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="jalous">, soulevant sa jalousie.
+	</stage>
 	<l id="80">Ses éperons d'argent brillent dans la rosée ;</l>
 	<l id="81">Une chaîne à glands d'or retient son manteau noir.</l>
 	<l id="82">Il relève en marchant sa moustache frisée. - </l>
 	<l id="83">Quel est ce personnage et comment le savoir ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Irus, à sa toilette ; Spadille, Quinola.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Irus, à sa toilette ; Spadille, Quinola.
+</stage>
 <sp who="IRUS"><speaker>IRUS.</speaker>
 	<l id="84">Lequel de vous, marauds, m'a posé ma perruque ?</l>
 	<l id="85">Outre que les rubans me font mal à la nuque,</l>
@@ -226,11 +234,13 @@
 	<l id="90">Hum ! Hum ! Diable_de_poudre ! - Hatsch ! Je suis aveuglé.</l>
 <stage type="sneeze">Il éternue.</stage>
 </sp>
-<sp stage="meuble" who="QUINOLA"><speaker>QUINOLA, ouvrant une armoire.</speaker>
+<sp who="QUINOLA"><speaker>QUINOLA</speaker><stage type="meuble">, ouvrant une armoire.
+	</stage>
 	<l id="91">Monsieur, vous ne sauriez mettre cette culotte.</l>
 	<l id="92">La lampe était auprès ; - toute l'huile a coulé.</l>
 </sp>
-<sp stage="open/furniture" who="SPADILLE"><speaker>SPADILLE, ouvrant une autre armoire.</speaker>
+<sp who="SPADILLE"><speaker>SPADILLE</speaker><stage type="open/furniture">, ouvrant une autre armoire.
+	</stage>
 	<l id="93">Monsieur, votre habit rose est tout rempli de crotte ;</l>
 	<l id="94">Quand je l'ai déployé le chat était dessus.</l>
 </sp>
@@ -282,11 +292,13 @@
 <sp who="QUINOLA"><speaker>QUINOLA.</speaker>
 	<l id="108">Moi, j'ai l'air d'un ministre.</l>
 </sp>
-<sp who="IRUS"><speaker>IRUS, les regardant.</speaker>
+<sp who="IRUS"><speaker>IRUS</speaker><stage>, les regardant.
+	</stage>
 	<l id="109">Spadille a l'air d'une oie, et Quinola d'un cuistre.</l>
 	<l id="110">Je ne sais pas à quoi je me déciderai.</l>
 </sp>
-<sp stage="entrance" who="LAËRTE"><speaker>LAËRTE, entrant.</speaker>
+<sp who="LAËRTE"><speaker>LAËRTE</speaker><stage type="entrance">, entrant.
+	</stage>
 	<l id="111">Et vous, vous avez l'air, mon neveu, d'une bête.</l>
 	<l id="112">N'êtes-vous pas honteux de vous poudrer la tête,</l>
 	<l id="113">Et de perdre, à courir dans votre cabinet,</l>
@@ -351,7 +363,8 @@
 <stage type="exit">Exeunt.</stage>
 </sp>
 </div2>
-<div2 stage="location" type="scene" n="3"><head>SCÈNE III. Ninon, Ninette, dans deux bosquets séparés.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="location"> Ninon, Ninette, dans deux bosquets séparés.
+</stage>
 <stage type="decor">Le jardin du duc.</stage>
 <sp who="NINON"><speaker>NINON.</speaker>
 	<l id="151">Cette voix retentit encore à mon oreille.</l>
@@ -397,7 +410,8 @@
 	<l id="173">Ô feuilles des palmiers, reines de la verdure,</l>
 	<l id="174">Qui versez vos amours dans les vents embrasés !</l>
 </sp>
-<sp stage="entrance" who="SILVIO"><speaker>SILVIO, entrant.</speaker>
+<sp who="SILVIO"><speaker>SILVIO</speaker><stage type="entrance">, entrant.
+	</stage>
 	<l id="175">Mon coeur hésite encor ; - toutes les deux si belles !</l>
 	<l id="176">Si conformes en tout, si saintement jumelles !</l>
 	<l id="177">Deux corps si transparents attachés par le coeur !</l>
@@ -418,7 +432,8 @@
 <sp who="IRUS"><speaker>IRUS.</speaker>
 	<l id="188">Quoi ! Vous sortez de table, et vous ne fumez pas ?</l>
 </sp>
-<sp stage="kiss" who="SILVIO"><speaker>SILVIO, embrassant Laerte.</speaker>
+<sp who="SILVIO"><speaker>SILVIO</speaker><stage type="kiss">, embrassant Laerte.
+	</stage>
 	<l id="189">Ô mon père ! Ô mon duc ! Je ne puis faire un pas.</l>
 	<l id="190" syll="6" part="i">Tout mon être est brisé.</l>
 <stage type="entrance">Ninon et Ninette paraissent.</stage>
@@ -433,24 +448,28 @@
 <stage type="exit">Ils sortent en se promenant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Ninette, restée seule ; Flora.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Ninette, restée seule ; Flora.
+</stage>
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
 	<l id="193">Où cours-tu donc, Flora ? Mon_Dieu ! La belle chaîne !</l>
 	<l id="194">Voyez donc ! - Les beaux glands ! Qui t'a donné cela ?</l>
 </sp>
-<sp stage="run" who="NINON"><speaker>NINON, accourant.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="run">, accourant.
+	</stage>
 	<l id="195">Voyons ! Laisse-moi voir. - Ah ! Je suis hors d'haleine.</l>
 	<l id="196">Quel sot que cet Irus ! - Tu l'as trouvé, Flora ?</l>
 	<l id="197">Le beau collier, ma foi ! Vraiment, comme elle est fière !</l>
 </sp>
-<sp stage="toward" who="FLORA"><speaker>FLORA, à Ninon.</speaker>
+<sp who="FLORA"><speaker>FLORA</speaker><stage type="toward">, à Ninon.
+	</stage>
 	<l id="198" syll="6" part="i">Je voudrais vous parler.</l>
 <stage type="pull">Elle l'entraîne dans un coin.</stage>
 </sp>
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
 	<l id="198" syll="6" part="f">Quoi donc ? c'est un mystère ?</l>
 </sp>
-<sp stage="toward" who="FLORA"><speaker>FLORA, à Ninon.</speaker>
+<sp who="FLORA"><speaker>FLORA</speaker><stage type="toward">, à Ninon.
+	</stage>
 	<l id="199">Rentrez dans votre chambre, et lisez ce billet.</l>
 </sp>
 <sp who="NINON"><speaker>NINON.</speaker>
@@ -471,7 +490,8 @@
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
 	<l id="203">Qu'as-tu dit à ma soeur, et pourquoi s'en va-t-elle ?</l>
 </sp>
-<sp stage="get" who="FLORA"><speaker>FLORA, tirant un autre billet.</speaker>
+<sp who="FLORA"><speaker>FLORA</speaker><stage type="get">, tirant un autre billet.
+	</stage>
 	<l id="204" syll="6" part="i">Tenez, lisez ceci.</l>
 </sp>
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
@@ -696,7 +716,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <stage type="decor/light">Le jardin. - Il est nuit.</stage>
-<div2 stage="costume" type="scene" n="1"><head>SCÈNE I. Le duc Laërte en robe de chambre ; Silvio, enveloppé d'un manteau.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage type="costume"> Le duc Laërte en robe de chambre ; Silvio, enveloppé d'un manteau.
+</stage>
 <sp who="LAËRTE"><speaker>LAËRTE.</speaker>
 	<l id="366">Lorsque cette lueur, que vous voyez là-bas,</l>
 	<l id="367">Après avoir erré de fenêtre en fenêtre,</l>
@@ -832,7 +853,8 @@
 <stage type="exit">Exeunt.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ninon, Ninette, en déshabillé.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ninon, Ninette, en déshabillé.
+</stage>
 <stage type="decor">Une terrasse.</stage>
 <sp who="NINON"><speaker>NINON.</speaker>
 	<l id="463">Que fais-tu là si tard, ma petite Ninette ?</l>
@@ -860,7 +882,8 @@
 <stage type="aparte">À part.</stage>
 	<l id="470" syll="6" part="f">Il n'aurait qu'à venir.</l>
 </sp>
-<sp stage="sing" who="NINETTE"><speaker>NINETTE, chantant.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="471">Léonore avait un amant</l>
 	<l id="472">Qui lui disait : Ma chère enfant...</l>
 </sp>
@@ -872,7 +895,8 @@
 <stage type="aparte">À part.</stage>
 	<l id="474" syll="6" part="f">Je tremble qu'il ne vienne.</l>
 </sp>
-<sp stage="sing" who="NINON"><speaker>NINON, continuant la chanson.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="sing">, continuant la chanson.
+	</stage>
 	<l id="475">Qui lui disait : Ma chère enfant...</l>
 </sp>
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
@@ -881,7 +905,8 @@
 <sp who="NINON"><speaker>NINON.</speaker>
 	<l id="477">On monte l'escalier ; mon_Dieu ! Si c'était lui !</l>
 </sp>
-<sp stage="sing" who="NINETTE"><speaker>NINETTE, reprenant.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="sing">, reprenant.
+	</stage>
 	<l id="478">Léonore avait un amant...</l>
 </sp>
 <sp who="NINON"><speaker>NINON.</speaker>
@@ -912,12 +937,14 @@
 <sp who="NINETTE"><speaker>NINETTE.</speaker>
 	<l id="485" syll="6" part="f">Et toi, lis ce billet.</l>
 </sp>
-<sp stage="read" who="NINON"><speaker>NINON, lisant.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="read">, lisant.
+</stage>
 <p id="1">
 	<s id="1">« Si l'amour peut faire excuser la folie, au nom du ciel, ma belle demoiselle, accordez-moi... »</s>
 </p>
 </sp>
-<sp stage="read" who="NINETTE"><speaker>NINETTE, lisant.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="read">, lisant.
+</stage>
 <p id="2">
 	<s id="1">« Si l'amour peut faire excuser la folie, au nom du ciel, ma chère demoiselle... »</s>
 </p>
@@ -1010,7 +1037,8 @@
 	<l id="508">C'est lui, c'est lui, ma chère.</l>
 	<l id="509">Silvio entre, le visage couvert de son manteau et l'épée à la main.</l>
 </sp>
-<sp stage="hesitate" who="NINETTE"><speaker>NINETTE, voyant qu'il hésite.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="hesitate">, voyant qu'il hésite.
+	</stage>
 	<l id="510" syll="6" part="i">Entrez donc par ici !</l>
 <stage type="entrance">Irus entre, l'épée à la main, d'un côté ; le duc Laërte de l'autre.</stage>
 </sp>
@@ -1021,13 +1049,16 @@
 	<l id="511">Holà ! Quel est cet homme ?</l>
 <stage type="fight">Laërte et Silvio croisent l'épée.</stage>
 </sp>
-<sp stage="interrupt" who="IRUS"><speaker>IRUS, s'interposant.</speaker>
+<sp who="IRUS"><speaker>IRUS</speaker><stage type="interrupt">, s'interposant.
+	</stage>
 	<l id="512">Monsieur, demandez-lui s'il est bon gentilhomme.</l>
 </sp>
-<sp stage="fight" who="LAËRTE"><speaker>LAËRTE, donnant dans l'obscurité un coup de plat d'épée à Irus.</speaker>
+<sp who="LAËRTE"><speaker>LAËRTE</speaker><stage type="fight">, donnant dans l'obscurité un coup de plat d'épée à Irus.
+	</stage>
 	<l id="513" syll="6" part="i">Non, non, c'est un voleur !</l>
 </sp>
-<sp stage="fall" who="IRUS"><speaker>IRUS, tombant.</speaker>
+<sp who="IRUS"><speaker>IRUS</speaker><stage type="fall">, tombant.
+	</stage>
 	<l id="513" syll="6" part="f">Aïe ! Aïe ! Il m'a tué.</l>
 <stage type="throw/location">Flora jette par la fenêtre un seau d'eau sur la tête d'Irus.</stage>
 	<l id="514">Au secours ! On m'inonde. Ah ! Je suis tout mouillé !</l>
@@ -1044,7 +1075,8 @@
 	<l id="516">À l'assassin ! Au meurtre ! Un homme est là par terre.</l>
 <stage type="exit/hurry">Elles se sauvent.</stage>
 </sp>
-<sp stage="alone/lie" who="IRUS"><speaker>IRUS, seul, couché.</speaker>
+<sp who="IRUS"><speaker>IRUS</speaker><stage type="alone/lie">, seul, couché.
+	</stage>
 	<l id="517">Oui, oui, n'attendez pas que j'aille me lever ;</l>
 	<l id="518">Si je disais un mot, ils viendraient m'achever.</l>
 <stage type="entrance">Flora entré dans l'obscurité ; elle rencontre Irus, qu'elle prend pour Silvio.</stage>
@@ -1052,21 +1084,25 @@
 <sp who="FLORA"><speaker>FLORA.</speaker>
 	<l id="519" syll="8" part="i">Êtes-vous là, seigneur Silvio ?</l>
 </sp>
-<sp stage="aparte" who="IRUS"><speaker>IRUS, à part.</speaker>
+<sp who="IRUS"><speaker>IRUS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="519" syll="4" part="f">Laissons-la croire.</l>
 	<l id="520" syll="6" part="i">C'est moi ! Je suis Silvio.</l>
 </sp>
-<sp stage="recognize" who="FLORA"><speaker>FLORA, reconnaissant Irus.</speaker>
+<sp who="FLORA"><speaker>FLORA</speaker><stage type="recognize">, reconnaissant Irus.
+	</stage>
 	<l id="520" syll="6" part="f">Vous avez donc reçu</l>
 	<l id="521">Quelque coup de rapière ? Entrez dans cette armoire,</l>
 <stage type="push/location">Elle le pousse dans une fenêtre ouverte.</stage>
 </sp>
-<sp stage="location" who="NINETTE"><speaker>NINETTE, rencontrant Silvio au fond du balcon.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="location">, rencontrant Silvio au fond du balcon.
+	</stage>
 	<l id="522">Entrez dans cette chambre, ou vous êtes perdu.</l>
 <stage type="close">Elle l'enferme dans sa chambre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Irus sortant d'une armoire ; Silvio, d'un cabinet.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Irus sortant d'une armoire ; Silvio, d'un cabinet.
+</stage>
 <stage type="decor/light">Une chambre. - Le point du jour.</stage>
 <sp who="IRUS"><speaker>IRUS.</speaker>
 	<l id="523" syll="6" part="i">Je n'entends plus de bruit.</l>
@@ -1125,7 +1161,8 @@
 <sp who="IRUS"><speaker>IRUS.</speaker>
 	<l id="546">Mort-Dieu ! Ne croyez pas, au moins, que je balance.</l>
 </sp>
-<sp stage="location" who="LAËRTE"><speaker>LAËRTE, dans la coulisse.</speaker>
+<sp who="LAËRTE"><speaker>LAËRTE</speaker><stage type="location">, dans la coulisse.
+	</stage>
 	<l id="547" syll="6" part="i">Ninette ! Holà, Ninon !</l>
 </sp>
 <sp who="IRUS"><speaker>IRUS.</speaker>
@@ -1136,7 +1173,8 @@
 <sp who="LAËRTE"><speaker>LAËRTE.</speaker>
 	<l id="549" syll="4" part="i">Ninon ! Ninon !</l>
 </sp>
-<sp stage="entrance" who="NINON"><speaker>NINON, entrant.</speaker>
+<sp who="NINON"><speaker>NINON</speaker><stage type="entrance">, entrant.
+	</stage>
 	<l id="549" syll="8" part="f">Mon père, après l'histoire affreuse</l>
 	<l id="550">Qui s'est passée ici, j'attends tous vos pardons.</l>
 	<l id="551">Je n'aime plus Silvio. - Je vivrai malheureuse,</l>
@@ -1147,7 +1185,8 @@
 	<l id="553">Je suis vraiment ravi que vous ne l'aimiez plus.</l>
 	<l id="554">Quel roman lisiez-vous, Ninon, cette semaine ?</l>
 </sp>
-<sp stage="entrance/kneel" who="NINETTE"><speaker>NINETTE, entrant et se jetant à genoux de l'autre côté.</speaker>
+<sp who="NINETTE"><speaker>NINETTE</speaker><stage type="entrance/kneel">, entrant et se jetant à genoux de l'autre côté.
+	</stage>
 	<l id="555">Ô mon père ! ô mon maître ! Après l'horrible scène</l>
 	<l id="556">Dont cette nuit nos murs ont été les témoins,</l>
 	<l id="557">À supporter mon sort je mettrai tous mes soins.</l>
@@ -1167,7 +1206,8 @@
 <stage type="exit/together">Il sort. Ninon et Ninette le suivent.</stage>
 </sp>
 </div2>
-<div2 stage="open" type="scene" n="4"><head>SCÈNE IV. Irus, ouvrant l'armoire ; Silvio.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage type="open"> Irus, ouvrant l'armoire ; Silvio.
+</stage>
 <sp who="IRUS"><speaker>IRUS.</speaker>
 	<l id="568" syll="6" part="f">Vous avez entendu ?</l>
 </sp>
@@ -1201,7 +1241,8 @@
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
 <stage type="decor">Le jardin.</stage>
-<sp stage="alone" who="LAËRTE"><speaker>LAËRTE, seul.</speaker>
+<sp who="LAËRTE"><speaker>LAËRTE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="578">Mon_Dieu ! Tu m'as béni. - Tu m'as donné deux filles.</l>
 	<l id="579">Autour de mon trésor je n'ai jamais veillé.</l>
 	<l id="580">Tu me l'avais donné, - je te l'ai confié.</l>
@@ -1279,7 +1320,8 @@
 <stage type="exit">Exeunt.</stage>
 </sp>
 </div2>
-<div2 stage="sit/location" type="scene" n="6"><head>SCÈNE VI. Ninon, Silvio, sur un banc.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage type="sit/location"> Ninon, Silvio, sur un banc.
+</stage>
 <stage type="location">La terrasse.</stage>
 <sp who="SILVIO"><speaker>SILVIO.</speaker>
 	<l id="622">Écoutez-moi, Ninon, je ne suis point coupable.</l>
@@ -1366,7 +1408,8 @@
 	<l id="675">Taisez-vous ; - j'ai promis de ne pas vous aimer.</l>
 </sp>
 </div2>
-<div2 stage="costume/location" type="scene" n="7"><head>SCÈNE VII. Le Duc Laërte, assis sur une estrade ; irus, à sa droite, en habit cramoisi et l'épée à la main ; Silvio, à sa gauche ; Spadille, Quinola, debout.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage type="costume/location"> Le Duc Laërte, assis sur une estrade ; irus, à sa droite, en habit cramoisi et l'épée à la main ; Silvio, à sa gauche ; Spadille, Quinola, debout.
+</stage>
 <stage type="decor">Un salon.</stage>
 <sp who="LAËRTE"><speaker>LAËRTE.</speaker>
 	<l id="676">Me voici sur mon trône assis comme un grand juge.</l>

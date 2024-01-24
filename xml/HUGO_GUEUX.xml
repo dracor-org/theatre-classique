@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -33,20 +33,20 @@
 			<titlePart type="sub">DRAME EN UN ACTE ET EN VERS</titlePart>
 		</docTitle> 
 		<docDate value="1830">1830.</docDate>
-		<docAuthor id="HUGO, Victor" bio='hugo'>PAR VICTOR HUGO.</docAuthor>
+		<docAuthor id="HUGO, Victor" bio="hugo">PAR VICTOR HUGO.</docAuthor>
 		<docImprint>
-			<printer id='Ribou'>PARIS, MAME et DELAUNAY-VALLÉE, Libraires, rue Guénégaud, n°25.</printer>
+			<printer id="Ribou">PARIS, MAME et DELAUNAY-VALLÉE, Libraires, rue Guénégaud, n°25.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MOUFFETARD" sex="1" type="H" statut="philosophe" age="A" stat_amour='néant'>MOUFFETARD</role>.</castItem>
-		<castItem><role id="LE MARQUIS GÉDÉON" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS GÉDÉON</role>.</castItem>
+		<castItem><role id="MOUFFETARD" sex="1" type="H" statut="philosophe" age="A" stat_amour="néant">MOUFFETARD</role>.</castItem>
+		<castItem><role id="LE MARQUIS GÉDÉON" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS GÉDÉON</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Une rue solitaire. Plus de murs que de maisons. Au coin d'une borne est assis un philosophe ; il est en haillons, pieds nus, avec une sébile de mendiant devant lui. Il s'appelle Mouffetard. C'est lui probablement qui plus tard a donné son nom à une rue.</set>
 	</front>
 	<note>"Théâtre en Liberté" de Victor Hugo, Paris, 1886. pp. 239-249</note>
 <body>
 <div1 type="acte" n="1"><head>LES GUEUX</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="MOUFFETARD"><speaker>MOUFFETARD.</speaker>
 	<l id="1">Je croirais être au siècle enchanté de la fable</l>
 	<l id="2">Si l'on m'offrait dix sous d'une façon affable ;</l>
@@ -62,7 +62,8 @@
 	<l id="10">Un passant prodiguant dix sous dans l'ombre est rare.</l>
 <stage type="entrance">Entre le Marquis Gédéon.</stage>
 </sp>
-<sp who="GÉDÉON"><speaker>GÉDÉON, apercevant Mouffetard.</speaker>
+<sp who="GÉDÉON"><speaker>GÉDÉON</speaker><stage>, apercevant Mouffetard.
+	</stage>
 	<l id="11">Cet homme est misérable et pensif à mon gré.</l>
 	<l id="12" syll="6" part="i">Si je l'interrogeais ?</l>
 <stage type="closer">Il s'approche de Mouffetard</stage>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader> 
 		<fileDesc>
@@ -28,7 +28,7 @@
  	<titlePart part="sub">COMÉDIE</titlePart>
 	</docTitle>
 	<docDate value="1683">M. DC. LXXXIV. Avec Privilège du Roi.</docDate>
-	<docAuthor id='FATOUVILLE, Anne Mauduit de'></docAuthor>
+	<docAuthor id="FATOUVILLE, Anne Mauduit de"/>
 	<docImprint>
 		<privilege id="1683-12-17"><head>Extrait du Privilège du Roi.</head> 
 			<p>Par Grâce et Privilège du Roi, donné à Versailles le 17. Jour de Décembre 1683. Signé, Par le Roi en son Conseil, D'ALENCE ; Il est permis au Sieur Darennes de faire imprimer une Comédie intitulée La Matrone d'Éphèse, ou Arlequin Procureur, par tel Imprimeur ou Libraire qu'il voudra choisir, pendant le temps de six années, à compter du jour qu'elle sera achevée d'imprimer pour la première fois ; Et défenses sont faites à toutes autres Personnes de l'imprimer, faire imprimer, vendre ou débiter, sans le consentement de l'Exposant, ou de ceux qui auront droit de lui, à peine aux contrevenants de trois mille livres d'amende, confiscation des Exemplaires contrefaits, et de tous dépens, dommages et intérêts, ainsi que plus au long il est porté par le dit Privilège.</p>
@@ -52,22 +52,23 @@
 	</div>
 
 	<castList><head>ACTEURS</head>
-		<castItem><role id="COQUINIÈRE" sex="1" type="H" statut='procureur' age='A' stat_amour='néant'>COQUINIÈRE</role>, ancien Procureur.</castItem> 
-		<castItem><role id="GRAPINIAN" sex="1" type="H" statut='procureur' age='A' stat_amour='néant'>GRAPINIAN</role>, nouveau Procureur.</castItem>
-		<castItem><role id="LA MATRONE D'ÉPHESE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LA MATRONE D'ÉPHESE</role>.</castItem>
-		<castItem><role id="UNE PLAIDEUSE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>UNE PLAIDEUSE</role>.</castItem>
-		<castItem><role id="UN MARQUIS" sex="1" type="H" statut='marquis' age='A' stat_amour='néant'>UN MARQUIS</role>.</castItem>
-		<castItem><role id="LE PAGE DU MARQUIS" sex="1" type="H" statut='page' age='A' stat_amour='néant'>LE PAGE DU MARQUIS</role>.</castItem>
-		<castItem><role id="LE CLERC DE GRAPINIAN" sex="1" type="H" statut='clerc' age='A' stat_amour='néant'>LE CLERC DE GRAPINIAN</role>.</castItem>
-		<castItem><role id="UN VOLEUR" sex="1" type="H" statut='voleur' age='A' stat_amour='néant'>UN VOLEUR</role>.</castItem>
-		<castItem><role id="UN CHAPELIER" sex="1" type="H" statut='chapelier' age='A' stat_amour='néant'>UN CHAPELIER</role>.</castItem>
-		<castItem><role id="UN PATISSIER" sex="1" type="H" statut='patissier' age='A' stat_amour='néant'>UN PATISSIER</role>.</castItem>
+		<castItem><role id="COQUINIÈRE" sex="1" type="H" statut="procureur" age="A" stat_amour="néant">COQUINIÈRE</role>, ancien Procureur.</castItem> 
+		<castItem><role id="GRAPINIAN" sex="1" type="H" statut="procureur" age="A" stat_amour="néant">GRAPINIAN</role>, nouveau Procureur.</castItem>
+		<castItem><role id="LA MATRONE D'ÉPHESE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LA MATRONE D'ÉPHESE</role>.</castItem>
+		<castItem><role id="UNE PLAIDEUSE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">UNE PLAIDEUSE</role>.</castItem>
+		<castItem><role id="UN MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">UN MARQUIS</role>.</castItem>
+		<castItem><role id="LE PAGE DU MARQUIS" sex="1" type="H" statut="page" age="A" stat_amour="néant">LE PAGE DU MARQUIS</role>.</castItem>
+		<castItem><role id="LE CLERC DE GRAPINIAN" sex="1" type="H" statut="clerc" age="A" stat_amour="néant">LE CLERC DE GRAPINIAN</role>.</castItem>
+		<castItem><role id="UN VOLEUR" sex="1" type="H" statut="voleur" age="A" stat_amour="néant">UN VOLEUR</role>.</castItem>
+		<castItem><role id="UN CHAPELIER" sex="1" type="H" statut="chapelier" age="A" stat_amour="néant">UN CHAPELIER</role>.</castItem>
+		<castItem><role id="UN PATISSIER" sex="1" type="H" statut="patissier" age="A" stat_amour="néant">UN PATISSIER</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La Scène est à Paris.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ARLEQUIN PROCUREUR.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Coquinière, Grapinian.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Coquinière, Grapinian.
+</stage>
 <sp who="COQUINIÈRE"><speaker>COQUINIÈRE.</speaker>
 <p id="1">
 	<s id="1">Vous ne ferez jamais rien dans notre métier, si vous n'avez à votre disposition un notaire, un sergent, et un greffier ; mais un jeune procureur, qui a ces trois cordes à son arc, peut tout risquer et tout entreprendre.</s>
@@ -261,7 +262,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Matrone, Grapinian.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Matrone, Grapinian.
+</stage>
 <sp who="LA MATRONE"><speaker>LA MATRONE.</speaker>
 <p id="1">
 	<s id="1">Hé bien ? </s>
@@ -306,8 +308,10 @@
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Arlequin dans son Étude, qui dicte à un de ses Clercs.</head> 
-<sp stage="declamate" who="GRAPINIAN"><speaker>GRAPINIAN, dicte.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Arlequin dans son Étude, qui dicte à un de ses Clercs. 
+</stage> 
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="declamate">, dicte.
+</stage>
 <p id="1">
 	<s id="1">Et pour faire connaître la chicane de la Demanderesse,</s>
 </p>
@@ -375,8 +379,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grapinian, Un Voleur de grand Chemin.</head>
-<sp stage="toward" who="LE VOLEUR"><speaker>LE VOLEUR, aux Clercs.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grapinian, Un Voleur de grand Chemin.
+</stage>
+<sp who="LE VOLEUR"><speaker>LE VOLEUR</speaker><stage type="toward">, aux Clercs.
+</stage>
 <p id="1">
 	<s id="1">Monsieur Grapinian est-il ici ?</s>
 </p>
@@ -386,12 +392,14 @@
 	<s id="1">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE VOLEUR"><speaker>LE VOLEUR, à Grapinian.</speaker>
+<sp who="LE VOLEUR"><speaker>LE VOLEUR</speaker><stage type="toward">, à Grapinian.
+</stage>
 <p id="3">
 	<s id="1">Monsieur, je suis votre Serviteur.</s>
 </p>
 </sp>
-<sp stage="stand" who="GRAPINIAN"><speaker>GRAPINIAN, se levant de sa Chaise.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="stand">, se levant de sa Chaise.
+</stage>
 <p id="4">
 	<s id="1">Monsieur, je suis le vôtre.</s>
 </p>
@@ -401,7 +409,8 @@
 	<s id="1">Un petit mot, Monsieur, s'il vous plaît.</s>
 </p>
 </sp>
-<sp stage="closer" who="GRAPINIAN"><speaker>GRAPINIAN, s'approchant de lui.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="closer">, s'approchant de lui.
+</stage>
 <p id="6">
 	<s id="1">De quoi s'agit-il pour votre service ?</s>
 </p>
@@ -428,7 +437,8 @@
 	<s id="1">Assez, Monsieur.</s>
 </p>
 </sp>
-<sp stage="hit" who="LE VOLEUR"><speaker>LE VOLEUR continue.</speaker>
+<sp who="LE VOLEUR"><speaker>LE VOLEUR</speaker><stage type="hit"> continue.
+</stage>
 <p id="11">
 	<s id="1">Moi me sentant heurté, je lui ai dit, que veut celui-là avec sa rosse ? </s>
 	<s id="2">Cet Homme prenant le parti de son cheval, met pied à terre, et se jette à mon col. </s>
@@ -437,7 +447,8 @@
 	<s id="5">Il est vrai, Monsieur, qu'en nous roulant à terre, il laisse tomber quelque argent de sa poche.</s>
 </p> 
 </sp>
-<sp stage="listen" who="GRAPINIAN"><speaker>GRAPINIAN, entendant le mot d'argent.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="listen">, entendant le mot d'argent.
+</stage>
 <p id="12">
 	<s id="1">Hom, hom.</s>
 </p>
@@ -634,7 +645,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grapinian, Maraudin Sergent.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grapinian, Maraudin Sergent.
+</stage>
 <sp who="MARAUDIN"><speaker>MARAUDIN.</speaker>
 <p id="1">
 	<s id="1">Monsieur Grapinian est-il ici ?</s>
@@ -731,19 +743,22 @@
 	<s id="2">C'est un très bon vernis sur la réputation d'un procureur.</s>
 </p>
 </sp>
-<sp stage="away" who="MARAUDIN"><speaker>MARAUDIN, en s'en allant.</speaker>
+<sp who="MARAUDIN"><speaker>MARAUDIN</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="18">
 	<s id="">Ô le franc scélérat, le franc scélérat !</s>
 </p>
 </sp>
-<sp stage="alone" who="GRAPINIAN"><speaker>GRAPINIAN, seul.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="alone">, seul.
+</stage>
 <p id="19">
 	<s id="1">Il faut que je me défasse de ce fripon-là, il gâterait toutes mes affaires. </s>
 	<s id="2">Voyez un peu quelle brutalité, dater une fausseté d'un Dimanche !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, Grapinian, un Page, un Clerc.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, Grapinian, un Page, un Clerc.
+</stage>
 <sp who="LE CLERC"><speaker>LE CLERC.</speaker>
 <p id="1">
 	<s id="1">Monsieur un page demande à vous parler.</s>
@@ -787,7 +802,8 @@
 	<s id="1">Visites de Marquis n'achalandent guère une étude ; car outre qu'ils sont ignorants en affaires, ils empêchent un procureur de faire les siennes.</s>
 </p> 
 </sp>
-<sp stage="entrance" who="LE MARQUIS"><speaker>LE MARQUIS, paraît.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="entrance">, paraît.
+</stage>
 <note type="L">Je suis gros de vous voir : j'ai une grande envie de vous voir. [L]</note>
 <p id="9">
 	<s id="1">Ha, bonjour, Monsieur_Grapinian ; bonjour, Monsieur_Grapinian. </s>
@@ -942,7 +958,8 @@
 	<s id="3">Hé vous vous moquez, Monsieur_Grapinian, on me croirait à l'Hôpital ; Laquais, fais tourner mon carrosse.</s>
 </p>
 </sp>
-<sp stage="toward" who="GRAPINIAN"><speaker>GRAPINIAN, au Laquais.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="toward">, au Laquais.
+</stage>
 <p id="36">
 	<s id="1">Prends garde qu'il ne verse.</s>
 </p>
@@ -964,20 +981,23 @@
 	<s id="1">Oui, oui.</s>
 </p> 
 </sp>
-<sp stage="alone" who="GRAPINIAN"><speaker>GRAPINIAN, seul.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="alone">, seul.
+</stage>
 <p id="40">
 	<s id="1">Il faut avouer que l'argent devient bien rare parmi la noblesse ! </s>
 	<s id="2">Voyez un peu, un Marquis à Page me demander un misérable reste de quatorze francs !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Grapinian, Le Chapelier.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Grapinian, Le Chapelier.
+</stage>
 <sp who="LE CHAPELIER"><speaker>LE CHAPELIER.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Monsieur_Grapinian.</s>
 </p>
 </sp>
-<sp stage="toward" who="GRAPINIAN"><speaker>GRAPINIAN, à ses Clercs.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="toward">, à ses Clercs.
+</stage>
 <p id="2">
 	<s id="1">Qu'on prenne demain quinze appointements sur ces quinze dossiers.</s>
 </p>
@@ -1033,7 +1053,8 @@
 	<s id="2">Voilà le pareil que je rapporte chez moi.</s>
 </p>
 </sp>
-<sp stage="get" who="GRAPINIAN"><speaker>GRAPINIAN, le prenant entre ses mains, et le maniant.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="get">, le prenant entre ses mains, et le maniant.
+</stage>
 <p id="12">
 	<s id="1">À propos de votre affaire ; n'est-ce pas un pâtissier avec qui vous avez eu du bruit dans la rue ?</s>
 </p>
@@ -1074,7 +1095,8 @@
 	<s id="2">Je le crois.</s>
 </p> 
 </sp>
-<sp stage="dress" who="GRAPINIAN"><speaker>GRAPINIAN, mettant le Castor sur sa tête.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="dress">, mettant le Castor sur sa tête.
+</stage>
 <p id="20">
 	<s id="1">Ha, je me remets votre affaire. </s>
 	<s id="2">Elle est bonne, et je la gagnerai.</s>
@@ -1103,12 +1125,14 @@
 	<s id="1">Tenez-moi pour le plus fripon de tous les procureurs, si je ne vous en fais sortir à votre honneur.</s>
 </p>
 </sp>
-<sp stage="steal" who="LE CHAPELIER"><speaker>LE CHAPELIER, voulant reprendre son Castor de la tête de Grapinian.</speaker>
+<sp who="LE CHAPELIER"><speaker>LE CHAPELIER</speaker><stage type="steal">, voulant reprendre son Castor de la tête de Grapinian.
+</stage>
 <p id="25">
 	<s id="1">Monsieur, le chapeau...</s>
 </p>
 </sp>
-<sp stage="away/push" who="GRAPINIAN"><speaker>GRAPINIAN, l'en empêchant, et le poussant hors de son étude.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="away/push">, l'en empêchant, et le poussant hors de son étude.
+</stage>
 <p id="26">
 	<s id="1">Allez, vous dis-je.</s>
 </p>
@@ -1163,7 +1187,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Grapinian, Le Pâtissier.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Grapinian, Le Pâtissier.
+</stage>
 <sp who="LE PATISSIER"><speaker>LE PATISSIER.</speaker>
 <p id="1">
 	<s id="1">Monsieur Grapinian y est-il ?</s>
@@ -1239,13 +1264,15 @@
 	<s id="1">Il fera bien pis, si je ne l'empêche ; mais je ne veux pas qu'il pousse à bout un honnête homme comme vous.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE PATISSIER"><speaker>LE PATISSIER, à son garçon.</speaker>
+<sp who="LE PATISSIER"><speaker>LE PATISSIER</speaker><stage type="toward">, à son garçon.
+</stage>
 <p id="16">
 	<s id="1">Approche, Champagne. </s>
 	<s id="2">Monsieur, c'est un petit plat de mon métier que je vous apporte.</s>
 </p> 
 </sp>
-<sp stage="touch" who="GRAPINIAN"><speaker>GRAPINIAN, touchant le Pâté.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="touch">, touchant le Pâté.
+</stage>
 <note type="L">Papier brouillé : papier où on a écrit beaucoup de choses inutiles. [T]</note>
 <p id="17">
 	<s id="1">C'est toujours quelque chose ; mais, notre ami, le criminel va diablement vite, et il y a déjà bien du papier brouillé.</s>
@@ -1262,7 +1289,8 @@
 	<s id="2">Écoutez, je ne suis pas un tyran, et je vous en sortirai pour peu de chose.</s>
 </p>
 </sp>
-<sp stage="open/show" who="LE PATISSIER"><speaker>LE PATISSIER, ouvrant sa Bourse, et la lui présentant.</speaker>
+<sp who="LE PATISSIER"><speaker>LE PATISSIER</speaker><stage type="open/show">, ouvrant sa Bourse, et la lui présentant.
+</stage>
 <p id="20">
 	<s id="1">Tenez, Monsieur, prenez.</s>
 </p>
@@ -1274,7 +1302,8 @@
 	<s id="3">Vous voyez que ce n'est que le papier.</s>
 </p> 
 </sp>
-<sp stage="touch" who="LE PATISSIER"><speaker>LE PATISSIER, se grattant la tête.</speaker>
+<sp who="LE PATISSIER"><speaker>LE PATISSIER</speaker><stage type="touch">, se grattant la tête.
+</stage>
 <p id="22">
 	<s id="1">Monsieur, je ne regarde pas après vous, pourvu que vous tiriez l'affaire en longueur.</s>
 </p>
@@ -1325,8 +1354,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Grapinian, une Plaideuse.</head>
-<sp stage="entrance" who="LA PLAIDEUSE"><speaker>LA PLAIDEUSE, entrant.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Grapinian, une Plaideuse.
+</stage>
+<sp who="LA PLAIDEUSE"><speaker>LA PLAIDEUSE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="1">
 	<s id="1">Ha, bon Dieu, je suis perdue, je suis ruinée. </s>
 	<s id="2">Ha, voleur de Grapinian, je t'étranglerai.</s>
@@ -1500,7 +1531,8 @@
 	<s id="3">J'ai trois cent mille bonnes livres, et vous en avez tous les papiers.</s>
 </p>
 </sp>
-<sp stage="aparte" who="GRAPINIAN"><speaker>GRAPINIAN, à part.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="31">
 	<s id="1">Trois cent mille livres ! </s>
 	<s id="2">Peste, quelle aubaine ! </s>
@@ -1556,12 +1588,14 @@
 	<s id="3">Je vous adorerai.</s>
 </p> 
 </sp>
-<sp stage="listen" who="LA MATRONE"><speaker>LA MATRONE qui l'entend parler de la sorte.</speaker>
+<sp who="LA MATRONE"><speaker>LA MATRONE</speaker><stage type="listen"> qui l'entend parler de la sorte.
+</stage>
 <p id="40">
 	<s id="1">Tu l'adoreras, perfide, traître !</s>
 </p>
 </sp>
-<sp stage="toward" who="GRAPINIAN"><speaker>GRAPINIAN, à la Matrone.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="toward">, à la Matrone.
+</stage>
 <note type="L">On prend son bon : on prend son bon temps. (EF)</note>
 <p id="41">
 	<s id="1">Madame, on prend son bon quand on le trouve. </s>
@@ -1569,7 +1603,8 @@
 </p> 
 <stage type="away/cry">La Matrone, s'en va en pleurant, après avoir dit quelque chose qui ne fait rien à cette matière.</stage>
 </sp>
-<sp stage="turn/dress/wave" who="GRAPINIAN"><speaker>GRAPINIAN, se tournant vers sa vieille plaideuse, lui met une Fontange, et ayant pris son éventail, il l'évente.</speaker>
+<sp who="GRAPINIAN"><speaker>GRAPINIAN</speaker><stage type="turn/dress/wave">, se tournant vers sa vieille plaideuse, lui met une Fontange, et ayant pris son éventail, il l'évente.
+</stage>
 <note type="L">Je vous veux mettre sur un bon pied : vous procurer de grands avantages. [L]</note>
 <p id="42">
 	<s id="1">Ha, le joli coeur de femme ! </s>
@@ -1577,8 +1612,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Grapinian, la Plaideuse, le Chapelier, Le Pâtissier, Monsieur le Bailli.</head>
-<sp stage="pull" who="LE CHAPELIER"><speaker>LE CHAPELIER, arrêtant Grapinian par le bras.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Grapinian, la Plaideuse, le Chapelier, Le Pâtissier, Monsieur le Bailli.
+</stage>
+<sp who="LE CHAPELIER"><speaker>LE CHAPELIER</speaker><stage type="pull">, arrêtant Grapinian par le bras.
+</stage>
 <p id="1">
 	<s id="1">Trouveriez-vous bon auparavant, de vous soulager de mon chapeau de castor, et de mes quatre pistoles ? </s>
 	<s id="2">Il faut rendre gorge, Monsieur le Fripon.</s>

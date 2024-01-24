@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -29,17 +29,17 @@
 			<titlePart type="sub">DRAME.</titlePart>
 			<titlePart type="sub">TREIZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G**.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G**.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="DAMON père" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>DAMON père</role>.</castItem>
-		<castItem><role id="DAMON fils" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>DAMON fils</role>, amant de Lucile.</castItem>
-		<castItem><role id="ORONTE" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>ORONTE</role>.</castItem>
-		<castItem><role id="LUCILE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>LUCILE</role>, fille d'Oronte.</castItem>
-		<castItem><role id="LA BRANCHE" sex="1" type="H" statut="valet" age="A" stat_amour='néant'>LA BRANCHE</role>, valet de Damon fils.</castItem>
+		<castItem><role id="DAMON père" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DAMON père</role>.</castItem>
+		<castItem><role id="DAMON fils" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">DAMON fils</role>, amant de Lucile.</castItem>
+		<castItem><role id="ORONTE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ORONTE</role>.</castItem>
+		<castItem><role id="LUCILE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LUCILE</role>, fille d'Oronte.</castItem>
+		<castItem><role id="LA BRANCHE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">LA BRANCHE</role>, valet de Damon fils.</castItem>
    </castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est chez Damon père.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 264-284.</note>
@@ -47,14 +47,16 @@
 <body>
 <div1 type="act" n="1"><head>L'ÉPREUVE.</head>
 <stage type="decpr">Le Théâtre représente un appartement de la maison de Damon père.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Damon fils, La Branche.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Damon fils, La Branche.
+</stage>
 <stage type="costume/walk">Damon fils entre le premier, il est en habit de chasse ; la Branche le suit portant deux fusils. Damon est plongé dans la plus profonde rêverie et fait plusieurs tours sur le théâtre sans rien dire.</stage>
 <sp who="LA BRANCHE"><speaker>LA BRANCHE.</speaker>
 <p id="1">
 	<s id="1">Monsieur, voilà votre fusil.</s>
 </p>
 </sp>
-<sp stage="abrupt" who="DAMON FILS"><speaker>DAMON fils, brusquement.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="abrupt">, brusquement.
+</stage>
 <p id="2">
 	<s id="1">Mon fusil ; pourquoi faire ? </s>
 	<s id="2">Qui te l'a demandé ?</s>
@@ -76,7 +78,8 @@
 	<s id="1">Oui, monsieur ; dès le matin vous m'avez réveillé pour une partie de chasse...</s>
 </p>
 </sp>
-<sp who="DAMON FILS"><speaker>DAMON fils, de regarde et revient à soi.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage>, de regarde et revient à soi.
+</stage>
 <p id="6">
 	<s id="1">Tu as raison, donne ; va-t-en. </s>
 </p>
@@ -97,18 +100,21 @@
 	<s id="1">Mais, monsieur ; au moins faut-il que je sache de quel côté vous chasserez aujourd'hui.</s>
 </p>
 </sp>
-<sp stage="dream" who="DAMON FILS"><speaker>DAMON fils, toujours rêveur.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="dream">, toujours rêveur.
+</stage>
 <p id="10">
 	<s id="1">Eh ! </s>
 	<s id="2">Que t'importe ; va toujours.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA BRANCHE"><speaker>LA BRANCHE, riant.</speaker>
+<sp who="LA BRANCHE"><speaker>LA BRANCHE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="11">
 	<s id="1">Comment, Monsieur, que m'importe ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="DAMON FILS"><speaker>DAMON fils, à part.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Je ne fais où je suis, ni ce que je dis, ni ce que je fais.</s>
 </p>
@@ -120,7 +126,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="DAMON FILS"><speaker>DAMON fils, seul.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Quel état cruel ? </s>
 	<s id="2">Juste Ciel, aide-moi à calmer les transports qui m'animent. </s>
@@ -129,13 +136,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Damon père, Damon fils.</head>
-<sp stage="suprise" who="DAMON PÈRE"><speaker>DAMON père, surprenant son fils.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Damon père, Damon fils.
+</stage>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage type="suprise">, surprenant son fils.
+</stage>
 <p id="1">
 	<s id="1">Mon fils...</s>
 </p>
 </sp>
-<sp who="DAMON FILS"><speaker>DAMON fils, embarrassé.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage>, embarrassé.
+</stage>
 <p id="2">
 	<s id="1">Mon père !</s>
 </p>
@@ -226,7 +236,8 @@
 	<s id="3">Votre oncle est mort à Pondichery, et vous laisse sa fortune, qui se monte à plus de cent mille écus.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="DAMON FILS"><speaker>DAMON fils, avec transport.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="enthousiasm">, avec transport.
+</stage>
 <p id="18">
 	<s id="1">Juste Ciel ! </s>
 	<s id="2">Quel heureux événement !</s>
@@ -286,7 +297,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="DAMON PÈRE"><speaker>DAMON père, seul.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage>, seul.
+</stage>
 <p id="1">
 	<s id="1">Est-il possible de prodiguer ainsi à de viles passions des emportements réservés pour la vertu. </s>
 	<s id="2">Ô mon fils ! </s>
@@ -295,14 +307,17 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Damon père, Oronte.</head>
-<sp stage="hugh" who="ORONTE"><speaker>ORONTE, accourant les bras ouverts.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Damon père, Oronte.
+</stage>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="hugh">, accourant les bras ouverts.
+</stage>
 <p id="1">
 	<s id="1">Ah, bonjour, mon vieil ami, mon cher voisin. </s>
 	<s id="2">Que j'ai de plaisir à vous embrasser.</s>
 </p>	
 </sp>
-<sp stage="cold" who="DAMON PÈRE"><speaker>DAMON père, froidement.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage type="cold">, froidement.
+</stage>
 <p id="2">
 	<s id="1">Je suis votre serviteur.</s>
 </p>
@@ -344,7 +359,8 @@
 	<s id="1">Ne vous fâchez pas, et n'accusez personne ; c'est vous-même qui prîtes à insulte la proposition que je vous fis de marier mon fils à Lucile.</s>
 </p>
 </sp>
-<sp stage="laugh" who="ORONTE"><speaker>ORONTE, éclatant de rire.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="laugh">, éclatant de rire.
+</stage>
 <p id="9">
 	<s id="1">Ah, ah, ah ; cette bagatelle-là vous occupe. </s>
 	<s id="2">Eh, mon cher ami, point de rancune. </s>
@@ -380,7 +396,8 @@
 	<s id="4">Morbleu, que j'étais impatienté !</s>
 </p>
 </sp>
-<sp stage="smile" who="DAMON PÈRE"><speaker>DAMON père, fouriant.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage type="smile">, fouriant.
+</stage>
 <p id="14">
 	<s id="1">Et puis les cent mille écus dont mon fils vient d'hériter.</s>
 </p>
@@ -412,7 +429,8 @@
 	<s id="1">Je me plais à vous voir dans ces généreux sentiments.</s>
 </p>
 </sp>
-<sp stage="suprised" who="ORONTE"><speaker>ORONTE, intrigué.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="suprised">, intrigué.
+</stage>
 <p id="19">
 	<s id="1">En doutez-vous, mon ami. </s>
 	<s id="2">Mais pourquoi ces réflexions ?</s>
@@ -424,7 +442,8 @@
 	<s id="2">Vous rassurez mon coeur alarmé, et je ne crains plus de vous apprendre que...</s>
 </p>
 </sp>
-<sp stage="interrupt/quick" who="ORONTE"><speaker>ORONTE, l'interrompt avec vivacité.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="interrupt/quick">, l'interrompt avec vivacité.
+</stage>
 <p id="21">
 	<s id="1">Comment, est-ce que votre frère de Pondichery ne serait pas mort ?</s>
 </p>
@@ -455,7 +474,8 @@
 	<s id="1">Pardonnez-moi, on a trouvé cent mille écus en or dans ses coffres ; mais...</s>
 </p>
 </sp>
-<sp stage="abrupt" who="ORONTE"><speaker>ORONTE, avec brusquerie.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="abrupt">, avec brusquerie.
+</stage>
 <p id="27">
 	<s id="1">Mais, quoi, mais ; expliquez donc ce mais.</s>
 </p>
@@ -466,7 +486,8 @@
 	<s id="2">Laissez-moi parler, je vous l'expliquerai ; ces cent mille écus n'appartenaient point à mon frère ; c'était un dépôt qu'on lui a voit confié.</s>
 </p>
 </sp>
-<sp stage="despite" who="ORONTE"><speaker>ORONTE, consterné.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="despite">, consterné.
+</stage>
 <p id="29">
 	<s id="1">Un dépôt !</s>
 </p>
@@ -486,7 +507,8 @@
 	<s id="1">Je pourrais le supprimer ; mais l'honneur, mon cher Monsieur Oronte, l'honneur me fait un devoir de le rendre public.</s>
 </p>
 </sp>
-<sp stage="sigh" who="ORONTE"><speaker>ORONTE, avec un soupir.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="sigh">, avec un soupir.
+</stage>
 <p id="33">
 	<s id="1">L'honneur, oui ; c'est une belle chose que l'honneur.</s>
 </p>
@@ -498,14 +520,16 @@
 	<s id="3">Mais fussent-ils dans la plus cruelle indigence, je ne voudrais pas les en tirer par une injustice.</s>
 </p>
 </sp>
-<sp stage="dream/abrupt" who="ORONTE"><speaker>ORONTE, qui a paru rêveur pendant cette tirade, dit brusquement.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="dream/abrupt">, qui a paru rêveur pendant cette tirade, dit brusquement.
+</stage>
 <p id="35">
 	<s id="1">Serviteur, serviteur. </s>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Damon père, Damon fils, Lucile.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Damon père, Damon fils, Lucile.
+</stage>
 <sp who="DAMON FILS"><speaker>DAMON fils.</speaker>
 <p id="1">
 	<s id="1">Souffrez, mon père, que je vous présente Lucile ; son père consent à notre union ; je fuis le plus heureux des hommes.</s>
@@ -526,12 +550,14 @@
 	<s id="1">Quel nouveau malheur nous menace ?</s>
 </p>
 </sp>
-<sp who="DAMON PÈRE"><speaker>DAMON père, tirant un papier.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage>, tirant un papier.
+</stage>
 <p id="5">
 	<s id="1">Tenez, lisez.</s>
 </p>
 </sp>
-<sp stage="get/read" who="DAMON FILS"><speaker>DAMON fils, prend le papier et le parcourt.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="get/read">, prend le papier et le parcourt.
+</stage>
 <p id="6">
 	<s id="1">Tout est perdu !</s>
 </p>
@@ -587,7 +613,8 @@
 	<s id="4">Mais je m'égare, mon père, je lis dans vos yeux ma faute.</s>
 </p>
 </sp>
-<sp stage="cold" who="DAMON PÈRE"><speaker>DAMON père, froidement.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage type="cold">, froidement.
+</stage>
 <p id="15">
 	<s id="1">Consultez-vous bien, mon fils, quant à moi, je n'ai rien à vous dire.</s>
 </p>
@@ -620,7 +647,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII et dernière. Damon père, Damon fils, Lucile, Oronte.</head>
+<div2 type="scene" n="7"><head>SCENE VII et dernière.</head><stage> Damon père, Damon fils, Lucile, Oronte.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 <p id="1">
 	<s id="1">Je vous trouve tous rassemblés fort à propos. </s>
@@ -664,12 +692,14 @@
 	<s id="1">Nous verrons.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à Damon fils.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à Damon fils.
+</stage>
 <p id="9">
 	<s id="1">J'examine que d'un côté, votre oncle vous fait son légataire universel ; il vous laisse ses meubles et son argent comptant ; il se trouve dans ses coffres cent mille écus en or ; donc ces cent mille écus vous appartiennent.</s>
 </p>
 </sp>
-<sp stage="smile" who="DAMON PÈRE"><speaker>DAMON père, souriant.</speaker>
+<sp who="DAMON PÈRE"><speaker>DAMON père</speaker><stage type="smile">, souriant.
+</stage>
 <p id="10">
 	<s id="1">Voilà un fort beau raisonnement ; mais le dépôt.</s>
 </p>
@@ -734,7 +764,8 @@
 	<s id="1">Non, monsieur, cette affaire-ci le regarde, il faut qu'il s'explique.</s>
 </p>
 </sp>
-<sp stage="pain" who="DAMON FILS"><speaker>DAMON fils, paraît dans le plus grand accablement.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="pain">, paraît dans le plus grand accablement.
+</stage>
 <p id="21">
 	<s id="1">Doutez-vous de ma réponse, mon père ; je préfère de mériter la charmante Lucile, au bonheur de la posséder.</s>
 </p>
@@ -756,7 +787,8 @@
 	<s id="1">Celui que vous méritez, mon cher Monsieur Oronte ; pouvez-vous vous laisser aveugler ainsi par votre avarice ?</s>
 </p>
 </sp>
-<sp stage="furious" who="ORONTE"><speaker>ORONTE, furieux.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="furious">, furieux.
+</stage>
 <p id="25">
 	<s id="1">Allez, vous êtes un vieux fou. </s>
 </p>
@@ -772,7 +804,8 @@
 	<s id="2">Ce dépôt est un jeu de mon imagination ; j'ai effectivement chez moi les cent mille écus pour marier mon fils à Lucile.</s>
 </p>
 </sp>
-<sp stagee="surprised" who="ORONTE"><speaker>ORONTE, avec une extrême surprise.</speaker>
+<sp stagee="surprised" who="ORONTE"><speaker>ORONTE</speaker><stage>, avec une extrême surprise.
+</stage>
 <p id="28">
 	<s id="1">Oh ! oh !</s>
 </p>
@@ -782,7 +815,8 @@
 	<s id="1">Ah, ciel !</s>
 </p>
 </sp>
-<sp stage="kneel" who="DAMON FILS"><speaker>DAMON fils, se jette aux pieds de son père.</speaker>
+<sp who="DAMON FILS"><speaker>DAMON fils</speaker><stage type="kneel">, se jette aux pieds de son père.
+</stage>
 <p id="30">
 	<s id="1">Ah, mon père.</s>
 </p>

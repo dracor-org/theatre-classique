@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -28,20 +28,20 @@
 		<docTitle>
 			<titlePart type="main">UN BON COEUR FAIT PARDONNER BIEN DES ÉTOURDERIES.</titlePart>
 		</docTitle> 
-		<docDate value='1873'>1873. TOUS DROITS RÉSERVÉS.</docDate>
-		<docAuthor id='BERQUIN, Arnaud'>tirés de BERQUIN</docAuthor>
+		<docDate value="1873">1873. TOUS DROITS RÉSERVÉS.</docDate>
+		<docAuthor id="BERQUIN, Arnaud">tirés de BERQUIN</docAuthor>
 		<docImprint>
 			<editor id="HACHETTE">PARIS LIBRAIRIE DE L. HACHETTE ET Cie, rue Pierre Sarrazin, n°14.</editor>
-			<printer id='LAHURE'>PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
+			<printer id="LAHURE">PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="MONSIEUR DE VALCOURT" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE VALCOURT</role>.</castItem>
-		<castItem><role id="RODOLPHE" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>RODOLPHE</role>, son fils.</castItem>
-		<castItem><role id="MARIANNE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>MARIANNE</role>, sa fille.</castItem>
-		<castItem><role id="FRÉDÉRIC" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>FRÉDÉRIC</role>, son neveu.</castItem>
-		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>DOROTHÉE</role>, sa nièce.</castItem>
-		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>UN DOMESTIQUE</role>.</castItem>
-		<castItem><role id="PÉTREL" sex="1" type="H" statut="cocher" age="A" stat_amour='néant'>PÉTREL</role>, ancien cocher.</castItem>
+		<castItem><role id="MONSIEUR DE VALCOURT" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE VALCOURT</role>.</castItem>
+		<castItem><role id="RODOLPHE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">RODOLPHE</role>, son fils.</castItem>
+		<castItem><role id="MARIANNE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">MARIANNE</role>, sa fille.</castItem>
+		<castItem><role id="FRÉDÉRIC" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">FRÉDÉRIC</role>, son neveu.</castItem>
+		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">DOROTHÉE</role>, sa nièce.</castItem>
+		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">UN DOMESTIQUE</role>.</castItem>
+		<castItem><role id="PÉTREL" sex="1" type="H" statut="cocher" age="A" stat_amour="néant">PÉTREL</role>, ancien cocher.</castItem>
 	</castList>
 	<set location="Campagne" country="France" periode="XVIIIème" gps="">La scène est dans un appartement du château de Monsieur de Valcourt.</set>
 	<note>Texte extrait de "Choix de petits drames et de contes tirés de Berquin, illustrée de 36 vignettes" par Foulquié et Forest, Paris, Librairie de L. Hachette et Cie, 1861. pp 10-46.</note>
@@ -63,7 +63,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur de Valcourt, Dorothée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur de Valcourt, Dorothée.
+</stage>
 <sp who="DOROTHÉE"><speaker>DOROTHÉE.</speaker>
 <p id="1">
 	<s id="1">Vous m'avez fait appeler, mon cher oncle ? </s>
@@ -75,7 +76,8 @@
 	<s id="1">J'ai de jolies nouvelles à te donner de ton coquin de frère.</s>
 </p>
 </sp>
-<sp stage="frighten" who="DOROTHÉE"><speaker>DOROTHÉE, en pâlissant. </speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="frighten">, en pâlissant. 
+</stage>
 <p id="3">
 	<s id="">De Frédéric ?</s>
 </p>
@@ -255,7 +257,8 @@
 	<s id="2">Mon cher oncle!....</s>
 </p>
 </sp>
-<sp stage="tender" who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT, un peu attendri.</speaker>
+<sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT</speaker><stage type="tender">, un peu attendri.
+</stage>
 <p id="30">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Je veux encore faire un effort pour toi. </s>
@@ -263,7 +266,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur de Valcourt, Dorothée, Un Domestique.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur de Valcourt, Dorothée, Un Domestique.
+</stage>
 <sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT.</speaker>
 <p id="1">
 	<s id="1">Que me veux-tu ?</s>
@@ -285,7 +289,8 @@
 </p>
 <stage type="give">Le domestique lui remet la lettre.</stage>
 </sp>
-<sp stage="watch" who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT, regardant la lettre. </speaker>
+<sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT</speaker><stage type="watch">, regardant la lettre. 
+</stage>
 <p id="5">
 	<s id="1">Bon ! </s>
 	<s id="2">Voici ce que j'attendais. </s>
@@ -307,7 +312,8 @@
 <stage type="exit/follow/stop">Il sort. Dorothée veut le suivre. Le domestique lui fait signe de rester.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dorothée, Le Domestique.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dorothée, Le Domestique.
+</stage>
 <sp who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE.</speaker>
 <p id="1">
 	<s id="1">Écoutez, écoutez ; mamselle_Dorothée.</s>
@@ -437,14 +443,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="DOROTHÉE"><speaker>DOROTHÉE, seule.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Que de chagrins il me cause sans cesse ! </s>
 	<s id="2">Et je ne puis m'empêcher de l'aimer.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Marianne, Dorothée.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Marianne, Dorothée.
+</stage>
 <sp who="DOROTHÉE"><speaker>DOROTHÉE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -522,7 +530,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur de Valcourt, Marianne.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur de Valcourt, Marianne.
+</stage>
 <sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT.</speaker>
 <p id="1">
 	<s id="1">Je suis si en colère contre ce drôle, que je n'ai pas été eu état d'écrire pour renvoyer le messager. </s>
@@ -656,7 +665,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Marianne, Dorothée.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Marianne, Dorothée.
+</stage>
 <sp who="DOROTHÉE"><speaker>DOROTHÉE.</speaker>
 <p id="1">
 	<s id="1">présentant son nez à la porte entrouverte. Bst !</s>
@@ -720,8 +730,10 @@
 <stage type="closer">Elle va jusqu'à sa rencontre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Marianne, Dorothée, Frédéric.</head>
-<sp who="MARIANNE"><speaker>MARIANNE, l'embrassant.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Marianne, Dorothée, Frédéric.
+</stage>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, l'embrassant.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon cher cousin !</s>
@@ -732,7 +744,8 @@
 	<s id="1">Il mérite bien ces caresses pour les chagrins qu'il nous cause !</s>
 </p>
 </sp>
-<sp stage="touch" who="MARIANNE"><speaker>MARIANNE, lui tendant la main. </speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="touch">, lui tendant la main. 
+</stage>
 <p id="3">
 	<s id="1">Je le vois ; tout est oublié.</s>
 </p>
@@ -884,7 +897,8 @@
 	<s id="2">Laisse-moi donc achever. Tandis que j'étais assis...</s>
 </p>
 </sp>
-<sp stage="listen" who="MARIANNE"><speaker>MARIANNE, prêtant l'oreille à la porte. </speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="listen">, prêtant l'oreille à la porte. 
+</stage>
 <p id="29">
 	<s id="1">Nous sommes perdus ! </s>
 	<s id="2">Mon papa ! </s>
@@ -922,7 +936,8 @@
 <stage type="push/location/location/back">Elle le pousse par les épaules vers la porte de l'escalier dérobé, la ferme sur lui et revient.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Monsieur de Valcourt, Marianne, Dorothée.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Monsieur de Valcourt, Marianne, Dorothée.
+</stage>
 <sp who="MARIANNE"><speaker>MARIANNE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -935,7 +950,8 @@
 	<s id="2">Je ne sais où je l'ai laissé.</s>
 </p>
 </sp>
-<sp who="DOROTHÉE"><speaker>DOROTHÉE, cherchant des yeux. </speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage>, cherchant des yeux. 
+</stage>
 <p id="3">
 	<s id="1">Tenez, tenez, le voici.</s>
 </p>
@@ -1023,7 +1039,8 @@
 	<s id="1">Où allez-vous, Dorothée ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DOROTHÉE"><speaker>DOROTHÉE, embarrassée. </speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="embarrassed">, embarrassée. 
+</stage>
 <p id="20">
 	<s id="1">C'est que j'ai besoin de descendre.</s>
 </p>
@@ -1036,7 +1053,8 @@
 <stage type="exit">Dorothée sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Monsieur de Valcourt, Marianne.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Monsieur de Valcourt, Marianne.
+</stage>
 <sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT.</speaker>
 <p id="1">
 	<s id="1">Dans le fond, ce pauvre homme me fait pitié. </s>
@@ -1058,7 +1076,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Monsieur de Valcourt, Marianne, Dorothée, Pétrel.</head> 
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Monsieur de Valcourt, Marianne, Dorothée, Pétrel. 
+</stage> 
 <sp who="DOROTHÉE"><speaker>DOROTHÉE.</speaker>
 <p id="1">
 	<s id="1">Mon cher oncle, voici Pétrel. </s>
@@ -1176,7 +1195,8 @@
 	<s id="2">Que ne venais-tu chercher du secours auprès de moi.</s>
 </p>
 </sp>
-<sp stage="toward" who="MARIANNE"><speaker>MARIANNE, à Dorothée. </speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="toward">, à Dorothée. 
+</stage>
 <p id="18">
 	<s id="1">Voilà mon papa qui se remontré. </s>
 	<s id="2">Bon augure pour Frédéric !</s>
@@ -1380,7 +1400,8 @@
 	<s id="2">Le bon Frédéric !</s>
 </p>
 </sp>
-<sp stage="wipe" who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT, s'essuyant tantôt un oeil, tantôt l'autre. </speaker>
+<sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT</speaker><stage type="wipe">, s'essuyant tantôt un oeil, tantôt l'autre. 
+</stage>
 <p id="45">
 	<s id="1">Je vois maintenant où la montre s'en est allée.</s>
 </p>
@@ -1469,7 +1490,8 @@
 </p> 
 <stage type="run">Il veut courir.</stage>
 </sp>
-<sp stage="pull" who="DOROTHÉE"><speaker>DOROTHÉE, le retenant. </speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="pull">, le retenant. 
+</stage>
 <p id="56">
 	<s id="1">Est-il bien vrai, mon cher oncle, que vous lui pardonneriez ? </s>
 	<s id="2">Que vous le presseriez encore contre votre coeur ?</s>
@@ -1510,8 +1532,9 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Monsieur de Valcourt, Frédéric, Marianne,
-Dorothée, Pétrel.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Monsieur de Valcourt, Frédéric, Marianne,
+Dorothée, Pétrel.
+</stage>
 <stage type="hurry/help/kiss/cry">Frédéric se précipite aux pieds de son oncle. Pétrel se jette contre terre à son côté, passe un bras sous les genoux de Monsieur de Valcourt et l'autre autour de Frédéric, leur baise les mains et les habits, et fait des éclats extravagants de joie. Marianne et Dorothée s'embrassent en pleurant.</stage>
 <sp who="FRÉDÉRIC"><speaker>FRÉDÉRIC. </speaker>
 <p id="1">
@@ -1521,7 +1544,8 @@ Dorothée, Pétrel.</head>
 	<s id="3">Me pardonnez-vous?</s>
 </p>
 </sp>
-<sp stage="low" who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT, d'une voix étouffée à force de le presser.</speaker>
+<sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT</speaker><stage type="low">, d'une voix étouffée à force de le presser.
+</stage>
 <p id="2">
 	<s id="1">Te pardonner ! </s>
 	<s id="2">Ah ! </s>
@@ -1614,7 +1638,8 @@ Dorothée, Pétrel.</head>
 	<s id="1">Non, mon oncle, je ne veux être heureux aux dépens de personne, et encore moins aux dépens de votre fils.</s>
 </p>
 </sp>
-<sp stage="give" who="DOROTHÉE"><speaker>DOROTHÉE, lui tend la main. </speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="give">, lui tend la main. 
+</stage>
 <p id="16">
 	<s id="1">Ô mon frère, combien je dois l'aimer !</s>
 </p>
@@ -1628,12 +1653,14 @@ Dorothée, Pétrel.</head>
 </p> 
 <stage type="kiss">Frédéric lui baise la main.</stage>
 </sp>
-<sp stage="kiss" who="PÉTREL"><speaker>PÉTREL, lui baisant le pan de son habit.</speaker>
+<sp who="PÉTREL"><speaker>PÉTREL</speaker><stage type="kiss">, lui baisant le pan de son habit.
+</stage>
 <p id="18">
 	<s id="">Mon digne maître, vous êtes toujours le même.</s>
 </p>
 </sp>
-<sp stage="touch" who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT, lui frappant sur l'épaule. </speaker>
+<sp who="MONSIEUR DE VALCOURT"><speaker>MONSIEUR DE VALCOURT</speaker><stage type="touch">, lui frappant sur l'épaule. 
+</stage>
 <p id="19">
 	<s id="">Pétrel, as-tu pris des engagements avec Monsieur_de_Vienne</s>
 </p>
@@ -1652,7 +1679,8 @@ Dorothée, Pétrel.</head>
 	<s id="4">On pourvoira aussi à tes enfants.</s>
 </p>
 </sp>
-<sp stage="cry/shout" who="PÉTREL"><speaker>PÉTREL, se met à sangloter et à crier. </speaker>
+<sp who="PÉTREL"><speaker>PÉTREL</speaker><stage type="cry/shout">, se met à sangloter et à crier. 
+</stage>
 <p id="22">
 	<s id="1">Mon cher maître !... </s>
 	<s id="2">Monsieur !... </s>

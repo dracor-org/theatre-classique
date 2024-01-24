@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1821-1830</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,13 +28,13 @@
 	<docTitle>
 		<titlePart type="main">RÊVE DE D'ALEMBERT</titlePart>
 	</docTitle> 
-	<docDate value='1830'>M DCCC XXX.</docDate>
-	<docAuthor id='DIDEROT, Denis'>de DIDEROT</docAuthor>
+	<docDate value="1830">M DCCC XXX.</docDate>
+	<docAuthor id="DIDEROT, Denis">de DIDEROT</docAuthor>
 	<docImprint>
-		<approbation value=''></approbation>
-			<privilege value=''><head></head>
+		<approbation value=""/>
+			<privilege value=""><head/>
 			</privilege>
-			<acheveImprime value=''></acheveImprime>
+			<acheveImprime value=""/>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
 		<castItem><role id="D'ALEMBERT" sex="1" age="A" type="H" statut="philosophe">D'ALEMBERT</role>.</castItem>
@@ -42,11 +42,11 @@
 		<castItem><role id="LE MÉDECIN BORDEU" sex="1" type="H" age="A" statut="médecin">LE MÉDECIN BORDEU</role>.</castItem>
 		<castItem><role id="LE DOMESTIQUE" sex="1" type="H" age="A" statut="domestique">LE DOMESTIQUE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>RÊVE DE D'ALEMBERT</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="BORDEU"><speaker>BORDEU.</speaker>
 <note type="C">BORDEU Théophile de (1722-1776), médecin, ami de Diderot. Il participa à la rédaction de l'Encyclopédie.</note>
 <p id="1">
@@ -71,7 +71,8 @@
 	<s id="1">Pas encore.</s>
 </p>
 </sp>
-<sp who="BORDEU"><speaker>BORDEU, après s'être approché du lit de D'Alembert et lui avoir tâté le pouls et la peau.</speaker>
+<sp who="BORDEU"><speaker>BORDEU</speaker><stage>, après s'être approché du lit de D'Alembert et lui avoir tâté le pouls et la peau.
+</stage>
 <p id="5">
 	<s id="1">Ce ne sera rien.</s>
 </p>
@@ -2599,7 +2600,8 @@
 	<s id="1">Docteur, vous me faites peur.</s>
 </p>
 </sp>
-<sp stage="stand/costume" who="D'ALEMBERT"><speaker>D'ALEMBERT, levé, en robe de chambre et en bonnet de nuit.</speaker>
+<sp who="D'ALEMBERT"><speaker>D'ALEMBERT</speaker><stage type="stand/costume">, levé, en robe de chambre et en bonnet de nuit.
+</stage>
 <p id="413">
 	<s id="1">Et du sommeil, docteur, qu'en dites-vous ? </s>
 	<s id="2">C'est une bonne chose.</s>

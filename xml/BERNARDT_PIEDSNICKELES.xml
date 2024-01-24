@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,30 +31,31 @@
 			<titlePart type="sub">Dédiée à Louis-Alfred Natanson</titlePart>
 			<titlePart type="sub">Deuxième édition.</titlePart>
 		</docTitle> 
-		<docDate value='1895'>1895. Tous droits de reproduction, de traduction et de représentation réservés pour tous pays, y compris la Suède et la Norvège.</docDate>
-		<docAuthor id='BERNARD, Tristan'>de TRISTAN BERNARD</docAuthor>
+		<docDate value="1895">1895. Tous droits de reproduction, de traduction et de représentation réservés pour tous pays, y compris la Suède et la Norvège.</docDate>
+		<docAuthor id="BERNARD, Tristan">de TRISTAN BERNARD</docAuthor>
 		<docImprint>
 			<editor id="OLLENDORFF">PARIS PAUL OLLENDORFF, ÉDITEUR, 28 bis, rue de Richelieu, 28 bis.</editor>
-			<printer id='DESLIS FRÈRES'>TOURS - Imp. DESLIS FRÈRES, rue Gambetta, 6.</printer>
+			<printer id="DESLIS FRÈRES">TOURS - Imp. DESLIS FRÈRES, rue Gambetta, 6.</printer>
 		</docImprint>
 		<performance>
 			<premiere date="1895-03-15" location="Théâtre de l'OEuvre">Représentée pour la première fois, à Paris, sur le Théâtre de l'OEuvre le 15 Mars 1895.</premiere>
 		</performance>
 		<castList>
 		<head>PERSONNAGES.</head>
-			<castItem><role id="ALAIN LAMBERT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>ALAIN LAMBERT</role>, 25 ans.</castItem>
-			<castItem><role id="OMER ARTHUR" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>OMER ARTHUR</role>, 40 ans.</castItem>
-			<castItem><role id="RONCHAUD" sex="1" type="H" statut="créancier" age='A' stat_amour='néant'>RONCHAUD</role>, créancier, 50 ans.</castItem>
-			<castItem><role id="FRANCINE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>FRANCINE</role>, femme d'Alain, 21 ans.</castItem>
-			<castItem><role id="LA VEUVE CAVIAR" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LA VEUVE CAVIAR</role>, 60 ans.</castItem>
-			<castItem><role id="LA BARONNE VIOLET" sex="2" type="H" statut="baronne" age='A' stat_amour='néant'>LA BARONNE VIOLET</role>, 45 ans.</castItem>
-			<castItem><role id="LA BONNE" sex="2" type="H" statut="domestique" age='A' stat_amour='néant'>LA BONNE</role>.</castItem>
+			<castItem><role id="ALAIN LAMBERT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ALAIN LAMBERT</role>, 25 ans.</castItem>
+			<castItem><role id="OMER ARTHUR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">OMER ARTHUR</role>, 40 ans.</castItem>
+			<castItem><role id="RONCHAUD" sex="1" type="H" statut="créancier" age="A" stat_amour="néant">RONCHAUD</role>, créancier, 50 ans.</castItem>
+			<castItem><role id="FRANCINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">FRANCINE</role>, femme d'Alain, 21 ans.</castItem>
+			<castItem><role id="LA VEUVE CAVIAR" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LA VEUVE CAVIAR</role>, 60 ans.</castItem>
+			<castItem><role id="LA BARONNE VIOLET" sex="2" type="H" statut="baronne" age="A" stat_amour="néant">LA BARONNE VIOLET</role>, 45 ans.</castItem>
+			<castItem><role id="LA BONNE" sex="2" type="H" statut="domestique" age="A" stat_amour="néant">LA BONNE</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène représente un petit salon assez élégamment meublé.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LES PIEDS NICKELÉS</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Alain, Francine.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Alain, Francine.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Combien te reste-t-il d'argent ?</s>
@@ -294,7 +295,8 @@
 	<s id="7">Il ne me ménagera pas.</s>
 </p>
 </sp>
-<sp stage="nervous" who="FRANCINE"><speaker>FRANCINE, nerveusement.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="nervous">, nerveusement.
+</stage>
 <p id="37">
 	<s id="1">C'est pas drôle, tout ça. </s>
 	<s id="2">C'est pas drôle. </s>
@@ -319,7 +321,8 @@
 	<s id="5">Quelle lacune !</s>
 </p>
 </sp>
-<sp stage="location" who="FRANCINE"><speaker>FRANCINE, à la fenêtre.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="location">, à la fenêtre.
+</stage>
 <p id="41">
 	<s id="1">Une voiture. </s>
 	<s id="2">La dame du troisième. </s>
@@ -406,13 +409,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, La Bonne.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, La Bonne.
+</stage>
 <sp who="LA BONNE"><speaker>LA BONNE.</speaker>
 <p id="1">
 	<s id="1">Monsieur Ronchaud désire parler à Monsieur.</s>
 </p>
 </sp>
-<sp stage="toward" who="ALAIN"><speaker>ALAIN, à Francine.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="toward">, à Francine.
+</stage>
 <p id="2">
 	<s id="1">Laisse-nous seuls, petit. </s>
 	<s id="2">J'aime mieux ça.</s>
@@ -425,7 +430,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Alain, puis Ronchaud.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Alain, puis Ronchaud.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Voici l'ennemi. </s>
@@ -439,7 +445,8 @@
 </p>
 <stage type="serious">Ronchaud prend un air sévère.</stage>
 </sp>
-<sp stage="happy" who="ALAIN"><speaker>ALAIN, avec hâte. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="happy">, avec hâte. 
+</stage>
 <p id="3">
 	<s id="1">J'ai l'argent, Monsieur Ronchaud, j'ai l'argent. </s>
 	<s id="2">Tranquillisez-vous. </s>
@@ -540,7 +547,8 @@
 	<s id="6">Si je n'ai pas les fonds à cinq heures, je remettrai le billet immédiatement à l'huissier.</s>
 </p>	
 </sp>
-<sp stage="proud" who="ALAIN"><speaker>ALAIN, avec dignité. – </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="proud">, avec dignité. – 
+</stage>
 <p id="17">
 	<s id="1">Il suffit, Monsieur ; je m'arrangerai en conséquence.</s>
 </p>
@@ -583,7 +591,8 @@
 	<s id="2">Je constate ce fait que vous me devez de l'argent et que vous ne me payez pas.</s>
 </p>
 </sp>
-<sp stage="proud" who="ALAIN"><speaker>ALAIN, avec beaucoup de dignité. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="proud">, avec beaucoup de dignité. 
+</stage>
 <p id="23">
 	<s id="1">Il suffit, Monsieur. </s>
 	<s id="2">Vous aurez votre argent à cinq heures.</s>
@@ -603,7 +612,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ALAIN"><speaker>ALAIN, seul. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="alone">, seul. 
+</stage>
 <p id="1">
 	<s id="1">A-t-on idée d'un pareil égoïste ? </s>
 	<s id="2">Quel triste individu ! </s>
@@ -611,8 +621,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Alain, Francine.</head>
-<sp stage="entrance" who="FRANCINE"><speaker>FRANCINE, entrant. </speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Alain, Francine.
+</stage>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon ami, mon ami ! </s>
@@ -665,7 +677,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, La Bonne.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, La Bonne.
+</stage>
 <sp who="LA BONNE"><speaker>LA BONNE. </speaker>
 <p id="1">
 	<s id="1">Il y a une dame dans l'antichambre. </s>
@@ -745,7 +758,8 @@
 	<s id="9">Si vous aviez des garanties.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALAIN"><speaker>ALAIN, à part. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="9">
 	<s id="1">Voilà cinquante fois qu'elle me répète que je trouverais plus aisément de l'argent si j'avais des garanties. </s>
 	<s id="2">Si j'avais des garanties, je n'aurais pas besoin d'elle.</s>
@@ -755,7 +769,8 @@
 	<s id="1">Mais l'autre ami de l'autre ami, pas celui qui va venir de sa campagne, celui dont vous venez de me parler en dernier lieu, est-il à Paris, celui-là ?</s>
 </p>
 </sp>
-<sp stage="strange" who="MADAME CAVIAR"><speaker>MADAME CAVIAR, mystérieusement. </speaker>
+<sp who="MADAME CAVIAR"><speaker>MADAME CAVIAR</speaker><stage type="strange">, mystérieusement. 
+</stage>
 <p id="11">
 	<s id="1">Il est à Paris.</s>
 </p>
@@ -853,7 +868,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Alain, Francine.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Alain, Francine.
+</stage>
 <sp who="FRANCINE"><speaker>FRANCINE.</speaker>
 <p id="1">
 	<s id="1">Hé bien ! </s>
@@ -887,26 +903,31 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, La Bonne.</head>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entrant. </speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, La Bonne.
+</stage>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">Monsieur ! </s>
 	<s id="2">Madame ! </s>
 	<s id="3">La belle voiture de La Baronne_Violet qui vient de s'arrêter devant la maison.</s>
 </p>
 </sp>
-<sp stage="happy" who="ALAIN"><speaker>ALAIN, avec une joie subite. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="happy">, avec une joie subite. 
+</stage>
 <p id="2">
 	<s id="1">La Baronne_Violet !</s>
 </p>
 </sp>
-<sp stage="happy" who="FRANCINE"><speaker>FRANCINE, avec joie.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="3">
 	<s id="1">La Baronne_Violet !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Alain, Francine.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Alain, Francine.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Tu sais qu'elle a beaucoup d'argent à placer. </s>
@@ -943,7 +964,8 @@
 <stage type="entrance">Entre La Baronne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, La Baronne.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les mêmes, La Baronne.
+</stage>
 <sp who="ALAIN, FRANCINE"><speaker>ALAIN et FRANCINE.</speaker>
 <p id="1">
 	<s id="1">Chère Madame !</s>
@@ -959,7 +981,8 @@
 	<s id="6">Alors je me suis dit : Entrons dire bonjour à mes amis Lambert.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALAIN"><speaker>ALAIN, à part. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">A-t-elle une bonne figure ?</s>
 </p>
@@ -974,7 +997,8 @@
 	<s id="1">Quelle meilleure distraction voulez-vous que j'aie ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALAIN"><speaker>ALAIN, à part. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="6">
 	<s id="1">A-t-elle une bonne figure ! </s>
 	<s id="2">Ah !... </s>
@@ -989,7 +1013,8 @@
 	<s id="3">Je n'en parle pas.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALAIN"><speaker>ALAIN, à part. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="8">
 	<s id="1">Encore trois minutes, trois bonnes petites minutes, de répit.</s>
 </p>
@@ -1020,17 +1045,20 @@
 	<s id="1">Non, tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Francine.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Francine.
+</stage>
 <p id="14">
 	<s id="1">Et vous allez beaucoup dans le monde ?</s>
 </p>
 </sp>
-<sp stage="sad" who="FRANCINE"><speaker>FRANCINE, tristement.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="sad">, tristement.
+</stage>
 <p id="15">
 	<s id="1">Nous n'allons pas du tout dans le monde.</s>
 </p>
 </sp>
-<sp stage="sad" who="ALAIN"><speaker>ALAIN, sombre.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="sad">, sombre.
+</stage>
 <p id="16">
 	<s id="1">Nous n'allons pas du tout dans le monde.</s>
 </p>
@@ -1044,12 +1072,14 @@
 	<s id="5">Êtes-vous allés beaucoup au théâtre cet hiver ?</s>
 </p>
 </sp>
-<sp stage="sad" who="ALAIN"><speaker>ALAIN, tristement.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="sad">, tristement.
+</stage>
 <p id="18">
 	<s id="1">Nous n'allons jamais au théâtre.</s>
 </p>
 </sp>
-<sp stage="sad" who="FRANCINE"><speaker>FRANCINE, de même.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="sad">, de même.
+</stage>
 <p id="19">
 	<s id="1">Nous n'allons jamais au théâtre.</s>
 </p>
@@ -1059,7 +1089,8 @@
 	<s id="1">Je vous ai vus pourtant aux Variétés l'autre jour.</s>
 </p>
 </sp>
-<sp stage="sad" who="ALAIN"><speaker>ALAIN, sombre. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="sad">, sombre. 
+</stage>
 <p id="21">
 	<s id="1">C'est juste.</s>
 </p>
@@ -1090,7 +1121,8 @@
 	<s id="1">Enfin, c'est votre affaire. Est-ce que vous irez au concert du Trocadéro ?</s>
 </p>
 </sp>
-<sp stage="desapointed" who="ALAIN"><speaker>ALAIN, après un geste de désappointement. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="desapointed">, après un geste de désappointement. 
+</stage>
 <p id="27">
 	<s id="1">Au concert du Trocadéro ? </s>
 	<s id="2">Oui. </s>
@@ -1147,13 +1179,15 @@
 	<s id="1">Je vais être obligée de m'en aller.</s>
 </p>	
 </sp>
-<sp stage="enthousiasm" who="ALAIN"><speaker>ALAIN, avec effusion.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="enthousiasm">, avec effusion.
+</stage>
 <p id="37">
 	<s id="1">Oh ! </s>
 	<s id="2">Restez !</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="FRANCINE"><speaker>FRANCINE, de même. </speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="enthousiasm">, de même. 
+</stage>
 <p id="38">
 	<s id="1">Restez encore.</s>
 </p>
@@ -1164,7 +1198,8 @@
 	<s id="2">Mais, très sérieusement, j'ai un rendez-vous pressé.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALAIN"><speaker>ALAIN, à part.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="40">
 	<s id="1">La voilà qui s'en va !</s>
 </p>
@@ -1194,7 +1229,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Alain, Francine.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Alain, Francine.
+</stage>
 <stage type="back/slow/location">Ils reviennent d'abord lentement, sans rien dire, jusqu'au bureau.</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
@@ -1241,7 +1277,8 @@
 	<s id="2">Avec notre timidité, nous avons laissé échapper là une belle occasion de nous tirer d'embarras.</s>
 </p>
 </sp>
-<sp stage="strong" who="ALAIN"><speaker>ALAIN, d'un ton délibéré.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="strong">, d'un ton délibéré.
+</stage>
 <p id="9">
 	<s id="1">Ça n'a pas d'importance. </s>
 	<s id="2">Nous trouverons ce qu'il nous faut... ailleurs.</s>
@@ -1297,15 +1334,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les mêmes, La Bonne.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les mêmes, La Bonne.
+</stage>
 <sp who="LA BONNE"><speaker>LA BONNE. </speaker>
 <p id="1">
 	<s id="1">Monsieur Omer Arthur.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Alain, Francine, Omer, Arthur.</head>
-<sp stage="toward" who="ALAIN"><speaker>ALAIN, à Francine.</speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Alain, Francine, Omer, Arthur.
+</stage>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="toward">, à Francine.
+</stage>
 <p id="1">
 	<s id="1">Oh ! </s>
 	<s id="2">C'est étonnant. </s>
@@ -1419,7 +1459,8 @@
 	<s id="1">Pas grand-chose de beau.</s>
 </p>
 </sp>
-<sp stage="laugh" who="OMER"><speaker>OMER, il rit.</speaker>
+<sp who="OMER"><speaker>OMER</speaker><stage type="laugh">, il rit.
+</stage>
 <p id="21">
 	<s id="1">Pas grand-chose. </s>
 	<s id="2">Mon gros ! </s>
@@ -1446,7 +1487,8 @@
 	<s id="1">Je suis très gêné.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="FRANCINE"><speaker>FRANCINE, délibérément.</speaker>
+<sp who="FRANCINE"><speaker>FRANCINE</speaker><stage type="embarrassed">, délibérément.
+</stage>
 <p id="25">
 	<s id="1">Nous sommes très gênés.</s>
 </p>
@@ -1476,7 +1518,8 @@
 	<s id="3">C'est lâché !</s>
 </p>
 </sp>
-<sp stage="serious" who="OMER"><speaker>OMER, subitement grave. </speaker>
+<sp who="OMER"><speaker>OMER</speaker><stage type="serious">, subitement grave. 
+</stage>
 <p id="29">
 	<s id="1">Alain, tu es mon ami ; c'est ce qui m'autorise à te dire franchement, sans ambages et sans détours : Non, non. </s>
 	<s id="2">Je n'ai pas actuellement de fonds disponibles. </s>
@@ -1541,7 +1584,8 @@
 	<s id="2">J'ai un bon cigare pour toi.</s>
 </p>
 </sp>
-<sp stage="get" who="ALAIN"><speaker>ALAIN, prenant le cigare. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="get">, prenant le cigare. 
+</stage>
 <p id="37">
 	<s id="">Merci. </s>
 </p>
@@ -1550,7 +1594,8 @@
 	<s id="1">Je le fumerai dès ce soir.</s>
 </p>
 </sp>
-<sp stage="give" who="OMER"><speaker>OMER, tendant son porte-cigares.</speaker>
+<sp who="OMER"><speaker>OMER</speaker><stage type="give">, tendant son porte-cigares.
+</stage>
 <p id="39">
 	<s id="1">Il m'en reste encore un autre. </s>
 	<s id="2">Si, si ! </s>
@@ -1560,7 +1605,8 @@
 </p>
 <stage type="get">Alain prend le cigare.</stage>
 </sp>
-<sp stage="get" who="OMER"><speaker>OMER, tirant sa montre. </speaker>
+<sp who="OMER"><speaker>OMER</speaker><stage type="get">, tirant sa montre. 
+</stage>
 <p id="40">
 	<s id="1">Je vous demande pardon si je regarde l'heure. </s>
 	<s id="2">Hà ! </s>
@@ -1582,7 +1628,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Alain, Francine.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Alain, Francine.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Hé bien ! </s>
@@ -1596,7 +1643,8 @@
 	<s id="3">Nous rasait-il assez avec ses affaires merveilleuses !</s>
 </p>
 </sp>
-<sp stage="think" who="ALAIN"><speaker>ALAIN, songeur.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="think">, songeur.
+</stage>
 <p id="3">
 	<s id="1">Es-tu sûre qu'il ait de l'argent ? </s>
 	<s id="2">Il est très rare que les gens qui font tant d'affaires aient de l'argent. </s>
@@ -1690,7 +1738,8 @@
 	<s id="1">Une voiture.</s>
 </p>
 </sp>
-<sp stage="location" who="ALAIN"><speaker>ALAIN, à la fenêtre.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="location">, à la fenêtre.
+</stage>
 <p id="19">
 	<s id="1">Oh ! </s>
 	<s id="2">Il y a un Dieu ! </s>
@@ -1718,7 +1767,8 @@
 <stage type="ENTRANCE">Entre La Baronne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Les mêmes, La Baronne.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Les mêmes, La Baronne.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Bonjour, mes amis. </s>
@@ -1739,7 +1789,8 @@
 </p>
 <stage type="location/toward">Elle va jusqu'à la porte et dit quelques mots à Alain.</stage>
 </sp>
-<sp stage="aparte" who="LA BARONNE"><speaker>LA BARONNE, à part. </speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">Le poker est un jeu passionnant ! </s>
 	<s id="2">Mais qu'il vous met parfois dans de cruels embarras. </s>
@@ -1750,7 +1801,8 @@
 <stage type="exit">Sort Francine.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. La Baronne, Alain.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> La Baronne, Alain.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Madame, je vous écoute.</s>
@@ -1773,7 +1825,8 @@
 	<s id="1">Je précise. Monsieur Lambert, que pensez-vous des amis indiscrets ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="ALAIN"><speaker>ALAIN, hésitant.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="5">
 	<s id="1">Et vous, madame ?</s>
 </p>
@@ -1783,7 +1836,8 @@
 	<s id="1">Que pensez-vous des gens qui, brusquement, sans crier gare, viennent changer des rapports amicaux en relations d'affaires.</s>
 </p>
 </sp>
-<sp stage="hesitate" who="ALAIN"><speaker>ALAIN, hésitant.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="7">
 	<s id="1">Et vous, madame, que pensez-vous de ces gens-là ?</s>
 </p>
@@ -1865,7 +1919,8 @@
 	<s id="3">Pouvez-vous me prêter cinq cents louis ?</s>
 </p>
 </sp>
-<sp stage="surprise" who="ALAIN"><speaker>ALAIN, abasourdi. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="surprise">, abasourdi. 
+</stage>
 <p id="21">
 	<s id="1">Vous... Vous... Vous avez besoin de cinq cents louis ?</s>
 </p>
@@ -1941,7 +1996,8 @@
 	<s id="4">Vous me les prêterez quand vous les aurez, ou c'est moi qui vous les prêterai quand je les aurai.</s>
 </p>
 </sp>
-<sp stage="loud" who="ALAIN"><speaker>ALAIN, haut.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="loud">, haut.
+</stage>
 <p id="33">
 	<s id="1">Oui, oui, certainement. </s>
 </p>
@@ -1972,7 +2028,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="19"><head>SCÈNE XIX.</head>
-<sp stage="alone" who="ALAIN"><speaker>ALAIN, seul. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="alone">, seul. 
+</stage>
 <p id="1">
 	<s id="1">Encore une illusion qui, s'en va. </s>
 	<s id="2">C'est égal. </s>
@@ -1984,7 +2041,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÈNE XX. Alain, Francine.</head>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Alain, Francine.
+</stage>
 <sp who="FRANCINE"><speaker>FRANCINE.</speaker>
 <p id="1">
 	<s id="1">J'ai tout entendu, tu sais. </s>
@@ -2058,7 +2116,8 @@
 <stage type="entrance">Entre la Bonne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI. Les mêmes, La Bonne.</head>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Les mêmes, La Bonne.
+</stage>
 <sp who="FRANCINE"><speaker>FRANCINE.</speaker>
 <p id="11">
 	<s id="1">J'ai les numéros sur mon carnet : 204 632 et 204 633.</s>
@@ -2089,8 +2148,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="22"><head>SCÈNE XXII. Alain, Francine, La Veuve Caviar.</head>
-<sp stage="closer/slow" who="LA VEUVE CAVIAR"><speaker>LA VEUVE CAVIAR, elle entre à petits pas, salue discrètement et s'approche d'Alain.</speaker> 
+<div2 type="scene" n="22"><head>SCÈNE XXII.</head><stage> Alain, Francine, La Veuve Caviar.
+</stage>
+<sp who="LA VEUVE CAVIAR"><speaker>LA VEUVE CAVIAR</speaker><stage type="closer/slow">, elle entre à petits pas, salue discrètement et s'approche d'Alain. 
+</stage> 
 <p id="1">
 	<s id="1">Regardez là.</s>
 </p>
@@ -2137,7 +2198,8 @@
 	<s id="2">J'ai pris quatre cents francs pour moi.</s>
 </p>
 </sp>
-<sp stage="watch" who="ALAIN"><speaker>ALAIN, regardant les billets. </speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="watch">, regardant les billets. 
+</stage>
 <p id="8">
 	<s id="1">Et il vous a donné ça comme ça ? </s>
 	<s id="2">C'est un brave homme, vous savez !</s>
@@ -2148,7 +2210,8 @@
 	<s id="1">Ah c'est un monsieur très bien.</s>
 </p>
 </sp>
-<sp stage="toward" who="ALAIN"><speaker>ALAIN, à Francine.</speaker>
+<sp who="ALAIN"><speaker>ALAIN</speaker><stage type="toward">, à Francine.
+</stage>
 <p id="10">
 	<s id="1">Nous avons une veine extraordinaire... </s>
 	<s id="2">C'est plus extraordinaire et moins effrayant que de gagner un gros lot des bons de l'Exposition.</s>
@@ -2209,7 +2272,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="23"><head>SCÈNE XXIII. Alain, Francine.</head>
+<div2 type="scene" n="23"><head>SCÈNE XXIII.</head><stage> Alain, Francine.
+</stage>
 <stage type="danse">Alain et Francine dansent une ronde échevelée et retombent sur le canapé.</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
@@ -2389,7 +2453,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="24"><head>SCÈNE XXIV. Alain, Francine, Ronchaud.</head>
+<div2 type="scene" n="24"><head>SCÈNE XXIV.</head><stage> Alain, Francine, Ronchaud.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">Monsieur Ronchaud ! </s>
@@ -2424,7 +2489,8 @@
 	<s id="7">Alors je dis : Je n'ai pas l'argent.</s>
 </p>
 </sp>
-<sp stage="stress" who="RONCHAUD"><speaker>RONCHAUD, avec un violent effort pour se contenir.</speaker>
+<sp who="RONCHAUD"><speaker>RONCHAUD</speaker><stage type="stress">, avec un violent effort pour se contenir.
+</stage>
 <p id="6">
 	<s id="1">Bien. </s>
 	<s id="2">Vous savez ce qui vous attend.</s>
@@ -2556,14 +2622,16 @@
 <stage type="wave/exit">Il salue et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="25"><head>SCÈNE XXV. Alain, Francine, La Bonne.</head>
+<div2 type="scene" n="25"><head>SCÈNE XXV.</head><stage> Alain, Francine, La Bonne.
+</stage>
 <sp who="ALAIN"><speaker>ALAIN.</speaker>
 <p id="1">
 	<s id="1">C'est drôle. </s>
 	<s id="2">Il n'a pas l'air content.</s>
 </p>
 </sp>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entrant.</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="2">
 	<s id="1">Madame est servie.</s>
 </p>

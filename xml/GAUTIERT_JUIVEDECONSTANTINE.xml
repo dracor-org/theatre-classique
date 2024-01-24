@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -22,7 +22,7 @@
 				<structure>Un acte</structure>
 				<periode>1851-1860</periode>
 				<taille>0-250</taille>
-				<permalien cote="" ></permalien>
+				<permalien cote=""/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -34,13 +34,13 @@
 			<titlePart type="sub">Musique de M. PILATI, Divertissement de M. RAGAINE, Décorations de M. DEVOIR.</titlePart>
 			<titlePart type="sub">Costumes dessinés par M. Alfred ALBERT.</titlePart>
 		</docTitle> 
-		<docDate value='1882'>1882. Tous droits réservés.</docDate>
+		<docDate value="1882">1882. Tous droits réservés.</docDate>
 		<docAuthor id="GAUTIER, Théophile">PAR MM. THÉOPHILE GAUTIER ET NOËL PARFAIT.</docAuthor>
 		<performance>
 			<premiere>représenté pour la première fois, à Paris, sur le Théâtre de la Porte-Saint-Martin, LE 12 NOVEMBRE 1846.</premiere>
 		</performance>
 		<docImprint>
-			<editor id='CHARPENTIER'>PARIS, G. CHARPENTIER, ÉDITEUR, 13 rue de Grenelle-Saint-Germain, 13.</editor>
+			<editor id="CHARPENTIER">PARIS, G. CHARPENTIER, ÉDITEUR, 13 rue de Grenelle-Saint-Germain, 13.</editor>
 			<printer>Paris. - Imprimerie de Dondey-Dupré, rue Saint-Louis, 40, au Marais.</printer>
 		</docImprint>
 		<div type="dedicace">
@@ -69,7 +69,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER.</head>
 <stage type="decor">La place du Fondouk, à Constantine ; boutiques de chaque côté. À gauche, sur le premier plan, un café more.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dominique, assis à la porte du café ; Hommes et Femmes arabes ; Juifs et Juives ; Soldats et Colons français, circulant sur la place ou stationnant par groupes.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dominique, assis à la porte du café ; Hommes et Femmes arabes ; Juifs et Juives ; Soldats et Colons français, circulant sur la place ou stationnant par groupes.
+</stage>
 <sp who="DOMINIQUE"><speaker>DOMINIQUE.</speaker>
 <p id="1">
 	<s id="1">Dominique. </s>
@@ -111,7 +112,8 @@
 <stage type="entrance">Paraît un More.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, Le kaouadji.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, Le kaouadji.
+</stage>
 <sp who="DOMINIQUE"><speaker>DOMINIQUE.</speaker>
 <p id="1">
 	<s id="1">Je voudrais bien prendre quelque chose de frais... </s>
@@ -126,7 +128,8 @@
 </p>
 <stage type="entrance/location">Il rentre dans le café.</stage>
 </sp>
-<sp stage="imitate" who="DOMINIQUE"><speaker>DOMINIQUE, le contrefaisant.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="imitate">, le contrefaisant.
+</stage>
 <p id="3">
 	<s id="1">Bôno ! </s>
 	<s id="2">Bôno ! </s>
@@ -165,8 +168,10 @@
 <stage type="sit">Il s'assied en grommelant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les Mêmes, BEN AÏSSA.</head>
-<sp stage="watch/location" who="BEN AÏSSA"><speaker>BEN AÏSSA, regardant la boutique du Juif.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les Mêmes, BEN AÏSSA.
+</stage>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="watch/location">, regardant la boutique du Juif.
+</stage>
 <note type="L">Fondouck : Sorte de magasins usités dans l'Orient. [L]</note>
 <p id="1">
 	<s id="1">Tout est fermé encore... </s>
@@ -179,7 +184,8 @@
 	<s id="8">Moi, Mohammed_Ben_Aïssa, un descendant du Prophète, épris de la fille d'un Juif immonde, d'un chien, qui me dédaigne !...</s>
 </p>
 </sp>
-<sp stage="aparte" who="DOMINIQUE"><speaker>DOMINIQUE, à lui-même.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="2">
 	<s id="1">Voilà un gaillard qui considère cette devanture avec une mélancolie suspecte... </s>
 	<s id="2">Serait-il préposé comme moi à l'observation de la boutique de Nathan ?... </s>
@@ -192,7 +198,8 @@
 	<s id="2">Que nul au moins ne soupçonne ce qui se passe dans mon âme !</s>
 </p>
 </sp>
-<sp stage="closer" who="DOMINIQUE"><speaker>DOMINIQUE, l'abordant.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="closer">, l'abordant.
+</stage>
 <p id="4">
 	<s id="1">Selam_aleik !</s>
 </p>
@@ -203,7 +210,8 @@
 	<s id="3">Selam_aleik !</s>
 </p>
 </sp>
-<sp stage="abrupt" who="BEN AÏSSA"><speaker>BEN AÏSSA, brusquement.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="abrupt">, brusquement.
+</stage>
 <p id="6">
 	<s id="1">Bonjour !</s>
 </p>
@@ -213,7 +221,8 @@
 	<s id="1">Tiens, il parle français !</s>
 </p>
 </sp>
-<sp stage="away" who="BEN AÏSSA"><speaker>BEN AÏSSA, faisant mine de s'éloigner.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="away">, faisant mine de s'éloigner.
+</stage>
 <p id="8">
 	<s id="1">Adieu !</s>
 </p>
@@ -262,8 +271,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les Mêmes, Nathan, Bethsabée, portant quelques marchandises.</head>
-<sp stage="toward" who="NATHAN"><speaker>NATHAN, aux Arabes du fond.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les Mêmes, Nathan, Bethsabée, portant quelques marchandises.
+</stage>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="toward">, aux Arabes du fond.
+</stage>
 <p id="16">
 	<s id="1">Pourquoi me poursuivez-vous de vos cris et de vos insultes ?... </s>
 	<s id="2">Arrière, misérables ! </s>
@@ -316,7 +327,8 @@
 </p>
 <stage type="entrance/exit/run">Il rentre ; Dominique sort en courant.</stage>
 </sp>
-<sp stage="location/toward" who="NATHAN"><speaker>NATHAN, dans sa boutique, à Bethsabée.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="location/toward">, dans sa boutique, à Bethsabée.
+</stage>
 <p id="23">
 	<s id="1">L'heure du marché va bientôt sonner, dépêche-toi.</s>
 </p>
@@ -326,7 +338,8 @@
 	<s id="1">Oui, maître.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BEN AÏSSA"><speaker>BEN AÏSSA, à lui-même.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="25">
 	<s id="1">Seul... </s>
 	<s id="2">Il est venu seul, comme hier !... </s>
@@ -343,7 +356,8 @@
 <stage type="exit/location">Il sort par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Nathan, Bethsabée.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Nathan, Bethsabée.
+</stage>
 <sp who="NATHAN"><speaker>NATHAN.</speaker>
 <p id="1">
 	<s id="1">Mets bien tout en ordre... </s>
@@ -365,7 +379,8 @@
 	<s id="1">Une mère ne l'aimerait pas d'un amour plus profond !</s>
 </p>
 </sp>
-<sp stage="exit" who="NATHAN"><speaker>NATHAN, sortant de sa boutique.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="exit">, sortant de sa boutique.
+</stage>
 <p id="3">
 	<s id="1">Elle a perdu la sienne, et tu la remplaces... </s>
 	<s id="2">Aussi veille bien sur notre fille. </s>
@@ -393,8 +408,10 @@
 <stage type="away">Bethsabée s'éloigne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Nathan, puis Maurice.</head>
-<sp stage="entrance" who="NATHAN"><speaker>NATHAN, rentrant dans sa boutique.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Nathan, puis Maurice.
+</stage>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="entrance">, rentrant dans sa boutique.
+</stage>
 <p id="1">
 	<s id="1">Il m'en coûte de me séparer de ma fille ; de ne l'avoir plus là, près de moi, comme un sourire sur ma vieillesse, comme un rayon sur ma tête blanchie... </s>
 	<s id="2">Mais il faut m'y résigner... </s>
@@ -402,7 +419,8 @@
 	<s id="4">Dans sa maison fermée aux profanes, elle sera comme sous les tentes d'Abraham et de Jacob...</s>
 </p>
 </sp>
-<sp stage="location" who="MAURICE"><speaker>MAURICE, au fond.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="location">, au fond.
+</stage>
 <p id="2">
 	<s id="1">Il n'a point amené sa fille... </s>
 	<s id="2">Se douterait-il ?... </s>
@@ -411,12 +429,14 @@
 	<s id="5">Chaque fois que ce vieillard fixe sur moi les yeux, il me semble qu'il a tout deviné...</s>
 </p>
 </sp>
-<sp stage="watch/aparte" who="NATHAN"><speaker>NATHAN, l'apercevant, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="watch/aparte">, l'apercevant, à part.
+</stage>
 <p id="3">
 	<s id="1">Voilà le jeune Franc...</s>
 </p>
 </sp>
-<sp stage="toward" who="MAURICE"><speaker>MAURICE, l'abordant.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="toward">, l'abordant.
+</stage>
 <p id="4">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Nathan, le portefeuille que je t'ai commandé est-il fini ? </s>
@@ -429,7 +449,8 @@
 	<s id="2">Voici ce portefeuille.</s>
 </p>
 </sp>
-<sp stage="watch" who="MAURICE"><speaker>MAURICE, l'examinant.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="watch">, l'examinant.
+</stage>
 <p id="6">
 	<s id="1">En vérité, il est charmant et vient fort à propos pour remplacer celui que j'ai perdu dans le dernier combat contre les Kabyles... </s>
 	<s id="2">Quelle légèreté ont ces arabesques ! </s>
@@ -442,7 +463,8 @@
 	<s id="2">Tu es trop louangeur pour la fille d'un obscur marchand, d'un pauvre juif...</s>
 </p>
 </sp>
-<sp stage="strong" who="MAURICE"><speaker>MAURICE, vivement.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="strong">, vivement.
+</stage>
 <p id="8">
 	<s id="1">Dis plutôt de mon bienfaiteur, d'un homme à qui j'ai les plus grandes obligations !</s>
 </p>
@@ -506,7 +528,8 @@
 <stage type="away/exit">Il se retire dans sa boutique et disparaît - Pendant cette scène et la précédente, le fond, du théâtre s'est peu à peu dégarni de monde ; on voit seulement, de temps à autre, passer quelques Arabes ou se former quelque groupe.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Maurice, Kadidja, voilée.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Maurice, Kadidja, voilée.
+</stage>
 <sp who="MAURICE"><speaker>MAURICE.</speaker>
 <p id="1">
 	<s id="1">Homme impitoyable ! </s>
@@ -520,7 +543,8 @@
 </p>
 <stage type="">Il cherche dans le portefeuille.</stage>
 </sp>
-<sp stage="aparte/hide" who="KADIDJA"><speaker>KADIDJA, qui jusque-là s'est tenue aux aguets, s'avançant de quelques pas, et à part.</speaker> 
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte/hide">, qui jusque-là s'est tenue aux aguets, s'avançant de quelques pas, et à part. 
+</stage> 
 <p id="">
 	<s id="1">En vain tu crois tromper tous les yeux, j'ai pénétré ton secret !...</s>
 </p>
@@ -540,7 +564,8 @@
 	<s id="">Je ne m'étais pas trompée.</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, lisant.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage>, lisant.
+</stage>
 <p id="">
 	<s id="1">« Oh ! </s>
 	<s id="">Que le temps est long, quand tu n'es pas là !... </s>
@@ -560,8 +585,10 @@
 <stage type="entrance/exit">Entre Saint-Aubin ; Kadidja s'éloigne à pas lents.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Maurice, Saint-Aubin.</head>
-<sp stage="location" who="SAINT-AUBIN"><speaker>SAINT-AUBIN, du fond.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Maurice, Saint-Aubin.
+</stage>
+<sp who="SAINT-AUBIN"><speaker>SAINT-AUBIN</speaker><stage type="location">, du fond.
+</stage>
 <p id="">
 	<s id="1">Le diable soit de Constantine et de ses rues !... </s>
 	<s id="">Ah ! </s>
@@ -610,7 +637,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Avec grand plaisir !</s>
 </p>
 </sp>
-<sp stage="wave" who="SAINT-AUBIN"><speaker>SAINT-AUBIN, après avoir fait un signe au Kaouadji.</speaker>
+<sp who="SAINT-AUBIN"><speaker>SAINT-AUBIN</speaker><stage type="wave">, après avoir fait un signe au Kaouadji.
+</stage>
 <p id="">
 	<s id="1">Brave Maurice !... </s>
 	<s id="">Ah ! </s>
@@ -628,8 +656,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="sit">Ils s'asseyent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les Mêmes, Bou-Taleb.</head>
-<sp who="BOU-TALEB"><speaker>BOU-TALEB, jetant un regard autour de la place.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les Mêmes, Bou-Taleb.
+</stage>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage>, jetant un regard autour de la place.
+</stage>
 <p id="">
 	<s id="1">On m'avait pourtant assuré que je le trouverais ici... </s>
 	<s id="">Attendons.</s>
@@ -705,8 +735,10 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, Dominique.</head>
-<sp stage="run" who="DOMINIQUE"><speaker>DOMINIQUE, accourant.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, Dominique.
+</stage>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="run">, accourant.
+</stage>
 <p id="">
 	<s id="1">Mon lieutenant...</s>
 </p>
@@ -802,7 +834,8 @@ Ils se serrent la main avec effusion.</s>
 <stage type="exit/entrance">Il entre dans le café. Saint-Aubin et Dominique sortent par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Kadidja, Maurice.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Kadidja, Maurice.
+</stage>
 <sp who="MAURICE"><speaker>MAURICE.</speaker>
 <p id="">
 	<s id="1">Rentrons vite... </s>
@@ -810,7 +843,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="">Il remonte le théâtre.</stage>
 </sp>
-<sp stage="away/stop" who="KADIDJA"><speaker>KADIDJA, l'arrêtant au moment où il va sortir.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="away/stop">, l'arrêtant au moment où il va sortir.
+</stage>
 <p id="">
 	<s id="1">De grâce, un mot... </s>
 	<s id="">écoute-moi, par pitié !...</s>
@@ -826,7 +860,8 @@ Ils se serrent la main avec effusion.</s>
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp stage="alone" who="KADIDJA"><speaker>KADIDJA, seule.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="alone">, seule.
+</stage>
 <p id="">
 	<s id="1">De l'argent ! </s>
 	<s id="">à moi fille noble d'une race libre !... </s>
@@ -852,8 +887,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="exit">Elle sort par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Ben Aissa, puis Bou-Taleb.</head>
-<sp stage="entrance/location" who="BEN AÏSSA"><speaker>BEN AÏSSA, venant de droite.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Ben Aissa, puis Bou-Taleb.
+</stage>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="entrance/location">, venant de droite.
+</stage>
 <p id="">
 	<s id="1">Malgré moi, mon amour me ramène ! </s>
 	<s id="">Ô Léa ! </s>
@@ -867,19 +904,22 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Personne encore !</s>
 </p>
 </sp>
-<sp stage="entrance/run/closer" who="BOU-TALEB"><speaker>BOU-TALEB, sortant du café et courant à lui.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="entrance/run/closer">, sortant du café et courant à lui.
+</stage>
 <p id="">
 	<s id="1">Allah, soit béni ! </s>
 	<s id="">Je te rencontre enfin, Mohammed ! </s>
 	<s id="">C'est toi que je cherchais.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="BEN AÏSSA"><speaker>BEN AÏSSA, d'un air contraint.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="embarrassed">, d'un air contraint.
+</stage>
 <p id="">
 	<s id="1">Que me veux-tu ?</s>
 </p>
 </sp>
-<sp stage="enigmatic" who="BOU-TALEB"><speaker>BOU-TALEB, avec mystère.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="enigmatic">, avec mystère.
+</stage>
 <p id="">
 	<s id="1">Il se prépare des choses pour lesquelles nous aurons besoin de ton aide...</s>
 </p>
@@ -1054,9 +1094,11 @@ Ils se serrent la main avec effusion.</s>
 </sp>
 </div2>
 </div1>
-<div1 type="acte" n="2"><head>ACTE DEUXIÈME. PREMIÈRE PARTIE.</head>
+<div1 type="acte" n="2"><head>ACTE DEUXIÈME.</head><stage> PREMIÈRE PARTIE.
+</stage>
 <stage type="decor">PREMIÈRE PARTIE. L'intérieur de la maison de Nathan. Une cour dans le style moresque. À gauche, la baie d'un escalier ; du même côté, une petite porte ; à droite, la chambre de Léa ; près de la porte d'entrée, qui fait face au spectateur, est suspendu dans un étui de bois, suivant la coutume juive, on rouleau de parchemin contenant des extraits du Talmud.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Léa, Bethsabée.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Léa, Bethsabée.
+</stage>
 <stage type="decor">Au lever du rideau, Léa est assise et se tient immobile, dans l'attitude de la contemplation ; un ouvrage de broderie est tombé à ses pieds.</stage>
 <sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
 <p id="">
@@ -1114,7 +1156,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Quatre heures...</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉA"><speaker>LÉA, à part.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Si tard ! </s>
 	<s id="">Je me suis donc bien longtemps oubliée ?... </s>
@@ -1125,7 +1168,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Bethsabée...</s>
 </p>
 </sp>
-<sp stage="away" who="BETHSABÉE"><speaker>BETHSABÉE, qui se dirigeait vers la gauche.</speaker>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE</speaker><stage type="away">, qui se dirigeait vers la gauche.
+</stage>
 <p id="">
 	<s id="1">Chère enfant ?</s>
 </p>
@@ -1162,7 +1206,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Un cercle de feu étreint ma tête !</s>
 </p>
 </sp>
-<sp stage="hesitate" who="BETHSABÉE"><speaker>BETHSABÉE, après un moment d'hésitation.</speaker>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE</speaker><stage type="hesitate">, après un moment d'hésitation.
+</stage>
 <p id="">
 	<s id="1">Allons ! </s>
 	<s id="">J'y cours... </s>
@@ -1181,8 +1226,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="carry/exit/location">Elle met la cruche sur son épaule et sort par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léa, puis Maurice.</head>
-<sp stage="watch/away/stand" who="LÉA"><speaker>LÉA, la regardant s'éloigner et se levant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léa, puis Maurice.
+</stage>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="watch/away/stand">, la regardant s'éloigner et se levant.
+</stage>
 <p id="">
 	<s id="1">Il va venir !... </s>
 	<s id="">Mon coeur bat.. </s>
@@ -1202,7 +1249,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Le voici !</s>
 </p>
 </sp>
-<sp stage="entrance/location" who="MAURICE"><speaker>MAURICE, entrant par la porte de gauche.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="entrance/location">, entrant par la porte de gauche.
+</stage>
 <p id="">
 	<s id="1">Chère Léa !</s>
 </p>
@@ -1356,7 +1404,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Quoi qu'il arrive, la main de Léa ne se posera jamais dans celle d'un autre que Maurice !</s>
 </p>
 </sp>
-<sp stage="kiss" who="MAURICE"><speaker>MAURICE, après l'avoir embrassée.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="kiss">, après l'avoir embrassée.
+</stage>
 <p id="">
 	<s id="1">Allons ! </s>
 	<s id="">Courage et bon espoir !</s>
@@ -1364,8 +1413,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="exit/location">Il sort par la porte latérale.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Léa, Bethsabée.</head>
-<sp stage="entrance" who="BETHSABÉE"><speaker>BETHSABÉE, entrant dès que Maurice a disparu.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Léa, Bethsabée.
+</stage>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE</speaker><stage type="entrance">, entrant dès que Maurice a disparu.
+</stage>
 <p id="">
 	<s id="1">J'ai marché le plus vite que j'ai pu ; mais le chemin est rapide et le soleil brûlant.</s>
 </p>
@@ -1407,7 +1458,8 @@ Ils se serrent la main avec effusion.</s>
 <stage type="">Elle entre dans sa chambre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Bethsabée, puis Nathan, suivi de Nègres et de Servantes chargés de marchandises.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Bethsabée, puis Nathan, suivi de Nègres et de Servantes chargés de marchandises.
+</stage>
 <sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
 <p id="">
 	<s id="1">Ma pauvre maîtresse ! </s>
@@ -1418,7 +1470,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Voici Nathan qui revient.</s>
 </p>
 </sp>
-<sp stage="toward" who="NATHAN"><speaker>NATHAN, à l'un des Nègres.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="toward">, à l'un des Nègres.
+</stage>
 <p id="">
 	<s id="1">Montez ces paquets là-haut.</s>
 </p>
@@ -1428,7 +1481,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Oui, maître.</s>
 </p>
 </sp>
-<sp stage="toward" who="NATHAN"><speaker>NATHAN, à un autre.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="toward">, à un autre.
+</stage>
 <p id="">
 	<s id="1">Toi, Yacoub, dépose là ce ballot... </s>
 	<s id="">Plus doucement donc, maudit muet !</s>
@@ -1483,12 +1537,14 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Regarde qui est là.</s>
 </p>
 </sp>
-<sp stage="open/location" who="BETHSABÉE"><speaker>BETHSABÉE, entrouvrant la porte du fond.</speaker>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE</speaker><stage type="open/location">, entrouvrant la porte du fond.
+</stage>
 <p id="">
 	<s id="1">Une femme voilée.</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à lui-même.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">Une femme arabe sans doute, car les Juives ne cachent pas leur visage... </s>
 	<s id="">Que peut-elle me vouloir ?... </s>
@@ -1504,7 +1560,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Kadidja, Nathan.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Kadidja, Nathan.
+</stage>
 <sp who="NATHAN"><speaker>NATHAN.</speaker>
 <p id="">
 	<s id="1">Ce voile, qui recouvre-t-il ? </s>
@@ -1675,12 +1732,14 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Voyons, conviens que tu n'as pas de preuves, et je te pardonnerai ce jeu cruel !</s>
 </p>
 </sp>
-<sp stage="give" who="KADIDJA"><speaker>KADIDJA, lui donnant un portefeuille.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="give">, lui donnant un portefeuille.
+</stage>
 <p id="">
 	<s id="1">Tiens, ouvre ce portefeuille...</s>
 </p>
 </sp>
-<sp stage="get" who="NATHAN"><speaker>NATHAN, le prenant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="get">, le prenant.
+</stage>
 <p id="">
 	<s id="1">Que je l'ouvre ?... </s>
 	<s id="">Qui te l'a donné ? </s>
@@ -1696,7 +1755,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">oui, l'amant de ta fille l'a perdu dans un combat contre les gens de ma tribu ; c'est ainsi qu'il est tombé entre mes mains et que j'ai découvert le funeste secret...</s>
 </p>
 </sp>
-<sp stage="hesitate/open" who="NATHAN"><speaker>NATHAN, hésitant à ouvrir le portefeuille.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="hesitate/open">, hésitant à ouvrir le portefeuille.
+</stage>
 <p id="">
 	<s id="1">Ô mon_Dieu... </s>
 	<s id="">Mon_Dieu... </s>
@@ -1722,7 +1782,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Tu vois...</s>
 </p>
 </sp>
-<sp stage="wait" who="NATHAN"><speaker>NATHAN, cherchant à se contenir.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="wait">, cherchant à se contenir.
+</stage>
 <p id="">
 	<s id="1">Oui... </s>
 	<s id="">Je vois qu'elle l'aime... </s>
@@ -1784,7 +1845,8 @@ Ils se serrent la main avec effusion.</s>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="NATHAN"><speaker>NATHAN, seul.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="alone">, seul.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">Je ne m'attendais pas à ce coup terrible ! </s>
@@ -1805,7 +1867,8 @@ Ils se serrent la main avec effusion.</s>
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Nathan, Léa.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Nathan, Léa.
+</stage>
 <sp who="LÉA"><speaker>LÉA.</speaker>
 <p id="">
 	<s id="1">Mon père, vous voilà !</s>
@@ -1829,7 +1892,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Qu'il faut conclure dès demain le mariage dont je t'ai parlé...</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>LÉA, à part.</speaker>
+<sp who="NATHAN"><speaker>LÉA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Ciel !...</s>
 </p>
@@ -1871,7 +1935,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Mais...</s>
 </p>
 </sp>
-<sp stage="shout" who="NATHAN"><speaker>NATHAN, éclatant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="shout">, éclatant.
+</stage>
 <p id="">
 	<s id="1">Assez !... </s>
 	<s id="">Assez de mensonges et de fourberies !... </s>
@@ -1941,7 +2006,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Eh bien ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="LÉA"><speaker>LÉA, hésitant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="">
 	<s id="1">Ce mariage...</s>
 </p>
@@ -2005,12 +2071,14 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Pourquoi donc alors ?</s>
 </p>
 </sp>
-<sp stage="stand" who="LÉA"><speaker>LÉA, se relevant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="stand">, se relevant.
+</stage>
 <p id="">
 	<s id="1">Je suis Chrétienne.</s>
 </p>
 </sp>
-<sp stage="away" who="NATHAN"><speaker>NATHAN, reculant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="away">, reculant.
+</stage>
 <p id="">
 	<s id="1">Chrétienne ! </s>
 	<s id="">L'ai-je bien entendu ?... </s>
@@ -2055,7 +2123,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Je ne puis survivre à tant de honte !...</s>
 </p>
 </sp>
-<sp stage="touch/stop" who="LÉA"><speaker>LÉA, lui arrêtant le bras.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="touch/stop">, lui arrêtant le bras.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">Frappez, moi plutôt... </s>
@@ -2064,7 +2133,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Je suis seule coupable !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à lui-même.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">La frapper... </s>
 	<s id="">Le devoir me l'ordonne... </s>
@@ -2088,15 +2158,18 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="pull/location/light">Il entraîne Léa dans sa chambre ; la nuit est venue.</stage>
 </sp>
-<sp stage="exit" who="LÉA"><speaker>LÉA, en sortant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="exit">, en sortant.
+</stage>
 <p id="">
 	<s id="1">Ô ma mère ! </s>
 	<s id="">Ma mère !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Bethsabée, Serviteurs, accourant avec des flambeaux, Kadidja, paraissant à la porte du fond ; puis Nathan.</head>
-<sp stage="entrance" who="BETHSABÉE"><speaker>BETHSABÉE, entrant.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Bethsabée, Serviteurs, accourant avec des flambeaux, Kadidja, paraissant à la porte du fond ; puis Nathan.
+</stage>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Qu'est-il arrivé ? </s>
@@ -2115,7 +2188,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Par ici, par ici, courons !... </s>
 </p>
 </sp>
-<sp stage="entrance/location" who="NATHAN"><speaker>NATHAN, qui paraît sur le seuil.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="entrance/location">, qui paraît sur le seuil.
+</stage>
 <p id="">
 	<s id="">Maître, nous avons entendu des cris... </s>
 	<s id="">Et je n'ose vous interroger... </s>
@@ -2127,7 +2201,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Je n'ai plus de fille !</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, à part.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Que dit-il ?</s>
 </p>
@@ -2144,7 +2219,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Elle est morte !</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, de même.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, de même.
+</stage>
 <p id="">
 	<s id="1">Oh ! </s>
 	<s id="">Je suis trop vengée !...</s>
@@ -2154,8 +2230,10 @@ Ils se serrent la main avec effusion.</s>
 </div1>
 <div1 type="partie" n="3"><head>DEUXIÈME PARTIE</head>
 <stage type="decor">La chambre de Léa. Porte d'entrée à droite, à gauche, une autre porte et une fenêtre grillée. La jeune fille est étendue au fond, sur un lit de parade, le visage caché par le voile mortuaire. À la tête du lit, une lampe allumée.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Nathan, Deux rabbins.</head>
-<sp stage="toward/sit/location" who="PREMIER RABBIN"><speaker>PREMIER RABBIN, à Nathan, qui est assis à gauche.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Nathan, Deux rabbins.
+</stage>
+<sp who="PREMIER RABBIN"><speaker>PREMIER RABBIN</speaker><stage type="toward/sit/location">, à Nathan, qui est assis à gauche.
+</stage>
 <p id="">
 	<s id="1">Bien... </s>
 	<s id="">Bien, Nathan !... </s>
@@ -2210,7 +2288,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Ce vase contient la myrrhe et le cinnamome dont on parfume la couche des morts, et voici le sac rempli de terre de Chanaan que l'on met sous leur tête...</s>
 </p>
 </sp>
-<sp stage="drop" who="DEUXIÈME RABBIN"><speaker>DEUXIÈME RABBIN, déposant le sac sur les marches du lit.</speaker>
+<sp who="DEUXIÈME RABBIN"><speaker>DEUXIÈME RABBIN</speaker><stage type="drop">, déposant le sac sur les marches du lit.
+</stage>
 <p id="">
 	<s id="1">Puisse, sur ce chevet, Léa reposer en paix pendant l'éternité.</s>
 </p>
@@ -2228,8 +2307,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="exit/watch">Les Rabbins sortent ; Nathan les regarde s'éloigner, puis se lève, et, après avoir fermé la porte avec précaution, s'approche du lit de parade.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léa, Nathan.</head>
-<sp stage="show" who="NATHAN"><speaker>NATHAN, découvrant la figure de sa fille.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léa, Nathan.
+</stage>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="show">, découvrant la figure de sa fille.
+</stage>
 <p id="">
 	<s id="1">Léa, relève-toi... </s>
 	<s id="">Ils sont partis, et nul ne peut nous entendre...</s>
@@ -2284,7 +2365,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Si vous connaissiez Maurice, si vous saviez quel noble esprit, quel coeur généreux...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="NATHAN"><speaker>NATHAN, l'interrompant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="">
 	<s id="1">Assez ! </s>
 	<s id="">Il ne peut y avoir rien de commun entre moi et cet homme... </s>
@@ -2303,7 +2385,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">N'est-ce pas lui qui t'a perdue et qui nous impose à tous deux le triste sacrifice que nous accomplissons ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉA"><speaker>LÉA, comme se parlant à elle-même.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="aparte">, comme se parlant à elle-même.
+</stage>
 <p id="">
 	<s id="1">Hélas ! </s>
 	<s id="">Il va partir ignorant à quoi je me résigne.</s>
@@ -2344,7 +2427,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Donnez...</s>
 </p>
 </sp>
-<sp stage="give" who="NATHAN"><speaker>NATHAN, lui remettant le flacon.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="give">, lui remettant le flacon.
+</stage>
 <p id="">
 	<s id="1">Tiens...</s>
 </p>
@@ -2354,7 +2438,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Hâte-toi d'en finir.</s>
 </p>
 </sp>
-<sp stage="drink" who="LÉA"><speaker>LÉA, buvant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="drink">, buvant.
+</stage>
 <p id="">
 	<s id="1">Ô Maurice ! </s>
 	<s id="">Maurice ! </s>
@@ -2362,7 +2447,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="fall">Elle tombe lentement sur l'oreiller.</stage>
 </sp>
-<sp stage="closer" who="NATHAN"><speaker>NATHAN, se rapprochant d'elle.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="closer">, se rapprochant d'elle.
+</stage>
 <p id="">
 	<s id="1">Voici déjà le sommeil qui la saisit... </s>
 	<s id="">Léa ! </s>
@@ -2377,7 +2463,8 @@ Ils se serrent la main avec effusion.</s>
 <stage type="knock/open">On frappe de nouveau ; il va ouvrir la porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, Bethsabée, Amis et Serviteurs de Nathan.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, Bethsabée, Amis et Serviteurs de Nathan.
+</stage>
 <stage type="furniture/kneel/cry">Nathan revient se placer à la tête du lit de parade, auprès duquel Bethsabée s'agenouille en pleurant ; les Nègres disposent des cassolettes sur des trépieds et y font brûler des parfums, tandis que des jeunes filles jettent des fleurs effeuillées sur le corps de Léa ; tous les hommes tiennent à la main une branche de sycomore.</stage>
 <sp who="CHOEUR"><speaker>CHOEUR.</speaker>
 	<l id="">Ô sort cruel, à mort, grande ennemie !</l>
@@ -2401,8 +2488,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="narration">Pendant cette reprise, deux Jeunes Filles ferment les rideaux du lit, et tout le monde, hors Nathan, entre dans la chambre à gauche ; Maurice, pâle, agité, parait à la porte de droite, et s'arrête un instant sur le seuil ; il est en tenue de route.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Nathan, Maurice.</head>
-<sp stage="aparte" who="MAURICE"><speaker>MAURICE, à lui-même.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Nathan, Maurice.
+</stage>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="1">
 	<s id="">Ô mon_Dieu ! </s>
 	<s id="">Cette maison ouverte... </s>
@@ -2410,13 +2499,15 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Que se passe-t-il donc ici ?...</s>
 </p>
 </sp>
-<sp stage="frighten" who="NATHAN"><speaker>NATHAN, tressaillant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="frighten">, tressaillant.
+</stage>
 <p id="">
 	<s id="1">Le Français ! </s>
 	<s id="">Tout est perdu !</s>
 </p>
 </sp>
-<sp stage="watch/closer" who="MAURICE"><speaker>MAURICE, apercevant Nathan et s'avançant vers lui.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="watch/closer">, apercevant Nathan et s'avançant vers lui.
+</stage>
 <p id="">
 	<s id="1">Nathan, que signifie cet appareil funéraire ?... </s>
 	<s id="">Où est ta fille ? </s>
@@ -2424,7 +2515,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Réponds !</s>
 </p>
 </sp>
-<sp stage="low" who="Nathan"><speaker>NATHAN, à demi-voix.</speaker>
+<sp who="Nathan"><speaker>NATHAN</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="">
 	<s id="1">Ma fille ! </s>
 	<s id="">C'est elle que tu demandes ?... </s>
@@ -2453,7 +2545,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">La voici !...</s>
 </p>
 </sp>
-<sp stage="frighten" who="MAURICE"><speaker>MAURICE, avec épouvante.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="frighten">, avec épouvante.
+</stage>
 <p id="">
 	<s id="1">Morte !... </s>
 	<s id="">Est-il possible ?... </s>
@@ -2468,7 +2561,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="hide/cry">Il se cache la figure de ses mains, et sanglote.</stage>
 </sp>
-<sp stage="aparte/closer" who="NATHAN"><speaker>NATHAN, à part, penché vers Léa.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte/closer">, à part, penché vers Léa.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Plus je la regarde, plus son aspect m'épouvante !... </s>
@@ -2497,7 +2591,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Fais pour moi ce miracle !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Toujours immobile !</s>
 </p>
@@ -2510,7 +2605,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">La tombe avare garde son trésor, et mes termes ne réchaufferont pas cette main pour jamais glacée !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Elle est morte ! </s>
 	<s id="">Elle est morte ! </s>
@@ -2529,7 +2625,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Qu'avant de la quitter, je pose au moins sur son front pâle le baiser de l'adieu suprême !</s>
 </p>
 </sp>
-<sp stage="hide" who="NATHAN"><speaker>NATHAN, recouvrant vivement le visage de sa fille.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="hide">, recouvrant vivement le visage de sa fille.
+</stage>
 <p id="">
 	<s id="1">Ce que tu demandes, notre religion ne le permet pas... </s>
 	<s id="">La loi française s'arrête sur le seuil de nos demeures... </s>
@@ -2573,7 +2670,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Oui, c'est toi qui l'as tuée !</s>
 </p>
 </sp>
-<sp stage="threat/wave" who="NATHAN"><speaker>NATHAN, tirant son poignard et levant le bras sur lui.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="threat/wave">, tirant son poignard et levant le bras sur lui.
+</stage>
 <p id="">
 	<s id="1">Misérable ! </s>
 	<s id="">Tu ne le répéteras pas...</s>
@@ -2592,7 +2690,8 @@ Ils se serrent la main avec effusion.</s>
 </div1>
 <div1 type="acte" n="4"><head>ACTE TROISIÈME</head>
 <stage type="decor">Un camp de Kabyles au milieu des montagnes ; site ombragé et pittoresque.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dominique, Kabyles, en sentinelle au fond.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dominique, Kabyles, en sentinelle au fond.
+</stage>
 <sp who="DOMINIQUE"><speaker>DOMINIQUE.</speaker>
 <p id="">
 	<s id="1">Il est assis sur un débris de colonne, et concasse du maïs dans un mortier_de_pierre. </s>
@@ -2619,13 +2718,16 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, Bou-Taleb, Ben Aïssa, Kabyles armés.</head>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, aux hommes qui le suivent, leur montrant Dominique.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, Bou-Taleb, Ben Aïssa, Kabyles armés.
+</stage>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, aux hommes qui le suivent, leur montrant Dominique.
+</stage>
 <p id="">
 	<s id="1">Faites retirer cet homme !</s>
 </p>
 </sp>
-<sp stage="aparte" who="DOMINIQUE"><speaker>DOMINIQUE, à part.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Homme toi-même, malappris ! </s>
 	<s id="">Tu pourrais bien dire : ce chasseur.</s>
@@ -2649,7 +2751,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Marche vite.</s>
 </p>
 </sp>
-<sp stage="aparte" who="DOMINIQUE"><speaker>DOMINIQUE, à part.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Ils sont plus malhonnêtes que des gendarmes, ces sauvages-là !</s>
 </p>
@@ -2662,7 +2765,8 @@ Ils se serrent la main avec effusion.</s>
 <stage type="search/location">Quelques-uns des Kabyles vont les chercher ; les autres restent au fond du théâtre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Bou-Taleb, Ben Aïssa, Kabyles.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Bou-Taleb, Ben Aïssa, Kabyles.
+</stage>
 <sp who="BEN AÏSSA"><speaker>BEN AÏSSA.</speaker>
 <p id="">
 	<s id="1">Pourquoi vouloir épargner ces Français ?... </s>
@@ -2759,22 +2863,26 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Saint-Aubin, Maurice, puis Dominique.</head>
-<sp stage="entrance" who="SAINT-AUBIN"><speaker>SAINT-AUBIN, en entrant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Saint-Aubin, Maurice, puis Dominique.
+</stage>
+<sp who="SAINT-AUBIN"><speaker>SAINT-AUBIN</speaker><stage type="entrance">, en entrant.
+</stage>
 <p id="">
 	<s id="1">Des hommes armés qui nous attendent... </s>
 	<s id="">La menace dans tous les yeux... </s>
 	<s id="">Allons, du courage !</s>
 </p>
 </sp>
-<sp stage="toward" who="MAURICE"><speaker>MAURICE, à Bou-Taleb.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="toward">, à Bou-Taleb.
+</stage>
 <p id="">
 	<s id="1">Pourquoi nous as-tu fait amener ? </s>
 	<s id="">Est-ce pour nous apprendre que nous allons mourir ? </s>
 	<s id="">Nous sommes prêts.</s>
 </p>
 </sp>
-<sp stage="entrance" who="DOMINIQUE"><speaker>DOMINIQUE, survenant.</speaker>
+<sp who="DOMINIQUE"><speaker>DOMINIQUE</speaker><stage type="entrance">, survenant.
+</stage>
 <p id="">
 	<s id="1">Et je demande à être de la partie !</s>
 </p>
@@ -2814,14 +2922,16 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Tu vas écrire au gouverneur de Constantine que nous consentons à vous renvoyer tous les trois sains et saufs, s'il veut nous accorder l'âman sans représailles, sans contribution de guerre, et oublier ce qui s'est passé...</s>
 </p>
 </sp>
-<sp stage="quick" who="MAURICE"><speaker>MAURICE, vivement.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="">
 	<s id="1">Jamais... </s>
 	<s id="">Jamais... </s>
 	<s id="">Plutôt me couper la main que de signer une pareille lettre...</s>
 </p>
 </sp>
-<sp stage="location" who="BEN AÏSSA"><speaker>BEN AÏSSA, qui se tient à l'écart.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="location">, qui se tient à l'écart.
+</stage>
 <p id="">
 	<s id="1">Il refuse !</s>
 </p>
@@ -2867,7 +2977,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Avant de prononcer ton arrêt, je te laisse un quart d'heure pour réfléchir...</s>
 </p>
 </sp>
-<sp stage="toward" who="BEN AÏSSA"><speaker>BEN AÏSSA, à part.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="toward">, à part.
+</stage>
 <p id="">
 	<s id="1">Encore des délais !...</s>
 </p>
@@ -2881,7 +2992,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Qu'on les reconduise au silo !</s>
 </p>
 </sp>
-<sp stage="toward" who="SAINT-AUBIN"><speaker>SAINT-AUBIN, à Maurice.</speaker>
+<sp who="SAINT-AUBIN"><speaker>SAINT-AUBIN</speaker><stage type="toward">, à Maurice.
+</stage>
 <p id="">
 	<s id="1">Ne fléchissez pas mon ami... </s>
 	<s id="">Mourons plutôt que de commettre une lâcheté !</s>
@@ -2899,19 +3011,22 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="">Saint-Aubin et Dominique sortent reconduits par des Kabyles.</stage>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, aux sentinelles.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, aux sentinelles.
+</stage>
 <p id="">
 	<s id="1">Vous autres, veillez sur celui ci.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BEN AÏSSA"><speaker>BEN AÏSSA, à part.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Fasse le ciel que, pendant ce quart d'heure, il oublie encore la Juive !</s>
 </p>
 <stage type="exit/together">Il sort avec Bou-Taleb et les Kabyles.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Maurice, puis Kadidja.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Maurice, puis Kadidja.
+</stage>
 <sp who="MAURICE"><speaker>MAURICE.</speaker>
 <p id="">
 	<s id="1">Pauvres amis... </s>
@@ -2947,7 +3062,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Oui ; mais prends garde, on nous observe..</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>MAURICE, à part.</speaker>
+<sp who="KADIDJA"><speaker>MAURICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Que signifie ?...</s>
 </p>
@@ -2995,7 +3111,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Ce délai, me promets-tu de le demander ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="MAURICE"><speaker>MAURICE, après un instant d'hésitation.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="hesitate">, après un instant d'hésitation.
+</stage>
 <p id="">
 	<s id="1">Réponds d'abord... </s>
 	<s id="">Peux-tu faire évader mes compagnons avec moi ?</s>
@@ -3048,7 +3165,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Je t'en supplie, par tout ce qu'il y a de plus sacré, par l'âme de ta mère, consens à être libre, accepte le salut que je t'offre !...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MAURICE"><speaker>MAURICE, à part.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Quelle étrange insistance !</s>
 </p>
@@ -3062,7 +3180,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Je ne veux pas que tu meures, parce que je te connais depuis longtemps, parce que je te sais noble et brave, parce que je t'aime, enfin !</s>
 </p>
 </sp>
-<sp stage="entrance" who="BEN AÏSSA"><speaker>BEN AÏSSA, qui est entré sur les derniers mots.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="entrance">, qui est entré sur les derniers mots.
+</stage>
 <p id="">
 	<s id="1">Elle l'aime !</s>
 </p>
@@ -3072,7 +3191,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Pauvre fille !</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="KADIDJA"><speaker>KADIDJA, à part, regardant Maurice.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte/watch">, à part, regardant Maurice.
+</stage>
 <p id="">
 	<s id="1">Sera-t-il vaincu par cet aveu ?...</s>
 </p>
@@ -3083,7 +3203,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Ben Aïssa.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Ben Aïssa.
+</stage>
 <sp who="BEN AÏSSA"><speaker>BEN AÏSSA.</speaker>
 <p id="">
 	<s id="1">Qu'as-tu a parler à cet homme ? </s>
@@ -3097,7 +3218,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Je lui disais...</s>
 </p>
 </sp>
-<sp stage="interrupt/abrupt" who="BEN AÏSSA"><speaker>BEN AÏSSA, l'interrompant brusquement.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="interrupt/abrupt">, l'interrompant brusquement.
+</stage>
 <p id="">
 	<s id="1">Tu lui disais ?...</s>
 </p>
@@ -3111,19 +3233,22 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Ta place n'est pas ici...</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, à part.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage>, à part.
+</stage>
 <p id="">
 	<s id="1">Noble coeur ! </s>
 	<s id="">Je ne puis même te remercier d'un regard !</s>
 </p>
 </sp>
-<sp stage="aparte/exit" who="KADIDJA"><speaker>KADIDJA, de même, en sortant.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte/exit">, de même, en sortant.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Consentira-t-il maintenant ?</s>
 </p>
 </sp>
-<sp stage="watch/away" who="BEN AÏSSA"><speaker>BEN AÏSSA, la regardant s'éloigner.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="watch/away">, la regardant s'éloigner.
+</stage>
 <p id="">
 	<s id="1">Elle aussi lui conseillait sans doute d'éviter le supplice !... </s>
 	<s id="">- Bou-Taleb ! </s>
@@ -3131,8 +3256,10 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ben Aïssa, Bou-Taleb, Maurice, kabyles.</head>
-<sp stage="aparte/watch" who="BOU-TALEB"><speaker>BOU-TALEB, à part, voyant Ben Aïssa.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ben Aïssa, Bou-Taleb, Maurice, kabyles.
+</stage>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="aparte/watch">, à part, voyant Ben Aïssa.
+</stage>
 <p id="">
 	<s id="1">Il était là, guettant sa proie.</s>
 </p>
@@ -3147,7 +3274,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Que je n'attendrais pas plus longtemps ; car mes compagnons pourraient croire que j'hésite devant la mort !</s>
 </p>
 </sp>
-<sp stage="aparte" who="BEN AÏSSA"><speaker>BEN AÏSSA, à part.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Il est à moi !</s>
 </p>
@@ -3167,7 +3295,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="exit/together">Il sort reconduit par des Kabyles. Ben Aïssa s'éloigne, après l'avoir un moment suivi des yeux.</stage>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, à lui-même.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">Quel éclat surnaturel dans son regard ! </s>
 	<s id="">Quelle conviction dans sa parole ! </s>
@@ -3182,7 +3311,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Bou-Taleb, Kabyles, Danseuses, etc.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Bou-Taleb, Kabyles, Danseuses, etc.
+</stage>
 <stage type="narration">Les principaux Kabyles viennent faire des salamalecs devant Bou-Taleb, qui s'est assis sous un arbre, puis prennent place à ses côtés ; les autres vont s'accroupir en cercle et par groupes de chaque côté du théâtre ; - pendant le divertissement, qui a lieu ensuite, des Nègres servent aux assistants du café, des rafraîchissements et des pipes ; - les danses terminées, Bou-Taleb se lève.</stage>
 <sp who="BOU-TALEB"><speaker>BOU-TALEB.</speaker>
 <p id="">
@@ -3209,8 +3339,10 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Kadidja, Bou-Taleb.</head>
-<sp type="exit/watch/location" who="BOU-TALEB"><speaker>BOU-TALEB, au moment de sortir, apercevant Kadidja,  qui se glisse entre les arbres.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Kadidja, Bou-Taleb.
+</stage>
+<sp type="exit/watch/location" who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage>, au moment de sortir, apercevant Kadidja,  qui se glisse entre les arbres.
+</stage>
 <p id="">
 	<s id="1">Qui donc s'avance là, dans l'ombre ?...</s>
 </p>
@@ -3220,7 +3352,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Que cherches-tu ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, à part.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Ciel ! </s>
 	<s id="">Bou-Taleb !...</s>
@@ -3238,7 +3371,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Et pourtant jamais flamme plus ardente n'a dévoré le coeur d'un homme !</s>
 </p>
 </sp>
-<sp stage="anxious" who="KADIDJA"><speaker>KADIDJA, préoccupée.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="anxious">, préoccupée.
+</stage>
 <p id="">
 	<s id="1">Mon frère, à qui je dois obéissance, m'a défendu de te parler et de t'écouter... </s>
 	<s id="">Je crains qu'il ne nous surprenne ensemble.</s>
@@ -3264,7 +3398,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Tu es libre, et, si tu veux, cette nuit même nous serons unis...</s>
 </p>
 </sp>
-<sp stage="quick" who="KADIDJA"><speaker>KADIDJA, vivement.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="quick">, vivement.
+</stage>
 <p id="">
 	<s id="1">Non, non c'est impossible !</s>
 </p>
@@ -3294,7 +3429,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Mais tu seras la femme d'un homme libre, d'un vrai fils de l'Islam, qui n'a pas voulu se soumettre au joug de l'étranger, et qui préfère aux douceurs d'une paix achetée par la honte cette existence de fatigues et de périls dont son amour saura t'alléger le poids !</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, se parlant à elle-même.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, se parlant à elle-même.
+</stage>
 <p id="">
 	<s id="1">Ô mon_Dieu ! </s>
 	<s id="">Si je pouvais...</s>
@@ -3305,7 +3441,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Viendras-tu ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="KADIDJA"><speaker>KADIDJA, après un instant d'hésitation.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="hesitate">, après un instant d'hésitation.
+</stage>
 <p id="">
 	<s id="1">Eh bien... </s>
 	<s id="">Oui, j'irai.</s>
@@ -3319,7 +3456,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">La présence des Français ne t'a pas changée, toi !...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="KADIDJA"><speaker>KADIDJA, l'interrompant.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="">
 	<s id="1">Mais... </s>
 	<s id="">Comment pourrais-je sortir du camp ?... </s>
@@ -3357,7 +3495,8 @@ Ils se serrent la main avec effusion.</s>
 <stage type="away/location">Elle s'éloigne par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Bou-Taleb, Ben Aissa, Kabyles.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Bou-Taleb, Ben Aissa, Kabyles.
+</stage>
 <sp who="BEN AÏSSA"><speaker>BEN AÏSSA.</speaker>
 <p id="">
 	<s id="1">Arrêtez-vous ici... </s>
@@ -3407,7 +3546,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">Ta pitié ?...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="BEN AÏSSA"><speaker>BEN AÏSSA, le prenant à l'écart.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="low/toward">, le prenant à l'écart.
+</stage>
 <p id="">
 	<s id="1">Mais tu ne sais donc pas que ma vengeance sert la tienne ? </s>
 	<s id="">Tu ne sais donc pas que celui dont je veux la mort est aimé de ma soeur !</s>
@@ -3423,7 +3563,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="1">J'en suis sûr !</s>
 </p>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, à lui-même.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">Elle me trompait donc quand là, tout à l'heure... </s>
 	<s id="">En effet, sa préoccupation, son trouble... </s>
@@ -3455,7 +3596,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">J'aurai sa vie !</s>
 </p>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, à lui-même.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">Fou que j'étais, de croire à l'amour d'une femme... </s>
 	<s id="">De chercher ailleurs que dans le triomphe de l'Islam des émotions et des joies ! </s>
@@ -3463,7 +3605,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">C'est un châtiment mérité !</s>
 </p>
 </sp>
-<sp stage="location" who="LES KABYLES"><speaker>LES KABYLES, en dehors.</speaker>
+<sp who="LES KABYLES"><speaker>LES KABYLES</speaker><stage type="location">, en dehors.
+</stage>
 <p id="">
 	<s id="1">Malheur ! </s>
 	<s id="">Malheur !</s>
@@ -3506,18 +3649,21 @@ Ils se serrent la main avec effusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les Mêmes, Kadidja.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les Mêmes, Kadidja.
+</stage>
 <sp who="KADIDJA"><speaker>KADIDJA.</speaker>
 <p id="">
 	<s id="1">Moi !</s>
 </p>
 </sp>
-<sp stage="hurry/closer" who="BEN AÏSSA"><speaker>BEN AÏSSA, s'élançant vers elle.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="hurry/closer">, s'élançant vers elle.
+</stage>
 <p id="">
 	<s id="1">Toi, malheureuse !...</s>
 </p>
 </sp>
-<sp stage="pull" who="BOU-TALEB"><speaker>BOU-TALEB, le retenant.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="">
 	<s id="1">Arrête !... </s>
 	<s id="">C'est une femme... </s>
@@ -3535,7 +3681,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Que me font à moi les malheurs dont tu parles ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="BOU-TALEB"><speaker>BOU-TALEB, à part.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Que lui font les malheurs de ses frères ?...</s>
 </p>
@@ -3560,7 +3707,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Tu ne la connais pas ?</s>
 </p>
 </sp>
-<sp stage="low" who="KADIDJA"><speaker>KADIDJA, à demi-voix.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="">
 	<s id="1">C'était Léa, la fille du Juif Nathan...</s>
 </p>
@@ -3604,7 +3752,8 @@ Ils se serrent la main avec effusion.</s>
 </p>
 <stage type="exit">Ils sortent.</stage>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, aux Kabyles.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, aux Kabyles.
+</stage>
 <p id="">
 	<s id="1">Et nous, à la poursuite des fugitifs !...</s>
 </p>
@@ -3615,7 +3764,8 @@ Ils se serrent la main avec effusion.</s>
 <div1 type="acte" n="5"><head>ACTE QUATRIÈME</head>
 <stage type="">Le cimetière des Juifs, sur la colline de Sidi-Meeid : à gauche, le tombeau de Léa. - Clair de lune.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="BEN AÏSSA"><speaker>BEN AÏSSA, seul.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="alone">, seul.
+</stage>
 <p id="">
 	<s id="1">Dieu de Mohammed ! </s>
 	<s id="">Qu'ai-je découvert ! </s>
@@ -3642,8 +3792,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léa, Nathan.</head>
-<sp stage="entrance/watch" who="NATHAN"><speaker>NATHAN, paraient d'abord et regardant autour de lui.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léa, Nathan.
+</stage>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="entrance/watch">, paraient d'abord et regardant autour de lui.
+</stage>
 <p id="">
 	<s id="1">Personne !...</s>
 </p>
@@ -3718,7 +3870,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Dites, Ô mon père, dites loue nous vous reverrons !</s>
 </p>
 </sp>
-<sp stage="pain" who="NATHAN"><speaker>NATHAN, avec un effort.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="pain">, avec un effort.
+</stage>
 <p id="">
 	<s id="1">Jamais !</s>
 </p>
@@ -3732,7 +3885,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Si elle eût vécu, vous ne lui eussiez pas refusé mon pardon.</s>
 </p>
 </sp>
-<sp stage="quiet" who="NATHAN"><speaker>NATHAN, s'efforçant de paraître calme.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="quiet">, s'efforçant de paraître calme.
+</stage>
 <p id="">
 	<s id="1">N'essayez pas de me fléchir, ce serait inutile...</s>
 </p>
@@ -3746,7 +3900,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">La maison solitaire est si triste !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Qu'elle ne voie pas mon trouble !</s>
@@ -3763,7 +3918,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Il me faut cette idée pour que je puisse encore être heureuse !</s>
 </p>
 </sp>
-<sp stage="away/quick" who="NATHAN"><speaker>NATHAN, se dégageant vivement.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="away/quick">, se dégageant vivement.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">C'est trop ! </s>
@@ -3782,7 +3938,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Je vais faire avancer les chevaux.</s>
 </p>
 </sp>
-<sp stage="pain" who="LÉA"><speaker>LÉA, d'une voix suppliante.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="pain">, d'une voix suppliante.
+</stage>
 <p id="">
 	<s id="1">Mon père !... </s>
 	<s id="">Nathan lui fait signe de rester, et s'éloigne.</s>
@@ -3790,7 +3947,8 @@ Ils se serrent la main avec effusion.</s>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LÉA"><speaker>LÉA, seule.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="alone">, seule.
+</stage>
 <p id="">
 	<s id="1">Pas un mot de pardon, pas une parole de tendresse... </s>
 	<s id="">Et il me laisse seule ! </s>
@@ -3825,8 +3983,10 @@ Ils se serrent la main avec effusion.</s>
 <stage type="work/away/back">Elle cueille des fleurs entre les tombeaux, et disparaît de temps à autre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Maurice, Léa.</head>
-<sp stage="entrance/hurry/location/thereat" who="MAURICE"><speaker>MAURICE, entrant précipitamment par le fond, un yataghan à la main.</speaker> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Maurice, Léa.
+</stage>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="entrance/hurry/location/thereat">, entrant précipitamment par le fond, un yataghan à la main. 
+</stage> 
 <p id="">
 	<s id="1">Ils ont perdu mes traces et sans doute ils vont cesser leurs poursuites...</s>
 </p>
@@ -3856,7 +4016,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Laisse-moi te contempler quelques instants encore !</s>
 </p>
 </sp>
-<sp stage="listen" who="LÉA"><speaker>LÉA, qui écoute depuis un instant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="listen">, qui écoute depuis un instant.
+</stage>
 <p id="">
 	<s id="1">Ô mon_Dieu ! </s>
 	<s id="">Cette voix...</s>
@@ -3869,7 +4030,8 @@ Ils se serrent la main avec effusion.</s>
 	<s id="">Réponds-moi, ombre de celle que j'ai tant aimée !</s>
 </p>
 </sp>
-<sp stage="recognise/hugh" who="LÉA"><speaker>LÉA, le reconnaissant et se jetant dans ses bras.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="recognise/hugh">, le reconnaissant et se jetant dans ses bras.
+</stage>
 <p id="">
 	<s id="1">Maurice !</s>
 </p>
@@ -3985,7 +4147,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 </p>
 <stage type="hide">On voit Ben Aïssa se glisser entre les arbres.</stage>
 </sp>
-<sp stage="show" who="LÉA"><speaker>LÉA, lui montrant un buisson.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="show">, lui montrant un buisson.
+</stage>
 <p id="">
 	<s id="1">Là, j'ai vu briller deux flammes, deux yeux d'hyène ou de démon !...</s>
 </p>
@@ -4001,7 +4164,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="">Il y a là quelqu'un qui nous épie !...</s>
 </p>
 </sp>
-<sp stage="toward" who="MAURICE"><speaker>MAURICE, à lui-même.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="">
 	<s id="1">Un des Kabyles qui me poursuivaient peut-être...</s>
 </p>
@@ -4022,13 +4186,15 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Léa, Ben Aïssa.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Léa, Ben Aïssa.
+</stage>
 <sp who="LÉA"><speaker>LÉA.</speaker>
 <p id="">
 	<s id="1">Ce regard de feu m'a traversé l'âme !</s>
 </p>
 </sp>
-<sp stage="closer" who="BEN AÏSSA"><speaker>BEN AÏSSA, s'avançant dès que Maurice a disparu.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="closer">, s'avançant dès que Maurice a disparu.
+</stage>
 <p id="">
 	<s id="1">Plus d'obstacle !</s>
 </p>
@@ -4039,7 +4205,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="1">Ah !...</s>
 </p>
 </sp>
-<sp stage="low/hide" who="BEN AÏSSA"><speaker>BEN AÏSSA, qui étouffe sa voix en l'enveloppant de son burnous.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="low/hide">, qui étouffe sa voix en l'enveloppant de son burnous.
+</stage>
 <p id="">
 	<s id="1">Tais-toi ! </s>
 	<s id="">Tais-toi ! </s>
@@ -4059,15 +4226,18 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="">Je t'aime !</s>
 </p>
 </sp>
-<sp stage="push" who="LÉA"><speaker>LÉA, se débattant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="push">, se débattant.
+</stage>
 <p id="">
 	<s id="1">Laisse-moi ! </s>
 	<s id="">Laisse-moi !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Nathan.</head>
-<sp stage="hurry/closer/hit" who="NATHAN"><speaker>NATHAN, s'élançant sur Ben Aïssa et le frappant d'un coup de poignard.</speaker> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les Mêmes, Nathan.
+</stage>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="hurry/closer/hit">, s'élançant sur Ben Aïssa et le frappant d'un coup de poignard. 
+</stage> 
 <p id="">
 	<s id="1">Lâche et infâme !</s>
 </p>
@@ -4093,8 +4263,10 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 <stage type="exit/fight">Ils disparaissent en luttant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Léa, Maurice, puis Nathan.</head>
-<sp who="MAURICE"><speaker>MAURICE, rentrant.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Léa, Maurice, puis Nathan.
+</stage>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage>, rentrant.
+</stage>
 <p id="">
 	<s id="1">J'ai entendu des cris...</s>
 </p>
@@ -4105,7 +4277,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 </p>
 <stage type="help">Il cherche à la ranimer.</stage>
 </sp>
-<sp stage="entrance/throw" who="NATHAN"><speaker>NATHAN, reparaissant et jetant son poignard à terre.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="entrance/throw">, reparaissant et jetant son poignard à terre.
+</stage>
 <p id="">
 	<s id="1">Il ne trahira pas mon secret !</s>
 </p>
@@ -4127,7 +4300,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="">Pardonne-moi de t'avoir accusé un instant : Léa m'a tout appris, et je viens, la joie dans l'âme, l'espoir au coeur, te dire...</s>
 </p>
 </sp>
-<sp stage="threat" who="NATHAN"><speaker>NATHAN, l'interrompant.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="threat">, l'interrompant.
+</stage>
 <p id="">
 	<s id="1">Assez !... </s>
 	<s id="">Je viens te placer encore une fois entre elle et moi... </s>
@@ -4163,7 +4337,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="1">Tout ce que Je puis faire, c'est de ne pas la maudire et de l'oublier...</s>
 </p>
 </sp>
-<sp stage="awake" who="LÉA"><speaker>LÉA, qui a peu à peu repris ses sens.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="awake">, qui a peu à peu repris ses sens.
+</stage>
 <p id="">
 	<s id="1">Mon père !...</s>
 </p>
@@ -4176,7 +4351,8 @@ Léa, avec effroi et se cachant la figure de ses mains. </s>
 	<s id="">Il est impossible qu'un père soit sourd à la voix de son enfant, qu'il reste insensible à ses larmes !...</s>
 </p>
 </sp>
-<sp stage="kneel" who="LÉA"><speaker>LÉA, tombant à genoux.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="kneel">, tombant à genoux.
+</stage>
 <p id="">
 	<s id="1">Oh ! </s>
 	<s id="">Grâce ! </s>
@@ -4220,7 +4396,8 @@ Nathan, à part. </s>
 	<s id="">Quitte ce pays, viens en France avec nous ; chacun t'y accueillera comme un frère et Léa sera si heureuse que tu finiras par m'aimer !</s>
 </p>
 </sp>
-<sp stage="wave" who="NATHAN"><speaker>NATHAN, d'une voix brisée.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="wave">, d'une voix brisée.
+</stage>
 <p id="">
 	<s id="1">Jamais ! </s>
 	<s id="">Jamais ! </s>
@@ -4232,7 +4409,8 @@ Nathan, à part. </s>
 </p>
 <stage type="">Il va pour sortir.</stage>
 </sp>
-<sp stage="pull" who="LÉA"><speaker>LÉA, le retenant.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">Ce que vous allez faire est un crime qui appellerait le malheur sur vous et sur moi... </s>
@@ -4250,14 +4428,16 @@ Nathan, à part. </s>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="desparate" who="LÉA"><speaker>LÉA, avec désespoir.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="desparate">, avec désespoir.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Mon_Dieu !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Maurice, Léa, puis Ben Aïssa.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Maurice, Léa, puis Ben Aïssa.
+</stage>
 <sp who="MAURICE"><speaker>MAURICE.</speaker>
 <p id="">
 	<s id="1">Allons ! </s>
@@ -4287,7 +4467,8 @@ Nathan, à part. </s>
 	<s id="">Partons !</s>
 </p>
 </sp>
-<sp stage="A" who="LÉA"><speaker>LÉA, se tournant vers le tombeau.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="A">, se tournant vers le tombeau.
+</stage>
 <p id="">
 	<s id="1">Ô ma mère ! </s>
 	<s id="">Ma mère ! </s>
@@ -4295,7 +4476,8 @@ Nathan, à part. </s>
 </p>
 <stage type="pray">Elle reste un instant comme en prière.</stage>
 </sp>
-<sp stage="entrance/crawl" who="BEN AÏSSA"><speaker>BEN AÏSSA, reparaissant à droite et se traînant sur les mains.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="entrance/crawl">, reparaissant à droite et se traînant sur les mains.
+</stage>
 <p id="">
 	<s id="1">Que je souffre !... </s>
 	<s id="">Chien de Juif, tu m'as cru mort, mais non, je vis - je vis pour me venger !...</s>
@@ -4310,12 +4492,14 @@ Nathan, à part. </s>
 </p>
 <stage type="stand/closer">Il se relève et s'avance en chancelant vers Maurice et Léa.</stage>
 </sp>
-<sp stage="toward" who="MAURICE"><speaker>MAURICE, à Léa.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="toward">, à Léa.
+</stage>
 <p id="">
 	<s id="1">Viens, viens...</s>
 </p>
 </sp>
-<sp stage="threat" who="BEN AÏSSA"><speaker>BEN AÏSSA, près de frapper Maurice.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="threat">, près de frapper Maurice.
+</stage>
 <p id="">
 	<s id="1">À moi ! </s>
 	<s id="">Du secours ! </s>
@@ -4323,14 +4507,16 @@ Nathan, à part. </s>
 	<s id="">Il tombe au milieu du théâtre.</s>
 </p>
 </sp>
-<sp stage="closer" who="MAURICE"><speaker>MAURICE, allant à lui.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="closer">, allant à lui.
+</stage>
 <p id="">
 	<s id="1">Grand Dieu ! </s>
 	<s id="">Un homme qu'on vient d'assassiner ! </s>
 	<s id="">Il se baisse pour le secourir.</s>
 </p>
 </sp>
-<sp stage="recognisse" who="LÉA"><speaker>LÉA, reconnaissant Ben Aïssa.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="recognisse">, reconnaissant Ben Aïssa.
+</stage>
 <p id="">
 	<s id="1">Ciel ! </s>
 	<s id="">C'est lui !...</s>
@@ -4363,7 +4549,8 @@ Nathan, à part. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, un Officier de Spahis suivi de son escouade.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, un Officier de Spahis suivi de son escouade.
+</stage>
 <sp who="L'OFFICIER"><speaker>L'OFFICIER. </speaker>
 <p id="">
 	<s id="1">Quel est ce bruit ?... Qu'y a-t-il ? </s>
@@ -4373,7 +4560,8 @@ Nathan, à part. </s>
 	<s id="1">Un homme qui se meurt !...</s>
 </p>
 </sp>
-<sp stage="carry" who="BEN AÏSSA"><speaker>BEN AÏSSA, soulevé par les spahis. </speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="carry">, soulevé par les spahis. 
+</stage>
 <p id="">
 	<s id="1">Oh !... vengeance, vengeance !</s>
 </p>
@@ -4384,7 +4572,8 @@ Nathan, à part. </s>
 	<s id="">Parle, nous te ferons justice.</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="BEN AÏSSA"><speaker>BEN AÏSSA, à part, regardant Maurice et Léa. </speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="aparte/watch">, à part, regardant Maurice et Léa. 
+</stage>
 <p id="">
 	<s id="1">Oh ! </s>
 	<s id="2">Mourir peut-être, et les laisser ensemble !...</s>
@@ -4395,7 +4584,8 @@ Nathan, à part. </s>
 	<s id="1">Voyons, réponds Quel est ton assassin ?</s>
 </p>
 </sp>
-<sp stage="show" who="BEN AÏSSA"><speaker>BEN AÏSSA, désignant Maurice. </speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="show">, désignant Maurice. 
+</stage>
 <p id="">
 	<s id="1">Le voilà !</s>
 </p>
@@ -4407,7 +4597,8 @@ Nathan, à part. </s>
 	<s id="2">Et qui aurait pu me pousser à ce crime ?</s>
 </p>
 </sp>
-<sp stage="stand" who="BEN AÏSSA"><speaker>BEN AÏSSA, se relevant tout à fait. </speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="stand">, se relevant tout à fait. 
+</stage>
 <p id="">
 	<s id="1">La jalousie... </s>
 	<s id="2">nous aimons tous deux cette femme...</s>
@@ -4419,7 +4610,8 @@ Nathan, à part. </s>
 	<s id="2">Ce n'est pas lui...</s>
 </p>
 </sp>
-<sp stage="low/interrupt" who="MAURICE"><speaker>MAURICE, bas, l'interrompant. </speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="low/interrupt">, bas, l'interrompant. 
+</stage>
 <p id="">
 	<s id="1">Tais-toi !... </s>
 	<s id="2">Tu ne peux accuser ton père ! </s>
@@ -4433,7 +4625,8 @@ Nathan, à part. </s>
 </div1>
 <div1 type="acte" n="6"><head>ACTE CINQUIÈME</head>
 <stage type="decor">Un chemin qui borde le ravin de Constantine, du côté des chutes du Roummel. En perspective, des rochers coupés à pic ou surplombant. À droite, le chemin s'escarpe pour monter vers la ville. - Lever de soleil.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Bou-Taleb, Léa, Kabyles.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Bou-Taleb, Léa, Kabyles.
+</stage>
 <stage type="sit/location/lie">Bou-Taleb est assis avec l'un des Kabyles au pied d'un arbre ; les autres sont couchés sur le bord du chemin ; Léa est à droite, endormie.</stage>
 <sp who="BOU-TALEB"><speaker>BOU-TALEB.</speaker>
 <p id="">
@@ -4455,7 +4648,8 @@ Nathan, à part. </s>
 	<s id="">- Voyons, toi, tu finiras ton rêve ce soir !</s>
 </p>
 </sp>
-<sp stage="toward" who="BOU-TALEB"><speaker>BOU-TALEB, au Kabyle.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="toward">, au Kabyle.
+</stage>
 <p id="">
 	<s id="1">Tu m'as bien entendu, n'est-ce pas ? </s>
 	<s id="">Il faut renoncer, pour le moment, à toute tentative d'insurrection, et, quoi qu'il nous en coûte, obtenir l'âman des Français... </s>
@@ -4527,7 +4721,8 @@ Nathan, à part. </s>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LÉA"><speaker>LÉA, seule.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="alone">, seule.
+</stage>
 <p id="">
 	<s id="1">J'ai dormi... </s>
 	<s id="">J'ai pu dormir... </s>
@@ -4591,8 +4786,10 @@ Nathan, à part. </s>
 <stage type="away/location">Elle se dirige vers la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Léa, Kadidja.</head>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Léa, Kadidja.
+</stage>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">C'est elle !</s>
 </p>
@@ -4724,7 +4921,8 @@ Nathan, à part. </s>
 	<s id="">à quelques mots échappés à mon frère, j'ai cru comprendre que Maurice n'est pas coupable Le nom du vrai meurtrier, tu le connais, j'en suis sûre, et tu le caches !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉA"><speaker>LÉA, à part.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Ciel !</s>
 </p>
@@ -4741,7 +4939,8 @@ Nathan, à part. </s>
 	<s id="">Et cependant, cependant, je ne suis pas aimée !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉA"><speaker>LÉA, à part.</speaker>
+<sp who="LÉA"><speaker>LÉA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Quelle passion ! </s>
 	<s id="">Quel langage ! </s>
@@ -4778,7 +4977,8 @@ Nathan, à part. </s>
 <stage type="exit/location">Elle sort rapidement par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Kadidja, puis Ben Aïssa, Kabyles.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Kadidja, puis Ben Aïssa, Kabyles.
+</stage>
 <sp who="KADIDJA"><speaker>KADIDJA.</speaker>
 <p id="">
 	<s id="1">Partie ! </s>
@@ -4792,7 +4992,8 @@ Nathan, à part. </s>
 </p>
 <stage type="help/follow">Ben Aïssa entre soutenu par deux Kabyles et suivi de trois autres.</stage>
 </sp>
-<sp stage="help" who="BEN AÏSSA"><speaker>BEN AÏSSA, aux hommes qui le soutiennent.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="help">, aux hommes qui le soutiennent.
+</stage>
 <p id="">
 	<s id="1">Laissez-moi... </s>
 	<s id="">Je puis marcher sans aide...</s>
@@ -4863,7 +5064,8 @@ Nathan, à part. </s>
 	<s id="1">Grand Dieu, il faiblit !</s>
 </p>
 </sp>
-<sp stage="stand" who="BEN AÏSSA"><speaker>BEN AÏSSA, se remettant.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="stand">, se remettant.
+</stage>
 <p id="">
 	<s id="1">Non, non... </s>
 	<s id="">Ce n'est rien...</s>
@@ -4876,7 +5078,8 @@ Nathan, à part. </s>
 	<s id="">Tu l'aborderas en lui demandant si elle vient pour le Juif...</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, à part.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Que signifie ?...</s>
 </p>
@@ -4887,7 +5090,8 @@ Nathan, à part. </s>
 	<s id="">Si elle crie, vous la bâillonnerez.</s>
 </p>
 </sp>
-<sp stage="aparte" who="KADIDJA"><speaker>KADIDJA, de même.</speaker>
+<sp who="KADIDJA"><speaker>KADIDJA</speaker><stage type="aparte">, de même.
+</stage>
 <p id="">
 	<s id="1">Est-ce un enlèvement ?</s>
 </p>
@@ -4902,7 +5106,8 @@ Nathan, à part. </s>
 <stage type="away/stay">Les kabyles s'éloignent ; un seul reste au fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Kadidja, Ben aïssa, un Kabyle.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Kadidja, Ben aïssa, un Kabyle.
+</stage>
 <sp who="KADIDJA"><speaker>KADIDJA.</speaker>
 <p id="">
 	<s id="1">Quel est ton projet ? </s>
@@ -4997,7 +5202,8 @@ Nathan, à part. </s>
 	<s id="">Mais je cours au devant de Nathan...</s>
 </p>
 </sp>
-<sp stage="closer" who="BEN AÏSSA"><speaker>BEN AÏSSA, lui barrant le passage.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="closer">, lui barrant le passage.
+</stage>
 <p id="">
 	<s id="1">Malheureuse ! </s>
 	<s id="">Ne le tente pas... </s>
@@ -5030,7 +5236,8 @@ Nathan, à part. </s>
 	<s id="">- Qui vient là ?</s>
 </p>
 </sp>
-<sp stage="watch" who="LE KABYLE"><speaker>LE KABYLE, regardant à droite.</speaker>
+<sp who="LE KABYLE"><speaker>LE KABYLE</speaker><stage type="watch">, regardant à droite.
+</stage>
 <p id="">
 	<s id="1">Une troupe de Juifs... </s>
 	<s id="">Des rabbins à leur tête. </s>
@@ -5046,8 +5253,10 @@ Nathan, à part. </s>
 <stage type="watch">Il va jeter un coup d'oeil à gauche, tandis que la procession juive descend lentement de l'autre côté ; plusieurs rabbins marinent en avant ; l'un deux tient un livre ouvert à la main ; viennent ensuite deux esclaves portant sur leurs épaules le bouc expiatoire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Ben Aïssa, Rabbins, Juifs et Juives, puis Nathan, suivi de ses Serviteurs.</head>
-<sp stage="read" who="PREMIER RABBIN"><speaker>PREMIER RABBIN, lisant.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Ben Aïssa, Rabbins, Juifs et Juives, puis Nathan, suivi de ses Serviteurs.
+</stage>
+<sp who="PREMIER RABBIN"><speaker>PREMIER RABBIN</speaker><stage type="read">, lisant.
+</stage>
 <p id="">
 	<s id="1">Le souvenir de la désolation vit dans la mémoire d'Israël... </s>
 	<s id="">Si je t'oublie, ô Jérusalem, que ma droite s'oublie !</s>
@@ -5060,12 +5269,14 @@ Nathan, à part. </s>
 </p>
 <stage type="entrance/location">Nathan entre par la gauche, au moment où la tête de la procession atteint le milieu du théâtre.</stage>
 </sp>
-<sp who="LES JUIFS"><speaker>LES JUIFS, l'apercevant.</speaker>
+<sp who="LES JUIFS"><speaker>LES JUIFS</speaker><stage>, l'apercevant.
+</stage>
 <p id="">
 	<s id="1">Nathan !...</s>
 </p>
 </sp>
-<sp stage="toward" who="PREMIER RABBIN"><speaker>PREMIER RABBIN, à Nathan.</speaker>
+<sp who="PREMIER RABBIN"><speaker>PREMIER RABBIN</speaker><stage type="toward">, à Nathan.
+</stage>
 <p id="">
 	<s id="1">Pourquoi ce brusque retour ?</s>
 </p>
@@ -5078,7 +5289,8 @@ Nathan, à part. </s>
 </p>
 <stage type="location">Il se dirige vers la droite.</stage>
 </sp>
-<sp stage="location" who="BEN AÏSSA"><speaker>BEN AÏSSA, se plaçant devant lui.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="location">, se plaçant devant lui.
+</stage>
 <p id="">
 	<s id="1">Arrête !</s>
 </p>
@@ -5193,7 +5405,8 @@ Nathan, à part. </s>
 	<s id="1">Ose poursuivre ta route, et je donne le signal !</s>
 </p>
 </sp>
-<sp stage="low" who="NATHAN"><speaker>NATHAN, à demi-voix.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="">
 	<s id="1">Non, non... </s>
 	<s id="">Tu ne le donneras pas... </s>
@@ -5207,14 +5420,16 @@ Nathan, à part. </s>
 	<s id="1">Je veux que tu laisses condamner ce Français !</s>
 </p>
 </sp>
-<sp stage="hide" who="NATHAN"><speaker>NATHAN, se cachant la figure de ses mains.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="hide">, se cachant la figure de ses mains.
+</stage>
 <p id="">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="">Mon_Dieu ! </s>
 	<s id="">Que faire ?</s>
 </p>
 </sp>
-<sp stage="toward" who="PREMIER RABBIN"><speaker>PREMIER RABBIN, à Nathan.</speaker>
+<sp who="PREMIER RABBIN"><speaker>PREMIER RABBIN</speaker><stage type="toward">, à Nathan.
+</stage>
 <p id="">
 	<s id="1">Mais, d'où peut naître un pareil trouble, et que t'importe, après tout, cette Musulmane, cette femme idolâtre ? </s>
 	<s id="">Quelle périsse, si elle est coupable ! </s>
@@ -5231,7 +5446,8 @@ Nathan, à part. </s>
 	<s id="1">Il y va de ton honneur, tu nous l'as dit : hâte-toi donc !</s>
 </p>
 </sp>
-<sp stage="closer" who="BEN AÏSSA"><speaker>BEN AÏSSA, barrant de nouveau la route.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="closer">, barrant de nouveau la route.
+</stage>
 <p id="">
 	<s id="1">Malheureux ! </s>
 	<s id="">Ne le forcez pas à partir !</s>
@@ -5255,7 +5471,8 @@ Nathan, à part. </s>
 	<s id="1">Sa fille !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">Perdu ! </s>
@@ -5267,7 +5484,8 @@ Nathan, à part. </s>
 	<s id="1">Oui, sa fille, qu'il a fait passer pour morte, afin de la donner à ce Chrétien qu'il veut sauver !</s>
 </p>
 </sp>
-<sp stage="toward" who="PREMIER RABBIN"><speaker>PREMIER RABBIN, à Nathan.</speaker>
+<sp who="PREMIER RABBIN"><speaker>PREMIER RABBIN</speaker><stage type="toward">, à Nathan.
+</stage>
 <p id="">
 	<s id="1">Léa... </s>
 	<s id="">Dont nous avons suivi les funérailles... </s>
@@ -5305,7 +5523,8 @@ Nathan, à part. </s>
 	<s id="">Accomplis sans peur le devoir qui te fait retourner dans une ville que la douleur t'avait rendue odieuse !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NATHAN"><speaker>NATHAN, à part.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="">
 	<s id="1">Seigneur ! </s>
 	<s id="">Seigneur ! </s>
@@ -5334,7 +5553,8 @@ Nathan, à part. </s>
 	<s id="">Et nous dénoncerons ton mensonge devant la synagogue, qui rayera ton nom de la liste des rabbins !</s>
 </p>
 </sp>
-<sp stage="fight" who="NATHAN"><speaker>NATHAN, après un moment de lutte avec lui-même.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage type="fight">, après un moment de lutte avec lui-même.
+</stage>
 <p id="">
 	<s id="1">Dieu de mes pères ! </s>
 	<s id="">Encore ce sacrifice à ta gloire !</s>
@@ -5347,7 +5567,8 @@ Nathan, à part. </s>
 </p>
 <stage type="fight/stop/fall">Il tire un coup de pistole ; tout le monde s'arrête en jetant un cri ; on voit un corps de femme tomber dans le ravin.</stage>
 </sp>
-<sp stage="desparate" who="KADIDJA"><speaker>NATHAN, avec explosion.</speaker>
+<sp who="KADIDJA"><speaker>NATHAN</speaker><stage type="desparate">, avec explosion.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">J'ai tué mon enfant ! </s>
@@ -5371,7 +5592,8 @@ Nathan, à part. </s>
 </p>
 <stage type="fall/faint">Il tombe anéanti entre les bras des Rabbins et de ses Serviteurs.</stage>
 </sp>
-<sp stage="sad" who="BEN AÏSSA"><speaker>BEN AÏSSA, d'une voix sombre.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="sad">, d'une voix sombre.
+</stage>
 <p id="">
 	<s id="1">Allons, point de remords... </s>
 	<s id="">Si je l'ai perdue, au moins elle ne sera pas à un autre !</s>
@@ -5384,20 +5606,24 @@ Nathan, à part. </s>
 <stage type="exit">Il va pour sortir.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les Mêmes, Maurice, Léa, Chasseurs d'Afrique ; puis BOU-TALEB, suivi de Kabyles.</head>
-<sp stage="toward" who="MAURICE"><speaker>MAURICE, à Ben Aïsa.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les Mêmes, Maurice, Léa, Chasseurs d'Afrique ; puis BOU-TALEB, suivi de Kabyles.
+</stage>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="toward">, à Ben Aïsa.
+</stage>
 <p id="">
 	<s id="1">Tu te trompes, Ben_Aïssa ! </s>
 	<s id="">Nous voici tous deux !</s>
 </p>
 </sp>
-<sp stage="estonish" who="TOUT LE MONDE"><speaker>TOUT LE MONDE, avec étonnement.</speaker>
+<sp who="TOUT LE MONDE"><speaker>TOUT LE MONDE</speaker><stage type="estonish">, avec étonnement.
+</stage>
 <p id="">
 	<s id="1">Léa !</s>
 </p>
 <stage type="away/terrify">Ben Aïssa recule terrifié.</stage>
 </sp>
-<sp who="NATHAN"><speaker>NATHAN, s'élançant vers Léa et lui ouvrant ses bras.</speaker>
+<sp who="NATHAN"><speaker>NATHAN</speaker><stage>, s'élançant vers Léa et lui ouvrant ses bras.
+</stage>
 <p id="">
 	<s id="1">Ah ! </s>
 	<s id="">Elle vit ! </s>
@@ -5409,7 +5635,8 @@ Nathan, à part. </s>
 	<s id="1">Mon père !...</s>
 </p>
 </sp>
-<sp stage="lost" who="BEN AÏSSA"><speaker>BEN AÏSSA, d'un air égaré.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="lost">, d'un air égaré.
+</stage>
 <p id="">
 	<s id="1">Oh ! </s>
 	<s id="">Ce n'est pas elle... </s>
@@ -5425,33 +5652,38 @@ Nathan, à part. </s>
 	<s id="">Si ce n'est que tu es ma fille et que rien, dans ce monde, ne doit me séparer de toi !...</s>
 </p>
 </sp>
-<sp stage="location" who="BEN AÏSSA"><speaker>BEN AÏSSA, remontant tout à coup vers le fond.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="location">, remontant tout à coup vers le fond.
+</stage>
 <p id="">
 	<s id="1">Mais qui donc est tombé dans le gouffre ?</s>
 </p>
 </sp>
-<sp stage="stop" who="MAURICE"><speaker>MAURICE, l'arrêtant.</speaker>
+<sp who="MAURICE"><speaker>MAURICE</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="">
 	<s id="1">N'essaye pas de fuir... </s>
 	<s id="">Tu es mon prisonnier... </s>
 	<s id="">Car tes frères eux-mêmes, en venant demander l'aman, ont livré ta tête pour rançon, et le bras qui t'a frappé, quel qu'il soit, n'a fait que devancer celui de la justice !</s>
 </p>
 </sp>
-<sp stage="push" who="BEN AÏSSA"><speaker>BEN AÏSSA, essayant d'écarter les Chasseurs qui l'entourent.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="push">, essayant d'écarter les Chasseurs qui l'entourent.
+</stage>
 <p id="">
 	<s id="1">Laissez-moi... </s>
 	<s id="">Laissez-moi... </s>
 	<s id="">Je veux savoir...</s>
 </p>
 </sp>
-<sp stage="location" who="BOU-TALEB"><speaker>BOU-TALEB, montant du fond.</speaker>
+<sp who="BOU-TALEB"><speaker>BOU-TALEB</speaker><stage type="location">, montant du fond.
+</stage>
 <p id="">
 	<s id="1">Tu veux savoir qui a été jeté à l'abîme ? </s>
 	<s id="">Regarde !</s>
 </p>
 <stage type="show">Il lui montre des Kabyles qui le suivent portant une femme inanimée dans leurs bras.</stage>
 </sp>
-<sp stage="desparate" who="BEN AÏSSA"><speaker>BEN AÏSSA, avec désespoir.</speaker>
+<sp who="BEN AÏSSA"><speaker>BEN AÏSSA</speaker><stage type="desparate">, avec désespoir.
+</stage>
 <p id="">
 	<s id="1">Ma soeur ! </s>
 	<s id="">Ma soeur !... </s>

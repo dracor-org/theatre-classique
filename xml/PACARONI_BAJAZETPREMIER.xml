@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,11 +31,11 @@
 			<titlePart type="sub">Représentée pour la première fois, le Jeudi sixième Août 1739 sur le Théâtre de la Comédie Française.</titlePart>
 			<titlePart type="sub">Le prix est de vingt-quatre sols.</titlePart>
 		</docTitle> 
-		<docDate value='1739'>M.DCC. XXXIX. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='PACARONI'>M. le chevalier de P***.</docAuthor>
+		<docDate value="1739">M.DCC. XXXIX. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="PACARONI">M. le chevalier de P***.</docAuthor>
 		<docImprint>
 			<editor id="PRAULT">Chez PRAULT fils, Quai de Conti, vis à vis la Descente du Pont-Neuf, à la Charité.</editor>
-			<printer id='Veuve DONDEY-DUPRÉ'>Type de Madame Veuve DONDEY-DUPRÉ, rue Saint Louis, 46, au Marais.</printer>
+			<printer id="Veuve DONDEY-DUPRÉ">Type de Madame Veuve DONDEY-DUPRÉ, rue Saint Louis, 46, au Marais.</printer>
 			<approbation id="1738-08-18"><head>APPROBATION.</head>
 				<p>J'ai lu, par ordre de Monseigneur le Chancelier, une Tragédie qui a pour titre Bajazet Premier, par M. le Chancelier de P.... et je crois qu'on peut en permettre l'impression, Ce 18 Août 1739. Signé, CREBILLON.</p>
 			</approbation>
@@ -49,20 +49,21 @@
 		</div>
 		<castList>
 			<head>ACTEURS.</head>
-			<castItem><role id="TAMERLAN" sex="1" type="H" statut="empereur" age='A' stat_amour='néant'>TAMERLAN</role>, Empereur des Tartares. Mr. le Grand.</castItem>
-			<castItem><role id="BAJAZET PREMIER" sex="1" type="H" statut="empereur" age='A' stat_amour='néant'>BAJAZET PREMIER</role>, Empereur des Turcs, fait prisonnier par Tamerlan. Mr. Sanazìn.</castItem>
-			<castItem><role id="ASTÉRIE" sex="2" type="H" statut="prince" age='J' stat_amour='néant'>ASTÉRIE</role>, Fille de Bazajet. Mlle Dumesnìl.</castItem>
-			<castItem><role id="ANDRONIC" sex="1" type="H" statut="prince" age='J' stat_amour='néant'>ANDRONIC</role>, Fils d'Emanuel, Empereur de Grèce. M. Grandval.</castItem>
-			<castItem><role id="ODMAR" sex="1" type="H" statut="officier" age='A' stat_amour='néant'>ODMAR</role>, Officier de Tamerlan. M. de la Torilliére.</castItem>
-			<castItem><role id="ZAÏDE" sex="2" type="H" statut="confident" age='A' stat_amour='néant'>ZAÏDE</role>, Confidente d'Astérie. Mlle Jouvenot.</castItem>
-			<castItem><role id="ARCAS" sex="1" type="H" statut="confident" age='A' stat_amour='néant'>ARCAS</role>, Confident d'Andronic. Mr. Fierville.</castItem>
-			<castItem><role id="GARDES" sex="1" type="H" statut="soldat" age='A' stat_amour='néant'>GARDES</role>.</castItem>
+			<castItem><role id="TAMERLAN" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">TAMERLAN</role>, Empereur des Tartares. Mr. le Grand.</castItem>
+			<castItem><role id="BAJAZET PREMIER" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">BAJAZET PREMIER</role>, Empereur des Turcs, fait prisonnier par Tamerlan. Mr. Sanazìn.</castItem>
+			<castItem><role id="ASTÉRIE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">ASTÉRIE</role>, Fille de Bazajet. Mlle Dumesnìl.</castItem>
+			<castItem><role id="ANDRONIC" sex="1" type="H" statut="prince" age="J" stat_amour="néant">ANDRONIC</role>, Fils d'Emanuel, Empereur de Grèce. M. Grandval.</castItem>
+			<castItem><role id="ODMAR" sex="1" type="H" statut="officier" age="A" stat_amour="néant">ODMAR</role>, Officier de Tamerlan. M. de la Torilliére.</castItem>
+			<castItem><role id="ZAÏDE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">ZAÏDE</role>, Confidente d'Astérie. Mlle Jouvenot.</castItem>
+			<castItem><role id="ARCAS" sex="1" type="H" statut="confident" age="A" stat_amour="néant">ARCAS</role>, Confident d'Andronic. Mr. Fierville.</castItem>
+			<castItem><role id="GARDES" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">GARDES</role>.</castItem>
 		</castList>
 		<set location="Samarcande" country="Ouzbékistan" periode="Avant JC VIème" gps="39.65417, 66.95972">La Scène est à Samarcande dans le Palais de Tamerlan.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Bajazet, Odmar, Gardes.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Bajazet, Odmar, Gardes.
+</stage>
 <sp who="ODMAR"><speaker>ODMAR.</speaker>
 	<l id="1">C'est ici que bientôt l'Empereur doit se rendre.</l>
 	<l id="2" syll="4" part="i">Il vous ordonne....</l>
@@ -71,7 +72,8 @@
 	<l id="2" syll="8" part="f">Allez ; il pourra me rapprendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Bajazet, Gardes.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Bajazet, Gardes.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="3">Tamerlan veut me voir ! Quel objet odieux !</l>
 	<l id="4">Quel spectacle ! Un vainqueur va s'offrir à mes yeux.</l>
@@ -101,7 +103,8 @@
 	<l id="28" syll="6" part="i">Mais le voici lui-même.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Bajazet, Tamerlan, Odmar, Gardes.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Bajazet, Tamerlan, Odmar, Gardes.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="28" syll="6" part="f">Approche, Tamerlan,</l>
 	<l id="29">Quel sujet dans ce lieu demande ma présence ?</l>
@@ -194,7 +197,8 @@
 	<l id="87" syll="6" part="i">Gardes, qu'on le remène.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Tamerlan, Odmar, Gardes.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Tamerlan, Odmar, Gardes.
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="87" syll="6" part="f">Où me vois-je réduit f</l>
 	<l id="88">Ah ! Qu'ai-je fait, Odmar, et quel en est le fruit ?</l>
@@ -368,7 +372,8 @@
 	<l id="222">Mais, que vois-je ! Grand Dieu ! C'est elle qui s'avance,</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Tamerlan, Astérie, Odmar, Gardes.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Tamerlan, Astérie, Odmar, Gardes.
+</stage>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
 	<l id="223">Eh bien, Seigneur ! Mon père a paru devant vous ;</l>
 	<l id="224">Ne peut-il inspirer des sentiments plus doux ?</l>
@@ -430,7 +435,8 @@
 	<l id="271">Mon père, en expirant, marchera sur mes pas ;</l>
 	<l id="272">Et je vais lui frayer les routes du trépas.</l>
 </sp>
-<sp stage="touch" who="TAMERLAN"><speaker>TAMERLAN, ému.</speaker>
+<sp who="TAMERLAN"><speaker>TAMERLAN</speaker><stage type="touch">, ému.
+	</stage>
 	<l id="273" syll="2" part="i">Madame !...</l>
 </sp>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
@@ -456,7 +462,8 @@
 	<l id="282">Que je sois son ami ; je n'aspire qu'à l'être.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Tamerlan, Odmar, Gardes.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Tamerlan, Odmar, Gardes.
+</stage>
 <sp who="ODMAR"><speaker>ODMAR.</speaker>
 	<l id="283">Que faites-vous, Seigneur ? Dans quel abîme affreux</l>
 	<l id="284" syll="3" part="i">Bajazet !...</l>
@@ -477,7 +484,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Astérie, Zaïde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Astérie, Zaïde.
+</stage>
 <sp who="ZAÏDE"><speaker>ZAÏDE.</speaker>
 	<l id="295">Madame, est-il donc vrai ? Le tyran désarmé</l>
 	<l id="296">D'une aveugle fureur n'est-il plus animé ?</l>
@@ -616,8 +624,10 @@
 <stage type="hurry/kneel/location">Elle court se jeter aux pieds de Bajazet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Bajazet, Astérie, Zaïde.</head>
-<sp stage="stand" who="BAJAZET"><speaker>BAJAZET, relevant Astérie.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Bajazet, Astérie, Zaïde.
+</stage>
+<sp who="BAJAZET"><speaker>BAJAZET</speaker><stage type="stand">, relevant Astérie.
+	</stage>
 	<l id="394" syll="6" part="f">Ma chère Astérie!</l>
 </sp>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
@@ -728,11 +738,13 @@
 	<l id="466">Ma fille, c'est assez ; vous me comblez de joie.</l>
 	<l id="467">On vient. C'est Andronic qui porte ici ses pas.</l>
 </sp>
-<sp stage="aparte" who="ASTÉRIE"><speaker>ASTÉRIE, à part.</speaker>
+<sp who="ASTÉRIE"><speaker>ASTÉRIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="468" syll="3" part="i">Le perfide !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Andronic, Bajazet, Astérie, Zaïde, Arcas.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Andronic, Bajazet, Astérie, Zaïde, Arcas.
+</stage>
 <sp who="ANDRONIC"><speaker>ANDRONIC.</speaker>
 	<l id="468" syll="9" part="f">Seigneur, ne vous offensez pas,</l>
 	<l id="469">Si j'ose en ce moment vous rendre mon hommage,</l>
@@ -798,7 +810,8 @@
 	<l id="514" syll="4" part="i">Allons, ma fille.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Andronic, Arcas.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Andronic, Arcas.
+</stage>
 <sp who="ANDRONIC"><speaker>ANDRONIC.</speaker>
 	<l id="514" syll="8" part="f">Ô Ciel ! Contre moi tout conspire ;</l>
 	<l id="515">De quel indigne emploi m'étais-je donc chargé ?</l>
@@ -918,7 +931,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Astérie, Zaïde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Astérie, Zaïde.
+</stage>
 <sp who="ZAÏDE"><speaker>ZAÏDE.</speaker>
 	<l id="597">Malgré tous vos chagrins, vous deviez vous contraindre,</l>
 	<l id="598">Madame, Bajazet aura lieu de se plaindre.</l>
@@ -987,7 +1001,8 @@
 	<l id="643" syll="4" part="m">Il vient à vous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Andronic, Astérie, Zaïde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Andronic, Astérie, Zaïde.
+</stage>
 <sp who="ANDRONIC"><speaker>ANDRONIC.</speaker>
 	<l id="643" syll="6" part="f">Ne me condamnez pas,</l>
 	<l id="644" syll="3" part="i">Madame...</l>
@@ -1051,7 +1066,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ANDRONIC"><speaker>ANDRONIC, seul.</speaker>
+<sp who="ANDRONIC"><speaker>ANDRONIC</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="695">Quel aveu glorieux ! Mon coeur est éperdu,</l>
 	<l id="696">Ciel ! N'est-ce point un songe? Ai-je bien entendu ?</l>
 	<l id="697">Je ne suis point haï ? Je ne puis lui déplaire ?...</l>
@@ -1066,7 +1082,8 @@
 	<l id="706">Quoi ! Vous approuveriez l'innocente tendresse ?...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Andronic, Arcas.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Andronic, Arcas.
+</stage>
 <sp who="ARCAS"><speaker>ARCAS.</speaker>
 	<l id="707">On vous cherche, Seigneur. Tamerlan inquiet,</l>
 	<l id="708">Vous attend pour régler le sort de Bajazet.</l>
@@ -1135,7 +1152,8 @@
 	<l id="755" syll="2" part="i">Va, cours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Tamerlan, Andronic, Odmar, Gardes.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Tamerlan, Andronic, Odmar, Gardes.
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="755" syll="10" part="f">Enfin, Seigneur, je vous trouve en ces lieux.</l>
 	<l id="756">Pourquoi différiez-vous de paraître à mes yeux ?</l>
@@ -1143,7 +1161,8 @@
 	<l id="758">De m'apprendre à quel point on s'ose méconnaître !</l>
 	<l id="759">Vous vouliez m'épargner le chagrin d'un refus ?</l>
 </sp>
-<sp stage="embarrassed" who="ANDRONIC"><speaker>ANDRONIC, embarrassé.</speaker>
+<sp who="ANDRONIC"><speaker>ANDRONIC</speaker><stage type="embarrassed">, embarrassé.
+	</stage>
 	<l id="760" syll="2" part="i">Seigneur...</l>
 </sp>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
@@ -1156,7 +1175,8 @@
 	<l id="766">Eh bien, puisqu'il le veut, il faut le satisfaire.</l>
 	<l id="767">Odmar, vous m'entendez ; songez à m'obéir.</l>
 </sp>
-<sp s6tage="toward" who="ANDRONIC"><speaker>ANDRONIC, à Odmar.</speaker>
+<sp s6tage="toward" who="ANDRONIC"><speaker>ANDRONIC</speaker><stage>, à Odmar.
+	</stage>
 	<l id="768">Arrêtez. Ah ! Seigneur, ce serait vous trahir.</l>
 	<l id="769">Avez-vous résolu de perdre votre gloire ?</l>
 	<l id="770">Quand Bajazet surpris nous céda la victoire ;</l>
@@ -1246,7 +1266,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="ANDRONIC"><speaker>ANDRONIC, seul.</speaker>
+<sp who="ANDRONIC"><speaker>ANDRONIC</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="837">Ah ! Je saurai du moins m'opposer à ta rage,</l>
 	<l id="838">Barbare ; ne crois pas achever ton ouvrage :</l>
 	<l id="839">Redoute les transports dont je suis animé.</l>
@@ -1259,7 +1280,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Tamerlan, Odmar, Gardes</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Tamerlan, Odmar, Gardes
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="8">Ne m'importune plus. Quoique tu puisses dire</l>
 	<l id="8">Qu'elle y consente, Odmar, ou Bajazet expire.</l>
@@ -1295,7 +1317,8 @@
 	<l id="8">Va, ne néglige rien ; va, dis-je : la voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Tamerlan, Astérie, Zaïde, Gardes.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Tamerlan, Astérie, Zaïde, Gardes.
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="8">Vous savez mon secret ; daignerez-vous m'apprendre</l>
 	<l id="6">Madame, à quel destin Tamerlan peut prétendre ?</l>
@@ -1400,7 +1423,8 @@
 	<l id="8">Ah ! Barbare, arrêtez...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Astérie, Zaïde.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Astérie, Zaïde.
+</stage>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
 	<l id="8">Que devient ma constance ? </l>
 	<l id="8">Arme-toi, Ciel vengeur ! Protège l'Innocence.</l>
@@ -1454,7 +1478,8 @@
 	<l id="8">Ô, mon père ! Il faut donc que tu sois sa victime !</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Bajazet, Astérie, Zaïde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Bajazet, Astérie, Zaïde.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="8">Eh bien ! Le fier Tartare a paru dans ces lieux ;</l>
 	<l id="8">Vous a-t-il déclaré ses desseins odieux ?</l>
@@ -1469,7 +1494,8 @@
 	<l id="8">Zaïde, laissez-nous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Bajazet, Astérie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Bajazet, Astérie.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="8">Écoutez-moi, ma fille ;</l>
 	<l id="8">Vous savez à quel point j'ai chéri ma famille.</l>
@@ -1503,8 +1529,10 @@
 	<l id="8">J'entends du bruit : on vient nous séparer peut-être !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Andronic, Bajazet, Astérie.</head>
-<sp stage="location/toward" who="ANDRONIC"><speaker>ANDRONIC, au fond du Théâtre, à part.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Andronic, Bajazet, Astérie.
+</stage>
+<sp who="ANDRONIC"><speaker>ANDRONIC</speaker><stage type="location/toward">, au fond du Théâtre, à part.
+	</stage>
 	<l id="8">C'est lui : voici le temps de me faire connaître.</l>
 </sp>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
@@ -1645,7 +1673,8 @@
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="8">Ah, ma fille !</l>
 </sp>
-<sp stage="kneel" who="ANDRONIC"><speaker>ANDRONIC, se jetant aussi aux pieds de Bajazet.</speaker>
+<sp who="ANDRONIC"><speaker>ANDRONIC</speaker><stage type="kneel">, se jetant aussi aux pieds de Bajazet.
+	</stage>
 	<l id="8">Seigneur ! Daignez enfin écouter nos soupirs.</l>
 </sp>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
@@ -1661,7 +1690,8 @@
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ASTÉRIE"><speaker>ASTÉRIE, seule.</speaker>
+<sp who="ASTÉRIE"><speaker>ASTÉRIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="8">Quels nouveaux transports ai-je livré mon âme ?</l>
 	<l id="8">La voix de mon devoir n'accuse plus ma flamme ;</l>
 	<l id="8">Destin, as-tu changé tes injustes arrêts ?</l>
@@ -1679,7 +1709,8 @@
 	<l id="8">Tout semble m'annoncer que le Ciel en courroux...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Astérie, Zaïde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Astérie, Zaïde.
+</stage>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
 	<l id="8">Zaïde !... Parle donc ! As-tu vu mon époux?</l>
 	<l id="8">As-tu vu Bajazet ? Dissipe mes alarmes :</l>
@@ -1717,7 +1748,8 @@
 	<l id="8">Ah ! Fuyons. Mon malheur est écrit dans ses yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Tamerlan, Odmar, Gardes.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Tamerlan, Odmar, Gardes.
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="8">Eh bien ! avais-je tort d'observer sa conduite?</l>
 	<l id="8">Crois-moi,depuis longtemps il préparait leur fuite,</l>
@@ -1784,7 +1816,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="TAMERLAN"><speaker>TAMERLAN, seul.</speaker>
+<sp who="TAMERLAN"><speaker>TAMERLAN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="8">Cessons de nous contraindre.</l>
 	<l id="8">Tout est pour nous enfin ; je n'ai plus rien à craindre.</l>
 	<l id="8">D'un rival odieux la mort m'a délivré.</l>
@@ -1805,8 +1838,10 @@
 	<l id="8">Amour ! Viens triompher dans les bras de la haine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Bajazet, Tamerlan, Odmar, Gardes.</head>
-<sp stage="toward" who="TAMERLAN"><speaker>TAMERLAN, à Bajazet.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Bajazet, Tamerlan, Odmar, Gardes.
+</stage>
+<sp who="TAMERLAN"><speaker>TAMERLAN</speaker><stage type="toward">, à Bajazet.
+	</stage>
 	<l id="8">Malheureux ! Sais-tu bien où l'on conduit tes pas,</l>
 	<l id="8">Et quel sera le fruit de tes noirs attentats ?</l>
 	<l id="8">Tu regardes ce sang versé, pour te défendre :</l>
@@ -1827,7 +1862,8 @@
 	<l id="8">Ah! Qui vois-je paraître ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Astérie, Bajazet, Tamerlan, Zaïde,  Odmar, Gardes.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Astérie, Bajazet, Tamerlan, Zaïde,  Odmar, Gardes.
+</stage>
 <sp who="ASTÉRIE"><speaker>ASTÉRIE.</speaker>
 	<l id="8">Seigneur, de mon destin Tamerlan n'est plus maître;</l>
 	<l id="8">Ne craignez rien.</l>
@@ -1900,15 +1936,18 @@
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="8">Oui, j'accorde sa grâce.</l>
 </sp>
-<sp stage="" who="BAJAZET"><speaker>BAJAZET, Jèsrapant d'un poignard qu'il tenait caché.</speaker>
+<sp who="BAJAZET"><speaker>BAJAZET</speaker><stage type="">, Jèsrapant d'un poignard qu'il tenait caché.
+	</stage>
 	<l id="8">Et moi, je la refuse.</l>
 	<l id="8">Adieu, ma fille.</l>
 </sp>
-<sp stage="die" who="ASTÉRIE"><speaker>ASTÉRIE, tombe morte dans les bras de Zaïde.</speaker>
+<sp who="ASTÉRIE"><speaker>ASTÉRIE</speaker><stage type="die">, tombe morte dans les bras de Zaïde.
+	</stage>
 	<l id="8">Ô Ciel !</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. et dernière. Tamerlan, Odmar.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> et dernière. Tamerlan, Odmar.
+</stage>
 <sp who="TAMERLAN"><speaker>TAMERLAN.</speaker>
 	<l id="8">Ils expirent tous deux !</l>
 	<l id="8">Que vois-je ! Qu'ai-je fait ! Où fuir ? Ah monstre affreux !</l>
@@ -1951,7 +1990,8 @@
 <stage type="suicide">Il se frappe.</stage>
 	<l id="8">Adieu, ma fille.</l>
 </sp>
-<sp stage="die" who="ASTÉRIE"><speaker>ASTÉRIE, mourante.</speaker>
+<sp who="ASTÉRIE"><speaker>ASTÉRIE</speaker><stage type="die">, mourante.
+	</stage>
 	<l id="8">Ô Ciel!</l>
 </sp>
 </div2>

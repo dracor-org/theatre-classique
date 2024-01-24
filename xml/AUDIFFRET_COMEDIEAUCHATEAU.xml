@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -26,23 +26,23 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>LA COMÉDIE AU CHATEAU</titlePart>
-			<titlePart type='sub'>PIÈCE EN UN ACTE.</titlePart>
+			<titlePart type="main">LA COMÉDIE AU CHATEAU</titlePart>
+			<titlePart type="sub">PIÈCE EN UN ACTE.</titlePart>
 		</docTitle>
-		<docDate value='1861'>1861.</docDate>
-		<docAuthor id='AUDIFFRET, L.D.L.'>L.D.L. AUDIFFRET</docAuthor>
+		<docDate value="1861">1861.</docDate>
+		<docAuthor id="AUDIFFRET, L.D.L.">L.D.L. AUDIFFRET</docAuthor>
 		<docImprint>
-				<editor id='TRESSE'>MARSEILLE CAMOIN FRÈRE, LIBRAIRES-ÉDITEURS Rue Saint Féréol, 4</editor>
-				<printer id=''></printer>
+				<editor id="TRESSE">MARSEILLE CAMOIN FRÈRE, LIBRAIRES-ÉDITEURS Rue Saint Féréol, 4</editor>
+				<printer id=""/>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="DOLICARD" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>DOLICARD</role>.</castItem>
-		<castItem><role id="ANSELME DOLICARD" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>ANSELME DOLICARD</role>, son frère.</castItem>
-		<castItem><role id="DÉLIGNY" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>DÉLIGNY</role>, leur neveu, jouant les personnages suivants.</castItem> 
-		<castItem><role id="BUSCARINO" sex="1" type="H" statut="musicien" age='A' stat_amour='néant'>BUSCARINO</role>.</castItem>
-		<castItem><role id="LÉRICOURT" sex="1" type="H" statut="comédien" age='A' stat_amour='néant'>LÉRICOURT</role>.</castItem>
-		<castItem><role id="LUCINET" sex="1" type="H" statut="auteur" age='A' stat_amour='néant'>LUCINET</role>.</castItem>
-		<castItem><role id="STANISLAS" sex="1" type="H" statut="poète" age='A' stat_amour='néant'>STANISLAS</role>.</castItem>
+		<castItem><role id="DOLICARD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DOLICARD</role>.</castItem>
+		<castItem><role id="ANSELME DOLICARD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ANSELME DOLICARD</role>, son frère.</castItem>
+		<castItem><role id="DÉLIGNY" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">DÉLIGNY</role>, leur neveu, jouant les personnages suivants.</castItem> 
+		<castItem><role id="BUSCARINO" sex="1" type="H" statut="musicien" age="A" stat_amour="néant">BUSCARINO</role>.</castItem>
+		<castItem><role id="LÉRICOURT" sex="1" type="H" statut="comédien" age="A" stat_amour="néant">LÉRICOURT</role>.</castItem>
+		<castItem><role id="LUCINET" sex="1" type="H" statut="auteur" age="A" stat_amour="néant">LUCINET</role>.</castItem>
+		<castItem><role id="STANISLAS" sex="1" type="H" statut="poète" age="A" stat_amour="néant">STANISLAS</role>.</castItem>
 	</castList>
 	<set location="Seine Maritime" country="France" periode="XIXème" gps="49.337886, 1.085229">La scène se passe dans le château de Dolicard.</set>
 	<note>Extrait de "Entre deux paravents, Théâtre des salons de famille Seconde partie, pièces pour hommes seulement", L.D.L. Audiffret, Janvier 1889, pp. 371-395. Cote BnF [YF-8106]</note>
@@ -50,7 +50,8 @@
 <body>
 <div1 type="acte" n="1"><head>LA COMÉDIE AU CHATEAU</head>
 <stage type="decor">Le théâtre représente un salon.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dolicard, Anselme.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dolicard, Anselme.
+</stage>
 <sp who="DOLICARD"><speaker>DOLICARD.</speaker>
 <p id="1">
 	<s id="1">Oui, mon frère, j'en conviens ; j'ai une véritable passion pour la comédie de société. </s>
@@ -155,14 +156,16 @@
 	<s id="1">Motif de plus pour qu'il fût docile à mes conseils.</s>
 </p>
 </sp>
-<sp stage="out" who="BUSCARINO"><speaker>BUSCARINO, en dehors.</speaker>
+<sp who="BUSCARINO"><speaker>BUSCARINO</speaker><stage type="out">, en dehors.
+</stage>
 <p id="16">
 	<s id="1">Oùsqu'il est, monsou Dolicard ? </s>
 	<s id="2">Oùsqu'il est?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dolicard, Anselme, Buscarino.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dolicard, Anselme, Buscarino.
+</stage>
 <sp who="BUSCARINO"><speaker>BUSCARINO.</speaker>
 <p id="1">
 	<s id="1">Servitour ! </s>
@@ -237,7 +240,8 @@
 	<s id="1">Je ne me soucie pas trop de tenter l'expérience.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ANSELME"><speaker>ANSELME, bas à Dolicard. </speaker>
+<sp who="ANSELME"><speaker>ANSELME</speaker><stage type="low/toward">, bas à Dolicard. 
+</stage>
 <p id="12">
 	<s id="1">Il pourrait y avoir du danger.</s>
 </p>
@@ -395,7 +399,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dolicard, Anselme.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dolicard, Anselme.
+</stage>
 <sp who="DOLICARD"><speaker>DOLICARD.</speaker>
 <p id="1">
 	<s id="1">Eh bien, mon frère !</s>
@@ -432,7 +437,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Dolicard, Anselme, Léricourt.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Dolicard, Anselme, Léricourt.
+</stage>
 <sp who="LÉRICOURT"><speaker>LÉRICOURT.</speaker>
 <p id="1">
 	<s id="1">J'ai l'honneur de vous saluer, Messieurs. </s>
@@ -450,7 +456,8 @@
 	<s id="2">Voici la lettre que vous avez pris la peine de m'écrire.</s>
 </p>
 </sp>
-<sp stage="read" who="DOLICARD"><speaker>DOLICARD, lisant la lettre.</speaker>
+<sp who="DOLICARD"><speaker>DOLICARD</speaker><stage type="read">, lisant la lettre.
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous êtes Monsieur_Léricourt ?</s>
@@ -604,12 +611,14 @@
 	<s id="9">Les contrebasses, les ophicléides, les saxophones, les timbales, la grosse-caisse, tout s'en mêle, et le tintamarre ne permet plus au pauvre bonjour d'arriver jusqu'à vos oreilles.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="DOLICARD"><speaker>DOLICARD, bas à Anselme.</speaker>
+<sp who="DOLICARD"><speaker>DOLICARD</speaker><stage type="low/toward">, bas à Anselme.
+</stage>
 <p id="28">
 	<s id="1">Quel original !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ANSELME"><speaker>ANSELME, bas à Dolicard.</speaker>
+<sp who="ANSELME"><speaker>ANSELME</speaker><stage type="low/toward">, bas à Dolicard.
+</stage>
 <p id="29">
 	<s id="1">Il est presque de la force de Monsieur_Buscarino.</s>
 </p>
@@ -623,7 +632,8 @@
 	<s id="5">Rentré au Grand-Opéra, je retrouve la prima-dona à la même place, chantant encore : « Grâce pour toi-même et grâce pour moi ».</s>
 </p>
 </sp>
-<sp stage="laugh" who="DOLICARD, ANSELME"><speaker>DOLICARD et ANSELME, riant.</speaker>
+<sp who="DOLICARD, ANSELME"><speaker>DOLICARD et ANSELME</speaker><stage type="laugh">, riant.
+</stage>
 <p id="31">
 	<s id="1">Ah ! ah ! ah !</s>
 </p>
@@ -663,7 +673,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dolicard, Anselme.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dolicard, Anselme.
+</stage>
 <sp who="ANSELME"><speaker>ANSELME.</speaker>
 <p id="1">
 	<s id="1">Que pensez-vous de tout ceci, mon frère ?</s>
@@ -703,7 +714,8 @@
 	<l id="67">Hardiment me proposera</l>
 	<l id="68">De le jouer sans les paroles.</l>
 </sp>
-<sp stage="laugh" who="ANSELME"><speaker>ANSELME, riant. </speaker>
+<sp who="ANSELME"><speaker>ANSELME</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="6">
 	<s id="1">Qu'on mette en pratique des idées à tel point extraordinaires et elles amèneront de singuliers résultats !</s>
 </p>
@@ -718,7 +730,8 @@
 	<l id="76">Car du chef-d'oeuvre il ne restera rien.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Dolicard, Anselme, Lucinet.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Dolicard, Anselme, Lucinet.
+</stage>
 <sp who="LUCINET"><speaker>LUCINET.</speaker>
 <p id="1">
 	<s id="1">On m'a dit que je pouvais entrer. </s>
@@ -783,13 +796,15 @@
 	<l id="79">Lorsqu'on les a reçus chez soi,</l>
 	<l id="80">On ne peut les mettre à la porte.</l>
 </sp>
-<sp stage="laugh" who="LUCINET"><speaker>LUCINET, riant.</speaker>
+<sp who="LUCINET"><speaker>LUCINET</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="81">Bah ! Chacun de nous a raison. ...</l>
 	<l id="82">Nous parlons, vous, par coq-à-l'âne ;</l>
 	<l id="83">De la porte de la maison,</l>
 	<l id="84">Et moi de la Porte-Ottomane.</l>
 </sp>
-<sp stage="laugh" who="DOLICARD, ANSELME"><speaker>DOLICARD et ANSELME, riant aussi. </speaker>
+<sp who="DOLICARD, ANSELME"><speaker>DOLICARD et ANSELME</speaker><stage type="laugh">, riant aussi. 
+</stage>
 <p id="11">
 	<s id="1">Ah ! ah ! ah ! </s>
 	<s id="2">C'est bien différent !</s>
@@ -887,7 +902,8 @@
 	<s id="1">Les Chiens du Mont Saint-Bernard.</s>
 </p>
 </sp>
-<sp stage="toward" who="DOLICARD"><speaker>DOLICARD, en s'adressant à Anselme.</speaker>
+<sp who="DOLICARD"><speaker>DOLICARD</speaker><stage type="toward">, en s'adressant à Anselme.
+</stage>
 <note type="C">Les Chiens du Mont Saint-Bernard est un mélodrame en cinq actes, de Benjamin Antier, représente pour la première fois le 24 août 1838 au Théâtre de l'Ambigu comique.</note>
 <p id="27">
 	<s id="1">Nous avons vu jouer cette pièce à l'Ambigu-Comique.</s>
@@ -957,7 +973,8 @@
 	<l id="108">Nous allons réfléchir mieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Dolicard , Anselme.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Dolicard , Anselme.
+</stage>
 <sp who="DOLICARD"><speaker>DOLICARD.</speaker>
 <p id="1">
 	<s id="1">Mon frère, je ne veux pas pousser les choses plus loin. </s>
@@ -1008,7 +1025,8 @@
 	<l id="116">Et moi par un Jocrisse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Dolicard, Stanislas.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Dolicard, Stanislas.
+</stage>
 <sp who="STANISLAS"><speaker>STANISLAS.</speaker>
 	<l id="117">J'arrive dans ces lieux et non sans dessein, car</l>
 	<l id="118">J'ai besoin de parler à Monsieur Dolicard.</l>
@@ -1088,7 +1106,8 @@
 	<s id="2">Mais enfin, Monsieur, daignerez-vous m'apprendre le motif qui vous amène ici ?</s>
 </p>
 </sp>
-<sp stage="get" who="STANISLAS"><speaker>STANISLAS, tirant deux sabres de dessous sa redingote.</speaker>
+<sp who="STANISLAS"><speaker>STANISLAS</speaker><stage type="get">, tirant deux sabres de dessous sa redingote.
+	</stage>
 	<l id="157">Très volontiers... Monsieur, vous m'avez insulté,</l>
 	<l id="158">Et je viens châtier votre témérité.</l>
 	<l id="159">Vous deviez bien penser qu'un ancien militaire</l>
@@ -1138,7 +1157,8 @@
 	<l id="185">Oui, sachez-le, Monsieur : quand on me pousse à bout,</l>
 	<l id="186">Je deviens furieux et capable de tout !</l>
 </sp>
-<sp stage="aparte" who="DOLICARD"><speaker>DOLICARD, à part.</speaker>
+<sp who="DOLICARD"><speaker>DOLICARD</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Cet homme est fou ; il m'épouvante. </s>
 </p>
@@ -1156,8 +1176,10 @@
 <stage type="dress">Pendant que Dolicard appelle à son secours, Stanislas jette par terre son chapeau, ses moustaches postiches, sa redingote, un des deux sabres et se retrouve vêtu en jeune homme.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE XI ET DERNIÈRE. Dolicard, Anselme, Déligny.</head>
-<sp stage="watch" who="DOLICARD"><speaker>DOLICARD, en voyant entrer Anselme. </speaker>
+<div2 type="scene" n="9"><head>SCÈNE XI ET DERNIÈRE.</head><stage> Dolicard, Anselme, Déligny.
+</stage>
+<sp who="DOLICARD"><speaker>DOLICARD</speaker><stage type="watch">, en voyant entrer Anselme. 
+</stage>
 <p id="1">
 	<s id="1">Enfin !</s>
 </p>
@@ -1167,7 +1189,8 @@
 	<s id="2">Déligny, mon neveu !</s>
 </p>
 </sp>
-<sp stage="show" who="DÉLIGNY"><speaker>DÉLIGNY, lui montrant, du bout du sabre qu'il a gardé dans sa main, le chapeau, les moustaches, la redingote et l'autre sabre.</speaker>
+<sp who="DÉLIGNY"><speaker>DÉLIGNY</speaker><stage type="show">, lui montrant, du bout du sabre qu'il a gardé dans sa main, le chapeau, les moustaches, la redingote et l'autre sabre.
+</stage>
 <p id="3">
 	<s id="1">Votre neveu lui-même qui est accouru pour prendre votre défense et qui a déjà châtié l'insolent qui vous menaçait. </s>
 	<s id="2">Le voilà étendu par terre.</s>

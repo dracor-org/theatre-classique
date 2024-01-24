@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,25 +28,25 @@
 		<docTitle>
 			<titlePart type="main">ORESTE ET PYLADE.</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881. Tous droits réservés.</docDate>
-		<docAuthor id='MOINAUX, Jules'>par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
+		<docDate value="1881">1881. Tous droits réservés.</docDate>
+		<docAuthor id="MOINAUX, Jules">par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
-			<printer id='NOBLET'>8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
+			<editor id="ALBIN MICHEL">PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
+			<printer id="NOBLET">8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age='A' stat_amour='néant'>LE NARRATEUR</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
-			<castItem><role id="GARANCIER" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>GARANCIER</role>.</castItem>
-			<castItem><role id="LE TÉMOIN" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE PRÉVENU</role>.</castItem>
-			<castItem><role id="FONDANT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>FONDANT</role>.</castItem>
+			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age="A" stat_amour="néant">LE NARRATEUR</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="GARANCIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GARANCIER</role>.</castItem>
+			<castItem><role id="LE TÉMOIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PRÉVENU</role>.</castItem>
+			<castItem><role id="FONDANT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">FONDANT</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de MOINAUX, Jules, "Les tribunaux comiques", Paris, Chevalier-Marescq éditeur, 1881. pp 253-257</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ORESTE ET PYLADE.</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="LE NARRATEUR"><speaker>LE NARRATEUR.</speaker>
 <note type="C">Paglion : Petit fleuve niçois qui coule en ville, son nom actuel est le Paillon.</note>
 <p id="1">
@@ -86,12 +86,14 @@
 	<s id="1">Un témoin est entendu : Passant rue_Pagevin, dit-il, je vois du monde amassé autour d'un homme ivre, qui était allongé sur le trottoir.</s>
 </p>
 </sp>
-<sp stage="location" who="GARANCIER"><speaker>GARANCIER, de sa place.</speaker>
+<sp who="GARANCIER"><speaker>GARANCIER</speaker><stage type="location">, de sa place.
+</stage>
 <p id="8">
 	<s id="1">C'était moi.</s>
 </p>
 </sp>
-<sp who="LE TÉMOIN"><speaker>LE TÉMOIN (se retournant). —</speaker>
+<sp who="LE TÉMOIN"><speaker>LE TÉMOIN</speaker><stage> (se retournant).
+</stage>
 <p id="9">
 	<s id="1">Ah !... </s>
 	<s id="2">Possible, je ne vous reconnais pas.</s>
@@ -107,7 +109,8 @@
 	<s id="1">Auprès de lui était celui-ci (le prévenu) qui fouillait l'ivrogne.</s>
 </p>
 </sp>
-<sp stage="offended" who="GARANCIER"><speaker>GARANCIER, froissé.</speaker>
+<sp who="GARANCIER"><speaker>GARANCIER</speaker><stage type="offended">, froissé.
+</stage>
 <p id="12">
 	<s id="1">Ivrogne !</s>
 </p>
@@ -179,7 +182,8 @@
 	<s id="3">Je le pose à l'entrée d'une allée et je vas dans la maison demander un verre d'eau pour mon ami, mais il n'en a pas voulu. Alors, je prends son porte-monnaie dans sa poche, au vu et au su de la société qui était présente.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT, au témoin précédent.</speaker>
+<sp who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT</speaker><stage type="toward">, au témoin précédent.
+</stage>
 <p id="24">
 	<s id="1">Est-ce qu'il prenait le porte-monnaie ostensiblement ?</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -29,29 +29,30 @@
 			<titlePart type="sub">Représentée par les Comédiens Italiens le 5 juin 1754</titlePart>
 			<titlePart type="sub">Le prix est de 24 sols avec la musique.</titlePart>			
 		</docTitle> 
-		<docDate value='1754'>M. DCC. LIV. Avec Approbation et Privilège du Roi.</docDate>
+		<docDate value="1754">M. DCC. LIV. Avec Approbation et Privilège du Roi.</docDate>
 		<docAuthor id="FAVART, Charles-Simon">Par MR. D.G.G.M.D.E.E.F.D.T.</docAuthor>
 		<docImprint>
-			<printer id='DUSCHESNE'>Chez DUCHESNE, Libraire, rue Saint Jacques, au-dessous de la Fontaine Saint Benoît, au Temple du Goût.</printer>
+			<printer id="DUSCHESNE">Chez DUCHESNE, Libraire, rue Saint Jacques, au-dessous de la Fontaine Saint Benoît, au Temple du Goût.</printer>
 		</docImprint>
 		<div type="approbation"><head>APPROBATION.</head>
 			<p>J'ai lu par ordre de Monseigneur Le Chancelier, l'Amant déguisé, Parodie faisant partie du nouveau Recueil de Pièces de Théâtre, et je crois que l'on en peut en permettre l'impression. À Paris, ce 17 Juin 1754.</p>
 			<p>CRÉBILLON.</p>
 		</div>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="DAPHNIS" sex="2" type="H" statut="berger" age="A" stat_amour='néant'>DAPHNIS</role>, berger déguisé sous l'habit de Justine sa soeur autrefois Confidente de Thémire. Monsieur ROCHARD.</castItem>
-			<castItem><role id="THÉMIRE" sex="1" type="H" statut="berger" age="A" stat_amour='néant'>THÉMIRE</role>, Bergère. Madame FAVART.</castItem>
-			<castItem><role id="SCHNAPAN" sex="1" type="H" statut="garde-chasse" age="A" stat_amour='néant'>SCHNAPAN</role>, Garde-chasse. M. CHANVILLE.</castItem>
-			<castItem><role id="TROUPE DE BERGERS ET BERGÈRES" sex="9" type="H" statut="berger" age="A" stat_amour='néant'>TROUPE DE BERGERS ET BERGÈRES</role>.</castItem>
-			<castItem><role id="TROUPE DE CHASSEURS" sex="1" type="H" statut="chasseur" age="A" stat_amour='néant'>TROUPE DE CHASSEURS</role>.</castItem>
+			<castItem><role id="DAPHNIS" sex="2" type="H" statut="berger" age="A" stat_amour="néant">DAPHNIS</role>, berger déguisé sous l'habit de Justine sa soeur autrefois Confidente de Thémire. Monsieur ROCHARD.</castItem>
+			<castItem><role id="THÉMIRE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">THÉMIRE</role>, Bergère. Madame FAVART.</castItem>
+			<castItem><role id="SCHNAPAN" sex="1" type="H" statut="garde-chasse" age="A" stat_amour="néant">SCHNAPAN</role>, Garde-chasse. M. CHANVILLE.</castItem>
+			<castItem><role id="TROUPE DE BERGERS ET BERGÈRES" sex="9" type="H" statut="berger" age="A" stat_amour="néant">TROUPE DE BERGERS ET BERGÈRES</role>.</castItem>
+			<castItem><role id="TROUPE DE CHASSEURS" sex="1" type="H" statut="chasseur" age="A" stat_amour="néant">TROUPE DE CHASSEURS</role>.</castItem>
 		</castList>
-		<set location='Lieu inconnu' country='Pays imaginaire' periode='XVIIème' gps=""></set>
+		<set location="Lieu inconnu" country="Pays imaginaire" periode="XVIIème" gps=""/>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>L'AMANT DÉGUISÉ</head>
 <stage type="décor/costume">Le théâtre représente des bergers.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="costume" who="DAPHNIS"><speaker>DAPHNIS, déguisé.</speaker>
+<sp who="DAPHNIS"><speaker>DAPHNIS</speaker><stage type="costume">, déguisé.
+</stage>
 <stage type="title">AIR. Di que st'alma, il fior tormento, etc.</stage>
 	<l id="1">J'aime une bergère,</l>
 	<l id="2">Du hameau, c'est la plus fière,</l>
@@ -90,7 +91,8 @@
 	<l id="34">Je lirai bien mieux dans son coeur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Daphnis, Themire.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Daphnis, Themire.
+</stage>
 <sp who="THÉMIRE"><speaker>THÉMIRE.</speaker>
 <stage type="title">AIR. Pour Janete, etc.</stage>
 	<l id="35">Que la fête,</l>
@@ -122,7 +124,8 @@
 	<l id="56">Mais quel trouble m'inspire :</l>
 	<l id="57">Dois-je en croire mes yeux.</l>
 </sp>
-<sp stage="aparte" who="DAPHNIS"><speaker>DAPHNIS, à part.</speaker>
+<sp who="DAPHNIS"><speaker>DAPHNIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="58">Thémire,</l>
 	<l id="59">Soupire,</l>
 	<l id="60">Est-ce un présage heureux !</l>
@@ -253,7 +256,8 @@
 	<l id="129">Fuyons, fuyons...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Daphnis, Thémire, Schnapan.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Daphnis, Thémire, Schnapan.
+</stage>
 <sp who="SCHNAPAN"><speaker>SCHNAPAN.</speaker>
 	<l id="130">Point de frayeur.</l>
 </sp>
@@ -381,7 +385,8 @@
 <stage type="EXIT">Il sortesasuite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Daphnis, Thémire.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Daphnis, Thémire.
+</stage>
 <sp who="THÉMIRE"><speaker>THÉMIRE.</speaker>
 <stage type="title">AIR. Contre un engagement, etc.</stage>
 	<l id="217">Viens vite, suis mes pas</l>
@@ -400,7 +405,8 @@
 <sp who="THÉMIRE"><speaker>THÉMIRE.</speaker>
 	<l id="222">Restons... Non, non, viens-t'en...</l>
 </sp>
-<sp stage="aparte" who="DAPHNIS"><speaker>DAPHNIS, à part.</speaker>
+<sp who="DAPHNIS"><speaker>DAPHNIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="223">Ah ! qu'il est difficile  </l>
 	<l id="224">De cacher son tourment.</l>
 </sp>
@@ -601,7 +607,8 @@
 	<l id="347">Rien n'est si doux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Daphnis, Thémire, Schnapan.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Daphnis, Thémire, Schnapan.
+</stage>
 <sp who="SCHNAPAN"><speaker>SCHNAPAN.</speaker>
 <stage type="title">AIR. Ça n'vous va brin, etc.</stage>
 	<l id="348">Sarpegueun' Mademoisel' Thémire,</l>

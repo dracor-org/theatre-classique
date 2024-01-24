@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,17 +28,17 @@
 		<titlePart type="main">LA FLEUR DE TLEMCEN</titlePart>
 		<titlePart type="sub">COMÉDIE</titlePart>
 	</docTitle> 
-	<docDate value='1876'>1876</docDate>
-	<docAuthor id='LEGOUVÉ, Emile'>de M. E. LEGOUVÉ.</docAuthor>
+	<docDate value="1876">1876</docDate>
+	<docAuthor id="LEGOUVÉ, Emile">de M. E. LEGOUVÉ.</docAuthor>
 	<docImprint>
-			<printer id='SCHILLER'>PARIS, Charles SCHILLER, Imprimeur breveté, 10, Faubourg Montmartre.</printer>
+			<printer id="SCHILLER">PARIS, Charles SCHILLER, Imprimeur breveté, 10, Faubourg Montmartre.</printer>
 	</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id='LA MARQUISE DE MONTRICHARD' sex="2" type="H" statut="marquise" age="A" stat_amour='néant'>LA MARQUISE DE MONTRICHARD</role>.</castItem>
-		<castItem><role id='JULIE' sex="2" type="H" statut="aristocrate" age="J" stat_amour='Le Colonel'>JULIE</role>, sa fille.</castItem> 
-		<castItem><role id='MISS JACKSON' sex="2" type="H" statut="institutrice" age="A" stat_amour='néant'>MISS JACKSON</role>, institutrice de Julie.</castItem>
-		<castItem><role id='LE COLONEL DE SAQUEVILLE' sex="1" type="H" statut="colonel" age="A" stat_amour='néant'>LE COLONEL DE SAQUEVILLE</role>.</castItem> 
-		<castItem><role id='MONSIEUR SÉVIN' sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR SÉVIN</role>.</castItem>  
+		<castItem><role id="LA MARQUISE DE MONTRICHARD" sex="2" type="H" statut="marquise" age="A" stat_amour="néant">LA MARQUISE DE MONTRICHARD</role>.</castItem>
+		<castItem><role id="JULIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="Le Colonel">JULIE</role>, sa fille.</castItem> 
+		<castItem><role id="MISS JACKSON" sex="2" type="H" statut="institutrice" age="A" stat_amour="néant">MISS JACKSON</role>, institutrice de Julie.</castItem>
+		<castItem><role id="LE COLONEL DE SAQUEVILLE" sex="1" type="H" statut="colonel" age="A" stat_amour="néant">LE COLONEL DE SAQUEVILLE</role>.</castItem> 
+		<castItem><role id="MONSIEUR SÉVIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR SÉVIN</role>.</castItem>  
 	</castList>
 <set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe dans une maison de campagne aux environs de Paris, chez la marquise de Montrichard.</set> 
 </front>
@@ -46,7 +46,8 @@
 <div1 type="act" n="1"><head>LA FLEUR DE TLEMCEN</head> 
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head> 
 <stage type="decor">Le théâtre représente un salon élégant dans une maison de campagne.</stage>
-<sp stage="alone/dress" who="LA MARQUISE"><speaker>LA MARQUISE, seule. Toilette de femme de quarante ans.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone/dress">, seule. Toilette de femme de quarante ans.
+</stage>
 <p id="1">
 	<s id="1">Le colonel de Saqueville revient !... </s>
  	<s id="2">Il revient aujourd'hui ! </s>
@@ -78,7 +79,8 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="2"><head>SCÈNE II. La même, Julie, Miss Jackson, Monsieur Sévin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La même, Julie, Miss Jackson, Monsieur Sévin.
+</stage>
 <sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN.</speaker>
 <p id="1">
 	<s id="1">Madame_la_Marquise, voici les derniers statuts de l'oeuvre.</s>
@@ -90,17 +92,20 @@
 </p>
 <stage type="sit">Tout le monde s'assied. La marquise et Monsieur Sévin à gauche; Julie et Miss Jackson à droite travaillant.</stage>
 </sp>
-<sp stage="read" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, lisant.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="read">, lisant.
+</stage>
 <p id="3">
 	<s id="1">« Art. 71. Toute pensionnaire de l'asile de Notre-Dame de Repentance qui manquerait deux fois à la prière du matin ou à celle du soir, qui troublerait l'ordre par des chants profanes, ou qui désobéirait à Madame la Supérieure ou aux dames protectrices, qui écrirait des lettres ou en recevrait de son séducteur... »</s>
 </p>
 </sp>
-<sp stage="low" who="LA MARQUISE"><speaker>LA MARQUISE, bas.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="low">, bas.
+</stage>
 <p id="4">
 	<s id="1">Passez, Monsieur Sévin !</s>
 </p>
 </sp>
-<sp stage="splutter" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, bredouillant.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="splutter">, bredouillant.
+</stage>
 <p id="5">
 	<s id="1">Brr... br... </s>
 	<s id="2">« Ou qui introduirait un roman dans la maison, sera chassée sur-le-champ, et déclarée indigne à jamais des bienfaits de l'association de Notre-Dame de Repentance... »</s>
@@ -130,7 +135,8 @@
 	<s id="2">Qu'est-ce que j'entends ?</s>
 </p>
 </sp>
-<sp stage="declamate" who="MISS JACKSON"><speaker>MISS JACKSON, avec l'accent anglais.</speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="declamate">, avec l'accent anglais.
+</stage>
 <p id="10">
 	<s id="1">Oh ! </s>
 	<s id="2">Miss Julia !</s>
@@ -165,7 +171,8 @@
 	<s id="2">J'ai lu, par exemple...</s>
 </p>
 </sp>
-<sp stage="stop" who="LA MARQUISE"><speaker>LA MARQUISE, l'arrêtant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="16">
 	<s id="1">Julie ! </s>
 	<s id="2">Monsieur Sévin, vous la connaissez trop pour croire un mot de ce qu'elle va dire.</s>
@@ -220,7 +227,8 @@
 	<s id="2">Donnez-leur alors des pantoufles vertes.</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, lisant.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="read">, lisant.
+</stage>
 <p id="26">
 	<s id="1">« Lecture faite des articles de la constitution, » </s>
 	<s id="2">Car ; Madame, c'est une vraie constitution, c'est une charte que vous octroyez à l'asile de Notre-Dame de Repentance. </s>
@@ -243,7 +251,8 @@
 	<s id="1">Si on chantait votre bel hymne : Reine des deux, ton trône de nuages.</s>
 </p>
 </sp>
-<sp stage="closer" who="JULIE"><speaker>JULIE, allant à la marquise.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="closer">, allant à la marquise.
+</stage>
 <p id="30">
 	<s id="1">Mère, savez-vous ce qu'il faudrait pour finale ? </s>
 	<s id="2">Une polka échevelée ; monsieur Sévin, je voudrais- vous voir polker !</s>
@@ -281,7 +290,8 @@
 	<s id="2">Miss Julia !</s>
 </p>
 </sp>
-<sp stage="serious" who="LA MARQUISE"><speaker>LA MARQUISE, sérieuse.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="serious">, sérieuse.
+</stage>
 <p id="37">
 	<s id="1">Julie ! </s>
 	<s id="2">Vous me faites beaucoup de peine !</s>
@@ -324,13 +334,15 @@
 	<s id="1">Du reste, nous le saurons de lui-même, car je l'attends aujourd'hui avec son oncle, le colonel qui revient d'Afrique.</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, riant.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="laugh">, riant.
+</stage>
 <p id="44">
 	<s id="1">Ah ! </s>
 	<s id="2">Oui, Don Quichotte, comme on l'avait surnommé.</s>
 </p>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à sa mère.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à sa mère.
+</stage>
 <p id="45">
 	<s id="1">Pourquoi Don Quichotte, mère ?</s>
 </p>
@@ -341,7 +353,8 @@
 	<s id="2">Un jour, il sauva son régiment en défendant seul contre une nuée d'Arabes une entrée de ravin.</s>
 </p>
 </sp>
-<sp stage="emphasis" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, avec emphase.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="emphasis">, avec emphase.
+</stage>
 <note type="C">Horatius Coclès : (le Borgne) Héros antique romain qui, selon la légende, a contenu une armée Etrusques devant un pont sur le Tibre qu'il fit détruire derrière lui.</note>
 <p id="47">
 	<s id="1">Comme Horatius Coclès !</s>
@@ -354,7 +367,8 @@
 	<s id="3">Est-ce qu'il n'a plus qu'un oeil ?...</s>
 </p>
 </sp>
-<sp stage="serious" who="LA MARQUISE"><speaker>LA MARQUISE, un peu sévèrement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="serious">, un peu sévèrement.
+</stage>
 <p id="49">
 	<s id="1">Non ! </s>
 	<s id="2">Il en a été quitte pour six blessures.</s>
@@ -382,7 +396,8 @@
 	<s id="2">Mais le colonel a failli mourir, lui...</s>
 </p>
 </sp>
-<sp stage="quick" who="JULIE"><speaker>JULIE, vivement.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="54">
 	<s id="1">Il avait été blessé ?</s>
 </p>
@@ -421,7 +436,8 @@
 	<s id="3">Qu'est-ce donc que ce monsieur qui est à côté de lui ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LA MARQUISE"><speaker>LA MARQUISE, avec émotion.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="stress">, avec émotion.
+</stage>
 <p id="61">
 	<s id="1">C'est sans doute son oncle qu'il nous amène !</s>
 </p>
@@ -437,12 +453,14 @@
 	<s id="2">Nous ne sommes pas prêts de le revoir.</s>
 </p>
 </sp>
-<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, regardant au dehors.</speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage>, regardant au dehors.
+</stage>
 <p id="64">
 	<s id="1">Voici le colonel !</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, très troublée.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, très troublée.
+</stage>
 <p id="65">
 	<s id="1">Déjà ! </s>
 </p>
@@ -466,8 +484,10 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Julie, Miss Jackson, Le Colonel.</head>
-<sp stage="toward" who="LE COLONEL"><speaker>LE COLONEL, à la cantonade.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Julie, Miss Jackson, Le Colonel.
+</stage>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="toward">, à la cantonade.
+</stage>
 <p id="1">
 	<s id="1">C'est bien dans ce salon, n'est-ce pas ? </s>
 	<s id="2">Mille grâces, n'allez pas plus loin.</s>
@@ -485,7 +505,8 @@
 	<s id="1">Pardon, Mesdames, on m'avait dit que Madame la Marquise...</s>
 </p>
 </sp>
-<sp stage="work" who="JULIE"><speaker>JULIE, tout en travaillant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="work">, tout en travaillant.
+</stage>
 <p id="5">
 	<s id="1">Madame_la_Marquise était ici il y a cinq minutes ; mais elle s'est enfuie en vous entendant annoncer, colonel.</s>
 </p>
@@ -523,7 +544,8 @@
 	<s id="1">Je compte sur vous pour changer tout cela, Colonel !</s>
 </p>
 </sp>
-<sp stage="watch" who="LE COLONEL"><speaker>LE COLONEL, la regardant.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="watch">, la regardant.
+</stage>
 <p id="12">
 	<s id="1">Moi !... </s>
 	<s id="2">Mais ne me trompé-je pas ? </s>
@@ -571,7 +593,8 @@
 	<s id="3">Un ange bien occupé, allez !</s>
 </p>
 </sp>
-<sp stage="watch/tense" who="LE COLONEL"><speaker>LE COLONEL, la regardant avec affection.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="watch/tense">, la regardant avec affection.
+</stage>
 <p id="20">
 	<s id="1">Comment ! </s>
 	<s id="2">Voilà cette belle jeune fille qui va être ma nièce !... </s>
@@ -600,7 +623,8 @@
 	<s id="3">Moi...</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE COLONEL"><speaker>LE COLONEL, riant.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="laugh">, riant.
+</stage>
 <p id="24">
 	<s id="1">Vous, vous me les tiriez !...</s>
 </p>
@@ -623,7 +647,8 @@
 	<s id="1">Vous rappelez-vous que c'est par votre intervention que je suis allée à l'Opéra... avant l'âge... légal ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE COLONEL"><speaker>LE COLONEL, riant.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="laugh">, riant.
+</stage>
 <p id="28">
 	<s id="1">Oui ! </s>
 	<s id="2">Et que vous vous êtes endormie avant la fin... et que je vous ai portée dans la voiture !</s>
@@ -647,7 +672,8 @@
 	<s id="3">N'est-ce-pas que j'ai acquis bien du talent ?</s>
 </p>
 </sp>
-<sp who="LE COLONEL"><speaker>LE COLONEL, regardant la tapisserie.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage>, regardant la tapisserie.
+</stage>
 <p id="32">
 	<s id="1">Un verset du Coran... </s>
 	<s id="2">Mais qui vous a envoyé ce dessin ?</s>
@@ -658,7 +684,8 @@
 	<s id="1">C'est ma mère qui l'a fait venir d'Alger.</s>
 </p>
 </sp>
-<sp stage="stress" who="LE COLONEL"><speaker>LE COLONEL, avec émotion.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="stress">, avec émotion.
+</stage>
 <p id="34">
 	<s id="1">Vraiment ?</s>
 </p>
@@ -668,7 +695,8 @@
 	<s id="1">Imaginez-vous que depuis... depuis deux ans... depuis la mort de mon pauvre père... tout ici est à la mode arabe ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LE COLONEL"><speaker>LE COLONEL, ému.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="stress">, ému.
+</stage>
 <p id="36">
 	<s id="1">En vérité !</s>
 </p>
@@ -724,7 +752,8 @@
 	<s id="2">C'est que vous avez dix ans de plous.</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, éclatant de rire.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, éclatant de rire.
+</stage>
 <p id="46">
 	<s id="1">Ha ! ha ! ha ! </s>
 	<s id="2">Et lui... </s>
@@ -737,7 +766,8 @@
 	<s id="1">C'est juste !</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="48">
 	<s id="1">Je le crois ! </s>
 </p>
@@ -753,7 +783,8 @@
 	<s id="1">Et aujourd'hui, de quelque chose comme d'un bon diable !</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="51">
 	<s id="1">C'est cela, d'un bon diable qui fait des conquêtes, des razzias !... </s>
 	<s id="2">Colonel, avez-vous jamais été blessé ?</s>
@@ -781,20 +812,23 @@
 	<s id="8">Voilà !</s>
 </p>
 </sp>
-<sp stage="silence" who="JULIE"><speaker>JULIE, après un silence.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="silence">, après un silence.
+</stage>
 <p id="55">
 	<s id="1">Ah !... </s>
 	<s id="2">Colonel, jusqu'à quel âge entre-t-on dans les trompettes ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE COLONEL"><speaker>LE COLONEL, riant.</speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="laugh">, riant.
+</stage>
 <p id="56">
 	<s id="1">Vous avez passé cet âge-là... </s>
 	<s id="2">Ainsi, je n'ai pas besoin de vous répondre. </s>
 	<s id="3">Vous me dites donc que tout est à l'arabe dans cette maison ?</s>
 </p>
 </sp>
-<sp stage="show/location" who="JULIE"><speaker>JULIE, lui montrant un tableau accroché au mur.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="show/location">, lui montrant un tableau accroché au mur.
+</stage>
 <p id="57">
 	<s id="1">Tenez ! </s>
 	<s id="2">Encore une vue d'Alger, que ma mère a achetée l'autre jour.</s>
@@ -809,7 +843,8 @@
 	<s id="1">Cette petite maison blanche avec cette terrasse, c'est là que j'ai logé en sortant de l'hôpital.</s>
 </p>	
 </sp>
-<sp stage="quick" who="JULIE"><speaker>JULIE, vivement. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="quick">, vivement. 
+</stage>
 <p id="60">
 	<s id="1">Oui ! </s>
 	<s id="2">Quand vous avez sauvé ce petit trompette...</s>
@@ -870,19 +905,22 @@
 	<s id="4">For shame !</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, éclatant de rire.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, éclatant de rire.
+</stage>
 <p id="70">
 	<s id="1">Ha ! ha ! ha !</s>
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="4"><head>SCÈNE IV. Les Mêmes, Monsieur Sévin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les Mêmes, Monsieur Sévin.
+</stage>
 <sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN.</speaker>
 <p id="1">
 	<s id="1">Colonel !...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="JULIE"><speaker>JULIE, bas au colonel.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="low/toward">, bas au colonel.
+</stage>
 <p id="2">
 	<s id="1">Sévin, déjà nommé.</s>
 </p>
@@ -893,12 +931,14 @@
 	<s id="2">Et elle vous supplie de faire un tour de jardin en l'attendant.</s>
 </p>
 </sp>
-<sp stage="offended" who="LE COLONEL"><speaker>LE COLONEL, blessé. </speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="offended">, blessé. 
+</stage>
 <p id="4">
 	<s id="1">Ah !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="JULIE"><speaker>JULIE, bas au colonel.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="low/toward">, bas au colonel.
+</stage>
 <p id="5">
 	<s id="1">J'avais raison, n'est-ce pas ? </s>
 	<s id="2">Odieux !</s>
@@ -935,7 +975,8 @@
 	<s id="1">O mattutini alberi...</s>
 </p>
  <stage type="exit/together/sing">Elle sort en chantant avec le colonel.</stage></sp>
-<sp who="MISS JACKSON"><speaker>MISS JACKSON, la suivant tout effarée.</speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage>, la suivant tout effarée.
+</stage>
 <p id="11">
 	<s id="1">Miss Julia ! </s>
 	<s id="2">Miss Julia ! </s>
@@ -945,8 +986,10 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Sévin, La Marquise.</head>
-<sp stage="carry" who="LA MARQUISE"><speaker>LA MARQUISE. Elle entre tenant des épreuves à la main.</speaker> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Sévin, La Marquise.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker><stage type="carry"> Elle entre tenant des épreuves à la main. 
+</stage> 
 <stage type="toward">À Sévin. </stage> 
 <p id="1">
 	<s id="1">Voilà mon épreuve presque corrigée.</s>
@@ -957,7 +1000,8 @@
 	<s id="1">J'espère que vous n'avez rien changé au chapitre des veuves....</s>
 </p>
 </sp>
-<sp stage="read" who="LA MARQUISE"><speaker>LA MARQUISE, relisant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="read">, relisant.
+</stage>
 <p id="3">
 	<s id="1">Non ! </s>
 	<s id="2">Pas à celui-là... </s>
@@ -974,7 +1018,8 @@
 </sp> 
 </div2> 
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="LA MARQUISE"><speaker>LA MARQUISE seule, jetant ses épreuves avec dépit sur la table.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone"> seule, jetant ses épreuves avec dépit sur la table.
+</stage>
 <p id="1">
 	<s id="1">Eh ! </s>
 	<s id="2">Que me font les livres ! </s>
@@ -1012,8 +1057,10 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="7"><head>SCÈNE VII. La Marquise, Julie, Miss Jackson.</head>
-<sp stage="lost/location" who="MISS JACKSON"><speaker>MISS JACKSON, tout éperdue dans la coulisse.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Marquise, Julie, Miss Jackson.
+</stage>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="lost/location">, tout éperdue dans la coulisse.
+</stage>
 <p id="1">
 	<s id="1">Oh ! </s>
 	<s id="2">Miss Julia ! </s>
@@ -1023,7 +1070,8 @@
 	<s id="6">Madame_la_Marquise comme elle sera fâchée quand elle saura !...</s>
 </p>
 </sp>
-<sp stage="closer" who="LA MARQUISE"><speaker>LA MARQUISE, s'avançant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="closer">, s'avançant.
+</stage>
 <p id="2">
 	<s id="1">Qu'y a-t-il donc ?</s>
 </p>
@@ -1036,7 +1084,8 @@
 	<s id="4">Si vous vous étiez noyée !...</s>
 </p>	
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="4">
 	<s id="1">Ha ! ha ! ha !</s>
 </p>
@@ -1064,12 +1113,14 @@
 	<s id="1">Le colonel !</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="9">
 	<s id="1">Il avait l'air de Neptune, avec ses moustaches pendantes...</s>
 </p>
 </sp>
-<sp stage="nervous" who="LA MARQUISE"><speaker>LA MARQUISE, avec impatience.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="nervous">, avec impatience.
+</stage>
 <p id="10">
 	<s id="1">Mais qu'est-il arrivé enfin, malheureuse enfant ?...</s>
 </p>
@@ -1162,7 +1213,8 @@
 	<s id="2">Lui !...</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, riant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage>, riant.
+</stage>
 <p id="22">
 	<s id="1">Il ruisselait sur la grève comme un fleuve !</s>
 </p>
@@ -1229,7 +1281,8 @@
 	<s id="2">Il y a des jours où l'on croirait que vous n'avez pas de coeur.</s>
 </p>
 </sp>
-<sp stage="serious" who="JULIE"><speaker>JULIE, devenant tout_à_coup sérieuse.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="serious">, devenant tout_à_coup sérieuse.
+</stage>
 <p id="32">
 	<s id="1">Moi ! </s>
 	<s id="2">Chère mère ! </s>
@@ -1239,7 +1292,8 @@
 	<s id="1">Mais vous ne savez donc pas combien je vous aime !</s>
 </p>
 </sp>
-<sp stage="tender" who="LA MARQUISE"><speaker>LA MARQUISE, tendrement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="tender">, tendrement.
+</stage>
 <p id="34">
 	<s id="1">Voilà un mot qui me fait du bien. </s>
 	<s id="2">J'ai toujours si peur qu'on ne te juge mal ! </s>
@@ -1255,9 +1309,11 @@
 <stage type="exit">Elle sort.</stage>
 </sp> 
 </div2> 
-<div2 type="scene" n="8"><head>SCÈNE VIII. Julie, Miss Jackson.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Julie, Miss Jackson. 
+</stage> 
 <stage type="get/sit">Miss Jackson prend son ouvrage et s'assied à gauche.</stage>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">L'Afrique ! </s>
 	<s id="2">Le désert ! </s>
@@ -1281,7 +1337,8 @@
 	<s id="2">Cela doit bien faire, la nuit, au bivouac, par un beau clair de lune.</s>
 </p>
 </sp>
-<sp stage="tender" who="MISS JACKSON"><speaker>MISS JACKSON, sentimentale.</speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="tender">, sentimentale.
+</stage>
 <p id="5">
 	<s id="1">Oui.... mais Bellini !</s>
 </p>
@@ -1401,7 +1458,8 @@
 	<s id="1">Non, miss Julia ; vous ne vous ennuierez pas !</s>
 </p>
 </sp>
-<sp stage="wave" who="JULIE"><speaker>JULIE, étendant la main.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="wave">, étendant la main.
+</stage>
 <p id="26">
 	<s id="1">Non, je ne m'ennuierai pas, j'en fais le serment. </s>
 	<s id="2">Miss Jackson, sans bêtises, c'est que je suis amoureuse passionnée, miss Jackson. </s>
@@ -1548,7 +1606,8 @@
 	<s id="8">J'entends quelqu'un.</s>
 </p>
 </sp>
-<sp stage="watch/location" who="MISS JACKSON"><speaker>MISS JACKSON, regardant dehors.</speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="watch/location">, regardant dehors.
+</stage>
 <p id="45">
 	<s id="1">Oh ! </s>
 	<s id="2">Miss Julia ! </s>
@@ -1559,8 +1618,10 @@
  <stage type="entrance">Le colonel entre.</stage>
  </sp> 
  </div2> 
- <div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, Le Colonel.</head>
- <sp stage="closer/wave" who="JULIE"><speaker>JULIE, allant à lui, et le saluant comiquement.</speaker>
+ <div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, Le Colonel.
+ </stage>
+ <sp who="JULIE"><speaker>JULIE</speaker><stage type="closer/wave">, allant à lui, et le saluant comiquement.
+</stage>
 <p id="1">
 	<s id="1">Salamâlec !</s>
 </p>
@@ -1601,7 +1662,8 @@
 	<s id="1">Demandez-lui ce que nous faisions et ce que nous disions.</s>
 </p>
 </sp>
-<sp stage="low" who="MISS JACKSON"><speaker>MISS JACKSON, bas.</speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="low">, bas.
+</stage>
 <p id="8">
 	<s id="1">For shame !</s>
 </p>
@@ -1626,7 +1688,8 @@
 	<s id="2">Dites-moi, vous avez vu Louis, hier ?</s>
 </p>
 </sp>
-<sp stage="think" who="JULIE"><speaker>JULIE, avec distraction. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="think">, avec distraction. 
+</stage>
 <p id="12">
 	<s id="1">Si je l'ai vu hier... </s>
 	<s id="2">Attendez...</s>
@@ -1772,7 +1835,8 @@
 	<s id="1">C'est qu'elle corrige ses épreuves.</s>
 </p>
 </sp>
-<sp stage="silence" who="LE COLONEL"><speaker>LE COLONEL, après un silence. </speaker>
+<sp who="LE COLONEL"><speaker>LE COLONEL</speaker><stage type="silence">, après un silence. 
+</stage>
 <p id="34">
 	<s id="1">Ah !... </s>
 	<s id="2">Ainsi vous aimez... </s>
@@ -1782,7 +1846,8 @@
 	<s id="6">Au moins, celui que vous aimez, êtes-vous sûre qu'il soit digne de vous ?</s>
 </p>
 </sp>
-<sp stage="strong" who="JULIE"><speaker>JULIE, avec force. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="strong">, avec force. 
+</stage>
 <p id="35">
 	<s id="1">Oui !</s>
 </p>
@@ -1820,7 +1885,8 @@
 	<s id="4">Je tremble, quand je pense qu'un homme peut ensorceler une pauvre jeune fille, parce qu'il danse bien.</s>
 </p>
 </sp>
-<sp stage="happy" who="JULIE"><speaker>JULIE, gaiement. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="happy">, gaiement. 
+</stage>
 <p id="41">
 	<s id="1">Oh ! </s>
 	<s id="2">Pour cela, je parie qu'il danse fort mal.</s>
@@ -1859,7 +1925,8 @@
 	<s id="5">Mais c'est donc un imbécile ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant. </speaker> 
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant.  
+</stage> 
 <p id="47">
 	<s id="1">Oui... ou bien peut-être il ne se rend pas justice.</s>
 </p>
@@ -1873,7 +1940,8 @@
 	<s id="5">Enfin, ce bel inconnu...</s>
 </p>
 </sp>
-<sp stage="stand/anxious" who="MISS JACKSON"><speaker>MISS JACKSON, se levant avec inquiétude. </speaker>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="stand/anxious">, se levant avec inquiétude. 
+</stage>
 <p id="49">
 	<s id="1">Miss Julia, Madame_la_Marquise doit avoir fini. </s>
 	<s id="2">Je vais la prévenir que le colonel est ici...</s>
@@ -1916,8 +1984,10 @@
 <stage type="exit/location/entrance/location/watch">Il sort par le fond en tournant à droite. Monsieur Sévin paraît du côté gauche et suit des yeux le colonel qui s'éloigne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Miss Jackson, Monsieur Sévin.</head>
-<sp stage="lost/location" who="MISS JACKSON"><speaker>MISS JACKSON, sur le devant de la scène, tout éperdue. </speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Miss Jackson, Monsieur Sévin.
+</stage>
+<sp who="MISS JACKSON"><speaker>MISS JACKSON</speaker><stage type="lost/location">, sur le devant de la scène, tout éperdue. 
+</stage>
 <p id="1">
 	<s id="1">Good heavens... I have... jamais...</s>
 </p>
@@ -1936,7 +2006,8 @@
 	<s id="4">Oh ! My Lord !... une jeune fille !</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, riant. </speaker>
+<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="4">
 	<s id="1">Hé, bon Dieu !... </s>
 	<s id="2">Miss Jackson, qu'avez-vous donc aussi ?... </s>
@@ -1951,9 +2022,11 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, La Marquise.</head> 
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les mêmes, La Marquise. 
+</stage> 
 <stage type="entrance">Elle entre par le côté opposé à celui où est sortie Julie. Elle est coiffée en cheveux avec des rubans et porte une toilette élégante.</stage>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, à Sévin.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, à Sévin.
+</stage>
 <p id="1">
 	<s id="1">Mon cher monsieur Sévin, veuillez rejoindre le colonel et lui dire que je veux absolument lui parler avant son départ.</s>
 </p>
@@ -1977,7 +2050,7 @@
  </sp> 
  </div2> 
  <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, seule; elle va à l'endroit où la fleur jetée par Julie est tombée, la ramasse et après un moment de silence :</speaker>  <p id="1">
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, seule; elle va à l'endroit où la fleur jetée par Julie est tombée, la ramasse et après un moment de silence :  </stage>  <p id="1">
 	<s id="1">L'aime-t-elle ? </s>
 	<s id="2">Est-ce une simple gaieté de cette folle tête ?... </s>
 	<s id="3">Les jeunes filles sont si enfants !... </s>
@@ -2011,8 +2084,10 @@
 </p>
 </sp> 
 </div2> 
-<div2 type="scene" n="13"><head>SCÈNE XIII. La Marquise, Julie.</head>
-<sp stage="entrance/happy" who="JULIE"><speaker>JULIE, entrant gaiement.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> La Marquise, Julie.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="entrance/happy">, entrant gaiement.
+</stage>
 <p id="1">
 	<s id="1">Vous me demandez, mère ! </s>
 </p>
@@ -2022,7 +2097,8 @@
 	<s id="2">Que vous êtes jolie ainsi !</s>
 </p>
 </sp>
-<sp stage="quick" who="LA MARQUISE"><speaker>LA MARQUISE, vivement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="3">
 	<s id="1">Tu trouves ?</s>
 </p>
@@ -2036,7 +2112,8 @@
 	<s id="5">Les beaux cheveux !</s>
 </p>	
 </sp>
-<sp stage="touched" who="LA MARQUISE"><speaker>LA MARQUISE, émue. </speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="touched">, émue. 
+</stage>
 <p id="5">
 	<s id="1">Vraiment ?</s>
 </p>
@@ -2120,7 +2197,8 @@
 	<s id="1">Non ! Je l'ai trouvée là... par terre...</s>
 </p>
 </sp>
-<sp stage="quick" who="JULIE"><speaker>JULIE, vivement.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="19">
 	<s id="1">Par terre !...</s>
 </p>
@@ -2136,7 +2214,8 @@
 	<s id="3">Elle t'intéresse donc beaucoup ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, éclatant de rire. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, éclatant de rire. 
+</stage>
 <p id="21">
 	<s id="1">Ha ! ha ! ha ! </s>
 	<s id="2">Tout est possible !... </s>
@@ -2175,7 +2254,8 @@
 	<s id="1">Mais !</s>
 </p>
 </sp>
-<sp stage="laugh" who="JULIE"><speaker>JULIE, riant plus fort. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="laugh">, riant plus fort. 
+</stage>
 <p id="28">
 	<s id="1">Est-ce qu'il aurait pris mon bouquet jeté pour une déclaration ?... </s>
 	<s id="2">Ha ! ha ! </s>
@@ -2301,7 +2381,8 @@
 	<s id="11">Mais je ne peux pas aimer moins !...</s>
 </p>
 </sp>
-<sp stage="silence" who="LA MARQUISE"><speaker>LA MARQUISE, après un silence. </speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="silence">, après un silence. 
+</stage>
 <p id="44">
 	<s id="1">Mais si... lui... il ne t'aimait pas ?</s>
 </p>
@@ -2317,7 +2398,8 @@
 	<s id="2">Et ce bouquet... qu'il n'a pas même ramassé ! </s>
 </p>
 </sp>
-<sp stage="pain" who="JULIE"><speaker>JULIE, suffoquée de douleur. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="pain">, suffoquée de douleur. 
+</stage>
 <p id="47">
 	<s id="1">Ce bouquet ? </s>
 	<s id="2">Mon bouquet !... </s>
@@ -2351,7 +2433,8 @@
 	<s id="1">Comment, mère, vous allez remettre ce bonnet que je déteste !</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="52">
 	<s id="1">Oui ! </s>
 	<s id="2">Oh ! </s>
@@ -2362,13 +2445,16 @@
 <stage type="entrance/dress/entrance">La femme de chambre rentre. La marquise met son bonnet et s'enveloppe de son manteau. À ce moment le colonel rentre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. La Marquise, Le Colonel, Julie.</head>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à sa mère. </speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> La Marquise, Le Colonel, Julie.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à sa mère. 
+</stage>
 <p id="1">
 	<s id="1">Lui !... </s>
 </p>
 </sp>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, au colonel. </speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, au colonel. 
+</stage>
 <p id="2">
 	<s id="1">Merci d'être venu, Colonel ! </s>
 </p>
@@ -2397,7 +2483,8 @@
 	<s id="2">Madame ! </s>
 </p>
 </sp>
-<sp stage="turn/toward/show" who="LA MARQUISE"><speaker>LA MARQUISE, se retournant vers sa fille, et la montrant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="turn/toward/show">, se retournant vers sa fille, et la montrant.
+</stage>
 <p id="6">
 	<s id="1">Heureusement... </s>
 	<s id="2">Me voilà... à vingt ans... telle que vous m'avez connue !... </s>
@@ -2409,7 +2496,8 @@
 	<s id="1">En effet !...</s>
 </p>
 </sp>
-<sp stage="give" who="LA MARQUISE"><speaker>LA MARQUISE, lui tendant la fleur. </speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="give">, lui tendant la fleur. 
+</stage>
 <p id="8">
 	<s id="1">Prouvez-le moi !... en recevant cette fleur de ma main !</s>
 </p>
@@ -2424,12 +2512,14 @@
 	<s id="1">Merci !</s>
 </p>
 </sp>
-<sp stage="hurry/kiss" who="JULIE"><speaker>JULIE, se précipitant sur la main de sa mère. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="hurry/kiss">, se précipitant sur la main de sa mère. 
+</stage>
 <p id="11">
 	<s id="1">Ma mère !... </s>
 </p>
 </sp>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, la regardant. </speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, la regardant. 
+</stage>
 <p id="12">
 	<s id="1">Pauvre enfant !... </s>
 	<s id="2">Quelle joie !... </s>
@@ -2442,4 +2532,4 @@
 </div1> 
 </body> 
 </text>  
-</TEI> 
+</TEI>

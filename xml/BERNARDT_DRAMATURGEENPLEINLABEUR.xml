@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">La pièce a été jouée dans une matinée de bienfaisance.</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,15 +38,15 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="L'AUTEUR" sex="1" type="H" statut="auteur" age="A" stat_amour=''>L'AUTEUR</role>.</castItem>
-		<castItem><role id="LE SECRÉTAIRE" sex="1" type="H" statut="secrétaire" age="A" stat_amour=''>LE SECRÉTAIRE</role>.</castItem> 
+		<castItem><role id="L'AUTEUR" sex="1" type="H" statut="auteur" age="A" stat_amour="">L'AUTEUR</role>.</castItem>
+		<castItem><role id="LE SECRÉTAIRE" sex="1" type="H" statut="secrétaire" age="A" stat_amour="">LE SECRÉTAIRE</role>.</castItem> 
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 79-86</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UN DRAMATURGE EN PLEIN LABEUR</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="costume/walk/ring">L'Auteur se promène de long en large dans son cabinet de travail, en robe de chambre. - Sonnerie de téléphone.</stage>
 <sp who="L'AUTEUR"><speaker>L'AUTEUR.</speaker>
 <p id="1">
@@ -131,7 +131,8 @@
 	<s id="1">Vous avez vu cette scène, Maître ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="L'AUTEUR"><speaker>L'AUTEUR, hésitant.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="11">
 	<s id="1">Je l'ai vue, oui... </s>
 	<s id="2">Enfin, je l'ai parcourue... </s>
@@ -175,7 +176,8 @@
 	<s id="3">Quel bonheur ce sera pour moi !</s>
 </p>
 </sp>
-<sp stge="quick" who="L'AUTEUR"><speaker>L'AUTEUR, vivement.</speaker>
+<sp stge="quick" who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage>, vivement.
+</stage>
 <p id="17">
 	<s id="1">Ce moment n'est pas arrivé. </s>
 	<s id="2">Mais en attendant, travaillons !</s>
@@ -281,7 +283,8 @@
 </p>
 <stage type="sad">L'Auteur a un geste accablé.</stage>
 </sp>
-<sp stage="toward" who="L'AUTEUR"><speaker>L'AUTEUR, au téléphone.</speaker>
+<sp who="L'AUTEUR"><speaker>L'AUTEUR</speaker><stage type="toward">, au téléphone.
+</stage>
 <p id="29">
 	<s id="1">Allô ! </s>
 	<s id="2">Allô ! </s>
@@ -291,7 +294,8 @@
 	<s id="6">Là-dessus, intervention du...</s>
 </p>
 </sp>
-<sp stage="quick" who="LE SECRÉTAIRE"><speaker>LE SECRÉTAIRE, vivement.</speaker>
+<sp who="LE SECRÉTAIRE"><speaker>LE SECRÉTAIRE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="30">
 	<s id="1">... Notaire !</s>
 </p>
@@ -354,7 +358,8 @@
 </p>
 <stage type="lie/location/knock">Il va s'étendre sur un divan, que cache à demi un paravent. On frappe à la porte.</stage>
 </sp>
-<sp stage="location" who="LE SECRÉTAIRE"><speaker>LE SECRÉTAIRE, sur le seuil.</speaker>
+<sp who="LE SECRÉTAIRE"><speaker>LE SECRÉTAIRE</speaker><stage type="location">, sur le seuil.
+</stage>
 <p id="38">
 	<s id="1">C'est vous, Bertin ? </s>
 	<s id="2">Pour votre interview ? </s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,28 +28,29 @@
 			<titlePart type="main">INTRIGUE ET MENSONGE</titlePart>
 			<titlePart type="sub">COMÉDIE EN DEUX ACTES</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="LA BARONNE D'ARZÈLE" sex="2" type="H" statut="baron" age='A' stat_amour='néant'>LA BARONNE D'ARZÈLE</role>.</castItem>
-			<castItem><role id="LAURETTE" sex="2" type="H" statut="baron" age='J' stat_amour='néant'>LAURETTE</role>, fille de la baronne.</castItem>
-			<castItem><role id="LISETTE" sex="2" type="H" statut="femme de chambre" age='A' stat_amour='néant'>LISETTE</role>, femme de chambre de la baronne.</castItem>
-			<castItem><role id="BÉLINDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>BÉLINDE</role>, amie de la baronne.</castItem>
-			<castItem><role id="MADAME ROGER" sex="2" type="H" statut="gouvernante" age='A' stat_amour='néant'>MADAME ROGER</role>, gouvernante de Laurette.</castItem>
-			<castItem><role id="LA MARQUISE DE BLÉVILLE" sex="2" type="H" statut="marquis" age='A' stat_amour='néant'>LA MARQUISE DE BLÉVILLE</role>.</castItem>
-			<castItem><role id="CAROLINE" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>CAROLINE</role>, fille de la marquise.</castItem>
-			<castItem><role id="UN VALET DE CHAMBRE" sex="1" type="H" statut="valet de chambre" age='A' stat_amour='néant'>UN VALET DE CHAMBRE</role>.</castItem>
+			<castItem><role id="LA BARONNE D'ARZÈLE" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE D'ARZÈLE</role>.</castItem>
+			<castItem><role id="LAURETTE" sex="2" type="H" statut="baron" age="J" stat_amour="néant">LAURETTE</role>, fille de la baronne.</castItem>
+			<castItem><role id="LISETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">LISETTE</role>, femme de chambre de la baronne.</castItem>
+			<castItem><role id="BÉLINDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">BÉLINDE</role>, amie de la baronne.</castItem>
+			<castItem><role id="MADAME ROGER" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">MADAME ROGER</role>, gouvernante de Laurette.</castItem>
+			<castItem><role id="LA MARQUISE DE BLÉVILLE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE DE BLÉVILLE</role>.</castItem>
+			<castItem><role id="CAROLINE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">CAROLINE</role>, fille de la marquise.</castItem>
+			<castItem><role id="UN VALET DE CHAMBRE" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="néant">UN VALET DE CHAMBRE</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris, chez la baronne.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Madame Roger, Lisette.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Madame Roger, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Oui, c'est très sûr... </s>
@@ -257,7 +258,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Laurette, Madame Roger, Lisette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Laurette, Madame Roger, Lisette.
+</stage>
 <sp who="LAURETTE"><speaker>LAURETTE.</speaker>
 <p id="1">
 	<s id="1">Ma bonne !... </s>
@@ -318,7 +320,8 @@
 	<s id="1">Mademoiselle, permettez-moi de vous arrêter là : Monsieur votre frère n'était point à Paris, il a passé tout l'hiver dernier à Strasbourg.</s>
 </p>
 </sp>
-<sp stage="laugh" who="MADAME ROGER"><speaker>MADAME ROGER, riant.</speaker>
+<sp who="MADAME ROGER"><speaker>MADAME ROGER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="7">
 	<s id="1">Ah, ah, ah, la pauvre enfant ! </s>
 	<s id="2">La voilà toute déroutée... </s>
@@ -330,7 +333,8 @@
 	<s id="1">Je n'en doute pas, Mademoiselle conte fort bien ; il ne lui manque que d'avoir la mémoire un peu plus sûre...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LAURETTE"><speaker>LAURETTE, embarrassée.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="embarrassed">, embarrassée.
+</stage>
 <p id="9">
 	<s id="1">Réellement... </s>
 	<s id="2">Je croyais... </s>
@@ -368,7 +372,8 @@
 	<s id="1">Eh bien, Mademoiselle, c'est que vous jasez trop ; je vous l'ai déjà dit...</s>
 </p>
 </sp>
-<sp who="LAURETTE"><speaker>LAURETTE, à Madame Roger.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage>, à Madame Roger.
+</stage>
 <p id="16">
 	<s id="1">Mais vous aimiez à m'entendre conter des histoires... je vous ai toujours vue en rire... </s>
 	<s id="2">Et vous-même, ma bonne, vous en dites tous les jours de nouvelles...</s>
@@ -395,8 +400,10 @@
 <stage type="exit/together">Elle sort avec madame Roger.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Baronne, Bélinde, Laurette.</head>
-<sp stage="get/location" who="LA BARONNE"><speaker>LA BARONNE, un paquet de lettres à la main ; un valet de chambre se tient derrière elle.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Baronne, Bélinde, Laurette.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="get/location">, un paquet de lettres à la main ; un valet de chambre se tient derrière elle.
+</stage>
 <p id="1">
 	<s id="1">Quel énorme paquet !... </s>
 </p>
@@ -408,7 +415,8 @@
 	<s id="2">Il faudra répondre à tout cela !</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, à son valet de chambre.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage>, à son valet de chambre.
+</stage>
 <p id="3">
 	<s id="1">Portez ces lettres dans mon cabinet... </s>
 	<s id="2">Écoutez... </s>
@@ -483,7 +491,8 @@
 <stage type="kiss">Laurette baise la main de sa mère, et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Baronne, Bélinde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Baronne, Bélinde.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Enfin me voilà sûre de ce mariage que je désirais si ardemment. </s>
@@ -679,7 +688,8 @@
 	<s id="1">Nous saurons bientôt à quoi nous en tenir...</s>
 </p>
 </sp>
-<sp stge="toward" who="LE VALET DE CHAMBRE"><speaker>UN VALET DE CHAMBRE, à la baronne.</speaker>
+<sp stge="toward" who="LE VALET DE CHAMBRE"><speaker>UN VALET DE CHAMBRE</speaker><stage>, à la baronne.
+</stage>
 <p id="36">
 	<s id="1">L'homme vêtu de noir est dans le cabinet de Madame...</s>
 </p>
@@ -694,7 +704,8 @@
 	<s id="1">Oui, madame...</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Bélinde.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Bélinde.
+</stage>
 <p id="39">
 	<s id="1">Il faut que je sorte à l'instant, pour une importante affaire. </s>
 	<s id="2">Je reviendrai bientôt, ne vous en allez pas ; car j'ai plusieurs choses à vous confier.</s>
@@ -708,7 +719,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="BÉLINDE"><speaker>BÉLINDE, seule.</speaker>
+<sp who="BÉLINDE"><speaker>BÉLINDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Quelle femme ! </s>
 	<s id="2">Quel caractère!... </s>
@@ -722,8 +734,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. La Marquise, Bélinde.</head>
-<sp who="BÉLINDE"><speaker>BÉLINDE, allant au-devant de la marquise, et la saluant. </speaker>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> La Marquise, Bélinde.
+</stage>
+<sp who="BÉLINDE"><speaker>BÉLINDE</speaker><stage>, allant au-devant de la marquise, et la saluant. 
+</stage>
 <p id="1">
 	<s id="1">La baronne vient de sortir ; mais elle va rentrer tout à l'heure.</s>
 </p>
@@ -795,7 +809,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. LA Marquise, Bélinde, Caroline.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> LA Marquise, Bélinde, Caroline.
+</stage>
 <sp who="CAROLINE"><speaker>CAROLINE.</speaker>
 <p id="1">
 	<s id="1">Maman...</s>
@@ -806,7 +821,8 @@
 	<s id="1">Que voulez-vous, ma fille ?...</s>
 </p>
 </sp>
-<sp stage="low" who="CAROLINE"><speaker>CAROLINE, bas.</speaker>
+<sp who="CAROLINE"><speaker>CAROLINE</speaker><stage type="low">, bas.
+</stage>
 <p id="3">
 	<s id="1">Je désirerais bien vous parler...</s>
 </p>
@@ -829,7 +845,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Marquise, Caroline.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Marquise, Caroline.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 <p id="1">
 	<s id="1">Que vouliez-vous me dire, mon enfant ?...</s>
@@ -920,7 +937,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Caroline, Laurette.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Caroline, Laurette.
+</stage>
 <sp who="LAURETTE"><speaker>LAURETTE.</speaker>
 <p id="1">
 	<s id="1">Restons ici, ma chère Caroline, et causons en liberté... </s>
@@ -999,7 +1017,8 @@
 	<s id="2">Sitôt ?...</s>
 </p>
 </sp>
-<sp who="CAROLINE"><speaker>CAROLINE, à part.</speaker>
+<sp who="CAROLINE"><speaker>CAROLINE</speaker><stage>, à part.
+</stage>
 <p id="9">
 	<s id="1">Il faut que j'aille retrouver ma mère.</s>
 </p>
@@ -1037,7 +1056,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. </head>
-<sp stage="alone" who="LAURETTE"><speaker>LAURETTE, seule.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Elle a l'air attendri... </s>
 	<s id="2">Je le vois, j'ai gagné son amitié ; c'est bien naturel, car je me sens déjà portée à l'aimer ; elle est si douce, si obligeante ! </s>
@@ -1048,7 +1068,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Baronne, Laurette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Baronne, Laurette.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Laurette...</s>
@@ -1225,14 +1246,16 @@
 	<s id="2">Allez, ma fille.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="LAURETTE"><speaker>LAURETTE, à part, en s'en allant.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="32">
 	<s id="1">Je suis contente de moi, car pour le coup je n'ai dit que la vérité.</s>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Baronne, Bélinde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Baronne, Bélinde.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Venez, ma chère Bélinde ; j'ai à vous dire plusieurs choses qui vous feront plaisir. </s>
@@ -1303,7 +1326,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Baronne, Bélinde, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Baronne, Bélinde, Lisette.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Que voulez-vous ?</s>
@@ -1353,8 +1377,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Baronne, Bélinde, Laurette, Lisette.</head>
-<sp who="LAURETTE"><speaker>LAURETTE, tout essoufflée.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Baronne, Bélinde, Laurette, Lisette.
+</stage>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage>, tout essoufflée.
+</stage>
 <p id="1">
 	<s id="1">Maman... maman... j'ai fait la découverte la plus importante...</s>
 </p>
@@ -1408,7 +1434,8 @@
 	<s id="1">Encore une fois, taisez-vous ; je vous ordonne de ne pas prononcer une parole de plus...</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAURETTE"><speaker>LAURETTE, à part.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Quel supplice !...</s>
 </p>
@@ -1421,8 +1448,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Bélinde, Laurette, Lisette.</head>
-<sp stage="stop" who="LAURETTE"><speaker>LAURETTE, arrêtant Bélinde.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Bélinde, Laurette, Lisette.
+</stage>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="stop">, arrêtant Bélinde.
+</stage>
 <p id="1">
 	<s id="1">Ah, Madame ! </s>
 	<s id="2">Par pitié, un moment...</s>
@@ -1454,7 +1483,8 @@
 </p>
 <stage type="exit">Elle veut sortir.</stage>
 </sp>
-<sp stage="stop" who="LAURETTE"><speaker>LAURETTE, l'arrêtant toujours.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="stop">, l'arrêtant toujours.
+</stage>
 <p id="7">
 	<s id="1">Madame... madame... </s>
 	<s id="2">Écoutez-moi !...</s>
@@ -1466,7 +1496,8 @@
 	<s id="2">Lisette, débarrassez-moi d'elle, je vous prie...</s>
 </p>
 </sp>
-<sp stage="steal" who="LISETTE"><speaker>LISETTE, arrachant des mains de Laurette la robe de Bélinde.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="steal">, arrachant des mains de Laurette la robe de Bélinde.
+</stage>
 <p id="9">
 	<s id="1">Mais finissez donc, Mademoiselle, la tête vous tourne.</s>
 </p>
@@ -1484,7 +1515,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Laurette, Lisette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Laurette, Lisette.
+</stage>
 <sp who="LAURETTE"><speaker>LAURETTE.</speaker>
 <p id="1">
 	<s id="1">Madame... </s>
@@ -1550,7 +1582,8 @@
 </p>
 <stage type="kneel">Elle se jette à genoux.</stage>
 </sp>
-<sp who="LISETTE"><speaker>LISETTE, la relevant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage>, la relevant.
+</stage>
 <p id="12">
 	<s id="1">Hé, bon Dieu, Mademoiselle, que faites-vous ? </s>
 	<s id="2">La fille de ma maîtresse à mes pieds, pour me demander de l'écouter !... </s>
@@ -1659,7 +1692,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Bélinde, Laurette, Lisette.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Bélinde, Laurette, Lisette.
+</stage>
 <sp who="BÉLINDE"><speaker>BÉLINDE.</speaker>
 <p id="1">
 	<s id="1">Venez, ma chère Laurette, j'ai obtenu votre pardon ; votre mère consent à vous voir et à vous embrasser.</s>
@@ -1691,7 +1725,8 @@
 	<s id="5">Garder le silence c'est donc un affreux tourment pour vous !...</s>
 </p>
 </sp>
-<sp stage="watch" who="LAURETTE"><speaker>LAURETTE, regardant à sa montre.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="watch">, regardant à sa montre.
+</stage>
 <p id="6">
 	<s id="1">Il est sept heures un quart !... </s>
 	<s id="2">Allons, c'en est fait, je puis me taire à présent sans effort... </s>
@@ -1706,7 +1741,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. La Baronne, Bélinde, Laurette, Lisette.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> La Baronne, Bélinde, Laurette, Lisette.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Quelle aventure !... </s>
@@ -1780,14 +1816,16 @@
 	<s id="1">Lisette, suivez-la.</s>
 </p>
 </sp>
-<sp stage="away" who="LAURETTE"><speaker>LAURETTE, en s'en allant.</speaker>
+<sp who="LAURETTE"><speaker>LAURETTE</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="14">
 	<s id="1">Que je suis à plaindre !</s>
 </p>
 <stage type="exit">Elle sort avec Lisette.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. La Baronne, Bélinde.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> La Baronne, Bélinde.
+</stage>
 <sp who="BÉLINDE"><speaker>BÉLINDE.</speaker>
 <p id="1">
 	<s id="1">En vérité, vous la traitez avec trop de rigueur.</s>
@@ -1828,12 +1866,14 @@
 </p>
 <stage type="exit/read">Le valet de chambre sort, la baronne lit le billet.</stage>
 </sp>
-<sp stage="aparte" who="BÉLINDE"><speaker>BÉLINDE, à part.</speaker>
+<sp who="BÉLINDE"><speaker>BÉLINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Je devine aisément ce que contient ce billet...</s>
 </p>
 </sp>
-<sp stage="read" who="LA BARONNE"><speaker>LA BARONNE, après avoir lu.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="read">, après avoir lu.
+</stage>
 <p id="9">
 	<s id="1">Je m'y attendais... </s>
 	<s id="2">La marquise me rend ma parole et rompt entièrement.</s>

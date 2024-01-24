@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>LE JUGEMENT ÉQUITABLE DE CHARLES LE HARDY DERNIER DUC DE BOURGOGNE, TRAGÉDIE.</title>
-			<author born='1601' born_location='' death='1648' death_location='' academie=''>MARESCHAL, André</author>
+			<author born="1601" born_location="" death="1648" death_location="" academie="">MARESCHAL, André</author>
 		</titleStmt>
 		<publicationStmt>
 			<editor>Texte établi par Paul FIEVRE à partir du document numérisé de la BnF cote Y5598 B, disponible sur Gallica</editor>
@@ -28,10 +28,10 @@
 			<titlePart type="main">LE JUGEMENT ÉQUITABLE DE CHARLES LE HARDY DERNIER DUC DE BOURGOGNE</titlePart>
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			</docTitle> 
-		<docDate value='1646'>M. DC. XLVI. Avec Privilège du Roi. </docDate>
-		<docAuthor id='MARESCHAL, André' bio='mareschal'></docAuthor>
+		<docDate value="1646">M. DC. XLVI. Avec Privilège du Roi. </docDate>
+		<docAuthor id="MARESCHAL, André" bio="mareschal"/>
 		<docImprint>
-			<printer value='QUINET'>À PARIS, Chez TOUSSAINT-QUINET, au Palais sous la montée de la Cour des Aides. </printer>
+			<printer value="QUINET">À PARIS, Chez TOUSSAINT-QUINET, au Palais sous la montée de la Cour des Aides. </printer>
 			<privilege value="1645-04-25"><head>Extrait du Privilège du Roi.</head> 
 				<p>Par grâce et Privilège du Roi, donné à Paris le vingt-cinquième jour d'avril 1645. Signé, Par le Roi en son Conseil, LE BRUN, Il est permis à TOUSSAINT QUINET, Marchant Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre, intitulée, Le Jugement équitable de Charles le Hardy dernier Duc de Bourgogne, Tragédie, durant le temps et espace de cinq ans, à compter du jour que ladite pièce sera achevée d'imprimer et défenses sont faites à tous Imprimeurs, Libraires, et autres, de contrefaire ladite Tragédie, ni en vendre ou exposer en vente, à peine de trois mille livres d'amende, de tous ses dépens, dommages et intérêts, ainsi qu'il est plus amplement porté par les dites Lettres, qui sont, en vertu du présent extrait, tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
 			</privilege>
@@ -45,23 +45,25 @@
 			<p>A. MARESCHAL.</p>
 		</div>
 		<castList><head>LES PERSONNAGES.</head>
-			<castItem><role id="CHARLES" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>CHARLES</role>, Duc de Bourgogne.</castItem>
-			<castItem><role id="RODOLFE" sex="1" type="H" statut="gouverneur" age="A" stat_amour='néant'>RODOLFE</role>, Son favori Gouverneur de Maastricht. </castItem>
-			<castItem><role id="FRÉDÉGONDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>FRÉDÉGONDE</role>, Mère putative de Rodolfe. </castItem>
-			<castItem><role id="FRÉDÉRIC" sex="1" type="H" statut="lieutenant" age="A" stat_amour='néant'>FRÉDÉRIC</role>, Lieutenant de Rodolfe, et son Cousin.</castItem> 
-			<castItem><role id="MATHILDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='Ferdinand'>MATHILDE</role>, Femme d'Albert. </castItem>
-			<castItem><role id="FERDINAND" sex="1" type="H" statut="aristocrate" age="A" stat_amour='Mathilde'>FERDINAND</role>, Ami d'Albert, et Amant de Mathilde. </castItem>
-			<castItem><role id="DIONÉE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>DIONÉE</role>, Damoiselle de Mathilde, et confidente de Ferdinand.</castItem> 
-			<castItem><role id="RUTILE" sex="1" type="H" statut="chevalier" age="A" stat_amour='néant'>RUTILE</role>, Cavalier de Rodolfe. </castItem>
-			<castItem><role id="LEOPOLDE" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>LEOPOLDE</role>, Capitaine des gardes.</castItem> 
-			<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour='néant'>GARDES</role>, du Duc Charles.</castItem>
+			<castItem><role id="CHARLES" sex="1" type="H" statut="duc" age="A" stat_amour="néant">CHARLES</role>, Duc de Bourgogne.</castItem>
+			<castItem><role id="RODOLFE" sex="1" type="H" statut="gouverneur" age="A" stat_amour="néant">RODOLFE</role>, Son favori Gouverneur de Maastricht. </castItem>
+			<castItem><role id="FRÉDÉGONDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">FRÉDÉGONDE</role>, Mère putative de Rodolfe. </castItem>
+			<castItem><role id="FRÉDÉRIC" sex="1" type="H" statut="lieutenant" age="A" stat_amour="néant">FRÉDÉRIC</role>, Lieutenant de Rodolfe, et son Cousin.</castItem> 
+			<castItem><role id="MATHILDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="Ferdinand">MATHILDE</role>, Femme d'Albert. </castItem>
+			<castItem><role id="FERDINAND" sex="1" type="H" statut="aristocrate" age="A" stat_amour="Mathilde">FERDINAND</role>, Ami d'Albert, et Amant de Mathilde. </castItem>
+			<castItem><role id="DIONÉE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">DIONÉE</role>, Damoiselle de Mathilde, et confidente de Ferdinand.</castItem> 
+			<castItem><role id="RUTILE" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">RUTILE</role>, Cavalier de Rodolfe. </castItem>
+			<castItem><role id="LEOPOLDE" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">LEOPOLDE</role>, Capitaine des gardes.</castItem> 
+			<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="néant">GARDES</role>, du Duc Charles.</castItem>
 		</castList>
 		<set location="Maastricht" country="Pays-Bas" periode="XVIème" gps="50.851368, 5.690972">La Scène est à Maastricht, dans une salle du Château.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Rodolfe, Mathilde, Ferdinand, Dionée, Frédéric.</head>
-<sp stage="toward" who="RODOLFE"><speaker>RODOLFE, après avoir parlé à l'oreille à Frédéric.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Rodolfe, Mathilde, Ferdinand, Dionée, Frédéric.
+</stage>
+<sp who="RODOLFE"><speaker>RODOLFE</speaker><stage type="toward">, après avoir parlé à l'oreille à Frédéric.
+	</stage>
 	<l id="1">Observez, Frédéric, ce que je viens de dire : </l>
 	<l id="2">Suivez-le, Ferdinand : et vous, qu'on se retire ; </l>
 	<l id="3">L'importance du fait n'admet point de suivant, </l>
@@ -101,7 +103,7 @@
 	<l id="29">Viens nous rendre Français ; </l>
 	<l id="30">Maastricht te peut venger de l'affront de Péronne.</l>
 </sp>
-<sp who='ALBERT'><speaker>ALBERT.</speaker>
+<sp who="ALBERT"><speaker>ALBERT.</speaker>
 <stage type="continue">Rodolfe continue.</stage>
 	<l id="31">Un innocent aurait-il ce dessein ? </l>
 	<l id="32">Est-ce un traître ? Est-ce Albert ? Et n'est pas son seing ? </l>
@@ -231,7 +233,8 @@
 	<l id="120">Je vous oblige au point que vous m'en dispensez. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Frédéric, Rodolfe, Mathilde, Dionée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Frédéric, Rodolfe, Mathilde, Dionée.
+</stage>
 <sp who="FRÉDÉRIC"><speaker>FRÉDÉRIC.</speaker>
 	<l id="121">Albert est dans la chambre ; il vous attend, Madame. </l>
 </sp>
@@ -270,7 +273,8 @@
 	<l id="137" syll="6" part="i">Mais Ferdinand revient. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ferdinand, Dionée.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ferdinand, Dionée.
+</stage>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="137" syll="6" part="f">Sa vertu me console. </l>
 	<l id="138">Je l'ai vu, Dionée, on m'a tenu parole : </l>
@@ -382,7 +386,8 @@
 	<l id="215">On vient : forçons la chambre ; allons ; suis ma fureur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Rodolfe, Frédégonde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Rodolfe, Frédégonde.
+</stage>
 <sp who="RODOLFE"><speaker>RODOLFE.</speaker>
 	<l id="216" syll="6" part="i">Qu'on cherche Frédéric. </l>
 </sp>
@@ -434,7 +439,8 @@
 	<l id="248">Disposer le Château pour sa réception. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Rodolfe, Frédéric.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Rodolfe, Frédéric.
+</stage>
 <sp who="RODOLFE"><speaker>RODOLFE.</speaker>
 	<l id="249">Charles vient, Frédéric ; a-t-on ouvert la Ville ? </l>
 </sp>
@@ -564,7 +570,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Fréderic, Rutile.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Fréderic, Rutile.
+</stage>
 <sp who="FRÉDÉRIC"><speaker>FRÉDÉRIC.</speaker>
 	<l id="345">Ta diligence est grande, il est vrai ; mais, Rutile, </l>
 	<l id="346">Sur une fausse alarme elle n'est qu'inutile : </l>
@@ -664,7 +671,8 @@
 	<l id="416">Viens recevoir ailleurs nouvelle instruction. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Charles, Mathilde, Rodolfe, Ferdinand, Dionée, Léopolde, Gardes.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Charles, Mathilde, Rodolfe, Ferdinand, Dionée, Léopolde, Gardes.
+</stage>
 <sp who="CHARLES"><speaker>CHARLES.</speaker>
 	<l id="417">Je garde en mon esprit vos plaintes, et son vice ; </l>
 	<l id="418">J'ai pitié de vos maux ; je vous rendrai justice. </l>
@@ -828,7 +836,8 @@
 <stage type="exit/entrance">Les Gardes l'emmènent et puis reviennent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ferdinand, Rodolfe, Charles, Léopolde.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ferdinand, Rodolfe, Charles, Léopolde.
+</stage>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="549">Ô Mari malheureux ! Plus malheureuse Femme ! </l>
 	<l id="550">Sa mort, et ta douleur me percent jusqu'à l'âme : </l>
@@ -920,7 +929,8 @@
 	<l id="617">Pour empêcher ces cris, tu punis le Rebelle : </l>
 	<l id="618">Mathilde criait donc ; et pourquoi criait-elle ? </l>
 </sp>
-<sp stage="dream" who="RODOLFE"><speaker>RODOLFE, y rêvant.</speaker>
+<sp who="RODOLFE"><speaker>RODOLFE</speaker><stage type="dream">, y rêvant.
+	</stage>
 	<l id="619" syll="2" part="i">C'était... </l>
 </sp>
 <sp who="CHARLES"><speaker>CHARLES.</speaker>
@@ -962,7 +972,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Frédégonde, Charles, Mathilde, Ferdinand, Léopolde, Dionée.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Frédégonde, Charles, Mathilde, Ferdinand, Léopolde, Dionée.
+</stage>
 <sp who="FRÉDÉGONDE"><speaker>FRÉDÉGONDE.</speaker>
 	<l id="653">Prosternée à vos pieds, dans ce devoir rangée, </l>
 	<l id="654">Daignez, grand Prince, ouïr une Mère affligée ; </l>
@@ -1208,7 +1219,8 @@
 <stage type="exit">Frédégonde s'en va avec Léopolde, pour tirer Rodolfe de prison.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ferdinand, Charles.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ferdinand, Charles.
+</stage>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="793">L'une est au désespoir, lorsque l'autre est contente. </l>
 	<l id="794">Que cet Arrêt, Seigneur, remplit mal notre attente ! </l>
@@ -1296,7 +1308,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="FERDINAND"><speaker>FERDINAND, seul.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="843">Ah ! Quel commandement ! Qu'il est rude et puissant ! </l>
 	<l id="844">Servez-moi, servez-la, même en vous trahissant ; </l>
 	<l id="845">Je suivrais cette loi dans sa rigueur extrême, </l>
@@ -1319,8 +1332,10 @@
 	<l id="862">Voici ce digne Époux : allons quérir sa Femme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léopolde, Gardes, Rodolphe, Frédégonde.</head>
-<sp stage="low/toward" who="LÉOPOLDE"><speaker>LÉOPOLDE, après qu'un de ses Gardes lui a parlé à l'oreille.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léopolde, Gardes, Rodolphe, Frédégonde.
+</stage>
+<sp who="LÉOPOLDE"><speaker>LÉOPOLDE</speaker><stage type="low/toward">, après qu'un de ses Gardes lui a parlé à l'oreille.
+	</stage>
 	<l id="863">Que veut de moi le Prince, et ce commandement ? </l>
 	<l id="864">Je reviens sur mes pas, attendez un moment ; </l>
 	<l id="865">C'est quelque ordre qui presse, et qu'il me faut apprendre. </l>
@@ -1394,7 +1409,8 @@
 	<l id="916">Tiens-moi toujours coupable, eux toujours abusés. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Rodolphe, Léopolde, Gardes, Frédégonde.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Rodolphe, Léopolde, Gardes, Frédégonde.
+</stage>
 <sp who="RODOLFE"><speaker>RODOLFE.</speaker>
 	<l id="917">Léopolde, irons-nous où le Prince m'appelle ? </l>
 </sp>
@@ -1484,7 +1500,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Frédéric, Léopolde, Gardes.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Frédéric, Léopolde, Gardes.
+</stage>
 <sp who="FRÉDÉRIC"><speaker>FRÉDÉRIC.</speaker>
 	<l id="953">Rutile m'a trahi ? Quoi ? Ce lâche, ce traître ? </l>
 	<l id="954">Funeste à qui s'en sert, et funeste à son Maître ? </l>
@@ -1665,7 +1682,8 @@
 	<l id="1085">Sauvons, sauvons Mathilde ; allons, l'heure nous presse. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dionée, Ferdinand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dionée, Ferdinand.
+</stage>
 <sp who="DIONÉE"><speaker>DIONÉE.</speaker>
 	<l id="1086">Oui, venez, sauvez-la ; vers vous elle m'adresse : </l>
 	<l id="1087">Elle attend et demande encor votre secours. </l>
@@ -1867,7 +1885,8 @@
 	<l id="1218">Ne faisons rien pour nous, mais faisons tout pour elle. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Mathilde, Dionée.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Mathilde, Dionée.
+</stage>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="1219">Charles est échappé ; tous nos efforts sont vains ; </l>
 	<l id="1220">Et le seul Cabinet l'a sauvé de nos mains ; </l>
@@ -1944,7 +1963,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Charles, Frédégonde, Ferdinand, Léopolde.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Charles, Frédégonde, Ferdinand, Léopolde.
+</stage>
 <sp who="CHARLES"><speaker>CHARLES.</speaker>
 	<l id="1275">Me suivrez-vous partout ? Ah ! Que mal à propos </l>
 	<l id="1276">Vous redoublez ma peine, et troublez mon repos ! </l>
@@ -2097,7 +2117,8 @@
 	<l id="1373">Ou pour me consoler, et voir sauver le vôtre. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Charles, Ferdinand.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Charles, Ferdinand.
+</stage>
 <sp who="CHARLES"><speaker>CHARLES.</speaker>
 	<l id="1374">Le mien ? Parle, mon sang ; quoi, mon coeur, est-il nôtre ? </l>
 	<l id="1375">Mais pourrais-je en douter ; plus fortes que tous </l>
@@ -2125,7 +2146,8 @@
 	<l id="1397" syll="6" part="i">Qu'elle le prenne donc. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mathilde, Dionée, Charles, Ferdinand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mathilde, Dionée, Charles, Ferdinand.
+</stage>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="1397" syll="6" part="f">Arrêtons, Dionée ; </l>
 	<l id="1398">Je n'ose l'aborder, tant je reste étonnée : </l>
@@ -2247,7 +2269,8 @@
 	<l id="1489" syll="3" part="i">Oui, qu'il meure. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léopolde, Charles, Ferdinand, Mathilde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léopolde, Charles, Ferdinand, Mathilde.
+</stage>
 <sp who="LÉOPOLDE"><speaker>LÉOPOLDE.</speaker>
 <note type="L">Parque : Déesse qui selon les anciens païens, préside à la vie des hommes. [T]</note>
 	<l id="1489" syll="9" part="f">Il est mort, et la Parque sévère </l>
@@ -2407,7 +2430,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="CHARLES"><speaker>CHARLES, seul.</speaker>
+<sp who="CHARLES"><speaker>CHARLES</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1605">Ah ! Cruel JUGEMENT, où je perds ce que j'aime ! </l>
 	<l id="1606">Ah ! Cruel JUGEMENT donné contre moi-même ! </l>
 	<l id="1607">Péris, meurs à ton tour, Père dénaturé, </l>

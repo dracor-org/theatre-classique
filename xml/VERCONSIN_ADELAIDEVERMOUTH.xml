@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,16 +28,16 @@
 			<titlePart type="main">ADÉLAÏDE ET VERMOUTH</titlePart>
 			<titlePart type="sub">IDYLLE MILITAIRE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1870'>1870</docDate>
-		<docAuthor id="VERCONSIN, Eugène" bio='verconsin'>Par EUGÈNE EUGÈNE VERCONSIN</docAuthor>
+		<docDate value="1870">1870</docDate>
+		<docAuthor id="VERCONSIN, Eugène" bio="verconsin">Par EUGÈNE EUGÈNE VERCONSIN</docAuthor>
 		<docImprint>
-			<printer id='CLAYE'>PARIS.— J. CLAYE, IMPRIMEUR, RUE SAINT-BENOÎT, 7.— [730]</printer>
-			<editor id='DENTU'>PARIS E. DENTU, LIBRAIRE-ÉDITEUR 17, 19, GALERIE D'ORLÉANS</editor>		
+			<printer id="CLAYE">PARIS.— J. CLAYE, IMPRIMEUR, RUE SAINT-BENOÎT, 7.— [730]</printer>
+			<editor id="DENTU">PARIS E. DENTU, LIBRAIRE-ÉDITEUR 17, 19, GALERIE D'ORLÉANS</editor>		
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="VERMOUTH" sex="1" type="H" statut='militaire' age='A' stat_amour='néant'>VERMOUTH</role>, voltigeur SAINT-GERMAIN.</castItem> 
-		<castItem><role id="ADÉLAÏDE" sex="2" type="H" statut='domestique' age='A' stat_amour='néant'>ADÉLAÏDE</role>, bonne d'enfant DAMAIN.</castItem> 
-		<castItem><role id="MONSIEUR LE COMTE" sex="1" type="H" statut='comte' age='E' stat_amour='néant'>MONSIEUR LE COMTE</role>, bébé au maillot.</castItem> 
+		<castItem><role id="VERMOUTH" sex="1" type="H" statut="militaire" age="A" stat_amour="néant">VERMOUTH</role>, voltigeur SAINT-GERMAIN.</castItem> 
+		<castItem><role id="ADÉLAÏDE" sex="2" type="H" statut="domestique" age="A" stat_amour="néant">ADÉLAÏDE</role>, bonne d'enfant DAMAIN.</castItem> 
+		<castItem><role id="MONSIEUR LE COMTE" sex="1" type="H" statut="comte" age="E" stat_amour="néant">MONSIEUR LE COMTE</role>, bébé au maillot.</castItem> 
 	</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris, dans le jardin des Plantes.</set>
 <note>1. Le rôle d'Adélaïde peut être joué, au gré de l'actrice, avec la prononciation alsacienne.</note>
@@ -77,8 +77,10 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Vermouth, Adélaïde.</head>
-<sp stage="toward" who="VERMOUTH"><speaker>VERMOUTH, a la cantonade.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Vermouth, Adélaïde.
+</stage>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="toward">, a la cantonade.
+</stage>
 <p id="1">
 	<s id="1">Que c'est convenu, sargent, et que nous nous retrouverons devant les singes.</s>
 </p>
@@ -95,13 +97,15 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </p> 
 <stage type="closer/cough">Il passe devant Adélaïde en toussant et en frisant sa  moustache.</stage>
 </sp>
-<sp stage="aparte" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, il part.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="aparte">, il part.
+</stage>
 <p id="4">
 	<s id="1">Comme il me regarde !... </s>
 	<s id="2">Il me dévore, quoi !</s>
 </p>
 </sp>
-<sp stage="aparte" who="VERMOUTH"><speaker>VERMOUTH, à part.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Différemment, avant de partir pour l'Afrique, il ne me serait pas inférieur d'emporter une mèche de cheveux de cette jeunesse-là.</s>
 </p>
@@ -123,7 +127,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Vous prremettez que je me repose un brin, Mademoiselle ?</s>
 </p>
 </sp>
-<sp stage="sweet" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, minaudant.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="sweet">, minaudant.
+</stage>
 <p id="9">
 	<s id="1">Le banc est à tout le monde.</s>
 </p>
@@ -145,7 +150,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="2">Que ça me contrarierait souverainement, et même davantage, mais que je le ficherais.</s>
 </p>
 </sp>
-<sp stage="touch" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, touchée.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="touch">, touchée.
+</stage>
 <p id="13">
 	<s id="1">Je ne vous renvoie pas, monsieur le militaire.</s>
 </p>
@@ -161,7 +167,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Depuis deux ans, chez un Comte.</s>
 </p>
 </sp>
-<sp stage="aparte" who="VERMOUTH"><speaker>VERMOUTH, à part.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="16">
 	<s id="1">Hein ? </s>
 	<s id="2">Elle fait des calembours... </s>
@@ -236,7 +243,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Vingt ans.</s>
 </p>
 </sp>
-<sp stage="sigh" who="VERMOUTH"><speaker>VERMOUTH, soupirant.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="sigh">, soupirant.
+</stage>
 <p id="29">
 	<s id="1">La belle âge pour aimer, quoi !... </s>
 	<s id="2">Et d'où que vous êtes ?</s>
@@ -311,12 +319,14 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Je dis que je suis voltigeur, mais point volage, Mademoiselle_Victoire.</s>
 </p>
 </sp>
-<sp stage="furious" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, furieuse.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="furious">, furieuse.
+</stage>
 <p id="42">
 	<s id="1">Mais je m'appelle Adélaïde.</s>
 </p>
 </sp>
-<sp stage="aparte" who="VERMOUTH"><speaker>VERMOUTH, à part.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="43">
 	<s id="1">Bigre ! </s>
 	<s id="2">J'ai dit z'une bêtise !</s>
@@ -342,12 +352,14 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Adélaïde.</s>
 </p>
 </sp>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE, apaisée.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage>, apaisée.
+</stage>
 <p id="48">
 	<s id="1">Vous me faites l'effet d'un fier enjôleur, vous !</s>
 </p>
 </sp>
-<sp stage="aparte" who="VERMOUTH"><speaker>VERMOUTH, à part.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="49">
 	<s id="1">Le fait est que c'est assez bien trouvé.</s>
 </p>
@@ -407,7 +419,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Suffit, je comprends.</s>
 </p>
 </sp>
-<sp stage="watch" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, regardant autour d'elle.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="watch">, regardant autour d'elle.
+</stage>
 <p id="60">
 	<s id="1">Allons ! </s>
 	<s id="2">Voilà sa soeur Camille encore partie.</s>
@@ -478,7 +491,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="2">Mais j'aimerais mieux subtiliser toutes les femmes que d'en subtiliser une seule.</s>
 </p>
 </sp>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE, reconnaissante.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage>, reconnaissante.
+</stage>
 <p id="73">
 	<s id="1">Merci.</s>
 </p>
@@ -501,12 +515,14 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">Moi, dans les moments pleurards, je ne pleure pas ; mais, pour être secoué en dedans, je suis secoué en dedans.</s>
 </p>
 </sp>
-<sp stage="sing" who="VOIX D'UNE MARCHANDE DE PLAISIRS"><speaker>VOIX D'UNE MARCHANDE DE PLAISIRS, chantant.</speaker>
+<sp who="VOIX D'UNE MARCHANDE DE PLAISIRS"><speaker>VOIX D'UNE MARCHANDE DE PLAISIRS</speaker><stage type="sing">, chantant.
+</stage>
 <p id="77">
 	<s id="1">Voilà l'plaisir, mesdames, voilà l'plaisir !</s>
 </p>
 </sp>
-<sp who="VERMOUTH"><speaker>VERMOUTH, à Adélaïde.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage>, à Adélaïde.
+</stage>
 <p id="78">
 	<s id="1">Voulez-vous me faire celui d'en accepter un ?</s>
 </p>
@@ -550,7 +566,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, seule.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Il a laissé tomber quelque chose... </s>
 	<s id="2">Une lettre !... </s>
@@ -613,13 +630,16 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Adélaïde, Vermouth.</head>
-<sp stage="carry" who="VERMOUTH"><speaker>VERMOUTH, avec des plaisirs.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Adélaïde, Vermouth.
+</stage>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="carry">, avec des plaisirs.
+</stage>
 <p id="1">
 	<s id="1">Voilà les plaisirs demandés, ma payse.</s>
 </p>
 </sp>
-<sp stage="drop" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, renversant le paquet de plaisirs.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="drop">, renversant le paquet de plaisirs.
+</stage>
 <p id="2">
 	<s id="1">Et voilà le cas que j'en fais.</s>
 </p>
@@ -630,7 +650,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="2">Voilà comme on émiette son plaisir.</s>
 </p>
 </sp>
-<sp stage="read" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, lui lisant ses propres lettres.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="read">, lui lisant ses propres lettres.
+</stage>
 <p id="4">
 	<s id="">« Femme adorable, hier, à la promenade, je ne vous ai aperçue que dix minutes... »</s>
 </p>
@@ -643,13 +664,15 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="1">« Femme adorable, hier, à la promenade... »</s>
 </p>
 </sp>
-<sp stage="aparte" who="VERMOUTH"><speaker>VERMOUTH, à part.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Bigre de bigre ! </s>
 	<s id="2">Elle a mis la main sur mon arsenal !</s>
 </p>
 </sp>
-<sp stage="read" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, lisant toujours.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="read">, lisant toujours.
+</stage>
 <p id="8">
 	<s id="1">« Je vous attends, demain, devant le sanglier... »</s>
 </p>
@@ -796,7 +819,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="carry" who="VERMOUTH"><speaker>VERMOUTH, tenant l'enfant sur ses genoux.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="carry">, tenant l'enfant sur ses genoux.
+</stage>
 <p id="1">
 	<s id="1">Décidément, elle sera jalouse.</s>
 </p>
@@ -863,8 +887,10 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Vermouth, Adélaïde.</head>
-<sp stage="lost" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, accourant éperdue.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Vermouth, Adélaïde.
+</stage>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="lost">, accourant éperdue.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_Vermouth ! </s>
 	<s id="2">Monsieur_Vermouth!</s>
@@ -893,7 +919,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="3">C'est Camille, bien sûr !</s>
 </p>
 </sp>
-<sp stage="exit" who="VERMOUTH"><speaker>VERMOUTH, sortant.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage type="exit">, sortant.
+</stage>
 <p id="6">
 	<s id="1">Voyons voir que je voie !</s>
 </p>
@@ -901,7 +928,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, seule.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Quel malheur ! </s>
 	<s id="2">Seigneur mon_Dieu ! </s>
@@ -923,8 +951,10 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VIII. Adélaïde, Vermouth.</head>
-<sp who="VERMOUTH"><speaker>VERMOUTH, grave.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VIII.</head><stage> Adélaïde, Vermouth.
+</stage>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage>, grave.
+</stage>
 <p id="1">
 	<s id="1">Elle vit. </s>
 	<s id="2">L'enfant qui est tombé dans la fosse à l'ours, et que celui-ci dévore avec la gloutonnerie naturelle à cet animal, est en carton... </s>
@@ -943,7 +973,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="3">Et de la vôtre aussi, Adélaïde, puisqu'il lui demandait de vos nouvelles, et que c'est de cette manière que j'ai reconnu l'enfant.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, troublée.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="4">
 	<s id="1">Fectivement, Monsieur_Vermouth, fectivement : c'est un de mes cousins.</s>
 </p>
@@ -972,7 +1003,8 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 	<s id="3">Êtes-vous content ?</s>
 </p>
 </sp>
-<sp who="VERMOUTH"><speaker>VERMOUTH, avec enthousiasme.</speaker>
+<sp who="VERMOUTH"><speaker>VERMOUTH</speaker><stage>, avec enthousiasme.
+</stage>
 <p id="9">
 	<s id="1">Que vous êtes une divinité, et que demain je vous attends sur le coup de midi, devant les singes.</s>
 </p>
@@ -988,11 +1020,3 @@ s'éteint à mesure que l'enfant s'endort.</stage>
 </body>
 </text>
 </TEI>
-
-
-
-
-
-
-
-

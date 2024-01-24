@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -147,19 +147,21 @@
 	</div>
 <castList>
 	<head>ACTEURS de LE QUIPROQUO</head>
-		<castItem><role id="MONSIEUR DORANCÉ" sex="1" type="H" statut='capitaine' age='A' stat_amour='(néant)'>MONSIEUR DORANCÉ</role>, Capitaine d'infanterie.</castItem>
-		<castItem><role id="MADAME DORANCÉ" sex="2" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MADAME DORANCÉ</role>, son épouse.</castItem>
-		<castItem><role id="GUILLOT" sex="1" type="H" statut='paysan' age='J' stat_amour='(néant)'>GUILLOT</role>, frère de Pierrot, fils de vigneron, âgé de quatorze ans.</castItem>
-		<castItem><role id="PIERROT" sex="1" type="H" statut='paysan' age='J' stat_amour='(néant)'>PIERROT</role>, frère de Guillot, quinze ans, Fils de Vigneron.</castItem>
-		<castItem><role id="SAINT-JEAN" sex="1" type="H" statut='laquais' age='A' stat_amour='(néant)'>SAINT-JEAN</role>, Laquais de la Maison de Monsieur Dorancé.</castItem>
+		<castItem><role id="MONSIEUR DORANCÉ" sex="1" type="H" statut="capitaine" age="A" stat_amour="(néant)">MONSIEUR DORANCÉ</role>, Capitaine d'infanterie.</castItem>
+		<castItem><role id="MADAME DORANCÉ" sex="2" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MADAME DORANCÉ</role>, son épouse.</castItem>
+		<castItem><role id="GUILLOT" sex="1" type="H" statut="paysan" age="J" stat_amour="(néant)">GUILLOT</role>, frère de Pierrot, fils de vigneron, âgé de quatorze ans.</castItem>
+		<castItem><role id="PIERROT" sex="1" type="H" statut="paysan" age="J" stat_amour="(néant)">PIERROT</role>, frère de Guillot, quinze ans, Fils de Vigneron.</castItem>
+		<castItem><role id="SAINT-JEAN" sex="1" type="H" statut="laquais" age="A" stat_amour="(néant)">SAINT-JEAN</role>, Laquais de la Maison de Monsieur Dorancé.</castItem>
 </castList>
-<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La scène est à la campagne dans l'antichambre du salon de Compagnie. L'action se passe après le
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est à la campagne dans l'antichambre du salon de Compagnie. L'action se passe après le
 diner.</set>	
 </front>
 <body>
 <div1 type="act" n="12"><head>LE QUIPROQUO</head>
-<div2 stage="work" type="scene" n="1"><head>SCÈNE PREMIÈRE. Guillot entre dans l'antichambre, d'un air embarrassé, un Laquais brode assis.</head>
-<sp who="LE LAQUAIS"><speaker>LE LAQUAIS, sans se lever.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="work"> Guillot entre dans l'antichambre, d'un air embarrassé, un Laquais brode assis.
+</stage>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage>, sans se lever.
+</stage>
 <p id="1">
 	<s id="1">Que voulez-vous, mon ami ?</s>
 </p>
@@ -177,13 +179,16 @@ diner.</set>
 <stage type="sit">Guillot s'assìed.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Acteurs Précédents, Pierrot.</head>
-<sp who="LE LAQUAIS"><speaker>LE LAQUAIS, toujours brodant, à Pierrot.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Acteurs Précédents, Pierrot.
+</stage>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage>, toujours brodant, à Pierrot.
+</stage>
 <p id="1">
 	<s id="1">Que demandez-vous ?</s>
 </p>
 </sp>
-<sp stage="toward" who="PIERROT"><speaker>PIERROT, au Laquais.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="toward">, au Laquais.
+</stage>
 <p id="2">
 	<s id="1">J'ai appris que Madame cherchait un jeune laquais pour entrer au service ; elle veut, à ce qu'on m'a dit, qu'il n'ait pas encore servi pour se former elle-même, et je viens m'offrir, je suis tout neuf.</s>
 </p>
@@ -217,7 +222,8 @@ diner.</set>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Guillot, Pierrot.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Guillot, Pierrot.
+</stage>
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
 <p id="1">
 	<s id="1">Comment donc ! </s>
@@ -251,7 +257,8 @@ diner.</set>
 	<s id="1">Oui voirement, et toi, est-ce que ce n'est pas pour en faire tout de méme ?</s>
 </p>
 </sp>
-<sp stage="impromptu" who="GUILLOT"><speaker>GUILLOT. (Impromptu).</speaker>
+<sp who="GUILLOT"><speaker>GUILLOT.</speaker><stage type="impromptu"> (Impromptu).
+</stage>
 <p id="7">
 	<s id="1">Nani morgué, c'est pour m'engager au service du Roi, dans la Compagnie de Monsieur Dorancé. </s>
 	<s id="2">Laquais ! </s>
@@ -277,7 +284,8 @@ diner.</set>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Guillot, Pierrot, Le Laquais.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Guillot, Pierrot, Le Laquais.
+</stage>
 <sp who="LE LAQUAIS"><speaker>LE LAQUAIS.</speaker>
 <p id="1">
 	<s id="1">Tout-à-l'heure, on va venir vous parler.</s>
@@ -296,14 +304,16 @@ diner.</set>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V. </head>
-<sp stage="alone/watch" who=""><speaker>LE LAQUAIS seul, les regardant aller.</speaker>
+<sp who=""><speaker>LE LAQUAIS</speaker><stage type="alone/watch"> seul, les regardant aller.
+</stage>
 <p id="1">
 	<s id="1">Voila deux jeunes gas assez bien tournés, Monsieur Guillot et Monsieur Pierrot seront un joli Laquais et un joli Soldat. </s>
 	<s id="2">Bon, à présent je les confonds, et je ne sais plus lequel des deux.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Dorancê, Le Laquais.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Dorancê, Le Laquais.
+</stage>
 <sp who="LE LAQUAIS"><speaker>LE LAQUAIS.</speaker>
 <p id="1">
 	<s id="1">Monsieur, il y a là un garçon qui veut s'engager.</s>
@@ -324,7 +334,8 @@ diner.</set>
 	<s id="1">Fais-le venir tout seul, que je lui parle à mon aise.</s>
 </p>
 </sp>
-<sp stage="location" who="LE LAQUAIS"><speaker>LE LAQUAIS, va à la porte du vestibule pour appeler.</speaker>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage type="location">, va à la porte du vestibule pour appeler.
+</stage>
 <p id="5">
 	<s id="1">Lequel appellerai-je ? </s>
 	<s id="2">Ma foi, à tout hasard.</s>
@@ -336,13 +347,15 @@ diner.</set>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Dorancé, Pierrot.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Dorancé, Pierrot.
+</stage>
 <sp who="MONSIEUR DORANCÉ"><speaker>MONSIEUR DORANCÉ.</speaker>
 <p id="1">
 	<s id="1">C'est donc toi, mon ami, qui veut entrer au service ?</s>
 </p>
 </sp>
-<sp stage="shy" who="PIERROT"><speaker>PIERROT, en tournant son chapeau.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="shy">, en tournant son chapeau.
+</stage>
 <p id="2">
 	<s id="1">Oui, Monsieur, sauf votre grâce, et j'y ferai bien mon devoir, car j'ai envie de faire queuque chose.</s>
 </p>
@@ -387,8 +400,10 @@ diner.</set>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les Acteurs précédents, Madame Dorancé, Le Laquais</head> 
-<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, appelle le Laquais.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les Acteurs précédents, Madame Dorancé, Le Laquais 
+</stage> 
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage>, appelle le Laquais.
+</stage>
 <p id="1">
 	<s id="1">Saint-Jean.</s>
 </p>
@@ -413,14 +428,17 @@ diner.</set>
 	<s id="1">Faites-le entrer, Saint-Jean.</s>
 </p>
 </sp>
-<sp stage="call" who="LE LAQUAIS"><speaker>LE LAQUAIS, appelle.</speaker>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage type="call">, appelle.
+</stage>
 <p id="6">
 	<s id="1">Guillot.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les Acteurs précédents, Guillot.</head>
-<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à Guillot.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les Acteurs précédents, Guillot.
+</stage>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage>, à Guillot.
+</stage>
 <p id="1">
 	<s id="1">C'est donc toi, mon enfant, qui veut servir ?</s>
 </p>
@@ -430,7 +448,8 @@ diner.</set>
 	<s id="1">Oui, Madame, si c'est votre bon plaisir de me faire recevoir pour cela.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à son mari.</speaker>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage type="toward">, à son mari.
+</stage>
 <p id="3">
 	<s id="1">Il est vraiment d'une jolie figure, et quand il sera arrangé... </s>
 </p>
@@ -465,7 +484,8 @@ diner.</set>
 	<s id="1">On vous a dit vrai, Madame.</s>
 </p>
 </sp>
-<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à Guillot.</speaker>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage>, à Guillot.
+</stage>
 <p id="10">
 	<s id="1">Allons, voilà qui est arrêté, dès demain je te fais donner l'habit, il y en a un qui ira précisément à ta taille ; il faut que je te donne un joli nom ; je veux qu'on t'appelle Zelmis.</s>
 </p>
@@ -479,7 +499,8 @@ diner.</set>
 	<s id="1">Voilà un nom bien doucereux pour un soldat.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à son mari.</speaker>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage type="toward">, à son mari.
+</stage>
 <p id="13">
 	<s id="1">Monsieur, n'aurai-je pas là un joli Laquais ?</s>
 </p>
@@ -510,7 +531,8 @@ diner.</set>
 	<s id="2">Est-ce là le métiers d'un soldat ?</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à Guillot.</speaker>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage type="toward">, à Guillot.
+</stage>
 <p id="19">
 	<s id="1">Et toi qui demande quand il faudra rejoindre, qu'est-ce que cela veut dire pour un laquais ?</s>
 </p>
@@ -538,7 +560,8 @@ diner.</set>
 	<s id="3">Ma bonne Dame, priez Monsieur pour moi ; c'est à votre service que je veux entrer, et il y aurait conscience.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ, à son mari.</speaker>
+<sp who="MADAME DORANCÉ"><speaker>MADAME DORANCÉ</speaker><stage type="toward">, à son mari.
+</stage>
 <p id="24">
 	<s id="1">Sans doute, Monsieur, je vous prie de ne plus penser à Pierrot, puisqu'il veut être à moi ; il me vient même l'idée de les prendre à mon service tous les deux.</s>
 </p>
@@ -588,7 +611,8 @@ diner.</set>
 	<s id="3">L'état de soldat fait honneur, et vaut mieux que celui d'un paresseux, vrai pilier d'antichambre, qui passe sa vie dans une inaction méprisable et indigne d'un homme de coeur.</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT. (Impromptu ).</speaker>
+<sp who="PIERROT"><speaker>PIERROT.</speaker><stage> (Impromptu ).
+</stage>
 <p id="33">
 	<s id="1">Monsieur, je suis bien fâché de ne pas sentir toutes vos bonnes raisons, mais je n'ai pas de goût pour le métier de soldat, et madame est une bonne dame ; j'aime mieux faire son service que tout le tapage de la Guerre ; on y a trop de mal, et jamais de profit ; on a beau bien faire, on n'a que la paye, et on ne quitte pas quand on veut. </s>
 	<s id="2">Oh ! </s>
@@ -624,7 +648,8 @@ diner.</set>
 	<s id="1">Comment peut-on être Laquais !</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, à Guillot.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, à Guillot.
+</stage>
 <p id="40">
 	<s id="1">Comment peut-on se faire Soldat ?</s>
 </p>
@@ -641,7 +666,8 @@ diner.</set>
 <stage type="exit">Guillot et Pierrot sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Monsieur Dorancé, Son épouse.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Monsieur Dorancé, Son épouse.
+</stage>
 <sp who="MONSIEUR DORANCÉ"><speaker>MONSIEUR DORANCÉ.</speaker>
 <p id="1">
 	<s id="1">Nous avons prétendu chacun décider les inclinations de ces deux bonnes gens-là selon nos idées, mais ils ont, comme vous voyez résisté à nos raisons : cela prouve bien que...</s>

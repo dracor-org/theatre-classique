@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,7 +29,7 @@
 		<titlePart type="sub">TRAGÉDIE</titlePart>
 	</docTitle>
 	<docDate value="1644">M. DC. XLIIII AVEC PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id="ROTROU, Jean" bio='rotrou'>DE Mr DE ROTROU.</docAuthor>
+		<docAuthor id="ROTROU, Jean" bio="rotrou">DE Mr DE ROTROU.</docAuthor>
 	<docImprint>
 	<privilege id=""><head>Extrait du Privilège du Roi.</head>
 		<p>Par Grâce et Privilège du Roi, il est permis à Toussaint Quinet Marchand Libraire à Paris, de faire imprimer, vendre et distribuer une pièce de Théâtre , intitulée le BÉLISSAIRE de Rotrou, et défenses sont faites à tous autres d'en vendre ni exposer en vente, sinon du consentement et de l'impression dudit Quinet, ou autres ayant droit de lui, ainsi qu'il est contenu plus amplement es dites lettres. Signé EEON.</p>
@@ -39,7 +39,7 @@
 	<acheveImprime id="1638-06-25">Achevé d'Imprimer le 25. Juin mil six cent trente-huit.</acheveImprime>
 		</docImprint>
 		<performance>
-			<premiere date="1646" location='(inconnue)'>Représenté pour la première en 1646.</premiere>
+			<premiere date="1646" location="(inconnue)">Représenté pour la première en 1646.</premiere>
 		</performance>
 
 	<div type="dedicace"><adresse>À TRÈS-HAUT, TRÈS PUISSANT, ET Très Illustre Prince, Monseigneur HENRY DE LORRAINE,  Duc de Guise, Prince de Joinville, Sénéchal héréditaire de Champagne, Comte d'Eu, Pair de France.</adresse>
@@ -50,24 +50,25 @@
 		<signature>ROTROU. </signature>
 	</div>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="L'EMPEREUR" sex="1" type="H" statut="empereur" age="A" stat_amour='néant'>CÉSAR</role>, Empereur de Constantinople [son vrai nom : Justinien 1er].</castItem>
-		<castItem><role id="THÉODORE" sex="2" type="H" statut="empereur" age="A" stat_amour='néant'>THÉODORE</role>, Impératrice [son vrai nom : Théodora]. </castItem>
-		<castItem><role id="BÉLISSAIRE" sex="2" type="H" statut="général" age="A" stat_amour='néant'>BÉLISSAIRE</role>, Général d'armée.</castItem>
-		<castItem><role id="NARSÈS" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>NARSÈS</role>, Confident de César. </castItem>
-		<castItem><role id="PHILIPPE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>PHILIPPE</role>, Confident de César. </castItem>
-		<castItem><role id="LÉONSE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>LÉONSE</role>, Confident de César. </castItem>
-		<castItem><role id="ALVARE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>ALVARE</role>, Confident de Bélisaire. </castItem>
-		<castItem><role id="FABRICE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>FABRICE</role>, Confident de Bélisaire. </castItem>
-		<castItem><role id="ANTHONIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='Bélisaire'>ANTHONIE</role>, Maîtresse de Bélisaire. </castItem>
-		<castItem><role id="CAMILLE" sex="2" type="H" statut="suivante" age="A" stat_amour='néant'>CAMILLE</role>, suivante de l'Impératrice. </castItem>
-		<castItem><role id="TROUPE DE SOLDATS" sex="1" type="H" statut="soldat" age="A" stat_amour='néant'>TROUPE DE SOLDATS</role>.</castItem>
-		<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour='néant'>GARDES</role>. </castItem>
+		<castItem><role id="L'EMPEREUR" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">CÉSAR</role>, Empereur de Constantinople [son vrai nom : Justinien 1er].</castItem>
+		<castItem><role id="THÉODORE" sex="2" type="H" statut="empereur" age="A" stat_amour="néant">THÉODORE</role>, Impératrice [son vrai nom : Théodora]. </castItem>
+		<castItem><role id="BÉLISSAIRE" sex="2" type="H" statut="général" age="A" stat_amour="néant">BÉLISSAIRE</role>, Général d'armée.</castItem>
+		<castItem><role id="NARSÈS" sex="2" type="H" statut="confident" age="A" stat_amour="néant">NARSÈS</role>, Confident de César. </castItem>
+		<castItem><role id="PHILIPPE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">PHILIPPE</role>, Confident de César. </castItem>
+		<castItem><role id="LÉONSE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">LÉONSE</role>, Confident de César. </castItem>
+		<castItem><role id="ALVARE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">ALVARE</role>, Confident de Bélisaire. </castItem>
+		<castItem><role id="FABRICE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">FABRICE</role>, Confident de Bélisaire. </castItem>
+		<castItem><role id="ANTHONIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="Bélisaire">ANTHONIE</role>, Maîtresse de Bélisaire. </castItem>
+		<castItem><role id="CAMILLE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">CAMILLE</role>, suivante de l'Impératrice. </castItem>
+		<castItem><role id="TROUPE DE SOLDATS" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">TROUPE DE SOLDATS</role>.</castItem>
+		<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="néant">GARDES</role>. </castItem>
 	</castList>
 <set location="Constantinople" country="Turquie" periode="Vème" gps="41.008238, 28.978359">La Scène est à Constantinople.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Bélisaire entrant dans Constantinople, Alvare, Fabrice, Suite de Soldats.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Bélisaire entrant dans Constantinople, Alvare, Fabrice, Suite de Soldats.
+</stage>
 <sp who="ALVARE"><speaker>ALVARE.</speaker>
 	<l id="1">Comme votre courage a franchi des hasards, </l>
 	<l id="2">À mettre la frayeur au sein même de Mars, </l>
@@ -96,8 +97,10 @@
 	<l id="22">Qui ne meut, et n'agit que par son mouvement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2" stage="dress" ><head>SCÈNE II. Léonse en habit de Pèlerin, Bélisaire, Alvare, Fabrice.</head>
-<sp stage="aparte" who="LÉONSE"><speaker>LÉONSE, à part.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="dress"> Léonse en habit de Pèlerin, Bélisaire, Alvare, Fabrice.
+</stage>
+<sp who="LÉONSE"><speaker>LÉONSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="23">Le sort tout à propos me l'offre à ce passage, </l>
 	<l id="24">Outre mon intérêt, ma parole m'engage, </l>
 	<l id="25">Et l'ordre que je suis, part d'une autorité, </l>
@@ -182,7 +185,8 @@
 	<l id="85">Car les Dieux n'ont jamais établi de tourment, </l>
 	<l id="86">Qui ne fût pour ce crime un trop doux châtiment. </l>
 </sp>
-<sp stage="threat" who="ALVARE"><speaker>ALVARE, tirant l'épée.</speaker>
+<sp who="ALVARE"><speaker>ALVARE</speaker><stage type="threat">, tirant l'épée.
+	</stage>
 	<l id="87" syll="6" part="i">Quel respect nous retient ? </l>
 </sp>
 <sp who="FABRICE"><speaker>FABRICE.</speaker>
@@ -276,7 +280,8 @@
 	<l id="146">Je repose sans crainte à l'ombre de tes soins. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Camille, Théodore.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Camille, Théodore.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="147">Oui, (votre Majesté, s'il lui plaît, me pardonne) </l>
 	<l id="148">Je ne lui puis nier, que ce dessein m'étonne, </l>
@@ -344,7 +349,8 @@
 	<l id="204">C'est d'où provient ma haine, et de quoi je me venge. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Anthonie, Théodore.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Anthonie, Théodore.
+</stage>
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
 	<l id="205">Madame, Bélisaire en superbe appareil, </l>
 	<l id="206">Du retour d'où le peuple adore le Soleil, </l>
@@ -398,7 +404,8 @@
 	<l id="238">J'en reçois la défense, et conserve le jour ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. L'Empereur, Narsès, Philippe, Théodore, Anthonie, Camille, Gardes.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> L'Empereur, Narsès, Philippe, Théodore, Anthonie, Camille, Gardes.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="239">Madame, à nos transports joignez votre allégresse, </l>
 <note type="L">Presse : Foule de peuple qui veut entrer en un lieu qui ne le peut pas contenir commodément. [L]</note>
@@ -420,7 +427,8 @@
 	<l id="250">Et ne te produis pas à ma confusion. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Bélisaire, Alvare, Fabrice, Troupe de Soldats, L'Empereur, Narsès, Philippe, Théodore, Anthonie, Camille, Léonse, Gardes.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Bélisaire, Alvare, Fabrice, Troupe de Soldats, L'Empereur, Narsès, Philippe, Théodore, Anthonie, Camille, Léonse, Gardes. 
+</stage> 
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="251">Viens posséder la paix que par toi je respire, </l>
 	<l id="252">Soutien de mes États, ferme appui de l'Empire, </l>
@@ -437,13 +445,15 @@
 	<l id="261">Possédez le repos comme vous le donnez, </l>
 	<l id="262">Et prenez part aux fruits que vous nous moissonnez. </l>
 </sp>
-<sp stage="location/costume" who="LÉONSE"><speaker>LÉONSE en un coin, en Pèlerin.</speaker>
+<sp who="LÉONSE"><speaker>LÉONSE</speaker><stage type="location/costume"> en un coin, en Pèlerin.
+	</stage>
 	<l id="263">Voyons sous cet habit qui me fait méconnaître, </l>
 	<l id="264">S'il m'est aussi courtois qu'il m'a permis de l'être ; </l>
 	<l id="265">Ô rare, ô divin homme ! On te doit des autels, </l>
 	<l id="266">Si ta bonté répond à tes faits immortels. </l>
 </sp>
-<sp stage="kiss/toward" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, embrassé par l'Empereur, lui dit.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="kiss/toward">, embrassé par l'Empereur, lui dit.
+	</stage>
 	<l id="267">De ces faveurs, Seigneur, un vassal est indigne. </l>
 </sp>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
@@ -463,12 +473,14 @@
 	<l id="281">Ton bras peut-il manquer ce que ton coeur résout, </l>
 	<l id="282">Et ta seule valeur comprend-elle pas tout ? </l>
 </sp>
-<sp stage="toward" who="THÉODORE"><speaker>THÉODORE, à Anthonie.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="toward">, à Anthonie.
+	</stage>
 	<l id="283">Tiens, insolente, tiens cette vue abaissée, </l>
 	<l id="284">Et réserve ta joie à ta seule pensée, </l>
 	<l id="285">Ou ce zèle indiscret te coûtera le jour. </l>
 </sp>
-<sp stage="aparte" who="ANTHONIE"><speaker>ANTHONIE, à part.</speaker>
+<sp who="ANTHONIE"><speaker>ANTHONIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="286">Fais-moi justice, ô Ciel ! Contiens-toi mon amour. </l>
 </sp>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
@@ -537,7 +549,8 @@
 	<l id="341">Et nouons entre nous de si parfaits accords, </l>
 	<l id="342">Que nous n'ayons qu'un coeur et qu'une âme en deux corps. </l>
 </sp>
-<sp stage="aparte" who="THÉODORE"><speaker>THÉODORE, à part.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="343">Dieux ! Peux-tu ma raison conserver ton usage, </l>
 	<l id="344">Et sans y renoncer entendre ce langage ? </l>
 </sp>
@@ -547,7 +560,8 @@
 <stage type="kneel">À genoux.</stage>
 	<l id="347">Une moindre faveur qu'à vos pieds je réclame. </l>
 </sp>
-<sp stage="help/stand" who="L'EMPEREUR"><speaker>L'EMPEREUR, le relevant.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="help/stand">, le relevant.
+	</stage>
 	<l id="348">Lève-toi, que fais-tu ? Me peut-on voir sans blâme, </l>
 	<l id="349">D'un aussi rare ami que glorieux vainqueur, </l>
 	<l id="350">L'original aux pieds, et le portrait au coeur ? </l>
@@ -559,7 +573,8 @@
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
 	<l id="355">La grâce de Léonse est celle que j'implore. </l>
 </sp>
-<sp stage="aparte" who="LÉONSE"><speaker>LÉONSE, à part.</speaker>
+<sp who="LÉONSE"><speaker>LÉONSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="356">Ô vertu sans exemple, et digne qu'on t'adore ! </l>
 </sp>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
@@ -570,7 +585,8 @@
 	<l id="361">L'envie à sa fortune a fait ce mauvais tour ; </l>
 	<l id="362">Mais rétablissons-la, je consens son retour. </l>
 </sp>
-<sp stage="knell" who="LÉONSE"><speaker>LÉONSE, aux pieds de l'Empereur.</speaker>
+<sp who="LÉONSE"><speaker>LÉONSE</speaker><stage type="knell">, aux pieds de l'Empereur.
+	</stage>
 	<l id="363">À vos pieds prosterné, je reçois cette grâce. </l>
 </sp>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
@@ -585,18 +601,21 @@
 	<l id="370">Oui, rentre dans les rangs que tu tiens en ma Cour, </l>
 	<l id="371">Et n'en reconnais point d'auteur que Bélisaire. </l>
 </sp>
-<sp stage="kneel" who="LÉONSE"><speaker>LÉONSE, aux pieds de Bélisaire.</speaker>
+<sp who="LÉONSE"><speaker>LÉONSE</speaker><stage type="kneel">, aux pieds de Bélisaire.
+	</stage>
 	<l id="372">Par quels humbles devoirs te puis-je satisfaire, </l>
 	<l id="373">Qui ne me laisse encor la qualité d'ingrat ! </l>
 	<l id="374">Prodige de vertu, gloire de cet État ! </l>
 </sp>
-<sp stage="kiss" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, l'embrassant.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="375">Cet habit de ton rang m'obscurcissant la gloire, </l>
 	<l id="376">M'avait trompé la vue, et surpris la mémoire ; </l>
 	<l id="377">Pardonne, cher Léonse, et malgré nos jaloux, </l>
 	<l id="378">Jurons une amitié qui dure autant que nous. </l>
 </sp>
-<sp stage="low/toward" who="THÉODORE"><speaker>THÉODORE, bas à Léonse.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="low/toward">, bas à Léonse.
+	</stage>
 	<l id="379">Lâche, est-ce là l'ardeur que tu faisais paraître, </l>
 	<l id="380">De servir ma vengeance, et de perdre ce traître ? </l>
 </sp>
@@ -605,10 +624,12 @@
 	<l id="382">Le puis-je réputer entre mes ennemis ? </l>
 	<l id="383">Et sans ingratitude attenter sur sa vie ? </l>
 </sp>
-<sp stage="low" who="THÉODORE"><speaker>THÉODORE, bas.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="384">Je te pourrai servir comme tu m'as servie. </l>
 </sp>
-<sp stage="toward" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, à Anthonie.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="toward">, à Anthonie.
+	</stage>
 	<l id="385">Enfin, chère beauté, nous voyons l'heureux jour : </l>
 <stage type="watch">Anthonie feint de ne pas le voir.</stage>
 	<l id="386">Mais que tant de froideur reçoit mal mon amour, </l>
@@ -617,12 +638,14 @@
 	<l id="389">Mais je lui fais injure, imputons sa froideur </l>
 	<l id="390">À sa discrétion, plutôt qu'à sa rigueur. </l>
 </sp>
-<sp stage="aparte" who="ANTHONIE"><speaker>ANTHONIE, à part.</speaker>
+<sp who="ANTHONIE"><speaker>ANTHONIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="391">S'il faut souffrir, mes yeux, un si sensible outrage, </l>
 	<l id="392">Qu'on m'ôte la puissance aussi bien que l'usage, </l>
 	<l id="393">Vous aurez moins de peine en cet aveuglement. </l>
 </sp>
-<sp stage="toward" who="L'EMPEREUR"><speaker>L'EMPEREUR, à Théodore.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="toward">, à Théodore.
+	</stage>
 	<l id="394">Madame, je l'emmène en son appartement, </l>
 	<l id="395">Pour ne lui point ravir le repos qu'il nous donne, </l>
 	<l id="396">Quand avec tant de zèle il sert notre Couronne ; </l>
@@ -664,7 +687,8 @@
 	<l id="414">Ô triste labyrinthe et de peine et d'amour ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Philippe, Anthonie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Philippe, Anthonie.
+</stage>
 <sp who="PHILIPPE"><speaker>PHILIPPE.</speaker>
 	<l id="415">Enfin puis-je espérer que ma douleur vous touche ? </l>
 </sp>
@@ -707,12 +731,14 @@
 	<l id="442">Laissez-moi donc, adieu, je ne vous entends plus. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Théodore, Anthonie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Théodore, Anthonie.
+</stage>
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
 	<l id="443">Ô Dieux ! De tous côtés ce que je fuis m'approche, </l>
 	<l id="444">Je m'éloigne d'un sable, et rencontre une roche. </l>
 </sp>
-<sp stage="aparte" who="THÉODORE"><speaker>THÉODORE, à part.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="445">C'est ainsi qu'un grand coeur enfante un grand souhait, </l>
 	<l id="446">Qu'une Reine se venge, et qu'une femme hait. </l>
 <stage type="toward">À Anthonie.</stage>
@@ -732,8 +758,10 @@
 	<l id="458">Et refusons de bouche en promettant du coeur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Bélisaire, Anthonie, Théodore à la fenêtre.</head>
-<sp stage="watch" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, sans voir Théodore.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Bélisaire, Anthonie, Théodore à la fenêtre.
+</stage>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="watch">, sans voir Théodore.
+	</stage>
 	<l id="459">Sensiblement atteint d'un soin qui me traverse, </l>
 	<l id="460">Et plus votre vaincu, que vainqueur de la Perse, </l>
 	<l id="461">Je viens prendre à vos pieds les ordres de mon sort, </l>
@@ -785,16 +813,19 @@
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
 	<l id="503" syll="10" part="f">Cruelle, attends, ma mort te va sur l'heure. </l>
 </sp>
-<sp stage="exit" who="ANTHONIE"><speaker>ANTHONIE, s'en allant.</speaker>
+<sp who="ANTHONIE"><speaker>ANTHONIE</speaker><stage type="exit">, s'en allant.
+	</stage>
 	<l id="504">Dissuader d'aimer n'est pas vouloir qu'on meure, </l>
 	<l id="505">Et vous recevez mal le bien que je vous veux. </l>
 </sp>
-<sp stage="location" who="THÉODORE"><speaker>THÉODORE, à la fenêtre.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="location">, à la fenêtre.
+	</stage>
 	<l id="506">Voilà me satisfaire, et répondre à mes voeux. </l>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="507">Dans un calme si doux jamais un tel orage, </l>
 	<l id="508">A-t-il aux Matelots fait craindre le naufrage, </l>
 	<l id="509">Et dans un si beau temps jamais l'air en fureur </l>
@@ -819,7 +850,8 @@
 	<l id="528">Cette infidélité n'a jamais eu d'exemple. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. L'Empereur, Gardes, Bélisaire.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> L'Empereur, Gardes, Bélisaire.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="529">L'Amitié qui nous lie, et qui doit rendre égaux, </l>
 	<l id="530">Et le vassal au Prince, et le Prince aux vassaux </l>
@@ -839,7 +871,8 @@
 	<l id="543">Ordonne qui des trois tu veux qui la régisse, </l>
 	<l id="544">Et de ta même main rends-lui ce bon office. </l>
 </sp>
-<sp stage="kneel" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, un genou en terre.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="kneel">, un genou en terre.
+	</stage>
 	<l id="545">Cet honneur, grand Monarque, est sans proportion </l>
 	<l id="546">Avec l'indigne état de ma condition. </l>
 </sp>
@@ -852,7 +885,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="551">Sans ta faveur, Amour, toute autre m'importune, </l>
 	<l id="552">Un peu plus de la tienne, et moins de la Fortune ; </l>
 	<l id="553">Tu m'obligeras plus d'un trait de ta pitié, </l>
@@ -892,7 +926,8 @@
 	<l id="582">Et qui fait bien à tous peut dormir sûrement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Narsès, Bélisaire endormi.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Narsès, Bélisaire endormi.
+</stage>
 <sp who="NARSÈS"><speaker>NARSÈS.</speaker>
 	<l id="583">Vice commun des cours, de tous le plus extrême, </l>
 	<l id="584">Insatiable ardeur, supplice de toi-même, </l>
@@ -952,7 +987,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="awake" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, s'éveillant.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="awake">, s'éveillant.
+	</stage>
 	<l id="631">L'Amour ne m'a pas seul soumis à sa puissance, </l>
 	<l id="632">Le sommeil, comme lui, m'a trouvé sa défense, </l>
 	<l id="633">Tous deux sans grand travail se rendent nos vainqueurs, </l>
@@ -986,7 +1022,8 @@
 	<l id="660">Et par notre vertu désarmons la Fortune. </l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. L'Empereur, Gardes, Bélisaire.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> L'Empereur, Gardes, Bélisaire.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="661">Rome, enfin, de ton choix tient-elle un Lieutenant ? </l>
 </sp>
@@ -1009,7 +1046,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone/read" who="L'EMPEREUR"><speaker>L'EMPEREUR, seul, lisant l'écrit de Narsès.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="alone/read">, seul, lisant l'écrit de Narsès.
+	</stage>
 	<l id="675">En vouloir à ses jours ! Aux jours de Bélisaire ! </l>
 	<l id="676">Il se trouve une femme à ce point téméraire ! </l>
 	<l id="677">Et ce noir attentat s'est conçu dans ma Cour ! </l>
@@ -1028,7 +1066,8 @@
 	<l id="690">Narsès nous l'apprendra, l'avis est de sa main. </l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Narsès, L'Empereur, Gardes.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Narsès, L'Empereur, Gardes.
+</stage>
 <sp who="NARSÈS"><speaker>NARSÈS.</speaker>
 	<l id="691">Tout fraîchement, Seigneur, j'apprends de Bélisaire, </l>
 	<l id="692">Le choix qu'en ma faveur sa main a daigné faire ; </l>
@@ -1059,7 +1098,8 @@
 	<l id="704">Je souffrirai plutôt qu'elle m'ôte la tête. </l>
 <stage type="exit">Il s'en va.</stage>
 </sp>
-<sp stage="alone" who="L'EMPEREUR"><speaker>L'EMPEREUR, seul.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="705">J'en viendrai bien à bout, et pourrais à la fois </l>
 	<l id="706">De son rebelle sein tirer l'âme et la voix ; </l>
 	<l id="707">Mais la juste frayeur que le respect lui donne, </l>
@@ -1068,7 +1108,8 @@
 	<l id="710">D'un si lâche projet se soit voulu tacher. </l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Théodore, L'Empereur, Gardes.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Théodore, L'Empereur, Gardes.
+</stage>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="711">Quel souci trouble l'air de ce visage auguste ? </l>
 </sp>
@@ -1079,7 +1120,8 @@
 <stage type="show">Lui montrant l'écrit de Narsès.</stage>
 	<l id="715">Cet avis, en un mot, s'adresse à Bélisaire. </l>
 </sp>
-<sp stage="read" who="THÉODORE"><speaker>THÉODORE, l'ayant lu.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="read">, l'ayant lu.
+	</stage>
 	<l id="716">Il n'a pas à combattre une forte adversaire, </l>
 	<l id="717">S'il ne craint qu'une femme : ô perfide Narsès, </l>
 	<l id="718">Tu portes ma frayeur à son dernier excès. </l>
@@ -1105,7 +1147,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV.</head>
-<sp stage="alone" who="THÉODORE"><speaker>THÉODORE, seule.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="735">Ainsi, chétive, ainsi, ton Époux préfère </l>
 	<l id="736">Un sujet, un vassal, l'objet de ta colère, </l>
 	<l id="737">Et malgré le saint noeud qui t'engage sa foi, </l>
@@ -1121,7 +1164,8 @@
 	<l id="746">Et le trépas est doux à qui tue en mourant. </l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Philippe, Théodore.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Philippe, Théodore.
+</stage>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="747">Joins, cher Philipe, joins ta fureur à la mienne, </l>
 	<l id="748">Son sujet te regarde, et ma cause est la tienne ; </l>
@@ -1136,7 +1180,8 @@
 	<l id="755">Et c'est me menacer d'un aimable supplice. </l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Léonse, Narsès voulant entrer, avisent Théodore, et Philippe.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Léonse, Narsès voulant entrer, avisent Théodore, et Philippe.
+</stage>
 <sp who="NARSÈS"><speaker>NARSÈS.</speaker>
 	<l id="756">Arrête, n'entrons pas, voici l'Impératrice. </l>
 <stage type="listen">Ils écoutent.</stage>
@@ -1166,7 +1211,8 @@
 	<l id="769">Et s'il faut de tous deux faire encor raison, </l>
 	<l id="770">Commandez, j'ai le coeur et le bras assez bon. </l>
 </sp>
-<sp stage="low" who="NARSÈS"><speaker>NARSÈS, bas.</speaker>
+<sp who="NARSÈS"><speaker>NARSÈS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="771">À la faveur de l'heure et d'un lieu solitaire, </l>
 	<l id="772">Nous pouvons nous venger, et servir Bélisaire. </l>
 </sp>
@@ -1188,7 +1234,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="17"><head>SCÈNE XVII.</head>
-<sp stage="alone" who="THÉODORE"><speaker>THÉODORE, seule.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="781">Fais-moi, César, fais-moi perdre pour ce délit, </l>
 	<l id="782">Ma part en la lumière, et ma place en ton lit, </l>
 	<l id="783">Que l'Amour ni l'Hymen, que rien ne te retienne, </l>
@@ -1205,14 +1252,16 @@
 	<l id="794">Du char de son triomphe en l'horreur d'un cercueil. </l>
 </sp>
 </div2>
-<div2 type="scene" n="18" stage="threat"><head>SCÈNE XVIII. Philippe, Bélisaire l'épée à la main.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage type="threat"> Philippe, Bélisaire l'épée à la main.
+</stage>
 <stage type="fight/noise">Il se fait un bruit d'épées dans un parc la nuit.</stage>
 <sp who="PHILIPPE"><speaker>PHILIPPE.</speaker>
 	<l id="795">Le Ciel joigne à tes ans l'heur d'une longue fuite ; </l>
 	<l id="796">Je dois à ta valeur mon salut et leur fuite ; </l>
 	<l id="797">Je n'ai pu les connaître en cette obscurité. </l>
 </sp>
-<sp stage="hide" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, le visage dans son manteau.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="hide">, le visage dans son manteau.
+	</stage>
 	<l id="798">Tout autre eût partagé leur propre lâcheté, </l>
 	<l id="799">Qui d'un seul contre deux, sans autre connaissance, </l>
 	<l id="800">Qui du nombre inégal n'eût pas pris la défense. </l>
@@ -1241,7 +1290,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="19"><head>SCÈNE XIX.</head>
-<sp stage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="811">J'ai si bien feint ma voix que nul ne l'a connue, </l>
 	<l id="812">Une bonne action se produit toute nue, </l>
 	<l id="813">J'agis sans intérêt que de bien faire à tous ; </l>
@@ -1258,7 +1308,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Alvare, Bélisaire.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Alvare, Bélisaire.
+</stage>
 <sp who="ALVARE"><speaker>ALVARE.</speaker>
 	<l id="823">Le rendez-vous, enfin, vous fut donc favorable. </l>
 </sp>
@@ -1302,8 +1353,10 @@
 <stage type="exit/location/exit">Bélisaire entre en son Cabinet, Alvare s'en va.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Philippe, Bélisaire en son cabinet, Gardes.</head>
-<sp stage="toward/follow" who="PHILIPPE"><speaker>PHILIPPE, dit à un garde qui le suit.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Philippe, Bélisaire en son cabinet, Gardes.
+</stage>
+<sp who="PHILIPPE"><speaker>PHILIPPE</speaker><stage type="toward/follow">, dit à un garde qui le suit.
+	</stage>
 	<l id="855">Garde, adieu, ce secret regarde la Couronne, </l>
 	<l id="856">L'ordre de l'Empereur n'admet ici personne, </l>
 	<l id="857">Et ma commission n'y souffre que nous deux : </l>
@@ -1327,11 +1380,13 @@
 	<l id="873">Je m'y suis obligé, je l'ai fait espérer, </l>
 	<l id="874">L'oeuvre perd de son prix à trop délibérer. </l>
 </sp>
-<sp stage="exit/kiss" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, sortant de son Cabinet, et baisant sa lettre.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="exit/kiss">, sortant de son Cabinet, et baisant sa lettre.
+	</stage>
 	<l id="875">Va, porte-lui mon coeur, et force la contrainte </l>
 	<l id="876">Qui traverse une amour si parfaite et si sainte. </l>
 </sp>
-<sp stage="aparte" who="PHILIPPE"><speaker>PHILIPPE, à part.</speaker>
+<sp who="PHILIPPE"><speaker>PHILIPPE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="877">Le voici, mon Génie à propos me conduit, </l>
 	<l id="878">Ses gens sont demeurés, et pas un ne me suit ; </l>
 	<l id="879">Mais à l'occasion, encor qu'assez propice, </l>
@@ -1344,7 +1399,8 @@
 	<l id="886">La gloire de l'Empire, et l'honneur du Levant, </l>
 	<l id="887">Ce miracle animé par tant d'exploits insignes. </l>
 </sp>
-<sp stage="kiss" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, le voulant embrasser.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="kiss">, le voulant embrasser.
+	</stage>
 	<l id="888">Réservez ces devoirs, ma main en est indigne, </l>
 	<l id="889">Et vos embrassements me combleront d'honneur. </l>
 </sp>
@@ -1355,7 +1411,8 @@
 	<l id="891">Si c'est pour nous unir d'une étroite concorde, </l>
 	<l id="892">Comme j'en ai dessein, tenez, je vous l'accorde. </l>
 </sp>
-<sp stage="threat" who="PHILIPPE"><speaker>PHILIPPE, tirant son poignard.</speaker>
+<sp who="PHILIPPE"><speaker>PHILIPPE</speaker><stage type="threat">, tirant son poignard.
+	</stage>
 	<l id="893">Ne perdons point de temps ; que vois-je, justes Cieux ! </l>
 	<l id="894">Cette bague en son doigt déçoit-elle mes yeux ? </l>
 	<l id="895">Ou serait-ce de lui que je tiendrais la vie ? </l>
@@ -1445,7 +1502,8 @@
 <sp who="PHILIPPE"><speaker>PHILIPPE.</speaker>
 	<l id="943" syll="6" part="f">Elle qui vous adore ! </l>
 </sp>
-<sp stage="kiss" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, l'embrassant.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="944">Le Ciel te soit propice ; et qui donc, Théodore ? </l>
 </sp>
 <sp who="PHILIPPE"><speaker>PHILIPPE.</speaker>
@@ -1472,7 +1530,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="948">Ni moi, rien à douter ; ce mot me doit suffire, </l>
 	<l id="949">Ce silence forcé parle trop clairement ; </l>
 	<l id="950">Qu'une femme est à craindre, et hait obstinément ! </l>
@@ -1489,7 +1548,8 @@
 <stage type="sleep">Il fait semblant de dormir.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Narsès, L'Empereur, Bélisaire, Alvare, Gardes.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Narsès, L'Empereur, Bélisaire, Alvare, Gardes.
+</stage>
 <sp who="NARSÈS"><speaker>NARSÈS.</speaker>
 	<l id="961">La révolte, Seigneur, renouvelant son cours, </l>
 	<l id="962">Le salut d'un État dépend d'un prompt secours ; </l>
@@ -1526,7 +1586,8 @@
 	<l id="989">Puisque ce port céleste, et ce divin aspect, </l>
 	<l id="990">Impriment à la fois l'amour et le respect. </l>
 </sp>
-<sp stage="dream" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, feignant de rêver.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="dream">, feignant de rêver.
+	</stage>
 	<l id="991">Si je vous ai soumis, cruelle Théodore, </l>
 	<l id="992">Et le golfe du Gange, et le rivage More, </l>
 	<l id="993">Et si je n'ai jamais d'effet, ni de penser, </l>
@@ -1561,7 +1622,8 @@
 <stage type="hide">Il se met lui, Alvare, et les Gardes derrière la tapisserie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Théodore, Philippe,  [L'Empereur, Bélisaire, Alvare, Narsès].</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Théodore, Philippe,  [L'Empereur, Bélisaire, Alvare, Narsès].
+</stage>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="1015">Infâme, coeur sans coeur, homme indigne de l'être, </l>
 	<l id="1016">Après ta lâcheté tu peux encor paraître ?</l>
@@ -1600,7 +1662,8 @@
 	<l id="1027" syll="6" part="f">Épargnez-vous le blâme </l>
 	<l id="1028">D'un coup peu convenable à la main d'une femme. </l>
 </sp>
-<sp stage="get" who="THÉODORE"><speaker>THÉODORE, lui arrachant le poignard.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="get">, lui arrachant le poignard.
+	</stage>
 	<l id="1029">N'osant pas l'entre prendre, et me manquant de foi, </l>
 	<l id="1030">La tienne en a fait un bien moins digne de toi. </l>
 </sp>
@@ -1612,7 +1675,8 @@
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="1034" syll="4" part="i">Tais-toi, lâche. </l>
 </sp>
-<sp stage="low" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, bas.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1034" syll="8" part="f">Qui veille, et se tait, voit beaucoup.</l>
 </sp>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
@@ -1631,7 +1695,8 @@
 	<l id="1039" syll="6" part="f">Ô Dieu ! Ce sommeil léthargique </l>
 	<l id="1040">Fera, malgré mes soins, l'aventure tragique. </l>
 </sp>
-<sp stage="threat" who="THÉODORE"><speaker>THÉODORE, proche de Bélisaire le poignard à la main.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="threat">, proche de Bélisaire le poignard à la main.
+	</stage>
 	<l id="1041">Ce qu'aux plus résolus en vain j'ai proposé, </l>
 	<l id="1042">Et ce qu'en ma faveur trois hommes n'ont osé, </l>
 	<l id="1043">Va satisfaire enfin la fureur qui m'enflamme, </l>
@@ -1731,10 +1796,12 @@
 	<l id="1120">Fût-ce, au lieu de ma femme en ma propre personne ; </l>
 	<l id="1121" syll="4" part="i">Holà, quelqu'un. </l>
 </sp>
-<sp stage="awake" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, feignant de s'éveiller en sursaut.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="awake">, feignant de s'éveiller en sursaut.
+	</stage>
 	<l id="1121" syll="2" part="m">Seigneur. </l>
 </sp>
-<sp stage="closer" who="NARSÈS"><speaker>NARSÈS, vient et dit.</speaker>
+<sp who="NARSÈS"><speaker>NARSÈS</speaker><stage type="closer">, vient et dit.
+	</stage>
 	<l id="1121" syll="2" part="m">Seigneur. </l>
 </sp>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
@@ -1742,7 +1809,8 @@
 	<l id="1122">Quel importun sommeil s'est glissé sous mes yeux ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Narsès, Bélisaire, L'Empereur, Théodore, Philippe, Léonse, Gardes.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Narsès, Bélisaire, L'Empereur, Théodore, Philippe, Léonse, Gardes.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="1123">Certain chagrin conçu dans l'esprit de la Reine, </l>
 	<l id="1124">Dont j'ignore la cause, et partage la peine ; </l>
@@ -1777,8 +1845,10 @@
 	<l id="1148">Fera crever la haine et lassera l'envie. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Léonse tenant un bassin d'argent, dans lequel il y a une Couronne de lauriers et un Sceptre, L'Empereur, Théodore, Narsès,  Philippe, Bélisaire, Gardes. </head>
-<sp stage="get" who="L'EMPEREUR"><speaker>L'EMPEREUR, prenant le Sceptre.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Léonse tenant un bassin d'argent, dans lequel il y a une Couronne de lauriers et un Sceptre, L'Empereur, Théodore, Narsès,  Philippe, Bélisaire, Gardes. 
+</stage>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="get">, prenant le Sceptre.
+	</stage>
 	<l id="1149">Partageant avec toi ma puissance et mes biens, </l>
 	<l id="1150">J'estime encor t'ôter la part que j'en retiens, </l>
 	<l id="1151">Puisque m'étant acquis par ta valeur insigne, </l>
@@ -1885,7 +1955,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Théodore, Camille.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Théodore, Camille.
+</stage>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="1205">Non, non, Camille, non, je ne renonce pas </l>
 	<l id="1206">À la prétention d'un si juste trépas ; </l>
@@ -1987,8 +2058,10 @@
 	<l id="1290">Que d'inhumanité dedans un coeur humain. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II.  Bélisaire, Théodore.</head>
-<sp stage="away" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, se voulant retirer.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage>  Bélisaire, Théodore.
+</stage>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="away">, se voulant retirer.
+	</stage>
 	<l id="1291" syll="1" part="i">Dieu ! </l>
 </sp>
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
@@ -2077,7 +2150,8 @@
 	<l id="1360">Est lutter vainement contre ma destinée, </l>
 	<l id="1361">Témoignons-lui : mais lâche ! À quoi te résous-tu ? </l>
 </sp>
-<sp stage="aparte" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, à part.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1362">Sois-moi propice, ô Ciel ! Et soutiens ma vertu ! </l>
 	<l id="1363">J'ai d'un coeur invincible affronté la Fortune, </l>
 	<l id="1364">J'ai vu d'un oeil constant le courroux de Neptune, </l>
@@ -2112,18 +2186,22 @@
 	<l id="1385">Je m'y rends avec vous, l'ébat m'en sera cher ; </l>
 	<l id="1386">Il ne l'aperçoit pas, ou ne l'ose toucher. </l>
 </sp>
-<sp stage="aparte" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, à part.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1387">Sous cette écharpe, encor, quelque embûche est tendue. </l>
 </sp>
-<sp stage="drop" who="THÉODORE"><speaker>THÉODORE, laissant tomber un de ses gants sur l'écharpe : </speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="drop">, laissant tomber un de ses gants sur l'écharpe : 
+</stage>
 <stage type="aparte">À part.</stage>
 	<l id="1388">Ce gant dessus l'écharpe adressera sa vue. </l>
 </sp>
-<sp stage="aparte" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, à part.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1389">Défendez-vous mes yeux de ce second appas, </l>
 	<l id="1390">Et quoi que vous voyez, feignez de ne voir pas. </l>
 </sp>
-<sp stage="aparte" who="THÉODORE"><speaker>THÉODORE, à part.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1391">Ou ma faveur le trouble, ou l'amour qui l'engage, </l>
 	<l id="1392">Des yeux comme des mains lui dérobe l'usage : </l>
 <stage type="toward">Elle lui dit.</stage>
@@ -2143,13 +2221,16 @@
 <sp who="THÉODORE"><speaker>THÉODORE.</speaker>
 	<l id="1401" syll="9" part="f">Ha cruel ! Coeur insensible et fier ! </l>
 </sp>
-<sp stage="carry" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, tenant sa lettre.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="carry">, tenant sa lettre.
+	</stage>
 	<l id="1402">Dans la main en passant coulons-lui ce papier. </l>
 <stage type="give/hide">Il baille sa lettre à Anthonie qui la met dans sa manche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Anthonie, Bélisaire, Théodore.</head>
-<sp stage="aparte" who="THÉODORE"><speaker>THÉODORE, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Anthonie, Bélisaire, Théodore.
+</stage>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1403">Quoi, ni voeux, ni faveurs, rien ne touche son âme ! </l>
 </sp>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
@@ -2159,11 +2240,13 @@
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
 	<l id="1405" syll="6" part="f">Et l'honneur m'en est doux. </l>
 </sp>
-<sp stage="aparte/away" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, à part, se retirant.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="aparte/away">, à part, se retirant.
+	</stage>
 	<l id="1406">Le piège est échappé, fuyons, retirons-nous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Théodore, Anthonie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Théodore, Anthonie.
+</stage>
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
 	<l id="1407">Cette écharpe et ce gant ne sont pas sans mystère, </l>
 	<l id="1408">Mais mon salut dépend de voir et de me taire. </l>
@@ -2184,7 +2267,8 @@
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
 	<l id="1414" syll="1" part="m">Quel ? </l>
 </sp>
-<sp stage="get/location" who="THÉODORE"><speaker>THÉODORE, prenant la lettre de Bélisaire dans la manche d'Anthonie.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="get/location">, prenant la lettre de Bélisaire dans la manche d'Anthonie.
+	</stage>
 	<l id="1414" syll="5" part="f">Que vous me cachez ? </l>
 </sp>
 <sp who="ANTHONIE"><speaker>ANTHONIE.</speaker>
@@ -2209,7 +2293,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="THÉODORE"><speaker>THÉODORE, seule.</speaker>
+<sp who="THÉODORE"><speaker>THÉODORE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1421">Je vous ferai laisser sur votre liberté, </l>
 	<l id="1422">L'honneur d'une absolue et pleine autorité. </l>
 	<l id="1423">Enfin tu reconnais, chétive Souveraine, </l>
@@ -2244,7 +2329,8 @@
 	<l id="1451" syll="1" part="i">Ha ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Théodore, L'Empereur, Gardes.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Théodore, L'Empereur, Gardes.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="1451" syll="11" part="f">Que vois-je, Madame, à quel torrent de larmes </l>
 	<l id="1452">Laissez-vous effacez la splendeur de vos charmes ?</l>
@@ -2345,7 +2431,8 @@
 	<l id="1536" syll="4" part="i">À moi, quelqu'un. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Camille, Pages, L'Empereur.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Camille, Pages, L'Empereur.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="1536" syll="2" part="m">Seigneur. </l>
 </sp>
@@ -2361,7 +2448,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="L'EMPEREUR"><speaker>L'EMPEREUR, seul.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1539">Ô revers de fortune, à mon repos contraire ! </l>
 	<l id="1540">J'en connais l'écriture, elle est de Bélisaire ; </l>
 	<l id="1541">Et le défaut d'adresse en marque le secret ; </l>
@@ -2428,12 +2516,14 @@
 	<l id="1596">Pour le fatal parti que je dois condamner. </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Bélisaire, L'Empereur.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Bélisaire, L'Empereur.
+</stage>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
 	<l id="1597">L'on attendait, Seigneur, mais l'heure qui se passe, </l>
 	<l id="1598">Prive pour aujourd'hui de l'espoir de la chasse. </l>
 </sp>
-<sp stage="low/" who="L'EMPEREUR"><speaker>L'EMPEREUR, bas, se promenant sans le regarder.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="low/">, bas, se promenant sans le regarder.
+	</stage>
 	<l id="1599">L'ouvrage de mes mains ! L'effort de ma grandeur ! </l>
 	<l id="1600">De ma plus chère estime attaquer la splendeur ! </l>
 	<l id="1601">Un indigne ruisseau qui tient de moi sa source, </l>
@@ -2445,7 +2535,8 @@
 	<l id="1605">Prince, honneur des Césars, mon Seigneur et mon Maître, </l>
 	<l id="1606">Hélas ! Quelle froideur me faites-vous paraître ? </l>
 </sp>
-<sp stage="low" who="L'EMPEREUR"><speaker>L'EMPEREUR, bas.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1607">En vain tu m'attendris, inutile pitié, </l>
 	<l id="1608">L'intérêt de l'honneur va devant l'amitié. </l>
 </sp>
@@ -2466,12 +2557,14 @@
 	<l id="1618">Dans le commun débris de toute la nature ; </l>
 	<l id="1619">Ô Terre tu le sais ! Je vous atteste, ô Cieux ! </l>
 </sp>
-<sp stage="exit" who="L'EMPEREUR"><speaker>L'EMPEREUR, s'en allant.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="exit">, s'en allant.
+	</stage>
 	<l id="1620">Les yeux répareront le mal qu'ont fait les yeux. </l>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stgage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp stgage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage>, seul.
+	</stage>
 	<l id="1621">Achève ton ouvrage, ô disgrâce inhumaine ; </l>
 	<l id="1622">Je deviens importun, on me souffre avec peine ! </l>
 	<l id="1623">Et je respire encor où je suis odieux ! </l>
@@ -2493,7 +2586,8 @@
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, seul.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1637">Plus je rentre en moi-même, et plus je m'examine, </l>
 	<l id="1638">Moins j'y puis de mon mal rencontrer l'origine ; </l>
 	<l id="1639">Et moins j'y puis juger l'ombre d'une action, </l>
@@ -2520,7 +2614,8 @@
 	<l id="1660">Je puis être accusé, mais non pas convaincu. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léonse, Bélisaire.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léonse, Bélisaire.
+</stage>
 <sp who="LÉONSE"><speaker>LÉONSE.</speaker>
 	<l id="1661">Je vous suis trop acquis, pour vous pouvoir sans peine, </l>
 	<l id="1662">Faire savoir, Seigneur, le sujet qui m'amène, </l>
@@ -2528,7 +2623,8 @@
 	<l id="1664">De retirer le sceau de l'Aigle Impérial, </l>
 	<l id="1665">Et m'acquitte à regret de ce mauvais office. </l>
 </sp>
-<sp stage="get" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, tirant de son doigt l'anneau que l'Empereur lui a donné.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="get">, tirant de son doigt l'anneau que l'Empereur lui a donné.
+	</stage>
 	<l id="1666">Rends, chétif, rends au sort ton premier sacrifice ; </l>
 	<l id="1667">Quelque part qu'il nous donne en la faveur des Rois, </l>
 	<l id="1668">Nous sommes tous mortels, et sujets à ses lois ; </l>
@@ -2554,7 +2650,8 @@
 	<l id="1682">Que vous n'éteindriez pas pour partager ma peine. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Narsès, Bélisaire.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Narsès, Bélisaire.
+</stage>
 <sp who="NARSÈS"><speaker>NARSÈS.</speaker>
 	<l id="1683">Commis à retirer les brevets des emplois, </l>
 	<l id="1684">Qui vous ont fait l'envie et la terreur des Rois, </l>
@@ -2571,7 +2668,8 @@
 	<l id="1692">Ou comme des dépôts que je rends aujourd'hui ; </l>
 	<l id="1693">Devant ce changement, j'ai connu la Fortune. </l>
 </sp>
-<sp stage="exit/get" who="NARSÈS"><speaker>NARSÈS, entrant dans son Cabinet, où il prend ses papiers.</speaker>
+<sp who="NARSÈS"><speaker>NARSÈS</speaker><stage type="exit/get">, entrant dans son Cabinet, où il prend ses papiers.
+	</stage>
 	<l id="1694">Croyez que sa disgrâce avec vous m'est commune. </l>
 </sp>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
@@ -2579,7 +2677,8 @@
 	<l id="1696">Je vois chacun me plaindre, et nul me secourir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Philippe, Bélisaire, Archers.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Philippe, Bélisaire, Archers.
+</stage>
 <sp who="PHILIPPE"><speaker>PHILIPPE.</speaker>
 	<l id="1697">Je viens le coeur atteint d'une douleur mortelle, </l>
 	<l id="1698">Vous annoncer, Seigneur, un triste nouvelle, </l>
@@ -2611,7 +2710,8 @@
 <stage type="entrance">L'Empereur vient.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V.  L'Empereur, suite de Gardes, Philippe, Bélisaire, Archers.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage>  L'Empereur, suite de Gardes, Philippe, Bélisaire, Archers.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="1718">C'est moi  qui vous arrête, et qui vous la demande. </l>
 </sp>
@@ -2624,10 +2724,12 @@
 	<l id="1724">Et de votre grandeur le plus digne instrument ; </l>
 	<l id="1725">Et s'il vous servit mal, reprochez-m-en la honte. </l>
 </sp>
-<sp stage="away/give" who="L'EMPEREUR"><speaker>L'EMPEREUR, s'en allant, dit à Philippe à qui il baille un papier.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="away/give">, s'en allant, dit à Philippe à qui il baille un papier.
+	</stage>
 	<l id="1726">Exécuter cet ordre, et m'en rendez bon compte. </l>
 </sp>
-<sp stage="stap/kneel" who="BÉLISSAIRE"><speaker>BÉLISSAIRE, l'arrêtant et se jetant à ses pieds.</speaker>
+<sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE</speaker><stage type="stap/kneel">, l'arrêtant et se jetant à ses pieds.
+	</stage>
 	<l id="1727">Prince l'espoir des bons, et l'effroi des pervers, </l>
 	<l id="1728">Une image de Dieu, Roi du bas univers, </l>
 	<l id="1729">Arbitre souverain des fortunes humaines, </l>
@@ -2755,7 +2857,8 @@
 	<l id="1850">Et ne vous hâtez pas d'effacer votre image. </l>
 <stage type="turn/exit">L'Empereur lui tourne le dos, et s'en va.</stage>
 </sp>
-<sp stage="cry" who="PHILIPPE"><speaker>PHILIPPE, pleurant.</speaker>
+<sp who="PHILIPPE"><speaker>PHILIPPE</speaker><stage type="cry">, pleurant.
+	</stage>
 	<l id="1851">Cesse vaine pitié, dont mon coeur est transi ! </l>
 </sp>
 <sp who="BÉLISSAIRE"><speaker>BÉLISSAIRE.</speaker>
@@ -2778,14 +2881,16 @@
 	<l id="1868">La mort qui frappe tôt s'en fait moins ressentir. </l>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="low" who="PHILIPPE"><speaker>PHILIPPE, dit bas.</speaker>
+<sp who="PHILIPPE"><speaker>PHILIPPE</speaker><stage type="low">, dit bas.
+	</stage>
 	<l id="1869">J'ai regret que le sort m'emploie à la ruine </l>
 	<l id="1870">De la plus éclatante et superbe Machine ; </l>
 	<l id="1871">Mais César me l'ordonne, et les ordres des Rois </l>
 	<l id="1872">Lèvent toutes défenses, et passent toutes lois. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. L'Empereur, Léonse, Narsès.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> L'Empereur, Léonse, Narsès.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 	<l id="1873">Je souffre, je l'avoue, en cette inquiétude, </l>
 	<l id="1874">Un reproche secret de mon ingratitude ; </l>
@@ -2831,7 +2936,8 @@
 	<l id="1908">C'est être criminel que d'être soupçonné. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Camille, L'Empereur, Léonse, Narsès, Gardes.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Camille, L'Empereur, Léonse, Narsès, Gardes.
+</stage>
 <sp who="CAMILLE"><speaker>CAMILLE.</speaker>
 	<l id="1909">Suspendez votre arrêt, Seigneur, l'Impératrice, </l>
 	<l id="1910">Au bruit que l'on menait Bélisaire au Supplice, </l>
@@ -2864,8 +2970,10 @@
 	<l id="1935" syll="6" part="i">Empêchez que Philippe... </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Philippe, Archers, L'Empereur, Narsès, Léonse, Camille, Gardes.</head>
-<sp stage="continue" who="L'EMPEREUR"><speaker>L'EMPEREUR, continue.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Philippe, Archers, L'Empereur, Narsès, Léonse, Camille, Gardes.
+</stage>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="1935" syll="6" part="f">Ô funeste retour ! </l>
 	<l id="1936">Au Soleil de l'Empire a-t-on ravi le jour ? </l>
 	<l id="1937">Avez-vous satisfait au jugement inique, </l>

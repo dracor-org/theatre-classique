@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -26,21 +26,21 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>ALBERT DURER</titlePart>
-			<titlePart type='sub'>PIÈCE EN UN ACTE.</titlePart>
+			<titlePart type="main">ALBERT DURER</titlePart>
+			<titlePart type="sub">PIÈCE EN UN ACTE.</titlePart>
 		</docTitle>
-		<docDate value='1861'>1861.</docDate>
-		<docAuthor id='AUDIFFRET, L.D.L.'>L.D.L. AUDIFFRET</docAuthor>
+		<docDate value="1861">1861.</docDate>
+		<docAuthor id="AUDIFFRET, L.D.L.">L.D.L. AUDIFFRET</docAuthor>
 		<docImprint>
-				<editor id='TRESSE'>MARSEILLE CAMOIN FRÈRE, LIBRAIRES-ÉDITEURS Rue Saint Féréol, 4</editor>
+				<editor id="TRESSE">MARSEILLE CAMOIN FRÈRE, LIBRAIRES-ÉDITEURS Rue Saint Féréol, 4</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MAXIMILIEN" sex="1" type="H" statut="empereur" age='A' stat_amour='néant'>MAXIMILIEN Ier</role>, empereur d'Allemagne.</castItem>
-		<castItem><role id="LE DUC DE RANZAN" sex="1" type="H" statut="duc" age='A' stat_amour='néant'>LE DUC DE RANZAN</role>.</castItem>
-		<castItem><role id="LE COMTE DE STEINBERG" sex="1" type="H" statut="comte" age='A' stat_amour='néant'>LE COMTE DE STEINBERG</role>.</castItem>
-		<castItem><role id="MICHEL WOLFMUTH" sex="1" type="H" statut="peintre" age='A' stat_amour='néant'>MICHEL WOLFMUTH</role>.</castItem>
-		<castItem><role id="ALBERT DURER" sex="1" type="H" statut="peintre" age='A' stat_amour='néant'>ALBERT DURER</role>.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age='A' stat_amour='néant'>UN LAQUAIS</role>.</castItem>
+		<castItem><role id="MAXIMILIEN" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">MAXIMILIEN Ier</role>, empereur d'Allemagne.</castItem>
+		<castItem><role id="LE DUC DE RANZAN" sex="1" type="H" statut="duc" age="A" stat_amour="néant">LE DUC DE RANZAN</role>.</castItem>
+		<castItem><role id="LE COMTE DE STEINBERG" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE DE STEINBERG</role>.</castItem>
+		<castItem><role id="MICHEL WOLFMUTH" sex="1" type="H" statut="peintre" age="A" stat_amour="néant">MICHEL WOLFMUTH</role>.</castItem>
+		<castItem><role id="ALBERT DURER" sex="1" type="H" statut="peintre" age="A" stat_amour="néant">ALBERT DURER</role>.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">UN LAQUAIS</role>.</castItem>
 	</castList>
 	<set location="Nuremberg" country="Allemagne" periode="XVème" gps="49.457814, 11.075824">La scène se passe a Nuremberg, dans le palais de l'empereur.</set>
 	<note>Extrait de "Entre deux paravents, Théâtre des salons de famille Seconde partie, pièces pour hommes seulement", L.D.L. Audiffret, Janvier 1889, pp. 347-370. Cote BnF [YF-8106]</note>
@@ -73,7 +73,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Duc, entrant par la gauche, Le Comte.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Duc, entrant par la gauche, Le Comte.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Je me proposais de me rendre chez vous, Duc_de_Ranzan. </s>
@@ -152,7 +153,8 @@
 	<s id="1">En sortant de ce bal, j'emportai son image gravée dans mon coeur : elle n'en sortira jamais.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE DUC"><speaker>LE DUC, riant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="laugh">, riant.
+</stage>
 <p id="14">
 	<s id="1">Ah ! ah ! ah !... </s>
 	<s id="2">Heureusement c'est moi, son père, qui reçois la déclaration.</s>
@@ -168,7 +170,8 @@
 	<s id="1">Parlez-vous sérieusement ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LE COMTE"><speaker>LE COMTE, prenant un ton piqué.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="stress">, prenant un ton piqué.
+</stage>
 <p id="17">
 	<s id="1">Est-ce bien sérieusement aussi que vous m'adressez cette question ?</s>
 </p>
@@ -279,8 +282,10 @@ gauche.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. L'Empereur, Le Duc.</head>
-<sp stage="entrance/location" who="L'EMPEREUR"><speaker>L'EMPEREUR, entrant par la droite.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> L'Empereur, Le Duc.
+</stage>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="entrance/location">, entrant par la droite.
+</stage>
 <p id="1">
 	<s id="1">Vous voici, Duc ! </s>
 	<s id="2">J'en suis enchanté. </s>
@@ -448,8 +453,10 @@ gauche.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. L'Empereur, le Duc, Wolfmuth, Un Laquais.</head>
-<sp stage="declamate" who="LE LAQUAIS"><speaker>LE LAQUAIS, annonçant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> L'Empereur, le Duc, Wolfmuth, Un Laquais.
+</stage>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="1">
 	<s id="1">Maître Michel_Wolfmuth !</s>
 </p>
@@ -479,7 +486,8 @@ gauche.</stage>
 	<s id="3">Cette fresque avait besoin de vos pinceaux.</s>
 </p>
 </sp>
-<sp stage="watch" who="WOLFMUTH"><speaker>WOLFMUTH, regardant la fresque. </speaker>
+<sp who="WOLFMUTH"><speaker>WOLFMUTH</speaker><stage type="watch">, regardant la fresque. 
+</stage>
 <p id="6">
 	<s id="1">Des portraits ! </s>
 	<s id="2">Mais, c'est beau ! </s>
@@ -596,7 +604,8 @@ gauche.</stage>
 	<l id="32">Passer à la postérité.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Wolfmuth, Durer, entrant par la gauche et portant une boîte et une palette.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Wolfmuth, Durer, entrant par la gauche et portant une boîte et une palette.
+</stage>
 <sp who="DURER"><speaker>DURER.</speaker>
 <p id="1">
 	<s id="1">En vérité, maître, il n'a pas été facile de pénétrer jusqu'à vous. </s>
@@ -661,16 +670,19 @@ gauche.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Comte, entrant par la gauche, Wolfmuth, Durer, sur la chaise. </head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Comte, entrant par la gauche, Wolfmuth, Durer, sur la chaise. 
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE. </speaker>
 <stage type="watch/sing/aparte">Il aperçoit Durer, reste immobile sur le seuil de la porte et chante à part.</stage>
 <stage type="title">AIR.</stage>
 	<l id="33">Quel objet a frappé ma vue ?</l>
 </sp>
-<sp stage="aparte/recognize" who="DURER"><speaker>DURER, à part, en reconnaissant le Comte.</speaker>
+<sp who="DURER"><speaker>DURER</speaker><stage type="aparte/recognize">, à part, en reconnaissant le Comte.
+	</stage>
 	<l id="34">Oui, c'est bien lui, j'en suis certain !</l>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="35">Quelle circonstance imprévue</l>
 	<l id="36">Le jette ainsi sur mon chemin ?...</l>
 	<l id="37">Allons, que mon trouble s'apaise !</l>
@@ -682,13 +694,16 @@ gauche.</stage>
 	<l id="40">Le regarder de haut en bas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Wolfmuth, Durer.</head>
-<sp stage="watch/estonish" who="WOLFMUTH"><speaker>WOLFMUTH, qui a observé avec étonnement ce qui s'est passé dans la scène précédente.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Wolfmuth, Durer.
+</stage>
+<sp who="WOLFMUTH"><speaker>WOLFMUTH</speaker><stage type="watch/estonish">, qui a observé avec étonnement ce qui s'est passé dans la scène précédente.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce donc que ceci, Albert ?</s>
 </p>
 </sp>
-<sp stage="stand" who="DURER"><speaker>DURER, descendant de la chaise.</speaker>
+<sp who="DURER"><speaker>DURER</speaker><stage type="stand">, descendant de la chaise.
+</stage>
 <p id="2">
 	<s id="2">Le jeune seigneur que vous venez de voir et qui s'est éloigné, honteux...</s>
 </p>
@@ -738,7 +753,8 @@ gauche.</stage>
 	<s id="1">Une échelle, Maître, une échelle !</s>
 </p>
 </sp>
-<sp stage="get" who="WOLFMUTH"><speaker>WOLFMUTH, prenant une échelle dans la coulisse et la plaçant sous la fresque.</speaker>
+<sp who="WOLFMUTH"><speaker>WOLFMUTH</speaker><stage type="get">, prenant une échelle dans la coulisse et la plaçant sous la fresque.
+</stage>
 <p id="11">
 	<s id="1">En voici une. </s>
 	<s id="2">C'est sans doute à notre intention qu'elle a été apportée ici... </s>
@@ -808,7 +824,8 @@ gauche.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Le Duc, Durer.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Le Duc, Durer.
+</stage>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 <p id="1">
 	<s id="1">Le jeune artiste est, dit-on, arrivé... </s>
@@ -854,7 +871,8 @@ gauche.</stage>
 	<s id="4">Mais, faut-il bien enfin que je mette un terme à votre conduite sans excuse !</s>
 </p>
 </sp>
-<sp stage="drop" who="DURER"><speaker>DURER, quittant la palette et les pinceaux.</speaker>
+<sp who="DURER"><speaker>DURER</speaker><stage type="drop">, quittant la palette et les pinceaux.
+</stage>
 <p id="9">
 	<s id="1">Sans excuse ! </s>
 	<s id="2">Vous vous trompez, Monseigneur. </s>
@@ -876,7 +894,8 @@ gauche.</stage>
 	<s id="3">Chaque fois que je m'étais trouvé sur votre passage, je rentrais dans l'atelier de Maître_Wolfmuth et j'ajoutais à mon oeuvre quelques-unes de ces grâces que j'avais surprises au modèle et que nul artiste n'aurait pu deviner.</s>
 </p>
 </sp>
-<sp stage="nervous" who="LE DUC"><speaker>LE DUC, avec un ton d'humeur très prononcé.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="nervous">, avec un ton d'humeur très prononcé.
+</stage>
 <p id="12">
 	<s id="1">Il me semble que cette oeuvre devrait être terminée depuis longtemps.</s>
 </p>
@@ -899,7 +918,8 @@ gauche.</stage>
 	<s id="3">Non, non, je ne vous obéirai pas tant que je serai libre de parcourir les rues de Nuremberg et les bords de la Pegnitz.</s>
 </p>
 </sp>
-<sp stage="silence/closer" who="LE DUC"><speaker>LE DUC, après un moment de silence, se calmant et se rapprochant de Durer. </speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="silence/closer">, après un moment de silence, se calmant et se rapprochant de Durer. 
+</stage>
 <p id="16">
 	<s id="1">Durer, on dit que vous avez du talent, et divers traits que l'on raconte de vous attestent que vous avez plus encore : la noblesse du coeur. </s>
 	<s id="2">Je veux vous donner une preuve d'estime. </s>
@@ -926,7 +946,8 @@ gauche.</stage>
 	<s id="4">Je souscris d'avance au prix que vous fixerez, et songez bien qu'ils ont pour moi une grande valeur.</s>
 </p>
 </sp>
-<sp stage="proud" who="DURER"><speaker>DURER, avec fierté. </speaker>
+<sp who="DURER"><speaker>DURER</speaker><stage type="proud">, avec fierté. 
+</stage>
 <p id="19">
 	<s id="1">Monseigneur, dès ce soir, on portera chez vous la copie, à la condition expresse que vous l'accepterez comme un don. </s>
 	<s id="2">Quant à l'original, je l'emporte avec moi.</s>
@@ -949,7 +970,8 @@ gauche.</stage>
 	<l id="59">Mais, ne les demandez pas</l>
 	<l id="60">Comme une nouvelle grâce.</l>
 </sp>
-<sp stage="help/stand" who="LE DUC"><speaker>LE DUC, le relevant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="help/stand">, le relevant.
+</stage>
 <p id="21">
 	<s id="1">Relevez-vous, mon ami !</s>
 </p>
@@ -970,7 +992,8 @@ gauche.</stage>
 	<s id="1">Si j'étais noble et riche, comme vous l'êtes, Monseigneur, je vous les céderais pour le seul prix qu'il vous fût possible d'en donner, et je ne m'éloignerais pas de Nuremberg.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+</stage>
 <p id="25">
 	<s id="1">Pauvre jeune homme ! </s>
 </p>
@@ -996,7 +1019,8 @@ gauche.</stage>
 <stage type="get/quick/work">Il reprend sa palette, ses pinceaux et monte vivement sur l'échelle.</stage>
 </sp>
 </div2>
-<div2 type="scene" stage="work" n="13"><head>SCÈNE XIII. Wolfmuth, Durer travaillant.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage type="work"> Wolfmuth, Durer travaillant.
+</stage>
 <sp who="WOLFMUTH"><speaker>WOLFMUTH.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -1071,7 +1095,8 @@ gauche.</stage>
 	<s id="1">Quelques moments encore, et j'aurai achevé ma besogne.</s>
 </p>
 </sp>
-<sp stage="watch/location" who="WOLFMUTH"><speaker>WOLFMUTH, examinant la fresque. </speaker>
+<sp who="WOLFMUTH"><speaker>WOLFMUTH</speaker><stage type="watch/location">, examinant la fresque. 
+</stage>
 <p id="13">
 	<s id="1">Parfait ! </s>
 </p>
@@ -1083,15 +1108,18 @@ gauche.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. L'Empereur, Le Duc, Le Comte, Wolfmuth, Durer sur l'échelle et continuant à travailler.</head> 
-<sp stage="toward" who="L'EMPEREUR"><speaker>L'EMPEREUR, au Comte. </speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> L'Empereur, Le Duc, Le Comte, Wolfmuth, Durer sur l'échelle et continuant à travailler. 
+</stage> 
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="toward">, au Comte. 
+</stage>
 <p id="1">
 	<s id="1">N'insistez pas davantage, Comte_de_Steinberg. </s>
 	<s id="2">Je ne puis vous autoriser à vous éloigner de moi. </s>
 	<s id="3">Il faut que j'aie une conversation particulière avec vous.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part. </speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="2">
 	<s id="1">Que me veut-il ?</s>
 </p>
@@ -1110,13 +1138,15 @@ gauche.</stage>
 </p> 
 <stage type="watch/work">Il regarde travailler Durer.</stage>
 </sp>
-<sp stage="watch" who="LE DUC"><speaker>LE DUC, regardant aussi travailler Durer. </speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="watch">, regardant aussi travailler Durer. 
+</stage>
 <p id="5">
 	<s id="1">Voilà qui tient du merveilleux ! </s>
 	<s id="2">En si peu de temps !</s>
 </p>
 </sp>
-<sp stage="toward" who="L'EMPEREUR"><speaker>L'EMPEREUR, au Duc. </speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="toward">, au Duc. 
+</stage>
 <p id="6">
 	<s id="1">Ne le troublons pas. </s>
 	<s id="2">Admirons en silence. </s>
@@ -1128,23 +1158,27 @@ gauche.</stage>
 	<s id="3">Steinberg, retenez-là !...</s>
 </p>
 </sp>
-<sp stage="stop" who="LE COMTE"><speaker>LE COMTE, sans bouger de place.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="stop">, sans bouger de place.
+</stage>
 <p id="8">
 	<s id="1">Moi, sire !... </s>
 	<s id="2">Maître_Wolfmuth, rendez ce service à votre élève.</s>
 </p>
 </sp>
-<sp stage="push/help" who="L'EMPEREUR"><speaker>L'EMPEREUR, repoussant Wolfmuth qui s'élance et allant lui-même retenir l'échelle.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="push/help">, repoussant Wolfmuth qui s'élance et allant lui-même retenir l'échelle.
+</stage>
 <p id="9">
 	<s id="1">Ce sera moi !</s>
 </p>
 </sp>
-<sp stage="watch" who="WOLFMUTH"><speaker>WOLFMUTH, regardant l'Empereur.</speaker>
+<sp who="WOLFMUTH"><speaker>WOLFMUTH</speaker><stage type="watch">, regardant l'Empereur.
+</stage>
 <p id="10">
 	<s id="1">Les sujets d'un prince qui veille ainsi sur un pauvre artiste ne sauraient être malheureux !</s>
 </p>
 </sp>
-<sp stage="jump/down" who="DURER"><speaker>DURER, sautant à bas de l'échelle. </speaker>
+<sp who="DURER"><speaker>DURER</speaker><stage type="jump/down">, sautant à bas de l'échelle. 
+</stage>
 <p id="11">
 	<s id="">C'est fait ! </s>
 </p>
@@ -1182,7 +1216,8 @@ gauche.</stage>
 	<s id="1">Est-il possible ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, au Duc.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, au Duc.
+</stage>
 <p id="17">
 	<s id="1">Monsieur le Duc_de_Ranzan a donc oublié que, ce matin même, je lui ai demandé la faveur de devenir son gendre. </s>
 	<s id="2">Me fera-t-il la grâce de m'expliquer la préférence ?...</s>
@@ -1197,7 +1232,8 @@ gauche.</stage>
 	<s id="1">Voici la poignée de votre épée que vous avez laissée, il y a quelque temps, entre ses mains.</s>
 </p>
 </sp>
-<sp stage="quick" who="L'EMPEREUR"><speaker>L'EMPEREUR, vivement.</speaker>
+<sp who="L'EMPEREUR"><speaker>L'EMPEREUR</speaker><stage type="quick">, vivement.
+</stage>
 <p id="20">
 	<s id="1">Comment ! </s>
 	<s id="2">Le Comte_de_Steinberg ?...</s>
@@ -1214,7 +1250,8 @@ gauche.</stage>
 	<s id="1">Ce sont les vôtres.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="23">
 	<s id="1">Je suis perdu !</s>
 </p>
@@ -1230,7 +1267,8 @@ gauche.</stage>
 <stage type="exit">Le comte sort par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV ET DERNIÈRE. L'Empereur, Le Duc, Durer, Wolfmuth.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV ET DERNIÈRE.</head><stage> L'Empereur, Le Duc, Durer, Wolfmuth.
+</stage>
 <sp who="L'EMPEREUR"><speaker>L'EMPEREUR.</speaker>
 <p id="1">
 	<s id="1">Et vous, Maître_Wolfmuth, nous ne saurions vous oublier. Nous vous nommons notre premier peintre et nous vous confions la direction de notre galerie de tableaux... à condition que vos oeuvres et celles de votre élève y occuperont la première place.</s>

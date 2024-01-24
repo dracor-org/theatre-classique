@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 	<fileDesc>
@@ -28,25 +28,26 @@
 		<docTitle>
 			<titlePart type="main">MUSELÉ !</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="L'HUISSIER-AUDIENCIER" sex="1" type="H" statut="huissier" age='A' stat_amour='néant'>L'HUISSIER-AUDIENCIER</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président" age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
-			<castItem><role id="VAUFROY" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>VAUFROY</role>.</castItem>
+			<castItem><role id="L'HUISSIER-AUDIENCIER" sex="1" type="H" statut="huissier" age="A" stat_amour="néant">L'HUISSIER-AUDIENCIER</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président" age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="VAUFROY" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">VAUFROY</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 173-177</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>MUSELÉ ! </head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor/location">À l'audience.</stage>
-<sp who="L'HUISSIER-AUDIENCIER"><speaker>L'HUISSIER-AUDIENCIER, appelant.</speaker>
+<sp who="L'HUISSIER-AUDIENCIER"><speaker>L'HUISSIER-AUDIENCIER</speaker><stage>, appelant.
+</stage>
 <p id="1">
 	<s id="1">Le ministère public contre Vaufroy !</s>
 </p>
@@ -101,7 +102,8 @@
 	<s id="1">Ça l'empêche de bailler, cette bête.</s>
 </p>
 </sp>
-<sp stage="happy" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, goguenard.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="happy">, goguenard.
+</stage>
 <p id="10">
 	<s id="1">Allons donc !</s>
 </p>
@@ -120,7 +122,8 @@
 	<s id="2">Il est regrettable que le tribunal ne puisse entrer dans les considérations de cette importance de doive s'en tenir à faire respecter les ordonnances du préfet_de_police</s>
 </p>
 </sp>
-<sp stage="nervous" who="VAUFROY"><speaker>VAUFROY, très énergique.</speaker>
+<sp who="VAUFROY"><speaker>VAUFROY</speaker><stage type="nervous">, très énergique.
+</stage>
 <p id="13">
 	<s id="1">Pardon ! </s>
 	<s id="2">Je connais les institutions qui nous régissent, et je déclare, à la face de Dieu, qu'il n'y a ni loi ni ordonnance empêchant les chiens de bâiller !... </s>
@@ -171,7 +174,8 @@
 	<s id="1">La loi...</s>
 </p>
 </sp>
-<sp stage="strong" who="VAUFROY"><speaker>VAUFROY, très net.</speaker>
+<sp who="VAUFROY"><speaker>VAUFROY</speaker><stage type="strong">, très net.
+</stage>
 <p id="22">
 	<s id="1">Il n'y a pas de loi qui empêche les chiens de pisser.</s>
 </p>

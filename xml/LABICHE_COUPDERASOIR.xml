@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -27,17 +27,17 @@
 			<titlePart type="main">UN COUP DE RASOIR</titlePart>
 			<titlePart type="sub">SAYNÈTE</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881.</docDate>
-		<docAuthor id="LABICHE, Eugène" bio='labiche'>PAR M. EUGÈNE LABICHE.</docAuthor>
+		<docDate value="1881">1881.</docDate>
+		<docAuthor id="LABICHE, Eugène" bio="labiche">PAR M. EUGÈNE LABICHE.</docAuthor>
 		<docImprint>
-			<acheveImprime id=''></acheveImprime>
-			<editor id='TRESSE'>À PARIS, TRESSE, Galerie du Théâtre Français, PALAIS-ROYAL.</editor>
+			<acheveImprime id=""/>
+			<editor id="TRESSE">À PARIS, TRESSE, Galerie du Théâtre Français, PALAIS-ROYAL.</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ANTÉNOR" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ANTÉNOR</role>.</castItem> 
-		<castItem><role id="GAVOT" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>GAVOT</role>.</castItem> 
+		<castItem><role id="ANTÉNOR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ANTÉNOR</role>.</castItem> 
+		<castItem><role id="GAVOT" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">GAVOT</role>.</castItem> 
 	</castList>
-<set location="(Lieu indéterminé)" country='France' periode='(indéterminé)' gps="(N/A)"></set>
+<set location="(Lieu indéterminé)" country="France" periode="(indéterminé)" gps="(N/A)"/>
 <note>Paru dans "Saynètes et monologues", Troisième série, Paris, Tresse Editeur, 1881. pp. 135-149</note>
 </front>
 <body>
@@ -46,7 +46,8 @@
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor/entrance">Au lever du rideau, la scène est vide. La pendule sonne dix heures. Les rideaux s'ouvrent brusquement. La tête d'Anténor paraît coiffée d'un bonnet de coton.</stage>
 <stage type="alone">Anténor, seul.</stage>
-<sp stgage="entrance" who="ANTÉNOR"><speaker>ANTÉNOR, passant sa tête.</speaker>
+<sp stgage="entrance" who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage>, passant sa tête.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce que c'est que cette heure-là ? </s>
 </p>
@@ -60,7 +61,8 @@
 	<s id="5">Gavôôôôôt !</s>
 </p>
 </sp>
-<sp stage="location" who="GAVOT"><speaker>VOIX DE GAVOT, dans la coulisse.</speaker>
+<sp who="GAVOT"><speaker>VOIX DE GAVOT</speaker><stage type="location">, dans la coulisse.
+</stage>
 <p id="3">
 	<s id="1">Monsieur ?...</s>
 </p>
@@ -96,7 +98,8 @@
 	<s id="1">Oui, monsieur.</s>
 </p>
 </sp>
-<sp stage="toward" who="ANTÉNOR"><speaker>ANTÉNOR, au public.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="toward">, au public.
+</stage>
 <p id="9">
 	<s id="1">C'est mon domestique, je l'ai fait coucher à côté de moi, c'est très commode.</s>
 </p>
@@ -126,7 +129,8 @@
 	<s id="1">Il est dix heures !</s>
 </p>
 </sp>
-<sp stage="jump/costume" who="ANTÉNOR"><speaker>ANTÉNOR, sautant vivement en bas de son lit. Il est en caleçon et en bonnet de coton.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="jump/costume">, sautant vivement en bas de son lit. Il est en caleçon et en bonnet de coton.
+</stage>
 <p id="15">
 	<s id="1">Dix heures !... </s>
 	<s id="2">Nom d'une trompette !... </s>
@@ -151,7 +155,8 @@
 	<s id="1">Je me suis rendormi, Monsieur !</s>
 </p>
 </sp>
-<sp stage="imitate" who="ANTÉNOR"><speaker>ANTÉNOR, l'imitant.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="imitate">, l'imitant.
+</stage>
 <p id="19">
 	<s id="1">Je me suis rendormi, Monsieur... </s>
 	<s id="2">Mais je n'ai pas le temps de le rosser.</s>
@@ -167,7 +172,8 @@
 	<s id="1">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="location" who="ANTÉNOR"><speaker>ANTÉNOR, allant à sa toilette.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="location">, allant à sa toilette.
+</stage>
 <p id="22">
 	<s id="1">Voyons. </s>
 	<s id="2">Commençons toujours.</s>
@@ -190,9 +196,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Anténor, Gavot.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Anténor, Gavot.
+</stage>
 <stage type="entrance/costume">Gavot entre. Il est en caleçon et porte un foulard de nuit sur sa tête.</stage>
-<sp stage="toward" who="ANTÉNOR"><speaker>ANTÉNOR, à Gavot.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="toward">, à Gavot.
+</stage>
 <p id="1">
 	<s id="1">Pourquoi n'as-tu pas ronflé ?...</s>
 </p>
@@ -253,7 +261,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ANTÉNOR"><speaker>ANTÉNOR, seul.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="11">
 	<s id="1">Voilà déjà un quart_d_heure de passé... nom d'un nom !</s>
 </p>
@@ -335,8 +344,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Anténor, Gavot.</head>
-<sp stage="entrance" who="GAVOT"><speaker>GAVOT, entrant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Anténor, Gavot.
+</stage>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="1">
 	<s id="1">Me voilà, Monsieur.</s>
 </p>
@@ -351,7 +362,8 @@
 	<s id="1">Vous soufflez l'oeil.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTÉNOR"><speaker>ANTÉNOR, à part.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Non, je n'ai pas le temps de la rosser.</s>
 </p>
@@ -360,12 +372,14 @@
 	<s id="1">Tourne toi !</s>
 </p>
 </sp>
-<sp stage="turn" who="GAVOT"><speaker>GAVOT, se tournant.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="turn">, se tournant.
+</stage>
 <p id="6">
 	<s id="1">Avec plaisir.</s>
 </p>
 </sp>
-<sp stage="hit" who="ANTÉNOR"><speaker>ANTÉNOR, lui donnant un coup de pied.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="hit">, lui donnant un coup de pied.
+</stage>
 <p id="7">
 	<s id="1">Là... </s>
 	<s id="2">Maintenant va me chercher mes habits.</s>
@@ -383,7 +397,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ANTÉNOR"><speaker>ANTÉNOR, seul.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ce château est situé mi-côte sur les bords de la Garonne... </s>
 	<s id="2">Il est connu dans le pays sous le nom de : château du grand Traquenard... </s>
@@ -396,8 +411,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Anténor, Gavot.</head>
-<sp stage="entrance/give" who="GAVOT"><speaker>GAVOT, entre. Il s'approche de son maître et lui présente sa canne et son chapeau.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Anténor, Gavot.
+</stage>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="entrance/give">, entre. Il s'approche de son maître et lui présente sa canne et son chapeau.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, voilà !</s>
 </p>
@@ -412,7 +429,8 @@
 	<s id="1">Votre canne et votre chapeau.... pour vous habiller...</s>
 </p>
 </sp>
-<sp stage="aparte/stress" who="ANTÉNOR"><speaker>ANTÉNOR, à part, grinçant.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="aparte/stress">, à part, grinçant.
+</stage>
 <p id="4">
 	<s id="1">Oh ! </s>
 	<s id="2">Oh ! </s>
@@ -423,17 +441,20 @@
 	<s id="1">Tourne-toi !</s>
 </p>
 </sp>
-<sp stage="turn" who="GAVOT"><speaker>GAVOT, se tournant.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="turn">, se tournant.
+</stage>
 <p id="6">
 	<s id="1">Avec plaisir.</s>
 </p>
 </sp>
-<sp stage="hit" who="ANTÉNOR"><speaker>ANTÉNOR, lui donnant un coup de pied.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="hit">, lui donnant un coup de pied.
+</stage>
 <p id="7">
 	<s id="1">Tiens !</s>
 </p>
 </sp>
-<sp stage="aparte" who="GAVOT"><speaker>GAVOT, à part.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Il est original, Monsieur.</s>
 </p>
@@ -501,7 +522,8 @@
 	<s id="3">Je vais l'ôter... pour me recoucher.</s>
 </p>
 </sp>
-<sp stage="quick" who="ANTÉNOR"><speaker>ANTÉNOR, vivement.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="quick">, vivement.
+</stage>
 <p id="20">
 	<s id="1">Te recoucher !... </s>
 	<s id="2">Aie !... </s>
@@ -529,7 +551,8 @@
 	<s id="1">Mais, Monsieur...</s>
 </p>
 </sp>
-<sp stage="watch" who="ANTÉNOR"><speaker>ANTÉNOR, regardant la pendule.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="watch">, regardant la pendule.
+</stage>
 <p id="25">
 	<s id="1">Plus que dix minutes ! </s>
 	<s id="2">Sors ou je t'égorge !</s>
@@ -537,8 +560,10 @@
 <stage type="escape">Gavot se sauve.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII. Anténor, puis Gavot.</head>
-<sp stage="wash/quick" who="ANTÉNOR"><speaker>ANTÉNOR, se rasant très vivement.</speaker>
+<div2 type="scene" n="7"><head>SCENE VII.</head><stage> Anténor, puis Gavot.
+</stage>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="wash/quick">, se rasant très vivement.
+</stage>
 <p id="1">
 	<s id="1">Voyons... </s>
 	<s id="2">Ne perdons pas de temps... </s>
@@ -553,7 +578,8 @@
 </p>
 <stage type="wash">Il se rase.</stage>
 </sp>
-<sp stage="entrance" who="GAVOT"><speaker>GAVOT, entrant.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="3">
 	<s id="1">Monsieur, voici vos habits.</s>
 </p>
@@ -563,7 +589,8 @@
 	<s id="1">Mets-tes sur la chaise...</s>
 </p>
 </sp>
-<sp stage="aparte" who="GAVOT"><speaker>GAVOT, à part.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Avec tout ça, je ne trouve pas mon chapeau de livrée.</s>
 </p>
@@ -573,7 +600,8 @@
 </p>
 <stage type="touch">Il lui secoue le bras.</stage>
 </sp>
-<sp stage="hurt" who="ANTÉNOR"><speaker>ANTÉNOR, se coupant.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="hurt">, se coupant.
+</stage>
 <p id="7">
 	<s id="1">Animal ! </s>
 	<s id="2">Ça fait trois !</s>
@@ -665,7 +693,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="ANTÉNOR"><speaker>ANTÉNOR, seul.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ça ne sèche pas... </s>
 	<s id="2">Je vais toujours mettre mon pantalon... </s>
@@ -767,8 +796,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Anténor, Gavot.</head>
-<sp stage="entrance/dress" who="GAVOT"><speaker>GAVOT, entre. Il est en grande livrée.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Anténor, Gavot.
+</stage>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="entrance/dress">, entre. Il est en grande livrée.
+</stage>
 <p id="1">
 	<s id="1">Je suis prêt, Monsieur.</s>
 </p>
@@ -778,7 +809,8 @@
 	<s id="1">Gavot, ramasse ce rasoir, mon ami.</s>
 </p>
 </sp>
-<sp stage="get" who="GAVOT"><speaker>GAVOT, le ramassant.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="get">, le ramassant.
+</stage>
 <p id="3">
 	<s id="1">Le voilà.</s>
 </p>
@@ -796,7 +828,8 @@
 	<s id="1">Très bien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="GAVOT"><speaker>GAVOT, à part.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Il est original, monsieur.</s>
 </p>
@@ -818,7 +851,8 @@
 	<s id="2">Je t'autorise à me donner mon bonnet de coton...</s>
 </p>
 </sp>
-<sp stage="give" who="GAVOT"><speaker>GAVOT, le lui donnant.</speaker>
+<sp who="GAVOT"><speaker>GAVOT</speaker><stage type="give">, le lui donnant.
+</stage>
 <p id="11">
 	<s id="1">Monsieur va se marier en bonnet de coton ?</s>
 </p>
@@ -861,7 +895,8 @@
 	<s id="1">Monsieur peut être tranquille.</s>
 </p>
 </sp>
-<sp stage="dress" who="ANTÉNOR"><speaker>ANTÉNOR, se déshabillant.</speaker>
+<sp who="ANTÉNOR"><speaker>ANTÉNOR</speaker><stage type="dress">, se déshabillant.
+</stage>
 <p id="18">
 	<s id="1">Crois-moi, fais-toi la barbe avant... </s>
 	<s id="2">Bonsoir, Gavot...</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -30,23 +30,24 @@
 		<titlePart type="sub">COMÉDIE EN UN ACTE EN PROSE</titlePart>
 	</docTitle>
 	<docDate value="1770">M. DCC. LXX.</docDate>
-		<docAuthor id="GRAFFIGNY, Françoise de"></docAuthor>
+		<docAuthor id="GRAFFIGNY, Françoise de"/>
 	<docImprint>
 		<editor id="">À AMSTERDAM, Et se trouve à PARIS, Chez les Libraires qui vendent les Nouveautés.</editor>
 	</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="PHAZA" sex="2" type="H" statut="prince" age='J' stat_amour='Azor'>PHAZA</role>, Princesse élevée par la Fée Singuliere et qui se croit un homme.</castItem>
-		<castItem><role id="CLÉMENTINE" sex="2" type="H" statut="fée" age='A' stat_amour='néant'>CLÉMENTINE</role>, Fée.</castItem>
-		<castItem><role id="ZAMIE" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>ZAMIE</role>, Nièce de Clémentine.</castItem>
-		<castItem><role id="AZOR" sex="1" type="H" statut="aristocrate" age='J' stat_amour='Phaza'>AZOR</role>, Fils de clémentine.</castItem>
+		<castItem><role id="PHAZA" sex="2" type="H" statut="prince" age="J" stat_amour="Azor">PHAZA</role>, Princesse élevée par la Fée Singuliere et qui se croit un homme.</castItem>
+		<castItem><role id="CLÉMENTINE" sex="2" type="H" statut="fée" age="A" stat_amour="néant">CLÉMENTINE</role>, Fée.</castItem>
+		<castItem><role id="ZAMIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">ZAMIE</role>, Nièce de Clémentine.</castItem>
+		<castItem><role id="AZOR" sex="1" type="H" statut="aristocrate" age="J" stat_amour="Phaza">AZOR</role>, Fils de clémentine.</castItem>
 	</castList>
-	<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)">La Scène est dans le Jardin de la Fée Singuliere.</set>
+	<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La Scène est dans le Jardin de la Fée Singuliere.</set>
 	<note>issu de "Oeuvres posthumes de Madame de Grafigny ; contenant, ZIMAN et ZENISE, suivi de PHAZA, Comédies en un Acte en Prose."</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>PHAZA</head>
 <stage type="costume">Phaza doit avoir un habillement pittoresque.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clémentine, Zamie.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clémentine, Zamie.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
 	<s id="1">Rassurez-vous donc Zamie.</s>
@@ -138,7 +139,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Clémentine, Azor.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Clémentine, Azor.
+</stage>
 <stage type="entrance">Il entre du côté opposé à celui par lequel Zamie est sortie.</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
@@ -455,14 +457,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="CLÉMENTINE"><speaker>CLÉMENTINE, seule.</speaker>
+<sp who="CLÉMENTINE"><speaker>CLÉMENTINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Oui, j'entrevois qu'il est possible... </s>
 	<s id="2">Je leur causerai du chagrin, de l'humeur, mais ils m'en remercieront.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clémentine, Zamie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clémentine, Zamie.
+</stage>
 <sp who="ZAMIE"><speaker>ZAMIE.</speaker>
 <p id="1">
 	<s id="1">Ma bonne, il y a dans ce jardin un jeune homme qui vous cherche, je crois, car il court, il va et vient comme un étourdi.</s>
@@ -517,7 +521,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Clémentine, Phaza, Zamie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Clémentine, Phaza, Zamie.
+</stage>
 <sp who="PHAZA"><speaker>PHAZA.</speaker>
 <p id="1">
 	<s id="1">Singuliere m'a dit en partant, Madame, qu'elle me laissait sous vos ordres, je viens les recevoir.</s>
@@ -750,13 +755,15 @@
 	<s id="1">Ma bonne, me laisser ainsi avec un jeune homme.</s>
 </p>
 </sp>
-<sp stage="away" who="CLÉMENTINE"><speaker>CLÉMENTINE, s'en allant.</speaker>
+<sp who="CLÉMENTINE"><speaker>CLÉMENTINE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="30">
 	<s id="1">Soyez en repos ; le tête à tête n'a rien d'indécent.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Phaza, Zamie.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Phaza, Zamie.
+</stage>
 <sp who="PHAZA"><speaker>PHAZA.</speaker>
 <p id="1">
 	<s id="1">Elle n'écoute rien ; jamais on n'a donné si peu d'attention... </s>
@@ -945,7 +952,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="PHAZA"><speaker>PHAZA, seule.</speaker>
+<sp who="PHAZA"><speaker>PHAZA</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Voilà donc ces femmes que Singuliere me disait être si malheureuses ! </s>
 	<s id="2">Hélas, il ne leur faut aucun mérite pour triompher de nous. </s>
@@ -966,7 +974,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Azor, Phaza.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Azor, Phaza.
+</stage>
 <sp who="AZOR"><speaker>AZOR.</speaker>
 <p id="1">
 	<s id="1">Enfin je vous revois cher Phaza. </s>
@@ -994,7 +1003,8 @@
 	<s id="2">Et si j'avois douté de votre crime, le honteux embarras où je vous vois suffirait pour m'en convaincre.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AZOR"><speaker>AZOR, à part.</speaker>
+<sp who="AZOR"><speaker>AZOR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Le voilà donc arrivé ce malheur inévitable !</s>
 </p>
@@ -1074,7 +1084,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Clémentine, Azor, Phaza.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Clémentine, Azor, Phaza.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
 	<s id="1">Je n'aurais pas cru avoir à me plaindre de vous, Phaza.</s>
@@ -1113,7 +1124,8 @@
 	<s id="1">Pour assurer votre repos, et nous mettre tous à l'abri des reproches de Singuliere, je veux avant son retour unir mon fils à Zamie.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AZOR"><speaker>AZOR, à part.</speaker>
+<sp who="AZOR"><speaker>AZOR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="">À quoi tend ce discours ?</s>
 </p>
@@ -1134,7 +1146,8 @@
 	<s id="2">Ô Ciel !</s>
 </p>
 </sp>
-<sp stage="TOWARD" who="CLÉMENTINE"><speaker>CLÉMENTINE, à Agor.</speaker>
+<sp who="CLÉMENTINE"><speaker>CLÉMENTINE</speaker><stage type="TOWARD">, à Agor.
+</stage>
 <p id="12">
 	<s id="1">Vous ne répondez point.</s>
 </p>
@@ -1166,7 +1179,8 @@
 	<s id="1">Et croyez-vous, Madame, faire adopter à tout le monde le goût décidé que vous avez pour faire des mariages.</s>
 </p>
 </sp>
-<sp stage="laugh" who="CLÉMENTINE"><speaker>CLÉMENTINE, riant.</speaker>
+<sp who="CLÉMENTINE"><speaker>CLÉMENTINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="18">
 	<s id="1">Ah, ah ! </s>
 	<s id="">L'aigreur s'en mêle !</s>
@@ -1259,7 +1273,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Phaza, Azor.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Phaza, Azor.
+</stage>
 <sp who="PHAZA"><speaker>PHAZA.</speaker>
 <p id="1">
 	<s id="1">La mienne est inébranlable. </s>
@@ -1362,7 +1377,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="AZOR"><speaker>AZOR, seul.</speaker>
+<sp who="AZOR"><speaker>AZOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Quelle situation! </s>
 	<s id="2">Elle m'aime, Sa tendresse est peinte jusque dans sa colère. </s>
@@ -1371,7 +1387,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Azor, Zamie.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Azor, Zamie.
+</stage>
 <sp who="ZAMIE"><speaker>ZAMIE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1457,8 +1474,10 @@
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Azor, Zamie, Phaza.</head>
-<sp stage="threat" who="PHAZA"><speaker>PHAZA, un Javelot à la main qu'il présente à Azor.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Azor, Zamie, Phaza.
+</stage>
+<sp who="PHAZA"><speaker>PHAZA</speaker><stage type="threat">, un Javelot à la main qu'il présente à Azor.
+</stage>
 <p id="1">
 	<s id="1">Ah, traitre ! </s>
 	<s id="2">Il est donc vrai...</s>
@@ -1562,7 +1581,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Phaza, Clémentine, Azor.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Phaza, Clémentine, Azor.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
 	<s id="1">Je viens vous dire Phaza, que le Château est entouré de chariots, de pavillons et de gardes. </s>
@@ -1583,7 +1603,8 @@
 	<s id="3">Je suis au comble du malheur.</s>
 </p>	
 </sp>
-<sp stage="toward" who="CLÉMENTINE"><speaker>CLÉMENTINE, à Phaaa.</speaker>
+<sp who="CLÉMENTINE"><speaker>CLÉMENTINE</speaker><stage type="toward">, à Phaaa.
+</stage>
 <p id="4">
 	<s id="1">Je puis faire ouvrir les portes, vous recevrez l'hommage de vos sujets. </s>
 	<s id="2">Mais le terme du pouvoir de Singuliere sur vous n'est point expiré. </s>
@@ -1598,7 +1619,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Clémentine, Azor.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Clémentine, Azor.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
 	<s id="1">Je savais tout ce qui se passait entre vous, et j'ai cru qu'il était temps de transporter ici les premiers de ses sujets, mais je ne sais que penser d'un si prompt changement d'humeur.</s>
@@ -1685,7 +1707,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Clémentine, Azor, Zamie.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Clémentine, Azor, Zamie.
+</stage>
 <sp who="ZAMIE"><speaker>ZAMIE.</speaker>
 <p id="1">
 	<s id="1">Ma bonne, je vous conjure de me renvoyer, je ne saurais plus demeurer ici.</s>
@@ -1782,7 +1805,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Azor, Clémentine.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Azor, Clémentine.
+</stage>
 <sp who="AZOR"><speaker>AZOR.</speaker>
 <p id="1">
 	<s id="1">J'y cours moi-même.</s>
@@ -1811,7 +1835,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Azor, Phaza.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Azor, Phaza.
+</stage>
 <sp who="PHAZA"><speaker>PHAZA.</speaker>
 <p id="1">
 	<s id="1">Azor ! </s>
@@ -1901,7 +1926,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE DERNIÈRE. Clémentine, Azor, Phaza, Zamie.</head>
+<div2 type="scene" n="19"><head>SCÈNE DERNIÈRE.</head><stage> Clémentine, Azor, Phaza, Zamie.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 <p id="1">
 	<s id="1">C'est l'amour, belle Phaza ! </s>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>DEUX HOMMES POUR UN PLACARD, VAUDEVILLE.</title>
-				<author type='texte' ISNI='0000 0000 5889 0326'>Joachim DUFLOT (18..-18..)</author>
-				<author type='texte' ISNI='0000 0001 1608 7233 '>Nérée DÉSARBRES, Nérée (1822-1872)</author>
+				<author type="texte" ISNI="0000 0000 5889 0326">Joachim DUFLOT (18..-18..)</author>
+				<author type="texte" ISNI="0000 0001 1608 7233 ">Nérée DÉSARBRES, Nérée (1822-1872)</author>
 			</titleStmt>
 			<publicationStmt>	
 				<editor>Texte établi par Paul FIEVRE, octobre 2022.</editor>
@@ -20,7 +20,7 @@
 				<type>mixte</type>
 				<periode>1851-1860</periode>
 				<taille>0-250</taille>
-				<permalien cote="BnF LLA 8-YTH-4900"></permalien>
+				<permalien cote="BnF LLA 8-YTH-4900"/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -31,26 +31,27 @@
 			<titlePart type="sub">VAUDEVILLE EN UN ACTE</titlePart>
 			<titlePart type="sub">Représenté pour la première fois, le 7 avril 1860, sur le Théâtre des Folies-Dramatiques.</titlePart>
 		</docTitle> 
-		<docDate value='1860'>1860. Représentation, reproduction et traduction réservées..</docDate>
-		<docAuthor id='DUFLOT, DESARBRES'>PAR MM. J. DUFLOT ET NÉRÉE DESARBRES.</docAuthor>
+		<docDate value="1860">1860. Représentation, reproduction et traduction réservées..</docDate>
+		<docAuthor id="DUFLOT, DESARBRES">PAR MM. J. DUFLOT ET NÉRÉE DESARBRES.</docAuthor>
 		<docImprint>
-			<editor id='LIBRAIRIE THÉÂTRALE'>PARIS, LIBRAIRIE THÉÂTRALE, 14, RUE GRANMONT</editor>
+			<editor id="LIBRAIRIE THÉÂTRALE">PARIS, LIBRAIRIE THÉÂTRALE, 14, RUE GRANMONT</editor>
 			<printer>Paris. - Typ. Morris er Comp., 64, rue Amelot.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="TIBURCE" sex="1" type="H" statut='bourgeois' age="A" stat_amour='néant'>TIBURCE</role>. M. CALVIN.</castItem>
-		<castItem><role id="SÉVERIN" sex="1" type="H" statut='bourgeois' age="A" stat_amour='néant'>SÉVERIN</role>. M. BOYRON.</castItem>
-		<castItem><role id="CLARA" sex="2" type="H" statut='bourgeois' age="A" stat_amour='néant'>CLARA</role>. Mlle Maria BELAMI.</castItem>
-		<castItem><role id="URSULE" sex="2" type="H" statut='bourgeois' age="A" stat_amour='néant'>URSULE</role>. Mlle ESTHER.</castItem>
-		<castItem><role id="UN PORTIER" sex="1" type="H" statut='portier' age="A" stat_amour='néant'>UN PORTIER</role>. M. VICTOR.</castItem>
+		<castItem><role id="TIBURCE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">TIBURCE</role>. M. CALVIN.</castItem>
+		<castItem><role id="SÉVERIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">SÉVERIN</role>. M. BOYRON.</castItem>
+		<castItem><role id="CLARA" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">CLARA</role>. Mlle Maria BELAMI.</castItem>
+		<castItem><role id="URSULE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">URSULE</role>. Mlle ESTHER.</castItem>
+		<castItem><role id="UN PORTIER" sex="1" type="H" statut="portier" age="A" stat_amour="néant">UN PORTIER</role>. M. VICTOR.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>DEUX HOMMES POUR UN PLACARD</head>
 <stage type="decor/furniture">Une chambre simple : deux portes à droite, deux portes à gauche, portes au fond, fenêtre au fond à gauche. Au fond, face au public, une grande armoire pour contenir deux hommes ; un buffet près la fenêtre à gauche, où se trouvent assiettes, verres, couteaux et fourchettes, poivre et sel, une nappe. Une table carrée à droite, une chaise à droite : un petit guéridon à gauche, dessus une bougie allumée , une chaise de chaque côté, un carton à ouvrage. (Clara près du guéridon à gauche.)</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE</head>
-<sp stage="alone/sit/work" who="CLARA"><speaker>CLARA, seule, assise et travaillant.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="alone/sit/work">, seule, assise et travaillant.
+</stage>
 <p id="1">
 	<s id="1">Ce jeune homme timide qui, depuis dimanche, me suit dans la rue et qui me parle toujours de sa flamme, veut m'être présenté. </s>
 	<s id="2">Quoi de plus légitime ?... </s>
@@ -98,7 +99,8 @@
 <stage type="location/furniture§entrance/knock">Elle va à la table à droite, elle se prépare à écrire. Tiburce est entré, ferme la porte, et frappe en dedans.</stage>
 </sp>
 </div2>
-<div2 type="SCENE" n="2"><head>SCÈNE II. Tiburce, Clara.</head>
+<div2 type="SCENE" n="2"><head>SCÈNE II.</head><stage> Tiburce, Clara.
+</stage>
 <sp who="CLARA"><speaker>CLARA.</speaker>
 <p id="1">
 	<s id="1">Eh ! </s>
@@ -111,7 +113,8 @@
 	<s id="2">Et l'homme qui grelotte.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLARA"><speaker>CLARA, à part.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Que lui dire pour l'éloigner ?</s>
 </p>
@@ -427,7 +430,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="CLARA"><speaker>CLARA, seule.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Quel être séduisant ! </s>
 	<s id="2">Et pourtant j'ai résisté, j'ai tenu le serment que j'avais fait à Ursule et j'ai inventé un père par vertu...</s>
@@ -456,8 +460,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clara, Ursule.</head>
-<sp stage="entrance" who="URSULE"><speaker>URSULE, entrant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clara, Ursule.
+</stage>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="entrance">, entrant.
+</stage>
 <stage type="title">AIR : du Comte Ory, final du 1er acte.</stage>
 	<l id="25">Pimpante et leste,</l>
 	<l id="26">Je suis modeste,</l>
@@ -512,7 +518,8 @@
 	<s id="1">À propos, j'ai failli être renversée, en montant l'escalier, par un jeune homme qui dégringolait les étages comme un torrent.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLARA"><speaker>CLARA, à part.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">C'est Tiburce, l'amour lui donnait des ailes.</s>
 </p>
@@ -564,7 +571,8 @@
 <stage type="exit">Clara sort par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ursule seule, puis Séverin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ursule seule, puis Séverin.
+</stage>
 <sp who="URSULE"><speaker>URSULE.</speaker>
 <p id="1">
 	<s id="1">Je suis seule, il peut monter. </s>
@@ -582,7 +590,8 @@
 	<s id="1">Entrez !</s>
 </p>
 </sp>
-<sp stage="laugh" who="SÉVERIN"><speaker>SÉVERIN, riant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="laugh">, riant.
+</stage>
 <p id="3">
 	<s id="1">Ô bonheur !</s>
 </p>
@@ -612,7 +621,8 @@
 	<s id="1">Venez de ce côté.</s>
 </p>
 </sp>
-<sp stage="shout" who="SÉVERIN"><speaker>SÉVERIN, criant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="shout">, criant.
+</stage>
 <p id="9">
 	<s id="1">Pourquoi ?</s>
 </p>
@@ -637,7 +647,8 @@
 	<s id="1">C'est un moyen de rendre les hommes circonspects.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SÉVERIN"><speaker>SÉVERIN, à part.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Elle est ornée d'une mère grand... comme le_Petit_Chaperon_rouge.</s>
 </p>
@@ -664,7 +675,8 @@
 	<s id="3">Si je vais ai accordé cette entrevue, c'est bien parce que je vous reconnais des sentiments délicats.</s>
 </p>
 </sp>
-<sp stage="shout" who="SÉVERIN"><speaker>SÉVERIN, criant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="shout">, criant.
+</stage>
 <p id="19">
 	<s id="1">Je suis tous sentiments.</s>
 </p>
@@ -674,7 +686,8 @@
 	<s id="1">Chut !</s>
 </p>
 </sp>
-<sp stage="low" who="SÉVERIN"><speaker>SÉVERIN, parlant bas.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="low">, parlant bas.
+</stage>
 <p id="21">
 	<s id="1">Délicats !</s>
 </p>
@@ -728,7 +741,8 @@
 	<s id="1">Je vous prie de parler haut, je n'entends pas de cette oreille-là.</s>
 </p>
 </sp>
-<sp stage="location" who="SÉVERIN"><speaker>SÉVERIN, passant derrière Ursule..</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="location">, passant derrière Ursule..
+</stage>
 <p id="22">
 	<s id="1">Je vais passer de l'autre côté.</s>
 </p>
@@ -786,7 +800,8 @@
 	<s id="2">On cause mieux à table.</s>
 </p>
 </sp>
-<sp stage="aparte" who="URSULE"><speaker>URSULE, à part.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="33">
 	<s id="1">Ici, c'est impossible... </s>
 	<s id="2">Avant une heure, Clara rentrera...</s>
@@ -810,7 +825,8 @@
 	<s id="1">Nous souperons sur le pouce, dans ma chambre...</s>
 </p>
 </sp>
-<sp stage="shout" who="SÉVERIN"><speaker>SÉVERIN, criant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="shout">, criant.
+</stage>
 <p id="38">
 	<s id="1">Je la tiens !... </s>
 	<s id="2">Ô ivresse !...</s>
@@ -866,7 +882,8 @@
 	<s id="2">Je vais en chercher.</s>
 </p>
 </sp>
-<sp stage="pull" who="URSULE"><speaker>URSULE, le retenant.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="49">
 	<s id="1">Que dirait la portière, si elle voyait un homme descendre et remonter ici avec des comestibles ?... </s>
 	<s id="2">Oh ! </s>
@@ -900,7 +917,8 @@
 	<s id="1">À Propos, vous n'avez jamais aimé que moi ?....</s>
 </p>
 </sp>
-<sp who="URSULE"><speaker>URSULE, sévèrement.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage>, sévèrement.
+</stage>
 <p id="55">
 	<s id="1">Monsieur_Séverin, je suis logée à Montmartre, et je me lève à quatre_heures_du_matin, c'est vous dire que j'aime à voir lever l'aurore.</s>
 </p>
@@ -920,7 +938,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI</head>
-<sp stage="alone" who="SÉVERIN"><speaker>SÉVERIN, seul.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ursule ! </s>
 	<s id="2">Mon Ursule !... </s>
@@ -946,8 +965,10 @@
 
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Séverin, Tiburce.</head>
-<sp who="TIBURCE"><speaker>TIBURCE, sur le seuil de la porte.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Séverin, Tiburce.
+</stage>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage>, sur le seuil de la porte.
+</stage>
 <p id="1">
 	<s id="1">Un homme chez ma fiancée !...</s>
 </p>
@@ -967,7 +988,8 @@
 	<s id="1">Monsieur, vous vous êtes trompé d'étage c'est au-dessus.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TIBURCE"><speaker>TIBURCE, à part.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Je reconnais les meubles...  et la chambre de l'invalide. </s>
 	<s id="2">Je suis trahis... </s>
@@ -975,18 +997,21 @@
 	<s id="4">Et moi qui rapportais mes papiers...</s>
 </p>
 </sp>
-<sp stage="aparte" who="SÉVERIN"><speaker>SÉVERIN, de même.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="aparte">, de même.
+</stage>
 <p id="6">
 	<s id="1">Est-ce un rival ? </s>
 	<s id="2">Qu'est ce que je pourrais bien en faire ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="TIBURCE"><speaker>TIBURCE, même jeu.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="aparte">, même jeu.
+</stage>
 <p id="7">
 	<s id="1">On prépare un souper à deux couverts...</s>
 </p>
 </sp>
-<sp stage="loud" who="SÉVERIN"><speaker>SÉVERIN, haut.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="loud">, haut.
+</stage>
 <p id="8">
 	<s id="1">Dites donc, quand vous aurez fini vos aparté dans ce coin... </s>
 	<s id="2">Vous pourrez vous en aller, je ne vous retiens pas.</s>
@@ -1016,7 +1041,8 @@
 	<s id="3">Je le fais passer par dessus ma tête.</s>
 </p>
 </sp>
-<sp stage="shout" who="TIBURCE"><speaker>TIBURCE, criant.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="shout">, criant.
+</stage>
 <p id="13">
 	<s id="1">Je n'ai peur de rien.</s>
 </p>
@@ -1041,7 +1067,8 @@
 	<s id="1">Voyons, une fois, deux fois, voulez-vous déguerpir ?...</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, bas.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, bas.
+</stage>
 <p id="18">
 	<s id="1">Non ! </s>
 	<s id="2">Une fois, deux fois, sortirez -vous d'ici ?</s>
@@ -1053,19 +1080,22 @@
 	<s id="2">J'attends mon souper.</s>
 </p>
 </sp>
-<sp stage="loud" who="TIBURCE"><speaker>TIBURCE, haut.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="loud">, haut.
+</stage>
 <p id="20">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Nous serons trois à table.</s>
 </p>
 </sp>
-<sp stage="shout" who="SÉVERIN"><speaker>SÉVERIN, criant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="shout">, criant.
+</stage>
 <p id="21">
 	<s id="1">Oh ! </s>
 	<s id="2">Non !</s>
 </p>
 </sp>
-<sp stage="loud" who="TIBURCE"><speaker>TIBURCE, criant.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="loud">, criant.
+</stage>
 <p id="22">
 	<s id="1">Oh ! </s>
 	<s id="2">Si !</s>
@@ -1076,7 +1106,8 @@
 	<s id="1">Plus bas.</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, bas.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, bas.
+</stage>
 <p id="24">
 	<s id="1">Je vous mangerai plutôt que de ne pas manger votre souper, car je l'aime, moi...</s>
 </p>
@@ -1086,7 +1117,8 @@
 	<s id="1">Mais, vous n'avez pas si faim que moi...</s>
 </p>
 </sp>
-<sp stage="aparte" who="TIBURCE"><speaker>TIBURCE, à part.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="26">
 	<s id="1">Le vil suborneur ! </s>
 	<s id="2">Il est sur sa bouche...</s>
@@ -1118,12 +1150,14 @@
 	<s id="1">Vous ?</s>
 </p>
 </sp>
-<sp stage="shout" who="SÉVERIN"><speaker>SÉVERIN, criant.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="shout">, criant.
+</stage>
 <p id="32">
 	<s id="1">Oui, moi !</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, baissanr la voix.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, baissanr la voix.
+</stage>
 <p id="33">
 	<s id="1">Plus bas.</s>
 </p>
@@ -1133,35 +1167,41 @@
 	<s id="1">C'est juste.</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, bas.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, bas.
+</stage>
 <p id="35">
 	<s id="1">J'en mangerais quatre comme vous.</s>
 </p>
 </sp>
-<sp stage="low" who="SÉVERIN"><speaker>SÉVERIN, bas.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="low">, bas.
+</stage>
 <p id="36">
 	<s id="1">Vous auriez une rude indigestion... </s>
 	<s id="2">Moi, votre carcasse me suffit ; je vais vous tailler en pièces.</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, bas.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, bas.
+</stage>
 <p id="37">
 	<s id="1">À quelle arme ?</s>
 </p>
 </sp>
-<sp stage="hit" who="SÉVERIN"><speaker>SÉVERIN, lui donnant un coup de pied.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="hit">, lui donnant un coup de pied.
+</stage>
 <p id="38">
 	<s id="1">À la botte !</s>
 </p>
 </sp>
-<sp stage="low" who="TIBURCE"><speaker>TIBURCE, bas.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="low">, bas.
+</stage>
 <p id="39">
 	<s id="1">Lâche ! </s>
 	<s id="2">Vous frappez par derrière, mais mois, je frappe par devant...</s>
 </p>
 <stage type="hit">Lui donnant un coup de pied.</stage>
 </sp>
-<sp stage="loud" who="SÉVERIN"><speaker>SÉVERIN, élevant la voix.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="loud">, élevant la voix.
+</stage>
 <p id="40">
 	<s id="1">Je vous tuerai !</s>
 </p>
@@ -1191,7 +1231,8 @@
 	<s id="1">Vous voulez dire sortons ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="SÉVERIN"><speaker>SÉVERIN, à part.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="46">
 	<s id="1">Ah ! </s>
 	<s id="2">Ta vertu, Lucrèce, va peut être causer mon trépas !</s>
@@ -1204,7 +1245,8 @@
 	<s id="3">Ma trahir pour un homme aussi laid, et qui a une cravate blanche !</s>
 </p>
 </sp>
-<sp stage="aparte" who="SÉVERIN"><speaker>SÉVERIN, à part.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="48">
 	<s id="1">Quand je le considère, je trouve les femmes bien fantasques... </s>
 	<s id="2">Aimer des êtres presque difformes !</s>
@@ -1227,7 +1269,8 @@
 	<s id="1">L'insulte que j'ai reçue veut du sang...</s>
 </p>
 </sp>
-<sp stage="touch" who="SÉVERIN"><speaker>SÉVERIN, se tenant la joue.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage type="touch">, se tenant la joue.
+</stage>
 <p id="52">
 	<s id="1">La mienne aussi...</s>
 </p>
@@ -1248,7 +1291,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="entrance/location/carry" who="URSULE"><speaker>URSULE, entrant par la porte de droite, avec un panier de provisions qu'elle dépose sur le buffet au fond.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="entrance/location/carry">, entrant par la porte de droite, avec un panier de provisions qu'elle dépose sur le buffet au fond.
+</stage>
 <p id="1">
 	<s id="1">Je suis montée par l'escalier de service pour ne pas être vue du portier... </s>
 	<s id="2">Ces provisions nocturnes auraient exercé sa langue... </s>
@@ -1284,7 +1328,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Ursule, Clara.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Ursule, Clara.
+</stage>
 <sp who="URSULE"><speaker>URSULE.</speaker>
 <p id="1">
 	<s id="1">C'est déjà toi ?</s>
@@ -1297,7 +1342,8 @@
 	<s id="3">Qu'est ce que c'est que ce couvert .</s>
 </p>
 </sp>
-<sp stage="hesitate" who="URSULE"><speaker>URSULE, hésitant.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="3">
 	<s id="1">Je t'attendais...</s>
 </p>
@@ -1360,7 +1406,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, Le Concierge.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, Le Concierge.
+</stage>
 <sp who="LE CONCIERGE"><speaker>LE CONCIERGE.</speaker>
 <p id="1">
 	<s id="1">Une lettre pressée pour Mademoiselle_Clara.</s>
@@ -1402,7 +1449,8 @@
 	<s id="1">Qu'est-ce que cela veut dire ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="URSULE"><speaker>URSULE, à part.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Cette lettre est louche... </s>
 	<s id="2">Je saurai bien ce que c'est... </s>
@@ -1431,8 +1479,10 @@
 <stage type="exit/location">Elle entre à droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11" stage="watch"><head>SCÈNE XI. Ursule, regardant sur l'escalier, puis Séverin.</head>
-<sp stage="listen" who="URSULE"><speaker>URSULE, écoutant.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage type="watch"> Ursule, regardant sur l'escalier, puis Séverin.
+</stage>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="listen">, écoutant.
+</stage>
 <p id="1">
 	<s id="1">Cette fois, c'est bien lui... </s>
 	<s id="2">Je meurs d'effroi. </s>
@@ -1475,7 +1525,8 @@
 	<s id="1">Puis, nous sommes allés nous entre'égorger dans les carrières de Montmartre... et je j'ai tué !</s>
 </p>
 </sp>
-<sp stage="loud" who="URSULE"><speaker>URSULE, fort.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="loud">, fort.
+</stage>
 <p id="7">
 	<s id="1">Ô homicide !...</s>
 </p>
@@ -1615,7 +1666,8 @@
 <stage type="close/location">Elle entre dans sa chambre, à gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12" stage="entrance"><head>SCÈNE XII. Clara, sortant de sa chambre, puis Tiburce.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage type="entrance"> Clara, sortant de sa chambre, puis Tiburce.
+</stage>
 <sp who="CLARA"><speaker>CLARA.</speaker>
 <p id="1">
 	<s id="1">Ursule doit dormir... </s>
@@ -1626,7 +1678,8 @@
 	<s id="1">Entrez, malheureux...</s>
 </p>
 </sp>
-<sp who="TIBURCE"><speaker>TIBURCE, entrant très en colère.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage>, entrant très en colère.
+</stage>
 <p id="3">
 	<s id="1">Oui, j'entre, fille coupable... </s>
 	<s id="2">Parce que j'ai froid... </s>
@@ -1753,7 +1806,8 @@
 <stage type="close/furniture/entrance/light">Elle l'enferme dans l'armoire et rentre chez elle. Obscurité profonde.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Ursule, seule, puis Tiburce.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Ursule, seule, puis Tiburce.
+</stage>
 <sp who="URSULE"><speaker>URSULE.</speaker>
 <p id="1">
 	<s id="1">Il est tard, il n'y a personne dans la rue à cette heure... </s>
@@ -1786,15 +1840,18 @@
 	<s id="1">Vous rêviez...</s>
 </p>
 </sp>
-<sp stage="hugh" who="TIBURCE"><speaker>TIBURCE, lui prenant la taille.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="hugh">, lui prenant la taille.
+</stage>
 <p id="7">
 	<s id="1">Je voudrais ne pas m'en aller...</s>
 </p>
 <stage type="entrance/open">Clara sort de sa chambre et va délivrer Séverin ; ils descendent en scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les Mêmes, Séverin, Clara.</head>
-<sp stage="open/furniture" who="CLARA"><speaker>CLARA, ouvrant l'armoire.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les Mêmes, Séverin, Clara.
+</stage>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="open/furniture">, ouvrant l'armoire.
+</stage>
 <p id="1">
 	<s id="1">Venez donc... </s>
 	<s id="2">Il est temps de partir...</s>
@@ -1832,7 +1889,8 @@
 </p>
 <stage type="location">Ils sont à droite de la scène ; Ursule et Tiburce à gauche.</stage>
 </sp>
-<sp stage="toward/low" who="URSULE"><speaker>URSULE, à Tiburce, bas.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="toward/low">, à Tiburce, bas.
+</stage>
 <p id="7">
 	<s id="1">Quand nous serons mariés.</s>
 </p>
@@ -1854,14 +1912,16 @@
 	<s id="2">Laissez-là dans la mienne...</s>
 </p>
 </sp>
-<sp stage="aparte" who="URSULE"><speaker>URSULE, à part.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">C'est drôle... </s>
 	<s id="2">J'ai senti des favoris !... </s>
 	<s id="3">Je savais bien que la peur faisait blanchir les cheveux, mais je ne pensais pas que ça fît pousser la barbe...</s>
 </p>
 </sp>
-<sp stage="location" who="CLARA"><speaker>CLARA, de son côté.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="location">, de son côté.
+</stage>
 <p id="12">
 	<s id="1">Non, non, je ne veux pas... </s>
 	<s id="2">C'est inutile d'insister... </s>
@@ -1917,12 +1977,14 @@
 	<s id="1">Si vous vous en sauvez, ça n'est pas de jeu...</s>
 </p>
 </sp>
-<sp stage="toward" who="URSULE"><speaker>URSULE, à Séverin.</speaker>
+<sp who="URSULE"><speaker>URSULE</speaker><stage type="toward">, à Séverin.
+</stage>
 <p id="22">
 	<s id="1">Vous n'êtes pas encore parti ?</s>
 </p>
 </sp>
-<sp who="CLARA"><speaker>CLARA, à Tiburce.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage>, à Tiburce.
+</stage>
 <p id="23">
 	<s id="1">Je suis décidée à ne rien accorder de plus.</s>
 </p>
@@ -1961,7 +2023,8 @@
 </p>
 <stage type="kiss">Il l'embrasse.</stage>
 </sp>
-<sp stage="slap" who="CLARA"><speaker>CLARA, lui donnant un soufflet.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="slap">, lui donnant un soufflet.
+</stage>
 <p id="30">
 	<s id="1">Sa barbe a repoussé !...</s>
 </p>
@@ -1977,7 +2040,8 @@
 	<s id="2">Il y a du monde ici, taisez-vous !...</s>
 </p>
 </sp>
-<sp stage="toward" who="CLARA"><speaker>CLARA, à Tiburce.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="toward">, à Tiburce.
+</stage>
 <p id="33">
 	<s id="1">On chuchote... </s>
 	<s id="2">Faites silence !</s>
@@ -2019,8 +2083,10 @@
 <stage type="light/frighten">Il prend un briquet. Aussitôt que la lumière ce fait, les deux femmes se précipitent dans leurs chambres, les deux hommes allument ensemble la bougie placée sur la table, se regardent avec effroi et se lèvent en criant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Séverin, Tiburce.</head>
-<sp stage="together" who="TIBURCE, SÉVERIN"><speaker>TIBURCE, SÉVERIN, ensemble.</speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Séverin, Tiburce.
+</stage>
+<sp who="TIBURCE, SÉVERIN"><speaker>TIBURCE, SÉVERIN</speaker><stage type="together">, ensemble.
+</stage>
 <p id="1">
 	<s id="1">C'est un revenant !</s>
 </p>
@@ -2110,7 +2176,8 @@
 </p>
 <stage type="show/location">Il montre la porte de gauche.</stage>
 </sp>
-<sp stage="show/location" who="TIBURCE"><speaker>TIBURCE, montrant l'autre porte. Ursule est sur le seuil.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="show/location">, montrant l'autre porte. Ursule est sur le seuil.
+</stage>
 <p id="18">
 	<s id="1">Là.</s>
 </p>
@@ -2146,7 +2213,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Ursule, Séverin, Tiburce, Clara.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Ursule, Séverin, Tiburce, Clara.
+</stage>
 <sp who="URSULE"><speaker>URSULE.</speaker>
 <p id="1">
 	<s id="1">Maintenant que tout est éclairci, et que vous n'êtes plus rivaux, puisque chacun a sa chacune, vous pouvez battre en retraite, car vous ne pouvez rester plus longtemps ici.</s>
@@ -2162,7 +2230,8 @@
 	<s id="1">C'est plus qu'inhumain, c'est cruel.</s>
 </p>
 </sp>
-<sp stage="open/location" who="CLARA"><speaker>CLARA, va ouvrir la porte du fond..</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="open/location">, va ouvrir la porte du fond..
+</stage>
 <p id="4">
 	<s id="1">Allons, allons.</s>
 </p>
@@ -2223,7 +2292,8 @@
 	<s id="1">Et pour toujours.</s>
 </p>
 </sp>
-<sp stage="open" who="CLARA"><speaker>CLARA, va ouvrir la fenêtre.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="open">, va ouvrir la fenêtre.
+</stage>
 <p id="16">
 	<s id="1">Ils peuvent rester car voici le jour.</s>
 </p>
@@ -2254,7 +2324,8 @@
 	<s id="1">Quand je pense que vous avez failli vous tuer tous deux d'un seul coup...</s>
 </p>
 </sp>
-<sp stage="toward" who="CLARA"><speaker>CLARA, à Ursule.</speaker>
+<sp who="CLARA"><speaker>CLARA</speaker><stage type="toward">, à Ursule.
+</stage>
 <p id="22">
 	<s id="1">Vois cependant où pouvaient vous conduire tes cachotteries, si nos amoureux avaient été braves.</s>
 </p>
@@ -2267,7 +2338,8 @@
 	<s id="4">Il arrive toujours un moment où ils sont plus forts que nous.</s>
 </p>
 </sp>
-<sp stage="toward" who="TIBURCE"><speaker>TIBURCE, à Clara.</speaker>
+<sp who="TIBURCE"><speaker>TIBURCE</speaker><stage type="toward">, à Clara.
+</stage>
 <p id="24">
 	<s id="1">À table ! </s>
 	<s id="2">À propos, est-ce que l'invalide ne prend pas sa part du festin ?</s>
@@ -2284,7 +2356,8 @@
 	<s id="1">Alors on peut parler haut.</s>
 </p>
 </sp>
-<sp who="SÉVERIN"><speaker>SÉVERIN, à Ursule.</speaker>
+<sp who="SÉVERIN"><speaker>SÉVERIN</speaker><stage>, à Ursule.
+</stage>
 <p id="27">
 	<s id="1">J'espère que la grand-mère bénira notre union.</s>
 </p>

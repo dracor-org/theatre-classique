@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 	<fileDesc>
@@ -78,18 +78,20 @@
 			<castItem><role id="SICHÉE" sex="1" type="H" statut="aristocrate" age="V" stat_amour="">SICHÉE</role>, Seigneur Tyrien, cru père d'Astrate.</castItem>
 			<castItem><role id="BAZORE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="">BAZORE</role>, ami de Sichée.</castItem>
 			<castItem><role id="NICOGÈNE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="">NICOGÈNE</role>, ami de Sichée.</castItem>
-			<castItem><role id="ÉLISE" sex="2" type="H" statut="roi" age="A"  stat_amour="">ÉLISE</role>, Reine de Tyr par usurpation.</castItem>
-			<castItem><role id="CORISBE" sex="2" type="H" statut="confident" age="A"  stat_amour="">CORISBE</role>, confidente d'Élise.</castItem>
-			<castItem><role id="GÉRASTE" sex="1" type="H" statut="capitaine" age="A"  stat_amour="">GÉRASTE</role>, Capitaine des Gardes d'Élise.</castItem>
-			<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A"  stat_amour="">GARDES</role>.</castItem>
-			<castItem><role id="SOLDATS" sex="1" type="H" statut="soldat" age="A"  stat_amour="">SOLDATS</role>.</castItem>
+			<castItem><role id="ÉLISE" sex="2" type="H" statut="roi" age="A" stat_amour="">ÉLISE</role>, Reine de Tyr par usurpation.</castItem>
+			<castItem><role id="CORISBE" sex="2" type="H" statut="confident" age="A" stat_amour="">CORISBE</role>, confidente d'Élise.</castItem>
+			<castItem><role id="GÉRASTE" sex="1" type="H" statut="capitaine" age="A" stat_amour="">GÉRASTE</role>, Capitaine des Gardes d'Élise.</castItem>
+			<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="">GARDES</role>.</castItem>
+			<castItem><role id="SOLDATS" sex="1" type="H" statut="soldat" age="A" stat_amour="">SOLDATS</role>.</castItem>
 		</castList>
 	<set location="Tyr" country="Syrie" periode="XVIIème" gps="33.270489, 35.203764">La scène est à Tyr, dans l'appartement de la Reine.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Agénor, Astrate, Nerbal, Bélus.</head>
-<sp stage="entrance/watch" who="AGÉNOR"><speaker>AGÉNOR, sortant d'un côté du Théâtre, et voyant sortir de l'autre Astrate qui veut se retirer dès qu'il l'aperçoit.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Agénor, Astrate, Nerbal, Bélus.
+</stage>
+<sp who="AGÉNOR"><speaker>AGÉNOR</speaker><stage type="entrance/watch">, sortant d'un côté du Théâtre, et voyant sortir de l'autre Astrate qui veut se retirer dès qu'il l'aperçoit.
+	</stage>
 	<l id="1">Vous m'évitez, Astrate ? Au moins peut-on savoir</l>
 	<l id="2">Ce qui vous fait trouver tant de peine à me voir ?</l>
 	<l id="3">Pourquoi fuir mon abord ? Parlez sans vous contraindre.</l>
@@ -152,7 +154,8 @@
 	<l id="50">J'ai peur d'en dire trop, si je dis rien de plus.</l>
 	<l id="51">Souffrez que je me taise, et que je me retire.</l>
 </sp>
-<sp stage="stop" who="AGÉNOR"><speaker>AGÉNOR, arrêtant Astrate.</speaker>
+<sp who="AGÉNOR"><speaker>AGÉNOR</speaker><stage type="stop">, arrêtant Astrate.
+	</stage>
 	<l id="52">Ah ! Vous aimez la Reine ! Et c'est assez le dire.</l>
 </sp>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
@@ -217,7 +220,8 @@
 	<l id="102">De souffrir plus longtemps un objet odieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Agénor, Nerbal.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Agénor, Nerbal.
+</stage>
 <sp who="NERBAL"><speaker>NERBAL.</speaker>
 	<l id="103">Souffrirez-vous, Seigneur, une telle insolence ?</l>
 </sp>
@@ -252,7 +256,8 @@
 	<l id="124" syll="6" part="f">Seigneur, voici son père.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Agénor, [Nerbal,] Sichée.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Agénor, [Nerbal,] Sichée.
+</stage>
 <sp who="SICHÉE"><speaker>SICHÉE.</speaker>
 	<l id="125">J'ai reçu de la Reine ordre exprès de vous voir,</l>
 	<l id="126" syll="2" part="i">Seigneur.</l>
@@ -330,7 +335,8 @@
 	<l id="178">Et qu'on peut tout souffrir, quand on fait bien aimer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Sichée, Bazore, Nicogène.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Sichée, Bazore, Nicogène.
+</stage>
 <sp who="SICHÉE"><speaker>SICHÉE.</speaker>
 	<l id="179">J'attendais d'Agénor une âme moins soumise :</l>
 	<l id="180">Je l'ai cru plus charmé du trône que d'Élise ;</l>
@@ -350,7 +356,8 @@
 	<l id="190" syll="6" part="i">Elle veut me parler.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Élise, Sichée, Géraste, Corisbe, Nicogène, Bazore,</head> Suite.
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Élise, Sichée, Géraste, Corisbe, Nicogène, Bazore, Suite.
+</stage> Suite.
 <sp who="ÉLISE"><speaker>ÉLISE.</speaker>
 	<l id="190" syll="6" part="f">Que l'on nous laisse ici.</l>
 <stage type="exit">Tout le monde se retire à l'exception de Sichée.</stage>
@@ -557,7 +564,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Élise, Corisbe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Élise, Corisbe.
+</stage>
 <sp who="ÉLISE"><speaker>ÉLISE.</speaker>
 	<l id="355">Viens savoir avec moi ce que l'Orale annonce,</l>
 	<l id="356">Il a parlé, Corisbe, et voici sa réponse ;</l>
@@ -658,7 +666,8 @@
 	<l id="430">Mais le voici qui vient, sans doute, pour se plaindre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Agénor, Élise, Corisbe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Agénor, Élise, Corisbe.
+</stage>
 <sp who="AGÉNOR"><speaker>AGÉNOR.</speaker>
 	<l id="431">Si dans l'état funeste où vos ordres m'ont mis,</l>
 	<l id="432">L'espoir d'être écouté peut m'être encor permis...</l>
@@ -734,7 +743,8 @@
 	<l id="498">Que peut, même en secret, vous faire ma présence.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Corisbe, Élise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Corisbe, Élise.
+</stage>
 <sp who="CORISBE"><speaker>CORISBE.</speaker>
 	<l id="499">Enfin, selon vos voeux vous pourrez faire un choix :</l>
 	<l id="500">Le Prince vous dégage et vous remet ses droits ;</l>
@@ -896,7 +906,8 @@
 	<l id="614" syll="6" part="f">Ne vois-tu pas Astrate ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Astrate, Élise, Corisbe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Astrate, Élise, Corisbe.
+</stage>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
 	<l id="615">D'un ennemi caché craignez moins les desseins :</l>
 	<l id="616">J'ose espérer dans peu de le mettre en vos mains,</l>
@@ -1069,7 +1080,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Bélus, Astrate.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Bélus, Astrate.
+</stage>
 <sp who="BÉLUS"><speaker>BÉLUS.</speaker>
 	<l id="721">De grâce à mes avis donnez plus de créance.</l>
 	<l id="722">Seigneur, de ce Palais sortez en diligence.</l>
@@ -1094,7 +1106,8 @@
 	<l id="735">Adieu, rien ne peut plus m'arrêter un moment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Corisbe, Astrate.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Corisbe, Astrate.
+</stage>
 <sp who="CORISBE"><speaker>CORISBE.</speaker>
 	<l id="736">Souffrez que je m'oppose à votre empressement.</l>
 </sp>
@@ -1223,7 +1236,8 @@
 	<l id="816">Hélas ! Suis-je en état de considérer rien ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Astrate, Agénor, Nerbal.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Astrate, Agénor, Nerbal.
+</stage>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
 	<l id="817">Venez, venez, Seigneur, jouir de ma disgrâce ;</l>
 	<l id="818">Voir l'affreux châtiment de mon aveugle audace,</l>
@@ -1389,8 +1403,10 @@
 	<l id="934" syll="6" part="i">Mais on vient par mon ordre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Agénor, Astrate, Géraste, Gardes.</head>
-<sp stage="toward" who="AGÉNOR"><speaker>AGÉNOR, à Géraste.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Agénor, Astrate, Géraste, Gardes.
+</stage>
+<sp who="AGÉNOR"><speaker>AGÉNOR</speaker><stage type="toward">, à Géraste.
+	</stage>
 	<l id="934" syll="6" part="f">Assurez-vous d'Astrate.</l>
 </sp>
 <sp who="GÉRASTE"><speaker>GÉRASTE.</speaker>
@@ -1400,7 +1416,8 @@
 	<l id="935" syll="10" part="f">N'hésitez point ; vous savez qui je suis ;</l>
 	<l id="936">À cette marque, enfin, voyez ce que je puis.</l>
 </sp>
-<sp stage="toward" who="GÉRASTE"><speaker>GÉRASTE, à Agénor.</speaker>
+<sp who="GÉRASTE"><speaker>GÉRASTE</speaker><stage type="toward">, à Agénor.
+	</stage>
 	<l id="937">Quelque droit qu'elle donne à la grandeur suprême,</l>
 	<l id="938">Mon ordre est de venir m'assurer de vous-même.</l>
 </sp>
@@ -1453,7 +1470,8 @@
 	<l id="960">Qu'un triomphe si beau doit m'être le plus doux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sichée, Astrate.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sichée, Astrate.
+</stage>
 <sp who="SICHÉE"><speaker>SICHÉE.</speaker>
 	<l id="961" syll="6" part="i">Où courez-vous, mon Fils ?</l>
 </sp>
@@ -1661,7 +1679,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Bazore, Sichée, Nicogène.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Bazore, Sichée, Nicogène.
+</stage>
 <sp who="BAZORE"><speaker>BAZORE.</speaker>
 	<l id="1093">N'en doutons point, l'amour a fait parler Astrate ;</l>
 	<l id="1094">Notre entreprise est sue, il est temps qu'elle éclate :</l>
@@ -1700,7 +1719,8 @@
 	<l id="1120">Mais mon fils sort, allez, je vous suivrai de près.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Astrate, Sichée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Astrate, Sichée.
+</stage>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
 	<l id="1121">Rassurez-vous, Seigneur, et cessez de vous plaindre ;</l>
 	<l id="1122">Ni vous ni vos amis vous n'avez rien à craindre.</l>
@@ -1775,7 +1795,8 @@
 	<l id="1169">Connaissez l'ennemi dont l'implacable haine,</l>
 	<l id="1170">Doit, à son sang versé, tout celui de la Reine.</l>
 </sp>
-<sp stage="show/read" who="ASTRATE"><speaker>ASTRATE, lit dans les tablettes que Sichée lui montre.</speaker>
+<sp who="ASTRATE"><speaker>ASTRATE</speaker><stage type="show/read">, lit dans les tablettes que Sichée lui montre.
+	</stage>
 	<l id="1171">Le plus jeune de mes trois fils</l>
 	<l id="1172">Échappe aux cruels ennemis</l>
 	<l id="1173">Dont sur moi l'injustice éclate ;</l>
@@ -1909,7 +1930,8 @@
 	<l id="1260">J'en vais donc prendre soin pour vous, malgré vous-même.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Élise, Astrate, Corisbe.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Élise, Astrate, Corisbe.
+</stage>
 <sp who="ÉLISE"><speaker>ÉLISE.</speaker>
 	<l id="1261">Hé bien mon ennemi vous est-il découvert ?</l>
 	<l id="1262">Nul espoir contre lui ne peut-il m'être offert ?</l>
@@ -2071,7 +2093,8 @@
 	<l id="1373">Je prétends vous sauver en dépit des destins.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Géraste, Élise, Astrate, Corisbe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Géraste, Élise, Astrate, Corisbe.
+</stage>
 <sp who="GÉRASTE"><speaker>GÉRASTE.</speaker>
 	<l id="1374">Ah ! Madame, tout cède au pouvoir des mutins ;</l>
 	<l id="1375">Et l'ennemi fatal réservé pour vous nuire,</l>
@@ -2089,7 +2112,8 @@
 	<l id="1387">Et l'effort réuni de toute la tempête,</l>
 	<l id="1388">Vient jusqu'en ce palais fondre sur votre tête.</l>
 </sp>
-<sp stage="toward" who="ÉLISE"><speaker>ÉLISE, à Astrate.</speaker>
+<sp who="ÉLISE"><speaker>ÉLISE</speaker><stage type="toward">, à Astrate.
+	</stage>
 	<l id="1389">Vous voyez que des Dieux l'implacable courroux,</l>
 	<l id="1390">Veut que vous vous vengiez, Astrate, et malgré vous.</l>
 </sp>
@@ -2107,7 +2131,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Élise, Corisbe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Élise, Corisbe.
+</stage>
 <sp who="ÉLISE"><speaker>ÉLISE.</speaker>
 	<l id="1395">Quelque effort que le Ciel à m'accabler emploie,</l>
 	<l id="1396">Il est temps qu'à tes yeux mon coeur s'ouvre à la joie.</l>
@@ -2188,7 +2213,8 @@
 	<l id="1454">Je dois le croire mort, et j'aurai trop vécu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Sichée, Nicogène, Bazore, Nerbal, Élise, Corisbe, Soldats.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sichée, Nicogène, Bazore, Nerbal, Élise, Corisbe, Soldats.
+</stage>
 <sp who="SICHÉE"><speaker>SICHÉE.</speaker>
 	<l id="1455">Voici la Reine, Amis, sa perte est légitime :</l>
 	<l id="1456">Mais respectons le trône, en punissant le crime :</l>
@@ -2258,18 +2284,22 @@
 	<l id="1494">Et je satisferai les Dieux, le peuple et moi...</l>
 <stage type="watch/location">Elle entre dans son cabinet.</stage>
 </sp>
-<sp stage="toward" who="SICHÉE"><speaker>SICHÉE, à Bazore.</speaker>
+<sp who="SICHÉE"><speaker>SICHÉE</speaker><stage type="toward">, à Bazore.
+	</stage>
 	<l id="1495">Son amour lui fait peine à renoncer à vivre,</l>
 	<l id="1496">Ami, pour l'observer, prenez soin de la suivre.</l>
 	<l id="1497">J'irai voir cependant d'où naît ce bruit confus.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Astrate, Sichée, Soldats.</head>
-<sp stage="away/push" who="ASTRATE"><speaker>ASTRATE, s'arrachant des mains des Soldats.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Astrate, Sichée, Soldats.
+</stage>
+<sp who="ASTRATE"><speaker>ASTRATE</speaker><stage type="away/push">, s'arrachant des mains des Soldats.
+	</stage>
 	<l id="1498">Ôtez-moi donc la vie, ou ne m'arrêtez plus.</l>
 	<l id="1499">Cruels, traiter ainsi Votre Roi, votre maître.</l>
 </sp>
-<sp stage="toward" who="SICHÉE"><speaker>SICHÉE, aux Soldats.</speaker>
+<sp who="SICHÉE"><speaker>SICHÉE</speaker><stage type="toward">, aux Soldats.
+	</stage>
 	<l id="1500">Excusez les transports qui le font méconnaître ;</l>
 	<l id="1501">Et pour le ramener de cet égarement,</l>
 	<l id="1502">Laissez-moi sans témoins lui parler un moment.</l>
@@ -2350,7 +2380,8 @@
 	<l id="1556">Qu'avec un sang si cher tout le mien se répande.</l>
 	<l id="1557" syll="2" part="i">Donnez[...]</l>
 </sp>
-<sp stage="pull" who="SICHÉE"><speaker>SICHÉE, empêchant Astrate de se saisir de son épée.</speaker>
+<sp who="SICHÉE"><speaker>SICHÉE</speaker><stage type="pull">, empêchant Astrate de se saisir de son épée.
+	</stage>
 	<l id="1557" syll="2" part="m">Seigneur !</l>
 </sp>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
@@ -2401,8 +2432,10 @@
 	<l id="1588" syll="4" part="i">J'ose espérer...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Nicogène, Nerbal, Sichée, Astrate, Soldats.</head>
-<sp stage="toward" who="NICOGÈNE"><speaker>NICOGÈNE, à Sichée.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Nicogène, Nerbal, Sichée, Astrate, Soldats.
+</stage>
+<sp who="NICOGÈNE"><speaker>NICOGÈNE</speaker><stage type="toward">, à Sichée.
+	</stage>
 	<l id="1588" syll="8" part="f">Seigneur, tout le peuple murmure.</l>
 </sp>
 <sp who="SICHÉE"><speaker>SICHÉE.</speaker>
@@ -2428,7 +2461,8 @@
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
 	<l id="1600" syll="6" part="f">Voyons d'abord la Reine.</l>
 </sp>
-<sp stage="toward" who="SICHÉE"><speaker>SICHÉE, à Nerbal.</speaker>
+<sp who="SICHÉE"><speaker>SICHÉE</speaker><stage type="toward">, à Nerbal.
+	</stage>
 	<l id="1601">Qu'on sache auparavant si l'on peut lui parler.</l>
 	<l id="1602" syll="6" part="i">Elle s'est retirée.</l>
 </sp>
@@ -2450,7 +2484,8 @@
 	<l id="1610">La voici. Pardonnez aux frayeurs d'un amant.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE. Corisbe, Élise, Bazore, Nerbal, Astrate, Sichée, Nicogène, Soldats.</head>
+<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE.</head><stage> Corisbe, Élise, Bazore, Nerbal, Astrate, Sichée, Nicogène, Soldats.
+</stage>
 <sp who="ASTRATE"><speaker>ASTRATE.</speaker>
 	<l id="1611">Enfin, Madame, enfin, tout cède à mon envie,</l>
 	<l id="1612">Rien ne menace plus une si belle vie ;</l>
@@ -2495,7 +2530,8 @@
 	<l id="1631" syll="6" part="f">L'envie en serait vaine,</l>
 	<l id="1632">Le poison que j'ai pris porte une mort certaine.</l>
 </sp>
-<sp stage="toward" who="ASTRATE"><speaker>ASTRATE, à Sichée.</speaker>
+<sp who="ASTRATE"><speaker>ASTRATE</speaker><stage type="toward">, à Sichée.
+	</stage>
 	<l id="1633">Si c'est vous inhumain dont la barbare foi...</l>
 </sp>
 <sp who="ÉLISE"><speaker>ÉLISE.</speaker>

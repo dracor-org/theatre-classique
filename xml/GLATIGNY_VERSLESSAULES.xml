@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader> 
 		<fileDesc>
@@ -28,30 +28,33 @@
  	<titlePart part="sub">COMÉDIE</titlePart>
  	<titlePart part="sub">REPRÉSENTÉE LE 25 JUIN 1864 DANS LES SALONS DE L'ÉTABLISSEMENT THERMAL DE VICHY.</titlePart>
 	</docTitle>
-	<docDate value="1931"></docDate>
+	<docDate value="1931"/>
 	<docAuthor id="GLATIGNY, Albert">ALBERT GLATIGNY</docAuthor>
 	<docImprint>
 		<editor id="">PARIS ACHILLE FAURE, LIBRAIRE, 22, Boulevard Saint-Martin. VIVHY, JULES CÉSAR, rue Montaret, 2.</editor>
 		<printer id="">Imp. Rochette, Letang et Wallon, Chemin-de-Reuilly, 12, Paris. </printer>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>HENRI</role>, Monsieur ARMAND GENTY.</castItem>
-		<castItem><role id="MARCEL" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MARCEL</role>, Monsieur AURÈLE.</castItem>
-		<castItem><role id="PONTCHARTRAIN" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>PONTCHARTRAIN</role>, Monsieur GAUDY.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>HENRIETTE</role>, Madame BORELLI-DELAHAYE.</castItem>
-		<castItem><role id="BLONDINE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>BLONDINE</role>, Madame MARIE-PROTAT.</castItem>
-		<castItem><role id="ÉLÉONORE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>ÉLÉONORE</role>, Madame GUÉRARD.</castItem>
+		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">HENRI</role>, Monsieur ARMAND GENTY.</castItem>
+		<castItem><role id="MARCEL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MARCEL</role>, Monsieur AURÈLE.</castItem>
+		<castItem><role id="PONTCHARTRAIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">PONTCHARTRAIN</role>, Monsieur GAUDY.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">HENRIETTE</role>, Madame BORELLI-DELAHAYE.</castItem>
+		<castItem><role id="BLONDINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">BLONDINE</role>, Madame MARIE-PROTAT.</castItem>
+		<castItem><role id="ÉLÉONORE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">ÉLÉONORE</role>, Madame GUÉRARD.</castItem>
 	</castList>
-	<set location='À la campagne' country='France' periode='XIXème' gps=''>À la campagne, au mois de juin.</set>
+	<set location="À la campagne" country="France" periode="XIXème" gps="">À la campagne, au mois de juin.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>VERS LES SAULES</head>
 <stage type="decor">Le théâtre représente un paysage dans les environs de Paris. Au fond, apparaissant entre les branches, de grands arbres et des buissons de roses, une rivière. À droite, un cabaret de village, riant à l'oeil. À gauche, un banc de gazon sous une tonnelle de plantes grimpantes. (DÉCORS DE M. PLANTAD).</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Henri, Blondine.</head>
-<sp stage="entrance" who="HENRI"><speaker>HENRI, entre.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Henri, Blondine.
+</stage>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="entrance">, entre.
+	</stage>
 	<l id="1">Ramasse qui voudra mon coeur, je n'en veux plus !</l>
 </sp>
-<sp stage="entrance" who="BLONDINE"><speaker>BLONDINE, paraissant.</speaker>
+<sp who="BLONDINE"><speaker>BLONDINE</speaker><stage type="entrance">, paraissant.
+	</stage>
 	<l id="2" syll="3" part="i">Je le prends.</l>
 <stage type="watch/surprise/continue">Henri la regarde surpris. Elle continue :</stage>
 	<l id="2" syll="9" part="f">Vous avez des trésors superflus ?</l>
@@ -237,7 +240,8 @@
 <stage type="exit/location/entrance">Ils entrent dans le cabaret. Paraissent, d'un autre coté, Henriette et Marcel.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Henriette, Marcel.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Henriette, Marcel.
+</stage>
 <sp who="HENRIETTE"><speaker>HENRIETTE.</speaker>
 	<l id="121">Là nous sommes venus dans le mois des bourgeons ;</l>
 	<l id="122">Des canards barbotaient dans la vase et les joncs,</l>
@@ -268,7 +272,8 @@
 <stage type="sit/entrance">Henriette s'est assise au pied d'un arbre. Entrent par le fond, Monsieur et Madame Pontchartrain.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Henriette, Monsieur et Madame Pontchartrain.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Henriette, Monsieur et Madame Pontchartrain.
+</stage>
 <sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN.</speaker>
 	<l id="131" syll="6" part="f">Oui, nous pourrons, bichette,</l>
 	<l id="132">Donner en cet endroit notre coup de fourchette.</l>
@@ -314,8 +319,10 @@
 	<l id="156">Souvenir éternel des heures bienheureuses !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Henriette, Henri.</head>
-<sp stage="back" who="HENRI"><speaker>HENRI, revient.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Henriette, Henri.
+</stage>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="back">, revient.
+	</stage>
 	<l id="157">Choisissons un endroit propre à notre repas,</l>
 	<l id="158">Afin que les fâcheux ne nous dérangent pas.</l>
 	<l id="159">Vive Blondine ! c'est la maîtresse idéale.</l>
@@ -330,7 +337,8 @@
 <stage type="recognize">La reconnaissant.</stage>
 	<l id="165" syll="3" part="m">Henriette !</l>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, avec un cri.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, avec un cri.
+	</stage>
 	<l id="165" syll="6" part="f">Ah ! Mon_Dieu ! Te voilà.</l>
 </sp>
 <sp who="HENRI"><speaker>HENRI.</speaker>
@@ -478,7 +486,8 @@
 	<l id="241">Je suis seul ! Et pourtant, voilà bien le décor</l>
 	<l id="242" syll="6" part="i">Rêvé pour le bonheur !</l>
 </sp>
-<sp stage="hugh" who="HENRIETTE"><speaker>HENRIETTE, lui jetant ses bras autour du cou.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="hugh">, lui jetant ses bras autour du cou.
+	</stage>
 	<l id="242" syll="6" part="f">Nous sommes deux encor !</l>
 </sp>
 <sp who="HENRI"><speaker>HENRI.</speaker>
@@ -539,7 +548,8 @@
 <stage type="hugh/entrance">Ils se tiennent embrassés. Survient Marcel.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Henriette, Henri, Marcel.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Henriette, Henri, Marcel.
+</stage>
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
 	<l id="281" syll="6" part="f">Admirable tableau !</l>
 	<l id="282">Symphonie amoureuse où je fais un solo !</l>
@@ -576,7 +586,8 @@
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
 	<l id="293" syll="6" part="i">Je ne dis pas non, mais...</l>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, riant.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, riant.
+	</stage>
 	<l id="293" syll="6" part="f">Ah ! Ah ! Pauvre garçon !</l>
 	<l id="294">J'ai retrouvé Henri. Vous savez la chanson ?</l>
 </sp>
@@ -596,7 +607,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="MARCEL"><speaker>MARCEL, seul.</speaker>
+<sp who="MARCEL"><speaker>MARCEL</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="302">Encore cet oiseau qui m'échappe ! Imbécile !</l>
 	<l id="303">Que pensez-vous de moi, tonnelles, verts rideaux,</l>
 	<l id="304">Qui me regardez là, sottement, grands badauds !</l>
@@ -611,7 +623,8 @@
 <stage type="entrance/together">Entrent Monsieur et Madame Pontchartrain.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Marcel, Monsieur et Madame Pontchartrain.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Marcel, Monsieur et Madame Pontchartrain.
+</stage>
 <sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN.</speaker>
 	<l id="313">Certes, il est des cas où le sage recule,</l>
 	<l id="314" syll="6" part="i">C'est un fait avéré...</l>
@@ -619,7 +632,8 @@
 <sp who="ÉLÉONORE"><speaker>ÉLÉONORE.</speaker>
 	<l id="314" syll="6" part="f">Vous êtes ridicule.</l>
 </sp>
-<sp stage="closer" who="MARCEL"><speaker>MARCEL, s'approchant.</speaker>
+<sp who="MARCEL"><speaker>MARCEL</speaker><stage type="closer">, s'approchant.
+	</stage>
 	<l id="315" syll="9" part="i">Je suis de votre avis, Madame.</l>
 </sp>
 <sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN.</speaker>
@@ -654,10 +668,12 @@
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
 	<l id="326">Encore un coup, monsieur, je m'adresse à Madame.</l>
 </sp>
-<sp stage="sweet" who="ÉLÉONORE"><speaker>ÉLÉONORE, avec douceur.</speaker>
+<sp who="ÉLÉONORE"><speaker>ÉLÉONORE</speaker><stage type="sweet">, avec douceur.
+	</stage>
 	<l id="327" syll="6" part="i">C'est à moi qu'il s'adresse.</l>
 </sp>
-<sp stage="shame" who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN, anéanti.</speaker>
+<sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN</speaker><stage type="shame">, anéanti.
+	</stage>
 	<l id="327" syll="6" part="f">Ah ! Très bien ! Je me tais.</l>
 	<l id="328" syll="2" part="i">Grands dieux !</l>
 </sp>
@@ -699,10 +715,12 @@
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
 	<l id="353">Que fais-je en somme ? Une chose ordinaire.</l>
 </sp>
-<sp stage="estonish" who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN, foudroyé.</speaker>
+<sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN</speaker><stage type="estonish">, foudroyé.
+	</stage>
 	<l id="354">Quoi, la cour à ma femme, et vous !... sang et tonnerre !</l>
 </sp>
-<sp stage="listen" who="MARCEL"><speaker>MARCEL, sans l'écouter.</speaker>
+<sp who="MARCEL"><speaker>MARCEL</speaker><stage type="listen">, sans l'écouter.
+	</stage>
 	<l id="355">Donc, Madame, vos yeux ont de charmants reflets.</l>
 	<l id="356">Tels brillent dans les cieux embrasés, les palais</l>
 	<l id="357">Où le rouge Phébus remise sa berline.</l>
@@ -716,7 +734,8 @@
 	<l id="365">Le charme, la beauté, la voix pure et sonore,</l>
 	<l id="366" syll="8" part="i">De se l'entendre dire ainsi qu'...</l>
 </sp>
-<sp stage="shout" who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN, éclatant.</speaker>
+<sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN</speaker><stage type="shout">, éclatant.
+	</stage>
 	<l id="366" syll="4" part="f">Éléonore !</l>
 </sp>
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
@@ -768,12 +787,15 @@
 <sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN.</speaker>
 	<l id="381" syll="3" part="m">Mais du tout !</l>
 </sp>
-<sp stage="cry" who="ÉLÉONORE"><speaker>ÉLÉONORE, éplorée.</speaker>
+<sp who="ÉLÉONORE"><speaker>ÉLÉONORE</speaker><stage type="cry">, éplorée.
+	</stage>
 	<l id="381" syll="3" part="m">Au secours !</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Henriette, Henri, les Pontchartrain, Marcel.</head>
-<sp stage="listen" who="HENRIETTE, HENRI"><speaker>HENRIETTE et HENRI, attirés par le bruit.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Henriette, Henri, les Pontchartrain, Marcel.
+</stage>
+<sp who="HENRIETTE, HENRI"><speaker>HENRIETTE et HENRI</speaker><stage type="listen">, attirés par le bruit.
+	</stage>
 	<l id="381" syll="3" part="f">Qu'est-ce ? Qu'est-ce ?</l>
 </sp>
 <sp who="MARCEL"><speaker>MARCEL.</speaker>
@@ -786,7 +808,8 @@
 	<l id="383" syll="6" part="f">C'est toi ! Dieu soit loué !</l>
 	<l id="384">Viens défendre ton oncle, ô neveu dévoué !</l>
 </sp>
-<sp stage="proud" who="HENRI"><speaker>HENRI, majestueux.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="proud">, majestueux.
+	</stage>
 	<l id="385">Vous n'avez pas toujours, pour moi, l'un de vos proches,</l>
 	<l id="386">Été, comme Bayard, un oncle sans reproches,</l>
 	<l id="387">Et je vais demander souvent aux usuriers,</l>
@@ -852,7 +875,8 @@
 	<l id="418">Lydie est revenue, ô Calaïs, et m'aime,</l>
 	<l id="419">Cherchez quelque amoureuse ailleurs si vous voulez !</l>
 </sp>
-<sp stage="toward" who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN, à Henri.</speaker>
+<sp who="MONSIEUR PONTCHARTRAIN"><speaker>MONSIEUR PONTCHARTRAIN</speaker><stage type="toward">, à Henri.
+	</stage>
 	<l id="420" syll="3" part="i">Tu l'as dit ?</l>
 </sp>
 <sp who="HENRI"><speaker>HENRI.</speaker>
@@ -888,15 +912,18 @@
 	<l id="431" syll="3" part="i">Tiens, je pars.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, Blondine.</head>
-<sp stage="location" who="BLONDINE"><speaker>BLONDINE, paraissant sur le seuil du cabaret.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, Blondine.
+</stage>
+<sp who="BLONDINE"><speaker>BLONDINE</speaker><stage type="location">, paraissant sur le seuil du cabaret.
+	</stage>
 	<l id="431" syll="9" part="f">Ça, voilà deux heures que j'attends.</l>
 <stage type="move">Mouvement général.</stage>
 </sp>
 <sp who="HENRIETTE"><speaker>HENRIETTE.</speaker>
 	<l id="432" syll="6" part="i">Cette femme, c'était...</l>
 </sp>
-<sp stage="toward" who="HENRI"><speaker>HENRI, à Blondine.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="toward">, à Blondine.
+	</stage>
 	<l id="432" syll="6" part="f">Ma chère, un contre-temps</l>
 	<l id="433">Survient dans nos amours et finit le volume</l>
 	<l id="434">Dont le commencement est resté dans la plume.</l>
@@ -924,7 +951,8 @@
 	<l id="451">Qui vous consolera ? Qui consolerez-vous</l>
 	<l id="452" syll="3" part="i">Maintenant ?</l>
 </sp>
-<sp stage="toward" who="MARCEL"><speaker>MARCEL, à Blondine.</speaker>
+<sp who="MARCEL"><speaker>MARCEL</speaker><stage type="toward">, à Blondine.
+	</stage>
 	<l id="452" syll="9" part="f">Vous voyez un homme à vos genoux,</l>
 	<l id="453">Qui vous offre son bras pour aller dans la plaine,</l>
 	<l id="454">Un homme abandonné. Vous pouvez, Madeleine,</l>
@@ -940,7 +968,8 @@
 	<l id="456" syll="6" part="f">À nos ennuis défunts !</l>
 	<l id="457">Buvons et que la joie étincelle et fleurisse !</l>
 </sp>
-<sp stage="toward" who="BLONDINE"><speaker>BLONDINE, au public.</speaker>
+<sp who="BLONDINE"><speaker>BLONDINE</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="458">Notre auteur n'a voulu peindre que son caprice,</l>
 	<l id="459">Dans cette comédie où tout va de travers.</l>
 	<l id="460">Quand il a secoué les rimes de nos vers,</l>

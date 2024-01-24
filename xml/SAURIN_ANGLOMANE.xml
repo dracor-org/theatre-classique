@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,10 +31,10 @@
 			<titlePart type="sub">Le prix est de 24 sols.</titlePart>
 
 		</docTitle> 
-		<docDate value='1763'>M. DCC LXXIII.</docDate>
-		<docAuthor id='SAURIN, Bernard-Joseph' bio='saurin'>Par M. SAURIN de l'Académie Française</docAuthor>
+		<docDate value="1763">M. DCC LXXIII.</docDate>
+		<docAuthor id="SAURIN, Bernard-Joseph" bio="saurin">Par M. SAURIN de l'Académie Française</docAuthor>
 		<docImprint>
-			<approbation><head></head>
+			<approbation><head/>
 				<p>J'Ai lu, par ordre de Monseigneur le Chancelier, L'Anglomane, ou l'Orphelìne léguée , Comédie ; et je crois qu'on peut en permettre l'impression. À Paris, ce 21 Novembre 1772.</p>
 				<p>MARIN.</p>
 				<p>Le Privilège se trouve aux oeuvre de l'Auteur.</p>
@@ -42,7 +42,7 @@
 			<editor>À PARIS, chez la Veuve DUSCHENE, Libraire, rue Saint-Jacques, au dessous de la Fontaine Saint-Benoït, au Temple du Goût.</editor>
 		</docImprint>
 		<performance>
-			<premiere date='1772-11-05' location='Château de Fontainebleau'>Représentée, pour la première fois, le 5 novembre 1772 au Château de Fontainebleau.</premiere>
+			<premiere date="1772-11-05" location="Château de Fontainebleau">Représentée, pour la première fois, le 5 novembre 1772 au Château de Fontainebleau.</premiere>
 		</performance>
 		<div type="preface"><head>AVERTISSEMENT.</head>
 			<p>Cette pièce est la même qui a été donnée en 1765, sous le titre de L'Orpheline léguée : elle était en trois actes, je l'ai mise en un : il ne m'a fallu, pour cela que retrancher plusieurs scènes dont l'effet avait été médiocre, et qui retardaient la marche de faction : je la crois, actuellement, plus vive et plus rapide j'ai, d'ailleurs, retouché le dialogue et je l'ai resserré ; en un mot, j'ai tâché de donner à l'Ouvrage le degré de valeur auquel de faibles talents me permettent d'atteindre.</p>
@@ -92,16 +92,16 @@
 		</div>		
 		<castList>
 		<head>PERSONNAGES.</head>
-			<castItem><role id="ÉRASTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>ÉRASTE</role>, anglomane.</castItem>
-			<castItem><role id="DAMIS" sex="1" type="H" statut='aristocrate' age='J' stat_amour='Sophie'>DAMIS</role>, amant de Sophie.</castItem>
-			<castItem><role id="LISIMON" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LISIMON</role>, ami d'Éraste, et oncle de Damis.</castItem> 
-			<castItem><role id="BÉLISE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>BÉLISE</role>, soeur d'Éraste.</castItem>
-			<castItem><role id="SOPHIE" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>SOPHIE</role>, jeune parente d'Éraste.</castItem>
-			<castItem><role id="FINETTE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>FINETTE</role>, suivante de Sophie.</castItem>
-			<castItem><role id="L'OLIVE" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>L'OLIVE</role>, valet d'Éraste.</castItem>
-			<castItem><role id="DEUX LAQUAIS" sex="1" type="H" statut='laquais' age='A' stat_amour='néant'>DEUX LAQUAIS</role> d'Éraste.</castItem>
+			<castItem><role id="ÉRASTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉRASTE</role>, anglomane.</castItem>
+			<castItem><role id="DAMIS" sex="1" type="H" statut="aristocrate" age="J" stat_amour="Sophie">DAMIS</role>, amant de Sophie.</castItem>
+			<castItem><role id="LISIMON" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">LISIMON</role>, ami d'Éraste, et oncle de Damis.</castItem> 
+			<castItem><role id="BÉLISE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">BÉLISE</role>, soeur d'Éraste.</castItem>
+			<castItem><role id="SOPHIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">SOPHIE</role>, jeune parente d'Éraste.</castItem>
+			<castItem><role id="FINETTE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">FINETTE</role>, suivante de Sophie.</castItem>
+			<castItem><role id="L'OLIVE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">L'OLIVE</role>, valet d'Éraste.</castItem>
+			<castItem><role id="DEUX LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role> d'Éraste.</castItem>
 		</castList>
-<set location='Province' country='France' periode='XVIIIème' gps="(N/A)">La Scène est dans un salon de la maison de campagne d'Éraste.</set>
+<set location="Province" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans un salon de la maison de campagne d'Éraste.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>L'ANGLOMANE</head>
@@ -144,10 +144,12 @@
 <sp who="FINETTE"><speaker>FINETTE.</speaker>
 	<l id="19">Oh ! J'oublierais mon nom : chez moi c'est maladie. </l>
 </sp>
-<sp stage="give" who="DAMIS"><speaker>DAMIS, lui donnant une bague.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="give">, lui donnant une bague.
+	</stage>
 	<l id="20" syll="7" part="i">Ceci t'en guérira : prends. </l>
 </sp>
-<sp stage="watch" who="FINETTE"><speaker>FINETTE, considérant la bague.</speaker>
+<sp who="FINETTE"><speaker>FINETTE</speaker><stage type="watch">, considérant la bague.
+	</stage>
 	<l id="20" syll="5" part="f">La bague est jolie. </l>
 <stage type="wave/dress">Elle la met à son doigt en faisant la révérence.</stage>
 	<l id="21">On ne refuse pas le remède à son mal. </l>
@@ -179,7 +181,8 @@
 	<l id="33" syll="10" part="f">Il suffit seul pour vous peindre son coeur. </l>
 	<l id="34" syll="2" part="i">Sophie... </l>
 </sp>
-<sp stage="quick" who="DAMIS"><speaker>DAMIS, vivement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="34" syll="8" part="f">Eh bien ! Achève donc : Sophie... </l>
 </sp>
 <sp who="FINETTE"><speaker>FINETTE.</speaker>
@@ -364,7 +367,8 @@
 <sp who="FINETTE"><speaker>FINETTE.</speaker>
 	<l id="129" syll="6" part="i">Ce mot a de quoi plaire. </l>
 </sp>
-<sp stage="kiss" who="DAMIS"><speaker>DAMIS, voulant l'embrasser.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="kiss">, voulant l'embrasser.
+	</stage>
 	<l id="129" syll="6" part="f">Il faut te l'expliquer. </l>
 </sp>
 <sp who="FINETTE"><speaker>FINETTE.</speaker>
@@ -421,7 +425,8 @@
 	<l id="160" syll="9" part="f">À tes soins mon amour se confie. </l>
 </sp>
 </div2>
-<div2 stage="dress" type="scene" n="2"><head>SCÈNE II. Damis, Éraste, vêtu à l'anglaise.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="dress"> Damis, Éraste, vêtu à l'anglaise.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 <stage type="explicit">Dans cette scène et dans toutes celles où paraît Éraste, Damis contrefait un peu l'accent anglais.</stage>
 	<l id="161">Pardonnez-moi, si, dans ce lieu, </l>
@@ -525,7 +530,8 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="210" syll="5" part="i">Jamais je ne ris. </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="210" syll="7" part="f">Oh ! Cet homme est bien Anglais, </l>
 	<l id="211" syll="2" part="i">Bien bon. </l>
 </sp>
@@ -538,16 +544,20 @@
 	<l id="214">Ah ! Si dans ce pays j'avais un coin de terre ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Sophie, Bélise, Éraste, Damis, Finette.</head>
-<sp stage="show" who="ÉRASTE"><speaker>ÉRASTE, en présentant Damis.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Sophie, Bélise, Éraste, Damis, Finette.
+</stage>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="show">, en présentant Damis.
+	</stage>
 	<l id="215">Sophie, approchez-vous, voilà le précepteur...</l>
 	<l id="216">De l'embarras ! De la rougeur ! </l>
 </sp>
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="217">Finette en vain m'a prévenue, </l>
 	<l id="218" syll="3" part="i">Je ne puis... </l>
 </sp>
-<sp stage="aparte" who="BÉLISE"><speaker>BÉLISE, à Sophie.</speaker>
+<sp who="BÉLISE"><speaker>BÉLISE</speaker><stage type="aparte">, à Sophie.
+	</stage>
 	<l id="218" syll="9" part="f">Pourquoi donc baisser ainsi la vue ? </l>
 	<l id="219">Ce maître-là ne fait pas peur ; </l>
 	<l id="220">Et monsieur est fait de manière </l>
@@ -561,18 +571,21 @@
 <sp who="BÉLISE"><speaker>BÉLISE.</speaker>
 	<l id="225">Moi, de l'anglais ? À Dieu ne plaise ! </l>
 </sp>
-<sp stage="low/toward" who="DAMIS"><speaker>DAMIS, bas, à Sophie.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="low/toward">, bas, à Sophie.
+	</stage>
 	<l id="226">Si vous me découvrez, vous me donnez la mort. </l>
 	<l id="227">Pendant cette scène, on a apporté la table à thé, </l>
 	<l id="228">sur laquelle Finette a tout arrangé. </l>
 </sp>
-<sp stage="toward" who="ÉRASTE"><speaker>ÉRASTE, à Damis.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="229">À l'anglaise, de bon accord, </l>
 	<l id="230">Ici le déjeuner le matin nous rassemble : </l>
 	<l id="231">Ma pupille verse le thé. </l>
 	<l id="232" syll="4" part="i">Asseyons-nous. </l>
 </sp>
-<sp stage="toward" who="ÉRASTE"><speaker>ÉRASTE, à Sophie.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward">, à Sophie.
+	</stage>
 	<l id="232" syll="4" part="f">La main vous tremble. </l>
 </sp>
 <sp who="BÉLISE"><speaker>BÉLISE.</speaker>
@@ -611,17 +624,21 @@
 	<l id="248">Moins elle sait, et plus je m'y donne de soin. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Sophie, Bélise, Éraste, Damis, Finette, Lolive.</head>
-<sp stage="give" who="L'OLIVE"><speaker>L'OLIVE, donnant une lettre à Éraste.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Sophie, Bélise, Éraste, Damis, Finette, Lolive.
+</stage>
+<sp who="L'OLIVE"><speaker>L'OLIVE</speaker><stage type="give">, donnant une lettre à Éraste.
+	</stage>
 	<l id="249" syll="6" part="i">Une lettre de Londres. </l>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="toward" who="ÉRASTE"><speaker>ÉRASTE, à Damis.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="249" syll="6" part="f">Ouvrons... Tenez, mon maître, </l>
 	<l id="250">C'est de l'anglais ; lisez : ce que j'y puis connaître, </l>
 	<l id="251" syll="6" part="i">C'est qu'elle est de Cobbam. </l>
 </sp>
-<sp stage="embarrassed" who="DAMIS"><speaker>DAMIS, embarrassé.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="embarrassed">, embarrassé.
+	</stage>
 	<l id="251" syll="2" part="m">Fort bien. </l>
 </sp>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
@@ -655,7 +672,8 @@
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="259" syll="3" part="m">Lisez donc. </l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="259" syll="6" part="f">Je l'échapperai belle </l>
 	<l id="260" syll="6" part="i">Si je puis... Essayons. </l>
 <stage type="read">Il fait semblant de lire.</stage>
@@ -723,7 +741,8 @@
 	<l id="284">Que vous en reviendrez meilleur juge du vôtre. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sophie, Bélise, Éraste, Damis, Finette, Lolive.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sophie, Bélise, Éraste, Damis, Finette, Lolive.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="285" syll="6" part="i">Que veut Lolive encor ? </l>
 </sp>
@@ -777,8 +796,10 @@
 	<l id="308">Malgré votre pays... on peut vous faire grâce. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Bélise, Finette.</head>
-<sp stage="watch" who="BÉLISE"><speaker>BÉLISE, suivant des yeux Damis.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Bélise, Finette.
+</stage>
+<sp who="BÉLISE"><speaker>BÉLISE</speaker><stage type="watch">, suivant des yeux Damis.
+	</stage>
 	<l id="309">Sais-tu bien qu'il est fait au tour, </l>
 	<l id="310">Finette ? Dans son air, cet Anglais est tunique. </l>
 </sp>
@@ -859,7 +880,8 @@
 	<l id="341" syll="8" part="f">Chut ! Madame ; c'est lui-même. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Bélise, Éraste, Finette.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Bélise, Éraste, Finette.
+</stage>
 <sp who="BÉLISE"><speaker>BÉLISE.</speaker>
 	<l id="342" syll="6" part="i">Mon frère, vous boitez ? </l>
 </sp>
@@ -914,7 +936,8 @@
 	<l id="360">D'une âme qui se sent sourdement inquiète, </l>
 	<l id="361">Sans bien savoir encor pourquoi. </l>
 </sp>
-<sp stage="toward" who="FINETTE"><speaker>FINETTE, à Éraste.</speaker>
+<sp who="FINETTE"><speaker>FINETTE</speaker><stage type="toward">, à Éraste.
+	</stage>
 	<l id="362">Il faudrait à Sophie autre chose qu'un livre. </l>
 	<l id="363">À son âge, monsieur, le coeur a ses besoins. </l>
 	<l id="364">Un époux, par ses tendres soins, </l>
@@ -967,7 +990,8 @@
 </sp>
 <stage type="exit">Finette sort.</stage>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Bélise, Éraste.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Bélise, Éraste.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="389">À vos dépens, au moins, elle a sujet de rire : </l>
 	<l id="390">Vous êtes folle, il faut le dire ; </l>
@@ -1020,10 +1044,12 @@
 <stage type="aparte">À part.</stage>
 	<l id="410">Connaîtrait-elle ma faiblesse ? </l>
 </sp>
-<sp stage="listen" who="BÉLISE"><speaker>BÉLISE, d'un air malin.</speaker>
+<sp who="BÉLISE"><speaker>BÉLISE</speaker><stage type="listen">, d'un air malin.
+	</stage>
 	<l id="411" syll="6" part="i">Sophie a des appas. </l>
 </sp>
-<sp stage="embarrassed" who="ÉRASTE"><speaker>ÉRASTE, d'un air embarrassé.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="embarrassed">, d'un air embarrassé.
+	</stage>
 	<l id="411" syll="6" part="f">Son âme a des beautés. </l>
 </sp>
 <sp who="BÉLISE"><speaker>BÉLISE.</speaker>
@@ -1085,13 +1111,16 @@
 	<l id="442">Que sait-on ? Vous pourrez lui plaire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Éraste, Sophie.</head>
-<sp stage="dream" who="SOPHIE"><speaker>SOPHIE, rêvant.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Éraste, Sophie.
+</stage>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="dream">, rêvant.
+	</stage>
 	<l id="443">Rien n'est égal au trouble de mon coeur : </l>
 	<l id="444">Éraste a bien raison : le tourment de la vie, </l>
 	<l id="445" syll="3" part="i">C'est d'aimer... </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="445" syll="9" part="f">Comment puis-je, avec quelque pudeur, </l>
 <note type="L">Palinodie : Chez les anciens, poëme dans lequel on rétractait ce qu'on avait dit dans un poème précédent. [L]</note>
 	<l id="446">Lui chanter la palinodie ? </l>
@@ -1099,13 +1128,15 @@
 	<l id="447">À quoi rêvez-vous donc, Sophie, </l>
 	<l id="448">En vous parlant ainsi tout haut ? </l>
 </sp>
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="449">Ô ciel ! Me serais-je trahie ? </l>
 <stage type="loud">Haut.</stage>
 	<l id="450">À rien, Monsieur, ou peu s'en faut. </l>
 	<l id="451">Je laissais ma pensée errer à l'aventure. </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="452">Que lui dirai-je ? Oh ! Que l'amour </l>
 	<l id="453">Fait faire une sotte figure ! </l>
 	<l id="454" syll="6" part="i">Je veux parler, et n'ose. </l>
@@ -1121,7 +1152,8 @@
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 	<l id="457" syll="3" part="i">Contre moi ! </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="457" syll="6" part="f">Je n'ai de ma vie. </l>
 	<l id="458" syll="6" part="i">Senti trouble pareil. </l>
 </sp>
@@ -1135,7 +1167,8 @@
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 	<l id="459" syll="3" part="m">De l'amour ! </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="459" syll="6" part="f">Pour la philosophie. </l>
 	<l id="460">Gardez-vous de penser qu'un coeur tel que le mien... </l>
 </sp>
@@ -1188,7 +1221,8 @@
 <stage type="loud">Haut.</stage>
 	<l id="484" syll="2" part="m">Éraste ! </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="484" syll="4" part="f">Il faut sortir. </l>
 	<l id="485">Je ne puis me résoudre à m'expliquer moi-même. </l>
 	<l id="486" syll="6" part="i">J'aurais trop à rougir...</l>
@@ -1197,7 +1231,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="SOPHIE"><speaker>SOPHIE, seule.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="487">À la brusque façon dont il quitte ce lieu, </l>
 	<l id="488">Dans le fond de mon coeur il aura lu que j'aime, </l>
 	<l id="489">Que j'ai trahi les soins qu'il prit de me former... </l>
@@ -1207,7 +1242,8 @@
 	<l id="493" syll="1" part="i">Mais... </l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Sophie, Finette, Damis, derrière, et ne se montrant pas.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Sophie, Finette, Damis, derrière, et ne se montrant pas.
+</stage>
 <sp who="FINETTE"><speaker>FINETTE.</speaker>
 	<l id="493" syll="11" part="f">Damis avec vous désire un entretien. </l>
 </sp>
@@ -1226,7 +1262,8 @@
 	<l id="499">Je veux qu'il s'éloigne sur l'heure : </l>
 	<l id="500">Je deviens sa complice en le souffrant ici. </l>
 </sp>
-<sp stage="kneel" who="DAMIS"><speaker>DAMIS, se jetant à ses pieds.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="kneel">, se jetant à ses pieds.
+	</stage>
 	<l id="501">Dites que vous voulez qu'il meure. </l>
 </sp>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
@@ -1295,10 +1332,12 @@
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 	<l id="548" syll="4" part="i">Je voudrais l'être. </l>
 </sp>
-<sp stage="watch/tender" who="DAMIS"><speaker>DAMIS, en la regardant tendrement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="watch/tender">, en la regardant tendrement.
+	</stage>
 	<l id="548" syll="7" part="m">Ô ciel ! Vous le voudriez ? </l>
 </sp>
-<sp stage="watch/tender" who="SOPHIE"><speaker>SOPHIE, le regardant tendrement.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="watch/tender">, le regardant tendrement.
+	</stage>
 	<l id="548" syll="1" part="f">Non. </l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
@@ -1321,12 +1360,15 @@
 	<l id="560" syll="3" part="i">Vous flatter ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII.  Sophie, Finette, Damis, Éraste, au fond du théâtre.</head>
-<sp stage="toward" who="FINETTE"><speaker>FINETTE, à Damis.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage>  Sophie, Finette, Damis, Éraste, au fond du théâtre.
+</stage>
+<sp who="FINETTE"><speaker>FINETTE</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="560" syll="9" part="f">Prenez garde : on vient de ce côté. </l>
 	<l id="561">Éraste... Il pourrait vous entendre. </l>
 </sp>
-<sp stage="low" who="DAMIS"><speaker>DAMIS, bas.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="562" syll="4" part="i">Laissez-moi faire. </l>
 <stage type="loud">Haut, avec l'accent anglais.</stage>
 	<l id="562" syll="8" part="f">Eh bien ! Jugez par cet essai, </l>
@@ -1339,7 +1381,8 @@
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="567" syll="1" part="i">Oh ! </l>
 </sp>
-<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, à Damis.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="567" syll="11" part="f">Mais exprime-t-il un sentiment bien vrai ? </l>
 	<l id="568" syll="2" part="i">Je crains... </l>
 </sp>
@@ -1452,7 +1495,8 @@
 	<l id="623" syll="6" part="i">Oui, je vais au jardin. </l>
 <stage type="exit">Elle sort avec Finette.</stage>
 </sp>
-<sp stage="toward" who="ÉRASTE"><speaker>ÉRASTE, à Damis.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="623" syll="6" part="f">Faites-leur compagnie. </l>
 	<l id="624">Tout en se promenant elle prendra leçon... </l>
 	<l id="625">Si cependant cela vous contrarie, </l>
@@ -1464,7 +1508,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="alone" who="ÉRASTE"><speaker>ÉRASTE, seul.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="628">Ce maître me plaît fort : j'admire ses lumières : </l>
 	<l id="629">Qu'à son âge on trouve un français </l>
 	<l id="630">Également versé dans toutes les matières, </l>
@@ -1488,7 +1533,8 @@
 	<l id="648">Je ne me trompais pas : c'est lui. </l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Éraste, Lisimon.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Éraste, Lisimon.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="649">Ah ! Mon cher Lisimon, que dans cet ermitage </l>
 	<l id="650">Il m'est doux de vous recevoir ! </l>
@@ -1771,7 +1817,8 @@
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 	<l id="795" syll="6" part="f">Et la mienne est du vingt. </l>
 </sp>
-<sp stage="get" who="ÉRASTE"><speaker>ÉRASTE, tirant sa lettre.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="get">, tirant sa lettre.
+	</stage>
 	<l id="796" syll="2" part="i">Voyez. </l>
 </sp>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
@@ -1808,15 +1855,18 @@
 	<l id="804">Fait métier de montrer ce que lui-même ignore. </l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Éraste, Lisimon, Damis.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Éraste, Lisimon, Damis.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="805" syll="9" part="i">Monsieur le maître anglais, approchez. </l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="805" syll="3" part="f">Je suis pris : </l>
 	<l id="806" syll="4" part="i">C'est Lisimon. </l>
 </sp>
-<sp stage="toward/laugh" who="ÉRASTE"><speaker>ÉRASTE, à Lisimon qui éclate de rire.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="toward/laugh">, à Lisimon qui éclate de rire.
+	</stage>
 	<l id="806" syll="8" part="f">Eh ! Mais, pourquoi donc tous ces ris ? </l>
 </sp>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
@@ -1875,7 +1925,8 @@
 	<l id="831">Sachez, puisqu'il faut vous le dire, </l>
 	<l id="832">Qu'Éraste pour Sophie a fait choix d'un époux. </l>
 </sp>
-<sp stage="toward" who="DAMIS"><speaker>DAMIS, à Éraste.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="toward">, à Éraste.
+	</stage>
 	<l id="833">C'est donc à moi, monsieur, d'embrasser vos genoux. </l>
 	<l id="834">Verrez-vous sans pitié mon désespoir extrême ? </l>
 	<l id="835">Mais où ce cache ce rival ? </l>
@@ -1885,7 +1936,8 @@
 	<l id="836" syll="8" part="f">Damis, n'en dites point de mal : </l>
 	<l id="837" syll="6" part="i">Vous étiez à ses pieds. </l>
 </sp>
-<sp stage="dream/explicit" who="ÉRASTE"><speaker>ÉRASTE, qui, pendant le dialogue de l'oncle et du neveu, a paru rêver profondément.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="dream/explicit">, qui, pendant le dialogue de l'oncle et du neveu, a paru rêver profondément.
+	</stage>
 	<l id="837" syll="6" part="f">Oui, monsieur, c'est moi-même, </l>
 	<l id="838">Et mon amour au vôtre est tout au moins égal. </l>
 <stage type="location">Il va au fond du théâtre.</stage>
@@ -1894,7 +1946,8 @@
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 	<l id="840">Vous voyez, mon neveu, qu'il n'y faut plus songer. </l>
 </sp>
-<sp stage="quick" who="DAMIS"><speaker>DAMIS, vivement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="841">Rien, mon oncle, non, rien ne m'en peut dégager ; </l>
 	<l id="842" syll="6" part="i">Et si je vous suis cher... </l>
 </sp>
@@ -1906,7 +1959,8 @@
 	<l id="844">Vous allez entendre et juger. </l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Éraste, Lisimon, Damis, Sophie, Bélise, Finette.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Éraste, Lisimon, Damis, Sophie, Bélise, Finette.
+</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="845">Approchez-vous, Sophie, et prêtez-moi silence. </l>
 	<l id="846">Vous savez, depuis votre enfance, </l>
@@ -1916,7 +1970,8 @@
 	<l id="850">D'une aimable rougeur votre front se colore, </l>
 	<l id="851">Sophie, et vous baissez les yeux. </l>
 </sp>
-<sp stage="embarrassed" who="SOPHIE"><speaker>SOPHIE, avec embarras.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="embarrassed">, avec embarras.
+	</stage>
 	<l id="852" syll="2" part="i">Monsieur... </l>
 </sp>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
@@ -1941,10 +1996,12 @@
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 	<l id="863">Vous aimez ! Mais, monsieur, ce n'est donc point un mal ? </l>
 </sp>
-<sp stage="quick" who="DAMIS"><speaker>DAMIS, vivement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="864">C'est un bien qui n'a point d'égal. </l>
 </sp>
-<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, à Éraste.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="toward">, à Éraste.
+	</stage>
 	<l id="865" syll="4" part="i">Vous me trompiez ! </l>
 </sp>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
@@ -1959,7 +2016,8 @@
 	<l id="873">Je vous ai tenu lieu de père, </l>
 	<l id="874">Et c'est à moi de vous doter. </l>
 </sp>
-<sp stage="stress" who="SOPHIE"><speaker>SOPHIE, pénétrée.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="stress">, pénétrée.
+	</stage>
 	<l id="875">Ah ! Comment pourrai-je acquitter ?... </l>
 </sp>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
@@ -1970,10 +2028,12 @@
 	<l id="880">Consultez votre coeur pour donner votre foi, </l>
 	<l id="881">Et choisissez entre Damis et moi. </l>
 </sp>
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="882">Qu'un si beau procédé me confond et me touche ! </l>
 </sp>
-<sp stage="quick" who="DAMIS"><speaker>DAMIS, vivement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="883">Sophie, avant que de fixer mon sort, </l>
 	<l id="884">Songez, hélas ! Songez que votre bouche </l>
 	<l id="885">Va prononcer, ou ma vie, ou ma mort : </l>
@@ -1987,7 +2047,8 @@
 	<l id="891">À vos désirs lâchement sacrifie </l>
 	<l id="892" syll="4" part="i">Ce qu'elle doit... </l>
 </sp>
-<sp stage="enthousiasm" who="DAMIS"><speaker>DAMIS, avec la plus grande chaleur.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="enthousiasm">, avec la plus grande chaleur.
+	</stage>
 	<l id="892" syll="6" part="f">Oui, j'espère... je veux... </l>
 	<l id="893">Vous ignorez, mon oncle, comme on aime. </l>
 	<l id="894">Un coeur dont l'amour est extrême, </l>
@@ -1997,16 +2058,19 @@
 <stage type="kneel">Il se jette aux pieds de Sophie.</stage>
 	<l id="898">J'attends mon arrêt à vos pieds. </l>
 </sp>
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="899">Ô ciel ! Dans quel trouble il me jette ! </l>
 <stage type="toward">À Damis.</stage>
 	<l id="900">Je prétends que vous vous leviez, </l>
 	<l id="901">Damis ; levez-vous, dis-je, ou ma bouche est muette. </l>
 </sp>
-<sp stage="aparte" who="ÉRASTE"><speaker>ÉRASTE, à part.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="902" syll="6" part="i">Je vois qu'il est aimé. </l>
 </sp>
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="902" syll="6" part="f">Que vais-je prononcer ? </l>
 <stage type="loud">Haut.</stage>
 	<l id="903">Éraste, vos bienfaits ont des droits sur mon âme. </l>
@@ -2026,7 +2090,8 @@
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 	<l id="915" syll="9" part="f">Achevez... vous vous troublez, Sophie. </l>
 </sp>
-<sp stage="weak" who="SOPHIE"><speaker>SOPHIE, avec effort.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="weak">, avec effort.
+	</stage>
 	<l id="916" syll="3" part="i">Non, monsieur. </l>
 </sp>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
@@ -2064,7 +2129,8 @@
 	<l id="926">Mon esprit encor se défie... </l>
 	<l id="927">Parlez donc, charmante Sophie. </l>
 </sp>
-<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, à Éraste.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="toward">, à Éraste.
+	</stage>
 	<l id="928">Dans le saisissement de mon coeur éperdu, </l>
 	<l id="929">J'ai peine à trouver des paroles... </l>
 </sp>
@@ -2089,7 +2155,8 @@
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 	<l id="938">Ce dernier trait achève et met le comble à tous. </l>
 </sp>
-<sp stage="kneel" who="DAMIS, SOPHIE"><speaker>DAMIS et SOPHIE, se jettent aux pieds d'Éraste.</speaker>
+<sp who="DAMIS, SOPHIE"><speaker>DAMIS et SOPHIE</speaker><stage type="kneel">, se jettent aux pieds d'Éraste.
+	</stage>
 	<l id="939" syll="6" part="i">Nous sommes vos enfants. </l>
 </sp>
 <sp who="BÉLISE"><speaker>BÉLISE.</speaker>
@@ -2097,7 +2164,8 @@
 	<l id="940">Les philosophes sont des fous </l>
 	<l id="941">Que malgré soi quelque fois l'on admire. </l>
 </sp>
-<sp stage="toward" who="LISIMON"><speaker>LISIMON, à Éraste.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="toward">, à Éraste.
+	</stage>
 	<l id="942">C'est avoir sur vous-même, Éraste, un grand empire. </l>
 	<l id="943">Ce sublime effort de raison </l>
 	<l id="944">Est d'un rare et pénible usage. </l>

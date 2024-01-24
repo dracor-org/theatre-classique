@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -31,23 +31,25 @@
 		<titlePart part="sub">Représentée pour la première fois, à Paris, sur le Théâtre de la Renaissance, le 6 février 1898.</titlePart>
 	</docTitle>
    <docDate value="1904">1904.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de TRISTAN BERNARD.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de TRISTAN BERNARD.</docAuthor>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age="V" stat_amour=''>HENRI</role>, vingt-cinq ans.</castItem>
-		<castItem><role id="MONSIEUR LALBERT" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>MONSIEUR LALBERT</role>, soixante ans.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>HENRIETTE</role>, vingt ans.</castItem>
-		<castItem><role id="MADAME LALBERT" sex="2" type="H" statut="bourgeois" age="V" stat_amour=''>MADAME LALBERT</role>, cinquante ans.</castItem>
-		<castItem><role id="OLGA" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>OLGA</role>.</castItem>
-		<castItem><role id="STÉPHANIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>STÉPHANIE</role>.</castItem>
+		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age="V" stat_amour="">HENRI</role>, vingt-cinq ans.</castItem>
+		<castItem><role id="MONSIEUR LALBERT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MONSIEUR LALBERT</role>, soixante ans.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">HENRIETTE</role>, vingt ans.</castItem>
+		<castItem><role id="MADAME LALBERT" sex="2" type="H" statut="bourgeois" age="V" stat_amour="">MADAME LALBERT</role>, cinquante ans.</castItem>
+		<castItem><role id="OLGA" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">OLGA</role>.</castItem>
+		<castItem><role id="STÉPHANIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">STÉPHANIE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE RADEAU DE LA MÉDUSE</head>
 <stage type="decor">Porte au fond. Une autre porte au second plan, à gauche. Au premier plan, à gauche, la cheminée et deux fauteuils. Au premier plan, à droite, un piano posé perpendiculairement à la rampe. Le tabouret du piano est entre le mur de droite et le piano.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Olga, Stéphanie.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Olga, Stéphanie.
+</stage>
 <stage type="costume">Toutes deux sont en tablier blanc.</stage>
-<sp stage="work" who="OLGA"><speaker>OLGA, enlevant des housses.</speaker>
+<sp who="OLGA"><speaker>OLGA</speaker><stage type="work">, enlevant des housses.
+</stage>
 <p id="1">
 	<s id="1">Eh bien !</s>
 	<s id="2">C'est entendu comme ça. </s>
@@ -55,7 +57,8 @@
 	<s id="4">Il doit être sept_heures_un_quart.</s>
 </p>
 </sp>
-<sp stage="get" who="STÉPHANIE"><speaker>STÉPHANIE, tirant sa montre.</speaker>
+<sp who="STÉPHANIE"><speaker>STÉPHANIE</speaker><stage type="get">, tirant sa montre.
+</stage>
 <p id="2">
 	<s id="1">Si vous disiez sept_heures_et_demie. </s>
 	<s id="2">Je vais juste. </s>
@@ -150,7 +153,8 @@
 	<s id="6">Il faut croire que ce n'est pas des gens de grande importance, puisqu'on me laisse sortir tout de même et qu'on n'a pas fait de préparatifs pour eux.</s>
 </p>
 </sp>
-<sp who="STÉPHANIE"><speaker>STÉPHANIE, se levant.</speaker>
+<sp who="STÉPHANIE"><speaker>STÉPHANIE</speaker><stage>, se levant.
+</stage>
 <p id="16">
 	<s id="1">Oh ! </s>
 	<s id="2">Sept heures trente-cinq ! </s>
@@ -183,8 +187,10 @@
 <stage type="exit">Stéphanie sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Olga, puis Madame Lalbert.</head>
-<sp stage="entrance" who="MADAME LALBERT"><speaker>MADAME LALBERT, entrant par la porte de droite.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Olga, puis Madame Lalbert.
+</stage>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="entrance">, entrant par la porte de droite.
+</stage>
 <p id="1">
 	<s id="1">Quand tous faites cuire des choux_de_Bruxelles comme ce soir, je tous ai déjà répété dix fois qu'il fallait tenir bien fermée votre porte de cuisine. </s>
 	<s id="2">Sans quoi l'odeur se répand dans tout l'appartement. </s>
@@ -250,7 +256,8 @@
 <stage type="exit/furniture/location">Olga sort. Madame Lalbert range quelques sièges et sort à son tour par la porte de droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Olga, Henri, Henriette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Olga, Henri, Henriette.
+</stage>
 <sp who="OLGA"><speaker>OLGA.</speaker>
 <p id="1">
 	<s id="1">Si ces Messieurs Dames veulent attendre quelques instants, Madame et Monsieur ne seront pas longtemps à venir.</s>
@@ -262,8 +269,10 @@
 <stage type="exit">Elle sort à gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Henri, Henriette.</head>
-<sp stage="touch" who="HENRI"><speaker>HENRI, se frottant les mains.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Henri, Henriette.
+</stage>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="touch">, se frottant les mains.
+</stage>
 <p id="1">
 	<s id="1">Je suis content, ma petite Rette.</s>
 </p>
@@ -398,7 +407,8 @@
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Henri, Henriette, Monsieur Lalbert, Madame Lalbert.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Henri, Henriette, Monsieur Lalbert, Madame Lalbert.
+</stage>
 <sp who="LALBERT"><speaker>LALBERT.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Madame. </s>
@@ -470,13 +480,15 @@
 	<s id="1">Est-ce que vous vous intéressez, Madame, aux nouvelles de la Chambre ?</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, après avoir regardé Henri.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, après avoir regardé Henri.
+</stage>
 <p id="12">
 	<s id="1">Un petit peu, Madame, un petit peu.</s>
 </p>
 <stage type="silence">Un temps.</stage>
 </sp>
-<sp stage="low/toward" who="MADAME LALBERT"><speaker>MADAME LALBERT, à demi-voix à Lalbert.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="low/toward">, à demi-voix à Lalbert.
+</stage>
 <p id="13">
 	<s id="1">Je vais voir si la bonne est toujours à la cuisine...</s>
 </p>
@@ -486,7 +498,8 @@
 	<s id="2">Monsieur et Madame, quelques ordres à donner à ma cuisinière.</s>
 </p>
 </sp>
-<sp stage="together/hurry" who="HENRI, HENRIETTE"><speaker>HENRI et HENRIETTE, ensemble avec empressement.</speaker>
+<sp who="HENRI, HENRIETTE"><speaker>HENRI et HENRIETTE</speaker><stage type="together/hurry">, ensemble avec empressement.
+</stage>
 <p id="15">
 	<s id="1">Faites-donc, Madame, faites.</s>
 </p>
@@ -504,7 +517,8 @@
 	<s id="1">Mais c'est une odeur qui n'est pas désagréable.</s>
 </p>
 </sp>
-<sp stage="stand" who="HENRI"><speaker>HENRI, se levant.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="stand">, se levant.
+</stage>
 <p id="18">
 	<s id="1">Vous avez là de bien jolis tableaux.</s>
 </p>
@@ -534,7 +548,8 @@
 	<s id="1">C'est ce qui en fait le charme.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MADAME LALBERT"><speaker>MADAME LALBERT, rentrant, à demi-voix à Lalbert.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="low/toward">, rentrant, à demi-voix à Lalbert.
+</stage>
 <p id="23">
 	<s id="1">C'est trop fort ! </s>
 	<s id="2">Crois-tu, Émile ? </s>
@@ -557,7 +572,8 @@
 </p>
 <stage type="">Un temps.</stage>
 </sp>
-<sp stage="stand/closer" who="HENRIETTE"><speaker>HENRIETTE, se levant et allant au piano.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="stand/closer">, se levant et allant au piano.
+</stage>
 <p id="26">
 	<s id="">Je vous demande pardon, Madame, si j'examine de si près votre dessus de piano. </s>
 	<s id="2">Je le trouve d'une broderie exquise. </s>
@@ -590,13 +606,15 @@
 	<s id="3">J'ai épuisé le dessus du piano.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="32">
 	<s id="1">J'ai trop faim pour parler. </s>
 	<s id="2">Je parlerai à table.</s>
 </p>
 </sp>
-<sp stage="sit" who="HENRIETTE"><speaker>HENRIETTE, revenant s'asseoir.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="sit">, revenant s'asseoir.
+</stage>
 <p id="33">
 	<s id="1">Et vous sortez quelquefois, le soir, Madame ? </s>
 	<s id="2">Vous allez au théâtre ?</s>
@@ -715,7 +733,8 @@
 	<s id="7">Vous aimez les choux de Bruxelles ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bien faiblement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bien faiblement.
+</stage>
 <p id="52">
 	<s id="1">Oh !... </s>
 	<s id="2">Oui, assez.</s>
@@ -728,7 +747,8 @@
 	<s id="3">Vous n'êtes pas incommodée par cette odeur, Madame ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, faiblement.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, faiblement.
+</stage>
 <p id="54">
 	<s id="1">Ça n'est pas une si mauvaise odeur.</s>
 </p>
@@ -752,12 +772,14 @@
 	<s id="7">Vous ne l'aimez pas ?</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, faiblement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage>, faiblement.
+</stage>
 <p id="57">
 	<s id="1">Si, je l'aime.</s>
 </p>
 </sp>
-<sp stage="aparte" who="HENRIETTE"><speaker>HENRIETTE, à part.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="57">
 	<s id="1">Mon_Dieu, Seigneur !</s>
 </p>
@@ -781,7 +803,8 @@
 	<s id="2">Que c'est bon, un bon potage !</s>
 </p>
 </sp>
-<sp stage="aparte" who="HENRIETTE"><speaker>HENRIETTE, à part.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="61">
 	<s id="1">Mon_Dieu, Seigneur !</s>
 </p>
@@ -851,7 +874,8 @@
 	<s id="4">Prends-moi n'importe quoi, un bout de pain qui traîne.</s>
 </p>
 </sp>
-<sp stage="loud" who="HENRI"><speaker>HENRI, haut.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="loud">, haut.
+</stage>
 <p id="71">
 	<s id="2">Je crois avoir apporté dans mon pardessus un morceau de musique. </s>
 	<s id="3">Permettez que j'aille le chercher.</s>
@@ -870,7 +894,8 @@
 </p>
 <stage type="exit/location">Il sort par le fond.</stage>
 </sp>
-<sp stage="low/toward" who="MADAME LALBERT"><speaker>MADAME LALBERT, bas à son mari.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="low/toward">, bas à son mari.
+</stage>
 <p id="74">
 	<s id="1">Il est gentil, ce jeune homme.</s>
 </p>
@@ -910,7 +935,8 @@
 	<s id="4">Il m'a dit hier qu'il n'y tenait pas.</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, à part.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, à part.
+</stage>
 <p id="80">
 	<s id="1">Il ne revient pas. </s>
 	<s id="2">Il est là-bas sans lumière.</s>
@@ -937,7 +963,8 @@
 	<s id="1">Qu'est-ce que c'est que ce bruit ?</s>
 </p>
 </sp>
-<sp stage="stress" who="HENRI"><speaker>HENRI, froidement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="stress">, froidement.
+</stage>
 <p id="85">
 	<s id="">Ce bruit ?...</s>
 </p>
@@ -981,92 +1008,108 @@
 </p>
 <stage type="location/search">Il passe derrière le piano près d'Henriette et fait semblant de chercher dans les partitions.</stage> 
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="92">
 	<s id="1">Qu'est-ce que tu as trouvé ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="93">
 	<s id="1">Trois choses. </s>
 	<s id="2">Un morceau de pain, qui était sur une table...</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="94">
 	<s id="1">Donne.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="95">
 	<s id="1">Il est très dur, tellement dur qu'il m'a servi à ouvrir le buffet.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="96">
 	<s id="1">Donne tout de même. </s>
 	<s id="2">Et puis ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="97">
 	<s id="1">Un oeuf. </s>
 	<s id="2">Tiens !</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="98">
 	<s id="1">Donne... </s>
 	<s id="2">Ah ! </s>
 	<s id="3">Mon_Dieu !</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="99">
 	<s id="1">Quoi ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="100">
 	<s id="1">L'oeuf est tombé. </s>
 	<s id="2">Il a roulé sur ma robe.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="101">
 	<s id="1">Je n'ose pas regarder.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="102">
 	<s id="1">Si, si. </s>
 	<s id="2">Je t'en prie.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="103">
 	<s id="1">Nous sommes sauvés. </s>
 	<s id="2">C'est un oeuf dur.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="104">
 	<s id="1">Donne.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="105">
 	<s id="1">Ce n'est pas tout. </s>
 	<s id="2">J'ai encore un morceau de canard froid... </s>
 	<s id="3">Parle-leur un peu.</s>
 </p>
 </sp>
-<sp stage="loud" who="HENRIETTE"><speaker>HENRIETTE, haut.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="loud">, haut.
+</stage>
 <p id="106">
 	<s id="1">Vous avez un appartement charmant.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="107">
 	<s id="1">Ils n'ont pas entendu.</s>
 </p>
@@ -1086,7 +1129,8 @@
 	<s id="1">Oui, oui, nous trouvons.</s>
 </p>
 </sp>
-<sp stage="closer" who="MADAME LALBERT"><speaker>MADAME LALBERT, s'approchant.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="closer">, s'approchant.
+</stage>
 <p id="111">
 	<s id="1">Vous ne trouvez pas ? </s>
 	<s id="2">Quel est le titre du morceau ?</s>
@@ -1106,42 +1150,49 @@
 </p>
 <stage type="closer">Il revient près d'Henriette.</stage>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, qui a essayé de mordre dans le pain, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, qui a essayé de mordre dans le pain, bas.
+</stage>
 <p id="113">
 	<s id="1">Le pain est trop dur. </s>
 	<s id="2">Passe-moi l'oeuf.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="114">
 	<s id="1">Il est dur aussi. </s>
 	<s id="2">Et ça va être long à peler.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="115">
 	<s id="1">Allons, passe-moi le canard.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="116">
 	<s id="1">Je l'ai laissé dans les partitions. </s>
 	<s id="2">Parle-leur. </s>
 	<s id="3">Occupe-les un peu.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="117">
 	<s id="1">Qu'est-ce que je peux leur dire ? </s>
 	<s id="2">Je vais leur raconter la dispute que j'ai eue avec ma bonne.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="118">
 	<s id="1">Faute de mieux.</s>
 </p>
 </sp>
-<sp stage="loud/abrupt" who="HENRIETTE"><speaker>HENRIETTE, haut et brusquement.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="loud/abrupt">, haut et brusquement.
+</stage>
 <p id="119">
 	<s id="1">J'ai eu cet après-midi une dispute avec ma bonne. </s>
 	<s id="2">J'en suis encore tout émue.</s>
@@ -1157,24 +1208,28 @@
 	<s id="1">Vous ne trouvez pas ?</s>
 </p>
 </sp>
-<sp stage="push" who="HENRI"><speaker>HENRI, la repoussant.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="push">, la repoussant.
+</stage>
 <p id="122">
 	<s id="1">Ne vous dérangez pas, je vous en prie.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="123">
 	<s id="1">As-tu le canard ?</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
-<note type="C"></note>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
+<note type="C"/>
 <p id="124">
 	<s id="1">Je suis en train de le rattraper. </s>
 	<s id="2">Il était tombé dans « Robert le Diable ».</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="125">
 	<s id="1">Occupe-les pendant que je le mangerai.</s>
 </p>
@@ -1191,12 +1246,14 @@
 	<s id="3">Elle en descendait au concierge.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="128">
 	<s id="1">Voici le canard.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="129">
 	<s id="1">Passe-le-moi vite. </s>
 	<s id="2">Et va les occuper.</s>
@@ -1234,37 +1291,42 @@
 	<s id="1">Oui, oui, tout de suite.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="135">
 	<s id="1">Je n'en puis plus... </s>
 	<s id="2">Va me chercher à manger dehors.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="136">
 	<s id="1">Impossible. </s>
 	<s id="2">Ce quartier est perdu. </s>
 	<s id="3">Ils ont dit tout à l'heure qu'il n'y avait pas de fournisseurs à côté, et les boulangeries sont fermées.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="137">
 	<s id="1">Je n'en puis plus...</s>
 </p>
 </sp>
 <sp who="MADAME LALBERT"><speaker>MADAME LALBERT.</speaker>
-<note type="C"></note>
+<note type="C"/>
 <p id="138">
 	<s id="1">Connaissez-vous la « valse des Oiseaux de Paradis » ?</s>
 </p>
 </sp>
-<sp stage="loud" who="HENRI"><speaker>HENRI, haut.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="loud">, haut.
+</stage>
 <p id="139">
 	<s id="1">Oui, oui, tout de suite... </s>
 	<s id="2">Nous allons trouver.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="140">
 	<s id="1">Je n'en puis plus... </s>
 	<s id="2">Ah ! </s>
@@ -1277,30 +1339,34 @@
 </p>
 </sp>
 <sp who="MADAME LALBERT"><speaker>MADAME LALBERT.</speaker>
-<note type="C"></note>
+<note type="C"/>
 <p id="141">
 	<s id="1">Et « Bonsoir Suzon » ? </s>
 	<s id="2">C'est bien joli aussi. </s>
 	<s id="3">Mais il y a des difficultés.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="142">
 	<s id="1">Ces gens-là sont des bourreaux !</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="143">
 	<s id="1">Ils ne savent pas.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="144">
 	<s id="1">Ça m'est égal. </s>
 	<s id="2">Je vais leur dire leur fait.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="145">
 	<s id="1">Je t'en prie. </s>
 	<s id="2">Contiens-toi... </s>
@@ -1309,14 +1375,16 @@
 	<s id="6">Ménageons-les.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, bas.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, bas.
+</stage>
 <p id="146">
 	<s id="1">L'as-tu, cette place ? </s>
 	<s id="2">Quand l'auras-tu ? </s>
 	<s id="3">Ils ne t'en parlent seulement pas.</s>
 </p>
 </sp>
-<sp stage="low" who="HENRI"><speaker>HENRI, bas.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="low">, bas.
+</stage>
 <p id="147">
 	<s id="1">Ils attendent que je leur en parle. </s>
 	<s id="2">Je vais leur en parler...</s>
@@ -1345,7 +1413,8 @@
 </p>
 <stage type="music">Henriette joue un air furieux sur le piano.</stage>
 </sp>
-<sp stage="strong" who="HENRIETTE"><speaker>HENRIETTE, d'une voix impérieuse.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="strong">, d'une voix impérieuse.
+</stage>
 <p id="151">
 	<s id="1">Henri !</s>
 </p>
@@ -1355,7 +1424,8 @@
 	<s id="1">Ma chérie ?</s>
 </p>
 </sp>
-<sp stage="loud" who="HENRIETTE"><speaker>HENRIETTE, haut.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="loud">, haut.
+</stage>
 <p id="153">
 	<s id="1">Tu supportes ça ?</s>
 </p>
@@ -1365,13 +1435,15 @@
 	<s id="1">Mon amie...</s>
 </p>
 </sp>
-<sp stage="low" who="HENRIETTE"><speaker>HENRIETTE, à demi-voix.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="155">
 	<s id="1">Mais dis-leur donc leur fait à ces deux vieilles bêtes. </s>
 	<s id="2">Soulage-toi.</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, à demi-voix et résolument.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage>, à demi-voix et résolument.
+</stage>
 <p id="156">
 	<s id="1">Hé bien ! </s>
 	<s id="2">Oui ! </s>
@@ -1428,7 +1500,8 @@
 	<s id="1">J'ai faim !</s>
 </p>
 </sp>
-<sp stage="lost" who="HENRIETTE"><speaker>HENRIETTE, comme égarée.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="lost">, comme égarée.
+</stage>
 <p id="166">
 	<s id="1">Ah ! </s>
 	<s id="2">Maintenant il faut que je mange ! </s>
@@ -1446,7 +1519,8 @@
 	<s id="1">Car ils nous ont donné du canard empoisonné !</s>
 </p>
 </sp>
-<sp stage="frighten" who="MADAME LALBERT"><speaker>MADAME LALBERT, tremblante.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage type="frighten">, tremblante.
+</stage>
 <p id="168">
 	<s id="1">J'ai un poulet froid... </s>
 	<s id="2">Certainement... </s>
@@ -1466,7 +1540,8 @@
 	<s id="2">Vous y trouverez du vin...</s>
 </p>
 </sp>
-<sp stage="gat/abrupt" who="HENRI"><speaker>HENRI, prenant les clés et brusquement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="gat/abrupt">, prenant les clés et brusquement.
+</stage>
 <p id="171">
 	<s id="1">Merci. </s>
 	<s id="2">Nous allons nous procurer des victuailles.</s>
@@ -1526,7 +1601,8 @@
 	<s id="3">Il va se venger.</s>
 </p>
 </sp>
-<sp stage="low" who="LALBERT"><speaker>LALBERT, faiblement.</speaker>
+<sp who="LALBERT"><speaker>LALBERT</speaker><stage type="low">, faiblement.
+</stage>
 <p id="182">
 	<s id="1">Tu crois ?</s>
 </p>
@@ -1538,7 +1614,8 @@
 	<s id="3">Il faut lui donner la place !</s>
 </p>
 </sp>
-<sp stage="low" who="LALBERT"><speaker>LALBERT, faiblement.</speaker>
+<sp who="LALBERT"><speaker>LALBERT</speaker><stage type="low">, faiblement.
+</stage>
 <p id="184">
 	<s id="1">Un garçon si emporté, si violent...</s>
 </p>
@@ -1558,7 +1635,8 @@
 </p>
 <stage type="stand/hurry/entrance">Ils se lèvent tous les deux avec empressement. Henri et Henriette rentrent avec des victuailles.</stage>
 </sp>
-<sp who="MADAME LALBERT"><speaker>MADAME LALBERT, vivement.</speaker>
+<sp who="MADAME LALBERT"><speaker>MADAME LALBERT</speaker><stage>, vivement.
+</stage>
 <p id="187">
 	<s id="1">Monsieur, quelque chose à vous dire... </s>
 	<s id="2">Mon mari a commis tout à l'heure une petite erreur... </s>
@@ -1567,7 +1645,8 @@
 	<s id="5">Pour celle-là, c'est entendu, vous l'aurez.</s>
 </p>
 </sp>
-<sp stage="proud" who="HENRI"><speaker>HENRI, noblement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="proud">, noblement.
+</stage>
 <p id="188">
 	<s id="1">Merci !... </s>
 	<s id="2">Nous allons finir ça et nous retirer.</s>

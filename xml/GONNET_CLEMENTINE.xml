@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,12 +29,12 @@
 			<titlePart type="main">CLÉMENTINE OU LES MEMBRES D'HONNEUR</titlePart>
 			<titlePart type="sub">POUR UNE DISTRIBUTION DE DIPLÔMES</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858</docDate>
-		<docAuthor id='GONNET, Eugène'>Par l'Abbé E. GONNET.</docAuthor>
+		<docDate value="1858">1858</docDate>
+		<docAuthor id="GONNET, Eugène">Par l'Abbé E. GONNET.</docAuthor>
 		<docImprint>
-			<editor id='CAILLAT-BELHOMME'>AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
-			<printer id='JACQUET'>AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
-			<approbation><head></head>
+			<editor id="CAILLAT-BELHOMME">AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
+			<printer id="JACQUET">AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
+			<approbation><head/>
 				<p>Avignon le 20 juillet 1858.</p>
 				<p>L'ARCHEVÊQUE D'AVIGNON.</p>
 				<p>Vu le rapport que lui a fait un des membres de la Commission chargée de l'examen des livres dans son diocèse..</p>
@@ -43,15 +43,15 @@
 			</approbation>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="CLÉMENTINE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>CLÉMENTINE</role>, membre d'honneur.</castItem>
-			<castItem><role id="PHILOMÈNE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>PHILOMÈNE</role>, membre d'honneur, amie de Clémentine.</castItem>
-			<castItem><role id="JULIE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>JULIE</role>, membre d'honneur, amie de Clémentine.</castItem>
-			<castItem><role id="ADÈLE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>ADÈLE</role>, membre d'honneur, amie de Clémentine.</castItem>
-			<castItem><role id="HONORÉE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>HONORÉE</role>, maîtresse des cérémonies.</castItem>
-			<castItem><role id="ROSINE" sex="2" type="H" statut="religieux" age='A' stat_amour='néant'>ROSINE</role>, congréganiste.</castItem>
-			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut="religieux" age='A' stat_amour='néant'>LA PRÉSIDENTE DE LA CONGRÉGATION</role>.</castItem>
-			<castItem><role id="UNE COMMISSIONNAIRE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>UNE COMMISSIONNAIRE</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>LE CHOEUR</role>.</castItem>
+			<castItem><role id="CLÉMENTINE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">CLÉMENTINE</role>, membre d'honneur.</castItem>
+			<castItem><role id="PHILOMÈNE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">PHILOMÈNE</role>, membre d'honneur, amie de Clémentine.</castItem>
+			<castItem><role id="JULIE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">JULIE</role>, membre d'honneur, amie de Clémentine.</castItem>
+			<castItem><role id="ADÈLE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">ADÈLE</role>, membre d'honneur, amie de Clémentine.</castItem>
+			<castItem><role id="HONORÉE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">HONORÉE</role>, maîtresse des cérémonies.</castItem>
+			<castItem><role id="ROSINE" sex="2" type="H" statut="religieux" age="A" stat_amour="néant">ROSINE</role>, congréganiste.</castItem>
+			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut="religieux" age="A" stat_amour="néant">LA PRÉSIDENTE DE LA CONGRÉGATION</role>.</castItem>
+			<castItem><role id="UNE COMMISSIONNAIRE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">UNE COMMISSIONNAIRE</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">LE CHOEUR</role>.</castItem>
 		</castList>
 		<set location="Avignon" country="France" periode="XIXème" gps="43.893582, 4.9456364">La scène se passe dans une cour.</set>
 		<note>Extrait de "Dialogues en vers pour pensionnaires ou congrégations de jeunes demoiselles", 5ème cahier, de l'Abbé Eugène Gonnet. pp 11-24</note>
@@ -59,7 +59,8 @@
 <body>
 <div1 type="acte" n="1"><head>CLÉMENTINE OU LES MEMBRES D'HONNEUR.</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp who="HONORÉE"><speaker>HONORÉE, seule.</speaker>
+<sp who="HONORÉE"><speaker>HONORÉE</speaker><stage>, seule.
+</stage>
 <stage type="decor/work/furniture">Elle place des bancs et des chaises ; suspend au mur le tableau des Membres d'honneur.</stage>
 	<l id="1">Allons, dépêchons-nous !... Surtout n'oublions pas</l>
 	<l id="2">Qu'au service de Dieu nul office n'est bas.</l>
@@ -91,7 +92,8 @@
 	<l id="19">Que le moment approche, et que ces Demoiselles....</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Honorée, Clémentine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Honorée, Clémentine.
+</stage>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 	<l id="20">Écoute, mon enfant. Donne-moi des nouvelles</l>
 	<l id="21">De votre belle fête. Est-il vrai qu'en ce jour</l>
@@ -125,7 +127,8 @@
 	<l id="29">Oui. Pour moi cependant ce lieu n'est pas nouveau.</l>
 	<l id="30">Comme Membre d'honneur je figure au tableau.</l>
 </sp>
-<sp stage="read" who="HONORÉE"><speaker>HONORÉE, lisant.</speaker>
+<sp who="HONORÉE"><speaker>HONORÉE</speaker><stage type="read">, lisant.
+	</stage>
 	<l id="31">Voyons : Membres d'honneur : Célina, Catherine,</l>
 	<l id="32">Philomène, Julie, Adèle, Clémentine.</l>
 </sp>
@@ -158,7 +161,8 @@
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 	<l id="43">C'est assez, Honorée. Ainsi, ces Demoiselles...</l>
 </sp>
-<sp stage="exit" who="ADÈLE"><speaker>ADÈLE, au dehors.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="exit">, au dehors.
+	</stage>
 	<l id="44" syll="6" part="i">Philomène ! Julie !</l>
 </sp>
 <sp who="HONORÉE"><speaker>HONORÉE.</speaker>
@@ -168,7 +172,7 @@
 	<l id="44" syll="3" part="f">Ce sont elles.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, Adèle, PHILOMÈNE, Julie.</head><sp who="PHILOMÈNE"><speaker>PHILOMÈNE.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, Adèle, PHILOMÈNE, Julie.</stage><sp who="PHILOMÈNE"><speaker>PHILOMÈNE.</speaker>
 	<l id="45" syll="6" part="i">Adèle, attends-nous donc.</l>
 </sp><sp who="ADÈLE"><speaker>ADÈLE.</speaker>
 	<l id="45" syll="6" part="f">C'est Clémentine ! Ô ciel !</l>
@@ -208,7 +212,8 @@
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
 	<l id="60" syll="3" part="m">Devine.</l>
 </sp>
-<sp stage="read" who="ADÈLE"><speaker>ADÈLE, lit l'adresse.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="read">, lit l'adresse.
+	</stage>
 	<l id="60" syll="6" part="f">Oh ! Je crois la connaître.</l>
 <stage type="give">Elle remet la lettre à Philomène.</stage>
 	<l id="61" syll="6" part="i">Philomène, lis donc.</l>
@@ -242,8 +247,10 @@
 	<l id="74">N'importe : il est encore un projet, je vous dis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Rosine, La Présidente, Le Choeur.</head>
-<sp stage="stress" who="ROSINE"><speaker>ROSINE, avec humeur.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Rosine, La Présidente, Le Choeur.
+</stage>
+<sp who="ROSINE"><speaker>ROSINE</speaker><stage type="stress">, avec humeur.
+	</stage>
 	<l id="75">Quel tapage ! Vraiment, c'est à rompre la tête.</l>
 	<l id="76">Qui leur a pu souffler de venir à la fête ?</l>
 </sp>
@@ -256,7 +263,8 @@
 	<l id="79">Faut-il donc s'y résoudre, et voir des étrangères</l>
 	<l id="80">Se mêler à nos jeux et chasser sur nos terres ?</l>
 </sp>
-<sp stage="toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, aux Membres d'honneur.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="toward">, aux Membres d'honneur.
+	</stage>
 	<l id="81">Mes enfants, excusez un zèle peu discret.</l>
 	<l id="82">Rosine, comme vous, ne sait pas le projet.</l>
 </sp><sp who="PHILOMÈNE"><speaker>PHILOMÈNE.</speaker>
@@ -332,7 +340,8 @@
 <stage type="toward">À Honorée.</stage>
 	<l id="120" syll="9" part="f">Honorée, hâte-toi d'aller voir.</l>
 </sp>
-<sp stage="location" who="HONORÉE"><speaker>HONORÉE, se dirigeant vers la porte.</speaker>
+<sp who="HONORÉE"><speaker>HONORÉE</speaker><stage type="location">, se dirigeant vers la porte.
+	</stage>
 	<l id="121" syll="2" part="i">J'y suis.</l>
 </sp>
 <sp who="CLÉMENTINE"><speaker>CLÉMENTINE.</speaker>
@@ -349,8 +358,10 @@
 	<l id="126" syll="6" part="i">Tu peux la faire entrer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. LES MÊMES, Une Commissionnaire.</head>
-<sp who="LA COMMISSIONNAIRE"><speaker>LA COMMISSIONNAIRE, apportant un paquet de Diplômes.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> LES MÊMES, Une Commissionnaire.
+</stage>
+<sp who="LA COMMISSIONNAIRE"><speaker>LA COMMISSIONNAIRE</speaker><stage>, apportant un paquet de Diplômes.
+	</stage>
 	<l id="126" syll="6" part="f">Je suis votre servante.</l>
 </sp><sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="127" syll="6" part="i">Bonjour, ma chère enfant.</l>
@@ -375,7 +386,7 @@
 	<l id="131" syll="6" part="i">Adieu ; ma chère enfant !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Excepté La Commissionnaire.</head> <sp who="PHILOMÈNE"><speaker>PHILOMÈNE.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Excepté La Commissionnaire. </stage> <sp who="PHILOMÈNE"><speaker>PHILOMÈNE.</speaker>
 	<l id="131" syll="6" part="f">C'est le projet, je pense.</l>
 <stage id="watch/open">Elle regarde le paquet en même temps que la Présidente le déplie.</stage>
 	<l id="132" syll="6" part="i">Diplômes ! Qu'ai-je lu ?</l>
@@ -408,7 +419,8 @@
 	<l id="145">N'ait tenté mille fois de les perdre à tout prix.</l>
 	<l id="146">Elles ont.résisté : tu les en félicites ?</l>
 </sp>
-<sp who="ROSINE"><speaker>ROSINE, radoucissant le ton.</speaker>
+<sp who="ROSINE"><speaker>ROSINE</speaker><stage>, radoucissant le ton.
+	</stage>
 	<l id="147">Je voudrais même avoir leur trésor de mérites.</l>
 </sp><sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="148">Tu l'auras, je l'espère. À présent, trouves-tu</l>
@@ -459,14 +471,17 @@
 <stage type="towward">À Honorée.</stage>
 	<l id="168">Ouvre donc, Honorée. Est-celui par hasard ?</l>
 </sp>
-<sp stage="declamate" who="HONORÉE"><speaker>HONORÉE, annonçant la Commissionnaire.</speaker>
+<sp who="HONORÉE"><speaker>HONORÉE</speaker><stage type="declamate">, annonçant la Commissionnaire.
+	</stage>
 	<l id="169" syll="6" part="i">La Commissionnaire.</l>
 </sp><sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="169" syll="6" part="f">Arrivez sans retard.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, La Commissionnaire.</head>
-<sp who="LA COMMISSIONNAIRE"><speaker>LA COMMISSIONNAIRE, apportant un coeur d'or.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, La Commissionnaire.
+</stage>
+<sp who="LA COMMISSIONNAIRE"><speaker>LA COMMISSIONNAIRE</speaker><stage>, apportant un coeur d'or.
+	</stage>
 	<l id="170" syll="6" part="i">Mon humble révérence.</l>
 </sp><sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="170" syll="6" part="f">Eh ! Bonjour. L'on t'envoie...</l>
@@ -487,8 +502,10 @@
 	<l id="173" syll="2" part="m">Adieu !</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, excepté La Commissionnaire.</head>
-<sp stage="show" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, montrant le coeur d'or.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, excepté La Commissionnaire.
+</stage>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="show">, montrant le coeur d'or.
+	</stage>
 	<l id="173" syll="6" part="f">Vous voyez un cadeau.</l>
 	<l id="174">Il vous regarde bien : mais il n'est pour personne</l>
 	<l id="175" syll="8" part="i">D'entre vous. Devinez, il est...</l>

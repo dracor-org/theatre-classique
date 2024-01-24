@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -28,27 +28,28 @@
 				<titlePart type="main">LA MODESTIE</titlePart>
 				<titlePart type="sub">DIALOGUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location='(inconnue)'></premiere>
+				<premiere date="" location="(inconnue)"/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="TURENNE" sex="1" type="H" statut="militaire" age='A' stat_amour='néant'>TURENNE</role>.</castItem>
-		<castItem><role id="PIERRE CORNEILLE" sex="1" type="H" statut="auteur" age='A' stat_amour='néant'>PIERRE CORNEILLE</role>.</castItem>
-		<castItem><role id="DUFRESNE" sex="1" type="H" statut="comédien" age='A' stat_amour='néant'>DUFRESNE</role>.</castItem>
+		<castItem><role id="TURENNE" sex="1" type="H" statut="militaire" age="A" stat_amour="néant">TURENNE</role>.</castItem>
+		<castItem><role id="PIERRE CORNEILLE" sex="1" type="H" statut="auteur" age="A" stat_amour="néant">PIERRE CORNEILLE</role>.</castItem>
+		<castItem><role id="DUFRESNE" sex="1" type="H" statut="comédien" age="A" stat_amour="néant">DUFRESNE</role>.</castItem>
 	</castList>
-	<set location='Enfers' country='Pays mythologique' periode='Temps mythologiques' gps="(N/A)">La Scène est aux Enfers.</set>
+	<set location="Enfers" country="Pays mythologique" periode="Temps mythologiques" gps="(N/A)">La Scène est aux Enfers.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, Les Loix, dialogue, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome premier, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 23-34.
  </note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LA MODESTIE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="entrance" who="DUFRESNE"><speaker>DUFRESNE, entrant aux Enfers.</speaker>
+<sp who="DUFRESNE"><speaker>DUFRESNE</speaker><stage type="entrance">, entrant aux Enfers.
+</stage>
 <p id="1">
 	<s id="1">Comment donc ! </s>
 	<s id="2">Ces gens-là ne battent pas des mains quand je parais ! </s>
@@ -64,8 +65,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Turenne, Corneille, Dufresne.</head>
-<sp stage="toward" who="TURENNE"><speaker>TURENNE, à Corneille.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Turenne, Corneille, Dufresne.
+</stage>
+<sp who="TURENNE"><speaker>TURENNE</speaker><stage type="toward">, à Corneille.
+</stage>
 <p id="1">
 	<s id="1">Quelle est cette Ombre qui s'avance à pas comptés, et dont la mine est si fière ?</s>
 </p>
@@ -117,7 +120,8 @@
 	<s id="1">Ce n'est point Voltaire ; ce n'est point Jean-Jacques : voilà cependant ce qu'il y a de plus célèbre là-haut.</s>
 </p>
 </sp>
-<sp stage="toward" who="TURENNE"><speaker>TURENNE, à Corneille.</speaker>
+<sp who="TURENNE"><speaker>TURENNE</speaker><stage type="toward">, à Corneille.
+</stage>
 <p id="11">
 	<s id="1">Vous verrez que c'est quelque fat ignoré.</s>
 </p>
@@ -141,7 +145,8 @@
 	<s id="1">Mais vous qui m'interrogez, et qui me semblez être le questionneur des Enfers, voudriez- vous bien, à votre tour, me dire quel rang vous aviez dans l'autre monde, afin que je juge si, dans celui-ci, je puis me lier avec vous, sans me compromettre.</s>
 </p>
 </sp>
-<sp stage="shy" who="TURENNE"><speaker>TURENNE, du ton le plus modeste.</speaker>
+<sp who="TURENNE"><speaker>TURENNE</speaker><stage type="shy">, du ton le plus modeste.
+</stage>
 <note type="C">Henri de la Tour d'Auvergne dit Turenne (1611-1675), maréchal de France.</note>
 <p id="16">
 	<s id="1">J'étais officier , et j'ai eu l'honneur de servir dans les armées de Louis XIV.</s>
@@ -159,24 +164,28 @@
 	<s id="">En effet, je me reprocherai toujours d'avoir révélé le secret de l'État.</s>
 </p>
 </sp>
-<sp stage="toward" who="CORNEILLE"><speaker>CORNEILLE, à Turenne.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="toward">, à Turenne.
+</stage>
 <p id="19">
 	<s id="1">Les grands hommes ne se souviennent que de leurs faiblesses. </s>
 	<s id="2">Quand vous vous rappelez celle-ci, rappelez-vous du moins tant de vertus, tant de victoires.</s>
 </p>
 </sp>
-<sp stage="toward" who="TURENNE"><speaker>TURENNE, à Corneille.</speaker>
+<sp who="TURENNE"><speaker>TURENNE</speaker><stage type="toward">, à Corneille.
+</stage>
 <p id="20">
 	<s id="1">Paix : j'ai exigé que vous ne m'en parliez jamais.</s>
 </p>
 </sp>
-<sp stage="toward" who="CORNEILLE"><speaker>CORNEILLE, à Turenne.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="toward">, à Turenne.
+</stage>
 <note type="L">La Glorieux (1732) est une comédie de Philippe Néricault Destouches (1680-1754).</note>
 <p id="21">
 	<s id="1">Je me souviens que Destouches me parlait dernièrement de ce Dufresne : il avait des talents , mais il avait encore plus de vanité lorsqu'il jouait le Glorieux , il devait être bien en scène.</s>
 </p>
 </sp>
-<sp stage="toward" who="DUFRESNE"><speaker>DUFRESNE, à Turenne.</speaker>
+<sp who="DUFRESNE"><speaker>DUFRESNE</speaker><stage type="toward">, à Turenne.
+</stage>
 <p id="22">
 	<s id="1">Quant à ce bonhomme que j'aperçois près de vous...</s>
 </p>
@@ -186,7 +195,8 @@
 	<s id="2">Il me semble cependant avoir vu cette figure-là quelque part ; je ne sais pas même, si je n'avais point son portrait dans mon antichambre.</s>
 </p>
 </sp>
-<sp stage="toward" who="CORNEILLE"><speaker>CORNEILLE, à Turenne.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="toward">, à Turenne.
+</stage>
 <p id="24">
 	<s id="1">Monsieur le Vicomte, cet homme-là croit être toujours sur les planches.</s>
 </p>
@@ -203,7 +213,8 @@
 	<s id="1">Monsieur est Vicomte, il est vrai, mais c'est le Vicomte de Turenne.</s>
 </p>
 </sp>
-<sp stage="toward" who="DUFRESNE"><speaker>DUFRESNE, à Turenne.</speaker>
+<sp who="DUFRESNE"><speaker>DUFRESNE</speaker><stage type="toward">, à Turenne.
+</stage>
 <p id="27">
 	<s id="1">Quand on a autant de mérite que vous, je me rends moins difficile sur les titres. </s>
 	<s id="2">Je vous estime ; vous étiez un assez bon Général. </s>
@@ -211,7 +222,8 @@
 	<s id="4">Je me serais fait un plaisir de vous donner des leçons.</s>
 </p>
 </sp>
-<sp stage="laugh" who="CORNEILLE"><speaker>CORNEILLE, riant.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="28">
 	<s id="1">Quoi ! </s>
 	<s id="2">Des leçons dans l'art de la guerre à Turenne !</s>
@@ -281,7 +293,8 @@
 	<s id="1">Sans doute.</s>
 </p>
 </sp>
-<sp stage="toward" who="CORNEILLE"><speaker>CORNEILLE, à Turenne.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="toward">, à Turenne.
+</stage>
 <p id="40">
 	<s id="1">Monsieur le Vicomte, vous voici à l'école : mais ces leçons viennent un peu tard.</s>
 </p>
@@ -352,7 +365,8 @@
 	<s id="4">Je visiterai Molière, Baron, Dancourt, non parce qu'ils furent auteurs, mais parce qu'ils furent comédiens.</s>
 </p>
 </sp>
-<sp stage="toward" who="TURENNE"><speaker>TURENNE, à Corneille.</speaker>
+<sp who="TURENNE"><speaker>TURENNE</speaker><stage type="toward">, à Corneille.
+</stage>
 <p id="50">
 	<s id="1">Quittons cet homme-là ; son caractère m'avait amusé d'abord, mais il finit par m'indigner. </s>
 	<s id="2">Les Auteurs tragiques, en faisant revivre les hommes célèbres, cherchent à les rendre intéressants ; les acteurs qui les représentent semblent chercher à les rendre insupportables. </s>

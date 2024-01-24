@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,29 +29,30 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">VINGT CINQUIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1822'>1822.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1822">1822.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='DELONCHAMPS'>À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
+			<printer id="DELONCHAMPS">À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
 		</docImprint>
 	<performance>
-			<premiere date="(inconnue)" location="Paris"></premiere>
+			<premiere date="(inconnue)" location="Paris"/>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquis' age='A' stat_amour='(néant)'>LA MARQUISE</role>.</castItem>
-		<castItem><role id="LA COMTESSE" sex="2" type="H" statut='comte' age='A' stat_amour='(néant)'>LA COMTESSE</role>.</castItem>
-		<castItem><role id="LE VICOMTE" sex="1" type="H" statut='vicomte' age='A' stat_amour='(néant)'>LE VICOMTE</role>.</castItem>
-		<castItem><role id="LE BARON" sex="1" type="H" statut='baron' age='A' stat_amour='(néant)'>LE BARON</role>.</castItem>
-		<castItem><role id="L'ABBÉ DE FOND-GRAS" sex="1" type="H" statut='abbé' age='A' stat_amour='(néant)'>L'ABBÉ DE FOND-GRAS</role>.</castItem>
-		<castItem><role id="LE COMMANDEUR DE CANTAC" sex="1" type="H" statut='commandeur' age='A' stat_amour='(néant)'>LE COMMANDEUR DE CANTAC</role>.</castItem>
-		<castItem><role id="DUVAL" sex="1" type="H" statut='valet' age='A' stat_amour='(néant)'>DUVAL</role>, valet-de-chambre de la Comtesse.</castItem>
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="(néant)">LA MARQUISE</role>.</castItem>
+		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="(néant)">LA COMTESSE</role>.</castItem>
+		<castItem><role id="LE VICOMTE" sex="1" type="H" statut="vicomte" age="A" stat_amour="(néant)">LE VICOMTE</role>.</castItem>
+		<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour="(néant)">LE BARON</role>.</castItem>
+		<castItem><role id="L'ABBÉ DE FOND-GRAS" sex="1" type="H" statut="abbé" age="A" stat_amour="(néant)">L'ABBÉ DE FOND-GRAS</role>.</castItem>
+		<castItem><role id="LE COMMANDEUR DE CANTAC" sex="1" type="H" statut="commandeur" age="A" stat_amour="(néant)">LE COMMANDEUR DE CANTAC</role>.</castItem>
+		<castItem><role id="DUVAL" sex="1" type="H" statut="valet" age="A" stat_amour="(néant)">DUVAL</role>, valet-de-chambre de la Comtesse.</castItem>
    </castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est chez la Comtesse.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE précédé de la vie de Carmontelle (...), chez DELONGCHAMPS libraire, Tome Premier, 1822. pp. 337-348</note>
 </front>
 <body>
-<div1 type="act" n='1'><head>L'HISTOIRE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Comtesse, Le Vicomte, Le Baron, La Marquise.</head>
+<div1 type="act" n="1"><head>L'HISTOIRE</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Comtesse, Le Vicomte, Le Baron, La Marquise.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Passez donc là, Madame la Marquise.</s>
@@ -168,8 +169,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, La Marquise, Le Vicomte, Le Baron, L'Abbé, Duval.</head>
-<sp stage="loud" who="DUVAL"><speaker>DUVAL, annonçant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, La Marquise, Le Vicomte, Le Baron, L'Abbé, Duval.
+</stage>
+<sp who="DUVAL"><speaker>DUVAL</speaker><stage type="loud">, annonçant.
+</stage>
 <p id="1">
 	<s id="">Monsieur l'abbé de Fond-Gras !</s>
 </p>
@@ -302,8 +305,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE III. La Marquise, La Comtesse, Le Vicomte, Le Baron, L'Abbé, Le Commandeur, Duval.</head>
-<sp stage="loud	" who="DUVAL"><speaker>DUVAL, annonçant.</speaker>
+<div2 type="scene" n=""><head>SCÈNE III.</head><stage> La Marquise, La Comtesse, Le Vicomte, Le Baron, L'Abbé, Le Commandeur, Duval.
+</stage>
+<sp who="DUVAL"><speaker>DUVAL</speaker><stage type="loud ">, annonçant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur le commandeur de Cantac.</s>
 </p>
@@ -318,7 +323,8 @@
 	<s id="1">Nous vous attendons avec la plus grande impatience.</s>
 </p>
 </sp>
-<sp stage="wave" who="LE COMMANDEUR"><speaker>LE COMMANDEUR, saluant.</speaker>
+<sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR</speaker><stage type="wave">, saluant.
+</stage>
 <p id="4">
 	<s id="1">Mesdames...</s>
 </p>
@@ -396,7 +402,8 @@
 	<s id="2">Cela ne fait rien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA MARQUISE"><speaker>LA MARQUISE, à part.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">Il me fait mourir.</s>
 </p>
@@ -659,7 +666,8 @@
 	<s id="">Mais, Commandeur...</s>
 </p>
 </sp>
-<sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR, revenant.</speaker>
+<sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR</speaker><stage>, revenant.
+</stage>
 <p id="65">
 	<s id="">Ah çà, ne me citez pas, parce qu'on n'est pas bien aise dans ces cas-là... </s>
 </p>

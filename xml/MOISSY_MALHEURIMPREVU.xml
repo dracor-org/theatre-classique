@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -147,16 +147,17 @@
 	</div>
 <castList>
 	<head>ACTEURS de LE MALHEUR IMPRÉVU</head>
-		<castItem><role id="MONSIEUR DESLANDES" sex="1" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MONSIEUR DESLANDES</role>, Oncle de Monsieur Brisson.</castItem>
-		<castItem><role id="MONSIEUR BRISSON" sex="1" type="H" statut='bourgeois' age='J' stat_amour='(néant)'>MONSIEUR BRISSON</role>, jeune homme, de vingt ans.</castItem>
-		<castItem><role id="MONSIEUR VILLIERS" sex="1" type="H" statut='bourgeois' age='J' stat_amour='(néant)'>MONSIEUR VILLIERS</role>, jeune homme du même âge.</castItem>
+		<castItem><role id="MONSIEUR DESLANDES" sex="1" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MONSIEUR DESLANDES</role>, Oncle de Monsieur Brisson.</castItem>
+		<castItem><role id="MONSIEUR BRISSON" sex="1" type="H" statut="bourgeois" age="J" stat_amour="(néant)">MONSIEUR BRISSON</role>, jeune homme, de vingt ans.</castItem>
+		<castItem><role id="MONSIEUR VILLIERS" sex="1" type="H" statut="bourgeois" age="J" stat_amour="(néant)">MONSIEUR VILLIERS</role>, jeune homme du même âge.</castItem>
 </castList>
-<set location="Paris" country="France" periode='XVIIIème' gps="48.856614, 2.352222">La scène est dans le cabinet de Monsieur Villiers, avocat, père du jeune homme, et qui est à la campagne.La scène se passe à cinq heures du soir.</set>
+<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans le cabinet de Monsieur Villiers, avocat, père du jeune homme, et qui est à la campagne.La scène se passe à cinq heures du soir.</set>
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>LA PIÈCE DE VERS ou LE DÉJEUNER DES ACADÉMISTES.</head>
-<div2 type="scene" n="1" stage="decor/work"><head>SCÈNE PREMIÈRE. Monsieur Brisson, Monsieur Villiers à un Bureau, et travaillant sur des Livres de Droit.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="decor/work"> Monsieur Brisson, Monsieur Villiers à un Bureau, et travaillant sur des Livres de Droit.
+</stage>
 <sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON.</speaker>
 <p id="1">
 	<s id="1">Bonjour, mon ami : diantre, te voilà bien occupé, est-ce que tu es devenu homme de cabinet ?</s>
@@ -316,8 +317,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE II. Les acteurs précédents, Le portier.</head>
-<sp stage="give" who="LE PORTIER"><speaker>LE PORTIER, en remettant une lettre à Monsieur Villiers.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE II.</head><stage> Les acteurs précédents, Le portier.
+</stage>
+<sp who="LE PORTIER"><speaker>LE PORTIER</speaker><stage type="give">, en remettant une lettre à Monsieur Villiers.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, voilà une lettre de la poste.</s>
 </p>
@@ -333,7 +336,8 @@
 	<s id="1">Oui.</s>
 </p>
 </sp>
-<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON, au Portier.</speaker>
+<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON</speaker><stage>, au Portier.
+</stage>
 <p id="4">
 	<s id="1">Monsieur, si mon oncle vient, un homme d'un certain âge, un peu bossu, vous lui direz que je suis ici.</s>
 </p>	
@@ -358,7 +362,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Villiers, Monsieur Brisson.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Villiers, Monsieur Brisson.
+</stage>
 <sp who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS.</speaker>
 <p id="1">
 	<s id="1">La lettre est en diligence, elle vient de Pontoise où est mon père, chez un de ses amis, elle n'est pas de son écriture, qu'est-ce que cela veut dire ?</s>
@@ -380,7 +385,8 @@
 </p>
 <stage type="faint">Il se trouve mal, et tombe dans un fauteuil évanoui.</stage>
 </sp>
-<sp stage="get/read/low" who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON prend la lettre et lit à voix basse.</speaker>
+<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON</speaker><stage type="get/read/low"> prend la lettre et lit à voix basse.
+</stage>
 <p id="5">
 	<s id="1">« Je suis obligé, Monsieur, de vous mettre le poignard dans le coeur ; votre père est mort hier au soir chez moi, d'un coup de sang ; je l'ai reçu entre mes bras, où il est tombé en me parlant. </s>
 	<s id="2">Je sens toute votre douleur, je voudrais la diminuer en vain ; ce sont de terribles coups, il n'y a que Dieu et le temps qui puisse les adoucir.</s>
@@ -389,7 +395,8 @@
 	<s id="1">J'ai l'honneur d'être...</s>
 </p>
 </sp>
-<sp stage="awake/cry" who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS, tout en larmes, revenu de son évanouissement.</speaker>
+<sp who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS</speaker><stage type="awake/cry">, tout en larmes, revenu de son évanouissement.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon cher ami, quel malheur ! </s>
@@ -399,18 +406,21 @@
 	<s id="6">Ah ! bon-Dieu.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON, l'embrasse.</speaker>
+<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON</speaker><stage type="kiss">, l'embrasse.
+</stage>
 <p id="8">
 	<s id="1">Eh bien, mon cher ami, il ne faut pas te désespérer, tu es jeune, tu as bonne volonté, tu as des amis, ton père en avait, était estimé tu trouveras des ressources.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS. ( Impromptu ).</speaker>
+<sp who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS.</speaker><stage type="impromptu"> ( Impromptu ).
+</stage>
 <p id="9">
 	<s id="1">Non, mon ami, un jeune homme..., à mon âge entouré d'écueils, quelle confiance puis-je inspirer ? Je ne vois que la misère, ou un travail mesquin, obscur et dégoûtant, pour m'en tirer... encore...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les acteurs précédents, Monsieur Deslandes, Oncle de Monsieur Brisson.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les acteurs précédents, Monsieur Deslandes, Oncle de Monsieur Brisson.
+</stage>
 <sp who="MONSIEUR DESLANDES"><speaker>MONSIEUR DESLANDES.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -424,7 +434,8 @@
 	<s id="2">Monsieur, vous me voyez dans un cruel moment.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON, à son oncle.</speaker>
+<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON</speaker><stage type="toward">, à son oncle.
+</stage>
 <p id="3">
 	<s id="1">Son père vient de mourir subitement à la campagne. </s>
 </p>
@@ -440,7 +451,8 @@
 	<s id="3">Qu'est-ce que la vie !</s>
 </p>
 </sp>
-<sp stage="cry" who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS, sanglotant.</speaker>
+<sp who="MONSIEUR VILLIERS"><speaker>MONSIEUR VILLIERS</speaker><stage type="cry">, sanglotant.
+</stage>
 <p id="6">
 	<s id="1">C'est une chose affreuse, quand on y essuie de pareils chagrins... </s>
 	<s id="2">Messieurs, ah ! </s>
@@ -509,12 +521,14 @@
 	<s id="2">Monsieur, je suis bien disposé à profiter de vos avis, mais je doute fort que ni vous, ni le temps, puissiez venir à bout de me faire changer la raisonnable, et je pourrais dire la sainte idée de retraite que je viens de projeter.</s>
 </p>
 </sp>
-<sp stage="exit" who="MONSIEUR DESLANDES"><speaker>MONSIEUR DESLANDES, en sortant.</speaker>
+<sp who="MONSIEUR DESLANDES"><speaker>MONSIEUR DESLANDES</speaker><stage type="exit">, en sortant.
+</stage>
 <p id="18">
 	<s id="1">Nous verrons, nous verrons.</s>
 </p>
 </sp>
-<sp stage="get" who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON, prend par le bras Monsieur Villiers.</speaker>
+<sp who="MONSIEUR BRISSON"><speaker>MONSIEUR BRISSON</speaker><stage type="get">, prend par le bras Monsieur Villiers.
+</stage>
 <p id="19">
 	<s id="1">Allons, viens, mon ami.</s>
 </p>

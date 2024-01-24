@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,26 +29,27 @@
 			<titlePart type="main">ROSE ET ROSETTE</titlePart>
 			<titlePart type="sub">COMÉDIE.</titlePart>
 		</docTitle> 
-		<docDate value='1889'>1889</docDate>
-		<docAuthor id='CARCASSONNE, Adolphe'>Adolphe CARCASSONNE.</docAuthor>
+		<docDate value="1889">1889</docDate>
+		<docAuthor id="CARCASSONNE, Adolphe">Adolphe CARCASSONNE.</docAuthor>
 		<docImprint>
-			<editor id='MARPON, FLAMMARION'>PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
+			<editor id="MARPON, FLAMMARION">PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ROSE" sex="2" type="H" statut="enfant" age='E' stat_amour='(néant)'>ROSE</role>, 7 ans.</castItem>
-		<castItem><role id="ROSETTE" sex="2" type="H" statut="enfant" age='E' stat_amour='(néant)'>ROSETTE</role>, 7 ans.</castItem>
-		<castItem><role id="MADAME DE LANCY" sex="2" type="H" statut="aristocrate" age='E' stat_amour='(néant)'>MADAME DE LANCY</role>, mère de Rose.</castItem>
+		<castItem><role id="ROSE" sex="2" type="H" statut="enfant" age="E" stat_amour="(néant)">ROSE</role>, 7 ans.</castItem>
+		<castItem><role id="ROSETTE" sex="2" type="H" statut="enfant" age="E" stat_amour="(néant)">ROSETTE</role>, 7 ans.</castItem>
+		<castItem><role id="MADAME DE LANCY" sex="2" type="H" statut="aristocrate" age="E" stat_amour="(néant)">MADAME DE LANCY</role>, mère de Rose.</castItem>
    </castList>
-	<set location='À la campagne' country='France' periode='XIXème' gps=""></set>
+	<set location="À la campagne" country="France" periode="XIXème" gps=""/>
 <note>Extrait de "Nouveau Théâtre d'enfants, Dix pièces en prose, à jouer dans les familles et dans les pensionnats, Paris, Marpon et Flammarion, Le Jay Libraires, 1889. pp. 193-210.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ROSE ET ROSETTE</head>
 <stage type="decor">Un petit salon chez Madame de Lancy. Porte au fond et a gauche. Un guéridon au milieu. Fauteuils.</stage>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="entrance/carry">Au lever du rideau, Rose est en scène. Rosette entre par le fond avec un bouquet à la main.</stage>
-<sp who="ROSETTE"><speaker>ROSETTE, présentant le bouquet;</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage>, présentant le bouquet;
+</stage>
 <p id="1">
 	<s id="1">Je viens vous souhaiter une bonne fête et vous offrir ce petit bouquet pour Maman et pour moi.</s>
 </p>
@@ -155,7 +156,8 @@
 	<s id="2">La bise qui passe sur les ponts de Paris est un zéphir auprès de ces coups de vent qui vous mettent les robes sur la tête.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="ROSETTE"><speaker>ROSETTE, interrompant</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="interrupt">, interrompant
+</stage>
 <p id="23">
 	<s id="1">Oh ! </s>
 	<s id="2">Les robes sur la tête ! </s>
@@ -212,7 +214,8 @@
 	<s id="1">- Le genre m'importe peu, mais je n'aime pas la musique de qui n'aime pas mon pays.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="ROSETTE"><speaker>ROSETTE, interrompant encore.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="interrupt">, interrompant encore.
+</stage>
 <p id="36">
 	<s id="1">C'est très bien, ça.</s>
 </p>
@@ -336,7 +339,8 @@
 	<s id="1">Dis-moi, de tous ces cadeaux quel est celui que tu aimes le plus ?</s>
 </p>
 </sp>
-<sp stage="show" who="ROSETTE"><speaker>ROSETTE, montrant la poupée.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="show">, montrant la poupée.
+</stage>
 <p id="63">
 	<s id="1">Celui-là.</s>
 </p>
@@ -387,7 +391,8 @@
 	<s id="2">Oui.</s>
 </p>
 </sp>
-<sp stage="get/location" who="ROSE"><speaker>ROSE, prenant la poupée sur le guéridon.</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="get/location">, prenant la poupée sur le guéridon.
+</stage>
 <p id="73">
 	<s id="1">Si tu la sauves, elle deviendra ta petite fille et elle restera avec toi. </s>
 	<s id="2">Le veux-tu ?</s>
@@ -405,7 +410,8 @@
 </p>
 <stage type="drop/location">Elle met la poupée dans les bras de Rosette</stage>
 </sp>
-<sp stage="toward" who="ROSETTE"><speaker>ROSETTE, à la poupée.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="toward">, à la poupée.
+</stage>
 <p id="76">
 	<s id="1">Je t'aime déjà, ma chérie. </s>
 	<s id="2">Je vais bien te soigner pour que tu sois vite guérie et que nous puissions venir revoir mademoiselle_Rose.</s>
@@ -450,7 +456,8 @@
 	<s id="2">Aujourd'hui même, je remplacerai l'une et l'autre à ma chère Rose.</s>
 </p>
 </sp>
-<sp stage="clap" who="ROSETTE"><speaker>ROSETTE, frappant des mains.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="clap">, frappant des mains.
+</stage>
 <p id="83">
 	<s id="1">Alors, j'accepte ! </s>
 	<s id="2">Oh ! </s>

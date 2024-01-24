@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -31,7 +31,7 @@
 		<titlePart type="sub">Représentée pour le première fois par les Comédiens Français ordinaires du roi, le 25 juin 1750.</titlePart>	</docTitle>
 
 	<docDate value="1751">M. DCC. LI. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id="GRAFFIGNY, Françoise de"></docAuthor>
+		<docAuthor id="GRAFFIGNY, Françoise de"/>
 	<docImprint>
 		<approbation><head>APPROBATION.</head>
 			<p>J'ai lu par ordre de Monseigneur le Chancelier, un Manuscrit qui a pour titre : Cénie , Pièce en cinq actes. Fait à Paris, ce premier Octobre 1750.</p>
@@ -51,20 +51,21 @@
 			<p>D'HAPPONCOURT DE GRAFIGNY.</p>
 		</div>
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="DORIMOND" sex="1" type="H" statut="aristocrate" age='V' stat_amour=''>DORIMOND</role>, Vieillard. M. Sarrasin.</castItem>
-		<castItem><role id="MÉRICOURT" sex="1" type="H" statut="aristocrate" age='J' stat_amour=''>MÉRICOURT</role>, neveu de Dorimond. M. Rosélie.</castItem>
-		<castItem><role id="CLERVAL" sex="1" type="H" statut="aristocrate" age='J' stat_amour=''>CLERVAL</role>, neveu de Dorimond. M. Grandval.</castItem>
-		<castItem><role id="CÉNIE" sex="2" type="H" statut="aristocrate" age='J' stat_amour=''>CÉNIE</role>. Mademoiselle de Gaussin.</castItem>
-		<castItem><role id="ORPHISE" sex="2" type="H" statut="aristocrate" age='A' stat_amour=''>ORPHISE</role>, Gouvernante de Cénie. Melle Dumesnil.</castItem>
-		<castItem><role id="LISETTE" sex="2" type="H" statut="suivante" age='A' stat_amour=''>LISETTE</role>, suivante de Cénie. Melle Gautier.</castItem>
-		<castItem><role id="DORSAINVILLE" sex="1" type="H" statut="aristocrate" age='A' stat_amour=''>DORSAINVILLE</role>, amis de Clerval. M. Lanoue.</castItem>
+		<castItem><role id="DORIMOND" sex="1" type="H" statut="aristocrate" age="V" stat_amour="">DORIMOND</role>, Vieillard. M. Sarrasin.</castItem>
+		<castItem><role id="MÉRICOURT" sex="1" type="H" statut="aristocrate" age="J" stat_amour="">MÉRICOURT</role>, neveu de Dorimond. M. Rosélie.</castItem>
+		<castItem><role id="CLERVAL" sex="1" type="H" statut="aristocrate" age="J" stat_amour="">CLERVAL</role>, neveu de Dorimond. M. Grandval.</castItem>
+		<castItem><role id="CÉNIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="">CÉNIE</role>. Mademoiselle de Gaussin.</castItem>
+		<castItem><role id="ORPHISE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">ORPHISE</role>, Gouvernante de Cénie. Melle Dumesnil.</castItem>
+		<castItem><role id="LISETTE" sex="2" type="H" statut="suivante" age="A" stat_amour="">LISETTE</role>, suivante de Cénie. Melle Gautier.</castItem>
+		<castItem><role id="DORSAINVILLE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="">DORSAINVILLE</role>, amis de Clerval. M. Lanoue.</castItem>
 	</castList>
-	<set location="Campagne" country='France' periode='XVIIIème' gps="(N/A)">La scène est dans la Galerie de la maison de Dorimond.</set>
+	<set location="Campagne" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans la Galerie de la maison de Dorimond.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Méricourt me ferait-il échappé ? </s>
 	<s id="2">J'ai cru le voir prendre le chemin de cette galerie. </s>
@@ -73,7 +74,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Méricourt, Lisette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Méricourt, Lisette.
+</stage>
 <sp who="MÉRICOURT"><speaker>MÉRICOURT.</speaker>
 <p id="1">
 	<s id="1">Quoi ! </s>
@@ -373,7 +375,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorimond, Méricourt.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorimond, Méricourt.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">Je ne saurais me passer de te voir, mon cher neveu ; je t'ai quitté pour me remettre du saisissement que m'a causé notre première entrevue ; je te cherche à présent, hélas ! </s>
@@ -616,7 +619,8 @@
 </sp>
 </div2>
 <div2 type="scene" n=""><head>SCÈNE IV. </head>
-<sp stage="alone" who="MÉRICOURT"><speaker>MÉRICOURT, seul.</speaker>
+<sp who="MÉRICOURT"><speaker>MÉRICOURT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Voilà, Dieu merci, mes affaires vont bon train. </s>
 	<s id="2">Mais Dorimont est si facile...</s>
@@ -628,7 +632,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Méricourt, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Méricourt, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Monsieur, j'ai vu sortir Dorimond : comment vont vos affaires ?</s>
@@ -790,7 +795,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Lisette, Dorsainville.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Lisette, Dorsainville.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Avancez, je suis seule à présent.</s>
@@ -848,14 +854,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="DORSAINVILLE"><speaker>DORSAINVILLE, seul.</speaker>
+<sp who="DORSAINVILLE"><speaker>DORSAINVILLE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Que l'infortune a de détails, qui ne sont connus que des malheureux : </s>
 	<s id="2">On soutient avec fermeté un revers éclatant : le courage s'affaisse sous le mépris de ceux même que l'on méprise. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Dorsainville, Clerval.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Dorsainville, Clerval.
+</stage>
 <sp who="CLERVAL"><speaker>CLERVAL.</speaker>
 <p id="1">
 	<s id="1">Je vous ai fait chercher avec le plus grand empressement ; je vis hier au soir le Ministre, votre grâce est assurée.</s>
@@ -999,7 +1007,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cénie, Orphise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cénie, Orphise.
+</stage>
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 <p id="1">
 	<s id="1">Qu'avez-vous, Cénie ? </s>
@@ -1316,7 +1325,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Orphise, Clerval.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Orphise, Clerval.
+</stage>
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 <p id="1">
 	<s id="1">Demeurez un moment, Monsieur, j'ai à vous parler de la part de Cénie.</s>
@@ -1452,8 +1462,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorimond, Orphise, Lisette Clerval.</head>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Dorimond.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorimond, Orphise, Lisette Clerval.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Dorimond.
+</stage>
 <p id="1">
 	<s id="1">Le voilà, Monsieur; je savais bien qu'il devait être ici</s>
 </p>
@@ -1488,12 +1500,14 @@
 	<s id="1">Non, Monsieur ; mais dans peu je vous ferai connaître le plus honnête homme, et le plus infortuné des amis.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Tout est perdu ; des amis, des malheurs : nous ne tenons pas contre tout cela.</s>
 </p>
 </sp>
-<sp stage="toward" who="DORIMOND"><speaker>DORIMOND, à Clerval.</speaker>
+<sp who="DORIMOND"><speaker>DORIMOND</speaker><stage type="toward">, à Clerval.
+</stage>
 <p id="9">
 	<s id="1">Un ami que l'on ose avouer est toujours fort suspect. </s>
 	<s id="2">Je sais des choses là-dessus...</s>
@@ -1602,7 +1616,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Orphise, Lisette.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Orphise, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Je ne reviens point de la la surprise que me cause la mauvaise humeur de Dorimond ! </s>
@@ -1657,12 +1672,13 @@
 	<s id="3">Une jeune personne, en épousant un homme âgé, devient une femme intéressante. </s>
 	<s id="4">Pour peu que sa conduite soit régulière, on la plaint, en l'admire, elle acquiert du mérite, ses charmes s'embellissent de la décrépitude de son mari.; </s>
 	<s id="5">Il meurt : eût-elle quarante ans, c'est une jeune veuve. </s>
-	<s id="6 La caducité "></s>
+	<s id="6 La caducité "/>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ORPHISE"><speaker>ORPHISE, seule.</speaker>
+<sp who="ORPHISE"><speaker>ORPHISE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">C'est donc, pour mettre le comble à mon abaissement, que Dorimond devient injuste ? </s>
 	<s id="2">Hélas ! </s>
@@ -1681,7 +1697,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dorimond, Méricourt.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dorimond, Méricourt.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">J'en suis pour le moins aussi fâché que toi; mais il n'y faut plus penser.</s>
@@ -1874,7 +1891,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="MÉRICOURT"><speaker>MÉRICOURT, seul.</speaker>
+<sp who="MÉRICOURT"><speaker>MÉRICOURT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Voici donc le moment décisif. </s>
 	<s id="2">Je n'ai plus rien à ménager... </s>
@@ -1882,7 +1900,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Méricourt, Cénie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Méricourt, Cénie.
+</stage>
 <sp who="CÉNIE"><speaker>CÉNIE.</speaker>
 <p id="1">
 	<s id="1">On m'avait dit que mon père me demandait ?</s>
@@ -1941,7 +1960,8 @@
 	<s id="1">Celui de rompre une entretien aussi fâcheux pour l'un que pour l'autre.</s>
 </p>
 </sp>
-<sp stage="pull" who="MÉRICOURT"><speaker>MÉRICOURT, la retenant par le bras.</speaker>
+<sp who="MÉRICOURT"><speaker>MÉRICOURT</speaker><stage type="pull">, la retenant par le bras.
+</stage>
 <p id="12">
 	<s id="1">Non, non : il faut que ce moment décide de votre sort.</s>
 </p>
@@ -1988,7 +2008,8 @@
 	<s id="6">Pardonnez...</s>
 </p>
 </sp>
-<sp stage="faint" who="CÉNIE"><speaker>CÉNIE, tombe évanouie.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="faint">, tombe évanouie.
+</stage>
 <p id="22">
 	<s id="1">Je meurs.</s>
 </p>
@@ -2011,7 +2032,8 @@
 	<s id="1">Mon malheur n'est que trop certain.</s>
 </p>
 </sp>
-<sp who="MÉRICOURT"><speaker>MÉRICOURT, reprend la lettre.</speaker>
+<sp who="MÉRICOURT"><speaker>MÉRICOURT</speaker><stage>, reprend la lettre.
+</stage>
 <p id="25">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Quels sont à présent vos sentiments !</s>
@@ -2080,7 +2102,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Cénie, Clerval.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Cénie, Clerval.
+</stage>
 <sp who="CLERVAL"><speaker>CLERVAL.</speaker>
 <p id="1">
 	<s id="1">Cénie, vous pleurez ! </s>
@@ -2230,7 +2253,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Cénie, Dorsainville, Clerval.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Cénie, Dorsainville, Clerval.
+</stage>
 <sp who="DORSAINVILLE"><speaker>DORSAINVILLE.</speaker>
 <p id="1">
 	<s id="1">Ami, partagez mon transport : ma femme n'est point morte, et je puis espérer... </s>
@@ -2238,7 +2262,8 @@
 	<s id="3">Je fais une imprudence.</s>
 </p>
 </sp>
-<sp stage="toward" who="CÉNIE"><speaker>CÉNIE, à Dorsainville.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="toward">, à Dorsainville.
+</stage>
 <p id="2">
 	<s id="1">Monsieur, vous ne pouviez venir plus à propos. </s>
 	<s id="2">Je crois reconnaître en vous cet ami de Clerval, dont il m'a conté les malheurs ; ils m'ont touchée, ils doivent vous rendre sensible à ceux des autres. </s>
@@ -2249,7 +2274,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. Dorsainville, Clerval.</head>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> Dorsainville, Clerval.
+</stage>
 <sp who="DORSAINVILLE"><speaker>DORSAINVILLE.</speaker>
 <p id="1">
 	<s id="1">Cher ami, pardonnez mon indiscrétion ; je ne sans plus que votre peine. </s>
@@ -2281,7 +2307,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cénie, Orphise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cénie, Orphise.
+</stage>
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 <p id="1">
 	<s id="1">Oui, je vous attendais. </s>
@@ -2401,7 +2428,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Cénie, Orphise, Dorimond.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Cénie, Orphise, Dorimond.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">Tu m'abandonnes à ma douleur, ma chère Cénie ; viens donc ma rassurer contre l'imposture. </s>
@@ -2487,7 +2515,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Cénie, Orphise, Dorimond, M2ricourt.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Cénie, Orphise, Dorimond, M2ricourt.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">Approchez : venez, s'il se peut, détruire le soupçon d'en forfait dont je ne saurais vous croire le complice.</s>
@@ -2536,7 +2565,8 @@
 	<s id="2">Apprenez donc qu'elle n'est point votre fille ; Mélisse pressée de ses remords, rend dans cette lettre un témoignage authentique à la vérité. </s>
 </p>
 </sp>
-<sp stage="read" who="DORIMOND"><speaker>DORIMOND, après avoir lu bas.</speaker>
+<sp who="DORIMOND"><speaker>DORIMOND</speaker><stage type="read">, après avoir lu bas.
+</stage>
 <p id="10">
 	<s id="1">Qu'ai-je lu ? </s>
 	<s id="2">Se peut-il que tant d'horreurs ? </s>
@@ -2642,14 +2672,16 @@
 	<s id="3">Cette lettre est pour Mademoiselle ; mais vous pouvez la lire.</s>
 </p>
 </sp>
-<sp stage="read" who="DORIMOND"><speaker>DORIMOND, lit.</speaker>
+<sp who="DORIMOND"><speaker>DORIMOND</speaker><stage type="read">, lit.
+</stage>
 <p id="26">
 	<s id="1">« Ce n'est pas sans pitié que je vous révèle votre naissance : mais je touche au moment de la vérité. Vote mère vous croit morte, et son erreur assurait encore mon secret ; vous pouvez l'en instruire. </s>
 	<s id="2">Informée de l'extrême misère où elle était réduit, je l'en tirai pour vous servir de Gouvernante. </s>
 	<s id="3">C'est dans ses mains que je vous remets. »</s>
 </p>
 </sp>
-<sp stage="hugh" who="CÉNIE"><speaker>CÉNIE,dans les bras de sa mère.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="hugh">,dans les bras de sa mère.
+</stage>
 <p id="27">
 	<s id="1">Vous êtes ma mère ! </s>
 	<s id="2">Mes malheurs sont finis.</s>
@@ -2690,7 +2722,8 @@
 	<s id="3">Je me meurs.</s>
 </p>
 </sp>
-<sp stage="run/closer" who="CÉNIE"><speaker>CÉNIE, courant à Dorimond.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="run/closer">, courant à Dorimond.
+</stage>
 <p id="34">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur...</s>
@@ -2702,7 +2735,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Cénie, Orphise.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Cénie, Orphise.
+</stage>
 <sp who="CÉNIE"><speaker>CÉNIE.</speaker>
 <p id="1">
 	<s id="1">Ma mère, ayez pitié de moi, le courage m'abandonne, je ne saurais supporter le mépris.</s>
@@ -2762,7 +2796,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Orphise, Clerval. </head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Orphise, Clerval. 
+</stage>
 <sp who="CLERVAL"><speaker>CLERVAL.</speaker>
 <p id="1">
 	<s id="1">Ah, Madame ! </s>
@@ -2905,7 +2940,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clerval, Dorsainville.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clerval, Dorsainville.
+</stage>
 <sp who="DORSAINVILLE"><speaker>DORSAINVILLE.</speaker>
 <p id="1">
 	<s id="1">Reposez vous sur moi : j'aurai soin de tout.</s>
@@ -3113,7 +3149,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dorimond, Clerval.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dorimond, Clerval.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">Clerval ; elle se prépare à partir ! </s>
@@ -3285,7 +3322,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dorimond, Clerval, Cénie, Orphise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dorimond, Clerval, Cénie, Orphise.
+</stage>
 <sp who="CÉNIE"><speaker>CÉNIE.</speaker>
 <p id="1">
 	<s id="1">C'est à vos genoux, Monsieur, que je viens vous rendre grâces à tant de bienfaits. </s>
@@ -3297,7 +3335,8 @@
 	<s id="1">Je m'arrache à moi-même en me séparant de toi, et je suis pas moins à plaindre.</s>
 </p>
 </sp>
-<sp who="CLERVAL"><speaker>CLERVAL, qui a parlé bas à Orphise.</speaker>
+<sp who="CLERVAL"><speaker>CLERVAL</speaker><stage>, qui a parlé bas à Orphise.
+</stage>
 <p id="3">
 	<s id="1">Non, Madame : vous n'êtes point ce que vous voulez paraître ; dites un mot, vous assurez mon bonheur.</s>
 </p>
@@ -3382,13 +3421,15 @@
 	<s id="2">Daignez les abréger.</s>
 </p>
 </sp>
-<sp stage="despite" who="CLERVAL"><speaker>CLERVAL, avez dépit.</speaker>
+<sp who="CLERVAL"><speaker>CLERVAL</speaker><stage type="despite">, avez dépit.
+</stage>
 <p id="17">
 	<s id="1">Oui ; Madame, oui : vous serez obéie.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dorimond Orphise Cénie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dorimond Orphise Cénie.
+</stage>
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 <p id="1">
 	<s id="1">Je vois que mes refus vous offensent, Monsieur. </s>
@@ -3412,7 +3453,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Orphine, Cénie, Dorimond, Clerval, Dorsainville.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Orphine, Cénie, Dorimond, Clerval, Dorsainville.
+</stage>
 <sp who="DORIMOND"><speaker>DORIMOND.</speaker>
 <p id="1">
 	<s id="1">Clerval : te voilà déjà ! </s>
@@ -3484,7 +3526,8 @@
 	<s id="1">Adieu, Clerval.</s>
 </p>
 </sp>
-<sp stage="touch" who="CLERVAL"><speaker>CLERVAL, prenant avec transport le main de Cénie.</speaker>
+<sp who="CLERVAL"><speaker>CLERVAL</speaker><stage type="touch">, prenant avec transport le main de Cénie.
+</stage>
 <p id="13">
 	<s id="1">Ami, donnez la mains à Madame.</s>
 </p>

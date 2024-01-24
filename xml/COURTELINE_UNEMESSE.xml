@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,22 +28,22 @@
 		<docTitle>
 			<titlePart type="main">UNE MESSE</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="CHICHINETTE" sex="1" type="H" statut="libraire" age='A' stat_amour='néant'>CHICHINETTE</role>.</castItem>
-			<castItem><role id="LE BEDEAU" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE BEDEAU</role>.</castItem>
+			<castItem><role id="CHICHINETTE" sex="1" type="H" statut="libraire" age="A" stat_amour="néant">CHICHINETTE</role>.</castItem>
+			<castItem><role id="LE BEDEAU" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BEDEAU</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">À Sainte-Claire du Quartier Bréda.</set>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 57-63</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UNE MESSE</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="CHINCHINETTE"><speaker>CHINCHINETTE.</speaker>
 <p id="1">
 	<s id="1">Monsieur le bedeau !</s>
@@ -231,7 +231,8 @@
 	<s id="2">Parce que voilà, je vais ouvrir, rue_de_Navarin, un petit magasin de parfumerie.</s>
 </p>
 </sp>
-<sp stage="strong" who="LE BEDEAU"><speaker>LE BEDEAU, très sec.</speaker>
+<sp who="LE BEDEAU"><speaker>LE BEDEAU</speaker><stage type="strong">, très sec.
+</stage>
 <p id="35">
 	<s id="1">Il n'y a pas de messes pour ces choses-là.</s>
 </p>

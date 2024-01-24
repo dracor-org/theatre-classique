@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,24 +30,26 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">VINGT HUITIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1783'>M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1783">M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='POINÇOT'>À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
+			<printer id="POINÇOT">À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquis' age='A' stat_amour='(néant)'>LA MARQUISE</role>, coiffée ... habillée, un éventail à la main.</castItem>
-		<castItem><role id="LE COMTE" sex="1" type="H" statut='comte' age='A' stat_amour='(néant)'>LE COMTE</role>, en habit d'été, riche.</castItem>
-		<castItem><role id="LE CHEVALIER" sex="1" type="H" statut='chevalier' age='A' stat_amour='(néant)'>LE CHEVALIER</role>, en habit vert, brodé, avec une veste brodée au tambour.</castItem>
-		<castItem><role id="ÉMILIE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='(néant)'>ÉMILIE</role>, femme-de-Chambre de la Marquise. En Femme-de-Chambre.</castItem>
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="(néant)">LA MARQUISE</role>, coiffée ... habillée, un éventail à la main.</castItem>
+		<castItem><role id="LE COMTE" sex="1" type="H" statut="comte" age="A" stat_amour="(néant)">LE COMTE</role>, en habit d'été, riche.</castItem>
+		<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour="(néant)">LE CHEVALIER</role>, en habit vert, brodé, avec une veste brodée au tambour.</castItem>
+		<castItem><role id="ÉMILIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="(néant)">ÉMILIE</role>, femme-de-Chambre de la Marquise. En Femme-de-Chambre.</castItem>
    </castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La Scène est chez la Marquise, dans le Salon.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez la Marquise, dans le Salon.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome Second, Versailles, 1783. pp. 191-214.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA VESTE BRODÉE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Marquise, Le Comte.</head>
-<sp stage="toward/touch" who="LA MARQUISE"><speaker>LA MARQUISE, au Comte, qui lui donne la main.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Marquise, Le Comte.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward/touch">, au Comte, qui lui donne la main.
+</stage>
 <p id="1">
 	<s id="1">C'est inconcevable, que le temps ait changé comme cela, d'un moment à l'autre !</s>
 </p>
@@ -260,7 +262,8 @@
 	<s id="1">Commencez seulement.</s>
 </p>
 </sp>
-<sp stage="search" who="LE COMTE"><speaker>LE COMTE, cherchant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="search">, cherchant.
+</stage>
 <p id="41">
 	<s id="1">Mais, par exemple... </s>
 	<s id="2">Si vous vous occupiez de moi...</s>
@@ -294,7 +297,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Marquise, Le Comte, Émilie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Marquise, Le Comte, Émilie.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Madame a sonné ?</s>
@@ -354,7 +358,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, Émilie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, Émilie.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Elle a juré ma perte, je n'en saurais douter.</s>
@@ -444,7 +449,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Chevalier, Émilie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Chevalier, Émilie.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Bonjour, ma chère Émilie. </s>
@@ -499,7 +505,8 @@
 	<s id="1">Monsieur_le_Comte et elle sont brouillés.</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER"><speaker>LE CHEVALIER, avec joie.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage>, avec joie.
+</stage>
 <p id="11">
 	<s id="1">Tant_mieux.</s>
 </p>
@@ -596,7 +603,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Marquise, Le Comte, Le Chevalier, Émilie.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Marquise, Le Comte, Le Chevalier, Émilie.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Monsieur_le_Chevalier, je vous souhaite le bon soir.</s>
@@ -607,7 +615,8 @@
 	<s id="1">Monsieur_le_Comte, je suis bien votre serviteur.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, à Émilie.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, à Émilie.
+</stage>
 <p id="3">
 	<s id="1">Est-elle toujours bien en colère contre moi ?</s>
 </p>
@@ -638,7 +647,8 @@
 </p>
 <stage type="exit">Elle s'en va.</stage>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, la suivant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, la suivant.
+</stage>
 <p id="9">
 	<s id="1">Vous seule pouvez me rendre la vie dans ce moment.</s>
 </p>
@@ -648,7 +658,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Comte, Le Chevalier.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Comte, Le Chevalier.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Vous avez l'air bien occupé aujourd'hui.</s>
@@ -674,7 +685,8 @@
 	<s id="1">Oui, vous vous jetez dans les grandes passions, vous ; et cela vous réussit bien ; pour moi, qui suis malheureux, toujours mal traité ; ma foi j'y ai renoncé.</s>
 </p>
 </sp>
-<sp stage="think/watch" who="LE COMTE"><speaker>LE COMTE, avec distraction, regardant la veste du Chevalier.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="think/watch">, avec distraction, regardant la veste du Chevalier.
+</stage>
 <p id="6">
 	<s id="1">Cela peut être... </s>
 	<s id="2">Vous avez là une jolie veste.</s>
@@ -735,20 +747,24 @@
 	<s id="1">Non, ce n'est pas cela ; je ne fais jamais de mystère moi, je ne l'aime pas.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">C'est elle-même. </s>
 	<s id="2">Peut-on être traité aussi cruellement !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="">Cela réussit à merveilles.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Marquise, Le Comte, Le Chevalier, Émilie.</head>
-<sp stage="happy" who="LA MARQUISE"><speaker>LA MARQUISE, gaiement.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Marquise, Le Comte, Le Chevalier, Émilie.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="1">
 	<s id="1">Il y a longtemps que vous êtes ici, Chevalier, à ce qu'on me vient de dire ?</s>
 </p>
@@ -758,7 +774,8 @@
 	<s id="1">Oui, Madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, au Comte.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, au Comte.
+</stage>
 <p id="3">
 	<s id="1">Hé bien, Monsieur, êtes-vous toujours aussi extravagant ?</s>
 </p>
@@ -855,7 +872,8 @@
 	<s id="1">Non, Monsieur, il faut que vous le voyez, vous le voulez, vous serez content.</s>
 </p>
 </sp>
-<sp stage="surprise" who="LE COMTE"><speaker>LE COMTE, surpris.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="surprise">, surpris.
+</stage>
 <p id="22">
 	<s id="1">Mais... </s>
 </p>
@@ -876,7 +894,8 @@
 	<s id="1">Mais, comme vous êtes un homme juste, raisonnable, je ne veux pas que vous m'ayez soupçonné à tort ; cette Veste était pour vous ; vous avez crû que je l'avais donnée au Chevalier ; je n'ai pu vous persuader qu'en vous la montrant ; je ne veux plus que vous puissiez vous tromper ; elle est à lui ; je la lui donne ; ... je ne veux plus vous revoir.</s>
 </p>
 </sp>
-<sp stage="desperate" who="LE COMTE"><speaker>LE COMTE, désespéré.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="desperate">, désespéré.
+</stage>
 <p id="26">
 	<s id="1">Ah, Madame !...</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,15 +29,15 @@
 			<titlePart type="main">L'ÉMERAUDE</titlePart>
 			<titlePart type="sub">Représentée pour le première fois le 8 novembre 1877.</titlePart>
 		</docTitle> 
-		<docDate value='1884'>1884</docDate>
+		<docDate value="1884">1884</docDate>
 		<docAuthor id="CARRANCE, Évariste">ÉVARISTE CARRANCE</docAuthor>
 		<docImprint>
 			<editor id="MASSON">AGEN, LIBRAIRIE DU COMITÉ POÉTIQUE ET DE LA REVUE FRANÇAISE, 6, rue du saumon, 8</editor>
 			<printer id="LENTHERIC">AGEN, V. LENTHERIC, Juin 1890.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE COMTE DE FRÉRY" sex="1" type="H" statut="comte" age='A' stat_amour='néant'>LE COMTE DE FRÉRY</role>, M. Maxime.</castItem>
-			<castItem><role id="LA COMTESSE MARGUERITEDE FRÉRY" sex="2" type="H" statut="comte" age='A' stat_amour='néant'>LA COMTESSE MARGUERITE DE FRÉRY</role>, Mme Maxime.</castItem>
+			<castItem><role id="LE COMTE DE FRÉRY" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE DE FRÉRY</role>, M. Maxime.</castItem>
+			<castItem><role id="LA COMTESSE MARGUERITEDE FRÉRY" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE MARGUERITE DE FRÉRY</role>, Mme Maxime.</castItem>
 	</castList>
 	<set location="France" country="France" periode="XIXème" gps="">La scène se passe à Paris</set>
 	<note>Texte extrait de "Théâtre complet de Évariste Carrance".- Agen : Librairie du comité poétique et de la revue française. pp 205-233.</note>
@@ -72,7 +72,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, Le Comte.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, Le Comte.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Quel motif puissant vous oblige à vous éloigner de nous, ma bonne Marguerite ?</s>
@@ -100,7 +101,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">Cet amour qu'un de vos sourires a fait éclore, est grand comme l'univers.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Oh ! </s>
 	<s id="2">Cet aveu, je n'ose le faire... et cependant, il le faut !...</s>
@@ -162,7 +164,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="surprise" who="LE COMTE"><speaker>LE COMTE, surpris.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="surprise">, surpris.
+</stage>
 <p id="1">
 	<s id="1">Je vous en supplie ! </s>
 	<s id="2">Restez! </s>
@@ -273,14 +276,16 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Comtesse, Le Comte.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Comtesse, Le Comte.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Madame, je bénis le hasard qui me fait vous rencontrer. - </s>
 	<s id="2">Je veux en profiter pour vous annoncer mon départ de Paris.</s>
 </p>
 </sp>
-<sp stage="quick" who="LA COMTESSE"><speaker>LA COMTESSE, vivement.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="2">
 	<s id="1">Votre départ !...</s>
 </p>
@@ -320,7 +325,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">C'est l'histoire d'une sombre catastrophe et d'une grande douleur.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, à part.
+</stage>
 <p id="10">
 	<s id="1">Que veut-il dire ?</s>
 </p>
@@ -331,7 +337,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">La fortune, cette grande capricieuse comblait de ses dons un de mes amis ; il aimait une jeune fille, qui semblait par ses vertus et sa beauté lui promettre des jours heureux et faciles ; il caressait cet amour en son coeur, comme un avare caresse un trésor ; il touchait au seuil de la félicité suprême, car la jeune fille l'avait accepté pour époux...</s>
 </p>
 </sp>
-<sp stage="frighten" who="LA COMTESSE"><speaker>LA COMTESSE, avec un frémissement dans la voix.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="frighten">, avec un frémissement dans la voix.
+</stage>
 <p id="12">
 	<s id="1">Oh ! </s>
 	<s id="2">Cette histoire ... achevez-là.</s>
@@ -343,7 +350,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">Mon ami a découvert que l'ange était un démon, et que la jeune fille...</s>
 </p>
 </sp>
-<sp stage="stress" who="LA COMTESSE"><speaker>LA COMTESSE, avec effort.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="stress">, avec effort.
+</stage>
 <p id="14">
 	<s id="1">Le trompait, peut-être ?...</s>
 </p>
@@ -357,12 +365,14 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </p>
 <stage type="location">Il se dirige vers la porte.</stage>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, elle fait un pas vers le Comte.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, elle fait un pas vers le Comte.
+</stage>
 <p id="16">
 	<s id="1">Monsieur, cette jeune fille n'est peut être pas... aussi coupable...</s>
 </p>
 </sp>
-<sp stage="declamate" who="LE COMTE"><speaker>LE COMTE, scandant ses paroles.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="declamate">, scandant ses paroles.
+</stage>
 <p id="17">
 	<s id="1">Restez ! </s>
 	<s id="2">Oh ! </s>
@@ -372,7 +382,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone/desparated" who="LA COMTESSE"><speaker>LA COMTESSE, après être restée un instant comme anéantie.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="alone/desparated">, après être restée un instant comme anéantie.
+</stage>
 <p id="">
 	<s id="1">Oh ! </s>
 	<s id="2">Je sens un abîme se creuser sous mes pieds. </s>
@@ -380,19 +391,22 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Comte, La Comtesse.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Comte, La Comtesse.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">C'est encore moi.</s>
 </p> 
 <stage type="closer">Il s'avance vers la Comtesse.</stage>
 </sp>
-<sp stage="aparte" who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Que ne puis-je l'aimer ?</s>
 </p>
 </sp>
-<sp stage="show" who="LE COMTE"><speaker>LE COMTE, il lui présente les tablettes.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="show">, il lui présente les tablettes.
+</stage>
 <p id="3">
 	<s id="1">J'ai trouvé ces tablettes qui vous appartiennent, Madame.</s>
 </p>
@@ -408,7 +422,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">J'ai lu la première page de ce petit livre.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, d'une voix brisée.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, d'une voix brisée.
+</stage>
 <p id="6">
 	<s id="">Alors, Monsieur, vous me trouvez bien coupable, et vous me jugez bien sévèrement. </s>
 	<s id="2">Oh ! </s>
@@ -422,7 +437,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="3">Maintenant, il est trop tard ; pourquoi m'avez-vous épousé ?</s>
 </p>
 </sp>
-<sp stage="wave" who="LA COMTESSE"><speaker>LA COMTESSE, les mains jointes.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="wave">, les mains jointes.
+</stage>
 <p id="8">
 	<s id="1">Oh ! </s>
 	<s id="2">Pardonnez-moi, Monsieur_le_Comte ; soyez généreux jusqu'à la fin ; vous allez tout savoir !</s>
@@ -457,7 +473,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="2">Je serai votre amie et votre soeur ; nul être au monde n'aura plus d'amitié plus de respect pour vous que je n'en aurai.</s>
 </p>
 </sp>
-<sp stage="stand" who="LE COMTE"><speaker>LE COMTE, il se lève.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="stand">, il se lève.
+</stage>
 <p id="14">
 	<s id="1">L'amitié ! </s>
 	<s id="2">Le respect ! </s>
@@ -489,7 +506,8 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 	<s id="1">Mais celui que vous aimez est donc un être merveilleux, pour que vous ne cherchiez pas, devant moi, votre mari, à déguiser cet amour.</s>
 </p>
 </sp>
-<sp stage="sight" who="LA COMTESSE"><speaker>LA COMTESSE, avec un soupir.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="sight">, avec un soupir.
+</stage>
 <p id="19">
 	<s id="1">Oh ! </s>
 	<s id="2">Oui !</s>
@@ -590,8 +608,11 @@ canapé, et laisse tomber de petites tablettes, sans s'en apercevoir.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Comtesse, Le Comte.</head>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Comtesse, Le Comte.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, elle dépose un coffret sur la table
+Elle dépose un coffret sur la table.
+</stage>
 Elle dépose un coffret sur la table.
 <p id="1">
 	<s id="1">Vous allez m'écouter un instant avec attention, Monsieur_le_Comte ; vous me plaindrez ensuite, car vous comprendrez tout ce que j'ai dû souffrir et tout ce que je souffre encore.</s>
@@ -608,7 +629,8 @@ Elle dépose un coffret sur la table.
 	<s id="1">Il y a six mois que je quittai le couvent.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Elle a fait du chemin depuis. - </s>
 	<s id="2">Oh ! </s>
@@ -630,7 +652,8 @@ Elle dépose un coffret sur la table.
 	<s id="3">Le même soir, il y  avait bal paré et masqué chez la Marquise_d_Arfeuille.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="">Oui, j'étais à ce bal ; - je me souviens.</s>
 </p>
@@ -641,7 +664,8 @@ Elle dépose un coffret sur la table.
 	<s id="2">On me fit abandonner ma modeste robe du couvent, on jeta sur moi un domino, on mit un loup sur mon visage, et l'on m'entraîna...</s>
 </p>
 </sp>
-<sp stage="curious" who="LE COMTE"><speaker>LE COMTE, avec intérêt.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="curious">, avec intérêt.
+</stage>
 <p id="10">
 	<s id="1">Poursuivez, Madame.</s>
 </p>
@@ -651,7 +675,8 @@ Elle dépose un coffret sur la table.
 	<s id="1">Je fus bientôt éblouie, moi, pauvre pensionnaire de couvent, au milieu de cette société curieuse, vêtue d'habits étranges, se livrant à tous les écarts tolérés par une aristocratie indulgente.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Il m'arriva une aventure, cette nuit là.</s>
 </p>
@@ -661,7 +686,8 @@ Elle dépose un coffret sur la table.
 	<s id="1">Je m'étais réfugiée dans l'angle d'un grand salon, toute confuse de me trouver dans le monde, et cherchant à m'en isoler, lorsque je m'aperçus que je n'étais pas seule, et qu'un cavalier vêtu en Marquis me considérait avec attention.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Mais, c'était moi, ce Marquis là ! </s>
 	<s id="2">Où va-t-elle en venir ?</s>
@@ -675,7 +701,8 @@ Elle dépose un coffret sur la table.
 	<s id="4">Sa voix était d'une douceur pénétrante, et son regard, qui lançait des flammes, était toujours rivé sur le mien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="16">
 	<s id="1">C'est toujours moi !</s>
 </p>
@@ -695,7 +722,8 @@ Elle dépose un coffret sur la table.
 	<s id="1">Nous dansâmes ensemble une partie de la nuit ; et, lorsque l'heure de la séparation sonna, je sentis que mon coeur tremblait d'émotion, et qu'une nouvelle vie allait s'ouvrir devant moi. Mon cavalier me tendit une main dans laquelle je mis la mienne sans hésiter.</s>
 </p>
 </sp>
-<sp stage="anger" who="LE COMTE"><speaker>LE COMTE, d'une voix tremblante.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="anger">, d'une voix tremblante.
+</stage>
 <p id="20">
 	<s id="1">Et alors... </s>
 	<s id="2">Oh ! </s>
@@ -710,7 +738,8 @@ Elle dépose un coffret sur la table.
 	<s id="4">- Je le jure ! m'écriai-je ; et, toute frémissante, je détachai mon bracelet, et je l'offris comme le gage de mon serment.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">C'était moi !... </s>
 	<s id="2">Oh ! </s>
@@ -724,20 +753,23 @@ Elle dépose un coffret sur la table.
 </p>
 <stage type="open/get">Elle ouvre le coffret et prend la bague.</stage>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">Quel merveilleux hasard ! </s>
 	<s id="2">Ah ! </s>
 	<s id="3">Je sens que le bonheur revient : ce que l'époux n'a pu obtenir, l'amant l'obtiendra.</s>
 </p>
 </sp>
-<sp stage="show" who="LA COMTESSE"><speaker>LA COMTESSE, présentant la bague.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="show">, présentant la bague.
+</stage>
 <p id="25">
 	<s id="1">Voici l'émeraude que me donna l'inconnu. </s>
 	<s id="2">Je vous ai tout dit, Monsieur_le_Comte.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="aparte">, à part.
+</stage>
 <stage type="get">Il prend l'émeraude. </stage>
 <p id="26">
 	<s id="1">Il faut déguiser son bonheur.</s>
@@ -779,8 +811,9 @@ Elle dépose un coffret sur la table.
 </p>
 </sp>
 </div2>
-<div2 stage="costume/imitate" type="scene" n="11"><head>SCÈNE XI. Le Comte, sous un costume de Marquis avec un loup sur le
-visage, et déguisant sa voix.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage type="costume/imitate"> Le Comte, sous un costume de Marquis avec un loup sur le
+visage, et déguisant sa voix.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Que vois-je ?</s>
@@ -791,7 +824,8 @@ visage, et déguisant sa voix.</head>
 	<s id="1">Je vous aime et je viens...</s>
 </p>
 </sp>
-<sp stage="hesitate" who="LA COMTESSE"><speaker>LA COMTESSE, chancelante.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="hesitate">, chancelante.
+</stage>
 <p id="3">
 	<s id="1">Comment, Monsieur, vous venez ? </s>
 	<s id="2">Et de quel droit ? - </s>
@@ -818,7 +852,8 @@ visage, et déguisant sa voix.</head>
 	<s id="1">Monsieur !</s>
 </p>
 </sp>
-<sp stage="closer" who="LE COMTE"><speaker>LE COMTE, faisant un pas vers la Comtesse.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="closer">, faisant un pas vers la Comtesse.
+</stage>
 <p id="8">
 	<s id="1">Vous êtes à moi ; je vous aime.</s>
 </p>
@@ -860,7 +895,8 @@ visage, et déguisant sa voix.</head>
 	<s id="3">Vous avez juré d'être à moi ; je viens vous rappeler ce serment.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, joignant les mains.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, joignant les mains.
+</stage>
 <p id="15">
 	<s id="1">Mais, je suis mariée, et je ne m'appartiens plus !</s>
 </p>
@@ -880,7 +916,8 @@ visage, et déguisant sa voix.</head>
 	<s id="1">Vous avez juré !</s>
 </p>
 </sp>
-<sp stage="proud" who="LA COMTESSE"><speaker>LA COMTESSE, avec dignité.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="proud">, avec dignité.
+</stage>
 <p id="19">
 	<s id="1">Je suis la femme du Comte_de_Fréry, Monsieur, j'attends mon mari !</s>
 </p>
@@ -891,7 +928,8 @@ visage, et déguisant sa voix.</head>
 	<s id="2">Je le tuerai !</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, avec vivacité.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, avec vivacité.
+</stage>
 <p id="21">
 	<s id="1">Eh bien tuez-moi aussi, puisque je l'aime ! </s>
 	<s id="2">Monsieur, je suis seule coupable ; le Comte est innocent, je vous le jure !</s>
@@ -904,7 +942,8 @@ visage, et déguisant sa voix.</head>
 </p> 
 <stage type="touch">Il lui prend la taille.</stage>
 </sp>
-<sp stage="frighten" who="LA COMTESSE"><speaker>LA COMTESSE, avec effroi.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="frighten">, avec effroi.
+</stage>
 <p id="23">
 	<s id="1">À l'aide ! </s>
 	<s id="2">Au secours ! </s>
@@ -912,7 +951,8 @@ visage, et déguisant sa voix.</head>
 	<s id="4">Comte, à moi !</s>
 </p>
 </sp>
-<sp stage="show/loud" who="LE COMTE"><speaker>LE COMTE, faisant tomber son loup et reprenant sa voix naturelle.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="show/loud">, faisant tomber son loup et reprenant sa voix naturelle.
+</stage>
 <p id="24">
 	<s id="1">Vous m'avez appelé, me voici.</s>
 </p>
@@ -929,7 +969,8 @@ visage, et déguisant sa voix.</head>
 	<s id="1">Et l'autre ?</s>
 </p>
 </sp>
-<sp stage="stand" who="LE COMTE"><speaker>LE COMTE, se relevant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="stand">, se relevant.
+</stage>
 <p id="27">
 	<s id="1">Et l'autre, - c'était encore moi ! </s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -45,7 +45,7 @@
 		<printer id="DUSCHENE">À PARIS, chez la VEUVE DUSCHENE, Libraire, rue Saint-Jacques, au-dessous de la Fontaine Saint-Benoit, au temple du Goût</printer>
 	   </docImprint>
 	   <performance>
-		<premiere date="(a déterminer)" location="(a déterminer)"></premiere>
+		<premiere date="(a déterminer)" location="(a déterminer)"/>
 	   </performance>
 	   <castList>
 		<head>ACTEURS DU PROLOGUE</head>
@@ -76,7 +76,8 @@
 	</front>
 <body>
 <div1 type="prologue" n="1"><head>PROLOGUE.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Chevalier, Le Marquis.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Chevalier, Le Marquis.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 	<l id="1">Marquis, restons ici, le grand monde m'accable,</l>
 	<l id="2">Et c'est dans les foyers un bruit épouvantable :</l>
@@ -142,7 +143,8 @@
 	<l id="45">Et son extravagance est à tel point poussée...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Marquis, Le Chevalier, La Présidente.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Marquis, Le Chevalier, La Présidente.
+</stage>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="46">Oh ! Pour le coup, je crois, que j'en serai blessée.</l>
 </sp>
@@ -186,7 +188,8 @@
 	<l id="60" syll="4" part="i">Hé bien ! la Fleur...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Présidente, Le Chevalier, Le Marquis, La Fleur.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Présidente, Le Chevalier, Le Marquis, La Fleur.
+</stage>
 <sp who="LA FLEUR"><speaker>LA FLEUR.</speaker>
 	<l id="60" syll="8" part="f">Hé bien ! Voilà pour vous des frais :</l>
 <note type="L">Cannelle : Fig. et familièrement. Mettre en cannelle, briser, réduire en morceaux comme ceux de la cannelle qui se vend ; et plus figurément encore, déchirer, ruiner de réputation. [L]</note>
@@ -217,7 +220,8 @@
 	<l id="68">Mais me trompé-je ? Non, c'est Monsieur Serpolet.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Présidente, Le Marquis, Le Chevalier, Monsieur Serpolet.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Présidente, Le Marquis, Le Chevalier, Monsieur Serpolet.
+</stage>
 <sp who="MONSIEUR SERPOLET"><speaker>MONSIEUR SERPOLET.</speaker>
 	<l id="69" syll="2" part="i">Madame...</l>
 </sp>
@@ -339,7 +343,8 @@
 </div2>
 </div1>
 <div1 type="act" n="1"><head>COMÉDIE.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. L'Amour, L'Espérance.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> L'Amour, L'Espérance.
+</stage>
 <stage type="decor">Le Théâtre représente les avenues du Palais de Pluton.</stage>
 <sp who="L'AMOUR"><speaker>L'AMOUR.</speaker>
 	<l id="107">Hé quoi ! Vous me suivez jusques dans ce séjour ?</l>
@@ -393,7 +398,8 @@
 	<l id="140">L'Espérance et l'Amour sont faits pour être ensemble.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mercure, Caron.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mercure, Caron.
+</stage>
 <sp who="MERCURE"><speaker>MERCURE.</speaker>
 	<l id="141">Nous sommes donc enfin arrivés chez Pluton ?</l>
 </sp>
@@ -477,7 +483,8 @@
 	<l id="188">Voici Pluton. Je me retire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Pluton, Mercure.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Pluton, Mercure.
+</stage>
 <sp who="PLUTON"><speaker>PLUTON.</speaker>
 	<l id="189">Ah ! c'est vous, Mercure, bonjour.</l>
 </sp>
@@ -656,7 +663,8 @@
 	<l id="305">Un air tout rempli de douceur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Pluton, Mercure, L'Amour, déguisé.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pluton, Mercure, L'Amour, déguisé.
+</stage>
 <sp who="MERCURE"><speaker>MERCURE.</speaker>
 	<l id="306">Qu'êtes-vous, jeune enfant, à blonde chevelure .</l>
 </sp>
@@ -668,7 +676,8 @@
 	<l id="309">A tourmenter les humains, et je crois</l>
 	<l id="310">Que vous aurez là-haut fort peu d'emploi.</l>
 </sp>
-<sp stage="dress" who="L'AMOUR"><speaker>L'AMOUR, se découvrant.</speaker>
+<sp who="L'AMOUR"><speaker>L'AMOUR</speaker><stage type="dress">, se découvrant.
+	</stage>
 	<l id="311">Plus que tu ne pense, Mercure.</l>
 </sp>
 <sp who="MERCURE"><speaker>MERCURE.</speaker>
@@ -757,7 +766,8 @@
 	<l id="364" syll="4" part="f">Jusqu'au revoir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Pluton, Mercure.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Pluton, Mercure.
+</stage>
 <sp who="PLUTON"><speaker>PLUTON.</speaker>
 	<l id="365">De la façon qu'il va s'y prendre,</l>
 	<l id="366">Il fera bien des malheureux :</l>
@@ -784,7 +794,8 @@
 	<l id="380" syll="9" part="i">De celui-ci. Venez. Qu'êtes-vous ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mercure, Pluton, La Vieillesse.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mercure, Pluton, La Vieillesse.
+</stage>
 <sp who="LA VIEILLESSE"><speaker>LA VIEILLESSE.</speaker>
 	<l id="380" syll="3" part="f">La Vieillesse.</l>
 </sp>
@@ -858,7 +869,8 @@
 	<l id="426">Parlez, quelle espèce êtes-vous ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Pluton, Mercure, La Migraine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Pluton, Mercure, La Migraine.
+</stage>
 <sp who="LA MIGRAINE"><speaker>LA MIGRAINE.</speaker>
 	<l id="427">Moi, Seigneur, je suis la Migraine,</l>
 	<l id="428">Et vous pouvez en moi trouver des qualités.</l>
@@ -931,7 +943,8 @@
 	<l id="472">En elle on voit quelque chose qui touche.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Mercure, Pluton, La Nécessité.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Mercure, Pluton, La Nécessité.
+</stage>
 <sp who="LA NÉCESSITÉ"><speaker>LA NÉCESSITÉ.</speaker>
 	<l id="473">Vous voyez la Nécessité.</l>
 	<l id="474">Je saurai sur la terre avoir-un grand empire ;</l>
@@ -970,7 +983,8 @@
 	<l id="501">Vous êtes, en un mot, un mal de contrebande,</l>
 	<l id="502">Qui de l'ordre des Dieux ne peut être émané.</l>
 </sp>
-<sp stage="anger" who="LA NÉCESSITÉ"><speaker>LA NÉCESSITÉ, d'un ton de colère.</speaker>
+<sp who="LA NÉCESSITÉ"><speaker>LA NÉCESSITÉ</speaker><stage type="anger">, d'un ton de colère.
+	</stage>
 	<l id="503">Hé bien ! Chez les Mortels.sans vous je pourrai naître</l>
 	<l id="504">Et je saurai bientôt me montrer à leurs yeux.</l>
 </sp>
@@ -990,7 +1004,8 @@
 	<l id="513">Elle a beaucoup de peine à venir jusqu'ici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Pluton, Mercure, La Paralysie.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Pluton, Mercure, La Paralysie.
+</stage>
 <sp who="LA PARALYSIE"><speaker>LA PARALYSIE.</speaker>
 	<l id="514" syll="4" part="i">Seigneur, je suis...</l>
 </sp>
@@ -1078,7 +1093,8 @@
 	<l id="555">Au contraire, vraiment ! C'est pour les prolonger.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. L'Envie, La Haine, Mercure, Pluton.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> L'Envie, La Haine, Mercure, Pluton.
+</stage>
 <sp who="L'ENVIE"><speaker>L'ENVIE.</speaker>
 	<l id="556">Sur vous j'aurai la préférence.</l>
 </sp>
@@ -1117,7 +1133,7 @@
 	<l id="578">Les Rois de leurs voisins envieront la puissance ;</l>
 	<l id="579">Les courtisans, dans le fond de leur coeur,</l>
 	<l id="580">De leurs pareils envieront la faveur.</l>
-	<l id="581">Chacun à l'autre dans la vie ></l>
+	<l id="581">Chacun à l'autre dans la vie &gt;</l>
 	<l id="582">Saura porter sans cesse envie.</l>
 	<l id="583">Le soldat enviera l'état de commandant ;</l>
 	<l id="584">Le conseiller, celui de président ;</l>
@@ -1179,7 +1195,8 @@
 	<l id="622">Vous aurez toutes deux, je crois, de l'exercice.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Mercure, Pluton, La Fièvre.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Mercure, Pluton, La Fièvre.
+</stage>
 <sp who="LA FIÈVRE"><speaker>LA FIÈVRE.</speaker>
 	<l id="623">Je suis la Fièvre, moi, fort à votre service.</l>
 </sp>
@@ -1225,7 +1242,8 @@
 	<l id="645">Holà, parlez nous, le jeune homme ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Mercure, Pluton, Le Transport.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Mercure, Pluton, Le Transport.
+</stage>
 <sp who="LE TRANSPORT"><speaker>LE TRANSPORT.</speaker>
 	<l id="646">Je suis le Transport au cerveau,</l>
 	<l id="647">Par moi la raison égarée,</l>
@@ -1281,7 +1299,8 @@
 	<l id="683">Ah ! Pluton, le Transport me tue ;</l>
 	<l id="684">Je n'y puis plus tenir, qu'on l'ôte de ma vue.</l>
 </sp>
-<sp stage="run" who="PLUTON"><speaker>PLUTON, après avoir couru avec le Transport.</speaker>
+<sp who="PLUTON"><speaker>PLUTON</speaker><stage type="run">, après avoir couru avec le Transport.
+	</stage>
 	<l id="685">À la fin, je le tiens, il ne reviendra pas.</l>
 </sp>
 <sp who="MERCURE"><speaker>MERCURE.</speaker>

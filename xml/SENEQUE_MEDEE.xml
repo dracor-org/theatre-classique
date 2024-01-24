@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>MÉDÉE, TRAGÉDIE</title>
-			<author born='' born_location='Rome' death='' death_location=''>SÉNÈQUE</author>
+			<author born="" born_location="Rome" death="" death_location="">SÉNÈQUE</author>
 		</titleStmt>
 		<publicationStmt>	
 			<p>publié par Paul FIEVRE, juillet 2016.</p>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -28,17 +28,17 @@
 			<titlePart type="sub">Traduit par Eugène Greslou.</titlePart>
 		</docTitle> 
 		<docDate value="1834">1834.</docDate>
-		<docAuthor id="SÉNÈQUE" bio=''>SÉNÈQUE</docAuthor>
+		<docAuthor id="SÉNÈQUE" bio="">SÉNÈQUE</docAuthor>
 		<docImprint>
-			<printer id='HACHETTE'>PARIS, Librairie de L. HACHETTE ET Cie, Boulevard Saint-Germain, n°77.</printer>
+			<printer id="HACHETTE">PARIS, Librairie de L. HACHETTE ET Cie, Boulevard Saint-Germain, n°77.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="MÉDÉE" sex="2" type="H" statut="roi" age="A" stat_amour='Jason'>MÉDÉE</role>, fille du roi de Colchide, épouse de Jason.</castItem>
-			<castItem><role id="LA NOURRICE" sex="2" type="H" statut="nourrice" age="A" stat_amour='néant'>LA NOURRICE</role>.</castItem>
-			<castItem><role id="JASON" sex="1" type="H" statut="roi" age="A" stat_amour='Médée'>JASON</role>, fils du roi de Thessalie, époux de Médée.</castItem>
-			<castItem><role id="CRÉON" sex="1" type="H" statut="roi" age="A" stat_amour='néant'>CRÉON</role>, roi de Corinthe.</castItem>
-			<castItem><role id="UN ENVOYÉ" sex="1" type="H" statut="messager" age="A" stat_amour='néant'>UN ENVOYÉ</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour='néant'>LE CHOEUR</role>.</castItem>
+			<castItem><role id="MÉDÉE" sex="2" type="H" statut="roi" age="A" stat_amour="Jason">MÉDÉE</role>, fille du roi de Colchide, épouse de Jason.</castItem>
+			<castItem><role id="LA NOURRICE" sex="2" type="H" statut="nourrice" age="A" stat_amour="néant">LA NOURRICE</role>.</castItem>
+			<castItem><role id="JASON" sex="1" type="H" statut="roi" age="A" stat_amour="Médée">JASON</role>, fils du roi de Thessalie, époux de Médée.</castItem>
+			<castItem><role id="CRÉON" sex="1" type="H" statut="roi" age="A" stat_amour="néant">CRÉON</role>, roi de Corinthe.</castItem>
+			<castItem><role id="UN ENVOYÉ" sex="1" type="H" statut="messager" age="A" stat_amour="néant">UN ENVOYÉ</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour="néant">LE CHOEUR</role>.</castItem>
 		</castList>
 		<set location="Thèbes" country="Grèce" periode="Temps mythologiques" gps="38.322579, 23.320431">La scène est à Thèbes.</set>
 	</front>
@@ -109,7 +109,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Médée, La nourrice.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Médée, La nourrice.
+</stage>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 <p id="1">
 	<s id="1">Je me meurs ; des chants d'hymen ont frappé mon oreille. </s>
@@ -277,7 +278,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Créon, Médée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Créon, Médée.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 <p id="1">
 	<s id="1">Quoi ! </s>
@@ -485,7 +487,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. La nourrice, Médée.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> La nourrice, Médée.
+</stage>
 <sp who="LE NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="1">
 	<s id="1">Princesse, où courez-vous d'un pas si rapide ? </s>
@@ -537,7 +540,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Jason, Médée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Jason, Médée.
+</stage>
 <sp who="JASON"><speaker>JASON.</speaker>
 <p id="1">
 	<s id="1">Ô destinée cruelle, ô sort impitoyable, et toujours également cruel dans sa faveur et dans sa haine ! </s>
@@ -963,7 +967,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. L'envoyé, Le choeur, La nourrice, Médée, Jason.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> L'envoyé, Le choeur, La nourrice, Médée, Jason.
+</stage>
 <sp who="L'ENVOYÉ"><speaker>L'ENVOYÉ.</speaker>
 <p id="1">
 	<s id="1">Tout a péri ; cette royale famille n'est plus ; le père et la fille sont morts, et leurs cendres se sont mêlées.</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,27 +29,29 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">DIX-NEUVIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1822'>1822.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1822">1822.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='DELONCHAMPS'>À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
+			<printer id="DELONCHAMPS">À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
 		</docImprint>
 	<performance>
-			<premiere date="(inconnue)" location="Paris"></premiere>
+			<premiere date="(inconnue)" location="Paris"/>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DE BRÉCOURT" sex="1" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MONSIEUR DE BRÉCOURT</role>.</castItem>
-		<castItem><role id="MADAME DE BRÉCOURT" sex="2" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MADAME DE BRÉCOURT</role>.</castItem>
-		<castItem><role id="LE MARQUIS DE ROSEMONT" sex="1" type="H" statut='marquis' age='A' stat_amour='(néant)'>LE MARQUIS DE ROSEMONT</role>.</castItem>
-		<castItem><role id="VICTOIRE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='(néant)'>VICTOIRE</role>, femme de chambre de Madame de Brécourt.</castItem>
+		<castItem><role id="MONSIEUR DE BRÉCOURT" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR DE BRÉCOURT</role>.</castItem>
+		<castItem><role id="MADAME DE BRÉCOURT" sex="2" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MADAME DE BRÉCOURT</role>.</castItem>
+		<castItem><role id="LE MARQUIS DE ROSEMONT" sex="1" type="H" statut="marquis" age="A" stat_amour="(néant)">LE MARQUIS DE ROSEMONT</role>.</castItem>
+		<castItem><role id="VICTOIRE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="(néant)">VICTOIRE</role>, femme de chambre de Madame de Brécourt.</castItem>
    </castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est chez Madame de Brécourt.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est chez Madame de Brécourt.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE précédé de la vie de Carmontelle (...), chez DELONGCHAMPS libraire, Tome Premier, 1822. pp. 245-258</note>
 </front>
 <body>
-<div1 type="act" n='1'><head>LES DEUX CHAPEAUX</head>
-<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE. Madame de Brécourt, Victoire.</head>
-<sp stage="entrance/search" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, en entrant, cherche dans ses poches.</speaker>
+<div1 type="act" n="1"><head>LES DEUX CHAPEAUX</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame de Brécourt, Victoire.
+</stage>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="entrance/search">, en entrant, cherche dans ses poches.
+</stage>
 <p id="1">
 	<s id="1">C'est inconcevable, que j'aie perdu la lettre du Marquis ! </s>
 	<s id="2">Mais, dites donc, mademoiselle, qu'est-ce que j'en ai fait ?</s>
@@ -89,8 +91,10 @@
 <stage type="give/exit">Victoire lui donne l'écritoire et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Madame de Brécourt, Monsieur de Brécourt.</head>
-<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, écrivant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Madame de Brécourt, Monsieur de Brécourt.
+</stage>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage>, écrivant.
+</stage>
 <p id="1">
 	<s id="1">Comment peut-il ne pas me voir aujourd'hui, quand j'ai tout arrangé !... </s>
 	<s id="2">Qui est là ?</s>
@@ -101,7 +105,8 @@
 	<s id="1">C'est moi.</s>
 </p>
 </sp>
-<sp stage="hide" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, cachant la lettre qu'elle écrivait.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="hide">, cachant la lettre qu'elle écrivait.
+</stage>
 <p id="3">
 	<s id="1">Par quel hasard, à l'heure qu'il est ?</s>
 </p>
@@ -163,7 +168,8 @@
 	<s id="1">Vous devez m'entendre.</s>
 </p>
 </sp>
-<sp stage="ironic" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, ironiquement.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="ironic">, ironiquement.
+</stage>
 <p id="15">
 	<s id="1">Je ne suis pas aussi pénétrante que vous.</s>
 </p>
@@ -268,7 +274,8 @@
 <stage type="write">Elle écrit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Madame de Brécourt, Le Marquis.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Madame de Brécourt, Le Marquis.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Madame, vous me voyez, malgré ce que je vous ai mandé. </s>
@@ -447,14 +454,16 @@
 </p>
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
-<sp stage="frighten" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, effrayée.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="frighten">, effrayée.
+</stage>
 <p id="34">
 	<s id="1">Qu'est-ce que j'entends ? </s>
 	<s id="2">J'ai fait fermer ma porte. </s>
 	<s id="3">Voyez un peu.</s>
 </p>
 </sp>
-<sp stage="watch/location" who="LE MARQUIS"><speaker>LE MARQUIS, regardant à la fenêtre.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="watch/location">, regardant à la fenêtre.
+</stage>
 <p id="35">
 	<s id="1">C'est votre mari !</s>
 </p>
@@ -482,8 +491,10 @@
 <stage type="drop">Il laisse son chapeau sur le fauteuil où il était assis, et il entre dans le boudoir.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur de Brécourt, Madame de Brécourt.</head>
-<sp stage="entrance/read/toward" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT entre en lisant des papiers ; il se retourne et dit à ses gens.</speaker> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur de Brécourt, Madame de Brécourt.
+</stage>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="entrance/read/toward"> entre en lisant des papiers ; il se retourne et dit à ses gens. 
+</stage> 
 <p id="1">
 	<s id="1">Qu'on n'ôte pas mes chevaux.</s>
 </p>
@@ -497,7 +508,8 @@
 	<s id="1">Non.</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, lisant.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="read">, lisant.
+</stage>
 <p id="4">
 	<s id="1">- Pourquoi n'avez-vous pas été à l'opéra ?</s>
 </p>
@@ -507,7 +519,8 @@
 	<s id="1">C'est que je ne m'en suis pas souciée apparemment.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, lisant.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage>, lisant.
+</stage>
 <stage type="note">Nota. Cette marque - indique des temps de silence nécessaires dans le jeu de cette scène.</stage>
 <p id="6">
 	<s id="1">- Vous ne vous en êtes pas souciée ? </s>
@@ -519,7 +532,8 @@
 	<s id="1">Cela pourrait bien être.</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, lisant.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="read">, lisant.
+</stage>
 <p id="8">
 	<s id="1">- Le marquis est-il venu ?</s>
 </p>
@@ -529,7 +543,8 @@
 	<s id="1">Vous avez donné de si bons ordres...</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, lisant.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="read">, lisant.
+</stage>
 <p id="10">
 	<s id="1">Moi ?</s>
 </p>
@@ -691,8 +706,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Madame de Brécourt, Le Marquis.</head>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, sortant du cabinet.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Madame de Brécourt, Le Marquis.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, sortant du cabinet.
+</stage>
 <p id="1">
 	<s id="1">Mais, savez-vous qu'il est assommant ?</s>
 </p>
@@ -774,7 +791,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madame de Brécourt, Victoire.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madame de Brécourt, Victoire.
+</stage>
 <sp who="VICTOIRE"><speaker>VICTOIRE.</speaker>
 <p id="1">
 	<s id="1">Ah, madame, j'ai été dans une belle inquiétude quand j'ai entendu arriver Monsieur ! </s>
@@ -811,13 +829,15 @@
 <stage type="exit">Victoire sort par la garde-robe.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Madame de Brécourt, Monsieur de Brécourt.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Madame de Brécourt, Monsieur de Brécourt. 
+</stage> 
 <sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT.</speaker>
 <p id="1">
 	<s id="1">Quoi, Monsieur, vous voilà déjà ?</s>
 </p>
 </sp>
-<sp stage="embarrassed/agitated" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, troublé, agité.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="embarrassed/agitated">, troublé, agité.
+</stage>
 <p id="2">
 	<s id="1">Oui, madame, me voilà.</s>
 </p>
@@ -833,7 +853,8 @@
 	<s id="1">Non, madame, ce n'est pas une folie.</s>
 </p>
 </sp>
-<sp stage="sweet" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, langoureusement.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="sweet">, langoureusement.
+</stage>
 <p id="5">
 	<s id="1">Vous m'épouvantez ! </s>
 	<s id="2">Que vous est-il donc arrivé ?</s>
@@ -917,7 +938,8 @@
 	<s id="1">Oui ; voyez le cachet.</s>
 </p>
 </sp>
-<sp stage="get/watch" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, prenant le chapeau, le regarde, et le lui rend.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="get/watch">, prenant le chapeau, le regarde, et le lui rend.
+</stage>
 <p id="19">
 	<s id="1">Eh bien, s'il est meilleur que le vôtre, vous n'avez pas perdu au change !</s>
 </p>
@@ -927,12 +949,14 @@
 	<s id="1">Vous le prenez sur ce ton-là, Madame ; eh bien, nous nous  séparerons.</s>
 </p>
 </sp>
-<sp stage="stand/away" who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT, se levant et s'en allant.</speaker>
+<sp who="MADAME DE BRÉCOURT"><speaker>MADAME DE BRÉCOURT</speaker><stage type="stand/away">, se levant et s'en allant.
+</stage>
 <p id="21">
 	<s id="1">À la bonne heure.</s>
 </p>
 </sp>
-<sp stage="follow" who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT, la suivant.</speaker>
+<sp who="MONSIEUR DE BRÉCOURT"><speaker>MONSIEUR DE BRÉCOURT</speaker><stage type="follow">, la suivant.
+</stage>
 <p id="22">
 	<s id="1">Je vais trouver tous vos parents, et leur rendre compte de votre conduite.</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">Tragédie en prose, en un acte.</titlePart>
 			<titlePart type="sub">Le prix est de vingt sols.</titlePart>
 		</docTitle> 
-		<docDate value='1742'>M. DCC XLII. Avec Approbation et privilège du Roi.</docDate>
-		<docAuthor id="LANDOIS, Paul"></docAuthor>
+		<docDate value="1742">M. DCC XLII. Avec Approbation et privilège du Roi.</docDate>
+		<docAuthor id="LANDOIS, Paul"/>
 		<docImprint>
 			<editor type="PRAULT FILS">À PARIS, chez Prault Fils, Quai de Conti, vis-à-vis la descente du Pont-Neuf, à la Charité.</editor>
 			<printer id="PICHAT">IMP. F. JOURDAN, 36, 38, rue de la Goutte d'Or, PARIS/</printer>
@@ -41,23 +41,24 @@
 			<premiere date="1741-08-17" location="Théâtre des Fossés Saint-Germain">Représenté pour le première fois le 17 août 1741 au Théâtre des Fossés Saint-Germain.</premiere>
 		</performance>
 		<castList><head>ACTEURS DU PROLOGUE.</head>
-			<castItem><role id="L'AUTEUR" sex="1" type="H" statut="dramaturge" age='A' stat_amour='néant'>L'AUTEUR</role>.</castItem>
-			<castItem><role id="LE COMMANDEUR" sex="1" type="H" statut="commandeur" age='A' stat_amour='néant'>LE COMMANDEUR</role>.</castItem>
-			<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age='A' stat_amour='néant'>LA MARQUISE</role>.</castItem>
-			<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age='A' stat_amour='néant'>LE CHEVALIER</role>.</castItem>
-			<castItem><role id="MONSIEUR GROSSET" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MONSIEUR GROSSET</role>.</castItem>
+			<castItem><role id="L'AUTEUR" sex="1" type="H" statut="dramaturge" age="A" stat_amour="néant">L'AUTEUR</role>.</castItem>
+			<castItem><role id="LE COMMANDEUR" sex="1" type="H" statut="commandeur" age="A" stat_amour="néant">LE COMMANDEUR</role>.</castItem>
+			<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE</role>.</castItem>
+			<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">LE CHEVALIER</role>.</castItem>
+			<castItem><role id="MONSIEUR GROSSET" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR GROSSET</role>.</castItem>
 		</castList>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="DES FRANCS" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>DES FRANCS</role>.</castItem>
-			<castItem><role id="DES RONAIS" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>DES RONAIS</role>.</castItem>
-			<castItem><role id="SILVIE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>SILVIE</role>.</castItem>
-			<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age='A' stat_amour='néant'>UN LAQUAIS</role>.</castItem>
+			<castItem><role id="DES FRANCS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DES FRANCS</role>.</castItem>
+			<castItem><role id="DES RONAIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DES RONAIS</role>.</castItem>
+			<castItem><role id="SILVIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">SILVIE</role>.</castItem>
+			<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">UN LAQUAIS</role>.</castItem>
 		</castList>
-	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="prologue" n="1"><head>PROLOGUE.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Commandeur, L'Auteur.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Commandeur, L'Auteur.
+</stage>
 <sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR.</speaker>
 <p id="1">
 	<s id="1">Je viens de chez vous inutilement, et je me suis rendu de bonne heure ici, comptant vous y trouver. </s>
@@ -141,7 +142,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Chevalier, La Marquise, Grosset, La Commandeur, L'Auteur.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Chevalier, La Marquise, Grosset, La Commandeur, L'Auteur.
+</stage>
 <sp who="GROSSET"><speaker>GROSSET.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Commandeur.</s>
@@ -345,7 +347,8 @@
 	<s id="1">Sur cette exposition, je le décide tombée.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LE COMMANDEUR"><speaker>LE COMMANDEUR, bas à l'auteur.</speaker>
+<sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR</speaker><stage type="low/toward">, bas à l'auteur.
+</stage>
 <p id="36">
 	<s id="1">Vous le méritez bien.</s>
 </p>
@@ -533,7 +536,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Commandeur, L'Auteur.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Commandeur, L'Auteur.
+</stage>
 <sp who="LE COMMANDEUR"><speaker>LE COMMANDEUR.</speaker>
 <p id="1">
 	<s id="1">Vous voyez, Monsieur, que si je n'approuve pas votre projet, je le défends du moins. </s>
@@ -592,7 +596,8 @@
 </div1>
 <div1 type="acte" n="2"><head>SILVIE</head>
 <stage type="decor">Le théâtre représente l'intérieur d'une chambre où l'on de voit que les murs ; une table sur laquelle est une lumière, un pot à l'eau et un pain ; un habit d'homme et une mauvaise robe de femme.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Des Francs, en habit de campagne, se promenant comme un homme furieux, Un Laquais, portant un miroir.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Des Francs, en habit de campagne, se promenant comme un homme furieux, Un Laquais, portant un miroir.
+</stage>
 <sp who="DES FRANCS"><speaker>DES FRANCS.</speaker>
 <p id="1">
 	<s id="1">Hé bien, est-ce fait ?</s>
@@ -686,7 +691,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Des Francs, Des Ronais, qui entend ces dernières paroles.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Des Francs, Des Ronais, qui entend ces dernières paroles.
+</stage>
 <sp who="DES RONAIS"><speaker>DES RONAIS.</speaker>
 <p id="1">
 	<s id="1">Comment ! </s>
@@ -751,7 +757,8 @@
 	<s id="3">Parlez, soupçonnez-vous que je ne suis plus votre ami ?</s>
 </p>
 </sp>
-<sp stage="stand" who="DES FRANCS"><speaker>DES FRANCS, se lève.</speaker>
+<sp who="DES FRANCS"><speaker>DES FRANCS</speaker><stage type="stand">, se lève.
+</stage>
 <p id="11">
 	<s id="1">J'ai tout perdu , et mon sort est affreux ?</s>
 </p>
@@ -968,7 +975,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="DES FRANCS"><speaker>DES FRANCS, seul.</speaker>
+<sp who="DES FRANCS"><speaker>DES FRANCS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">L'impossibilité qu'il trouve à me croire, me prouve-t-elle assez combien mon sort est affreux ? </s>
 	<s id="2">Ciel ! </s>
@@ -978,7 +986,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Des Francs, Le Laquais.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Des Francs, Le Laquais.
+</stage>
 <sp who="DES FRANCS"><speaker>DES FRANCS.</speaker>
 <p id="1">
 	<s id="1">Est-ce que tu n'as pas dit à Silvie de venir ?</s>
@@ -999,7 +1008,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="help" type="scene" n="5"><head>SCÈNE V. Des Francs, Silvie appuyée sur le bras d'un Laquais.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage type="help"> Des Francs, Silvie appuyée sur le bras d'un Laquais.
+</stage>
 <sp who="SILVIE"><speaker>SILVIE.</speaker>
 <p id="1">
 	<s id="1">Je suis encore si assoupie, que je me souviens à peine, d'où vient qu'on ne voit pas clair ici ?</s>
@@ -1247,7 +1257,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp who="SILVIE"><speaker>SILVIE, seule reste quelque temps évanouir, et revenue à elle-même, elle dit.</speaker>
+<sp who="SILVIE"><speaker>SILVIE</speaker><stage>, seule reste quelque temps évanouir, et revenue à elle-même, elle dit.
+</stage>
 <p id="1">
 	<s id="1">Est-ce mon époux qui m'a parlé ? </s>
 	<s id="2">Je suis perfide. </s>
@@ -1268,7 +1279,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Silvie, Des Francs.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Silvie, Des Francs.
+</stage>
 <sp who="DES FRANCS"><speaker>DES FRANCS.</speaker>
 <p id="1">
 	<s id="1">Ne crois pas que le peu de temps qu'il y a que je t'ai quittée, ait pu ralentir ma fureur ; ne crois pas que rien ne le puisse jamais. </s>
@@ -1668,7 +1680,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII ET DERNIÈRE. Silvie, Des Francs, Des Ronais.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII ET DERNIÈRE.</head><stage> Silvie, Des Francs, Des Ronais.
+</stage>
 <sp who="DES RONAIS"><speaker>DES RONAIS.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1746,7 +1759,8 @@
 	<s id="1">Cher ami, dis-lui combien je l'aime.</s>
 </p>
 </sp>
-<sp stage="kiss" who="SILVIE"><speaker>SILVIE, en l'embrassant.</speaker>
+<sp who="SILVIE"><speaker>SILVIE</speaker><stage type="kiss">, en l'embrassant.
+</stage>
 <p id="13">
 	<s id="1">Cher époux, je n'en ai jamais douté.</s>
 </p>

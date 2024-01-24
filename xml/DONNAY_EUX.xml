@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,22 +30,23 @@
 		<titlePart part="sub">SAYNÈTE</titlePart> 
 	</docTitle>
    <docDate value="1891">1891. Tous droits réservés</docDate>
-   <docAuthor id='DONNAY, Maurice'>MAURICE DONNAY.</docAuthor>
+   <docAuthor id="DONNAY, Maurice">MAURICE DONNAY.</docAuthor>
 	<docImprint>
 		<editor>PARIS, PAUL OLLENDORFF, ÉDITEUR, 28  bis RUE DE RICHELIEU, 28 bis. </editor>
 		<printer>Paris. - Typ. Chamerot et Renouard, rue des Saint-Pères, 19, - 27653</printer>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="HÉLÈNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='Achille'>HÉLÈNE</role>.</castItem>
-		<castItem><role id="ACHILLE" sex="1" type="H" statut="bourgeois" age="A" stat_amour='Hélène'>ACHILLE</role>.</castItem>
+		<castItem><role id="HÉLÈNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="Achille">HÉLÈNE</role>.</castItem>
+		<castItem><role id="ACHILLE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="Hélène">ACHILLE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>EUX !</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor">Un salon japonais à l'Hôtel_Cosmopolite. Étoffes claires richement brodées d'attributs fantastiques. Lanternes de soie où sont peints des animaux et des fleurs de rêve. Au premier plan, à droite, un canapé bas et peu long. Derrière, un massif de chrysanthèmes multicolores et échevelés. Portes à droite, à gauche et au fond. </stage>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, toilette do mariée. Bouquet. Elle entre par la porte de droite et parle à son mari, resté dans la coulisse. </speaker> 
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, toilette do mariée. Bouquet. Elle entre par la porte de droite et parle à son mari, resté dans la coulisse.  
+</stage> 
 <p id="1">
 	<s id="1">Non, je vous en prie, laissez-moi seule. </s>
 	<s id="2">Je ne veux personne... pas même vous... </s>
@@ -62,13 +63,15 @@
 	<s id="7">La messe de minuit discrète dans la chapelle familiale ; le discours intime et réchauffant du vieux prêtre qui vous a vue toute petite ; puis s'en aller au bras de son seigneur, sans autres témoins de son bonheur que les arbres du vieux parc, tandis que le clair de lune vous accompagne comme une princesse de féerie.</s>
 </p>
 </sp>
-<sp stage="show/entrance/hurry" who="ACHILLE"><speaker>ACHILLE, surgissant derrière les chrysanthèmes qui le cachaient.</speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="show/entrance/hurry">, surgissant derrière les chrysanthèmes qui le cachaient.
+</stage>
 <p id="3">
 	<s id="1">Et moi aussi, madame, j'avais rêvé des noces moins banales : esprit fortement nourri de l'antiquité, j'aurais voulu parcourir Paris ensoleillé comme une cité de l'Attique, sous un ciel implacablement bleu ! </s>
 	<s id="2">Des éphèbes court vêtus et long chevelés nous auraient précédés en agitant des flambeaux symboliques (Oh! rassurez-vous, je ne suis pas un voleur ; moi aussi j'ai une jeune femme qui m'attend à côté), et, derrière nous, une longue théorie d'hommes et de femmes, en des vêtements couleur de lys, de rose et d'hyacinthe, auraient crié : Hymen! Hyménée !! </s>
 </p>
 </sp>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, interdite.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, interdite.
+</stage>
 <p id="4">
 	<s id="1">Adieu, Monsieur.</s>
 </p> 
@@ -99,12 +102,14 @@
 </p> 
 <stage type="drop/furniture">Il va mettre le bouquet dans un vase.</stage>
 </sp>
-<sp stage="back" who="HÉLÈNE"><speaker>HÉLÈNE, revenant. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="back">, revenant. 
+</stage>
 <p id="8">
 	<s id="1">Pardon, Monsieur, je crois que j'ai laissé ici ?...</s>
 </p>
 </sp>
-<sp stage="get" who="ACHILLE"><speaker>ACHILLE, prenant le bouquet. </speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="get">, prenant le bouquet. 
+</stage>
 <p id="9">
 	<s id="1">Le voici, Madame. </s>
 	<s id="2">Ne sachant pas au juste quand vous viendriez le chercher, j'ai pris la liberté de le mettre dans l'eau.</s>
@@ -394,7 +399,8 @@
 	<s id="2">Au surplus, ça ne sera pas long.</s>
 </p>
 </sp>
-<sp stage="strong" who="HÉLÈNE"><speaker>HÉLÈNE, fermement.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="strong">, fermement.
+</stage>
 <p id="59">
 	<s id="1">Je vous assure que c'est inutile.</s>
 </p>
@@ -411,12 +417,14 @@
 	<s id="1">Eh bien, racontez ; mais faites vite.</s>
 </p>
 </sp>
-<sp stage="sit" who="ACHILLE"><speaker>ACHILLE, invitant Hélène à s'asseoir. </speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="sit">, invitant Hélène à s'asseoir. 
+</stage>
 <p id="62">
 	<s id="1">Tel que vous me voyez, Madame, je suis sorti le premier de l'École_Polytechnique.</s>
 </p>
 </sp>
-<sp stage="sweet/ironic" who="HÉLÈNE"><speaker>HÉLÈNE, doucement ironique. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="sweet/ironic">, doucement ironique. 
+</stage>
 <p id="63">
 	<s id="1">Naturellement !</s>
 </p>
@@ -438,7 +446,8 @@
 	<s id="2">D'après ces détails que je vous donne, n'allez pas surtout me juger comme un fruit qui se vante de sa sécheresse ; et, si je me suis ainsi montré réfractaire aux études abstraites et positives, ce n'est pas incapacité de ma part.</s>
 </p>
 </sp>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, très aimable. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, très aimable. 
+</stage>
 <p id="67">
 	<s id="1">Je n'en doute pas un seul instant... </s>
 	<s id="2">Vous faites tout ce que vous voulez.</s>
@@ -449,7 +458,8 @@
 	<s id="1">Absolument ; mais je suis, comme vous l'homme des rêves et des nuages : en un mot, Madame, je suis poète.</s>
 </p>
 </sp>
-<sp stage="faint" who="HÉLÈNE"><speaker>HÉLÈNE, défaillante.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="faint">, défaillante.
+</stage>
 <p id="69">
 	<s id="1">Un poète !...</s>
 </p>
@@ -486,14 +496,16 @@
 	<s id="5">Et puis l'on se berce de l'espérance que le jour fatal n'arrivera jamais ; mais tout arrive, et devant l'inéluctable réalité qui surgit brutale et sans mystère, comme le bocage, on reste sans voix...</s>
 </p>
 </sp>
-<sp stage="think" who="HÉLÈNE"><speaker>HÉLÈNE, pensive.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="think">, pensive.
+</stage>
 <p id="75">
 	<s id="1">Comme le rossignol. </s>
 	<s id="2">Oui... </s>
 	<s id="3">Monsieur_le_Maire remplit ici-bas des fonctions gratuites, mais terribles : au contraire du dentiste, c'est en arrivant devant lui que l'on s'aperçoit combien on a mal aux dents.</s>
 </p>
 </sp>
-<sp stage="dream" who="ACHILLE"><speaker>ACHILLE, rêveur. </speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="dream">, rêveur. 
+</stage>
 <p id="76">
 	<s id="1">Mal de dents, mal d'amour...</s>
 </p>
@@ -639,7 +651,8 @@
 	<s id="1">Corbeilles_de_fruits, bonbons, petits_fours !</s>
 </p>
 </sp>
-<sp stage="kneel" who="ACHILLE"><speaker>ACHILLE, se jetant aux pieds d'Hélène. </speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="kneel">, se jetant aux pieds d'Hélène. 
+</stage>
 <p id="102">
 	<s id="1">Oh ! </s>
 	<s id="2">Je vous aime!!!</s>
@@ -711,7 +724,8 @@
 	<l id="22">Et de notre âme pure ascendrait vers les cieux</l>
 	<l id="23">Un parfum de vertu pour le mouchoir des anges !</l>
 </sp>
-<sp stage="" who="HÉLÈNE"><speaker>HÉLÈNE, très émue.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="">, très émue.
+</stage>
 <p id="109">
 	<s id="1">Ah !... </s>
 	<s id="2">C'est des vers !</s>
@@ -897,7 +911,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 	<s id="1">Savez-vous comment les choses se seraient passées il y a cinq mille ans ?</s>
 </p>
 </sp>
-<sp stage="" who="HÉLÈNE"><speaker>HÉLÈNE, perdant la tête.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="">, perdant la tête.
+</stage>
 <p id="142">
 	<s id="1">Non, je ne sais pas, j'étais trop jeune...</s>
 </p>
@@ -934,7 +949,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 	<s id="4">Viens !</s>
 </p>
 </sp>
-<sp stage="sad" who="HÉLÈNE"><speaker>HÉLÈNE, avec accablement. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="sad">, avec accablement. 
+</stage>
 <p id="148">
 	<s id="1">Je ne peux pas... </s>
 	<s id="2">Ça m'est tout à fait impossible.</s>
@@ -965,12 +981,14 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 	<s id="6">Il va venir me chercher...</s>
 </p>
 </sp>
-<sp stage="emphasis" who="ACHILLE"><speaker>ACHILLE, tragique. </speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="emphasis">, tragique. 
+</stage>
 <p id="153">
 	<s id="1">Oui, le tigre est en bas qui hurle et veut sa proie.</s>
 </p>
 </sp>
-<sp stage="low" who="HÉLÈNE"><speaker>HÉLÈNE, à mi-voix. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="low">, à mi-voix. 
+</stage>
 <note type="C">Hernani est une pièce de Victor Hugo représentée pour la première fois le 25 février 1830 à la Comédie Française.</note>
 <p id="154">
 	<s id="1">Nous avons l'air de jouer Hernani.</s>
@@ -1028,7 +1046,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 	<s id="1">Là, la vie bourgeoise, l'enterrement de ta poésie, de ta jeunesse, de ta beauté.</s>
 </p>
 </sp>
-<sp stage="silence" who="HÉLÈNE"><speaker>HÉLÈNE, après un long silence. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="silence">, après un long silence. 
+</stage>
 <p id="165">
 	<s id="1">Comment vous appelez-vous ?</s>
 </p>
@@ -1039,7 +1058,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 </p> 
 <stage type="give">Il lui tend sa carte.</stage>
 </sp>
-<sp who="HÉLÈNE"><speaker>HÉLÈNE, lisant la carte avec peine. </speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage>, lisant la carte avec peine. 
+</stage>
 <note type="C">Achille est écrit en grec dans le texte.</note>
 <p id="167">
 	<s id="">Achille ???</s>
@@ -1057,7 +1077,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 	<s id="1">Hélène.</s>
 </p>
 </sp>
-<sp stage="happy" who="ACHILLE"><speaker>ACHILLE, rayonnant.</speaker>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="happy">, rayonnant.
+</stage>
 <p id="170">
 	<s id="1">Ô joie ! </s>
 	<s id="2">L'enlèvement d'Hélène par Achille : c'est parisien, c'est grec, c'est antique, c'est moderne. </s>
@@ -1078,7 +1099,8 @@ côtés, avec l'image d'un autre dans la tête et dans le coeur ?</s>
 </p>
 <stage type="exit/entrance/location/shout">Ils sortent par le porte du fond : au même moment, leurs deux noces apparaissent, l'une à la porte de droite, l'autre à la porte de gauche et poussant un cri prolongé.</stage>
 </sp>
-<sp stage="wave" who="LES DEUX NOCES"><speaker>LES DEUX NOCES, les bras au ciel.</speaker>
+<sp who="LES DEUX NOCES"><speaker>LES DEUX NOCES</speaker><stage type="wave">, les bras au ciel.
+</stage>
 <p id="173">
 	<s id="1">Aaaaah !</s>
 </p>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LE PLAISIR, COMÉDIE </title>
-			<author born='1709' born_location='Amiens' death='1777' death_location='Amiens' academie='1748'>MARCHADIER, l'Abbé</author>
+			<author born="1709" born_location="Amiens" death="1777" death_location="Amiens" academie="1748">MARCHADIER, l'Abbé</author>
 				<date>1673</date>
 			</titleStmt>
 			<publicationStmp>	
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1741-1750</periode>
 				<taille>1500-1750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,7 +29,7 @@
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1749">M. DCC. XLIX.</docDate>
-		<docAuthor id="Abbé MARCHADIER" bio='marchadier'>Par M. L'ABBÉ MARCHADIER.</docAuthor>
+		<docAuthor id="Abbé MARCHADIER" bio="marchadier">Par M. L'ABBÉ MARCHADIER.</docAuthor>
 		<docImprint>
 			<approbation id="1748-09-21">
 				<p>Lu et Approuvé ce 21 Septembre 1748.</p>
@@ -40,24 +40,24 @@
 				<p>À Paris le 27 Septembre 1748.</p>
 				<p>G. CAVELIER père, Syndic. </p>
 			</approbation>
-			<acheveImprime id=""></acheveImprime>
-			<printer id=''>À PARIS, Chez CAILLEAU Libraire, rue Saint-JAcques, au dessus de la rue des MAthurins, à Saint-André.</printer>
+			<acheveImprime id=""/>
+			<printer id="">À PARIS, Chez CAILLEAU Libraire, rue Saint-JAcques, au dessus de la rue des MAthurins, à Saint-André.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1747-08-03" location='Théâtre de la rue des Fossés Saint-Germain'>Représentée pour la première fois sur le Théâtre Français le 3 août 1747.</premiere>
+			<premiere date="1747-08-03" location="Théâtre de la rue des Fossés Saint-Germain">Représentée pour la première fois sur le Théâtre Français le 3 août 1747.</premiere>
 		</performance>
 		<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE PLAISIR" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LE PLAISIR</role>.</castItem>
-		<castItem><role id="L'ESPÉRANCE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>L'ESPÉRANCE</role>.</castItem>
-		<castItem><role id="UNE ENFANT" sex="2" type="H" statut='enfant' age='E' stat_amour='néant'>UNE ENFANT</role>.</castItem>
-		<castItem><role id="UN FRANÇAIS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>UN FRANÇAIS</role>.</castItem>
-		<castItem><role id="UNE ANGLAISE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>UNE ANGLAISE</role>.</castItem>
-		<castItem><role id="UNE ITALIENNE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>UNE ITALIENNE</role>.</castItem>
+		<castItem><role id="LE PLAISIR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PLAISIR</role>.</castItem>
+		<castItem><role id="L'ESPÉRANCE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">L'ESPÉRANCE</role>.</castItem>
+		<castItem><role id="UNE ENFANT" sex="2" type="H" statut="enfant" age="E" stat_amour="néant">UNE ENFANT</role>.</castItem>
+		<castItem><role id="UN FRANÇAIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">UN FRANÇAIS</role>.</castItem>
+		<castItem><role id="UNE ANGLAISE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">UNE ANGLAISE</role>.</castItem>
+		<castItem><role id="UNE ITALIENNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">UNE ITALIENNE</role>.</castItem>
 		</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène se passe sur le Théâtre de la Comédie Française.</set>
 </front>
 <body>
-<div1 type="acte" n=""><head></head>
+<div1 type="acte" n=""><head/>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <sp who="L'ESPÉRANCE"><speaker>L'ESPÉRANCE.</speaker>
 	<l id="1">Il est un Dieu, qu'on adore à tout âge,</l>
@@ -93,8 +93,10 @@
 	<l id="31" syll="4" part="i">Mais, je le vois..... </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. L'Espérance, Le Plaisir.</head>
-<sp stage="laugh" who="LE PLAISIR"><speaker>LE PLAISIR, éclatant de rire.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> L'Espérance, Le Plaisir.
+</stage>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="laugh">, éclatant de rire.
+	</stage>
 	<l id="31" syll="8" part="f">Ah ! ah ! ah je ris de bon coeur !</l>
 </sp>
 <sp who="L'ESPÉRANCE"><speaker>L'ESPÉRANCE.</speaker>
@@ -178,7 +180,8 @@
 	<l id="65">Vous y serez bien reçu sûrement </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Plaisir, Une Enfant.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Plaisir, Une Enfant.
+</stage>
 <sp who="LE PLAISIR"><speaker>LE PLAISIR.</speaker>
 	<l id="66">Quelle enfant porte ici sa démarche incertaine ?</l>
 	<l id="67">L'instinct auprès de moi semble guider ses pas.</l>
@@ -269,8 +272,10 @@
 	<l id="106">Répondez-moi de l'un ; je vous réponds de l'autre. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Plaisir, Un Français.</head>
-<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS vivement.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Plaisir, Un Français.
+</stage>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage> vivement.
+	</stage>
 	<l id="107">Pour le coup le voici : je n'en saurais douter ;</l>
 	<l id="108">Je le sens au transport qu'en mon âme il fait naître :</l>
 	<l id="109">Le Plaisir seul peut l'exciter.</l>
@@ -403,14 +408,16 @@
 	<l id="198">Moi-même avec eux je m'enfuis.</l>
 <stage type="away">Il s'enfuit.</stage>
 </sp>
-<sp stage="stop" who="LE FRANÇAIS"><speaker>LE FRANÇAIS, l'arrêtant.</speaker>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="199" syll="1" part="i">Ah !</l>
 </sp>
 <sp who="LE PLAISIR"><speaker>LE PLAISIR.</speaker>
 	<l id="199" syll="11" part="f">Le Français m'arrête, il se trouble, il soupire...</l>
 	<l id="200">Le Plaisir le rassure avec un doux sourire....</l>
 </sp>
-<sp stage="kiss" who="LE FRANÇAIS"><speaker>LE FRANÇAIS, l'embrassant.</speaker>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="201">Ah ! Le Français sent tout le prix...</l>
 </sp>
 <sp who="LE PLAISIR"><speaker>LE PLAISIR.</speaker>
@@ -435,7 +442,8 @@
 	<l id="209" syll="7" part="f">Oui, la grâce est sans seconde.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Plaisir, Un Français, Une Anglaise.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Plaisir, Un Français, Une Anglaise.
+</stage>
 <sp who="L'ANGLAISE"><speaker>L'ANGLAISE.</speaker>
 	<l id="210">Toutes les Anglaises, Monsieur,</l>
 	<l id="211">Vous rendent par ma voix grâce d'un tel honneur.</l>
@@ -457,7 +465,8 @@
 	<l id="218">Pour la rendre encor plus piquante,</l>
 	<l id="219">Permettez au Plaisir d'être en tiers avec nous.</l>
 </sp>
-<sp who="L'ANGLAISE"><speaker>L'ANGLAISE au François.</speaker>
+<sp who="L'ANGLAISE"><speaker>L'ANGLAISE</speaker><stage> au François.
+	</stage>
 	<l id="220" syll="6" part="i">Il y serait de trop : </l>
 <stage type="toward">Au Plaisir.</stage>
 	<l id="220" syll="6" part="f">Du sein de l'Angleterre,</l>
@@ -477,7 +486,8 @@
 	<l id="226">Ah ! Le Plaisir a toujours préféré</l>
 	<l id="227">L'aimable Seine à l'altière Tamise.</l>
 </sp>
-<sp who="L'ANGLAISE"><speaker>L'ANGLAISE au Plaisir.</speaker>
+<sp who="L'ANGLAISE"><speaker>L'ANGLAISE</speaker><stage> au Plaisir.
+	</stage>
 	<l id="228">PouRriez-vous balancer entre Londres et Paris ?</l>
 	<l id="229">Les Grecs et les Romains furent vos favoris.</l>
 	<l id="230">Nous avons droit à la même tendresse ;</l>
@@ -579,12 +589,15 @@
 	<l id="304">Quels accords ? Quel gosier brillant !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Plaisir, Le Français, L'Anglaise, une Italienne.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Plaisir, Le Français, L'Anglaise, une Italienne.
+</stage>
 <stage type="entrance/closer/sing">Elle entre et s'approche du Plaisir en fredonnant quelques mots Italiens.</stage>
-<sp stage="toward" who="LE FRANÇAIS"><speaker>LE FRANÇAIS, au Plaisir.</speaker>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage type="toward">, au Plaisir.
+	</stage>
 	<l id="305">Ah ! C'est vous aborder gaiement !</l>
 </sp>
-<sp stage="toward" who="LE PLAISIR"><speaker>LE PLAISIR, à l'Italienne.</speaker>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="toward">, à l'Italienne.
+	</stage>
 	<l id="306" syll="9" part="i">Qui vous conduit, Madame, en ces lieux ?</l>
 </sp>
 <sp who="L'ITALIENNE"><speaker>L'ITALIENNE.</speaker>
@@ -629,7 +642,8 @@
 <sp who="L'ANGLAISE"><speaker>L'ANGLAISE.</speaker>
 	<l id="331">C'est le rendre encore plus aimable.</l>
 </sp>
-<sp stage="sing" who="L'ITALIENNE"><speaker>L'ITALIENNE, chante.</speaker>
+<sp who="L'ITALIENNE"><speaker>L'ITALIENNE</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="332">Volez de toute parts, accourez à mes sons ;</l>
 	<l id="333">Je suis en même temps, je suis décente et folle :</l>
 	<l id="334">C'est l'aimable gaieté qui dicte mes leçons ;</l>
@@ -695,7 +709,8 @@
 <sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS.</speaker>
 	<l id="375">Pour ce précepte-là, je le suis à merveille !</l>
 </sp>
-<sp stage="toward" who="LE PLAISIR"><speaker>LE PLAISIR, à l'Italienne.</speaker>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="toward">, à l'Italienne.
+	</stage>
 	<l id="376">Allez, enseignez l'art de me bien effleurer ;</l>
 	<l id="377">En chantant le Plaisir, vous savez l'inspirer.</l>
 </sp>
@@ -828,7 +843,8 @@
 <sp who="L'ITALIENNE"><speaker>L'ITALIENNE.</speaker>
 	<l id="444" syll="3" part="f">La Folie...</l>
 </sp>
-<sp stage="toward" who="LE PLAISIR"><speaker>LE PLAISIR, à tous les trois.</speaker>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="toward">, à tous les trois.
+	</stage>
 	<l id="445" syll="6" part="i">Je m'en vais prononcer...</l>
 <stage type="toward">À l'Italienne. </stage>
 	<l id="445" syll="6" part="f">Madame, je vous suis</l>
@@ -837,13 +853,15 @@
 <sp who="L'ITALIENNE"><speaker>L'ITALIENNE.</speaker>
 	<l id="446" syll="8" part="f">Eh bien ! L'Arrêt les pétrifie !</l>
 </sp>
-<sp stage="toward" who="LE PLAISIR"><speaker>LE PLAISIR, à l'Anglaise.</speaker>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="toward">, à l'Anglaise.
+	</stage>
 	<l id="447" syll="4" part="i">Vous à Londres...</l>
 </sp>
 <sp who="L'ITALIENNE"><speaker>L'ITALIENNE.</speaker>
 	<l id="447" syll="4" part="m">Comment ! Comment !</l>
 </sp>
-<sp stage="toward" who="LE PLAISIR"><speaker>LE PLAISIR, au Français.</speaker>
+<sp who="LE PLAISIR"><speaker>LE PLAISIR</speaker><stage type="toward">, au Français.
+	</stage>
 	<l id="447" syll="4" part="f">Vous à Paris...</l>
 </sp>
 <sp who="L'ITALIENNE"><speaker>L'ITALIENNE.</speaker>

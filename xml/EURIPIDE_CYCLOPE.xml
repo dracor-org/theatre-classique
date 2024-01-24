@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,17 +28,17 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
 			<head>PERSONNAGES</head>
-			<castItem><role id="SILÈNE" sex="1" type="H" statut='soldat' age='A' stat_amour='néant'>SILÈNE</role>.</castItem>
-			<castItem><role id="CHOEUR DE SATYRES" sex="9" type="H" statut='satyre' age='A' stat_amour='néant'>CHOEUR DE SATYRES</role>.</castItem>
-			<castItem><role id="ULYSSE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>ULYSSE</role>.</castItem>
-			<castItem><role id="LE CYOLOPE POLYPHÈME" sex="1" type="H" statut='cyclope' age='A' stat_amour='néant'>LE CYOLOPE POLYPHÈME</role>.</castItem>
+			<castItem><role id="SILÈNE" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">SILÈNE</role>.</castItem>
+			<castItem><role id="CHOEUR DE SATYRES" sex="9" type="H" statut="satyre" age="A" stat_amour="néant">CHOEUR DE SATYRES</role>.</castItem>
+			<castItem><role id="ULYSSE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">ULYSSE</role>.</castItem>
+			<castItem><role id="LE CYOLOPE POLYPHÈME" sex="1" type="H" statut="cyclope" age="A" stat_amour="néant">LE CYOLOPE POLYPHÈME</role>.</castItem>
 		</castList>
 		<set location="Mont Etna" country="Italie" periode="Temps mythologiques" gps="37.750997, 14.994025">La scène est à l'entrée de l'autre du Cyclope, au pied du mont Etna.</set>
 
@@ -89,7 +89,8 @@
 	<s id="1">Taisez-vous, mes enfants, et commandez aux valets de rassembler les troupeaux dans l'antre au toit de pierre. </s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHOEUR"><speaker>LE CHOEUR, aux esclaves.</speaker> 
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage type="toward">, aux esclaves. 
+</stage> 
 <p id="4"> 
 	<s id="1">Allez. </s>
 </p>
@@ -478,7 +479,8 @@
 	<s id="6">si ce n'est pour moi seul ! </s>
 </p>
 </sp>
-<sp stage="entrance" who="SILÈNE"><speaker>SILÈNE, sortant de la caverne.</speaker>
+<sp who="SILÈNE"><speaker>SILÈNE</speaker><stage type="entrance">, sortant de la caverne.
+</stage>
 <p id="76">
 	<s id="1">Tiens, roi Ulysse, voici pour vous des nourrissons de nos troupeaux, des agneaux bêlants, et nombre de fromages de lait caillé. </s>
 	<s id="2">Prenez, et hâtez-vous de fuir loin de cet antre, quand vous m'aurez en échange le jus de la vigne chère à Bacchus.... </s>
@@ -740,7 +742,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>Ulysse.</head>
-<sp stage="entrance" who="ULYSSE"><speaker>ULYSSE, sortant de la caverne.</speaker>
+<sp who="ULYSSE"><speaker>ULYSSE</speaker><stage type="entrance">, sortant de la caverne.
+</stage>
 <p id="1">
 	<s id="1">Ô Jupiter, que dire après l'horrible spectacle auquel j'ai assisté dans cet antre ? </s>
 	<s id="2">Spectacle incroyable, plutôt semblable aux récits fabuleux qu'aux actions des hommes.</s> 
@@ -1059,7 +1062,8 @@
 	<s id="1">Tu donnes là, Cyclope, un beau cadeau à ton hôte ? </s>
 </p>
 </sp>
-<sp stage="toward" who="POLYPHÈME"><speaker>POLYPHÈME, à Silène.</speaker> 
+<sp who="POLYPHÈME"><speaker>POLYPHÈME</speaker><stage type="toward">, à Silène. 
+</stage> 
 <p id="37"> 
 	<s id="1">Holà ! </s>
 	<s id="2">Que fais-tu ? </s>

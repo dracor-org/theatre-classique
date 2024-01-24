@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,27 +30,29 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">TRENTE-TROISIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1783'>M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1783">M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='POINÇOT'>À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
+			<printer id="POINÇOT">À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR D'ORBEL" sex="1" type="H" statut="aristocrate" age='A' stat_amour='(néant)'>MONSIEUR D'ORBEL</role>, habit de velours bleu, brodé.</castItem>
-		<castItem><role id="LA COMTESSE DE BELLEROCHE" sex="2" type="H" statut="comte" age='A' stat_amour='(néant)'>LA COMTESSE DE BELLEROCHE</role>. Bien mise.</castItem>
-		<castItem><role id="LE MARQUIS DE MARIÉRE" sex="1" type="H" statut="marquis" age='A' stat_amour='(néant)'>LE MARQUIS DE MARIÉRE</role>. Habit brodé, perruque à la Brigadiere, canne et épée.</castItem>
-		<castItem><role id="LE CHEVALIER DE SAINT-LÉGER" sex="1" type="H" statut="chevalier" age='A' stat_amour='(néant)'>LE CHEVALIER DE SAINT-LÉGER</role>. Bien mis.</castItem>
-		<castItem><role id="VICTOIRE" sex="2" type="H" statut="femme de chambre" age='A' stat_amour='(néant)'>VICTOIRE</role>, Femme de Chambre de la Comtesse.</castItem>
-		<castItem><role id="LE BLOND" sex="1" type="H" statut="valet de chambre" age='A' stat_amour='(néant)'>LE BLOND</role>, Valet de Chambre de la Comtesse.</castItem>
+		<castItem><role id="MONSIEUR D'ORBEL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR D'ORBEL</role>, habit de velours bleu, brodé.</castItem>
+		<castItem><role id="LA COMTESSE DE BELLEROCHE" sex="2" type="H" statut="comte" age="A" stat_amour="(néant)">LA COMTESSE DE BELLEROCHE</role>. Bien mise.</castItem>
+		<castItem><role id="LE MARQUIS DE MARIÉRE" sex="1" type="H" statut="marquis" age="A" stat_amour="(néant)">LE MARQUIS DE MARIÉRE</role>. Habit brodé, perruque à la Brigadiere, canne et épée.</castItem>
+		<castItem><role id="LE CHEVALIER DE SAINT-LÉGER" sex="1" type="H" statut="chevalier" age="A" stat_amour="(néant)">LE CHEVALIER DE SAINT-LÉGER</role>. Bien mis.</castItem>
+		<castItem><role id="VICTOIRE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="(néant)">VICTOIRE</role>, Femme de Chambre de la Comtesse.</castItem>
+		<castItem><role id="LE BLOND" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="(néant)">LE BLOND</role>, Valet de Chambre de la Comtesse.</castItem>
 
 	</castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La Scène est chez la Comtesse.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez la Comtesse.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome Second, Versailles, 1783. pp. 339-363.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE DISTRAIT</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Marquis, Le Chevalier.</head>
-<sp stage="entrance/walk" who="LE CHEVALIER"><speaker>LE CHEVALIER, entre en suivant le Marquis, qui se promène.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Marquis, Le Chevalier.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="entrance/walk">, entre en suivant le Marquis, qui se promène.
+</stage>
 <p id="1">
 	<s id="1">Mais, Marquis, dites-moi donc pourquoi vous dites que vous voulez vous promener aux Tuileries, et que vous me faites entrer ici ?</s>
 </p>
@@ -413,14 +415,16 @@
 	<s id="2">Je ne vous reconduis pas.</s>
 </p>
 </sp>
-<sp stage="away" who="LE CHEVALIER"><speaker>LE CHEVALIER, s'en allant.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="70">
 	<s id="1">Hé, non, non. </s>
 	<s id="2">Vous vous moquez de moi.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Marquis, Le Blond.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Marquis, Le Blond.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Hola ! </s>
@@ -476,7 +480,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Comtesse, Victoire, Le Marquis, Le Blond.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Comtesse, Victoire, Le Marquis, Le Blond.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Le Blond, dites à Victoire de venir.</s>
@@ -601,7 +606,8 @@
 	<s id="1">Je vous suis obligé ; parce que j'ai à vous parler très sérieusement.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, à le Blond.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, à le Blond.
+</stage>
 <p id="25">
 	<s id="1">Ma belle-soeur, pourtant.</s>
 </p>
@@ -685,7 +691,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Marquis.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Marquis.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Vous aimez beaucoup le monde, Madame.</s>
@@ -752,7 +759,8 @@
 	<s id="1">Oui, j'en ai mangé à Genève ; c'est excellent.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="14">
 	<s id="1">Ah, ah, ah ! </s>
 	<s id="2">Marquis, vous êtes délicieux !</s>
@@ -774,7 +782,8 @@
 	<s id="1">Le_Vicomte ; n'est-ce pas de lui que vous me parliez ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="18">
 	<s id="1">Ah, ah, ah, ah ! </s>
 	<s id="2">À merveilles !</s>
@@ -786,7 +795,8 @@
 	<s id="2">Je me trompe quelquefois ; et c'est insupportable.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="20">
 	<s id="1">Non, non ; je vous trouve charmant comme cela. </s>
 	<s id="2">Ah ! </s>
@@ -806,7 +816,8 @@
 	<s id="1">Oui, donnez ?</s>
 </p>
 </sp>
-<sp stage="give" who="LE MARQUIS"><speaker>LE MARQUIS, donnant du tabac.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="give">, donnant du tabac.
+</stage>
 <p id="23">
 	<s id="1">Ah, j'oubliais bien !</s>
 </p>
@@ -831,7 +842,8 @@
 	<s id="1">C'est que si vous voulez vous remarier...</s>
 </p>
 </sp>
-<sp stage="search" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant sur sa toilette.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search">, cherchant sur sa toilette.
+</stage>
 <p id="28">
 	<s id="1">Hé bien, avec qui ?</s>
 </p>
@@ -841,7 +853,8 @@
 	<s id="1">Qu'est-ce que vous cherchez encore ?</s>
 </p>
 </sp>
-<sp stage="search" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search">, cherchant.
+</stage>
 <p id="30">
 	<s id="1">Parlez, parlez toujours.</s>
 </p>
@@ -851,7 +864,8 @@
 	<s id="1">Vous seriez la plus heureuse femme du monde, avec moi.</s>
 </p>
 </sp>
-<sp stage="search" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant toujours.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search">, cherchant toujours.
+</stage>
 <p id="32">
 	<s id="1">Avec vous ?</s>
 </p>
@@ -861,7 +875,8 @@
 	<s id="1">Oh, sûrement.</s>
 </p>
 </sp>
-<sp stage="search" who="LA COMTESSE"><speaker>LA COMTESSE, cherchant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="search">, cherchant.
+</stage>
 <p id="34">
 	<s id="">Je ne le trouve pas ; c'est inconcevable !</s>
 </p>
@@ -911,7 +926,8 @@
 	<s id="1">Oui, pour ce temps-là.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="44">
 	<s id="1">De 1650. </s>
 	<s id="2">Ah, ah, ah, ah ! </s>
@@ -954,7 +970,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Comtesse, Le Marquis, Le Blond.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Comtesse, Le Marquis, Le Blond.
+</stage>
 <sp who="LE BLOND"><speaker>LE BLOND.</speaker>
 <p id="1">
 	<s id="1">Madame, vos chevaux sont mis.</s>
@@ -1075,7 +1092,8 @@
 	<s id="1">Oui, Madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA COMTESSE"><speaker>LA COMTESSE, au Marquis, qui s'en va par une autre porte que celle par où on sort.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="toward">, au Marquis, qui s'en va par une autre porte que celle par où on sort.
+</stage>
 <p id="24">
 	<s id="1">Où allez-vous donc, Marquis ?</s>
 </p>

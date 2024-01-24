@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LE PROTÉGÉ DE MOLIÈRE, COMÉDIE.</title>
-			<author born='' born_location='' death='' death_location='' academie=''>LESGUILLON, SAINT-IVES</author>
+			<author born="" born_location="" death="" death_location="" academie="">LESGUILLON, SAINT-IVES</author>
 			</titleStmt>
 			<publicationStmt>	
 				<p>publié par Paul FIEVRE, août 2017.</p>
@@ -17,7 +17,7 @@
 				<structure>Un acte</structure>
 				<periode>1841-1850</periode>
 				<taille>750-1000</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,31 +28,32 @@
 			<titlePart type="sub">COMÉDIE EN UN ACTE, EN VERS</titlePart>
 			<titlePart type="sub">Représentée pour la première fois sur le second Théâtre Français, le 15e janvier 1848.</titlePart>
 		</docTitle> 
-		<docDate value='1848'>1848.</docDate>
-		<docAuthor id='LESGUILLON, SAINT-IVES' bio='LAFON'>LESGUILLON ET SAINT-IVES.</docAuthor>
+		<docDate value="1848">1848.</docDate>
+		<docAuthor id="LESGUILLON, SAINT-IVES" bio="LAFON">LESGUILLON ET SAINT-IVES.</docAuthor>
 		<docImprint>
-			<privilege id=''></privilege>
-			<acheveImprime id=''></acheveImprime>
-			<editor id=''></editor>
+			<privilege id=""/>
+			<acheveImprime id=""/>
+			<editor id=""/>
 			<printer>PARIS. TRESSE, PALAIS-NATIONAL, DERRIÈRE LE THÉÂTRE DE LA RÉPUBLIQUE.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1848-01-15' location='Théâtre Français'>Représentée pour la première fois sur le second Théâtre Français, le 15e janvier 1848.</premiere>
+			<premiere date="1848-01-15" location="Théâtre Français">Représentée pour la première fois sur le second Théâtre Français, le 15e janvier 1848.</premiere>
 		</performance>
 
 	<castList><head>PERSONNAGES</head>
-	<castItem><role id="MOLIÈRE" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>MOLIÈRE</role>, M. LUGUET.</castItem> 
-	<castItem><role id="RACINE" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>RACINE</role>, M. DELAUNEY.</castItem> 
-	<castItem><role id="CORAS" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>CORAS</role>, M. ANSELME.</castItem> 
-	<castItem><role id="LECLERC" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>LECLERC</role>, M. LAROCHELLE.</castItem> 
-	<castItem><role id="MADEMOISELLE BÉJART" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>MADEMOISELLE BÉJART</role>, Melle MARTELEUR.</castItem> 
-	<castItem><role id="LAFORÊT" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>LAFORÊT</role>, Melle St-HILAIRE.</castItem> 
+	<castItem><role id="MOLIÈRE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">MOLIÈRE</role>, M. LUGUET.</castItem> 
+	<castItem><role id="RACINE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">RACINE</role>, M. DELAUNEY.</castItem> 
+	<castItem><role id="CORAS" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">CORAS</role>, M. ANSELME.</castItem> 
+	<castItem><role id="LECLERC" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">LECLERC</role>, M. LAROCHELLE.</castItem> 
+	<castItem><role id="MADEMOISELLE BÉJART" sex="2" type="H" statut="servante" age="A" stat_amour="néant">MADEMOISELLE BÉJART</role>, Melle MARTELEUR.</castItem> 
+	<castItem><role id="LAFORÊT" sex="2" type="H" statut="servante" age="A" stat_amour="néant">LAFORÊT</role>, Melle St-HILAIRE.</castItem> 
 </castList>
 <set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène est à Paris dans le salon de Molière.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE PROTÉGÉ DE MOLIÈRE.</head>
-<div2 type="scene" n="1" stage="entrance"><head>SCÈNE PREMIÈRE. Béjart, Laforêt. Elles entrent par le fond.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="entrance"> Béjart, Laforêt. Elles entrent par le fond.
+</stage>
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
 	<l id="1">La répétition est enfin terminée !</l>
 	<l id="2">Me voilà du loisir pour toute ma journée.</l>
@@ -107,13 +108,16 @@
 <sp who="LAFORÊT"><speaker>LAFORÊT.</speaker>
 	<l id="24">Me plaire est le moyen de plaire aux bonnes gens.</l>
 </sp>
-<sp stage="ironic" who="BÉJART"><speaker>BÉJART, avec ironie.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="ironic">, avec ironie.
+	</stage>
 	<l id="25">On sait ton sens exquis pour la littérature.</l>
 </sp>
-<sp stage="serious" who="LAFORÊT"><speaker>LAFORÊT, avec sévérité.</speaker>
+<sp who="LAFORÊT"><speaker>LAFORÊT</speaker><stage type="serious">, avec sévérité.
+	</stage>
 	<l id="26">J'ai le meilleur : celui que donne la nature.</l>
 </sp>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="27" syll="4" part="i">Elle a raison.</l>
 <stage type="loud">Haut.</stage>
 	<l id="27" syll="8" part="f">Allons ! J'adopte tes avis.</l>
@@ -206,7 +210,8 @@
 	<l id="61">Qui ? Lui, ce vieux seigneur flairant le musc et l'ambre ?</l>
 	<l id="62">C'est un bouquet d'hiver qui parfume ma chambre.</l>
 </sp>
-<sp stage="agitated" who="LAFORÊT"><speaker>LAFORÊT, s'animant.</speaker>
+<sp who="LAFORÊT"><speaker>LAFORÊT</speaker><stage type="agitated">, s'animant.
+	</stage>
 	<l id="63" syll="1" part="i">Ah !...</l>
 </sp>
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
@@ -236,7 +241,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Laforêt seule un moment, puis Racine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Laforêt seule un moment, puis Racine.
+</stage>
 <sp who="LAFORÊT"><speaker>LAFORÊT.</speaker>
 	<l id="71">Oui, malgré tant de soins, d'hommages empressés,</l>
 	<l id="72">Une actrice jamais ne dira : C'est assez....</l>
@@ -271,7 +277,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="RACINE"><speaker>RACINE, seul.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="81">Le premier pas est fait : me voilà donc chez elle !</l>
 	<l id="82">Du courage ! Elle va venir, et je chancelle !</l>
 	<l id="83">Ce bonheur, qui longtemps fut un rêve pour moi,</l>
@@ -292,12 +299,15 @@
 	<l id="98">La voici... Tous mes sens frissonnent. Qu'elle est belle !</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Béjart, Racine.</head>
-<sp stage="embarrassed" who="RACINE"><speaker>RACINE, avec embarras.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Béjart, Racine.
+</stage>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="embarrassed">, avec embarras.
+	</stage>
 	<l id="99">Madame... pardonnez... à la témérité...</l>
 	<l id="100" syll="3" part="i">À l'audace....</l>
 </sp>
-<sp stage="smile" who="BÉJART"><speaker>BÉJART, souriant.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="100" syll="9" part="f">Monsieur... Cette timidité</l>
 	<l id="101">Dans l'homme de talent n'a rien qui me surprenne,</l>
 	<l id="102">Et pourtant le succès de votre ode à la reine</l>
@@ -340,7 +350,8 @@
 	<l id="117">Il écoute, il adore, il jouit en silence,</l>
 	<l id="118">Et l'admiration n'est pas de l'indulgence.</l>
 </sp>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="119" syll="6" part="i">Quels termes ! Quels accents !</l>
 <stage type="loud">Haut.</stage>
 	<l id="119" syll="6" part="f">Monsieur, puis-je savoir</l>
@@ -448,7 +459,8 @@
 <sp who="RACINE"><speaker>RACINE.</speaker>
 	<l id="187">Ah ! Son courroux fatal dans ses yeux est écrit !</l>
 </sp>
-<sp stage="sweet" who="BÉJART"><speaker>BÉJART, avec bonté.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="sweet">, avec bonté.
+	</stage>
 	<l id="188">Monsieur Racine ! Où donc est votre manuscrit ?</l>
 </sp>
 <sp who="RACINE"><speaker>RACINE.</speaker>
@@ -478,7 +490,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="BÉJART"><speaker>BÉJART, seule.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="199">Quel air noble et charmant ! que de grâce et d'esprit !...</l>
 	<l id="200">S'il s'exprime si bien, comme est ce qu'il écrit ?</l>
 	<l id="201">De répondre à ses voeux qui pourrait se défendre ?</l>
@@ -502,7 +515,8 @@
 	<l id="213" syll="9" part="f">Un jeune homme !... Oh oui ! Dont la venue...</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Béjart, Molière, qui l'a écoutée.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Béjart, Molière, qui l'a écoutée.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="214" syll="3" part="i">Bien, très bien !</l>
 </sp>
@@ -649,7 +663,8 @@
 	<l id="292">C'est vous seul qui de moi semblez toujours douter !</l>
 	<l id="293">De manquer à l'honneur me croyez-vous capable ?</l>
 </sp>
-<sp stage="anger" who="MOLIÈRE"><speaker>MOLIÈRE, en colère.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="anger">, en colère.
+	</stage>
 	<l id="294">Qui se plaît au danger devient bientôt coupable !</l>
 <stage type="stop">Tout_à_coup il s'arrête.</stage>
 	<l id="295">Malheureux, qu'ai-je dit ?... Fatal emportement !</l>
@@ -683,7 +698,8 @@
 	<l id="311">Oh oui ! Que ce baiser qui me tient sous ta loi,</l>
 	<l id="312">Aille jusqu'à ce coeur, qui soit toujours à moi !</l>
 </sp>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="313">Avec beaucoup d'amour un peu d'adresse unie,</l>
 	<l id="314">On fait tout ce qu'on veut d'un homme de génie.</l>
 </sp>
@@ -754,11 +770,13 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="327" syll="2" part="f">Mais oui...</l>
 </sp>
-<sp stage="subtil" who="BÉJART"><speaker>BÉJART, avec malice.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="subtil">, avec malice.
+	</stage>
 	<l id="328">Peut-être aimez-vous mieux rester seul avec lui.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, Racine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, Racine.
+</stage>
 <sp who="RACINE"><speaker>RACINE.</speaker>
 	<l id="329" syll="2" part="i">Monsieur...</l>
 </sp>
@@ -770,7 +788,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Molière, Racine.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Molière, Racine.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="333" syll="6" part="i">Eh bien, mon jeune ami ?</l>
 </sp>
@@ -963,10 +982,12 @@
 	<l id="477">Voyons ce manuscrit qui vient là si timide...</l>
 	<l id="478" syll="2" part="i">Le titre...</l>
 </sp>
-<sp stage="give" who="RACINE"><speaker>RACINE, lui donnant le manuscrit.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="give">, lui donnant le manuscrit.
+	</stage>
 	<l id="478" syll="4" part="m">Le titre est...</l>
 </sp>
-<sp stage="read" who="MOLIÈRE"><speaker>MOLIÈRE, lisant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="read">, lisant.
+</stage>
 <note type="C">La Thébaïde est la première tragédie jouée de Jean Racine, jouée pour la première fois le 20 juin 1664 par la Troupe de Molière.</note>
 	<l id="478" syll="6" part="f">Comment ? la Thébaïde !...</l>
 	<l id="479">Épisode fameux ; longtemps j'en ai rêvé...</l>
@@ -1047,19 +1068,24 @@
 	<l id="542">Frères, applaudissez, mon triomphe est le vôtre! »</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Molière, Racine, Béjart.</head>
-<sp stage="entrance/aparte" who="BÉJART"><speaker>BÉJART, à part en arrivant.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Molière, Racine, Béjart.
+</stage>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="entrance/aparte">, à part en arrivant.
+	</stage>
 	<l id="543" syll="10" part="i">Quel est le résultat de l'entrevue ?... </l>
 <stage type="loud/toward">Haut à Molière.</stage>
 	<l id="543" syll="2" part="f">Eh bien !</l>
 </sp>
-<sp stage="watch/estonish" who="RACINE"><speaker>RACINE, regardant Béjart avec étonnement comme s'il sortait d'un rêve.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="watch/estonish">, regardant Béjart avec étonnement comme s'il sortait d'un rêve.
+	</stage>
 	<l id="544" syll="1" part="i">Ah !</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Bejart.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Bejart.
+	</stage>
 	<l id="544" syll="11" part="f">Votre protégé va devenir le mien.</l>
 </sp>
-<sp stage="toward" who="BÉJART"><speaker>BÉJART, à Racine.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="toward">, à Racine.
+	</stage>
 	<l id="545" syll="9" part="i">Molière a donc tenu ma promesse...</l>
 </sp>
 <sp who="RACINE"><speaker>RACINE.</speaker>
@@ -1094,7 +1120,8 @@
 <sp who="RACINE"><speaker>RACINE.</speaker>
 	<l id="555">Ah ! Par hasard déjà le vôtre était transcrit.</l>
 </sp>
-<sp stage="smile" who="MOLIÈRE"><speaker>MOLIÈRE, souriant...</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="smile">, souriant...
+	</stage>
 	<l id="556">Fort bien... Je m'en vais seul lire le manuscrit.</l>
 	<l id="557">Vous, pendant qu'en secret je le lis, le contrôle,</l>
 <stage type="show">Montrant Béjart.</stage>
@@ -1113,7 +1140,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="BÉJART"><speaker>BÉJART, seule.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="561">Il s'en va le coeur plein de joie et d'espérance !</l>
 	<l id="562">Allons ! Tout ira bien, j'en suis sûre d'avance...</l>
 	<l id="563">Molière a tant de goût... L'ouvrage lui plaira...</l>
@@ -1124,7 +1152,8 @@
 	<l id="568">Et je ne veux jouer aucun autre avant lui.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Béjart, Laforêt.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Béjart, Laforêt.
+</stage>
 <sp who="LAFORÊT"><speaker>LAFORÊT.</speaker>
 	<l id="569" syll="10" part="i">Madame, deux auteurs désireraient...</l>
 </sp>
@@ -1144,13 +1173,16 @@
 	<l id="575">S'ils pensent que pour eux je vais encore ainsi</l>
 	<l id="576" syll="6" part="i">M'exposer. Oh ! non pas...</l>
 </sp>
-<sp stage="WATCH" who="LAFORÊT"><speaker>LAFORÊT, apercevant Leclerc et Coras.</speaker>
+<sp who="LAFORÊT"><speaker>LAFORÊT</speaker><stage type="WATCH">, apercevant Leclerc et Coras.
+	</stage>
 	<l id="576" syll="6" part="f">Madame, les voici.</l>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Béjart, Leclerc, Coras.</head>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Béjart, Leclerc, Coras.
+</stage>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="577" syll="4" part="i">Je les attends !</l>
 </sp>
 <sp who="CORAS"><speaker>CORAS.</speaker>
@@ -1161,13 +1193,15 @@
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
 	<l id="578" syll="6" part="f">Aussi bien qu'il tourmente !</l>
 </sp>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="579">Racine sait mieux qu'eux tourner des compliments.</l>
 </sp>
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="580">Comment vont le théâtre et les amusements ?</l>
 </sp>
-<sp stage="sit" who="BÉJART"><speaker>BÉJART, s'asseyant.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="sit">, s'asseyant.
+	</stage>
 	<l id="581">Ah ! Je suis lasse encor des travaux de la veille !</l>
 </sp>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
@@ -1188,7 +1222,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="586" syll="6" part="i">Le talent est modeste.</l>
 </sp>
-<sp stage="interrupt" who="BÉJART"><speaker>BÉJART, l'interrompant.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="586" syll="6" part="f">Oh ! Parlons d'autre chose.</l>
 </sp>
 <sp who="CORAS"><speaker>CORAS.</speaker>
@@ -1263,7 +1298,8 @@
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
 	<l id="603" syll="1" part="i">Vrai !</l>
 </sp>
-<sp stage="toward" who="CORAS"><speaker>CORAS, à Béjart.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="toward">, à Béjart.
+	</stage>
 	<l id="603" syll="11" part="f">Votre personnage est un bijou parfait,</l>
 </sp>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
@@ -1294,7 +1330,8 @@
 	<l id="609" syll="10" part="f">Mais n'êtes-vous pas sûre</l>
 	<l id="610" syll="3" part="i">Des bravos ?...</l>
 </sp>
-<sp stage="aparte" who="BÉJART"><speaker>BÉJART, à part.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="610" syll="2" part="m">Avec eux ? </l>
 <stage type="loud">Haut.</stage>
 	<l id="610" syll="6" part="f">Oh! non, je vous assure !</l>
@@ -1359,7 +1396,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="633" syll="2" part="i">Ni moi.</l>
 </sp>
-<sp stage="toward" who="LECLERC"><speaker>LECLERC, à Bejart.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="toward">, à Bejart.
+	</stage>
 	<l id="633" syll="4" part="f">Ni vous non plus.</l>
 </sp>
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
@@ -1378,7 +1416,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Coras, Leclerc.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Coras, Leclerc.
+</stage>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
 	<l id="641">Eh bien ! Peut-on agir d'une façon plus leste ?</l>
 </sp>
@@ -1411,12 +1450,14 @@
 	<l id="656">Dès qu'on jouera Racine, on ne nous jouera plus.</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les mêmes, Racine.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les mêmes, Racine.
+</stage>
 <sp who="RACINE"><speaker>RACINE.</speaker>
 <stage type="entrance/stress">Il entre d'un air préoccupé.</stage>
 	<l id="657" syll="2" part="i">Messieurs....</l>
 </sp>
-<sp stage="anger" who="LECLERC"><speaker>LECLERC, avec colère.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="anger">, avec colère.
+	</stage>
 	<l id="657" syll="2" part="m">Monsieur....</l>
 </sp>
 <sp who="RACINE"><speaker>RACINE.</speaker>
@@ -1431,10 +1472,12 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="659" syll="6" part="i">De votre goût naissant...</l>
 </sp>
-<sp stage="subtil" who="LECLERC"><speaker>LECLERC, avec finesse.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="subtil">, avec finesse.
+	</stage>
 	<l id="659" syll="6" part="f">De votre passion.</l>
 </sp>
-<sp stage="touch" who="RACINE"><speaker>RACINE, ému.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="touch">, ému.
+	</stage>
 	<l id="660" syll="4" part="i">Ma passion....</l>
 </sp>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
@@ -1483,7 +1526,8 @@
 	<l id="679">D'avance je me vois vanté, claqué, loué, </l>
 	<l id="680">Et je n'ai de chagrin que lorsqu'on m'a joué.</l>
 </sp>
-<sp stage="toward" who="CORAS"><speaker>CORAS, à Leclerc.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="toward">, à Leclerc.
+	</stage>
 	<l id="681">Il ne nous répond pas... Mon cher, prenons courage !</l>
 <stage type="enthousiasm">Avec triomphe.</stage>
 	<l id="682">Molière a refusé sans doute son ouvrage...</l>
@@ -1491,8 +1535,10 @@
 	<l id="684">Sa femme le vantait pour nous faire enrager.</l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Les mêmes, Béjart.</head>
-<sp stage="toward" who="BÉJART"><speaker>BÉJART, à Racine.</speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Les mêmes, Béjart.
+</stage>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="toward">, à Racine.
+	</stage>
 	<l id="685" syll="6" part="i">Eh bien ! Je vous attends !</l>
 </sp>
 <sp who="RACINE"><speaker>RACINE.</speaker>
@@ -1507,14 +1553,17 @@
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
 	<l id="686" syll="3" part="m">Venez donc.</l>
 </sp>
-<sp stage="toward" who="RACINE"><speaker>RACINE, à Coras et à Leclerc.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="toward">, à Coras et à Leclerc.
+	</stage>
 	<l id="686" syll="3" part="m">Au revoir !</l>
 </sp>
-<sp stage="furious" who="LECLERC"><speaker>LECLERC, furieux.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="furious">, furieux.
+	</stage>
 	<l id="686" syll="3" part="f">Petit drôle !</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XVI. Leclerc, Coras.</head>
+<div2 type="scene" n="14"><head>SCÈNE XVI.</head><stage> Leclerc, Coras.
+</stage>
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="687">Ainsi ce débutant va passer devant nous !</l>
 </sp>
@@ -1524,7 +1573,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="689" syll="1" part="i">Dame !</l>
 </sp>
-<sp stage="kiss" who="LECLERC"><speaker>LECLERC, l'embrassant.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="689" syll="11" part="f">Ah ! mon cher, quel mot et quel trait de lumière !</l>
 </sp>
 <sp who="CORAS"><speaker>CORAS.</speaker>
@@ -1543,7 +1593,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="692" syll="6" part="f">Vous expliquez si bien !</l>
 </sp>
-<sp stage="aparte" who="LECLERC"><speaker>LECLERC, à part.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="693">Quel cerveau lent et lourd ! Quel esprit léthargique !</l>
 	<l id="694">Il était vraiment né pour être auteur tragique.</l>
 <stage type="loud">Haut.</stage>
@@ -1574,8 +1625,10 @@
 	<l id="704">Quand on gagne du temps, Coras, on gagne tout.</l>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Les mêmes, Molière.</head>
-<sp stage="carry" who="MOLIÈRE"><speaker>MOLIÈRE, le manuscrit à la main.</speaker>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Les mêmes, Molière.
+</stage>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="carry">, le manuscrit à la main.
+	</stage>
 	<l id="705">Et c'est là son début ! Quel art ! Quelle science !</l>
 	<l id="706">Déjà du coeur humain il a l'expérience :</l>
 	<l id="707">D'amour, de passion quels sublimes éclairs !</l>
@@ -1585,7 +1638,8 @@
 	<l id="711">Si Corneille lisait, il lui dirait : Bravo !</l>
 <stage type="drop/location">Il met le manuscrit sur une table.</stage>
 </sp>
-<sp stage="ironic" who="CORAS"><speaker>CORAS, avec ironie.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="ironic">, avec ironie.
+	</stage>
 	<l id="712">Voici donc, à la fin, un chef-d'oeuvre nouveau !</l>
 	<l id="713">Quoi ! Vous auriez, avec un courage suprême,</l>
 	<l id="714" syll="6" part="i">Lu ses cinq actes ?</l>
@@ -1626,7 +1680,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="726">C'est un moyen certain quand la femme est actrice.</l>
 </sp>
-<sp stage="aparte" who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="727" syll="3" part="i">Que dit-il ?</l>
 </sp>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
@@ -1634,7 +1689,8 @@
 <stage type="toward">À Molière.</stage>
 	<l id="728">Vous avez fait, je crois, l'École des maris...</l>
 </sp>
-<sp stage="aparte" who="MOLIÈRE"><speaker>MOLIÈRE, à part.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="729" syll="6" part="i">Quoi ! Quel soupçon, grand Dieu !</l>
 </sp>
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
@@ -1658,7 +1714,8 @@
 	<l id="735" syll="6" part="f">Je ne vous comprends pas ;</l>
 	<l id="736" syll="6" part="i">Expliquez-vous, messieurs !</l>
 </sp>
-<sp stage="sweet" who="LECLERC"><speaker>LECLERC, avec affectation.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="sweet">, avec affectation.
+	</stage>
 	<l id="736" syll="6" part="f">Parlons un peu plus bas !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1709,7 +1766,8 @@
 <sp who="CORAS"><speaker>CORAS.</speaker>
 	<l id="753" syll="3" part="m">Nous partons !</l>
 </sp>
-<sp stageward="low/t" who="LECLERC"><speaker>LECLERC, bas à Coras.</speaker>
+<sp stageward="low/t" who="LECLERC"><speaker>LECLERC</speaker><stage>, bas à Coras.
+	</stage>
 	<l id="753" syll="6" part="f">L'idée était divine.</l>
 <stage type="loud">Haut.</stage>
 	<l id="754">Mon pauvre Poquelin, prenez garde à Racine !</l>
@@ -1717,7 +1775,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="18"><head>SCÈNE XVIII.</head>
-<sp stage="alone" who="MOLIÈRE"><speaker>MOLIÈRE, seul.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="755">Serait-il vrai, grand Dieu ? Mais non ! Cet impudent</l>
 	<l id="756">M'a fait un odieux mensonge... Cependant</l>
 	<l id="757">Ils sont là, tous les deux tête à tête ! Ah ! sans doute,</l>
@@ -1780,7 +1839,8 @@
 	<l id="808">Faut-il donc le haïr ? Je l'aimais tant déjà !...</l>
 </sp>
 </div2>
-<div2 type="scene" n="19" stage="hide"><head>SCÈNE XIX. Molière, caché, Racine, Béjart.</head>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage type="hide"> Molière, caché, Racine, Béjart.
+</stage>
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
 	<l id="809">À ce brusque retour j'étais loin de m'attendre !</l>
 	<l id="810">Quel est ce changement que je ne puis comprendre ?</l>
@@ -1803,7 +1863,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÉNE XX. Racine, Molière, toujours caché.</head>
+<div2 type="scene" n="20"><head>SCÉNE XX.</head><stage> Racine, Molière, toujours caché.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="823" syll="3" part="i">Je m'y perds !</l>
 </sp>
@@ -1881,14 +1942,16 @@
 <stage type="call">Il appelle.</stage>
 	<l id="877" syll="2" part="m">Quelqu'un...</l>
 </sp>
-<sp stage="run" who="LAFORÊT"><speaker>LAFORÊT, accourant.</speaker>
+<sp who="LAFORÊT"><speaker>LAFORÊT</speaker><stage type="run">, accourant.
+	</stage>
 	<l id="877" syll="1" part="m">Quoi ?</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="877" syll="6" part="f">Venez tous, qu'on s'empresse !</l>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI. Molière, Racine, Laforêt, Béjart ; puis Leclerc et Coras.</head>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Molière, Racine, Laforêt, Béjart ; puis Leclerc et Coras.
+</stage>
 <sp who="BÉJART"><speaker>BÉJART.</speaker>
 	<l id="878" syll="6" part="i">Que voulez-vous, Monsieur ?</l>
 </sp>
@@ -1909,10 +1972,12 @@
 	<l id="880">Ah ! Leclerc, c'est rentrer à propos... Ah! Coras...</l>
 	<l id="881" syll="3" part="i">Venez donc...</l>
 </sp>
-<sp stage="low/toward" who="LECLERC"><speaker>LECLERC, bas à Coras.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="low/toward">, bas à Coras.
+	</stage>
 	<l id="881" syll="3" part="m">Cela marche !</l>
 </sp>
-<sp stage="aparte" who="CORAS"><speaker>CORAS, à part.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="881" syll="6" part="f">Ah ! Le pauvre poète !</l>
 	<l id="882">Je vois cela d'ici... Sa ruine est complète.</l>
 </sp>
@@ -1938,7 +2003,8 @@
 <sp who="LECLERC"><speaker>LECLERC.</speaker>
 	<l id="889" syll="2" part="m">Vraiment !</l>
 </sp>
-<sp stage="aparte" who="CORAS"><speaker>CORAS, à part, en regardant Racine.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="aparte">, à part, en regardant Racine.
+	</stage>
 	<l id="889" syll="6" part="f">Sa pâleur est extrême !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1967,19 +2033,23 @@
 <stage type="toward">À Racine.</stage>
 	<l id="900" syll="6" part="f">Eh, oui! vous en ferez.</l>
 </sp>
-<sp stage="low/toward" who="CORAS"><speaker>CORAS, bas à Leclerc.</speaker>
+<sp who="CORAS"><speaker>CORAS</speaker><stage type="low/toward">, bas à Leclerc.
+	</stage>
 	<l id="901">Notre position me semble ici peu drôle....</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="902">Vous, madame, à l'instant reprenez votre rôle.</l>
 </sp>
-<sp stage="happy/toward" who="BÉJART"><speaker>BÉJART, avec joie, à Laforêt.</speaker>
+<sp who="BÉJART"><speaker>BÉJART</speaker><stage type="happy/toward">, avec joie, à Laforêt.
+	</stage>
 	<l id="903">Quand j'avais parié qu'il me l'aurait rendu !</l>
 </sp>
-<sp stage="low/toward" who="LECLERC"><speaker>LECLERC, bas à Coras.</speaker>
+<sp who="LECLERC"><speaker>LECLERC</speaker><stage type="low/toward">, bas à Coras.
+	</stage>
 	<l id="904">Je crois Iphigénie un chef-d'oeuvre perdu.</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Racine.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Racine.
+	</stage>
 	<l id="905">Puisse votre triomphe être franc, légitime !</l>
 	<l id="906">J'ai beaucoup de mépris pour les succès d'estime.</l>
 	<l id="907">Racine, c'est trop peu d'un succès contesté :</l>
@@ -1987,7 +2057,8 @@
 	<l id="909">Qu'une salle déserte horriblement résonne !</l>
 	<l id="910">Et qu'un théâtre est grand quand on n'y voit personne !...</l>
 </sp>
-<sp stage="toward" who="LAFORÊT"><speaker>LAFORÊT, à Racine.</speaker>
+<sp who="LAFORÊT"><speaker>LAFORÊT</speaker><stage type="toward">, à Racine.
+	</stage>
 	<l id="911">Sans juger ce qu'un jour votre talent vaudra,</l>
 	<l id="912">Faites-moi du Molière, et le public viendra !</l>
 </sp>

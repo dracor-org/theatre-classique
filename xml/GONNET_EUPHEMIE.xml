@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,12 +29,12 @@
 			<titlePart type="main">EUPHÉMIE</titlePart>
 			<titlePart type="sub">OU LE COMPLIMENT IMPROVISÉ</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858</docDate>
-		<docAuthor id='GONNET, Eugène'>Par l'Abbé E. GONNET.</docAuthor>
+		<docDate value="1858">1858</docDate>
+		<docAuthor id="GONNET, Eugène">Par l'Abbé E. GONNET.</docAuthor>
 		<docImprint>
-			<editor id='CAILLAT-BELHOMME'>AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
-			<printer id='JACQUET'>AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
-			<approbation><head></head>
+			<editor id="CAILLAT-BELHOMME">AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
+			<printer id="JACQUET">AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
+			<approbation><head/>
 				<p>Avignon le 20 juillet 1858.</p>
 				<p>L'ARCHEVÊQUE D'AVIGNON.</p>
 				<p>Vu le rapport que lui a fait un des membres de la Commission chargée de l'examen des livres dans son diocèse..</p>
@@ -43,16 +43,17 @@
 			</approbation>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="EUPHÉMIE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>EUPHÉMIE</role>.</castItem>
-			<castItem><role id="PAULA" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>PAULA</role>.</castItem>
-			<castItem><role id="JULIENNE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>JULIENNE</role>.</castItem>
+			<castItem><role id="EUPHÉMIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">EUPHÉMIE</role>.</castItem>
+			<castItem><role id="PAULA" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">PAULA</role>.</castItem>
+			<castItem><role id="JULIENNE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">JULIENNE</role>.</castItem>
 		</castList>
 		<set location="Avignon" country="France" periode="XIXème" gps="43.893582, 4.9456364">La scène se passe dans une cour ombragée.</set>
 		<note>Extrait de "Dialogues en vers pour pensionnaires ou congrégations de jeunes demoiselles", 1er cahier, de l'Abbé Eugène Gonnet. pp 1-9</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>EUPHÉMIE OU LE COMPLIMENT IMPROVISÉ</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Euphémie, Paula.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Euphémie, Paula.
+</stage>
 <sp who="EUPHÉMIE"><speaker>EUPHÉMIE.</speaker>
 	<l id="1">Oui, depuis ce matin, il me semble, à te voir,</l>
 	<l id="2">Que tes yeux pétillants brillent d'un doux espoir.</l>
@@ -128,8 +129,10 @@
 	<l id="33" syll="6" part="i">Que nous apporte-t-elle ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes et Julienne.</head>
-<sp who="JULIENNE"><speaker>JULIENNE, comme essoufflée.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes et Julienne.
+</stage>
+<sp who="JULIENNE"><speaker>JULIENNE</speaker><stage>, comme essoufflée.
+	</stage>
 	<l id="33" syll="6" part="f">Euphémie ! Eh ! Paula !</l>
 </sp>
 <sp who="PAULA"><speaker>PAULA.</speaker>
@@ -147,7 +150,8 @@
 <sp who="EUPHÉMIE"><speaker>EUPHÉMIE.</speaker>
 	<l id="35" syll="3" part="f">Ô mon_Dieu !</l>
 </sp>
-<sp who="JULIENNE"><speaker>JULIENNE, à Euphémie.</speaker>
+<sp who="JULIENNE"><speaker>JULIENNE</speaker><stage>, à Euphémie.
+	</stage>
 	<l id="35" syll="9" part="f">Ne crains rien. Va, c'est la bonté même.</l>
 	<l id="36">Comme on nous l'avait dit, en le voyant, on l'aime ;</l>
 	<l id="37">Et, loin de redouter l'approche de ses pas,</l>
@@ -170,12 +174,14 @@
 <sp who="EUPHÉMIE"><speaker>EUPHÉMIE.</speaker>
 	<l id="44" syll="3" part="m">C'est très juste.</l>
 </sp>
-<sp stage="toward" who="PAULA"><speaker>PAULA, à Euphémie.</speaker>
+<sp who="PAULA"><speaker>PAULA</speaker><stage type="toward">, à Euphémie.
+	</stage>
 	<l id="44" syll="6" part="f">Eh ! bien, ma bonne amie,</l>
 	<l id="45">Sache que pour ce soin je m'en rapporte à toi.</l>
 	<l id="46" syll="4" part="i">Mon choix est fait.</l>
 </sp>
-<sp stage="shy" who="EUPHÉMIE"><speaker>EUPHÉMIE, avec modestie.</speaker>
+<sp who="EUPHÉMIE"><speaker>EUPHÉMIE</speaker><stage type="shy">, avec modestie.
+	</stage>
 	<l id="46" syll="2" part="m">Non, non.</l>
 </sp>
 <sp who="JULIENNE"><speaker>JULIENNE.</speaker>

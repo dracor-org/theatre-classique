@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>L'AMANT AUTEUR ET VALET, COMÉDIE.</title>
-			<author born='1709' born_location='' death='1797' death_location='Paris' academie='1673'>CÉROU, Le Chevalier Pierre</author>
+			<author born="1709" born_location="" death="1797" death_location="Paris" academie="1673">CÉROU, Le Chevalier Pierre</author>
 		</titleStmt>
 		<publicationStmp>	
 			<publisher>publié par Paul FIEVRE, novembre, 2016, revu février 2017.</publisher>
@@ -24,31 +24,32 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>L'AMANT AUTEUR ET VALET</titlePart>
-			<titlePart type='sub'>COMÉDIE EN UN ACTE ET EN PROSE</titlePart>
-			<titlePart type='sub'>Représentée sur le Théâtre des Comédiens Italiens Ordinaires du Roi au mois de Février 1740.</titlePart>
+			<titlePart type="main">L'AMANT AUTEUR ET VALET</titlePart>
+			<titlePart type="sub">COMÉDIE EN UN ACTE ET EN PROSE</titlePart>
+			<titlePart type="sub">Représentée sur le Théâtre des Comédiens Italiens Ordinaires du Roi au mois de Février 1740.</titlePart>
 		</docTitle> 
-		<docDate value='1762'>M. DCC LXII. Avec approbation et Privilège du Roi</docDate>
-		<docAuthor id='CÉROU, Pierre' bio='cérou'>Par M. le Chevalier de Cérou, Citoyen de Toulouse.</docAuthor>
+		<docDate value="1762">M. DCC LXII. Avec approbation et Privilège du Roi</docDate>
+		<docAuthor id="CÉROU, Pierre" bio="cérou">Par M. le Chevalier de Cérou, Citoyen de Toulouse.</docAuthor>
 		<docImprint>
-			<printer id='DUSCHENE'>À PARIS, Chez DUSCHENE, rue Saint-Jacques, au dessous de la Fontaine Saint-Benoît, au Temple du Goût.</printer>
+			<printer id="DUSCHENE">À PARIS, Chez DUSCHENE, rue Saint-Jacques, au dessous de la Fontaine Saint-Benoît, au Temple du Goût.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1740-02' location=''>Représentée sur le Théâtre des Comédiens Italiens Ordinaires du Roi.</premiere>
+			<premiere date="1740-02" location="">Représentée sur le Théâtre des Comédiens Italiens Ordinaires du Roi.</premiere>
 		</performance>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="ERASTE" sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>ERASTE</role>, neveu de Mondor.</castItem> 
-		<castItem><role id="MONDOR" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MONDOR</role>, amoureux de Lucinde.</castItem> 
-		<castItem><role id="LUCINDE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>LUCINDE</role>, veuve. </castItem>
-		<castItem><role id="FRONTIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>FRONTIN</role>, valet de Lucinde et d'Eraste.</castItem> 
-		<castItem><role id="LISETTE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LISETTE</role>, suivante de Lucinde.</castItem>
+		<castItem><role id="ERASTE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">ERASTE</role>, neveu de Mondor.</castItem> 
+		<castItem><role id="MONDOR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONDOR</role>, amoureux de Lucinde.</castItem> 
+		<castItem><role id="LUCINDE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LUCINDE</role>, veuve. </castItem>
+		<castItem><role id="FRONTIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">FRONTIN</role>, valet de Lucinde et d'Eraste.</castItem> 
+		<castItem><role id="LISETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LISETTE</role>, suivante de Lucinde.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est à Paris, chez Lucinde.</set>
 </front>
 <body>
-<div1 type="act" n="1"><head></head>
+<div1 type="act" n="1"><head/>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ERASTE"><speaker>ERASTE, seul. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="alone">, seul. 
+</stage>
 <p id="1">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">Qu'ai-je fait ? </s>
@@ -58,7 +59,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Eraste, Frontin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Eraste, Frontin.
+</stage>
 <sp who="ERASTE"><speaker>ERASTE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -323,7 +325,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Eraste, Lisette, Frontin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Eraste, Lisette, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Adieu, camarade.</s>
@@ -335,8 +338,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Eraste, Lisette.</head>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Eraste, Lisette.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Dieu, mon fat. </s>
 	<s id="2">Il fait bien de s'en aller ; sa présence commençait à m'ennuyer, et je crois que je ne l'aime plus : l'Orange vaut mieux que lui, et je crois ne lui être pas indifférente. </s>
@@ -386,7 +391,8 @@
 	<s id="2">C'est que vous aimez, que vous cherchez à plaire, et que vous réussissez assez bien.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Se serait-elle aperçue que Lucinde eût quelque bienveillance pour moi ?</s>
 </p>
@@ -403,7 +409,8 @@
 	<s id="3">Des soupirs même quelquefois ; tout cela m'a dit que vous aimiez, et tout cela m'a dit vrai.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Elle a deviné le motif de mes intentions et de mes assiduités.</s>
 </p>
@@ -412,7 +419,8 @@
 	<s id="1">En forte donc que si je vous faisais confidence de quelque affaire de coeur, vous ne me feriez point contraire ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="15">
 	<s id="1">Bon. </s>
 	<s id="2">Voici qui va nous mener à une déclaration en forme. </s>
@@ -429,7 +437,8 @@
 	<s id="1">Jusqu'à présent je me suis contraint, et mon amour, malgré sa violence, n'a point encore osé se faire connaître.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="18">
 	<s id="1">Effectivement, il ne m'en a pas encore ouvert la bouche.</s>
 </p>
@@ -449,7 +458,8 @@
 	<s id="4">Que ne vous devrais-je point !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="21">
 	<s id="1">Il s'enhardit : aidons un peu à la lettre.</s>
 </p>
@@ -459,7 +469,8 @@
 	<s id="2">Oui, l'on m'a fait confidence des sentiments que vous inspirez ; et pour vous donner des preuves de ce qu'on vous avance, vous verrez votre rival maltraité à vos yeux même : je crois qu'après un pareil triomphe, vous ne douterez plus de votre victoire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="23">
 	<s id="1">Elle congédierait Mondor !</s>
 </p>
@@ -511,7 +522,8 @@
 	<s id="3">Vous voyez le prix , songez à le mériter.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="32">
 	<s id="1">Elle n'a pas mal pris le change, et moi aussi. Ah ! je m' étonnois bien que Lucinde...</s>
 </p>
@@ -525,7 +537,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mondor, Eraste, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mondor, Eraste, Lisette.
+</stage>
 <sp who="MONDOR"><speaker>MONDOR. </speaker>
 <p id="1">
 	<s id="1">Bonjour, ma belle enfant, comment se porte Lucinde ? </s>
@@ -538,7 +551,8 @@
 	<s id="1">Tout ira bien , Monsieur, c'est moi qui vous le dis.</s>
 </p>
 </sp>
-<sp stage="aparte/toward" who="MONDOR"><speaker>MONDOR, à part à Lisette. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="aparte/toward">, à part à Lisette. 
+</stage>
 <p id="3">
 	<s id="1">Que fais-tu ici de ce garçon ! </s>
 	<s id="2">Sa physionomie ne me revient pas. </s>
@@ -551,7 +565,8 @@
 	<s id="2">Dans le fond, il vous honore et vous respecte infiniment.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONDOR"><speaker>MONDOR, à Eraste. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="toward">, à Eraste. 
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est quelque chose. Cela est-il vrai ?</s>
@@ -614,8 +629,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lucinde, Mondor, Eraste, Lisette.</head>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lucinde, Mondor, Eraste, Lisette.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Cela m'inquiète à la fin ; voilà plusieurs galanteries de cette nature, que je reçois sans savoir de quelle part. </s>
 </p>
@@ -626,7 +643,8 @@
 	<s id="1">Madame, je vous demande pardon de ne m' être pas plutôt aperçu de votre arrivée ; je vois bien que l'amour ne donne pas le talent de deviner.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">Mon coeur me l'avait pourtant annoncée.</s>
 </p>
@@ -646,7 +664,8 @@
 	<s id="5">Pour moi, je trouve ce procédé charmant, et, si c' était la mode, je vous le demanderzis sans façon ; Madame, suis-je votre fait ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">La délicate façon d'aimer !</s>
 </p>
@@ -670,7 +689,8 @@
 	<s id="4">Je puis donc vous offrir, avec ma main, le partage de cent bonnes mille livres de rente. Si j'étais jeune, je vous crois si désintéressée que je ne vous parlerais pas de mon bien ; mais je commence à ne l'être plus ; il vous faut un prétexte pour m'épouser, je vous l'offre.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LISETTE"><speaker>LISETTE, bas, à Lucinde.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/toward">, bas, à Lucinde.
+</stage>
 <p id="11">
 	<s id="1">Résistez à cela, si vous pouvez.</s>
 </p>
@@ -719,7 +739,8 @@
 	<s id="2">Un mari est trop heureux quand on ne le trouve pas insupportable.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LISETTE"><speaker>LISETTE, bas, à Lucinde.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/toward">, bas, à Lucinde.
+</stage>
 <p id="20">
 	<s id="1">Quel trésor, Madame !</s>
 </p>
@@ -779,7 +800,8 @@
 	<s id="1">Ne vous en défendez point : je vous dis qu'il m'ont fait plaisir. </s>
 </p>
 </sp>
-<sp stage="low" who="MONDOR"><speaker>MONDOR, bas. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="low">, bas. 
+</stage>
 <p id="31">
 	<s id="1">Que diable veut-elle donc dire avec ces vers ?</s>
 </p>
@@ -788,7 +810,8 @@
 	<s id="1">Mais, Madame, jetez seulement les yeux sur moi, ai-je l'air et l'encolure d'un poète ?</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LISETTE"><speaker>LISETTE, bas, à Mondor.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/toward">, bas, à Mondor.
+</stage>
 <p id="33">
 	<s id="1">Si c'est vous qui les avez faits, pourquoi ne pas l'avouer ? </s>
 	<s id="2">Vous auriez fort bien pu vous adresser à moi pour les faire tenir.</s>
@@ -799,7 +822,8 @@
 	<s id="1">À l'autre !</s>
 </p>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Lucinde.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Lucinde.
+</stage>
 <p id="35">
 	<s id="1">C'est Monsieur qui les a faits. </s>
 </p>
@@ -819,7 +843,8 @@
 	<s id="2">Je suis persuadée que vous les trouverez bons, quoiqu'ils soient de vous.</s>
 </p>
 </sp>
-<sp stage="read" who="MONDOR"><speaker>MONDOR, lit mal. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="read">, lit mal. 
+	</stage>
 	<l id="1">Ah ! qu'il est douloureux de cacher son amour </l>
 	<l id="2">Pour un objet ou brillent tant de charmes ! </l>
 	<l id="3">J'aime Daphné.... </l>
@@ -840,7 +865,8 @@
 	<s id="2">Voyons comment tu t'en tireras.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCINDE"><speaker>LUCINDE, à Lisette. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="toward">, à Lisette. 
+</stage>
 <p id="42">
 	<s id="1">Il le fait exprès.</s>
 </p>
@@ -850,7 +876,8 @@
 	<s id="1">Sans doute.</s>
 </p>
 </sp>
-<sp stage="read" who="ERASTE"><speaker>ERASTE, lit.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="read">, lit.
+	</stage>
 	<l id="4">Ah ! Qu'il est douloureux de cacher son amour</l>
 	<l id="5">Pour un objet où brillent tant de charmes !</l>
 	<l id="6">J'aime Daphné, je la vois chaque jour,</l>
@@ -890,7 +917,8 @@
 	<s id="2">Vous ne pouvez plus vous dispenser de faire quelque chose pour moi, Madame, puisque je fais pour vous... l'impossible.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LUCINDE"><speaker>LUCINDE, riant. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="laugh">, riant. 
+</stage>
 <p id="50">
 	<s id="1">Je ne fais qu'en dire ; en vérité, je ne puis me résoudre à vous ôter toute espérance ; mais sur-tout donnez-moi souvent des vers et donnez-les vous-même, ils n'en seront que mieux reçus.</s>
 </p>
@@ -909,8 +937,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Lucinde, Eraste, Lisette.</head>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part. </speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Lucinde, Eraste, Lisette.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="1">
 	<s id="1">Il se divertit et m'amuse. </s>
 	<s id="2">Tâchons de savoir qui de Lisette ou de l'Orange, s'intéresse en sa faveur, et a mis ces vers sur ma toilette. </s>
@@ -1009,7 +1039,8 @@
 	<s id="2">Monsieur Mondor m'a voulu faire des présents : mais ces offres m'ont paru indignes de moi : ce sont des soins assidus et une passion sincère et approuvée qui doivent conduire au bonheur d'être votre époux ; tout autre secours en dégrade le plaisir et la gloire.</s>
 </p>
 </sp>
-<sp stage="pity" who="LISETTE"><speaker>LISETTE, d'un air de pitié. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="pity">, d'un air de pitié. 
+</stage>
 <p id="18">
 	<s id="1">Le beau raisonnement !</s>
 </p>
@@ -1102,7 +1133,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Eraste, Lisette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Eraste, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Applaudissez-vous. </s>
@@ -1141,7 +1173,8 @@
 	<s id="1">Voici Frontin, et j'ai mes raisons pour ne point parler de cela devant lui.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="7">
 	<s id="1">Il croit que je l'aime encore.</s>
 </p>
@@ -1155,7 +1188,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Eraste, Lisette, Frontin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Eraste, Lisette, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Bonjour, mes amis. </s>
@@ -1164,7 +1198,8 @@
 	<s id="4">Tu peux à présent me faire ta cour, j'ai quelques minutes à te sacrifier.</s>
 </p>
 </sp>
-<sp stage="tenderness" who="LISETTE"><speaker>LISETTE, tendrement. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="tenderness">, tendrement. 
+</stage>
 <p id="2">
 	<s id="1">Adieu l'Orange.</s>
 	</p>
@@ -1174,13 +1209,15 @@
 	<s id="1">Hé si !</s>
 </p>
 </sp>
-<sp stage="tenderness" who="LISETTE"><speaker>LISETTE, plus tendrement.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="tenderness">, plus tendrement.
+</stage>
 <p id="4">
 	<s id="1">Adieu l'Orange. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Eraste, Frontin.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Eraste, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Monsieur, voilà des adieux significatifs.</s>
@@ -1242,7 +1279,8 @@
 	<s id="5">Quel caractère !</s>
 </p>
 </sp>
-<sp stage="aparte" who="FRONTIN"><speaker>FRONTIN, à part. </speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="11">
 	<s id="1">Les doigts me démangent dès que je vois écrire. </s>
 	<s id="2">C'est une rage : aussi portai -je toujours avec moi mon ouvrage. </s>
@@ -1253,8 +1291,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Lucinde, Eraste, Frontin.</head>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Lucinde, Eraste, Frontin.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Lisette vient de m'étonner. </s>
 	<s id="2">Les sentiments que ce garçon fait paraître, annonceraient en lui des inclinations plus relevées. </s>
@@ -1307,12 +1347,14 @@
 	<s id="2">Comme quoi Frontin parait a la Cour, rend de grands services à un jeune Seigneur, et le met dans le monde au moyen des bonnes connAissances qu'il lui donne.</s>
 </p>	
 </sp>
-<sp stage="watch" who="LUCINDE"><speaker>LUCINDE, regardant le travail d'Eraste. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="watch">, regardant le travail d'Eraste. 
+</stage>
 <p id="9">
 	<s id="">Votre style me paraît beau.</s>
 </p>
 </sp>
-<sp stage="listen" who="ERASTE"><speaker>ERASTE, croyant entendre Frontin. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="listen">, croyant entendre Frontin. 
+</stage>
 <p id="10">
 	<s id="1">Trouvez-vous cela, Monsieur Frontin ? </s>
 	<s id="2">Je suis fort aise qu'il soit de votre goût.</s>
@@ -1326,7 +1368,8 @@
 	<s id="4">Je connaissais mon homme, il m'aurait chassé si je l'avais servi fidèlement.</s>
 </p>
 </sp>
-<sp stage="listen" who="ERASTE"><speaker>ERASTE, de même.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="listen">, de même.
+</stage>
 <p id="12">
 	<s id="1">Il n'est pas permis de tenir contre tant de sottises. </s>
 	<s id="2">Demande lui s'il se moque de moi.</s>
@@ -1337,7 +1380,8 @@
 	<s id="1">Cela suffit, je lui dirai.</s>
 </p>
 </sp>
-<sp stage="listen" who="ERASTE"><speaker>ERASTE, de même.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="listen">, de même.
+</stage>
 <p is="14">
 	<s id="1">Monsieur Frontin fait l'agréable, il adoucit, sa voix ; il en est sans doute à quelque endroit tendre de son roman.</s>
 </p>
@@ -1349,7 +1393,8 @@
 	<s id="2">Allons, broyons du noir, barbouillons-la des plus affreuses couleurs ; que ce tableau effraye tout son sexe, qu'il soit semé de réflexions ; les réflexions font la rocambole des romans.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="16">
 	<s id="1">Son Héroïne ne ressemble guère au portrait qu'il en fait.</s>
 </p>
@@ -1398,7 +1443,8 @@
 	<s id="1">L'Orange, sais-tu bien qu'il est ridicule de me faire attendre si longtemps pour une bagatelle semblable ?</s>
 </p>
 </sp>
-<sp stage="turn" who="ERASTE"><speaker>ERASTE, se retournant. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="turn">, se retournant. 
+</stage>
 <p id="24">
 	<s id="1">Ah Ciel !... </s>
 	<s id="2">Madame, je vous fais mille excuses ; je ne vous croyais pas si près.</s>
@@ -1418,14 +1464,16 @@
 	<s id="5">Nous partageons les profits.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ERASTE"><speaker>ERASTE, bas à Frontin.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="low/toward">, bas à Frontin.
+</stage>
 <p id="27">
 	<s id="1">Misérable ! </s>
 	<s id="2">Qu'as tu fait ? </s>
 	<s id="3">M'avoir ainsi laissé surprendre </s>
 </p>
 </sp>
-<sp stage="low" who="FRONTIN"><speaker>FRONTIN, bas </speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="low">, bas 
+</stage>
 <p id="28">
 	<s id="1">C'est l'effet de la composition ; j'étais dans l'enthousiasme.</s>
 </p>
@@ -1435,8 +1483,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCENE XII. Lucinde, Eraste.</head>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part. </speaker>
+<div2 type="scene" n="12"><head>SCENE XII.</head><stage> Lucinde, Eraste.
+</stage>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="1">
 	<s id="1">Que veut dire ceci ? </s>
 	<s id="2">Il parle à Frontin d'un air d'autorité.</s>
@@ -1498,7 +1548,8 @@
 	<s id="4">Je dirai plus, j'ai remarqué en vous des sentiments qui ne se trouvent guère que dans des personnes bien nées, et dont l'éducation a perfectionné le bon naturel.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE , à part.</speaker>
+<sp who="ERASTE"><speaker>ERASTE </speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Que cet examen est rude à soutenir !</s>
 </p>
@@ -1527,7 +1578,8 @@
 	<s id="3">Vous pourriez penser...</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas.
+</stage>
 <p id="14">
 	<s id="1">Quelle agitation ! </s>
 	<s id="2">Lisette a raison, il l'aime.</s>
@@ -1549,7 +1601,8 @@
 	<s id="2">Madame, il n'est que trop vrai qu'on n'est pas maître de son coeur ; mais je mourrais plutôt que de sortir du respect que je vous dois.</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas.
+</stage>
 <p id="18">
 	<s id="1">Il a peur de m'offenser en aimant ma femme-de-chambre. </s>
 	<s id="2">Hélas ! </s>
@@ -1560,7 +1613,8 @@ Haut.
 	<s id="1">Puisque vous êtes entraîné par un penchant que vous ne pouvez vaincre, je vous avoue que vous êtes à plaindre ; car enfin, avez-vous bien réfléchi sur l'objet et aux suites de votre passion ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="20">
 	<s id="1">Je n'en doute plus, elle sait que je l'aime.</s>
 </p>
@@ -1579,7 +1633,8 @@ Haut.
 	<s id="4">Vous ne l'ignorez pas, et vous ne voulez m'arracher l'aveu de ma témérité que pour m'en punir avec la dernière rigueur.</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas. 
+</stage>
 <p id="23">
 	<s id="1">L'aveu de sa témérité ! </s>
 	<s id="2">L'amour le met hors de lui-même.</s>
@@ -1633,7 +1688,8 @@ Haut.
 	<s id="2">Je ne suis pas digne en effet de votre colère ; mais sans votre ordre je ne serais pas coupable.</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas.
+</stage>
 <p id="32">
 	<s id="1">Il traite cette affaire on ne peut pas plus sérieusement.</s>
 </p>
@@ -1642,7 +1698,8 @@ Haut.
 	<s id="1">L'Orange, je sais les dispositions de votre maîtresse, et vous pouvez compter qu'en recevant votre main, son sort sera, pour le moins, aussi heureux que le vôtre.</s>
 </p>
 </sp>
-<sp stage="low" who="ERASTE"><speaker>ERASTE, bas.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="low">, bas.
+</stage>
 <p id="34">
 	<s id="1">Elle m'aime ? </s>
 	<s id="2">Elle sait donc qui je suis !</s>
@@ -1711,14 +1768,16 @@ Haut.
 	<s id="1">Je ne l'aime point, Madame.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="46">
 	<s id="1">Ciel ! </s>
 	<s id="2">Qu'entends-je ? </s>
 	<s id="3">Il aime ici, et ce n'est point Lisette !</s>
 </p>
 </sp>
-<sp stage="aprte" who="ERASTE"><speaker>ERASTE, à part. </speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aprte">, à part. 
+</stage>
 <p id="47">
 	<s id="1">Elle me parle de Lisette !</s>
 </p>
@@ -1739,12 +1798,14 @@ Haut.
 	<s id="1">Sortez, vous dis-je.</s>
 </p>
 </sp>
-<sp stage="away" who="ERASTE"><speaker>ERASTE, en s'en allant.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="51">
 	<s id="1">Je suis perdu !</s>
 </p>
 </sp>
-<sp stage="alone" who="LUCINDE"><speaker>LUCINDE, seule.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="52">
 	<s id="2">Je crains d'avoir approfondi ce que je voudrais ignorer. </s>
 	<s id="2">L'Orange, que je trouvais si poli, si spirituel pour un domestique, n'est autre chose qu'un amant déguisé. </s>
@@ -1758,7 +1819,8 @@ Haut.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Mondor, Lucinde. </head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Mondor, Lucinde. 
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -1854,7 +1916,8 @@ Haut.
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Mondor, Lucinde, Lisette.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Mondor, Lucinde, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE. </speaker>
 <p id="1">
 	<s id="1">Monsieur, voilà une lettre qui presse.</s>
@@ -1924,7 +1987,8 @@ Haut.
 	<s id="1">Il est parti, à ce qu'on m' écrit avec un domestique nommé Frontin.</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas. 
+</stage>
 <p id="13">
 	<s id="1">Ah ! </s>
 	<s id="2">Qu'entends-je !</s>
@@ -1936,7 +2000,8 @@ Haut.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Lucinde, Mondor, Lisette.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Lucinde, Mondor, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Madame.</s>
@@ -1961,7 +2026,8 @@ Haut.
 	<s id="1">Son père marque qu'il a appris, et cela par des gens qui l'ont-vu en cet état, qu' Eraste est au service d'une Dame.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LUCINDE"><speaker>LUCINDE, à part.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Ciel ! </s>
@@ -2020,7 +2086,8 @@ Haut.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Lucinde, Mondor, Eraste.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Lucinde, Mondor, Eraste.
+</stage>
 <sp who="ERASTE"><speaker>ERASTE.</speaker>
 <p id="1">
 	<s id="1">Madame, je me rends à vos ordres.</s>
@@ -2032,7 +2099,8 @@ Haut.
 	<s id="2">Il ne sait ce que peut être devenu un neveu, qu'il attendait ; vous pouvez l'avoir connu, puisque vous êtes de Lyon ; il se nomme Eraste.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERASTE"><speaker>ERASTE, à part.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="">Qu' entends-je ! </s>
 	<s id="2">Mondor est mon oncle. </s>
@@ -2040,18 +2108,21 @@ Haut.
 	<s id="4">Que vais- je devenir !</s>
 </p>
 </sp>
-<sp stage="low" who="LUCINDE"><speaker>LUCINDE, bas.</speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="low">, bas.
+</stage>
 <p id="4">
 	<s id="1">Quelle situation ! </s>
 	<s id="2">Je la partage : le pauvre garçon !</s>
 </p>
 </sp>
-<sp stage="toward" who="MONDOR"><speaker>MONDOR, à Lucinde. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="toward">, à Lucinde. 
+</stage>
 <p id="5">
 	<s id="1">Il paraît surpris ; il faut qu'il sache où est Eraste.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCINDE"><speaker>LUCINDE, à Mondor. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="toward">, à Mondor. 
+</stage>
 <p id="6">
 	<s id="1">Parlez-lui doucement, ne l'effarouchez point.</s>
 </p>
@@ -2133,8 +2204,10 @@ Haut.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Lucinde, Mondor, Eraste, Lisette,  Frontin.</head>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Frontin. </speaker>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Lucinde, Mondor, Eraste, Lisette,  Frontin.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Frontin. 
+</stage>
 <p id="1">
 	<s id="1">Si tu peux lui donner des nouvelles de ce qu'il cherche, ta fortune est faite.</s>
 </p>
@@ -2151,12 +2224,14 @@ Haut.
 </p>
 <stage type="wave">Eraste fait des signes à Frontin.</stage>
 </sp>
-<sp stage="toward" who="FRONTIN"><speaker>FRONTIN, à Mondor. </speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="toward">, à Mondor. 
+</stage>
 <p id="4">
 	<s id="1">Monsieur, il est bien flatteur pour moi que mon étoile, m'ait procuré l'honneur de la satisfaction de...</s>
 </p>
 </sp>
-<sp stage="hang" who="MONDOR"><speaker>MONDOR, le prenant au collet. </speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="hang">, le prenant au collet. 
+</stage>
 <p id="5">
 	<s id="1">Point de compliments, tranchons court, s'il vous plaît.</s>
 </p>
@@ -2197,7 +2272,8 @@ Haut.
 	<s id="1">L'Orange ne saurois-tu point où il est ?</s>
 </p>
 </sp>
-<sp stage="low" who="ERASTE"><speaker>ERASTE, bas.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="low">, bas.
+</stage>
 <p id="13">
 	<s id="1">Garde-toi de me nommer.</s>
 </p>
@@ -2253,7 +2329,8 @@ Haut.
 	<s id="3">L'Orange, épargne-moi une indiscrétion ; avoue toi-même que tu es Eraste, puisqu'on ne veut pas que je le sois.</s>
 </p>
 </sp>
-<sp stage="kneel" who="ERASTE"><speaker>ERASTE, se jetant aux genoux de Mondor.</speaker>
+<sp who="ERASTE"><speaker>ERASTE</speaker><stage type="kneel">, se jetant aux genoux de Mondor.
+</stage>
 <p id="23">
 	<s id="1">Eh bien, Monsieur, vous voyez ce neveu, qui ne doit plus vous sembler digne de l'être.</s>
 </p>
@@ -2264,12 +2341,14 @@ Haut.
 	<s id="2">Lui ?</s>
 </p>
 </sp>
-<sp stage="toward" who="FRONTIN"><speaker>FRONTIN, à Lisette. </speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="toward">, à Lisette. 
+</stage>
 <p id="25">
 	<s id="1">À propos, je te félicite de ta conquête.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCINDE"><speaker>LUCINDE, à Eraste. </speaker>
+<sp who="LUCINDE"><speaker>LUCINDE</speaker><stage type="toward">, à Eraste. 
+</stage>
 <p id="26">
 	<s id="1">Eh ! </s>
 	<s id="2">Par où ai-je mérité, Monsieur, une démarche aussi hardie et aussi offensante ?</s>
@@ -2306,7 +2385,8 @@ Haut.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Mondor, Eraste, Lisette, Frontin.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Mondor, Eraste, Lisette, Frontin.
+</stage>
 <sp who="MONDOR"><speaker>MONDOR.</speaker>
 <p id="1">
 	<s id="1">On se moque de vous, mon cher neveu ; mais consolez-vous, elle ma refusé moi-même.</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>mixte</type>
 				<periode>1821-1830</periode>
 				<taille>0-250</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader> 
@@ -30,23 +30,23 @@
 				<titlePart type="sub">REPRÉSENTÉE POUR LE PREMIÈRE FOIS À PARIS SUR EL NOUVEAU THÉÂTRE DE M. LE COMTE, LE LUNDI 28 OCTOBRE 1822.</titlePart>
 			</docTitle>
 			<docDate value="1822">1822.</docDate>
-			<docAuthor id="VANDER-BURCH, Émile" bio='vande-burch'>Par M. Émile VANDER-BURCH</docAuthor>
+			<docAuthor id="VANDER-BURCH, Émile" bio="vande-burch">Par M. Émile VANDER-BURCH</docAuthor>
 			<docImprint>
 				<printer id="FOUET">À PARIS, CHEZ J.-L. CHANSON, IMPRIMEUR-LIBRAIRE, RUE DES GRANDS-AUGUSTINS, N°10 ; LES LIBRAIRES DES SPECTACLES ; ET AU THÉÂTRE, PASSAGE DES PANORAMAS</printer>
 				<printer>IMPRIMERIE DE J.-L.  max J.-L. CHANSON.</printer>
 			</docImprint>
 			<performance>
-				<premiere date="1822-10-28" location='Théâtre de Monsieur de Comte'>REPRÉSENTÉE POUR LA PREMIÈRE FOIS À PARIS, SUR LE NOUVEAU THÉATRE DE M. COMTE. LE LUNDI 28 OCTOBRE 1822.</premiere>
+				<premiere date="1822-10-28" location="Théâtre de Monsieur de Comte">REPRÉSENTÉE POUR LA PREMIÈRE FOIS À PARIS, SUR LE NOUVEAU THÉATRE DE M. COMTE. LE LUNDI 28 OCTOBRE 1822.</premiere>
 			</performance>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="RACINE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>RACINE</role>, poète français. M. ALPHONSE.</castItem>
-			<castItem><role id="MATHURIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MATHURIN</role>, fermier if A _ M. HUTIN.</castItem>
-			<castItem><role id="THOMAS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>THOMAS</role>, fermier, M. BRIFFAUT.</castItem>
-			<castItem><role id="PATAFFLARD" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>PATAFFLARD</role>, greffier. M. PASTELOT.</castItem>
-			<castItem><role id="NICOLAS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>NICOLAS</role>, garçon de ferme. M. HYACINTHE</castItem>
-			<castItem><role id="NICETTE" sex="2" type="H" statut='bourgeois' age='E' stat_amour='néant'>NICETTE</role>, petite paysanne. Rôle accessoire Melle MICHELOT.</castItem>
-			<castItem><role id="MIMI" sex="1" type="H" statut='bourgeois' age='E' stat_amour='néant'>MIMI</role>, son son frère, Rôle accessoire. M. MANUEL.</castItem>
-			<castItem><role id="PAYSANS" sex="9" type="H" statut='bourgeois' age='A' stat_amour='néant'>PAYSANS</role>.</castItem>
+			<castItem><role id="RACINE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">RACINE</role>, poète français. M. ALPHONSE.</castItem>
+			<castItem><role id="MATHURIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MATHURIN</role>, fermier if A _ M. HUTIN.</castItem>
+			<castItem><role id="THOMAS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">THOMAS</role>, fermier, M. BRIFFAUT.</castItem>
+			<castItem><role id="PATAFFLARD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">PATAFFLARD</role>, greffier. M. PASTELOT.</castItem>
+			<castItem><role id="NICOLAS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">NICOLAS</role>, garçon de ferme. M. HYACINTHE</castItem>
+			<castItem><role id="NICETTE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">NICETTE</role>, petite paysanne. Rôle accessoire Melle MICHELOT.</castItem>
+			<castItem><role id="MIMI" sex="1" type="H" statut="bourgeois" age="E" stat_amour="néant">MIMI</role>, son son frère, Rôle accessoire. M. MANUEL.</castItem>
+			<castItem><role id="PAYSANS" sex="9" type="H" statut="bourgeois" age="A" stat_amour="néant">PAYSANS</role>.</castItem>
 		</castList>
 		<set location="Auteuil" country="France" periode="XVIIème" gps="48.849055, 2.266300">La scène se passe dans un petit bourg aux environs d'Auteuil.</set>
 		<note>S'adresser, pour la musique, au théâtre ; et chez M. Malpertuis, rue du Temple, n°81.</note>
@@ -56,7 +56,8 @@
 <stage type="decor">Le Théâtre représente un paysage. D'un côté, la ferme
 de Thomas ; de l'autre, celle de Mathurin.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="entrance/location" who="NICOLAS"><speaker>NICOLAS, sortant de la ferme à droite.</speaker>
+<sp who="NICOLAS"><speaker>NICOLAS</speaker><stage type="entrance/location">, sortant de la ferme à droite.
+</stage>
 <p id="1">
 	<s id="1">Enfin, la paix est donc faite ! </s>
 	<s id="2">Voilà tout le monde d'accord ; le père Mathurin a embrassé le père Thomas, le père Thomas a embrassé le père Mathurin ; le passé est oublié, ils ne plaideront point, et au lieu de vider un méchant procès, ils videront une bonne bouteille de vin ; car ils sont convenus de déjeuner ensemble. </s>
@@ -69,8 +70,10 @@ de Thomas ; de l'autre, celle de Mathurin.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Nicolas, Patafflard, un rouleau de papier sous le bras.</head>
-<sp stage="aparte" who="PATAFFLARD"><speaker>PATAFFLARD, à lui-même.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Nicolas, Patafflard, un rouleau de papier sous le bras.
+</stage>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="aparte">, à lui-même.
+</stage>
 <p id="1">
 	<s id="1">C'est aujourd'hui que Monsieur Racine, ce poète célèbre, doit venir prendre possession de ce beau domaine... </s>
 	<s id="2">Je veux le complimenter de main de maître, et ma harangue ne commence pas mal.</s>
@@ -158,7 +161,8 @@ quand je serai plus grand, vous me l'apprendrez ; je veux devenir savant comme v
 calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
-<sp stagae="call/together" who="THOMAS ET MATHURIN"><speaker>THOMAS ET MATHURIN, appelant chacun d'un côté.</speaker>
+<sp stagae="call/together" who="THOMAS ET MATHURIN"><speaker>THOMAS ET MATHURIN</speaker><stage>, appelant chacun d'un côté.
+</stage>
 <p id="18">
 	<s id="1">Nicolas !... </s>
 	<s id="2">Nicolas !...</s>
@@ -190,7 +194,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Patafflard, Mathurin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Patafflard, Mathurin.
+</stage>
 <sp who="MATHURIN"><speaker>MATHURIN.</speaker>
 <p id="1">
 	<s id="1">Voyez, ce coquin de Nicolas, je l'appelle à tue-tête ; c'est comme si je chantais.</s>
@@ -334,7 +339,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Patafflard, Thomas.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Patafflard, Thomas.
+</stage>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
 <p id="1">
 	<s id="1">Bonjour donc, Monsieur Patafflard.</s>
@@ -353,7 +359,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="2">Je me porte comme un charme ; je mange et bois bien ; je dors mieux encore ; mes petites affaires ne se portent pas mal non plus, et je suis sans inquiétudes.</s>
 </p>
 </sp>
-<sp stage="declamate" who="PATAFFLARD"><speaker>PATAFFLARD, avec emphase.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="declamate">, avec emphase.
+</stage>
 <p id="4">
 	<s id="1">O fortunatos nimiùm, sua si bona norint agricolas ! </s>
 	<s id="2">Ce qui veut dire en français : les paysans sont plus heureux que des rois quand l'année est bonne.</s>
@@ -434,7 +441,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Les choses vont à souhait.</s>
 </p>
 </sp>
-<sp stage="strong" who="THOMAS"><speaker>THOMAS, s'échauffant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="strong">, s'échauffant.
+</stage>
 <p id="20">
 	<s id="1">C'est qu'il ne faut pas que Monsieur Mathurin ait l'air de faire le...</s>
 </p>
@@ -463,7 +471,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les précédents, Mathurin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les précédents, Mathurin.
+</stage>
 <sp who="MATHURIN"><speaker>MATHURIN.</speaker>
 <p id="1">
 	<s id="1">La peste soit de l'animal.</s>
@@ -544,7 +553,8 @@ calamo, nous commencerons musa la musique. </s>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Mathurin, Thomas.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Mathurin, Thomas.
+</stage>
 <sp who="MATHURIN"><speaker>MATHURIN.</speaker>
 <p id="1">
 	<s id="1">Mais, enfin, à qui diable en as-tu ? </s>
@@ -607,7 +617,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les précédents, Nicolas.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les précédents, Nicolas.
+</stage>
 <sp who="NICOLAS"><speaker>NICOLAS.</speaker>
 <p id="1">
 	<s id="1">Faut-il que je prépare le déjeuner pour qu'on déjeune ?</s>
@@ -630,12 +641,14 @@ calamo, nous commencerons musa la musique. </s>
 </p> 
 <stage type="dress">Ils se mettent à table.</stage>
 </sp>
-<sp stage="drink" who="THOMAS"><speaker>THOMAS, buvant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="drink">, buvant.
+</stage>
 <p id="5">
 	<s id="1">Je te la souhaite.</s>
 </p>
 </sp>
-<sp stage="drink" who="MATHURIN"><speaker>MATHURIN, buvant.</speaker>
+<sp who="MATHURIN"><speaker>MATHURIN</speaker><stage type="drink">, buvant.
+</stage>
 <p id="6">
 	<s id="1">Je te rends la pareille.</s>
 </p>
@@ -747,7 +760,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les Précédents, Patafflard.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les Précédents, Patafflard.
+</stage>
 <sp who="PATAFFLARD"><speaker>PATAFFLARD.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -776,7 +790,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Voyons, où est ce vin ; je vais vous dire cela de la première main.</s>
 </p>
 </sp>
-<sp stage="give" who="NICOLAS"><speaker>NICOLAS, lui en donnant.</speaker>
+<sp who="NICOLAS"><speaker>NICOLAS</speaker><stage type="give">, lui en donnant.
+</stage>
 <note type="L">Guignolant : terme inconnu.</note>
 <note type="L">Mistenflûte : Terme populaire qui se disait d'un jeune garçon trop délicat. [L] L'usage qu'en fait Nicolas est impropre sauf s'il entend Sceux comme Sot.</note>
 <p id="6">
@@ -800,7 +815,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">On s'y conforme la... </s>
 </p>
 </sp>
-<sp stage="drink" who="PATAFFLARD"><speaker>PATAFFLARD, après avoir bu.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="drink">, après avoir bu.
+</stage>
 <p id="10">
 	<s id="1">M'si , m'si !... </s>
 	<s id="2">C'est... ma foi je ne sais pas trop... Nicolas, verse, mon garçon, je veux m'assurer,</s>
@@ -859,7 +875,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les précédents, Racine.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les précédents, Racine.
+</stage>
 <sp who="RACINE"><speaker>RACINE.</speaker>
 <p id="1">
 	<s id="1">Ne vous dérangez pas, mes bons amis, indiquez-moi seulement si je suis bien dans la direction d'Auteuil ; je crains de m'être égaré sur la route.</s>
@@ -914,7 +931,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Justement, c'est un de mes grands amis.</s>
 </p>
 </sp>
-<sp stage="eat/location" who="NICOLAS"><speaker>NICOLAS, mangeant à l'écart.</speaker>
+<sp who="NICOLAS"><speaker>NICOLAS</speaker><stage type="eat/location">, mangeant à l'écart.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Bon, c'est signe que vous n'êtes pas une bête, car on dit comme ça qu'il fait la guerre aux sots, et qu'il n'est l'ami que des gens d'esprit ?</s>
@@ -953,7 +971,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Je suis pour les exploits... ; c'est-à-dire je ne les chante pas, je les dresse.</s>
 </p>
 </sp>
-<sp stage="laugh" who="RACINE"><speaker>RACINE, riant.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">J'entends... et comme homme de lettres...</s>
@@ -1001,7 +1020,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="3">Buvons à sa santé.</s>
 </p>
 </sp>
-<sp stage="together/drink" who="TOUS"><speaker>TOUS buvant.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="together/drink"> buvant.
+</stage>
 <p id="25">
 	<s id="1">À la santé de Monsieur Racine.</s>
 </p>
@@ -1136,7 +1156,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Quand je devrais y perdre cent écus.</s>
 </p>
 </sp>
-<sp stage="cry" who="THOMAS"><speaker>THOMAS, pleurant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="cry">, pleurant.
+</stage>
 <note type="L">Pour des prunes : populaire, pour rien, sans importance.</note>
 <p id="50">
 	<s id="1">Là, voyez si ce n'est pas terrible de se quereller comme ça pour des prunes.</s>
@@ -1197,7 +1218,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Ah ! Bon dieu, c'est-il possible ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="PATAFFLARD"><speaker>PATAFFLARD, à part.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="aparte">, à part.
+</stage>
 <p id="55">
 	<s id="1">Qu'est-ce qu'il leur conte donc là, avec son ami Drolichon ?</s>
 </p>
@@ -1223,7 +1245,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Enfin, je m'en rapporte à Monsieur Patafflard, est-ce moi qui ai tort ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="PATAFFLARD"><speaker>PATAFFLARD, hésitant.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="70">
 	<s id="1">Non, non, père Thomas... mais...</s>
 </p>
@@ -1239,7 +1262,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="2">Entendons-nous d'abord, la colère n'est bonne à rien, in culpa ducit ira ; la modération est la plus belle des vertus... et... vous savez comme moi ; que... du reste... ma foi, je n'ai rien à vous dire !</s>
 </p>
 </sp>
-<sp stage="aparte" who="RACINE"><speaker>RACINE, à part.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="73">
 	<s id="1">Monsieur Patafflard joue son rôle à merveille ! </s>
 	<s id="2">Je vais tâcher de finir le mien à l'avantage de ces bonnes gens.</s>
@@ -1297,7 +1321,8 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="2">Je ne caponne pas, et vilain celui qui nous désunira.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PATAFFLARD"><speaker>PATAFFLARD, à part.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="aparte">, à part.
+</stage>
 <p id="84">
 	<s id="1">Cela va mal... </s>
 	<s id="2">Je suis fait.</s>
@@ -1310,7 +1335,8 @@ calamo, nous commencerons musa la musique. </s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, Nicette, Mimi, tout le village des bouquets à la main.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les mêmes, Nicette, Mimi, tout le village des bouquets à la main.
+</stage>
 <sp who="CHOEUR"><speaker>CHOEUR.</speaker>
 <stage type="title">Air : Mais bientôt après l'orage. (du tableau parlant)</stage>
 	<l id="37">Oui, portons ces fleurs nouvelles</l>
@@ -1333,7 +1359,8 @@ calamo, nous commencerons musa la musique. </s>
 <sp who="CHOEUR"><speaker>CHOEUR.</speaker>
 	<l id="49">Oui , portons , etc.</l>
 </sp>
-<sp stage="aparte/laugh" who="RACINE"><speaker>RACINE, à part, riant.</speaker>
+<sp who="RACINE"><speaker>RACINE</speaker><stage type="aparte/laugh">, à part, riant.
+</stage>
 <p id="1">
 	<s id="1">Je suis découvert.</s>
 </p>
@@ -1431,14 +1458,16 @@ calamo, nous commencerons musa la musique. </s>
 	<s id="1">Et ça nous fait voir que nous n'étions que des imbéciles.</s>
 </p>
 </sp>
-<sp stage="furious" who="PATAFFLARD"><speaker>PATAFFLARD, furieux.</speaker>
+<sp who="PATAFFLARD"><speaker>PATAFFLARD</speaker><stage type="furious">, furieux.
+</stage>
 <p id="16">
 	<s id="1">Ce Monsieur Racine est un impertinent ! </s>
 	<s id="2">Qu'il vienne tous les jours un Parisien comme celui-là, chez nous, et je suis ruiné.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII et DERNIÈRE. Tous, excepté Monsieur Patafflard.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII et DERNIÈRE.</head><stage> Tous, excepté Monsieur Patafflard.
+</stage>
 <sp who="NICOLAS"><speaker>NICOLAS.</speaker>
 <p id="1">
 	<s id="1">Eh bien, il est honnête, Monsieur Patafflard.</s>
@@ -1504,7 +1533,8 @@ calamo, nous commencerons musa la musique. </s>
 	<l id="98">Mais chez Lafontaine et Molière,</l>
 	<l id="99">On les verra toujours d'accord.</l>
 </sp>
-<sp stage="toward" who="NICETTE"><speaker>NICETTE, au public.</speaker>
+<sp who="NICETTE"><speaker>NICETTE</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="100">Malgré nos efforts pour vous plaire,</l>
 	<l id="101">Contre nous prenant leurs ébats ;</l>
 	<l id="102">Si les sifflets nous font la guerre,</l>
@@ -1522,4 +1552,3 @@ calamo, nous commencerons musa la musique. </s>
 </body>
 </text>
 </TEI>
-

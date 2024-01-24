@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -39,13 +39,13 @@
 			<printer>Paris. - Imp. PAUL DUPONT, rue Saint-Louis, 46, au Marais.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES. ACTEURS.</head>
-		<castItem><role id="TAHER" sex="1" type="H" statut="cadi" age="A" stat_amour='néant'>TAHER</role>, Cadi. M. CHAPELLE.</castItem>
-		<castItem><role id="LÉLIO" sex="1" type="H" statut="dervis" age="A" stat_amour='néant'>LÉLIO</role>, Dervis. M. SEVESTE.</castItem>
-		<castItem><role id="ARLEQUIN" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>ARLEQUIN</role>, son domestique. M. LAPORTE.</castItem>
-		<castItem><role id="ALI" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>ALI</role>, esclave de Taher. HIPPOLYTE.</castItem>
-		<castItem><role id="CARLE" sex="1" type="H" statut="sclave" age="A" stat_amour='néant'>CARLE</role>, esclave français. CARLE.</castItem>
-		<castItem><role id="ISABELLE" sex="Z" type="H" statut="" age="A" stat_amour='néant'>ISABELLE</role>, esclave de Taher. Melle RIVIÈRE.</castItem>
-		<castItem><role id="ESCLAVES FRANÇAIS" sex="1" type="H" statut="" age="A" stat_amour='néant'>ESCLAVES FRANÇAIS</role>.</castItem>
+		<castItem><role id="TAHER" sex="1" type="H" statut="cadi" age="A" stat_amour="néant">TAHER</role>, Cadi. M. CHAPELLE.</castItem>
+		<castItem><role id="LÉLIO" sex="1" type="H" statut="dervis" age="A" stat_amour="néant">LÉLIO</role>, Dervis. M. SEVESTE.</castItem>
+		<castItem><role id="ARLEQUIN" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">ARLEQUIN</role>, son domestique. M. LAPORTE.</castItem>
+		<castItem><role id="ALI" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">ALI</role>, esclave de Taher. HIPPOLYTE.</castItem>
+		<castItem><role id="CARLE" sex="1" type="H" statut="sclave" age="A" stat_amour="néant">CARLE</role>, esclave français. CARLE.</castItem>
+		<castItem><role id="ISABELLE" sex="Z" type="H" statut="" age="A" stat_amour="néant">ISABELLE</role>, esclave de Taher. Melle RIVIÈRE.</castItem>
+		<castItem><role id="ESCLAVES FRANÇAIS" sex="1" type="H" statut="" age="A" stat_amour="néant">ESCLAVES FRANÇAIS</role>.</castItem>
 	</castList>
 	<set location="Constantinople" country="Turquie" periode="XVIIIème" gps="41.008238, 28.978359">À Sculati, pris Constantinople.</set>
 	<note>Texte extrait de "Proverbes et Nouvelles par Eugène Scribe", Paris Gosselin, 1861. pp. 316-323.</note>
@@ -54,7 +54,8 @@
 <body>
 <div1 type="acte" n="1"><head>LES DERVIS</head>
 <stage type="decor/light">Une grotte. — Il fait nuit.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Lélio, Carle, Esclaves français.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Lélio, Carle, Esclaves français.
+</stage>
 <stage type="costume">Lélio est en costume de Dervis, les autres sont en habit turc. Ils sont tous assis autour d'une table.</stage>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 <p id="1">
@@ -122,7 +123,8 @@
 	<s id="1">Que veux-tu dire ?</s>
 </p>
 </sp>
-<sp stage="happy" who="LÉLIO"><speaker>LÉLIO, gaiement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="6">
 	<s id="1">Je vous délivre.</s>
 </p>
@@ -243,7 +245,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes ; Arlequin, avec une besace très garnie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes ; Arlequin, avec une besace très garnie.
+</stage>
 <sp who="ARLEQUIN"><speaker>ARLEQUIN.</speaker>
 <stage type="title">AIR : Voyage, voyage désormais qui voudra. (Azémiaa.)</stage>
 	<l id="42">Lorsque je m'en vais à la quête</l>
@@ -363,7 +366,8 @@
 	<s id="3">C'est quelque pénitent.</s>
 </p>
 </sp>
-<sp stage="location" who="ALI"><speaker>ALI, en dehors.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="location">, en dehors.
+</stage>
 <stage type="title">AIR : Ermite, bon ermite. {L'Ermite de Sainte-Avète).</stage>
 	<l id="69">Écoutez ma prière</l>
 	<l id="70">Dans votre humble réduit,</l>
@@ -406,7 +410,8 @@
 	<l id="87">Point de bruit, de la prudence.</l>
 	<l id="88">Emportez tous ces apprêts.</l>
 </sp>
-<sp stage="carry/furniture" who="TOUS"><speaker>TOUS, emportant la table.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="carry/furniture">, emportant la table.
+	</stage>
 	<l id="89">Point de bruit, de la prudence,</l>
 	<l id="90">Emportons tous ces apprêts.</l>
 </sp>
@@ -417,14 +422,17 @@
 	<l id="92">Chut, paix !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Lélio, Arlequin, Ali.</head>
-<sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Lélio, Arlequin, Ali.
+</stage>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">C'est lui !!! </s>
 	<s id="2">Je ne m'étais pas trompé.</s>
 </p>
 </sp>
-<sp stage="give" who="ALI"><speaker>ALI, donnant une bourse A Arlequin.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="give">, donnant une bourse à Arlequin.
+</stage>
 <p id="2">
 	<s id="1">Mon père, priez pour moi : vous voyez un grand pécheur.</s>
 </p>
@@ -434,7 +442,8 @@
 	<s id="1">Le ciel nous ordonne de haïr le péché, et d'aimer le pécheur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Quand il paye bien.</s>
 </p>
@@ -450,25 +459,29 @@
 	<s id="1">Nous le savons ; vous êtes l'esclave de Taher.</s>
 </p>
 </sp>
-<sp stage="frighten" who="ALI"><speaker>ALI, avec effroi.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="frighten">, avec effroi.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon père, puisque vous savez tout, ne me trahissez point... </s>
 	<s id="3">Mon maître va venir vous consulter, ne lui dites rien...</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Ô bonheur ! </s>
 	<s id="2">Taher viendrait !...</s>
 </p>
 </sp>
-<sp stage="pray" who="ALI"><speaker>ALI, d'un air suppliant.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="pray">, d'un air suppliant.
+</stage>
 <p id="9">
 	<s id="1">Vous ne lui direz rien, n'est-ce pas ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Je serais bien embarrassé.</s>
 </p>
@@ -482,7 +495,8 @@
 	<s id="1">C'est au nom de mes camarades, songez que si vous lui dites quelque chose, nous sommes perdus.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Comment le faire jaser ? </s>
 </p>
@@ -491,12 +505,14 @@
 	<s id="1">Vous m'avouerez, en effet, que vous avez des reproches à vous faire.</s>
 </p>
 </sp>
-<sp who="ALI"><speaker>ALI, d'un air repentant.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage>, d'un air repentant.
+</stage>
 <p id="15">
 	<s id="1">Il est vrai ; je suis bien un peu coupable.</s>
 </p>
 </sp>
-<sp stage="anger" who="ARLEQUIN"><speaker>ARLEQUIN, avec colère.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="16">
 	<s id="1">Un peu !... </s>
 	<s id="2">Une action !... </s>
@@ -554,7 +570,8 @@
 	<s id="3">C'est cette esclave qu'il a achetée, dernièrement.</s>
 </p>
 </sp>
-<sp stage="frighten" who="LÉLIO"><speaker>LÉLIO, effrayé.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="25">
 	<s id="1">Comment, Isabelle !</s>
 </p>
@@ -566,7 +583,8 @@
 	<s id="3">Vous savez bien qu'Isabelle est inaccessible, et que Taher, rebuté de ses rigueurs...</s>
 </p>
 </sp>
-<sp who="LÉLIO"><speaker>LÉLIO, avec joie.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage>, avec joie.
+</stage>
 <p id="27">
 	<s id="1">A sans doute résolu de s'en défaire.</s>
 </p>
@@ -720,13 +738,16 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE IV. Arlequin, Lélio.</head>
-<sp stage="strong" who="LÉLIO"><speaker>LÉLIO, vivement.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE IV.</head><stage> Arlequin, Lélio.
+</stage>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="strong">, vivement.
+</stage>
 <p id="1">
 	<s id="1">Taher va venir.</s>
 </p>
 </sp>
-<sp stage="strong" who="ARLEQUIN"><speaker>ARLEQUIN, de même.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="strong">, de même.
+</stage>
 <p id="2">
 	<s id="1">Nous l'attrapons.</s>
 </p>
@@ -801,7 +822,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCENE V. Lelio, Taher.</head>
+<div2 type="scene" n="5"><head>SCENE V.</head><stage> Lelio, Taher.
+</stage>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 <stage type="title">AIR : Alleluia.</stage>
 	<l id="137">Entrez sans crainte dans ce lieu.</l>
@@ -842,7 +864,8 @@
 	<s id="3">Je me homme Cogia-Ali.</s>
 </p>
 </sp>
-<sp stage="strong" who="LÉLIO"><speaker>LÉLIO, sévèrement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="strong">, sévèrement.
+</stage>
 <p id="6">
 	<s id="1">Cogia-Ali, vous êtes un imposteur ; votre vrai nom est Taher ; ignorez-vous la punition que vous avez méritée pour avoir menti après le serment ?</s>
 </p>
@@ -874,7 +897,8 @@
 	<s id="1">C'est vous qui devez rendre la justice, et qui la faites payer au poids de l'or.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TAHER"><speaker>TAHER, à part.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Il dit vrai ; c'est un saint homme.</s>
 </p>
@@ -884,7 +908,8 @@
 	<s id="1">C'est vous qui voulez passer pour charitable, et qui ne  faites point d'aumônes aux fidèles.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TAHER"><speaker>TAHER, de même.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="aparte">, de même.
+</stage>
 <p id="14">
 	<s id="1">Ah ! </s>
 	<s id="2">Le saint homme!</s>
@@ -1005,16 +1030,19 @@
 	<l id="163">Presque autant l'un que l'autre ;</l>
 	<l id="164">Ça fait toujours plaisir.</l>
 </sp>
-<sp stage="serious" who="LÉLIO"><speaker>LÉLIO, d'an ton sentencieux.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="serious">, d'an ton sentencieux.
+</stage>
 <p id="27">
 	<s id="1">Cette indifférence m'étonne ; car je la crois susceptible d'aimer, et j'oserais vous promettre de la rendre sensible, si je l'avais seulement entretenue aussi longtemps qu'il y a que je vous parle.</s>
 </p>
 </sp>
-<sp stage="happy" who="TAHER"><speaker>TAHER, transporté de joie.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="happy">, transporté de joie.
+</stage>
 <stage type="title">AIR. À l'ombre d'un vieux chêne. (La forteresse du Danube.)</stage>
 	<l id="165">Demain j'amène Isabelle.</l>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="166">Les moments sont précieux ;</l>
 <stage type="loud">Haut.</stage>
 	<l id="167">Dès demain aucun fidèle</l>
@@ -1066,7 +1094,8 @@
 <stage type="exit">Taher sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Lélio, Arlequin.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Lélio, Arlequin.
+</stage>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 <p id="1">
 	<s id="1">Arlequin, Arlequin, que t'avais-je promis ?</s>
@@ -1118,7 +1147,8 @@
 	<s id="1">Mais quand il n'y a pas d'autres moyens ! Nos amis sont là, Taher est seul, sans escorte, et s'il résiste, nous l'enlèverons lui-même.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, vivement.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage>, vivement.
+</stage>
 <p id="10">
 	<s id="1">Et ne voyez-vous pas que ce moyen nous perdra ? </s>
 	<s id="2">Si vous laissez le Cadi il fera courir sur nos traces. </s>
@@ -1188,7 +1218,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes ; Taher, Isabelle, voilée dans le fond.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes ; Taher, Isabelle, voilée dans le fond.
+</stage>
 <sp who="TAHER"><speaker>TAHER.</speaker>
 <p id="1">
 	<s id="1">Entrez donc, Madame.</s>
@@ -1284,14 +1315,16 @@
 	<s id="2">Ainsi le veut le Prophète.</s>
 </p>
 </sp>
-<sp stage="dress/show" who="ISABELLE"><speaker>ISABELLE, levant son voile.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="dress/show">, levant son voile.
+</stage>
 <p id="5">
 	<s id="1">Où suis-je ? </s>
 	<s id="2">Ah ! </s>
 	<s id="3">Les vilaines figures !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Elle est encore embellie ! </s>
 </p>
@@ -1300,7 +1333,8 @@
 	<s id="1">Vous êtes, Madame, avec les serviteurs du Prophète.</s>
 </p>
 </sp>
-<sp stage="watch" who="ISABELLE"><speaker>ISABELLE, regardant la grotte.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="watch">, regardant la grotte.
+</stage>
 <p id="8">
 	<s id="1">Le Prophète aurait pu donner à ses serviteurs un appartement moins lugubre. </s>
 </p>
@@ -1359,7 +1393,8 @@
 	<l id="229">Elle sait dans son esclavage</l>
 	<l id="230">Donner des fers à son vainqueur.</l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, a part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, a part.
+</stage>
 <p id="15">
 	<s id="1">Mais il est galant pour un Dervis ; il n'est pas si mal qu'il m'avait paru, sa voix surtout a quelque chose de...</s>
 </p>
@@ -1514,7 +1549,8 @@
 <stage type="exit">Taher et Arlequin sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Lélio, Isabelle.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Lélio, Isabelle.
+</stage>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 <p id="1">
 	<s id="1">Amour, inspire-moi, et fais que je la retrouve fidèle !</s>
@@ -1552,7 +1588,8 @@
 	<s id="1">Madame, je n'agis point pour un autre, et vous en serez persuadée quand vous me connaîtrez mieux.</s>
 </p>
 </sp>
-<sp stage="happy" who="ISABELLE"><speaker>ISABELLE, gaiement.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="6">
 	<s id="1">Pourquoi mentir ? </s>
 	<s id="2">Ne l'ai-je pas entendu ? </s>
@@ -1567,7 +1604,8 @@
 	<s id="1">Elle l'est moins que vous ne le croyez, Madame ; je lis dans votre coeur mieux que vous-même, et je vois que malgré cette insensibilité profonde dont vous faites gloire, vous avez déjà aimé.</s>
 </p>
 </sp>
-<sp stage="smile/embarrassed" who="ISABELLE"><speaker>ISABELLE, souriant avec embarras.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="smile/embarrassed">, souriant avec embarras.
+</stage>
 <p id="8">
 	<s id="1">Qui, moi !</s>
 </p>
@@ -1578,29 +1616,35 @@
 </p>
 <stage type="title">DUO de M. DOCHE.</stage>
 </sp>
-<sp stage="proud" who="LÉLIO"><speaker>LÉLIO, avec suffisance.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="proud">, avec suffisance.
+	</stage>
 	<l id="247">Il était jeune et fort bien fait...</l>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage>, à part.
+	</stage>
 	<l id="248">C'est bien là, c'est bien son portrait.</l>
 </sp>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 	<l id="249">Il était modeste et discret.</l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="250">Oh ! Ce n'est plus là son portrait.</l>
 </sp>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 	<l id="251">Il sut faire agréer sa flamme...</l>
 </sp>
-<sp stage="loud" who="ISABELLE"><speaker>ISABELLE, haut.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="loud">, haut.
+	</stage>
 	<l id="252">Non, jamais sur mon âme</l>
 	<l id="253">L'amour n'eut de pouvoir.</l>
 </sp>
-<sp stage="subtil" who="LÉLIO"><speaker>LÉLIO, malignement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="subtil">, malignement.
+	</stage>
 	<l id="254">Et cependant un certain soir...</l>
 </sp>
-<sp stage="frighten" who="ISABELLE"><speaker>ISABELLE, effrayée.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="frighten">, effrayée.
+	</stage>
 	<l id="255">Ô ciel ! dans quel trouble il me jette.</l>
 </sp>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
@@ -1617,11 +1661,13 @@
 	<l id="259">Ah ! Que mon âme est émue !</l>
 	<l id="260">D'où vient que je tremble à sa vue ?</l>
 </sp>
-<sp stage="tender" who="LÉLIO"><speaker>LÉLIO, tendrement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="tender">, tendrement.
+	</stage>
 	<l id="261">Le temps n'a point changé son coeur, </l>
 	<l id="262">C'est vous, c'est toujours vous qu'il aime.</l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="263">Dieu ! Par quel pouvoir enchanteur.</l>
 	<l id="264">Me connaît-il mieux que moi-même !</l>
 <stage type="watch">Observant.</stage>
@@ -1630,13 +1676,15 @@
 	<l id="267">Il tremble il détourne la vue ;</l>
 	<l id="268" syll="3" part="i">Quel soupçon !</l>
 </sp>
-<sp stage="happy" who="LÉLIO"><speaker>LÉLIO, gaiement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="happy">, gaiement.
+	</stage>
 	<l id="268" syll="5" part="f">Mais si vous doutez</l>
 	<l id="269">De mon art et de ma puissance,</l>
 	<l id="270">Je puis même lire en vos yeux,</l>
 	<l id="271">Le nom de ce mortel heureux.</l>
 </sp>
-<sp stage="aparte/quick" who="ISABELLE"><speaker>ISABELLE, à part, vivement.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte/quick">, à part, vivement.
+	</stage>
 	<l id="272">C'est lui ! Quel autre aurait cette assurance ?</l>
 </sp>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
@@ -1647,21 +1695,25 @@
 	<l id="276">C'est Lé... c'est Lé-lio que votre coeur adore.</l>
 <stage type="together">Ensemble.</stage>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="277">Voyez, le fat ! Oh ! c'est bien lui,</l>
 	<l id="278">Il mérite d'être puni.</l>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="279">Comme son trouble la trahit</l>
 	<l id="280">L'on m'adore, l'on me chérit.</l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Et l'ingrat, au lieu de tomber à mes pieds, cherchait à m'éprouver... </s>
 	<s id="2">Il me le paiera.</s>
 </p>
 </sp>
-<sp stage="happy" who="LÉLIO"><speaker>LÉLIO, gaiement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="12">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Madame, ai-je dit vrai ?</s>
@@ -1672,7 +1724,8 @@
 	<s id="1">Je vois, Seigneur, que les gens honorés de la communication familière avec le ciel se trompent comme les autres hommes.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Qu'est-ce à dire ?</s>
 </p>
@@ -1703,7 +1756,8 @@
 	<s id="2">Madame, qu'arriva-t-il ?</s>
 </p>
 </sp>
-<sp stage="subtil" who="ISABELLE"><speaker>ISABELLE, malignement.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="subtil">, malignement.
+</stage>
 <p id="20">
 	<s id="1">Vous qui savez tout, mon Père, vous le devinez aisément.</s>
 </p>
@@ -1723,7 +1777,8 @@
 	<s id="1">Huit jours n'étaient pas écoulés, que je l'avais déjà oublié.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">La perfide !</s>
 </p>
@@ -1737,7 +1792,8 @@
 	<s id="1">Pour celui-là, je ne me le pardonnerai jamais. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part. </speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="27">
 	<s id="1">Et c'est moi qu'elle choisit pour son confident ! </s>
 </p>
@@ -1793,7 +1849,8 @@
 	<s id="1">On prétend qu'il a perdu la raison et qu'il s'est persuadé qu'il était Dervis.</s>
 </p> 
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Qu'entends-je ?</s>
 </p>
@@ -1803,7 +1860,8 @@
 	<s id="1">Et je sais de bonne part que, dans ce moment, cet amant si fidèle est en tête à tête avec une femme.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉLIO"><speaker>LÉLIO, à part.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="40">
 	<s id="1">Je suis reconnu.</s>
 </p>
@@ -1813,7 +1871,8 @@
 	<s id="1">Et une coquette encore, qui depuis un quart d'heure se moque de lui.</s>
 </p>
 </sp>
-<sp stage="kneel" who="LÉLIO"><speaker>LÉLIO, à genoux.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="kneel">, à genoux.
+</stage>
 <p id="42">
 	<s id="1">Ma chère Isabelle !...</s>
 </p>
@@ -1832,7 +1891,8 @@
 	<s id="3">Arlequin a, selon lui, un projet immanquable...</s>
 </p>
 </sp>
-<sp stage="aparte/location" who="TAHER"><speaker>TAHER, en dehors.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="aparte/location">, en dehors.
+</stage>
 <p id="45">
 	<s id="1">Par Mahomet ! </s>
 	<s id="2">J'entrerai, vous dis-je.</s>
@@ -1849,8 +1909,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes ; Taher, Arlequin.</head>
-<sp stage="toward" who="LÉLIO"><speaker>LÉLIO, à Arlequin.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes ; Taher, Arlequin.
+</stage>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="toward">, à Arlequin.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, mon frère, d'où vient donc ce bruit ?</s>
 </p>
@@ -1878,7 +1940,8 @@
 </p>
 <stage type="watch/tender">Il regarde Isabelle amoureusement.</stage>
 </sp>
-<sp stage="low/toward" who="LÉLIO"><speaker>LÉLIO, bas à Arlequin.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="low/toward">, bas à Arlequin.
+</stage>
 <p id="6">
 	<s id="1">Il faut se hâter.</s>
 </p>
@@ -1906,7 +1969,8 @@
 	<l id="287">Qu'en celle heureuse circonstance,</l>
 	<l id="288">J'ai travaillé comme pour moi.</l>
 </sp>
-<sp who="TAHER"><speaker>TAHER, considérant Isabelle.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage>, considérant Isabelle.
+</stage>
 <p id="9">
 	<s id="1">Mais, mais, c'est qu'en effet... </s>
 	<s id="2">Elle me regarde d'un air... </s>
@@ -1936,7 +2000,8 @@
 	<s id="1">Seigneur, demandez au Dervis.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TAHER"><speaker>TAHER, à part.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Le Dervis, le Dervis !... </s>
 	<s id="2">Ne peut-elle parler elle-même ?</s>
@@ -1963,7 +2028,8 @@
 	<s id="1">Seigneur, demandez...</s>
 </p>
 </sp>
-<sp stage="furious" who="TAHER"><speaker>TAHER, furieux.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="furious">, furieux.
+</stage>
 <p id="19">
 	<s id="1">Encore... mais d'où vient ce bruit ? </s>
 	<s id="2">J'entends des voix d'hommes. </s>
@@ -1971,7 +2037,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes ; Arlequin, Carle, Les esclaves.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes ; Arlequin, Carle, Les esclaves.
+</stage>
 <sp who="LES ESCLAVES"><speaker>LES ESCLAVES.</speaker>
 <stage type="title">AIR de la marche d'Aline, reine de Golconde.</stage>
 	<l id="289">Honneur ! Honneur ! Au Pacha !</l>
@@ -1988,18 +2055,21 @@
 	<s id="3">Mais il ne me connaît pas, et je n'ai rien à démêler avec lui.</s>
 </p>
 </sp>
-<sp stage="low" who="LÉLIO"><speaker>LÉLIO, à voix basse.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="low">, à voix basse.
+</stage>
 <p id="2">
 	<s id="1">C'est Arlequin ! </s>
 	<s id="2">Ce sont nos amis !</s>
 </p>
 </sp>
-<sp stage="aparte" who="TAHER"><speaker>TAHER, à part.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Je n'ai jamais vu ce Nourredin, et cependant sa figure ne m'est pas inconnue.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Comme il m'observe ! </s>
 	<s id="2">Me reconnaîtrait-il ?</s>
@@ -2031,28 +2101,33 @@
 </p>
 <stage type="exit">On entre à gauche dans la grotte où l'on a posé la table et où Isabelle est entrée.</stage>
 </sp>
-<sp who="TAHER"><speaker>TAHER, bas a Lélio vivement.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage>, bas a Lélio vivement.
+</stage>
 <p id="8">
 	<s id="1">Mais ils vont trouver Isabelle !</s>
 </p>
 </sp>
-<sp stage="cold" who="LÉLIO"><speaker>LÉLIO, froidement.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="cold">, froidement.
+</stage>
 <p id="9">
 	<s id="1">C'est à croire.</s>
 </p>
 </sp>
-<sp stage="cold" who="TAHER"><speaker>TAHER, de même.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="cold">, de même.
+</stage>
 <p id="10">
 	<s id="1">Ils s'en empareront !</s>
 </p>
 </sp>
-<sp stage="cold" who="LÉLIO"><speaker>LÉLIO, de même.</speaker>
+<sp who="LÉLIO"><speaker>LÉLIO</speaker><stage type="cold">, de même.
+</stage>
 <p id="11">
 	<s id="1">Ils en sont bien capables.</s>
 </p>
 <stage type="entrance/carry">Un esclave sort avec un panier de vin.</stage>
 </sp>
-<sp stage="toward/push" who="CARLE"><speaker>CARLE, à Isabelle qu'il amène.</speaker>
+<sp who="CARLE"><speaker>CARLE</speaker><stage type="toward/push">, à Isabelle qu'il amène.
+</stage>
 <p id="12">
 	<s id="1">Allons, Madame, pourquoi se faire prier ?</s>
 </p>
@@ -2124,7 +2199,8 @@
 	<s id="2">Ils vont me ramener chez moi comme un criminel ; demain tout le quartier le saura.</s>
 </p>
 </sp>
-<sp stage="toward" who="CARLE"><speaker>CARLE, au Pacha.</speaker>
+<sp who="CARLE"><speaker>CARLE</speaker><stage type="toward">, au Pacha.
+</stage>
 <p id="25">
 	<s id="1">Songez, Seigneur, que la nuit est bien avancée, et que le Cadi...</s>
 </p>
@@ -2220,7 +2296,8 @@
 	<s id="1">Ce n'est pas tout, je vous avais proposé mille sequins, c'était trop peu, sans doute; je vous en offre deux mille...</s>
 </p>	
 </sp>
-<sp stage="touch" who="TAHER"><speaker>TAHER, tendant la main.</speaker>
+<sp who="TAHER"><speaker>TAHER</speaker><stage type="touch">, tendant la main.
+</stage>
 <p id="41">
 	<s id="1">J'accepte ; deux mille sequins consolent bien un peu...</s>
 </p>
@@ -2251,7 +2328,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, excepté Taher.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les mêmes, excepté Taher.
+</stage>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
 <p id="1">
 	<s id="1">Ma chère Isabelle, mon cher Arlequin, quelle reconnaissance !</s>
@@ -2298,7 +2376,8 @@
 	<l id="332">Dans les héros de notre histoire,</l>
 	<l id="333">Verra des héros de roman.</l>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, au public.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="334">Dans tous les romans, c'est l'usage,</l>
 	<l id="335">Tout se termine heureusement,</l>
 	<l id="336">Tout finit par un mariage,</l>

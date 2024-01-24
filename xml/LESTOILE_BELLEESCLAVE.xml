@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -29,10 +29,10 @@
 			<titlePart type="main">LA BELLE ESCLAVE</titlePart>
 			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1643'>1643. AVEC PRIVIL. DU ROI.</docDate>
+		<docDate value="1643">1643. AVEC PRIVIL. DU ROI.</docDate>
 		<docAuthor id="L'ESTOILE, Claude">de Mr de L'ESTOILE</docAuthor>
 		<docImprint>
-			<privilege id='1648-02-05'><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
+			<privilege id="1648-02-05"><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
 				<p>Par grâce et privilège de sa Majesté donné a Paris au Moi de Mars 1643 signé, par le Roi en son Conseil, Conrard, et scellé du grand sceau de cire jaune, Il est permis au Sieur de L'Étoile de faire imprimer la Tragi-comédie nommée La belle Esclave, par lui composée, et ce dis nouveaux caractères inventés par P. Moreau, Maître écrivain, juré à paris, et imprimeur ordinaire du Roi, et non d'autres, durant le temps de cinquante, avec défenses à tous Imprimeur et Libraires de la contrefaire, ni imprimer en quelque sorte de caractère que ce soit, à peine de confiscation des exemplaires, de six mil livres d'amende, et autres peines contenues.</p>
 				<p>Duquel privilège ci-dessus le dit Sieur de l'Étoile a cédé ses droits aux Moreau, pour icelle imprimer, teindre et distribuer à telles personnes que bon lui semblera.</p>
 			</privilege>
@@ -40,7 +40,7 @@
 				<p>Achevé d'imprimer le dernier Octobre.</p>
 				<p>Les Exemplaires ont été fournis.</p>
 			</acheveImprimer>
-			<printer id='SOMMAVILLE'>À PARIS, Se vend en l'Imprimerie des nouveaux Caractères de Pierre Moreau, Maître écrivain Juré à Paris, et Imprimeur ordinaire du Roi, proche le Portail du grand Couvent des RR. PP. Augustins, Et en la boutique au Palais en la Salle Dauphine, Par F. Rouvelin, à l'Enseigne de la Vérité.</printer>
+			<printer id="SOMMAVILLE">À PARIS, Se vend en l'Imprimerie des nouveaux Caractères de Pierre Moreau, Maître écrivain Juré à Paris, et Imprimeur ordinaire du Roi, proche le Portail du grand Couvent des RR. PP. Augustins, Et en la boutique au Palais en la Salle Dauphine, Par F. Rouvelin, à l'Enseigne de la Vérité.</printer>
 		</docImprint>
 		<div type="dedicace"><adresse>ÉPITRE À MONSEIGNEUR SEGUIER, Chancelier de France</adresse>
 			<head>Monseigneur,</head>
@@ -65,19 +65,20 @@
 		</div>
 
 		<castList><head>ACTEURS</head>
-			<castItem><role id="LE ROI D'ALGER" sex="1" type="H" statut="roi" age='A' stat_amour='néant'>LE ROI D'ALGER</role>.</castItem>
-			<castItem><role id="LA REINE" sex="2" type="H" statut="roi" age='A' stat_amour='néant'>LA REINE</role>.</castItem>
-			<castItem><role id="ALPHONSE" sex="1" type="H" statut="prince" age='A' stat_amour='néant'>ALPHONSE</role>, Prince de Sicile, esclave.</castItem>
-			<castItem><role id="CLARICE" sex="2" type="H" statut="prince" age='A' stat_amour='néant'>CLARICE</role>, Princesse de Sicile, esclave.</castItem>
-			<castItem><role id="HALY" sex="1" type="H" statut="capitaine" age='A' stat_amour='néant'>HALY</role>, Capitaine du Palais.</castItem>
-			<castItem><role id="FERNAND" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>FERNAND</role>, Gentilhomme Sicilien, confident d'Alphonse.</castItem>
-			<castItem><role id="SELIM" sex="1" type="H" statut="domestique" age='A' stat_amour='néant'>SELIM</role>, domestique de Haly.</castItem>
+			<castItem><role id="LE ROI D'ALGER" sex="1" type="H" statut="roi" age="A" stat_amour="néant">LE ROI D'ALGER</role>.</castItem>
+			<castItem><role id="LA REINE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">LA REINE</role>.</castItem>
+			<castItem><role id="ALPHONSE" sex="1" type="H" statut="prince" age="A" stat_amour="néant">ALPHONSE</role>, Prince de Sicile, esclave.</castItem>
+			<castItem><role id="CLARICE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">CLARICE</role>, Princesse de Sicile, esclave.</castItem>
+			<castItem><role id="HALY" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">HALY</role>, Capitaine du Palais.</castItem>
+			<castItem><role id="FERNAND" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">FERNAND</role>, Gentilhomme Sicilien, confident d'Alphonse.</castItem>
+			<castItem><role id="SELIM" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">SELIM</role>, domestique de Haly.</castItem>
 		</castList>
 		<set location="Alger" country="Algérie" periode="XVIIème" gps="36.7753606, 3.0601882">La Scène est en Alger.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I </head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alphonse, Fernand.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alphonse, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="1" syll="6" part="i">Ha ! Laisse-moi mourir.</l>
 </sp>
@@ -234,7 +235,8 @@
 	<l id="116" syll="6" part="i">Le Roi... mais il arrive.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, Alphonse, Fernand.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, Alphonse, Fernand.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="116" syll="6" part="f">Alphonse, approchez-vous,</l>
 	<l id="117">Mais de quel nouveau mal le trop sensible outrage</l>
@@ -263,7 +265,8 @@
 	<l id="136">Je ne veux réserver que celle que voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, Alphonse, Clarice, Haly, Fernand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, Alphonse, Clarice, Haly, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="137">Hé ! Celle que voici c'est ma soeur elle-même.</l>
 </sp>
@@ -526,7 +529,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clarice, Haly.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clarice, Haly.
+</stage>
 <sp who="HALY"><speaker>HALY.</speaker>
 	<l id="327">Que faites-vous, Madame, hélas ! À quel dessein</l>
 	<l id="328">De tant de rudes coups plomber un si beau sein ?</l>
@@ -574,7 +578,8 @@
 	<l id="358" syll="6" part="i">Mais Alphonse paraît.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alphonse, Clarice, Haly, Fernand.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alphonse, Clarice, Haly, Fernand.
+</stage>
 <sp who="CLARICE"><speaker>CLARICE.</speaker>
 	<l id="358" syll="6" part="f">Mais Alphonse soupire ;</l>
 	<l id="359">Qui vous a si longtemps loin de moi retenu ?</l>
@@ -637,7 +642,8 @@
 	<l id="386">De quelque bon succès un assuré présage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, Alphonse, Clarice, Haly, Fernand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, Alphonse, Clarice, Haly, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="387">Hé bien ! Madame, enfin faut-il vivre ou mourir ?</l>
 </sp>
@@ -757,7 +763,8 @@
 	<l id="461">Haly, retirez-vous, sans les perdre de vue.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alphonse, Clarice, Fernand.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alphonse, Clarice, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="462" syll="6" part="i">Ha ! Malheureux départ.</l>
 </sp>
@@ -888,7 +895,8 @@
 	<l id="539" syll="6" part="i">Mais Haly s'en revient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alphonse, Clarice, Haly, Fernand.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alphonse, Clarice, Haly, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="539" syll="6" part="f">Quoi, déjà nous quitter ?</l>
 </sp>
@@ -931,7 +939,8 @@
 	<l id="554">Mais pourrais-je parler, à l'heure que j'expire ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Alphonse, Fernand.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Alphonse, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="555">Qu'un barbare, un tyran tienne esclave un objet </l>
 	<l id="556">Dont tout le monde entier devrait être sujet !</l>
@@ -1041,7 +1050,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Roi, La Reine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Roi, La Reine.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 	<l id="629">Oui, se disant adieu tous deux versaient des larmes,</l>
 	<l id="630">Qui de la rigueur même arracheraient les armes : </l>
@@ -1085,7 +1095,8 @@
 	<l id="660">Se verra-t-il jamais esprit plus affligé ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, La Reine, Alphonse, Fernand.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, La Reine, Alphonse, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="661">Grand Roi, puisque mes voeux, mes soupirs, et mes larmes</l>
 	<l id="662">Pour obtenir ma Soeur sont de trop faibles armes,</l>
@@ -1347,7 +1358,8 @@
 	<l id="872">Qu'a-t'il fait de Clarice ? Il ne l'amène pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, Alphonse, Haly, Fernand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, Alphonse, Haly, Fernand.
+</stage>
 <sp who="HALY"><speaker>HALY.</speaker>
 	<l id="873">Sire, je suis coupable, et j'apporte ma tête ;</l>
 	<l id="874">Au supplice mortel la voici toute prête.</l>
@@ -1397,7 +1409,8 @@
 	<l id="900">Et dans ce triste état je ne saurais le voir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Alphonse, Fernand.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Alphonse, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="901">Elle a donc de ses jours terminé la carrière,</l>
 	<l id="902">Et les flots ont éteint mon unique lumière :</l>
@@ -1478,7 +1491,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alphonse, Fernand.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alphonse, Fernand.
+</stage>
 <sp who="FERNAND"><speaker>FERNAND.</speaker>
 	<l id="953">Où dois-je encore aller ? Prenons un peu d'haleine, </l>
 	<l id="954">Mon coeur tout haletant ne respire qu'à peine ;</l>
@@ -1532,7 +1546,8 @@
 	<l id="993" syll="6" part="i">Suivez votre dessein.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Haly, Selim.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Haly, Selim.
+</stage>
 <sp who="HALY"><speaker>HALY.</speaker>
 	<l id="993" syll="6" part="f">D'où vient donc sa furie ?</l>
 	<l id="994">Est-ce à moi qu'il en veut ? Sait-il ma tromperie ?</l>
@@ -1737,7 +1752,8 @@
 	<l id="1132" syll="3" part="i">Je vous quitte.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, Alphonse, Haly, Fernand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, Alphonse, Haly, Fernand.
+</stage>
 <stage type="entrance/location">Le Roi et Alphonse entrent sur le Theatre par deux costez differents.</stage>
 <sp who="HALY"><speaker>HALY.</speaker>
 	<l id="1132" syll="9" part="f">Ô malheur ! Alphonse arrive aussi,</l>
@@ -1842,7 +1858,8 @@
 	<l id="1197" syll="6" part="i">Vous, Haly, demeurez.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, Haly.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, Haly.
+</stage>
 <sp who="HALY"><speaker>HALY.</speaker>
 	<l id="1197" syll="6" part="f">Que cet affront me pique !</l>
 	<l id="1198">Mais sur les visions de ce mélancolique,</l>
@@ -1930,7 +1947,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alphonse, Fernand.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alphonse, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="1261">Ha ! Je l'y cherche en vain, on l'en a retirée, </l>
 	<l id="1262">Et je la tiens déjà morte ou déshonorée ;</l>
@@ -2006,7 +2024,8 @@
 	<l id="1314">Je crains que devant lui de honte je n'expire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, Alphonse, Haly, Fernand.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, Alphonse, Haly, Fernand.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1315">Qui de vous deux enfin trouverai-je Imposteur ?</l>
 </sp>
@@ -2104,7 +2123,8 @@
 	<l id="1386" syll="6" part="i">Mais la Reine s'avance. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, La Reine, Alphonse, Haly.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, La Reine, Alphonse, Haly.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1386" syll="6" part="f">Étrange rêverie !</l>
 	<l id="1387">Le croiriez-vous, Madame, à moins que de le voir,</l>
@@ -2349,7 +2369,8 @@
 	<l id="1556">Mais paraissez, Clarice, et venez l'accuser.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, La Reine, Alphonse, Clarice, Haly, Fernand.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, La Reine, Alphonse, Clarice, Haly, Fernand.
+</stage>
 <sp who="ALPHONSE"><speaker>ALPHONSE.</speaker>
 	<l id="1557" syll="6" part="i">Ô Ciel ! C'est elle-même.</l>
 </sp>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,19 +29,19 @@
 			<titlePart type="main">LE CHOIX D'UN MARI</titlePart>
 			<titlePart type="sub">Comédie en trois actes et en prose.</titlePart>
 		</docTitle> 
-		<docDate value='1884'>1884</docDate>
+		<docDate value="1884">1884</docDate>
 		<docAuthor id="CARRANCE, Évariste">Évariste CARRANCE</docAuthor>
 		<docImprint>
 			<editor id="MASSON">AGEN, LIBRAIRIE DU COMITÉ POÉTIQUE ET DE LA REVUE FRANÇAISE, 6, rue du saumon, 8</editor>
 			<printer id="LENTHERIC">AGEN, V. LENTHERIC, Juin 1890.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="MADAME DU FRESNEL" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MADAME DU FRESNEL</role>.</castItem>
-			<castItem><role id="MADAME IRÈNE DE CHATEAUNEUF" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MADAME IRÈNE DE CHATEAUNEUF</role>, sa fille.</castItem>
-			<castItem><role id="MONSIEUR LÉO DUVAL" sex="1" type="H" statut="" age='A' stat_amour='néant'>MONSIEUR LÉO DUVAL</role>, auteur dramatique.</castItem>
-			<castItem><role id="MONSIEUR ARISTIDE DE CLAIRVAUX" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>MONSIEUR ARISTIDE DE CLAIRVAUX</role>, notaire.</castItem>
-			<castItem><role id="MONSIEUR DUPLESSIS" sex="1" type="H" statut="boursier" age='A' stat_amour='néant'>MONSIEUR DUPLESSIS</role>, boursier.</castItem>
-			<castItem><role id="MONSIEUR DUPUY" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MONSIEUR DUPUY</role>.</castItem>
+			<castItem><role id="MADAME DU FRESNEL" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DU FRESNEL</role>.</castItem>
+			<castItem><role id="MADAME IRÈNE DE CHATEAUNEUF" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME IRÈNE DE CHATEAUNEUF</role>, sa fille.</castItem>
+			<castItem><role id="MONSIEUR LÉO DUVAL" sex="1" type="H" statut="" age="A" stat_amour="néant">MONSIEUR LÉO DUVAL</role>, auteur dramatique.</castItem>
+			<castItem><role id="MONSIEUR ARISTIDE DE CLAIRVAUX" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR ARISTIDE DE CLAIRVAUX</role>, notaire.</castItem>
+			<castItem><role id="MONSIEUR DUPLESSIS" sex="1" type="H" statut="boursier" age="A" stat_amour="néant">MONSIEUR DUPLESSIS</role>, boursier.</castItem>
+			<castItem><role id="MONSIEUR DUPUY" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR DUPUY</role>.</castItem>
 		</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris en 1874.</set>
 	<note>Texte extrait de "Théâtre complet de Évariste Carrance".- Agen : Librairie du comité poétique et de la revue française. pp 3-76.</note>
@@ -49,7 +49,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
 <stage type="decor">Un vaste salon bien décoré. Canapé, fauteuils, glaces, etc. Au premier plan, un guéridon et deux causeuses. Porte au fond à droite et à gauche.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame du.resnel, Irène.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame du.resnel, Irène.
+</stage>
 <stage type="sit/furniture/work">Toutes deux sont assises auprès d'un guéridon. -Irène travaille à une broderie.</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
@@ -141,8 +142,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Madame du Fresnel, Dupuy.</head>
-<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, allant au-devant de Dupuy.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Madame du Fresnel, Dupuy.
+</stage>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage>, allant au-devant de Dupuy.
+</stage>
 <p id="1">
 	<s id="1">Avoir élevé les enfants jusqu'à cet âge pour s'entendre dire de telles choses. </s>
 	<s id="2">Ah ! </s>
@@ -265,7 +268,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="DUPUY"><speaker>DUPUY, seul.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="alone">, seul.
+</stage>
 <p id="">
 	<s id="1">La petite sotte serait capable de faire manquer une affaire d'or... </s>
 	<s id="2">A-t-on jamais vu cela ? Et cette bonne Madame_du_Fresnel qui ne peut pas inspirer à sa fille une sage résolution ! </s>
@@ -273,7 +277,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dupuy, Irène.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dupuy, Irène.
+</stage>
 <sp who="IRÈNE"><speaker>IRÈNE.</speaker>
 <p id="1">
 	<s id="1">Vous avez demandé à me voir, Monsieur.</s>
@@ -288,7 +293,8 @@
 	<s id="1">J'avais besoin de causer avec vous d'affaires graves, très graves peut-être.</s>
 </p>
 </sp>
-<sp stage="sit/furniture" who="IRÈNE"><speaker>IRÈNE, elle prend un siège.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="sit/furniture">, elle prend un siège.
+</stage>
 <p id="4">
 	<s id="1">Ce sont là des sujets de conversation qui ne sont pas de mon âge, Monsieur_Dupuy ; je laisse la gravité aux vieillards.</s>
 </p>
@@ -419,7 +425,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. les mêmes, Léo.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> les mêmes, Léo.
+</stage>
 <sp who="LÉO"><speaker>LÉO.</speaker>
 <p id="1">
 	<s id="1">Madame, je vous présente tous mes hommages.</s>
@@ -540,7 +547,8 @@
 	<s id="1">Je regrette de ne pouvoir vous offrir un billet, Monsieur_Dupuy.</s>
 </p>
 </sp>
-<sp stage="" who="DUPUY"><speaker>DUPUY, sournoisement.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="">, sournoisement.
+</stage>
 <p id="24">
 	<s id="1">Je vous sais gré de votre intention, Monsieur, mais je ne vais jamais au théâtre, je préfère aller entendre un grand orateur chrétien.</s>
 </p>
@@ -558,7 +566,8 @@
 	<s id="1">C'est ce que se demande le principal personnage de ma bluette.</s>
 </p>
 </sp>
-<sp stage="aparte" who="DUPUY"><speaker>DUPUY, à part.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Il y a de l'amour là-dessous ; </s>
 </p>
@@ -569,8 +578,10 @@
 <stage type="wave/exit">Il s'incline et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Irène, Léo.</head>
-<sp stage="happy" who="IRÈNE"><speaker>IRÈNE, joyeusement.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Irène, Léo.
+</stage>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="happy">, joyeusement.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>
@@ -717,7 +728,8 @@
 	<s id="1">Que dit-il là, mon_Dieu !</s>
 </p>
 </sp>
-<sp stage="continue" who="LÉO"><speaker>LÉO, continuant.</speaker>
+<sp who="LÉO"><speaker>LÉO</speaker><stage type="continue">, continuant.
+</stage>
 <p id="30">
 	<s id="1">Mon héroïne, vivant loin du monde, a conservé quelques relations avec lui ; un jeune touriste, frère d'une de ses amies du couvent, visite par hasard la châtelaine abandonnée.</s>
 </p>
@@ -762,13 +774,15 @@
 	<s id="2">Monsieur !</s>
 </p>
 </sp>
-<sp stage="wave" who="LÉO"><speaker>LÉO, lui prenant la main.</speaker>
+<sp who="LÉO"><speaker>LÉO</speaker><stage type="wave">, lui prenant la main.
+</stage>
 <p id="38">
 	<s id="1">J'en appelle aussi à votre sincérité.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, Madame de Fresnel.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, Madame de Fresnel.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -819,7 +833,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dupuy, Irène.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dupuy, Irène.
+</stage>
 <stage type="sit/furniture">Irène est assise sur le canapé. - Dupuy sur une causeuse en face d'elle.</stage>
 <sp who="DUPUY"><speaker>DUPUY.</speaker>
 <p id="1">
@@ -859,7 +874,8 @@
 	<s id="3">Que ce mot est déplacé, mon enfant.</s>
 </p>
 </sp>
-<sp stage="stand/closer" who="IRÈNE"><speaker>IRÈNE, elle se lève et va vers Dupuy.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="stand/closer">, elle se lève et va vers Dupuy.
+</stage>
 <p id="8">
 	<s id="1">Je ne trouve pas. </s>
 	<s id="2">Vous appartenez à ce monde positif qui marie un sac d'écus à un autre sac d'écus et qui ne s'inquiète pas d'autre chose. </s>
@@ -871,12 +887,14 @@
 	<s id="1">Vous croyez donc être malheureuse avec cet honnête homme ?</s>
 </p>
 </sp>
-<sp stage="back/slow/sit" who="IRÈNE"><speaker>IRÈNE, revenant lentement s'asseoir.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="back/slow/sit">, revenant lentement s'asseoir.
+</stage>
 <p id="10">
 	<s id="1">Je ne veux pas tenter une seconde expérience, la première m'a meurtrie !</s>
 </p>
 </sp>
-<sp who="DUPUY"><speaker>DUPUY (avec émotion ; il se lève)</speaker>
+<sp who="DUPUY"><speaker>DUPUY </speaker><stage>(avec émotion ; il se lève)
+</stage>
 <p id="11">
 	<s id="1">Tenez, mon enfant, je ne veux plus vous tourmenter. </s>
 	<s id="2">Dieu m'est témoin que je ne cherche que votre bonheur ! </s>
@@ -889,7 +907,8 @@
 	<s id="1">Un serment !</s>
 </p>
 </sp>
-<sp who="DUPUY"><speaker>DUPUY, avec mélancolie.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage>, avec mélancolie.
+</stage>
 <p id="13">
 	<s id="1">Celui de veiller sur vous </s>
 </p>
@@ -912,7 +931,8 @@
 	<s id="1">Je suis pleine de respect pour la mémoire de mon père ; si je vous ai offensé , je le regrette de tout mon coeur, et s'il ne faut que recevoir Monsieur_Duplessis pour vous prouver que je ne sais pas être ingrate...</s>
 </p>
 </sp>
-<sp who="DUPUY"><speaker>DUPUY, joyeux.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage>, joyeux.
+</stage>
 <p id="17">
 	<s id="1">Vous consentez ?</s>
 </p>
@@ -930,7 +950,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="IRÈNE"><speaker>IRÈNE, seule.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Mais d'où provient cette insistance incompréhensible ? </s>
 	<s id="2">Quelque chose me dit que cet homme est de mauvaise foi ; que sous cette enveloppe d'ami se dérobe une âme vénale, sous cette piété profonde un esprit hypocrite et corrompu. </s>
@@ -944,7 +965,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCENE III. Irène, Duplessis.</head>
+<div2 type="scene" n="3"><head>SCENE III.</head><stage> Irène, Duplessis.
+</stage>
 <sp who="DUPLESSIS"><speaker>DUPLESSIS.</speaker>
 <p id="1">
 	<s id="1">Heureux qui peut vous voir, Madame ; je me suis présenté plusieurs fois chez vous , et j'ai eu la douleur de ne pouvoir vous saluer.</s>
@@ -1042,12 +1064,14 @@
 </p>
 <stage type="wave">Irène s'incline froidement.</stage>
 </sp>
-<sp stage="" who="DUPLESSIS"><speaker>DUPLESSIS, insistant.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="">, insistant.
+</stage>
 <p id="18">
 	<s id="1">Comment dois-je interpréter votre silence... qui ne dit  mot...</s>
 </p>
 </sp>
-<sp stage="quick" who="IRÈNE"><speaker>IRÈNE, vivement.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="19">
 	<s id="1">Ne consent pas toujours, Monsieur.</s>
 </p>
@@ -1055,7 +1079,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="IRÈNE"><speaker>IRÈNE, seule.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Comme l'autre ! </s>
 	<s id="2">C'est absolument le langage de feu Monsieur_de_Châteauneuf. </s>
@@ -1064,8 +1089,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Irène, De Clairvaux</head>
-<sp stage="declamate" who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE, annonçant. </speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Irène, De Clairvaux
+</stage>
+<sp who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage type="declamate">, annonçant. 
+</stage>
 <p id="1">
 	<s id="1">Monsieur Aristide_de_Clairvaux.</s>
 </p>
@@ -1075,7 +1102,8 @@
 	<s id="1">Madame, j'ai bien l'honneur de vous présenter mes hommages.</s>
 </p>
 </sp>
-<sp stage="show/funiture" who="IRÈNE"><speaker>IRÈNE, désignant un fauteuil.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="show/funiture">, désignant un fauteuil.
+</stage>
 <p id="3">
 	<s id="1">Monsieur.</s>
 </p>
@@ -1106,7 +1134,8 @@
 	<s id="1">Je le crois.</s>
 </p>
 </sp>
-<sp stage="smile" who="IRÈNE"><speaker>IRÈNE, souriante.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="smile">, souriante.
+</stage>
 <p id="9">
 	<s id="1">Je vous écoute, monsieur.</s>
 </p>
@@ -1162,7 +1191,8 @@
 <stage type="wave">Irène fait un mouvement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, plus Madame du Fresnel.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, plus Madame du Fresnel.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">J'étais dans ce cabinet, Monsieur, et j'ai tout entendu... Je suis Madame_du_Fresnel.</s>
@@ -1198,7 +1228,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, plus Dupuy.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, plus Dupuy.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">Accourez vite, mon vieil ami, vous qui marchez si saintement au milieu de ce monde corrompu.</s>
@@ -1224,7 +1255,8 @@
 	<s id="1">J'ai beaucoup entendu parler de ses oeuvres de charité ; Monsieur_Dupuy est un philanthrope.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, à Dupuy.</speaker>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage type="toward">, à Dupuy.
+</stage>
 <p id="5">
 	<s id="1">Puisque monsieur vous connaît et vous rend la justice qui vous est due, il écoutera peut-être les conseils que vous allez lui donner.</s>
 </p>
@@ -1302,7 +1334,8 @@
 </p>
 <stage type="wave">Irène fait un mouvement.</stage>
 </sp>
-<sp who="DUPUY"><speaker>DUPUY, bas à madame du Fresnel.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage>, bas à madame du Fresnel.
+</stage>
 <p id="19">
 	<s id="1">Quelle audace, un petit écrivain de rien du tout.</s>
 </p>
@@ -1327,7 +1360,8 @@
 	<s id="1">Calmez-vous, ma bonne amie, Madame_de_Châteauneuf sait ce qu'elle doit à sa famille.</s>
 </p>
 </sp>
-<sp stage="toward" who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, à Irène.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage type="toward">, à Irène.
+</stage>
 <p id="24">
 	<s id="1">Daignez me faire connaître votre réponse.</s>
 </p>
@@ -1338,7 +1372,8 @@
 	<s id="2">Monsieur, je ne mets aucun empêchement à l'accomplissement de votre mission.</s>
 </p>
 </sp>
-<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, avec emportement.</speaker>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage>, avec emportement.
+</stage>
 <p id="26">
 	<s id="1">Ma fille est folle, Monsieur, je ne consentirai jamais.</s>
 </p>
@@ -1353,7 +1388,8 @@
 	<s id="1">Il me ferait manquer la plus belle affaire de ma vie, ce malheureux.</s>
 </p>
 </sp>
-<sp stage="toward" who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, à Madame du Fresnel.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage type="toward">, à Madame du Fresnel.
+</stage>
 <p id="29">
 	<s id="1">Madame, j'aurai l'honneur de me présenter demain chez vous.</s>
 </p>
@@ -1374,7 +1410,8 @@
 <stage type="wave/exit">Il s'incline et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, moins De Clairvaux.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, moins De Clairvaux.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">L'insolent.</s>
@@ -1408,7 +1445,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="IRÈNE"><speaker>IRÈNE, seule.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Une décision conforme à ma dignité, voilà de grands mots... </s>
 	<s id="2">Allons, j'entrevois un rayon de soleil qui perce l'obscurité de mon existence. </s>
@@ -1429,7 +1467,8 @@
 <stage type="cry">Elle pleure.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Irène, Léo.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Irène, Léo.
+</stage>
 <sp who="LÉO"><speaker>LÉO.</speaker>
 <p id="1">
 	<s id="1">Pardonnez-moi d'être venu... </s>
@@ -1473,7 +1512,8 @@ Elle tend la main à Léo.
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <stage type="sit/furniture">Madame du Fresnel est assise sur une causeuse. - Dupuy est en face d'elle.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame du Fresnel, Dupuy.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame du Fresnel, Dupuy.
+</stage>
 <sp who="DUPUY"><speaker>DUPUY.</speaker>
 <p id="1">
 	<s id="1">Vous n'avez aucune fortune et ne possédez absolument que les douze mille francs de rente que vous accorde Madame_de_Châteauneuf, est-ce bien cela ?</s>
@@ -1556,7 +1596,8 @@ Elle tend la main à Léo.
 	<s id="1">Si nous réussissons à la rendre.heureuse, vous aurez droit, mon vénérable ami, à toute notre reconnaissance.</s>
 </p>
 </sp>
-<sp who="DUPUY"><speaker>DUPUY, avec componction.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage>, avec componction.
+</stage>
 <p id="17">
 	<s id="1">J'aurais fait mon devoir, rien de plus, et la providence aura exaucé mon voeu le plus cher.</s>
 </p>
@@ -1572,13 +1613,15 @@ Elle tend la main à Léo.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Duplessis.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Duplessis.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">Approchez donc, mon gendre...</s>
 </p>
 </sp>
-<sp stage="wave" who="DUPLESSIS"><speaker>DUPLESSIS, s'inclinant.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="2">
 	<s id="1">Il se pourrait !</s>
 </p>
@@ -1594,7 +1637,8 @@ Elle tend la main à Léo.
 	<s id="2">Madame_de_Châteauneuf est un esprit tout imprégné de romantisme ; je me sacrifierai jusqu'à jusqu'à devenir romantique...</s>
 </p>
 </sp>
-<sp stage="happy" who="DUPLESSIS"><speaker>DUPLESSIS, gaiement.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="5">
 	<s id="1">On tâchera.</s>
 </p>
@@ -1614,12 +1658,14 @@ Elle tend la main à Léo.
 	<s id="1">Je ne l'oublierai pas, mes amis, je vous jure que je ne l'oublierai pas.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="DUPLESSIS"><speaker>DUPLESSIS, bas à Madame du Fresnel.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="low/toward">, bas à Madame du Fresnel.
+</stage>
 <p id="9">
 	<s id="1">Et il est homme d'honneur.</s>
 </p>
 </sp>
-<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, même jeu.</speaker>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage>, même jeu.
+</stage>
 <p id="10">
 	<s id="1">Je vais envoyer Irène.</s>
 </p>
@@ -1630,7 +1676,8 @@ Elle tend la main à Léo.
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dupuy, Duplessis.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dupuy, Duplessis.
+</stage>
 <sp who="DUPUY"><speaker>DUPUY.</speaker>
 <p id="1">
 	<s id="1">Madame_de_Châteauneuf va venir. Je disparais un instant ; à vous de vaincre les derniers scrupules, j'ai fait ce que j'ai pu.</s>
@@ -1639,7 +1686,8 @@ Elle tend la main à Léo.
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="DUPLESSIS"><speaker>DUPLESSIS, seul.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage>, seul.
+</stage>
 <p id="1">
 	<s id="1">La chose me paraît assez avancée, et ce diable de Dupuy a vaincu toutes les résistances. </s>
 	<s id="2">C'est lui qui a tout fait. </s>
@@ -1652,7 +1700,8 @@ Elle tend la main à Léo.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Irène, Duplessis.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Irène, Duplessis.
+</stage>
 <sp who="DUPLESSIS"><speaker>DUPLESSIS.</speaker>
 <p id="1">
 	<s id="1">Madame, je vous présente tous mes voeux.</s>
@@ -1674,7 +1723,8 @@ Elle tend la main à Léo.
 </p>
 <stage type="show/get">Elle désigne un siège à Duplessis et en prend un elle-même.</stage> 
 </sp>
-<sp stage="aparte" who="DUPLESSIS"><speaker>DUPLESSIS, à part.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Que me disait donc ce brave Dupuy.</s>
 </p>
@@ -1781,7 +1831,8 @@ Elle tend la main à Léo.
 	<s id="1">Monsieur, vous insultez une femme sans défense.</s>
 </p>
 </sp>
-<sp stage="estonish" who="DUPLESSIS"><speaker>DUPLESSIS, étonné.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="25">
 	<s id="1">Moi, vous insulter, Madame, mais je vous jure !...</s>
 </p>
@@ -1791,7 +1842,8 @@ Elle tend la main à Léo.
 	<s id="1">Ne jurez pas, Monsieur, je ne crois plus en vôtre honneur ; vous m'inspiriez de l'estime... et vous méritez le mépris !</s>
 </p>
 </sp>
-<sp stage="aparte" who="DUPLESSIS"><speaker>DUPLESSIS, à part.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Elle devient folle.</s>
 </p>
@@ -1831,8 +1883,10 @@ Elle tend la main à Léo.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, plus Dupuy.</head>
-<sp who="DUPUY"><speaker>DUPUY, entrant brusquement.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, plus Dupuy.
+</stage>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage>, entrant brusquement.
+</stage>
 <p id="1">
 	<s id="1">Tiens, cet excellent Monsieur_Duplessis, comment vous portez-vous, cher ami ?...</s>
 </p>
@@ -1855,7 +1909,8 @@ Elle tend la main à Léo.
 <stage type="wave/exit">Irène s'incline et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Duplessis, Dupuy.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Duplessis, Dupuy.
+</stage>
 <sp who="DUPLESSIS"><speaker>DUPLESSIS.</speaker>
 <p id="1">
 	<s id="1">Ah çà ! </s>
@@ -1901,7 +1956,8 @@ Elle tend la main à Léo.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, plus Madame du Fresnel.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, plus Madame du Fresnel.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">Je suis outrée de la conduite de ma fille, qu'elle-même vient de me faire connaître. </s>
@@ -1932,7 +1988,8 @@ Elle tend la main à Léo.
 <stage type="exit/closer">Elle va pour sortir par la porte de gauche, et se trouve face à face avec Irène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, plus Irène.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, plus Irène.
+</stage>
 <sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL.</speaker>
 <p id="1">
 	<s id="1">Vous, ma fille !</s>
@@ -1943,7 +2000,8 @@ Elle tend la main à Léo.
 	<s id="1">Moi-même, informée de l'arrivée de mes amis, je viens les recevoir, comme vous recevez les vôtres, ma mère.</s>
 </p>
 </sp>
-<sp stage="declamate" who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE, annonçant.</speaker>
+<sp who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="3">
 	<s id="1">Monsieur_Aristide_de_Clairvaux. </s>
 	<s id="2">- Monsieur_Léo_Duval </s>
@@ -1955,8 +2013,10 @@ Elle tend la main à Léo.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, plus De Clairvaux et Léo Duval.</head>
-<sp stage="toward" who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, à de Clairvaux.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, plus De Clairvaux et Léo Duval.
+</stage>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage type="toward">, à de Clairvaux.
+</stage>
 <p id="1">
 	<s id="1">Il me semble, Monsieur, que je vous avais annoncé ma résolution !</s>
 </p>
@@ -1976,7 +2036,8 @@ Elle tend la main à Léo.
 	<s id="1">Qui le sait, Monsieur ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LÉO"><speaker>LÉO, à Madame du Fresnel.</speaker>
+<sp who="LÉO"><speaker>LÉO</speaker><stage type="toward">, à Madame du Fresnel.
+</stage>
 <p id="6">
 	<s id="1">Oserai-je vous supplier, Madame, d'agréer favorablement les voeux que je forme ?</s>
 </p>
@@ -2022,12 +2083,14 @@ Elle tend la main à Léo.
 	<s id="1">Vous me pardonnerez si j'insiste, Madame ; je suis persuadé que vous ne connaissez pas toute la valeur de cette haute philanthropie.</s>
 </p>
 </sp>
-<sp stage="aparte" who="DUPUY"><speaker>DUPUY, à part.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Mais où veut-il en venir ?</s>
 </p>
 </sp>
-<sp stage="continue" who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, continuant.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage type="continue">, continuant.
+</stage>
 <p id="16">
 	<s id="1">Ainsi, Madame, son dévouement à votre famille par exemple lui a fait choisir pour époux à votre fille un homme dont j'ai entendu faire l'éloge, l'honorable Monsieur_Duplessis.</s>
 </p>
@@ -2099,7 +2162,8 @@ Elle tend la main à Léo.
 	<s id="1">Calomnie, mensonge !</s>
 </p>
 </sp>
-<sp stage="aparte" who="DUPLESSIS"><speaker>DUPLESSIS, à part.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="29">
 	<s id="1">Le bout de l'oreille !</s>
 </p>
@@ -2125,7 +2189,8 @@ Elle tend la main à Léo.
 	<s id="2">Mes pressentiments ne me trompaient pas.</s>
 </p>
 </sp>
-<sp stage="read" who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, lisant.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage type="read">, lisant.
+</stage>
 <p id="33">
 	<s id="1">« Je déclare avoir reçu de Monsieur_Châteauneuf la somme de quarante_mille_francs. </s>
 </p>	
@@ -2154,7 +2219,8 @@ Elle tend la main à Léo.
 	<s id="1">Et moi je me tais, ma mère !</s>
 </p>
 </sp>
-<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, présentant le papier.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage>, présentant le papier.
+</stage>
 <p id="40">
 	<s id="1">Oh ! </s>
 	<s id="2">Vous pouvez tous lire ce reçu... </s>
@@ -2168,7 +2234,8 @@ Elle tend la main à Léo.
 	<s id="2">Infâme !</s>
 </p>
 </sp>
-<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX, tirant un nouveau papier de son portefeuille.</speaker>
+<sp who="DE CLAIRVAUX"><speaker>DE CLAIRVAUX</speaker><stage>, tirant un nouveau papier de son portefeuille.
+</stage>
 <p id="42">
 	<s id="1">Tenez, voici la première, elle est adressée à Monsieur_de_Châteauneuf et porte le timbre de la poste, daignez m'écouter...</s>
 </p>
@@ -2202,7 +2269,8 @@ Elle tend la main à Léo.
 	<s id="1">Monsieur_de_Châteauneuf était un homme prudent, et son notaire, dont je suis le successeur, possédait ces petits papiers dont l'existence est aujourd'hui si précieuse.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL, à Irène.</speaker>
+<sp who="MADAME DU FRESNEL"><speaker>MADAME DU FRESNEL</speaker><stage type="toward">, à Irène.
+</stage>
 <p id="49">
 	<s id="1">Irène, je vous jure sur la mémoire de votre père que j'ai été indignement trompée par cet homme.</s>
 </p>
@@ -2227,12 +2295,14 @@ Elle tend la main à Léo.
 	<s id="1">Je retrouve donc une mère.</s>
 </p>
 </sp>
-<sp stage="toward" who="DUPLESSIS"><speaker>DUPLESSIS, à Dupuy.</speaker>
+<sp who="DUPLESSIS"><speaker>DUPLESSIS</speaker><stage type="toward">, à Dupuy.
+</stage>
 <p id="54">
 	<s id="1">Nous n'avons plus rien à faire ici.</s>
 </p>
 </sp>
-<sp stage="toward" who="DUPUY"><speaker>DUPUY, à Madame du Fresnel.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="toward">, à Madame du Fresnel.
+</stage>
 <p id="55">
 	<s id="1">Madame, vous oubliez quarante_années de dévouement.</s>
 </p>
@@ -2244,7 +2314,8 @@ Elle tend la main à Léo.
 </p> 
 </sp>
 <stage type="show/location">Elle montre la porte.</stage>
-<sp stage="touch" who="DUPUY"><speaker>DUPUY, prenant le bras de Duplessis.</speaker>
+<sp who="DUPUY"><speaker>DUPUY</speaker><stage type="touch">, prenant le bras de Duplessis.
+</stage>
 <p id="57">
 	<s id="1">Travaillez donc au bonheur de l'humanité.</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -28,27 +28,28 @@
 		<docTitle>
 			<titlePart type="main">LA VANITÉ PUNIE</titlePart>
 		</docTitle> 
-		<docDate value='1873'>1873. TOUS DROITS RÉSERVÉS.</docDate>
-		<docAuthor id='BERQUIN, Arnaud'>tirés de BERQUIN</docAuthor>
+		<docDate value="1873">1873. TOUS DROITS RÉSERVÉS.</docDate>
+		<docAuthor id="BERQUIN, Arnaud">tirés de BERQUIN</docAuthor>
 		<docImprint>
 			<editor id="HACHETTE">PARIS LIBRAIRIE DE L. HACHETTE ET Cie, rue Pierre_Sarrazin, n°14.</editor>
-			<printer id='LAHURE'>PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
+			<printer id="LAHURE">PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="MONSIEUR DE VALENCE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE VALENCE</role>.</castItem>
-		<castItem><role id="MADAME de VALENCE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME de VALENCE</role>.</castItem>
-		<castItem><role id="VALENTIN" sex="1" type="H" statut="aristocrate" age="E" stat_amour='néant'>VALENTIN</role>, leur fils.</castItem>
-		<castItem><role id="MONSIEUR DE REVEL" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE REVEL</role>, ami de M. de Valence.</castItem>
-		<castItem><role id="MONSIEUR DE NANCÉ" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE NANCÉ</role>, ami de M. de Valence.</castItem>
-		<castItem><role id="MATTHIEU" sex="1" type="H" statut="paysan" age="E" stat_amour='néant'>MATTHIEU</role>, petit paysan.</castItem>
-		<castItem><role id="MATHURIN" sex="1" type="H" statut="jardinier" age="A" stat_amour='néant'>MATHURIN</role>, jardinier.</castItem>
+		<castItem><role id="MONSIEUR DE VALENCE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE VALENCE</role>.</castItem>
+		<castItem><role id="MADAME de VALENCE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME de VALENCE</role>.</castItem>
+		<castItem><role id="VALENTIN" sex="1" type="H" statut="aristocrate" age="E" stat_amour="néant">VALENTIN</role>, leur fils.</castItem>
+		<castItem><role id="MONSIEUR DE REVEL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE REVEL</role>, ami de M. de Valence.</castItem>
+		<castItem><role id="MONSIEUR DE NANCÉ" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE NANCÉ</role>, ami de M. de Valence.</castItem>
+		<castItem><role id="MATTHIEU" sex="1" type="H" statut="paysan" age="E" stat_amour="néant">MATTHIEU</role>, petit paysan.</castItem>
+		<castItem><role id="MATHURIN" sex="1" type="H" statut="jardinier" age="A" stat_amour="néant">MATHURIN</role>, jardinier.</castItem>
 	</castList>
 	<set location="Campagne" country="France" periode="XVIIIème" gps="">La scène est tour à tour dans un appartement du château, sur la terrasse du jardin, et dans une forêt contiguë.</set>
 	<note>Texte extrait de "Choix de petits drames et de contes tirés de Berquin, illustrée de 36 vignettes" par Foulquié et Forest, Paris, Librairie de L. Hachette et Cie, 1861. pp 113-136.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA PETITE GLANEUSE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur et Madame de Valence.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur et Madame de Valence.
+</stage>
 <sp who="MONSIEUR DE VALENCE"><speaker>MONSIEUR DE VALENCE.</speaker>
 <p id="1">
 	<s id="1">Voilà notre Valentin qui se promène dans l'allée avec un livre à la main. </s>
@@ -101,8 +102,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur de Valence, Valentin.</head>
-<sp stage="toward/push" who="VALENTIN"><speaker>VALENTIN, à Matthieu qu'il repousse.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur de Valence, Valentin.
+</stage>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="toward/push">, à Matthieu qu'il repousse.
+</stage>
 <p id="1">
 	<s id="1">Non, laissez-moi. </s>
 	<s id="2">Mon papa, c'est ce petit sot de paysan qui vient toujours m'interrompre dans ma lecture.</s>
@@ -173,7 +176,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="VALENTIN"><speaker>VALENTIN, seul.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Oui, la belle liaison à former ! </s>
 	<s id="2">Mon papa se moque, je crois. </s>
@@ -183,7 +187,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Valentin, Matthieu.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Valentin, Matthieu.
+</stage>
 <sp who="MATTHIEU"><speaker>MATTHIEU.</speaker>
 <p id="1">
 	<s id="1">Vous ne voulez donc pas mon petit bouquet, Monsieur_Valentin ?</s>
@@ -281,7 +286,8 @@ et, lui montrant son livre.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="VALENTIN"><speaker>VALENTIN, seul.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="18">
 	<s id="1">Je crois que ce petit drôle voulait se moquer de moi. </s>
 	<s id="2">Mais voici la compagnie qui vient sur la terrasse. </s>
@@ -290,7 +296,8 @@ et, lui montrant son livre.</stage>
 <stage type="sit/serious">Il s'assied en affectant une grande attention à lire dans son livre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur et Madame de Valence, Monsieur de Revel, Monsieur de Nancé, Valentin, assis sur un banc à l'écart.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur et Madame de Valence, Monsieur de Revel, Monsieur de Nancé, Valentin, assis sur un banc à l'écart.
+</stage>
 <sp who="MONSIEUR DE VALENCE"><speaker>MONSIEUR DE VALENCE.</speaker>
 <p id="1">
 	<s id="1">La belle soirée ! </s>
@@ -340,7 +347,8 @@ et, lui montrant son livre.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp who="VALENTIN"><speaker>VALENTIN, les voyant s'éloigner.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage>, les voyant s'éloigner.
+</stage>
 <p id="1">
 	<s id="1">Bon ! </s>
 	<s id="2">Les voilà bien loin ; je n'ai plus besoin de me contraindre.</s>
@@ -364,7 +372,8 @@ un quart d'heure.</stage>
 <stage type="hide/location">Il se jette dans le bois.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur et Madame de Valence, Monsieur de Revel, Monsieur de Nancé.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur et Madame de Valence, Monsieur de Revel, Monsieur de Nancé.
+</stage>
 <sp who="MONSIEUR DE REVEL"><speaker>MONSIEUR DE REVEL.</speaker>
 <p id="1">
 	<s id="1">Je n'ai jamais goûté de plaisir plus pur et plus touchant.</s>
@@ -464,7 +473,8 @@ un quart d'heure.</stage>
 <stage type="walk/location">Ils marchent vers la forêt.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur et Madame DE VALENCE.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur et Madame DE VALENCE.
+</stage>
 <sp who="MADAME DE VALENCE"><speaker>MADAME DE VALENCE.</speaker>
 <p id="1">
 	<s id="1">Comment donc, mon ami ! </s>
@@ -567,7 +577,8 @@ un quart d'heure.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Monsieur et Madame de Valence, Monsieur de  Revel, Monsieur de Nancé.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Monsieur et Madame de Valence, Monsieur de  Revel, Monsieur de Nancé.
+</stage>
 <sp who="MONSIEUR DE NANCÉ"><speaker>MONSIEUR DE NANCÉ.</speaker>
 <p id="1">
 	<s id="1">Nos recherches ont été inutiles ; mais, si Monsieur_de_Valence veut nous donner des flambeaux et des domestiques...</s>
@@ -583,7 +594,8 @@ un quart d'heure.</stage>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
 <stage type="location">Au milieu de la forêt.</stage>
-<sp stage="alone" who="VALENTIN"><speaker>VALENTIN, seul.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Qu'ai-je fait, malheureux ? </s>
 	<s id="2">Il est déjà nuit, et je ne sais de quel côté me tourner. </s>
@@ -608,7 +620,8 @@ un quart d'heure.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Valentin, Matthieu accourant au cri.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Valentin, Matthieu accourant au cri.
+</stage>
 <sp who="MATTHIEU"><speaker>MATTHIEU.</speaker>
 <p id="1">
 	<s id="1">Qui est là ? </s>
@@ -625,7 +638,8 @@ un quart d'heure.</stage>
 	<s id="3">Je me suis égaré.</s>
 </p>
 </sp>
-<sp stage="watch/estonish/laugh" who="MATTHIEU"><speaker>MATTHIEU, le regardant d'abord d'un air étonné, et poussant ensuite un éclat de rire.</speaker>
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="watch/estonish/laugh">, le regardant d'abord d'un air étonné, et poussant ensuite un éclat de rire.
+</stage>
 <p id="3">
 	<s id="1">Y pensez-vous, Monsieur ? </s>
 	<s id="2">Moi, votre cher Matthieu ? Votre cher ami ? </s>
@@ -640,17 +654,20 @@ un quart d'heure.</stage>
 	<s id="2">Tu auras une bonne récompense de maman.</s>
 </p>
 </sp>
-<sp stage="watch" who="MATTHIEU"><speaker>MATTHIEU, le regardant du haut en bas.</speaker>
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="watch">, le regardant du haut en bas.
+</stage>
 <p id="5">
 	<s id="1">Avez-vous achevé de lire votre Télémaque ?</s>
 </p>
 </sp>
-<sp stage="watch" who="VALENTIN"><speaker>VALENTIN, baissant les yeux d'un air confus.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="watch">, baissant les yeux d'un air confus.
+</stage>
 <p id="6">
 	<s id="1">Ah !</s>
 </p>
 </sp>
-<sp stage="touch/watch" who="MATTHIEU"><speaker>MATTHIEU, mettant son doigt contre le nez et regardant le ciel.</speaker> 
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="touch/watch">, mettant son doigt contre le nez et regardant le ciel. 
+</stage> 
 <p id="7">
 	<s id="1">Dites-moi, mon petit savant, combien la lune peut-elle être grande en ce moment-ci ?</s>
 </p>
@@ -686,7 +703,8 @@ un quart d'heure.</stage>
 	<s id="1">Ô mon cher Matthieu !</s>
 </p>
 </sp>
-<sp stage="lie/location" who="MATTHIEU"><speaker>MATTHIEU, s'étendant sous un arbre. </speaker>
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="lie/location">, s'étendant sous un arbre. 
+</stage>
 <p id="13">
 	<s id="1">Allons, Monsieur, arrangez-vous à votre aise.</s>
 </p>
@@ -752,7 +770,8 @@ un quart d'heure.</stage>
 	<s id="2">Et puis, où trouver du charbon et du bois ?</s>
 </p>
 </sp>
-<sp stage="smile" who="MATTHIEU"><speaker>MATTHIEU, en souriant. </speaker>
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="smile">, en souriant. 
+</stage>
 <p id="25">
 	<s id="1">Est-ce que vous ne trouveriez pas de tout cela dans vos livres ?</s>
 </p>
@@ -810,7 +829,8 @@ cuit.</s>
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="alone" who="VALENTIN"><speaker>VALENTIN, seul.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Insensé que j'étais ! </s>
 	<s id="2">Comment ai-je pu être assez injuste pour mépriser cet enfant ? </s>
@@ -822,7 +842,8 @@ cuit.</s>
 <stage type="away/back">Il va ça et là, en ramassant, à la lueur du brasier, quelques branches sèches qu'il porte à son feu.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Valentin, Matthieu, traînant deux bottes de foin.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Valentin, Matthieu, traînant deux bottes de foin.
+</stage>
 <sp who="MATTHIEU"><speaker>MATTHIEU.</speaker>
 <p id="1">
 	<s id="1">Voici votre lit de plume, vos matelas et votre couverture. </s>
@@ -917,16 +938,19 @@ cuit.</s>
 <stage type="sleep/work">Valentin s'endort, et Matthieu veille auprès de lui pour entretenir le feu.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Valentin, dormant encore, Matthieu.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Valentin, dormant encore, Matthieu.
+</stage>
 <stage type="light">Vers le point du jour.</stage>
-<sp stage="awake" who="MATTHIEU"><speaker>MATTHIEU, l'éveillant. </speaker>
+<sp who="MATTHIEU"><speaker>MATTHIEU</speaker><stage type="awake">, l'éveillant. 
+</stage>
 <p id="1">
 	<s id="1">Allons, mon camarade, c'est assez dormir. </s>
 	<s id="2">L'alouette s'est déjà égosillée, et le soleil va bientôt paraître derrière la montagne. </s>
 	<s id="3">Nous allons nous mettre en marche pour retourner chez vous.</s>
 </p>
 </sp>
-<sp stage="watch" who="VALENTIN"><speaker>VALENTIN, se frottant les yeux. </speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="watch">, se frottant les yeux. 
+</stage>
 <p id="2">
 	<s id="1">Quoi ! </s>
 	<s id="2">Déjà ? </s>
@@ -940,7 +964,8 @@ cuit.</s>
 	<s id="2">Comment avez-vous dormi ?</s>
 </p>
 </sp>
-<sp stage="stand" who="VALENTIN"><speaker>VALENTIN, se levant. </speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="stand">, se levant. 
+</stage>
 <p id="4">
 	<s id="1">Tout d'un somme. </s>
 	<s id="2">Voici la camisole ; je te remercie mille et mille fois. </s>
@@ -956,7 +981,8 @@ cuit.</s>
 <stage type="speak">Ils parlent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Monsieur et Madame de Valence.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Monsieur et Madame de Valence.
+</stage>
 <stage type="location">Au château.</stage>
 <sp who="MADAME DE VALENCE"><speaker>MADAME DE VALENCE.</speaker>
 <p id="1">
@@ -975,8 +1001,10 @@ cuit.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Monsieur et Madame de Valence,  Valentin, Matthieu.</head>
-<sp stage="run/closer" who="MADAME DE VALENCE"><speaker>MADAME DE VALENCE, courant à son fils. </speaker>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Monsieur et Madame de Valence,  Valentin, Matthieu.
+</stage>
+<sp who="MADAME DE VALENCE"><speaker>MADAME DE VALENCE</speaker><stage type="run/closer">, courant à son fils. 
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Je le vois donc enfin, mon cher fils !</s>
@@ -1003,7 +1031,8 @@ cuit.</s>
 	<s id="1">Une bonne récompense, et de grand coeur.</s>
 </p>
 </sp>
-<sp stage="show" who="VALENTIN"><speaker>VALENTIN, lui présentant Matthieu. </speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="show">, lui présentant Matthieu. 
+</stage>
 <p id="6">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Voilà celui à qui vous la devez. </s>
@@ -1051,4 +1080,3 @@ Valence présente la sienne à sa femme, et ils passent tous ensemble dans le sa
 </body>
 </text>
 </TEI>
-

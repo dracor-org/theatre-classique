@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LE COMMENCEMENT DE LA FIN, COMÉDIE.</title>
-			<author born='1838' born_location='Paris' death='1889' death_location='Rueil-Malmaison' academie=''>CHAUVIN</author>
+			<author born="1838" born_location="Paris" death="1889" death_location="Rueil-Malmaison" academie="">CHAUVIN</author>
 			</titleStmt>
 			<publicationStmt>	
 				<publisher>publié par Paul FIEVRE, août 2017.</publisher>
@@ -26,17 +26,17 @@
 		<docTitle>
 			<titlePart type="main">LE COMMENCEMENT DE LA FIN</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881. Tous droits réservés.</docDate>
-		<docAuthor id="CHAUVIN" bio='chauvin'>PAR M. CHAUVIN</docAuthor>
+		<docDate value="1881">1881. Tous droits réservés.</docDate>
+		<docAuthor id="CHAUVIN" bio="chauvin">PAR M. CHAUVIN</docAuthor>
 		<docImprint>
-			<privilege id=''></privilege>
-			<acheveImprime id=''></acheveImprime>
-			<editor id='TRESSE'>PARIS, TRESSE ÉDITEUR, GALERIE DU THÉÂTRE-FRANÇAIS, PALAIS-ROYAL.</editor>
+			<privilege id=""/>
+			<acheveImprime id=""/>
+			<editor id="TRESSE">PARIS, TRESSE ÉDITEUR, GALERIE DU THÉÂTRE-FRANÇAIS, PALAIS-ROYAL.</editor>
 			<printer>F. Aureau. - Imprimerie de Lagny.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGE</head>
-		<castItem><role id="GONTRAN DE VIEUXNEUF" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>GONTRAN DE VIEUXNEUF</role>.</castItem> 
-		<castItem><role id="BAPTISTE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>BAPTISTE</role>.</castItem>
+		<castItem><role id="GONTRAN DE VIEUXNEUF" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">GONTRAN DE VIEUXNEUF</role>.</castItem> 
+		<castItem><role id="BAPTISTE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">BAPTISTE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris, de nos jours</set>
 </front>
@@ -46,7 +46,8 @@
 <stage type="decor/furniture">Le théâtre représente une chambre à coucher de garçon (1). Au fond, un lit (2). Portes à droite et à gauche. An milieu de la scène, un guéridon sur lequel se trouve une cave à liqueurs ouverte. Cheminée, pendule, fauteuils, chaises, toilette-commode, etc. Sur tous les meubles sont dispersés les verres de la cave à liqueurs. Un gant sur le guéridon, une boucle de cheveux bruns à terre, une tasse et une théière sur la cheminée. Tout est en désordre dans cette chambre.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor">Au lever du rideau, Gontran est couché tout habillé sur le lit. Dix heures sonnent.</stage>
-<sp stage="awake" who="GONTRAN"><speaker>GONTRAN, s'éveillait.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="awake">, s'éveillait.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>
@@ -390,13 +391,16 @@
 <stage type="get/dress">Il prend une chemise qu'il a tirée de la commode et passe derrière les rideaux pour la mettre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Gontran, Baptiste.</head>
-<sp stage="" who="BAPTISTE"><speaker>BAPTISTE, coiffé d'un bonnet de coton, les deux yeux pochés, entrant par le fond.</speaker> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Gontran, Baptiste.
+</stage>
+<sp who="BAPTISTE"><speaker>BAPTISTE</speaker><stage type="">, coiffé d'un bonnet de coton, les deux yeux pochés, entrant par le fond. 
+</stage> 
 <p id="1">
 	<s id="1">Monsieur a sonné ?</s>
 </p>
 </sp>
-<sp stage="location" who="GONTRAN"><speaker>GONTRAN, derrière le rideau.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="location">, derrière le rideau.
+</stage>
 <p id="2">
 	<s id="1">Voilà vingt fois que je te sonne.</s>
 </p>
@@ -422,7 +426,8 @@
 	<s id="1">C'est que...</s>
 </p>
 </sp>
-<sp stage="watch" who="GONTRAN"><speaker>GONTRAN, le voyant de face.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="watch">, le voyant de face.
+</stage>
 <p id="7">
 	<s id="1">Et ces yeux !... </s>
 	<s id="2">Monsieur Baptiste, vous vous êtes battu comme un chiffonnier, je vous chasse.</s>
@@ -469,7 +474,8 @@
 	<s id="2">Çà n'est pas lui qui...</s>
 </p>
 </sp>
-<sp stage="" who="GONTRAN"><speaker>GONTRAN, fat.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="">, fat.
+</stage>
 <p id="15">
 	<s id="1">C'est Léontine, parbleu !... </s>
 	<s id="2">Le dépit de ce que je la quitte.</s>
@@ -482,7 +488,8 @@
 	<s id="3">Elle a dit qu'elle s'en fichait pas mal.</s>
 </p>
 </sp>
-<sp stage="offended" who="GONTRAN"><speaker>GONTRAN, vexé.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="offended">, vexé.
+</stage>
 <p id="17">
 	<s id="1">C'est touchant !... </s>
 	<s id="2">Qui donc alors ?</s>
@@ -495,7 +502,8 @@
 	<s id="3">J'ai trouvé monsieur, là, étendu à côté de son lit...</s>
 </p>
 </sp>
-<sp stage="aparte/show" who="GONTRAN"><speaker>GONTRAN, à part, montrant son lit.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="aparte/show">, à part, montrant son lit.
+</stage>
 <p id="19">
 	<s id="1">Ah !... </s>
 	<s id="2">J'y suis... </s>
@@ -549,7 +557,8 @@
 	<s id="1">Et que monsieur m'a fait leur installer des lits dans le salon et dans la salle à manger.</s>
 </p>
 </sp>
-<sp stage="continue/wash" who="GONTRAN"><speaker>GONTRAN, qui continue sa toilette.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="continue/wash">, qui continue sa toilette.
+</stage>
 <p id="29">
 	<s id="1">Comment ils sont là !</s>
 </p>
@@ -583,7 +592,8 @@
 	<s id="4">Car je suis en retard...</s>
 </p>
 </sp>
-<sp stage="smart" who="BAPTISTE"><speaker>BAPTISTE, d'un air malin.</speaker>
+<sp who="BAPTISTE"><speaker>BAPTISTE</speaker><stage type="smart">, d'un air malin.
+</stage>
 <p id="34">
 	<s id="1">Ah ! </s>
 	<s id="2">Elle ne pourrait pas entrer !</s>
@@ -694,12 +704,14 @@
 	<s id="2">Tu les feras manger et tu les mettras à la porte.</s>
 </p>
 </sp>
-<sp stage="show" who="BAPTISTE"><speaker>BAPTISTE, montrant ses yeux.</speaker>
+<sp who="BAPTISTE"><speaker>BAPTISTE</speaker><stage type="show">, montrant ses yeux.
+</stage>
 <p id="54">
 	<s id="1">Si monsieur Patinais le veut bien !</s>
 </p>
 </sp>
-<sp stage="dress/get" who="GONTRAN"><speaker>GONTRAN, qui a fini sa toilette, mettant son chapeau et prenant le sac que Baptiste lui a préparé.</speaker> 
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="dress/get">, qui a fini sa toilette, mettant son chapeau et prenant le sac que Baptiste lui a préparé. 
+</stage> 
 <p id="55">
 	<s id="1">Moi, je cours chez ma belle-mère et de là à la mairie... puis à l'hôtel... à l'hôtel meublé... </s>
 	<s id="2">Tu diras à Patinais que je suis parti... à Constantinople comme reporter du Figaro...</s>
@@ -709,7 +721,8 @@
 	<s id="1">Une voiture !</s>
 </p>
 </sp>
-<sp stage="watch" who="BAPTISTE"><speaker>BAPTISTE, qui a regardé par la fenêtre.</speaker>
+<sp who="BAPTISTE"><speaker>BAPTISTE</speaker><stage type="watch">, qui a regardé par la fenêtre.
+</stage>
 <p id="57">
 	<s id="1">Une grosse mère en descend.</s>
 </p>
@@ -724,7 +737,8 @@
 	<s id="1">Une vraie caricature !</s>
 </p>
 </sp>
-<sp stage="frighten" who="GONTRAN"><speaker>GONTRAN, effrayé.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="60">
 	<s id="1">C'est ma belle-mère !... </s>
 	<s id="2">Elle vient me chercher !... </s>

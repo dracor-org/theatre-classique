@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -27,27 +27,28 @@
 				<titlePart type="main">LA VANITÉ MORTIFIÉE</titlePart>
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location='(inconnue)'></premiere>
+				<premiere date="" location="(inconnue)"/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR BALLOT" sex="1" type="H" statut="négociant" age='A' stat_amour='néant'>MONSIEUR BALLOT</role>, négociant.</castItem>
-		<castItem><role id="MONSIEUR RONDEAU" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>MONSIEUR RONDEAU</role>, fils de Monsieur Ballot.</castItem>
-		<castItem><role id="MONSIEUR TRIOLLET" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MONSIEUR TRIOLLET</role>, ami de Monsieur Rondeau.</castItem>
-		<castItem><role id="MARTIN" sex="1" type="H" statut="employé" age='A' stat_amour='néant'>MARTIN</role>.</castItem>
+		<castItem><role id="MONSIEUR BALLOT" sex="1" type="H" statut="négociant" age="A" stat_amour="néant">MONSIEUR BALLOT</role>, négociant.</castItem>
+		<castItem><role id="MONSIEUR RONDEAU" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">MONSIEUR RONDEAU</role>, fils de Monsieur Ballot.</castItem>
+		<castItem><role id="MONSIEUR TRIOLLET" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR TRIOLLET</role>, ami de Monsieur Rondeau.</castItem>
+		<castItem><role id="MARTIN" sex="1" type="H" statut="employé" age="A" stat_amour="néant">MARTIN</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, La Vanité mortifiée, opuscule dramatique, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome premier, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 111-130. </note>
 </front>
 <body>
-<div1 type="acte" n=""><head></head>
+<div1 type="acte" n=""><head/>
 <div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/location" who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU, seul dans son Cabinet, auprès de son secrétaire.</speaker>
+<sp who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU</speaker><stage type="alone/location">, seul dans son Cabinet, auprès de son secrétaire.
+</stage>
 <note type="C">Chapelain, Jean (1595-1674) : poète et académicien. Il a écrit un poème épique "La pucelle" qui, moqué par Boileau (entre autres), ruina sa réputation.</note>
 <p id="1">
 	<s id="1">La voilà donc enfin copiée cette maudite épître à Cloris. J'en fuis quitte : Dieu soit loué ! </s>
@@ -64,7 +65,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur Rondeau, Monsieur Triollet.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur Rondeau, Monsieur Triollet.
+</stage>
 <sp who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET.</speaker>
 <p id="1">
 	<s id="1">Eh bien, mon épître est-elle copiée ?</s>
@@ -213,7 +215,8 @@
 	<s id="1">Il est bien des gens à qui cette voie d'accommodement ne plairait pas.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU, avec enthousiasme.</speaker>
+<sp who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU</speaker><stage type="enthousiasm">, avec enthousiasme.
+</stage>
 <p id="27">
 	<s id="1">Oh ! Si je n'étais pas gêné par la tyrannique avidité de mon père, s'il ne me forçait pas à délaisser les Muses pour caresser la fortune, comme les vers couleraient sous ma plume ! </s>
 	<s id="2">Combien de chefs-d'oeuvres volés à mon siècle par l'ambition de cet homme impérieux ! </s>
@@ -268,7 +271,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCENE III.  Monsieur Ballot, Monsieur Triollet.</head>
+<div2 type="scene" n="3"><head>SCENE III.</head><stage>  Monsieur Ballot, Monsieur Triollet.
+</stage>
 <sp who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -310,7 +314,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 	<s id="5">Mais j'aperçois sa clef à son secrétaire ; il nous est aisé de lever tous nos doutes en feuilletant ses papiers : ouvrons.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET, à part.</speaker>
+<sp who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET</speaker><stage type="aparte">, à part.
+</stage>
 <note type="C">Sic vos non vobis : proverbe latin ; Ainsi vous travaillez et ce n'est pas vous.</note>
 <p id="8">
 	<s id="1s">Ah ! </s>
@@ -435,7 +440,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 	<s id="2">Paphos, pas à pas, vous n'en riez point ?</s>
 </p>
 </sp>
-<sp stage="offended" who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET, d'un ton piqué.</speaker>
+<sp who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET</speaker><stage type="offended">, d'un ton piqué.
+</stage>
 <p id="29">
 	<s id="1">Monsieur, je ne me connais point en poésie ; je ne suis pas fait pour en juger.</s>
 </p>
@@ -478,7 +484,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet.
+</stage>
 <sp who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -488,7 +495,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 	<s id="5">Nous avons lu de tes OEuvres : l'Épître à Cloris.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU, à part.</speaker>
+<sp who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Bon Dieu ! </s>
@@ -539,7 +547,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet, Martin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet, Martin.
+</stage>
 <sp who="MARTIN"><speaker>MARTIN.</speaker>
 <p id="1">
 	<s id="1">Que souhaitez-vous, Monsieur ?</s>
@@ -555,7 +564,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 	<s id="1">Eh quoi, mon père, vous voudriez m'exposer ?...</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT, à Martin.</speaker>
+<sp who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT</speaker><stage type="toward">, à Martin.
+</stage>
 <p id="4">
 	<s id="1">De là tu iras chez ce Monsieur de la Caze : tu lui diras que je le prie de m'attendre que je veux occuper sa presse.</s>
 </p>
@@ -566,7 +576,8 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Ballot, Monsieur Rondeau, Monsieur Triollet.
+</stage>
 <sp who="MONSIEUR RONDEAU"><speaker>MONSIEUR RONDEAU.</speaker>
 <p id="1">
 	<s id="1">Mon père, puis-je au moins espérer que vous n'y mettrez pas mon nom ?</s>
@@ -598,19 +609,22 @@ Ne laisser aucun nom, et mourir tout entier !</note>
 	<s id="3">Monsieur en est l'auteur ; je n'ai fait que les copier.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT, à Monsieur Triollet.</speaker>
+<sp who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT</speaker><stage type="toward">, à Monsieur Triollet.
+</stage>
 <p id="6">
 	<s id="1">Quoi ! </s>
 	<s id="2">Monsieur, vous vous avisez aussi d'être poète, et de faire des vers si détestables ?</s>
 </p>
 </sp>
-<sp stage="exit" who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET, en s'en allant.</speaker>
+<sp who="MONSIEUR TRIOLLET"><speaker>MONSIEUR TRIOLLET</speaker><stage type="exit">, en s'en allant.
+</stage>
 <p id="7">
 	<s id="1">Oui, l'amour a pu m'en inspirer de faibles. </s>
 	<s id="2">Mais la vengeance m'en dictera de meilleurs, et vous en conviendrez l'un et l'autre.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT, à part.</speaker>
+<sp who="MONSIEUR BALLOT"><speaker>MONSIEUR BALLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Au fond, je suis fâché que cette pièce ne soit pas de mon fils : un peu de ridicule l'aurait corrigé peut-être. </s>
 	<s id="2">Mais s'il a quelque succès, le mal est sans remède.</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,12 +29,12 @@
 			<titlePart type="main">LISETTE OU LA MAUVAISE COMPAGNE</titlePart>
 			<titlePart type="sub">AVANT UNE FÊTE MONDAINE</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858</docDate>
-		<docAuthor id='GONNET, Eugène'>Par l'Abbé E. GONNET.</docAuthor>
+		<docDate value="1858">1858</docDate>
+		<docAuthor id="GONNET, Eugène">Par l'Abbé E. GONNET.</docAuthor>
 		<docImprint>
-			<editor id='CAILLAT-BELHOMME'>AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
-			<printer id='JACQUET'>AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
-			<approbation><head></head>
+			<editor id="CAILLAT-BELHOMME">AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
+			<printer id="JACQUET">AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
+			<approbation><head/>
 				<p>Avignon le 20 juillet 1858.</p>
 				<p>L'ARCHEVÊQUE D'AVIGNON.</p>
 				<p>Vu le rapport que lui a fait un des membres de la Commission chargée de l'examen des livres dans son diocèse..</p>
@@ -43,19 +43,20 @@
 			</approbation>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LISETTE" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>LISETTE</role>, jeune mondaine.</castItem>
-			<castItem><role id="PAULNE" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>PAULINE</role>, jeune mondaine, amie de Lisette.</castItem>
-			<castItem><role id="ROSA" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>ROSA</role>, jeune congréganiste.</castItem>
-			<castItem><role id="ADELINE" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>ADELINE</role>, maîtresse de choeur.</castItem>
-			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut="présidente" age='A' stat_amour='néant'>LA PRÉSIDENTE</role>de la congrégation.</castItem>
-			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age='J' stat_amour='néant'>LE CHOEUR</role>.</castItem>
+			<castItem><role id="LISETTE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">LISETTE</role>, jeune mondaine.</castItem>
+			<castItem><role id="PAULNE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">PAULINE</role>, jeune mondaine, amie de Lisette.</castItem>
+			<castItem><role id="ROSA" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">ROSA</role>, jeune congréganiste.</castItem>
+			<castItem><role id="ADELINE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">ADELINE</role>, maîtresse de choeur.</castItem>
+			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut="présidente" age="A" stat_amour="néant">LA PRÉSIDENTE</role>de la congrégation.</castItem>
+			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age="J" stat_amour="néant">LE CHOEUR</role>.</castItem>
 		</castList>
 		<set location="Avignon" country="France" periode="XIXème" gps="43.893582, 4.9456364">La scène se passe dans une cour ombragée.</set>
 		<note>Extrait de "Dialogues en vers pour pensionnaires ou congrégations de jeunes demoiselles", 2ème cahier, de l'Abbé Eugène Gonnet. pp 1-12</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LISETTE ou LA MAUVAISE COMPAGNE.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Pauline et Lisette, assises sous Fombrage ; elles ont une coiffure artistement arrangée et de riches diamants.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Pauline et Lisette, assises sous Fombrage ; elles ont une coiffure artistement arrangée et de riches diamants.
+</stage>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 	<l id="1" syll="6" part="i">Est-ce bien sérieux ?</l>
 </sp>
@@ -131,12 +132,15 @@
 <stage type="entrance">Le choeur arrive en chaulant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Rosa, Adeline, La Présidente, Le Choeur.</head>
-<sp stage="offended" who="ADELINE"><speaker>ADELINE, avec indignation.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Rosa, Adeline, La Présidente, Le Choeur.
+</stage>
+<sp who="ADELINE"><speaker>ADELINE</speaker><stage type="offended">, avec indignation.
+	</stage>
 	<l id="31" syll="2" part="m">Où suis-je ?</l>
 <stage type="sing">Le chant est interrompu.</stage>
 </sp>
-<sp stage="naive" who="ROSA"><speaker>ROSA, avec naïveté.</speaker>
+<sp who="ROSA"><speaker>ROSA</speaker><stage type="naive">, avec naïveté.
+	</stage>
 	<l id="31" syll="4" part="f">Oh! Que c'est beau !</l>
 </sp>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
@@ -154,10 +158,12 @@
 <stage type="toward">Aux mondaines.</stage>
 	<l id="37">Mais, voyons : quel dessein en ce lieu vous amène ?</l>
 </sp>
-<sp stage="shy" who="PAULINE"><speaker>PAULINE, avec timidité.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="shy">, avec timidité.
+	</stage>
 	<l id="38" syll="6" part="i">Mademoiselle, aucun.</l>
 </sp>
-<sp stage="desdain" who="LISETTE"><speaker>LISETTE, avec dédain.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="desdain">, avec dédain.
+	</stage>
 	<l id="38" syll="6" part="f">Nous reprenions haleine.</l>
 	<l id="39">Quand je ne sais quels chants sont venus jusqu'à nous.</l>
 </sp>
@@ -181,7 +187,8 @@
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="45">Quitte-les si tu veux : moi, je veux encor plaire.</l>
 </sp>
-<sp stage="serious" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, avec sévérité.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="serious">, avec sévérité.
+	</stage>
 	<l id="46">En ce cas, poursuivez votre chemin, ma chère,</l>
 	<l id="47">Et ne me gâtez point ces aimables enfants.</l>
 </sp>
@@ -203,7 +210,8 @@
 <sp who="ADELINE"><speaker>ADELINE.</speaker>
 	<l id="54" syll="4" part="i">Je n'oserais.</l>
 </sp>
-<sp stage="sad" who="LISETTE"><speaker>LISETTE, avec méchanceté.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="sad">, avec méchanceté.
+	</stage>
 	<l id="54" syll="2" part="m">Tant mieux !</l>
 </sp>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
@@ -217,11 +225,13 @@
 	<l id="57">J'attendrai volontiers l'effet de ma prière</l>
 	<l id="58" syll="3" part="i">Trop heureuse....</l>
 </sp>
-<sp stage="toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, aux choristes.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="toward">, aux choristes.
+	</stage>
 	<l id="58" syll="3" part="m">Entrez donc.</l>
 <stage type="exit">Les choristes se retirent.</stage>
 </sp>
-<sp stage="think" who="LISETTE"><speaker>LISETTE, d'un air pensif.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="think">, d'un air pensif.
+	</stage>
 	<l id="58" syll="3" part="f">Et moi, que vais-je faire?</l>
 <stage type="think">Elle songe à débaucher Rosa.</stage>
 	<l id="59" syll="2" part="i">Rosa ?</l>
@@ -231,7 +241,8 @@
 <stage type="location">Rosa restée en arrière lie conversation avec Lisette.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Pauline, Lisette et Rosa.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Pauline, Lisette et Rosa.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="59" syll="2" part="m">Un mot !</l>
 </sp>
@@ -264,7 +275,8 @@
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="68">Si tu les connaissais.... il n'en est point de tels.</l>
 </sp>
-<sp stage="toward" who="PAULINE"><speaker>PAULINE, à Lisette.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="toward">, à Lisette.
+	</stage>
 	<l id="69">Tu ne lui paries pas du remords qui déchire.</l>
 </sp>
 <sp who="ROSA"><speaker>ROSA.</speaker>
@@ -276,7 +288,8 @@
 <sp who="ROSA"><speaker>ROSA.</speaker>
 	<l id="71" syll="2" part="m">Pourquoi ?</l>
 </sp>
-<sp stage="offended" who="PAULINE"><speaker>PAULINE, avec indignation.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="offended">, avec indignation.
+	</stage>
 	<l id="71" syll="6" part="f">De grâce, par pitié !</l>
 	<l id="72" syll="6" part="i">Laisse donc cette enfant.</l>
 </sp>
@@ -306,7 +319,8 @@
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 	<l id="77" syll="3" part="m">Pauvre enfant !</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Pauline.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Pauline.
+	</stage>
 	<l id="77" syll="3" part="f">Et toi, reste.</l>
 <stage type="exit">Elle sort avec Rosa.</stage>
 </sp>
@@ -314,8 +328,9 @@
 	<l id="78" syll="6" part="i">Au secours ! Au secours !</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Pauline, Adeline, La Présidente, Le 
-Choeur.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pauline, Adeline, La Présidente, Le 
+Choeur.
+</stage>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="78" syll="3" part="m">Qu'est-ce donc ?</l>
 </sp>
@@ -332,7 +347,8 @@ Choeur.</head>
 	<l id="82">Elle va se livrer à des plaisirs frivoles,</l>
 	<l id="83" syll="6" part="i">Pour ne pas dire plus.</l>
 </sp>
-<sp stage="toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, aux choristes.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="toward">, aux choristes.
+	</stage>
 	<l id="83" syll="6" part="f">Vite, allez sur ses pas ;</l>
 	<l id="84">Et qu'avant un quart_d'heure elle soit dans mes bras.</l>
 <stage type="location">Deux choristes se détachent.</stage>
@@ -341,12 +357,14 @@ Choeur.</head>
 	<l id="87">Que tu viens d'essayer et que tu sais si bien,</l>
 	<l id="88">Adeline : commence et n'allègue plus rien.</l>
 </sp>
-<sp stage="sing" who="ADELINE"><speaker>ADELINE, chante.</speaker>
+<sp who="ADELINE"><speaker>ADELINE</speaker><stage type="sing">, chante.
+</stage>
 <note id="C">N. B. Le cantique Reine du Ciel se trouve dans les chants pieux à l'usage des écoles chrétiennes. </note>
 <stage id="entrance">Le choeur dit : Souvenez-vous et Priez pour nous. Au milieu de la seconde strophe, le chant est interrompu par l'arrivée des deux choristes qui ramènent Rosa.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes et Rosa, ramenée par deux choristes.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes et Rosa, ramenée par deux choristes.
+</stage>
 <sp who="LES DEUX CHORISTES"><speaker>LES DEUX CHORISTES.</speaker>
 	<l id="89" syll="6" part="i">Nous l'avons ! Nous l'avons !</l>
 </sp>
@@ -360,7 +378,8 @@ Choeur.</head>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
 	<l id="91" syll="6" part="f">Allons donc, taisez-vous.</l>
 </sp>
-<sp stage="kneel/location" who="ROSA"><speaker>ROSA, aux genoux de la Présidente.</speaker>
+<sp who="ROSA"><speaker>ROSA</speaker><stage type="kneel/location">, aux genoux de la Présidente.
+	</stage>
 	<l id="92">Ma mère, pardonnez ; je suis à vos genoux.</l>
 </sp>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
@@ -432,7 +451,8 @@ Choeur.</head>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 	<l id="123" syll="6" part="i">Et moi, depuis longtemps.</l>
 </sp>
-<sp stage="toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, aux choristes.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="toward">, aux choristes.
+	</stage>
 	<l id="123" syll="6" part="f">Pour ce double retour,</l>
 	<l id="124">Enfants, entonnez donc un dernier chant d'amour.</l>
 <stage type="sing">On chante un morceau brillant.</stage>

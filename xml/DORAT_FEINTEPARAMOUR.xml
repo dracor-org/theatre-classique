@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -29,10 +29,10 @@
 			<titlePart type="main">LA FEINTE PAR AMOUR</titlePart>
 			<titlePart type="sub">COMÉDIE EN TROIS ACTES ET EN VERS</titlePart>
 		</docTitle> 
-		<docDate value='1773'>1773.</docDate>
+		<docDate value="1773">1773.</docDate>
 		<docAuthor id="DORAT, Claude-Joseph">Claude-Joseph DORAT</docAuthor>
 		<docImprint>
-			<editor id='CHARPENTIER'></editor>
+			<editor id="CHARPENTIER"/>
 		</docImprint>
 	<div type="poeme"><head>V E R S</head>
 		<p>Présentés présentés à Madame la Dauphine, le jour qu'elle vint à la Comédie Française, sans être annoncée.</p>
@@ -63,12 +63,12 @@
 		<premiere date="1773-07-31" location="Théâtre de la rue des Fossés Saint-Germain">Représenté pour la première fois le 31 juillet 1773 au théâtre de la rue des Fossés Saint-Germain.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MÉLISE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>MÉLISE</role>, jeune veuve Melle. Doligny.</castItem>
-		<castItem><role id="DAMIS" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>DAMIS</role> amant de Mélise. M. Molé.</castItem>
-		<castItem><role id="LISIMOND" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LISIMOND</role>, oncle M. Mélise.</castItem>
-		<castItem><role id="FLORICOURT" sex="1" type="H" statut='marquis' age='A' stat_amour='néant'>FLORICOURT</role>. M. Monvel.</castItem>
-		<castItem><role id="DORINE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>DORINE</role>,suivante de Mélise. Mlle. Fanier.</castItem>
-		<castItem><role id="GERMAIN" sex="2" type="H" statut='laquais' age='A' stat_amour='néant'>GERMAIN</role>, laquais de Damis M. Augé.</castItem>
+		<castItem><role id="MÉLISE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MÉLISE</role>, jeune veuve Melle. Doligny.</castItem>
+		<castItem><role id="DAMIS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DAMIS</role> amant de Mélise. M. Molé.</castItem>
+		<castItem><role id="LISIMOND" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">LISIMOND</role>, oncle M. Mélise.</castItem>
+		<castItem><role id="FLORICOURT" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">FLORICOURT</role>. M. Monvel.</castItem>
+		<castItem><role id="DORINE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">DORINE</role>,suivante de Mélise. Mlle. Fanier.</castItem>
+		<castItem><role id="GERMAIN" sex="2" type="H" statut="laquais" age="A" stat_amour="néant">GERMAIN</role>, laquais de Damis M. Augé.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène est dans la maison de Lisimond, commune à Mélise et à Damis.</set>
 <note type="">Texte issu de "Répertoire général du théâtre français... Théâtre du second ordre. Comédies en vers. Tome XIII. [La Feinte par amour, par Dorat. Les Rivaux amis, par Forgeot. Les Epreuves, par Imbert. Le Jaloux sans amour, par Imbert.", Paris, Vve Dabo, 1822. In-12, 266 p. - pp 187-</note>
@@ -76,7 +76,8 @@
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dorine, Germain.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dorine, Germain.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="1">Ce que c'est d'habiter dans le même logis !</l>
 	<l id="2">On va l'on se cultive et l'on voit tes amis.</l>
@@ -275,7 +276,8 @@
 	<l id="105">On entre : c'est Damis... Il a l'air de rêver.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dorine, Germain, Damis.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dorine, Germain, Damis.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="106" syll="6" part="i">Ne l'interrompons point.</l>
 </sp>
@@ -283,11 +285,13 @@
 	<l id="106" syll="6" part="f">Laisse-moi l'observer.</l>
 	<l id="107" syll="1" part="i">Chut.</l>
 </sp>
-<sp who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage>, à part.
+	</stage>
 	<l id="107" syll="11" part="f">Il tient le portrait de Mélise elle-même</l>
 	<l id="108" syll="6" part="i">Il croit que je l'ignore.</l>
 </sp>
-<sp who="DAMIS"><speaker>DAMIS, contemplant un portrait à voix basse.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage>, contemplant un portrait à voix basse.
+	</stage>
 	<l id="108" syll="6" part="f">Oui, c'est celle que j'aime.</l>
 	<l id="109">Voilà ces traits si doux, ce naïf enjouement</l>
 	<l id="110">Ces regards ou l'esprit est joint au sentiment.</l>
@@ -317,14 +321,17 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="123" syll="3" part="m">Que dis-tu ?</l>
 </sp>
-<sp stage="closer/location" who="GERMAIN"><speaker>GERMAIN, s'approchant à la gauche de Damis.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="closer/location">, s'approchant à la gauche de Damis.
+	</stage>
 	<l id="123" syll="6" part="f">Je dis que quelque belle</l>
 	<l id="124">Vous a sans doute fait cette faveur nouvelle.</l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="125" syll="6" part="i">Le drôle n'en croit rien.</l>
 </sp>
-<sp stage="closer/location" who="DORINE"><speaker>DORINE, s'approchant à la droite de Damis.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="closer/location">, s'approchant à la droite de Damis.
+	</stage>
 	<l id="125" syll="2" part="m">Monsieur !...</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
@@ -333,13 +340,15 @@
 <sp who="DORINE"><speaker>DORINE.</speaker>
 	<l id="125" syll="3" part="f">Un billet.</l>
 </sp>
-<sp stage="happy" who="DAMIS"><speaker>DAMIS, avec joie.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="happy">, avec joie.
+	</stage>
 	<l id="126" syll="3" part="i">De Mélise ?</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
 	<l id="126" syll="9" part="f">Prenez et lisez s'il vous plaît.</l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="127">Voyons : d'un vain espoir je me flatte peut-être...</l>
 <stage type="read">Après avoir parcouru le billet.</stage>
 	<l id="128">Me trompé-je ? Comment ! Ne laissons rien paraître.</l>
@@ -360,20 +369,24 @@
 <stage type="exit">Germain sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Damis, Dorine.</head>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Damis, Dorine.
+</stage>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="136" syll="9" part="i">Comment interpréter... Je tremble...</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
 	<l id="136" syll="3" part="f">Quel nuage...</l>
 </sp>
-<sp stage="loud/quiet" who="DAMIS"><speaker>DAMIS, haut, et affectant un air serein.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="loud/quiet">, haut, et affectant un air serein.
+	</stage>
 	<l id="137">Je dois récompenser, Dorine, un tel message.</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
 	<l id="138" syll="4" part="i">Vous moquez-vous ?</l>
 </sp>
-<sp stage="give" who="DAMIS"><speaker>DAMIS, lui donnant sa bourse.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="give">, lui donnant sa bourse.
+	</stage>
 	<l id="138" syll="2" part="m">Prenez.</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
@@ -389,7 +402,8 @@
 	<l id="142">Je n'imaginais pas ( voyez le préjugé ! )</l>
 	<l id="143">Qu'à prix d'or quelquefois on payât un congé,</l>
 </sp>
-<sp stage="estonish" who="DAMIS"><speaker>DAMIS, surpris.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="estonish">, surpris.
+	</stage>
 	<l id="144" syll="2" part="i">Comment ?</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
@@ -405,13 +419,15 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="146" syll="6" part="i">Un congé, dites-vous ?</l>
 </sp>
-<sp stage="happy" who="DORINE"><speaker>DORINE, gaiment.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="happy">, gaiment.
+	</stage>
 	<l id="146" syll="6" part="f">Oui, bien clair et bien net.</l>
 	<l id="147">J'ai vu, n'en doutez pas, composer ce billet ;</l>
 	<l id="148">J'ai vu, j'ai lu, relu le congé qu'il renferme.</l>
 	<l id="149">Tant pis, si votre orgueil est offensé du terme.</l>
 </sp>
-<sp who="DAMIS"><speaker>DAMIS, après une pause, avec un dépit concentré et une gaîté contrainte.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage>, après une pause, avec un dépit concentré et une gaîté contrainte.
+	</stage>
 	<l id="150">Je voulais de Mélise en cette occasion,</l>
 	<l id="151">Couvrir l'étourderie et l'indiscrétion : </l>
 	<l id="152">À ce qu'il me paraît, ce zèle est inutile.</l>
@@ -424,10 +440,12 @@
 	<l id="157">Ainsi vous acceptez la loi qu'on vous impose,</l>
 	<l id="158">Et ne murmurez pas d'un arrêt si soudain ?</l>
 </sp>
-<sp satge="happy" who="DAMIS"><speaker>DAMIS, avec une gaîté feinte.</speaker>
+<sp satge="happy" who="DAMIS"><speaker>DAMIS</speaker><stage>, avec une gaîté feinte.
+	</stage>
 	<l id="159" syll="6" part="i">L'a-t-elle écrit gaiement ?</l>
 </sp>
-<sp stage="watch" who="DORINE"><speaker>DORINE, l'observant.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="watch">, l'observant.
+	</stage>
 	<l id="159" syll="6" part="f">Sans gaîté, sans chagrin.</l>
 	<l id="160" syll="6" part="i">D'un air indifférent.</l>
 </sp>
@@ -438,7 +456,8 @@
 	<l id="160" syll="3" part="f">Sans doute.</l>
 	<l id="161">Pour écrire autrement, on fait ce qu'il en coûte.</l>
 </sp>
-<sp who="DAMIS"><speaker>DAMIS, avec un peu de vivacité.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage>, avec un peu de vivacité.
+	</stage>
 	<l id="162">Mais au fait, savez-vous le fin de tout ceci ?</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
@@ -492,36 +511,44 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="despite" who="DAMIS"><speaker>DAMIS, seul, avec dépit.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="despite">, seul, avec dépit.
+	</stage>
 	<l id="184">Enfin, Madame, enfin, je connais votre style.</l>
 	<l id="185">Vous voulez m'affliger, et j'en suis plus tranquille.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Damis, Germain.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Damis, Germain.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="186" syll="9" part="i">Lisimon est, dit-on chez Mélise.</l>
 </sp>
-<sp stage="nervous" who="DAMIS"><speaker>DAMIS, avec humeur.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="nervous">, avec humeur.
+	</stage>
 	<l id="186" syll="3" part="f">Il suffit.</l>
 <stage type="read/crumple">Il lit le billet et chiffonne.</stage>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="187">Ce diable de billet lui tourmente l'esprit.</l>
 </sp>
-<sp stage="walk/aparte" who="DAMIS"><speaker>DAMIS, se promenant toujours et à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="walk/aparte">, se promenant toujours et à part.
+	</stage>
 	<l id="188" syll="6" part="i">Vous me chassez ! Fort bien.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="188" syll="2" part="m">Fort mal.</l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="188" syll="4" part="f">À_la_bonne_heure.</l>
 	<l id="189">Rien n'est encor perdu mon secret me demeure.</l>
 </sp>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="190" syll="6" part="i">Pauvre avoir que cela !</l>
 </sp>
-<sp who="DAMIS"><speaker>DAMIS, àpart, et parcourent le théâtre.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage>, àpart, et parcourent le théâtre.
+	</stage>
 	<l id="190" syll="6" part="f">De l'éclat et du bruit,</l>
 	<l id="191">Des soins trop prodigués c'est l'orgueil qui jouit.</l>
 	<l id="192">Il faut un autre frein à votre humeur légère ;</l>
@@ -537,10 +564,12 @@
 	<l id="202">Trop heureux d'occuper ! Pour qui s'y connaît bien,</l>
 	<l id="203">Un dépit, un congé vaut toujours mieux que rien.</l>
 </sp>
-<sp stage="" who="GERMAIN"><speaker>GERMAIN, s'approchant par degrés de Damis, qui marche toujours avec la même action.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="">, s'approchant par degrés de Damis, qui marche toujours avec la même action.
+	</stage>
 	<l id="204" syll="2" part="i">Monsieur...</l>
 </sp>
-<sp stage="abrupt" who="DAMIS"><speaker>DAMIS, brusquement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="abrupt">, brusquement.
+	</stage>
 	<l id="204" syll="1" part="m">Hein !...</l>
 </sp>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
@@ -558,7 +587,8 @@
 	<l id="208">Si je le laisse aller, il va par complaisance,</l>
 	<l id="209">De mes propres amours me faire confidence.</l>
 </sp>
-<sp stage="excited" who="GERMAIN"><speaker>GERMAIN, avec intrépidité.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="excited">, avec intrépidité.
+	</stage>
 	<l id="210">Oui, monsieur ; cet air froid qui cache votre feu,</l>
 	<l id="211">Vos discours, votre ton, tout cela n'est qu'un jeu.</l>
 </sp>
@@ -614,13 +644,15 @@
 	<l id="228" syll="2" part="f">Quel conte !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Floricourt, Damis, Germain.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Floricourt, Damis, Germain.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="229">Tenez, lui-même ici vous en rendra bon compte,</l>
 	<l id="230" syll="3" part="i">Il est franc.</l>
 <stage type="exit">Germain sort.</stage>
 </sp>
-<sp stage="happy" who="FLORICOURT"><speaker>FLORICOURT, du ton le plus gai.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="happy">, du ton le plus gai.
+	</stage>
 	<l id="230" syll="9" part="f">Je suis triste, et je viens près de toi,</l>
 	<l id="231">Pour éclaircir le noir qui s'empare de moi.</l>
 	<l id="232">Que je te trouve heureux ! Un esprit toujours libre !</l>
@@ -677,7 +709,8 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="268" syll="9" part="i">Comment je vous croyais en faveur.</l>
 </sp>
-<sp stage="think" who="FLORICOURT"><speaker>FLORICOURT, avec étourderie.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="think">, avec étourderie.
+	</stage>
 	<l id="268" syll="3" part="f">Quel vertige !</l>
 	<l id="269">Crois-tu donc à ce mot, à ce brillant prestige ?</l>
 	<l id="270">La faveur maintenant n'est qu'un flux et reflux ;</l>
@@ -723,7 +756,8 @@
 	<l id="290">Quels que soient tes projets, je n'y pénètre pas ;</l>
 	<l id="291" syll="6" part="i">Mais j'épouserai, moi.</l>
 </sp>
-<sp stage="ironic" who="DAMIS"><speaker>DAMIS, ironiquement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="ironic">, ironiquement.
+	</stage>
 	<l id="291" syll="6" part="f">Dès lors plus d'embarras.</l>
 	<l id="292">De vos expédients j'admire la justesse.</l>
 </sp>
@@ -733,7 +767,8 @@
 	<l id="295">Moi, je possède l'art de la faire parler ;</l>
 	<l id="296">Je me la suis acquise et sa soi m'est connue.</l>
 </sp>
-<sp stage="aparte" who="DAMIS"><speaker>DAMIS, à part.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="297">Cette Dorine là me paraît entendue.</l>
 </sp>
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
@@ -786,14 +821,16 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="328" syll="6" part="i">N'allez pas les manquer.</l>
 </sp>
-<sp who="FLORICOURT"><speaker>FLORICOURT, prenant la ~M/K DMKM.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage>, prenant la main de Damis.
+	</stage>
 	<l id="328" syll="6" part="f">Non vraiment. Je te quitte.</l>
 	<l id="329">J'emporte un avis sage, et mon coeur le mérite.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="DAMIS"><speaker>DAMIS, seul.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="330">D'un moment de dépit il peut tout obtenir ;</l>
 	<l id="331">Il va voir Lisimon, je dois le prévenir.</l>
 	<l id="332">N'eussé-je point d'amour, je lui serais contraire ;</l>
@@ -818,7 +855,8 @@
 <div1 type="acte" n="2"><head>ACTE II</head>
 <stage type="decor">La scène est dans une avant-salle de l'appartement de Mélise.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="DAMIS"><speaker>DAMIS, seul.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="348">Chez Mélise, aujourd'hui ! Moi ! Quelle hardiesse !</l>
 	<l id="349">Voyons : par l'oncle ici piquons un peu la nièce.</l>
 	<l id="350">Il va venir, osons ; et dans l'espoir que j'ai,</l>
@@ -826,11 +864,13 @@
 	<l id="352">Je puis bien à mon tour risquer une imprudence</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Damis, Lisimon.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Damis, Lisimon.
+</stage>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="353">Ah ! Je vous attendais avec impatience.</l>
 </sp>
-<sp stage="dream" who="LISIMON"><speaker>LISIMON, absorbé dans la rêverie.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="dream">, absorbé dans la rêverie.
+	</stage>
 	<l id="354">Me voilà. J'en conviens j'étais dans ce moment,</l>
 	<l id="355">D'une vue assez neuve occupé fortement.</l>
 	<l id="356">Monsieur c'est que le tact des affaires publiques</l>
@@ -930,7 +970,8 @@
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 	<l id="422" syll="6" part="i">Eh bien, sois cet ami.</l>
 </sp>
-<sp stage="laugh" who="DAMIS"><speaker>DAMIS, riant demi.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="laugh">, riant demi.
+	</stage>
 	<l id="422" syll="1" part="m">Moi ?</l>
 </sp>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
@@ -970,7 +1011,8 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="442" syll="4" part="i">Un peu ? Beaucoup.</l>
 </sp>
-<sp stage="sweet" who="LISIMON"><speaker>LISIMON,se radoucissant.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="sweet">,se radoucissant.
+	</stage>
 	<l id="442" syll="8" part="f">Eh bien, je me corrigerai.</l>
 <stage type="strong">Reprenant le ton vif.</stage>
 	<l id="443">Mais on fera morbleu ce que je résoudrai.</l>
@@ -985,8 +1027,10 @@
 <stage type="entrance/wave/exit">Mélise entre dans ce moment. Ils se font une révérence, et Damis sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélise, Lisimon, Dorine.</head>
-<sp stage="estonish" who="MÉLISE"><speaker>MÉLISE, avec étonnement.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélise, Lisimon, Dorine.
+</stage>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="estonish">, avec étonnement.
+	</stage>
 	<l id="448" syll="4" part="m">Damis ici ?</l>
 </sp>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
@@ -1036,13 +1080,15 @@
 	<l id="458">Si posément enfin, et d'un air fi glacé,</l>
 	<l id="459">Que tout autre à ma place en serait courroucé.</l>
 </sp>
-<sp stage="happy" who="MÉLISE"><speaker>MÉLISE, avec gaieté contrainte.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="happy">, avec gaieté contrainte.
+	</stage>
 	<l id="460">Courroucé ! Pourquoi donc ? Le trait est impayable.</l>
 </sp>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 	<l id="461" syll="6" part="i">Vous parait-il plaisant ?</l>
 </sp>
-<sp stage="enthousiasm" who="MÉLISE"><speaker>MÉLISE, avec chaleur, et ne pouvant cacher son dépit.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="enthousiasm">, avec chaleur, et ne pouvant cacher son dépit.
+	</stage>
 	<l id="461" syll="6" part="f">Damis est admirable !</l>
 	<l id="462">C'est moi, Monsieur, c'est moi, qui, trompant son espoir,</l>
 	<l id="463">Lui mandais ce matin de ne me plus revoir.</l>
@@ -1065,7 +1111,8 @@
 	<l id="468">Félicitez-vous bien, vantez votre conduite</l>
 	<l id="469">De vos précautions voilà quelle est la suite.</l>
 </sp>
-<sp stage="abrupt" who="LISIMON"><speaker>LISIMON, brusquement.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="abrupt">, brusquement.
+	</stage>
 	<l id="470">Moi, j'ai cru que ces noeuds seraient bien assortis.</l>
 <stage type="proud">Affectant de la finesse.</stage>
 	<l id="471">J'ai même soupçonné que vous aimiez Damis.</l>
@@ -1093,7 +1140,8 @@
 	<l id="483">Si vous le voulez même, épousez le Marquis.</l>
 	<l id="484" syll="3" part="i">Bel hymen</l>
 </sp>
-<sp stage="nervous" who="MÉLISE"><speaker>MÉLISE, avec impatience.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="nervous">, avec impatience.
+	</stage>
 	<l id="484" syll="9" part="f">Vous l'aimiez dans ces jours de folie,</l>
 	<l id="485">Où les gens du bel air étaient votre manie ;</l>
 	<l id="486">Quand mon oncle, en projets consumant chaque jour,</l>
@@ -1110,7 +1158,8 @@
 	<l id="493">D'une vieille parente il sera légataire ; </l>
 	<l id="494">Sa naissance est illustre ; il est jeune, bien fait.</l>
 </sp>
-<sp stage="nervous" who="MÉLISE"><speaker>MÉLISE, avec humeur.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="nervous">, avec humeur.
+	</stage>
 	<l id="495" syll="6" part="i">Ah ! Vous le protégez ?...</l>
 </sp>
 <sp who="DORINE"><speaker>DORINE.</speaker>
@@ -1143,7 +1192,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="506" syll="9" part="f">Finissez... Le beau raisonnement !</l>
 </sp>
-<sp who="LISIMON"><speaker>LISIMON, après avoir réfléchi.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage>, après avoir réfléchi.
+	</stage>
 	<l id="507">Eh ! Ce qu'elle dit là n'est pas sans fondement ;</l>
 	<l id="508">Elle voit assez bien. Mais j'insiste : ma nièce.</l>
 	<l id="509">Je veux encor pour vous signaler ma tendresse.</l>
@@ -1156,7 +1206,8 @@
 	<l id="516" syll="4" part="i">Sois sûre... Enfin...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Mélise, Dorine.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Mélise, Dorine.
+</stage>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="516" syll="8" part="f">Mon oncle est incompréhensible.</l>
 </sp>
@@ -1268,7 +1319,8 @@
 	<l id="547" syll="6" part="f">Non, il l'examinait.</l>
 	<l id="548" syll="6" part="i">D'un oeil très satisfait.</l>
 </sp>
-<sp stage="aparte" who="MÉLISE"><speaker>MÉLISE, à part.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="548" syll="6" part="f">Je souffre le martyre ;</l>
 <stage type="loud">Haut.</stage>
 	<l id="549">Tu n'as rien entendu de ce qu'il a pu dire ?</l>
@@ -1276,7 +1328,8 @@
 <sp who="DORINE"><speaker>DORINE.</speaker>
 	<l id="550">Il avait l'air content... c'est tout ce que je sai[s].</l>
 </sp>
-<sp who="MÉLISE"><speaker>MÉLISE, avec la plus grande vivacité.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage>, avec la plus grande vivacité.
+	</stage>
 	<l id="551">Je ne demande pas s'il était triste ou gai ;</l>
 	<l id="552" syll="6" part="i">Répondez juste au moins.</l>
 </sp>
@@ -1289,8 +1342,10 @@
 	<l id="554" syll="3" part="i">Qu'il approche.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mélise, Dorine, Germain.</head>
-<sp stage="think" who="MÉLISE"><speaker>MÉLISE, d'un air distrait.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mélise, Dorine, Germain.
+</stage>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="think">, d'un air distrait.
+	</stage>
 	<l id="554" syll="5" part="m">Ah ! C'est toi Germain ?</l>
 </sp>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
@@ -1354,10 +1409,12 @@
 	<l id="570" syll="6" part="f">S'il ne faut rien celer,</l>
 	<l id="571" syll="6" part="i">Ce portrait lui plaît fort, et...</l>
 </sp>
-<sp who="MÉLISE"><speaker>MÉLISE, poussant Dorine.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage>, poussant Dorine.
+	</stage>
 	<l id="571" syll="6" part="f">Fais-le donc parler.</l>
 </sp>
-<sp who="DORINE"><speaker>DORINE, poussant Germain.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage>, poussant Germain.
+	</stage>
 	<l id="572" syll="2" part="i">Va donc.</l>
 </sp>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
@@ -1413,7 +1470,8 @@
 	<l id="586">Ah ! Ce pauvre portrait, comme vous le traiter !</l>
 	<l id="587">Mais vous ne savez pas à qui vous insultez.</l>
 </sp>
-<sp stage="call" who="MÉLISE"><speaker>MÉLISE, le rappelant.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="call">, le rappelant.
+	</stage>
 	<l id="588">Si Damis n'est point trop occupé de fa flamme,</l>
 	<l id="589" syll="9" part="i">Dis-lui que je t'attends, ici même.</l>
 </sp>
@@ -1422,12 +1480,14 @@
 </sp>
 <stage type="exit">Il sort.</stage>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mélise, Dorine.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mélise, Dorine.
+</stage>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="590">Il faut que je lui parle indispensablement.</l>
 	<l id="591" syll="1" part="i">Oui...</l>
 </sp>
-<sp stage="aparte" who="DORINE"><speaker>DORINE, à part.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="591" syll="11" part="f">Ma maîtresse en tient indubitablement.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -1443,7 +1503,8 @@
 <stage type="exit/wave">Dorine, en sortant, rencontre Floricourt ; ils se sont réciproquement des signes.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Floricourt, Mélise.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Floricourt, Mélise.
+</stage>
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
 	<l id="596">On vous rencontre enfin ! Mais vous êtes charmante</l>
 	<l id="597">De disparaître ainsi, de tromper mon attente. </l>
@@ -1452,7 +1513,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="598" syll="9" part="f">Oh ! Laissez ce ton complimenteur.</l>
 </sp>
-<sp stage="dream" who="FLORICOURT"><speaker>FLORICOURT, du ton le plus étourdi.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="dream">, du ton le plus étourdi.
+	</stage>
 	<l id="599">Non, Madame ; avec vous ce ton là part du coeur.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -1467,7 +1529,8 @@
 	<l id="603">Sinon je vous le dis, j'aurai beaucoup d'humeur,</l>
 	<l id="604" syll="6" part="i">Et je vous ennuierai.</l>
 </sp>
-<sp stage="sweet" who="FLORICOURT"><speaker>FLORICOURT, avec galanterie et légèreté.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="sweet">, avec galanterie et légèreté.
+	</stage>
 	<l id="604" syll="6" part="f">Non, cela ne peut être.</l>
 	<l id="605">Je cherche le plaisir, et vos yeux le font naître :</l>
 	<l id="606">Mais depuis près d'un mois, disons la vérité,</l>
@@ -1490,7 +1553,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="622" syll="6" part="i">Mais vous devenez fou !</l>
 </sp>
-<sp who="FLORICOURT"><speaker>FLORICOURT, de l'air de plus évaposé.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage>, de l'air de plus évaposé.
+	</stage>
 	<l id="622" syll="6" part="f">Non, je ne le suis pas.</l>
 	<l id="623">C'est trop ensevelir de si brillants appas,</l>
 	<l id="624">Faits pour orner, Madame, un plus décent asile</l>
@@ -1528,13 +1592,15 @@
 	<l id="644">Par exemple, Marquis, permettez-moi de rire.</l>
 	<l id="645">Quoi, vous prenez pour vous ce que je viens de dire ?</l>
 </sp>
-<sp stage="happy" who="FLORICOURT"><speaker>FLORICOURT, avec la plus grande gaîté.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="happy">, avec la plus grande gaîté.
+	</stage>
 	<l id="646">Eh ! Comment s'y tromper ? Le détour est charmant.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="647" syll="2" part="i">Encor ?</l>
 </sp>
-<sp stage="angry" who="FLORICOURT"><speaker>FLORICOURT, hors de lui.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="angry">, hors de lui.
+	</stage>
 	<l id="647" syll="10" part="f">Vous me voyez dans un enchantement !...</l>
 	<l id="648">Je suis las d'espérer. Décidez-vous de grâce.</l>
 	<l id="649">Écoutons la raison et laissons la grimace.</l>
@@ -1555,8 +1621,10 @@
 <stage type="exit/wave">Floricourt, en sortant, rencontre Damis, et lui fait des signes d'un air triomphant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Damis, Mélise.</head>
-<sp stage="location" who="DAMIS"><speaker>DAMIS, au font du théâtre.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Damis, Mélise.
+</stage>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="location">, au font du théâtre.
+	</stage>
 	<l id="658">Fort bien ! Le tête-à-tête est un peu hasardé.</l>
 	<l id="659">Est-ce pour ce tableau que vous m'avez mandé ?</l>
 	<l id="660" syll="4" part="i">Il est touchant !</l>
@@ -1564,22 +1632,26 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="660" syll="8" part="f">A-t-il le bonheur de vous plaire ?</l>
 </sp>
-<sp stage="happy" who="DAMIS"><speaker>DAMIS, avec une gaieté contrainte.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="happy">, avec une gaieté contrainte.
+	</stage>
 	<l id="661" syll="2" part="i">Beaucoup.</l>
 </sp>
-<sp stage="ironic" who="MÉLISE"><speaker>MÉLISE, ironiquement.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="ironic">, ironiquement.
+	</stage>
 	<l id="661" syll="10" part="f">Il me parlait de son ardeur sincère.</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="662">Et vous daigniez répondre à des transports si doux ?</l>
 	<l id="663" syll="6" part="i">C'est l'usage au surplus.</l>
 </sp>
-<sp stage="aparte" who="MÉLISE"><speaker>MÉLISE, à part.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="663" syll="6" part="f">Mais serait-il jaloux ?</l>
 <stage type="loud">Haut.</stage>
 	<l id="664">J'étais libre, Monsieur, lorsqu'on vous lit descendre.</l>
 </sp>
-<sp stage="cold" who="DAMIS"><speaker>DAMIS, très froidement.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="cold">, très froidement.
+	</stage>
 	<l id="665">Vos ordres sont sacrés ; j'ai volé pour m'y rendre.</l>
 <stage type="aparte">À part.</stage>
 	<l id="666" syll="6" part="i">L'entretien sera vif.</l>
@@ -1602,10 +1674,12 @@
 	<l id="677">C'est en m'appréciant que j'osai m'en défendre.</l>
 	<l id="678" syll="3" part="i">Voilà tout.</l>
 </sp>
-<sp stage="ironic" who="MÉLISE"><speaker>MÉLISE, d'un ton ironique.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="ironic">, d'un ton ironique.
+	</stage>
 	<l id="678" syll="3" part="m">Voilà tout ?</l>
 </sp>
-<sp stage="closer" who="DAMIS"><speaker>DAMIS,se rapprochant.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="closer">,se rapprochant.
+	</stage>
 	<l id="678" syll="6" part="f">Mais vous, Madame, vous,</l>
 	<l id="679">M'expliquez-vous enfin quel est ce grand courroux,</l>
 	<l id="680">Cet étonnant billet qui de chez vous me chasse ?</l>
@@ -1620,7 +1694,8 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="686">Est-ce à titre d'amant que je suis renvoyé ?</l>
 </sp>
-<sp stage="quick" who="MÉLISE"><speaker>MÉLISE, très vite.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="quick">, très vite.
+	</stage>
 	<l id="687" syll="4" part="i">Point de détail.</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
@@ -1628,13 +1703,15 @@
 	<l id="688">Quand on aime, on s'échappe, on se trahit. Madame,</l>
 	<l id="689">Vous ai-je dit un mot qui fît croire à ma flamme ?</l>
 </sp>
-<sp stage="quick" who="MÉLISE"><speaker>MÉLISE, avec vivacité.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="quick">, avec vivacité.
+	</stage>
 	<l id="690" syll="6" part="i">Eh ! Quand cela serait ?</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="690" syll="6" part="f">Oui : mais... cela n'est pas.</l>
 </sp>
-<sp stage="enthousiasm" who="MÉLISE"><speaker>MÉLISE, avec chaleur.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="enthousiasm">, avec chaleur.
+	</stage>
 	<l id="691">Quoi, votre empressement à suivre tous mes pas,</l>
 	<l id="692">Cette assiduité que tout Paris a vue,</l>
 	<l id="693">Et votre jalousie avec art retenue,</l>
@@ -1710,7 +1787,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="MÉLISE"><speaker>MÉLISE, seule.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="722">Eh ! De cet homme là je serais le jouet !</l>
 	<l id="723">Qu'est-ce donc qui me tient ? L'aimerais-je en effet ?</l>
 	<l id="724">Oh ! Que je l'aime ou non, je prétends qu'il fléchisse.</l>
@@ -1742,7 +1820,8 @@
 	<l id="744" syll="3" part="i">Que fait-on ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lisimon, Mélise, Dorine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lisimon, Mélise, Dorine.
+</stage>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 	<l id="744" syll="9" part="f">Eh bien ! Qu'est-ce ? Un air mélancolique ?</l>
 	<l id="745">Moi, je veux qu'on me parle et qu'on se communique.</l>
@@ -1827,7 +1906,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélisse, Dorine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélisse, Dorine.
+</stage>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="789">Voilà du Floricourt... Si pourtant son humeur...</l>
 	<l id="790">Damis a dans mon oncle un zèle protecteur !</l>
@@ -1841,7 +1921,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="793" syll="5" part="m">Damis est à plaindre.</l>
 </sp>
-<sp stage="stress" who="DORINE"><speaker>DORINE, entre ses dents.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="stress">, entre ses dents.
+	</stage>
 	<l id="793" syll="6" part="f">Il le mériterait.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -1853,7 +1934,8 @@
 <stage type="entrance/exit">Damis paraît, Dorine se retire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE 1V. Mélise, Damis.</head>
+<div2 type="scene" n="4"><head>SCÈNE 1V.</head><stage> Mélise, Damis.
+</stage>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="798" syll="3" part="i">Quoi, c'est vous ?</l>
 </sp>
@@ -1933,7 +2015,8 @@
 	<l id="828">Comment ? Si vous m'aimiez, par un malheur extrême !</l>
 	<l id="829">Loin d'en faire l'aveu, loin de me prévenir...</l>
 </sp>
-<sp stage="frighten" who="DAMIS"><speaker>DAMIS, avec une sorte de crainte.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="frighten">, avec une sorte de crainte.
+	</stage>
 	<l id="830">Mais... Il est quelquefois très bon de voir venir.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -1983,7 +2066,8 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="859" syll="7" part="m">Vous vous taisez ? Pourquoi donc ?</l>
 </sp>
-<sp stage="aparte" who="MÉLISE"><speaker>MÉLISE, à part.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="859" syll="3" part="f">Je m'admire !</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
@@ -1996,8 +2080,10 @@
 	<l id="861" syll="6" part="i">Quand le coeur ne sent rien...</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Floricourt.</head>
-<sp stage="laugh/location" who="FLORICOURT"><speaker>FLORICOURT, riant aux éclats  dans le fond du théâtre.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Floricourt.
+</stage>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="laugh/location">, riant aux éclats  dans le fond du théâtre.
+</stage>
 <stage type="closer">S'approchant.</stage>
 	<l id="861" syll="6" part="f">D'honneur le tour est gai.</l>
 	<l id="862">Ah ! Je respire enfin, notre oncle est subjugué.</l>
@@ -2021,7 +2107,8 @@
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
 	<l id="870" syll="2" part="i">Bien dit.</l>
 </sp>
-<sp stage="quick" who="MÉLISE"><speaker>MÉLISE, avec empressement.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="quick">, avec empressement.
+	</stage>
 	<l id="870" syll="2" part="m">Voyons.</l>
 </sp>
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
@@ -2048,7 +2135,8 @@
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
 	<l id="884" syll="6" part="f">L'amour agit pour nous.</l>
 </sp>
-<sp stage="serious" who="MÉLISE"><speaker>MÉLISE, sérieusement.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="serious">, sérieusement.
+	</stage>
 	<l id="885">Puisque mon oncle enfin est appuyé par vous,</l>
 	<l id="886">À ses nouveaux desseins je n'ose être contraire.</l>
 	<l id="887" syll="2" part="i">Il faut...</l>
@@ -2060,7 +2148,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="888" syll="10" part="f">Oui, Marquis, devient très positif.</l>
 </sp>
-<sp stage="offended" who="DAMIS"><speaker>DAMIS, d'un ton piqué.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="offended">, d'un ton piqué.
+	</stage>
 	<l id="889">La grandeur de votre oncle est un point décisif,</l>
 	<l id="890" syll="2" part="i">Et...</l>
 </sp>
@@ -2071,10 +2160,12 @@
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="891" syll="2" part="m">Qui donc ?</l>
 </sp>
-<sp stage="quick" who="MÉLISE"><speaker>MÉLISE, vivement.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="891" syll="4" part="f">Dites-nous vite.</l>
 </sp>
-<sp stage="toward" who="FLORICOURT"><speaker>FLORICOURT, à Mélise.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="toward">, à Mélise.
+	</stage>
 	<l id="892" syll="6" part="i">Je sais qu'il aime ailleurs.</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -2097,7 +2188,8 @@
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
 	<l id="897">L'original, sans doute est un objet charmant ?</l>
 </sp>
-<sp stage="enthousiasm" who="DAMIS"><speaker>DAMIS, d'un ton passionné.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="enthousiasm">, d'un ton passionné.
+	</stage>
 	<l id="898" syll="3" part="i">Oh ! Charmant !</l>
 </sp>
 <sp who="MÉLISE"><speaker>MÉLISE.</speaker>
@@ -2140,7 +2232,8 @@
 <stage type="kiss/exit">Il baise la main de Mélise et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mélise, Damis.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mélise, Damis.
+</stage>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="910">Cet hymen me paraît une affaire conclue.</l>
 </sp>
@@ -2245,16 +2338,19 @@
 	<l id="950" syll="6" part="f">Comptez, comptez d'avance,</l>
 	<l id="951">Puisqu'elle en a besoin, sur beaucoup d'indulgence.</l>
 </sp>
-<sp who="DAMIS"><speaker>DAMIS, tirant le portrait.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage>, tirant le portrait.
+	</stage>
 	<l id="952" syll="4" part="i">Vous l'exigez ?</l>
 </sp>
-<sp stage="steal" who="MÉLISE"><speaker>MÉLISE, arrachant le portrait.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="steal">, arrachant le portrait.
+	</stage>
 	<l id="952" syll="8" part="f">Oui, oui. Mais donnez donc, Monsieur.</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="953">Oh, tout charmant qu'il est, il va vous faire peur.</l>
 </sp>
-<sp stage="estonish" who="MÉLISE"><speaker>MÉLISE, avec le plus grand étonnement.</speaker>
+<sp who="MÉLISE"><speaker>MÉLISE</speaker><stage type="estonish">, avec le plus grand étonnement.
+	</stage>
 	<l id="954" syll="1" part="i">Ciel !</l>
 </sp>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
@@ -2309,7 +2405,8 @@
 	<l id="971">Il vous tint lieu d'aveu : qu'il soit donc ma réponse.</l>
 <stage type="give">Elle lui rend le portrait.</stage>
 </sp>
-<sp stage="strong" who="DAMIS"><speaker>DAMIS, avec la plus grande vivacité.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="strong">, avec la plus grande vivacité.
+	</stage>
 	<l id="972">Je tombe à vos genoux. Quel moment enchanteur.</l>
 	<l id="973">Plus je me suis contraint, plus je sens mon bonheur.</l>
 	<l id="974">Ne vous souvenez plus d'une ruse innocente,</l>
@@ -2328,14 +2425,17 @@
 <stage type="kneel">Damis se met à genoux.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Lisimon, Floricourt au fond du théâtre ; Dorine, Germain entrant par une coulisse opposée, Damis, Mélise.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Lisimon, Floricourt au fond du théâtre ; Dorine, Germain entrant par une coulisse opposée, Damis, Mélise.
+</stage>
 <stage type="stay">Ils restent tous dans un différente attitude.</stage>
-<sp stage="toward" who="LISIMON"><speaker>LISIMON, à Dorine.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="toward">, à Dorine.
+	</stage>
 	<l id="984" syll="4" part="i">Que le notaire...</l>
 <stage type="watch/location">Apercevant Damis à genoux de Mélise.</stage>
 	<l id="984" syll="8" part="f">Attends... Je reste confondu...</l>
 </sp>
-<sp stage="toward" who="FLORICOURT"><speaker>FLORICOURT, à Damis.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="985">L'attitude me plaît... D'ailleurs c'est un rendu.</l>
 	<l id="986" syll="6" part="i">Vous avez votre tour.</l>
 </sp>
@@ -2347,13 +2447,16 @@
 <sp who="FLORICOURT"><speaker>FLORICOURT.</speaker>
 	<l id="988" syll="6" part="i">Eh bien, vous vous trompiez.</l>
 </sp>
-<sp stage="toward" who="DAMIS"><speaker>DAMIS, à Lisimon.</speaker>
+<sp who="DAMIS"><speaker>DAMIS</speaker><stage type="toward">, à Lisimon.
+	</stage>
 	<l id="988" syll="6" part="f">Daignez combler mes voeux.</l>
 </sp>
-<sp stage="closer/toward" who="DORINE"><speaker>DORINE, se mettant entre Floricourt et Lisimon.</speaker>
+<sp who="DORINE"><speaker>DORINE</speaker><stage type="closer/toward">, se mettant entre Floricourt et Lisimon.
+	</stage>
 	<l id="989">Courage.... ou vous voilà disgraciés tous deux.</l>
 </sp>
-<sp stage="toward/happy" who="FLORICOURT"><speaker>FLORICOURT, à Lisimon, avec gaieté.</speaker>
+<sp who="FLORICOURT"><speaker>FLORICOURT</speaker><stage type="toward/happy">, à Lisimon, avec gaieté.
+	</stage>
 	<l id="990">Adieu nos grands projets. Tout amant à ma place</l>
 	<l id="991">S'en irait contristé, honteux de sa disgrâce.</l>
 	<l id="992">Un tendre désespoir m'ennuierait à mourir.</l>
@@ -2364,19 +2467,18 @@
 <stage type="exit/wave">Il s'échappe, en faisant signe qu'on ne prenne pas garde a lui.</stage>
 </sp>
 </div2>
-<div2 type='scene' n='8'><head>SCÈNE VIII. Lisimon, Mélise, Damis, Dorine, Germain.</head>
-<sp stage="toward" who="LISIMON"><speaker>LISIMON, à Damis.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Lisimon, Mélise, Damis, Dorine, Germain.
+</stage>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="toward">, à Damis.
+	</stage>
 	<l id="996">Pour chasser un rival ton secret est fort bon.</l>
 </sp>
-<sp stage="proud/happy" who="GERMAIN"><speaker>GERMAIN, d'un air triomphant.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="proud/happy">, d'un air triomphant.
+	</stage>
 	<l id="997">Nous avons esquivé la déclaration !</l>
 </sp>
 </div2>
 </div1>
 </body>
 </text>	
-</TEI>	
-	
-	
-	
-
+</TEI>

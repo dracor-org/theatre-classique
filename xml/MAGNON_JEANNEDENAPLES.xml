@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>vers</type>
 				<periode>1651-1660</periode>
 				<taille>1250-1500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -36,11 +36,11 @@
 			<p>Par grâce et privilège du Roi donné à Paris, en date du 2. jour de Mars 1654. Signé, DENIS : Il est permis au sieur MAGNON historiographe de sa Majesté, de faire imprimer par tel imprimeur et libraire, en tel volume, marges, caractères, et autant de fois que bon lui semblera, une pièce de théâtre, de sa composition, intitulée, Jeanne de Naples, Tragédie ; et ce pendant le temps de neuf années consécutives, à commencer du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous les imprimeurs, libraires, et autres, d'imprimer ou faire imprimer ladite tragédie, d'en vendre, ni débiter, à peine de confiscation des exemplaires contrefaits, et de mille livres d'amende, comme il est plus amplement porté par ledit privilège. </p>
 			<p>Ledit Sieur Magnon a cédé son droit de privilège à Louis Chamhoudry marchand libraire, pour en jouir suivant l'accord fait entre eux. </p>
 		</privilege>
-		<acheveImprime value="1656-07-05">>Achevé d'imprimer pour la première fois le 5. Juillet 1656.</acheveImprime>
+		<acheveImprime value="1656-07-05">&gt;Achevé d'imprimer pour la première fois le 5. Juillet 1656.</acheveImprime>
 		<printer id="CHAMHOUDRY">À PARIS, Chez LOUIS CHAMHOUDRY, au Palais, devant la Sainte Chapelle, à l'Image S. Louis.</printer>
 	</docImprint>
 		<performance>
-			<premiere date="1644" location='(inconnue)'>Représenté pour la première fois en 1644 par la troupe de l'Illustre théâtre.</premiere>
+			<premiere date="1644" location="(inconnue)">Représenté pour la première fois en 1644 par la troupe de l'Illustre théâtre.</premiere>
 		</performance>
 		<div type="dedicace"><adresse>À MADEMOISELLE DE MAUVRES, COMTESSE D'ARTIGUES.</adresse>
 			<head>MADEMOISELLE,</head>
@@ -54,20 +54,21 @@
 		</div>
 
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="JEANNE" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>JEANNE</role>, Reine de Naples.</castItem>
-		<castItem><role id="LE ROI" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>LE ROI</role>, son Mari.</castItem>
-		<castItem><role id="LE ROI D'HONGRIE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>LE ROI D'HONGRIE</role>, son Beau-frère.</castItem>
-		<castItem><role id="LE COMTE DE DURAS" sex="1" type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE DE DURAS</role>, grand Seigneur de Naples.</castItem>
-		<castItem><role id="LA CATANOISE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>LA CATANOISE,</role> Favorite de la Reine.</castItem>
-		<castItem><role id="LE SÉNÉCHAL DE NAPLES" sex="1" type="H" statut='sénéchal' age='A' stat_amour='néant'>LE SÉNÉCHAL DE NAPLES,</role> Fils de la Catanoise.</castItem>
-		<castItem><role id="GARDES" sex="1" type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
-		<castItem><role id="SOLDATS" sex="1" type="H" statut='soldat' age='A' stat_amour='néant'>SOLDATS</role>.</castItem>
+		<castItem><role id="JEANNE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">JEANNE</role>, Reine de Naples.</castItem>
+		<castItem><role id="LE ROI" sex="1" type="H" statut="roi" age="A" stat_amour="néant">LE ROI</role>, son Mari.</castItem>
+		<castItem><role id="LE ROI D'HONGRIE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">LE ROI D'HONGRIE</role>, son Beau-frère.</castItem>
+		<castItem><role id="LE COMTE DE DURAS" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE DE DURAS</role>, grand Seigneur de Naples.</castItem>
+		<castItem><role id="LA CATANOISE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">LA CATANOISE,</role> Favorite de la Reine.</castItem>
+		<castItem><role id="LE SÉNÉCHAL DE NAPLES" sex="1" type="H" statut="sénéchal" age="A" stat_amour="néant">LE SÉNÉCHAL DE NAPLES,</role> Fils de la Catanoise.</castItem>
+		<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="néant">GARDES</role>.</castItem>
+		<castItem><role id="SOLDATS" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">SOLDATS</role>.</castItem>
 	</castList>
 	<set location="Naples" country="Italie" periode="XIVème" gps="40.851798, 14.268120">La Scène est au Château de L'OEuf.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Catanoise, et le Sénéchal.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Catanoise, et le Sénéchal.
+</stage>
 <sp who="LA CATANOISE"><speaker>LA CATANOISE.</speaker>
 	<l id="1">Mon fils, que mon amour me va causer de peine ! </l>
 	<l id="2">Toi, porter tes regards sur les yeux de ta Reine,</l>
@@ -180,8 +181,9 @@
 	<l id="76">Eh bien, méconnaissant, j'abandonne les tiens.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Reine, Le Comte de Duras, 
-Le Senechal, La Catanoise.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Reine, Le Comte de Duras, 
+Le Senechal, La Catanoise.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 	<l id="77">Quoi, toujours vous parler avecque violence,</l>
 	<l id="78">Et jusque dans ma chambre, et jusqu'à ma présence ? </l>
@@ -277,12 +279,14 @@ Le Senechal, La Catanoise.</head>
 	<l id="132">Vous devant qui les Rois fléchiraient les genoux.</l>
 	<l id="133">Souffrez que je vous rendre un si léger service.</l>
 </sp>
-<sp stage="get" who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL, relevant l'autre.</speaker>
+<sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL</speaker><stage type="get">, relevant l'autre.
+	</stage>
 	<l id="134">Madame, mon bonheur prend part à cet office,</l>
 	<l id="135">Et je vous rends un gant digne de cette main.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, Le Comte, Le Roi, Le Senechal, et sa mère.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, Le Comte, Le Roi, Le Senechal, et sa mère. 
+</stage> 
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="136">Que devrait occuper tout le sceptre romain.</l>
 	<l id="137">Messieurs, je vous surprends dans vos cérémonies :</l>
@@ -315,7 +319,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="148">Je suivrai, comme lui, toutes vos volontés.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, Le Comte.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, Le Comte.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="149">Enfin nous voici seuls, personne ne m'écoute.</l>
 	<l id="150">Ah ! comte de Duras, relevez-moi d'un doute.</l>
@@ -436,11 +441,13 @@ Le Senechal, La Catanoise.</head>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="230">Allez-en projeter et les moyens, et l'heure.</l>
 </sp>
-<sp stage="low/away" who="LE COMTE"><speaker>LE COMTE, bas en se retirant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="low/away">, bas en se retirant.
+	</stage>
 	<l id="231">Autant en toi, qu'en lui, je trouve un ennemi.</l>
 	<l id="232" syll="3" part="i">Tremble aussi.</l>
 </sp>
-<sp stage="alone" who="LE ROI"><speaker>LE ROI, seul.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="232" syll="9" part="f">Mon amour n'est content qu'à demi.</l>
 </sp>
 <sp who="UN GARDE"><speaker>UN GARDE.</speaker>
@@ -455,7 +462,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="238">Que ces meurtriers de Rois soient les bourreaux d'eux-mêmes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Roi, Le Senechal.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Roi, Le Senechal.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="239">Enfin le Roi d'Hongrie occupe mes Etats ;</l>
 	<l id="240">Et ravi de l'aveu de tous les potentats,</l>
@@ -558,14 +566,16 @@ Le Senechal, La Catanoise.</head>
 	<l id="301">Et sans qu'à lui rien dire il te puisse contraindre,</l>
 	<l id="302">Je mettrai mon complice au point de ne rien craindre.</l>
 </sp>
-<sp stage="low/exit" who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL, bas en sortant.</speaker>
+<sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL</speaker><stage type="low/exit">, bas en sortant.
+	</stage>
 	<l id="303">Et moi, dans cet amour qui me peut posséder,</l>
 	<l id="304">Je vous mettrai tous deux au point de me céder.</l>
 </sp>
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="A"><head>SCÈNE PREMIÈRE. La Reine, La Catanoise.</head>
+<div2 type="scene" n="A"><head>SCÈNE PREMIÈRE.</head><stage> La Reine, La Catanoise.
+</stage>
 <sp who="LA CATANOISE"><speaker>LA CATANOISE.</speaker>
 	<l id="305">Madame, il serait temps d'assurer ma famille. </l>
 </sp>
@@ -637,8 +647,10 @@ Le Senechal, La Catanoise.</head>
 	<l id="362">Une main qui t'appuie, et non pas qui t'accable.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Reine, Le Roi, La Catanoise.</head>
-<sp stage="interrupt" who="LE ROI"><speaker>LE ROI, les interrompant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Reine, Le Roi, La Catanoise.
+</stage>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="interrupt">, les interrompant.
+	</stage>
 	<l id="363">Catanoise, apprenez que vous choquez mes yeux,</l>
 	<l id="364">Que vous, et vos pareils, me nuisez en ces lieux ;</l>
 	<l id="365">Votre bel art consiste à corrompre des femmes,</l>
@@ -703,7 +715,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="412">Ne peut plus supporter un abord qui la perd ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, La Reine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, La Reine.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="413">Madame, il faut bannir cette âme déloyale,</l>
 	<l id="414">Et l'opprobre éternel de la maison royale.</l>
@@ -804,12 +817,14 @@ Le Senechal, La Catanoise.</head>
 	<l id="480">De voir que tes amants ne te survivront pas.</l>
 <stage type="away">Il s'en va.</stage>
 </sp>
-<sp stage="alone" who="LA REINE"><speaker>LA REINE, seule.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="481">Ah ! cruel traitement d'un mari que j'honore !</l>
 	<l id="482">Peut se peut-il, honneur, que mon âme l'abhorre ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Reine, Le Comte.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Reine, Le Comte.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 	<l id="483" syll="6" part="i">Ah ! Comte de Duras...</l>
 </sp>
@@ -910,11 +925,13 @@ Le Senechal, La Catanoise.</head>
 	<l id="552">Un objet dissemblable et de haine, et d'amour ? </l>
 	<l id="553">Adieu, tout à loisir je saurai vous répondre.</l>
 </sp>
-<sp stage="alone" who="LE COMTE"><speaker>LE COMTE, seul.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="554">Est-ce pour me flatter, ou bien pour me confondre ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Comte, Le Senechal.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Comte, Le Senechal.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="555">Et bien, comte, la Reine a souffert votre aveu ;</l>
 	<l id="556">Elle a vu dans vos yeux briller votre beau feu ;</l>
@@ -999,7 +1016,8 @@ Le Senechal, La Catanoise.</head>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="LA REINE"><speaker>LA REINE, seule.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="613">Que mon âme est confuse, et que ma vue est sombre ! </l>
 	<l id="614">Il croit que mon jaloux est devenu mon ombre ;</l>
 	<l id="615">Comme ce défiant m'accompagne en tous lieux,</l>
@@ -1038,8 +1056,10 @@ Le Senechal, La Catanoise.</head>
 	<l id="648">Je crains plus ses regards, que je ne crains les tiens. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Reine, Le Roi masqué et déguisé.</head>
-<sp stage="threat" who="LE ROI"><speaker>LE ROI, le poignard à la main.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Reine, Le Roi masqué et déguisé.
+</stage>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="threat">, le poignard à la main.
+	</stage>
 	<l id="649">Allons, mon désespoir, où la fureur m'entraîne.</l>
 </sp>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
@@ -1104,17 +1124,20 @@ Le Senechal, La Catanoise.</head>
 	<l id="688">Auquel en leur faveur paraîtrait ton désir.</l>
 	<l id="689" syll="6" part="i">Meurs donc pour ton époux !</l>
 </sp>
-<sp stage="entrance" who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL, entrant.</speaker>
+<sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL</speaker><stage type="entrance">, entrant.
+	</stage>
 	<l id="689" syll="6" part="f">Ah ! malheureux, arrête,</l>
 	<l id="690" syll="6" part="i">Il y va de ta vie.</l>
 </sp>
-<sp stage="exit" who="LE ROI"><speaker>LE ROI, sortant.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="exit">, sortant.
+	</stage>
 	<l id="690" syll="6" part="f">Il y va de ta tête.</l>
 	<l id="691">Sais-tu que j'exécute un ordre de mon Roi ? </l>
 	<l id="692">Et qu'on s'attaque à lui, quand on s'attaque à moi ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, LE Senechal.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, LE Senechal.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="693">Par un rare honneur je vous sauve la vie.</l>
 </sp>
@@ -1224,7 +1247,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="766" syll="6" part="f">Malheureuse Princesse ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Reine, Le Senechal, La Catanoise.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Reine, Le Senechal, La Catanoise.
+</stage>
 <sp who="LA CATANOISE"><speaker>LA CATANOISE.</speaker>
 	<l id="767">Le Roi n'est plus, Madame, il est assassiné ;</l>
 	<l id="768" syll="6" part="i">L'assassin, je l'ignore.</l>
@@ -1250,8 +1274,10 @@ Le Senechal, La Catanoise.</head>
 	<l id="780">Assassin de deux Rois, rends-moi des deux époux ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCèNE V. Le Roi, La Reine, Le Senechal, La Catanoise.</head> 
-<sp stage="dress" who="LE ROI"><speaker>LE ROI rentrant découvert.</speaker>
+<div2 type="scene" n="5"><head>SCèNE V.</head><stage> Le Roi, La Reine, Le Senechal, La Catanoise. 
+</stage> 
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="dress"> rentrant découvert.
+	</stage>
 	<l id="781">Ô Dieu ! je suis blessé, mais ma plaie est légère.</l>
 </sp>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
@@ -1279,8 +1305,10 @@ Le Senechal, La Catanoise.</head>
 	<l id="796">Ne se pourra saouler, qu'en te voyant périr. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VI. Le Roi, La Reine, Le Senechal, Le Comte, La Catanoise.</head> 
-<sp stage="threat" who="LE COMTE"><speaker>LE COMTE, entrant l'épée à la main.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VI.</head><stage> Le Roi, La Reine, Le Senechal, Le Comte, La Catanoise. 
+</stage> 
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="threat">, entrant l'épée à la main.
+	</stage>
 	<l id="797">Où se cache un meurtrier soustrait à mon épée ? </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -1398,13 +1426,15 @@ Le Senechal, La Catanoise.</head>
 	<l id="867">Et toi qui sans frayeur vois périr tes maris,</l>
 	<l id="868">Sache qu'on te peut perdre après tes favoris.</l>
 </sp>
-<sp stage="away" who="LA REINE"><speaker>LA REINE s'en allant.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="away"> s'en allant.
+	</stage>
 	<l id="869">Ah qui peut résister à tant de barbarie !</l>
 	<l id="870">Hé bien je me soumets aux lois du Roi d'Hongrie.</l>
 	<l id="871">Oui, lâche, ta fureur m'abandonne à ses lois,</l>
 	<l id="872">Sur cet espoir que j'ai qu'il vous perdra tous trois.</l>
 </sp>
-<sp stage="exit" who="LE ROI"><speaker>LE ROI, sortant.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="exit">, sortant.
+	</stage>
 	<l id="873">Je consens que ce Roi se fasse notre arbitre.</l>
 	<l id="874">Du moins qu'on plaigne un Roi qui n'en a que le titre,</l>
 	<l id="875">Et de qui l'impuissance, avec tous ses projets,</l>
@@ -1413,7 +1443,8 @@ Le Senechal, La Catanoise.</head>
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Reine, La Catanoise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Reine, La Catanoise.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 	<l id="877">Enfin le Roi d'Hongrie est entré dans la ville ;</l>
 	<l id="878">Puis-je dans mon palais rencontrer quelque asile ?</l>
@@ -1437,7 +1468,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="892">D'un monarque étranger je brave les projets.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Reine, La Catanoise, Le Comte, Le Senechal.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Reine, La Catanoise, Le Comte, Le Senechal. 
+</stage> 
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 	<l id="893">Hé bien, mes Souverains, cessé-je d'être Reine ?</l>
 	<l id="894">Venez-vous commander à votre Souveraine ?</l>
@@ -1467,8 +1499,10 @@ Le Senechal, La Catanoise.</head>
 	<l id="910">N'importe, nous verrons qui craindra sa présence. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, Le Comte, Le Senechal, La Catanoise, Le Roi d'Hongrie avec toute sa suite.</head>
-<sp stage="toward" who="LA REINE"><speaker>LA REINE, abordant le Roi d'Hongrie.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, Le Comte, Le Senechal, La Catanoise, Le Roi d'Hongrie avec toute sa suite.
+</stage>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="toward">, abordant le Roi d'Hongrie.
+	</stage>
 	<l id="911">Seigneur, après le cours de nos inimitiés,</l>
 	<l id="912">Daignez considérer une veuve à vos pieds ;</l>
 	<l id="913">Et d'un bruit imposteur détruisant tous les charmes,</l>
@@ -1602,7 +1636,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1010" syll="3" part="i">L'assassin ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Reine, Le Roi d'Hongrie, Le Roi de Naples, Le Comte, Le Senechal, La Catanoise.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Reine, Le Roi d'Hongrie, Le Roi de Naples, Le Comte, Le Senechal, La Catanoise.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="1010" syll="9" part="f">Le voici qu'on vous le représente ;</l>
 	<l id="1011">Par son propre malheur il est ici conduit.</l>
@@ -1638,7 +1673,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1029">Voilà votre ennemi ; que fait votre colère</l>
 	<l id="1030">À l'objet d'un époux qui tua votre frère ?</l>
 </sp>
-<sp stage="toward" who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE, au Roi de Naples.</speaker>
+<sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE</speaker><stage type="toward">, au Roi de Naples.
+	</stage>
 	<l id="1031">Ah victime d'horreur qu'embrasse mon courroux !</l>
 	<l id="1032">L'apparence en dit trop qui te dit son époux,</l>
 	<l id="1033">Cette accusation n'est que trop légitime,</l>
@@ -1737,13 +1773,15 @@ Le Senechal, La Catanoise.</head>
 	<l id="1103">Et pratiquant des Lois auxquelles je consens,</l>
 	<l id="1104">Pour perdre un criminel, perdons quatre innocents.</l>
 </sp>
-<sp stage="away" who="LA REINE"><speaker>LA REINE, en se retirant.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="away">, en se retirant.
+	</stage>
 	<l id="1105">Le Ciel fasse agir avec plus de lumière.</l>
 </sp>
 <sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE.</speaker>
 	<l id="1106">Gardes, que l'on la suive, elle est ma prisonnière.</l>
 </sp>
-<sp stage="away" who="LE ROI DE NAPLES"><speaker>LE ROI DE NAPLES, en se retirant.</speaker>
+<sp who="LE ROI DE NAPLES"><speaker>LE ROI DE NAPLES</speaker><stage type="away">, en se retirant.
+	</stage>
 	<l id="1107">Et mon malheur encor m'a réduit sous ta loi.</l>
 	<l id="1108">N'est-il pas honteux d'y regarder un Roi ?</l>
 </sp>
@@ -1758,7 +1796,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1113">Nous laisser notre reine en cette servitude !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Roi d'Hongrie, Le Comte, Le Senechal.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Roi d'Hongrie, Le Comte, Le Senechal.
+</stage>
 <sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE.</speaker>
 	<l id="1114">Cette captivité n'a rien en soi de rude.</l>
 	<l id="1115">Quand cette passion me coûterait le jour,</l>
@@ -1844,7 +1883,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1161">Adieu, songez à vous, j'épargne vos deux têtes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Comte, Le Senechal.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Comte, Le Senechal.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="1162">Et quoi, tu l'obtiendrais comme un droit de conquête ? </l>
 	<l id="1163">Un tiers serait heureux entre deux combattants ?</l>
@@ -1905,13 +1945,15 @@ Le Senechal, La Catanoise.</head>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="1199">Certes votre amitié m'étonne en sa grandeur.</l>
 </sp>
-<sp stage="exit" who="LE COMTE"><speaker>LE COMTE, se retirant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="exit">, se retirant.
+	</stage>
 	<l id="1200">Je vais par un grand coup te prouver cette ardeur ;</l>
 	<l id="1201">Ton rival va mourir, cette main te l'assure.</l>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL, seul.</speaker>
+<sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1202">En effet, il mourra, mon amour te le jure.</l>
 	<l id="1203">Au reste n'attends point que je puisse trembler,</l>
 	<l id="1204">La grandeur d'un péril ne me saurait troubler,</l>
@@ -1923,7 +1965,8 @@ Le Senechal, La Catanoise.</head>
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Roi d'Hongrie, Le Roi de Naples.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Roi d'Hongrie, Le Roi de Naples.
+</stage>
 <sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE.</speaker>
 	<l id="1209">Vous devez quelque chose aux raisons de ma haine ;</l>
 	<l id="1210">Elle vous attaqua, pour n'être point certaine ;</l>
@@ -1947,11 +1990,13 @@ Le Senechal, La Catanoise.</head>
 	<l id="1228">Par un autre moyen je veux les en priver.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Senechal, Les deux rois.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Senechal, Les deux rois.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="1229">Seigneurs, songez à vous, on en veut à vos têtes.</l>
 </sp>
-<sp stage="toward" who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE, au Roi de Naples.</speaker>
+<sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE</speaker><stage type="toward">, au Roi de Naples.
+	</stage>
 	<l id="1230">Voyez, infortuné, le péril où vous êtes,</l>
 	<l id="1231">Et comment cette Cour, second en attentats,</l>
 	<l id="1232">Cherche à se délivrer de tous ses potentats.</l>
@@ -1975,7 +2020,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1244">Allons de ces amants découvrir les secrets.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, Le Comte.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, Le Comte.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="1245">Madame, vos vertus se servent d'un langage</l>
 	<l id="1246">Qu'il est bien malaisé de réduire en usage :</l>
@@ -2044,7 +2090,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1301" syll="6" part="i">Apprenons que l'amour...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Senechal, La Reine, Le Comte, Gardes.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Senechal, La Reine, Le Comte, Gardes.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="1301" syll="6" part="f">Comte, rendez l'épée.</l>
 </sp>
@@ -2089,14 +2136,17 @@ Le Senechal, La Catanoise.</head>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="1318">Quoi donc ! votre vertu favorise ce traître ?</l>
 </sp>
-<sp stage="toward" who="LA REINE"><speaker>LA REINE, au sénéchal.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="toward">, au sénéchal.
+	</stage>
 	<l id="1319">Lâche, ceux que tu sors, ou plutôt tes tyrans,</l>
 	<l id="1320">Te récompensent-ils de l'emploi que tu prends ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les Rois, La Reine, Le Comte, LE Senechal.
-</head>
-<sp stage="toward" who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE, à la Reine.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les Rois, La Reine, Le Comte, LE Senechal.
+
+</stage>
+<sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE</speaker><stage type="toward">, à la Reine.
+	</stage>
 	<l id="1321">Au point où je t'ai mise apprends à te connaître,</l>
 	<l id="1322">Et sache enfin de moi que ce Prince est ton maître.</l>
 </sp>
@@ -2136,7 +2186,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1349">Enfin d'un tel amant je me dois la justice ;</l>
 	<l id="1350">Que sans plus consulter on le mène au supplice.</l>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE à la Reine.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward"> à la Reine.
+	</stage>
 	<l id="1351">Je vais donc expirer, puisque c'est là mon sort ;</l>
 	<l id="1352">Heureux, si vous devez quelque chose à ma mort,</l>
 	<l id="1353">Et si bientôt mon sang, au sortir de mes veines,</l>
@@ -2172,7 +2223,8 @@ Le Senechal, La Catanoise.</head>
 	<l id="1372">Et que de son époux cette infâme ait le sort.</l>
 	<l id="1373" syll="6" part="i">Soldats, qu'on l'on l'étouffe.</l>
 </sp>
-<sp stage="exit" who="LA REINE"><speaker>LA REINE, en sortant.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="exit">, en sortant.
+	</stage>
 	<l id="1373" syll="6" part="f">Et bien suis ton envie ;</l>
 	<l id="1374">Aussi bien que le sceptre arrache-moi la vie :</l>
 	<l id="1375">Mais quoique mon tyran profite de mon trépas,</l>
@@ -2206,8 +2258,9 @@ Le Senechal, La Catanoise.</head>
 	<l id="1392">Déplore ta disgrâce, et non pas mon malheur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Capitaine des Gardes, 
-Les Deux Rois, Le Comte, Le Senechal.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Capitaine des Gardes, 
+Les Deux Rois, Le Comte, Le Senechal.
+</stage>
 <sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
 	<l id="1393">Seigneur la Reine est morte, et morte en généreuse.</l>
 </sp>
@@ -2245,14 +2298,17 @@ Les Deux Rois, Le Comte, Le Senechal.</head>
 	<l id="1415">Il me suit, et l'ardeur dont il est emporté</l>
 	<l id="1416">Montre que c'est un coup de la divinité.</l>
 </sp>
-<sp stage="toward" who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE, au sénéchal.</speaker>
+<sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE</speaker><stage type="toward">, au sénéchal.
+	</stage>
 	<l id="1417">Aussi ne pense point échapper à ta peine ;</l>
 	<l id="1418" syll="6" part="i">Que l'on le livre au peuple ?</l>
 </sp>
-<sp stage="exit" who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL sortant.</speaker>
+<sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL</speaker><stage type="exit"> sortant.
+	</stage>
 	<l id="1418" syll="6" part="f">Et bien que l'on m'y mène. </l>
 </sp>
-<sp stage="toward" who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE, au Roi de Naples.</speaker>
+<sp who="LE ROI D'HONGRIE"><speaker>LE ROI D'HONGRIE</speaker><stage type="toward">, au Roi de Naples.
+	</stage>
 	<l id="1419">Ah ! daignez pardonner à mon aveuglement.</l>
 </sp>
 <sp who="LE ROI DE NAPLES"><speaker>LE ROI DE NAPLES.</speaker>
@@ -2266,8 +2322,9 @@ Les Deux Rois, Le Comte, Le Senechal.</head>
 	<l id="1423">Dieu ! quel funeste objet vient paraître en ces lieux ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE DERNIÈRE. Le Senechal blessé à mort, 
-Le Capitaine des Gardes, Le Comte, Les Deux Rois.</head>
+<div2 type="scene" n="7"><head>SCÈNE DERNIÈRE.</head><stage> Le Senechal blessé à mort, 
+Le Capitaine des Gardes, Le Comte, Les Deux Rois.
+</stage>
 <sp who="LE SÉNÉCHAL"><speaker>LE SÉNÉCHAL.</speaker>
 	<l id="1424">Enfin le criminel se présente à vos yeux.</l>
 </sp>

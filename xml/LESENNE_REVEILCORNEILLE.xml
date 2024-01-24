@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,11 +30,11 @@
 			<titlePart type="sub">UN ACTE UN VERS</titlePart>
 			<titlePart type="sub">PRIS : 0 fr 75</titlePart>
 			</docTitle> 
-		<docDate value='1916'>M. DC. XLVI. Avec Privilège du Roi. </docDate>
-		<docAuthor id='LESENNE, Camille' bio='mareschal'></docAuthor>
+		<docDate value="1916">M. DC. XLVI. Avec Privilège du Roi. </docDate>
+		<docAuthor id="LESENNE, Camille" bio="mareschal"/>
 		<docImprint>
-			<editor value='EDITION ET LIBRAIRIE'>PARIS, ÉDITIONS ET LIBRAIRIE, 40, rue de Seine, 40. </editor>
-			<printer value='ARRAULT'>TOURS, Imprimerie E. ARRAULT et Cie. </printer>
+			<editor value="EDITION ET LIBRAIRIE">PARIS, ÉDITIONS ET LIBRAIRIE, 40, rue de Seine, 40. </editor>
+			<printer value="ARRAULT">TOURS, Imprimerie E. ARRAULT et Cie. </printer>
 		</docImprint>
 		<premiere>Représenté pour la première fois sur la scène de l'École des Hautes Études Sociales, le 8 Mai 1916, pour le 310e Anniversaire de Pierre Corneille.</premiere>
 	<div type=""><head>DU MÊME AUTEUR</head>
@@ -48,15 +48,15 @@
 			<p>Le Bâillon, 3 actes ; Lendemain de Première, I acte (Théâtre Antoine), avec Adolphe Mayer; L'Étoile de Séville, 3 actes en vers (Odéon) ; La Nuit du Cid, I acte en vers (Odéon) ; Le Châtiment sans Vengeance (Édition de Comoedia); Bianca Capello, 5 actes en vers (Théâtre Femina); La Belle Impéria, I acte (Théâtre Sarah-Bernhardt); Mobilier Historique, I acte (Théâtre de la Tour Eiffel; Les Rois en Voyage, Opérette (Théâtre Michel); L'Illustre Gaudissart, I acte (Théâtre Marigny), d'après Balzac; Le Diamant (Salle Gaveau); L'Aimable Vainqueur (Théâtre Michel); Le Jeu de Pathelin (Arènes de Lutèce); Prince de la Terreur (Théâtre Villiers); Le Meilleur Alcade est le Roi (Théâtre des Arts) ; Justice de Roi (Théâtre de la Nature); Un Drame d'Amour (Théâtre Moncey); Le Père joué (Théâtre du Pré-Catelan), avec Guillot de Saix.</p>
 		</div>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LA MUSE DES GLOIRES" sex="2" type="D" statut="muse" age="A" stat_amour='néant'>LA MUSE DES GLOIRES</role> Melle MARGÈS, de l'Odéon.</castItem>
-			<castItem><role id="LA MUSE DES DEUILS" sex="2" type="D" statut="muse" age="A" stat_amour='néant'>LA MUSE DES DEUILS</role> Melle GUINA-RUDEL.</castItem>
-			<castItem><role id="PIERRE CORNEILLE" sex="1" type="H" statut="écrivain" age="A" stat_amour='néant'>PIERRE CORNEILLE</role> M. PIERRE MATHIEU.</castItem>
+			<castItem><role id="LA MUSE DES GLOIRES" sex="2" type="D" statut="muse" age="A" stat_amour="néant">LA MUSE DES GLOIRES</role> Melle MARGÈS, de l'Odéon.</castItem>
+			<castItem><role id="LA MUSE DES DEUILS" sex="2" type="D" statut="muse" age="A" stat_amour="néant">LA MUSE DES DEUILS</role> Melle GUINA-RUDEL.</castItem>
+			<castItem><role id="PIERRE CORNEILLE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">PIERRE CORNEILLE</role> M. PIERRE MATHIEU.</castItem>
 		</castList>
-		<set location='Lieu imaginaire' country='Pays imaginaire' periode='XXème' gps="(N/A)"></set>
+		<set location="Lieu imaginaire" country="Pays imaginaire" periode="XXème" gps="(N/A)"/>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>LE RÉVEIL DE CORNEILLE</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor/entrance/location">Au lever du rideau, Corneille dort dans un fauteuil. La Muse des Gloires et la Muse des Deuils arrivent en même temps, du fond.</stage>
 <sp who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES.</speaker>
 	<l id="1">La Voix m'a dit: « Descends, car le Père t'appelle. »</l>
@@ -66,7 +66,8 @@
 	<l id="3">Et je viens joindre ici, ô ma soeur immortelle,</l>
 	<l id="4">Les pavots de ma nuit aux fleurs de ton printemps.</l>
 </sp>
-<sp stage="location" who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES, près du fauteuil de Corneille.</speaker>
+<sp who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES</speaker><stage type="location">, près du fauteuil de Corneille.
+	</stage>
 	<l id="5">Il dort, mais d'un sommeil que le souci dévore,</l>
 	<l id="6">Car les morts voient aussi de troublantes aurores</l>
 	<l id="7">Qui viennent de la terre et causent leur tourment.</l>
@@ -396,7 +397,8 @@
 	<l id="262">S'il n'est plus de forêts, où chantera la brise ?</l>
 	<l id="263">Et s'il n'est plus d'oiseaux, que seront les printemps ?</l>
 </sp>
-<sp stage="toward" who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES, à la Muse des Deuils.</speaker>
+<sp who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES</speaker><stage type="toward">, à la Muse des Deuils.
+</stage>
 <poem type="strophes">
 <lg n="1">
 	<l id="264">Douce compagne, soeur meurtrie,</l>
@@ -489,7 +491,8 @@
 </lg>
 </poem>
 </sp>
-<sp stage="toward" who="LA MUSE DES DEUILS"><speaker>LA MUSE DES DEUILS, à Corneille.</speaker>
+<sp who="LA MUSE DES DEUILS"><speaker>LA MUSE DES DEUILS</speaker><stage type="toward">, à Corneille.
+	</stage>
 	<l id="330">Père, écoute la voix qui crie</l>
 	<l id="331">Sortant du sillon déchiré ;</l>
 	<l id="332">Écoute la terre meurtrie,</l>
@@ -512,8 +515,7 @@
 </sp>
 <sp who="LA MUSE DES GLOIRES"><speaker>LA MUSE DES GLOIRES.</speaker>
 <poem type="strophes">
-<lg n="1"
->	<l id="349">Ils enfantent aussi le levain des batailles.</l>
+<lg n="1">	<l id="349">Ils enfantent aussi le levain des batailles.</l>
 	<l id="350">Au fond de chaque trou fouillé par la mitraille,</l>
 	<l id="351">Dans le gouffre béant des entonnoirs tressaille</l>
 	<l id="352">La moisson de cuivre et d'acier.</l>
@@ -544,7 +546,8 @@
 </lg>
 </poem>
 </sp>
-<sp stage="kneel" who="CORNEILLE"><speaker>CORNEILLE, à la Muse des Deuils qui s'est agenouillée près de lui.</speaker>
+<sp who="CORNEILLE"><speaker>CORNEILLE</speaker><stage type="kneel">, à la Muse des Deuils qui s'est agenouillée près de lui.
+	</stage>
 	<l id="373">Ô Muse des douleurs, ô Muse des détresses,</l>
 	<l id="374">Relève au ciel tes yeux plus beaux d'avoir pleuré,</l>
 	<l id="375">Mais serrant sur ton coeur le trésor des tendresses,</l>

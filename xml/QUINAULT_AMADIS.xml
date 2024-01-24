@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 	<fileDesc>
@@ -17,7 +17,7 @@
 			<type>vers</type>
 			<periode>1681-1690</periode>
 			<taille>500-750</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 	</teiHeader>
@@ -28,7 +28,7 @@
 			<titlePart type="sub">TRAGÉDIE en musique.</titlePart>
 		</docTitle> 
 		<docDate value="1684">M. DCC. LIV. AVEC APPROBATION ET PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id="QUINAULT, Philippe" bio='quinault'></docAuthor>
+		<docAuthor id="QUINAULT, Philippe" bio="quinault"/>
 		<docImprint>
 			<privilege id="1759-10-20"><head>APPROBATION</head>
 			<p>J'ai lu, par ordre de Monseigneur le Chancelier, la Tragédie d'AMADIS, nouvelle réimpression que le public ne peut voir qu'avec plaisir. À Versailles, le 20 octobre 1759.</p>
@@ -37,49 +37,51 @@
 			<printer id="DELORMEL">À Paris, chez V. DELORMEL et FILS, Imprimeur de ladite Académie, rue du Foin, à l'Image Sainte-Geneviève. On trouvera des livres de Paroles à la Salle de l'Opéra.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1684-01-15" location='Théâtre du Palais-Royal'>Représenté pour la première fois 15 janvier 1684 devant S. M., au Théâtre du Palais-Royal.</premiere>
+			<premiere date="1684-01-15" location="Théâtre du Palais-Royal">Représenté pour la première fois 15 janvier 1684 devant S. M., au Théâtre du Palais-Royal.</premiere>
 		</performance>
 		<castList><head>ACTEURS DU PROLOGUE</head>
-			<castItem><role id="URGANDE" sex="2" type="H" statut='magicien' age='A' stat_amour='néant'>URGANDE</role>, célèbre enchanteresse, épouse d'Alquif.</castItem>
-			<castItem><role id="ALQUIF" sex="1" type="H" statut='magicien' age='A' stat_amour='néant'>ALQUIF</role>, célèbre enchanteur, époux d'Urgande.</castItem>
-			<castItem><role id="SUIVANTES D'URGANDE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>SUIVANTES D'URGANDE</role>.</castItem>
-			<castItem><role id="SUIVANTS D'ALQUIF" sex="1" type="H" statut='suivant' age='A' stat_amour='néant'>SUIVANTS D'ALQUIF</role>.</castItem>
+			<castItem><role id="URGANDE" sex="2" type="H" statut="magicien" age="A" stat_amour="néant">URGANDE</role>, célèbre enchanteresse, épouse d'Alquif.</castItem>
+			<castItem><role id="ALQUIF" sex="1" type="H" statut="magicien" age="A" stat_amour="néant">ALQUIF</role>, célèbre enchanteur, époux d'Urgande.</castItem>
+			<castItem><role id="SUIVANTES D'URGANDE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">SUIVANTES D'URGANDE</role>.</castItem>
+			<castItem><role id="SUIVANTS D'ALQUIF" sex="1" type="H" statut="suivant" age="A" stat_amour="néant">SUIVANTS D'ALQUIF</role>.</castItem>
 		</castList>
 		<castList><head>ACTEURS DE LA TRAGÉDIE</head>
-			<castItem><role id="AMADIS" sex="2" type="H" statut='prince' age='J' stat_amour='néant'>AMADIS</role>, fils du roi Périon de Gaule.</castItem>
-			<castItem><role id="ORIANE" sex="2" type="H" statut='prince' age='J' stat_amour='néant'>ORIANE</role>, fille de Lisvart, roi de la Grande Bretagne.</castItem>
-			<castItem><role id="FLORESTAN" sex="1" type="H" statut='prince' age='J' stat_amour='néant'>FLORESTAN</role>, fils naturel du roi Périon de Gaule.</castItem>
-			<castItem><role id="CORISANDE" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>CORISANDE</role>, souveraine de Gravesande.</castItem>
-			<castItem><role id="TROUPES DE CHEVALIERS" sex="9" type="H" statut='chevalier' age='A' stat_amour='néant'>TROUPES DE CHEVALIERS</role> combattants dans des jeux à l'honneur d'Oriane.</castItem>
-			<castItem><role id="ARCALAÜS" sex="1" type="H" statut='chevalier' age='A' stat_amour='néant'>ARCALAÜS</role>, chevalier enchanteur, frère d'Arcabonne et d'Ardan Canile.</castItem>
-			<castItem><role id="ARCABONNE" sex="2" type="H" statut='magicien' age='A' stat_amour='néant'>ARCABONNE</role>, enchanteresse, soeur d'Arcalaüs et d'Ardan Canile.</castItem>
-			<castItem><role id="TROUPE DE SUIVANTS D'ARCALAÜS" sex="9" type="H" statut='soldat' age='A' stat_amour='néant'>Troupes de suivants et de soldats d'Arcalaüs</role>.</castItem>
-			<castItem><role id="TROUPE DE DEMONS" sex="9" type="H" statut='démon' age='A' stat_amour='néant'>Troupes de démons sous la figure de monstres terribles, de nymphes agréables, de bergers et bergères</role>.</castItem>
-			<castItem><role id="TROUPE DE CAPTIFS" sex="9" type="H" statut='captif' age='A' stat_amour='néant'>Troupe de captifs</role>.</castItem>
-			<castItem><role id="TROUPE DE CAPTIVES" sex="9" type="H" statut='captif' age='A' stat_amour='néant'>Troupe de captives</role>.</castItem>
-			<castItem><role id="TROPE DE GEÔLIERS" sex="9" type="H" statut='geôlier' age='A' stat_amour='néant'>Troupe de geôliers</role>.</castItem>
-			<castItem><role id="DEMONS VOLANTS" sex="9" type="H" statut='démon' age='A' stat_amour='néant'>Démons volants qui conduisent Arcabonne</role>.</castItem>
-			<castItem><role id="L'OMBRE D'ARDAN CANILE" sex="1" type="F" statut='ombre' age='A' stat_amour='néant'>L'OMBRE D'ARDAN CANILE</role>.</castItem>
-			<castItem><role id="URGANDE" sex="2" type="H" statut='enchanteur' age='A' stat_amour='néant'>URGANDE</role>, célèbre enchanteresse, amie d'Amadis.</castItem>
-			<castItem><role id="TROUPE DE SUIVANTS D'URGANDE" sex="9" type="H" statut='suivant' age='A' stat_amour='néant'>Troupe de suivantes d'Urgande</role>.</castItem>
-			<castItem><role id="TROUPE DE DÉMONS INFERNAUX" sex="9" type="H" statut='démon' age='A' stat_amour='néant'>Troupe de démons infernaux</role>.</castItem>
-			<castItem><role id="TROUPE DE DÉMONS DE L'AIR" sex="9" type="H" statut='démon' age='A' stat_amour='néant'>Troupe de démons de l'air</role>.</castItem>
-			<castItem><role id="TROUPE DE HÉROS ET D'HÉROÏNES" sex="9" type="H" statut='héros' age='A' stat_amour='néant'>Troupe de héros et d'héroïnes, enchantés dans la chambre défendue du palais d'Appolidon</role>.</castItem>
+			<castItem><role id="AMADIS" sex="2" type="H" statut="prince" age="J" stat_amour="néant">AMADIS</role>, fils du roi Périon de Gaule.</castItem>
+			<castItem><role id="ORIANE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">ORIANE</role>, fille de Lisvart, roi de la Grande Bretagne.</castItem>
+			<castItem><role id="FLORESTAN" sex="1" type="H" statut="prince" age="J" stat_amour="néant">FLORESTAN</role>, fils naturel du roi Périon de Gaule.</castItem>
+			<castItem><role id="CORISANDE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">CORISANDE</role>, souveraine de Gravesande.</castItem>
+			<castItem><role id="TROUPES DE CHEVALIERS" sex="9" type="H" statut="chevalier" age="A" stat_amour="néant">TROUPES DE CHEVALIERS</role> combattants dans des jeux à l'honneur d'Oriane.</castItem>
+			<castItem><role id="ARCALAÜS" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">ARCALAÜS</role>, chevalier enchanteur, frère d'Arcabonne et d'Ardan Canile.</castItem>
+			<castItem><role id="ARCABONNE" sex="2" type="H" statut="magicien" age="A" stat_amour="néant">ARCABONNE</role>, enchanteresse, soeur d'Arcalaüs et d'Ardan Canile.</castItem>
+			<castItem><role id="TROUPE DE SUIVANTS D'ARCALAÜS" sex="9" type="H" statut="soldat" age="A" stat_amour="néant">Troupes de suivants et de soldats d'Arcalaüs</role>.</castItem>
+			<castItem><role id="TROUPE DE DEMONS" sex="9" type="H" statut="démon" age="A" stat_amour="néant">Troupes de démons sous la figure de monstres terribles, de nymphes agréables, de bergers et bergères</role>.</castItem>
+			<castItem><role id="TROUPE DE CAPTIFS" sex="9" type="H" statut="captif" age="A" stat_amour="néant">Troupe de captifs</role>.</castItem>
+			<castItem><role id="TROUPE DE CAPTIVES" sex="9" type="H" statut="captif" age="A" stat_amour="néant">Troupe de captives</role>.</castItem>
+			<castItem><role id="TROPE DE GEÔLIERS" sex="9" type="H" statut="geôlier" age="A" stat_amour="néant">Troupe de geôliers</role>.</castItem>
+			<castItem><role id="DEMONS VOLANTS" sex="9" type="H" statut="démon" age="A" stat_amour="néant">Démons volants qui conduisent Arcabonne</role>.</castItem>
+			<castItem><role id="L'OMBRE D'ARDAN CANILE" sex="1" type="F" statut="ombre" age="A" stat_amour="néant">L'OMBRE D'ARDAN CANILE</role>.</castItem>
+			<castItem><role id="URGANDE" sex="2" type="H" statut="enchanteur" age="A" stat_amour="néant">URGANDE</role>, célèbre enchanteresse, amie d'Amadis.</castItem>
+			<castItem><role id="TROUPE DE SUIVANTS D'URGANDE" sex="9" type="H" statut="suivant" age="A" stat_amour="néant">Troupe de suivantes d'Urgande</role>.</castItem>
+			<castItem><role id="TROUPE DE DÉMONS INFERNAUX" sex="9" type="H" statut="démon" age="A" stat_amour="néant">Troupe de démons infernaux</role>.</castItem>
+			<castItem><role id="TROUPE DE DÉMONS DE L'AIR" sex="9" type="H" statut="démon" age="A" stat_amour="néant">Troupe de démons de l'air</role>.</castItem>
+			<castItem><role id="TROUPE DE HÉROS ET D'HÉROÏNES" sex="9" type="H" statut="héros" age="A" stat_amour="néant">Troupe de héros et d'héroïnes, enchantés dans la chambre défendue du palais d'Appolidon</role>.</castItem>
 		</castList>
-	<set location='Palais de Cérès' country='Pays mythologique' periode='Temps mythologiques' gps="(N/A)">Le théâtre représente la Palais de Cérès.</set>
+	<set location="Palais de Cérès" country="Pays mythologique" periode="Temps mythologiques" gps="(N/A)">Le théâtre représente la Palais de Cérès.</set>
 	<note>Musique de Jean-Baptiste Lully.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>PROLOGUE</head>
 <stage type="decor/sleep/meteo/awake">Le théâtre représente les lieux qu'Urgande et Alquif ont choisis, pour y demeurer enchantés et assoupis avec leur suite. Un éclair et un coup de tonnerre commencent à dissiper l'assoupissement d'Urgande, d'Alquif et de leur suite.</stage>
 <div2 type="scene" n="1"><head>OUVERTURE.</head>
-<sp stage="decor/location" who="URGANDE ET ALQUIF"><speaker>URGANDE ET ALQUIF sous un riche pavillon.</speaker>
+<sp who="URGANDE ET ALQUIF"><speaker>URGANDE ET ALQUIF</speaker><stage type="decor/location"> sous un riche pavillon.
+	</stage>
 	<l id="1">Ah j'entends un bruit qui nous presse</l>
 	<l id="2">De nous rassembler tous,</l>
 	<l id="3">Le charme cesse</l>
 	<l id="4">Éveillons-nous.</l>
 </sp>
-<sp stage="awake/repeat" who="LES SUIVANTS D'ALQUIF ET LES SUIVANTES D'URGANDE"><speaker>LES SUIVANTS D'ALQUIF ET LES SUIVANTES D'URGANDE, s'éveillent et répètent ces deux vers.</speaker>
+<sp who="LES SUIVANTS D'ALQUIF ET LES SUIVANTES D'URGANDE"><speaker>LES SUIVANTS D'ALQUIF ET LES SUIVANTES D'URGANDE</speaker><stage type="awake/repeat">, s'éveillent et répètent ces deux vers.
+	</stage>
 	<l id="5">Le charme cesse...</l>
 	<l id="6">Éveillons-nous.</l>
 </sp>
@@ -166,7 +168,7 @@
 	<l id="64">Allons vivre heureux sous ses lois.</l>
 <stage type="danse">On danse.</stage>
 </sp>
-<sp who='URGANDE ET LE CHOEUR'><speaker>URGANDE ET LE CHOEUR.</speaker>
+<sp who="URGANDE ET LE CHOEUR"><speaker>URGANDE ET LE CHOEUR.</speaker>
 	<l id="65">Suivons l'amour, c'est lui qui nous mène ;</l>
 	<l id="66">Tout doit sentir son aimable ardeur.</l>
 	<l id="67">Un peu d'amour nous fait moins de peine</l>
@@ -193,12 +195,13 @@
 </div1>
 <div1 type="act" n="2"><head>ACTE I</head>
 <stage type="decor">Le théâtre représente un Arc de triomphe, élevé près de la Ville capitale des États du Roi Lisvart, père d'Oriane.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Amadis, Florestan;</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Amadis, Florestan;
+</stage>
 <sp who="FLORESTAN"><speaker>FLORESTAN.</speaker>
 	<l id="81">Je reviens dans ces lieux pour y voir ce que j'aime ;</l>
-	<l id='82'>Mais au sang qui nous joint, je fais ce que je dois :</l>
-	<l id='83'>Je ne puis vous laisser, sans une peine extrême,</l>
-	<l id='84'>Dans la douleur où je vous vois.</l>
+	<l id="82">Mais au sang qui nous joint, je fais ce que je dois :</l>
+	<l id="83">Je ne puis vous laisser, sans une peine extrême,</l>
+	<l id="84">Dans la douleur où je vous vois.</l>
 	<l id="85">Le grand coeur d'Amadis doit être inébranlable ;</l>
 	<l id="86">Quel malheur peut troubler un héros indomptable,</l>
 	<l id="87">Vainqueur des fiers tyrans et des monstres affreux.</l>
@@ -289,7 +292,8 @@
 	<l id="132">Un amour malheureux cherche la solitude.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Corisande, Florestan, Ritournelle.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Corisande, Florestan, Ritournelle.
+</stage>
 <sp who="CORISANDE"><speaker>CORISANDE.</speaker>
 	<l id="133" part="i">Florestan !</l>
 </sp>
@@ -321,7 +325,7 @@
 </sp>
 <sp who="CORISANDE"><speaker>CORISANDE.</speaker>
 	<l id="146">Au tendre amour, qui me tient sous sa loi,</l>
-	<l id='147'>Si votre coeur eût été bine sensible</l>
+	<l id="147">Si votre coeur eût été bine sensible</l>
 	<l id="148">Vous eût-il été possible</l>
 	<l id="149">De vous éloigner de moi ?</l>
 </sp>
@@ -340,7 +344,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Oriane, Florestan, Corisande.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Oriane, Florestan, Corisande.
+</stage>
 <sp who="CORISANDE"><speaker>CORISANDE.</speaker>
 	<l id="158">Je revois Florestan, je le revois fidèle.</l>
 </sp>
@@ -395,19 +400,21 @@
 	<l id="186">De lui-même bientôt son coeur allait dépendre :</l>
 	<l id="187">Eh ! Que n'attendait-il mon hymen, ou ma mort,</l>
 	<l id="188">Il ne devait plus guère attendre.</l>
-	<l id='189'>Que j'ai de peine à cacher mes ennuis ?</l>
+	<l id="189">Que j'ai de peine à cacher mes ennuis ?</l>
 </sp>
-<sp who='CORISANDE'><speaker>CORISANDE.</speaker>
-	<l id='190'>Deux partis vont ici disputer la victoire.</l>
-	<l id='191'>Ces jeux guerriers se font à votre gloire.</l>
+<sp who="CORISANDE"><speaker>CORISANDE.</speaker>
+	<l id="190">Deux partis vont ici disputer la victoire.</l>
+	<l id="191">Ces jeux guerriers se font à votre gloire.</l>
 </sp>
-<sp who='ORIANE'><speaker>ORIANE.</speaker>
-	<l id='192'>Ne m'abandonnez pas dans le trouble où je suis</l>
+<sp who="ORIANE"><speaker>ORIANE.</speaker>
+	<l id="192">Ne m'abandonnez pas dans le trouble où je suis</l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Oriane, Florestan, Corisande, Troupe de combattants de deux différents partis, Nymphes de la suite d'Oriane, Peuples.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Oriane, Florestan, Corisande, Troupe de combattants de deux différents partis, Nymphes de la suite d'Oriane, Peuples.
+</stage>
 <stage type="fight/give">Les deux partis font divers combats, et les victorieux portent aux pieds d'Oriane, les armes qu'ils ont gagnées.</stage>
-<sp who="UNE SUIVANTE D'ORIANE"><speaker>UNE SUIVANTE D'ORIANE alternativement avec le choeur des femmes.</speaker>
+<sp who="UNE SUIVANTE D'ORIANE"><speaker>UNE SUIVANTE D'ORIANE</speaker><stage> alternativement avec le choeur des femmes.
+	</stage>
 	<l id="193">Que des plaisirs enchanteurs</l>
 	<l id="194">Vous s'empresser sur vos traces !</l>
 	<l id="195">Vous triomphez, heureux vainqueurs.</l>
@@ -429,7 +436,8 @@
 <div1 type="act" n="2"><head>ACTE II</head>
 <stage type="decor">Le théâtre change et représente une forêt, dont les arbres sont chargés de trophées ; on voit dans le fond un pont et une forteresse au bout.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ARCABONNE"><speaker>ARCABONNE, seule.</speaker>
+<sp who="ARCABONNE"><speaker>ARCABONNE</speaker><stage type="alone">, seule.
+</stage>
 <poem type="distique">
 <lg n="1">
 	<l id="205">Amour, que veux-tu de moi ?</l>
@@ -451,7 +459,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Arcalaüs, Arcabonne.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Arcalaüs, Arcabonne.
+</stage>
 <sp who="ARCALAÜS"><speaker>ARCALAÜS.</speaker>
 	<l id="216">Ma soeur, qui peut causer votre sombre tristesse ?</l>
 	<l id="217">Le silence des bois sert à l'entretenir.</l>
@@ -533,7 +542,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ARCALAÜS"><speaker>ARCALAÜS, seul.</speaker>
+<sp who="ARCALAÜS"><speaker>ARCALAÜS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="270">Dans un piège fatal son mauvais sort l'amène.</l>
 	<l id="271">Esprits malheureux, et jaloux,</l>
 	<l id="272">Qui ne pouvez souffrir la vertu qu'avec peine ;</l>
@@ -547,7 +557,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="AMADIS"><speaker>AMADIS, seul.</speaker>
+<sp who="AMADIS"><speaker>AMADIS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="279">Bois épais, redouble ton ombre :</l>
 	<l id="280">Tu ne saurais être assez sombre ;</l>
 	<l id="281">Tu ne peux trop cacher mon malheureux amour.</l>
@@ -556,7 +567,8 @@
 	<l id="284">Je ne veux plus souffrir le jour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Corisande, Amadis, Corisande.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Corisande, Amadis, Corisande.
+</stage>
 <sp who="CORISANDE"><speaker>CORISANDE.</speaker>
 	<l id="285">Ô Fortune cruelle !...</l>
 	<l id="286">Que vois-je Amadis !</l>
@@ -600,8 +612,10 @@
 	<l id="306" part="i">Allons.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Arcalaüs, Suivants d'Arcalaüs, Amadis, Corisande.</head>
-<sp stage="decor/stop" who="ARCALAÜS"><speaker>ARCALAÜS, empêchant Amadis de passer sur le pont.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Arcalaüs, Suivants d'Arcalaüs, Amadis, Corisande.
+</stage>
+<sp who="ARCALAÜS"><speaker>ARCALAÜS</speaker><stage type="decor/stop">, empêchant Amadis de passer sur le pont.
+	</stage>
 	<l id="306" part="f">Arrête, audacieux ;</l>
 	<l id="307">Arrête, j'entreprends de garder ce passage.</l>
 	<l id="308">Vois ces marques de mes exploits,</l>
@@ -638,7 +652,8 @@
 	<l id="322">De me donner le secours que j'attends.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Amadis, Troupe de de Bergères et de Bergers.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Amadis, Troupe de de Bergères et de Bergers.
+</stage>
 <stage type="entrance/exit">Plusieurs démons et des monstres terribles, s'efforcent en vain d'étonner et d'arrêter Amadis ; d'autres démons, sous la forme de nymphes, de bergères et de bergers, prennent la place des monstres, et enchantent Amadis.</stage>
 <sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="323">Non, non, pour être invincible,</l>
@@ -657,7 +672,8 @@
 	<l id="333">Aux charmes les plus doux.</l>
 <stage type="danse">On danse.</stage>
 </sp>
-<sp stage="alone" who='AMADIS'><speaker>AMADIS, enchanté, et croyant voir Oriane.</speaker>
+<sp who="AMADIS"><speaker>AMADIS</speaker><stage type="alone">, enchanté, et croyant voir Oriane.
+	</stage>
 	<l id="334">Est-ce vous, Oriane ! Ô ciel ! Est-il possible !</l>
 	<l id="335">Votre coeur contre moi n'est-il plus irrité ?</l>
 	<l id="336">L'éclat de vos beaux yeux dans ce bois écarté</l>
@@ -677,7 +693,8 @@
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
 <stage type="decor">Le théâtre change et représente un vieux palais ruiné, on y voit le tombeau d'Ardan-Canile et plusieurs différents cachots.</stage>
-<div2 type="scene" n="1" stage="chained/jailed"><head>SCÈNE I. Florestan, enchaîné et enfermé dans un cachot ; Corisandre, enchaînée et enfermée dans un autre cachot, Troupe de captives et de captifs enfermés ; Troupe de Geôliers.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage type="chained/jailed"> Florestan, enchaîné et enfermé dans un cachot ; Corisandre, enchaînée et enfermée dans un autre cachot, Troupe de captives et de captifs enfermés ; Troupe de Geôliers.
+</stage>
 <sp who="CHOEUR DES CAPTIVES ET DES CAPTIFS"><speaker>CHOEUR DES CAPTIVES ET DES CAPTIFS.</speaker>
 	<l id="345">Ciel ! Finissez nos peines.</l>
 </sp>
@@ -691,7 +708,8 @@
 	<l id="348">Le ciel ne vous écoute pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Arcabonne et les mêmes acteurs de la scène précédente.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Arcabonne et les mêmes acteurs de la scène précédente.
+</stage>
 <stage type="fly/down">Arcabonne, conduite et portée en l'air par des démons, descend dans le palais ruiné.</stage>
 <sp who="ARCABONNE"><speaker>ARCABONNE.</speaker>
 	<l id="349">Il est temps de finir votre plainte importune.</l>
@@ -726,8 +744,10 @@
 	<l id="373">Mânes plaintifs, cessez de murmurer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. L'Ombre d'Ardan-Canile et les Acteurs de la scène précédente.</head>
-<sp stage="entrance" who="L'OMBRE D'ARDAN-CANILE"><speaker>L'OMBRE D'ARDAN-CANILE, sortant de son tombeau.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> L'Ombre d'Ardan-Canile et les Acteurs de la scène précédente.
+</stage>
+<sp who="L'OMBRE D'ARDAN-CANILE"><speaker>L'OMBRE D'ARDAN-CANILE</speaker><stage type="entrance">, sortant de son tombeau.
+	</stage>
 	<l id="374">Ah ! Tu me trahis, malheureuse.</l>
 </sp>
 <sp who="ARCABONNE"><speaker>ARCABONNE.</speaker>
@@ -748,8 +768,10 @@
 	<l id="384">On vient me livrer ma victime.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4" stage="chained"><head>SCÈNE IV. Amadis enchaîné, Troupe de soldats, qui gardent Amadis, et les acteurs de la scène précédente.</head>
-<sp stage="armed/closer" who="ARCABONNE"><speaker>ARCABONNE, un poignard à la main, s'approche d'Amadis.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage type="chained"> Amadis enchaîné, Troupe de soldats, qui gardent Amadis, et les acteurs de la scène précédente.
+</stage>
+<sp who="ARCABONNE"><speaker>ARCABONNE</speaker><stage type="armed/closer">, un poignard à la main, s'approche d'Amadis.
+	</stage>
 	<l id="385">Meurs !... Que mes sens sont interdits !</l>
 	<l id="386">Ô Ciel ! Que vois-je ? Est-ce Amadis !</l>
 </sp>
@@ -805,13 +827,13 @@
 </poem>
 <stage type="danse">On danse.</stage>
 </sp>
-<sp who='CORISANDE'><speaker>CORISANDE.</speaker>
+<sp who="CORISANDE"><speaker>CORISANDE.</speaker>
 	<l id="419">Quel plaisir dans mon coeur succède au désespoir !</l>
 </sp>
-<sp who='FLORESTAN'><speaker>FLORESTAN.</speaker>
+<sp who="FLORESTAN"><speaker>FLORESTAN.</speaker>
 	<l id="420">Aimons-nous, livrons-nous au bonheur de nous voir.</l>
 </sp>
-<sp who='CORISANDE ET FLORESTAN'><speaker>CORISANDE ET FLORESTAN.</speaker>
+<sp who="CORISANDE ET FLORESTAN"><speaker>CORISANDE ET FLORESTAN.</speaker>
 	<l id="421">L'amour et la victoire</l>
 	<l id="422">S'unissent, pour nous rendre heureux.</l>
 	<l id="423">De ce jour, par nos chants, consacrons le mémoire.</l>
@@ -823,7 +845,8 @@
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
 <stage type="decor">Le théâtre représente une île agréable.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Arcalaüs, Arcabonne.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Arcalaüs, Arcabonne.
+</stage>
 <sp who="ARCALAÜS"><speaker>ARCALAÜS.</speaker>
 	<l id="426">Par mes enchantements Oriane est captive,</l>
 	<l id="427">Sa beauté causa nos malheurs :</l>
@@ -893,7 +916,8 @@
 	<l id="467">Mais dans mon coeur l'amour est étranger,</l>
 	<l id="468">Et la haine m'est naturelle.</l>
 </sp>
-<sp stage="watch/closer" who="ARCABONNE"><speaker>ARCABONNE, voyant approcher Oriane.</speaker>
+<sp who="ARCABONNE"><speaker>ARCABONNE</speaker><stage type="watch/closer">, voyant approcher Oriane.
+	</stage>
 	<l id="469">Ma rivale gémit : que ses maux me sont doux !</l>
 	<l id="470">Pour punir ces amants, j'imagine une peine</l>
 	<l id="471">Digne de ma fureur, et de votre courroux ;</l>
@@ -908,7 +932,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="ORIANE"><speaker>ORIANE, seule.</speaker>
+<sp who="ORIANE"><speaker>ORIANE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="476">À qui pourrai-je avoir recours ?</l>
 	<l id="477">C'est de vous, juste Ciel ! Que j'attends du secours,</l>
 	<l id="478">Sur ces bords inconnus, un enchanteur barbare</l>
@@ -926,7 +951,8 @@
 	<l id="490">À qui ne pense plus à moi ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Arcalaüs, Oriane.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Arcalaüs, Oriane.
+</stage>
 <sp who="ARCALAÜS"><speaker>ARCALAÜS.</speaker>
 	<l id="491">Je vous entends, cessez de feindre.</l>
 	<l id="492">Plaignez-vous d'Amadis ; je ne veux pas contraindre</l>
@@ -973,7 +999,8 @@
 <stage type="lieDown">Amadis, étendu sur ses armes sanglantes, paraît mort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Oriane, Amadis qui paraît mort.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Oriane, Amadis qui paraît mort.
+</stage>
 <sp who="ORIANE"><speaker>ORIANE.</speaker>
 	<l id="517">Que vois-je ! Ô spectacle effroyable ?</l>
 	<l id="518">Ô trop funeste sort !</l>
@@ -999,7 +1026,8 @@
 <stage type="faint">Oriane tombe évanouie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Arcalaüs, Arcabonne, Amadis qui paraît mort, Oriane, évanouie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Arcalaüs, Arcabonne, Amadis qui paraît mort, Oriane, évanouie.
+</stage>
 <sp who="ARCABONNE ET ARCALAÜS"><speaker>ARCABONNE ET ARCALAÜS.</speaker>
 	<l id="538">Quel plaisir de voir </l>
 	<l id="539">Un si cruel désespoir !</l>
@@ -1028,7 +1056,8 @@
 	<l id="552">Qui peut conduire ici ce rocher enflammé.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Urgande, Troupe de suivantes d'Urgande, Arcalaüs, Arcabonne, Amadis qui paraît mort, Oriane évanouie.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Urgande, Troupe de suivantes d'Urgande, Arcalaüs, Arcabonne, Amadis qui paraît mort, Oriane évanouie.
+</stage>
 <sp who="URGANDE"><speaker>URGANDE.</speaker>
 <stage type="decor/fire/entrance">Un rocher environné de flammes s'approche, les flammes se retirent, et laissent voir un vaisseau sous la figure d'un serpent, ce qui l'a fait appeler la grande serpente. Urgande et ses suivantes sortent de ce vaisseau.</stage>
 	<l id="553">Je soumets à mes lois l'enfer, la terre et l'onde.</l>
@@ -1096,7 +1125,8 @@
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
 <stage type="decor">Le théâtre représente le palais enchanté d'Apollidon, où l'on voit l'arc des loyaux amants, et la chambre défendue, qui est gardée par un monstre jetant des flammes.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Urgande, Amadis.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Urgande, Amadis.
+</stage>
 <sp who="URGANDE"><speaker>URGANDE.</speaker>
 	<l id="590">Apollidon, par un pouvoir magique,</l>
 	<l id="591">Autrefois éleva ce palais magnifique ;</l>
@@ -1144,7 +1174,8 @@
 	<l id="613">Je crains de mériter sa haine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Oriane, Amadis.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Oriane, Amadis.
+</stage>
 <sp who="ORIANE"><speaker>ORIANE.</speaker>
 	<l id="614">Fermez-vous pour jamais, mes yeux, mes tristes yeux.</l>
 	<l id="615">Je perds ce que j'aime le mieux,</l>
@@ -1211,7 +1242,8 @@
 	<l id="650">Une amour éternelle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV ET DERNIÈRE. Amadis, Oriane, Urgande, Florestan, Corisande, Troupe de héros et d'héroïne.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV ET DERNIÈRE.</head><stage> Amadis, Oriane, Urgande, Florestan, Corisande, Troupe de héros et d'héroïne.
+</stage>
 <sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 <stage type="open">La chambre défendue s'ouvre, et une troupe de héros et d'héroïnes, qu'Apollidon y avait autrefois enchantés pour y attendre le plus fidèle des amants et la plus parfaite des amantes reçoit Amadis et Oriane, et les reconnaît dignes de cet honneur.</stage>
 	<l id="651">Digne sang de Lisvart, régnez votre naissance</l>
@@ -1220,38 +1252,40 @@
 	<l id="654">Vous donne encor de la puissance.</l>
 <stage type="danse">On danse.</stage>
 </sp>
-<sp who='CORISANDE ET LE CHOEUR'><speaker>CORISANDE ET LE CHOEUR.</speaker>
+<sp who="CORISANDE ET LE CHOEUR"><speaker>CORISANDE ET LE CHOEUR.</speaker>
 	<l id="655">D'un bonheur nouveau </l>
 	<l id="656">Goûtons tous les charmes ;</l>
 	<l id="657">Mars est sans armes,</l>
 	<l id="658">Et l'Amour sans bandeau.</l>
 </sp>
-<sp stage="alone" who='CORISANDE'><speaker>CORISANDE, seule.</speaker>
+<sp who="CORISANDE"><speaker>CORISANDE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="659">Volez, plaisirs ; régnez avec la gloire ;</l>
 	<l id="660">Ramenez les amours ;</l>
 	<l id="661">Enchaînez la victoire ;</l>
 	<l id="662">Donnez à jamais de beaux jours.</l>
 </sp>
-<sp who='CORISANDE ET LE CHOEUR'><speaker>CORISANDE ET LE CHOEUR.</speaker>
+<sp who="CORISANDE ET LE CHOEUR"><speaker>CORISANDE ET LE CHOEUR.</speaker>
 	<l id="663">D'un bonheur nouveau </l>
 	<l id="664">Goûtons tous les charmes ;</l>
 	<l id="665">Mars est sans armes,</l>
 	<l id="666">Et l'Amour sans bandeau.</l>
 </sp>
 <stage type="danse">On danse.</stage>
-<sp who='CORISANDE ET LE CHOEUR'><speaker>CORISANDE ET LE CHOEUR.</speaker>
+<sp who="CORISANDE ET LE CHOEUR"><speaker>CORISANDE ET LE CHOEUR.</speaker>
 	<l id="667">Aimable maître</l>
 	<l id="668">De nos désirs,</l>
 	<l id="669">Toi seul fais naître</l>
 	<l id="670">Les vrais plaisirs.</l>
 </sp>
-<sp stage="alone" who='CORISANDE'><speaker>CORISANDE, seule.</speaker>
+<sp who="CORISANDE"><speaker>CORISANDE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="671">Malgré tes peines,</l>
 	<l id="672">Un tendre coeur</l>
 	<l id="673">Trouve ne tes chaînes</l>
 	<l id="674">Le parfait bonheur.</l>
 </sp>
-<sp who='LE CHOEUR'><speaker>LE CHOEUR.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="675">Aimable maître</l>
 	<l id="676">De nos désirs,</l>
 	<l id="677">Toi seul fais naître</l>

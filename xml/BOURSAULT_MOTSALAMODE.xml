@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -29,17 +29,17 @@
 				<titlePart type="sub">PETITE COMÉDIE</titlePart>
 				<titlePart type="sub">Augmentée de quantité de Vers qui n'ont pas été dits sur le Théâtre.</titlePart>
 			</docTitle> 
-			<docDate value='1694'>M. DC. LXXXXIV.</docDate>
-			<docAuthor id="BOURSAULT, Edme" bio='boursault'></docAuthor>
+			<docDate value="1694">M. DC. LXXXXIV.</docDate>
+			<docAuthor id="BOURSAULT, Edme" bio="boursault"/>
 			<docImprint>
-				<privilege id='1693-07-29'><head>Extrait du Privilège du Roi.</head>
+				<privilege id="1693-07-29"><head>Extrait du Privilège du Roi.</head>
 				<p>Par lettres patentes du Roi, données à Paris le vingt-neuvième jour de juillet 1693. Signé BOUCHER ; il est permis au sieur Boursault, de faire imprimer par tel libraire ou imprimeur qu'il voudra choisir, une pièce de sa composition intitulée Les Mots à la Mode, pendant le temps et espace de huit années, à compter du jour qu'elle sera achevée d'imprimer : avec défenses à tous libraires, imprimeurs et autres, d'imprimer, faire imprimer, vendre ni débiter ladite Comédie, sous quelque prétexte que ce soit, même 'impression étrangère sans le consentement dudit exposant ou de ses ayant cause, à peine de confiscation des exemplaires contrefaits, de trois mille livres d'amende, et de tous dépens, dommages et intérêts, ainsi qu'il est plus au long porté par lesdites lettres.</p>
 				<p>Registré sur le livre de la communauté des libraires et imprimeurs de Paris, le 26 septembre 1693.</p>
 				<p>Signé, P. AUBOUYN, Syndic.</p>
 				<p>Et le dit sieur Boursault a cédé au sieur J. Guignard le droit qu'il a au présent privilège, suivant l'accord fait entre eux.</p>
 				</privilege>
-				<printer id=''>À PARIS, Chez JEAN GUIGNARD, à l'entrée de la Grand' Salle du Palais, à L'Image Saint-Jean.</printer>
-				<acheveImprime id='1694-09-15'>Achevé d'imprimer le 15 septembre 1694.</acheveImprime>
+				<printer id="">À PARIS, Chez JEAN GUIGNARD, à l'entrée de la Grand' Salle du Palais, à L'Image Saint-Jean.</printer>
+				<acheveImprime id="1694-09-15">Achevé d'imprimer le 15 septembre 1694.</acheveImprime>
 			</docImprint>
 	<performance>
 		<premiere date="1694-08-19" location="Théâtre de la rue des Fossés Saint-Germain">Représentée, pour la première fois le 19 août 1694 au Théâtre de la rue des Fossés Saint-Germain. </premiere>
@@ -57,27 +57,28 @@
 	</div>
 
 		<castList><head>LES PERSONNAGES</head>
-			<castItem><role id="MONSIEUR JOSSE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR JOSSE</role>, Noble, auparavant orfèvre.</castItem>
-			<castItem><role id="MADAME JOSSE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME JOSSE</role>, sa femme.</castItem>
-			<castItem><role id="NANNETTE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>NANNETTE</role>, fille de Monsieur et de Madame Josse.</castItem>
-			<castItem><role id="BABET" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>BABET</role>, fille de Monsieur et de Madame Josse. </castItem>
-			<castItem><role id="MONSIEUR BRICE" sex="1" type="H" statut="avocat" age="A" stat_amour='néant'>MONSIEUR BRICE</role>, Avocat, frère de Madame Josse.</castItem>
-			<castItem><role id="MONSIEUR DU RUS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DU RUS</role>, frère Noble, auparavant parfumeur.</castItem>
-			<castItem><role id="MONSIEUR DE L'ORME" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE L'ORME</role>, frère Noble, auparavant parfumeur.</castItem>
-			<castItem><role id="MAROTE POUSSINEAU" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>MAROTE POUSSINEAU</role>, fille d'un marchand. </castItem>
-			<castItem><role id="MADAME BRICE" sex="2" type="H" statut="boucher" age="V" stat_amour='néant'>MADAME BRICE</role>, bouchère, mère de Madame Josse.</castItem>
-			<castItem><role id="MONSIEUR GRIFFET" sex="1" type="H" statut="commissaire" age="A" stat_amour='néant'>MONSIEUR GRIFFET</role>, commissaire.</castItem>
-			<castItem><role id="NICODEME" sex="1" type="H" statut="jardinier" age="A" stat_amour='néant'>NICODEME</role>, jardinier.</castItem>
-			<castItem><role id="ADRIENNE" sex="2" type="H" statut="jardinier" age="A" stat_amour='néant'>ADRIENNE</role>, femme de Nicodème.</castItem>
-			<castItem><role id="NICOLE" sex="2" type="H" statut="servante" age="A" stat_amour='néant'>NICOLE</role>, servante.</castItem>
-			<castItem><role id="CHAMPAGNE" sex="1" type="H" statut="laquais" age="A" stat_amour='néant'>CHAMPAGNE</role>, laquais.</castItem>
-			<castItem><role id="DES ARCHERS" sex="9" type="H" statut="archer" age="A" stat_amour='néant'>DES ARCHERS</role>.</castItem>
+			<castItem><role id="MONSIEUR JOSSE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR JOSSE</role>, Noble, auparavant orfèvre.</castItem>
+			<castItem><role id="MADAME JOSSE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME JOSSE</role>, sa femme.</castItem>
+			<castItem><role id="NANNETTE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">NANNETTE</role>, fille de Monsieur et de Madame Josse.</castItem>
+			<castItem><role id="BABET" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">BABET</role>, fille de Monsieur et de Madame Josse. </castItem>
+			<castItem><role id="MONSIEUR BRICE" sex="1" type="H" statut="avocat" age="A" stat_amour="néant">MONSIEUR BRICE</role>, Avocat, frère de Madame Josse.</castItem>
+			<castItem><role id="MONSIEUR DU RUS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DU RUS</role>, frère Noble, auparavant parfumeur.</castItem>
+			<castItem><role id="MONSIEUR DE L'ORME" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE L'ORME</role>, frère Noble, auparavant parfumeur.</castItem>
+			<castItem><role id="MAROTE POUSSINEAU" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">MAROTE POUSSINEAU</role>, fille d'un marchand. </castItem>
+			<castItem><role id="MADAME BRICE" sex="2" type="H" statut="boucher" age="V" stat_amour="néant">MADAME BRICE</role>, bouchère, mère de Madame Josse.</castItem>
+			<castItem><role id="MONSIEUR GRIFFET" sex="1" type="H" statut="commissaire" age="A" stat_amour="néant">MONSIEUR GRIFFET</role>, commissaire.</castItem>
+			<castItem><role id="NICODEME" sex="1" type="H" statut="jardinier" age="A" stat_amour="néant">NICODEME</role>, jardinier.</castItem>
+			<castItem><role id="ADRIENNE" sex="2" type="H" statut="jardinier" age="A" stat_amour="néant">ADRIENNE</role>, femme de Nicodème.</castItem>
+			<castItem><role id="NICOLE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">NICOLE</role>, servante.</castItem>
+			<castItem><role id="CHAMPAGNE" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">CHAMPAGNE</role>, laquais.</castItem>
+			<castItem><role id="DES ARCHERS" sex="9" type="H" statut="archer" age="A" stat_amour="néant">DES ARCHERS</role>.</castItem>
 		</castList>
-		<set location='France' country='France' periode='XVIIème' gps="(N/A)">La scène est à Paris.</set>
+		<set location="France" country="France" periode="XVIIème" gps="(N/A)">La scène est à Paris.</set>
 </front>
 <body>
-<div1 type="act" n="1"><head></head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Josse, Monsieur Griffet.</head>
+<div1 type="act" n="1"><head/>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur Josse, Monsieur Griffet.
+</stage>
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="1">Je vous ai de ma femme appris la trahison ; </l>
 	<l id="2">Quoiqu'il puisse arriver, j'en veux avoir raison. </l>
@@ -182,7 +183,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE, seul.</speaker>
+<sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="76">Dans quel piège ma femme elle-même se jette !</l>
 	<l id="77">Quelle imprudence aussi d'écrire mot pour mot</l>
 	<l id="78">Tout ce qu'elle dépense à faire un mari sot !</l>
@@ -191,7 +193,8 @@
 	<l id="81">La voici. Sa présence augmente mon courroux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur JOSSE, Madame JOSSE.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur JOSSE, Madame JOSSE.
+</stage>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
 	<l id="82">Je viens vous avertir qu'il ne tiendra qu'à vous</l>
 	<l id="83">De donner dès ce soir des époux à vos filles.</l>
@@ -284,7 +287,8 @@
 	<l id="133">Qui savent les beaux mots comme leur alphabet.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur Josse, Madame Josse, Nannette, Babet.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur Josse, Madame Josse, Nannette, Babet.
+</stage>
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="134">Approchez-vous, Nannette ; et vous aussi, Babet. </l>
 	<l id="135" part="i">C'est moi qui vous demande.</l>
@@ -294,7 +298,7 @@
 	<l id="136">Donnez-nous à chacune un nom de Seigneurie :</l>
 	<l id="137">Je ne vois que vous seul de gens de qualité</l>
 	<l id="138">Prendre si peu de soin de sa postérité.</l>
-	<l id="139">Monsieur Coquerico, Marchand de Savonnettes ></l>
+	<l id="139">Monsieur Coquerico, Marchand de Savonnettes &gt;</l>
 	<l id="140">Devenu gentilhomme aussi bien que vous l'êtes,</l>
 	<l id="141">N'a pas un de ses fils qui n'ait un nom nouveau,</l>
 	<l id="142">Soit le nom de quelque arbre ou de quelque ruisseau :</l>
@@ -452,7 +456,8 @@
 	<l id="217" part="i">Serviteur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Madame Josse, Nannette, Babet.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame Josse, Nannette, Babet.
+</stage>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
 	<l id="217" part="f">Moquez-vous des menaces qu'il fait : </l>
 	<l id="218">Messieurs Coquerico sont bien mieux votre fait.</l>
@@ -472,7 +477,8 @@
 	<l id="221" part="i">Il radote.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Brice, Madame Josse, Nannette, Babet.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Brice, Madame Josse, Nannette, Babet.
+</stage>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
 	<l id="221" part="f">Ah, c'est vous ! Eh, mon frère, bonjour. </l>
 </sp>
@@ -539,7 +545,8 @@
 	<l id="263">Mais bien faits ! Mais d'un « goût » ! Et du rang dont nous sommes.</l>
 </sp>
 </div2>
-<div2 type="scene" n='7'><head>SCÈNE VII. Champagne, Madame Josse, Monsieur Brice, Nannete, Babet.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Champagne, Madame Josse, Monsieur Brice, Nannete, Babet.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="264" part="i">Madame, on vous demande.</l>
 </sp>
@@ -562,7 +569,8 @@
 <sp who="MONSIEUR BRICE"><speaker>MONSIEUR BRICE.</speaker>
 	<l id="268" part="m">Eux, ma soeur ? </l>
 </sp>
-<sp stage="toward" who="MADAME JOSSE"><speaker>MADAME JOSSE, à ses filles.</speaker>
+<sp who="MADAME JOSSE"><speaker>MADAME JOSSE</speaker><stage type="toward">, à ses filles.
+	</stage>
 	<l id="268" part="f">Oui, vous dis-je,</l>
 	<l id="269">De l'éclat de vos yeux éblouis, pénétrés ;</l>
 	<l id="270">Ils ne sortiront pas comme ils seront entrés.</l>
@@ -573,7 +581,8 @@
 	<l id="273" part="i">Qu'ils entrent.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur du Rus, Monsieur de l'Orme, Madame Josse, Monsieur Brice, Nannette, Babet.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur du Rus, Monsieur de l'Orme, Madame Josse, Monsieur Brice, Nannette, Babet.
+</stage>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
 	<l id="273" part="m">Hé « quelqu'un » ! Des fauteuils.</l>
 </sp>
@@ -692,7 +701,8 @@
 	<l id="331">L'ennemie, en un mot, des sottises nouvelles.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Champagne, Madame Josse, Monsieur de Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Champagne, Madame Josse, Monsieur de Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="332">Marote Poussineau vient voir ces Demoiselles.</l>
 </sp>
@@ -714,7 +724,8 @@
 	<l id="342" part="i">Pardon.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Marote, Madame Josse, Monsieur de Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Marote, Madame Josse, Monsieur de Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.
+</stage>
 <sp who="MAROTE"><speaker>MAROTE.</speaker>
 	<l id="342" part="f">Bonjour Nannette ; à la fin te voilà ! </l>
 	<l id="343">Je suis venue ici deux ou trois fois de suite ;</l>
@@ -791,7 +802,8 @@
 	<l id="381">Je m'en vais le changer, sans y perdre un moment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Madame Josse, Monsieur du Rus, Monsieur de l'Orme, Nannette, Monsieur Brice, Babet.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Madame Josse, Monsieur du Rus, Monsieur de l'Orme, Nannette, Monsieur Brice, Babet.
+</stage>
 <sp who="MONSIEUR DE L'ORME"><speaker>MONSIEUR DE L'ORME.</speaker>
 	<l id="382">Vous l'avez repoussée, et vigoureusement. </l>
 	<l id="383">Je ne sais rien de mieux pour vous en bien défaire.</l>
@@ -867,7 +879,8 @@
 	<l id="430">Ha ! Que mal-à-propos ma mère vient ici !</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Madame Brice, Madame Josse, Monsieur du Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Madame Brice, Madame Josse, Monsieur du Rus, Monsieur de l'Orme, Monsieur Brice, Nannette, Babet.
+</stage>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
 	<l id="431">Quel sujet vous amène en ce lieu, toute seule ?</l>
 </sp>
@@ -977,7 +990,8 @@
 	<l id="481">J'aurai la joie au moins de gronder en repos.</l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Monsieur Josse, Madame Josse, Madame Brice, Monsieur Brice, Monsieur Griffet, Nannette, Babet.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Monsieur Josse, Madame Josse, Madame Brice, Monsieur Brice, Monsieur Griffet, Nannette, Babet.
+</stage>
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="482">Ha, ha ! Je vous rencontre ici tout à propos. </l>
 	<l id="483">Je viens de vous chercher pour une belle affaire.</l>
@@ -1014,7 +1028,8 @@
 	<l id="495" part="f">Imposteur ! L'impudence est extrême.</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Nicole, Monsieur Josse, Madame Josse, Monsieur Brice, Monsieur Griffet, Nannette, Babet.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Nicole, Monsieur Josse, Madame Josse, Monsieur Brice, Monsieur Griffet, Nannette, Babet.
+</stage>
 <sp who="NICOLE"><speaker>NICOLE.</speaker>
 	<l id="496">Vite, à l'aide, au secours du pauvre Nicodème :</l>
 	<l id="497">Si vous ne vous hâtez c'est fait du jardinier.</l>
@@ -1024,7 +1039,7 @@
 </sp>
 <sp who="NICOLE"><speaker>NICOLE.</speaker>
 <note type="L">Pousse-cul : terme odieux dont on qualifie les Recors [assistants du sergent] des Sergents, et autres qui servent à mettre et à pousser les gens en prison. [F]</note>
-	<l id='498' part="f">Des pousse-culs l'arrêtent prisonnier.</l>
+	<l id="498" part="f">Des pousse-culs l'arrêtent prisonnier.</l>
 	<l id="499">Comme il est fort et raide, et qu'il sait battre et mordre,</l>
 <note type="L">Tretous : Vieux mot. Tous. [Th.]</note>
 	<l id="500">Il leur donne à tretous bien du fil à retordre :</l>
@@ -1032,7 +1047,8 @@
 	<l id="502">Le voici qu'on amène, et sa femme avec lui.</l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Nicodème, Adrienne, Monsieur Josse, Madame Josse, Madame Brice, Monsieur Brice, Monsieur Griffet, Nannette, Babet, Nicole.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Nicodème, Adrienne, Monsieur Josse, Madame Josse, Madame Brice, Monsieur Brice, Monsieur Griffet, Nannette, Babet, Nicole.
+</stage>
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="503" part="i">Approche gros Coquin.</l>
 </sp>
@@ -1101,7 +1117,8 @@
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="526" part="f">Prêtez l'oreille : et vous, Monsieur, lisez.</l>
 </sp>
-<sp stage="read" who="MONSIEUR GRIFFET"><speaker>MONSIEUR GRIFFET, lit.</speaker>
+<sp who="MONSIEUR GRIFFET"><speaker>MONSIEUR GRIFFET</speaker><stage type="read">, lit.
+</stage>
 <p id="1">
 	<s id="1">« Mémoire de la Défense que j'ai faite en galanteries ».</s>
 </p>
@@ -1130,7 +1147,8 @@
 <sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE.</speaker>
 	<l id="536">Monsieur, de pareils coups laissent des cicatrices...</l>
 </sp>
-<sp stage="low" who="NICODEME"><speaker>NICODEME, bas.</speaker>
+<sp who="NICODEME"><speaker>NICODEME</speaker><stage type="low">, bas.
+	</stage>
 	<l id="537">La peste ! Un « Mousquetaire » est assez bien choisi.</l>
 </sp>
 <sp who="MONSIEUR GRIFFET"><speaker>MONSIEUR GRIFFET.</speaker>
@@ -1329,11 +1347,13 @@
 	<l id="626" part="f">Moi ? Je ne sais ce que c'est que tout çà. </l>
 	<l id="627">J'ai toujours vu Madame une bonne vivante.</l>
 </sp>
-<sp stage="toward" who='MONSIEUR JOSSE'><speaker>MONSIEUR JOSSE, à Monsieur Griffet.</speaker>
+<sp who="MONSIEUR JOSSE"><speaker>MONSIEUR JOSSE</speaker><stage type="toward">, à Monsieur Griffet.
+	</stage>
 	<l id="628">La preuve de son crime est assez convaincante. </l>
 	<l id="629">On lui dira le reste en temps et lieu. Suffit.</l>
 </sp>
-<sp stage="toward" who='MONSIEUR GRIFFET'><speaker>MONSIEUR GRIFFET, à Madame Josse.</speaker>
+<sp who="MONSIEUR GRIFFET"><speaker>MONSIEUR GRIFFET</speaker><stage type="toward">, à Madame Josse.
+	</stage>
 	<l id="630">Qu'avez-vous à répondre à tout ce que j'ai dit ?</l>
 </sp>
 <sp who="MADAME JOSSE"><speaker>MADAME JOSSE.</speaker>
@@ -1519,7 +1539,8 @@
 	<l id="732">Au lieu de vingt écus je t'en donnerai trente.</l>
 	<l id="733">C'est payer son honneur et le tien grassement.</l>
 </sp>
-<sp stage="toward" who='NICODEME'><speaker>NICODEME, à Adrienne.</speaker>
+<sp who="NICODEME"><speaker>NICODEME</speaker><stage type="toward">, à Adrienne.
+	</stage>
 	<l id="734" part="i">Est-ce assez ?</l>
 </sp>
 <sp who="ADRIENNE"><speaker>ADRIENNE.</speaker>
@@ -1634,7 +1655,8 @@
 <sp who="MADAME BRICE"><speaker>MADAME BRICE.</speaker>
 	<l id="799">Allons nous ébaudir, et dîner tous ensemble.</l>
 </sp>
-<sp stage="toward" who='NICODEME'><speaker>NICODEME, aux Auditeurs.</speaker>
+<sp who="NICODEME"><speaker>NICODEME</speaker><stage type="toward">, aux Auditeurs.
+	</stage>
 	<l id="800">Et vous, allez souper, Messieurs, si bon vous semble.</l>
 	<l id="801">Comme en chemin faisant vous trouvez quelquefois</l>
 	<l id="802">D'impertinents parleurs et de nobles bourgeois,</l>

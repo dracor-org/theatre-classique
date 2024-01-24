@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -38,21 +38,22 @@
 			<printer>Imprimerie Dondrey-Dupré, rue Saint-Louis, 46, au Marais.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1701-12-13' location='Hôtel Guénégaud'>Représenté, pour la première fois, à Paris, sur le théâtre du Vaudeville, le 13 juillet 1816.</premiere>
+			<premiere date="1701-12-13" location="Hôtel Guénégaud">Représenté, pour la première fois, à Paris, sur le théâtre du Vaudeville, le 13 juillet 1816.</premiere>
 		</performance>
 	<castList><head>DISTRIBUTION.</head>
-		<castItem><role id="SIMON" sex="1" type="H" statut="carrossier" age="A" stat_amour='néant'>SIMON</role>, carrossier M. LECLERC.</castItem>
-		<castItem><role id="LÉOPOLD" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>LÉOPOLD</role>, son fils M. PIERRON.</castItem>
-		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>UN DOMESTIQUE</role>. M. LANSOY.</castItem>
-		<castItem><role id="MADEMOISELLE LANGE" sex="2" type="H" statut="acteur" age="A" stat_amour='néant'>MADEMOISELLE LANGE</role>, actrice de la Comédie-Française Mlle DAUBRUN.</castItem>
-		<castItem><role id="JULIE CANDEILLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>JULIE CANDEILLE</role>. Mlle JULIETTE.</castItem>
-		<castItem><role id="MARIETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour='néant'>MARIETTE</role>, femme de chambre de Mlle Lange. Mlle VICTORINE.</castItem>
+		<castItem><role id="SIMON" sex="1" type="H" statut="carrossier" age="A" stat_amour="néant">SIMON</role>, carrossier M. LECLERC.</castItem>
+		<castItem><role id="LÉOPOLD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉOPOLD</role>, son fils M. PIERRON.</castItem>
+		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">UN DOMESTIQUE</role>. M. LANSOY.</castItem>
+		<castItem><role id="MADEMOISELLE LANGE" sex="2" type="H" statut="acteur" age="A" stat_amour="néant">MADEMOISELLE LANGE</role>, actrice de la Comédie-Française Mlle DAUBRUN.</castItem>
+		<castItem><role id="JULIE CANDEILLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">JULIE CANDEILLE</role>. Mlle JULIETTE.</castItem>
+		<castItem><role id="MARIETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">MARIETTE</role>, femme de chambre de Mlle Lange. Mlle VICTORINE.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Le théâtre représente un salon.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>MADEMOISELLE LANGE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Mariette, Léopold, entrant par une croisée.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Mariette, Léopold, entrant par une croisée.
+</stage>
 <sp who="MARIETTE"><speaker>MARIETTE.</speaker>
 <p id="1">
 	<s id="1">Ciel ! </s>
@@ -148,14 +149,17 @@
 	<s id="2">Alors, elle vous aime encore.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LÉOPOLD"><speaker>LÉOPOLD, l'embrassant. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="kiss">, l'embrassant. 
+</stage>
 <p id="18">
 	<s id="1">Tu es la plus ravissante des soubrettes.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mariette, Léopold, Julie.</head>
-<sp stage="entrance" who="JULIE"><speaker>JULIE, entrant. </speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mariette, Léopold, Julie.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Eh bien ! </s>
@@ -185,7 +189,8 @@
 	<l id="7">Et quand on me dit qu'elle m'aime</l>
 	<l id="8">J'embrasserais tout l'univers.</l>
 </sp>
-<sp stage="serious" who="JULIE"><speaker>JULIE, gravement.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="serious">, gravement.
+</stage>
 <p id="5">
 	<s id="1">Monsieur_Léopold, étiez-vous chez vous, ce matin... </s>
 	<s id="2">Il a deux heures ?</s>
@@ -221,7 +226,8 @@
 	<s id="1">Partez, Monsieur_Léopold, et donnez-nous de vos nouvelles.</s>
 </p>
 </sp>
-<sp who="LÉOPOLD"><speaker>LÉOPOLD, à part.</speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage>, à part.
+</stage>
 <p id="12">
 	<s id="1">De mes nouvelles... seront-elles heureuses ou malheureuses ? </s>
 	<s id="2">Et maintenant, allons rejoindre mon adversaire.</s>
@@ -241,8 +247,10 @@
 	<l id="16">Désirs et regrets superflus !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Julie, Mariette.</head>
-<sp stage="call" who="JULIE"><speaker>JULIE, appelant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Julie, Mariette.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="call">, appelant.
+</stage>
 <p id="1">
 	<s id="1">Mariette ! </s>
 	<s id="2">Qu'a fait, hier, ta maîtresse, en rentrant de la Comédie-Française ?</s>
@@ -289,7 +297,8 @@
 	<s id="2">Je comprends alors pourquoi on l'a sifflée.</s>
 </p>
 </sp>
-<sp stage="offended" who="MARIETTE"><speaker>MARIETTE, indignée.</speaker>
+<sp who="MARIETTE"><speaker>MARIETTE</speaker><stage type="offended">, indignée.
+</stage>
 <p id="10">
 	<s id="1">On l'a sifflée !</s>
 </p>
@@ -353,7 +362,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Julie, Mademoiselle Lange.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Julie, Mademoiselle Lange.
+</stage>
 <sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE. </speaker>
 <p id="1">
 	<s id="1">Oh ! </s>
@@ -420,7 +430,8 @@
 	<s id="1">Je viens de lui écrire, je lui ai défendu de se battre ; c'est la première lettre de moi qu'il a reçue, ce sera la dernière, je ne le verrai plus.</s>
 </p>
 </sp>
-<sp stage="subtil" who="JULIE"><speaker>JULIE, après une pause et avec malice. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="subtil">, après une pause et avec malice. 
+</stage>
 <p id="12">
 	<s id="1">Que lui diras-tu demain ?</s>
 </p>
@@ -466,7 +477,8 @@
 	<s id="1">Poursuis.</s>
 </p>
 </sp>
-<sp stage="read" who="JULIE"><speaker>JULIE, lisant. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="read">, lisant. 
+</stage>
 <p id="20">
 	<s id="1">« Comédienne. » </s>
 </p>
@@ -500,7 +512,8 @@
 	<s id="1">Calme-toi, je t'en prie.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, indignée. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage>, indignée. 
+</stage>
 <note type="L">Patache : Barque qui porte des lettres ou des passagers sur quelques fleuves, sur quelques rivières. Par extension, voiture de transport, non suspendue et coûtant peu. Voyager par les pataches. [L]</note>
 <p id="27">
 	<s id="1">Comédienne !... </s>
@@ -536,7 +549,8 @@
 </p>
 <stage type="away">Elle entre chez elle.</stage>
 </sp>
-<sp stage="follow" who="JULIE"><speaker>JULIE, la suivant. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="follow">, la suivant. 
+</stage>
 <p id="33">
 	<s id="1">Lange ! </s>
 	<s id="2">Lange ?... </s>
@@ -548,7 +562,8 @@
 <stage type="exit">Elle la suit.</stage>
 </sp>
 </div2>
-<div2 stage="run/search" type="scene" n="5"><head>SCÈNE V. Simon, parcourant la scène en ouvrant les placards et cherchant partout ; Mariette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage type="run/search"> Simon, parcourant la scène en ouvrant les placards et cherchant partout ; Mariette.
+</stage>
 <sp who="MARIETTE"><speaker>MARIETTE.</speaker>
 <p id="1">
 	<s id="1">Mais Monsieur, vous voudrez bien me dire...</s>
@@ -559,7 +574,8 @@
 	<s id="1">Rien, rien !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARIETTE"><speaker>MARIETTE, à part. </speaker>
+<sp who="MARIETTE"><speaker>MARIETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">Est-ce qu'il court après des souris ?... </s>
 </p>
@@ -568,7 +584,8 @@
 	<s id="1">Monsieur cherche...</s>
 </p>
 </sp>
-<sp who="SIMON"><speaker>SIMON, toujours très brusquement. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage>, toujours très brusquement. 
+</stage>
 <p id="5">
 	<s id="1">Oui, je cherche.</s>
 </p>
@@ -637,13 +654,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Simon, Mariette, Julie.</head>
-<sp stage="proud" who="JULIE"><speaker>JULIE, avec dignité.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Simon, Mariette, Julie.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="proud">, avec dignité.
+</stage>
 <p id="1">
 	<s id="1">Qui parle ici de monsieur_Léopold ?</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="SIMON"><speaker>SIMON, à part, en voyant Julie. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte/watch">, à part, en voyant Julie. 
+</stage>
 <note type="L">Matois : erme familier. Qui a, comme le renard, la ruse et la hardiesse. [L]</note>
 <p id="2">
 	<s id="1">Ah ! </s>
@@ -683,8 +703,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Simon, Julie.</head>
-<sp stage="abrupt" who="SIMON"><speaker>SIMON, brusquement. </speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Simon, Julie.
+</stage>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="abrupt">, brusquement. 
+</stage>
 <p id="1">
 	<s id="1">Je voudrais bien savoir, madame ou mademoiselle, où est mon fils Léopold ?... </s>
 	<s id="2">Vous n'entendez pas.</s>
@@ -694,7 +716,8 @@
 	<s id="1">Est-ce à Mademoiselle_Lange que je m'adresse ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">Laissons-le dans le doute.</s>
 </p>
@@ -705,12 +728,14 @@
 	<s id="2">Point de réponse ?</s>
 </p>
 </sp>
-<sp stage="proud" who="JULIE"><speaker>JULIE, avec dignité. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="proud">, avec dignité. 
+</stage>
 <p id="5">
 	<s id="1">À Paris, Monsieur, cité des convenances, nous autres, dames ou demoiselles, comédiennes ou femmes du monde, nous n'avons pas l'habitude de répondre à qui nous adresse la parole le chapeau sur la tête.</s>
 </p>
 </sp>
-<sp stage="dress" who="SIMON"><speaker>SIMON, se découvrant. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="dress">, se découvrant. 
+</stage>
 <p id="6">
 	<s id="1">Soit, découvrons mon chef. </s>
 	<s id="2">Où est mon fils ?</s>
@@ -738,7 +763,8 @@
 	<s id="2">Je suis riche... riche de près de deux millions, je n'ai pas d'autre héritier, et je ne veux pas que sa fortune se dissipe avec une... comédienne.</s>
 </p>
 </sp>
-<sp stage="nervous" who="JULIE"><speaker>JULIE, un peu irritée. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="nervous">, un peu irritée. 
+</stage>
 <p id="11">
 	<s id="1">Monsieur, vous êtes ici chez Mademoiselle_Lange, comédienne ordinaire du roi.</s>
 </p>
@@ -754,7 +780,8 @@
 	<s id="2">Croyez-moi, monsieur, ne méprisez aucun état, il y a des talents qui les ennoblissent tous ; et le nom de Mademoiselle_Lange est salué en tous lieux avec amour et respect.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SIMON"><speaker>SIMON, à part. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="14">
 	<s id="1">Elle n'est pas mal vaniteuse, la gaillarde !</s>
 </p>
@@ -774,7 +801,8 @@
 	<s id="1">C'est beaucoup pour aller vite, ça n'est pas assez pour aller à la gloire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SIMON"><speaker>SIMON, à part. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="18">
 	<s id="1">Elle a réponse à tout.</s>
 </p>
@@ -858,7 +886,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Simon, Julie, Un Domestique.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Simon, Julie, Un Domestique.
+</stage>
 <sp who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE. </speaker>
 <p id="1">
 	<s id="1">Une lettre pour Mademoiselle_Lange.</s>
@@ -943,8 +972,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Julie, Mademoiselle Lange.</head>
-<sp stage="run/stress" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, accourant très émue. </speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Julie, Mademoiselle Lange.
+</stage>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="run/stress">, accourant très émue. 
+</stage>
 <p id="1">
 	<s id="1">J'ai tout entendu, j'allais m'élancer... </s>
 	<s id="2">Mon_Dieu ! </s>
@@ -968,7 +999,8 @@
 	<s id="2">Te compromettre ?</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec élan. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="enthousiasm">, avec élan. 
+</stage>
 <p id="5">
 	<s id="1">Eh ! </s>
 	<s id="2">Ne sait-on pas que je l'aime ?... </s>
@@ -1001,8 +1033,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Julie, Mademoiselle Lange, Léopold.</head> 
-<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, allant très-vite à Léopold.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Julie, Mademoiselle Lange, Léopold. 
+</stage> 
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage>, allant très-vite à Léopold.
+</stage>
 <p id="1">
 	<s id="1">Blessé ?</s>
 </p>
@@ -1014,7 +1048,8 @@
 	<s id="3">Pardon de l'inquiétude...</s>
 </p>
 </sp>
-<sp stage="cry" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec larmes. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="cry">, avec larmes. 
+</stage>
 <p id="3">
 	<s id="1">Mais c'étaient des angoisses mortelles, Monsieur ! </s>
 	<s id="2">Ce duel est-il fini, bien fini ?</s>
@@ -1025,7 +1060,8 @@
 	<s id="1">Mon adversaire et moi, nous nous sommes serré la main ; il viendra s'humilier à vos pieds après sa guérison.</s>
 </p>
 </sp>
-<sp stage="happy" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec joie.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="5">
 	<s id="1">Oh ! </s>
 	<s id="2">Je le pardonne et je l'aime pour toute la douleur que je n'éprouve plus.</s>
@@ -1049,7 +1085,8 @@
 	<s id="8">Toi, Julie, va au théâtre, dis-leur...</s>
 </p>
 </sp>
-<sp stage="smile" who="JULIE"><speaker>JULIE, souriant. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="smile">, souriant. 
+</stage>
 <p id="8">
 	<s id="1">Je sais ce que j'ai à dire... </s>
 	<s id="2">Tu es malade... </s>
@@ -1062,8 +1099,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Mademoiselle Lange, Léopold.</head>
-<sp stage="tender" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec tendresse. </speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Mademoiselle Lange, Léopold.
+</stage>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="tender">, avec tendresse. 
+</stage>
 <p id="1">
 	<s id="1">Point blessé, n'est-ce pas ?</s>
 </p>
@@ -1083,7 +1122,8 @@
 	<s id="1">Je suis heureux, voilà tout.</s>
 </p>
 </sp>
-<sp stage="sad" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec tristesse.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="sad">, avec tristesse.
+</stage>
 <p id="5">
 	<s id="1">Et cependant un malheur nous menace, votre père est ici.</s>
 </p>
@@ -1098,7 +1138,8 @@
 	<s id="1">Julie seule s'est trouvée avec lui ; il veut absolument que vous quittiez Paris, que vous m'abandonniez.</s>
 </p>
 </sp>
-<sp stage="exaltation" who="LÉOPOLD"><speaker>LÉOPOLD, avec exaltation. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="exaltation">, avec exaltation. 
+</stage>
 <p id="8">
 	<s id="1">Veut-il aussi que je vous oublie ? </s>
 	<s id="2">Le pouvoir d'un père ne peut aller jusque-là... </s>
@@ -1115,7 +1156,8 @@
 	<l id="36">Tout ce que j'aime en vous... c'est toi !</l>
 	<l id="37">Enfin ce que j'aime c'est toi !...</l>
 </sp>
-<sp stage="pain" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, douloureusement. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="pain">, douloureusement. 
+</stage>
 <p id="9">
 	<s id="1">Mais si votre père vous déshérite ?</s>
 </p>
@@ -1158,7 +1200,8 @@
 	<s id="1">Nous vaincrons sa résistance.</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec amertume. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage>, avec amertume. 
+</stage>
 <p id="17">
 	<s id="1">Si pourtant elle est inébranlable ?</s>
 </p>
@@ -1179,7 +1222,8 @@
 	<s id="1">Vous voyez bien que je suis toujours son fils.</s>
 </p>
 </sp>
-<sp stage="stress" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, s'animant par degrés. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="stress">, s'animant par degrés. 
+</stage>
 <p id="21">
 	<s id="1">Oui, son fils damné par une comédienne, car c'est ainsi qu'il m'appelle, mon pauvre Léopold... </s>
 	<s id="2">Comédienne, c'est-à-dire, être fatal à soi-même et à ceux qui nous approchent, coeur fardé comme les joues, tête folle n'ayant de pensées que celles qu'on lui prête, existence vénale dont chacun veut sa part à l'éclat d'un lustre, dont chacun se rit, que chacun a le droit d'attrister... </s>
@@ -1196,7 +1240,8 @@
 	<s id="4">Soyez ma femme.</s>
 </p>
 </sp>
-<sp stage="proud" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, avec dignité.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="proud">, avec dignité.
+</stage>
 <p id="23">
 	<s id="1">Léopold, votre amour a rempli sa tâche... </s>
 	<s id="2">C'est à mon tour à vous prouver si je vous aime... </s>
@@ -1225,7 +1270,8 @@
 	<s id="2">Par pitié !</s>
 </p>
 </sp>
-<sp stage="serious" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, sévèrement.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="serious">, sévèrement.
+</stage>
 <p id="27">
 	<s id="1">Allez retrouver votre père.</s>
 </p>
@@ -1258,7 +1304,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp stage="alone" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, seule.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Il m'en a coûté, mais j'ai rempli mon devoir... </s>
 	<s id="2">Oh ! </s>
@@ -1268,8 +1315,10 @@
 <stage type="sit/sad">Elle s'assied tristement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Mademoiselle Lange, Julie, Mariette, une lettre à la main.</head>
-<sp stage="entrance" who="JULIE"><speaker>JULIE, entrant. </speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Mademoiselle Lange, Julie, Mariette, une lettre à la main.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">Tu es très malade... </s>
 	<s id="2">L'affiche va l'annoncer à tout Paris... </s>
@@ -1281,7 +1330,8 @@
 	<s id="1">Il est parti, et je lui ai fait comprendre qu'il ne devait plus revenir.</s>
 </p>
 </sp>
-<sp stage="crazy" who="JULIE"><speaker>JULIE, follement. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="crazy">, follement. 
+</stage>
 <p id="3">
 	<s id="1">Ma foi, si tu veux que je te le dise, tu as eu tort ; un fils est un fils, c'est vrai, mais un père est aussi un père ; et si l'un doit souvent obéir, l'autre ne doit pas toujours commander.</s>
 </p>
@@ -1340,7 +1390,8 @@
 	<s id="1">Il parait que c'est le jour aux missives.</s>
 </p>
 </sp>
-<sp stage="open" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, l'ouvrant.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="open">, l'ouvrant.
+</stage>
 <p id="14">
 	<s id="1">De Monsieur_le_comte_de_Mauléon... de son adversaire ; je ne sais si je dois...</s>
 </p>
@@ -1362,19 +1413,22 @@
 	<s id="1">« Un pardon, un oubli, c'est tout ce que j'implore ; hier je fus coupable, mais je souffre moins de ma blessure que de celle que Léopold a reçue de moi. »</s>
 </p>
 </sp>
-<sp stage="frighten" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, effrayée.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="frighten">, effrayée.
+</stage>
 <p id="19">
 	<s id="1">Il est blessé !... </s>
 	<s id="2">Et il se taisait !...</s>
 </p>
 </sp>
-<sp stage="read" who="JULIE"><speaker>JULIE, continuant de lire. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="read">, continuant de lire. 
+</stage>
 <p id="20">
 	<s id="1">« Je guérirai moins vite de son bras que de ma poitrine... </s>
 	<s id="2">Pardon encore une fois, Mademoiselle, pour le sacrilège dont je suis doublement puni... »</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, prenant la lettre et appelant.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage>, prenant la lettre et appelant.
+</stage>
 <p id="21">
 	<s id="1">Mariette ! </s>
 	<s id="2">Mariette !...</s>
@@ -1386,7 +1440,8 @@
 	<s id="1">Que fais-tu ?...</s>
 </p>
 </sp>
-<sp stage="toward/write" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, à Mariette et écrivant. </speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="toward/write">, à Mariette et écrivant. 
+</stage>
 <p id="23">
 	<s id="1">Tu vas porter cette lettre.</s>
 </p>
@@ -1453,8 +1508,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les mêmes, Mariette.</head>
-<sp stage="watch" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, voyant entrer Mariette.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les mêmes, Mariette.
+</stage>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="watch">, voyant entrer Mariette.
+</stage>
 <p id="1">
 	<s id="1">Eh bien... </s>
 	<s id="2">L'as-tu vu ?... </s>
@@ -1505,7 +1562,8 @@
 	<s id="1">Je m'en rapporte à ton amitié.</s>
 </p>
 </sp>
-<sp who="MARIETTE"><speaker>MARIETTE, au tond. </speaker>
+<sp who="MARIETTE"><speaker>MARIETTE</speaker><stage>, au tond. 
+</stage>
 <p id="9">
 	<s id="1">Entendez-vous ces gros pas qui montent l'escalier ? </s>
 	<s id="2">C'est notre homme !</s>
@@ -1531,8 +1589,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Julie, Simon.</head>
-<sp stage="happy/laugh" who="SIMON"><speaker>SIMON, arrivant très joyeux et riant.</speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Julie, Simon.
+</stage>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="happy/laugh">, arrivant très joyeux et riant.
+</stage>
 <p id="1">
 	<s id="1">Eh bien !...</s>
 </p>
@@ -1761,7 +1821,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Simon, Julie, Mariette.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Simon, Julie, Mariette.
+</stage>
 <sp who="SIMON"><speaker>SIMON.</speaker>
 <p id="1">
 	<s id="1">Maître_Godin... </s>
@@ -1771,7 +1832,8 @@
 	<s id="1">Faites venir votre soubrette, je vous prie.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, sonnant. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage>, sonnant. 
+</stage>
 <p id="3">
 	<s id="1">Qu'est-ce qu'il rumine ?</s>
 </p>
@@ -1857,7 +1919,8 @@
 	<s id="2">Et de la base ?</s>
 </p>
 </sp>
-<sp stage="watch" who="JULIE"><speaker>JULIE, regardant à ses pieds. </speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="watch">, regardant à ses pieds. 
+</stage>
 <p id="18">
 	<s id="1">Qu'est-ce que c'est que ça ?</s>
 </p>
@@ -1929,7 +1992,8 @@
 	<s id="3">M'acceptez-vous, moi et mes millions ?</s>
 </p>
 </sp>
-<sp stage="" who="JULIE"><speaker>JULIE, minaudant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="">, minaudant.
+</stage>
 <p id="29">
 	<s id="1">Et votre fils ?</s>
 </p>
@@ -1974,12 +2038,14 @@
 	<s id="1">Et qui me répondra de la sincérité de votre parole ?</s>
 </p>
 </sp>
-<sp who="MARIETTE"><speaker>MARIETTE, entrant. </speaker>
+<sp who="MARIETTE"><speaker>MARIETTE</speaker><stage>, entrant. 
+</stage>
 <p id="38">
 	<s id="1">Voici la réponse.</s>
 </p>
 </sp>
-<sp stage="get" who="SIMON"><speaker>SIMON, prenant le papier. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="get">, prenant le papier. 
+</stage>
 <p id="39">
 	<s id="1">Qui vous répondra de la sincérité de ma parole ?... </s>
 	<s id="2">Ma  signature.</s>
@@ -2018,7 +2084,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Julie, Simon, Léopold.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Julie, Simon, Léopold.
+</stage>
 <sp who="LÉOPOLD"><speaker>LÉOPOLD.</speaker>
 <p id="1">
 	<s id="1">Mon père !</s>
@@ -2157,7 +2224,8 @@ L<p id="24">
 	<s id="1">Mais, Mademoiselle, dites-lui donc que vous acceptez ma main, que vous voulez être ma femme.</s>
 </p>
 </sp>
-<sp stage="back" who="LÉOPOLD"><speaker>LÉOPOLD, revenant sur ses pas. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="back">, revenant sur ses pas. 
+</stage>
 <p id="27">
 	<s id="1">Eh ! </s>
 	<s id="2">Quoi... </s>
@@ -2169,7 +2237,8 @@ L<p id="24">
 	<s id="1">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SIMON"><speaker>SIMON, à part. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="29">
 	<s id="1">Il va la tuer.</s>
 </p>
@@ -2199,7 +2268,8 @@ L<p id="24">
 	<s id="1">Oui, mais pas avec ma femme.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LÉOPOLD"><speaker>LÉOPOLD, l'embrassant. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="kiss">, l'embrassant. 
+</stage>
 <p id="35">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon père, mon excellent père ! </s>
@@ -2225,30 +2295,35 @@ L<p id="24">
 	<s id="1">J'en fais mon affaire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SIMON"><speaker>SIMON, à part. </speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="40">
 	<s id="1">C'est fini, il a des papillons au cerveau.</s>
 </p>
 </sp>
-<sp stage="call" who="LÉOPOLD"><speaker>LÉOPOLD, appelant. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="call">, appelant. 
+</stage>
 <p id="41">
 	<s id="1">Amélie ! </s>
 	<s id="2">Vite, vite, le bonheur est ici !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Léopold, Simon, Julie, Mariette, Mademoiselle Lange.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Léopold, Simon, Julie, Mariette, Mademoiselle Lange.
+</stage>
 <sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE. </speaker>
 <p id="1">
 	<s id="1">Le bonheur, dites-vous ?</s>
 </p>
 </sp>
-<sp stage="happy" who="LÉOPOLD"><speaker>LÉOPOLD, avec joie. </speaker>
+<sp who="LÉOPOLD"><speaker>LÉOPOLD</speaker><stage type="happy">, avec joie. 
+</stage>
 <p id="2">
 	<s id="1">Oui, un bonheur immense, ineffable.</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="SIMON"><speaker>SIMON, à part, regardant Mademoiselle Lange.</speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="aparte/watch">, à part, regardant Mademoiselle Lange.
+</stage>
 <p id="3">
 	<s id="1">Quelle jolie personne !</s>
 </p>
@@ -2276,7 +2351,8 @@ L<p id="24">
 	<s id="1">J'épousais, et je ne savais pas le nom de ma femme ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARIETTE"><speaker>MARIETTE, à part. </speaker>
+<sp who="MARIETTE"><speaker>MARIETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="8">
 	<s id="1">Jugé !...</s>
 </p>
@@ -2286,7 +2362,8 @@ L<p id="24">
 	<s id="1">Un honnête homme n'a que sa parole... et sa signature... que voilà !</s>
 </p>
 </sp>
-<sp who="SIMON"><speaker>SIMON, regardant Julie et Mlle Lange alternativement.</speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage>, regardant Julie et Mlle Lange alternativement.
+</stage>
 <p id="10">
 	<s id="1">À la bonne heure, et tout bien considéré, l'une vaut l'autre... </s>
 	<s id="2">Ai-je perdu ?... </s>
@@ -2302,7 +2379,8 @@ L<p id="24">
 	<l id="63">N'est-il donc pas plus sage</l>
 	<l id="64">Alors d'en faire deux ?</l>
 </sp>
-<sp stage="toward" who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE, au public.</speaker>
+<sp who="MADEMOISELLE LANGE"><speaker>MADEMOISELLE LANGE</speaker><stage type="toward">, au public.
+</stage>
 <stage type="title">AIR : Lorsque brillait dans la céleste voûte.</stage>
 	<l id="65">Pour notre auteur, tremblant dans la coulisse,</l>
 	<l id="66">J'allais, messieurs, demander votre appui ;</l>

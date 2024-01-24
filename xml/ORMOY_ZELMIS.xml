@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>mixte</type>
 				<periode>1771-1780</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -47,9 +47,9 @@
 		</div>
 		<castList>
 		<head>PERSONNAGES</head>
-			<castItem><role id="ZELMIS" sex="2" type="H" statut="sauvage" age="J" stat_amour='néant'>ZELMIS</role>, jeune sauvage.</castItem>
-			<castItem><role id="ALMANZAÏDE" sex="2" type="H" statut="sauvage" age="A" stat_amour='néant'>ALMANZAÏDE</role>, Mère de Zelmis.</castItem>
-			<castItem><role id="MIRVILLE" sex="1" type="H" statut="sauvage" age="J" stat_amour='néant'>MIRVILLE</role>, Amant de Zelmis.</castItem>
+			<castItem><role id="ZELMIS" sex="2" type="H" statut="sauvage" age="J" stat_amour="néant">ZELMIS</role>, jeune sauvage.</castItem>
+			<castItem><role id="ALMANZAÏDE" sex="2" type="H" statut="sauvage" age="A" stat_amour="néant">ALMANZAÏDE</role>, Mère de Zelmis.</castItem>
+			<castItem><role id="MIRVILLE" sex="1" type="H" statut="sauvage" age="J" stat_amour="néant">MIRVILLE</role>, Amant de Zelmis.</castItem>
 		</castList>
 		<set location="Île déserte" country="(Pays indéterminé)" periode="XVIIIème" gps="">La scène est dans une île déserte.</set>
 </front>
@@ -57,7 +57,8 @@
 <div1 type="acte" n="1"><head>ZELMIS, OU LA JEUNE SAUVAGE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor/location">Le Théâtre représente un bois épais.</stage>
-<sp stage="alone" who="ALMANZAÏDE"><speaker>ALMANZAÏDE, seule.</speaker>
+<sp who="ALMANZAÏDE"><speaker>ALMANZAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Quoi ! </s>
 	<s id="2">Depuis quinze ans j'habite cette île inconnue au reste du monde, et je n'ai pas plus d'espérance d'en sortir que le jour ou j'y fus jetée par la tempête ! </s>
@@ -104,8 +105,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Almanzaide, Zelmis.</head>
-<sp stage="costume" who="ZELMIS"><speaker>ZELMIS, en habit de sauvage.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Almanzaide, Zelmis.
+</stage>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="costume">, en habit de sauvage.
+</stage>
 <p id="1">
 	<s id="1">Ma mère, que cette matinée est belle ! </s>
 	<s id="2">Comme le Ciel est pur ! </s>
@@ -260,7 +263,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ALMANZAÏDE"><speaker>ALMANZAÏDE, seule.</speaker>
+<sp who="ALMANZAÏDE"><speaker>ALMANZAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="">Ses questions commençaient à m'embarrasser, je ne savais plus que lui répondre. </s>
 	<s id="2">Ces papillons sont venus heureusement la distraire... </s>
@@ -299,8 +303,10 @@
 	<l id="87">Tu viens de faire le malheur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Almanzaïde, Zelmis.</head>
-<sp stage="carry" who="ZELMIS"><speaker>ZELMIS, tenant un papillon.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Almanzaïde, Zelmis.
+</stage>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="carry">, tenant un papillon.
+</stage>
 <p id="1">
 	<s id="1">Maman, j'en ai attrapé un, le voilà ; que ses ailes sont brillantes !</s>
 </p>
@@ -324,7 +330,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ZELMIS"><speaker>ZELMIS, seule.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Comme il s'agite et se débat entre mes doigts ! </s>
 	<s id="2">Sans doute il souffre d'être captif, il regrette sa liberté. </s>
@@ -363,8 +370,10 @@
 <stage type="away/pain">Elle s'enfonce d'un air chagrin dans le bois.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Zelmis, Mirville.</head>
-<sp stage="location/entrance" who="MIRVILLE"><speaker>MIRVILLE, sortant du bois sans voir Zelmis, qui s'est éloignée de façon qu'on la perd presque de vue.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Zelmis, Mirville.
+</stage>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="location/entrance">, sortant du bois sans voir Zelmis, qui s'est éloignée de façon qu'on la perd presque de vue.
+</stage>
 <p id="1">
 	<s id="1">Que je paye cher la curiosité qui m'a fait des cendre dans cette île !</s>
 	<s id="2">Voilà trois jours que j'y suis égaré. </s>
@@ -372,37 +381,43 @@
 	<s id="4">J'ai bien retrouvé l'endroit où s'était arrêté le vaisseau qui me portait, mais ce vaisseau a disparu ; le capitaine, ne me voyant pas revenir, aura continué sa route.</s>
 </p>
 </sp>
-<sp stage="aparte/location" who="ZELMIS"><speaker>ZELMIS, à part, dans l'éloignement, et qui s'est rapprochée un peu.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte/location">, à part, dans l'éloignement, et qui s'est rapprochée un peu.
+</stage>
 <p id="2">
 	<s id="1">Que ces fleurs sont belles ! </s>
 	<s id="2">Je veux en orner mes cheveux.</s>
 </p>
 <stage type="watch">Elle semble se mirer dans un ruisseau en arrangeant les fleurs dans ses cheveux.</stage>
 </sp>
-<sp stage="aparte/pain" who="MIRVILLE"><speaker>MIRVILLE, à part, d'un air de douleur.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte/pain">, à part, d'un air de douleur.
+</stage>
 <p id="3">
 	<s id="1">Ô ma patrie !... </s>
 	<s id="2">En vous fuyant, devais-je m'attendre à vous regretter ? </s>
 	<s id="3">J'ai perdu en peu de mois mon père et ma mère ; peu avantagé de la fortune, le désespoir dans l'âme, je quittai, pour me distraire de ma douleur, des lieux ou je ne pouvais plus vivre.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">J'en paraîtrai plus jolie aux yeux de ma mère, elle m'en aimera davantage.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Les représentations de ma famille n'ont pu arrêter mes pas ; je me crus, après ces coups affreux du sort, isolé dans la nature. </s>
 	<s id="2">Jeune, inconsolable, je m'embarque, je franchis avec intrépidité la vaste étendue des mers : je revenais chargé d'or, lorsqu'une tempête m'a fait aborder dans cette île.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Je ne sais : les fleurs m'intéressent moins que les oiseaux.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Que vais-je devenir, seul, dans cette solitude immense ?</s>
 </p>
@@ -417,7 +432,8 @@
 	<l id="114">Mon vaisseau, par mon imprudence,</l>
 	<l id="115">S'éloigne et fend l'onde sans moi.</l>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Qu'ai-je entendu ?... </s>
 	<s id="2">Quels accents ont frappé mon oreille ? </s>
@@ -426,24 +442,28 @@
 </p>
 <stage type="walk/listen">Elle fait quelques pas en écoutant.</stage>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="9">
 	<s id="1">Plus j'avance dans ce désert, plus je m'égare. </s>
 	<s id="2">Si j'allais y rencontrer quelque bête féroce ; bannissons toute crainte, et mettons-nous en état de nous défendre. </s>
 </p>
 <stage type="watch/estonish/frighten">Comme il amorce son fusil, il aperçoit Zelmis, paraît dans l'admiration, et fait un mouvement de frayeur en entendant du bruit.</stage>
 </sp>
-<sp stage="surpise" who="ZELMIS"><speaker>ZELMIS ayant aperçu Mirville la première, fait un mouvement de surprise.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="surpise"> ayant aperçu Mirville la première, fait un mouvement de surprise.
+</stage>
 <p id="10">
 	<s id="1">Mais, que vois-je ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Ciel !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">La surprise me rend immobile !</s>
 </p>
@@ -464,30 +484,35 @@
 	<s id="2">Quel air de noblesse !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="16">
 	<s id="1">Comme sa voix est touchante ! </s>
 	<s id="2">Elle pénètre mon âme : elle a un charme qui m'attire ; cependant je tremble.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Sa présence m'enivre de plaisir, j'oublie mon vaisseau et tout ce que j'ai perdu.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Mais, si c'était un de ces monstres dont ma mère m'a parlé, je serais perdue... </s>
 	<s id="2">Je voudrais fuir, et je ne le puis.</s>
 </p> 
 <stage type="away">Elle s'éloigne un peu.</stage>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">C'est une jeune sauvage, tâchons de l'apprivoiser.</s>
 </p>
 </sp>
-<sp stage="watch" who="ZELMIS"><speaker>ZELMIS, voyant que Mirville la suit.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="watch">, voyant que Mirville la suit.
+</stage>
 <p id="20">
 	<s id="1">N'approchez pas, n'approchez pas, je vous prie. </s>
 	<s id="2">Qui êtes-vous ?</s>
@@ -499,7 +524,8 @@
 	<s id="2">Un homme enchanté de  vous voir.</s>
 </p>
 </sp>
-<sp stage="frighten" who="ZELMIS"><speaker>ZELMIS, donnant des signes de la plus grande frayeur, et prenant des postures attendrissantes.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="frighten">, donnant des signes de la plus grande frayeur, et prenant des postures attendrissantes.
+</stage>
 <p id="22">
 	<s id="1">Un homme !... </s>
 	<s id="2">Qu'entends-je ? </s>
@@ -512,7 +538,8 @@
 	<s id="2">Mes sens se glacent.</s>
 </p>
 </sp>
-<sp stage="stop" who="MIRVILLE"><speaker>MIRVILLE, en s'arrêtant.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="stop">, en s'arrêtant.
+</stage>
 <p id="24">
 	<s id="1">Pourquoi me défendre d'aller à vous ? </s>
 	<s id="2">D'où vous vient cette frayeur ? </s>
@@ -550,12 +577,14 @@
 	<s id="">Parlez-vous vrai ?</s>
 </p>
 </sp>
-<sp stage="drop/kneel" who="MIRVILLE"><speaker>MIRVILLE, pose son fusil au pied d'un arbre, et se précipite à ses genoux.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="drop/kneel">, pose son fusil au pied d'un arbre, et se précipite à ses genoux.
+</stage>
 <p id="27">
 	<s id="1">Oui, ma chère Zelmis, recevez l'hommage de l'amoureux Mirville, vous voyez à vos pieds l'amant le plus tendre, le plus soumis : bannissez donc entièrement la peur que je vous cause ; ouvrez votre âme timide à des sentiments plus doux ; je suis ébloui de vos charmes, et mon coeur vous adore.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZELMIS"><speaker>ZELMIS, à part.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="28">
 	<s id="1">Ce monstre s'attendrit. </s>
 	<s id="2">Profitons de ce moment pour lui échapper.</s>
@@ -580,7 +609,8 @@
 	<l id="146">Tu renais, ta bouche soupire,</l>
 	<l id="147">Et je vois palpiter ton sein.</l>
 </sp>
-<sp stage="awake/watch/quiet/touch" who="ZELMIS"><speaker>ZELMIS entr'ouvre la paupière, regarde Mirville d'un air mêlé de crainte et de douceur ; elle se rassure par degré, et le caresse.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="awake/watch/quiet/touch"> entrouvre la paupière, regarde Mirville d'un air mêlé de crainte et de douceur ; elle se rassure par degré, et le caresse.
+</stage>
 <p id="29">
 	<s id="1">Où suis-je ? </s>
 	<s id="2">Le monstre ne m'a donc pas mangée ! </s>
@@ -606,7 +636,8 @@
 	<s id="1">Vous êtes le premier.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="33">
 	<s id="1">Que je suis heureux !</s>
 </p>
@@ -616,7 +647,8 @@
 	<s id="1">Ma mère m'a bien dit qu'il en existait ; mais de si méchants, qu'il fallait éviter leur rencontre, parce qu'ils ne pouvaient souffrir notre espèce, et qu'ils la détruisaient.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MIRVILLE"><speaker>MIRVILLE, à part.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="35">
 	<s id="1">J'entrevois ici une ruse.</s>
 </p>
@@ -664,7 +696,8 @@
 	<s id="3">Il me vient une idée, c'est peut-être que vous dévorez vos petits quand ils sont nés.</s>
 </p>
 </sp>
-<sp stage="offended" who="MIRVILLE"><speaker>MIRVILLE, avec vivacité.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="offended">, avec vivacité.
+</stage>
 <p id="34">
 	<s id="1">Nous ne sommes pas si barbares ; votre mère a abusé de votre crédulité. </s>
 	<s id="2">Les hommes ne sont pas tels qu'on vous les a dépeints. </s>
@@ -678,7 +711,8 @@
 	<s id="1">Je ne sais si ce que vous me dites est vrai ; mais mon âme en est transportée, et je sens que je vous aime à présent plus que je ne vous crains.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MIRVILLE"><speaker>MIRVILLE, lui baisant la main. </speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="kiss">, lui baisant la main. 
+</stage>
 <p id="36">
 	<s id="1">Vous m'aimez ! </s>
 	<s id="2">Je me plais à le croire, quel bonheur ! </s>
@@ -692,7 +726,8 @@
 	<s id="3">Il est inintelligible pour moi ; est-ce un mot usité quand on s'aime ?</s>
 </p>
 </sp>
-<sp stage="kiss" who="MIRVILLE"><speaker>MIRVILLE, lui donnant un baiser.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="kiss">, lui donnant un baiser.
+</stage>
 <stage type="closer">Il faut que l'Acteur s'approche avec passion de Zelmis ; prêt à la baiser sur la bouche, il se retient ; et après avoir résisté, il ajoute :</stage>
 <p id="38">
 	<s id="1">Je vais vous l'apprendre, comprenez bien. </s>
@@ -723,7 +758,8 @@
 </sp>
 <sp who="ZELMIS, MIRVILLE"><speaker>ENSEMBLE.</speaker>
 </sp>
-<sp stage="happy" who="MIRVILLE"><speaker>MIRVILLE, enchanté. </speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="happy">, enchanté. 
+	</stage>
 	<l id="153">Si ce serment flatte votre âme,</l>
 	<l id="154">Jurez, jurez à votre tour.</l>
 	<l id="155">Qu'un tendre retour </l>
@@ -750,12 +786,14 @@
 	<l id="167">Ô ciel ! Plutôt me soit-elle ravie</l>
 	<l id="168">Que de cesser de t'aimer tendrement !</l>
 </sp>
-<sp stage="toward" who="ZELMIS"><speaker>ZELMIS, à Mirville, après le Duo.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="toward">, à Mirville, après le Duo.
+</stage>
 <p id="40">
 	<s id="1">Les hommes ne sont pas si dangereux que ma mère le prétend ; apparemment qu'elle n'en a vu que de sauvages, qu'elle n'aura pu apprivoiser : je suis enchantée de pouvoir lui prouver qu'il en existe de bien doux.</s>
 </p>
 </sp>
-<sp stage="location/explicit" who="MIRVILLE"><speaker>MIRVILLE, conduisant Zelmis dans le bois, de manière qu'ils soient toujours vus par les spectateurs.</speaker>
+<sp who="MIRVILLE"><speaker>MIRVILLE</speaker><stage type="location/explicit">, conduisant Zelmis dans le bois, de manière qu'ils soient toujours vus par les spectateurs.
+</stage>
 <p id="41">
 	<s id="1">Viens, ma Zelmis, viens dans ce bois respirer la fraîcheur.</s>
 </p>
@@ -775,7 +813,8 @@
 <stage type="attach">Il l'entoure avec le reste de la guirlande.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII et dernière. Mirville, Zelmis, Almanzaïde.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII et dernière.</head><stage> Mirville, Zelmis, Almanzaïde.
+</stage>
 <sp who="ALMANZAÏDE"><speaker>ALMANZAÏDE.</speaker>
 <p id="1">
 	<s id="1">Voici le déclin du jour, et je n'ai point vu reparaître Zelmis ; elle a passé toute la journée sans revenir, je lui avais apprêté des fruits pour son repas. </s>
@@ -793,12 +832,14 @@
 	<s id="2">Ma fille avec un homme !</s>
 </p>
 </sp>
-<sp who="ZELMIS"><speaker>ZELMIS , se levant et allant à elle.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS </speaker><stage>, se levant et allant à elle.
+</stage>
 <p id="3">
 	<s id="1">Rassurez-vous, ma mère, celui-ci n'est pas méchant.</s>
 </p>
 </sp>
-<sp stage="toward" who="ALMANZAÏDE"><speaker>ALMANZAÏDE, à Mirville.</speaker>
+<sp who="ALMANZAÏDE"><speaker>ALMANZAÏDE</speaker><stage type="toward">, à Mirville.
+</stage>
 <p id="4">
 	<s id="1">Est-ce ainsi, Monsieur, que vous respectez l'innocence ? </s>
 	<s id="2">N'avez-vous traversé les mers que pour venir séduire une enfant, ravir peut-être une fille à sa mère ? </s>
@@ -850,7 +891,8 @@
 	<l id="191">Votre coeur pour nous est si tendre !</l>
 	<l id="192">À nos voeux, daignez donc vous rendre.</l>
 </sp>
-<sp stage="aparte" who="ALMANZAÏDE"><speaker>ALMANZAÏDE, à part.</speaker>
+<sp who="ALMANZAÏDE"><speaker>ALMANZAÏDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Ils m'attendrissent, je ne peux résister à leurs larmes. </s>
 	<s id="2">Puisque je n'ai pu éviter le malheur que je redoutais, tâchons au moins de le réparer.</s>
@@ -917,7 +959,8 @@
 	<l id="207">Un désert devient ma patrie,</l>
 	<l id="208">Quand je l'habite avec l'Amour.</l>
 </sp>
-<sp stage="toward" who="ZELMIS"><speaker>ZELMIS, au Parterre.</speaker>
+<sp who="ZELMIS"><speaker>ZELMIS</speaker><stage type="toward">, au Parterre.
+	</stage>
 	<l id="209">Peut-être on blâme la vertu</l>
 	<l id="210">D'une jeune et simple sauvage,</l>
 	<l id="211">Du premier homme qu'elle a vu,</l>

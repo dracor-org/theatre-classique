@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,25 +28,26 @@
 			<titlePart type="main">LE MARI ABSENT</titlePart>
 			<titlePart type="sub">TREIZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE BAILLY" sex="1" type="H" statut="bailli" age="A" stat_amour='néant'>LE BAILLY</role>.</castItem>
-		<castItem><role id="GROS-JEAN" sex="1" type="H" statut="paysan" age="A" stat_amour='néant'>GROS-JEAN</role>, paysan.</castItem>
-		<castItem><role id="CATHERINE" sex="2" type="H" statut="paysan" age="A" stat_amour='néant'>CATHERINE</role>, femme de Gros-Jean.</castItem>
+		<castItem><role id="LE BAILLY" sex="1" type="H" statut="bailli" age="A" stat_amour="néant">LE BAILLY</role>.</castItem>
+		<castItem><role id="GROS-JEAN" sex="1" type="H" statut="paysan" age="A" stat_amour="néant">GROS-JEAN</role>, paysan.</castItem>
+		<castItem><role id="CATHERINE" sex="2" type="H" statut="paysan" age="A" stat_amour="néant">CATHERINE</role>, femme de Gros-Jean.</castItem>
 	</castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La Scène est sur la place du Village.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est sur la place du Village.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE MARI ABSENT</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Bailli, Catherine pleurant.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Bailli, Catherine pleurant.
+</stage>
 <sp who="CATHERINE"><speaker>CATHERINE.</speaker>
 <p id="1">
 	<s id="1">Oui, Monsieur le Bailli, mon mari arrive aujourd'hui.</s>
@@ -207,7 +208,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Bailli, Gros-Jean.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Bailli, Gros-Jean.
+</stage>
 <sp who="LE BAILLI"><speaker>LE BAILLI.</speaker>
 <p id="1">
 	<s id="1">Hé bien, Gros-Jean, vous voilà donc enfin de retour ?</s>
@@ -420,7 +422,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCENE IV. Le Bailli, Catherine, montrant un enfant qu'elle porte.</head>
+<div2 type="scene" n="4"><head>SCENE IV.</head><stage> Le Bailli, Catherine, montrant un enfant qu'elle porte.
+</stage>
 <sp who="GROS-JEAN"><speaker>GROS-JEAN.</speaker>
 <p id="1">
 	<s id="1">Eh, dis donc, femme, est-ce un fieu ou une fille, que j'ons pour ces cent écus ?</s>
@@ -431,7 +434,8 @@
 	<s id="1">C'est tous les deux, Gros-Jean.</s>
 </p>
 </sp>
-<sp stage="happy" who="GROS-JEAN"><speaker>GROS-JEAN, avec joye.</speaker>
+<sp who="GROS-JEAN"><speaker>GROS-JEAN</speaker><stage type="happy">, avec joye.
+</stage>
 <p id="3">
 	<s id="1">Quoi, j'ons deux enfants ?</s>
 </p>
@@ -456,17 +460,20 @@
 	<s id="1">Voilà une brave femme, Monsieur le Bailli !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE BAILLI"><speaker>LE BAILLI, à Catherine.</speaker>
+<sp who="LE BAILLI"><speaker>LE BAILLI</speaker><stage type="toward">, à Catherine.
+</stage>
 <p id="8">
 	<s id="1">Cela va bien.</s>
 </p>
 </sp>
-<sp stage="toward" who="CATHERINE"><speaker>CATHERINE, au bailli.</speaker>
+<sp who="CATHERINE"><speaker>CATHERINE</speaker><stage type="toward">, au bailli.
+</stage>
 <p id="9">
 	<s id="1">Oh, je vais le rendre encore plus content.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE BAILLI"><speaker>LE BAILLI, à Catherine.</speaker>
+<sp who="LE BAILLI"><speaker>LE BAILLI</speaker><stage type="toward">, à Catherine.
+</stage>
 <p id="10">
 	<s id="1">Prenez garde à ce que vous direz.</s>
 </p>
@@ -496,12 +503,14 @@
 	<s id="1">Hé bien, je suis grosse encore, si je va en avoir aussi deux, cela fera douze cents francs.</s>
 </p>
 </sp>
-<sp stage="happy" who="GROS-JEAN"><speaker>GROS-JEAN, avec joie.</speaker>
+<sp who="GROS-JEAN"><speaker>GROS-JEAN</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="16">
 	<s id="1">Pardi, t'as raison.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE BAILLI"><speaker>LE BAILLI, à part.</speaker>
+<sp who="LE BAILLI"><speaker>LE BAILLI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Cette femme-là me ruinera.</s>
 </p>
@@ -543,7 +552,8 @@
 	<s id="2">Je croyais d'abord de voir te gronder...</s>
 </p>
 </sp>
-<sp stage="toward" who="LE BAILLI"><speaker>LE BAILLI, à Gros-Jean.</speaker>
+<sp who="LE BAILLI"><speaker>LE BAILLI</speaker><stage type="toward">, à Gros-Jean.
+</stage>
 <p id="25">
 	<s id="1">Qu'est-ce que vous allez dire ?</s>
 </p>

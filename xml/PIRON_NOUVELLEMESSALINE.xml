@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -29,14 +29,14 @@
 		<titlePart type="sub">TRAGÉDIE, EN UN ACTE.</titlePart>
 	</docTitle>
 	<docDate value="1772">M. DCC. LII.</docDate>
-		<docAuthor id="PIRON, Alexis" bio='piron'>PAR PYRON, dit PREPUCIUS.</docAuthor>
+		<docAuthor id="PIRON, Alexis" bio="piron">PAR PYRON, dit PREPUCIUS.</docAuthor>
 	<docImprint>
-	<privilege id=""></privilege>
+	<privilege id=""/>
 	<printer id="(fictif)">À ANCONE, Chez CLITORIS, Libraire, rue du Sperme, vis à vis Le Fontaine de la Semence, à la Verge d'Or</printer>
-	<acheveImprime id=""></acheveImprime>
+	<acheveImprime id=""/>
 		</docImprint>
 		<performance>
-			<premiere date="" location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 	<div type="preface"><head>L'AUTEUR AU LECTEUR.</head>
 		<p>On ne pourra pas ici me reprocher d'avoir infecté ma pièce de mots sales et équivoques. J'ai rendu, autant que j'ai pu, le style clair et net ; et je puis assurer que le lecteur, si borné qu'il puisse être, ne trouvera rien au-dessus de la portée de son intelligence.</p>
@@ -46,19 +46,20 @@
 		<p>Quoiqu'on attribue cette pièce à Piron, elle est de Grandval.</p>
 	</div>
 <castList><head>ACTEURS</head>
-	<castItem><role id="COULLANUS" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>COULLANUS</role>, Roi de Fourage.</castItem>
-	<castItem><role id="MESSALINE" sex="2" type="H" statut='prince' age='J' stat_amour='néant'>MESSALINE</role>, fille de Couillanus.</castItem>
-	<castItem><role id="VITUS" sex="1" type="H" statut='prince' age='J' stat_amour='néant'>VITUS</role>, prince et amant de Messaline.</castItem>
-	<castItem><role id="PINE-DE-VILLEPRUNE" sex="1" type="H" statut='prince' age='J' stat_amour='néant'>PINE-DE-VILLEPRUNE</role>, prince et amant de Messaline.</castItem>
-	<castItem><role id="NOMBRILIS" sex="1" type="H" statut='prince' age='J' stat_amour='néant'>NOMBRILIS</role>, prince at amant de Messaline.</castItem>
-	<castItem><role id="CONINE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>CONINE</role>, Suivante de Messaline.</castItem>
-	<castItem><role id="PLUSIEURS GARDES" sex="1" type="H" statut='garde' age='A' stat_amour='néant'>PLUSIEURS GARDES</role>.</castItem>
+	<castItem><role id="COULLANUS" sex="2" type="H" statut="roi" age="A" stat_amour="néant">COULLANUS</role>, Roi de Fourage.</castItem>
+	<castItem><role id="MESSALINE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">MESSALINE</role>, fille de Couillanus.</castItem>
+	<castItem><role id="VITUS" sex="1" type="H" statut="prince" age="J" stat_amour="néant">VITUS</role>, prince et amant de Messaline.</castItem>
+	<castItem><role id="PINE-DE-VILLEPRUNE" sex="1" type="H" statut="prince" age="J" stat_amour="néant">PINE-DE-VILLEPRUNE</role>, prince et amant de Messaline.</castItem>
+	<castItem><role id="NOMBRILIS" sex="1" type="H" statut="prince" age="J" stat_amour="néant">NOMBRILIS</role>, prince at amant de Messaline.</castItem>
+	<castItem><role id="CONINE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">CONINE</role>, Suivante de Messaline.</castItem>
+	<castItem><role id="PLUSIEURS GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="néant">PLUSIEURS GARDES</role>.</castItem>
 </castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris dans l'île de Cythère.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>LA NOUVELLE MESSALINE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Messaline, Conine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Messaline, Conine.
+</stage>
 <sp who="CONINE"><speaker>CONINE.</speaker>
 	<l id="1">Oui, ce rapport, Madame, est fidèle et sincère.</l>
 	<l id="2">Dans une île prochaine on a vu votre père ;</l>
@@ -128,7 +129,8 @@
 	<l id="52">Le fuir et le 	bannir, c'est tout ce que je puis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Vitus, Conine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Vitus, Conine.
+</stage>
 <sp who="VITUS"><speaker>VITUS.</speaker>
 	<l id="53">On m'abhorre, on me fuit ! Ah ! Paillarde princesse !</l>
 	<l id="54">Réserviez-vous ce prix à toute ma tendresse ?</l>
@@ -168,13 +170,15 @@
 	<l id="78">C'est assez vous punir, d'autant que vous voulez</l>
 	<l id="79">Que je vous foute et que je ne veux pas, allez.</l>
 </sp>
-<sp stage="aparte" who="CONINE"><speaker>CONINE, à part.</speaker>
+<sp who="CONINE"><speaker>CONINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="80">Quel mépris ! Eh ! Bien donc, je te ferai connaître</l>
 	<l id="81">Que ton vit me foutra plus de neuf coups peut-être.</l>
 </sp>
 </div2>
 <div2 type="scene" n=""><head>SCÈNE III.</head>
-<sp stage="alone" who="VITUS"><speaker>VITUS, seul.</speaker>
+<sp who="VITUS"><speaker>VITUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="82">Amour c'est à present que je sais ton pouvoir.</l>
 	<l id="83">Tôt ou tard tu nous trompes et tu le fais bien voir.</l>
 	<l id="84">Je n'avais jusqu'ici regardé Messaline</l>
@@ -187,7 +191,8 @@
 	<l id="91">En la rassasiant, de la décourroucer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Vitus, Un Garde.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Vitus, Un Garde.
+</stage>
 <sp who="LE GARDE"><speaker>LE GARDE.</speaker>
 	<l id="92">Messaline, Seigneur, dans sa douleur profonde,</l>
 	<l id="93">Veut que de ce Palais j'écarte tout le monde ;</l>
@@ -198,7 +203,8 @@
 	<l id="95">Et ne lui montre pas un visage odieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE V. Messaline, Pine, Matricius, Nombrilis.</head>
+<div2 type="scene" n=""><head>SCÈNE V.</head><stage> Messaline, Pine, Matricius, Nombrilis.
+</stage>
 <sp who="MESSALINE"><speaker>MESSALINE.</speaker>
 	<l id="96">Venez, fameux héros, et tous trois prenez place ;</l>
 	<l id="97">Je sais tous vos exploits, mais le choix m'embarrasse,</l>
@@ -228,7 +234,8 @@
 <sp who="MESSALINE"><speaker>MESSALINE.</speaker>
 	<l id="115">Celui qui de vous trois le premier bandera.</l>
 </sp>
-<sp stage="together" who="MATRICIUS, PINE, NOMBRILIS"><speaker>MATRICIUS, PINE, NOMBRILIS, ensemble.</speaker>
+<sp who="MATRICIUS, PINE, NOMBRILIS"><speaker>MATRICIUS, PINE, NOMBRILIS</speaker><stage type="together">, ensemble.
+	</stage>
 	<l id="116" syll="6" part="i">Mais nous bandons tous trois.</l>
 </sp>
 <sp who="MESSALINE"><speaker>MESSALINE.</speaker>
@@ -312,7 +319,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="MESSALINE"><speaker>MESSALINE, seule.</speaker>
+<sp who="MESSALINE"><speaker>MESSALINE</speaker><stage type="alone">, seule.
+</stage>
 <note type="C">Parodie du vers 237 du Cid de Corneille (edition 1637) : Ô rage, ô désespoir ! Ô vieillesse ennemie !</note>
 	<l id="152">Orage ! Ô désespoir ! Ô Vénus ennemie !</l>
 	<l id="153">Étais-je réservée à cette ignominie ?</l>
@@ -338,7 +346,8 @@
 	<l id="173">Leur apprenne ce que c'est que rater une femme.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Messaline, Un Garde.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Messaline, Un Garde.
+</stage>
 <sp who="LE GARDE"><speaker>LE GARDE.</speaker>
 	<l id="174">Madame, votre père en ce moment arrive,</l>
 	<l id="175">Le Peuple pour le voir s'empresse sur la rive,</l>
@@ -346,7 +355,8 @@
 	<l id="177">Cachez-lui pour un temps le trouble de vos yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Roi, Messaline.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Roi, Messaline.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="178">Ma fille, qu'il m'est doux, après six ans d'absence,</l>
 	<l id="179">De pouvoir, en ce jour, jouir de ta présence,</l>
@@ -361,14 +371,16 @@
 	<l id="185">Je ne dois désormais songer qu'à me cacher.</l>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="alone" who="LE ROI"><speaker>LE ROI, seul.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="186">Quel est l'étrange accueil qu'elle fait à son père ?</l>
 	<l id="187">Ce départ si subit cache quelque mystère ;</l>
 	<l id="188">Sachons-en le sujet de Conine qui vient,</l>
 	<l id="189">A qui peut s'adresser le billet qu'elle tient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le Roi, Conine.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le Roi, Conine.
+</stage>
 <sp who="CONINE"><speaker>CONINE.</speaker>
 	<l id="190" syll="6" part="i">Seigneur, c'est pour Vitus.</l>
 </sp>
@@ -409,13 +421,15 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="CONINE"><speaker>CONINE, seule.</speaker>
+<sp who="CONINE"><speaker>CONINE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="211">Daigne, Amour, protéger mon amoureux dessein,</l>
 	<l id="212">Fais que Vitus s'abuse, et qu'il me foute enfin ;</l>
 	<l id="213">Le voici qui paraît, s'il pouvait me le mettre !</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Vitus, Conine.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Vitus, Conine.
+</stage>
 <sp who="CONINE"><speaker>CONINE.</speaker>
 	<l id="214">On me charge, Seigneur, de vous rendre une lettre,</l>
 	<l id="215" syll="3" part="i">La voici...</l>
@@ -423,7 +437,8 @@
 <sp who="VITUS"><speaker>VITUS.</speaker>
 	<l id="215" syll="3" part="m">Lisons donc.</l>
 </sp>
-<sp stage="aparte" who="CONINE"><speaker>CONINE, à part.</speaker>
+<sp who="CONINE"><speaker>CONINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="215" syll="6" part="f">Dieu d'amour, fais si bien</l>
 	<l id="216">Que de mon artifice il ne soupçonne rien.</l>
 </sp>
@@ -458,7 +473,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp stage="alone" who="VITUS"><speaker>VITUS, seul.</speaker>
+<sp who="VITUS"><speaker>VITUS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="239">Conine de lorgnait, tu lui fais appétit :</l>
 	<l id="240">Il est vrai, j'aurais dû la jeter sur le lit...</l>
 	<l id="241">Qu'importe, quand j'aurai bien foutu Messaline,</l>
@@ -472,7 +488,8 @@
 	<l id="249">En croirai-je mon coeur ? Est-ce vous, ma princesse ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Vitus, Conine.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Vitus, Conine.
+</stage>
 <sp who="CONINE"><speaker>CONINE.</speaker>
 	<l id="250" syll="6" part="i">C'est moi, mon cher Vitus.</l>
 </sp>
@@ -501,7 +518,8 @@
 	<l id="264">Tu vas savoir un fait beaucoup plus important.</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV ET DERNIÈRE. Vitus, Conine, Deux gardes.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV ET DERNIÈRE.</head><stage> Vitus, Conine, Deux gardes.
+</stage>
 <sp who="LE PREMIER GARDE"><speaker>LE PREMIER GARDE.</speaker>
 	<l id="265" syll="6" part="i">Ah ! Seigneur, écoutez.</l>
 </sp>

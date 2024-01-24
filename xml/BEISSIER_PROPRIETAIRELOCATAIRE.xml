@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -36,12 +36,12 @@
 			<editor>PARIS, LIBRAIRIE THÉÂTRALE, 14 rue Grammont, 14.</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="GUIGNOL" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>GUIGNOL</role>.</castItem>
-		<castItem><role id="LE CONCIERGE" sex="1" type="H" statut="concierge" age="A" stat_amour='néant'>LE CONCIERGE</role>.</castItem>
-		<castItem><role id="MAÎTRE FURET" sex="1" type="H" statut="huissier" age="V" stat_amour='néant'>MAÎTRE FURET</role>.</castItem>
-		<castItem><role id="LE PROPRIÉTAIRE" sex="1" type="H" statut="apothicaire" age="A" stat_amour='néant'>LE PROPRIÉTAIRE</role>.</castItem>
-		<castItem><role id="LE GENDARME" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>LE GENDARME</role>.</castItem>
-		<castItem><role id="LE COMMISSAIRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>LE COMMISSAIRE</role>.</castItem>
+		<castItem><role id="GUIGNOL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GUIGNOL</role>.</castItem>
+		<castItem><role id="LE CONCIERGE" sex="1" type="H" statut="concierge" age="A" stat_amour="néant">LE CONCIERGE</role>.</castItem>
+		<castItem><role id="MAÎTRE FURET" sex="1" type="H" statut="huissier" age="V" stat_amour="néant">MAÎTRE FURET</role>.</castItem>
+		<castItem><role id="LE PROPRIÉTAIRE" sex="1" type="H" statut="apothicaire" age="A" stat_amour="néant">LE PROPRIÉTAIRE</role>.</castItem>
+		<castItem><role id="LE GENDARME" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE GENDARME</role>.</castItem>
+		<castItem><role id="LE COMMISSAIRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE COMMISSAIRE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="">Un salon chez le docteur Cornibus.</set>
 	<note>Fernand BESSIER, "Théâtre de Guignol", Paris, Librairie théâtrale, 1894, pp. 31-55. </note>
@@ -49,7 +49,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. </head>
-<sp who="GUIGNOL"><speaker>GUIGNOL, entrant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, entrant.
+</stage>
 <p id="1">
 	<s id="1">Plus moyen de trouver un sou ! </s>
 	<s id="2">C'est fini. </s>
@@ -90,7 +91,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Concierge, Guignol, puis Maître Furet.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Concierge, Guignol, puis Maître Furet.
+</stage>
 <sp who="GUIGNOL"><speaker>GUIGNOL.</speaker>
 <p id="1">
 	<s id="1">Encore vous !</s>
@@ -154,7 +156,8 @@
 	<s id="2">Parce que, au fond, voyez-vous, moi je ne demande pas mieux que de payer.</s>
 </p>
 </sp>
-<sp stage="furieux" who="LE CONCIERGE"><speaker>LE CONCIERGE, furieux.</speaker>
+<sp who="LE CONCIERGE"><speaker>LE CONCIERGE</speaker><stage type="furieux">, furieux.
+</stage>
 <p id="13">
 	<s id="1">Vous allez payer !</s>
 </p>
@@ -174,7 +177,8 @@
 	<s id="1">Je ne l'ai jamais nié.</s>
 </p>
 </sp>
-<sp stage="anger" who="LE CONCIERGE"><speaker>LE CONCIERGE, en colère.</speaker>
+<sp who="LE CONCIERGE"><speaker>LE CONCIERGE</speaker><stage type="anger">, en colère.
+</stage>
 <p id="17">
 	<s id="1">Ainsi vous ne voulez pas payer !</s>
 </p>
@@ -291,7 +295,8 @@
 	<s id="1">Item : une table, dito..</s>
 </p>
 </sp>
-<sp stage="aparte" who="GUIGNOL"><speaker>GUIGNOL, à part.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="39">
 	<s id="1">Attends, je vais t'en donner de l'item et du dito.</s>
 </p>
@@ -301,7 +306,8 @@
 	<s id="1">Et surtout n'oubliez rien.</s>
 </p>
 </sp>
-<sp stage="write" who="MAÎTRE FURET"><speaker>MAÎTRE FURET, écrivant toujours.</speaker>
+<sp who="MAÎTRE FURET"><speaker>MAÎTRE FURET</speaker><stage type="write">, écrivant toujours.
+</stage>
 <p id="41">
 	<s id="1">Soyez tranquille... </s>
 	<s id="2">Rien ne m'échappe !</s>
@@ -335,7 +341,8 @@
 	<s id="1">J'ai tout noté.</s>
 </p>
 </sp>
-<sp stage="get " who="GUIGNOL"><speaker>GUIGNOL, qui est allé chercher un balai.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="get ">, qui est allé chercher un balai.
+</stage>
 <p id="48">
 	<s id="1">Et ça ! </s>
 </p>
@@ -372,7 +379,8 @@
 	<s id="1">À l'assassin !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, les poursuivant et les frappant toujours.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, les poursuivant et les frappant toujours.
+</stage>
 <p id="54">
 	<s id="1">Voulez-vous bien vous taire ! </s>
 	<s id="2">Vous allez ameuter le quartier.</s>
@@ -406,7 +414,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Propriétaire, Guignol.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Propriétaire, Guignol.
+</stage>
 <stage type="entrance/costume">Le propriétaire entre, en bonnet grec, robe de chambre.</stage>
 <sp who="GUIGNOL"><speaker>GUIGNOL.</speaker>
 <p id="1">
@@ -606,7 +615,8 @@
 	<s id="3">Au secours ! À moi !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, même jeu.
+</stage>
 <p id="34">
 	<s id="1">Mais ne crie donc pas comme ça ! </s>
 	<s id="2">On croirait que je te fais du mal !</s>
@@ -620,7 +630,8 @@
 <stage type="search">Le propriétaire cherche à prendre le bâton ; - il s'empare d'un bout, Guignol de l'autre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Guignol, Le Propriétaire, Le Gendarme.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Guignol, Le Propriétaire, Le Gendarme.
+</stage>
 <sp who="LE GENDARME"><speaker>LE GENDARME.</speaker>
 <stage type="watch">Il passe d'abord doucement la tète et regarde.</stage>
 <p id="1">
@@ -659,7 +670,8 @@
 	<s id="2">Voyons, expliquez-vous sur ce point.</s>
 </p>
 </sp>
-<sp stage="together" who="GUIGNOL, LE PROPRIÉTAIRE"><speaker>GUIGNOL et LE PROPRIÉTAIRE, ensemble.</speaker>
+<sp who="GUIGNOL, LE PROPRIÉTAIRE"><speaker>GUIGNOL et LE PROPRIÉTAIRE</speaker><stage type="together">, ensemble.
+</stage>
 <p id="7">
 	<s id="1">Voilà, c'est monsieur qui, malgré moi, n'a pas voulu sortir d'ici...</s>
 </p>
@@ -686,22 +698,26 @@
 	<s id="1">Voici le fait...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, l'interrompant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, l'interrompant.
+</stage>
 <p id="12">
 	<s id="1">Non, voici...</s>
 </p>
 </sp>
-<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, même jeu.</speaker>
+<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE</speaker><stage>, même jeu.
+</stage>
 <p id="13">
 	<s id="1">Monsieur...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="GUIGNOL"><speaker>GUIGNOL, id.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="interrupt">, id.
+</stage>
 <p id="14">
 	<s id="1">Est venu !</s>
 </p>
 </sp>
-<sp stage="interrupt" who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, id.</speaker>
+<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE</speaker><stage type="interrupt">, id.
+</stage>
 <p id="15">
 	<s id="1">Je suis venu.</s>
 </p>
@@ -825,23 +841,27 @@
 	<s id="1">Ça ne fait rien, je cognerai s'il ne marche pas.</s>
 </p>
 </sp>
-<sp stage="furious" who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, furieux.</speaker>
+<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE</speaker><stage type="furious">, furieux.
+</stage>
 <p id="37">
 	<s id="">Moi, un propriétaire, chez le commissaire I</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, criant.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, criant.
+</stage>
 <p id="38">
 	<s id="1">Tout le monde chez le commissaire. </s>
 	<s id="2">Allons, en route !</s>
 </p>
 </sp>
-<sp stage="hit" who="GUIGNOL"><speaker>GUIGNOL, frappant sur le propriétaire.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hit">, frappant sur le propriétaire.
+</stage>
 <p id="39">
 	<s id="1">Allons, en route ! </s>
 </p>
 </sp>
-<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, appelant.</speaker>
+<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE</speaker><stage>, appelant.
+</stage>
 <p id="40">
 	<s id="1">Gendarme !</s>
 </p>
@@ -861,7 +881,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <stage type="location">Chez le commissaire.</stage>
-<div2 stage="entrance" type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Commissaire et Le Gendarme entrent.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="entrance"> Le Commissaire et Le Gendarme entrent.
+</stage>
 <sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE.</speaker>
 <p id="1">
 	<s id="1">Ainsi, Gendarme, les prisonniers sont là ?</s>
@@ -924,7 +945,8 @@
 <stage type="exit">Le gendarme sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Commissaire, Le Gendarme, Guignol, Le Propriétaire.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Commissaire, Le Gendarme, Guignol, Le Propriétaire.
+</stage>
 <sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -947,7 +969,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, glapissant.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, glapissant.
+</stage>
 <p id="5">
 	<s id="1">Silence !</s>
 </p>
@@ -962,7 +985,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, id.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, id.
+</stage>
 <p id="8">
 	<s id="">Silence !</s>
 </p>
@@ -994,7 +1018,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, glapissant.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, glapissant.
+</stage>
 <p id="14">
 	<s id="1">Silence !</s>
 </p>
@@ -1020,7 +1045,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, id.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, id.
+</stage>
 <p id="19">
 	<s id="1">Silence !</s>
 </p>
@@ -1035,7 +1061,8 @@
 	<s id="1">Votre nom ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="GUIGNOL"><speaker>GUIGNOL, bégayant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hesitate">, bégayant.
+</stage>
 <p id="22">
 	<s id="1">Je... je... ne... ne </s>
 </p>
@@ -1078,7 +1105,8 @@
 	<s id="1">Il a fait le coucou.</s>
 </p>
 </sp>
-<sp stage="wave" who="GUIGNOL"><speaker>GUIGNOL, fait signe que non.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="wave">, fait signe que non.
+</stage>
 <p id="31">
 	<s id="1">Non.</s>
 </p>
@@ -1089,7 +1117,8 @@
 	<s id="2">Ce garçon-là est idiot...</s>
 </p>
 </sp>
-<sp stage="hesitate" who="GUIGNOL"><speaker>GUIGNOL, bégayant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hesitate">, bégayant.
+</stage>
 <p id="33">
 	<s id="1">Oui... oui... oui...</s>
 </p>
@@ -1111,12 +1140,14 @@
 	<s id="1">Qui tapait ?</s>
 </p>
 </sp>
-<sp stage="show" who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, désignant Guignol.</speaker>
+<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE</speaker><stage type="show">, désignant Guignol.
+</stage>
 <p id="37">
 	<s id="1">Lui...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, désignant le propriétaire.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, désignant le propriétaire.
+</stage>
 <p id="38">
 	<s id="1">Lui... </s>
 </p>
@@ -1125,7 +1156,8 @@
 	<s id="1">Aïe !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, au propriétaire.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="toward">, au propriétaire.
+</stage>
 <p id="40">
 	<s id="1">C'est donc vous ?</s>
 </p>
@@ -1151,7 +1183,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="shout" who="LE GENDARME"><speaker>LE GENDARME, glapissant.</speaker>
+<sp who="LE GENDARME"><speaker>LE GENDARME</speaker><stage type="shout">, glapissant.
+</stage>
 <p id="45">
 	<s id="1">Silence !</s>
 </p>
@@ -1196,7 +1229,8 @@
 	<s id="1">Ça vous fait donc bien mal ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="GUIGNOL"><speaker>GUIGNOL, bégayant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hesitate">, bégayant.
+</stage>
 <p id="54">
 	<s id="1">Oui... oui... oui... </s>
 </p>
@@ -1313,7 +1347,8 @@
 	<s id="1">N'insultez pas votre victime !</s>
 </p>
 </sp>
-<sp stage="shout" who="GUIGNOL"><speaker>GUIGNOL, criant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="shout">, criant.
+</stage>
 <p id="75">
 	<s id="1">Aïe !</s>
 </p>
@@ -1334,20 +1369,23 @@
 	<s id="1">Quoi ?</s>
 </p>
 </sp>
-<sp stage="shout" who="GUIGNOL"><speaker>GUIGNOL, criant très fort.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="shout">, criant très fort.
+</stage>
 <p id="79">
 	<s id="1">Aïe !... </s>
 	<s id="2">Là, là, là ! </s>
 	<s id="3">Aïe !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, au propriétaire.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="toward">, au propriétaire.
+</stage>
 <p id="80">
 	<s id="1">Vous, si vous recommencez, je double la dose. </s>
 	<s id="2">En prison, et jusqu'à la guérison de ce pauvre malheureux.</s>
 </p>
 </sp>
-<sp stage="toward" who="GUIGNOL"><speaker>GUIGNOL, au propriétaire.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="toward">, au propriétaire.
+</stage>
 <p id="81">
 	<s id="1">Eh bien !</s>
 </p>
@@ -1360,7 +1398,8 @@
 	<s id="4">Mais dis vite que tu es guéri.</s>
 </p>
 </sp>
-<sp stage="low" who="GUIGNOL"><speaker>GUIGNOL, bas.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="low">, bas.
+</stage>
 <p id="83">
 	<s id="1">Merci. </s>
 </p>
@@ -1395,7 +1434,8 @@
 	<s id="1">Vous n'irez pas en prison, mais vous paierez l'amende tout de même.</s>
 </p>
 </sp>
-<sp stage="toward" who="GUIGNOL"><speaker>GUIGNOL, au propriétaire.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="toward">, au propriétaire.
+</stage>
 <p id="90">
 	<s id="1">Moralité : il ne faut jamais tracasser son locataire.</s>
 </p>
@@ -1403,7 +1443,8 @@
 <sp who="LE GENDARME"><speaker>LE GENDARME.</speaker>
 	<l id="1">Lirelonlaire !</l>
 </sp>
-<sp stage="hit" who="GUIGNOL"><speaker>GUIGNOL, lui donnant un coup de baton sur la tête.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hit">, lui donnant un coup de baton sur la tête.
+	</stage>
 	<l id="2">Salue donc mieux que ça.</l>
 	<l id="3">Lireloula !</l>
 <stage type="toward">Au public.</stage>

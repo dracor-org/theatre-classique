@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,30 +29,32 @@
 			<titlePart type="main">VINGT MINUTES D'ARRÊT... BUFFET</titlePart>
 			<titlePart type="sub">Comédie en un acte et en prose.</titlePart>
 		</docTitle> 
-		<docDate value='1884'>1884</docDate>
+		<docDate value="1884">1884</docDate>
 		<docAuthor id="CARRANCE, Évariste">Évariste CARRANCE</docAuthor>
 		<docImprint>
 			<editor id="MASSON">AGEN, LIBRAIRIE DU COMITÉ POÉTIQUE ET DE LA REVUE FRANÇAISE, 6, rue du saumon, 8</editor>
 			<printer id="LENTHERIC">AGEN, V. LENTHERIC, Juin 1890.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="GONTRAN DE MELVIL" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>GONTRAN DE MELVIL</role>.</castItem>
-			<castItem><role id="LE COMTE DE MAILLY" sex="1" type="H" statut="comte" age='A' stat_amour='néant'>LE COMTE DE MAILLY.</role></castItem>
-			<castItem><role id="MADAME DE MORA" sex="2" type="H" statut="comte" age='A' stat_amour='néant'>MADAME DE MORA</role>.</castItem>
-			<castItem><role id="BLANCHE DE MAILLY" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>BLANCHE DE MAILLY</role>.</castItem>
-			<castItem><role id="PIERRE" sex="1" type="H" statut="garçon de café" age='A' stat_amour='néant'>PIERRE</role>, Garçon de Buffet.</castItem>
-			<castItem><role id="JOSEPH" sex="1" type="H" statut="garçon de café" age='A' stat_amour='néant'>JOSEPH</role>, Garçon de Buffet;</castItem>
-			<castItem><role id="UN EMPLOYÉ" sex="1" type="H" statut="employé" age='A' stat_amour='néant'>UN EMPLOYÉ</role>.</castItem>
+			<castItem><role id="GONTRAN DE MELVIL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">GONTRAN DE MELVIL</role>.</castItem>
+			<castItem><role id="LE COMTE DE MAILLY" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE DE MAILLY.</role></castItem>
+			<castItem><role id="MADAME DE MORA" sex="2" type="H" statut="comte" age="A" stat_amour="néant">MADAME DE MORA</role>.</castItem>
+			<castItem><role id="BLANCHE DE MAILLY" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">BLANCHE DE MAILLY</role>.</castItem>
+			<castItem><role id="PIERRE" sex="1" type="H" statut="garçon de café" age="A" stat_amour="néant">PIERRE</role>, Garçon de Buffet.</castItem>
+			<castItem><role id="JOSEPH" sex="1" type="H" statut="garçon de café" age="A" stat_amour="néant">JOSEPH</role>, Garçon de Buffet;</castItem>
+			<castItem><role id="UN EMPLOYÉ" sex="1" type="H" statut="employé" age="A" stat_amour="néant">UN EMPLOYÉ</role>.</castItem>
 	</castList>
 	<set location="Colombes-les-Amours" country="France" periode="XIXème" gps="">La scène se passe à Colombes-les-Amours.</set>
 	<note>Texte extrait de "Théâtre complet de Évariste Carrance".- Agen : Librairie du comité poétique et de la revue française. pp 119-166.</note>
 </front>
 <body>
-<div1 type="acte" n="1"><head>VINGT MINUTES D'ARRÊT... BUFFET</head>
+<div1 type="acte" n="1"><head>VINGT MINUTES D'ARRÊT.</head><stage>.. BUFFET
+</stage>
 <stage type="decor/furniture">Le théâtre représente un buffet de chemin de fer. Salle de restaurant très vaste - Table d'hôte au milieu - A droite et à gauche, de petites tables pour les services particuliers. Un comptoir surchargé de provisions de toute nature occupe le côté droit de la salle : au-dessus du comptoir, une pendule - oeil de boeuf - marque huit heures. À gauche, une porte donnant sur les salles d'attente de la
 gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la scène, une grande porte s'ouvrant sur la voie de fer. </stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="work/alone" who="PIERRE"><speaker>PIERRE, plaçant des assiettes sur la table d'hôte.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="work/alone">, plaçant des assiettes sur la table d'hôte.
+</stage>
 <p id="1">
 	<s id="1">Avoir commencé sa carrière chez Son_Excellence Monsieur_le_Comte_de_Mailly et la terminer dans un buffet_de_chemin_de_fer !</s>
 </p>
@@ -88,13 +90,15 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 stage="entrance/carry" type="scene" n="2"><head>SCÈNE II. Le même, plus Joseph qui apparaît chargé de bouteilles.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="entrance/carry"> Le même, plus Joseph qui apparaît chargé de bouteilles.
+</stage>
 <sp who="JOSEPH"><speaker>JOSEPH.</speaker>
 <p id="1">
 	<s id="1">L'express...</s>
 </p>
 </sp>
-<sp stage="open" who="PIERRE"><speaker>PIERRE, il ouvre les portes donnant sur la voie,tandis que Joseph dépose les bouteilles sur les tables.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="open">, il ouvre les portes donnant sur la voie,tandis que Joseph dépose les bouteilles sur les tables.
+</stage>
 <p id="2">
 	<s id="1">Cinq minutes en retard... </s>
 	<s id="2">Si cela ne fait pas pitié !</s>
@@ -109,7 +113,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Va toujours, mon brave, cela ne fait ni froid ni chaud.</s>
 </p>
 </sp>
-<sp stage="location" who="JOSEPH"><speaker>JOSEPH, sur la porte.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="location">, sur la porte.
+</stage>
 <p id="5">
 	<s id="1">Par ici, messieurs les voyageurs, buffet, buvette, table d'hôte !</s>
 </p>
@@ -144,14 +149,16 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Et tu fais bien, car autrement...</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSEPH"><speaker>JOSEPH, parlant à un voyageur.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="toward">, parlant à un voyageur.
+</stage>
 <p id="12">
 	<s id="1">Par ici, monsieur. </s>
 </p>
 <stage type="get">Il s'empare de la valise et de la couverture du voyageur.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, plus Gontran de Melvil et Blanche de Mailly.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, plus Gontran de Melvil et Blanche de Mailly.
+</stage>
 <stage type="entrance">Gontran et Blanche entrent en jetant à droite et
 à gauche des regards investigateurs).</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
@@ -164,7 +171,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Servez-nous du café seulement et laissez-nous.</s>
 </p>
 </sp>
-<sp stage="shout" who="PIERRE"><speaker>PIERRE, criant.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="shout">, criant.
+</stage>
 <p id="3">
 	<s id="1">Versez ! </s>
 </p>
@@ -177,7 +185,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 <stage type="carry/toward">Joseph apporte le café aux deux voyageurs.</stage>
 </sp>
-<sp stage="toward" who="BLANCHE"><speaker>BLANCHE, à Gontran.</speaker>
+<sp who="BLANCHE"><speaker>BLANCHE</speaker><stage type="toward">, à Gontran.
+</stage>
 <p id="5">
 	<s id="1">Mon ami, il me semble que tout le monde me regarde.</s>
 </p>
@@ -189,7 +198,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 <stage type="sit">Ils s'installent devant une petite table de marbre.</stage>
 </sp>
-<sp stage="aparte" who="PIERRE"><speaker>PIERRE, à part.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Personne ! </s>
 	<s id="2">Excusez, Monseigneur. </s>
@@ -276,7 +286,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="4">Je vous aime de toute mon âme, mais je le respecte de tout mon coeur, et je ne réponds à ses bienfaits que par la plus affreuse des ingratitudes.</s>
 </p>
 </sp>
-<sp who="GONTRAN"><speaker>GONTRAN, il lui prend la main.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage>, il lui prend la main.
+</stage>
 <p id="21">
 	<s id="1">À mon retour de la terre africaine, où j'ai laissé un peu de mon sang, je vous ai rencontrée dans les salons de Bordeaux. </s>
 	<s id="2">Vous voir, c'était vous aimer, Blanche, et j'ai obéi à ma destinée. </s>
@@ -303,7 +314,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Gontran, il me semble que nous n'y arriverons jamais, que le malheur plane sur nos têtes, et que la faute que nous commettons va recevoir un affreux châtiment.</s>
 </p>
 </sp>
-<sp stage="drink" who="GONTRAN"><speaker>GONTRAN, il porte la tasse à café à ses lèvres.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="drink">, il porte la tasse à café à ses lèvres.
+</stage>
 <p id="25">
 	<s id="1">Garçon ! </s>
 	<s id="2">Ce café est détestable.</s>
@@ -338,13 +350,15 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">C'est peut-être un inspecteur en bonne fortune ; ils vous tombent dessus sans crier gare.</s>
 </p>
 </sp>
-<sp stage="toward" who="GONTRAN"><speaker>GONTRAN, à Blanche.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="toward">, à Blanche.
+</stage>
 <p id="32">
 	<s id="1">Vous avez de bien singulières idées, ma chère Blanche ; il me semble que nul ne serait à cette heure assez puissant pour nous séparer, et que l'amour qui nous a permis de vaincre tous les obstacles est assez fort pour nous mettre à l'abri des puériles craintes qui vous agitent.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, plus un Surveillant.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, plus un Surveillant.
+</stage>
 <stage type="entrance">Le surveillant, armé d'une sonnette apparaît à l'entrée du buffet ; fait retentir deux fois la clochette qu'il tient à la main droite et soulève sa casquette de la main gauche.</stage>
 <sp who="LE SURVEILLANT"><speaker>LE SURVEILLANT.</speaker>
 <p id="1">
@@ -354,7 +368,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, moins le Surveillant.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, moins le Surveillant.
+</stage>
 <sp who="BLANCHE"><speaker>BLANCHE.</speaker>
 <p id="1">
 	<s id="1">Je voudrais vous croire, Gontran, mais je songe à mon père et je devine son désespoir ! </s>
@@ -383,13 +398,15 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">L'omnibus de Paris.</s>
 </p>
 </sp>
-<sp who="UN EMPLOYÉ"><speaker>UN EMPLOYÉ, sur le trottoir de la gare.</speaker>
+<sp who="UN EMPLOYÉ"><speaker>UN EMPLOYÉ</speaker><stage>, sur le trottoir de la gare.
+</stage>
 <p id="5">
 	<s id="1">Colombe-les-Amours ! </s>
 	<s id="2">Vingt_minutes d'arrêt ; Buffet, tout le monde change de voiture.</s>
 </p>
 </sp>
-<sp stage="location" who="JOSEPH"><speaker>JOSEPH, sur la porte.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="location">, sur la porte.
+</stage>
 <p id="6">
 	<s id="1">Par ici, messieurs ! </s>
 	<s id="2">Buffet, buvette, table_d_hôte !</s>
@@ -410,9 +427,11 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, plus Madame de Mora.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, plus Madame de Mora.
+</stage>
 <stage type="entrance/costume/carry/away/hide">Madame de Mora, enveloppée dans une vaste pelisse, portant un carton à chapeau, un sac de nuit et une chaufferette, pénètre dans la salle du buffet. Gontran et Blanche se reculent et observent.</stage>
-<sp stage="get/furniture" who="JOSEPH"><speaker>JOSEPH, s'emparant des bagages de Madame de Mora.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="get/furniture">, s'emparant des bagages de Madame de Mora.
+</stage>
 <p id="1">
 	<s id="1">Madame veut-elle déjeuner ou faire une légère collation ? </s>
 	<s id="2">Nous pouvons offrir à madame du café à la crème, du chocolat, du potage. Madame n'a qu'à choisir.</s>
@@ -435,7 +454,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Mais cela ne vous intéresserait pas, mon ami, et je préfère vous laisser à vos occupations.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JOSEPH"><speaker>JOSEPH, à part.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Pierre a quelquefois raison, il y a des gens bien singuliers.</s>
 </p> 
@@ -444,7 +464,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Nous avons du café à la crème, du chocolat, du potage.</s>
 </p>
 </sp>
-<sp stage="smile" who="MADAME DE MORA"><speaker>MADAME DE MORA, souriant.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="smile">, souriant.
+</stage>
 <p id="6">
 	<s id="1">Vous m'avez dit tout cela, garçon. </s>
 	<s id="2">Apportez-moi un potage, une aile de poulet et un doigt de Bordeaux. </s>
@@ -452,7 +473,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 <stage type="exit">Joseph sort.</stage>
 </sp>
-<sp stage="aparte" who="GONTRAN"><speaker>GONTRAN, à part.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Madame_de_Mora ! </s>
 	<s id="2">Ah ! </s>
@@ -493,7 +515,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 <stage type="stand">Blanche se lève ; Gontran l'accompagne à l'entrée de la porte qui s'ouvre à gauche, puis se dirige lentement vers Madame de Mora. Il s'arrête à quelques pas derrière elle.</stage>
 </sp>
-<sp stage="get/eat" who="MADAME DE MORA"><speaker>MADAME DE MORA, prenant son potage.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="get/eat">, prenant son potage.
+</stage>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Tout est bien changé depuis cinquante ans... </s>
@@ -519,12 +542,14 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Ne perds pas une minute. DE_MELVIL. »</s>
 </p>
 </sp>
-<sp stage="aparte" who="GONTRAN"><speaker>GONTRAN, à part.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="16">
 	<s id="">Bon, j'étais sûr d'apprendre du nouveau ; la tante de Mora est une véritable gazette.</s>
 </p>
 </sp>
-<sp stage="give" who="MADAME DE MORA"><speaker>MADAME DE MORA, tendant son assiette vide, dont Gontran la débarrasse.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="give">, tendant son assiette vide, dont Gontran la débarrasse.
+</stage>
 <p id="17">
 	<s id="1">Avec les chemins de fer et les télégraphes, vous comprenez bien qu'il n'y a plus de repos sur la terre : plus de déjeuners paisibles, plus de café dégusté doucement, plus de sieste !... </s>
 	<s id="2">Il m'a fallu partir comme un ouragan...</s>
@@ -535,12 +560,14 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Garçon, mon aile de volaille ?</s>
 </p>
 </sp>
-<sp who="GONTRAN"><speaker>GONTRAN, faisant signe à Pierre de ne pas bouger et apparaissant brusquement devant Madame de Mora.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage>, faisant signe à Pierre de ne pas bouger et apparaissant brusquement devant Madame de Mora.
+</stage>
 <p id="19">
 	<s id="1">Vous êtes donc bien pressée, ma tante ?</s>
 </p>
 </sp>
-<sp who="MADAME DE MORA"><speaker>MADAME DE MORA, poussant un cri.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage>, poussant un cri.
+</stage>
 <p id="20">
 	<s id="1">Hein !... </s>
 	<s id="2">Plaît-il ?... </s>
@@ -553,7 +580,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Par exemple, mon cher Gontran, je suis bien heureuse de te voir.</s>
 </p>
 </sp>
-<sp stage="kiss" who="GONTRAN"><speaker>GONTRAN, l'embrassant.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="22">
 	<s id="1">Et moi, ma tante, je ne puis vous exprimer le bonheur que j'éprouve en vous embrassant... </s>
 	<s id="2">Qui donc ne vous aimerait pas ? </s>
@@ -697,7 +725,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Répondez toujours.</s>
 </p>
 </sp>
-<sp stage="watch" who="MADAME DE MORA"><speaker>MADAME DE MORA, levant les yeux vers le ciel.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="watch">, levant les yeux vers le ciel.
+</stage>
 <p id="47">
 	<s id="1">Oui, mon ami, j'ai aimé, beaucoup aimé...</s>
 </p>
@@ -707,7 +736,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">D'amour !...</s>
 </p>
 </sp>
-<sp stage="sigh" who="MADAME DE MORA"><speaker>MADAME DE MORA, soupirant.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="sigh">, soupirant.
+</stage>
 <p id="49">
 	<s id="1">Oui, d'amour.</s>
 </p>
@@ -807,7 +837,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Quelle faute as-tu donc commise pour parler ainsi ?</s>
 </p>
 </sp>
-<sp stage="wave" who="GONTRAN"><speaker>GONTRAN, baissant la tête.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="wave">, baissant la tête.
+</stage>
 <p id="66">
 	<s id="1">J'ai fait comme Monsieur_de_Mora.</s>
 </p>
@@ -826,7 +857,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="5">Si votre coeur lui manque, il ne lui reste plus qu'à mourir.</s>
 </p>
 </sp>
-<sp who="MADAME DE MORA"><speaker>MADAME DE MORA, très agitée.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage>, très agitée.
+</stage>
 <p id="69">
 	<s id="1">Le télégraphe et le chemin_de_fer ne suffisaient pas... </s>
 	<s id="2">Gontran, vous n'êtes qu'un étourdi... qu'un extravagant... plus que cela...</s>
@@ -855,7 +887,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Pierre, Joseph.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Pierre, Joseph.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, ce sont là de singuliers clients... </s>
@@ -880,14 +913,16 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="3">Buffet !</s>
 </p>
 </sp>
-<sp who="JOSEPH"><speaker>JOSEPH, sur le seuil de la porte.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage>, sur le seuil de la porte.
+</stage>
 <p id="4">
 	<s id="1">Par ici, messieurs les voyageurs ! </s>
 	<s id="2">Buffet, buvette, table d'hôte !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Joseph, Pierre, Le Comte de Mailly.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Joseph, Pierre, Le Comte de Mailly.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <stage type="drop/get">Il laisse tomber sa couverture de voyage dont s'empare Joseph.</stage>
 <p id="1">
@@ -904,7 +939,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Merci.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PIERRE"><speaker>PIERRE, à part.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Est-ce possible ?... C'est Son_Excellence Monsieur_le_Comte_de_Mailly que j'ai l'honneur de revoir...</s>
 </p>
@@ -914,7 +950,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Que faut-il servir à Monsieur ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, à Pierre.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, à Pierre.
+</stage>
 <p id="6">
 	<s id="1">Un renseignement, s'il vous plaît, mon ami.</s>
 </p>
@@ -983,7 +1020,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p> 
 <stage type="sit/dream">Il s'assied et rêve.</stage>
 </sp>
-<sp who="PIERRE"><speaker>PIERRE, doucement.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage>, doucement.
+</stage>
 <p id="19">
 	<s id="1">Monsieur_le_Comte est peut-être souffrant ?</s>
 </p>
@@ -994,7 +1032,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Je n'ai rien et n'ai besoin de rien...</s>
 </p>
 </sp>
-<sp who="PIERRE"><speaker>PIERRE, à part.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage>, à part.
+</stage>
 <p id="21">
 	<s id="">Comme il est changé !</s>
 </p>
@@ -1028,7 +1067,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 <stage type="sit/wave">Il s'assied et appuie sa tête dans ses mains.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, plus Le Surveillant.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, plus Le Surveillant.
+</stage>
 <sp who="LE SURVEILLANT"><speaker>LE SURVEILLANT.</speaker>
 <stage type="ring">Il agite deux fois sa sonnette.</stage>
 <p id="1">
@@ -1036,7 +1076,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, moins Le Surveillant.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, moins Le Surveillant.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <stage type="break">Il froisse un papier dans sa main.</stage>
 <p id="1">
@@ -1077,7 +1118,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="4">Monsieur_le_Comte serait-il mécontent ?</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, honteux, relevant la tête.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, honteux, relevant la tête.
+</stage>
 <p id="6">
 	<s id="1">Pardonnez-moi mon garçon, c'est une maladresse dont je me suis rendu coupable... </s>
 	<s id="2">Tenez !</s>
@@ -1095,8 +1137,10 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 <stage type="exit">Le comte sort du buffet par la grande porte s'ouvrant sur la voie de fer.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Madame de Mora, Gontran, Blanche, Pierre, Joseph.</head>
-<sp stage="touch" who="MADAME DE MORA"><speaker>MADAME DE MORA, donnant le bras à Blanche et à Gontran.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Madame de Mora, Gontran, Blanche, Pierre, Joseph.
+</stage>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="touch">, donnant le bras à Blanche et à Gontran.
+</stage>
 <p id="1">
 	<s id="1">Par exemple, mes enfants, vous allez me permettre de manger mon aile_de_poulet et de boire un doigt de bordeaux... </s>
 	<s id="2">Vous comprenez que j'ai besoin de réconforter mes soixante-dix ans.</s>
@@ -1235,8 +1279,10 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, plus Le Surveillant.</head>
-<sp who="LE SURVEILLANT"><speaker>LE SURVEILLANT, après avoir agité sa sonnette.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les mêmes, plus Le Surveillant.
+</stage>
+<sp who="LE SURVEILLANT"><speaker>LE SURVEILLANT</speaker><stage>, après avoir agité sa sonnette.
+</stage>
 <p id="1">
 	<s id="1">Le train pour la ligne de Paris partira dans trois minutes ! </s>
 	<s id="2">Ligne de Paris seulement !...</s>
@@ -1244,14 +1290,16 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Les mêmes, moins Le Surveillant.</head> 
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Les mêmes, moins Le Surveillant. 
+</stage> 
 <sp who="MADAME DE MORA"><speaker>MADAME DE MORA.</speaker>
 <p id="1">
 	<s id="1">C'est le train que vous allez prendre, Gontran... </s>
 	<s id="2">Blanche et moi nous prendrons, dans quelques instants, celui de Bordeaux.</s>
 </p>
 </sp>
-<sp stage="toward" who="GONTRAN"><speaker>GONTRAN, à Blanche.</speaker>
+<sp who="GONTRAN"><speaker>GONTRAN</speaker><stage type="toward">, à Blanche.
+</stage>
 <p id="2">
 	<s id="">Vous consentez, Blanche ?</s>
 </p>
@@ -1285,20 +1333,23 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les mêmes, plus Le Comte de Mailly, qui rentre.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les mêmes, plus Le Comte de Mailly, qui rentre.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Elle n'est pas partie pour Paris ?</s>
 </p>
 </sp>
-<sp stage="cry/away" who="BLANCHE"><speaker>BLANCHE, éplorée et se reculant vivement.</speaker>
+<sp who="BLANCHE"><speaker>BLANCHE</speaker><stage type="cry/away">, éplorée et se reculant vivement.
+</stage>
 <p id="2">
 	<s id="1">Mon père ! </s>
 	<s id="2">Ah ! </s>
 	<s id="3">Mon père !</s>
 </p>
 </sp>
-<sp stage="touch/stress" who="LE COMTE"><speaker>LE COMTE, portant la main à son coeur et d'une voix étranglée.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="touch/stress">, portant la main à son coeur et d'une voix étranglée.
+</stage>
 <p id="3">
 	<s id="1">C'est vous que je retrouve ici, Blanche !... </s>
 	<s id="2">Mademoiselle ! </s>
@@ -1307,7 +1358,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 <stage type="fall">Il se laisse tomber sur une chaise.</stage>
 </sp>
-<sp stage="kneel" who="BLANCHE"><speaker>BLANCHE, à genoux.</speaker>
+<sp who="BLANCHE"><speaker>BLANCHE</speaker><stage type="kneel">, à genoux.
+</stage>
 <p id="4">
 	<s id="1">Mon père, de grâce, pardonnez-moi ! </s>
 	<s id="2">J'étais folle, et je reviens à vous repentante !</s>
@@ -1338,7 +1390,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="">Rassurez-vous, Blanche vous avez retrouvé votre père et le bonheur.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, à Madame de Mora.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, à Madame de Mora.
+</stage>
 <p id="10">
 	<s id="1">Je ne vous connais pas.</s>
 </p>
@@ -1367,12 +1420,14 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="2">Mon fils aurait couru un danger de mort ?</s>
 </p>
 </sp>
-<sp stage="touch" who="MADAME DE MORA"><speaker>MADAME DE MORA, prenant Gontran par la main.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="touch">, prenant Gontran par la main.
+</stage>
 <p id="16">
 	<s id="1">Vous avez, monsieur le comte, une grande faute à punir, un grand mérite à récompenser.</s>
 </p>
 </sp>
-<sp who="BLANCHE"><speaker>BLANCHE, toujours à genoux.</speaker>
+<sp who="BLANCHE"><speaker>BLANCHE</speaker><stage>, toujours à genoux.
+</stage>
 <p id="17">
 	<s id="1">Oh ! </s>
 	<s id="2">Mon père ! </s>
@@ -1384,14 +1439,16 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Relevez-vous, ma fille, j'ai besoin d'écouter les explications de Madame_de_Mora.</s>
 </p>
 </sp>
-<sp stage="show" who="MADAME DE MORA"><speaker>MADAME DE MORA, présentant Gontran.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage type="show">, présentant Gontran.
+</stage>
 <p id="19">
 	<s id="1">Voici le coupable et le héros. </s>
 	<s id="2">La faute vous la connaissez. </s>
 	<s id="3">Ces enfants ont oublié la haine de leurs pères ; ils ont commis le crime de s'aimer, et vous les condamnerez à mort en les séparant.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, à Gontran.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, à Gontran.
+</stage>
 <p id="20">
 	<s id="1">Vous me rendrez raison de l'outrage que vous faites subir à mon nom, monsieur le Capitaine_de_spahis. </s>
 	<s id="2">J'ai été soldat comme vous, et je n'ai jamais déshonoré mes épaulettes.</s>
@@ -1479,20 +1536,24 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Les mêmes, plus Le Surveillant.</head>
-<sp stage="ring" who="LE SURVEILLANT"><speaker>LE SURVEILLANT, agitant sa clochette.</speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Les mêmes, plus Le Surveillant.
+</stage>
+<sp who="LE SURVEILLANT"><speaker>LE SURVEILLANT</speaker><stage type="ring">, agitant sa clochette.
+</stage>
 <p id="1">
 	<s id="1">Messieurs les voyageurs pour la ligne de Bordeaux, en voiture ! </s>
 	<s id="3">Le train va partir.</s>
 </p>
 </sp>
-<sp stage="closer/touch" who="LE COMTE"><speaker>LE COMTE, offrant son bras à Madame de Mora.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="closer/touch">, offrant son bras à Madame de Mora.
+</stage>
 <p id="2">
 	<s id="1">Gontran, offrez le bras à votre fiancée.</s>
 </p>
 <stage type="touch">Gontran obéit.</stage>
 </sp>
-<sp who="PIERRE"><speaker>PIERRE, à Monsieur de Mailly.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage>, à Monsieur de Mailly.
+</stage>
 <p id="3">
 	<s id="1">Si Monsieur_le_Comte avait conservé de mes services un bon souvenir... et s'il daignait me reprendre ?...</s>
 </p>
@@ -1502,13 +1563,15 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Vous êtes donc malheureux ici, Pierre ?</s>
 </p>
 </sp>
-<sp who="MADAME DE MORA"><speaker>MADAME DE MORA, avec intérêt.</speaker>
+<sp who="MADAME DE MORA"><speaker>MADAME DE MORA</speaker><stage>, avec intérêt.
+</stage>
 <p id="3">
 	<s id="1">Dame!... </s>
 	<s id="2">Dans un buffet_de_chemin_de_fer...</s>
 </p>
 </sp>
-<sp stage="wave" who="PIERRE"><speaker>PIERRE, baissant la tête.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="wave">, baissant la tête.
+</stage>
 <p id="4">
 	<s id="1">Hélas !</s>
 </p>
@@ -1518,7 +1581,8 @@ gare. Issue à droite, près du comptoir, conduisant à l'office. En face de la 
 	<s id="1">Eh bien, venez avec nous, mon ami ; depuis six_ans, la maison n'a guère changé, et vous retrouverez votre ancien emploi.</s>
 </p>
 </sp>
-<sp stage="get" who="PIERRE"><speaker>PIERRE, s'emparant des cartons, des pardessus, etc.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="get">, s'emparant des cartons, des pardessus, etc.
+</stage>
 <p id="6">
 	<s id="1">Ah ! </s>
 	<s id="2">Quel poids de moins sur le coeur !</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>mixte</type>
 				<periode>1761-1770</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -36,13 +36,13 @@
 		<editor id="">À AMSTERDAM, Et se trouve à PARIS, Chez les Libraires qui vendent les Nouveautés.</editor>
 	</docImprint>
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age='J' stat_amour="">ISABELLE</role>, sous l'habit d'Arlequin.</castItem>
-		<castItem><role id="ÉRASTE" sex="1" type="H" statut="bourgeois" age='J' stat_amour="Isabelle">ÉRASTE</role>, amant d'Isabelle.</castItem>
-		<castItem><role id="ÉLÉONORE" sex="2" type="H" statut="bourgeois" age='A' stat_amour="">ÉLÉONORE</role>, Tante d'Éraste.</castItem>
-		<castItem><role id="OLIVETTE" sex="2" type="H" statut="suivante" age='A' stat_amour="">OLIVETTE</role>, Suivante de Léonore.</castItem>
-		<castItem><role id="PIERROT" sex="1" type="H" statut="jardinier" age='A' stat_amour="">PIERROT</role>, amant d'Olivette.</castItem>
-		<castItem><role id="AGATHE" sex="2" type="H" statut="bourgeois" age='J' stat_amour="">AGATHE</role>, fille du Jardinier.</castItem>
-		<castItem><role id="TROUPE DE JARDINIERS" sex="1" type="H" statut="jardinier" age='A' stat_amour="">TROUPE DE JARDINIERS</role>.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">ISABELLE</role>, sous l'habit d'Arlequin.</castItem>
+		<castItem><role id="ÉRASTE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="Isabelle">ÉRASTE</role>, amant d'Isabelle.</castItem>
+		<castItem><role id="ÉLÉONORE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">ÉLÉONORE</role>, Tante d'Éraste.</castItem>
+		<castItem><role id="OLIVETTE" sex="2" type="H" statut="suivante" age="A" stat_amour="">OLIVETTE</role>, Suivante de Léonore.</castItem>
+		<castItem><role id="PIERROT" sex="1" type="H" statut="jardinier" age="A" stat_amour="">PIERROT</role>, amant d'Olivette.</castItem>
+		<castItem><role id="AGATHE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">AGATHE</role>, fille du Jardinier.</castItem>
+		<castItem><role id="TROUPE DE JARDINIERS" sex="1" type="H" statut="jardinier" age="A" stat_amour="">TROUPE DE JARDINIERS</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">Le scène est devant un château.</set>
 	<note>extrait de "THÉÂTRE de M. FAGAN et autres OEUVRES DU MÊME AUTEUR.", Tome quatrième, Théâtre de la Foire, 1760. pp 327-356</note>
@@ -75,8 +75,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Isabelle, Agathe.</head>
-<sp who="AGATHE"><speaker>AGATHE, chante.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Isabelle, Agathe.
+</stage>
+<sp who="AGATHE"><speaker>AGATHE</speaker><stage>, chante.
+</stage>
 <p id="1">
 	<s id="1">Non, je ne ferai pas ce qu'on veut que je fasse ; M'en dput-il arriver ce dont on me menace.</s>
 </p>
@@ -187,7 +189,8 @@
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
 <stage type="explicit">ISABELLE est quelque temps irrésolue ; enfin elle conçoit une idée folle,  dont elle espère un heureux succès.</stage>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léonore, Olivette, Éraste, Pierrot.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léonore, Olivette, Éraste, Pierrot.
+</stage>
 <stage type="explicit">Léonore demande à Eraste ce qu'il pense de Julie.</stage>
 <sp who="ERASTE"><speaker>ERASTE.</speaker>
 <p id="1">
@@ -220,8 +223,10 @@
 <stage type="toward">Léonore lui propose une longue entrevue avec Julie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Éraste, Pierrot.</head>
-<sp type="sad" who="ERASTE"><speaker>ERASTE déplore pour sa faiblesse pour Isabelle après ses mauvais traitements.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Éraste, Pierrot.
+</stage>
+<sp type="sad" who="ERASTE"><speaker>ERASTE</speaker><stage> déplore pour sa faiblesse pour Isabelle après ses mauvais traitements.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Si tu savais,</s>
@@ -255,7 +260,8 @@
 	<l id="61">Comme vous parlez d'Isabelle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les précédents, Olivette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les précédents, Olivette.
+</stage>
 <stage type="narration">Olivette vient avertir Ëraste de se trouver tantôt à la fête qu'occasionne  le lendemain de noces du jardinier, parce que Julie l'honorera de sa présence. Ëraste dit qu'il va s'exécuter lui-même.</stage>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
@@ -270,7 +276,8 @@
 	<l id="67">Comme je l'étrillerais !</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VIII. Isabelle, en Arlequin, Olivette.</head>
+<div2 type="scene" n="7"><head>SCÈNE VIII.</head><stage> Isabelle, en Arlequin, Olivette.
+</stage>
 <stage type="explicit">Arlequin se fait connaître pour Isabelle, et prélude son rôle.</stage>
 <sp who="OLIVETTE"><speaker>OLIVETTE.</speaker>
 <p id="1">
@@ -481,7 +488,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Arlequin, Pierrot.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Arlequin, Pierrot.
+</stage>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 <stage type="title">AIR: Ô Pierre.</stage>
 	<l id="114">Que vois-je Ventrebille !</l>
@@ -591,13 +599,15 @@
 	<s id="1">Voyons.</s>
 </p>
 </sp>
-<sp stage="hit" who="ARLEQUIN"><speaker>ARLEQUIN, à coups de batte.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="hit">, à coups de batte.
+</stage>
 <p id="13">
 	<s id="1">Tenez, Monsieur le donneur d'avis.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Éraste, Olivette.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Éraste, Olivette.
+</stage>
 <sp who="OLIVETTE"><speaker>OLIVETTE.</speaker>
 <p id="1">
 	<s id="1">Quoi que vous en disiez, je ne puis m'imaginer que vous ne pensiez plus à Isabelle. </s>
@@ -687,7 +697,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Éraste, Arlequin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Éraste, Arlequin.
+</stage>
 <sp who="ARLEQUIN"><speaker>ARLEQUIN.</speaker>
 <p id="1">
 	<s id="1">Monsieur, je suis ravi de vous trouver : comment va votre santé ? </s>
@@ -942,7 +953,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Léonore, Éraste.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Léonore, Éraste.
+</stage>
 <sp who="ÉLÉONORE"><speaker>ÉLÉONORE.</speaker>
 <stage type="title">AIR Des Trembleurs.</stage>
 	<l id="228">Où courez-vous donc si vite ?</l>

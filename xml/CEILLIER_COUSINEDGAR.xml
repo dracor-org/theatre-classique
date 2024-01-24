@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -25,18 +25,18 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>LE COUSIN EDGARD</titlePart>
-			<titlePart type='sub'>COMÉDIE EN UN ACTE</titlePart>
-			<titlePart type='sub'>Représentée au Cercle de la rue Volney.</titlePart>
+			<titlePart type="main">LE COUSIN EDGARD</titlePart>
+			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
+			<titlePart type="sub">Représentée au Cercle de la rue Volney.</titlePart>
 		</docTitle> 
-		<docDate value='1882'>1882. Tous droits réservés.</docDate>
-		<docAuthor id='CEILLIER, Eugène'></docAuthor>
+		<docDate value="1882">1882. Tous droits réservés.</docDate>
+		<docAuthor id="CEILLIER, Eugène"/>
 		<docImprint>
-			<printer id='IMPRIMERIE GENERALE'>Imprimerie générale de Chatillons-sur-Seine, - J. Robert.</printer>
-			<editor id='OLLENDORF'>PARIS, PAUL OLLENDORF, ÉDITEUR, 28 bis, rue de Richelieu, 28 bis.</editor>
+			<printer id="IMPRIMERIE GENERALE">Imprimerie générale de Chatillons-sur-Seine, - J. Robert.</printer>
+			<editor id="OLLENDORF">PARIS, PAUL OLLENDORF, ÉDITEUR, 28 bis, rue de Richelieu, 28 bis.</editor>
 		</docImprint>
 		<performance>
-			<premiere date="(inconnue)" location="(inconnue)"></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 		<castList><head>PERSONNAGES</head>
 			<castItem><role id="EDGARD" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">EDGARD DE MAURAC</role>, Monsieur Worms.</castItem>
@@ -44,38 +44,44 @@
 			<castItem><role id="CLÉMENCE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">CLÉMENCE</role>, Mademoiselle Reichenderg.</castItem>
 			<castItem><role id="VICTORINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">VICTORINE</role>, Mademoiselle Martin.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Texte extrait du recueil de comédies d'Eugène Ceillier "Le Théâtre à la vile, comédies de Cercles et de Salons" pp 1-70</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE COUSIN EDGARD</head>
 <stage type="decor">Le théâtre représente un salon en désordre. - Porte a droite, porte à gauche, porte an fond. - Table - bureau avec albums de photographies. - Guéridon, fauteuils - Sur les meubles, deux manteaux et deux chapeaux de dames, une jaquette d'homme.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Victorine, Joseph, Clémence.</head>
-<sp who="VICTORINE"><speaker>VICTORINE, à la porte du fond, parlant à une personne à la cantonade.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Victorine, Joseph, Clémence.
+</stage>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage>, à la porte du fond, parlant à une personne à la cantonade.
+</stage>
 <p id="1">
 	<s id="1">Je souhaite un bon voyage à Madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="VOIX D'HOMME"><speaker>VOIX D'HOMME, à la cantonade.</speaker>
+<sp who="VOIX D'HOMME"><speaker>VOIX D'HOMME</speaker><stage type="toward">, à la cantonade.
+</stage>
 <p id="2">
 	<s id="1">Ho ! </s>
 	<s id="2">Joseph ! </s>
 	<s id="3">Descendez donc ma casquette de voyage que j'ai laissée dans ma chambre.</s>
 </p>
 </sp>
-<sp stage="dress" who="JOSEPH"><speaker>JOSEPH, une valise, une couverture, cannes et parapluies à la main.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="dress">, une valise, une couverture, cannes et parapluies à la main.
+</stage>
 <p id="3">
 	<s id="1">Bien, Monsieur !</s>
 </p>
 <stage type="">Il disparaît à gauche.</stage>
 </sp>
-<sp stage="dress" who="CLÉMENCE"><speaker>CLÉMENCE, même jeu que Victorine.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="dress">, même jeu que Victorine.
+</stage>
 <p id="4">
 	<s id="1">Madame peut être bien tranquille, nous aurons bien soin de la maison. </s>
 	<s id="2">Si Madame a besoin de nous écrire, nous serions si heureux d'avoir de ses nouvelles.</s>
 </p>
 </sp>
-<sp stage="carry" who="JOSEPH"><speaker>JOSEPH, reparaît par la porte de gauche avec casquette, parapluies, etc.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="carry">, reparaît par la porte de gauche avec casquette, parapluies, etc.
+</stage>
 <p id="5">
 	<s id="1">Allons, allons, laissez-moi passer.</s>
 </p>
@@ -86,7 +92,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Victorine, Clémence.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Victorine, Clémence.
+</stage>
 <sp who="CLÉMENCE"><speaker>CLÉMENCE.</speaker>
 <p id="1">
 	<s id="1">Ça n'emmènerait seulement pas une femme de chambre ! </s>
@@ -141,12 +148,14 @@
 	<s id="1">Je les aurais bien aussi.</s>
 </p>
 </sp>
-<sp stage="dress" who="CLÉMENCE"><speaker>CLÉMENCE, se lève, met un chapeau de dame qui est sur un meuble, et se regarde dans La glace.</speaker> 
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="dress">, se lève, met un chapeau de dame qui est sur un meuble, et se regarde dans La glace. 
+</stage> 
 <p id="11">
 	<s id="1">Tenez, regardez-moi, est-ce que je ne suis pas faite pour porter  cela ?</s>
 </p>
 </sp>
-<sp stage="dress" who="VICTORINE"><speaker>VICTORINE, apercevant un chapeau et le mettant.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="dress">, apercevant un chapeau et le mettant.
+</stage>
 <p id="12">
 	<s id="1">Et moi, est-ce que cela ne me va pas aussi ?</s>
 </p>
@@ -188,7 +197,8 @@
 	<s id="1">Chère comtesse, vous allez bien ?</s>
 </p>
 </sp>
-<sp stage="wave" who="VICTORINE"><speaker>VICTORINE, salue gauchement.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="wave">, salue gauchement.
+</stage>
 <p id="20">
 	<s id="1">Parfaitement, Madame.</s>
 </p>
@@ -202,7 +212,8 @@
 	<s id="1">Parfaitement, ma chère.</s>
 </p>
 </sp>
-<sp stage="repeat" who="VICTORINE"><speaker>VICTORINE, répétant.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="repeat">, répétant.
+</stage>
 <p id="23">
 	<s id="1">Parfaitement, ma chère ! </s>
 </p>
@@ -229,7 +240,8 @@
 	<s id="1">Il ne va pas nous manger.</s>
 </p>
 </sp>
-<sp stage="watch" who="VICTORINE"><speaker>VICTORINE, se regardant dans la glace.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="watch">, se regardant dans la glace.
+</stage>
 <p id="28">
 	<s id="1">On est gentille tout de même, comme ça.</s>
 </p>
@@ -269,8 +281,10 @@
 <stage type="entrance">Joseph rentre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE III. Joseph, Clémence, Victorine.</head>
-<sp who="JOSEPH"><speaker>JOSEPH, rentrant.</speaker>
+<div2 type="scene" n=""><head>SCÈNE III.</head><stage> Joseph, Clémence, Victorine.
+</stage>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage>, rentrant.
+</stage>
 <p id="1">
 	<s id="1">Emballé le patron !... </s>
 	<s id="2">Oh ! </s>
@@ -420,7 +434,8 @@
 	<s id="1">Pour Victorine.</s>
 </p>
 </sp>
-<sp stage="furious" who="VICTORINE"><speaker>VICTORINE, furieuse.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="furious">, furieuse.
+</stage>
 <p id="28">
 	<s id="1">Le numéro 1 ! </s>
 	<s id="2">Vous avez triché, c'est pas juste.</s>
@@ -486,7 +501,8 @@
 	<s id="1">Pour moi, au contraire, presque durs.</s>
 </p>
 </sp>
-<sp stage="give" who="CLÉMENCE"><speaker>CLÉMENCE, tendant son chapeau à Victorine.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="give">, tendant son chapeau à Victorine.
+</stage>
 <p id="39">
 	<s id="1">Tenez, rangez cela.</s>
 </p>
@@ -502,7 +518,8 @@
 	<s id="1">Serrez cela, je vous dis, et prenez mon manteau.</s>
 </p>
 </sp>
-<sp who="VICTORINE"><speaker>VICTORINE, à part.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage>, à part.
+</stage>
 <p id="42">
 	<s id="1">Tu verras, toi, après-demain.</s>
 </p>
@@ -524,7 +541,8 @@
 </p>
 <stage type="exit">Elle sort, emportant les manteaux et les chapeaux.</stage>
 </sp>
-<sp stage="run" who="JOSEPH"><speaker>JOSEPH, courant après elle.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="run">, courant après elle.
+</stage>
 <p id="46">
 	<s id="1">Saignantes, les côtelettes !</s>
 </p>
@@ -540,8 +558,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clémence, Joseph.</head>
-<sp stage="stand" who="CLÉMENCE"><speaker>CLÉMENCE, se levant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clémence, Joseph.
+</stage>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="1">
 	<s id="1">Je vais mettre ma matinée bleue pour déjeuner.</s>
 </p>
@@ -574,7 +594,8 @@
 	<s id="1">Régence de Tunis.</s>
 </p>
 </sp>
-<sp stage="closer" who="JOSEPH"><speaker>JOSEPH, la prenant de nouveau par la taille.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="closer">, la prenant de nouveau par la taille.
+</stage>
 <p id="7">
 	<s id="1">Oui, ma sultane.</s>
 </p>
@@ -617,7 +638,8 @@
 	<s id="1">Et ma matinée !</s>
 </p>
 </sp>
-<sp stage="follow" who="JOSEPH"><speaker>JOSEPH, la suivant.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="follow">, la suivant.
+</stage>
 <p id="15">
 	<s id="1">Je vais avec vous.</s>
 </p>
@@ -629,7 +651,8 @@
 <stage type="exit/close">Elle sort au moment, en fermant vivement la porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Victorine, Joseph.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Victorine, Joseph.
+</stage>
 <stage type="entrance">Parait Victorine portant des assiettes et du pain.</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 <p id="1">
@@ -680,7 +703,8 @@
 	<s id="2">Embrasse-moi.</s>
 </p>
 </sp>
-<sp stage="kiss" who="JOSEPH"><speaker>JOSEPH, l'embrassant.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="10">
 	<s id="1">J'oublie mon rang ! </s>
 </p>
@@ -717,7 +741,8 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="JOSEPH"><speaker>JOSEPH, ouvrant son journal.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage>, ouvrant son journal.
+</stage>
 <p id="16">
 	<s id="1">Allons, voyons les feuilles. </s>
 	<s id="2">Ah ! </s>
@@ -762,7 +787,8 @@
 <stage type="entrance">Entre Clémence.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Clémence, en matinée bleue élégante.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Clémence, en matinée bleue élégante.
+</stage>
 <sp who="JOSEPH"><speaker>JOSEPH.</speaker>
 <p id="1">
 	<s id="1">Chère belle, j'allais vous offrir mon bras pour déjeuner. </s>
@@ -770,7 +796,8 @@
 </p>
 <stage type="sit">Ils s'asseoient à table.</stage>
 </sp>
-<sp stage="low/toward/touch" who="VICTORINE"><speaker>VICTORINE, bas à Joseph, en le pinçant.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="low/toward/touch">, bas à Joseph, en le pinçant.
+</stage>
 <p id="2">
 	<s id="1">Tu sais, toi, si tu continues...</s>
 </p>
@@ -807,12 +834,14 @@
 	<s id="1">Tout s'en va, chère comtesse, tout s'en va !</s>
 </p>
 </sp>
-<sp stage="laugh" who="CLÉMENCE"><speaker>CLÉMENCE, riant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="9">
 	<s id="1">Même les maîtres.</s>
 </p>
 </sp>
-<sp who="JOSEPH"><speaker>JOSEPH, de même.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage>, de même.
+</stage>
 <p id="9">
 	<s id="1">Ça, il ne faut pas nous en plaindre. </s>
 	<s id="2">Eh bien ! </s>
@@ -874,7 +903,8 @@
 <stage type="exit">Victorine sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI.  Joseph, Clémence.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage>  Joseph, Clémence.
+</stage>
 <sp who="JOSEPH"><speaker>JOSEPH.</speaker>
 <p id="1">
 	<s id="1">On boira à leur santé, ils peuvent bien payer, pas vrai ?...</s>
@@ -929,18 +959,21 @@
 <stage type="kis">Il lui embrasse la main. Entre Edgard en costume de voyage, une valise à la main.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII.  Les mêmes, Edgard.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage>  Les mêmes, Edgard.
+</stage>
 <sp who="EDGARD"><speaker>EDGARD.</speaker>
 <p id="1">
 	<s id="1">Oh !</s>
 </p>
 </sp>
-<sp stage="stand/quick" who="CLÉMENCE"><speaker>CLÉMENCE, se levant précipitamment.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="stand/quick">, se levant précipitamment.
+</stage>
 <p id="2">
 	<s id="1">Quelqu'un !</s>
 </p>
 </sp>
-<sp stage="stand/quick" who="JOSEPH"><speaker>JOSEPH, de même.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="stand/quick">, de même.
+</stage>
 <p id="3">
 	<s id="1">Sapristi !</s>
 </p>
@@ -957,7 +990,8 @@
 	<s id="3">C'est ici.</s>
 </p>
 </sp>
-<sp stage="low" who="CLÉMENCE"><speaker>CLÉMENCE, bas.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="low">, bas.
+</stage>
 <p id="6">
 	<s id="">Mais c'est vous, c'est vous...</s>
 </p>
@@ -969,13 +1003,15 @@
 	<s id="3">Qui...</s>
 </p>
 </sp>
-<sp stage="hugh" who="EDGARD"><speaker>EDGARD, se précipite dans les bras de Joseph.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="hugh">, se précipite dans les bras de Joseph.
+</stage>
 <p id="8">
 	<s id="1">Mon cher ami, mon bon René... </s>
 	<s id="2">je suis d'un ému.</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSEPH"><speaker>JOSEPH, à Clémence.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="toward">, à Clémence.
+</stage>
 <p id="9">
 	<s id="1">Mais c'est un fou.</s>
 </p>
@@ -1001,7 +1037,8 @@
 	<s id="3">Ton cousin Edgard !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLÉMENCE"><speaker>CLÉMENCE, à part.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Oh ! </s>
 	<s id="2">La la ! </s>
@@ -1024,7 +1061,8 @@
 	<s id="2">Ça ne te dit donc rien de me revoir ?...</s>
 </p>
 </sp>
-<sp stage="low/push" who="CLÉMENCE"><speaker>CLÉMENCE, bas, le poussant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="low/push">, bas, le poussant.
+</stage>
 <p id="17">
 	<s id="">Mais allez donc, allez donc !</s>
 </p>
@@ -1041,7 +1079,8 @@
 	<s id="1">À la bonne heure !</s>
 </p>
 </sp>
-<sp stage="weak" who="JOSEPH"><speaker>JOSEPH, sans entrain.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="weak">, sans entrain.
+</stage>
 <p id="20">
 	<s id="1">Je suis enchanté.</s>
 </p>
@@ -1052,7 +1091,8 @@
 	<s id="2">Je me fais une telle fête de ces deux jours passés avec vous.</s>
 </p>
 </sp>
-<sp stage="quick" who="JOSEPH"><speaker>JOSEPH, virement.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="quick">, virement.
+</stage>
 <p id="22">
 	<s id="1">Deux jours !</s>
 </p>
@@ -1067,7 +1107,8 @@
 	<s id="1">N'insistez pas, c'est inutile.</s>
 </p>
 </sp>
-<sp stage="touch" who="JOSEPH"><speaker>JOSEPH, lui serrant chaleureusement les mains.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="touch">, lui serrant chaleureusement les mains.
+</stage>
 <p id="25">
 	<s id="1">Ah ! </s>
 	<s id="2">Ce bon Edgard... </s>
@@ -1147,7 +1188,8 @@
 	<s id="3">Mais je m'oublie à ranimer ces vieilles cendres et je vous empêche de déjeuner.</s>
 </p>
 </sp>
-<sp stage="get/push" who="CLÉMENCE"><speaker>CLÉMENCE, prenant la table et la repoussant dans un coin.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="get/push">, prenant la table et la repoussant dans un coin.
+</stage>
 <p id="37">
 	<s id="1">Oh ! </s>
 	<s id="2">Non. </s>
@@ -1166,7 +1208,8 @@
 	<s id="2">Tu as donc changé de nom, toi ?</s>
 </p>
 </sp>
-<sp who="CLÉMENCE"><speaker>CLÉMENCE, vivement.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage>, vivement.
+</stage>
 <p id="40">
 	<s id="1">C'est depuis notre mariage.</s>
 </p>
@@ -1227,7 +1270,8 @@
 </p>
 <stage type="entrance/carry">Entre Victorine avec les deux bouteilles de Champagne.</stage>
 </sp>
-<sp stage="aparte" who="JOSEPH"><speaker>JOSEPH, à part.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="51">
 	<s id="1">Ciel ! </s>
 	<s id="2">Victorine !</s>
@@ -1247,7 +1291,8 @@
 <stage type="pull/quick">Il l'entraîne vivement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX.  Victorine, Clémence.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage>  Victorine, Clémence.
+</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce qui se passe ?</s>
@@ -1385,14 +1430,16 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Clémence, Joseph, Edgard.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Clémence, Joseph, Edgard.
+</stage>
 <sp who="EDGARD"><speaker>EDGARD.</speaker>
 <p id="1">
 	<s id="1">Vous êtes installés d'une façon ravissante. </s>
 	<s id="2">Un vrai nid d'amoureux.</s>
 </p>
 </sp>
-<sp stage="closer" who="JOSEPH"><speaker>JOSEPH, allant à Clémence.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="closer">, allant à Clémence.
+</stage>
 <p id="2">
 	<s id="1">Mais oui, d'amoureux.</s>
 </p>
@@ -1401,7 +1448,8 @@
 	<s id="1">Qu'est-ce qu'elle a dit ?</s>
 </p>
 </sp>
-<sp stage="low" who="CLÉMENCE"><speaker>CLÉMENCE, bas.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="low">, bas.
+</stage>
 <p id="4">
 	<s id="1">Tâchez de la voir !</s>
 </p>
@@ -1441,7 +1489,8 @@
 	<s id="1">Mais...</s>
 </p>
 </sp>
-<sp stage="get" who="JOSEPH"><speaker>JOSEPH, les lui prenant.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="get">, les lui prenant.
+</stage>
 <p id="10">
 	<s id="1">Non... </s>
 	<s id="2">Non... </s>
@@ -1454,12 +1503,14 @@
 	<s id="2">Tu ne veux pas que je voie les photographies de la famille ?</s>
 </p>
 </sp>
-<sp who="JOSEPH"><speaker>JOSEPH, mettant un album sous chaque bras.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage>, mettant un album sous chaque bras.
+</stage>
 <p id="11">
 	<s id="1">Elles ne sont pas là-dedans.</s>
 </p>
 </sp>
-<sp stage="laugh" who="EDGARD"><speaker>EDGARD, riant.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="laugh">, riant.
+</stage>
 <p id="12">
 	<s id="">Tu as peur que je ne te les emporte ?</s>
 </p>
@@ -1534,17 +1585,20 @@
 	<s id="1">Le nom ne me revient pas.</s>
 </p>
 </sp>
-<sp stage="quick" who="CLÉMENCE"><speaker>CLÉMENCE, vivement.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="25">
 	<s id="1">Et ce thé qu'on n'apporte pas, allez donc voir un peu pourquoi, mon ami.</s>
 </p>
 </sp>
-<sp stage="stress" who="JOSEPH"><speaker>JOSEPH, vivement.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="stress">, vivement.
+</stage>
 <p id="26">
 	<s id="">Oui, oui, j'y vais.</s>
 </p>
 </sp>
-<sp stage="pull" who="EDGARD"><speaker>EDGARD, le retenant.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="27">
 	<s id="1">Laisse donc, je peux bien attendre... </s>
 	<s id="2">Il est amusant avec ses albums sous le bras. </s>
@@ -1552,19 +1606,22 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, Victorine.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les mêmes, Victorine.
+</stage>
 <stage type="entrance">Victorine parait à la porte, habillée en dame. Joseph et Clémence se regardent un instant avec stupeur.</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 <p id="1">
 	<s id="1">C'est moi !</s>
 </p>
 </sp>
-<sp stage="closer" who="CLÉMENCE"><speaker>CLÉMENCE, allant à Victorine.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="closer">, allant à Victorine.
+</stage>
 <p id="2">
 	<s id="1">Bonjour, chère amie.</s>
 </p>
 </sp>
-<sp stage="low" who="JOSEPH"><speaker>JOSEPH, même jeu, bas.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="low">, même jeu, bas.
+</stage>
 <p id="3">
 	<s id="">Tu es folle !...</s>
 </p>
@@ -1588,7 +1645,8 @@
 	<s id="1">Que faire ?</s>
 </p>
 </sp>
-<sp stage="wave" who="VICTORINE"><speaker>VICTORINE, saluant Edgard gauchement.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="wave">, saluant Edgard gauchement.
+</stage>
 <p id="8">
 	<s id="1">Monsieur !</s>
 </p>
@@ -1598,7 +1656,8 @@
 	<s id="1">Madame !</s>
 </p>
 </sp>
-<sp stage="show" who="CLÉMENCE"><speaker>CLÉMENCE, la présentant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="show">, la présentant.
+</stage>
 <p id="10">
 	<s id="1">Ma soeur.</s>
 </p>
@@ -1607,13 +1666,15 @@
 	<s id="1">Un cousin de mon mari.</s>
 </p>
 </sp>
-<sp stage="wave/aparte" who="VICTORINE"><speaker>VICTORINE, salue, à part.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="wave/aparte">, salue, à part.
+</stage>
 <p id="12">
 	<s id="1">Heu ! </s>
 	<s id="2">De son mari.</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSEPH"><speaker>JOSEPH, à Edgard.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="toward">, à Edgard.
+</stage>
 <p id="13">
 	<s id="1">Si nous les laissions bavarder et si nous nous en allions ?</s>
 </p>
@@ -1640,7 +1701,8 @@
 	<s id="1">Je l'espère bien.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="VICTORINE"><speaker>VICTORINE, à Joseph, bas.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="toward/low">, à Joseph, bas.
+</stage>
 <p id="18">
 	<s id="1">Plus souvent que je partirais !</s>
 </p>
@@ -1649,7 +1711,8 @@
 	<s id="">Je vais même vous rester trois ou quatre jours, si je ne suis pas indiscrète.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JOSEPH"><speaker>JOSEPH, à part.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="20">
 	<s id="1">Quel crampon !</s>
 </p>
@@ -1680,12 +1743,14 @@
 	<s id="1">Mais, Madame, qu'à cela ne tienne, j'irai à l'hôtel.</s>
 </p>
 </sp>
-<sp stage="wave" who="VICTORINE"><speaker>VICTORINE, saluant gauchement.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="wave">, saluant gauchement.
+</stage>
 <p id="26">
 	<s id="">Monsieur...</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLÉMENCE"><speaker>CLÉMENCE, à part.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Tu me le paieras, toi...</s>
 </p>
@@ -1694,7 +1759,8 @@
 	<s id="1">Mais pas du tout, nous ne vous laisserons pas aller.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="JOSEPH"><speaker>JOSEPH, bas, à Victorine.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="low/toward">, bas, à Victorine.
+</stage>
 <p id="29">
 	<s id="1">Es-tu folle ?</s>
 </p>
@@ -1704,7 +1770,8 @@
 	<s id="1">Monsieur, on peut tout arranger, je partagerai la chambre de ma soeur, et mon beau-frère s'installera ici, comme fait Monsieur quand sa belle-mère vient.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLÉMENCE"><speaker>CLÉMENCE, à part.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="31">
 	<s id="1">Oh ! </s>
 	<s id="2">La ! </s>
@@ -1735,13 +1802,15 @@
 	<s id="2">Eh bien! et ce thé, voyons ! C'est un mythe.</s>
 </p>
 </sp>
-<sp stage="ring" who="CLÉMENCE"><speaker>CLÉMENCE, sonnant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="ring">, sonnant.
+</stage>
 <p id="37">
 	<s id="1">J'ai déjà sonné deux ou trois fois... </s>
 	<s id="2">Je ne sais pourquoi on ne l'apporte pas.</s>
 </p>
 </sp>
-<sp stage="aparte" who="VICTORINE"><speaker>VICTORINE, à part.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Elle en a de l'aplomb !</s>
 </p>
@@ -1776,7 +1845,8 @@
 <stage type="wave/exit">Elle salue et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Edgard, Joseph.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Edgard, Joseph.
+</stage>
 <sp who="EDGARD"><speaker>EDGARD.</speaker>
 <p id="1">
 	<s id="1">Mon ami, ta femme est charmante.</s>
@@ -1863,7 +1933,8 @@
 	<s id="3">Quel diable de gilet portes-tu donc ?</s>
 </p>
 </sp>
-<sp stage="hide" who="JOSEPH"><speaker>JOSEPH, essayant de cacher son gilet de domestique.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="hide">, essayant de cacher son gilet de domestique.
+</stage>
 <p id="16">
 	<s id="1">Ne fais pas attention.</s>
 </p>
@@ -1906,7 +1977,8 @@
 	<s id="1">Vraiment !</s>
 </p>
 </sp>
-<sp stage="proud" who="JOSEPH"><speaker>JOSEPH, prétentieux.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="proud">, prétentieux.
+</stage>
 <p id="24">
 	<s id="1">C'est très difficile pour des gens de noire monde... </s>
 	<s id="2">La politique a tout envahi... </s>
@@ -2007,7 +2079,8 @@
 	<s id="2">Tu me donneras ces vingt mille francs, demain ou après.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JOSEPH"><speaker>JOSEPH, à part.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="51">
 	<s id="1">Ah ! </s>
 	<s id="2">Mais, il m'embête, le cousin...</s>
@@ -2054,7 +2127,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="alone/sit" who="EDGARD"><speaker>EDGARD, seul, s'assoit dans un fauteuil.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="alone/sit">, seul, s'assoit dans un fauteuil.
+</stage>
 <p id="1">
 	<s id="1">C'est bizarre, comme l'imagination embellit souvent les choses. </s>
 	<s id="2">Certainement, ça me fait plaisir de le revoir, ce bon René, mais je me figurais que mon coeur allait se fondre... </s>
@@ -2064,8 +2138,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Edgard, Clémence.</head>
-<sp stage="toward" who="CLÉMENCE"><speaker>CLÉMENCE, à la cantonade.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Edgard, Clémence.
+</stage>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="toward">, à la cantonade.
+</stage>
 <p id="1">
 	<s id="1">Espèce de cuisinière de quatre sous...</s>
 </p>
@@ -2144,7 +2220,8 @@
 	<s id="2">Oui, je n'y suis jamais allée.</s>
 </p>
 </sp>
-<sp stage="laugh" who="EDGARD"><speaker>EDGARD, riant.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="laugh">, riant.
+</stage>
 <p id="15">
 	<s id="1">Ni moi non plus.</s>
 </p>
@@ -2271,7 +2348,8 @@
 	<s id="2">Est-ce qu'il y a des femmes de chambre ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="EDGARD"><speaker>EDGARD, riant.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="laugh">, riant.
+</stage>
 <p id="37">
 	<s id="1">Pour qui, mon_Dieu ?...</s>
 </p>
@@ -2290,7 +2368,8 @@
 	<s id="4">C'est tout ce que je demande.</s>
 </p>
 </sp>
-<sp stage="toward" who="CLÉMENCE"><speaker>CLÉMENCE, se parlant à elle-même.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="toward">, se parlant à elle-même.
+</stage>
 <p id="40">
 	<s id="1">J'irais bien, moi !</s>
 </p>
@@ -2300,12 +2379,14 @@
 	<s id="1">Que n'êtes-vous libre !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLÉMENCE"><speaker>CLÉMENCE, à part.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="42">
 	<s id="">Si je lui disais tout !</s>
 </p>
 </sp>
-<sp stage="laugh" who="EDGARD"><speaker>EDGARD, riant.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="laugh">, riant.
+</stage>
 <p id="43">
 	<s id="1">Nous irions galoper à cheval comme des fous à travers les immenses prairies, les bois infinis... </s>
 	<s id="2">Si vous couriez un danger, je serais là pour vous défendre... </s>
@@ -2350,7 +2431,8 @@
 	<s id="2">Nous verrons...</s>
 </p>
 </sp>
-<sp stage="touch" who="EDGARD"><speaker>EDGARD, lui prenant les mains.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="touch">, lui prenant les mains.
+</stage>
 <p id="51">
 	<s id="1">Oh ! </s>
 	<s id="2">Non, voyons tout de suite, ma petite cousine, je vous en prie... </s>
@@ -2428,7 +2510,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Les mêmes, Joseph, Victorine.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Les mêmes, Joseph, Victorine.
+</stage>
 <sp who="JOSEPH"><speaker>JOSEPH.</speaker>
 <p id="1">
 	<s id="1">Je vous demande pardon de vous avoir ainsi laissés.</s>
@@ -2454,7 +2537,8 @@
 	<s id="1">J'espère que Monsieur est assez galant pour inviter les dames.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JOSEPH"><speaker>JOSEPH, à part.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="">Quel crampon !</s>
 </p>
@@ -2476,7 +2560,8 @@
 	<s id="1">Je n'ai que cela de bien.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="CLÉMENCE"><speaker>CLÉMENCE, bas, à Edgard.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="low/toward">, bas, à Edgard.
+</stage>
 <p id="10">
 	<s id="1">Tâchez de les éloigner et attendez-moi.</s>
 </p>
@@ -2490,9 +2575,11 @@
 <stage type="exit/away">Il sort par le fond en regardant si Joseph et Victorine vont s'habiller. Fausse sortie de Joseph et Victorine à gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Victorine, Joseph.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Victorine, Joseph.
+</stage>
 <stage type="open/listen">Pendant cette scène, Edgard entrebâille la porte du fond et écoute la conversation.</stage>
-<sp stage="stop" who="VICTORINE"><speaker>VICTORINE, arrêtant Joseph par le bras.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="stop">, arrêtant Joseph par le bras.
+</stage>
 <p id="1">
 	<s id="1">As-tu vu ?</s>
 </p>
@@ -2584,7 +2671,8 @@
 	<s id="">Et puis tu ne l'aimes pas, bien vrai ?</s>
 </p>
 </sp>
-<sp stage="stress" who="JOSEPH"><speaker>JOSEPH, exaspéré.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="stress">, exaspéré.
+</stage>
 <p id="19">
 	<s id="1">Non... </s>
 	<s id="2">Non... </s>
@@ -2594,8 +2682,10 @@
 <stage type="exit/location">Il sort. Elle sort après lui, à gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Edgard, Clémence.</head>
-<sp who="EDGARD"><speaker>EDGARD, rentrant.</speaker>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Edgard, Clémence.
+</stage>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage>, rentrant.
+</stage>
 <p id="1">
 	<s id="1">Je suis foudroyé... </s>
 	<s id="2">C'est infâme»., chez lui, avec sa belle-soeur... </s>
@@ -2605,17 +2695,20 @@
 	<s id="6">C'est une infamie...</s>
 </p>
 </sp>
-<sp stage="entrance" who="CLÉMENCE"><speaker>CLÉMENCE, rentrant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="entrance">, rentrant.
+</stage>
 <p id="2">
 	<s id="1">Chut !</s>
 </p>
 </sp>
-<sp stage="get/watch" who="EDGARD"><speaker>EDGARD, la prend par les mains et la regardant fixement.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="get/watch">, la prend par les mains et la regardant fixement.
+</stage>
 <p id="2">
 	<s id="1">Ma pauvre enfant, je sais tout !</s>
 </p>
 </sp>
-<sp stage="hide" who="CLÉMENCE"><speaker>CLÉMENCE, en cachant la figure.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="hide">, en cachant la figure.
+</stage>
 <p id="3">
 	<s id="1">Tout ?</s>
 </p>
@@ -2682,7 +2775,8 @@
 	<s id="1">Vous emmener ?</s>
 </p>
 </sp>
-<sp stage="shy" who="CLÉMENCE"><speaker>CLÉMENCE, timidement.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="shy">, timidement.
+</stage>
 <p id="15">
 	<s id="1">Je suis libre... </s>
 	<s id="2">Je ferai ce que vous voudrez.</s>
@@ -2757,7 +2851,8 @@
 	<s id="1">Non, c'est vrai, vous ne le pouvez pas.</s>
 </p>
 </sp>
-<sp stage="aparte" who="EDGARD"><speaker>EDGARD, à part.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="aparte">, à part.
+</stage>
 <p id="28">
 	<s id="1">Mon ami d'enfance... </s>
 	<s id="2">Il l'a voulu, tant pis !</s>
@@ -2776,8 +2871,10 @@
 <stage type="exit">Il sort par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Clémence, puis Victorine et Joseph.</head>
-<sp stage="alone" who="CLÉMENCE"><speaker>CLÉMENCE, seule.</speaker>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Clémence, puis Victorine et Joseph.
+</stage>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Non, c'est un rêve !...</s>
 </p>
@@ -2832,7 +2929,8 @@
 	<s id="2">C'est vous, il vous a entendus là, tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSEPH"><speaker>JOSEPH, à Victorine.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="toward">, à Victorine.
+</stage>
 <p id="12">
 	<s id="">Quand je te disais à toi...</s>
 </p>
@@ -2956,7 +3054,8 @@
 	<s id="2">Mais vous savez, au fond, je suis content pour vous.</s>
 </p>
 </sp>
-<sp stage="touch" who="CLÉMENCE"><speaker>CLÉMENCE, lui tendant la main.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="touch">, lui tendant la main.
+</stage>
 <p id="35">
 	<s id="1">Merci.</s>
 </p>
@@ -2968,8 +3067,10 @@
 <stage type="exit">Il sort par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE XIX. Clémence, puis Victorine.</head>
-<sp stage="alone/write" who="CLÉMENCE"><speaker>CLÉMENCE, seule, écrivant.</speaker>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Clémence, puis Victorine.
+</stage>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="alone/write">, seule, écrivant.
+</stage>
 <p id="1">
 	<s id="1">Voyons... </s>
 	<s id="2">« À Madame... » </s>
@@ -2985,7 +3086,8 @@
 	<s id="1">Comtesse !</s>
 </p>
 </sp>
-<sp stage="entrance/costume" who="VICTORINE"><speaker>VICTORINE, entrant, portant le cache-poussière.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="entrance/costume">, entrant, portant le cache-poussière.
+</stage>
 <p id="3">
 	<s id="1">Le voilà !</s>
 </p>
@@ -2997,8 +3099,10 @@
 <stage type="dress/quick">Elle s'habilla vivement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÈNE XX. Les mêmes, Joseph, puis Edgard.</head>
-<sp stage="entrance" who="JOSEPH"><speaker>JOSEPH, entrant.</speaker>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Les mêmes, Joseph, puis Edgard.
+</stage>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="1">
 	<s id="1">La voiture est en bas.</s>
 </p>
@@ -3025,7 +3129,8 @@
 	<s id="1">Si madame la comtesse voulait me permettre de l'embrasser...</s>
 </p>
 </sp>
-<sp stage="toward" who="CLÉMENCE"><speaker>CLÉMENCE, à Victorine.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="toward">, à Victorine.
+</stage>
 <p id="6">
 	<s id="1">C'est la première et dernière fois... </s>
 	<s id="2">Ne soyez pas jalouse...</s>
@@ -3055,15 +3160,18 @@
 	<s id="1">Oui, j'ai à vous parler.</s>
 </p>
 </sp>
-<sp stage="toward" who="CLÉMENCE"><speaker>CLÉMENCE, s'adressant à Victorine et à Joseph.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="toward">, s'adressant à Victorine et à Joseph.
+</stage>
 <p id="12">
 	<s id="1">Laissez-nous!</s>
 </p>
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI. Clémence, Edgard.</head>
-<sp stage="estonish" who="EDGARD"><speaker>EDGARD, étonné.</speaker>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Clémence, Edgard.
+</stage>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="1">
 	<s id="1">Vous les renvoyez comme cela ?</s>
 </p>
@@ -3126,7 +3234,8 @@
 </p>
 <stage type="">Il se promène avec agitation.</stage>
 </sp>
-<sp stage="cry" who="CLÉMENCE"><speaker>CLÉMENCE, pleurant.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="12">
 	<s id="1">Oh ! </s>
 	<s id="2">J'étais folle ! </s>
@@ -3158,7 +3267,8 @@
 </p>
 <stage type="hit">On frappe.</stage>
 </sp>
-<sp stage="touch" who="EDGARD"><speaker>EDGARD, ému.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="touch">, ému.
+</stage>
 <p id="17">
 	<s id="1">On vient ! </s>
 	<s id="2">Prenez garde !... </s>
@@ -3167,7 +3277,8 @@
 <stage type="entrance">Joseph entre en domestique, Victorine montre sa tète à la porte restée entrouverte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="22"><head>SCÈNE XXII. Les mêmes, Joseph, Victorine.</head>
+<div2 type="scene" n="22"><head>SCÈNE XXII.</head><stage> Les mêmes, Joseph, Victorine.
+</stage>
 <sp who="JOSEPH"><speaker>JOSEPH.</speaker>
 <p id="1">
 	<s id="1">Pardon, monsieur le comte, c'est une dépêche pour Clémence... </s>
@@ -3194,24 +3305,28 @@
 	<s id="1">M'expliquerez-vous ?</s>
 </p>
 </sp>
-<sp stage="read" who="CLÉMENCE"><speaker>CLÉMENCE, qui a lu la dépêche, la tend à Joseph.</speaker>
+<sp who="CLÉMENCE"><speaker>CLÉMENCE</speaker><stage type="read">, qui a lu la dépêche, la tend à Joseph.
+</stage>
 <p id="5">
 	<s id="1">Tenez ! </s>
 	<s id="2">Ils reviennent!</s>
 </p>
 </sp>
-<sp stage="read" who="JOSEPH"><speaker>JOSEPH, lisant.</speaker>
+<sp who="JOSEPH"><speaker>JOSEPH</speaker><stage type="read">, lisant.
+</stage>
 <p id="6">
 	<s id="1">« Déraillement, fortes contusions, impossible continuer voyage, revenons cette nuit, attendez. </s>
 	<s id="2">Signé : de Mansac. »</s>
 </p>
 </sp>
-<sp stage="get" who="EDGARD"><speaker>EDGARD, prenant la dépèche.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="get">, prenant la dépèche.
+</stage>
 <p id="7">
 	<s id="1">De Mansac ?</s>
 </p>
 </sp>
-<sp who="VICTORINE"><speaker>VICTORINE, arrivant.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage>, arrivant.
+</stage>
 <p id="8">
 	<s id="1">Comment ! </s>
 	<s id="2">Les patrons ?... </s>
@@ -3265,13 +3380,15 @@
 	<s id="2">Pour une fois, il ne s'en est pas fallu de beaucoup que vous ne riiez jaune, mon ami : un peu plus, j'enlevais votre femme.</s>
 </p>
 </sp>
-<sp stage="quick" who="VICTORINE"><speaker>VICTORINE, vivement.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="18">
 	<s id="1">Ah ! </s>
 	<s id="2">Ça, jamais, Monsieur_le_Comte.</s>
 </p>
 </sp>
-<sp stage="toward" who="EDGARD"><speaker>EDGARD, à Clémence.</speaker>
+<sp who="EDGARD"><speaker>EDGARD</speaker><stage type="toward">, à Clémence.
+</stage>
 <p id="19">
 	<s id="1">Alors, vous n'êtes pas ?...</s>
 </p>
@@ -3318,7 +3435,8 @@
 	<s id="1">Joseph !</s>
 </p>
 </sp>
-<sp stage="toward" who="VICTORINE"><speaker>VICTORINE, à Joseph.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="toward">, à Joseph.
+</stage>
 <p id="28">
 	<s id="1">Mais c'est toi...</s>
 </p>
@@ -3340,7 +3458,8 @@
 	<s id="1">Bien, Monsieur !</s>
 </p>
 </sp>
-<sp stage="laugh" who="VICTORINE"><speaker>VICTORINE, riant.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="32">
 	<s id="1">Il ne te tutoie plus.</s>
 </p>

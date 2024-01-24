@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>LA MESSE DE GNIDE.</title>
-			<author born='1756' born_location='' death='1805' death_location='' academie=''>GRIFFET DE LABAUME, Antoine Gilbert</author>
+			<author born="1756" born_location="" death="1805" death_location="" academie="">GRIFFET DE LABAUME, Antoine Gilbert</author>
 			
 		</titleStmt>
 		<publicationStmt>	
@@ -25,28 +25,28 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>LA MESSE DE GNIDE</titlePart>
+			<titlePart type="main">LA MESSE DE GNIDE</titlePart>
 		</docTitle> 
-		<docDate value='1795'>L'an deuxième de la République Française, une et indivisible</docDate>
-		<docAuthor id='GRIFFET DE LABAUME, Antoine Gilbert' bio='labaume'></docAuthor>
+		<docDate value="1795">L'an deuxième de la République Française, une et indivisible</docDate>
+		<docAuthor id="GRIFFET DE LABAUME, Antoine Gilbert" bio="labaume"/>
 		<docImprint>
-			<privilege id='****-**-**'></privilege>
-			<acheveImprime id='****-**-**'></acheveImprime>
-			<printer id=''>À PARIS, Chez les Marchands de Nouveautés.</printer>
+			<privilege id="****-**-**"/>
+			<acheveImprime id="****-**-**"/>
+			<printer id="">À PARIS, Chez les Marchands de Nouveautés.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(non représentée)' location='(non représentée)'></premiere>
+			<premiere date="(non représentée)" location="(non représentée)"/>
 		</performance>
 		<div type="preface">
 			<p>Ce petit ouvrage , composé longtemps avant la Révolution, a été trouvé dans les papiers de C. NOBODY, jeune poète heureusement né ; mais à qui la funeste habitude de l'opium fit perdre en moins de deux ans, la santé, l'imagination, la mémoire et le goût du travail, et qui finit par se tuer lui-même d'un coup de pistolet , le 11 juin 1787. Il était né dans les environs de Beauvais, en 1766, et demeurait à Paris depuis 1776. Il a laissé beaucoup d'autres manuscrits, qui annoncent de l'invention et de la facilité ; mais ce sont pour la plupart des ébauches ou des commencements d'ouvrages que leur état d'imperfection ne permet pas de publier. Cette bagatelle érotique est la seule de ses productions à laquelle notre auteur ait mis la dernière main, dans le peu d'intervalles lucides que lui laissait le dépérissement successif de ses organes.</p>
 		</div>
 
 		<castList><head>ACTEURS</head>
-			<castItem><role id="LE PRÊTRE" sex="1" type="H" statut='prêtre' age='A' stat_amour='néant'>LE PRÊTRE</role>.</castItem>
-			<castItem><role id="LA PRÊTRESSE" sex="2" type="H" statut='prêtre' age='A' stat_amour='néant'>LA PRÊTRESSE</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="2" type="H" statut='choeur' age='A' stat_amour='néant'>LE CHOEUR</role>.</castItem>
+			<castItem><role id="LE PRÊTRE" sex="1" type="H" statut="prêtre" age="A" stat_amour="néant">LE PRÊTRE</role>.</castItem>
+			<castItem><role id="LA PRÊTRESSE" sex="2" type="H" statut="prêtre" age="A" stat_amour="néant">LA PRÊTRESSE</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="choeur" age="A" stat_amour="néant">LE CHOEUR</role>.</castItem>
 		</castList>
-		<set location='Lieu mythologique' country='Pays mythologique' periode='Temps mythologiques' gps="(N/A)"></set>
+		<set location="Lieu mythologique" country="Pays mythologique" periode="Temps mythologiques" gps="(N/A)"/>
 		<note>La liste des personnages et la découpe des scène ne sont pas dans l'édition originale.</note>
 </front>
 <body>
@@ -195,7 +195,8 @@
 <sp stage="together" who="LE PRÊTRE, LA PRÊTRESSE"><speaker>ENSEMBLE.</speaker>
 	<l id="80">Vivez pour bénir ses liens.</l>
 </sp>
-<sp stage="wave/location" who="LE PRÊTRE"><speaker>LE PRÊTRE, en s'inclinant sur le lit.</speaker>
+<sp who="LE PRÊTRE"><speaker>LE PRÊTRE</speaker><stage type="wave/location">, en s'inclinant sur le lit.
+	</stage>
 	<l id="81">Au nom des baisers innombrables</l>
 	<l id="82">Qu'a vu donner ce lit voluptueux ;</l>
 	<l id="83">Au nom des plaisirs ineffables</l>
@@ -240,7 +241,8 @@
 <sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="103">Divinités etc.</l>
 </sp>
-<sp stage="continue" who="LE CHOEUR"><speaker>LE CHOEUR, continue. </speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage type="continue">, continue. 
+</stage>
 <note type="touch">Pendant l'hymne suivant, le Prêtre et la Prêtresse ; se tenant par la main, sont assis aux deux extrémités du lit mystique, le corps à demi-tourné vers l'autel.</note>
 	<l id="104">Gloire à Vénus dans la cour éthérée !</l>
 	<l id="105">Paix sur la terre aux fidèles amants !</l>
@@ -783,7 +785,8 @@
 	<l id="554">Leurs plus fidèles serviteurs.</l>
 <stage type="give/location/drop">La Prêtresse offre au Prêtre des vêtements légers et gracieux qu'elle va chercher à la droite de l'autel, avec ses propres atours qu'elle y a déposés avant le sacrifice.</stage>
 </sp>
-<sp stage="dress" who="LE PRÊTRE"><speaker>LE PRÊTRE, en s'habillant.</speaker>
+<sp who="LE PRÊTRE"><speaker>LE PRÊTRE</speaker><stage type="dress">, en s'habillant.
+	</stage>
 	<l id="555">Puissent ces vêtements, qu'exige la décence,</l>
 	<l id="556">Disposés avec grâce, avec goût assortis,</l>
 	<l id="557">Sans gêner mes contours, leur être assujettis,</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,21 +30,22 @@
 		<titlePart part="sub">DIALOGUE EN VERS</titlePart> 
 	</docTitle>
    <docDate value="1816">1816.</docDate>
-   <docAuthor id='LEROY, Aimé'>PAR AIMÉ LEROY.</docAuthor>
+   <docAuthor id="LEROY, Aimé">PAR AIMÉ LEROY.</docAuthor>
 	<docImprint>
 		<editor id="PILLE, DELAUNAYS">À PARIS, CHEZ PILLET, IMPRIMEUR-LIBRAIRE, RUE CHRISTINE, N° 5. ET DELAUNAY, LIBRAIRE, PALAIS-ROYAL. </editor>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MOLIÈRE" sex="2" type="H" statut="auteur" age="A" stat_amour=''>MOLIÈRE</role>.</castItem>
-		<castItem><role id="LA JEUNE THALIE" sex="1" type="H" statut="muse" age="A" stat_amour=''>LA JEUNE THALIE</role>.</castItem>
-		<castItem><role id="LA VIEILLE THALIE" sex="1" type="H" statut="muse" age="A" stat_amour=''>LE VIEILLE THALIE</role>.</castItem>
+		<castItem><role id="MOLIÈRE" sex="2" type="H" statut="auteur" age="A" stat_amour="">MOLIÈRE</role>.</castItem>
+		<castItem><role id="LA JEUNE THALIE" sex="1" type="H" statut="muse" age="A" stat_amour="">LA JEUNE THALIE</role>.</castItem>
+		<castItem><role id="LA VIEILLE THALIE" sex="1" type="H" statut="muse" age="A" stat_amour="">LE VIEILLE THALIE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>MOLIÈRE ET LES DEUX THALIES.</head>
 <div2 type="scene" n="1"><head>Molière.</head>
-<sp stage="alone" who="MOLIÈRE"><speaker>MOLIÈRE, seul.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1">Puisque j'ai pu quitter un moment les enfers,</l>
 	<l id="2">Que n'ai-je le loisir d'observer les travers</l>
 	<l id="3">Dont ce siècle, sans doute, autant qu'un autre abonde !</l>
@@ -418,4 +419,3 @@
 </bottom>
 </text>
 </TEI>
-

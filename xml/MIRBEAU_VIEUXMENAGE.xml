@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,24 +31,26 @@
 			<titlePart type="sub">Représentée sur le Théâtre du Grand-Guignol le 29 Octobre 1909.</titlePart>
 			<titlePart type="sub">PRIX : UN FRANC</titlePart>
 		</docTitle> 
-		<docDate value='1909'>[1909]. Droits de traduction d'adaptation et de reproduction réservés pour tous pays.</docDate>
+		<docDate value="1909">[1909]. Droits de traduction d'adaptation et de reproduction réservés pour tous pays.</docDate>
 		<docAuthor id="MIRBEAU, Octave">d'OCTAVE MIRBEAU</docAuthor>
 		<docImprint>
-			<editor id='OLLENDORF'>PARIS, ERNEST FLAMARRION, ÉDITEUR 26 rue RACINE, 26</editor>
+			<editor id="OLLENDORF">PARIS, ERNEST FLAMARRION, ÉDITEUR 26 rue RACINE, 26</editor>
 			<printer>855957 .- Paris, Imprimerie LAHURE, 9 rue de Fleurus</printer>
 		</docImprint>
 	<castList><head>PERSONNAGE</head>
-	<castItem><role id="LE MARI" sex="1" type="H" statut='bourgeois' age='V' stat_amour='néant'>LE MARI</role>, soixante-cinq ans, grand, maigre. Figure sèche et sanguine dans des favoris grisonnants et durs. La tenue et l'allure d'un ancien magistrat M. VAYRE.</castItem>
-	<castItem><role id="LA FEMME" sex="2" type="H" statut='bourgeois' age='V' stat_amour='néant'>LA FEMME</role>, soixante ans. Infirme, presque paralysée, énorme, les cheveux tout blancs. Visage bouffi de graisse maladive. Mme Louise FRANCE.</castItem>
-	<castItem><role id="LA FEMME DE CHAMBRE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='néant'>LA FEMME DE CHAMBRE</role>, jeune,jolie, effrontée. Melle GALLO.</castItem>
+	<castItem><role id="LE MARI" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">LE MARI</role>, soixante-cinq ans, grand, maigre. Figure sèche et sanguine dans des favoris grisonnants et durs. La tenue et l'allure d'un ancien magistrat M. VAYRE.</castItem>
+	<castItem><role id="LA FEMME" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">LA FEMME</role>, soixante ans. Infirme, presque paralysée, énorme, les cheveux tout blancs. Visage bouffi de graisse maladive. Mme Louise FRANCE.</castItem>
+	<castItem><role id="LA FEMME DE CHAMBRE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">LA FEMME DE CHAMBRE</role>, jeune,jolie, effrontée. Melle GALLO.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XIXème' link=''>Le théâtre représente la terrasse d'une maison de campagne dans les environs de Paris. Sur la terrasse, une table de jardin, des fauteuils d'osier, des fauteuils américains, chaises et pliants.</set>
+	<set location="Paris" country="France" periode="XIXème" link="">Le théâtre représente la terrasse d'une maison de campagne dans les environs de Paris. Sur la terrasse, une table de jardin, des fauteuils d'osier, des fauteuils américains, chaises et pliants.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>VIEUX MÉNAGE</head>
 <stage type="decor/meteo/costume">Au lever du rideau, la femme, conduite et soutenue par sa camériste, descend le perron de la maison et marche, péniblement, en soufflant, en criant, vers la table. Le mari vient derrière qui porte, sur son bras, des couvertures de laine chaude. La femme est tout entière enveloppée d'un manteau. Son visage disparait sous les plis d'une dentelle blanche. Bien qu'elle soit aidée par la femme de chambre, elle s'appuie, lourdement, à chaque pas qu'elle fait, sur une canne à béquille. De temps en temps, elle s'arrête et se plaint. C'est le soir, après le dîner, un soir d'été qui tombe, silencieux, calme et très clair, sur le jardin, dont les massifs, sur le ciel pur, sans nuages, s'assombrissent. Les fenêtres du rez-de-chaussée de la maison sont éclairées par une lumière rouge.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Femme, LE MARI, LA FEMME DE CHAMBRE</head>
-<sp stage="toward" who="LA FEMME"><speaker>LA FEMME, à la femme de chambre.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Femme, LE MARI, LA FEMME DE CHAMBRE
+</stage>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="toward">, à la femme de chambre.
+</stage>
 <p id="1">
 	<s id="1">Pas si vite... </s>
 	<s id="2">Pas si fort... </s>
@@ -57,7 +59,8 @@
 	<s id="5">Mais faites donc attention...</s>
 </p>
 </sp>
-<sp stage="quick" who="LA FEMME DE CHAMBRE"><speaker>LA FEMME DE CHAMBRE, la voix brève.</speaker>
+<sp who="LA FEMME DE CHAMBRE"><speaker>LA FEMME DE CHAMBRE</speaker><stage type="quick">, la voix brève.
+</stage>
 <p id="2">
 	<s id="1">C'est à peine si je touche Madame... </s>
 	<s id="2">On ne sait jamais, comment faire avec Madame...</s>
@@ -145,7 +148,8 @@
 	<s id="3">Je n'y peux rien...</s>
 </p>
 </sp>
-<sp who="LA FEMME"><speaker>LA FEMME, d'une voix plus plaintive.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage>, d'une voix plus plaintive.
+</stage>
 <p id="14">
 	<s id="1">Pourquoi aussi m'obliger à venir, tous les soirs, sur la terrasse ? </s>
 	<s id="2">Tu sais que cela m'est défendu... </s>
@@ -284,12 +288,14 @@
 	<s id="4">Restez dans le petit salon...</s>
 </p>
 </sp>
-<sp stage="quick" who="LA FEMME DE CHAMBRE"><speaker>LA FEMME DE CHAMDRE, très brève.</speaker>
+<sp who="LA FEMME DE CHAMBRE"><speaker>LA FEMME DE CHAMDRE</speaker><stage type="quick">, très brève.
+</stage>
 <p id="36">
 	<s id="2">Madame sait que je n'ai pas dîné ?</s>
 </p>
 </sp>
-<sp stage="" who="LA FEMME"><speaker>LA FEMME, ainère.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="">, ainère.
+</stage>
 <p id="37">
 	<s id="1">Ah ! </s>
 	<s id="2">Oui !... </s>
@@ -305,7 +311,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, moins La Femme de Chambre.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, moins La Femme de Chambre.
+</stage>
 <sp who="LA FEMME"><speaker>LA FEMME.</speaker>
 <p id="1">
 	<s id="1">Comme elle me traite !... </s>
@@ -325,7 +332,8 @@
 </p>
 <stage type="silence/stress/wipe">Silence. Elle essuie son front où la sueur coule.</stage>
 </sp>
-<sp stage="sit/furniture" who="LE MARI"><speaker>LE MARI, il s'est assis confortablement dans un fauteuil d'osier, les jambes croisées, la tète vers le ciel.</speaker> 
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="sit/furniture">, il s'est assis confortablement dans un fauteuil d'osier, les jambes croisées, la tète vers le ciel. 
+</stage> 
 <p id="4">
 	<s id="1">On est, ma foi, très bien ici...</s>
 </p>
@@ -525,7 +533,8 @@
 	<s id="1">C'est monstrueux ce que tu dis là...</s>
 </p>
 </sp>
-<sp stage="wave" who="LE MARI"><speaker>LE MARI, haussant les épaules.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="43">
 	<s id="1">Tout cela, pour quelques petits rhumatismes... </s>
 	<s id="2">Car, enfin, ce ne sont que des rhumatismes... </s>
@@ -623,7 +632,8 @@
 	<s id="2">Je tâcherai de n'être pas incommodée...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE MARI"><speaker>LE MARI, il parait gêné.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="embarrassed">, il parait gêné.
+</stage>
 <p id="53">
 	<s id="1">Ah ! </s>
 	<s id="2">Les larmes, maintenant !... </s>
@@ -675,7 +685,8 @@
 	<s id="3">J'en souffre beaucoup, au contraire...</s>
 </p>
 </sp>
-<sp stage="continue" who="LA FEMME"><speaker>LA FEMME, continuant.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="continue">, continuant.
+</stage>
 <p id="60">
 	<s id="1">Jamais plus je ne t'en parlerai... </s>
 	<s id="2">Je ne sais pas où j'avais la tête et ce qui m'a pris, tout à l'heure, de t'en parler... </s>
@@ -719,7 +730,8 @@
 	<s id="4">Qui te remonterait, sinon moi ?</s>
 </p>
 </sp>
-<sp who="LA FEMME"><speaker>LA FEMME, d'une voix légèrement amère.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage>, d'une voix légèrement amère.
+</stage>
 <p id="67">
 	<s id="1">Mais oui... mais oui... </s>
 	<s id="2">Et je te remercie... </s>
@@ -740,7 +752,8 @@
 </p>
 <stage type="smoke/sit">Le mari rallume son cigare, s'assoit dans le fauteuil, et, bien calé des coudes, des reins, des épaules, les jambes allongées, la tête confortablement renversée sur le dossier, il souffle de lents, de longs, de gros jets de fumée, qu'une petite brise pousse vers le visage de la femme. Un silence.</stage>
 </sp>
-<sp stage="cough/stay" who="LA FEMME"><speaker>LA FEMME, qui toussote mais n'ose faire un geste. Résigner.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="cough/stay">, qui toussote mais n'ose faire un geste. Résigner.
+</stage>
 <p id="70">
 	<s id="1">André ?</s>
 </p>
@@ -750,7 +763,8 @@
 	<s id="1">Je t'écoute.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LA FEMME"><speaker>LA FEMME, embarrassée.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="embarrassed">, embarrassée.
+</stage>
 <p id="72">
 	<s id="1">Promets-moi de ne pas te fâcher ?</s>
 </p>
@@ -830,7 +844,8 @@
 	<s id="1">Eh bien... je sais qui est... celle belle personne...</s>
 </p>
 </sp>
-<sp stage="sad" who="LE MARI"><speaker>LE MARI, indifférent.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="sad">, indifférent.
+</stage>
 <p id="87">
 	<s id="1">Ah !...</s>
 </p>
@@ -872,7 +887,8 @@
 	<s id="2">Elle est tout ce qu'il y a de plus gracieux...</s>
 </p>
 </sp>
-<sp stage="ironic" who="LE MARI"><speaker>LE MARI, ironise.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="ironic">, ironise.
+</stage>
 <p id="94">
 	<s id="1">Oh ! </s>
 	<s id="2">Alors!...</s>
@@ -929,7 +945,8 @@
 </p>
 <stage type="silence">Un silence.</stage>
 </sp>
-<sp stage="think" who="LA FEMME"><speaker>LA FEMME, apres un moment de réflexion.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="think">, apres un moment de réflexion.
+</stage>
 <p id="103">
 	<s id="1">Écoute, André... </s>
 	<s id="2">Ce n'est pas gai ici... je m'en rends compte... </s>
@@ -973,7 +990,8 @@
 	<s id="1">Comment le sais-tu ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="LA FEMME"><speaker>LA FEMME, après hésitation.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="hesitate">, après hésitation.
+</stage>
 <p id="109">
 	<s id="1">Elle est venue tantôt déposer sa carte...</s>
 </p>
@@ -1011,7 +1029,8 @@
 	<s id="2">Une femme divorcée !...</s>
 </p>
 </sp>
-<sp stage="mysterious" who="LA FEMME"><speaker>LA FEMME, avec un petit ton mystérieux.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="mysterious">, avec un petit ton mystérieux.
+</stage>
 <p id="115">
 	<s id="1">Une femme divorcée... </s>
 	<s id="2">C'est moins difficile...</s>
@@ -1065,7 +1084,8 @@
 	<s id="6">Je sais quand tu es en amour...</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE MARI"><speaker>LE MARI, ricanant.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="laugh">, ricanant.
+</stage>
 <p id="123">
 	<s id="1">Charmant !...</s>
 </p>
@@ -1077,7 +1097,8 @@
 	<s id="3">J'aimerais mieux ça...</s>
 </p>
 </sp>
-<sp stage="abrupt" who="LE MARI"><speaker>LE MARI, plus brutal.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="abrupt">, plus brutal.
+</stage>
 <p id="125">
 	<s id="">Tu aimerais mieux... quoi ?</s>
 </p>
@@ -1109,7 +1130,8 @@
 	<s id="8">Ça, je te le jure...</s>
 </p>
 </sp>
-<sp stage="watch" who="LE MARI"><speaker>LE MARI, il lève ses yeux au ciel.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="watch">, il lève ses yeux au ciel.
+</stage>
 <p id="130">
 	<s id="1">Mais c'est confondant... c'est de la folie... </s>
 	<s id="2">Je crois rêver, ma parole !... </s>
@@ -1171,7 +1193,8 @@
 	<s id="1">... Tu vois que tu n'es pas si tranquille...</s>
 </p>
 </sp>
-<sp stage="proud" who="LE MARI"><speaker>LE MARI, bravaut toujours, mais d'une voix moins assurée.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="proud">, bravaut toujours, mais d'une voix moins assurée.
+</stage>
 <p id="137">
 	<s id="1">Oh !...</s>
 </p>
@@ -1293,7 +1316,8 @@ femme et se met à marcher sur la terrasse avec agitation.</stage>
 	<s id="2">Parle-moi plutôt de mes bonnes...</s>
 </p>
 </sp>
-<sp stage="stop/watch" who="LE MARI"><speaker>LE MARI, s'arrêtant brusquement et regardant sa femme avec une expression ignoble.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="stop/watch">, s'arrêtant brusquement et regardant sa femme avec une expression ignoble.
+</stage>
 <p id="157">
 	<s id="1">De !</s>
 </p>
@@ -1412,7 +1436,8 @@ femme et se met à marcher sur la terrasse avec agitation.</stage>
 	<s id="7">Va faire tes cochonneries ailleurs !</s>
 </p>
 </sp>
-<sp stage="sad/strong" who="LE MARI"><speaker>LE MARI, très sec, très dur.</speaker>
+<sp who="LE MARI"><speaker>LE MARI</speaker><stage type="sad/strong">, très sec, très dur.
+</stage>
 <p id="169">
 	<s id="1">C'est bien... </s>
 </p>
@@ -1425,7 +1450,8 @@ femme et se met à marcher sur la terrasse avec agitation.</stage>
 	<s id="1">Bonsoir !...</s>
 </p>
 </sp>
-<sp stage="watch/cry/tired" who="LA FEMME"><speaker>LA FEMME, elle le regarde s'éloigner. Tout_à_coup elle s'amollit et pleure, épuisée par le grand effort qu'elle a fait.</speaker>
+<sp who="LA FEMME"><speaker>LA FEMME</speaker><stage type="watch/cry/tired">, elle le regarde s'éloigner. Tout_à_coup elle s'amollit et pleure, épuisée par le grand effort qu'elle a fait.
+</stage>
 <p id="172">
 	<s id="1">J'ai eu tort de m'emporter... </s>
 	<s id="2">Je te demande pardon, André... mais, je suis si malheureuse !... </s>

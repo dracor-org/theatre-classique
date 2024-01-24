@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -21,7 +21,7 @@
 			<taille>250-500</taille>
 			<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k5745644k</permalien>
 		</SourceDesc>
-		<edStmt></edStmt>
+		<edStmt/>
 </fileDesc>
 </teiHeader>
 <text>
@@ -34,13 +34,13 @@
 			<titlePart type="sub">Joué à Paris, sur le Théâtre des petits-comédiens de Monseigneur le Comte de Beaujolais, le 18 septembre 1787, et publiée au profit du sieur MOREL.</titlePart>
 			<titlePart type="sub">Prix I liv. 4 s.</titlePart>
 		</docTitle> 
-		<docDate value='1787'>1787.</docDate>
-		<docAuthor id='DUMANIANT, Antoine-Jean Bourlin dit'>PAR M. DUMANIANT.</docAuthor>
+		<docDate value="1787">1787.</docDate>
+		<docAuthor id="DUMANIANT, Antoine-Jean Bourlin dit">PAR M. DUMANIANT.</docAuthor>
 		<docImprint>
-			<printer id='PRAULT'>À PARIS, Chez PRAULT, Imprimeur du Roi, quai des Augustins à l'Immortalité.</printer>
+			<printer id="PRAULT">À PARIS, Chez PRAULT, Imprimeur du Roi, quai des Augustins à l'Immortalité.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1787-09-18' location='Théâtre des petits-comédiens'> à Paris, sur le Théâtre des petits-comédiens de Monseigneur le Comte de Beaujolais, le 18 septembre 1787.</premiere>
+			<premiere date="1787-09-18" location="Théâtre des petits-comédiens"> à Paris, sur le Théâtre des petits-comédiens de Monseigneur le Comte de Beaujolais, le 18 septembre 1787.</premiere>
 		</performance>
 	<div type="citation">
 		<p>Chassez le naturel, il revient au galop. Boileau, Satires.</p>
@@ -52,21 +52,23 @@
 		<p>Le fond de cette pièce est tiré de trois héroïdes de Dorat. Il eût été facile d'en faire un Drame très touchant : comme chacun à sa manière d'envisager les objets, j'ai préféré de traiter la chose gaîment. Ce petit Opéra a fait fortune au Théâtre des petits comédiens de Monseigneur le comte de Beaujolais ; mais j'aime à convenir que ce succès est entièrement dû à la délicieuse musique dont Monsieur Philidor, en se jouant, a si fort embelli cette bagatelle.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-			<castItem><role id='SÉLIM' sex="1" type="H" statut="commerçant" age="A" stat_amour=''>SÉLIM</role>, marchand d'esclaves.</castItem>
-			<castItem><role id='ALI' sex="1" type="H" statut="esclave" age="A" stat_amour=''>ALI</role>, esclave et factotum de Sélim.</castItem>
-			<castItem><role id='VALCOUR' sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>VALCOUR</role>, amant de Zéila.</castItem>
-			<castItem><role id='ZÉILA' sex="2" type="H" statut="esclave" age="A" stat_amour=''>ZÉILA</role>, jeune indienne, esclave de Sélim.</castItem>
-			<castItem><role id='FATMÉ' sex="2" type="H" statut="esclave" age="A" stat_amour=''>FATMÉ</role>, esclave de Sélim.</castItem>
-			<castItem><role id='ZISINE' sex="2" type="H" statut="esclave" age="A" stat_amour=''>ZISINE</role>, esclave de Sélim.</castItem>
-			<castItem><role id='QUATRE MAROQUINS' sex="1" type="H" statut="peuple" age="A" stat_amour=''>QUATRE MAROQUINS</role>, personnages muets.</castItem>
+			<castItem><role id="SÉLIM" sex="1" type="H" statut="commerçant" age="A" stat_amour="">SÉLIM</role>, marchand d'esclaves.</castItem>
+			<castItem><role id="ALI" sex="1" type="H" statut="esclave" age="A" stat_amour="">ALI</role>, esclave et factotum de Sélim.</castItem>
+			<castItem><role id="VALCOUR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">VALCOUR</role>, amant de Zéila.</castItem>
+			<castItem><role id="ZÉILA" sex="2" type="H" statut="esclave" age="A" stat_amour="">ZÉILA</role>, jeune indienne, esclave de Sélim.</castItem>
+			<castItem><role id="FATMÉ" sex="2" type="H" statut="esclave" age="A" stat_amour="">FATMÉ</role>, esclave de Sélim.</castItem>
+			<castItem><role id="ZISINE" sex="2" type="H" statut="esclave" age="A" stat_amour="">ZISINE</role>, esclave de Sélim.</castItem>
+			<castItem><role id="QUATRE MAROQUINS" sex="1" type="H" statut="peuple" age="A" stat_amour="">QUATRE MAROQUINS</role>, personnages muets.</castItem>
    </castList>
 	<set location="(Lieu indéterminé)" country="Maroc" periode="XVIIIème" gps="">La scène est à Maroc, dans la maison de Selim.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA BELLE ESCLAVE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Valcour, Ali.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Valcour, Ali.
+</stage>
 <stage type="title">DUO.</stage>
-<sp who="VALCOUR"><speaker>VALCOUR, en esclave.</speaker>
+<sp who="VALCOUR"><speaker>VALCOUR</speaker><stage>, en esclave.
+	</stage>
 	<l id="1" syll="4" part="i">Quoi ! Dans ces lieux !</l>
 </sp>
 <sp who="ALI"><speaker>ALI.</speaker>
@@ -332,7 +334,8 @@
 	<s id="1">Hâtez, je vous prie, l'instant où je vais revoir tout ce que j'aime au monde ; songez que le bonheur de ma vie en dépend.</s>
 </p>
 </sp>
-<sp who="ALI"><speaker>ALI, le poussant.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage>, le poussant.
+</stage>
 <p id="36">
 	<s id="1">Eh ! </s>
 	<s id="2">Oui, oui.</s>
@@ -349,7 +352,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ali, Fatmé, Zisine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ali, Fatmé, Zisine.
+</stage>
 <sp who="ZISINE"><speaker>ZISINE.</speaker>
 <p id="1">
 	<s id="1">Ali, quel est cet homme que je viens de voir ? </s>
@@ -442,22 +446,26 @@
 </p>
 <stage type="title">TRIO.</stage>
 </sp>
-<sp stage="aparte/toward" who="FATMÉ"><speaker>FATMÉ, à part, à Ali.</speaker>
+<sp who="FATMÉ"><speaker>FATMÉ</speaker><stage type="aparte/toward">, à part, à Ali.
+	</stage>
 	<l id="33">Cher Ali, je t'ouvre mon âme,</l>
 	<l id="34">L'esclavage est un affront pour moi ;</l>
 	<l id="35">Que ton secours que je réclame,</l>
 	<l id="36">De Sélim m'assure la foi.</l>
 </sp>
-<sp stage="aparte/toward" who="ALI"><speaker>ALI, à part, à Fatmé.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="aparte/toward">, à part, à Fatmé.
+	</stage>
 	<l id="37">Ah ! Madame, comptez sur moi.</l>
 </sp>
-<sp stage="pull/away/toward" who="ZISINE"><speaker>ZISINE, tirant Ali à part.</speaker>
+<sp who="ZISINE"><speaker>ZISINE</speaker><stage type="pull/away/toward">, tirant Ali à part.
+	</stage>
 	<l id="38">Si j'obtiens une préférence</l>
 	<l id="39">Que Sélim doit à mes attraits,</l>
 	<l id="40">Sois sûr que ma reconnaissance,</l>
 	<l id="41">Cher Ali, ne mourra jamais.</l>
 </sp>
-<sp who="ALI"><speaker>ALI, à part, à Zisine.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage>, à part, à Zisine.
+	</stage>
 	<l id="42">Ah ! Je suis à vous pour jamais.</l>
 </sp>
 <sp who="FATMÉ"><speaker>FATMÉ.</speaker>
@@ -516,11 +524,13 @@
 <sp who="ZISINE"><speaker>ZISINE.</speaker>
 	<l id="65">Je saurai le voir dans vos bras.</l>
 </sp>
-<sp stage="aparte/toward" who="FATMÉ"><speaker>FATMÉ, à part, à Ali.</speaker>
+<sp who="FATMÉ"><speaker>FATMÉ</speaker><stage type="aparte/toward">, à part, à Ali.
+	</stage>
 	<l id="66">Ali, je t'en supplie, </l>
 	<l id="67">Fais qu'elle ne l'obtienne pas.</l>
 </sp>
-<sp who="ZISINE"><speaker>ZISINE, à part, à Ali.</speaker>
+<sp who="ZISINE"><speaker>ZISINE</speaker><stage>, à part, à Ali.
+	</stage>
 	<l id="68">Cher Ali, je t'en prie,</l>
 	<l id="69">Hélas ! Ne m'abandonne pas.</l>
 </sp>
@@ -530,10 +540,12 @@
 <sp who="ZISINE"><speaker>ZISINE.</speaker>
 	<l id="71">Vous avez tant d'appas !</l>
 </sp>
-<sp stage="aparte" who="FATMÉ"><speaker>FATMÉ, à part.</speaker>
+<sp who="FATMÉ"><speaker>FATMÉ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="72" syll="4" part="i">Elle le croie.</l>
 </sp>
-<sp stage="aparte" who="ZISINE"><speaker>ZISINE, à part.</speaker>
+<sp who="ZISINE"><speaker>ZISINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="72" syll="4" part="f">Elle s'y fie.</l>
 </sp>
 <sp who="FATMÉ"><speaker>FATMÉ.</speaker>
@@ -542,10 +554,12 @@
 <sp who="ZISINE"><speaker>ZISINE.</speaker>
 	<l id="74">Que rien ne doit vous résister.</l>
 </sp>
-<sp stage="aparte" who="FATMÉ"><speaker>FATMÉ, à part.</speaker>
+<sp who="FATMÉ"><speaker>FATMÉ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="75" syll="4" part="i">Que je la hais !</l>
 </sp>
-<sp stage="aparte" who="ZISINE"><speaker>ZISINE, à part.</speaker>
+<sp who="ZISINE"><speaker>ZISINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="75" syll="4" part="f">Que je l'abhorre.</l>
 </sp>
 <sp who="ALI"><speaker>ALI.</speaker>
@@ -644,7 +658,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sélim, Ali.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sélim, Ali.
+</stage>
 <sp who="SÉLIM"><speaker>SÉLIM.</speaker>
 <p id="1">
 	<s id="1">Bien, bien, Ali ; tu me parais joyeux, cela me fait plaisir. </s>
@@ -768,7 +783,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Valcour, Ali, Sélim.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Valcour, Ali, Sélim.
+</stage>
 <sp who="ALI"><speaker>ALI. </speaker>
 <p id="1">
 	<s id="1">Le voilà : qu'en dites-vous ?</s>
@@ -779,7 +795,8 @@
 	<s id="1">Il a l'air triste.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALI"><speaker>ALI, à part.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">On le serait à moins.</s>
 </p>
@@ -855,7 +872,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ali, Sélim.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ali, Sélim.
+</stage>
 <sp who="SÉLIM"><speaker>SÉLIM.</speaker>
 <p id="1">
 	<s id="1">Cette commission paraît lui faire plaisir. </s>
@@ -874,7 +892,8 @@
 	<s id="2">Je me sens en belle humeur, vas vite me chercher un cadi, tout ce qu'il me faut, et que tout soit terminé avant midi ; j'en dînerai de meilleur appétit.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALI"><speaker>ALI, à part.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Diable ; allons tout préparer pour le départ.</s>
@@ -886,7 +905,8 @@
 	<s id="2">Zéila vient.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALI"><speaker>ALI, a part.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="aparte">, a part.
+</stage>
 <p id="6">
 	<s id="1">Je ne puis la prévenir.</s>
 </p>
@@ -903,7 +923,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Sélim, Zéila, Ali.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Sélim, Zéila, Ali.
+</stage>
 <sp who="SÉLIM"><speaker>SÉLIM.</speaker>
 <p id="1">
 	<s id="1">Attendez-moi là, Madame ; je suis à vous dans la minute, et je vous dirai quelque chose... par quelqu'un... </s>
@@ -925,7 +946,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp who="ZÉILA"><speaker>ZÉILA, seule.</speaker>
+<sp who="ZÉILA"><speaker>ZÉILA</speaker><stage>, seule.
+</stage>
 <stage type="title">RÉCITATIF.</stage>
 	<l id="146">Ô ciel ! Se pourrait-il ? Quoi ! Ces mortels farouches</l>
 	<l id="147">Compatiraient à mes douleurs ?</l>
@@ -951,8 +973,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Zéila, Valcour, Sélim.</head>
-<sp who="SÉLIM"><speaker>SÉLIM, à Valcour.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Zéila, Valcour, Sélim.
+</stage>
+<sp who="SÉLIM"><speaker>SÉLIM</speaker><stage>, à Valcour.
+</stage>
 <p id="1">
 	<s id="1">Tiens, la voilà ; tourne-lui cela le plus joliment qu'il te sera possible.</s>
 </p>
@@ -1081,7 +1105,8 @@
 	<l id="220">Impossible à l'Amour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Sélim, Valcour, Zéila, Ali.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Sélim, Valcour, Zéila, Ali.
+</stage>
 <sp who="ALI"><speaker>ALI.</speaker>
 <p id="1">
 	<s id="1">Seigneur, Zadig vient pour vous payer la demi-douzaine de femmes que vous lui avez vendues la semaine dernière.</s>
@@ -1118,7 +1143,8 @@
 <stage type="wave/exit">Il fait en sortant un geste d'intelligence à Ali, comme pour lui dire de veiller sur eux.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Valcour, Zéila, Ali.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Valcour, Zéila, Ali.
+</stage>
 <sp who="ZÉILA"><speaker>ZÉILA.</speaker>
 <p id="1">
 	<s id="1">N'est-ce point un songe qui m'abuse ! </s>
@@ -1135,7 +1161,8 @@
 	<s id="1">Par quel miracle ?</s>
 </p>
 </sp>
-<sp stage="quick" who="ALI"><speaker>ALI, vite.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="quick">, vite.
+</stage>
 <p id="4">
 	<s id="1">En deux mots voici l'histoire. </s>
 	<s id="2">On le sépara de vous malgré lui. </s>
@@ -1147,7 +1174,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Valcour, Zéila, ensuite Fatmé, Zisine dans le fond.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Valcour, Zéila, ensuite Fatmé, Zisine dans le fond.
+</stage>
 <stage type="title">ARIETTE.</stage>
 <sp who="ZÉILA"><speaker>ZÉILA.</speaker>
 	<l id="221">Mon coeur, par ta présence,</l>
@@ -1182,8 +1210,10 @@
 	<l id="244">Au suprême bonheur ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les précédents, Sélim, et quatre personnages muets.</head>
-<sp stage="entrance/toward" who="FATMÉ"><speaker>FATMÉ, à Sélim qui entre.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les précédents, Sélim, et quatre personnages muets.
+</stage>
+<sp who="FATMÉ"><speaker>FATMÉ</speaker><stage type="entrance/toward">, à Sélim qui entre.
+</stage>
 <p id="1">
 	<s id="1">Seigneur, vengez-vous d'une infidèle qui vous trahit.</s>
 </p>
@@ -1230,8 +1260,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV ET DERNIÈRE. Les précédents, Ali.</head>
-<sp stage="entrance" who="ALI"><speaker>ALI, entrant. </speaker>
+<div2 type="scene" n="15"><head>SCÈNE XV ET DERNIÈRE.</head><stage> Les précédents, Ali.
+</stage>
+<sp who="ALI"><speaker>ALI</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">La barque est prête. </s>
 	<s id="2">Ah ! </s>
@@ -1239,7 +1271,8 @@
 	<s id="4">Décampons!</s>
 </p>
 </sp>
-<sp stage="stop" who="SÉLIM"><speaker>SÉLIM, l'arrêtant.</speaker>
+<sp who="SÉLIM"><speaker>SÉLIM</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="2">
 	<s id="1">Halte-là. </s>
 	<s id="2">C'est toi, perfide esclave, qui tramais tout cela. </s>
@@ -1259,7 +1292,8 @@
 	<l id="250">D'aller me mêler de cela ?</l>
 	<l id="251">Le joli coup que j'ai fait là !</l>
 </sp>
-<sp stage="show" who="SÉLIM"><speaker>SÉLIM, montrant Valcour,</speaker>
+<sp who="SÉLIM"><speaker>SÉLIM</speaker><stage type="show">, montrant Valcour,
+	</stage>
 	<l id="252">Vite, que l'on me lie</l>
 	<l id="253">Cet insolent.</l>
 </sp>
@@ -1322,7 +1356,8 @@
 <sp who="ALI"><speaker>ALI.</speaker>
 	<l id="279">Deux mille sequins que voilà.</l>
 </sp>
-<sp stage="give" who="VALCOUR"><speaker>VALCOUR, offrant une bourse.</speaker>
+<sp who="VALCOUR"><speaker>VALCOUR</speaker><stage type="give">, offrant une bourse.
+	</stage>
 	<l id="280">Prends, délivre Zéila.</l>
 </sp>
 <sp who="SÉLIM"><speaker>SÉLIM.</speaker>
@@ -1348,7 +1383,8 @@
 <stage type="get">Elle se saisit du poignard de Sélim qui se recule, croyant qu'elle veut le tuer.</stage>
 	<l id="291">Le trépas, malgré toi, saura nous réunir.</l>
 </sp>
-<sp stage="pull" who="ALI"><speaker>ALI, la retenant.</speaker>
+<sp who="ALI"><speaker>ALI</speaker><stage type="pull">, la retenant.
+	</stage>
 	<l id="292">Seigneur ! Elle est femme à le faire.</l>
 	<l id="293">Prenez l'argent, renvoyez-la.</l>
 </sp>
@@ -1366,7 +1402,8 @@
 <sp who="VALCOUR, ZÉILA"><speaker>VALCOUR, ZÉILA.</speaker>
 	<l id="297">Nous sommes unis, plus d'alarmes,</l>
 </sp>
-<sp stage="noise" who="SÉLIM"><speaker>SÉLIM, faisant sonner la bourse.</speaker>
+<sp who="SÉLIM"><speaker>SÉLIM</speaker><stage type="noise">, faisant sonner la bourse.
+	</stage>
 	<l id="298">C'est un beau son que celui-là ;</l>
 	<l id="299">Mais une femme a bien des charmes !</l>
 </sp>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1911-1920</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -28,17 +28,17 @@
 		<docTitle>
 			<titlePart type="main">LE GORA</titlePart>
 		</docTitle> 
-		<docDate value='1920'></docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1920"/>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="GUSTAVE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>GUSTAVE</role>.</castItem>
-			<castItem><role id="BOBÉCHOTTE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>BOBÉCHOTTE</role>.</castItem>
+			<castItem><role id="GUSTAVE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GUSTAVE</role>.</castItem>
+			<castItem><role id="BOBÉCHOTTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">BOBÉCHOTTE</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE GORA</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE.</speaker>
 <p id="1">
 	<s id="1">Trognon, je vais bien t'épater. </s>
@@ -86,7 +86,8 @@
 	<s id="1">Ma foi, non.</s>
 </p>
 </sp>
-<sp stage="happy" who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE, égayée.</speaker>
+<sp who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE</speaker><stage type="happy">, égayée.
+</stage>
 <p id="9">
 	<s id="1">Mon pauvre Trognon, je te savais un peu poire, mais à ce point-là, je n'aurais pas cru. </s>
 	<s id="2">Alors, non, tu ne sais pas qu'un gora, c'est un chat ?</s>
@@ -170,7 +171,8 @@
 	<s id="1">Elle est si instruite que ça ?</s>
 </p>
 </sp>
-<sp stage="naive" who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE, avec une grande simplicité.</speaker>
+<sp who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE</speaker><stage type="naive">, avec une grande simplicité.
+</stage>
 <p id="25">
 	<s id="1">Tout ce qui se passe dans la maison, c'est par elle que je l'ai appris.</s>
 </p>
@@ -261,7 +263,8 @@
 	<s id="1">Oui.</s>
 </p>
 </sp>
-<sp stage="wave" who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE, haussant les épaules.</speaker>
+<sp who="BOBÉCHOTTE"><speaker>BOBÉCHOTTE</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="42">
 	<s id="1">En voilà des histoires ! </s>
 	<s id="2">Qu'est-ce que je dois dire, avec tout ça ?</s>
@@ -383,7 +386,8 @@
 	<s id="1">Ça va durer longtemps, cette plaisanterie-là ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="GUSTAVE"><speaker>GUSTAVE, interloqué.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="estonish">, interloqué.
+</stage>
 <p id="65">
 	<s id="1">Permets...</s>
 </p>
@@ -422,7 +426,8 @@
 	<s id="6">Heureusement, il est encore temps.</s>
 </p>
 </sp>
-<sp stage="anxious" who="GUSTAVE"><speaker>GUSTAVE, inquiet.</speaker>
+<sp who="GUSTAVE"><speaker>GUSTAVE</speaker><stage type="anxious">, inquiet.
+</stage>
 <p id="61">
 	<s id="1">Hein ? </s>
 	<s id="2">Comment ? </s>

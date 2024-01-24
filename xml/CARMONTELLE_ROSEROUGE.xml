@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,24 +30,26 @@
 			<titlePart type="sub">QUARANTE-TROISÈME PROVERBE.</titlePart>
 			<titlePart type="sub">Trois livres le Volume.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='LEJAY'>À PARIS, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
+			<printer id="LEJAY">À PARIS, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR BROSSART" sex="1" type ="H" statut="peintre" age="A" stat_amour='néant'>MONSIEUR BROSSART</role>, Maître Peintre. Veste noire, redingote, jarretières noires, col noir, mauvaise perruque, mauvais chapeau, une pipe.</castItem>
-		<castItem><role id="MADAME BROSSARD" sex="2" type ="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME BROSSART</role>, En casaquin d'indienne, bonnet rond, avec un tablier à carreaux.</castItem>
-		<castItem><role id="MONSIEUR VINOT" sex="1" type ="H" statut="cabaretier" age="A" stat_amour='néant'>MONSIEUR VINOT</role>, Cabaretier. Habit, veste brune, à boutons plats, perruque blonde, courte, grand chapeau uni.</castItem>
-		<castItem><role id="BERTANDS" sex="1" type ="H" statut="serveur" age="A" stat_amour='néant'>BERTRAND</role>, Garçon Cabaretier. Veste grise, bonnet de laine rouge et noir, avec un tablier de grosse toile.</castItem>
+		<castItem><role id="MONSIEUR BROSSART" sex="1" type="H" statut="peintre" age="A" stat_amour="néant">MONSIEUR BROSSART</role>, Maître Peintre. Veste noire, redingote, jarretières noires, col noir, mauvaise perruque, mauvais chapeau, une pipe.</castItem>
+		<castItem><role id="MADAME BROSSARD" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME BROSSART</role>, En casaquin d'indienne, bonnet rond, avec un tablier à carreaux.</castItem>
+		<castItem><role id="MONSIEUR VINOT" sex="1" type="H" statut="cabaretier" age="A" stat_amour="néant">MONSIEUR VINOT</role>, Cabaretier. Habit, veste brune, à boutons plats, perruque blonde, courte, grand chapeau uni.</castItem>
+		<castItem><role id="BERTANDS" sex="1" type="H" statut="serveur" age="A" stat_amour="néant">BERTRAND</role>, Garçon Cabaretier. Veste grise, bonnet de laine rouge et noir, avec un tablier de grosse toile.</castItem>
 	</castList>
 	 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez Monsieur Brossart, dans la Chambre où il travaille.</set>
 <note>Texte extrait de "Proverbes dramatiques...", Louis de Carmontelle, Paris : Jorry, Lejay, 1774. pp. 44-75.</note>	 
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA ROSE ROUGE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Brossart, Madame Brossart.</head>
-<sp stage="get" who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART, tenant une pipe de tabac.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur Brossart, Madame Brossart.
+</stage>
+<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART</speaker><stage type="get">, tenant une pipe de tabac.
+</stage>
 <p id="1">
 	<s id="1">Pourquoi ne veux-tu pas mettre des carottes dans notre soupe ? </s>
 	<s id="2">Toujours des navets, des navets ! </s>
@@ -251,7 +253,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART, délayant du rouge.</speaker>
+<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART</speaker><stage>, délayant du rouge.
+</stage>
 <p id="1">
 	<s id="1">On ne paye plus les talents à présent : cependant il ne faut pas avoir l'air chagrin. </s>
 	<s id="2">Chantons un peu pour nous égayer.</s>
@@ -264,13 +267,15 @@
 	<l id="4">Que j'affronte mille périls affreux ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Brossart, Monsieur Vinot.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Brossart, Monsieur Vinot.
+</stage>
 <sp who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT.</speaker>
 <p id="1">
 	<s id="1">Mon voisin, vous voulez bien que je vienne vous voir ?</s>
 </p>
 </sp>
-<sp stage="sing" who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART, chantant.</speaker>
+<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="5">Non, non, non, non, charmé...</l>
 </sp>
 <sp who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT.</speaker>
@@ -507,7 +512,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART, se mettant à travailler.</speaker>
+<sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART</speaker><stage>, se mettant à travailler.
+</stage>
 <stage type="work">Il peint une Rose rouge.</stage>
 <p id="1">
 	<s id="1">Quelle diable de fantaisie de vouloir un lion d'or. </s>
@@ -518,7 +524,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="watch" type="scene" n="5"><head>SCÈNE V. Monsieur Brossart, Madame Brossart, sans voir ce que peint Monsieur Brossard.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage type="watch"> Monsieur Brossart, Madame Brossart, sans voir ce que peint Monsieur Brossard.
+</stage>
 <sp who="MADAME BROSSART"><speaker>MADAME BROSSART.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -608,7 +615,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="pour" type="scene" n="6"><head>SCÈNE VI. Monsieur Brossart, Madame Brossart, Bertrand, avec un panier rempli de bouteilles de vin.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage type="pour"> Monsieur Brossart, Madame Brossart, Bertrand, avec un panier rempli de bouteilles de vin.
+</stage>
 <sp who="BERTRAND"><speaker>BERTRAND.</speaker>
 <p id="1">
 	<s id="1">N'est-ce pas ici où demeure Monsieur_Brossart ?</s>
@@ -650,7 +658,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Brossart, Bertrand, regardant  peindre.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Brossart, Bertrand, regardant  peindre.
+</stage>
 <sp who="MONSIEUR BROSSART"><speaker>MONSIEUR BROSSART.</speaker>
 <p id="1">
 	<s id="1">Est-il bon, ce vin-là ?</s>
@@ -699,8 +708,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur Brossart, Madame Brossart, Bertrand.</head>
-<sp stage="carry" who="MADAME BROSSART"><speaker>MADAME BROSSART, rapportant le panier.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur Brossart, Madame Brossart, Bertrand.
+</stage>
+<sp who="MADAME BROSSART"><speaker>MADAME BROSSART</speaker><stage type="carry">, rapportant le panier.
+</stage>
 <p id="1">
 	<s id="1">Tenez, Garçon, voilà votre panier.</s>
 </p>
@@ -731,8 +742,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur Brossart, Madame Brossart.</head>
-<sp stage="watch" who="MADAME BROSSART"><speaker>MADAME BROSSART, regardant peindre.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur Brossart, Madame Brossart.
+</stage>
+<sp who="MADAME BROSSART"><speaker>MADAME BROSSART</speaker><stage type="watch">, regardant peindre.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, tu fais encore une rose rouge ?</s>
 </p>
@@ -794,7 +807,8 @@
 </p>
 <stage type="write">Il écrit au Lion d'or.</stage>
 </sp>
-<sp stage="wave" who="MADAME BROSSART"><speaker>MADAME BROSSART, levant les épaules.</speaker>
+<sp who="MADAME BROSSART"><speaker>MADAME BROSSART</speaker><stage type="wave">, levant les épaules.
+</stage>
 <p id="13">
 	<s id="1">C'est bien imaginé !</s>
 </p>
@@ -805,7 +819,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="carry" type="scene" n="10"><head>SCÈNE X. Monsieur Brossart, Madame Brossart, Monsieur Vinot, apportant le reste du vin.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage type="carry"> Monsieur Brossart, Madame Brossart, Monsieur Vinot, apportant le reste du vin.
+</stage>
 <sp who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT.</speaker>
 <p id="1">
 	<s id="1">Peut-on entrer ?</s>
@@ -848,7 +863,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Monsieur Brossart, Monsieur Vinot.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Monsieur Brossart, Monsieur Vinot.
+</stage>
 <sp who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT.</speaker>
 <p id="1">
 	<s id="1">Elle est jolie la voisine.</s>
@@ -1031,8 +1047,10 @@
 <stage type="fight">Ils veulent se battre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Monsieur Brossart, Madame Brossart, Monsieur Vinot.</head>
-<sp stage="closer" who="MADAME BROSSART"><speaker>MADAME BROSSART, se mettant entre deux.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Monsieur Brossart, Madame Brossart, Monsieur Vinot.
+</stage>
+<sp who="MADAME BROSSART"><speaker>MADAME BROSSART</speaker><stage type="closer">, se mettant entre deux.
+</stage>
 <p id="1">
 	<s id="">Eh bien, eh bien ; qu'est-ce que vous avez donc ?</s>
 </p>
@@ -1149,7 +1167,8 @@
 	<s id="1">C'est bien raisonnable, soyez de même.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT, à Madame Brossart.</speaker>
+<sp who="MONSIEUR VINOT"><speaker>MONSIEUR VINOT</speaker><stage type="toward">, à Madame Brossart.
+</stage>
 <p id="24">
 	<s id="1">Je ne demande pas mieux. </s>
 	<s id="2">Ce sera à cause de vous toujours.</s>

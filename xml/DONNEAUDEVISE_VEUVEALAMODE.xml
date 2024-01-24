@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>LA VEUVE À LA MODE, COMÉDIE</title>
-			<author type="texte" ISNI='0000 0001 0866 4651'>DONNEAU DE VIZÉ, Jean (1638-1710)</author>
+			<author type="texte" ISNI="0000 0001 0866 4651">DONNEAU DE VIZÉ, Jean (1638-1710)</author>
 		</titleStmt>
 		<publicationStmt>	
 			<publisher>publié par Paul FIEVRE, octobre 2017.</publisher>
@@ -17,7 +17,7 @@
 			<type>vers</type>
 			<periode>1661-1670</periode>
 			<taille>1000-1250</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -39,24 +39,26 @@
 	<printer id="RIBOU">À PARIS, Chez JEAN RIBOU, au Palais, vis-à-vis la Porte de l'Église de la Sainte Chapelle, à l'Image Saint Louis.</printer>
 	</docImprint>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="MIRIS" sex="2" type="H" statut='bourgeois' age='A' stat_amour=''>MIRIS</role>, veuve.</castItem> 
-		<castItem><role id="ORPHISE" sex="2" type="H" statut='bourgeois' age='A' stat_amour=''>ORPHISE</role>, sa soeur.</castItem> 
-		<castItem><role id="BEATRIX" sex="2" type="H" statut='servante' age='A' stat_amour=''>BEATRIX</role>, sa servante.</castItem>
-		<castItem><role id="CRISPIN" sex="1" type="H" statut="valet" age='A' stat_amour=''>CRISPIN</role>, son valet.</castItem>
-		<castItem><role id="DAME JEANNE" sex="2" type="H" statut='garde' age='A' stat_amour=''>DAME JEANNE</role>, garde de défunt Cléon.</castItem>
-		<castItem><role id="CLIDAMIS" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>CLIDAMIS</role>, héritier de Cléon.</castItem> 
-		<castItem><role id="ALCIPE" sex="1" type="H" statut="homme d'affaires" age='A' stat_amour=''>ALCIPE</role>, homme d'affaires.</castItem>
-		<castItem><role id="DAMIS" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>DAMIS</role>, ami de Miris.</castItem>
-		<castItem><role id="UN TAILLEUR" sex="1" type="H" statut='tailleur' age='A' stat_amour=''>UN TAILLEUR</role>.</castItem>
-		<castItem><role id="UN GARÇON FRIPIER" sex="1" type="H" statut='fripier' age='A' stat_amour=''>UN GARÇON FRIPIER</role>.</castItem>
-		<castItem><role id="UN COMMISSAIRE" sex="1" type="H" statut='commissaire' age='A' stat_amour=''>UN COMMISSAIRE</role>.</castItem>
+		<castItem><role id="MIRIS" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">MIRIS</role>, veuve.</castItem> 
+		<castItem><role id="ORPHISE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">ORPHISE</role>, sa soeur.</castItem> 
+		<castItem><role id="BEATRIX" sex="2" type="H" statut="servante" age="A" stat_amour="">BEATRIX</role>, sa servante.</castItem>
+		<castItem><role id="CRISPIN" sex="1" type="H" statut="valet" age="A" stat_amour="">CRISPIN</role>, son valet.</castItem>
+		<castItem><role id="DAME JEANNE" sex="2" type="H" statut="garde" age="A" stat_amour="">DAME JEANNE</role>, garde de défunt Cléon.</castItem>
+		<castItem><role id="CLIDAMIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">CLIDAMIS</role>, héritier de Cléon.</castItem> 
+		<castItem><role id="ALCIPE" sex="1" type="H" statut="homme d'affaires" age="A" stat_amour="">ALCIPE</role>, homme d'affaires.</castItem>
+		<castItem><role id="DAMIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">DAMIS</role>, ami de Miris.</castItem>
+		<castItem><role id="UN TAILLEUR" sex="1" type="H" statut="tailleur" age="A" stat_amour="">UN TAILLEUR</role>.</castItem>
+		<castItem><role id="UN GARÇON FRIPIER" sex="1" type="H" statut="fripier" age="A" stat_amour="">UN GARÇON FRIPIER</role>.</castItem>
+		<castItem><role id="UN COMMISSAIRE" sex="1" type="H" statut="commissaire" age="A" stat_amour="">UN COMMISSAIRE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La Scène est dans une salle basse, au logis de Cléon.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>LA VEUVE À LA MODE </head>
-<div2 type="scene" n="1"><head>SCÈNE I. Dame Jeanne, Crispin.</head>
-<sp stage="entrance" who="DAME JEANNE"><speaker>DAME JEANNE, avant que paraître, dit le premier vers.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Dame Jeanne, Crispin.
+</stage>
+<sp who="DAME JEANNE"><speaker>DAME JEANNE</speaker><stage type="entrance">, avant que paraître, dit le premier vers.
+	</stage>
 	<l id="1">Crispin, dépêche-toi, vite, de te lever. </l>
 	<l id="2">Crispin ! Il n'entend point, il faut l'aller trouver. </l>
 	<l id="3">Crispin, réveille-toi ! Que le Diable t'emporte ! </l>
@@ -88,7 +90,8 @@
 	<l id="9" syll="2" part="m">Monsieur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dame Jeanne, Crispin, Béatrix.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dame Jeanne, Crispin, Béatrix.
+</stage>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="9" syll="4" part="f">Dame Jeanne ! </l>
 </sp>
@@ -114,7 +117,8 @@
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="15" syll="8" part="f">Il vient, et cependant ne bouge. </l>
 </sp>
-<sp stage="wipe" who="CRISPIN"><speaker>CRISPIN, sort en frottant les yeux.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="wipe">, sort en frottant les yeux.
+	</stage>
 	<l id="16">On ne voit goutte encor dedans ce maudit bouge. </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
@@ -182,7 +186,8 @@
 	<l id="33" syll="2" part="i">J'y vais. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Crispin, Dame Jeanne, Béatrix.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Crispin, Dame Jeanne, Béatrix.
+</stage>
 <sp who="DAME JEANNE"><speaker>DAME JEANNE.</speaker>
 	<l id="33" syll="10" part="f">Ne courez point, Monsieur est trépassé, </l>
 	<l id="34">Et comme une chandelle, hélas ! Il a passé.</l>
@@ -302,7 +307,8 @@
 	<l id="78">Mais elle vient. Comment la consolerons-nous ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dame Jeanne, Miris, Orphise, Crispin, Béatrix.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dame Jeanne, Miris, Orphise, Crispin, Béatrix.
+</stage>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
 	<l id="79">Hélas ! Ma chère soeur, je suis inconsolable. </l>
 	<l id="80" syll="6" part="i">Ah ! Mon pauvre mari ! </l>
@@ -370,7 +376,8 @@
 <stage type="exit">Elle rentre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
 	<l id="109" syll="3" part="i">Que ferai-je ? </l>
 </sp>
@@ -398,12 +405,15 @@
 	<l id="117">Cherche un habit pour toi, fais venir mon tailleur. </l>
 	<l id="118">Ah ! Que cette pensée augment ma douleur ! </l>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="119" syll="6" part="i">C'est assez. Tout va bien. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Miris, Orphise, Béatrix.</head>
-<sp stage="stand" who="MIRIS"><speaker>MIRIS, se levant de dessus son siège.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Miris, Orphise, Béatrix.
+</stage>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="stand">, se levant de dessus son siège.
+	</stage>
 	<l id="119" syll="6" part="f">Parlons un peu d'affaires. </l>
 	<l id="120">La garde ni Crispin n'auraient pas pu se taire, </l>
 	<l id="121">C'est pourquoi devant eux je craignais de parler. </l>
@@ -512,18 +522,21 @@
 <stage type="knock">On heurte.</stage>
 	<l id="175" syll="4" part="i">Mais quelqu'un heurte. </l>
 </sp>
-<sp stage="turn/sit" who="MIRIS"><speaker>MIRIS, en se retournant, et se jetant dessus un siège.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="turn/sit">, en se retournant, et se jetant dessus un siège.
+	</stage>
 	<l id="175" syll="8" part="f">Ouvrez. Oui, votre attente est vaine, </l>
 	<l id="176">Puisqu'ayant tout perdu, ma mort est trop certaine. </l>
 	<l id="177" syll="3" part="i">C'est Alcipe. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Miris, Orphise, Alcipe, Béatrix.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Miris, Orphise, Alcipe, Béatrix.
+</stage>
 <sp who="ALCIPE"><speaker>ALCIPE.</speaker>
 	<l id="177" syll="9" part="f">Je viens seulement vous parler, </l>
 	<l id="178">Sachant bien que le temps peut seul vous consoler. </l>
 </sp>
-<sp stage="aparte" who="BEATRIX"><speaker>BEATRIX, à part.</speaker>
+<sp who="BEATRIX"><speaker>BEATRIX</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="179">Je crois qu'un riche époux ferait la même chose. </l>
 </sp>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
@@ -535,7 +548,8 @@
 	<l id="181" syll="6" part="f">Ils se parlent tout bas. </l>
 	<l id="182">Faut-il que les défunts causent tant d'embarras ! </l>
 </sp>
-<sp stage="low" who="ALCIPE"><speaker>ALCIPE, à demi haut.</speaker>
+<sp who="ALCIPE"><speaker>ALCIPE</speaker><stage type="low">, à demi haut.
+	</stage>
 	<l id="183" syll="6" part="i">On ne peut l'empêcher. </l>
 </sp>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
@@ -591,7 +605,8 @@
 	<l id="206">Mais je ne me dois pas tant gêner pour Crispin </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Miris, Orphise, Alcipe, Béatrix, Crispin.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Miris, Orphise, Alcipe, Béatrix, Crispin.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="207">Madame, en peu de temps j'ai bien fait du chemin, </l>
 	<l id="208">J'ai trouvé tout mon monde ; et, quoique je soupire, </l>
@@ -603,7 +618,8 @@
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="211" syll="3" part="m">On heurte. </l>
 </sp>
-<sp stage="low/toward" who="MIRIS"><speaker>MIRIS, elle parle bas à Alcipe.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="low/toward">, elle parle bas à Alcipe.
+	</stage>
 	<l id="211" syll="3" part="f">N'ouvrez pas. </l>
 </sp>
 <sp who="ALCIPE"><speaker>ALCIPE.</speaker>
@@ -626,7 +642,8 @@
 	<l id="218">Ah ! Mon pauvre mari que je perds aujourd'hui ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Miris, Orphise, Lucille, Béatrix, Crispin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Miris, Orphise, Lucille, Béatrix, Crispin.
+</stage>
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
 	<l id="219">Comme je prends beaucoup de part à votre ennui, </l>
 	<l id="220">Je viens comme voisine et comme votre amie... </l>
@@ -649,7 +666,8 @@
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
 	<l id="224" syll="6" part="f">Que vous perdez, Madame ! </l>
 </sp>
-<sp stage="low" who="ORPHISE"><speaker>ORPHISE, bas.</speaker>
+<sp who="ORPHISE"><speaker>ORPHISE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="225">Croit-elle ainsi chasser la douleur de son âme ? </l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -699,20 +717,23 @@
 	<l id="245">Votre douleur pourra n'être pas éternelle, </l>
 	<l id="246">Et vous pourriez user encor quatre maris. </l>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="247">Au dernier, on fera force charivaris. </l>
 </sp>
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
 	<l id="248">Le temps fait dissiper la plus forte tristesse. </l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, dit bas à Béatrix, pendant que Miris parle bas à Lucille.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, dit bas à Béatrix, pendant que Miris parle bas à Lucille.
+	</stage>
 	<l id="249">Dis-moi, toi qui connais le bien de ma maitresse, </l>
 	<l id="250">En aura-t-elle assez pour nous en faire ? </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="251" syll="2" part="i">Hélas ! </l>
 </sp>
-<sp stage="toward/give" who="MIRIS"><speaker>MIRIS, à Lucille, en lui donnant ses diamants.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="toward/give">, à Lucille, en lui donnant ses diamants.
+	</stage>
 	<l id="251" syll="6" part="f">Tenez, cachez-les donc, qu'on ne les voye pas. </l>
 </sp>
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
@@ -745,7 +766,8 @@
 	<l id="265">Que l'excès de vos maux me touche jusqu'à l'âme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
 	<l id="266" syll="6" part="i">Béatrix, un mouchoir. </l>
 </sp>
@@ -779,7 +801,8 @@
 	<l id="275">Je ne trouverai plus de maître comme lui. </l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="276">Tenez ; mais gardez-vous de pleurer davantage </l>
 	<l id="277">Et de vous ruiner, Madame, en blanchissage. </l>
@@ -827,7 +850,8 @@
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 	<l id="288" syll="6" part="f">Voyez donc à la porte. </l>
 </sp>
-<sp stage="axay" who="CRISPIN"><speaker>CRISPIN, un peu à l'écart.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="axay">, un peu à l'écart.
+	</stage>
 	<l id="289">Il faut, en le prenant, montrer une âme forte. </l>
 <stage type="open/voice">Béatrix, ayant ouvert, on entend une voix qui dit :</stage>
 	<l id="290">Comment s'est, depuis hier, porté Monsieur Cléon ? </l>
@@ -845,10 +869,12 @@
 	<l id="292" syll="6" part="f">Prenez, sans plus attendre, </l>
 	<l id="293" syll="4" part="i">Votre bouillon. </l>
 </sp>
-<sp stage="toward" who="MIRIS"><speaker>MIRIS, à Crispin.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="toward">, à Crispin.
+	</stage>
 	<l id="293" syll="2" part="m">Donnez. </l>
 </sp>
-<sp stage="watch" who="CRISPIN"><speaker>CRISPIN, en découvrant l'écuelle.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="watch">, en découvrant l'écuelle.
+	</stage>
 	<l id="293" syll="6" part="f">Quoi ! Je le viens de prendre, </l>
 	<l id="294" syll="6" part="i">Comme vous m'avez dit. </l>
 </sp>
@@ -877,7 +903,8 @@
 	<l id="300">Mais prenez-le, ma soeur, c'est moi qui vous en prie ; </l>
 	<l id="301">Il faut manger un peu pour conserver sa vie. </l>
 </sp>
-<sp stage="eat" who="MIRIS"><speaker>MIRIS, elle mord le biscuit.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="eat">, elle mord le biscuit.
+	</stage>
 	<l id="302">Hé bien, donnez-le-moi. Je n'ai point d'appétit. </l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -889,7 +916,8 @@
 	<l id="306">N'ayez plus désormais l'esprit inquiété, </l>
 	<l id="307">Vous verrez tout le monde avecque liberté. </l>
 </sp>
-<sp stage="get" who="MIRIS"><speaker>MIRIS, en tenant son biscuit.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="get">, en tenant son biscuit.
+	</stage>
 	<l id="308" syll="6" part="i">Ah ! Mon pauvre mari ! </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
@@ -943,7 +971,8 @@
 	<l id="322" syll="6" part="f">Mais c'est monsieur Damis. </l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XII. Damis, Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XII.</head><stage> Damis, Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="DAMIS"><speaker>DAMIS.</speaker>
 	<l id="323">Ayant toujours fait voeu d'être de vos amis, </l>
 	<l id="324">Je vous viens témoigner combien je prends, Madame, </l>
@@ -1008,7 +1037,8 @@
 	<l id="349">Se retirer ainsi, c'est sortir à la mode. </l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
 	<l id="350">À la fin, je pourrai respirer un moment. </l>
 </sp>
@@ -1019,7 +1049,8 @@
 	<l id="351" syll="6" part="f">Montez donc promptement </l>
 	<l id="352" syll="6" part="i">Pour serrer vos papiers. </l>
 </sp>
-<sp stage="toward" who="MIRIS"><speaker>MIRIS, à Béatrix.</speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="toward">, à Béatrix.
+	</stage>
 	<l id="352" syll="6" part="f">Si quelqu'un me demande, </l>
 	<l id="353" syll="6" part="i">Dis qu'on ne me peut voir. </l>
 </sp>
@@ -1038,7 +1069,8 @@
 	<l id="356" syll="2" part="i">On vient. </l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Clidamis, Crispin, Béatrix.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Clidamis, Crispin, Béatrix.
+</stage>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="356" syll="4" part="m">C'est Clidamis. </l>
 </sp>
@@ -1073,7 +1105,8 @@
 	<l id="367">Je serai de retour ici dans un moment. </l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Clidamis, Béatrix.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Clidamis, Béatrix.
+</stage>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="368">À vous ouïr parler, on irait que votre âme </l>
 	<l id="369">Ressent encor l'ardeur de sa première flamme. </l>
@@ -1119,26 +1152,31 @@
 	<l id="391">Ma Maîtresse pourra conserver tout son bien. </l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Béatrix, Crispin, Le Tailleur, Le Fripier.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Béatrix, Crispin, Le Tailleur, Le Fripier.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="392">Voilà votre tailleur qu'avecque moi j'amène, </l>
 	<l id="393">Et le garçon fripier, dont nous étions en peine. </l>
 </sp>
-<sp stage="toward" who="LE FRIPIER"><speaker>LE FRIPIER, à Crispin.</speaker>
+<sp who="LE FRIPIER"><speaker>LE FRIPIER</speaker><stage type="toward">, à Crispin.
+	</stage>
 	<l id="394">Je venais vous trouver, comme vous avez dit, </l>
 	<l id="395">Et n'aurais pas manqué d'apporter votre habit. </l>
 	<l id="396">Tenez, je suis bien sûr que voilà votre affaire. </l>
 </sp>
-<sp stage="carry" who="LE TAILLEUR"><speaker>LE TAILLEUR, avec sa mesure.</speaker>
+<sp who="LE TAILLEUR"><speaker>LE TAILLEUR</speaker><stage type="carry">, avec sa mesure.
+	</stage>
 	<l id="397" syll="1" part="i">Çà. </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="397" syll="2" part="m">Tout beau. </l>
 </sp>
-<sp stage="toward" who="LE TAILLEUR"><speaker>LE TAILLEUR, à Béatrix.</speaker>
+<sp who="LE TAILLEUR"><speaker>LE TAILLEUR</speaker><stage type="toward">, à Béatrix.
+	</stage>
 	<l id="397" syll="9" part="f">Le temps presse, et j'ai beaucoup affaire. </l>
 </sp>
-<sp stage="toward" who="LE FRIPIER"><speaker>LE FRIPIER, à Crispin.</speaker>
+<sp who="LE FRIPIER"><speaker>LE FRIPIER</speaker><stage type="toward">, à Crispin.
+	</stage>
 	<l id="398">Vous avez, au logis, essayé le pourpoint </l>
 	<l id="399" syll="3" part="i">Et les chausses ? </l>
 </sp>
@@ -1157,7 +1195,8 @@
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="402" syll="6" part="f">Elle fait bien aussi. </l>
 </sp>
-<sp stage="watch/up/location" who="LE TAILLEUR"><speaker>LE TAILLEUR, voyant Béatrix monter sur un escabeau.</speaker>
+<sp who="LE TAILLEUR"><speaker>LE TAILLEUR</speaker><stage type="watch/up/location">, voyant Béatrix monter sur un escabeau.
+	</stage>
 	<l id="403">Mais pourquoi Béatrix se perche-t-elle ainsi ? </l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -1175,7 +1214,8 @@
 <sp who="LE TAILLEUR"><speaker>LE TAILLEUR.</speaker>
 	<l id="409">Je la contenterai, si l'on me laisse faire. </l>
 </sp>
-<sp stage="toward/low" who="LE FRIPIER"><speaker>LE FRIPIER, à Crispin, à demi-bas.</speaker>
+<sp who="LE FRIPIER"><speaker>LE FRIPIER</speaker><stage type="toward/low">, à Crispin, à demi-bas.
+	</stage>
 	<l id="410">Elle prétend par là l'empêcher de voler. </l>
 </sp>
 <sp who="LE TAILLEUR"><speaker>LE TAILLEUR.</speaker>
@@ -1189,7 +1229,8 @@
 	<l id="412" syll="9" part="f">Mais Madame en serait en colère, </l>
 	<l id="413">Et je veux lui parler avant que de rien faire. </l>
 </sp>
-<sp stage="toward/watch" who="LE FRIPIER"><speaker>LE FRIPIER, à Crispin qui regarde son habit.</speaker>
+<sp who="LE FRIPIER"><speaker>LE FRIPIER</speaker><stage type="toward/watch">, à Crispin qui regarde son habit.
+	</stage>
 	<l id="414" syll="6" part="i">Je le garantis neuf. </l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -1218,7 +1259,8 @@
 	<l id="421">Ce que, touchant la queue, il faudra que je fasse. </l>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Béatrix, Crispin, Le Fripier.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Béatrix, Crispin, Le Fripier.
+</stage>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="422" syll="6" part="i">Çà, voyons cet habit. </l>
 </sp>
@@ -1232,7 +1274,8 @@
 	<l id="424">Je le vends tel qu'il est : mais, Madame, je gage </l>
 	<l id="425">Qu'un neuf ne pourrait pas lui servir davantage. </l>
 </sp>
-<sp stage="toward" who="CRISPIN"><speaker>CRISPIN, à Béatrix.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="toward">, à Béatrix.
+	</stage>
 	<l id="426">Si tu voulais le prendre, il me sied à ravir. </l>
 </sp>
 <sp who="LE FRIPIER"><speaker>LE FRIPIER.</speaker>
@@ -1249,7 +1292,8 @@
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
 	<l id="432">Hé bien, j'en donne encore une demi-pistole. </l>
 </sp>
-<sp stage="watch" who="CRISPIN"><speaker>CRISPIN, regardant pitoyablement Béatrix.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="watch">, regardant pitoyablement Béatrix.
+	</stage>
 	<l id="433" syll="3" part="i">Béatrix ! </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
@@ -1259,7 +1303,8 @@
 <sp who="LE FRIPIER"><speaker>LE FRIPIER.</speaker>
 	<l id="435">J'y perds, il est à vous, mais c'est pour étrenner. </l>
 </sp>
-<sp stage="give" who="BEATRIX"><speaker>BEATRIX, lui donnant de l'argent.</speaker>
+<sp who="BEATRIX"><speaker>BEATRIX</speaker><stage type="give">, lui donnant de l'argent.
+	</stage>
 	<l id="436" syll="2" part="i">Tenez. </l>
 </sp>
 <sp who="LE FRIPIER"><speaker>LE FRIPIER.</speaker>
@@ -1272,8 +1317,10 @@
 	<l id="437" syll="8" part="f">Adieu ; vous êtes brave femme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Crispin, Béatrix.</head>
-<sp stage="watch" who="BEATRIX"><speaker>BEATRIX, en regardant l'habit.</speaker>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Crispin, Béatrix.
+</stage>
+<sp who="BEATRIX"><speaker>BEATRIX</speaker><stage type="watch">, en regardant l'habit.
+	</stage>
 	<l id="438" syll="6" part="i">Hélas ! Mon pauvre maître ! </l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -1288,7 +1335,8 @@
 	<l id="441">Mais je crois que j'entends descendre ma maîtresse. </l>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE XIX. Miris, Orphise, Béatrix, Crispin.</head>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Miris, Orphise, Béatrix, Crispin.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="442">J'ai mon habit de deuil, Béatrix l'a payé. </l>
 </sp>
@@ -1301,7 +1349,8 @@
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 	<l id="444" syll="5" part="m">Mais combien vaut-il ? </l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, bas à Béatrix.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, bas à Béatrix.
+</stage>
 <note type="L">Ferrer la mule : Acheter une chose pour quelqu'un, et la lui compter plus cher qu'elle n'a coûté. [L]</note>
 	<l id="444" syll="6" part="f">Ferrerons-nous la mule. </l>
 </sp>
@@ -1328,8 +1377,10 @@
 	<l id="452" syll="6" part="i">Non, car il en prend plus. </l>
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÈNE XX. Miris, Orphise, Béatrix, Crispin, Le  Commissaire.</head>
-<sp stage="continue" who="CRISPIN"><speaker>CRISPIN, poursuit.</speaker>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Miris, Orphise, Béatrix, Crispin, Le  Commissaire.
+</stage>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="continue">, poursuit.
+	</stage>
 	<l id="452" syll="6" part="f">Mais que vois-je, Madame ? </l>
 	<l id="453">C'est un homme qui peut alarmer une femme, </l>
 	<l id="454">Qui chez les trépassés augmente la douleur, </l>
@@ -1352,7 +1403,8 @@
 	<l id="463" syll="6" part="i">Monte avec lui, Crispin. </l>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI. Miris, Orphise, Béatrix.</head>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Miris, Orphise, Béatrix.
+</stage>
 <sp who="MIRIS"><speaker>MIRIS.</speaker>
 	<l id="463" syll="6" part="f">Ô Dieu ! Que j'ai d'ennuis ! </l>
 	<l id="464">Voyez, voyez, enfin, comme Clidamis m'aime. </l>
@@ -1371,7 +1423,8 @@
 	<l id="471">Le bien le charme plus que mes faibles appas. </l>
 </sp>
 </div2>
-<div2 type="scene" n="22"><head>SCÈNE XXII. Miris, Orphise, Béatrix, Dame Jeanne.</head>
+<div2 type="scene" n="22"><head>SCÈNE XXII.</head><stage> Miris, Orphise, Béatrix, Dame Jeanne.
+</stage>
 <sp who="DAME JEANNE"><speaker>DAME JEANNE.</speaker>
 	<l id="472">Jour de Dieu, vous saurez, Monsieur le Commissaire, </l>
 	<l id="473" syll="6" part="i">Que je ne craignons rien. </l>
@@ -1467,12 +1520,15 @@
 	<l id="518" syll="3" part="i">Le voilà. </l>
 </sp>
 </div2>
-<div2 type="scene" n="23"><head>SCÈNE XXIII. Miris, Orphise, Clidamis, Dame Jeanne, Béatrix.</head>
-<sp stage="toward" who="BEATRIX"><speaker>BEATRIX, à Clidamis.</speaker>
+<div2 type="scene" n="23"><head>SCÈNE XXIII.</head><stage> Miris, Orphise, Clidamis, Dame Jeanne, Béatrix.
+</stage>
+<sp who="BEATRIX"><speaker>BEATRIX</speaker><stage type="toward">, à Clidamis.
+	</stage>
 	<l id="518" syll="9" part="f">Vous devez lui parler sans détour ; </l>
 	<l id="519">Madame vient, par moi, d'apprendre votre amour. </l>
 </sp>
-<sp stage="toward" who="CLIDAMIS"><speaker>CLIDAMIS, à Béatrix.</speaker>
+<sp who="CLIDAMIS"><speaker>CLIDAMIS</speaker><stage type="toward">, à Béatrix.
+	</stage>
 	<l id="520">Bien que pour ses appas mon triste coeur soupire, </l>
 	<l id="521">Je n'aurais pas sitôt entrepris de lui dire. </l>
 	<l id="522">Je n'ose même encor, Madame, vous parler </l>
@@ -1543,10 +1599,12 @@
 	<l id="544">Qui ne dit mot consent, et, puisqu'elle soupire </l>
 	<l id="545">Sans blâmer votre amour, cela vous doit suffire. </l>
 </sp>
-<sp stage="toward" who="CLIDAMIS"><speaker>CLIDAMIS, à Miris.</speaker>
+<sp who="CLIDAMIS"><speaker>CLIDAMIS</speaker><stage type="toward">, à Miris.
+	</stage>
 	<l id="546" syll="6" part="i">Que ne vous dois-je point ! </l>
 </sp>
-<sp stage="away" who="MIRIS"><speaker>MIRIS, s'en allant. </speaker>
+<sp who="MIRIS"><speaker>MIRIS</speaker><stage type="away">, s'en allant. 
+	</stage>
 	<l id="546" syll="6" part="f">J'en ai trop fait,  adieu. </l>
 </sp>
 <sp who="BEATRIX"><speaker>BEATRIX.</speaker>
@@ -1562,7 +1620,8 @@
 <sp who="ORPHISE"><speaker>ORPHISE.</speaker>
 	<l id="550" syll="2" part="m">Tant mieux. </l>
 </sp>
-<sp stage="toward" who="BEATRIX"><speaker>BEATRIX, au peuple.</speaker>
+<sp who="BEATRIX"><speaker>BEATRIX</speaker><stage type="toward">, au peuple.
+	</stage>
 	<l id="550" syll="6" part="f">Vous pouvez assurer </l>
 	<l id="551">Que nous avons fait rire à force de pleurer. </l>
 </sp>

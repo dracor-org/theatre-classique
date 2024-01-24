@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -33,7 +33,7 @@
 		<titlePart part="sub">Joué pour la première fois le 1er octobre 1900, au THÉÂTRE DES MATHURINS.</titlePart>
 	</docTitle>
    <docDate value="1924">1924</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<copyright>Droits de représentation, de reproduction et de traduction réservés pour tous les pays, y compris la Hollande.</copyright>
 		<editor id="CALMANN LÉVY">Paris, CALMANN LÉVY, 3 rue AUBER, 3.</editor>
@@ -51,24 +51,26 @@
 			<signature>TRISTAN BERNARD</signature>
 	</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MÉLECH" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>MÉLECH</role>. M. TARRIDE.</castItem>
-		<castItem><role id="LOTH" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>LOTH</role>. M. CHALANDE.</castItem>
-		<castItem><role id="SCHEM" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>SCHEM</role>. M. LIESSE.</castItem>
-		<castItem><role id="RAAB" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>RAAB</role>. M. MARIE.</castItem>
-		<castItem><role id="UN GOMORRHÉEN" sex="1" type="H" statut="bourgeois" age="A" stat_amour='DAGRAR'>UN GOMORRHÉEN</role>.</castItem>
-		<castItem><role id="DRAGAR" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>DAGRAR</role>. Mme MARGUERITE DEVAL.</castItem>
-		<castItem><role id="ANÉ" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>ANÉ</role>, première fille de Loth. Mme MINDÈS.</castItem>
-		<castItem><role id="JUNA" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>JUNA</role>. deuxième fille de Loth. Mme VARLEY.</castItem>
-		<castItem><role id="TITSA" sex="2" type="H" statut="servante" age="A" stat_amour=''>TITSA</role>, servante. Mme JOLLY.</castItem>
+		<castItem><role id="MÉLECH" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MÉLECH</role>. M. TARRIDE.</castItem>
+		<castItem><role id="LOTH" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">LOTH</role>. M. CHALANDE.</castItem>
+		<castItem><role id="SCHEM" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">SCHEM</role>. M. LIESSE.</castItem>
+		<castItem><role id="RAAB" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">RAAB</role>. M. MARIE.</castItem>
+		<castItem><role id="UN GOMORRHÉEN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="DAGRAR">UN GOMORRHÉEN</role>.</castItem>
+		<castItem><role id="DRAGAR" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">DAGRAR</role>. Mme MARGUERITE DEVAL.</castItem>
+		<castItem><role id="ANÉ" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">ANÉ</role>, première fille de Loth. Mme MINDÈS.</castItem>
+		<castItem><role id="JUNA" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">JUNA</role>. deuxième fille de Loth. Mme VARLEY.</castItem>
+		<castItem><role id="TITSA" sex="2" type="H" statut="servante" age="A" stat_amour="">TITSA</role>, servante. Mme JOLLY.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage "Théâtre de Tristan Bernard - I", Paris, Calmann Lévy, 1930, pp. 281-354</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
 <stage type="decor">La scène se passe dans la maison de Loth, aux environs de Gomorrhe. Au lever du rideau, Mélech entre en scène, précédé de Titsa.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Mélech, Titsa.</head>
-<sp who="TITSA"><speaker>TITSA, entrant de gauche.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Mélech, Titsa.
+</stage>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, entrant de gauche.
+</stage>
 <p id="1">
 	<s id="1">Suis-moi, étranger, dans cette demeure. </s>
 	<s id="2">Puis tu me diras ton nom et j'irai annoncer ta venue à Dagar, la femme de mon maître, le vénérable patriarche Loth.</s>
@@ -113,7 +115,8 @@
 	<s id="1">C'est le nom de cette ville maudite.</s>
 </p>
 </sp>
-<sp stage="estonish" who="TITSA"><speaker>TITSA, d'un air étonné.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="estonish">, d'un air étonné.
+</stage>
 <p id="9">
 	<s id="1">Ah !... </s>
 	<s id="2">Veux-tu attendre un peu ? </s>
@@ -123,7 +126,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="MÉLECH"><speaker>MÉLECH, seul.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je ne suis vraiment pas très propre pour parler à des dames. </s>
 	<s id="2">Enfin ! </s>
@@ -144,7 +148,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélech, Titsa.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélech, Titsa.
+</stage>
 <sp who="TITSA"><speaker>TITSA.</speaker>
 <p id="1">
 	<s id="1">Étranger, ma maîtresse va venir dans un instant, accompagnée de ses deux belles-filles. </s>
@@ -223,9 +228,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Dagar. Ané, Juna.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Dagar. Ané, Juna.
+</stage>
 <stage type="wave">Mélech s'incline. Un moment de silence. Dagar prend place, à droite, devant un siège. Les deux jeunes filles se placent à sa droite, face aux spectateurs. Mélech est sur la gauche, faisant face à Dagar.</stage>
-<sp who="DAGAR"><speaker>DAGAR, chantant.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, chantant.
+	</stage>
 	<l id="1">Que notre porte hospitalière...</l>
 </sp>
 <sp who="LES JEUNES FILLES"><speaker>LES JEUNES FILLES.</speaker>
@@ -255,13 +262,15 @@
 	<l id="15">Gloire !</l>
 	<l id="16">Joie au nou ! Fête au veau ! Gloire au nouveau venu !</l>
 </sp>
-<sp stage="wave" who="MÉLECH"><speaker>MÉLECH, s'inclinant.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="1">
 	<s id="1">Vous êtes tout à fait aimables et je ne sais comment vous remercier. </s>
 	<s id="2">Voulez-vous me permettre, à mon tour, de chanter la louange de la gracieuse maîtresse du logis ?</s>
 </p>
 </sp>
-<sp stage="toward" who="DAGAR"><speaker>DAGAR, aux jeunes filles.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="toward">, aux jeunes filles.
+</stage>
 <p id="2">
 	<s id="1">Il est très bien élevé !</s>
 </p>
@@ -394,12 +403,14 @@
 	<s id="1">Ça a l'air de se tenir mieux.</s>
 </p>
 </sp>
-<sp who="ANÉ"><speaker>ANÉ, d'un ton pénétré.</speaker>
+<sp who="ANÉ"><speaker>ANÉ</speaker><stage>, d'un ton pénétré.
+</stage>
 <p id="16">
 	<s id="1">On fait de si jolies choses avec le lin d'Arabie.</s>
 </p>
 </sp>
-<sp stage="touch" who="DAGAR"><speaker>DAGAR, tâtant le manteau.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="touch">, tâtant le manteau.
+</stage>
 <p id="17">
 	<s id="1">Si tu reviens ici pour affaires, je te demanderai de cette étoffe-la. </s>
 </p>
@@ -431,7 +442,8 @@
 	<s id="1">C'est vrai qu'elle est plissée.</s>
 </p>
 </sp>
-<sp stage="wave" who="DAGAR"><speaker>DAGAR, haussant les épaules.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="24">
 	<s id="1">Malice !</s>
 </p>
@@ -482,22 +494,26 @@
 	<s id="2">Elles sont précisément à marier et elles veulent épouser le même homme.</s>
 </p>
 </sp>
-<sp who="ANÉ"><speaker>ANÉ, piquée.</speaker>
+<sp who="ANÉ"><speaker>ANÉ</speaker><stage>, piquée.
+</stage>
 <p id="33">
 	<s id="1">Comme on dispose de nous !</s>
 </p>
 </sp>
-<sp stage="offended" who="JUNA"><speaker>JUNA, de même.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage type="offended">, de même.
+</stage>
 <p id="34">
 	<s id="1">Il faudrait un peu demander notre consentement.</s>
 </p>
 </sp>
-<sp stage="strong" who="ANÉ"><speaker>ANÉ, sèchement.</speaker>
+<sp who="ANÉ"><speaker>ANÉ</speaker><stage type="strong">, sèchement.
+</stage>
 <p id="35">
 	<s id="1">Et nous ne l'accorderions d'ailleurs pas.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="JUNA"><speaker>JUNA, à Ané, à demi-voix.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage type="toward/low">, à Ané, à demi-voix.
+</stage>
 <p id="36">
 	<s id="1">D'ailleurs, c'est sur Dagar qu'il tique : il ne la quitte pas des yeux.</s>
 </p>
@@ -623,7 +639,8 @@
 	<l id="50">Non ce n'est pas à quatorze heures</l>
 	<l id="51">Que moi je vais chercher midi !</l>
 </sp>
-<sp who="JUNA"><speaker>JUNA, à Ané.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage>, à Ané.
+</stage>
 <p id="54">
 	<s id="1">J'attendais le petit couplet grivois.</s>
 </p>
@@ -633,7 +650,8 @@
 	<s id="1">Il y en a un autre.</s>
 </p>
 </sp>
-<sp stage="sing" who="DAGAR"><speaker>DAGAR, chantant.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="52">Il s'approche, il voudrait m'étreindre...</l>
 	<l id="53">Je sens s'accroître son espoir,</l>
 	<l id="54">Ce qui m'amuse, c'est de feindre</l>
@@ -653,7 +671,8 @@
 	<s id="1">Pourtant il a engendré ces deux filles.</s>
 </p>
 </sp>
-<sp stage="low" who="DAGAR"><speaker>DAGAR, à demi-voix.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="58">
 	<s id="1">Je te ferai remarquer qu'elles sont du premier lit... </s>
 	<s id="2">Moi, je ne sais pas ce qui s'y passait dans le premier lit... </s>
@@ -684,8 +703,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Titsa.</head>
-<sp stage="closer/away" who="TITSA"><speaker>TITSA, s'approchant de Dagar pendant que Mélech s'éloigne discrètement vers la gauche.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Titsa.
+</stage>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="closer/away">, s'approchant de Dagar pendant que Mélech s'éloigne discrètement vers la gauche.
+</stage>
 <p id="1">
 	<s id="1">Maîtresse ! </s>
 	<s id="2">Le voici.</s>
@@ -723,7 +744,8 @@
 	<s id="1">Oui, bonne.</s>
 </p>
 </sp>
-<sp stage="toward" who="TITSA"><speaker>TITSA, à Juna et Ané.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="toward">, à Juna et Ané.
+</stage>
 <p id="8">
 	<s id="1">Il y a aussi là le petit jeune homme qui vient pour ces demoiselles.</s>
 </p>
@@ -744,7 +766,8 @@
 	<s id="1">Dis-lui qu'il nous attende dans la cour.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TITSA"><speaker>TITSA, à part.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Oui, mon coeur. </s>
 </p>
@@ -753,7 +776,8 @@
 	<s id="1">Il faudrait peut-être éloigner l'étranger.</s>
 </p>
 </sp>
-<sp stage="toward" who="DAGAR"><speaker>DAGAR, à Mélech.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="toward">, à Mélech.
+</stage>
 <p id="14">
 	<s id="1">Étranger, tu ferais peut-être bien d'aller au-devant de Loth ? </s>
 	<s id="2">Il arrive par la route à gauche, la route qui traverse Gomorrhe.</s>
@@ -764,7 +788,8 @@
 	<s id="1">C'est que je suis un peu fatigué.</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, embarrassée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, embarrassée.
+</stage>
 <p id="16">
 	<s id="1">Oui, mais je vais te dire. </s>
 	<s id="2">J'attends quelqu'un pour une affaire... </s>
@@ -800,7 +825,8 @@
 <stage type="exit/location">Mélech sort à gauche, les jeunes filles à droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Dagar, Titsa, Schem.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Dagar, Titsa, Schem.
+</stage>
 <sp who="TITSA"><speaker>TITSA.</speaker>
 <p id="1">
 	<s id="1">Maîtresse, il est là. </s>
@@ -818,7 +844,8 @@
 	<s id="2">Il voudrait bien savoir si c'est pour aujourd'hui ?</s>
 </p>
 </sp>
-<sp stage="alone" who="DAGAR"><speaker>DAGAR, comme à elle-même.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="alone">, comme à elle-même.
+</stage>
 <p id="4">
 	<s id="1">Je n'en sais rien. </s>
 	<s id="2">On ne sait jamais quand on donne un rendez-vous, si on consentira ou si on ne consentira pas. </s>
@@ -867,14 +894,16 @@
 	<s id="1">Fais entrer ce jeune homme.</s>
 </p>
 </sp>
-<sp stage="toward" who="TITSA"><speaker>TITSA, à Schem.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="toward">, à Schem.
+</stage>
 <p id="12">
 	<s id="1">Faisons entrer le jeune homme en question ! </s>
 	<s id="2">Jeune homme en question, donnez-vous la peine d'entrer.</s>
 </p>
 <stage type="entrance/costume/carry">Entre Schem. C'est un jeune homme un peu maigre. Il est vêtu d'une sorte de tunique flottante et coiffé d'un galourinn (petit chapeau pointu.) Il porte à la main une branche, faiblement garnie de feuilles.</stage>
 </sp>
-<sp stage="aparte" who="TITSA"><speaker>TITSA, à part.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Il n'est pas en beauté aujourd'hui.</s>
 </p>
@@ -885,13 +914,15 @@
 	<s id="1">Bonjour, Madame.</s>
 </p>
 </sp>
-<sp stage="aparte" who="DAGAR"><speaker>DAGAR, à part.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">C'est curieux ! </s>
 	<s id="2">Je ne le trouve bien que lorsqu'il n'est pas là.</s>
 </p>
 </sp>
-<sp stage="aparte" who="SCHEM"><speaker>SCHEM, à part.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="aparte">, à part.
+</stage>
 <p id="16">
 	<s id="1">Je crois que je lui fais une certaine impression.</s>
 </p>
@@ -908,7 +939,8 @@
 	<s id="3">Ça ne vous avantage pas.</s>
 </p>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, ôtant son bonnet.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, ôtant son bonnet.
+</stage>
 <p id="19">
 	<s id="1">Ma mère m'a dit qu'il était très bien.</s>
 </p>
@@ -918,7 +950,8 @@
 	<s id="1">Il me semble que vous avez encore moins de cheveux que la dernière fois.</s>
 </p>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, ôtant son bonnet.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, ôtant son bonnet.
+</stage>
 <p id="21">
 	<s id="1">Je vous en ai envoyé pas mal dans un médaillon. </s>
 	<s id="2">Et puis qu'est-ce que vous voulez ? Je mène une vie impossible.</s>
@@ -1038,7 +1071,8 @@
 	<l id="101">Que je n'en ai pour le moment</l>
 	<l id="102">Et que ce soit tranquillement.</l>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, impatienté.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, impatienté.
+	</stage>
 	<l id="103">Tranquillement ! Tranquillement !</l>
 </sp>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
@@ -1141,13 +1175,15 @@
 	<s id="3">Vous le rapporterez à madame votre mère.</s>
 </p>
 </sp>
-<sp stage="toward" who="SCHEM"><speaker>SCHEM, à lui-même.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="toward">, à lui-même.
+</stage>
 <p id="49">
 	<s id="1">Ça fera le quinzième mouton que je rapporte à ma mère depuis trois mois. </s>
 	<s id="2">Nous ne mangeons plus chez nous que du gigot et des côtelettes. Et je n'aime que le boeuf.</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, à Titsa.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, à Titsa.
+</stage>
 <p id="50">
 	<s id="1">De quelle humeur est le maître au front vénérable ?</s>
 </p>
@@ -1157,7 +1193,8 @@
 	<s id="1">Il a l'air soucieux d'un patriarche à qui l'on a vendu des petits-pois qui n'ont pas voulu cuire.</s>
 </p>	
 </sp>
-<sp stage="locaiton" who="LOTH"><speaker>VOIX DE LOTH, au dehors.</speaker>
+<sp who="LOTH"><speaker>VOIX DE LOTH</speaker><stage type="locaiton">, au dehors.
+</stage>
 <p id="52">
 	<s id="1">Abomination !</s>
 </p>
@@ -1167,12 +1204,14 @@
 	<s id="1">Qu'est-ce qu'il dit ?</s>
 </p>
 </sp>
-<sp who="TITSA"><speaker>TITSA, nonchalamment.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, nonchalamment.
+</stage>
 <p id="54">
 	<s id="1">Il dit : Abomination !</s>
 </p>
 </sp>
-<sp stage="location" who="LOTH"><speaker>VOIX DE LOTH, au dehors.</speaker>
+<sp who="LOTH"><speaker>VOIX DE LOTH</speaker><stage type="location">, au dehors.
+</stage>
 <p id="55">
 	<s id="1">Abomination !</s>
 </p>
@@ -1186,7 +1225,8 @@
 <stage type="entrance/follow">Entre Loth par la gauche, suivi de Mélech. Juna et la bonne entrent par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, Loth, Mélegh et Juna.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, Loth, Mélegh et Juna.
+</stage>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 <p id="1">
 	<s id="1">C'est mon petit mari.</s>
@@ -1209,7 +1249,8 @@
 <sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="127">L'important toujours est d'avoir la foi.</l>
 </sp>
-<sp who="LOTH"><speaker>LOTH, à Mélech, parlé.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, à Mélech, parlé.
+</stage>
 <p id="2">
 	<s id="1">Vous venez de la ville ? Vous avez vu ?</s>
 </p>
@@ -1235,7 +1276,8 @@
 	<s id="1">Elle était bien jolie, la femme de Méhar.</s>
 </p>	
 </sp>
-<sp stage="toward" who="LOTH"><speaker>LOTH, à Schem.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward">, à Schem.
+</stage>
 <p id="7">
 	<s id="1">Et votre soeur...</s>
 </p>
@@ -1333,13 +1375,15 @@
 	<s id="3">C'est si simple de m'envoyer quelqu'un !</s>
 </p>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, à demi-voix, à Dagar.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, à demi-voix, à Dagar.
+</stage>
 <p id="19">
 	<s id="1">Mais oui, un messager, c'est si simple ! </s>
 	<s id="2">Comment n'y avons-nous pas songé ?</s>
 </p>
 </sp>
-<sp stage="low" who="DAGAR"><speaker>DAGAR, bas.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="low">, bas.
+</stage>
 <p id="20">
 	<s id="1">Tais-toi ! </s>
 </p>
@@ -1371,7 +1415,8 @@
 	<s id="2">Laisse-moi terminer cette affaire de moutons.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="DAGAR"><speaker>DAGAR, qui a parlé bas à Titsa.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="low/toward">, qui a parlé bas à Titsa.
+</stage>
 <p id="26">
 	<s id="1">Tu as bien compris ?</s>
 </p>
@@ -1389,7 +1434,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="MÉLECH"><speaker>MÉLECH, seul.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">C'est bête un peu, ce qui m'arrive... </s>
 	<s id="2">Je suis pincé... absolument pincé !... </s>
@@ -1440,7 +1486,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Mélech, Loth, Titsa.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Mélech, Loth, Titsa.
+</stage>
 <sp who="LOTH"><speaker>LOTH.</speaker>
 <p id="1">
 	<s id="1">Eh bien, étranger, je suis à ta disposition pour discuter cette affaire.</s>
@@ -1462,7 +1509,8 @@
 	<s id="1">Bonne, veux-tu accompagner l'étranger jusqu'à sa chambre ?</s>
 </p>
 </sp>
-<sp stage="stey" who="TITSA"><speaker>TITSA, sans se déranger.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="stey">, sans se déranger.
+</stage>
 <p id="5">
 	<s id="1">Si l'étranger veut se donner la peine de prendre le couloir, il s'arrêtera à la troisième porte. </s>
 	<s id="2">C'est là qu'est préparée sa couche.</s>
@@ -1477,7 +1525,8 @@
 	<s id="1">C'est pourtant ton devoir de servante d'entourer de prévenances les hôtes qui viennent sous mon toit.</s>
 </p>
 </sp>
-<sp stage="touch" who="TITSA"><speaker>TITSA, touchant sa paupière inférieure.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="touch">, touchant sa paupière inférieure.
+</stage>
 <p id="8">
 	<s id="1">Mon oeil.</s>
 </p>
@@ -1502,12 +1551,14 @@
 	<s id="1">Qu'est-ce que c'est que ça ?</s>
 </p>
 </sp>
-<sp sgtage="closer.frighten" who="TITSA"><speaker>TITSA, allant à la porte qu'elle ouvre, et feignant la terreur.</speaker>
+<sp sgtage="closer.frighten" who="TITSA"><speaker>TITSA</speaker><stage>, allant à la porte qu'elle ouvre, et feignant la terreur.
+</stage>
 <p id="12">
 	<s id="1">Il y a là un inconnu, avec des ailes !</s>
 </p>
 </sp>
-<sp who="LOTH"><speaker>LOTH, étonné.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, étonné.
+</stage>
 <p id="13">
 	<s id="1">Un inconnu avec des ailes ?</s>
 </p>
@@ -1522,13 +1573,15 @@
 	<s id="1">C'est même deux ailes de pigeon, que j'avais mises de côté à la cuisine et que je gardais pour m'en faire une coiffure.</s>
 </p>
 </sp>
-<sp stage="frighten" who="LOTH"><speaker>LOTH, effrayé.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="16">
 	<s id="1">Un inconnu avec des ailes ! </s>
 	<s id="2">Demande-lui d'où il vient.</s>
 </p>
 </sp>
-<sp who="TITSA"><speaker>TITSA, à la porte.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, à la porte.
+</stage>
 <p id="17">
 	<s id="1">D'où c'est-il que vous venez ? </s>
 </p>
@@ -1538,7 +1591,8 @@
 </p>
 <stage type="show">Elle désigne le plafond en élevant le doigt.</stage>
 </sp>
-<sp who="LOTH"><speaker>LOTH, effrayé, allant à droite et à gauche.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, effrayé, allant à droite et à gauche.
+</stage>
 <p id="19">
 	<s id="1">Un envoyé du ciel ! </s>
 	<s id="2">Ané ? </s>
@@ -1551,8 +1605,10 @@
 <stage type="wave/entrance/costume">Titsa fait un signe. Entre Dagar, travestie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Loth, Titsa, Dagar, Ané, Juna, Raab.</head>
-<sp stage="sing" who="DAGAR"><speaker>DAGAR, chantant. </speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Loth, Titsa, Dagar, Ané, Juna, Raab.
+</stage>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="sing">, chantant. 
+</stage>
 <stage type="carry">Elle tient une grande trompette à la main.</stage>
 	<l id="170">Celui pour qui je traverse la nue,</l>
 	<l id="171">Tu sauras bien sa personnalité,</l>
@@ -1592,13 +1648,15 @@
 	<l id="205">Être à l'heur' pour le dîner.</l>
 <stage type="explicit">Reprise en choeur des quatre derniers vers.</stage>
 </sp>
-<sp stage="silence" who="LOTH"><speaker>LOTH, s'inclinant après un silence.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="silence">, s'inclinant après un silence.
+</stage>
 <p id="1">
 	<s id="1">Je te remercie, noble envoyé. </s>
 	<s id="2">Je vais faire préparer mes enfants et ma femme.</s>
 </p>
 </sp>
-<sp stage="hurry" who="DAGAR"><speaker>DAGAR, précipitamment.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="hurry">, précipitamment.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Pas du tout ! </s>
@@ -1610,7 +1668,8 @@
 	<s id="1">Ma femme ne doit pas m'accompagner ?</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, vivement.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, vivement.
+</stage>
 <p id="4">
 	<s id="1">Absolument pas. L'Éternel a bien insisté là-dessus. </s>
 	<s id="2">« Surtout, qu'il a dit, qu'i[l] n'emmène pas sa femme ! »</s>
@@ -1631,7 +1690,8 @@
 	<s id="6">Le feu du ciel te suivra, c'est-à-dire qu'on détachera un petit éclair spécial destiné à t'anéantir, toi et ta caravane.</s>
 </p>	
 </sp>
-<sp stage="frighten" who="LOTH"><speaker>LOTH, tremblant.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="frighten">, tremblant.
+</stage>
 <p id="7">
 	<s id="1">Bon, bon ! </s>
 </p>
@@ -1646,7 +1706,8 @@
 	<s id="1">Et maintenant, patriarche, je vais me retirer.</s>
 </p>
 </sp>
-<sp stage="exit/entrance/frighten" who="TITSA"><speaker>TITSA sort et rentre tout de suite, vraiment effrayée cette fois.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="exit/entrance/frighten"> sort et rentre tout de suite, vraiment effrayée cette fois.
+</stage>
 <p id="10">
 	<s id="1">Vénérable Maître !</s>
 </p>
@@ -1661,12 +1722,14 @@
 	<s id="1">Il y a là un homme, avec une grande barbe grise, qui tient une lumière à la main ! </s>
 </p>
 </sp>
-<sp stage="aparte/frighten" who="DAGAR"><speaker>DAGAR, à part, effrayée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="aparte/frighten">, à part, effrayée.
+</stage>
 <p id="13">
 	<s id="1">Qu'est-ce que ça veut dire ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LOTH"><speaker>LOTH, à Titsa.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward">, à Titsa.
+</stage>
 <p id="14">
 	<s id="1">Un homme avec une barbe grise ! </s>
 	<s id="2">Dis-lui qu'il entre[.]</s>
@@ -1674,8 +1737,10 @@
 <stage type="wave/entrance">Titsa fait un signe. Entre Mélech, avec une fausse barbe. Dagar s'est retirée vers la gauche où elle est un peu cachée par Juna. Titsa sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, Mélech.</head>
-<sp stage="toward" who="MÉLECH"><speaker>MÉLECH, à part.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les mêmes, Mélech.
+</stage>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="toward">, à part.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce que je vais leur raconter ? </s>
 	<s id="2">Je n'ai jamais vu de prophète. </s>
@@ -1689,7 +1754,8 @@
 	<s id="4">Ce soir !</s>
 </p>
 </sp>
-<sp stage="toward/frighten" who="LOTH"><speaker>LOTH, tremblant, à lui-même.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward/frighten">, tremblant, à lui-même.
+</stage>
 <p id="3">
 	<s id="1">Celui-là est encore plus solennel et plus imposant que l'autre...</s>
 </p>
@@ -1752,7 +1818,8 @@
 	<s id="1">C'est que précisément, tout à l'heure, l'Éternel m'a fait dire de ne pas emmener ma femme.</s>
 </p>
 </sp>
-<sp stae="estonish" who="MÉLECH"><speaker>MÉLECH, effaré.</speaker>
+<sp stae="estonish" who="MÉLECH"><speaker>MÉLECH</speaker><stage>, effaré.
+</stage>
 <p id="15">
 	<s id="1">L'Éternel t'a fait dire quelque chose ?</s>
 </p>
@@ -1762,19 +1829,22 @@
 	<s id="1">Oui, par ce jeune messager qui est là.</s>
 </p>
 </sp>
-<sp stage="location/watch" who="MÉLECH"><speaker>MÉLECH, gagnant la droite, après avoir jeté un coup d'oeil à Dagar.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="location/watch">, gagnant la droite, après avoir jeté un coup d'oeil à Dagar.
+</stage>
 <p id="17">
 	<s id="1">Oh ! </s>
 	<s id="2">Ça va mal ! </s>
 	<s id="3">Ça va mal !</s>
 </p>
 </sp>
-<sp stage="toward" who="LOTH"><speaker>LOTH, à Dagar.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward">, à Dagar.
+</stage>
 <p id="18">
 	<s id="1">Il ne vous reconnaît pas ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DAGAR"><speaker>DAGAR, troublée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="19">
 	<s id="1">Non, non... </s>
 	<s id="2">Nous sommes beaucoup dans notre administration... </s>
@@ -1782,7 +1852,8 @@
 	<s id="4">On ne se connaît pas.</s>
 </p>	
 </sp>
-<sp stage="toward" who="LOTH"><speaker>LOTH, à Mélech.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward">, à Mélech.
+</stage>
 <p id="20">
 	<s id="1">Vous partez ?</s>
 </p>
@@ -1835,23 +1906,27 @@
 	<s id="1">En tout cas, vous ferez route ensemble, puisque vous venez du même endroit.</s>
 </p>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, troublé.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, troublé.
+</stage>
 <p id="30">
 	<s id="1">Je ne vais peut-être pas du même côté que monsieur.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DAGAR"><speaker>DAGAR, troublée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="31">
 	<s id="1">Je ne crois pas.</s>
 </p>
 <stage type="closer">Loth les rapproche l'un de l'autre.</stage>
 </sp>
-<sp stage="away" who="MÉLECH"><speaker>MÉLECH, se dégageant.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="away">, se dégageant.
+</stage>
 <p id="32">
 	<s id="1">Non, non, bonjour, Monsieur !</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DAGAR"><speaker>DAGAR, de même.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="embarrassed">, de même.
+</stage>
 <p id="33">
 	<s id="1">Bonjour, bonjour !</s>
 </p>
@@ -1862,37 +1937,44 @@
 	<s id="1">Allons, mes enfants, dépêchez-vous ! Il s'agit de s'en aller le plus rapidement possible. Vous voyez ce que ç'est que d'avoir pour père un juste. Je vous sauve.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="RAAB"><speaker>RAAB, aux jeunes filles à demi-voix.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="toward/low">, aux jeunes filles à demi-voix.
+</stage>
 <p id="35">
 	<s id="1">Dites donc, moi qui ne suis qu'un injuste, je vais être brûlé par le feu du ciel.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="JUNA"><speaker>JUNA, de même.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage type="toward/low">, de même.
+</stage>
 <p id="36">
 	<s id="1">Mais non, mais non, vous allez venir avec nous. On vous cachera parmi les serviteurs.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="RAAB"><speaker>RAAB, de même.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="toward/low">, de même.
+</stage>
 <p id="37">
 	<s id="1">Me cacher parmi les serviteurs ! </s>
 	<s id="2">C'est dangereux, ce que vous me proposez là. Le feu du ciel saura bien me reconnaître.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="ANÉ"><speaker>ANÉ, de même.</speaker>
+<sp who="ANÉ"><speaker>ANÉ</speaker><stage type="toward/low">, de même.
+</stage>
 <p id="38">
 	<s id="1">Ça n'est pas sûr. </s>
 	<s id="2">En tout cas, il vaut mieux que vous couriez la chance de lui échapper, puisque vous seriez sûrement brûlé en restant ici.</s>
 </p>
 </sp>
-<sp stage="loud" who="JUNA"><speaker>JUNA, haut.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage type="loud">, haut.
+</stage>
 <p id="39">
 	<s id="1">Allons préparer nos vêtements.</s>
 </p>
 <stage type="exit">Ané, Juna et Raab sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Loth, Titsa, puis Schem, Dagar non travestie, Mélech non travesti, Raab, Ané, Juna,</head>
-<sp who="TITSA"><speaker>TITSA, entrant.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Loth, Titsa, puis Schem, Dagar non travestie, Mélech non travesti, Raab, Ané, Juna,
+</stage>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, entrant.
+</stage>
 <p id="1">
 	<s id="1">Maître, ta servante vient d'aller commander les chameaux pour le déménagement. </s>
 	<s id="2">J'ai commandé aussi deux déménageurs.</s>
@@ -1914,7 +1996,8 @@
 	<s id="1">Tu n'en as pas la force ?</s>
 </p>
 </sp>
-<sp who="TITSA"><speaker>TITSA, avec énergie.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, avec énergie.
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Maître, ce n'est pas la force qui me manque !</s>
@@ -1928,13 +2011,15 @@
 	<s id="1">Voici les chameaux...</s>
 </p>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, entrant.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, entrant.
+</stage>
 <p id="8">
 	<s id="1">Voici les chameaux. </s>
 	<s id="2">Il y a des chameaux pour vous, là.</s>
 </p>
 </sp>
-<sp stage="entrance" who="DAGAR"><speaker>DAGAR, entrant.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="9">
 	<s id="1">Les chameaux sont à la porte.</s>
 </p>
@@ -1954,7 +2039,8 @@
 	<l id="212">Que ces demoisell' emport' leurs fichus,</l>
 	<l id="213">Voici les chameaux, hâtons-nous de monter dessus !</l>
 </sp>
-<sp stage="toward" who="LOTH"><speaker>LOTH, à ses filles.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="toward">, à ses filles.
+	</stage>
 	<l id="214">Tâchez moyen de ne rien oublier,</l>
 	<l id="215">Lorsque la porte sera close,</l>
 	<l id="216">Je ne veux pas vous entendre crier : </l>
@@ -1992,7 +2078,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE DEUXIÈME</head>
 <stage type="decor">La scène représente une route près de Gomorrhe, sur un plateau. Petit bois de lierre, au fond, à gauche. Deux pierres carrées devant le bois. Sur la toile de fond, des temples de marbre et des colonnes de granit, que la brise agite doucement. Un petit vent frais règne sur le plateau.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dagar, Titsa.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dagar, Titsa.
+</stage>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 <note type="C">On peut donner aisément aux spectateurs l'impression de ce vent frais, en laissant ouvertes quelques portes de loges et de baignoires. [NdA]</note>
 <p id="1">
@@ -2113,7 +2200,8 @@
 	<s id="1">Si ce n'est dans les chiffres.</s>
 </p>
 </sp>
-<sp who="TITSA"><speaker>TITSA, prenant , un air froid.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, prenant , un air froid.
+</stage>
 <p id="18">
 	<s id="1">Nous disions donc... </s>
 	<s id="2">Nous disions donc que la vengeance céleste pourrait bien poursuivre le jeune Schem partout où il ira.</s>
@@ -2152,13 +2240,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Mélech.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Mélech.
+</stage>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 <p id="1">
 	<s id="1">Comment, c'est vous ?</s>
 </p>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, l'air soucieux.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, l'air soucieux.
+</stage>
 <p id="2">
 	<s id="1">Oui, madame, oui, c'est moi. </s>
 	<s id="2">Je suis très préoccupé. </s>
@@ -2207,7 +2297,8 @@
 	<s id="5">Celui que je crains, c'est le petit ange joufflu.</s>
 </p>
 </sp>
-<sp stage="stage" who="DAGAR"><speaker>DAGAR, haussant les épaules.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="stage">, haussant les épaules.
+</stage>
 <p id="9">
 	<s id="1">Le petit ange joufflu ? </s>
 	<s id="2">Il ne me fait pas peur, celui-là !</s>
@@ -2276,7 +2367,8 @@
 	<s id="2">Je suis sûre de gagner.</s>
 </p>
 </sp>
-<sp stage="watch" who="MÉLECH"><speaker>MÉLECH, la regardant.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="watch">, la regardant.
+</stage>
 <p id="20">
 	<s id="1">Une discrétion ?</s>
 </p>
@@ -2301,17 +2393,20 @@
 	<s id="1">À preuve que voilà ma barbe grise, la dépouille du vieil homme.</s>
 </p>
 </sp>
-<sp stage="location/toward" who="DAGAR"><speaker>DAGAR, allant au fond, à Titsa.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="location/toward">, allant au fond, à Titsa.
+</stage>
 <p id="25">
 	<s id="1">Titsa !</s>
 </p>
 </sp>
-<sp stage="entrance" who="TITSA"><speaker>TITSA, paraissant au fond.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="entrance">, paraissant au fond.
+</stage>
 <p id="26">
 	<s id="1">Maîtresse !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="DAGAR"><speaker>DAGAR, à demi-voix à Titsa.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="low/toward">, à demi-voix à Titsa.
+</stage>
 <p id="27">
 	<s id="1">Je ne risque plus rien ! </s>
 	<s id="2">Je ne risque plus rien ! </s>
@@ -2320,13 +2415,15 @@
 </p>
 <stage type="back/location">Elle revient à l'avant-scène.</stage>
 </sp>
-<sp who="TITSA"><speaker>TITSA, à part.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage>, à part.
+</stage>
 <p id="28">
 	<s id="1">Je vais tâcher de retrouver ce pauvre Schem qui se désole et qui croit que c'est arrivé.</s>
 </p>
 <stage type="exit">Sort Titsa.</stage>
 </sp>
-<sp stage="closer" who="DAGAR"><speaker>DAGAR, s'avançant vers Mélech.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="closer">, s'avançant vers Mélech.
+</stage>
 <p id="29">
 	<s id="1">Ah ! </s>
 	<s id="2">Le vieux messager, c'était vous ?</s>
@@ -2349,7 +2446,8 @@
 	<s id="6">Le châtiment sera terrible !</s>
 </p>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, décidé.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, décidé.
+</stage>
 <p id="32">
 	<s id="1">Oui, il sera terrible ! </s>
 	<s id="2">Le tonnerre de Dieu va s'appesantir sur moi... </s>
@@ -2454,7 +2552,8 @@
 	<s id="4">J'étais prête à céder à Schem, et si Schem venait maintenant, je ne lui céderais plus du tout.</s>
 </p>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, vivement.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, vivement.
+</stage>
 <p id="45">
 	<s id="1">Tu as raison ! </s>
 	<s id="2">Il ne faut pas lui céder, ce serait très mal... </s>
@@ -2462,7 +2561,8 @@
 	<s id="4">Il n'était que temps que j'arrive pour t'en préserver.</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, ironiquement.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, ironiquement.
+</stage>
 <p id="46">
 	<s id="1">Voilà mon sauveur ! </s>
 	<s id="2">J'étais sur le bord du précipice... </s>
@@ -2470,7 +2570,8 @@
 	<s id="4">Tu es venu, héros d'un dévouement sublime, et tu m'as sauvée du précipice... pour m'entraîner dans un précipice à côté.</s>
 </p>
 </sp>
-<sp stage="lost" who="MÉLECH"><speaker>MÉLECH, égaré.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="lost">, égaré.
+</stage>
 <p id="47">
 	<s id="1">Oui, oui, allons-y dans le précipice !</s>
 </p>
@@ -2585,7 +2686,8 @@
 </p>
 <stage type="get">Titsa tient un paquet à la main.</stage>
 </sp>
-<sp stage="low/toward" who="TITSA"><speaker>TITSA, bas, à Dagar.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="low/toward">, bas, à Dagar.
+</stage>
 <p id="67">
 	<s id="1">Madame, je l'ai rencontré au bas de la montagne.</s>
 </p>
@@ -2621,7 +2723,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, Schem.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, Schem.
+</stage>
 <sp who="SCHEM"><speaker>SCHEM.</speaker>
 <p id="1">
 	<s id="1">Je viens de trouver une idée excellente... </s>
@@ -2635,7 +2738,8 @@
 	<s id="2">Tu peux parler...</s>
 </p>
 </sp>
-<sp stage="show" who="SCHEM"><speaker>SCHEM, montrant le paquet de Titsa.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="show">, montrant le paquet de Titsa.
+</stage>
 <p id="3">
 	<s id="1">Tu vas te mettre ce voile sur la tête.</s>
 </p>
@@ -2651,7 +2755,8 @@
 	<s id="2">Titsa te dira le reste.</s>
 </p>
 </sp>
-<sp stage="watch" who="DAGAR"><speaker>DAGAR, avec un coup d'oeil à Mélech.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="watch">, avec un coup d'oeil à Mélech.
+</stage>
 <p id="6">
 	<s id="1">Quelle idée excellente... </s>
 	<s id="2">Il vient de trouver, ce jeune homme-là, un excellent moyen de rester tous les deux à Gomorrhe.</s>
@@ -2678,14 +2783,17 @@
 </p>
 <stage type="exit">Ils sortent à droite.</stage>
 </sp>
-<sp stage="toward" who="TITSA"><speaker>TITSA, à la cantonade.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="toward">, à la cantonade.
+</stage>
 <p id="10">
 	<s id="1">Eh bien, arrivez donc, Mesdemoiselles !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Juna, Ané puis Raab.</head>
-<sp stage="sing" who="JUNA, ANÉ"><speaker>JUNA et ANÉ, chantant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Juna, Ané puis Raab.
+</stage>
+<sp who="JUNA, ANÉ"><speaker>JUNA et ANÉ</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="266">Sans la piété que le devoir</l>
 	<l id="267">Enjoint d'avoir</l>
 	<l id="268">Pour un si vieux père,</l>
@@ -2724,7 +2832,8 @@
 	<s id="1">Étendons notre couverture et reposons-nous un peu.</s>
 </p>
 </sp>
-<sp stage="toward" who="RAAB"><speaker>RAAB, à part.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="toward">, à part.
+</stage>
 <p id="5">
 	<s id="1">Je commence à me demander si je n'ai pas entrepris une tâche... </s>
 	<s id="2">Un peu au-dessus de mes forces... </s>
@@ -2740,7 +2849,8 @@
 	<s id="3">On ne s'embrasse plus ?</s>
 </p>
 </sp>
-<sp stage="emabrrassed" who="RAAB"><speaker>RAAB, gêné.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="emabrrassed">, gêné.
+</stage>
 <p id="7">
 	<s id="1">Voici votre papa qui vient.</s>
 </p>
@@ -2750,7 +2860,8 @@
 	<s id="1">Eh bien, allons plus loin.</s>
 </p>
 </sp>
-<sp stage="embarassed" who="RAAB"><speaker>RAAB, gêné.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="embarassed">, gêné.
+</stage>
 <p id="9">
 	<s id="1">Il vaudrait peut-être mieux l'attendre ici. </s>
 	<s id="2">Si nous filons tout le temps comme ça, devant lui, il va avoir de la méfiance. </s>
@@ -2759,8 +2870,10 @@
 <stage type="shout/away">Voix de Loth. Ils se dispersent et prennent une attitude indifférente.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Loth.</head>
-<sp who="LOTH"><speaker>LOTH, entrant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Loth.
+</stage>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, entrant.
+</stage>
 <p id="1">
 	<s id="1">Vous courez ! </s>
 	<s id="2">Vous courez ! </s>
@@ -2820,7 +2933,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Mélech.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Mélech.
+</stage>
 <sp who="MÉLECH"><speaker>MÉLECH.</speaker>
 <p id="1">
 	<s id="1">Ça se prépare... </s>
@@ -2840,8 +2954,10 @@
 <stage type="entrance/costume">Dagar apparaît à droite, entourée d'un voile.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, Dagar, en ange voilé.</head>
-<sp stage="sing" who="DAGAR"><speaker>DAGAR, chantant.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, Dagar, en ange voilé.
+</stage>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="279">À l'instant où dans le ciel,</l>
 	<l id="280">Commencera la tempête,</l>
 	<l id="281">Ô Loth ! c'est essentiel,</l>
@@ -2864,7 +2980,8 @@
 	<s id="7">Au revoir, messieurs dames.</s>
 </p>
 </sp>
-<sp stage="show" who="LOTH"><speaker>LOTH, montrant sa gourde.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage type="show">, montrant sa gourde.
+</stage>
 <p id="2">
 	<s id="1">Vous prendrez bien un verre pour la commission ?</s>
 </p>
@@ -2877,7 +2994,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VIII. Les mêmes, moins Dagar.</head>
+<div2 type="scene" n="7"><head>SCÈNE VIII.</head><stage> Les mêmes, moins Dagar.
+</stage>
 <sp who="MÉLECH"><speaker>MÉLECH.</speaker>
 <p id="1">
 	<s id="1">C'est bien entendu, il ne faut pas se retourner. </s>
@@ -2906,7 +3024,8 @@
 <stage type="entrance/location">Dagar rentre par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les Mêmes, Dagar, non travestie.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les Mêmes, Dagar, non travestie.
+</stage>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -2925,17 +3044,20 @@
 	<s id="2">On verrait bien mieux qu'ici.</s>
 </p>
 </sp>
-<sp who="LOTH"><speaker>LOTH, effrayé.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, effrayé.
+</stage>
 <p id="5">
 	<s id="1">Qu'est-ce qu'on verrait mieux qu'ici ?</s>
 </p>
 </sp>
-<sp stage="naive" who="DAGAR"><speaker>DAGAR, ingénument.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="naive">, ingénument.
+</stage>
 <p id="6">
 	<s id="1">On verrait mieux la destruction des villes.</s>
 </p>
 </sp>
-<sp who="LOTH"><speaker>LOTH, atterré.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, atterré.
+</stage>
 <p id="7">
 	<s id="1">Malheureuse ! </s>
 	<s id="2">Tu voulais contempler la destruction des villes ?</s>
@@ -3027,7 +3149,8 @@
 	<s id="1">Maintenant, remettons-nous en marche.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="MÉLECH"><speaker>MÉLECH, à Dagar, à mi-voix.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="toward/low">, à Dagar, à mi-voix.
+</stage>
 <p id="24">
 	<s id="1">Je crois que c'est le moment de risquer le grand coup.</s>
 </p>
@@ -3071,7 +3194,8 @@
 	<s id="1">Ne fais pas ça, petite marâtre !</s>
 </p>
 </sp>
-<sp stage="stress" who="DAGAR"><speaker>DAGAR, éperdument.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="stress">, éperdument.
+</stage>
 <p id="32">
 	<s id="1">Je me retourne ! </s>
 	<s id="2">Je me retourne ! </s>
@@ -3134,7 +3258,8 @@
 	<l id="302">Allons voir ça, mais par prudence,</l>
 	<l id="303">Allons le voir à reculons !</l>
 </sp>
-<sp stage="stop" who="DAGAR"><speaker>DAGAR, les arrêtant d'un geste de bras.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="stop">, les arrêtant d'un geste de bras.
+	</stage>
 	<l id="304">N'y touchez pas, ô ma triste famille,</l>
 	<l id="305">Car si le froid céleste aussi vous congelait !</l>
 	<l id="306">Après avoir envahi ma cheville</l>
@@ -3154,19 +3279,23 @@
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 	<l id="312">Il a pétrifié mes jambes presque entières.</l>
 </sp>
-<sp stage="ironic" who="MÉLECH"><speaker>MÉLECH, égrillard.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="ironic">, égrillard.
+	</stage>
 	<l id="313">L'instant est solennel.</l>
 </sp>
 <sp who="TOUS"><speaker>TOUS.</speaker>
 	<l id="314">L'instant est solennel.</l>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, troublée et gênée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, troublée et gênée.
+	</stage>
 	<l id="315">Drôles d'impressions !</l>
 </sp>
-<sp stage="think" who="MÉLECH"><speaker>MÉLECH, pénétré.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="think">, pénétré.
+	</stage>
 	<l id="316">Voici le grand moment des transformations !</l>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, de plus en plus gênée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, de plus en plus gênée.
+	</stage>
 	<l id="317">Oh ! Croyez-moi, mesdemoiselles,</l>
 	<l id="318">Il n'est pas de sensations</l>
 	<l id="319">Plus désagréables que celles</l>
@@ -3175,7 +3304,8 @@
 <sp who="LOTH"><speaker>LOTH.</speaker>
 	<l id="320" syll="4" part="f">Ah ! Que dit-elle ?</l>
 </sp>
-<sp stage="estonish" who="DAGAR"><speaker>DAGAR, étonnée.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="estonish">, étonnée.
+	</stage>
 	<l id="321">Je dis que c'est bien curieux :</l>
 	<l id="322">Je regarde le monde avec indifférence,</l>
 	<l id="323">C'est en vain désormais qu'on me fait les doux yeux.</l>
@@ -3198,16 +3328,19 @@
 	<l id="337">Ne peut le rendre plus rigide</l>
 	<l id="338">Qu'il n'était avant l'accident.</l>
 </sp>
-<sp who="LOTH"><speaker>LOTH, se lamentant.</speaker>
+<sp who="LOTH"><speaker>LOTH</speaker><stage>, se lamentant.
+	</stage>
 	<l id="339">Oh ! oh ! oh ! oh !</l>
 	<l id="340">Ho ! ho ! ho ! ho !</l>
 </sp>
-<sp stage="speak" who="JUNA"><speaker>JUNA, parlé.</speaker>
+<sp who="JUNA"><speaker>JUNA</speaker><stage type="speak">, parlé.
+</stage>
 <p id="37">
 	<s id="1">Comme il souffre !</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, parlé.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, parlé.
+</stage>
 <p id="38">
 	<s id="1">Non, il ne souffre pas. </s>
 	<s id="2">Mais il est très pieux. </s>
@@ -3219,7 +3352,8 @@
 	<s id="1">Oh !</s>
 </p>
 </sp>
-<sp stage="sing" who="DAGAR"><speaker>DAGAR, chantant.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="341">C'est fini. Mes cordes_vocales.</l>
 	<l id="342">Vont s'arrêter dans un instant.</l>
 </sp>
@@ -3230,7 +3364,8 @@
 	<l id="346">Vont s'arrêter dans un instant !</l>
 <stage type="silence">Silence.</stage>
 </sp>
-<sp stage="speeak" who="MÉLECH"><speaker>MÉLECH, parlé.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="speeak">, parlé.
+</stage>
 <p id="40">
 	<s id="1">Ça y est !</s>
 </p>
@@ -3250,7 +3385,8 @@
 	<l id="353">De notre voix la plus plaintive,</l>
 	<l id="354">Chantons des lamentations.</l>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, se retournant et se figeant en statue.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, se retournant et se figeant en statue.
+	</stage>
 	<l id="355" syll="3" part="i">Ah ! Seigneur !</l>
 </sp>
 <sp who="LOTH"><speaker>LOTH.</speaker>
@@ -3278,9 +3414,11 @@
 <stage type="exit">Ils sortent par la droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Mélech, Dagar.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Mélech, Dagar.
+</stage>
 <stage type="sit">Ils sont chacun sur leur socle.</stage>
-<sp who="MÉLECH"><speaker>MÉLECH, à part.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, à part.
+</stage>
 <p id="1">
 	<s id="1">Enfin seuls ! Ils sont partis... </s>
 	<s id="2">Et j'ai peur... </s>
@@ -3288,7 +3426,8 @@
 	<s id="4">Je suis beaucoup moins vaillant maintenant que nous sommes seuls et libres.</s>
 </p>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, à part.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, à part.
+</stage>
 <p id="2">
 	<s id="1">Je voudrais bien qu'il se décide... La pose me fatigue... </s>
 	<s id="2">J'ai toutes les fourmis du pays dans ma jambe gauche et autant dans ma jambe droite. </s>
@@ -3308,56 +3447,69 @@
 	<l id="368">Qu'en ce moment</l>
 	<l id="369">Je représente.</l>
 </sp>
-<sp stage="stay" who="DAGAR"><speaker>DAGAR, pose de femme pudique.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="stay">, pose de femme pudique.
+	</stage>
 	<l id="370">Ces yeux baissés,</l>
 	<l id="371">Ces doigts croisés,</l>
 	<l id="372">Voici l'amante.</l>
 </sp>
-<sp stage="stay/stress" who="MÉLECH"><speaker>MÉLECH, changeant de pose, les mains crispées.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="stay/stress">, changeant de pose, les mains crispées.
+	</stage>
 	<l id="373">C'est l'amant qui se tourmente !</l>
 </sp>
-<sp stage="watch/stress" who="DAGAR"><speaker>DAGAR, le regardant de côté, en serrant les dents.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="watch/stress">, le regardant de côté, en serrant les dents.
+	</stage>
 	<l id="374">C'est l'amante impatiente.</l>
 <stage type="stay">Prenant attitude de la fuite.</stage>
 	<l id="375">Vierge peureuse !</l>
 </sp>
-<sp stage="run" who="MÉLECH"><speaker>MÉLECH, dans la posture d'un amant qui poursuit une vierge.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="run">, dans la posture d'un amant qui poursuit une vierge.
+	</stage>
 	<l id="376">Amant ardent !</l>
 </sp>
-<sp stage="touch" who="DAGAR"><speaker>DAGAR, la main sur son coeur.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="touch">, la main sur son coeur.
+	</stage>
 	<l id="377">Fille amoureuse !</l>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, de même.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, de même.
+	</stage>
 	<l id="378">Et son pendant !</l>
 </sp>
-<sp stage="touch/tender" who="DAGAR"><speaker>DAGAR, tendant sa main à baiser avec affectation.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="touch/tender">, tendant sa main à baiser avec affectation.
+	</stage>
 	<l id="379">La dame à l'amant qui postule</l>
 	<l id="380">Tend ses nobles doigts effilés.</l>
 </sp>
-<sp stage="closer/hugh" who="MÉLECH"><speaker>MÉLECH, passant sur le socle de Dagar et prenant la jeune femme dans ses bras.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="closer/hugh">, passant sur le socle de Dagar et prenant la jeune femme dans ses bras.
+	</stage>
 	<l id="381">Faisons un dessus de pendule</l>
 	<l id="382">De ces deux sujets isolés.</l>
 </sp>
-<sp stage="enthousiasm" who="DAGAR"><speaker>DAGAR, avec élan.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="enthousiasm">, avec élan.
+	</stage>
 	<l id="383">Je me dépétrifie !</l>
 </sp>
-<sp who="MÉLECH"><speaker>MÉLECH, de même.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage>, de même.
+	</stage>
 	<l id="384">Je retrouve la vie</l>
 	<l id="385">Dans tes yeux !</l>
 </sp>
 <sp who="DAGAR"><speaker>DAGAR.</speaker>
 	<l id="386">Ça va mieux ! Ça va mieux !</l>
 </sp>
-<sp stage="watch/enthousiasm" who="MÉLECH"><speaker>MÉLECH, la regardant avec extase.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="watch/enthousiasm">, la regardant avec extase.
+	</stage>
 	<l id="387">Oui, ça va mieux</l>
 	<l id="388">Toute ma vie</l>
 	<l id="389">Est dans ces yeux</l>
 	<l id="390">Malicieux.</l>
 </sp>
-<sp stage="enthousiasm" who="DAGAR"><speaker>DAGAR, avec élan.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="enthousiasm">, avec élan.
+	</stage>
 	<l id="391">Je renais à la vie !</l>
 </sp>
-<sp stage="think" who="MÉLECH"><speaker>MÉLECH, après un court instant de réflexion.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="think">, après un court instant de réflexion.
+	</stage>
 	<l id="392">Je me repétrifie.</l>
 	<l id="393">Oui, vraiment,</l>
 	<l id="394">Mais pas complètement.</l>
@@ -3383,7 +3535,8 @@
 <stage type="danse/music/exit/location/entrance">Sur une marche guerrière, Mélech et Dagar sautent allègrement en bas de leurs socles puis se dirigent lentement vers le petit bois. Ils y disparaissent. La musique continue. Quelques instants après, Schem, Titsa et un Gomorrhéen entrent par la gauche, premier plan. La musique continue en sourdine pendant la scène suivante.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Schem, Titsa, Le Gomorrhéen, puis Raab, Ané et Juna.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Schem, Titsa, Le Gomorrhéen, puis Raab, Ané et Juna.
+</stage>
 <sp who="LE GOMORRHÉEN"><speaker>LE GOMORRHÉEN.</speaker>
 <p id="1">
 	<s id="1">C'est par ici ?</s>
@@ -3413,7 +3566,8 @@
 	<s id="1">Elle doit être bien dans cette position.</s>
 </p>
 </sp>
-<sp stage="toward" who="RAAB"><speaker>RAAB, à Titsa et aux jeunes filles.</speaker>
+<sp who="RAAB"><speaker>RAAB</speaker><stage type="toward">, à Titsa et aux jeunes filles.
+</stage>
 <p id="5">
 	<s id="1">Venez par ici. </s>
 	<s id="2">Le patriarche s'est arrêté un instant là-bas. </s>
@@ -3421,7 +3575,8 @@
 </p>
 <stage type="exit/location/music">Schem entre à gauche dans le petit bois de lierre, pendant que la musique s'accentue. Titsa sort pour aller regarder à droite. Le Gomorrhéen entre dans le bois par le fond.</stage>
 </sp>
-<sp who="SCHEM"><speaker>SCHEM, sortant du bois. Il gémit.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage>, sortant du bois. Il gémit.
+</stage>
 <p id="6">
 	<s id="1">Qu'est-ce que j'ai vu ? </s>
 </p>
@@ -3435,12 +3590,14 @@
 	<s id="1">Mais pas un mot devant eux.</s>
 </p>
 </sp>
-<sp stage="entrance" who="TITSA"><speaker>TITSA, l'entrant par la droite.</speaker>
+<sp who="TITSA"><speaker>TITSA</speaker><stage type="entrance">, l'entrant par la droite.
+</stage>
 <p id="9">
 	<s id="1">Eh bien, quoi ?</s>
 </p>
 </sp>
-<sp stage="sad" who="SCHEM"><speaker>SCHEM, ombrageux.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="sad">, ombrageux.
+</stage>
 <p id="10">
 	<s id="1">Eh bien, quoi ?</s>
 </p>
@@ -3450,7 +3607,8 @@
 	<s id="1">As-tu vu ma maîtresse ?</s>
 </p>	
 </sp>
-<sp stage="stress" who="SCHEM"><speaker>SCHEM, après un effort sur lui-même.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="stress">, après un effort sur lui-même.
+</stage>
 <p id="12">
 	<s id="1">Non... </s>
 	<s id="2">Elle n'est pas par là. </s>
@@ -3469,14 +3627,16 @@
 	<s id="3">C'est manqué.</s>
 </p>
 </sp>
-<sp stage="entrance/location/laugh" who="LE GOMORRHÉEN"><speaker>LE GOMORRHÉEN, sortant du bois, en riant.</speaker>
+<sp who="LE GOMORRHÉEN"><speaker>LE GOMORRHÉEN</speaker><stage type="entrance/location/laugh">, sortant du bois, en riant.
+</stage>
 <p id="15">
 	<s id="1">Ah ! </s>
 	<s id="2">Elle est bonne ! </s>
 	<s id="3">Elle est bonne !</s>
 </p>
 </sp>
-<sp stage="furious" who="SCHEM"><speaker>SCHEM, furieux.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="furious">, furieux.
+</stage>
 <p id="16">
 	<s id="1">Qu'est-ce qu'il y a ? </s>
 	<s id="2">Veux-tu ma main sur la figure ?</s>
@@ -3508,8 +3668,10 @@
 <stage type="shout">Il pousse un hurlement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, Dagar, Mélech.</head>
-<sp stage="entrance" who="DAGAR"><speaker>DAGAR, apparaissant. </speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les mêmes, Dagar, Mélech.
+</stage>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage type="entrance">, apparaissant. 
+</stage>
 <stage type="carry/give">Elle tient à la main un sabre qu'elle tend à Mélech.</stage>
 	<l id="400">Assez de cris ! Assez de cris !</l>
 	<l id="401">Sors vainqueur d'un combat dont Dagar est le prix !</l>
@@ -3551,7 +3713,8 @@
 	<l id="423">Avec des cris de haine</l>
 	<l id="424">Pour nous fair' du chiqué...</l>
 </sp>
-<sp stage="throw" who="SCHEM"><speaker>SCHEM, jetant son sabre.</speaker>
+<sp who="SCHEM"><speaker>SCHEM</speaker><stage type="throw">, jetant son sabre.
+</stage>
 <p id="1">
 	<s id="1">Non ! </s>
 	<s id="2">J'en ai assez ! </s>
@@ -3580,13 +3743,15 @@
 	<s id="2">Comme ça les justes nous laisseront tranquilles.</s>
 </p>
 </sp>
-<sp stage="toward" who="MÉLECH"><speaker>MÉLECH, au public.</speaker>
+<sp who="MÉLECH"><speaker>MÉLECH</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="425">Y a beaucoup de p'tit's femm' sur terre</l>
 	<l id="426">Qui font semblant de s'pétrifier...</l>
 	<l id="427">Généralement c'est pour se faire</l>
 	<l id="428">Pour se faire dépétrifier.</l>
 </sp>
-<sp who="DAGAR"><speaker>DAGAR, regardant Mélech qui proteste.</speaker>
+<sp who="DAGAR"><speaker>DAGAR</speaker><stage>, regardant Mélech qui proteste.
+	</stage>
 	<l id="429">Mais le plus amoureux se lasse,</l>
 	<l id="430">Quand c'est fini d'gesticuler,</l>
 	<l id="431">C'est au jeune homm' d'être de glace,</l>

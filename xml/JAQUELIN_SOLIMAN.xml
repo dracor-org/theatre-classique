@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,7 +31,7 @@
 			<titlePart type="sub">TRAGÉDIE.</titlePart>
 		</docTitle> 
 		<docDate value="1653">M. DC. XXXXXIII. Avec Privilège du Roi.</docDate>
-		<docAuthor id="JAQUELIN"></docAuthor>
+		<docAuthor id="JAQUELIN"/>
 		<docImprint>
 			<editor id="SERCY">À PARIS, Chez CHARLES DE SERCY ;  Au Palais, dans la Salle Dauphine, à la Bonne Foi Couronnée.</editor>
 		</docImprint>
@@ -50,21 +50,22 @@
 		<p type="v">Qu'il me rendra savant en l'Art de bien régner !</p>
 	</div>
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="SOLIMAN" sex="1" type="H" statut="empereur" age="A" stat_amour='néant'>SOLIMAN</role>, 	Empereur des Turcs.</castItem> 
-		<castItem><role id="ROXELANE" sex="2" type="H" statut="empereur" age="A" stat_amour='néant'>ROXELANE</role>, 	Sultane Reine.</castItem>
-		<castItem><role id="BAJAZET" sex="1" type="H" statut="prince" age="J" stat_amour='néant'>BAJAZET</role>, 	leur fils.</castItem>
-		<castItem><role id="LE MUFTI" sex="1" type="H" statut="mufti" age="A" stat_amour='néant'>LE MUFTI</role>.</castItem>
-		<castItem><role id="ACOMAT" sex="1" type="H" statut="vizir" age="A" stat_amour='néant'>ACOMAT</role>, 	Grand Vizir.</castItem> 
-		<castItem><role id="ASPASIE" sex="2" type="H" statut="esclave" age="A" stat_amour='néant'>ASPASIE</role>, 		Esclave.</castItem>
-		<castItem><role id="HAZAN" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>HAZAN</role>.</castItem>
-		<castItem><role id="IBRAHIM" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>IBRAHIM</role>.</castItem>
-		<castItem><role id="UN CAPIGI" sex="1" type="H" statut="portier" age="A" stat_amour='néant'>UN CAPIGI</role>, [portier du Sérail].</castItem> 
+		<castItem><role id="SOLIMAN" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">SOLIMAN</role>, 	Empereur des Turcs.</castItem> 
+		<castItem><role id="ROXELANE" sex="2" type="H" statut="empereur" age="A" stat_amour="néant">ROXELANE</role>, 	Sultane Reine.</castItem>
+		<castItem><role id="BAJAZET" sex="1" type="H" statut="prince" age="J" stat_amour="néant">BAJAZET</role>, 	leur fils.</castItem>
+		<castItem><role id="LE MUFTI" sex="1" type="H" statut="mufti" age="A" stat_amour="néant">LE MUFTI</role>.</castItem>
+		<castItem><role id="ACOMAT" sex="1" type="H" statut="vizir" age="A" stat_amour="néant">ACOMAT</role>, 	Grand Vizir.</castItem> 
+		<castItem><role id="ASPASIE" sex="2" type="H" statut="esclave" age="A" stat_amour="néant">ASPASIE</role>, 		Esclave.</castItem>
+		<castItem><role id="HAZAN" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">HAZAN</role>.</castItem>
+		<castItem><role id="IBRAHIM" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">IBRAHIM</role>.</castItem>
+		<castItem><role id="UN CAPIGI" sex="1" type="H" statut="portier" age="A" stat_amour="néant">UN CAPIGI</role>, [portier du Sérail].</castItem> 
 	</castList>
 	<set location="Constantinople" country="Turquie" periode="XVIIIème" gps="41.008238, 28.978359">La Scène est à Constantinople.</set>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Soliman, Bajazet.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Soliman, Bajazet.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="1">Par ton ordre Seigneur tu me vois à tes pieds, </l>
 	<l id="2">Où mes déportements seront justifiés </l>
@@ -265,7 +266,8 @@
 	<l id="174" syll="8" part="i">Mais qu'est-ce que tu veux ? Parle. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, un Capigi, Hazan.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, un Capigi, Hazan.
+</stage>
 <sp who="LE CAPIGI"><speaker>LE CAPIGI.</speaker>
 	<l id="174" syll="4" part="f">Un Courrier Seigneur </l>
 	<l id="175" syll="6" part="i">Désire te parler. </l>
@@ -395,7 +397,8 @@
 	<l id="264">Madame quel sujet en ce lieu vous amène ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Soliman, Roxelane.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Soliman, Roxelane.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="265">Qui m'amène en ce lieu, Seigneur ? Ne sais-tu pas, </l>
 	<l id="266">Que la crainte et l'Amour y conduisent mes pas ? </l>
@@ -458,7 +461,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="ROXELANE"><speaker>ROXELANE, seule.</speaker>
+<sp who="ROXELANE"><speaker>ROXELANE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="309">Je n'aurais pas raison d'appréhender pour lui, </l>
 	<l id="310">Sélim dedans ce lieu ne manque pas d'appui, </l>
 	<l id="311">Et quoi, que le Sultan, m'ait voulu faire entendre. </l>
@@ -531,7 +535,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Soliman, Acomat, Le Mufti.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Soliman, Acomat, Le Mufti.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="377">Vous, que j'ai consultés dans toutes mes affaires, </l>
 	<l id="378">Et de qui j'ai reçu des conseils salutaires, </l>
@@ -929,7 +934,8 @@
 	<l id="747">Vous devez après tout choisir, et promptement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Bajazet.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Bajazet.
+</stage>
 <sp who="BAJAZET"><speaker>BAJAZET.</speaker>
 	<l id="748" syll="2" part="i">Seigneur, </l>
 </sp>
@@ -946,7 +952,8 @@
 	<l id="751">J'ai trop pour les ouïr de soucis dans l'esprit ; </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Soliman, Bajazet, Aspasie, Hazan.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Soliman, Bajazet, Aspasie, Hazan.
+</stage>
 <sp who="HAZAN"><speaker>HAZAN.</speaker>
 	<l id="752">Voilà cette beauté dont Pertave t'écrit, </l>
 	<l id="753">Seigneur, que de sa part j'amène à ta hautesse. </l>
@@ -984,7 +991,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="BAJAZET"><speaker>BAJAZET, seul.</speaker>
+<sp who="BAJAZET"><speaker>BAJAZET</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="775">Qu'ai-je vu juste Ciel ? Aspasie en ces lieux ? </l>
 	<l id="776">Ne me trompai-je point ; vous croirai-je mes yeux ? </l>
 	<l id="777">De quel étonnement est mon âme saisie </l>
@@ -1012,7 +1020,8 @@
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="SOLIMAN"><speaker>SOLIMAN, seul.</speaker>
+<sp who="SOLIMAN"><speaker>SOLIMAN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="797">Amour cruel tyran, dont l'injuste puissance </l>
 	<l id="798">S'établit dans mon âme avecque violence, </l>
 	<l id="799">Pourquoi hors de propos viens-tu troubler mon coeur, </l>
@@ -1097,7 +1106,8 @@
 	<l id="872">Et croire que l'aimer soit une lâcheté. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Aspasie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Aspasie.
+</stage>
 <sp who="ASPASIE"><speaker>ASPASIE.</speaker>
 	<l id="873">Seigneur, je viens savoir ce que veut ta hautesse. </l>
 </sp>
@@ -1344,7 +1354,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ASPASIE"><speaker>ASPASIE, seule.</speaker>
+<sp who="ASPASIE"><speaker>ASPASIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1013">Je n'y manquerai point ; Tyran, je veux le faire, </l>
 	<l id="1014">Mais ce ne sera pas comme ta flamme espère, </l>
 	<l id="1015">Tu crois que mon devoir soit de te contenter, </l>
@@ -1355,7 +1366,8 @@
 	<l id="1020">Et délivre mon coeur des douleurs qu'il ressent. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Bajazet, Aspasie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Bajazet, Aspasie.
+</stage>
 <sp who="ASPASIE"><speaker>ASPASIE.</speaker>
 	<l id="1021">Ah Seigneur, qu'aujourd'hui le sort me persécute, </l>
 	<l id="1022">À toute sa rigueur Aspasie est en bute, </l>
@@ -1550,7 +1562,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Bajazet, Aspasie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Bajazet, Aspasie.
+</stage>
 <sp who="ASPASIE"><speaker>ASPASIE.</speaker>
 	<l id="1141">Quoi vous voulez encor me parler de vos feux ? </l>
 	<l id="1142">Ô discours inutile autant qu'il est fâcheux ! </l>
@@ -1673,7 +1686,8 @@
 	<l id="1239">Enfin par mon Amour, et par sa violence. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Aspasie, Bajazet.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Aspasie, Bajazet.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1240">Prince que faites-vous, qu'elle est votre insolence, </l>
 	<l id="1241">Vous portez vos désirs, où se porte le mien, </l>
@@ -1703,7 +1717,8 @@
 	<l id="1260">Allez, votre discours aigrirait ma colère. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Soliman, Aspasie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Soliman, Aspasie.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1261">Hé bien, vous l'écoutez ce téméraire Amant ? </l>
 	<l id="1262">Certes c'est assez tôt changer de sentiment, </l>
@@ -1878,7 +1893,8 @@
 	<l id="1403">Et que d'un si beau coup le mérite, et la gloire </l>
 	<l id="1404">De l'oubli pour jamais préserve ma mémoire. </l>
 </sp>
-<sp stage="steal" who="SOLIMAN"><speaker>SOLIMAN, lui ôte le poignard.</speaker>
+<sp who="SOLIMAN"><speaker>SOLIMAN</speaker><stage type="steal">, lui ôte le poignard.
+	</stage>
 	<l id="1405">Non, non j'empêcherai ce dessein furieux. </l>
 </sp>
 <sp who="ASPASIE"><speaker>ASPASIE.</speaker>
@@ -1906,7 +1922,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3b"><head>SCÈNE IIIb.</head>
-<sp stage="alone" who="SOLIMAN"><speaker>SOLIMAN, seul.</speaker>
+<sp who="SOLIMAN"><speaker>SOLIMAN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1427">Que dis-tu Soliman d'une telle constance, </l>
 	<l id="1428">Qui méprise la mort, et brave ta puissance ? </l>
 	<l id="1429">Ah reconnais ta faute, et sache qu'un grand coeur </l>
@@ -1973,8 +1990,10 @@
 	<l id="1490">Si Bajazet est tel, je ne le connais plus. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Soliman, Roxelane.</head>
-<sp stage="stage" who="ROXELANE"><speaker>ROXELANE, l'arrêtant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Soliman, Roxelane.
+</stage>
+<sp who="ROXELANE"><speaker>ROXELANE</speaker><stage type="stage">, l'arrêtant.
+	</stage>
 	<l id="1491">Ah Seigneur, ah Seigneur, souffre que je t'arrête, </l>
 	<l id="1492">Et que je puisse ici te faire une requête, </l>
 	<l id="1493">On a mis par ton ordre en prison Bajazet, </l>
@@ -2011,7 +2030,8 @@
 	<l id="1518">J'ai la Justice en main, et ferai mon devoir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Roxelane, Le Mufti.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Roxelane, Le Mufti.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="1519">Je n'obtiendrai donc rien avecque la prière ? </l>
 	<l id="1520">Sache, sache cruel que voici la dernière, </l>
@@ -2049,7 +2069,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Soliman, Le Mufti.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Soliman, Le Mufti.
+</stage>
 <sp who="LE MUFTI"><speaker>LE MUFTI.</speaker>
 	<l id="1547">Seigneur à tes soupirs donne quelque relâche, </l>
 	<l id="1548">Chasse de ta mémoire un penser qui te fâche, </l>
@@ -2167,7 +2188,8 @@
 	<l id="1656">La nature t'en prie, et les Lois le commandent. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Roxelane, Le Mufti.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Roxelane, Le Mufti.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1657" syll="3" part="i">Ah Madame... </l>
 </sp>
@@ -2256,7 +2278,8 @@
 	<l id="1712">Je vais vous l'envoyer, n'en soyez point en peine. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Soliman, Acomat.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Soliman, Acomat.
+</stage>
 <sp who="ACOMAT"><speaker>ACOMAT.</speaker>
 	<l id="1713">Seigneur, que depuis hier ton visage est changé. </l>
 </sp>
@@ -2287,7 +2310,8 @@
 	<l id="1727">Peut-il me consoler d'une perte si grande ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Soliman, Acomat, un Capigi, Ibrahim.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Soliman, Acomat, un Capigi, Ibrahim.
+</stage>
 <sp who="LE CAPIGI"><speaker>LE CAPIGI.</speaker>
 	<l id="1728" syll="2" part="i">Seigneur... </l>
 </sp>
@@ -2428,7 +2452,8 @@
 	<l id="1814">Pour conserver son frère est une pure feinte. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Soliman, Roxelane, Acomat.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Soliman, Roxelane, Acomat.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1815">Madame grâce au Ciel votre fils n'est point mort, </l>
 	<l id="1816">Et ce qu'on m'a dit n'était, qu'un faux rapport, </l>
@@ -2605,7 +2630,8 @@
 	<l id="1932">Et qu'après la rigueur la clémence ait son tour. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Soliman, Roxelane, Bajazet, Acomat.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Soliman, Roxelane, Bajazet, Acomat.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1933">Madame le voici tenez votre promesse. </l>
 </sp>

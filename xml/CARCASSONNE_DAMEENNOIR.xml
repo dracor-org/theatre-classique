@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,24 +29,25 @@
 			<titlePart type="main">LA DAME EN NOIR</titlePart>
 			<titlePart type="sub">COMÉDIE.</titlePart>
 		</docTitle> 
-		<docDate value='1889'>1889</docDate>
-		<docAuthor id='CARCASSONNE, Adolphe'>Adolphe CARCASSONNE.</docAuthor>
+		<docDate value="1889">1889</docDate>
+		<docAuthor id="CARCASSONNE, Adolphe">Adolphe CARCASSONNE.</docAuthor>
 		<docImprint>
-			<editor id='MARPON, FLAMMARION'>PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
+			<editor id="MARPON, FLAMMARION">PARIS C. MARPON et E. FLAMMARION, ÉDITEURS, rue Racine, 26 près de l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - IMPRIMERIE DE LAGNY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA DAME EN NOIR" sex="2" type="H" statut="fantôme" age='A' stat_amour='(néant)'>LA DAME EN NOIR</role>.</castItem>
-		<castItem><role id="PIERRE" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>PIERRE</role>. 11 ans.</castItem>
-		<castItem><role id="ANDRÉ" sex="1" type="H" statut="enfant" age='E' stat_amour='(néant)'>ANDRÉ</role>.</castItem>
+		<castItem><role id="LA DAME EN NOIR" sex="2" type="H" statut="fantôme" age="A" stat_amour="(néant)">LA DAME EN NOIR</role>.</castItem>
+		<castItem><role id="PIERRE" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">PIERRE</role>. 11 ans.</castItem>
+		<castItem><role id="ANDRÉ" sex="1" type="H" statut="enfant" age="E" stat_amour="(néant)">ANDRÉ</role>.</castItem>
    </castList>
-	<set location='À la campagne' country='France' periode='XIXème' gps=""></set>
+	<set location="À la campagne" country="France" periode="XIXème" gps=""/>
 <note>Extrait de "Nouveau Théâtre d'enfants, Dix pièces en prose, à jouer dans les familles et dans les pensionnats, Paris, Marpon et Flammarion, Le Jay Libraires, 1889. pp. 261-285.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA DAME EN NOIR</head>
 <stage type="decor/location">Un salon. - Fauteuils. - Porte au fond. Au lever du rideau, la Dame en noir est sur le seuil de la porte au fond, prête à sortir.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Dame en noir, Pierre.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Dame en noir, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Revenez bien vite, Madame. </s>
@@ -69,7 +70,8 @@
 <stage type="interrupt">Il est interrompu par l'arrivée d'André qui, d'un air effrayé, entre par le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Pierre, André.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pierre, André.
+</stage>
 <sp who="ANDRÉ"><speaker>ANDRÉ.</speaker>
 <p id="1">
 	<s id="1">Il fait nuit dans l'escalier.</s>
@@ -246,7 +248,8 @@
 	<s id="1">Lis donc.</s>
 </p>
 </sp>
-<sp stage="read" who="ANDRÉ"><speaker>ANDRÉ, lisant.</speaker>
+<sp who="ANDRÉ"><speaker>ANDRÉ</speaker><stage type="read">, lisant.
+</stage>
 <p id="35">
 	<s id="1">Le poltron est à l'abri de tout danger. </s>
 	<s id="2">Il ne lui arrive jamais rien de mal. </s>
@@ -259,12 +262,14 @@
 	<s id="1">Il laisse brûler les autres.</s>
 </p>
 </sp>
-<sp who="ANDRÉ"><speaker>ANDRÉ, continuant.</speaker>
+<sp who="ANDRÉ"><speaker>ANDRÉ</speaker><stage>, continuant.
+</stage>
 <p id="37">
 	<s id="1">Il ne se fait pas soldat, il ne va pas à la bataille, il ne risque pas d'être tué...</s>
 </p>
 </sp>
-<sp who="PIERRE"><speaker>PIERRE, l'interrompant.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage>, l'interrompant.
+</stage>
 <p id="38">
 	<s id="1">Assez ! </s>
 	<s id="2">Je ne puis plus entendre de pareilles choses !</s>
@@ -283,7 +288,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE II. Pierre, André, La Dame.</head>
+<div2 type="scene" n="3"><head>SCÈNE II.</head><stage> Pierre, André, La Dame.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Madame, vous arrivez à propos ; voici un poltron comme je n'en connais pas et que je vous recommande.</s>
@@ -314,7 +320,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. André, La Dame.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> André, La Dame.
+</stage>
 <sp who="LA DAME"><speaker>LA DAME.</speaker>
 <p id="1">
 	<s id="1">Approchez, mon enfant.</s>
@@ -492,7 +499,8 @@
 	<s id="2">La vieille gloire de la France s'y perdit...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="ANDRÉ"><speaker>ANDRÉ, l'interrompant.</speaker>
+<sp who="ANDRÉ"><speaker>ANDRÉ</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="34">
 	<s id="1">Pourtant l'on s'est battu ?</s>
 </p>
@@ -524,7 +532,8 @@
 	<s id="1">Nous avons été vaincus.</s>
 </p>
 </sp>
-<sp stage="anger" who="ANDRÉ"><speaker>ANDRÉ, fermant le poing.</speaker>
+<sp who="ANDRÉ"><speaker>ANDRÉ</speaker><stage type="anger">, fermant le poing.
+</stage>
 <p id="30">
 	<s id="1">Oh ! </s>
 	<s id="2">Les ennemis de la France !</s>
@@ -570,7 +579,8 @@
 	<s id="1">Je les tuerai !</s>
 </p>
 </sp>
-<sp stage="entrance" who="PIERRE"><speaker>PIERRE, paraissant au fond.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="entrance">, paraissant au fond.
+</stage>
 <p id="39">
 	<s id="1">Bravo ! </s>
 	<s id="2">André.</s>
@@ -578,7 +588,8 @@
 <stage type="entrance">Il vient en scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. André, La Dame, Pierre.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> André, La Dame, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">J'étais sûr, Madame, que vous dissiperiez les craintes d'André.</s>
@@ -655,11 +666,3 @@
 </body>
 </text>
 </TEI>
-
-
-
-
-
-
-
-

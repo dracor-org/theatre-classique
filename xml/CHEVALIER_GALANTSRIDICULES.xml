@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1671-1680</periode>
 				<taille>500-750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -29,10 +29,10 @@
 				<titlePart type="sub">OU LES AMOURS DE GUILLOT ET DE RAGOTIN. </titlePart>
 				<titlePart type="sub">Comédie représentée sur le Théâtre Royal du Marais.</titlePart>
 			</docTitle>
-			<docDate value='1672'>M. DC. LXII. Avec Privilège du Roi.</docDate>
-			<docAuthor id='CHEVALIER, Jean Simonin dit' bio='chevalier'>Par le Sieur CHEVALIER.</docAuthor>
+			<docDate value="1672">M. DC. LXII. Avec Privilège du Roi.</docDate>
+			<docAuthor id="CHEVALIER, Jean Simonin dit" bio="chevalier">Par le Sieur CHEVALIER.</docAuthor>
 			<docImprint>
-				<imprimeur id='MOETJENS'>Chez PIERRE BIENFAIT,  devant la Sainte Chapelle à l'Image Saint Pierre.</imprimeur>
+				<imprimeur id="MOETJENS">Chez PIERRE BIENFAIT,  devant la Sainte Chapelle à l'Image Saint Pierre.</imprimeur>
 			</docImprint>
 	<div type="dedicace"><adresse>À MADMOISELLE M.M.</adresse> 
 		<head>Mademoiselle,</head>
@@ -42,20 +42,21 @@
 		<p>CHEVALIER.</p>
 	</div>	
 	<castList><head>LES ACTEURS.</head>
-		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="bourgeois" age='A' stat_amour="Léandre">ANGÉLIQUE</role>, Fille du Docteur, Amante de Léandre.</castItem>
-		<castItem><role id="BÉATRIX" sex="2" type="H" statut="suivante" age='A' stat_amour="néant">BÉATRIX</role>, Suivante d'Angélique.</castItem>
-		<castItem><role id="RAGOTIN" sex="1" type="H" statut="valet" age='A' stat_amour="Béatrix">RAGOTIN</role>, Valet de Guillot, Amoureux de Béatrix.</castItem> 
-		<castItem><role id="GUILLOT" sex="1" type="H" statut="bourgeois" age='A' stat_amour="Angélique">GUILLOT</role>, Amoureux d'Angélique.</castItem>
-		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="docteur" age='A' stat_amour="néant">LE DOCTEUR</role>. Père d'Angélique.</castItem>
-		<castItem><role id="LÉANDRE" sex="1" type="H" statut="bourgeois" age='A' stat_amour="Angélique">LÉANDRE</role>, Amant d'Angélique.</castItem>
-		<castItem><role id="LE BARON DE LA TOPINIÈRE" sex="1" type="H" statut="baron" age='A' stat_amour="Angélique">LE BARON DE LA TOPINIÈRE</role>, Amoureux d'Angélique.</castItem>
-		<castItem><role id="TARASQUIN" sex="1" type="H" statut="valet" age='A' stat_amour="néant">TARASQUIN</role>, Valet du Baron.</castItem>
+		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="Léandre">ANGÉLIQUE</role>, Fille du Docteur, Amante de Léandre.</castItem>
+		<castItem><role id="BÉATRIX" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">BÉATRIX</role>, Suivante d'Angélique.</castItem>
+		<castItem><role id="RAGOTIN" sex="1" type="H" statut="valet" age="A" stat_amour="Béatrix">RAGOTIN</role>, Valet de Guillot, Amoureux de Béatrix.</castItem> 
+		<castItem><role id="GUILLOT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="Angélique">GUILLOT</role>, Amoureux d'Angélique.</castItem>
+		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>. Père d'Angélique.</castItem>
+		<castItem><role id="LÉANDRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="Angélique">LÉANDRE</role>, Amant d'Angélique.</castItem>
+		<castItem><role id="LE BARON DE LA TOPINIÈRE" sex="1" type="H" statut="baron" age="A" stat_amour="Angélique">LE BARON DE LA TOPINIÈRE</role>, Amoureux d'Angélique.</castItem>
+		<castItem><role id="TARASQUIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">TARASQUIN</role>, Valet du Baron.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE CARTEL DE  GUILLOT.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Béatrix, Léandre.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Béatrix, Léandre.
+</stage>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 <note type="L">Ici, il manque tout le début de la 1ère Scène. </note>
 	<l id="1">D'emportement, de barbarie, </l>
@@ -108,7 +109,8 @@
 	<l id="39" syll="2" part="f">Adieu. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Guillot, Ragotin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Guillot, Ragotin.
+</stage>
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
 	<l id="40">Ragotin l'amour me tourmente </l>
 	<l id="41">Je brûle d'une flamme ardente, </l>
@@ -288,7 +290,8 @@
 	<l id="163">Holà, belle Angélique, holà, </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Béatrix, Ragotin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Béatrix, Ragotin.
+</stage>
 <sp who="BÉATRIX"><speaker>BÉATRIX.</speaker>
 	<l id="164">Que vous plaît-il de ma maîtresse. </l>
 </sp>
@@ -336,7 +339,8 @@
 	<l id="190">Madame, on vous demande en bas. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Angélique, Béatrix, Ragotin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Angélique, Béatrix, Ragotin.
+</stage>
 <sp who="RAGOTIN"><speaker>RAGOTIN.</speaker>
 <note type="L">Malepeste : Imprécation qu'on fait contre quelque chose, et quelquefois avec admiration. [M]</note>
 	<l id="191">Malepeste qu'elle a d'appas, </l>
@@ -366,8 +370,10 @@
 	<l id="212">Pourquoi dire cette sottise. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Angélique, Béatrix, Guillot, Ragotin.</head>
-<sp stage="entrance/location" who="GUILLOT"><speaker>GUILLOT, sort du coin du théâtre où il était caché.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Angélique, Béatrix, Guillot, Ragotin.
+</stage>
+<sp who="GUILLOT"><speaker>GUILLOT</speaker><stage type="entrance/location">, sort du coin du théâtre où il était caché.
+	</stage>
 	<l id="213">Ma belle, excusez la franchise, </l>
 	<l id="214">Ragotin venait en ce jour </l>
 	<l id="215">Pour vous découvrir mon amour, </l>
@@ -387,7 +393,8 @@
 	<l id="228">Concluons qu'étant admirable </l>
 	<l id="229">La raison est bien raisonnable. </l>
 </sp>
-<sp stage="sing" who="RAGOTIN"><speaker>RAGOTIN, chantant.</speaker>
+<sp who="RAGOTIN"><speaker>RAGOTIN</speaker><stage type="sing">, chantant.
+</stage>
 <note type="C">La chanson ci-dessous rompt le rythme. Plus d'alternance de rimes : 2 féminines 2 masculines. Le chanteur ayant chanté 3 vers. Il manque pour le 2ème vers, un corresp. pour la rime.</note>
 	<l id="230">Et concluons par nos raisons </l>
 	<l id="231">Qu'il faut quitter l'eau de la Seine </l>
@@ -433,7 +440,8 @@
 <sp who="BÉATRIX"><speaker>BÉATRIX.</speaker>
 	<l id="249">Tais-toi, laisse parler ton Maître. </l>
 </sp>
-<sp stage="toward" who="GUILLOT"><speaker>GUILLOT, à Angélique.</speaker>
+<sp who="GUILLOT"><speaker>GUILLOT</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="250">Pardonnez si j'ose paraître, </l>
 	<l id="251">À vos yeux les plus grands fripons </l>
 	<l id="252">Et d'amour les plus grands tisons, </l>
@@ -471,7 +479,8 @@
 	<l id="281">En mariant nos deux personnes </l>
 	<l id="282">Répondez la bonne des bonnes. </l>
 </sp>
-<sp stage="low" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, bas le premier vers.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="low">, bas le premier vers.
+	</stage>
 	<l id="283">Ô le ridicule Amoureux </l>
 	<l id="284">Monsieur, j'approuve fort vos voeux, </l>
 	<l id="285">Mais comme je dépends d'un père </l>
@@ -480,7 +489,8 @@
 	<l id="288">Dieu me garde d'un tel mari. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Guillot, Ragotin Angélique, Béatrix, Le Docteur.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Guillot, Ragotin Angélique, Béatrix, Le Docteur.
+</stage>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
 	<l id="289">Allons chez nous bonne hypocrite </l>
 <note type="L">Chattemite : Personne affectant des manières humbles et flatteuses. [L]</note>
@@ -495,7 +505,8 @@
 	<l id="294">Et la maîtresse et la suivante. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Guillot, Ragotin, Le Docteur.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Guillot, Ragotin, Le Docteur.
+</stage>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
 	<l id="295">Et bien que vous plaît-il Monsieur. </l>
 </sp>
@@ -745,7 +756,8 @@
 	<l id="416">Touchez, vous ne l'aurez jamais. </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Guillot, Ragotin.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Guillot, Ragotin.
+</stage>
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
 	<l id="417">Nous voilà bien dans nos affaires. </l>
 </sp>
@@ -772,7 +784,8 @@
 	<l id="433">Et celle où tout mon soin s'applique. </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le Baron de la Topinière, Tarasquin, Guillot, Ragotin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le Baron de la Topinière, Tarasquin, Guillot, Ragotin.
+</stage>
 <sp who="LA TOPINIÈRE"><speaker>LA TOPINIÈRE.</speaker>
 	<l id="434">Oui j'aime l'illustre Angélique, </l>
 	<l id="435">Et quiconque s'en approchera </l>
@@ -781,7 +794,8 @@
 	<l id="437">Je m'en vais lui couper la trame </l>
 	<l id="438">Et puis je lui mangerai l'âme. </l>
 </sp>
-<sp stage="hide" who="GUILLOT"><speaker>GUILLOT, se cachant.</speaker>
+<sp who="GUILLOT"><speaker>GUILLOT</speaker><stage type="hide">, se cachant.
+	</stage>
 	<l id="439">Où me suis-je venu fourrer. </l>
 </sp>
 <sp who="RAGOTIN"><speaker>RAGOTIN.</speaker>
@@ -859,7 +873,8 @@
 	<l id="490">Mon coeur est percé comme un crible, </l>
 	<l id="491">De la pointe de ses attraits. </l>
 </sp>
-<sp stage="call" who="TARASQUIN"><speaker>TARASQUIN, l'appelant.</speaker>
+<sp who="TARASQUIN"><speaker>TARASQUIN</speaker><stage type="call">, l'appelant.
+	</stage>
 	<l id="492">Holà, miracle, des objets. </l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -871,7 +886,8 @@
 	<l id="495">Désire vous voir un moment. </l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Angélique, La Topinière.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Angélique, La Topinière.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="496">Je vais à lui présentement. </l>
 </sp>
@@ -901,7 +917,8 @@
 	<l id="516">Baron vous ne me tenez pas. </l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Guillot, Ragotin, La Topinière, Tarasquin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Guillot, Ragotin, La Topinière, Tarasquin.
+</stage>
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
 	<l id="517">Je crains qu'il ne quitte pas prise. </l>
 </sp>
@@ -956,7 +973,8 @@
 	<l id="542">Je vais fuir aussi tout à l'heure. </l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Guillot, Ragotin.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Guillot, Ragotin.
+</stage>
 <sp who="RAGOTIN"><speaker>RAGOTIN.</speaker>
 	<l id="543">De peur par moi d'être assailli, </l>
 <note type="L">Happer : Se jeter sur quelque chose brusquement et avidement pour la prendre. [T]</note>
@@ -1005,7 +1023,8 @@
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
 	<l id="565">N'en sais-tu pas une délite. </l>
 </sp>
-<sp stage="sing" who="RAGOTIN"><speaker>RAGOTIN dit l'air de toutes les chansons qu'il nomme.</speaker>
+<sp who="RAGOTIN"><speaker>RAGOTIN</speaker><stage type="sing"> dit l'air de toutes les chansons qu'il nomme.
+	</stage>
 	<l id="566">N'avez-vous point vu Marguerite. </l>
 </sp>
 <sp who="GUILLOT"><speaker>GUILLOT.</speaker>
@@ -1127,7 +1146,8 @@
 	<l id="615">Je commence si bon vous semble </l>
 	<l id="616">Et puis nous chanterons ensemble. </l>
 </sp>
-<sp stage="alone/together" who="RAGOTIN"><speaker>RAGOTIN en dit la moitié seul, puis ils la disent ensemble.</speaker>
+<sp who="RAGOTIN"><speaker>RAGOTIN</speaker><stage type="alone/together"> en dit la moitié seul, puis ils la disent ensemble.
+</stage>
 <note type="C">La chanson ci-dessous rompt le rythme. Plus d'alternance de rimes : 2 féminines 2 masculines. Le chanteur ayant chanté 5 vers. Il manque pour le 4ème vers, un corresp. pour la rime.</note>
 	<l id="617">Vous avez ma Béatrix </l>
 	<l id="618">Plus de puces qu'un chat gris, </l>
@@ -1136,7 +1156,8 @@
 	<l id="621">Bientôt la gale du chien. </l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Guillot, Ragotin, La Topinière, Tarasquin.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Guillot, Ragotin, La Topinière, Tarasquin.
+</stage>
 <sp who="LA TOPINIÈRE"><speaker>LA TOPINIÈRE.</speaker>
 	<l id="622">Il faut qu'ils meurent tout de bon.</l>
 </sp>
@@ -1179,7 +1200,8 @@
 	<l id="638">Quelqu'un, à la force, au voleur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Le Docteur, Guillot, Ragotin, la Topinière, Tarasquin.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Le Docteur, Guillot, Ragotin, la Topinière, Tarasquin.
+</stage>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
 	<l id="639">Qui peut causer cette rumeur ? </l>
 </sp>
@@ -1187,10 +1209,12 @@
 	<l id="640">Ce drôle qui veut votre fille </l>
 	<l id="641">Mais il faut qu'ici je l'étrille. </l>
 </sp>
-<sp stage="location" who="LA TOPINIÈRE"><speaker>LA TOPINIÈRE, par-dessus le Docteur.</speaker>
+<sp who="LA TOPINIÈRE"><speaker>LA TOPINIÈRE</speaker><stage type="location">, par-dessus le Docteur.
+	</stage>
 	<l id="642">Ce n'est rien qu'un coquin, Monsieur. </l>
 </sp>
-<sp stage="location" who="GUILLOT"><speaker>GUILLOT par-dessus le Docteur.</speaker>
+<sp who="GUILLOT"><speaker>GUILLOT</speaker><stage type="location"> par-dessus le Docteur.
+</stage>
 <note type="L">Faquin : Termes de mépris et d'injure.</note>
 	<l id="643">C'est un archi-faquin, Docteur. </l>
 </sp>
@@ -1198,13 +1222,16 @@
 	<l id="644">La démonstration m'outrage </l>
 	<l id="645">N'en faites donc pas davantage. </l>
 </sp>
-<sp stage="location" who="LA TOPINIERE"><speaker>LA TOPINIERE, par-dessus le Docteur.</speaker>
+<sp who="LA TOPINIERE"><speaker>LA TOPINIERE</speaker><stage type="location">, par-dessus le Docteur.
+	</stage>
 	<l id="646">Laissez-moi lui couper les bras. </l>
 </sp>
-<sp who="GUILLOT"><speaker>GUILLOT, tout de même.</speaker>
+<sp who="GUILLOT"><speaker>GUILLOT</speaker><stage>, tout de même.
+	</stage>
 	<l id="647">Je vais mettre sa tête à bas. </l>
 </sp>
-<sp stage="call" who="LE DOCTEUR"><speaker>LE DOCTEUR, appelant à lui.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="call">, appelant à lui.
+</stage>
 <note type="L">Outrecuider : Montrer à quelqu'un du mépris par l'idée de sa propre supériorité. [L]</note>
 	<l id="648">On me moleste on m'outrecuide </l>
 	<l id="649">Mes gens à moi, l'on m'homicide. </l>
@@ -1216,7 +1243,8 @@
 	<l id="651">Nous allons avoir mille coups. </l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Léandre, Le Docteur, Guillot, Ragotin, La Topinière, Tarasquin.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Léandre, Le Docteur, Guillot, Ragotin, La Topinière, Tarasquin.
+</stage>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="652">Qui fait ce bruit quel tintamarre </l>
 <note type="L">Barre : Pièce de bois, de fer, etc. étroite et longue. On disait autrefois donner des coups de barre à quelqu'un pour le bien battre. [L]</note>
@@ -1264,7 +1292,8 @@
 	<l id="671">Léandre sera votre époux. </l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Angélique, Léandre, Le Docteur, Guillot, Ragotin, la Topinière, Tarasquin.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Angélique, Léandre, Le Docteur, Guillot, Ragotin, la Topinière, Tarasquin.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="672">Ô Ciel, que je suis fortunée. </l>
 </sp>

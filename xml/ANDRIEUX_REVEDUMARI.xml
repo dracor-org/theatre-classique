@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LE RÊVE DU MARI, OU LE MANTEAU, COMÉDIE</title>
-				<author type="texte" ISNI='0000 0000 8081 539X'>François ANDRIEUX (1759-1833)</author>
+				<author type="texte" ISNI="0000 0000 8081 539X">François ANDRIEUX (1759-1833)</author>
 			</titleStmt>
 			<publicationStmt>	
 				<editor>Texte établi par Paul FIEVRE, juillet 2022.</editor>
@@ -32,14 +32,14 @@
 			<titlePart type="sub">Représentée, le 20 mai 1826, sur le Théâtre-Français, par les Comédiens ordinaires du Roi.</titlePart>
 			<titlePart type="sub">Prix : 1 FR 75 c.</titlePart>
 		</docTitle> 
-		<docDate value='1826'>1826</docDate>
+		<docDate value="1826">1826</docDate>
 		<docAuthor id="ANDRIEUX, François Guillaume">Par F. G. J. S. Andrieux.</docAuthor>
 		<docImprint>
-			<editor id='MASSON'>À PARIS, CHEZ AIMÉ-ANDRÉ, LIBRAIRE, QUAI DES AUGUSTINS, n°59.</editor>
+			<editor id="MASSON">À PARIS, CHEZ AIMÉ-ANDRÉ, LIBRAIRE, QUAI DES AUGUSTINS, n°59.</editor>
 			<printer>PARIS, IMPRIMERIE DE DECOURCHANT, RUE D4ERFURTH, n°1, PRÈS L'ABBAYE.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1826-05-20' location='Théâtre français'>Représentée pour la première fois, au Théâtre Français, par les comédiens ordinaires de du Roi, le 20 mai 1826.</premiere>
+			<premiere date="1826-05-20" location="Théâtre français">Représentée pour la première fois, au Théâtre Français, par les comédiens ordinaires de du Roi, le 20 mai 1826.</premiere>
 		</performance>
 		<div type="poem"><head>À MADEMOISELLE MARS</head>
 			<p type="v">De mes vers vous offrir l'hommage,</p>
@@ -68,11 +68,11 @@
 			<p type="v">Des voeux formés pendant l'orage.</p>
 		</div>
 		<castList><head>PERSONNAGES. ACTEURS.</head>
-			<castItem><role id="DARLIÈRE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>DARLIÈRE</role>. M. MICHELOT</castItem>
-			<castItem><role id="MATHILDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MATHILDE</role>, sa femme. Mlle ROSE DUPUIS.</castItem>
-			<castItem><role id="ÉMILIE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>ÉMILIE</role>, sa cousine. Mlle MARS.</castItem>
-			<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age='A' stat_amour='néant'>LA BARONNE</role>, soeur de Mathilde. Mlle DEMERSON.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>GILLOT</role>, concierge. M. ARMAND-DAILLY.</castItem>
+			<castItem><role id="DARLIÈRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DARLIÈRE</role>. M. MICHELOT</castItem>
+			<castItem><role id="MATHILDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MATHILDE</role>, sa femme. Mlle ROSE DUPUIS.</castItem>
+			<castItem><role id="ÉMILIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">ÉMILIE</role>, sa cousine. Mlle MARS.</castItem>
+			<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE</role>, soeur de Mathilde. Mlle DEMERSON.</castItem>
+			<castItem><role id="" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GILLOT</role>, concierge. M. ARMAND-DAILLY.</castItem>
 		</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="46.580224, 0.340375">La scène est en Poitou, dans un château, à la campagne.</set>
 </front>
@@ -80,7 +80,8 @@
 <div1 type="acte" n="1"><head>LE RÊVE DU MARI</head>
 <stage type="decor/furniture">Le théâtre représente un salon de campagne bien meublé, mais simplement ; il y a un secrétaire, une table, une causeuse, un métier à broder, quelques livres épars.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/sit/open/furniture" who="MATHILDE"><speaker>MATHILDE, seule, assise devant un secrétaire ouvert, sur lequel il y a plusieurs lettres.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="alone/sit/open/furniture">, seule, assise devant un secrétaire ouvert, sur lequel il y a plusieurs lettres.
+	</stage>
 	<l id="1">Tandis que ma cousine, après le déjeuner,</l>
 	<l id="2">Est allée un instant au parc se promener,</l>
 	<l id="3">À mon mari je puis prendre le temps d'écrire.</l>
@@ -124,7 +125,8 @@
 <stage type="drop/close/entrance/watch">Elle remet précipitamment les lettres et ferme le secrétaire : Émilie, lui entre, s'aperçoit de ce mouvement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mathilde, Émilie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mathilde, Émilie.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="37" syll="3" part="f">Ah ! Fort bien !</l>
 	<l id="38">C'est agir finement, et je n'en verrai rien.</l>
@@ -148,7 +150,8 @@
 	<l id="45">Tu cachais ces papiers... Je devine pourquoi ;</l>
 	<l id="46">Je gage que Darlière y dit du mal de moi.</l>
 </sp>
-<sp sgtage="smile" who="MATHILDE"><speaker>MATHILDE, souriant.</speaker>
+<sp sgtage="smile" who="MATHILDE"><speaker>MATHILDE</speaker><stage>, souriant.
+	</stage>
 	<l id="47" syll="6" part="i">Bon !... Tu crois ?... Tu veux rire !</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
@@ -263,8 +266,10 @@
 	<l id="107" syll="6" part="i">Il a l'air effaré !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. les mêmes, Gillot.</head>
-<sp stage="toward" who="GILLOT"><speaker>GILLOT, à Mathilde.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> les mêmes, Gillot.
+</stage>
+<sp who="GILLOT"><speaker>GILLOT</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="107" syll="6" part="f">J'accours ici bien vite ;</l>
 	<l id="108">C'est pour vous annoncer, Madame, une visite.</l>
 </sp>
@@ -301,7 +306,8 @@
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="127" syll="6" part="f">Mais, c'est Blanval peut-être ?</l>
 </sp>
-<sp stage="smile/toward" who="MATHILDE"><speaker>MATHILDE, en souriant à Émilie.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="smile/toward">, en souriant à Émilie.
+	</stage>
 	<l id="128" syll="6" part="i">Peut-être son neveu !</l>
 <stage type="toward">À Gillot.</stage>
 	<l id="128" syll="6" part="f">Vous n'avez pu connaître ?...</l>
@@ -338,7 +344,8 @@
 	<l id="140">Une lettre que vient de me donner Larose</l>
 	<l id="141" syll="6" part="i">De chez Monsieur_le_Comte.</l>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, décachetant et jetant les yeux sur la lettre.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage>, décachetant et jetant les yeux sur la lettre.
+	</stage>
 	<l id="141" syll="6" part="f">Ah ! Ah ! C'est de Blanval !</l>
 	<l id="142">Ce qu'il m'apprend me cause un plaisir sans égal.</l>
 </sp>
@@ -346,7 +353,8 @@
 	<l id="143" syll="6" part="i">Il a donc réussi ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, La Baronne, enveloppée d'un grand et large manteau.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, La Baronne, enveloppée d'un grand et large manteau.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 	<l id="143" syll="6" part="f">J'arrive à la sourdine.</l>
 <stage type="toward">À Mathilde.</stage>
@@ -355,7 +363,8 @@
 	<l id="144" syll="6" part="f">Bonjour, belle cousine.</l>
 <stage type="kiss">Elle les embrasse toutes les deux.</stage>
 </sp>
-<sp stage="aparte" who="GILLOT"><speaker>GILLOT, à part.</speaker>
+<sp who="GILLOT"><speaker>GILLOT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="145" syll="4" part="i">Sa chère enfant !...</l>
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
@@ -404,7 +413,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mathilde, La Baronne, Émilie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mathilde, La Baronne, Émilie.
+</stage>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="157" syll="6" part="i">Tu viens fort à propos.</l>
 </sp>
@@ -415,7 +425,8 @@
 	<l id="158">Voici ce que pour toi je viens de recevoir.</l>
 <stage type="get/furniture">Elle prend dans son secrétaire la lettre de Blanval, et la lui donne.</stage>
 </sp>
-<sp stage="read" who="LA BARONNE"><speaker>LA BARONNE, lisant la lettre qu'elle met ensuite dans sa poche.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="read">, lisant la lettre qu'elle met ensuite dans sa poche.
+	</stage>
 	<l id="159">Mon mari colonel !... Ah ! Que je suis contente !</l>
 	<l id="160">C'est à toi que je dois ce succès qui m'enchante !</l>
 	<l id="161">Que je t'embrasse encor, pour t'en remercier.</l>
@@ -593,15 +604,18 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="ÉMILIE"><speaker>ÉMILIE, seule.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="240">Ah ! Messieurs les maris, vous devez vous attendre,</l>
 	<l id="241">Si vous nous faites peur, si vous êtes jaloux,</l>
 	<l id="242">À trouver cet accueil quand vous rentrez chez vous!</l>
 	<l id="243">C'est votre faute aussi ; que n'êtes-vous aimables ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Émilie, Darlière, Gillot.</head>
-<sp stage="entrance/toward" who="DARLIÈRE"><speaker>DARLIÈRE, entre en parlant à Gillot.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Émilie, Darlière, Gillot.
+</stage>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="entrance/toward">, entre en parlant à Gillot.
+	</stage>
 	<l id="244">Oui, morbleu ! Les chemins sont affreux, détestables !</l>
 	<l id="245">Et puis j'ai rencontré Monsieur_du_Grand-Genêt,</l>
 	<l id="246">Des benêts de maris, je crois, le plus benêt ;</l>
@@ -613,7 +627,8 @@
 <sp who="GILLOT"><speaker>GILLOT.</speaker>
 	<l id="250" syll="4" part="m">Aucun, Monsieur.</l>
 </sp>
-<sp stage="aparte" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="250" syll="4" part="f">Bien répondu.</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -629,8 +644,10 @@
 <stage type="exit">Gillot sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Darlière, Émilie.</head>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Darlière.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Darlière, Émilie.
+</stage>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Darlière.
+	</stage>
 	<l id="255" syll="4" part="i">Mon cher cousin !</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -659,7 +676,8 @@
 	<l id="266" syll="6" part="f">Eh ! Mais, qu'est-ce que c'est ?</l>
 	<l id="267" syll="6" part="i">Ce manteau, d'où vient-il?</l>
 </sp>
-<sp stage="aparte" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="267" syll="6" part="f">Fâcheuse étourderie !</l>
 	<l id="268" syll="6" part="i">Le manteau laissé là !...</l>
 </sp>
@@ -667,20 +685,24 @@
 	<l id="268" syll="6" part="f">Dites-moi, je vous prie,</l>
 	<l id="269" syll="6" part="i">Que fait là ce manteau ?...</l>
 </sp>
-<sp stage="aparte" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="269" syll="4" part="m">Que lui dire ?</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="269" syll="2" part="f">Parlez.</l>
 	<l id="270" syll="6" part="i">À qui donc peut-il être ?...</l>
 </sp>
-<sp stage="embarrassed" who="ÉMILIE"><speaker>ÉMILIE, embarrassée.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="embarrassed">, embarrassée.
+	</stage>
 	<l id="270" syll="6" part="f">Eh bien ! Vous le voulez ?</l>
 </sp>
-<sp stage="stress" who="DARLIÈRE"><speaker>DARLIÈRE, insistant.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="stress">, insistant.
+	</stage>
 	<l id="271" syll="2" part="i">Allons... </l>
 </sp>
-<sp stage="embarrassed" who="ÉMILIE"><speaker>ÉMILIE, de même.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="embarrassed">, de même.
+	</stage>
 	<l id="271" syll="6" part="m">Il est... il est à vous.</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -760,8 +782,10 @@
 	<l id="299" syll="6" part="i">Pourquoi donc ?... La voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, Mathilde.</head>
-<sp stage="closer/kiss" who="DARLIÈRE"><speaker>DARLIÈRE, allant au-devant de sa femme, et l'embrassant.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, Mathilde.
+</stage>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="closer/kiss">, allant au-devant de sa femme, et l'embrassant.
+	</stage>
 	<l id="299" syll="6" part="f">Bonjour, bonjour, ma chère.</l>
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
@@ -798,13 +822,15 @@
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="315" syll="3" part="i">Du cadeau !...</l>
 </sp>
-<sp stage="aparte" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="315" syll="3" part="m">Comment faire ?...</l>
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="315" syll="6" part="f">Eh ! Mais que signifie ?..</l>
 </sp>
-<sp stage="quick" who="ÉMILIE"><speaker>ÉMILIE, vivement.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="316">Ne va pas m'en vouloir. C'est moi qui t'ai trahie.</l>
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
@@ -817,13 +843,16 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="319">Sans doute, en arrivant il a frappé ma vue.</l>
 </sp>
-<sp stage="aparte" who="MATHILDE"><speaker>MATHILDE, à part.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="320" syll="2" part="i">Que dire ?...</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à Mathilde.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="320" syll="10" part="f">Qu'as-tu donc ? Tu parais bien émue !</l>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Mathilde.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="321">Allons, il ne faut pas avoir l'air interdit.</l>
 	<l id="322">Tu ne peux pas nier enfin ce que j'ai dit.</l>
 </sp>
@@ -941,7 +970,8 @@
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="372">Le trait s'adresse à moi, je le sens à merveille.</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à Émilie.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à Émilie.
+	</stage>
 	<l id="373">Ah ! Vous me comprenez ?... Je n'en suis pas fâché.</l>
 	<l id="374">Eh bien ! Oui, maintenant que le mot est lâché,</l>
 	<l id="375">Sans vous nous n'aurions point de semblables querelles,</l>
@@ -958,7 +988,8 @@
 	<l id="381">Qui ne l'approuve pas, peut retourner chez soi,</l>
 	<l id="382" syll="3" part="i">Madame.</l>
 </sp>
-<sp stage="toward" who="MATHILDE"><speaker>MATHILDE, à Darlière.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="toward">, à Darlière.
+	</stage>
 	<l id="382" syll="9" part="f">Mon ami, de grâce, calme-toi.</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -967,19 +998,23 @@
 	<l id="383" syll="6" part="f">Serviteur, ma cousine.</l>
 <stage type="entrance">Darlière et sa femme rentrent ensemble.</stage>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Darlière.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Darlière.
+	</stage>
 	<l id="384">Il ne vous manque plus que cette humeur chagrine,</l>
 	<l id="385">Et que ce ton bourru, pour vous faire haïr.</l>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="ÉMILIE"><speaker>ÉMILIE, seule.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="386">Pauvre femme ! Elle va sans réplique obéir !</l>
 	<l id="387">Se laisser subjuguer !... Elle est aussi trop bonne !</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Émilie, La Baronne.</head>
-<sp stage="open/exit" who="LA BARONNE"><speaker>LA BARONNE, entr'ouvrant la porte du cabinet où elle s'est renfermée, et sortant avec précaution.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Émilie, La Baronne.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="open/exit">, entr'ouvrant la porte du cabinet où elle s'est renfermée, et sortant avec précaution.
+	</stage>
 	<l id="388" syll="4" part="i">Il n'est plus là ?</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
@@ -1025,11 +1060,14 @@
 	<l id="397" syll="4" part="i">Voici Mathilde.</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Émilie, Mathilde, La Baronne.</head>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Émilie.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Émilie, Mathilde, La Baronne.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Émilie.
+	</stage>
 	<l id="397" syll="8" part="f">Eh ! Mais !... Dites à quel propos ?</l>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Mathilde.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="398" syll="2" part="i">Eh bien ?</l>
 </sp>
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
@@ -1123,7 +1161,8 @@
 	<l id="441">L'honneur du sexe enfin doit t'y déterminer.</l>
 	<l id="442">Baronne, c'est à vous maintenant d'opiner.</l>
 </sp>
-<sp stage="serious" who="LA BARONNE"><speaker>LA BARONNE, avec gravité.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="serious">, avec gravité.
+	</stage>
 	<l id="443">La chose est importante, et puisqu'on délibère,</l>
 	<l id="444">Voici sur ce sujet ce que je considère.</l>
 	<l id="445">Darlière est inquiet, et des soupçons fâcheux</l>
@@ -1167,7 +1206,8 @@
 	<l id="464" syll="9" part="f">Ce manteau, vite sur vos épaules...</l>
 	<l id="465" syll="6" part="i">Ne vous éloignez pas.</l>
 </sp>
-<sp stage="dress" who="LA BARONNE"><speaker>LA BARONNE, ayant mis le manteau sur elle.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="dress">, ayant mis le manteau sur elle.
+	</stage>
 	<l id="465" syll="6" part="f">Non ; dans ce cabinet,</l>
 	<l id="466">Pendant votre entretien, j'aurai l'oreille au guet.</l>
 	<l id="467">L'ennemi vient sur nous ; le voilà qui s'avance !</l>
@@ -1178,7 +1218,8 @@
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="471">La Baronne, vraiment, a l'esprit militaire.</l>
 </sp>
-<sp stage="smile" who="MATHILDE"><speaker>MATHILDE, souriant.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="472">Oui ; voilà ce que c'est que d'avoir fait la guerre !...</l>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
@@ -1188,12 +1229,14 @@
 	<l id="474">Bon ! Avant le combat la réserve s'enfuit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Émilie, Mathilde.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Émilie, Mathilde.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="475">Cousine, assieds-toi là ; prends en main ton ouvrage,</l>
 	<l id="476" syll="6" part="i">Parais-y travailler.</l>
 </sp>
-<sp stage="sit/furniture" who="MATHILDE"><speaker>MATHILDE, s'asseyant sur la causeuse.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="sit/furniture">, s'asseyant sur la causeuse.
+	</stage>
 	<l id="476" syll="4" part="m">Le coeur me bat !</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
@@ -1205,12 +1248,15 @@
 <stage type="sit/toward">Elle s'assied sur la causeuse à côté de Mathilde.</stage>
 	<l id="479">Assise auprès de toi, te faisant la lecture...</l>
 </sp>
-<sp stage="low/toward" who="MATHILDE"><speaker>MATHILDE, bas à Émilie.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="low/toward">, bas à Émilie.
+	</stage>
 	<l id="480" syll="3" part="i">Il entre !...</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Émilie, Mathilde, Darlière.</head>
-<sp stage="read" who="ÉMILIE"><speaker>ÉMILIE, lisant.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Émilie, Mathilde, Darlière.
+</stage>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="read">, lisant.
+	</stage>
 	<l id="480" syll="9" part="f">« Léonor supportait sans murmure</l>
 	<l id="481">De son mari jaloux les soupçons insultants. »</l>
 </sp>
@@ -1275,7 +1321,8 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="501" syll="9" part="i">J'achève, selon vous, mon rêve !</l>
 </sp>
-<sp stage="toward/aparte" who="ÉMILIE"><speaker>ÉMILIE, à part, à Mathilde.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward/aparte">, à part, à Mathilde.
+	</stage>
 	<l id="501" syll="3" part="f">L'y voilà.</l>
 	<l id="502" syll="6" part="i">C'est où je l'attendais.</l>
 <stage type="toward">À Darlière.</stage>
@@ -1296,7 +1343,8 @@
 	<l id="508">Que ma femme avait eu l'attention extrême</l>
 	<l id="509">D'acheter un manteau, pour m'en faire présent ?</l>
 </sp>
-<sp stage="laugh" who="ÉMILIE"><speaker>ÉMILIE, riant.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="510">Je vous ai dit cela, moi ?... Vous êtes plaisant !...</l>
 	<l id="511">On vous donne un manteau ! La folie est complète !</l>
 	<l id="512">Voyons, réponds, Mathilde, as-tu fait cette emplette ?</l>
@@ -1310,12 +1358,14 @@
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="517">Mais vous nous prêtez là des desseins fort jolis !</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à sa femme.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à sa femme.
+	</stage>
 	<l id="518">Madame, j'ai des yeux, je vous en avertis.</l>
 	<l id="519">On est fausse, et l'on trompe avec un air timide.</l>
 	<l id="520" syll="6" part="i">Répondrez-vous enfin ?</l>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, se levant.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage>, se levant.
+	</stage>
 	<l id="520" syll="6" part="f">Oui, ce ton me décide.</l>
 	<l id="521">Je n'ai pas songé même à vous faire un cadeau ;</l>
 	<l id="522">Et je n'ai point pour vous acheté de manteau ;</l>
@@ -1362,14 +1412,16 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="541" syll="6" part="f">Enfin, répondez-moi.</l>
 </sp>
-<sp stage="low/toward" who="MATHILDE"><speaker>MATHILDE, bas à Émilie.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="low/toward">, bas à Émilie.
+	</stage>
 	<l id="542" syll="9" part="i">Je n'y puis plus tenir. Que dire ?...</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="542" syll="6" part="f">Fâche-toi,</l>
 	<l id="543" syll="3" part="i">Et va-t'en.</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à sa femme.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à sa femme.
+	</stage>
 	<l id="543" syll="9" part="f">Voulez-vous enfin me laisser croire ?...</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
@@ -1384,15 +1436,18 @@
 	<l id="549" syll="3" part="i">Je vous laisse...</l>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="DARLIÈRE"><speaker>DARLIÈRE, faisant un mouvement pour l'arrêter.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage>, faisant un mouvement pour l'arrêter.
+	</stage>
 	<l id="549" syll="3" part="m">Un moment.</l>
 </sp>
-<sp stage="pull" who="ÉMILIE"><speaker>ÉMILIE, retenant Darlière.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="pull">, retenant Darlière.
+	</stage>
 	<l id="549" syll="6" part="f">Laissez-la s'en aller,</l>
 	<l id="550">Et restez avec moi ; car je veux vous parler.</l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Darlière, Émilie.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Darlière, Émilie.
+</stage>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="551">Allez-vous prendre encor des airs de raillerie ?</l>
 </sp>
@@ -1431,13 +1486,15 @@
 	<l id="569" syll="3" part="f">En cela,</l>
 	<l id="570">Vous avez très bien fait, et de ces succès-là...</l>
 </sp>
-<sp stage="ironic" who="ÉMILIE"><speaker>ÉMILIE, ironiquement.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="ironic">, ironiquement.
+	</stage>
 	<l id="571" syll="6" part="i">Vous en avez eu tant !</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="571" syll="2" part="m">C'est vrai.</l>
 </sp>
-<sp stage="aparte" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="571" syll="2" part="m">Le fat !</l>
 <stage type="loud">Haut.</stage>
 	<l id="571" syll="2" part="f">J'aspire</l>
@@ -1525,7 +1582,8 @@
 	<l id="614">Vous êtes allé faire un rêve... de mari ;</l>
 	<l id="615" syll="6" part="i">C'est tout simple ; avouez...</l>
 </sp>
-<sp stage="aparte" who="DARLIÈRE"><speaker>DARLIÈRE, à part.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="615" syll="6" part="f">Mais quel ton d'assurance !</l>
 <stage type="toward">À Émilie.</stage>
 	<l id="616">Dites-moi, ma cousine, auriez-vous l'espérance</l>
@@ -1604,7 +1662,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI.</head>
-<sp stage="alone" who="DARLIÈRE"><speaker>DARLIÈRE, seul.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="659" syll="10" part="f">Tout bien compté, que dois-je faire et dire ?</l>
 	<l id="660">Se tourmenter sans cesse, est-il un état pire ?</l>
 	<l id="661">Il vaudrait presque mieux, quoi qu'il fût arrivé,</l>
@@ -1612,7 +1671,8 @@
 	<l id="663">Mais enfin de mes yeux j'en crois le témoignage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Darlière, Gillot.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Darlière, Gillot.
+</stage>
 <sp who="GILLOT"><speaker>GILLOT.</speaker>
 	<l id="664">Monsieur, voudriez-vous venir voir cet ouvrage</l>
 	<l id="665">Que, pendant votre absence, on a fait au jardin ?</l>
@@ -1628,7 +1688,8 @@
 <stage type="toward">À Gillot.</stage>
 	<l id="669" syll="4" part="m">Viens, écoute.</l>
 </sp>
-<sp stage="aparte" who="GILLOT"><speaker>GILLOT, à part.</speaker>
+<sp who="GILLOT"><speaker>GILLOT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="669" syll="4" part="m">Eh ! Qu'a-t-il donc ?</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -1651,14 +1712,16 @@
 	<l id="677">Pas un homme n'a mis le pied dans la maison.</l>
 	<l id="678" syll="3" part="i">C'est très sûr.</l>
 </sp>
-<sp stage="aparte" who="DARLIÈRE"><speaker>DARLIÈRE, à part.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="678" syll="9" part="f">Ma cousine aurait-elle raison ?</l>
 <stage type="loud/toward">Haut à Gillot.</stage>
 	<l id="679">Vous devez bien sentir qu'à cette circonstance</l>
 	<l id="680">Je ne mets pas, Gillot, une grande importance.</l>
 	<l id="681" syll="6" part="i">Je ne fais point d'enquête...</l>
 </sp>
-<sp stage="aparte" who="GILLOT"><speaker>GILLOT, à part.</speaker>
+<sp who="GILLOT"><speaker>GILLOT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="681" syll="6" part="f">Oh ! Non, c'est seulement</l>
 	<l id="682">Qu'on s'informe de tout, de crainte d'accident.</l>
 </sp>
@@ -1724,13 +1787,15 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="697">Faites ce que j'ai dit. Allez, dépêchez-vous.</l>
 </sp>
-<sp stage="aparte" who="GILLOT"><speaker>GILLOT, à part.</speaker>
+<sp who="GILLOT"><speaker>GILLOT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="698">Allons, décidément notre maître est jaloux.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="18"><head>SCÈNE XVIII.</head>
-<sp stage="alone" who="DARLIÈRE"><speaker>DARLIÈRE, seule.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="699">Mathilde avec Blanval est en correspondance ;</l>
 	<l id="700">Et sans m'en avoir fait la moindre confidence !...</l>
 	<l id="701">Que dis-je, avec Blanval ?... Peut-être, que sait-on ?</l>
@@ -1742,8 +1807,10 @@
 	<l id="707">Il faut ce tourment qu'enfin je me délivre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE XIX. Mathilde, Darlière.</head>
-<sp stage="entrance/aparte" who="MATHILDE"><speaker>MATHILDE, en entrant, à part.</speaker>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Mathilde, Darlière.
+</stage>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="entrance/aparte">, en entrant, à part.
+	</stage>
 	<l id="708">J'ai ma leçon bien faite ; il s'agit de la suivre.</l>
 <stage type="toward">À Darlière.</stage>
 	<l id="709">Vous m'avez demandée, et j'accours aussitôt,</l>
@@ -1793,7 +1860,8 @@
 	<l id="725" syll="6" part="f">Je ne les lirai point.</l>
 <stage type="get/hide">Il le prend, et le met dans sa poche.</stage>
 </sp>
-<sp stage="smile" who="MATHILDE"><speaker>MATHILDE, souriante.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="smile">, souriante.
+	</stage>
 	<l id="726" syll="6" part="i">Oh ! Non, je le vois bien.</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -1812,11 +1880,13 @@
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="732" syll="3" part="i">Vous croyez ?...</l>
 </sp>
-<sp stage="anger" who="DARLIÈRE"><speaker>DARLIÈRE, s'animant et se fâchant par degrés.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="anger">, s'animant et se fâchant par degrés.
+	</stage>
 	<l id="732" syll="9" part="f">Répondez nettement, je vous prie ;</l>
 	<l id="733" syll="6" part="i">Il est venu quelqu'un !...</l>
 </sp>
-<sp stage="embarrassed" who="MATHILDE"><speaker>MATHILDE, jouant l'embarras.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="embarrassed">, jouant l'embarras.
+	</stage>
 	<l id="733" syll="6" part="f">Quelqu'un ?... Non... Je ne sais....</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
@@ -1849,7 +1919,8 @@
 <sp who="MATHILDE"><speaker>MATHILDE.</speaker>
 	<l id="745" syll="6" part="i">Quels sont-ils, s'il vous plaît ?</l>
 </sp>
-<sp stage="aparte" who="DARLIÈRE"><speaker>DARLIÈRE, à part.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="745" syll="6" part="f">Elle n'avouera rien.</l>
 <stage type="toward">À Mathilde.</stage>
 	<l id="746">Je ne vous presse plus de parler. C'est fort bien.</l>
@@ -1860,7 +1931,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="20"><head>SCÈNE XX.</head>
-<sp stage="alone" who="MATHILDE"><speaker>MATHILDE, seule.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="748" syll="2" part="f">Je pense</l>
 	<l id="749">Que dans ce beau jeu-là ma cousine, vraiment,</l>
 	<l id="750">Pourrait bien avoir tort ; je crains l'événement.</l>
@@ -1869,7 +1941,8 @@
 	<l id="753" syll="9" part="i">Si tout ceci tournait contre nous !...</l>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI. Émilie, Mathilde.</head>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Émilie, Mathilde.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 	<l id="753" syll="3" part="f">Tout va bien.</l>
 </sp>
@@ -1896,8 +1969,10 @@
 	<l id="764" syll="8" part="i">Baronne, à votre tour. Venez.</l>
 </sp>
 </div2>
-<div2 stage="dress/costume" type="scene" n="22"><head>SCÈNE XXII. Émilie, Mathilde, La Baronne, le chapeau enfoncé sur les yeux, et s'enveloppant du manteau.</head>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Mathilde.</speaker>
+<div2 type="scene" n="22"><head>SCÈNE XXII.</head><stage type="dress/costume"> Émilie, Mathilde, La Baronne, le chapeau enfoncé sur les yeux, et s'enveloppant du manteau.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="764" syll="4" part="f">Ma toute belle, </l>
 	<l id="765">Il faut nous séparer ; c'est à mon grand regret.</l>
 </sp>
@@ -1905,7 +1980,8 @@
 	<l id="766">Partez ; on peut vous voir ; fuyez vite en secret.</l>
 <stage type="entrance/location">Darlière parait au fond de la scène.</stage>
 </sp>
-<sp stage="low/toward" who="ÉMILIE"><speaker>ÉMILIE, bas aux deux autres femmes.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="low/toward">, bas aux deux autres femmes.
+	</stage>
 	<l id="767" syll="6" part="i">Voici notre jaloux.</l>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
@@ -1914,7 +1990,8 @@
 <stage type="kiss">Elle lui baise la main.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="23"><head>SCÈNE XXIII ET DERNIÈRE. Les mêmes, Darlière, accourant furieux.</head> 
+<div2 type="scene" n="23"><head>SCÈNE XXIII ET DERNIÈRE.</head><stage> Les mêmes, Darlière, accourant furieux. 
+</stage> 
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="769" syll="3" part="i">C'en est trop !</l>
 </sp>
@@ -1929,10 +2006,12 @@
 <stage type="watch/toward">Se tournant vers la Baronne.</stage>
 	<l id="770" syll="6" part="i">Et ce manteau maudit !..</l>
 </sp>
-<sp stage="sad" who="ÉMILIE"><speaker>ÉMILIE, avec un chagrin affecté.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="sad">, avec un chagrin affecté.
+	</stage>
 	<l id="770" syll="6" part="f">Ah ! Dieu ! Quel contre-temps !</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à la Baronne.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à la Baronne.
+	</stage>
 	<l id="771">Que faites-vous ici, vous, dont l'aspect m'offense ?</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
@@ -1956,20 +2035,23 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="775">On ne pardonne point un si cruel outrage.</l>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à la Baronne.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à la Baronne.
+	</stage>
 	<l id="776" syll="6" part="i">Fuyez donc, imprudent !</l>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 	<l id="776" syll="6" part="f">Moi ? J'aime le tapage.</l>
 </sp>
-<sp stage="pull" who="DARLIÈRE"><speaker>DARLIÈRE, saisissant la Baronne.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="pull">, saisissant la Baronne.
+	</stage>
 	<l id="777">Tu me feras raison ; viens... tu vas expier....</l>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 	<l id="778">J'accepte, et je me bats comme un preux chevalier.</l>
 <stage type="dress/costume">Elle rejette son chapeau et son manteau.</stage>
 </sp>
-<sp stage="recognise" who="DARLIÈRE"><speaker>DARLIÈRE, la reconnaissant.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="recognise">, la reconnaissant.
+	</stage>
 	<l id="779" syll="6" part="i">La Baronne !.. Ah !... morbleu !..</l>
 <stage type="laugh">Les trois femmes éclatent de rire.</stage>
 </sp>
@@ -2015,7 +2097,8 @@
 	<l id="791" syll="6" part="f">Fort bien, mon cher beau-frère.</l>
 	<l id="792" syll="6" part="i">Le duel, verre en main.</l>
 </sp>
-<sp stage="toward" who="DARLIÈRE"><speaker>DARLIÈRE, à Mathilde.</speaker>
+<sp who="DARLIÈRE"><speaker>DARLIÈRE</speaker><stage type="toward">, à Mathilde.
+	</stage>
 	<l id="792" syll="6" part="f">Pardonne-moi, ma chère,</l>
 	<l id="793" syll="10" part="i">De t'avoir soupçonnée un seul instant.</l>
 <stage type="toward">À Émilie.</stage>
@@ -2029,7 +2112,8 @@
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>
 	<l id="796">Désormais je renonce aux projets de retraite,</l>
 </sp>
-<sp stage="happy" who="MATHILDE"><speaker>MATHILDE, avec joie.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="happy">, avec joie.
+	</stage>
 	<l id="797" syll="3" part="i">Ah ! mon ami !</l>
 </sp>
 <sp who="DARLIÈRE"><speaker>DARLIÈRE.</speaker>

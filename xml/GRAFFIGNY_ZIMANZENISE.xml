@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -30,25 +30,26 @@
 		<titlePart type="sub">COMÉDIE EN UN ACTE EN PROSE</titlePart>
 	</docTitle>
 	<docDate value="1770">M. DCC. LXX.</docDate>
-		<docAuthor id="GRAFFIGNY, Françoise de"></docAuthor>
+		<docAuthor id="GRAFFIGNY, Françoise de"/>
 	<docImprint>
 		<editor id="">À AMSTERDAM, Et se trouve à PARIS, Chez les Libraires qui vendent les Nouveautés.</editor>
 	</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="BIENFAISANTE" sex="2" type="H" statut="fée" age='A' stat_amour='néant'>BIENFAISANTE</role>, Fée.</castItem>
-		<castItem><role id="ZENISE" sex="2" type="H" statut="prince" age='J' stat_amour='néant'>ZENISE</role>, jeune Princesse.</castItem>
-		<castItem><role id="ZIMAN" sex="1" type="H" statut="prince" age='J' stat_amour='néant'>ZIMAN</role>, jeune Prince.</castItem>
-		<castItem><role id="MIRFLOT" sex="1" type="H" statut="paysan" age='A' stat_amour='néant'>MIRFLOT</role>, Paysan.</castItem>
-		<castItem><role id="PHILETTE" sex="2" type="H" statut="paysan" age='A' stat_amour='néant'>PHILETTE</role>, Paysanne.</castItem>
-		<castItem><role id="BLAISE" sex="1" type="H" statut="paysan" age='V' stat_amour='néant'>BLAISE</role>, Père de Mirflot.</castItem>
-		<castItem><role id="UN AMBASSADEUR" sex="1" type="H" statut="ambassadeur" age='A' stat_amour='néant'>UN AMBASSADEUR</role>, et sa SUITE.</castItem>
+		<castItem><role id="BIENFAISANTE" sex="2" type="H" statut="fée" age="A" stat_amour="néant">BIENFAISANTE</role>, Fée.</castItem>
+		<castItem><role id="ZENISE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">ZENISE</role>, jeune Princesse.</castItem>
+		<castItem><role id="ZIMAN" sex="1" type="H" statut="prince" age="J" stat_amour="néant">ZIMAN</role>, jeune Prince.</castItem>
+		<castItem><role id="MIRFLOT" sex="1" type="H" statut="paysan" age="A" stat_amour="néant">MIRFLOT</role>, Paysan.</castItem>
+		<castItem><role id="PHILETTE" sex="2" type="H" statut="paysan" age="A" stat_amour="néant">PHILETTE</role>, Paysanne.</castItem>
+		<castItem><role id="BLAISE" sex="1" type="H" statut="paysan" age="V" stat_amour="néant">BLAISE</role>, Père de Mirflot.</castItem>
+		<castItem><role id="UN AMBASSADEUR" sex="1" type="H" statut="ambassadeur" age="A" stat_amour="néant">UN AMBASSADEUR</role>, et sa SUITE.</castItem>
 	</castList>
-	<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)">La scène est dans le Château de la Fée.</set>
+	<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La scène est dans le Château de la Fée.</set>
 	<note>issu de "Oeuvres posthumes de Madame de Grafigny ; contenant, ZIMAN et ZENISE, suivi de PHAZA, Comédies en un Acte en Prose."</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ZIMAN ET ZENISE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Fée, Zenise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Fée, Zenise.
+</stage>
 <sp who="ZENISE"><speaker>ZENISE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, ma bonne ! </s>
@@ -61,7 +62,8 @@
 	<s id="2">Mais pour faire connaître celui de mes deux élèves qui doit être Roi, il faut encore d'autres épreuves.</s>
 </p>
 </sp>
-<sp stage="sad" who="ZENISE"><speaker>ZENISE, d'un air triste. </speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="sad">, d'un air triste. 
+</stage>
 <p id="3">
 	<s id="">Mais, Madame, si vous en faites faire souvent de pareilles, il n'y résistera pas.</s>
 </p>
@@ -71,7 +73,8 @@
 	<s id="1">Qui ?</s>
 </p>
 </sp>
-<sp stage="nice" who="ZENISE"><speaker>ZENISE, d'un ton compatissant.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="nice">, d'un ton compatissant.
+</stage>
 <p id="5">
 	<s id="1">Ziman, il est si délicat !</s>
 </p>
@@ -91,14 +94,16 @@
 	<s id="1">Mirflot n'a-t-il pas combattu de même, et cependant vous ne le plaignez pas.</s>
 </p>
 </sp>
-<sp stage="anive" who="ZENISE"><speaker>ZENISE, d'un ton naïf.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="anive">, d'un ton naïf.
+</stage>
 <p id="9">
 	<s id="1">Oh ! </s>
 	<s id="2">Madame ! </s>
 	<s id="2">Il est bien plus robuste.</s>
 </p>
 </sp>
-<sp stage="wise" who="LA FÉE"><speaker>LA FÉE, d'un ton malin.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="wise">, d'un ton malin.
+</stage>
 <p id="10">
 	<s id="1">Et parce qu'il a de la force, je gage que vous en concluez qu'il est de basse naissance, avouez-le ?</s>
 </p>
@@ -120,12 +125,14 @@
 	<s id="2">Il est doux, complaisant et je lui crois le meilleur coeur du monde.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant. </speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant. 
+</stage>
 <p id="14">
 	<s id="1">Vous en jugez favorablement, Zénise, mais n'êtes vous pas un peu trop prévenue en sa faveur ?</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, toujours sur le ton naif.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, toujours sur le ton naif.
+</stage>
 <p id="15">
 	<s id="1">Moi, Madame ? </s>
 	<s id="2">Hélas ! </s>
@@ -137,7 +144,8 @@
 	<s id="1">Vous soupirez Zenise ?</s>
 </p>
 </sp>
-<sp stage="sad" who="ZENISE"><speaker>ZENISE, tristement.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="sad">, tristement.
+</stage>
 <p id="17">
 	<s id="1">Oui, Madame, n'ai-je pas raison ? </s>
 	<s id="2">N'est-il pas bien triste d'ignorer qui l'on est ? </s>
@@ -206,7 +214,8 @@
 	<s id="1">Pratiquez-les toutes, ma fille, la douceur, la bonté, la modestie font autant d'honneur à une Reine qu'à une paysanne.</s>
 </p>
 </sp>
-<sp stage="happy/quick" who="ZENISE"><speaker>ZENISE, gaiement et vivement. </speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="happy/quick">, gaiement et vivement. 
+</stage>
 <p id="29">
 	<s id="1">Ah ! </s>
 	<s id="2">Je vous entends, ma chère bonne, vous serez contente de moi.</s>
@@ -217,13 +226,15 @@
 	<s id="1">Ne vous flattez pas, Zénise, cette présomption n'est pas d'une belle Äme, en me promettant de la modestie, vous en manquez.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, modestement.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, modestement.
+</stage>
 <p id="31">
 	<s id="1">Il est vrai, Madame, j'ai fait une faute : mais aussi si vous vouliez me dire... </s>
 	<s id="2">Tenez, je vous promets de bien garder le secret.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="32">
 	<s id="1">Vous êtes donc discrète ?</s>
 </p>
@@ -233,14 +244,16 @@
 	<s id="1">Oui, Madame, ne suis-je pas en âge de l'être, j'aurai bientôt quatorze ans.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA FÉE"><speaker>LA FÉE, riant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="34">
 	<s id="1">Il est vrai, mais malgré cet âge mûr dont vous vous vantez, je suis sûre que Philette vous amuse mieux que moi : et la voici justement : ainsi je vous laisse. </s>
 	<s id="2">Je vais savoir lequel de mes jeunes hommes à remporté le prix de la course.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Zenise, Philette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Zenise, Philette.
+</stage>
 <sp who="PHILETTE"><speaker>PHILETTE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -257,7 +270,8 @@
 	<s id="1">Quoi, vous n'avez rien pu tirer de cette vieille grondeuse ?</s>
 </p>
 </sp>
-<sp stage="unhappy" who="ZENISE"><speaker>ZENISE, d'un air fâché.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="unhappy">, d'un air fâché.
+</stage>
 <p id="4">
 	<s id="1">Je vous l'ai dit plus de cent fois, Philette, je n'aime point que vous donniez de vilains noms à Bienfaisante. </s>
 	<s id="2">Nous lui avons obligation ; elle nous aime, elle nous instruit ; pourquoi mal parler d'elle ?</s>
@@ -382,7 +396,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Fée suivie de Ziman, de Mirflot, d'une troupe de Danseurs et de danseuses, Philette, Zenise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Fée suivie de Ziman, de Mirflot, d'une troupe de Danseurs et de danseuses, Philette, Zenise.
+</stage>
 <sp who="LA FÉE"><speaker>LA FÉE.</speaker>
 <p id="1">
 	<s id="1">Allons mes enfans, divertissez vous. </s>
@@ -407,7 +422,8 @@
 	<s id="1">Approchez Mirflot, que Zénise vous COU TOIl I]6,</s>
 </p>
 </sp>
-<sp stage="surprise" who="ZENISE"><speaker>ZENISE, surprise, en se reculant.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="surprise">, surprise, en se reculant.
+</stage>
 <p id="5">
 	<s id="1">Moi ! </s>
 	<s id="2">Madame !</s>
@@ -420,7 +436,8 @@
 </p>
 <stage type="give">La Fée lui donne une Couronne de fleurs.</stage>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, d'un air embarrassé.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, d'un air embarrassé.
+</stage>
 <p id="7">
 	<s id="1">Quoi, Madame ! </s>
 	<s id="2">C'est Mirflot...</s>
@@ -432,23 +449,27 @@
 	<s id="2">Sans doute que c'est moi : voilà qui est bien étonnant ; allons, couronnez moi , Mademoiselle Zenise.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, à la Fée d'un ton plus triste.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, à la Fée d'un ton plus triste.
+</stage>
 <p id="9">
 	<s id="">Madame.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant malignement.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant malignement.
+</stage>
 <p id="10">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Madame, que me voulez vous ?</s>
 </p>
 </sp>
-<sp stage="pull" who="MIRFLOT"><speaker>MIRFLOT, la tirant par la manche.</speaker>
+<sp who="MIRFLOT"><speaker>MIRFLOT</speaker><stage type="pull">, la tirant par la manche.
+</stage>
 <p id="11">
 	<s id="1">Finissez donc, Mademoiselle, vous vous faites bien prier.</s>
 </p>
 </sp>
-<sp stage="impatient" who="ZENISE"><speaker>ZENISE, impatiente.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="impatient">, impatiente.
+</stage>
 <p id="12">
 	<s id="1">Attendez.</s>
 </p>
@@ -465,13 +486,15 @@
 	<s id="2">Mais vous avez beau grimacer, puisqu'il a gagné le prix, il faut bien le lui donner.</s>
 </p>
 </sp>
-<sp stage="unpleased" who="LA FÉE"><speaker>LA FÉE, d'un ton sévère.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="unpleased">, d'un ton sévère.
+</stage>
 <p id="15">
 	<s id="1">Vous devez vous taire Philette, ceci ne vous regarde pas. </s>
 	<s id="2">Eh bien Zenise, vos délais finiront-ils bientôt ?</s>
 </p>
 </sp>
-<sp stage="kneel" who="ZIMAN"><speaker>ZIMAN, aux genoux de Zénise.</speaker>
+<sp who="ZIMAN"><speaker>ZIMAN</speaker><stage type="kneel">, aux genoux de Zénise.
+</stage>
 <p id="16">
 	<s id="1">Rendez justice au mérite Zenise. </s>
 	<s id="2">Je donnerais ma vie pour recevoir cette Couronne de vos belles mains. </s>
@@ -479,7 +502,8 @@
 	<s id="4">Je ne lui envie que le bonheur d'être couronné par vous.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, d'un ton attendri pour Ziman.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, d'un ton attendri pour Ziman.
+</stage>
 <p id="17">
 	<s id="1">Madame, vous entendez. ..</s>
 </p>
@@ -489,7 +513,8 @@
 	<s id="1">Oui, j'entends que Ziman est équitable, et je vois que vous ne l'êtes pas ; Zénise je lis trop dans votre coeur.</s>
 </p>
 </sp>
-<sp stage="hurry/frighten" who="ZENISE"><speaker>ZENISE, avec un empressement mêlé de crainte.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="hurry/frighten">, avec un empressement mêlé de crainte.
+</stage>
 <p id="19">
 	<s id="1">Venez, Mirflot, que je vous couronne.</s>
 </p>
@@ -509,14 +534,17 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Fée, Zenise.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Fée, Zenise.
+</stage>
 <stage type="watch/exit/kidding">Pendant cette scène  Mirflot et Philette s'amusent au fond du théâtre à regarder sortir Ziman et font des signes de raillerie.</stage>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="1">
 	<s id="1">Vous voilà bien fâchée Zénise ?</s>
 </p>
 </sp>
-<sp stage="pain" who="ZENISE"><speaker>ZENISE, d'un ton chagrin.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="pain">, d'un ton chagrin.
+</stage>
 <p id="2">
 	<s id="1">Est ce mal faire que de compatir aux malheureux ?</s>
 </p>
@@ -526,12 +554,14 @@
 	<s id="1">Non, mais avouez que vous êtes un peu trop partiale.</s>
 </p>
 </sp>
-<sp stage="pain" who="ZENISE"><speaker>ZENISE, d'un ton fâché.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="pain">, d'un ton fâché.
+</stage>
 <p id="4">
 	<s id="">En vérité, Madame, il me semble que vous l'êtes encore plus que moi.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="5">
 	<s id="1">Comment donc ! </s>
 	<s id="2">Vous me querellez, je crois ?</s>
@@ -550,7 +580,8 @@
 	<s id="2">Allons venez prendre votre leçon de Musique.</s>
 </p>
 </sp>
-<sp stage="watch/sigh" who="ZENISE"><speaker>ZENISE, à part levant les yeux au ciel et en soupirant.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="watch/sigh">, à part levant les yeux au ciel et en soupirant.
+</stage>
 <p id="8">
 	<s id="1">Moi chanter ! </s>
 	<s id="2">Ah Ziman que je vous plains... </s>
@@ -558,7 +589,8 @@
 <stage type="exit">Elles sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mirflot, Philette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mirflot, Philette.
+</stage>
 <sp who="MIRFLOT"><speaker>MIRFLOT.</speaker>
 <p id="1">
 	<s id="1">Les voilà parties. </s>
@@ -649,13 +681,15 @@
 	<s id="5">J'en veux faire mon valet de chambre, afin de le bien battre quand la fantaisie m'en prendra.</s>
 </p>
 </sp>
-<sp stage="wave" who="PHILETTE"><speaker>PHILETTE, en branlant la tête.</speaker>
+<sp who="PHILETTE"><speaker>PHILETTE</speaker><stage type="wave">, en branlant la tête.
+</stage>
 <p id="15">
 	<s id="1">Monsieur Mirflot, Monsieur Mirflot, vous pourrez bien être battu vous même, je n'ai jamais entendu parler d'un pareil Roi.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Zénise, Mirflot, Philette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Zénise, Mirflot, Philette.
+</stage>
 <sp who="ZENISE"><speaker>ZENISE.</speaker>
 <p id="1">
 	<s id="1">N'avez-vous pas vu Ziman, je ne puis le trouver ?</s>
@@ -693,8 +727,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ziman, Zenise.</head>
-<sp stage="tender" who="ZENISE"><speaker>ZENISE, d'un ton doux et tendre.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ziman, Zenise.
+</stage>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="tender">, d'un ton doux et tendre.
+</stage>
 <p id="1">
 	<s id="1">Que vous êtes triste Ziman ! </s>
 	<s id="2">Parlez moi donc ?</s>
@@ -730,7 +766,8 @@
 	<s id="3">Puisque je ne puis vivre sans être aimé de vous.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, d'un air tendrement fâché.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, d'un air tendrement fâché.
+</stage>
 <p id="7">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Allez vous encore vous chagriner ? </s>
@@ -745,7 +782,8 @@
 	<s id="2">Vous aimez Philette et Mirflot autant que moi ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ZENISE"><speaker>ZENISE, d'un ton embarrassé.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="embarrassed">, d'un ton embarrassé.
+</stage>
 <p id="9">
 	<s id="1">Il le faut bien.</s>
 </p>
@@ -876,8 +914,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Mirflot, Blaise, Zenise, Ziman.</head>
-<sp stage="toward/run" who="MIRFLOT"><speaker>MIRFLOT, à Blaise qui court après lui.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Mirflot, Blaise, Zenise, Ziman.
+</stage>
+<sp who="MIRFLOT"><speaker>MIRFLOT</speaker><stage type="toward/run">, à Blaise qui court après lui.
+</stage>
 <p id="1">
 	<s id="1">Tenez, tenez, le voilà votre fils, je suis un Prince, moi.</s>
 </p>
@@ -894,7 +934,8 @@
 	<s id="2">Voyez un peu quelle extravagance !</s>
 </p>
 </sp>
-<sp who="ZIMAN"><speaker>ZIMAN, au vieillard.</speaker>
+<sp who="ZIMAN"><speaker>ZIMAN</speaker><stage>, au vieillard.
+</stage>
 <p id="4">
 	<s id="1">Quelle raison avez-vous, mon bonhomme pour vouloir emmener Mirfiot ?</s>
 </p>
@@ -927,7 +968,8 @@
 	<s id="1">Va, va, tu n'es pas un Prince, je l'ai bien vu dès que je t'ai envisagé, encore que je ne te connaisse pas, mais un certain je ne sais quoi me dit...</s> 
 </p>
 </sp>
-<sp stage="frighten" who="ZENISE"><speaker>ZENISE, effrayée.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="frighten">, effrayée.
+</stage>
 <p id="10">
 	<s id="1">Vous ne le connaissez pas, Monsieur ?</s>
 </p>
@@ -945,7 +987,8 @@
 	<s id="2">Je m'appelle le Prince Mirflot afin que vous le sachiez.</s>
 </p>
 </sp>
-<sp stage="smile" who="BLAISE"><speaker>BLAISE, riant.</speaker>
+<sp who="BLAISE"><speaker>BLAISE</speaker><stage type="smile">, riant.
+</stage>
 <p id="13">
 	<s id="1">Ah, ah, ah, le Prince Mirflot ! qu'eu drôle de nom ? y se moque de toi , mon enfant.</s>
 </p>
@@ -960,7 +1003,8 @@
 	<s id="1">Ziman a raison, vous êtes un malappris.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, inquiète.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, inquiète.
+</stage>
 <p id="16">
 	<s id="">Expliquez-nous mieux, je vous prie, comment il se peut faire qu'il soit votre fils, et que vous ne le connaissiez pas.</s>
 </p>
@@ -974,7 +1018,8 @@
 	<s id="5">Or il y eût hier tout droit quinze ans que la chose fut faite, et je m'en suis venu aujourd'hui tout bonne ment pour r'avoir Pierrot.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, encore plus inquiette.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, encore plus inquiette.
+</stage>
 <p id="18">
 	<s id="1">Quoi, Monsieur Blaise ! </s>
 	<s id="2">Vous ne savez pas mieux que cela qu'il est votre fils ?</s>
@@ -990,7 +1035,8 @@
 	<s id="1">Ne vous ai-je pas dit qu'il ne savait ce qu'il disait ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZENISE"><speaker>ZENISE, à part.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="21">
 	<s id="">Je tremble.</s>
 </p>
@@ -1021,7 +1067,8 @@
 	<s id="1">Je suis prêt à vous suivre, si la Fée me remet en vos mains.</s>
 </p>
 </sp>
-<sp stage="quick" who="ZENISE"><speaker>ZENISE, vivement.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="27">
 	<s id="1">Que dites-vous, Ziman ? </s>
 	<s id="2">Ce n'est point là votre père.</s>
@@ -1058,13 +1105,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Fée, Zenise, Ziman, Blaise , Mirflot.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Fée, Zenise, Ziman, Blaise , Mirflot.
+</stage>
 <sp who="LA FÉE"><speaker>LA FÉE.</speaker>
 <p id="1">
 	<s id="1">Où courez-vous, Zenise ?</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, vivement.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, vivement.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, j'allois vous chercher ; empêchez ce vieillard...</s>
@@ -1084,12 +1133,14 @@
 	<s id="2">Mais c'est à ses sentiments qu'il doit se faire connaître ; je ne puis le nommer qu'après qu'il aura parlé.</s>
 </p>
 </sp>
-<sp stage="touch" who="BLAISE"><speaker>BLAISE, prenant Ziman par la main.</speaker>
+<sp who="BLAISE"><speaker>BLAISE</speaker><stage type="touch">, prenant Ziman par la main.
+</stage>
 <p id="5">
 	<s id="1">Morgué nous v'la bien, ce ti-ci nous restera. .</s>
 </p>
 </sp>
-<sp stage="anxious" who="ZENISE"><speaker>ZENISE, fort inquiette.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="anxious">, fort inquiette.
+</stage>
 <p id="6">
 	<s id="1">Mais point du tout, Madame...</s>
 </p>
@@ -1106,7 +1157,8 @@
 	<s id="1">Cela est-il vrai ?</s>
 </p>
 </sp>
-<sp stage="strong" who="ZENISE"><speaker>ZENISE, très vivement.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="strong">, très vivement.
+</stage>
 <p id="9">
 	<s id="1">Oui, Madame, mais ne voyez-vous pas...</s>
 </p>
@@ -1127,12 +1179,14 @@
 	<s id="1">Vous l'entendez, je ne lui fais pas dire.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, désolée.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, désolée.
+</stage>
 <p id="13">
 	<s id="">Madame, au nom des Dieux ne décidez point encore.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LA FÉE"><speaker>LA FÉE, à part.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Elle me fait pitié.</s>
 </p>
@@ -1153,13 +1207,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Philette, La Fée, Zenise, Ziman, Mirflot, Blaise.</head> 
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Philette, La Fée, Zenise, Ziman, Mirflot, Blaise. 
+</stage> 
 <sp who="PHILETTE"><speaker>PHILETTE.</speaker>
 <p id="1">
 	<s id="1">Madame, venez vite : il y a là une grande troupe d'Ambassadeurs qui viennent nous chercher, Mirflot et moi, pour nous conduire dans notre Royaume où ils disent que l'on nous demande.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA FÉE"><speaker>LA FÉE, souriant.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="2">
 	<s id="1">Ils vous ont donc reconnue ?</s>
 </p>
@@ -1197,13 +1253,15 @@
 	<s id="3">Je suis contente de vos sentiments, ils sont dignes de votre naissance.</s> 
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, pleurant et se jettant dans les bras de la Fée.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, pleurant et se jettant dans les bras de la Fée.
+</stage>
 <p id="8">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, je ne veux point vous quitter, souffrez que je passe ma vie auprès de vous, elle ne sera pas assez longue pour vous marquer toute ma reconnaissance.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LA FÉE"><speaker>LA FÉE, malignement.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="ironic">, malignement.
+</stage>
 <p id="9">
 	<s id="1">Ce sentiment est louable, ma chère Zenise, mais je crains fort qu'il ne dure pas longtemps, vous me quitterez peut être sans regret.</s> 
 </p>
@@ -1231,7 +1289,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE DERNIÈRE. Tous les Acteurs, L'Ambassadeur et sa suite.</head>
+<div2 type="scene" n="11"><head>SCÈNE DERNIÈRE.</head><stage> Tous les Acteurs, L'Ambassadeur et sa suite.
+</stage>
 <sp who="L'AMBASSADEUR"><speaker>L'AMBASSADEUR.</speaker>
 <p id="1">
 	<s id="1">Nous venons à vos ordres, Madame, recevoir à genoux le maître que vous nous destinés. </s>
@@ -1249,7 +1308,8 @@
 	<s id="1">Entendez-vous, Messieurs, je suis un Prince accompli.</s>
 </p>
 </sp>
-<sp stage="away/toward" who="LA FÉE"><speaker>LA FÉE, à Ziman qui veut sortir.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage type="away/toward">, à Ziman qui veut sortir.
+</stage>
 <p id="4">
 	<s id="1">Où allez-vous Ziman, auriez-vous la faiblesse de ne pouvoir supporter la gloire d'un rival ?</s>
 </p>
@@ -1263,7 +1323,8 @@
 	<s id="5">Pour moi j'irai chercher dans les hasards de la guerre ou la fin d'une vie infortunée, ou l'avantage que pourront me procurer les sentiments nobles que vous m'avez inspirés.</s>
 </p>
 </sp>
-<sp stage="toward/cry" who="ZENISE"><speaker>ZENISE, à la Fée en pleurant.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage type="toward/cry">, à la Fée en pleurant.
+</stage>
 <p id="6">
 	<s id="1">Voyez, Madame, s'il n'est pas toujours le même.</s>
 </p>
@@ -1284,7 +1345,8 @@
 	<s id="1">Messieurs, voilà votre Roi et votre Reine.</s>
 </p>
 </sp>
-<sp who="ZENISE"><speaker>ZENISE, embrasse la Fée.</speaker>
+<sp who="ZENISE"><speaker>ZENISE</speaker><stage>, embrasse la Fée.
+</stage>
 <p id="10">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">Ah ma chère bonne !</s>

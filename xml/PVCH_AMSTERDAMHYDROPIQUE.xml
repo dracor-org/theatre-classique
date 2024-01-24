@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>vers</type>
 				<periode>1671-1680</periode>
 				<taille>1000-1250</taille>
-				<permalien cote="BnF ASP 8-RF-5314"></permalien>
+				<permalien cote="BnF ASP 8-RF-5314"/>
 				<keywords>
 					<keyword type="genre">satire politique</keyword>
 				</keywords>	
@@ -69,25 +69,26 @@
 		</poem>
 	</div>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="AMSTERDAM" sex="1" type="H" statut="marchand" age='A' stat_amour="">AMSTERDAM</role>, Marchand jadis, Comte de Hollande.</castItem>
-		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age='A' stat_amour="">LA COMTESSE</role>, sa femme.</castItem>
-		<castItem><role id="LA ZÉLANDE" sex="2" type="H" statut="comte" age='J' stat_amour="">LA ZÉLANDE</role>, sa fille.</castItem>
-		<castItem><role id="LA FRISE" sex="2" type="H" statut="comte" age='J' stat_amour="">LA FRISE</role>, sa fille.</castItem>
-		<castItem><role id="UVIC" sex="1" type="H" statut="domestique" age='A' stat_amour="">UVIC</role>, un domestique.</castItem>
-		<castItem><role id="VAMBEUNIN" sex="1" type="H" statut="domestique" age='A' stat_amour="">VAMBEUNIN</role>, un domestique.</castItem>
-		<castItem><role id="LE MÉDECIN" sex="1" type="H" statut="médecin" age='A' stat_amour="">LE MÉDECIN</role>.</castItem>
-		<castItem><role id="L'APOTHICAIRE" sex="1" type="H" statut="apothicaire" age='A' stat_amour="">L'APOTHICAIRE</role>.</castItem>
-		<castItem><role id="LE CHIRURGIEN" sex="1" type="H" statut="chirurgien" age='A' stat_amour="">LE CHIRURGIEN</role>.</castItem>
-		<castItem><role id="L'AVOCAT" sex="1" type="H" statut="avocat" age='A' stat_amour="">L'AVOCAT</role>.</castItem>
-		<castItem><role id="LE NOTAIRE" sex="1" type="H" statut="notaire" age='A' stat_amour="">LE NOTAIRE</role>.</castItem>
-		<castItem><role id="LE MINISTRE" sex="1" type="H" statut="ministre" age='A' stat_amour="">LE MINISTRE</role>.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age='A' stat_amour="">UN LAQUAIS</role>.</castItem>
+		<castItem><role id="AMSTERDAM" sex="1" type="H" statut="marchand" age="A" stat_amour="">AMSTERDAM</role>, Marchand jadis, Comte de Hollande.</castItem>
+		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="">LA COMTESSE</role>, sa femme.</castItem>
+		<castItem><role id="LA ZÉLANDE" sex="2" type="H" statut="comte" age="J" stat_amour="">LA ZÉLANDE</role>, sa fille.</castItem>
+		<castItem><role id="LA FRISE" sex="2" type="H" statut="comte" age="J" stat_amour="">LA FRISE</role>, sa fille.</castItem>
+		<castItem><role id="UVIC" sex="1" type="H" statut="domestique" age="A" stat_amour="">UVIC</role>, un domestique.</castItem>
+		<castItem><role id="VAMBEUNIN" sex="1" type="H" statut="domestique" age="A" stat_amour="">VAMBEUNIN</role>, un domestique.</castItem>
+		<castItem><role id="LE MÉDECIN" sex="1" type="H" statut="médecin" age="A" stat_amour="">LE MÉDECIN</role>.</castItem>
+		<castItem><role id="L'APOTHICAIRE" sex="1" type="H" statut="apothicaire" age="A" stat_amour="">L'APOTHICAIRE</role>.</castItem>
+		<castItem><role id="LE CHIRURGIEN" sex="1" type="H" statut="chirurgien" age="A" stat_amour="">LE CHIRURGIEN</role>.</castItem>
+		<castItem><role id="L'AVOCAT" sex="1" type="H" statut="avocat" age="A" stat_amour="">L'AVOCAT</role>.</castItem>
+		<castItem><role id="LE NOTAIRE" sex="1" type="H" statut="notaire" age="A" stat_amour="">LE NOTAIRE</role>.</castItem>
+		<castItem><role id="LE MINISTRE" sex="1" type="H" statut="ministre" age="A" stat_amour="">LE MINISTRE</role>.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="">UN LAQUAIS</role>.</castItem>
 	</castList>
 		<set location="Amsterdam" country="Pays-Bas" periode="XVIIème" gps="52.370216, 4.895168">La scène est dans Amsterdam, autrefois capitale du pauvre Malade.</set>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIERE. Le Comtesse, Le Médecin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head><stage> Le Comtesse, Le Médecin.
+</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="1">Madame, ne vous fâchés pas,</l>
 	<l id="2">Nous trouverons bien en tout cas</l>
@@ -198,8 +199,10 @@
 	<l id="89">Mais qu'est ce que veut Vambeunin.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Médecin, La Comtesse, L'Apothicaire, le Médecin, La Frise, La Zélande, Vambeunin.</head>
-<sp stage="anxious" who="VAMBEUNIN"><speaker>VAMBEUNIN, alarmé .</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Médecin, La Comtesse, L'Apothicaire, le Médecin, La Frise, La Zélande, Vambeunin.
+</stage>
+<sp who="VAMBEUNIN"><speaker>VAMBEUNIN</speaker><stage type="anxious">, alarmé .
+	</stage>
 	<l id="90">Vite, qu'on apporte du vin,</l>
 	<l id="91">Amsterdam se meurt il expire.</l>
 </sp>
@@ -209,7 +212,8 @@
 <sp who="VAMBEUNIN"><speaker>VAMBEUNIN.</speaker>
 	<l id="93">Il se pâme, le coeur lui faut.</l>
 </sp>
-<sp who="LE MÉDECIN"><speaker>LE MÉDECIN, en se moquant.</speaker>
+<sp who="LE MÉDECIN"><speaker>LE MÉDECIN</speaker><stage>, en se moquant.
+	</stage>
 	<l id="94">Hé, Fallait-il crier si haut.</l>
 </sp>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
@@ -231,7 +235,8 @@
 	<l id="99">Cela n'est à ce que je pense,</l>
 	<l id="100">Qu'une petite défaillance.</l>
 </sp>
-<sp stage="quiet" who="VAMBEUNIN"><speaker>VAMBEUNIN, rassuré.</speaker>
+<sp who="VAMBEUNIN"><speaker>VAMBEUNIN</speaker><stage type="quiet">, rassuré.
+	</stage>
 	<l id="101">Non, Monsieur n'est pas encore mort.</l>
 </sp>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
@@ -253,13 +258,14 @@
 	<l id="113" syll="6" part="i">Taisez-vous Vambeunin.</l>
 </sp>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
-	<l id="113"  syll="2" part="f">Suffit.</l>
+	<l id="113" syll="2" part="f">Suffit.</l>
 	<l id="114">Voyons le Malade en son lit,</l>
 	<l id="115">Et tâchons par notre remède</l>
 	<l id="116">De lui donner quelque peu d'aide.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Amsterdam, La Comtesse, La Frise, la Zélande, Le médecin, l'Apothicaire, Le Chirurgien.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Amsterdam, La Comtesse, La Frise, la Zélande, Le médecin, l'Apothicaire, Le Chirurgien.
+</stage>
 <stage type="decor">On tire le rideau, et l'on voit une chambre, dans laquelle Amsterdam paraît couché avec un bonnet de nuit, et les autres embarras d'un malade.</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="117">Bonjour Monseigneur Amsterdam.</l>
@@ -375,7 +381,8 @@
 	<l id="200">Et les voir avant que je meure,</l>
 	<l id="201">Hélas ! Je souffre bien pour eux.</l>
 </sp>
-<sp stage="show" who="LA COMTESSE"><speaker>LA COMTESSE, lui montrant ses deux filles.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="show">, lui montrant ses deux filles.
+	</stage>
 	<l id="202">De sept, Monsieur, en voici deux,</l>
 	<l id="203">Et nous ferons venir les autres.</l>
 </sp>
@@ -476,7 +483,8 @@
 <stage type="decor">On ferme le rideau.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Médecin, L'Apothicaire, Le Chirurgien.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Médecin, L'Apothicaire, Le Chirurgien. 
+</stage> 
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 	<l id="272">Monsieur, avouez moi sans feinte</l>
 	<l id="273">En quel état est mon époux.</l>
@@ -556,7 +564,8 @@
 	<l id="319" syll="4" part="f">Adieu Madame.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Médecin, L'Apothicaire.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Médecin, L'Apothicaire.
+</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="320">Par ma foi cette bonne femme</l>
 	<l id="321">Est digne de compassion,</l>
@@ -637,7 +646,8 @@
 	<l id="378">Et faite que vous soyez prêt</l>
 	<l id="379">À faire bien cette saignée.</l>
 </sp>
-<sp who="LE CHIRURGIEN"><speaker>LE CHIRURGIEN,</speaker>
+<sp who="LE CHIRURGIEN"><speaker>LE CHIRURGIEN</speaker><stage>,
+	</stage>
 	<l id="380" syll="3" part="i">En quel temps ?</l>
 </sp>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
@@ -647,7 +657,8 @@
 	<l id="383">Et s'il allait trop de selle,</l>
 	<l id="384">Qu'on m'avertisse et qu'on m'appelle ?</l>
 </sp>
-<sp who="LE CHIRURGIEN"><speaker>LE CHIRURGIEN,</speaker>
+<sp who="LE CHIRURGIEN"><speaker>LE CHIRURGIEN</speaker><stage>,
+	</stage>
 	<l id="385">Monsieur, nous n'y manquerons pas.</l>
 </sp>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
@@ -658,7 +669,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Amsterdam, Uvic, Vambeunin, Le Laquais.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Amsterdam, Uvic, Vambeunin, Le Laquais.
+</stage>
 <sp who="AMSTERDAM"><speaker>AMSTERDAM.</speaker>
 	<l id="389">Hola ? Qu'on se dépêche tôt,</l>
 	<l id="390">Vite, qu'on m'apporte le pot,</l>
@@ -686,7 +698,8 @@
 	<l id="401">Fais vitement, traître maudit</l>
 	<l id="402">Où je va[is] chier dans le lit.</l>
 </sp>
-<sp who="UVIC"><speaker>UVIC, bas.</speaker>
+<sp who="UVIC"><speaker>UVIC</speaker><stage>, bas.
+	</stage>
 	<l id="403">Bon Dieu, que cet homme est revêche.</l>
 </sp>
 <sp who="AMSTERDAM"><speaker>AMSTERDAM.</speaker>
@@ -696,7 +709,8 @@
 	<l id="404" syll="4" part="f">Je me dépêche</l>
 	<l id="405">Tenez, voilà ce qu'il vous faut.</l>
 </sp>
-<sp stage="toward" who="AMSTERDAM"><speaker>AMSTERDAM, sur la fille.</speaker>
+<sp who="AMSTERDAM"><speaker>AMSTERDAM</speaker><stage type="toward">, sur la fille.
+	</stage>
 	<l id="406">Ô Ciel ! On me livre un assaut,</l>
 	<l id="407">Quelle bourrasque est dans mon ventre,</l>
 	<l id="408">Tout sort en même temps qu'il entre.</l>
@@ -792,7 +806,8 @@
 	<l id="478">Au secours, Madame, au secours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, Amsterdam, Uvic, Vambeunin, Le Laquais.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, Amsterdam, Uvic, Vambeunin, Le Laquais.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 	<l id="479">Qui fait tant de bruit ? Qui m'appelle ?</l>
 </sp>
@@ -828,14 +843,16 @@
 	<l id="497">Et nous ôtera de souci.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Médecin, Amsterdam, Uvic, Vambeunin, La Comtesse, Le Laquais.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Médecin, Amsterdam, Uvic, Vambeunin, La Comtesse, Le Laquais.
+</stage>
 <sp who="LE MÉDECIN"><speaker>.</speaker>
 	<l id="498">Que vois-je, Messieurs, qu'est ceci ?</l>
 	<l id="499">C'est, Monsieur, que votre clystère</l>
 	<l id="500">N'était pas ici nécessaire,</l>
 	<l id="501">Celui qui l'a pris en est mort.</l>
 </sp>
-<sp stage="ironic" who="LE MÉDECIN"><speaker>LE MÉDECIN, en se moquant.</speaker>
+<sp who="LE MÉDECIN"><speaker>LE MÉDECIN</speaker><stage type="ironic">, en se moquant.
+	</stage>
 	<l id="502">Ne vous alarmez pas si fort,</l>
 	<l id="503">Jamais un malade qui chie</l>
 	<l id="504">Ne fut surpris d'apoplexie,</l>
@@ -892,10 +909,12 @@
 	<l id="539">Au front, à la bouche, aux oreilles,</l>
 	<l id="540">Voilà qui se passe à merveilles.</l>
 </sp>
-<sp stage="watch" who="LA COMTESSE"><speaker>LA COMTESSE, jetant un regard.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="watch">, jetant un regard.
+	</stage>
 	<l id="541">Il revient, il a remué...</l>
 </sp>
-<sp stage="awake" who="AMSTERDAM"><speaker>AMSTERDAM, revenant à soi.</speaker>
+<sp who="AMSTERDAM"><speaker>AMSTERDAM</speaker><stage type="awake">, revenant à soi.
+	</stage>
 	<l id="542">Ah bon Dieu ! Que j'ai bien sué,</l>
 	<l id="543">Je me sens percé la chemise,</l>
 	<l id="544">Et je pense que j'ai fait crise,</l>
@@ -1002,7 +1021,8 @@
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="627">Apposez-le donc tout à l'heure.</l>
 </sp>
-<sp who="AMSTERDAM"><speaker>AMSTERDAM, en lui-même : un grand fromage d'hollande sur le sein.</speaker>
+<sp who="AMSTERDAM"><speaker>AMSTERDAM</speaker><stage>, en lui-même : un grand fromage d'hollande sur le sein.
+	</stage>
 	<l id="628">Qu'est ceci, veut-on que je meure,</l>
 	<l id="629">Que m'applique-t-on là-dessus ?</l>
 </sp>
@@ -1057,7 +1077,8 @@
 	<l id="654" syll="2" part="i">Oui-dà.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Amsterdam, Le Médecin, L'Apothicaire,le Chirurgien, Le Ministre, La Laquais.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Amsterdam, Le Médecin, L'Apothicaire,le Chirurgien, Le Ministre, La Laquais. 
+</stage> 
 <sp who="LE MINISTRE"><speaker>LE MINISTRE.</speaker>
 	<l id="654" syll="6" part="f">C'est très bien rencontrer</l>
 	<l id="655">Que de trouver un si beau monde ;</l>
@@ -1204,7 +1225,8 @@
 	<l id="754">Adieu donques, salut à tous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Médecin, l'Apothicaire, La Chirurgien, La Comtesse.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Médecin, l'Apothicaire, La Chirurgien, La Comtesse.
+</stage>
 <sp who="LE CHIRURGIEN"><speaker>LE CHIRURGIEN.</speaker>
 	<l id="755">Que cet homme a mauvaise grâce.</l>
 </sp>
@@ -1254,7 +1276,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Médecin, La Comtesse.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Médecin, La Comtesse.
+</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="797">Après avoir bien consulté,</l>
 	<l id="798">Nous avons enfin arrêté,</l>
@@ -1299,7 +1322,8 @@
 	<l id="829">Et dès_lors qu'il sera refait ...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Vvic, Le Médecin, La  Comtesse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Vvic, Le Médecin, La  Comtesse.
+</stage>
 <sp who="UVIC"><speaker>UVIC.</speaker>
 	<l id="830">Madame venez s'il vous plaît.</l>
 </sp>
@@ -1348,7 +1372,8 @@
 	<l id="853">Puisque tous vos gens sont ici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Amsterdam, La Comtesse, Le Médecin, La Zélande, La Frise, Uvic, L'Apothicaire, Le Chirurgien, L'Avocat, La Notaire.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Amsterdam, La Comtesse, Le Médecin, La Zélande, La Frise, Uvic, L'Apothicaire, Le Chirurgien, L'Avocat, La Notaire.
+</stage>
 <stage type="decor/furniture">Amsterdam apparaît sur une lit, accoudé sur les bras du Chirurgien et de l'Apothicaire, avec un gros emplâtre qui lui couvre la moitié du visage, pendant que tous les Acteurs sont autour de son lit.</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="854">Hé bien Monseigneur, qu'est ceci ?</l>
@@ -1360,7 +1385,8 @@
 	<l id="860">Voulez-vous souffrir qu'on vous presse ?</l>
 	<l id="861">Parlez, Seigneur ? Êtes vous sourd ?</l>
 </sp>
-<sp who="AMSTERDAM"><speaker>AMSTERDAM, dans la rêverie.</speaker>
+<sp who="AMSTERDAM"><speaker>AMSTERDAM</speaker><stage>, dans la rêverie.
+	</stage>
 	<l id="862">Hola ? Marquis_de_Brandebourg</l>
 	<l id="863">Amenez-vous le Duc_de_Saxe ?</l>
 	<l id="864">Il nous faudra faire une taxe,</l>
@@ -1524,7 +1550,8 @@
 <sp who="AMSTERDAM"><speaker>AMSTERDAM.</speaker>
 	<l id="937" syll="4" part="f">Cela va bien.</l>
 </sp>
-<sp stage="aparte" who="LE MÉDECIN"><speaker>LE MÉDECIN, à part.</speaker>
+<sp who="LE MÉDECIN"><speaker>LE MÉDECIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="938">Or sus, qu'on ne néglige rien,</l>
 	<l id="939">sa connaissance est inégale,</l>
 	<l id="940">Et je crains un autre intervalle,</l>
@@ -1544,7 +1571,8 @@
 	<l id="953">Adieu, faites votre devoir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Amsterdam, La Comtesse, L'Avocatn Le Chirurgien, l'Apothicaire, La Zélande, La Frise. </head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Amsterdam, La Comtesse, L'Avocatn Le Chirurgien, l'Apothicaire, La Zélande, La Frise. 
+</stage>
 <sp who="L'AVOCAT"><speaker>L'AVOCAT.</speaker>
 	<l id="954">Hé bien, Seigneur, il faut savoir</l>
 	<l id="955">Ce que vous désirez de faire,</l>
@@ -1724,14 +1752,16 @@
 <sp who="LE NOTAIRE"><speaker>LE NOTAIRE.</speaker>
 	<l id="1063">Tenez, Seigneur, voilà la plume ?</l>
 </sp>
-<sp stage="frigthen" who="AMSTERDAM"><speaker>AMSTERDAM, souscrit en tremblant.</speaker>
+<sp who="AMSTERDAM"><speaker>AMSTERDAM</speaker><stage type="frigthen">, souscrit en tremblant.
+	</stage>
 	<l id="1064">Hélas ! Tout mon feu se consume,</l>
 	<l id="1065">À peine ma tremblante main</l>
 	<l id="1066">Peut ici vous donner mon sein,</l>
 	<l id="1067">J'ai souscrit, mais je ne sais comme.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE. Tous les acteurs paraissent à cette scène.</head>
+<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE.</head><stage> Tous les acteurs paraissent à cette scène.
+</stage>
 <sp who="LE MÉDECIN"><speaker>LE MÉDECIN.</speaker>
 	<l id="1068">Comment se porte ce bon homme ?</l>
 	<l id="1069">Il a bien mauvaise couleur.</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,22 +30,23 @@
 			<titlePart type="sub">QUARANTE-QUATRIÈME PROVERBE.</titlePart>
 			<titlePart type="sub">Trois livres le Volume.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXXI. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='LEJAY'>À PARIS, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
+			<printer id="LEJAY">À PARIS, chez Sébastien JORRY, vis à vis le Comédie Française, chez Le JAY, rue Saint Jacques, près celle des Mathurins.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DELOUREVILLE" sex="1" type ="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR DELOUREVILLE</role>, Amateur.</castItem>
-		<castItem><role id="MONSIEUR PASTOUREAU" sex="1" type ="H" statut="poète" age="A" stat_amour='néant'>MONSIEUR PASTOUREAU</role>, poète.</castItem>
-		<castItem><role id="BÉRY" sex="1" type ="H" statut="laquais" age="A" stat_amour='néant'>BÉRY</role>, Laquais de Monsieur Deloureville.</castItem>
+		<castItem><role id="MONSIEUR DELOUREVILLE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR DELOUREVILLE</role>, Amateur.</castItem>
+		<castItem><role id="MONSIEUR PASTOUREAU" sex="1" type="H" statut="poète" age="A" stat_amour="néant">MONSIEUR PASTOUREAU</role>, poète.</castItem>
+		<castItem><role id="BÉRY" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">BÉRY</role>, Laquais de Monsieur Deloureville.</castItem>
 	</castList>
 	 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans le cabinet de Monsieur Deloureville.</set>
 <note>Texte extrait de "Proverbes dramatiques...", Louis de Carmontelle, Paris : Jorry, Lejay, 1774. pp. 77-101.</note>	 
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'AUTEUR ET L'AMATEUR</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Deloureville, Béry.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur Deloureville, Béry.
+</stage>
 <sp who="MONSIEUR DELOUREVILLE"><speaker>MONSIEUR DELOUREVILLE.</speaker>
 <p id="1">
 	<s id="1">À quelle heure vous a-t-on dit qu'on répétait ?</s>
@@ -85,15 +86,18 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. </head>
-<sp stage="read" who="MONSIEUR DELOUREVILLE"><speaker>MONSIEUR DELOUREVILLE, feuilletant des papiers.</speaker>
+<sp who="MONSIEUR DELOUREVILLE"><speaker>MONSIEUR DELOUREVILLE</speaker><stage type="read">, feuilletant des papiers.
+</stage>
 <p id="1">
 	<s id="1">De la musique travaillée, ce n'est point là ce qu'il nous faut, je lui ai dit... </s>
 	<s id="2">Bon, en voici un autre qui ne fait pas un seul vers alexandrin dans son récitatif...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Deloureville, Monsieur  Pastoureau, Béry.</head>
-<sp stage="declamate" who="BÉRY"><speaker>BÉRY, annonçant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Deloureville, Monsieur  Pastoureau, Béry.
+</stage>
+<sp who="BÉRY"><speaker>BÉRY</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur Pastoureau.</s>
 </p>

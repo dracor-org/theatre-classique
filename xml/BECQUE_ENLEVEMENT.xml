@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,11 +30,11 @@
 			<titlePart type="main">COMÉDIE EN TROIS ACTES</titlePart>
 			<titlePart type="sub">Joué sur la scène du théâtre de l'Odéon le 1er juin 1908</titlePart>			
 	</docTitle> 
-		<docDate value='1924'>M CM XXIV</docDate>
-		<docAuthor id='BECQUE, Henry'>d'Henri Becque.</docAuthor>
+		<docDate value="1924">M CM XXIV</docDate>
+		<docAuthor id="BECQUE, Henry">d'Henri Becque.</docAuthor>
 		<docImprint>
-			<editor></editor>
-			<printer></printer>
+			<editor/>
+			<printer/>
 			<performance>
 				<premiere>Représenté pour la première fois à la Comédie-Française le 14 septembre 1882.</premiere>
 			</performance>
@@ -50,20 +50,21 @@
 		<p>Cette préface précède la première publication de l'Enlèvement dans la Revue du Palais.</p>
 	</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="RAOUL DE SAINTE-CROIX" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>RAOUL DE SAINTE-CROIX</role>.</castItem>
-		<castItem><role id="ANTONIN DE LA ROUVRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>ANTONIN DE LA ROUVRE</role>.</castItem>
-		<castItem><role id="AUGUSTE" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>AUGUSTE</role>, vieux domestique.</castItem>
-		<castItem><role id="EMMA DE SAINTE-CROIX" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>EMMA DE SAINTE-CROIX</role>.</castItem>
-		<castItem><role id="MADAME DE SAINTE-CROIX" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MADAME DE SAINTE-CROIX</role>.</castItem>
-		<castItem><role id="ANTOINETTE" sex="1" type="H" statut='comte' age='A' stat_amour='néant'>ANTOINETTE</role>, comtesse Bordogni.</castItem>
-		<castItem><role id="ADÈLE" sex="1" type="H" statut='femme de chambre' age='A' stat_amour='néant'>ADÈLE</role>, jeune femme de chambre.</castItem>
+		<castItem><role id="RAOUL DE SAINTE-CROIX" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">RAOUL DE SAINTE-CROIX</role>.</castItem>
+		<castItem><role id="ANTONIN DE LA ROUVRE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ANTONIN DE LA ROUVRE</role>.</castItem>
+		<castItem><role id="AUGUSTE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">AUGUSTE</role>, vieux domestique.</castItem>
+		<castItem><role id="EMMA DE SAINTE-CROIX" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">EMMA DE SAINTE-CROIX</role>.</castItem>
+		<castItem><role id="MADAME DE SAINTE-CROIX" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE SAINTE-CROIX</role>.</castItem>
+		<castItem><role id="ANTOINETTE" sex="1" type="H" statut="comte" age="A" stat_amour="néant">ANTOINETTE</role>, comtesse Bordogni.</castItem>
+		<castItem><role id="ADÈLE" sex="1" type="H" statut="femme de chambre" age="A" stat_amour="néant">ADÈLE</role>, jeune femme de chambre.</castItem>
     </castList>
 <set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris, de nos jours.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <stage type="decor">Un salon.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. De La Rouvre, Emma.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> De La Rouvre, Emma.
+</stage>
 <sp who="EMMA"><speaker>EMMA.</speaker>
 <p id="1"> 
 	<s id="1">Oui, votre éloge de la solitude est fort juste, et je comprends très bien que vous préfériez votre compagnie à celle des autres. </s>
@@ -85,7 +86,8 @@
 	<s id="2">Vous êtes jeune encore ; votre coeur me paraît tendre et sûr ; votre esprit est immense, avec un tour original qui convient parfaitement à toute votre personne ; vous avez de la fortune plus qu'il n'en faut, mariez-vous.</s>
 </p> 
 </sp>  
-<sp stage="stand/hurry" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, se levant brusquement.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="stand/hurry">, se levant brusquement.
+</stage>
 <p id="4">
 	<s id="1">Adieu, Madame.</s>
 </p> 
@@ -125,7 +127,8 @@
 	<s id="1">Je suis faite maintenant à vos singularités, mais celle-ci dépasse un peu les bornes.</s>
 </p> 
 </sp>  
-<sp stage="back" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, revenant.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="back">, revenant.
+</stage>
 <p id="12"> 
 	<s id="1">Vous moquez-vous de moi, Madame ?</s>
 </p> 
@@ -280,7 +283,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Madame de Sainte-Croix.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Madame de Sainte-Croix.
+</stage>
 <sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX.</speaker>
 <p id="1">
 	<s id="1">Vous ne partez pas, j'espère ?</s>
@@ -304,7 +308,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Emma, Madame de Sainte-Croix.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Emma, Madame de Sainte-Croix. 
+</stage> 
 <sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX.</speaker>
 <p id="1"> 
 	<s id="1">Me permettrez-vous une remarque, ma chère Emma, avant que d'autres ne la fassent comme moi ? </s>
@@ -491,7 +496,8 @@
 </sp>  
 </div2> 
 <div2 type="scene" n="4"><head>SCÈNE IV.</head> 
-<sp stage="alone" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, seule.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Allons le dénouement est arrivé et il n'est pas bien dangereux. </s>
 	<s id="2">Ce Monsieur_de_la_Rouvre, avec ses quarante ans, ses fièvres et ses cornes, a fait à Emma une déclaration qu'elle aura reçue majestueusement. </s>
@@ -505,7 +511,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="5"><head>SCÈNE V. Madame de Sainte-Croix, Raoul.</head> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame de Sainte-Croix, Raoul. 
+</stage> 
 <sp who="RAOUL"><speaker>RAOUL.</speaker>
 <p id="1"> 
 	<s id="1">C'est inutile, ne m'annoncez pas. </s>
@@ -571,7 +578,8 @@
 	<s id="5">S'il le faut, je finirai la semaine.</s>
 </p> 
 </sp>  
-<sp stage="touch" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, très affectée.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="touch">, très affectée.
+</stage>
 <p id="11">
 	<s id="1">Je vois bien tristement que mon indulgence a produit des fruits déplorables et qu'il n'y a plus pour mon fils ni affections ni devoirs capables d'arrêter son incorrigible nature.</s>
 </p> 
@@ -639,7 +647,8 @@
 	<s id="7">À l'heure qu'il est, un homme adroit et résolu, qui surprendrait l'oreille de ta femme, l'enlèverait en un tour de main.</s>
 </p> 
 </sp>  
-<sp stage="estonish" who="RAOUL"><speaker>RAOUL, décontenancé.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="estonish">, décontenancé.
+</stage>
 <p id="21">
 	<s id="1">Ah ! </s>
 	<s id="2">Et cet homme-là existe-t-il ?</s>
@@ -761,7 +770,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Emma.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Emma. 
+</stage> 
 <sp who="EMMA"><speaker>EMMA.</speaker>
 <p id="1"> 
 	<s id="1">Bonjour, Raoul, vous êtes le bienvenu.</s>
@@ -794,7 +804,8 @@
 	<s id="2">On chasse, on monte à cheval, on mange, on dort, on fume ; cette existence de brute me conviendrait assez.</s>
 </p> 
 </sp>  
-<sp stage="low" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, bas.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="low">, bas.
+</stage>
 <p id="7">
 	<s id="1">Tiens-toi un peu et ne dis pas trop de bêtises.</s>
 </p> 
@@ -809,7 +820,8 @@
 	<s id="1">C'est bien possible ce que vous me dites là ; on ne s'amuse réellement qu'à Paris.</s>
 </p> 
 </sp>  
-<sp stage="low" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, bas.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="low">, bas.
+</stage>
 <p id="10">
 	<s id="1">Soyez indulgente et ménagez son embarras.</s>
 </p> 
@@ -822,7 +834,8 @@
 	<s id="4">Une vie douce et franche, sans complications et sans surcharges, la campagne l'été, le monde l'hiver, des occupations faciles, des plaisirs fréquents, n'est-ce pas là un sort enviable et ne faut-il pas plaindre ceux qui en sont privés comme ceux qui n'en sont pas satisfaits ?</s>
 </p> 
 </sp>  
-<sp stage="low" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, bas.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="low">, bas.
+</stage>
 <p id="12">
 	<s id="1">Approuve et mets-y de la conviction.</s>
 </p> 
@@ -839,7 +852,8 @@
 	<s id="2">Nous mettrons le passé au compte de votre âge, où le fruit défendu a plus d'attrait que le fruit nouveau.</s>
 </p> 
 </sp>  
-<sp stage="low" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, bas.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="low">, bas.
+</stage>
 <p id="15">
 	<s id="1">Charmant! </s>
 	<s id="2">Vous êtes dans le ton. </s>
@@ -954,7 +968,8 @@
 	<s id="1">Quel gamin j'ai épousé là !</s>
 </p> 
 </sp>  
-<sp stage="low/toward" who="RAOUL"><speaker>RAOUL, bas à sa mère.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="low/toward">, bas à sa mère.
+</stage>
 <p id="22">
 	<s id="1">Qu'est-ce que tu me disais donc ? </s>
 	<s id="2">Ça marche ; ça marche très bien. </s>
@@ -973,7 +988,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, Adèle.</head> 
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, Adèle. 
+</stage> 
 <sp who="ADÈLE"><speaker>ADÈLE.</speaker>
 <p id="1"> 
 	<s id="1">On vient de recevoir cette lettre adressée à Monsieur_de_Sainte-Croix.</s>
@@ -984,7 +1000,8 @@
 	<s id="1">Déjà des lettres !</s>
 </p> 
 </sp>  
-<sp stage="get/embarrassed" who="RAOUL"><speaker>RAOUL, qui a pris la lettre, embarrassé.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="get/embarrassed">, qui a pris la lettre, embarrassé.
+</stage>
 <p id="3">
 	<s id="1">L'écriture d'Antoinette.</s>
 </p> 
@@ -994,7 +1011,8 @@
 	<s id="1">Regarde un peu, Raoul, cette lettre est sans doute pour moi.</s>
 </p> 
 </sp>  
-<sp stage="give" who="RAOUL"><speaker>RAOUL, lui remettant la lettre.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="give">, lui remettant la lettre.
+</stage>
 <p id="5">
 	<s id="1">En effet, Madame_de_Sainte-Croix, propriétaire.</s>
 </p> 
@@ -1018,8 +1036,10 @@
 </div1> 
 <div1 type="acte" n="2"><head>ACTE II</head> 
 <stage type="decor">Même décor.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.  Raoul, Emma.</head>
-<sp stage="sit/explicit" who="RAOUL"><speaker>RAOUL, il est assis dans le fauteuil occupé précédemment par De la Rouvre.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage>  Raoul, Emma.
+</stage>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="sit/explicit">, il est assis dans le fauteuil occupé précédemment par De la Rouvre.
+</stage>
 <p id="1">
 	<s id="1">Pourquoi riez-vous ?</s>
 </p> 
@@ -1041,7 +1061,8 @@
 	<s id="2">Je n'ai pas l'habitude de vous voir dans ce fauteuil où vous n'êtes pas à votre avantage.</s>
 </p> 
 </sp>  
-<sp stage="stand/hurry" who="RAOUL"><speaker>RAOUL, se levant brusquement.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="stand/hurry">, se levant brusquement.
+</stage>
 <p id="5">
 	<s id="1">Désirez-vous que je quitte cette chambre aussi, et la maison par-dessus le marché ?</s>
 </p> 
@@ -1304,7 +1325,8 @@
 </sp>  
 </div2> 
 <div2 type="scene" n="2"><head>SCÈNE II.</head> 
-<sp stage="alone" who="RAOUL"><speaker>RAOUL, seul.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Va-t-en au diable !... </s>
 	<s id="2">Mariez-vous donc pour entendre de pareilles choses !... </s>
@@ -1329,7 +1351,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Raoul, De La Rouvre.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Raoul, De La Rouvre. 
+</stage> 
 <sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE.</speaker>
 <p id="1"> 
 	<s id="1">Dites-moi, je vous prie, Monsieur, si je pourrai voir aujourd'hui Madame_de_Sainte-Croix.</s>
@@ -1367,7 +1390,8 @@
 	<s id="1">Monsieur_de_la_Rouvre.</s>
 </p> 
 </sp>  
-<sp stage="ring" who="RAOUL"><speaker>RAOUL, après avoir sonné.</speaker> 
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="ring">, après avoir sonné. 
+</stage> 
 <p id="8">
 	<s id="1">Enfin, voilà donc quelqu'un qui vient jeter de l'animation dans mon intérieur. </s>
 </p>
@@ -1429,7 +1453,8 @@
 	<s id="9">Je ne sortirais jamais de chez moi avant ça.</s>
 </p> 
 </sp>  
-<sp stage="aparte" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, à part.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Voilà les fils du monde moderne !</s>
 </p>
@@ -1469,7 +1494,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="7"><head>SCÈNE VI. Raoul seul, puis Adèle.</head> 
+<div2 type="scene" n="7"><head>SCÈNE VI.</head><stage> Raoul seul, puis Adèle. 
+</stage> 
 <sp who="RAOUL"><speaker>RAOUL.</speaker>
 <p id="1"> 
 	<s id="1">Il n'est pas bien élevé, ce monsieur, ni d'une conversation bien agréable. </s>
@@ -1545,7 +1571,8 @@
 	<s id="1">Et vous mariez-vous bientôt, Adèle? </s>
 </p>
 </sp>
-<sp stage="back" who="ADÈLE"><speaker>ADÈLE, revenant.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="back">, revenant.
+</stage>
 <p id="14">
 	<s id="1">Oui, Monsieur, à la Saint-Jean.</s>
 </p> 
@@ -1581,8 +1608,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="5"><head>SCÈNE V. Raoul, Auguste.</head> 
-<sp stage="carry" who="AUGUSTE"><speaker>AUGUSTE, une carte à la main.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Raoul, Auguste. 
+</stage> 
+<sp who="AUGUSTE"><speaker>AUGUSTE</speaker><stage type="carry">, une carte à la main.
+</stage>
 <p id="1">
 	<s id="1">Monsieur s'ennuie ?... </s>
 	<s id="2">Je lui apporte de l'occupation.</s>
@@ -1605,7 +1634,8 @@
 	<s id="1">Donne-moi une veste et un chapeau.</s>
 </p> 
 </sp>  
-<sp stage="dress" who="AUGUSTE"><speaker>AUGUSTE, tout en l'habillant.</speaker>
+<sp who="AUGUSTE"><speaker>AUGUSTE</speaker><stage type="dress">, tout en l'habillant.
+</stage>
 <p id="5">
 	<s id="1">J'ai bien compris tout de suite que c'était une connaissance particulière de Monsieur. </s>
 	<s id="2">Je lui ai offert très poliment de l'enfermer dans le hangar ; elle a refusé le hangar.</s>
@@ -1631,7 +1661,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="6"><head>SCÈNE VI. Raoul, Antoinette.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Raoul, Antoinette. 
+</stage> 
 <sp who="ANTOINETTE"><speaker>ANTOINETTE.</speaker>
 <p id="1">
 	<s id="1">Je parie que tu ne m'attendais pas.</s>
@@ -1985,7 +2016,8 @@
 </p>  
 <stage type="entrance">Auguste rentre avec un plateau.</stage>
 </sp>  
-<sp stage="get" who="ANTOINETTE"><speaker>ANTOINETTE, prenant le verre.</speaker>
+<sp who="ANTOINETTE"><speaker>ANTOINETTE</speaker><stage type="get">, prenant le verre.
+</stage>
 <p id="62">
 	<s id="1">Merci, mon ami. </s>
 	<s id="2">Ah ! </s>
@@ -1994,7 +2026,8 @@
 	<s id="5">Priez Monsieur de tenir ce verre.</s>
 </p> 
 </sp>  
-<sp stage="give/toward" who="AUGUSTE"><speaker>AUGUSTE, remettant le plateau à Raoul.</speaker>
+<sp who="AUGUSTE"><speaker>AUGUSTE</speaker><stage type="give/toward">, remettant le plateau à Raoul.
+</stage>
 <p id="63">
 	<s id="1">Madame prie Monsieur de porter ce plateau.</s>
 </p> 
@@ -2017,7 +2050,8 @@
 <stage type="exit">Emma entre.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, plus Emma.</head> 
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, plus Emma. 
+</stage> 
 <sp who="ANTOINETTE"><speaker>ANTOINETTE.</speaker>
 <p id="1"> 
 	<s id="1">Madame_de_Sainte-Croix, n'est-ce pas ? </s>
@@ -2060,7 +2094,8 @@
 	<s id="1">À quel hasard, Madame, devons-nous le plaisir de vous recevoir ? </s>
 </p>
 </sp>
-<sp stage="wave" who="RAOUL"><speaker>RAOUL, sur un signe d'Antoinette.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="wave">, sur un signe d'Antoinette.
+</stage>
 <p id="9">
 	<s id="1">La comtesse_Bordogni... une amie d'enfance.</s>
 </p> 
@@ -2129,12 +2164,14 @@
 </p>
 <stage type="location">Elle se dirige vers la porte Raoul et Emma font quelques pas avec elle.</stage>
 </sp>  
-<sp stage="declamate" who="AUGUSTE"><speaker>AUGUSTE, annonçant.</speaker>
+<sp who="AUGUSTE"><speaker>AUGUSTE</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="20">
 	<s id="1">Monsieur_de_la_Rouvre.</s>
 </p> 
 </sp>  
-<sp stage="entrance/frighten" who="ANTOINETTE"><speaker>ANTOINETTE, rentrant en scène, épouvantée.</speaker>
+<sp who="ANTOINETTE"><speaker>ANTOINETTE</speaker><stage type="entrance/frighten">, rentrant en scène, épouvantée.
+</stage>
 <p id="21">
 	<s id="1">Mon mari !</s>
 </p> 
@@ -2166,18 +2203,21 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, plus De La Rouvre.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, plus De La Rouvre. 
+</stage> 
 <sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE.</speaker>
 <p id="1"> 
 	<s id="1">Je vois, Madame, que votre santé est meilleure et que vous supportez mieux la compagnie.</s>
 </p> 
 </sp>  
-<sp stage="show" who="EMMA"><speaker>EMMA, lui montrant Antoinette avec intention.</speaker>
+<sp who="EMMA"><speaker>EMMA</speaker><stage type="show">, lui montrant Antoinette avec intention.
+</stage>
 <p id="2">
 	<s id="1">Oui, j'ai été surprise par une visite inattendue.</s>
 </p> 
 </sp>  
-<sp stage="recognize" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, qui a reconnu Antoinette.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="recognize">, qui a reconnu Antoinette.
+</stage>
 <p id="3">
 	<s id="1">Misérable ! </s>
 	<s id="2">Je vous retrouve ! </s>
@@ -2209,13 +2249,15 @@
 </p>  
 <stage type="pull">Il l'entraîne.</stage>
 </sp>  
-<sp stage="follow" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, poursuivant Antoinette.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="follow">, poursuivant Antoinette.
+</stage>
 <p id="9">
 	<s id="1">Infâme ! </s>
 	<s id="2">Misérable !</s>
 </p> 
 </sp>  
-<sp stage="follow" who="RAOUL"><speaker>RAOUL, de la porte.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="follow">, de la porte.
+</stage>
 <p id="10"> 
 	<s id="1">Je compte, Monsieur, que vous ne prolongerez pas cette visite plus que la précédente. </s>
 	<s id="2">Je suis chez vous dans un instant.</s>
@@ -2223,13 +2265,15 @@
 <stage type="exit">Il sort avec Antoinette.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="9"><head>SCÈNE IX. Emma, De La Rouvre.</head> 
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Emma, De La Rouvre. 
+</stage> 
 <sp who="EMMA"><speaker>EMMA.</speaker>
 <p id="1"> 
 	<s id="1">Dites-moi quelle est cette femme ?</s>
 </p>  
 </sp>
-<sp stage="lost" who="DE LA ROUVRE"><speaker>DE LA ROUVRE, toujours égaré.</speaker>
+<sp who="DE LA ROUVRE"><speaker>DE LA ROUVRE</speaker><stage type="lost">, toujours égaré.
+</stage>
 <p id="2">
 	<s id="1">La mienne, Madame, la mienne ! </s>
 	<s id="2">Comment se trouve-t-elle ici ?</s>
@@ -2372,8 +2416,10 @@
 </div1> 
 <div1 type="acte" n="3"><head>ACTE III</head> 
 <stage type="decor">Une chambre à coucher.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Emma, Adèle.</head> 
-<sp stage="get" who="ADÈLE"><speaker>ADÈLE, desservant.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Emma, Adèle. 
+</stage> 
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="get">, desservant.
+</stage>
 <p id="1">
 	<s id="1">Madame n'a rien pris ; son dîner était sans doute froid ?</s>
 </p> 
@@ -2409,7 +2455,7 @@
 </sp>  
 </div2> 
 <div2 type="scene" n="2"><head>SCÈNE II.</head> 
-<sp stage="alone" who="EMMA"><speaker>EMMA, seule.</speaker> <stage type="get/read">Elle prend une lettre sur la cheminée et la lit.</stage> 
+<sp who="EMMA"><speaker>EMMA</speaker><stage type="alone">, seule. </stage> <stage type="get/read">Elle prend une lettre sur la cheminée et la lit.</stage> 
 <p id="1"> 
 	<s id="1">« Ma chère Emma, « Vous refusez de me voir et de m'entendre; apprenez au moins ce qui s'est dit entre Monsieur_de_la_Rouvre et moi. </s>
 	<s id="2">« Monsieur_de_la_Rouvre est un brave homme ; il s'est excusé comme il a pu en me parlant de son respect et de son admiration pour vous. </s>
@@ -2419,7 +2465,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Emma, Adèle.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Emma, Adèle. 
+</stage> 
 <sp who="ADÈLE"><speaker>ADÈLE.</speaker>
 <p id="1"> 
 	<s id="1">La belle-mère de Madame me fait demander si Madame veut bien la recevoir ?... </s>
@@ -2454,7 +2501,8 @@
 </p> 
 </sp>  
 </div2> 
-<div2 type="scene" n="4"><head>SCÈNE IV. Emma, Madame de Sainte-Croix.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Emma, Madame de Sainte-Croix. 
+</stage> 
 <sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX.</speaker>
 <p id="1"> 
 	<s id="1">Eh bien ! </s>
@@ -2602,7 +2650,8 @@
 	<s id="1">Non.</s>
 </p> 
 </sp>  
-<sp stage="aparte" who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX, à part.</speaker>
+<sp who="MADAME DE SAINTE-CROIX"><speaker>MADAME DE SAINTE-CROIX</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24"> 
 	<s id="1">C'est égal ! </s>
 	<s id="2">Je lui ai jeté de l'eau à la figure; elle en avait besoin. </s>
@@ -2626,7 +2675,8 @@
 </sp>  
 </div2> 
 <div2 type="scene" n="5"><head>SCÈNE V.</head> 
-<sp stage="alone" who="EMMA"><speaker>EMMA, seule.</speaker>
+<sp who="EMMA"><speaker>EMMA</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Femme vulgaire, diseuse de futilités et de lieux communs, oui, tu es bien la mère de ton fils, et tu lui es supérieure encore. </s>
 	<s id="2">Ton existence au moins ne manque pas d'harmonie ; elle a la grandeur des choses régulières. </s>
@@ -2663,8 +2713,10 @@
 <stage type="open/closer">La porte s'ouvre ; Raoul paraît.</stage>
 </sp>  
 </div2> 
-<div2 type="scene" n="6"><head>SCÈNE VI. Emma, Raoul.</head> 
-<sp stage="strong" who="EMMA"><speaker>EMMA, durement.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Emma, Raoul. 
+</stage> 
+<sp who="EMMA"><speaker>EMMA</speaker><stage type="strong">, durement.
+</stage>
 <p id="1"> 
 	<s id="1">Que voulez-vous ?</s>
 </p> 
@@ -2846,7 +2898,8 @@
 	<s id="3">Évitez à cette maison un nouveau scandale.</s>
 </p> 
 </sp>  
-<sp stage="sit" who="RAOUL"><speaker>RAOUL, s'installant dans un fauteuil.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="sit">, s'installant dans un fauteuil.
+</stage>
 <p id="33">
 	<s id="1">Je suis chez moi et j'y reste. </s>
 </p>
@@ -2867,7 +2920,8 @@
 	<s id="2">Je serai bien aise de le connaître.</s>
 </p> 
 </sp>  
-<sp stage="closer" who="EMMA"><speaker>EMMA, allant à lui.</speaker>
+<sp who="EMMA"><speaker>EMMA</speaker><stage type="closer">, allant à lui.
+</stage>
 <p id="38">
 	<s id="1">Aveugle que vous êtes ! </s>
 	<s id="2">Vous croyez que je vous ai quitté sans raison et que je vous pleure depuis six mois. </s>
@@ -2923,7 +2977,8 @@
 	<s id="2">Je suis bien la femme d'un drôle.</s>
 </p> 
 </sp>  
-<sp stage="stand/abrupt" who="RAOUL"><speaker>RAOUL, se levant brutalement.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="stand/abrupt">, se levant brutalement.
+</stage>
 <p id="47">
 	<s id="1">Quel est ce ton ? </s>
 	<s id="2">Me croyez-vous disposé à entendre des vilenies et des impertinences ? </s>
@@ -2959,12 +3014,14 @@
 </p>  
 <stage type="slap/stop/hesitate/ring">Il lui donne un soufflet. Elle s'arrête, hésite et va sonner plusieurs fois.</stage>
 </sp>  
-<sp stage="low" who="RAOUL"><speaker>RAOUL, à mi-voix.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="low">, à mi-voix.
+</stage>
 <p id="53">
 	<s id="1">Je crois que nous sommes des irréconciliables.</s>
 </p> 
 </sp>  
-<sp stage="entrance" who="ADÈLE"><speaker>ADÈLE, entrant.</speaker>
+<sp who="ADÈLE"><speaker>ADÈLE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="54">
 	<s id="1">Monsieur était ici ; le cocher attend toujours ses ordres.</s>
 </p> 
@@ -2979,7 +3036,8 @@
 	<s id="1">Je le crois, Monsieur.</s>
 </p> 
 </sp>  
-<sp stage="toward" who="RAOUL"><speaker>RAOUL, à Emma.</speaker>
+<sp who="RAOUL"><speaker>RAOUL</speaker><stage type="toward">, à Emma.
+</stage>
 <p id="57"> 
 	<s id="1">Je retourne à Paris. </s>
 	<s id="2">Je voulais partir en sortant de table et malheureusement ma mère m'en a empêché. </s>

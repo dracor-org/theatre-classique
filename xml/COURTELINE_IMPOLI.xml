@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,24 +28,25 @@
 		<docTitle>
 			<titlePart type="main">L'IMPOLI</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="TIRPIED" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>TIRPIED</role>.</castItem>
-			<castItem><role id="LA CONCIERGE" sex="2" type="H" statut="concierge" age='A' stat_amour='néant'>LA CONCIERGE</role>.</castItem>
-			<castItem><role id="AGENTS" sex="1" type="H" statut="policier" age='A' stat_amour='néant'>AGENTS</role>.</castItem>
+			<castItem><role id="TIRPIED" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">TIRPIED</role>.</castItem>
+			<castItem><role id="LA CONCIERGE" sex="2" type="H" statut="concierge" age="A" stat_amour="néant">LA CONCIERGE</role>.</castItem>
+			<castItem><role id="AGENTS" sex="1" type="H" statut="policier" age="A" stat_amour="néant">AGENTS</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 139-146</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'IMPOLI</head>
-<div2 type="scene" n="1"><head></head>
-<sp stage="" who="TIRPIED"><speaker>TIRPIED, carillonnant à toute volée à la porte de sa maison.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="TIRPIED"><speaker>TIRPIED</speaker><stage type="">, carillonnant à toute volée à la porte de sa maison.
+</stage>
 <p id="1">
 	<s id="1">Dix-huit fois que je sonne !... </s>
 	<s id="2">Dix-neuf... </s>
@@ -141,7 +142,8 @@
 	<s id="1">Et ouvrez la porte, ma bonne ; ça vaudra mieux.</s>
 </p>
 </sp>
-<sp stage="" who="LA CONCIERGE"><speaker>LA CONCIERGE, poursuivant.</speaker>
+<sp who="LA CONCIERGE"><speaker>LA CONCIERGE</speaker><stage type="">, poursuivant.
+</stage>
 <p id="16">
 	<s id="1">... Donc, je l'avais appelé « mouton ». </s>
 	<s id="2">C'est très bien. </s>
@@ -184,7 +186,8 @@
 	<s id="1">S'il vous plaît, Messieurs les agents !...</s>
 </p>
 </sp>
-<sp stage="closer" who="LES AGENTS"><speaker>LES AGENTS, qui s'approchent.</speaker>
+<sp who="LES AGENTS"><speaker>LES AGENTS</speaker><stage type="closer">, qui s'approchent.
+</stage>
 <p id="22">
 	<s id="1">Qu'est ce qu'il y a ?</s>
 </p>
@@ -230,7 +233,8 @@
 	<s id="1">Permettez !</s>
 </p>
 </sp>
-<sp stage="get" who="LES AGENTS"><speaker>LES AGENTS, qui l'empoignent.</speaker>
+<sp who="LES AGENTS"><speaker>LES AGENTS</speaker><stage type="get">, qui l'empoignent.
+</stage>
 <p id="31">
 	<s id="1">Au poste ! </s>
 	<s id="2">Au poste !... </s>

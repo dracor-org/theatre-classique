@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,24 +28,24 @@
 		<docTitle>
 			<titlePart type="main">LE CAFÉ DE LA PORTIÈRE.</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881. Tous droits réservés.</docDate>
-		<docAuthor id='MOINAUX, Jules'>par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
+		<docDate value="1881">1881. Tous droits réservés.</docDate>
+		<docAuthor id="MOINAUX, Jules">par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
-			<printer id='NOBLET'>8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
+			<editor id="ALBIN MICHEL">PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
+			<printer id="NOBLET">8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age='A' stat_amour='néant'>LE NARRATEUR</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
-			<castItem><role id="MADAME GROISIL" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>MADAME GROISIL</role>.</castItem>
-			<castItem><role id="MADAME BINOCHE" sex="2" type="H" statut="portière" age='A' stat_amour='néant'>MADAME BINOCHE</role>.</castItem>
+			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age="A" stat_amour="néant">LE NARRATEUR</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="MADAME GROISIL" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME GROISIL</role>.</castItem>
+			<castItem><role id="MADAME BINOCHE" sex="2" type="H" statut="portière" age="A" stat_amour="néant">MADAME BINOCHE</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de MOINAUX, Jules, "Les tribunaux comiques", Paris, Chevalier-Marescq éditeur, 1881. pp 237-241</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE CAFÉ DE LA PORTIÈRE.</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="LE NARRATEUR"><speaker>LE NARRATEUR.</speaker>
 <p id="1">
 	<s id="1">L'acte le plus important de la vie d'une portière, c'est la préparation de son café_au_lait. C'est par là qu'elle commence sa journée ; quand elle a pris son café, elle soigne son merle, son chat, et son mari en dernier. </s>
@@ -77,7 +77,8 @@
 	<s id="3">Et vous qui m'avez porté un coup dans le sein, Madame ; que si mon mari, n'était pas si ombrageur de jalousie, j'aurais fait dresser, un certificat par le pharmacien ; mais ces choses-là, c'est si délicat pour une dame...</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT, à la plaignante. </speaker>
+<sp who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT</speaker><stage type="toward">, à la plaignante. 
+</stage>
 <p id="6">
 	<s id="1">À propos de quoi cette femme vous a-t-elle frappée ?</s>
 </p>
@@ -113,12 +114,14 @@
 	<s id="3">Il est au vu et au su de tout le quartier que vous buvez votre goutte en vous levant, et je crois que ce matin-là vous en aviez bu plusieurs, sans vous offenser, Madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT, à la prévenue.</speaker>
+<sp who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT</speaker><stage type="toward">, à la prévenue.
+</stage>
 <p id="12">
 	<s id="">Reconnaissez-vous avoir porté des coups à la plaignante ?</s>
 </p>
 </sp>
-<sp stage="cry" who="MADAME BINOCHE"><speaker>MADAME BINOCHE, pleurant.</speaker>
+<sp who="MADAME BINOCHE"><speaker>MADAME BINOCHE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="13">
 	<s id="1">Repoussée du simple coude, Monsieur le Président, parce qu'elle me faisait en aller mon café ; là-dessus, elle m'a agonie de mots infectueux devant toute la domesticité, et que, Dieu merci, son argent, je lui ai offert dix fois.</s>
 </p>
@@ -129,7 +132,8 @@
 	<s id="2">Quel faux.</s>
 </p>
 </sp>
-<sp who="MADAME BINOCHE"><speaker>MADAME BINOCHE, s'oubliant.</speaker>
+<sp who="MADAME BINOCHE"><speaker>MADAME BINOCHE</speaker><stage>, s'oubliant.
+</stage>
 <p id="15">
 	<s id="1">Que que tu dis ?</s>
 </p>

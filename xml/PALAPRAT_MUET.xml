@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,7 +29,7 @@
 			<titlePart type="main">LE MUET</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1693'>M. DC XCIII. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docDate value="1693">M. DC XCIII. AVEC PRIVILÈGE DU ROI.</docDate>
 		<docAuthor id="PALAPRAT, Jean de">par PALAPRAT</docAuthor>
 		<docImprint>
 			<privilege><head>Extrait du Privilège du Roi.</head> 
@@ -41,25 +41,26 @@
 			<editor type="GUILAIN">À PARIS, Chez THOMAS GUILAIN, sur le Quai des Augustins, à la descente du Pont-Neuf, à l'image S. Louis.</editor>
 		</docImprint>		
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="LE BARON D'OTIGNI" sex="1" type="H" statut="baron" age='A' stat_amour='néant'>LE BARON D'OTIGNI</role>, Père de Timante et du Chevalier.</castItem>
-			<castItem><role id="LE MARQUIS DE SARDAN" sex="1" type="H" statut="marquis" age='A' stat_amour='néant'>LE MARQUIS DE SARDAN</role>.</castItem>
-			<castItem><role id="TIMANTE" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>TIMANTE</role>, Amant de la Comtesse.</castItem>
-			<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age='A' stat_amour='néant'>LE CHEVALIER</role>, Amant de Zaïde.</castItem>
-			<castItem><role id="ZAÏDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>ZAÏDE</role>, fille inconnue.</castItem>
-			<castItem><role id="UN CAPITAINE DE VAISSEAUX" sex="1" type="H" statut="capitaine" age='A' stat_amour='néant'>UN CAPITAINE DE VAISSEAUX</role>.</castItem>
-			<castItem><role id="GUSMAN" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>GUSMAN</role>, Valet du Capitaine.</castItem>
-			<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age='A' stat_amour='néant'>LA COMTESSE</role>.</castItem>
-			<castItem><role id="FRONTIN" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>FRONTIN</role>, Valet de Timante.</castItem>
-			<castItem><role id="MARINE" sex="2" type="H" statut="servante" age='A' stat_amour='néant'>MARINE</role>, Servante de la Comtesse.</castItem>
-			<castItem><role id="SIMON" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>SIMON</role>.</castItem>
-			<castItem><role id="LISETTE" sex="2" type="H" statut="servante" age='A' stat_amour='néant'>LISETTE</role>, Servante de Zaïde.</castItem>
+			<castItem><role id="LE BARON D'OTIGNI" sex="1" type="H" statut="baron" age="A" stat_amour="néant">LE BARON D'OTIGNI</role>, Père de Timante et du Chevalier.</castItem>
+			<castItem><role id="LE MARQUIS DE SARDAN" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS DE SARDAN</role>.</castItem>
+			<castItem><role id="TIMANTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">TIMANTE</role>, Amant de la Comtesse.</castItem>
+			<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">LE CHEVALIER</role>, Amant de Zaïde.</castItem>
+			<castItem><role id="ZAÏDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">ZAÏDE</role>, fille inconnue.</castItem>
+			<castItem><role id="UN CAPITAINE DE VAISSEAUX" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">UN CAPITAINE DE VAISSEAUX</role>.</castItem>
+			<castItem><role id="GUSMAN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">GUSMAN</role>, Valet du Capitaine.</castItem>
+			<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE</role>.</castItem>
+			<castItem><role id="FRONTIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">FRONTIN</role>, Valet de Timante.</castItem>
+			<castItem><role id="MARINE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">MARINE</role>, Servante de la Comtesse.</castItem>
+			<castItem><role id="SIMON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">SIMON</role>.</castItem>
+			<castItem><role id="LISETTE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">LISETTE</role>, Servante de Zaïde.</castItem>
 	</castList>
 	<set location="Naples" country="Italie" periode="XVIIème" gps="26.1420358, -81.7948103">La scène est à Naples.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="FRONTIN"><speaker>FRONTIN, seul.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ouais, mon Maître serait-il déjà entré chez la Comtesse ? </s>
 	<s id="2">Il n'y a point d'apparence, il est encore un peu jour, et il n'y veut entrer que de nuit ; il faut l'attendre ici, et faire un dernier effort pour l'empêcher de remettre le pied chez cette infidèle. </s>
@@ -68,7 +69,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Simon, Frontin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Simon, Frontin.
+</stage>
 <sp who="SIMON"><speaker>SIMON.</speaker>
 <p id="1">
 	<s id="1">Bonsoir, Frontin, je t'ai vu entrer dans ce Palais, et je t'ai suivi.</s>
@@ -295,7 +297,8 @@
 	<s id="2">Encore ? </s>
 </p>
 </sp>
-<sp stage="back" who="SIMON"><speaker>SIMON, revenant.</speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="back">, revenant.
+</stage>
 <p id="44">
 	<s id="1">Et dis-moi un peu, je te prie, comment rient les muets ? </s>
 	<s id="2">Je n'en ai jamais vu rire ?</s>
@@ -310,7 +313,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Timante, Frontin, Simon.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Timante, Frontin, Simon.
+</stage>
 <sp who="TIMANTE"><speaker>TIMANTE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -368,7 +372,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Timante, Frontin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Timante, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Hé bien, Monsieur, malgré l'affront qu'on vous fit hier, vous voulez encore revoir la Comtesse ?</s>
@@ -601,7 +606,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Baron, Le Chevalier, Timante, Frontin cagé.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Baron, Le Chevalier, Timante, Frontin cagé.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Venez,venez, mon fils, votre frère s'est rendu indigne de mon affection, je l'ai tournée toute vers vous, et avec une belle fille je vais vous faire jouir de dix milles livres de rente ; Timante n'aura pas un fol de mon bien, vous êtes toute ma consolation : vous ne répondez rien, mon fils ? </s>
@@ -612,7 +618,8 @@
 <stage type="exit/hurry">Le Chevalier s'enfuit dès que le Marquis paraît.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Marquis, Le Baron, Timante, Frontin caches.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Marquis, Le Baron, Timante, Frontin caches.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Vous avez toujours prévenu mes désirs, Marquis, et il semble que vous veniez au devant de moi, comme si vous aviez su que j'allais chez vous.</s>
@@ -639,7 +646,8 @@
 	<s id="2">Chevalier.</s>
 </p>
 </sp>
-<sp stage="low" who="FRONTIN"><speaker>FRONTIN, bas.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="low">, bas.
+</stage>
 <p id="6">
 	<s id="1">Il est déjà bien loin.</s>
 </p>
@@ -672,13 +680,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Baron, Frontin, Timante caché.</head>
-<sp stage="closer" who="LE BARON"><speaker>LE BARON, rencontrant Frontin.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Baron, Frontin, Timante caché.
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="closer">, rencontrant Frontin.
+</stage>
 <p id="1">
 	<s id="1">Qui est là ?</s>
 </p>
 </sp>
-<sp stage="low/closer" who="FRONTIN"><speaker>FRONTIN, bas à Timande.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="low/closer">, bas à Timande.
+</stage>
 <p id="2">
 	<s id="1">Ne bougez, vous dis-je.</s>
 </p>
@@ -688,7 +699,8 @@
 	<s id="1">Qui est là ?</s>
 </p>
 </sp>
-<sp stage="yawn" who="FRONTIN"><speaker>FRONTIN, en baillant.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="yawn">, en baillant.
+</stage>
 <p id="4">
 	<s id="1">C'est moi, c'est moi, qu'est-ce ?</s>
 </p>
@@ -844,7 +856,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Timante, Frontin.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Timante, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Monsieur, vous l'avez ouï: vous voila déshérité si nous ne songeons à apaiser votre père.</s>
@@ -885,7 +898,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Comtesse, Timante, Frontin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Comtesse, Timante, Frontin.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Que veut dite ceci, Timante ? </s>
@@ -1094,7 +1108,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Timante, Frontin.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Timante, Frontin.
+</stage>
 <sp who="TIMANTE"><speaker>TIMANTE.</speaker>
 <p id="1">
 	<s id="1">Hé bien Frontin.</s>
@@ -1171,7 +1186,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Comtesse, Marine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Comtesse, Marine.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Quelle impatience de femme, ne pouvait-elle attendre qu'on lui amenât Zaïde, sans m'y envoyer à l'heure qu'il est.</s>
@@ -1284,7 +1300,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Frontin, Marine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Frontin, Marine.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Où vas-tu si tard, charmante Marine.</s>
@@ -1442,7 +1459,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Zaide, Marine, Frontin, Lisette, Un Laquais.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Zaide, Marine, Frontin, Lisette, Un Laquais.
+</stage>
 <sp who="ZAÏDE">
 <p id="1">
 	<s id="">Bonsoir, Marine, ta Maîtresse m'attend à ce qu'on m'a dit ?</s>
@@ -1489,7 +1507,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Chevalier, Frontin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Chevalier, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Que cherche-t-il ici si tard, et avec tant d'empressement ?</s>
@@ -2048,7 +2067,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Capitaine, Gusman, Frontin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Capitaine, Gusman, Frontin.
+</stage>
 <sp who="LE CAPITAINE"><speaker>LE CAPITAINE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -2102,7 +2122,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Marine, Le Capitaine, Gusman.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Marine, Le Capitaine, Gusman.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Que viens-tu faire ici?</s>
@@ -2168,7 +2189,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Capitaine, Gusman.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Capitaine, Gusman.
+</stage>
 <sp who="GUSMAN"><speaker>GUSMAN.</speaker>
 <p id="1">
 	<s id="1">Je vous le disais bien, Monsieur.</s>
@@ -2217,7 +2239,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Frontin, Le Chevalier en habit de muet.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Frontin, Le Chevalier en habit de muet. 
+</stage> 
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">N'entrons pas encore chez elle : laissons sortir le Capitaine.</s>
@@ -2307,7 +2330,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Marine, Le Chevalier, Frontin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Marine, Le Chevalier, Frontin.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -2348,7 +2372,8 @@
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ZAÏDE"><speaker>ZAÏDE, seule.</speaker>
+<sp who="ZAÏDE"><speaker>ZAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Que deviendrai-je, hélas ! </s>
 	<s id="2">Dans une conjoncture embarrassante ? </s>
@@ -2359,7 +2384,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Marine, Zaïde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Marine, Zaïde.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Vous fuyez tout le monde Zaïde ? </s>
@@ -2406,7 +2432,7 @@
 </p>
 </sp>
 <sp who="ZAÏDE">
-<p  id="10">
+<p id="10">
 	<s id="">Non, tu m'es toujours chère.</s>
 </p>
 </sp>
@@ -2416,7 +2442,7 @@
 </p>
 </sp>
 <sp who="ZAÏDE">
-<p  id="12">
+<p id="12">
 	<s id="1">Au delà de tout ce que je pouvais attendre.</s>
 </p>
 </sp>
@@ -2426,7 +2452,7 @@
 </p>
 </sp>
 <sp who="ZAÏDE">
-<p  id="14">
+<p id="14">
 	<s id="1">Hélas ! </s>
 	<s id="2">Es-tu surprise de voir quelque chagrin à une malheureuse qui ne connaît, ni ses parents, ni sa patrie.</s>
 </p>
@@ -2437,7 +2463,7 @@
 </p>
 </sp>
 <sp who="ZAÏDE">
-<p  id="16">
+<p id="16">
 	<s id="1">Que veux-tu qu'il y aie.</s>
 </p>
 </sp>
@@ -2448,7 +2474,7 @@
 </p>
 </sp>
 <sp who="ZAÏDE">
-<p  id="18">
+<p id="18">
 	<s id="">Tais-toi, Marine, ou ne me parle plus
 de lui.</s>
 </p>
@@ -2485,7 +2511,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Chevalier, Zaïde, Marine,</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Chevalier, Zaïde, Marine,
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Je crois qu'il nous cherche. </s>
@@ -2582,7 +2609,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Frontin, Le Chevalier, Zaide, Marine.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Frontin, Le Chevalier, Zaide, Marine.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Ah que vois-je ! </s>
@@ -2701,7 +2729,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Capitaine, Zaïde, Le Chevalier.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Capitaine, Zaïde, Le Chevalier.
+</stage>
 <sp who="LE CAPITAINE"><speaker>LE CAPITAINE.</speaker>
 <p id="1">
 	<s id="1">Bonjour, ma fille, je viens vous dire adieu, j'ai ordre de partir demain.</s>
@@ -2744,7 +2773,8 @@ de lui.</s>
 <stage type="watch">Le Chevalier sort dès qu'il voit son père.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Baron, Le Marquis, Le Capitaine, Zaïde.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Baron, Le Marquis, Le Capitaine, Zaïde. 
+</stage> 
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Ha Monsieur, vous pourriez peut-être me donner des nouvelles de mon fils le Chevalier.</s>
@@ -2781,7 +2811,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Baron, LE Marquis.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Baron, LE Marquis.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Que sera devenu mon fils ?</s>
@@ -2818,7 +2849,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 stage="location" type="scene" n="8"><head>SCÈNE VIII. Le Marquis, Le Baron, Frontin derrière eux.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage type="location"> Le Marquis, Le Baron, Frontin derrière eux.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Écoutons sans nous montrer.</s>
@@ -2950,7 +2982,8 @@ de lui.</s>
 	<s id="1">Et bien , parle.</s>
 </p>
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, bas.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, bas.
+</stage>
 <p id="26">
 	<s id="1">Cet homme-là m'embarrasse, Monsieur. </s>
 	<s id="2">Il y a certaines choses qu'il n'est pas à propos de dire devant....</s>
@@ -3312,7 +3345,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le baron, Frontin.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le baron, Frontin.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Que j'avais tort de te soupçonner !</s>
@@ -3483,14 +3517,16 @@ de lui.</s>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="FRONTIN"><speaker>FRONTIN, seul.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Par ma foi voilà un homme bien facile à duper, il a pris l'alarme bien chaudement ; je n'en suis pas trop surpris, il commence à radoter, il n'aime rien tant au monde que cet enfant là.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. LE CHEVALIER, FRONTIN.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> LE CHEVALIER, FRONTIN.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">J'ai ouï ce que tu viens dédire à mon père ; j'ai compris ton dessein ; mais où trouveras-tu le Médecin dont tu as besoin.</s>
@@ -3568,7 +3604,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Le Baron, Le Chevalier.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Le Baron, Le Chevalier.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">En vérité voilà un accident bien étrange. </s>
@@ -3585,8 +3622,10 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Le Baron, Le Chevalier, Frontin.</head>
-<sp who="FRONTIN"><speaker>FRONTIN, en Médecin.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Le Baron, Le Chevalier, Frontin.
+</stage>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, en Médecin.
+</stage>
 <p id="1">
 	<s id="1">Frontinus, Frontinus, non est hic, in las y plegui ego m'en retourno : io me ne uo.</s>
 </p>
@@ -3689,7 +3728,8 @@ de lui.</s>
 	<s id="1">Soit, mais qu'ordonnez-vous, Monsieur, pour tirer mon fils de cet accident ?</s>
 </p>
 </sp>
-<sp stage="" who="FRONTIN"><speaker>FRONTIN, présentant la deux maint.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="">, présentant la deux maint.
+</stage>
 <p id="22">
 	<s id="1">Io la diro tibi, egovì lo dirai.</s>
 </p>
@@ -3808,13 +3848,15 @@ de lui.</s>
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV.</head>
-<sp stage="alone" who="LE BARON"><speaker>LE BARON, seul.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Allons, puisque les parents de cette fille sont nobles de riches ; qu'elle sera un jour reconnue, et qu'il n'y a point d'autre remède, j'aime mieux, pour ne rien risquer, consentir à tout, que de voir plus longtemps en cet état un enfant qui m'est si cher.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Le Baron, Frontin.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Le Baron, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Ce Médecin n'est pas encore venu ?</s>
@@ -3884,13 +3926,15 @@ de lui.</s>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="ZAÏDE"><speaker>ZAÏDE, seule.</speaker>
+<sp who="ZAÏDE"><speaker>ZAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Ne balançons plus, fuyons-le pour jamais, retournons chez la soeur du Capitaine.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCENE II. Le Chevalier, Zaïde.</head>
+<div2 type="scene" n="2"><head>SCENE II.</head><stage> Le Chevalier, Zaïde.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">De grâce écoutez-moi, Zaïde, suspendez pour un moment une si cruelle résolution.</s>
@@ -3942,7 +3986,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Marine, Le Chevalier, Zaïde.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Marine, Le Chevalier, Zaïde.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Madame ! venez voir, notre muet parle. Voilà ce que j'avais toujours soupçonné.</s>
@@ -4033,7 +4078,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Chevalier, Marine.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Chevalier, Marine.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Que vois-je ? </s>
@@ -4042,7 +4088,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Comtesse, Zaïde.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Comtesse, Zaïde.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Je vous aime, Zaïde, et l'on ne peut guère donner plus de marques de tendresse que je vous en ai données.</s>
@@ -4134,7 +4181,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Timante, La Comtesse.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Timante, La Comtesse.
+</stage>
 <sp who="TIMANTE"><speaker>TIMANTE.</speaker>
 <p id="1">
 	<s id="1">Mon retour vous surprend, Madame.</s>
@@ -4199,7 +4247,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Comtesse, Timante, Frontin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Comtesse, Timante, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Que vois-je ? </s>
@@ -4250,7 +4299,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Comtesse, Timante, Simon, Frontin.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Comtesse, Timante, Simon, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -4278,12 +4328,14 @@ de lui.</s>
 	<s id="2">Je ne le vois point.</s>
 </p>
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, à part.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, à part.
+</stage>
 <p id="6">
 	<s id="1">Il n'y a pas moyen de lui parler devant cette femme.</s>
 </p>
 </sp>
-<sp stage="touch/pull" who="TIMANTE"><speaker>TIMANTE, prenant Simon par le bras.</speaker>
+<sp who="TIMANTE"><speaker>TIMANTE</speaker><stage type="touch/pull">, prenant Simon par le bras.
+</stage>
 <p id="7">
 	<s id="1">Et le voila, Madame.</s>
 </p>
@@ -4293,7 +4345,8 @@ de lui.</s>
 	<s id="1">Qui, ce vieux animal ?</s>
 </p>
 </sp>
-<sp stage="imitate" who="SIMON"><speaker>SIMON, faisant le muet.</speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage type="imitate">, faisant le muet.
+</stage>
 <p id="9">
 	<s id="1">A, ou, ou, a.</s>
 </p>
@@ -4327,7 +4380,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Timante, La Comtesse, Marine, Frontin, Simon.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Timante, La Comtesse, Marine, Frontin, Simon.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Que vous plaît-il, Madame ?</s>
@@ -4422,7 +4476,8 @@ de lui.</s>
 	<s id="1">J'ai voulu vous le dire, Monsieur, mais quand vous avez une fois pris la mouche, y a-t-il moyen de vous parler ?</s>
 </p>
 </sp>
-<sp who="SIMON"><speaker>SIMON, en colère.</speaker>
+<sp who="SIMON"><speaker>SIMON</speaker><stage>, en colère.
+</stage>
 <p id="19">
 	<s id="1">Ah, of, of, ah.</s>
 </p>
@@ -4439,7 +4494,8 @@ de lui.</s>
 	<s id="2">Donne-lui ces dix_pistoles, et qu'il s'en aille.</s>
 </p>
 </sp>
-<sp stage="" who="FRONTIN"><speaker>FRONTIN, ne lui en donnant que cinq.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="">, ne lui en donnant que cinq.
+</stage>
 <p id="22">
 	<s id="1">Tiens, retires-toi.</s>
 </p>
@@ -4719,7 +4775,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. LA COMTESSE .TIMANTE, FRONTIN.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> LA COMTESSE .TIMANTE, FRONTIN.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Avez-vous su Timante, ce qui s'est passé chez vous en votre absence ?</s>
@@ -4766,13 +4823,15 @@ de lui.</s>
 	<s id="1">Tu as bien la mine d'avoir fait quelque tout de ton métier.</s>
 </p>
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, bas.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, bas.
+</stage>
 <p id="10">
 	<s id="1">Cela se pourrait, Monsieur, pour votre service pourtant.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Marine, La Comtesse, Frontin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Marine, La Comtesse, Frontin.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Je ne vous mène point le muet, Madame, le Capitaine s'en divertit, et j'ai crû qu'étant chez vous, je ne pouvais le lui ôter sans incivilité.</s>
@@ -4814,7 +4873,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Le Baron, Le Marquis, Frontin.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Le Baron, Le Marquis, Frontin.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Quelle faiblesse de croire si légèrement !</s>
@@ -5046,13 +5106,15 @@ de lui.</s>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="FRONTIN"><speaker>FRONTIN, seul.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je n'ai pu trouver ce pendard de Simon ; ce maraud se fait bien.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Timante, Frontin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Timante, Frontin.
+</stage>
 <sp who="TIMANTE"><speaker>TIMANTE. </speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -5141,7 +5203,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Baron, Le Marquis, Frontin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Baron, Le Marquis, Frontin.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Voilà Frontin tout à propos.</s>
@@ -5168,13 +5231,15 @@ de lui.</s>
 	<s id="1">Demeure, Frontin : le voici heureusement qui sort.</s>
 </p>
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, bas.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, bas.
+</stage>
 <p id="">
 	<s id="1">Tant pis, je voudrais bien lui avoir dit un mot en particulier.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Capitaine, Le Baron, Le</head> Marquis, Frontin.
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Capitaine, Le Baron, Le Marquis, Frontin.
+</stage> Marquis, Frontin.
 <sp who="LE CAPITAINE"><speaker>LE CAPITAINE.</speaker>
 <p id="1">
 	<s id="1">Très humble, Messieurs. </s>
@@ -5291,7 +5356,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zaïde, Marine, Le Capitaine, Le Baron, Le Marquis, Frontin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zaïde, Marine, Le Capitaine, Le Baron, Le Marquis, Frontin.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">La voici, Monsieur, qui sortait pour vous parler.</s>
@@ -5333,7 +5399,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Capitaine, Le Baron, Le Marquis, Zaïde, Marine, Frontin, Le Chevalier.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Capitaine, Le Baron, Le Marquis, Zaïde, Marine, Frontin, Le Chevalier.
+</stage>
 <sp who="LE CAPITAINE"><speaker>LE CAPITAINE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -5469,7 +5536,8 @@ de lui.</s>
 	<s id="1">Ah Marquis ! Il n'y consentira jamais.</s>
 </p>
 </sp>
-<sp stage="closer" who="FRONTIN"><speaker>FRONTIN, lui parlant à l'oreille.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="closer">, lui parlant à l'oreille.
+</stage>
 <p id="27">
 	<s id="1">Vous m'entendez bien ?</s>
 </p>
@@ -5550,8 +5618,10 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Baron, Le Marquis, Le Chevalier, Zaïde, Marine, Un Laquais.</head>
-<sp stage="toward" who="LE LAQUAIS"><speaker>LE LAQUAIS, au Baron.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Baron, Le Marquis, Le Chevalier, Zaïde, Marine, Un Laquais.
+</stage>
+<sp who="LE LAQUAIS"><speaker>LE LAQUAIS</speaker><stage type="toward">, au Baron.
+</stage>
 <p id="1">
 	<s id="1">Monsieur,il y un homme là-bas dans la cour qui demande à vous parler en particulier, et tout à l'heure, pour une chose de la dernière conséquence.</s>
 </p>
@@ -5562,7 +5632,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Marine, Le Chevalier.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Marine, Le Chevalier.
+</stage>
 <sp who="MARINE"><speaker>MARINE.</speaker>
 <p id="1">
 	<s id="1">Hâtez-vous de profiter de la liberté qu'on vous laisse d'aller tout déclarer au Capitaine, personne ne le détrompera si bien que vous.</s>
@@ -5574,7 +5645,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le Capitaine, La Comtesse, Zaïde, Marine, Frontin, Le Chevalier.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le Capitaine, La Comtesse, Zaïde, Marine, Frontin, Le Chevalier.
+</stage>
 <sp who="LE CAPITAINE"><speaker>LE CAPITAINE.</speaker>
 <p id="1">
 	<s id="1">En effet il parle ; si je l'avais su plutôt c'était une affaire faite.</s>
@@ -5623,7 +5695,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Le Baron, Le Marquis, Le Capitaine, La Comtesse, Zaïde, Marine, Frontin.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Le Baron, Le Marquis, Le Capitaine, La Comtesse, Zaïde, Marine, Frontin.
+</stage>
 <sp who="FRONTIN"><speaker>FRONTIN.</speaker>
 <p id="">
 	<s id="1">Monsieur, j'ai tant fait qu'enfin j'ai obligé Monsieur à consentir...</s>
@@ -5707,7 +5780,8 @@ de lui.</s>
 	<s id="1">Qu'on fasse venir Simon.</s>
 </p>
 </sp>
-<sp stage="low" who="FRONTIN"><speaker>FRONTIN, bas.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage type="low">, bas.
+</stage>
 <p id="17">
 	<s id="1">Ah, je suis perdu !</s>
 </p>
@@ -5723,8 +5797,10 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Le Baron, Le Marquis, Le Capitaine, Zaïde, Le Chevalier, Frontin, Marine, Simon.</head>
-<sp stage="pull" who="LE BARON"><speaker>LE BARON, prenant Simon par le bras.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Le Baron, Le Marquis, Le Capitaine, Zaïde, Le Chevalier, Frontin, Marine, Simon.
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="pull">, prenant Simon par le bras.
+</stage>
 <p id="1">
 	<s id="1">Avance, avance, montre-toi. </s>
 	<s id="2">Voilà le pauvre diable à qui Frontin avait persuadé de faire le muet, parce que Timante en avait promis un à Madame : voilà l'homme enfin en la place duquel ce traître a fait entrer le Chevalier.</s>
@@ -5827,7 +5903,8 @@ de lui.</s>
 	<s id="1">Serait il possible !</s>
 </p> 
 </sp>
-<sp who="FRONTIN"><speaker>FRONTIN, au Capitaine.</speaker>
+<sp who="FRONTIN"><speaker>FRONTIN</speaker><stage>, au Capitaine.
+</stage>
 <p id="21">
 	<s id="1">Monsieur, tirez-moi d'ici, je vous ferai rendre ce qu'il vous a volé.</s>
 </p>
@@ -5952,7 +6029,8 @@ de lui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE DERNIÈRE. Le Baron, Le Marquis, Le Chevalier, Timante, Le Capitaine, La Comtesse, Zaïde, Frontin, Marine, Simon.</head>
+<div2 type="scene" n="12"><head>SCÈNE DERNIÈRE.</head><stage> Le Baron, Le Marquis, Le Chevalier, Timante, Le Capitaine, La Comtesse, Zaïde, Frontin, Marine, Simon.
+</stage>
 <sp who="TIMANTE"><speaker>TIMANTE.</speaker>
 <p id="1">
 	<s id="1">Que viens-je d'apprendre, mon père ? </s>

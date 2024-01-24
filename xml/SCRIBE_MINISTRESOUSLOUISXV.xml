@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>mixte</type>
 				<periode>1751-1760</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -36,23 +36,24 @@
 			<printer>PARIS. - IMPRIMERIE de Ve DONDET-DUPRÉ, rue Saint-Louis, 46, au Marais</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE ROI LOUIS XV" sex="1" type="H" statut="roi" age="A" stat_amour='néant'>LE ROI LOUIS XV</role>.</castItem>
-		<castItem><role id="LE DUC DE CHOISEUL" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>LE DUC DE CHOISEUL</role>.</castItem>
-		<castItem><role id="MADAME LA MARÉCHALE" sex="2" type="H" statut="maréchal" age="A" stat_amour='néant'>MADAME LA MARÉCHALE DE MIREPOIX</role>.</castItem>
-		<castItem><role id="LA MARQUISE DE CASTELLANE" sex="2" type="H" statut="marquis" age="A" stat_amour='néant'>LA MARQUISE DE CASTELLANE</role>.</castItem>
-		<castItem><role id="CHOMPRÉ" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>CHOMPRÉ</role>, domestique du Duc de Choiseul.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="domestique" age="A" stat_amour='néant'>HENRIETTE</role>, domestique de Madame la Maréchale.</castItem>
-		<castItem><role id="LEBEL" sex="1" type="H" statut="valet" age="A" stat_amour='néant'>LEBEL</role>, valet de chambre du Roi.</castItem>
+		<castItem><role id="LE ROI LOUIS XV" sex="1" type="H" statut="roi" age="A" stat_amour="néant">LE ROI LOUIS XV</role>.</castItem>
+		<castItem><role id="LE DUC DE CHOISEUL" sex="1" type="H" statut="duc" age="A" stat_amour="néant">LE DUC DE CHOISEUL</role>.</castItem>
+		<castItem><role id="MADAME LA MARÉCHALE" sex="2" type="H" statut="maréchal" age="A" stat_amour="néant">MADAME LA MARÉCHALE DE MIREPOIX</role>.</castItem>
+		<castItem><role id="LA MARQUISE DE CASTELLANE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE DE CASTELLANE</role>.</castItem>
+		<castItem><role id="CHOMPRÉ" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">CHOMPRÉ</role>, domestique du Duc de Choiseul.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="domestique" age="A" stat_amour="néant">HENRIETTE</role>, domestique de Madame la Maréchale.</castItem>
+		<castItem><role id="LEBEL" sex="1" type="H" statut="valet" age="A" stat_amour="néant">LEBEL</role>, valet de chambre du Roi.</castItem>
 	</castList>
-	<set location="Versailles" country="France" periode="XVIIIème" gps="48.801408, 2.130122"></set>
+	<set location="Versailles" country="France" periode="XVIIIème" gps="48.801408, 2.130122"/>
 	<note>Texte extrait de "Proverbes et Nouvelles par Eugène Scribe", Paris Gosselin, 1861. pp. 4-38.</note>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>UN MINISTRE SOUS LOUIS XV</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor/location">Le cabinet du ministre.</stage>
-<sp who="LE DUC"><speaker>LE DUC DE CHOISEUL, reconduisant jusqu'à la porte
-de son cabinet et saluant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC DE CHOISEUL</speaker><stage>, reconduisant jusqu'à la porte
+de son cabinet et saluant.
+</stage>
 <p id="1">
 	<s id="1">J'aurai l'honneur de rappeler cette affaire à Sa_Majesté.</s>
 </p>
@@ -116,7 +117,8 @@ de son cabinet et saluant.</speaker>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="get" who="LE DUC"><speaker>LE DUC, prenant un cahier qui est sur la table.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="get">, prenant un cahier qui est sur la table.
+</stage>
 <note type="C">Antoine de Sartine (1729-1801) : lieutenant général de police pendant 15 ans entre 1759 et 1774 puis ministre de la Marine sous Louis XVI.</note>
 <p id="10">
 	<s id="1">Voici d'abord le dernier rapport de Monsieur_de_Sartines ; quel ennuyeux fatras ! </s>
@@ -198,23 +200,28 @@ de son cabinet et saluant.</speaker>
 <stage type="work">Il travaille pendant quelques minutes avec ardeur.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Duc, Chompré.</head>
-<sp stage="open/entrance" who="CHOMPRÉ"><speaker>CHOMPRÉ, entrouvrant la porte.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Duc, Chompré.
+</stage>
+<sp who="CHOMPRÉ"><speaker>CHOMPRÉ</speaker><stage type="open/entrance">, entrouvrant la porte.
+</stage>
 <p id="1">
 	<s id="1">Une jeune et jolie dame demande à parler à Monseigneur.</s>
 </p>
 </sp>
-<sp stage="stress" who="LE DUC"><speaker>LE DUC, avec impatience.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="stress">, avec impatience.
+</stage>
 <p id="2">
 	<s id="1">Je vous avais dit que je n'y étais pour personne.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="CHOMPRÉ"><speaker>CHOMPRÉ, embarrassé.</speaker>
+<sp who="CHOMPRÉ"><speaker>CHOMPRÉ</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="3">
 	<s id="1">Oui, Monseigneur... mais j'ai pensé qu'une dame, c'était différent...</s>
 </p>
 </sp>
-<sp stage="nervous" who="LE DUC"><speaker>LE DUC, avec humeur.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="4">
 	<s id="1">C'est la même chose... </s>
 	<s id="2">Sortez... </s>
@@ -240,7 +247,8 @@ de son cabinet et saluant.</speaker>
 </p>
 <stage type="exit">Chomprè sort.</stage>
 </sp>
-<sp stage="throw" who="LE DUC"><speaker>LE DUC, jetant sa plume avec colère.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="throw">, jetant sa plume avec colère.
+</stage>
 <p id="8">
 	<s id="1">Abandonner un travail utile et nécessaire ! </s>
 	<s id="2">Perdre son temps en fadaises et insipides galanteries ! </s>
@@ -248,9 +256,11 @@ de son cabinet et saluant.</speaker>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Duc, La Marquise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Duc, La Marquise.
+</stage>
 <stage type="entrance/declamate/exit">Chompré rentre, annonce la marquise et sort.</stage>
-<sp stage="closer" who="LE DUC"><speaker>LE DUC, allant au-devant de la marquise.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="closer">, allant au-devant de la marquise.
+</stage>
 <p id="1">
 	<s id="1">Madame_de_Castellane ! </s>
 	<s id="2">Chez moi... à cette heure ! </s>
@@ -263,14 +273,16 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Il y a si longtemps que nous ne nous sommes rencontrés !	</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, lui offrant un siège.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, lui offrant un siège.
+</stage>
 <p id="3">
 	<s id="1">C'est ce dont je me plaignais !... </s>
 	<s id="2">Autrefois j'étais favorisé ! </s>
 	<s id="3">La Duchesse vous voyait souvent ; mais depuis notre arrivée au ministère vous nous avez disgraciés.</s>
 </p>
 </sp>
-<sp stage="sit" who="LA MARQUISE"><speaker>LA MARQUISE, s'asseyant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sit">, s'asseyant.
+</stage>
 <p id="4">
 	<s id="1">Je vous prouve le contraire en venant ainsi vous sur prendre à l'improviste ; je n'avais pas eu le temps de vous écrire pour vous demander un rendez-vous.</s>
 </p>
@@ -280,7 +292,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Un rendez-vous à moi !</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="6">
 	<s id="1">Oui, sans doute.</s>
 </p>
@@ -290,7 +303,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">C'est le monde renversé !</s>
 </p>
 </sp>
-<sp stage="think" who="LA MARQUISE"><speaker>LA MARQUISE, étourdiment.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="think">, étourdiment.
+</stage>
 <p id="8">
 	<s id="1">C'est ce que je disais dans votre antichambre. </s>
 	<s id="2">N'est-il pas étonnant que, sous prétexte qu'on est ministre, une jeune et jolie femme soit obligée de venir vous faire sa cour ? </s>
@@ -303,7 +317,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Mais, ce que je vous disais autrefois !</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, rougissant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, rougissant.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous vous le rappelez encore ! </s>
@@ -339,7 +354,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Bien sûre, quand vous voudrez, de déjouer leur complet et de faire connaître la vérité à Sa Majesté...</s>
 </p>
 </sp>
-<sp stage="shy" who="LA MARQUISE"><speaker>LA MARQUISE, baissant les yeux.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="shy">, baissant les yeux.
+</stage>
 <p id="15">
 	<s id="1">Je ne crois pas que Sa Majesté se soucie de la connaître...</s>
 </p>
@@ -359,7 +375,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Madame, c'est là cette grâce que vous veniez solliciter et que tant d'autres auraient implorée de vous ?</s>
 </p>
 </sp>
-<sp stage="stand" who="LA MARQUISE"><speaker>LA MARQUISE, se levant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="18">
 	<s id="1">Vous acceptez ! </s>
 	<s id="2">C'est divin ! </s>
@@ -367,12 +384,14 @@ de son cabinet et saluant.</speaker>
 	<s id="4">- Adieu, Monsieur_le_Duc, enchantée de votre obligeance.</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, lui offrant la main pour la reconduire.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, lui offrant la main pour la reconduire.
+</stage>
 <p id="19">
 	<s id="1">Permettez, Madame...</s>
 </p>
 </sp>
-<sp stage="exit/wave" who="LA MARQUISE"><speaker>LA MARQUISE, prête à sortir et s'arrêtant an milieu de sa révérence.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="exit/wave">, prête à sortir et s'arrêtant an milieu de sa révérence.
+</stage>
 <p id="20">
 	<s id="1">Un mot encore ! </s>
 	<s id="2">On assurait hier qu'un régiment de dragons allait être vacant ! </s>
@@ -390,12 +409,14 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Je vous conterai cela demain !</s>
 </p>
 </sp>
-<sp stage="quick" who="LA MARQUISE"><speaker>LA MARQUISE, vivement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="23">
 	<s id="1">Le colonel est donc mort ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE DUC"><speaker>LE DUC, étonné.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="24">
 	<s id="1">Vous l'ai-je dit ?...</s>
 </p>
@@ -420,12 +441,14 @@ de son cabinet et saluant.</speaker>
 	<s id="4">Ce sont là des qualités précieuses... à la tête d'un régiment, et j'espère qu'il nous fera honneur.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE DUC"><speaker>LE DUC, embarrassé.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="28">
 	<s id="1">Je conviens, Madame, que c'est un militaire... qui danse très bien... mais...</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, vivement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, vivement.
+</stage>
 <p id="29">
 	<s id="1">Oh ! il n'y a pas de mais... </s>
 	<s id="2">C'est une affaire convenue. </s>
@@ -438,7 +461,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Permettez cependant...</s>
 </p>
 </sp>
-<sp stage="sweet" who="LA MARQUISE"><speaker>LA MARQUISE, d'un air aimable.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sweet">, d'un air aimable.
+</stage>
 <p id="31">
 	<s id="1">Je pourrais le demander au Roi, j'aime mieux vous le devoir :</s>
 </p>	
@@ -452,7 +476,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Je voudrais mériter la vôtre, mais ce n'est pas en mon pouvoir ; le régiment en question est déjà donné.</s>
 </p>
 </sp>
-<sp stage="serious" who="LA MARQUISE"><speaker>LA MARQUISE, changeant de ton.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="serious">, changeant de ton.
+</stage>
 <p id="34">
 	<s id="1">Et à qui donc ?</s>
 </p>
@@ -463,7 +488,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Monsieur_de_Faverolles, qui depuis quinze ans attend de l'avancement.</s>
 </p>
 </sp>
-<sp stage="despite" who="LA MARQUISE"><speaker>LA MARQUISE, avec dépit.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="despite">, avec dépit.
+</stage>
 <p id="36">
 	<s id="1">Il me semble, Monsieur, que, quand on a attendu quinze ans, on peut bien encore sans se gêner... </s>
 	<s id="2">D'ailleurs quel est ce Monsieur_de_Faverolles ? </s>
@@ -475,7 +501,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Est-ce seulement un gentilhomme ?</s>
 </p>
 </sp>
-<sp stage="despite" who="LE DUC"><speaker>LE DUC, avec indignation.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="despite">, avec indignation.
+</stage>
 <p id="38">
 	<s id="1">Madame...</s>
 </p>
@@ -488,24 +515,28 @@ de son cabinet et saluant.</speaker>
 	<s id="4">Ne peut-on pas dire qu'une volonté supérieure... qu'on vous a forcé la main ?...</s>
 </p>
 </sp>
-<sp stage="smile" who="LE DUC"><speaker>LE DUC, souriant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="smile">, souriant.
+</stage>
 <p id="40">
 	<s id="1">Voilà de ces choses qu'un ministre ne peut pas avouer, et que maintenant, pour ma part, je regarde comme impossibles. </s>
 	<s id="2">- Oui, Madame, je dois croire à présent que personne n'y parviendra, puisque j'ai eu le courage de vous résister.</s>
 </p>
 </sp>
-<sp stage="cold" who="LA MARQUISE"><speaker>LA MARQUISE, froidement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="cold">, froidement.
+</stage>
 <p id="41">
 	<s id="1">Trêve de galanteries, Monsieur_le_Duc, parlons sérieusement : voulez-vous m'accorder ce régiment ?</s>
 </p>
 </sp>
-<sp stage="think" who="LE DUC"><speaker>LE DUC, d'un accent pénétré.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="think">, d'un accent pénétré.
+</stage>
 <p id="42">
 	<s id="1">Je vous proteste, Madame_la_Marquise, que je n'ai rien plus à coeur que de vous être agréable ! </s>
 	<s id="2">Et que vous me voyez véritablement désolé...</s>
 </p>
 </sp>
-<sp stage="cold/watch" who="LA MARQUISE"><speaker>LA MARQUISE, froidement, et le regardant en face.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="cold/watch">, froidement, et le regardant en face.
+</stage>
 <p id="43">
 	<s id="1">Du tout... </s>
 	<s id="2">Vous ne l'êtes pas ! </s>
@@ -522,19 +553,22 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Eh mais, Madame, est-ce une déclaration de guerre que vous m'adressez ?</s>
 </p>
 </sp>
-<sp stage="loud/strong" who="LA MARQUISE"><speaker>LA MARQUISE, impérieusement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="loud/strong">, impérieusement.
+</stage>
 <p id="46">
 	<s id="1">Ce régiment !... </s>
 	<s id="2">Il me le faut, je le veux ! </s>
 	<s id="3">Oui, Monsieur_le_Duc, je le veux !...</s>
 </p>
 </sp>
-<sp stage="proud" who="LE DUC"><speaker>LE DUC, avec dignité.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="proud">, avec dignité.
+</stage>
 <p id="47">
 	<s id="1">Le Roi seul a droit de me parler ainsi ; et si c'était pour me commander une injustice, j'aurais la douleur de lui répondre ce que je vous répondrai à vous-même, Madame, cela ne se peut pas.</s>
 </p>
 </sp>
-<sp stage="furious" who="LA MARQUISE"><speaker>LA MARQUISE, hors d'elle-même.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="furious">, hors d'elle-même.
+</stage>
 <p id="48">
 	<s id="1">Il suffit, monsieur, il suffit ! </s>
 	<s id="2">Vous vous en repentirez... </s>
@@ -542,18 +576,21 @@ de son cabinet et saluant.</speaker>
 	<s id="4">Il ne faut pas croire qu'il soit difficile de faire des ministres !</s>
 </p>
 </sp>
-<sp stage="cold" who="LE DUC"><speaker>LE DUC, froidement.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="cold">, froidement.
+</stage>
 <p id="49">
 	<s id="1">Je n'en doute pas, Madame ; c'est beaucoup plus aisé dans ce moment que de faire des colonels !</s>
 </p>
 </sp>
-<sp stage="offended" who="LA MARQUISE"><speaker>LA MARQUISE, outrée.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="offended">, outrée.
+</stage>
 <p id="50">
 	<s id="1">Oui, Monsieur_le_Duc, on connaîtra votre conduite. </s>
 	<s id="2">- On saura que vous ne faites usage du pouvoir que pour commettre des injustices, et tel me refuse aujourd'hui qui sera trop heureux demain... d'implorer à mes pieds... une grâce qu'il n'obtiendra pas !</s>
 </p>
 </sp>
-<sp stage="furious" who="LE DUC"><speaker>LE DUC, étonné.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="furious">, étonné.
+</stage>
 <p id="51">
 	<s id="1">Que voulez-vous dire ?</s>
 </p>
@@ -567,7 +604,8 @@ de son cabinet et saluant.</speaker>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LE DUC"><speaker>LE DUC, seul.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce que cela signifie ?... </s>
 	<s id="2">Quel est son dessein ? </s>
@@ -611,43 +649,51 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Qu'il entre.</s>
 </p>
 </sp>
-<sp stage="declamate" who="CHOMPRÉ"><speaker>CHOMPRÉ, annonçant.</speaker>
+<sp who="CHOMPRÉ"><speaker>CHOMPRÉ</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="8">
 	<s id="">Monsieur_le_Premier_du_Roi.</s>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Duc, Lebel.</head>
-<sp stage="wave" who="LEBEL"><speaker>LEBEL, s'inclinant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Duc, Lebel.
+</stage>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="1">
 	<s id="1">Je présente mes respectueux hommages à Monsieur_le_Duc.</s>
 </p>
 </sp>
-<sp stage="walk" who="LE DUC"><speaker>LE DUC, d'un air familier et continuant d se promener.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="walk">, d'un air familier et continuant d se promener.
+</stage>
 <p id="2">
 	<s id="1">Bonjour, Lebel, bonjour ! </s>
 	<s id="2">Qu'y a-t-il de nouveau ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LEBEL"><speaker>LEBEL, avec émotion.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="stress">, avec émotion.
+</stage>
 <p id="3">
 	<s id="1">Il y a, Monseigneur, que je viens à vous, parce que tous les jours je suis tenté de donner ma démission.</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE DUC"><speaker>LE DUC, étonné.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="4">
 	<s id="1">Toi ! </s>
 	<s id="2">Le ministre secret des plaisirs du roi !</s>
 </p>
 </sp>
-<sp stage="proud" who="LEBEL"><speaker>LEBEL, avec une nuance d'orgueil.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="proud">, avec une nuance d'orgueil.
+</stage>
 <p id="5">
 	<s id="1">Le poste est agréable, j'en conviens, pour le crédit et la considération... </s>
 	<s id="2">Mais...</s>
 </p> 
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, souriant et achevant sa phrase.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, souriant et achevant sa phrase.
+</stage>
 <p id="6">
 	<s id="1">Mais il te donne trop de mal... trop d'occupation !</s>
 </p>
@@ -663,17 +709,20 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Est-ce que Sa_Majesté supprimerait le traitement qu'elle te fait sur sa cassette ?</s>
 </p>
 </sp>
-<sp stage="proud" who="LEBEL"><speaker>LEBEL, avec dignité.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="proud">, avec dignité.
+</stage>
 <p id="9">
 	<s id="1">Monsieur_le_Duc, je vous prie de croire que je ne tiens pas aux appointements ; mais je tiens à l'honneur !</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE DUC"><speaker>LE DUC, étonné.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="10">
 	<s id="1">Vraiment ?</s>
 </p>
 </sp>
-<sp stage="sweet" who="LEBEL"><speaker>LEBEL, avec chaleur.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="sweet">, avec chaleur.
+</stage>
 <p id="11">
 	<s id="1">Je tiens à mes prérogatives. </s>
 	<s id="2">J'ai une charge que je remplis, j'ose le dire, à la satisfaction générale... </s>
@@ -682,12 +731,14 @@ de son cabinet et saluant.</speaker>
 	<s id="5">Est-ce juste ?</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, souriant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, souriant.
+</stage>
 <p id="12">
 	<s id="1">Non, sans doute.</s>
 </p>
 </sp>
-<sp who="LEBEL"><speaker>LEBEL, continuant à s'échauffer.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage>, continuant à s'échauffer.
+</stage>
 <p id="13">
 	<s id="1">Vais-je me mêler de ce que fait Monsieur_de_Praslin ? </s>
 	<s id="2">Vais-je  troubler Monsieur_de_Saint-Florentin dans la vente de ses lettres de cachet ? </s>
@@ -698,12 +749,14 @@ de son cabinet et saluant.</speaker>
 	<s id="7">Je dis des plus huppés, qui, lorsque par hasard il a une jolie soeur ou une jolie femme, ne s'empresse, pour me faire du tort, de la faire trouver sur le passage de Sa Majesté.</s>
 </p>
 </sp>
-<sp stage="sad" who="LE DUC"><speaker>LE DUC, détournant la tête avec indignation.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="sad">, détournant la tête avec indignation.
+</stage>
 <p id="14">
 	<s id="1">Quelle infamie !</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="LEBEL"><speaker>LEBEL, encouragé et croyant que le Duc entre dans son idée.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="enthousiasm">, encouragé et croyant que le Duc entre dans son idée.
+</stage>
 <p id="15">
 	<s id="1">C'est ce que je dis ! </s>
 	<s id="2">Comme si je n'étais pas là pour les présenter ! </s>
@@ -717,14 +770,16 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Cela suffit...</s>
 </p>
 </sp>
-<sp stage="warm" who="LEBEL"><speaker>LEBEL, continuant avec chaleur et sans s'apercevoir que le Duc ne l'écoute plus.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="warm">, continuant avec chaleur et sans s'apercevoir que le Duc ne l'écoute plus.
+</stage>
 <p id="17">
 	<s id="1">Celui qui me donne le plus d'inquiétudes, c'est Monsieur_de_Richelieu ! </s>
 	<s id="2">Dans l'origine, je ne devais travailler qu'avec le Roi ; à présent, il faut que je soumette mon travail à Monsieur_le_Maréchal, qui peu à peu, j'en suis sûr, finira par s'emparer totalement de ma place, et la fera ériger en grande charge de la couronne... </s>
 	<s id="3">C'est son intention !</s>
 </p>
 </sp>
-<sp stage="impatient" who="LE DUC"><speaker>LE DUC, impatienté.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="impatient">, impatienté.
+</stage>
 <p id="18">
 	<s id="1">Assez ! </s>
 	<s id="2">Assez ! </s>
@@ -777,7 +832,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Et il la donne au Roi !</s>
 </p>
 </sp>
-<sp stage="low" who="LEBEL"><speaker>LEBEL, d demi-voix.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="low">, d demi-voix.
+</stage>
 <p id="27">
 	<s id="1">Raison de plus ! </s>
 	<s id="2">Pour s'élever avec elle, régner sous son nom et renverser quelqu'un que vous connaissez.</s>
@@ -804,7 +860,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Heureusement qu'il vous aime !</s>
 </p>
 </sp>
-<sp stage="low" who="LE DUC"><speaker>LE DUC, baissant la voix.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="low">, baissant la voix.
+</stage>
 <p id="32">
 	<s id="1">Il n'aime personne ! </s>
 	<s id="2">Pas même ses maîtresses ! </s>
@@ -816,7 +873,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Peut-être y en a-t-il d'autres que j'ignore.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+</stage>
 <p id="34">
 	<s id="1">C'est probable, l'assurance de la Marquise me le ferait croire ! </s>
 	<s id="2">Il y avait du Pompadour dans sa démarche et dans son geste.</s>
@@ -853,7 +911,8 @@ de son cabinet et saluant.</speaker>
 	<s id="4">C'est ce que j'ignore.</s>
 </p>
 </sp>
-<sp stage="agitated" who="LE DUC"><speaker>LE DUC, se promenant vivement et avec agitation.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="agitated">, se promenant vivement et avec agitation.
+</stage>
 <p id="40">
 	<s id="1">Oui... </s>
 	<s id="2">Oui, plus de doutes, ses menaces me le prouvent... </s>
@@ -880,7 +939,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Lebel !</s>
 </p>
 </sp>
-<sp stage="away" who="LEBEL"><speaker>LEBEL, qui pendant ce temps s'est tenu d l'écart.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="away">, qui pendant ce temps s'est tenu d l'écart.
+</stage>
 <p id="43">
 	<s id="1">Monseigneur !...</s>
 </p>
@@ -985,9 +1045,11 @@ de son cabinet et saluant.</speaker>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Duc, La Maréchale.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Duc, La Maréchale.
+</stage>
 <stage type="decor/location">L'hôtel de Mirepoix. - Le boudoir de la Maréchale.</stage>
-<sp stage="proud/cold" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, d'un air très digne et très froid.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="proud/cold">, d'un air très digne et très froid.
+</stage>
 <p id="1">
 	<s id="1">J'étais loin de m'attendre, Monsieur_le_Duc, à une pareille visite, et je ne puis m'en expliquer encore le but ni le motif.</s>
 </p>
@@ -997,7 +1059,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Aucun de vos gens ne m'a vu entrer, j'ai laissé ma voiture dans l'autre rue : daignez pour un instant , Madame_la_Maréchale, faire défendre votre porte.</s>
 </p>
 </sp>
-<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE, sans se lever et ouvrant la porte du boudoir prés de laquelle elle est placée.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage>, sans se lever et ouvrant la porte du boudoir prés de laquelle elle est placée.
+</stage>
 <p id="3">
 	<s id="1">Moi, monseigneur, je m'en garderais bien ! </s>
 	<s id="2">J'attends du monde ce matin, et je ne veux même pas qu'on puisse me soupçonner capable...</s>
@@ -1013,13 +1076,15 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Oui, Monsieur...</s>
 </p>
 </sp>
-<sp stage="smile/ironis" who="LE DUC"><speaker>LE DUC, souriant d'un air railleur.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="smile/ironis">, souriant d'un air railleur.
+</stage>
 <p id="6">
 	<s id="1">Il me semble qu'autrefois votre auguste époux n'était pas si jaloux... </s>
 	<s id="2">Est-ce que depuis votre veuvage...</s>
 </p>
 </sp>
-<sp stage="proud" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, avec fierté.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="proud">, avec fierté.
+</stage>
 <p id="7">
 	<s id="1">Vous oubliez, Monsieur, que vous êtes chez moi ! </s>
 	<s id="2">Et que je dois être étonnée de vous y voir, après vos procédés affreux, après votre indigne conduite, lorsque depuis trois ans, en un mot, nous sommes brouillés à mort.</s>
@@ -1035,12 +1100,14 @@ de son cabinet et saluant.</speaker>
 	<s id="6">Il n'y a pas de justice.</s>
 </p>
 </sp>
-<sp stage="offended" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, avec indignation.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="offended">, avec indignation.
+</stage>
 <p id="9">
 	<s id="1">S'il y en avait une... Monsieur... !</s>
 </p>
 </sp>
-<sp stage="cold" who="LE DUC"><speaker>LE DUC, froidement.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="cold">, froidement.
+</stage>
 <p id="10">
 	<s id="1">Il y en a, madame, demandez plutôt à Monsieur_de_Maupeou, votre ami !... </s>
 	<s id="2">Son père en vendait, et lui aussi.</s>
@@ -1079,12 +1146,14 @@ de son cabinet et saluant.</speaker>
 	<s id="5">C'est moi qui viens vous trouver.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, ironiquement.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="ironic">, ironiquement.
+</stage>
 <p id="16">
 	<s id="1">Pour m'offrir la paix, peut-être.</s>
 </p>
 </sp>
-<sp stage="watch/laugh" who="LE DUC"><speaker>LE DUC, la regardant en riant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="watch/laugh">, la regardant en riant.
+</stage>
 <p id="17">
 	<s id="1">Non, vous n'en voudriez pas... ni moi non plus. </s>
 	<s id="2">- Mais parce que l'on n'est pas en paix, est-on obligé de vivre en guerre ? </s>
@@ -1104,12 +1173,14 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Un terme moyen qui ne change presque rien à notre position réciproque, et nous laisse tous les deux sur la défensive, comme qui dirait, en un mot... une neutralité armée.</s>
 </p>
 </sp>
-<sp stage="close" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, fermant la porte du boudoir et se rapprochant du duc.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="close">, fermant la porte du boudoir et se rapprochant du duc.
+</stage>
 <p id="20">
 	<s id="1">Qu'est-ce que cela signifie ?</s>
 </p>
 </sp>
-<sp stage="sit" who="LE DUC"><speaker>LE DUC, se jetant sur le canapé.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="sit">, se jetant sur le canapé.
+</stage>
 <p id="21">
 	<s id="1">À la bonne heure ! </s>
 	<s id="2">J'étais bien sûr qu'entre gens d'esprit... </s>
@@ -1143,7 +1214,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Il est bien généreux de vous contenter du second rôle, quand il ne tiendrait qu'à vous d'aspirer au premier...</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, souriant.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="27">
 	<s id="1">Je comprends, Monsieur_le_Duc : tenez , soyez franc... </s>
 	<s id="2">Si toutefois cela est possible à un homme d'État, les bruits qui se répandent dans ce moment vous ont troublé... </s>
@@ -1165,30 +1237,35 @@ de son cabinet et saluant.</speaker>
 	<s id="4">Elle en a la promesse formelle de Sa_Majesté, elle doit être maîtresse déclarée et en titre...</s>
 </p>
 </sp>
-<sp stage="estonish" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, étonnée.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="30">
 	<s id="1">Cela n'est pas... </s>
 	<s id="2">Je l'atteste.</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, de même.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, de même.
+</stage>
 <p id="31">
 	<s id="1">Cela est si vrai qu'on a fait préparer pour elle, dans la Chapelle_de_Versailles, la tribune occupée autrefois par Madame_de_Pompadour.</s>
 </p>
 </sp>
-<sp stage="quick" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, vivement.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="32">
 	<s id="1">Monsieur, qui a pu vous apprendre ?...</s>
 </p>
 </sp>
-<sp stage="cold" who="LE DUC"><speaker>LE DUC, froidement.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="cold">, froidement.
+</stage>
 <p id="33">
 	<s id="1">Est-ce que je ne sais pas tout... </s>
 	<s id="2">Même ce qui vous regarde personnellement, vous, Madame_la_Maréchale ? </s>
 	<s id="3">Je ne vous parlerai pas du Chevalier_de_Blançay, car nous autres hommes d'État, lorsque nous sommes disgraciés, peu importe qui nous succède et qui jouit de la faveur dont nous sommes privés.</s>
 </p>
 </sp>
-<sp stage="touch" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, troublée.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="touch">, troublée.
+</stage>
 <p id="34">
 	<s id="1">Monsieur...</s>
 </p>
@@ -1203,7 +1280,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Ô ciel !</s>
 </p>
 </sp>
-<sp stage="quick/sweet" who="LE DUC"><speaker>LE DUC, vivement et d'une manière affectueuse.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="quick/sweet">, vivement et d'une manière affectueuse.
+</stage>
 <p id="37">
 	<s id="1">C'est entre nous, dans l'intimité ! </s>
 	<s id="2">Je vous dirai même à ce sujet que vos nouveaux amis me semblent peu obligeants, et qu'il en est d'anciens qui auraient été trop heureux de vous rendre ce service sans aucun intérêt personnel ; car je vous ai prouvé, Madame, que je connaissais tous vos secrets et toute votre position, que, je n'avais besoin d'aucun renseignement, et que, loin de vous brouiller avec Madame_de_Castellane.... </s>
@@ -1221,7 +1299,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">En aucune façon.</s>
 </p>
 </sp>
-<sp stage="proud" who="LA MARÉCHALE"><speaker>LA MARËCHALE, d'un air triomphant.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARËCHALE</speaker><stage type="proud">, d'un air triomphant.
+</stage>
 <p id="40">
 	<s id="1">J'entends... </s>
 	<s id="2">Vous voulez vous y réunir... </s>
@@ -1251,17 +1330,20 @@ de son cabinet et saluant.</speaker>
 	<s id="">Personne, entendez-vous ?</s>
 </p>
 </sp>
-<sp stage="exit" who="HENRIETTE"><speaker>HENRIETTE, sortant.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="exit">, sortant.
+</stage>
 <p id="45">
 	<s id="1">Oui, Madame.</s>
 </p>
 </sp>
-<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE, s'asseyant sur le canapé auprès du duc, et se retournant vers lui de l'air le plus aimable.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage>, s'asseyant sur le canapé auprès du duc, et se retournant vers lui de l'air le plus aimable.
+</stage>
 <p id="46">
 	<s id="1">Parlez, Monsieur_le_Duc, je vous écoute !</s>
 </p>
 </sp>
-<sp stage="closer" who="LE DUC"><speaker>LE DUC, se penchant vers elle avec un air de confiance et d'abandon.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="closer">, se penchant vers elle avec un air de confiance et d'abandon.
+</stage>
 <p id="47">
 	<s id="1">Vous entendez bien, ma belle ennemie, que je n'ai pas la prétention d'empêcher Sa_Majesté d'avoir des maîtresses ; la place de favorite est comme celle de ministre... </s>
 	<s id="3">Elle ne saurait longtemps rester vacante, vu la concurrence !... </s>
@@ -1283,7 +1365,8 @@ de son cabinet et saluant.</speaker>
 	<s id="3">Ce que je demande de vous, sa confidente et son amie intime, ce sont les détails de cette soirée, détails exacts, véritables ; et la vérité est une chose si précieuse, que je ne croirai pas trop la payer par un bon de cent mille écus sur le trésor.</s>
 </p>
 </sp>
-<sp stage="anxious" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, avec inquiétude.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="anxious">, avec inquiétude.
+</stage>
 <p id="50">
 	<s id="1">Comment ! </s>
 	<s id="2">Monsieur_le_Duc, vous voulez de moi un récit... par écrit ?</s>
@@ -1299,7 +1382,8 @@ de son cabinet et saluant.</speaker>
 	<s id="6">J'espère que c'est là de la loyauté.</s>
 </p>
 </sp>
-<sp stage="happy" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, avec joie.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="52">
 	<s id="1">J'en conviens...</s>
 </p>
@@ -1309,7 +1393,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Vous voyez donc bien, comme je vous le disais tout-à-l_heure, que ma proposition ne contrarie ni vos alliances ni vos amitiés, et ne vous oblige à rien... pas même à m'aimer !...</s>
 </p>
 </sp>
-<sp stage="offended" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, se récriant.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="offended">, se récriant.
+</stage>
 <p id="54">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur_le_Duc !...</s>
@@ -1326,14 +1411,16 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Vous ne croyez pas si bien dire... malgré moi je vous aime au fond.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LE DUC"><speaker>LE DUC, lui baisant la main.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="kiss">, lui baisant la main.
+</stage>
 <p id="57">
 	<s id="1">J'en étais sûr ! </s>
 	<s id="2">Adieu, ma charmante ennemie. </s>
 	<s id="3">Demain je vous attendrai, vous et les documents historiques que vous me promettez.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, riant.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="58">
 	<s id="1">Comment ! </s>
 	<s id="2">Ces détails-là aussi seront un jour de l'Histoire ?</s>
@@ -1351,7 +1438,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Madame, une voiture entre dans la cour ; c'est celle du Prince_de_Soubise ; Madame_de_Castellane est avec lui.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+</stage>
 <p id="61">
 	<s id="1">Celle-là, c'est différent ! </s>
 	<s id="2">Et quoiqu'il ne soit pas bien de fuir devant l'ennemi...</s>
@@ -1361,7 +1449,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Je vous laisse...</s>
 </p>
 </sp>
-<sp stage="pull" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, le retenant.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="63">
 	<s id="1">Point par là ! </s>
 	<s id="2">Vous les rencontreriez !</s>
@@ -1390,13 +1479,15 @@ de son cabinet et saluant.</speaker>
 	<s id="4">- L'ancien temps valait mieux.</s>
 </p> 
 </sp>
-<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE, le regardant tendrement.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage>, le regardant tendrement.
+</stage>
 <p id="68">
 	<s id="1">Croyez-vous ? </s>
 	<s id="2">- Adieu, mon cher Duc !</s>
 </p>
 </sp>
-<sp stage="kiss" who="LE DUC"><speaker>LE DUC, lui baisant la main.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="kiss">, lui baisant la main.
+</stage>
 <p id="69">
 	<s id="1">Adieu, Hortense !</s>
 </p>
@@ -1405,7 +1496,8 @@ de son cabinet et saluant.</speaker>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
 <stage type="">Le lendemain au soir. - La chambre à coucher du roi.</stage>
-<sp stage="sit/location" who="LE ROI"><speaker>LE ROI, seul, dans un fauteuil au coin du feu.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="sit/location">, seul, dans un fauteuil au coin du feu.
+</stage>
 <note type="">Chiffe et Graille : Mesdames Adélaide et Sophie, filles du roi.</note>
 <p id="1">
 	<s id="1">Oui... </s>
@@ -1442,7 +1534,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Donne moi mes tablettes pectorales.</s>
 </p>
 </sp>
-<sp stage="give" who="LEBEL"><speaker>LEBEL, les lui donnant.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="give">, les lui donnant.
+</stage>
 <p id="5">
 	<s id="1">Votre Majesté est souffrante ?</s>
 </p>
@@ -1465,24 +1558,28 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Dis-moi, Lebel...</s>
 </p>
 </sp>
-<sp who="LEBEL"><speaker>LEBEL, s'avançant.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage>, s'avançant.
+</stage>
 <p id="9">
 	<s id="1">Sire !...</s>
 </p>
 </sp>
-<sp stage="sigh" who="LE ROI"><speaker>LE ROI, sans le regarder et avec un soupir.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="sigh">, sans le regarder et avec un soupir.
+</stage>
 <p id="10">
 	<s id="1">Pourquoi les Français ne m'aiment-ils plus ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LEBEL"><speaker>LEBEL, étonné.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="11">
 	<s id="1">Votre Majesté y pense-t-elle ! </s>
 	<s id="2">Partout on la respecte, on la révère... et depuis votre aïeul Henri_IV, aucun souverain n'a été plus adoré par la grande majorité de la nation.
 	</s>
 </p>
 </sp>
-<sp stage="think" who="LE ROI"><speaker>LE ROI, après un instant de réflexion.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="think">, après un instant de réflexion.
+</stage>
 <note type="C">Damiens, Robert François [1715-1757], après sa tentative d'assissnat du Roi Louis XV le 5 janvier 1757, il sera condamné à mort par écartelement et sera exécuté le 28 mars. </note>
 <p id="12">
 	<s id="1">Oui... </s>
@@ -1528,19 +1625,22 @@ de son cabinet et saluant.</speaker>
 	<s id="1">C'est vrai... et j'ose dire que je n'y ai pas nui...</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE ROI"><speaker>LE ROI, riant.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="laugh">, riant.
+</stage>
 <p id="18">
 	<s id="1">Toi, Lebel ! </s>
 	<s id="2">À la bonne heure au moins , toi tu ne te plains jamais ; tu es toujours content... </s>
 	<s id="3">Voltaire a eu raison de rappeler l'ami du prince.</s>
 </p>
 </sp>
-<sp stage="happy" who="LEBEL"><speaker>LEBEL, avec satisfaction.</speaker>
+<sp who="LEBEL"><speaker>LEBEL</speaker><stage type="happy">, avec satisfaction.
+</stage>
 <p id="19">
 	<s id="1">Monsieur_de_Voltaire aurait parlé de moi ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE ROI"><speaker>LE ROI, riant.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="laugh">, riant.
+</stage>
 <p id="20">
 	<s id="1">Indirectement, dans un ouvrage que tu ne connais pas... qui m'a amusé... </s>
 </p>
@@ -1559,7 +1659,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Ce ne sera rien, Sire.</s>
 </p>
 </sp>
-<sp who="LE ROI"><speaker>LE ROI, vivement et d'un air fâché.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage>, vivement et d'un air fâché.
+</stage>
 <p id="24">
 	<s id="1">Ce ne sera rien, Monsieur, ce ne sera rien !... </s>
 	<s id="2">On en meurt !... </s>
@@ -1576,7 +1677,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Sire... pouvez-vous le croire ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE ROI"><speaker>LE ROI, à part.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Quelle imprudence à moi ! </s>
 	<s id="2">Je me sens bien mal !... </s>
@@ -1614,7 +1716,8 @@ de son cabinet et saluant.</speaker>
 <stage type="exit/wave">Il sort en faisant au duc un signe d'intelligence.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Roi, Le Duc.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Roi, Le Duc.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 <p id="1">
 	<s id="1">Venez, mon cher duc ; vous arrivez à propos... </s>
@@ -1623,7 +1726,8 @@ de son cabinet et saluant.</speaker>
 	<s id="4">J'ai les idées les plus sombres...</s>
 </p>
 </sp>
-<sp stage="sad" who="LE DUC"><speaker>LE DUC, d'un air triste.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="sad">, d'un air triste.
+</stage>
 <p id="2">
 	<s id="1">Je crains alors que les miennes n'égaient point Votre Majesté, car j'ai la mort dans le coeur.</s>
 </p>
@@ -1645,7 +1749,8 @@ de son cabinet et saluant.</speaker>
 	<s id="4">Tout va bien ; je comptais vous soumettre ce soir plusieurs affaires qui importent au bien du royaume... mais je n'en ai pas le courage... les intérêts de Votre Majesté avant tout...</s>
 </p>
 </sp>
-<sp stage="quick" who="LE ROI"><speaker>LE ROI, vivement.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="quick">, vivement.
+</stage>
 <p id="5">
 	<s id="1">Vous avez raison. </s>
 	<s id="2">- Qu'y a-t-il ?</s>
@@ -1697,7 +1802,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Le titre est piquant ; voyons la suite.</s>
 </p>
 </sp>
-<sp stage="read" who="LE DUC"><speaker>LE DUC, lisant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="read">, lisant.
+</stage>
 <p id="14">
 	<s id="1">« J'arrivai hier à neuf heures du soir à la porte du salon jaune : ce fut Lebel qui vint m'ouvrir respectueusement et en se courbant jusqu'à terre ; mais rien qu'à la salutation, il m'a semblé que nous n'étions pas bien ensemble ! </s>
 	<s id="2">On dit qu'il en faisait trois pour Madame_de_Pompadour... </s>
@@ -1708,17 +1814,20 @@ de son cabinet et saluant.</speaker>
 	<s id="1">C'est vrai !...</s>
 </p>
 </sp>
-<sp stage="read" who="LE DUC"><speaker>LE DUC, continuant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="read">, continuant.
+</stage>
 <p id="16">
 	<s id="1">« Il m'a conduite près de Sa Majesté, qui s'est levée pour venir à moi, et m'a fait asseoir sur l'ottomane bleu de ciel à côté de la cheminée... »</s>
 </p>
 </sp>
-<sp stage="surprise" who="LE ROI"><speaker>LE ROI, avec surprise.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="surprise">, avec surprise.
+</stage>
 <p id="17">
 	<s id="1">C'est vrai !...</s>
 </p>
 </sp>
-<sp stage="read" who="LE DUC"><speaker>LE DUC, continuant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="read">, continuant.
+</stage>
 <p id="18">
 	<s id="1">« L'entretien a commencé par de grands épanchements de sensibilité... car vous savez que le roi est une espèce d'égoïste sentimental qui croit aimer tout le monde, ses sujets et sa famille, et qui n'aime que lui... »</s>
 </p>
@@ -1739,7 +1848,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">Je vous ordonne de ne rien passer.</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, continuant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, continuant.
+</stage>
 <p id="22">
 	<s id="1">« Du reste, le Roi est le seigneur le plus aimable et le plus spirituel... </s>
 </p>
@@ -1757,17 +1867,20 @@ de son cabinet et saluant.</speaker>
 	<s id="2">J'ai dit cela hier soir.</s>
 </p>
 </sp>
-<sp stage="quiet" who="LE DUC"><speaker>LE DUC, continuant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="quiet">, continuant.
+</stage>
 <p id="25">
 	<s id="1">À propos de Monsieur_de_Sartines et de son luxe de perruques, car on dit qu'il en a quarante, rangées par ordre dans une seule chambre, le roi a dit que, s'il était dans cette pièce-là, il se croirait au milieu de son conseil d'État ; que Monsieur_de_Maupeou était un brouillon, Monsieur_de_Jarente un mauvais sujet, Monsieur_le_Duc un important... »</s>
 </p>
 </sp>
-<sp stage="strong" who="LE ROI"><speaker>LE ROI, vivement.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="strong">, vivement.
+</stage>
 <p id="26">
 	<s id="1">Je n'ai pas dit cela, mon ami, je ne l'ai pas dit.</s>
 </p>
 </sp>
-<sp stage="cold" who="LE DUC"><speaker>LE DUC, froidement.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="cold">, froidement.
+</stage>
 <p id="27">
 	<s id="1">Peu importe, sire ; ce n'est pas de moi qu'il s'agit.</s>
 </p>
@@ -1794,14 +1907,16 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Continuez.</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, continuant</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, continuant
+</stage>
 <p id="31">
 	<s id="1">« Le souper fut assez gai ; mais il régnait encore sur la physionomie de mon auguste convive un léger nuage, que j'ai eu beaucoup de peine à dissiper. </s>
 	<s id="2">Après le repas, le roi a voulu reprendre la conversation interrompue ; mais il paraît que s'être moqué de l'éloquence des parlements avait porté malheur à la sienne ; et, trompé encore une fois dans ses royales intentions... </s>
 	<s id="3">Il a pris dans un bonheur du jour, près de son lit, une boîte de pastilles de chocolat.</s>
 </p>
 </sp>
-<sp stage="anger/steal/locaiton" who="LE ROI"><speaker>LE ROI, qui jusque-là a modéré sa colère, arrache le papier des mains du duc.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="anger/steal/locaiton">, qui jusque-là a modéré sa colère, arrache le papier des mains du duc.
+</stage>
 <p id="32">
 	<s id="1">Assez !... </s>
 	<s id="2">Assez !... </s>
@@ -1819,7 +1934,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Sire, qu'en dites-vous ?</s>
 </p>
 </sp>
-<sp stage="low/furious" who="LE ROI"><speaker>LE ROI, à voix basse, avec une fureur concentrée.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="low/furious">, à voix basse, avec une fureur concentrée.
+</stage>
 <p id="35">
 	<s id="1">Mon cher duc, il n'y a pas un seul des faits consignés dans cet exécrable libelle qui ne soit de la plus exacte vérité...</s>
 </p>
@@ -1883,7 +1999,8 @@ de son cabinet et saluant.</speaker>
 	<s id="3">Il est nommé.</s>
 </p>
 </sp>
-<sp who="LE DUC"><speaker>LE DUC, écrivant avec un air de triomphe ct de malice.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage>, écrivant avec un air de triomphe ct de malice.
+</stage>
 <p id="46">
 	<s id="1">Post-scriptum. </s>
 	<s id="2">Je suis désolé d'apprendre à Madame_de_Castellane que le régiment qu'elle sollicitait pour le Marquis_d_Aubuisson, son jeune cousin, vient décidément d'être accordé par Sa_Majesté, et sur ma présentation,</s>
@@ -1898,7 +2015,8 @@ de son cabinet et saluant.</speaker>
 	<s id="1">C'est bien !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+</stage>
 <p id="49">
 	<s id="1">Ce n'est pas sans peine ! </s>
 </p>
@@ -1919,7 +2037,8 @@ de son cabinet et saluant.</speaker>
 	<s id="2">Et après les services que son mari a rendus à l'État, j'ai pensé qu'un bon de cent mille écus...</s>
 </p>
 </sp>
-<sp stage="strong" who="LE ROI"><speaker>LE ROI, vivement.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="strong">, vivement.
+</stage>
 <p id="53">
 	<s id="1">Sur ma cassette... </s>
 	<s id="2">Non pas !</s>

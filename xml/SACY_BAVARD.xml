@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -28,27 +28,28 @@
 				<titlePart type="main">LE BAVARD</titlePart>
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location='(inconnue)'></premiere>
+				<premiere date="" location="(inconnue)"/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LISIMON" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LISIMON</role>, Père de Lucinde.</castItem>
-		<castItem><role id="LUCINDE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LUCINDE</role>.</castItem>
-		<castItem><role id="LE CHEVALIER DE LA HUNE" sex="1" type="H" statut="capitaine" age='V' stat_amour='néant'>LE CHEVALIER DE LA HUNE</role>, Capitaine de Vaisseau.</castItem>
-		<castItem><role id="DAMON" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>DAMON</role>.</castItem>
-		<castItem><role id="NÉRINE" sex="2" type="H" statut="servante" age='A' stat_amour='néant'>NÉRINE</role>.</castItem>
+		<castItem><role id="LISIMON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LISIMON</role>, Père de Lucinde.</castItem>
+		<castItem><role id="LUCINDE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LUCINDE</role>.</castItem>
+		<castItem><role id="LE CHEVALIER DE LA HUNE" sex="1" type="H" statut="capitaine" age="V" stat_amour="néant">LE CHEVALIER DE LA HUNE</role>, Capitaine de Vaisseau.</castItem>
+		<castItem><role id="DAMON" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DAMON</role>.</castItem>
+		<castItem><role id="NÉRINE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">NÉRINE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans une Campagne près de Paris.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, Le Bavard, opuscule dramatique, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome premier, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 35-50. </note>
 </front>
 <body>
-<div1 type="act" n="1"><head></head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Lucinde, Nérine</head>
+<div1 type="act" n="1"><head/>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Lucinde, Nérine
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -102,8 +103,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lucinde, Nérine, Le Chevalier.</head>
-<sp stage="entrance" who="LE CHEVALIER"><speaker>LE CHEVALIER arrive tout_à_coup, et entend les derniers mots de la scène précédente.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lucinde, Nérine, Le Chevalier.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="entrance"> arrive tout-à-coup, et entend les derniers mots de la scène précédente.
+</stage>
 <p id="1">
 	<s id="1">Victoire !... </s>
 	<s id="2">Je savais bien que votre coeur ne tiendrait pas contre un Capitaine qui s'est trouvé dans vingt combats, et qui n'a jamais été battu.</s>
@@ -303,7 +306,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Lisimon, Le Chevalier de la Hune, Lucinde, Nérine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Lisimon, Le Chevalier de la Hune, Lucinde, Nérine.
+</stage>
 <sp who="LISIMON"><speaker>LISIMON.</speaker>
 <p id="1">
 	<s id="1">Eh bien, avez-vous gagné le coeur de ma fille ? </s>
@@ -344,8 +348,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les Acteurs précédents, Damon.</head>
-<sp stage="toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, à Damon.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les Acteurs précédents, Damon.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="toward">, à Damon.
+</stage>
 <p id="1">
 	<s id="1">Ma foi, Monsieur, je vous donne la chasse, je vous coule bas ; croyez-moi, allez échouer à la côte, et ne faites pas voile contre moi.</s>
 </p>
@@ -390,7 +396,8 @@
 	<s id="3">En garde, Monsieur.</s>
 </p>
 </sp>
-<sp stage="push" who="LISIMON"><speaker>LISIMON, les séparant.</speaker>
+<sp who="LISIMON"><speaker>LISIMON</speaker><stage type="push">, les séparant.
+</stage>
 <p id="7">
 	<s id="1">Quoi, Monsieur, vous osez devant moi vous porter à ces excès ! </s>
 	<s id="2">Votre froideur, Monsieur, a mérité la préférence que ma fille donne à votre rival.</s>

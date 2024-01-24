@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>vers</type>
 				<periode>1751-1760</periode>
 				<taille>1750-2000</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">TIRÉS DE LA DIANE DE MONTEMAIOR.</titlePart>
 			<titlePart type="sub">PASTORALE</titlePart>
 		</docTitle> 
-		<docDate value='1654'>M. DC. LIV. AVEC PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id='MONTAUBAN, Jacques Pousset de'>Par Mr DE MONTAUBAN.</docAuthor>
+		<docDate value="1654">M. DC. LIV. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="MONTAUBAN, Jacques Pousset de">Par Mr DE MONTAUBAN.</docAuthor>
 		<docImprint>
 			<privilege id="1653-09-22"><head>Extrait du Privilège du Roi.</head>
 				<p>Par Grâce et Privilège du Roi, donné à Paris le 22. Septembre 1653. Il est permis à Guillaume de Luyne Marchand-Libraire en notre bonne Ville de Paris de faire imprimer vendre et débiter, Les Charmes de Félicie, etc. En telle marge et caractère que bon lui semblera pendant le temps et espace de neuf ans, à compter du jour qu'ils seront achevés d'imprimer : et défenses sont faites à tous Imprimeurs et Libraires et autres, de l'imprimer sur les peines plus amplement portées audit Privilège.</p>
@@ -47,22 +47,23 @@
 		<p>DE MONTAUBAN.</p> 
 	</div>
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="THERSANDRE" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>THERSANDRE</role>.</castItem>
-		<castItem><role id="THIMANTE" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>THIMANTE</role>.</castItem>
-		<castItem><role id="CLIDAMANT" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>CLIDAMANT</role>.</castItem>
-		<castItem><role id="PHILINTE" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>PHILINTE</role>.</castItem>
-		<castItem><role id="FABRICE" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>FABRICE</role>.</castItem>
-		<castItem><role id="DIANE" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>DIANE</role>.</castItem>
-		<castItem><role id="PARTHÉNIE" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>PARTHÉNIE</role>.</castItem>
-		<castItem><role id="ISMÈNE" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>ISMÈNE</role>.</castItem>
-		<castItem><role id="FÉLICIE" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>FÉLICIE</role>.</castItem>
-		<castItem><role id="LA DÉESSE" sex="2" type="H" statut="berger" age='A' stat_amour='néant'>LA DÉESSE</role>.</castItem>
+		<castItem><role id="THERSANDRE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">THERSANDRE</role>.</castItem>
+		<castItem><role id="THIMANTE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">THIMANTE</role>.</castItem>
+		<castItem><role id="CLIDAMANT" sex="1" type="H" statut="berger" age="A" stat_amour="néant">CLIDAMANT</role>.</castItem>
+		<castItem><role id="PHILINTE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">PHILINTE</role>.</castItem>
+		<castItem><role id="FABRICE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">FABRICE</role>.</castItem>
+		<castItem><role id="DIANE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">DIANE</role>.</castItem>
+		<castItem><role id="PARTHÉNIE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">PARTHÉNIE</role>.</castItem>
+		<castItem><role id="ISMÈNE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">ISMÈNE</role>.</castItem>
+		<castItem><role id="FÉLICIE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">FÉLICIE</role>.</castItem>
+		<castItem><role id="LA DÉESSE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">LA DÉESSE</role>.</castItem>
 	</castList>
-	<set location="île d'Érithrée" country="Portugal" periode='VIème' gps="(N/A)">La Scène est dans l'île d'Érithrée en Portugal.</set>
+	<set location="île d'Érithrée" country="Portugal" periode="VIème" gps="(N/A)">La Scène est dans l'île d'Érithrée en Portugal.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Fabrice, Philinte.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Fabrice, Philinte.
+</stage>
 <sp who="FABRICE"><speaker>FABRICE.</speaker>
 	<l id="1">Si vous voulez mander quelque chose à Séville,</l>
 	<l id="2">Demain pour la revoir je partirai de l'île.</l>
@@ -133,12 +134,15 @@
 	<l id="48">Allez, je vais songer à mon embarquement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Diane, Philinte, Ismène.</head>
-<sp who="DIANE"><speaker>DIANE, sans avoir vu Philinte.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Diane, Philinte, Ismène.
+</stage>
+<sp who="DIANE"><speaker>DIANE</speaker><stage>, sans avoir vu Philinte.
+	</stage>
 	<l id="49">Oui je hais ce grand bruit, et ma libre pensée</l>
 	<l id="50">D'un spectacle si long n'est plus embarrassée.</l>
 </sp>
-<sp stage="toward" who="PHILINTE"><speaker>PHILINTE, à Diane.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="toward">, à Diane.
+	</stage>
 	<l id="51">Sortir sitôt des jeux, quel est votre souci ?</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -204,7 +208,8 @@
 	<l id="73" syll="9" part="f">On l'attend, et je vous importune :</l>
 	<l id="74">Mais cherchons les moyens de troubler sa fortune.</l>
 </sp>
-<sp stage="toward" who="DIANE"><speaker>DIANE, à Ismène.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="toward">, à Ismène.
+	</stage>
 	<l id="75">Il croit que Clidamant a place dans mon coeur.</l>
 </sp>
 <sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
@@ -418,8 +423,10 @@
 	<l id="231" syll="6" part="i">Mais mon amant paraît.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Thimante, Diane, Ismène.</head>
-<sp stage="toward" who="ISMÈNE"><speaker>ISMÈNE, à Thimante.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Thimante, Diane, Ismène.
+</stage>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="toward">, à Thimante.
+	</stage>
 	<l id="231" syll="6" part="f">Que viens-tu faire ici ?</l>
 </sp>
 <sp who="THIMANTE"><speaker>THIMANTE.</speaker>
@@ -493,8 +500,10 @@
 	<l id="272">Donne au moins le visage en refusant le coeur</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Thersandre, Diane, Thimante, Ismène.</head>
-<sp stage="toward" who="THERSANDRE"><speaker>THERSANDRE, à Diane.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Thersandre, Diane, Thimante, Ismène.
+</stage>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="toward">, à Diane.
+	</stage>
 	<l id="273">Arrête, cher objet, qui cause mon martyre,</l>
 	<l id="274">Avant que de mourir je n'ai qu'un mot à dire,</l>
 	<l id="275">La Nymphe a de ces prix couronné ma valeur,</l>
@@ -584,7 +593,8 @@
 	<l id="326">Et puis mourir au pied de quelqu'un de ces arbres.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Félicie, Parthénie, Diane, Ismène, Thimante, Clidamant, Philinte.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Félicie, Parthénie, Diane, Ismène, Thimante, Clidamant, Philinte.
+</stage>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="327">Depuis un lustre et plus, qu'au droit de mes aïeux,</l>
 	<l id="328">Par la mort de ma soeur je gouverne ces lieux,</l>
@@ -646,7 +656,8 @@
 	<l id="368">Et vous n'ignorez pas que j'en fais votre époux,</l>
 	<l id="369">Sitôt que son retour nous rendra sa présence.</l>
 </sp>
-<sp stage="low" who="PARTHÉNIE"><speaker>PARTHÉNIE, bas.</speaker>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="370">Oui, si mon coeur enfin peut souffrir violence :</l>
 </sp>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
@@ -656,7 +667,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Ismène, Thersandre, Thimante.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Ismène, Thersandre, Thimante.
+</stage>
 <sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
 	<l id="373">Oui, Thersandre, j'ai fait ce que j'ai pu pour toi,</l>
 	<l id="374">J'ai fait voir tes soupirs, ta constance, ta foi ;</l>
@@ -677,7 +689,8 @@
 	<l id="383">Qui malgré tous mes soins, afin de m'en défendre</l>
 	<l id="384">Poursuit Cléagenor sous le nom de Thersandre.</l>
 </sp>
-<sp stage="low" who="ISMÈNE"><speaker>ISMÈNE, bas.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="385" syll="6" part="i">Qu'ai-je entendu, bons Dieux ?</l>
 </sp>
 <sp who="THIMANTE"><speaker>THIMANTE.</speaker>
@@ -692,7 +705,8 @@
 	<l id="391">Ici de tout conseil mon âme est dépourvue,</l>
 	<l id="392">Qu'importe que Néarque, ou Diane me tue.</l>
 </sp>
-<sp stage="low" who="ISMÈNE"><speaker>ISMÈNE, bas le demi Vers.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="low">, bas le demi Vers.
+	</stage>
 	<l id="393" syll="6" part="i">Ô Dieux ! Qu'il est heureux :</l>
 <stage type="loud">[Haut.]</stage>
 	<l id="393" syll="6" part="f">Celle pour qui tu meurs</l>
@@ -766,11 +780,14 @@
 	<l id="444">Mais j'aperçois Diane ! Ô Dieux quelle est ma peine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Diane, Thersandre, Ismène, Thimante.</head>
-<sp who="DIANE"><speaker>DIANE, à Ismène.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Diane, Thersandre, Ismène, Thimante.
+</stage>
+<sp who="DIANE"><speaker>DIANE</speaker><stage>, à Ismène.
+	</stage>
 	<l id="445" syll="6" part="i">Je te cherchais partout.</l>
 </sp>
-<sp who="THERSANDRE"><speaker>THERSANDRE, à Ismène.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage>, à Ismène.
+	</stage>
 	<l id="445" syll="6" part="f">Si tu veux m'obliger</l>
 	<l id="446" syll="6" part="i">Rends ce portrait, Ismène.</l>
 </sp>
@@ -787,7 +804,8 @@
 	<l id="453">Rien de toi, rien de moi ne la saurait toucher,</l>
 	<l id="454">Elle raille de tout, mais allons la chercher.</l>
 </sp>
-<sp stage="back" who="ISMÈNE"><speaker>ISMÈNE, revenant avec Diane.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="back">, revenant avec Diane.
+	</stage>
 	<l id="455">Je ne vois plus personne, et je te puis tout dire,</l>
 	<l id="456">Quelque maîtresse enfin pour Thersandre soupire,</l>
 	<l id="457">Oui quelqu'une en ces lieux moins cruelle que toi</l>
@@ -847,12 +865,15 @@
 	<l id="479">Feins d'entrer dans ce bois, et surtout ne te montre</l>
 	<l id="480">Qu'alors que je t'aurai ménagé sa rencontre.</l>
 </sp>
-<sp stage="entrance" who="DIANE"><speaker>DIANE, entrant dans le bois.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="entrance">, entrant dans le bois.
+	</stage>
 	<l id="481" syll="6" part="i">Heureux gage d'amour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Thersandre, Thimante, Ismène, Diane.</head>
-<sp stage="toward" who="THERSANDRE"><speaker>THERSANDRE, à Thimante.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Thersandre, Thimante, Ismène, Diane.
+</stage>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="toward">, à Thimante.
+	</stage>
 	<l id="481" syll="6" part="f">Tu vois ce qu'elle a fait,</l>
 	<l id="482">Dans les mains de Diane elle a mis ce portrait.</l>
 </sp>
@@ -875,7 +896,8 @@
 	<l id="487" syll="6" part="f">Quelle grossière feinte !</l>
 	<l id="488">Oses-tu demander encor quel est ma plainte ?</l>
 </sp>
-<sp stage="low/watch/location" who="DIANE"><speaker>DIANE bas, le regardant d'où elle est cachée.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low/watch/location"> bas, le regardant d'où elle est cachée.
+	</stage>
 	<l id="489" syll="6" part="i">Il a le même port.</l>
 </sp>
 <sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
@@ -934,14 +956,16 @@
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
 	<l id="503" syll="6" part="i">Aimé, quoi de Diane ?</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="503" syll="6" part="f">Et de plus de toi-même.</l>
 </sp>
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
 	<l id="504">Je le hais cet ami, si ma maîtresse l'aime,</l>
 	<l id="505">Et quel qu'il soit enfin j'en veux mourir vengé.</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="506">Si c'est Cléagenor ! Ô Dieux qu'il est changé.</l>
 </sp>
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
@@ -952,7 +976,8 @@
 	<l id="508">Au prix de tout ton sang tu le voudrais défendre,</l>
 	<l id="509" syll="6" part="i">Tu ne le quittes point.</l>
 </sp>
-<sp stage="toward" who="THERSANDRE"><speaker>THERSANDRE, à Thimante.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="toward">, à Thimante.
+	</stage>
 	<l id="509" syll="6" part="f">Sans rien dissimuler</l>
 	<l id="510">N'es-tu point ce rival, dont elle veut parler,</l>
 	<l id="511">Je te crois mon ami, ne feins-tu point de l'être,</l>
@@ -983,12 +1008,14 @@
 	<l id="519">Va, tu n'as rien perdu, ton bonheur va faire envie,</l>
 	<l id="520">Diane s'est rendue au portrait de Célie.</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="521">Qui l'aurait pu connaître à ses traits effacés,</l>
 	<l id="522">Mais mon amour enfin me les a retracés ;</l>
 	<l id="523">Abordons-les, cédons à mon impatience.</l>
 </sp>
-<sp stage="toward" who="THERSANDRE"><speaker>THERSANDRE, à Ismène.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="toward">, à Ismène.
+	</stage>
 	<l id="524">Non, je ne crois point, mais Diane s'avance,</l>
 	<l id="525">Vois si ses yeux n'ont pas la même cruauté,</l>
 	<l id="526">Toujours le même orgueil, et la même fierté.</l>
@@ -1017,7 +1044,8 @@
 	<l id="533">Et ce Dieu qui préside à l'éternel sommeil,</l>
 	<l id="534">Par quelque privilège a-t-il fait son réveil.</l>
 </sp>
-<sp stage="toward" who="DIANE"><speaker>DIANE, à Thersandre.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="toward">, à Thersandre.
+	</stage>
 	<l id="535">Et bien, quoiqu'à ta foi tu trouves cet obstacle,</l>
 	<l id="536">L'amour ne te peut-il faire croire un miracle ;</l>
 	<l id="537">Cléagenor me voit, et ne me connaît pas :</l>
@@ -1150,7 +1178,8 @@
 	<l id="600">Je vais pour commencer mentir à Parthénie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Parthénie, Ismène, Diane, Thersandre, Thimante.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Parthénie, Ismène, Diane, Thersandre, Thimante.
+</stage>
 <sp who="PARTHÉNIE"><speaker>PARTHÉNIE.</speaker>
 	<l id="601">Ismène, je voudrais te parler un moment.</l>
 </sp>
@@ -1342,24 +1371,30 @@
 	<l id="698">Laissez m'en le souci ; mais je le vois venir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Philinte, Clidamant, Parthénie, Ismène.</head>
-<sp stage="toward" who="PHILINTE"><speaker>PHILINTE, à Clidamant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Philinte, Clidamant, Parthénie, Ismène.
+</stage>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="toward">, à Clidamant.
+	</stage>
 	<l id="699">Oui, Diane est sa soeur, et je viens de l'apprendre.</l>
 </sp>
-<sp stage="toward" who="CLIDAMANT"><speaker>CLIDAMANT, à Parthénie.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="toward">, à Parthénie.
+	</stage>
 	<l id="700">Madame, nous cherchons l'un et l'autre, Thersandre,</l>
 	<l id="701">Afin que de son heur nous soyons les témoins.</l>
 </sp>
-<sp stage="low/toward" who="ISMÈNE"><speaker>ISMÈNE, bas à Clidamant.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="low/toward">, bas à Clidamant.
+	</stage>
 	<l id="702">Thersandre est bien heureux, mais tu ne l'est pas moins,</l>
 	<l id="703">Et par ce qu'en ta main la mienne ose remettre ;</l>
 	<l id="704">Vois que de ton bonheur tu peux tout te promettre</l>
 	<l id="705" syll="4" part="i">Sans ce jaloux.</l>
 </sp>
-<sp stage="toward" who="PARTHÉNIE"><speaker>PARTHÉNIE, à Ismène.</speaker>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="toward">, à Ismène.
+	</stage>
 	<l id="705" syll="8" part="f">Allons la Nymphe nous attend.</l>
 </sp>
-<sp stage="low/toward" who="ISMÈNE"><speaker>ISMÈNE, bas à Clidamant.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="low/toward">, bas à Clidamant.
+	</stage>
 	<l id="706">Ne pouvant te parler, lis tu seras content.</l>
 </sp>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
@@ -1388,7 +1423,8 @@
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="719">J'y renonce pour moi, tourne la feuille, avance.</l>
 </sp>
-<sp stage="read" who="CLIDAMANT"><speaker>CLIDAMANT, lit. </speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="read">, lit. 
+	</stage>
 	<l id="720">Stances de Dorilas sur la même inconstance.</l>
 <poem type="stances">
 <lg n="1">
@@ -1416,17 +1452,20 @@
 	<l id="735">Je l'appelais tantôt coquette, elle en enrage,</l>
 	<l id="736">Et croit bien repousser l'outrage par l'outrage.</l>
 </sp>
-<sp who="CLIDAMANT"><speaker>CLIDAMANT, continue de lire.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage>, continue de lire.
+	</stage>
 	<l id="737">Sonnet de Sylvio son plus fidèle amant,</l>
 	<l id="738">Madrigal de Thyrsis : Au Berger Clidamant.</l>
 	<l id="739">Cli... Philinte, dis-moi, n'ai-je pas la berlue,</l>
 	<l id="740">Vois si comme mes yeux ce nom frappe ta vue.</l>
 </sp>
-<sp stage="watch" who="PHILINTE"><speaker>PHILINTE, regardant dans les tablettes.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="watch">, regardant dans les tablettes.
+	</stage>
 	<l id="741">Il n'est rien plus certain, cela t'est adressé,</l>
 	<l id="742">Et tu te vois heureux, plus que tu n'as pensé.</l>
 </sp>
-<sp stage="read" who="CLIDAMANT"><speaker>CLIDAMANT, lit.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="read">, lit.
+</stage>
 <poem type="quatrain">
 <lg n="1">
 	<l id="743">À l'écho du jardin, ce soir et dans l'ombrage,</l>
@@ -1437,7 +1476,8 @@
 </poem>
 	<l id="747" syll="3" part="i">ISMÈNE.</l>
 </sp>
-<sp stage="get" who="PHILINTE"><speaker>PHILINTE, voulant prendre les tablettes.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="get">, voulant prendre les tablettes.
+	</stage>
 	<l id="747" syll="9" part="f">Que je voie, accorde-moi ce bien,</l>
 	<l id="748">Quoi, tu ne le veux pas ? Ne me déguise rien,</l>
 	<l id="749">Il est écrit Diane, et tu me lis Ismène.</l>
@@ -1463,14 +1503,16 @@
 	<l id="757">Je brûle de savoir ce qu'on me veut apprendre,</l>
 	<l id="758">Cependant chez la Nymphe allons chercher Thersandre.</l>
 </sp>
-<sp stage="low" who="PHILINTE"><speaker>PHILINTE, bas.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="759">Pour te croire, et pour mieux en informer ma foi,</l>
 	<l id="760">Je veux au rendez-vous aller avecque toi.</l>
 </sp>
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Félicie, Diane.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Félicie, Diane.
+</stage>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="761">Je te le dis encor, j'ai grand plaisir d'apprendre</l>
 	<l id="762">Que Diane est la soeur du généreux Thersandre,</l>
@@ -1627,16 +1669,19 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Thersandre, Félicie, Diane.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Thersandre, Félicie, Diane.
+</stage>
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
 	<l id="853">Diane est en ces lieux, et sa voix m'en assure.</l>
 </sp>
-<sp stage="low/toward" who="FÉLICIE"><speaker>FÉLICIE, à Diane bas.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="low/toward">, à Diane bas.
+	</stage>
 	<l id="854">Ton frère vient ici, prends cette conjoncture,</l>
 	<l id="855">Surtout parle-lui haut, toi seule es mon espoir,</l>
 	<l id="856">Je vais de cet endroit t'écouter, et te voir.</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="857">Ô Dieux ! Tout est perdu, Thersandre va tout dire.</l>
 </sp>
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
@@ -1752,7 +1797,8 @@
 	<l id="918">Auprès de Félicie il est temps de me rendre,</l>
 	<l id="919" syll="4" part="i">Mais la voici.</l>
 </sp>
-<sp stage="exit/location" who="FÉLICIE"><speaker>FÉLICIE, sortant d'où elle était cachée.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="exit/location">, sortant d'où elle était cachée.
+	</stage>
 	<l id="919" syll="8" part="f">De quoi discourez-vous tous deux.</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -1769,15 +1815,18 @@
 	<l id="926">Et je mourrai plutôt que ma reconnaissance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Philinte, Félicie, Diane, Thersandre.</head>
-<sp stage="call" who="PHILINTE"><speaker>PHILINTE, appelant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Philinte, Félicie, Diane, Thersandre.
+</stage>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="call">, appelant.
+	</stage>
 	<l id="927" syll="3" part="i">Clidamant.</l>
 </sp>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="927" syll="9" part="f">C'est assez, sortons j'entends du bruit,</l>
 	<l id="928">Je ne veux pas qu'ici l'on me voie, et de nuit.</l>
 </sp>
-<sp stage="call" who="PHILINTE"><speaker>PHILINTE, continuant d'appeler.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="call">, continuant d'appeler.
+	</stage>
 	<l id="929">Ismène, Clidamant ; ma voix est entendue,</l>
 	<l id="930">Ils fuient, et la nuit les dérobe à ma vue ;</l>
 	<l id="931">Mais ce n'est point Ismène, et je me trompe fort,</l>
@@ -1794,8 +1843,10 @@
 	<l id="942" syll="4" part="i">Écoutons bien.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clidamant, Philinte.</head>
-<sp stage="watch" who="CLIDAMANT"><speaker>CLIDAMANT, sans voir Philinte.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clidamant, Philinte.
+</stage>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="watch">, sans voir Philinte.
+	</stage>
 	<l id="942" syll="8" part="f">Ô nuit ! Prête-moi ton silence,</l>
 	<l id="943">Fais taire tous ces bois en l'absence du jour,</l>
 	<l id="944">Et ne laisse parler ici que mon amour.</l>
@@ -1902,8 +1953,10 @@
 	<l id="1009" syll="6" part="i">Allons donc l'avertir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Parthénie, Ismène.</head>
-<sp stage="location" who="PARTHÉNIE"><speaker>PARTHÉNIE, sur la terrasse.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Parthénie, Ismène.
+</stage>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="location">, sur la terrasse.
+	</stage>
 	<l id="1009" syll="6" part="f">J'entends du bruit, Ismène,</l>
 	<l id="1010" syll="6" part="i">N'est-ce point Clidamant.</l>
 </sp>
@@ -1922,7 +1975,8 @@
 	<l id="1014">Que de peur et d'amour, je sens mon âme atteinte.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Clidamant, Ismène, Parthénie.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Clidamant, Ismène, Parthénie.
+</stage>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
 	<l id="1015">Personne ne me suit, je suis en liberté,</l>
 	<l id="1016">Et mon jaloux enfin n'est plus ici posté.</l>
@@ -1935,7 +1989,8 @@
 	<l id="1018">De ce qu'en ces jardins Ismène me veut dire ;</l>
 	<l id="1019" syll="3" part="i">Ismène.</l>
 </sp>
-<sp stage="low" who="ISMÈNE"><speaker>ISMÈNE, bas.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1019" syll="3" part="m">Clidamant.</l>
 </sp>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
@@ -1954,8 +2009,10 @@
 	<l id="1023">Mettez-vous, en ma place, et prenez ce moment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VII. Thimante, Clidamant, Parthénie, Ismène.</head>
-<sp stage="toward" who="THIMANTE"><speaker>THIMANTE, parlant à Philinte.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VII.</head><stage> Thimante, Clidamant, Parthénie, Ismène.
+</stage>
+<sp who="THIMANTE"><speaker>THIMANTE</speaker><stage type="toward">, parlant à Philinte.
+	</stage>
 	<l id="1024">Je te suis obligé de l'avertissement,</l>
 	<l id="1025">Si je trouve à l'écho Diane, ou bien Ismène,</l>
 	<l id="1026">Mon fidèle rapport te tirera de peine,</l>
@@ -1971,7 +2028,8 @@
 	<l id="1036">Et gardons de lui faire un scandale la nuit,</l>
 	<l id="1037" syll="3" part="i">Ismène.</l>
 </sp>
-<sp stage="away" who="CLIDAMANT"><speaker>CLIDAMANT, quittant Parthénie.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="away">, quittant Parthénie.
+	</stage>
 	<l id="1037" syll="9" part="f">Quelque bruit a frappé mon oreille,</l>
 	<l id="1038" syll="3" part="i">Je reviens.</l>
 </sp>
@@ -1979,7 +2037,8 @@
 	<l id="1038" syll="6" part="f">Quelle peur à la mienne est pareille,</l>
 	<l id="1039" syll="6" part="i">Ismène, approche-toi.</l>
 </sp>
-<sp stage="toward/confuse" who="CLIDAMANT"><speaker>CLIDAMANT, parlant à Thimante qu'il prend pour Philinte.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="toward/confuse">, parlant à Thimante qu'il prend pour Philinte.
+	</stage>
 	<l id="1039" syll="6" part="f">Philinte, en vérité,</l>
 	<l id="1040">Je ne puis plus souffrir votre importunité,</l>
 	<l id="1041">Pourquoi s'imaginer que je fais votre peine ?</l>
@@ -1991,7 +2050,8 @@
 	<l id="1047">Je réponds à ses feux, et vous puis assurer</l>
 	<l id="1048">Que Diane jamais ne m'a fait soupirer.</l>
 </sp>
-<sp stage="low" who="THIMANTE"><speaker>THIMANTE, bas.</speaker>
+<sp who="THIMANTE"><speaker>THIMANTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1049" syll="3" part="i">Ha ! Perfide.</l>
 </sp>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
@@ -2001,7 +2061,8 @@
 	<l id="1052">Et prenez du repos, sans plus troubler le mien.</l>
 	<l id="1053">À me persécuter, mettez-vous votre gloire ?</l>
 </sp>
-<sp stage="low" who="THIMANTE"><speaker>THIMANTE, bas.</speaker>
+<sp who="THIMANTE"><speaker>THIMANTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1054">Honte de mes amours, va sors de ma mémoire,</l>
 	<l id="1055">J'ai de quoi te convaincre, et quand je l'aurai fait</l>
 	<l id="1056">Je te quitte esprit fourbe, et serai satisfait.</l>
@@ -2013,7 +2074,8 @@
 	<l id="1060">Et votre esprit jaloux... mais il n'est plus ici,</l>
 	<l id="1061">Je vais revoir l'objet qui me charme et qui m'aime.</l>
 </sp>
-<sp stage="toward" who="PARTHÉNIE"><speaker>PARTHÉNIE, à Ismène.</speaker>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="toward">, à Ismène.
+	</stage>
 	<l id="1062">Voilà notre discours, achève-le toi-même.</l>
 </sp>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
@@ -2034,7 +2096,8 @@
 	<l id="1072">J'écoute mon devoir, et je me connais mieux,</l>
 	<l id="1073" syll="6" part="i">Adieu jusqu'à demain.</l>
 </sp>
-<sp stage="toward" who="PARTHÉNIE"><speaker>PARTHÉNIE, à Ismène.</speaker>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="toward">, à Ismène.
+	</stage>
 	<l id="1073" syll="6" part="f">Que j'ai l'âme contente,</l>
 	<l id="1074">Ismène, et qu'en amour je te trouve savante,</l>
 	<l id="1075">J'admire ton esprit, et ton invention,</l>
@@ -2060,7 +2123,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Thimante, Ismène.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Thimante, Ismène.
+</stage>
 <sp who="THIMANTE"><speaker>THIMANTE.</speaker>
 	<l id="1085">Quoi ? Perfide, de nuit, pour aigrir mon courroux,</l>
 	<l id="1086">À quelque autre qu'à moi donner des rendez-vous :</l>
@@ -2104,7 +2168,8 @@
 	<l id="1113" syll="6" part="i">Mais le voici venir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Clidamant, Ismène, Thimante.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Clidamant, Ismène, Thimante.
+</stage>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
 	<l id="1113" syll="6" part="f">N'ai-je point tôt tardé,</l>
 	<l id="1114">Ne me soupçonne point, Thimante, on m'a mandé,</l>
@@ -2120,13 +2185,15 @@
 	<l id="1119">Choisis qui de nous deux tu crois le plus fidèle,</l>
 	<l id="1120">Et par ce choix enfin accorde la querelle.</l>
 </sp>
-<sp stage="toward" who="ISMÈNE"><speaker>ISMÈNE, à Thimante.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="toward">, à Thimante.
+	</stage>
 	<l id="1121" syll="6" part="i">En êtes-vous d'accord.</l>
 </sp>
 <sp who="THIMANTE"><speaker>THIMANTE.</speaker>
 	<l id="1121" syll="6" part="f">Oui, mon coeur s'y résout.</l>
 </sp>
-<sp stage="toward" who="ISMÈNE"><speaker>ISMÈNE, à Clidamant.</speaker>
+<sp who="ISMÈNE"><speaker>ISMÈNE</speaker><stage type="toward">, à Clidamant.
+	</stage>
 	<l id="1122">Pour lui je l'aime un peu, mais pour toi, point du tout,</l>
 	<l id="1123">Ma bouche est de mon coeur le fidèle interprète.</l>
 </sp>
@@ -2213,8 +2280,10 @@
 	<l id="1162">Que je baise tes mains, et meure de plaisir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Parthénie, Ismène, Clidamant, Thimante.</head>
-<sp stage="watch/kiss" who="PARTHÉNIE"><speaker>PARTHÉNIE, voyant Clidamant baiser les mains d'Ismène.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Parthénie, Ismène, Clidamant, Thimante.
+</stage>
+<sp who="PARTHÉNIE"><speaker>PARTHÉNIE</speaker><stage type="watch/kiss">, voyant Clidamant baiser les mains d'Ismène.
+	</stage>
 	<l id="1163">Que vois-je ? Ismène ici jouit de ma fortune,</l>
 	<l id="1164">Je me retirerai si je vous importune,</l>
 	<l id="1165">Continuez toujours, rare est cette faveur,</l>
@@ -2258,7 +2327,8 @@
 	<l id="1188" syll="6" part="i">Laissons-les en repos.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Diane, Thersandre.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Diane, Thersandre.
+</stage>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="1188" syll="6" part="f">Voyons ce qu'il faut faire,</l>
 	<l id="1189">Car enfin elle t'aime, et t'aime infiniment,</l>
@@ -2286,7 +2356,8 @@
 	<l id="1203">C'est de là seulement qu'il nous faut tout attendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Félicie, Diane, Thersandre.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Félicie, Diane, Thersandre.
+</stage>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="1204">Un mot, Diane un mot, vous, attendez Thersandre,</l>
 	<l id="1205">Et bien as-tu levé cet obstacle fâcheux,</l>
@@ -2310,7 +2381,8 @@
 <stage type="low/toward">[Bas à Thersandre.]</stage>
 	<l id="1216" syll="7" part="f">Feignez bien auprès d'elle.</l>
 </sp>
-<sp stage="low/toward" who="THERSANDRE"><speaker>THERSANDRE, bas à Diane.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="low/toward">, bas à Diane.
+	</stage>
 	<l id="1217">Je vais sans que son coeur en devienne jaloux,</l>
 	<l id="1218">Ne parler à ses yeux que de vous, et qu'à vous.</l>
 <stage type="watch">Puis il dit à Félicie, à côté de laquelle est Diane qu'il regarde.</stage>
@@ -2367,7 +2439,8 @@
 	<l id="1257">De ce lâche intérêt je purge mon amour,</l>
 	<l id="1258">Et brûle d'un feu pur comme l'astre du jour.</l>
 </sp>
-<sp stage="toward" who="DIANE"><speaker>DIANE, à Félicie.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="toward">, à Félicie.
+	</stage>
 	<l id="1259">De ce que j'oubliais j'avertirai mon frère ;</l>
 <stage type="toward">[À Thersandre.]</stage>
 	<l id="1260">Si tu sais bien aimer, sache de plus te taire,</l>
@@ -2384,7 +2457,8 @@
 	<l id="1271">On connaît bien l'excès de l'amour qui te touche,</l>
 	<l id="1272">Mais pour ton intérêt mets le sceau sur ta bouche.</l>
 </sp>
-<sp stage="toward" who="FÉLICIE"><speaker>FÉLICIE, [à Thersandre].</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="toward">, [à Thersandre].
+	</stage>
 	<l id="1273">Oui, prends garde en effet qu'on s'en puisse douter,</l>
 	<l id="1274">Je veux prendre mon temps pour le faire éclater,</l>
 	<l id="1275">Je songe à ton repos qui le fait de ma vie,</l>
@@ -2409,7 +2483,8 @@
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
 	<l id="1289" syll="6" part="i">J'en userai de même.</l>
 </sp>
-<sp stage="toward" who="PHILINTE"><speaker>PHILINTE, [arrivant dit] à Félicie.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="toward">, [arrivant dit] à Félicie.
+	</stage>
 	<l id="1289" syll="6" part="f">Un Marchand de Bijoux</l>
 	<l id="1290">Qui vient toujours aux jeux, voudrait parler à vous.</l>
 </sp>
@@ -2418,7 +2493,8 @@
 	<l id="1292">Pour vendre et trafiquer tous les ans vient dans l'île.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Félicie, Fabrice, Thersandre, Diane, Philinte. </head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Félicie, Fabrice, Thersandre, Diane, Philinte. 
+</stage>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="1293">Serez-vous bien longtemps encore à notre bord.</l>
 </sp>
@@ -2462,7 +2538,8 @@
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="1309">Et moi ne puis-je rien découvrir de nouveau.</l>
 </sp>
-<sp stage="toward" who="FABRICE"><speaker>FABRICE, à Diane.</speaker>
+<sp who="FABRICE"><speaker>FABRICE</speaker><stage type="toward">, à Diane.
+	</stage>
 	<l id="1310">Bergère, ce filet de perles est fort beau,</l>
 	<l id="1311">Elles vous feraient voir plus belle, et plus brillante.</l>
 </sp>
@@ -2495,7 +2572,8 @@
 	<l id="1325">Et par Cléagenor, enfin perdit le jour</l>
 	<l id="1326">Dans l'éclaircissement que leur fit leur amour.</l>
 </sp>
-<sp stage="low" who="THERSANDRE"><speaker>THERSANDRE, bas le premier vers.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="low">, bas le premier vers.
+	</stage>
 	<l id="1327">Dois-je croire, bons Dieux ! À ce qu'il me remarque,</l>
 	<l id="1328">Êtes-vous bien certain de la mort de Néarque.</l>
 </sp>
@@ -2519,7 +2597,8 @@
 <sp who="FABRICE"><speaker>FABRICE.</speaker>
 	<l id="1335" syll="6" part="i">Oui, voilà son portrait.</l>
 </sp>
-<sp stage="low" who="THERSANDRE"><speaker>THERSANDRE, bas.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1335" syll="6" part="f">Ô ! Rencontre funeste.</l>
 </sp>
 <sp who="FABRICE"><speaker>FABRICE.</speaker>
@@ -2605,13 +2684,15 @@
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="1384" syll="6" part="i">Que dis-tu de Diane ?</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas. </speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas. 
+	</stage>
 	<l id="1384" syll="6" part="f">Ô ! Funeste aventure.</l>
 </sp>
 <sp who="FABRICE"><speaker>FABRICE.</speaker>
 	<l id="1385">C'est la Divinité dont le Temple est ici.</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas. </speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas. 
+	</stage>
 	<l id="1386" syll="6" part="i">Je cesse de trembler.</l>
 </sp>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
@@ -2628,7 +2709,8 @@
 	<l id="1394">Celui-ci qu'il avait sans doute est des mieux faits,</l>
 	<l id="1395">Mais quoi, Cléagenor peut mieux vous en instruire.</l>
 </sp>
-<sp stage="toward" who="FÉLICIE"><speaker>FÉLICIE, à Thersandre.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="toward">, à Thersandre.
+	</stage>
 	<l id="1396" syll="6" part="i">La reconnaissez-vous ?</l>
 </sp>
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
@@ -2637,7 +2719,8 @@
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="1397">J'y remarque beaucoup de l'air de votre soeur.</l>
 </sp>
-<sp stage="low" who="DIANE"><speaker>DIANE, bas. </speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="low">, bas. 
+	</stage>
 	<l id="1398">Ô Dieux ! Qui me voyez, détournez ce malheur.</l>
 </sp>
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
@@ -2651,7 +2734,8 @@
 	<l id="1404">Admirez comme l'art imite la nature ;</l>
 	<l id="1405">Oui, c'est elle pour qui Néarque a soupiré.</l>
 </sp>
-<sp stage="low" who="THERSANDRE"><speaker>THERSANDRE, bas.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1406">Où sommes-nous ? Ô Dieux ! Tout est désespéré.</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -2748,7 +2832,8 @@
 <sp who="THERSANDRE"><speaker>THERSANDRE.</speaker>
 	<l id="1463" syll="6" part="f">Quel malheur est le nôtre.</l>
 </sp>
-<sp stage="toward" who="FÉLICIE"><speaker>FÉLICIE, à Philinte.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="toward">, à Philinte.
+	</stage>
 	<l id="1464">Dans chaque appartement séparés l'un et l'autre.</l>
 	<l id="1465">Qu'ils ne se parlent point : ô malheur sans pareil !</l>
 	<l id="1466">Que ferai-je, et de qui dois-je prendre conseil.</l>
@@ -2792,7 +2877,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Clidamant, Parthénie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Clidamant, Parthénie.
+</stage>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
 	<l id="1503">Jamais rien de pareil ne s'offrit à mes yeux,</l>
 	<l id="1504">Les cris de ces amants remplissent tous ces lieux,</l>
@@ -2859,7 +2945,8 @@
 	<l id="1553" syll="6" part="i">Que ne vous dois-je point ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ismène, Thimante, Parthénie, Clidamant.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ismène, Thimante, Parthénie, Clidamant.
+</stage>
 <sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
 	<l id="1553" syll="6" part="f">Que venons-nous d'apprendre,</l>
 	<l id="1554">Ha ! Madame, est-il vrai ce qu'on nous fait entendre,</l>
@@ -2890,8 +2977,10 @@
 	<l id="1571" syll="6" part="i">Mais je la vois venir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Félicie, Philinte, Clidamant, Parthénie,  Thimante, Ismène.</head>
-<sp stage="foward" who="FÉLICIE"><speaker>FÉLICIE, à Philinte.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Félicie, Philinte, Clidamant, Parthénie,  Thimante, Ismène.
+</stage>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="foward">, à Philinte.
+	</stage>
 	<l id="1571" syll="6" part="f">Quoi, ce coup te surprend ?</l>
 </sp>
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
@@ -2999,7 +3088,8 @@
 <sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
 	<l id="1657" syll="6" part="f">C'est assez, vous savez ma défense.</l>
 </sp>
-<sp stage="low" who="CLIDAMANT"><speaker>CLIDAMANT, bas.</speaker>
+<sp who="CLIDAMANT"><speaker>CLIDAMANT</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1658">J'espère la fléchir, mais gardons le silence.</l>
 </sp>
 <sp who="THIMANTE"><speaker>THIMANTE.</speaker>
@@ -3019,8 +3109,10 @@
 	<l id="1672">Vous en serez touchée, écoutez-le parler.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Thersandre, Diane, Félicie, Ismène, Clidamant, Thimante.</head>
-<sp who="THERSANDRE"><speaker>THERSANDRE, auprès du corps de Diane.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Thersandre, Diane, Félicie, Ismène, Clidamant, Thimante.
+</stage>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage>, auprès du corps de Diane.
+	</stage>
 	<l id="1673">Pourquoi, pour ne point voir des objets si funèbres,</l>
 	<l id="1674">N'ai-je je les yeux couverts d'éternelles ténèbres,</l>
 	<l id="1675">Ha ! Que j'ai de sujet de me plaindre du sort,</l>
@@ -3088,7 +3180,8 @@
 	<l id="1731">En voici le spectacle, écoutez sa douleur,</l>
 	<l id="1732">Ouvrez à cet objet vos yeux, et votre coeur.</l>
 </sp>
-<sp stage="location" who="DIANE"><speaker>DIANE, sur le corps de Thersandre.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="location">, sur le corps de Thersandre.
+	</stage>
 	<l id="1733">Quoi donc mon cher amant, tu n'es plus que poussière,</l>
 	<l id="1734">Ta bouche est sans parole, et tes yeux sans lumière,</l>
 	<l id="1735">Mais malgré l'attentat, qui me fait soupirer,</l>
@@ -3183,8 +3276,10 @@
 	<l id="1808">Elle nous fait signe, il la faut écouter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. [Diane, Déesse, Thersandre, Diane, Félicie, Ismène, Clidamant, Thimante.]</head>
-<sp who="DIANE, Déesse"><speaker>DIANE, Déesse.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> [Diane, Déesse, Thersandre, Diane, Félicie, Ismène, Clidamant, Thimante.]
+</stage>
+<sp who="DIANE, Déesse"><speaker>DIANE</speaker><stage>, Déesse.
+	</stage>
 	<l id="1809">Vos voeux sont exaucés, que rien ne vous alarme,</l>
 	<l id="1810">Célie et son amant s'aimeront à jamais,</l>
 	<l id="1811">Leurs travaux sont finis, et j'ai rompu le charme,</l>
@@ -3192,13 +3287,15 @@
 	<l id="1813">Ils vous ont fait pitié, qu'ils vous fassent envie,</l>
 	<l id="1814">Regardez s'il est rien d'égal à leur amour.</l>
 </sp>
-<sp stage="toward" who="THERSANDRE"><speaker>THERSANDRE, à Diane.</speaker>
+<sp who="THERSANDRE"><speaker>THERSANDRE</speaker><stage type="toward">, à Diane.
+	</stage>
 	<l id="1815">Par quel enchantement t'a-t-on rendu la vie ?</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="1816">Par quel enchantement peux-tu revoir le jour ?</l>
 </sp>
-<sp who="DIANE, Déesse"><speaker>[DIANE], la Déesse continue.</speaker>
+<sp who="DIANE, Déesse"><speaker>[DIANE]</speaker><stage>, la Déesse continue.
+	</stage>
 	<l id="1817">Je veux récompenser leurs vertus sans exemple,</l>
 	<l id="1818">Par le prix attendu de leur affection,</l>
 	<l id="1819">Pour faire leur hymen, je vais ouvrir mon Temple,</l>
@@ -3220,7 +3317,8 @@
 	<l id="1835">Et la voir désormais sous le pouvoir d'un Prince,</l>
 	<l id="1836">Qui soit de père en fils du sang de Clidamant.</l>
 </sp>
-<sp stage="watch" who="FÉLICIE"><speaker>FÉLICIE, voyant la Déesse remonter.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="watch">, voyant la Déesse remonter.
+	</stage>
 	<l id="1837">Oui, Déesse, en effet vous me faites justice</l>
 	<l id="1838">En approuvant mon crime on s'en rendrait complice,</l>
 	<l id="1839">Et les Dieux souverains, et les maîtres du sort</l>

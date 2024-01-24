@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LA COCUE IMAGINAIRE, COMÉDIE</title>
-				<author type="texte" ISNI='0000 0001 0866 4651'>DONNEAU DE VIZÉ, Jean (1638-1710)</author>
+				<author type="texte" ISNI="0000 0001 0866 4651">DONNEAU DE VIZÉ, Jean (1638-1710)</author>
 			</titleStmt>
 			<publicationStmt>	
 				<editor>Texte établi par David Chataignier à partir de l'exemplaire RES-YF-3749 conservé à la Réserve de la BnF et reproduit sur Gallica pour le site Molière 21 - Université de la Sorbonne Paris IV sous la direction de Georges Forestier.</editor>
@@ -29,7 +29,7 @@
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1660">M. DC. LX AVEC PRIVILEGE DU ROI.</docDate>
-		<docAuthor id="DONNEAU DE VISÉ, Jean" bio='donneau'></docAuthor>
+		<docAuthor id="DONNEAU DE VISÉ, Jean" bio="donneau"/>
 		<docImprint>
 		<privilege id="1660-07-25"><head>Extrait du Privilège du Roi.</head>
 			<p>Par grâce et Privilège du Roi, donné à Paris le 25 Juillet 1660 signé, par le Roi en son Conseil, BONNEFON : Il est permis au Sieur Donneau, de faire imprimer par tel Imprimeur et Libraire qu'il voudra, une Comédie intitulée Les Amours d'Alcippe et de Céphise, pendant l'espace de cinq ans ; et défenses sont faites à tous autres de l'imprimer ni vendre d'autre Édition que celle de l'Exposant, à peine de quinze cents Livres d'amende, de tous dépens, dommages, et intérêts, comme il est porté plus amplement par lesdites lettres. Et ledit Sieur Donneau a cédé son droit de Privilège à Jean Ribou, Marchand à Paris, pour en jouir suivant l'accord fait entre eux.</p>
@@ -40,7 +40,7 @@
 			<printer id="RIBOU">À PARIS, Chez JEAN RIBOU, sur le Quai des Augustins, à l'Image à Saint Louis.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1660" location='Hôtel de Bourgogne'>Représenté pour la première fois en 1660 à l'Hôtel de Bourgogne.</premiere>
+			<premiere date="1660" location="Hôtel de Bourgogne">Représenté pour la première fois en 1660 à l'Hôtel de Bourgogne.</premiere>
 		</performance>
 		<div type="dedicace"><adresse>À MADEMOISELLE HENRIETTE *** </adresse>
 		<head>MADEMOISELLE,</head>
@@ -56,21 +56,23 @@
 			</div>
 
 		<castList><head>ACTEURS</head>
- 			<castItem><role id="ALCIPPE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='amoureux'>ALCIPPE</role>, amant de Céphise.</castItem>
-			<castItem><role id="ROGUESPINE" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>ROGUESPINE</role>, son valet.</castItem>
-			<castItem><role id="GÉRONTE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>GÉRONTE</role>, son père Bourgeois de Paris.</castItem>
-			<castItem><role id="CÉPHISE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='amoureux'>CÉPHISE</role>, amante d'Alcippe.</castItem>
-			<castItem><role id="PAQUETTE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>PAQUETTE</role>, femme de Spadarille, Cocue Imaginaire.</castItem>
-			<castItem><role id="SPADARILLE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>SPADARILLE</role>, mari de Paquette, Bourgeois de Paris.</castItem>
-			<castItem><role id="LUCRESSE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LUCRESSE</role>, parente de Paquette.</castItem>
-			<castItem><role id="BÉATRIX" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>BÉATRIX</role>, suivante de Céphise.</castItem>
+ 			<castItem><role id="ALCIPPE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="amoureux">ALCIPPE</role>, amant de Céphise.</castItem>
+			<castItem><role id="ROGUESPINE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">ROGUESPINE</role>, son valet.</castItem>
+			<castItem><role id="GÉRONTE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GÉRONTE</role>, son père Bourgeois de Paris.</castItem>
+			<castItem><role id="CÉPHISE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="amoureux">CÉPHISE</role>, amante d'Alcippe.</castItem>
+			<castItem><role id="PAQUETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">PAQUETTE</role>, femme de Spadarille, Cocue Imaginaire.</castItem>
+			<castItem><role id="SPADARILLE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">SPADARILLE</role>, mari de Paquette, Bourgeois de Paris.</castItem>
+			<castItem><role id="LUCRESSE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LUCRESSE</role>, parente de Paquette.</castItem>
+			<castItem><role id="BÉATRIX" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">BÉATRIX</role>, suivante de Céphise.</castItem>
 			</castList>
 		<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La Scène est à Paris.</set>
 </front>
 <body>
-<div1 type="act" n='1'><head>ACTE I</head>
-<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE. Alcippe, Géronte, Roguespine.</head>
-<sp stage="entrance/anger/follow" who='ALCIPPE'><speaker>ALCIPPE, sortant en colère, et son père le suivant.</speaker>
+<div1 type="act" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alcippe, Géronte, Roguespine.
+</stage>
+<sp who="ALCIPPE"><speaker>ALCIPPE</speaker><stage type="entrance/anger/follow">, sortant en colère, et son père le suivant.
+	</stage>
 	<l id="1">Non, n'espérez jamais de m'y voir consentir. </l>
 </sp>
 <sp who="GÉRONTE"><speaker>GÉRONTE.</speaker>
@@ -161,7 +163,8 @@
 	<l id="64">Amour, faut-il, que l'or, te fasse ainsi la guerre ? </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Alcippe, Roguespine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alcippe, Roguespine.
+</stage>
 <sp who="ROGUESPINE"><speaker>ROGUESPINE.</speaker>
 	<l id="65">À quoi songez-vous donc Monsieur, de rebuter </l>
 	<l id="66">Ce que d'autres que vous prendraient sans hésiter. </l>
@@ -236,7 +239,8 @@
 	<l id="118">Mais il s'évanouit. Vite ? Quelqu'un ? À nous ? </l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Alcippe, Roguespine, Paquette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Alcippe, Roguespine, Paquette.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="119">Quel bruit viens-je d'entendre auprès de ma fenêtre ? </l>
 </sp>
@@ -247,7 +251,8 @@
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="122">Il faut le secourir si l'on peut promptement. </l>
 </sp>
-<sp stage="watch/location/hold" who='SPADARILLE'><speaker>SPADARILLE, regardant par sa fenêtre voit que sa femme soutient Alcippe.</speaker>
+<sp who="SPADARILLE"><speaker>SPADARILLE</speaker><stage type="watch/location/hold">, regardant par sa fenêtre voit que sa femme soutient Alcippe.
+	</stage>
 	<l id="123">Que vois-je, juste Ciel ! je crois que c'est ma femme, </l>
 	<l id="124">Qui tient dedans ses bras... elle mourra l'infâme </l>
 	<l id="125">Et je vais s'il se peut la prendre sur le fait. </l>
@@ -256,7 +261,8 @@
 	<l id="126">Hélas ! mon pauvre maître, ah ! bon Dieu, c'en est fait, </l>
 	<l id="127" part="i">Ciel ! </l>
 </sp>
-<sp stage="touch" who='PAQUETTE'><speaker>PAQUETTE, mettant la main sur la bouche d'Alcippe.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="touch">, mettant la main sur la bouche d'Alcippe.
+	</stage>
 	<l id="127" part="f">Il respire encore, et je sens son haleine. </l>
 </sp>
 <sp who="ROGUESPINE"><speaker>ROGUESPINE.</speaker>
@@ -269,8 +275,9 @@
 	<l id="130">Que son visage encore conserve de douceur. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV.</head>
-<sp stage="alone" who='SPADARILLE'><speaker>SPADARILLE, seul.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp who="SPADARILLE"><speaker>SPADARILLE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="131">Cette infidèle a fui, et sans oser m'attendre </l>
 	<l id="132">Jugeant bien qu'en ce lieu, je la viendrais surprendre. </l>
 	<l id="133">Avec le scélérat, le traître suborneur </l>
@@ -294,7 +301,8 @@
 	<l id="150">Ouvrons, c'est un portrait qui n'est pas sot ma foi. </l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. Paquette, Spadarille.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Paquette, Spadarille.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="151">Son mal n'était qu'amour qui troublait trop son âme ; </l>
 	<l id="152" part="i">Mais j'aperçois mon homme. </l>
@@ -303,15 +311,18 @@
 	<l id="152" part="f">Ô Dieux ! c'est d'une femme </l>
 	<l id="153">Dont je tiens la peinture. Ô Ciel ! qu'elle a d'appas ! </l>
 </sp>
-<sp stage="aparte/watch" who='PAQUETTE'><speaker>PAQUETTE, à part regardant par dessus son épaule.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="aparte/watch">, à part regardant par dessus son épaule.
+	</stage>
 	<l id="154">Il regarde un portrait, que dois-je croire hélas ? </l>
 </sp>
-<sp stage="continue" who='SPADARILLE'><speaker>SPADARILLE, poursuit.</speaker>
+<sp who="SPADARILLE"><speaker>SPADARILLE</speaker><stage type="continue">, poursuit.
+	</stage>
 	<l id="155">Certes cette beauté n'a rien qui ne m'attire, </l>
 	<l id="156">Déjà sans y penser je suis sous son empire. </l>
 	<l id="157">Ah ! si ma femme avait des charmes aussi doux... </l>
 </sp>
-<sp stage="get" who='PAQUETTE'><speaker>PAQUETTE, lui arrachant le portrait qu'il tient.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="get">, lui arrachant le portrait qu'il tient.
+	</stage>
 	<l id="158">Nous t'y surprenons traître, en parlant mal de nous, </l>
 	<l id="159">Pouvais-tu, dis-le moi, rencontrer une femme, </l>
 	<l id="160">Qui dût plus justement régner dessus ton âme ; </l>
@@ -319,10 +330,12 @@
 	<l id="162">Que j'ai plus de beautés que la mère d'amour ; </l>
 	<l id="163">En peux-tu bien douter après leur témoignage. </l>
 </sp>
-<sp stage="aparte" who='SPADARILLE'><speaker>SPADARILLE, à part.</speaker>
+<sp who="SPADARILLE"><speaker>SPADARILLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="164">Je devrais les voir seul, et c'est de quoi j'enrage. </l>
 </sp>
-<sp stage="continue" who='PAQUETTE'><speaker>PAQUETTE, continue.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="165">Et cependant encor tu parais peu content </l>
 	<l id="166">D'une femme si rare et qu'on estime tant ; </l>
 	<l id="167">Et qui peut se vanter enfin d'être si belle, </l>
@@ -376,7 +389,8 @@
 	<l id="196">Traître, et dès aujourd'hui malgré toi je l'aurai. </l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI. Céphise, Béatrix.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Céphise, Béatrix.
+</stage>
 <sp who="BÉATRIX"><speaker>BÉATRIX.</speaker>
 	<l id="197">Nous voici dans Paris, souvenez-vous Madame, </l>
 	<l id="198">Que vous devez enfin m'ouvrir toute votre âme, </l>
@@ -421,54 +435,64 @@
 	<l id="228">Vous verrez sur ce point vos désirs satisfaits. </l>
 </sp>
 </div2>
-<div2 type="scene" n='7'><head>SCÈNE VII.</head>
-<sp stage="alone" who='CÉPHISE'><speaker>CÉPHISE, seule.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="229">Je m'alarme peut-être avec trop d'imprudence ; </l>
 	<l id="230">L'affaire assurément n'en est pas où je pense : </l>
 	<l id="231">Alcippe m'a fait voir jusqu'au fond de son coeur, </l>
 	<l id="232">Et je ne puis penser qu'il ait manqué d'ardeur. </l>
 </sp>
 </div2>
-<div2 type="scene" n='8'><head>SCÈNE VIII. Paquette, Céphise.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Paquette, Céphise.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="233">Enfin de ce portrait je me puis voir maîtresse </l>
 	<l id="234">Et malgré lui j'ai su lui prendre par adresse. </l>
 <stage type="watch">En examinant le portrait de Céphise.</stage>
 	<l id="235">Je ne me souviens point d'avoir vu cet objet. </l>
 </sp>
-<sp stage="aparte" who='CÉPHISE'><speaker>CÉPHISE, à part.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="236">Mais qu'aperçois-je, ô Dieux ! Elle tient mon portrait. </l>
 </sp>
-<sp stage="continue/watch" who='PAQUETTE'><speaker>PAQUETTE, poursuit sans voir Céphise.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="continue/watch">, poursuit sans voir Céphise.
+	</stage>
 	<l id="237">Dorénavant hélas ! je vais faire abstinence </l>
 	<l id="238" part="i">Plus que je ne voudrais. </l>
 </sp>
-<sp stage="aparte" who='CÉPHISE'><speaker>CÉPHISE, à part.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="238" part="f">Je tremble quand j'y pense ; </l>
 	<l id="239">Et ce portrait ne peut se trouver dans ses mains, </l>
 	<l id="240">Sans qu'Alcippe ait souscrit à l'hymen que je crains. </l>
 </sp>
-<sp stage="continue" who='PAQUETTE'><speaker>PAQUETTE, continue.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="241">Faut-il que désormais ton mari te méprise ? </l>
 	<l id="242">Que pour d'autres objets son âme soit éprise ? </l>
 	<l id="243">Et qu'avec eux peut-être il se moque de toi, </l>
 	<l id="244">Sans se ressouvenir qu'il t'a donné sa foi. </l>
 	<l id="245" part="i">Encor si... </l>
 </sp>
-<sp stage="aparte" who='CÉPHISE'><speaker>CÉPHISE, à part.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="245" part="m">Me trompai-je ? </l>
 </sp>
-<sp stage="continue" who='PAQUETTE'><speaker>PAQUETTE, poursuit.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="continue">, poursuit.
+	</stage>
 	<l id="245" part="f">Encor si cet infâme </l>
 	<l id="246">Se contentait d'avoir une impudique flamme ; </l>
 	<l id="247">Et ne leur fourrait pas le meilleur du logis. </l>
 </sp>
-<sp stage="aparte" who='CÉPHISE'><speaker>CÉPHISE, à part.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="248">Je sens que malgré moi je tremble je rougis. </l>
 <stage type="watch">Regardant encor une fois par dessus l'épaule de Paquette.</stage>
 	<l id="249">C'est mon portrait sans doute et ma crainte redouble. </l>
 </sp>
-<sp stage="watch" who='PAQUETTE'><speaker>PAQUETTE, voyant qu'elle continue de regarder le portrait qu'elle tient.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="watch">, voyant qu'elle continue de regarder le portrait qu'elle tient.
+	</stage>
 	<l id="250" part="i">Vous êtes curieuse ? </l>
 </sp>
 <sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
@@ -482,7 +506,8 @@
 	<l id="252">De grâce, dites-moi, Madame, s'il se peut ? </l>
 	<l id="253" part="i">D'où vous vient ce portrait ? </l>
 </sp>
-<sp stage="aparte" who='PAQUETTE'><speaker>PAQUETTE, à part.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="aparte">, à part.
+</stage>
 <stage type="watch">Examinant le portrait qu'elle tient et Céphise;</stage>
 	<l id="253" part="f">D'où lui vient cette envie. </l>
 	<l id="254">Mais je n'en doute plus et j'en suis fort ravie, </l>
@@ -514,8 +539,9 @@
 	<l id="270" part="i">De ce pas ses parents. </l>
 </sp>
 </div2>
-<div2 type="scene" n='9'><head>SCÈNE IX.</head>
-<sp stage="alone" who='CÉPHISE'><speaker>CÉPHISE, seule.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="270" part="f">Que vient-elle de dire, </l>
 	<l id="271">Je n'aurais jamais cru qu'il dût manquer d'amour, </l>
 	<l id="272">Mais l'on m'avait bien dit las devant mon retour </l>
@@ -530,7 +556,8 @@
 	<l id="281">Font céder tout_à_coup mon coeur à la faiblesse. </l>
 </sp>
 </div2>
-<div2 type="scene" n='10'><head>SCÈNE X. Spadarille, Céphise.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Spadarille, Céphise.
+</stage>
 <sp who="SPADARILLE"><speaker>SPADARILLE.</speaker>
 	<l id="282">Mon infidèle enfin a surpris par adresse... </l>
 <stage type="run/faint/carry">Courant à Céphise qui s'évanouit. La soutenant.</stage>
@@ -548,7 +575,8 @@
 	<l id="287" part="i">Vous m'obligez beaucoup. </l>
 </sp>
 </div2>
-<div2 type="scene" n='11'><head>SCÈNE XI. Lucresse, Paquette.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Lucresse, Paquette.
+</stage>
 <sp who="LUCRESSE"><speaker>LUCRESSE.</speaker>
 	<l id="287" part="f">Ce n'est pas sans raison, </l>
 	<l id="288">Que là dessus votre âme a conçu du soupçon ; </l>
@@ -582,8 +610,9 @@
 	<l id="307">Et qu'il doit désormais vous aimer constamment. </l>
 </sp>
 </div2>
-<div2 type="scene" n='12'><head>SCÈNE XII.</head>
-<sp stage="alone" who='PAQUETTE'><speaker>PAQUETTE, seule.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="308">Voilà, voilà parler avecque jugement, </l>
 	<l id="309">Et si je pouvais voir l'effet de la promesse, </l>
 	<l id="310">On verrait pour jamais sur mon front l'allégresse. </l>
@@ -593,7 +622,8 @@
 	<l id="313">Mais je n'y puis songer et la douleur m'accable. </l>
 </sp>
 </div2>
-<div2 type="scene" n='13'><head>SCÈNE XIII. Spadarille, Céphise, Paquette.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Spadarille, Céphise, Paquette.
+</stage>
 <sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
 	<l id="314">Je dois être à jamais à vos soins redevable, </l>
 	<l id="315">Et je me souviendrai de vos civilités. </l>
@@ -606,12 +636,14 @@
 	<l id="318">Je veux vous dispenser de prendre cette peine. </l>
 </sp>
 </div2>
-<div2 type="scene" n='14'><head>SCÈNE XIV. Céphise, Paquette.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Céphise, Paquette.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="319">Elle me reconnaît, voyons, voyons un peu </l>
 	<l id="320">Ce qu'elle me dira pour déguiser son feu. </l>
 </sp>
-<sp stage="aparte" who='CÉPHISE'><speaker>CÉPHISE, à part.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="321">Mais ce fâcheux objet m'inquiète et me trouble. </l>
 	<l id="322">Fuyons, fuyons, de peur que mon mal ne redouble. </l>
 	<l id="323">Envions-lui pourtant un bonheur si parfait. </l>
@@ -619,7 +651,8 @@
 	<l id="324">Ô ! Heureuse d'avoir un mari si bien fait. </l>
 </sp>
 </div2>
-<div2 type="scene" n='15'><head>SCÈNE XV. Alcippe, Paquette.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Alcippe, Paquette.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="325">Il n'est pas de besoin de lui donner la gêne </l>
 	<l id="326">Pour confesser son crime, elle le dit sans peine. </l>
@@ -627,7 +660,8 @@
 	<l id="327">Allez, infâme, allez, c'est fort mal fait à vous </l>
 	<l id="328">Que de me débaucher lâchement mon époux. </l>
 </sp>
-<sp stage="location/away" who='ALCIPPE'><speaker>ALCIPPE, du bout du Théâtre voit s'en aller Céphise.</speaker>
+<sp who="ALCIPPE"><speaker>ALCIPPE</speaker><stage type="location/away">, du bout du Théâtre voit s'en aller Céphise.
+	</stage>
 	<l id="329">Oui, je la viens de voir, ma surprise est extrême, </l>
 	<l id="330">Je n'en puis plus douter, c'est Céphise elle-même, </l>
 	<l id="331">De ce retour secret je suis peu satisfait. </l>
@@ -638,7 +672,7 @@
 	<l id="334">Je l'eusse fait fourrer dans les Magdelonnettes </l>
 	<l id="335">Si j'eusse sur le champ pu trouver des témoins, </l>
 	<l id="336">Mais puisque j'en manquais, je devais tout du moins. </l>
-<stage type="closer/wait">Alcippe s'approche peu à peu d'elle et attend que son transport soit fini pour lui parler. </stage>>
+<stage type="closer/wait">Alcippe s'approche peu à peu d'elle et attend que son transport soit fini pour lui parler. </stage>&gt;
 	<l id="337">Arracher ses cheveux et pour saouler ma rage </l>
 	<l id="338">De la bonne façon souffleter son visage. </l>
 	<l id="339">Malheureuse, pourquoi ne l'as-tu donc pas fait, </l>
@@ -732,15 +766,17 @@
 	<l id="375">Et moi je ne veux pas faire une lâcheté, </l>
 	<l id="376">Et je l'aime malgré son infidélité. </l>
 </sp>
-<sp stage="listen" who='ALCIPPE'><speaker>ALCIPPE, sans l'écouter.</speaker>
+<sp who="ALCIPPE"><speaker>ALCIPPE</speaker><stage type="listen">, sans l'écouter.
+	</stage>
 	<l id="377">Oui mon coeur y consent, n'espère pas infâme, </l>
 	<l id="378">Qu'aucune ardeur pour toi jamais rentre en mon âme, </l>
 	<l id="379">Que j'adore jamais tes coupables appas, </l>
 	<l id="380">Mais je dois m'en venger et j'y cours de ce pas. </l>
 </sp>
 </div2>
-<div2 type="scene" n='16'><head>SCÈNE XVI.</head>
-<sp stage="alone" who='PAQUETTE'><speaker>PAQUETTE, seule.</speaker>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="381">L'on ne le peut nier, cet homme a l'âme bonne, </l>
 	<l id="382">Et plus je songe à lui, plus sa bonté m'étonne. </l>
 	<l id="383">Quoi, prendre ainsi le soin de courir me venger, </l>
@@ -806,7 +842,8 @@
 	<l id="442">J'aurai bien du plaisir et de l'argent de reste. </l>
 </sp>
 </div2>
-<div2 type="scene" n='17'><head>SCÈNE XVII. Géronte, Alcippe.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Géronte, Alcippe.
+</stage>
 <sp who="ALCIPPE"><speaker>ALCIPPE.</speaker>
 	<l id="443">Oui je veux obéir à vos commandements, </l>
 	<l id="444">Je veux dorénavant suivre vos sentiments </l>
@@ -852,7 +889,8 @@
 	<l id="472">La mère d'Hippolyte, et je retourne ici. </l>
 </sp>
 </div2>
-<div2 type="scene" n='18'><head>SCÈNE XVIII. Alcippe, Roguespine.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Alcippe, Roguespine.
+</stage>
 <sp who="ROGUESPINE"><speaker>ROGUESPINE.</speaker>
 	<l id="473">Monsieur, quoi qu'Hippolyte en effet soit fort belle, </l>
 	<l id="474">J'aurais gagé cent fois que vous seriez fidèle : </l>
@@ -880,13 +918,15 @@
 	<l id="486">Pour me faire souffrir elle est toujours aimable. </l>
 </sp>
 </div2>
-<div2 type="scene" n='19'><head>SCÈNE XIX. Alcippe, Rogeuespine, Céphise.</head>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Alcippe, Rogeuespine, Céphise.
+</stage>
 <sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
 	<l id="487">Puisque j'ai résolu de ne vous voir jamais, </l>
-	<l id='488'>Avant que d'en venir Scélérat aux effets, </l>
-	<l id='489'>Il faut du moins qu'ici par de justes reproches...</l>
+	<l id="488">Avant que d'en venir Scélérat aux effets, </l>
+	<l id="489">Il faut du moins qu'ici par de justes reproches...</l>
 </sp>
-<sp stage="pull" who='ROGUESPINE'><speaker>ROGUESPINE, en tirant son Maître.</speaker>
+<sp who="ROGUESPINE"><speaker>ROGUESPINE</speaker><stage type="pull">, en tirant son Maître.
+	</stage>
 	<l id="490">Hé ! Monsieur, s'il vous plaît, évitez ces approches, </l>
 	<l id="491">Vous savez ce que peut une femme en fureur. </l>
 </sp>
@@ -914,7 +954,8 @@
 	<l id="502" part="i">À faire la surprise. </l>
 </sp>
 </div2>
-<div2 type="scene" n='20'><head>SCÈNE XX. Alcippe, Céphise, Roguespine, Paquette.</head>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Alcippe, Céphise, Roguespine, Paquette.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="502" part="f">Oui dans peu son audace, </l>
 	<l id="503">Saura bien recevoir un juste châtiment, </l>
@@ -923,7 +964,8 @@
 	<l id="506">Sans tarder plus longtemps, me venger de l'infâme </l>
 	<l id="507">Qui m'ose lâchement débaucher mon époux. </l>
 </sp>
-<sp stage="show" who='ALCIPPE'><speaker>ALCIPPE, lui montrant Paquette.</speaker>
+<sp who="ALCIPPE"><speaker>ALCIPPE</speaker><stage type="show">, lui montrant Paquette.
+	</stage>
 	<l id="508">Ah ! Sans que je m'emporte et montre mon courroux, </l>
 	<l id="509">Tournez ici les yeux et vous pourrez apprendre... </l>
 </sp>
@@ -936,7 +978,8 @@
 <sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
 	<l id="511">Mais il doit t'obliger à rougir bien plutôt. </l>
 </sp>
-<sp stage="aparte" who='PAQUETTE'><speaker>PAQUETTE, à part.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="512">Je sens, je sens mon coeur animé comme il faut, </l>
 	<l id="513">Et prêt à seconder mon bras dans cette affaire. </l>
 	<l id="514">Sus donc, satisfaisons notre juste colère, </l>
@@ -959,13 +1002,15 @@
 <sp who="ALCIPPE"><speaker>ALCIPPE.</speaker>
 	<l id="521">Finissez un discours si rempli d'insolence. </l>
 </sp>
-<sp stage="aparte" who='PAQUETTE'><speaker>PAQUETTE, à part.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="522">Puisque cet homme encor veut prendre ta défense, </l>
 	<l id="523">Prends courage mon coeur, sois un peu généreux, </l>
 	<l id="524">Et lave dans son sang ses impudiques feux : </l>
 	<l id="525">Peut-être qu'il pourra seconder notre fuite. </l>
 </sp>
-<sp stage="walk/turn/kill" who="CÉPHISE"><speaker>CÉPHISE, faisant deux ou trois pas sans dessein, fait retourner Paquette qui s'approche pour la tuer. </speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="walk/turn/kill">, faisant deux ou trois pas sans dessein, fait retourner Paquette qui s'approche pour la tuer. 
+	</stage>
 	<l id="526">Puisque avecque raison un tel discours t'irrite, </l>
 	<l id="527">Bien loin de t'accuser de ton lâche forfait, </l>
 	<l id="528">Je dois louer un choix si rare et si parfait. </l>
@@ -979,7 +1024,8 @@
 <sp who="ALCIPPE"><speaker>ALCIPPE.</speaker>
 	<l id="531">Ce discours me déplaît, ne raillons point ici. </l>
 </sp>
-<sp stage="toward" who='PAQUETTE'><speaker>PAQUETTE, à Céphise.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Céphise.
+	</stage>
 	<l id="532">Il agit prudemment de me défendre ainsi, </l>
 	<l id="533">Et vous n'ignorez pas le tort que vous me faites. </l>
 </sp>
@@ -993,7 +1039,8 @@
 	<l id="535" part="f">De quoi m'accuse-t-on ? </l>
 </sp>
 </div2>
-<div2 type="scene" n='21'><head>SCÈNE XXI. Céphise, Paquette, Alcippe, Roguespine, Spadarille.</head>
+<div2 type="scene" n="21"><head>SCÈNE XXI.</head><stage> Céphise, Paquette, Alcippe, Roguespine, Spadarille.
+</stage>
 <sp who="SPADARILLE"><speaker>SPADARILLE.</speaker>
 	<l id="536">Je pourrais bien Madame avec quelque raison </l>
 	<l id="537">Vous faire voir ici ce que peut ma colère, </l>
@@ -1007,7 +1054,8 @@
 <sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
 	<l id="541" part="i">Que veut dire ceci ? </l>
 </sp>
-<sp stage="toward" who='PAQUETTE'><speaker>PAQUETTE, à Spadarille.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Spadarille.
+	</stage>
 	<l id="541" part="f">Tu ne viens infidèle </l>
 	<l id="542">Que de peur qu'on maltraite ici ta Demoiselle. </l>
 </sp>
@@ -1038,10 +1086,12 @@
 <sp who="ROGUESPINE"><speaker>ROGUESPINE.</speaker>
 	<l id="556">Nommez-nous donc encor cet objet glorieux ? </l>
 </sp>
-<sp stage="show" who='CÉPHISE'><speaker>CÉPHISE, montrant Paquette.</speaker>
+<sp who="CÉPHISE"><speaker>CÉPHISE</speaker><stage type="show">, montrant Paquette.
+	</stage>
 	<l id="557" part="i">Le voilà. </l>
 </sp>
-<sp stage="toward" who='ROGUESPINE'><speaker>ROGUESPINE, à Paquette.</speaker>
+<sp who="ROGUESPINE"><speaker>ROGUESPINE</speaker><stage type="toward">, à Paquette.
+	</stage>
 	<l id="557" part="f">Que me conte-t-on, moi </l>
 	<l id="558">J'ai dit qu'à mon mari j'avais donné ma foi, </l>
 	<l id="559" part="i">Et que j'étais sa femme. </l>
@@ -1091,7 +1141,8 @@
 	<l id="583" part="f">Tu sais que quoi que tu puisses faire, </l>
 	<l id="584">Je ne puis contre toi retenir ma colère. </l>
 </sp>
-<sp stage="toward" who='ALCIPPE'><speaker>ALCIPPE, à Céphise après avoir parlé bas ensemble.</speaker>
+<sp who="ALCIPPE"><speaker>ALCIPPE</speaker><stage type="toward">, à Céphise après avoir parlé bas ensemble.
+	</stage>
 	<l id="585">Oui, oui, jusqu'à ce point j'ai bien pu me trahir, </l>
 	<l id="586">Vous croyant sans honneur j'ai promis d'obéir. </l>
 	<l id="587" part="i">Mais mon père paraît. </l>
@@ -1101,7 +1152,8 @@
 	<l id="588">Tu mets pour tout jamais mon âme à la torture. </l>
 </sp>
 </div2>
-<div2 type="scene" n='22'><head>SCÈNE XXII. Céphise, Paquette, Alcippe, Roguespine, Spadarille, Géronte.</head>
+<div2 type="scene" n="22"><head>SCÈNE XXII.</head><stage> Céphise, Paquette, Alcippe, Roguespine, Spadarille, Géronte.
+</stage>
 <sp who="GÉRONTE"><speaker>GÉRONTE.</speaker>
 	<l id="589" part="i">Quoi, Céphise en ces lieux ? </l>
 </sp>

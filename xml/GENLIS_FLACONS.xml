@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,24 +28,25 @@
 			<titlePart type="main">LES FLACONS</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="LA FÉE" sex="2" type="F" statut="fée" age='A' stat_amour='néant'>LA FÉE</role>.</castItem>
-			<castItem><role id="MÉLINDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MÉLINDE</role>.</castItem>
-			<castItem><role id="CÉNIE" sex="2" type="H" statut="aristocrate" age='E' stat_amour='néant'>CÉNIE</role>.</castItem>
-			<castItem><role id="IPHISE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>IPHISE</role>.</castItem>
+			<castItem><role id="LA FÉE" sex="2" type="F" statut="fée" age="A" stat_amour="néant">LA FÉE</role>.</castItem>
+			<castItem><role id="MÉLINDE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MÉLINDE</role>.</castItem>
+			<castItem><role id="CÉNIE" sex="2" type="H" statut="aristocrate" age="E" stat_amour="néant">CÉNIE</role>.</castItem>
+			<castItem><role id="IPHISE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">IPHISE</role>.</castItem>
 		</castList>
-		<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)">La scène est dans le palais de la fée.</set>
+		<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La scène est dans le palais de la fée.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>LES FLACONS</head>
-<div2 type="scene" n="1"><head>SCÈNE I. La Fée, Mélinde.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> La Fée, Mélinde.
+</stage>
 <sp who="LA FÉE"><speaker>LA FÉE.</speaker>
 <p id="1">
 	<s id="1">Les enfants que vous m'avez confiés, chère Mélinde, m'ont fait éprouver bien des chagrins depuis trois mois !</s>
@@ -127,14 +128,16 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mélinde, Génie, Iphise. </head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mélinde, Génie, Iphise. 
+</stage>
 <stage type="hide">Ces deux dernières restent à la porte en se cachant le visage.</stage>
 <sp who="MÉLINDE"><speaker>MÉLINDE.</speaker>
 <p id="1">
 	<s id="1">Les pauvres petites n'osent approcher, elles craignent que leurs figures ne me fassent horreur.</s>
 </p>
 </sp>
-<sp stage="cry" who="CÉNIE"><speaker>CÉNIE, en pleurant.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="cry">, en pleurant.
+</stage>
 <p id="2">
 	<s id="1">Allons, ma soeur, il faut bien que notre mère nous voie.</s>
 </p>
@@ -149,7 +152,8 @@
 	<s id="1">Je n'ose...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLINDE"><speaker>MÉLINDE, à part.</speaker>
+<sp who="MÉLINDE"><speaker>MÉLINDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Feignons de ne les pas connaître.</s>
 </p>
@@ -183,14 +187,16 @@
 	<s id="1">Cruelle fée !...</s>
 </p>
 </sp>
-<sp who="MÉLINDE"><speaker>MÉLINDE, s'approchant de ses filles,</speaker>
+<sp who="MÉLINDE"><speaker>MÉLINDE</speaker><stage>, s'approchant de ses filles,
+</stage>
 <p id="12">
 	<s id="1">Qui êtes-vous ? </s>
 	<s id="2">Que voulez-vous ? </s>
 	<s id="3">Voilà deux étranges figures.</s>
 </p>
 </sp>
-<sp stage="toward" who="CÉNIE"><speaker>CÉNIE, à Iphise.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="toward">, à Iphise.
+</stage>
 <p id="13">
 	<s id="1">Voyez l'effroi que nous lui causons.</s>
 </p>
@@ -210,7 +216,8 @@
 	<s id="1">Mais de grâce, mesdemoiselles, dites-moi à qui vous en avez ?</s>
 </p>
 </sp>
-<sp stage="kneel" who="IPHISE, CÉNIE"><speaker>IPHISE et CÉNIE, se jetant à ses pieds.</speaker>
+<sp who="IPHISE, CÉNIE"><speaker>IPHISE et CÉNIE</speaker><stage type="kneel">, se jetant à ses pieds.
+</stage>
 <p id="17">
 	<s id="1">Ah ! </s>
 	<s id="2">Maman !...</s>
@@ -237,7 +244,8 @@
 	<s id="1">Maman, daignez nous reconnaître ; malgré notre hideux changement, nos coeurs sont toujours les mêmes.</s>
 </p>
 </sp>
-<sp stage="stand" who="MÉLINDE"><speaker>MÉLINDE, les relevant.</speaker>
+<sp who="MÉLINDE"><speaker>MÉLINDE</speaker><stage type="stand">, les relevant.
+</stage>
 <p id="22">
 	<s id="1">Il suffit. </s>
 	<s id="2">Je vous plains d'un malheur pourtant fort supportable, et croyez que je ne vous en aimerai pas moins.</s>
@@ -264,7 +272,8 @@
 	<s id="1">Maman, je suis Cénie.</s>
 </p>
 </sp>
-<sp stage="sigh" who="IPHISE"><speaker>IPHISE, en soupirant.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage type="sigh">, en soupirant.
+</stage>
 <p id="27">
 	<s id="1">Et moi, Iphise.</s>
 </p>
@@ -505,7 +514,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Fée, Mélinde, Cénie, Iphise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Fée, Mélinde, Cénie, Iphise.
+</stage>
 <sp who="MÉLINDE"><speaker>MÉLINDE.</speaker>
 <p id="1">
 	<s id="1">Venez, Madame, venez recevoir mes remerciements ; je suis enchantée de Cénie et d'Iphise ; c'est à vous qu'elles doivent toutes les qualités que j'ai reconnues en elles.</s>
@@ -628,14 +638,17 @@
 	<s id="2">Chère Iphise !...</s>
 </p>
 </sp>
-<sp who="LA FÉE"><speaker>LA FÉE, à Mélinde.</speaker>
+<sp who="LA FÉE"><speaker>LA FÉE</speaker><stage>, à Mélinde.
+</stage>
 <p id="23">
 	<s id="1">Venez, suivez-moi.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Cénie, Iphise.</head>
-<sp stage="silence" who="CÉNIE"><speaker>CÉNIE, après un moment de silence.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Cénie, Iphise.
+</stage>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="silence">, après un moment de silence.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, ma soeur !</s>
 </p>
@@ -702,7 +715,8 @@
 	<s id="2">Prenez garde, vous allez préférer le flacon couleur de rose.</s>
 </p>
 </sp>
-<sp stage="watch" who="IPHISE"><speaker>IPHISE, se regardant toujours.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage type="watch">, se regardant toujours.
+</stage>
 <p id="13">
 	<s id="1">Je n'ai jamais trouvé ma laideur si singulière, si repoussante... Certainement, Cénie, la vôtre est moins désagréable.</s>
 </p>
@@ -733,7 +747,8 @@
 	<s id="1">Je n'en crois rien.</s>
 </p>
 </sp>
-<sp stage="watch" who="IPHISE"><speaker>IPHISE, se regardant tonjours.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage type="watch">, se regardant tonjours.
+</stage>
 <p id="19">
 	<s id="1">Je suis sans comparaison plus rousse que vous.</s>
 </p>
@@ -748,7 +763,8 @@
 	<s id="1">Mais regardez nos deux figures dans ce miroir ; vous en conviendrez.</s>
 </p>
 </sp>
-<sp stage="lean/watch" who="CÉNIE"><speaker>CÉNIE, se penche et se regarde.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="lean/watch">, se penche et se regarde.
+</stage>
 <p id="22">
 	<s id="1">Il n'y a pas à en douter, je suis mille fois plus affreuse que vous.</s>
 </p>
@@ -809,7 +825,8 @@
 	<s id="1">Donnez...</s>
 </p>
 </sp>
-<sp who="IPHISE"><speaker>IPHISE débouche le sien.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage> débouche le sien.
+</stage>
 <stage type="dream">Cénie devient rêveuse.</stage>
 <p id="34">
 	<s id="1">Cénie, qui vous arrête ?</s>
@@ -836,7 +853,8 @@
 	<s id="1">Vous ne savez pas prendre un parti ; allons, je vais vous donner l'exemple.</s>
 </p>
 </sp>
-<sp stage="steal" who="CÉNIE"><speaker>CÉNIE, lui arrachant le flacon.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="steal">, lui arrachant le flacon.
+</stage>
 <p id="39">
 	<s id="1">Non, chère Iphise, vous devez le recevoir de moi, je suis la plus âgée.</s>
 </p>
@@ -883,23 +901,27 @@
 	<s id="1">Maman et la fée désirent notre bonheur.</s>
 </p>
 </sp>
-<sp stage="get" who="IPHISE"><speaker>IPHISE, prenant les flacons.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage type="get">, prenant les flacons.
+</stage>
 <p id="48">
 	<s id="1">Sacrifions-nous pour elles ; tenez, chère Cénie.</s>
 </p>
 </sp>
-<sp stage="get" who="CÉNIE"><speaker>CÉNIE, prenant le flacon.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="get">, prenant le flacon.
+</stage>
 <p id="49">
 	<s id="1">Je n'hésiterai pas pour celui-ci.</s>
 </p>
 <stage type="drink">Elles boivent toutes les deux.</stage>
 </sp>
-<sp who="IPHISE"><speaker>IPHISE, après avoir bu.</speaker>
+<sp who="IPHISE"><speaker>IPHISE</speaker><stage>, après avoir bu.
+</stage>
 <p id="50">
 	<s id="1">Me voilà donc accomplie !...</s>
 </p>
 </sp>
-<sp stage="watch" who="CÉNIE"><speaker>CÉNIE, regardant sa soeur.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="watch">, regardant sa soeur.
+</stage>
 <p id="51">
 	<s id="1">Que vois-je !...</s>
 </p>
@@ -919,13 +941,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Fée, Mélinde, Cénie, Iphise.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Fée, Mélinde, Cénie, Iphise.
+</stage>
 <sp who="LA FÉE"><speaker>LA FÉE.</speaker>
 <p id="1">
 	<s id="1">rassurez-vous, mes chères enfants, et embrassez-nous.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MÉLINDE"><speaker>MÉLINDE, les embrassant.</speaker>
+<sp who="MÉLINDE"><speaker>MÉLINDE</speaker><stage type="kiss">, les embrassant.
+</stage>
 <p id="2">
 	<s id="1">Iphise !... </s>
 	<s id="2">Cénie !... </s>
@@ -956,7 +980,8 @@
 	<s id="1">En choisissant le flacon blanc, c'était presque prouver que vous n'en aviez pas besoin.</s>
 </p>
 </sp>
-<sp stage="toward" who="CÉNIE"><speaker>CÉNIE, à Mélinde et à la fée.</speaker>
+<sp who="CÉNIE"><speaker>CÉNIE</speaker><stage type="toward">, à Mélinde et à la fée.
+</stage>
 <p id="7">
 	<s id="1">Enfin vous êtes contentes, ainsi nous devons l'être.</s>
 </p>

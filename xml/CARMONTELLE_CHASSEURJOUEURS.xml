@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,28 +29,29 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">VINGT TROISIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1822'>1822.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1822">1822.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='DELONCHAMPS'>À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
+			<printer id="DELONCHAMPS">À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
 		</docImprint>
 	<performance>
-			<premiere date="(inconnue)" location="Paris"></premiere>
+			<premiere date="(inconnue)" location="Paris"/>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="DURAND" sex="1" type="H" statut='chasseur' age='A' stat_amour='(néant)'>DURAND</role>, chasseur.</castItem>
-		<castItem><role id="CLERAC" sex="1" type="H" statut='officier' age='A' stat_amour='(néant)'>CLERAC</role>, offcier d'infanterie, joueur.</castItem>
-		<castItem><role id="SAINT-ROMAIN" sex="1" type="H" statut='officier' age='A' stat_amour='(néant)'>SAINT-ROMAIN</role>, officier d'infanterie, joueurs.</castItem>
-		<castItem><role id="LA RENTRÉE" sex="1" type="H" statut='garde-chasse' age='A' stat_amour='(néant)'>LA RENTRÉE</role>, garde-chasse.</castItem>
+		<castItem><role id="DURAND" sex="1" type="H" statut="chasseur" age="A" stat_amour="(néant)">DURAND</role>, chasseur.</castItem>
+		<castItem><role id="CLERAC" sex="1" type="H" statut="officier" age="A" stat_amour="(néant)">CLERAC</role>, offcier d'infanterie, joueur.</castItem>
+		<castItem><role id="SAINT-ROMAIN" sex="1" type="H" statut="officier" age="A" stat_amour="(néant)">SAINT-ROMAIN</role>, officier d'infanterie, joueurs.</castItem>
+		<castItem><role id="LA RENTRÉE" sex="1" type="H" statut="garde-chasse" age="A" stat_amour="(néant)">LA RENTRÉE</role>, garde-chasse.</castItem>
    </castList>
-	<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est dans un bois taillis, proche d'une ville de guerre.
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans un bois taillis, proche d'une ville de guerre.
 </set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE précédé de la vie de Carmontelle (...), chez DELONGCHAMPS libraire, Tome Premier, 1822. pp. 309-315</note>
 </front>
 <body>
-<div1 type="act" n='1'><head>LE CHASSEUR ET LES JOUEURS</head>
+<div1 type="act" n="1"><head>LE CHASSEUR ET LES JOUEURS</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/walk/toward" who="DURAND"><speaker>DURAND marchant tout doucement, le fusil prêt à tirer, parlant à son chien qui chasse dans le taillis.</speaker> 
+<sp who="DURAND"><speaker>DURAND</speaker><stage type="alone/walk/toward"> marchant tout doucement, le fusil prêt à tirer, parlant à son chien qui chasse dans le taillis. 
+</stage> 
 <p id="1">
 	<s id="1">Eh, Patineau, tout beau. </s>
 	<s id="2">- Attends-moi. </s>
@@ -75,7 +76,8 @@
 <stage type="exit">Il s'en va.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Clerac, Saint-Romain.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Clerac, Saint-Romain.
+</stage>
 <sp who="CLERAC"><speaker>CLERAC.</speaker>
 <p id="1">
 	<s id="1">Saint-Romain, tu te moques quand tu prétends que je t'ai gagné hier soixante et treize louis. </s>
@@ -209,7 +211,8 @@
 </p>
 <stage type="cut">Il coupe.</stage>
 </sp>
-<sp stage="play" who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, donnant.</speaker>
+<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN</speaker><stage type="play">, donnant.
+</stage>
 <p id="24">
 	<s id="1">Dix-neuf, figure, sept. </s>
 	<s id="2">Trente-six, c'est beau jeu.</s>
@@ -250,7 +253,8 @@
 </p>	
 <stage type="play">Il coupe.</stage>
 </sp>
-<sp stage="play" who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, donne.</speaker>
+<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN</speaker><stage type="play">, donne.
+</stage>
 <p id="31">
 	<s id="1">Trente-trois, trente-deux.</s>
 </p>
@@ -305,7 +309,8 @@
 <stage type="play">Il mêle.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Clerac, Saint-Romain, Durand.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Clerac, Saint-Romain, Durand.
+</stage>
 <sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN.</speaker>
 <p id="1">
 	<s id="1">On approche.</s>
@@ -317,7 +322,8 @@
 </p>
 <stage type="play">Ils continuent de jouer sans rien dire.</stage>
 </sp>
-<sp stage="threat" who="DURAND"><speaker>DURAND, le fusil prêt à tirer.</speaker>
+<sp who="DURAND"><speaker>DURAND</speaker><stage type="threat">, le fusil prêt à tirer.
+</stage>
 <p id="3">
 	<s id="1">Patineau, derrière. </s>
 	<s id="2">- Il vient sûrement par ici. </s>
@@ -337,7 +343,8 @@
 	<s id="1">As-tu été touché ?</s>
 </p>
 </sp>
-<sp stage="fall" who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, tombant.</speaker>
+<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN</speaker><stage type="fall">, tombant.
+</stage>
 <p id="6">
 	<s id="">Oui, au bras.</s>
 </p>
@@ -350,8 +357,10 @@
 <stage type="exit">Il s'en va.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clérac, Saint-Romain, La Rentrée.</head>
-<sp stage="run" who="LA RENTRÉE"><speaker>LA RENTRÉE, accourant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clérac, Saint-Romain, La Rentrée.
+</stage>
+<sp who="LA RENTRÉE"><speaker>LA RENTRÉE</speaker><stage type="run">, accourant.
+</stage>
 <p id="1">
 	<s id="1">Qui est-ce qui a tiré ici ?</s>
 </p>
@@ -409,7 +418,8 @@
 </p>
 <stage type="help">Ils aident Saint-Romain.</stage>
 </sp>
-<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, à la Rentrée.</speaker>
+<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN</speaker><stage>, à la Rentrée.
+</stage>
 <p id="12">
 	<s id="">Ne dites pas que vous nous avez trouvés ici à jouer.</s>
 </p>

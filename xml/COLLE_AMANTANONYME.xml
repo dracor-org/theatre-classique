@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>prose</type>
 				<periode>1781-1790</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,23 +30,23 @@
    	 <titlePart part="sub">COMÉDIE EN CINQ ACTES</titlePart> 
 	</docTitle>
    <docDate value="1781">M. DCC. LXXXI. Avec Approbation et Privilège du Roi.</docDate>
-   <docAuthor id='COLLE, Charles'>Par Charles Collé.</docAuthor>
+   <docAuthor id="COLLE, Charles">Par Charles Collé.</docAuthor>
 	<docImprint>
 		<printer id="LAMBERT, BAUDOUIN">À Paris, Chez M. LAMBERT et F. J. BAUDOUIN, Imprimeurs- Libraires, rue de la Harpe,  près Saint-Côme. </printer>
 	</docImprint>
 	<performance>
-		<premiere date="1737" location='chez la Marquise de Mauconseil'>Représenté pour le première fois en 1737 en société à Bagatelle chez la Marquise de Mauconseil.</premiere>
+		<premiere date="1737" location="chez la Marquise de Mauconseil">Représenté pour le première fois en 1737 en société à Bagatelle chez la Marquise de Mauconseil.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LÉONTINE" sex="2" type="H" statut="" age="J" stat_amour=''>LÉONTINE</role>, jeune Veuve.</castItem>
-		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="" age="J" stat_amour=''>DOROTHÉE</role>, amie de Léontine. </castItem>
-		<castItem><role id="LE VICOMTE DE CLEMENGIS" sex="1" type="H" statut="vicomte" age="A" stat_amour=''>LE VICOMTE DE CLEMENGIS</role>.</castItem>
-		<castItem><role id="ROSALIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>ROSALIE</role>, Femme de Chambre de Léontine.</castItem> 
-		<castItem><role id="PICARD" sex="1" type="H" statut="valet" age="A" stat_amour=''>PICARD</role>, Valet du Vicomte. </castItem>
-		<castItem><role id="OPHÉMON" sex="1" type="H" statut="savant" age="V" stat_amour=''>OPHÉMON</role>, vieux savant, attaché à Léontine.</castItem> 
-		<castItem><role id="JEANNETTE" sex="2" type="H" statut="paysan" age="J" stat_amour=''>JEANNETTE</role>, jeune Villageoise. </castItem>
-		<castItem><role id="COLIN" sex="1" type="H" statut="paysan" age="J" stat_amour=''>COLIN</role>, jeune Villageois, Amant de Jeannette.</castItem> 
-		<castItem><role id="UN NOTAIRE" sex="1" type="H" statut="notaire" age="A" stat_amour=''>UN NOTAIRE</role>.</castItem>
+		<castItem><role id="LÉONTINE" sex="2" type="H" statut="" age="J" stat_amour="">LÉONTINE</role>, jeune Veuve.</castItem>
+		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="" age="J" stat_amour="">DOROTHÉE</role>, amie de Léontine. </castItem>
+		<castItem><role id="LE VICOMTE DE CLEMENGIS" sex="1" type="H" statut="vicomte" age="A" stat_amour="">LE VICOMTE DE CLEMENGIS</role>.</castItem>
+		<castItem><role id="ROSALIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="">ROSALIE</role>, Femme de Chambre de Léontine.</castItem> 
+		<castItem><role id="PICARD" sex="1" type="H" statut="valet" age="A" stat_amour="">PICARD</role>, Valet du Vicomte. </castItem>
+		<castItem><role id="OPHÉMON" sex="1" type="H" statut="savant" age="V" stat_amour="">OPHÉMON</role>, vieux savant, attaché à Léontine.</castItem> 
+		<castItem><role id="JEANNETTE" sex="2" type="H" statut="paysan" age="J" stat_amour="">JEANNETTE</role>, jeune Villageoise. </castItem>
+		<castItem><role id="COLIN" sex="1" type="H" statut="paysan" age="J" stat_amour="">COLIN</role>, jeune Villageois, Amant de Jeannette.</castItem> 
+		<castItem><role id="UN NOTAIRE" sex="1" type="H" statut="notaire" age="A" stat_amour="">UN NOTAIRE</role>.</castItem>
 	</castList>
 	<set location="Province" country="France" periode="XVIIIème" gps="">La Scène est dans une Terre de Léontine, à soixante lieues de Paris.</set>
 	<note>Extrait de "THÉÂTRE DE SOCIÉTÉ ; Par l'Auteur du Théâtre à l'usage des jeunes Personnes, par Madame la Comtesse Stéphanie Félicité de Genlis". Paris, Lambert-Baudouin, 1781. Nouvelle édition de 1811.</note>
@@ -55,7 +55,8 @@
 <div1 type="acte" n="1"><head>ACTE I</head>
 <stage type="decor">Le Théâtre représente un Salon.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="OPHÉMON"><speaker>OPHÉMON, seul.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="alone">, seul.
+</stage>
 <stage type="watch">Il regarde de tous côtés s'il n'y a personne. Il s'assied ; et tirant une lettre de sa poche, il dit.</stage> 
 <p id="1">
 	<s id="1">Il est cinq heures. </s>
@@ -74,7 +75,8 @@
 	<s id="6">Souvenez-vous à quelle condition je vous ai placé chez Léontine ».</s>
 </p>
 </sp>
-<sp stage="read" who="OPHÉMON"><speaker>OPHÉMON, après l'avoir lu.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="read">, après l'avoir lu.
+</stage>
 <p id="3">
 	<s id="1">Il arrive Jeudi... </s>
 	<s id="2">Jeudi, c'est aujourd'hui. </s>
@@ -93,7 +95,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Rosalie, Ophémon</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Rosalie, Ophémon
+</stage>
 <sp who="ROSALIE"><speaker>ROSALIE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -159,7 +162,8 @@
 	<s id="6">Dites donc comment vous l'appeliez ?</s>
 </p>
 </sp>
-<sp stagee="laugh" who="OPHÉMON"><speaker>OPHÉMON, riant.</speaker>
+<sp stagee="laugh" who="OPHÉMON"><speaker>OPHÉMON</speaker><stage>, riant.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Notre Sylphe.</s>
@@ -196,7 +200,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ROSALIE"><speaker>ROSALIE, seule.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">C'est un bon homme pour un Savant, que ce Monsieur Ophémon. </s>
 	<s id="2">Il parle come un autre ; il a un sang froid, une certaine gravité tout à fait drôle. </s>
@@ -208,7 +213,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Rosalie, Picard.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Rosalie, Picard.
+</stage>
 <sp who="PICARD"><speaker>PICARD.</speaker>
 <p id="1">
 	<s id="1">Enfin, je te retrouve. </s>
@@ -431,7 +437,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Rosalie, Picard Léontine, Dorothée.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Rosalie, Picard Léontine, Dorothée.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Rosalie, l'habit de Jeannette est-il fait ? </s>
@@ -455,7 +462,8 @@
 	<s id="2">Elle est transportée ; il faut que ce soit une jolie chose que le mariage !</s>
 </p>
 </sp>
-<sp stage="toward" who="LÉONTINE"><speaker>LÉONTINE, à Picard.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="toward">, à Picard.
+</stage>
 <p id="5">
 	<s id="1">Mais votre Maître n'arrive point ?</s>
 </p>
@@ -472,7 +480,8 @@
 <stage type="exit">Rosalie et Picard sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Léontine, Dorothée.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Léontine, Dorothée.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Cette noce me fait plaisir. </s>
@@ -663,7 +672,8 @@
 	<s id="1">Il serait fort à plaindre. </s>
 </p>
 </sp>
-<sp stage="entrance" who="ROSALIE"><speaker>ROSALIE, survenant. </speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="entrance">, survenant. 
+</stage>
 <p id="28">
 	<s id="1">Madame, je viens de voir une voiture sur le grand chemin ; c'est sûrement Monsieur le Vicomte : mais il est encore loin.</s>
 </p>
@@ -678,7 +688,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Vicomte, Ophémon.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Vicomte, Ophémon.
+</stage>
 <sp who="LE VICOMTE"><speaker>LE VICOMTE.</speaker>
 <p id="1">
 	<s id="1">Comment, Léontine n'est pas ici.</s>
@@ -796,7 +807,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LE VICOMTE"><speaker>LE VICOMTE, seul.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="2">Ah ! </s>
 	<s id="3">Je dois être rassuré sur les soupçons qu'elle peut concevoir. </s>
@@ -810,7 +822,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Léontine, Le Vicomte.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Léontine, Le Vicomte.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">À la fin je vous trouve. </s>
@@ -899,7 +912,8 @@
 	<s id="4">Ce qu'elles appellent de la galanterie, des vers, des fêtes, toutes ces petites choses leur tournent la tête.</s>
 </p>
 </sp>
-<sp stage="nervous" who="LÉONTINE"><speaker>LÉONTINE, avec humeur.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="16">
 	<s id="">Voilà une amère critique ; vous ne nous voyez pas en beau.</s>
 </p>
@@ -922,7 +936,8 @@
 	<s id="3">Que signifie toute cette conduite ?</s>
 </p>
 </sp>
-<sp stage="quick" who="LÉONTINE"><speaker>LÉONTINE, vivement.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="20">
 	<s id="1">Eh, mon_Dieu ! </s>
 	<s id="2">La crainte inséparable de l'amour, comme il le dit lui-même ; en se nommant, il sait trop tôt tout ce qu'il perdrait ; il ne pourrait plus ni m'écrire, ni me rendre des soins que je ne souffrirais pas.</s>
@@ -990,8 +1005,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léontine, Le Vicomte, Rosalie.</head>
-<sp stage="run/hurry/carry" who="ROSALIE"><speaker>ROSALIE, accourant avec précipitation, et tenant une corbeille ornée de fleurs, dans laquelle est un bouquet.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léontine, Le Vicomte, Rosalie.
+</stage>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="run/hurry/carry">, accourant avec précipitation, et tenant une corbeille ornée de fleurs, dans laquelle est un bouquet.
+</stage>
 <p id="1">
 	<s id="1">Ah, Madame !</s>
 </p>
@@ -1009,7 +1026,8 @@
 	<s id="4">Tenez, cette lettre vous en instruira mieux.</s>
 </p>	
 </sp>
-<sp who="LÉONTINE"><speaker>LÉONTINE, prenant la lettre avec beaucoup d'émotion.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage>, prenant la lettre avec beaucoup d'émotion.
+</stage>
 <p id="4">
 	<s id="1">Cette écriture est la même... </s>
 	<s id="2">Oui, c'est de lui, sans doute.</s>
@@ -1024,13 +1042,15 @@
 	<s id="4">Je ne me sens pas de joie.</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="LE VICOMTE"><speaker>LE VICOMTE, à part, considérant Léontine.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte/watch">, à part, considérant Léontine.
+</stage>
 <p id="6">
 	<s id="1">Elle tremble...Elle rougit... </s>
 	<s id="2">Quel rayon d'espoir vient séduire mon coeur.</s>
 </p>
 </sp>
-<sp stage="read" who="LÉONTINE"><speaker>LÉONTINE, après avoir lu.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="read">, après avoir lu.
+</stage>
 <p id="7">
 	<s id="1">Laissez-nous, Rosalie.</s>
 </p>
@@ -1045,15 +1065,18 @@
 	<s id="1">Laissez-nous vous dis-je.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE porte la corbeille et le bouquet sur une table, et dit en fuyant.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage> porte la corbeille et le bouquet sur une table, et dit en fuyant.
+</stage>
 <p id="10">
 	<s id="1">Ma foi, si j'étais à votre place, il n'aurait pas fait tant de chemin  inutilement.</s>
 </p> 
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Léontine, Le Vicomte.</head>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, après un moment de silence.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Léontine, Le Vicomte.
+</stage>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage>, après un moment de silence.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, Madame, il est donc ici ?</s>
 </p>
@@ -1064,7 +1087,8 @@
 	<s id="2">Tenez, lisez la lettre.</s>
 </p>
 </sp>
-<sp stage="read" who="LE VICOMTE"><speaker>LE VICOMTE, prenant la lettre.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="read">, prenant la lettre.
+</stage>
 <p id="3">
 	<s id="1">Voyons un peu son style.</s>
 </p>
@@ -1076,7 +1100,8 @@
 	<s id="4">La seule chose que je désire, c'est d'apprendre enfin si cet hommage si pur ne s'est pas attiré votre colère, et peut-être votre haine.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="LE VICOMTE"><speaker>LE VICOMTE, s'interrompant.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="interrupt">, s'interrompant.
+</stage>
 <p id="5">
 	<s id="1">Et il appelle cela ne rien désirer, ne rien exiger de nouveau !</s>
 </p>
@@ -1087,7 +1112,8 @@
 	<s id="2">Voyez la suite.</s>
 </p>
 </sp>
-<sp stage="read" who="LE VICOMTE"><speaker>LE VICOMTE, lit.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="read">, lit.
+</stage>
 <p id="7">
 	<s id="1">« Et peut être votre haine. </s>
 	<s id="2">Il est un moyen de m'en instruire. </s>
@@ -1112,7 +1138,8 @@
 	<s id="1">Assurément ; cette lettre serait embarrassante pour toute autre que vous.</s>
 </p>	
 </sp>
-<sp stage="quick" who="LÉONTINE"><speaker>LÉONTINE, très vivement.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="quick">, très vivement.
+</stage>
 <p id="11">
 	<s id="1">Pour toute autre que moi. </s>
 	<s id="2">Mais, de grâce, Monsieur, ne me séparez point ainsi des autres femmes ; ne pouvez-vous me louer qu'à leurs dépens ?</s>
@@ -1212,12 +1239,14 @@
 	<s id="1">Ne parlez point de l'amour ; en vérité, vous n'y entendez rien.</s>
 </p>
 </sp>
-<sp stage="quiet" who="LE VICOMTE"><speaker>LE VICOMTE, avec un calme affecté.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="quiet">, avec un calme affecté.
+</stage>
 <p id="29">
 	<s id="1">Et je dois à cette ignorance tout le bonheur de ma vie.</s>
 </p>
 </sp>
-<sp stage="dream" who="LÉONTINE"><speaker>LÉONTINE, avec distraction.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="dream">, avec distraction.
+</stage>
 <p id="30">
 	<s id="1">Sera-t-il déguisé ? </s>
 	<s id="2">Paraîtra-t-il ?...</s>
@@ -1228,7 +1257,8 @@
 	<s id="1">De qui parlez-vous donc ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LÉONTINE"><speaker>LÉONTINE, avec embarras.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="32">
 	<s id="1">Je pensais à ce que vous disiez tout-à l'heure, qu'il me verrait à la noce... </s>
 	<s id="2">Je suis curieuse de savoir comment. </s>
@@ -1317,7 +1347,8 @@
 	<s id="2">Dans ce cas, il serait tentant d'être impolie une heure, pour s'en débarrasser ensuite pour toujours.</s>
 </p>	
 </sp>
-<sp stage="embarrassed" who="LÉONTINE"><speaker>LÉONTINE, embarrassée.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="embarrassed">, embarrassée.
+</stage>
 <p id="48">
 	<s id="1">Sûrement... </s>
 	<s id="2">Je suis de cet avis. </s>
@@ -1325,7 +1356,8 @@
 	<s id="4">Au reste, je la relierai, et je verrai.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE VICOMTE"><speaker>LE VICOMTE, à part.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="49">
 	<s id="1">Quel air triste et rêveur !</s>
 </p>
@@ -1356,7 +1388,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="LÉONTINE"><speaker>LÉONTINE, seule.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="alone">, seule.
+</stage>
 <stage type="sit/drop">Elle s'assied à côté de la table sur laquelle est posée la corbeille.</stage>
 <p id="1">
 	<s id="1">Son humeur austère et farouche me déplaît aujourd'hui plus que jamais. </s>
@@ -1386,7 +1419,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Léontine, Dorothée.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Léontine, Dorothée.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Venez, ma chère amie ; j'ai bien des choses à vous apprendre.</s>
@@ -1411,7 +1445,8 @@
 	<s id="3">Guidez-moi là-dessus.</s>
 </p>
 </sp>
-<sp stage="read" who="DOROTHÉE"><speaker>DOROTHÉE, après l'avoir lu.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="read">, après l'avoir lu.
+</stage>
 <p id="5">
 	<s id="1">Comment pouvez-vous balancer, quand il dit lui-même qu'il ne prendra cette faveur que pour un témoignage d'indifférence ? </s>
 	<s id="2">Que risquez-vous à l'accorder sous cette condition ? </s>
@@ -1473,7 +1508,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Léontine, Dorothée, Rosalie.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Léontine, Dorothée, Rosalie.
+</stage>
 <sp who="ROSALIE"><speaker>ROSALIE.</speaker>
 <p id="1">
 	<s id="1">Madame, voilà le Notaire, et Jeannette et Colin.</s>
@@ -1491,12 +1527,14 @@
 	<s id="2">Je voudrais bien qu'aujourd'hui tout le monde fût content.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LÉONTINE"><speaker>LÉONTINE, en riant.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="laugh">, en riant.
+</stage>
 <p id="4">
 	<s id="1">Pour vous satisfaire, je m'en occuperai.</s>
 </p>
 </sp>
-<sp stage="back/touch" who="ROSALIE"><speaker>ROSALIE revient, tenant d'une main Jeannette, et de l'autre Colin.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="back/touch"> revient, tenant d'une main Jeannette, et de l'autre Colin.
+</stage>
 <p id="5">
 	<s id="1">Le Notaire les suit.</s>
 </p>
@@ -1507,7 +1545,8 @@
 	<s id="2">Eh bien, Jeannette, êtes-vous contente ?</s>
 </p>
 </sp>
-<sp stage="wave" who="JEANNETTE"><speaker>JEANNETTE, faisant la révérence.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Oui, Madame.</s>
@@ -1524,7 +1563,8 @@
 	<s id="2">Je danserons ce soir de bon coeur.</s>
 </p>
 </sp>
-<sp stage="toward" who="LÉONTINE"><speaker>LÉONTINE, à Colin.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="toward">, à Colin.
+</stage>
 <p id="10">
 	<s id="1">À minuit Jeannette sera à vous pour la vie. </s>
 	<s id="2">Quel âge a-t-elle ?</s>
@@ -1535,7 +1575,8 @@
 	<s id="1">Dix-sept ans, Madame, et lui dix-huit ce mois-ci.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Cet âge, leur amour, leur mariage, tout me rappelle... </s>
 	<s id="2">Ah, Dieu ! </s>
@@ -1606,13 +1647,15 @@
 	<s id="2">Qu'il approche.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE, au Notaire.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage>, au Notaire.
+</stage>
 <p id="25">
 	<s id="1">Avancez donc.</s>
 </p>
 <stage type="show/sign">Le Notaire présente le contrat à Léontine. Elle le signe.</stage>
 </sp>
-<sp stage="toward" who="COLIN"><speaker>COLIN, à Jeannette.</speaker>
+<sp who="COLIN"><speaker>COLIN</speaker><stage type="toward">, à Jeannette.
+</stage>
 <p id="26">
 	<s id="1">Vois-tu ce qu'elle fait-là, Jeannette ? </s>
 	<s id="2">C'est not'mariage. </s>
@@ -1620,7 +1663,8 @@
 	<s id="4">Queu plaisir j'aurais à déchiffrer c'te chère écriture-là !</s>
 </p>	
 </sp>
-<sp who="DOROTHÉE"><speaker>DOROTHÉE, à Léontine.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage>, à Léontine.
+</stage>
 <p id="27">
 	<s id="1">Eh bien, vous l'entendez ; c'est pourtant Colin qui parle. </s>
 	<s id="2">Cela vaut, pour le moins, la réponse de Jeannette.</s>
@@ -1634,7 +1678,8 @@
 <stage type="closer">Rosalie les emmène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Léontine, Dorothée.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Léontine, Dorothée.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Leur ingénuité me charme. </s>
@@ -1712,7 +1757,8 @@
 	<s id="1">Concevez-vous cela ?</s>
 </p>	
 </sp>
-<sp stage="closer/hurry" who="ROSALIE"><speaker>ROSALIE, accourant précipitamment.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="closer/hurry">, accourant précipitamment.
+</stage>
 <p id="11">
 	<s id="1">Eh, Madame ! </s>
 	<s id="2">Venez, venez voir... </s>
@@ -1748,7 +1794,8 @@
 	<s id="1">Je ne sais où j'en suis.</s>
 </p>
 </sp>
-<sp stage="stop/get" who="DOROTHÉE"><speaker>DOROTHÉE, s'arrêtant, et prenant le bouquet.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="stop/get">, s'arrêtant, et prenant le bouquet.
+</stage>
 <p id="17">
 	<s id="1">Eh ! </s>
 	<s id="2">Le bouquet ?</s>
@@ -1759,7 +1806,8 @@
 	<s id="1">Non, laissez-le, ma chère Dorothée.</s>
 </p>	
 </sp>
-<sp stage="get" who="DOROTHÉE"><speaker>DOROTHÉE, emportant le bouquet, et prenant Léontine sous le bras.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="get">, emportant le bouquet, et prenant Léontine sous le bras.
+</stage>
 <p id="19">
 	<s id="1">Venez, venez ; que de façons !</s>
 </p>
@@ -1774,7 +1822,8 @@
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <stage type="decor">Le Théâtre change, et représente un bocage spacieux, illuminé et orné de guirlandes de roses, avec les chiffres de Léontine. Au milieu du bocage, on voit un siège de gazon, préparé pour Léontine.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE I. Jeannette, Colin.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Jeannette, Colin.
+</stage>
 <sp who="JEANNETTE"><speaker>JEANNETTE.</speaker>
 <p id="1">
 	<s id="1">Ah, que j'allons étonner tout le monde !</s>
@@ -1835,7 +1884,8 @@
 </p>
 <stage type="entrance/costume">Les Villageois arrivent, vêtus de blanc ; ils se rangent en cercle autour de Jeannette et de Colin.</stage>
 </sp>
-<sp stage="toward" who="JEANNETTE"><speaker>JEANNETTE, leur adressant la parole.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="toward">, leur adressant la parole.
+</stage>
 <p id="12">
 	<s id="1">Madame va venir ; songez bien à vos chansons et aux danses que nous avons répétées.</s>
 </p>
@@ -1860,8 +1910,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Jeannette, Colin, Léontine, Dorothée, Rosalie.</head>
-<sp stage="costume" who="LÉONTINE"><speaker>LÉONTINE, parée du bouquet.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Jeannette, Colin, Léontine, Dorothée, Rosalie.
+</stage>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="costume">, parée du bouquet.
+</stage>
 <stage type="entrance/estonish">Elle s'arrête à l'entrée du bocage avec étonnement.</stage>
 <p id="1">
 	<s id="1">Que vois-je ! </s>
@@ -1891,16 +1943,19 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Jeannette, Colin, Léontine, Dorothée, Rosalie, Le Vicomte, Ophémon, Picard.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jeannette, Colin, Léontine, Dorothée, Rosalie, Le Vicomte, Ophémon, Picard.
+</stage>
 <stage type="closer/costume">Le Vicomte, s'approche, et voyant Léontine parée du bouquet, il fait un geste de joie qu'elle prend pour de la surprise.</stage>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Que je suis embarrassée ! </s>
 	<s id="2">De quel air le Vicomte me regarde ! </s>
 	<s id="3">Que ce bouquet me gêne !</s>
 </p>
 </sp>
-<sp stage="toward" who="LE VICOMTE"><speaker>LE VICOMTE, à Léontine.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="toward">, à Léontine.
+</stage>
 <p id="2">
 	<s id="">L'Inconnu, s'il est ici, doit être satisfait.</s>
 </p>
@@ -1956,12 +2011,14 @@
 </p>
 <stage type="sit/location">Ils se placent tous trois sur le siège de gazon, Léontine au milieu. Picard et Rosalie se placent à quelque distance l'un à côté de l'autre. Ophémon se tient tout seul de l'autre côté du Théâtre.</stage>
 </sp>
-<sp stage="aparte" who="LE VICOMTE"><speaker>LE VICOMTE, à part.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Que je suis troublé !</s>
 </p>
 </sp>
-<sp stage="aparte" who="OPHÉMON"><speaker>OPHÉMON, à part.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Jusqu'ici tout va bien. </s>
 	<s id="2">Observons un peu la contenance de Léontine.</s>
@@ -1972,7 +2029,8 @@
 	<s id="1">Jeannette, vous pouvez commencer.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE, à Picard.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage>, à Picard.
+</stage>
 <p id="16">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="2">Comme le coeur me bat !</s>
@@ -1984,7 +2042,8 @@
 	<s id="1">Tout ceci tient de l'enchantement.</s>
 </p>	
 </sp>
-<sp stage="toward" who="PICARD"><speaker>PICARD, à Rosalie.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="toward">, à Rosalie.
+</stage>
 <p id="18">
 	<s id="1">Quand je te le disais qu'il y a de la sorcellerie là-dedans.</s>
 </p>
@@ -1994,7 +2053,8 @@
 	<s id="1">Paix donc : voilà Jeannette qui chante.</s>
 </p>
 </sp>
-<sp stage="sing/give" who="JEANNETTE"><speaker>JEANNETTE, chante en donnant des fleurs à Léontine.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="sing/give">, chante en donnant des fleurs à Léontine.
+</stage>
 <stage type="sing/danse/exit">Un choeur de Villageois, à la fin de chaque couplet répète le refrain. Après les couplets la musique recommence.Tous les Villageois se prennent par la main, et sortent en dansant. Jeannette et Colin restent. Picard et Rosalie sortent.</stage> 
 </sp>
 <sp who="DOROTHÉE"><speaker>DOROTHÉE.</speaker>
@@ -2002,13 +2062,15 @@
 	<s id="1">Je n'ai jamais vu de plus agréable ni de mieux imaginé.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="OPHÉMON"><speaker>OPHÉMON, à part.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="21">
 	<s id="1">Ma foi, nos affaires ne vont pas mal. </s>
 	<s id="2">Léontine, pour le coup, est vraiment interdite et troublée.</s> 
 </p>
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">Il était sans doute mêlé parmi les Villageois.</s>
 </p>
@@ -2028,7 +2090,8 @@
 	<s id="1">Madame veut savoir d'où vient cette fête.</s>
 </p>	
 </sp>
-<sp stage="toward" who="JEANNETTE"><speaker>JEANNETTE, à Dorothée.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="toward">, à Dorothée.
+</stage>
 <p id="26">
 	<s id="">Puis-je le dire à présent ?</s>
 </p>
@@ -2069,7 +2132,8 @@
 	<s id="1">Vous verrez que c'est moi.</s>
 </p>
 </sp>
-<sp stage="show" who="JEANNETTE"><speaker>JEANNETTE, montrant Dorothée.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="show">, montrant Dorothée.
+</stage>
 <p id="34">
 	<s id="">Non, c'est Madame.</s>
 </p>
@@ -2142,7 +2206,8 @@
 	<s id="2">Une vieille Dame est arrivée chez nous.</s>
 </p>
 </sp>
-<sp stage="aparte" who="OPHÉMON"><speaker>OPHÉMON, à part.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="46">
 	<s id="1">Pas si vieille.</s>
 </p>
@@ -2503,7 +2568,8 @@
 	<s id="1">Allons, allons, tournez-vous vers l'arbre.</s>
 </p>	
 </sp>
-<sp stage="turn/entrance/hide" who="LÉONTINE"><speaker>LÉONTINE, se tournant. Pendant ce temps le Vicomte se glisse sans être aperçu, et va se cacher derrière l'arbre.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="turn/entrance/hide">, se tournant. Pendant ce temps le Vicomte se glisse sans être aperçu, et va se cacher derrière l'arbre.
+</stage>
 <p id="110">
 	<s id="1">Eh bien, est-ce comme cela ?</s>
 </p>
@@ -2525,7 +2591,8 @@
 	<s id="2">Prouvez-le donc en finissant ?</s>
 </p>
 </sp>
-<sp stage="turn" who="LÉONTINE"><speaker>LÉONTINE, tournée vers l'arbre.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="turn">, tournée vers l'arbre.
+</stage>
 <p id="114">
 	<s id="1">Vous m'avez su m'inspirer une curiosité très vive, et je voudrais vous connaître.</s>
 </p>
@@ -2541,8 +2608,9 @@
 	<s id="1">Ô Ciel !</s>
 </p>	
 </sp>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, sortant de l'arbre avec précipitation ; 
-et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de surprise, tombe dans les bras de Dorothée.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage>, sortant de l'arbre avec précipitation ; 
+et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de surprise, tombe dans les bras de Dorothée.
+</stage>
 <p id="117">
 	<s id="1">Connaissez donc enfin celui qui vous adore : vous le voyez, Madame.</s>
 </p>
@@ -2567,7 +2635,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="4">J'étais si troublée que je ne l'ai pas reconnu.</s>
 </p>	
 </sp>
-<sp stage="toward" who="LÉONTINE"><speaker>LÉONTINE, au Vicomte.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="toward">, au Vicomte.
+</stage>
 <p id="121">
 	<s id="1">Vous m'avez causé une frayeur inexprimable.</s>
 </p>
@@ -2634,7 +2703,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Venez souper, venez.</s>
 </p>
 </sp>
-<sp stage="away" who="DOROTHÉE"><speaker>DOROTHÉE, en s'en allant.</speaker>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="131">
 	<s id="1">Oh, la bonne scène ! </s>
 	<s id="2">La bonne scène !</s>
@@ -2645,7 +2715,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Je suis malade à mourir.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE VICOMTE"><speaker>LE VICOMTE, à part.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="133">
 	<s id="1">Enfin je puis donc espérer.</s>
 </p>
@@ -2656,7 +2727,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 <div1 type="acte" n="4"><head>ACTE IV</head>
 <stage type="DECOR">Le Théâtre change, et représente le Cabinet de Léontine.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="LÉONTINE"><speaker>LÉONTINE, seule.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Ils sont à table, pour moi je m'en suis dispensée. </s>
 	<s id="2">Je ne sais ce que j'ai ; je me sens d'une humeur si noire, si triste... </s>
@@ -2668,7 +2740,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Léontine, Ophémon.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Léontine, Ophémon.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Hé ! </s>
@@ -3040,7 +3113,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">Laissez-moi.</s>
 </p>
 </sp>
-<sp who="OPHÉMON"><speaker>OPHÉMON, à part, en s'en allant.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage>, à part, en s'en allant.
+</stage>
 <p id="62">
 	<s id="1">Courons porter au Vicomte cette excellente nouvelle.</s>
 </p>
@@ -3048,7 +3122,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LÉONTINE"><speaker>LÉONTINE, seule.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Quoi ! </s>
 	<s id="2">Je le verrai, j'y consens. </s>
@@ -3073,7 +3148,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léontine, Dorothée, Le Vicomte.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léontine, Dorothée, Le Vicomte.
+</stage>
 <sp who="LE VICOMTE"><speaker>LE VICOMTE.</speaker>
 <p id="1">
 	<s id="1">Nous venons savoir de vos nouvelles.</s>
@@ -3191,7 +3267,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="3">Si vous vous ravisez, si vous avez besoin de nous, envoyez-nous chercher, nous ferons dans les jardins.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE VICOMTE"><speaker>LE VICOMTE, à Léontine.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="toward">, à Léontine.
+</stage>
 <p id="21">
 	<s id="1">Je vous quitte avec peine... </s>
 	<s id="2">Vous avez l'air de souffrir réellement.</s>
@@ -3213,7 +3290,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Comme la main vous tremble !</s>
 </p>	
 </sp>
-<sp stage="pull" who="LE VICOMTE"><speaker>LE VICOMTE, lui tenant toujours le bras.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="pull">, lui tenant toujours le bras.
+</stage>
 <p id="25">
 	<s id="1">C'est un tremblement qui m'est naturel ; ce mal me tient depuis plusieurs années. </s>
 	<s id="2">Vous auriez pu le remarquer plus tôt.</s>
@@ -3310,21 +3388,24 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Adieu, ma chère amie.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="LE VICOMTE"><speaker>LE VICOMTE, à part.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="42">
 	<s id="1">Qu'elle est touchante ! </s>
 	<s id="2">Et que je suis heureux ?</s>
 </p>
 <stage type="exit">Ils sortent.</stage>
 </sp>
-<sp stage="alone" who="LÉONTINE"><speaker>LÉONTINE, seule.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="43">
 	<s id="1">Enfin, m'en voilà débarrassée : assurément ce n'est pas sans peine. </s>
 	<s id="2">Mais j'aperçois Monsieur Ophémon.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ophémon, Léontine, Rosalie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ophémon, Léontine, Rosalie.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, votre commission est-elle faite ?</s>
@@ -3449,7 +3530,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Cela n'est pas possible.</s>
 </p>	
 </sp>
-<sp stage="entrance/hurry" who="ROSALIE"><speaker>ROSALIE, survenant.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="entrance/hurry">, survenant.
+</stage>
 <p id="23">
 	<s id="1">On vient de me dire que Madame allait se coucher.</s>
 </p>
@@ -3481,13 +3563,15 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">Encore une fois, je veux être obéie ; laissez-moi tranquille.</s>
 </p>	
 </sp>
-<sp stage="aparte/away" who="ROSALIE"><speaker>ROSALIE, à part en s'en allant.</speaker>
+<sp who="ROSALIE"><speaker>ROSALIE</speaker><stage type="aparte/away">, à part en s'en allant.
+</stage>
 <p id="29">
 	<s id="1">Je ne l'ai jamais vue de si mauvaise humeur.</s>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="toward" who="LÉONTINE"><speaker>LÉONTINE, à Ophémon.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="toward">, à Ophémon.
+</stage>
 <p id="30">
 	<s id="1">Vous irez donc le chercher à cinq heures, et vous le ferez entrer par la petite porte du parc : vous en avez la clef ?</s>
 </p>
@@ -3523,7 +3607,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Allons, je vais rentrer dans ma chambre, et je vous attendrai à cinq heures précises.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="OPHÉMON"><speaker>OPHÉMON, à part en s'en allant.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="aparte/away">, à part en s'en allant.
+</stage>
 <p id="37">
 	<s id="1">Ma foi, pour le coup, nous la tenons.</s>
 </p>
@@ -3533,7 +3618,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone/costume" who="LÉONTINE"><speaker>LÉONTINE, seule, en déshabillé.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="alone/costume">, seule, en déshabillé.
+</stage>
 <p id="1">
 	<s id="1">Dans qu'elle agitation je suis ! </s>
 	<s id="2">À quoi me suis-je exposée ! </s>
@@ -3575,7 +3661,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 <stage type="open">Elle va ouvrir la porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Vicomte, Léontine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Vicomte, Léontine.
+</stage>
 <sp who="LÉONTINE"><speaker>LÉONTINE.</speaker>
 <stage type="entrance/away/suprise/pain/aparte">Quand le Vicomte paraît, elle se recule avec surprise et chagrin, et dit à part.</stage>
 <p id="1">
@@ -3584,12 +3671,14 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="3">Quel fâcheux contretemps !</s>
 </p>
 </sp>
-<sp stage="stress" who="LE VICOMTE"><speaker>LE VICOMTE, avec la plus grande émotion.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="stress">, avec la plus grande émotion.
+</stage>
 <p id="2">
 	<s id="1">L'inquiétude de votre santé me ramène auprès de vous.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Que lui dirai-je ?</s>
 </p>
@@ -3608,7 +3697,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Je vous remercie ; mais vous me ferez plaisir de me laisser seule.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="LE VICOMTE"><speaker>LE VICOMTE, à part.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Comme elle est pâle et défaite ! </s>
 	<s id="2">Ah ! </s>
@@ -3844,7 +3934,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">Vous ne pourrez jamais comprendre combien cet effort m'a coûté.</s>
 </p>	
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="46">
 	<s id="1">L'heure s'avance.</s>
 </p>
@@ -3855,7 +3946,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">Daignez me le redire encore ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="48">
 	<s id="1">Mon inquiétude s'augmente à chaque instant.</s>
 </p>
@@ -3900,7 +3992,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="5">Si j'allais perdre jusqu'à cet espoir que vous venez de me donner !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LÉONTINE"><speaker>LÉONTINE, à part.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="55">
 	<s id="1">Il ne finit point ; le temps s'écoule. </s>
 	<s id="2">Quelle affreuse contrainte !</s>
@@ -3910,7 +4003,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Mais quelle heure est-il ?</s>
 </p>
 </sp>
-<sp stage="get" who="LE VICOMTE"><speaker>LE VICOMTE, tirant sa montre.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="get">, tirant sa montre.
+</stage>
 <p id="57">
 	<s id="1">Je ne croyais pas qu'il fut si tard.</s>
 </p>
@@ -3939,12 +4033,14 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Vous pâlissez.</s>
 </p>	
 </sp>
-<sp stage="sit" who="LÉONTINE"><speaker>LÉONTINE, se laissant aller dans un fauteuil.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="sit">, se laissant aller dans un fauteuil.
+</stage>
 <p id="62">
 	<s id="1">Que vais-je devenir ?</s>
 </p>
 </sp>
-<sp stage="closer/touch" who="LE VICOMTE"><speaker>LE VICOMTE, s'approchant, et saisissant une de ses mains pendant qu'elle se couvre le visage de l'autre.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="closer/touch">, s'approchant, et saisissant une de ses mains pendant qu'elle se couvre le visage de l'autre.
+</stage>
 <p id="63">
 	<s id="1">D'où peut naître ce trouble cruel, cet effroi que vous voulez en vain cacher ? </s>
 	<s id="2">Ah, Madame ! </s>
@@ -4162,8 +4258,10 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Vicomte, Léontine, Dorothée, Ophémon.</head>
-<sp stage="toward" who="DOROTHÉE"><speaker>DOROTHÉE, à Ophémon.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Vicomte, Léontine, Dorothée, Ophémon.
+</stage>
+<sp who="DOROTHÉE"><speaker>DOROTHÉE</speaker><stage type="toward">, à Ophémon.
+</stage>
 <p id="1">
 	<s id="1">Elle est levée, vous dis-je, j'en suis sûre ; j'entendais sa voix de la terrasse. </s>
 	<s id="2">Tenez, voyez plutôt.</s>
@@ -4225,7 +4323,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">voilà le plus joli complot et le mieux concerté.</s>
 </p>
 </sp>
-<sp stage="toward" who="LÉONTINE"><speaker>LÉONTINE, à Ophémon.</speaker>
+<sp who="LÉONTINE"><speaker>LÉONTINE</speaker><stage type="toward">, à Ophémon.
+</stage>
 <p id="12">
 	<s id="1">Allez chercher le Notaire, qu'il vienne.</s>
 </p>
@@ -4241,7 +4340,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="toward" who="LE VICOMTE"><speaker>LE VICOMTE, à Léontine.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="toward">, à Léontine.
+</stage>
 <p id="15">
 	<s id="1">Ce n'est point une illusion ? </s>
 	<s id="2">Quoi ? </s>
@@ -4272,7 +4372,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Vicomte, Léontine, Dorothée, Ophémon, Rosalie, Picard, Jeannette, colin, le Notaire, et une foule de Villageois. </head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Vicomte, Léontine, Dorothée, Ophémon, Rosalie, Picard, Jeannette, colin, le Notaire, et une foule de Villageois. 
+</stage>
 <stage type="closer">Ils l'entourent.</stage>
 <sp stage="together" who="TOUS"><speaker>TOUS ENSEMBLE.</speaker>
 <p id="1">
@@ -4307,7 +4408,8 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="1">Venez dans ma chambre, nous vous répondrons.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE VICOMTE"><speaker>LE VICOMTE, à Léontine.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="toward">, à Léontine.
+</stage>
 <p id="6">
 	<s id="1">La destinée me rend donc ce que mon imprudence fatale m'avait ravi ! </s>
 	<s id="2">Après tant de regrets et de larmes, je vous retrouve enfin : Vous êtes donc à moi !</s>
@@ -4328,13 +4430,15 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 </p>
 <stage type="give">Le Vicomte lui donne la main ; Dorothée la prend par le bras de l'autre côté. Ils s'en vont. Ophémon et le Notaire les suivent.</stage> 
 </sp>
-<sp stage="away" who="OPHÉMON"><speaker>OPHÉMON, en s'en allant.</speaker>
+<sp who="OPHÉMON"><speaker>OPHÉMON</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="9">
 	<s id="1">Allons, je n'aurai pas perdu mon latin dans cette maison.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Rosalie, Picard, Jeannette, Colin, le Notaire, les Villageois.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Rosalie, Picard, Jeannette, Colin, le Notaire, les Villageois.
+</stage>
 <sp who="ROSALIE"><speaker>ROSALIE.</speaker>
 <p id="1">
 	<s id="1">Enfin, l'Amant Anonyme est donc découvert. </s>

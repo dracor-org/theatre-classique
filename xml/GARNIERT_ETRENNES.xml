@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,26 +29,27 @@
 			<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">TROISIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME DORSIGNY" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME DORSIGNY</role>.</castItem>
-		<castItem><role id="MIMY" sex="2" type="H" statut="bourgeois" age="E" stat_amour='néant'>MIMY</role>, fille de madame Dorsigny âgée de sept à huit ans.</castItem>
-		<castItem><role id="CÉCILE" sex="2" type="H" statut="bourgeois" age="E" stat_amour='néant'>CÉCILE</role>, amie de Mimy.</castItem>
-		<castItem><role id="BABET" sex="2" type="H" statut="bourgeois" age="E" stat_amour='néant'>BABET</role>, amie de Mimy.</castItem>
-		<castItem><role id="UNE GOUVERNANTE" sex="2" type="H" statut="gouvernante" age="A" stat_amour='néant'>UNE GOUVERNANTE</role>.</castItem>
+		<castItem><role id="MADAME DORSIGNY" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME DORSIGNY</role>.</castItem>
+		<castItem><role id="MIMY" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">MIMY</role>, fille de madame Dorsigny âgée de sept à huit ans.</castItem>
+		<castItem><role id="CÉCILE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">CÉCILE</role>, amie de Mimy.</castItem>
+		<castItem><role id="BABET" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">BABET</role>, amie de Mimy.</castItem>
+		<castItem><role id="UNE GOUVERNANTE" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">UNE GOUVERNANTE</role>.</castItem>
    </castList>
-<set location='Province' country='France' periode='XVIIIème' gps="(N/A)">La Scène est chez Madame Dorsigny.</set>
+<set location="Province" country="France" periode="XVIIIème" gps="(N/A)">La Scène est chez Madame Dorsigny.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 33-53.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LES ETRENNES</head>
 <stage type="decor/explicit">Le Théâtre représente la Chambre à coucher de Mademoiselle Mimy. Il y a sur le devant une petite toilette sur laquelle est un carton. L'action se passe le premier jour de l'an, sur les trois heures après-midi.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="MIMY"><speaker>MIMY, seule.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="alone">, seule.
+</stage>
 <stage type="watch">Elle se regarde avec complaisance dans le miroir et ajuste sa coiffure.</stage>
 <note type="L">Endéver : Être très dépité de quelque chose ; enrager. [W]</note>
 <p id="1">
@@ -88,13 +89,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Gouvernante, Mimy.</head>
-<sp stage="entrance/abrupt" who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE, qui a tout en tendu, entre brusquement.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Gouvernante, Mimy.
+</stage>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE</speaker><stage type="entrance/abrupt">, qui a tout en tendu, entre brusquement.
+</stage>
 <p id="1">
 	<s id="1">Cela non, Mademoiselle, votre plaisir ne sera pas ausi complet que vous l'espérez, j'y mettrai bon ordre.</s>
 </p>
 </sp>
-<sp who="MIMY"><speaker>MIMY, effrayée.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage>, effrayée.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Ma bonne.... c'est que.... je.... </s>
@@ -108,7 +112,8 @@
 	<s id="2">J'ai entendu vos petits discours, Mademoiselle, ils sont fort jolis, ils m'annoncent des inclinations que je suis très charmée de connaître.</s>
 </p>
 </sp>
-<sp stage="cry" who="MIMY"><speaker>MIMY, pleurant.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="4">
 	<s id="1">Oui, allez ; vous m'avez fait une peur, que je n'en puis plus ; et vous savez que maman n'aime pas que l'on me fasse peur, elle sait bien que cela me rend malade.</s>
 </p>
@@ -154,7 +159,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp who="MIMY"><speaker>MIMY, seule.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage>, seule.
+</stage>
 <p id="1">
 	<s id="1">Voilà qui est fâcheux. </s>
 	<s id="2">Cette misérable porte ! </s>
@@ -183,19 +189,22 @@
 <stage type="dress">Elle ôte promptement son bonnet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Mimy, Cécile, Babet.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Mimy, Cécile, Babet.
+</stage>
 <sp who="BABET"><speaker>BABET.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Mimy, es-tu morte ? </s>
 	<s id="2">Il y a une heure que nous t'attendons ?</s>
 </p>
 </sp>
-<sp stage="proud" who="CÉCILE"><speaker>CÉCILE, d'un air précieux.</speaker>
+<sp who="CÉCILE"><speaker>CÉCILE</speaker><stage type="proud">, d'un air précieux.
+</stage>
 <p id="2">
 	<s id="1">Pour cela, Mademoiselle, vous n'êtes pas trop honnête ; il faut venir vous chercher jusque dans votre chambre.</s>
 </p>
 </sp>
-<sp stage="embarrassed/drop" who="MIMY"><speaker>MIMY, embarrassée, laisse tomber son bonnet derrière elle.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="embarrassed/drop">, embarrassée, laisse tomber son bonnet derrière elle.
+</stage>
 <p id="3">
 	<s id="1">C'est que je me coiffais, mes bonnes amies, et...</s>
 </p>
@@ -208,7 +217,8 @@
 </p>
 <stage type="get">Elle ramasse le bonnet.</stage>
 </sp>
-<sp stage="shy" who="MIMY"><speaker>MIMY, rougissant.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="shy">, rougissant.
+</stage>
 <p id="5">
 	<s id="1">Cela est vrai. </s>
 </p>
@@ -271,7 +281,8 @@
 </p>
 <stage type="dress">Elle veut lui mettre le bonnet.</stage>
 </sp>
-<sp who="MIMY"><speaker>MIMY, se défendant.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage>, se défendant.
+</stage>
 <p id="16">
 	<s id="1">Non, quand je te dis que je ne veux pas le mettre et que je ne le mettrai pus.</s>
 </p>
@@ -423,7 +434,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Cécile, Babet, Mimy.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Cécile, Babet, Mimy.
+</stage>
 <sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 <p id="1">
 	<s id="1">Mesdemoiselles Durosoy, que faites-vous donc ici, s'il vous plait ?</s>
@@ -440,18 +452,21 @@
 	<s id="2">Eh bien, apprenez, mademoiselle, que vous en avez à me rendre, que vous êtes ici chez moi, que vous ne deviez pas y monter sans ma permission.</s>
 </p>
 </sp>
-<sp stage="laugh/toward" who="BABET"><speaker>BABET, en riant à sa soeur.</speaker>
+<sp who="BABET"><speaker>BABET</speaker><stage type="laugh/toward">, en riant à sa soeur.
+</stage>
 <p id="4">
 	<s id="1">Qu'en dis-tu, ma soeur ? </s>
 	<s id="2">Nous nous imaginions pourtant être chez madame Dorsigny.</s>
 </p>
 </sp>
-<sp stage="laugh/toward" who="CÉCILE"><speaker>CÉCILE, sur le même ton.</speaker>
+<sp who="CÉCILE"><speaker>CÉCILE</speaker><stage type="laugh/toward">, sur le même ton.
+</stage>
 <p id="5">
 	<s id="1">Je le pensais comme toi, mais nous nous trompons, comme tu vois.</s>
 </p>
 </sp>
-<sp stage="anger" who="BABET"><speaker>BABET, éclatant.</speaker>
+<sp who="BABET"><speaker>BABET</speaker><stage type="anger">, éclatant.
+</stage>
 <p id="6">
 	<s id="1">Ah, ah, ah, ah, cela est plaisant. </s>
 </p>
@@ -501,12 +516,14 @@
 	<s id="4">Vous ne pouvez trop vous hâter de vous rendre auprès d'elle.</s>
 </p>
 </sp>
-<sp who="CÉCILE"><speaker>CÉCILE, d'un air moqueur.</speaker>
+<sp who="CÉCILE"><speaker>CÉCILE</speaker><stage>, d'un air moqueur.
+</stage>
 <p id="14">
 	<s id="1">Vous voulez donc bien recevoir nos respects.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="BABET"><speaker>BABET, à Mimy à demi-voix.</speaker>
+<sp who="BABET"><speaker>BABET</speaker><stage type="low/toward">, à Mimy à demi-voix.
+</stage>
 <p id="15">
 	<s id="1">Que je te voie tantôt avec ton bonnet neuf ; sinon...</s>
 </p>
@@ -518,7 +535,8 @@
 <stage type="exit">Elle sort avec sa soeur, en éclatant de rire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII. La Gouvernante, Mimy.</head>
+<div2 type="scene" n="7"><head>SCENE VII.</head><stage> La Gouvernante, Mimy.
+</stage>
 <sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 <p id="1">
 	<s id="1">Voilà deux méchantes pestes ! </s>
@@ -526,7 +544,8 @@
 	<s id="3">Mais que signifie, s'il vous plait, ce bonnet neuf qu'elles veulent vous voir tantôt ?</s>
 </p>
 </sp>
-<sp who="MIMY"><speaker>MIMY, avec humeur.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage>, avec humeur.
+</stage>
 <p id="2">
 	<s id="1">Ah ça, c'est mon bonnet d'étrennes. </s>
 	<s id="2">Pourquoi ne voulez-vous pas que je le mette aujourd'hui ?</s>
@@ -538,7 +557,8 @@
 	<s id="2">La question est singulière, Mademoiselle ; vous le savez aussi bien que moi, pourquoi ; d'ailleurs, je vous le défends, cela doit suffire.</s>
 </p>
 </sp>
-<sp stage="low" who="MIMY"><speaker>MIMY, à demi-voix.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="4">
 	<s id="1">Oh, vous le défendez... </s>
 	<s id="2">Vous le défendez... </s>
@@ -550,20 +570,23 @@
 	<s id="1">Parlez plus haut, Mademoiselle, ce que vous avez à dire mérite d'être entendu.</s>
 </p>
 </sp>
-<sp who="MIMY"><speaker>MIMY, du même ton.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage>, du même ton.
+</stage>
 <p id="6">
 	<s id="1">C'est vrai... </s>
 	<s id="2">Une servante... faire la maîtresse.</s>
 </p>
 </sp>
-<sp stage="silence/watch" who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE, après l'avoir regardée quelque temps sans rien dire.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE</speaker><stage type="silence/watch">, après l'avoir regardée quelque temps sans rien dire.
+</stage>
 <p id="7">
 	<s id="1">Fort bien , mademoiselle, vous avez admirablement profité. </s>
 	<s id="2">Si l'on vous laide faire, vous égalerez bientôt vos maîtresses ; je ne fais pourtant pas si madame votre mère aimerait que vous prissiez de pareilles leçons ; je l'entends, je crois, il faut lui demander l'on avis.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII et dernière. Madame Dorsigny, La Gouvernante, Mimy.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII et dernière.</head><stage> Madame Dorsigny, La Gouvernante, Mimy.
+</stage>
 <sp who="MADAME DORSIGNY"><speaker>MADAME DORSIGNY.</speaker>
 <p id="1">
 	<s id="1">Pourquoi ne descendez-vous donc point, mademoiselle, depuis le temps qu'on vous appelle ? </s>
@@ -654,7 +677,8 @@
 	<s id="3">Allons, demandez excuse à votre bonne.</s>
 </p>
 </sp>
-<sp stage="shame" who="MIMY"><speaker>MIMY, d'un air honteux.</speaker>
+<sp who="MIMY"><speaker>MIMY</speaker><stage type="shame">, d'un air honteux.
+</stage>
 <p id="16">
 	<s id="">Ma Bonne, je suis bien fâchée...</s>
 </p>
@@ -687,7 +711,8 @@
 	<s id="3">Cela ne m'arrivera plus jamais.</s>
 </p>
 </sp>
-<sp who="MADAME DORSIGNY"><speaker>MADAME DORSIGNY, après avoir embrassé sa fille.</speaker>
+<sp who="MADAME DORSIGNY"><speaker>MADAME DORSIGNY</speaker><stage>, après avoir embrassé sa fille.
+</stage>
 <p id="22">
 	<s id="1">C'est bien, ma fille, allons ; achevez de vous coiffer, dépêchez-vous, je vous mènerai avec moi faire quelques visites. </s>
 	<s id="2">Il n'y a rien qui forme autant les enfants que cet usage, et quelque embarrassant qu'il soit très souvent, il fera toujours le mien.</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -28,26 +28,28 @@
 			<titlePart type="main">VALENTIN</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881.</docDate>
-		<docAuthor id="CLARETIE, Jules" bio='claretie'>PAR JULES CLARETIE</docAuthor>
+		<docDate value="1881">1881.</docDate>
+		<docAuthor id="CLARETIE, Jules" bio="claretie">PAR JULES CLARETIE</docAuthor>
 		<docImprint>
-			<privilege id=''></privilege>
-			<acheveImprime id=''></acheveImprime>
-			<editor id='TRESSE'>À PARIS, TRESSE, Galerie du Théâtre Français, PALAIS-ROYAL.</editor>
+			<privilege id=""/>
+			<acheveImprime id=""/>
+			<editor id="TRESSE">À PARIS, TRESSE, Galerie du Théâtre Français, PALAIS-ROYAL.</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-	<castItem><role id="LE COMTE" sex="1" type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE</role>.</castItem>
-	<castItem><role id="LA COMTESSE" sex="2" type="H" statut='comte' age='A' stat_amour='néant'>LA COMTESSE</role>.</castItem>	
-	<castItem><role id="VALENTIN" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>VALENTIN</role>, valet de chambre.</castItem>
+	<castItem><role id="LE COMTE" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE</role>.</castItem>
+	<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE</role>.</castItem>	
+	<castItem><role id="VALENTIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">VALENTIN</role>, valet de chambre.</castItem>
 	</castList>
-<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 <note>Paru dans "Saynètes et monologues", Troisième série, Paris, Tresse Editeur, 1881. pp. 107-127</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>VALENTIN</head>
-<div2 type="scene" n="1" stage="away/back"><head>SCÈNE I. LA COMTESSE, VALEXTIN, allant et venant.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage type="away/back"> LA COMTESSE, VALEXTIN, allant et venant.
+</stage>
 <stage type="costume/read">Valentin est un grand garçon, fort élégant, le profil régulier, d'aspect classique, les favoris longs et irréprochables taillés ; l'air d'un diplomate, n'étais sa livrée qu'il porte fièrement : culotte courte, bas blancs bien tirés et laissant saillir des mollets nerveux. - La comtesse feuillette un livre.</stage>
-<sp stage="aparte" who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Jamais cette lecture ne m'a causé une telle émotion ! J'en suis vraiment troublée... </s>
 	<s id="2">Suis-je sotte !</s>
@@ -73,13 +75,15 @@
 	<s id="3">Qu'avez-vous fait, Valentin ?</s>
 </p>
 </sp>
-<sp stage="confuse/embarrassed" who="VALENTIN"><speaker>VALENTIN, confus et un peu rouge.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="confuse/embarrassed">, confus et un peu rouge.
+</stage>
 <p id="6">
 	<s id="1">Madame_la_Comtesse me pardonnera... </s>
 	<s id="2">J'avais cru voir la un grain de poussière, je me suis approché... et... en soufflant... comme ça... ça s'est cassé !</s>
 </p>
 </sp>
-<sp stage="despite" who="LA COMTESSE"><speaker>LA COMTESSE, avec dépit.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="despite">, avec dépit.
+</stage>
 <p id="7">
 	<s id="1">Oh ! </s>
 	<s id="2">Ma jolie coupe de Venise ! L</s>
@@ -101,7 +105,8 @@
 	<s id="7">Quel malheur !</s>
 </p>
 </sp>
-<sp stage="get" who="VALENTIN"><speaker>VALENTIN, ramassant les éclats du verre.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="get">, ramassant les éclats du verre.
+</stage>
 <p id="10">
 	<s id="1">Oh ! </s>
 	<s id="2">Madame, il y a un Auvergnat, - un voisin - le beau-frère de Madame Ernoux, la charbonnière - qui raccommode ces choses-là si bien, si bien... que ça double leur valeur !</s>
@@ -117,9 +122,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, Le Comte. </head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, Le Comte.  
+</stage> 
 <stage type="costume">Il est correctement vêtu, à la dernière mode, sans affectation.</stage>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, le lorgnon à l'oeil, regardant Valentin.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, le lorgnon à l'oeil, regardant Valentin.
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Quoi encore ?</s>
@@ -132,7 +139,8 @@
 	<s id="3">Mon souvenir de Murano, vous savez bien ?</s>
 </p>
 </sp>
-<sp stage="calm" who="LE COMTE"><speaker>LE COMTE, flegmatiquement.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="calm">, flegmatiquement.
+</stage>
 <note type="L">Delft ; Nom d'une ville des Pays-Bas, célèbre pour sa production de faïence qui prirent le nom de la ville.</note>
 <p id="3">
 	<s id="1">Ah oui! </s>
@@ -145,7 +153,8 @@
 	<s id="8">Vous ne le faites pas exprès ?</s>
 </p>
 </sp>
-<sp stage="get" who="VALENTIN"><speaker>VALENTIN, qui a achevé de ramasser les fragments.</speaker>
+<sp who="VALENTIN"><speaker>VALENTIN</speaker><stage type="get">, qui a achevé de ramasser les fragments.
+</stage>
 <p id="4">
 	<s id="1">Comment, Monsieur_le_Comte pourrait-il croire ?... </s>
 	<s id="2">J'ai d'autant plus le respect des bibelots, que je suis amateur moi-même. </s>
@@ -193,7 +202,8 @@
 <stage type="wave/exit">Valentin s'incline et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, La Comtesse.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, La Comtesse.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Sa collection ! </s>
@@ -233,12 +243,14 @@
 	<s id="7">Je vous donne ma parole d'honneur que je vous aime !</s>
 </p>
 </sp>
-<sp stage="sigh" who="LA COMTESSE"><speaker>LA COMTESSE, soupirant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="sigh">, soupirant.
+</stage>
 <p id="6">
 	<s id="1">Ce ne sont pas là des choses qui se jurent, ce sont des choses qui se prouvent.</s>
 </p>
 </sp>
-<sp stage="serious" who="LE COMTE"><speaker>LE COMTE, avec intention.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="serious">, avec intention.
+</stage>
 <p id="7">
 	<s id="1">Vous me mettez si peu à l'épreuve, Comtesse ! </s>
 	<s id="2">Il veut s'approcher. </s>
@@ -342,7 +354,8 @@
 	<s id="5">On se demande parfois où ces gens vont prendre cette race-là !</s>
 </p>
 </sp>
-<sp stage="embarrassed/hésitate" who="LA COMTESSE"><speaker>LA COMTESSE, troublée, hésitante.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="embarrassed/hésitate">, troublée, hésitante.
+</stage>
 <p id="22">
 	<s id="1">C'est vrai.</s>
 </p>
@@ -375,7 +388,8 @@
 	<s id="1">Ruy-Blas.</s>
 </p>
 </sp>
-<sp stage="touch" who="LA COMTESSE"><speaker>LA COMTESSE, émue.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="touch">, émue.
+</stage>
 <p id="27">
 	<s id="1">Quel beau drame ! </s>
 	<s id="2">Quels admirables vers ! </s>
@@ -486,7 +500,8 @@
 	<s id="10">Vous détestez la physiologie, chère amie, mais en voilà!</s>
 </p>
 </sp>
-<sp stage="dream" who="LA COMTESSE"><speaker>LA COMTESSE, songeuse.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="dream">, songeuse.
+</stage>
 <p id="43">
 	<s id="1">Quoi ! </s>
 	<s id="2">Une saignée ?...</s>
@@ -516,7 +531,8 @@
 	<s id="4">C'est qu'ils s'imaginent qu'ils ont pour maîtresses la Tisbé de Hugo, la Carmosine de Musset, ou encore la reine de Navarre !</s>
 </p>
 </sp>
-<sp stage="think" who="LA COMTESSE"><speaker>LA COMTESSE, toujours songeuse.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="think">, toujours songeuse.
+</stage>
 <p id="47">
 	<s id="1">C'est possible ! </s>
 	<s id="2">- Seulement, remarquez-le bien, vous me partez d'un comédien, et non d'un domestique. </s>
@@ -556,7 +572,8 @@
 	<s id="2">Ce balourd de-Pierre cassait bien autant de verreries ou de faïence que Valentin, et vous n'aviez jamais contre lui un mot un seul.</s>
 </p>
 </sp>
-<sp stage="quick" who="LA COMTESSE"><speaker>LA COMTESSE, vivement.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="53">
 	<s id="1">Eh ! </s>
 	<s id="2">Pierre était ridicule, stupide, niais comme un Jeannot de vaudeville.</s>
@@ -624,14 +641,16 @@
 </p>
 <stage type="touch">Il tend la main pour prendre la main de la comtesse.</stage>
 </sp>
-<sp stage="away" who="LA COMTESSE"><speaker>LA COMTESSE, retirant sa main.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="away">, retirant sa main.
+</stage>
 <p id="64">
 	<s id="1">Allez donc chez madame de Neirens. </s>
 	<s id="2">L'heure de la répétition doit être venue, et il ne faut pas faire attendre Madame de Brives. </s>
 	<s id="3">Bonjour, Frontin !</s>
 </p>
 </sp>
-<sp stage="smile" who="LE COMTE"><speaker>LE COMTE, souriant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="65">
 	<s id="1">Le nom ne me choque pas. </s>
 	<s id="2">Et il me ferait tant plaisir, si vous vouliez être...</s>
@@ -744,13 +763,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Comtesse, Valentin.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Comtesse, Valentin.
+</stage>
 <sp who="VALENTIN"><speaker>VALENTIN.</speaker>
 <p id="1">
 	<s id="1">C'est moi, Madame_la_Comtesse !</s>
 </p>
 </sp>
-<sp stage="nervous" who="LA COMTESSE"><speaker>LA COMTESSE, avec humeur.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="1">
 	<s id="1">Encore vous ! </s>
 	<s id="2">Toujours vous !</s>
@@ -761,7 +782,8 @@
 	<s id="1">Je demande pardon à Madame_la_Comtesse, mais Monsieur_le_Comte a, m'a-t-il dit, laissé sur la console le rôle que monsieur le comte doit aller répéter et comme Monsieur_le_Comte achève de se costumer...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="LA COMTESSE"><speaker>LA COMTESSE, l'interrompant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="3">
 	<s id="1">Sur la console ? </s>
 	<s id="2">Voyez si c'est ce papier-là.</s>
@@ -838,13 +860,15 @@
 <stage type="open/">La porte s'ouvre et le comte parait, costume en valet de comédie du XVIIème siècle, habit rouge, culotte courte, souliers et boucles et bas blancs.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Le COMTE, costume de Frontin.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les Mêmes, Le COMTE, costume de Frontin.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
 	<s id="1">Portez cette lettre à son adresse, Valentin !</s>
 </p>
 </sp>
-<sp stage="watch/shout" who="LA COMTESSE"><speaker>LA COMTESSE, regardant le Comte et poussant un cri.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="watch/shout">, regardant le Comte et poussant un cri.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu !</s>
@@ -883,7 +907,8 @@
 	<s id="2">Allez, Valentin !</s>
 </p>
 </sp>
-<sp stage="toward" who="LA COMTESSE"><speaker>LA COMTESSE, à Valentin.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="toward">, à Valentin.
+</stage>
 <p id="8">
 	<s id="1">Attendez !</s>
 </p>
@@ -894,8 +919,10 @@
 <stage type="">Valentin s'incline et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Comte, La Comtesse.</head>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, éclatant de rire.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Comte, La Comtesse.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, éclatant de rire.
+</stage>
 <p id="1">
 	<s id="1">Que vous êtes original sous ce costume !</s>
 </p>
@@ -937,7 +964,8 @@
 	<s id="1">C'est ce que me disait tout à l'heure Valentin !</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Ne me parlez pas de votre Valentin, mon ami ! </s>
@@ -988,13 +1016,15 @@
 	<s id="2">Comtesse.</s>
 </p>
 </sp>
-<sp stage="tender" who="LA COMTESSE"><speaker>LA COMTESSE, tendrement.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="tender">, tendrement.
+</stage>
 <p id="16">
 	<s id="1">Voulez-vous que j'essaie de vous donner la réplique. </s>
 	<s id="2">Maître Frontin ?</s>
 </p>
 </sp>
-<sp stage="happy" who="LE COMTE"><speaker>LE COMTE, avec joie.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="17">
 	<s id="1">Vous consentiriez ! </s>
 	<s id="2">Vous, comtesse ?... </s>
@@ -1032,7 +1062,8 @@
 	<s id="3">Au bout du compte !</s>
 </p>
 </sp>
-<sp stage="location" who="LE COMTE"><speaker>LE COMTE, allant a la fenêtre.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="location">, allant a la fenêtre.
+</stage>
 <p id="21">
 	<s id="1">Et le voilà dans la cour, tenez ! </s>
 	<s id="2">Flirtant avec cette grosse fille blonde... </s>

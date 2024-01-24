@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -28,25 +28,26 @@
 			<titlePart type="main">LA CURIEUSE</titlePart>
 			<titlePart type="sub">COMÉDIE EN DEUX ACTES</titlePart>
 		</docTitle> 
-		<docDate value='1847'>1847</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1847">1847</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<printer>À PARIS, DIDIER, LIBRAIRE-ÉDITEUR, 35 Quai des Augustins, BELIN-LEPRIEUR ET MORIZOT, ÉDITEURS. 5, RUE PAVÉ-SAINT-ANDRÉ. </printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="LA MARQUISE DE VALCOUR" sex="2" type="H" statut="marquise" age='A' stat_amour='néant'>LA MARQUISE DE VALCOUR.</role>.</castItem>
-			<castItem><role id="SOPHIE" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>SOPHIE.</role>, sa fille.</castItem>
-			<castItem><role id="PAULINE" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>PAULINE.</role>, sa fille.</castItem>
-			<castItem><role id="CONSTANCE" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>CONSTANCE.</role>, nièce de la Marquise.</castItem>
-			<castItem><role id="LE CHEVALIER DE VALCOUR" sex="1" type="H" statut="chevalier" age='E' stat_amour='néant'>LE CHEVALIER DE VALCOUR.</role>, fils de la marquise, personnage muet. Il doit être vêtu en uniforme ; les cheveux épars et en désordre.</castItem>
-			<castItem><role id="ROSE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>ROSE.</role>, fille du jardinier.</castItem>
+			<castItem><role id="LA MARQUISE DE VALCOUR" sex="2" type="H" statut="marquise" age="A" stat_amour="néant">LA MARQUISE DE VALCOUR.</role>.</castItem>
+			<castItem><role id="SOPHIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">SOPHIE.</role>, sa fille.</castItem>
+			<castItem><role id="PAULINE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">PAULINE.</role>, sa fille.</castItem>
+			<castItem><role id="CONSTANCE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">CONSTANCE.</role>, nièce de la Marquise.</castItem>
+			<castItem><role id="LE CHEVALIER DE VALCOUR" sex="1" type="H" statut="chevalier" age="E" stat_amour="néant">LE CHEVALIER DE VALCOUR.</role>, fils de la marquise, personnage muet. Il doit être vêtu en uniforme ; les cheveux épars et en désordre.</castItem>
+			<castItem><role id="ROSE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ROSE.</role>, fille du jardinier.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est au château de la marquise.</set>
 		<note>Extrait de THÉÂTRE D'ÉDUCATION À L'USAGE DE LA JEUNESSE PAR MME DE GENLIS, NOUVELLE ÉDITION REVUE ET CORRIGÉE - II, pp. 61-140</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Sophie, Pauline.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Sophie, Pauline.
+</stage>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 <p id="1">
 	<s id="1">Ma soeur, je vous en conjure !...</s>
@@ -373,8 +374,10 @@
 	<s id="4">C'est Constance.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="2"><head>SCÈNE II. Sophie, Pauline, Constance.</head>
-<sp stage="run" who="CONSTANCE"><speaker>CONSTANCE, accourant.</speaker>
+</div2> <div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sophie, Pauline, Constance.
+</stage>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="run">, accourant.
+</stage>
 <p id="1">
  	<s id="1">Sophie ?...</s>
 </p> 
@@ -406,12 +409,14 @@
 </p> 
 <stage type="closer">Elle approche un banc.</stage>
 </sp> 
-<sp stage="low/toward" who="SOPHIE"><speaker>SOPHIE, bas à Constance.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="low/toward">, bas à Constance.
+</stage>
 <p id="6">
  	<s id="1">Il faut dissimuler.</s>
 </p> 
 </sp> 
-<sp stage="low/toward" who="CONSTANCE"><speaker>CONSTANCE, bas à Sophie.</speaker>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="low/toward">, bas à Sophie.
+</stage>
 <p id="7">
  	<s id="1">Nous ne trouverons donc jamais le moment de lire cette lettre !...</s>
 </p> 
@@ -452,7 +457,8 @@
 <stage type="exit/abrupt">Elle sort brusquement.</stage>
 </sp> 
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Sophie, Constance.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Sophie, Constance.
+</stage>
 <stage type="silence">Elles restent un moment sans parler, jusqu'à ce qu'elles aient perdu de vue Pauline.</stage>
 <sp who="CONSTANCE"><speaker>CONSTANCE.</speaker>
 <p id="1">
@@ -475,7 +481,8 @@
 	<s id="2">Mon_Dieu, quel tourment d'être obligée de prendre tant de précautions avec une personne que l'on aime !</s>
 </p> 
 </sp> 
-<sp stage="back" who="CONSTANCE"><speaker>CONSTANCE, revenant.</speaker>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="back">, revenant.
+</stage>
 <p id="5">
  	<s id="1">Rassurez-vous ; j'ai trouvé Rose à l'entrée du bosquet, et je l'ai chargée de nous avertir quand elle apercevrait Pauline.</s>
 </p> 
@@ -537,7 +544,8 @@
 	<s id="2">Quelle sera la fin de cette cruelle aventure ?</s>
 </p> 
 </sp> 
-<sp stage="back" who="CONSTANCE"><speaker>CONSTANCE, revenant.</speaker>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="back">, revenant.
+</stage>
 <p id="15">
  	<s id="1">Rosey est toujours, et Pauline ne paraît point... </s> 
 	<s id="2">Cette lettre ?... </s> 
@@ -618,7 +626,8 @@
 </p> 
 <stage type="get/hide">Elle reprend la lettre et la met dans sa poche.</stage>
 </sp> 
-<sp stage="run" who="ROSE"><speaker>ROSE accourt et dit en passant auprès de Sophie :</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="run"> accourt et dit en passant auprès de Sophie :
+</stage>
 <p id="28">
  	<s id="1">Mademoiselle Pauline est sur mes talons !</s>
 </p> 
@@ -640,7 +649,8 @@
 	<s id="2">Mais la voici, changeons d'entretien.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="4"><head>SCÈNE IV.Sophie, Constance, Pauline.</head>
+</div2> <div2 type="scene" n="4"><head>SCÈNE IV.</head><stage>Sophie, Constance, Pauline.
+</stage>
 <stage type="walk/stop">Pauline fait quelques pas et s'arrête.</stage>
 <sp who="CONSTANCE"><speaker>CONSTANCE.</speaker>
 <p id="1">
@@ -652,7 +662,8 @@
  	<s id="1">Et moi, je trouve qu'ils imitent mesquinement la nature, et...</s>
 </p> 
 </sp> 
-<sp stage="closer" who="PAULINE"><speaker>PAULINE, s'avançant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="closer">, s'avançant.
+</stage>
 <p id="3">
  	<s id="1">Pardon. </s> 
 	<s id="2">J'interromps, il me semble,une dispute bien vive, bien intéressante.</s>
@@ -745,8 +756,10 @@
  	<s id="1">C'est elle-même.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="5"><head>SCÈNE V. Sophie, Constance, Pauline, La Marquise.</head>
-<sp stage="aparte/location" who="LA MARQUISE"><speaker>LA MARQUISE, à part dans le fond du théâtre.</speaker>
+</div2> <div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sophie, Constance, Pauline, La Marquise.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="aparte/location">, à part dans le fond du théâtre.
+</stage>
 <p id="1">
  	<s id="1">La voici, il faut renvoyer les autres.</s>
 </p> 
@@ -801,14 +814,17 @@
  	<s id="1">Je vous défends d'en ajouter une seconde et de rester un instant de plus.</s>
 </p> 
 </sp> 
-<sp stage="aparte/away" who="PAULINE"><speaker>PAULINE, à part, en s'en allant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="11">
  	<s id="1">Je suis au désespoir !</s>
 </p> 
 <stage type="exit/follow">Elle sort ; Constance la suit.</stage>
 </sp> 
-</div2> <div2 type="scene" n="6"><head>SCENE VI. La Marquise, Sophie.</head>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, regardant sortir Pauline.</speaker>
+</div2> <div2 type="scene" n="6"><head>SCENE VI.</head><stage> La Marquise, Sophie.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, regardant sortir Pauline.
+</stage>
 <p id="1">
  	<s id="1">Quel caractère !... </s> 
 	<s id="2">Et que de peines il me cause !... </s> 
@@ -837,7 +853,8 @@
  	<s id="1">Il s'agit de votre frère...</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
  	<s id="1">Je ne le sais que trop.</s>
 </p> 
@@ -1068,7 +1085,8 @@
  	<s id="1">Que nous veut-elle ?...</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="7"><head>SCÈNE VII. La Marquise, Sophie, Rose.</head>
+</div2> <div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Marquise, Sophie, Rose.
+</stage>
 <sp who="ROSE"><speaker>ROSE.</speaker>
 <p id="1">
  	<s id="1">Madame !</s>
@@ -1103,11 +1121,12 @@
  	<s id="1">Hélas ! </s> 
 	<s id="2">Un rien me trouble et m'inquiète.</s>
 </p> 
-<stage type="wave/exit">>Rose fait plusieurs signes à Sophie pour l'engager à rester ; celle-ci n'a pas l'air de le remarquer, et sort avec la marquise.</stage>
+<stage type="wave/exit">&gt;Rose fait plusieurs signes à Sophie pour l'engager à rester ; celle-ci n'a pas l'air de le remarquer, et sort avec la marquise.</stage>
 </sp> 
 </div2> 
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="ROSE"><speaker>ROSE, seule.</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
  	<s id="1">Tous mes signes sont inutiles, elle n'y prend seulement pas garde... </s> 
 	<s id="2">Pardienne, il n'en faudrait pas tant faire à Mademoiselle Pauline pour la retenir... </s> 
@@ -1139,7 +1158,8 @@
 	<s id="6">Serrons vite la bourse et la lettre.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="9"><head>SCÈNE IX. Pauline, Rose.</head>
+</div2> <div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Pauline, Rose.
+</stage>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 <p id="1">
  	<s id="1">Rose... </s> 
@@ -1208,7 +1228,8 @@
  	<s id="1">Allons, me v'là enjolée, il faut que je vous dise tout.</s>
 </p> 
 </sp> 
-<sp stage="kiss" who="PAULINE"><speaker>PAULINE, l'embrassant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="13">
  	<s id="1">Ah ! </s> 
 	<s id="2">Rose, que je t'aime !</s>
@@ -1239,7 +1260,8 @@
  	<s id="1">Enfin, c'est comme un conte de roman.</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="PAULINE"><speaker>PAULINE, à part.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
  	<s id="1">Qu'elle m'impatiente !</s>
 </p> 
@@ -1351,7 +1373,8 @@
 	<s id="2">Vous voyez bien que c'est l'homme à la lettre ; ça y ressemble bien, du moins.</s>
 </p> 
 </sp> 
-<sp stage="sad" who="PAULINE"><speaker>PAULINE, tristement</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="sad">, tristement
+</stage>
 <p id="37">
  	<s id="1">Rose, il faut que je porte cette lettre à maman... </s> 
 	<s id="2">Quand elle serait pour moi, je ne dois pas l'ouvrir... </s> 
@@ -1510,7 +1533,8 @@
 </div1> 
 <div1 type="act" n="2"><head>ACTE II</head> 
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="PAULINE"><speaker>PAULINE, seule.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
  	<s id="1">Je n'aperçois point Rose ; où est-elle ?... </s> 
 	<s id="2">Tout le monde me fuit ; maman m'évite, je n'ai pu lui parler en particulier pour lui remettre cette lettre... </s> 
@@ -1522,8 +1546,10 @@
 <stage type="dream">Elle devient rêveuse.</stage>
 </sp> 
 </div2> 
-<div2 type="scene" n="2"><head>SCÈNE II. Pauline, Rose.</head>
-<sp stage="run" who="ROSE"><speaker>ROSE, accourant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pauline, Rose.
+</stage>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="run">, accourant.
+</stage>
 <p id="1">
  	<s id="1">Mademoiselle, Mademoiselle !...</s>
 </p> 
@@ -1742,7 +1768,8 @@
 	<s id="2">Et tout haut, s'il vous plaît ; j'en veux ma part.</s>
 </p> 
 </sp> 
-<sp stage="get/read" who="PAULINE"><speaker>PAULINE, prenant la lettre, et lisant des yeux.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="get/read">, prenant la lettre, et lisant des yeux.
+</stage>
 <p id="30">
  	<s id="1">Elle est sans signature.</s>
 </p> 
@@ -1769,7 +1796,8 @@
 	<s id="2">C'est un épouseux !...</s>
 </p> 
 </sp> 
-<sp stage="continue" who="PAULINE"><speaker>PAULINE, continuant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="continue">, continuant.
+</stage>
 <p id="35">
  	<s id="1">« Mais la crainte que votre famille n'ait pris des « engagements contraires aux voeux que j'ose former, me retient et m'empêche de me déclarer. </s> 
 	<s id="2">J'avais d'abord pris la résolution d'avouer « mes sentiments à mon père, mais je ne veux lui parler qu'avec votre aveu et celui de madame la Marquise de Valcour ; car je vous connais assez, Mademoiselle, pour être bien sur que cette lettre lui sera communiquée. »</s>
@@ -2100,7 +2128,8 @@
 	<s id="6">Dam, je suis fâchée de vous le dire,,mais pourquoi me rudoyez-vous ?</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="PAULINE"><speaker>PAULINE, à part.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="91">
  	<s id="1">Peut-on se voir plus cruellement humiliée !...</s>
 </p> 
@@ -2119,7 +2148,8 @@
 </p> 
 <stage type="exit">Elle sort.</stage>
 </sp> 
-<sp stage="alone" who="PAULINE"><speaker>PAULINE, seule</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="alone">, seule
+</stage>
 <p id="93">
  	<s id="1">Je suis confondue... </s> 
 	<s id="2">La colère, la honte me suffoquent... </s> 
@@ -2129,8 +2159,10 @@
 	<s id="6">Peut-on jamais compter sur l'attachement et la fidélité de ceux dont on s'est attiré le mépris ?...</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="3"><head>SCÈNE III. Pauline, Constance.</head>
-<sp stage="location" who="CONSTANCE"><speaker>CONSTANCE, dans le fond du théâtre.</speaker>
+</div2> <div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Pauline, Constance.
+</stage>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="location">, dans le fond du théâtre.
+</stage>
 <p id="1">
  	<s id="1">Sophie n'est point ici...</s>
 </p> 
@@ -2155,7 +2187,8 @@
 </p> 
 </sp> 
 </div2> 
-<div2 type="scene" n="4"><head>SCÈNE IV. Pauline, Constance, Sophie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pauline, Constance, Sophie.
+</stage>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 <p id="1">
  	<s id="1">Venez, ma soeur, Constance est ici... </s> 
@@ -2184,7 +2217,8 @@
 	<s id="2">Mais autant.</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
  	<s id="1">Elle m'inquiète malgré moi.</s>
 </p> 
@@ -2200,7 +2234,8 @@
  	<s id="1">J'ai, il est vrai, plus d'un sujet de chagrin !...</s>
 </p> 
 </sp> 
-<sp who="SOPHIE"><speaker>SOPHIE, avec crainte.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage>, avec crainte.
+</stage>
 <p id="9">
  	<s id="1">Tiennent-ils à ce que vous croyez avoir découvert ?...</s>
 </p> 
@@ -2211,7 +2246,8 @@
 	<s id="2">Point du tout...</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="¨11">
  	<s id="1">Je respire ! </s> 
 	<s id="2">Elle ne sait rien.</s>
@@ -2223,12 +2259,14 @@
 	<s id="2">Et tel qui se cache aujourd'hui, paraîtra demain sans mystère...</s>
 </p> 
 </sp> 
-<sp stage="embarrassed" who="SOPHIE"><speaker>SOPHIE, troublée.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="13">
  	<s id="1">Tel qui se cache !...</s>
 </p> 
 </sp> 
-<sp stage="low/toxard" who="CONSTANCE"><speaker>CONSTANCE, bas à Sophie.</speaker>
+<sp who="CONSTANCE"><speaker>CONSTANCE</speaker><stage type="low/toxard">, bas à Sophie.
+</stage>
 <p id="14">
  	<s id="1">Grand Dieu ! </s> 
 	<s id="2">Saurait-elle !...</s>
@@ -2243,7 +2281,8 @@
  	<s id="1">Je ne puis m'empêcher de rire de leur stupéfaction...</s>
 </p> 
 </sp> 
-<sp stage="low/toward" who="SOPHIE"><speaker>SOPHIE, bas à Constance.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="low/toward">, bas à Constance.
+</stage>
 <p id="17">
  	<s id="1">Sa gaîté prouve qu'elle ne sait rien ; mais que veut-elle dire ?...</s>
 </p> 
@@ -2278,7 +2317,8 @@
 	<s id="3">Que m'est-il donc échappé ?...</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
  	<s id="1">Elle ignore notre secret ; et je me suis trahie.</s>
 </p> 
@@ -2292,7 +2332,8 @@
 	<s id="5">Calmez-vous, et répondez-moi.</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="SOPHIE"><speaker>SOPHIE, à part.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
  	<s id="1">Tâchons du moins de réparer mon imprudence.</s>
 </p> 
@@ -2359,7 +2400,8 @@
 	<s id="5">Mais rassurez-vous, ma soeur, ce n'est point de moi que maman apprendra ce qu'elle a droit d'attendre de votre repentir et de votre confiance.</s>
 </p> 
 </sp> 
-<sp stage="aparte" who="PAULINE"><speaker>PAULINE, à part.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="23">
  	<s id="1">Je ne puis m'empêcher de rougir des torts qu'elle me reproche, et de ceux qu'elle ignore !...</s>
 </p> 
@@ -2372,7 +2414,8 @@
 	<s id="4">C'est Rose ; que nous veut-elle ?</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="5"><head>SCÈNE V. Pauline, Constance, Sophie, Rose.</head>
+</div2> <div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Pauline, Constance, Sophie, Rose.
+</stage>
 <sp who="ROSE"><speaker>ROSE.</speaker>
 <p id="1">
  	<s id="1">Mesdemoiselles, madame m'envoie vous dire qu'elle ne paraîtra point au souper ; elle se fera servir dans sa chambre, parce qu'elle veut se coucher de bonne heure.</s>
@@ -2400,8 +2443,10 @@
 <stage type="exit/follow">Pauline sort, Rose la suit.</stage>
 </sp> 
 </div2> 
-<div2 type="scene" n="6"><head>SCÈNE VI. Sophie, Constance.</head>
-<sp stage="stop" who="SOPHIE"><speaker>SOPHIE, arrêtant Constance.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Sophie, Constance.
+</stage>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="stop">, arrêtant Constance.
+</stage>
 <p id="1">
  	<s id="1">Un mot, Constance... </s> 
 	<s id="2">Maman n'est point malade... </s> 
@@ -2506,7 +2551,8 @@
 	<s id="5">Cette malheureuse aventure est si bizarre, qu'il me semble impossible d'en pénétrer le mystère...</s>
 </p> 
 </sp> 
-<sp stage="entrance" who="ROSE"><speaker>ROSE, survenant.</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="entrance">, survenant.
+</stage>
 <p id="18">
  	<s id="1">Mesdemoiselles, le souper vous attend.</s>
 </p> 
@@ -2517,7 +2563,8 @@
 </p> 
 <stage type="exit">Elles sortent.</stage>
 </sp> 
-<sp stage="alone" who="ROSE"><speaker>ROSE, seule.</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="alone">, seule.
+</stage>
 <p id="20">
  	<s id="1">Que fait donc Mademoiselle Pauline dans le parterre avec ce Baron de Sénanges ? </s> 
 	<s id="2">Ils causent là comme s'ils se connaissaient depuis dix ans !... </s> 
@@ -2535,7 +2582,8 @@
 	<s id="14">V'là Mademoiselle Pauline.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="7"><head>SCÈNE VII. Pauline, Rose.</head>
+</div2> <div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Pauline, Rose.
+</stage>
 <sp who="ROSE"><speaker>ROSE.</speaker>
 <p id="1">
  	<s id="1">Eh ! </s> 
@@ -2543,7 +2591,8 @@
 	<s id="3">Mademoiselle, comme vous v'là toute ahurie ; qu'avez-vous donc ?</s>
 </p> 
 </sp> 
-<sp stage="fall/sit" who="PAULINE"><speaker>PAULINE, se jetant sur une chaise.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="fall/sit">, se jetant sur une chaise.
+</stage>
 <p id="2">
  	<s id="1">J'ignore quelle imprudence j'ai commise... </s> 
 	<s id="2">Mais il faut que j'aie été indiscrète... </s> 
@@ -2648,15 +2697,18 @@
 <stage type="exit">Elles sortent.</stage>
 </sp> 
 </div2> 
-<div2 type="scene" n="8"><head>SCÈNE VIII. Rose, Pauline, La Marquise.</head>
-<sp stage="carry" who="LA MARQUISE"><speaker>LA MARQUISE, une lanterne à la main.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Rose, Pauline, La Marquise.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="carry">, une lanterne à la main.
+</stage>
 <stage type="thunder/rain">Le tonnerre gronde, et la pluie commence à tomber.</stage>
 <p id="1">
  	<s id="1">Tout le monde est retiré ; je vais attendre ici Constance et Sophie, pour les conduire... </s> 
 	<s id="2">J'entends marcher !</s>
 </p> 
 </sp> 
-<sp stage="low/toward" who="ROSE"><speaker>ROSE, bas à Pauline.</speaker>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="low/toward">, bas à Pauline.
+</stage>
 <p id="3">
  	<s id="1">Bon Dieu, c'est Madame !... </s> 
 	<s id="2">Parlez donc, Mademoiselle.</s>
@@ -2667,7 +2719,8 @@
  	<s id="1">Je tremble...</s>
 </p> 
 </sp> 
-<sp stage="closer/recognize/escape" who="LA MARQUISE"><speaker>LA MARQUISE s'avance, et à la lueur de sa lanterne elle reconnaît Pauline : Rose se sauve.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="closer/recognize/escape"> s'avance, et à la lueur de sa lanterne elle reconnaît Pauline : Rose se sauve.
+</stage>
 <p id="5">
  	<s id="1">Que vois-je ?... </s> 
 	<s id="2">C'est vous, Pauline, à l'heure qu'il est et par ce temps affreux ! </s> 
@@ -2679,7 +2732,8 @@
  	<s id="1">Maman, daignez m'entendre, je vous en conjure !...</s>
 </p> 
 </sp> 
-<sp stage="drop" who="LA MARQUISE"><speaker>LA MARQUISE, posant la lanterne à terre.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="drop">, posant la lanterne à terre.
+</stage>
 <p id="7">
  	<s id="1">Répondez, que faisiez-vous ici ?... </s> 
 	<s id="2">Ah ! </s> 
@@ -2819,7 +2873,8 @@
  	<s id="1">C'est ma soeur...</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="9"><head>SCÈNE IX. Sophie, Pauline, La Marquise.</head>
+</div2> <div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Sophie, Pauline, La Marquise.
+</stage>
 <stage type="entrance">Rose survient un moment après.</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
@@ -2858,7 +2913,8 @@
 	<s id="2">Ce ne peut être que Gérard ou Thibaut...</s>
 </p> 
 </sp> 
-<sp stage="kneel" who="PAULINE"><speaker>PAULINE, se jetant aux pieds de sa mère.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="kneel">, se jetant aux pieds de sa mère.
+</stage>
 <p id="7">
  	<s id="1">Non, maman ; n'accusez que moi...</s>
 </p> 
@@ -2918,7 +2974,8 @@
 </p> 
 <stage type="exit/hurry">Elles sortent, toutes les deux précipitamment.</stage>
 </sp> 
-</div2> <div2 type="scene" n="10"><head>SCENE X. Pauline, évanouie, Rose.</head>
+</div2> <div2 type="scene" n="10"><head>SCENE X.</head><stage> Pauline, évanouie, Rose.
+</stage>
 <sp who="ROSE"><speaker>ROSE.</speaker>
 <p id="1">
  	<s id="1">Les voilà parties !... </s> 
@@ -3058,7 +3115,8 @@
 <stage type="exit/carry">Elle sort et emporte la lanterne avec elle.</stage>
 </sp> 
 </div2> <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="PAULINE"><speaker>PAULINE, seule.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
  	<s id="1">Ô mon frère, mon frère !... </s> 
 	<s id="2">dans quel abîme je t'ai précipité !... </s> 
@@ -3077,8 +3135,10 @@
 	<s id="5">On vient...</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="12"><head>SCÈNE XII. Pauline, Rose.</head>
-<sp stage="run" who="ROSE"><speaker>ROSE, accourant.</speaker>
+</div2> <div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Pauline, Rose.
+</stage>
+<sp who="ROSE"><speaker>ROSE</speaker><stage type="run">, accourant.
+</stage>
 <p id="1">
  	<s id="1">Mademoiselle ! </s> 
 	<s id="2">Bonne nouvelle !...</s>
@@ -3236,7 +3296,8 @@
 	<s id="12">Je dois gémir de mes malheurs ; mais je ne puis m'en plaindre, ils sont mon ouvrage.</s>
 </p> 
 </sp> 
-</div2> <div2 type="scene" n="13"><head>SCÈNE XIII. Pauline, Rose, Sophie, La Marquise, le chevalier de Valcour, Constance, plusieurs domestiques portant des flambeaux.</head>
+</div2> <div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Pauline, Rose, Sophie, La Marquise, le chevalier de Valcour, Constance, plusieurs domestiques portant des flambeaux.
+</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
  	<s id="1">Où est-elle, où est-elle ?...</s>
@@ -3248,12 +3309,14 @@
 	<s id="2">Ma soeur !...</s>
 </p> 
 </sp> 
-<sp stage="run/closer/kiss" who="SOPHIE"><speaker>SOPHIE, courant à elle et l'embrassant.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="run/closer/kiss">, courant à elle et l'embrassant.
+</stage>
 <p id="3">
  	<s id="1">Chère Pauline, tous nos maux sont finis : venez, mon frère est impatient de vous presser dans ses bras ; ma mère vous demande...</s>
 </p> 
 </sp> 
-<sp stage="kiss" who="PAULINE"><speaker>PAULINE, l'embrassant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="4">
  	<s id="1">Ma bonne soeur, je sais tout... </s> 
 	<s id="2">Ma mère me demande, dites-vous ?...</s>
@@ -3300,4 +3363,4 @@
 </div1> 
 </body> 
 </text> 
-</TEI> 
+</TEI>

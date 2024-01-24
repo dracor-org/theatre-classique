@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -27,28 +27,30 @@
 				<titlePart type="main">RETOUR DE BRUXELLES</titlePart>
 				<titlePart type="sub">COMÉDIE EN DEUX TABLEAUX.</titlePart>
 			</docTitle>
-			<docDate value='1878'>1878. Tous droits réservés</docDate>
-			<docAuthor id='VERCONSIN, Eugène' bio='versonsin'>PAR M. EUGÈNE VERCONSIN.</docAuthor>
+			<docDate value="1878">1878. Tous droits réservés</docDate>
+			<docAuthor id="VERCONSIN, Eugène" bio="versonsin">PAR M. EUGÈNE VERCONSIN.</docAuthor>
 			<docImprint>
-				<editor id='OLLENDORF'>PARIS, PAUL OLLENDORF, ÉDITEUR,28 bis rue de Richelieu.</editor>
-				<printer id='HERISSEY'>EVREUX, IMPRIMERIE DE CHARLES HÉRISSEY.</printer>
+				<editor id="OLLENDORF">PARIS, PAUL OLLENDORF, ÉDITEUR,28 bis rue de Richelieu.</editor>
+				<printer id="HERISSEY">EVREUX, IMPRIMERIE DE CHARLES HÉRISSEY.</printer>
 			</docImprint>
 			<castList><head>PERSONNAGES</head>
-				<castItem><role id='GASTON' sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>GASTON</role>.</castItem>
-				<castItem><role id='ADRIENNE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>ADRIENNE</role>, femme de Gaston.</castItem>
-				<castItem><role id='MISS DÉBORAH' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MISS DÉBORAH</role>.</castItem>
-				<castItem><role id='MATHILDE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MATHILDE</role>.</castItem>
-				<castItem><role id='UNE VIEILLE DAME' sex="2" type="H" statut='bourgeois' age='V' stat_amour='néant'>UNE VIEILLE DAME</role>.</castItem>
-				<castItem><role id='DEUX DOUANIERS' sex="1" type="H" statut='douanier' age='A' stat_amour='néant'>DEUX DOUANIERS</role>.</castItem>
-				<castItem><role id='UN DOMESTIQUE' sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>Un DOMESTIQUE</role>.</castItem>
+				<castItem><role id="GASTON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GASTON</role>.</castItem>
+				<castItem><role id="ADRIENNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">ADRIENNE</role>, femme de Gaston.</castItem>
+				<castItem><role id="MISS DÉBORAH" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MISS DÉBORAH</role>.</castItem>
+				<castItem><role id="MATHILDE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MATHILDE</role>.</castItem>
+				<castItem><role id="UNE VIEILLE DAME" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">UNE VIEILLE DAME</role>.</castItem>
+				<castItem><role id="DEUX DOUANIERS" sex="1" type="H" statut="douanier" age="A" stat_amour="néant">DEUX DOUANIERS</role>.</castItem>
+				<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">Un DOMESTIQUE</role>.</castItem>
 			</castList>
 <set location="Bruxelles" country="Belgique" periode="XIXème" gps="50.850340, 4.351710">Le premier tableau se passe dans un hôtel de Bruxelles. — Le second sur la frontière de France, à la gare du chemin de fer.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>PREMIER TABLEAU</head>
 <stage type="decor">Chambre d'hôtel en désordre, portes latérales ; beaucoup de malles et de menus colis par terre et sur les meubles. Table au fond. Guéridon à gauche, premier plan, encrier, plumes, etc. Toilette de voyage sur la table à droite au fond.</stage>
-<div2 type="scene" n="2" stage="sit/write"><head>SCÈNE PREMIÈRE. A, seule, assise et écrivant.</head>
-<sp stage="read" who="ADRIENNE"><speaker>ADRIENNE, se relisant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE PREMIÈRE.</head><stage type="sit/write"> A, seule, assise et écrivant.
+</stage>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="read">, se relisant.
+</stage>
 <p id="1">
 	<s id="1">« Apportez-moi vos dentelles au reçu de ma lettre, nous partons ce soir. »</s>
 </p>
@@ -71,8 +73,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME. Adrienne, Gaston.</head>
-<sp stage="costume" who="GASTON"><speaker>GASTON, son chapeau sur la tête.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME.</head><stage> Adrienne, Gaston.
+</stage>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="costume">, son chapeau sur la tête.
+</stage>
 <p id="1">
 	<s id="1">Soyez satisfaite, ma chère. </s>
 	<s id="2">Je renonce à visiter la galerie du Baron Van Berg et nous quittons Bruxelles aujourd'hui, avec vos amies, Madame Drançay et miss Déborah.</s>
@@ -97,7 +101,8 @@
 	<s id="1">J'ai juste le temps de fermer mes malles.</s>
 </p>
 </sp>
-<sp stage="watch" who="GASTON"><speaker>GASTON, lorgnant les malles et souriant.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="watch">, lorgnant les malles et souriant.
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous avez raison de les mettre au pluriel ; vous devez emporter là une partie de la Belgique.</s>
@@ -263,7 +268,8 @@
 </p>
  <stage type="dress">Il reprend son chapeau.</stage>
 </sp>
-<sp stage="aparte/desapointed" who="ADRIENNE"><speaker>ADRIENNE, à part, désappointée.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="aparte/desapointed">, à part, désappointée.
+</stage>
 <p id="36">
 	<s id="1">Oh ! </s>
 	<s id="2">Alors, ce n'est plus amusant.</s>
@@ -350,7 +356,8 @@
 	<s id="1">Me moquer, quand tu viens de gagner la plus belle des victoires, celle qu'on remporte sur soi-même !</s>
 </p>
 </sp>
-<sp stage="push/location" who="ADRIENNE"><speaker>ADRIENNE, le reconduisant à la porte de gauche.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="push/location">, le reconduisant à la porte de gauche.
+</stage>
 <p id="53">
 	<s id="1">Sortez, mauvais plaisant.</s>
 </p>
@@ -361,19 +368,22 @@
 	<s id="1">C'est-à-dire qu'Alexandre lui-même, après la bataille d'Arbelles...</s>
 </p>
 </sp>
-<sp stage="push/exit" who="ADRIENNE"><speaker>ADRIENNE, le mettant à la porte.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="push/exit">, le mettant à la porte.
+</stage>
 <p id="55">
 	<s id="1">Voulez-vous bien vous taire !</s>
 </p>
 </sp>
-<sp stage="location" who="GASTON"><speaker>GASTON, en dehors.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="location">, en dehors.
+</stage>
 <p id="56">
 	<s id="1">Alexandre n'en a jamais fait autant.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ADRIENNE"><speaker>ADRIENNE, seule.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Dépassons donc Alexandre et donnons contre-ordre à Madame Salomon, la plus redoutable tentatrice des Flandres...</s>
 </p>
@@ -388,13 +398,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Adrienne, Mathilde, Miss Déborah.</head>
-<sp stage="touch" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, lui secouant la main à l'anglaise.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Adrienne, Mathilde, Miss Déborah.
+</stage>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="touch">, lui secouant la main à l'anglaise.
+</stage>
 <p id="1">
 	<s id="1">Bonjour, Madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="ADRIENNE"><speaker>ADRIENNE, à Mathilde.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="toward">, à Mathilde.
+</stage>
 <p id="2">
 	<s id="1">Es-tu gentille ! </s>
 </p>
@@ -403,7 +416,8 @@
 	<s id="1">Vous êtes bien, chère miss ?</s>
 </p>
 </sp>
-<sp stage="accent" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, avec l'accent anglais.</speaker>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="accent">, avec l'accent anglais.
+</stage>
 <p id="4">
 	<s id="1">Thank you, très bien.</s>
 </p>
@@ -698,7 +712,8 @@ Elle regarde dans le sac.
 	<s id="3">J'ai... que tu as été dupe de ton mari, ma pauvre enfant !</s>
 </p>
 </sp>
-<sp stage="protest" who="ADRIENNE"><speaker>ADRIENNE, protestant.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="protest">, protestant.
+</stage>
 <p id="47">
 	<s id="">Ah !</s>
 </p>
@@ -736,7 +751,8 @@ Elle regarde dans le sac.
 	<s id="1">Comme moi.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, à part.</speaker>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="aparte">, à part.
+</stage>
 <p id="54">
 	<s id="1">Ces Françaises n'avaient pas de caractère.</s>
 </p>
@@ -813,7 +829,8 @@ Elle regarde dans le sac.
 	<s id="2">N'en dis rien à ton tyran aujourd'hui, et demain, quand tu les lui montreras, il sera le premier à rire et à te complimenter sur ton acquisition.</s>
 </p>
 </sp>
-<sp stage="location" who="LA VOIX D'UN DOMESTIQUE"><speaker>LA VOIX D'UN DOMESTIQUE, à droite.</speaker>
+<sp who="LA VOIX D'UN DOMESTIQUE"><speaker>LA VOIX D'UN DOMESTIQUE</speaker><stage type="location">, à droite.
+</stage>
 <p id="68">
 	<s id="1">Madame Salomon demande à parler à Madame.</s>
 </p>
@@ -823,7 +840,8 @@ Elle regarde dans le sac.
 	<s id="1">Elle venait à propos.</s>
 </p>
 </sp>
-<sp stage="toward" who="MATHILDE"><speaker>MATHILDE, à la cantonade.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="toward">, à la cantonade.
+</stage>
 <p id="70">
 	<s id="1">Faites entrer Madame Salomon.</s>
 </p>
@@ -862,12 +880,14 @@ Elle regarde dans le sac.
 	<s id="1">Et allons admirer ses merveilles.</s>
 </p>
 </sp>
-<sp stage="hesitate" who="ADRIENNE"><speaker>ADRIENNE, hésitant.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="76">
 	<s id="1">Je ne sais pas si je dois...</s>
 </p>
 </sp>
-<sp stage="pull" who="MATHILDE"><speaker>MATHILDE, l'emmenant.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="pull">, l'emmenant.
+</stage>
 <p id="77">
 	<s id="1">Allons ! </s>
 	<s id="2">Viens donc.</s>
@@ -884,8 +904,10 @@ Elle regarde dans le sac.
 </div1>
 <div1 type="act" n="2"><head>DEUXIÈME TABLEAU.</head>
 <stage type="decor">La scène se passe à la frontière, dans la salle de la visite des bagages. Des malles et des sacs de nuit rangés sur deux tables placées au premier plan, l'une à droite, l'autre à gauche. Banc au fond.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Deux Douaniers, Gaston , Adrienne, Miss Déborah, Mathilde, Une Vieille Dame, Un Porteur.</head>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à la table de droite.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Deux Douaniers, Gaston , Adrienne, Miss Déborah, Mathilde, Une Vieille Dame, Un Porteur.
+</stage>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage>, à la table de droite.
+</stage>
 <p id="1">
 	<s id="1">Par ici, messieurs les voyageurs. </s>
 </p>
@@ -909,13 +931,15 @@ Elle regarde dans le sac.
 	<s id="1">Et moa le mienne.</s>
 </p>
 </sp>
-<sp stage="call/together" who="TOUS"><speaker>TOUS, appelant.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="call/together">, appelant.
+</stage>
 <p id="6">
 	<s id="1">Monsieur l'employé ! Monsieur l'employé !</s>
 </p>
 <stage type="narration">Tous ouvrent leurs malles ; le premier douanier commence à visiter les malles d'Adrienne.</stage>
 </sp>
-<sp who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME, au deuxième, douanier.</speaker>
+<sp who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME</speaker><stage>, au deuxième, douanier.
+</stage>
 <p id="7">
 	<s id="1">Moi, d'abord.</s>
 </p>
@@ -961,7 +985,8 @@ Elle regarde dans le sac.
 	<s id="3">Où est Théodore ?</s>
 </p>
 </sp>
-<sp stage="explicit" who="GASTON"><speaker>GASTON, voisin de la vieille dame.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="explicit">, voisin de la vieille dame.
+</stage>
 <p id="16">
 	<s id="1">Madame a perdu son mari ?</s>
 </p>
@@ -976,13 +1001,15 @@ Elle regarde dans le sac.
 	<s id="1">Je vous demande si vous avez perdu Monsieur votre mari.</s>
 </p>
 </sp>
-<sp stage="stress" who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME, émue.</speaker>
+<sp who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME</speaker><stage type="stress">, émue.
+</stage>
 <p id="19">
 	<s id="1">Hélas ! </s>
 	<s id="2">Monsieur, depuis dix-sept ans.</s>
 </p>
 </sp>
-<sp stage="aparte" who="GASTON"><speaker>GASTON, à part.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="20">
 	<s id="1">Qu'est-ce qu'elle chante ? </s>
 </p>
@@ -1008,7 +1035,8 @@ Elle regarde dans le sac.
 	<s id="1">C'est mon chien, Monsieur ; mon seul ami sur cette terre.</s>
 </p>
 </sp>
-<sp stage="search" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, visitant la malle de la vieille dame.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="search">, visitant la malle de la vieille dame.
+</stage>
 <p id="25">
 	<s id="1">Un drôle de nom pour un chien !</s>
 </p>
@@ -1036,7 +1064,8 @@ Elle regarde dans le sac.
 	<s id="2">Vous n'avez rien à déclarer ?</s>
 </p>
 </sp>
-<sp stage="dress" who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME, ouvrant son châle.</speaker>
+<sp who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME</speaker><stage type="dress">, ouvrant son châle.
+</stage>
 <p id="29">
 	<s id="1">Vous pouvez me fouiller, je me livre à vous, Monsieur.</s>
 </p>
@@ -1088,7 +1117,8 @@ Elle regarde dans le sac.
 	<s id="1">Mais c'est un objet intime, Monsieur.</s>
 </p>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, renseigné.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage>, renseigné.
+</stage>
 <p id="39">
 	<s id="1">Ah ! </s>
 	<s id="2">Il fallait donc le dire tout de suite. </s>
@@ -1096,7 +1126,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="">Il la marque à la craie et ouvre la malle de miss Déborah.</stage>
 </sp>
-<sp stage="get" who="VIEILLE DAME"><speaker>LA VIEILLE DAME, prenant sa malle.</speaker>
+<sp who="VIEILLE DAME"><speaker>LA VIEILLE DAME</speaker><stage type="get">, prenant sa malle.
+</stage>
 <p id="40">
 	<s id="1">Quel butor ! </s>
 </p>
@@ -1112,8 +1143,10 @@ Elle regarde dans le sac.
 <stage type="exit/carry">Elle sort en emportant sa malle.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME. Les Mêmes, moins la vieille dame.</head>
-<sp stage="low/toxard" who="ADRIENNE"><speaker>ADRIENNE, bas à Gaston.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE DEUXIÈME.</head><stage> Les Mêmes, moins la vieille dame.
+</stage>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="low/toxard">, bas à Gaston.
+</stage>
 <p id="1">
 	<s id="1">Voilà une dame qui a passé ses dentelles.</s>
 </p>
@@ -1123,7 +1156,8 @@ Elle regarde dans le sac.
 	<s id="1">Elles ne la rajeuniront pas.</s>
 </p>
 </sp>
-<sp stage="toward" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à Miss Déborah.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="toward">, à Miss Déborah.
+</stage>
 <p id="3">
 	<s id="1">Votre malle ne contient pas d'objets soumis au droit ?</s>
 </p>
@@ -1165,7 +1199,8 @@ Elle regarde dans le sac.
 	<s id="3">Vous pouvez passer.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, bas à Adrienne.</speaker>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="low/toward">, bas à Adrienne.
+</stage>
 <p id="10">
 	<s id="1">J'ai passé mes dentelles. </s>
 </p>
@@ -1175,7 +1210,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="sit/location">Elle s'assoit sur le banc qui est dans le fond.</stage>
 </sp>
-<sp stage="low/toward" who="ADRIENNE"><speaker>ADRIENNE, bas à Gaston.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="low/toward">, bas à Gaston.
+</stage>
 <p id="12">
 	<s id="1">Miss Déborah passe aussi les siennes.</s>
 </p>
@@ -1191,7 +1227,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="open">Elle va ouvrir ses malles.</stage>
 </sp>
-<sp stage="aparte/location" who="GASTON"><speaker>GASTON, à part, passant à l'extrême droite.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="aparte/location">, à part, passant à l'extrême droite.
+</stage>
 <p id="15">
 	<s id="1">Voilà un reproche qui retentira souvent à mes oreilles, et nul moyen de l'éviter. </s>
 </p>
@@ -1208,7 +1245,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="show/open/low">Il indique une valise sur la table de droite et l'ouvre devant le deuxième douanier, en lui parlant bas.</stage>
 </sp>
-<sp stage="toward" who="ADRIENNE"><speaker>ADRIENNE, au premier douanier à gauche.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="toward">, au premier douanier à gauche.
+</stage>
 <p id="18">
 	<s id="1">Je puis refermer cette malle ?</s>
 </p>
@@ -1218,12 +1256,14 @@ Elle regarde dans le sac.
 	<s id="1">Oui, madame.</s>
 </p>
 </sp>
-<sp stage="toward" who="MATHILDE"><speaker>MATHILDE, au premier douanier.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="toward">, au premier douanier.
+</stage>
 <p id="20">
 	<s id="1">À mon tour.</s>
 </p>
 </sp>
-<sp stage="happy" who="PREMIER DOUANIER"><speaker>PREMIER DOUANIER, très aimable.</speaker>
+<sp who="PREMIER DOUANIER"><speaker>PREMIER DOUANIER</speaker><stage type="happy">, très aimable.
+</stage>
 <p id="21">
 	<s id="1">Madame n'a rien à déclarer?</s>
 </p>
@@ -1254,7 +1294,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="close">Il reboucle la malle de Mathilde.</stage>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, à part.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage>, à part.
+</stage>
 <p id="27">
 	<s id="1">Hein !</s>
 </p>
@@ -1278,7 +1319,8 @@ Elle regarde dans le sac.
 	<s id="2">Je passerai mes dentelles.</s>
 </p>
 </sp>
-<sp stage="toward/draw" who="PREMIER DOUANIER"><speaker>PREMIER DOUANIER, à Mathilde, en marquant sa malle.</speaker>
+<sp who="PREMIER DOUANIER"><speaker>PREMIER DOUANIER</speaker><stage type="toward/draw">, à Mathilde, en marquant sa malle.
+</stage>
 <p id="32">
 	<s id="1">Madame peut faire enlever sa malle.</s>
 </p>
@@ -1290,7 +1332,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="sit">Elle s'assoit sur le banc.</stage>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, bas à Gaston, en désignant Adrienne.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage>, bas à Gaston, en désignant Adrienne.
+</stage>
 <p id="34">
 	<s id="1">Ainsi vous pensez que cette dame ?...</s>
 </p>
@@ -1301,19 +1344,22 @@ Elle regarde dans le sac.
 	<s id="2">Je dis seulement que vous  votre service mollement.</s>
 </p>
 </sp>
-<sp stage="aparte" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à part.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="36">
 	<s id="1">Oui-da ; serait-ce un inspecteur ?... </s>
 	<s id="2">Ouvrons l'oeil. </s>
 </p>
 <stage type="closer">Il se rapproche d'Adrienne.</stage>
 </sp>
-<sp stage="toward" who="ADRIENNE"><speaker>ADRIENNE, au porteur.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="toward">, au porteur.
+</stage>
 <p id="37">
 	<s id="1">Mes malles sont à remporter.</s>
 </p>
 </sp>
-<sp stage="toward" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, passant à la table de gauche.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="toward">, passant à la table de gauche.
+</stage>
 <p id="38">
 	<s id="1">Pardon, Madame, celle-ci n'a pas été visitée. </s>
 </p>
@@ -1339,7 +1385,8 @@ Elle regarde dans le sac.
 </p>
 <stage type="close/hurt">Elle veut refermer sa malle et pince les doigts du douanier.</stage>
 </sp>
-<sp stage="shake" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, secouant la main.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="shake">, secouant la main.
+</stage>
 <p id="42">
 	<s id="1">Un instant, Madame. </s>
 	<s id="2">Comme vous êtes pressée !</s>
@@ -1370,17 +1417,20 @@ Elle regarde dans le sac.
 </p>
 <stage type="low/toward">Il va parler bas au premier douanier.</stage>
 </sp>
-<sp stage="frighten/aparte" who="ADRIENNE"><speaker>ADRIENNE, effrayée, à part.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="frighten/aparte">, effrayée, à part.
+</stage>
 <p id="48">
 	<s id="1">Qu'est-ce qu'il dit ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="GASTON"><speaker>GASTON, à part.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="49">
 	<s id="1">Cela va bien.</s>
 </p>
 </sp>
-<sp stage="toward" who="ADRIENNE"><speaker>ADRIENNE, à Mathilde.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="toward">, à Mathilde.
+</stage>
 <p id="50">
 	<s id="1">Est-ce qu'on va me fouiller ?</s>
 </p>
@@ -1407,12 +1457,14 @@ Elle regarde dans le sac.
 	<s id="2">Mais elle se trouve mal.</s>
 </p>
 </sp>
-<sp stage="stand" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, se levant.</speaker>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="stand">, se levant.
+</stage>
 <p id="56">
 	<s id="1">Respirez cet flacon et reprenez votre sentiment.</s>
 </p>
 </sp>
-<sp stage="closer/aparte" who="GASTON"><speaker>GASTON, s'approchant d'elle, à part.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="closer/aparte">, s'approchant d'elle, à part.
+</stage>
 <p id="57">
 	<s id="1">Qu'a-t-elle donc ?</s>
 </p>
@@ -1428,14 +1480,16 @@ Elle regarde dans le sac.
 	<s id="1">Laissez-moi.</s>
 </p>
 </sp>
-<sp stage="" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, tirant un ruban de dentelles qui s'échappe par la manche ouverte d'Adrienne.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="">, tirant un ruban de dentelles qui s'échappe par la manche ouverte d'Adrienne.
+</stage>
 <p id="60">
 	<s id="1">Qu'est-ce que c'est que cela ? </s>
 	<s id="2">De la dentelle magnifique ! </s>
 </p>
 <stage type="faint/help">Adrienne chancelle. Mathilde et Miss Déborah la soutiennent.</stage>
 </sp>
-<sp who="GASTON" stage="aparte"><speaker>GASTON, à part.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="61">
 	<s id="1">Comment ! </s>
 	<s id="2">Elle en avait !</s>
@@ -1450,12 +1504,14 @@ Elle regarde dans le sac.
 	<s id="1">Pardonne-moi, Gaston.</s>
 </p>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à part.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage>, à part.
+</stage>
 <p id="64">
 	<s id="1">Tiens, ils se connaissent !</s>
 </p>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, à Gaston.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage>, à Gaston.
+</stage>
 <p id="65">
 	<s id="1">Soyez indulgent, Monsieur ; c'est moi qui suis la plus coupable.</s>
 </p>
@@ -1465,17 +1521,20 @@ Elle regarde dans le sac.
 	<s id="1">C'est nous qui avons entraîné cette pauvre petite en péché.</s>
 </p>
 </sp>
-<sp stage="laugh/toward" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER riant, à Gaston.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="laugh/toward"> riant, à Gaston.
+</stage>
 <p id="67">
 	<s id="1">Comment, Monsieur, vous connaissez cette dame et c'est vous qui m'avez expédié !...</s>
 </p>
 </sp>
-<sp who="GASTON"><speaker>GASTON, à part.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage>, à part.
+</stage>
 <p id="68">
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="toward" who="ADRIENNE"><speaker>ADRIENNE, à Gaston.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="toward">, à Gaston.
+</stage>
 <p id="69">
 	<s id="1">C'est vous qui m'avez dénoncée ?</s>
 </p>
@@ -1486,7 +1545,8 @@ Elle regarde dans le sac.
 	<s id="2">Est-ce que je pouvais supposer que vous étiez couverte de dentelles, après les promesses que vous m'aviez faites ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MATHILDE"><speaker>MATHILDE, à part.</speaker>
+<sp who="MATHILDE"><speaker>MATHILDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="71">
 	<s id="1">Mais on n'est pas bête comme cela.</s>
 </p>
@@ -1505,7 +1565,8 @@ Elle regarde dans le sac.
 	<s id="1">Comme un imbécile, je le sais bien... mais, encore une fois, je ne pouvais croire qu'Adrienne...</s>
 </p>
 </sp>
-<sp stage="aparte" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à part.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="75">
 	<s id="1">Moi, je la trouve drôle.</s>
 </p>
@@ -1519,7 +1580,8 @@ Elle regarde dans le sac.
 	<s id="1">Elle, vous, vous surtout.</s>
 </p>
 </sp>
-<sp stage="quick" who="ADRIENNE"><speaker>ADRIENNE, vivement et prenant la main de Gaston.</speaker>
+<sp who="ADRIENNE"><speaker>ADRIENNE</speaker><stage type="quick">, vivement et prenant la main de Gaston.
+</stage>
 <p id="78">
 	<s id="1">Oh ! </s>
 	<s id="2">Non ! </s>
@@ -1532,7 +1594,8 @@ Elle regarde dans le sac.
 	<s id="2">Alors, nous devons nous pardonner les uns aux autres.</s>
 </p>
 </sp>
-<sp stage="toward/show" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à Gaston, en lui montrant la porte à gauche.</speaker>
+<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER</speaker><stage type="toward/show">, à Gaston, en lui montrant la porte à gauche.
+</stage>
 <p id="80">
 	<s id="1">Monsieur !</s>
 </p>
@@ -1558,7 +1621,8 @@ Elle regarde dans le sac.
 	<s id="1">Elle aurait entortillé les douaniers.</s>
 </p>
 </sp>
-<sp stage="exit" who="MISS DÉBORAH"><speaker>MISS DÉBORAH, sortant par la droite avec Mathilde.</speaker>
+<sp who="MISS DÉBORAH"><speaker>MISS DÉBORAH</speaker><stage type="exit">, sortant par la droite avec Mathilde.
+</stage>
 <p id="95">
 	<s id="1">Mais elle n'a pas voulu entortiller elle.</s>
 </p>

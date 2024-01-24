@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,8 +28,8 @@
 			<titlePart type="main">L'AVEUGLE DE SPA</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
@@ -38,20 +38,22 @@
 			<p>Le sujet de cette petite pièce n'est point d'invention ; on a connu à Spa cette vertueuse madame Aglebert, ainsi que la pauvre aveugle. Tous les détails sont de la plus exacte vérité ; le nom de madame Aglebert, ceux de ses enfants, ont été conservés. Il est vrai aussi qu'une dame anglaise, qui était alors à Spa, fit beaucoup de bien à cette respectable famille.</p>
 		</div>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="MADAME AGLEBERT" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>MADAME AGLEBERT</role>, femme d'un cordonnier.</castItem>
-			<castItem><role id="JEANNETTE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>JEANNETTE</role>, fille aînée de madame Aglebert.</castItem>
-			<castItem><role id="MARIE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>MARIE</role>, fille de madame Aglebert.</castItem>
-			<castItem><role id="GOTON" sex="2" type="H" statut="bourgeois" age='V' stat_amour='néant'>GOTON</role>, vieille fille aveugle.</castItem>
-			<castItem><role id="MILADY SEMUR" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MILADY SEMUR</role>.</castItem>
-			<castItem><role id="MILADY SEMUR" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>FÉLICIE</role>, dame française.</castItem>
-			<castItem><role id="LE PÈRE ANTOINE" sex="1" type="H" statut="religieux" age='A' stat_amour='néant'>LE PÈRE ANTOINE</role>, religieux.</castItem>		</castList>
-		<set location='Spa' country='Belgique' periode='XIXème' gps="50.492430, 5.864320">La scène est à Spa.</set>
+			<castItem><role id="MADAME AGLEBERT" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME AGLEBERT</role>, femme d'un cordonnier.</castItem>
+			<castItem><role id="JEANNETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">JEANNETTE</role>, fille aînée de madame Aglebert.</castItem>
+			<castItem><role id="MARIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">MARIE</role>, fille de madame Aglebert.</castItem>
+			<castItem><role id="GOTON" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">GOTON</role>, vieille fille aveugle.</castItem>
+			<castItem><role id="MILADY SEMUR" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MILADY SEMUR</role>.</castItem>
+			<castItem><role id="MILADY SEMUR" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">FÉLICIE</role>, dame française.</castItem>
+			<castItem><role id="LE PÈRE ANTOINE" sex="1" type="H" statut="religieux" age="A" stat_amour="néant">LE PÈRE ANTOINE</role>, religieux.</castItem>		</castList>
+		<set location="Spa" country="Belgique" periode="XIXème" gps="50.492430, 5.864320">La scène est à Spa.</set>
 		<note>Extrait de THÉÂTRE D'ÉDUCATION À L'USAGE DE LA JEUNESSE PAR MME DE GENLIS, NOUVELLE ÉDITION REVUE ET CORRIGÉE - II, pp. 141-175</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>L'AVEUGLE DE SPA</head>0
-<div2 type="scene" n="1"><head>SCÈNE I. Madame Aglebert, Jeannette.</head>
-<sp stage="carry" who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT, tenant un paquet.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Madame Aglebert, Jeannette.
+</stage>
+<sp who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT</speaker><stage type="carry">, tenant un paquet.
+</stage>
 <p id="1">
 	<s id="1">Arrêtons-nous un moment, il fait si beau !</s>
 </p>
@@ -157,7 +159,8 @@
 <stage type="run/closer">Elle court rejoindre sa mère.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Milady Semur, Félicie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Milady Semur, Félicie.
+</stage>
 <sp who="MILADY SEMUR"><speaker>MILADY SEMUR.</speaker>
 <p id="1">
 	<s id="1">On ne peut faire un pas ici sans rencontrer des malheureux !...</s>
@@ -231,7 +234,8 @@
 <stage type="exit">Félicie sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Milady Semur, le père Antoine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Milady Semur, le père Antoine.
+</stage>
 <sp who="MILADY SEMUR"><speaker>MILADY SEMUR.</speaker>
 <p id="1">
 	<s id="1">Ce pauvre père Antoine, comme il marche avec difficulté ! </s>
@@ -240,7 +244,8 @@
 	<s id="4">Il y a une heure que je vous attends.</s>
 </p>
 </sp>
-<sp stage="carry" who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE, un bouquet à la main.</speaker>
+<sp who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE</speaker><stage type="carry">, un bouquet à la main.
+</stage>
 <p id="2">
 	<s id="1">Je n'ai pas voulu sortir sans apporter un petit bouquet à Milady, et je n'avais pas une rose. </s>
 	<s id="2">Enfin, un de nos frères m'en a donné deux; mais ces oeillets sont de mon jardin.</s>
@@ -329,7 +334,8 @@
 	<s id="2">Adieu, père Antoine.</s>
 </p>	
 </sp>
-<sp stage="away/back" who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE, fait quelques pas et revient.</speaker>
+<sp who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE</speaker><stage type="away/back">, fait quelques pas et revient.
+</stage>
 <p id="16">
 	<s id="1">Milady, vous viendrez voir mes oeillets, n'est-ce pas ?</s>
 </p>
@@ -365,7 +371,8 @@
 	<s id="1">J'irai le voir demain.</s>
 </p>
 </sp>
-<sp stage="away" who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE, en s'en allant.</speaker>
+<sp who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="23">
 	<s id="1">Adieu Milady ; quelle bonne action vous ferez ce soir ! </s>
 </p>
@@ -382,7 +389,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Milady Semur, Jeannette, Goton, Marie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Milady Semur, Jeannette, Goton, Marie.
+</stage>
 <stage type="location/sit/closer">Jeannette, conduisant Goton dans le fond du théâtre, s'y arrête avec elle, et s'assied sur un banc. Marie, sa soeur, s'avance pour regarder
 milady.</stage>
 <sp who="MARIE"><speaker>MARIE.</speaker>
@@ -390,14 +398,16 @@ milady.</stage>
 	<s id="1">Non, ce n'est pas elle.</s>
 </p>
 </sp>
-<sp who="MILADY SEMUR"><speaker>MILADY SEMUR, la regardant.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage>, la regardant.
+</stage>
 <p id="2">
 	<s id="1">Elle est charmante... </s>
 	<s id="2">Approchez-vous, ma petite. </s>
 	<s id="3">Qui cherchez-vous ?</s>
 </p>
 </sp>
-<sp stage="wave" who="MARIE"><speaker>MARIE, faisant la révérence.</speaker>
+<sp who="MARIE"><speaker>MARIE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="3">
 	<s id="1">C'est que... je vous ai prise pour une dame bien bonne, et qui est aussi bien aimable...</s>
 </p>
@@ -407,7 +417,8 @@ milady.</stage>
 	<s id="1">Mais peut-être suis-je aussi bonne que votre dame.</s>
 </p>
 </sp>
-<sp stage="wave" who="MARIE"><speaker>MARIE, secouant la tête.</speaker>
+<sp who="MARIE"><speaker>MARIE</speaker><stage type="wave">, secouant la tête.
+</stage>
 <p id="5">
 	<s id="1">Oh !...</s>
 </p>
@@ -541,7 +552,8 @@ milady.</stage>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Marie, Jeannette, Goton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Marie, Jeannette, Goton.
+</stage>
 <sp who="MARIE"><speaker>MARIE.</speaker>
 <p id="1">
 	<s id="1">Voilà encore une bonne dame... </s>
@@ -635,13 +647,15 @@ milady.</stage>
 	<s id="5">Que je voudrais être tout à fait grande pour vous habiller, vous servir et vous conduire, comme font ma mère et Jeannette !...</s>
 </p>
 </sp>
-<sp who="JEANNETTE"><speaker>JEANNETTE, bas à Marie.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage>, bas à Marie.
+</stage>
 <p id="15">
 	<s id="1">Tais-toi donc, tu la chagrines. </s>
 	<s id="2">Ne vois-tu pas qu'elle pleure ?...</s>
 </p>
 </sp>
-<sp stage="location/touch" who="MARIE"><speaker>MARIE, passant de l'autre côté de Goton, et lui prenant la main.</speaker>
+<sp who="MARIE"><speaker>MARIE</speaker><stage type="location/touch">, passant de l'autre côté de Goton, et lui prenant la main.
+</stage>
 <p id="16">
 	<s id="1">Ma chère Goton, est-ce que j'ai dit quelque chose de mal ? </s>
 	<s id="2">Seriez-vous fâchée ?</s>
@@ -661,7 +675,8 @@ milady.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Marie, Jeannette, Goton, Madame Aglebert,  Louison.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Marie, Jeannette, Goton, Madame Aglebert,  Louison.
+</stage>
 <sp who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT.</speaker>
 <p id="1">
 	<s id="1">Les voici... </s>
@@ -694,7 +709,8 @@ milady.</stage>
 </p>
 <stage type="sit/touch/location">Elle s'assied sur un banc, prend Goton par la main, et la place entre elle et Jeannette.</stage> 
 </sp>
-<sp stage="toward" who="LOUISON"><speaker>LOUISON, à Jeannette.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="toward">, à Jeannette.
+</stage>
 <p id="6">
 	<s id="1">Ma soeur, donne-moi ta place, il faut que je sois là pour servir Goton.</s>
 </p>
@@ -716,7 +732,8 @@ milady.</stage>
 </p>
 <stage type="give/work/sit/get">Marie donne le rouet à sa mère, qui se met à filer. Jeannette tricote. Marie s'assied sur une grosse pierre près du banc, et ourle un mouchoir ; et Louison tire de la poche de son tablier des violettes, et en fait un bouquet.</stage>
 </sp>
-<sp stage="silence" who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT, après un moment de silence.</speaker>
+<sp who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT</speaker><stage type="silence">, après un moment de silence.
+</stage>
 <p id="10">
 	<s id="1">Marie, ton père est-il rentré ?</s>
 </p>
@@ -741,7 +758,8 @@ milady.</stage>
 	<s id="1">Qu'il a de beaux oeillets, le père Antoine !</s>
 </p>
 </sp>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, d'un ton pleureur.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, d'un ton pleureur.
+</stage>
 <p id="15">
 	<s id="1">Mon_Dieu, Goton, vous avez jeté toutes mes violettes par terre en vous retournant...</s>
 </p>
@@ -752,7 +770,8 @@ milady.</stage>
 	<s id="2">Je ne pouvais les voir...</s>
 </p>
 </sp>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, pleurant toujours.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, pleurant toujours.
+</stage>
 <p id="17">
 	<s id="1">Mon_Dieu, mes violettes !...</s>
 </p>
@@ -808,7 +827,8 @@ milady.</stage>
 	<s id="1">Eh bien, Louison, je ne t'aime plus, puisque tu ne veux pas porter mon rouet.</s>
 </p>
 </sp>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, pleurant.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="17">
 	<s id="1">Mais, maman, je n'en ai pas la force... </s>
 	<s id="2">Est-ce que c'est ma faute ?</s>
@@ -842,7 +862,8 @@ milady.</stage>
 	<s id="1">N'est-elle pas assez malheureuse, la pauvre fille, de n'y voir goutte, d'être aveugle de naissance !</s>
 </p>
 </sp>
-<sp who="GOTON"><speaker>GOTON, prenant la main de madame Aglebert.</speaker>
+<sp who="GOTON"><speaker>GOTON</speaker><stage>, prenant la main de madame Aglebert.
+</stage>
 <p id="23">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame Aglebert, je ne suis pas malheureuse ; non, votre bonté, votre charité...</s>
@@ -904,7 +925,8 @@ milady.</stage>
 <stage type="stand">Elles se lèvent toutes.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Marie, Jeannette, Goton, Louison, Madame Aglebert, Milady Semur, Félicie.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Marie, Jeannette, Goton, Louison, Madame Aglebert, Milady Semur, Félicie.
+</stage>
 <sp who="MILADY SEMUR"><speaker>MILADY SEMUR.</speaker>
 <p id="1">
 	<s id="1">Le père Antoine n'est point encore arrivé. </s>
@@ -912,12 +934,14 @@ milady.</stage>
 	<s id="3">Voici les jeunes filles dont nous parlions tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="toward" who="FÉLICIE"><speaker>FÉLICIE, à Jeannette.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="toward">, à Jeannette.
+</stage>
 <p id="2">
 	<s id="1">Est-ce là votre mère ?</s>
 </p>
 </sp>
-<sp stage="wave" who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT, faisant la révérence.</speaker>
+<sp who="MADAME AGLEBERT"><speaker>MADAME AGLEBERT</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="3">
 	<s id="1">Oui, Madame... et je comptais aller demain remercier Madame de ses bontés pour mes enfants. </s>
 	<s id="2">J'ai eu tant d'ouvrage hier et aujourd'hui...</s>
@@ -954,7 +978,8 @@ milady.</stage>
 	<s id="2">C'est singulier.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="FÉLICIE"><speaker>FÉLICIE, bas à Milady.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="low/toward">, bas à Milady.
+</stage>
 <p id="10">
 	<s id="1">J'ai fait la même remarque. </s>
 </p>
@@ -988,7 +1013,8 @@ milady.</stage>
 	<s id="1">Nous ne sommes pas riches, il est vrai ; mais nous sommes contents.</s>
 </p>
 </sp>
-<sp stage="toward" who="MILADY SEMUR"><speaker>MILADY SEMUR, à Félicie.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage type="toward">, à Félicie.
+</stage>
 <p id="17">
 	<s id="1">Ne vous intéresse-t-elle pas ?</s>
 </p>
@@ -1053,7 +1079,8 @@ milady.</stage>
 	<s id="4">Nous pouvions la consoler, la secourir, c'eût été mal de l'abandonner...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MARIE"><speaker>MARIE, bas à Jeannette.</speaker>
+<sp who="MARIE"><speaker>MARIE</speaker><stage type="low/toward">, bas à Jeannette.
+</stage>
 <p id="28">
 	<s id="1">Pourquoi cela fâche-t-il donc tant ces dames ? </s>
 	<s id="2">Vois donc comme elles pleurent!</s>
@@ -1070,7 +1097,8 @@ milady.</stage>
 	<s id="1">Je m'intéresse aux malheurs de cette jeune aveugle.</s>
 </p>
 </sp>
-<sp stage="toward" who="MILADY SEMUR"><speaker>MILADY SEMUR, à Madame Aglebert.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage type="toward">, à Madame Aglebert.
+</stage>
 <p id="31">
 	<s id="1">Comment cette pauvre fille est-elle tombée à votre charge ?</s>
 </p>
@@ -1083,7 +1111,8 @@ milady.</stage>
 	<s id="4">Lorsque je fus rétablie, elle me recueillit chez elle, où depuis deux ans je suis traitée comme la fille aînée de la maison.</s>
 </p>
 </sp>
-<sp stage="kiss" who="FÉLICIE"><speaker>FÉLICIE, embrassant Madame Aglebert.</speaker>
+<sp who="FÉLICIE"><speaker>FÉLICIE</speaker><stage type="kiss">, embrassant Madame Aglebert.
+</stage>
 <p id="33">
 	<s id="1">Ô femme incomparable ! </s>
 	<s id="2">Avec une telle âme, le sort a-t-il pu vous traiter aussi injustement !</s>
@@ -1138,7 +1167,8 @@ milady.</stage>
 	<s id="2">Ce n'est que lorsqu'elle est bien pressée d'ouvrage qu'elle me conduit au jardin des Capucins, tout près de chez nous ; et encore cela n'est-il arrivé que trois ou quatre fois.</s>
 </p>
 </sp>
-<sp stage="toward" who="MILADY SEMUR"><speaker>MILADY SEMUR, à Félicie.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage type="toward">, à Félicie.
+</stage>
 <p id="43">
 	<s id="1">Voilà donc la vertu dans toute sa pureté, simple, sublime, naturelle, sans vanité, sans ostentation, trouvant en elle seule et sa gloire et sa récompense !</s>
 </p>
@@ -1176,7 +1206,8 @@ milady.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Marie, Jeannette, Goton, Louison, Madame Aglebert, Milady Semur, Félicie, le père Antoine.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Marie, Jeannette, Goton, Louison, Madame Aglebert, Milady Semur, Félicie, le père Antoine.
+</stage>
 <sp who="MILADY SEMUR"><speaker>MILADY SEMUR.</speaker>
 <p id="1">
 	<s id="1">Venez, venez, père Antoine... </s>
@@ -1195,13 +1226,15 @@ milady.</stage>
 	<s id="1">Je sais tout.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE, à Madame Aglebert.</speaker>
+<sp who="LE PÈRE ANTOINE"><speaker>LE PÈRE ANTOINE</speaker><stage type="toward">, à Madame Aglebert.
+</stage>
 <p id="4">
 	<s id="1">Madame Aglebert, à présent connaissez et remerciez votre bienfaitrice. </s>
 	<s id="2">Milady Semur voulait donner cinquante louis à la famille la plus vertueuse de Spa ; son choix tombe sur la vôtre.</s>
 </p>
 </sp>
-<sp stage="pray" who="GOTON"><speaker>GOTON, levant les mains au ciel.</speaker>
+<sp who="GOTON"><speaker>GOTON</speaker><stage type="pray">, levant les mains au ciel.
+</stage>
 <p id="5">
 	<s id="1">Ô mon_Dieu !</s>
 </p>
@@ -1241,17 +1274,20 @@ milady.</stage>
 	<s id="2">Et vous, Milady, que vous devez être heureuse !...</s>
 </p>
 </sp>
-<sp stage="touch" who="GOTON"><speaker>GOTON, saisissant la robe de Milady.</speaker>
+<sp who="GOTON"><speaker>GOTON</speaker><stage type="touch">, saisissant la robe de Milady.
+</stage>
 <p id="11">
 	<s id="1">Est-ce elle ?...</s>
 </p>
 </sp>
-<sp stage="touch" who="MILADY SEMUR"><speaker>MILADY SEMUR, lui tendant la main.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage type="touch">, lui tendant la main.
+</stage>
 <p id="12">
 	<s id="1">Oui, mon enfant.</s>
 </p>
 </sp>
-<sp stage="kneel" who="GOTON"><speaker>GOTON, se jetant à ses pieds.</speaker>
+<sp who="GOTON"><speaker>GOTON</speaker><stage type="kneel">, se jetant à ses pieds.
+</stage>
 <p id="13">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, je vous bénirai tous les jours de ma vie. </s>
@@ -1259,7 +1295,8 @@ milady.</stage>
 	<s id="4">Je n'ai donc plus rien à désirer... à présent je mourrai satisfaite...</s>
 </p>
 </sp>
-<sp stage="stand/kiss" who="MILADY SEMUR"><speaker>MILADY SEMUR, la relevant et l'embrassant.</speaker>
+<sp who="MILADY SEMUR"><speaker>MILADY SEMUR</speaker><stage type="stand/kiss">, la relevant et l'embrassant.
+</stage>
 <p id="14">
 	<s id="1">Ah ! </s>
 	<s id="2">Je conçois votre bonheur, et j'en jouis avec transport.</s>

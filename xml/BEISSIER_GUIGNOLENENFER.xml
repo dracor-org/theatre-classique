@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -34,11 +34,11 @@
 			<editor>PARIS, LIBRAIRIE THÉÂTRALE, 14 rue Grammont, 14.</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="GUIGNOL" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>GUIGNOL</role>.</castItem>
-		<castItem><role id="LE DIABLE" sex="1" type="D" statut="diable" age="A" stat_amour='néant'>LE DIABLE</role>.</castItem>
-		<castItem><role id="L'APOTHICAIRE." sex="2" type="H" statut="apothicaire" age="A" stat_amour='néant'>L'APOTHICAIRE.</role>.</castItem>
-		<castItem><role id="MAITRE FÉRULARD" sex="1" type="H" statut="magister" age="A" stat_amour='néant'>MAITRE FÉRULARD</role>.</castItem>
-		<castItem><role id="DEUX DIABLES" sex="1" type="H" statut="diable" age="A" stat_amour='néant'>DEUX DIABLES</role>.</castItem>
+		<castItem><role id="GUIGNOL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GUIGNOL</role>.</castItem>
+		<castItem><role id="LE DIABLE" sex="1" type="D" statut="diable" age="A" stat_amour="néant">LE DIABLE</role>.</castItem>
+		<castItem><role id="L'APOTHICAIRE." sex="2" type="H" statut="apothicaire" age="A" stat_amour="néant">L'APOTHICAIRE.</role>.</castItem>
+		<castItem><role id="MAITRE FÉRULARD" sex="1" type="H" statut="magister" age="A" stat_amour="néant">MAITRE FÉRULARD</role>.</castItem>
+		<castItem><role id="DEUX DIABLES" sex="1" type="H" statut="diable" age="A" stat_amour="néant">DEUX DIABLES</role>.</castItem>
 	</castList>
 	<set location="Village" country="France" periode="XIXème" gps="">Chez Guignol.</set>
 	<note>Fernand BESSIER, "Théâtre de Guignol", Paris, Librairie théâtrale, 1894, pp. 1-28. </note>
@@ -46,7 +46,8 @@
 <body>
 <div1 type="acte" n="1"><head>GUIGNOL EN ENFER</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/entrance" who="GUIGNOL"><speaker>GUIGNOL, seul, entrant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="alone/entrance">, seul, entrant.
+</stage>
 <stage type="sing">Chantant.</stage>
 	<l id="1">Vive la rouge bouteille,</l>
 	<l id="2">Où sommeille,</l>
@@ -112,13 +113,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Guignol, Le Diable.</head>
-<sp who="LE DIABLE"><speaker>LE DIABLE, surgissant devant lut.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Guignol, Le Diable.
+</stage>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage>, surgissant devant lut.
+</stage>
 <p id="1">
 	<s id="1">Bonsoir, Guignol.</s>
 </p>
 </sp>
-<sp stage="away" who="GUIGNOL"><speaker>GUIGNOL, reculant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="away">, reculant.
+</stage>
 <p id="2">
 	<s id="1">Hein ! </s>
 	<s id="2">Qui est là ? </s>
@@ -142,7 +146,8 @@
 	<s id="1">Tu l'as dit.</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, lui tendant la main.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, lui tendant la main.
+</stage>
 <p id="6">
 	<s id="1">Et ça va bien, autrement, depuis que je n'ai eu le plaisir de vous voir ?</s>
 </p>
@@ -225,7 +230,8 @@
 	<s id="1">Vous croyez...</s>
 </p>
 </sp>
-<sp who="LE DIABLE"><speaker>LE DIABLE, continuant.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage>, continuant.
+</stage>
 <p id="21">
 	<s id="1">À cette condition que dans un an, à pareil jour, à pareille heure, tu m'appartiendrais.</s>
 </p>
@@ -316,7 +322,8 @@
 	<s id="1">Es-tu prêt ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="GUIGNOL"><speaker>GUIGNOL, à part.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Ah ! </s>
 	<s id="2">Si je pouvais cogner dessus. </s>
@@ -331,7 +338,8 @@
 	<s id="1">Ne discutons plus.</s>
 </p>
 </sp>
-<sp stage="cry" who="GUIGNOL"><speaker>GUIGNOL, pleurant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="41">
 	<s id="1">Oh ! </s>
 	<s id="2">La ! la ! la !</s>
@@ -368,7 +376,8 @@
 	<s id="1">Vous savez — s'il faut prendre le bateau, je crains la mer.</s>
 </p>
 </sp>
-<sp stage="touch/pull" who="LE DIABLE"><speaker>LE DIABLE, le prenant par la main.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage type="touch/pull">, le prenant par la main.
+</stage>
 <p id="38">
 	<s id="1">Enlevé !</s>
 </p>
@@ -409,7 +418,8 @@
 	<s id="1">Tu ne le regretteras bientôt plus.</s>
 </p>
 </sp>
-<sp stage="watch" who="GUIGNOL"><speaker>GUIGNOL, regardant autour de lui.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="watch">, regardant autour de lui.
+</stage>
 <p id="5">
 	<s id="1">Ainsi me voilà en enfer ?</s>
 </p>
@@ -453,7 +463,8 @@
 	<s id="3">Du moment qu'il n'y a pas moyen.</s>
 </p>
 </sp>
-<sp who="LE DIABLE"><speaker>LE DIABLE, lui motrant.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage>, lui motrant.
+</stage>
 <p id="12">
 	<s id="1">Là, à gauche, la première salle de punition - celle où l'on commence à vous faire griller de temps en temps, avant de vous plonger dans la chaudière, histoire de vous habituer.</s>
 </p>
@@ -506,7 +517,8 @@
 	<s id="2">Allons, adieu !</s>
 </p>
 </sp>
-<sp stage="stage" who="GUIGNOL"><speaker>GUIGNOL, l'arrêtant.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="stage">, l'arrêtant.
+</stage>
 <p id="21">
 	<s id="1">Monsieur le diable, voyons...</s>
 </p>
@@ -527,7 +539,8 @@
 	<s id="2">Tu rencontreras plus d'un visage de la connaissance...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, voulant encore le réunir.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, voulant encore le réunir.
+</stage>
 <p id="25">
 	<s id="1">Si nous remontions là-haut ?</s>
 </p>
@@ -537,7 +550,8 @@
 	<s id="1">Ton tour va venir !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, même jeu.
+</stage>
 <p id="27">
 	<s id="1">J'ai oublié mon mouchoir !...</s>
 </p>
@@ -558,7 +572,8 @@
 	<s id="1">Monseigneur, mon doux monseigneur, mon...</s>
 </p>
 </sp>
-<sp stage="away/laugh" who="LE DIABLE"><speaker>LE DIABLE, t'en allant, riant.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage type="away/laugh">, t'en allant, riant.
+</stage>
 <p id="30">
 	<s id="1">Ah ! </s>
 	<s id="2">Ah ! </s>
@@ -567,7 +582,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="GUIGNOL"><speaker>GUIGNOL, seul.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Gueusard ! </s>
 	<s id="2">Bandit ! </s>
@@ -606,7 +622,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Guignol, L'Apothicaire.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Guignol, L'Apothicaire.
+</stage>
 <sp who="GUIGNOL"><speaker>GUIGNOL.</speaker>
 <p id="1">
 	<s id="1">Pas possible ? </s>
@@ -674,12 +691,14 @@
 	<s id="1">Tu verras ça tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="aparte" who="GUIGNOL"><speaker>GUIGNOL, à part.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">J'ai envie de me payer un petit acompte sur lui...</s>
 </p>
 </sp>
-<sp stage="location" who="UNE VOIX"><speaker>UNE VOIX, au dehors.</speaker>
+<sp who="UNE VOIX"><speaker>UNE VOIX</speaker><stage type="location">, au dehors.
+</stage>
 <p id="14">
 	<s id="1">L'apothicaire !</s>
 </p>
@@ -689,7 +708,8 @@
 	<s id="1">Tu vois, on m'appelle.</s>
 </p>
 </sp>
-<sp stage="hit" who="GUIGNOL"><speaker>GUIGNOL, le cognant avec sa tête.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hit">, le cognant avec sa tête.
+</stage>
 <p id="16">
 	<s id="1">Et va donc ! </s>
 	<s id="2">Va donc ! </s>
@@ -723,7 +743,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Maître Férulard, Guignol.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Maître Férulard, Guignol.
+</stage>
 <sp who="GUIGNOL"><speaker>GUIGNOL.</speaker>
 <p id="1">
 	<s id="1">Eh ! </s>
@@ -841,25 +862,29 @@
 	<s id="1">Ce qui ne m'empêchera pas de protester...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, même jeu.
+</stage>
 <p id="22">
 	<s id="1">Tiens ! </s>
 	<s id="2">Proteste...</s>
 </p>
 </sp>
-<sp stage="call" who="LA VOIX"><speaker>LA VOIX, appelant.</speaker>
+<sp who="LA VOIX"><speaker>LA VOIX</speaker><stage type="call">, appelant.
+</stage>
 <p id="23">
 	<s id="1">Maître_Férulard !</s>
 </p>
 </sp>
-<sp stage="call" who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="call">, même jeu.
+</stage>
 <p id="24">
 	<s id="1">Mais va donc ! </s>
 	<s id="2">On t'appelle !</s>
 </p>
 <stage type="entrance/hit">Maître Férulard parait et reparaît encore deux fois et Guignol frappe dessus chaque fois.</stage>
 </sp>
-<sp stage="alone" who="GUIGNOL"><speaker>GUIGNOL, seul.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="alone">, seul.
+</stage>
 <p id="25">
 	<s id="1">Eh bien ! </s>
 	<s id="2">S'ils sont tous aussi bêtes, ça va être gai ! —</s>
@@ -882,7 +907,8 @@
 	<s id="13">Si je pouvais lui reprendre mon billet; si je pouvais même mettre un pied dehors, le reste suivrait bien, et une fois dehors, sauvé...</s>
 </p>
 </sp>
-<sp stage="call" who="LA VOIX"><speaker>LA VOIX, appelle.</speaker>
+<sp who="LA VOIX"><speaker>LA VOIX</speaker><stage type="call">, appelle.
+</stage>
 <p id="27">
 	<s id="1">Guignol !</s>
 </p>
@@ -916,7 +942,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Diable, Guignol.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Diable, Guignol.
+</stage>
 <sp who="LE DIABLE"><speaker>LE DIABLE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -930,7 +957,8 @@
 	<s id="9">Allons !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, se reculant, à part.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, se reculant, à part.
+</stage>
 <p id="2">
 	<s id="1">Si je pouvais le mordre, toi.</s>
 </p>
@@ -966,7 +994,8 @@
 	<s id="1">Empoignez-moi ce particulier là, et portez-le sur le gril.</s>
 </p>
 </sp>
-<sp stage="toward" who="GUIGNOL"><speaker>GUIGNOL, aux deux diables.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="toward">, aux deux diables.
+</stage>
 <p id="9">
 	<s id="1">Voulez-vous bien me lâcher, vous autres!</s>
 </p>
@@ -1028,22 +1057,26 @@
 	<s id="2">Une fois, deux fois ! Tu ne veux pas ?</s>
 </p>
 </sp>
-<sp stage="threat" who="LE DIABLE"><speaker>LE DIABLE, le menaçant de sa fourche.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage type="threat">, le menaçant de sa fourche.
+</stage>
 <p id="20">
 	<s id="1">Tremble !</s>
 </p>
 </sp>
-<sp stage="hit" who="GUIGNOL"><speaker>GUIGNOL, lui donnant un coup de la sienne.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="hit">, lui donnant un coup de la sienne.
+</stage>
 <p id="21">
 	<s id="1">Reçois !</s>
 </p>
 </sp>
-<sp who="LE DIABLE"><speaker>LE DIABLE, même jeu.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage>, même jeu.
+</stage>
 <p id="22">
 	<s id="1">Je te ferai bouillir dans une marmite d'huile !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage>, même jeu.
+</stage>
 <p id="23">
 	<s id="1">Pile ! </s>
 	<s id="2">Face ! </s>
@@ -1127,7 +1160,8 @@
 	<s id="2">Je n'ai pas confiance.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DIABLE"><speaker>LE DIABLE, à part.</speaker>
+<sp who="LE DIABLE"><speaker>LE DIABLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Quand je te tiendrai, toi, tu me payeras tout cet arriéré.</s>
 </p>
@@ -1236,7 +1270,8 @@
 	<s id="3">Nous ne pourrons plus le ravoir !</s>
 </p>
 </sp>
-<sp stage="show/location" who="GUIGNOL"><speaker>GUIGNOL, postant sa tête par l'oeil de boeuf au-dessus de la porte.</speaker> 
+<sp who="GUIGNOL"><speaker>GUIGNOL</speaker><stage type="show/location">, postant sa tête par l'oeil de boeuf au-dessus de la porte. 
+</stage> 
 <p id="58">
 	<s id="1">Bien des choses chez vous. </s>
 	<s id="2">Et excusez-moi si je ne vous reconduis pas !</s>

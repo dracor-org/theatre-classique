@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,30 +29,31 @@
 			<titlePart type="sub">DIVERTISSEMENT</titlePart>
 			</docTitle> 
 		<docDate value="1806">M. DCCC. VI.</docDate>
-		<docAuthor id="HENAULT, Charles-Jean-François" bio='henault'></docAuthor>
+		<docAuthor id="HENAULT, Charles-Jean-François" bio="henault"/>
 		<docImprint>
-			<privilege id=""></privilege>
-			<acheveImprime id=""></acheveImprime>
+			<privilege id=""/>
+			<acheveImprime id=""/>
 			<printer id="">À PARIS, Chez HUBERT et COMP°n LIB.-ÉDIT., rue des Grands Augustins, n°21.</printer>
 		</docImprint>
 
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="GRAND CHOEUR" sex="9" type="H" statut="choeur" age='A' stat_amour='néant'>GRAND CHOEUR</role>.</castItem>
-		<castItem><role id="PETIT CHOEUR" sex="9" type="H" statut="choeur" age='A' stat_amour='néant'>PETIT CHOEUR</role>.</castItem>
-		<castItem><role id="DÉESSE" sex="2" type="D" statut="dieu" age='A' stat_amour='néant'>DÉESSE</role>.</castItem>
-		<castItem><role id="CHOEUR DES PEUPLES" sex="9" type="H" statut="choeur" age='A' stat_amour='néant'>CHOEUR DES PEUPLES</role>.</castItem>
-		<castItem><role id="UNE SUIVANTE DE LA DÉESSE" sex="2" type="H" statut="dieu" age='A' stat_amour='néant'>UNE SUIVANTE DE LA DÉESSE</role>.</castItem>
-		<castItem><role id="LE TEMPS" sex="1" type="D" statut="allégorie" age='A' stat_amour='néant'>LE TEMPS</role>.</castItem>
-		<castItem><role id="L'AMOUR" sex="1" type="D" statut="dieu" age='A' stat_amour='néant'>L'AMOUR</role>.</castItem>
-		<castItem><role id="LES AMANTS" sex="1" type="H" statut="génie" age='A' stat_amour='néant'>LES AMANTS</role>.</castItem>
+		<castItem><role id="GRAND CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour="néant">GRAND CHOEUR</role>.</castItem>
+		<castItem><role id="PETIT CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour="néant">PETIT CHOEUR</role>.</castItem>
+		<castItem><role id="DÉESSE" sex="2" type="D" statut="dieu" age="A" stat_amour="néant">DÉESSE</role>.</castItem>
+		<castItem><role id="CHOEUR DES PEUPLES" sex="9" type="H" statut="choeur" age="A" stat_amour="néant">CHOEUR DES PEUPLES</role>.</castItem>
+		<castItem><role id="UNE SUIVANTE DE LA DÉESSE" sex="2" type="H" statut="dieu" age="A" stat_amour="néant">UNE SUIVANTE DE LA DÉESSE</role>.</castItem>
+		<castItem><role id="LE TEMPS" sex="1" type="D" statut="allégorie" age="A" stat_amour="néant">LE TEMPS</role>.</castItem>
+		<castItem><role id="L'AMOUR" sex="1" type="D" statut="dieu" age="A" stat_amour="néant">L'AMOUR</role>.</castItem>
+		<castItem><role id="LES AMANTS" sex="1" type="H" statut="génie" age="A" stat_amour="néant">LES AMANTS</role>.</castItem>
 	</castList>
-	<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)"></set>
+	<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)"/>
 	<note>Extrait de "OEUVRES INÉDITES DE M. LE PRÉSIDENT HÉNAULT", 1806. pp 363-374.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE TEMPLE DES CHIMÈRES.</head>
 <stage type="decor/costume">Le théâtre représente le Temple des Chimères ; la Déesse des Chimères y paraît sur un trône de nuages brillants. On voit à ses pieds et autour d'elle ses sujets les Désirs, l'Espérance, la Confiance, les Songes, l'Imagination, etc. Les ailes du théâtre sont composées de masques, de figures fantastiques, de bulles de savon, d'ailes de papillons, etc...</stage>
-<div2 stage="location" type="scene" n="1"><head>SCÈNE PREMIÈRE. La Déesse des Chimères sur son trône, Suite de la Déesse.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="location"> La Déesse des Chimères sur son trône, Suite de la Déesse.
+</stage>
 <sp who="GRAND CHOEUR"><speaker>GRAND CHOEUR.</speaker>
 	<l id="1">Que les voeux des mortels pour vous se réunissent,</l>
 	<l id="2">Ils ne doivent qu'à vous les biens dont ils jouissent.</l>
@@ -80,13 +81,15 @@
 	<l id="18">Choisissez, tout est à vous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Peuples de tous pays et de tous états viennent à la voix de la Déesse des Chimères, Acteurs de la scène précédente.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Peuples de tous pays et de tous états viennent à la voix de la Déesse des Chimères, Acteurs de la scène précédente.
+</stage>
 <sp who="CHOEUR DES PEUPLES"><speaker>CHOEUR DES PEUPLES.</speaker>
 	<l id="19">Chantons, chantons les dons d'une main immortelle ;</l>
 	<l id="20">C'est pour nous rendre heureux que sa voix nous appelle.</l>
 <stage type="danse">Danse des Peuples.</stage>
 </sp>
-<sp who="LA DÉESSE"><speaker>LA DÉESSE descendue de son trône.</speaker>
+<sp who="LA DÉESSE"><speaker>LA DÉESSE</speaker><stage> descendue de son trône.
+</stage>
 <poem type="strophes">
 <lg n="1">
 	<l id="21">Ce qu'on voit ici paraître</l>
@@ -133,7 +136,8 @@
 </lg>
 </poem>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR reprend :</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage> reprend :
+</stage>
 <poem type="strophes">
 <lg n="1">
 	<l id="49">Faisons de nos beaux jours</l>
@@ -159,7 +163,8 @@
 </lg>
 </poem>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR reprend :</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage> reprend :
+	</stage>
 	<l id="61">Faisons de nos beaux jours, etc.</l>
 <stage type="danse">On danse.</stage>
 <stage type="music">On entend une symphonie sombre.</stage>
@@ -171,8 +176,9 @@
 	<l id="65">C'est le Temps qui s'offre à mes yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Temps avec sa suite, le Repentir, les
-Réflexions , les Vents , etc. Acteurs de la Scène précédente.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Temps avec sa suite, le Repentir, les
+Réflexions , les Vents , etc. Acteurs de la Scène précédente.
+</stage>
 <sp who="LA DÉESSE"><speaker>LA DÉESSE.</speaker>
 	<l id="66">Où vas-tu, vieillard indomptable ?</l>
 	<l id="67">Quel sujet t'amène en ces lieux ?</l>
@@ -217,7 +223,8 @@ Réflexions , les Vents , etc. Acteurs de la Scène précédente.</head>
 <stage type="decor">Les ministres du Temps, le Repentir, les Réflexions, les Vents détruisent le palais ; le trône s'en va enfumée ; les ailes du théâtre s'évanouissent et ne laissent plus voir que des ruines ; les nuages dorés tombent en pluie ; les Désirs, l'Espérance, les Songes, tout s'envole ; le Temps reste seul avec la Déesse et les Peuples.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Temps, La Déesse et Les Peuples.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Temps, La Déesse et Les Peuples.
+</stage>
 <sp who="LE TEMPS"><speaker>LE TEMPS.</speaker>
 	<l id="94">Eh bien, ces lieux vous plaisent-ils encore ?</l>
 	<l id="95">Dépouillés de l'éclat dont l'erreur les colore,</l>
@@ -230,7 +237,8 @@ Réflexions , les Vents , etc. Acteurs de la Scène précédente.</head>
 	<l id="99">En un instant notre sort change !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Déesse, Les Peuples.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Déesse, Les Peuples.
+</stage>
 <sp who="LA DÉESSE"><speaker>LA DÉESSE.</speaker>
 	<l id="100">Va, je redoute peu tes impuissants projets :</l>
 	<l id="101">Et vous, ne craignez rien, le Temps ne peut me nuire,</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,26 +29,28 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">VINGT SIXIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1822'>1822.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1822">1822.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='DELONCHAMPS'>À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
+			<printer id="DELONCHAMPS">À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME DE CLERVAUT" sex="2" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MADAME DE CLERVAUT</role>.</castItem>
-		<castItem><role id="MADAME D'ORVILLE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MADAME D'ORVILLE</role>.</castItem>
-		<castItem><role id="MONSIEUR DE CLERVAUT" sex="1" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MONSIEUR DE CLERVAUT</role>.</castItem>
-		<castItem><role id="LE CHEVALIER DE BERCY" sex="1" type="H" statut='chevalier' age='A' stat_amour='(néant)'>LE CHEVALIER DE BERCY</role>.</castItem>
-		<castItem><role id="MONSIEUR DE SAINT-VAL" sex="1" type="H" statut='aristocrate' age='A' stat_amour='(néant)'>MONSIEUR DE SAINT-VAL</role>, ami de M. de Clervaut.</castItem>
+		<castItem><role id="MADAME DE CLERVAUT" sex="2" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MADAME DE CLERVAUT</role>.</castItem>
+		<castItem><role id="MADAME D'ORVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MADAME D'ORVILLE</role>.</castItem>
+		<castItem><role id="MONSIEUR DE CLERVAUT" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR DE CLERVAUT</role>.</castItem>
+		<castItem><role id="LE CHEVALIER DE BERCY" sex="1" type="H" statut="chevalier" age="A" stat_amour="(néant)">LE CHEVALIER DE BERCY</role>.</castItem>
+		<castItem><role id="MONSIEUR DE SAINT-VAL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR DE SAINT-VAL</role>, ami de M. de Clervaut.</castItem>
    </castList>
-	<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est chez Madame de Clervaut, et dans une pièce qui est proche de la salle du bal, chez Madame d'Orville.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est chez Madame de Clervaut, et dans une pièce qui est proche de la salle du bal, chez Madame d'Orville.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE précédé de la vie de Carmontelle (...), chez DELONGCHAMPS libraire, Tome Premier, 1822. pp. 499-364</note>
 </front>
 <body>
-<div1 type="act" n='1'><head>LE BAL</head>
-<div2 stage="costume" type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame de Clervaut, Le Chevalier, tous deux en habits de bal.</head>
+<div1 type="act" n="1"><head>LE BAL</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="costume"> Madame de Clervaut, Le Chevalier, tous deux en habits de bal.
+</stage>
 <stage type="">La scène est dans l'appartement de madame de Clervaut.</stage>
-<sp stage="entrance/sit" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, en entrant et s'asseyant.</speaker>
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="entrance/sit">, en entrant et s'asseyant.
+</stage>
 <p id="1">
 	<s id="1">Attendons ici. Madame de Miremont est insupportable ! </s>
 	<s id="2">Voyez à quelle heure nous arriverons au bal.</s>
@@ -127,7 +129,8 @@
 	<s id="1">Mais si Clervaut vous trompe ?</s>
 </p>
 </sp>
-<sp stage="dream" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, rêvant.</speaker>
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="dream">, rêvant.
+</stage>
 <p id="14">
 	<s id="1">S'il me trompait !... </s>
 	<s id="2">Mais cela n'est pas possible.</s>
@@ -205,7 +208,8 @@
 </p>
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
-<sp stage="smile" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, souriant.</speaker>
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="smile">, souriant.
+</stage>
 <p id="28">
 	<s id="1">Votre espoir s'accroît facilement.</s>
 </p>
@@ -242,7 +246,8 @@
 <stage type="exit">Ils sortent après s'être masqués.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur de Clervaut, Monsieur de Saint-Val.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur de Clervaut, Monsieur de Saint-Val.
+</stage>
 <stage type="decor/location">La scène est dans une pièce à côté du bal, chez madame d'Orville.</stage>
 <sp who="MONSIEUR DE SAINT-VAL"><speaker>MONSIEUR DE SAINT-VAL.</speaker>
 <p id="1">
@@ -372,8 +377,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur de Clervaut, Madame de Clervaut.</head>
-<sp who="LE CHEVALIER"><speaker>LE CHEVALIER, à Madame de Clervaut.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur de Clervaut, Madame de Clervaut.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage>, à Madame de Clervaut.
+</stage>
 <p id="1">
 	<s id="1">Tenez, le voilà votre mari.</s>
 </p>
@@ -388,7 +395,8 @@
 	<s id="1">En vérité, beau masque, c'est bien mal faire les honneurs de chez soi, que de se cacher si longtemps.</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, grasseyant.</speaker>
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="strong">, grasseyant.
+</stage>
 <p id="4">
 	<s id="1">Vous me connaissez ?</s>
 </p>
@@ -408,23 +416,27 @@
 	<s id="1">Je suis vrai ; c'est bien plus que d'être galant.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, à Madame de Clervaut.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="toward">, à Madame de Clervaut.
+</stage>
 <p id="8">
 	<s id="1">Cela commence bien.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, au Chevalier.</speaker>
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="toward">, au Chevalier.
+</stage>
 <p id="9">
 	<s id="1">Allez faire un tour de bal ; je commence à vous croire.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, à Madame de Clervaut.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="toward">, à Madame de Clervaut.
+</stage>
 <p id="10">
 	<s id="1">Je ne serai pas longtemps.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur de Clervaut, Madame de Clervaut.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur de Clervaut, Madame de Clervaut.
+</stage>
 <sp who="MONSIEUR DE CLERVAUT"><speaker>MONSIEUR DE CLERVAUT.</speaker>
 <p id="1">
 	<s id="1">Je crains bien qu'un autre ne m'ait prévenu, et que, plus heureux que moi...</s>
@@ -621,8 +633,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur de Clervaut, Madame de Clervaut, Le Chevalier.</head> 
-<sp stage="toward/give" who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT, au Chevalier en lui donnant son portrait. </speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur de Clervaut, Madame de Clervaut, Le Chevalier. 
+</stage> 
+<sp who="MADAME DE CLERVAUT"><speaker>MADAME DE CLERVAUT</speaker><stage type="toward/give">, au Chevalier en lui donnant son portrait. 
+</stage>
 <p id="1">
 	<s id="1">Tenez, masque, gardez-moi cela jusqu'à ce que je vous le demande.</s>
 </p>
@@ -638,14 +652,16 @@
 	<s id="2">Rentrons dans le bal.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, à Madame de Clervaut.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="toward">, à Madame de Clervaut.
+</stage>
 <p id="4">
 	<s id="1">Je vous suis. </s>
 	<s id="2">Quel bonheur !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur de Clervaut, Monsieur de Saint-Val.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur de Clervaut, Monsieur de Saint-Val. 
+</stage> 
 <sp who="MONSIEUR DE SAINT-VAL"><speaker>MONSIEUR DE SAINT-VAL.</speaker>
 <p id="1">
 	<s id="1">Où vas-tu ?</s>
@@ -685,8 +701,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madame d'Orville, Monsieur de Clervaut, Monsieur de Saint-Val.</head>
-<sp stage="costume" who="MADAME D'ORVILLE"><speaker>MADAME D'ORVILLE, sans être masquée, avec un domino différent de celui de Madame de Clervaut.</speaker> 
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madame d'Orville, Monsieur de Clervaut, Monsieur de Saint-Val.
+</stage>
+<sp who="MADAME D'ORVILLE"><speaker>MADAME D'ORVILLE</speaker><stage type="costume">, sans être masquée, avec un domino différent de celui de Madame de Clervaut. 
+</stage> 
 <p id="1">
 	<s id="1">Eh bien, messieurs, que faites-vous donc ici ? </s>
 	<s id="2">Pourquoi ne pas rentrer dans le bal ?</s>
@@ -709,7 +727,8 @@
 <stage type="entrance">Il rentre dans le bal.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Madame d'Orville, Monsieur de Clervaut.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Madame d'Orville, Monsieur de Clervaut.
+</stage>
 <sp who="MADAME D'ORVILLE"><speaker>MADAME D'ORVILLE.</speaker>
 <p id="1">
 	<s id="1">Mais, dites-moi donc, d'où vient votre étonnement ?</s>
@@ -758,7 +777,8 @@
 	<s id="1">Vous plaisantez vous-même, assurément.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DE CLERVAUT"><speaker>MONSIEUR DE CLERVAUT, à part.</speaker>
+<sp who="MONSIEUR DE CLERVAUT"><speaker>MONSIEUR DE CLERVAUT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Oh ciel ! </s>
 	<s id="2">Me serais-je trompé !</s>
@@ -814,7 +834,8 @@
 <stage type="exit">Elle entre dans le bal.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur de Clervaut, Monsieur de  Saint-Val.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur de Clervaut, Monsieur de  Saint-Val.
+</stage>
 <sp who="MONSIEUR DE SAINT-VAL"><speaker>MONSIEUR DE SAINT-VAL.</speaker>
 <p id="1">
 	<s id="1">Où vas-tu ?</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -26,29 +26,30 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>UNE FAUSSE INVITE</titlePart>
-			<titlePart type='sub'>OU LE PIANO DE BERTHE</titlePart>
-			<titlePart type='sub'>COMÉDIE DE SALON</titlePart>
-			<titlePart type='sub'>Pour faire suite au Piano de Berthe (Comédie do Barrière).</titlePart>
+			<titlePart type="main">UNE FAUSSE INVITE</titlePart>
+			<titlePart type="sub">OU LE PIANO DE BERTHE</titlePart>
+			<titlePart type="sub">COMÉDIE DE SALON</titlePart>
+			<titlePart type="sub">Pour faire suite au Piano de Berthe (Comédie do Barrière).</titlePart>
 		</docTitle>
-		<docDate value='1889'>Janvier 1889.</docDate>
-		<docAuthor id='P. G.'>P. G.</docAuthor>
+		<docDate value="1889">Janvier 1889.</docDate>
+		<docAuthor id="P. G.">P. G.</docAuthor>
 		<docImprint>
-				<editor id='TRESSE'>PARIS TRESSE, ÉDITEUR 10 ET 11, GALERIE DE CHARTRES (PALAIS-ROYAL)</editor>
-				<printer id='JOUAUST'>À PARIS, DES PRESSES DE D. JOUAUST, Imprimeur breveté RUE SAINT-HONORÉ, 338</printer>
+				<editor id="TRESSE">PARIS TRESSE, ÉDITEUR 10 ET 11, GALERIE DE CHARTRES (PALAIS-ROYAL)</editor>
+				<printer id="JOUAUST">À PARIS, DES PRESSES DE D. JOUAUST, Imprimeur breveté RUE SAINT-HONORÉ, 338</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="BERTHE DE BEAUMONT" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>BERTHE DE BEAUMONT</role>.</castItem>
-		<castItem><role id="MADAME DE PRÉVAL" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MADAME DE PRÉVAL</role>.</castItem>
-		<castItem><role id="JULIE" sex="2" type="H" statut="femme de chambre" age='A' stat_amour='néant'>JULIE</role>, femme de chambre de Madame de Beaumont.</castItem>
-		<castItem><role id="FRANTZ" sex="1" type="H" statut="artiste" age='A' stat_amour='néant'>FRANTZ</role>, artiste.</castItem>
+		<castItem><role id="BERTHE DE BEAUMONT" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">BERTHE DE BEAUMONT</role>.</castItem>
+		<castItem><role id="MADAME DE PRÉVAL" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE PRÉVAL</role>.</castItem>
+		<castItem><role id="JULIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">JULIE</role>, femme de chambre de Madame de Beaumont.</castItem>
+		<castItem><role id="FRANTZ" sex="1" type="H" statut="artiste" age="A" stat_amour="néant">FRANTZ</role>, artiste.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="37.074461, 22.430264">La scène est a Paris, chez Madame de Beaumont.</set>
 	<note>Extrait de "Entre les paravents, Petites récréations scéniques de salle et de famille", P.G., Janvier 1889, pp. 389-407. Cote BnF [8-YF-410]</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UNE FAUSSE INVITE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Frantz, Berthe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Frantz, Berthe.
+</stage>
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="1">Oui, Madame, j'étais enfant de la Bretagne.</l>
 	<l id="2">Pauvre pâtre, j'appris dans mon âpre montagne</l>
@@ -159,7 +160,8 @@
 	<l id="51">Qui m'apparut alors et rapide s'enfuit,</l>
 	<l id="52" syll="9" part="i">En vous il m'a semblé la revoir.</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="52" syll="3" part="f">C'était lui !</l>
 </sp>
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
@@ -173,7 +175,8 @@
 	<l id="55" syll="6" part="f">C'était vous, ce sylphe, ce lutin !</l>
 	<l id="56">Vous, ô madame, ô Berthe, il est donc un destin I</l>
 </sp>
-<sp stage="declamate" who="JULIE"><speaker>JULIE, annonçant.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="declamate">, annonçant.
+	</stage>
 	<l id="57" syll="6" part="i">Madame_de_Préval.</l>
 </sp>
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
@@ -194,7 +197,8 @@
 	<l id="60">Dis-je, de lui pouvoir être ici présenté.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Berthe, Frantz, Madame de Préval.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Berthe, Frantz, Madame de Préval.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="61">J'accours en toute hâte auprès de vous, ma chère,</l>
 	<l id="62">Vous rassurer enfin sur le sort de mon frère.</l>
@@ -238,7 +242,8 @@
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="78">Et l'on ose du ciel nier la providence.</l>
 </sp>
-<sp stage="show" who="BERTHE"><speaker>BERTHE, le présentant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="show">, le présentant.
+	</stage>
 	<l id="79" syll="3" part="i">Monsieur_Frantz.</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
@@ -274,7 +279,8 @@
 	<l id="90" syll="9" part="f">Mais, je crois, le public vous réclame</l>
 	<l id="91">Et nous ne voulons pas ici vous retenir.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="92">Bien au contraire. Oh ! Mais je pourrai revenir,</l>
 	<l id="93">Car cette dame là, bien qu'étant à la pose,</l>
 	<l id="94">Semble fine et se doute un peu de quelque chose.</l>
@@ -295,7 +301,8 @@
 	<l id="100">En vous donnant demain ma première leçon.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Berthe, Madame de Préval.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Berthe, Madame de Préval.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="101" syll="8" part="i">C'est votre professeur de chant ?</l>
 </sp>
@@ -373,7 +380,8 @@
 	<l id="143">D'ignorer et d'avoir même en aversion</l>
 	<l id="144">Le faux et le mesquin et la convention.</l>
 </sp>
-<sp stage="aparte" who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL, à part.</speaker>
+<sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="145">Voilà qui m'inquiète un peu ; que me dit-elle ?</l>
 <stage type="loud">Haut.</stage>
 	<l id="146">Vraiment, vous défendez ce garçon, chère belle,</l>
@@ -520,7 +528,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL, seule.</speaker>
+<sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="227">Non, je n'y comprends rien ; que veut dire cela ?</l>
 	<l id="228">Quel étrange caprice est-ce que celui-là ? - </l>
 	<l id="229">Car enfin je ne dois et pas un instant même</l>
@@ -546,7 +555,8 @@
 	<l id="248">Que Nerville à jamais ignore tout ceci.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Madame de Préval, Julie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame de Préval, Julie.
+</stage>
 <sp who="JULIE"><speaker>JULIE.</speaker>
 	<l id="249" syll="9" part="i">Madame m'a sonnée... ah ! pardon.</l>
 </sp>
@@ -720,7 +730,8 @@
 	<l id="333">Je vais auparavant aller embrasser Berthe.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Julie, Frantz.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Julie, Frantz.
+</stage>
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="334" syll="4" part="i">C'est encor moi.</l>
 </sp>
@@ -749,7 +760,8 @@
 <sp who="JULIE"><speaker>JULIE.</speaker>
 	<l id="339" syll="6" part="f">Si cela vous suffit...</l>
 </sp>
-<sp stage="toward" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="toward">, à part.
+	</stage>
 	<l id="340">Mettons l'occasion que je trouve à profit</l>
 	<l id="341" syll="6" part="i">Pour gagner là soubrette.</l>
 <stage type="loud">Haut.</stage>
@@ -873,7 +885,8 @@
 	<l id="383" syll="6" part="f">Il s'agit d'être fort.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madame de Préval, Frantz.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madame de Préval, Frantz.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="384">Je suis charmée ici de vous trouver encor.</l>
 </sp>
@@ -972,7 +985,8 @@
 	<l id="431">Mais de vous mieux connaître à présent bien m'en prit</l>
 	<l id="432">Et comme homme du monde, et comme homme d'esprit.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="433">Je l'aurai fascinée aussi, c'est incroyable.</l>
 <stage type="loud">Haut. </stage>
 	<l id="434">Le jugement peut-être est un peu favorable</l>
@@ -1036,7 +1050,8 @@
 	<l id="464">Veuillez être assez bon pour m'attendre un moment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Frantz, Berthe.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Frantz, Berthe.
+</stage>
 <sp who="BERTHE"><speaker>BERTHE.</speaker>
 	<l id="465" syll="6" part="i">Encore ici, Monsieur ?</l>
 </sp>
@@ -1081,7 +1096,8 @@
 	<l id="481" syll="6" part="i">Silence, la voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Berthe, Frantz, Madame de Préval.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Berthe, Frantz, Madame de Préval.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="481" syll="6" part="f">Ne boudons plus, allons,</l>
 	<l id="482">Vous savez que j'ai fait ce soir de vos salons</l>
@@ -1177,7 +1193,8 @@
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="532">Des ficelles, Madame, ou mieux, des balançoires,</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="533" syll="3" part="i">Qu'entends-je ?</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
@@ -1197,7 +1214,8 @@
 <sp who="BERTHE"><speaker>BERTHE.</speaker>
 	<l id="539">Quoi, vous n'avez jamais vu la vieille Armorique ?</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="540" syll="6" part="i">Corbleu ! je suis bête.</l>
 <stage type="loud">Haut.</stage>
 	<l id="540" syll="6" part="f">Ah ! Pardon, je m'explique...</l>
@@ -1235,7 +1253,8 @@
 	<l id="563">Les inconvénients entre dans nos principes,</l>
 	<l id="564">Pourvu que nous ayons du tabac pour nos pipes.</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="565" syll="6" part="i">Quelle chute, ô mon_Dieu !</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
@@ -1272,7 +1291,8 @@
 	<l id="584">Une existence enfin brillante et confortable ;</l>
 	<l id="585">De l'or plein nos goussets, comme les épiciers.</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="586">Est-il possible, ô ciel ! Que ces instincts grossiers ?</l>
 <stage type="loud">Haut.</stage>
 	<l id="587">Mais dans les oeuvres d'art, on voit régner sans cesse</l>
@@ -1362,7 +1382,8 @@
 	<l id="641" syll="6" part="f">Se trouve transporté</l>
 	<l id="642">Par le même convoi que la médiocrité.</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="643">Quelle distance hélas ! Du type imaginaire</l>
 	<l id="644">Que je me figurais à cette âme vulgaire.</l>
 <stage type="loud">Haut.</stage>
@@ -1408,7 +1429,8 @@
 <sp who="BERTHE"><speaker>BERTHE.</speaker>
 	<l id="663">Pitié pour moi, pitié pour lui, ma chère amie.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="664">J'aurai décidément conquis, je le parie,</l>
 	<l id="665" syll="6" part="i">Madame_de_Préval.</l>
 </sp>
@@ -1431,7 +1453,8 @@
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="674" syll="4" part="m">Il se peut bien.</l>
 </sp>
-<sp stage="" who="BERTHE"><speaker>BERTHE, à Madame de Préval.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="">, à Madame de Préval.
+	</stage>
 	<l id="674" syll="2" part="f">Merci.</l>
 </sp>
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
@@ -1461,7 +1484,8 @@
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="684" syll="4" part="i">Précisément.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="684" syll="8" part="f">Oh ! Non, je la trouve trop forte</l>
 	<l id="685">Et je ferai plutôt du scandale, tant pis.</l>
 <stage type="loud">Haut.</stage>
@@ -1497,19 +1521,22 @@
 	<l id="696">Que la vôtre ne peut que rende glorieuse,</l>
 	<l id="697">On ne saurait douter de son consentement.</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="698">Que dit-elle ? Oh ! Je crois comprendre maintenant.</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="699">Cependant, permettez que l'on s'en éclaircisse.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="700">Bon, l'on me fait poser, c'est un nouveau caprice.</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="701">Si vous le voulez bien, nous la ferons venir.</l>
 </sp>
-<sp stage="aparte" who="FRANTZ"><speaker>FRANTZ, à part.</speaker>
+<sp who="FRANTZ"><speaker>FRANTZ</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="702">Ma foi j'ai presque envie, ici, pour la punir...</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
@@ -1525,11 +1552,13 @@
 	<l id="708" syll="10" part="i">Et je ne serais pas si malheureux...</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Berthe, Madame de Préval, Frantz, Julie.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Berthe, Madame de Préval, Frantz, Julie.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="708" syll="2" part="f">Julie...</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="709" syll="6" part="i">Que va-t-elle donc faire ?</l>
 </sp>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
@@ -1559,7 +1588,8 @@
 <sp who="FRANTZ"><speaker>FRANTZ.</speaker>
 	<l id="719" syll="4" part="i">Vous refusez ?</l>
 </sp>
-<sp stage="aparte" who="BERTHE"><speaker>BERTHE, à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="719" syll="8" part="f">Elle est plus que moi raisonnable.</l>
 </sp>
 <sp who="JULIE"><speaker>JULIE.</speaker>
@@ -1590,7 +1620,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Berthe, Madame de Préval, Julie.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Berthe, Madame de Préval, Julie.
+</stage>
 <sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL.</speaker>
 	<l id="729">Vous avez été sage, il n'est liens heureux</l>
 	<l id="730">Que ceux que des égaux ont pu former entre eux.</l>
@@ -1599,7 +1630,8 @@
 <sp who="JULIE"><speaker>JULIE.</speaker>
 	<l id="732" syll="6" part="i">J'épouse un militaire.</l>
 </sp>
-<sp stage="aparte" who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL, à Berthe.</speaker>
+<sp who="MADAME DE PRÉVAL"><speaker>MADAME DE PRÉVAL</speaker><stage type="aparte">, à Berthe.
+	</stage>
 	<l id="732" syll="2" part="m">Et vous ?</l>
 </sp>
 <sp who="BERTHE"><speaker>BERTHE.</speaker>

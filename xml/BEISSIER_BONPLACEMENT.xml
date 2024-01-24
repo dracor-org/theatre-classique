@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">COMÉDIE EN UN ACTE.</titlePart> 
 	</docTitle>
    <docDate value="1888">1888. Droits de reproduction, de traduction et de représentation réservés.</docDate>
-   <docAuthor id='BEISSIER, Fernand'>FERNAND BESSIER.</docAuthor>
+   <docAuthor id="BEISSIER, Fernand">FERNAND BESSIER.</docAuthor>
 	<docImprint>
 		<editor id="LIBRAIRIE THÉÂTRALE">PARIS, LIBRAIRIE THÉÂTRALE 14, RUE DE GRAMMONT, 14</editor>
 		<printer id="PICHAT">Imprimerie Générale de Chatillon-sur-Seine. - A. PICHAT</printer>
@@ -40,7 +40,7 @@
 		<castItem><role id="BERTHE" sex="2" type="H" statut="aristocrate" age="V" stat_amour="">BERTHE</role>, sa filleule.</castItem>
 		<castItem><role id="LUCETTE" sex="2" type="H" statut="paysan" age="V" stat_amour="">LUCETTE</role>, jeune paysanne. (Costumes du XVIIIème siècle.)</castItem>
 	</castList>
-	<set location="France" country="France" periode="XXème" gps=""></set>
+	<set location="France" country="France" periode="XXème" gps=""/>
 <note>Extrait de "Saynètes pour jeunes filles", Fernand Bessier, Paris, Librairie Théâtrale, 1888. pp 37-67.</note>
 </front>
 <body>
@@ -77,7 +77,8 @@
 </p>
 <stage type="kiss">Elle l'embrasse.</stage>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="6">
 	<s id="1">C'est bon, petite flatteuse que vous êtes ; m'est avis que vous m'aimez aujourd'hui davantage !...</s>
 </p>
@@ -110,7 +111,8 @@
 	<s id="1">Et pourquoi, marraine ?</s>
 </p>
 </sp>
-<sp stage="stand/touch" who="LA MARQUISE"><speaker>LA MARQUISE, se levant et lui tapotant la joue.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="stand/touch">, se levant et lui tapotant la joue.
+</stage>
 <p id="11">
 	<s id="1">Ah ! </s>
 	<s id="2">Ceci, c'est mon secret, fillette ; et vous ne m'en voudrez pas de ne point encore vous le dire.</s>
@@ -127,7 +129,8 @@
 	<s id="2">Te voilà riche maintenant.</s>
 </p>
 </sp>
-<sp stage="toward" who="BERTHE"><speaker>BERTHE, comme se parlant à elle-même.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="toward">, comme se parlant à elle-même.
+</stage>
 <p id="14">
 	<s id="1">Ce sera difficile !...</s>
 </p>
@@ -218,27 +221,32 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Berthe, Lucette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Berthe, Lucette.
+</stage>
 <stage type="location/open/entrance">La porte du fond s'ouvre et Lucette paraît. Timidement, elle t'arrête sur la seuil, n'osant avancer ; elle tient un panier à la main.</stage>
-<sp who="BERTHE"><speaker>BERTHE, sans se retourner.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, sans se retourner.
+</stage>
 <p id="1">
 	<s id="1">C'est vous, Marton ?</s>
 </p>
 </sp>
-<sp stage="shy" who="LUCETTE"><speaker>LUCETTE, timidement.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="shy">, timidement.
+</stage>
 <p id="2">
 	<s id="1">Non, Mademoiselle. </s>
 	<s id="2">Ce n'est pas Marton, c'est moi.</s>
 </p>
 </sp>
-<sp stage="turn/estonish" who="BERTHE"><speaker>BERTHE, te retournant étonnée.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="turn/estonish">, te retournant étonnée.
+</stage>
 <p id="3">
 	<s id="1">Qui donc ? </s>
 	<s id="2">Ah ! </s>
 	<s id="3">C'est toi, Lucette !</s>
 </p>
 </sp>
-<sp stage="wave" who="LUCETTE"><speaker>LUCETTE, saluant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="wave">, saluant.
+</stage>
 <p id="4">
 	<s id="1">Moi-même, Mademoiselle, pour vous servir. </s>
 	<s id="2">J'apporte ce panier de fruits pour Madame_la_Marqulse, et comme la mère m'avait bien recommandé de le remettre moi-même, j'ai demandé, à l'office, où était Madame. </s>
@@ -246,12 +254,14 @@
 	<s id="4">Alors, sans façon, je suis venue, j'ai frappé, et me voilà.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, allant au panier.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, allant au panier.
+</stage>
 <p id="5">
 	<s id="1">Et qu'est-ce que tu apportes ?</s>
 </p>
 </sp>
-<sp stage="" who="LUCETTE"><speaker>LUCETTE, découvrant ton panier.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="">, découvrant ton panier.
+</stage>
 <p id="6">
 	<s id="1">De belles pêches, les premières, Mademoiselle_Berthe ! </s>
 	<s id="2">Dès que la mère les a vues mûres à point, vitement elle est allée les cueillir : « elles seront pour madame et pour mademoiselle, a-t-elle dit. </s>
@@ -314,7 +324,8 @@
 	<s id="1">Non, pas chez moi, mais chez la mère Renaude, cette pauvre chère femme, dont vous devez vous souvenir.</s>
 </p>
 </sp>
-<sp stage="search" who="BERTHE"><speaker>BERTHE, cherchant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="search">, cherchant.
+</stage>
 <p id="17">
 	<s id="1">Attends donc ! </s>
 	<s id="2">N'est-ce pas cette petite vieille qui nous racontait toujours de si belles histoires ?</s>
@@ -329,7 +340,8 @@
 	<s id="5">Elle parlait, ma foi, presque aussi bien que notre curé.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, souriant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, souriant.
+</stage>
 <p id="19">
 	<s id="1">Vraiment !</s>
 </p>
@@ -423,7 +435,8 @@
 	<s id="1">Ce que nous n'avons, ni les unes ni les autres : de l'argent.</s>
 </p>
 </sp>
-<sp stage="drop/closer/furniture" who="BERTHE"><speaker>BERTHE, allant an petit meuble, et prenant la bourse qu'elle y a placée auparavant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="drop/closer/furniture">, allant an petit meuble, et prenant la bourse qu'elle y a placée auparavant.
+</stage>
 <p id="33">
 	<s id="1">Tiens, prends ceci.</s>
 </p>
@@ -446,7 +459,8 @@
 	<s id="2">D'autant que je ne savais qu'acheter ; me voilà fixée maintenant.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, refusant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, refusant.
+</stage>
 <p id="37">
 	<s id="1">Mais, Mademoiselle_Berthe...</s>
 </p>
@@ -460,7 +474,8 @@
 	<s id="5">Mais prends vite, te dis-je, puisque le temps presse et que la mère Renaude attend.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, prenant la bourse.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, prenant la bourse.
+</stage>
 <p id="39">
 	<s id="1">Oh ! </s>
 	<s id="2">Que vous êtes bonne, Mademoiselle_Berthe. </s>
@@ -485,7 +500,8 @@
 	<s id="2">Adresse-toi à Marton ; elle t'accompagnera, et la préviendra, s'il y a déjà du monde.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, remontant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, remontant.
+</stage>
 <p id="43">
 	<s id="1">C'est cela. </s>
 </p>
@@ -504,7 +520,8 @@
 	<s id="1">Et je n'ose pas.</s>
 </p>
 </sp>
-<sp stage="laugh" who="BERTHE"><speaker>BERTHE, riant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="47">
 	<s id="1">Demande toujours !</s>
 </p>
@@ -526,12 +543,14 @@
 </p>
 <stage type="stop/shame/watch">Elle s'arrête, honteuse, baissant la tête.</stage>
 </sp>
-<sp stage="show" who="BERTHE"><speaker>BERTHE, lui tendant la joue.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="show">, lui tendant la joue.
+</stage>
 <p id="51">
 	<s id="">Tiens !</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, l'embrassant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, l'embrassant.
+</stage>
 <p id="52">
 	<s id="1">Oh ! </s>
 	<s id="2">Merci, Mademoiselle. </s>
@@ -553,7 +572,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="BERTHE"><speaker>BERTHE, seule.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, seule.
+</stage>
 <stage type="location/watch/furniture">Elle retourne à sa table, regarde sa bourse vide.</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -573,7 +593,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp who="BERTHE"><speaker>BERTHE, un peu surprise.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, un peu surprise.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est vous, marraine.</s>
@@ -596,7 +617,8 @@
 	<s id="1">Tu cherchais peut-être encore l'objet à choisir ?</s>
 </p>
 </sp>
-<sp stage="quick" who="BERTHE"><speaker>BERTHE, vivement.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="5">
 	<s id="1">Oui, c'est cela, Marraine, je cherchais.</s>
 </p>
@@ -612,7 +634,8 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp stage="open" who="LA MARQUISE"><speaker>LA MARQUISE, ouvrant l'écrin.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="open">, ouvrant l'écrin.
+</stage>
 <p id="8">
 	<s id="1">Regarde.</s>
 </p>
@@ -653,7 +676,8 @@
 	<s id="3">Tu me sembles embarrassée !...</s>
 </p>
 </sp>
-<sp stage="hesitate" who="BERTHE"><speaker>BERTHE, hésitant.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="15">
 	<s id="1">Moi... </s>
 	<s id="2">Non... </s>
@@ -670,7 +694,8 @@
 	<s id="1">Que je le prenne...</s>
 </p>
 </sp>
-<sp stage="serious" who="LA MARQUISE"><speaker>LA MARQUISE, avec un sérieux comique.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="serious">, avec un sérieux comique.
+</stage>
 <p id="18">
 	<s id="1">Mais oui. </s>
 	<s id="2">Vraiment vous me semblez, Berthe, ma mie, courir après d'invisibles papillons. </s>
@@ -692,7 +717,8 @@
 	<s id="6">Rassure-toi ; s'il manque quelque chose dans ta bourse, nous la compléterons.</s>
 </p>
 </sp>
-<sp stage="stress" who="BERTHE"><speaker>BERTHE, arec effort.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="stress">, arec effort.
+</stage>
 <p id="21">
 	<s id="">Merci, mais vrai, je ne peux pas.</s>
 </p>
@@ -723,7 +749,8 @@
 	<s id="2">Vous êtes difficile, Berthe !</s>
 </p>
 </sp>
-<sp stage="quick" who="BERTHE"><speaker>BERTHE, vivement.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="27">
 	<s id="1">Vous êtes fâchée, Marraine ?</s>
 </p>
@@ -744,7 +771,8 @@
 	<s id="1">Je vais donc renvoyer le collier à Maître_Benoît.</s>
 </p>
 </sp>
-<sp stage="sigh" who="BERTHE"><speaker>BERTHE, avec un soupir.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="sigh">, avec un soupir.
+</stage>
 <p id="30">
 	<s id="1">Oui.</s>
 </p>
@@ -765,7 +793,8 @@
 	<s id="1">Décidément, ma petite, vous êtes par trop difficile, et c'est un vrai défaut que cette coquetterie-là.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, elle baisse la tète, arec un soupir et à part.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, elle baisse la tète, arec un soupir et à part.
+</stage>
 <p id="34">
 	<s id="1">Il était bien joli pourtant ! </s>
 	<s id="2">Eh bien non ! </s>
@@ -774,8 +803,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Marquise, Berthe, Lucette.</head>
-<sp who="LUCETTE"><speaker>LUCETTE, entrant virement, puis s'arrèltnt, honteuse.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Marquise, Berthe, Lucette.
+</stage>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, entrant virement, puis s'arrèltnt, honteuse.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous voilà, Madame_la_marquise ! </s>
@@ -800,7 +831,8 @@
 	<s id="1">Ah !</s>
 </p>
 </sp>
-<sp stage="watch/wave" who="LUCETTE"><speaker>LUCETTE, voyant que Berthe lui fait signe en cachette, et ne comprenant pas.</speaker> 
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="watch/wave">, voyant que Berthe lui fait signe en cachette, et ne comprenant pas. 
+</stage> 
 <p id="5">
 	<s id="1">Oui, Madame, j'avais un panier de pêches à vous remettre ; je l'ai déposé à l'office. </s>
 	<s id="2">Et maintenant que voilà ma commission faite, et mes salutations aussi, si vous voulez bien me le permettre, je vais m'en retourner chez nous.</s>
@@ -819,7 +851,8 @@
 </p>
 <stage type="wave">Même jeu de Berthe, lui faisant signe de ne rien dire.</stage>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, ne comprenant pas.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, ne comprenant pas.
+</stage>
 <p id="8">
 	<s id="1">Oui, j'ai raconté tout cela à Mademoiselle_Berthe. </s>
 	<s id="2">On allait la chasser de sa maison, cette brave femme ; on allait vendre ses meubles et la jeter dans la rue, malade, sans un morceau de pain, et sans un coin pour reposer sa tête ! </s>
@@ -859,12 +892,14 @@
 	<s id="5">Mais soir et matin, elle priera pour vous, et nous tous aussi, qui vous aimions tant déjà.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, à Lucette.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, à Lucette.
+</stage>
 <p id="14">
 	<s id="1">Explique-toi mieux, je ne comprends pas.</s>
 </p>
 </sp>
-<sp stage="prey" who="BERTHE"><speaker>BERTHE, suppliante.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="prey">, suppliante.
+</stage>
 <p id="15">
 	<s id="1">Lucette !</s>
 </p>
@@ -899,7 +934,8 @@
 	<s id="3">Je ne le voulais pas ; mais elle a exigé que je le prenne, - et je l'ai pris.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, regardant Berthe, qui baisse les yeux à part.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, regardant Berthe, qui baisse les yeux à part.
+</stage>
 <p id="21">
 	<s id="1">Je comprends tout. </s>
 	<s id="2">Est-ce vrai, Berthe, tout cela ?</s>
@@ -927,7 +963,8 @@
 	<s id="1">Embrasse-moi !</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, se jetant dans ses bras.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage>, se jetant dans ses bras.
+</stage>
 <p id="26">
 	<s id="1">Oh ! </s>
 	<s id="2">Marraine !</s>
@@ -957,29 +994,34 @@
 	<s id="1">Si toutefois Berthe veut bien me mettre de moitié dans sa  bonne oeuvre.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="LUCETTE"><speaker>LUCETTE, avec élan.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="enthousiasm">, avec élan.
+</stage>
 <p id="32">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, vous êtes bonne comme du bon pain !</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="33">
 	<s id="1">Merci, Lucette.</s>
 </p>
 </sp>
-<sp stage="slow/shake" who="BERTHE"><speaker>BERTHE, doucement, lui serrant la main.</speaker>
+<sp who="BERTHE"><speaker>BERTHE</speaker><stage type="slow/shake">, doucement, lui serrant la main.
+</stage>
 <p id="34">
 	<s id="1">Merci, marraine.</s>
 </p>
 </sp>
-<sp stage="low" who="LA MARQUISE"><speaker>LA MARQUISE, bas.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="low">, bas.
+</stage>
 <p id="35">
 	<s id="1">Oh ! </s>
 	<s id="2">Avec toi, je n'en ai pas fini.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, prenant son paquet.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, prenant son paquet.
+</stage>
 <p id="36">
 	<s id="1">Cette fois-ci, je m'en vais. </s>
 	<s id="2">Je suis déjà en retard ; mais je marcherai plus vite, voilà tout. </s>
@@ -1029,14 +1071,16 @@
 	<s id="3">Au revoir, Lucette.</s>
 </p>
 </sp>
-<sp stage="wave" who="LUCETTE"><speaker>LUCETTE, faisant la révérence.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="45">
 	<s id="1">Votre servante, Madame et Mademoiselle !</s>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Marquise, Berthe.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Marquise, Berthe.
+</stage>
 <sp who="BERTHE"><speaker>BERTHE.</speaker>
 <p id="1">
 	<s id="1">Et maintenant, Marraine, si vous le permettez, je vais me hâter de terminer ma toilette. </s>
@@ -1054,17 +1098,20 @@
 </p>
 <stage type="exit">Elle va pour sortir.</stage>
 </sp>
-<sp stage="smile/location/furniture/get/call" who="LA MARQUISE"><speaker>LA MARQUISE, souriant, va A la table, prend le coffre et la rappelle.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile/location/furniture/get/call">, souriant, va à la table, prend le coffre et la rappelle.
+</stage>
 <p id="4">
 	<s id="1">Et ceci que tu oublies !</s>
 </p>
 </sp>
-<sp stage="estonish" who="BERTHE"><speaker>BBRTHE, étonnée.</speaker>
+<sp who="BERTHE"><speaker>BBRTHE</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="5">
 	<s id="1">Moi ?</s>
 </p>
 </sp>
-<sp stage="give" who="LA MARQUISE"><speaker>LA MARQUISE, lui tendant le coffret.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="give">, lui tendant le coffret.
+</stage>
 <p id="6">
 	<s id="2">Ton collier !</s>
 </p>
@@ -1086,7 +1133,8 @@
 	<s id="2">Marraine.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="10">
 	<s id="1">À moins qu'il ne te plaise plus !...</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>prose</type>
 				<periode>1751-1760</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -31,31 +31,32 @@
 		<titlePart part="sub">NOUVELLE ÉDITION</titlePart> 
 	</docTitle>
    <docDate value="1811">M. DCCX. XI.</docDate>
-   <docAuthor id='GENLIS, Charles'>PAR MADAME DE GENLIS</docAuthor>
+   <docAuthor id="GENLIS, Charles">PAR MADAME DE GENLIS</docAuthor>
 	<docImprint>
 		<editor id="LAMBERT, BAUDOUIN">À Paris, Chez MARADAN, LIBRAIRE, rue des Grands Augustins, n°9.</editor>
 		<printer id="CELLOTN">DE L'IMPRIMERIE DE CELLOT.</printer>
 	</docImprint>
 	<performance>
-		<premiere date="1737" location='chez la Marquise de Mauconseil'></premiere>
+		<premiere date="1737" location="chez la Marquise de Mauconseil"/>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="CÉLANIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>CÉLANIE</role>.</castItem> 
-		<castItem><role id="AGLAÉ" sex="2" type="H" statut="aristocrate" age="J" stat_amour=''>AGLAÉ</role>, Fille de Célanie.</castItem>
-		<castItem><role id="MÉLITE" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>MÉLITE</role>, Cousine de Célanie.</castItem>
-		<castItem><role id="ÉMILIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour=''>ÉMILIE</role>, Amie de Célanie.</castItem>
-		<castItem><role id="LE CHEVALIER DE VALCOURT" sex="1" type="H" statut="chevalier" age="J" stat_amour=''>LE CHEVALIER DE VALCOURT</role>, Amant d'Aglaé.</castItem> 
-		<castItem><role id="MARQUIS D'HERCY" sex="1" type="H" statut="marquis" age="A" stat_amour=''>Le MARQUIS D'HERCY</role>, Amoureux de Célanie.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>HENRIETTE</role>, Femme de Chambre.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour=''>UN LAQUAIS</role>.</castItem>
+		<castItem><role id="CÉLANIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">CÉLANIE</role>.</castItem> 
+		<castItem><role id="AGLAÉ" sex="2" type="H" statut="aristocrate" age="J" stat_amour="">AGLAÉ</role>, Fille de Célanie.</castItem>
+		<castItem><role id="MÉLITE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">MÉLITE</role>, Cousine de Célanie.</castItem>
+		<castItem><role id="ÉMILIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="">ÉMILIE</role>, Amie de Célanie.</castItem>
+		<castItem><role id="LE CHEVALIER DE VALCOURT" sex="1" type="H" statut="chevalier" age="J" stat_amour="">LE CHEVALIER DE VALCOURT</role>, Amant d'Aglaé.</castItem> 
+		<castItem><role id="MARQUIS D'HERCY" sex="1" type="H" statut="marquis" age="A" stat_amour="">Le MARQUIS D'HERCY</role>, Amoureux de Célanie.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="">HENRIETTE</role>, Femme de Chambre.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="">UN LAQUAIS</role>.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="(N/A)">La Scène est dans un salon du Château de Célanie.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans un salon du Château de Célanie.</set>
 	<note>Extrait de "Théâtre des boulevards , ou Recueil de parades" . Tome Troisième - Paris, Maradan, 1811. pp. 1-145</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <stage type="decor">Le Théâtre représente un Salon, dans le fond duquel on voit une grande porte de glace donnant sur une terrasse.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE I. Le Chevalier De Valcourt, Émilie. </head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Chevalier De Valcourt, Émilie. 
+</stage>
 <stage type="entrance/costume">Ils sortent l'un et l'autre de la terrasse ; Émilie est en habit de voyage, et le Chevalier n'est point encore habillé.</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
@@ -318,7 +319,8 @@
 	<s id="2">Croyez, mon frère, que le coeur le plus droit a besoin d'un esprit éclairé. </s>
 </p>
 </sp>
-<sp stage="hurry/toward" who="HENRIETTE"><speaker>HENRIETTE, qui survient, à Émilie.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="hurry/toward">, qui survient, à Émilie.
+</stage>
 <p id="45">
 	<s id="1">Madame vient de s'éveiller, et m'envoie...</s>
 </p>
@@ -335,7 +337,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LE CHEVALIER"><speaker>LE CHEVALIER, seul.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Elle croit me pénétrer... </s>
 	<s id="2">Ah ! </s>
@@ -355,7 +358,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III.Mélite, Le Chevalier.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage>Mélite, Le Chevalier.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Émilie est arrivée : vous avez eu un long entretien avec elle ; ne vous êtes-vous point trahi ?</s>
@@ -437,7 +441,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="MÉLITE"><speaker>MÉLITE, seule.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage>, seule.
+</stage>
 <p id="1">
 	<s id="1">Eh quoi ! </s>
 	<s id="2">Suis-je condamnée à n'entendre jamais que l'éternel éloge de Célanie ! </s>
@@ -457,9 +462,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mélite, Célanie, Aglaé, Émilie, Henriette, le Marquis, le Chevalier.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mélite, Célanie, Aglaé, Émilie, Henriette, le Marquis, le Chevalier.
+</stage>
 <stage type="costume">Ils sont tous en habits du matin.</stage>
-<sp stage="watch" who="CÉLANIE"><speaker>CÉLANIE, en apercevant Mélite.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="watch">, en apercevant Mélite.
+</stage>
 <p id="1">
 	<s id="1">Ah !</s>
 	<s id="2">Je la vois.</s>
@@ -467,7 +474,8 @@
 	<s id="4">Henriette, faites apporter le thé.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MÉLITE"><speaker>MÉLITE, l'embrassant.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="2">
 	<s id="1">Comment êtes-vous ce matin ? </s>
 	<s id="2">Je vous trouve abattue.</s>
@@ -480,32 +488,38 @@
 </p>
 <stage type="watch/dream/silence">Elle baise les yeux, et paraît tomber dans une profonde rêverie. Il y a un moment de silence, pendant lequel les Acteurs la regardent.</stage>
 </sp>
-<sp stage="low/toward" who="MÉLITE"><speaker>MÉLITE, bas au Marquis.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="low/toward">, bas au Marquis.
+</stage>
 <p id="4">
 	<s id="1">Je ne crois pas que le déjeuner soit bien gai.</s>
 </p>
 </sp>
-<sp stage="low" who="LE MARQUIS"><speaker>LE MARQUIS, bas.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="low">, bas.
+</stage>
 <p id="5">
 	<s id="1">Regardez-la comme elle est belle et touchante !</s>
 </p>
 </sp>
-<sp stage="low" who="MÉLITE"><speaker>MÉLITE, bas.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="low">, bas.
+</stage>
 <p id="6">
 	<s id="1">Elle a perdu toute sa fraîcheur : elle est méconnaissable.</s>
 </p>
 </sp>
-<sp stage="toward/low" who="ÉMILIE"><speaker>ÉMILIE, à Aglaé, à demi voix.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward/low">, à Aglaé, à demi voix.
+</stage>
 <p id="7">
 	<s id="1">Elle m'inquiète...</s>
 </p>
 </sp>
-<sp stage="touch/kiss" who="AGLAÉ"><speaker>AGLAÉ, prenant la main de Célanie, et la baisant.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="touch/kiss">, prenant la main de Célanie, et la baisant.
+</stage>
 <p id="8">
 	<s id="1">Maman...</s>
 </p>
 </sp>
-<sp stage="sigh/watch/kiss" who="CÉLANIE"><speaker>CÉLANIE soupire, lève les yeux, embrasse sa fille, regarde le Chevalier, soupire encore, et dit : </speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="sigh/watch/kiss"> soupire, lève les yeux, embrasse sa fille, regarde le Chevalier, soupire encore, et dit : 
+</stage>
 <p id="9">
 	<s id="1">Et le thé ?</s>
 </p>
@@ -515,13 +529,15 @@
 </p>
 <stage type="closer/sit/location">On apporte une table à thé. Célanie se place entre sa fille et Émilie. Le Chevalier est de l'autre côté, près d'Aglaé, et le Marquis entre Émilie et Mélite. Deux ou trois Valets-de-Chambre restent dans le fond de la chambre pour servir.</stage>
 </sp>
-<sp stage="explicit" who="CÉLANIE"><speaker>CÉLANIE a dit avant cet arrangement : </speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="explicit"> a dit avant cet arrangement : 
+</stage>
 <p id="11">
 	<s id="1">Ma fille, mettez-vous là ; et vous ici, ma chère amie. </s>
 </p>
 <stage type="toward/eat">À Émilie. Aglaé fait le thé, et en donne. Tout le monde mange, etc.</stage>
 </sp>
-<sp who="MÉLITE"><speaker>MÉLITE, à Émilie.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage>, à Émilie.
+</stage>
 <p id="12">
 	<s id="1">Madame, vous avez passé par Paris ; nous apportez-vous quelques nouvelles ?</s>
 </p>
@@ -548,7 +564,8 @@
 	<s id="1">Quand on a des enfants, je ne puis comprendre... </s>
 </p>
 </sp>
-<sp stage="nervous" who="CÉLANIE"><speaker>CÉLANIE, avec humeur.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="17">
 	<s id="1">Vous êtes prompte à condamner.</s>
 </p>
@@ -591,18 +608,21 @@
 	<s id="2">La vanité n'a point dirigé ma conduite, et je ne fais dépendre ma réputation et ma gloire que de l'opinion de ce que j'aime. </s>
 </p>
 </sp>
-<sp stage="laugh" who="AGLAÉ"><speaker>AGLAÉ, en riant.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="laugh">, en riant.
+</stage>
 <p id="25">
 	<s id="1">Oui, maman, vous pouvez vous remarier, je ne m'en croirais pas moins aimée, et je ne vous en chérirais pas moins. </s>
 </p>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Célanie.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Célanie.
+</stage>
 <p id="26">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Vous voilà à votre aise. </s>
 </p>
 </sp>
-<sp stage="toward/embarrassed" who="CÉLANIE"><speaker>CÉLANIE, au Chevalier, avec embarras.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="toward/embarrassed">, au Chevalier, avec embarras.
+</stage>
 <p id="27">
 	<s id="1">Chevalier, vous n'avez rien dit sur le mariage d'Hortense ! </s>
 	<s id="2">Faites-nous donc aussi connaître votre avis.</s>
@@ -618,7 +638,8 @@
 	<s id="1">Et je ne comprends pas que Madame ait pu soutenir sérieusement... </s>
 </p>
 </sp>
-<sp stage="laugh" who="ÉMILIE"><speaker>ÉMILIE, en riant.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="laugh">, en riant.
+</stage>
 <p id="30">
 	<s id="1">Réellement, mon frère, vous ne mépriseriez pas une veuve qui ferait la folie de se remarier ? </s>
 	<s id="2">Êtes-vous bien sincère ?</s>
@@ -629,7 +650,8 @@
 	<s id="1">Je ne parle pas d'une chose aussi simple et aussi juste ; mais il n'y a point de torts, point d'égarements qu'un amour véritable ne me fît excuser. </s>
 </p>
 </sp>
-<sp stage="smile" who="CÉLANIE"><speaker>CÉLANIE, en souriant.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="smile">, en souriant.
+</stage>
 <p id="32">
 	<s id="1">Cette morale n'est pas bien pure.</s>
 </p>
@@ -639,7 +661,8 @@
 	<s id="1">Si la raison la condamne, le coeur l'approuve en dépit d'elle. </s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="34">
 	<s id="1">Ils ne s'entendent guère.</s>
 </p>
@@ -665,7 +688,8 @@
 	<s id="1">Je m'en suis toujours doutée ; la constance est une chimère. </s>
 </p>
 </sp>
-<sp stage="strong" who="CÉLANIE"><speaker>CÉLANIE, vivement.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="strong">, vivement.
+</stage>
 <p id="39">
 	<s id="1">Eh ! </s>
 	<s id="2">Mon_Dieu, Madame ; pourquoi ?</s>
@@ -683,22 +707,26 @@
 	<s id="2">Et vous, mon frère ?... </s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE CHEVALIER"><speaker>LE CHEVALIER, embarrassé.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="42">
 	<s id="1">À présent, une dissertation sur la constance.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="CÉLANIE"><speaker>CÉLANIE, bas, à Émilie.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="low/toward">, bas, à Émilie.
+</stage>
 <p id="43">
 	<s id="1">Vous l'embarrassez.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ÉMILIE"><speaker>ÉMILIE, bas, à Célanie.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="low/toward">, bas, à Célanie.
+</stage>
 <p id="44">
 	<s id="1">Je n'en n'ai point pitié ; il est trop extravagant.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="45">
 	<s id="1">Il faut changer de conversation. </s>
 </p>
@@ -720,7 +748,8 @@
 	<s id="2">Si elle voulait chanter ? </s>
 </p>
 </sp>
-<sp stage="toward" who="CÉLANIE"><speaker>CÉLANIE, à Aglaé.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="toward">, à Aglaé.
+</stage>
 <p id="49">
 	<s id="1">Eh bien ?</s>
 </p>
@@ -741,7 +770,8 @@
 	<s id="2">J'en aime beaucoup l'air. </s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="53">
 	<s id="1">Et les paroles encore davantage.</s>
 </p>
@@ -751,12 +781,14 @@
 	<s id="1">Mais, je ne la sais pas bien, et je tremblerai... </s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="55">
 	<s id="1">Et l'Auteur aussi.</s>
 </p>
 </sp>
-<sp stage="toward" who="CÉLANIE"><speaker>CÉLANIE, à Émilie.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="toward">, à Émilie.
+</stage>
 <p id="56">
 	<s id="1">Sa voix est charmante ; et regardez comme le chant l'embellit.</s>
 </p>
@@ -872,14 +904,16 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Henriette, le Marquis.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Henriette, le Marquis.
+</stage>
 <stage type="entrance/carry/stop">Henriette paraît, suivie d'un Laquais qui porte un paquet. Le Marquis arrive et l'arrête.</stage> 
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Henriette, où courez-vous ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="HENRIETTE"><speaker>HENRIETTE, riant.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="2">
 	<s id="1">C'est un secret ; mais cependant je veux bien vous le confier.</s>
 </p>
@@ -1013,7 +1047,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alonde" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alonde">, seul.
+</stage>
 <p id="1">
 	<s id="1">Avec quelle naïveté cette fille exprime son admiration ! </s>
 	<s id="2">Quel hommage que celui-là ! </s>
@@ -1029,7 +1064,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Mélite, Le Marquis.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Mélite, Le Marquis.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Ah, Marquis ! </s>
@@ -1171,7 +1207,8 @@
 	<s id="5">J'entends quelqu'un ; dissimulez le trouble qui vous agite.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">qu'a-t-elle voulu me faire entendre ?... </s>
@@ -1180,7 +1217,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Mélite, Le Marquis, Aglaé.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Mélite, Le Marquis, Aglaé.
+</stage>
 <sp who="AGLAÉ"><speaker>AGLAÉ.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -1223,8 +1261,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mélite, Aglaé.</head>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mélite, Aglaé.
+</stage>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">L'ingrat... </s>
 	<s id="2">Allons ; du moins vengeons-nous. </s>
@@ -1407,7 +1447,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mélite, Aglaé, Le Chevalier.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mélite, Aglaé, Le Chevalier.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Approchez, approchez, Chevalier, venez m'aider...</s>
@@ -1446,7 +1487,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Aglaé, Le Chevalier.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Aglaé, Le Chevalier.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Mademoiselle ! </s>
@@ -1757,7 +1799,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="AGLAÉ"><speaker>AGLAÉ, seule.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Je tremble. </s>
 	<s id="2">Si c'était ma mère ; ô Ciel ! </s>
@@ -1788,7 +1831,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Aglaé, Célanie.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Aglaé, Célanie.
+</stage>
 <sp who="CÉLANIE"><speaker>CÉLANIE.</speaker>
 <p id="1">
 	<s id="1">Venez donc dîner, ma fille ; on vous attend... </s>
@@ -1820,7 +1864,8 @@
 	<s id="1">Vous m'inquiétez beaucoup. </s>
 </p>
 </sp>
-<sp stage="get" who="AGLAÉ"><speaker>AGLAÉ, lui prenant la main.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="get">, lui prenant la main.
+</stage>
 <p id="6">
 	<s id="1">Que vous êtes bonne !... </s>
 	<s id="">Ah, maman !</s>
@@ -1860,7 +1905,8 @@
 	<s id="4">Va, tu fais plus pour mon bonheur que je ne puis faire pour le tien. </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part. </speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="12">
 	<s id="1">Quel trait déchirant !</s>
 </p>
@@ -1876,7 +1922,8 @@
 	<s id="">De ce moment seul, je serai parfaitement heureuse.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part. </speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="14">
 	<s id="1">Je n'y puis plus tenir... </s>
 </p>
@@ -1886,7 +1933,8 @@
 	<s id="2">C'en est trop. </s>
 </p>
 </sp>
-<sp stage="help/stand" who="CÉLANIE"><speaker>CÉLANIE la relève, et la prend entre ses bras.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="help/stand"> la relève, et la prend entre ses bras.
+</stage>
 <p id="16">
 	<s id="1">Que cette sensibilité me touche !... </s>
 	<s id="2">Ah, mon enfant ! </s>
@@ -1894,7 +1942,8 @@
 	<s id="4">Ah que tu mérites bien... </s>
 </p>
 </sp>
-<sp stage="strong" who="AGLAÉ"><speaker>AGLAÉ, avec force.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="strong">, avec force.
+</stage>
 <p id="17">
 	<s id="1">Écoute-moi, Maman, écoute-moi.</s>
 </p>
@@ -1913,7 +1962,8 @@
 </p>
 <stage type="kiss">Elle l'embrasse.</stage>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="20">
 	<s id="1">J'allais tout découvrir.</s>
 </p>
@@ -1924,7 +1974,8 @@
 	<s id="2">Viens, ce soir nous nous retrouverons seules.</s>
 </p>
 </sp>
-<sp stage="aparte/exit" who="AGLAÉ"><speaker>AGLAÉ, à part, en s'en allant.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte/exit">, à part, en s'en allant.
+</stage>
 <p id="22">
 	<s id="1">Hélas ! </s>
 	<s id="2">Qu'elle est loin d'imaginer tout ce qu'elle m'a fait souffrir !</s>
@@ -1934,7 +1985,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Célanie, Émilie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Célanie, Émilie.
+</stage>
 <sp who="CÉLANIE"><speaker>CÉLANIE.</speaker>
 <p id="1">
 	<s id="1">Oui, j'ai un secret important à vous apprendre, un secret qui va vous remplir d'étonnement, un secret enfin...</s>
@@ -2170,7 +2222,8 @@
 	<s id="1">Je vous laisse avec elle, et je vous quitte, transportée de joie et réellement hors de moi-même. </s>
 </p>
 </sp>
-<sp stage="kiss" who="CÉLANIE"><speaker>CÉLANIE, l'embrassant.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="38">
 	<s id="1">Vous parliez de tout ce qui me rend heureuse, et vous ne comptiez pas une amie telle que vous.</s>
 </p>
@@ -2189,14 +2242,16 @@
 	<s id="1">Paix ; voici ma fille.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="ÉMILIE"><speaker>ÉMILIE, à part, en s'en allant.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="42">
 	<s id="1">Allons chercher mon frère ; je ne lui dirai rien, mais il faut que je le voie.</s>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Célanie, Aglaé.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Célanie, Aglaé.
+</stage>
 <sp who="CÉLANIE"><speaker>CÉLANIE.</speaker>
 <p id="1">
 	<s id="1">Approchez, mon enfant, j'ai beaucoup de choses à vous dire. </s>
@@ -2204,7 +2259,8 @@
 	<s id="3">Asseyez-vous.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Je tremble.</s>
 </p>
@@ -2257,7 +2313,8 @@
 	<s id="10">Puis-je exister sans toi ! </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Où fuir ? </s>
 	<s id="2">Où me cacher ?</s>
@@ -2268,7 +2325,8 @@
 	<s id="1">Répondez-moi, ma fille ; et bannissez de vaines inquiétudes. </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Que lui dirai-je ? </s>
 	<s id="2">Ô Dieux ! </s>
@@ -2300,7 +2358,8 @@
 	<s id="1">Que dites-vous ? </s>
 </p>
 </sp>
-<sp stage="kneel" who="AGLAÉ"><speaker>AGLAÉ, se jetant à genoux.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="kneel">, se jetant à genoux.
+</stage>
 <p id="17">
 	<s id="1">Pardonnez-moi une résistance si coupable ; je meurs, si je vous déplais : mais je meurs, si j'obéis.</s>
 </p>
@@ -2341,7 +2400,8 @@
 	<s id="4">Répondez donc. </s>
 </p>
 </sp>
-<sp type="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp type="aparte" who="AGLAÉ"><speaker>AGLAÉ</speaker><stage>, à part.
+</stage>
 <p id="23">
 	<s id="1">Elle ne veut pas m'entendre, et je n'ai pas le courage...</s>
 </p>
@@ -2391,33 +2451,39 @@
 	<s id="2">C'est le Chevalier.</s>
 </p>
 </sp>
-<sp who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage>, à part.
+</stage>
 <p id="30">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">Quel nouvel embarras !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Célanie, Aglaé, Le Chevalier.</head>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Célanie, Aglaé, Le Chevalier.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Aglaé est avec elle... </s>
 	<s id="2">Je n'ose l'aborder.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CÉLANIE"><speaker>CÉLANIE, à part.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Que me veut-il ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Émilie m'envoie ici... </s>
 	<s id="2">pour mon bonheur, dit-elle... </s>
 	<s id="3">et j'y trouve Aglaé ; quel présage !</s>
 </p>	
 </sp>
-<sp stage="aparte" who="CÉLANIE"><speaker>CÉLANIE, à part.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Il paraît tremblant... agité... </s>
 	<s id="2">Émilie l'aurait-elle instruit ? </s>
@@ -2437,14 +2503,16 @@
 	<s id="1">Eh bien !... </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Ah ! </s>
 	<s id="2">Juste Ciel ! </s>
 	<s id="3">Que veut-il dire ? </s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, à Célanie.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="toward">, à Célanie.
+</stage>
 <p id="9">
 	<s id="1">Ma soeur...</s>
 </p>
@@ -2481,12 +2549,14 @@
 	<s id="1">Adieu, mon enfant, songez que j'attends tout de vos réflexions. </s>
 </p>
 </sp>
-<sp stage="walk/low/toward" who="AGLAÉ"><speaker>AGLAÉ fait quelques pas, et dit tout bas au Chevalier,  pendant que Célanie rêve.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="walk/low/toward"> fait quelques pas, et dit tout bas au Chevalier,  pendant que Célanie rêve.
+</stage>
 <p id="16">
 	<s id="1">Saisissant cet instant ; jetons-nous à ses pieds. </s>
 </p>
 </sp>
-<sp stage="low/toward" who="LE CHEVALIER"><speaker>LE CHEVALIER, bas à Aglaé.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="low/toward">, bas à Aglaé.
+</stage>
 <p id="17">
 	<s id="1">Ce serait nous perdre... </s>
 	<s id="2">Au moment où nous pouvons tout espérer. </s>
@@ -2494,7 +2564,8 @@
 </p>
 <stage type="location">Il change de place, et Célanie se trouve entre eux deux.</stage>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Serait-il possible ?... </s>
 </p>
@@ -2503,7 +2574,8 @@
 	<s id="1">Adieu, maman.</s>
 </p>
 </sp>
-<sp stage="touch" who="CÉLANIE"><speaker>CÉLANIE, lui prenant les mains.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="touch">, lui prenant les mains.
+</stage>
 <p id="20">
 	<s id="1">Ma fille... </s>
 	<s id="2">Je vois la peine que vous avez à me quitter... </s>
@@ -2518,7 +2590,8 @@
 	<s id="1">Qu'elle en est digne, et que vous méritez bien toute sa tendresse ! </s>
 </p>
 </sp>
-<sp who="CÉLANIE"><speaker>CÉLANIE, au Chevalier.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage>, au Chevalier.
+</stage>
 <p id="23">
 	<s id="1">Ah ! </s>
 	<s id="2">Je la possède, soyez-en sûr. </s>
@@ -2527,7 +2600,8 @@
 </sp>
 <stage type="">LE CHEVALIER, prend l'autre main de Célanie, et se trouve à peu près dans la même attitude. </stage>
 </sp>
-<sp stage="touch" who="CÉLANIE"><speaker>CÉLANIE, avec beaucoup d'émotion.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="touch">, avec beaucoup d'émotion.
+</stage>
 <p id="24">
 	<s id="1">Ma fille... </s>
 	<s id="2">Mon cher Chevalier... </s>
@@ -2565,7 +2639,8 @@
 	<s id="3">Allez, mon enfant, allez ; bientôt votre heureuse mère n'aura plus de secrets pour vous.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="AGLAÉ"><speaker>AGLAÉ, à part, en s'en allant.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="30">
 	<s id="1">C'est lui qui me force au silence. </s>
 	<s id="2">Mais que mon coeur me le reproche, et que je suis à plaindre !</s>
@@ -2573,8 +2648,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Célanie, Le Chevalier.</head>
-<sp who="CÉLANIE"><speaker>CÉLANIE, après un moment de silence.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Célanie, Le Chevalier.
+</stage>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage>, après un moment de silence.
+</stage>
 <p id="1">
 	<s id="1">Chevalier, je ne voulais vous parler que demain.</s>
 </p>
@@ -2613,7 +2690,8 @@
 	<s id="1">Je m'occupe de votre sort ; je veux le changer ; y consentirez-vous ? </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part. </speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="8">
 	<s id="1">Quel espoir vient enivrer mon coeur ?... </s>
 	<s id="2">Aglaé...</s>
@@ -2677,7 +2755,8 @@
 	<s id="1">Vous me faites frémir. </s>
 </p>
 </sp>
-<sp stage="closer/kneel" who="LE CHEVALIER"><speaker>LE CHEVALIER, s'approchant et se jetant à ses genoux. </speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="closer/kneel">, s'approchant et se jetant à ses genoux. 
+</stage>
 <p id="18">
 	<s id="1">Ah ! </s>
 	<s id="2">Je vais vous porter le coup le plus mortel !</s>
@@ -2839,7 +2918,8 @@
 	<s id="3">Mais daignez songer à l'état où je suis, et combien il me sera difficile de me contraindre aux yeux de tout ce qui vous entoure. </s>
 </p>
 </sp>
-<sp stage="sad" who="CÉLANIE"><speaker>CÉLANIE, avec amertume.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="sad">, avec amertume.
+</stage>
 <p id="43">
 	<s id="1">Vous saurez feindre : cet effort vous coûtera peu. </s>
 	<s id="2">Enfin, puis-je compter sur votre parole ?</s>
@@ -2856,7 +2936,8 @@
 	<s id="2">J'ai besoin d'être seule ; laissez-moi.</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part en s'en allant.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte/away">, à part en s'en allant.
+</stage>
 <p id="46">
 	<s id="1">Dans le trouble où je suis, quel conseil dois-je suivre ?</s>
 </p>
@@ -2864,7 +2945,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="CÉLANIE"><speaker>CÉLANIE, seule.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Je n'en suis plus aimée... </s>
 	<s id="2">Qui l'aurait pu croire !... </s>
@@ -2891,7 +2973,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mélite, Célanie.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mélite, Célanie.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Ah, Madame ! </s>
@@ -2905,7 +2988,8 @@
 	<s id="1">Je ne puis vous dire...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Consommons mes desseins.</s>
 </p>
@@ -2972,7 +3056,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="MÉLITE"><speaker>MÉLITE, seule.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Elle sort furieuse... </s>
 	<s id="2">Ma feinte a réussi, en paraissant la croire instruite. </s>
@@ -2985,7 +3070,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Marquis, Mélite.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Marquis, Mélite.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Avez-vous rencontré Célanie ?</s>
@@ -3048,7 +3134,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Chevalier, Émilie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Chevalier, Émilie.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Oui, je suis au désespoir ; Célanie en mourra ; son coeur est déchiré du trait le plus sensible, dédaignée par ce qu'elle aime, et dans quel moment ? ... </s>
@@ -3117,7 +3204,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Célanie, Émilie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Célanie, Émilie.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, ma chère amie, vous me paraissez moins agitée ?... </s>
@@ -3323,7 +3411,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="CÉLANIE"><speaker>CÉLANIE, seule.</speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Que suis-je devenue ? </s>
 	<s id="2">Grand Dieu ! </s>
@@ -3346,7 +3435,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Célanie, Aglaé.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Célanie, Aglaé.
+</stage>
 <stage type="cry">Aglaé en pleurs, court se précipiter aux genoux de sa mère, 
 qui la relève avec sévérité.</stage> 
 <sp who="CÉLANIE"><speaker>CÉLANIE.</speaker>
@@ -3440,7 +3530,8 @@ qui la relève avec sévérité.</stage>
 </p>
 <stage type="exit">Elle veut sortir.</stage>
 </sp>
-<sp stage="stop" who="AGLAÉ"><speaker>AGLAÉ, l'arrêtant.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="14">
 	<s id="1">Arrêtez, ma mère, arrêtez...</s>
 </p>
@@ -3456,7 +3547,8 @@ qui la relève avec sévérité.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="AGLAÉ"><speaker>AGLAÉ, seule.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Elle me fuit... </s>
 	<s id="2">Ah, grand Dieu ! </s>
@@ -3465,7 +3557,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mélite, Aglaé, le Chevalier.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mélite, Aglaé, le Chevalier.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Nous vous cherchions... </s>
@@ -3535,7 +3628,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">Pressez Célanie ; priez, conjurez. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part. </speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="12">
 	<s id="1">Et le puis-je ? </s>
 	<s id="2">Grand Dieu !</s>
@@ -3547,7 +3641,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Émilie, Mélite, le Chevalier, Aglaé.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Émilie, Mélite, le Chevalier, Aglaé.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Célanie m'envoie pour vous instruire de ses dernières résolutions. </s>
@@ -3562,7 +3657,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Ah, Madame ! </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Hélas !</s>
 </p>
@@ -3598,7 +3694,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Le croire c'est m'outrager ; si ma mère part ; je dois la suivre, ou mourir. </s>
 </p>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Mélite.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Mélite.
+</stage>
 <p id="11">
 	<s id="1">Recevez, Madame, cet écrit ; il vous donne des droits légitimes sur Mademoiselle : et dès cet instant, elle peut se regarder comme votre fille.</s>
 </p>
@@ -3609,7 +3706,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">C'en est trop... </s>
 </p>
 </sp>
-<sp stage="toward" who="MÉLITE"><speaker>MÉLITE, à Aglaé.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="toward">, à Aglaé.
+</stage>
 <p id="13">
 	<s id="1">Modérez-vous. </s>
 </p>
@@ -3644,7 +3742,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">En est-il pour moi sans sa tendresse ? </s>
 </p>
 </sp>
-<sp stage="apartE" who="ÉMILIE"><speaker>ÉMILIE, à part.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="apartE">, à part.
+</stage>
 <p id="19">
 	<s id="1">Que sa douleur me touche !</s>
 </p>
@@ -3683,7 +3782,8 @@ qui la relève avec sévérité.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="ÉMILIE"><speaker>ÉMILIE, seule.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Je la plains : sa situation m'intéresse... </s>
 	<s id="2">Mais Célanie, ô Célanie... </s>
@@ -3693,8 +3793,10 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="ç"><head>SCÈNE IX. Émilie, Le Marquis.</head>
-<sp stage="run/hurry" who="LE MARQUIS"><speaker>LE MARQUIS, accourant avec précipitation.</speaker>
+<div2 type="scene" n="ç"><head>SCÈNE IX.</head><stage> Émilie, Le Marquis.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="run/hurry">, accourant avec précipitation.
+</stage>
 <p id="1">
 	<s id="1">Ah, Madame ! </s>
 	<s id="2">Vous me voyez dans un trouble, dans une agitation...</s>
@@ -3881,7 +3983,8 @@ qui la relève avec sévérité.</stage>
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Marquis, Émilie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Marquis, Émilie.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Ainsi voilà qui est convenu ; vous avez bien tout ce plan dans la tête ?</s>
@@ -3938,7 +4041,8 @@ qui la relève avec sévérité.</stage>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Que je me trouverais heureux, si je pouvais contribuer... </s>
@@ -3947,14 +4051,16 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mélite, Le Marquis.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mélite, Le Marquis.
+</stage>
 <sp who="MÉLITE"><speaker>MÉLITE.</speaker>
 <p id="1">
 	<s id="1">Le voilà. </s>
 	<s id="2">Il paraît bien agité. </s>
 </p>
 </sp>
-<sp stage="watch" who="LE MARQUIS"><speaker>LE MARQUIS, feignant de ne pas la voir.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="watch">, feignant de ne pas la voir.
+</stage>
 <p id="2">
 	<s id="1">Oui, oui, je suis désabusé.</s>
 </p>
@@ -3964,7 +4070,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Il ne me voit pas. </s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, feignant toujours.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, feignant toujours.
+</stage>
 <p id="4">
 	<s id="1">Non, je ne balance plus.</s>
 </p>
@@ -4107,7 +4214,8 @@ qui la relève avec sévérité.</stage>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Marquis, le Chevalier.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Marquis, le Chevalier.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">On m'a dit, Marquis, que vous aviez à me parler.</s>
@@ -4182,7 +4290,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Mille fois plus que ma vie. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Voilà le dernier coup qui m'était réservé. </s>
 </p>
@@ -4309,7 +4418,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Je le retirerai des mains d'Aglaé aussitôt qu'elle l'aura lu. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Par ce moyen, Célanie verra du moins que je me sacrifie de bonne foi pour elle.</s>
 </p>
@@ -4329,18 +4439,21 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Voilà une table, et tout ce qu'il faut pour écrire. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="42">
 	<s id="1">Allons, signons mon arrêt.</s>
 </p>
 <stage type="sit/write">Il s'assied, et écrit.</stage>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="43">
 	<s id="1">Le plus difficile est fait à présent ; je ne suis plus inquiet du reste.</s>
 </p>
 </sp>
-<sp stage="aparte/write" who="LE CHEVALIER"><speaker>LE CHEVALIER, à part en écrivant.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="aparte/write">, à part en écrivant.
+</stage>
 <p id="44">
 	<s id="1">Que chaque mot me coûte !... </s>
 	<s id="2">Ô Célanie ! </s>
@@ -4355,7 +4468,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">Il me fait une pitié... </s>
 </p>
 </sp>
-<sp stage="stand" who="LE CHEVALIER"><speaker>LE CHEVALIER, en se levant.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="stand">, en se levant.
+</stage>
 <p id="46">
 	<s id="1">Tenez, Marquis, puissiez-vous être plus heureux que moi ! </s>
 	<s id="2">Adieu... </s>
@@ -4369,7 +4483,8 @@ qui la relève avec sévérité.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. </head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Le pauvre malheureux !... </s>
 	<s id="2">Qu'il est à plaindre ! </s>
@@ -4416,7 +4531,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Aglaé, Le Marquis.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Aglaé, Le Marquis.
+</stage>
 <sp who="AGLAÉ"><speaker>AGLAÉ.</speaker>
 <p id="1">
 	<s id="1">Émilie, que j'ai rencontrée, vient de me dire que vous me cherchiez.</s>
@@ -4437,7 +4553,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Daignez lire ce billet, il vous instruira mieux que tout ce que je pourrais vous dire. </s>
 </p>
 </sp>
-<sp stage="get/open/read" who="AGLAÉ"><speaker>AGLAÉ, prend le billet, l'ouvre, et reconnaît l'écriture du Chevalier.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="get/open/read">, prend le billet, l'ouvre, et reconnaît l'écriture du Chevalier.
+</stage>
 <p id="5">
 	<s id="1">Ce billet... </s>
 	<s id="2">Je ne dois pas...</s>
@@ -4453,7 +4570,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">Et quelle naïve et touchante émotion ! </s>
 </p>
 </sp>
-<sp who="AGLAÉ"><speaker>AGLAÉ, lisant à haute voix.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage>, lisant à haute voix.
+</stage>
 <p id="8">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">« Je les ranimées, et j'en... </s>
@@ -4621,7 +4739,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Le voilà. </s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="37">
 	<s id="1">Enfin voilà ma tâche finie. </s>
 	<s id="2">Courons instruire Émilie de cet heureux succès. </s>
@@ -4630,7 +4749,8 @@ qui la relève avec sévérité.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="AGLAÉ"><speaker>AGLAÉ, seule. </speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="alone">, seule. 
+</stage>
 <p id="1">
 	<s id="1">Grâce au Ciel, me voilà seule...Ah ! </s>
 	<s id="2">Qu'ai-je fait ? </s>
@@ -4670,8 +4790,10 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VII. Célanie, Aglaé.</head>
-<sp stage="location" who="CÉLANIE"><speaker>CÉLANIE, dans le fond du Théâtre. </speaker>
+<div2 type="scene" n="8"><head>SCÈNE VII.</head><stage> Célanie, Aglaé.
+</stage>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="location">, dans le fond du Théâtre. 
+</stage>
 <p id="1">
 	<s id="1">C'est elle... </s>
 	<s id="2">C'en est fait, je vais partir : mais je veux la revoir encore. </s>
@@ -4683,7 +4805,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">D'où vient cet effroi ? </s>
 </p>
 </sp>
-<sp stage="frighten" who="AGLAÉ"><speaker>AGLAÉ, tremblante.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="frighten">, tremblante.
+</stage>
 <p id="3">
 	<s id="1">Je n'écrivais rien d'intéressant, je vous assure.</s>
 </p>
@@ -4703,7 +4826,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Je le veux : obéissez. </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Ô peine mortelle !</s>
 </p>
@@ -4814,12 +4938,14 @@ qui la relève avec sévérité.</stage>
 </p>
 <stage type="exit">Elle veut sortir.</stage>
 </sp>
-<sp stage="follow/run" who="AGLAÉ"><speaker>AGLAÉ, courant après elle.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="follow/run">, courant après elle.
+</stage>
 <p id="24">
 	<s id="1">Ma mère...</s>
 </p>
 </sp>
-<sp stage="entrance/stop" who="HENRIETTE"><speaker>HENRIETTE, survient, et arrête Célanie.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="entrance/stop">, survient, et arrête Célanie.
+</stage>
 <p id="25">
 	<s id="1">Madame, un instant. </s>
 	<s id="2">Monsieur le Marquis d'Hercy demande à vous parler avant votre départ.</s>
@@ -4839,7 +4965,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Célanie, Aglaé, Henriette,  Le Marquis, Mélite.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Célanie, Aglaé, Henriette,  Le Marquis, Mélite.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Pardonnez-moi, Madame, si j'ose retarder votre départ. </s>
@@ -4854,7 +4981,8 @@ qui la relève avec sévérité.</stage>
 	<s id="3">Je vais donc me déclarer.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Je vais donc triompher.</s>
 </p>
@@ -4869,18 +4997,21 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Parlez, Marquis, avec assurance. </s>
 </p>
 </sp>
-<sp stage="aparte" who="AGLAÉ"><speaker>AGLAÉ, à part.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="">Que va-t-il dire ?</s>
 </p>
 </sp>
-<sp stage="toward/show" who="LE MARQUIS"><speaker>LE MARQUIS, à Mélite, en montrant Célanie. </speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward/show">, à Mélite, en montrant Célanie. 
+</stage>
 <p id="7">
 	<s id="1">Madame vous a transmis tous ses droits sur votre charmante nièce. </s>
 	<s id="2">Vous êtes maîtresse de son sort ; c'est elle, Madame, c'est Aglaé que je vous demande à genoux. </s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">Qu'entends-je ?</s>
@@ -4896,7 +5027,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Mais, Monsieur, pourquoi découvrir ?... </s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Célanie.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Célanie.
+</stage>
 <p id="11">
 	<s id="1">Encore une fois, Madame, rassemblez toute votre attention. </s>
 	<s id="2">Après vous avoir quittée, un entretien secret avec Émilie m'a suggérée tout ce que j'ai fait depuis. </s>
@@ -4905,12 +5037,14 @@ qui la relève avec sévérité.</stage>
 </p>
 <stage type="give/read">Il donne le billet, Célanie le lit.</stage>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Avec quelle indignité je suis jouée !</s>
 </p>
 </sp>
-<sp stage="aparte" who="HENRIETTE"><speaker>HENRIETTE, à part.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Madame Mélite fait une triste mine.</s>
 </p>
@@ -4925,7 +5059,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Un moment de patience, Mademoiselle, et tout va s'éclaircir. </s>
 </p>
 </sp>
-<sp stage="read" who="CÉLANIE"><speaker>CÉLANIE, après avoir lu le billet. </speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="read">, après avoir lu le billet. 
+</stage>
 <p id="16">
 	<s id="1">Ah, Marquis ! </s>
 	<s id="2">Je commence à démêler le but de tout ce que vous avez fait. </s>
@@ -4957,7 +5092,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE IX. Célanie, Aglaé, Henriette, Le Marquis,  Mélite, Émilie, Le Chevalier.</head>
+<div2 type="scene" n=""><head>SCÈNE IX.</head><stage> Célanie, Aglaé, Henriette, Le Marquis,  Mélite, Émilie, Le Chevalier.
+</stage>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Allons donc, mon frère, que de résistance !</s>
@@ -4992,7 +5128,8 @@ qui la relève avec sévérité.</stage>
 	<s id="2">Et ce billet ? </s>
 </p>
 </sp>
-<sp stage="get" who="AGLAÉ"><speaker>AGLAÉ, le tirant de sa poche.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="get">, le tirant de sa poche.
+</stage>
 <p id="7">
 	<s id="1">Le voilà. </s>
 </p>
@@ -5004,12 +5141,14 @@ qui la relève avec sévérité.</stage>
 	<s id="2">Est-ce une illusion ? </s>
 </p>
 </sp>
-<sp stage="aparte" who="MÉLITE"><speaker>MÉLITE, à part.</speaker>
+<sp who="MÉLITE"><speaker>MÉLITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="9">
 	<s id="1">Faut-il dévorer un affront si cruel ? </s>
 </p>
 </sp>
-<sp stage="hugh" who="CÉLANIE"><speaker>CÉLANIE, se jetant dans les bras de sa fille. </speaker>
+<sp who="CÉLANIE"><speaker>CÉLANIE</speaker><stage type="hugh">, se jetant dans les bras de sa fille. 
+</stage>
 <p id="10">
 	<s id="1">Mon enfant, et je t'accusais !... </s>
 	<s id="2">Ah, mes amis, vous m'avez rendu ma fille.</s>
@@ -5032,7 +5171,8 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Tout ceci me passe. </s>
 </p>
 </sp>
-<sp stage="toward" who="ÉMILIE"><speaker>ÉMILIE, à Mélite.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="toward">, à Mélite.
+</stage>
 <p id="14">
 	<s id="1">Je crois que Madame peut rendre sa procuration. </s>
 	<s id="2">Je n'imagine pas qu'elle puisse s'en servir désormais.</s>
@@ -5049,7 +5189,8 @@ qui la relève avec sévérité.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Célanie, Aglaé, Henriette, Le Marquis, Mélite, Émilie, Le Chevalier.</head>  
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Célanie, Aglaé, Henriette, Le Marquis, Mélite, Émilie, Le Chevalier.  
+</stage>  
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>
 <p id="1">
 	<s id="1">Elle part démasquée : elle est assez punie.</s>
@@ -5102,13 +5243,15 @@ qui la relève avec sévérité.</stage>
 	<s id="1">Je jure à vos pieds de ne vivre, de n'exister que pour vous prouver une reconnaissance égale à ma tendresse ; et dans un instant où vous me rendez le plus heureux de tous les hommes, croyez du moins que l'amitié contribue à ma félicité, autant que l'amour même. </s>
 </p>
 </sp>
-<sp stage="kneel/touch" who="AGLAÉ"><speaker>AGLAÉ se jette à genoux, en tenant une main de Célanie, dans laquelle est celle du Chevalier.</speaker> 
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="kneel/touch"> se jette à genoux, en tenant une main de Célanie, dans laquelle est celle du Chevalier. 
+</stage> 
 <p id="9">
 	<s id="1">Oui, Maman, Nous ne vous quitterons jamais ; notre premier devoir, notre plus doux lien sera ce sentiment si pur et si sacré, dont vous êtes l'objet ; en partageant notre coeur, il augmentera notre tendresse mutuelle. </s>
 	<s id="2">Je ne puis aimer que ce qui vous chérit ; je ne puis être heureuse qu'avec vous. </s>
 </p>
 </sp>
-<sp stag="stand" who="CÉLANIE"><speaker>CÉLANIE, les relevant.</speaker>
+<sp stag="stand" who="CÉLANIE"><speaker>CÉLANIE</speaker><stage>, les relevant.
+</stage>
 <p id="10">
 	<s id="1">Ô ma fille, Ô ma chère Aglaé ! </s>
 	<s id="2">Premier et véritable objet de tous les sentiments de mon âme ; mon bonheur, tu le sais, ne dépend que de toi. </s>

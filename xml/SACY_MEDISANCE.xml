@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -27,29 +27,30 @@
 				<titlePart type="main">LA MÉDISANCE</titlePart>
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location=''></premiere>
+				<premiere date="" location=""/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id='MADAME PRUDELLE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME PRUDELLE</role>.</castItem>
-		<castItem><role id='COLETTE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>COLETTE</role>.</castItem>
-		<castItem><role id='VALÈRE' sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>VALÈRE</role>.</castItem>
-		<castItem><role id='MADAME PERRIN' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME PERRIN</role>.</castItem>
-		<castItem><role id='MADAME ORGON' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME ORGON</role>.</castItem>
-		<castItem><role id='MADAME RAISON' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME RAISON</role>.</castItem>
-		<castItem><role id='MARTHE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MARTHE</role>.</castItem>
+		<castItem><role id="MADAME PRUDELLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME PRUDELLE</role>.</castItem>
+		<castItem><role id="COLETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">COLETTE</role>.</castItem>
+		<castItem><role id="VALÈRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">VALÈRE</role>.</castItem>
+		<castItem><role id="MADAME PERRIN" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME PERRIN</role>.</castItem>
+		<castItem><role id="MADAME ORGON" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME ORGON</role>.</castItem>
+		<castItem><role id="MADAME RAISON" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME RAISON</role>.</castItem>
+		<castItem><role id="MARTHE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MARTHE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, La sympathie, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome second, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 377-416. </note>
 </front>
 <body>
-<div1 type="acte" n="1"><head></head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Valère, Colette.</head>
+<div1 type="acte" n="1"><head/>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Valère, Colette.
+</stage>
 <sp who="COLETTE"><speaker>COLETTE.</speaker>
 <p id="1">
 	<s id="1">Nous sommes perdus, mon pauvre Valère, nous sommes perdus.</s>
@@ -293,7 +294,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Valère, Colette, Marthe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Valère, Colette, Marthe.
+</stage>
 <stage type="entrance">Marthe s'avance fur la pointe des pieds, se cache derrière un paravent, et écoute.</stage>
 <sp who="MARTHE"><speaker>MARTHE.</speaker>
 <p id="1">
@@ -345,7 +347,8 @@
 	<s id="1">Ainsi nous n'aurons pas besoin de cette détestable vieille, dont l'âme est aussi hideuse que la figure.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARTHE"><speaker>MARTHE, à part.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="9">
 	<s id="1">Comme ils me traitent ! </s>
 	<s id="2">Je leur pardonne ; et comme il faut rendre le bien pour le mal, je vais prendre soin de leur salut, en rompant de très dangereuses entrevues, et rendre compte de tout à Madame.</s>
@@ -353,7 +356,8 @@
 <stage type="exit">Elle disparaît un moment.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Valère, Colette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Valère, Colette.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 <p id="1">
 	<s id="1">Parbleu, si elle était cachée quelque part, et qu'elle pût nous entendre, sa modestie souffrirait beaucoup.</s>
@@ -383,9 +387,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCENE IV. Madame Prudelle, Valère, Colette, Marthe.</head>
+<div2 type="scene" n="4"><head>SCENE IV.</head><stage> Madame Prudelle, Valère, Colette, Marthe.
+</stage>
 <stage type="toward/low">Madame Prudelle et Marthe se parlent quelque-temps à l'oreille.</stage>
-<sp stage="loud" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, haut.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="loud">, haut.
+</stage>
 <p id="1">
 	<s id="1">J'entends... </s>
 	<s id="2">Il suffit.</s>
@@ -430,7 +436,8 @@
 	<s id="1">Qu'il s'en inquiétait fort peu, et que vous Vous chargiez d'un soin qui ne vous regardait pas.</s>
 </p>
 </sp>
-<sp stage="anger" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, en colère.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="anger">, en colère.
+</stage>
 <p id="9">
 	<s id="1">Insolente ! </s>
 	<s id="2">Le salut de mon prochain ne me regarde pas ?</s>
@@ -546,7 +553,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Madame Prudelle, Valère, Colette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame Prudelle, Valère, Colette.
+</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Monsieur, ma nièce a dû vous dire qu'elle avait choisi un couvent pour asile.</s>
@@ -574,13 +582,15 @@
 	<s id="3">Pour moi, j'irai dans un moment à l'église prier le Ciel de vous appeler à la vie religieuse, d'une manière qui ne laisse plus de doute dans votre esprit.</s>
 </p>
 </sp>
-<sp stage="low/exit" who="VALÈRE"><speaker>VALÈRE, bas à Colette qui s'en va.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="low/exit">, bas à Colette qui s'en va.
+</stage>
 <p id="6">
 	<s id="1">Elle va sortir : songez au signal, dès qu'elle aura mis le pied hors de la maison.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Madame Prudelle, Valère.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Madame Prudelle, Valère.
+</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Où allez-vous, Valère ?</s>
@@ -608,7 +618,8 @@
 	<s id="3">Pour moi, dont la faiblesse ne peut aspirer à ce haut point de perfection, il a voulu que je reste dans le monde.</s>
 </p>
 </sp>
-<sp stage="aparte" who="VALÈRE"><speaker>VALÈRE, à part.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Pour le faire enrager.</s>
 </p>
@@ -745,7 +756,8 @@
 	<s id="1">Qui ait un grand fonds de patience, pour supporter vos petits défauts.</s>
 </p>
 </sp>
-<sp stage="aparte" who="VALÈRE"><speaker>VALÈRE, à part.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="32">
 	<s id="1">Et un grand fonds de méchanceté, pour s'exercer ma patience.</s>
 </p>
@@ -789,7 +801,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, seule.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">L'impertinent ! </s>
 	<s id="2">Le fat ! </s>
@@ -805,7 +818,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Madame Prudelle, Marthe.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Madame Prudelle, Marthe.
+</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Marthe !... </s>
@@ -878,7 +892,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, seule.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Le Ciel, pour mes péchés, m'a donné à gouverner cette indocile créature. </s>
 	<s id="2">En vérité, et dans l'un et dans l'autre sexe, j'aperçois tant de défauts, tant de caprices, que je ne vois que moi dont l'humeur soit égale et douce. </s>
@@ -886,7 +901,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Madame Prudelle, Madame Orgon, Madame Perrin, Marthe.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Madame Prudelle, Madame Orgon, Madame Perrin, Marthe.
+</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -898,7 +914,8 @@
 	<s id="1">Si une personne aussi sage que vous n'a pu y réussir, nous devons attendre peu de succès de nos foins.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, à Marthe.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="toward">, à Marthe.
+</stage>
 <p id="3">
 	<s id="1">Eh ! </s>
 	<s id="2">Donnez donc des sièges !... </s>
@@ -926,13 +943,15 @@
 	<s id="3">C'est une petite malheureuse, à qui j'ai donné un asile par charité ; et, pour la tirer des dangers auxquels la jeunesse est exposée dans le monde, je me fuis condamnée au supplice d'être servie par elle.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, bas à Marthe,</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="low/toward">, bas à Marthe,
+</stage>
 <p id="7">
 	<s id="1">Allez faire ce que je vous ai ordonné , et tenez-vous en embuscade près de la porte.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Madame Prudelle, Madame Orgon, Madame Perrin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Madame Prudelle, Madame Orgon, Madame Perrin.
+</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Vous m'aviez promis d'amener avec vous Madame Raison ; pourquoi n'est-elle pas venue ?</s>
@@ -1030,7 +1049,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison.
+</stage>
 <sp who="MADAME RAISON"><speaker>MADAME RAISON.</speaker>
 <p id="1">
 	<s id="1">Vous m'avez attendue, Mesdames ?</s>
@@ -1224,8 +1244,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Madame Prudelle, Madame ORGON, Madame Perrin, Madame Raison, Colette.</head>
-<sp stage="toward" who="COLETTE"><speaker>COLETTE, à Madame Raison.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Madame Prudelle, Madame ORGON, Madame Perrin, Madame Raison, Colette.
+</stage>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="toward">, à Madame Raison.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, secourez une orpheline infortunée, qu'on veut ensevelir malgré elle dans un cloître. </s>
@@ -1243,7 +1265,8 @@
 	<s id="1">Oui ; le voile donnerait un nouvel éclat à vos attraits.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME PERRIN"><speaker>MADAME PERRIN, à Madame Orgon.</speaker>
+<sp who="MADAME PERRIN"><speaker>MADAME PERRIN</speaker><stage type="toward">, à Madame Orgon.
+</stage>
 <p id="4">
 	<s id="1">Flattons son amour-propre, c'est le moyen de réussir.</s>
 </p>
@@ -1258,8 +1281,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison, Colette, Marthe.</head>
-<sp stage="low/toward" who="MARTHE"><speaker>MARTHE, bas à Madame Pruddle.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison, Colette, Marthe.
+</stage>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="low/toward">, bas à Madame Pruddle.
+</stage>
 <p id="1">
 	<s id="1">Madame, tout est prêt, le signal est donné.</s>
 </p>
@@ -1284,14 +1309,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison, Valère, Colette.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Madame Orgon, Madame Perrin, Madame Prudelle, Madame Raison, Valère, Colette.
+</stage>
 <stage type="light">La Scène se passe dans une demi-obscurité.</stage>
 <sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE.</speaker>
 <p id="1">
 	<s id="1">Il me semble que j'entends quelqu'un vers cette porte ; viendrait-on nous écouter ?</s>
 </p>
 </sp>
-<sp stage="" who="VALÈRE"><speaker>VALÈRE entre, et se jette au cou de Madame Prudelle qu' il prend pour Colette.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type=""> entre, et se jette au cou de Madame Prudelle qu' il prend pour Colette.
+</stage>
 <p id="2">
 	<s id="1">Nous sommes donc seuls et libres, chère Amante... </s>
 </p>
@@ -1305,14 +1332,16 @@
 	<s id="1">Je suis perdue.</s>
 </p>
 </sp>
-<sp stage="shout" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, criant.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="shout">, criant.
+</stage>
 <p id="5">
 	<s id="1">À moi ! </s>
 	<s id="2">Mesdames, à moi ! </s>
 	<s id="3">Secourez-moi contre un infâme ravisseur !</s>
 </p>
 </sp>
-<sp type="run" who="MADAME PERRIN"><speaker>MADAME PERRIN, accourant.</speaker>
+<sp type="run" who="MADAME PERRIN"><speaker>MADAME PERRIN</speaker><stage>, accourant.
+</stage>
 <p id="6">
 	<s id="1">Un homme ose vous faire chez vous une pareille insulte !</s>
 </p>
@@ -1322,12 +1351,14 @@
 	<s id="1">Un Commissaire ; vite , un Commissaire !</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE, à Madame Perrin.</speaker>
+<sp who="MADAME PRUDELLE"><speaker>MADAME PRUDELLE</speaker><stage type="toward">, à Madame Perrin.
+</stage>
 <p id="8">
 	<s id="1">Soutenez-moi, ma bonne amie ; je succombe à mon saisissement.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="COLETTE"><speaker>COLETTE, bas à Valère.</speaker>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="low/toward">, bas à Valère.
+</stage>
 <p id="9">
 	<s id="1">Eh ! </s>
 	<s id="2">Pourquoi entrer, quand le lignai n'est pas donné ?</s>

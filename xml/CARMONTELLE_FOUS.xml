@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>mixte</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,21 +28,21 @@
 			<titlePart type="main">LES FOUS</titlePart>
 			<titlePart type="sub">QUATORZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DISSONANT" sex="1" type="H" statut="musicien" age="A" stat_amour='néant'>MONSIEUR DISSONANT</role>, Musicien.</castItem>
-		<castItem><role id="MONSIEUR L'ABBÉ HYATUS" sex="1" type="H" statut="abbé" age="A" stat_amour='néant'>MONSIEUR L'ABBÉ HYATUS</role>, Poète..</castItem>
-		<castItem><role id="MONSIEUR DESJARRETS" sex="1" type="H" statut="maître de ballet" age="A" stat_amour='néant'>MONSIEUR DESJARRETS</role>, Maître de Ballet.</castItem>
-		<castItem><role id="CABRY" sex="1" type="H" statut="danseur" age="A" stat_amour='néant'>CABRY</role>, Prévôt de Monsieur Desjarrets.</castItem>
-		<castItem><role id="MADAME DOUAIREVILLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME DOUAIREVILLE</role>, Plaideuse.</castItem>
-		<castItem><role id="UN GARÇON CAFFETIER" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>[U]N GARÇON CAFFETIER.</role>.</castItem>
+		<castItem><role id="MONSIEUR DISSONANT" sex="1" type="H" statut="musicien" age="A" stat_amour="néant">MONSIEUR DISSONANT</role>, Musicien.</castItem>
+		<castItem><role id="MONSIEUR L'ABBÉ HYATUS" sex="1" type="H" statut="abbé" age="A" stat_amour="néant">MONSIEUR L'ABBÉ HYATUS</role>, Poète..</castItem>
+		<castItem><role id="MONSIEUR DESJARRETS" sex="1" type="H" statut="maître de ballet" age="A" stat_amour="néant">MONSIEUR DESJARRETS</role>, Maître de Ballet.</castItem>
+		<castItem><role id="CABRY" sex="1" type="H" statut="danseur" age="A" stat_amour="néant">CABRY</role>, Prévôt de Monsieur Desjarrets.</castItem>
+		<castItem><role id="MADAME DOUAIREVILLE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME DOUAIREVILLE</role>, Plaideuse.</castItem>
+		<castItem><role id="UN GARÇON CAFFETIER" sex="1" type="H" statut="employé" age="A" stat_amour="néant">[U]N GARÇON CAFFETIER.</role>.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans un des Cafés du Boulevard.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
@@ -50,7 +50,8 @@
 <body>
 <div1 type="act" n="1"><head>LES FOUS</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, entre en chantant entre ses dents. II se promène, bat la mesure, s'arrête, dit :</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing">, entre en chantant entre ses dents. II se promène, bat la mesure, s'arrête, dit :
+</stage>
 <p id="1">
 	<s id="1">Ce n'est pas cela. Revoyons mes paroles.</s>
 </p>
@@ -93,7 +94,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE II. Monsieur Dissonant, Le Garçon.</head>
+<div2 type="scene" n=""><head>SCÈNE II.</head><stage> Monsieur Dissonant, Le Garçon.
+</stage>
 <sp who="LE GARÇON"><speaker>LE GARÇON.</speaker>
 <p id="1">
 	<s id="1">On y va.</s>
@@ -127,7 +129,8 @@
 </p>
 <stage type="search">Il va en chercher.</stage>
 </sp>
-<sp stage="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="17">Du plaisir on se troure au faîte,</l>
 	<l id="18">II renaît à chaque instant.</l>
 	<l id="19">Sans tourment,</l>
@@ -146,19 +149,23 @@
 	<s id="1">La voilà, Monsieur.</s>
 </p>
 </sp>
-<sp stage="sit/write/sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, s'asseyant et écrivant en chantonnant.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sit/write/sing">, s'asseyant et écrivant en chantonnant.
+	</stage>
 	<l id="25">C'est Victoire ici que l'on fête ;</l>
 	<l id="26">C'est le plus doux amusement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Dissonant, L'Abbé, Le Garçon.</head>
-<sp stage="dream" who="L'ABBÉ"><speaker>L'ABBÉ, entre en rêvant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Dissonant, L'Abbé, Le Garçon.
+</stage>
+<sp who="L'ABBÉ"><speaker>L'ABBÉ</speaker><stage type="dream">, entre en rêvant.
+</stage>
 <p id="1">
 	<s id="1">Faut-il qu'une malheureuse rime m'arrête.</s>
 </p>
 <stage type="walk">Il se promène.</stage>
 </sp>
-<sp stage="sing/write" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante et écrit.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing/write">, chante et écrit.
+	</stage>
 	<l id="27">Sans tourment,</l>
 	<l id="28">Très gaiment,</l>
 	<l id="29">Très content,</l>
@@ -182,7 +189,8 @@
 	<l id="38">Semblable à celui que l'Aurore</l>
 	<l id="39">Répand... répand... répand... </l>
 </sp>
-<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage>, chante.
+	</stage>
 	<l id="40">Sans tourment,</l>
 	<l id="41">Très gaiment.</l>
 <stage type="sing">Il chante sans prononcer.</stage>
@@ -324,7 +332,8 @@
 	<s id="1">Mais, Monsieur...</s>
 </p>
 </sp>
-<sp stage="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="59">Sans cesse on rit, toujours on chante,</l>
 	<l id="60">Sans cesse on rit, toujours on chante.</l>
 </sp>
@@ -358,7 +367,8 @@
 	<s id="1">C'est incroyable que je ne puisse rien trouver.</s>
 </p>
 </sp>
-<sp stage="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="65">Sans cesse on rit, toujours on chante,</l>
 	<l id="66">Ah, quel plaisir, qu'il fait de bien !</l>
 	<l id="67">Ah, quel plaisir, qu'il fait de bien !</l>
@@ -368,7 +378,8 @@
 	<s id="1">Mais, Monsieur...</s>
 </p>
 </sp>
-<sp stage="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="68">Ah, quel plaisir, qu'il fait de bien §</l>
 <stage type="stand/sing">Il se lève et bat la mesure.</stage>
 	<l id="69">Mais grand bien,</l>
@@ -384,8 +395,9 @@
 <stage type="touch">Il se frotte la tête.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur Dissonant, L'Abbé,
-Monsieur Desjarrets, Cabry.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur Dissonant, L'Abbé,
+Monsieur Desjarrets, Cabry.
+</stage>
 <sp who="MONSIEUR DESJARRETS"><speaker>MONSIEUR DESJARRETS.</speaker>
 <p id="1">
 	<s id="1">Cabry ?</s>
@@ -441,7 +453,8 @@ Monsieur Desjarrets, Cabry.</head>
 </p>
 <stage type="music">Cabry joue.</stage>
 </sp>
-<sp stage="together" who="MONSIEUR DISSONANT, L'ABBÉ"><speaker>MONSIEUR DISSONANT, L'ABBÉ.</speaker>
+<sp who="MONSIEUR DISSONANT, L'ABBÉ"><speaker>MONSIEUR DISSONANT</speaker><stage type="together">, L'ABBÉ.
+</stage>
 <p id="10">
 	<s id="1">Hé, Monsieur ! </s>
 	<s id="2">Monsieur !</s>
@@ -578,7 +591,8 @@ Monsieur Desjarrets, Cabry.</head>
 </p>
 <stage type="danse">Il compose en marchant, sans violon.</stage>
 </sp>
-<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chantant.</speaker>
+<sp who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage>, chantant.
+	</stage>
 	<l id="78">Ah, quel plaisir, qu'il fait de bien.</l>
 	<l id="79">Mais grand bien,</l>
 	<l id="80">Mais grand bien...</l>
@@ -609,8 +623,10 @@ Monsieur Desjarrets, Cabry.</head>
 <stage type="walk">Il continue en marchant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Dissonant, L'Abbé, Monsieur Desjarrets, Cabry, Madame Douaireville.</head>
-<sp stage="toward" who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE, à Cabry.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Dissonant, L'Abbé, Monsieur Desjarrets, Cabry, Madame Douaireville.
+</stage>
+<sp who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE</speaker><stage type="toward">, à Cabry.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, n'avez-vous pas vu ici Monsieur Rongeant ?</s>
 </p>
@@ -630,12 +646,14 @@ Monsieur Desjarrets, Cabry.</head>
 	<s id="1">Je ne le connais pas ; adressez-vous à ces Messieurs, ils vous diront cela, ils étaient ici avant nous.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE, à Monsieur Dissonant.</speaker>
+<sp who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE</speaker><stage type="toward">, à Monsieur Dissonant.
+</stage>
 <p id="5">
 	<s id="1">Monsieur, voudriez-vous bien me dire...</s>
 </p>
 </sp>
-<sp stge="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT, chante.</speaker>
+<sp stge="sing" who="MONSIEUR DISSONANT"><speaker>MONSIEUR DISSONANT</speaker><stage>, chante.
+	</stage>
 	<l id="81">Il rend l'âme contente,</l>
 	<l id="82">L'on ne désire plus rien.</l>
 </sp>
@@ -650,7 +668,8 @@ Monsieur Desjarrets, Cabry.</head>
 	<s id="1">Ah, je vous demande pardon.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE, à Monsieur Dissonant.</speaker>
+<sp who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE</speaker><stage type="toward">, à Monsieur Dissonant.
+</stage>
 <p id="7">
 	<s id="1">Monsieur, dites-moi donc si vous avez vu mon Procureur ici, il est pour moi de la dernière importance que je lui parle à l'instant, on vient de me faire signifier un arrêt qui me réduira à la mendicité ; je n'ai pas un morceau de pain , si...</s>
 </p>
@@ -690,7 +709,8 @@ Monsieur Desjarrets, Cabry.</head>
 	<s id="1">Oui, oui ?</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE, à l'Abbé.</speaker>
+<sp who="MADAME DOUAIREVILLE"><speaker>MADAME DOUAIREVILLE</speaker><stage type="toward">, à l'Abbé.
+</stage>
 <p id="15">
 	<s id="1">Monsieur l'Abbé ?</s>
 </p>
@@ -799,7 +819,8 @@ Monsieur Desjarrets, Cabry.</head>
 	<s id="2">Allons, Cabry, joue.</s>
 </p>
 </sp>
-<sp stage="music" who="CABRY"><speaker>CABRY, accommodant son violon.</speaker>
+<sp who="CABRY"><speaker>CABRY</speaker><stage type="music">, accommodant son violon.
+</stage>
 <p id="36">
 	<s id="1">Monsieur, tout à l'heure.</s>
 </p>

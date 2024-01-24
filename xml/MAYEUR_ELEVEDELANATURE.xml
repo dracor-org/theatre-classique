@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -32,10 +32,10 @@
 			<titlePart type="sub">Musique de M. R. ...</titlePart>
 			<titlePart type="sub">Prix 24 sols.</titlePart>
 		</docTitle> 
-		<docDate value='1781'>M. DC. XXXXII. AVEC APPORBATION ET PERMISSION</docDate>
+		<docDate value="1781">M. DC. XXXXII. AVEC APPORBATION ET PERMISSION</docDate>
 		<docAuthor id="MAYEUR de SAINT-PAUL, François">Par M. MAYEUR.</docAuthor>
 		<docImprint>
-			<printer id='CLOUSIER'>De l'Imprimerie de CLOUSIER , rue St-Jacques,</printer>
+			<printer id="CLOUSIER">De l'Imprimerie de CLOUSIER , rue St-Jacques,</printer>
 			<approbation id="1642-04-08">Lu et approuvé l'impression. À Paris le 29 Janvier 1781. SUARD. Vu l'approbation, permis de représenter et imprimer. À Paris ce 17 Mars 1781. LE NOIR.
 			</approbation>
 		</docImprint>
@@ -53,14 +53,14 @@
 		<p>(*) Et il faut encore prendre garde de s'y tromper : car Boileau a fort bien dit : Souvent un beau désordre est un effet de l'art.</p>
 	</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="JOHNSON" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>JOHNSON</role>, père de l'élève de la Nature. M. Lelièvre.</castItem>
-		<castItem><role id="L'ÉLÈVE" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>L'ÉLÈVE</role> (1), M. Mayeur.</castItem>
-		<castItem><role id="EUPHÉMON" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>EUPHÉMON</role>, M. Delor.</castItem>
-		<castItem><role id="ZÉLIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>ZÉLIE</role>, Mademoiselle. Forest (2).</castItem>
-		<castItem><role id="WELDONE" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>WELDONE</role>, Capitaine de Vaisseau. M. Talon.</castItem>
-		<castItem><role id="SMIT" sex="1" type="H" statut="officier" age="A" stat_amour='néant'>SMIT</role>, Officier, M. Alphonse.</castItem>
+		<castItem><role id="JOHNSON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">JOHNSON</role>, père de l'élève de la Nature. M. Lelièvre.</castItem>
+		<castItem><role id="L'ÉLÈVE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">L'ÉLÈVE</role> (1), M. Mayeur.</castItem>
+		<castItem><role id="EUPHÉMON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">EUPHÉMON</role>, M. Delor.</castItem>
+		<castItem><role id="ZÉLIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ZÉLIE</role>, Mademoiselle. Forest (2).</castItem>
+		<castItem><role id="WELDONE" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">WELDONE</role>, Capitaine de Vaisseau. M. Talon.</castItem>
+		<castItem><role id="SMIT" sex="1" type="H" statut="officier" age="A" stat_amour="néant">SMIT</role>, Officier, M. Alphonse.</castItem>
 	</castList>
-<set location='Île déserte' country='Île déserte' periode='XVIIIème' gps="(N/A)">La Scène se passe dans une Isle déserte.</set>
+<set location="Île déserte" country="Île déserte" periode="XVIIIème" gps="(N/A)">La Scène se passe dans une Isle déserte.</set>
 <note>Le Théâtre représente à droite de hautes montagnes coupées par des pins et autres arbres sauvages ; dans l'enfoncement est la mer, et sur le même côté est un filet, fabriqué dans de gros arbres, pour prendre des Bêtes fauves. Sur la gauche est une Cabane bâtie en planche, feuilles et branches sèches. Il doit y avoir un miroir attaché à la porte, un banc de bois à côté, quelques touffes de fleurs plantées çà et là, etc.</note>
 <note>Les Ballets sont de M. DESPLACES.</note>
 <note>Cette barre – indique les endroits où il se trouve de la Musique.</note>
@@ -69,7 +69,8 @@
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'ÉLÈVE DE LA NATURE.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Johnson, Weldone, Smit.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Johnson, Weldone, Smit.
+</stage>
 <stage type="entrance/frighten">Ils entrent tous trois très doucement, en marquant la crainte qu'ils ont d'être aperçus.</stage>
 <sp who="JOHNSON"><speaker>JOHNSON.</speaker>
 <p id="1">
@@ -81,7 +82,8 @@
 	<s id="1">Ne craignez rien , il n'est point encore sorti de sa cage.</s>
 </p>
 </sp>
-<sp stage="sigh" who="JOHNSON"><speaker>JOHNSON , soupirant</speaker>
+<sp who="JOHNSON"><speaker>JOHNSON </speaker><stage type="sigh">, soupirant
+</stage>
 <p id="3">
 	<s id="1">Cher enfant !</s>
 </p>
@@ -202,7 +204,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="ZÉLIE"><speaker>ZÉLIE, sortant de sa cabane un arrosoir à la main.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, sortant de sa cabane un arrosoir à la main.
+</stage>
 <p id="1">
 	<s id="1">Le soleil a déjà gagné le pied de notre cabane ; il y a plus de trois heures que mon tendre père est allé dans le bois voisin visiter notre petit bercail : il est temps aussi, belles fleurs, que je verse dans votre sein l'onde pure et fraîche que je vous dois chaque jour. -</s>
 </p>
@@ -218,7 +221,8 @@
 </p>
 <stage type="pour">Elle continue d'arroser ses fleurs.</stage>
 </sp>
-<sp stage="location" who="EUPHÉMON"><speaker>EUPHÉMON, dans la coulisse.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="location">, dans la coulisse.
+</stage>
 <p id="3">
 	<s id="1">Zélie ? </s>
 </p>
@@ -234,13 +238,15 @@
 </p>
 </sp>
 </div2>
-<div2 stage="carry/drop" type="scene" n="3"><head>SCÈNE III. Zélie, Euphémon, portant une grosse liasse de branches sèches sur son épaule droite, et un nid dans sa main gauche ; il donne sa liasse à Zélie qui court au-devant de lui.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="carry/drop"> Zélie, Euphémon, portant une grosse liasse de branches sèches sur son épaule droite, et un nid dans sa main gauche ; il donne sa liasse à Zélie qui court au-devant de lui.
+</stage>
 <sp who="EUPHÉMON"><speaker>EUPHÉMON.</speaker>
 <p id="1">
 	<s id="">Tiens, ma chère enfant, porte cela dans notre cabane, les beaux jours seront bientôt passés ; et tandis que nous en avons le loisir, il nous faut faire une provision de bois suffisante pour nous mettre pendant l'hiver à l'abri de ses frimas.</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, revenue de porter le bois dans la cabane.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, revenue de porter le bois dans la cabane.
+</stage>
 <p id="2">
 	<s id="">Qu'avez-vous donc là ?</s>
 </p>
@@ -250,7 +256,8 @@
 	<s id="1">Tiens, c'est un nid que j'ai trouvé dans mon chemin ; je me suis douté qu'il te ferait plaisir, et je te l'apporte.</s>
 </p>
 </sp>
-<sp stage="get" who="ZÉLIE"><speaker>ZÉLIE, le prenant.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="get">, le prenant.
+</stage>
 <p id="4">
 	<s id="1">Que vous êtes bon ! </s>
 	<s id="2">Les pauvres petits , comme ils dorment ! </s>
@@ -273,7 +280,8 @@
 	<s id="3">C'est une plante précieuse qui brille de tout l'éclat de la rose...</s>
 </p>
 </sp>
-<sp stage="exit" who="ZÉLIE"><speaker>ZÉLIE, sortant de la Cabane et apportant une bouteille d'osier.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="exit">, sortant de la Cabane et apportant une bouteille d'osier.
+</stage>
 <p id="7">
 	<s id="1">Tenez, buvez un coup, cela vous remettra.(</s>
 </p>
@@ -299,7 +307,8 @@
 	<s id="1">Oui ma bonne amie.</s>
 </p>
 </sp>
-<sp stage="sigh" who="ZÉLIE"><speaker>ZÉLIE, soupirant.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="sigh">, soupirant.
+</stage>
 <p id="12">
 	<s id="1">Qu'ils sont heureux ! -</s>
 </p>
@@ -314,13 +323,15 @@
 	<s id="1">Ces petits êtres ont la douce satisfaction d'augmenter leur société ; et nous, nous sommes condamnés à toujours ne vivre que nous deux.</s>
 </p>
 </sp>
-<sp stage="estonish" who="EUPHÉMON"><speaker>EUPHÉMON, étonné.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="15">
 	<s id="1">Que signifie ce langage ! </s>
 	<s id="2">Tu ne m'as point encore parlé de la sorte ; est-ce que la présence de ton père cesserait de t'être agréable ?</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, avec l'expression de la plus forte tendresse.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, avec l'expression de la plus forte tendresse.
+</stage>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon père , que dites-vous ? </s>
@@ -371,20 +382,23 @@
 	<s id="4">Comment veux-tu que je te trouve un époux, puisque nous ne sommes que nous deux dans cette île ?</s>
 </p>
 </sp>
-<sp stage="naive" who="ZÉLIE"><speaker>ZÉLIE, avec la plus grande naïveté.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="naive">, avec la plus grande naïveté.
+</stage>
 <p id="24">
 	<s id="1">Comment ? </s>
 	<s id="2">Rien de plus facile : devenez mon époux.</s>
 </p>
 </sp>
-<sp stage="estonish" who="EUPHÉMON"><speaker>EUPHÉMON, autant troublé qu'étonné.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="estonish">, autant troublé qu'étonné.
+</stage>
 <p id="25">
 	<s id="1">Moi ! </s>
 	<s id="2">Ton père ? </s>
 	<s id="3">Tu es dans le délire.</s>
 </p>
 </sp>
-<sp stage="naive" who="ZÉLIE"><speaker>ZÉLIE, naivement.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="naive">, naivement.
+</stage>
 <p id="26">
 	<s id="1">C'est donc impossible ?</s>
 </p>
@@ -394,7 +408,8 @@
 	<s id="1">Sans doute, l'époux qu'on prend doit être un tiers indépendant de la famille de la moitié qu'on se choisit.</s>
 </p>
 </sp>
-<sp stage="stress" who="ZÉLIE"><speaker>ZÉLIE, avec l'expression d'un coeur oppressé.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="stress">, avec l'expression d'un coeur oppressé.
+</stage>
 <p id="28">
 	<s id="1">Ah ! </s>
 	<s id="2">Nature, cruelle nature ! </s>
@@ -417,7 +432,8 @@
 	<s id="1">Oui, c'en est le bonheur.</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, avec une vivacité mêlée de joie.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, avec une vivacité mêlée de joie.
+</stage>
 <p id="32">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon père, à en juger par l'illusion qui m'a séduite, que le bonheur de l'amour doit être doux en réalité.</s>
@@ -432,7 +448,8 @@
 	<s id="1">Oui, ma Zélie. .</s>
 </p>
 </sp>
-<sp stage="naive" who="ZÉLIE"><speaker>ZÉLIE, naïvement.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="naive">, naïvement.
+</stage>
 <p id="35">
 	<s id="1">Et que fait-il pour cela ?</s>
 </p>
@@ -450,13 +467,15 @@
 	<s id="4">Vous ne dites rien ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="EUPHÉMON"><speaker>EUPHÉMON, à part.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Elle m'embarrasse beaucoup. </s>
 	<s id="2">Rentre, ma chère Zélie, dans un autre moment nous parlerons de cela.</s>
 </p>
 </sp>
-<sp stage="sad" who="ZÉLIE"><speaker>ZÉLIE, d'un air mortifié.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="sad">, d'un air mortifié.
+</stage>
 <p id="39">
 	<s id="1">Vous voulez me laisser dans l'ignorance, mais vous avez beau faire, au milieu de votre air embarrassé à me répondre, je devine que c'est cette différence de mon Agneau, à cet objet qui m'a apparu, qui procure toute la volupté que j'ai ressentie.</s>
 </p>
@@ -468,7 +487,8 @@
 </p>
 <stage type="exit">Il entre dans la Cabane.</stage>
 </sp>
-<sp stage="agitated" who="ZÉLIE"><speaker>ZÉLIE, le suit des yeux , et ensuite dit cette tirade, avec beaucoup d'agitation.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="agitated">, le suit des yeux , et ensuite dit cette tirade, avec beaucoup d'agitation.
+</stage>
 <p id="40">
 	<s id="1">L'obstination de mon père met mon coeur dans un cruel embarras ! </s>
 	<s id="2">Il faut que je m'instruise sans lui. </s>
@@ -478,12 +498,14 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE DE LA NATURE, parait en traînant avec lui sa cage (*)</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE DE LA NATURE</speaker><stage>, parait en traînant avec lui sa cage (*)
+</stage>
 <stage type="narration">Il est frappé de l'éclat du soleil, il porte la main à ses yeux ; il s'étonne de voir la mer, les arbres ; il fouille dans sa cage, en tire différents habillements, s'en accoutre grotesquement : il passe une chemise dans chacune de ses cuisses, la lie avec les manches ; plie ses bas en trois ou quatre, s'en fait des sandales qu'il lie avec ses jarretières ; met ses souliers comme des gants ; se saisit d'une grosse branche d'arbre, sur laquelle il s'appuie, et marche ainsi. Il s'approche de la Cabane d'Euphémon ; il se voit dans le miroir qui est attaché à la porte : à son aspect il reste interdit, et lui dit, qu'on l'aisse en r'pos; voyant que rien ne lui répond, il jette son bâton, ses souliers, s'avance vers son image, veut la saisir, jette le miroir à terre, et est fort étonné de ne plus rien voir. Un nid s'offre sous sa main, il s'en saisit, veut toucher aux petits, ils crient, cela lui fait peur, il laisse tomber le nid, et le menace du poing. Il se retourne, aperçoit le filet, s'en approche avec précipitation, y entre, en considère les mailles ; une botte d'herbes aromatiques est à terre, il s'en empare pour les manger ; ces racines qui n'étaient là que pour attirer les bêtes fauves, font en les remuant tomber le filet, et agiter une sonnette qui avertit Euphémon qu'il y a quelque chose de pris.</stage>
 <stage type="explicit">(*) Cette cage doit être de la hauteur de l'Élève de la Nature, faite en planches et fermée de toutes parts. Il doit y avoir au milieu un anneau dans lequel est passée une corde que tire à lui l'Elève lorsqu'il entre ; cette corde est censée avoir été employée à attacher sa cage à quelqu'endroit de l'île. Lorsqu'il paraît avec cette cage, elle doit tomber sur un des côtés et laisser voir une ouverture que les efforts qu'il a faits en la traînant ont facilitée.</stage>
 </sp>
 </div2>
-<div2 stage="location/run" type="scene" n="5"><head>SCÈNE V. L' Élève dans le filet, Euphémon accourant.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage type="location/run"> L' Élève dans le filet, Euphémon accourant.
+</stage>
 <sp who="EUPHÉMON"><speaker>EUPHÉMON.</speaker>
 <p id="1">
 	<s id="1">Nous avons quelque chose de pris. </s>
@@ -493,14 +515,17 @@
 	<s id="5">- Vîte apporte-moi des armes. —</s>
 </p>
 </sp>
-<sp stage="agitated/shout" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, fait des efforts pour sortir du filet en criant.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="agitated/shout">, fait des efforts pour sortir du filet en criant.
+</stage>
 <p id="2">
 	<s id="1">Ha! hou, hi, oh ! etc.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Zélie, Euphémon, L'Élève, dans le filet.</head>
-<sp stage="carry" who="ZÉLIE"><speaker>ZÉLIE, portant deux épées.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Zélie, Euphémon, L'Élève, dans le filet.
+</stage>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="carry">, portant deux épées.
+</stage>
 <p id="1">
 	<s id="1">En voici, qu'est-il donc arrivé ?... </s>
 	<s id="2">Ah !</s>
@@ -511,7 +536,8 @@
 	<s id="1">Donne-moi une épée et défends-toi avec celle qui te reste.</s>
 </p>
 </sp>
-<sp stage="estonish/frighten" who="ZÉLIE"><speaker>ZÉLIE, marquant son étonnement et sa crainte.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="estonish/frighten">, marquant son étonnement et sa crainte.
+</stage>
 <p id="3">
 	<s id="1">Contre qui ?</s>
 </p>
@@ -533,7 +559,8 @@
 	<s id="2">Avançons.</s>
 </p>
 </sp>
-<sp stage="frighten" who="ZÉLIE"><speaker>ZÉLIE, d'une voix entrecoupée.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="frighten">, d'une voix entrecoupée.
+</stage>
 <p id="7">
 	<s id="1">Je ne puis.</s>
 </p>
@@ -553,8 +580,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Zélie, L'Élève.</head>
-<sp who="ZÉLIE"><speaker>ZÉLIE, émue et avec joie.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Zélie, L'Élève.
+</stage>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, émue et avec joie.
+</stage>
 <p id="1">
 	<s id="1">Relève-toi, va, mon ami, j'aurai soin de toi.</s>
 </p>
@@ -568,19 +597,22 @@
 <stage type="">Zélie fait asseoir l'Elève sur un banc de bois,</stage>
 </sp>
 </div2>
-<div2 stage="run" type="scene" n="8"><head>SCÈNE VIII. Zélie, L'Élève, Euphémon, accourant.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage type="run"> Zélie, L'Élève, Euphémon, accourant.
+</stage>
 <sp who="EUPHÉMON"><speaker>EUPHÉMON.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Zélie, rassurons-nous, ce jeune homme est Anglais.</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, avec joie.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, avec joie.
+</stage>
 <p id="2">
 	<s id="">Comment le savez-vous ?</s>
 </p>
 </sp>
-<sp stage="show" who="EUPHÉMON"><speaker>EUPHÉMON, lui montrant une planche de cuivre qu'il porte sous son bras.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="show">, lui montrant une planche de cuivre qu'il porte sous son bras.
+</stage>
 <p id="3">
 	<s id="1">Par cette inscription que je viens de trouver près de cette cabane, dans laquelle il a sans doute été apporté dans cette île, pour y être abandonné ainsi que nous. </s>
 	<s id="2">Tiens, aies soin de sa blessure, pendant ce temps je vais t'en faire la lecture.</s>
@@ -610,7 +642,8 @@
 	<s id="1">Le 6 Février de l'année 1781, fut remis ici entre les mains de la nature, et pour y être l'objet d'une expérience qui peut devenir utile, FRANÇOIS JOHNSON, né à Londres le 15 Juin 1758 ; il n'avait encore habité qu'une cage de bois fermée de toute part, et n'avait jamais vu personne lorsqu'il fut amené dans cette île.</s>
 </p>
 </sp>
-<sp stage="watch/tender" who="ZÉLIE"><speaker>ZÉLIE, le regardant tendrement.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="watch/tender">, le regardant tendrement.
+</stage>
 <p id="9">
 	<s id="1">Le pauvre garçon !</s>
 </p>
@@ -621,7 +654,8 @@
 	<s id="2">Le Ciel nous envoie cet infortuné, pour partager avec nous cette solitude, et nous la rendre plus agréable.</s>
 </p>
 </sp>
-<sp stage="touch" who="ZÉLIE"><speaker>ZÉLIE, lui détachant les mains.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="touch">, lui détachant les mains.
+</stage>
 <p id="11">
 	<s id="1">Mon ami, te souviendras-tu toujours de ce que je fais pour toi ; m'aimeras-tu toujours ?</s>
 </p>
@@ -646,8 +680,10 @@
 <stage type="exit/location">Il entre dans la Cabane.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Zélie, L'Élève.</head>
-<sp who="ZÉLIE"><speaker>ZÉLIE, se mettant à ses côtés.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Zélie, L'Élève.
+</stage>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, se mettant à ses côtés.
+</stage>
 <p id="1">
 	<s id="1">Oh ! </s>
 	<s id="2">Ça mon bien-aimé, je vais t'apprendre à prononcer ce que je désire tant de m'entendre dire par ta bouche ! </s>
@@ -659,7 +695,8 @@
 </p>
 <stage type="away">Elle ôte sa main.</stage>
 </sp>
-<sp stage="hesitate" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, répète.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="hesitate">, répète.
+</stage>
 <p id="3">
 	<s id="1">E. .. lie.</s>
 </p>
@@ -705,7 +742,8 @@
 	<s id="1">À toi.</s>
 </p>
 </sp>
-<sp stage="impatient" who="ZÉLIE"><speaker>ZÉLIE, impatientée.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="impatient">, impatientée.
+</stage>
 <p id="12">
 	<s id="1">Non.</s>
 </p>
@@ -715,7 +753,8 @@
 	<s id="1">Non.</s>
 </p>
 </sp>
-<sp stage="close" who="ZÉLIE"><speaker>ZÉLIE, lui ferme la bouche.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="close">, lui ferme la bouche.
+</stage>
 <p id="14">
 	<s id="1">M'aimes-tu de même ?</s>
 </p>
@@ -789,7 +828,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mémes, E U P H É M o N.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mémes, E U P H É M o N.
+</stage>
 <sp who="EUPHÉMON"><speaker>EUPHÉMON.</speaker>
 <p id="1">
 	<s id="1">Fort bien, ma belle amie, fort bien ! </s>
@@ -814,7 +854,8 @@
 	<s id="2">Le plaisir d'obliger est un charme si doux pour une âme sensible, qu'elle oublie le sien propre pour s'occuper de celui des autres.</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, à l'Elève, en le faisant passer devant elle.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, à l'Elève, en le faisant passer devant elle.
+</stage>
 <p id="5">
 	<s id="1">Avance , mon ami, aVal1CC. , ,</s>
 </p>
@@ -833,13 +874,15 @@
 </p>
 <stage type="exit">Ils entrent tous trois dans la Cabane.</stage>
 </sp>
-<sp stage="exit" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, entrant dans la Cabane.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="exit">, entrant dans la Cabane.
+</stage>
 <p id="8">
 	<s id="1">Toujours, bien fort, qu'on l'aisse en r'pos. .</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Johnson, Veldone, Smit, Suite de Matelots.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Johnson, Veldone, Smit, Suite de Matelots.
+</stage>
 <sp who="JOHNSON"><speaker>JOHNSON.</speaker>
 <p id="1">
 	<s id="1">Non, mes amis, vos instances sont inutiles ; mon coeur s'y refuse : je ne puis quitter ces lieux, un trouble que je ne peux définir me retient ici malgré moi.</s>
@@ -870,7 +913,8 @@
 <stage type="walk">Ils font quelques pas.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, Euphémon.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les mêmes, Euphémon.
+</stage>
 <sp who="EUPHÉMON"><speaker>EUPHÉMON.</speaker>
 <p id="1">
 	<s id="1">J'ai cru avoir entendu parler ; que pourrait-ce être ?... </s>
@@ -971,12 +1015,14 @@
 	<s id="1">C'est l'image d'une des plus belles fleurs du printemps.</s>
 </p>
 </sp>
-<sp stage="toward" who="SMIT"><speaker>SMIT, à Johnson.</speaker>
+<sp who="SMIT"><speaker>SMIT</speaker><stage type="toward">, à Johnson.
+</stage>
 <p id="20">
 	<s id="1">Je ne m'étonne plus, mon ami, si notre jeune homme s'est pris dans ses filets : la vue d'un objet aimable opère une furieuse révolution sur le coeur d'un homme naturel.</s>
 </p>
 </sp>
-<sp who="WELDONE"><speaker>WELDONE, à Euphémon.</speaker>
+<sp who="WELDONE"><speaker>WELDONE</speaker><stage>, à Euphémon.
+</stage>
 <p id="21">
 	<s id="">Oui : à son âge la beauté est un aimant auquel une puissance irrésistible nous attache fortement.</s>
 </p>
@@ -997,7 +1043,8 @@
 	<s id="2">Enfonçons-nous sous ces arbres, je vais appeler ma fille : sûrement il la suivra, et la présence de Zélie adoucira le coup violent que votre aspect va porter dans son âme.</s>
 </p>
 </sp>
-<sp who="WELDONE"><speaker>WELDONE, à Euphémon.</speaker>
+<sp who="WELDONE"><speaker>WELDONE</speaker><stage>, à Euphémon.
+</stage>
 <p id="25">
 	<s id="1">Votre réflexion est excellente ; mais croyez-moi, faisons-en usage au plus vite ; car tandis que nous dissertons, nos deux amants emploient peut-être mieux leur temps. </s>
 </p>
@@ -1015,7 +1062,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="entrance/carry" who="ZÉLIE"><speaker>ZÉLIE sortant de sa Cabane, ayant une bouteille et un verre à la main.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="entrance/carry"> sortant de sa Cabane, ayant une bouteille et un verre à la main.
+</stage>
 <p id="1">
 	<s id="1">Me voici... </s>
 	<s id="2">Mon père, où donc êtes-vous ? </s>
@@ -1024,8 +1072,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCENÈ XIV. L'Élève, Zélie.</head>
-<sp stage="carry" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, tenant une guitare.</speaker>
+<div2 type="scene" n="14"><head>SCENÈ XIV.</head><stage> L'Élève, Zélie.
+</stage>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="carry">, tenant une guitare.
+</stage>
 <p id="1">
 	<s id="1">Bien fort.</s>
 </p>
@@ -1038,7 +1088,8 @@
 	<s id="4">Il ne faut pas toucher à cela mon mouton, tu pourrais le casser : donne, donne à ta Zélie.</s>
 </p>
 </sp>
-<sp stage="touch" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, touchant sur les cordes.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="touch">, touchant sur les cordes.
+</stage>
 <p id="3">
 	<s id="1">Je t'aime.</s>
 </p>
@@ -1056,7 +1107,8 @@
 	<s id="2">Je ne vous aime plus.</s>
 </p>
 </sp>
-<sp stage="caress" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, la caressant.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="caress">, la caressant.
+</stage>
 <p id="6">
 	<s id="1">Qu'on l'aisse en r'pos, qu'on l'aisse en r'pos.</s>
 </p>
@@ -1088,7 +1140,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Euphémon, Johnson, Smit, Weldone, au fond du Théâtre.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Euphémon, Johnson, Smit, Weldone, au fond du Théâtre.
+</stage>
 <sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE.</speaker>
 <stage type="jump/search/call">Il continue de sauter, puis revient à Zélie, qu'il ne
 trouve plus : il coure en appelant partout.</stage>
@@ -1096,34 +1149,40 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Élie, Élie, Élie.</s>
 </p>
 </sp>
-<sp who="ZÉLIE"><speaker>ZÉLIE, dans la Cabane.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage>, dans la Cabane.
+</stage>
 <p id="2">
 	<s id="">Mouton.</s>
 </p>
 </sp>
-<sp stage="jump/location" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, sautant, allant dans la cabane.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="jump/location">, sautant, allant dans la cabane.
+</stage>
 <p id="3">
 	<s id="1">Toujours, toujours, toujours.</s>
 </p>
 </sp>
-<sp stage="stop/pull" who="JOHNSON"><speaker>JOHNSON, l'arrêtant par le bras,</speaker>
+<sp who="JOHNSON"><speaker>JOHNSON</speaker><stage type="stop/pull">, l'arrêtant par le bras,
+</stage>
 <p id="4">
 	<s id="1">Mon fils !</s>
 </p>
 </sp>
-<sp stage="estonish" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, étonné. </speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="estonish">, étonné. 
+</stage>
 <p id="5">
 	<s id="1">Où ? </s>
 </p>
 <stage type="push/away">Il s'arrache des bras de son père.</stage>
 </sp>
-<sp stage="stop/pull" who="JOHNSON"><speaker>JOHNSON, idem.</speaker>
+<sp who="JOHNSON"><speaker>JOHNSON</speaker><stage type="stop/pull">, idem.
+</stage>
 <p id="6">
 	<s id="1">Mon cher Johnson !</s>
 </p>
 <stage type="watch">L'Élève reste un moment immobile en regardant son père.</stage>
 </sp>
-<sp stage="location" who="ZÉLIE"><speaker>ZÉLIE, dans la cabane.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="location">, dans la cabane.
+</stage>
 <p id="7">
 	<s id="1">Mouton, mouton,</s>
 </p>
@@ -1135,7 +1194,8 @@ trouve plus : il coure en appelant partout.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI, et dernière. Les mémes, Zélie.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI, et dernière.</head><stage> Les mémes, Zélie.
+</stage>
 <sp who="ZÉLIE"><speaker>ZÉLIE.</speaker>
 <p id="1">
 	<s id="1">Tu ne veux donc pas venir ? </s>
@@ -1167,7 +1227,8 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Permettez qu'un autre moment soit employé à vous en instruire : la joie que je ressens m'en empêcherait maintenant.</s>
 </p>
 </sp>
-<sp stage="caress" who="L'ÉLÈVE"><speaker>L'ÉLÈVE, caressant alternativement Zélie et son père.</speaker>
+<sp who="L'ÉLÈVE"><speaker>L'ÉLÈVE</speaker><stage type="caress">, caressant alternativement Zélie et son père.
+</stage>
 <p id="7">
 	<s id="1">Zélie, bien fort, qu'on l'aisse en r'pos, j't'aime.</s>
 </p>
@@ -1177,12 +1238,14 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Mais à ce qu'il me paraît, mon fils a fait bien des progrès depuis ce matin.</s>
 </p>
 </sp>
-<sp stage="show" who="EUPHÉMON"><speaker>EUPHÉMON, montrant sa fille.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="show">, montrant sa fille.
+</stage>
 <p id="9">
 	<s id="">voilà son Maître.</s>
 </p>
 </sp>
-<sp stage="show" who="ZÉLIE"><speaker>ZÉLIE, montrant l'Élève.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="show">, montrant l'Élève.
+</stage>
 <p id="10">
 	<s id="1">Et en amour, voilà le mien.</s>
 </p>
@@ -1218,7 +1281,8 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Avec un objet aussi aimable que Zélie, il en aura bientôt acquis.</s>
 </p>
 </sp>
-<sp stage="toward" who="EUPHÉMON"><speaker>EUPHÉMON, à Zélie.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="toward">, à Zélie.
+</stage>
 <p id="17">
 	<s id="1">Serais-tu contente qu'il fût ton époux ?</s>
 </p>
@@ -1228,7 +1292,8 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Tous mes désirs seraient remplis.</s>
 </p>
 </sp>
-<sp stage="toward" who="EUPHÉMON"><speaker>EUPHÉMON, à L'Élève.</speaker>
+<sp who="EUPHÉMON"><speaker>EUPHÉMON</speaker><stage type="toward">, à L'Élève.
+</stage>
 <p id="19">
 	<s id="1">Et toi ?</s>
 </p>
@@ -1238,7 +1303,8 @@ trouve plus : il coure en appelant partout.</stage>
 	<s id="1">Qu'on l'aisse en repos.</s>
 </p>
 </sp>
-<sp stage="toward" who="ZÉLIE"><speaker>ZÉLIE, à l'Elève.</speaker>
+<sp who="ZÉLIE"><speaker>ZÉLIE</speaker><stage type="toward">, à l'Elève.
+</stage>
 <p id="21">
 	<s id="1">Veux-tu m'épouser ?</s>
 </p>

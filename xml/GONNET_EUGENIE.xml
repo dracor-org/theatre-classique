@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,12 +29,12 @@
 			<titlePart type="main">EUGÉNIE OU LE ZÈLE VICTORIEUX</titlePart>
 			<titlePart type="sub">POUR LA SAINTE-ENFANCE</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858</docDate>
-		<docAuthor id='GONNET, Eugène'>Par l'Abbé E. GONNET.</docAuthor>
+		<docDate value="1858">1858</docDate>
+		<docAuthor id="GONNET, Eugène">Par l'Abbé E. GONNET.</docAuthor>
 		<docImprint>
-			<editor id='CAILLAT-BELHOMME'>AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
-			<printer id='JACQUET'>AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
-			<approbation><head></head>
+			<editor id="CAILLAT-BELHOMME">AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
+			<printer id="JACQUET">AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
+			<approbation><head/>
 				<p>Avignon le 20 juillet 1858.</p>
 				<p>L'ARCHEVÊQUE D'AVIGNON.</p>
 				<p>Vu le rapport que lui a fait un des membres de la Commission chargée de l'examen des livres dans son diocèse..</p>
@@ -43,18 +43,19 @@
 			</approbation>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>EUGÉNIE</role>, agrégée à la Sainte-Enfance.</castItem>
-			<castItem><role id="ANNA" sex="2" type="H" statut="élève" age='E' stat_amour='néant'>ANNA</role>, enfant de la première communion.</castItem>
-			<castItem><role id="LOUISE" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>LOUISE</role>, maîtresse de choeur.</castItem>
-			<castItem><role id="CHORISTES" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>CHORISTES</role>, au nombre de neuf.</castItem>
-			<castItem><role id="L'ANGE DE LA SAINTE-ENFANCE" sex="2" type="H" statut="bourgeois" age='E' stat_amour='néant'>L'ANGE DE LA SAINTE-ENFANCE</role>.</castItem>
+			<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">EUGÉNIE</role>, agrégée à la Sainte-Enfance.</castItem>
+			<castItem><role id="ANNA" sex="2" type="H" statut="élève" age="E" stat_amour="néant">ANNA</role>, enfant de la première communion.</castItem>
+			<castItem><role id="LOUISE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">LOUISE</role>, maîtresse de choeur.</castItem>
+			<castItem><role id="CHORISTES" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">CHORISTES</role>, au nombre de neuf.</castItem>
+			<castItem><role id="L'ANGE DE LA SAINTE-ENFANCE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">L'ANGE DE LA SAINTE-ENFANCE</role>.</castItem>
 		</castList>
 		<set location="Avignon" country="France" periode="XIXème" gps="43.893582, 4.9456364">La scène se passe dans une cour ombragée.</set>
 		<note>Extrait de "Dialogues en vers pour pensionnaires ou congrégations de jeunes demoiselles", 1er cahier, de l'Abbé Eugène Gonnet. pp 11-24</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>EUGÉNIE OU LE ZÈLE VICTORIEUX.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Eugénie, Anna.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Eugénie, Anna.
+</stage>
 <sp who="EUGÉNIE"><speaker>EUGÉNIE.</speaker>
 	<l id="1">Eh ! Bien donc, chère Anna, tu te rends aujourd'hui ?</l>
 	<l id="2">Pour notre Sainte-Enfance, oh ! Quel beau jour à lui !</l>
@@ -154,8 +155,10 @@
 <stage type="listen">ANNA et EUGÉNIE écoutent chanter. Vers la fin du morceau, neuf choristes arrivent sur la scène, à la suite de leur maîtresse de choeur.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. LES MEMES, LOUISE ET LES CHORISTES.</head>
-<sp stage="toward" who="ANNA"><speaker>ANNA, à Louise.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> LES MEMES, LOUISE ET LES CHORISTES.
+</stage>
+<sp who="ANNA"><speaker>ANNA</speaker><stage type="toward">, à Louise.
+	</stage>
 	<l id="55">Nous avons entendu votre brillant cantique. '</l>
 </sp>
 <sp who="LOUISE"><speaker>LOUISE.</speaker>
@@ -178,7 +181,8 @@
 	<l id="63">Cette oeuvre a, pour ma part, toutes mes sympathies.</l>
 	<l id="64" syll="6" part="i">Je lui réserve un chant... :</l>
 </sp>
-<sp stage="toward" who="EUGÉNIE"><speaker>EUGÉNIE, aux choristes.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="toward">, aux choristes.
+	</stage>
 	<l id="64" syll="6" part="f">Et vous, enfants chéries,</l>
 	<l id="65">Vous l'aimez, n'est-ce pas ? L'Association</l>
 	<l id="66">Bientôt sur son registre inscrira votre nom ?</l>
@@ -211,7 +215,8 @@
 <sp who="ANNA"><speaker>ANNA.</speaker>
 	<l id="75">Mais dois-je à mes parents imposer cette aumône ?</l>
 </sp>
-<sp stage="surprise" who="EUGÉNIE"><speaker>EUGÉNIE, avec surprise.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="surprise">, avec surprise.
+	</stage>
 	<l id="76" syll="1" part="i">Tiens !</l>
 </sp>
 <sp who="ANNA"><speaker>ANNA.</speaker>
@@ -243,7 +248,8 @@ Louise semble ne pas la comprendre.
 <sp who="EUGÉNIE"><speaker>EUGÉNIE.</speaker>
 	<l id="90" syll="9" part="f">Ouvrez-donc. Grand Dieu ! Si c'était Lui.</l>
 </sp>
-<sp stage="closer" who="ANNA"><speaker>ANNA, s'avançant vers la porte qui s'ouvre d'elle-même.</speaker>
+<sp who="ANNA"><speaker>ANNA</speaker><stage type="closer">, s'avançant vers la porte qui s'ouvre d'elle-même.
+	</stage>
 	<l id="91" syll="6" part="i">Je suis perdue, ô ciel !</l>
 </sp>
 <sp who="EUGÉNIE"><speaker>EUGÉNIE.</speaker>
@@ -252,11 +258,13 @@ Louise semble ne pas la comprendre.
 <sp who="ANNA"><speaker>ANNA.</speaker>
 	<l id="91" syll="3" part="f">C'est un ange.</l>
 </sp>
-<sp stage="kneel" who="TOUTES"><speaker>TOUTES, en tombant à genoux.</speaker>
+<sp who="TOUTES"><speaker>TOUTES</speaker><stage type="kneel">, en tombant à genoux.
+	</stage>
 	<l id="92" syll="6" part="i">Mon_Dieu ! Quelle frayeur !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. LES MÊMES ET L'ANGE DE LA Sainte-Enfance, tenant-JOUa main une couronne et un album.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> LES MÊMES ET L'ANGE DE LA Sainte-Enfance, tenant-JOUa main une couronne et un album.
+</stage>
 <sp who="L'ANGE"><speaker>L'ANGE.</speaker>
 	<l id="92" syll="6" part="f">Jeunes enfants, qu'entends-je ?</l>
 	<l id="93" syll="4" part="i">Relevez-vous.</l>
@@ -270,7 +278,8 @@ Louise semble ne pas la comprendre.
 	<l id="99">Quand Jéhova m'a dit : « Redescends sur la terre : </l>
 	<l id="100">Va chercher des amis à ton oeuvre si chère. »</l>
 </sp>
-<sp stage="happy" who="EUGÉNIE"><speaker>EUGÉNIE, avec un air de satisfaction.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="happy">, avec un air de satisfaction.
+	</stage>
 	<l id="101" syll="4" part="i">La Sainte-Enfance ?</l>
 </sp>
 <sp who="L'ANGE"><speaker>L'ANGE.</speaker>
@@ -382,7 +391,8 @@ Louise semble ne pas la comprendre.
 	<l id="166">Car, je vais remonter à l'éternel séjour.</l>
 <stage type="low/write">Chacune dit son nom à l'oreille de l'ange qui écrit sur son album.</stage>
 </sp>
-<sp stage="close" who="L'ANGE"><speaker>L'ANGE, après avoir fermé son album, continue :</speaker>
+<sp who="L'ANGE"><speaker>L'ANGE</speaker><stage type="close">, après avoir fermé son album, continue :
+	</stage>
 	<l id="167">Vous êtes douze. Allons, chacune sa série !</l>
 	<l id="168">Et puis, pour trésorière acceptez Eugénie.</l>
 </sp>
@@ -396,7 +406,8 @@ Louise semble ne pas la comprendre.
 <stage type="exit/stand">L'ange sort : on se relève.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, excepté L'Ange.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, excepté L'Ange.
+</stage>
 <sp who="ANNA"><speaker>ANNA.</speaker>
 	<l id="171">Quel prodige !... Ma soeur, que ta victoire est belle ?</l>
 </sp>
@@ -424,7 +435,8 @@ Louise semble ne pas la comprendre.
 	<l id="185">Nous la répéterons à nos aimables soeurs :</l>
 	<l id="186">C'est le plus sûr moyen de triompher des coeurs.</l>
 </sp>
-<sp stage="sing" who="LOUISE"><speaker>LOUISE entonnne le cantique de la STE-ENFANCE :</speaker>
+<sp who="LOUISE"><speaker>LOUISE</speaker><stage type="sing"> entonnne le cantique de la STE-ENFANCE :
+	</stage>
 	<l id="187">Écoutez du fond de la Chine.</l>
 <stage type="sing">Le choeur lui répond, en reprenant toujours le dernier vers.</stage>
 </sp>

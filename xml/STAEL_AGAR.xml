@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1821-1830</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -30,18 +30,18 @@
 			<titlePart type="sub">SCÈNE LYRIQUE.</titlePart>
 			<titlePart type="sub">COMPOSÉE EN 1806.</titlePart>
 		</docTitle> 
-		<docDate value='1821'>1821.</docDate>
-		<docAuthor id='STAËL-HOLSTEIN, Germaine de'></docAuthor>
+		<docDate value="1821">1821.</docDate>
+		<docAuthor id="STAËL-HOLSTEIN, Germaine de"/>
 		<docImprint>
-			<editor id='TREUTTEL et WÜRTZ'>À PARIS, Chez TREUTTEL et WÜRTZ, Librairies, rue de Bourbon, n°17, à STRASBOURG et à LONDRES, même Maison de Commerce.</editor>
+			<editor id="TREUTTEL et WÜRTZ">À PARIS, Chez TREUTTEL et WÜRTZ, Librairies, rue de Bourbon, n°17, à STRASBOURG et à LONDRES, même Maison de Commerce.</editor>
 			<printer>DE L'IMPRIMERIE DE CRAPELET.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="AGAR" sex="2" type="H" statut="nomade" age="A" stat_amour='néant'>AGAR</role>.</castItem>
-		<castItem><role id="ISMAËL" sex="1" type="H" statut="nomade" age="E" stat_amour='néant'>ISMAËL</role>.</castItem>
-		<castItem><role id="L'ANGE" sex="2" type="A" statut="ange" age="A" stat_amour='néant'>L'ANGE</role>.</castItem>
+		<castItem><role id="AGAR" sex="2" type="H" statut="nomade" age="A" stat_amour="néant">AGAR</role>.</castItem>
+		<castItem><role id="ISMAËL" sex="1" type="H" statut="nomade" age="E" stat_amour="néant">ISMAËL</role>.</castItem>
+		<castItem><role id="L'ANGE" sex="2" type="A" statut="ange" age="A" stat_amour="néant">L'ANGE</role>.</castItem>
    </castList>
-<set location='Désert' country='Israël' periode='Temps bibliques' gps="(N/A)">La scène est dans le désert de Bersabée.</set>
+<set location="Désert" country="Israël" periode="Temps bibliques" gps="(N/A)">La scène est dans le désert de Bersabée.</set>
 <note>Texte extrait des "Oeuvres complètes de Mme La Bronne de Staël, publiées par son fils  (...), Tome Seizième. Paris, Treuttel et Würtz, 1821. pp. 1-19</note>
 </front>
 <body>
@@ -68,7 +68,8 @@
 	<s id="1">Nous continuerons notre route, après avoir pris, ce soir, quelque nourriture.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AGAR"><speaker>AGAR, à part.</speaker>
+<sp who="AGAR"><speaker>AGAR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Quelque nourriture ! </s>
 	<s id="2">Hélas ! </s>
@@ -250,7 +251,8 @@
 	<s id="4">Ce ciel brûlant, ce ciel d'airain n'est pas l'image de votre bonté paternelle.</s>
 </p>
 </sp>
-<sp who="ISMAEL"><speaker>ISMAEL, revenant sur ses pas.</speaker>
+<sp who="ISMAEL"><speaker>ISMAEL</speaker><stage>, revenant sur ses pas.
+</stage>
 <p id="25">
 	<s id="1">Ah ! </s>
 	<s id="2">Ma mère, qu'ai-je vu ?</s>
@@ -359,7 +361,8 @@
 	<s id="21">Tu dors sans crainte auprès de moi, tu crois que je puis te protéger toujours, et tu ne sais pas que je suis sans défense contre la nature, enfant comme toi devant elle, et moins digne que toi de l'attendrir.</s>
 </p>
 </sp>
-<sp who="ISMAËL"><speaker>ISMAËL, rêvant.</speaker>
+<sp who="ISMAËL"><speaker>ISMAËL</speaker><stage>, rêvant.
+</stage>
 <p id="40">
 	<s id="1">Ah ! </s>
 	<s id="2">Des orangers, des fruits désaltérants, de l'eau, ma mère.... ce soleil...</s>

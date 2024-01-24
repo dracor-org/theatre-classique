@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,11 +30,11 @@
 			<titlePart type="sub">Comédie en deux actes et en vers</titlePart>
 			<titlePart type="sub">Représentée pour la première fois au Théâtre-Français le 22 février 1849, publiée en 1850.</titlePart>
 		</docTitle> 
-		<docDate value='1876'>M. DCC LXXVI.</docDate>
-		<docAuthor id='MUSSET, Alfred de' bio='muset'>D'ALFRED DE MUSSET</docAuthor>
+		<docDate value="1876">M. DCC LXXVI.</docDate>
+		<docAuthor id="MUSSET, Alfred de" bio="muset">D'ALFRED DE MUSSET</docAuthor>
 		<docImprint>
 			<editor id="LEMERRE">PARIS ALPHONSE LEMERRE, ÉDITEUR, 27-31 PASSAGE CHOISEUL.</editor>
-			<printer id='CLAYE'>IMPRIMÉ PAR J. CLAYE.</printer>
+			<printer id="CLAYE">IMPRIMÉ PAR J. CLAYE.</printer>
 		</docImprint>
 		<performance>
 			<premiere date="1849-02-22" location="Théâtre-Français">Représentée pour la première fois au Théâtre-Français le 22 février 1849, publiée en 1850</premiere>
@@ -58,14 +58,14 @@
 			<p type="v">Que rien.</p>
 		</div>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LOUISON" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>LOUISON</role>.</castItem>
-			<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age="A" stat_amour=''>LE DUC</role>.</castItem>
-			<castItem><role id="BERTHAUD" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>BERTHAUD</role>.</castItem>
-			<castItem><role id="LA MARÉCHALE" sex="2" type="H" statut="maréchal" age="A" stat_amour=''>LA MARÉCHALE</role>.</castItem>
-			<castItem><role id="LA DUCHESSE" sex="2" type="H" statut="duc" age="V" stat_amour=''>LA DUCHESSE</role>.</castItem>
-			<castItem><role id="LISETTE" sex="2" type="H" statut="servente" age="A" stat_amour=''>LISETTE</role>.</castItem>
-			<castItem><role id="VALETS" sex="1" type="H" statut="valet" age="A" stat_amour=''>VALETS</role>.</castItem>
-			<castItem><role id="UNE FEMME" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>UNE FEMME</role>.</castItem>
+			<castItem><role id="LOUISON" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">LOUISON</role>.</castItem>
+			<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age="A" stat_amour="">LE DUC</role>.</castItem>
+			<castItem><role id="BERTHAUD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">BERTHAUD</role>.</castItem>
+			<castItem><role id="LA MARÉCHALE" sex="2" type="H" statut="maréchal" age="A" stat_amour="">LA MARÉCHALE</role>.</castItem>
+			<castItem><role id="LA DUCHESSE" sex="2" type="H" statut="duc" age="V" stat_amour="">LA DUCHESSE</role>.</castItem>
+			<castItem><role id="LISETTE" sex="2" type="H" statut="servente" age="A" stat_amour="">LISETTE</role>.</castItem>
+			<castItem><role id="VALETS" sex="1" type="H" statut="valet" age="A" stat_amour="">VALETS</role>.</castItem>
+			<castItem><role id="UNE FEMME" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">UNE FEMME</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Costumes du temps de Louis XVI.</set>
 		<note>Texte issu de "OEuvres d'Alfred de Musset, tome V. Comédies et proverbes", Paris : Alphonse Lemerre 1876.- pp. 325-404</note>
@@ -73,7 +73,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1">Me voilà bien chanceuse ; il n'en faut plus qu'autant.</l>
 	<l id="2">Le sort est, quand il veut, bien impatientant.</l>
 	<l id="3">Que les honnêtes gens se mettent à ma place,</l>
@@ -136,8 +137,10 @@
 	<l id="60">Ici, dans ce papier. - Ma foi, tant pis s'il m'aime !</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lisette, Le Duc.</head>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lisette, Le Duc.
+</stage>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="61">Personne encore ici ? - L'on va souper, je crois.</l>
 	<l id="62">C'est Lisette. - Elle écrit. - Bon ! c'est sans doute à moi.</l>
 	<l id="63">Les femmes ont vraiment un instinct que j'admire,</l>
@@ -147,7 +150,8 @@
 <stage type="loud">Haut.</stage>
 	<l id="67">Le souper est-il prêt ? Bonsoir, belle Lisette.</l>
 </sp>
-<sp who="LISETTE"><speaker>LISETTE, se levant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage>, se levant.
+	</stage>
 	<l id="68" syll="3" part="i">Monseigneur...</l>
 </sp>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
@@ -251,7 +255,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="128" syll="8" part="f">Bonsoir ! Quelle étrange faiblesse !</l>
 	<l id="129">Il me trompe, il me raille, il ment comme un païen ;</l>
 	<l id="130">Comment arrive-t-il que je ne dise rien ?</l>
@@ -276,7 +281,8 @@
 	<l id="149" syll="6" part="i">Est-ce que ?... Qui vient là ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lisette, Berthaud.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lisette, Berthaud.
+</stage>
 <sp who="BERTHAUD"><speaker>BERTHAUD.</speaker>
 	<l id="149" syll="2" part="m">C'est moi.</l>
 </sp>
@@ -537,7 +543,8 @@
 	<l id="266">Va, ne bavarde pas surtout dans la maison.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Maréchale, Le Duc, La Duchesse, Lisette, dans le fond.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Maréchale, Le Duc, La Duchesse, Lisette, dans le fond.
+</stage>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 	<l id="267">Vous ne venez donc pas à l'Opéra, ma chère ?</l>
 </sp>
@@ -603,7 +610,8 @@
 	<l id="291">Exiger ! - Obéir ! - Le bon Dieu vous bénisse !</l>
 	<l id="292">Dirait-on pas vraiment qu'on vous traîne au supplice ?</l>
 </sp>
-<sp stage="toward" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, au Duc.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="toward">, au Duc.
+	</stage>
 	<l id="293">Ne la chagrinez pas. - Pour l'égayer un peu,</l>
 	<l id="294">Nous ferons un piquet ce soir au coin du feu.</l>
 </sp>
@@ -676,7 +684,8 @@
 	<l id="343" syll="4" part="f">Bonsoir, Madame.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Maréchale, La Duchesse, Lisette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Maréchale, La Duchesse, Lisette.
+</stage>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="344" syll="6" part="i">Lucile, vous souffrez ?</l>
 </sp>
@@ -699,11 +708,13 @@
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="348" syll="6" part="i">Lisette, laissez-nous.</l>
 </sp>
-<sp stage="exit" who="LISETTE"><speaker>LISETTE, en sortant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="exit">, en sortant.
+	</stage>
 	<l id="348" syll="6" part="f">Mon_Dieu, comme elle l'aime !</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Maréchale, La Duchesse.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Maréchale, La Duchesse.
+</stage>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="349">Quoi ! vous prenez au grave un propos si léger ?</l>
 	<l id="350">Faites-vous un chagrin d'un ennui passager ?</l>
@@ -800,8 +811,10 @@
 	<l id="402" syll="6" part="f">Qui vous amène ici ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Lisette, La Maréchale, La Duchesse.</head>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à la Duchesse.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Lisette, La Maréchale, La Duchesse.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à la Duchesse.
+	</stage>
 	<l id="403">Votre marchande est là, Madame ; on m'a chargée...</l>
 </sp>
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
@@ -837,7 +850,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE DEUXIÈME</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="BERTHAUD"><speaker>BERTHAUD, seul.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="421">Comme ces grands seigneurs sont longs à s'habiller !</l>
 <note type="L">Lambin : Celui qui ne fait que lambiner ; agir lentement. [L]</note>
 	<l id="422">Le monde est si lambin que ça m'en fait bâiller.</l>
@@ -885,7 +899,8 @@
 	<l id="463">On a sonné là-bas. - C'est Louison qu'on appelle.</l>
 </sp>
 </div2>
-<div2 stage="carry" type="scene" n="2"><head>SCÈNE II. Berthaud, Lisette, portant une robe sur le bras.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="carry"> Berthaud, Lisette, portant une robe sur le bras.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="464" syll="6" part="i">Que fais-tu là, Lucas ?</l>
 </sp>
@@ -930,8 +945,10 @@
 	<l id="477">Je te quitte, on m'attend ; mais je vais revenir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Duc, Lisette, Berthaud.</head>
-<sp stage="dress" who="LE DUC"><speaker>LE DUC, habillé.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Duc, Lisette, Berthaud.
+</stage>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="dress">, habillé.
+	</stage>
 	<l id="478">Eh bien ! Lisette, eh bien ! mon aspect te fait fuir ?</l>
 	<l id="479" syll="6" part="i">Suis-je à ton gré, dis-moi ?</l>
 <stage type="watch/furniture">Il se mire dans une glace.</stage>
@@ -942,7 +959,8 @@
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 	<l id="479" syll="4" part="f">Quel est cet homme ?</l>
 </sp>
-<sp stage="wave" who="BERTHAUD"><speaker>BERTHAUD, saluant à plusieurs reprises.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="wave">, saluant à plusieurs reprises.
+	</stage>
 	<l id="480">Monseigneur,... Monseigneur,... C'est Berthaud qu'on me nomme.</l>
 	<l id="481" syll="4" part="i">Je suis venu...</l>
 </sp>
@@ -960,7 +978,8 @@
 <stage type="exit/wave">Il se retire en saluant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Duc, Lisette.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Duc, Lisette.
+</stage>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 	<l id="482" syll="3" part="m">Toi, viens çà.</l>
 </sp>
@@ -1018,7 +1037,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="BERTHAUD"><speaker>BERTHAUD, seul.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="513" syll="6" part="f">Quelle horreur ! J'ai tout vu.</l>
 	<l id="514">C'est dit, je suis berné, - je suis presque... Ô vertu !</l>
 	<l id="515">Aurait-on supposé tant de scélératesse ?</l>
@@ -1042,7 +1062,8 @@
 	<l id="533">Je vais tout dévoiler. - Allons ! ferme ! du coeur !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Maréchale, Berthaud.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Maréchale, Berthaud.
+</stage>
 <sp who="BERTHAUD"><speaker>BERTHAUD.</speaker>
 	<l id="534" syll="3" part="i">Madame...</l>
 </sp>
@@ -1073,7 +1094,8 @@
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="537" syll="3" part="m">Laissez-moi.</l>
 </sp>
-<sp stage="aparte" who="BERTHAUD"><speaker>BERTHAUD, à part.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="537" syll="3" part="f">Grand merci !</l>
 	<l id="538">Il paraît que l'on a l'oreille dure ici.</l>
 <stage type="loud">Haut.</stage>
@@ -1082,7 +1104,8 @@
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="539" syll="4" part="f">Allez, vous dis-je.</l>
 </sp>
-<sp stage="wave" who="BERTHAUD"><speaker>BERTHAUD, saluant.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="wave">, saluant.
+	</stage>
 	<l id="540" syll="2" part="i">Je sors.</l>
 <stage type="aparte">À part.</stage>
 	<l id="540" syll="10" part="f">En vérité, cela tient du prodige.</l>
@@ -1091,7 +1114,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, seule.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="543">Il n'en faut plus douter, la duchesse est jalouse.</l>
 	<l id="544">Mon fils a méconnu sa bonne et tendre épouse ;</l>
 	<l id="545">Lisette a fait le mal, je le dois arrêter.</l>
@@ -1110,7 +1134,8 @@
 	<l id="558">C'est à moi d'y songer ; - j'en veux prendre le soin.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Maréchale, Lisette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Maréchale, Lisette.
+</stage>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="559">Lisette, où courez-vous d'une telle vitesse ?</l>
 </sp>
@@ -1150,7 +1175,8 @@
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="571">Faites qu'en ce moment une autre vous remplace.</l>
 </sp>
-<sp stage="open" who="LISETTE"><speaker>LISETTE, ouvrant la porte du fond.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="open">, ouvrant la porte du fond.
+	</stage>
 	<l id="572" syll="6" part="i">Holà ! Quelqu'un ! Marton !</l>
 </sp>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
@@ -1197,7 +1223,8 @@
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="586">D'où vous vient le brillant que vous avez au doigt ?</l>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="587" syll="4" part="i">Ah ! Malheureuse !</l>
 </sp>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
@@ -1251,7 +1278,8 @@
 	<l id="604">Vous avez, en tout cas, mieux fait que de vous taire.</l>
 	<l id="605" syll="6" part="i">Mais que prétendez-vous ?</l>
 </sp>
-<sp stage="stand" who="LISETTE"><speaker>LISETTE, se levant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="stand">, se levant.
+	</stage>
 	<l id="605" syll="3" part="m">Rien au monde.</l>
 </sp>
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
@@ -1376,7 +1404,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="683">Demain ! Elle est partie. - Un accent de colère</l>
 	<l id="684">N'a point accompagné sa parole dernière.</l>
 	<l id="685">Peut-être elle me plaint, tout en me condamnant.</l>
@@ -1387,7 +1416,8 @@
 	<l id="690">Je suis de trop ici ; - mais comment en sortir ?</l>
 </sp>
 </div2>
-<div2 stage="costume" type="scene" n="10"><head>SCÈNE X. Lisette, La Duchesse, habillée en domino ouvert, un masque à la main.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage type="costume"> Lisette, La Duchesse, habillée en domino ouvert, un masque à la main.
+</stage>
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
 	<l id="691">Ma mère n'est pas là ? Que fais-tu donc, Lisette ?</l>
 </sp>
@@ -1403,7 +1433,8 @@
 	<l id="698">Tu me connais assez pour ne t'y pas tromper.</l>
 	<l id="699">Voici ma main ; oublie un instant de caprice.</l>
 </sp>
-<sp stage="kiss" who="LISETTE"><speaker>LISETTE, baisant la main de la duchesse.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="kiss">, baisant la main de la duchesse.
+	</stage>
 	<l id="700" syll="3" part="i">Ah ! Madame !</l>
 </sp>
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
@@ -1438,7 +1469,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="717">Le sort prend-il plaisir à se jouer de moi ?</l>
 	<l id="718">Dois-je rester ? partir ? aller au bal ? pourquoi ?</l>
 	<l id="719">- Et pourquoi pas ? - Peut-être aurais-je dû tout dire.</l>
@@ -1448,8 +1480,10 @@
 	<l id="723" syll="6" part="i">Et jamais un seul mot...</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Lisette, Berthaud.</head>
-<sp stage="cold" who="BERTHAUD"><speaker>BERTHAUD, d'un ton froid.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Lisette, Berthaud.
+</stage>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="cold">, d'un ton froid.
+	</stage>
 	<l id="723" syll="6" part="f">Bonjour, Mademoiselle.</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
@@ -1494,7 +1528,8 @@
 <sp who="BERTHAUD"><speaker>BERTHAUD.</speaker>
 	<l id="735">Vous riez ? vous joignez l'astuce à l'artifice ?</l>
 </sp>
-<sp stage="carry" who="LISETTE"><speaker>LISETTE, lui faisant tenir le domino.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="carry">, lui faisant tenir le domino.
+	</stage>
 	<l id="736" syll="6" part="i">Tiens, nigaud, prends ceci.</l>
 </sp>
 <sp who="BERTHAUD"><speaker>BERTHAUD.</speaker>
@@ -1516,7 +1551,8 @@
 	<l id="738" syll="4" part="f">Tu le sauras.</l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. La Duchesse, La Maréchale.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> La Duchesse, La Maréchale.
+</stage>
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
 	<l id="739">Oui, Madame, je reste, et Louison prend ma place.</l>
 	<l id="740">Le chagrin me poursuit, quelque effort que je fasse ;</l>
@@ -1703,7 +1739,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV.</head>
-<sp stage="alone" who="LA DUCHESSE"><speaker>LA DUCHESSE, seule.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="866" syll="6" part="f">Rester seule à veiller !</l>
 	<l id="867">C'est mon rôle à présent. - Ah ! je me sens brisée.</l>
 <stage type="sit">Elle s'assoit sur un sofa.</stage>
@@ -1729,7 +1766,8 @@
 <stage type="sleep">Elle s'endort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. La Duchesse, endormie, Le Duc.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> La Duchesse, endormie, Le Duc.
+</stage>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 	<l id="883">Non, l'on ne vit jamais pareille extravagante.</l>
 	<l id="884">Se voir apostropher au bal par sa servante !</l>
@@ -1821,7 +1859,8 @@
 <sp who="LA DUCHESSE"><speaker>LA DUCHESSE.</speaker>
 	<l id="959" syll="6" part="i">Valait-il mieux dormir ?</l>
 </sp>
-<sp stage="toward" who="LE DUC"><speaker>LE DUC, à la Maréchale.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="toward">, à la Maréchale.
+	</stage>
 	<l id="959" syll="6" part="f">Et vous aussi, ma mère ?</l>
 	<l id="960" syll="6" part="i">J'ai donc parlé bien haut ?</l>
 </sp>
@@ -1850,7 +1889,8 @@
 	<l id="967" syll="6" part="i">Eh ! Tenez, les voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. La Maréchale, La Duchesse, Le Duc, Louison,</head> Berthaud.
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> La Maréchale, La Duchesse, Le Duc, Louison, Berthaud.
+</stage> Berthaud.
 <sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE.</speaker>
 	<l id="967" syll="6" part="f">Que nous dit-on, Lisette ?</l>
 	<l id="968">Vous voulez nous quitter sans qu'on vous le permette ?</l>
@@ -1871,7 +1911,8 @@
 	<l id="971" syll="10" part="f">Non, Monseigneur, ce n'est qu'un honnête homme,</l>
 	<l id="972" syll="6" part="i">Fils d'un de vos fermiers.</l>
 </sp>
-<sp stage="toward" who="BERTHAUD"><speaker>BERTHAUD, à la duchesse.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="toward">, à la duchesse.
+	</stage>
 	<l id="972" syll="6" part="f">Oui, Madame, on me nomme...</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
@@ -1883,10 +1924,12 @@
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="973" syll="2" part="f">Tais-toi.</l>
 </sp>
-<sp stage="toward" who="LA DUCHESSE"><speaker>LA DUCHESSE, à Lisette.</speaker>
+<sp who="LA DUCHESSE"><speaker>LA DUCHESSE</speaker><stage type="toward">, à Lisette.
+	</stage>
 	<l id="974" syll="6" part="i">Il n'est pas beau, Louison.</l>
 </sp>
-<sp stage="TOWARD" who="LISETTE"><speaker>LISETTE, à la Duchesse.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="TOWARD">, à la Duchesse.
+	</stage>
 	<l id="974" syll="6" part="f">Il l'est assez pour moi.</l>
 </sp>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
@@ -1895,7 +1938,8 @@
 	<l id="977">Et nous ravir ainsi les coeurs en un moment.</l>
 	<l id="978" syll="6" part="i">Vous êtes un fripon.</l>
 </sp>
-<sp stage="toward" who="BERTHAUD"><speaker>BERTHAUD, à Louison.</speaker>
+<sp who="BERTHAUD"><speaker>BERTHAUD</speaker><stage type="toward">, à Louison.
+	</stage>
 	<l id="978" syll="6" part="f">Ce seigneur est charmant.</l>
 </sp>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
@@ -1913,11 +1957,13 @@
 	<l id="981" syll="8" part="f">Encor ? Toujours se taire ici !</l>
 	<l id="982" syll="8" part="i">Je me rattraperai chez nous.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à la Maréchale.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à la Maréchale.
+	</stage>
 	<l id="982" syll="2" part="f">Et vous aussi,</l>
 	<l id="983">Madame, riez-vous de mon futur ménage ?</l>
 </sp>
-<sp stage="pull" who="LA MARÉCHALE"><speaker>LA MARÉCHALE, l'attirant à part.</speaker>
+<sp who="LA MARÉCHALE"><speaker>LA MARÉCHALE</speaker><stage type="pull">, l'attirant à part.
+	</stage>
 	<l id="984">Non, Louise, j'ai compris, et je vois ton courage.</l>
 	<l id="985">Si j'ai peine, à présent, à te laisser partir,</l>
 	<l id="986">Tu n'auras pas du moins lieu de t'en repentir.</l>

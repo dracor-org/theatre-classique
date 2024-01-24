@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<structure>Un acte</structure>
 				<periode>1821-1830</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -61,7 +61,8 @@
 </front>
 <body>
 <div1 type="acte" n="1"><head>MOLIÈRE ET MIGNARD À AVIGNON.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Belton, Laforest.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Belton, Laforest.
+</stage>
 <sp who="BELTON"><speaker>BELTON.</speaker>
 <p id="1">
 	<s id="1">Pardon, Madame : n'est-ce pas ici que demeure Monsieur Molière ?</s>
@@ -87,7 +88,8 @@
 	<s id="1">On m'a assuré que Monsieur Molière allait former une nouvelle troupe pour Son Altesse Sérénissime le Prince de Conti, et je venais m'offrir...</s>
 </p>
 </sp>
-<sp who="LAFOREST"><speaker>LAFOREST, le toisant.</speaker>
+<sp who="LAFOREST"><speaker>LAFOREST</speaker><stage>, le toisant.
+</stage>
 <p id="6">
 	<s id="1">Vous, Monsieur ? </s>
 	<s id="2">Et pour quels emplois ?</s>
@@ -224,7 +226,8 @@
 <stage type="kneel">Il tombe à ses pieds.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Belton, Laforest, Molière.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Belton, Laforest, Molière.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 <p id="1">
 	<s id="1">Dieu ! </s>
@@ -339,7 +342,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="MOLIÈRE"><speaker>MOLIÈRE, seul.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je me venge quelquefois sur les femmes, des chagrins qu'elles m'ont causés ; et pourtant je les aime toujours... </s>
 	<s id="2">Ah ! </s>
@@ -365,7 +369,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Molière, Mignard, un porte-feuille sous le bras.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Molière, Mignard, un porte-feuille sous le bras.
+</stage>
 <sp who="MIGNARD"><speaker>MIGNARD.</speaker>
 <p id="1">
 	<s id="1">Pardon, Monsieur, j'arrive à l'instant dans cette ville ; on m'indique cette auberge comme la meilleure ; et mon intention étant de m'arrêter dans ces contrées, je voudrais savoir si l'on est bien ici ?</s>
@@ -503,7 +508,8 @@
 <stage type="touch">Ils se serrent la main.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Molière, Mignard , Bridois.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Molière, Mignard , Bridois.
+</stage>
 <sp who="BRIDOIS"><speaker>BRIDOIS.</speaker>
 <stage type="title">Air : Vaudeville de Jean Monnet.</stage>
 <note type="L">Patache : Bâtiment de la douane et du fisc en général. 
@@ -677,7 +683,8 @@
 	<l id="87">À la marquise d'Ampouf.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Molière, Mignard.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Molière, Mignard.
+</stage>
 <sp who="MIGNARD"><speaker>MIGNARD.</speaker>
 <p id="1">
 	<s id="1">Demeure, nous nous amuserons.</s>
@@ -707,14 +714,16 @@
 	<s id="2">L'amitié va faire une corvée.</s>
 </p>
 </sp>
-<sp stage="exit" who="MOLIÈRE"><speaker>MOLIÈRE, sortant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="exit">, sortant.
+</stage>
 <p id="6">
 	<s id="1">À charge de revanche.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="MIGNARD"><speaker>MIGNARD, seul.</speaker>
+<sp who="MIGNARD"><speaker>MIGNARD</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Il y a dans toute association humaine, l'article pertes et bénéfices. </s>
 	<s id="2">On peut bien commencer par l'article pertes, quand c'est avec Molière qu'on s'associe d'amitié.</s>
@@ -722,8 +731,10 @@
 <stage type="watch">Il feuillette ses dessins.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Mignard, Madame d'Ampouf.</head>
-<sp stage="aparte" who="MADAME D'AMPOUF"><speaker>MADAME D'AMPOUF, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Mignard, Madame d'Ampouf.
+</stage>
+<sp who="MADAME D'AMPOUF"><speaker>MADAME D'AMPOUF</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Le voilà ; c'est lui ! </s>
 	<s id="2">N'interrompons pas ce grand homme dans ses méditations. </s>
@@ -813,7 +824,8 @@
 	<l id="113">Un coeur sensible !</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. MIGNARD , Madame d'Ampouf, Armantine.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> MIGNARD , Madame d'Ampouf, Armantine.
+</stage>
 <sp who="ARMANTINE"><speaker>ARMANTINE.</speaker>
 <p id="1">
 	<s id="1">C'est Monsieur Molière à qui j'ai l'honneur de parler ?</s>
@@ -838,7 +850,8 @@
 	<s id="3">J'avais une rivale.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARMANTINE"><speaker>ARMANTINE, à Mignard.</speaker>
+<sp who="ARMANTINE"><speaker>ARMANTINE</speaker><stage type="toward">, à Mignard.
+</stage>
 <p id="5">
 	<s id="1">Monsieur, je brûlais du désir....</s>
 </p>
@@ -874,7 +887,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Mignard, Armantine.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Mignard, Armantine.
+</stage>
 <sp who="MIGNARD"><speaker>MIGNARD.</speaker>
 <p id="1">
 	<s id="1">La vieille folle veut absolument que je sois Molière... </s>
@@ -924,7 +938,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Armantine, Molière.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Armantine, Molière.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 <p id="1">
 	<s id="1">Madame, est-ce moi que vous demandez ?</s>
@@ -1073,7 +1088,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Molière, Armantine, Belton.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Molière, Armantine, Belton.
+</stage>
 <sp who="BELTON"><speaker>BELTON.</speaker>
 <p id="1">
 	<s id="1">Ô ciel ! </s>
@@ -1091,7 +1107,8 @@
 	<s id="2">Je vous l'ai dit, belle Armantine : je vous rends votre infidèle.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARMANTINE"><speaker>ARMANTINE, à Molière.</speaker>
+<sp who="ARMANTINE"><speaker>ARMANTINE</speaker><stage type="toward">, à Molière.
+</stage>
 <p id="4">
 	<s id="1">Il ne me convient pas de descendre dans son coeur ; je ne veux point d'un amour que rappellerait la contrainte ; je m'en rapporte à votre prudence, Monsieur, à votre connaissance du coeur humain... et s'il ne m'aime plus, je vais m'ensevelir dans un désert...</s>
 </p>
@@ -1100,7 +1117,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Molière, Belton,</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Molière, Belton,
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 <p id="1">
 	<s id="1">Me voici dans une position difficile. </s>
@@ -1189,7 +1207,8 @@
 	<l id="171">Vous venez de peindre Sophie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Molière, Belton, Sophie.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Molière, Belton, Sophie.
+</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
 	<s id="1">Je crois qu'on vient de me nommer.</s>
@@ -1304,7 +1323,8 @@
 <stage type="bis">Bis.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Sophie, Molière, Belton, Armantine, Le Grenadier Valaurier.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Sophie, Molière, Belton, Armantine, Le Grenadier Valaurier.
+</stage>
 <sp who="ARMANTINE"><speaker>ARMANTINE.</speaker>
 <p id="1">
 	<s id="1">Messieurs, permettez-moi de vous présenter mon frère, le courageux Valaurier ; il revient de l'armée d'Italie.</s>
@@ -1371,7 +1391,8 @@
 	<l id="204">Un soldat est dans sa patrie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Les Mêmes, Madame Laforest</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Les Mêmes, Madame Laforest
+</stage>
 <sp who="LAFOREST"><speaker>LAFOREST.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Monsieur, avez-vous engagé définitivement cet excellent jeune homme ?</s>
@@ -1408,7 +1429,8 @@
 	<l id="216">Il rendra mon coeur joyeux !</l>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII et dernière. Tous les personnages.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII et dernière.</head><stage> Tous les personnages.
+</stage>
 <sp who="BRIDOIS"><speaker>BRIDOIS.</speaker>
 <p id="1">
 	<s id="1">Voici la Marquise, Messieurs ; elle a fait une conquête !</s>
@@ -1576,7 +1598,8 @@
 	<l id="300">Peuvent rafraîchir leurs lauriers</l>
 	<l id="301">À la Fontaine-de-Vaucluse.</l>
 </sp>
-<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, au public.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="302">Malgré le souvenir flatteur</l>
 	<l id="303">Et de Mignard et de Molière,</l>
 	<l id="304">Peut-être à l'improvisateur</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -148,20 +148,21 @@
 
 <castList>
 	<head>ACTEURS de LE GOÛTÉ.</head>
-		<castItem><role id="MONSIEUR BLANDINEAU" sex="1" type="H" statut='procureur' age='A' stat_amour='(néant)'>MONSIEUR BLANDINEAU</role>, Procureur.</castItem>
-		<castItem><role id="MADAME BLANDINEAU" sex="2" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MADAME BLANDINEAU</role>, sa femme.</castItem>
-		<castItem><role id="LE PETIT BLANDINEAU" sex="1" type="H" statut='bourgeois' age='E' stat_amour='(néant)'>LE PETIT BLANDINEAU</role>, enfant de huit ans.</castItem>
-		<castItem><role id="LA PETITE BLANDINEAU" sex="2" type="H" statut='procureur' age='E' stat_amour='(néant)'>LA PETITE BLANDINEAU</role>, enfant de neuf ans.</castItem>
-		<castItem><role id="JANNOT" sex="1" type="H" statut='paysan' age='E' stat_amour='(néant)'>JANNOT</role>, fils d'un Vigneron, le Filleul de Monsieur Blandineau, âgé de huit ans.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut='laquais' age='A' stat_amour='(néant)'>UN LAQUAIS</role>.</castItem>
+		<castItem><role id="MONSIEUR BLANDINEAU" sex="1" type="H" statut="procureur" age="A" stat_amour="(néant)">MONSIEUR BLANDINEAU</role>, Procureur.</castItem>
+		<castItem><role id="MADAME BLANDINEAU" sex="2" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MADAME BLANDINEAU</role>, sa femme.</castItem>
+		<castItem><role id="LE PETIT BLANDINEAU" sex="1" type="H" statut="bourgeois" age="E" stat_amour="(néant)">LE PETIT BLANDINEAU</role>, enfant de huit ans.</castItem>
+		<castItem><role id="LA PETITE BLANDINEAU" sex="2" type="H" statut="procureur" age="E" stat_amour="(néant)">LA PETITE BLANDINEAU</role>, enfant de neuf ans.</castItem>
+		<castItem><role id="JANNOT" sex="1" type="H" statut="paysan" age="E" stat_amour="(néant)">JANNOT</role>, fils d'un Vigneron, le Filleul de Monsieur Blandineau, âgé de huit ans.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="(néant)">UN LAQUAIS</role>.</castItem>
 </castList>
-<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La Scène est à la Campagne, dans un Salon de Compagnie.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est à la Campagne, dans un Salon de Compagnie.</set>
 
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>LE GOÛTÉ</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur et Madame Blandineau.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur et Madame Blandineau.
+</stage>
 <sp who="MONSIEUR BLANDINEAU"><speaker>MONSIEUR BLANDINEAU.</speaker>
 <p id="1">
 	<s id="1">Enfin, Madame, nous voilà donc à notre maison de campagne en pleines vacances pour deux mois , vous trouverez bon, j'espère, que je fasse mon amusement d'instruire ici mon fils et ma fille à ma manière, et de détruire ou du moins de diminuer en eux tous les défauts que la façon dont vous les élevez à Paris, leur inspire.</s>
@@ -248,7 +249,8 @@
 	<s id="1">Soit, vous avez raison, voyons. </s>
 </p>
 </sp>
-<sp stage="call" who="MADAME BLANDINEAU"><speaker>MADAME BLANDINEAU, appelle.</speaker>
+<sp who="MADAME BLANDINEAU"><speaker>MADAME BLANDINEAU</speaker><stage type="call">, appelle.
+</stage>
 <p id="16">
 	<s id="1">Lapierre.</s>
 </p>
@@ -275,9 +277,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2" stage="carry/drop"><head>SCÈNE II. Les acteurs précédents, le petit et la petite Blandineau, Le Laquais apporte sur une table le Gouté composé de trois Poires, de trois tartines de confitures et de trois morceaux de pain.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="carry/drop"> Les acteurs précédents, le petit et la petite Blandineau, Le Laquais apporte sur une table le Gouté composé de trois Poires, de trois tartines de confitures et de trois morceaux de pain.
+</stage>
 <stage type="exit">Il sort.</stage>
-<sp who="MADAME BEANDINEAU"><speaker>MADAME BEANDINEAU, aux deux enfants.</speaker>
+<sp who="MADAME BEANDINEAU"><speaker>MADAME BEANDINEAU</speaker><stage>, aux deux enfants.
+</stage>
 <p id="1">
 	<s id="1">Allons, mes enfants, mettez-vous là et goutez ; le petit Jannot va venir, faites-le gouter avec vous, mais ayez attention qu'il ne vous mange pas tout.</s>
 </p>
@@ -290,7 +294,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. LES ACTEURS PRÉCÉDENS, JANNOT.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> LES ACTEURS PRÉCÉDENS, JANNOT.
+</stage>
 <sp who="MONSIEUR BLANDINEAU"><speaker>MONSIEUR BLANDINEAU.</speaker>
 <p id="1">
 	<s id="1">Le voici. </s>
@@ -309,7 +314,8 @@
 	<s id="1">Est-il vrai, Jannot, que tu polissonnais dans la basse-cour ?</s>
 </p>
 </sp>
-<sp stage="impromptu" who="JANNOT"><speaker>JANNOT. ( Impromptu )</speaker>
+<sp who="JANNOT"><speaker>JANNOT.</speaker><stage type="impromptu"> ( Impromptu )
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu, non, mon Parein, demandez plutôt au Jardinier, je lui aidais à porter du terreau avec une pelle dans le potager ; mais je m'en vais me laver les mains.</s>
@@ -342,8 +348,9 @@
 <stage type="away/hide">Ils font semblant de sortir, et se cachent derrière la porte à moitié fermée.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le petit et la petite Blandineau,
-Jannot, qui craint de les approcher, et toujours debout.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le petit et la petite Blandineau,
+Jannot, qui craint de les approcher, et toujours debout.
+</stage>
 <sp who="LE PETIT BLANDINEAU"><speaker>LE PETIT BLANDINEAU.</speaker>
 <p id="1">
 	<s id="1">Allons, ma soeur, mets-toi là, et moi ici :</s>
@@ -421,7 +428,8 @@ Jannot, qui craint de les approcher, et toujours debout.</head>
 	<s id="1">Veux tu bien y aller tout-à-l'heure ?</s>
 </p>
 </sp>
-<sp who="LA PETITE BLANDINEAU"><speaker>LA PETITE BLANDINEAU, le menace.</speaker>
+<sp who="LA PETITE BLANDINEAU"><speaker>LA PETITE BLANDINEAU</speaker><stage>, le menace.
+</stage>
 <p id="15">
 	<s id="1">Veux-tu y aller ?...</s>
 </p>
@@ -479,14 +487,17 @@ Jannot, qui craint de les approcher, et toujours debout.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les acteurs précédents, Monsieur et Madame Blandineau, qui sorte de leur cachette.</head>
-<sp stage="toward" who="MONSIEUR BLANDINEAU"><speaker>MONSIEUR BLANDINEAU, à sa femme.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les acteurs précédents, Monsieur et Madame Blandineau, qui sorte de leur cachette.
+</stage>
+<sp who="MONSIEUR BLANDINEAU"><speaker>MONSIEUR BLANDINEAU</speaker><stage type="toward">, à sa femme.
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Madame, est-ce là ce que vous m'aviez promis ?</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME BLANDINEAU"><speaker>MADAME BLANDINEAU, à son fils et à sa fille.</speaker>
+<sp who="MADAME BLANDINEAU"><speaker>MADAME BLANDINEAU</speaker><stage type="toward">, à son fils et à sa fille.
+</stage>
 <p id="2">
 	<s id="1">Ah ! ah ! </s>
 	<s id="2">Vous êtes de jolis enfants, j'ai tout entendu. </s>

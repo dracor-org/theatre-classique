@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -28,16 +29,16 @@
 			<titlePart type="main">LE NEVEU DE LA MARQUISE</titlePart>
 			<titlePart type="sub">SAYNETE DE SALON</titlePart>
 		</docTitle> 
-		<docDate value='1882'>1882. Tous droits réservés.</docDate>
+		<docDate value="1882">1882. Tous droits réservés.</docDate>
 		<docAuthor id="HEYLLI, Georges d'">PAR M. GEORGES D'HEYLLI</docAuthor>
 		<docImprint>
-			<editor id='OLLENDORF'>PARIS, PAUL OLLENDORFF, ÉDITEUR, 28 bis, RUE DE RICHELIEU.</editor>
+			<editor id="OLLENDORF">PARIS, PAUL OLLENDORFF, ÉDITEUR, 28 bis, RUE DE RICHELIEU.</editor>
 			<printer id="AUREAU">F. AUREAU - Imprimerie Lagny.</printer>				
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age='A' stat_amour='néant'>LE MARQUISE</role>, 23 ans.</castItem>
-		<castItem><role id="ROGER D'ENTRAIGUES" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>ROGER D'ENTRAIGUES</role>.</castItem>
-		<castItem><role id="LISETTE" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>LISETTE</role>, soubrette de Marquise.</castItem>
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUISE</role>, 23 ans.</castItem>
+		<castItem><role id="ROGER D'ENTRAIGUES" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ROGER D'ENTRAIGUES</role>.</castItem>
+		<castItem><role id="LISETTE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">LISETTE</role>, soubrette de Marquise.</castItem>
 		</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">À Paris, en 1779.</set>
 	<note>Tiré de "Théâtre de Campagne. Huitième série". 1882.  pp 53-74.</note>
@@ -59,7 +60,8 @@
 <stage type="ring">Elle sonne encore.</stage>
 </sp>
 </div2>
-<div2 stage="entrance/quick" type="scene" n="2"><head>SCÈNE II. La même, Lisette, entrant vivement.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="entrance/quick"> La même, Lisette, entrant vivement.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">J'achevais en toute hâte de m'habiller, lorsque j'ai entendu ta sonnette de Madame_la_Marquise.</s>
@@ -132,7 +134,8 @@
 	<s id="1">Tiens, pour tuer le temps qui me semble immortel, coiffe-moi.</s>
 </p>
 </sp>
-<sp stage="dress" who="LISETTE"><speaker>LISETTE, en coiffant la marquise. </speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="dress">, en coiffant la marquise. 
+</stage>
 <p id="15">
 	<s id="1">Et parmi ces seigneurs, Madame_la_Marquise sait bien qu'elle n'a qu'à choisir.</s>
 </p>
@@ -241,7 +244,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LA MARQUISE"><speaker>LA MARQUISE, seule.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Cette Lisette a vraiment perdu l'esprit.</s>
 </p>
@@ -256,8 +260,9 @@
 <stage type="open/abrupt">– Puis la porte s'ouvre brusquement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La même, Lisette, Roger, jolie toilette de
- marquis Louis XV.– Très légèrement pris de vin, mais toujours distingué.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La même, Lisette, Roger, jolie toilette de
+ marquis Louis XV.– Très légèrement pris de vin, mais toujours distingué.
+</stage>
 <sp who="ROGER"><speaker>ROGER.</speaker>
 <p id="1">
 	<s id="1">Que me disais-tu donc, soubrette de mon coeur, que ta maîtresse était sortie ?</s>
@@ -269,7 +274,8 @@
 	<s id="3">Faire dire que vous n'êtes pas là alors, qu'au contraire, vous êtes bel et bien chez vous, en chair et en os, et la plus belle parmi les plus belles...</s>
 </p>
 </sp>
-<sp stage="proud" who="LA MARQUISE"><speaker>LA MARQUISE, hautaine.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="proud">, hautaine.
+</stage>
 <p id="3">
 	<s id="1">Mais, Monsieur, je n'ai pas l'honneur de vous connaître, et...</s>
 </p>
@@ -311,14 +317,16 @@
 	<s id="4">Viens, Lisette, et laissons Monsieur à ses réflexions.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Cela mettra peut-être, d'ailleurs, un peu d'eau dans son vin !...</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone/desapointed" who="ROGER"><speaker>ROGER, seul, désappointé.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="alone/desapointed">, seul, désappointé.
+</stage>
 <p id="1">
 	<s id="1">Diable ! </s>
 	<s id="2">Voilà qui commence mal et mes cinq_cents_louis m'ont l'air bien aventurés. </s>
@@ -357,7 +365,8 @@
 <stage type="open/entrance">Au moment où il s'approche de la porte, elle s'ouvre, et Lisette entre en scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le même, Lisette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le même, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, qu'est-ce que vous faites là, Monsieur ? </s>
@@ -378,7 +387,8 @@
 	<s id="2">Vous allez rester ici ?...</s>
 </p>
 </sp>
-<sp who="ROGER"><speaker>ROGER, effrontément.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage>, effrontément.
+</stage>
 <p id="4">
 	<s id="1">Mais oui, Marton ou Lisette... au fait, comment te nommes-tu ?.</s>
 </p>
@@ -400,7 +410,8 @@
 </p>
 <stage type="give">Il lui offre sa bourse.</stage>
 </sp>
-<sp stage="push/give" who="LISETTE"><speaker>LISETTE, repoussant la bourse.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="push/give">, repoussant la bourse.
+</stage>
 <p id="9">
 	<s id="1">Gardez votre argent, Monsieur, je vous le volerais. </s>
 	<s id="2">Votre premier acompte ? </s>
@@ -486,7 +497,8 @@
 	<s id="6">Et puis qui vous dit que madame soit libre, qu'elle n'ait pas un mari ?...</s>
 </p>
 </sp>
-<sp stage="abrupt" who="ROGER"><speaker>ROGER, brusquement.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="abrupt">, brusquement.
+</stage>
 <p id="24">
 	<s id="1">Elle a un mari ?...</s>
 </p>
@@ -522,7 +534,8 @@
 	<s id="2">Voilà [c]omment nous sommes, nous autres gens de guerre...</s>
 </p>
 </sp>
-<sp who="LISETTE"><speaker>LISETTE, phiMntant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage>, phiMntant.
+</stage>
 <p id="30">
 	<s id="1">Ah, monsieur est soldat ?...</s>
 </p>
@@ -545,14 +558,16 @@
 </p>
 <stage type="kiss">Il l'embrasse.</stage>
 </sp>
-<sp who="LISETTE"><speaker>LISETTE, riant de toutes ses forces.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage>, riant de toutes ses forces.
+</stage>
 <p id="34">
 	<s id="1">Adieu, grand fou !...</s>
 </p>
 <stage type="close/close">Il sort ; elle ferme la porte vivement.</stage>
 </sp>
 </div2>
-<div2 stage="open/entrance" type="scene" n="7"><head>SCÈNE VII. Lisette, La Marquise, ouvrant doucement la porte qui donne sur son appartement.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage type="open/entrance"> Lisette, La Marquise, ouvrant doucement la porte qui donne sur son appartement.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Lisette ?</s>
@@ -588,7 +603,8 @@
 	<s id="5">Madame y viendra toutefois, sinon par désir, au moins par nécessité...</s>
 </p>
 </sp>
-<sp stage="dream" who="LA MARQUISE"><speaker>LA MARQUISE, rêveuse.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="dream">, rêveuse.
+</stage>
 <p id="7">
 	<s id="1">Je ne dis pas non... </s>
 	<s id="2">Nous verrons plus tard... </s>
@@ -665,7 +681,8 @@
 	<s id="1">Cependant, Madame, il est indispensable que nous soyons, par lui, informées des projets de l'ennemi ; car c'est de notre beau chevalier, n'en doutez pas, que nous vient cette missive.</s>
 </p>
 </sp>
-<sp stage="think" who="LA MARQUISE"><speaker>LA MARQUISE, après un moment de réflexion.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="think">, après un moment de réflexion.
+</stage>
 <p id="20">
 	<s id="1">Eh bien, soit, lis.</s>
 </p>
@@ -683,7 +700,8 @@
 	<s id="1">Et pas de signature ?... </s>
 </p>
 </sp>
-<sp stage="watch" who="LISETTE"><speaker>LISETTE, retournant le billet.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="watch">, retournant le billet.
+</stage>
 <p id="23">
 	<s id="1">Aucune !...</s>
 </p>
@@ -715,7 +733,8 @@
 	<s id="5">Attache maintenant le billet au bouquet de ce monsieur, et renvoie-le lui par le même chemin.</s>
 </p>
 </sp>
-<sp stage="location" who="LISETTE"><speaker>LISETTE, à la fenêtre.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="location">, à la fenêtre.
+</stage>
 <p id="28">
 	<s id="1">C'est bien lui ! </s>
 	<s id="2">Le voici en effet sous vos fenêtres.</s>
@@ -733,19 +752,23 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="LA MARQUISE"><speaker>LA MARQUISE, seule.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Ce que je fais là est bien grave, mais c'est le seul moyen de terminer une aussi sotte aventure.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La même, Lisette, Roger.</head>
-<sp stage="serious" who="ROGER"><speaker>ROGER, très cérémonieusement.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La même, Lisette, Roger.
+</stage>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="serious">, très cérémonieusement.
+</stage>
 <p id="1">
 	<s id="1">Madame, je vous remercie.</s>
 </p>
 </sp>
-<sp stage="interrupt/quick" who="LA MARQUISE"><speaker>LA MARQUISE, l'interrompant vivement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="interrupt/quick">, l'interrompant vivement.
+</stage>
 <p id="2">
 	<s id="1">Ne me remerciez pas, Monsieur ; je vous ai fait venir, non pour ce que votre fatuité peut vous faire croire, mais bien pour vous déclarer que si vous ne quittez à l'instant ma demeure, en abandonnant les projets d'agression dont vous m'avez fait part, je préviendrai Monsieur_le_lieutenant_de_police et le prierai de me protéger contre vous. </s>
 	<s id="2">Et sur ce, Lisette, reconduis une dernière fois, Monsieur.</s>
@@ -763,7 +786,8 @@
 <stage type="exit/proud">Elle sort majestueusement.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Lisette, Roger.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Lisette, Roger.
+</stage>
 <sp who="ROGER"><speaker>ROGER.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Lisette ?</s>
@@ -786,7 +810,8 @@
 	<s id="2">Oui, monsieur ; mais c'était l'ordre de madame ; je n'y suis pour rien et je n'y peux rien.</s>
 </p>
 </sp>
-<sp who="ROGER"><speaker>ROGER, avec un soupir.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage>, avec un soupir.
+</stage>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Lisette ! </s>
@@ -857,7 +882,8 @@
 	<s id="1">Mais il est mort...</s>
 </p>
 </sp>
-<sp stage="happy" who="ROGER"><speaker>ROGER, sautant de joie.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="happy">, sautant de joie.
+</stage>
 <p id="18">
 	<s id="1">Ah ! </s>
 	<s id="2">Lisette, elle est libre ! </s>
@@ -882,7 +908,8 @@
 	<s id="2">La Marquise_d_Entraigues.</s>
 </p>
 </sp>
-<sp stage="estonish" who="ROGER"><speaker>ROGER, interdit.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="estonish">, interdit.
+</stage>
 <p id="22">
 	<s id="1">Comment ? </s>
 	<s id="2">Quel nom as-tu prononcé là ? </s>
@@ -899,7 +926,8 @@
 	<s id="1">Mais alors ta maîtresse est ma tante.</s>
 </p>
 </sp>
-<sp stage="quick" who="LISETTE"><speaker>LISETTE, vivement.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="25">
 	<s id="1">Votre tante ? </s>
 	<s id="2">Quoi ! </s>
@@ -932,7 +960,8 @@
 	<s id="1">Oh, pour cela, je n'en réponds pas !</s>
 </p>
 </sp>
-<sp who="ROGER"><speaker>ROGER, lui prenant les mains.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage>, lui prenant les mains.
+</stage>
 <p id="30">
 	<s id="1">Voyons, laisse-moi t'implorer ; veux-tu que je tombe à tes genoux ?...</s>
 </p>
@@ -959,13 +988,15 @@
 </p>
 </sp>
 </div2>
-<div2 stage="proud" type="scene" n="11"><head>SCÈNE XI. Les mêmes, La marquise, grande dignité.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage type="proud"> Les mêmes, La marquise, grande dignité.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 <p id="1">
 	<s id="1">C'est assez, Monsieur.</s>
 </p>
 </sp>
-<sp stage="kneel" who="ROGER"><speaker>ROGER, tombant à ses genoux.</speaker>
+<sp who="ROGER"><speaker>ROGER</speaker><stage type="kneel">, tombant à ses genoux.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Ma tante.</s>
@@ -986,7 +1017,8 @@
 </p>
 <stage type="wave/shy">Roger m'incline très humblement, et se retire.</stage>
 </sp>
-<sp who="LISETTE"><speaker>LISETTE, à part, en le conduisant à la porte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage>, à part, en le conduisant à la porte.
+</stage>
 <p id="5">
 	<s id="1">Voyons, Monsieur_le_Comte, faites bonne contenance et revenez demain. </s>
 	<s id="2">J'aurai arrangé les choses, et que je perde mon nom si dans quinze_jours vous n'avez pas gagné complètement, mais ce qui s'appelle complètement, votre pari !</s>
@@ -997,4 +1029,3 @@
 </body>
 </text>
 </TEI>
-

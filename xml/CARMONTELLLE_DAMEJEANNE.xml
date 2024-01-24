@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,25 +30,26 @@
 			<titlePart type="sub">PROVERBE.</titlePart>
 			<titlePart type="sub">QUATRE-VINGT-SEPTIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1781'>M. DCC. LXXXI. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1781">M. DCC. LXXXI. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='ESPRIT, LAPORTE'>À AMSTERDAM, et se trouve à Paris, Chez ESPRIT, au Palais-Royal, et chez LAPORTE, Libraire, Rue des Noyers.</printer>
+			<printer id="ESPRIT, LAPORTE">À AMSTERDAM, et se trouve à Paris, Chez ESPRIT, au Palais-Royal, et chez LAPORTE, Libraire, Rue des Noyers.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR DE LA RIVIERE" sex="1" type="H" statut="principal" age='A' stat_amour='(néant)'>MONSIEUR DE LA RIVIERE</role>, Principal.</castItem>
-		<castItem><role id="MONSIEUR D'AVARIN" sex="1" type="H" statut="économe" age='A' stat_amour='(néant)'>MONSIEUR D'AVARIN</role>, Économe.</castItem>
-		<castItem><role id="MONSIEUR BOIVIN" sex="1" type="H" statut="écolier" age='J' stat_amour='(néant)'>MONSIEUR BOIVIN</role>, grand écolier.</castItem>
-		<castItem><role id="MONSIEUR RAISIN" sex="1" type="H" statut="écolier" age='J' stat_amour='(néant)'>MONSIEUR RAISIN</role>, grand écolier.</castItem>
-		<castItem><role id="MONSIEUR DE LA VIGNE" sex="1" type="H" statut="écolier" age='J' stat_amour='(néant)'>MONSIEUR DE LA VIGNE</role>.</castItem>
+		<castItem><role id="MONSIEUR DE LA RIVIERE" sex="1" type="H" statut="principal" age="A" stat_amour="(néant)">MONSIEUR DE LA RIVIERE</role>, Principal.</castItem>
+		<castItem><role id="MONSIEUR D'AVARIN" sex="1" type="H" statut="économe" age="A" stat_amour="(néant)">MONSIEUR D'AVARIN</role>, Économe.</castItem>
+		<castItem><role id="MONSIEUR BOIVIN" sex="1" type="H" statut="écolier" age="J" stat_amour="(néant)">MONSIEUR BOIVIN</role>, grand écolier.</castItem>
+		<castItem><role id="MONSIEUR RAISIN" sex="1" type="H" statut="écolier" age="J" stat_amour="(néant)">MONSIEUR RAISIN</role>, grand écolier.</castItem>
+		<castItem><role id="MONSIEUR DE LA VIGNE" sex="1" type="H" statut="écolier" age="J" stat_amour="(néant)">MONSIEUR DE LA VIGNE</role>.</castItem>
 	</castList>
-	<set location='Bourgogne' country='France' periode='XVIIIème' gps="46.950914, 4.301565">La Scène est dans le jardin d'un Collège en Bourgogne.</set>
+	<set location="Bourgogne" country="France" periode="XVIIIème" gps="46.950914, 4.301565">La Scène est dans le jardin d'un Collège en Bourgogne.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome VII, Amesterdam, 1781. pp. p. 127-159.</note>
 <note>Les Acteurs peuvent tous s'habiller en Abbés, si cela leur est commode.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>DAME JEANNE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Boivin, Monsieur Raisin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur Boivin, Monsieur Raisin.
+</stage>
 <sp who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Boivin, comment as-tu trouvé le vin du réfectoire aujourd'hui ?</s>
@@ -194,7 +195,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur de La Vigne, Monsieur Raisin,  Monsieur Boivin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur de La Vigne, Monsieur Raisin,  Monsieur Boivin.
+</stage>
 <sp who="MONSIEUR DE LA VIGNE"><speaker>MONSIEUR DE LA VIGNE.</speaker>
 <p id="1">
 	<s id="1">Messieurs, tout va bien.</s>
@@ -288,7 +290,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="listen" type="scene" n="3"><head>SCÈNE III. Monsieur de La Vigne, Monsieur Boivin, Monsieur Raisin, Monsieur d'Avarin, écoutant sans avancer.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="listen"> Monsieur de La Vigne, Monsieur Boivin, Monsieur Raisin, Monsieur d'Avarin, écoutant sans avancer.
+</stage>
 <sp who="MONSIEUR BOIVIN"><speaker>MONSIEUR BOIVIN.</speaker>
 <p id="1">
 	<s id="1">Je le crois aussi.</s>
@@ -309,7 +312,8 @@
 	<s id="1">Bon, bon, avec Dame-Jeanne nous consolons.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN, à part.</speaker>
+<sp who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Avec Dame-Jeanne !</s>
 </p>
@@ -344,7 +348,8 @@
 	<s id="1">Quand on fait si mauvaise chère, il faut bien s'en récompenser d'un autre côté.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN, à part.</speaker>
+<sp who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Les libertins !</s>
 </p>
@@ -396,7 +401,8 @@
 	<s id="1">Non, cela ne paraissait pas trop.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN, à part.</speaker>
+<sp who="MONSIEUR D'AVARIN"><speaker>MONSIEUR D'AVARIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">Elle est grosse ! </s>
 	<s id="2">Ô Ciel !</s>
@@ -455,8 +461,9 @@
 <stage type="exit">Ils s'en vont.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur de La Rivière, Monsieur d'Avarin.
-</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur de La Rivière, Monsieur d'Avarin.
+
+</stage>
 <sp who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE.</speaker>
 <p id="1">
 	<s id="1">En vérité, Monsieur, je me reproche tout ce ce que vous me faites faire ; c'est une espèce d'inquisition, et vous allez faire décrier ce collège-ci, avec toutes les entraves que vous voulez que j'y mette.</s>
@@ -689,14 +696,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="carry/watch" who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE, son bonnet à la main, les yeux au ciel.</speaker>
+<sp who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE</speaker><stage type="carry/watch">, son bonnet à la main, les yeux au ciel.
+</stage>
 <p id="1">
 	<s id="1">Ô mon_Dieu ! </s>
 	<s id="2">Toi qui pardonnes au pécheur le plus endurci, daigne m'inspirer la conduite que je dois tenir ; fais que je ne précipite pas mes jugements, pour être jugé par toi comme j'aurai jugé les autres.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur de La Rivière, Monsieur Boivin, Monsieur Raisin.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur de La Rivière, Monsieur Boivin, Monsieur Raisin.
+</stage>
 <sp who="MONSIEUR BOIVIN"><speaker>MONSIEUR BOIVIN.</speaker>
 <p id="1">
 	<s id="1">Quand je t'ai dit qu'elle était bien plus grosse, La_Vigne avait bien raison.</s>
@@ -724,7 +733,8 @@
 	<s id="2">Ah, ah, ah !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE, à part.</speaker>
+<sp who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="">Le trouble qui suit le crime dans les coeurs qui n'en ont pas l'habitude, ne les laisse pas jouir d'une pareille gaieté.</s>
 </p>
@@ -744,7 +754,8 @@
 	<s id="1">Je ris encore, quand je pense à la crainte de La_Vigne, de rester dans le trou. Ils rient tous les deux.</s>
 </p>
 </sp>
-<sp stage="closer" who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE, s'approchant.</speaker>
+<sp who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE</speaker><stage type="closer">, s'approchant.
+</stage>
 <p id="10">
 	<s id="1">Eh bien, dites moi donc, mes amis, mes enfants, qui peut causer votre joie, exciter vos ris ? </s>
 	<s id="2">La vraie gaieté ne peut venir que de la paix intérieure de l'âme ; quoique je ne sois plus jeune, croyez-vous que je ne doive pas la partager ?</s>
@@ -791,7 +802,8 @@
 	<s id="1">Il est question d'une certaine Dame-Jeanne...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN, à part.</speaker>
+<sp who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">Ah ! </s>
 	<s id="2">Qui nous a découvert ?</s>
@@ -813,13 +825,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur de La Rivière, Monsieur de La Vigne, Monsieur Boivin, Monsieur Raisin.</head>
-<sp stage="toward" who="MONSIEUR DE LA VIGNE"><speaker>MONSIEUR DE LA VIGNE, à Monsieur Raisin.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur de La Rivière, Monsieur de La Vigne, Monsieur Boivin, Monsieur Raisin.
+</stage>
+<sp who="MONSIEUR DE LA VIGNE"><speaker>MONSIEUR DE LA VIGNE</speaker><stage type="toward">, à Monsieur Raisin.
+</stage>
 <p id="1">
 	<s id="1">Dame-Jeanne est tombée dans l'escalier, tout est perdu.</s>
 </p>
 </sp>
-<sp stage="low" who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN, bas.</speaker>
+<sp who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN</speaker><stage type="low">, bas.
+</stage>
 <p id="2">
 	<s id="1">Voilà Monsieur_le_Principal.</s>
 </p>
@@ -840,7 +855,8 @@
 	<s id="1">Monsieur...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MONSIEUR DE LA VIGNE"><speaker>MONSIEUR DE LA VIGNE, bas à Monsieur Raisin.</speaker>
+<sp who="MONSIEUR DE LA VIGNE"><speaker>MONSIEUR DE LA VIGNE</speaker><stage type="low/toward">, bas à Monsieur Raisin.
+</stage>
 <p id="6">
 	<s id="1">Laissez-moi répondre.</s>
 </p>
@@ -1046,7 +1062,8 @@
 	<s id="1">En vous remerciant, Monsieur.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MONSIEUR BOIVIN"><speaker>MONSIEUR BOIVIN, bas aux autres.</speaker>
+<sp who="MONSIEUR BOIVIN"><speaker>MONSIEUR BOIVIN</speaker><stage type="low/toward">, bas aux autres.
+</stage>
 <p id="46">
 	<s id="1">En vérité il est trop bon !</s>
 </p>
@@ -1098,7 +1115,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur de La Vigne, Monsieur Raisin, Monsieur Boivin.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur de La Vigne, Monsieur Raisin, Monsieur Boivin.
+</stage>
 <sp who="MONSIEUR RAISIN"><speaker>MONSIEUR RAISIN.</speaker>
 <p id="1">
 	<s id="1">Puisqu'il ne veut pas nous entendre, nous n'avons rien à nous reprocher.</s>
@@ -1147,7 +1165,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE. Monsieur de La Rivière, Monsieur d'Avarin, Monsieur Boivin, Monsieur de La Vigne, Monsieur Raisin.</head>
+<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE.</head><stage> Monsieur de La Rivière, Monsieur d'Avarin, Monsieur Boivin, Monsieur de La Vigne, Monsieur Raisin.
+</stage>
 <sp who="MONSIEUR DE LA RIVIÈRE"><speaker>MONSIEUR DE LA RIVIÈRE.</speaker>
 <p id="1">
 	<s id="1">Mais pourquoi me ramenez-vous ici ?</s>

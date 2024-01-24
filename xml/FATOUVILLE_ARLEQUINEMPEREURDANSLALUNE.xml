@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader> 
 		<fileDesc>
@@ -27,29 +27,30 @@
 	 <titlePart part="main">ARLEQUIN EMPEREUR DANS LA LUNE</titlePart>
  	<titlePart part="sub">COMÉDIE</titlePart>
 	</docTitle>
-	<docDate value="1725"></docDate>
-	<docAuthor id='FATOUVILLE, Anne Mauduit de'>Par Monsieur D***.</docAuthor>
+	<docDate value="1725"/>
+	<docAuthor id="FATOUVILLE, Anne Mauduit de">Par Monsieur D***.</docAuthor>
 	<docImprint>
 		<printer id="GARNIER">À TROYES, Chez GARNIER, Imprimeur-Libraire, rue du Temple.</printer>
 	</docImprint>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="ARLEQUIN" sex="1" type="H" statut='empereur' age='A' stat_amour='néant'>ARLEQUIN</role>, Empereur dans la Lune.</castItem>
-		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut='docteur' age='A' stat_amour='néant'>LE DOCTEUR</role>.</castItem>
-		<castItem><role id="SCARAMOUCHE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>SCARAMOUCHE</role>.</castItem>
-		<castItem><role id="LE COMMIS" sex="1" type="H" statut='commis' age='A' stat_amour='néant'>LE COMMIS</role>.</castItem>
-		<castItem><role id="LE COMMISSAIRE" sex="1" type="H" statut='commissaire' age='A' stat_amour='néant'>LE COMMISSAIRE</role>.</castItem>
-		<castItem><role id="LE CHEVALIER DU SOLEIL" sex="1" type="H" statut='chevalier' age='A' stat_amour='néant'>LE CHEVALIER DU SOLEIL</role>.</castItem>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>ISABELLE</role>, Fille du Docteur.</castItem>
-		<castItem><role id="EULARIA" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>EULARIA</role>, Nièce du Docteur.</castItem>
-		<castItem><role id="COLOMBINE" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>COLOMBINE</role>, servante du Docteur.</castItem>
-		<castItem><role id="PIERROT" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>PIERROT</role>, Valet du Docteur.</castItem>
+		<castItem><role id="ARLEQUIN" sex="1" type="H" statut="empereur" age="A" stat_amour="néant">ARLEQUIN</role>, Empereur dans la Lune.</castItem>
+		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
+		<castItem><role id="SCARAMOUCHE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">SCARAMOUCHE</role>.</castItem>
+		<castItem><role id="LE COMMIS" sex="1" type="H" statut="commis" age="A" stat_amour="néant">LE COMMIS</role>.</castItem>
+		<castItem><role id="LE COMMISSAIRE" sex="1" type="H" statut="commissaire" age="A" stat_amour="néant">LE COMMISSAIRE</role>.</castItem>
+		<castItem><role id="LE CHEVALIER DU SOLEIL" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">LE CHEVALIER DU SOLEIL</role>.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ISABELLE</role>, Fille du Docteur.</castItem>
+		<castItem><role id="EULARIA" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">EULARIA</role>, Nièce du Docteur.</castItem>
+		<castItem><role id="COLOMBINE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">COLOMBINE</role>, servante du Docteur.</castItem>
+		<castItem><role id="PIERROT" sex="1" type="H" statut="valet" age="A" stat_amour="néant">PIERROT</role>, Valet du Docteur.</castItem>
 
  </castList>
-	<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps=''>Le théâtre représente le Palais d'Harpagine.</set>
+	<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="">Le théâtre représente le Palais d'Harpagine.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ARLEQUIN EMPEREUR DANS LA LUNE.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Docteur, Pierrot. </head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Docteur, Pierrot. 
+</stage>
 <stage type="">Le Théâtre représente un Jardin, au fond duquel on voit une grande Lunette d'approche, montée sur son pied.</stage> 
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR. </speaker>
 <p id="1">
@@ -89,7 +90,8 @@
 	<s id="4">Et tais-toi encore une fois, tu feras mieux.</s>
 </p>
 </sp>
-<sp stage="despite" who="PIERROT"><speaker>PIERROT, se dépitant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="despite">, se dépitant.
+</stage>
 <p id="5">
 	<s id="1">Ma foi, je m'y ferais hacher.</s>
 </p>
@@ -166,7 +168,8 @@
 	<s id="5">Il n'y a mardi, pas de réplique à cela.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE DOCTEUR"><speaker>LE DOCTEUR, en riant.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="laugh">, en riant.
+</stage>
 <p id="18">
 	<s id="1">Ho, non assurément : Hé ! </s>
 	<s id="2">Dis-moi, Pierrot, In questo nostro mundo, y naît-il des vers ?</s>
@@ -182,7 +185,8 @@
 	<s id="1">S'ensuit-il pour cela chil nostro mundo sit verroso ?</s>
 </p>
 </sp>
-<sp stage="dream" who="PIERROT"><speaker>PIERROT, après avoir tant soit peu rêvé.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="dream">, après avoir tant soit peu rêvé.
+</stage>
 <p id="21">
 	<s id="1">Il y a quelque raison à cela.</s>
 </p>
@@ -206,12 +210,14 @@
 	<s id="4">Un charcutier me demande Olivette, et Colombine...</s>
 </p>
 </sp>
-<sp stage="listen/entrance" who="ARLEQUIN"><speaker>ARLEQUIN, paraît dans le fond du Théâtre, qui entendant nommer Colombine, dit : </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="listen/entrance">, paraît dans le fond du Théâtre, qui entendant nommer Colombine, dit : 
+</stage>
 <p id="25">
 	<s id="1">Colombia la mia Mestressa.</s>
 </p>
 </sp>
-<sp stage="toward" who="PIERROT"><speaker>PIERROT, au Docteur, croyant que c'est toujours lui qui parle.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="toward">, au Docteur, croyant que c'est toujours lui qui parle.
+</stage>
 <p id="26">
 	<s id="1">Vous vous trompez, Monsieur, Colombine est votre servante, et non pas votre maîtresse.</s>
 </p>
@@ -221,23 +227,27 @@
 	<s id="1">Et oui, Colombine ma servante.</s>
 </p>
 </sp>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, toujours derrière.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, toujours derrière.
+</stage>
 <p id="28">
 	<s id="1">Et bien, Colombine votre servante, qu'a-t-elle fait ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à Pierrot.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à Pierrot.
+</stage>
 <p id="29">
 	<s id="1">Elle n'a rien fait ; donne-toi patience. </s>
 	<s id="2">Elle m'est demandée en mariage par un apothicaire, un ...</s>
 </p>
 </sp>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, toujours derrière. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, toujours derrière. 
+</stage>
 <p id="30">
 	<s id="1">Haime.</s>
 </p>
 </sp>
-<sp stage="watch" who="PIERROT"><speaker>PIERROT, regardant le Docteur. </speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="watch">, regardant le Docteur. 
+</stage>
 <p id="31">
 	<s id="">Qu'est-ce, Monsieur, avez-vous la colique ?</s>
 </p>
@@ -257,24 +267,28 @@
 	<s id="1">Colombine m'est demandée par un apothicaire, un fermier et un boulanger.</s>
 </p>
 </sp>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, toujours derrière. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, toujours derrière. 
+</stage>
 <p id="35">
 	<s id="">Et un Régiment_de_cavalerie.</s>
 </p>
 </sp>
-<sp stage="slep/push" who="LE DOCTEUR"><speaker>LE DOCTEUR, donnant un soufflet à Pierrot, et le faisant tomber par terre.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="slep/push">, donnant un soufflet à Pierrot, et le faisant tomber par terre.
+</stage>
 <p id="36">
 	<s id="">E un cancher, che ti magni, dia vel in malhora, che fias tu maladet.</s>
 </p>
 </sp>
-<sp stage="stand" who="PIERROT"><speaker>PIERROT, après s'être relevé. </speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="stand">, après s'être relevé. 
+</stage>
 <p id="37">
 	<s id="1">Opération de la Lune ! </s>
 	<s id="2">Opération de la Lune !</s>
 </p>
 <stage type="exit">Et il s'en va.</stage>
 </sp>
-<sp stage="run" who="LE DOCTEUR"><speaker>LE DOCTEUR, faisant semblant de courir après. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="run">, faisant semblant de courir après. 
+</stage>
 <p id="38">
 	<s id="1">Attendis, attendis ... </s>
 	<s id="2">A-t-on jamais vu un plus insolent coquin ! </s>
@@ -285,17 +299,20 @@
 	<s id="7">L'Apothicaire, dit-on...</s>
 </p>
 </sp>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, derrière. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, derrière. 
+</stage>
 <p id="39">
 	<s id="1">Il est vilain.</s>
 </p>
 </sp>
-<sp stage="watch/axay" who="LE DOCTEUR"><speaker>LE DOCTEUR, regarde autour de lui et Arlequin d'abord se retire.</speaker> 
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="watch/axay">, regarde autour de lui et Arlequin d'abord se retire. 
+</stage> 
 <p id="40">
 	<s id="1">L'Apothicaire est assez à son aise, vous aussi.</s>
 </p>
 </sp>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, toujours derrière. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, toujours derrière. 
+</stage>
 <p id="41">
 	<s id="1">Le Boulanger est un fripon, et vous aussi.</s>
 </p>
@@ -317,7 +334,8 @@
 	<s id="2">Je suis mort.</s>
 </p>
 </sp>
-<sp stage="listen/dress" who="LE DOCTEUR"><speaker>LE DOCTEUR, las d'entendre parler et de ne voir personne, secoue sa Robe, son Manteau et son Chapeau, et puis dit. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="listen/dress">, las d'entendre parler et de ne voir personne, secoue sa Robe, son Manteau et son Chapeau, et puis dit. 
+</stage>
 <p id="45">
 	<s id="1">Ha ! </s>
 	<s id="2">Je comprends ce que c'est ; c'est la parole de Pierrot qui est demeurée à sa place.</s> 
@@ -326,7 +344,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="ARLEQUIN"><speaker>ARLEQUIN, seul.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Malheureux que je suis ! </s>
@@ -395,7 +414,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 <stage type="">Nota. Que dans cette Scène partout où la Phrase est suivie de petits points, cela est mis pour avertir qu'en ces endroits, Arlequin change de voix et de geste, tantôt se tirant d'un côté et tantôt se tirant de l'autre. Le sens des paroles le fait assez connaître : c'est pourquoi cela ne se trouve pas marqué en son lieu. Ceux qui ont vu cette Scène, conviendront que c'est une des plus plaisantes qu'on ait joué sur le Théâtre Italien.</stage>
 </sp>
 </div2>
-<div2 stage="dress" type="scene" n="3"><head>SCÈNE III. Pierrot en femme de Docteur, Arlequin en Fille de Chambre.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="dress"> Pierrot en femme de Docteur, Arlequin en Fille de Chambre. 
+</stage> 
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 <p id="1">
 	<s id="1">Bonjour, ma Mie.</s>
@@ -601,12 +621,14 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="4">Il faut arracher ce vilain poil-là. </s>
 </p>
 </sp>
-<sp stage="shout" who="PIERROT"><speaker>PIERROT, en criant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="shout">, en criant.
+</stage>
 <p id="35">
 	<s id="1">Haye, haye.</s>
 </p>
 </sp>
-<sp stage="entrance/watch" who="LE DOCTEUR"><speaker>LE DOCTEUR, arrive, qui voyant sa Femme, dit. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="entrance/watch">, arrive, qui voyant sa Femme, dit. 
+</stage>
 <p id="36">
 	<s id="1">Bonjour ma Femme.</s>
 </p>
@@ -616,7 +638,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Bonjour mon petit homme.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, à Pierrot.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, à Pierrot.
+</stage>
 <p id="38">
 	<s id="1">Qui est cet homme-là ?</s>
 </p>
@@ -627,12 +650,14 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">C'est mon mari.</s>
 </p>
 </sp>
-<sp stage="watch/toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, qui a observé les contorsions d'Arlequin, dit à Pierrot. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="watch/toward">, qui a observé les contorsions d'Arlequin, dit à Pierrot. 
+</stage>
 <p id="40">
 	<s id="1">Ma femme, qui est cette fille-là qui est avec vous ?</s>
 </p>
 </sp>
-<sp stage="toward" who="PIERROT"><speaker>PIERROT, au Docteur.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="toward">, au Docteur.
+</stage>
 <p id="41">
 	<s id="1">C'est une fille de chambre que je prends à mon service.</s>
 </p>
@@ -644,7 +669,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="3">C'est une coureuse, qui se promène tous les jours avec trente soldats devant le cheval de bronze.</s>
 </p>
 </sp>
-<sp stage="toward/anger" who="PIERROT"><speaker>PIERROT, à Arlequin d'un ton de colère.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="toward/anger">, à Arlequin d'un ton de colère.
+</stage>
 <p id="43">
 	<s id="1">Comment ! </s>
 	<s id="2">Coquine, vous osez me demander d'entrer à mon service ! </s>
@@ -652,7 +678,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="4">Sortez de chez moi tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="wave" who="ARLEQUIN"><speaker>ARLEQUIN, mettant ses deux mains sur ses hanches.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="wave">, mettant ses deux mains sur ses hanches.
+</stage>
 <p id="44">
 	<s id="1">Qui vous a dit cela, Madame ?</s>
 </p>
@@ -684,7 +711,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 <stage type="slap/fight">Il donne un soufflet à Arlequin, qui saute d'abord à sa coiffure, et la lui arrache. Ils se prennent aux cheveux, tombent par terre, se battent et finissent la scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Isabelle et Colombine.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Isabelle et Colombine.
+</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 <p id="1">
 	<s id="1">Est-il sous le Ciel une plus malheureuse personne ! </s>
@@ -901,15 +929,18 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Fermier de Domfront, Arlequin seul, Le Commis.</head>
-<sp stage="location" who="ARLEQUIN"><speaker>ARLEQUIN, dans un soufflet.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Fermier de Domfront, Arlequin seul, Le Commis.
+</stage>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="location">, dans un soufflet.
+</stage>
 <note type="L">Soufflet : Ancienne espèce de voiture à deux roues, fort légère, où il n'y avait place que pour une ou deux personnes, dont le dessus et le devant, étant de cuir ou de toile cirée, se levaient et se repliaient comme un soufflet dans le beau temps, et s'abaissaient et s'étendaient pendant la pluie. [L]</note>
 <p id="1">
 	<s id="1">Dia ! </s>
 	<s id="2">Ho !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMMIS"><speaker>LE COMMIS, à part.</speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Voici un homme avec un soufflet. </s>
 	<s id="2">Sachons s'il a payé ses droits au Bureau.</s>
@@ -930,7 +961,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Je vous demande en vertu de quoi vous avez un soufflet ?</s>
 </p>
 </sp>
-<sp stage="nervous" who="ARLEQUIN"><speaker>ARLEQUIN, d'un ton fâché. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="nervous">, d'un ton fâché. 
+</stage>
 <p id="6">
 	<s id="1">Je n'en ai jamais reçu, Monsieur, et prenez garde comme vous parlez.</s>
 </p>
@@ -985,7 +1017,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 <stage type="turn">Il se retourne, et voyant une charrette au lieu d'un soufflet, il se met à rire.</stage>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, au Commissaire.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, au Commissaire.
+</stage>
 <p id="15">
 	<s id="1">Monsieur_le_Commissaire, cet homme-là est fol au moins.</s>
 </p>
@@ -999,7 +1032,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 <stage type="laugh">Il rit.</stage>
 </sp>
-<sp stage="estonish" who="LE COMMIS"><speaker>LE COMMIS, tout étonné. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="estonish">, tout étonné. 
+</stage>
 <p id="17">
 	<s id="1">Monsieur_le_Commissaire, je vous demande pardon, je me suis mépris.</s>
 </p>
@@ -1014,7 +1048,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Et moi aussi, da.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMIS"><speaker>LE COMMIS, au Commissaire. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="toward">, au Commissaire. 
+</stage>
 <p id="20">
 	<s id="1">Cela est trop juste, Monsieur, combien vous faut-il ?</s>
 </p>
@@ -1029,7 +1064,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Et moi quinze francs.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMIS"><speaker>LE COMMIS, au Commissaire. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="toward">, au Commissaire. 
+</stage>
 <p id="23">
 	<s id="">Tenez, Monsieur, voilà un Louis d'or ; mais je vous prie de considérer que voilà un homme qui me demande quinze francs pour un moment qu'il s'est arrêté ici.</s>
 </p>
@@ -1039,7 +1075,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Il y en a plus de cinquante, des moments.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, à Arlequin. </speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="toward">, à Arlequin. 
+</stage>
 <p id="25">
 	<s id="1">Tais-toi : pourquoi demandes-tu quinze francs ?</s>
 </p>
@@ -1055,7 +1092,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Voyez le maraud : demander quinze francs pour un instant qu'il y a qu'il est ici !</s>
 </p>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, au Commissaire.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, au Commissaire.
+</stage>
 <p id="28">
 	<s id="1">En vérité, Monsieur, c'est un prix ordinaire. </s>
 	<s id="2">Voyez ailleurs, je ne vous demande que la préférence.</s>
@@ -1072,7 +1110,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 <stage type="exit">Et il s'en va.</stage>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, au Commissaire.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, au Commissaire.
+</stage>
 <p id="31">
 	<s id="1">St, st, Monsieur le Commissaire.</s>
 </p>
@@ -1081,23 +1120,27 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Allez, allez, il y aura du pain pour vous.</s>
 </p>
 </sp>
-<sp stage="touch" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, portant son doigt à sa bouche.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="touch">, portant son doigt à sa bouche.
+</stage>
 <p id="33">
 	<s id="1">Motus.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMIS"><speaker>LE COMMIS, à Arlequin. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="toward">, à Arlequin. 
+</stage>
 <p id="34">
 	<s id="1">Tiens voilà six écus ; mais tu me le paieras.</s>
 </p>
 </sp>
-<sp stage="get" who="ARLEQUIN"><speaker>ARLEQUIN, en prenant l'argent. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="get">, en prenant l'argent. 
+</stage>
 <note type="C">Gonesse : Ville au nord de Paris.</note>
 <p id="35">
 	<s id="1">Apprenez une autrefois à ne pas scandaliser le pain de Gonesse.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE COMMIS"><speaker>LE COMMIS, à part.</speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="36">
 	<s id="1">Je suis tout hors de moi. </s>
 	<s id="2">Je vois un homme dans un soufflet, je ne l'abandonne pas de vue, je viens dans cette place, et je trouve qu'au lieu d'un soufflet c'est une charrette de boulanger : non, il faut que tu sois un Diable pour...</s>
@@ -1108,13 +1151,15 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 <stage type="run/follow">Il court après le Commissaire, et aussitôt Arlequin se remet en boulanger et son soufflet se change en charrette.</stage>
 </sp>
-<sp stage="back" who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE, revenant.</speaker>
+<sp who="LE COMMISSAIRE"><speaker>LE COMMISSAIRE</speaker><stage type="back">, revenant.
+</stage>
 <p id="38">
 	<s id="1">Qu'est-ce ? </s>
 	<s id="2">Qu'y a-t-il de nouveau ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMIS"><speaker>LE COMMIS, au Commissaire. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="toward">, au Commissaire. 
+</stage>
 <p id="39">
 	<s id="1">Je vous avais bien dit, Monsieur, que j'avais vu un homme dans un soufflet.</s>
 </p>
@@ -1124,7 +1169,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Où est-il ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMMIS"><speaker>LE COMMIS, au Commissaire. </speaker>
+<sp who="LE COMMIS"><speaker>LE COMMIS</speaker><stage type="toward">, au Commissaire. 
+</stage>
 <p id="41">
 	<s id="1">Le voilà, voyez.</s>
 </p>
@@ -1141,7 +1187,8 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 	<s id="1">Quel équipage est-ceci ?</s>
 </p>
 </sp>
-<sp stage="watch" who="ARLEQUIN"><speaker>ARLEQUIN, regardant le Docteur.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="watch">, regardant le Docteur.
+</stage>
 <p id="44">
 	<s id="1">Bonjour mon ami.</s>
 </p>
@@ -1305,22 +1352,26 @@ et après avoir demeuré quelque temps dans cette posture, il dit : </stage>
 </p>
 <stage type="narration">Un Paysan de Domfront arrive sur ses entrefaites, et dit qu'il cherche le Docteur Balouard. Le Docteur se fait connaître, le Paysan lui rend une lettre de Colin, Fermier de Domfront. </stage>
 </sp>
-<sp stage="watch" who="ARLEQUIN"><speaker>ARLEQUIN, qui voit cela dit : </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="watch">, qui voit cela dit : 
+</stage>
 <p id="75">
 	<s id="1">Monsieur Le Docteur, dépêchez-moi, le mariage s'en va.</s>
 </p>
 <stage type="narration">Le Docteur lit la lettre, apprend que le fils de Colin est malade ; et qu'il ne peut se mette sitôt en chemin ; il jette en même tempos les yeux sur Arlequin qui lui soutient effrontément qu'il est le fils du Fermier de Domfront, et qu'il se porte bien. Le Docteur demande au Paysan s'il le connaît ; le Paysan répond que non, et que ce n'est pas là le Fils de son Maître.</stage>
 </sp>
-<sp stage="suprise/torn/toward" who="ARLEQUIN"><speaker>ARLEQUIN, surpris se tourne vers le Docteur, et dit : </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="suprise/torn/toward">, surpris se tourne vers le Docteur, et dit : 
+</stage>
 <p id="76">
 	<s id="1">Monsieur, je vous demande pardon, je croyais l'être.</s>
 </p>
 <stage type="threat/exit/desparate/entrance/explicit">Le Docteur et le Paysan le menacent et s'en vont. Arlequin désespéré reste ; Pasquariel arrive, qui le console, et qui le concerte en Ambassadeur de l'Empereur du Monde de la Lune, et ils s'en vont voyant arriver le Docteur.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. DE L'AMBASSADE ET 
-DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
-<sp stage="suffocating" who="ARLEQUIN"><speaker>ARLEQUIN, feignant d'être étouffé, et courant d'un bout du Théâtre à l'autre.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> DE L'AMBASSADE ET 
+DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.
+</stage>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="suffocating">, feignant d'être étouffé, et courant d'un bout du Théâtre à l'autre.
+</stage>
 <p id="1">
 	<s id="1">Eh ! </s>
 	<s id="2">Quelqu'un par charité, ne me pourrait-il point apprendre où demeure le Docteur_Grazian_Balouard.</s>
@@ -1330,7 +1381,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="">Pu, pu, à quinze sols le Docteur_Grazian_Balouard.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DOCTEUR"><speaker>LE DOCTEUR, à part. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="3">
 	<s id="1">Que veut dire ceci ?</s>
 </p>
@@ -1357,7 +1409,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Oui, ma foi, et un Empereur de qualité, il est noble comme le Roi.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DOCTEUR"><speaker>LE DOCTEUR à part. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="aparte"> à part. 
+</stage>
 <p id="8">
 	<s id="">Cela pourrait bien être, puisque la Lune est un monde comme le nôtre ; apparemment qu'il y a quelqu'un pour la gouverner.</s>
 </p>
@@ -1508,7 +1561,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Vous allez voir, Monsieur l'Empereur, par exemple, quand il veut manger, se met à une table vide, sur laquelle on ne sert jamais rien pendant que le repas dure.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE DOCTEUR"><speaker>LE DOCTEUR, en riant. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="laugh">, en riant. 
+</stage>
 <p id="29">
 	<s id="2">C'est le moyen de faire une bonne chère.</s>
 </p>
@@ -1619,7 +1673,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="19">Des guitares ?...</s> 
 </p>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, à chaque Instrument que le Docteur nomme, répond toujours.</speaker> 
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, à chaque Instrument que le Docteur nomme, répond toujours. 
+</stage> 
 <p id="47">
 	<s id="1">Non.</s>
 </p>
@@ -1696,13 +1751,15 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 <stage type="away">Il s'en va.</stage>
 </sp>
-<sp stage="alone" who="LE DOCTEUR"><speaker>LE DOCTEUR, seul. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="alone">, seul. 
+</stage>
 <p id="60">
 	<s id="1">Si ce que cet homme-là dit est vrai, quelle honneur pour ma fille ! </s>
 	<s id="2">Et quelle confusion pour ces ignorants, qui ne veulent pas que la Lune soit un monde habitable comme le nôtre !</s>
 </p>
 </sp>
-<sp stage="back/carry" who="ARLEQUIN"><speaker>ARLEQUIN, revient avec une Trompette.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="back/carry">, revient avec une Trompette.
+</stage>
 <p id="61">
 	<s id="1">Ça, Monsieur, vous allez être témoin de la vérité : Ôtez votre chapeau.</s>
 </p>
@@ -1728,12 +1785,14 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="3">Mais si vous vouliez lui ordonner qu'il me donnât six louis d'or pour mes peines, je vous serais bien obligé, Monseigneur.</s>
 </p>
 </sp>
-<sp who="LA VOIX"><speaker>UNE VOIX se fait entendre, qui dit. </speaker>
+<sp who="LA VOIX"><speaker>UNE VOIX</speaker><stage> se fait entendre, qui dit. 
+</stage>
 <p id="67">
 	<s id="1">Docteur, donne six Louis d'or à Arlequin, c'est l'Empereur de la Lune qui te l'ordonne.</s> 
 </p>
 </sp>
-<sp stage="estonish" who="LE DOCTEUR"><speaker>LE DOCTEUR, étonné. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="estonish">, étonné. 
+</stage>
 <p id="68">
 	<s id="1">Est-ce là Monsieur l'Empereur ?</s>
 </p>
@@ -1750,13 +1809,15 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 <stage type="narration">Il tire une bourse, en prends six Louis, et les donne à Arlequin ; Arlequin les prends, met dans sa poche, et après avoir observé un Diamant que le Docteur a à son doigt, il lui prend la main, et lui demande de que c'est que cela. Le Docteur répond que c'est un Diamant qui était à sa défunte femme, et qui vaut bien soixante Louis.</stage>
 </sp>
-<sp stage="think/wave" who="ARLEQUIN"><speaker>ARLEQUIN pense un peu, et puis levant sa Trompette en l'air, dit.</speaker> 
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="think/wave"> pense un peu, et puis levant sa Trompette en l'air, dit. 
+</stage> 
 <p id="71">
 	<s id="1">Monsieur l'Empereur, le Docteur m'a donné six Louis d'or, je vous en rends grâces très humbles. </s>
 	<s id="2">Mais si vouliez avoir la bonté de lui ordonner qu'il me donnât un Diamant de soixante Louis, qu'il a au doigt annulaire de la main gauche, je vous aurais double obligation, Monseigneur. </s>
 </p>
 </sp>
-<sp who="LA VOIX"><speaker>LA VOIX lui répond. </speaker>
+<sp who="LA VOIX"><speaker>LA VOIX</speaker><stage> lui répond. 
+</stage>
 <p id="72">
 	<s id="1">Docteur, donne ton diamant à Arlequin, c'est l'Empereur de la Lune qui te l'ordonne ;</s>
 </p>
@@ -1778,14 +1839,16 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="2">Écoutez, je vous ai donné avec plaisir les six Louis qu'il m'a ordonné ; mais pour la Bague je ne vous la donnerai pas ; elle était à ma défunte, et je la veux garder pour l'amour d'elle.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN d'un ton de colère. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage> d'un ton de colère. 
+</stage>
 <p id="76">
 	<s id="1">Vous ne voulez pas me la donner ? </s>
 	<s id="2">Hé bien gardez-la ; je m'en vais le dire à Monsieur l'Empereur, et le mariage sera rompu.</s> 
 </p>
 <stage type="play">Il veut parler avec sa trompette.</stage>
 </sp>
-<sp stage="pull" who="LE DOCTEUR"><speaker>LE DOCTEUR, le retenant. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="pull">, le retenant. 
+</stage>
 <p id="77">
 	<s id="1">Quoi ! </s>
 	<s id="2">Si je ne vous donne pas la bague, l'Empereur se fâchera, et il n'épousera pas ma fille ?</s>
@@ -1797,7 +1860,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="2">Assurément ; et vous perdrez la place du Scorpion dans le Zodiaque.</s>
 </p>
 </sp>
-<sp who="LE DOCTEUR"><speaker>LE DOCTEUR, à part. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage>, à part. 
+</stage>
 <p id="79">
 	<s id="1">Faire perdre la fortune à ma fille pour une bague de soixante Pistoles ! </s>
 	<s id="2">Non, ma chère femme le trouverait mauvais.</s>
@@ -1840,13 +1904,15 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Je m'en vais dire un petit mot à l'Empereur.</s>
 </p>
 </sp>
-<sp stage="pull" who="LE DOCTEUR"><speaker>LE DOCTEUR, l'en empêchant. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="pull">, l'en empêchant. 
+</stage>
 <p id="88">
 	<s id="1">Ho, non pas, s'il vous plaît.</s>
 </p>
 <stage type="push/exit">Il le pousse pour le faire s'en aller, et Arlequin se retire en riant.</stage> 
 </sp>
-<sp stage="alone" who="LE DOCTEUR"><speaker>LE DOCTEUR seul. </speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="alone"> seul. 
+</stage>
 <p id="89">
 	<s id="1">Et où est donc Pierrot à présent ? </s>
 	<s id="2">Je voudrais bien qu'il eut été présent à la conversation que je viens d'avoir avec Monsieur l'Ambassadeur. </s>
@@ -1855,8 +1921,10 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. DE L'APOTHICAIRE ; Arlequin en Apothicaire, Le Docteur.</head> 
-<sp stage="" who="ARLEQUIN"><speaker>ARLEQUIN sortant d'une chaise à porteur, qui en s'ouvrant représente la Boutique d'un Apothicaire. </speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> DE L'APOTHICAIRE ; Arlequin en Apothicaire, Le Docteur. 
+</stage> 
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type=""> sortant d'une chaise à porteur, qui en s'ouvrant représente la Boutique d'un Apothicaire. 
+</stage>
 <note type="L">Apozème : Terme de médecine. Décoction ou infusion d'une ou de plusieurs substances végétales, à laquelle on ajoute divers autres médicaments simples ou composés. [L]</note>
 <p id="1">
 	<s id="1">Je suis persuadé, Monsieur, qu'une chaise percée dénoterait mieux un apothicaire, qu'une chaise à porteur. </s>
@@ -1970,7 +2038,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="2">Entre nous, c'est la plus belle rose de notre bonheur ; et si nous la perdions, nous ferions très mal nos affaires ; car plus de Lavements, plus de bassins, plus d'apothicaire, plus de médecins.</s>
 </p>
 </sp>
-<sp stage="entrance" who="COLOMBINE"><speaker>COLOMBINE, arrivant. </speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="entrance">, arrivant. 
+</stage>
 <p id="18">
 	<s id="1">Monsieur, c'est une femme de quatre-vingt-treize ans, qui pleure son mari, et qui se plaint de vapeurs.</s>
 </p>
@@ -1990,7 +2059,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Colombine, dis-lui que je descends.</s>
 </p>
 </sp>
-<sp stage="watch" who="ARLEQUIN"><speaker>ARLEQUIN, apercevant Colombine. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="watch">, apercevant Colombine. 
+</stage>
 <p id="22">
 	<s id="1">Quoi ! </s>
 	<s id="2">Monsieur, c'est donc-là Colombine, celle que j'aime, et que je cherche en mariage ? </s>
@@ -2026,7 +2096,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="2">Approchez, Monsieur.</s>
 </p>
 </sp>
-<sp stage="wave" who="ARLEQUIN"><speaker>ARLEQUIN, après avoir fait la révérence à Colombine. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="wave">, après avoir fait la révérence à Colombine. 
+</stage>
 <p id="28">
 	<s id="é">Madame, mon esprit est tellement constipé dans le bas ventre de mon ignorance, qu'il me faudrait du sirop de vos lumières, pour liquéfier la matière de mes pensées.</s>
 </p>
@@ -2076,7 +2147,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Docteur, Eularia, Isabelle, Colombine, Scaramouche.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Docteur, Eularia, Isabelle, Colombine, Scaramouche. 
+</stage> 
 <sp who="ARLEQUIN"><speaker>ARLEQUIN.</speaker>
 <p id="1">
 	<s id="1">Comme ainsi soit, Docteur, que la Lune et l'Amour ont été de tous temps les ressorts principaux qui mouvent la tête des femmes, et quelques fois aussi celle des hommes, d'où il arrive que l'amour produit souvent le mariage, et le mariage produit presque toujours le croissant ; c'est ce qui m'a fait descendre de mon Empire ici-bas pour vous demander Isabelle en mariage, espérant sous votre bon plaisir, d'en frire bientôt une Pleine Lune, et ne doutant pas que par la suite de ce mariage, il n'en sorte une couvée de petits croissants. </s>
@@ -2220,12 +2292,14 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">C'est tout comme ici.</s>
 </p>
 </sp>
-<sp stage="watch/entrance" who="LE DOCTEUR"><speaker>LE DOCTEUR, voyant entrer un homme qui vient droit à Arlequin, lui dit.</speaker> 
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="watch/entrance">, voyant entrer un homme qui vient droit à Arlequin, lui dit. 
+</stage> 
 <p id="26">
 	<s id="1">Seigneur, à qui en veut cet homme-là ?</s>
 </p>
 </sp>
-<sp stage="turn" who="ARLEQUIN"><speaker>ARLEQUIN, se retournant, considère l'homme qui est si grotesquement habillé, et dit au Docteur.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="turn">, se retournant, considère l'homme qui est si grotesquement habillé, et dit au Docteur.
+</stage>
 <p id="27">
 	<s id="1">Monsieur le Docteur, n'est-ce pas là le Valet de carreau ?</s>
 </p>
@@ -2236,7 +2310,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 <stage type="give/escape">L'Homme donne un papier à Arlequin sans lui rien dire, et s'en va. </stage>
 </sp>
-<sp stage="watch/give" who="ARLEQUIN"><speaker>ARLEQUIN, déploie le papier, le regarde, le tourne de tous côtés, puis dit au Docteur.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="watch/give">, déploie le papier, le regarde, le tourne de tous côtés, puis dit au Docteur.
+</stage>
 <p id="3">
 	<s id="1">Monsieur le Docteur, savez-vous lire ?</s>
 </p>
@@ -2246,12 +2321,14 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Oui, Monseigneur.</s>
 </p>
 </sp>
-<sp stage="give" who="ARLEQUIN"><speaker>ARLEQUIN donnant le papier au Docteur.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="give"> donnant le papier au Docteur.
+</stage>
 <p id="5">
 	<s id="1">Lisez donc cela ; car nous autres Empereurs, nous ne nous amusons point à lire, cela est trop bourgeois pour nous. </s>
 </p>
 </sp>
-<sp stage="read" who="LE DOCTEUR"><speaker>LE DOCTEUR, après avoir lu tout bas, dit.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="read">, après avoir lu tout bas, dit.
+</stage>
 <p id="6">
 	<s id="1">Seigneur c'est un défi qu'on vous fait.</s>
 </p>
@@ -2280,7 +2357,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="">Sciaceo ed imaginario Imperator della Luna i tre Cavalleri del Sole, armati deguitissima segno, ti sanno intemdere, che emera follia il prétendere in Eularia, Isabella è Colombina, Lascia d'amarle o accigenti alla deffensa : </s>
 </p>
 </sp>
-<sp stage="proud" who="ARLEQUIN"><speaker>ARLEQUIN, d'un ton fier et résolu.</speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="proud">, d'un ton fier et résolu.
+</stage>
 <p id="11">
 	<s id="1">Messieurs ; vous venez faire les Gascons, à cause que vous êtes trois, et que je suis tout seul ; Mais voilà le Docteur et Scaramouche qui vont me seconder ; et après cela si vous voulez, nous trois contre vous trois. </s>
 </p>
@@ -2301,7 +2379,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </p>
 <stage type="">Les Tambours et les Trompettes recommencent à jouer, Arlequin, le Docteur et Scaramouche s'arment, se battent et sont vaincus. </stage>
 </sp>
-<sp stage="down" who="LE CHEVALIER"><speaker>UN CHEVALIER, à Arlequin qui est à terre.</speaker>
+<sp who="LE CHEVALIER"><speaker>UN CHEVALIER</speaker><stage type="down">, à Arlequin qui est à terre.
+</stage>
 <p id="15">
 	<s id="1">Arrenditi o sei morto?</s>
 </p>
@@ -2322,7 +2401,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 	<s id="1">Rinunzio Eularia, Isabelle, Colombine, le chien, le chat, les poux, les puces, les punaises, et toute la famille.</s>
 </p>
 </sp>
-<sp who="UN AUTRE CHEVALIER"><speaker>UN AUTRE CHEVALIER, s'avance, et dit à Arlequin. </speaker>
+<sp who="UN AUTRE CHEVALIER"><speaker>UN AUTRE CHEVALIER</speaker><stage>, s'avance, et dit à Arlequin. 
+</stage>
 <p id="19">
 	<s id="1">Cavalieri Codardo, prendi pur Colombina, c'ha me basta sol l'averra vinto.</s>
 </p> 
@@ -2331,7 +2411,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </div2>
 <div2 type="scene" n="9"><head>CHANSONS.</head>
 <stage type="title">CHANSON D'ARLEQUIN</stage>
-<sp who="UN CAPITAINE"><speaker>UN CAPITAINE dit à Arlequin.</speaker>
+<sp who="UN CAPITAINE"><speaker>UN CAPITAINE</speaker><stage> dit à Arlequin.
+</stage>
 <stage type="title">Sur l'Air : La verte Jeunesse.</stage>
 <poem type="chanson">
 <lg n="1">
@@ -2375,7 +2456,8 @@ DU VOYAGE D'ARLEQUIN DANS LA LUNE, Le Docteur, Arlequin.</head>
 </lg>
 </poem>
 </sp>
-<sp stage="toward" who="ARLEQUIN"><speaker>ARLEQUIN, répond au Capitaine. </speaker>
+<sp who="ARLEQUIN"><speaker>ARLEQUIN</speaker><stage type="toward">, répond au Capitaine. 
+</stage>
 <poem type="chanson">
 <lg n="1">
 	<l id="33">Ah ! Le bon apôtre !</l>

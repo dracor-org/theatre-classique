@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>LE MAGISTER, COMÉDIE.</title>
-				<author born='1838' born_location='Champigny-sur-Marne' death='1911' death_location='Paris' academie=''>HERVILLY, Ernest d'</author>	
+				<author born="1838" born_location="Champigny-sur-Marne" death="1911" death_location="Paris" academie="">HERVILLY, Ernest d'</author>	
 			</titleStmt>
 			<publicationStmt>	
 				<publisher>publié par Paul FIEVRE janvier 2017</publisher>
@@ -30,16 +30,16 @@
 			<titlePart type="sub">(235e ANNIVERSAIRE DE LA NAISSANCE DE MOLIÈRE) </titlePart>
 			<titlePart type="sub">Préface d'Auguste VITU</titlePart>
 		</docTitle> 
-		<docDate value='1887'>1887</docDate>
-		<docAuthor id="HERVILLY, Ernest d'" bio='hervilly'>ERNEST D'HERVILLY</docAuthor>
+		<docDate value="1887">1887</docDate>
+		<docAuthor id="HERVILLY, Ernest d'" bio="hervilly">ERNEST D'HERVILLY</docAuthor>
 		<docImprint>
 			<copyright>Tous droits réservés. </copyright>
-			<printer id='FRINZINE'>PARIS L. FRINZINE, ÉDITEUR  112, Boulevard Saint-Germain, 112</printer>
+			<printer id="FRINZINE">PARIS L. FRINZINE, ÉDITEUR  112, Boulevard Saint-Germain, 112</printer>
 		</docImprint>
 		<performance>	
-			<premiere date='' location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
-		<acheveImprime id='HERISSEY'>ÉVREUX, IMPRIMERIE DE CHARLES HÉRISSEY.</acheveImprime>
+		<acheveImprime id="HERISSEY">ÉVREUX, IMPRIMERIE DE CHARLES HÉRISSEY.</acheveImprime>
 		<div type="preface"><head>PRÉFACE </head>
 			<p>Le nombre des pièces de théâtre dont Molière a été le héros, le sujet ou le prétexte, est cent fois plus considérable que celui de ses chefs-d'oeuvre. Mis à la scène de son vivant par des critiques ou des jaloux, les apothéoses commencèrent au lendemain de sa mort, il y a deux cent quatorze ans. Depuis ce temps, nos grands théâtres littéraires n'ont pas laissé passer une seule fois l'anniversaire de sa naissance, le 15 janvier 1622, sans le célébrer par quelque hommage pieux, pièces de circonstance, compliments en vers, etc.. On en ferait une bibliothèque, qui comprendrait certainement plus de mille compositions diverses. Plusieurs d'entre elles, dues à de jeunes écrivains, qui, au début de leur carrière, se plaçaient sous le patronage du grand poète comique, ne sont pas indignes de survivre à l'occasion qui les vit naître.</p>
 			<p>Je dis cela particulièrement pour mon ami Ernest d'Hervilly qui, à cinq anniversaires différents, a célébré Molière, partageant le ferveur de son culte entre les deux temples consacrés, la Comédie-Française et l'Odéon.</p> 
@@ -54,9 +54,9 @@
 		</div>
 		<castList>
 			<head>PERSONNAGES.</head>
-			<castItem><role id="MOLIÈRE" sex="1" type='H' statut='bourgeois' age='J' statut_amoureux="néant">MOLIÈRE</role> ... M. C. COQUELIN.</castItem> 
-			<castItem><role id="GEORGES PINEL" sex="1" type='H' statut='magister' age='A' statut_amoureux="néant">GEORGES PINEL</role>, Magister ... M. COQUELIN-CADET.</castItem>
-			<castItem><role id="JEAN POQUELIN" sex="1" type='H' statut='tapissier' age='A' statut_amoureux="néant">JEAN POQUELIN</role>, maître tapissier ... M. Barré.</castItem> 
+			<castItem><role id="MOLIÈRE" sex="1" type="H" statut="bourgeois" age="J" statut_amoureux="néant">MOLIÈRE</role> ... M. C. COQUELIN.</castItem> 
+			<castItem><role id="GEORGES PINEL" sex="1" type="H" statut="magister" age="A" statut_amoureux="néant">GEORGES PINEL</role>, Magister ... M. COQUELIN-CADET.</castItem>
+			<castItem><role id="JEAN POQUELIN" sex="1" type="H" statut="tapissier" age="A" statut_amoureux="néant">JEAN POQUELIN</role>, maître tapissier ... M. Barré.</castItem> 
 		</castList>
 		<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">Paris, 1643.</set>
 		<note>Extrait de CINQ ANNIVERSAIRES DE MOLIÈRE 1874 - 1875 - 1877 - 1881 - 1886  COMÉDIES EN VERS.</note>
@@ -65,15 +65,19 @@
 <div1 type="act" n="1"><head>LE MAGISTER </head>
 <stage type="decor">La scène se passe dans l'école que dirige maître Georges Pinel. Un alphabet, une carte, un tableau noir, sont pendus à la muraille. 
 Bancs et tables. Chaise.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Maître Georges Pinel, Maître Jean Poquelin. </head>
-<sp type="toward/entrance" who="PINEL"><speaker>PINEL, à Poquelin, qu'un valet introduit. </speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Maître Georges Pinel, Maître Jean Poquelin. 
+</stage>
+<sp type="toward/entrance" who="PINEL"><speaker>PINEL</speaker><stage>, à Poquelin, qu'un valet introduit. 
+</stage>
 <stage type="drop">Il sert vivement un verre et une bouteille qu'il tenait à la main. </stage>
 	<l id="1">Maître Jean Poquelin ! - Eh ! Quel bon vent l'amène ? </l>
 </sp>
-<sp stage="sad" who="POQUELIN"><speaker>POQUELIN, l'air abattu. </speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="sad">, l'air abattu. 
+	</stage>
 	<l id="2" syll="6" part="i">Maître Georges Pinel !... </l>
 </sp>
-<sp stage="interrupt" who="PINEL"><speaker>PINEL, lui coupant la parole avec empressement. </speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="interrupt">, lui coupant la parole avec empressement. 
+	</stage>
 	<l id="2" syll="6" part="f">Çà, prenez donc la peine </l>
 	<l id="3">De vous seoir. - Ce fauteuil, - que vous m'avez vendu, </l>
 	<l id="4">(Siège excellent d'ailleurs !) à vos flancs est tout dû ! </l>
@@ -88,7 +92,8 @@ Bancs et tables. Chaise.</stage>
 <sp who="POQUELIN"><speaker>POQUELIN.</speaker>
 	<l id="9" syll="6" part="i">Maître Georges Pinel... </l>
 </sp>
-<sp stage="quick" who="PINEL"><speaker>PINEL, avec volubilité.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="quick">, avec volubilité.
+	</stage>
 	<l id="9" syll="6" part="f">Nous en ferons un homme ! </l>
 	<l id="10">Parlant grec comme à Sparte, et latin comme à Rome, </l>
 	<l id="11">Et qui fera, corbleu, sans aide son chemin ! </l>
@@ -117,7 +122,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="24">Ah ! Par exemple, non, je ne sais pas pourquoi </l>
 	<l id="25">Il a besoin de voir son ancien pédagogue... </l>
 </sp>
-<sp stage="desparate" who="POQUELIN"><speaker>POQUELIN, avec désespoir.</speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="desparate">, avec désespoir.
+	</stage>
 	<l id="26">D'un beau commencement détestable épilogue ! </l>
 	<l id="27">Je vous dis que mon fils est perdu ! - Votre ancien </l>
 	<l id="28" syll="6" part="i">Élève...</l>
@@ -146,7 +152,8 @@ Bancs et tables. Chaise.</stage>
 <sp who="PINEL"><speaker>PINEL.</speaker>
 	<l id="33" syll="3" part="i">Jean-Baptiste ? </l>
 </sp>
-<sp stage="pain" who="POQUELIN"><speaker>POQUELIN, douloureusement.</speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="pain">, douloureusement.
+	</stage>
 	<l id="33" syll="9" part="f">Hélas ! Oui... près la porte de Nesles, </l>
 	<l id="34" syll="6" part="i">Sur d'infâmes tréteaux ! </l>
 </sp>
@@ -212,8 +219,10 @@ Bancs et tables. Chaise.</stage>
 <stage type="exit">Maître Poquelin entre dans un cabinet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Maître Georges Pinel, Molière.</head>
-<sp stage="happy" who="MOLIÈRE"><speaker>MOLIÈRE, gai, l'oeil brillant de joie.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Maître Georges Pinel, Molière.
+</stage>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="happy">, gai, l'oeil brillant de joie.
+	</stage>
 	<l id="66" syll="6" part="i">Maître Pinel, bonjour. </l>
 </sp>
 <sp who="PINEL"><speaker>PINEL.</speaker>
@@ -224,17 +233,20 @@ Bancs et tables. Chaise.</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="67" syll="3" part="f">Vous savez ?... </l>
 </sp>
-<sp stage="serious" who="PINEL"><speaker>PINEL, prenant l'air grave.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="serious">, prenant l'air grave.
+	</stage>
 	<l id="68">Oui, monseigneur, je sais tout ce que vous rêvez...</l>
 	<l id="69">Et tout ce qui vous pend au nez en fin de compte... </l>
 	<l id="70">Une mort misérable après des jours de honte !... </l>
 </sp>
-<sp stage="estonish" who="MOLIÈRE"><speaker>MOLIÈRE, qui l'a écouté avec surprise.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="estonish">, qui l'a écouté avec surprise.
+	</stage>
 	<l id="71">Très bien, maître Pinel !... Je vous donne un bonsoir... </l>
 	<l id="72" syll="2" part="i">Adieu !... </l>
 <stage type="turn/away">Il tourne les talons.</stage>
 </sp>
-<sp stage="pull" who="PINEL"><speaker>PINEL, le rattrapant par l'épaule.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="pull">, le rattrapant par l'épaule.
+	</stage>
 	<l id="72" syll="10" part="f">Par Jupiter !... Venez donc vous asseoir </l>
 	<l id="73" syll="6" part="i">Et m'écouter, Monsieur...</l>
 </sp>
@@ -244,7 +256,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="75">Je serai, malgré tout et tous, comédien, </l>
 	<l id="76">Et cent mille discours ici ne feront rien... </l>
 </sp>
-<sp stage="pull" who="PINEL"><speaker>PINEL, le tenant par le collet.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="pull">, le tenant par le collet.
+	</stage>
 	<l id="77">Comédien ! - Corbleu, l'enviable carrière ! </l>
 	<l id="78">Mais, fou, regarde donc un instant en arrière ! </l>
 	<l id="79">Pense à ce que, là-bas, tu laisses pour jamais. </l>
@@ -263,7 +276,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="92">Il sera, tout meurtri par le destin moqueur, </l>
 	<l id="93">Au revers d'un fossé, mourant de faim sans doute !... </l>
 </sp>
-<sp stage="laugh" who="MOLIÈRE"><speaker>MOLIÈRE, riant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="94" syll="6" part="i">Bah ! - J'ai peu d'appétit. </l>
 <stage type="serious">Sérieusement.</stage>
 	<l id="94" syll="6" part="f">- Non, Je suivrai la route </l>
@@ -330,7 +344,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="149">La gloire ? - Est-ce la gloire, enfant, que ces nasardes, </l>
 	<l id="150" syll="9" part="i">Que ces coups de bâton ou de pied ?... </l>
 </sp>
-<sp stage="interrupt" who="MOLIÈRE"><speaker>MOLIÈRE, lui coupant la parole d'un geste.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="interrupt">, lui coupant la parole d'un geste.
+	</stage>
 	<l id="150" syll="3" part="f">Tu hasardes, </l>
 	<l id="151">En ce moment, des mots du vulgaire chéris ! </l>
 	<l id="152">La gloire d'un acteur de son bel art épris </l>
@@ -424,10 +439,12 @@ Bancs et tables. Chaise.</stage>
 	<l id="210">Oui, nous nous enivrons du rire de Thalie ! </l>
 	<l id="211">Oh ! Le joyeux métier que le nôtre ! </l>
 </sp>
-<sp stage="doubt" who="PINEL"><speaker>PINEL, dubitatif.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="doubt">, dubitatif.
+	</stage>
 	<l id="212" syll="2" part="i">Joyeux ? </l>
 </sp>
-<sp stage="enthousiasm" who="MOLIÈRE"><speaker>MOLIÈRE, avec fougue.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="enthousiasm">, avec fougue.
+	</stage>
 	<l id="212" syll="10" part="f">Eh ! Qui serait morose aux rayons des grands yeux </l>
 	<l id="213" syll="6" part="i">Si tendres, bleus et noirs ?... </l>
 </sp>
@@ -460,17 +477,20 @@ Bancs et tables. Chaise.</stage>
 	<l id="236">Quand tu la connaîtras, quand tu seras parmi </l>
 	<l id="237">Les joyeux compagnons de l'Illustre-Théâtre... </l>
 </sp>
-<sp stage="jump" who="PINEL"><speaker>PINEL, bondissant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="jump">, bondissant.
+	</stage>
 	<l id="238">Hein ! - Que dis-tu ! Qui moi ? Moi ? Que je couvre de plâtre </l>
 	<l id="239">Mon visage et devienne à mon tour bateleur ! </l>
 	<l id="240" syll="6" part="i">Moi ! Pinel ! Magister ! </l>
 </sp>
-<sp stage="quiet" who="MOLIÈRE"><speaker>MOLIÈRE, très naturellement.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="quiet">, très naturellement.
+	</stage>
 	<l id="240" syll="6" part="f">On connaît ta valeur, </l>
 	<l id="241">Ta science étendue et ta faconde habile, </l>
 	<l id="242" syll="6" part="i">C'est justement pourquoi... </l>
 </sp>
-<sp stage="stress" who="PINEL"><speaker>PINEL, se contenant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="stress">, se contenant.
+	</stage>
 	<l id="242" syll="6" part="f">Reste froide, ma bile ! </l>
 	<l id="243" syll="10" part="i">Voyons, mon cher enfant, tu te moques... </l>
 </sp>
@@ -478,7 +498,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="243" syll="2" part="f">Non pas ! </l>
 	<l id="244">On compte absolument sur ton concours, là-bas. </l>
 </sp>
-<sp stage="quiet" who="PINEL"><speaker>PINEL, avec plus de calme.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="quiet">, avec plus de calme.
+	</stage>
 	<l id="245">Tu veux !... Mais malheureux ! Mais c'est de la démence </l>
 	<l id="246">Après ce que j'ai dit... Quoi ! Que je recommence </l>
 	<l id="247">Ma vie et me transforme en bohémien errant ? </l>
@@ -502,7 +523,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="265">Rarement, n'est-ce pas ? J'en appelle à toi-même : </l>
 	<l id="266" syll="6" part="i">Là, de quoi dînes-tu ? </l>
 </sp>
-<sp stage="happy" who="MOLIÈRE"><speaker>MOLIÈRE, gaiement.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="happy">, gaiement.
+	</stage>
 	<l id="266" syll="6" part="f">Mais de ce que Dieu sème </l>
 	<l id="267">Pour les oiseaux et pour les faiseurs de sonnets. </l>
 </sp>
@@ -535,7 +557,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="280">Tenez, - C'était hier, - On partit le matin, </l>
 	<l id="281" syll="6" part="i">Libres et sans soucis... </l>
 </sp>
-<sp stage="sigh" who="PINEL"><speaker>PINEL, soupirant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="sigh">, soupirant.
+	</stage>
 	<l id="282">Ah ! Loin de moi ces rêves ! </l>
 	<l id="283">Ah ! M'en aller, au frais, et fuyant mes élèves, </l>
 	<l id="284">Boire modestement un petit coup de vin... </l>
@@ -552,7 +575,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="288">Dont le chaume étoilé d'iris en fleur sourit, </l>
 	<l id="289" syll="6" part="i">De loin au batelier... </l>
 </sp>
-<sp stage="sigh" who="PINEL"><speaker>PINEL, soupirant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="sigh">, soupirant.
+	</stage>
 	<l id="289" syll="6" part="f">Que ce toit a d'esprit ! </l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -604,10 +628,12 @@ Bancs et tables. Chaise.</stage>
 	<l id="326">Et j'avais dans les mains, pensive arrière-garde, </l>
 	<l id="327">Le vinaigre rosat, le poivre et la moutarde ! </l>
 </sp>
-<sp stage="sweet" who="PINEL"><speaker>PINEL, salivant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="sweet">, salivant.
+	</stage>
 	<l id="328" syll="6" part="i">Ô délices ! Tais-toi ! </l>
 </sp>
-<sp stage="away" who="MOLIÈRE"><speaker>MOLIÈRE, poursuivant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="away">, poursuivant.
+	</stage>
 	<l id="328" syll="6" part="f">Voici le cabaret... </l>
 </sp>
 <sp who="PINEL"><speaker>PINEL.</speaker>
@@ -629,7 +655,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="341">Toi, si tu le voulais, et parfait, c'est certain ! </l>
 	<l id="342">Ton éloquence est grande et tu sais du latin. </l>
 </sp>
-<sp stage="think" who="PINEL"><speaker>PINEL, réfléchissant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="think">, réfléchissant.
+	</stage>
 	<l id="343" syll="2" part="i">C'est vrai. </l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -651,13 +678,16 @@ Bancs et tables. Chaise.</stage>
 	<l id="353">Rien de vivifiant, et jamais un plaisir ! </l>
 	<l id="354">L'occasion est bonne, allons, viens la saisir ! </l>
 </sp>
-<sp stage="stress" who="PINEL"><speaker>PINEL, très ébranlé.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="stress">, très ébranlé.
+	</stage>
 	<l id="355" syll="6" part="i">Au fait et pourquoi pas ? </l>
 </sp>
-<sp stage="stress" who="MOLIÈRE"><speaker>MOLIÈRE, insistant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="stress">, insistant.
+	</stage>
 	<l id="355" syll="6" part="f">Ah ! Peut-être... ton âge ?... </l>
 </sp>
-<sp stage="offended" who="PINEL"><speaker>PINEL, piqué.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="offended">, piqué.
+	</stage>
 	<l id="356">Mon âge ? Eh ! Que dis-tu ? Mais je fais bon ménage </l>
 	<l id="357">Avec mes quarante ans... à peine... et j'ai bon oeil. </l>
 	<l id="358">Mon âge ! - Je n'ai pas commandé mon cercueil ! </l>
@@ -667,8 +697,10 @@ Bancs et tables. Chaise.</stage>
 <stage type="exit">Jean Poquelin sort du cabinet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les Mêmes, Jean Poquelin.</head>
-<sp stage="touch" who="POQUELIN"><speaker>POQUELIN, se frottant les yeux, à Pinel.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les Mêmes, Jean Poquelin.
+</stage>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="touch">, se frottant les yeux, à Pinel.
+	</stage>
 	<l id="361" syll="6" part="f">Cordieu, Maître Pinel ! </l>
 	<l id="362">Ah çà ! Votre sermon est-il donc éternel ? </l>
 	<l id="363">Ou bien m'oubliez-vous dans cette affreuse salle </l>
@@ -681,17 +713,21 @@ Bancs et tables. Chaise.</stage>
 <sp who="PINEL"><speaker>PINEL.</speaker>
 	<l id="369" syll="6" part="i">Oh ! - Je n'y pensais plus ! </l>
 </sp>
-<sp stage="shake" who="POQUELIN"><speaker>POQUELIN, le secouant.</speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="shake">, le secouant.
+	</stage>
 	<l id="369" syll="6" part="f">Êtes-vous endormi ? </l>
 	<l id="370" syll="6" part="i">Corbleu ! Répondez-moi ! </l>
 </sp>
-<sp stage="hesitate" who="PINEL"><speaker>PINEL, hésitant.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="hesitate">, hésitant.
+	</stage>
 	<l id="370" syll="4" part="m">Ma foi, mon bon ami... </l>
 </sp>
-<sp stage="hugh" who="MOLIÈRE"><speaker>MOLIÈRE, lui tendant les bras.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="hugh">, lui tendant les bras.
+	</stage>
 	<l id="370" syll="6" part="f">Mon père ! </l>
 </sp>
-<sp stage="push" who="POQUELIN"><speaker>POQUELIN, le repoussant.</speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="push">, le repoussant.
+	</stage>
 	<l id="371">Non, monsieur ! À moins que ce digne homme </l>
 	<l id="372">Ne vous ait converti, - Je vous regarde comme </l>
 	<l id="373">Un étranger... Allez avec vos baladins ! </l>
@@ -709,7 +745,8 @@ Bancs et tables. Chaise.</stage>
 	<l id="376" syll="6" part="f">Monsieur, demain je signe </l>
 	<l id="377" syll="11" part="i">Un long engagement avec votre fils. </l>
 </sp>
-<sp stage="estonish" who="POQUELIN"><speaker>POQUELIN, stupéfait.</speaker>
+<sp who="POQUELIN"><speaker>POQUELIN</speaker><stage type="estonish">, stupéfait.
+	</stage>
 	<l id="377" syll="1" part="f">Quoi ! </l>
 	<l id="378" syll="6" part="i">Vous vous faites acteur ! </l>
 </sp>
@@ -729,7 +766,8 @@ Bancs et tables. Chaise.</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="380" syll="6" part="i">Mon père ! Un mot ! Pardon ! </l>
 </sp>
-<sp stage="quiet" who="PINEL"><speaker>PINEL, avec plus de calme.</speaker>
+<sp who="PINEL"><speaker>PINEL</speaker><stage type="quiet">, avec plus de calme.
+	</stage>
 	<l id="380" syll="2" part="m">Monsieur ! </l>
 </sp>
 <sp who="POQUELIN"><speaker>POQUELIN.</speaker>
@@ -737,7 +775,8 @@ Bancs et tables. Chaise.</stage>
 <stage type="exit/furious">Sortie furieuse de Poquelin.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Maître Georges Pinel, Molière.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Maître Georges Pinel, Molière.
+</stage>
 <sp who="PINEL"><speaker>PINEL.</speaker>
 	<l id="381">Cet homme assurément n'aime pas les beaux-arts. </l>
 	<l id="382">Bah ! Vive le théâtre et ses joyeux hasards ! </l>

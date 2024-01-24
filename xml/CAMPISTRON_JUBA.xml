@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>vers</type>
 			<periode>1681-1690</periode>
 			<taille>1000-1250</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,23 +28,24 @@
 			<titlePart type="main">JUBA, ROI DE MAURITANIE</titlePart>
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1685'>1685</docDate>
-		<docAuthor id='CAMPISTRON, Jean Galbert de' bio='campistron'>CAMPISTRON</docAuthor>
+		<docDate value="1685">1685</docDate>
+		<docAuthor id="CAMPISTRON, Jean Galbert de" bio="campistron">CAMPISTRON</docAuthor>
 		<castList><head>ACTEURS</head>
-			<castItem><role id="JUBA" sex="1" type="H" statut="roi" age="A" stat_amour='néant'>JUBA</role>, Roi de Maurétanie.</castItem>
-			<castItem><role id="BARCÉ" sex="2" type="H" statut="roi" age="A" stat_amour='néant'>BARCÉ</role>, Reine de Maurétanie, femme de Juba.</castItem>
-			<castItem><role id="PETREIUS" sex="1" type="H" statut="général" age="A" stat_amour='néant'>PETREIUS</role>, Général romain du parti de Pompée.</castItem>
-			<castItem><role id="OPPIUS" sex="1" type="H" statut="général" age="A" stat_amour='néant'>OPPIUS</role>, Général romain envoyé de César à Juba.</castItem>
-			<castItem><role id="THÉOCLE" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>THÉOCLE</role>, Prince du sang de Maurétanie.</castItem>
-			<castItem><role id="NARBAL" sex="1" type="H" statut="confident" age="A" stat_amour='néant'>NARBAL</role>, Confident de Théocle.</castItem>
-			<castItem><role id="MÉROPE" sex="2" type="H" statut="confident" age="A" stat_amour='néant'>MÉROPE</role>, Confidente de Barcé.</castItem>
+			<castItem><role id="JUBA" sex="1" type="H" statut="roi" age="A" stat_amour="néant">JUBA</role>, Roi de Maurétanie.</castItem>
+			<castItem><role id="BARCÉ" sex="2" type="H" statut="roi" age="A" stat_amour="néant">BARCÉ</role>, Reine de Maurétanie, femme de Juba.</castItem>
+			<castItem><role id="PETREIUS" sex="1" type="H" statut="général" age="A" stat_amour="néant">PETREIUS</role>, Général romain du parti de Pompée.</castItem>
+			<castItem><role id="OPPIUS" sex="1" type="H" statut="général" age="A" stat_amour="néant">OPPIUS</role>, Général romain envoyé de César à Juba.</castItem>
+			<castItem><role id="THÉOCLE" sex="1" type="H" statut="prince" age="A" stat_amour="néant">THÉOCLE</role>, Prince du sang de Maurétanie.</castItem>
+			<castItem><role id="NARBAL" sex="1" type="H" statut="confident" age="A" stat_amour="néant">NARBAL</role>, Confident de Théocle.</castItem>
+			<castItem><role id="MÉROPE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">MÉROPE</role>, Confidente de Barcé.</castItem>
 		</castList>
 	<set location="Zama" country="Tunisie" periode="IIIème" gps="36.111859, 9.285454">La scène est à Zama, capitale de Mauritanie dans le palais de Juba.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="THÉOCLE"><speaker>THÉOCLE, seul.</speaker>
+<sp who="THÉOCLE"><speaker>THÉOCLE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1">Théocle, que fais-tu ? Quel mouvement t'agite ?</l>
 	<l id="2">Dans quels vastes projets, ton coeur se précipite ?</l>
 	<l id="3">Ne peux-tu réprimer la hauteur de tes voeux</l>
@@ -57,7 +58,8 @@
 	<l id="10">Il vient, expliquons-nous et rompons le silence.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Théocle, Narbal.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Théocle, Narbal.
+</stage>
 <sp who="THÉOCLE"><speaker>THÉOCLE.</speaker>
 	<l id="11">La fortune, Narbal, répond à mes souhaits</l>
 	<l id="12">Puisqu'enfin Scipion et Juba sont défaits,</l>
@@ -164,7 +166,8 @@
 	<l id="94">Et tu verras après... Mais la reine s'avance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Barcé, Théocle, Mérope, Narbal.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Barcé, Théocle, Mérope, Narbal.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="95">Prince, me fuyez vous ? dans l'état où je suis ?</l>
 	<l id="96">Dieux ! Vous me laissez en proie à mes ennuis,</l>
@@ -271,7 +274,8 @@
 	<l id="186">Et tant que je vivrai, ne craignez rien Madame.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Barcé, Mérope.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Barcé, Mérope.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="187">Que je ne craigne rien ! Ah ! Comment penses-tu</l>
 	<l id="188">Tremblant au fond de l'âme, affermir ma vertu ?</l>
@@ -408,7 +412,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Barcé, Mérope.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Barcé, Mérope.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="299">Je l'avais bien prévu : de nos malheurs troublé,</l>
 	<l id="300">Caton au désespoir s'est lui-même immolé,</l>
@@ -477,7 +482,8 @@
 	<l id="355" syll="6" part="i">Mais Théocle paraît...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Barcé, Théocle, Mérope, Narbal.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Barcé, Théocle, Mérope, Narbal.
+</stage>
 <sp who="THÉOCLE"><speaker>THÉOCLE.</speaker>
 	<l id="355" syll="6" part="f">Madame, grâce aux dieux,</l>
 	<l id="356">Juba doit dans une heure arriver dans ces lieux.</l>
@@ -520,7 +526,8 @@
 	<l id="390">En cherchant, sur ses pas, la mort ou la victoire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Théocle, Narbal.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Théocle, Narbal.
+</stage>
 <sp who="THÉOCLE"><speaker>THÉOCLE.</speaker>
 	<l id="391">Oui, je l'imiterai. Tu n'en douteras pas.</l>
 	<l id="392">Je chercherai la gloire ailleurs que sur ses pas.</l>
@@ -624,7 +631,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="NARBAL"><speaker>NARBAL, seul.</speaker>
+<sp who="NARBAL"><speaker>NARBAL</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="475">Quel étrange projet ! Ciel qu'ai-je entendu ?</l>
 	<l id="476">Je ne puis rassurer mon esprit éperdu.</l>
 	<l id="477">Que va-t-il faire hélas ! Que veut-il que je fasse ?</l>
@@ -669,7 +677,8 @@
 </div1>
 <div1 type="act" n="2"><head>ACTE III</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="BARCÉ"><speaker>BARCÉ, seule.</speaker>
+<sp who="BARCÉ"><speaker>BARCÉ</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="513">J'erre de toutes parts, inquiète et tremblante.</l>
 	<l id="514">De moment en moment, ma tristesse augmente.</l>
 	<l id="515">J'entends un bruit confus. Une secrète horreur</l>
@@ -686,7 +695,8 @@
 	<l id="525">Mérope ne revient point... Mais je la vois paraître.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Barcé, Mérope.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Barcé, Mérope.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="526">Mérope, que sait-on ? Qu'as-tu pu connaître ?</l>
 </sp>
@@ -734,7 +744,8 @@
 	<l id="553" syll="6" part="i">Tu vois qu'on vient à nous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Juba, Barcé, Mérope.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Juba, Barcé, Mérope.
+</stage>
 <sp who="MÉROPE"><speaker>MÉROPE.</speaker>
 	<l id="553" syll="6" part="f">Madame, c'est le Roi.</l>
 </sp>
@@ -876,7 +887,8 @@
 	<l id="659" syll="6" part="i">Mais je vois Petreius...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Juba, Barcé, Petreius, Narbal.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Juba, Barcé, Petreius, Narbal.
+</stage>
 <sp who="JUBA"><speaker>JUBA.</speaker>
 	<l id="659" syll="6" part="f">Venez, venez Seigneur,</l>
 	<l id="660">Recevoir le tribut qu'on doit à votre coeur,</l>
@@ -915,7 +927,8 @@
 	<l id="688">On peut se relever à force de vertu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Juba, Barcé, Petreius, Mérope, Narbal.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Juba, Barcé, Petreius, Mérope, Narbal.
+</stage>
 <sp who="NARBAL"><speaker>NARBAL.</speaker>
 	<l id="689" syll="6" part="i">Tout est tranquille Seigneur.</l>
 </sp>
@@ -943,7 +956,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Juba, Petreius.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Juba, Petreius.
+</stage>
 <sp who="JUBA"><speaker>JUBA.</speaker>
 	<l id="703">Vous le voyez Seigneur, nous nous flattions en vain</l>
 	<l id="704">Que César, retardé plus longtemps en chemin,</l>
@@ -1033,7 +1047,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="JUBA"><speaker>JUBA, seul.</speaker>
+<sp who="JUBA"><speaker>JUBA</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="770">Moi je le jure encore et vous pouvez me croire :</l>
 	<l id="771">Que je suivrais toujours les conseils de la gloire.</l>
 	<l id="772">Mais qu'elle va me coûter d'effroyables tourments !</l>
@@ -1047,7 +1062,8 @@
 	<l id="778">Elle vient. Rappelons ma force et mon courage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Juba, Barcé.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Juba, Barcé.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="779">En quels nouveaux périls le destin vous engage ?</l>
 	<l id="780">Faut-il Seigneur qu'à peine arrivé dans ces lieux,</l>
@@ -1181,7 +1197,8 @@
 	<l id="878" syll="2" part="i">Pourquoi...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Juba, Barcé, Petreius.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Juba, Barcé, Petreius.
+</stage>
 <sp who="PETREIUS"><speaker>PETREIUS.</speaker>
 	<l id="878" syll="10" part="f">Venez, Seigneur, il est temps de marcher.</l>
 	<l id="879">De ces murs, les Romains viennent de s'approcher,</l>
@@ -1203,7 +1220,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE V.</head>
-<sp stage="alone" who="BARCÉ"><speaker>BARCÉ, seule.</speaker>
+<sp who="BARCÉ"><speaker>BARCÉ</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="888">Il me quitte ! Il me fuit ! Et je me vois réduite</l>
 	<l id="889">Au lieu de la blâmer, d'applaudir à sa fuite.</l>
 	<l id="890">S'il montrait pour la gloire une moins vive ardeur,</l>
@@ -1223,7 +1241,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Barcé, Mérope.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Barcé, Mérope.
+</stage>
 <sp who="MÉROPE"><speaker>MÉROPE.</speaker>
 	<l id="903">Oui, Madame, le ciel à nos désirs propice,</l>
 	<l id="904">Nous donne la victoire et soutient la justice.</l>
@@ -1253,7 +1272,8 @@
 	<l id="923">Que portent jusqu'aux cieux la commune allégresse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Juba, Barcé, Mérope.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Juba, Barcé, Mérope.
+</stage>
 <sp who="JUBA"><speaker>JUBA.</speaker>
 	<l id="924">Le ciel répond, Madame, à l'ardeur qui me presse</l>
 	<l id="925">Et me renvoie à vous plus content que jamais.</l>
@@ -1275,7 +1295,8 @@
 	<l id="938">Et je crois n'avoir plus à répandre des pleurs.1</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Juba, Barcé, Narbal, Mérope.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Juba, Barcé, Narbal, Mérope.
+</stage>
 <sp who="NARBAL"><speaker>NARBAL.</speaker>
 	<l id="939">Oppius est déjà dans la salle prochaine.</l>
 	<l id="940">Seigneur, César l'envoie et Petreius l'amène.</l>
@@ -1298,7 +1319,8 @@
 	<l id="950">Mais laissez-nous, Madame, il le faut écouter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Juba, Petreius, Oppius, Narbal.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Juba, Petreius, Oppius, Narbal.
+</stage>
 <sp who="PETREIUS"><speaker>PETREIUS.</speaker>
 	<l id="951">Voici le digne ami, Seigneur, et le seul homme</l>
 	<l id="952">Dont je pleurai l'absence en m'éloignant de Rome.</l>
@@ -1412,7 +1434,8 @@
 	<l id="1025" syll="9" part="f">Allons donc, je vais vous reconduire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Juba, Narbal.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Juba, Narbal.
+</stage>
 <sp who="JUBA"><speaker>JUBA.</speaker>
 	<l id="1026">Voici, mon cher Narbal, un cruel coup du sort,</l>
 	<l id="1027">Mais pour défier son plus barbare effort,</l>
@@ -1429,7 +1452,8 @@
 	<l id="1034" syll="4" part="i">Je vois la Reine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Juba, Barcé, Narbal.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Juba, Barcé, Narbal.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="1034" syll="8" part="f">Ah bien, Seigneur, qu'avez-vous fait ?</l>
 	<l id="1035">Des offres de César, êtes-vous satisfait ?</l>
@@ -1500,7 +1524,8 @@
 	<l id="1075">Et par vos voeux, pour nous intéressez les dieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Barcé, Narbal.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Barcé, Narbal.
+</stage>
 <sp who="NARBAL"><speaker>NARBAL.</speaker>
 	<l id="1076">Oh magnanime effet d'un courage suprême !</l>
 	<l id="1077">Frappé de tant de maux, il est toujours le même.</l>
@@ -1529,7 +1554,8 @@
 	<l id="1094">Il se forme surtout un funeste présage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Barcé, Narbal, Mérope.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Barcé, Narbal, Mérope.
+</stage>
 <sp who="BARCÉ"><speaker>BARCÉ.</speaker>
 	<l id="1095">Que m'apprends-tu Mérope et que deviendrons-nous ?</l>
 </sp>

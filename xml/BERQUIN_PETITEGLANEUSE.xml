@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -28,19 +28,19 @@
 		<docTitle>
 			<titlePart type="main">LA PETITE GLANEUSE</titlePart>
 		</docTitle> 
-		<docDate value='1873'>1873 TOUS DROITS RÉSERVÉS.</docDate>
-		<docAuthor id='BERQUIN, Arnaud'>tirés de BARQUIN</docAuthor>
+		<docDate value="1873">1873 TOUS DROITS RÉSERVÉS.</docDate>
+		<docAuthor id="BERQUIN, Arnaud">tirés de BARQUIN</docAuthor>
 		<docImprint>
 			<editor id="HACHETTE">PARIS LIBRAIRIE DE L4. HACHETTE ET Cie, rue Pierre_Sarrazin, n°14.</editor>
-			<printer id='LAHURE'>PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
+			<printer id="LAHURE">PARIS. - TYPOGRAPHIE DE CH. LAHURE ET Cie, rue des Flaurs, 9 et de l'Ouest 21.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="MONSIEUR DE BEAUVAL" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE BEAUVAL</role>.</castItem>
-		<castItem><role id="MARCELLIN" sex="1" type="H" statut="aristocrate" age="E" stat_amour='néant'>MARCELLIN</role>, son fils.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="aristocrate" age="E" stat_amour='néant'>HENRIETTE</role>, sa fille.</castItem>
-		<castItem><role id="MADAME DE JOINVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME DE JOINVILLE</role>.</castItem>
-		<castItem><role id="ÉMILIE" sex="1" type="H" statut="bourgeois" age="E" stat_amour='néant'>ÉMILIE</role>, sa fille.</castItem>
-		<castItem><role id="HUBERT" sex="1" type="H" statut="garde-chasse" age="A" stat_amour='néant'>HUBERT</role>, garde-chasse de Monsieur de Beauval.</castItem>
+		<castItem><role id="MONSIEUR DE BEAUVAL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE BEAUVAL</role>.</castItem>
+		<castItem><role id="MARCELLIN" sex="1" type="H" statut="aristocrate" age="E" stat_amour="néant">MARCELLIN</role>, son fils.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="aristocrate" age="E" stat_amour="néant">HENRIETTE</role>, sa fille.</castItem>
+		<castItem><role id="MADAME DE JOINVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE JOINVILLE</role>.</castItem>
+		<castItem><role id="ÉMILIE" sex="1" type="H" statut="bourgeois" age="E" stat_amour="néant">ÉMILIE</role>, sa fille.</castItem>
+		<castItem><role id="HUBERT" sex="1" type="H" statut="garde-chasse" age="A" stat_amour="néant">HUBERT</role>, garde-chasse de Monsieur de Beauval.</castItem>
 	</castList>
 	<set location="Campagne" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans un champ qu'on vient de moissonner, et sur lequel il y a encore plusieurs monceaux de gerbes. On voit d'un côté Je château de M. de Beauval, de l'autre des cabanes de paysans, et en général tout ce qui peut décorer un séjour champêtre.</set>
 	<note>Texte extrait de "Choix de petits drames et de contes tirés de Berquin, illustrée de 36 vignettes" par Foulquié et Forest, Paris, Librairie de L. Hachette et Cie, 1861. pp 69-103.</note>
@@ -48,7 +48,8 @@
 <body>
 <div1 type="acte" n="1"><head>LA PETITE GLANEUSE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp who="ÉMILIE"><speaker>ÉMILIE, tenant des deux mains, parles anses, une corbeille pleine d'épis. Elle va s'asseoir auprès d'une gerbe.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage>, tenant des deux mains, parles anses, une corbeille pleine d'épis. Elle va s'asseoir auprès d'une gerbe.
+</stage>
 <p id="1">
  	<s id="1">Allons, voilà qui n'est pas trop mal commencé. </s>
  	<s id="2">Quelle joie pour ma pauvre mère !</s>
@@ -73,8 +74,10 @@
 <stage type="turn/away">Elle retourne à sa corbeille, la reprend et veut s'en aller.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Émilie, Hubert.</head>
-<sp who="HUBERT"><speaker>HUBERT, l'arrêtant par le bras. </speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Émilie, Hubert.
+</stage>
+<sp who="HUBERT"><speaker>HUBERT</speaker><stage>, l'arrêtant par le bras. 
+</stage>
 <p id="1">
  	<s id="1">Ah ! </s>
 	<s id="2">Petite voleuse, je vous y prends !</s>
@@ -172,7 +175,8 @@
 	<s id="2">Allons, suis-moi dans le chenil.</s>
 </p>
 </sp>
-<sp stage="frighten" who="ÉMILIE"><speaker>ÉMILIE, avec effroi. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="frighten">, avec effroi. 
+</stage>
 <p id="17">
 	<s id="1">Comment ! </s>
 	<s id="2">Que dites-vous, mon brave homme ?</s>
@@ -202,7 +206,8 @@
 	<s id="2">La paroisse en serait débarrassée.</s>
 </p>
 </sp>
-<sp stage="cry" who="ÉMILIE"><speaker>ÉMILIE se met à pleurer. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="cry"> se met à pleurer. 
+</stage>
 <p id="21">
  	<s id="1">Ah ! </s>
 	<s id="2">Si vous saviez quelle bonne mère c'est combien nous sommes pauvres ! </s>
@@ -253,7 +258,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ÉMILIE"><speaker>ÉMILIE, seule. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="alone">, seule. 
+</stage>
 <stage type="sit/cry/stand/watch">Elle s'assied à terre et appuie sa tête sur une gerbe. Elle pleure quelques moments en silence ; enfin elle se lève et regarde autour d'elle.</stage>
 <p id="1">
  	<s id="1">Ah ! </s>
@@ -270,7 +276,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Marcellin, Henriette, Émilie, essuyant ses larmes.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Marcellin, Henriette, Émilie, essuyant ses larmes. 
+</stage> 
 <sp who="MARCELLIN"><speaker>MARCELLIN.</speaker>
 <p id="1">
  	<s id="1">Ha ! </s>
@@ -279,7 +286,8 @@
 </p> 
 <stage type="cry">Les sanglots empêchent Émilie de répondre.</stage>
 </sp>
-<sp stage="pull/toward" who="HENRIETTE"><speaker>HENRIETTE, la regarde avec attention, et tire à part son frère.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="pull/toward">, la regarde avec attention, et tire à part son frère.
+</stage>
 <p id="2">
  	<s id="1">Elle a l'air d'une bonne petite fille, Marcellin. </s>
 	<s id="2">Elle pleure, ne l'afflige pas davantage par tes reproches. </s>
@@ -321,7 +329,8 @@
  	<s id="1">Oui, et qui te fera bientôt rendre ta corbeille, je t'en réponds.</s>
 </p>
 </sp>
-<sp stage="happy" who="ÉMILIE"><speaker>ÉMILIE, avec joie. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="happy">, avec joie. 
+</stage>
 <p id="9">
  	<s id="1">Oh ! </s>
 	<s id="2">Le croyez-vous ? </s>
@@ -389,14 +398,16 @@
 	<s id="3">Non, non, je n'ose le prendre.</s>
 </p>
 </sp>
-<sp stage="smile" who="HENRIETTE"><speaker>HENRIETTE, en souriant. </speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="smile">, en souriant. 
+</stage>
 <p id="20">
  	<s id="1">Tant d'argent ! </s>
 	<s id="2">Prends, prends toujours. Si j'avais ma bourse sur moi, je t'en donnerais bien davantage. </s>
 	<s id="3">Mais je te le garde, et tu n'y perdras rien.</s>
 </p>
 </sp>
-<sp who="MARCELLIN"><speaker>MARCELLIN, lui présentant encore la pièce. </speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage>, lui présentant encore la pièce. 
+</stage>
 <p id="21">
  	<s id="1">Reçois-la comme une médaille.</s>
 </p> 
@@ -501,7 +512,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="MARCELLIN"><speaker>MARCELLIN, seul.</speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
  	<s id="1">Que nous sommes heureux, ma soeur et moi, de n'être pas obligés, comme cette pauvre enfant, d'aller ramasser de tous côtés des épis pour vivre ! </s>
 	<s id="2">En vérité celte petite parle comme si elle avait été bien élevée : elle n'a point l'air malpropre et déguenillé des filles de nos paysans. </s>
@@ -512,8 +524,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Marcellin, Monsieur de Beauval, Hubert.</head>
-<sp stage="run/closer" who="MARCELLIN"><speaker>MARCELLIN, en courant à son père. </speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Marcellin, Monsieur de Beauval, Hubert.
+</stage>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="run/closer">, en courant à son père. 
+</stage>
 <p id="1">
  	<s id="1">Ah ! </s>
 	<s id="2">Que je suis aise, mon cher papa, de vous rencontrer ! </s>
@@ -557,7 +571,8 @@
  	<s id="1">Premièrement, je ne les empêche point de glaner tant qu'ils veulent, lorsque la moisson est hors de champ ; mais tant qu'il y reste une gerbe....</s>
 </p>
 </sp>
-<sp stage="ironic" who="MARCELLIN"><speaker>MARCELLIN, ironiquement.</speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="ironic">, ironiquement.
+</stage>
 <p id="9">
  	<s id="1">Que ne dis-tu aussi lorsque les champs sont en friche et couverts de neige ? </s>
 	<s id="2">Il y a grand' chose à ramasser, n'est-ce pas, lorsque la moisson est rentrée ?</s>
@@ -798,7 +813,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur de Beauval, Marcellin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur de Beauval, Marcellin.
+</stage>
 <sp who="MARCELLIN"><speaker>MARCELLIN.</speaker>
 <p id="1">
  	<s id="1">Mon papa, entendez-vous ce qu'il dit ?</s>
@@ -918,7 +934,8 @@
 	<s id="2">Mon cher papa, voici ma soeur qui revient avec la petite fille.</s>
 </p>
 </sp>
-<sp stage="run/carry" who="MARCELLIN"><speaker>MARCELLIN, courant avec la corbeille vers Émilie.</speaker> 
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="run/carry">, courant avec la corbeille vers Émilie. 
+</stage> 
 <p id="20">
 	<s id="1">Tiens, mon enfant, voilà ta corbeille ; il n'y manque pas un seul épi.</s>
 </p>
@@ -934,13 +951,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur de Beauyal, Marcellin, Henriette, Émilie. </head>
-<sp stage="run/closer/hugh" who="HENRIETTE"><speaker>HENRIETTE, courant vers son père, et lui sautant au cou. </speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur de Beauyal, Marcellin, Henriette, Émilie. 
+</stage>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="run/closer/hugh">, courant vers son père, et lui sautant au cou. 
+</stage>
 <p id="1">
 	<s id="1">C'est notre bon papa.</s>
 </p>
 </sp>
-<sp who="MARCELLIN"><speaker>MARCELLIN, à Émilie. </speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage>, à Émilie. 
+</stage>
 <p id="2">
  	<s id="1">Oh ! </s>
 	<s id="2">C'est un bon père, je t'assure ; tu n'as rien à craindre. </s>
@@ -951,7 +971,8 @@
  	<s id="1">Il a bien rabroué le vieux père Hubert, pour t'avoir maltraitée.</s>
 </p>
 </sp>
-<sp stage="closer/shy/kiss" who="ÉMILIE"><speaker>ÉMILIE s'avance timidement vers M. de Beauval et lui baise la main.</speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="closer/shy/kiss"> s'avance timidement vers M. de Beauval et lui baise la main.
+</stage>
 <p id="1">
  	<s id="1">Monsieur, me pardonnerez-vous cette liberté ? </s>
 	<s id="2">Oh ! </s>
@@ -964,13 +985,15 @@
 	<s id="2">Cet air décent, ce langage, n'annoncent pas une éducation commune.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ÉMILIE"><speaker>ÉMILIE, bas à Marcellin et à Henriette. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="low/toward">, bas à Marcellin et à Henriette. 
+</stage>
 <p id="3">
  	<s id="1">Est-ce que j'aurais fâché votre papa ? </s>
 	<s id="2">Il parle tout seul.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, qui l'a entendue. </speaker>
+<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL</speaker><stage>, qui l'a entendue. 
+</stage>
 <p id="4">
  	<s id="1">Non, ma chère fille. </s>
 	<s id="2">Si mes enfants en ont bien agi envers toi, ils n'ont rien fait que tu ne paraisses mériter.</s>
@@ -1000,7 +1023,8 @@
 	<s id="6">Mon apprentissage ne m'a pas trop bien réussi.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MARCELLIN"><speaker>MARCELLIN, bas à Émilie. </speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="low/toward">, bas à Émilie. 
+</stage>
 <p id="8">
  	<s id="1">Pas si mal que tu penses. </s>
 	<s id="2">Ma soeur et moi, nous voulons obtenir de mon papa qu'il te fasse donner des épis sans glaner.</s>
@@ -1017,7 +1041,8 @@
 	<s id="2">La vie y était trop chère : la vieille Marguerite engagea ma mère à venir chez elle, et lui offrit un logement pour rien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, à part. </speaker>
+<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="11">
  	<s id="1">Si des gens aussi pauvres exercent la bienfaisance, quels devoirs nous avons à remplir ! </s>
 </p>
@@ -1037,7 +1062,8 @@
  	<s id="1">Je le parierais aussi, surtout depuis que j'ai vu sa mère.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ÉMILIE"><speaker>ÉMILIE, embarrassée. </speaker>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="embarrassed">, embarrassée. 
+</stage>
 <p id="15">
  	<s id="1">Mon père ?... </s>
 	<s id="2">Je n'en ai plus. </s>
@@ -1099,15 +1125,18 @@
  	<s id="1">Est-ce elle ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, à part. </speaker>
+<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="25">
  	<s id="1">Je brûle d'éclaircir ce mystère. </s>
 	<s id="2">Cette enfant me rappelle des traits connus, mais que je ne sais encore démêler.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur de Beauval, Madame de Joinville, Marcellin, Henriette, Émilie.</head>
-<sp stage="run/closer" who="ÉMILIE"><speaker>ÉMILIE, courant au-devant de sa mère, qui paraît embarrassée en voyant M. de Beauval.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur de Beauval, Madame de Joinville, Marcellin, Henriette, Émilie.
+</stage>
+<sp who="ÉMILIE"><speaker>ÉMILIE</speaker><stage type="run/closer">, courant au-devant de sa mère, qui paraît embarrassée en voyant M. de Beauval.
+</stage>
 <p id="1">
  	<s id="1">Venez, ma maman, ne craignez rien. </s>
 	<s id="2">C'est le père de ces deux aimables enfants qui nous montrent tant d'amitié, et il est bon, aussi bon que ses enfants. </s>
@@ -1189,7 +1218,8 @@
 	<s id="3">Il y a huit ans que je fis connaissance avec Monsieur_de_Joinville, lieutenant-colonel_de_cavalerie, qui était venu passer quelques mois dans la capitale.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, avec transport. </speaker>
+<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL</speaker><stage type="enthousiasm">, avec transport. 
+</stage>
 <p id="15">
  	<s id="1">Joinville ! </s>
 	<s id="2">Joinville !</s>
@@ -1227,7 +1257,8 @@
 </p>
 <stage type="CRY">Elle laisse couler des larmes.</stage>
 </sp>
-<sp stage="toward" who="HENRIETTE"><speaker>HENRIETTE, à Émilie. </speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="toward">, à Émilie. 
+</stage>
 <p id="21">
  	<s id="1">Pauvre enfant ! </s>
 	<s id="2">Tu as été orpheline bien jeune.</s>
@@ -1367,13 +1398,15 @@
 	<s id="2">Tu es la vivante image de ton généreux père, et tu es aussi digne de ma tendresse qu'il l'était de ma reconnaissance.</s>
 </p>
 </sp>
-<sp stage="get/enthousiasm" who="MADAME DE JOINVILLE"><speaker>MADAME DE JOINVILLE, saisissant avec transport la main de Monsieur de Beauval. </speaker>
+<sp who="MADAME DE JOINVILLE"><speaker>MADAME DE JOINVILLE</speaker><stage type="get/enthousiasm">, saisissant avec transport la main de Monsieur de Beauval. 
+</stage>
 <p id="42">
  	<s id="1">Comment pourrai-je répondre à tant de bienfaits, Monsieur ? </s>
 	<s id="2">Je n'ai que des larmes pour exprimer ce que je sens.</s>
 </p>
 </sp>
-<sp stage="kiss" who="HENRIETTE"><speaker>HENRIETTE, l'embrassant. </speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="kiss">, l'embrassant. 
+</stage>
 <p id="43">
  	<s id="1">Ô ma nouvelle maman ! </s>
 	<s id="2">Vous serez donc toujours auprès de nous avec Émilie ? </s>
@@ -1422,7 +1455,8 @@
 	<s id="2">Vous ramènerez ensuite au château Madame_de_Joinville et sa fille, sans oublier la bonne Marguerite, que j'invite aussi à venir dîner avec nous.</s>
 </p>
 </sp>
-<sp stage="toward/get" who="MARCELLIN"><speaker>MARCELLIN, à Émilie, qui veut emporter la corbeille.</speaker>
+<sp who="MARCELLIN"><speaker>MARCELLIN</speaker><stage type="toward/get">, à Émilie, qui veut emporter la corbeille.
+</stage>
 <p id="51">
  	<s id="1">Non Émilie, cela n'est plus fait pour toi. </s>
 	<s id="2">La corbeille restera ici.</s>

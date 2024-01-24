@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,29 +29,30 @@
 			<titlePart type="main">LES BALANCES</titlePart>
 			<titlePart type="sub">Représentée pour la première fois au Théâtre Antoine, le 26 novembre 1901.</titlePart>
 		</docTitle> 
-		<docDate value='1929'></docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1929"/>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ALBIN MICHEL, ÉDITEUR, 59 RUE DES MATHURINS.</editor>
-			<printer id='BRULLIARD'>Établissement André Brulliard. - Saint-Dizier (Hautes-Marne). 1929.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ALBIN MICHEL, ÉDITEUR, 59 RUE DES MATHURINS.</editor>
+			<printer id="BRULLIARD">Établissement André Brulliard. - Saint-Dizier (Hautes-Marne). 1929.</printer>
 		</docImprint>		
 		<performance>
-			<premiere date="1901-11-26"  location="Théâtre Antoine">Représentée pour la première fois au Théâtre Antoine, le 26 novembre 1901.</premiere>
+			<premiere date="1901-11-26" location="Théâtre Antoine">Représentée pour la première fois au Théâtre Antoine, le 26 novembre 1901.</premiere>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LA BRIGE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE BRIGE</role>, M. Dumény.</castItem>
-			<castItem><role id="LONJUMEL" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LONJUMEL</role>, M. Leubas.</castItem>
-			<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age='A' stat_amour='néant'>L[UN DOMESTIQUE]</role>.</castItem>
+			<castItem><role id="LA BRIGE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BRIGE</role>, M. Dumény.</castItem>
+			<castItem><role id="LONJUMEL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LONJUMEL</role>, M. Leubas.</castItem>
+			<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">L[UN DOMESTIQUE]</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de "Théâtre III" de Georges Courteline de l'Académie Goncourt, Paris, Ernest Flammarion Éditeur, 1894. pp 291-323</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LES BALANCES</head>
 <stage type="location/furniture/decor">La scène se passe chez Lonjumel. - Ameublement sobre et sombre de petit avocat de province.</stage>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="sit/location/furniture/read">Au lever du rideau, Lonjumel est en scène, assis à sa table de travail et consultant ses dossiers.</stage>
-<sp who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE, sur le seuil de la porte.</speaker>
+<sp who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage>, sur le seuil de la porte.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_La_Brige demande si monsieur est visible.</s>
 </p>
@@ -83,7 +84,8 @@
 	<s id="">Les rideaux sont baissés.</s>
 </p>
 </sp>
-<sp stage="smile" who="LONJUMEL"><speaker>LONJUMEL, souriant.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="smile">, souriant.
+</stage>
 <p id="7">
 	<s id="1">C'est vrai.</s>
 </p>
@@ -137,18 +139,21 @@
 	<s id="1">Je sortais...</s>
 </p>
 </sp>
-<sp stage="show" who="LONJUMEL"><speaker>LONJUMEL, lui présentant une boîte de cigarettes.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="show">, lui présentant une boîte de cigarettes.
+</stage>
 <p id="17">
 	<s id="1">Fumes-tu ?</s>
 </p>
 </sp>
-<sp stage="get" who="LA BRIGE"><speaker>LA BRIGE, prenant une cigarette.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="get">, prenant une cigarette.
+</stage>
 <p id="18">
 	<s id="1">Je ne fais que ça... </s>
 	<s id="2">Je sortais de Sainte-Pélagie, où j'étais demeuré un mois à l'abri des coups de soleil, rapport à un gredin qui, me devant cinq_cents_francs, avait été, par jugement en bonne et due forme, condamné à me les rembourser.</s>
 </p>
 </sp>
-<sp stage="estonish" who="LONJUMEL"><speaker>LONJUMEL, effaré.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="estonish">, effaré.
+</stage>
 <p id="19">
 	<s id="1">Quoi ?</s>
 </p>
@@ -335,7 +340,8 @@
 	<s id="4">Du coup, ma foi, j'en eus assez.</s>
 </p>
 </sp>
-<sp stage="happy" who="LONJUMEL"><speaker>LONJUMEL, égayé.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="happy">, égayé.
+</stage>
 <p id="52">
 	<s id="1">Pas possible !</s>
 </p>
@@ -410,7 +416,8 @@
 	<s id="6">C'est une tartine du Misanthrope que je te sers là entre deux repas.</s>
 </p>
 </sp>
-<sp stage="smile" who="LONJUMEL"><speaker>LONJUMEL, souriant.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="smile">, souriant.
+</stage>
 <p id="63">
 	<s id="1">J'allais dire : Le_Songe_d_Athalie.</s>
 </p>
@@ -447,7 +454,8 @@
 	<s id="1">Qu'est-ce qui te prend ?</s>
 </p>
 </sp>
-<sp stage="wave" who="LA BRIGE"><speaker>LA BRIGE, la main secouée dans le vide.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="wave">, la main secouée dans le vide.
+</stage>
 <p id="69">
 	<s id="1">Est-ce bête !... </s>
 	<s id="2">Un éclat d'allumette taillé en fer de lance, qui vient de m'entrer dans la peau comme un lardoir dans de l'escalope. </s>
@@ -457,7 +465,8 @@
 	<s id="6">Oui : - La maison me plaisait fort ; pratique, salubre, aérée, irréprochable en un mot, à cela près que son toit d'ardoises appelait quelques réparations, et qu'elle même empiétait un peu sur le trottoir.</s>
 </p>
 </sp>
-<sp who="LONJUMEL"><speaker>LONJUMEL, très simplement.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage>, très simplement.
+</stage>
 <p id="70">
 	<s id="1">Ah ah.</s>
 </p>
@@ -492,7 +501,8 @@
 	<s id="1">Pourquoi je dis : ah ah ?</s>
 </p>
 </sp>
-<sp stage="impatient" who="LA BRIGE"><speaker>LA BRIGE, impatienté.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="impatient">, impatienté.
+</stage>
 <p id="77">
 	<s id="1">Évidemment ! </s>
 	<s id="2">Tu dis :"Ah ah" ; eh bien, pourquoi dis-tu "Ah ah" ? </s>
@@ -518,7 +528,8 @@
 	<s id="1">Encore un éclat de bois ?</s>
 </p>
 </sp>
-<sp stage="wave" who="LA BRIGE"><speaker>LA BRIGE, l'ongle aux dents.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="wave">, l'ongle aux dents.
+</stage>
 <p id="81">
 	<s id="1">... Une goutte de soufre bouillant qui s'est faufilée sous mon ongle... </s>
 	<s id="2">Tu n'as pas idée comme ça me gêne !</s>
@@ -544,7 +555,8 @@
 	<s id="11">- "Justement, reprit-il ; vous n'en avez pas le droit."</s>
 </p>
 </sp>
-<sp who="LONJUMEL"><speaker>LONJUMEL, triomphant.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage>, triomphant.
+</stage>
 <p id="84">
 	<s id="1">Ah ! </s>
 	<s id="2">Ah !</s>
@@ -625,7 +637,8 @@
 	<s id="9">Armé de l'article_320, qui prévoit et punit le délit de blessure par imprudence, il m'assigna...</s>
 </p>
 </sp>
-<sp stage="hide" who="LONJUMEL"><speaker>LONJUMEL, la main aux yeux.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="hide">, la main aux yeux.
+</stage>
 <p id="97">
 	<s id="1">Crénom d'un chien !</s>
 </p>
@@ -696,13 +709,15 @@
 	<s id="13">Retraîné en correctionnelle pour reblessure par imprudence (plus cette complication que la loi_Bérenger va naturellement m'égorger de sa clémence à deux tranchants) ; deux fois en faute pour m'être deux fois incliné devant les institutions qui régissent le doux pays de France ; acculé à l'obligation de faire ravaler ma maison, sous peine de contravention, et de ne pas la faire ravaler, sous peine de procès-verbal ; conspué, haï, ridicule ; j'expie cruellement ma folle ambition, le sot rêve où je m'étais complu, de vivre en paix avec tout le monde en ne faisant de mal à personne, uniquement soucieux des poules de ma basse-cour, des cochons de ma porcherie et des iris de mon jardin.</s>
 </p>
 </sp>
-<sp stage="think" who="LONJUMEL"><speaker>LONJUMEL, après avoir réfléchi. </speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage type="think">, après avoir réfléchi. 
+</stage>
 <p id="107">
 	<s id="1">Sans vouloir donner à tes... crimes plus d'importance qu'ils n'en ont, je te dois pourtant la vérité. </s>
 	<s id="2">Tu t'es mis dans un mauvais cas.</s>
 </p>
 </sp>
-<sp stage="watch" who="LA BRIGE"><speaker>LA BRIGE, l'oeil au ciel.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="watch">, l'oeil au ciel.
+</stage>
 <p id="108">
 	<s id="1">Je me suis mis !!!... </s>
 	<s id="2">- Alors, c'est grave ?... </s>
@@ -715,7 +730,8 @@
 </p>
 <stage type="wave">Mouvement de La Brige.</stage>
 </sp>
-<sp who="LONJUMEL"><speaker>LONJUMEL, avec éclat.</speaker>
+<sp who="LONJUMEL"><speaker>LONJUMEL</speaker><stage>, avec éclat.
+</stage>
 <p id="110">
 	<s id="1">On n'innocente pas un homme qui n'a rien fait !... ou alors c'est très difficile.</s>
 </p>
@@ -759,7 +775,8 @@
 	<s id="3">Est-ce que tu le connais ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LA BRIGE"><speaker>LA BRIGE, étonné.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="117">
 	<s id="1">Oui et non. </s>
 	<s id="2">Je le connais pour avoir entendu parler de lui ; mais notre intimité ne va pas jusqu'à jouer au billard ensemble.</s>
@@ -844,7 +861,8 @@
 	<s id="1">Enfin :</s>
 </p>
 </sp>
-<sp stage="wave" who="LA BRIGE"><speaker>LA BRIGE, hochant la tête.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="wave">, hochant la tête.
+</stage>
 <p id="133">
 	<s id="A">Sais-tu que tu en as de bonnes et que tu me donnes là un beau conseil ?</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,22 +28,22 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
 			<head>PERSONNAGES.</head>
-			<castItem><role id="UN LABOUREUR" sex="1" type="H" statut='laboureur' age='A' stat_amour=''>UN LABOUREUR</role>, citoyen de Mycènes.</castItem>
-			<castItem><role id="ÉLECTRE" sex="2" type="H" statut='prince' age='A' stat_amour=''>ÉLECTRE</role>.</castItem>
-			<castItem><role id="ORESTE" sex="1" type="H" statut='roi' age='A' stat_amour=''>ORESTE</role>.</castItem>
-			<castItem><role id="PYLADE" sex="1" type="H" statut='roi' age='A' stat_amour=''>PYLADE</role>, personnage muet.</castItem>
-			<castItem><role id="CHOEUR" sex="9" type="H" statut='choeur' age='A' stat_amour=''>LE CHOEUR</role>, composé de jeunes Argiennes.</castItem>
-			<castItem><role id="UN VIEILLARD" sex="1" type="H" statut='vieillard' age="V" stat_amour=''>UN VIEILLARD</role>.</castItem>
-			<castItem><role id="UN MESSAGER" sex="1" type="H" statut='messager' age='A' stat_amour=''>UN MESSAGER</role>.</castItem>
-			<castItem><role id="CLYTEMNESTRE" sex="2" type="H" statut='roi' age='A' stat_amour=''>CLYTEMNESTRE</role>.</castItem>
-			<castItem><role id="LES DIOSCURES" sex="1" type="H" statut='héros' age='A' stat_amour=''>LES DIOSCURES</role>.</castItem>
+			<castItem><role id="UN LABOUREUR" sex="1" type="H" statut="laboureur" age="A" stat_amour="">UN LABOUREUR</role>, citoyen de Mycènes.</castItem>
+			<castItem><role id="ÉLECTRE" sex="2" type="H" statut="prince" age="A" stat_amour="">ÉLECTRE</role>.</castItem>
+			<castItem><role id="ORESTE" sex="1" type="H" statut="roi" age="A" stat_amour="">ORESTE</role>.</castItem>
+			<castItem><role id="PYLADE" sex="1" type="H" statut="roi" age="A" stat_amour="">PYLADE</role>, personnage muet.</castItem>
+			<castItem><role id="CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour="">LE CHOEUR</role>, composé de jeunes Argiennes.</castItem>
+			<castItem><role id="UN VIEILLARD" sex="1" type="H" statut="vieillard" age="V" stat_amour="">UN VIEILLARD</role>.</castItem>
+			<castItem><role id="UN MESSAGER" sex="1" type="H" statut="messager" age="A" stat_amour="">UN MESSAGER</role>.</castItem>
+			<castItem><role id="CLYTEMNESTRE" sex="2" type="H" statut="roi" age="A" stat_amour="">CLYTEMNESTRE</role>.</castItem>
+			<castItem><role id="LES DIOSCURES" sex="1" type="H" statut="héros" age="A" stat_amour="">LES DIOSCURES</role>.</castItem>
 		</castList>
 		<set location="Phthie" country="Grèce" periode="Temps mythologiques" link="38.904442, 22.435217">La scène est dans le pays d'Argos, à la campagne, devant la maison d'un laboureur..</set>
 
@@ -1961,7 +1961,8 @@
 	<s id="5">Telle qu'une lionne des montagnes, habitant la chênaie touffue, elle a consommé le crime. </s>
 </p>
 </sp>
-<sp stage="location" who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE, dans la maison.</speaker>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE</speaker><stage type="location">, dans la maison.
+</stage>
 <p id="32">
 	<s id="1">Ô mes enfants, au nom ses dieux, ne tuez pas votre mère.</s> 
 </p> 

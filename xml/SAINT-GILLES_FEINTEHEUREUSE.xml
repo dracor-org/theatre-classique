@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,15 +30,15 @@
 			<titlePart type="sub">PASTORALE</titlePart>
 			<titlePart type="sub">Mise en Musique par J.N. Marchand l'aîné, Ordinaire de la Musique de la Chambre du Roi.</titlePart>
 			</docTitle> 
-		<docDate value='1709'></docDate>
-		<docAuthor id='SAINT-GILLES LENFANT, Charles de'></docAuthor>
+		<docDate value="1709"/>
+		<docAuthor id="SAINT-GILLES LENFANT, Charles de"/>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="PHILÈNE" sex="1" type="H" statut="berger" age="A" stat_amour='néant'>PHILÈNE</role>.</castItem>
-			<castItem><role id="PHILÉMON" sex="1" type="H" statut="berger" age="A" stat_amour='néant'>PHILÉMON</role>.</castItem>
-			<castItem><role id="DAPHNIS" sex="2" type="H" statut="berger" age="A" stat_amour='néant'>DAPHNIS</role>.</castItem>
-			<castItem><role id="CLIMÈNE" sex="2" type="H" statut="berger" age="A" stat_amour='néant'>CLIMÈNE</role>.</castItem>
+			<castItem><role id="PHILÈNE" sex="1" type="H" statut="berger" age="A" stat_amour="néant">PHILÈNE</role>.</castItem>
+			<castItem><role id="PHILÉMON" sex="1" type="H" statut="berger" age="A" stat_amour="néant">PHILÉMON</role>.</castItem>
+			<castItem><role id="DAPHNIS" sex="2" type="H" statut="berger" age="A" stat_amour="néant">DAPHNIS</role>.</castItem>
+			<castItem><role id="CLIMÈNE" sex="2" type="H" statut="berger" age="A" stat_amour="néant">CLIMÈNE</role>.</castItem>
 		</castList>
-		<set location='Lieu imaginaire' country='Pays imaginaire' periode='Temps imaginaires' gps="(N/A)"></set>
+		<set location="Lieu imaginaire" country="Pays imaginaire" periode="Temps imaginaires" gps="(N/A)"/>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>LA FEINTE HEUREUSE</head>
@@ -66,7 +66,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE SECONDE. Philémon, Daphnis.</head>
+<div2 type="scene" n="2"><head>SCÈNE SECONDE.</head><stage> Philémon, Daphnis.
+</stage>
 <sp stage="together" who="PHILÉMON, DAPHNIS"><speaker>PHILÉMON, DAPHNIS.</speaker>
 	<l id="13">Sur Bacchus, sur l'amour emportons la victoire.</l>
 	<l id="14">Faisons de tous les deux un doux amusement.</l>
@@ -94,7 +95,8 @@
 	<l id="26">Gardons nous d'aimer constamment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="music"><head>SCÈNE TROISIÈME. Philémon, Daphnis, Argant qui joue du violon.</head>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME.</head><stage type="music"> Philémon, Daphnis, Argant qui joue du violon.
+</stage>
 <sp stage="together" who="PHILÉMON, DAPHNIS"><speaker>PHILÉMON, DAPHNIS.</speaker>
 	<l id="27">Quel son harmonieux vient frapper mon oreille ?</l>
 	<l id="28">Qu'il est tendre ! Qu'il est touchant !</l>
@@ -109,7 +111,8 @@
 	<l id="37">Cachons-nous, et soyons témoin de ses regrets.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4" stage="hide"><head>SCÈNE QUATRIÈME. Climène, Philène, Philémon, Daphnis, cachés.</head>
+<div2 type="scene" n="4"><head>SCÈNE QUATRIÈME.</head><stage type="hide"> Climène, Philène, Philémon, Daphnis, cachés.
+</stage>
 <sp who="CLIMÈNE"><speaker>CLIMÈNE.</speaker>
 	<l id="38">Perfide : Qu'ai-je fait ? Quel aveugle caprice</l>
 	<l id="39">M'a fait trahir un fidèle berger ?</l>
@@ -120,7 +123,8 @@
 	<l id="44">Philène en me fuyant me laisse son ardeur,</l>
 	<l id="45">En sortant de mes fers, il devient un vainqueur.</l>
 </sp>
-<sp stage="entrance/location" who="PHILÈNE"><speaker>PHILÈNE, sortant du lieu où il était caché.</speaker>
+<sp who="PHILÈNE"><speaker>PHILÈNE</speaker><stage type="entrance/location">, sortant du lieu où il était caché.
+	</stage>
 	<l id="46" syll="6" part="i">Qu'ai-je entendu ! Ciel !</l>
 </sp>
 <sp who="CLIMÈNE"><speaker>CLIMÈNE.</speaker>
@@ -152,7 +156,8 @@
 <sp stage="together" who="ENSEMBLE"><speaker>ENSEMBLE.</speaker>
 	<l id="56">Régnez à jamais dans mon coeur.</l>
 </sp>
-<sp stage="together/entrance" who="PHILÉMON, DAPHNIS"><speaker>PHILÉMON, DAPHNIS, sortant de l'endroit où ils étaient cachés.</speaker>
+<sp who="PHILÉMON, DAPHNIS"><speaker>PHILÉMON, DAPHNIS</speaker><stage type="together/entrance">, sortant de l'endroit où ils étaient cachés.
+	</stage>
 	<l id="57">Jouissez d'une sort plein de charmes,</l>
 	<l id="58">Oubliez vos tourments.</l>
 	<l id="59">Bannissez les regrets, ne versez plus de larmes.</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -29,20 +29,20 @@
 			<titlePart type="sub">COMÉDIE-PROVERBE EN UN ACTE.</titlePart>
 			<titlePart type="sub">DIX-SEPTIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G**.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G**.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR BRUSQUET" sex="1" type="H" statut="procureur" age="A" stat_amour='néant'>MONSIEUR BRUSQUET</role>, Procureur.</castItem>
-		<castItem><role id="MADAME BRUSQUET" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME BRUSQUET</role>.</castItem>
-		<castItem><role id="VARANGER" sex="1" type="H" statut="clerc" age="A" stat_amour='néant'>VARANGER</role>, Clerc de Monsieur Brusquet. </castItem>
-		<castItem><role id="DUBREUIL" sex="1" type="H" statut="clerc" age="A" stat_amour='néant'>DUBREUIL</role>, Clerc de Monsieur Brusquet.</castItem>
-		<castItem><role id="PLUMASSEAU" sex="1" type="H" statut="clerc" age="A" stat_amour='néant'>PLUMASSEAU</role>,  Clerc de Monsieur Brusquet.</castItem>
-		<castItem><role id="MONSIEUR DE FLORICOURT" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE FLORICOURT</role>, Gentilhomme campagnard.</castItem>
-		<castItem><role id="MONSIEUR DE BONNESERRE" sex="1" type="H" statut="caissier" age="A" stat_amour='néant'>MONSIEUR DE BONNESERRE</role>, Caissier fripon.</castItem>
-		<castItem><role id="UN GARDE-CHASSE" sex="1" type="H" statut="garde-chasse" age="A" stat_amour='néant'>UN GARDE-CHASSE</role>, de Monsieur de Floricourt.</castItem>
+		<castItem><role id="MONSIEUR BRUSQUET" sex="1" type="H" statut="procureur" age="A" stat_amour="néant">MONSIEUR BRUSQUET</role>, Procureur.</castItem>
+		<castItem><role id="MADAME BRUSQUET" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME BRUSQUET</role>.</castItem>
+		<castItem><role id="VARANGER" sex="1" type="H" statut="clerc" age="A" stat_amour="néant">VARANGER</role>, Clerc de Monsieur Brusquet. </castItem>
+		<castItem><role id="DUBREUIL" sex="1" type="H" statut="clerc" age="A" stat_amour="néant">DUBREUIL</role>, Clerc de Monsieur Brusquet.</castItem>
+		<castItem><role id="PLUMASSEAU" sex="1" type="H" statut="clerc" age="A" stat_amour="néant">PLUMASSEAU</role>,  Clerc de Monsieur Brusquet.</castItem>
+		<castItem><role id="MONSIEUR DE FLORICOURT" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE FLORICOURT</role>, Gentilhomme campagnard.</castItem>
+		<castItem><role id="MONSIEUR DE BONNESERRE" sex="1" type="H" statut="caissier" age="A" stat_amour="néant">MONSIEUR DE BONNESERRE</role>, Caissier fripon.</castItem>
+		<castItem><role id="UN GARDE-CHASSE" sex="1" type="H" statut="garde-chasse" age="A" stat_amour="néant">UN GARDE-CHASSE</role>, de Monsieur de Floricourt.</castItem>
    </castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est chez Monsieur Brusquet.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 367-389.</note>
@@ -51,7 +51,8 @@
 <div1 type="act" n="1"><head>LES DEUX PÂTÉS.</head>
 <stage type="decor">Le Théâtre représente une Étude de Procureur ; sur le devant est une table couverte de papiers, sur laquelle est une brochure ouverte.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="VARANGER"><speaker>VARANGER, seul.</speaker>
+<sp who="VARANGER"><speaker>VARANGER</speaker><stage type="alone">, seul.
+</stage>
 <stage type="think/watch">Il entre d'un air distrait et en regardant de tous côtés.</stage>
 <p id="1">
 	<s id="1">Où diantre Dubreuil s'est-il fourré ?... </s>
@@ -64,8 +65,10 @@
 <stage type="closer">Il s'approche de la table et parcourt le livre sans s'asseoir.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Varanger, Dubreuil.</head>
-<sp stage="laugh" who="DUBREUIL"><speaker>DUBREUIL, entre, en éclatant de rire.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Varanger, Dubreuil.
+</stage>
+<sp who="DUBREUIL"><speaker>DUBREUIL</speaker><stage type="laugh">, entre, en éclatant de rire.
+</stage>
 <p id="1">
 	<s id="1">Ah, ah, ah , ah.</s>
 </p>
@@ -174,8 +177,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Varanger, Dubreuil, Un Garde-Chasse.</head>
-<sp who="LE GARDE-CHASSE"><speaker>LE GARDE-CHASSE, tenant un paquet.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Varanger, Dubreuil, Un Garde-Chasse.
+</stage>
+<sp who="LE GARDE-CHASSE"><speaker>LE GARDE-CHASSE</speaker><stage>, tenant un paquet.
+</stage>
 <p id="1">
 	<s id="1">Pour Monsieur Brusquet, de la part de monsieur le Marquis de Floricourt. </s>
 	<s id="2">Est-il là Monsieur Brusquet ?</s>
@@ -222,7 +227,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Varanger, Dubreuil.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Varanger, Dubreuil.
+</stage>
 <sp who="DUBREUIL"><speaker>DUBREUIL.</speaker>
 <p id="1">
 	<s id="1">Oh ! </s>
@@ -266,7 +272,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les précédents, Plumasseau.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les précédents, Plumasseau.
+</stage>
 <sp who="VARANGER"><speaker>VARANGER.</speaker>
 <p id="1">
 	<s id="1">Monsieur Plumasseau, si vous vouliez nous rendre un service, vous seriez le plus joli garçon du monde.</s>
@@ -304,7 +311,8 @@
 <stage type="egt/exit/location">Il sort avec Dubreuil, qui emporte le pâté Monsieur Brusquet entre du côté opposé.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Brusquet, Varanger.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Brusquet, Varanger.
+</stage>
 <stage type="sit/location">Varanger s'assied auprès de la table, et se met à travailler aussitôt qu'il aperçoit Monsieur Brusquet.</stage>
 <sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET.</speaker>
 <p id="1">
@@ -345,7 +353,8 @@
 <stage type="hide">Il met le livre dans sa poche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Brusquet, Varanger, Plumasseau.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Brusquet, Varanger, Plumasseau.
+</stage>
 <sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET.</speaker>
 <p id="1">
 	<s id="1">D'où diable venez-vous donc à l'heure qu'il est, Plumasseau?</s>
@@ -375,13 +384,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les précédent, BON.NESERRE.</head>
-<sp stage="wave" who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, à Bonneserre, qui fait beaucoup de révérences avant que d'entrer.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les précédent, BON.NESERRE.
+</stage>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage type="wave">, à Bonneserre, qui fait beaucoup de révérences avant que d'entrer.
+</stage>
 <p id="1">
 	<s id="1">Entrez, monsieur.</s>
 </p>
 </sp>
-<sp who="BONNESERRE"><speaker>BONNESERRE, avec de nouvelles révérences, si? s'enveloppant dans son manteau.</speaker>
+<sp who="BONNESERRE"><speaker>BONNESERRE</speaker><stage>, avec de nouvelles révérences, si? s'enveloppant dans son manteau.
+</stage>
 <p id="2">
 	<s id="1">Pardon, meilleurs... </s>
 	<s id="2">Monsieur Brusquet.</s>
@@ -523,7 +535,8 @@
 	<s id="1">Vous mériteriez que je vous fisse arrêter sur le champ.</s>
 </p>
 </sp>
-<sp stage="get" who="BONNESERRE"><speaker>BONNESERRE, tirant une bourse et la lui mettant dans la main.</speaker>
+<sp who="BONNESERRE"><speaker>BONNESERRE</speaker><stage type="get">, tirant une bourse et la lui mettant dans la main.
+</stage>
 <p id="30">
 	<s id="1">Eh, monsieur, un peu plus bas, de grâce, voudriez-vous me perdre ?</s>
 </p>
@@ -616,12 +629,14 @@
 </p>
 <stage type="away">Il veut s'en aller.</stage>
 </sp>
-<sp stage="call" who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, le rappelant.</speaker>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage type="call">, le rappelant.
+</stage>
 <p id="47">
 	<s id="1">St, St, un mot ; votre signalement est donné, on pourrait vous avoir vu entrer chez moi et vous guetter à la sortie.</s>
 </p>
 </sp>
-<sp stage="frighten" who="BONNESERRE"><speaker>BONNESERRE, effrayé.</speaker>
+<sp who="BONNESERRE"><speaker>BONNESERRE</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="48">
 	<s id="1">Croyez-vous ?</s>
 </p>
@@ -654,12 +669,14 @@ lui donne en place une vieille redingote et un mauvais chapeau.</stage>
 	<s id="2">Donnez-moi aussi votre canne et votre épée.</s>
 </p>
 </sp>
-<sp stage="push" who="BONNESERRE"><speaker>BONNESERRE, résistant.</speaker>
+<sp who="BONNESERRE"><speaker>BONNESERRE</speaker><stage type="push">, résistant.
+</stage>
 <p id="54">
 	<s id="1">Oh, il est inutile, monsieur, sous cette redingote, cela ne se verra point.</s>
 </p>
 </sp>
-<sp stage="steal" who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, lui prend la canne et l'épée.</speaker>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage type="steal">, lui prend la canne et l'épée.
+</stage>
 <p id="55">
 	<s id="1">Pardonnez-moi, pardonnez-moi ; diable, ne badinons pas ici ; ce ne sont pas des jeux d'enfants ; la moindre chose peut vous trahir.</s>
 </p>
@@ -686,8 +703,10 @@ lui donne en place une vieille redingote et un mauvais chapeau.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur Brusquet, Varanger, Plumasseau.</head>
-<sp stage="aparte" who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, à part.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur Brusquet, Varanger, Plumasseau.
+</stage>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Ce fripon ne peut aller loin, et au bout du compte il vaut mieux que je profite de cela qu'un Prévôt.</s>
 </p>
@@ -712,7 +731,8 @@ lui donne en place une vieille redingote et un mauvais chapeau.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les précédents, Le Marquis de Floricourt.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les précédents, Le Marquis de Floricourt.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Eh ! </s>
@@ -784,7 +804,8 @@ lui donne en place une vieille redingote et un mauvais chapeau.</stage>
 	<s id="1">Voilà encore quatre louis, Monsieur Brusquet, je vous prie de me mener cela bon train.</s>
 </p>
 </sp>
-<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, à Varanger.</speaker>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage>, à Varanger.
+</stage>
 <p id="14">
 	<s id="1">Où est le dossier de monsieur le Marquis contre Jacques Poussif ?</s>
 </p>
@@ -837,8 +858,9 @@ lui donne en place une vieille redingote et un mauvais chapeau.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI ET DERNIÈRE. Monsieur et Madame Brusquet,
-Le Marquis, Varanger, Plumasseau, Dubreuil qui entre presqu'en même temps que Madame Brusquet.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI ET DERNIÈRE.</head><stage> Monsieur et Madame Brusquet,
+Le Marquis, Varanger, Plumasseau, Dubreuil qui entre presqu'en même temps que Madame Brusquet.
+</stage>
 <sp who="MADAME BRUSQUET"><speaker>MADAME BRUSQUET.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce qu'il y a ? </s>
@@ -848,7 +870,8 @@ Le Marquis, Varanger, Plumasseau, Dubreuil qui entre presqu'en même temps que M
 	<s id="1">Votre servante, Monsieur_le_Marquis.</s>
 </p>
 </sp>
-<sp stage="toward/entrance" who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET, à Dubreuil, qui entre.</speaker>
+<sp who="MONSIEUR BRUSQUET"><speaker>MONSIEUR BRUSQUET</speaker><stage type="toward/entrance">, à Dubreuil, qui entre.
+</stage>
 <p id="3">
 	<s id="1">Il est bien temps d'entrer dans une étude.</s>
 </p>
@@ -875,28 +898,33 @@ Le Marquis, Varanger, Plumasseau, Dubreuil qui entre presqu'en même temps que M
 	<s id="2">Je suis certain pourtant de l'exactitude de mon garde.</s>
 </p>
 </sp>
-<sp stage="cold" who="DUBREUIL"><speaker>DUBREUIL, froidement.</speaker>
+<sp who="DUBREUIL"><speaker>DUBREUIL</speaker><stage type="cold">, froidement.
+</stage>
 <p id="8">
 	<s id="1">Madame Brusquet se trompe, elle a reçu le pâté, j'en suis témoin.</s>
 </p>
 </sp>
-<sp stage="anger/stress" who="MADAME BRUSQUET"><speaker>MADAME BRUSQUET, avec colère, et d'un ton acariâtre.</speaker>
+<sp who="MADAME BRUSQUET"><speaker>MADAME BRUSQUET</speaker><stage type="anger/stress">, avec colère, et d'un ton acariâtre.
+</stage>
 <p id="9">
 	<s id="1">Comment, Monsieur, vous êtes un maître impertinent de me donner un semblable démenti : comme si j'étais capable...</s>
 </p>
 </sp>
-<sp stage="stress" who="DUBREUIL"><speaker>DUBREUIL, toujours froidement.</speaker>
+<sp who="DUBREUIL"><speaker>DUBREUIL</speaker><stage type="stress">, toujours froidement.
+</stage>
 <p id="10">
 	<s id="1">Supprimez vos épithètes, Madame, s'il vous plait. </s>
 	<s id="2">Oui, je le soutiens, vous avez reçu le pâté de monsieur le Marquis.</s>
 </p>
 </sp>
-<sp stage="anger" who="MADAME BRUSQUET"><speaker>MADAME BRUSQUET, avec plus de colère.</speaker>
+<sp who="MADAME BRUSQUET"><speaker>MADAME BRUSQUET</speaker><stage type="anger">, avec plus de colère.
+</stage>
 <p id="11">
 	<s id="1">Vous pouvez me soutenir...</s>
 </p>
 </sp>
-<sp stage="interrupt/stress" who="DUBREUIL"><speaker>DUBREUIL, l'Interrompt toujours froidement.</speaker>
+<sp who="DUBREUIL"><speaker>DUBREUIL</speaker><stage type="interrupt/stress">, l'Interrompt toujours froidement.
+</stage>
 <p id="12">
 	<s id="1">Monsieur Plumasseau ne vous a-t-il pas remis ce matin un pâté en ma présence ?</s>
 </p>	
@@ -980,7 +1008,8 @@ Le Marquis, Varanger, Plumasseau, Dubreuil qui entre presqu'en même temps que M
 	<s id="1">Comme il vous plaira, monsieur ; mais voilà ce qui s'appelle en bon français une querelle d'Allemand.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE MARQUIS"><speaker>LE MARQUIS, riant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="laugh">, riant.
+</stage>
 <p id="28">
 	<s id="">Par la sambleu, ce tour est plaisant, mais des plus plaisants.</s>
 </p>

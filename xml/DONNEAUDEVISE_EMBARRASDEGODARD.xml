@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -32,7 +32,7 @@
 		<titlePart type="sub">REPRÉSENTÉE SUR LE THÉÂTRE DU PALAIS ROYAL.</titlePart>
 	</docTitle> 
 	<docDate value="1668">M. DC. LXVIII. Avec Privilège du Roi.</docDate>
-	<docAuthor id="DONNEAU DE VISÉ, Jean" bio='donneau'>PAR DONNEAU DE VISÉ</docAuthor>
+	<docAuthor id="DONNEAU DE VISÉ, Jean" bio="donneau">PAR DONNEAU DE VISÉ</docAuthor>
 	<docImprint>
 	<privilege id="1667-12-28"><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
 		<p>Par Grâce et Privilège du Roi, donné à Paris le 28. jour.de Décembre 1667. Signé, par le Roi en son Conseil, TRUCHOT : il est permis à JEAN RIBOU Marchand Libraire à Paris, d'imprimer, faire imprimer, vendre et débiter une Pièce de Théâtre intitulée, L'EMBARRAS DE GODARD, ou L'ACCOUCHEE, pendant le temps de cinq ans entiers et accomplis, à commencer du jour que la dite Pièce sera achevée d'imprimer pour la première fois : et défenses sont faites à tous autres Libraires et Imprimeurs, et autres Personnes, de quelque qualité et condition qu'elles soient, de l'imprimer, ou faire imprimer, sans le consentement de l'Exposant, ou de ceux qui auront droit de lui, à peine aux contrevenants de quinze cent livres d'amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts, ainsi que plus au long il est porté par lesdites Lettres de Privilège.</p>
@@ -41,34 +41,36 @@
 	<printer id="RIBOU">À PARIS, Chez JEAN RIBOU, au Palais, vis-à-vis la Porte de l'Église de la Sainte Chapelle, à l'Image Saint Louis.</printer>
 	</docImprint>
 	<performance>
-		<premiere date="" location=''></premiere>
+		<premiere date="" location=""/>
 	</performance>
 	<div type="preface"><head>AU LECTEUR.</head>
 		<p>La représentation étant l'âme de la Comédie, je ne sais si celle-ci plaira autant sur le papier, qu'elle a plu sur le théâtre, et surtout à Versailles ; où, sans être sue, elle fut jouée par un Ordre absolu, et ne laissa pas d'être trouvée fort divertissante. Aussi lorsque ces Pièces, qui ne consistent que dans l'action, réussissent, la gloire en étant autant due aux comédiens, qu'à l'auteur. Comme celle-ci est extrêmement risible, une Scène, ou deux, qui auraient pu passer pour les Endroits les plus Comiques, en d'autres furent trouvées un peu sérieuses, quoique fort courtes, et assez fines. Mais étant placées après une autre qui fait beaucoup rire, il semblait qu'on passât du Comique au Sérieux ; c'est pourquoi j'ai cru y devoir ajouter deux Scènes, dont l'une est de la sage-femme, que l'on y souhaitait. Peut-être que l'on dira, en voyant l'autre, qui est celle de Champagne, et du Cocher, que cette Comédie n'étant point une farce, cet endroit en tient un peu, et ne s'accorde pas avec le commencement, que l'on a trouvé représenter naturellement, des choses qui se passent assez souvent parmi les amants. Mais elle est d'autant plus excusable, qu'elle n'est que parmi les valets, qui viennent du cabaret, et même qu'elle est du caractère de Champagne, qui ayant, toujours, fait l'habile, veut se divertir du cocher. D'ailleurs, si tout le Monde pouvait savoir, comme une partie de la Cour, ce qui m'a fourni l'idée de cette scène, je ne serais pas en peine de la justifier ; et peut-être, aussi, que je ne l'aurais pas faite, si elle était sans mystère.</p>
 	</div>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="MONSIEUR GODARD" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONSIEUR GODARD</role>, père d'Isabelle.</castItem> 
-		<castItem><role id="ISABELLE" sex="2" type="H" statut='bourgeois' age='J' stat_amour=''>ISABELLE</role>.</castItem>
-		<castItem><role id="CLÉANTE" sex="1" type="H" statut='bourgeois' age='J' stat_amour='Isabelle'>CLÉANTE</role>, Amant d'Isabelle.</castItem> 
-		<castItem><role id="ORIANE" sex="2" type="H" statut='bourgeois' age='A' stat_amour=''>ORIANE</role>, Voisine de Maître Godard.</castItem>
-		<castItem><role id="LA SAGE-FEMME" sex="2" type="H" statut='sage-femme' age='A' stat_amour=''>LA SAGE-FEMME</role>.</castItem>
-		<castItem><role id="PAQUETTE" sex="2" type="H" statut='domestique' age='A' stat_amour=''>PAQUETTE</role>, Domestique de Maître Godard.</castItem> 
-		<castItem><role id="CHAMPAGNE" sex="1" type="H" statut='domestique' age='A' stat_amour=''>CHAMPAGNE</role>, Domestique de Maître Godard. </castItem>
-		<castItem><role id="L'ANGEVIN" sex="1" type="H" statut='domestique' age='A' stat_amour=''>L'ANGEVIN</role>, Domestique de Maître Godard.</castItem> 
-		<castItem><role id="TORINE" sex="1" type="H" statut='domestique' age='A' stat_amour=''>TORINE</role>, Domestique de Maître Godard.</castItem>
-		<castItem><role id="PICARD" sex="1" type="H" statut='domestique' age='A' stat_amour=''>PICARD</role>, Domestique de Maître Godard.</castItem>
+		<castItem><role id="MONSIEUR GODARD" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MONSIEUR GODARD</role>, père d'Isabelle.</castItem> 
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">ISABELLE</role>.</castItem>
+		<castItem><role id="CLÉANTE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="Isabelle">CLÉANTE</role>, Amant d'Isabelle.</castItem> 
+		<castItem><role id="ORIANE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">ORIANE</role>, Voisine de Maître Godard.</castItem>
+		<castItem><role id="LA SAGE-FEMME" sex="2" type="H" statut="sage-femme" age="A" stat_amour="">LA SAGE-FEMME</role>.</castItem>
+		<castItem><role id="PAQUETTE" sex="2" type="H" statut="domestique" age="A" stat_amour="">PAQUETTE</role>, Domestique de Maître Godard.</castItem> 
+		<castItem><role id="CHAMPAGNE" sex="1" type="H" statut="domestique" age="A" stat_amour="">CHAMPAGNE</role>, Domestique de Maître Godard. </castItem>
+		<castItem><role id="L'ANGEVIN" sex="1" type="H" statut="domestique" age="A" stat_amour="">L'ANGEVIN</role>, Domestique de Maître Godard.</castItem> 
+		<castItem><role id="TORINE" sex="1" type="H" statut="domestique" age="A" stat_amour="">TORINE</role>, Domestique de Maître Godard.</castItem>
+		<castItem><role id="PICARD" sex="1" type="H" statut="domestique" age="A" stat_amour="">PICARD</role>, Domestique de Maître Godard.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La Scène est dans une Salle de Maître Godard.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>L'EMBARRAS DE GODARD, OU L'ACCOUCHÉE</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Isabelle, Cléante, Paquette sur une chaise endormie, et ronflant.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Isabelle, Cléante, Paquette sur une chaise endormie, et ronflant.
+</stage>
 <stage type="decor">On ouvre ici le fonds du Théâtre.</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="1">Si vous m'aimez, toujours, avec même constance, </l>
 	<l id="2">Je ne vous défends pas d'avoir de l'espérance. </l>
 </sp>
-<sp stage="touch/yawn" who="PAQUETTE"><speaker>PAQUETTE, en se frottant les yeux, et baillant.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="touch/yawn">, en se frottant les yeux, et baillant.
+	</stage>
 	<l id="3">Ha, a, a, a, a, a. Peste de l'Amour ! </l>
 	<l id="4">Mais, vous ne songez pas qu'il fera, bientôt, jour.</l>
 </sp>
@@ -95,14 +97,16 @@
 	<l id="19">Je crains autant que vous, et ressens même ennui ; </l>
 	<l id="20">Si la Mort la prenait, nous n'aurions plus d'appui. </l>
 </sp>
-<sp stage="lie/awake" who="PAQUETTE"><speaker>PAQUETTE, après s'être étendue, comme une personne qui s'éveille.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="lie/awake">, après s'être étendue, comme une personne qui s'éveille.
+	</stage>
 	<l id="21">Avecque les amants, les gens ne dorment guère ; </l>
 	<l id="22">Passerez-vous, toujours, toutes les nuits entières ? </l>
 </sp>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="23" syll="2" part="i">Je sors. </l>
 </sp>
-<sp stage="closer" who="PAQUETTE"><speaker>PAQUETTE, vient à eux.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="closer">, vient à eux.
+	</stage>
 	<l id="23" syll="3" part="m">Écoutez.</l>
 </sp>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
@@ -166,13 +170,15 @@
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="41">Elle est bien endormie, et ne voit, je crois, goutte. </l>
 </sp>
-<sp stage="watch" who="PAQUETTE"><speaker>PAQUETTE, en laissant aller sa tête.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="watch">, en laissant aller sa tête.
+	</stage>
 	<l id="42" syll="3" part="i">Moi, je dors ! </l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="42" syll="3" part="m">Oh ! Que non. </l>
 </sp>
-<sp stage="sleep" who="PAQUETTE"><speaker>PAQUETTE, en dormant encore.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="sleep">, en dormant encore.
+	</stage>
 	<l id="42" syll="3" part="m">Quoi ! Je dors ? </l>
 </sp>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
@@ -193,7 +199,8 @@
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="48">Comment le verrais-tu ? Tu n'ouvres pas les yeux. </l>
 </sp>
-<sp stage="get" who="PAQUETTE"><speaker>PAQUETTE, en le tirant.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="get">, en le tirant.
+	</stage>
 	<l id="49" syll="5" part="i">Tant mieux pour vous, mais... </l>
 </sp>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
@@ -253,17 +260,21 @@
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="68" syll="6" part="f">Paquette a soin de votre honneur. </l>
 </sp>
-<sp stage="aparte" who="PAQUETTE"><speaker>PAQUETTE, à part.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="69" syll="6" part="i">Si ces jeunes gens-ci... </l>
 </sp>
-<sp stage="get/kiss" who="CLÉANTE"><speaker>CLÉANTE, prenant la main de Paquette, et la baisant.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="get/kiss">, prenant la main de Paquette, et la baisant.
+	</stage>
 	<l id="69" syll="6" part="f">Oui, ma chère Isabelle, </l>
 	<l id="70" syll="3" part="i">Je vous aime. </l>
 </sp>
-<sp stage="low" who="PAQUETTE"><speaker>PAQUETTE, bas.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="70" syll="9" part="f">Laissez le galant sans chandelle. </l>
 </sp>
-<sp stage="get" who="CLÉANTE"><speaker>CLÉANTE, sentant que Paquette lui serre la main.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="get">, sentant que Paquette lui serre la main.
+	</stage>
 	<l id="71">Ô transports ! Ô douceurs, qu'on ne peut exprimer ! </l>
 <stage type="toward">À Isabelle, qui le tire du côté où était Paquette.</stage>
 	<l id="72">Laisse-moi là, de grâce, et va-t'en rallumer </l>
@@ -272,7 +283,8 @@
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="73" syll="9" part="f">Il me prend pour Paquette, sans doute. </l>
 </sp>
-<sp stage="toward" who="CLÉANTE"><speaker>CLÉANTE, à Paquette.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="toward">, à Paquette.
+	</stage>
 	<l id="74">Paquette trouve peu son compte à ne voir goutte. </l>
 <stage type="get">Paquette lui serrant la main.</stage>
 	<l id="75">Que ne vous dois-je point par mes soins empressés ? </l>
@@ -329,12 +341,15 @@
 	<l id="85">Si vos faisiez du bruit, on pourrait vous surprendre. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Cléante, Isabelle, Paquette, Monsieur Godard.</head>
-<sp stage="entrance/costume" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, sortant du fonds du théâtre, en robe de chambre, et bonnet de nuit.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Cléante, Isabelle, Paquette, Monsieur Godard.
+</stage>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="entrance/costume">, sortant du fonds du théâtre, en robe de chambre, et bonnet de nuit.
+	</stage>
 	<l id="86">Crions un peu plus haut, pour nous mieux faire entendre. </l>
 	<l id="87">Champagne, l'Angevin, Isabelle, Picard. </l>
 </sp>
-<sp stage="low/toward" who="PAQUETTE"><speaker>PAQUETTE, bas, à Cléante.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="low/toward">, bas, à Cléante.
+	</stage>
 	<l id="88">Ah ! Si l'on me rattrape, en vous veillant si tard...</l>
 </sp>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
@@ -384,7 +399,8 @@
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="102">Ah ! Que je suis fâché d'une telle aventure ! </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à Cléante.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Cléante.
+	</stage>
 	<l id="103">Il faut qu'à quelque coin, vous passiez doucement, </l>
 <stage type="toward">À Isabelle.</stage>
 	<l id="104">Et que vous gagniez, vous, votre appartement. </l>
@@ -402,7 +418,8 @@
 	<l id="107">Champagne, holà, quelqu'un, irai-je vous chercher ? </l>
 	<l id="108">Quoi, donc, ma pauvre Femme est prête d'accoucher. </l>
 </sp>
-<sp stage="closer" who="PAQUETTE"><speaker>PAQUETTE, fait semblant de venir.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="closer">, fait semblant de venir.
+	</stage>
 	<l id="109" syll="4" part="i">Que voulez-vous ? </l>
 </sp>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
@@ -428,8 +445,10 @@
 	<l id="115">Je m'en vais, à tâtons, en chercher, promptement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Godard, Paquette, Picard.</head>
-<sp stage="entrance" who="PICARD"><speaker>PICARD, entrant brusquement, et faisant, presque, tomber Paquette.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Godard, Paquette, Picard.
+</stage>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="entrance">, entrant brusquement, et faisant, presque, tomber Paquette.
+	</stage>
 	<l id="116" syll="6" part="i">Qui vient de m'appeler ? </l>
 </sp>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
@@ -445,17 +464,20 @@
 <stage id="light/walk/hurt">Paquette, et Picard, traversent le Théâtre, à tâtons, et vont à une porte, vis à vis celle d'où Picard est sorti, et se heurtent contre l'Angevin et Torine, qui en sortent avec précipitation. </stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur Godard, Paquette, Picard, Torine, L'Angevin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur Godard, Paquette, Picard, Torine, L'Angevin.
+</stage>
 <sp who="L'ANGEVIN"><speaker>L'ANGEVIN.</speaker>
 	<l id="120" syll="6" part="i">Quel bruit ai-je entendu ? </l>
 </sp>
 <sp who="TORINE"><speaker>TORINE.</speaker>
 	<l id="120" syll="6" part="f">Qui m'appelait si fort ? </l>
 </sp>
-<sp stage="hurt" who="PAQUETTE"><speaker>PAQUETTE, en se cognant contre l'Angevin.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="hurt">, en se cognant contre l'Angevin.
+	</stage>
 	<l id="121" syll="3" part="i">Ah ! L'épaule ! </l>
 </sp>
-<sp stage="hurt" who="PICARD"><speaker>PICARD, se cognant contre Torine.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="hurt">, se cognant contre Torine.
+	</stage>
 	<l id="121" syll="3" part="m">Ah ! Les dents ! </l>
 </sp>
 <sp who="L'ANGEVIN"><speaker>L'ANGEVIN.</speaker>
@@ -474,8 +496,10 @@
 	<l id="123" syll="6" part="i">Quel désordre est-ce ci ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Godard, Paquette, Isabelle, L'Angevin, Picard, Torine.</head>
-<sp stage="exit/location" who="ISABELLE"><speaker>ISABELLE, sortant de la chambre, du fond du Théâtre, d'où est sorti son père.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Godard, Paquette, Isabelle, L'Angevin, Picard, Torine.
+</stage>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="exit/location">, sortant de la chambre, du fond du Théâtre, d'où est sorti son père.
+	</stage>
 	<l id="123" syll="6" part="f">Il tremble, encor, d'effroi. </l>
 <stage type="hesitate/closer/touche">Ils viennent tous cinq, en tâtonnant, entourer Monsieur Godard, qui met la main sur eux. </stage>
 </sp>
@@ -500,7 +524,8 @@
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="126">Quoi ! Pas un n'a l'esprit d'avoir de la lumière ? </l>
 </sp>
-<sp stage="aparte/location" who="CLÉANTE"><speaker>CLÉANTE, à part, en un coin.</speaker>
+<sp who="CLÉANTE"><speaker>CLÉANTE</speaker><stage type="aparte/location">, à part, en un coin.
+	</stage>
 	<l id="127">Avant qu'on en apporte, attrapons le degré, </l>
 	<l id="128" syll="6" part="i">Car la Porte est ouverte. </l>
 </sp>
@@ -511,7 +536,8 @@
 <stage id="narration">Ils se trouvent tous près de la porte, et Cléante parmi eux qui était prêt de sortir. Champagne les fait tomber tous, en arrivant, avec un fusil, et la moitié de ses habits sous son bras, avec un bout de Chandelle. </stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Godard, Isabelle, Paquette, Cléante, L'Angevin, Picard, Torine, Champagne.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Godard, Isabelle, Paquette, Cléante, L'Angevin, Picard, Torine, Champagne.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="131">Le Logis brûle-t-il ? Ou sont-ce les voleurs </l>
 	<l id="132">Qui vous causent, à tous, de si grandes frayeurs ? </l>
@@ -589,7 +615,8 @@
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="147" syll="1" part="f">Moi ? </l>
 </sp>
-<sp stage="low/toward" who="PAQUETTE"><speaker>PAQUETTE, lui parle bas.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="low/toward">, lui parle bas.
+	</stage>
 	<l id="148">Tu l'obligeras, en disant que c'est toi. </l>
 </sp>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
@@ -599,12 +626,14 @@
 	<l id="149" syll="9" part="f">Ne pouvant vous rendre aucun service, </l>
 	<l id="150" syll="6" part="i">Adieu, je me retire. </l>
 </sp>
-<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="150" syll="6" part="f">Ah : Sans cet artifice, </l>
 	<l id="151">Je serais, que je crois, morte, à l'instant, de peur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Godard, Isabelle Paquette, L'Angevin, Torine, Picard, Champagne.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Godard, Isabelle Paquette, L'Angevin, Torine, Picard, Champagne.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="152">Si ma femme accouchait, et si, par ce malheur, </l>
 	<l id="153">Elle perdait la vie, avec votre paresse, </l>
@@ -629,7 +658,8 @@
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="162" syll="9" part="f">Je ne veux, jamais, que l'on raisonne. </l>
 </sp>
-<sp stage="stop" who="L'ANGEVIN"><speaker>L'ANGEVIN, arrêtant Champagne.</speaker>
+<sp who="L'ANGEVIN"><speaker>L'ANGEVIN</speaker><stage type="stop">, arrêtant Champagne.
+	</stage>
 	<l id="163" syll="3" part="i">Où vas-tu ? </l>
 </sp>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
@@ -686,15 +716,18 @@
 	<l id="180">Je vais voir, cependant, ce que l'on fait là-haut. </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Champagne, Isabelle.</head>
-<sp stage="down/dress" who="CHAMPAGNE"><speaker>CHAMPAGNE, se mettant à terre, pour s'habiller.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Champagne, Isabelle.
+</stage>
+<sp who="CHAMPAGNE"><speaker>CHAMPAGNE</speaker><stage type="down/dress">, se mettant à terre, pour s'habiller.
+	</stage>
 	<l id="181">Que c'est une amitié belle, et bien exemplaire, </l>
 	<l id="182">Que celle de Monsieur, avecque votre Mère ! </l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="183">Ne philosophe point, va, vite, seulement. </l>
 </sp>
-<sp stage="dress" who="CHAMPAGNE"><speaker>CHAMPAGNE, prenant un de ses bas.</speaker>
+<sp who="CHAMPAGNE"><speaker>CHAMPAGNE</speaker><stage type="dress">, prenant un de ses bas.
+	</stage>
 	<l id="184">Çà, je vais m'achever d'habiller, promptement, </l>
 	<l id="185">Vous me le permettez, puisque l'affaire presse. </l>
 </sp>
@@ -789,7 +822,8 @@
 	<l id="225" syll="6" part="i">Car l'obstination... </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur Godard, Isabelle, Champagne.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur Godard, Isabelle, Champagne.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="225" syll="6" part="f">Ma fille, le mal presse. </l>
 </sp>
@@ -829,10 +863,12 @@
 	<l id="236">Mais, je ne suis pas bien, encore, sans Rabat, </l>
 	<l id="237">Il en faut, pour aller chez une sage-femme. </l>
 </sp>
-<sp stage="hit" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, le battant.</speaker>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="hit">, le battant.
+	</stage>
 	<l id="238">Un rabat ! Ah ! Bourreau, je t'arracherai l'âme. </l>
 </sp>
-<sp stage="toward/stop" who="ISABELLE"><speaker>ISABELLE, à Champagne, en arrêtant son père.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward/stop">, à Champagne, en arrêtant son père.
+	</stage>
 	<l id="239">Va-t'en, donc, promptement, et ne fait que voler, </l>
 	<l id="240" syll="6" part="i">Qu'aller, et revenir. </l>
 </sp>
@@ -855,7 +891,8 @@
 	<l id="245" syll="6" part="i">Mais, Oriane vient. </l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Monsieur Godard, Oriane, Isabelle.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Monsieur Godard, Oriane, Isabelle.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="245" syll="6" part="f">Je suis fâché, Madame, </l>
 	<l id="246">De vous avoir, la nuit, fait lever pour ma femme ; </l>
@@ -882,7 +919,8 @@
 	<l id="254" syll="10" part="f">Elle sait bien que je suis sa Servante. </l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Monsieur Godard, Isabelle.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Monsieur Godard, Isabelle.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="255">Quand on est marié, que l'on est malheureux ! </l>
 	<l id="256">Et que le Mariage est un joug rigoureux ! </l>
@@ -914,7 +952,8 @@
 	<l id="269">Il est trop jeune encor, et... Mais, voici Champagne. </l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Monsieur Godard, Isabelle, Champagne.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Monsieur Godard, Isabelle, Champagne.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="270">Je pense, qu'aujourd'hui, tout malheur m'accompagne. </l>
 </sp>
@@ -1035,7 +1074,8 @@
 	<l id="331">Sans Lumière, j'ai cru, que je ne pouvais pas </l>
 	<l id="332" syll="6" part="i">Bien trouver son Logis. </l>
 </sp>
-<sp stage="" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, le battant.</speaker>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="">, le battant.
+	</stage>
 	<l id="332" syll="6" part="f">Je te romprai les bras. </l>
 </sp>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
@@ -1052,7 +1092,8 @@
 	<l id="336" syll="6" part="f">Quelle maison ! Quels gens ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Monsieur Godard, Isabelle, Paquette, Champagne.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Monsieur Godard, Isabelle, Paquette, Champagne.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="337">Ah ! Monsieur, ah ! Monsieur, je pense que Madame </l>
 	<l id="338">Pourrait bien accoucher, dans peu, sans sage-femme : </l>
@@ -1081,7 +1122,8 @@
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="346" syll="9" part="f">Eh ! Qu'enfin, la sage-femme vienne. </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à Champagne.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Champagne.
+	</stage>
 	<l id="347">Hé quoi ! Tu n'as rien fait ? Et pour quelle raison ? </l>
 </sp>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
@@ -1095,14 +1137,17 @@
 	<l id="352">Et pour la secourir, ne perdons point de temps. </l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Paquette, Champagne.</head>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à Champagne.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Paquette, Champagne.
+</stage>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Champagne.
+	</stage>
 	<l id="353">Ah ! Je t'étranglerai, traître, si ta paresse </l>
 	<l id="354">Cause, aujourd'hui, la mort à ma pauvre maîtresse. </l>
 	<l id="355">Va chez la sage-femme ; et si dans un moment... </l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Picard, Paquette, Champagne.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Picard, Paquette, Champagne.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="356">De toi, je ne reçois aucun commandement. </l>
 </sp>
@@ -1202,7 +1247,8 @@
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="378" syll="2" part="i">Bats, donc. </l>
 </sp>
-<sp stage="hit" who="PICARD"><speaker>PICARD, reçoit des coups.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="hit">, reçoit des coups.
+	</stage>
 	<l id="378" syll="10" part="f">Il n'est pas temps que ce courroux éclate. </l>
 </sp>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
@@ -1211,14 +1257,16 @@
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="379" syll="6" part="f">Je cherche à me venger. </l>
 </sp>
-<sp stage="hurt" who="PICARD"><speaker>PICARD, sentant les coups.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="hurt">, sentant les coups.
+	</stage>
 	<l id="380" syll="2" part="i">Ah, ah. </l>
 </sp>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 <note type="L">Dévisager : Blesser quelqu'un au visage, en sorte qu'il en soit défiguré et gâté. [F]</note>
 	<l id="380" syll="10" part="f">Laisse-moi faire, et le dévisager. </l>
 </sp>
-<sp stage="separate" who="PICARD"><speaker>PICARD, les séparant avec force.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="separate">, les séparant avec force.
+	</stage>
 	<l id="381">Retirez-vous, tous deux, car le courroux m'emporte, </l>
 <note type="L">Porter : Soufrir, endurer. [FC]</note>
 	<l id="382">Vous vous donnez des coups, et c'est moi qui les porte. </l>
@@ -1247,7 +1295,8 @@
 	<l id="389" syll="3" part="i">Il suffit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Monsieur Godard, Paquette.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Monsieur Godard, Paquette.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="389" syll="6" part="f">Sans rien faire du tout, voilà la nuit passée, </l>
 	<l id="390">Et, cependant, ma Femme est, tout à fait, pressée. </l>
@@ -1297,7 +1346,8 @@
 	<l id="417">Bon courage, Monsieur, voici la sage-femme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Monsieur Godard, Paquette, Picard, Champagne, la sage-femme.</head> 
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Monsieur Godard, Paquette, Picard, Champagne, la sage-femme. 
+</stage> 
 <stage id="carry/light">Picard porte le flambeau devant la sage-femme, et Champagne lui sert d'Écuyer.</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="418">Nous la tenons, enfin : place, place à Madame. </l>
@@ -1305,7 +1355,8 @@
 	<l id="419">À la fin, pour ce coup, Monsieur, j'ai réussi, </l>
 	<l id="420">Puisqu'enfin, vous voyez la sage-femme, ici.</l>
 </sp>
-<sp stage="slep" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, lui donnant un soufflet.</speaker>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="slep">, lui donnant un soufflet.
+	</stage>
 	<l id="421">Tu m'as fait enrager, ôte-toi de ma vue. </l>
 <stage type="toward/kiss">À la sage-femme, qu'il embrasse avec joie.</stage>
 	<l id="422">Ma femme, impatiente, attend votre venue, </l>
@@ -1317,16 +1368,19 @@
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="424">Je disais bien, tantôt, que son mal n'était rien. </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à Picard, et à Champagne.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Picard, et à Champagne.
+	</stage>
 	<l id="425">Allez-vous-en, tous deux, chez Madame Toinette, </l>
 	<l id="426">De l'enfant qu'on attend, demander la layette : </l>
 	<l id="427">Revenez promptement, ce n'est pas loin d'ici. </l>
 </sp>
-<sp stage="toward" who="CHAMPAGNE"><speaker>CHAMPAGNE, à Picard.</speaker>
+<sp who="CHAMPAGNE"><speaker>CHAMPAGNE</speaker><stage type="toward">, à Picard.
+	</stage>
 	<l id="428">Viens, par même moyen, nous irons boire aussi. </l>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Monsieur Godard, La sage-femme, Paquette.</head> 
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Monsieur Godard, La sage-femme, Paquette. 
+</stage> 
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="429">Ne perdons point de temps, courons vite, Madame, </l>
 	<l id="430">Et ne négligeons rien, pour secourir ma Femme. </l>
@@ -1390,7 +1444,8 @@
 	<l id="442">Nous en avons, vous dis-je, à quoi bon ce langage ? </l>
 	<l id="443">Oui, oui, nous en avons, ne vous tourmentez plus. </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à la sage-femme.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à la sage-femme.
+	</stage>
 	<l id="444">À quoi servent, aussi, ces discours superflus ? </l>
 	<l id="445" syll="6" part="i">On a de tout céans. </l>
 </sp>
@@ -1430,7 +1485,8 @@
 	<l id="459">On m'est venu chercher, encor, d'un autre endroit ; </l>
 	<l id="460">Mais j'ai bien mieux aimé venir, ici, tout droit. </l>
 </sp>
-<sp stage="low" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, bas le demi vers.</speaker>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="low">, bas le demi vers.
+	</stage>
 	<l id="461">Peste soit du caquet. De cette préférence, </l>
 	<l id="462">J'aurai, je vous promets, grande reconnaissance. </l>
 	<l id="463" syll="6" part="i">Allons, donc, sans tarder. </l>
@@ -1465,25 +1521,31 @@
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="476">Hé ! Mon_Dieu, l'on connait votre capacité. </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à la sage-femme.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à la sage-femme.
+	</stage>
 	<l id="477">Voulez-vous, de ce pas, venir trouver Madame ? </l>
 	<l id="478">Sinon, l'on va quérir une autre sage-femme. </l>
 </sp>
-<sp stage="toward" who="LA SAGE-FEMME"><speaker>LA SAGE-FEMME, à Paquette.</speaker>
+<sp who="LA SAGE-FEMME"><speaker>LA SAGE-FEMME</speaker><stage type="toward">, à Paquette.
+	</stage>
 	<l id="479" syll="6" part="i">Ce n'est pas votre affaire. </l>
 </sp>
-<sp stage="toward" who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD, à la sage-femme.</speaker>
+<sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD</speaker><stage type="toward">, à la sage-femme.
+	</stage>
 	<l id="479" syll="6" part="f">Allez, près d'elle, aussi, </l>
 	<l id="480">Et vous causerez là, tout aussi bien, qu'ici. </l>
 </sp>
-<sp stage="turn" who="LA SAGE-FEMME"><speaker>LA SAGE-FEMME, se tournant vers Paquette.</speaker>
+<sp who="LA SAGE-FEMME"><speaker>LA SAGE-FEMME</speaker><stage type="turn">, se tournant vers Paquette.
+	</stage>
 	<l id="481">J'y vais, et ce n'est point pour ta sotte menace. </l>
 </sp>
-<sp stage="toward" who="PAQUETTE"><speaker>PAQUETTE, à Godard.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="toward">, à Godard.
+	</stage>
 	<l id="482">Elle croit, en gagnant, vous faire, encor, grâce. </l>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE XIX. Isabelle, Monsieur Godard, Paquette.</head>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Isabelle, Monsieur Godard, Paquette.
+</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="483" syll="6" part="i">Ma mère vous demande. </l>
 </sp>
@@ -1499,8 +1561,10 @@
 	<l id="486">Sans doute, elle prétend me parler de sa flamme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÈNE XX. Isabelle, Paquette.</head>
-<sp stage="away/quick" who="ISABELLE"><speaker>ISABELLE, passant, vite.</speaker>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Isabelle, Paquette.
+</stage>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="away/quick">, passant, vite.
+	</stage>
 	<l id="487">Je vais chercher quelqu'un, qui puisse, promptement, </l>
 	<l id="488">En aller, de ma part, avertir mon amant. </l>
 </sp>
@@ -1509,7 +1573,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="21"><head>SCÈNE XXI.</head>
-<sp stage="alone" who="PAQUETTE"><speaker>PAQUETTE, seule.</speaker>
+<sp who="PAQUETTE"><speaker>PAQUETTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="489" syll="2" part="f">Elle l'aime </l>
 	<l id="490">D'une amour très parfaite, et qu'on peut dire, extrême. </l>
 	<l id="491">Si sa Mère mourait, toutefois, je sais bien </l>
@@ -1520,7 +1585,8 @@
 <stage type="exit">Elle rentre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="23"><head>SCÈNE XXII. Champagne, Picard apportant la Layette.</head>
+<div2 type="scene" n="23"><head>SCÈNE XXII.</head><stage> Champagne, Picard apportant la Layette.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="495">Ma foi, le vin est bon dedans ce cabaret : </l>
 <note type="L">Clairet : D'un rouge clair, en parlant du vin. [L]</note>
@@ -1531,7 +1597,8 @@
 <sp who="PICARD"><speaker>PICARD.</speaker>
 	<l id="497" syll="6" part="f">Il donne dans la tête. </l>
 </sp>
-<sp stage="aparte" who="CHAMPAGNE"><speaker>CHAMPAGNE, à part.</speaker>
+<sp who="CHAMPAGNE"><speaker>CHAMPAGNE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="498">Je veux me divertir de cette grosse bête ; </l>
 	<l id="499">Étant ivre à demi, je crois que j'en ferai, </l>
 	<l id="500">Sans qu'il s'oppose à rien, tout ce que je voudrai. </l>
@@ -1623,7 +1690,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="23"><head>SCÈNE XXIII.</head>
-<sp stage="alone" who="PICARD"><speaker>PICARD, seul.</speaker>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="540" syll="10" part="f">Ouhais ! Ouhais ! Ouhais ! C'est assez, mais, </l>
 	<l id="541">Que prétendrait-il faire, avec sa Bouillie ? </l>
 	<l id="542">Croit-il que, sur ce point, j'entende raillerie ? </l>
@@ -1631,7 +1699,8 @@
 	<l id="544">Et ne me rendrai pas ridicule à ce point. </l>
 </sp>
 </div2>
-<div2 type="scene" n="24"><head>SCÈNE XXIV. Champagne, Picard.</head>
+<div2 type="scene" n="24"><head>SCÈNE XXIV.</head><stage> Champagne, Picard.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="545">Tiens, voilà, pour hochet, ce que nous devons prendre. </l>
 </sp>
@@ -1684,7 +1753,8 @@
 	<l id="560">Le sommeil l'a surpris, sortons, sans faire de bruit. </l>
 </sp>
 </div2>
-<div2 type="scene" n="25"><head>SCÈNE XXV. Cléante, Isabelle, Picard.</head>
+<div2 type="scene" n="25"><head>SCÈNE XXV.</head><stage> Cléante, Isabelle, Picard.
+</stage>
 <sp who="CLÉANTE"><speaker>CLÉANTE.</speaker>
 	<l id="561" syll="6" part="i">Éclaircissez-moi, donc. </l>
 </sp>
@@ -1720,7 +1790,8 @@
 	<l id="572">Qui ne peut se servir de jambes, ni de bras, </l>
 	<l id="573">Est-il dans un état, à faire diligence ? </l>
 </sp>
-<sp stage="drop" who="ISABELLE"><speaker>ISABELLE, lui détachant sa bande.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="drop">, lui détachant sa bande.
+	</stage>
 	<l id="574">Va-t'en, donc, à présent, car ton impertinence </l>
 	<l id="575">Ne peut être soufferte, en un temps, où céans </l>
 	<l id="576">On devrait, de douleur, voir pleurer tous les Gens. </l>
@@ -1729,11 +1800,13 @@
 	<l id="577">Je vais me dépêcher, soyez moins inquiète. </l>
 </sp>
 </div2>
-<div2 type="scene" n="26"><head>SCÈNE XXVI. Isabelle, Cléante, Picard, Oriane.</head>
+<div2 type="scene" n="26"><head>SCÈNE XXVI.</head><stage> Isabelle, Cléante, Picard, Oriane.
+</stage>
 <sp who="ORIANE"><speaker>ORIANE.</speaker>
 	<l id="578">Vite, Madame accouche, apportez la layette. </l>
 </sp>
-<sp stage="show" who="ISABELLE"><speaker>ISABELLE, montrant Picard.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="show">, montrant Picard.
+	</stage>
 	<l id="579" syll="6" part="i">La voilà. </l>
 </sp>
 <sp who="ORIANE"><speaker>ORIANE.</speaker>
@@ -1758,7 +1831,8 @@
 	<l id="584">Et, pour toi, de ma vue, ôte-toi, promptement. </l>
 </sp>
 </div2>
-<div2 type="scene" n="27"><head>SCÈNE XXVII. Cléante, Champagne, Isabelle.</head>
+<div2 type="scene" n="27"><head>SCÈNE XXVII.</head><stage> Cléante, Champagne, Isabelle.
+</stage>
 <sp who="CHAMPAGNE"><speaker>CHAMPAGNE.</speaker>
 	<l id="585">Vivat, vivat, vivat, allégresse, allégresse, </l>
 	<l id="586">Chassez, de votre Esprit, désormais, la tristesse ; </l>
@@ -1797,7 +1871,8 @@
 	<l id="604">Si nous devons, encor, conserver quelque espoir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="28"><head>SCÈNE XXVIII. Cléante, Isabelle, Champagne, Paquette.</head>
+<div2 type="scene" n="28"><head>SCÈNE XXVIII.</head><stage> Cléante, Isabelle, Champagne, Paquette.
+</stage>
 <sp who="PAQUETTE"><speaker>PAQUETTE.</speaker>
 	<l id="605">Puisque vous le voulez, je m'en vais vous le dire, </l>
 	<l id="606">Et, par ordre, de tout, je prétends vous instruire. </l>
@@ -1878,7 +1953,8 @@
 	<l id="660">A fait voir le contraire, et nous a, tous, surpris. </l>
 </sp>
 </div2>
-<div2 type="scene" n="29"><head>SCÈNE XXIX. Cléante, Godard, Isabelle, Paquette, Champagne.</head>
+<div2 type="scene" n="29"><head>SCÈNE XXIX.</head><stage> Cléante, Godard, Isabelle, Paquette, Champagne.
+</stage>
 <sp who="MONSIEUR GODARD"><speaker>MONSIEUR GODARD.</speaker>
 	<l id="661">Enfin, le juste ciel couronne votre flamme : </l>
 	<l id="662">Mais, venez-en, tous deux, remercier ma femme. </l>

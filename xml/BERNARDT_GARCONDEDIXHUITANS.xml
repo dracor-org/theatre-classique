@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">Saynète jouée en mai 1913 au Théâtre Sarah-Bernhardt</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,17 +38,17 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>EUGÉNIE</role>. Mme Sarah Bernhardt.</castItem>
-		<castItem><role id="PROSPER" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>PROPSER</role>, son mari. M. Tristan Bernard.</castItem>
-		<castItem><role id="ALBERT" sex="1" type="H" statut="bourgeois" age="J" stat_amour=''>ALBERT</role>, 18 ans. Félix Grouillet.</castItem>
+		<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">EUGÉNIE</role>. Mme Sarah Bernhardt.</castItem>
+		<castItem><role id="PROSPER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">PROPSER</role>, son mari. M. Tristan Bernard.</castItem>
+		<castItem><role id="ALBERT" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">ALBERT</role>, 18 ans. Félix Grouillet.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 131-154</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UN GARÇON DE DIX-HUIT ANS</head>
 <stage type="decor">La scène est à Paris de nos jours ; un salon cossu du seizième arrondissement.</stage>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="sit/read/work">Au lever du rideau, Prosper et Eugénie sont assis de
 chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouvrage de dames. Il est un peu moins de minuit.</stage>
 <sp who="PROSPER"><speaker>PROSPER.</speaker>
@@ -195,7 +195,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 </p>
 <stage type="away">Prosper s'éloigne.</stage>
 </sp>
-<sp stage="smoke" who="PROSPER"><speaker>PROSPER, allant bourrer sa pipe.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="smoke">, allant bourrer sa pipe.
+</stage>
 <p id="25">
 	<s id="">Je prends du tabac. </s>
 </p>
@@ -216,7 +217,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="2">Tu sais qu'il est parfois distrait.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="EUGÉNIE"><speaker>EUGÉNIE, coupant court à cet entretien</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="interrupt">, coupant court à cet entretien
+</stage>
 <p id="29">
 	<s id="1">On va aller se coucher, va... </s>
 	<s id="2">Bonsoir, mon vieux !</s>
@@ -259,7 +261,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 </p>
 <stage type="narration">Ils s'en vont dans leur chambre. Eugénie, en s'en allant, éteint l'électricité. Nuit sur la scène. L'instant d'après, Eugénie sort de sa chambre, va jusqu'à la fenêtre, colle son front au carreau. Elle prête l'oreille à un roulement de voiture, puis essaie de regarder par la fenêtre. Comme elle ne voit pas s'il y a une voiture contre le trottoir, elle ouvre doucement le battant.</stage>
 </sp>
-<sp stage="entrance/light" who="PROSPER"><speaker>PROSPER, entrant et faisant la lumière.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="entrance/light">, entrant et faisant la lumière.
+</stage>
 <p id="35">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Qu'est-ce que tu fais là, toi ?</s>
@@ -338,7 +341,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="1">Ça me semble absolument impossible que ce soit lui.</s>
 </p>
 </sp>
-<sp stage="open" who="EUGÉNIE"><speaker>EUGÉNIE, qui est allée ouvrir la fenêtre.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="open">, qui est allée ouvrir la fenêtre.
+</stage>
 <p id="48">
 	<s id="1">Non, il n'y a pas d'auto devant la maison.</s>
 </p>
@@ -372,7 +376,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="2">Je n'y tiens pas, on va aller se recoucher tranquillement.</s>
 </p>
 </sp>
-<sp stage="untouch" who="EUGÉNIE"><speaker>EUGÉNIE, d'un ton détaché.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="untouch">, d'un ton détaché.
+</stage>
 <p id="54">
 	<s id="1">Est-ce que c'est bien fréquenté, ces boîtes de Montmartre ?</s>
 </p>
@@ -470,7 +475,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="2">Tu ne touches pas de bois, mais tu n'es pas fâché quand j'en touche pour nous deux.</s>
 </p>
 </sp>
-<sp stage="sweet" who="PROSPER"><speaker>PROSPER, engageant.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="sweet">, engageant.
+</stage>
 <p id="72">
 	<s id="1">Allons, un besigue ?</s>
 </p>
@@ -488,7 +494,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="4">Il n'y a jamais d'attaques nocturnes dans le quartier.</s>
 </p>
 </sp>
-<sp stage="anxious" who="EUGÉNIE"><speaker>EUGÉNIE, d'une voix blanche.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="anxious">, d'une voix blanche.
+</stage>
 <p id="75">
 	<s id="1">Il y en a eu une il y a quelques mois... </s>
 	<s id="2">Tu le sais bien. </s>
@@ -528,7 +535,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="4">Tu es folle...</s>
 </p>
 </sp>
-<sp stage="LISTEN" who="EUGÉNIE"><speaker>EUGÉNIE, écoutant.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="LISTEN">, écoutant.
+</stage>
 <p id="81">
 	<s id="1">Une voiture !...</s>
 </p>
@@ -623,23 +631,27 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="3">Oh, mon_Dieu !</s>
 </p>
 </sp>
-<sp stage="cry" who="PROSPER"><speaker>PROSPER, geignant.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="cry">, geignant.
+</stage>
 <p id="96">
 	<s id="1">Oh, mon_Dieu ! </s>
 	<s id="2">C'est terrible d'avoir affaire à une femme qui ne garde pas son sang-froid...</s>
 </p> 
 </sp>
-<sp stage="cry" who="EUGÉNIE"><speaker>EUGÉNIE, pleurant.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="97">
 	<s id="1">Avec ça que tu l'as, ton sang-froid !</s>
 </p>
 </sp>
-<sp stage="cry" who="PROSPER"><speaker>PROSPER, de même.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="cry">, de même.
+</stage>
 <p id="98">
 	<s id="1">C'est toi qui me le fais perdre.</s>
 </p>
 </sp>
-<sp stage="cry" who="EUGÉNIE"><speaker>EUGÉNIE, pleurant.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="99">
 	<s id="1">Tu le perds bien tout seul.</s>
 </p>
@@ -649,18 +661,21 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="1">Je vais téléphoner pour faire quelque chose.</s>
 </p>
 </sp>
-<sp stage="cry" who="EUGÉNIE"><speaker>EUGÉNIE, pleurant.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="101">
 	<s id="1">Oh, mon pauvre petit !...</s>
 </p>
 </sp>
-<sp stage="cry" who="PROSPER"><speaker>PROSPER, pleurant.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="102">
 	<s id="1">Ma pauvre chérie, tais-toi, sois un petit peu calme ! </s>
 	<s id="2">Aie du courage, de l'énergie !</s>
 </p>
 </sp>
-<sp stage="cry" who="EUGÉNIE"><speaker>EUGÉNIE, pleurant.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="103">
 	<s id="1">Je ne peux plus ! </s>
 	<s id="2">Je ne peux plus ! </s>
@@ -721,7 +736,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 </p>
 <stage type="away/slow/exit/noise">Il s'en va à petits pas, les jambes lourdes et disparaît dans l'antichambre. Bruit de voix.</stage>
 </sp>
-<sp stage="entrance/smile" who="PROSPER"><speaker>PROSPER, reparaissant souriant.</speaker>
+<sp who="PROSPER"><speaker>PROSPER</speaker><stage type="entrance/smile">, reparaissant souriant.
+</stage>
 <p id="114">
 	<s id="1">C'est lui, le mauvais sujet... </s>
 	<s id="2">Il avait oublié sa clef.... </s>
@@ -762,7 +778,8 @@ chaque côté d'une table, Prosper lit son journal. Eugénie travaille à un ouv
 	<s id="1">Dis-lui d'aller se coucher !</s>
 </p>
 </sp>
-<sp stage="weak" who="EUGÉNIE"><speaker>EUGÉNIE, faiblement.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="weak">, faiblement.
+</stage>
 <p id="121">
 	<s id="1">Va te coucher !</s>
 </p>

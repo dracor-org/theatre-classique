@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,26 +29,27 @@
 			<titlePart type="main">LE CAMÉLIA</titlePart>
 			<titlePart type="sub">Représentée pour le première fois le 8 novembre 1877.</titlePart>
 		</docTitle> 
-		<docDate value='1884'>1884</docDate>
+		<docDate value="1884">1884</docDate>
 		<docAuthor id="CARRANCE, Évarite">Évatiste CARRANCE</docAuthor>
 		<docImprint>
 			<editor id="MASSON">AGEN, LIBRAIRIE DU COMITÉ POÉTIQUE ET DE LA REVUE FRANÇAISE, 6, rue du saumon, 8</editor>
 			<printer id="LENTHERIC">AGEN, V. LENTHERIC, Juin 1890.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE COMTE HERMAN " sex="1" type="H" statut="comte" age='A' stat_amour='néant'>LE COMTE HERMAN</role>, député.</castItem>
-			<castItem><role id="LÉON DE VILLEQUIER" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>LÉON DE VILLEQUIER</role>.</castItem>
-			<castItem><role id="CLAIRE DE VILLEQUIER" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>CLAIRE DE VILLEQUIER</role>, sa femme.</castItem>
-			<castItem><role id="HÉLÉNA DE VISCONTI" sex="2" type="H" statut="cantatrice" age='A' stat_amour='néant'>HÉLÉNA DE VISCONTI</role>.</castItem>
-			<castItem><role id="DURAND DE CHAMPEVAL" sex="1" type="H" statut="numismate" age='A' stat_amour='néant'>DURAND DE CHAMPEVAL</role>.</castItem>
-			<castItem><role id="LE MAGISTRAT" sex="1" type="H" statut="magistrat" age='A' stat_amour='néant'>LE MAGISTRAT</role>.</castItem>
+			<castItem><role id="LE COMTE HERMAN " sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE HERMAN</role>, député.</castItem>
+			<castItem><role id="LÉON DE VILLEQUIER" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">LÉON DE VILLEQUIER</role>.</castItem>
+			<castItem><role id="CLAIRE DE VILLEQUIER" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">CLAIRE DE VILLEQUIER</role>, sa femme.</castItem>
+			<castItem><role id="HÉLÉNA DE VISCONTI" sex="2" type="H" statut="cantatrice" age="A" stat_amour="néant">HÉLÉNA DE VISCONTI</role>.</castItem>
+			<castItem><role id="DURAND DE CHAMPEVAL" sex="1" type="H" statut="numismate" age="A" stat_amour="néant">DURAND DE CHAMPEVAL</role>.</castItem>
+			<castItem><role id="LE MAGISTRAT" sex="1" type="H" statut="magistrat" age="A" stat_amour="néant">LE MAGISTRAT</role>.</castItem>
 	</castList>
 	<set location="Versailles" country="France" periode="XIXème" gps="48.801408, 2.130122">Une vaste salle donnant sur un jardin. La scène se passe a Versailles sous l'empire.</set>
 	<note>Texte extrait de "Théâtre complet de Évariste Carrance".- Agen : Librairie du comité poétique et de la revue française. pp 205-204.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE CAMÉLIA</head>
-<div2 stage="sit" type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Comte, Claire, assis en face l'un de l'autre.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="sit"> Le Comte, Claire, assis en face l'un de l'autre.
+</stage>
 <sp who="CLAIRE"><speaker>CLAIRE.</speaker>
 <p id="1">
 	<s id="1">Ainsi, Monsieur_le_Comte, vous partez demain.</s>
@@ -84,7 +85,8 @@
 	<s id="3">Voyons, Madame, ne voulez-vous pas me donner ce camélia qui pare votre coiffure ?</s>
 </p>
 </sp>
-<sp stage="wave" who="CLAIRE"><speaker>CLAIRE, secouant négativement la tête.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="wave">, secouant négativement la tête.
+</stage>
 <p id="7">
 	<s id="1">Ne vous laissez pas aller au découragement... </s>
 	<s id="2">Vous êtes jeune, vous êtes riche, vous êtes puissant, vous trouverez de brillantes consolatrices.</s>
@@ -118,7 +120,8 @@
 	<s id="1">C'est le langage de la raison que vous me faites entendre, madame, et ce langage je veux l'écouter ; pardonnez-moi de venir jeter une ombre sur votre vie si pure.</s>
 </p>
 </sp>
-<sp stage="stand/quick" who="CLAIRE"><speaker>CLAIRE, se levant et parlant vivement.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="stand/quick">, se levant et parlant vivement.
+</stage>
 <p id="12">
 	<s id="1">Ainsi c'est entendu, vous êtes mon ami, et vous êtes celui de Monsieur_de_Villequier.</s>
 </p>
@@ -164,13 +167,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE II. Les Mêmes, Hélèna.</head>
+<div2 type="scene" n=""><head>SCÈNE II.</head><stage> Les Mêmes, Hélèna.
+</stage>
 <sp who="HÉLÈNA"><speaker>HÉLÈNA.</speaker>
 <p id="1">
 	<s id="1">Inutile de m'annoncer, je veux surprendre mes amis.</s>
 </p>
 </sp>
-<sp stage="happy" who="CLAIRE"><speaker>CLAIRE, avec joie.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="2">
 	<s id="1">Hélèna_Visconti, quel merveilleux hasard...</s>
 </p>
@@ -237,7 +242,8 @@
 	<s id="1">Oui, j'ai juré de ne jamais préférer personne.</s>
 </p>
 </sp>
-<sp stage="" who="LE COMTE"><speaker>LE COMTE, ému.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="">, ému.
+</stage>
 <stage type="aparte">À part.</stage>
 <p id="14">
 	<s id="1">Aussi sage que belle.</s>
@@ -305,7 +311,8 @@
 	<s id="1">L'amitié ne l'est jamais, Monsieur_le_Comte.</s>
 </p>
 </sp>
-<sp stage="toward" who="HÉLÈNA"><speaker>HÉLÈNA, au Comte.</speaker>
+<sp who="HÉLÈNA"><speaker>HÉLÈNA</speaker><stage type="toward">, au Comte.
+</stage>
 <p id="26">
 	<s id="1">Offrez-moi votre bras pour me conduire jusqu'à ma voiture.</s>
 </p>
@@ -328,7 +335,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="CLAIRE"><speaker>CLAIRE, seule. </speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="alone">, seule. 
+</stage>
 <stage type="sit">Elle s'assied.</stage>
 <p id="1">
 	<s id="1">Mon père ne revient pas. </s>
@@ -338,7 +346,8 @@
 <stage type="stand">Elle se lève.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Claire, Durand.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Claire, Durand.
+</stage>
 <sp who="DURAND"><speaker>DURAND.</speaker>
 <p id="1">
 	<s id="1">Adieu petite, tu es toute charmante ce matin.</s>
@@ -463,7 +472,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="CLAIRE"><speaker>CLAIRE, seule.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Enfin ! </s>
 	<s id="2">Je croyais qu'il ne partirait pas. </s>
@@ -488,7 +498,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="CLAIRE"><speaker>CLAIRE, seule.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Je ne puis défendre mon esprit contre la tristesse qui l'envahit. </s>
 	<s id="2">Ce qui se passe en moi est étrange !... </s>
@@ -504,7 +515,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Claire, Léon.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Claire, Léon.
+</stage>
 <sp who="LÉON"><speaker>LÉON.</speaker>
 <p id="1">
 	<s id="1">C'est moi. </s>
@@ -674,7 +686,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, plus Hélèna.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, plus Hélèna.
+</stage>
 <sp who="HÉLÈNA"><speaker>HÉLÈNA.</speaker>
 <p id="1">
 	<s id="1">Mademoiselle Hélèna_Visconti.</s>
@@ -758,7 +771,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, plus un Magistrat du dehors.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, plus un Magistrat du dehors.
+</stage>
 <sp who="LE MAGISTRAT"><speaker>LE MAGISTRAT.</speaker>
 <p id="1">
 	<s id="1">Au nom de la loi, ouvrez !</s>
@@ -774,19 +788,22 @@
 	<s id="1">Qu'est-ce donc ?</s>
 </p>
 </sp>
-<sp stage="open/proud" who="LÉON"><speaker>LÉON, allant vers la porte avec dignité.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage type="open/proud">, allant vers la porte avec dignité.
+</stage>
 <p id="4">
 	<s id="1">Du calme ! </s>
 	<s id="2">Nous allons le savoir. </s>
 </p>
 <stage type="open/entrance">Il ouvre la porte, un magistrat se présente.</stage>
 </sp>
-<sp stage="wave" who="LE MAGISTRAT"><speaker>LE MAGISTRAT, agitant un papier.</speaker>
+<sp who="LE MAGISTRAT"><speaker>LE MAGISTRAT</speaker><stage type="wave">, agitant un papier.
+</stage>
 <p id="5">
 	<s id="1">Au nom de la loi !</s>
 </p>
 </sp>
-<sp stage="cold" who="LÉON"><speaker>LÉON, avec sang-froid.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage type="cold">, avec sang-froid.
+</stage>
 <p id="6">
 	<s id="1">Un Français lui doit toujours obéissance, Monsieur.</s>
 </p>
@@ -796,12 +813,14 @@
 	<s id="1">Est-ce à Monsieur Léon_de_Villequier que j'ai l'honneur de parler ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLAIRE"><speaker>CLAIRE, à part.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">Le malheur que j'avais prévu.</s>
 </p>
 </sp>
-<sp who="LÉON"><speaker>LÉON, au magistrat.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage>, au magistrat.
+</stage>
 <p id="9">
 	<s id="1">Oui Monsieur.</s>
 </p>
@@ -811,7 +830,8 @@
 	<s id="1">Vous êtes mon prisonnier.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LÉON"><speaker>LÉON, avec ironie.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage type="ironic">, avec ironie.
+</stage>
 <p id="11">
 	<s id="1">Quel est le crime dont on m'accuse ?</s>
 </p>
@@ -821,13 +841,15 @@
 	<s id="1">Je n'ai pas à vous répondre, Monsieur, une voiture nous attend, suivez-moi.</s>
 </p>
 </sp>
-<sp stage="estonish" who="CLAIRE"><speaker>CLAIRE, avec stupeur.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="estonish">, avec stupeur.
+</stage>
 <p id="13">
 	<s id="1">Mon mari... </s>
 	<s id="2">Non, Monsieur, il ne vous suivra pas.</s>
 </p>
 </sp>
-<sp stage="aparte" who="HÉLÈNA"><speaker>HÉLÈNA, à part.</speaker>
+<sp who="HÉLÈNA"><speaker>HÉLÈNA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Pauvre jeune femme.</s>
 </p>
@@ -837,13 +859,15 @@
 	<s id="1">Laisse-moi partir, ma bonne Claire, laisse-moi partir la tête haute et la conscience tranquille, l'honnête homme ne doit rien redouter, j'ai fait mon devoir de républicain sincère.</s>
 </p>
 </sp>
-<sp stage="kneel" who="CLAIRE"><speaker>CLAIRE, à genoux.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="kneel">, à genoux.
+</stage>
 <p id="16">
 	<s id="1">Oh ! </s>
 	<s id="2">Je t'en supplie, Léon, ne suis pas cet homme !</s>
 </p>
 </sp>
-<sp stage="toward" who="LÉON"><speaker>LÉON, à Hélèna.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage type="toward">, à Hélèna.
+</stage>
 <p id="17">
 	<s id="1">Mademoiselle_Hélèna, je vous confie ma femme, je reviendrai bientôt, j'en suis sûr, on ne saurait punir en moi le défenseur de la_cause_du_peuple, j'en appellerai à la conscience publique.</s>
 </p>
@@ -868,7 +892,8 @@
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Claire, Hélèna.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Claire, Hélèna.
+</stage>
 <sp who="CLAIRE"><speaker>CLAIRE.</speaker>
 <p id="1">
 	<s id="1">C'est le malheur qui nous frappe ! </s>
@@ -908,7 +933,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp stage="alone" who="DURAND"><speaker>DURAND, seul.</speaker>
+<sp who="DURAND"><speaker>DURAND</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Il y a des jours heureux dans la vie, positivement il y a des jours heureux. </s>
 	<s id="2">Je viens de rencontrer une affaire d'or et je me sens tout guilleret, moi. </s>
@@ -927,7 +953,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Durand, Claire, Hélèna.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Durand, Claire, Hélèna.
+</stage>
 <sp who="CLAIRE"><speaker>CLAIRE.</speaker>
 <p id="1">
 	<s id="1">En prison !... </s>
@@ -999,19 +1026,22 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les mêmes, plus Léon et le Comte</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les mêmes, plus Léon et le Comte
+</stage>
 <sp who="CLAIRE"><speaker>CLAIRE.</speaker>
 <p id="1">
 	<s id="1">Mon mari ! </s>
 	<s id="2">Ah c'est Dieu qui te ramène vers moi.</s>
 </p>
 </sp>
-<sp stage="show" who="LÉON"><speaker>LÉON, montrant le comte.</speaker>
+<sp who="LÉON"><speaker>LÉON</speaker><stage type="show">, montrant le comte.
+</stage>
 <p id="2">
 	<s id="1">C'est un ami qui ne voulait même pas venir jusqu'ici et qui se dérobe sournoisement à notre reconnaissance.</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, tendant la main au Comte.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, tendant la main au Comte.
+</stage>
 <p id="3">
 	<s id="1">Vous êtes un ami véritable, et je n'oublierai jamais le service que vous nous rendez.</s>
 </p>
@@ -1052,7 +1082,8 @@
 	<s id="1">Nous avons songé à vous tout de suite, comme on songe à un digne et grand coeur.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, à Claire.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, à Claire.
+</stage>
 <p id="11">
 	<s id="1">Vous disiez vrai ce matin, Madame, l'amitié est d'or.</s>
 </p>
@@ -1067,12 +1098,14 @@
 	<s id="1">Et j'en sens tout le prix.</s>
 </p>
 </sp>
-<sp stage="" who="CLAIRE"><speaker>CLAIRE, détachant le camélia qui orne sa coiffure.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="">, détachant le camélia qui orne sa coiffure.
+</stage>
 <p id="14">
 	<s id="1">Ce camélia, Monsieur_le_Comte, vous rappellera notre éternelle reconnaissance.</s>
 </p>
 </sp>
-<sp who="HÉLÈNA"><speaker>HÉLÈNA, au Comte.</speaker>
+<sp who="HÉLÈNA"><speaker>HÉLÈNA</speaker><stage>, au Comte.
+</stage>
 <p id="15">
 	<s id="1">Moi, je n'ai rien à vous offrir.</s>
 </p>
@@ -1083,7 +1116,8 @@
 	<s id="2">Mais vous avez fait le serment de ne jamais préférer personne, Mademoiselle.</s>
 </p>
 </sp>
-<sp stage="touched" who="HÉLÈNA"><speaker>HÉLÈNA, émue.</speaker>
+<sp who="HÉLÈNA"><speaker>HÉLÈNA</speaker><stage type="touched">, émue.
+</stage>
 <p id="17">
 	<s id="1">J'ai juré de quitter le théâtre le jour où je craindrai de le trahir.</s>
 </p>
@@ -1098,7 +1132,8 @@
 	<s id="1">Le franc d'or de Saint-Louis, c'est miraculeux !</s>
 </p>
 </sp>
-<sp who="HÉLÈNA"><speaker>HÉLÈNA, au Comte.</speaker>
+<sp who="HÉLÈNA"><speaker>HÉLÈNA</speaker><stage>, au Comte.
+</stage>
 <p id="20">
 	<s id="1">Laissez-moi chanter pour les pauvres, Monsieur_le_Comte, je vous répondrai après.</s>
 </p>

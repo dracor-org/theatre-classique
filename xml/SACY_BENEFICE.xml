@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -29,27 +29,28 @@
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 				<titlePart type="sub">Charité, bien ordonnée, commence par soi-même.</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location='(inconnue)'></premiere>
+				<premiere date="" location="(inconnue)"/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age='A' stat_amour='néant'>LE DUC</role>.</castItem>
-		<castItem><role id="UN PAGE" sex="1" type="H" statut="page" age='A' stat_amour='néant'>UN PAGE</role>.</castItem>
-		<castItem><role id="L'ABBÉ COURANT" sex="1" type="H" statut="abbé" age='A' stat_amour='néant'>L'ABBÉ COURANT</role>.</castItem>
-		<castItem><role id="L'ABBÉ DE MALENCONTRE" sex="1" type="H" statut="abbé" age='A' stat_amour='néant'>L'ABBÉ DE MALENCONTRE</role>.</castItem>
+		<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age="A" stat_amour="néant">LE DUC</role>.</castItem>
+		<castItem><role id="UN PAGE" sex="1" type="H" statut="page" age="A" stat_amour="néant">UN PAGE</role>.</castItem>
+		<castItem><role id="L'ABBÉ COURANT" sex="1" type="H" statut="abbé" age="A" stat_amour="néant">L'ABBÉ COURANT</role>.</castItem>
+		<castItem><role id="L'ABBÉ DE MALENCONTRE" sex="1" type="H" statut="abbé" age="A" stat_amour="néant">L'ABBÉ DE MALENCONTRE</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène se passe dans l'Hôtel du Duc.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, La Bénéfice ou le Tour du page, opuscule dramatique, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome premier, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 91-110. </note>
 </front>
 <body>
-<div1 type="act" n="1"><head></head>
+<div1 type="act" n="1"><head/>
 <div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/take" who="LE PAGE"><speaker>LEPAGE, seul, tenant une lettre à la main.</speaker>
+<sp who="LE PAGE"><speaker>LEPAGE</speaker><stage type="alone/take">, seul, tenant une lettre à la main.
+</stage>
 <p id="1">
 	<s id="1">En vérité, mon frère l'Abbé me désole avec ses demandes. </s>
 	<s id="2">Il s'imagine que je dispose de la confiance de Monsieur_le_Duc, et qu'un bénéfice n'est pas plus difficile à escamoter qu'une bonbonnière. </s>
@@ -60,7 +61,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Page, L'Abbé Courant.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Page, L'Abbé Courant.
+</stage>
 <sp who="LE PAGE"><speaker>LE PAGE.</speaker>
 <p id="1">
 	<s id="1">Que demandez-vous, Monsieur l'Abbé ?</s>
@@ -213,7 +215,8 @@
 	<s id="2">Le bénéfice sera donné avant qu'il arrive ; j'y prends autant d'intérêt, que s'il s'agissait de mon frère.</s>
 </p>
 </sp>
-<sp stage="quick" who="L'ABBÉ COURANT"><speaker>L'ABBÉ COURANT, vivement.</speaker>
+<sp who="L'ABBÉ COURANT"><speaker>L'ABBÉ COURANT</speaker><stage type="quick">, vivement.
+</stage>
 <p id="26">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon bienfaiteur, mon ange tutélaire, avec quel plaisir je vous recevrai dans mon prieuré !</s>
@@ -248,8 +251,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Duc, Le Page.</head>
-<sp stage="aparte" who="LE DUC"><speaker>LE DUC, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Duc, Le Page.
+</stage>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="aparte">, à part.
+</stage>
 <note type="L">Masque : Terme familier d'injure dont on se sert quelquefois pour qualifier une jeune fille, une femme, et lui reprocher sa laideur ou sa malice. [L]</note>
 <p id="1">
 	<s id="1">Le joli masque qui m'a tant fait enrager au bal, me revient toujours dans l'esprit ; j'ai beau chercher, je ne devine pas qui ce peut-être... </s>
@@ -368,7 +373,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="L'ABBÉ COURANT"><speaker>L'ABBÉ COURANT, seul.</speaker>
+<sp who="L'ABBÉ COURANT"><speaker>L'ABBÉ COURANT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Monsieur le Chevalier !... </s>
 	<s id="2">Monsieur le Chevalier !... </s>
@@ -384,7 +390,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. L'Abbé Courant, L'Abbé de Malencontre.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> L'Abbé Courant, L'Abbé de Malencontre.
+</stage>
 <sp who="L'ABBÉ COURANT"><speaker>L'ABBÉ COURANT.</speaker>
 <p id="1">
 	<s id="1">Vous voici déjà à Paris, Monsieur l'Abbé ?</s>
@@ -457,7 +464,8 @@
 	<s id="2">Je ne veux pas jouir de votre confusion ; remontez dans votre voiture, et partez.</s>
 </p>
 </sp>
-<sp stage="aparte" who="L'ABBÉ DE MALENCONTRE"><speaker>L'ABBÉ DE MALENCONTRE, à part.</speaker>
+<sp who="L'ABBÉ DE MALENCONTRE"><speaker>L'ABBÉ DE MALENCONTRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">C'est sans doute un stratagème pour m'écarter.</s>
 </p>
@@ -469,7 +477,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Duc, L'Abbé Courant, L'Abbé de  Malencontre.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Duc, L'Abbé Courant, L'Abbé de  Malencontre.
+</stage>
 <sp who="LE DUC"><speaker>LE DUC.</speaker>
 <p id="1">
 	<s id="1">Qui donc fait tant de bruit dans cette galerie ? </s>
@@ -566,7 +575,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. L'Abbé Courant, L'Abbé de Malencontre.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> L'Abbé Courant, L'Abbé de Malencontre.
+</stage>
 <sp who="L'ABBÉ DE MALENCONTRE"><speaker>L'ABBÉ DE MALENCONTRE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -599,7 +609,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. L'Abbé Courant, L'Abbé de Malencontre, Le Page.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> L'Abbé Courant, L'Abbé de Malencontre, Le Page.
+</stage>
 <sp who="LE PAGE"><speaker>LE PAGE.</speaker>
 <p id="1">
 	<s id="1">Messieurs, voulez-vous entrer chez Monsieur_le_Duc ? </s>

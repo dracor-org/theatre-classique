@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,17 +30,17 @@
 			<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">SIXIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS</role>.</castItem>
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour='néant'>LA MARQUISE</role>.</castItem>
-		<castItem><role id="MARIANNE" sex="2" type="H" statut="paysan" age="J" stat_amour='néant'>MARIANNE</role>, jeune paysanne de seize à dix-huit ans, filleule de la Marquise.</castItem>
-		<castItem><role id="MADEMOISELLE LA VARENNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADEMOISELLE LA VARENNE</role>, femme de confiance de la Marquise.</castItem>
-		<castItem><role id="MADEMOISELLE DUBOIS" sex="2" type="H" statut="bourgeois" age="E" stat_amour='néant'>MADEMOISELLE DUBOIS</role>, femme de chambre de la Marquise.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>.</castItem>
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE</role>.</castItem>
+		<castItem><role id="MARIANNE" sex="2" type="H" statut="paysan" age="J" stat_amour="néant">MARIANNE</role>, jeune paysanne de seize à dix-huit ans, filleule de la Marquise.</castItem>
+		<castItem><role id="MADEMOISELLE LA VARENNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADEMOISELLE LA VARENNE</role>, femme de confiance de la Marquise.</castItem>
+		<castItem><role id="MADEMOISELLE DUBOIS" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">MADEMOISELLE DUBOIS</role>, femme de chambre de la Marquise.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est Paris, dans la maison du Marquis.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 117-143.</note>
@@ -48,19 +48,22 @@
 <body>
 <div1 type="act" n="1"><head>MARIANNE</head>
 <stage type="decor">Le théâtre représente une salle basse de la maison du Marquis.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Mademoiselle Dubois, Marianne.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Mademoiselle Dubois, Marianne.
+</stage>
 <stage type="entrance/costume">Mademoiselle Dubois entre précédée de Marianne, qui est habillée en paysanne, quoique très proprement.</stage>
 <sp who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS.</speaker>
 <p id="1">
 	<s id="1">Entrez, Mademoiselle Marianne, asseyez-vous là un instant ; madame va descendre.</s>
 </p>
 </sp>
-<sp stage="sit/shy" who="MARIANNE"><speaker>MARIANNE, s'ajfcyant, d'un air timide.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="sit/shy">, s'ajfcyant, d'un air timide.
+</stage>
 <p id="2">
 	<s id="1">Bien obligée, Mademoiselle.</s>
 </p>
 </sp>
-<sp stage="location" who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS, se plaçant à côté d'elle.</speaker>
+<sp who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS</speaker><stage type="location">, se plaçant à côté d'elle.
+</stage>
 <p id="3">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Comment vous trouvez-vous ici ?</s>
@@ -76,7 +79,8 @@
 	<s id="1">Je parie que vous ne demanderiez pas mieux que de quitter tout à fait le village, pour demeurer avec nous.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, souriant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, souriant.
+</stage>
 <p id="6">
 	<s id="1">À vous dire le vrai, je n'en serais pas fâchée.</s>
 </p>
@@ -87,7 +91,8 @@
 	<s id="2">Eh bien, réjouissez-vous, Mademoiselle, je crois que vous vous restez.</s>
 </p>
 </sp>
-<sp stage="happy" who="MARIANNE"><speaker>MARIANNE, avec joie.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="8">
 	<s id="1">Quoi ! </s>
 	<s id="2">Vraiment ?</s>
@@ -106,12 +111,14 @@
 	<s id="1">Vous m'aimerez toujours bien ?</s>
 </p>
 </sp>
-<sp stage="kind" who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS, affectueusement.</speaker>
+<sp who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS</speaker><stage type="kind">, affectueusement.
+</stage>
 <p id="12">
 	<s id="1">Aimable enfant ! Qui pourrait s'en défendre.</s>
 </p>
 </sp>
-<sp stage="happy" who="MARIANNE"><speaker>MARIANNE, avec la plus grande joie.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="happy">, avec la plus grande joie.
+</stage>
 <p id="13">
 	<s id="1">De mon côté, vous pouvez être sûre... </s>
 	<s id="2">Je suis d'une joie !</s>
@@ -128,7 +135,8 @@
 	<s id="2">Vous êtes jeune, belle, sans expérience....</s>
 </p>
 </sp>
-<sp stage="stress" who="MARIANNE"><speaker>MARIANNE, avec vivacité.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="stress">, avec vivacité.
+</stage>
 <p id="16">
 	<s id="1">Vous avez raison ; mais, ma marraine m'aime bien ; Monsieur_le_Marquis m'a dit aussi qu'il voulait être de mes amis ; et puis vous, et Mademoiselle La Varenne...</s>
 </p>
@@ -140,16 +148,20 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mademoiselle La Varenne, Mademoiselle Dubois, Marianne.</head>
-<sp stage="stress/toward" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, sèchement, à Mademoiselle Dubois.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mademoiselle La Varenne, Mademoiselle Dubois, Marianne.
+</stage>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="stress/toward">, sèchement, à Mademoiselle Dubois.
+</stage>
 <p id="1">
 	<s id="1">Passez chez Madame Mademoiselle Dubois, elle vous demande.</s>
 </p>
 <stage type="exit">Mademoiselle Dubois sort sans rien dire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. MADEMOISELLE LA VARENNE, Marianne.</head>
-<sp stage="quick/happy" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, d'un ton vif et gai.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> MADEMOISELLE LA VARENNE, Marianne.
+</stage>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="quick/happy">, d'un ton vif et gai.
+</stage>
 <p id="1">
 	<s id="1">Eh, bonjour, mon petit Ange ; que je vous annonce une charmante nouvelle ; vous restez.</s>
 </p>
@@ -165,7 +177,8 @@
 	<s id="2">Mais, c'est que j'en suis en chantée, moi.</s>
 </p>
 </sp>
-<sp stage="wave" who="MARIANNE"><speaker>MARIANNE, faisant la révérence.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="4">
 	<s id="1">Je vous remercie, Mademoiselle.</s>
 </p>
@@ -182,12 +195,14 @@
 	<s id="1">Vous avez bien de la bonté.</s>
 </p>
 </sp>
-<sp stage="impatient" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, comme impatiente.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="impatient">, comme impatiente.
+</stage>
 <p id="7">
 	<s id="1">Ce n'est pas comme cela qu'il saut répondre ; il faut m'appeler votre bonne amie, me sauter au cou et m'embrasser comme vous m'aimez.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, courant l'embrasser.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, courant l'embrasser.
+</stage>
 <p id="8">
 	<s id="1">Oh ! </s>
 	<s id="22">Pour cela , de tout mon coeur.</s>
@@ -198,7 +213,8 @@
 	<s id="1">Allons , mettez-vous à votre aise avec moi, ma chère petite.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MARIANNE"><speaker>MARIANNE, lui baisant la main.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="kiss">, lui baisant la main.
+</stage>
 <p id="10">
 	<s id="1">Vous êtes ma bien bonne amie.</s>
 </p>
@@ -208,7 +224,8 @@
 	<s id="1">Qu'elle est charmante !</s>
 </p>
 </sp>
-<sp stage="caress" who="MARIANNE"><speaker>MARIANNE, continuant de la caresser.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="caress">, continuant de la caresser.
+</stage>
 <p id="12">
 	<s id="1">Je suis bien aise de demeurer ici avec vous.</s>
 </p>
@@ -260,7 +277,8 @@
 	<s id="1">Savez-vous bien que vous êtes charmante, malgré vos habits de paysanne ; quand vous serez vêtue en demoiselle, vous enlèverez tous les coeurs.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, honteuse.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, honteuse.
+</stage>
 <p id="22">
 	<s id="1">Oh ! </s>
 	<s id="2">Ma bonne amie, vous vous moquez de moi.</s>
@@ -273,18 +291,22 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Marquis, Mademoiselle La Varenne, Marianne.</head>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, en passant, d'un air mystérieux, à mademoiselle la Varenne.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Marquis, Mademoiselle La Varenne, Marianne.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, en passant, d'un air mystérieux, à mademoiselle la Varenne.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, la Varenne ?</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, bas au Marquis.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="low/toward">, bas au Marquis.
+</stage>
 <p id="2">
 	<s id="1">Tout va le mieux du monde.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, bas à Mademoiselle la Varenne.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, bas à Mademoiselle la Varenne.
+</stage>
 <p id="3">
 	<s id="1">J'ai fait porter le petit coffre où tu sais.</s>
 </p>
@@ -311,7 +333,8 @@
 </p>
 <stage type="">Mademoiselle la Varenne se retire insensiblement dans le fond du théâtre.</stage>
 </sp>
-<sp stage="wave" who="MARIANNE"><speaker>MARIANNE, faisant la révérence.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="8">
 	<s id="1">Monsieur...</s>
 </p>
@@ -323,7 +346,8 @@
 	<s id="3">Vous en êtes bien aise aussi, sans doute.</s>
 </p>
 </sp>
-<sp stage="wave" who="MARIANNE"><speaker>MARIANNE, avec une révérence.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="wave">, avec une révérence.
+</stage>
 <p id="10">
 	<s id="1">Mais, oui, monsieur le Marquis.</s>
 </p>
@@ -334,7 +358,8 @@
 	<s id="2">Oh ça, ma chère reine, je vous prie de me regarder comme votre ami, et non pas comme votre maître ; je veux être votre ami, entendez-vous ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MARIANNE"><speaker>MARIANNE, déconcertée.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="embarrassed">, déconcertée.
+</stage>
 <p id="12">
 	<s id="1">Monsieur.</s>
 </p>
@@ -354,7 +379,8 @@
 	<s id="1">Mais aussi, je veux en revanche que vous m'aimiez bien ; m'aimerez-vous, hein ?</s>
 </p>
 </sp>
-<sp stage="shy" who="MARIANNE"><speaker>MARIANNE, baissant les yeux.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="shy">, baissant les yeux.
+</stage>
 <p id="16">
 	<s id="1">Je vous respecte trop.</s>
 </p>
@@ -369,7 +395,8 @@
 	<s id="1">Je serais bien ingrate, si je ne reconnaissais pas ce que vous faites pour moi.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="LE MARQUIS"><speaker>LE MARQUIS, transporté.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="enthousiasm">, transporté.
+</stage>
 <p id="19">
 	<s id="1">La charmante entant ! Je. ... </s>
 </p>
@@ -380,10 +407,11 @@
 <stage type="away">Il s'esquive.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Marquise, Marianne.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Marquise, Marianne.
+</stage>
 <sp who="MARIANNE"><speaker>LA MARQUISE.</speaker>
 <p id="1">
-	<s id="1">>Bonjour, ma fille ; qui est-ce qui sort là ?</s>
+	<s id="1">&gt;Bonjour, ma fille ; qui est-ce qui sort là ?</s>
 </p>
 </sp>
 <sp who="MARIANNE"><speaker>MARIANNE.</speaker>
@@ -442,7 +470,8 @@
 	<s id="1">Je crois qu'oui.</s>
 </p>
 </sp>
-<sp stage="sweet" who="LA MARQUISE"><speaker>LA MARQUISE, avec bonté.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sweet">, avec bonté.
+</stage>
 <p id="13">
 	<s id="1">Vous croyez ! </s>
 	<s id="2">Est-ce que vous me cacheriez quelque chose, ma fille ? </s>
@@ -490,7 +519,8 @@
 	<s id="1">Il est vrai que je suis honteuse des caresses que me fait monsieur le Marquis ; il me parle aussi familièrement que si j'étais son égale, et cela m'embarrasse à un point que je ne saurais dire.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="21">
 	<s id="1">Allez, ma chère enfant, je ne suis point fâchée. </s>
 	<s id="2">Respectez toujours monsieur le Marquis, comme vous le devez ; et que son ton familier ne vous fasse point sortir de celui qui vous convient. Mais, parlons d'autre chose : je vous ai fait avertir pour vous dire que je vous garde ; il paroît que l'on m'a prévenue.</s>
@@ -506,7 +536,8 @@
 	<s id="1">Il y a longtemps que j'ai ce dessein-là, mon enfant ; et je vois avec plaisir que vous avez tout ce qu'il faut pour profiter des soins que je veux prendre de votre éducation ; aussi je n'épargnerai rien pour vous rendre heureuse ; mais je m'attends que vous m'aimerez comme votre mère.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="MARIANNE"><speaker>MARIANNE, d'un ton pénétré.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="enthousiasm">, d'un ton pénétré.
+</stage>
 <p id="24">
 	<s id="1">Ah ! </s>
 	<s id="2">Pouvez-vous douter que je ne vous aime !</s>
@@ -524,7 +555,8 @@
 	<s id="1">Hélas, si je vous ai fait de la peine, c'est sans le savoir.</s>
 </p>
 </sp>
-<sp stage="warmly" who="LA MARQUISE"><speaker>LA MARQUISE, affectueusement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="warmly">, affectueusement.
+</stage>
 <p id="27">
 	<s id="1">Rassure-toi, ma fille ; non , je ne suis point mécontente de toi, point du tout.</s>
 </p>
@@ -536,7 +568,8 @@
 <stage type="kiss">Elle se jette sur la main de la Marquise et la baise avec
 transport.</stage>
 </sp>
-<sp stage="warmly" who="LA MARQUISE"><speaker>LA MARQUISE, plus affectueusement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="warmly">, plus affectueusement.
+</stage>
 <p id="29">
 	<s id="1">Chère enfant ! </s>
 	<s id="2">Va, ma fille ; je t'aime d'affection. </s>
@@ -567,7 +600,8 @@ transport.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Marquise, Mademoiselle La Varenne, Mademoiselle Dubois, Marianne.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Marquise, Mademoiselle La Varenne, Mademoiselle Dubois, Marianne.
+</stage>
 <sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE.</speaker>
 <p id="1">
 	<s id="1">Que veut madame ?</s>
@@ -607,7 +641,8 @@ transport.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII. Les précédents, Un Laquais.</head>
+<div2 type="scene" n="7"><head>SCENE VII.</head><stage> Les précédents, Un Laquais.
+</stage>
 <sp who="LE LAQUAIS"><speaker>LE LAQUAIS.</speaker>
 <p id="1">
 	<s id="1">Le carrosse de Madame est prêt.</s>
@@ -620,7 +655,8 @@ transport.</stage>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Mademoiselle La Varenne, Mademoiselle Dubois, Marianne.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Mademoiselle La Varenne, Mademoiselle Dubois, Marianne. 
+</stage> 
 <sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE.</speaker>
 <p id="1">
 	<s id="1">Mademoiselle Dubois, vous me ferez plaisir de nous laisser seules.</s>
@@ -636,7 +672,8 @@ transport.</stage>
 	<s id="1">N'importe ; vous avez dû entendre vous-même qu'en l'absence de Madame, je suis ici maîtresse.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS, à part.</speaker>
+<sp who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">On le cache de moi ; il y a quelque chose là-dessus.</s>
 </p>
@@ -645,7 +682,8 @@ transport.</stage>
 	<s id="1">Mais pour habiller Mademoiselle Marianne.</s>
 </p>
 </sp>
-<sp stage="impatient" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, d'un ton d'impatience.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="impatient">, d'un ton d'impatience.
+</stage>
 <p id="6">
 	<s id="1">Je m'en charge ; est-ce fini ?</s>
 </p>
@@ -655,13 +693,15 @@ transport.</stage>
 	<s id="1">Je m'en vais donc vous apporter tout ce qu'il faut.</s>
 </p>
 </sp>
-<sp stage="sad" who="MADEMOISELLE LA VARENNE,"><speaker>MADEMOISELLE LA VARENNE, avec aigreur.</speaker>
+<sp who="MADEMOISELLE LA VARENNE,"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="sad">, avec aigreur.
+</stage>
 <p id="8">
 	<s id="1">Eh, non ; vous êtes trop obligeante. </s>
 	<s id="2">Je vous prie seulement de nous laisser tranquilles.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS, à part.</speaker>
+<sp who="MADEMOISELLE DUBOIS"><speaker>MADEMOISELLE DUBOIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="9">
 	<s id="1">Je n'en doute plus ; pauvre Marianne ! </s>
 	<s id="2">On cherche à te perdre. </s>
@@ -670,7 +710,8 @@ transport.</stage>
 <stage type="exit/watch">Elle sort en jetant un regard de pitié sur Marianne.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE IX. Mademoiselle. La Varenne, Marianne.</head>
+<div2 type="scene" n="10"><head>SCÈNE IX.</head><stage> Mademoiselle. La Varenne, Marianne.
+</stage>
 <sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE.</speaker>
 <p id="1">
 	<s id="1">À la fin, nous en voilà débarrassées : je respire.</s>
@@ -742,18 +783,21 @@ transport.</stage>
 	<s id="2">Rien n'est plus magnifique.</s>
 </p>
 </sp>
-<sp stage="get" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, tire du coffre une coiffure de dentelles.</speaker> 
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="get">, tire du coffre une coiffure de dentelles. 
+</stage> 
 <p id="3">
 	<s id="1">Et de ceci, qu'en dites- vous ?</s>
 </p>
 </sp>
-<sp stage="watch" who="MARIANNE"><speaker>MARIANNE, les examine.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="watch">, les examine.
+</stage>
 <p id="4">
 	<s id="1">Que cela est beau ! </s>
 	<s id="2">Je ne les ai pas encore vues à ma marraine.</s>
 </p>
 </sp>
-<sp stage="laugh" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, riant.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="5">
 	<s id="1">Ah, ah, ah ; vous m'enchantez. </s>
 	<s id="2">Cela lui siérait à son âge, en vérité. </s>
@@ -772,7 +816,8 @@ transport.</stage>
 	<s id="2">Oh, si vous les aviez essayées une fois, vous verriez qu'il est bien difficile de s'en passer.</s>
 </p>
 </sp>
-<sp stage="smile" who="MARIANNE"><speaker>MARIANNE, souriant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="8">
 	<s id="1">Pour cela, ma bonne amie, vous êtes trop méchante.</s>
 </p>
@@ -808,18 +853,21 @@ transport.</stage>
 	<s id="1">En vérité, vous me rendez toute sotte.</s>
 </p>
 </sp>
-<sp stage="watch/sweet" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, la regarde avec complaisance.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="watch/sweet">, la regarde avec complaisance.
+</stage>
 <p id="15">
 	<s id="1">Bon Dieu, qu'elle est jolie ! </s>
 	<s id="2">Ah, mon cher coeur, voyez dans ce miroir si cela vous va si mal.</s>
 </p>
 </sp>
-<sp stage="watch" who="MARIANNE"><speaker>MARIANNE, jetant un coup d'oeil à la dérobée sur le miroir que lui présente mademoiselle la Garenne.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="watch">, jetant un coup d'oeil à la dérobée sur le miroir que lui présente mademoiselle la Garenne.
+</stage>
 <p id="16">
 	<s id="1">Eh bien, à quoi tout cela revient-il ?</s>
 </p>
 </sp>
-<sp stage="dress" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, continue d'ajuster la tête de Marianne.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="dress">, continue d'ajuster la tête de Marianne.
+</stage>
 <p id="17">
 	<s id="1">Attendez. </s>
 	<s id="2">Ici, une épingle à diamants. </s>
@@ -840,7 +888,8 @@ transport.</stage>
 </p>
 <stage type="dress">Elle lui attache les boucles d'oreille.</stage>
 </sp>
-<sp stage="anxious" who="MARIANNE"><speaker>MARIANNE, inquiète.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="anxious">, inquiète.
+</stage>
 <p id="20">
 	<s id="1">Oh, mon_Dieu ! </s>
 	<s id="2">Si ma marraine allait revenir, je ne sais ce que je deviendrais.</s>
@@ -853,13 +902,15 @@ transport.</stage>
 </p>
 <stage type="dress">Elle se dispose à lui mettre du rouge et des mouches.</stage>
 </sp>
-<sp stage="defend" who="MARIANNE"><speaker>MARIANNE, se défendant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="defend">, se défendant.
+</stage>
 <p id="22">
 	<s id="1">Ah ! </s>
 	<s id="2">Si, ma bonne amie ; qu'allez-vous faire ?</s>
 </p>
 </sp>
-<sp stage="dress" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, insistant.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="dress">, insistant.
+</stage>
 <p id="22">
 	<s id="1">Eh bien, petite fille ; faudra-t-il vous gronder ? </s>
 	<s id="2">Est-ce que vous ne savez pas que je suis votre maîtresse ? </s>
@@ -867,7 +918,8 @@ transport.</stage>
 	<s id="4">Jetez les yeux sur ce miroir : comment vous trouvez-vous, là ?</s>
 </p>
 </sp>
-<sp stage="watch/turn/laugh" who="MARIANNE"><speaker>MARIANNE, se regarde avec complaisance et se tourne en riant du côté de Mademoiselle La Varenne.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="watch/turn/laugh">, se regarde avec complaisance et se tourne en riant du côté de Mademoiselle La Varenne.
+</stage>
 <p id="23">
 	<s id="1">Ah, ma bonne amie !</s>
 </p>
@@ -889,7 +941,8 @@ transport.</stage>
 </p>
 <stage type="entrance/listen">Ici la Marquise amenée par Mademoiselle Dubois, entre, se cache et écoute.</stage>
 </sp>
-<sp stage="quick" who="MARIANNE"><speaker>MARIANNE, vivement.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="27">
 	<s id="1">Ah, ma bonne amie ! </s>
 	<s id="2">Ôtons vite tout cela.</s>
@@ -931,12 +984,14 @@ transport.</stage>
 	<s id="1">Comment, il est à moi ?</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, riant avec éclat.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage>, riant avec éclat.
+</stage>
 <p id="35">
 	<s id="1">Ah, ah, ah, vous voilà bien surprise.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, intriguée.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, intriguée.
+</stage>
 <p id="36">
 	<s id="1">Expliquons-nous, ma bonne amie.</s>
 </p>
@@ -948,18 +1003,21 @@ transport.</stage>
 	<s id="3">M'entendez vous maintenant ?</s>
 </p>
 </sp>
-<sp stage="anxious" who="MARIANNE"><speaker>MARIANNE, plus intriguée.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="anxious">, plus intriguée.
+</stage>
 <p id="38">
 	<s id="1">Ah, mon_Dieu ! </s>
 	<s id="2">Et d'où cela me vient- il ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, riant.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="39">
 	<s id="1">Comment, petite nigaude, vous n'avez pas encore deviné Monsieur_le_Marquis ?</s>
 </p>	
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, se levant avec effroi.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, se levant avec effroi.
+</stage>
 <p id="40">
 	<s id="1">Monsieur_le_Marquis.</s>
 </p>
@@ -971,13 +1029,15 @@ transport.</stage>
 	<s id="3">Mais, qu'avez- vous donc ?</s>
 </p>
 </sp>
-<sp stage="push" who="MARIANNE"><speaker>MARIANNE, la repoussant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="push">, la repoussant.
+</stage>
 <p id="42">
 	<s id="1">Laissez-moi... </s>
 	<s id="2">Ah, ciel !</s>
 </p>
 </sp>
-<sp stage="closer/sweet" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, allant à elle d'un air caressant.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="closer/sweet">, allant à elle d'un air caressant.
+</stage>
 <p id="43">
 	<s id="1">Quoi donc, Marianne ? </s>
 	<s id="2">Qu'est-ce, ma chère amie ? </s>
@@ -985,7 +1045,8 @@ transport.</stage>
 	<s id="4">N'êtes-vous pas auprès de votre meilleure amie ?</s>
 </p>
 </sp>
-<sp stage="push/offended" who="MARIANNE"><speaker>MARIANNE, la repousse avec indignation.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="push/offended">, la repousse avec indignation.
+</stage>
 <p id="44">
 	<s id="1">Vous, mon amie.</s>
 </p>
@@ -1001,14 +1062,16 @@ transport.</stage>
 	<s id="1">Allons donc, Marianne, allons, mon enfant ; ayez un peu plus de raison.</s>
 </p>
 </sp>
-<sp stage="stress" who="MARIANNE"><speaker>MARIANNE, vivement.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage type="stress">, vivement.
+</stage>
 <p id="47">
 	<s id="1">Je veux sortir d'ici ; oui, j'en veux sortir. </s>
 	<s id="2">Que je suis malheureuse !</s>
 </p> 
 <stage type="cry">Elle pleure amèrement.</stage>
 </sp>
-<sp stage="stop/anger" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, l'arrêtant avec colère.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="stop/anger">, l'arrêtant avec colère.
+</stage>
 <p id="48">
 	<s id="1">Non, Mademoiselle ; vous ne sortirez pas ; et puisque vous le prenez ainsi... </s>
 	<s id="2">Voilà, en vérité, un joli tour que vous me faites là. </s>
@@ -1018,13 +1081,16 @@ transport.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. La Marquise, Mademoiselle La Varenne,  Mademoiselle Dubois, Marianne.</head>
-<sp stage="surious" who="LA MARQUISE"><speaker>LA MARQUISE, entre surieuse.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> La Marquise, Mademoiselle La Varenne,  Mademoiselle Dubois, Marianne.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="surious">, entre surieuse.
+</stage>
 <p id="1">
 	<s id="1">Il faut convenir que voilà un monstre bien abominable !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE, à part.</speaker>
+<sp who="MADEMOISELLE LA VARENNE"><speaker>MADEMOISELLE LA VARENNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">La Marquise ! </s>
 	<s id="2">Ah ! </s>
@@ -1050,7 +1116,8 @@ transport.</stage>
 <stage type="exit">Mademoiselle la Garenne sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI ET DERNIÈRE. La Marquise, Marianne,  Mademoiselle Dubois.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI ET DERNIÈRE.</head><stage> La Marquise, Marianne,  Mademoiselle Dubois.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 <p id="1">
 	<s id="1">Une fille en qui j'avais mis toute ma confiance. </s>
@@ -1063,19 +1130,22 @@ transport.</stage>
 	<s id="1">Madame, je n'ai fait que ce que j'ai dû faire.</s>
 </p>
 </sp>
-<sp stage="toward/cry" who="LA MARQUISE"><speaker>LA MARQUISE, à Marianne, qui pleure.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward/cry">, à Marianne, qui pleure.
+</stage>
 <p id="3">
 	<s id="1">Ma chère Marianne, console-toi, ma fille.</s>
 </p>
 </sp>
-<sp who="MARIANNE"><speaker>MARIANNE, sanglotant.</speaker>
+<sp who="MARIANNE"><speaker>MARIANNE</speaker><stage>, sanglotant.
+</stage>
 <p id="4">
 	<s id="1">Non, jamais... </s>
 	<s id="2">Jamais.... </s>
 	<s id="3">Vous ne m'aimez plus.</s>
 </p>
 </sp>
-<sp stage="tender" who="LA MARQUISE"><speaker>LA MARQUISE, affectueusement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="tender">, affectueusement.
+</stage>
 <p id="5">
 	<s id="1">Qui, moi ? </s>
 	<s id="">Ma chère enfant ! </s>

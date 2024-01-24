@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,24 +30,25 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">CINQUANTE-CINQUIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXXI. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXXI. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='JORRY/JAY'>À Paris, Chez Sébastien JORRY, vis à vs de la Comédie Française, Chez LE JAY, rue Saint Jacques, près celle des Mathurins.</printer>
+			<printer id="JORRY/JAY">À Paris, Chez Sébastien JORRY, vis à vs de la Comédie Française, Chez LE JAY, rue Saint Jacques, près celle des Mathurins.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE COMTE DE BOURVILLE" sex="1" type="H" statut='comte' age='A' stat_amour='(néant)'>LE COMTE DE BOURVILLE</role>.</castItem>
-		<castItem><role id="LA COMTESSE DE BOURVILLE" sex="2" type="H" statut='comte' age='A' stat_amour='(néant)'>LA COMTESSE DE BOURVILLE</role>.</castItem>
-		<castItem><role id="LE VICOMTE DE CONISIERES" sex="1" type="H" statut='vicomte' age='A' stat_amour='(néant)'>LE VICOMTE DE CONISIERES</role>.</castItem>
-		<castItem><role id="LE CHEVALIER DE LA CERISAYE" sex="1" type="H" statut='chevalier' age='A' stat_amour='(néant)'>LE CHEVALIER DE LA CERISAYE</role>, bien mis.</castItem>
-		<castItem><role id="DUVAL" sex="1" type="H" statut='valet de chambre' age='A' stat_amour='(néant)'>DUVAL</role>, Valet-de-Chambre de la Comtesse de Bourville.</castItem>
+		<castItem><role id="LE COMTE DE BOURVILLE" sex="1" type="H" statut="comte" age="A" stat_amour="(néant)">LE COMTE DE BOURVILLE</role>.</castItem>
+		<castItem><role id="LA COMTESSE DE BOURVILLE" sex="2" type="H" statut="comte" age="A" stat_amour="(néant)">LA COMTESSE DE BOURVILLE</role>.</castItem>
+		<castItem><role id="LE VICOMTE DE CONISIERES" sex="1" type="H" statut="vicomte" age="A" stat_amour="(néant)">LE VICOMTE DE CONISIERES</role>.</castItem>
+		<castItem><role id="LE CHEVALIER DE LA CERISAYE" sex="1" type="H" statut="chevalier" age="A" stat_amour="(néant)">LE CHEVALIER DE LA CERISAYE</role>, bien mis.</castItem>
+		<castItem><role id="DUVAL" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="(néant)">DUVAL</role>, Valet-de-Chambre de la Comtesse de Bourville.</castItem>
    </castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La Scène est chez la Comtesse de Bourville.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez la Comtesse de Bourville.</set>
 <note>Extrait de PROVERBES DRAMATIQUES (...), Tome Quatrième, Paris, chez Sébastien Jorry, Le Jay Libraires, 1771. pp. 27-47.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE BON MARI</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Vicomte, Le Chevalier.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Vicomte, Le Chevalier.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Mais, dis-moi donc, Vicomte, qu'est-ce que c'est que cette conduite-là ? </s>
@@ -213,8 +214,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, Le Vicomte.</head>
-<sp stage="entrance" who="LA COMTESSE"><speaker>LA COMTESSE, entrant par une autre porte.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, Le Vicomte.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="entrance">, entrant par une autre porte.
+</stage>
 <p id="1">
 	<s id="1">Le Chevalier n'est plus ici ?</s>
 </p>
@@ -377,7 +380,8 @@
 	<s id="1">Je le crains.</s>
 </p>
 </sp>
-<sp stage="kneel" who="LE VICOMTE"><speaker>LE VICOMTE, à genoux.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="kneel">, à genoux.
+</stage>
 <p id="30">
 	<s id="1">Je jure à vos pieds...</s>
 </p>
@@ -392,14 +396,17 @@
 	<s id="6">Je suis perdue !</s>
 </p>
 </sp>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, toujours à genoux.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage>, toujours à genoux.
+</stage>
 <p id="32">
 	<s id="1">Non, non, laissez-moi faire, et ne vous troublez pas.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, La Comtesse, Le Vicomte.</head>
-<sp stage="stand" who="LE VICOMTE"><speaker>LE VICOMTE, se levant lentement.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, La Comtesse, Le Vicomte.
+</stage>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="stand">, se levant lentement.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Comte, je vous en prie, aidez-moi à obtenir de la Comtesse de me raccommoder avec une femme que j'aime. </s>
@@ -544,8 +551,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Vicomte.</head>
-<sp stage="toward/away" who="LE VICOMTE"><speaker>LE VICOMTE, à la Comtesse qui veut rentrer chez elle.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Le Vicomte.
+</stage>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="toward/away">, à la Comtesse qui veut rentrer chez elle.
+</stage>
 <p id="1">
 	<s id="1">Madame, que faites-vous ?</s>
 </p>
@@ -612,7 +621,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Comtesse, Le Vicomte, Duval.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Comtesse, Le Vicomte, Duval.
+</stage>
 <sp who="DUVAL"><speaker>DUVAL.</speaker>
 <p id="1">
 	<s id="1">Madame ; c'est de la part de Madame_la_Marquise_de_Villenon.</s>
@@ -633,15 +643,18 @@
 	<s id="1">C'est assez.</s>
 </p>
 </sp>
-<sp stage="aparte/embarrassed" who="LE VICOMTE"><speaker>LE VICOMTE, à part et troublé.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="aparte/embarrassed">, à part et troublé.
+</stage>
 <p id="5">
 	<s id="1">Ô Ciel ! </s>
 	<s id="2">Que peut-elle lui mander ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Comtesse, Le Vicomte.</head>
-<sp stage="read" who="LA COMTESSE"><speaker>LA COMTESSE, après avoir lu la lettre.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Comtesse, Le Vicomte.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="read">, après avoir lu la lettre.
+</stage>
 <p id="1">
 	<s id="1">Mes pressentiments étaient donc vrais !</s>
 </p>
@@ -688,7 +701,8 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="LA COMTESSE"><speaker>LE VICOMTE, douloureusement.</speaker>
+<sp who="LA COMTESSE"><speaker>LE VICOMTE</speaker><stage>, douloureusement.
+</stage>
 <p id="9">
 	<s id="1">Le Chevalier ne m'a que trop bien tenu parole : je perds tout en un jour, je suis désespéré ! </s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -29,26 +29,27 @@
 			<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">DOUZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G**.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G**.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME DURSAN" sex="2" type="H" statut="bourgeois" age="V" stat_amour='néant'>MADAME DURSAN</role>, veuve d'un riche négociant.</castItem>
-		<castItem><role id="DURSAN" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>DURSAN</role>, fils de madame Dursan.</castItem>
-		<castItem><role id="MADAME DURSAN la jeune" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME DURSAN la jeune</role>, femme de Dursan, sous le nom de BRUNON, femme de chambre de Madame Dursan.</castItem>
-		<castItem><role id="MADEMOISELLE DE TERVIRE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>MADEMOISELLE DE TERVIRE</role>, nièce de la vieille Madame Dursan.</castItem>
-		<castItem><role id="LE PETIT DURSAN" sex="1" type="H" statut="bourgeois" age="E" stat_amour='néant'>LE PETIT DURSAN</role>, enfant de Dursan fils, agé de cinq à six ans, personnage muet.</castItem>
+		<castItem><role id="MADAME DURSAN" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">MADAME DURSAN</role>, veuve d'un riche négociant.</castItem>
+		<castItem><role id="DURSAN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DURSAN</role>, fils de madame Dursan.</castItem>
+		<castItem><role id="MADAME DURSAN la jeune" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME DURSAN la jeune</role>, femme de Dursan, sous le nom de BRUNON, femme de chambre de Madame Dursan.</castItem>
+		<castItem><role id="MADEMOISELLE DE TERVIRE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">MADEMOISELLE DE TERVIRE</role>, nièce de la vieille Madame Dursan.</castItem>
+		<castItem><role id="LE PETIT DURSAN" sex="1" type="H" statut="bourgeois" age="E" stat_amour="néant">LE PETIT DURSAN</role>, enfant de Dursan fils, agé de cinq à six ans, personnage muet.</castItem>
    </castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La Scène est dans un Château qui appartient à la vieille Madame Dursan.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans un Château qui appartient à la vieille Madame Dursan.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 367-389.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>BRUNON.</head>
 <stage type="decor">Le Théâtre représente une salle basse du Château de madame Dursan.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="BRUNON"><speaker>BRUNON, seule.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="alone">, seule.
+</stage>
 <stage type="costume/work">Elle est en déshabillé du matin, assise et
 travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour regarder du coté de la porte et dire ce qui suit.</stage>
 <stage type="explicit">Les - marquent les intervalles de silence.</stage>
@@ -68,14 +69,17 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 <note type="C">* Le sujet de ce Drame est tiré de la vie de Marianne, du célèbre Marivaux. Tom. IV, Part. 10.</note>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Brunon, Dursan.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Brunon, Dursan.
+</stage>
 <stage type="closer">Dursan s'avance lentement et paraît marcher avec peine : il a l'air pâle et malade : il parle languissamment : ses habits annoncent l'indigence.</stage>
-<sp stage="hugh/tender" who="BRUNON"><speaker>BRUNON, serre tendrement Dursan entre ses bras.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="hugh/tender">, serre tendrement Dursan entre ses bras.
+</stage>
 <p id="1">
 	<s id="1">Ah, mon ami, mon cher époux !</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, embrasse tendrement Brunon.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, embrasse tendrement Brunon.
+</stage>
 <p id="2">
 	<s id="1">Ma chère amie !</s>
 </p>
@@ -85,7 +89,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Que tu tardais à mon impatience.</s>
 </p>
 </sp>
-<sp stage="stress" who="DURSAN"><speaker>DURSAN, pesamment.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="stress">, pesamment.
+</stage>
 <p id="4">
 	<s id="1">Je n'ai pu arriver plutôt, ma chère ; je me suis mis en marche de bonne heure, mais une faiblesse qui m'a pris à un quart de lieue d'ici, ne m'a pas permis de continuer ma route. </s>
 	<s id="2">J'ai été obligé d'entrer dans la maison la plus prochaine ; je m'y suis reposé quelque temps. </s>
@@ -94,7 +99,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="5">Comment te trouves-tu ici ?</s>
 </p>
 </sp>
-<sp stage="sad" who="BRUNON"><speaker>BRUNON, tristement.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="sad">, tristement.
+</stage>
 <p id="5">
 	<s id="1">Hélas ! </s>
 	<s id="2">Autant bien que je peux l'être éloignée de vous.</s>
@@ -115,7 +121,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp who="BRUNON"><speaker>BRUNON, pleurant.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage>, pleurant.
+</stage>
 <p id="9">
 	<s id="1">Ah, mon cher Dursan ; que je suis malheureuse !</s>
 </p>
@@ -161,7 +168,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="2">Elle est plus implacable que jamais.</s>
 </p>
 </sp>
-<sp stage="sad" who="DURSAN"><speaker>DURSAN, tristement.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="sad">, tristement.
+</stage>
 <p id="18">
 	<s id="1">De sorte que vous ne vous êtes point déclarée.</s>
 </p>
@@ -173,12 +181,14 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="3">Cher époux, permets-moi de t'appeler de ce doux nom, pour la dernière fois ; reçois les derniers embrassements d'une épouse qui t'aime plus que sa vie.</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, se retirant avec vivacité.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, se retirant avec vivacité.
+</stage>
 <p id="20">
 	<s id="1">Qu'est-ce à dire ?</s>
 </p>
 </sp>
-<sp who="BRUNON"><speaker>BRUNON, fondant en larmes.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage>, fondant en larmes.
+</stage>
 <p id="21">
 	<s id="1">Oui, mon ami ; c'est moi qui t'ai plongé dans l'abîme affreux où tu es ; je dois t'en tirer. </s>
 	<s id="2">Pardonne ma faiblesse, je ne puis retenir mes larmes.</s>
@@ -196,7 +206,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="4">L'innocence ne suffit donc pas pour mériter l'estime.</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, d'un tonlanguijjant et douloureux.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, d'un tonlanguijjant et douloureux.
+</stage>
 <p id="24">
 	<s id="1">Ma femme, ayez pitié d'un malheureux époux qui touche à ses derniers instants ; vous me percez le coeur. </s>
 	<s id="2">Cessez, cessez un discours qui ne peut qu'abréger mes jours.</s>
@@ -228,18 +239,21 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Cela n'est que trop vrai ; et c'est mademoiselle de Tervire qui devient son héritière.</s>
 </p>
 </sp>
-<sp stage="quiet" who="DURSAN"><speaker>DURSAN, tranquillement.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="quiet">, tranquillement.
+</stage>
 <p id="30">
 	<s id="1">Eh bien, ma chère amie ; l'expérience m'a appris à supporter l'infortune ; il n'est plus question de moi ; je touche à mes derniers instants, je ne m'inquiète que pour vous.</s>
 </p>
 </sp>
-<sp stage="tender" who="BRUNON"><speaker>BRUNON, tendrement.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="tender">, tendrement.
+</stage>
 <p id="31">
 	<s id="1">Ah, mon cher Dursan ! </s>
 	<s id="2">Et votre fils.</s>
 </p>
 </sp>
-<sp stage="slow/quiet" who="DURSAN"><speaker>DURSAN, toujours lentement et avec tranquillité.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="slow/quiet">, toujours lentement et avec tranquillité.
+</stage>
 <p id="32">
 	<s id="1">Mon fils ! </s>
 	<s id="2">Je vous le recommande, ma chère ; ne le quittez jamais. </s>
@@ -318,7 +332,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="5">Je ne suis venu qu'avec peine jusqu'ici pour vous amener mon fils et vous embrasser pour la dernière fois.</s>
 </p>
 </sp>
-<sp stage="low" who="BRUNON"><speaker>BRUNON, d'une voix entrecoupée.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="low">, d'une voix entrecoupée.
+</stage>
 <p id="45">
 	<s id="1">Ah ! </s>
 	<s id="2">Cher époux... cher ami... </s>
@@ -329,24 +344,28 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 <stage type="tender/hugh">Attendrie, elle se jette au cou de Dursan.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Dursan, Brunon, Mademoiselle de Tervire.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Dursan, Brunon, Mademoiselle de Tervire.
+</stage>
 <stage type="entrance/pain/call">Mademoiselle de Tervire entre sur la scène lorsque Dursan et sa femme absorbés dans la douleur, ne peuvent ni la voir ni l'entendre : elle demeure quelque temps interdite et surprise, ensuite elle appelle plusieurs fois Brunon.</stage>
 <sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE.</speaker>
 <p id="1">
 	<s id="1">Brunon... Brunon.</s>
 </p>
 </sp>
-<sp stage="turn/watch/shout" who="BRUNON"><speaker>BRUNON, se retourne, aperçoit Mademoiselle de Tervire, et jette un cri.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="turn/watch/shout">, se retourne, aperçoit Mademoiselle de Tervire, et jette un cri.
+</stage>
 <p id="2">
 	<s id="1">Ahi !</s>
 </p>
 </sp>
-<sp stage="watch" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, reconnaissant Dursan.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="watch">, reconnaissant Dursan.
+</stage>
 <p id="3">
 	<s id="1">Eh, c'est le chasseur...</s>
 </p>
 </sp>
-<sp stage="confuse/watch/wave" who="DURSAN"><speaker>DURSAN, interdit et confus, voyant que Mademoiselle de Tervire le considère attentivement, la salue entièrement déconcerté.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="confuse/watch/wave">, interdit et confus, voyant que Mademoiselle de Tervire le considère attentivement, la salue entièrement déconcerté.
+</stage>
 <p id="4">
 	<s id="1">Mademoiselle...</s>
 </p>
@@ -356,7 +375,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">C'est vous, Monsieur ; par quelle aventure vous trouvez-vous ici ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DURSAN"><speaker>DURSAN, toujours embarrassé.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="embarrassed">, toujours embarrassé.
+</stage>
 <p id="6">
 	<s id="1">Mademoiselle...</s>
 </p>
@@ -366,7 +386,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Vous connaissez Brunon, à ce qu'il me paraît.</s>
 </p>
 </sp>
-<sp stage="watch/tender" who="DURSAN"><speaker>DURSAN, regarde tendrement Brunon.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="watch/tender">, regarde tendrement Brunon.
+</stage>
 <p id="8">
 	<s id="1">Hélas !</s>
 </p>
@@ -380,7 +401,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Brunon, ma chère Brunon, tu sais combien je t'aime ; je crois mériter ta confiance ; explique-moi ce que cela veut dire !</s>
 </p>
 </sp>
-<sp stage="cry" who="BRUNON"><speaker>BRUNON, qui n'a cessé de pleurer depuis qu'elle a aperçu Mademoiselle de Tervire, d'une voix entrecoupée de sanglots.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="cry">, qui n'a cessé de pleurer depuis qu'elle a aperçu Mademoiselle de Tervire, d'une voix entrecoupée de sanglots.
+</stage>
 <p id="11">
 	<s id="1">Eh ! </s>
 	<s id="2">Mademoiselle... qui le pourrait ?...</s>
@@ -400,7 +422,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="2">Vous avez raison ; on ne peut guère être plus malheureux que lui.</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, à part, considérant attentivement Dursan.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="aparte/watch">, à part, considérant attentivement Dursan.
+</stage>
 <p id="14">
 	<s id="1">Comme il est pâle, défait, abattu. Voyez ce que c'est que le malheur !</s>
 </p>
@@ -409,7 +432,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Monsieur, vous pouvez prendre ici librement le plaisir de la chasse ; on a donné de bons ordres pour qu'on ne vous troublât point à l'avenir.</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, avec une sensibilité respectueuse.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, avec une sensibilité respectueuse.
+</stage>
 <p id="16">
 	<s id="1">Je sais bien reconnaissant de vos bontés, Mademoiselle.</s>
 </p>
@@ -421,7 +445,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="3">Votre air distingué me persuade que vous n'êtes pas né ce que vous paraissez être ; et je ne doute pas que ma tante, lorsqu'elle vous connaîtra, ne répare les injustices de la fortune.</s>
 </p>
 </sp>
-<sp stage="hugh/kiss" who="DURSAN"><speaker>DURSAN, se jette sur h bras de mademolseUe de Tervireetlui baise la main avec transport.</speaker> 
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="hugh/kiss">, se jette sur h bras de mademolseUe de Tervireetlui baise la main avec transport. 
+</stage> 
 <p id="18">
 	<s id="1">Pardonnez mon transport, Mademoiselle. </s>
 	<s id="2">Comblez vos bienfaits en me les faisant partager avec une épouse...</s>
@@ -462,7 +487,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Brunon, ma chère Brunon ; est-il possible !</s>
 </p>
 </sp>
-<sp who="BRUNON"><speaker>BRUNON, lui baise la main tendrement.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage>, lui baise la main tendrement.
+</stage>
 <p id="25">
 	<s id="1">Mademoiselle.</s>
 </p>
@@ -483,19 +509,22 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Ah, si vous saviez comme on nous a trompées !</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, d'un ton serme.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, d'un ton serme.
+</stage>
 <p id="29">
 	<s id="1">Ma femme est vertueuse, elle est d'une famille honnête ; son indigence serait-elle un crime ?</s>
 </p>
 </sp>
-<sp stage="tender" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, affectueusement.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="tender">, affectueusement.
+</stage>
 <p id="30">
 	<s id="1">Non, mon cher Dursan, et si la basse cupidité de ceux qui ont nui, n'avait attaqué que la fortune de Brunon et non pas sa naissance ni sa vertu, je puis vous répondre que vous auriez aisément recouvré l'affection de votre mère. </s>
 	<s id="2">On la persuade difficilement ; il a fallu que l'envie ait fait jouer ses ressorts les plus noirs et les plus secrets pour perdre votre femme dans son esprit. </s>
 	<s id="3">Elle est prévenue à un point que je ne saurais dire, et malheureusement elle revient peu de ses préventions.</s>
 </p>
 </sp>
-<sp stage="sad" who="MADEMOISELLE DE TERVIRE"><speaker>DURSAN, languissamment.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>DURSAN</speaker><stage type="sad">, languissamment.
+</stage>
 <p id="31">
 	<s id="1">Hélas, Mademoiselle, ce n'est que pour mon fils que j'ose implorer vos bontés ; il ne s'agit plus de moi, je n'ai plus rien à faire au monde ; je sens que je me meurs ; je ne puis que vous recommander ma malheureuse famille. </s>
 	<s id="2">Elle ne doit plus prétendre aux saveurs de la fortune ; mais, hélas, qu'elle n'éprouve pas les horreurs du besoin.</s>
@@ -526,7 +555,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Comment pourrons-nous reconnaître tant de bonté ?</s>
 </p>
 </sp>
-<sp stage="stand" who="DURSAN"><speaker>DURSAN, se levant difficilement.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="stand">, se levant difficilement.
+</stage>
 <p id="36">
 	<s id="1">Je vous devrai plus que la vie.</s>
 </p>
@@ -541,15 +571,18 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 <stage type="exit/silence/sit/dream/entrance">Dursan sort d'un côté, appuyé sur Brunon. Il se fait un instant de silence, pendant lequel Mademoiselle de Tervire s'assied d'un air rêveur jusqu'à l'arrivée de Madame Dursan, qui entre du côté opposé.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Madame Dursan, Mademoiselle de Tervire.</head>
-<sp stage="push" who="MADAME DURSAN"><speaker>MADAME DURSAN, entre en s'appuyant sur sa canne.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Madame Dursan, Mademoiselle de Tervire.
+</stage>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="push">, entre en s'appuyant sur sa canne.
+</stage>
 <stage type="explicit">* La personne chargée de ce rôle doit être habilite i Tantiquc, quoique richement; elle doit s'nppuyer sur une . canne conrte à pomme d'or, marcher dissicilement, avoir néanmoins le geste vis, parler précipitamment, d'un ton un peu bmsque , mais point dur.</stage>
 <p id="1">
 	<s id="1">Brunon, es-tu là, Brunon ? </s>
 	<s id="2">Comment, c'est toi, Tervire ?</s>
 </p>
 </sp>
-<sp stage="kiss" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, allant embrasser sa tante.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="kiss">, allant embrasser sa tante.
+</stage>
 <p id="2">
 	<s id="1">Ma chère tante ; comment avez-vous passé la nuit ?</s>
 </p>
@@ -577,7 +610,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Il est vrai, ma tante ; mais j'ai eu une violente migraine ce matin, et je l'ai envoyé dire.</s>
 </p>
 </sp>
-<sp stage="curious" who="MADAME DURSAN"><speaker>MADAME DURSAN, avec intérêt.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="curious">, avec intérêt.
+</stage>
 <p id="7">
 	<s id="1">Tu as la migraine ; et pourquoi donc te lever si matin ?</s>
 </p>
@@ -587,29 +621,34 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Oh, ma tante ; elle s'est passée, je ne m'en ressens presque plus.</s>
 </p>
 </sp>
-<sp stage="touch" who="MADAME DURSAN"><speaker>MADAME DURSAN, lui frappant sur l'épaule.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="touch">, lui frappant sur l'épaule.
+</stage>
 <p id="9">
 	<s id="1">Tu es une petite coquine ; tu me trompes ; je ne sais à quoi il tient que je ne te fasse partir tout à l'heure.</s>
 </p>
 </sp>
-<sp stage="naive" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, d'un air ingénu.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="naive">, d'un air ingénu.
+</stage>
 <p id="10">
 	<s id="1">Je vous assure, ma tante, que si je n'avais pas cru être malade, je serais partie.</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, la regarde. d'un air attendri.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, la regarde. d'un air attendri.
+</stage>
 <p id="11">
 	<s id="1">Friponne que tu es : eh bien, reste donc puisque tu le veux absolument ; mais je t'assure que si l'on t'invite dorénavant, j'irai à ta place pour t'apprendre à être plus raisonnable.</s>
 </p>
 </sp>
-<sp stage="" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, avec une satisfaction simulée.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="">, avec une satisfaction simulée.
+</stage>
 <p id="12">
 	<s id="1">Eh, mais, sans doute ; pourquoi n'iriez-vous pas ? </s>
 	<s id="2">Je le compte bien. </s>
 	<s id="3">Vous ne serez assurément pas toujours indisposée.</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, d'un air tri/le et pensis.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, d'un air tri/le et pensis.
+</stage>
 <p id="13">
 	<s id="1">Écoute, ma fille ; avance ce fauteuil. </s>
 	<s id="2">Approche cette table. </s>
@@ -622,33 +661,39 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="2">Tu pleures.</s>
 </p>
 </sp>
-<sp stage="stress" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, se contraignant.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="stress">, se contraignant.
+</stage>
 <p id="15">
 	<s id="1">Pardonnez-moi, ma tante.</s>
 </p>
 </sp>
-<sp stage="read" who="MADAME DURSAN"><speaker>MADAME DURSAN, sans interrompre sa lecture.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="read">, sans interrompre sa lecture.
+</stage>
 <p id="16">
 	<s id="1">Si fait, si fait, tu pleures ; et c'est moi qui en suis la cause.</s>
 </p>
 </sp>
-<sp stage="smile" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, avec un ris forcé.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="smile">, avec un ris forcé.
+</stage>
 <p id="17">
 	<s id="1">Eh ! </s>
 	<s id="2">Pourquoi pleurerais-je, ma tante ?</s>
 </p>
 </sp>
-<sp stage="read" who="MADAME DURSAN"><speaker>MADAME DURSAN, toujours lisant.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="read">, toujours lisant.
+</stage>
 <p id="18">
 	<s id="1">Mon grand âge, mes infirmités t'affligent, mon enfant, je m'en aperçois depuis longtemps.</s>
 </p>
 </sp>
-<sp stage="imitate" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, affectant un air libre.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="imitate">, affectant un air libre.
+</stage>
 <p id="19">
 	<s id="1">Oh, mon_Dieu, ma tante ; il n'y a pas là de quoi me faire peur, le dérangement de votre santé est peu de chose, grâces à Dieu ; forte comme vous l'êtes, vous prendrez aisément le dessus.</s>
 </p>
 </sp>
-<sp stage="watch/tender" who="MADAME DURSAN"><speaker>MADAME DURSAN, quitte un instant son papier pour regarder tendrement Mademoiselle de Tervire.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="watch/tender">, quitte un instant son papier pour regarder tendrement Mademoiselle de Tervire.
+</stage>
 <p id="20">
 	<s id="">Tu t'abuses, mon enfant, ou plutôt ta tâches vainement de me daire prendre le change : j'ai soixante-quatre ans bien comptés, et les meilleurs tempéraments sont bien faibles à cet âge-là.</s>
 </p>
@@ -657,13 +702,15 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Enfin il saut finir une fois ; et ceux que je laisse après moi me rendent plus inquiète de leur sort, que je ne le suis du mien.</s>
 </p>
 </sp>
-<sp stage="cry" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, ne pouvant retenir ses larmes.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="cry">, ne pouvant retenir ses larmes.
+</stage>
 <p id="21">
 	<s id="1">Pour cela, ma tante, vous voyez les choses d'un oeil bien triste... </s>
 	<s id="2">Vous ne ménagez pas votre monde, et.... quoique je sache très bien qu'il n'y a rien à craindre... cela m'afflige....</s>
 </p>
 </sp>
-<sp stage="read/close" who="MADAME DURSAN"><speaker>MADAME DURSAN, qui a achevé sa lecture, remet lentement ses lunettes, plie son papier, et le couvre d'une enveloppe ; le tout pendant que la scène marche.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="read/close">, qui a achevé sa lecture, remet lentement ses lunettes, plie son papier, et le couvre d'une enveloppe ; le tout pendant que la scène marche.
+</stage>
 <p id="22">
 	<s id="1">Laissons cela, ma bonne amie : parlons d'autre chose. </s>
 	<s id="2">Ton Chasseur, qu'est-il devenu ?</s>
@@ -707,7 +754,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Madame Dursan, Mademoiselle de Tervire, Brunon.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame Dursan, Mademoiselle de Tervire, Brunon.
+</stage>
 <sp who="MADAME DURSAN"><speaker>MADAME DURSAN.</speaker>
 <p id="1">
 	<s id="1">Entre, Brunon, et fais dire que je n'y suis pour personne.</s>
@@ -734,7 +782,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="3">Est-ce que tu pleures aussi !</s>
 </p>
 </sp>
-<sp stage="sad" who="BRUNON"><speaker>BRUNON, tristement.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="sad">, tristement.
+</stage>
 <p id="7">
 	<s id="1">Je vous demande pardon, Madame ; c'est que je viens de dormir.</s>
 </p>
@@ -751,7 +800,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Mais, Madame...</s>
 </p>
 </sp>
-<sp stage="abrupt" who="MADAME DURSAN"><speaker>MADAME DURSAN, brusquement.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="abrupt">, brusquement.
+</stage>
 <p id="10">
 	<s id="1">Allons, taisez-vous. </s>
 	<s id="2">Allumez une bougie. </s>
@@ -825,12 +875,14 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="2">Je te défends de m'en parler davantage.</s>
 </p>
 </sp>
-<sp stage="cry" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, pleurant.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="23">
 	<s id="1">- Hélas !</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, émue.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, émue.
+</stage>
 <p id="24">
 	<s id="1">Eh bien, Tervire , qu'est-ce donc que cela ? </s>
 	<s id="2">Prenez-vous plaisir à me tourmenter ? </s>
@@ -863,7 +915,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Mais, ma tante...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="MADAME DURSAN"><speaker>MADAME DURSAN, l'interrompt.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="interrupt">, l'interrompt.
+</stage>
 <p id="29">
 	<s id="1">À propos de ce chasseur ; tiens, j'oubliais ; voilà une petite somme qu'il faudra que tu lui fasses prendre, entends-tu ? </s>
 	<s id="2">S'il refuse, tu lui diras que je la lui prête.</s>
@@ -917,7 +970,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Je ne saurais comment résister à ses instances.</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME DURSAN"><speaker>MADAME DURSAN, d'un ton absolu.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="strong">, d'un ton absolu.
+</stage>
 <p id="39">
 	<s id="1">Oh ! Tu feras comme tu pourras ; mais je ne veux pas absolument le voir.</s>
 </p>
@@ -946,7 +1000,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Eh bien, amène-moi le fils, si tu veux ; cela consolera peut-être le père de mes refus.</s>
 </p>
 </sp>
-<sp stage="happy" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, avec joie.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="44">
 	<s id="1">Que vous pensez bien, ma tante. </s>
 	<s id="2">Eh vite, Brunon, faites-le venir.</s>
@@ -954,7 +1009,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 <stage type="exit">Brunon sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Madame Dursan, Mademoiselle de Tervire.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Madame Dursan, Mademoiselle de Tervire.
+</stage>
 <sp who="MADAME DURSAN"><speaker>MADAME DURSAN.</speaker>
 <p id="1">
 	<s id="">Je ne sais ce que j'ai, ma chère Tervire ; tu es triste ; Brunon l'est aussi ; votre chagrin m'afflige ; je me sens toute je ne sais comment.</s>
@@ -984,8 +1040,10 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7" stage="entrance/toward/low"><head>SCÈNE VII. Madame Dursan, Mademoiselle de Tervire, Brunon amène l'enfant et lui dit tu entrant quelques mots à l'oreille.</head> 
-<sp stage="hugh" who="MADAME DURSAN"><speaker>MADAME DURSAN, ouvrant les bras pour recevoir le petit Dursan.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage type="entrance/toward/low"> Madame Dursan, Mademoiselle de Tervire, Brunon amène l'enfant et lui dit tu entrant quelques mots à l'oreille. 
+</stage> 
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="hugh">, ouvrant les bras pour recevoir le petit Dursan.
+</stage>
 <p id="1">
 	<s id="1">C'est le petit bonhomme. </s>
 	<s id="2">Bon Dieu, le joli enfant. </s>
@@ -998,12 +1056,14 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="3">Est-il possible qu'une aussi charmante créature soit si maltraitée de la fortune ?</s>
 </p>
 </sp>
-<sp stage="carress" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, caressant le petit Dursan.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="carress">, caressant le petit Dursan.
+</stage>
 <p id="3">
 	<s id="1">Sa figure est des plus intéressantes.</s>
 </p>
 </sp>
-<sp stage="stress" who="MADAME DURSAN"><speaker>MADAME DURSAN, le considérant avec attention.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="stress">, le considérant avec attention.
+</stage>
 <p id="4">
 	<s id="1">Ah, Tervire ; voilà les traits, le regard, toute la figure de mon sils ; de grâce, éloigne cet enfant.</s>
 </p>
@@ -1064,7 +1124,8 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">J'ose m'y jeter aussi, Madame, vous m'avez témoigné quelques bontés.</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME DURSAN"><speaker>MADAME DURSAN, vivement.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="strong">, vivement.
+</stage>
 <p id="15">
 	<s id="1">Comment ? </s>
 	<s id="2">Avez-vous résolu de me désespérer, vous autres ?</s>
@@ -1092,23 +1153,27 @@ travaille à un ouvrage quelconque : elle s'interrompt de temps en temps pour re
 	<s id="1">Tervire, où suis-je ?</s>
 </p>
 </sp>
-<sp stage="help" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, soutenant Brunon.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="help">, soutenant Brunon.
+</stage>
 <p id="19">
 	<s id="1">Vous voyez vos enfants, ma tante. </s>
 	<s id="2">Approchez, Monsieur.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII ET DERNIÈRE. Madame Dursan, Mademoiselle
-de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
-<sp stage="kneel" who="DURSAN"><speaker>DURSAN, se jetant aux pieds de sa mère.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII ET DERNIÈRE.</head><stage> Madame Dursan, Mademoiselle
+de Tervire, Brunon, Le Petit Dursan, Dursan.
+</stage>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage type="kneel">, se jetant aux pieds de sa mère.
+</stage>
 <p id="1">
 	<s id="1">Ma mère, je viens mourir à vos pieds. </s>
 	<s id="2">J'ai mérité votre colère. </s>
 	<s id="3">C'est plus pour ma malheureuse famille que pour moi, que je réclame votre indulgence.</s>
 </p>
 </sp>
-<sp stage="furious" who="MADAME DURSAN"><speaker>MADAME DURSAN, hors d'elle-même.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="furious">, hors d'elle-même.
+</stage>
 <p id="2">
 	<s id="1">Ah, le voilà, le malheureux. </s>
 	<s id="2">Il ne me fallait plus que cela. </s>
@@ -1126,7 +1191,8 @@ de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
 </p>
 <stage type="touch/kiss">Le petit Dursan prend la main de Madame Dursan et la baise.</stage>
 </sp>
-<sp stage="tender" who="MADAME DURSAN"><speaker>MADAME DURSAN, attendrie.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage type="tender">, attendrie.
+</stage>
 <p id="5">
 	<s id="1">Mon enfant, mon cher enfant ; embrasse ta mère. </s>
 	<s id="2">Comment te résisterais-je ? </s>
@@ -1143,7 +1209,8 @@ de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
 	<s id="1">Ma tante, vous ne pouvez vous empêcher de faire la grâce toute entière ; elle est ici.</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, avec l'emportement le plus vis.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, avec l'emportement le plus vis.
+</stage>
 <p id="8">
 	<s id="1">Elle est ici ! </s>
 	<s id="2">L'infâme ! </s>
@@ -1157,7 +1224,8 @@ de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
 	<s id="1">Vous voyez, Madame, celle qui vous a si cruellement offensée ; mais avant de m'éloigner, je dois vous assurer que je n'ai rien contre moi que mon indigence.</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, avec la plus grande surprise.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, avec la plus grande surprise.
+</stage>
 <p id="10">
 	<s id="1">Quoi, Brunon, c'est vous ! </s>
 	<s id="2">Vous êtes l'épouse de mon fils ; vous, Brunon.</s>
@@ -1168,12 +1236,14 @@ de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
 	<s id="1">Je n'ose me parer d'un titre qui vient de m'ôter votre amitié.</s>
 </p>
 </sp>
-<sp who="MADAME DURSAN"><speaker>MADAME DURSAN, lui tendant les bras.</speaker>
+<sp who="MADAME DURSAN"><speaker>MADAME DURSAN</speaker><stage>, lui tendant les bras.
+</stage>
 <p id="12">
 	<s id="1">Embrasse-moi, ma fille ; tu me continueras les services que j'ai reçus de Brunon.</s>
 </p>	
 </sp>
-<sp stage="kiss" who="BRUNON"><speaker>BRUNON, lui baise la main d'un air respectueux.</speaker>
+<sp who="BRUNON"><speaker>BRUNON</speaker><stage type="kiss">, lui baise la main d'un air respectueux.
+</stage>
 <p id="13">
 	<s id="1">Madame.</s>
 </p>
@@ -1187,12 +1257,14 @@ de Tervire, Brunon, Le Petit Dursan, Dursan.</head>
 	<s id="">Viens, ma chère Tervire, j'ai besoin d'un peu de repos, tout ceci m'émeut étrangement.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE, embrasse Brunon.</speaker>
+<sp who="MADEMOISELLE DE TERVIRE"><speaker>MADEMOISELLE DE TERVIRE</speaker><stage type="kiss">, embrasse Brunon.
+</stage>
 <p id="16">
 	<s id="1">Quel heureux événement.</s>
 </p>
 </sp>
-<sp who="DURSAN"><speaker>DURSAN, lui baise la main.</speaker>
+<sp who="DURSAN"><speaker>DURSAN</speaker><stage>, lui baise la main.
+</stage>
 <p id="17">
 	<s id="1">Ma chère cousine ; c'est à vous que je dois mon bonheur.</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,11 +29,11 @@
 			<titlePart type="main">LE NORMAND ET LA GASCON </titlePart>
 			<titlePart type="sub">DIALOGUE, OU PETITE SCÈNE.</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858. Droits de reproduction et de traduction réservés.</docDate>
-		<docAuthor id="[Anonyme]"></docAuthor>
+		<docDate value="1858">1858. Droits de reproduction et de traduction réservés.</docDate>
+		<docAuthor id="[Anonyme]"/>
 		<docImprint>
-			<editor id='BOUNET'>PERIGUEUX. J. BOUNET, LIBRAIRE-ÉDITEUR, Cours Michel-Montaigne.</editor>
-			<printer id='BOUNET'>PERIGUEUX. imprimerie DUPONT et C. - Juin 58.</printer>
+			<editor id="BOUNET">PERIGUEUX. J. BOUNET, LIBRAIRE-ÉDITEUR, Cours Michel-Montaigne.</editor>
+			<printer id="BOUNET">PERIGUEUX. imprimerie DUPONT et C. - Juin 58.</printer>
 		</docImprint>
 	<div type="avis"><head>AVIS.</head>
 		<p>Dans les dialogues et les compliments qui composent ce petit recueil, nous nous sommes moins attaché au fond et à la forme qu'aux moyens d'intéresser les personnes qui assistent aux distributions de prix, pour lesquelles nous les faisons. Tous ces récits sont courts, parce qu'il faut éviter avec soin d'être prolixe et de fatiguer l'attention des auditeurs.</p>
@@ -43,19 +43,22 @@
 		<p>Mais ce qui nous semble le plus important à propos de ces récits, c'est que les élèves qui sont destinés à les faire les sachent imperturbablement, les débitent avec énergie, avec grâce et avec aisance, faisant quelques gestes sans affectation et sans sortir jamais du naturel.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="FERDINAND" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>FERDINAND</role>, gascon.</castItem>
-		<castItem><role id="MAURIN" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>MAURIN</role>, normand.</castItem>
+		<castItem><role id="FERDINAND" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">FERDINAND</role>, gascon.</castItem>
+		<castItem><role id="MAURIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">MAURIN</role>, normand.</castItem>
 	</castList>
 <note>Texte tiré de "Dialogues et petits discours, récits facétieux et récréatifs por la distribution des prix de 1858", Périgueux : Bounet, 1858. pp 27-36.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE NORMAND ET LE GASCON.</head>
-<div2 type="scene" n="1"><head>DIALOGUE OU PETITE SCÈNE. Ferdinand, Maurin</head>
+<div2 type="scene" n="1"><head>DIALOGUE OU PETITE SCÈNE.</head><stage> Ferdinand, Maurin
+</stage>
 <stage type="explicit">Il est bon de ne faire débiter ce morceau que vers la fin de la séance, pendant la proclamation des prix, par exemple.</stage>
-<sp stage="entrance/closer/location/furniture/sit/read" who="LE GASCON"><speaker>LE GASCON, s'approchant du Normand, qui est déjà sur la scène, assis près d'une table, occupé à lire.</speaker>
+<sp who="LE GASCON"><speaker>LE GASCON</speaker><stage type="entrance/closer/location/furniture/sit/read">, s'approchant du Normand, qui est déjà sur la scène, assis près d'une table, occupé à lire.
+	</stage>
 	<l id="1" syll="6" part="i">Bonjour, mon cher Maurin.</l>
 </sp>
-<sp stage="stand" who="LE NORMAND"><speaker>LE NORMAND, se levant.</speaker>
+<sp who="LE NORMAND"><speaker>LE NORMAND</speaker><stage type="stand">, se levant.
+	</stage>
 	<l id="1" syll="6" part="f">Eh ! Bonjour, Ferdinand.</l>
 </sp>
 <sp who="LE GASCON"><speaker>LE GASCON.</speaker>
@@ -339,7 +342,7 @@
 </sp>
 </div2>
 <div2 type="compliment" n="2"><head>COMPLIMENT DE CLOTURE.</head>
-<sp who="ORATEUR DU COMPLIMENT"><speaker></speaker>
+<sp who="ORATEUR DU COMPLIMENT"><speaker/>
 <p id="1">
 	<s id="1">Messieurs,</s>
 </p>

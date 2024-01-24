@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -31,16 +31,16 @@
 		<titlePart part="sub">Représentée pour la première fois, à Paris, sur le Théâtre de la Renaissance, le 13 mai 1902.</titlePart>
 	</docTitle>
    <docDate value="1908">1908.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor id="CALMANN-LÉVY">PARIS, CALMANN-LÉVY, éditeurs, 3, RUE AUBER, 3.</editor>
 		<printer>1795-06. - Coulommiers Imp. PAUL BRODARD. - 7-08.</printer>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>HENRI</role>.</castItem>
-		<castItem><role id="JEANNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>JEANNE</role>, sa femme.</castItem>
+		<castItem><role id="HENRI" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">HENRI</role>.</castItem>
+		<castItem><role id="JEANNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">JEANNE</role>, sa femme.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage Théâtre de Tristan Bernard - I -, Paris, Calmann-Lévy, 1930, pp. 355-369</note>
 </front>
 <body>
@@ -63,7 +63,8 @@
 	<s id="1">Tu as l'intention d'aller aux courses cet après-midi ?</s>
 </p>
 </sp>
-<sp stage="anxious" who="HENRI"><speaker>HENRI, légèrement inquiet.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="anxious">, légèrement inquiet.
+</stage>
 <p id="3">
 	<s id="1">Mais oui, voyons, est-ce que ce n'est pas entendu ? </s>
 	<s id="2">Je te l'ai déjà dit ce matin.</s>
@@ -85,7 +86,8 @@
 	<s id="2">Emmène-moi ?</s>
 </p>
 </sp>
-<sp stage="strong" who="HENRI"><speaker>HENRI, énergiquement.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="strong">, énergiquement.
+</stage>
 <p id="7">
 	<s id="1">Non, non, ce n'est pas la même chose. </s>
 	<s id="2">Quand j'y vais seul, je prends un fiacre pour cent_sous, et c'est tout ce que ça me coûte. </s>
@@ -179,7 +181,8 @@
 	<s id="4">Mais si tu te tenais tranquille, et si tu ne me faisais pas toujours des observations, j'aimerais autant sortir avec toi qu'avec n'importe qui.</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, après un temps.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage>, après un temps.
+</stage>
 <p id="21">
 	<s id="1">Quelle heure est-il ?</s>
 </p>
@@ -214,7 +217,8 @@
 	<s id="2">Bien !</s>
 </p>
 </sp>
-<sp stage="sit/closer" who="HENRI"><speaker>HENRI, s'asseyant auprès d'elle.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="sit/closer">, s'asseyant auprès d'elle.
+</stage>
 <p id="27">
 	<s id="1">Voyons, petit coco... </s>
 	<s id="2">Qu'est-ce que ça peut te faire que j'aille m'amuser, puisque, si je restais près de toi, tu ne t'ennuierais pas moins !</s>
@@ -361,7 +365,8 @@
 	<s id="2">Embrasse-moi au moins...</s>
 </p>
 </sp>
-<sp stage="strong" who="JEANNE"><speaker>JEANNE, nettement.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="strong">, nettement.
+</stage>
 <p id="54">
 	<s id="1">Non !</s>
 </p>
@@ -375,12 +380,14 @@
 	<s id="">Voilà qu'elle ne veut plus m'embrasser maintenant !</s>
 </p>
 </sp>
-<sp stage="strong" who="JEANNE"><speaker>JEANNE, dure.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="strong">, dure.
+</stage>
 <p id="57">
 	<s id="">Je n'ai pas besoin d'embrasser un homme qui me traite de rosse et de méchante bête.</s>
 </p>
 </sp>
-<sp stage="nervous" who="HENRI"><speaker>HENRI, irrité.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="nervous">, irrité.
+</stage>
 <p id="58">
 	<s id="1">Eh bien ! </s>
 	<s id="2">C'est bon ! </s>
@@ -407,7 +414,8 @@
 	<s id="2">Mais comme tu ne peux pas la vendre, elle ne vaut rien du tout.</s>
 </p>
 </sp>
-<sp stage="hide" who="HENRI"><speaker>HENRI, remettant sa carte dans sa poche.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="hide">, remettant sa carte dans sa poche.
+</stage>
 <p id="62">
 	<s id="1">Voyons, coco... </s>
 	<s id="2">Je vais te faire une proposition...</s>
@@ -454,7 +462,8 @@
 </p>
 <stage type="away/get/hesitate/sit/think">Elle s'en va par la gauche, dans sa chambre. Henri resté seul prend sa lorgnette et son chapeau et va pour sortir. Mais il hésite et s'assoit pour réfléchir.</stage>
 </sp>
-<sp who="JEANNE"><speaker>JEANNE, rentrant.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage>, rentrant.
+</stage>
 <p id="70">
 	<s id="1">Comment ? </s>
 	<s id="2">Tu n'es pas encore parti ? </s>
@@ -497,7 +506,8 @@
 	<s id="1">Amuse-toi bien.</s>
 </p>
 </sp>
-<sp stage="stop/watch" who="HENRI"><speaker>HENRI, s'arrêtant et la regardant.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="stop/watch">, s'arrêtant et la regardant.
+</stage>
 <p id="78">
 	<s id="1">Comment dis-tu ?</s>
 </p>
@@ -546,7 +556,8 @@
 	<s id="1">Mon pauvre ami, tu es complètement fou !</s>
 </p>
 </sp>
-<sp stage="" who="HENRI"><speaker>HENRI, se montant.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="">, se montant.
+</stage>
 <p id="87">
 	<s id="1">Oui, je suis surtout le bon imbécile que tout le monde fiche dedans, et qui ne s'aperçoit de rien... </s>
 	<s id="2">Cette dépêche de Juliette, veux-tu que je dise ce que c'est ? </s>
@@ -556,7 +567,8 @@
 	<s id="6">Vous ne valez pas mieux l'une que l'autre !</s>
 </p>
 </sp>
-<sp stage="nervous" who="JEANNE"><speaker>JEANNE, agacée.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="nervous">, agacée.
+</stage>
 <p id="88">
 	<s id="1">Tu es trop bête. </s>
 	<s id="2">Je ne te répondrai pas.</s>
@@ -574,7 +586,8 @@
 	<s id="8">J'aime mieux ne pas m'amuser ; je vais rester près de toi.</s>
 </p>
 </sp>
-<sp stage="nervous" who="JEANNE"><speaker>JEANNE, énervée.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="nervous">, énervée.
+</stage>
 <p id="90">
 	<s id="1">C'est effrayant !</s>
 </p>
@@ -605,7 +618,8 @@
 	<s id="1">Tranquillement.</s>
 </p>
 </sp>
-<sp stage="sad/dress" who="JEANNE"><speaker>JEANNE, exaspérée et lui mettant le chapeau sur la tête.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="sad/dress">, exaspérée et lui mettant le chapeau sur la tête.
+</stage>
 <p id="96">
 	<s id="1">Oh ! </s>
 	<s id="2">Écoute, je t'en supplie, va aux courses ! </s>
@@ -624,7 +638,8 @@
 	<s id="1">Mais de quoi as-tu peur ?</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, sombre.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage>, sombre.
+</stage>
 <p id="99">
 	<s id="">Que tu n'ailles chez Juliette... ou ailleurs !</s>
 </p>
@@ -659,7 +674,8 @@
 	<s id="2">Eh bien ?</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, épanoui.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage>, épanoui.
+</stage>
 <p id="106">
 	<s id="1">Eh bien, je vais aux courses... </s>
 	<s id="2">Je vois que je m'étais trompé... </s>
@@ -684,7 +700,8 @@
 	<s id="2">Eh bien, je resterai ici !</s>
 </p>
 </sp>
-<sp stage="touched" who="HENRI"><speaker>HENRI, ému.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="touched">, ému.
+</stage>
 <p id="110">
 	<s id="1">Mon petit chéri ! </s>
 	<s id="2">Mon petit chéri ! </s>
@@ -693,13 +710,15 @@
 	<s id="5">Je vais rester près de ma petite femme que j'aime !</s>
 </p>
 </sp>
-<sp stage="sad" who="JEANNE"><speaker>JEANNE, toujours attristée.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="sad">, toujours attristée.
+</stage>
 <p id="111">
 	<s id="1">Oui ! </s>
 	<s id="2">Tu m'aimes à ta façon !</s>
 </p>
 </sp>
-<sp stage="hugh" who="HENRI"><speaker>HENRI, la prend dans ses bras.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="hugh">, la prend dans ses bras.
+</stage>
 <p id="112">
 	<s id="1">Mais si, je t'aime, puisque je te sacrifie mon après-midi. </s>
 	<s id="2">Je te le sacrifie joyeusement.</s>
@@ -767,13 +786,15 @@
 	<s id="1">Ça va retomber... Quelle heure est-il ?</s>
 </p>
 </sp>
-<sp stage="sight" who="JEANNE"><speaker>JEANNE, soupirant.</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="sight">, soupirant.
+</stage>
 <p id="125">
 	<s id="1">Ah ! </s>
 	<s id="2">L'heure de t'en aller !</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="HENRI"><speaker>HENRI, avec effusion.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="enthousiasm">, avec effusion.
+</stage>
 <p id="126">
 	<s id="1">Oh ! </s>
 	<s id="2">Merci !...</s>
@@ -811,7 +832,8 @@
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="wait/listen/stand/location/toward" who="JEANNE"><speaker>JEANNE attend un instant, écoute si la porte d entrée s'est refermée, puis se lève, et va à la porte du fond. - À la cantonade :</speaker>
+<sp who="JEANNE"><speaker>JEANNE</speaker><stage type="wait/listen/stand/location/toward"> attend un instant, écoute si la porte d entrée s'est refermée, puis se lève, et va à la porte du fond. - À la cantonade :
+</stage>
 <p id="133">
 	<s id="1">Marie, vous ne sortirez pas avant de m'avoir préparé une grosse tasse de chocolat, que je mangerai froid à mon goûter. </s>
 	<s id="2">Vous me monterez aussi deux croissants. </s>

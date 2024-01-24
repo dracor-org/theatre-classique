@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,26 +30,28 @@
 			<titlePart type="sub">DRAME EN UN ACTE</titlePart>
 			<titlePart type="sub">DIX-NEUVIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pont d'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pont d'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ADÉLAÏDE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>ADÉLAÏDE</role>, jeune veuve.</castItem>
-		<castItem><role id="LE COMTE D'ORONVILLE" sex="1" type="H" statut="comte" age="A" stat_amour='néant'>LE COMTE D'ORONVILLE</role>, sous le nom de Dorval.</castItem>
-		<castItem><role id="LE BARON DE FONTALBANNE" sex="1" type="H" statut="baron" age="J" stat_amour='néant'>LE BARON DE FONTALBANNE</role>.</castItem>
-		<castItem><role id="JUSTINE" sex="2" type="H" statut="suivante" age="J" stat_amour='néant'>JUSTINE</role>.</castItem>
-		<castItem><role id="LA FLEUR" sex="1" type="H" statut="laquais" age="A" stat_amour='néant'>LA FLEUR</role>.</castItem>
+		<castItem><role id="ADÉLAÏDE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">ADÉLAÏDE</role>, jeune veuve.</castItem>
+		<castItem><role id="LE COMTE D'ORONVILLE" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE D'ORONVILLE</role>, sous le nom de Dorval.</castItem>
+		<castItem><role id="LE BARON DE FONTALBANNE" sex="1" type="H" statut="baron" age="J" stat_amour="néant">LE BARON DE FONTALBANNE</role>.</castItem>
+		<castItem><role id="JUSTINE" sex="2" type="H" statut="suivante" age="J" stat_amour="néant">JUSTINE</role>.</castItem>
+		<castItem><role id="LA FLEUR" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">LA FLEUR</role>.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est chez Adélaïde.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 421-440.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>ADELAÏDE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Adélaïde, Justine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Adélaïde, Justine.
+</stage>
 <stage type="decor">Le Théâtre représente un appartement d'Adélaïde.</stage>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE, entre sur la scène d'un air ému ; elle tient une lettres et est suivie de Justine.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage>, entre sur la scène d'un air ému ; elle tient une lettres et est suivie de Justine.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, Justine, j'ai pris mon parti enfin.</s>
 </p>
@@ -123,7 +125,8 @@
 	<s id="1">Au fond, je me reproche ma conduite à son égard...</s>
 </p>
 </sp>
-<sp stage="aparte" who="JUSTINE"><speaker>JUSTINE, à part.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Quelle femme !</s>
 </p>
@@ -142,7 +145,8 @@
 	<s id="1">Les coeurs ne sont-ils pas libres ?</s>
 </p>
 </sp>
-<sp stage="tender" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, tendrement.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="tender">, tendrement.
+</stage>
 <p id="19">
 	<s id="1">Hélas !... </s>
 	<s id="2">Pourquoi la fortune l'a-t-elle si cruellement traité, </s>
@@ -154,13 +158,15 @@
 	<s id="1">Mais, comme un autre.</s>
 </p>
 </sp>
-<sp stage="tender" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, plus tendrement.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="tender">, plus tendrement.
+</stage>
 <p id="21">
 	<s id="1">Ah ! </s>
 	<s id="2">Justine, est-il rien de plus noble que sa physionomie, de plus grand que ses manières, de plus élevé que son esprit !</s>
 </p>
 </sp>
-<sp stage="despite" who="JUSTINE"><speaker>JUSTINE, avec dépit.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="despite">, avec dépit.
+</stage>
 <p id="22">
 	<s id="1">Soit ; mais au bout du compte, on ne sait qui il est.</s>
 </p>
@@ -175,7 +181,8 @@
 	<s id="1">Chimères que tout cela, la médiocrité de sa fortune et le silence qu'il garde sur son origine, sont de sûrs indices qu'elle est obscure et peut-être ignoble, que sait-on.</s>
 </p>
 </sp>
-<sp stage="enthousiasm.abrupt" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, avec impétuosité et changeant brusquement de ton.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="enthousiasm.abrupt">, avec impétuosité et changeant brusquement de ton.
+</stage>
 <p id="25">
 	<s id="1">Tu as raison. </s>
 	<s id="2">Et il a eu l'insolence de m'aimer... </s>
@@ -201,7 +208,8 @@
 	<s id="1">Je le crois.</s>
 </p>
 </sp>
-<sp stage="tender" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, avec attendrissement.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="tender">, avec attendrissement.
+</stage>
 <p id="29">
 	<s id="1">Et je l'aimais, Justine, je l'aimais... </s>
 	<s id="2">J'en suis bien honteuse.</s>
@@ -229,7 +237,8 @@
 	<s id="2">Vous allez donc être Madame_la_Baronne de Fontalbanne : vous devez être bien contente.</s>
 </p>
 </sp>
-<sp stage="froidement" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, froidement.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="froidement">, froidement.
+</stage>
 <p id="33">
 	<s id="1">Mais, oui, Justine... </s>
 	<s id="2">Il est heureux pour moi d'avoir trouvé cette petite occasion pour rompre avec Dorval. </s>
@@ -249,7 +258,8 @@
 	<s id="4">Il va être désespéré ; mais il le mérite, n'est-ce pas, Justine ?</s>
 </p>
 </sp>
-<sp stage="nervois" who="JUSTINE"><speaker>JUSTINE, impatientée.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="nervois">, impatientée.
+</stage>
 <p id="36">
 	<s id="1">Point du tout, Madame ; il mérite au contraire que vous alliez vous jeter à ses pieds, le conjurer de reprendre pour vous des sentiments...</s>
 </p>
@@ -305,7 +315,8 @@
 <stage type="entrance">La Fleur entre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCENE II. Adélaïde, Justine, La Fleur.</head>
+<div2 type="scene" n="2"><head>SCENE II.</head><stage> Adélaïde, Justine, La Fleur.
+</stage>
 <sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce, La Fleur ?</s>
@@ -325,7 +336,8 @@
 	<s id="1">Eh bien, qu'attends-tu donc ?</s>
 </p>
 </sp>
-<sp who="LA FLEUR"><speaker>LA FLEUR, à Justine.</speaker>
+<sp who="LA FLEUR"><speaker>LA FLEUR</speaker><stage>, à Justine.
+</stage>
 <p id="5">
 	<s id="1">Ah ça... </s>
 	<s id="2">Mais dame c'est que vous m'aviez dit de dire que Madame n'était pas visible.</s>
@@ -357,8 +369,10 @@
 <stage type="exit">La Fleur sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Adélaïde, Justine.</head>
-<sp stage="aparte" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Adélaïde, Justine.
+</stage>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Que cela est désagréable !</s>
 </p>
@@ -374,7 +388,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="JUSTINE"><speaker>JUSTINE, entre.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, entre.
+</stage>
 <p id="1">
 	<s id="1">Courage, voilà mes affaires en bon train... </s>
 	<s id="2">Sa première inclination la brouillait avec sa famille, la déshonorait dans le monde... </s>
@@ -383,33 +398,40 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur de Fontalbanne, Justine.</head>
-<sp who="JUSTINE"><speaker>JUSTINE, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur de Fontalbanne, Justine.
+</stage>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, à part.
+</stage>
 <p id="1">
 	<s id="1">Quelle figure !</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, s'inclinant profondément.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, s'inclinant profondément.
+</stage>
 <p id="2">
 	<s id="1">Madame, vous excuserez ma témérité ; mais...</s>
 </p>
 </sp>
-<sp stage="laugh" who="JUSTINE"><speaker>JUSTINE, éclatant de rire.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="laugh">, éclatant de rire.
+</stage>
 <p id="3">
 	<s id="1">Ah , ah , ah , ah.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, troublé.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="4">
 	<s id="1">Mais... mais .... l'ardeur avec laquelle je désirais...</s>
 </p>
 </sp>
-<sp stage="laugh" who="JUSTINE"><speaker>JUSTINE, redoublant ses ris.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="laugh">, redoublant ses ris.
+</stage>
 <p id="5">
 	<s id="1">Finissez donc, Monsieur, ah , ah , ah , ah.</s>
 </p>
 </sp>
-<sp stage="surprise" who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, déconcerté.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage type="surprise">, déconcerté.
+</stage>
 <p id="6">
 	<s id="1">Madame... </s>
 	<s id="2">Je vous confesse... </s>
@@ -417,7 +439,8 @@
 	<s id="4">Je suis surpris...</s>
 </p>	
 </sp>
-<sp stage="laugh" who="JUSTINE"><speaker>JUSTINE, contenant ses ris.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="laugh">, contenant ses ris.
+</stage>
 <p id="7">
 	<s id="1">Monsieur... </s>
 	<s id="2">Vous vous trompez... </s>
@@ -426,7 +449,8 @@
 	<s id="5">Ah, ah, ah, ah.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, fâché.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, fâché.
+</stage>
 <p id="8">
 	<s id="1">Vous avez tort, ma mie. </s>
 	<s id="2">Il fallait m'avertir plutôt. </s>
@@ -434,7 +458,8 @@
 	<s id="4">Ne seriez-vous pas cette Justine dont m'a tant parlé Madame d'Ainville ?</s>
 </p>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, faisant la révérence.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, faisant la révérence.
+</stage>
 <p id="9">
 	<s id="1">Oui, monsieur.</s>
 </p>
@@ -445,12 +470,14 @@
 	<s id="2">Vous pouvez tout sur l'esprit de votre maîtresse ; vous la menez, m'a-t-on dit : c'est tant mieux ; car on m'a ajouté que je pouvais compter sur vous.</s>
 </p>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, avec embarras, et lui faisant des lignes.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, avec embarras, et lui faisant des lignes.
+</stage>
 <p id="11">
 	<s id="1">On vous a trompé, Monsieur, ma maîtresse ne se laisse mener par personne, et j'ai moins d'empire sur son esprit qu'un autre.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, d'un ton élevé.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, d'un ton élevé.
+</stage>
 <p id="12">
 	<s id="1">À quoi bon faire la fine ? </s>
 	<s id="2">Je suis bien instruit peut-être ? </s>
@@ -459,12 +486,14 @@
 	<s id="5">Hein ?</s>
 </p>
 </sp>
-<sp stage="low" who="JUSTINE"><speaker>JUSTINE, bas.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="low">, bas.
+</stage>
 <p id="13">
 	<s id="1">Taisez-vous donc ; ma maîtresse nous entend : vous me perdez.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, fort haut.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, fort haut.
+</stage>
 <p id="14">
 	<s id="1">Ah ! </s>
 	<s id="2">Pardon, pardon ; c'est aussi de votre faute. </s>
@@ -472,8 +501,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. Adélaïde, Monsieur de Fontalbanne, Justine.</head>
-<sp stage="entrance/hurry" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, entrant avec précipitation.</speaker>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> Adélaïde, Monsieur de Fontalbanne, Justine.
+</stage>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="entrance/hurry">, entrant avec précipitation.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, mille pardons. </s>
 	<s id="2">Une affaire pressée m'a retenue un instant dans mon cabinet.</s>
@@ -485,7 +516,8 @@
 	<s id="2">Je serais mortifié.</s>
 </p>
 </sp>
-<sp stage="quick" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, avec vivacité.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="quick">, avec vivacité.
+</stage>
 <p id="3">
 	<s id="1">Abrégeons, Monsieur, s'il vous plait. </s>
 	<s id="2">Un mal de tête affreux m'empêche de soutenir une longue conversation. </s>
@@ -505,7 +537,8 @@
 </p>
 <stage type="watch/anger">Elle lance un regard courroucé sur Justine, qui baisse les yeux.</stage>
 </sp>
-<sp stage="wave" who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, s'inclinant profondément.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage type="wave">, s'inclinant profondément.
+</stage>
 <p id="6">
 	<s id="1">Madame... </s>
 	<s id="2">Si j'étais allez heureux pour mériter...</s>
@@ -534,13 +567,15 @@
 	<s id="1">Madame, quels que soient les sentiments qui vous déterminent, il me suffit que vous me permettiez d'aspirer à vous ; et si d'un côté j'ai à me plaindre du sort qui ne m'a pas donné l'avantage de toucher votre coeur, d'un autre côté la raison.</s>
 </p>
 </sp>
-<sp stage="impatient/sit/touch" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, impatientée, s'assied et s'appuie la main sur son front.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="impatient/sit/touch">, impatientée, s'assied et s'appuie la main sur son front.
+</stage>
 <p id="11">
 	<s id="1">Quel état cruel ! </s>
 	<s id="2">Ma migraine ne m'a jamais tourmentée si violemment.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, allant à elle avec empressement.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, allant à elle avec empressement.
+</stage>
 <p id="12">
 	<s id="1">Madame se trouve mal...</s>
 </p>
@@ -557,7 +592,8 @@
 	<s id="1">Je vous laisse, Madame ; mais avec les espérances que vous me donnez, vous me permettrez d'aller prendre les mesures nécessaires...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, l'interrompant.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="15">
 	<s id="1">Tenez, Monsieur, je suis dans un état qui ne me permet ni de rien vouloir, ni de rien décider. </s>
 	<s id="2">Excusez-moi, je vous prie.</s>
@@ -570,7 +606,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Adélaïde, Justine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Adélaïde, Justine.
+</stage>
 <sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE.</speaker>
 <p id="1">
 	<s id="1">Une promesse de cent pistoles est tentante, n'est-ce pas, Mademoiselle Justine ? </s>
@@ -612,7 +649,8 @@
 	<s id="1">Allez, vous êtes une malheureuse, laissez-moi ?</s>
 </p>
 </sp>
-<sp stage="cry" who="JUSTINE"><speaker>JUSTINE, pleurant.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="8">
 	<s id="1">Hélas, Madame, pourriez-vous croire ?...</s>
 </p>
@@ -627,7 +665,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, seule.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Je ne sais où j'en suis... </s>
 	<s id="2">Une malheureuse qui me doit tout ; me vendre, me trahir aussi indignement ! </s>
@@ -646,7 +685,8 @@
 <stage type="knell">Dorval, qui a entendu ces dernières paroles, entre et se jette aux pieds d'Adélaïde.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Adélaïde, Dorval.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Adélaïde, Dorval.
+</stage>
 <sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -673,7 +713,8 @@
 	<s id="3">Je passe du comble du désespoir à la joie la plus vive.</s>
 </p>
 </sp>
-<sp stage="cry" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, avec larmes.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="cry">, avec larmes.
+</stage>
 <p id="5">
 	<s id="1">Dorval !... </s>
 	<s id="2">Il faut nous séparer pour toujours.</s>
@@ -745,7 +786,8 @@
 	<s id="6">Dorval, qu'un nom, un rang, une famille me sont actuellement insupportables !</s>
 </p>
 </sp>
-<sp who="DORVAL"><speaker>DORVAL, la considère un instant avec une pitié mêlée de tendresse.</speaker>
+<sp who="DORVAL"><speaker>DORVAL</speaker><stage>, la considère un instant avec une pitié mêlée de tendresse.
+</stage>
 <p id="16">
 	<s id="1">Trop faible Adélaïde ! </s>
 	<s id="2">Et si vous deveniez Comtesse en m'épousant.</s>
@@ -756,7 +798,8 @@
 	<s id="1">Comtesse !</s>
 </p>
 </sp>
-<sp stage="hurry" who="DORVAL"><speaker>DORVAL, avec précipitation.</speaker>
+<sp who="DORVAL"><speaker>DORVAL</speaker><stage type="hurry">, avec précipitation.
+</stage>
 <p id="18">
 	<s id="1">Mes malheurs sont finis. </s>
 	<s id="2">Une affaire d'honneur m'avait obligé de demeurer inconnu jusqu'à présent. </s>
@@ -764,7 +807,8 @@
 </p> 
 <stage type="show">Il lui présente une lettre.</stage>
 </sp>
-<sp stage="read" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, après avoir lu quelques lignes.</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="read">, après avoir lu quelques lignes.
+</stage>
 <p id="19">
 	<s id="1">Ah ! </s>
 	<s id="2">Dorval, que ne m'avez-vous instruite plutôt !</s>
@@ -792,14 +836,17 @@
 	<s id="1">Quel bonheur inespéré.</s>
 </p>
 </sp>
-<sp stage="kiss" who="DORVAL"><speaker>DORVAL, lui baisant la main avec transport.</speaker>
+<sp who="DORVAL"><speaker>DORVAL</speaker><stage type="kiss">, lui baisant la main avec transport.
+</stage>
 <p id="24">
 	<s id="1">Ma chère Adélaïde !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X ET DERNIÈRE. Monsieur de Fontalbanne, Dorval, Adélaïde.</head>
-<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, entre brusquement.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X ET DERNIÈRE.</head><stage> Monsieur de Fontalbanne, Dorval, Adélaïde.
+</stage>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage>, entre brusquement.
+</stage>
 <p id="1">
 	<s id="1">Madame, monsieur.... </s>
 	<s id="2">Mille pardons... </s>
@@ -832,7 +879,8 @@
 	<s id="2">Je vous estime beaucoup, mais je ne vous aime point ; voici monsieur , que j'estime et que j'aime tout ensemble : Ai-je tort de le préférer ?</s>
 </p>
 </sp>
-<sp stage="think" who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE, après un moment de réflexion.</speaker>
+<sp who="MONSIEUR DE FONTALBANNE"><speaker>MONSIEUR DE FONTALBANNE</speaker><stage type="think">, après un moment de réflexion.
+</stage>
 <p id="7">
 	<s id="1">Ma foi non. </s>
 	<s id="2">Cela est juste, et très juste. </s>

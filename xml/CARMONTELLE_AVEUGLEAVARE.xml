@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,23 +30,24 @@
 			<titlePart type="sub">PROVERBE.</titlePart>
 			<titlePart type="sub">QUATRE-VINGT-HUITIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1781'>M. DCC. LXXXI. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1781">M. DCC. LXXXI. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='ESPRIT, LAPORTE'>À AMSTERDAM, et se trouve à Paris, Chez ESPRIT, au Palais-Royal, et chez LAPORTE, Libraire, Rue des Noyers.</printer>
+			<printer id="ESPRIT, LAPORTE">À AMSTERDAM, et se trouve à Paris, Chez ESPRIT, au Palais-Royal, et chez LAPORTE, Libraire, Rue des Noyers.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR SAVONEAU" sex="1" type="H" statut="barbier" age='A' stat_amour='(néant)'>MONSIEUR SAVONEAU</role>, barbier.</castItem>
-		<castItem><role id="JANNETON" sex="1" type="H" statut="bourgeois" age='J' stat_amour='(néant)'>JANNETON</role>, fille de M. Savoneau.</castItem>
-		<castItem><role id="TATONET" sex="1" type="H" statut="mendiant" age='A' stat_amour='(néant)'>TATONET</role>, aveugle demandant l'aumône.</castItem>
+		<castItem><role id="MONSIEUR SAVONEAU" sex="1" type="H" statut="barbier" age="A" stat_amour="(néant)">MONSIEUR SAVONEAU</role>, barbier.</castItem>
+		<castItem><role id="JANNETON" sex="1" type="H" statut="bourgeois" age="J" stat_amour="(néant)">JANNETON</role>, fille de M. Savoneau.</castItem>
+		<castItem><role id="TATONET" sex="1" type="H" statut="mendiant" age="A" stat_amour="(néant)">TATONET</role>, aveugle demandant l'aumône.</castItem>
 	</castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La scène est dans la rue et dans la boutique de Monsieur Savoneau.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans la rue et dans la boutique de Monsieur Savoneau.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome VII, Amesterdam, 1781. pp. 161-185.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'AVEUGLE AVARE.</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="open/work" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, ouvrant sa boutique.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="open/work">, ouvrant sa boutique.
+</stage>
 <p id="1">
 	<s id="1">Il ne fait pas vilain, ce matin. Eh bien, on disait hier au soir qu'il pleuvrait. </s>
 	<s id="2">Ah çà, voyons par où je commencerai : ah, par la perruque de notre voisin le Peintre des Boulevards. </s>
@@ -74,7 +75,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur Savoneau, Janneton, sans paraître.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur Savoneau, Janneton, sans paraître.
+</stage>
 <sp who="JANNETON"><speaker>JANNETON.</speaker>
 <p id="1">
 	<s id="1">Mon père.</s>
@@ -170,7 +172,8 @@
 	<s id="1">Parle moi par la fenêtre, je verrai bien si tu es levée.</s>
 </p>
 </sp>
-<sp who="JANNETON"><speaker>JANNETON, à la fenêtre, s'habillant.</speaker>
+<sp who="JANNETON"><speaker>JANNETON</speaker><stage>, à la fenêtre, s'habillant.
+</stage>
 <p id="19">
 	<s id="1">Me voilà, me voilà. </s>
 	<s id="2">Qu'avez-vous à me dire, voyons ?</s>
@@ -302,7 +305,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Tatonet, Monsieur Savoneau.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Tatonet, Monsieur Savoneau.
+</stage>
 <sp who="TATONET"><speaker>TATONET.</speaker>
 <p id="1">
 	<s id="1">Je pense que j'arrive bientôt à la place que j'envie depuis longtemps.</s>
@@ -342,7 +346,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Tatonet, Janneton, Monsieur Savoneau.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Tatonet, Janneton, Monsieur Savoneau.
+</stage>
 <sp who="JANNETON"><speaker>JANNETON.</speaker>
 <p id="1">
 	<s id="1">Mon père, me voilà. </s>
@@ -512,7 +517,8 @@
 </p>
 <stage type="hit">Il le frappe ou croit le frapper, et attrape le mur, qui lui fait tomber son bâton de la main.</stage>
 </sp>
-<sp who="MONSIEUR SAVONEAU"><speaker>SAVONEAU, ramassant le bâton, crie :</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>SAVONEAU</speaker><stage>, ramassant le bâton, crie :
+</stage>
 <p id="31">
 	<s id="1">Ah je suis mort ! </s>
 </p>
@@ -529,7 +535,8 @@
 </p>
 <stage type="search">Il cherche à quatre pattes.</stage>
 </sp>
-<sp stage="low/toward" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, bas à Janneton.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="low/toward">, bas à Janneton.
+</stage>
 <p id="33">
 	<s id="1">Tu as bien entendu, fais ce que je t'ai dit.</s>
 </p>
@@ -539,7 +546,8 @@
 	<s id="1">Oui, mon père.</s>
 </p>
 </sp>
-<sp stage="find" who="TATONET"><speaker>TATONET, trouvant le chapeau de Monsieur Savoneau.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="find">, trouvant le chapeau de Monsieur Savoneau.
+</stage>
 <p id="35">
 	<s id="1">Ah ! </s>
 	<s id="2">Voilà mon chapeau. </s>
@@ -677,7 +685,8 @@
 	<s id="1">Allons donc, un homme qui demande sa vie n'a pas besoin d'avoir tant d'argent ; c'est voler les pauvres.</s>
 </p>
 </sp>
-<sp stage="location" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, dans sa boutique.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="location">, dans sa boutique.
+</stage>
 <p id="61">
 	<s id="1">Oh le vilain avare ! </s>
 	<s id="A">Ne lui faites rien rendre, Mademoiselle.</s>
@@ -699,12 +708,14 @@
 	<s id="1">Je ne vous lâcherai point.</s>
 </p>
 </sp>
-<sp who="JANNETON"><speaker>JANNETON, criant.</speaker>q
+<sp who="JANNETON"><speaker>JANNETON</speaker><stage>, criant.q
+</stage>q
 <p id="65">
 	<s id="1">Au guet, au guet.</s>
 </p>
 </sp>
-<sp stage="low" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, avec une petite voix.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="low">, avec une petite voix.
+</stage>
 <p id="66">
 	<s id="1">Ah ! </s>
 	<s id="2">Voilà Monsieur_le_Commissaire.</s>
@@ -716,7 +727,8 @@
 	<s id="1">Tant mieux. Je m'en vais lui faire ma plainte.</s>
 </p>
 </sp>
-<sp stage="imitate" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, d'une voix de Commissaire.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="imitate">, d'une voix de Commissaire.
+</stage>
 <p id="68">
 	<s id="">Qu'est-ce que c'est donc que tout ce bruit-là ?</s>
 </p>
@@ -871,14 +883,16 @@
 	<s id="1">Monsieur_le_Commissaire, c'est un aveugle qui a été assassiné par un de ses camarades, et qui a dit que ce chapeau appartenait à son assassin.</s>
 </p>
 </sp>
-<sp stage="aparte" who="TATONET"><speaker>TATONET, à part.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="aparte">, à part.
+</stage>
 <p id="98">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>
 	<s id="2">Que je suis malheureux !</s>
 </p>
 </sp>
-<sp stage="imitate" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, de la voix du clerc.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="imitate">, de la voix du clerc.
+</stage>
 <p id="99">
 	<s id="1">Et il y a cent louis dans ce chapeau.</s>
 </p>
@@ -962,7 +976,8 @@
 	<s id="1">Vous n'en serez pas moins pendu.</s>
 </p>
 </sp>
-<sp stage="cry" who="TATONET"><speaker>TATONET, pleurant.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="116">
 	<s id="1">Je serai pendu !</s>
 </p>
@@ -972,7 +987,8 @@
 	<s id="1">Sûrement.</s>
 </p>
 </sp>
-<sp stage="cry" who="TATONET"><speaker>TATONET, pleurant.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="118">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur_le_Commissaire, ne pourriez-vous pas empêcher que ce malheur-là ne m'arrive ?</s>
@@ -1045,7 +1061,8 @@
 	<s id="1">Cela ne suffit pas : il faut donner le tout.</s>
 </p>
 </sp>
-<sp stage="cry" who="TATONET"><speaker>TATONET, pleurant.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="132">
 	<s id="1">Le tout !</s>
 </p>
@@ -1060,7 +1077,8 @@
 	<s id="1">Et même votre bâton.</s>
 </p>
 </sp>
-<sp stage="cry" who="TATONET"><speaker>TATONET, pleurant.</speaker>
+<sp who="TATONET"><speaker>TATONET</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="135">
 	<s id="1">Mon chapeau et mon bâton !</s>
 </p>
@@ -1110,7 +1128,8 @@
 	<s id="1">Ou moins malheureux.</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU, à Janneton.</speaker>
+<sp who="MONSIEUR SAVONEAU"><speaker>MONSIEUR SAVONEAU</speaker><stage type="toward">, à Janneton.
+</stage>
 <p id="145">
 	<s id="1">Nous, allons chez la Mère_Dumoulin ; je suis sûr à présent de son consentement pour que son fils t'épouse, en voyant quelle est ta dot.</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -147,19 +147,20 @@
 	</div>
 <castList>
 	<head>ACTEURS de LES POCHES.</head>
-		<castItem><role id="MADEMOISELLE ADÉLAÏDE" sex="2" type="H" statut='bourgeois' age='E' stat_amour='(néant)'>MADEMOISELLE ADÉLAÏDE</role>, Fille de Monsieur et Madame Mondor, âgée de huit ans.</castItem>
-		<castItem><role id="MONSIEUR MONDOR" sex="1" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MONSIEUR MONDOR</role>, Financier.</castItem>
-		<castItem><role id="MADAME MONDOR" sex="2" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MADAME MONDOR</role>, sa femme.</castItem>
-		<castItem><role id="JULIE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='(néant)'>JULIE</role>, femme de Chambre de Madame Mondor.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="2" type="H" statut='laquais' age='A' stat_amour='(néant)'>UN LAQUAIS</role> de Monsieur Mondor.</castItem>
+		<castItem><role id="MADEMOISELLE ADÉLAÏDE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="(néant)">MADEMOISELLE ADÉLAÏDE</role>, Fille de Monsieur et Madame Mondor, âgée de huit ans.</castItem>
+		<castItem><role id="MONSIEUR MONDOR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MONSIEUR MONDOR</role>, Financier.</castItem>
+		<castItem><role id="MADAME MONDOR" sex="2" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MADAME MONDOR</role>, sa femme.</castItem>
+		<castItem><role id="JULIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="(néant)">JULIE</role>, femme de Chambre de Madame Mondor.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="2" type="H" statut="laquais" age="A" stat_amour="(néant)">UN LAQUAIS</role> de Monsieur Mondor.</castItem>
 </castList>
-	<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La scène est dans le Cabinet de Monsieur Mondor, où il y a un Paravent. L'action se passe à une heure après midi.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans le Cabinet de Monsieur Mondor, où il y a un Paravent. L'action se passe à une heure après midi.</set>
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>LES POCHES</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone/sit/location" who="MONDOR"><speaker>MONSIEUR MONDOR, seul, assis auprès d'un Bureau, où il regarde des Mémoires de Marchands.</speaker>
+<sp who="MONDOR"><speaker>MONSIEUR MONDOR</speaker><stage type="alone/sit/location">, seul, assis auprès d'un Bureau, où il regarde des Mémoires de Marchands.
+</stage>
 <p id="1">
 	<s id="1">Est-il possible qu'après dix années de mariage passées dans la plus heureuse intelligence, ma Femme se jette depuis six mois, dans un désordre qui me donne lieu de tout craindre ! </s>
 	<s id="2">C'est cette maudite connaissance qu'elle a faite de Madame des Usages, qui est cause de ce dérèglement, et il faut que j'emploie tout pour y mettre ordre. </s>
@@ -170,7 +171,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mondor, Un Laquais.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mondor, Un Laquais.
+</stage>
 <sp who="LE LAQUAIS"><speaker>LE LAQUAIS.</speaker>
 <p id="1">
 	<s id="1">Monsieur...</s>
@@ -193,7 +195,7 @@
 	<s id="2">Sachez ce qui en est, et si elle est levée, qu'elle vienne me parler tout-à-l'heure.</s>
 </p>
 </sp>
-<sp who="LE LAQUAIS"><speaker>LE LAQUAIS.</speaker>
+<sp who="LE LAQUAIS"><speaker/>
 <p id="5">
 	<s id="1">Oui, Monsieur : et si elle n'est pas levée, faudra-t-il aussi qu'elle vienne ?</s>
 </p>
@@ -210,13 +212,15 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone/walk" who="MONDOR"><speaker>MONDOR seul, se promenant dans son Cabinet.</speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="alone/walk"> seul, se promenant dans son Cabinet.
+</stage>
 <p id="1">
 	<s id="1">Il faut que je voie si je pourrai tirer de cette femme de chambre, quelques détails sur tout ce que je voudrais savoir, et que je crains d'apprendre.</s>
 </p>
 </sp> 
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Mondor, Julie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Mondor, Julie.
+</stage>
 <sp who="JULIE"><speaker>JULIE.</speaker>
 <p id="1">
 	<s id="1">Qui est-ce qu'il y a pour le service de Monsieur ?</s>
@@ -301,7 +305,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp sit="read/sit" who="MONDOR"><speaker>MONDOR se remet à son Bureau, calcule des Mémoires, et lit:</speaker>
+<sp sit="read/sit" who="MONDOR"><speaker>MONDOR</speaker><stage> se remet à son Bureau, calcule des Mémoires, et lit:
+</stage>
 <p id="1">
 	<s id="1">Mémoire de ce que Tenieres, Marchand rue Saint-Honoré, a fourni à Madame Mondor : Onh... onh... onh... Total... trois mille six cent livres.</s>
 </p>
@@ -323,8 +328,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Mondor, Madame Mondor, Julie.</head>
-<sp stage="aparte/toward" who="JULIE"><speaker>JULIE, à part à Madame Mondor.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Mondor, Madame Mondor, Julie.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte/toward">, à part à Madame Mondor.
+</stage>
 <p id="1">
 	<s id="1">Tenez bon, Madame, à toutes les questions que vous allez essuyer, sans quoi, attendez vous à une scène terrible.</s>
 </p>
@@ -336,7 +343,8 @@
 <stage type="exit">Julie sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Mondor, Madame Mondor.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Mondor, Madame Mondor.
+</stage>
 <sp who="MONDOR"><speaker>MONDOR.</speaker>
 <p id="1">
 	<s id="1">Madame, je vous ai fait dire que j'avais de l'argent à vous remettre, mais c'est bien peu pour tout celui dont vous avez besoin.</s>
@@ -370,8 +378,9 @@
 	<s id="1">Et comment savez-vous ?</s>
 </p>
 </sp>
-<sp stage="show" who="MONDOR"><speaker>MONDOR, montre les Mémoires et la Carte de Jeu.
-</speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="show">, montre les Mémoires et la Carte de Jeu.
+
+</stage>
 <p id="7">
 	<s id="1">Tenez, lisez, Madame.</s>
 </p>
@@ -434,14 +443,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VII. Mondor, Madame Mondor, Mademoiselle
-Adélaïde, leur fille.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VII.</head><stage> Mondor, Madame Mondor, Mademoiselle
+Adélaïde, leur fille. 
+</stage> 
 <sp who="ADÉLAÏDE"><speaker>MADEMOISELLE ADÉLAÏDE.</speaker>
 <p id="1">
 	<s id="1">Mon Papa, Maman, je viens vous souhaiter le bonjour.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MADAME MONDOR"><speaker>MADAME MONDOR, d'un air embarrassé.</speaker>
+<sp who="MADAME MONDOR"><speaker>MADAME MONDOR</speaker><stage type="embarrassed">, d'un air embarrassé.
+</stage>
 <p id="2">
 	<s id="1">Bonjour, petite. </s>
 </p>
@@ -450,14 +461,16 @@ Adélaïde, leur fille.</head>
 	<s id="1">Allez vous en auprès de votre bonne.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="ADÉLAÏDE"><speaker>ADÉLAÏDE. (Impromptu).</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE.</speaker><stage type="impromptu"> (Impromptu).
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Comme vous me renvoyez, Maman... </s>
 	<s id="3">Et vous, mon Papa, vous ne me dites rien ?</s>
 </p>
 </sp>
-<sp stage="cry" who="MONDOR"><speaker>MONDOR, presque les larmes aux yeux.</speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="cry">, presque les larmes aux yeux.
+</stage>
 <p id="5">
 	<s id="1">Embrassez-moi, ma chère amie, et obéissez à votre mère.</s>
 </p>
@@ -472,14 +485,16 @@ Adélaïde, leur fille.</head>
 </p> 
 <stage type="hugh">Elle les rassemble en se jetant à leurs cols.</stage>
 </sp>
-<sp stage="push" who="MADAME MONDOR"><speaker>MADAME MONDOR veut s'en débarrasser faiblement.</speaker>
+<sp who="MADAME MONDOR"><speaker>MADAME MONDOR</speaker><stage type="push"> veut s'en débarrasser faiblement.
+</stage>
 <p id="7">
 	<s id="1">Laisse donc, laisse donc, mon enfant... </s>
 	<s id="2">Eh bien ! </s>
 	<s id="3">Finis donc.</s>
 </p>
 </sp>
-<sp who="MONDOR"><speaker>MONDOR, de même.</speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage>, de même.
+</stage>
 <p id="8">
 	<s id="1">Allons, ma petite, je vous l'ai déjà dit, obéissez à votre mère, et allez auprès de votre bonne.</s>
 </p>
@@ -489,7 +504,8 @@ Adélaïde, leur fille.</head>
 	<s id="1">Oui, Papa, j'obéirai, mais quand nous nous serons embrassé tous les trois, comme nous faisons tous les matins, vous savez bien...</s>
 </p>
 </sp>
-<sp who="MONDOR"><speaker>MONDOR, à sa Femme.</speaker>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage>, à sa Femme.
+</stage>
 <p id="10">
 	<s id="1">Il faut bien s'en débarrasser... </s>
 </p>
@@ -500,7 +516,8 @@ Adélaïde, leur fille.</head>
 	<s id="2">Vas donc trouver ta bonne.</s>
 </p>
 </sp>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE. (Impromptu).</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE.</speaker><stage> (Impromptu).
+</stage>
 <p id="12">
 	<s id="1">J'y vais pour vous obéir, mais je ne suis pas contente, car vous ne vous êtes pas baisés de si bon coeur qu'à l'ordinaire, et cela me chagrinera toute la journée ; ah ! </s>
 	<s id="2">Papa, embrasse donc Maman de tout votre coeur !</s>
@@ -522,8 +539,10 @@ Adélaïde, leur fille.</head>
 <stage type="away/hide">Elle fait semblant de sortir, et se cache derrière un paravent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE IX. MONDOR , SA FEMME.</head>
-<sp stage="silence" who="MONDOR"><speaker>MONDOR, après un long silence.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE IX.</head><stage> MONDOR , SA FEMME.
+</stage>
+<sp who="MONDOR"><speaker>MONDOR</speaker><stage type="silence">, après un long silence.
+</stage>
 <p id="1">
 	<s id="1">Avouez, Madame, que sans la tendresse que cette enfant a pour son père et sa mère, ils étaient bien loin de s'embrasser ce matin suivant leur coutume.</s>
 </p>
@@ -564,8 +583,10 @@ Adélaïde, leur fille.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Mondor, Sa femme, Adélaïde.</head>
-<sp stage="toward" who="MADAME MONDOR"><speaker>MADAME MONDOR, à Adélaïde.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Mondor, Sa femme, Adélaïde.
+</stage>
+<sp who="MADAME MONDOR"><speaker>MADAME MONDOR</speaker><stage type="toward">, à Adélaïde.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Viens ma petite Adélaïde, que nous nous embrassions tous les trois maintenant, comme tu le voulais,</s>
@@ -575,13 +596,15 @@ Adélaïde, leur fille.</head>
 	<s id="1">Mais souviens toi toujours, si jamais tu as un mari aussi bon et aussi aimable que ton papa, de ne lui rien cacher de toute ta conduite, et d'en faire toujours ton meilleur ami.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="ADÉLAÏDE"><speaker>ADÉLAÏDE (Impromptu).</speaker>
+<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE</speaker><stage type="impromptu"> (Impromptu).
+</stage>
 <p id="3">
 	<s id="1">Oui, Maman, je m'en souviendrai, je vous le promets. </s>
 	<s id="2">J'ai entendu derrière ce paravent, toutes les bonnes raisons que vous avez de me donner cette leçon, et j'en profiterai, je vous assure.</s>
 </p>
 </sp>
-<sp who="MADAME MONDOR"><speaker>MADAME MONDOR, à son mari.</speaker>
+<sp who="MADAME MONDOR"><speaker>MADAME MONDOR</speaker><stage>, à son mari.
+</stage>
 <p id="4">
 	<s id="1">Pour moi, mon cher Ami, je vois avec plaisir que le Proverbe a raison, qui dit que...</s>
 </p>

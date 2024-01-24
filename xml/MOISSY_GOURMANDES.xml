@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -148,19 +148,20 @@
 
 <castList>
 	<head>ACTEURS de LES GOURMANDES.</head>
-	<castItem><role id="CAROLINE" sex="2" type="H" statut='bourgeois' age='E' stat_amour='(néant)'>LA PETITE CAROLINE</role>, enfant de sept à huit ans, enfant du marchant bijoutier.</castItem>
-	<castItem><role id="JOSÉPHINE" sex="2" type="H" statut='bourgeois' age='E' stat_amour='(néant)'>LA PETITE JOSÉPHINE</role>, enfant de sept à huit ans, enfant du marchant bijoutier.</castItem>
-	<castItem><role id="DULAC" sex="1" type="H" statut='bourgeois' age='E' stat_amour='(néant)'>LE PETIT DULAC</role>, enfant de sept à huit ans, enfant du marchant bijoutier..</castItem>
-	<castItem><role id="MONSIEUR DULAC" sex="1" type="H" statut='bijoutier' age='A' stat_amour='(néant)'>MONSIEUR DULAC</role>, bijoutier, père des trois enfants, homme veuf.</castItem>
-	<castItem><role id="FANCHETTE" sex="2" type="H" statut='servante' age='A' stat_amour='(néant)'>FANCHETTE</role>, servante de la maison.</castItem>
+	<castItem><role id="CAROLINE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="(néant)">LA PETITE CAROLINE</role>, enfant de sept à huit ans, enfant du marchant bijoutier.</castItem>
+	<castItem><role id="JOSÉPHINE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="(néant)">LA PETITE JOSÉPHINE</role>, enfant de sept à huit ans, enfant du marchant bijoutier.</castItem>
+	<castItem><role id="DULAC" sex="1" type="H" statut="bourgeois" age="E" stat_amour="(néant)">LE PETIT DULAC</role>, enfant de sept à huit ans, enfant du marchant bijoutier..</castItem>
+	<castItem><role id="MONSIEUR DULAC" sex="1" type="H" statut="bijoutier" age="A" stat_amour="(néant)">MONSIEUR DULAC</role>, bijoutier, père des trois enfants, homme veuf.</castItem>
+	<castItem><role id="FANCHETTE" sex="2" type="H" statut="servante" age="A" stat_amour="(néant)">FANCHETTE</role>, servante de la maison.</castItem>
 </castList>
-	<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La Scène est dans une arrière-boutique qui sert de salle à manger, et où il y a un buffet, l'action se passe sur les six heures du soir.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans une arrière-boutique qui sert de salle à manger, et où il y a un buffet, l'action se passe sur les six heures du soir.</set>
 	
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>LES GOURMANDES</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Caroline, Joséphine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Caroline, Joséphine.
+</stage>
 <sp who="CAROLINE"><speaker>CAROLINE.</speaker>
 <p id="1">
 	<s id="1">Ma soeur, Fanchette ne revient point pour nous donner à gouter, et il est six heures.</s>
@@ -204,7 +205,8 @@
 	<s id="1">Tiens, voilà pour toi, et puis voilà pour moi, vois ; il n'y paraît presque pas.</s>
 </p>
 </sp>
-<sp stage="eat" who="JOSÉPHINE"><speaker>JOSÉPHINE, mange.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="eat">, mange.
+</stage>
 <p id="10">
 	<s id="1">Non, mais je n'en ai guère, prêtes-moi ton couteau.</s>
 </p>
@@ -277,7 +279,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Caroline, Joséphine, le petit Dulac, leur Frère.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Caroline, Joséphine, le petit Dulac, leur Frère.
+</stage>
 <sp who="LE PETIT DULAC"><speaker>LE PETIT DULAC.</speaker>
 <p id="1">
 	<s id="1">Mes soeurs, où est donc Fanchette ? </s>
@@ -305,13 +308,15 @@
 	<s id="1">Mais moi, j'ai faim, et je ne veux prendre que du pain.</s>
 </p>
 </sp>
-<sp who="JOSÉPHINE"><speaker>JOSÉPHINE, s'oppose à son Frere.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage>, s'oppose à son Frere.
+</stage>
 <p id="6">
 	<s id="1">Oh ! </s>
 	<s id="2">Tu n'ouvriras pas le buffet ; Fanchette va revenir , attends un moment, nous attendons bien nous.</s>
 </p>
 </sp>
-<sp stage="location" who="MONSIEUR DULAC"><speaker>MONSIEUR DULAC, appelle de la boutique.</speaker>
+<sp who="MONSIEUR DULAC"><speaker>MONSIEUR DULAC</speaker><stage type="location">, appelle de la boutique.
+</stage>
 <p id="7">
 	<s id="1">Dulac, qu'est-ce que vous faites là dedans ?</s>
 </p>
@@ -323,7 +328,8 @@
 <stage type="exit/location">Il sort et va dans la boutique.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Caroline, Joséphine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Caroline, Joséphine.
+</stage>
 <sp who="JOSÉPHINE"><speaker>JOSÉPHINE.</speaker>
 <p id="1">
 	<s id="1">Bon, le voilà occupé dans la boutique, achevons le pot de confitures, c'est à moi à prendre.</s>
@@ -335,7 +341,8 @@
 	<s id="1">Non, c'est à moi.</s>
 </p>
 </sp>
-<sp stage="push" who="JOSÉPHINE"><speaker>JOSÉPHINE la pousse.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="push"> la pousse.
+</stage>
 <p id="3">
 	<s id="1">Mademoiselle, c'est à moi. </s>
 	<s id="2">Elles prennent toutes les deux ensemble dans le pot.</s>
@@ -360,7 +367,8 @@
 </p>
 <stage type="break">Elle casse le pot de confitures.</stage>
 </sp>
-<sp stage="get" who="JOSEPHINE"><speaker>JOSEPHINE, va prendre le chat.</speaker>
+<sp who="JOSEPHINE"><speaker>JOSEPHINE</speaker><stage type="get">, va prendre le chat.
+</stage>
 <p id="7">
 	<s id="1">C'est bon, c'est bon, tiens le voilà, prends garde qu'il ne s'en aille.</s>
 </p>
@@ -375,8 +383,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Caroline, Joséphine, Le Petit Dulac, Fanchette.</head>
-<sp who="DULAC"><speaker>LE PETIT DULAC à Fanchette.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Caroline, Joséphine, Le Petit Dulac, Fanchette.
+</stage>
+<sp who="DULAC"><speaker>LE PETIT DULAC</speaker><stage> à Fanchette.
+</stage>
 <p id="1">
 	<s id="1">Ma Mie, nous vous attendons, pour nous donner à gouter.</s>
 </p>
@@ -418,12 +428,14 @@
 	<s id="2">Cela serait drôle.</s>
 </p>
 </sp>
-<sp stage="open/escape" who="FANCHETTE"><speaker>FANCHETTE ouvre le buffet , et le chat s'enfuit.</speaker>
+<sp who="FANCHETTE"><speaker>FANCHETTE</speaker><stage type="open/escape"> ouvre le buffet , et le chat s'enfuit.
+</stage>
 <p id="9">
 	<s id="1">Peste soit du chat, il m'a fait peur.</s>
 </p>
 </sp>
-<sp stage="watch" who="DULAC"><speaker>LE PETIT DULAC, regarde dans le buffet.</speaker>
+<sp who="DULAC"><speaker>LE PETIT DULAC</speaker><stage type="watch">, regarde dans le buffet.
+</stage>
 <p id="10">
 	<s id="1">Ma Mie, il a cassé le pot de confitures ; bon, il a mangé le reste de la tourte de diner.</s>
 </p>
@@ -454,7 +466,8 @@
 	<s id="1">Mesdemoiselles, il y a quelque chose là dessous ; regardez moi.</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSÉPHINE"><speaker>JOSÉPHINE, à Caroline.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="toward">, à Caroline.
+</stage>
 <p id="16">
 	<s id="1">Eh bien ! Ma bonne, n'allez-vous pas croire que c'est nous à présent.</s>
 </p>
@@ -477,7 +490,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Caroline, Joséphine, Le Petit Dulac, Fanchette, Monsieur Dulac.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Caroline, Joséphine, Le Petit Dulac, Fanchette, Monsieur Dulac.
+</stage>
 <sp who="MONSIEUR DULAC"><speaker>MONSIEUR DULAC.</speaker>
 <p id="1">
 	<s id="1">Mais, qu'est-ce donc que ce train là ?</s>
@@ -574,8 +588,10 @@
 <stage type="exit">Monsieur Dulac y va.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Fanchette, Les trois enfants.</head>
-<sp who="FANCHETTE"><speaker>FANCHETTE, après avoir arrangé trois couverts.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Fanchette, Les trois enfants.
+</stage>
+<sp who="FANCHETTE"><speaker>FANCHETTE</speaker><stage>, après avoir arrangé trois couverts.
+</stage>
 <p id="1">
 	<s id="1">Allons, Monsieur et Mesdemoiselles, voilà votre souper, prenez vos serviettes.</s>
 </p>
@@ -592,8 +608,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les acteurs précédents, Monsieur Dulac, pendant que ses trois enfants mangent, les observe sans affectation, en se promenant autour de la table.</head>
-<sp stage="loud/toward" who="JOSÉPHINE"><speaker>JOSÉPHINE haut à sa Soeur.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les acteurs précédents, Monsieur Dulac, pendant que ses trois enfants mangent, les observe sans affectation, en se promenant autour de la table.
+</stage>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="loud/toward"> haut à sa Soeur.
+</stage>
 <p id="1">
 	<s id="1">Ce coquin de chat ! </s>
 	<s id="2">Oh ! </s>
@@ -610,12 +628,14 @@
 	<s id="1">Aussi nous mangeons bien, mon Papa.</s>
 </p>
 </sp>
-<sp stage="eat" who="LE PETIT DULAC"><speaker>LE PETIT DULAC, bouche pleine.</speaker>
+<sp who="LE PETIT DULAC"><speaker>LE PETIT DULAC</speaker><stage type="eat">, bouche pleine.
+</stage>
 <p id="4">
 	<s id="1">Pour moi, je n'ai jamais eu tant faim.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="CAROLINE"><speaker>CAROLINE, bas à son frère.</speaker>
+<sp who="CAROLINE"><speaker>CAROLINE</speaker><stage type="low/toward">, bas à son frère.
+</stage>
 <p id="5">
 	<s id="1">Mon frère, tu n'as plus rien, veux-tu mon morceau ?</s>
 </p>
@@ -631,7 +651,8 @@
 	<s id="2">Tiens, je t'en prie, prends le mien aussi, et mange le vite.</s>
 </p>
 </sp>
-<sp stage="eat" who="DULAC"><speaker>LE PETIT DULAC, la bouche toujours pleine.</speaker>
+<sp who="DULAC"><speaker>LE PETIT DULAC</speaker><stage type="eat">, la bouche toujours pleine.
+</stage>
 <p id="8">
 	<s id="1">Donne, mais dame, je ne peux pas manger tout à la fois.</s>
 </p>
@@ -688,7 +709,8 @@
 </p>
 <stage type="pull/exit">Elle emmène Joséphine et Caroline.</stage>
 </sp>
-<sp who="CAROLINE"><speaker>CAROLINE, en s'en allant.</speaker>
+<sp who="CAROLINE"><speaker>CAROLINE</speaker><stage>, en s'en allant.
+</stage>
 <p id="18">
 	<s id="1">Ah ! </s>
 	<s id="2">Ma mie.</s>
@@ -699,7 +721,8 @@
 	<s id="1">Ma petite Bonne...</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR DULAC"><speaker>MONSIEUR DULAC, au petit Dulac.</speaker>
+<sp who="MONSIEUR DULAC"><speaker>MONSIEUR DULAC</speaker><stage type="toward">, au petit Dulac.
+</stage>
 <p id="20">
 	<s id="1">Et toi, mon ami, je te rends justice, tu n'es point leur complice, je le vois bien à ton appétit ; mais on peut bien dire, en fait de gourmandise et de malice, de tes soeurs, que les deux font la paire ; elles sont rusées, mais je leur apprendrai cette sois-ci que...</s>
 </p>

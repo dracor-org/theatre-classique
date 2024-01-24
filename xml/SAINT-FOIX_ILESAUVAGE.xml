@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>mixte</type>
 				<periode>1741-1750</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,8 +29,8 @@
 			<titlePart type="sub">COMÉDIE EN TROIS ACTES, AVEC UN DIVERTISSEMENT.</titlePart>
 			<titlePart type="sub">Représentée, pour la première fois, sur le Théâtre de la Comédie Italienne, le 5 Juillet 1743.</titlePart>
 		</docTitle>
- 		<docDate value='1778'>M. DCC. LXXVIII. Avec Approbation et Privilège du Roi</docDate>
-		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio='saintfoix'></docAuthor>
+ 		<docDate value="1778">M. DCC. LXXVIII. Avec Approbation et Privilège du Roi</docDate>
+		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio="saintfoix"/>
 		<docImprint>
 			<printer id="DUVERNOIS">À PARIS. Chez la Veuve Duschesne, Libraire, rue Saint-Jacques, au Temple du Goût.</printer>
 		</docImprint>
@@ -38,20 +38,21 @@
 		<p>Dans l'édition de mes Pièces de théâtre en quatre volumes, j'ai dit que celle-ci eut peu de succès dans sa nouveauté ; que le rôle de Félix fut joué par un des meilleurs acteurs, mais qu'il fallait dans ce rôle la figure, l'air et le ton ingénu d'un jeune homme de seize ans. Les Comédiens la redonnèrent à Paris et à la Cour à Fontainebleau, en 1764 ; jamais aucune de mes Comédies n'a fait plus de plaisir et n'a été plus généralement applaudie ; la figure, l'air et le ton de l'acteur qui jouait le rôle de Félix, y étaient assortis. La vivacité de Rosette contrastait avec le caractère doux et tendre de Léonor.</p>
 	</div>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="BÉATRIX" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>BÉATRIX</role>, Dame Espagnole.</castItem>
-			<castItem><role id="LÉONOR" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>LÉONOR</role>, fille de Béatrix.</castItem>
-			<castItem><role id="ROSETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>ROSETTE</role>, fille de Béatrix.</castItem>
-			<castItem><role id="FÉLIX" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>FÉLIX</role>, jeune Espagnol.</castItem>
-			<castItem><role id="OSMARIN" sex="1" type="H" statut="sauvage" age="A" stat_amour='néant'>OSMARIN</role>, Sauvage noir.</castItem>
-			<castItem><role id="DON GUSMAN" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>DON GUSMAN</role>, père de Félix, personnage muet.</castItem>
-			<castItem><role id="MATELOTS ESPAGNOLS" sex="1" type="H" statut="marin" age="A" stat_amour='néant'>TROUPE DE MATELOTS ESPAGNOLS</role>.</castItem>
+			<castItem><role id="BÉATRIX" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">BÉATRIX</role>, Dame Espagnole.</castItem>
+			<castItem><role id="LÉONOR" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LÉONOR</role>, fille de Béatrix.</castItem>
+			<castItem><role id="ROSETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ROSETTE</role>, fille de Béatrix.</castItem>
+			<castItem><role id="FÉLIX" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">FÉLIX</role>, jeune Espagnol.</castItem>
+			<castItem><role id="OSMARIN" sex="1" type="H" statut="sauvage" age="A" stat_amour="néant">OSMARIN</role>, Sauvage noir.</castItem>
+			<castItem><role id="DON GUSMAN" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DON GUSMAN</role>, père de Félix, personnage muet.</castItem>
+			<castItem><role id="MATELOTS ESPAGNOLS" sex="1" type="H" statut="marin" age="A" stat_amour="néant">TROUPE DE MATELOTS ESPAGNOLS</role>.</castItem>
 		</castList>
-		<set location='Île sauvage' country="(Pays indéterminé)" periode='XVIIIème' gps="(N/A)">La Scène est dans une l'Île Sauvage.</set>
+		<set location="Île sauvage" country="(Pays indéterminé)" periode="XVIIIème" gps="(N/A)">La Scène est dans une l'Île Sauvage.</set>
 <note>Le texte est tiré des Oeuvres complètes de M. de Saint-Foix, Tome premier, Chez La Veuve Duschesne, 1778, pp. 145-200</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Léonor, Rosette, Félix.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Léonor, Rosette, Félix.
+</stage>
 <sp who="LÉONOR"><speaker>LÉONOR.</speaker>
 <p id="1">
 	<s id="1">Comment vous appelez-vous ?</s>
@@ -72,7 +73,8 @@
 	<s id="1">Oui.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROSETTE"><speaker>ROSETTE, à Léonor.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="toward">, à Léonor.
+</stage>
 <p id="5">
 	<s id="1">Je ne crois pas ; car il ne ressemble en aucune manière à ce qu'on appelle des hommes dans cette île.</s>
 </p>
@@ -115,7 +117,8 @@
 	<s id="1">Mon père est Espagnol.</s>
 </p>
 </sp>
-<sp stage="quick" who="ROSETTE"><speaker>ROSETTE, vivement.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="13">
 	<s id="1">Espagnol ! </s>
 	<s id="2">Notre mère est du même pays.</s>
@@ -158,7 +161,8 @@
 	<s id="1">Et moi, Rosette.</s>
 </p>
 </sp>
-<sp who="FÉLIX"><speaker>FÉLIX, les caressant.</speaker>
+<sp who="FÉLIX"><speaker>FÉLIX</speaker><stage>, les caressant.
+</stage>
 <p id="21">
 	<s id="1">Ma chère Léonor ! </s>
 	<s id="2">Ma belle Rosette ! </s>
@@ -195,12 +199,14 @@
 	<s id="2">L'embrasserons nous, ma soeur ?</s>
 </p>
 </sp>
-<sp stage="quick" who="ROSETTE"><speaker>ROSETTE, vivement.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="27">
 	<s id="1">Eh pourquoi non, ma soeur ?</s>
 </p>
 </sp>
-<sp who="FÉLIX"><speaker>FÉLIX, les embrassant.</speaker>
+<sp who="FÉLIX"><speaker>FÉLIX</speaker><stage>, les embrassant.
+</stage>
 <p id="28">
 	<s id="1">Ah, que cela est délicieux ! </s>
 	<s id="2">Ah, que je sais bon gré à la tempête !</s>
@@ -279,7 +285,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Béatrix, Osmarin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Béatrix, Osmarin.
+</stage>
 <sp who="OSMARIN"><speaker>OSMARIN.</speaker>
 <p id="1">
 	<s id="1">Non, Madame, non, je ne saurais trop vous le répéter ; nous ferons les victimes de la complaisance que j'ai eue pour vous, d'arracher ce jeune blanc à la mort ; il causera notre perte.</s>
@@ -372,14 +379,16 @@
 	<s id="2">Je vais cependant entretenir mes filles ; et vous verrez, par leur conduite, quelle est parmi nous la force de l'honneur et de cette éducation dont vous faites si peu de cas.</s>
 </p>
 </sp>
-<sp who="OSMARIN"><speaker>OSMARIN, en s'en allant.</speaker>
+<sp who="OSMARIN"><speaker>OSMARIN</speaker><stage>, en s'en allant.
+</stage>
 <p id="17">
 	<s id="1">Eh bien, Madame, nous verrons ; je souhaite ; plus que je ne l'espère, que mes craintes soient mal fondées.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="BÉATRIX"><speaker>BÉATRIX, seule.</speaker>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Le pauvre Osmarin raisonne en sauvage qui ne connaît que la Nature ; faisons venir mes filles. </s>
 	<s id="2">Une défense sévère de parler à ce jeune homme, serait ici d'une exécution impossible ; je me conduirai avec elles, suivant les découvertes que je ferai dans leur coeur.</s>
@@ -391,8 +400,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Béatrix, Léonor, Rosette, Félix.</head>
-<sp stage="run" who="LÉONOR et ROSETTE"><speaker>LÉONOR et ROSETTE, accourant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Béatrix, Léonor, Rosette, Félix.
+</stage>
+<sp who="LÉONOR et ROSETTE"><speaker>LÉONOR et ROSETTE</speaker><stage type="run">, accourant.
+</stage>
 <p id="1">
 	<s id="1">Ma mère ?</s>
 </p>
@@ -402,7 +413,8 @@
 	<s id="1">Mes enfants, j'ai à vous parler ; Félix, éloignez-vous.</s>
 </p>
 </sp>
-<sp who="LÉONOR"><speaker>LÉONOR, vivement.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage>, vivement.
+</stage>
 <p id="3">
 	<s id="1">Eh ! </s>
 	<s id="2">Ma mère, pourquoi voulez- vous qu'il s'éloigne ?</s>
@@ -425,7 +437,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Béatrix, Léonor, Rosette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Béatrix, Léonor, Rosette.
+</stage>
 <sp who="BÉATRIX"><speaker>BÉATRIX.</speaker>
 <p id="1">
 	<s id="1">Je remarque avec chagrin, mes enfants, l'impression que fait sur vous ce jeune étranger ; vous n'êtes occupées que de lui ; vous avez de la peine à le quitter un instant.</s>
@@ -442,7 +455,8 @@
 	<s id="1">Je fais que tout ce qui est nouveau, est en droit d'exciter votre curiosité ; mais cette curiosité satisfaite, il faut bannir toute familiarité entre vous et ce jeune homme, reprendre les occupations que je vous ai prescrites pour votre journée, ne le voir qu'aux heures où il pourra vous servir ; enfin ne le regarder que comme quelqu'un fait pour être votre domestique, et non pour être votre compagnie.</s>
 </p>
 </sp>
-<sp stage="quick" who="LÉONOR"><speaker>LÉONOR, vivement.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="quick">, vivement.
+</stage>
 <p id="4">
 	<s id="1">Mais, ma mère, je voudrais qu'il ne me servît qu'à être ma compagnie : sa figure, le son de sa voix, sa conversation, en lui tout me plaît, tout m'enchante.</s>
 </p>
@@ -476,7 +490,8 @@
 	<s id="1">Il n'est pas question de cette tendresse si légitime, de ce sentiment si pur que la Nature inspire, que le devoir entretient, que l'âge et la raison augmentent dans les coeurs vertueux, qui est le charme de la vie et le lien de toute société ; je vous parle, ma fille, de cet attrait honteux, où les faibles coeurs se laissent surprendre à la vue des hommes ; de cette inclination, de ce penchant fatal dont notre sexe ne saurait trop se défendre et qu'il semble que Félix commence à vous inspirer.</s>
 </p>
 </sp>
-<sp stage="shy" who="LÉONOR"><speaker>LÉONOR, timidement.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="shy">, timidement.
+</stage>
 <p id="10">
 	<s id="1">Il m'a plu, je l'avoue ; et je sens qu'après ma mère et ma soeur, il me ferait...</s>
 </p>
@@ -495,7 +510,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Léonor, Rosette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Léonor, Rosette.
+</stage>
 <sp who="LÉONOR"><speaker>LÉONOR.</speaker>
 <p id="1">
 	<s id="1">Rosette, je suis accablée de ce que je viens d'entendre ; mille idées confuses me troublent, m'agitent, se combattent, me désolent.</s>
@@ -540,7 +556,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Béatrix, Osmarin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Béatrix, Osmarin.
+</stage>
 <sp who="OSMARIN"><speaker>OSMARIN.</speaker>
 <p id="1">
 	<s id="1">Vous m'avez dit, Madame, que vous parleriez à vos filles, et que vous préviendriez, par vos avis et vos précautions, les malheurs que je ne cesse point de vous prédire.</s>
@@ -590,8 +607,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Béatrix, Osmarin, Léonor, Rosette.</head>
-<sp who="ROSETTE"><speaker>ROSETTE, vivement.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Béatrix, Osmarin, Léonor, Rosette.
+</stage>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage>, vivement.
+</stage>
 <p id="1">
 	<s id="1">Vraiment, Madame, Félix n'est point du tout indigne de votre alliance ; vous en aviez jugé bien vite.</s>
 </p>
@@ -658,7 +677,8 @@
 <stage type="exit">Elle sort avec Osmarin.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Léonor, Rosette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Léonor, Rosette.
+</stage>
 <sp who="ROSETTE"><speaker>ROSETTE.</speaker>
 <p id="1">
 	<s id="1">C'est pour le coup qu'un vaisseau passerait bien à propos pour nous tirer d'embarras.</s>
@@ -765,7 +785,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Léonor, Rosette, Félix.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Léonor, Rosette, Félix.
+</stage>
 <sp who="LÉONOR"><speaker>LÉONOR.</speaker>
 <p id="1">
 	<s id="1">Félix, savez-vous tous les dangers que nous courons pour l'amour de vous ?</s>
@@ -782,7 +803,8 @@
 	<s id="1">Nous avons tout à craindre ; mais cependant, par les mesures que nous allons prendre, j'espère que nous serons tous en sûreté, sans qu'il soit besoin de vous éloigner de nous.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROSETTE"><speaker>ROSETTE, à Félix.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="toward">, à Félix.
+</stage>
 <p id="4">
 	<s id="1">Il faudra que vous nous amusiez bien, pour reconnaître toutes les obligations que vous nous aurez.</s>
 </p>
@@ -809,22 +831,26 @@
 	<s id="2">L'Espagne, qui jusqu'à ce jour a été l'objet de tous mes désirs , me devient indifférente ; et je sens que ma patrie sera désormais partout où je le verrai.</s>
 </p>
 </sp>
-<sp stage="desdain" who="ROSETTE"><speaker>ROSETTE, d'un ton dédaigneux.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="desdain">, d'un ton dédaigneux.
+</stage>
 <p id="9">
 	<s id="1">Il faut que vous ne le trouviez guère aimable ; pour ne pas souhaiter d'être dans des climats où tout le monde lui ressemble ?</s>
 </p>
 </sp>
-<sp stage="desdain" who="LÉONOR"><speaker>LÉONOR, du même ton.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="desdain">, du même ton.
+</stage>
 <p id="10">
 	<s id="1">Il faut que vous l'aimiez bien peu, puisqu'il ne remplit pas seul tous vos souhaits.</s>
 </p>
 </sp>
-<sp stage="desdain" who="ROSETTE"><speaker>ROSETTE, même ton.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="desdain">, même ton.
+</stage>
 <p id="11">
 	<s id="1">Félix me plaît beaucoup ; et je crois qu'il doit m'avoir obligation de l'envie qu'il me donne de voir son pays.</s>
 </p>
 </sp>
-<sp stage="desdain" who="LÉONOR"><speaker>LÉONOR, du même ton.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="desdain">, du même ton.
+</stage>
 <p id="12">
 	<s id="1">Il doit donc me savoir bien mauvais gré ; car je pense tout différemment... </s>
 	<s id="2">En vérité, ma soeur, vous avez des raisonnements...</s>
@@ -841,7 +867,8 @@
 	<s id="2">Vous êtes toutes deux d'accord, si vous m'aimez.</s>
 </p>
 </sp>
-<sp stage="" who="LÉONOR"><speaker>LÉONOR, d'un ton piqué.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="">, d'un ton piqué.
+</stage>
 <p id="15">
 	<s id="1">Vous êtes content de tout. </s>
 	<s id="2">Vous nous aimez donc bien également ?... </s>
@@ -894,7 +921,8 @@
 	<s id="2">Vous voudriez qu'il eût de la haine pour moi ?</s>
 </p>
 </sp>
-<sp who="LÉONOR"><speaker>LÉONOR, avec impatience.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage>, avec impatience.
+</stage>
 <p id="24">
 	<s id="1">De la haine ? </s>
 	<s id="2">Mais, ma soeur, je ne sais à qui vous en avez aujourd'hui ; vous êtes d'une humeur que je ne vous ai jamais vue.</s>
@@ -907,7 +935,8 @@
 	<s id="3">Je vous aime... de préférence à tout.</s>
 </p>
 </sp>
-<sp stage="happy" who="LÉONOR"><speaker>LÉONOR, gaiement.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="26">
 	<s id="1">Voilà répondre. </s>
 	<s id="2">Rosette, je te demande pardon ; allons, ma petite soeur, allons tout préparer pour l'exécution de notre projet.</s>
@@ -924,7 +953,8 @@
 	<s id="1">Rosette, en vous aimant moins que Léonor, je puis vous aimer encore bien tendrement.</s>
 </p>
 </sp>
-<sp stage="sweet" who="LÉONOR"><speaker>LÉONOR, la caressant.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="sweet">, la caressant.
+</stage>
 <p id="29">
 	<s id="1">Ma chère Rosette, aurais-tu le coeur assez dur pour voir partir Félix, faute de m'aider ? </s>
 	<s id="2">Dès qu'il me consulte pour t'aimer, je veux désormais qu'il t'aime à la folie.</s>
@@ -955,7 +985,8 @@
 	<s id="1">Quels périls n'affronterais-je pas pour passer un instant de plus avec vous ?</s>
 </p>
 </sp>
-<sp stage="pull" who="LÉONOR"><speaker>LÉONOR, prenant Rosette sous un bras, et Félix sous l'autre.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="pull">, prenant Rosette sous un bras, et Félix sous l'autre.
+</stage>
 <p id="35">
 	<s id="1">Allons, allons, ma Rosette ; ne perdons pas des moments précieux.</s>
 </p>
@@ -964,7 +995,8 @@
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
 <div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="BÉATRIX"><speaker>BÉATRIX, seule.</speaker>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Demain la barque fera achevée ; demain nous abandonnerons Félix à la merci des flots ; mais en quel état cruel vont demeurer mes filles ! </s>
 	<s id="2">Léonor surtout, dont l'âme me paraît plus sensible mourra peut-être de douleur dans mes bras. </s>
@@ -973,7 +1005,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Béatrix, Léonor, Rosette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Béatrix, Léonor, Rosette.
+</stage>
 <sp who="ROSETTE"><speaker>ROSETTE.</speaker>
 <p id="1">
 	<s id="1">Je commence à croire qu'Osmarin est jaloux de Félix ; il travaille àvla barque avec une ardeur.</s>
@@ -1085,7 +1118,8 @@
 	<s id="2">Il n'y a donc point d'amour dans ce pays-là ?</s>
 </p>
 </sp>
-<sp who="BÉATRIX"><speaker>BÉATRIX, embarrassée.</speaker>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage>, embarrassée.
+</stage>
 <p id="22">
 	<s id="1">Il en est... peu d'exemples ; et il est... aisé de vous en rendre raison. </s>
 	<s id="2">Dans un pays policé en réfléchissant sur les inconvénients des passions, en s'affermissant de bonne heure dans des principes de vertu et de modestie, on parvient aisément à étouffer les mouvements déréglés du coeur ; d'ailleurs, une suite continuelle d'occupations toujours variées, des assemblées, des spectacles, de plaisirs de toute espèce, des objets nouveaux qui se succèdent à l'infini, n'y permettent guère de s'occuper longtemps et uniquement du même objet : on y jouit donc ordinairement toute la vie de la paix de l'âme et des avantages de la beauté ; au lieu que des Sauvages, noyés dans l'ennui, plongés dans les horreurs de la solitude, privés d'éducation, se livrent sans réflexion à l'instinct aveugle de la Nature.</s>
@@ -1107,12 +1141,14 @@
 	<s id="1">Madame, ce changement que l'amour cause ; est-il plus longtemps à paraître dans les hommes que dans nous ?</s>
 </p>
 </sp>
-<sp stage="subtil/naive" who="BÉATRIX"><speaker>BÉATRIX, malignement et d'un ton ingénu.</speaker>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage type="subtil/naive">, malignement et d'un ton ingénu.
+</stage>
 <p id="26">
 	<s id="1">C'est ordinairement par eux, comme de raison, qu'il commence ; il n'est point de femme assez mal née pour aimer la première ; j'ai été surprise de ne remarquer aucun changement dans Félix.</s>
 </p>
 </sp>
-<sp stage="despite/pain" who="LÉONOR"><speaker>LÉONOR, avec dépit et douleur.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="despite/pain">, avec dépit et douleur.
+</stage>
 <p id="27">
 	<s id="1">Il ne m'aimait point !...</s>
 </p>
@@ -1124,7 +1160,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Léonor, Rosette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Léonor, Rosette.
+</stage>
 <sp who="ROSETTE"><speaker>ROSETTE.</speaker>
 <p id="1">
 	<s id="1">Me voilà bien corrigée de mon empressement à retenir Félix. Vous voyez, ma soeur, comme je me suis prêtée, en votre faveur et sans intérêt pour moi, à tout ce que vous avez voulu faire pour le  garder avec nous, en dépit de ma mère ; mais ces jolis gens-là font trop dangereux ! Comment donc? Ils plaisent, ils amusent ; on prend du goût pour eux, on s'y livre ; et bientôt on devient noire, hideuse pour le reste de ses jours ; oh ; il peut partir.</s>
@@ -1159,20 +1196,23 @@
 	<s id="2">Le voici ; je ne veux pas même hasarder de le regarder.</s>
 </p>
 </sp>
-<sp who="LÉÓNOR"><speaker>LÉÓNOR, d'un ton de dépit.</speaker>
+<sp who="LÉÓNOR"><speaker>LÉÓNOR</speaker><stage>, d'un ton de dépit.
+</stage>
 <p id="6">
 	<s id="1">Oh ! </s>
 	<s id="2">Je le regarderai, moi ; et je t'assure qu'il n'y aura pas de risque, tandis qu'il fera aussi beau.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Félix, Léonor, Rosette.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Félix, Léonor, Rosette.
+</stage>
 <sp who="FÉLIX"><speaker>FÉLIX.</speaker>
 <p id="1">
 	<s id="1">Je viens de rencontrer votre mère : je me suis jeté à ses pieds ; je lui ai demandé la mort que je préfère à mon éloignement ; je l'obtiendrai d'Osmarin ; et je n'aurai du moins quitté cette île délicieuse qu'avec la vie.</s>
 </p>
 </sp>
-<sp who="LÉONOR"><speaker>LÉONOR, à part.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage>, à part.
+</stage>
 <p id="2">
 	<s id="1">Quelle fausseté ! </s>
 	<s id="2">Il embellit à vue d'oeil. </s>
@@ -1194,7 +1234,8 @@
 	<s id="5">Qu'ai-je donc fait ?</s>
 </p>
 </sp>
-<sp who="LÉONOR"><speaker>LÉONOR, d'un ton piqué.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage>, d'un ton piqué.
+</stage>
 <p id="5">
 	<s id="1">Je ne vous reproche rien. </s>
 	<s id="2">Conservez, conservez votre jolie figure ; je tâcherai aussi que la mienne ne change pas ; je rougis du risque que j'ai couru ; et je veux du moins m'en garantir avant votre départ.</s>
@@ -1206,7 +1247,8 @@
 	<s id="2">Avec quelle aigreur vous parlez à Félix.</s>
 </p>
 </sp>
-<sp stage="quick" who="ROSETTE"><speaker>ROSETTE, vivement.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="7">
 	<s id="1">Je vais vous expliquer tout ceci ; car vous vous disputeriez quatre heures sans vous comprendre. </s>
 	<s id="2">Nous venons d'apprendre le secret de l'Amour, que nous ignorions ; quand on se cherche sans cesse et qu'on n'a de plaisir qu'à se voir, à se parler, à être ensemble, on a de l'amour ; or, quand on a de l'amour, on devient noir et tout-à-fait hideux ; voila pourquoi tout le monde est ici noir et vilain, parce que ce font des Sauvages grossiers ; mais en Europe, presque tout le monde est blanc et joli, parce qu'on a de la vertu et de l'éducation.</s>
@@ -1228,7 +1270,8 @@
 	<s id="1">Comment le puis-je croire, si Léonor me trouve encore blanc ?</s>
 </p>
 </sp>
-<sp stage="offended" who="LÉONOR"><speaker>LÉONOR, d'un ton piqué.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="offended">, d'un ton piqué.
+</stage>
 <p id="11">
 	<s id="1">Oh ! </s>
 	<s id="2">Félix, vous l'êtes.</s>
@@ -1316,7 +1359,8 @@
 	<s id="2">Quel bruit ?...</s>
 </p>
 </sp>
-<sp stage="frighten" who="LÉONOR"><speaker>LÉONOR, effrayée.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="frighten">, effrayée.
+</stage>
 <p id="27">
 	<s id="1">Ô ciel ! </s>
 	<s id="2">Serait-ce les Sauvages ? </s>
@@ -1325,8 +1369,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Béatrix, Léonor, Félix, Rosette.</head>
-<sp stage="happy/kiss" who="BÉATRIX"><speaker>BÉATRIX, dans les transports de la joie la plus vive, embrassant ses filles et Félix.</speaker> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Béatrix, Léonor, Félix, Rosette.
+</stage>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage type="happy/kiss">, dans les transports de la joie la plus vive, embrassant ses filles et Félix. 
+</stage> 
 <p id="1">
 	<s id="1">Félix !... </s>
 	<s id="2">Mes filles !... </s>
@@ -1342,7 +1388,8 @@
 	<s id="1">Le ciel me rend mon père !</s>
 </p>
 </sp>
-<sp stage="quick" who="BÉATRIX"><speaker>BÉATRIX, rapidement.</speaker>
+<sp who="BÉATRIX"><speaker>BÉATRIX</speaker><stage type="quick">, rapidement.
+</stage>
 <p id="3">
 	<s id="1">Oui, mon cher Félix ; et il semble que votre barque n'ait péri ce matin, que pour nous réunir tous. </s>
 	<s id="2">Jeté par les vagues sur un rocher, votre illustre père y succombait à sa douleur, lorsqu'il aperçoit un vaisseau ; il fait des signaux ; on envoie à son secours ; quelle heureuse surprise ! </s>
@@ -1388,19 +1435,23 @@
 	<s id="1">Un véritable et légitime amour ; loin de défigurer les traits, donne de nouvelles grâces à la beauté.</s>
 </p>
 </sp>
-<sp stage="toward" who="ROSETTE"><speaker>ROSETTE, à Béatrix.</speaker>
+<sp who="ROSETTE"><speaker>ROSETTE</speaker><stage type="toward">, à Béatrix.
+</stage>
 <p id="10">
 	<s id="1">L'Espagne m'offrira sans doute des partis dignes de votre approbation ; et puisqu'on peut aimer sans cesser d'être jolie, je sens que j'aimerai tout comme une autre.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE. Osmarin, Don Gusman, Béatrix, Léonor, Félix, Rosette, Troupe de matelots espagnols.</head>
-<sp stage="run/closer" who="FÉLIX"><speaker>FÉLIX, courant à Don Gusman.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE.</head><stage> Osmarin, Don Gusman, Béatrix, Léonor, Félix, Rosette, Troupe de matelots espagnols.
+</stage>
+<sp who="FÉLIX"><speaker>FÉLIX</speaker><stage type="run/closer">, courant à Don Gusman.
+</stage>
 <p id="1">
 	<s id="1">Ah, mon père !</s>
 </p>
 </sp>
-<sp stage="kiss" who="DON GUSMAN"><speaker>DON GUSMAN, l'embrassant.</speaker>
+<sp who="DON GUSMAN"><speaker>DON GUSMAN</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="2">
 	<s id="1">Mon fils ! </s>
 	<s id="2">Mon cher fils !...</s>

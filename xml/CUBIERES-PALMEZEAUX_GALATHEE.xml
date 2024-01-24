@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1771-1780</periode>
 				<taille>500-750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,16 +30,16 @@
 		<titlePart type="sub">Par J.J. Rousseau.</titlePart>
 		<titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS LIBRES</titlePart>
 	</docTitle> 
-	<docDate value='1777'>M. DCC. LXXVII. Avec Approbation et Privilège du Roi.</docDate>
-	<docAuthor id='CUBIÈRES-PALMÉZEAUX, Michel de' bio='cubieres'>Par le Chevalier DE CUBIÈRES des Académies et sociétés royales de Lyon, Dijon, Marseille, Rouen, Hesse-Cassel, etc., etc.</docAuthor>
+	<docDate value="1777">M. DCC. LXXVII. Avec Approbation et Privilège du Roi.</docDate>
+	<docAuthor id="CUBIÈRES-PALMÉZEAUX, Michel de" bio="cubieres">Par le Chevalier DE CUBIÈRES des Académies et sociétés royales de Lyon, Dijon, Marseille, Rouen, Hesse-Cassel, etc., etc.</docAuthor>
 	<docImprint>
-		<privilege><head></head>
+		<privilege><head/>
 		</privilege>
-			<acheveImprime id=''></acheveImprime>
-			<printer id='DUCHESNE'>À PARIS, CAILLEAU, BAILLE, BELIN.</printer>
+			<acheveImprime id=""/>
+			<printer id="DUCHESNE">À PARIS, CAILLEAU, BAILLE, BELIN.</printer>
 		</docImprint>
 		<performance>
-			<premiere location="Théâtre du Palais-Royal" date='1777-01-19'>Représentée au Palais-Royal le 19 Janvier, par les Comédiens de S.A.S Monseigneur le Comte de Beaujolais, pour l'ouverture de leur Théâtre.</premiere>
+			<premiere location="Théâtre du Palais-Royal" date="1777-01-19">Représentée au Palais-Royal le 19 Janvier, par les Comédiens de S.A.S Monseigneur le Comte de Beaujolais, pour l'ouverture de leur Théâtre.</premiere>
 		</performance>
 	<div type="preface"><head>AVERTISSEMENT.</head>
 		<p>Cette Pièce a été représentée à Versailles par les Comédiens de la Cour, le 21 Septembre 1777 ; et à Fontainebleau, devant la Famille Royale, le 8 Novembre de la même année. Elle l'a été au Palais Royal ; et en différents temps, dans les principales villes de Province. J'ai voulu y prouver que la femme était fidèle et vertueuse en sortant des mains de la Nature, et que la Société seule pouvait la corrompre. La Lettre suivante était à la tête de la première édition de cette bagatelle, la seule des Pièces de ce Volume, qui ait eu les honneurs de la représentation.</p>
@@ -50,17 +50,18 @@
 	</div>
 	<castList>
 			<head>PERSONNAGES.</head>
-				<castItem><role id="PIGMALION" sex="1" type="H" statut='roi' age='A' stat_amour='Galathée'>PIGMALION</role>.</castItem>
-				<castItem><role id="GALATHEE" sex="2" type="F" statut='créature' age='A' stat_amour='(néant)'>GALATHEE</role>.</castItem>
-				<castItem><role id="PARMENON" sex="1" type="H" statut='esclave' age='A' stat_amour='(néant)'>PARMENON</role>, esclave.</castItem>
+				<castItem><role id="PIGMALION" sex="1" type="H" statut="roi" age="A" stat_amour="Galathée">PIGMALION</role>.</castItem>
+				<castItem><role id="GALATHEE" sex="2" type="F" statut="créature" age="A" stat_amour="(néant)">GALATHEE</role>.</castItem>
+				<castItem><role id="PARMENON" sex="1" type="H" statut="esclave" age="A" stat_amour="(néant)">PARMENON</role>, esclave.</castItem>
 		</castList>
 		<set location="Tyr" country="Liban" periode="Temps mythologiques" gps="33.270489, 35.203764">la scène est à Tyr dans un jardin de Pigmalion.</set>
 		<note>Le théâtre représente un bosquet. On voit au milieu quelques arbres épars et dans le fonds, ou sur l'un des côtés, la statue de Pigmalion sous un ceintre de verdure, cachée un peu par des branches d'arbres.</note>
 
 </front>
 <body>
-<div1 type="act" n='1'><head></head>
-<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE. Galathée, Pigmalion tenant une lettre à la main.</head>
+<div1 type="act" n="1"><head/>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Galathée, Pigmalion tenant une lettre à la main.
+</stage>
 <sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="1">Eh ! Quoi ? Sitôt nous séparer !</l>
 </sp>
@@ -256,8 +257,9 @@
 	<l id="120">J'y ferai, mais tu ne le croiras guères.</l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II.</head>
-<sp stage="alone" who='PIGMALION'><speaker>PIGMALION, seul.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="121">Combien je m'applaudis de l'avoir inventé,</l>
 	<l id="122">Ce stratagème heureux, dont ma vive tendresse</l>
 	<l id="123">Va se servir pour lire au coeur de ma maîtresse</l>
@@ -288,11 +290,12 @@
 	<l id="147">Un prodige pareil n'arrive pas deux fois.</l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Pigmalion, Parmenon.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Pigmalion, Parmenon.
+</stage>
 <sp who="PIGMALION"><speaker>PIGMALION.</speaker>
 	<l id="148" part="i">Parmenon !</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="148" part="m">Me voilà.</l>
 </sp>
 <sp who="PIGMALION"><speaker>PIGMALION.</speaker>
@@ -301,7 +304,7 @@
 	<l id="150">Songe à le rendre à la Beauté que j'aime,</l>
 	<l id="151" part="i">Dès qu'en ces lieux...</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="151" part="f">Je l'ai promis,</l>
 	<l id="152" part="i">Et n'y manquerai pas.</l>
 </sp>
@@ -334,7 +337,8 @@
 	<l id="165">Non, elle vient. Demeure, et surtout dissimule.</l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Les Précédents, Galathée.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les Précédents, Galathée.
+</stage>
 <stage type="location">Pigmalion est sur le piédestal.</stage>
 <sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="166">Pigmalion !... Pigmalion !...</l>
@@ -349,7 +353,7 @@
 	<l id="175">Qu'afin de m'épargner la douleur des adieux,</l>
 	<l id="176">Et dans ton amour même, oui, je vois ton excuse.</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="177">Ah ! Vous le connaissez ou mieux,</l>
 	<l id="178">Madame : il m'a chargé lui-même de vous dire</l>
 	<l id="179">Ce que vous dites là... Son départ vous déchire,</l>
@@ -359,16 +363,18 @@
 <sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="182" part="i">Il est donc parti !</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="182" part="f">Sans retard,</l>
 	<l id="183">Et vous pouvez en juger par mes larmes :</l>
 	<l id="184">Car aussi bien qu'à vous, Madame, son départ</l>
 	<l id="185">Me cause de vives alarmes.</l>
 </sp>
-<sp stage="exit" who='GALATHÉE'><speaker>GALATHÉE, voulant sortir.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="exit">, voulant sortir.
+	</stage>
 	<l id="186">En courant après lui, ne pourrions-nous pas...</l>
 </sp>
-<sp stage="stop" who='PARMENON'><speaker>PARMENON, l'arrêtant.</speaker>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="187">Rien ne serait plus inutile,</l>
 	<l id="188">Nous perdrions notre peine et nos pas :</l>
 	<l id="189">Peut-être il a déjà fait trois ou quatre mille.</l>
@@ -376,7 +382,7 @@
 <sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="190" part="i">Comment cela ?</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="190" part="f">Le char qui le conduit,</l>
 	<l id="191">Par six chevaux traîné, roule moins qu'il ne vole ;</l>
 	<l id="192">Un éclair au sein de la nuit</l>
@@ -396,15 +402,17 @@
 	<l id="206">Mais parcourez le billet que voici,</l>
 	<l id="207">Qu'il m'a chargé de vous remettre,</l>
 </sp>
-<sp stage="stress" who='GALATHÉE'><speaker>GALATHÉE, avec impatience.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="stress">, avec impatience.
+	</stage>
 	<l id="208">Donne donc, malheureux, donne donc cette lettre !</l>
 	<l id="209" part="i">Tu me la rends bien tard !</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="209" part="f">Hélas ! Que voulez-vous ?</l>
 	<l id="210">L'affliction me fait extravaguer, je pense.</l>
 </sp>
-<sp stage="read" who='GALATHÉE'><speaker>GALATHÉE, lisant.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="read">, lisant.
+	</stage>
 	<l id="211">p Je prends, pour te quitter, l'instant de ton absence:</l>
 	<l id="212">« Pardonne, tout le veut ; il m'eut été bien doux</l>
 	<l id="213">De t'embrasser encor, de jouir en silence</l>
@@ -419,8 +427,10 @@
 	<l id="221">Peut-être en y rêvant je pourrai la calmer.</l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. GALATHÉE, PIGMALION sur UpUátJld.</head>
-<sp stage="watch" who='GALATHÉE'><speaker>GALATHÉE, regardant la fausse statue.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> GALATHÉE, PIGMALION sur UpUátJld.
+</stage>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="watch">, regardant la fausse statue.
+	</stage>
 	<l id="222">La voilà donc cette insensible pierre,</l>
 	<l id="223">Qu'en faisant certaine prière,</l>
 	<l id="224">En homme je puis transformer !</l>
@@ -461,8 +471,9 @@
 	<l id="258">Pour adoucir le chagrin qui l'accable.</l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI.</head>
-<sp stage="alone/down" who='PIGMALION'><speaker>PIGMALION, seul, descendant du piédestal.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="alone/down">, seul, descendant du piédestal.
+	</stage>
 	<l id="259">D'UN assez grand danger, vraiment je suis sorti §</l>
 	<l id="260">De sa nature un marbre est impassible ;</l>
 	<l id="261">Sous les coups du maillet terrible,</l>
@@ -480,8 +491,10 @@
 <stage type="up">Il remonte sur le piédestal.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI.. Galathée, un miroir à la main, Pigmalion, sur le piédestal.</head> 
-<sp stage="toward" who='GALATHÉE'><speaker>GALATHÉE, au miroir.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage>. Galathée, un miroir à la main, Pigmalion, sur le piédestal. 
+</stage> 
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="toward">, au miroir.
+	</stage>
 	<l id="273">D'une manière avantageuse,</l>
 	<l id="274">D'abord tâchons de te placer,</l>
 	<l id="275">Tiendras-tu là ? Voyons. Oui : la place est heureuse ;</l>
@@ -547,10 +560,12 @@
 </lg>
 </poem>
 </sp>
-<sp stage="imitate/low" who='PIGMALION'><speaker>PIGMALION, contrefaisant l'Écho, mais si doucement, que Galathée ne peut l'entendre.</speaker> 
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="imitate/low">, contrefaisant l'Écho, mais si doucement, que Galathée ne peut l'entendre. 
+	</stage> 
 	<l id="326" part="f">Fort.</l>
 </sp>
-<sp stage="continue" who='GALATHÉE'><speaker>GALATHÉE, continuant de chanter.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="continue">, continuant de chanter.
+</stage>
 <poem type="chanson">
 <lg n="1">
 	<l id="327">« Ta puissance que je réclame</l>
@@ -562,10 +577,11 @@
 </lg>
 </poem>
 </sp>
-<sp stage="imitate/loud" who='PIGMALION'><speaker>PIGMALION, contrefaisant l'écho d'une voix plus forte.</speaker>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="imitate/loud">, contrefaisant l'écho d'une voix plus forte.
+	</stage>
 	<l id="332" part="f">Erreur.</l>
 </sp>
-<sp who='GALATHÉE'><speaker>GALATHÉE.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="333">Qu'entends-je ? Quelle voix a frappé mon oreille ?</l>
 	<l id="334">Est-ce Vénus qui me répond ?</l>
 	<l id="335">Non. Cette voix est trop pareille</l>
@@ -605,8 +621,9 @@
 <stage type="exit/meteo">Elle sort de la scène en désordre, le tonnerre cesse de gronder.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='8'><head>SCÈNE VIII.</head>
-<sp stage="alone/down" who='PIGMALION'><speaker>PIGMALION, seul, descendant du piédestal.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="alone/down">, seul, descendant du piédestal.
+	</stage>
 	<l id="363">Le tonnerre gronde à propos :</l>
 	<l id="364">Rien n'est plus fatiguant qu'un éternel repos.</l>
 	<l id="365">Je n'en puis plus. Toujours dans la même attitude !</l>
@@ -629,8 +646,9 @@
 <stage type="qit/location">Il se met sur un banc de gazon.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='9' stage="sleep"><head>SCÈNE IX. Galathée, Pigmalion, feignant de dormir sur un banc de gazon.</head> 
-<sp who='GALATHÉE'><speaker>GALATHÉE.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage type="sleep"> Galathée, Pigmalion, feignant de dormir sur un banc de gazon. 
+</stage> 
+<sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="382">Il faut avoir bien de l'audace</l>
 	<l id="383">Pour revenir ici braver les Dieux !</l>
 	<l id="384">C'est un charme secret qui m'attire en ces lieux,</l>
@@ -659,7 +677,8 @@
 	<l id="407">Il faut lui dévoiler mes moindres sentiments,</l>
 	<l id="408" part="i">Seigneur...</l>
 </sp>
-<sp stage="awake" who='PIGMALION'><speaker>PIGMALION, feignant de s'éveiller.</speaker>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="awake">, feignant de s'éveiller.
+	</stage>
 	<l id="408" part="f">Dieux ! quel objet se présente à ma vue ?</l>
 	<l id="409">Il porte dans mon âme une joie imprévue.</l>
 </sp>
@@ -833,18 +852,22 @@
 	<l id="515">Ah ! Permets-moi de t'adorer,</l>
 	<l id="516">Ou reprends ton présent funeste.</l>
 </sp>
-<sp stage="tender" who='GALATHÉE'><speaker>GALATHÉE, avec attendrissement.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="tender">, avec attendrissement.
+	</stage>
 	<l id="517">Levez-vous : de vos maux j'ai pitié, je le sens ;</l>
 	<l id="518">Je voudrais les guérir, et ne puis que les plaindre !</l>
 	<l id="519">J'aime Pigmalion, j'ignore l'art de feindre,</l>
 	<l id="520">Et je ne changerai jamais de sentiments.</l>
 </sp>
-<sp stage="aparte" who='PIGMALION'><speaker>PIGMALION, à part.</speaker>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="521">Mon triomphe est complet : ô fortunés moments !</l>
 </sp>
 </div2>
-<div2 type="scene" n='10'><head>SCÈNE X. Les Précédents, Parmenon.</head>
-<sp stage="aparte/emphasis" who='PARMENON'><speaker>PARMENON, à la cantonade, d'un ton emphatique.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les Précédents, Parmenon.
+</stage>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="aparte/emphasis">, à la cantonade, d'un ton emphatique.
+	</stage>
 	<l id="522">Peuple, attendez-moi là. Dans ces lieux redoutables,</l>
 	<l id="523">Que les Dieux immortels viennent de consacrer</l>
 	<l id="524">Par des prodiges mémorables,</l>
@@ -862,22 +885,26 @@
 	<l id="531">Si j'en crois le rapport, que m'a fait en ces lieux</l>
 	<l id="532">Cette Beauté qui me hait et que j'aime.</l>
 </sp>
-<sp stage="toward" who='PARMENON'><speaker>PARMENON, à Galathée.</speaker>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="toward">, à Galathée.
+	</stage>
 	<l id="533">Ce mystère par vous lui fut donc révélé ?</l>
 </sp>
-<sp who='GALATHÉE'><speaker>GALATHÉE.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
 	<l id="534">Oui ! J'ai prié les Dieux, Les Dieux m'ont entendue,</l>
 	<l id="535">Dans le marbre à ma voix la vie est descendue,</l>
 	<l id="536">J'ai dit, et le marbre a parlé.</l>
 </sp>
-<sp stage="toward" who='PARMENON'><speaker>PARMENON, à Pigmalion.</speaker>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="toward">, à Pigmalion.
+	</stage>
 	<l id="537">Eh bien, Seigneur, soyez prêt à me suivre.</l>
 </sp>
-<sp stage="quick" who='GALATHÉE'><speaker>GALATHÉE, vivement.</speaker>
+<sp who="GALATHÉE"><speaker>GALATHÉE</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="538">Emmenez-le bien loin d'ici,</l>
 	<l id="539">Mon unique désir est que l'on m'en délivre.</l>
 </sp>
-<sp stage="toward" who='PARMENON'><speaker>PARMENON, à Galathée.</speaker>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="toward">, à Galathée.
+	</stage>
 	<l id="540">Vous pourriez bien toujours ne pas parler ainsi.</l>
 <stage type="toward/show">À Pigmalion, lui présentant une couronne.</stage>
 	<l id="541">De Tyr recevez la couronne ;</l>
@@ -891,11 +918,12 @@
 <sp who="PIGMALION"><speaker>PIGMALION.</speaker>
 	<l id="548">Ciel d'où peut me venir ce bienfait glorieux ?</l>
 </sp>
-<sp who='PARMENON'><speaker>PARMENON.</speaker>
+<sp who="PARMENON"><speaker>PARMENON.</speaker>
 	<l id="549">Un jour vous le saurez peut être ;</l>
 	<l id="550">En attendant, suivez l'ordre des Cieux.</l>
 </sp>
-<sp stage="toward" who="PIGMALION"><speaker>PIGMALION, à Galathée.</speaker>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="toward">, à Galathée.
+	</stage>
 	<l id="551">Eh bien ! L'éclat du rang suprême</l>
 	<l id="552">Pour vous n'a-t-il rien de flatteur ?</l>
 	<l id="553">Et me préférez-vous toujours un vil Sculpteur ?</l>
@@ -909,7 +937,8 @@
 	<l id="559">Adieu, je vais le joindre à Babylone ;</l>
 	<l id="560">Ce n'est que sur son coeur que je prétends régner.</l>
 </sp>
-<sp stage="walk" who='PIGMALION'><speaker>PIGMALION, lui laissant faire quelques pas.</speaker>
+<sp who="PIGMALION"><speaker>PIGMALION</speaker><stage type="walk">, lui laissant faire quelques pas.
+	</stage>
 	<l id="561" part="i">Arrête, Galathée !</l>
 </sp>
 <sp who="GALATHÉE"><speaker>GALATHÉE.</speaker>
@@ -936,7 +965,7 @@
 	<l id="572">J'ai cru tantôt voir un souris menteur.</l>
 </sp>
 <sp who="PIGMALION"><speaker>PIGMALION.</speaker>
-	<l id="573">Ce n'était point une imposture ></l>
+	<l id="573">Ce n'était point une imposture &gt;</l>
 	<l id="574">Pardonne ! Alors la créature</l>
 	<l id="575">S'est en effet moquée un peu du créateur.</l>
 </sp>
@@ -968,7 +997,8 @@
 	<l id="590">Cet homme-là pourtant, offre à mes yeux,</l>
 	<l id="591">Tous les dehors sacrés d'un ministre des Dieux.</l>
 </sp>
-<sp stage="dress" who='PARMENON'><speaker>PARMENON, ôtant la fausse barbe.</speaker>
+<sp who="PARMENON"><speaker>PARMENON</speaker><stage type="dress">, ôtant la fausse barbe.
+	</stage>
 	<l id="592">Regardez moi de près, et vous pourrez connaître,</l>
 	<l id="593">Que la barbe et l'habit ne font pas seuls le prêtre.</l>
 </sp>

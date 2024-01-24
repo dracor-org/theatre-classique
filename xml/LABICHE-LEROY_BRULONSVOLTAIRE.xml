@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<structure>Un acte</structure>
 				<periode>1871-1880</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,28 +30,31 @@
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 			<titlePart type="sub">Représentée pour la première fois au théâtre du Gymnase à Paris le 7 mars 1874.</titlePart>
 		</docTitle> 
-		<docDate value='1874'>1874.</docDate>
+		<docDate value="1874">1874.</docDate>
 		<docAuthor id="LABICHE, LEROY">D'EUGÈNE LABICHE ET LOUIS LEROY.</docAuthor>
 		<docImprint>
-			<premiere location='Théâtre du Gymnase' date="1874-03-07">Représentée pour la première fois au théâtre du Gymnase à Paris le 7 mars 1874.</premiere>
-			<editor id='DENTU'>À PARIS, E. DENTU, EDITEUR, Librairie de la Société des auteurs et compositeurs dramatiques et de la société des gens de lettres, Palais-Royal, 17 et 19 Galerie d'Orléans.</editor>
+			<premiere location="Théâtre du Gymnase" date="1874-03-07">Représentée pour la première fois au théâtre du Gymnase à Paris le 7 mars 1874.</premiere>
+			<editor id="DENTU">À PARIS, E. DENTU, EDITEUR, Librairie de la Société des auteurs et compositeurs dramatiques et de la société des gens de lettres, Palais-Royal, 17 et 19 Galerie d'Orléans.</editor>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MARCHAVANT" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MARCHAVANT</role>.</castItem>
-		<castItem><role id="MAXINE" sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>MAXIME</role>, son neveu.</castItem>
-		<castItem><role id="LAMBLIN" sex="1" type="H" statut='notaire' age='A' stat_amour='néant'>LAMBLIN</role>, notaire.</castItem>
-		<castItem><role id="LA BARONNE" sex="2" type="H" statut='baron' age='A' stat_amour='néant'>LA BARONNE</role>.</castItem>
-		<castItem><role id="ALICE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>ALICE</role>, fille de la Baronne.</castItem>
-		<castItem><role id="JACQUETTE" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='néant'>JACQUETTE</role>, femme de chambre.</castItem>
+		<castItem><role id="MARCHAVANT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MARCHAVANT</role>.</castItem>
+		<castItem><role id="MAXINE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">MAXIME</role>, son neveu.</castItem>
+		<castItem><role id="LAMBLIN" sex="1" type="H" statut="notaire" age="A" stat_amour="néant">LAMBLIN</role>, notaire.</castItem>
+		<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE</role>.</castItem>
+		<castItem><role id="ALICE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ALICE</role>, fille de la Baronne.</castItem>
+		<castItem><role id="JACQUETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">JACQUETTE</role>, femme de chambre.</castItem>
 
 	</castList>
-<set location='Chignac' country='France' periode='XIXème' gps="(N/A)">La scène se passe à Chignac, aux environs d'Avignon, de nos jours. Un salon de campagne - ameublement riche, mais ancien. Au fond, au milieu, un grand corps de bibliothèque, entre deux portes vitrées donnant sur le parc. Deux autres portes latérales au deuxième plan, dans les pans coupés. Un chevalet et accessoires pour dessiner ; à gauche, table entre deux chaises ; cheminée sans feu à droite ; petite table à ouvrage entre un canapé et une chaise à droite. Toutes les indications de la salle, gauche et droite du spectateur.</set>
+<set location="Chignac" country="France" periode="XIXème" gps="(N/A)">La scène se passe à Chignac, aux environs d'Avignon, de nos jours. Un salon de campagne - ameublement riche, mais ancien. Au fond, au milieu, un grand corps de bibliothèque, entre deux portes vitrées donnant sur le parc. Deux autres portes latérales au deuxième plan, dans les pans coupés. Un chevalet et accessoires pour dessiner ; à gauche, table entre deux chaises ; cheminée sans feu à droite ; petite table à ouvrage entre un canapé et une chaise à droite. Toutes les indications de la salle, gauche et droite du spectateur.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>BRÛLONS VOLTAIRE !</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Lamblin, Jacquette.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Lamblin, Jacquette.
 Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
-<sp stage="entrance/location" who="LAMBLIN"><speaker>LAMBLIN, entrant par le fond à droite.</speaker>
+</stage>
+Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="entrance/location">, entrant par le fond à droite.
+</stage>
 <p id="1">
 	<s id="1">Jacquette !... </s>
 	<s id="2">Jacquette !... </s>
@@ -60,7 +63,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="cough">Il s'approche d'elle et tousse fortement.</stage>
 </sp>
-<sp stage="awake" who="JACQUETTE"><speaker>JACQUETTE, se réveillant.</speaker>
+<sp who="JACQUETTE"><speaker>JACQUETTE</speaker><stage type="awake">, se réveillant.
+</stage>
 <p id="2">
 	<s id="1">Quoi ?... </s>
 	<s id="2">Ah ! </s>
@@ -134,7 +138,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Vous me l'avez assez promis... sous les grands arbres, les jours de lune... quand vous étiez clerc de notaire.</s>
 </p>
 </sp>
-<sp stage="quick" who="LAMBLIN"><speaker>LAMBLIN, vivement.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="quick">, vivement.
+</stage>
 <p id="15">
 	<s id="1">Ne parlons plus de ça !... </s>
 	<s id="2">C'est oublié.</s>
@@ -174,8 +179,10 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Maxime.</head>
-<sp stage="entrance" who="MAXIME"><speaker>MAXIME, entrant. </speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Maxime.
+</stage>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="entrance">, entrant. 
+</stage>
 <p id="1">
 	<s id="1">Il est vêtu très modestement et porte un carton sous son bras : Mademoiselle...</s>
 </p>
@@ -185,13 +192,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Le professeur de dessin de Mademoiselle.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBLIN"><speaker>LAMBLIN, à part.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Mon locataire... </s>
 	<s id="2">Un pauvre diable !</s>
 </p>
 </sp>
-<sp stage="wave" who="MAXIME"><speaker>MAXIME, saluant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="wave">, saluant.
+</stage>
 <p id="4">
 	<s id="1">Je vous demande pardon, Monsieur Lamblin.</s>
 </p>
@@ -265,7 +274,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Soyez tranquille.</s>
 </p>
 </sp>
-<sp stage="wave" who="MAXIME"><speaker>MAXIME, saluant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="wave">, saluant.
+</stage>
 <p id="16">
 	<s id="1">Monsieur Lamblin... </s>
 	<s id="2">Mademoiselle... </s>
@@ -335,9 +345,11 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Lamblin, Jacquette, Alice, venant dufond à droite un livre à la main.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Lamblin, Jacquette, Alice, venant dufond à droite un livre à la main. 
+</stage> 
 <stage type="exit">Jacquette sort au commencement de la scène.</stage>
-<sp stage="toward" who="LAMBLIN"><speaker>LAMBLIN, à Alice</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="toward">, à Alice
+</stage>
 <p id="1">
 	<s id="1">Arrivez, Mademoiselle, vous voyez un homme enchanté, ravi...</s>
 </p>
@@ -439,7 +451,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="4">Et vous êtes bien heureuse !...</s>
 </p>
 </sp>
-<sp stage="ironic" who="ALICE"><speaker>ALICE, ironiquement.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="ironic">, ironiquement.
+</stage>
 <p id="18">
 	<s id="1">Ah ! </s>
 	<s id="2">Je vous en réponds !... </s>
@@ -470,7 +483,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Je comprends... la fiancée n'est pas liquide.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LAMBLIN"><speaker>LAMBLIN, riant.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="laugh">, riant.
+</stage>
 <p id="23">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous me prenez mes mots !... </s>
@@ -511,9 +525,11 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, La Baronne.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, La Baronne.
+</stage>
 <stage type="entrance">La Baronne paraît au fond, à droite. Tenue sévère, elle a son livre d'offices à la main.</stage>
-<sp stage="wave/quick" who="LAMBLIN"><speaker>LAMBLIN, saluant avec empressement</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="wave/quick">, saluant avec empressement
+</stage>
 <p id="1">
 	<s id="1">Madame_la_Baronne...</s>
 </p>
@@ -561,12 +577,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il est de Marseille.</s>
 </p>
 </sp>
-<sp stage="laugh" who="ALICE"><speaker>ALICE, riant.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="10">
 	<s id="1">Je l'aurais cru de Saint-Flour...</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, à Alice, sévèrement</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage>, à Alice, sévèrement
+</stage>
 <p id="11">
 	<s id="1">Mademoiselle !... </s>
 	<s id="2">Il y a des gens dont le caractère ne doit jamais prêter à la plaisanterie.</s>
@@ -615,7 +633,7 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
-<p id="	20">
+<p id=" 20">
 	<s id="1">Alors il y a force majeure.</s>
 </p>
 </sp>
@@ -630,12 +648,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Avec plaisir !</s>
 </p>
 </sp>
-<sp stage="get" who="LAMBLIN"><speaker>LAMBLIN, tirant un volume de sa poche</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="get">, tirant un volume de sa poche
+</stage>
 <p id="23">
 	<s id="1">Les cinq codes, très bien reliés.</s>
 </p>
 </sp>
-<sp stage="surprise" who="LA BARONNE"><speaker>LA BARONNE, surprise.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="surprise">, surprise.
+</stage>
 <p id="24">
 	<s id="1">Ah !</s>
 </p>
@@ -660,7 +680,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Délicieux !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBLIN"><speaker>LAMBLIN, à part.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="29">
 	<s id="1">En dessous... </s>
 	<s id="2">Ça ne se voit pas. </s>
@@ -673,7 +694,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="up">Elle remonte.</stage>
 </sp>
-<sp stage="low/toward" who="LAMBLIN"><speaker>LAMBLIN, bas à Alice.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="low/toward">, bas à Alice.
+</stage>
 <p id="31">
 	<s id="1">Vous entendez... </s>
 	<s id="2">Je ne le lui fais pas dire.</s>
@@ -717,7 +739,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="entrance">Elle entre à gauche.</stage>
 </sp>
-<sp stage="get/toward" who="LAMBLIN"><speaker>LAMBLIN, qui a été prendre son chapeau, à Alice.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="get/toward">, qui a été prendre son chapeau, à Alice.
+</stage>
 <p id="38">
 	<s id="1">Ayez bon espoir... </s>
 	<s id="2">Nous vendrons le château, Mademoiselle, nous le  vendrons !</s>
@@ -725,8 +748,10 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 <stage type="exit">Il sort vivement par le fond à droite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alice, puis Jacquette, puis Maxime.</head>
-<sp stage="alone" who="ALICE"><speaker>ALICE, seule.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alice, puis Jacquette, puis Maxime.
+</stage>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Mais je n'y tiens pas !... </s>
 	<s id="2">Du moment que ma main fait partie de l'immeuble... </s>
@@ -743,7 +768,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">C'est pour donner du montant à la propriété... à cause de l'acquéreur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Heureusement ce n'est pas cela qui fera vendre le château !</s>
 </p>
@@ -793,7 +819,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il n'est pas susceptible.</s>
 </p>
 </sp>
-<sp stage="entrance/wave" who="MAXIME"><speaker>MAXIME, entrant et saluant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="entrance/wave">, entrant et saluant.
+</stage>
 <p id="13">
 	<s id="1">Mademoiselle...</s>
 </p>
@@ -813,7 +840,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Tiens, prends ça... et file !</s>
 </p>
 </sp>
-<sp stage="aparte" who="JACQUETTE"><speaker>JACQUETTE, à part.</speaker>
+<sp who="JACQUETTE"><speaker>JACQUETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Encore un louis !... </s>
 	<s id="2">Mais comment fait-il pour joindre les deux  bouts ?</s>
@@ -821,7 +849,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 <stage type="exit">Elle sort par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alice, Maxime, puis la Baronne.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alice, Maxime, puis la Baronne.
+</stage>
 <sp who="ALICE"><speaker>ALICE.</speaker>
 <p id="1">
 	<s id="1">Ma mère va venir, monsieur, mais nous pouvons toujours commencer.</s>
@@ -833,7 +862,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="drop">Il commence à disposer le chevalet.</stage>
 </sp>
-<sp stage="get" who="ALICE"><speaker>ALICE, qui a pris un carton.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="get">, qui a pris un carton.
+</stage>
 <p id="3">
 	<s id="1">Trouvez-vous que je fasse quelques progrès ?</s>
 </p>
@@ -866,7 +896,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Je ne dis pas ça pour...</s>
 </p>
 </sp>
-<sp stage="sit/location" who="ALICE"><speaker>ALICE, s'asseyant devant le chevalet.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="sit/location">, s'asseyant devant le chevalet.
+</stage>
 <p id="9">
 	<s id="1">Alors... </s>
 	<s id="2">Grondez-moi... </s>
@@ -893,13 +924,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il y a tant de douceur, tant de bonté dans vos yeux...</s>
 </p>
 </sp>
-<sp stage="low" who="ALICE"><speaker>ALICE, bas.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="low">, bas.
+</stage>
 <p id="13">
 	<s id="1">Ma mère !</s>
 </p>
 <stage type="entrance">La Baronne paraît.</stage>
 </sp>
-<sp stage="aparte" who="MAXIME"><speaker>MAXIME, à part.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Que le diable l'emporte !</s>
 </p>
@@ -920,13 +953,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Je préludais à la leçon par quelques considérations sur l'art ancien comparé à l'art moderne.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Oh ! </s>
 	<s id="2">Comme il ment !</s>
 </p>
 </sp>
-<sp stage="sit/get" who="LA BARONNE"><speaker>LA BARONNE, s'asseyant sur la bergère et prenant une tapisserie.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="sit/get">, s'asseyant sur la bergère et prenant une tapisserie.
+</stage>
 <p id="19">
 	<s id="1">Qu'est-ce que vous lui faites copier aujourd'hui ?</s>
 </p>
@@ -951,7 +986,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">À la bonne heure.</s>
 </p>
 </sp>
-<sp who="MAXIME"><speaker>MAXIME, à Alice</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage>, à Alice
+</stage>
 <p id="24">
 	<s id="1">Les yeux !... </s>
 	<s id="2">Les yeux!... </s>
@@ -982,18 +1018,21 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">En allongeant bien les doigts... comme ça !...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="30">
 	<s id="1">Il me semble qu'il m'a serré la main.</s>
 </p>
 </sp>
-<sp stage="" who="MAXIME"><speaker>MAXIME, continuant sa démonstration.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="">, continuant sa démonstration.
+</stage>
 <p id="31">
 	<s id="1">... Sans y mettre de raideur... de l'abandon... un peu d'abandon... </s>
 </p>
 <stage type="touch">Il lui serre la main plus fort.</stage>
 </sp>
-<sp stage="shout" who="ALICE"><speaker>ALICE, poussant un petit cri.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="shout">, poussant un petit cri.
+</stage>
 <p id="32">
 	<s id="1">Ah !</s>
 </p>
@@ -1003,12 +1042,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Quoi ?</s>
 </p>
 </sp>
-<sp stage="quick" who="MAXIME"><speaker>MAXIME, vivement.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="quick">, vivement.
+</stage>
 <p id="34">
 	<s id="">C'est mademoiselle qui vient d'estomper l'oeil avec sa manche.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="35">
 	<s id="1">Oh ! </s>
 	<s id="2">Mais comme il ment !</s>
@@ -1050,12 +1091,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Ça me sera plus commode.</s>
 </p>
 </sp>
-<sp stage="sit" who="MAXIME"><speaker>MAXIME, s'asseyant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="sit">, s'asseyant.
+</stage>
 <p id="42">
 	<s id="1">Vous êtes bien bonne.</s>
 </p>
 </sp>
-<sp stage="aparte/alone" who="ALICE"><speaker>ALICE, à part, se voyant abandonnée.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte/alone">, à part, se voyant abandonnée.
+</stage>
 <p id="43">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Et moi ?</s>
@@ -1083,7 +1126,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Elle est rousse !</s>
 </p>
 </sp>
-<sp stage="toward" who="MAXIME"><speaker>MAXIME, à La Baronne.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="toward">, à La Baronne.
+</stage>
 <p id="48">
 	<s id="1">C'est une couleur un peu... voyante.</s>
 </p>
@@ -1112,12 +1156,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Je le regrette bien...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="53">
 	<s id="1">Et maman appelle ça une leçon de dessin !</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Maxime.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Maxime.
+</stage>
 <p id="54">
 	<s id="1">Écartez les mains... </s>
 	<s id="2">C'est ça !... </s>
@@ -1145,7 +1191,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Pourquoi ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MAXIME"><speaker>MAXIME, embarrassé.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="59">
 	<s id="1">Parce que... parce que nous n'avons pas les mêmes opinions... </s>
 	<s id="2">C'est un philosophe... </s>
@@ -1185,24 +1232,28 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="up">Maxime remonte.</stage>
 </sp>
-<sp stage="stand/carry/closer" who="ALICE"><speaker>ALICE, se levant un carton dans les mains et s'approchant de sa mère.</speaker> 
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="stand/carry/closer">, se levant un carton dans les mains et s'approchant de sa mère. 
+</stage> 
 <p id="65">
 	<s id="1">Mais, maman... </s>
 	<s id="2">La leçon n'est pas à moitié.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA BARONNE"><speaker>LA BARONNE, bas à Alice.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="low/toward">, bas à Alice.
+</stage>
 <p id="66">
 	<s id="1">Sois tranquille... </s>
 	<s id="2">Je lui paierai son cachet entier.</s>
 </p>
 </sp>
-<sp stage="get" who="MAXIME"><speaker>MAXIME, tirant une feuille de son carton.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="get">, tirant une feuille de son carton.
+</stage>
 <p id="67">
 	<s id="1">Madame_la_Baronne, voulez-vous me permettre de vous offrir ce dessin pour votre loterie ?</s>
 </p>
 </sp>
-<sp stage="stand/watch" who="LA BARONNE"><speaker>LA BARONNE, se levant et regardant le dessin.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="stand/watch">, se levant et regardant le dessin.
+</stage>
 <p id="68">
 	<s id="1">Qu'est-ce que ça représente ?</s>
 </p>
@@ -1218,7 +1269,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">À la bonne heure !</s>
 </p>
 </sp>
-<sp stage="watch" who="ALICE"><speaker>ALICE, regardant le dessin.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="watch">, regardant le dessin.
+</stage>
 <p id="71">
 	<s id="1">Ah !... </s>
 	<s id="2">C'est très joli !... </s>
@@ -1235,25 +1287,29 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Pas de cadre !</s>
 </p>
 </sp>
-<sp stage="wave/away" who="MAXIME"><speaker>MAXIME, saluant pour se retirer.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="wave/away">, saluant pour se retirer.
+</stage>
 <p id="74">
 	<s id="1">Madame_la_Baronne... </s>
 	<s id="2">Mademoiselle...</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Maxime.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Maxime.
+</stage>
 <p id="75">
 	<s id="">Vous dînez avec nous aujourd'hui ?</s>
 </p>
 </sp>
-<sp stage="wave" who="MAXIME"><speaker>MAXIME, s'inclinant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="76">
 	<s id="1">Madame... </s>
 </p>
 <stage type="exit/location">Il sort par le fond, à gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Baronne, Alice, puis Marchavant et Lamblin, puis Jacquette.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Baronne, Alice, puis Marchavant et Lamblin, puis Jacquette.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Pauvre garçon ! </s>
@@ -1273,7 +1329,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Je l'ai invité !</s>
 </p>
 </sp>
-<sp stage="entrance" who="LAMBLIN"><speaker>LAMBLIN, paraissant au fond et introduisant Marchavant, qui dépose son paletot sur un meuble.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="entrance">, paraissant au fond et introduisant Marchavant, qui dépose son paletot sur un meuble.
+</stage>
 <p id="4">
 	<s id="1">Veuillez prendre la peine d'entrer... </s>
 </p>
@@ -1282,7 +1339,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Monsieur Marchavant, Mme la baronne.</s>
 </p>
 </sp>
-<sp stage="wave" who="MARCHAVANT"><speaker>MARCHAVANT, saluant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="wave">, saluant.
+</stage>
 <p id="6">
 	<s id="1">Madame... </s>
 	<s id="2">Mademoiselle... </s>
@@ -1309,7 +1367,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="sit/location">Alice s'est assise à droite.</stage>
 </sp>
-<sp stage="caugh" who="LA BARONNE"><speaker>LA BARONNE, toussant pour le faire taire.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="caugh">, toussant pour le faire taire.
+</stage>
 <p id="10">
 	<s id="1">Hum ! Hum !...</s>
 </p>
@@ -1319,7 +1378,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Son coeur ne désemplit pas.</s>
 </p>
 </sp>
-<sp who="LAMBLIN"><speaker>LAMBLIN, toussant</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage>, toussant
+</stage>
 <p id="12">
 	<s id="1">Hum ! </s>
 	<s id="2">Hum !</s>
@@ -1351,13 +1411,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="6">Je viens de visiter la propriété, elle me convient... et si nous tombons d'accord nous signerons aujourd'hui même.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part
+</stage>
 <p id="17">
 	<s id="1">Aujourd'hui ! </s>
 	<s id="2">Il me fait peur !</s>
 </p>
 </sp>
-<sp stage="show" who="MARCHAVANT"><speaker>MARCHAVANT, indiquant Lamblin.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="show">, indiquant Lamblin.
+</stage>
 <p id="18">
 	<s id="1">AMonsieur m'a parlé de deux cent soixante-quinze mille francs, avec le mobilier, sans en excepter un porte-allumettes.</s>
 </p>
@@ -1389,7 +1451,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Je ne le cache pas, le Madère, c'est mon vin.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBLIN"><speaker>LAMBLIN, à part.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">Il est bavard !</s>
 </p>
@@ -1400,7 +1463,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il me rend presque tendre...</s>
 </p>
 </sp>
-<sp stage="cough" who="LAMBLIN"><speaker>LAMBLIN, toussant.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="cough">, toussant.
+</stage>
 <p id="26">
 	<s id="1">Hum ! </s>
 </p>
@@ -1444,19 +1508,22 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Taisez-vous donc !</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Lamblin.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Lamblin.
+</stage>
 <p id="34">
 	<s id="1">Monsieur sait-il que nous sommes à cinq minutes de l'église et du presbytère ?</s>
 </p>
 </sp>
-<sp stage="sad" who="MARCHAVANT"><speaker>MARCHAVANT, contrarié</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="sad">, contrarié
+</stage>
 <p id="35">
 	<s id="1">Ah ! </s>
 	<s id="2">Ah ! </s>
 	<s id="3">C'est un inconvénient.</s>
 </p>
 </sp>
-<sp stage="low" who="LAMBLIN"><speaker>LAMBLIN, bas.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="low">, bas.
+</stage>
 <p id="36">
 	<s id="">La demoiselle !</s>
 </p>
@@ -1481,29 +1548,34 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="up">Il remonte.</stage>
 </sp>
-<sp stage="aparte/offended" who="LA BARONNE"><speaker>LA BARONNE, à part, scandalisée</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="aparte/offended">, à part, scandalisée
+</stage>
 <p id="41">
 	<s id="1">Aux dominos ! </s>
 	<s id="2">Comme dans les cafés !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LAMBLIN"><speaker>LAMBLIN, bas à La Baronne.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="low/toward">, bas à La Baronne.
+</stage>
 <p id="42">
 	<s id="">Invitez-le à dîner, c'est l'usage.</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, bas.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage>, bas.
+</stage>
 <p id="43">
 	<s id="1">Vous croyez... </s>
 	<s id="2">C'est qu'il ne me plaît guère.</s>
 </p>
 </sp>
-<sp who="LAMBLIN"><speaker>LAMBLIN, bas.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage>, bas.
+</stage>
 <p id="44">
 	<s id="1">II refusera.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à Marchavant.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à Marchavant.
+</stage>
 <p id="45">
 	<s id="1">Monsieur nous fera-t-il l'honneur de rester à dîner ?</s>
 </p>
@@ -1513,7 +1585,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Avec plaisir, Madame !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBLIN"><speaker>LAMBLIN, à part.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="47">
 	<s id="1">Tiens, il accepte.</s>
 </p>
@@ -1532,7 +1605,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Un plat de viande me suffit.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA BARONNE"><speaker>LA BARONNE, bas à Lamblin.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="low/toward">, bas à Lamblin.
+</stage>
 <p id="50">
 	<s id="1">Un plat de viande... en carême... </s>
 </p>
@@ -1547,7 +1621,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">C'est du poisson, mais ça a l'air de viande.</s>
 </p>
 </sp>
-<sp who="MARCHAVANT"><speaker>MARCHAVANT, à La Baronne.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage>, à La Baronne.
+</stage>
 <p id="53">
 	<s id="1">Je crois que nous sommes à peu près d'accord.</s>
 </p>
@@ -1557,13 +1632,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Tout à fait.</s>
 </p>
 </sp>
-<sp stage="touch" who="MARCHAVANT"><speaker>MARCHAVANT, lui tendant la main.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="touch">, lui tendant la main.
+</stage>
 <p id="55">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Madame... touchez là.</s>
 </p>
 </sp>
-<sp stage="touch" who="LA BARONNE"><speaker>LA BARONNE, lui tapant dans la main</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="touch">, lui tapant dans la main
+</stage>
 <p id="56">
 	<s id="">Affaire conclue !</s>
 </p>
@@ -1574,14 +1651,16 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="sit/togother">Tout le monde s'assoit.</stage>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="58">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>
 	<s id="3">Comme ça va vite !</s>
 </p>
 </sp>
-<sp stage="toward" who="MARCHAVANT"><speaker>MARCHAVANT, à La Baronne.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="toward">, à La Baronne.
+</stage>
 <p id="59">
 	<s id="1">Avez-vous un cercle dans cette localité ?</s>
 </p>
@@ -1606,7 +1685,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Charmante distraction !</s>
 </p>
 </sp>
-<sp stage="write" who="LAMBLIN"><speaker>LAMBLIN, achevant d'écrire.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="write">, achevant d'écrire.
+</stage>
 <p id="64">
 	<s id="1">Voilà... </s>
 	<s id="2">Je passe le préambule et j'arrive à l'objet de la vente. </s>
@@ -1619,7 +1699,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="4">Tout le mobilier, meubles meublants, literie, vaisselle, bibliothèque, livres. »</s>
 </p>
 </sp>
-<sp stage="hurry" who="LA BARONNE"><speaker>LA BARONNE, vivement</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="hurry">, vivement
+</stage>
 <p id="66">
 	<s id="1">La bibliothèque... </s>
 	<s id="2">Ah ! </s>
@@ -1665,7 +1746,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Vous tenez à les conserver ?</s>
 </p>
 </sp>
-<sp stage="stand" who="LA BARONNE"><speaker>LA BARONNE, se levant.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="74">
 	<s id="1">Non !... </s>
 	<s id="2">Car j'ai promis... </s>
@@ -1673,7 +1755,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="4">Promis ce matin même de les brûler.</s>
 </p>
 </sp>
-<sp stage="offended/stand" who="MARCHAVANT"><speaker>MARCHAVANT, indigné, se levant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="offended/stand">, indigné, se levant.
+</stage>
 <p id="75">
 	<s id="1">Brûler Voltaire !... </s>
 	<s id="2">Le patriarche de Ferney !</s>
@@ -1702,7 +1785,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">D'abord l'avez-vous lu ?</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, révoltée.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage>, révoltée.
+</stage>
 <p id="80">
 	<s id="1">Jamais !</s>
 </p>
@@ -1738,7 +1822,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Comment !</s>
 </p>
 </sp>
-<sp who="ALICE"><speaker>ALICE, à part, avec joie</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage>, à part, avec joie
+</stage>
 <p id="87">
 	<s id="1">Ça se brouille ! </s>
 </p>
@@ -1762,17 +1847,20 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">J'ai fait de ce grand homme un éloge imprimé qui a été couronné en 1865 par l'Académie de Cahors.</s>
 </p>
 </sp>
-<sp stage="offended" who="ALICE"><speaker>ALICE, jouant l'indignation.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="offended">, jouant l'indignation.
+</stage>
 <p id="91">
 	<s id="">L'éloge de ce monsieur, oh !</s>
 </p>
 </sp>
-<sp stage="search" who="MARCHAVANT"><speaker>MARCHAVANT, fouillant à sa poche.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="search">, fouillant à sa poche.
+</stage>
 <p id="92">
 	<s id="1">Voulez-vous me permettre, Mademoiselle, de vous offrir un exemplaire ?</s>
 </p>
 </sp>
-<sp stage="hide" who="LA BARONNE"><speaker>LA BARONNE, couvrant Alice.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="hide">, couvrant Alice.
+</stage>
 <p id="93">
 	<s id="1">Ma fille ! </s>
 	<s id="2">Respectez ma fille !</s>
@@ -1786,12 +1874,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="4">Il y a peut-être moyen de s'entendre...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ALICE"><speaker>ALICE, bas à La Baronne.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="low/toward">, bas à La Baronne.
+</stage>
 <p id="95">
 	<s id="1">Maman, ne cédez pas !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA BARONNE"><speaker>LA BARONNE, de même.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="low/toward">, de même.
+</stage>
 <p id="96">
 	<s id="1">Sois tranquille !</s>
 </p>
@@ -1830,7 +1920,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Vous l'avez donc lu ?</s>
 </p>
 </sp>
-<sp stage="watch" who="LAMBLIN"><speaker>LAMBLIN, regardant La Baronne.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="watch">, regardant La Baronne.
+</stage>
 <p id="103">
 	<s id="1">Jamais ! </s>
 </p>
@@ -1844,13 +1935,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Ne pourrait-on pas, à titre de transaction, brûler certains volumes et conserver les autres ?</s>
 </p>
 </sp>
-<sp stage="low/toward" who="ALICE"><speaker>ALICE, bas à sa mère.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="low/toward">, bas à sa mère.
+</stage>
 <p id="106">
 	<s id="1">Ah ! </s>
 	<s id="2">Quelle lâcheté !</s>
 </p>
 </sp>
-<sp stage="low" who="LA BARONNE"><speaker>LA BARONNE, bas.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="low">, bas.
+</stage>
 <p id="107">
 	<s id="1">Tais-toi ! </s>
 </p>
@@ -1909,12 +2002,14 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il n'y a rien de fait !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ALICE"><speaker>ALICE, à part.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="117">
 	<s id="1">Bravo !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBLIN"><speaker>LAMBLIN, à part.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="118">
 	<s id="1">Ah ! </s>
 	<s id="2">Par exemple, si je m'attendais à ça !</s>
@@ -1957,23 +2052,27 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Madame...</s>
 </p>
 </sp>
-<sp stage="aparte/exit/location" who="LA BARONNE"><speaker>LA BARONNE, à part, sortant à gauche.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="aparte/exit/location">, à part, sortant à gauche.
+</stage>
 <p id="126">
 	<s id="1">Idolâtre !</s>
 </p>
 </sp>
-<sp stgage="aparte/exit/location" who="MARCHAVANT"><speaker>MARCHAVANT, à part, sortant au fond à droite.</speaker>
+<sp stgage="aparte/exit/location" who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage>, à part, sortant au fond à droite.
+</stage>
 <p id="127">
 	<s id="1">Fanatique !</s>
 </p>
 </sp>
-<sp stage="shout" who="ALICE"><speaker>ALICE, lui criant de la porte.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="shout">, lui criant de la porte.
+</stage>
 <p id="128">
 	<s id="1">On le brûlera ! </s>
 	<s id="2">On le brûlera !</s>
 </p>
 </sp>
-<sp stage="toward" who="LAMBLIN"><speaker>LAMBLIN, à Alice.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="toward">, à Alice.
+</stage>
 <p id="129">
 	<s id="1">Ne l'excitez donc pas... </s>
 	<s id="2">Je cours après lui... </s>
@@ -1987,8 +2086,10 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 <stage type="exit">Il disparaît.</stage>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VIII. Alice, puis Maxime, puis Marchavant.</head>
-<sp stage="alone" who="ALICE"><speaker>ALICE, seule.</speaker>
+<div2 type="scene" n=""><head>SCÈNE VIII.</head><stage> Alice, puis Maxime, puis Marchavant.
+</stage>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Bravo ! </s>
 	<s id="2">C'est rompu ! </s>
@@ -2009,7 +2110,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Quelle joie !</s>
 </p>
 </sp>
-<sp stage="surprise" who="ALICE"><speaker>ALICE, interdite.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="surprise">, interdite.
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est vous... pardon...</s>
@@ -2055,7 +2157,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Mais je ne veux pas devenir vieille fille !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MAXIME"><speaker>MAXIME, à part.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Au fait... </s>
 	<s id="2">Un mariage !... </s>
@@ -2155,7 +2258,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="5">Il ne donne pas aux chapeaux le temps de vieillir, celui-là.</s>
 </p>
 </sp>
-<sp stage="laugh" who="ALICE"><speaker>ALICE, riant.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="27">
 	<s id="1">Ah ! </s>
 	<s id="2">Si l'acquéreur vous avait entendu !...</s>
@@ -2194,19 +2298,22 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Je vous aime.</s>
 </p>
 </sp>
-<sp stage="entrance/location" who="MARCHAVANT"><speaker>MARCHAVANT, paraissant au fond, à droite.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="entrance/location">, paraissant au fond, à droite.
+</stage>
 <p id="33">
 	<s id="1">Je vous demande pardon...</s>
 </p>
 </sp>
-<sp stage="schout" who="ALICE"><speaker>ALICE, poussant un cri.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="schout">, poussant un cri.
+</stage>
 <p id="34">
 	<s id="1">Ah ! </s>
 </p>
 <stage type="escape/location">Elle se sauve par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Marchavant, Maxime, puis Jacquette.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Marchavant, Maxime, puis Jacquette.
+</stage>
 <sp who="MARCHAVANT"><speaker>MARCHAVANT.</speaker>
 <p id="1">
 	<s id="1">J'ai oublié mon paletot !...</s>
@@ -2634,7 +2741,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Tenez, mettez-vous là...</s>
 </p>
 </sp>
-<sp stage="sit" who="MARCHAVANT"><speaker>MARCHAVANT, assis.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="sit">, assis.
+</stage>
 <p id="75">
 	<s id="1">Je veux bien lui écrire, mais je ne ferai aucune concession, je t'en préviens.</s>
 </p>
@@ -2645,7 +2753,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Il s'agit d'une simple demande en mariage.</s>
 </p>
 </sp>
-<sp stage="wrote" who="MARCHAVANT"><speaker>MARCHAVANT, écrivant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="wrote">, écrivant.
+</stage>
 <p id="77">
 	<s id="1">« Madame... sous la réserve de mes principes... que je ne laisserai jamais entamer... j'ai l'honneur de vous demander la main de mademoiselle votre fille pour mon neveu. » </s>
 	<s id="2">Voilà.</s>
@@ -2677,7 +2786,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">« Je donne trois cent mille francs. »</s>
 </p>
 </sp>
-<sp stage="furious" who="MAXIME"><speaker>MAXIME, révolté</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="furious">, révolté
+</stage>
 <p id="83">
 	<s id="1">Oh !... </s>
 </p>
@@ -2688,7 +2798,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="ring">Il sonne.</stage>
 </sp>
-<sp stage="entrance" who="JACQUETTE"><speaker>JACQUETTE, paraissant.</speaker>
+<sp who="JACQUETTE"><speaker>JACQUETTE</speaker><stage type="entrance">, paraissant.
+</stage>
 <p id="85">
 	<s id="1">Monsieur !...</s>
 </p>
@@ -2699,7 +2810,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Tout de suite.</s>
 </p>
 </sp>
-<sp stage="stand" who="MARCHAVANT"><speaker>MARCHAVANT, qui s'est levé.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="stand">, qui s'est levé.
+</stage>
 <p id="87">
 	<s id="1">Et fais-moi donner à boire...</s>
 </p>
@@ -2717,13 +2829,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 <stage type="exit/locatio ">Elle sort, par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Marchavant, Maxime, puis Alice et Jacquette.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Marchavant, Maxime, puis Alice et Jacquette.
+</stage>
 <sp who="MAXIME"><speaker>MAXIME.</speaker>
 <p id="1">
 	<s id="1">Vous êtes un oncle adorable !</s>
 </p>
 </sp>
-<sp stage="entrance/location/aparte" who="ALICE"><speaker>ALICE, entrant du fond à gauche, à part</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="entrance/location/aparte">, entrant du fond à gauche, à part
+</stage>
 <p id="2">
 	<s id="1">Ce vieux monsieur doit être parti. </s>
 </p>
@@ -2766,13 +2880,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Nous attendons...</s>
 </p>
 </sp>
-<sp stage="carry" who="JACQUETTE"><speaker>JACQUETTE, entrant, elle porte une lettre sur un plateau d'argent, à Marchavant :</speaker>
+<sp who="JACQUETTE"><speaker>JACQUETTE</speaker><stage type="carry">, entrant, elle porte une lettre sur un plateau d'argent, à Marchavant :
+</stage>
 <p id="10">
 	<s id="1">Monsieur, voici la réponse... </s>
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="open" who="MARCHAVANT"><speaker>MARCHAVANT, décachetant la lettre.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="open">, décachetant la lettre.
+</stage>
 <p id="11">
 	<s id="1">Voyons !...</s>
 </p>
@@ -2788,7 +2904,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Oui, dépêchez-vous.</s>
 </p>
 </sp>
-<sp stage="read" who="MARCHAVANT"><speaker>MARCHAVANT, lisant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="read">, lisant.
+</stage>
 <p id="14">
 	<s id="1">« Monsieur... Brûlez Voltaire !... »</s>
 </p>
@@ -2830,7 +2947,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Où est mon paletot ?</s>
 </p>
 </sp>
-<sp stage="low/toward" who="MAXIME"><speaker>MAXIME, bas à Alice.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="low/toward">, bas à Alice.
+</stage>
 <p id="20">
 	<s id="2">Il faut le retenir à tout prix !...</s>
 </p>
@@ -2845,7 +2963,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="entrance/carry">Jacquette entre avec une bouteille et un verre sur un plateau.</stage>
 </sp>
-<sp who="MARCHAVANT"><speaker>MARCHAVANT, à Jacquette.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage>, à Jacquette.
+</stage>
 <p id="23">
 	<s id="1">Mademoiselle, veuillez, je vous prie, dire qu'on attelle ma voiture... </s>
 	<s id="2">Qu'est-ce que vous portez là?</s>
@@ -2869,7 +2988,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="exit">Jacquette sort.</stage>
 </sp>
-<sp stage="pour/give" who="ALICE"><speaker>ALICE, qui a rempli un verre, le présentant à Marchavant.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="pour/give">, qui a rempli un verre, le présentant à Marchavant.
+</stage>
 <p id="27">
 	<s id="">Monsieur Marchavant.</s>
 </p>
@@ -2921,7 +3041,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Exquis !... C'est du vrai.</s>
 </p>
 </sp>
-<sp stage="pour" who="ALICE"><speaker>ALICE, remplissant le verre.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="pour">, remplissant le verre.
+</stage>
 <p id="36">
 	<s id="1">Encore.</s>
 </p>
@@ -3011,7 +3132,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="6">Mon petit oncle...</s>
 </p>
 </sp>
-<sp stage="sweet" who="ALICE"><speaker>ALICE, d'une voix très douce.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="sweet">, d'une voix très douce.
+</stage>
 <p id="51">
 	<s id="1">Oh ! </s>
 	<s id="2">Oui... </s>
@@ -3019,7 +3141,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="4">Mon petit oncle...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARCHAVANT"><speaker>MARCHAVANT, à part.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="52">
 	<s id="1">Quelle jolie petite voix ! </s>
 </p>
@@ -3036,18 +3159,21 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Pour obéir à je ne sais quel entêtement biscornu !</s>
 </p>
 </sp>
-<sp stage="nervous" who="MARCHAVANT"><speaker>MARCHAVANT, se fâchant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="nervous">, se fâchant.
+</stage>
 <p id="55">
 	<s id="1">Comment ! </s>
 	<s id="2">Biscornu !</s>
 </p>
 </sp>
-<sp stage="quick" who="ALICE"><speaker>ALICE, vivement.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="56">
 	<s id="1">Non... déplacé !</s>
 </p>
 </sp>
-<sp who="MARCHAVANT"><speaker>MARCHAVANT, se calmant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage>, se calmant.
+</stage>
 <p id="57">
 	<s id="1">Ah !... </s>
 	<s id="2">À la bonne heure !</s>
@@ -3071,7 +3197,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Je n'ai plus de père... et il me semblait que j'allais en retrouver un.</s>
 </p>
 </sp>
-<sp stage="tender" who="MARCHAVANT"><speaker>MARCHAVANT, attendri.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="tender">, attendri.
+</stage>
 <p id="61">
 	<s id="1">Ah ! </s>
 	<s id="2">Mademoiselle... </s>
@@ -3087,7 +3214,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Merci !</s>
 </p>
 </sp>
-<sp stage="toward" who="MARCHAVANT"><speaker>MARCHAVANT, à Alice.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="toward">, à Alice.
+</stage>
 <p id="63">
 	<s id="1">Eh ! </s>
 	<s id="2">S'il faut vous le dire... moi aussi, je me sens attiré vers vous... </s>
@@ -3116,14 +3244,16 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Oui, mais ce qu'il y a dessus !</s>
 </p>
 </sp>
-<sp stage="sweet" who="ALICE"><speaker>ALICE, très câline.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="sweet">, très câline.
+</stage>
 <p id="68">
 	<s id="1">Voyons, je vous en prie... </s>
 	<s id="2">Mon oncle !... </s>
 	<s id="3">Mon petit oncle !...</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARCHAVANT"><speaker>MARCHAVANT, à part.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="69">
 	<s id="1">Quelle voix !... </s>
 	<s id="2">C'est de la musique...</s>
@@ -3184,7 +3314,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">C'est bien vrai !</s>
 </p>
 </sp>
-<sp who="MAXIME"><speaker>MAXIME, même jeu.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage>, même jeu.
+</stage>
 <p id="78">
 	<s id="1">Plus deux bagues... </s>
 	<s id="2">Mon porte-monnaie... </s>
@@ -3206,7 +3337,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Ma résolution est prise !</s>
 </p>
 </sp>
-<sp stage="frighten" who="MARCHAVANT"><speaker>MARCHAVANT, effrayé.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="81">
 	<s id="1">Ta résolution... </s>
 	<s id="2">Maxime !... </s>
@@ -3283,7 +3415,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="sit/location">Elle s'assied à gauche.</stage>
 </sp>
-<sp stage="aparte" who="MARCHAVANT"><speaker>MARCHAVANT, à part.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="94">
 	<s id="1">Eh bien, si c'est à cela que doit aboutir mon admiration pour toi, ô mon maître !... </s>
 	<s id="2">Ça ne se peut pas !</s>
@@ -3301,7 +3434,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Mon petit oncle !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARCHAVANT"><speaker>MARCHAVANT, à part.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="97">
 	<s id="1">Toujours sa petite musique ! </s>
 </p>
@@ -3322,7 +3456,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Moi, je vous offre mes économies.</s>
 </p>
 </sp>
-<sp stage="kiss" who="MARCHAVANT"><speaker>MARCHAVANT, l'embrassant</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="kiss">, l'embrassant
+</stage>
 <p id="101">
 	<s id="1">Ah ! </s>
 	<s id="2">Chère enfant !</s>
@@ -3338,7 +3473,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="2">Je vous promets de vous le lire, tous les soirs, au coin du feu.</s>
 </p>
 </sp>
-<sp stage="quick" who="MARCHAVANT"><speaker>MARCHAVANT, vivement.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="quick">, vivement.
+</stage>
 <p id="104">
 	<s id="1">Ah ! </s>
 	<s id="2">Non ! </s>
@@ -3355,7 +3491,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">C'est que... ce n'est pas non plus une lecture de femme mariée.</s>
 </p>
 </sp>
-<sp stage="toward" who="MAXIME"><speaker>MAXIME, à Marchavant.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="toward">, à Marchavant.
+</stage>
 <p id="107">
 	<s id="1">Très bien ! </s>
 	<s id="2">Pour vos lectures du soir, nous vous louerons un artilleur !</s>
@@ -3366,7 +3503,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Alors, je puis prévenir maman ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="MARCHAVANT"><speaker>MARCHAVANT, hésitant.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="109">
 	<s id="1">Mais...</s>
 </p>
@@ -3377,16 +3515,19 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 </p>
 <stage type="away">Il remonte.</stage>
 </sp>
-<sp stage="away/call" who="ALICE"><speaker>ALICE, qui est remontée et appelant.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="away/call">, qui est remontée et appelant.
+</stage>
 <p id="111">
 	<s id="1">Maman ! </s>
 	<s id="2">Maman !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, La Baronne, Jacquette, puis Lamblin.</head> 
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les mêmes, La Baronne, Jacquette, puis Lamblin. 
+</stage> 
 <stage type="entrance">La Baronne paraît à gauche.</stage>
-<sp stage="toward" who="ALICE"><speaker>ALICE, à La Baronne</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="toward">, à La Baronne
+</stage>
 <p id="1">
 	<s id="1">Monsieur consent à brûler...</s>
 </p>
@@ -3396,23 +3537,27 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Lui-même ?</s>
 </p>
 </sp>
-<sp stage="pain" who="MARCHAVANT"><speaker>MARCHAVANT, avec effort.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="pain">, avec effort.
+</stage>
 <p id="3">
 	<s id="1">Oui... </s>
 	<s id="2">Passez-moi la victime.</s>
 </p>
 </sp>
-<sp stage="closer" who="LA BARONNE"><speaker>LA BARONNE, s'approchant de la cheminée</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="closer">, s'approchant de la cheminée
+</stage>
 <p id="4">
 	<s id="1">Jacquette... du bois !</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARCHAVANT"><speaker>MARCHAVANT, à part.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">Elle me fait l'effet du grand Inquisiteur.</s>
 </p>
 </sp>
-<sp stage="up/location" who="MAXIME"><speaker>MAXIME, qui est monté sur l'échelle devant la bibliothèque.</speaker>
+<sp who="MAXIME"><speaker>MAXIME</speaker><stage type="up/location">, qui est monté sur l'échelle devant la bibliothèque.
+</stage>
 <p id="6">
 	<s id="">Mais, Madame_la_Baronne...</s>
 </p>
@@ -3445,13 +3590,15 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="3">Monsieur_le_Baron en a fait brûler secrètement deux paniers l'avant-veille de son décès.</s>
 </p>
 </sp>
-<sp stage="happy" who="TOUS"><speaker>TOUS, avec joie.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Bah !</s>
 </p>
 </sp>
-<sp stage="aparte/happy" who="MARCHAVANT"><speaker>MARCHAVANT, à part, radieux.</speaker>
+<sp who="MARCHAVANT"><speaker>MARCHAVANT</speaker><stage type="aparte/happy">, à part, radieux.
+</stage>
 <p id="13">
 	<s id="1">Brave Baron ! </s>
 </p>
@@ -3460,7 +3607,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">C'est-à-dire fanatique !</s>
 </p>
 </sp>
-<sp stage="offended" who="LA BARONNE"><speaker>LA BARONNE, piquée.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="offended">, piquée.
+</stage>
 <p id="15">
 	<s id="1">Monsieur_le_Baron aurait bien pu me laisser cette dernière satisfaction. </s>
 </p>
@@ -3469,7 +3617,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Enfin, monsieur, puisque c'est fait...</s>
 </p>
 </sp>
-<sp stage="entrance" who="LAMBLIN"><speaker>LAMBLIN, entrant, avec une brassée de livres dans les mains.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="entrance">, entrant, avec une brassée de livres dans les mains.
+</stage>
 <p id="17">
 	<s id="1">J'apporte mon idée !</s>
 </p>
@@ -3506,7 +3655,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Tout est arrangé.</s>
 </p>
 </sp>
-<sp stage="estonish" who="LAMBLIN"><speaker>LAMBLIN, étonné.</speaker>
+<sp who="LAMBLIN"><speaker>LAMBLIN</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="24">
 	<s id="1">Ah ! </s>
 	<s id="2">Tout est... alors nous pouvons reprendre la lecture du sous-seing ?</s>
@@ -3544,7 +3694,8 @@ Au lever du rideau, Jacquette dort, étendue dans la bergère, à droite.
 	<s id="1">Comment !</s>
 </p>
 </sp>
-<sp stage="toward" who="TOUS"><speaker>TOUS, à Lamblin.</speaker>
+<sp who="TOUS"><speaker>TOUS</speaker><stage type="toward">, à Lamblin.
+</stage>
 <p id="31">
 	<s id="1">Puisque le baron a brûlé.</s>
 </p>

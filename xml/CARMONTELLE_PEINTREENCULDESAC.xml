@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,28 +29,30 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">VINGT SEPTIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1822'>1822.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1822">1822.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='DELONCHAMPS'>À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
+			<printer id="DELONCHAMPS">À PARIS, chez DELONGCHAMPS, LIBRAIRE RUE DE LA FEUILLADE, n°2, près de la Place des Victoires.</printer>
 		</docImprint>
 	<performance>
-			<premiere date="(inconnue)" location="Paris"></premiere>
+			<premiere date="(inconnue)" location="Paris"/>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR LE MAIRE" sex="1" type="H" statut="maire" age='A' stat_amour='(néant)'>MONSIEUR LE MAIRE.</role>.</castItem>
-		<castItem><role id="MONSIEUR LE CLERC" sex="1" type="H" statut="bourgeois" age='A' stat_amour='(néant)'>MONSIEUR LE CLERC</role>, ami de M. le Maire.</castItem>
-		<castItem><role id="LE GRIS" sex="1" type="H" statut="balayeur" age='A' stat_amour='(néant)'>LE GRIS</role>, balayeur.</castItem>
-		<castItem><role id="MONSIEUR RAPHAËL" sex="1" type="H" statut="peintre en bâtiment" age='A' stat_amour='(néant)'>MONSIEUR RAPHAËL</role>, peintre d'enseignes.</castItem>
+		<castItem><role id="MONSIEUR LE MAIRE" sex="1" type="H" statut="maire" age="A" stat_amour="(néant)">MONSIEUR LE MAIRE.</role>.</castItem>
+		<castItem><role id="MONSIEUR LE CLERC" sex="1" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MONSIEUR LE CLERC</role>, ami de M. le Maire.</castItem>
+		<castItem><role id="LE GRIS" sex="1" type="H" statut="balayeur" age="A" stat_amour="(néant)">LE GRIS</role>, balayeur.</castItem>
+		<castItem><role id="MONSIEUR RAPHAËL" sex="1" type="H" statut="peintre en bâtiment" age="A" stat_amour="(néant)">MONSIEUR RAPHAËL</role>, peintre d'enseignes.</castItem>
    </castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris, dans un cul-de-sac.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE précédé de la vie de Carmontelle (...), chez DELONGCHAMPS libraire, Tome Premier, 1822. pp. 365-377</note>
 </front>
 <body>
-<div1 type="act" n='1'><head>LE PEINTRE EN CUL-DE-SAC</head>
-<div2 stage="carry" type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Le Maire, Le Gris, un balai à la main.</head> 
+<div1 type="act" n="1"><head>LE PEINTRE EN CUL-DE-SAC</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="carry"> Monsieur Le Maire, Le Gris, un balai à la main. 
+</stage> 
 <stage type="decor">La scène représente un grand mur, sur lequel on a préparé un enduit de plâtre, pour écrire. Il y a une grande pierre isolée sur le pavé.</stage>
-<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE, en robe-de-chambre.</speaker>
+<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE</speaker><stage>, en robe-de-chambre.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, le Gris, c'est-il fini ?</s>
 </p>
@@ -127,7 +129,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur Le Maire, Monsieur Le Clerc, Le Gris.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur Le Maire, Monsieur Le Clerc, Le Gris. 
+</stage> 
 <sp who="MONSIEUR LE CLERC"><speaker>MONSIEUR LE CLERC.</speaker>
 <p id="1">
 	<s id="1">Je vous cherchais.</s>
@@ -154,7 +157,8 @@
 	<s id="1">Oui, la voilà.</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE, lisant.</speaker>
+<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE</speaker><stage type="read">, lisant.
+</stage>
 <p id="6">
 	<s id="1">C'est très bien ; je vous ai la plus grande obligation.</s>
 </p>
@@ -213,7 +217,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Le Maire, Monsieur Le Clerc.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Le Maire, Monsieur Le Clerc.
+</stage>
 <sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE.</speaker>
 <p id="1">
 	<s id="1">Vous ne sauriez croire l'incommodité qu'il y a d'avoir des vues sur ce cul-de-sac ; on ne peut pas ouvrir les fenêtres absolument de ce côté-ci.</s>
@@ -266,7 +271,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE IV. Monsieur Le Maire, Monsieur Le Clerc, Monsieur Raphaël, Le Gris.</head> 
+<div2 type="scene" n=""><head>SCÈNE IV.</head><stage> Monsieur Le Maire, Monsieur Le Clerc, Monsieur Raphaël, Le Gris. 
+</stage> 
 <sp who="MONSIEUR LE GRIS"><speaker>MONSIEUR LE GRIS.</speaker>
 <p id="1">
 	<s id="1">Monsieur, voilà Monsieur Raphaël.</s>
@@ -277,7 +283,8 @@
 	<s id="1">Vous vous appelez Raphaël ?</s>
 </p>
 </sp>
-<sp stage="costume" who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL, avec un bonnet, un tablier, un pot à couleur et un pinceau.</speaker>
+<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL</speaker><stage type="costume">, avec un bonnet, un tablier, un pot à couleur et un pinceau.
+</stage>
 <p id="3">
 	<s id="1">Oui, monsieur, pour vous servir.</s>
 </p>
@@ -361,7 +368,8 @@
 	<s id="1">Allons, que je vous voie commencer un peu.</s>
 </p>
 </sp>
-<sp stage="write" who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL, travaillant.</speaker>
+<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL</speaker><stage type="write">, travaillant.
+</stage>
 <p id="19">
 	<s id="1">M'y voilà. </s>
 </p>
@@ -428,7 +436,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="work" who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL, travaillant.</speaker>
+<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL</speaker><stage type="work">, travaillant.
+</stage>
 <stage type="work">Il se recule de temps en temps, pour voir l'effet.</stage>
 <stage type="sing">Il chante.</stage>
 <stage type="title">Sur l'air : Des rues.</stage>
@@ -499,8 +508,10 @@
 	<l id="18">Jusqu'après minuit....</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Le Maire, Monsieur Raphaël.</head>
-<sp stage="costume" who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE, habillé.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Le Maire, Monsieur Raphaël.
+</stage>
+<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE</speaker><stage type="costume">, habillé.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, monsieur Raphaël, cela avance-t-il ?</s>
 </p>
@@ -510,12 +521,14 @@
 	<s id="1">Oui, Monsieur, j'en suis à corporelle ; cela va être fini.</s>
 </p>
 </sp>
-<sp stage="watch" who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE, regardant avec une lorgnette.</speaker>
+<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE</speaker><stage type="watch">, regardant avec une lorgnette.
+</stage>
 <p id="3">
 	<s id="1">Cela va fort bien.</s>
 </p>
 </sp>
-<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL, travaille en chantant.</speaker>
+<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL</speaker><stage>, travaille en chantant.
+</stage>
 <p id="4">
 	<s id="1">Restent ces pucelles...</s>
 </p>
@@ -592,7 +605,8 @@
 	<l id="20">Jusqu'après minuit,</l>
 	<l id="21">Vont à petit bruit.</l>
 </sp>
-<sp stage="watch" who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE, regardant partout avec sa lorgnette, va jusque derrière la pierre.</speaker>
+<sp who="MONSIEUR LE MAIRE"><speaker>MONSIEUR LE MAIRE</speaker><stage type="watch">, regardant partout avec sa lorgnette, va jusque derrière la pierre.
+</stage>
 <p id="18">
 	<s id="1">Eh, parbleu, je ne m'étonne pas ! </s>
 </p>
@@ -652,7 +666,8 @@
 	<s id="1">Eh qui ?</s>
 </p>
 </sp>
-<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL, d'un air de confiance.</speaker>
+<sp who="MONSIEUR RAPHAËL"><speaker>MONSIEUR RAPHAËL</speaker><stage>, d'un air de confiance.
+</stage>
 <p id="30">
 	<s id="1">Eh mais, monsieur, c'est moi ; il ne faut pas chercher bien loin ce qui est bien près.</s>
 </p>

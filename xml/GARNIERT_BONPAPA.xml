@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -17,7 +17,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,19 +30,19 @@
 			
 			<titlePart type="sub">PREMIER PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME MONVAL" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME MONVAL</role>.</castItem>
-		<castItem><role id="LE PÈRE THOMAS" sex="1" type="H" statut="bourgeois" age="V" stat_amour='néant'>LE PÈRE THOMAS</role>, vieillard, père de Madame Monval.</castItem>
-		<castItem><role id="LUCETTE" sex="2" type="H" statut="bourgeois" age="E" stat_amour='néant'>LUCETTE</role>, Enfant de Madame Monval, âgée de six ans.</castItem>
-		<castItem><role id="LE PETIT MONVAL" sex="1" type="H" statut="bourgeois" age="E" stat_amour='néant'>LE PETIT MONVAL</role>, Enfant de Madame Monval, âgée de huit ans.</castItem>
-		<castItem><role id="COLETTE" sex="2" type="H" statut="gouvernante" age="A" stat_amour='néant'>COLETTE</role>, gouvernante d'enfant de Madame Monval</castItem>
-		<castItem><role id="ALISON" sex="2" type="H" statut="gouvernante" age="A" stat_amour='néant'>ALISON</role>, gouvernante d'enfant de Madame Monval</castItem>
-		<castItem><role id="BOURGUIGNON" sex="1" type="H" statut="laquais" age="A" stat_amour='néant'>BOURGUIGNON</role>, Laquais du voisinage.</castItem>
+		<castItem><role id="MADAME MONVAL" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME MONVAL</role>.</castItem>
+		<castItem><role id="LE PÈRE THOMAS" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">LE PÈRE THOMAS</role>, vieillard, père de Madame Monval.</castItem>
+		<castItem><role id="LUCETTE" sex="2" type="H" statut="bourgeois" age="E" stat_amour="néant">LUCETTE</role>, Enfant de Madame Monval, âgée de six ans.</castItem>
+		<castItem><role id="LE PETIT MONVAL" sex="1" type="H" statut="bourgeois" age="E" stat_amour="néant">LE PETIT MONVAL</role>, Enfant de Madame Monval, âgée de huit ans.</castItem>
+		<castItem><role id="COLETTE" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">COLETTE</role>, gouvernante d'enfant de Madame Monval</castItem>
+		<castItem><role id="ALISON" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">ALISON</role>, gouvernante d'enfant de Madame Monval</castItem>
+		<castItem><role id="BOURGUIGNON" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">BOURGUIGNON</role>, Laquais du voisinage.</castItem>
    </castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez Madame Monval.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 1-16.</note>
@@ -50,9 +50,11 @@
 <body>
 <div1 type="act" n="1"><head>LE BON PAPA</head>
 <stage type="decor">Le Théâtre représente un salon à manger. L'action se passe sur les sept heures du soir.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Collette, Lucette, Le petit Monval, Bourguignon.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Collette, Lucette, Le petit Monval, Bourguignon.
+</stage>
 <stage type="decor/location">Les enfants font au fond du Théâtre au tour d'une petite table et achèvent leur souper ; Colette est debout auprès d'eux.</stage>
-<sp stage="entrance/surpise" who="BOURGUIGNON"><speaker>BOURGUIGNON entre doucement sur la pointe du pied, et surprend Colette.</speaker>
+<sp who="BOURGUIGNON"><speaker>BOURGUIGNON</speaker><stage type="entrance/surpise"> entre doucement sur la pointe du pied, et surprend Colette.
+</stage>
 <p id="1">
 	<s id="1">Bonsoir, Collette.</s>
 </p>
@@ -122,7 +124,8 @@
 	<s id="1">Bon ; n'aurait-elle pas voulu nous faire mener la vie qu'elle menait dans son village.</s>
 </p>
 </sp>
-<sp stage="laugh" who="BOURGUIGNON"><speaker>BOURGUIGNON, riant.</speaker>
+<sp who="BOURGUIGNON"><speaker>BOURGUIGNON</speaker><stage type="laugh">, riant.
+</stage>
 <p id="12">
 	<s id="1">Ah, ah, ah, ah. </s>
 	<s id="2">Et cela n'était guère dégoût de Madame Monval, n'est-ce pas ?</s>
@@ -137,7 +140,8 @@
 	<s id="1">Va-t-en donc, je crains qu'on ne nous surprenne.</s>
 </p>
 </sp>
-<sp stage="back" who="BOURGUIGNON"><speaker>BOURGUIGNON, revenant.</speaker>
+<sp who="BOURGUIGNON"><speaker>BOURGUIGNON</speaker><stage type="back">, revenant.
+</stage>
 <p id="15">
 	<s id="1">Et le bon papa Thomas ; qu'en faites- vous ?</s>
 </p>
@@ -163,7 +167,8 @@
 </p>
 <stage type="toward/watch/laugh">Les enfants pendant ce temps causent et rient en regardant Colette et Bourguignon.</stage>
 </sp>
-<sp stage="watch" who="COLETTE"><speaker>COLETTE, jetant sur eux un regard courroucé.</speaker>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="watch">, jetant sur eux un regard courroucé.
+</stage>
 <p id="20">
 	<s id="1">Est-ce fini ?</s>
 </p>
@@ -208,7 +213,8 @@
 	<s id="1">Sauve-toi vite, j'entends ma maîtresse.</s>
 </p>
 </sp>
-<sp stage="exit" who="BOURGUIGNON"><speaker>BOURGUIGNON, en sortant.</speaker>
+<sp who="BOURGUIGNON"><speaker>BOURGUIGNON</speaker><stage type="exit">, en sortant.
+</stage>
 <p id="15">
 	<s id="1">Je t'attends au moins.</s>
 </p>
@@ -219,15 +225,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les précédents, le Père Thomas.</head>
-<sp stage="aparte" who="COLETTE"><speaker>COLETTE, à part.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les précédents, le Père Thomas.
+</stage>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">C'est le père Thomas. </s>
 	<s id="2">La peste soit de l'homme. </s>
 </p>
 <stage type="decor">Elle s'occupe pendant cette scène à débarrasser la table.</stage>
 </sp>
-<sp stage="" who="LUCETTE, LE PETIT MONVAL"><speaker>LUCETTE et LE PETIT MONVAL, sautent au cou au père Thomas.</speaker>
+<sp who="LUCETTE, LE PETIT MONVAL"><speaker>LUCETTE et LE PETIT MONVAL</speaker><stage type="">, sautent au cou au père Thomas.
+</stage>
 <p id="2">
 	<s id="1">Bonjour, mon bon papa Thomas.</s>
 </p>
@@ -242,7 +251,8 @@
 	<s id="2">Montre-moi donc ta poupée, Lucette, il y a longtemps que je ne l'ai vue.</s>
 </p>
 </sp>
-<sp stage="sad" who="LUCETTE"><speaker>LUCETTE, baisse les yeux d'un air triste.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="sad">, baisse les yeux d'un air triste.
+</stage>
 <p id="5">
 	<s id="1">Je ne l'ai plus, mon bon papa.</s>
 </p>
@@ -260,7 +270,8 @@
 	<s id="1">Laisse faire, va, demain je t'en achèterai une autre.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LUCETTE"><speaker>LUCETTE, l'embrassant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="9">
 	<s id="1">Grand merci, mon bon papa.</s>
 </p>
@@ -276,7 +287,8 @@
 	<s id="1">Comment donc  mon cher enfant ?</s>
 </p>
 </sp>
-<sp stage="show" who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL, montrant aussi Colette.</speaker>
+<sp who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL</speaker><stage type="show">, montrant aussi Colette.
+</stage>
 <p id="12">
 	<s id="1">On a jeté dans le puits ma toupie et mon arbalète.</s>
 </p>
@@ -286,7 +298,8 @@
 	<s id="1">Oh ! cela est bien méchant.</s>
 </p>
 </sp>
-<sp stage="stop" who="COLETTE"><speaker>COLETTE, quittant brusquement son ouvrage.</speaker>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="stop">, quittant brusquement son ouvrage.
+</stage>
 <p id="14">
 	<s id="1">Allons, il y a longtemps que vous avez soupé, il faut se coucher ; partons.</s>
 </p>	
@@ -296,7 +309,8 @@
 	<s id="1">Laissez-les moi ce soir, Mademoiselle Colette ; je n'ai de plaisir qu'avec ces chers enfants.</s>
 </p>
 </sp>
-<sp who="COLETTE"><speaker>COLETTE, d'un ton d'humeur.</speaker>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage>, d'un ton d'humeur.
+</stage>
 <p id="16">
 	<s id="">Oui, pour les gâter : non, Monsieur, je ne peux pas ; ma maîtresse m'a recommandé expressément de les envoyer coucher aussitôt après leur souper.</s>
 </p>
@@ -313,8 +327,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Madame Monval, les précédent.</head>
-<sp stage="entrance/watch/dress" who="MADAME MONVAL"><speaker>MADAME MONVAL, entre sans regarder personne, elle est extrêmement parée.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Madame Monval, les précédent.
+</stage>
+<sp who="MADAME MONVAL"><speaker>MADAME MONVAL</speaker><stage type="entrance/watch/dress">, entre sans regarder personne, elle est extrêmement parée.
+</stage>
 <p id="1">
 	<s id="1">Mademoiselle Colette !</s>
 </p>
@@ -383,7 +399,8 @@
 <stage type="exit">Il sort, ainsi que Madame Monval, mais du côté opposé.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Colette, Lucette, Le petit Monval.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Colette, Lucette, Le petit Monval.
+</stage>
 <sp who="COLETTE"><speaker>COLETTE.</speaker>
 <p id="1">
 	<s id="1">Lucette, vous êtes la plus âgée, vous devez être la plus raisonnable ; ayez soin d'aller vous coucher tout de suite ainsi que votre frère.</s>
@@ -406,7 +423,8 @@
 <stage type="exit">Colette sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lucette, le petit Monval.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lucette, le petit Monval.
+</stage>
 <sp who="LUCETTE"><speaker>LUCETTE.</speaker>
 <p id="1">
 	<s id="1">Allons, Monval ; il faut aller nous coucher.</s>
@@ -447,7 +465,8 @@
 	<s id="1">Vas-y, toi.</s>
 </p>
 </sp>
-<sp stage="slow/location" who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL, allant doucement jus qu'à la porte.</speaker>
+<sp who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL</speaker><stage type="slow/location">, allant doucement jus qu'à la porte.
+</stage>
 <p id="8">
 	<s id="1">J'entends du bruit. </s>
 </p>
@@ -458,7 +477,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les précédents, le Père Thomas.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les précédents, le Père Thomas.
+</stage>
 <sp who="LE PÈRE THOMAS"><speaker>LE PÈRE THOMAS.</speaker>
 <p id="1">
 	<s id="1">Eh bien, mes enfants, vous n'avez donc pas envie de dormir ?</s>
@@ -474,7 +494,8 @@
 	<s id="1">Où est donc Mademoiselle Colette ; est-ce qu'elle est sortie ?</s>
 </p>
 </sp>
-<sp stage="mysterious" who="LUCETTE"><speaker>LUCETTE, d'un petit air mystérieux.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="mysterious">, d'un petit air mystérieux.
+</stage>
 <p id="6">
 	<s id="1">Chut, elle est allée avec son galant.</s>
 </p>
@@ -499,7 +520,8 @@
 	<s id="4">Allons, je suis des vôtres, je m'en vais mettre au jeu pour tous ; mais je vous avertis que je ne prétends rien au gain.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL, embrassant le père Thomas.</speaker>
+<sp who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL</speaker><stage type="kiss">, embrassant le père Thomas.
+</stage>
 <p id="10">
 	<s id="">Vous êtes bien bon, mon bon papa, je vous aime de tout mon coeur.</s>
 </p>
@@ -509,7 +531,8 @@
 	<s id="1">Et moi aussi, je vous assure.</s>
 </p>
 </sp>
-<sp stage="kiss" who="LE PÈRE THOMAS"><speaker>LE PÈRE THOMAS, les embrassant tous deux.</speaker>
+<sp who="LE PÈRE THOMAS"><speaker>LE PÈRE THOMAS</speaker><stage type="kiss">, les embrassant tous deux.
+</stage>
 <p id="12">
 	<s id="1">C'est bien, mes enfants, je vous proteste que je vous aime bien aussi. </s>
 	<s id="2">C'est à l'Oie que nous allons jouer ; ce jeu-là est innocent ; plut à Dieu que vous n'en connussiez jamais d'autres !</s>
@@ -537,12 +560,14 @@
 	<s id="5">- Moi, je prends mon dé.</s>
 </p>
 </sp>
-<sp who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL, d'un air chagrin.</speaker>
+<sp who="LE PETIT MONVAL"><speaker>LE PETIT MONVAL</speaker><stage>, d'un air chagrin.
+</stage>
 <p id="16">
 	<s id="1">Et moi donc, mon bon papa, dame, c'est que je vous aime autant que ma soeur, oui.</s>
 </p>
 </sp>
-<sp who="LE PÈRE THOMAS"><speaker>LE PÈRE THOMAS, attendri.</speaker>
+<sp who="LE PÈRE THOMAS"><speaker>LE PÈRE THOMAS</speaker><stage>, attendri.
+</stage>
 <p id="17">
 	<s id="1">Les charmants enfants ! </s>
 	<s id="2">Ah ! </s>
@@ -590,7 +615,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madame Monval, Alison, les précédents.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madame Monval, Alison, les précédents.
+</stage>
 <sp who="MADAME MONVAL"><speaker>MADAME MONVAL.</speaker>
 <p id="1">
 	<s id="1">Je n'ai pas mal fait de revenir sur mes pas. </s>
@@ -633,7 +659,8 @@
 <stage type="exit/together">Elle sort avec les deux enfants.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII et dernière. Madame Monval, Le Père Thomas</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII et dernière.</head><stage> Madame Monval, Le Père Thomas
+</stage>
 <sp who="MADAME MONVAL"><speaker>MADAME MONVAL.</speaker>
 <p id="1">
 	<s id="1">Mon père, je vous ai dit que j'attendais ce soir du monde, en conséquence je vous avais prié d'aller vous coucher.</s>

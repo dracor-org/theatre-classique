@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<structure>Un acte</structure>
 				<periode>1901-1910</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -27,21 +27,22 @@
 		<docTitle>
 			<titlePart type="main">LITTÉRATURE</titlePart>
 		</docTitle> 
-		<docDate value='1902'>1902. Tous droits réservés.</docDate>
+		<docDate value="1902">1902. Tous droits réservés.</docDate>
 		<docAuthor id="MIRBEAU, Octave">d'Octave Mirbeau</docAuthor>
 		<docImprint>
-			<editor id='OLLENDORF'>PARIS, LIBRAIRIE THÉÂTRALE, L MICHAUD, éditeur, 14 rue de Grammont, 14.</editor>			
+			<editor id="OLLENDORF">PARIS, LIBRAIRIE THÉÂTRALE, L MICHAUD, éditeur, 14 rue de Grammont, 14.</editor>			
 		</docImprint>
 	<castList><head>PERSONNAGE</head>
-		<castItem><role id="LE GRAND ÉCRIVAIN" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>LE GRAND ÉCRIVAIN</role>.</castItem> 
-		<castItem><role id="RENÉ DUMOULIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>RENÉ DUMOULIN</role>.</castItem> 
-		<castItem><role id="JOSEPH" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>JOSEPH</role>.</castItem> 
+		<castItem><role id="LE GRAND ÉCRIVAIN" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">LE GRAND ÉCRIVAIN</role>.</castItem> 
+		<castItem><role id="RENÉ DUMOULIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">RENÉ DUMOULIN</role>.</castItem> 
+		<castItem><role id="JOSEPH" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">JOSEPH</role>.</castItem> 
 	</castList>
-	<set location='Paris' country='France' periode='XXème' gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LITTÉRATURE</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le grand Écrivain, René Dumoulin, Joseph.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le grand Écrivain, René Dumoulin, Joseph.
+</stage>
 <stage type="lie/entrance">Le Grand Écrivain est encore couché et parcourt son courrier. Joseph, son valet de chambre, introduit René Dumoulin.</stage>
 <sp who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN.</speaker>
 <p id="1">
@@ -89,7 +90,8 @@
 </p>
 <stage type="away/get/back">Joseph va chercher la boîte de cigarettes.</stage>
 </sp>
-<sp stage="get" who="DUMOULIN"><speaker>DUMOULIN, prenant une cigarette.</speaker>
+<sp who="DUMOULIN"><speaker>DUMOULIN</speaker><stage type="get">, prenant une cigarette.
+</stage>
 <p id="ç9">
 	<s id="1">Mâtin !... </s>
 	<s id="2">Bout en or !... </s>
@@ -112,7 +114,8 @@
 	<s id="5">Quel tombeur !</s>
 </p>
 </sp>
-<sp stage="weak" who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN, mollement.</speaker>
+<sp who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN</speaker><stage type="weak">, mollement.
+</stage>
 <p id="12">
 	<s id="1">Mais non !... </s>
 	<s id="2">Mais non !... </s>
@@ -143,7 +146,8 @@
 	<s id="1">Comme tu voudras !...</s>
 </p>
 </sp>
-<sp stage="sit" who="DUMOULIN"><speaker>DUMOULIN, s'asseyant.</speaker>
+<sp who="DUMOULIN"><speaker>DUMOULIN</speaker><stage type="sit">, s'asseyant.
+</stage>
 <p id="17">
 	<s id="1">Alors, tu as mal à l'estomac ?</s>
 </p>
@@ -264,13 +268,15 @@
 	<s id="4">J'ai voulu te voir, ce matin... pour te voir seulement, mon vieux !...</s>
 </p>
 </sp>
-<sp stage="cold" who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN, très froid.</speaker>
+<sp who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN</speaker><stage type="cold">, très froid.
+</stage>
 <p id="45">
 	<s id="1">C'est très gentil à toi, mon cher René, de prendre ma défense... et je t'en remercie... </s>
 	<s id="2">Seulement tu aurais dû savoir – et à défaut de le savoir – tu aurais dû sentir qu'il n'y a rien que je déteste autant comme d'être mêlé... même indirectement à des histoires de duel...</s>
 </p>
 </sp>
-<sp stage="embarrased" who="DUMOULIN"><speaker>DUMOULIN, gêné.</speaker>
+<sp who="DUMOULIN"><speaker>DUMOULIN</speaker><stage type="embarrased">, gêné.
+</stage>
 <p id="46">
 	<s id="1">On t'attaquait... </s>
 	<s id="2">Je croyais...</s>
@@ -292,7 +298,8 @@
 	<s id="5">Je n'aime pas ça, du tout !...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="DUMOULIN"><speaker>DUMOULIN, piteux.</speaker>
+<sp who="DUMOULIN"><speaker>DUMOULIN</speaker><stage type="embarrassed">, piteux.
+</stage>
 <p id="49">
 	<s id="1">Alors... j'ai commis une gaffe ?</s>
 </p>
@@ -369,7 +376,8 @@
 	<s id="1">Que tu te maries ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN, ennuyé.</speaker>
+<sp who="LE GRAND ÉCRIVAIN"><speaker>LE GRAND ÉCRIVAIN</speaker><stage type="embarrassed">, ennuyé.
+</stage>
 <p id="62">
 	<s id="1">Mais non !... </s>
 	<s id="2">Il n'est pas question de cela... pour le moment !</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -45,12 +45,12 @@
 			<premiere date="1752-08-07" location="Foire Saint-Laurent">Représenté pour la première fois sur Théâtre de la Foire Saint-Laurent le 7 août 1752.</premiere>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="THOMAS" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>THOMAS</role>, Tuteur de Claudine et de Lucette et Amoureux de Claudine. M. PARENT.</castItem>
-		<castItem><role id="CLAUDINE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>CLAUDINE</role>, Amant de Lubin. Mlle. DEGLANDS.</castItem>
-		<castItem><role id="LUCETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>LUCETTE</role>, soeur de Claudine. Mlle. DESCHAMPS.</castItem>
-		<castItem><role id="LUBIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>LUBIN</role>, sous le nom de Pierrot, amant de cLaudine. M. DESCHAMPS.</castItem>
-		<castItem><role id="MONSIEUR DE BONSECOURS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR DE BONSECOURS</role>, Seigneur du Village voisin. M. PINOT.</castItem>
-		<castItem><role id="BLAISE" sex="1" type="H" statut="pécheur" age="A" stat_amour='néant'>BLAISE</role>, pécheur. M. DE L'ÉCLUSE.</castItem>
+		<castItem><role id="THOMAS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">THOMAS</role>, Tuteur de Claudine et de Lucette et Amoureux de Claudine. M. PARENT.</castItem>
+		<castItem><role id="CLAUDINE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">CLAUDINE</role>, Amant de Lubin. Mlle. DEGLANDS.</castItem>
+		<castItem><role id="LUCETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LUCETTE</role>, soeur de Claudine. Mlle. DESCHAMPS.</castItem>
+		<castItem><role id="LUBIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">LUBIN</role>, sous le nom de Pierrot, amant de cLaudine. M. DESCHAMPS.</castItem>
+		<castItem><role id="MONSIEUR DE BONSECOURS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR DE BONSECOURS</role>, Seigneur du Village voisin. M. PINOT.</castItem>
+		<castItem><role id="BLAISE" sex="1" type="H" statut="pécheur" age="A" stat_amour="néant">BLAISE</role>, pécheur. M. DE L'ÉCLUSE.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est dans un Village sur les bords de la Seine.</set>
 	</front>
@@ -80,8 +80,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Pierrot, Blaise portant un panier rempli de poisson.</head>
-<sp who="BLAISE"><speaker>BLAISE, sans voir Pierrot.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pierrot, Blaise portant un panier rempli de poisson.
+</stage>
+<sp who="BLAISE"><speaker>BLAISE</speaker><stage>, sans voir Pierrot.
+</stage>
 <stage type="title">AIR. Lon faridondaine guai.</stage>
 	<l id="13">Vive un bon luron,</l>
 	<l id="14">Que rien ne chagrine,</l>
@@ -91,7 +93,8 @@
 	<l id="18">Lon farira dondaine guay,</l>
 	<l id="19">Lon farira dondé.</l>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="20">C'est Blaise.</l>
 </sp>
 <sp stage="aparte" who="BLAISE"><speaker>BLAISE.</speaker>
@@ -104,7 +107,8 @@
 	<l id="26">Lon farira dondaine guay,</l>
 	<l id="27">Lon farira dondé.</l>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="28">Qu'il est heureux.</l>
 </sp>
 <sp stage="aparte" who="BLAISE"><speaker>BLAISE.</speaker>
@@ -117,7 +121,8 @@
 	<l id="34">Lon farira dondaine guay,</l>
 	<l id="35">Lon farira dondé.</l>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="36">J'admire sa gaieté.</l>
 </sp>
 <sp stage="aparte" who="BLAISE"><speaker>BLAISE.</speaker>
@@ -319,14 +324,16 @@
 	<s id="1">Crois que ma reconnaissance...</s>
 </p>
 </sp>
-<sp stage="away" who="BLAISE"><speaker>BLAISE, s'en allant.</speaker>
+<sp who="BLAISE"><speaker>BLAISE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="20">
 	<s id="1">Chantons lestamini, chantons lestamina, chantons lestamini, chantons lestamina.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="PIERROT"><speaker>PIERROT, seul.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Claudine ne se présente point à ma vue, le tuteur l'obsède sans doute.</s>
 </p>
@@ -356,15 +363,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lucette, Pierrot.</head>
-<sp who="LUCETTE"><speaker>LUCETTE, à part.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lucette, Pierrot.
+</stage>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, à part.
+</stage>
 <p id="1">
 	<s id="1">Ma soeur me parle de Pierrot avec une sorte de défiance, elle est rêveuse... </s>
 	<s id="2">Ce garçon a une certaine bonne mine qui dément son état, et je soupçonnerAis presque... </s>
 	<s id="3">Mais non, il est si bête !</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, d'un ton niais.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, d'un ton niais.
+</stage>
 <p id="2">
 	<s id="1">Ah, bonjour, Mademoiselle_Lucette ; où est donc Mademoiselle_Claudine votre soeur ?</s>
 </p>
@@ -375,17 +385,21 @@
 	<s id="2">Vous êtes bien curieux, qu'a est-ce que vous lui voulez ? </s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, tout lentement.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, tout lentement.
+</stage>
 <stage type="title">AIR. Je voudrais bien me marier.</stage>
 	<l id="121">Je voudrais bien lui dire un mot.</l>
 </sp>
-<sp stage="imitate" who="LUCETTE"><speaker>LUCETTE, le contrefaisant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="imitate">, le contrefaisant.
+	</stage>
 	<l id="122">Que pourriez-vous lui dire !</l>
 </sp>
-<sp stage="sigh" who="PIERROT"><speaker>PIERROT, soupirant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="sigh">, soupirant.
+	</stage>
 	<l id="123" syll="4" part="i">Je ne sais pas.</l>
 </sp>
-<sp stage="laugh" who="LUCETTE"><speaker>LUCETTE, riant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="123" syll="4" part="f">Ah, qu'il est sot.</l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -415,7 +429,8 @@
 	<l id="130">Je crois que vous pleurez.</l>
 	<l id="131">Allons gai, toujours gai.</l>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, naturellement.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, naturellement.
+</stage>
 <p id="5">
 	<s id="1">Aimable Lucette, loin de m'accabler, plaignez moi, je mérite toute votre pitié.</s>
 </p>
@@ -426,7 +441,8 @@
 	<s id="2">Voici du sérieux.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Qu'ai-je dit ?</s>
 </p>
@@ -437,7 +453,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE V. Claudine, Lucette, Pierrot.</head>
+<div2 type="scene" n=""><head>SCÈNE V.</head><stage> Claudine, Lucette, Pierrot.
+</stage>
 <sp who="LUCETTE"><speaker>LUCETTE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -543,7 +560,8 @@
 	<l id="165">Que pour plaire il faut paraître :</l>
 	<l id="166">Mais hélas je m'aperçois bien....</l>
 </sp>
-<sp stage="tender" who="CLAUDINE"><speaker>CLAUDINE, tendrement.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="tender">, tendrement.
+	</stage>
 	<l id="167">Allez, ne jurez de rien.</l>
 </sp>
 <sp who="LUCETTE"><speaker>LUCETTE.</speaker>
@@ -579,7 +597,8 @@
 	<l id="172">Oui, pour vous rendre en secret mon hommage,</l>
 	<l id="173">J'ai de bon coeur pris ce déguisement...</l>
 </sp>
-<sp stage="tender" who="CLAUDINE"><speaker>CLAUDINE, tendrement.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="tender">, tendrement.
+	</stage>
 	<l id="174" syll="4" part="i">Quoi, s'abaisser !</l>
 </sp>
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
@@ -601,7 +620,8 @@
 	<l id="178">Mais Lubin n'espérez rien ?</l>
 	<l id="179">Le Tuteur ce soir m'épouse.</l>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, malignement.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage>, malignement.
+</stage>
 <p id="16">
 	<s id="1">Ahi, ahi, ahi.</s>
 </p>
@@ -694,7 +714,8 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="PIERROT"><speaker>PIERROT, embarrassé.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="26">
 	<s id="1">Je dis que je ne m'attendais pas à tant de bonheur à la fois.</s>
 </p>
@@ -737,7 +758,8 @@
 	<s id="1">Mais, mais, il suffit ; pour vous apprendre à être plus galant, vous n'épouserez ni Mademoiselle ni moi.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PIERROT"><speaker>PIERROT, à part.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="30">
 	<s id="1">Quel petit diable !</s>
 </p>
@@ -788,7 +810,8 @@
 	<s id="1">À la bonne heure.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LUCETTE"><speaker>LUCETTE, à part.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="36">
 	<s id="1">Et Lubin me restera. </s>
 </p>
@@ -798,7 +821,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCENE VI. Thomas, Claudine, Lucette, Pierrot.</head>
+<div2 type="scene" n="6"><head>SCENE VI.</head><stage> Thomas, Claudine, Lucette, Pierrot.
+</stage>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
 <p id="1">
 	<s id="1">Bonjour, mes enfants. </s>
@@ -849,7 +873,8 @@
 	<s id="1">J'y consens volontiers.</s>
 </p>
 </sp>
-<sp stage="toward/loud" who="THOMAS"><speaker>THOMAS, à Lucette. Haut.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="toward/loud">, à Lucette. Haut.
+</stage>
 <p id="8">
 	<s id="1">Et vous distribuerez des bouquets et des rubans à chacun, entendez-vous ?</s>
 </p>
@@ -859,18 +884,21 @@
 	<s id="1">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLAUDINE"><speaker>CLAUDINE, à part.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Que je le déteste.</s>
 </p>
 </sp>
-<sp stage="toward/exit" who="LUCETTE"><speaker>LUCETTE, à Claudine et à Lubin en s'en allant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="toward/exit">, à Claudine et à Lubin en s'en allant.
+</stage>
 <p id="11">
 	<s id="1">Après la noce, après la noce.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Thomas, Claudine, Pierrot.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Thomas, Claudine, Pierrot.
+</stage>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
 <stage type="title">AIR. Zeste, zeste , zon, zon, zen.</stage>
 	<l id="240">Que dis-tu de mon mariage ?</l>
@@ -889,7 +917,8 @@
 	<s id="1">N'est-ce pas mon petit chou !</s>
 </p>
 </sp>
-<sp stage="emabarrased" who="CLAUDINE"><speaker>CLAUDINE, embarrassée.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="emabarrased">, embarrassée.
+</stage>
 <p id="1">
 	<s id="1">Monsieur...</s>
 </p>
@@ -899,7 +928,8 @@
 	<s id="1">Dis, dis, ne te gêne pas devant Pierrot ; tu sais que c'est un bon garçon qui n'entend pas malice, et dont nous sommes sûrs.</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, d'un ton niais.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, d'un ton niais.
+</stage>
 <stage type="title">AIR. Raisonnez ma Musette.</stage>
 	<l id="249">Mademoiselle, ô dame !</l>
 	<l id="250">Ça doit vous ravir l'âme</l>
@@ -971,7 +1001,8 @@
 	<s id="3">Tu charge un peu le portrait, ma petite reine ; mais va je t'en sais bon gré.</s>
 </p>
 </sp>
-<sp stage="niais" who="PIERROT"><speaker>PIERROT, toujours d'un ton niais.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="niais">, toujours d'un ton niais.
+</stage>
 <stage type="title">AIR. De la Palisse.</stage>
 	<l id="269">Monsieur, j'entends tout cela da !</l>
 </sp>
@@ -1024,7 +1055,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Claudine, Thomas.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Claudine, Thomas.
+</stage>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
 <stage type="title">AIR, Et non, non, non, je n'en veux pas davantage.</stage>
 	<l id="279">Tu dois être bien contente.</l>
@@ -1045,7 +1077,8 @@
 	<s id="1">Que ne suis-je sûre de la réussite !</s>
 </p>
 </sp>
-<sp stage="laugh" who="THOMAS"><speaker>THOMAS, riant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="laugh">, riant.
+</stage>
 <p id="2">
 	<s id="1">Ah, ah, ah, elle me fait rire, est-ce que cela peut manquer ?</s>
 </p>
@@ -1061,7 +1094,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Thomas, Claudine, Blaise.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Thomas, Claudine, Blaise.
+</stage>
 <sp who="BLAISE"><speaker>BLAISE.</speaker>
 <stage type="title">AIR. Oh reguingué.</stage>
 	<l id="287">Serviteur à Monsieur Thomas !</l>
@@ -1216,7 +1250,8 @@
 	<s id="1">Bonjour, mon ami.</s>
 </p>
 </sp>
-<sp stage="exit" who="BLAISE"><speaker>BLAISE, sortant.</speaker>
+<sp who="BLAISE"><speaker>BLAISE</speaker><stage type="exit">, sortant.
+	</stage>
 	<l id="311">Y allez-vous-en, gens de la noce,</l>
 	<l id="312">Y allez-vous-en chacun cheux vous.</l>
 </sp>
@@ -1232,7 +1267,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Thomas, Claudine, Pierrot.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Thomas, Claudine, Pierrot.
+</stage>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
 <p id="1">
 	<s id="1">Tiens, voilà Pierrot, tu vas être satisfaite.</s>
@@ -1243,7 +1279,8 @@
 	<s id="1">Je craignais qu'il ne m'eût oubliée.</s>
 </p>
 </sp>
-<sp stage="naif/drop" who="PIERROT"><speaker>PIERROT, toujours niais, après avoir posé l'échelle.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="naif/drop">, toujours niais, après avoir posé l'échelle.
+</stage>
 <stage type="title">AIR. Nous jouissons dans nos Hameaux.</stage>
 	<l id="314">Vous oublier, nenni vraiment,</l>
 	<l id="315">Je n'en ai point envie,</l>
@@ -1293,20 +1330,23 @@
 	<l id="334">Mon pied fera ta sûreté,</l>
 	<l id="335">Crainte que l'échelle ne glisse.</l>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, montant.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, montant.
+	</stage>
 	<l id="336">Point de malice.</l>
 </sp>
 <sp who="CLAUDINE"><speaker>CLAUDINE.</speaker>
 	<l id="337">Monsieur, en vérité,</l>
 	<l id="338">Vous avez bien de la bonté !</l>
 </sp>
-<sp stage="location" who="THOMAS"><speaker>THOMAS, au pied de l'échelle.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="location">, au pied de l'échelle.
+</stage>
 <p id="5">
 	<s id="1">Que veux-tu, il est peureux, il ne faut pas se moquer de sa simplicité. </s>
 	<s id="2">Un homme d'esprit plaint ceux qui n'en ont pas.</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, sur l'arbre.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, sur l'arbre.
+</stage>
 <p id="6">
 	<s id="1">Ah, ah, Monsieur ! </s>
 	<s id="2">Que faites-vous donc là ?</s>
@@ -1384,7 +1424,8 @@
 	<l id="354">Descend, descend,</l>
 	<l id="355">Et tu verras, pauvre innocent.</l>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, après être descendu se frotte les yeux.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage>, après être descendu se frotte les yeux.
+</stage>
 <p id="12">
 	<s id="1">Hé, non, vraiment, les voici.</s>
 </p>
@@ -1441,10 +1482,12 @@
 <sp who="PIERROT"><speaker>PIERROT.</speaker>
 	<l id="366">Tout sert nos voeux ; mais laissez-vous conduire.</l>
 </sp>
-<sp who="CLAUDINE"><speaker>CLAUDINE, lui donnant la main.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage>, lui donnant la main.
+	</stage>
 	<l id="367">Je mets mon sort dans les mains de l'amour.</l>
 </sp>
-<sp stage="location" who="THOMAS"><speaker>THOMAS, sur l'arbre.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="location">, sur l'arbre.
+</stage>
 <p id="17">
 	<s id="1">Il semblerait qu'il lui prend le bras.</s>
 </p>
@@ -1472,7 +1515,8 @@
 <sp who="CLAUDINE"><speaker>CLAUDINE.</speaker>
 	<l id="370" syll="2" part="i">Hélas !</l>
 </sp>
-<sp stage="kiss" who="PIERROT"><speaker>PIERROT, lui baisant la main.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="kiss">, lui baisant la main.
+	</stage>
 	<l id="370" syll="6" part="i">Aimons-nous sans contrainte.</l>
 </sp>
 <sp who="THOMAS"><speaker>THOMAS.</speaker>
@@ -1501,7 +1545,8 @@
 	<s id="1">Je n'ose.</s>
 </p>
 </sp>
-<sp stage="kneel" who="PIERROT"><speaker>PIERROT, se jetant à ses genoux.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="kneel">, se jetant à ses genoux.
+</stage>
 <p id="24">
 	<s id="1">Je vous en conjure.</s>
 </p>
@@ -1512,12 +1557,14 @@
 	<s id="2">Descendons.</s>
 </p>
 </sp>
-<sp stage="location" who="PIERROT"><speaker>PIERROT, pendant que Thomas descend passe de l'autre côté de l'arbre.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="location">, pendant que Thomas descend passe de l'autre côté de l'arbre.
+</stage>
 <p id="26">
 	<s id="1">Cruelle, nous sommes perdus !</s>
 </p>
 </sp>
-<sp stage="location" who="THOMAS"><speaker>THOMAS, descendant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="location">, descendant.
+</stage>
 <p id="27">
 	<s id="1">Cela ressemble si fort à la vérité.</s>
 </p>
@@ -1527,7 +1574,8 @@
 	<s id="">Que je suis sotte !</s>
 </p>
 </sp>
-<sp stage="down" who="THOMAS"><speaker>THOMAS, descendu.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="down">, descendu.
+</stage>
 <p id="29">
 	<s id="1">Ma foi non, ils sont fort tranquilles, les pauvres enfants. </s>
 </p>
@@ -1583,7 +1631,8 @@
 	<s id="2">C'est une découverte rare.</s>
 </p>
 </sp>
-<sp stage="happy" who="THOMAS"><speaker>THOMAS, content.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="happy">, content.
+</stage>
 <stage type="title">AIR. Un mouvement de curiosité.</stage>
 	<l id="381">Comme tu dis, la découverte est bonne,</l>
 	<l id="382">Cet arbre est une curiosité,</l>
@@ -1593,10 +1642,12 @@
 <sp stage="together" who="TOUS TROIS"><speaker>TOUS TROIS.</speaker>
 	<l id="385">Assurément la découverte est bonne.</l>
 </sp>
-<sp who="THOMAS"><speaker>THOMAS, remontant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage>, remontant.
+	</stage>
 	<l id="386">J'y monte encor par curiosité.</l>
 </sp>
-<sp stage="toward" who="PIERROT"><speaker>PIERROT, à Claudine.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="toward">, à Claudine.
+</stage>
 <p id="36">
 	<s id="1">Laisserons-nous encore échapper cette occasion ?</s>
 </p>
@@ -1609,7 +1660,8 @@
 	<l id="390">À mon tour je te préviens,</l>
 	<l id="391">Viens.</l>
 </sp>
-<sp stage="carry" who="PIERROT"><speaker>PIERROT, ôtant l'échelle.</speaker>
+<sp who="PIERROT"><speaker>PIERROT</speaker><stage type="carry">, ôtant l'échelle.
+	</stage>
 	<l id="392">Quel bonheur ! Hâtons-nous,</l>
 	<l id="393">Qu'il est doux.</l>
 	<l id="394">De tromper un jaloux !</l>
@@ -1619,7 +1671,8 @@
 	<s id="1">Ne croirait-on pas qu'ils ôtent l'échelle ! cela est original !</s>
 </p>
 </sp>
-<sp who="PIERROT, CLAUDINE"><speaker>PIERROT, CLAUDINE, s'en allant,</speaker>
+<sp who="PIERROT, CLAUDINE"><speaker>PIERROT, CLAUDINE</speaker><stage>, s'en allant,
+	</stage>
 	<l id="394">Suivons l'Amour,</l>
 	<l id="395">C'est lui qui nous guide en ce jour ;</l>
 	<l id="396">Loin des envieux, </l>
@@ -1629,7 +1682,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="THOMAS"><speaker>THOMAS, seul.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">On se donnerait au Diable qu'ils s'en vont. </s>
 	<s id="2">C'est plaisant ! </s>
@@ -1645,7 +1699,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Thomas, Lucette.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Thomas, Lucette.
+</stage>
 <sp who="LUCETTE"><speaker>LUCETTE.</speaker>
 <p id="1">
 	<s id="1">Comment ont-ils fait pour s'échapper ?</s>
@@ -1680,7 +1735,8 @@
 	<s id="3">Le charme s'étendrait-il ?...</s>
 </p>
 </sp>
-<sp stage="laugh" who="LUCETTE"><speaker>LUCETTE, riant.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="5">
 	<s id="1">Hé mais, Monsieur Thomas, vous radotez, ils sont prêts à revenir.</s>
 </p>
@@ -1691,7 +1747,8 @@
 	<l id="406">Ont passé la rivière ;</l>
 	<l id="407">Hé riez, riez donc.</l>
 </sp>
-<sp stage="anger" who="THOMAS"><speaker>THOMAS, en colère.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="anger">, en colère.
+</stage>
 <p id="6">
 	<s id="1">Ah petit serpent ! </s>
 	<s id="2">Fripon de Pierrot, effrontée Claudine ! </s>
@@ -1713,7 +1770,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Thomas, Lucette, Blaise.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Thomas, Lucette, Blaise.
+</stage>
 <sp who="BLAISE"><speaker>BLAISE.</speaker>
 	<l id="408">Hé puis ils s'en furent</l>
 	<l id="409">Dans une masure.</l>
@@ -1753,14 +1811,17 @@
 </p>
 <stage type="work">Il dresse l'échelle contre l'arbre.</stage>
 </sp>
-<sp stage="down" who="THOMAS"><speaker>THOMAS, descendant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="down">, descendant.
+</stage>
 <p id="5">
 	<s id="1">Oh, nous allons voir beau jeu.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV et DERNIÈRE. Monsieur de Bonsecours, Claudine, Lucette, Thomas, Pierrot, Blaise.</head>
-<sp who="CLAUDINE"><speaker>CLAUDINE, pendant que Thomas descend.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV et DERNIÈRE.</head><stage> Monsieur de Bonsecours, Claudine, Lucette, Thomas, Pierrot, Blaise.
+</stage>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage>, pendant que Thomas descend.
+</stage>
 <p id="1">
 	<s id="1">Je n'ose paraître devant lui.</s>
 </p>
@@ -1770,7 +1831,8 @@
 	<s id="1">Rassurez-vous, ma chère enfant, je prends tout sur moi.</s>
 </p>
 </sp>
-<sp stage="down/run" who="THOMAS"><speaker>THOMAS, descendu veut courir après Blaise.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="down/run">, descendu veut courir après Blaise.
+</stage>
 <p id="3">
 	<s id="1">Ah ! </s>
 	<s id="2">Scélérat....</s>
@@ -1781,7 +1843,8 @@
 	<s id="1">Tout doux, Monsieur Thomas.</s>
 </p>
 </sp>
-<sp stage="sad" who="THOMAS"><speaker>THOMAS, d'un air soumis.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="sad">, d'un air soumis.
+</stage>
 <p id="5">
 	<s id="1">Ah, Monsieur !</s>
 </p>
@@ -1857,12 +1920,14 @@
 	<s id="1">Je m'en charge.</s>
 </p>
 </sp>
-<sp stage="toward/exit" who="THOMAS"><speaker>THOMAS, à Lucette en s'en allant.</speaker>
+<sp who="THOMAS"><speaker>THOMAS</speaker><stage type="toward/exit">, à Lucette en s'en allant.
+</stage>
 <p id="10">
 	<s id="1">Toi, petite coquine, pour n'avoir été plus vigilante, tu payeras pour ta soeur dans quelques années.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCETTE"><speaker>LUCETTE, à Blaise.</speaker>
+<sp who="LUCETTE"><speaker>LUCETTE</speaker><stage type="toward">, à Blaise.
+</stage>
 <p id="11">
 	<s id="1">Monsieur_Blaise, je me recommande à vous, quand je serai plus grande.</s>
 </p>

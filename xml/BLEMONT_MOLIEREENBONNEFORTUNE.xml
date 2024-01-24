@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,30 +29,31 @@
 			<titlePart type="sub">COMÉDIE EN UN ACTE EN VERS</titlePart>
 			<titlePart type="sub">Publiée par la Revue de France pour l'inauguration du Monument de Molière à Pézenas.</titlePart>
 		</docTitle> 
-		<docDate value='1897'>M DCCC XCVIII</docDate>
-		<docAuthor id='BLÉMOND, Émile' bio='blemond'>EN COLLABORATION AVEC LÉON VALADE.</docAuthor>
+		<docDate value="1897">M DCCC XCVIII</docDate>
+		<docAuthor id="BLÉMOND, Émile" bio="blemond">EN COLLABORATION AVEC LÉON VALADE.</docAuthor>
 		<docImprint>
-			<printer id='MASSON'>PARIS, ALPHONSE LEMERRE, EDITEUR, 23-31 PASSAGE CHOISEUL, 23-31.</printer>
-			<printer id='stahl'>IMPRIMERIE DE STAHL.</printer>
+			<printer id="MASSON">PARIS, ALPHONSE LEMERRE, EDITEUR, 23-31 PASSAGE CHOISEUL, 23-31.</printer>
+			<printer id="stahl">IMPRIMERIE DE STAHL.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='' location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 		<castList><head>PERSONNAGES ACTEURS qui ont créé les rôles.</head>
-			<castItem><role id="MOLIÈRE" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>MOLIÈRE</role>.</castItem>
-			<castItem><role id="DASSOUCY" sex="1" type="H" statut='poète' age='A' stat_amour='néant'>DASSOUCY</role>.</castItem>
-			<castItem><role id="PIERROTIN" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>PIERROTIN</role>.</castItem>
-			<castItem><role id="LE BARON" sex="1" type="H" statut='baron' age='A' stat_amour='néant'>LE BARON</role>.</castItem>
-			<castItem><role id="LE DOCTEUR" sex="1" type="H" statut='docteur' age='A' stat_amour='néant'>LE DOCTEUR</role>.</castItem>
-			<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquise' age='A' stat_amour='néant'>LA MARQUISE</role>LA MARQUISE.</castItem>
-			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut='président' age='A' stat_amour='néant'>LA PRÉSIDENTE</role>.</castItem>
-			<castItem><role id="LANGOUMOIS" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>LANGOUMOIS</role>, valet de la marquise.</castItem>
+			<castItem><role id="MOLIÈRE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">MOLIÈRE</role>.</castItem>
+			<castItem><role id="DASSOUCY" sex="1" type="H" statut="poète" age="A" stat_amour="néant">DASSOUCY</role>.</castItem>
+			<castItem><role id="PIERROTIN" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">PIERROTIN</role>.</castItem>
+			<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour="néant">LE BARON</role>.</castItem>
+			<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
+			<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquise" age="A" stat_amour="néant">LA MARQUISE</role>LA MARQUISE.</castItem>
+			<castItem><role id="LA PRÉSIDENTE" sex="2" type="H" statut="président" age="A" stat_amour="néant">LA PRÉSIDENTE</role>.</castItem>
+			<castItem><role id="LANGOUMOIS" sex="1" type="H" statut="valet" age="A" stat_amour="néant">LANGOUMOIS</role>, valet de la marquise.</castItem>
 		</castList>
 	<set location="Château de Lavagnac" country="France" periode="XVIIème" gps="43.509168, 3.474737">La scène est à Lavagnac, dans le parc, devant le château de la Marquise. Mai 1656.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>MOLIÈRE EN BONNE FORTUNE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dassoucy, Pierrotin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dassoucy, Pierrotin.
+</stage>
 <stage type="narration">Dassoucy, poursuivant Pierrotin, descend du château dans le parc ; il court, embarrasse par son luth qu'il tient de la main gauche.</stage>
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 <note type="C">Coypeau d'Assoucy, Charles dit Dassoucy, (1605-1677) : poète burlesque et ami de Molière, de Scarron, de Cyrano de Bergerac.</note>
@@ -83,7 +84,8 @@
 	<l id="7" syll="4" part="f">Mon digne maître,</l>
 	<l id="8" syll="11" part="i">Vous allez, j'en ai peur, vous casser le nez.</l>
 </sp>
-<sp stage="fall/drop" who="DASSOUCY"><speaker>DASSOUCY, tombant et laissant rouler son luth.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="fall/drop">, tombant et laissant rouler son luth.
+	</stage>
 	<l id="8" syll="1" part="f">Traître !</l>
 	<l id="9" syll="6" part="i">Il me fera mourir.</l>
 </sp>
@@ -94,10 +96,12 @@
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 	<l id="10" syll="8" part="f">Au moins, relève-moi, bandit !</l>
 </sp>
-<sp stage="help/stand" who="PIERROTIN"><speaker>PIERROTIN, l'aidant à se relever.</speaker>
+<sp who="PIERROTIN"><speaker>PIERROTIN</speaker><stage type="help/stand">, l'aidant à se relever.
+	</stage>
 	<l id="11" syll="6" part="i">Souffrez-vous quelque part ?</l>
 </sp>
-<sp stage="pull" who="DASSOUCY"><speaker>DASSOUCY, saisissant Pierrotin.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="pull">, saisissant Pierrotin.
+	</stage>
 	<l id="11" syll="6" part="f">Je me porte à merveille ;</l>
 	<l id="12">Et je crois cette fois vous tenir par l'oreille,</l>
 	<l id="13" syll="6" part="i">Monsieur le galopin.</l>
@@ -113,15 +117,18 @@
 <stage id="entrance">Aux cris de Pierrotin, sortent du château la Marquise, la Présidente, le Baron, le Docteur et Langoumois.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, La Marquise, La Présidente Le Baron, Le Docteur, Langoumois, puis Molière.</head>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, à Dassoucy.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, La Marquise, La Présidente Le Baron, Le Docteur, Langoumois, puis Molière.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, à Dassoucy.
+	</stage>
 	<l id="15" syll="4" part="i">Pardonnez-lui.</l>
 </sp>
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 	<l id="15" syll="8" part="f">Non pas ! Tant pis pour lui s'il bouge,</l>
 	<l id="16" syll="6" part="i">Madame la Marquise !</l>
 </sp>
-<sp stage="push" who="PIERROTIN"><speaker>PIERROTIN, se débattant.</speaker>
+<sp who="PIERROTIN"><speaker>PIERROTIN</speaker><stage type="push">, se débattant.
+	</stage>
 	<l id="16" syll="2" part="m">À moi !</l>
 </sp>
 <sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE.</speaker>
@@ -137,13 +144,15 @@
 	<l id="17" syll="4" part="f">... Décourageants !</l>
 	<l id="18">On ne me prendra plus à relever les gens.</l>
 </sp>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à Dassoucy.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à Dassoucy.
+	</stage>
 	<l id="19">Voyons ! Il est à tout péché miséricorde.</l>
 </sp>
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 	<l id="20">Non, non ! mon cher docteur, il mérite la corde.</l>
 </sp>
-<sp stage="toward" who="LE BARON"><speaker>LE BARON, à Dassoucy.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à Dassoucy.
+	</stage>
 	<l id="21" syll="6" part="i">Quel crime a-t-il commis ?</l>
 </sp>
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
@@ -238,14 +247,16 @@
 	<l id="73">S'accouder en causant, porter une santé,</l>
 	<l id="74">Faire rubis sur l'ongle et rire en liberté ?</l>
 </sp>
-<sp stage="toward" who="DASSOUCY"><speaker>DASSOUCY, à la Marquise.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="toward">, à la Marquise.
+	</stage>
 	<l id="75">Il invente à plaisir ; je ne suis point capable</l>
 	<l id="76" syll="6" part="i">De tenir ce langage.</l>
 </sp>
 <sp who="PIERROTIN"><speaker>PIERROTIN.</speaker>
 	<l id="76" syll="3" part="m">On le sait !</l>
 </sp>
-<sp stage="closer" who="MOLIÈRE"><speaker>MOLIÈRE, s'approchant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="closer">, s'approchant.
+	</stage>
 	<l id="76" syll="6" part="f">Le coupable,</l>
 	<l id="77" syll="3" part="i">C'est donc moi !</l>
 </sp>
@@ -277,14 +288,17 @@
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 	<l id="86" syll="3" part="m">À table !</l>
 </sp>
-<sp stage="toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, au Baron.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="toward">, au Baron.
+	</stage>
 	<l id="86" syll="3" part="f">Non, restez !</l>
 	<l id="87" syll="8" part="i">Vous m'accompagnerez au parc.</l>
 <stage type="exit">Dassoucy, Pierrotin, le Docteur et Langoumois rentrent au château.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Marquise, La Présidente, Molière, Le Baron.</head>
-<sp stage="toward/closer" who="MOLIÈRE"><speaker>MOLIÈRE, au Baron, tandis que la Présidente prend la Marquise à part.</speaker> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Marquise, La Présidente, Molière, Le Baron.
+</stage>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward/closer">, au Baron, tandis que la Présidente prend la Marquise à part. 
+	</stage> 
 	<l id="87" syll="4" part="f">La Présidente</l>
 	<l id="88" syll="4" part="i">Vous tyrannise.</l>
 </sp>
@@ -309,7 +323,8 @@
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 	<l id="91" syll="6" part="i">Je l'aime éperdument.</l>
 </sp>
-<sp stage="show" who="MOLIÈRE"><speaker>MOLIÈRE, désignant la Présidente.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="show">, désignant la Présidente.
+	</stage>
 	<l id="91" syll="2" part="m">Elle ?</l>
 </sp>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
@@ -320,10 +335,12 @@
 	<l id="95">Lui dire un mot. Mais vous, qui lisez dans mon âme,</l>
 	<l id="96">Ne pourriez-vous pour moi lui parler de ma flamme ?</l>
 </sp>
-<sp stage="back/show" who="MOLIÈRE"><speaker>MOLIÈRE, voyant revenir la Marquise et la Présidente.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="back/show">, voyant revenir la Marquise et la Présidente.
+	</stage>
 	<l id="97" syll="1" part="i">Chut !</l>
 </sp>
-<sp stage="low/toward/show" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, bas, à la Marquise, en lui montrant le Baron.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="low/toward/show">, bas, à la Marquise, en lui montrant le Baron.
+	</stage>
 	<l id="97" syll="4" part="m">Il m'adore.</l>
 </sp>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
@@ -351,7 +368,8 @@
 <stage type="away/together">Elle s'éloigne avec le Baron.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Molière, La Marquise.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Molière, La Marquise.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="105">Vous n'avez pas pitié de cet amant transi ?</l>
 	<l id="106">La Présidente va l'attaquer sans merci.</l>
@@ -456,11 +474,13 @@
 	<l id="149" syll="6" part="f">On leur tend simplement</l>
 	<l id="150" syll="10" part="i">La main, quand il le faut, comme il le faut.</l>
 </sp>
-<sp stage="hugh" who="LA MARQUISE"><speaker>LA MARQUISE, lui tendant la main.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="hugh">, lui tendant la main.
+	</stage>
 	<l id="150" syll="2" part="f">Comment ?</l>
 	<l id="151" syll="6" part="i">Est-ce comme cela ?</l>
 </sp>
-<sp stage="kiss" who="MOLIÈRE"><speaker>MOLIÈRE, couvrant de baisers la main de la Marquise.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="kiss">, couvrant de baisers la main de la Marquise.
+	</stage>
 	<l id="151" syll="6" part="f">Quel rêve, quel délire !</l>
 	<l id="152">J'avais peur, je n'osais rien espérer, rien dire,</l>
 	<l id="153">Et ne vous parlant pas, je sentais chaque jour</l>
@@ -509,7 +529,8 @@
 	<l id="177" syll="1" part="f">Non !</l>
 	<l id="178">Je puis vous anoblir sous mon titre et mon nom.</l>
 </sp>
-<sp stage="aparte/happy" who="MOLIÈRE"><speaker>MOLIÈRE, à part, plaisamment.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="aparte/happy">, à part, plaisamment.
+	</stage>
 	<l id="179" syll="3" part="i">Marquis, moi !</l>
 </sp>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
@@ -533,7 +554,8 @@
 	<l id="186">Vous vivrez sans tracas, libre, calme, content,</l>
 	<l id="187" syll="6" part="i">Travaillant à loisir...</l>
 </sp>
-<sp stage="smile" who="MOLIÈRE"><speaker>MOLIÈRE, avec un sourire.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="smile">, avec un sourire.
+	</stage>
 	<l id="187" syll="6" part="f">Si cela vous amuse !</l>
 </sp>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
@@ -546,7 +568,8 @@
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="191">Vos vieux amis ! Je vois. C'est quelque fille d'Ève...</l>
 </sp>
-<sp stage="touch" who="MOLIÈRE"><speaker>MOLIÈRE, lui prenant la main.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="touch">, lui prenant la main.
+	</stage>
 	<l id="192">Non ! le passé me semble, auprès de vous, un rêve ;</l>
 	<l id="193">Et, le coeur éperdu, j'oublie à vos genoux</l>
 	<l id="194">L'univers tout entier. Aimons-nous, aimons-nous,</l>
@@ -566,7 +589,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="MOLIÈRE"><speaker>MOLIÈRE, seul.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="197" syll="4" part="f">Esprit, beauté,</l>
 	<l id="198">La marquise est divine... avec humanité !</l>
 	<l id="199">C'est un petit coeur d'or, sans ombre d'alliage,</l>
@@ -574,8 +598,10 @@
 <stage type="narration">Tandis que Molière reste pensif, Dassoucy, Pierrotin et le Docteur sortent bruyamment du château ; Pierrotin porte un flacon et un gobelet, boit à petits coups, fait claquer sa langue et se caresse l'estomac avec béatitude.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE VI. Molière, Dassoucy, Pierrotin, La Docteur.</head>
-<sp stage="sing" who="PIERROTIN"><speaker>PIERROTIN, chantant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE VI.</head><stage> Molière, Dassoucy, Pierrotin, La Docteur.
+</stage>
+<sp who="PIERROTIN"><speaker>PIERROTIN</speaker><stage type="sing">, chantant.
+</stage>
 <note type="C">Ce distique est attribué à Dassoucy.</note>
 <poem type="chanson">
 <lg n="1">
@@ -593,7 +619,8 @@
 	<l id="205">Semblent vibrer au son d'éclatantes fanfares</l>
 	<l id="206">Et brillent, tels qu'au bout d'un cap puissant deux phares.</l>
 </sp>
-<sp stage="toward" who="DASSOUCY"><speaker>DASSOUCY, au Docteur.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="toward">, au Docteur.
+	</stage>
 	<l id="207">Vous roulez là-dessous comme une barque en mer.</l>
 </sp>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
@@ -624,10 +651,12 @@
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
 	<l id="217" syll="2" part="f">Arrière !</l>
 </sp>
-<sp stage="toward/think" who="DASSOUCY"><speaker>DASSOUCY, à Molière, toujours songeur.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="toward/think">, à Molière, toujours songeur.
+	</stage>
 	<l id="218">Mais, par le diable ! À quoi pensez-vous donc, Molière !</l>
 </sp>
-<sp stage="stress" who="MOLIÈRE"><speaker>MOLIÈRE, gêné d'abord, puis avec décision.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="stress">, gêné d'abord, puis avec décision.
+	</stage>
 	<l id="219">Un conseil, mes amis ! Si je me mariais ?</l>
 <stage type="laugh">Dassoucy, le Docteur et Pierrotin éclatent de rire.</stage>
 </sp>
@@ -654,7 +683,8 @@
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 	<l id="225" syll="3" part="f">Au contraire !</l>
 </sp>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à Dassoucy.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à Dassoucy.
+	</stage>
 	<l id="226">Prenez garde, Monsieur ; le mot est téméraire.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -704,25 +734,29 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="241" syll="3" part="i">Elle est belle...</l>
 </sp>
-<sp stage="smile" who="DASSOUCY"><speaker>DASSOUCY, avec un sourire d'assentiment.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="smile">, avec un sourire d'assentiment.
+	</stage>
 	<l id="241" syll="1" part="m">Eh !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="241" syll="1" part="m">Riche...</l>
 </sp>
-<sp stage="estonish" who="DASSOUCY"><speaker>DASSOUCY, étonné.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="estonish">, étonné.
+	</stage>
 	<l id="241" syll="1" part="m">Ah !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="241" syll="1" part="m">Noble.</l>
 </sp>
-<sp stage="estonish" who="DASSOUCY"><speaker>DASSOUCY, stupéfait.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="estonish">, stupéfait.
+	</stage>
 	<l id="241" syll="5" part="f">Oh !... C'est quelque folle.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="242" syll="2" part="i">Mais non !</l>
 </sp>
-<sp stage="shake" who="DASSOUCY"><speaker>DASSOUCY, secouant la tête.</speaker>
+<sp who="DASSOUCY"><speaker>DASSOUCY</speaker><stage type="shake">, secouant la tête.
+	</stage>
 	<l id="242" syll="10" part="f">Prêtez l'oreille à cette parabole.</l>
 	<l id="243">Quand je quittai Paris pour aller à Turin,</l>
 	<l id="244">J'avais un âne, un âne appelé Mathurin,</l>
@@ -808,7 +842,8 @@
 	<l id="305" syll="6" part="i">Tel homme, tel conseil.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les mêmes, La Marquise, La Présidente, Le Baron.</head> 
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les mêmes, La Marquise, La Présidente, Le Baron. 
+</stage> 
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="305" syll="6" part="f">Est-ce qu'on nous oublie ?</l>
 	<l id="306" syll="3" part="i">Quels rires !</l>
@@ -816,7 +851,8 @@
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
 	<l id="306" syll="9" part="f">Pierrotin disait une folie.</l>
 </sp>
-<sp stage="low/toward" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, bas, à la Marquise.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="low/toward">, bas, à la Marquise.
+	</stage>
 	<l id="307" syll="8" part="i">Vous nous avez troublés, Marquise.</l>
 </sp>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
@@ -826,7 +862,8 @@
 	<l id="307" syll="1" part="f">Lui !</l>
 	<l id="308">C'est pour mieux revenir, Madame, s'il a fui.</l>
 </sp>
-<sp stage="low/toward" who="LE BARON"><speaker>LE BARON, bas, à Molière.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="low/toward">, bas, à Molière.
+	</stage>
 	<l id="309" syll="5" part="i">Avez-vous parlé ?</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -858,11 +895,13 @@
 	<l id="315">Si monsieur Pierrotin voulait bien nous chanter</l>
 	<l id="316" syll="9" part="i">L'air qu'aimait entre tous le feu roi ?</l>
 </sp>
-<sp stage="toward" who="PIERROTIN"><speaker>PIERROTIN, à la Présidente.</speaker>
+<sp who="PIERROTIN"><speaker>PIERROTIN</speaker><stage type="toward">, à la Présidente.
+	</stage>
 	<l id="316" syll="3" part="f">Souhaiter,</l>
 	<l id="317" syll="6" part="i">C'est ordonner, Madame.</l>
 </sp>
-<sp stage="toward" who="LE BARON"><speaker>LE BARON, à Dassoucy.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à Dassoucy.
+	</stage>
 	<l id="317" syll="6" part="f">Et son maître sans doute</l>
 	<l id="318" syll="5" part="i">L'accompagnera.</l>
 </sp>
@@ -878,12 +917,15 @@
 	<l id="320">A répété pour nous cet air l'autre matin.</l>
 	<l id="321">Et puis, je crains d'avoir un soupçon de migraine.</l>
 </sp>
-<sp stage="toward" who="LE BARON"><speaker>LE BARON, à la Présidente.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à la Présidente.
+	</stage>
 	<l id="322">Je vous offre la main. Venez, ma noble reine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Molière, La Marquise.</head>
-<sp stage="embarrassed" who="MOLIÈRE"><speaker>MOLIÈRE, embarrassé.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Molière, La Marquise.
+</stage>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="embarrassed">, embarrassé.
+	</stage>
 	<l id="323" syll="6" part="i">Je suis vraiment honteux...</l>
 </sp>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
@@ -1192,10 +1234,12 @@
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="475">Ce n'est pas le respect qui vous gêne beaucoup.</l>
 </sp>
-<sp stage="smile" who="MOLIÈRE"><speaker>MOLIÈRE, souriant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="476" syll="2" part="i">Mais si !</l>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant également.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant également.
+	</stage>
 	<l id="476" syll="4" part="m">L'impertinent !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1256,8 +1300,10 @@
 	<l id="496">Vous raillerez, je crois, jusqu'au dernier soupir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, Dassoucy, Pierrotin, Le Baron, Le Docteur, La Présidente, puis Langoumois.</head> 
-<sp stage="show" who="LE DOCTEUR"><speaker>LE DOCTEUR, montrant Pierrotin.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, Dassoucy, Pierrotin, Le Baron, Le Docteur, La Présidente, puis Langoumois. 
+</stage> 
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="show">, montrant Pierrotin.
+	</stage>
 	<l id="497" syll="6" part="i">Il est incorrigible.</l>
 </sp>
 <sp who="DASSOUCY"><speaker>DASSOUCY.</speaker>
@@ -1309,15 +1355,18 @@
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="517" syll="3" part="m">Nous verrons.</l>
 </sp>
-<sp stage="toward/aparte" who="PIERROTIN"><speaker>PIERROTIN, à la Présidente, à l'écart.</speaker>
+<sp who="PIERROTIN"><speaker>PIERROTIN</speaker><stage type="toward/aparte">, à la Présidente, à l'écart.
+	</stage>
 	<l id="517" syll="3" part="f">J'ai dans l'âme</l>
 	<l id="518" syll="6" part="i">Des trésors inconnus.</l>
 </sp>
-<sp stage="aparte" who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE, à part.</speaker>
+<sp who="LA PRÉSIDENTE"><speaker>LA PRÉSIDENTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="518" syll="6" part="f">Cher enfant ! Quelle flamme,</l>
 	<l id="519">Quel beau regard limpide et quel front radieux !</l>
 </sp>
-<sp stage="toward/low" who="MOLIÈRE"><speaker>MOLIÈRE, à la Marquise, après avoir écouté Langoumois qui est venu lui parler bas.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward/low">, à la Marquise, après avoir écouté Langoumois qui est venu lui parler bas.
+	</stage>
 	<l id="520">Madame, nous devons vous faire nos adieux.</l>
 	<l id="521">Nous n'avons que le temps de regagner la ville,</l>
 	<l id="522">Pour ne point retarder de façon incivile</l>
@@ -1339,7 +1388,8 @@
 	<l id="530">Et pour que cette main, si quelque folle larme</l>
 	<l id="531">Vient à mes yeux, l'essuie, hélas ! tout doucement !</l>
 </sp>
-<sp stage="quick/low" who="LA MARQUISE"><speaker>LA MARQUISE, vite et bas.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="quick/low">, vite et bas.
+	</stage>
 	<l id="532">Nous ne pouvons plus rien nous dire en ce moment ;</l>
 	<l id="533">Partez. Mais revenez ce soir. Oui, c'est facile ;</l>
 	<l id="534">Le château, par bonheur, n'est pas loin de la ville.</l>
@@ -1348,36 +1398,43 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="535" syll="3" part="m">Marquise !...</l>
 </sp>
-<sp stage="give" who="LA MARQUISE"><speaker>LA MARQUISE, lui glissant la clef dans la main.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="give">, lui glissant la clef dans la main.
+	</stage>
 	<l id="535" syll="3" part="f">Chut ! Tenez,</l>
 	<l id="536">Et prenez garde aux yeux qui vers nous sont tournés.</l>
 	<l id="537">Nous nous retrouverons au bout de la terrasse,</l>
 	<l id="538" syll="3" part="i">À minuit.</l>
 <stage type="exit">Elle rentre dans le château.</stage>
 </sp>
-<sp stage="closer" who="LE BARON"><speaker>LE BARON, allant à Molière.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="closer">, allant à Molière.
+	</stage>
 	<l id="538" syll="9" part="f">Permettez qu'enfin je vous embrasse !</l>
 	<l id="539" syll="6" part="i">Vous me sauvez la vie.</l>
 <stage type="kiss">Il veut l'embrasser.</stage>
 </sp>
-<sp stage="push" who="MOLIÈRE"><speaker>MOLIÈRE, se refusant à cette embrassade.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="push">, se refusant à cette embrassade.
+	</stage>
 	<l id="539" syll="4" part="m">Excusez-moi !</l>
 </sp>
-<sp stage="kiss" who="LE BARON"><speaker>LE BARON, revenant à la charge.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="kiss">, revenant à la charge.
+	</stage>
 	<l id="539" syll="2" part="f">Comment</l>
 	<l id="540">Vous prouver mon entier, mon parfait dévoument?</l>
 </sp>
-<sp stage="away" who="MOLIÈRE"><speaker>MOLIÈRE, se dégageant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="away">, se dégageant.
+	</stage>
 	<l id="541" syll="6" part="i">En ne m'étouffant pas.</l>
 </sp>
-<sp stage="entrance/location" who="LA MARQUISE"><speaker>LA MARQUISE, reparaissant an seuil du château.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="entrance/location">, reparaissant an seuil du château.
+	</stage>
 	<l id="541" syll="2" part="m">Adieu !</l>
 </sp>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 	<l id="541" syll="4" part="f">Je la devine ;</l>
 	<l id="542" syll="8" part="i">Elle couronnera ma flamme.</l>
 </sp>
-<sp stage="aparte/watch" who="MOLIÈRE"><speaker>MOLIÈRE, à part, regardant tour à tour la Marquise et la petite clef du parc.</speaker> 
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="aparte/watch">, à part, regardant tour à tour la Marquise et la petite clef du parc. 
+	</stage> 
 	<l id="542" syll="4" part="f">Elle est divine !</l>
 	<l id="543">Ô petite clef d'or du paradis vermeil,</l>
 	<l id="544">Que vous me tentez !... Bah ! la nuit porte conseil.</l>

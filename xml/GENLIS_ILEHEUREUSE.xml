@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,20 +28,20 @@
 			<titlePart type="main">L'ÎLE HEUREUSE</titlePart>
 			<titlePart type="sub">COMÉDIE EN DEUX ACTES</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="LUMINEUSE" sex="2" type="F" statut="fée" age='A' stat_amour='néant'>LA FÉE LUMINEUSE</role>.</castItem>
-			<castItem><role id="BIENFAISANTE" sex="2" type="F" statut="fée" age='A' stat_amour='néant'>LA FÉE BIENFAISANTE</role>, soeur de Lumineuse.</castItem>
-			<castItem><role id="ROSALIDE" sex="2" type="H" statut="prince" age='J' stat_amour='néant'>LA PRINCESSE ROSALIDE</role>, élève de Lumineuse.</castItem>
-			<castItem><role id="CLARINDE" sex="2" type="H" statut="prince" age='J' stat_amour='néant'>LA PRINCESSE CLARINDE</role>, élève de Bienfaisante.</castItem>
-			<castItem><role id="ZULMÉE" sex="2" type="H" statut="suivante" age='A' stat_amour='néant'>ZULMÉE</role>, suivante de Rosalide.</castItem>
+			<castItem><role id="LUMINEUSE" sex="2" type="F" statut="fée" age="A" stat_amour="néant">LA FÉE LUMINEUSE</role>.</castItem>
+			<castItem><role id="BIENFAISANTE" sex="2" type="F" statut="fée" age="A" stat_amour="néant">LA FÉE BIENFAISANTE</role>, soeur de Lumineuse.</castItem>
+			<castItem><role id="ROSALIDE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">LA PRINCESSE ROSALIDE</role>, élève de Lumineuse.</castItem>
+			<castItem><role id="CLARINDE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">LA PRINCESSE CLARINDE</role>, élève de Bienfaisante.</castItem>
+			<castItem><role id="ZULMÉE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">ZULMÉE</role>, suivante de Rosalide.</castItem>
 		</castList>
-		<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)">La scène est dans un palais.</set>
+		<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La scène est dans un palais.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
@@ -58,7 +58,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Rosalide, Zulmée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Rosalide, Zulmée.
+</stage>
 <sp who="ROSALIDE"><speaker>ROSALIDE.</speaker>
 <p id="1">
 	<s id="1">Enfin je puis me dérober à cette foule importune qui m'excède depuis deux heures... </s>
@@ -76,7 +77,8 @@
 	<s id="1">Oui ; la reine de l'île Heureuse sera proclamée ce soir à six heures...</s>
 </p>
 </sp>
-<sp stage="kiss/kneel" who="ZULMÉE"><speaker>ZULMÉE, baisant le bas de la robe de Rosalide.</speaker>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage type="kiss/kneel">, baisant le bas de la robe de Rosalide.
+</stage>
 <p id="4">
 	<s id="1">Que je sois la première à lui rendre mon hommage...</s>
 </p>
@@ -147,7 +149,8 @@
 	<s id="2">C'est bien naturel !...</s>
 </p>	
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Encore !... </s>
 	<s id="2">Ces fadeurs commencent à me fatiguer. </s>
@@ -168,7 +171,8 @@
 </p>
 <stage type="sleep/dream">Elle s'assied et devient rêveuse.</stage>
 </sp>
-<sp stage="closer" who="ZULMÉE"><speaker>ZULMÉE, se rapprochant doucement.</speaker>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage type="closer">, se rapprochant doucement.
+</stage>
 <p id="20">
 	<s id="1">Madame !...</s>
 </p>
@@ -228,12 +232,14 @@
 	<s id="3">C'est elle-même.</s>
 </p>
 </sp>
-<sp who="ROSALIDE"><speaker>ROSALIDE, s'avance vers la fée.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage>, s'avance vers la fée.
+</stage>
 <p id="31">
 	<s id="1">Zulmée, laissez-nous...</s>
 </p>
 </sp>
-<sp stage="aparte/away" who="ZULMÉE"><speaker>ZULMÉE, à part, en s'en allant.</speaker>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage type="aparte/away">, à part, en s'en allant.
+</stage>
 <p id="32">
 	<s id="1">Fasse le ciel que Rosalide soit reine ! </s>
 	<s id="2">Elle aime la flatterie, j'ai découvert son faible, et je suis sûre désormais de la gouverner à mon gré...</s>
@@ -241,7 +247,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Fée Lumineuse, Rosalide.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Fée Lumineuse, Rosalide.
+</stage>
 <sp who="LUMINEUSE"><speaker>LA FÉE.</speaker>
 <p id="1">
 	<s id="1">Qu'avez-vous, chère Rosalide ? </s>
@@ -310,12 +317,14 @@
 	<s id="1">Cependant j'ai beaucoup d'orgueil.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LUMINEUSE"><speaker>LA FÉE, en riant.</speaker>
+<sp who="LUMINEUSE"><speaker>LA FÉE</speaker><stage type="laugh">, en riant.
+</stage>
 <p id="13">
 	<s id="1">Mon enfant, soyez-en toujours. bien persuadée.</s>
 </p>
 </sp>
-<sp who="ROSALIDE"><speaker>ROSALIDE, vivement.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage>, vivement.
+</stage>
 <p id="14">
 	<s id="1">Je le répète, Madame, j'ai beaucoup d'orgueil : et l'avouerai-je, je ne trouve personne qui me soit préférable ; est-ce là de la modestie ?... </s>
 	<s id="2">Vous riez, vous croyez que j'exagère : non, je dis ce que je pense... </s>
@@ -428,7 +437,8 @@
 	<s id="1">Calmez-vous, mon enfant. La pauvre petite! elle en a les larmes aux yeux !</s>
 </p>
 </sp>
-<sp stage="laugh" who="ROSALIDE"><speaker>ROSALIDE, avec un rire forcé.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="laugh">, avec un rire forcé.
+</stage>
 <p id="34">
 	<s id="1">Moi, Madame ? </s>
 	<s id="2">Je n'éprouve aucun dépit, je vous l'assure... </s>
@@ -442,8 +452,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Fée, Rosalide, Zulmée.</head>
-<sp stage="toward" who="ZULMÉE"><speaker>ZULMÉE, à la fée.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Fée, Rosalide, Zulmée.
+</stage>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage type="toward">, à la fée.
+</stage>
 <p id="1">
 	<s id="1">Madame, les ambassadeurs du roi Zolphir viennent d'arriver, et demandent audience.</s>
 </p>
@@ -456,13 +468,15 @@
 <stage type="exit">Zulmée sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Bienfaisante, Rosalide, Clarinde, Lumineuse.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Bienfaisante, Rosalide, Clarinde, Lumineuse.
+</stage>
 <sp who="BIENFAISANTE"><speaker>BIENFAISANTE.</speaker>
 <p id="1">
 	<s id="1">Clarinde, allez embrasser Rosalide, et demandez-lui son amitié...</s>
 </p>
 </sp>
-<sp who="ROSALIDE"><speaker>ROSALIDE, s'avançânt.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage>, s'avançânt.
+</stage>
 <p id="2">
 	<s id="1">Puissiez-vous, chère Clarinde, la désirer aussi sincèrement qu'elle vous est accordée !...</s>
 </p>
@@ -472,7 +486,8 @@
 	<s id="1">Je vous promets les sentiments de la soeur la plus tendre, et mon coeur les attend de vous.</s>
 </p>
 </sp>
-<sp who="LUMINEUSE"><speaker>LUMINEUSE, à Bienfaisante.</speaker>
+<sp who="LUMINEUSE"><speaker>LUMINEUSE</speaker><stage>, à Bienfaisante.
+</stage>
 <p id="4">
 	<s id="1">Je crois qu'elles seront charmées de s'entretenir sans témoins ; permettez-vous qu'elles aillent ensemble dans mon cabinet ?...</s>
 </p>
@@ -484,8 +499,10 @@
 <stage type="exit/together/contempt">Les jeunes princesses se prennent le bras, et sortent. Rosalide, en passant devant Bienfaisante, lui fait une révérence dédaigneuse.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les deux fées.</head>
-<sp who="BIENFAISANTE"><speaker>BIENFAISANTE, en regardant sortir Rosalide.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les deux fées.
+</stage>
+<sp who="BIENFAISANTE"><speaker>BIENFAISANTE</speaker><stage>, en regardant sortir Rosalide.
+</stage>
 <p id="1">
 	<s id="1">En ma qualité de fée, je possède l'art de lire dans les yeux, et d'y deviner à peu près la pensée : et bien j'ai vu dans ceux de Rosalide un violent dépit contre moi ; quelle en peut être la cause ?...</s>
 </p>
@@ -599,8 +616,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Lumineuse, Bienfaisante, Zulmée.</head>
-<sp who="ZULMÉE"><speaker>ZULMÉE, donnant une lettre à Bienfaisante.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Lumineuse, Bienfaisante, Zulmée.
+</stage>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage>, donnant une lettre à Bienfaisante.
+</stage>
 <p id="1">
 	<s id="1">Madame, on avait porté cette lettre chez vous, et l'on m'a chargée de vous la remettre ; les ambassadeurs espéraient vous la présenter eux-mêmes de la part du roi leur maître, mais comme ils ont appris que vous ne les verrez que ce soir...</s>
 </p>
@@ -617,7 +636,8 @@
 	<s id="2">Peut-on savoir au moins ce qu'elle contient ?...</s>
 </p>
 </sp>
-<sp who="BIENFAISANTE"><speaker>BIENFAISANTE, après avoir lu.</speaker>
+<sp who="BIENFAISANTE"><speaker>BIENFAISANTE</speaker><stage>, après avoir lu.
+</stage>
 <p id="3">
 	<s id="1">Rien d'intéressant ; permettez-moi de ne vous en point faire part...</s>
 </p>
@@ -654,7 +674,8 @@
 </p>
 <stage type="give">Elle lui donne la lettre.</stage>
 </sp>
-<sp stage="read/loud" who="LUMINEUSE"><speaker>LUMINEUSE, lit tout haut.</speaker>
+<sp who="LUMINEUSE"><speaker>LUMINEUSE</speaker><stage type="read/loud">, lit tout haut.
+</stage>
 <p id="9">
 	<s id="1">« Sage fée, lorsque vous recevrez cette lettre, la reine de l'île Heureuse sera élue ; d'après le portrait que mes ambassadeurs m'ont fait de l'incomparable Clarinde, et tout ce que la renommée publie de sa bienfaisance, de ses rares vertus, de l'enthousiasme de sa nation pour elle, je ne doute pas qu'elle ne soit aujourd'hui placée sur un trône dont elle est si digne. </s>
 	<s id="2">Recevez donc, grande fée, l'assurance de la joie sincère que me cause cet événement, et daignez faire savoir à la nouvelle reine qu'elle n'aura jamais d'ami et d'allié plus fidèle que le roi ZOLPHIR. »</s>
@@ -696,7 +717,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VIII. Rosalide, Clarinde.</head>
+<div2 type="scene" n="7"><head>SCÈNE VIII.</head><stage> Rosalide, Clarinde.
+</stage>
 <sp who="ROSALIDE"><speaker>ROSALIDE.</speaker>
 <p id="1">
 	<s id="1">Quelque instruction !... </s>
@@ -749,7 +771,8 @@
 	<s id="1">C'est cela...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Je crois en effet qu'elle a raison pour elle.</s>
 </p>
@@ -776,7 +799,8 @@
 	<s id="2">Je ne connais pas cela...</s>
 </p>
 </sp>
-<sp stage="wave/aparte" who="ROSALIDE"><speaker>ROSALIDE, haussant les épaules, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="wave/aparte">, haussant les épaules, à part.
+</stage>
 <p id="16">
 	<s id="1">Elle ne sait rien. </s>
 	<s id="2">Qu'elle est mal élevée !...</s>
@@ -792,7 +816,8 @@
 	<s id="2">Elle a donné tous les soins imaginables à mon instruction...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="19">
 	<s id="1">Il y paraît. </s>
 </p>
@@ -817,7 +842,8 @@
 	<s id="2">Point du tout ; je ne sais rien parfaitement.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">Elle est modeste du moins... </s>
 	<s id="2">Comme elle a l'air doux ! </s>
@@ -832,7 +858,8 @@
 	<s id="1">Je ne sais.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Elle a une certaine timidité qui a beaucoup de grâce... </s>
 </p>
@@ -888,7 +915,8 @@
 	<s id="1">Cela me divertira sûrement beaucoup...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Qu'elle est simple !... </s>
 </p>
@@ -1051,7 +1079,8 @@
 	<s id="1">J'aime encore la compagne, l'amie que Bienfaisante m'a donnée, Zémire ; elle est pour moi ce que Zulmée est pour vous.</s>
 </p>
 </sp>
-<sp stage="emabrrassed" who="ROSALIDE"><speaker>ROSALIDE, avec embarras.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="emabrrassed">, avec embarras.
+</stage>
 <p id="69">
 	<s id="1">Zulmée n'est à moi que depuis deux jours.</s>
 </p>
@@ -1074,7 +1103,8 @@
 	<s id="2">Je vous ai fâchée sans le vouloir...</s>
 </p>
 </sp>
-<sp stage="shy" who="ROSALIDE"><speaker>ROSALIDE, tristement.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="shy">, tristement.
+</stage>
 <p id="73">
 	<s id="1">Vous méritez d'être aimée, Clarinde ; je ne suis plus surprise que depuis votre enfance vous ayez conservé votre amie ; pour moi, je n'en ai point.</s>
 </p>
@@ -1084,7 +1114,8 @@
 	<s id="1">Je serai la vôtre, ma chère Rosalide...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="75">
 	<s id="1">Que vous êtes bonne ! </s>
 </p>
@@ -1113,8 +1144,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Rosalide, Clarinde, Zulmée.</head>
-<sp who="ZULMÉE"><speaker>ZULMÉE, à Rosalide.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Rosalide, Clarinde, Zulmée.
+</stage>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage>, à Rosalide.
+</stage>
 <p id="1">
 	<s id="1">Madame, la fée vous attend.</s>
 </p>
@@ -1133,7 +1166,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Lumineuse, Rosalide.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Lumineuse, Rosalide.
+</stage>
 <sp who="LUMINEUSE"><speaker>LUMINEUSE.</speaker>
 <p id="1">
 	<s id="1">Jugez de ma surprise en lisant cette lettre !</s>
@@ -1215,7 +1249,8 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="ROSALIDE"><speaker>ROSALIDE, seule.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage>, seule.
+</stage>
 <p id="16">
 	<s id="1">Je ne sais pourquoi... </s>
 	<s id="2">J'éprouve une vague inquiétude... </s>
@@ -1224,15 +1259,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Zulmée, Rosalide.</head>
-<sp who="ZULMÉE"><speaker>ZULMÉE, accourant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Zulmée, Rosalide.
+</stage>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage>, accourant.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, quel spectacle plus beau, plus majestueux !... </s>
 	<s id="3">Des vieillards, des princes, des rois, réunis en foule dans la galerie où doit se faire le couronnement !...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Plus le moment approche, plus je me sens troublée.</s>
 </p>
@@ -1307,7 +1345,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Rosalide, Zulmée, Bienfaisante, Lumineuse, Clarinde.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Rosalide, Zulmée, Bienfaisante, Lumineuse, Clarinde.
+</stage>
 <stage type="dress">Les deux fées portent une couronne enrichie de diamants.</stage>
 <sp who="BIENFAISANTE"><speaker>BIENFAISANTE.</speaker>
 <p id="1">
@@ -1319,7 +1358,8 @@
 	<s id="1">Rosalide, si c'est vous que le sort appelle au trône, je jure par l'amitié qui m'unit à ma soeur, de vous chérir, de vous protéger à jamais, et de n'employer le pouvoir de mon art que pour votre gloire et le bonheur de vos États.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSALIDE"><speaker>ROSALIDE, à part.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Hélas ! </s>
 	<s id="2">Tout ce que j'entends aujourd'hui ne doit donc servir qu'à me confondre !...</s>
@@ -1336,7 +1376,8 @@
 	<s id="2">Rosalide et Clarinde, on vous attend, allez...</s>
 </p>
 </sp>
-<sp stage="toward" who="CLARINDE"><speaker>CLARINDE, à Bienfaisante.</speaker>
+<sp who="CLARINDE"><speaker>CLARINDE</speaker><stage type="toward">, à Bienfaisante.
+</stage>
 <p id="6">
 	<s id="1">Quoi ! </s>
 	<s id="2">Sans vous ?...</s>
@@ -1353,7 +1394,8 @@
 	<s id="1">Venez, chère Rosalide, et n'oubliez pas les promesses que j'ai reçues de vous.</s>
 </p>
 </sp>
-<sp stage="touch" who="ROSALIDE"><speaker>ROSALIDE, en lui donnant le bras.</speaker>
+<sp who="ROSALIDE"><speaker>ROSALIDE</speaker><stage type="touch">, en lui donnant le bras.
+</stage>
 <p id="9">
 	<s id="1">Si le sort et les fées ne me forçaient à vous disputer le trône, qu'il me serait doux de le céder à vos vertus !...</s>
 </p>
@@ -1379,8 +1421,10 @@
 <stage type="exit/together">Elles sortent ; Zulmée les suit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Bienfaisante, Lumineuse.</head>
-<sp who="BIENFAISANTE"><speaker>BIENFAISANTE, après un moment de silence pendant lequel elle a considéré sa soeur qui rêve profondément.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Bienfaisante, Lumineuse.
+</stage>
+<sp who="BIENFAISANTE"><speaker>BIENFAISANTE</speaker><stage>, après un moment de silence pendant lequel elle a considéré sa soeur qui rêve profondément.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, ma soeur ?...</s>
 </p>
@@ -1447,7 +1491,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lumineuse, Bienfaisante, Zulmée.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lumineuse, Bienfaisante, Zulmée.
+</stage>
 <sp who="LUMINEUSE"><speaker>LUMINEUSE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Zulmée, la Reine est-elle nommée ?</s>
@@ -1463,7 +1508,8 @@
 	<s id="1">Que s'est-il passé?... Parlez.</s>
 </p>
 </sp>
-<sp stage="toward" who="ZULMÉE"><speaker>ZULMÉE, à Lumineuse.</speaker>
+<sp who="ZULMÉE"><speaker>ZULMÉE</speaker><stage type="toward">, à Lumineuse.
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, comment vous peindre le succès de la princesse Rosalide, l'effet prodigieux produit par son discours ! </s>
@@ -1480,7 +1526,8 @@
 <stage type="exit">Zulmée sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Lumineuse, Bienfaisante.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Lumineuse, Bienfaisante.
+</stage>
 <sp who="BIENFAISANTE"><speaker>BIENFAISANTE.</speaker>
 <p id="1">
 	<s id="1">Ne vous contraignez point, ma soeur ; laissez éclater votre joie.</s>
@@ -1550,7 +1597,8 @@
 <stage type="open/entrance/follow">Les portes s'ouvrent. Clarinde et Rosalide paraissent ; Zulmée les suit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII. Lumineuse, Rosalide, Clarinde, Bienfaisante.</head>
+<div2 type="scene" n="7"><head>SCENE VII.</head><stage> Lumineuse, Rosalide, Clarinde, Bienfaisante.
+</stage>
 <sp who="LUMINEUSE"><speaker>LUMINEUSE.</speaker>
 <p id="1">
 	<s id="1">Rosalide !...</s>

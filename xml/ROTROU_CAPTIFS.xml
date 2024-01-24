@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart type="sub">COMÉDIE</titlePart>
 	</docTitle>
 	<docDate value="1640">M. CD. XL. Avec Privilège du Roi.</docDate>
-		<docAuthor id="ROTROU, Jean" bio='rotrou'>Par le Sieur ROTROU.</docAuthor>
+		<docAuthor id="ROTROU, Jean" bio="rotrou">Par le Sieur ROTROU.</docAuthor>
 	<docImprint>
 	<privilege id="1634-07-03"><head>Extrait du Privilège du Roi.</head>
 		<p>Par Grâce et Privilège du Roi, donné à Paris le huitième jour de Février mille six cent trente-neuf. Signé, Par le Roi en son Conseil, DE MONÇEAUX. Il est permis à Antoine de Sommaville Marchand Libraire à Paris, d'imprimer ou faire imprimer une Pièce de Théâtre, intitulée Les Captifs, Comédie, de Mr de Rotrou ; Et défenses sont faites à tous Imprimeurs, Libraires, et autres, de contrefaire ladite Pièce, à peine de mille livres d'amende, ni en vendre de contrefaite durant le temps de cinq ans, sinon du consentement dudit Exposant, ainsi qu'il est plus amplement porté par les Lettres de Privilège ci-dessus datées.</p>
@@ -40,25 +40,26 @@
 	</docImprint>
 
 <castList><head>ACTEURS</head>
-	<castItem><role id="HAEGÉE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>HAEGÉE</role>, Seigneur en AEtolie.</castItem>
-	<castItem><role id="PHILOCRATE" sex="1" type="H" statut='esclave' age='A' stat_amour='néant'>PHILOCRATE</role>, Gentilhomme d'Élide esclave.</castItem>
-	<castItem><role id="ÉRIMAND" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>ÉRIMAND</role>, Frère d'Haegée.</castItem>
-	<castItem><role id="TYNDARE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>TYNDARE</role>, Fils d'Haegée et son esclave.</castItem>
-	<castItem><role id="CRISOPHORE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>CRISOPHORE</role>, Second fils d'Haegée.</castItem>
-	<castItem><role id="PHILÉNIE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>PHILÉNIE</role>, Maîtresse de Tyndare.</castItem>
-	<castItem><role id="OLYMPIE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>OLYMPIE</role>, Fille d'Haegée.</castItem>
-	<castItem><role id="CRISIMANT" sex="1" type="H" statut='esclave' age='A' stat_amour='néant'>CRISIMANT</role>, Gentilhomme d'Élide esclave.</castItem>
-	<castItem><role id="PSEUDOLE" sex="1" type="H" statut='geôlier' age='A' stat_amour='néant'>PSEUDOLE</role>, Geôlier.</castItem>
-	<castItem><role id="CÉLIE" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>CÉLIE</role>, Servante d'Haegée.</castItem>
-	<castItem><role id="ERGAZILE" sex="1" type="H" statut='parasite' age='A' stat_amour='néant'>ERGAZILE</role>, Parasite.</castItem>
-	<castItem><role id="STALAGME" sex="1" type="H" statut='esclave' age='V' stat_amour='néant'>STALAGME</role>, Vieil Esclave.</castItem>
-	<castItem><role id="VALETS" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>AUTRES VALETS</role>.</castItem>
+	<castItem><role id="HAEGÉE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">HAEGÉE</role>, Seigneur en AEtolie.</castItem>
+	<castItem><role id="PHILOCRATE" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">PHILOCRATE</role>, Gentilhomme d'Élide esclave.</castItem>
+	<castItem><role id="ÉRIMAND" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉRIMAND</role>, Frère d'Haegée.</castItem>
+	<castItem><role id="TYNDARE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">TYNDARE</role>, Fils d'Haegée et son esclave.</castItem>
+	<castItem><role id="CRISOPHORE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">CRISOPHORE</role>, Second fils d'Haegée.</castItem>
+	<castItem><role id="PHILÉNIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">PHILÉNIE</role>, Maîtresse de Tyndare.</castItem>
+	<castItem><role id="OLYMPIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">OLYMPIE</role>, Fille d'Haegée.</castItem>
+	<castItem><role id="CRISIMANT" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">CRISIMANT</role>, Gentilhomme d'Élide esclave.</castItem>
+	<castItem><role id="PSEUDOLE" sex="1" type="H" statut="geôlier" age="A" stat_amour="néant">PSEUDOLE</role>, Geôlier.</castItem>
+	<castItem><role id="CÉLIE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">CÉLIE</role>, Servante d'Haegée.</castItem>
+	<castItem><role id="ERGAZILE" sex="1" type="H" statut="parasite" age="A" stat_amour="néant">ERGAZILE</role>, Parasite.</castItem>
+	<castItem><role id="STALAGME" sex="1" type="H" statut="esclave" age="V" stat_amour="néant">STALAGME</role>, Vieil Esclave.</castItem>
+	<castItem><role id="VALETS" sex="1" type="H" statut="valet" age="A" stat_amour="néant">AUTRES VALETS</role>.</castItem>
 </castList>
 <set location="Aetolie" country="Grèce" periode="XVIIème" gps="">La scène [est] en AEtolie.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Olympie, Philénie.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Olympie, Philénie.
+</stage>
 <sp who="OLYMPIE"><speaker>OLYMPIE.</speaker>
 	<l id="1">Si vous pouviez ma soeur par ce profond silence,</l>
 	<l id="2">Faire de votre mal savoir la violence,</l>
@@ -179,7 +180,8 @@
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="77" syll="2" part="f">Je n'ose.</l>
 </sp>
-<sp stage="get/show" who="OLYMPIE"><speaker>OLYMPIE, tenant une lettre.</speaker>
+<sp who="OLYMPIE"><speaker>OLYMPIE</speaker><stage type="get/show">, tenant une lettre.
+	</stage>
 	<l id="78">Voyons si ce papier, en dira quelque chose,</l>
 </sp>
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
@@ -188,7 +190,8 @@
 <sp who="OLYMPIE"><speaker>OLYMPIE.</speaker>
 	<l id="79" syll="7" part="f">Écoutez, à Philocrate, </l>
 </sp>
-<sp stage="get" who="PHILÉNIE"><speaker>PHILÉNIE, le prenant.</speaker>
+<sp who="PHILÉNIE"><speaker>PHILÉNIE</speaker><stage type="get">, le prenant.
+	</stage>
 	<l id="79" syll="2" part="f">Ô Dieux !</l>
 	<l id="80">Tu ne saurais ma main désavouer mes yeux,</l>
 	<l id="81">Cette lettre il est vrai, lui portait ma franchise :</l>
@@ -302,7 +305,8 @@
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="154">Je pèse le mérite et non pas la fortune,</l>
 </sp>
-<sp stage="exit" who="OLYMPIE"><speaker>OLYMPIE s'en allant.</speaker>
+<sp who="OLYMPIE"><speaker>OLYMPIE</speaker><stage type="exit"> s'en allant.
+	</stage>
 	<l id="155">Je vous laisse écouter le temps et la raison,</l>
 </sp>
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
@@ -312,7 +316,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ergazile, Parasite.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ergazile, Parasite.
+</stage>
 <sp who="ERGAZILE"><speaker>ERGAZILE.</speaker>
 	<l id="159">Ce squelette animé, cette larve au teint blême,</l>
 	<l id="160">Incompatible à tous, incommode à soi-même,</l>
@@ -368,7 +373,8 @@
 	<l id="210">Et l'air de la cuisine est venu jusqu'à moi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Haegée, Pseudole, autre Geôlier, Ergazile.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Haegée, Pseudole, autre Geôlier, Ergazile.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="211">Pseudole encor un coup va tôt où je t'envoie,</l>
 	<l id="212">Vers ces deux qu'avant hier j'achetai de la proie, </l>
@@ -393,7 +399,8 @@
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="228">C'est assez discourir, fais ce que je t'ordonne.</l>
 </sp>
-<sp stage="aparte" who="ERGAZILE"><speaker>ERGAZILE, à part.</speaker>
+<sp who="ERGAZILE"><speaker>ERGAZILE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="229">La liberté sans doute, a de puissants appas,</l>
 	<l id="230">Mais tout cela n'est rien, au prix d'un bon repas ;</l>
 	<l id="231">Pour moi je donnerais ma franchise affamée</l>
@@ -533,7 +540,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Célie, Pseudole.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Célie, Pseudole.
+</stage>
 <sp who="CÉLIE"><speaker>CÉLIE.</speaker>
 	<l id="319">Pseudole éloignons-nous, et crois que Philénie,</l>
 	<l id="320">Doit à ta complaisance une amour infinie,</l>
@@ -621,7 +629,8 @@
 	<l id="382" syll="6" part="f">Jusqu'au revoir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Philénie, Pseudole, Célie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Philénie, Pseudole, Célie.
+</stage>
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="383">Je ne puis que t'offrir et la reconnaissance,</l>
 	<l id="384">De cette courtoisie, excède ma puissance,</l>
@@ -632,7 +641,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Philénie, Célie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Philénie, Célie.
+</stage>
 <sp who="CÉLIE"><speaker>CÉLIE.</speaker>
 	<l id="387" syll="6" part="i">Et bien cet entretien ?</l>
 </sp>
@@ -708,7 +718,8 @@
 <stage type="exit">Elles sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Philocrate, Tyndare, Pseudole, Un autre</head> Geôlier.
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Philocrate, Tyndare, Pseudole, Un autre Geôlier.
+</stage> Geôlier.
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
 	<l id="451">Contre un grand accident montrez un grand courage,</l>
 	<l id="452">Et puisqu'il plaît aux dieux souffrez votre servage,</l>
@@ -772,7 +783,8 @@
 <stage type="toward">Il sort avec l'autre geôlier.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Philocrate, Tyndare.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Philocrate, Tyndare.
+</stage>
 <sp who="PHILOCRATE"><speaker>PHILOCRATE.</speaker>
 	<l id="480">Ménageons bien le temps, Tyndare, approche, écoute,</l>
 	<l id="481">Conduisons jusqu'au bout cette fourbe avec soin,</l>
@@ -862,14 +874,17 @@
 	<l id="542">Mon coeur, après mon corps, devait être arrêté.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Pseudole, Philocrate, Tyndare, L'autre</head> Geôlier.
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Pseudole, Philocrate, Tyndare, L'autre Geôlier.
+</stage> Geôlier.
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
 	<l id="543">Allons ce temps suffit leur conférence est faite,</l>
 	<l id="544">Et l'heure du dîner convie à la retraite.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Haegée, Philocrate, Tyndare, Pseudole, autre Geôlier.</head>
-<sp stgage="exit" who="HAEGÉE"><speaker>HAEGÉE, en sortant.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Haegée, Philocrate, Tyndare, Pseudole, autre Geôlier.
+</stage>
+<sp stgage="exit" who="HAEGÉE"><speaker>HAEGÉE</speaker><stage>, en sortant.
+	</stage>
 	<l id="545">Je reviens, ces captifs sont-ils encor ici ?</l>
 </sp>
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
@@ -905,7 +920,8 @@
 <sp who="PHILOCRATE"><speaker>PHILOCRATE.</speaker>
 	<l id="559" syll="2" part="f">Tyndare.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="560">La pièce a commencé, ma scène se prépare.</l>
 </sp>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
@@ -1027,7 +1043,8 @@
 	<l id="637">Consultez seulement sur la commission,</l>
 	<l id="638">Car nous vous répondrons de l'exécution.</l>
 </sp>
-<sp stage="toward" who="HAEGÉE"><speaker>HAEGÉE, à Pseudole.</speaker>
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="toward">, à Pseudole.
+	</stage>
 	<l id="639">Qui puis-je à ton avis commettre à ce voyage ?</l>
 </sp>
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
@@ -1194,7 +1211,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Haegée, Olympie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Haegée, Olympie.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="775">Mais où tend son amour, puisque ce testament,</l>
 	<l id="776">Fait dépendre ses voeux de mon consentement,</l>
@@ -1256,7 +1274,8 @@
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Tyndare, Pseudole.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Tyndare, Pseudole.
+</stage>
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
 	<l id="821">Ses desseins vont plus haut, et je dois ses visites</l>
 	<l id="822">À sa compassion bien plus qu'à mes mérites,</l>
@@ -1310,11 +1329,13 @@
 	<l id="858">Je déteste la muse et maudis le parnasse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Haegée, Crisimant, Tyndare, Pseudole.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Haegée, Crisimant, Tyndare, Pseudole.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="859">Le voilà, parlez-lui, s'il est connu de vous.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="860">Que vois-je ô justes Dieux, quel est votre courroux</l>
 	<l id="861">Voici l'instant fatal qui fera tout connaître,</l>
 	<l id="862">Et qu'il me serait mieux d'avoir été que d'être,</l>
@@ -1327,7 +1348,8 @@
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="868">Quel respect vous retient ? vous ne l'abordez pas.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="869">Mais ne relâchons rien mentons avec audace,</l>
 	<l id="870">Force-toi mon esprit et toi-même te passe.</l>
 </sp>
@@ -1561,7 +1583,8 @@
 	<l id="981">Comme je me connais, je connais Philocrate,</l>
 	<l id="982">Une étroite amitié de tout temps nous a joints.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="983">Enfin la vérité confondra tous mes soins,</l>
 	<l id="984">À ces impressions cet esprit se prépare,</l>
 </sp>
@@ -1587,7 +1610,8 @@
 	<l id="992">Le ciel s'il ne t'abuse, à tes yeux me confonde,</l>
 	<l id="993">Vois-tu pas qu'il se tait : qu'il parle, qu'il réponde.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="994">J'arrive entre le prêtre et le glaive et l'autel,</l>
 	<l id="995">Et sans rémission j'attends le coup mortel.</l>
 </sp>
@@ -1618,7 +1642,8 @@
 	<l id="1008">J'apprends bien à te croire en étant trop crédule,</l>
 	<l id="1009">Ô vieillesse inexperte, ô bonté ridicule.</l>
 </sp>
-<sp stage="aparte" who="TYNDARE"><speaker>TYNDARE, à part.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1010">Tout sens et tout espoir m'abandonne à la fois,</l>
 	<l id="1011">Et le trouble où je suis m'ôte jusqu'à la voix.</l>
 </sp>
@@ -1637,7 +1662,8 @@
 	<l id="1019" syll="6" part="i">Des cordes, des liens.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lychas, Arbax, Daniste, Haegée, Tyndare, Crisimant, Pseudole.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lychas, Arbax, Daniste, Haegée, Tyndare, Crisimant, Pseudole.
+</stage>
 <sp who="ARBAX"><speaker>ARBAX.</speaker>
 	<l id="1019" syll="6" part="f">Qu'est-ce, allons-nous au bois,</l>
 </sp>
@@ -1671,7 +1697,8 @@
 	<l id="1036">Voyez par quel conseil vous vous devez conduire,</l>
 	<l id="1037">Si mon maître revient ma mort vous pourra nuire.</l>
 </sp>
-<sp stage="aparte" who="CRISIMANT"><speaker>CRISIMANT, à part.</speaker>
+<sp who="CRISIMANT"><speaker>CRISIMANT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1038">Je comprends le secret, qu'ai-je fait, justes Dieux !</l>
 	<l id="1039">Mon ami par son art s'est tiré de ces lieux,</l>
 	<l id="1040">J'eusse aidé le forfait, j'en eusse été complice,</l>
@@ -1732,12 +1759,14 @@
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1077" syll="6" part="f">Emmenez-le, vous dis-je.</l>
 </sp>
-<sp stage="toward" who="TYNDARE"><speaker>TYNDARE, aux valets qui l'emmènent.</speaker>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="toward">, aux valets qui l'emmènent.
+	</stage>
 	<l id="1078">Pourquoi m'outragez-vous puisque je suis vos pas,</l>
 	<l id="1079">Contentez-vous que j'aille et ne me traînez pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Haegée, Crisimant.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Haegée, Crisimant.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1080">Traînez, tirez, frappez ; servez si bien ma haine,</l>
 	<l id="1081">Que mes autres Captifs profitent de sa peine,</l>
@@ -1750,12 +1779,14 @@
 	<l id="1088">Cessez vains sentiments que la pitié me donne,</l>
 	<l id="1089">On n'en a point pour moi, je n'en ai pour personne.</l>
 </sp>
-<sp stage="aparte" who="CRISIMANT"><speaker>CRISIMANT, à part.</speaker>
+<sp who="CRISIMANT"><speaker>CRISIMANT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1090">Les fers me sont bien dus, j'en cause à mes amis.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ergazile, Haegée.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ergazile, Haegée.
+</stage>
 <sp who="ERGAZILE"><speaker>ERGAZILE.</speaker>
 	<l id="1091">Ne viens-je point trop tard, le couvert est-il mis,</l>
 	<l id="1092">Irai-je à la cuisine ordonner que l'on dresse ?</l>
@@ -1788,7 +1819,8 @@
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="sit/dream/write" who="PSEUDOLE"><speaker>PSEUDOLE assis, un papier et une plume à la main, ayant longtemps rêvé, dit :</speaker>
+<sp who="PSEUDOLE"><speaker>PSEUDOLE</speaker><stage type="sit/dream/write"> assis, un papier et une plume à la main, ayant longtemps rêvé, dit :
+	</stage>
 	<l id="1104">Ô malheureux métier, que tu me romps la tête !</l>
 	<l id="1105">Faut-il que si longtemps cette rime m'arrête ?</l>
 	<l id="1106">C'est mon premier travail, ce sera le dernier,</l>
@@ -1806,14 +1838,16 @@
 	<l id="1118">La cadence en est bonne, et le son en est doux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Célie, Pseudole.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Célie, Pseudole.
+</stage>
 <sp who="CÉLIE"><speaker>CÉLIE.</speaker>
 	<l id="1119" syll="6" part="i">Comment, tu fais des vers.</l>
 </sp>
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
 	<l id="1119" syll="6" part="f">Ah ! mon Ange est-ce vous.</l>
 </sp>
-<sp stage="laugh" who="CÉLIE"><speaker>CÉLIE, en riant.</speaker>
+<sp who="CÉLIE"><speaker>CÉLIE</speaker><stage type="laugh">, en riant.
+	</stage>
 	<l id="1120" syll="2" part="i">Mon Ange,</l>
 </sp>
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
@@ -1899,7 +1933,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="PSEUDOLE"><speaker>PSEUDOLE, seul.</speaker>
+<sp who="PSEUDOLE"><speaker>PSEUDOLE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1174">J'ignore à quelle fin tendent leurs conférences,</l>
 	<l id="1175">Mais entre eux la Nature a mis des différences,</l>
 	<l id="1176">Qui ne promettent pas que leur affection</l>
@@ -1913,7 +1948,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Philénie, Célie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Philénie, Célie.
+</stage>
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="1184">Je doute si je suis mes voeux ou ma fureur,</l>
 	<l id="1185">Si ce m'est un objet de plaisir ou d'horreur,</l>
@@ -1935,8 +1971,10 @@
 	<l id="1197">Le voilà, prends Pseudole, et le tire à l'écart.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Tyndare, Philénie.</head>
-<sp stage="jailed" who="TYNDARE"><speaker>TYNDARE, plein de fers.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Tyndare, Philénie.
+</stage>
+<sp who="TYNDARE"><speaker>TYNDARE</speaker><stage type="jailed">, plein de fers.
+	</stage>
 	<l id="1198">Hé quoi ! votre fureur vient ici désarmée ;</l>
 	<l id="1199">D'un si faible courroux votre âme est enflammée ;</l>
 	<l id="1200">Si comme des mortels vous disposiez des Dieux,</l>
@@ -2081,8 +2119,10 @@
 	<l id="1327" syll="6" part="i">Et du mal que j'ai fait,</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Pseudole, Célie, Tyndare, Philénie.</head>
-<sp stage="run/toward" who="PSEUDOLE"><speaker>PSEUDOLE courant, dit à Tyndare.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pseudole, Célie, Tyndare, Philénie.
+</stage>
+<sp who="PSEUDOLE"><speaker>PSEUDOLE</speaker><stage type="run/toward"> courant, dit à Tyndare.
+	</stage>
 	<l id="1327" syll="6" part="f">Rentrez, j'entends Haegée,</l>
 <stage type="toward">À Célie.</stage>
 	<l id="1328">Célie aurai-je lieu dedans ton souvenir ?</l>
@@ -2114,7 +2154,8 @@
 	<l id="1347">Pour lui laisser d'abord un peu d'inquiétude.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Haegée, Ergazile.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Haegée, Ergazile.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1348">Plus cette trahison me repasse en l'esprit,</l>
 	<l id="1349">Plus ma douleur s'accroît, et mon courroux s'aigrit :</l>
@@ -2190,7 +2231,8 @@
 	<l id="1402">Réponde le succès à l'espoir qu'il me donne ;</l>
 	<l id="1403">Mais quel est ce bonheur, où ma part est si bonne ?</l>
 </sp>
-<sp stage="location" who="ERGAZILE"><speaker>ERGAZILE à la porte d'Haegée.</speaker>
+<sp who="ERGAZILE"><speaker>ERGAZILE</speaker><stage type="location"> à la porte d'Haegée.
+	</stage>
 	<l id="1404" syll="6" part="i">Holà, qui m'ouvre ici, </l>
 </sp>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
@@ -2402,7 +2444,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Haegée, Philocrate, Crisophore, Pseudole.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Haegée, Philocrate, Crisophore, Pseudole.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1488">Soit béni, juste Ciel, ton pouvoir adorable,</l>
 	<l id="1489">Sois autant révéré que tu m'es favorable.</l>
@@ -2489,7 +2532,8 @@
 	<l id="1548">Je l'ai fait criminel, m'aimer est son offense,</l>
 	<l id="1549">Rare fidélité voilà ta récompense.</l>
 </sp>
-<sp stage="toward" who="HAEGÉE"><speaker>HAEGÉE, à Pseudole.</speaker>
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="toward">, à Pseudole.
+	</stage>
 	<l id="1550">Malheureux instrument des maux qu'il a soufferts,</l>
 </sp>
 <sp who="PSEUDOLE"><speaker>PSEUDOLE.</speaker>
@@ -2504,7 +2548,8 @@
 <stage type="exit">Pseudole sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Haegée, Crisophore, Philocrate, Érimand, Stalagme.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Haegée, Crisophore, Philocrate, Érimand, Stalagme.
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1556">Voici le malheureux de qui l'audace extrême</l>
 	<l id="1557">Osa me dérober, et mon fils, et moi-même :</l>
@@ -2643,7 +2688,8 @@
 	<l id="1631">Sans mourir à la fois, et de joie et d'ennui.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Tyndare, Pseudole, Philocrate, Crisophore, Haegée, Érimand, Stalagme.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Tyndare, Pseudole, Philocrate, Crisophore, Haegée, Érimand, Stalagme. 
+</stage> 
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
 	<l id="1632">J'avais bien autrefois vu l'horrible peinture,</l>
 	<l id="1633">Des lieux où des damnés l'âme est à la torture ;</l>
@@ -2683,7 +2729,8 @@
 <sp who="CRISOPHORE"><speaker>CRISOPHORE.</speaker>
 	<l id="1660" syll="3" part="i">Ah ! Mon frère,</l>
 </sp>
-<sp stage="kiss" who="HAEGÉE"><speaker>HAEGÉE, en les embrassant.</speaker>
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="kiss">, en les embrassant.
+	</stage>
 	<l id="1660" syll="3" part="m">Ah ! mes fils :</l>
 </sp>
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
@@ -2693,7 +2740,8 @@
 	<l id="1663">Pour donner plus longtemps, donnez moins à la fois.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Olympie, Haegée, [Les Mêmes].</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Olympie, Haegée, [Les Mêmes].
+</stage>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
 	<l id="1664">Vois ma fille à quel point les Dieux nous sont prospères,</l>
 	<l id="1665">Ils me rendent deux fils, ils te rendent deux frères ;</l>
@@ -2765,8 +2813,10 @@
 	<l id="1711">Et plutôt qu'employer, épuise son pouvoir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Haegée, Olympie, Philénie, Tyndare, Crisophore, [Philocrate,] Érimand, Pseudole, Stalagme.</head> 
-<sp stage="toward" who="HAEGÉE"><speaker>HAEGÉE, à Tyndare.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Haegée, Olympie, Philénie, Tyndare, Crisophore, [Philocrate,] Érimand, Pseudole, Stalagme. 
+</stage> 
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="toward">, à Tyndare.
+	</stage>
 	<l id="1712">Mais mon fils, cachez-vous, j'aperçois Philénie,</l>
 	<l id="1713">Participez, ma fille, à la joie infinie,À Phi-</l>
 	<l id="1714">Qui me rendant un fils vous rend un serviteur lénie.</l>
@@ -2818,7 +2868,8 @@
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="1755">Laissez-moi ma franchise et retenez mes biens.</l>
 </sp>
-<sp stage="aparte" who="PHILOCRATE"><speaker>PHILOCRATE, à part.</speaker>
+<sp who="PHILOCRATE"><speaker>PHILOCRATE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1756">Dieux ! que ce passe-temps est merveilleux et rare.</l>
 </sp>
 <sp who="HAEGÉE"><speaker>HAEGÉE.</speaker>
@@ -2881,14 +2932,17 @@
 <sp who="PHILÉNIE"><speaker>PHILÉNIE.</speaker>
 	<l id="1781">Ô Dieux ! et vous voulez que j'aime ce barbare,</l>
 </sp>
-<sp stage="pull" who="HAEGÉE"><speaker>HAEGÉE, tirant Tyndare.</speaker>
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="pull">, tirant Tyndare.
+	</stage>
 	<l id="1782">Et bien, punissez-le, suivez votre courroux !</l>
 </sp>
-<sp stage="turn" who="PHILÉNIE"><speaker>PHILÉNIE, se détournant.</speaker>
+<sp who="PHILÉNIE"><speaker>PHILÉNIE</speaker><stage type="turn">, se détournant.
+	</stage>
 	<l id="1783">Ne me le montrez point, à quoi m'obligez-vous ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Tyndare, etc.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Tyndare, etc.
+</stage>
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
 	<l id="1784">Suis-je si criminel aux yeux de Philénie,</l>
 	<l id="1785">Qu'à ma vue aujourd'hui la sienne se dénie ?</l>
@@ -2930,7 +2984,8 @@
 <sp who="TYNDARE"><speaker>TYNDARE.</speaker>
 	<l id="1803" syll="6" part="f">Quel bien m'est préparé.</l>
 </sp>
-<sp stage="toward" who="HAEGÉE"><speaker>HAEGÉE, à Olympie.</speaker>
+<sp who="HAEGÉE"><speaker>HAEGÉE</speaker><stage type="toward">, à Olympie.
+	</stage>
 	<l id="1804">Ma fille, savez-vous quel parti se propose.</l>
 </sp>
 <sp who="OLYMPIE"><speaker>OLYMPIE.</speaker>
@@ -2954,7 +3009,8 @@
 	<l id="1811" syll="6" part="f">Moi je ne le suis pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. CÉLIE avec deux cuisiniers, etc.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> CÉLIE avec deux cuisiniers, etc.
+</stage>
 <sp who="CÉLIE"><speaker>CÉLIE.</speaker>
 	<l id="1812">Adieu, je me démets du soin de la cuisine,</l>
 	<l id="1813">Casse tout, brise tout, rompt, renverse, ruine.</l>
@@ -2977,7 +3033,8 @@
 	<l id="1823">Tant il boit, tranche, avale, et mange avidement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Ergazile, etc.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Ergazile, etc.
+</stage>
 <sp who="ERGAZILE"><speaker>[ERGAZILE].</speaker>
 	<l id="1824">Enfin je me suis fait l'espace, et libre et large,</l>
 	<l id="1825">Aucun séditieux ne me trouble en ma charge,</l>
@@ -3004,7 +3061,8 @@
 	<l id="1843">Fasse épreuve des maux que mon fils a soufferts,</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE. Pseudole, Célie.</head>
+<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE.</head><stage> Pseudole, Célie.
+</stage>
 <sp who="CÉLIE"><speaker>CÉLIE.</speaker>
 	<l id="1844">Pseudole, qu'est ceci, je n'y puis rien connaître.</l>
 </sp>
@@ -3023,7 +3081,8 @@
 	<l id="1852">Tu ris, mais s'il n'est beau que mon amour te touche,</l>
 	<l id="1853">Célie, au nom d'Amour, un seul oui de ta bouche.</l>
 </sp>
-<sp stage="touch" who="CÉLIE"><speaker>CÉLIE, lui touchant dans la main.</speaker>
+<sp who="CÉLIE"><speaker>CÉLIE</speaker><stage type="touch">, lui touchant dans la main.
+	</stage>
 	<l id="1854">Oui, n'en veux-tu qu'un seul, oui, Célie est à toi,</l>
 	<l id="1855">Et jamais autre objet n'engagera ma foi.</l>
 </sp>

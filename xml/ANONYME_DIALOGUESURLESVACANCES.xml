@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,11 +29,11 @@
 			<titlePart type="main">DIALOGUE SUR LES VACANCES ET LES ENNUIS DE L'ÉCOLE</titlePart>
 			<titlePart type="sub">DIALOGUE, PETITS DISCOURS, RÉCITS FACÉTIEUX POUR LA DISCRTIBUTION DES PRIX DE 1858.</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858. Droits de reproduction et de traduction réservés.</docDate>
-		<docAuthor id="[Anonyme]"></docAuthor>
+		<docDate value="1858">1858. Droits de reproduction et de traduction réservés.</docDate>
+		<docAuthor id="[Anonyme]"/>
 		<docImprint>
-			<editor id='BOUNET'>PERIGUEUX. J. BOUNET, LIBRAIRE-ÉDITEUR, Cours Michel-Montaigne.</editor>
-			<printer id='BOUNET'>PERIGUEUX. imprimerie DUPONT et C. - Juin 58.</printer>
+			<editor id="BOUNET">PERIGUEUX. J. BOUNET, LIBRAIRE-ÉDITEUR, Cours Michel-Montaigne.</editor>
+			<printer id="BOUNET">PERIGUEUX. imprimerie DUPONT et C. - Juin 58.</printer>
 		</docImprint>
 	<div type="avis"><head>AVIS.</head>
 		<p>Dans les dialogues et les compliments qui composent ce petit recueil, nous nous sommes moins attaché au fond et à la forme qu'aux moyens d'intéresser les personnes qui assistent aux distributions de prix, pour lesquelles nous les faisons. Tous ces récits sont courts, parce qu'il faut éviter avec soin d'être prolixe et de fatiguer l'attention des auditeurs.</p>
@@ -43,20 +43,21 @@
 		<p>Mais ce qui nous semble le plus important à propos de ces récits, c'est que les élèves qui sont destinés à les faire les sachent imperturbablement, les débitent avec énergie, avec grâce et avec aisance, faisant quelques gestes sans affectation et sans sortir jamais du naturel.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="CLÉMENT" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>CLÉMENT</role>, élève.</castItem>
-		<castItem><role id="ÉDOUARD" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>ÉDOUARD</role>, idem.</castItem>
-		<castItem><role id="LOUIS" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>LOUIS</role>, idem.</castItem>
-		<castItem><role id="ROBERT" sex="1" type="H" statut="moraliste" age='A' stat_amour='néant'>ROBERT</role>, moraliste.</castItem>
-		<castItem><role id="ARMAND" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>ARMAND</role>, élève.</castItem>
-		<castItem><role id="RAYMOND" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>RAYMOND</role>, idem.</castItem>
-		<castItem><role id="HENRI" sex="1" type="H" statut="élève" age='J' stat_amour='néant'>HENRI</role>, idem.</castItem>
+		<castItem><role id="CLÉMENT" sex="1" type="H" statut="élève" age="J" stat_amour="néant">CLÉMENT</role>, élève.</castItem>
+		<castItem><role id="ÉDOUARD" sex="1" type="H" statut="élève" age="J" stat_amour="néant">ÉDOUARD</role>, idem.</castItem>
+		<castItem><role id="LOUIS" sex="1" type="H" statut="élève" age="J" stat_amour="néant">LOUIS</role>, idem.</castItem>
+		<castItem><role id="ROBERT" sex="1" type="H" statut="moraliste" age="A" stat_amour="néant">ROBERT</role>, moraliste.</castItem>
+		<castItem><role id="ARMAND" sex="1" type="H" statut="élève" age="J" stat_amour="néant">ARMAND</role>, élève.</castItem>
+		<castItem><role id="RAYMOND" sex="1" type="H" statut="élève" age="J" stat_amour="néant">RAYMOND</role>, idem.</castItem>
+		<castItem><role id="HENRI" sex="1" type="H" statut="élève" age="J" stat_amour="néant">HENRI</role>, idem.</castItem>
 	</castList>
 <note>Texte tiré de "Dialogues et petits discours, récits facétieux et récréatifs por la distribution des prix de 1858", Périgueux : Bounet, 1858. pp 15-26.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>DIALOGUE SUR LES VACANCES ET LES ENNUIS DE L'ÉCOLE</head>
-<div2 type="scene" n="1"><head></head>
-<sp stage="entrance" who="CLÉMENT"><speaker>CLÉMENT, se présente sur une estrade avec gaîté, faisant quelques petits sauts.</speaker> 
+<div2 type="scene" n="1"><head/>
+<sp who="CLÉMENT"><speaker>CLÉMENT</speaker><stage type="entrance">, se présente sur une estrade avec gaîté, faisant quelques petits sauts. 
+	</stage> 
 	<l id="1">Salut, jour de bonheur ! Jour d'une heureuse ivresse,</l>
 	<l id="2">Si chère à l'écolier, si chère à la jeunesse !</l>
 	<l id="3">Te voilà revenu : vive la liberté !</l>
@@ -64,7 +65,8 @@
 	<l id="5">Adieu, devoirs, pensums, pain sec et pénitences,</l>
 	<l id="6">Adieu, punitions, avis et remontrances.</l>
 </sp>
-<sp stage="entrance/happy/jump" who="ÉDOUARD"><speaker>ÉDOUARD, arrivant joyeux en sautillant.</speaker>
+<sp who="ÉDOUARD"><speaker>ÉDOUARD</speaker><stage type="entrance/happy/jump">, arrivant joyeux en sautillant.
+	</stage>
 	<l id="7">Bravo ! Bravo ! Mon cher, moi j'en dis tout autant.</l>
 	<l id="8">Adieu donc, et l'école, et tout le bataclan,</l>
 	<l id="9">Adieu tous les soucis et toute inquiétude,</l>
@@ -72,7 +74,8 @@
 	<l id="11">Vous, ennemis jurés de nos amusements,</l>
 	<l id="12">Qui ne nous laissez pas un moment de bon temps !</l>
 </sp>
-<sp stage="entrance/quiet" who="LOUIS"><speaker>LOUIS, entre en scène, modéré.</speaker>
+<sp who="LOUIS"><speaker>LOUIS</speaker><stage type="entrance/quiet">, entre en scène, modéré.
+	</stage>
 	<l id="13">Oui, libre désormais, nous pourrons sans contrainte,</l>
 	<l id="14">Nous livrer au plaisir, à tous nos jeux sans crainte.</l>
 	<l id="15">Oh ! Quelle invention que celle de ce temps !</l>
@@ -80,13 +83,15 @@
 	<l id="17">11 savait qu'à notre âge il faut, par indulgence,</l>
 	<l id="18">Donner peu de travail et beaucoup de vacance.</l>
 </sp>
-<sp stage="entrance/enthousiasm" who="CLÉMENT"><speaker>CLÉMENT, arrive un peu enthousiasmé.</speaker>
+<sp who="CLÉMENT"><speaker>CLÉMENT</speaker><stage type="entrance/enthousiasm">, arrive un peu enthousiasmé.
+	</stage>
 	<l id="19">Quel mortel bienfaisant ! il a bien mérité</l>
 	<l id="20">De voir son nom passer à la postérité.</l>
 	<l id="21">Oui, le peuple écolier, consacrant sa mémoire,</l>
 	<l id="22">Doit élever partout des autels à sa gloire.</l>
 </sp>
-<sp stage="enthousiasm" who="ARMAND"><speaker>ARMAND, sur le ton du précédent.</speaker>
+<sp who="ARMAND"><speaker>ARMAND</speaker><stage type="enthousiasm">, sur le ton du précédent.
+	</stage>
 	<l id="23">Il était bien meilleur, lui, que certains régents,</l>
 	<l id="24">Qui vous privent pour rien de vos amusements.</l>
 	<l id="25">Quelle ardeur, dites-moi, peut avoir à l'ouvrage</l>
@@ -113,7 +118,8 @@
 	<l id="37">C'est entendu, c'est la saison des jouissances.</l>
 	<l id="38">À bas ! À bas l'étude ! Et vivent les vacances !</l>
 </sp>
-<sp stage="serious/imitate" who="ROBERT"><speaker>ROBERT, avec gravité. Il pourrait avoir une badine à la main, des lunettes et prendre le ton d'un professeur.</speaker>
+<sp who="ROBERT"><speaker>ROBERT</speaker><stage type="serious/imitate">, avec gravité. Il pourrait avoir une badine à la main, des lunettes et prendre le ton d'un professeur.
+	</stage>
 	<l id="39">Mais, quoi ! Contre l'école ! Oh ! Oh ! Quelle sortie !</l>
 	<l id="40">Enfants, qui vous inspire, est-ce un mauvais génie ?</l>
 	<l id="41">Vous vouliez... je comprends... un peu vous mutiner,</l>
@@ -185,7 +191,8 @@
 	<l id="91" syll="6" part="i">À bas le participe !...</l>
 <stage type="">Ils répètent à bas le participe.</stage>
 </sp>
-<sp stage="" who="ÉDOUARD"><speaker>ÉDOUARD, continue.</speaker>
+<sp who="ÉDOUARD"><speaker>ÉDOUARD</speaker><stage type="">, continue.
+	</stage>
 	<l id="91" syll="6" part="f">Ou bien plutôt qu'il vive,</l>
 	<l id="92">Mais dans tout le discours, bon gré, malgré, qu'il suive,</l>
 	<l id="93">Pour les divers accords, de l'adjectif les lois,</l>
@@ -199,7 +206,8 @@
 	<l id="97">Disons à ce bouquin un éternel adieu ;</l>
 	<l id="98">Puissé-je ne jamais le revoir en ce lieu !</l>
 </sp>
-<sp stage="carry" who="RAYMOND"><speaker>RAYMOND, tenant quelques livres.</speaker>
+<sp who="RAYMOND"><speaker>RAYMOND</speaker><stage type="carry">, tenant quelques livres.
+	</stage>
 	<l id="99">Très bien !... C'est toi, vraiment, infernale grammaire,</l>
 	<l id="100">À mes yeux irrités qui t'offres la première.</l>
 <stage type="watch">La considérant.</stage>
@@ -211,7 +219,8 @@
 	<l id="106">Je te méprise : va te faire pendre ailleurs !</l>
 <stage type="throw/furniture">Il les jette sur une table à son côté.</stage>
 </sp>
-<sp who="ROBERT"><speaker>ROBERT (avec gravité).</speaker>
+<sp who="ROBERT"><speaker>ROBERT </speaker><stage>(avec gravité).
+	</stage>
 	<l id="107">Quoi, jeunes insensés ! Tenir pareil langage</l>
 	<l id="108">Contre l'art de parler, contre les lois, l'usage !</l>
 	<l id="109">Contre un livre toujours qui régit lés humains,</l>
@@ -246,7 +255,8 @@
 	<l id="130">Marcomir, Clodomir, Visigoths, OstrogothS...</l>
 	<l id="131">Vit-on jamais plus affreuse musique !</l>
 </sp>
-<sp stage="strong" who="ARMAND"><speaker>ARMAND, appuyant sur les mots soulignés.</speaker>
+<sp who="ARMAND"><speaker>ARMAND</speaker><stage type="strong">, appuyant sur les mots soulignés.
+	</stage>
 	<l id="132">Vous n'êtes pas au bout ! Et tous les mots en ique,</l>
 	<l id="133">Salique, Childéric, et puis tous ceux en ert :</l>
 	<l id="134">Caribert, Childebert, Clotaire et Dagobert.</l>
@@ -340,7 +350,8 @@
 <stage type="throw/furniture">Il le jette sur la table.</stage>
 	<l id="196">Allons donc, file vite, ou bien prends garde à moi.</l>
 </sp>
-<sp stage="show" who="CLÉMENT"><speaker>CLÉMENT, montrant la géographie.</speaker>
+<sp who="CLÉMENT"><speaker>CLÉMENT</speaker><stage type="show">, montrant la géographie.
+	</stage>
 	<l id="197">Et ce bouquin, amis, c'est la géographie,</l>
 	<l id="198">L'Afrique, l'Amérique et puis l'Océanie,</l>
 	<l id="199">Qu'il faut, bon gré, mal gré, mettre dans son cerveau ;</l>
@@ -459,7 +470,8 @@
 	<l id="283">Que vous conserverez, selon ce vieil adage,</l>
 	<l id="284">Les vices, les vertus de votre premier âge.</l>
 </sp>
-<sp stage="touched" who="ÉDOUARD"><speaker>ÉDOUARD, d'un ton touché.</speaker>
+<sp who="ÉDOUARD"><speaker>ÉDOUARD</speaker><stage type="touched">, d'un ton touché.
+	</stage>
 	<l id="285">Oui, je vois que, séduit par de trompeurs appas,</l>
 	<l id="286">Je faisais fausse route et j'égarais mes pas ;</l>
 	<l id="287">Amis, convaincu que l'instruction, la science,</l>

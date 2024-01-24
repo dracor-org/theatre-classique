@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
 			<titleStmt>
 				<title>ALFONSE DIT L'IMPUISSANT, TRAGÉDIE EN UN ACTE </title>
-				<author born='1709' born_location='Paris' death='1783' death_location='Paris' academie=''>COLLE, Charles</author>
+				<author born="1709" born_location="Paris" death="1783" death_location="Paris" academie="">COLLE, Charles</author>
 			</titleStmt>
 			<publicationStmt>	
 				<publisher>publié par Paul FIEVRE mai 2016</publisher>
@@ -17,7 +17,7 @@
 				<type>vers</type>
 				<periode>1731-1740</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,26 +28,27 @@
    	 <titlePart part="sub">TRAGÉDIE EN UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1740">M. DCC. XL.</docDate>
-   <docAuthor id='COLLE, Charles' bio='collec'>de Charles COLLÉ</docAuthor>
+   <docAuthor id="COLLE, Charles" bio="collec">de Charles COLLÉ</docAuthor>
 	<docImprint>
 		<printer id="ORIGÉNIE">À ORIGÉNIE, Chez JEAN QUI-NE-PEUT, au Grand Eunuque.</printer>
 	</docImprint>
 	<performance>
-		<premiere date="1737" location='chez la Marquise de Mauconseil'>Représenté pour le première fois en 1737 en société à Bagatelle chez la Marquise de Mauconseil.</premiere>
+		<premiere date="1737" location="chez la Marquise de Mauconseil">Représenté pour le première fois en 1737 en société à Bagatelle chez la Marquise de Mauconseil.</premiere>
 	</performance>
 	<castList><head>ACTEURS</head>
-   	<castItem><role id="ALFONSE" sex="1" type="H" statut="roi" age="A" stat_amour='amoureux'>ALFONSE</role>, roi de Portugal.</castItem>
-   	<castItem><role id="LÉONOR" sex="2" type="H" statut="roi" age="A" stat_amour='amoureux'>LÉONOR</role>, reine de Portugal.</castItem>
-   	<castItem><role id="ALVARÈS" sex="1" type="H" statut="prince" age="A" stat_amour='amoureux'>ALVARÈS</role>, beau-frère d'Alfonse, héritier présomptif de la couronne et désigné roi, si Alfonse n'a point d'enfant dans un an.</castItem>
-   	<castItem><role id="ALCIMADURE" sex="1" type="H" statut="confident" age="A" stat_amour='amoureux'>ALCIMADURE</role>, eunuque, premier ministre d'Alfonse.</castItem>
+   	<castItem><role id="ALFONSE" sex="1" type="H" statut="roi" age="A" stat_amour="amoureux">ALFONSE</role>, roi de Portugal.</castItem>
+   	<castItem><role id="LÉONOR" sex="2" type="H" statut="roi" age="A" stat_amour="amoureux">LÉONOR</role>, reine de Portugal.</castItem>
+   	<castItem><role id="ALVARÈS" sex="1" type="H" statut="prince" age="A" stat_amour="amoureux">ALVARÈS</role>, beau-frère d'Alfonse, héritier présomptif de la couronne et désigné roi, si Alfonse n'a point d'enfant dans un an.</castItem>
+   	<castItem><role id="ALCIMADURE" sex="1" type="H" statut="confident" age="A" stat_amour="amoureux">ALCIMADURE</role>, eunuque, premier ministre d'Alfonse.</castItem>
 		</castList>
 	<set location="Lisbonne" country="Portugal" periode="(non indiqué)" gps="38.722252, -9.139337">La scène est dans le palais de la reine de Portugal, dans le vestibule et dans sa chambre à coucher.</set>
 		<note>D'après la Correspondance inédite de Collé, publiée par M. Honoré Bonhomme, Paris, 1864, Plon, 1 vol. in-80, page 578, cette pièce aurait été publiée chez Prault, en 1758, par les soins du duc de la Vallière, qui n'eut pas même la politesse de lui en envoyer quelques exemplaires. Du reste, Collé dit qu'il y a fait, depuis, de légers changements; et nous donnons ici sa dernière rédaction. Les exemplaires de cette petite tragédie sont devenus extrêmement rares.</note>
 </front>
 <body>
-<div1 type="act" n="1"><head></head>
+<div1 type="act" n="1"><head/>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="alone" who="ALCIMADURE"><speaker>ALCIMADURE, seul.</speaker>
+<sp who="ALCIMADURE"><speaker>ALCIMADURE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1">Les États, en tumulte, assemblés dans Lisbonne,</l>
 	<l id="2">Au perfide Alvarès assurent la couronne,</l>
 	<l id="3">Si, dans un an, le roi ne donne au Portugal</l>
@@ -81,11 +82,13 @@
 	<l id="31" part="i">Mais le roi vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alcimadure, Alfonse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alcimadure, Alfonse.
+</stage>
 <sp who="ALCIMADURE"><speaker>ALCIMADURE. </speaker>
 	<l id="31" part="f">Seigneur, tous ces bruits incertains.</l>
 </sp>
-<sp stage="interrupt" who="ALFONSE"><speaker>ALFONSE, l'interrompant.</speaker>
+<sp who="ALFONSE"><speaker>ALFONSE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="32">Le sceptre va bientôt passer en d'autres mains.</l>
 	<l id="33">Tu sais depuis quel temps un stérile hyménée</l>
 	<l id="34">Au sort d'une princesse unit ma destinée.</l>
@@ -233,7 +236,8 @@
 </sp>
 </div2>
 <div2 type="scene" n=""><head>SCÈNE III.</head>
-<sp stage="alone" who="ALCIMADURE"><speaker>ALCIMADURE, seul.</speaker>
+<sp who="ALCIMADURE"><speaker>ALCIMADURE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="133">Juste ciel ! Et comment veux-tu que j'obéisse ?</l>
 	<l id="134">Hélas ! C'est ordonner ma honte et mon supplice.</l>
 	<l id="135">Si la nature en toi n'a pas mis ce qu'il faut,</l>
@@ -248,7 +252,8 @@
 	<l id="144">Si la Reine voudrait... Elle paraît...</l>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE IV. Léonor, Alcimadure.</head>
+<div2 type="scene" n=""><head>SCÈNE IV.</head><stage> Léonor, Alcimadure.
+</stage>
 <sp who="LÉONOR"><speaker>LÉONOR. </speaker>
 	<l id="144" part="f">Seigneur,</l>
 	<l id="145" part="i">J'ai cru trouver le roi dans ces lieux.</l>
@@ -387,20 +392,24 @@
 	<l id="241">Ministre criminel des volontés d'Alfonse,</l>
 	<l id="242">J'oppose à tant d'horreurs le mépris pour réponse.</l>
 </sp>
-<sp stage="aparte" who="ALCIMADURE"><speaker>ALCIMADURE, à part. </speaker>
+<sp who="ALCIMADURE"><speaker>ALCIMADURE</speaker><stage type="aparte">, à part. 
+	</stage>
 	<l id="243">Allons tout disposer, et, trompant Alvarès,</l>
 	<l id="244">Faisons tomber ce traître en mes pièges secrets.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="LÉONOR"><speaker>LÉONOR, seule.</speaker>
+<sp who="LÉONOR"><speaker>LÉONOR</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="245">Il sait pour Avarès ma criminelle flamme.</l>
 	<l id="246" part="i">Ciel ! Mais c'est lui qui vient! Fuyons.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Léonor, Alvarès.</head>
-<sp stage="stop" who="ALVARÈS"><speaker>ALVARÈS, l'arrêtant.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Léonor, Alvarès.
+</stage>
+<sp who="ALVARÈS"><speaker>ALVARÈS</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="246" part="f">Eh quoi ! Madame,</l>
 	<l id="247">Dans sa prévention votre esprit affermi</l>
 	<l id="248">En fuyant Alvarès croit fuir un ennemi !</l>
@@ -476,13 +485,15 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="ALVARÈS"><speaker>ALVARÈS, seul.</speaker>
+<sp who="ALVARÈS"><speaker>ALVARÈS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="305" part="f">Malgré l'amour qui me dévore,</l>
 	<l id="306">Je me trouve forcé de l'admirer encore.</l>
 	<l id="307" part="i">On vient...</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Alvarès, Alcimadure.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Alvarès, Alcimadure.
+</stage>
 <sp who="ALVARÈS"><speaker>ALVARÈS.</speaker>
 	<l id="307" part="f">Je te cherchais.... Ah ! toi seul dans mon coeur</l>
 	<l id="308">Peux ramener le calme et bannir la douleur.</l>
@@ -574,7 +585,8 @@
 	<l id="373">D'ailleurs, cette princesse a même en sa personne</l>
 	<l id="374">De légitimes droits acquis à la couronne.</l>
 </sp>
-<sp stage="enthousiasm" who="ALVARÈS"><speaker>ALVARÈS, avec transport. </speaker>
+<sp who="ALVARÈS"><speaker>ALVARÈS</speaker><stage type="enthousiasm">, avec transport. 
+	</stage>
 	<l id="375" part="i">Ami, par quels bienfaits.</l>
 </sp>
 <sp who="ALCIMADURE"><speaker>ALCIMADURE.</speaker>
@@ -596,7 +608,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="ALCIMADURE"><speaker>ALCIMADURE, seul.</speaker>
+<sp who="ALCIMADURE"><speaker>ALCIMADURE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="385">Aveuglé par l'amour, cours, dans ta folle ivresse,</l>
 	<l id="386">Goûter des vains plaisirs l'amorce enchanteresse !</l>
 	<l id="387">Quel esprit d'imprudence accompagne toujours</l>
@@ -627,7 +640,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="ALFONSE"><speaker>ALFONSE, seul.</speaker>
+<sp who="ALFONSE"><speaker>ALFONSE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="411">Tout est calme en ces lieux. Le faible jour qui luit</l>
 	<l id="412">Commence à dissiper les ombres de la nuit.</l>
 	<l id="413">Alcimadure a peine à s'arracher encor</l>
@@ -650,10 +664,12 @@
 <div2 type="scene" n="11"><head>SCÈNE XI ET DERNIÈRE.</head>
 <stage type="entrance/noise/stop">Alcimadure entrant par le côté opposé à celui de la chambre de la Reine, où il va, et s'arrêtant au bruit qui se fait.</stage>
 <stage type="location">Alfonse et Alvares, tous deux derrière le théâtre où se passe l'action.</stage>
-<sp stage="kill" who="ALFONSE"><speaker>ALFONSE, poignardant Alvarès. </speaker>
+<sp who="ALFONSE"><speaker>ALFONSE</speaker><stage type="kill">, poignardant Alvarès. 
+	</stage>
 	<l id="427" part="f">Vengeons-nous !</l>
 </sp>
-<sp stage="fall" who="ALVARÈS"><speaker>ALVARÈS, tombant. </speaker>
+<sp who="ALVARÈS"><speaker>ALVARÈS</speaker><stage type="fall">, tombant. 
+	</stage>
 	<l id="428" part="i">Ah ! Traître !... Je me meurs !...</l>
 </sp>
 <sp who="ALFONSE"><speaker>ALFONSE. </speaker>
@@ -662,7 +678,8 @@
 <stage type="watch">L'apercevant.</stage>
 	<l id="429" part="f">Que vois-je ? Alcimadure !</l>
 </sp>
-<sp stage="threat" who="ALCIMADURE"><speaker>ALCIMADURE, un poignard à la main. </speaker>
+<sp who="ALCIMADURE"><speaker>ALCIMADURE</speaker><stage type="threat">, un poignard à la main. 
+	</stage>
 	<l id="430" part="i">Seigneur...</l>
 </sp>
 <sp who="ALFONSE"><speaker>ALFONSE.</speaker>

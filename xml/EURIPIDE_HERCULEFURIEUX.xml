@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,22 +28,22 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
 			<head>PERSONNAGES</head>
-			<castItem><role id="AMPHITRYON" sex="1" type="H" statut='bourgeois' age='V' stat_amour='néant'>AMPHITRYON</role>.</castItem>
-			<castItem><role id="MÉGARE" sex="2" type="H" statut='aristocrate' age='A' stat_amour=''>MÉGARE</role>, femme d'Hercule.</castItem>
-			<castItem><role id="LE CHOEUR" sex="9" type="H" statut='choeur' age='V' stat_amour=''>LE CHOEUR</role>, composé de vieillards Thébains.</castItem>
-			<castItem><role id="LYCUS" sex="1" type="H" statut='tyran' age='A' stat_amour=''>LYCUS</role>, tyran de Thèbes.</castItem>
-			<castItem><role id="IRIS" sex="2" type="D" statut='aristocrate' age='A' stat_amour=''>IRIS</role>.</castItem>
-			<castItem><role id="LYSSA" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>LYSSA</role>.</castItem>
-			<castItem><role id="UN MESSAGER" sex="1" type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
-			<castItem><role id="HERCULE" sex="1" type="H" statut='héros' age='A' stat_amour='néant'>HERCULE</role>.</castItem>
-			<castItem><role id="THÉSÉE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>THÉSÉE</role>.</castItem>
+			<castItem><role id="AMPHITRYON" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">AMPHITRYON</role>.</castItem>
+			<castItem><role id="MÉGARE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="">MÉGARE</role>, femme d'Hercule.</castItem>
+			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age="V" stat_amour="">LE CHOEUR</role>, composé de vieillards Thébains.</castItem>
+			<castItem><role id="LYCUS" sex="1" type="H" statut="tyran" age="A" stat_amour="">LYCUS</role>, tyran de Thèbes.</castItem>
+			<castItem><role id="IRIS" sex="2" type="D" statut="aristocrate" age="A" stat_amour="">IRIS</role>.</castItem>
+			<castItem><role id="LYSSA" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">LYSSA</role>.</castItem>
+			<castItem><role id="UN MESSAGER" sex="1" type="H" statut="messager" age="A" stat_amour="néant">UN MESSAGER</role>.</castItem>
+			<castItem><role id="HERCULE" sex="1" type="H" statut="héros" age="A" stat_amour="néant">HERCULE</role>.</castItem>
+			<castItem><role id="THÉSÉE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">THÉSÉE</role>.</castItem>
 		</castList>
 		<set location="Thèbes" country="Grèce" periode="Temps mythologiques" gps="38.322579, 23.320431">La scène est à Thèbes, à l'entrée du palais d'Hercule, sur une place où s'élève un autel consacré à Jupiter.</set>
 
@@ -771,7 +771,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>Lycus, Le Choeur.</head>
-<sp stage="location" who="LYCUS"><speaker>LYCUS, dans le palais.</speaker>
+<sp who="LYCUS"><speaker>LYCUS</speaker><stage type="location">, dans le palais.
+</stage>
 <p id="1"> 
 	<s id="1">Ah ! </s>
 	<s id="2">Ah !</s> 
@@ -1898,4 +1899,4 @@
 </div1> 
 </body> 
 </text> 
-</TEI> 
+</TEI>

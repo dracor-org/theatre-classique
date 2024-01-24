@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,29 +28,30 @@
 			<titlePart type="main">L'IMPORTANT</titlePart>
 			<titlePart type="sub">QUINZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE MARÉCHAL DE FRANCE" sex="1" type="H" statut="maréchal" age="A" stat_amour='néant'>LE MARÉCHAL DE FRANCE</role>.</castItem>
-		<castItem><role id="LE CHEVALIER DE COURE-PLAINE" sex="1" type="H" statut="chevalier" age="A" stat_amour='néant'>LE CHEVALIER DE COURE-PLAINE</role>, Aide-Maréchal des Logis de l'armée.</castItem>
-		<castItem><role id="SAINT-GRATIEN" sex="1" type="H" statut="militaire" age="A" stat_amour='néant'>SAINT-GRATIEN</role>, Aide-Major.</castItem>
-		<castItem><role id="DAUVERSAC" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>DAUVERSAC</role>, Capitaine d'infanterie.</castItem>
-		<castItem><role id="GERVAULT" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>GERVAULT</role>, Capitaine de Cavalerie.</castItem>
-		<castItem><role id="DÉRINCOURT" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>DÉRINCOURT</role>, Capitaine de Dragons.</castItem>
-		<castItem><role id="UN GARÇON DE THÉÂTRE" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>UN GARÇON DE THÉÂTRE</role>.</castItem>
+		<castItem><role id="LE MARÉCHAL DE FRANCE" sex="1" type="H" statut="maréchal" age="A" stat_amour="néant">LE MARÉCHAL DE FRANCE</role>.</castItem>
+		<castItem><role id="LE CHEVALIER DE COURE-PLAINE" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">LE CHEVALIER DE COURE-PLAINE</role>, Aide-Maréchal des Logis de l'armée.</castItem>
+		<castItem><role id="SAINT-GRATIEN" sex="1" type="H" statut="militaire" age="A" stat_amour="néant">SAINT-GRATIEN</role>, Aide-Major.</castItem>
+		<castItem><role id="DAUVERSAC" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">DAUVERSAC</role>, Capitaine d'infanterie.</castItem>
+		<castItem><role id="GERVAULT" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">GERVAULT</role>, Capitaine de Cavalerie.</castItem>
+		<castItem><role id="DÉRINCOURT" sex="1" type="H" statut="capitaine" age="A" stat_amour="néant">DÉRINCOURT</role>, Capitaine de Dragons.</castItem>
+		<castItem><role id="UN GARÇON DE THÉÂTRE" sex="1" type="H" statut="employé" age="A" stat_amour="néant">UN GARÇON DE THÉÂTRE</role>.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scene est dans le Foyer de la Comédie Françoise.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>L'IMPORTANT</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Saint-Gratien, D'Auversac.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Saint-Gratien, D'Auversac.
+</stage>
 <sp who="SAINT-GRATIEN"><speaker>SAINT-GRATIEN.</speaker>
 <p id="1">
 	<s id="1">Hé bien, d'Auversac, que ferons-nous ?</s>
@@ -137,8 +138,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Chevalier, D'Auversac, Saint-Gratien.</head>
-<sp who="LE CHEVALIER"><speaker>LE CHEVALIER, entre d'un air effrayé.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Chevalier, D'Auversac, Saint-Gratien.
+</stage>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage>, entre d'un air effrayé.
+</stage>
 <p id="1">
 	<s id="1">Il n'y a personne ici. </s>
 </p>
@@ -289,13 +292,15 @@
 	<s id="1">Monsieur le Chevalier, quand pourrai-je avoir l'honneur de vous voir ?</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER"><speaker>LE CHEVALIER, en s'en allant.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage>, en s'en allant.
+</stage>
 <p id="30">
 	<s id="1">Mais quand vous voudrez ; demain, après demain, ou à Versailles , où nous serons toute la semaine prochaine.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Saint-Gratien, D'Auversac.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Saint-Gratien, D'Auversac.
+</stage>
 <sp who="D'AUVERSAC"><speaker>D'AUVERSAC.</speaker>
 <p id="31">
 	<s id="1">Est-ce pas là cet Important qui égara notre colonne la campagne dernière, qui nous fit faire six lieues, au lieu de deux, sans pouvoir trouver notre camp, et puis qui nous laissa-là ?</s>
@@ -340,9 +345,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Maréchal, Saint-Gratien.
-D'Auversac, Un Garçon.</head>
-<sp stage="toward" who="LE MARÉCHAL"><speaker>LE MARÉCHAL, au Garçon de Théâtre.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Maréchal, Saint-Gratien.
+D'Auversac, Un Garçon.
+</stage>
+<sp who="LE MARÉCHAL"><speaker>LE MARÉCHAL</speaker><stage type="toward">, au Garçon de Théâtre.
+</stage>
 <p id="1">
 	<s id="1">Va-t-on bientôt commencer ?</s>
 </p>
@@ -437,7 +444,8 @@ D'Auversac, Un Garçon.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Maréchal, Saint-Gratien, D'Auversac, Le Chevalier.</head> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Maréchal, Saint-Gratien, D'Auversac, Le Chevalier. 
+</stage> 
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Monsieur le Maréchal, je venais savoir si vous arriviez , pour...</s>
@@ -547,7 +555,8 @@ D'Auversac, Un Garçon.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Chevalier, Gervault.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Chevalier, Gervault.
+</stage>
 <sp who="LE CHEVALIER"><speaker>LE CHEVALIER.</speaker>
 <p id="1">
 	<s id="1">Me voilà bien avancé ! </s>
@@ -607,7 +616,8 @@ D'Auversac, Un Garçon.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Chevalier, Dérincourt, Gervault.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Chevalier, Dérincourt, Gervault.
+</stage>
 <sp who="DÉRINCOURT"><speaker>DÉRINCOURT.</speaker>
 <p id="1">
 	<s id="1">Hé bien, mon pauvre Chevalier, te voilà donc débusqué ; la loge de la Maréchale est remplie et tu n'y es pas ! </s>

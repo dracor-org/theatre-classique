@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<structure>Un acte</structure>
 				<periode>1881-1890</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,18 +30,18 @@
 			<titlePart type="sub">DIALOGUE POUR L'ENFANCE</titlePart>
 			<titlePart type="sub">Prix : 1 franc</titlePart>
 		</docTitle> 
-		<docDate value='1889'>1889</docDate>
-		<docAuthor id='LEMERCIER DE NEUVILLE, Louis' bio='mercier'>PAR LEMERCIER DE NEUVILLE</docAuthor>
+		<docDate value="1889">1889</docDate>
+		<docAuthor id="LEMERCIER DE NEUVILLE, Louis" bio="mercier">PAR LEMERCIER DE NEUVILLE</docAuthor>
 		<docImprint>
-			<copyright id='1889'>Droits de reproduction, de traduction et de représentation réservés.</copyright>
+			<copyright id="1889">Droits de reproduction, de traduction et de représentation réservés.</copyright>
 			<editor id="LIBRAIRIE THÉÂTRALE">PARIS, LIBRAIRIE THÉÂTRALE, 14, rue de Grammont, 14.</editor>
 			<printer>IMPRIMERIE GÉNÉRALE DE CHATILLON-SUR-SEINE, A. PÉPIN</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-		<castItem><role id="FRANÇOISE" sex="2" type="H" statut='domestique' age='E' stat_amour='néant'>FRANÇOISE</role>, de 8 à 12 ans.</castItem>
-		<castItem><role id="MARGOT" sex="2" type="H" statut='domestique' age='E' stat_amour='néant'>MARGOT</role>, idem.</castItem>
+		<castItem><role id="FRANÇOISE" sex="2" type="H" statut="domestique" age="E" stat_amour="néant">FRANÇOISE</role>, de 8 à 12 ans.</castItem>
+		<castItem><role id="MARGOT" sex="2" type="H" statut="domestique" age="E" stat_amour="néant">MARGOT</role>, idem.</castItem>
    </castList>
-   <set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+   <set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
    <note>Ce dialogue est extrait du volume "Les Enfants au salon" du même auteur.</note>
 </front>
 <body>
@@ -97,7 +97,8 @@
 	<s id="1">À propos...</s>
 </p>
 </sp>
-<sp stage="stop" who="MARGOT"><speaker>MARGOT, s'arrêtant.</speaker>
+<sp who="MARGOT"><speaker>MARGOT</speaker><stage type="stop">, s'arrêtant.
+</stage>
 <p id="9">
 	<s id="1">Quoi ?</s>
 </p>

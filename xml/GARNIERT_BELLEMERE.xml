@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,18 +29,18 @@
 		<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">HUITIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR D'ARMANCÉ" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>MONSIEUR D'ARMANCÉ</role>.</castItem>
-		<castItem><role id="MADAME D'ARMANCÉ" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME D'ARMANCÉ</role>.</castItem>
-		<castItem><role id="MADAME DU SAULSOY" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME DU SAULSOY</role>, soeur de Monsieur d' Armancé.</castItem>
-		<castItem><role id="LUCILE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>LUCILE</role>, fille de Monsieur d'Armancé, d'un premier lit.</castItem>
-		<castItem><role id="AGATHE" sex="2" type="H" statut="aristocrate" age="E" stat_amour='néant'>AGATHE</role>, fille de Monsieur et Madame d'Armancé, âgée de huit à neuf ans.</castItem> 
-		<castItem><role id="CLAUDINE" sex="2" type="H" statut="servante" age="A" stat_amour='néant'>CLAUDINE</role>, servante.</castItem>
+		<castItem><role id="MONSIEUR D'ARMANCÉ" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR D'ARMANCÉ</role>.</castItem>
+		<castItem><role id="MADAME D'ARMANCÉ" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME D'ARMANCÉ</role>.</castItem>
+		<castItem><role id="MADAME DU SAULSOY" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DU SAULSOY</role>, soeur de Monsieur d' Armancé.</castItem>
+		<castItem><role id="LUCILE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">LUCILE</role>, fille de Monsieur d'Armancé, d'un premier lit.</castItem>
+		<castItem><role id="AGATHE" sex="2" type="H" statut="aristocrate" age="E" stat_amour="néant">AGATHE</role>, fille de Monsieur et Madame d'Armancé, âgée de huit à neuf ans.</castItem> 
+		<castItem><role id="CLAUDINE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">CLAUDINE</role>, servante.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est chez Monsieur d'Armancé.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 144-167.</note>
@@ -49,7 +49,8 @@
 <div1 type="act" n="1"><head>LA BELLE-MÈRE</head>
 <stage type="decor">le Théâtre représente une Salle basse de la maison de Monsieur d'Armancé.</stage>
 <div2 type="scene" n="1"><head>SCENE PREMIERE.</head>
-<sp stage="alone" who="LUCILE"><speaker>LUCILE, seule.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="alone">, seule.
+</stage>
 <stage type="entrance/get/watch">Elle entre en regardant de tous côtés , et tient un papier.</stage>
 <p id="1">
 	<s id="1">Je suis seule, Dieu merci... </s>
@@ -70,7 +71,8 @@
 <stage type="exit/entrance">Agathe à l'instant où sa soeur se lève, se retire précipitamment dans la coulisse ; mais ne pouvant éviter d'être vue, elle feint d'entrer sur la scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lucile, Agathe.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lucile, Agathe.
+</stage>
 <sp who="AGATHE"><speaker>AGATHE.</speaker>
 <p id="1">
 	<s id="1">Bonjour, ma soeur.</s>
@@ -136,7 +138,8 @@
 	<s id="1">Oh que non ; mais c'est qu'elle craignait de mettre papa dans une colère qui lui ferait mal.</s>
 </p>
 </sp>
-<sp stage="desdain" who="LUCILE"><speaker>LUCILE, haussant les épaules.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="desdain">, haussant les épaules.
+</stage>
 <p id="14">
 	<s id="1">Quelle pitié ! </s>
 	<s id="2">Comment sais-tu cela ?</s>
@@ -171,8 +174,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Lucile, Agathe, Claudine.</head>
-<sp who="CLAUDINE"><speaker>CLAUDINE, à Lucile.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Lucile, Agathe, Claudine.
+</stage>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage>, à Lucile.
+</stage>
 <p id="1">
 	<s id="1">M'avez-vous appelée, Mademoiselle ?</s>
 </p>
@@ -187,7 +192,8 @@
 	<s id="1">Oui, je t'ai entendu appeler, Claudine.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCILE"><speaker>LUCILE, à Claudine.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="toward">, à Claudine.
+</stage>
 <p id="4">
 	<s id="1">Vous reviendrez quand je vous avertirai, je n'ai rien à vous dire à cette heure.</s>
 </p>
@@ -208,7 +214,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCèNE IV. Lucile, Agathe.</head>
+<div2 type="scene" n="4"><head>SCèNE IV.</head><stage> Lucile, Agathe.
+</stage>
 <sp who="AGATHE"><speaker>AGATHE.</speaker>
 <p id="1">
 	<s id="1">Pourquoi ne parles-tu donc pas à Claudine actuellement ?</s>
@@ -253,7 +260,8 @@
 	<s id="1">Qu'est-ce que tu faisais donc là ?</s>
 </p>
 </sp>
-<sp stage="" who="LUCILE"><speaker>LUCILE, d'un air indifférent.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="">, d'un air indifférent.
+</stage>
 <p id="10">
 	<s id="1">Rien, comme tu vois.</s>
 </p>
@@ -350,7 +358,8 @@
 <stage type="threat/exit">Elle sort en la menaçant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lucile, Claudine, qui survient.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lucile, Claudine, qui survient.
+</stage>
 <sp who="LUCILE"><speaker>LUCILE.</speaker>
 <p id="1">
 	<s id="1">Le mauvais sujet ! </s>
@@ -414,7 +423,8 @@
 	<s id="2">Va donc vite.</s>
 </p>
 </sp>
-<sp stage="away" who="CLAUDINE"><speaker>CLAUDINE, s'en allant.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="13">
 	<s id="1">Tant pis.</s>
 </p>
@@ -429,7 +439,8 @@
 	<s id="2">Dépêche-toi donc.</s>
 </p>
 </sp>
-<sp stage="away" who="CLAUDINE"><speaker>CLAUDINE, s'en allant.</speaker>
+<sp who="CLAUDINE"><speaker>CLAUDINE</speaker><stage type="away">, s'en allant.
+</stage>
 <p id="16">
 	<s id="1">Si vous partez, je demande mon congé, car je ne suis restée qu'à cause de vous.</s>
 </p>
@@ -447,7 +458,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp who="LUCILE"><speaker>LUCILE, seule.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage>, seule.
+</stage>
 <p id="1">
 	<s id="1">Que je suis à plaindre ! </s>
 	<s id="2">Depuis dix ans je ne vis plus ; ma bonne humeur et ma vivacité m'ont abandonnée pour jamais... </s>
@@ -462,14 +474,16 @@
 <stage type="sit/cry">Elle va s'asseoir auprès de la table, appuie sa tête sur ses mains et pleure.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madame d'Armancé, Lucile.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madame d'Armancé, Lucile.
+</stage>
 <sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce que c'est, mademoiselle ? </s>
 	<s id="2">Vous me donnerez donc à chaque instant de nouveaux chagrins ; qu'avez-vous fait à ma fille ?</s>
 </p>
 </sp>
-<sp who="LUCILE"><speaker>LUCILE, qui s'est levée sitôt qu'elle a aperçu Madame d'Armand.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage>, qui s'est levée sitôt qu'elle a aperçu Madame d'Armand.
+</stage>
 <p id="2">
 	<s id="1">À votre fille, Madame ?</s>
 </p>
@@ -495,7 +509,8 @@
 	<s id="1">Ne faudra-t-il pas aussi que je la respecte, Madame ?</s>
 </p>
 </sp>
-<sp stage="anger" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, avec colère.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="7">
 	<s id="1">Il faudra... il faudra... </s>
 	<s id="2">Vous êtes bien insolente aujourd'hui.</s>
@@ -506,12 +521,14 @@
 	<s id="1">Le terme est un peu fort, madame.</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, durement.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="strong">, durement.
+</stage>
 <p id="9">
 	<s id="1">Il vous convient, et je crois que je le puis employer avec une petite personne comme vous.</s>
 </p>
 </sp>
-<sp stage="smile" who="LUCILE"><speaker>LUCILE, avec un souris amer.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="smile">, avec un souris amer.
+</stage>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu, Madame, il y a longtemps que je m'aperçois que tout vous est permis.</s>
@@ -553,7 +570,8 @@
 	<s id="1">Ce reproche est bien injuste, Madame ; si mon triste sort m'arrache des larmes, c'est dans le secret que je les laisse couler.</s>
 </p>
 </sp>
-<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, la contrefaisant.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage>, la contrefaisant.
+</stage>
 <p id="17">
 	<s id="1">Votre triste fort. </s>
 </p>
@@ -569,7 +587,8 @@
 	<s id="1">Effectivement, Madame, si vous ne preniez soin de congédier tous les partis qui se présentent...</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, vivement.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="strong">, vivement.
+</stage>
 <p id="20">
 	<s id="1">Moi ? </s>
 	<s id="2">Je rebute les partis qui fe présentent pour vous, je vous empêche de vous marier ? </s>
@@ -632,7 +651,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Monsieur et Madame d'Armancé, Madame du Saulsoy, Lucile, Agathe.</head> 
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Monsieur et Madame d'Armancé, Madame du Saulsoy, Lucile, Agathe. 
+</stage> 
 <stage type="entrance/watch">Monsieur d'Armancé paraît au fond du théâtre avec madame du Saulsoy ; ils conversent quelque temps sans voir Madame d'Armante.</stage>
 <stage type="location/explicit">Pendant ce temps, Agathe entre de l'autre côté du théâtre et aborde Madame d'Armancé, ce qui forme deux scènes simultanées.</stage>
 <sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ.</speaker>
@@ -679,7 +699,8 @@
 	<s id="2">Jamais Monsieur de Germont n'a pensé autrement.</s>
 </p>
 </sp>
-<sp stage="toward/entrance" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, à Agathe, qui entre d'un air boudeur.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="toward/entrance">, à Agathe, qui entre d'un air boudeur.
+</stage>
 <p id="9">
 	<s id="1">Hé bien, mon petit ange, ton chagrin est-il passé ?</s>
 </p>
@@ -730,13 +751,15 @@
 	<s id="2">J'aperçois votre père fort à propos.</s>
 </p>
 </sp>
-<sp stage="closer/toward" who="MONSIEUR D'ARMANCÉ"><speaker>MONSIEUR D'ARMANCÉ, les abordant.</speaker>
+<sp who="MONSIEUR D'ARMANCÉ"><speaker>MONSIEUR D'ARMANCÉ</speaker><stage type="closer/toward">, les abordant.
+</stage>
 <p id="19">
 	<s id="1">Je suis bien aise de vous rencontrer ici tous. </s>
 	<s id="2">Je te marie, Lucile, si cela te fait plaisir.</s>
 </p>
 </sp>
-<sp stage="stress" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, vivement.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="stress">, vivement.
+</stage>
 <p id="20">
 	<s id="1">Comment, qui, quoi ? </s>
 	<s id="2">Vous mariez ?</s>
@@ -758,7 +781,8 @@
 	<s id="1">Vous m'étonnez à mon tour, Madame, et pourquoi, je vous prie ?</s>
 </p>
 </sp>
-<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, à Monsieur d'Armancé.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage>, à Monsieur d'Armancé.
+</stage>
 <p id="24">
 	<s id="1">Qui lui donne-t-on ?</s>
 </p>
@@ -809,7 +833,8 @@
 	<s id="2">Qu'est-ce que cela signifie donc ?</s>
 </p>
 </sp>
-<sp stage="get/give" who="LUCILE"><speaker>LUCILE, prend le billet et le donne à son père.</speaker>
+<sp who="LUCILE"><speaker>LUCILE</speaker><stage type="get/give">, prend le billet et le donne à son père.
+</stage>
 <p id="34">
 	<s id="1">Voyez, mon cher père, si je mérite d'être traitée aussi indignement.</s>
 </p>
@@ -825,7 +850,8 @@
 	<s id="2">Demandez à Claudine qui l'a portée, et elle indiquera la personne à qui je l'ai chargée de la remettre.</s>
 </p>
 </sp>
-<sp stage="abrupt" who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ, brusquement et d'un ton impérieux.</speaker>
+<sp who="MADAME D'ARMANCÉ"><speaker>MADAME D'ARMANCÉ</speaker><stage type="abrupt">, brusquement et d'un ton impérieux.
+</stage>
 <p id="37">
 	<s id="1">Sans tant d'explications, Mademoiselle ; vous vous mariez, c'est fort bien fait. </s>
 	<s id="2">L'époux que vous aurez, fait une excellente affaire, et je l'en félicite. </s>
@@ -854,7 +880,8 @@
 <stage type="exit/together/face">Elle sort avec sa fille, qui fait la grimace à Lucile.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX.  Monsieur d'Armancé, Madame du Saulsoy, Lucile.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage>  Monsieur d'Armancé, Madame du Saulsoy, Lucile.
+</stage>
 <sp who="MONSIEUR D'ARMANCÉ"><speaker>MONSIEUR D'ARMANCÉ.</speaker>
 <p id="1">
 	<s id="1">Quelle femme ! </s>
@@ -868,7 +895,8 @@
 <stage type="exit">Monsieur d'Armancé sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X ET DERNIÈRE. Madame du Saulsoy, Lucile, </head>
+<div2 type="scene" n="10"><head>SCÈNE X ET DERNIÈRE.</head><stage> Madame du Saulsoy, Lucile, 
+</stage>
 <sp who="MADAME DU SAULSOY"><speaker>MADAME DU SAULSOY.</speaker>
 <p id="1">
 	<s id="1">Elle est singulièrement déchaînée contre toi, cette femme ; que lui as-tu donc fait ?</s>

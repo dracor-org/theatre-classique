@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -29,16 +29,16 @@
 			<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">QUATORZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G**.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G**.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>EUGÉNIE DELBIEU</role>.</castItem>
-		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>ANGÉLIQUE</role>, nièce d'Eugénie.</castItem>
-		<castItem><role id="MONSIEUR DUBREUIL" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR DUBREUIL</role>.</castItem>
-		<castItem><role id="MADAME ROBERT" sex="2" type="H" statut="hôte" age="A" stat_amour='néant'>MADAME ROBERT</role>, Hôtesse.</castItem>
+		<castItem><role id="EUGÉNIE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">EUGÉNIE DELBIEU</role>.</castItem>
+		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ANGÉLIQUE</role>, nièce d'Eugénie.</castItem>
+		<castItem><role id="MONSIEUR DUBREUIL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR DUBREUIL</role>.</castItem>
+		<castItem><role id="MADAME ROBERT" sex="2" type="H" statut="hôte" age="A" stat_amour="néant">MADAME ROBERT</role>, Hôtesse.</castItem>
    </castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris, dans la maison de madame Robert.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 367-389.</note>
@@ -46,7 +46,8 @@
 <body>
 <div1 type="act" n="1"><head>LE BIENFAIT RÉCOMPENSÉ.</head>
 <stage type="decor">Le Théâtre représente l'appartement d'Eugénie.</stage>
-<div2 type="scene" n=""><head>SCÈNE PREMIÈRE. Eugénie, Angélique.</head>
+<div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head><stage> Eugénie, Angélique.
+</stage>
 <stage type="explicit">Le sujet de ce drame est tiré des Lettres du marquis de Rosette, roman de Madame E. D. B.</stage>
 <stage type="location/work">Angélique est sur le devant du Théâtre à une table, occupée à peindre des papiers d'éventail ; Eugénie un peu plus loin, travaille à un ouvrage de broderie.</stage>
 <sp who="EUGÉNIE"><speaker>EUGÉNIE.</speaker>
@@ -54,7 +55,8 @@
 	<s id="1">Angélique.</s>
 </p>
 </sp>
-<sp stage="work" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, toujours travaillant.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="work">, toujours travaillant.
+</stage>
 <p id="2">
 	<s id="1">Ma Tante.</s>
 </p>
@@ -84,7 +86,8 @@
 	<s id="1">Vous n'êtes pas raisonnable, Angélique ; vous savez que l'on vous a menacée de perdre la vue de bonne heure, si vous continuiez de vous occuper de la peinture.</s>
 </p>
 </sp>
-<sp stage="kiding" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, d'un ton de badinage.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="kiding">, d'un ton de badinage.
+</stage>
 <p id="8">
 	<s id="1">Eh bien, ma Tante ; puis-je mieux employer que pour vous le temps qui me reste à la conserver.</s>
 </p>
@@ -109,7 +112,8 @@
 	<s id="1">Tenez, ma Tante ; je vous avouerai que j'ai un goût particulier pour la peinture.</s>
 </p>
 </sp>
-<sp stage="tender" who="EUGÉNIE"><speaker>EUGÉNIE, la regarde tendrement.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="tender">, la regarde tendrement.
+</stage>
 <p id="14">
 	<s id="1">Vous ne me dites pas tous vos motifs, Angélique ; mais il y a longtemps que je les devine.</s></p>	
 </sp>
@@ -147,7 +151,8 @@
 	<s id="1">Vous ne voulez pas que je vous querelle comme vous le méritez, méchante que vous êtes.</s>
 </p>
 </sp>
-<sp stage="smile" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, souriant.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="21">
 	<s id="1">Oh ! </s>
 	<s id="2">Pardonnez-moi, ma Tante ; mais commencez par l'histoire du petit mendiant, vous me gronderez après si vous voulez.</s>
@@ -170,12 +175,14 @@
 	<s id="1">Le petit Jacquot était le plus jeune, il avait alors huit à dix ans.</s>
 </p>
 </sp>
-<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE, toujours peignant.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage>, toujours peignant.
+</stage>
 <p id="25">
 	<s id="1">Pauvre petit malheureux !</s>
 </p>
 </sp>
-<sp stage="work" who="EUGÉNIE"><speaker>EUGÉNIE, travaillant aussi par intervalles.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="work">, travaillant aussi par intervalles.
+</stage>
 <p id="26">
 	<s id="1">J'aimais beaucoup cet enfant qui venait souvent chez madame la Marquise de Fonrose m'offrir des épingles, des aiguilles et d'autres bagatelles. </s>
 	<s id="2">J'achetais toujours quelque chose ; je prenais un singulier plaisir à le faire causer; je l'entretenais de son commerce, et j'étais dans l'admiration de son intelligence, de la précision et de la sagesse qu'il mettait dans ses petits projets.</s>
@@ -266,7 +273,8 @@
 	<s id="1">Quelques jours après, il me vint voir avec et petite pacotille, dont il fit l'inventaire devant moi avec complaisance, et me dit qu'il partait le lendemain pour courir le Royaume ; depuis je n'en ai pas entendu parler.</s>
 </p>
 </sp>
-<sp stage="work" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, qui a achevé son ouvrage, serre ses couleurs et nettoie ses pinceaux.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="work">, qui a achevé son ouvrage, serre ses couleurs et nettoie ses pinceaux.
+</stage>
 <p id="38">
 	<s id="1">Il y a bien longtemps de cela sans doute.</s>
 </p>
@@ -293,7 +301,8 @@
 	<s id="1">Cela est bien aisé à dire, et vous voilà mal à votre aise pour vous être laisse frustrer du prix de votre travail.</s>
 </p>
 </sp>
-<sp stage="happy" who="EUGÉNIE"><speaker>EUGÉNIE, avec gaieté.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="happy">, avec gaieté.
+</stage>
 <p id="43">
 	<s id="1">Eh ! </s>
 	<s id="2">Que veux-tu que je fasse ? </s>
@@ -351,7 +360,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 <stage type="exit/entrance">Elle sort, Madame Robert entre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Eugénie, Madame Robert.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Eugénie, Madame Robert.
+</stage>
 <sp who="MADAME ROBERT"><speaker>MADAME ROBERT.</speaker>
 <p id="1">
 	<s id="1">Vot' servante, Mademoiselle.</s>
@@ -401,12 +411,14 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="3">Je sais bien que vous ne pouviez pas mieux faire et que ce n'était pas la bonne volonté qui vous manquait, ma très chère bonne demoiselle.</s>
 </p>
 </sp>
-<sp stage="impatient" who="EUGÉNIE"><speaker>EUGÉNIE, Impatiemment.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="impatient">, Impatiemment.
+</stage>
 <p id="10">
 	<s id="1">Finissez vos propos, ma bonne ; ce que je vous dois d'hier, je vous le payerai aujourd'hui, du reste je ne sortirai que quand le temps en sera venu.</s>
 </p>
 </sp>
-<sp who="MADAME ROBERT"><speaker>MADAME ROBERT, d'un ton aigre si criard.</speaker>
+<sp who="MADAME ROBERT"><speaker>MADAME ROBERT</speaker><stage>, d'un ton aigre si criard.
+</stage>
 <p id="11">
 	<s id="1">Diantre, sur quel ton vous le prenez ! </s>
 	<s id="2">Mais c'est que je suis trop bonne. </s>
@@ -415,7 +427,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="5">Je ne donnerais pas six francs de tout ce qui est dans votre chambre, et où irais-je prendre mon argent, si quelque beau matin vous veniez à mettre la clef sous la porte ?</s>
 </p>
 </sp>
-<sp stage="cry" who="EUGÉNIE"><speaker>EUGÉNIE, fondant en larmes.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="cry">, fondant en larmes.
+</stage>
 <p id="12">
 	<s id="1">Ah, mon_Dieu ! </s>
 	<s id="2">À quoi fuis-je réduite ! </s>
@@ -423,7 +436,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="4">Nous verrons demain, j'en passerai par où il vous plaira.</s>
 </p>
 </sp>
-<sp stage="sweet" who="MADAME ROBERT"><speaker>MADAME ROBERT, se radoucissant. </speaker>
+<sp who="MADAME ROBERT"><speaker>MADAME ROBERT</speaker><stage type="sweet">, se radoucissant. 
+</stage>
 <p id="13">
 	<s id="1">À la bonne heure. </s>
 	<s id="2">Voilà parler cela. </s>
@@ -432,8 +446,10 @@ que vous avez travaillé ce matin à la lumière.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCENE III. EUGÉNIE, MADAME ROBERT, MONSIEUR DUBREUIL.</head>
-<sp stage="entrance" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL entre sur la scène d'un air rêveur sans apercevoir personne.</speaker>
+<div2 type="scene" n="3"><head>SCENE III.</head><stage> EUGÉNIE, MADAME ROBERT, MONSIEUR DUBREUIL.
+</stage>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="entrance"> entre sur la scène d'un air rêveur sans apercevoir personne.
+</stage>
 <p id="1">
 	<s id="1">Est-il possible que je ne puisse découvrir aucune trace de la personne que je cherche ?</s>
 </p>
@@ -443,7 +459,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Monsieur Dubreuil, monsieur Dubreuil.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, toujours à part.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="aparte">, toujours à part.
+</stage>
 <p id="3">
 	<s id="1">Elle vit, m'a-t-on dit, malheureuse et ignorée ; tandis que je jouis de tout son bien.</s>
 </p>
@@ -462,7 +479,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Mademoiselle, pardon.</s>
 </p>
 </sp>
-<sp stage="pull" who="MADAME ROBERT"><speaker>MADAME ROBERT, le retenant.</speaker>
+<sp who="MADAME ROBERT"><speaker>MADAME ROBERT</speaker><stage type="pull">, le retenant.
+</stage>
 <p id="7">
 	<s id="1">Approchez, monsieur Dubreuil, approchez ? </s>
 	<s id="2">Vous venez voir vos appartements, sans doute.</s>
@@ -489,7 +507,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Monsieur, il le faut bien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, à part.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Voilà un son de voix, des traits qui ne me sont point inconnus.</s>
 </p>
@@ -503,7 +522,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">C'est ce qui arrive, cependant.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, à part.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Juste Ciel, ne me trompé-je point ; serait-ce mademoiselle Eugénie Delbieu que je cherche depuis si longtemps !</s>
 </p>
@@ -518,7 +538,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Comment, monsieur, est-ce que vous ne prendriez point mes appartements ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, à part.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">C'est elle-même. </s>
 	<s id="2">Quel bonheur !</s>
@@ -529,13 +550,15 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="2">Laissez-moi, je vous prie, avec Mademoiselle, je ferai en sorte que tout se passe au contentement de tout le monde.</s>
 </p>
 </sp>
-<sp stage="exit" who="MADAME ROBERT"><speaker>MADAME ROBERT, sortant.</speaker>
+<sp who="MADAME ROBERT"><speaker>MADAME ROBERT</speaker><stage type="exit">, sortant.
+</stage>
 <p id="20">
 	<s id="1">Arrangez-vous comme vous voudrez ; mais notre marché tiendra.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Eugénie, Monsieur Dubreuil.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Eugénie, Monsieur Dubreuil.
+</stage>
 <sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL.</speaker>
 <p id="1">
 	<s id="1">Vous me pardonnerez, Mademoiselle, le petit chagrin que je vous ai causé involontairement.</s>
@@ -562,7 +585,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Vous m'en voyez pénétré, Mademoiselle ; et c'est un malheur pour moi de ne les avoir pas prévenues.</s>
 </p>
 </sp>
-<sp stage="surprise" who="EUGÉNIE"><speaker>EUGÉNIE, surprise.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="surprise">, surprise.
+</stage>
 <p id="6">
 	<s id="1">Vous m'étonnez, Monsieur. </s>
 	<s id="2">Pourquoi cet intérêt si vif ? </s>
@@ -633,7 +657,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="4">Vous souvenez-vous d'un certain petit Jacquot, à qui vous prêtâtes deux louis pour l'aider dans son commerce?</s>
 </p>
 </sp>
-<sp who="EUGÉNIE"><speaker>EUGÉNIE, h confidère avec attention.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage>, h confidère avec attention.
+</stage>
 <p id="18">
 	<s id="1">Parfaitement.</s>
 </p>
@@ -721,7 +746,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Dites, Monsieur ; pourvu que vous gardiez votre argent, je consens à tout.</s>
 </p>
 </sp>
-<sp stage="shy" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, timidement.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="shy">, timidement.
+</stage>
 <p id="32">
 	<s id="1">Hélas, Mademoiselle ! </s>
 	<s id="2">Je n'ose... </s>
@@ -733,7 +759,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="1">Vous êtes trop honnête, Monsieur, pour me faire des propositions qui ne le soient pas.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, toujours avec embarras.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="embarrassed">, toujours avec embarras.
+</stage>
 <p id="34">
 	<s id="1">Oh, pour l'honnêteté de mes intentions... </s>
 	<s id="2">Mademoiselle... </s>
@@ -765,7 +792,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="3">Si vous voulez accepter ma fortune... je suis le plus heureux des hommes.</s>
 </p>
 </sp>
-<sp stage="happy" who="EUGÉNIE"><speaker>EUGÉNIE, d'un air gai.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="happy">, d'un air gai.
+</stage>
 <p id="38">
 	<s id="1">Vous voulez rire, Monsieur, regardez-moi, je vous prie.</s>
 </p>
@@ -817,24 +845,29 @@ que vous avez travaillé ce matin à la lumière.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V et dernière. Eugénie, Monsieur Dubreuil, Angélique.</head>
-<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE, entre précipitamment sans apercevoir Monsieur Dubreuil.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V et dernière.</head><stage> Eugénie, Monsieur Dubreuil, Angélique.
+</stage>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage>, entre précipitamment sans apercevoir Monsieur Dubreuil.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, ma chère Tante, j'ai réussi ; j'apporte...</s>
 </p>
 <stage type="watch/wave">Ici Angélique aperçoit Monsieur Dubreuil, s'interrompt tout court et le salue.</stage> 
 </sp>
-<sp stage="aparte" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, à part.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">La charmante personne.</s>
 </p>
 </sp>
-<sp stage="toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à Monsieur Dubreuil.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward">, à Monsieur Dubreuil.
+</stage>
 <p id="3">
 	<s id="1">Monsieur, je vous demande pardon.</s>
 </p>
 </sp>
-<sp stage="toward" who="EUGÉNIE"><speaker>EUGÉNIE, à Angélique.</speaker>
+<sp who="EUGÉNIE"><speaker>EUGÉNIE</speaker><stage type="toward">, à Angélique.
+</stage>
 <p id="4">
 	<s id="1">Tu ne connais pas Monsieur ?</s>
 </p>
@@ -891,7 +924,8 @@ que vous avez travaillé ce matin à la lumière.</s>
 	<s id="">J'ai assuré Monsieur que si j'avais vingt ans de moins, j'accepterais ses offres ; vous êtes une autre moi-même, je vous charge de remplir ma promesse ; monsieur ne me contredira pas.</s>
 </p>
 </sp>
-<sp stage="happy" who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL, avec joie.</speaker>
+<sp who="MONSIEUR DUBREUIL"><speaker>MONSIEUR DUBREUIL</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="15">
 	<s id="1">Ah, Mademoiselle ! </s>
 	<s id="2">Rien ne manquerait à mon bonheur.</s>

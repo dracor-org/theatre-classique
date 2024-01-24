@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>1771-1780</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -27,29 +27,30 @@
 				<titlePart type="main">LA HARANGUE</titlePart>
 				<titlePart type="sub">OPUSCULE DRAMATIQUE</titlePart>
 			</docTitle> 
-			<docDate value='1778'>M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
-			<docAuthor id='SACY, Claude-Louis-Michel de' bio=''>De SACY, Claude-Louis-Michel de</docAuthor>
+			<docDate value="1778">M. DCC LXXVIII. Avec Approbation et Privilège du Roi.</docDate>
+			<docAuthor id="SACY, Claude-Louis-Michel de" bio="">De SACY, Claude-Louis-Michel de</docAuthor>
 			<docImprint>
-				<printer id='DEMONVILLE'>À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
+				<printer id="DEMONVILLE">À PARIS, Chez DEMONVILLE. Imprimeur-Librairie de l'Académie Française, rue Saint-Severin, aux Armes de Dombes.</printer>
 			</docImprint>
 			<performance>
-				<premiere date='' location=''></premiere>
+				<premiere date="" location=""/>
 			</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id='LE COMTE' sex="1" type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE D'HÉBERVILLE</role>.</castItem>
-		<castItem><role id='PASQUIN' sex="1" type="H" statut="valet" age='A' stat_amour='néant'>PASQUIN</role>, Valet du Comte.</castItem>
-		<castItem><role id='LUCAS' sex="1" type="H" statut='paysan' age='A' stat_amour='néant'>LUCAS</role>, jeune paysan.</castItem>
-		<castItem><role id='COLETTE' sex="2" type="H" statut='paysan' age='A' stat_amour='néant'>COLETTE</role>, jeune Paysanne.</castItem>
-		<castItem><role id='RUSTAUD' sex="1" type="H" statut='fermier' age='A' stat_amour='néant'>RUSTAUD</role>, Fermier.</castItem>
-		<castItem><role id='GALONNIER' sex="1" type="H" statut='tailleur' age='A' stat_amour='néant'>GALONNIER</role>, Tailleur.</castItem>
-		<castItem><role id='TROUPE DE PAYSANS' sex="9" type="H" statut="paysan" age='A' stat_amour='néant'>TROUPE DE PAYSANS</role>.</castItem>
+		<castItem><role id="LE COMTE" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE D'HÉBERVILLE</role>.</castItem>
+		<castItem><role id="PASQUIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">PASQUIN</role>, Valet du Comte.</castItem>
+		<castItem><role id="LUCAS" sex="1" type="H" statut="paysan" age="A" stat_amour="néant">LUCAS</role>, jeune paysan.</castItem>
+		<castItem><role id="COLETTE" sex="2" type="H" statut="paysan" age="A" stat_amour="néant">COLETTE</role>, jeune Paysanne.</castItem>
+		<castItem><role id="RUSTAUD" sex="1" type="H" statut="fermier" age="A" stat_amour="néant">RUSTAUD</role>, Fermier.</castItem>
+		<castItem><role id="GALONNIER" sex="1" type="H" statut="tailleur" age="A" stat_amour="néant">GALONNIER</role>, Tailleur.</castItem>
+		<castItem><role id="TROUPE DE PAYSANS" sex="9" type="H" statut="paysan" age="A" stat_amour="néant">TROUPE DE PAYSANS</role>.</castItem>
 	</castList>
-	<set location='Banlieue de Paris' country='France' periode='XVIIIème' gps="(N/A)">La Scène est dans le Château du Comte, à quelques lieues de Paris.</set>
+	<set location="Banlieue de Paris" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans le Château du Comte, à quelques lieues de Paris.</set>
 	<note>Édition tirée de Claude-Louis-Michel de Sacy, La sympathie, dans Opuscules dramatiques, ou Nouveaux amusements de campagne, tome second, Paris, Chez Demonville, Imprimeur-Libraire de l'Académie française, 1778, p. 377-416. </note>
 </front>
 <body>
-<div1 type="acte" n="1"><head></head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Comte, Pasquin.</head>
+<div1 type="acte" n="1"><head/>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Comte, Pasquin.
+</stage>
 <sp who="PASQUIN"><speaker>PASQUIN.</speaker>
 <p id="1">
 	<s id="1">Vous voilà donc enfin dans la Terre que vous venez d'acheter ! </s>
@@ -161,8 +162,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Comte, Pasquin, Galonnier.</head>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, au Comte.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Comte, Pasquin, Galonnier.
+</stage>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, au Comte.
+</stage>
 <p id="1">
 	<s id="1">C'est votre tailleur, qui vient vous apporter cet habit de campagne qu'il n'a pu finir avant votre départ de Paris.</s>
 </p>
@@ -190,7 +193,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Galonnier, Pasquin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Galonnier, Pasquin.
+</stage>
 <sp who="GALONNIER"><speaker>GALONNIER.</speaker>
 <p id="1">
 	<s id="1">Cher Monsieur Pafquin , je vais vous faire une confidence ; vous êtes discret ?</s>
@@ -338,9 +342,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Pasquin, Galonnier, Rustaut, Lucas, Colette, Troupe de Paysans.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pasquin, Galonnier, Rustaut, Lucas, Colette, Troupe de Paysans.
+</stage>
 <stage type="entrance">Les villageois entrent brusquement, de manière que Pasquin n'a pas le temps de se dépouiller de l'habit au Comte.</stage>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, à Galonnier.
+</stage>
 <p id="1">
 	<s id="1">Que faire ? </s>
 	<s id="2">Quel parti prendre ?</s>
@@ -351,23 +357,27 @@
 	<s id="1">Tenez ferme ; payez d'impudence ; donnez-vous pour le Seigneur du Village.</s>
 </p>
 </sp>
-<sp stage="toward" who="RUSTAUD"><speaker>RUSTAUD, à Lucas.</speaker>
+<sp who="RUSTAUD"><speaker>RUSTAUD</speaker><stage type="toward">, à Lucas.
+</stage>
 <p id="3">
 	<s id="1">Allons, porte la parole.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUCAS"><speaker>LUCAS, à Rustaut.</speaker>
+<sp who="LUCAS"><speaker>LUCAS</speaker><stage type="toward">, à Rustaut.
+</stage>
 <p id="4">
 	<s id="1">Eh ! </s>
 	<s id="2">Parle toi-même : sa présence m'interdit.</s>
 </p>
 </sp>
-<sp toward="toward" who="PASQUIN"><speaker>PASQUIN, à Galonnier.</speaker>
+<sp toward="toward" who="PASQUIN"><speaker>PASQUIN</speaker><stage>, à Galonnier.
+</stage>
 <p id="5">
 	<s id="1">Mais puis-je jouer ici le rôle de Monsieur_le_Comte, sans qu'il en soit informé ?</s>
 </p>
 </sp>
-<sp stage="toward" who="GALONNIER"><speaker>GALONNIER, à Pasquin.</speaker>
+<sp who="GALONNIER"><speaker>GALONNIER</speaker><stage type="toward">, à Pasquin.
+</stage>
 <p id="6">
 	<s id="1">Ne saura-t-il pas qu'on vous a trouvé revêtu de son habit ? </s>
 	<s id="2">Peut-on contenir des langues de village ? </s>
@@ -375,29 +385,34 @@
 	<s id="4">Croyez-moi, tirez parti de cette circonstance.</s>
 </p>
 </sp>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN,à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">,à Galonnier.
+</stage>
 <p id="7">
 	<s id="1">Et quel parti puis-je en tirer, si ce n'est d'attirer sur mes épaules une grêle de coups ? </s>
 	<s id="2">Monsieur_le_Comte n'est pas de ces maîtres complaisants, que l'on joue impunément.</s>
 </p>
 </sp>
-<sp satge="toward" who="RUSTAUD"><speaker>RUSTAUD, à Lucas.</speaker>
+<sp satge="toward" who="RUSTAUD"><speaker>RUSTAUD</speaker><stage>, à Lucas.
+</stage>
 <p id="8">
 	<s id="1">Il parle en confidence à quelqu'un de ses gens.</s>
 </p>
 </sp>
-<sp stage="toward" who="COLETTE"><speaker>COLETTE, à Lucas.</speaker>
+<sp who="COLETTE"><speaker>COLETTE</speaker><stage type="toward">, à Lucas.
+</stage>
 <p id="9">
 	<s id="">Je ne sais ; mais, selon moi , ni le maître ni le valet n'ont l'air fort noble.</s>
 </p>	
 </sp>
-<sp stage="toward" who="LUCAS"><speaker>LUCAS, à Colette.</speaker>
+<sp who="LUCAS"><speaker>LUCAS</speaker><stage type="toward">, à Colette.
+</stage>
 <p id="10">
 	<s id="1">Paix !... </s>
 	<s id="2">S'il t'entendoit...</s>
 </p>
 </sp>
-<sp stage="toward" who="GALONNIER"><speaker>GALONNIER, à Pasquin.</speaker>
+<sp who="GALONNIER"><speaker>GALONNIER</speaker><stage type="toward">, à Pasquin.
+</stage>
 <p id="11">
 	<s id="1">On m'a assuré que les habitants de ce village apportaient une bourse au Seigneur le jour de son arrivée.</s>
 </p>
@@ -411,7 +426,8 @@
 	<s id="1">Que voulez-vous, mes enfants ?</s>
 </p>
 </sp>
-<sp stage="closer/shy" who="RUSTAUD"><speaker>RUSTAUD, s'approche d'un pas timide, et parle en tremblant.</speaker>
+<sp who="RUSTAUD"><speaker>RUSTAUD</speaker><stage type="closer/shy">, s'approche d'un pas timide, et parle en tremblant.
+</stage>
 <p id="14">
 	<s id="">Monsieur... le Comte...</s>
 </p>
@@ -525,7 +541,8 @@
 	<s id="2">Mes Prédécesseurs étaient des gens inimitables.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LUCAS"><speaker>LUCAS, bas à Colette.</speaker>
+<sp who="LUCAS"><speaker>LUCAS</speaker><stage type="low/toward">, bas à Colette.
+</stage>
 <p id="33">
 	<s id="1">Fi ! </s>
 	<s id="2">Le vilain Seigneur que nous avons là !</s>
@@ -620,13 +637,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Comte, Lucas, Pasquin, Rustaut, Galonnier, Colette, Troupe de paysans.</head>
-<sp stage="location" who="LE COMTE"><speaker>LE COMTE, derrière la coulisse, et dans l'éloignement.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Comte, Lucas, Pasquin, Rustaut, Galonnier, Colette, Troupe de paysans.
+</stage>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="location">, derrière la coulisse, et dans l'éloignement.
+</stage>
 <p id="1">
 	<s id="1">Pasquin !...</s>
 </p>
 </sp>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, à Galonnier.
+</stage>
 <p id="2">
 	<s id="1">Monsieur_le_Comte m'appelle. </s>
 	<s id="2">Ah ! </s>
@@ -638,7 +658,8 @@
 	<s id="1">Pourquoi perdez-vous votre temps à cajoler cette villageoise ?</s>
 </p>
 </sp>
-<sp stage="location/away" who="LE COMTE"><speaker>LE COMTE, toujours derrière la coulisse, et dans l'éloignement.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="location/away">, toujours derrière la coulisse, et dans l'éloignement.
+</stage>
 <p id="4">
 	<s id="1">Pasquin !...</s>
 </p>
@@ -648,7 +669,8 @@
 	<s id="1">Quelle voix vient de se faire entendre ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="PASQUIN"><speaker>PASQUIN, avec embarras.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="6">
 	<s id="1">C'est mon Intendant qui appelle mon secrétaire.</s>
 </p>
@@ -658,7 +680,8 @@
 	<s id="1">Et ce secrétaire se nomme Monsieur Pasquin ?</s>
 </p>
 </sp>
-<sp stage="location" who="LE COMTE"><speaker>LE COMTE, derrière la coulisse, mais plus près.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="location">, derrière la coulisse, mais plus près.
+</stage>
 <p id="8">
 	<s id="1">Pasquin !... </s>
 	<s id="2">Eh bien, ce maraud-là ne viendra point !</s>
@@ -683,7 +706,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Pasquin, Galonnier, Lucas, Rustaut, Colette, Troupe de paysans.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Pasquin, Galonnier, Lucas, Rustaut, Colette, Troupe de paysans.
+</stage>
 <sp who="PASQUIN"><speaker>PASQUIN.</speaker>
 <p id="1">
 	<s id="1">Ce Secrétaire est mon homme de confiance ; c'est un garçon très intelligent, très honnête. </s>
@@ -706,7 +730,8 @@
 	<s id="3">Croyez-moi, rendez-lui ce soir une visite dont il puisse être satisfait.</s>
 </p>
 </sp>
-<sp stage="toward" who="GALONNIER"><speaker>GALONNIER, à Pasquin.</speaker>
+<sp who="GALONNIER"><speaker>GALONNIER</speaker><stage type="toward">, à Pasquin.
+</stage>
 <p id="5">
 	<s id="1">La précaution que vous prenez est fort sage. </s>
 	<s id="2">Tirez aujourd'hui tout ce que vous pourrez de ces gens-là ; car demain, si tout se découvre, vous ferez renvoyé.</s>
@@ -719,7 +744,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Comte, Galonnier, Pasquin, Rustaut, Lucas, Colette, Troupe de paysans.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Comte, Galonnier, Pasquin, Rustaut, Lucas, Colette, Troupe de paysans.
+</stage>
 <stage type="dress">Le Comte est vêtu de noir, enveloppé dans un manteau, par dessous lequel il cache un bâton. Il porte une grande perruque noire, et un large  chapeau, rabattu de manière qu'il lui couvre le visage.</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 <p id="1">
@@ -759,17 +785,20 @@
 	<s id="1">Je le serais, Monseigneur, si je voulais faire l'énumération de toutes les perfections, qu'on admire dans votre Grandeur ; mais je ferai court, pour ne pas faire souffrir votre modestie.</s>
 </p>
 </sp>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, à Gallonier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, à Gallonier.
+</stage>
 <p id="8">
 	<s id="1">Vraiment, ce maraud là n'est pas sot.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="GALONNIER"><speaker>GALONNIER, bas à Pasquin.</speaker>
+<sp who="GALONNIER"><speaker>GALONNIER</speaker><stage type="low/toward">, bas à Pasquin.
+</stage>
 <p id="9">
 	<s id="1">Je ne sais, mais cet Orateur m'est suspect ; on ne parle point ainsi au village.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="PASQUIN"><speaker>PASQUIN, bas à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="low/toward">, bas à Galonnier.
+</stage>
 <p id="10">
 	<s id="">Il me semble que Monsieur_le_Comte vient de m'appeler ?</s>
 </p>
@@ -789,18 +818,21 @@
 	<s id="1">Monseigneur, nous avons tous béni le Ciel, lorsque nous avons appris qu'il nous donnait un Seigneur, dont la haute noblesse se décèle d'abord par tous les traits de son visage...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="PASQUIN"><speaker>PASQUIN, bas à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="low/toward">, bas à Galonnier.
+</stage>
 <p id="14">
 	<s id="1">Ce drôle-là est physionomiste... </s>
 	<s id="2">Monsieur_le_Comte ne m'appelle-t-il pas ?</s>
 </p>	
 </sp>
-<sp stage="toward" who="GALONNIER"><speaker>GALONNIER, à Pasquin.</speaker>
+<sp who="GALONNIER"><speaker>GALONNIER</speaker><stage type="toward">, à Pasquin.
+</stage>
 <p id="15">
 	<s id="1">Eh non, vous dis-je.</s>
 </p>
 </sp>
-<sp stage="toward" who="PASQUIN"><speaker>PASQUIN, à Galonnier.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="toward">, à Galonnier.
+</stage>
 <p id="16">
 	<s id="1">Je crains qu'il ne s'impatiente, et qu'il ne vienne ici troubler l'Orateur...</s>
 </p> 
@@ -815,7 +847,8 @@
 	<s id="2">Un Seigneur généreux, libéral...</s>
 </p>
 </sp>
-<sp stage="low/towrad" who="RUSTAUD"><speaker>RUSTAUD, bas à l'Orateur.</speaker>
+<sp who="RUSTAUD"><speaker>RUSTAUD</speaker><stage type="low/towrad">, bas à l'Orateur.
+</stage>
 <p id="19">
 	<s id="1">Ma foi il ne l'est guère ; car, loin de nous rien donner, il nous a extorqué vingt-cinq louis.</s>
 </p>
@@ -825,7 +858,8 @@
 	<s id="1">Un Seigneur équitable et sévère, qui protégera ses vassaux contre l'injustice de ses gens.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PASQUIN"><speaker>PASQUIN, à part.</speaker>
+<sp who="PASQUIN"><speaker>PASQUIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="21">
 	<s id="1">Tout ceci commence à m'inquiéter ; et quoique ma Grandeur soit au milieu de ses vassaux, je ne la crois pas en sûreté.</s>
 </p>
@@ -846,7 +880,8 @@
 	<s id="1">À moi, mes vassaux, à moi !</s>
 </p>
 </sp>
-<sp stage="together" who="LES VILLAGEOIS"><speaker>LES VILLAGEOIS, ensemble.</speaker>
+<sp who="LES VILLAGEOIS"><speaker>LES VILLAGEOIS</speaker><stage type="together">, ensemble.
+</stage>
 <p id="25">
 	<s id="1">Défendons Monseigneur, défendons Monseigneur.</s>
 </p>
@@ -859,7 +894,8 @@
 	<s id="4">Si vous vous êtes avancés pour défendre ce maraud qui vous a volés, que ferez-vous pour moi quand vous connaîtrez mon coeur ?</s>
 </p>
 </sp>
-<sp stage="together" who="LES VILLAGEOIS"><speaker>LES VILLAGEOIS, ensemble.</speaker>
+<sp who="LES VILLAGEOIS"><speaker>LES VILLAGEOIS</speaker><stage type="together">, ensemble.
+</stage>
 <p id="27">
 	<s id="1">Monseigneur ! ...</s>
 </p>
@@ -869,7 +905,8 @@
 	<s id="1">Point de Monseigneur, mes enfants ; je suis votre père, votre ami.</s>
 </p>
 </sp>
-<sp stage="toward" who="RUSTAUD"><speaker>RUSTAUD, à Pasquin.</speaker>
+<sp who="RUSTAUD"><speaker>RUSTAUD</speaker><stage type="toward">, à Pasquin.
+</stage>
 <p id="29">
 	<s id="1">Monseigneur, nous permettez-vous d'aller rendre à ce Secrétaire qui a la confiance de votre Grandeur, une visite dont il soit satisfait.</s>
 </p>

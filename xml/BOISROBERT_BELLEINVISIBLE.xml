@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<structure>Cinq actes</structure>
 				<periode>1651-1660</periode>
 				<taille>1500-1750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -37,7 +37,7 @@
 					<p>Par grâce et Privilège du Roi, donné à Paris le 8. Mai 1656. signé Guitonneau, il est permis au sieur de Bois-Robert Abbé de Châtillon, de faire imprimer une pièce de Théâtre de sa composition, intitulée, la Belle Invisible, ou la Constance éprouvée, par tel Imprimeur et Libraire qu'il avisera bon être, pendant le temps de neuf ans entiers et accomplis, à commencer du jour que ladite pièce sera imprimée, et défences sont faites à toutes autres personnes de quelques qualités et conditions qu'ils soient, de faire imprimer, vendre ni débiter d'autre impression que celle dudit exposant, ou de celui qui aura droit de lui, à peine de deux mille livres d'amende, confiscation des exemplaires, et de tous dépens, dommages et intérêts, comme il est plus amplement porté par lesdites Lettres.</p>
 					<p>Et ledit sieur de Bois-Robert a cédé et transporté le droit de son privilège à Guillaume de Luyne Marchand Libraire, pour en jouir, suivant l'accord fait entre-eux.</p>
 				</privilege>
-				<acheveImprime id='1656-06-01'>Achevé d'imprimer le premier Juin 1656. Les exemplaires ont été fournis.</acheveImprime>
+				<acheveImprime id="1656-06-01">Achevé d'imprimer le premier Juin 1656. Les exemplaires ont été fournis.</acheveImprime>
 				<printer id="LUYNE">À PARIS, Chez GUILLAUME DE LUYNE, Libraire juré, au Palais, dans la Salle des Merciers, à la justice.</printer>
 		</docImprint>
 		<performance>
@@ -64,11 +64,12 @@
 			<castItem><role id="QUATRE GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="">QUATRE GARDES</role>.</castItem>
 			<castItem><role id="UN PAGE" sex="1" type="H" statut="page" age="A" stat_amour="">UN PAGE</role>.</castItem>
 		</castList>
-		<set location="Barcelone" country="Espagne" periode="XVIIème" gps="41.38879, 2.15899"></set>
+		<set location="Barcelone" country="Espagne" periode="XVIIème" gps="41.38879, 2.15899"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Don_Carlos d'Aragon, Don Pedre.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Don_Carlos d'Aragon, Don Pedre.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1">Vous vous êtes trompé Don_Pedre assurément !</l>
 </sp>
@@ -354,7 +355,8 @@
 	<l id="218">Qui le découvrira ? Je ne l'ai dit qu'à vous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Olympe, sous le nom d'Alexis, Alfonce.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Olympe, sous le nom d'Alexis, Alfonce.
+</stage>
 <sp who="ALFONCE"><speaker>ALFONCE.</speaker>
 	<l id="219" syll="6" part="i">Voilà ce Don_Carlos, Madame !</l>
 </sp>
@@ -441,7 +443,8 @@
 	<l id="279">Dont l'exécution n'est pas en ma puissance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Don Léonard, Don Alexis, Alfonce.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Don Léonard, Don Alexis, Alfonce.
+</stage>
 <sp who="DON LÉONARD"><speaker>DON LÉONARD.</speaker>
 	<l id="280">Mon neveu, vous prenez un peu trop de licence ! </l>
 	<l id="281">A la fin vous mettrez ma patience à bout</l>
@@ -509,7 +512,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Don Léonard, Marcelle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Don Léonard, Marcelle.
+</stage>
 <sp who="DON LÉONARD"><speaker>DON LÉONARD.</speaker>
 	<l id="327">Écoutez ses raisons, ne le condamnez pas</l>
 	<l id="328">Avant que de l'entendre, il marche sur mes pas.</l>
@@ -543,7 +547,8 @@
 	<l id="352">Je vois son repentir écrit dedans ses yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Don Alexis, Marcelle.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Don Alexis, Marcelle.
+</stage>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
 	<l id="353">D'où vient Don Alexis après huit jours d'absence ?</l>
 	<l id="354">Aurais-je sur son âme un reste de puissance ?</l>
@@ -666,7 +671,8 @@
 	<l id="440">Et nous met à couvert des feux que vous craignez ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Don Alvare. Don Alexis, Marcelle.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Don Alvare. Don Alexis, Marcelle.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="441" syll="3" part="i">Alexis ?</l>
 </sp>
@@ -684,12 +690,14 @@
 <sp who="DON ALEXIS"><speaker>DON ALEXIS.</speaker>
 	<l id="444" syll="9" part="f">Je reviens, et vous laisse à regret.</l>
 </sp>
-<sp stage="low" who="MARCELLE"><speaker>MARCELLE, bas.</speaker>
+<sp who="MARCELLE"><speaker>MARCELLE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="445">Vous me viendrez rejoindre auprès de ce bocage ; </l>
 	<l id="446">Admirez justes dieux à quel homme on m'engage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Don Alvare, Don Alexis.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Don Alvare, Don Alexis.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="447">Quoi perfide, est-ce là ce qu'on m'avait promis ?</l>
 	<l id="448">Nous nous quittâmes hier apparemment amis,</l>
@@ -792,7 +800,8 @@
 	<l id="512">Souffrez que je partage avec lui votre Encens.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Marcelle, Don Alexis.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Marcelle, Don Alexis.
+</stage>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
 	<l id="513">Que vous voulait Alvare, et quelle est l'importance</l>
 	<l id="514">Du secret qu'il m'a fait d'extrême conséquence ?</l>
@@ -982,7 +991,8 @@
 	<l id="644">Que j'ai le coeur touché de vos beaux sentiments.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Don Alvare, Don Alexis, Marcelle.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Don Alvare, Don Alexis, Marcelle.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="645">Quoi perfide, est-ce ainsi qu'on m'offre son service,  </l>
 	<l id="646">Est-ce là le fidèle, et charitable office</l>
@@ -1060,7 +1070,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Olympe, Marcelle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Olympe, Marcelle.
+</stage>
 <sp who="OLYMPE"><speaker>OLYMPE.</speaker>
 	<l id="685">He bien chère cousine enfin qu'en dites-vous,  </l>
 	<l id="686">Ai-je fait en Carlos un choix digne de nous ?</l>
@@ -1202,7 +1213,8 @@
 	<l id="783">Alvare vient à nous, Adieu je me retire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Don Alvare, Olympe, Marcelle.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Don Alvare, Olympe, Marcelle.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="784">Si je suis importun, vous n'avez qu'à le dire.</l>
 </sp>
@@ -1219,7 +1231,8 @@
 	<l id="789" syll="2" part="i">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Don Alvare, Marcelle.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Don Alvare, Marcelle.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="789" syll="10" part="f">J'aurai l'honneur de vous donner la main.</l>
 </sp>
@@ -1252,7 +1265,8 @@
 	<l id="806">Si mes femmes sont là, qu'on les fasse appeler.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Don Carlos, Don Pedre.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Don Carlos, Don Pedre.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="807">Je meurs d'impatience ! ah que je suis en peine,</l>
 </sp>
@@ -1349,7 +1363,8 @@
 	<l id="861" syll="3" part="i">La voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Vice-Reine, Lucille, Don Carlos, Don Pedre.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Vice-Reine, Lucille, Don Carlos, Don Pedre.
+</stage>
 <sp who="LA VICE-REINE"><speaker>LA VICE-REINE.</speaker>
 	<l id="861" syll="9" part="f">Mon cousin demeurez un moment !</l>
 	<l id="862">De grâce attendez moi dans mon appartement.</l>
@@ -1361,7 +1376,8 @@
 	<l id="866">Et je me vois toujours dans le même embarras.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Vice-Reine, Lucille.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Vice-Reine, Lucille.
+</stage>
 <sp who="LA VICE-REINE"><speaker>LA VICE-REINE.</speaker>
 	<l id="867">Lucille d'où vous vient cette morne tristesse ? </l>
 	<l id="868">Qu'avez-vous dans l'esprit qui vous gêne et vous blesse ?</l>
@@ -1428,7 +1444,8 @@
 	<l id="914">Que n'a-t'il trouvé l'art d'aimer plus constamment ! </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Don Carlos, La Vice-Reine, Lucille, Don Pedre.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Don Carlos, La Vice-Reine, Lucille, Don Pedre.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="915">Rompons leur entretien, je meurs d'impatience. </l>
 <stage type="wave">Il fait signe à Don_Pedre de se retirer.</stage>
@@ -1462,7 +1479,8 @@
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
 	<l id="935" syll="2" part="i">Que moi? </l>
 </sp>
-<sp stage="low" who="DON CARLOS"><speaker>DON CARLOS, bas.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="935" syll="10" part="f">Je suis trompé si d'une voix pareille,</l>
 	<l id="936">Cet objet inconnu n'a frappé mon oreille.</l>
 </sp>
@@ -1522,7 +1540,8 @@
 	<l id="969">Mon sens est assez clair, on l'a bien entendu,</l>
 <stage type="pull/toward">Il la tire à part pour lui parler.</stage>
 </sp>
-<sp stage="loud" who="DON PEDRE"><speaker>DON PEDRE, fort.</speaker>
+<sp who="DON PEDRE"><speaker>DON PEDRE</speaker><stage type="loud">, fort.
+	</stage>
 	<l id="970">Il le faut interrompre, ou bien je suis perdu, </l>
 	<l id="971">Ce qu'a fait l'inconnue, à Lucille il l'applique.</l>
 </sp>
@@ -1542,7 +1561,8 @@
 	<l id="980">Si nous nous expliquons, vous connaîtrez mon âme. </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Don Carlos, Don Pedre.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Don Carlos, Don Pedre.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="981">Je m'en suis bien douté, Don_Pedre assurément,</l>
 	<l id="982">C'est l'objet inconnu de qui je suis amant.</l>
@@ -1601,7 +1621,8 @@
 	<l id="1006">Nous entrons dans la rue. Allez vous-en Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Don Carlos, Olympe en la grille basse.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Don Carlos, Olympe en la grille basse.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1007">Ma flamme pour Lucille était peu naturelle.</l>
 	<l id="1008">Il est vrai que je sens qu'ailleurs Amour m'appelle.</l>
@@ -1614,7 +1635,8 @@
 <sp who="OLYMPE"><speaker>OLYMPE.</speaker>
 	<l id="1013" syll="6" part="f">Oui Don_Carlos, c'est moi,</l>
 </sp>
-<sp who="DON CARLOS"><speaker>DON CARLOS, bas.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage>, bas.
+	</stage>
 	<l id="1014">Voici la même voix, Don_Pedre, je vous crois.</l>
 	<l id="1015">Vous n'avez point été dans ce Bal conviée, </l>
 	<l id="1016">Vous auriez là, Madame, été trop enviée,</l>
@@ -1658,7 +1680,8 @@
 <stage type="attach/watch">Pendant qu'il parle il se sent lier les bras par derrière, et voit des hommes masqués.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Quatre hommes masqués, Don Carlos, Olympe.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Quatre hommes masqués, Don Carlos, Olympe.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1031" syll="3" part="i">Ah traîtres !</l>
 </sp>
@@ -1678,7 +1701,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Masque, Don Carlos.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Masque, Don Carlos.
+</stage>
 <stage type="explicit">Don Carlos enfermé sans lumière dans un bel appartement, avec un homme masqué des quatre qui l'avaient arrêté.</stage>
 <sp who="LE MASQUE"><speaker>LE MASQUE.</speaker>
 	<l id="1037">Ne vous emportez plus Don_Carlos je vous prie,</l>
@@ -1728,7 +1752,8 @@
 	<l id="1076">Je mourrai mille fois avant que te quitter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Deux dames masquées, Don Carlos.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Deux dames masquées, Don Carlos.
+</stage>
 <stage type="entrance/explicit/decor">Deux autres dames aussi masquées entrent en faisant la révérence avec tous les préparatifs pour un superbe couvert ; un Page masqué les précède avec deux flambeaux qu'il met sur le buffet ; on apporte les salades, et Don Carlos croyant que ceci n'était que pur enchantement, il dit à ces dames.</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1077">Mes dames, pour qui donc prépare-t-on la fête,</l>
@@ -1837,7 +1862,8 @@
 	<l id="1139">La voilà : dedans peu Madame va venir, </l>
 	<l id="1140" syll="2" part="i">Sortons.</l>
 </sp>
-<sp stage="alone" who="DON CARLOS"><speaker>DON CARLOS, seul.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="alone">, seul.
+</stage>
 <stage type="sit/drop">Il s'assied et étale sur une table les lettres qu'il a reçu de sa dame invisible.</stage>
 	<l id="1141">Puisque le sort me dérobe ta vue,</l>
 	<l id="1142">Relisons ton billet, adorable inconnue !</l>
@@ -1865,7 +1891,8 @@
 <stage type="musique/sing">Pendant son sommeil la Musique chante encore un couplet de la chanson.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Olympe, Un Page.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Olympe, Un Page.
+</stage>
 <sp who="LE PAGE"><speaker>LE PAGE.</speaker>
 	<l id="1161">Vous le verrez Madame, abattu de sommeil !</l>
 </sp>
@@ -2018,7 +2045,8 @@
 	<l id="1274">Si quelqu'un suborné suppléerait à mes soins.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Une dame, Don Carlos.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Une dame, Don Carlos.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1275">Dites moi si Madame est encore en colère,  </l>
 </sp>
@@ -2050,7 +2078,8 @@
 	<l id="1286">Et ne refuse pas vos libéralités ;</l>
 	<l id="1287">Passez donc au Jardin cette porte est ouverte, </l>
 </sp>
-<sp stage="allone" who="DON CARLOS"><speaker>DON CARLOS, seul.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="allone">, seul.
+	</stage>
 	<l id="1288">Prenons l'occasion puisqu'elle m'est offerte.</l>
 	<l id="1289">Ce jardin répond bien au Palais enchanté</l>
 	<l id="1290">Où j'ai si doucement perdu ma liberté. </l>
@@ -2067,15 +2096,18 @@
 	<l id="1301">Que me veut un d'entreux ? J'ai vu qu'il s'est baissé ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Un garde, Don Carlos.</head>
-<sp stage="loud" who="LE GARDE"><speaker>LE GARDE, haut.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Un garde, Don Carlos.
+</stage>
+<sp who="LE GARDE"><speaker>LE GARDE</speaker><stage type="loud">, haut.
+	</stage>
 	<l id="1302">Ce papier est à vous et je l'ai ramassé,</l>
 	<l id="1303" syll="6" part="i">Quand je l'ai vu tomber.</l>
 </sp>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1303" syll="2" part="m">À moi ?</l>
 </sp>
-<sp stage="low" who="LE GARDE"><speaker>LE GARDE, bas à l'Oreille.</speaker>
+<sp who="LE GARDE"><speaker>LE GARDE</speaker><stage type="low">, bas à l'Oreille.
+	</stage>
 	<l id="1303" syll="4" part="f">C'est une lettre</l>
 	<l id="1304">Qu'un vieillard en vos mains m'a prié de remettre, </l>
 	<l id="1305">Et m'a pour ce sujet donné trente ducats. </l>
@@ -2118,7 +2150,8 @@
 	<l id="1332">Et je veux tout tenter pour sortir de ma chaîne.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Don Carlos, un garde.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Don Carlos, un garde.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 <stage type="call">Il rappelle ce garde.</stage>
 	<l id="1333">Camarade en ces lieux as tu quelque pouvoir ?</l>
@@ -2139,18 +2172,22 @@
 	<l id="1340">Elle se nomme Olympe, et sais que sa richesse, </l>
 	<l id="1341">Ainsi que sa naissance égale sa beauté, </l>
 </sp>
-<sp stage="low" who="DON CARLOS"><speaker>DON CARLOS, bas.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1342">L'inconnue à ce conte dit la vérité,</l>
 	<l id="1343">Et je sens qu'elle accroît mes désirs, et mes flammes.</l>
 </sp>
-<sp stage="costume" who="LE GARDE"><speaker>LE GARDE, qui est toujours Alfonce.</speaker>
+<sp who="LE GARDE"><speaker>LE GARDE</speaker><stage type="costume">, qui est toujours Alfonce.
+	</stage>
 	<l id="1344">Je vois venir vers vous quelqu'une de ses Dames,</l>
 </sp>
-<sp stage="low" who="DON CARLOS"><speaker>DON CARLOS, bas.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1345">C'est celle qui tantôt m'a donné quelque espoir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Don Carlos, La Dame, Olympe.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Don Carlos, La Dame, Olympe.
+</stage>
 <sp who="LA DAME"><speaker>LA DAME.</speaker>
 	<l id="1346">Comme Madame a su que vous la voulez voir,</l>
 	<l id="1347">Quoi que même pour nous elle fut retirée,</l>
@@ -2201,7 +2238,8 @@
 	<l id="1383">Ne servant que d'hier, il ne sait pas encore</l>
 	<l id="1384">Le nom de sa maîtresse, et le reste il l'ignore . </l>
 </sp>
-<sp stage="low" who="DON CARLOS"><speaker>DON CARLOS, bas.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1385">S'il l'ignore, pour moi je ne l'ignore point, </l>
 	<l id="1386">Oui Madame, on suivra vos ordres de tout point,</l>
 <stage type="wave">Il lui fait la révérence.</stage>
@@ -2211,7 +2249,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Don Carlos, Don Pedre.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Don Carlos, Don Pedre.
+</stage>
 <sp who="DON PEDRE"><speaker>DON PEDRE.</speaker>
 	<l id="1389">On vous a Don_Carlos par ce nom abusé,</l>
 	<l id="1390">Oui, oui, le nom d'Olympe est un nom supposé. </l>
@@ -2305,7 +2344,8 @@
 	<l id="1451" syll="4" part="f">Je crois la reconnaître.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Don Carlos, Don Pedre, Une dame masquée.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Don Carlos, Don Pedre, Une dame masquée.
+</stage>
 <sp who="LA DAME MASQUÉE"><speaker>LA DAME MASQUÉE.</speaker>
 	<l id="1452">Si j'ose Don_Carlos encore ici paraître, </l>
 	<l id="1453">C'est pour vous accuser de votre vanité,</l>
@@ -2349,7 +2389,8 @@
 <stage type="exit">Elle s'en va.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Don Carlos, Don Pedre.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Don Carlos, Don Pedre.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1487">Don_Pedre qu'est-ceci, quelle étrange injustice !</l>
 	<l id="1488">Qui m'a rendu près d'elle un si mauvais office ?</l>
@@ -2362,7 +2403,8 @@
 	<l id="1493">Qu'elle sait le secret d'un autre que de moi,</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Don Carlos, Don Pedre, Lucille.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Don Carlos, Don Pedre, Lucille.
+</stage>
 <sp who="LUCILLE"><speaker>LUCILLE.</speaker>
 	<l id="1494">C'est pour me conserver, et le coeur et la foi,</l>
 	<l id="1495">Que vous avez Carlos méprisé cette belle, </l>
@@ -2425,7 +2467,8 @@
 	<l id="1532">Je ne puis pour ce coup en dire davantage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Don Carlos, Alfonce.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Don Carlos, Alfonce.
+</stage>
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1533">Me voilà balotté d'une étrange façon,</l>
 	<l id="1534">Je ne m'arrête plus à mon premier soupçon ;</l>
@@ -2458,7 +2501,8 @@
 	<l id="1547">Vous cherchant d'un esprit inquiet et jaloux,</l>
 	<l id="1548">Mon Amour m'a forcée à recourir aux charmes.</l>
 </sp>
-<sp stage="stop" who="DON CARLOS"><speaker>DON CARLOS, l'arrête et dit.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="stop">, l'arrête et dit.
+	</stage>
 	<l id="1549">Oui certes, j'ai reçu ce billet obligeant.</l>
 </sp>
 <sp who="ALFONCE"><speaker>ALFONCE.</speaker>
@@ -2488,7 +2532,8 @@
 	<l id="1569"> Par là je juge mieux d'elle, et de sa naissance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Don Carlos, Don Léonard, Don Alvare.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Don Carlos, Don Léonard, Don Alvare.
+</stage>
 <sp who="DON LÉONARD"><speaker>DON LÉONARD.</speaker>
 	<l id="1570">S'il est vrai qu'Alexis en ait si mal usé,</l>
 	<l id="1571">S'il a mon alliance, et mon bien méprisé, </l>
@@ -2524,7 +2569,8 @@
 <sp who="DON CARLOS"><speaker>DON CARLOS.</speaker>
 	<l id="1587">Lisez, et je verrai s'il se peut expliquer.</l>
 </sp>
-<sp stage="read" who="DON ALVARE"><speaker>DON ALVARE, lit le billet d'Alexis.</speaker>
+<sp who="DON ALVARE"><speaker>DON ALVARE</speaker><stage type="read">, lit le billet d'Alexis.
+	</stage>
 	<l id="1588">Si je ne parais plus, si je quitte Marcelle,</l>
 	<l id="1589">Pour suivre Don_Carlos. Je fuis de vous, et d'elle,</l>
 	<l id="1590">Il fait mon changement comme il fait vos soucis,</l>
@@ -2532,7 +2578,8 @@
 	<l id="1592">Vous allez découvrir la perte,</l>
 	<l id="1593">Et la ruine d'Alexis.</l>
 </sp>
-<sp stage="read" who="DON CARLOS"><speaker>DON CARLOS, après avoir relu ce billet dit.</speaker>
+<sp who="DON CARLOS"><speaker>DON CARLOS</speaker><stage type="read">, après avoir relu ce billet dit.
+	</stage>
 	<l id="1594">Quel embarras nouveau, quelle étrange aventure,</l>
 	<l id="1595">Je vois bien qu'on me nomme en cette énigme obscure :</l>
 	<l id="1596">Mais à vous l'expliquer je suis fort empêché. </l>
@@ -2544,7 +2591,8 @@
 	<l id="1601">Que ce n'est pas de là que naissent mes soucis. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Don Léonard, Don Alvare.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Don Léonard, Don Alvare.
+</stage>
 <sp who="DON ALVARE"><speaker>DON ALVARE.</speaker>
 	<l id="1602">Il conçoit moins que nous ce sens qui nous étonne.</l>
 </sp>
@@ -2576,7 +2624,8 @@
 	<l id="1621">Que je lui rende hommage en qualité d'époux ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Don Léonard, Marcelle, Don Alvare.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Don Léonard, Marcelle, Don Alvare.
+</stage>
 <sp who="DON LÉONARD"><speaker>DON LÉONARD.</speaker>
 	<l id="1622">He bien, votre Alexis enfin vous a laissée ?</l>
 	<l id="1623">De ce mépris injuste êtes vous point blessée</l>
@@ -2628,7 +2677,8 @@
 <sp who="DON LÉONARD"><speaker>DON LÉONARD.</speaker>
 	<l id="1650">Qu'apprends-je ici ma fille, ô Dieux est-il possible ? </l>
 </sp>
-<sp stage="get" who="MARCELLE"><speaker>MARCELLE, prend le billet.</speaker>
+<sp who="MARCELLE"><speaker>MARCELLE</speaker><stage type="get">, prend le billet.
+	</stage>
 	<l id="1651">Ici la vérité vous paraîtra visible.</l>
 <stage type="read">Elle relit.</stage>
 	<l id="1652">Si je ne parais plus, si je quitte Marcelle,</l>
@@ -2668,7 +2718,8 @@
 	<l id="1671">Je vous conterai tout, allons-y de ce pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Vice-Reine, Olympe, Lucille, etc.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Vice-Reine, Olympe, Lucille, etc.
+</stage>
 <sp who="LA VICE-REINE"><speaker>LA VICE-REINE.</speaker>
 	<l id="1672">J'admire en vérité cette bizarre histoire,</l>
 	<l id="1673">Les siècles à venir auront peine à la croire.</l>
@@ -2693,7 +2744,8 @@
 	<l id="1688">Voici votre cousine et son père avec elle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. La Vice-Reine, Olympe, Lucille, Marcelle, Don Léonard, Don Alvare.</head> 
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> La Vice-Reine, Olympe, Lucille, Marcelle, Don Léonard, Don Alvare. 
+</stage> 
 <sp who="LA VICE-REINE"><speaker>LA VICE-REINE.</speaker>
 	<l id="1689">Cédez vous pas le bien que nous cède Marcelle ?</l>
 </sp>
@@ -2718,7 +2770,8 @@
 	<l id="1697">Je veux avoir ma part de cette Comédie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE DERNIÈRE. Don Carlos, La Vice-Reine, Lucille, Marcelle, Don Léonard. Don Alvare, etc.</head>
+<div2 type="scene" n="11"><head>SCÈNE DERNIÈRE.</head><stage> Don Carlos, La Vice-Reine, Lucille, Marcelle, Don Léonard. Don Alvare, etc.
+</stage>
 <sp who="LA VICE-REINE"><speaker>LA VICE-REINE.</speaker>
 	<l id="1698">Je sais bien mon cousin que vous venez chercher</l>
 	<l id="1699">Un objet qui vous aime et qui se veut cacher.</l>

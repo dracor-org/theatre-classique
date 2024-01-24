@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -36,20 +36,21 @@
 		<editor id="CHAUBERT">À PARIS, Chez CHAUBERT, Quai des Augustins, à la Prudence, et à la Renommée.</editor>
 	</docImprint>
 	<performance>
-		<premiere date='1734-06-05' location='Comédie Française'>Représentée pour la première fois, par les Comédiens Français, le 5 du mois de Juin 1734.</premiere>
+		<premiere date="1734-06-05" location="Comédie Française">Représentée pour la première fois, par les Comédiens Français, le 5 du mois de Juin 1734.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="ARISTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour=''>ARISTE</role>.</castItem>
-		<castItem><role id="JULIE" sex="2" type="H" statut='aristocrate' age='J' stat_amour=''>JULIE</role>.</castItem>
-		<castItem><role id="ORGON" sex="1" type="H" statut='aristocrate' age='A' stat_amour=''>ORGON</role>, ami d'Ariste.</castItem>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut='marquis' age='J' stat_amour=''>LE MARQUIS</role>, neveu d'Orgon.</castItem>
-		<castItem><role id="LISETTE" sex="2" type="H" statut='suivanyte' age='J' stat_amour=''>LISETTE</role>.</castItem>
+		<castItem><role id="ARISTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="">ARISTE</role>.</castItem>
+		<castItem><role id="JULIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="">JULIE</role>.</castItem>
+		<castItem><role id="ORGON" sex="1" type="H" statut="aristocrate" age="A" stat_amour="">ORGON</role>, ami d'Ariste.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="J" stat_amour="">LE MARQUIS</role>, neveu d'Orgon.</castItem>
+		<castItem><role id="LISETTE" sex="2" type="H" statut="suivanyte" age="J" stat_amour="">LISETTE</role>.</castItem>
 	</castList>
-	<set location='France' country='France' periode='XVIIIème' gps="">La Scène est dans l'appartement d'Ariste.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="">La Scène est dans l'appartement d'Ariste.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA PUPILLE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIERE. Orgon, Le Marquis, Valère.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head><stage> Orgon, Le Marquis, Valère.
+</stage>
 <sp who="ORGON"><speaker>ORGON.</speaker>
 <p id="1">
 	<s id="1">Valère, encore un coup, songez à ce que vous me faites faire.</s>
@@ -115,7 +116,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Ariste, Orgon.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Ariste, Orgon.
+</stage>
 <sp who="ORGON"><speaker>ORGON.</speaker>
 <p id="1">
 	<s id="1">Bonjour au Seigneur Ariste.</s>
@@ -219,19 +221,23 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Marquis, qui s'était caché ; Ariste, Orgon.</head>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, se jettant entre Orgon et Ariste</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Marquis, qui s'était caché ; Ariste, Orgon.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, se jettant entre Orgon et Ariste
+</stage>
 <p id="1">
 	<s id="1">Oui, Monsieur, je viens vous avouer, et vous expliquer ce que mon Oncle ne vous dit que confusément. Il est vrai que Julie...</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="2">
 	<s id="1">Eh ! </s>
 	<s id="2">Que diable, laissez-nous.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Ariste.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="3">
 	<s id="1">Monsieur, excusez. </s>
 	<s id="2">Mon Oncle ne s'est jamais piqué d'être Orateur, et... </s>
@@ -240,7 +246,8 @@
 	<s id="5">Mais je vois que le feu s'allume dans les yeux de mon oncle, je ne veux point l'irriter.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="4">
 	<s id="1">Je vous promets que si vous paraissez avant que je vous le dise, je....</s>
 </p>
@@ -252,7 +259,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Ariste, Orgon.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Ariste, Orgon.
+</stage>
 <sp who="ORGON"><speaker>ORGON.</speaker>
 <p id="6">
 	<s id="1">Il est tant soit peu étourdi, comme vous voyez ; aussi me suis-je longtemps tenu en garde contre ses discours ; mais enfin, il m'a parlé d'une façon à me persuader que la pupille et lui ne sont point mal ensemble.</s>
@@ -273,8 +281,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE V. Julie, Lisette, Ariste, Orgon.</head>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Lisette.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE V.</head><stage> Julie, Lisette, Ariste, Orgon.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Lisette.
+</stage>
 <p id="1">
 	<s id="1">Ariste parle à quelqu'un. </s>
 	<s id="2">N'avançons pas, Lisette.</s>
@@ -292,7 +302,8 @@
 	<s id="3">Il me fait une proposition à laquelle je souscris volontiers, si elle vous touche autant que l'on me le fait entendre.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="JULIE"><speaker>JULIE, troublée.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="4">
 	<s id="1">J'ignore, Monsieur, de quoi il est question.</s>
 </p>
@@ -318,7 +329,8 @@
 	<s id="4">Il y a cent filles qui, qui en pareil cas, seraient intrépides.</s>
 </p>
 </sp>
-<sp stage="toward/aparte" who="ARISTE"><speaker>ARISTE, à Orgon à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward/aparte">, à Orgon à part.
+</stage>
 <p id="8">
 	<s id="1">Elle s'obstine à se taire. Il faut lui pardonner cette timidité. </s>
 	<s id="2">Je fais réflexion que je lui parlerai mieux en particulier. </s>
@@ -335,7 +347,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Julie, Lisette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Julie, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">Vous vous êtes ennuyée au couvent. </s>
@@ -444,7 +457,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ariste, Julie.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ariste, Julie.
+</stage>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 <p id="1">
 	<s id="1">Lisette, retirez-vous.</s>
@@ -454,7 +468,8 @@
 	<s id="">Elle a quelquefois entendu parler du Marquis comme d'un homme peu formé ; elle craint sans doute que je ne la désapprouve.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Quel parti prendre avec un homme trop modeste pour rien entendre ?</s>
 </p>
@@ -577,25 +592,30 @@
 <stage type="away/watch/entrance/back">Julie veut se retirer ; mais elle voit venir Valère, ce qui la fait rester.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Ariste, Julie, Le Marquis, Valère.</head>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Ariste, Julie, Le Marquis, Valère.
+</stage>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Ne sommes-nous pas seuls ? </s>
 	<s id="2">Que penser de ce discours ?</s>
 </p>
 </sp>
-<sp stage="aparte/location" who="LE MARQUIS"><speaker>LE MARQUIS, à part, au fond du Théâtre.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte/location">, à part, au fond du Théâtre.
+</stage>
 <p id="2">
 	<s id="2">Je les trouve fort à propos ensemble.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Que vient faire ici le Marquis ? </s>
 	<s id="2">Le fâcheux contre-temps !</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, à Julie.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, à Julie.
+</stage>
 <p id="4">
 	<s id="1">Je vous trouve donc, divine personne !</s>
 </p>
@@ -606,7 +626,8 @@
 	<s id="3">Tout est convenu sans doute.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Je ne l'avais pas vu d'abord. </s>
 	<s id="2">Mais voilà l'énigme expliquée.</s>
@@ -633,7 +654,8 @@
 	<s id="4">Seigneur Ariste, dissipez une inquiétude mortelle.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Que je suis malheureuse !</s>
 </p>
@@ -675,8 +697,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE IX. Julie, Le Marquis.</head>
-<sp stage="LOW" who="LE MARQUIS"><speaker>LE MARQUIS, à demi-voix.</speaker>
+<div2 type="scene" n=""><head>SCÈNE IX.</head><stage> Julie, Le Marquis.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="LOW">, à demi-voix.
+</stage>
 <p id="1">
 	<s id="1">Voilà une petite personne bien contente !</s>
 </p>
@@ -836,15 +860,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Ariste, Orgon, Julie, Le Marquis.</head>
-<sp stage="toward" who="ORGON"><speaker>ORGON, à Ariste.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Ariste, Orgon, Julie, Le Marquis.
+</stage>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="1">
 	<s id="1">Ce que vous me dites-là me fait un grand plaisir. </s>
 	<s id="2">Les voilà ces pauvres enfants ! </s>
 	<s id="3">Que l'on passe d'heureux moments à cet âge !</s>
 </p>
 </sp>
-<sp stage="toward" who="ARISTE"><speaker>ARISTE, à Orgon.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward">, à Orgon.
+</stage>
 <p id="2">
 	<s id="1">Je ne perds point de temps comme vous voyez, mon empressement vous prouve combien je suis sensible à cet honneur.</s>
 </p>
@@ -885,7 +912,8 @@
 	<s id="1">Qu'est-ce que cela veut dire ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Julie.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Julie.
+</stage>
 <p id="9">
 	<s id="1">Il n'est pas mal de le prendre sur ce ton, et c'est bien à vous à vous plaindre vraiment ?</s>
 </p>
@@ -904,14 +932,16 @@
 	<s id="5">Ce sont-là de ces orages qui mènent les amants au port.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARISTE"><speaker>ARISTE, à Julie.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward">, à Julie.
+</stage>
 <p id="12">
 	<s id="1">Ne vous repentez point de vous être déclarée. </s>
 	<s id="2">Il se faut point, ma chère Julie, passer si promptement d'un sentiment à un autre. </s>
 	<s id="3">Votre querelle est une querelle d'amitié.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Ariste.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="13">
 	<s id="1">Faites-lui un peu sa leçon, je vous prie, Monsieur.</s>
 </p>
@@ -940,8 +970,10 @@
 <stage type="exit">Elle entre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Ariste, Orgon, Le Marquis.</head>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Ariste, Orgon, Le Marquis.
+</stage>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="1">
 	<s id="1">Pourquoi donc vous attirer ces reproches ? </s>
 	<s id="2">Il faut que vous lui ayez donné des sujets violents de se plaindre.</s>
@@ -1016,8 +1048,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Lisette, Ariste, Orgon, Le Marquis.</head>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Ariste.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Lisette, Ariste, Orgon, Le Marquis.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="1">
 	<s id="1">Que s'est-il donc passé ici, Monsieur, et qui peut avoir si fort chagriné Julie ? </s>
 	<s id="2">Elle est dans une tristesse que je ne puis vous exprimer, elle parle de retourner au couvent. </s>
@@ -1030,7 +1064,8 @@
 	<s id="1">Je l'entendrai tant qu'il lui plaira.</s>
 </p>
 </sp>
-<sp stage="sing" who="LE MARQUIS"><speaker>LE MARQUIS, chantant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sing">, chantant.
+</stage>
 <p id="3">
 	<s id="1">Divin Bacchus... </s>
 	<s id="2">La, la, la.</s>
@@ -1097,12 +1132,14 @@
 	<s id="2">Vous faites le cruel ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Peste soit du fat.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARISTE"><speaker>ARISTE, au Marquis.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="14">
 	<s id="1">Julie étant forcée par son ascendant à se déclarer pour vous, il ne vous sied pas, Monsieur, d'user de rigueur. </s>
 	<s id="2">Être aimé est un bien digne d'envie, et le plus bel apanage de l'humanité : mais c'est en abuser que de manquer d'égards pour les personnes qui nous rendent hommage, et de ne pas épargner à un sexe plein de charmes jusqu'à la moindre inquiétude.</s>
@@ -1123,7 +1160,8 @@
 	<s id="1">Lisette, dites à Julie que je l'attends ici.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, à Ariste.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="18">
 	<s id="1">Puisqu'elle veut vous parler en particulier, nous allons vous laisser libres. </s>
 	<s id="2">Tâchez dans cet entretien de lui remettre l'esprit, et de l'assurer que mon neveu est bien son petit serviteur.</s>
@@ -1137,14 +1175,16 @@
 	<s id="4">Adieu, Lisette.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="20">
 	<s id="1">Est-il possible que l'impertinence soit un titre pour être aimé ?</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="alone" who="ARISTE"><speaker>ARISTE, seul.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">L'homme le plus en garde contre la présomption, est encore bien faible de ce côté-là. </s>
 	<s id="2">J'ai pu interpréter deux fois en ma faveur, les paroles de Julie. </s>
@@ -1157,7 +1197,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Ariste, Julie.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Ariste, Julie.
+</stage>
 <sp who="JULIE"><speaker>JULIE.</speaker>
 <p id="1">
 	<s id="1">Vous me voyez revenir, Monsieur, quoique je vous aie quitté avec assez de vivacité. </s>
@@ -1171,7 +1212,8 @@
 	<s id="2">La sympathie est une loi impérieuse à laquelle on veut en vain se soustraire, et quelque réflexion que la raison nous inspire, il faut céder au trait qui nous a frappé, quand le destin le veut.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Il est toujours dans l'erreur ; et je n'ose encore l'en tirer.</s>
 </p>
@@ -1234,12 +1276,14 @@
 	<s id="1">Allons, dictez, me voilà prêt.</s>
 </p>
 </sp>
-<sp stage="declamate" who="JULIE"><speaker>JULIE, dicte.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="declamate">, dicte.
+</stage>
 <p id="15">
 	<s id="1">Vous êtes trop intelligent pour ne pas savoir le secret de mon coeur.</s>
 </p>
 </sp>
-<sp stage="repeat" who="ARISTE"><speaker>ARISTE, répétant.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="repeat">, répétant.
+</stage>
 <p id="16">
 	<s id="1">De mon coeur.</s>
 </p>
@@ -1280,7 +1324,8 @@
 	<s id="1">Je vous suis déjà attachée par la reconnaissance.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">De la reconnaissance au Marquis ?</s>
 </p>
@@ -1324,7 +1369,8 @@
 	<s id="1">Je voudrais n'avoir point reçu de vous tant de soins généreux dans mon enfance.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ARISTE"><speaker>ARISTE, troublé.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="33">
 	<s id="1">Y pensez-vous, Julie ?</s>
 </p>
@@ -1333,7 +1379,8 @@
 	<s id="1">L'ai-je entendu, ou si c'est une illusion ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="35">
 	<s id="1">Pourquoi ai-je rompu le silence ? </s>
 	<s id="2">Je me doutais bien qu'il recevrait mal un pareil aveu.</s>
@@ -1401,7 +1448,8 @@
 	<s id="1">Envoyez-le de ma part, puisque vous croyez que je doive le faire.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ARISTE"><speaker>ARISTE, troublé.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="48">
 	<s id="1">Hola ! </s>
 	<s id="2">Quelqu'un... </s>
@@ -1413,47 +1461,56 @@
 	<s id="1">N'est-ce pas au Marquis ?</s>
 </p>
 </sp>
-<sp stage="offended/awake" who="JULIE"><speaker>JULIE, d'un ton piqué et revenant à elle.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="offended/awake">, d'un ton piqué et revenant à elle.
+</stage>
 <p id="50">
 	<s id="1">Oui, Monsieur ; encore une fois qui peut vous arrêter ?</s>
 </p>
 </sp>
-<sp stage="toward" who="ARISTE"><speaker>ARISTE, au Laquais.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward">, au Laquais.
+</stage>
 <p id="51">
 	<s id="1">Tenez donc.... </s>
 	<s id="2">Portez cette Lettre à Valère.</s>
 </p>
 <stage type="exit">Le Laquais rentre.</stage>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="52">
 	<s id="1">De quel trouble suis-je agitée ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="53">
 	<s id="1">Quels coups redoublés attaquent ma raison !</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="54">
 	<s id="1">Je ne puis prendre sur moi d'en dire davantage.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="55">
 	<s id="1">Toute ma prudence échoue.</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="56">
 	<s id="">Il désapprouve la passion la plus pure. </s>
 	<s id="2">Je meurs de confusion.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE XV. Ariste, Julie, Lisette.</head>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<div2 type="scene" n=""><head>SCÈNE XV.</head><stage> Ariste, Julie, Lisette.
+</stage>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">La conversation me paraît terminée.</s>
 </p>
@@ -1462,7 +1519,8 @@
 	<s id="1">Orgon qui est là-dedans, Monsieur, est impatient de savoir le résultat de votre entretien, et demande s'il peut paraître à présent.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARISTE"><speaker>ARISTE, à part.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Ce n'est qu'en me retirant que je puis cacher ma défaite.</s>
 </p>
@@ -1478,7 +1536,8 @@
 	<s id="1">Pourquoi donc, Mademoiselle, se retire-t-il ainsi sans me répondre ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Son mépris pour moi est-il assez marqué ?</s>
 </p>
@@ -1486,7 +1545,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI.</head>
-<sp stage="alone" who="LISETTE"><speaker>LISETTE, seule.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Fort bien, autant de raison d'un côté que de l'autre. </s>
 	<s id="2">D'où cela peut-il provenir ? </s>
@@ -1506,7 +1566,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="17"><head>SCÈNE XVII.</head>
-<sp who="ARISTE"><speaker>ARISTE, seule.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage>, seule.
+</stage>
 <p id="1">
 	<s id="1">Non, à rappeler de sang froid ce qui s'est passé : son intention n'était pas d'écrire à Valère. </s>
 	<s id="2">Mais quelle conséquence en tirer ? </s>
@@ -1524,7 +1585,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Ariste, Orgon.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Ariste, Orgon.
+</stage>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 <p id="1">
 	<s id="1">Je vous attends, Orgon, pour vous dire que les choses me paraissent moins avancées que jamais.</s>
@@ -1574,7 +1636,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="19"><head>SCÈNE XIX. Lisette, Ariste, Orgon.</head>
+<div2 type="scene" n="19"><head>SCÈNE XIX.</head><stage> Lisette, Ariste, Orgon.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 <p id="1">
 	<s id="1">À la fin je triomphe, et l'on ne m'en donnera plus à garder. </s>
@@ -1582,7 +1645,8 @@
 	<s id="3">Je sais quel est le Médor de notre Angélique.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, à Lisette.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, à Lisette.
+</stage>
 <p id="2">
 	<s id="1">As-tu débrouillé le mystère ?</s>
 </p>
@@ -1707,7 +1771,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="20"><head>SCÈNE XX. Ariste, Orgon, Le Marquis, Lisette.</head>
+<div2 type="scene" n="20"><head>SCÈNE XX.</head><stage> Ariste, Orgon, Le Marquis, Lisette.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 <p id="1">
 	<s id="1">Oui, vous êtes bien sur ce ton-là. </s>
@@ -1720,12 +1785,14 @@
 	<s id="2">J'ai rencontré quelques Musiciens de ma connaissance, que j'ai amenés avec moi, et qui doivent faire un divertissement impromptu, dont mon mariage sera le sujet.</s>
 </p>
 </sp>
-<sp stage="toward" who="ARISTE"><speaker>ARISTE, au Marquis.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="3">
 	<s id="1">Il ne faut pas vous abuser plus longtemps, Monsieur.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="4">
 	<s id="1">Motus.</s>
 </p>
@@ -1837,7 +1904,8 @@
 	<s id="3">C'est pour moi, comme vous voyez, à ne pouvoir s'y tromper.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, à Ariste.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="25">
 	<s id="1">Quel est donc ce billet, dont il parle ?</s>
 </p>
@@ -1872,7 +1940,8 @@
 	<s id="1">Ni moi.</s>
 </p>
 </sp>
-<sp who="ARISTE"><speaker>ARISTE, après avoir hésité.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage>, après avoir hésité.
+</stage>
 <p id="32">
 	<s id="1">Ni moi.</s>
 </p>
@@ -1889,8 +1958,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="21"><head>SCÈNE XXI ET DERNIÈRE. Julie, Ariste, Orgon, Le  Marquis, Lisette.</head>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Ariste.</speaker>
+<div2 type="scene" n="21"><head>SCÈNE XXI ET DERNIÈRE.</head><stage> Julie, Ariste, Orgon, Le  Marquis, Lisette.
+</stage>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="1">
 	<s id="1">Je ne puis m'empêcher de vous demander, Monsieur, pour quelle fête on a assemblé ici ce nombre infini de musiciens ?</s>
 </p>
@@ -1918,7 +1989,8 @@
 	<s id="3">Mais il est vrai qu'un autre que vous avait quelque empire sur mon coeur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ORGON"><speaker>ORGON, à part.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Ah ! ah.</s>
 </p>
@@ -1929,12 +2001,14 @@
 	<s id="2">La fierté et la modestie gardent également le silence.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ORGON"><speaker>ORGON, à part.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="8">
 	<s id="1">J'entends bien le reproche.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Julie.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Julie.
+</stage>
 <p id="9">
 	<s id="1">Quoi ! </s>
 	<s id="2">Déguiserez-vous toujours ce que vos yeux m'ont répété tant de fois, et ce que votre main vient de me confirmer ?</s>
@@ -1945,14 +2019,16 @@
 	<s id="1">Chanson.</s>
 </p>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, au Marquis.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="11">
 	<s id="1">À l'égard de la Lettre, votre erreur est excusable. </s>
 	<s id="2">Aussi n'est-ce pas ma faute, si elle vous a été envoyée. </s>
 	<s id="3">Cependant vous devez avoir vu clairement qu'elle n'était pas écrite pour vous.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="12">
 	<s id="1">Cela est positif.</s>
 </p>
@@ -1964,7 +2040,8 @@
 	<s id="3">Qu'on me définisse à présent les femmes !</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, au Marquis.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="14">
 	<s id="1">Allez, allez, Mademoiselle n'a point de caprice.</s>
 </p>
@@ -1979,7 +2056,8 @@
 	<s id="2">Est-ce qu'il perd l'esprit ?</s>
 </p>
 </sp>
-<sp who="ORGON"><speaker>ORGON, continuant.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage>, continuant.
+</stage>
 <p id="17">
 	<s id="1">Il était, dis-je, peu naturel qu'un homme septuagénaire regardât ces attraits comme un bien qui pût lui devenir propre : mais de même qu'Éson fut rajeuni par les charmes de Médée, vos charmes enchanteurs....</s>
 </p>
@@ -1992,7 +2070,8 @@
 	<s id="4">Il y a de quoi mourir de rire.</s>
 </p>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Orgon.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Orgon.
+</stage>
 <p id="19">
 	<s id="">L'âge même aussi avancé que le vôtre, n'est point un défaut selon moi, Monsieur...</s>
 </p>
@@ -2022,7 +2101,8 @@
 	<s id="1">Cela est positif, mon Oncle, et très positif.</s>
 </p>
 </sp>
-<sp stage="toward" who="ORGON"><speaker>ORGON, à Julie.</speaker>
+<sp who="ORGON"><speaker>ORGON</speaker><stage type="toward">, à Julie.
+</stage>
 <p id="25">
 	<s id="1">Excusez mon erreur.</s>
 </p>
@@ -2031,7 +2111,8 @@
 	<s id="1">Cette fille-là a quelque chose d'extraordinaire.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE MARQUIS"><speaker>LE MARQUIS, riant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="laugh">, riant.
+</stage>
 <p id="27">
 	<s id="1">Ha, ha, ha.</s>
 </p>
@@ -2052,19 +2133,22 @@
 	<s id="2">Julie, refusez donc aussi cet Ariste qu'une passion sincère oblige à se jeter à vos genoux ; qui jusques à présent n'a osé se livrer à un espoir trop flatteur, ni vous découvrir ses sentiments, parce qu'il se croit cent fois indigne de vous, mais qui de tous les hommes est le plus passionné.</s>
 </p>
 </sp>
-<sp stage="anger" who="LE MARQUIS"><speaker>LE MARQUIS, éclatant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="anger">, éclatant.
+</stage>
 <p id="31">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur veut aller aussi sur mes brisées ? </s>
 	<s id="3">Mais, mais l'aventure devient trop bouffonne.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="32">
 	<s id="1">Notre Tuteur amoureux !</s>
 </p>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Ariste.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="33">
 	<s id="1">J'ai dit que je renonçais à tout engagement...</s>
 </p>
@@ -2075,7 +2159,8 @@
 	<s id="2">Et, dans le fond, il n'en est rien.</s>
 </p>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Ariste.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Ariste.
+</stage>
 <p id="35">
 	<s id="1">Je viens de refuser Orgon, et le Marquis ; l'un m'accuse de caprice, l'autre de singularité.</s>
 </p>
@@ -2105,7 +2190,8 @@
 	<s id="1">Eh bien, notre cher Neveu, êtes-vous content du personnage que vous m'avez fait jouer ici ?</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Orgon.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, à Orgon.
+</stage>
 <p id="31">
 	<s id="1">Que voulez-vous, Monsieur, que je vous dise ? </s>
 	<s id="2">Le dépit a fait faire des choses plus extraordinaires.</s>

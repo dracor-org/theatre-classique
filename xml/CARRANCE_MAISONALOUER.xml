@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,16 +29,16 @@
 			<titlePart type="main">MAISON À LOUER</titlePart>
 			<titlePart type="sub">Comédie en un acte et en prose.</titlePart>
 		</docTitle> 
-		<docDate value='1884'>1884</docDate>
+		<docDate value="1884">1884</docDate>
 		<docAuthor id="CARRANCE, Évariste">Évariste CARRANCE</docAuthor>
 		<docImprint>
 			<editor id="MASSON">AGEN, LIBRAIRIE DU COMITÉ POÉTIQUE ET DE LA REVUE FRANÇAISE, 6, rue du saumon, 8</editor>
 			<printer id="LENTHERIC">AGEN, V. LENTHERIC, Juin 1890.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LA COMTESSE MARTHE D'HÉRICOURT" sex="2" type="H" statut="comte" age='A' stat_amour='néant'>LA COMTESSE MARTHE D'HÉRICOURT</role>. Mlle JEANNE B.</castItem>
-			<castItem><role id="LE POÈTE RAPHAËL DE PRISSAC" sex="1" type="H" statut="poète" age='A' stat_amour='néant'>LE POÈTE RAPHAËL DE PRISSAC</role>. MM. DELIGNY.</castItem>
-			<castItem><role id="PIERRE" sex="1" type="H" statut="domestique" age='A' stat_amour='néant'>PIERRE</role>, domestique. MAZA.</castItem>
+			<castItem><role id="LA COMTESSE MARTHE D'HÉRICOURT" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE MARTHE D'HÉRICOURT</role>. Mlle JEANNE B.</castItem>
+			<castItem><role id="LE POÈTE RAPHAËL DE PRISSAC" sex="1" type="H" statut="poète" age="A" stat_amour="néant">LE POÈTE RAPHAËL DE PRISSAC</role>. MM. DELIGNY.</castItem>
+			<castItem><role id="PIERRE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">PIERRE</role>, domestique. MAZA.</castItem>
 		</castList>
 	<set location="Domfront" country="France" periode="XIXème" gps="48.4478003,-0.3616746">La scène se passe en Normandie, dans les environs de Domfront.</set>
 	<note>Texte extrait de "Théâtre complet de Évariste Carrance".- Agen : Librairie du comité poétique et de la revue française. pp 77-117.</note>
@@ -46,7 +46,8 @@
 <body>
 <div1 type="acte" n="1"><head>MAISON À LOUER</head>
 <stage type="decor/furniture">Un grand salon, canapés, fauteuils, glaces, piano, etc. - À gauche, le portrait d'un capitaine de navire. - Dans un angle, sur une étagère, un vase de Chine, cassé. - Porte au fond. - À gauche, au premier plan, une causeuse et un guéridon.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Pierre, Marthe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Pierre, Marthe.
+</stage>
 <stage type="decor/sit/furniture">Marthe est assise devant le guéridon, Pierre, debout devant l'étagère, essaie de réparer le vase de Chine.</stage>
 <sp who="MARTHE"><speaker>MARTHE.</speaker>
 <p id="1">
@@ -110,7 +111,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Marthe, Pierre.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Marthe, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -204,8 +206,10 @@
 <stage type="drop">Elle pose le livre sur le guéridon.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Marthe, Pierre.</head>
-<sp stage="carry" who="PIERRE"><speaker>PIERRE, un billet à la main.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Marthe, Pierre.
+</stage>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="carry">, un billet à la main.
+</stage>
 <p id="1">
 	<s id="1">Ma foi, madame, je renonce à faire entendre raison à ce monsieur. </s>
 	<s id="2">J'ai ouvert la grille, il s'est installé sur un des bancs de l'avenue, et m'a déclaré qu'il attendrait le bon plaisir de madame.</s>
@@ -302,18 +306,21 @@
 	<l id="26">Un jour de plus sur cette terre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Marthe, Raphaël.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Marthe, Raphaël.
+</stage>
 <sp who="RAPHAËL"><speaker>RAPHAËL.</speaker>
 <p id="1">
 	<s id="1">La musique fait oublier la terre et songer aux deux.</s>
 </p>
 </sp>
-<sp stage="stand" who="MARTHE"><speaker>MARTHE, se levant.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="2">
 	<s id="1">Monsieur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="RAPHAËL"><speaker>RAPHAËL, à part.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Qu'elle est belle !</s>
 </p> 
@@ -349,7 +356,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, Pierre.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Une pauvre femme se présente à la grille du château.</s>
@@ -484,7 +492,8 @@
 	<s id="2">Le bonheur est souvent tout près de nous, et nous allons le chercher bien loin.</s>
 </p>
 </sp>
-<sp stage="agitated" who="RAPHAËL"><speaker>RAPHAËL, avec agitation.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="agitated">, avec agitation.
+</stage>
 <p id="20">
  	<s id="1">C'est vrai ; j'ai laissé le meilleur de moi-même à Paris : ma vieille mère et ma jeune soeur ; ma vie se passe entre ces deux êtres.</s>
 </p>
@@ -568,13 +577,15 @@
 <stage type="sit/dream">Il s'assied et rêve.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Raphaël, Pierre.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Raphaël, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">À qui diable parle-t-il ?</s>
 </p>
 </sp>
-<sp who="RAPHAËL"><speaker>RAPHAËL, se croyant seul.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage>, se croyant seul.
+</stage>
 <p id="2">
 	<s id="1">Je sens bien que je n'ai pas laissé toutes mes illusions aux buissons de l'existence... </s>
 	<s id="2">Et, d'ailleurs, je n'ai jamais aimé, moi ; je n'ai jamais été compris... </s>
@@ -629,7 +640,8 @@
 	<s id="2">De quel droit irai-je t'interroger sur ta maîtresse ?</s>
 </p>
 </sp>
-<sp stage="admirate" who="PIERRE"><speaker>PIERRE, avec vénération.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="admirate">, avec vénération.
+</stage>
 <p id="11">
 	<s id="1">Oh ! </s>
 	<s id="2">Quant à Madame, Monsieur, pensez-en tout le bien possible ; puis, lorsque vous lui aurez accordé toutes les qualités, toutes les vertus, ajoutez qu'il n'existe pas sur la terre un coeur plus noble et plus généreux que le sien.</s>
@@ -658,7 +670,8 @@
 	<s id="1">Le mari de Madame.</s>
 </p>
 </sp>
-<sp who="RAPHAËL"><speaker>RAPHAËL, avec émotion.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage>, avec émotion.
+</stage>
 <p id="16">
 	<s id="1">Elle est mariée ?</s>
 </p>
@@ -678,7 +691,8 @@
 	<s id="1">Monsieur veut-il commencer sa visite par l'aile droite du château ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="RAPHAËL"><speaker>RAPHAËL, à part.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="aparte">, à part.
+</stage>
 <p id="20">
 	<s id="1">Elle est veuve !</s>
 </p>
@@ -687,7 +701,8 @@
 	<s id="1">Je te suis, mon ami.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PIERRE"><speaker>PIERRE, à part.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Je crois qu'il déménage souvent, ce monsieur.</s>
@@ -759,7 +774,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Marthe, Pierre.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Marthe, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Ma foi, madame, je crois que nous aurions bien fait de refuser la porte à ce monsieur.</s>
@@ -887,7 +903,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Marthe, Raphaël.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Marthe, Raphaël.
+</stage>
 <sp who="RAPHAËL"><speaker>RAPHAËL.</speaker>
 <p id="1">
 	<s id="1">Est-ce que les fleurs ne s'ouvrent pas à chaque nouvelle aurore ?</s>
@@ -940,17 +957,20 @@
 	<s id="1">C'est une présentation charmante.</s>
 </p>
 </sp>
-<sp stage="read" who="MARTHE"><speaker>MARTHE, lisant.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="read">, lisant.
+</stage>
 <p id="11">
 	<s id="1">Raphaël_de_Prissac !</s>
 </p>
 </sp>
-<sp stage="read" who="RAPHAËL"><speaker>RAPHAËL, même jeu.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="read">, même jeu.
+</stage>
 <p id="12">
 	<s id="1">La comtesse_Marthe_d_Héricourt !</s>
 </p>
 </sp>
-<sp who="MARTHE"><speaker>MARTHE, avec une joie d'enfant.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage>, avec une joie d'enfant.
+</stage>
 <p id="13">
 	<s id="1">Quoi ! </s>
 	<s id="2">Monsieur, vous êtes le poète Raphaël, le frère de ma meilleure amie, l'auteur de ce beau livre, </s>
@@ -982,7 +1002,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Les mêmes, Pierre.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Les mêmes, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Encore un visiteur pour le château ; je vais le congédier.</s>
@@ -995,7 +1016,8 @@
 <stage type="exit">Pierre sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XVI. Marthe, Raphaël.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Marthe, Raphaël.
+</stage>
 <sp who="MARTHE"><speaker>MARTHE.</speaker>
 <p id="1">
 	<s id="1">Je suis heureuse de vous recevoir, Monsieur_Raphaël, et votre présence me fait désirer ardemment celle de mon amie.</s>
@@ -1006,7 +1028,8 @@
 	<s id="1">Vous me recevez aujourd'hui chez vous, Madame, mais Mademoiselle_de_Prissac peut vous recevoir demain chez elle ; mon intention est d'éloigner ma famille de Paris pendant quelques mois ; ne voudriez vous pas vivre auprès de nous ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARTHE"><speaker>MARTHE, à part.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="3">
 	<s id="1">Auprès de lui ! </s>
 </p>
@@ -1015,7 +1038,8 @@
 	<s id="1">Si vous saviez combien je vous sais gré de cette offre bienveillante !</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="RAPHAËL"><speaker>RAPHAËL, transporté.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="enthousiasm">, transporté.
+</stage>
 <p id="5">
 	<s id="1">Vous l'acceptez !... </s>
 	<s id="2">Je pars pour Paris, et dans huit_jours nous venons nous installer.</s>
@@ -1040,7 +1064,8 @@
 	<s id="2">Voyons, monsieur_Raphaël, puisque la maison vous convient, venez vous y établir... à mon retour de Paris, je pourrais passer quelques jours auprès de mon amie.</s>
 </p>
 </sp>
-<sp who="RAPHAËL"><speaker>RAPHAËL, à part.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage>, à part.
+</stage>
 <p id="9">
 	<s id="1">Elle croit que je pourrais vivre sans elle maintenant,</s>
 </p>
@@ -1072,7 +1097,8 @@
 	<s id="1">Je sens que je souffre, mon_Dieu.</s>
 </p>
 </sp>
-<sp who="RAPHAËL"><speaker>RAPHAËL, à part.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage>, à part.
+</stage>
 <p id="15">
 	<s id="1">Je la suivrai partout, le bonheur est là.</s>
 </p> 
@@ -1139,7 +1165,8 @@
 	<s id="1">Je cherche une âme.</s>
 </p>
 </sp>
-<sp who="MARTHE"><speaker>MARTHE, embarrassée.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage>, embarrassée.
+</stage>
 <p id="27">
 	<s id="1">Monsieur Raphaël, l'amour tel que vous l'entendez n'existe pas.</s>
 </p>
@@ -1159,7 +1186,8 @@
 	<s id="1">Monsieur Raphaël, où allons-nous ?</s>
 </p>
 </sp>
-<sp stage="sad" who="RAPHAËL"><speaker>RAPHAËL, tristement.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="sad">, tristement.
+</stage>
 <p id="31">
 	<s id="1">Je m'oubliais, n'est-ce pas, madame.</s>
 </p>
@@ -1172,7 +1200,8 @@
 	<s id="4">Ne comprenez-vous pas que je dois vivre avec le souvenir du Comte_d_Héricourt ?</s>
 </p>
 </sp>
-<sp stage="away/location" who="RAPHAËL"><speaker>RAPHAËL, se dirigeant vers la porte.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="away/location">, se dirigeant vers la porte.
+</stage>
 <p id="33">
 	<s id="1">Adieu, Madame ; les poètes sont des fous ; et, si l'amour existe, le bonheur n'existe pas.</s>
 </p>
@@ -1215,7 +1244,8 @@
 	<s id="5">Voulez-vous être ma femme ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARTHE"><speaker>MARTHE, à part.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="40">
 	<s id="1">Oh ! </s>
 	<s id="2">Je sens bien que je l'aime, et je n'ai pas la force de résister.</s>
@@ -1231,7 +1261,8 @@
 	<s id="1">Mon_Dieu, inspirez-moi ! Comte_d_Héricourt, bénissez-nous !</s>
 </p>
 </sp>
-<sp stage="touch" who="RAPHAËL"><speaker>RAPHAËL, les mains jointes.</speaker>
+<sp who="RAPHAËL"><speaker>RAPHAËL</speaker><stage type="touch">, les mains jointes.
+</stage>
 <p id="43">
 	<s id="1">C'est la vie que j'attends.</s>
 </p>
@@ -1244,7 +1275,8 @@
 <stage type="touch">Elle lui tend la main.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="17"><head>SCÈNE XVII. Les mêmes, Pierre.</head>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage> Les mêmes, Pierre.
+</stage>
 <sp who="PIERRE"><speaker>PIERRE.</speaker>
 <p id="1">
 	<s id="1">Des visiteurs pour le château, madame.</s>
@@ -1260,7 +1292,8 @@
 	<s id="1">Est-ce que je rêve ?</s>
 </p>
 </sp>
-<sp stage="watch/toward" who="MARTHE"><speaker>MARTHE, regardant Raphaël.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="watch/toward">, regardant Raphaël.
+</stage>
 <p id="4">
 	<s id="1">Hâtez-vous, Pierre. </s>
 	<s id="2">Vous direz aux visiteurs que la maison est louée, et que le bonheur va venir l'habiter.</s>
@@ -1271,4 +1304,3 @@
 </body>
 </text>
 </TEI>
-

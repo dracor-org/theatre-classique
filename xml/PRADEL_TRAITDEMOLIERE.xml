@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -28,20 +28,20 @@
 			<titlePart type="sub">PROLOGUE DU TARTUFFE EN VERS</titlePart>
 			<titlePart type="sub">pour la représentation donnée par des artistes des principaux théâtres de la capitale, au bénéfice de la famille B***, en mai 1821, sur le théâtre de la rue Chantereine.</titlePart>
 		</docTitle> 
-		<docDate value='1821'>1821.</docDate>
+		<docDate value="1821">1821.</docDate>
 		<docAuthor id="PRADEL, Eugène de">Par Eugène DE PRADEL.</docAuthor>
 		<docImprint>
-			<publisher id='DENTU'>PARIS Chez LADVOCAT, Libraie, au Palais-Royal, Galerie de Bois, n°195, et chez BARBA, Libraire derrière le Théâtre Français. </publisher>
-			<printer id='STAHL'>IMPRIMERIE DE STAHL</printer>
+			<publisher id="DENTU">PARIS Chez LADVOCAT, Libraie, au Palais-Royal, Galerie de Bois, n°195, et chez BARBA, Libraire derrière le Théâtre Français. </publisher>
+			<printer id="STAHL">IMPRIMERIE DE STAHL</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1863-01-15' location="Théâtre de l'Odéon">Représentée, au second Théâtre-Français (Odéon), 15 janvier 1863, 241- anniversaire de la naissance de Molière.</premiere>
+			<premiere date="1863-01-15" location="Théâtre de l'Odéon">Représentée, au second Théâtre-Français (Odéon), 15 janvier 1863, 241- anniversaire de la naissance de Molière.</premiere>
 		</performance>
 	<castList><head>PERSONNAGES.  ACTEURS</head>
-	   <castItem><role id="MOLIÈRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MOLIÈRE</role>, auteur et acteur dramatique, M. PERLET, artiste du Gymnase.</castItem>
-	   <castItem><role id="DALBANS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>DALNAS</role>, Riche bourgeois de Paris. M. DALBANS.</castItem>
-	   <castItem><role id="JULIE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>JULIE</role>, fille de Dalbans. Mademoiselle LECLERC, Aline; du Conservatoire Royal.</castItem>
-	   <castItem><role id="UN MESSAGER" sex="1" type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
+	   <castItem><role id="MOLIÈRE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MOLIÈRE</role>, auteur et acteur dramatique, M. PERLET, artiste du Gymnase.</castItem>
+	   <castItem><role id="DALBANS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">DALNAS</role>, Riche bourgeois de Paris. M. DALBANS.</castItem>
+	   <castItem><role id="JULIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">JULIE</role>, fille de Dalbans. Mademoiselle LECLERC, Aline; du Conservatoire Royal.</castItem>
+	   <castItem><role id="UN MESSAGER" sex="1" type="H" statut="messager" age="A" stat_amour="néant">UN MESSAGER</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène est à Paris, dans la maison de Dalbans.</set>
 	</front>
@@ -50,7 +50,8 @@
 <div1 type="acte" n="1"><head>UN TRAIT DE MOLIERE, PROLOGUE.</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="decor">Le Théâtre représente un salon.</stage>
-<sp stage="alone/toward" who="DALBANS"><speaker>DALBANS, seul, à La cantonnade.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="alone/toward">, seul, à La cantonnade.
+	</stage>
 	<l id="1">Tant pis pour lui, ma fille, il faut que votre amant</l>
 	<l id="2">Se trouve au rendez-vous fixé pour ce moment ;</l>
 	<l id="3">Dans trois quarts d'heure, au plus, sans appel, je prononce.</l>
@@ -86,7 +87,8 @@
 	<l id="32">Ma maison deviendra le temple de Thalie !...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dalbans, Julie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dalbans, Julie.
+</stage>
 <sp who="JULIE"><speaker>JULIE.</speaker>
 	<l id="33">Mon père, il ne vient pas ! Je ne puis concevoir...</l>
 </sp>
@@ -192,7 +194,8 @@
 	<l id="88">Au sel de ses bons mots, je me pâmais de rire.</l>
 	<l id="89" syll="6" part="i">Son savoir est divin !...</l>
 </sp>
-<sp stage="kiss" who="DALBANS"><speaker>DALBANS, l'embrassant.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="89" syll="6" part="f">Tu te rends, quel beau jour !</l>
 </sp>
 <sp who="JULIE"><speaker>JULIE.</speaker>
@@ -208,7 +211,8 @@
 	<l id="95">Souvent même, au hasard, de son coeur on dispose ;</l>
 	<l id="96">Le mien, vous le savez, a choisi Bellerose.</l>
 </sp>
-<sp stage="nervous" who="DALBANS"><speaker>DALBANS, avec humeur.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="nervous">, avec humeur.
+	</stage>
 	<l id="97">Nous saurons triompher de votre entêtement !</l>
 </sp>
 <sp who="JULIE"><speaker>JULIE.</speaker>
@@ -246,7 +250,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp who="JULIE"><speaker>JULIE, seule.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage>, seule.
+	</stage>
 	<l id="112">Sa façon de juger, toute particulière,</l>
 	<l id="113">Inquiète mon coeur plus qu'on ne penserait.</l>
 	<l id="114">À sa prévention il me sacrifierait ;</l>
@@ -256,8 +261,10 @@
 <stage type="closer/away/entrance/wave">Elle s'approche de la porte, recule d'un pas quand Molière paraît et le salue.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Molière, Dalbans, Julie.</head>
-<sp stage="toward" who="DALBANS"><speaker>DALBANS, à Molière.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Molière, Dalbans, Julie.
+</stage>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="118">Nous allons en finir, je l'espère, aujourd'hui.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -320,7 +327,8 @@
 <stage type="aparte">À part.</stage>
 	<l id="159" syll="3" part="i">Mais hélas !</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Julie.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Julie.
+	</stage>
 	<l id="159" syll="9" part="f">De mon coeur écoutez le langage.</l>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
@@ -430,20 +438,23 @@
 	<l id="232">Quand aux pieds de Julie on dépose sa gloire,</l>
 	<l id="233">Peut-on jamais avoir d'autres voeux à former !</l>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="234" syll="3" part="i">Que je souffre !</l>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
 	<l id="234" syll="9" part="f">On n'a pas besoin de s'informer</l>
 	<l id="235">Si ma fille est pour vous d'accord avec son père.</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Julie.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Julie.
+	</stage>
 	<l id="236" syll="3" part="i">Est-il vrai ?</l>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
 	<l id="236" syll="3" part="m">Parlez donc.</l>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="236" syll="6" part="f">Comme il me désespère !</l>
 <stage type="loud">Haut.</stage>
 	<l id="237" syll="4" part="i">On a frappé !</l>
@@ -455,18 +466,22 @@
 	<l id="237" syll="6" part="f">Je ne puis plus douter..</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les précédents, le Messager.</head>
-<sp stage="toward" who="LE MESSAGER"><speaker>LE MESSAGER, à Monsieur Dalbans.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les précédents, le Messager.
+</stage>
+<sp who="LE MESSAGER"><speaker>LE MESSAGER</speaker><stage type="toward">, à Monsieur Dalbans.
+	</stage>
 	<l id="238">À vous-même, Monsieur, on m'a dit d'apporter</l>
 <stage type="get">Il tire avec peine un paquet de sa poche.</stage>
 </sp>
-<sp stage="quick" who="DALBANS"><speaker>DALBANS, vivement.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="239" syll="3" part="i">Et quoi donc ?</l>
 </sp>
 <sp who="LE MESSAGER"><speaker>LE MESSAGER.</speaker>
 	<l id="239" syll="9" part="f">Ce paquet.... Il contient quelque chose.</l>
 </sp>
-<sp stage="get" who="DALBANS"><speaker>DALBANS, prenant le paquet.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="get">, prenant le paquet.
+	</stage>
 	<l id="240" syll="2" part="i">Donne.</l>
 </sp>
 <sp who="LE MESSAGER"><speaker>LE MESSAGER.</speaker>
@@ -475,7 +490,8 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="241" syll="4" part="i">Bellerose !</l>
 </sp>
-<sp stage="embarrassed" who="JULIE"><speaker>JULIE, troublée.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="embarrassed">, troublée.
+	</stage>
 	<l id="241" syll="2" part="m">Grand Dieu !</l>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
@@ -487,12 +503,15 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE. Les mêmes, excepté le Messager.</head>
-<sp stage="open" who="DALBANS"><speaker>DALBANS, ayant défait la première enveloppe qui couvrait une lettre et un écrin, lit une adresse.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE.</head><stage> Les mêmes, excepté le Messager.
+</stage>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="open">, ayant défait la première enveloppe qui couvrait une lettre et un écrin, lit une adresse.
+	</stage>
 	<l id="243">« Pour remettre à Julie »... À vous Mademoiselle.</l>
 <stage type="give">Il lui donne le paquet ouvert.</stage>
 </sp>
-<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="244">Je tremble d'y trouver quelque triste nouvelle.</l>
 <stage type="lous">Haut.</stage>
 	<l id="245" syll="6" part="i">Permettez-vous, Messieurs ?...</l>
@@ -502,17 +521,20 @@
 	<l id="246" syll="2" part="i">Chez vous !</l>
 <stage type="open">Julie ouvre la lettre. Son père et Molière l'observent.</stage>
 </sp>
-<sp stage="aparte/toward" who="DALBANS"><speaker>DALBANS, à part à Molière.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="aparte/toward">, à part à Molière.
+	</stage>
 	<l id="246" syll="10" part="f">Comme son front soudain s'est obscurci !</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Dalbans.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Dalbans.
+	</stage>
 	<l id="247" syll="2" part="i">Vraiment !</l>
 <stage type="read/tender/cry">À la lecture de la lettre, on voit Julie s'émouvoir, s'attendrir ; sa poitrine est oppressée. Enfin, la sensibilité l'emporte, elle laisse couler ses pleurs.</stage>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
 	<l id="247" syll="10" part="f">Pourquoi pleurer, quand Monsieur vous propose ?...</l>
 </sp>
-<sp stage="open" who="JULIE"><speaker>JULIE, ouvrant la boîte.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="open">, ouvrant la boîte.
+	</stage>
 	<l id="248">Son écrin ; ses bijoux ! Ah ! Mon cher Bellerose !</l>
 </sp>
 <sp who="DALBANS"><speaker>DALBANS.</speaker>
@@ -537,10 +559,12 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="263">Bellerose, à ce trait je dois te reconnaître.</l>
 </sp>
-<sp stage="wipe" who="DALBANS"><speaker>DALBANS, essuyant une larme.</speaker>
+<sp who="DALBANS"><speaker>DALBANS</speaker><stage type="wipe">, essuyant une larme.
+	</stage>
 	<l id="264">Elle m'a tout ému, votre maudite lettre !</l>
 </sp>
-<sp stage="toward" who="JULIE"><speaker>JULIE, à Molière.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="265">Il est digne, Monsieur, d'avoir votre amitié.</l>
 <stage type="toward">À son père.</stage>
 	<l id="266">Ne vous défendez pas d'une noble pitié ;</l>
@@ -555,7 +579,8 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="274">Il ne ressemble guère aux amis d'aujourd'hui.</l>
 </sp>
-<sp stage="enthousiasm" who="JULIE"><speaker>JULIE, avec chaleur, et, par gradation, jusqu'à l'enthousiasme.</speaker>
+<sp who="JULIE"><speaker>JULIE</speaker><stage type="enthousiasm">, avec chaleur, et, par gradation, jusqu'à l'enthousiasme.
+	</stage>
 	<l id="275">Quand on doit décider du destin de Julie,</l>
 	<l id="276">L'amitié le réclame ; il s'éloigne, il s'oublie ;</l>
 	<l id="277">Son bonheur n'est plus rien, son devoir est sa loi.</l>

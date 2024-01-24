@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -31,7 +31,7 @@
 		<titlePart part="sub">Jouée à la Boîte à Fursy.</titlePart>
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -39,20 +39,21 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="FLORESTINE" sex="2" type="H" statut="domestique" age="A" stat_amour=''>FLORESTINE</role>. Mlle Marguerite DEVAL.</castItem>
-		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour=''>LA COMTESSE CHARLOTTE</role>. Mlle Charlotte LYSÈS.</castItem>
-		<castItem><role id="LE GRAND BIBI" sex="1" type="H" statut="assassin" age="A" stat_amour=''>LE GRAND BIBI</role>. M. MEVISTO.</castItem>
-		<castItem><role id="BENOÎT" sex="1" type="H" statut="domestique" age="V" stat_amour=''>BENOÎT</role>. M. Henry DEFREYN.</castItem>
-		<castItem><role id="LE COMTE" sex="1" type="H" statut="comte" age="A" stat_amour=''>LE COMTE</role>. M. CAZA.</castItem>
+		<castItem><role id="FLORESTINE" sex="2" type="H" statut="domestique" age="A" stat_amour="">FLORESTINE</role>. Mlle Marguerite DEVAL.</castItem>
+		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="">LA COMTESSE CHARLOTTE</role>. Mlle Charlotte LYSÈS.</castItem>
+		<castItem><role id="LE GRAND BIBI" sex="1" type="H" statut="assassin" age="A" stat_amour="">LE GRAND BIBI</role>. M. MEVISTO.</castItem>
+		<castItem><role id="BENOÎT" sex="1" type="H" statut="domestique" age="V" stat_amour="">BENOÎT</role>. M. Henry DEFREYN.</castItem>
+		<castItem><role id="LE COMTE" sex="1" type="H" statut="comte" age="A" stat_amour="">LE COMTE</role>. M. CAZA.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 131-154</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'ÉTRANGLEUSE.</head>
 <stage type="decor">La scène représente le boudoir de la Comtesse. À gauche, un petit paravent. Au lever du rideau, la Comtesse de La Roche-Gaston est seule en scène.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="ring"  who="LA COMTESSE"><speaker>LA COMTESSE, sonnant à un téléphone.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="ring">, sonnant à un téléphone.
+</stage>
 <p id="1">
 	<s id="1">C'est insupportable !... </s>
 	<s id="2">Voilà une demi-heure que je demande cette communication... </s>
@@ -66,7 +67,8 @@
 <stage type="entrance">Entre Florestine.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Comtesse, Florestine, puis Benoit</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Comtesse, Florestine, puis Benoit
+</stage>
 <sp who="FLORESTINE"><speaker>FLORESTINE.</speaker>
 <p id="1">
 	<s id="1">Madame la Comtesse a sonné ?</s>
@@ -128,13 +130,15 @@
 	<s id="10">C'est probablement des malfaiteurs...</s>
 </p>
 </sp>
-<sp stage="aparte" who="FLORESTINE"><speaker>FLORESTINE, à part.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Grands dieux ! </s>
 	<s id="2">Il s'en est aperçu !</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA COMTESSE"><speaker>LA COMTESSE, riant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="11">
 	<s id="1">Vous voilà encore, vieux poltron, avec vos idées de malfaiteurs. </s>
 	<s id="2">Il n'y a pas de malfaiteurs. </s>
@@ -159,7 +163,8 @@
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Florestine, seule, puis le Grand Bibi.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Florestine, seule, puis le Grand Bibi.
+</stage>
 <sp who="FLORESTINE"><speaker>FLORESTINE.</speaker>
 <p id="1">
 	<s id="1">J'ai cru qu'ils ne s'en iraient pas. </s>
@@ -175,7 +180,8 @@
 	<s id="6">Et son râle de mort aurait été une musique enivrante.</s>
 </p>
 </sp>
-<sp stage="location" who="UNE VOIX"><speaker>UNE VOIX, à l'orchestre.</speaker>
+<sp who="UNE VOIX"><speaker>UNE VOIX</speaker><stage type="location">, à l'orchestre.
+</stage>
 <p id="3">
 	<s id="1">Oh ! </s>
 	<s id="2">La poison !...</s>
@@ -253,7 +259,8 @@
 	<s id="2">Il faudrait lui presser le cou pendant vingt-quatre heures.</s>
 </p>
 </sp>
-<sp stage="show/sigh" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, tirant un grand couteau, avec un soupir.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="show/sigh">, tirant un grand couteau, avec un soupir.
+</stage>
 <p id="15">
 	<s id="1">Alors le surin s'impose. </s>
 	<s id="2">Je déteste en venir là, parce que ça fait du gâchis et que ça abîme les effets. </s>
@@ -261,7 +268,8 @@
 	<s id="4">J'en suis à ma trente-huitième opération, mais j'en ai bien fait une trentaine à sec !...</s>
 </p>
 </sp>
-<sp stage="watch" who="FLORESTINE"><speaker>FLORESTINE, le regardant.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="watch">, le regardant.
+</stage>
 <p id="16">
 	<s id="1">C'est curieux. </s>
 	<s id="2">D'abord, vous êtes effrayant, bout d'un et, au instant, vous paraissez très gentil. </s>
@@ -344,7 +352,8 @@
 	<s id="2">Quelqu'un aura arrêté le battant...</s>
 </p>
 </sp>
-<sp stage="watch" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, regardant sa montre.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="watch">, regardant sa montre.
+</stage>
 <p id="28">
 	<s id="1">Ce n'est que la demie de onze heures... </s>
 </p>
@@ -382,13 +391,15 @@
 	<s id="1">et déshonnête...</s>
 </p>
 </sp>
-<sp stage="entrance/hurry" who="FLORESTINE"><speaker>FLORESTINE, rentrant précipitamment.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="entrance/hurry">, rentrant précipitamment.
+</stage>
 <p id="34">
 	<s id="1">La Comtesse quitte la chambre de Benoît. </s>
 	<s id="2">Elle sera ici dans un instant.</s>
 </p>
 </sp>
-<sp stage="stand/sad" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, se levant avec accablement</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="stand/sad">, se levant avec accablement
+</stage>
 <p id="35">
 	<s id="1">Enfin !...</s>
 </p>
@@ -444,7 +455,8 @@
 <stage type="location/location">Il passe à gauche, derrière un paravent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Florestine, Le Grand Bibi, puis Benoit.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Florestine, Le Grand Bibi, puis Benoit. 
+</stage> 
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Florestine, je me déshabille !</s>
@@ -472,7 +484,8 @@
 	<l id="8">La chanson du matin.</l>
 <stage type="location/search">Florestine passe à gauche, cherche une mantille.</stage>
 </sp>
-<sp stage="toward" who="FLORESTINE"><speaker>FLORESTINE, au grand Bibi.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="toward">, au grand Bibi.
+</stage>
 <p id="4">
 	<s id="1">C'est maintenant ?</s>
 </p>
@@ -503,7 +516,8 @@
 	<s id="">Il faut que je chante pour rassurer ce pauvre Benoît, qui ne me croirait plus vivante.</s>
 </p>
 </sp>
-<sp stage="toward" who="FLORESTINE"><speaker>FLORESTINE, au Grand Bibi.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="toward">, au Grand Bibi.
+</stage>
 <p id="8">
 	<s id="1">Je ne me sens pas bien... </s>
 	<s id="2">Si on faisait ça une autre fois ?</s>
@@ -515,17 +529,20 @@
 	<s id="2">Allons-y tout de suite !</s>
 </p>
 </sp>
-<sp stage="sing/closer" who="LA COMTESSE"><speaker>LA COMTESSE, chantant, pendant que le Grand Bibi s'avance derrière elle.</speaker> 
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="sing/closer">, chantant, pendant que le Grand Bibi s'avance derrière elle. 
+	</stage> 
 	<l id="18">Il arrive et s'élance</l>
 	<l id="19">Au perron du château.</l>
 <stage type="hugh/stangle">Le Grand Bibi lui prend les épaules pendant que Florestine saisit le cou.</stage>
 </sp>
-<sp stage="toward" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, à Florestine</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="toward">, à Florestine
+</stage>
 <p id="10">
 	<s id="1">Continue la chanson !</s>
 </p>
 </sp>
-<sp stage="strangle" who="FLORESTINE"><speaker>FLORESTINE, tout en serrant le cou</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="strangle">, tout en serrant le cou
+	</stage>
 	<l id="20">À ses doigts se balance</l>
 	<l id="21">La fleur de l'arbrisseau.</l>
 	<l id="22">Chantons la ridoucette,</l>
@@ -541,13 +558,15 @@
 	<s id="4">Où est le mot ?</s>
 </p>
 </sp>
-<sp stage="get/read" who="FLORESTINE"><speaker>FLORESTINE, prenant le papier dans le corsage de la Comtesse et</speaker> lisant : 
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="get/read">, prenant le papier dans le corsage de la Comtesse et lisant : 
+</stage> lisant : 
 <p id="12">
 	<s id="">« Coco ».</s>
 </p>
 <stage type="exit/together">Le Grand Bibi va dans la salle à côté, suivi de Florestine.</stage>
 </sp>
-<sp stage="alone/stand" who="LA COMTESSE"><speaker>LA COMTESSE, seule, se relevant au bout d'un instant.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="alone/stand">, seule, se relevant au bout d'un instant.
+</stage>
 <p id="13">
 	<s id="1">Ce qu'il y a d'admirable, c'est que ça prend toujours avec les étrangleurs. </s>
 	<s id="2">Aussitôt qu'on raidit les jambes, ils vous croient morte, et ils vous lâchent. </s>
@@ -564,14 +583,16 @@
 	<s id="4">Mais elle comprendra...</s>
 </p>
 </sp>
-<sp stage="entrance" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, entrant avec les écrins.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="entrance">, entrant avec les écrins.
+</stage>
 <p id="15">
 	<s id="1">Eh bien, la récolte n'a pas été mauvaise. </s>
 	<s id="2">Et puis j'ai trouvé à côté un chapeau très convenable, et un pardessus tout à fait bath. </s>
 	<s id="3">Me voilà monté pour la saison.</s>
 </p>
 </sp>
-<sp stage="entrance" who="FLORESTINE"><speaker>FLORESTINE, entrant. </speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="entrance">, entrant. 
+</stage>
 <stage type="watch/hide">Elle voit le divan et se cache les yeux.</stage>
 <p id="16">
 	<s id="1">Oh ! </s>
@@ -718,7 +739,8 @@
 	<s id="3">Mais jamais je ne me suis moqué d'eux.</s>
 </p>
 </sp>
-<sp stage="closer" who="BENOIT"><speaker>BENOIT, s'approchant de la Comtesse.</speaker>
+<sp who="BENOIT"><speaker>BENOIT</speaker><stage type="closer">, s'approchant de la Comtesse.
+</stage>
 <p id="40">
 	<s id="1">J'avais cru entendre du bruit. </s>
 	<s id="2">Mais je me serai trompé. </s>
@@ -728,7 +750,8 @@
 </p>
 <stage type="turn">Il va pour s'en retourner.</stage>
 </sp>
-<sp stage="toward" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, à Florestine.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="toward">, à Florestine.
+</stage>
 <stage type="L">Camoufle : bougie, argot.</stage>
 <p id="41">
 	<s id="1">Souffle-lui sa camoufle ; moi, je vas lui placer ça dans le dos.</s>
@@ -789,13 +812,15 @@
 	<s id="1">Tu vas mourir !</s>
 </p>
 </sp>
-<sp stage="proud" who="BENOIT"><speaker>BENOIT, héroïque.</speaker>
+<sp who="BENOIT"><speaker>BENOIT</speaker><stage type="proud">, héroïque.
+</stage>
 <p id="51">
 	<s id="1">Tirez ! </s>
 	<s id="2">Mais tirez donc !</s>
 </p>
 </sp>
-<sp stage="fire/drop" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, tirant et lâchant le pistolet.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="fire/drop">, tirant et lâchant le pistolet.
+</stage>
 <p id="52">
 	<s id="1">Aïe !... </s>
 	<s id="2">Qu'est-ce que c'est encore que cette blague-là ? </s>
@@ -812,7 +837,8 @@
 	<s id="1">Je suis un homme fini !</s>
 </p>
 </sp>
-<sp stage="strong" who="FLORESTINE"><speaker>FLORESTINE, âprement.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="strong">, âprement.
+</stage>
 <p id="55">
 	<s id="1">Te décourage pas, Bibi. </s>
 	<s id="2">T'as ton surin et ta main gauche, tu peux y faire leur affaire à tous les deux.</s>
@@ -825,8 +851,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE V.  Les mêmes, Le Comte.</head>
-<sp stage="entrance/carry/follow" who="LE COMTE"><speaker>LE COMTE, entrant, le revolver à la main, suivi de deux serviteurs.</speaker>
+<div2 type="scene" n=""><head>SCÈNE V.</head><stage>  Les mêmes, Le Comte.
+</stage>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="entrance/carry/follow">, entrant, le revolver à la main, suivi de deux serviteurs.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Je savais bien qu'il y avait un homme chez la Comtesse ! </s>
@@ -861,7 +889,8 @@
 	<s id="2">La balle s'est aplatie sur son portefeuille.</s>
 </p>
 </sp>
-<sp stage="low" who="LE GRAND BIBI"><speaker>LE GRAND BIBI, d'une voix faible.</speaker>
+<sp who="LE GRAND BIBI"><speaker>LE GRAND BIBI</speaker><stage type="low">, d'une voix faible.
+</stage>
 <p id="6">
 	<s id="1">C'est égal, c'est triste d'avoir eu tous ces ennuis avec ces victimes embêtantes et que Monsieur vienne encore m'accuser de faire de vilaines choses.</s>
 </p>
@@ -876,7 +905,8 @@
 	<s id="1">La balle s'est aplatie sur la photographie de ma mère.</s>
 </p>
 </sp>
-<sp stage="watch" who="FLORESTINE"><speaker>FLORESTINE, regardant la photographie.</speaker>
+<sp who="FLORESTINE"><speaker>FLORESTINE</speaker><stage type="watch">, regardant la photographie.
+</stage>
 <p id="9">
 	<s id="1">Oh ! </s>
 	<s id="2">Vénérable femme, avec sa coiffe bretonne !</s>
@@ -887,7 +917,8 @@
 	<s id="1">La coiffe des femmes de Lannion !</s>
 </p>
 </sp>
-<sp stage="touched" who="LE COMTE"><speaker>LE COMTE, tressaillant.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="touched">, tressaillant.
+</stage>
 <p id="11">
 	<s id="1">La coiffe des femmes de Lannion !... </s>
 	<s id="2">Une femme de cinquante ans, au moins ?</s>
@@ -908,7 +939,8 @@
 	<s id="1">Tu l'as dit.</s>
 </p>
 </sp>
-<sp stage="stress" who="LE COMTE"><speaker>LE COMTE, maîtrisant son émotion.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="stress">, maîtrisant son émotion.
+</stage>
 <p id="15">
 	<s id="1">Pardonnez-moi, Comtesse. </s>
 	<s id="2">Ceci se passait avant que je vous aie connue. </s>
@@ -942,7 +974,8 @@
 	<s id="1">Ça ne prend pas.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, à la Comtesse.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, à la Comtesse.
+</stage>
 <p id="21">
 	<s id="">Je ne peux pas livrer à la justice cet homme en qui j'ai failli tuer mon enfant.</s>
 </p>
@@ -970,4 +1003,3 @@
 </body>
 </text>
 </TEI>
-

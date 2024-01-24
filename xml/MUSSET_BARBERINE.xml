@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,14 +30,14 @@
 			<titlePart type="sub">COMÉDIE EN TROIS ACTES ET EN PROSE</titlePart>
 		</docTitle> 
 		<docDate value="1890">1890.</docDate>
-		<docAuthor id='MUSSET, Alfred de' bio='musset'>PAR ALFRED DE MUSSET</docAuthor>
+		<docAuthor id="MUSSET, Alfred de" bio="musset">PAR ALFRED DE MUSSET</docAuthor>
 		<docImprint>	
-			<editor id='CHARPENTIER'>PARIS, CHARPENTIER, LIBRAIRE-EDITEUR, 19, RUE DE LILLE.</editor>
+			<editor id="CHARPENTIER">PARIS, CHARPENTIER, LIBRAIRE-EDITEUR, 19, RUE DE LILLE.</editor>
 			<printer>Imprimé par D. Jouaust POUR LA BIBLIOTHÈQUE ARTISTIQUE MODERNE ORNEMENTS PAR GIACOMELLI M DCCC</printer>
 			<achevedImprime>Paris. Imp. de G. GRATIOT, 11, rue de la Monnaie.</achevedImprime>
 		</docImprint>
 		<performance>
-			<premiere date='1850-10-21' location="Théâtre de l'Odéon"></premiere>
+			<premiere date="1850-10-21" location="Théâtre de l'Odéon"/>
 		</performance>
 	<castList><head>PERSONNAGES.</head>
 		<castItem><role id="LA REINE" sex="2" type="H" statut="roi" age="A" stat_amour="">BÉATRIX D'ARAGON</role>, reine de Hongrie.</castItem>
@@ -57,7 +57,8 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <stage type="location">Une route devant une hôtellerie. - Un château gothique au fond, dans les montagnes.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Rosemberg, L'Hôtelier.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Rosemberg, L'Hôtelier.
+</stage>
 <sp who="ROSEMBERG"><speaker>ROSEMBERG.</speaker>
 <p id="1">
 	<s id="1">Comment ! </s>
@@ -141,7 +142,8 @@
 	<s id="1">Ce n'est pas l'action d'un gentilhomme de maltraiter les honnêtes gens.</s>
 </p>
 </sp>
-<sp stage="threat" who="ROSEMBERG"><speaker>ROSEMBERG, le menaçant.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="threat">, le menaçant.
+</stage>
 <p id="15">
 	<s id="1">Ah ! </s>
 	<s id="2">Tu raisonnes ?... </s>
@@ -149,9 +151,11 @@
 </p>
 </sp>
 </div2>
-<div2 stage="hurry" type="scene" n="2"><head>SCÈNE II. Les Mêmes. Quelques valets accourent.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="hurry"> Les Mêmes. Quelques valets accourent. 
+</stage> 
 <stage type="entrance">Le chevalier Uladislas sort de l'hôtellerie.</stage>
-<sp type="location" who="LE CHEVALIER"><speaker>LE CHEVALIER, sur le pas de la porte.</speaker>
+<sp type="location" who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage>, sur le pas de la porte.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce, messieurs ? </s>
 	<s id="2">Qu'y a-t-il donc ?</s>
@@ -174,7 +178,8 @@
 	<s id="1">Un homme, monsieur, de quelque espèce qu'il soit, a toujours une espèce de dos, et si on vient lui administrer une espèce de coup de bâton...</s>
 </p>
 </sp>
-<sp stage="closer/toxard" who="LE CHEVALIER"><speaker>LE CHEVALIER, s'avançant, à l'hôtelier.</speaker>
+<sp who="LE CHEVALIER"><speaker>LE CHEVALIER</speaker><stage type="closer/toxard">, s'avançant, à l'hôtelier.
+</stage>
 <p id="">
 	<s id="">Ne te fâche pas, ne t'effraye pas ; je vais accommoder les choses.</s>
 </p> 
@@ -290,7 +295,8 @@
 <stage type="exit">Ils entrent dans la maison.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ulric, Barberine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ulric, Barberine.
+</stage>
 <sp who="BARBERINE"><speaker>BARBERINE.</speaker>
 <p id="1">
 	<s id="1">Il faut donc vous quitter ici !</s>
@@ -469,7 +475,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Chevalier, Rosemberg.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Chevalier, Rosemberg.
+</stage>
 <sp who="ROSEMBERG"><speaker>ROSEMBERG.</speaker>
 <p id="1">
 	<s id="1">Je ne connais rien de plus agréable, après qu'on a bien déjeuné, que de s'asseoir en plein air avec des personnes d'esprit, et de causer librement des femmes sur un ton convenable.</s>
@@ -823,7 +830,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <stage type="location">À la cour ; un jardin.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. La Reine, Ulric, Plusieurs courtisans.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> La Reine, Ulric, Plusieurs courtisans.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 <p id="1">
 	<s id="1">Soyez le bienvenu, comte Ulric. </s>
@@ -887,7 +895,8 @@
 	<s id="3">Qui vous amène dans ce jardin ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">On me questionne de tous côtés, et je ne sais si je dois répondre. </s>
 	<s id="2">Toutes ces figures nouvelles, ces yeux écarquillés qui vous dévisagent, cela m'étourdit à un point !</s>
@@ -947,13 +956,15 @@
 	<s id="2">On dirait, à les voir, qu'ils n'ont qu'à monter à cheval pour chasser le Turc par delà le Caucase, et ils sortent de quelque trou de la Bohême, comme des rats effarouchés.</s>
 </p>
 </sp>
-<sp stage="closer" who="ULRIC"><speaker>ULRIC, s'approchant.</speaker>
+<sp who="ULRIC"><speaker>ULRIC</speaker><stage type="closer">, s'approchant.
+</stage>
 <p id="20">
 	<s id="1">Seigneur, je suis le comte Ulric, gentilhomme bohémien, et je trouve un peu de légèreté dans vos paroles, qu'on peut pardonner à votre âge, mais que je vous conseille d'en retrancher. </s>
 	<s id="2">Être étourdi est un aussi grand défaut que d'être pauvre, permettez-moi de vous le dire, et que la leçon vous profite.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="21">
 	<s id="1">C'est mon Bohémien de l'auberge.</s>
 </p>
@@ -987,7 +998,8 @@
 </p>
 <stage type="exit/sit">Les courtisans sortent. Ulric et Rosemberg restent assis chacun de son côté.</stage>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Le chevalier Uladislas m'a recommandé de ne jamais démordre d'une chose une fois dite. </s>
 	<s id="2">Depuis que je suis dans cette cour, les paroles de ce digne homme ne me sortent pas de la tête. </s>
@@ -995,7 +1007,8 @@
 	<s id="4">Ou je me trompe fort, ou je ferai fortune.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ULRIC"><speaker>ULRIC, à part.</speaker>
+<sp who="ULRIC"><speaker>ULRIC</speaker><stage type="aparte">, à part.
+</stage>
 <p id="28">
 	<s id="1">Avec quelle bonté la Reine m'a reçu ! </s>
 	<s id="2">Et cependant j'éprouve une tristesse que rien ne peut vaincre. </s>
@@ -1009,7 +1022,8 @@
 	<s id="10">Ô rêveurs que nous sommes !</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage>, à part.
+</stage>
 <p id="29">
 	<s id="1">C'est surtout ce livre que j'ai acheté qui me bouleverse la cervelle ; si je l'ouvre le soir en me couchant, je ne saurais dormir de toute la nuit. </s>
 	<s id="2">Que de récits étonnants, que de choses admirables ! </s>
@@ -1335,7 +1349,8 @@
 	<s id="4">Tu crains sans doute qu'on ne te voie ici faire en public ton petit négoce.</s>
 </p>
 </sp>
-<sp stage="get" who="POLACCO"><speaker>POLACCO, prenant la bourse.</speaker>
+<sp who="POLACCO"><speaker>POLACCO</speaker><stage type="get">, prenant la bourse.
+</stage>
 <p id="78">
 	<s id="1">Bien dit, bien dit, mon cher seigneur, les murs ont des yeux, les arbres aussi. </s>
 	<s id="3">Que Dieu conserve la police ! </s>
@@ -1433,8 +1448,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Plusieurs courtisans.</head>
-<sp who="PREMIER COURTISAN"><speaker>PREMIER COURTISAN, à Ulric.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Plusieurs courtisans.
+</stage>
+<sp who="PREMIER COURTISAN"><speaker>PREMIER COURTISAN</speaker><stage>, à Ulric.
+</stage>
 <p id="1">
 	<s id="1">Comte Ulric, la reine va rentrer tout à l'heure au palais. </s>
 	<s id="2">Elle nous a ordonné de vous dire que votre présence y sera nécessaire.</s>
@@ -1445,7 +1462,8 @@
 	<s id="1">Je vous rends mille grâces, messieurs, et je suis tout aux ordres de Sa Majesté.</s>
 </p>
 </sp>
-<sp stage="wathc/location" who="ROSEMBERG"><speaker>ROSEMBERG, regardant toujours le miroir.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="wathc/location">, regardant toujours le miroir.
+</stage>
 <p id="3">
 	<s id="1">Dites-moi, messieurs, ne sentez-vous pas quelque odeur singulière ?</s>
 </p>
@@ -1461,7 +1479,8 @@
 	<s id="2">comme du charbon éteint.</s>
 </p>
 </sp>
-<sp stage="toward" who="ULRIC"><speaker>ULRIC, à Rosemberg.</speaker>
+<sp who="ULRIC"><speaker>ULRIC</speaker><stage type="toward">, à Rosemberg.
+</stage>
 <p id="6">
 	<s id="1">Avez-vous donc juré de lasser ma patience ?</s>
 </p>
@@ -1495,7 +1514,8 @@
 <stage type="threat">Il tire aussi son épée.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, La Reine, tous les courtisans.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, La Reine, tous les courtisans.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 <p id="1">
 	<s id="1">Que veut dire ceci, jeunes gens ? </s>
@@ -1523,7 +1543,8 @@
 	<s id="3">Je proteste à vos pieds qu'aujourd'hui même j'ai refusé de tirer l'épée, par respect pour la place où je suis.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA REINE"><speaker>LA REINE, à Rosemberg.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="toward">, à Rosemberg.
+</stage>
 <p id="5">
 	<s id="1">Vous paraissez bien jeune, mon enfant. </s>
 	<s id="2">Quel motif a pu vous porter à médire d'une femme qui vous est inconnue ?</s>
@@ -1631,7 +1652,8 @@
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
 <stage type="decor">Une salle au château de Barberine. - Plusieurs vastes croisées ouvertes au fond, sur une cour intérieure. - Par une de ces croisées on voit un cabinet dans une tourelle gothique, dont la fenêtre est également ouverte.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Rosemberg, Kalékairi.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Rosemberg, Kalékairi.
+</stage>
 <sp who="ROSEMBERG"><speaker>ROSEMBERG.</speaker>
 <p id="1">
 	<s id="1">Tu disais donc, ma belle enfant, que tu te nommes Kalékairi ?</s>
@@ -1845,7 +1867,8 @@
 </p>
 </sp>
 </div2>
-<div2 stage="location" type="scene" n="2"><head>SCÈNE II. Rosemberg, seul ; puis Barberine, dans la tourelle.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="location"> Rosemberg, seul ; puis Barberine, dans la tourelle. 
+</stage> 
 <sp who="ROSEMBERG"><speaker>ROSEMBERG.</speaker>
 <p id="1">
 	<s id="1">Voilà une étrange soubrette !... </s>
@@ -1915,7 +1938,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE III. Rosemberg, Barberine, Kalékairi.</head>
+<div2 type="scene" n=""><head>SCÈNE III.</head><stage> Rosemberg, Barberine, Kalékairi.
+</stage>
 <sp who="KALÉKAIRI"><speaker>KALÉKAIRI.</speaker>
 <stage type="stay/location">Elle reste au fond du théâtre.</stage>
 <p id="1">
@@ -1943,7 +1967,8 @@
 	<s id="5">Voici une lettre qu'il m'a confiée.</s>
 </p>
 </sp>
-<sp stage="read" who="BARBERINE"><speaker>BARBERINE, lisant.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="read">, lisant.
+</stage>
 <p id="4">
 	<s id="1">« C'est un jeune cavalier du plus grand mérite, et qui appartient à l'une des plus nobles familles des deux royaumes. </s>
 	<s id="2">Recevez-le comme un ami... » </s>
@@ -1976,7 +2001,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Barberine, Kalékairi.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Barberine, Kalékairi.
+</stage>
 <sp who="BARBERINE"><speaker>BARBERINE.</speaker>
 <p id="1">
 	<s id="1">Que penses-tu de ce jeune homme, ma chère ?</s>
@@ -2028,7 +2054,8 @@
 	<s id="1">Il a donné de l'or à Kalékairi.</s>
 </p>
 </sp>
-<sp stage="laugh" who="BARBERINE"><speaker>BARBERINE, riant.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="11">
 	<s id="1">C'est là ce qui t'a offensée ? </s>
 	<s id="2">Eh bien ! </s>
@@ -2143,8 +2170,10 @@
 <stage type="away">Elles se retirent au fond du théâtre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Rosemberg.</head>
-<sp stage="alone" who="ROSEMBERG"><speaker>ROSEMBERG, se croyant seul.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Rosemberg.
+</stage>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="alone">, se croyant seul.
+</stage>
 <p id="1">
 	<s id="1">Je crois maintenant que mon plan est fait. </s>
 	<s id="2">Il y a dans le petit livre d'Uladislas l'histoire d'un certain Jachimo qui fait une gageure toute pareille à la mienne avec Leonatus Posthumus, gendre du roi de la Grande-Bretagne. </s>
@@ -2154,12 +2183,14 @@
 	<s id="6">Je veux imiter ce Jachimo.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Il a l'air de se consulter.</s>
 </p>
 </sp>
-<sp stage="idem" who="KALÉKAIRI"><speaker>KALÉKAIRI, de même.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="idem">, de même.
+</stage>
 <p id="3">
 	<s id="1">N'en doutez pas ; c'est peut-être un espion turc.</s>
 </p>
@@ -2174,7 +2205,8 @@
 	<s id="6">C'est dangereux et embarrassant.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Barberine.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low/toward">, bas à Barberine.
+</stage>
 <p id="5">
 	<s id="1">Voyez-vous comme il réfléchit ?</s>
 </p>
@@ -2213,7 +2245,8 @@
 	<s id="2">À vous dire vrai, en venant chez vous, je ne craignais que d'être importun, et je courrais grand risque de le devenir si je laissais parler mon coeur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Parler son coeur ! </s>
 	<s id="2">Déjà ! </s>
@@ -2249,12 +2282,14 @@
 	<s id="2">il me faut aller aux champs toute la journée pour faire rentrer le maïs et les foins tardifs.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Si elle me répond sur ce ton, cela va être bien peu poétique.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, de même.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="aparte">, de même.
+</stage>
 <p id="18">
 	<s id="1">S'il persiste dans ses compliments, cela pourra être divertissant.</s>
 </p>
@@ -2314,7 +2349,8 @@
 	<s id="2">Certainement ; c'est d'elle que me viennent presque tous les bijoux que je porte.</s>
 </p>
 </sp>
-<sp who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage>, à part.
+</stage>
 <p id="28">
 	<s id="">Ce garçon-là n'est pas bien méchant.</s>
 </p>
@@ -2370,7 +2406,8 @@
 </p>
 <stage type="show">Elle montre la quenouille et le fuseau.</stage>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="36">
 	<s id="1">Le sermon n'est pas mal tourné, mais me voilà loin de mon pari. </s>
 	<s id="2">Tâchons encore d'y revenir.</s>
@@ -2400,7 +2437,8 @@
 	<s id="4">Ce bruit de ferraille doit être assourdissant, et vous devez être là comme dans une prison.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="41">
 	<s id="1">Je crois qu'elle cherche à me dérouter.</s>
 </p>
@@ -2514,8 +2552,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. Les mêmes, Kalékairi.</head>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> Les mêmes, Kalékairi.
+</stage>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Peste soit de la petite Barbaresque ! </s>
 	<s id="2">J'avais eu tant de peine à en arriver là !</s>
@@ -2542,64 +2582,75 @@
 	<s id="1">Approche.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Quel mystère ! </s>
 	<s id="2">Encore des légumes ! </s>
 	<s id="3">Voilà une châtelaine terriblement bourgeoise.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à sa maîtresse.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low/toward">, bas à sa maîtresse.
+</stage>
 <p id="7">
 	<s id="1">Il n'y a point de chariots. </s>
 	<s id="2">Rosemberg a encore donné beaucoup d'or au  portier L'Uscoque.</s>
 </p>
 </sp>
-<sp stage="low" who="BARBERINE"><speaker>BARBERINE, bas.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="low">, bas.
+</stage>
 <p id="8">
 	<s id="1">Pourquoi faire, et sous quel prétexte ?</s>
 </p>
 </sp>
-<sp stage="low" who="KALÉKAIRI"><speaker>KALÉKAIRI, de même.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low">, de même.
+</stage>
 <p id="9">
 	<s id="1">Il a demandé qu'on le fasse entrer secrètement chez la maîtresse.</s>
 </p>
 </sp>
-<sp stage="low" who="BARBERINE"><speaker>BARBERINE, bas.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="low">, bas.
+</stage>
 <p id="10">
 	<s id="1">Chez moi, dis-tu ? </s>
 	<s id="2">En es-tu sûre ?</s>
 </p>
 </sp>
-<sp stage="low" who="KALÉKAIRI"><speaker>KALÉKAIRI, de même.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low">, de même.
+</stage>
 <p id="11">
 	<s id="1">L'Uscoque ne voulait rien dire ; mais Kalékairi l'a grisé, et il lui a tout raconté.</s>
 </p>
 </sp>
-<sp who="BARBERINE"><speaker>BARBERINE, regardant Rosemberg.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage>, regardant Rosemberg.
+</stage>
 <p id="12">
 	<s id="1">Vraiment, cela est incroyable !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Quel singulier regard jette-t-elle donc sur moi ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, de même.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="aparte">, de même.
+</stage>
 <p id="14">
 	<s id="1">Est-ce possible ? </s>
 	<s id="2">Ce jeune homme un peu fanfaron, il est vrai, mais, au fond, d'humeur assez douce et qui semblait... </s>
 	<s id="3">Cela est bien étrange !</s>
 </p>
 </sp>
-<sp stage="low" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low">, bas.
+</stage>
 <p id="15">
 	<s id="1">L'Uscoque dit maintenant que si la maîtresse le veut, il se cachera derrière la porte avec Ludwig le jardinier. </s>
 	<s id="2">Ils prendront chacun une fourche, et quand l'autre arrivera...</s>
 </p>
 </sp>
-<sp stage="laugh" who="BARBERINE"><speaker>BARBERINE, riant.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="16">
 	<s id="1">Non, je te remercie. </s>
 	<s id="2">Tu en reviens toujours à ta méthode expéditive.</s>
@@ -2627,7 +2678,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Barberine, Rosemberg.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Barberine, Rosemberg.
+</stage>
 <sp who="BARBERINE"><speaker>BARBERINE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -2681,7 +2733,8 @@
 	<s id="2">Mais êtes-vous sûr que j'aie mal compris ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Que veut-elle dire ? </s>
 	<s id="2">Ce regard si terrible me semble à présent singulièrement doux.</s>
@@ -2719,7 +2772,8 @@
 </p>
 <stage type="kneel">Il met un genou en terre.</stage>
 </sp>
-<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="15">
 	<s id="1">Il ne ment pas mal pour son âge.</s>
 </p>
@@ -2728,7 +2782,8 @@
 	<s id="1">Vous aviez, dites-vous, la crainte d'être puni ; - n'aviez-vous pas celle de m'offenser ?</s>
 </p>
 </sp>
-<sp stage="stand" who="ROSEMBERG"><speaker>ROSEMBERG, se levant.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="stand">, se levant.
+</stage>
 <p id="17">
 	<s id="1">En quoi l'amour peut-il être une offense ? </s>
 	<s id="2">Qui est-ce offenser que d'aimer ?</s>
@@ -2841,8 +2896,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, Kalékairi.</head>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, Kalékairi.
+</stage>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Encore cette Croate, cette Transylvaine !</s>
 </p>
@@ -2857,7 +2914,8 @@
 	<s id="1">J'y vais.</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, bas à Barberine.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage>, bas à Barberine.
+</stage>
 <p id="4">
 	<s id="1">Hé ! </s>
 	<s id="2">quoi ! </s>
@@ -2878,7 +2936,8 @@
 	<s id="1">Kalékairi ne veut pas dîner.</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage>, à part.
+</stage>
 <p id="7">
 	<s id="1">Elle veut rester, la petite Éthiopienne !</s>
 </p>
@@ -2894,7 +2953,8 @@
 	<s id="3">Mais Kalékairi ne veut pas manger ; Kalékairi n'a pas d'appétit.</s>
 </p>
 </sp>
-<sp stage="laugh" who="BARBERINE"><speaker>BARBERINE, riant.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="10">
 	<s id="1">Viens, mon enfant, tu feras comme tu voudras, mais j'ai besoin de toi.</s>
 </p>
@@ -2905,7 +2965,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp stage="alone" who="ROSEMBERG"><speaker>ROSEMBERG, seul.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Elle va revenir ! </s>
 	<s id="2">Elle me dit de l'attendre pendant qu'elle va éloigner tout son monde ! </s>
@@ -2974,7 +3035,8 @@
 </p>
 <stage type="open/location">Un guichet s'ouvre dans la muraille.</stage>
 </sp>
-<sp stage="location" who="BARBERINE"><speaker>BARBERINE, en dehors, parlant par le guichet.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="location">, en dehors, parlant par le guichet.
+</stage>
 <p id="3">
  	<s id="1">Seigneur Rosemberg, comme vous n'êtes venu ici que pour commettre un vol, le plus odieux et le plus digne de châtiment, le vol de l'honneur d'une femme, et comme il est juste que la pénitence soit proportionnée au crime, vous êtes emprisonné comme un voleur. </s>
 	<s id="2">Il ne vous sera fait aucun mal, et les gens de votre suite continueront à être bien traités. </s>
@@ -3013,7 +3075,8 @@
 	<s id="26">On ne m'ouvrira pas !</s>
 </p>
 </sp>
-<sp stage="open" who="BARBERINE"><speaker>BARBERINE, ouvrant le guichet.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="open">, ouvrant le guichet.
+</stage>
 <p id="5">
 	<s id="1">Seigneur, ces cris ne servent de rien. </s>
 	<s id="2">Il commence à se faire tard ; si vous voulez souper, il est temps de vous mettre à filer.</s>
@@ -3047,7 +3110,8 @@
  	<l id="19">Holà ! Remplis ton verre,</l>
  	<l id="20">Holà ! Landerira.</l>
 </sp>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, ouvrant le guichet.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage>, ouvrant le guichet.
+</stage>
 <p id="7">
 	<s id="1">La maîtresse dit, puisque vous ne filez pas, que vous vous passerez sans doute de souper, et elle croit que vous n'avez pas faim ; ainsi je vous souhaite une bonne nuit.</s>
 </p>
@@ -3109,7 +3173,8 @@
 	<s id="52">Prenez pitié de moi.</s>
 </p>
 </sp>
-<sp stage="open" who="BARBERINE"><speaker>BARBERINE, ouvrant le guichet.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="open">, ouvrant le guichet.
+</stage>
 <p id="9">
 	<s id="1">Seigneur, avant de me coucher, je viens savoir si vous avez filé.</s>
 </p>
@@ -3222,7 +3287,8 @@
 	<s id="29">j'y pense, elle me regarde ; cela est sûr, je ne filerai pas.</s>
 </p>
 </sp>
-<sp stage="location" who="UNE VOIX"><speaker>UNE VOIX, au dehors.</speaker>
+<sp who="UNE VOIX"><speaker>UNE VOIX</speaker><stage type="location">, au dehors.
+</stage>
 <p id="22">
 	<s id="1">Qui vive !</s>
 </p>
@@ -3246,7 +3312,8 @@
 	<s id="14">Compagnon, n'y a-t-il pas un soldat de garde ?</s>
 </p>
 </sp>
-<sp stage="open" who="BARBERINE"><speaker>BARBERINE, ouvrant le guichet.</speaker>
+<sp who="BARBERINE"><speaker>BARBERINE</speaker><stage type="open">, ouvrant le guichet.
+</stage>
 <p id="24">
 	<s id="1">Eh bien ?</s>
 </p>
@@ -3257,8 +3324,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Rosemberg, Kalékairi.</head>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, portant deux plats.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Rosemberg, Kalékairi.
+</stage>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage>, portant deux plats.
+</stage>
 <p id="1">
 	<s id="1">Voilà le souper. </s>
 	<s id="2">Il y a des concombres et une salade de laitues.</s>
@@ -3272,7 +3341,8 @@
 	<s id="4">Pourquoi as-tu pris mes sequins ?</s>
 </p>
 </sp>
-<sp stage="drop" who="KALÉKAIRI"><speaker>KALÉKAIRI, mettant une bourse sur la table.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="drop">, mettant une bourse sur la table.
+</stage>
 <p id="3">
 	<s id="1">Maintenant je puis vous les rendre.</s>
 </p>
@@ -3418,7 +3488,8 @@
 	<s id="4">Ensorcelé par deux démons femelles !</s>
 </p>
 </sp>
-<sp stage="location" who="LA SENTINELLE"><speaker>LA SENTINELLE, sur le pas de la porte.</speaker>
+<sp who="LA SENTINELLE"><speaker>LA SENTINELLE</speaker><stage type="location">, sur le pas de la porte.
+</stage>
 <p id="28">
 	<s id="1">Seigneur, vous êtes libre. </s>
 	<s id="2">La Reine va venir.</s>
@@ -3470,8 +3541,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE XI. Les précédents, La reine, Ulric, Barberine, courtisans, etc.</head>
-<sp stage="toward" who="LA REINE"><speaker>LA REINE, à Barberine.</speaker>
+<div2 type="scene" n=""><head>SCÈNE XI.</head><stage> Les précédents, La reine, Ulric, Barberine, courtisans, etc.
+</stage>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="toward">, à Barberine.
+</stage>
 <p id="1">
 	<s id="1">Oui, Comtesse, nous avons voulu venir nous-même vous rendre visite.</s>
 </p>
@@ -3496,7 +3569,8 @@
 	<s id="1">Il est perdu, Madame, comme vous voyez.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low/toward">, bas à Rosemberg.
+</stage>
 <p id="6">
 	<s id="1">Oui, bien perdu.</s>
 </p>
@@ -3513,7 +3587,8 @@
 	<s id="1">Je ne manquerai pas de m'en souvenir, madame, toutes les fois que je ferai quelque sottise.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low/toward">, bas à Rosemberg.
+</stage>
 <p id="9">
 	<s id="1">Ce sera souvent.</s>
 </p>
@@ -3536,12 +3611,14 @@
 </p>
 <stage type="touch">Il donne à sa femme une poignée de main.</stage>
 </sp>
-<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp who="ROSEMBERG"><speaker>ROSEMBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Par mon patron, voilà un digne homme.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage type="low/toward">, bas à Rosemberg.
+</stage>
 <p id="14">
 	<s id="1">Vous êtes guéri, n'est-ce pas ?</s>
 </p>
@@ -3558,7 +3635,8 @@
 	<s id="1">Madame, l'argent est tout prêt.</s>
 </p>
 </sp>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
+<sp who="KALÉKAIRI"><speaker>KALÉKAIRI</speaker><stage>, bas à Rosemberg.
+</stage>
 <p id="17">
 	<s id="1">Que va dire votre tante Béatrix ?</s>
 </p>

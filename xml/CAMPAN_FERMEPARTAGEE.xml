@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -27,26 +27,27 @@
 		<docTitle>
 			<titlePart type="main">LA FERME PARTAGÉE</titlePart>
 		</docTitle> 
-		<docDate value='1832'>1832.</docDate>
-		<docAuthor id='MADAME CAMPAN'>de Mme CAMPAN</docAuthor>
+		<docDate value="1832">1832.</docDate>
+		<docAuthor id="MADAME CAMPAN">de Mme CAMPAN</docAuthor>
 		<docImprint>
-				<printer id=''>Paris, LEBIGRE FRÈRES, LIBRAIRES.</printer>
+				<printer id="">Paris, LEBIGRE FRÈRES, LIBRAIRES.</printer>
 		</docImprint>
 	<castList><head>NOMS DES PERSONNAGES.</head>
-			<castItem><role id="LOUISE" sex="2" type="H" statut="fermier" age="A" stat_amour='néant'>LOUISE</role>, fermière, épouse de Pierre Bouleau.</castItem>
-			<castItem><role id="JEANNETTE" sex="2" type="H" statut="fermier" age="J" stat_amour='néant'>JEANNETTE</role>, sa fille aînée.</castItem>
-			<castItem><role id="MARIE" sex="2" type="H" statut="fermier" age="J" stat_amour='néant'>MARIE</role>, sa fille cadette.</castItem>
-			<castItem><role id="SUZANNE" sex="2" type="H" statut="fermier" age="A" stat_amour='néant'>SUZANNE</role>, fermière, épouse de Jean-Louis Bouleau.</castItem>
-			<castItem><role id="SOPHIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>SOPHIE</role>, sa fille aînée.</castItem>
-			<castItem><role id="LUCIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>LUCIE</role>, sa fille cadette.</castItem>
-			<castItem><role id="LA MÈRE MARGUERITE" sex="2" type="H" statut="bourgeois" age="V" stat_amour='néant'>LA MÈRE MARGUERITE</role>, âgée de quatre-vingts ans, mère des deux fermiers.</castItem>
+			<castItem><role id="LOUISE" sex="2" type="H" statut="fermier" age="A" stat_amour="néant">LOUISE</role>, fermière, épouse de Pierre Bouleau.</castItem>
+			<castItem><role id="JEANNETTE" sex="2" type="H" statut="fermier" age="J" stat_amour="néant">JEANNETTE</role>, sa fille aînée.</castItem>
+			<castItem><role id="MARIE" sex="2" type="H" statut="fermier" age="J" stat_amour="néant">MARIE</role>, sa fille cadette.</castItem>
+			<castItem><role id="SUZANNE" sex="2" type="H" statut="fermier" age="A" stat_amour="néant">SUZANNE</role>, fermière, épouse de Jean-Louis Bouleau.</castItem>
+			<castItem><role id="SOPHIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">SOPHIE</role>, sa fille aînée.</castItem>
+			<castItem><role id="LUCIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LUCIE</role>, sa fille cadette.</castItem>
+			<castItem><role id="LA MÈRE MARGUERITE" sex="2" type="H" statut="bourgeois" age="V" stat_amour="néant">LA MÈRE MARGUERITE</role>, âgée de quatre-vingts ans, mère des deux fermiers.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">Le théâtre représente deux salles du même corps de ferme. Dans l'une est le ménage de Pierre Bouleau, dans l'autre celui de Jean-Louis Bouleau. La propreté, l'aisance, se remarquent dans la salle du premier ménage; des poteries, des chaises cassées, des couvertures à terre, montrent dans l'autre le désordre et la misère.</set>
 	<note>Texte établi à partir de l'ouvrage "DE L'ÉDUCATION, par Mme CAMPAN suivi des conseils au jeunes filles, de quelques essais de morale et d'un théâtre pour les jeunes personnes, ouvrage mis en ordre et publié, avec des introductions par M. F. BARRIÈRE. Nouvelle édition ; augmentée de lettres, avec une introduction. Tome Troisième", Paris, LEBIGRE FRÈRES, LIBRAIRES, 1832. pp 62-76</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LA FERME PARTAGÉE.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Louise et Jeannette, sa fille aînée.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Louise et Jeannette, sa fille aînée.
+</stage>
 <sp who="JEANNETTE"><speaker>JEANNETTE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -92,7 +93,8 @@
 	<s id="1">Quel bonheur !</s>
 </p>
 </sp>
-<sp stage="open/stress" who="LOUISE"><speaker>LOUISE émue ouvre la lettre, et a de la peine à lire les premières lignes : petit à petit sa voix se rassure.</speaker>
+<sp who="LOUISE"><speaker>LOUISE</speaker><stage type="open/stress"> émue ouvre la lettre, et a de la peine à lire les premières lignes : petit à petit sa voix se rassure.
+</stage>
 <p id="4">
 	<s id="1">« Ma chère femme, mes bons enfants, remerciez Dieu, il m'a sauvé la vie ; je suis arrivé au bord de la rivière lorsque le pont venait d'être enlevé. </s>
 	<s id="2">Un roulier et sa voiture y ont péri : j'ai repris le chemin de la ville ; je vais y terminer des affaires que j'avais remises à un autre voyage. </s>
@@ -109,12 +111,14 @@
 	<s id="13">Tu désires depuis longtemps une cornette de dentelle, un déshabillé de taffetas, ta Jeannette une croix... »</s>
 </p>
 </sp>
-<sp stage="interrupt" who="JEANNETTE"><speaker>JEANNETTE interrompt sa mère.</speaker>
+<sp who="JEANNETTE"><speaker>JEANNETTE</speaker><stage type="interrupt"> interrompt sa mère.
+</stage>
 <p id="5">
 	<s id="1">Ah Dieu !</s>
 </p>
 </sp>
-<sp stage="continue" who="LOUISE"><speaker>LOUISE continue.</speaker>
+<sp who="LOUISE"><speaker>LOUISE</speaker><stage type="continue"> continue.
+</stage>
 <p id="6">
 	<s id="1">« Ta Marie un collier de grenat ; tu peux acheter toutes ces choses. </s>
 	<s id="2">À demain, mes bonnes amies. »</s>
@@ -135,7 +139,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="cry"><head>SCÈNE III. Sophie et Lucie pleurant.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="cry"> Sophie et Lucie pleurant.
+</stage>
 <stage type="location">La scène se passe dans la salle de Jean-Louis Bouleau.</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
@@ -204,7 +209,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La fermière Suzanne, Sophie, Lucie.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La fermière Suzanne, Sophie, Lucie.
+</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, ma mère ?</s>
@@ -265,7 +271,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes; LA MÈRE MARGUERITE appuyée sur son bâton.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes; LA MÈRE MARGUERITE appuyée sur son bâton.
+</stage>
 <sp who="MARGUERITE"><speaker>MARGUERITE.</speaker>
 <p id="1">
 	<s id="1">Il faut donc, à mon âge, que j'aie la douleur de voir ce malheureux Jean-Louis et sa famille réduits à la mendicité !</s>
@@ -314,7 +321,8 @@
 	<s id="2">Les ivrognes et les paresseux...</s>
 </p>
 </sp>
-<sp stage="watch" who="SOPHIE"><speaker>SOPHIE, regardant la porte de la maison.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="watch">, regardant la porte de la maison.
+</stage>
 <p id="8">
 	<s id="1">Ciel ! </s>
 	<s id="2">Je vois le receveur qui parle à ma tante. </s>
@@ -323,7 +331,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes ; Louise, Jeannette et Marie, embrassant leurs cousines.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes ; Louise, Jeannette et Marie, embrassant leurs cousines.
+</stage>
 <sp who="SUZANNE"><speaker>SUZANNE.</speaker>
 <p id="1">
 	<s id="1">Vous étiez avec ce cruel homme, ma soeur ; il vous parlait : il veut faire saisir nos meubles et nous perdre ?</s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,24 +28,25 @@
 			<titlePart type="main">LES DEUX ANGLAIS</titlePart>
 			<titlePart type="sub">DEUXIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MILORD WITTHAM" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MILORD WITTHAM</role>.</castItem>
-		<castItem><role id="MILORD HENRI" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MILORD HENRI</role>.</castItem>
+		<castItem><role id="MILORD WITTHAM" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MILORD WITTHAM</role>.</castItem>
+		<castItem><role id="MILORD HENRI" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MILORD HENRI</role>.</castItem>
 	</castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est dans un café.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans un café.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LES DEUX ANGLAIS.</head>
-<div2 type="scene" n=""><head>SCÈNE PREMIÈRE. Wittham, se promène en rêvant tristement, Henri se promène de même, et heurte Wittham en le rencontrant.</head> 
+<div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head><stage> Wittham, se promène en rêvant tristement, Henri se promène de même, et heurte Wittham en le rencontrant. 
+</stage> 
 <sp who="WITTHAM"><speaker>WITTHAM.</speaker>
 <p id="1">
 	<s id="1">Vous pouvez vous promener, ainsi que moi, Monsieur ; mais vous me poussez trop fort, et cela est fort mal fait.</s>
@@ -259,7 +260,8 @@
 	<s id="1">Sûrement, il m'a donné à Boston, cinq coups d'épée dont j'ai été fort longtemps malade.</s>
 </p>
 </sp>
-<sp stage="aparte" who="HENRI"><speaker>HENRI, à part.</speaker>
+<sp who="HENRI"><speaker>HENRI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="30">
 	<s id="1">Que je suis malheureux !</s>
 </p>
@@ -308,4 +310,3 @@
 </body>
 </text>
 </TEI>
-

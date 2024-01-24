@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -147,18 +147,20 @@
 	</div>
 <castList>
 	<head>ACTEURS de LA PETITE VÉROLE.</head>
-		<castItem><role id="MADAME LARCIS" sex="2" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MADAME LARCIS</role>.</castItem>
-		<castItem><role id="MADEMOISELLE LARCIS" sex="2" type="H" statut='bourgeois' age='J' stat_amour='(néant)'>MADEMOISELLE LARCIS</role>, sa fille, âgée de seize ans.</castItem>
-		<castItem><role id="MADAME DURCÉ" sex="2" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MADAME DURCÉ</role>.</castItem>
-		<castItem><role id="MONSIEUR DURCÉ" sex="1" type="H" statut='bourgeois' age='J' stat_amour='(néant)'>MONSIEUR DURCÉ</role>, son Fils, âgé de vingt ans.</castItem>
+		<castItem><role id="MADAME LARCIS" sex="2" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MADAME LARCIS</role>.</castItem>
+		<castItem><role id="MADEMOISELLE LARCIS" sex="2" type="H" statut="bourgeois" age="J" stat_amour="(néant)">MADEMOISELLE LARCIS</role>, sa fille, âgée de seize ans.</castItem>
+		<castItem><role id="MADAME DURCÉ" sex="2" type="H" statut="bourgeois" age="A" stat_amour="(néant)">MADAME DURCÉ</role>.</castItem>
+		<castItem><role id="MONSIEUR DURCÉ" sex="1" type="H" statut="bourgeois" age="J" stat_amour="(néant)">MONSIEUR DURCÉ</role>, son Fils, âgé de vingt ans.</castItem>
 </castList>
-<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La scène est dans la chambre à coucher de Madame Larcis, où il y a un paravent, et une porte vitrée qui donne dans la chambre de Mademoiselle. Larcis. L'action se passe à onze heures du matin.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans la chambre à coucher de Madame Larcis, où il y a un paravent, et une porte vitrée qui donne dans la chambre de Mademoiselle. Larcis. L'action se passe à onze heures du matin.</set>
 
 </front>
 <body>
 <div1 type="act" n="1"><head>LA PETITE VÉROLE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIERE. Madame Larcis, Madame Du.</head>
-<sp stage="closer/sad" who="MADAME LARCIS"><speaker>MADAME LARCIS, va au-devant de Madame Durcé, d'un air triste.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head><stage> Madame Larcis, Madame Du.
+</stage>
+<sp who="MADAME LARCIS"><speaker>MADAME LARCIS</speaker><stage type="closer/sad">, va au-devant de Madame Durcé, d'un air triste.
+</stage>
 <p id="1">
 	<s id="1">Madame, j'ai l'honneur d'être votre servante ; vous voilà donc enfin arrivée de votre terre.</s>
 </p>
@@ -168,7 +170,8 @@
 	<s id="1">Oui, Madame, d'hier seulement, et mon amitié m'amène dès le matin m'informer moi-même de l'état de votre santé.</s>
 </p>
 </sp>
-<sp who="MADAME LARCIS"><speaker>MADAME LARCIS, les larmes aux yeux.</speaker>
+<sp who="MADAME LARCIS"><speaker>MADAME LARCIS</speaker><stage>, les larmes aux yeux.
+</stage>
 <p id="3">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, ma santé toute mauvaise qu'elle est, est encore meilleure qu'elle ne devrait être après le malheur qui m'est arrivé.</s>
@@ -316,8 +319,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Madame Larcis, Madame Durcé, Mademoiselle  Larcis.</head>
-<sp stage="happy/jump" who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS, très gaiement et en sautant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Madame Larcis, Madame Durcé, Mademoiselle  Larcis.
+</stage>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS</speaker><stage type="happy/jump">, très gaiement et en sautant.
+</stage>
 <p id="1">
 	<s id="1">Me voilà, Maman.... </s>
 </p>
@@ -332,7 +337,8 @@
 	<s id="1">Très bonne, Mademoiselle, je reviens de ma terre, et je n'apprends que dans le moment le fâcheux, le cruel, le détestable accident qui vous est arrivé.</s>
 </p>
 </sp>
-<sp stage="sit" who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS s'assied.</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS</speaker><stage type="sit"> s'assied.
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Madame, ce n'est rien que cela, j'en suis déjà toute consolée, et pourvu que Maman, mes parents et tous nos amis ne m'en aiment pas moins, je vous assure que je n'y penserai plus du tout dans quelques jours.</s>
@@ -353,7 +359,8 @@
 </p>
 <stage type="stand/get">Elle se lève et va chercher son ouvrage.</stage>
 </sp>
-<sp stage="low/toward" who="MADAME LARCIS"><speaker>MADAME LARCIS bas à Madame Durci.</speaker>
+<sp who="MADAME LARCIS"><speaker>MADAME LARCIS</speaker><stage type="low/toward"> bas à Madame Durci.
+</stage>
 <p id="7">
 	<s id="1">Comment la trouvez-vous ?</s>
 </p>
@@ -378,8 +385,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="entrance/hide"><head>SCÈNE III. Madame Larcis, Madame Durcé, Mademoiselle Larcis, Monsieur Durcé, qui entre sans être vu, et se cache derrière un paravent pour écouter.</head>
-<sp stage="toward" who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS à Madame Durcé.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="entrance/hide"> Madame Larcis, Madame Durcé, Mademoiselle Larcis, Monsieur Durcé, qui entre sans être vu, et se cache derrière un paravent pour écouter.
+</stage>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS</speaker><stage type="toward"> à Madame Durcé.
+</stage>
 <p id="1">
 	<s id="1">J'entends, Madame ; ce que vous auriez fait est un avis que vous me donnez sur ce que je devrais faire ; vous me trouvez donc bien laide, bien affreuse...</s>
 </p>
@@ -407,7 +416,8 @@
 	<s id="2">Pour moi, je ne les imagine pas.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS. (Impromptu)</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS.</speaker><stage type="impromptu"> (Impromptu)
+</stage>
 <p id="6">
 	<s id="1">D'abord, j'aurais peut-être été vaine, orgueilleuse, coquette... </s>
 	<s id="2">Que sait-on ? </s>
@@ -421,7 +431,8 @@
 	<s id="3">Ma fille...</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS. ( Impromptu )</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS.</speaker><stage> ( Impromptu )
+</stage>
 <p id="8">
 	<s id="1">Eh bien, Maman, voilà le brillant côté que vous m'offrez, dans ce qui peut arriver à une belle personne ; mais entre mille peut-être qu'il y a à Paris, combien y en a-t'il que cette même beauté a rendu, rend, et rendra malheureuses. </s>
 	<s id="2">L'envie qu'elle excite, la jalousie qu'elle inspire, l'ivresse qu'elle produit, les sottises qu'elle vous met toujours à portée de faire par les sollicitations perpétuelles et dangereuses auxquelles elle vous expose ; ah ! </s>
@@ -429,7 +440,8 @@
 	<s id="4">Eh bien, moi, je ne craindrai plus du tout cela.</s>
 </p>
 </sp>
-<sp who="MADAME LARCIS"><speaker>MADAME LARCIS à Madame Burcé.</speaker>
+<sp who="MADAME LARCIS"><speaker>MADAME LARCIS</speaker><stage> à Madame Burcé.
+</stage>
 <p id="9">
 	<s id="1">Vous l'entendez, Madame, et vous voyez que je vous ai dit vrai ; voilà comme elle se console, cela n'est-il pas désolant ?</s>
 </p>
@@ -438,7 +450,8 @@
 	<s id="1">Et vous comptez donc avec ce beau raisonnement là rester dans le monde, et pouvoir supporter les chagrins qui vous y attendent ?</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS. (Impromptu)</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS.</speaker><stage> (Impromptu)
+</stage>
 <p id="11">
 	<s id="1">Assurément, Maman, si votre tendresse pour moi veut bien me conserver les moyens d'y rester, mon_Dieu, comptez que je n'y aurai pas tant de chagrin, par la façon dont j'y vivrai ; j'y resterai dans ce monde, sans desirer de déparer ses assemblées, ses spectacles, ses promenades, ses beaux cercles, et ce fera encore un avantage que je tirerai de mon prétendu malheur.</s>
 </p>
@@ -448,7 +461,8 @@
 	<s id="1">Elle se fait des avantages de ce qui devrait la désespérer, quel entêtement !</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS. (Impromptu)</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS.</speaker><stage> (Impromptu)
+</stage>
 <p id="13">
 	<s id="1">Mais, ma chère Maman, pourquoi appelez-vous cela de l'entêtement ; au lieu de perdre mon temps à présenter ma figure dans tous ces endroits, après en avoir déjà trop perdu à une toilette fort longue ; avec de bons livres je me formerai le coeur et l'esprit, je m'apprendrai tout plein de choses dont je n'aurais jamais rien su, car une belle femme ne sait qu'être belle, : et voilà toute son occupation, ce qui fait souvent qu'elle ne sait qu'être sotte : voyez si je n'ai pas maintenant à me louer de la Providence, qui a bien voulu m'ôter tout ce qui aurait pu me rendre sotte ou malheureuse, et peut-être toutes les deux à la fois.</s>
 </p>
@@ -458,7 +472,8 @@
 	<s id="1">Et un mari, Mademoiselle, car enfin dans ce monde il faut se marier.</s>
 </p>
 </sp>
-<sp stage="imromptu" who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS. (Impromptu)</speaker>
+<sp who="MADEMOISELLE LARCIS"><speaker>MADEMOISELLE LARCIS.</speaker><stage type="imromptu"> (Impromptu)
+</stage>
 <p id="15">
 	<s id="1">Un mari ! </s>
 	<s id="2">Oh ! </s>
@@ -466,9 +481,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Madame Durcé, Madame Larcis, Mademoiselle
-Larcis, Monsieur Durcé sortant de derrière le Paravent.</head>
-<sp who="MONSIEUR DURCÉ"><speaker>MONSIEUR DURCÉ, avec une tendre vivacité.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Madame Durcé, Madame Larcis, Mademoiselle
+Larcis, Monsieur Durcé sortant de derrière le Paravent.
+</stage>
+<sp who="MONSIEUR DURCÉ"><speaker>MONSIEUR DURCÉ</speaker><stage>, avec une tendre vivacité.
+</stage>
 <p id="1">
 	<s id="1">Vous ne vous marirez point, Mademoiselle, et que sont donc devenus les projets que ma mère et Madame ont formés de nous unir ensemble ?...</s>
 </p>

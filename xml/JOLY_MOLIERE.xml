@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,27 +29,28 @@
 			<titlePart type="sub">(17 février 1673)</titlePart>
 			<titlePart type="sub">ESSAI DRAMATIQUE EN VERS</titlePart>
 		</docTitle> 
-		<docDate value='1863'></docDate>
-		<docAuthor id='JOLY, Adolphe'>Adolphe JOLY</docAuthor>
+		<docDate value="1863"/>
+		<docAuthor id="JOLY, Adolphe">Adolphe JOLY</docAuthor>
 		<docImprint>
-			<editor id='HURE'>PARIS, A. HURÉ, Libraire-Éditeur, 14 rue du Petit-Carreau.</editor>
+			<editor id="HURE">PARIS, A. HURÉ, Libraire-Éditeur, 14 rue du Petit-Carreau.</editor>
 		</docImprint>
 		<performance>
-			<premiere date='1817-09-16' location='Cirque olympique'>Représentée, pour la première fois, à Paris, sur le Théâtre du Cirque Olympique, le 16 Septembre 1817.</premiere>
+			<premiere date="1817-09-16" location="Cirque olympique">Représentée, pour la première fois, à Paris, sur le Théâtre du Cirque Olympique, le 16 Septembre 1817.</premiere>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="MOLIÈRE" sex="1" type="H" statut="auteur" age="A" stat_amour='néant'>MOLIÈRE</role>.</castItem>
-			<castItem><role id="LE MARQUIS DE DANGEAU" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS DE DANGEAU</role>.</castItem>
-			<castItem><role id="MADEMOISELLE MOLIÈRE" sex="2" type="H" statut="comédien" age="A" stat_amour='néant'>MADEMOISELLE MOLIÈRE</role>.</castItem>
+			<castItem><role id="MOLIÈRE" sex="1" type="H" statut="auteur" age="A" stat_amour="néant">MOLIÈRE</role>.</castItem>
+			<castItem><role id="LE MARQUIS DE DANGEAU" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS DE DANGEAU</role>.</castItem>
+			<castItem><role id="MADEMOISELLE MOLIÈRE" sex="2" type="H" statut="comédien" age="A" stat_amour="néant">MADEMOISELLE MOLIÈRE</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222"/>
 		<note>Texte extrait de "Essais et Monologues drmatiques d'Adolphe Joly, jouées sur les principaux théâtres de Paris", Adolphe Joly, Paris : A. Huré, 1873. [cote BnF YF 9642] </note>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>MOLIÈRE</head>
 <stage type="decor/furniture">Le théâtre représente la chambre à coucher de Molière, rue de Richelieu. - Meubles style Louis XIV. — Une table sur laquelle il y a un encrier et des plumes. - Chaises. - Fauteuils. — Fenêtre à droite. - Portes au fond et à gauche. - Au lever du rideau, Molière repose dans un fauteuil. - Trémolo.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="awake" who="MOLIÈRE"><speaker>MOLIÈRE, s'éveillant.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="awake">, s'éveillant.
+	</stage>
 	<l id="1">Où suis-je ?... Laforêt... Oh ! mon front est de glace.</l>
 	<l id="2">Devant mes yeux troublés, toute forme s'efface...</l>
 	<l id="3">Que je souffre ! Pourquoi ce Sinistre linceul,</l>
@@ -251,8 +252,10 @@
 <stage type="touch/sleep">Trémolo ; il s'assoupit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Molière, Mademoiselle Molière.</head>
-<sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE entre doucement, un flambeau allumé à la main. Elle s'avance près du fauteuil dans lequel Molière s'est laissé tomber, puis elle s'approche de la porte par laquelle elle est entrée et dit à la cantonade :</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Molière, Mademoiselle Molière.
+</stage>
+<sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE</speaker><stage> entre doucement, un flambeau allumé à la main. Elle s'avance près du fauteuil dans lequel Molière s'est laissé tomber, puis elle s'approche de la porte par laquelle elle est entrée et dit à la cantonade :
+	</stage>
 	<l id="169" syll="6" part="i">Daignez vous reposer.</l>
 <stage type="closer/watch">Elle revient près de Molière et le contemple.</stage>
 	<l id="169" syll="6" part="f">Comme son front est pâle,</l>
@@ -260,7 +263,8 @@
 	<l id="171">Il me disait souvent : J'ai lutté, j'ai vaincu ;</l>
 	<l id="172">Je veux vivre !... Demain Molière aura vécu.</l>
 </sp>
-<sp stage="awake" who="MOLIÈRE"><speaker>MOLIÈRE, s'éveillaut.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="awake">, s'éveillaut.
+	</stage>
 	<l id="173">N'ai-je pas entendu sa voix pleine de charme ?</l>
 	<l id="174">Ciel ! Sur mon front brûlant, une brûlante larme.</l>
 <stage type="wave">Il lève la tête.</stage>
@@ -271,7 +275,8 @@
 	<l id="177">Mon ami, Louis le Grand vous aime, vous estime :</l>
 	<l id="178">Il envoie, à l'instant son confident intime.</l>
 </sp>
-<sp stage="stand/pain" who="MOLIÈRE"><speaker>MOLIÈRE, se soulevant avec effort.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="stand/pain">, se soulevant avec effort.
+	</stage>
 	<l id="179" syll="1" part="i">Ah !</l>
 </sp>
 <sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE.</speaker>
@@ -282,8 +287,10 @@
 	<l id="180" syll="2" part="f">Merci !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Molière, Mademoiselle Molière, Le Marquis de Dangeau.</head>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, au Marquis.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Molière, Mademoiselle Molière, Le Marquis de Dangeau.
+</stage>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, au Marquis.
+	</stage>
 	<l id="181">Il est donc vrai, Monsieur : quoi! Sa Majesté daigne...</l>
 </sp>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
@@ -292,20 +299,24 @@
 <stage type="sweet">Avec bouté.</stage>
 	<l id="184">Il faut vivre Molière; il faut soigner vos jours.</l>
 </sp>
-<sp stage="aparte" who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE, à part.</speaker>
+<sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="185">Hélas ! Il est bien tard... je n'ai plus d'espérance.</l>
 </sp>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 	<l id="186">De chefs-d'oeuvre nouveaux il faut doter la France.</l>
 </sp>
-<sp stage="aparte" who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE, à part.</speaker>
+<sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="187">L'illusion fait place à la réalité :</l>
 	<l id="188">Dieu dotera son nom de l'immortalité.</l>
 </sp>
-<sp stage="smile" who="MOLIÈRE"><speaker>MOLIÈRE, essayant de sourire.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="smile">, essayant de sourire.
+	</stage>
 	<l id="189">Sincère historien, j'appartiens à l'histoire.</l>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="190">Bientôt on redira : Rien ne manque à sa gloire!</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -321,7 +332,8 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="197">Armande, votre main, amenez-moi ma fille.</l>
 </sp>
-<sp stage="cry" who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE, essuyant ses larmes.</speaker>
+<sp who="MADEMOISELLE MOLIÈRE"><speaker>MADEMOISELLE MOLIÈRE</speaker><stage type="cry">, essuyant ses larmes.
+	</stage>
 	<l id="198" syll="6" part="i">Mansart, Duparc sont là...</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>

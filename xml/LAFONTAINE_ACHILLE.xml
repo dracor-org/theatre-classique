@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>ACHILLE, TRAGÉDIE</title>
-				<author born='1621' born_location='Château-Thierry' death='1695' death_location='Paris' academie=''>LA FONTAINE, Jean de</author>
+				<author born="1621" born_location="Château-Thierry" death="1695" death_location="Paris" academie="">LA FONTAINE, Jean de</author>
 				<date>1691</date>
 			</titleStmt>
 			<publicationStmt>	
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1681-1690</periode>
 				<taille>500-750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,29 +29,30 @@
 				<titlePart type="sub">TRAGÉDIE</titlePart>
 				<titlePart type="sub">d'après le manuscrit inachevé de 1683</titlePart>
 			</docTitle> 
-			<docDate value='1683'>1683</docDate>
-			<docAuthor id='LA FONTAINE, Jean de' bio='lafontaine'>Jean de La Fontaine</docAuthor>
+			<docDate value="1683">1683</docDate>
+			<docAuthor id="LA FONTAINE, Jean de" bio="lafontaine">Jean de La Fontaine</docAuthor>
 			<docImprint>
-				<privilege id='1775-**-**'>***</privilege>
-				<imprimeur id=''></imprimeur>
-				<acheveImprime id=''></acheveImprime>
+				<privilege id="1775-**-**">***</privilege>
+				<imprimeur id=""/>
+				<acheveImprime id=""/>
 			</docImprint>
 <castList><head>PERSONNAGES</head>
-	<castItem><role id="ACHILLE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>ACHILLE</role>.</castItem>
-	<castItem><role id="PATROCLE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>PATROCLE</role>.</castItem>
-	<castItem><role id="BRISEIS" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>BRISEIS</role>.</castItem>
-	<castItem><role id="LYDIE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>LYDIE</role>.</castItem>
-	<castItem><role id="AJAX" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>AJAX</role>.</castItem>
-	<castItem><role id="ULYSSE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>ULYSSE</role>.</castItem>
-	<castItem><role id="PHOENIX" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>PHOENIX</role>.</castItem>
-	<castItem><role id="ARBATE" sex="1" type="H" statut='confident' age='A' stat_amour='néant'>ARBATE</role>.</castItem>
+	<castItem><role id="ACHILLE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">ACHILLE</role>.</castItem>
+	<castItem><role id="PATROCLE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">PATROCLE</role>.</castItem>
+	<castItem><role id="BRISEIS" sex="2" type="H" statut="prince" age="A" stat_amour="néant">BRISEIS</role>.</castItem>
+	<castItem><role id="LYDIE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">LYDIE</role>.</castItem>
+	<castItem><role id="AJAX" sex="1" type="H" statut="roi" age="A" stat_amour="néant">AJAX</role>.</castItem>
+	<castItem><role id="ULYSSE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">ULYSSE</role>.</castItem>
+	<castItem><role id="PHOENIX" sex="1" type="H" statut="confident" age="A" stat_amour="néant">PHOENIX</role>.</castItem>
+	<castItem><role id="ARBATE" sex="1" type="H" statut="confident" age="A" stat_amour="néant">ARBATE</role>.</castItem>
 
 </castList>
-	<set location="Troie" country="Turquie" periode="Temps mythologiques" gps="39.957480, 26.238895"></set>
+	<set location="Troie" country="Turquie" periode="Temps mythologiques" gps="39.957480, 26.238895"/>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Briseis, Lydie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Briseis, Lydie.
+</stage>
 <sp who="LYDIE"><speaker>LYDIE.</speaker>
 	<l id="1">Nous vous revoyons donc, heureuse Briséis !</l>
 	<l id="2">L'injuste Agamemnon, pour venger son pays</l>
@@ -158,8 +159,10 @@
 	<l id="83">Il me l'a confirmé cent fois en votre absence.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Achille, Briséis, Lydie.</head>
-<sp stage="toward" who="ACHILLE"><speaker>ACHILLE, à Lydie.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Achille, Briséis, Lydie.
+</stage>
+<sp who="ACHILLE"><speaker>ACHILLE</speaker><stage type="toward">, à Lydie.
+	</stage>
 	<l id="84">Je le viens confirmer encore en sa présence.</l>
 </sp>
 <sp who="BRISEIS"><speaker>BRISEIS.</speaker>
@@ -173,7 +176,8 @@
 	<l id="88">Vous donne le loisir de voir votre princesse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Achille, Briséis.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Achille, Briséis.
+</stage>
 <sp who="ACHILLE"><speaker>ACHILLE.</speaker>
 	<l id="89">Oui, Madame, je prends tous les dieux pour témoins</l>
 	<l id="90">Que vous seule avez fait mes pensers et mes soins.</l>
@@ -265,7 +269,8 @@
 	<l id="154">Adieu, Seigneur ; gardez un courroux qui m'est cher.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Achille, Patrocle.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Achille, Patrocle.
+</stage>
 <sp who="ACHILLE"><speaker>ACHILLE.</speaker>
 	<l id="155">Quelque fierté qu'on ait, quelque serment qu'on fasse,</l>
 	<l id="156">Patrocle, il faut aimer. Tu me croyais de glace ;</l>
@@ -305,7 +310,8 @@
 	<l id="181" syll="6" part="i">L'autre agit sans détours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ulysse, Ajax, Achille.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ulysse, Ajax, Achille.
+</stage>
 <sp who="ULYSSE"><speaker>ULYSSE.</speaker>
 	<l id="181" syll="6" part="f">Vous me voyez, Seigneur,</l>
 	<l id="182">Plus encor comme ami que comme ambassadeur.</l>
@@ -493,7 +499,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Phoenix, Achille.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Phoenix, Achille.
+</stage>
 <sp who="PHOENIX"><speaker>PHOENIX.</speaker>
 	<l id="317">Dois-je croire, Seigneur, qu'Ulysse ait vainement</l>
 	<l id="318">Essayé d'adoucir votre ressentiment ?</l>
@@ -622,7 +629,8 @@
 	<l id="421" syll="9" part="i">Mais que nous veut Patrocle ? Il accourt...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Patrocle, Phoenix, Achille.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Patrocle, Phoenix, Achille.
+</stage>
 <sp who="PATROCLE"><speaker>PATROCLE.</speaker>
 	<l id="421" syll="3" part="f">Les Troyens</l>
 	<l id="422">Ont laissé de leurs murs la garde aux citoyens ;</l>
@@ -644,7 +652,8 @@
 <stage type="exit">Phoenix sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Achille, Patrocle, Arbate.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Achille, Patrocle, Arbate.
+</stage>
 <sp who="ACHILLE"><speaker>ACHILLE.</speaker>
 	<l id="431">Dis-moi, me plains-je à tort ? L'enlèvement d'Hélène</l>
 	<l id="432">Occupe jusqu'aux dieux après dix ans de peine,</l>
@@ -779,7 +788,8 @@
 	<l id="524" syll="6" part="i">Arbate l'aura dit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lydie, Achille, Patrocle.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lydie, Achille, Patrocle.
+</stage>
 <sp who="LYDIE"><speaker>LYDIE.</speaker>
 	<l id="524" syll="6" part="f">Ami, quelle nouvelle !</l>
 	<l id="525">Que vient-on de m'apprendre ! Hé quoi ! sans mon congé</l>
@@ -799,7 +809,8 @@
 <stage type="exit">Achille sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Patrocle, Lydie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Patrocle, Lydie.
+</stage>
 <sp who="LYDIE"><speaker>LYDIE.</speaker>
 	<l id="532">Voilà donc votre amour ! C'est là cette tendresse</l>
 	<l id="533">Que vous me promettiez, après qu'on m'eut ôté</l>

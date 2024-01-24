@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,7 +29,7 @@
 			<titlePart type="main">LA GIFLE</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle>
-		<docDate value='1878'>1878. Tous droits réservés.</docDate>
+		<docDate value="1878">1878. Tous droits réservés.</docDate>
 		<docAuthor id="DREYFUS, Abraham">PAR M. ABRAHAM DREYFUS</docAuthor>
 		<docImprint>
 			<editor id="RUAULT">PARIS, PAUL OLLENDORF, ÉDITEUR, 28 bis, RUE DE RICHELIEU.</editor>
@@ -43,19 +43,21 @@
 			<signature>FRANCISQUE SARCEY</signature>
 	</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="BLANC-MISSERON" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>TOURIMEL</role>.</castItem> 
-		<castItem><role id="CHAMBERLOT" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>CHAMBERLOT</role>.</castItem> 
-		<castItem><role id="UN HUISSIER" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>UN HUISSIER</role>.</castItem> 
+		<castItem><role id="BLANC-MISSERON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">TOURIMEL</role>.</castItem> 
+		<castItem><role id="CHAMBERLOT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">CHAMBERLOT</role>.</castItem> 
+		<castItem><role id="UN HUISSIER" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">UN HUISSIER</role>.</castItem> 
 	</castList>
-	<set location='France' country='France' periode='XIXème' gps="(N/A)"></set>
+	<set location="France" country="France" periode="XIXème" gps="(N/A)"/>
 	<note>Extrait de "Théâtre de campagne, troisième série (...)" par Abraham Dreyfus, Deuxième édition. Paris : Calmann Lévy, 1887. pp. 1-38.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA GIFLE</head>
 <stage type="decor/furniture">Un salon-antichambre. Porte d'entrée au fond. Autres portes à droite et à gauche. Cheminée à droite. Table à gauche. Banquette de chaque côté de la porte d'entrée. Chaises, fauteuils, etc.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Un Huissier, puis Blanc-Misseron.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Un Huissier, puis Blanc-Misseron.
+</stage>
 <stage type="work/noise">Au lever du rideau, l'huissier est assoupi sur l'une des banquettes du fond.- Pendant un instant, on n'entend que le bruit de sa respiration, auquel succède bientôt une rumeur confuse grossissant jusqu'à l'altercation suivante :</stage>
-<sp who="UNE VOIX"><speaker>UNE VOIX, au dehors.</speaker>
+<sp who="UNE VOIX"><speaker>UNE VOIX</speaker><stage>, au dehors.
+</stage>
 <p id="1">
 	<s id="1">Voyons, Messieurs...</s>
 </p>
@@ -106,14 +108,16 @@
 	<s id="1">Non, Monsieur, j'avais cru entendre...</s>
 </p>
 </sp>
-<sp stage="strong" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, vivement.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="strong">, vivement.
+</stage>
 <p id="10">
 	<s id="1">Une altercation ?... </s>
 	<s id="2">C'est là... dans l'antichambre... un individu qui faisait du tapage... </s>
 	<s id="3">On l'a mis à la porte.</s>
 </p>
 </sp>
-<sp stage="watch" who="L'HUISSIER"><speaker>L'HUISSIER, le regardant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="watch">, le regardant.
+</stage>
 <p id="11">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est qu'il m'avait semblé...</s>
@@ -124,7 +128,8 @@
 	<s id="1">Quoi ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="L'HUISSIER"><speaker>L'HUISSIER, embarrassé.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="13">
 	<s id="1">Qu'on se battait. </s>
 </p>
@@ -143,18 +148,21 @@
 	<s id="2">Donnez-moi donc un verre d'eau.</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, à part.
+</stage>
 <p id="17">
 	<s id="1">Ah ! </s>
 	<s id="2">Je savais bien !</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, vivement.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, vivement.
+</stage>
 <p id="18">
 	<s id="1">Qu'est-ce que vous dites ?</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, avec grâce, en s'inclinant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, avec grâce, en s'inclinant.
+</stage>
 <p id="19">
 	<s id="1">Je vais vous le chercher. </s>
 </p>
@@ -162,7 +170,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, seul.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="">Ça se voit-il, oui ou non ? </s>
 </p>
@@ -221,7 +230,8 @@
 </p>
 <stage type="throw/noise/location/open/watch">Il jette la carte à terre. - Bruit au dehors. - La porte s'ouvre et l'on entrevoit l'huissier qui parlemente avec quelqu'un.</stage>
 </sp>
-<sp stage="location" who="L'HUISSIER"><speaker>L'HUISSIER, parlant au dehors.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="location">, parlant au dehors.
+</stage>
 <p id="12">
 	<s id="1">Non, Monsieur... non ! </s>
 	<s id="2">C'est impossible... </s>
@@ -229,13 +239,15 @@
 <stage type="entrance/close">Il entre et referme la porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Blanc-Misseron, L'Huissier.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Blanc-Misseron, L'Huissier.
+</stage>
 <sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce que c'est ?</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, apportant un verre d'eau qu'il va poser sur la table.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, apportant un verre d'eau qu'il va poser sur la table.
+</stage>
 <p id="2">
 	<s id="1">Oh !... </s>
 	<s id="2">Rien... </s>
@@ -293,13 +305,15 @@
 </p>
 <stage type="open">Il entr'ouvre la porte du fond.</stage>
 </sp>
-<sp stage="agitated" who="CHAMBERLOT"><speaker>VOIX DE CHAMBERLOT, très animée.</speaker>
+<sp who="CHAMBERLOT"><speaker>VOIX DE CHAMBERLOT</speaker><stage type="agitated">, très animée.
+</stage>
 <p id="12">
 	<s id="1">Chacun à son tour ! </s>
 	<s id="2">C'est moi qui vous le dis, moi, Jules Chamberlot, ex-adjudant au 4ème_chasseurs_à_pied... trois campagnes... huit blessures.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à l'huissier.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, à l'huissier.
+</stage>
 <p id="13">
 	<s id="">Qu'est-ce qu'il dit ?</s>
 </p>
@@ -314,7 +328,8 @@
 	<s id="2">Faut-il le rappeler ?</s>
 </p>
 </sp>
-<sp stage="quick" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, vivement.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="quick">, vivement.
+</stage>
 <p id="16">
 	<s id="1">Non ! </s>
 	<s id="2">Non !... </s>
@@ -350,7 +365,8 @@
 	<s id="14">De la réclame, tout cela, de la pure réclame !</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, descendant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, descendant.
+</stage>
 <p id="20">
 	<s id="1">Est-ce que je dois annoncer Monsieur ?</s>
 </p>
@@ -364,14 +380,17 @@
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, le reconduisant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, le reconduisant.
+</stage>
 <p id="22">
 	<s id="">Bien, Monsieur.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. L'Huissier, puis Chamberlot.</head>
-<sp stage="alone/laugh" who="L'HUISSIER"><speaker>L'HUISSIER, seul, riant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> L'Huissier, puis Chamberlot.
+</stage>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="alone/laugh">, seul, riant.
+</stage>
 <p id="1">
 	<s id="1">C'est égal ! </s>
 	<s id="2">Il l'a reçue ! </s>
@@ -379,17 +398,20 @@
 </p>
 <stage type="open/entrance/hurry">La porte de gauche s'ouvre, et Chamberlot entre précipitamment.</stage>
 </sp>
-<sp stage="frighten" who="L'HUISSIER"><speaker>L'HUISSIER, effrayé.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="2">
 	<s id="1">Ah !</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, vivement, avec autorité.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, vivement, avec autorité.
+</stage>
 <p id="3">
 	<s id="1">Chut !</s>
 </p>
 </sp>
-<sp stage="closer/recognize" who="L'HUISSIER"><speaker>L'HUISSIER, s'approchant, et le reconnaissant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="closer/recognize">, s'approchant, et le reconnaissant.
+</stage>
 <p id="4">
 	<s id="1">Comment ! </s>
 	<s id="2">C'est encore vous ?</s>
@@ -437,7 +459,8 @@
 </p>
 <stage type="sit">Il s'assied.</stage>
 </sp>
-<sp stae="watch/estonish" who="L'HUISSIER"><speaker>L'HUISSIER, le regardant, stupéfait.</speaker>
+<sp stae="watch/estonish" who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, le regardant, stupéfait.
+</stage>
 <p id="13">
 	<s id="1">Oh !!..</s>
 </p>
@@ -465,18 +488,21 @@
 	<s id="2">J'ai ma consigne, moi !</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, d'un air entendu.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, d'un air entendu.
+</stage>
 <p id="18">
 	<s id="1">Parfaitement.</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, interloqué.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, interloqué.
+</stage>
 <p id="19">
 	<s id="1">Mais oui, Monsieur !... </s>
 	<s id="2">J'ai ma consigne !</s>
 </p>
 </sp>
-<sp stage="cold" who="CHAMBERLOT"><speaker>CHAMBERLOT, froidement.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="cold">, froidement.
+</stage>
 <p id="20">
 	<s id="1">J'ai compris, vous dis-je. </s>
 </p>
@@ -485,7 +511,8 @@
 	<s id="1"> Tenez !</s>
 </p>
 </sp>
-<sp stage="get" who="L'HUISSIER"><speaker>L'HUISSIER, prenant le cigare machinalement.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="get">, prenant le cigare machinalement.
+</stage>
 <p id="22">
 	<s id="1">Hein ?</s>
 </p>
@@ -501,7 +528,8 @@
 </p>
 <stage type="sing/happy">Il va se rasseoir comme un homme satisfait de son expédition.</stage>
 </sp>
-<sp stage="follow" who="L'HUISSIER"><speaker>L'HUISSIER, qui a suivi ce jeu de scène.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="follow">, qui a suivi ce jeu de scène.
+</stage>
 <p id="25">
 	<s id="1">Alors, vous me donnez un cigare pour... </s>
 </p>
@@ -510,23 +538,27 @@
 	<s id="1">Eh bien, elle est bonne, celle-là !</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, surpris.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, surpris.
+</stage>
 <p id="27">
 	<s id="1">Qu'est-ce qui vous prend ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant toujours.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant toujours.
+</stage>
 <p id="28">
 	<s id="1">Il me donne un cigare !... </s>
 	<s id="2">Un cigare !!</s>
 </p>
 </sp>
-<sp stage="naive" who="CHAMBERLOT"><speaker>CHAMBERLOT, naïvement.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="naive">, naïvement.
+</stage>
 <p id="29">
 	<s id="1">Vous ne fumez pas ?</s>
 </p>
 </sp>
-<sp stage="laugh/loud" who="L'HUISSIER"><speaker>L'HUISSIER, riant de plus en plus fort.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh/loud">, riant de plus en plus fort.
+</stage>
 <p id="30">
 	<s id="1">Si !... </s>
 	<s id="2">Si! je fume... Soyez tranquille, je fume!</s>
@@ -538,7 +570,8 @@
 	<s id="2">Vous êtes gai, mon ami ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, même jeu.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, même jeu.
+</stage>
 <p id="32">
 	<s id="1">Oui, j'ai mes jours... </s>
 	<s id="2">J'ai mes jours où je fume... </s>
@@ -548,12 +581,14 @@
 </p>
 <stage type="laugh/fall/sit/furniture">N'en pouvant plus de rire, il tombe sur une chaise qui fait pendant à celle sur laquelle est assis Chamberlot.</stage>
 </sp>
-<sp stage="watch" who="CHAMBERLOT"><speaker>CHAMBERLOT, le regardant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="watch">, le regardant.
+</stage>
 <p id="33">
 	<s id="1">Mais il va se faire du mal.</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, respirant bruyamment.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, respirant bruyamment.
+</stage>
 <p id="34">
 	<s id="1">Ah ! </s>
 	<s id="2">Ça va mieux !</s>
@@ -565,14 +600,16 @@
 	<s id="2">Soufflez !</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant de nouveau, vivement.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant de nouveau, vivement.
+</stage>
 <p id="36">
 	<s id="1">Non ! non ! </s>
 	<s id="2">Ne parlez pas... </s>
 	<s id="3">Ça me reprendrait.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CHAMBERLOT"><speaker>CHAMBERLOT, à part.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="37">
 	<s id="1">Quel drôle d'huissier... </s>
 </p>
@@ -581,7 +618,8 @@
 	<s id="1">Eh bien, voyons, est-ce qu'on peut entrer, maintenant ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="39">
 	<s id="1">Chez le ministre ?... </s>
 	<s id="2">Vous voulez entrer chez le ministre ?</s>
@@ -602,12 +640,14 @@
 	<s id="1">Où est-il ?</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, réprimant un nouvel accès de rire.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, réprimant un nouvel accès de rire.
+</stage>
 <p id="43">
 	<s id="1">Il est aux bains.</s>
 </p>
 </sp>
-<sp stage="furious" who="CHAMBERLOT"><speaker>CHAMBERLOT, furieux.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="furious">, furieux.
+</stage>
 <p id="44">
 	<s id="1">À cette heure-ci ?</s>
 </p>
@@ -626,12 +666,14 @@
 	<s id="3">Je suis là depuis dix heures du matin, moi, et il est deux heures! Et je n'ai pas déjeuné, sacrebleu !</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="47">
 	<s id="1">Il fallait le dire !</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, avec conviction.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, avec conviction.
+</stage>
 <p id="48">
 	<s id="1">Je l'ai dit ! </s>
 	<s id="2">Je l'ai dit à ce gros bonhomme qui est entré tout à l'heure.</s>
@@ -709,7 +751,8 @@
 	<s id="4">Nous nous battrons.</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="59">
 	<s id="1">Vous allez vite, vous ?</s>
 </p>
@@ -780,13 +823,15 @@
 	<s id="">Je ne veux pas le garder toute la journée.</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, écrivant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, écrivant.
+</stage>
 <p id="71">
 	<s id="1">« Monsieur le Ministre... Le soussigné a l'honneur de vous exposer qu'il n'a pas encore reçu la croix de la Légion_d_honneur à laquelle il a droit depuis dix ans. </s>
 	<s id="2">Il faut croire qu'elle se sera égarée dans les bureaux. »</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, scandalisé.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, scandalisé.
+</stage>
 <p id="72">
 	<s id="1">Oh !</s>
 </p>
@@ -796,7 +841,8 @@
 	<s id="1">Ce n'est pas comme cela ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="8">
 	<s id="1">Si ! si !</s>
 </p>
@@ -851,7 +897,8 @@
 	<s id="5">C'est clair comme le jour.</s>
 </p>
 </sp>
-<sp stage="laugh" who="L'HUISSIER"><speaker>L'HUISSIER, riant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="laugh">, riant.
+</stage>
 <p id="17">
 	<s id="1">Il n'y a pas de tiroirs, ici ; il n'y a que des cartons !</s>
 </p>
@@ -907,7 +954,8 @@
 	<s id="2">Vous comprenez qu'il faut que je voie le ministre.</s>
 </p>
 </sp>
-<sp stage="aparte" who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">Pauvre homme! </s>
 	<s id="2">Il devient intéressant. </s>
@@ -996,7 +1044,8 @@
 	<s id="1">Comment! C'est à Monsieur_Blanc-Misseron... le député_de_Sarthe-et-Loire...</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, écrivant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, écrivant.
+</stage>
 <p id="44">
 	<s id="1">« De Sarthe-et-Loire ... » </s>
 	<s id="2">C'est bien cela.</s>
@@ -1039,7 +1088,8 @@
 	<s id="3">Vous la lui remettrez quand il- viendra.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="L'HUISSIER"><speaker>L'HUISSIER, embarrassé.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="51">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est que...</s>
@@ -1052,7 +1102,8 @@
 	<s id="3">Je peux la lui remettre moi-même.</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, vivement.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, vivement.
+</stage>
 <p id="53">
 	<s id="">Non ! Non ! Je ne vous y engage pas... Ce n'est pas le moment.</s>
 </p>
@@ -1062,7 +1113,8 @@
 	<s id="2">Où est le ministre ?</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, sautant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, sautant.
+</stage>
 <p id="55">
 	<s id="1">Sapristi ! </s>
 	<s id="2">C'est lui !</s>
@@ -1074,7 +1126,8 @@
 </p>
 <stage type="hurry/closer">Il va pour se précipiter au-devant de lui.</stage>
 </sp>
-<sp stage="stop" who="L'HUISSIER"><speaker>L'HUISSIER, l'arrêtant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="57">
 	<s id="1">Attendez donc ! </s>
 	<s id="2">Il ne faut pas qu'il vous voie !</s>
@@ -1085,7 +1138,8 @@
 	<s id="1">Pourtant, si l'occasion se présente...</s>
 </p>
 </sp>
-<sp stage="push/location" who="L'HUISSIER"><speaker>L'HUISSIER, le poussant vers la porte de gauche.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="push/location">, le poussant vers la porte de gauche.
+</stage>
 <p id="59">
 	<s id="1">Entrez là.</s>
 </p>
@@ -1095,17 +1149,20 @@
 	<s id="1">Mais je ne m'explique pas...</s>
 </p>
 </sp>
-<sp who="L'HUISSIER"><speaker>L'HUISSIER, refermant la porte sur lui.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage>, refermant la porte sur lui.
+</stage>
 <p id="61">
 	<s id="1">Laissez-moi faire !</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, rouvrant la porte.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, rouvrant la porte.
+</stage>
 <p id="62">
 	<s id="1">Un mot seulement...</s>
 </p>
 </sp>
-<sp stage="desparate" who="L'HUISSIER"><speaker>L'HUISSIER, exaspéré.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="desparate">, exaspéré.
+</stage>
 <p id="63">
 	<s id="1">Oh !</s>
 </p>
@@ -1115,20 +1172,24 @@
 	<s id="1">Je ne veux lui dire qu'un mot...</s>
 </p>
 </sp>
-<sp stage="push/furniture" who="L'HUISSIER"><speaker>L'HUISSIER, repoussant la porte.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="push/furniture">, repoussant la porte.
+</stage>
 <p id="65">
 	<s id="">Mais taisez-vous donc! </s>
 </p>
 <stage type="close/entrance">Il referme la porte sur Chamberlot. Blanc-Misseron entre au même instant.</stage>
 </sp>
-<sp stage="aparte" who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="66">
 	<s id="1">Il était temps !</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. L'Huissier, Blanc-Misseron.</head>
-<sp stage="entrance/carry/agitated" who="BLANC-MISSERON"><speaker>BLANC-MISSERON entre avec un portefeuille sous le bras et un journal à la main. Il est très agité.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> L'Huissier, Blanc-Misseron.
+</stage>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="entrance/carry/agitated"> entre avec un portefeuille sous le bras et un journal à la main. Il est très agité.
+</stage>
 <p id="1">
 	<s id="1">Est-ce que le ministre est là ?</s>
 </p>
@@ -1145,7 +1206,8 @@
 </p>
 <stage type="drop/location/furniture/exit">Il dépose son portefeuille sur la table. - L'huissier sort par la droite.</stage>
 </sp>
-<sp stage="alone" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, seul.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Il faut mettre un terme à ces attaques continuelles !... </s>
 	<s id="2">Si vous voulez saper le pouvoir, sapez-le ! </s>
@@ -1160,7 +1222,8 @@
 	<s id="11">Si je pouvais leur imposer silence...</s>
 </p>
 </sp>
-<sp stage="entrance" who="L'HUISSIER"><speaker>L'HUISSIER, rentrant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="entrance">, rentrant.
+</stage>
 <p id="2">
 	<s id="">Monsieur le ministre n'est plus là, monsieur ; on vient de lui apporter une dépêche et il est sorti par la porte de ses appartements.</s>
 </p>
@@ -1187,12 +1250,14 @@
 </p>
 <stage type="get">Il la prend.</stage>
 </sp>
-<sp stage="aparte" who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="7">
 	<s id="1">Aïe !</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, décachetant la lettre.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, décachetant la lettre.
+</stage>
 <p id="8">
 	<s id="1">« Jules Chamberlot! » </s>
 </p>
@@ -1201,14 +1266,16 @@
 	<s id="1">Il est revenu ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="L'HUISSIER"><speaker>L'HUISSIER, balbutiant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="hesitate">, balbutiant.
+</stage>
 <p id="10">
 	<s id="1">Je ne sais pas, Monsieur... </s>
 	<s id="2">C'est une lettre que... que j'ai trouvée là... </s>
 	<s id="3">On l'aura apportée en mon absence.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, se contenant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, se contenant.
+</stage>
 <p id="11">
 	<s id="1">Apparemment... </s>
 </p>
@@ -1278,13 +1345,15 @@ pas chargé de la remettre ?</s>
 	<s id="3">Je suis très fin.</s>
 </p>
 </sp>
-<sp stage="aparte" who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">C'est vrai ! </s>
 	<s id="2">Il a l'air très fin aujourd'hui.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, avec bonhomie.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, avec bonhomie.
+</stage>
 <p id="23">
 	<s id="1">Allons, avouez qu'on vous a corrompu...</s>
 </p>
@@ -1316,7 +1385,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">À la bonne heure !</s>
 </p>
 </sp>
-<sp stage="aparte" who="L'HUISSIER"><speaker>L'HUISSIER, à part.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="aparte">, à part.
+</stage>
 <p id="29">
 	<s id="1">Ah ! </s>
 	<s id="2">Ça, qu'est-ce qui se passe ?... </s>
@@ -1325,7 +1395,8 @@ pas chargé de la remettre ?</s>
 <stage type="exit/location">Il sort par la gauche.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Blanc-Misseron, puis Chamberlot.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Blanc-Misseron, puis Chamberlot.
+</stage>
 <sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON.</speaker>
 <p id="1">
 	<s id="1">Enfin, je vais donc pouvoir faire taire les rieurs... </s>
@@ -1343,7 +1414,8 @@ pas chargé de la remettre ?</s>
 	<s id="4">Si, après cela, on dit que je n'ai pas fait mes preuves...</s>
 </p>
 </sp>
-<sp stage="entrance/location/location" who="CHAMBERLOT"><speaker>CHAMBERLOT, paraissant à la porte de gauche et parlant à la cantonade.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="entrance/location/location">, paraissant à la porte de gauche et parlant à la cantonade.
+</stage>
 <p id="3">
 	<s id="1">Oui... oui... </s>
 	<s id="2">C'est bien... </s>
@@ -1351,13 +1423,15 @@ pas chargé de la remettre ?</s>
 </p>
 <stage type="close/down">Il referme la porte et descend.</stage>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Le voilà !... </s>
 </p>
 <stage type="show">Il prend une pose.</stage>
 </sp>
-<sp stage="aparte" who="CHAMBERLOT"><speaker>CHAMBERLOT, à part.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="5">
 	<s id="1">J'ai promis d'être gentil... </s>
 	<s id="2">Soyons gentil... </s>
@@ -1367,7 +1441,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Monsieur...</s>
 </p>
 </sp>
-<sp stage="wave/quiet" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, après un léger salut, - calme et digne.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="wave/quiet">, après un léger salut, - calme et digne.
+</stage>
 <p id="7">
 	<s id="1">Monsieur_Chamberlot, sans doute ?</s>
 </p>
@@ -1378,13 +1453,15 @@ pas chargé de la remettre ?</s>
 	<s id="2">Jules_Chamberlot... pour vous servir...</s>
 </p>
 </sp>
-<sp stage="ironic" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, même jeu, avec une ironie voilée.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="ironic">, même jeu, avec une ironie voilée.
+</stage>
 <p id="9">
 	<s id="1">Pour me servir... d'une étrange façon ! </s>
 	<s id="2">- Vous me reconnaissez ?</s>
 </p>
 </sp>
-<sp stage="embarrassed/costume" who="CHAMBERLOT"><speaker>CHAMBERLOT, embarrassé, tournant son chapeau.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="embarrassed/costume">, embarrassé, tournant son chapeau.
+</stage>
 <p id="10">
 	<s id="1">Oui, Monsieur... </s>
 	<s id="2">On vient de me dire... </s>
@@ -1398,7 +1475,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Ne vous excusez pas, monsieur...</s>
 </p>
 </sp>
-<sp stage="quick" who="CHAMBERLOT"><speaker>CHAMBERLOT, vivement.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="quick">, vivement.
+</stage>
 <p id="12">
 	<s id="1">Je ne m'excuse pas... </s>
 </p>
@@ -1408,7 +1486,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Je regrette que... qu'un mouvement regrettable...</s>
 </p>
 </sp>
-<sp stage="aparte/smile" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part, souriant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte/smile">, à part, souriant.
+</stage>
 <p id="14">
 	<s id="">Il cane !... </s>
 </p>
@@ -1422,7 +1501,8 @@ pas chargé de la remettre ?</s>
 	<s id="6">Je vous la demande...</s>
 </p>
 </sp>
-<sp stage="estonish" who="CHAMBERLOT"><speaker>CHAMBERLOT, étonné.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="16">
 	<s id="1">Comment ?</s>
 </p>
@@ -1432,7 +1512,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">J'espère que vous ne refuserez pas de vous battre.</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, bondissant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, bondissant.
+</stage>
 <p id="18">
 	<s id="1">Moi !... </s>
 	<s id="2">Refuser de me battre !.. </s>
@@ -1447,7 +1528,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">À la bonne heure !</s>
 </p>
 </sp>
-<sp stage="quiet" who="CHAMBERLOT"><speaker>CHAMBERLOT, changeant de ton.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="quiet">, changeant de ton.
+</stage>
 <p id="21">
 	<s id="1">Mais cette fois, par exception...</s>
 </p>
@@ -1488,20 +1570,23 @@ pas chargé de la remettre ?</s>
 	<s id="1">Il n'est pas question...</s>
 </p>
 </sp>
-<sp stage="continue" who="CHAMBERLOT"><speaker>CHAMBERLOT, continuant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="continue">, continuant.
+</stage>
 <p id="29">
 	<s id="1">De plus, député et propriétaire. </s>
 	<s id="2">Je ne suis qu'un de vos électeurs... </s>
 	<s id="3">Un modeste électeur.</s>
 </p>
 </sp>
-<sp stage="serious" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, solennel.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="serious">, solennel.
+</stage>
 <p id="30">
 	<s id="1">Je le sais, monsieur ; mais, comme fils de 89, j'estime que le principe d'égalité doit être respecté par ceux-là mêmes qui en sont la négation la plus évidente... </s>
 	<s id="2">Pour moi, vous êtes un homme et vous valez un homme... - plus peut-être !</s>
 </p>
 </sp>
-<sp stage="wave" who="CHAMBERLOT"><speaker>CHAMBERLOT, s'inclinant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="31">
 	<s id="1">Je vous remercie, mais...</s>
 </p>
@@ -1511,7 +1596,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Ne parlons donc plus de ma supériorité ; je ne peux pas la nier, puisqu'elle existe ; mais je l'oublie pour vous demander réparation de l'insulte que j'ai reçue...</s>
 </p>
 </sp>
-<sp stage="aparte" who="CHAMBERLOT"><speaker>CHAMBERLOT, à part.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="33">
 	<s id="1">Qu'est-ce qu'il disait donc, l'huissier ?... </s>
 	<s id="2">Il est parfait cet homme-là !... </s>
@@ -1522,7 +1608,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">- Vous me permettez de vous appeler mon cher député ?</s>
 </p>
 </sp>
-<sp stage="proud" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, toujours digne.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="proud">, toujours digne.
+</stage>
 <p id="35">
 	<s id="1">C'est votre droit.</s>
 </p>
@@ -1532,7 +1619,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Eh bien, mon cher député, ce que vous dites-là me prouve que vous êtes un homme de coeur... et un honnête homme.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="37">
 	<s id="1">Il me flatte...</s>
 </p>
@@ -1542,7 +1630,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Un homme devant lequel tout le monde doit s'incliner.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="39">
 	<s id="1">Oui... oui... va ! </s>
 	<s id="2">Aplatis-toi.</s>
@@ -1570,12 +1659,14 @@ pas chargé de la remettre ?</s>
 	<s id="1">Je ne les reçois pas.</s>
 </p>
 </sp>
-<sp stage="estonish" who="CHAMBERLOT"><speaker>CHAMBERLOT, stupéfait.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="estonish">, stupéfait.
+</stage>
 <p id="44">
 	<s id="1">Oh !</s>
 </p>
 </sp>
-<sp stage="strong" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, appuyant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="strong">, appuyant.
+</stage>
 <p id="45">
 	<s id="1">Je ne les-re-çois-pas... </s>
 </p>
@@ -1587,7 +1678,8 @@ pas chargé de la remettre ?</s>
 	<s id="4">Eh bien, Monsieur, vous saurez qu'il y a des moments où ce sang bout malgré moi, et que, dans ces moments-là, je ne connais plus qu'un devoir : celui de la vengeance ; et une arme : l'épée !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CHAMBERLOT"><speaker>CHAMBERLOT, à part.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="47">
 	<s id="1">Mais c'est un lion !</s>
 </p>
@@ -1597,14 +1689,16 @@ pas chargé de la remettre ?</s>
 	<s id="1">Demain matin, mes témoins auront l'honneur de se présenter chez vous.</s>
 </p>
 </sp>
-<sp stage="sweet" who="CHAMBERLOT"><speaker>CHAMBERLOT, avec bonhomie.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="sweet">, avec bonhomie.
+</stage>
 <p id="49">
 	<s id="1">Parfaitement. </s>
 	<s id="2">C'est entendu. </s>
 	<s id="3">Je leur raconterai ce qui s'est passé ; j'avouerai mes torts; je dirai que vous avez été aussi brave que généreux, et, dans ces conditions, le duel n'aura plus aucune raison d'être...</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, à part.
+</stage>
 <p id="50">
 	<s id="1">Ah ça ! </s>
 	<s id="2">Mais il recule !... </s>
@@ -1617,7 +1711,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Vous reculez !...</s>
 </p>
 </sp>
-<sp stage="frighten" who="CHAMBERLOT"><speaker>CHAMBERLOT, tressaillant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="frighten">, tressaillant.
+</stage>
 <p id="52">
 	<s id="1">Moi !</s>
 </p>
@@ -1628,7 +1723,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Nous devons nous battre, battons-nous !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CHAMBERLOT"><speaker>CHAMBERLOT, à part.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="54">
 	<s id="1">Il est enragé... </s>
 </p>
@@ -1637,7 +1733,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Voyons, ce n'est pas sérieux...</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, avec colère.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, avec colère.
+</stage>
 <p id="56">
 	<s id="1">Pas sérieux !</s>
 </p>
@@ -1662,7 +1759,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Je la repousse...</s>
 </p>
 </sp>
-<sp stage="estonish" who="CHAMBERLOT"><speaker>CHAMBERLOT, avec un air de doux reproche.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="estonish">, avec un air de doux reproche.
+</stage>
 <p id="61">
 	<s id="1">Oh !</s>
 </p>
@@ -1672,19 +1770,22 @@ pas chargé de la remettre ?</s>
 	<s id="1">Je ne touche pas la main d'un lâche !</s>
 </p>
 </sp>
-<sp stage="estonish" who="CHAMBERLOT"><speaker>CHAMBERLOT, bondissant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="estonish">, bondissant.
+</stage>
 <p id="63">
 	<s id="1">Moi !!! </s>
 	<s id="2">Un lâche !..</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="64">
 	<s id="1">Ah !... </s>
 	<s id="2">Il y vient !</s>
 </p>
 </sp>
-<sp stage="laugh/quiet" who="CHAMBERLOT"><speaker>CHAMBERLOT, éclatant de rire, - très calme.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="laugh/quiet">, éclatant de rire, - très calme.
+</stage>
 <p id="65">
 	<s id="1">Non... </s>
 	<s id="2">C'est trop drôle... </s>
@@ -1697,7 +1798,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Comment ?...</s>
 </p>
 </sp>
-<sp stage="laugh" who="CHAMBERLOT"><speaker>CHAMBERLOT, riant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="laugh">, riant.
+</stage>
 <p id="67">
 	<s id="1">Vous pouvez m'appeler lâche tant que vous voudrez, allez ! </s>
 	<s id="2">Cela ne me fera rien du tout... </s>
@@ -1707,7 +1809,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Pourvu que j'aie ma croix.</s>
 </p>
 </sp>
-<sp stage="aparte/desparate" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part, exaspéré.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte/desparate">, à part, exaspéré.
+</stage>
 <p id="69">
 	<s id="1">Ah ça !... </s>
 	<s id="2">Mais il ne se battra jamais, cet animal-là !... </s>
@@ -1723,7 +1826,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Non !</s>
 </p>
 </sp>
-<sp stage="closer" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, s'approchant de lui.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="closer">, s'approchant de lui.
+</stage>
 <p id="72">
 	<s id="1">Une... deux... trois... </s>
 	<s id="2">Vous ne voulez pas vous battre ?</s>
@@ -1740,7 +1844,8 @@ pas chargé de la remettre ?</s>
 </p>
 <stage type="slap">Il lui donne un soufflet.</stage>
 </sp>
-<sp stage="shout" who="CHAMBERLOT"><speaker>CHAMBERLOT, d'une voix formidable.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="shout">, d'une voix formidable.
+</stage>
 <p id="85">
 	<s id="1">Tonnerre !!! </s>
 	<s id="2">Un soufflet... </s>
@@ -1752,18 +1857,21 @@ pas chargé de la remettre ?</s>
 	<s id="1">- Nous sommes quittes !</s>
 </p>
 </sp>
-<sp stage="estonish" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, stupéfait.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="estonish">, stupéfait.
+</stage>
 <p id="87">
 	<s id="1">Hein ?</s>
 </p>
 </sp>
-<sp stage="low" who="CHAMBERLOT"><speaker>CHAMBERLOT, d'une voix contenue.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="low">, d'une voix contenue.
+</stage>
 <p id="88">
 	<s id="1">Avec tout autre, les choses ne se passeraient pas de cette façon-là... </s>
 	<s id="2">Mais j'ai fait un serment, et il faut que je le tienne.</s>
 </p>
 </sp>
-<sp stage="estonish" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, ahuri.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="estonish">, ahuri.
+</stage>
 <p id="89">
 	<s id="1">Qu'est-ce qu'il dit ?</s>
 </p>
@@ -1778,7 +1886,8 @@ pas chargé de la remettre ?</s>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head> 
-<sp stage="alone/estonish" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, resté seul, suffoqué.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="alone/estonish">, resté seul, suffoqué.
+</stage>
 <p id="1">
 	<s id="1">Comment il s'en va ?... </s>
 	<s id="2">Il est parti ?... </s>
@@ -1813,7 +1922,8 @@ pas chargé de la remettre ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Blanc-Misseron, Chamberlot.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Blanc-Misseron, Chamberlot.
+</stage>
 <stage type="entrance/location/sad">Chamberlot rentre par la porte du fond, il a l'air très sombre.</stage>
 <sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON.</speaker>
 <p id="1">
@@ -1826,22 +1936,26 @@ pas chargé de la remettre ?</s>
 	<s id="1">Oui.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, avec défi.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, avec défi.
+</stage>
 <p id="3">
 	<s id="1">Vous osez donc revenir ?</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, sèchement.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, sèchement.
+</stage>
 <p id="4">
 	<s id="1">Vous le voyez.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, railleur.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, railleur.
+</stage>
 <p id="5">
 	<s id="1">Vous vous êtes dit sans doute que votre sortie avait été un peu  précipitée...</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, avec une colère concentrée.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, avec une colère concentrée.
+</stage>
 <p id="6">
 	<s id="1">En effet, j'ai réfléchi...</s>
 </p>
@@ -1851,12 +1965,14 @@ pas chargé de la remettre ?</s>
 	<s id="1">Et le résultat de ces réflexions ?...</s>
 </p>
 </sp>
-<sp who="CHAMBERLOT"><speaker>CHAMBERLOT, éclatant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage>, éclatant.
+</stage>
 <p id="8">
 	<s id="1">C'est que nous nous battrons.</s>
 </p>
 </sp>
-<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON, joyeux.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage>, joyeux.
+</stage>
 <p id="9">
 	<s id="1">Vraiment ?... </s>
 	<s id="2">Vous consentez ?</s>
@@ -1888,7 +2004,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Car, enfin, il n'y a pas à dire, vous caniez.</s>
 </p>
 </sp>
-<sp stage="low" who="CHAMBERLOT"><speaker>CHAMBERLOT, sourdement.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="low">, sourdement.
+</stage>
 <note type="L">Caner : Faire la cane, reculer, fuir. [L]</note>
 <p id="15">
 	<s id="1">Oui... </s>
@@ -1901,35 +2018,41 @@ pas chargé de la remettre ?</s>
 	<s id="1">Dire que vous n'avez pas bronché quand je vous ai donné un soufflet !...</s>
 </p>
 </sp>
-<sp stage="low" who="CHAMBERLOT"><speaker>CHAMBERLOT, même jeu.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="low">, même jeu.
+</stage>
 <p id="17">
 	<s id="1">Assez !...</s>
 </p>
 </sp>
-<sp stage="laugh" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, riant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="laugh">, riant.
+</stage>
 <p id="18">
 	<s id="1">Et un fameux soufflet, hein ?...</s>
 </p>
 </sp>
-<sp stage="threat" who="CHAMBERLOT"><speaker>CHAMBERLOT, terrible.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="threat">, terrible.
+</stage>
 <p id="19">
 	<s id="1">Oh ! </s>
 	<s id="2">Oui... </s>
 	<s id="3">Un soufflet qui se paiera cher!..</s>
 </p>
 </sp>
-<sp stage="aparte/watch" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part, le regardant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte/watch">, à part, le regardant.
+</stage>
 <p id="20">
 	<s id="1">Ses yeux s'allument... </s>
 	<s id="2">Il est superbe !...</s>
 </p>
 </sp>
-<sp stage="agitated" who="CHAMBERLOT"><speaker>CHAMBERLOT, s'animant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="agitated">, s'animant.
+</stage>
 <p id="21">
 	<s id="1">Et très cher, encore !</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">Quel malheur qu'on ne le voie pas !</s>
 </p>
@@ -1977,7 +2100,8 @@ pas chargé de la remettre ?</s>
 	<s id="3">Je n'ai plus à vous ménager, maintenant.</s>
 </p>
 </sp>
-<sp stage="anxious" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, inquiet.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="anxious">, inquiet.
+</stage>
 <p id="31">
 	<s id="1">Comment ? </s>
 	<s id="2">Vous n'avez plus à me ménager...</s>
@@ -2011,7 +2135,8 @@ pas chargé de la remettre ?</s>
 	<s id="3">Je viens de l'apprendre à l'instant.</s>
 </p>
 </sp>
-<sp stage="sad" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, attéré.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="sad">, attéré.
+</stage>
 <p id="37">
 	<s id="1">Oh ! </s>
 	<s id="2">Mais vous me renversez...</s>
@@ -2022,7 +2147,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Comme le ministère !...</s>
 </p>
 </sp>
-<sp stage="sad" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, amèrement.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="sad">, amèrement.
+</stage>
 <p id="39">
 	<s id="1">Triste jeu de mots, Monsieur.</s>
 </p>
@@ -2044,7 +2170,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Celle que je vous ai donnée et celle que j'ai reçue...</s>
 </p>
 </sp>
-<sp stage="smile" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, essayant de sourire.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="smile">, essayant de sourire.
+</stage>
 <p id="43">
 	<s id="1">Eh bien... nous sommes quittes !</s>
 </p>
@@ -2054,7 +2181,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Vous trouvez, vous ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, interloqué.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="estonish">, interloqué.
+</stage>
 <p id="45">
 	<s id="1">C'est vous même qui me disiez...</s>
 </p>
@@ -2110,12 +2238,14 @@ pas chargé de la remettre ?</s>
 	<s id="1">Ou au premier sang, ça m'est égal... comme je suis sûr de mon coup...</s>
 </p>	
 </sp>
-<sp stage="frighten" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, pâlissant.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="frighten">, pâlissant.
+</stage>
 <p id="55">
 	<s id="1">Quelle plaisanterie !...</s>
 </p>
 </sp>
-<sp stage="shout" who="CHAMBERLOT"><speaker>CHAMBERLOT, avec éclat.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="shout">, avec éclat.
+</stage>
 <p id="56">
 	<s id="1">Une plaisanterie ! </s>
 	<s id="2">Je ne plaisante pas, Monsieur !... </s>
@@ -2134,7 +2264,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">Je le fais intervenir tout le temps.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="58">
 	<s id="1">Quel homme ! </s>
 </p>
@@ -2143,12 +2274,14 @@ pas chargé de la remettre ?</s>
 	<s id="1">Voyons, mon cher Monsieur_Chamberlot...</s>
 </p>
 </sp>
-<sp stage="strong" who="CHAMBERLOT"><speaker>CHAMBERLOT, avec force.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="strong">, avec force.
+</stage>
 <p id="60">
 	<s id="1">Ne m'appelez pas Chamberlot !</s>
 </p>
 </sp>
-<sp stage="surprise" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, surpris.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="surprise">, surpris.
+</stage>
 <p id="61">
 	<s id="1">Comment voulez-vous que je dise ?</s>
 </p>
@@ -2185,12 +2318,14 @@ pas chargé de la remettre ?</s>
 	<s id="3">C'est ridicule.</s>
 </p>
 </sp>
-<sp stage="up" who="CHAMBERLOT"><speaker>CHAMBERLOT, bondissant.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="up">, bondissant.
+</stage>
 <p id="68">
 	<s id="1">Ridicule !</s>
 </p>
 </sp>
-<sp stage="quick" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, vivement.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="quick">, vivement.
+</stage>
 <p id="69">
 	<s id="1">Je veux dire insignifiant... </s>
 	<s id="2">Le motif est si léger !... </s>
@@ -2225,7 +2360,8 @@ pas chargé de la remettre ?</s>
 	<s id="2">J'en parlerai jusqu'à ce que j'aie vu couler votre sang.</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="75">
 	<s id="1">Il est effrayant, ma parole d'honneur. </s>
 </p>
@@ -2255,7 +2391,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Nous ne le sommes plus...</s>
 </p>
 </sp>
-<sp stage="aparte" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à part.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="81">
 	<s id="1">Je n'en viendrai pas à bout... </s>
 	<s id="2">Quel homme ! </s>
@@ -2298,7 +2435,8 @@ pas chargé de la remettre ?</s>
 	<s id="1">Mais, Monsieur.</s>
 </p>
 </sp>
-<sp stage="show" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, tendant sa joue.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="show">, tendant sa joue.
+</stage>
 <p id="88">
 	<s id="1">Je vous en prie.</s>
 </p>
@@ -2313,8 +2451,10 @@ pas chargé de la remettre ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, L'Huissier.</head>
-<sp stage="entrance" who="L'HUISSIER"><speaker>L'HUISSIER, entrant au moment du soufflet.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, L'Huissier.
+</stage>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="entrance">, entrant au moment du soufflet.
+</stage>
 <p id="1">
 	<s id="1">Oh !</s>
 </p>
@@ -2329,12 +2469,14 @@ pas chargé de la remettre ?</s>
 	<s id="2">Quand je tiens à être vu, on ne me voit pas ; quand je ne veux pas être vu, on me voit.</s>
 </p>
 </sp>
-<sp stage="toward" who="L'HUISSIER"><speaker>L'HUISSIER, à Blanc-Misseron.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="toward">, à Blanc-Misseron.
+</stage>
 <p id="4">
 	<s id="1">Monsieur, je venais vous dire...</s>
 </p>
 </sp>
-<sp stage="nervous" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, avec humeur.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="5">
 	<s id="1">Eh bien... </s>
 	<s id="2">Quoi ?... </s>
@@ -2370,12 +2512,14 @@ pas chargé de la remettre ?</s>
 	<s id="4">Celui d'il y a quinze jours !</s>
 </p>
 </sp>
-<sp stage="toward" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, à Chamberlot.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="toward">, à Chamberlot.
+</stage>
 <p id="11">
 	<s id="1">Qu'est-ce que vous disiez donc ?</s>
 </p>
 </sp>
-<sp stage="think" who="L'HUISSIER"><speaker>L'HUISSIER, comprenant.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="think">, comprenant.
+</stage>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur a cru ?... </s>
@@ -2391,12 +2535,14 @@ pas chargé de la remettre ?</s>
 	<s id="1">Et ce deuxième soufflet...</s>
 </p>
 </sp>
-<sp stage="humble" who="CHAMBERLOT"><speaker>CHAMBERLOT, très humble.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="humble">, très humble.
+</stage>
 <p id="15">
 	<s id="1">Croyez, monsieur, que je regrette...</s>
 </p>
 </sp>
-<sp stage="quick/low" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, vivement, bas.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="quick/low">, vivement, bas.
+</stage>
 <p id="16">
 	<s id="1">Non ! </s>
 	<s id="2">Non !.. </s>
@@ -2409,22 +2555,26 @@ pas chargé de la remettre ?</s>
 	<s id="3">Et quand je les reçois, je les lave dans le sang.</s>
 </p>
 </sp>
-<sp stage="estonish" who="L'HUISSIER"><speaker>L'HUISSIER, ébloui.</speaker>
+<sp who="L'HUISSIER"><speaker>L'HUISSIER</speaker><stage type="estonish">, ébloui.
+</stage>
 <p id="18">
 	<s id="1">Oh !</s>
 </p>
 </sp>
-<sp stage="proud" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, avec hauteur.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="proud">, avec hauteur.
+</stage>
 <p id="19">
 	<s id="1">Vous m'avez compris ?</s>
 </p>
 </sp>
-<sp stage="low" who="CHAMBERLOT"><speaker>CHAMBERLOT, bas.</speaker>
+<sp who="CHAMBERLOT"><speaker>CHAMBERLOT</speaker><stage type="low">, bas.
+</stage>
 <p id="20">
 	<s id="1">Pas trop !...</s>
 </p>
 </sp>
-<sp stage="low" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, bas.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="low">, bas.
+</stage>
 <p id="21">
 	<s id="1">Je vais me faire comprendre. </s>
 	<s id="2">Nous irons sur le terrain ; vous me tendrez votre bras, je le piquerai ; vous tomberez par terre ; puis nous déjeunerons et nous rédigerons un petit procès-verbal pour les journaux.</s>
@@ -2447,7 +2597,8 @@ pas chargé de la remettre ?</s>
 </p>
 <stage type="shake">Il lui serre la main.</stage>
 </sp>
-<sp stage="loud/proud" who="BLANC-MISSERON"><speaker>BLANC-MISSERON, haut, avec noblesse.</speaker>
+<sp who="BLANC-MISSERON"><speaker>BLANC-MISSERON</speaker><stage type="loud/proud">, haut, avec noblesse.
+</stage>
 <p id="25">
 	<s id="1">Et maintenant... </s>
 	<s id="2">J'attends les rieurs !</s>

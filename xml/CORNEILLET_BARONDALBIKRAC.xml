@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>vers</type>
 				<periode>1701-1710</periode>
 				<taille>1750-2000</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,7 +29,7 @@
 			<titlePart type="main">LE BARON D'ALBIKRAC</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
-		<docDate value='1669'>M. DC. LXIX. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docDate value="1669">M. DC. LXIX. AVEC PRIVILÈGE DU ROI.</docDate>
 		<docAuthor id="CORNEILLE, Thomas">Thomas CORNEILLE</docAuthor>
 		<docImprint>
 			 <privilege id="1668-02-21">
@@ -42,10 +42,10 @@
 			<acheveImprime id="1669-02-08">
 				<p>Achevé d'imprimer pour la première fois le 8 Février 1669. à Rouen, par L. MAURRY, aux dépens de l'Autheur, lequel a traité de la présente impression et du privilège avec CLAUDE BARBIN, et GABRIEL QUINET Marchands Libraires à Paris, pour en jouir suivant l'accord fait entre-eux.</p>
 			</acheveImprime>
-			<printer id=''>À PARIS, Chez GABRIEL QUINET, au Palais, dans la Gallerie des Prisonniers, à l'Ange Gabriel. </printer>
+			<printer id="">À PARIS, Chez GABRIEL QUINET, au Palais, dans la Gallerie des Prisonniers, à l'Ange Gabriel. </printer>
 		</docImprint>
 		<performance>
-			<premiere date='1657' location='Théâtre du Marais'>Représentée pour la première fois en 1657 au Théâtre du Marais.</premiere>
+			<premiere date="1657" location="Théâtre du Marais">Représentée pour la première fois en 1657 au Théâtre du Marais.</premiere>
 		</performance>
       <div type="dedicace">
         <adresse>A M. B. E. C. S</adresse>
@@ -96,8 +96,10 @@
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIERE. Angélique, Philipin.</head>
-<sp stage="carry" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, tenant une lettre.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head><stage> Angélique, Philipin.
+</stage>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="carry">, tenant une lettre.
+	</stage>
 	<l id="1">Si j'en crois ce billet, Oronte est fort sincère,</l>
 	<l id="2">Il met tout son bonheur à me voir, à me plaire,</l>
 	<l id="3">Mais ce fut là toujours le style des Amants.</l>
@@ -151,7 +153,8 @@
 	<l id="26">Un peut-être n'est point ce que cherche mon maître.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Angélique, Lisette, Philipin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Angélique, Lisette, Philipin.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="27" syll="2" part="i">Et vite.</l>
 </sp>
@@ -185,7 +188,8 @@
 	<l id="32" syll="3" part="m">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Philipin, Lisette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Philipin, Lisette.
+</stage>
 <sp who="PHILIPIN"><speaker>PHILIPIN.</speaker>
 	<l id="32" syll="6" part="f">C'est bien dit. Ah, les sots</l>
 	<l id="33">Qui sans rien attraper avec un soin extrême</l>
@@ -373,7 +377,8 @@
 	<l id="132">Tais-toi, ne vois-tu pas que notre tante vient ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Tante, Lisette, Philipin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Tante, Lisette, Philipin.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="133" syll="6" part="i">Que te dit Philipin ?</l>
 </sp>
@@ -395,7 +400,8 @@
 	<l id="137" syll="6" part="f">Qu'ils viennent l'un et l'autre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Tante, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Tante, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="138">Madame, vous voyez quel pouvoir est le vôtre,</l>
 	<l id="139">Tous deux ne sauraient vivre un seul moment sans vous.</l>
@@ -603,7 +609,8 @@
 	<l id="236" syll="8" part="f">N'ayez pour elle aucun souci.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Tante, Angélique, Lisette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Tante, Angélique, Lisette.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="237">Vous plaît-il que quelqu'un aille pour ces tablettes,</l>
 	<l id="238" syll="3" part="i">Ma tante ?</l>
@@ -639,7 +646,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="244" syll="6" part="f">C'est qu'il me plaît à moi.</l>
 </sp>
-<sp stage="get" who="LISETTE"><speaker>LISETTE, allant prendre une coiffe sur la table.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="get">, allant prendre une coiffe sur la table.
+	</stage>
 	<l id="245">Avec vos cheveux blonds en coquette fieffée,</l>
 	<l id="246">Vous vous imaginez être fort bien coiffée,</l>
 	<l id="247">Rien n'est plus ridicule, et Madame a raison,</l>
@@ -651,7 +659,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="249" syll="9" part="i">Que de raisonnements ! Approchez.</l>
 </sp>
-<sp stage="low" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, bas.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="249" syll="3" part="f">Je déteste.</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
@@ -659,8 +668,10 @@
 	<l id="251" syll="3" part="i">Mais Léandre...</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Tante, Angélique, Léandre, Oronte, Lisette.</head>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à la Tante.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Tante, Angélique, Léandre, Oronte, Lisette.
+</stage>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="251" syll="9" part="f">Voyez si l'on se plaît chez vous,</l>
 	<l id="252" syll="3" part="i">Madame.</l>
 </sp>
@@ -670,7 +681,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="253">Vous le dites, je sais ce qu'il faut que j'en croie.</l>
 </sp>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Angélique.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="254">Vous cacher de la sorte ! Ah souffrez qu'on vous voie.</l>
 	<l id="255">Est-ce pour inspirer des désirs plus ardents ?</l>
 </sp>
@@ -684,7 +696,8 @@
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="258" syll="3" part="i">Ôtez donc.</l>
 </sp>
-<sp stage="toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à la Tante.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="258" syll="3" part="m">L'ôterai-je ?</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -692,11 +705,13 @@
 	<l id="259">Vous prenez donc plaisir à montrer votre nez ?</l>
 	<l id="260" syll="4" part="i">J'en suis fort aise.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à la Tante.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="260" syll="8" part="f">Ainsi les esprits sont tournés,</l>
 	<l id="261" syll="4" part="i">Plus on défend...</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à la Tante.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="261" syll="8" part="f">Madame, on poursuit mon affaire,</l>
 	<l id="262">Votre crédit bientôt me sera nécessaire,</l>
 	<l id="263" syll="6" part="i">J'ose en espérer tout.</l>
@@ -708,7 +723,8 @@
 	<l id="266">Pour n'y rien négliger, et d'ailleurs, mais n'importe,</l>
 	<l id="267">L'effet vous montrera si je sers mes amis.</l>
 </sp>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à la Tante.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="268">Ce titre est glorieux, vous me l'avez promis.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -742,24 +758,28 @@
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="279">Par ce que je vous dis du moins vous l'éprouvez.</l>
 </sp>
-<sp stage="blink" who="LA TANTE"><speaker>LA TANTE, faisant signe de l'oeil à Angélique.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="blink">, faisant signe de l'oeil à Angélique.
+	</stage>
 	<l id="280" syll="3" part="i">Angélique.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="280" syll="3" part="f">Ma Tante.</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à Angélique feignant de continuer haut la conversation.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à Angélique feignant de continuer haut la conversation.
+	</stage>
 	<l id="280" syll="6" part="f">Enfin donc vous trouvez</l>
 	<l id="281" syll="6" part="i">Ma garniture belle ?</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="281" syll="6" part="f">Oui belle, et des plus belles.</l>
 </sp>
-<sp stage="low/toward" who="LISETTE"><speaker>LISETTE, bas à la Tante.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/toward">, bas à la Tante.
+	</stage>
 	<l id="282">J'écoute, il ne lui dit que pures bagatelles,</l>
 	<l id="283">Et vous laisse par là Léandre à gouverner.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Léandre.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Léandre.
+	</stage>
 	<l id="284">Quel âge croyez-vous qu'on me puisse donner ?</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -767,7 +787,8 @@
 	<l id="286">Je vous croirais trop jeune encor pour le ménage.</l>
 	<l id="287" syll="6" part="i">Vingt et un an au plus.</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="287" syll="6" part="f">Où les va-t-il chercher ?</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -781,7 +802,8 @@
 	<l id="291">Du vivant du bon homme, ah grands Dieux quels ennuis !</l>
 	<l id="292" syll="6" part="i">C'étaient de tristes jours.</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="292" syll="6" part="f">Et de plus tristes nuits.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -797,7 +819,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="296" syll="6" part="i">Quinze ans s'y sont passés.</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="296" syll="6" part="f">Et quinze par-delà.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -819,7 +842,8 @@
 	<l id="304" syll="8" part="f">Pourtant je n'ai juré de rien,</l>
 	<l id="305" syll="3" part="i">Et selon...</l>
 </sp>
-<sp stage="interrupt/sad" who="LÉANDRE"><speaker>LÉANDRE, l'interrompant d'un air chagrin.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="interrupt/sad">, l'interrompant d'un air chagrin.
+	</stage>
 	<l id="305" syll="9" part="f">D'ordinaire où sont vos promenades ?</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -872,7 +896,8 @@
 	<l id="326">De prétendre qu'à peine il s'en trouve un semblable,</l>
 	<l id="327">Et quelqu'un que je sais vaut tout ce que je vaux.</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="328" syll="3" part="i">Bon cela.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -888,7 +913,8 @@
 	<l id="329" syll="2" part="f">Vous même.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Tante, Angélique, Léandre, Oronte, Lisette, Cascaret.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Tante, Angélique, Léandre, Oronte, Lisette, Cascaret.
+</stage>
 <sp who="CASCARET"><speaker>CASCARET.</speaker>
 	<l id="330" syll="3" part="i">Madame.</l>
 </sp>
@@ -914,11 +940,13 @@
 	<l id="333">Qu'on la reçoive ailleurs. L'incommode personne !</l>
 	<l id="334" syll="1" part="i">Ah !</l>
 </sp>
-<sp stage="low/watch" who="LÉANDRE"><speaker>LÉANDRE, bas en regardant la Tante.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="low/watch">, bas en regardant la Tante.
+	</stage>
 	<l id="334" syll="11" part="f">Si tu m'y retiens, va, je te le pardonne.</l>
 	<l id="335" syll="6" part="i">Peste soit de la vieille !</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Angélique.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="335" syll="6" part="f">Allez l'entretenir,</l>
 	<l id="336" syll="3" part="i">Je vous suis.</l>
 <stage type="toward">À Oronte et Léandre.</stage>
@@ -935,7 +963,8 @@
 	<l id="340">Lui fait ouvrir l'oreille, et chatouille le coeur.</l>
 	<l id="341" syll="6" part="i">C'est un original.</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="341" syll="6" part="f">L'impertinence extrême</l>
 	<l id="342">De faire son portrait et se railler soi-même !</l>
 </sp>
@@ -958,8 +987,10 @@
 	<l id="351">Je saurai m'en défaire, et perdrai peu de temps.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Léandre, Oronte, Lisette.</head>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à Oronte.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Léandre, Oronte, Lisette.
+</stage>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="352">Faites ici le sot, pour moi si je l'attends...</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
@@ -1052,8 +1083,10 @@
 	<l id="389">Le voici qu'à propos Philipin nous amène.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Léandre, Oronte, La Montagne, Lisette, Philipin.</head>
-<sp stage="toward" who="LÉANDRE"><speaker>LÉANDRE, à la Montagne.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Léandre, Oronte, La Montagne, Lisette, Philipin.
+</stage>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="toward">, à la Montagne.
+	</stage>
 	<l id="390" syll="6" part="i">As-tu vu le Marquis ?</l>
 </sp>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
@@ -1118,7 +1151,8 @@
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="412" syll="6" part="f">Environ, Dieu merci.</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à la Montagne.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à la Montagne.
+	</stage>
 	<l id="413">Sors vite, s'il fallait qu'on te vit avec elle,</l>
 	<l id="414" syll="4" part="i">Tu perdrais tout.</l>
 </sp>
@@ -1139,7 +1173,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Angélique, Lisette.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Angélique, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="417">Philipin m'attendait par l'ordre de son maître,</l>
 	<l id="418">Ici dans un moment vous l'allez voir paraître,</l>
@@ -1265,7 +1300,8 @@
 	<l id="478">Vous faites l'innocente, et vous ne l'êtes guère.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Oronte, Angélique, Lisette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Oronte, Angélique, Lisette.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="479" syll="2" part="i">Madame.</l>
 </sp>
@@ -1355,8 +1391,10 @@
 	<l id="533" syll="6" part="i">Je ne me défends plus.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Tante, Angélique, Oronte.</head>
-<sp stage="listen" who="LA TANTE"><speaker>LA TANTE, après avoir écouté les trois derniers vers.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Tante, Angélique, Oronte.
+</stage>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="listen">, après avoir écouté les trois derniers vers.
+	</stage>
 	<l id="533" syll="6" part="f">La peinture est jolie,</l>
 	<l id="534">Le rouge vous sied bien, vous êtes embellie,</l>
 	<l id="535">L'appétit au besoin vous viendrait en parlant,</l>
@@ -1393,7 +1431,8 @@
 	<l id="546" syll="8" part="f">Comptez, je vous la garde bonne,</l>
 	<l id="547" syll="2" part="i">Et si...</l>
 </sp>
-<sp stage="toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à Oronte.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="547" syll="10" part="f">Venez encor emprunter mon secours,</l>
 	<l id="548">J'ai bien affaire, moi, de vos sottes amours.</l>
 </sp>
@@ -1408,10 +1447,12 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="552">Comment ? est-ce qu'il veut que vous parliez pour lui ?</l>
 </sp>
-<sp stage="low/toward" who="ORONTE"><speaker>ORONTE, bas à Angélique.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low/toward">, bas à Angélique.
+	</stage>
 	<l id="553" syll="4" part="i">Qu'allez-vous dire ?</l>
 </sp>
-<sp stage="loud" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, haut.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="loud">, haut.
+	</stage>
 	<l id="553" syll="8" part="f">Tout, et devant tout le monde ;</l>
 	<l id="554">Voyez, il faut pour vous, Monsieur, que l'on me gronde.</l>
 	<l id="555">Je vous l'avais bien dit renvoyant vos amours</l>
@@ -1432,20 +1473,23 @@
 	<l id="562">J'aurai lieu de juger s'il faut lui faire grâce.</l>
 	<l id="563">Ce doit être sa peine après ce qu'elle a fait.</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à la Tante.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="564">Vous haïssez la cause, épargnez-vous l'effet.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="565" syll="3" part="i">Oyez donc.</l>
 </sp>
-<sp stage="low/toward" who="ORONTE"><speaker>ORONTE, bas à Angélique.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low/toward">, bas à Angélique.
+	</stage>
 	<l id="565" syll="9" part="f">L'embarras où vous nous allez mettre.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="566">Mais quand vous aurez su ce qu'il m'a fait promettre,</l>
 	<l id="567">Contre moi tout d'un coup je crains bien de vous voir...</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à la Tante.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="568" syll="6" part="i">Ah, ne l'apprenez point.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -1457,7 +1501,8 @@
 	<l id="570">Et qu'il entrait ici comme j'y suis entrée.</l>
 	<l id="571" syll="3" part="i">Il venait...</l>
 </sp>
-<sp stage="low/toward" who="ORONTE"><speaker>ORONTE, bas à Angélique.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low/toward">, bas à Angélique.
+	</stage>
 	<l id="571" syll="9" part="f">Sans donner de plus forte raison</l>
 	<l id="572">Dites que je venais pour voler la maison,</l>
 	<l id="573" syll="6" part="i">Je l'avouerai plutôt que...</l>
@@ -1469,7 +1514,8 @@
 	<l id="574">Qu'à vous expliquer tout il va mourir de honte,</l>
 	<l id="575">Mais en vain il prétend que j'ose rien cacher.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="576" syll="3" part="i">Je suis pris.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -1502,7 +1548,8 @@
 	<l id="600" syll="2" part="i">Rentrez.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Tante, Oronte.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Tante, Oronte.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="600" syll="10" part="f">Ma présence vous choque, et je vais...</l>
 </sp>
@@ -1576,12 +1623,14 @@
 	<l id="641" syll="6" part="i">Au contraire, je veux...</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Tante, Angélique, Oronte.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Tante, Angélique, Oronte.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="641" syll="6" part="f">Voici, qu'on vous apporte</l>
 	<l id="642" syll="6" part="i">De ces petits tableaux.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="642" syll="1" part="m">Bon.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -1603,7 +1652,8 @@
 	<l id="646">Quelle stupide ! Encor ? L'espoir où je me fonde</l>
 	<l id="647" syll="6" part="i">C'est que me connaissant...</l>
 </sp>
-<sp stage="back" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, revenant sur ses pas.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="back">, revenant sur ses pas.
+	</stage>
 	<l id="647" syll="6" part="f">S'il les voulait laisser ?</l>
 	<l id="648" syll="6" part="i">Il peut les vendre ailleurs.</l>
 </sp>
@@ -1612,11 +1662,13 @@
 	<l id="649">Qu'il les vende, ce soin vous rend officieuse ?</l>
 	<l id="650" syll="1" part="i">Si...</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="650" syll="11" part="f">Le friand ragoût qu'une vieille amoureuse !</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Tante, Oronte.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Tante, Oronte.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="651">Sans trop de vanité je pourrais me flatter</l>
 	<l id="652">Qu'il n'a tenu qu'à moi jusqu'ici d'écouter,</l>
@@ -1646,7 +1698,8 @@
 	<l id="665">Vous priver de sa vue, et que rien m'autorise...</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Tante, Angélique, Oronte.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Tante, Angélique, Oronte.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="666">Ah, ma Tante, voici ce beau point_de_Venise.</l>
 </sp>
@@ -1656,7 +1709,8 @@
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="667" syll="8" part="f">Vos yeux en vont être éblouis.</l>
 </sp>
-<sp stage="admirate" who="ORONTE"><speaker>ORONTE, faisant semblant d'admirer le mouchoir.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="admirate">, faisant semblant d'admirer le mouchoir.
+	</stage>
 	<l id="668" syll="3" part="i">Ah, Madame !</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -1675,7 +1729,8 @@
 	<l id="673">Il est assez passable, allez, qu'on me le garde,</l>
 	<l id="674" syll="6" part="i">Nous le verrons tantôt.</l>
 </sp>
-<sp stage="sad" who="ORONTE"><speaker>ORONTE, d'un ton chagrin.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="sad">, d'un ton chagrin.
+	</stage>
 	<l id="674" syll="1" part="m">Dieux !</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -1687,11 +1742,13 @@
 	<l id="677">Ne finirez-vous point ? Que veut encor Lisette ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Tante, Angélique, Oronte, Lisette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Tante, Angélique, Oronte, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="678" syll="6" part="i">Le Baron_d_Albikrac...</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="678" syll="6" part="f">Enfin ma tâche est faite,</l>
 	<l id="679" syll="3" part="i">Respirons.</l>
 </sp>
@@ -1730,8 +1787,10 @@
 	<l id="691">Je l'essuierai sans peine, et consens que par là...</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. La Tante, Angélique, Oronte, La Montagne, Lisette.</head>
-<sp stage="toward/confuse" who="LA MONTAGNE"><speaker>LA MONTAGNE s'adressant à Angélique, et feignant de la prendre pour la Tante.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Tante, Angélique, Oronte, La Montagne, Lisette.
+</stage>
+<sp who="LA MONTAGNE"><speaker>LA MONTAGNE</speaker><stage type="toward/confuse"> s'adressant à Angélique, et feignant de la prendre pour la Tante.
+	</stage>
 	<l id="692">Qui des deux est la Tante ? à l'âge, la voila.</l>
 	<l id="693">Pardonnez, je sais bien que ce vilain mot d'âge</l>
 	<l id="694">Aux Belles comme vous tient toujours lieu d'outrage,</l>
@@ -1799,7 +1858,8 @@
 	<l id="719" syll="6" part="f">Chacun vaut son prix,</l>
 	<l id="720" syll="3" part="i">Mais enfin.</l>
 </sp>
-<sp stage="low/toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, bas à Lisette.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="low/toward">, bas à Lisette.
+	</stage>
 	<l id="720" syll="9" part="f">Est-il fou de s'être ainsi mépris ?</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
@@ -1838,7 +1898,8 @@
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
 	<l id="736" syll="6" part="f">Ah, l'on n'en doute pas.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Oronte.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="737" syll="6" part="i">Vous êtes tout rêveur.</l>
 </sp>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
@@ -1876,7 +1937,8 @@
 	<l id="755">Deux familles, pensez, d'éclat et de renom.</l>
 	<l id="756">Qu'on s'informe, on verra si quelqu'un dira, non.</l>
 </sp>
-<sp stage="low/toward" who="LA TANTE"><speaker>LA TANTE, bas à Oronte.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="low/toward">, bas à Oronte.
+	</stage>
 	<l id="757" syll="6" part="i">Vous n'avez pas sujet...</l>
 </sp>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
@@ -1897,7 +1959,8 @@
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="767">C'est un homme enjoué. Qu'il est divertissant !</l>
 </sp>
-<sp stage="toward/low" who="LA TANTE"><speaker>LA TANTE, à la Montagne qui lui avait parlé bas.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward/low">, à la Montagne qui lui avait parlé bas.
+	</stage>
 	<l id="768" syll="6" part="i">Rien ne nous presse encor.</l>
 </sp>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
@@ -1949,27 +2012,33 @@
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
 	<l id="788" syll="2" part="m">Ah, non.</l>
 </sp>
-<sp stage="low/toward" who="LA TANTE"><speaker>LA TANTE, bas à Oronte.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="low/toward">, bas à Oronte.
+	</stage>
 	<l id="788" syll="6" part="f">Je suis au désespoir,</l>
 	<l id="789">Ne vous chagrinez point, mon Cher, je vous en prie,</l>
 	<l id="790" syll="6" part="i">Si je donne la main...</l>
 </sp>
-<sp stage="open" who="LISETTE"><speaker>LISETTE, ouvrant une porte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="open">, ouvrant une porte.
+	</stage>
 	<l id="790" syll="6" part="f">Par cette galerie.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Oronte.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="791" syll="3" part="i">Suivez-nous.</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à Angélique.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="791" syll="9" part="f">En suivant éloignons-nous un peu.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Oronte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="792">Profitez du moment, on vous donne beau jeu.</l>
 </sp>
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIERE. Léandre, Lisette.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIERE.</head><stage> Léandre, Lisette.
+</stage>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="793">Nos amants à leurs feux vont trouver peu d'obstacles,</l>
 	<l id="794">Notre nouveau Baron fait pour eux des miracles,</l>
@@ -2046,7 +2115,8 @@
 	<l id="832">Je la divertirais de la bonne façon.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Angélique, Léandre, Oronte,  Lisette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Angélique, Léandre, Oronte,  Lisette.
+</stage>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 	<l id="833" syll="9" part="i">Vous vous êtes enfin échappés ?</l>
 </sp>
@@ -2104,7 +2174,8 @@
 	<l id="860">Vous me raillez, chacun peut-être aura son temps,</l>
 	<l id="861" syll="3" part="i">Que sait-on ?</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Oronte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="861" syll="9" part="f">Pour le moins il a cet avantage</l>
 	<l id="862">Que si pour notre Tante il sucrait le breuvage,</l>
 	<l id="863">Ma foi, vous tireriez votre poudre aux Moineaux,</l>
@@ -2131,10 +2202,12 @@
 	<l id="875">Souffrez que devant lui je vous donne ma foi,</l>
 	<l id="876" syll="6" part="i">Qu'il en soit le garant.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Angélique.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="876" syll="2" part="m">Donnez.</l>
 </sp>
-<sp stage="give" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, donnant la main à Oronte.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="give">, donnant la main à Oronte.
+	</stage>
 	<l id="876" syll="4" part="f">Je la reçois,</l>
 	<l id="877">Et pourvu que toujours et sincère et constante</l>
 	<l id="878" syll="6" part="i">Elle soutienne en vous...</l>
@@ -2177,7 +2250,8 @@
 	<l id="891">Celle-ci qui s'étend le dénote encor mieux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Tante, Angélique, Léandre, Oronte, Lisette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Tante, Angélique, Léandre, Oronte, Lisette.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="892">Que lui prédisiez-vous ici de curieux ?</l>
 	<l id="893">Du destin qui l'attend veut-elle être éclaircie ?</l>
@@ -2260,7 +2334,8 @@
 <stage type="low/toward">Bas à Oronte.</stage>
 	<l id="918">Dites à votre ami qu'il emmène ma nièce.</l>
 </sp>
-<sp stage="low/toward" who="LÉANDRE"><speaker>LÉANDRE, bas à Oronte.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="low/toward">, bas à Oronte.
+	</stage>
 	<l id="919">Vous avez de l'esprit, tirez-vous d'embarras.</l>
 	<l id="920" syll="2" part="i">Pour moi...</l>
 </sp>
@@ -2271,7 +2346,8 @@
 	<l id="921">Je me rendrais suspect à m'en vouloir défendre.</l>
 	<l id="922" syll="2" part="i">Il faut...</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Angélique.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="922" syll="10" part="f">Faites pour moi compagnie à Léandre.</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
@@ -2286,7 +2362,8 @@
 	<l id="925" syll="6" part="f">Ah détestable tante !</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Tante, Oronte.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Tante, Oronte.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="926">Je crois que vous devez avoir l'âme contente,</l>
 	<l id="927">Du moins pour vous marquer une tendre amitié,</l>
@@ -2363,7 +2440,8 @@
 	<l id="975">Je vous aime, et pour prix d'un zèle si discret</l>
 	<l id="976">Je vous puis aisément épouser en secret.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="977">M'épouser en secret ! me voila bien, courage.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -2439,13 +2517,16 @@
 	<l id="1018">Soit pour vous, soit pour lui, voyez toujours ma nièce,</l>
 	<l id="1019" syll="10" part="i">À l'hymen du Baron, mais le voici.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1019" syll="2" part="f">J'en tiens</l>
 	<l id="1020" syll="3" part="i">Si Léandre...</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Montagne, La Tante, Angélique, Léandre, Oronte, Lisette.</head>
-<sp stage="low/toward" who="LA MONTAGNE"><speaker>LA MONTAGNE, bas à Léandre.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Montagne, La Tante, Angélique, Léandre, Oronte, Lisette.
+</stage>
+<sp who="LA MONTAGNE"><speaker>LA MONTAGNE</speaker><stage type="low/toward">, bas à Léandre.
+	</stage>
 	<l id="1020" syll="9" part="f">Suffit, je vais rompre les chiens.</l>
 	<l id="1021" syll="6" part="i">Quoi tous deux tête-à-tête ?</l>
 </sp>
@@ -2464,7 +2545,8 @@
 	<l id="1027">Et chacun a les siens en son particulier,</l>
 	<l id="1028">Courage, rira bien qui rira le dernier.</l>
 </sp>
-<sp who="LA TANTE"><speaker>LA TANTE, à la Montagne.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage>, à la Montagne.
+	</stage>
 	<l id="1029" syll="6" part="i">En désespérez vous ?</l>
 <stage type="toward">Bas à Lisette.</stage>
 	<l id="1029" syll="6" part="f">Si tu savais, Lisette...</l>
@@ -2481,7 +2563,8 @@
 	<l id="1033">Eh, non pas tout à fait, mais il faut laisser faire,</l>
 	<l id="1034" syll="6" part="i">Tout vient avec le temps.</l>
 </sp>
-<sp stage="low/toward" who="LA TANTE"><speaker>LA TANTE, bas à Lisette.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="low/toward">, bas à Lisette.
+	</stage>
 	<l id="1034" syll="6" part="f">Vois Léandre se taire,</l>
 	<l id="1035" syll="4" part="i">Qu'il est chagrin !</l>
 </sp>
@@ -2529,10 +2612,12 @@
 	<l id="1049" syll="6" part="f">Et bien, ai-je à lui plaire ?</l>
 	<l id="1050" syll="3" part="i">Je m'en ris.</l>
 </sp>
-<sp stage="toward/low" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à Oronte qui l'avait entret9nue tout bas.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward/low">, à Oronte qui l'avait entretenuë tout bas.
+	</stage>
 	<l id="1050" syll="9" part="f">Non, Monsieur, il n'est pas nécessaire.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Angélique.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="1051" syll="6" part="i">Qu'est-ce qu'il vous propose ?</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
@@ -2542,7 +2627,8 @@
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
 	<l id="1052" syll="6" part="f">Ah, c'est jouer au fin.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Angélique.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="1053" syll="6" part="i">Vous y pouvez aller.</l>
 </sp>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
@@ -2573,11 +2659,13 @@
 	<l id="1066">Si vous connaissiez bien tout ce que je sais faire :</l>
 	<l id="1067">Mais ils sortent ma foi, je veux suivre leurs pas.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Lisette.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Lisette.
+	</stage>
 	<l id="1068">Allez avec ma nièce, et ne la quittez pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Tante, Léandre.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Tante, Léandre.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1069">Léandre me laisser pour une promenade ?</l>
 </sp>
@@ -2713,7 +2801,8 @@
 	<l id="1118">Différons, j'y consens, mais vous aurez beau faire,</l>
 	<l id="1119">Il faudra malgré vous enfin le déclarer.</l>
 </sp>
-<sp stag="low" who="LÉANDRE"><speaker>LÉANDRE, bas.</speaker>
+<sp stag="low" who="LÉANDRE"><speaker>LÉANDRE</speaker><stage>, bas.
+	</stage>
 	<l id="1120">Si quelque adroit détour ne m'aide à m'en tirer,</l>
 	<l id="1121">Elle m'accablera. Madame, quand Oronte</l>
 	<l id="1122">De mon amour pour vous vous a fait le beau conte,</l>
@@ -2787,7 +2876,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Oronte, Lisette.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Oronte, Lisette.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1141">Puisqu'il faut essuyer encor cette corvée,</l>
 	<l id="1142">Sois témoin de quel air ma flamme est éprouvée,</l>
@@ -2841,7 +2931,8 @@
 	<l id="1169" syll="4" part="i">Mais la voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Tante, Oronte, Lisette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Tante, Oronte, Lisette.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1169" syll="8" part="f">Jugez si ma joie est la vôtre</l>
 	<l id="1170">Quand je fausse pour vous compagnie à tout autre,</l>
@@ -2885,7 +2976,8 @@
 	<l id="1186">Je ne veux qu'un seul mot pour vous fermer la bouche,</l>
 	<l id="1187">La Comtesse_d_Uspek... Vous êtes interdit.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1188">Léandre m'a joué. Qu'est-ce qu'il aura dit ?</l>
 	<l id="1189">N'étant instruit de rien je ne sais que répondre.</l>
 </sp>
@@ -2904,10 +2996,12 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1192">Parlez, cela sied bien dans la bouche d'un fils.</l>
 </sp>
-<sp stage="low/toward" who="ORONTE"><speaker>ORONTE, bas à Lisette.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low/toward">, bas à Lisette.
+	</stage>
 	<l id="1193" syll="2" part="i">D'un fils !</l>
 </sp>
-<sp stage="loud" who="LISETTE"><speaker>LISETTE, haut.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="loud">, haut.
+	</stage>
 	<l id="1193" syll="11" part="f">Quoi, jusqu'ici nous avoir fait finesse,</l>
 	<l id="1194">Monsieur, que vous étiez le fils d'une Comtesse !</l>
 	<l id="1195" syll="6" part="i">Madame, il est donc vrai ?</l>
@@ -2927,7 +3021,8 @@
 	<l id="1201">C'est qu'étant mon neveu, quelque amour qui l'engage,</l>
 	<l id="1202">L'impossibilité se trouve au mariage.</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1203">Le tour est d'habile homme, il le faut appuyer.</l>
 <stage type="loud">Haut.</stage>
 	<l id="1204">Puisque vous savez tout je n'ai rien à nier,</l>
@@ -2954,7 +3049,8 @@
 	<l id="1219">La tendresse du sang eut toujours droit d'agir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Tante, Angélique, Oronte, Lisette.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Tante, Angélique, Oronte, Lisette.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="1220">Quoi, ma Tante, embrasser un homme sans rougir,</l>
 	<l id="1221">Vous qui condamniez tant toute ardeur indécente.</l>
@@ -2983,7 +3079,8 @@
 	<l id="1228">Il est donc mon cousin s'il est votre neveu,</l>
 	<l id="1229" syll="9" part="i">Et je dois comme vous l'embrasser.</l>
 </sp>
-<sp stage="kiss" who="ORONTE"><speaker>ORONTE, l'embrassant.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="kiss">, l'embrassant.
+	</stage>
 	<l id="1229" syll="3" part="f">Ma Cousine.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -3011,14 +3108,16 @@
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1238" syll="6" part="f">Adieu, belle parente.</l>
 </sp>
-<sp stage="low/toward" who="LISETTE"><speaker>LISETTE, bas à Angélique.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/toward">, bas à Angélique.
+	</stage>
 	<l id="1239" syll="6" part="i">Le cousinage n'est...</l>
 </sp>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="1239" syll="6" part="f">Léandre m'a tout dit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Tante, Oronte, Lisette.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Tante, Oronte, Lisette.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1240">Sans mentir, vous jouez à lui gâter l'esprit,</l>
 	<l id="1241">C'est pour le renverser ; la flatter d'être belle !</l>
@@ -3039,7 +3138,8 @@
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1246" syll="1" part="m">Vingt ?</l>
 </sp>
-<sp stage="low" who="LISETTE"><speaker>LISETTE, bas.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1246" syll="5" part="f">Qu'elle a bonne grâce</l>
 	<l id="1247">D'en donner à sa nièce et de s'en dérober !</l>
 </sp>
@@ -3075,13 +3175,15 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1263" syll="6" part="f">Ce frère prétendu...</l>
 </sp>
-<sp stage="low" who="ORONTE"><speaker>ORONTE, bas.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1264" syll="2" part="i">Je tremble.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1264" syll="4" part="m">Il ne m'est rien.</l>
 </sp>
-<sp stage="toward" who="ORONTE"><speaker>ORONTE, à Lisette.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="toward">, à Lisette.
+	</stage>
 	<l id="1264" syll="6" part="f">Ah, me voici perdu.</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
@@ -3096,7 +3198,8 @@
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1270" syll="2" part="i">Lisette.</l>
 </sp>
-<sp stage="low/towqrd" who="LISETTE"><speaker>LISETTE, bas à Oronte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="low/towqrd">, bas à Oronte.
+	</stage>
 	<l id="1270" syll="10" part="f">M'en voilà pour vous toute alarmée,</l>
 	<l id="1271">Vous l'échapperez belle en parant celui-ci.</l>
 </sp>
@@ -3140,7 +3243,8 @@
 	<l id="1287" syll="11" part="f">Contre un téméraire armez votre courroux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Tante, Oronte, Philipin, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Tante, Oronte, Philipin, Lisette.
+</stage>
 <sp who="PHILIPIN"><speaker>PHILIPIN.</speaker>
 	<l id="1288">Monsieur, votre avocat vient d'envoyer chez vous,</l>
 	<l id="1289">Il dit qu'on se prépare à vider votre affaire.</l>
@@ -3199,11 +3303,13 @@
 	<l id="1311" syll="6" part="f">Ce sont là ces beaux feux ?</l>
 	<l id="1312" syll="2" part="i">De grâce...</l>
 </sp>
-<sp stage="low/toward" who="ORONTE"><speaker>ORONTE, bas à Philipin.</speaker>
+<sp who="ORONTE"><speaker>ORONTE</speaker><stage type="low/toward">, bas à Philipin.
+	</stage>
 	<l id="1312" syll="10" part="f">Ah, Philipin, secours-moi si tu peux,</l>
 	<l id="1313" syll="6" part="i">Suppose, invente, mens.</l>
 </sp>
-<sp stage="low/toward" who="PHILIPIN"><speaker>PHILIPIN, bas à Oronte.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="low/toward">, bas à Oronte.
+	</stage>
 	<l id="1313" syll="6" part="f">Moi, Monsieur, que dirai-je ?</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -3252,11 +3358,13 @@
 	<l id="1330">Je pourrai m'enhardir à m'expliquer moi-même,</l>
 	<l id="1331">J'en chercherai la voie, et sorts pour y rêver.</l>
 </sp>
-<sp stage="low" who="PHILIPIN"><speaker>PHILIPIN, bas.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1332">La fourbe est commencée, il la faut achever.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Tante, Philipin, Lisette.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Tante, Philipin, Lisette.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1333">A-t-on rien vu d'égal au procédé d'Oronte ?</l>
 </sp>
@@ -3320,7 +3428,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1358" syll="2" part="i">Lisette.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Philipin.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Philipin.
+	</stage>
 	<l id="1358" syll="10" part="f">Parle bas, ce Baron que tu nommes...</l>
 </sp>
 <sp who="PHILIPIN"><speaker>PHILIPIN.</speaker>
@@ -3397,11 +3506,13 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1401">Va, n'appréhende point que je lui puisse nuire.</l>
 </sp>
-<sp who="PHILIPIN"><speaker>PHILIPIN, bas.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage>, bas.
+	</stage>
 	<l id="1402">Il s'en va tout gâter, comment l'oser instruire ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Tante, La Montagne, Lisette, Philipin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Tante, La Montagne, Lisette, Philipin.
+</stage>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1403">Qu'est devenu Léandre ? Il n'est point avec vous.</l>
 </sp>
@@ -3427,7 +3538,8 @@
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
 	<l id="1411" syll="9" part="f">Il m'en faut une preuve aujourd'hui.</l>
 </sp>
-<sp stage="toward/low" who="PHILIPIN"><speaker>PHILIPIN, à la Montagne bas sans faire semblant de lui parler.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="toward/low">, à la Montagne bas sans faire semblant de lui parler.
+	</stage>
 	<l id="1412">La_Rapière pendu, ta soeur grosse de lui.</l>
 </sp>
 <sp who="LA TANTE"><speaker>LA TANTE.</speaker>
@@ -3444,7 +3556,8 @@
 	<l id="1415" syll="6" part="f">Il fut un peu pendu</l>
 	<l id="1416" syll="3" part="i">Pour avoir...</l>
 </sp>
-<sp stage="interrupt" who="LISETTE"><speaker>LISETTE, l'interrompant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="1416" syll="9" part="f">C'est le moins qui lui put être dû.</l>
 	<l id="1417" syll="6" part="i">Affronter un Baron !</l>
 </sp>
@@ -3460,16 +3573,20 @@
 	<l id="1420">Que vous fîtes dresser sa figure en tableau ?</l>
 	<l id="1421">Si jamais il est pris vous lui ferez grand chère.</l>
 </sp>
-<sp stage="low" who="PHILIPIN"><speaker>PHILIPIN, bas.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1422">Pour peu qu'il parle encor adieu tout le mystère.</l>
 </sp>
-<sp stage="low" who="LA MONTAGNE"><speaker>LA MONTAGNE, bas.</speaker>
+<sp who="LA MONTAGNE"><speaker>LA MONTAGNE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1423">Que diable a-t-il fait croire, et que dit celle-ci ?</l>
 </sp>
-<sp stage="toward" who="PHILIPIN"><speaker>PHILIPIN, à la Tante.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="1424">Voir que vous sachiez tout lui donne du souci.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à la Montagne.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à la Montagne.
+	</stage>
 	<l id="1425">D'un affront si cruel le souvenir vous fâche,</l>
 	<l id="1426" syll="9" part="i">Mais les fautes d'autrui ne sont pas...</l>
 </sp>
@@ -3487,7 +3604,8 @@
 	<l id="1429" syll="3" part="f">Non, Madame,</l>
 	<l id="1430" syll="3" part="i">Ce n'est rien.</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à la Tante.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="1430" syll="9" part="f">Ces malheurs abattent bien une âme,</l>
 	<l id="1431">Plus la naissance est haute, et plus on les ressent.</l>
 </sp>
@@ -3507,13 +3625,16 @@
 	<l id="1437">Le Baron sans réserve aspirant à vous plaire</l>
 	<l id="1438" syll="6" part="i">Je prendrais le plus sûr.</l>
 </sp>
-<sp stage="low/toward" who="LA MONTAGNE"><speaker>LA MONTAGNE, bas à Philipin.</speaker>
+<sp who="LA MONTAGNE"><speaker>LA MONTAGNE</speaker><stage type="low/toward">, bas à Philipin.
+	</stage>
 	<l id="1438" syll="6" part="f">J'entends, laisse-moi faire.</l>
 </sp>
-<sp stage="low/toward" who="PHILIPIN"><speaker>PHILIPIN, bas à la Montagne.</speaker>
+<sp who="PHILIPIN"><speaker>PHILIPIN</speaker><stage type="low/toward">, bas à la Montagne.
+	</stage>
 	<l id="1439" syll="9" part="i">Dis qu'il sera pendu tout au moins.</l>
 </sp>
-<sp stage="toward" who="LA MONTAGNE"><speaker>LA MONTAGNE, à la Tante.</speaker>
+<sp who="LA MONTAGNE"><speaker>LA MONTAGNE</speaker><stage type="toward">, à la Tante.
+	</stage>
 	<l id="1439" syll="3" part="f">Pardonnez</l>
 	<l id="1440">Le désordre où mes sens se sont abandonnez.</l>
 	<l id="1441">La douleur m'a d'abord suffoqué la parole.</l>
@@ -3722,7 +3843,8 @@
 	<l id="1533" syll="3" part="i">Adieu, Tante.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Tante, Lisette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Tante, Lisette.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="1533" syll="6" part="f">Il s'en va bien outré.</l>
 </sp>
@@ -3749,7 +3871,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Angélique, Oronte, Philipin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Angélique, Oronte, Philipin.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="1541">Quoi ? par un faux Baron avoir dupé ma Tante ?</l>
 	<l id="1542" syll="6" part="i">La pièce est un peu forte.</l>
@@ -3836,7 +3959,8 @@
 	<l id="1594" syll="6" part="i">Et sur ce qu'il m'écrit...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Angélique, Oronte, Lisette,  Philipin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Angélique, Oronte, Lisette,  Philipin.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="1594" syll="6" part="f">Voici bien des nouvelles</l>
 	<l id="1595">Armez-vous de constance et faites l'esprit fort,</l>
@@ -3890,7 +4014,8 @@
 	<l id="1616">Adieu, j'en dirais trop si j'osais écouter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Oronte, Lisette, Philipin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Oronte, Lisette, Philipin.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="1617" syll="2" part="i">Et bien ?</l>
 </sp>
@@ -3940,12 +4065,14 @@
 	<l id="1643">Si nous en venons là, dissimulons tous deux,</l>
 	<l id="1644" syll="3" part="i">Autrement...</l>
 </sp>
-<sp stage="toward" who="LISETTE"><speaker>LISETTE, à Oronte.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="1644" syll="9" part="f">Faites bien le plaintif, le piteux,</l>
 	<l id="1645" syll="4" part="i">La Tante vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Oronte, La Tante, Lisette, Philipin.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Oronte, La Tante, Lisette, Philipin.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1645" syll="9" part="f">La perdre ! Ah douleur qui me tue !</l>
 </sp>
@@ -4091,7 +4218,8 @@
 	<l id="1711">Madame, ayez pitié du maître et du valet.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Tante, Oronte, Léandre, Philipin, La Montagne, Lisette.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Tante, Oronte, Léandre, Philipin, La Montagne, Lisette.
+</stage>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
 	<l id="1712">Nous nous sommes lassez de garder le mulet.</l>
 	<l id="1713">Pour pouvoir si longtemps nous laisser en attente,</l>
@@ -4155,7 +4283,8 @@
 	<l id="1740">Savez-vous de ceci ce qui résultera ?</l>
 	<l id="1741" syll="6" part="i">La_Rapière... autant vaut.</l>
 </sp>
-<sp stage="toward" who="LA TANTE"><speaker>LA TANTE, à Oronte.</speaker>
+<sp who="LA TANTE"><speaker>LA TANTE</speaker><stage type="toward">, à Oronte.
+	</stage>
 	<l id="1741" syll="4" part="m">Mon cher Monsieur.</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
@@ -4248,7 +4377,8 @@
 	<l id="1779">Nous choisirons ainsi cent jolis petits noms.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Tante, Angélique, Oronte, Léandre, La Montagne, Lisette, Philipin.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Tante, Angélique, Oronte, Léandre, La Montagne, Lisette, Philipin.
+</stage>
 <sp who="LA MONTAGNE"><speaker>LA MONTAGNE.</speaker>
 	<l id="1780">La Belle, il faut vouloir ce que nous ordonnons,</l>
 	<l id="1781">C'est sans aucun appel ; en fille obéissante</l>
@@ -4410,7 +4540,8 @@
 	<l id="1846" syll="10" part="i">Je vous en garantis satisfaite.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Tante, Léandre, Oronte, Angélique, La Montagne, Lisette, Cascaret, Philipin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Tante, Léandre, Oronte, Angélique, La Montagne, Lisette, Cascaret, Philipin.
+</stage>
 <sp who="CASCARET"><speaker>CASCARET.</speaker>
 	<l id="1846" syll="2" part="f">Madame,</l>
 	<l id="1847" syll="6" part="i">Le notaire est venu.</l>

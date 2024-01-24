@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -31,22 +31,22 @@
 			<titlePart type="sub">COMÉDIE EN UN ACTE MÊLÉE DE COUPLETS</titlePart>
 			<titlePart type="sub">REPRÉSENTÉE POUR LA PREMIÈRE FOIS, À PARIS, SUR LE SUR LE THÉÂTRE DU GYMNASE LE 8 août 1850.</titlePart>
 		</docTitle> 
-		<docDate value='1873'>1873 TOUS DROITS RÉSERVÉS.</docDate>
-		<docAuthor id='ABOUT, Edmond'>EDMOND ABOUT</docAuthor>
+		<docDate value="1873">1873 TOUS DROITS RÉSERVÉS.</docDate>
+		<docAuthor id="ABOUT, Edmond">EDMOND ABOUT</docAuthor>
 		<docImprint>
 			<editor id="MICHEL LEVY">PARIS, MICHEL LEVY, LIBRAIRES ÉDITEURS rue Vivienne, 2 bis, et BOULEVARD DES ITALIENS, 15 À LA LIBRAIRIE NOUVELLE.</editor>
-			<printer id='LEJAY'>POISSY. - Typ. ET STÉR. S. LEJAY et Cie.</printer>
+			<printer id="LEJAY">POISSY. - Typ. ET STÉR. S. LEJAY et Cie.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1849-08-08' location='Théâtre du Gymanse'>Représentée pour la première fois, à Paris, sur le Théâtre du Gymnase le 8 août 1859.</premiere>
+			<premiere date="1849-08-08" location="Théâtre du Gymanse">Représentée pour la première fois, à Paris, sur le Théâtre du Gymnase le 8 août 1859.</premiere>
 		</performance>
 
 	<castList><head>DISTRIBUTION DE LA PIÈCE.</head>
-		<castItem><role id="ANTONIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ANTONIN</role>, M. LANDROL.</castItem>
-		<castItem><role id="RISETTE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>RISETTE</role>. Mademoiselle ROSA DIDIER.</castItem>
-		<castItem><role id="ÉVELINA" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ÉVELINA</role>, Madame CHÉRI-LESUEUR.</castItem>
-		<castItem><role id="LE PORTIER" sex="2" type="H" statut='portier' age='A' stat_amour='néant'>LE PORTIER</role>.</castItem>
-		<castItem><role id="LE GARÇON" sex="1" type="H" statut='garçon' age='A' stat_amour='néant'>LE GARÇON</role>, personnage muet.</castItem>
+		<castItem><role id="ANTONIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ANTONIN</role>, M. LANDROL.</castItem>
+		<castItem><role id="RISETTE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">RISETTE</role>. Mademoiselle ROSA DIDIER.</castItem>
+		<castItem><role id="ÉVELINA" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">ÉVELINA</role>, Madame CHÉRI-LESUEUR.</castItem>
+		<castItem><role id="LE PORTIER" sex="2" type="H" statut="portier" age="A" stat_amour="néant">LE PORTIER</role>.</castItem>
+		<castItem><role id="LE GARÇON" sex="1" type="H" statut="garçon" age="A" stat_amour="néant">LE GARÇON</role>, personnage muet.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Au moulin du Cormier.</set>
 	<note>Texte extrait de "Chefs d'oeuvres du théâtre moderne, Tome premier", Paris, Michel Levy Frères Éditeurs, 1873. pp 326-332.</note>
@@ -55,7 +55,8 @@
 <div1 type="acte" n="1"><head>RISETTE</head>
 <stage type="decor/furniture">Chambre très modeste. Au fond, alcôve et lit ; à droite, au fond, placard ; à gauche, poêle ; 1er plan à droite, table et miroir; le plan à gauche, fenêtre et table de travail.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="RISETTE"><speaker>RISETTE, seule.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="alone">, seule.
+</stage>
 <stage type="sit/work">Elle est assise et travaille à un chapeau ; elle chante.</stage>
 	<l id="1">Tradéri, déri; tradéri, déra,</l>
 	<l id="2">Encore ce ruban rose,</l>
@@ -114,7 +115,8 @@
 	<l id="13">Tradéri, déra, tradéri, déri, di!ri.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Risette, Évelina. </head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Risette, Évelina. 
+</stage>
 <stage type="entrance/quick">Elle entre vivement.</stage>
 <sp who="ÉVELINA"><speaker>ÉVELINA.</speaker>
 <p id="1">
@@ -123,7 +125,8 @@
 </p>
 <stage type="throw">Elle les jette.</stage>
 </sp>
-<sp stage="get" who="RISETTE"><speaker>RISETTE, les ramassant. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="get">, les ramassant. 
+</stage>
 <p id="2">
 	<s id="1">C'est toujours Ça.</s>
 </p>
@@ -150,12 +153,14 @@
 	<s id="2">Les pleurs ne servent qu'à rendre les yeux rouges, et j'ai la faiblesse de tenir aux miens.</s>
 </p>
 </sp>
-<sp stage="sit/location/work" who="ÉVELINA"><speaker>ÉVELINA, s'asseyant entre la table et la fenêtre, travaillant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="sit/location/work">, s'asseyant entre la table et la fenêtre, travaillant. 
+</stage>
 <p id="7">
 	<s id="1">Pour ce que tu en fais !</s>
 </p>
 </sp>
-<sp stage="serious" who="RISETTE"><speaker>RISETTE, sérieuse. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="serious">, sérieuse. 
+</stage>
 <p id="8">
 	<s id="1">Qu'entendez-vous par là, ma chère Évelina ?</s>
 </p>
@@ -186,7 +191,8 @@
 	<s id="1">C'est-à-dire que nous n'en serions pas où nous en sommes si tu avais écouté Monsieur_Gustave !</s>
 </p>
 </sp>
-<sp stage="serious" who="RISETTE"><speaker>RISETTE, sérieusement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="serious">, sérieusement. 
+</stage>
 <p id="14">
 	<s id="1">Il était trop beau.</s>
 </p>
@@ -219,7 +225,8 @@
 	<s id="2">Cela nous fait la jambe belle !</s>
 </p>
 </sp>
-<sp stage="watch" who="RISETTE"><speaker>RISETTE, regardant sa jambe. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="watch">, regardant sa jambe. 
+</stage>
 <p id="20">
 	<s id="1">Dis donc ! </s>
 	<s id="2">Parle pour toi.</s>
@@ -241,13 +248,15 @@
 	<s id="1">Et où irons-nous ?</s>
 </p>
 </sp>
-<sp stage="sing" who="RISETTE"><speaker>RISETTE, elle chante. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="sing">, elle chante. 
+</stage>
 <p id="24">
 	<s id="1">À la grâce de Dieu, à la grâce de Dieu !</s>
 	<s id="2">Tu vois toujours tout en noir.</s>
 </p>
 </sp>
-<sp stage="sit/work" who="ÉVELINA"><speaker>ÉVELINA, elle s'assied et travaille. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="sit/work">, elle s'assied et travaille. 
+</stage>
 <p id="25">
 	<s id="1">C'est que la situation n'est pas rose. </s>
 	<s id="2">À midi nous serons à la porte.</s>
@@ -385,7 +394,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ÉVELINA"><speaker>ÉVELINA, seule.</speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">J'ai l'estomac dans les talons.</s>
 </p>
@@ -409,15 +419,18 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Évelina, Antonin.</head>
-<sp stage="aparte" who="ÉVELINA"><speaker>ÉVELINA, à part. </speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Évelina, Antonin.
+</stage>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="1">
 	<s id="1">C'est lui ! </s>
 	<s id="2">De la tenue ! </s>
 	<s id="3">Ça me posera.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="2">
 	<s id="1">C'est bien elle.</s>
 </p>
@@ -451,14 +464,16 @@
 	<s id="1">Et moi donc !</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="ANTONIN"><speaker>ANTONIN, avec transport. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="enthousiasm">, avec transport. 
+</stage>
 <p id="9">
 	<s id="1">Et vous donc ! </s>
 	<s id="2">Et vous donc ! </s>
 	<s id="3">Serais-je assez heureux pour que vous comptassiez les moments que j'ai à passer auprès de vous ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ÉVELINA"><speaker>ÉVELINA, à part. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="10">
 	<s id="1">Il s'exprime cent fois mieux que Gigonet !</s>
 </p>
@@ -491,7 +506,8 @@
 	<s id="1">Mais, Monsieur!...</s>
 </p>
 </sp>
-<sp stage="get" who="ANTONIN"><speaker>ANTONIN, tirant sa montre.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="get">, tirant sa montre.
+</stage>
 <p id="16">
 	<s id="1">Il est midi cinq, je suis chez moi, Mademoiselle.</s>
 </p>
@@ -534,7 +550,8 @@
 	<s id="2">Des côtelettes aux cornichons.</s>
 </p>
 </sp>
-<sp stage="write" who="ANTONIN"><speaker>ANTONIN, écrivant. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="write">, écrivant. 
+</stage>
 <p id="25">
 	<s id="1">Côtelettes aux cornichons... pour un.</s>
 </p>
@@ -564,7 +581,8 @@
 	<s id="1">C'est une petite orpheline de seize ou dix-sept ans que j'ai recueillie et qui loge avec moi ; elle va rentrer.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="31">
 	<s id="1">Diable ! </s>
 	<s id="2">Ce n'est pas mon compte. </s>
@@ -580,7 +598,8 @@
 	<s id="1">Du saucisson.</s>
 </p>
 </sp>
-<sp stage="write" who="ANTONIN"><speaker>ANTONIN, écrivant. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="write">, écrivant. 
+</stage>
 <p id="34">
 	<s id="1">Pour deux ?</s>
 </p>
@@ -600,12 +619,14 @@
 	<s id="1">Et puis, du fromage.</s>
 </p>
 </sp>
-<sp stage="write" who="ANTONIN"><speaker>ANTONIN, écrivant.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="write">, écrivant.
+</stage>
 <p id="38">
 	<s id="1">Fromage : quel fromage ?</s>
 </p>
 </sp>
-<sp stage="think" who="ÉVELINA"><speaker>ÉVELINA, réfléchissant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="think">, réfléchissant. 
+</stage>
 <p id="39">
 	<s id="1">D'Italie, qu'en dites-vous ?</s>
 </p>
@@ -621,7 +642,8 @@
 	<s id="1">N'importe lequel ; du Champagne_Cliquot, par exemple.</s>
 </p>
 </sp>
-<sp stage="write" who="ANTONIN"><speaker>ANTONIN, écrivant.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="write">, écrivant.
+</stage>
 <p id="42">
 	<s id="1">Cliquot... </s>
 	<s id="2">C'est tout ?</s>
@@ -638,7 +660,8 @@
 	<s id="1">Quel festin !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="45">
 	<s id="1">Elle a des goûts... roturiers.</s>
 </p>
@@ -662,7 +685,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="ANTONIN"><speaker>ANTONIN, seul.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="alone">, seul.
+</stage>
 <stage type="open">Il ouvre la porte et lit attentivement une carte de visite clouée à l'extérieur.</stage>
 <p id="1">
 	<s id="1">« Louise_Taboureau. Modes. » </s>
@@ -688,8 +712,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Antonin, Risette.</head>
-<sp stage="entrance/quick" who="RISETTE"><speaker>RISETTE, entre vivement. </speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Antonin, Risette.
+</stage>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="entrance/quick">, entre vivement. 
+</stage>
 <p id="1">
 	<s id="1">Rien dans les mains, rien dans les poches ! </s>
 </p>
@@ -709,7 +735,8 @@
 	<s id="2">Qu'elle est jolie !</s>
 </p>
 </sp>
-<sp stage="proud" who="RISETTE"><speaker>RISETTE, fièrement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="proud">, fièrement. 
+</stage>
 <p id="5">
 	<s id="1">C'est pour mon plaisir, Monsieur, mais qu'est-ce que...</s>
 </p>
@@ -735,12 +762,14 @@
 	<s id="2">A-t-on jamais vu ?...</s>
 </p>
 </sp>
-<sp stage="closer" who="ANTONIN"><speaker>ANTONIN, s'approchant. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="closer">, s'approchant. 
+</stage>
 <p id="10">
 	<s id="1">Mademoiselle Risette, que vous avez de jolis pieds !</s>
 </p>
 </sp>
-<sp stage="location" who="RISETTE"><speaker>RISETTE, passant devant lui. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="location">, passant devant lui. 
+</stage>
 <p id="11">
 	<s id="1">C'est pour me sauver des hommes, Monsieur.</s>
 </p>
@@ -750,7 +779,8 @@
 	<s id="1">Mademoiselle Risette, que vous avez de jolies mains !</s>
 </p>
 </sp>
-<sp stage="slap" who="RISETTE"><speaker>RISETTE, prenant le soufflet. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="slap">, prenant le soufflet. 
+</stage>
 <p id="13">
 	<s id="1">C'est pour taper sur les impertinents, Monsieur.</s>
 </p>
@@ -789,7 +819,8 @@
 </p>
 <stage type="kiss">Il l'embrasse.</stage>
 </sp>
-<sp stage="jump" who="RISETTE"><speaker>RISETTE, bondissant à trois pas. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="jump">, bondissant à trois pas. 
+</stage>
 <p id="21">
 	<s id="1">Mais ça n'a pas de nom, Monsieur ! </s>
 	<s id="2">Je déteste qu'on m'embrasse ! </s>
@@ -806,7 +837,8 @@
 	<s id="3">Vous avez l'air de la plus jolie et de la meilleure enfant de tout Paris !</s>
 </p>
 </sp>
-<sp stage="proud" who="RISETTE"><speaker>RISETTE, avec dignité. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="proud">, avec dignité. 
+</stage>
 <p id="23">
 	<s id="1">Non, monsieur, pas si bonne enfant que vous pensez ! </s>
 	<s id="2">Et je vous prie de vous en aller plus vite que ça !</s>
@@ -828,7 +860,8 @@
 	<s id="1">J'obéis, Mademoiselle !</s>
 </p>
 </sp>
-<sp stage="close" who="RISETTE"><speaker>RISETTE, lui poussent la porte au nez.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="close">, lui poussent la porte au nez.
+</stage>
 <p id="27">
 	<s id="1">Votre servante, Monsieur !</s>
 </p>
@@ -841,7 +874,8 @@
 	<s id="5">En voilà un qui était gentil, pas mal de figure, et puis...</s>
 </p>
 </sp>
-<sp stage="entrance" who="ANTONIN"><speaker>ANTONIN, qui est rentré à pas de loup. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="entrance">, qui est rentré à pas de loup. 
+</stage>
 <p id="29">
 	<s id="1">Merci, Mademoiselle!</s>
 </p>
@@ -879,12 +913,14 @@
 	<s id="1">Je ne donne la main qu'à mes camarades.</s>
 </p>
 </sp>
-<sp stage="touch" who="ANTONIN"><speaker>ANTONIN, tendant la main. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="touch">, tendant la main. 
+</stage>
 <p id="36">
 	<s id="1">Raison de plus, nous serons camarades.</s>
 </p>
 </sp>
-<sp stage="laugh" who="RISETTE"><speaker>RISETTE, riant aux éclats. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="laugh">, riant aux éclats. 
+</stage>
 <p id="37">
 	<s id="1">Vous avez l'air de demander un sou ! </s>
 	<s id="2">Monsieur est peut-être l'aveugle du Pont_des_Arts ?</s>
@@ -921,7 +957,8 @@
 	<s id="3">Ce n'est pas pour me conter tout ça que vous avez grimpé mes cinq étages ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="42">
 	<s id="1">Elle a raison ! </s>
 	<s id="2">Diable de petite fille.</s>
@@ -935,12 +972,14 @@
 </p>
 <stage type="closer">Il s'approche.</stage>
 </sp>
-<sp stage="away" who="RISETTE"><speaker>RISETTE, passant. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="away">, passant. 
+</stage>
 <p id="44">
 	<s id="1">Tâchez un peu d'oublier vos manières.</s>
 </p>
 </sp>
-<sp stage="location" who="ÉVELINA"><speaker>ÉVELINA, en dehors. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="location">, en dehors. 
+</stage>
 <p id="45">
 	<s id="1">Par ici, jeune homme ! </s>
 	<s id="2">Voici l'appartement.</s>
@@ -954,8 +993,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Risette, Antonin, Évelina, Un Garçon.</head>
-<sp stage="aparte" who="RISETTE"><speaker>RISETTE, à part. </speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Risette, Antonin, Évelina, Un Garçon.
+</stage>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="1">
 	<s id="1">Il est très bien, ce monsieur ; mais qu'est-ce qu'il venait faire ici ?... </s>
 	<s id="2">À quoi ai-je pensé ?... </s>
@@ -963,7 +1004,8 @@
 	<s id="4">Évelina et Antonin ont placé la table de droite ou milieu du théâtre et ont mis la nappe.</s>
 </p>
 </sp>
-<sp stage="toward" who="ÉVELINA"><speaker>ÉVELINA, au garçon. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="toward">, au garçon. 
+</stage>
 <p id="2">
 	<s id="1">Déposez, jeune homme, et surtout ne répandez pas la sauce.</s>
 </p>
@@ -981,7 +1023,8 @@
 	<s id="4">Vous, mon gentilhomme...</s>
 </p>
 </sp>
-<sp stage="carry" who="RISETTE"><speaker>RISETTE, une assiette à la main. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="carry">, une assiette à la main. 
+</stage>
 <p id="5">
 	<s id="1">Elle le connaît !... </s>
 </p>
@@ -1018,7 +1061,8 @@
 	<s id="2">C'est mon amoureux.</s>
 </p>
 </sp>
-<sp stage="drop" who="RISETTE"><speaker>RISETTE, laissant tomber son assiette. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="drop">, laissant tomber son assiette. 
+</stage>
 <p id="13">
 	<s id="1">Ah !... </s>
 	<s id="2">En es-tu bien sûre ?...</s>
@@ -1052,7 +1096,8 @@
 	<s id="2">Ça lui est bien égal que j'aie l'estomac dans les talons.</s>
 </p>
 </sp>
-<sp stage="closer" who="ANTONIN"><speaker>ANTONIN, descendant entre elles.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="closer">, descendant entre elles.
+</stage>
 <p id="19">
 	<s id="1">On parle bas ! </s>
 	<s id="2">Je parie qu'on dit du mal de moi !</s>
@@ -1065,13 +1110,15 @@
 </p>
 <stage type="carry/location">Elle porte les tessons dans le placard.</stage>
 </sp>
-<sp stage="strong" who="RISETTE"><speaker>RISETTE, sèchement.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="strong">, sèchement.
+</stage>
 <p id="21">
 	<s id="1">Les verres sont dans l'armoire, Monsieur ; il y en a un petit et un grand à pied, sans pied.</s>
 </p>
 <stage type="search">Il va les chercher.</stage>
 </sp>
-<sp stage="back" who="ÉVELINA"><speaker>ÉVELINA, revenant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="back">, revenant. 
+</stage>
 <p id="22">
 	<s id="1">Tu n'es guère gentille avec lui...</s>
 </p>
@@ -1108,7 +1155,8 @@
 	<s id="2">Ne faisons pas attendre les côtelettes aux cornichons.</s>
 </p>
 </sp>
-<sp stage="sit" who="ÉVELINA"><speaker>ÉVELINA, se mettant à table. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="sit">, se mettant à table. 
+</stage>
 <p id="29">
 	<s id="1">Vivent les côtelettes aux cornichons ! </s>
 </p>
@@ -1117,14 +1165,16 @@
 	<s id="1">Fais pas la bégueule !</s>
 </p>
 </sp>
-<sp stage="toward" who="RISETTE"><speaker>RISETTE, à Antonin. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="toward">, à Antonin. 
+</stage>
 <p id="31">
 	<s id="1">Monsieur, vous êtes bien honnête, mais je n'ai pas faim ! </s>
 	<s id="2">J'ai une course très pressée, et je n'en mangerai pas, de vos côtelettes aux cornichons.</s>
 </p>
 <stage type="throw">Elle passe derrière la table.</stage>
 </sp>
-<sp stage="location" who="ANTONIN"><speaker>ANTONIN, passant devant la table. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="location">, passant devant la table. 
+</stage>
 <p id="32">
 	<s id="1">Comment, mademoiselle ?... </s>
 	<s id="2">Mais vous... </s>
@@ -1145,7 +1195,8 @@
 </p>
 <stage type="location">Il passe devant Évelina.</stage>
 </sp>
-<sp stage="wave" who="RISETTE"><speaker>RISETTE, saluant. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="wave">, saluant. 
+</stage>
 <p id="35">
 	<s id="1">Bon appétit, Monsieur ! </s>
 	<s id="2">Bon appétit, ma chère amie !</s>
@@ -1157,8 +1208,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Évelina, Antonin.</head>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Évelina, Antonin.
+</stage>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mais ! </s>
@@ -1189,7 +1242,8 @@
 	<s id="2">Et poussez m'en deux.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="6">
 	<s id="1">Elle a bon appétit ! </s>
 	<s id="2">C'est égal, elle ne mangera pas toute sa dot.</s>
@@ -1232,7 +1286,8 @@
 	<s id="3">Montrez un peu !</s>
 </p>
 </sp>
-<sp stage="dress" who="ANTONIN"><speaker>ANTONIN, détachant son épingle. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="dress">, détachant son épingle. 
+</stage>
 <p id="13">
 	<s id="1">Bien modeste.</s>
 </p>
@@ -1314,7 +1369,8 @@
 	<s id="2">Je la recueille, quoi !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="28">
 	<s id="1">Toi, tu m'agaces !... </s>
 	<s id="2">Mais les millions!...</s>
@@ -1364,7 +1420,8 @@
 	<s id="3">Et je sentis qu'il ne me restait qu'à mourir si vous n'acceptiez pas mon coeur et ma main.</s>
 </p>
 </sp>
-<sp stage="away/frighten" who="ÉVELINA"><speaker>ÉVELINA, se reculant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="away/frighten">, se reculant. 
+</stage>
 <p id="38">
 	<s id="1">Comment ! </s>
 	<s id="2">C'est pour le bon motif ?...</s>
@@ -1407,7 +1464,8 @@
 	<s id="2">Tenez, voici une bague en crin qu'il m'a donnée de ses cheveux. Voici son portrait, pas trop ressemblant, c'est un de ses camarades qui a posé.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="45">
 	<s id="1">Cinq millions à Jean_Gigonet ! </s>
 	<s id="2">Ah ! </s>
@@ -1433,7 +1491,8 @@
 	<s id="3">Dis-moi que tu te dégageras !...</s>
 </p>
 </sp>
-<sp stage="location" who="ÉVELINA"><speaker>ÉVELINA, passant devant lui. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="location">, passant devant lui. 
+</stage>
 <p id="49">
 	<s id="1">Il est peut-être un peu tard.</s>
 </p>
@@ -1529,7 +1588,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Antonin, Évelina, Risette.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Antonin, Évelina, Risette.
+</stage>
 <sp who="ÉVELINA"><speaker>ÉVELINA.</speaker>
 <p id="1">
 	<s id="1">Allons, viens donc, il est très gentil !</s>
@@ -1541,17 +1601,20 @@
 	<s id="2">Aussi bonne que jolie !</s>
 </p>
 </sp>
-<sp stage="low" who="ÉVELINA"><speaker>ÉVELINA, bas. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="low">, bas. 
+</stage>
 <p id="3">
 	<s id="1">Dites donc, ce n'est pas pour lui faire de ces compliments que je vous l'ai ramenée.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="4">
 	<s id="1">Cette fille m'agace.</s>
 </p>
 </sp>
-<sp stage="shy" who="RISETTE"><speaker>RISETTE, très simplement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="shy">, très simplement. 
+</stage>
 <p id="5">
 	<s id="1">Je vous ai boudé, Monsieur_Antonin, j'ai eu tort !... </s>
 	<s id="2">Vous m'avez demandé la main ce matin, c'est moi qui maintenant demande la vôtre.</s>
@@ -1567,7 +1630,8 @@
 	<s id="1">Allons, mets-toi à table ; veux-tu des côtelettes ?</s>
 </p>
 </sp>
-<sp stage="hurry" who="ANTONIN"><speaker>ANTONIN, avec empressement. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="hurry">, avec empressement. 
+</stage>
 <p id="8">
 	<s id="1">Où sont les côtelettes ?</s>
 </p>
@@ -1613,7 +1677,8 @@
 	<s id="2">Une lettre d'Amérique.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="16">
 	<s id="1">Fichtre !... </s>
 </p>
@@ -1681,7 +1746,8 @@
 	<s id="1">Moi, si j'avais des millions, je voudrais que tout le monde fût heureux autour de moi... J'ai tant connu la misère que je ne la souhaite à personne.</s>
 </p>
 </sp>
-<sp stage="serious" who="ANTONIN"><speaker>ANTONIN, avec intérêt. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="serious">, avec intérêt. 
+</stage>
 <p id="28">
 	<s id="1">Vous avez beaucoup souffert ?</s>
 </p>
@@ -1773,7 +1839,8 @@
 	<s id="2">Si.</s>
 </p>
 </sp>
-<sp stage="pain" who="ANTONIN"><speaker>ANTONIN, avec douleur. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="pain">, avec douleur. 
+</stage>
 <p id="26">
 	<s id="1">Vraiment ! </s>
 	<s id="2">Qui cela ?</s>
@@ -1832,7 +1899,8 @@
 	<s id="2">Mon_Dieu !</s>
 </p>
 </sp>
-<sp stage="carry" who="ÉVELINA"><speaker>ÉVELINA, le verre à la main. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="carry">, le verre à la main. 
+</stage>
 <p id="35">
 	<s id="1">Je vous demande un peu ce que ça nous fait ?... </s>
 	<s id="2">On ne conte pas ces choses-là après dîner, ça trouble la digestion.</s>
@@ -1864,7 +1932,8 @@
 	<s id="6">Je ne sais pas même où est sa tombe.</s>
 </p>
 </sp>
-<sp stage="touch" who="ANTONIN"><speaker>ANTONIN, avec émotion.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="touch">, avec émotion.
+</stage>
 <p id="40">
 	<s id="1">Pauvre enfant !</s>
 </p>
@@ -1883,7 +1952,8 @@
 	<s id="5">Je pleurerais dans les premiers moments... mais, après cela, il faut se faire une raison, n'est-ce pas ?...</s>
 </p>
 </sp>
-<sp stage="impatient" who="ANTONIN"><speaker>ANTONIN, avec impatience. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="impatient">, avec impatience. 
+</stage>
 <p id="43">
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
@@ -1900,7 +1970,8 @@
 	<s id="2">Elle n'a pas de coeur !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="46">
 	<s id="1">Comme j'aurais du plaisir à la jeter par la fenêtre avec ses cinq millions !</s>
 </p>
@@ -1912,18 +1983,21 @@
 	<s id="3">Je ne dois plus songer à l'amour.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="ANTONIN"><speaker>ANTONIN, avec chaleur. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="enthousiasm">, avec chaleur. 
+</stage>
 <p id="48">
 	<s id="1">N'y plus songer, Mademoiselle, n'y plus songer !... </s>
 	<s id="2">Croyez-le bien, il est encore ici-bas des coeurs dignes d'apprécier tant de candeur et de grâce.</s>
 </p>
 </sp>
-<sp stage="low/hurt" who="ÉVELINA"><speaker>ÉVELINA, bas, le pinçant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="low/hurt">, bas, le pinçant. 
+</stage>
 <p id="49">
 	<s id="1">Qu'est-ce que vous dites donc là ?...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ANTONIN"><speaker>ANTONIN, à part. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="50">
 	<s id="1">Aie ! </s>
 	<s id="2">C'est juste !... </s>
@@ -1944,7 +2018,8 @@
 	<s id="2">Ne m'avez-vous pas conté que c'était elle qui vous avait veillée, soignée, sauvée ?</s>
 </p>
 </sp>
-<sp stage="hurt" who="ÉVELINA"><speaker>ÉVELINA, le pinçant. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="hurt">, le pinçant. 
+</stage>
 <p id="53">
 	<s id="1">Taisez-vous ! </s>
 </p>
@@ -1980,12 +2055,14 @@
 	<s id="3">Votre sourire laisse entrevoir, à travers des lèvres si vermeilles, une rangée de dents si blanches !...</s>
 </p>
 </sp>
-<sp stage="closer/location" who="ÉVELINA"><speaker>ÉVELINA, descendant entre eux. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="closer/location">, descendant entre eux. 
+</stage>
 <p id="60">
 	<s id="1">Monsieur !...</s>
 </p>
 </sp>
-<sp stage="continue" who="ANTONIN"><speaker>ANTONIN, reprenant. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="continue">, reprenant. 
+</stage>
 <p id="61">
 	<s id="1">Aussi blanche que les dents de mademoiselle !... </s>
 	<s id="2">Votre rire a un éclat argentin comme le son de votre voix.</s>
@@ -2009,12 +2086,14 @@
 	<s id="1">Mademoiselle Risette...</s>
 </p>
 </sp>
-<sp stage="entrance" who="LE PORTIER"><speaker>LE PORTIER, paraissant. </speaker>
+<sp who="LE PORTIER"><speaker>LE PORTIER</speaker><stage type="entrance">, paraissant. 
+</stage>
 <p id="66">
 	<s id="1">Mam'selle Risette...</s>
 </p>
 </sp>
-<sp stage="aparte" who="RISETTE"><speaker>RISETTE, à part. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="67">
 	<s id="1">Quel dommage ! </s>
 </p>
@@ -2028,19 +2107,22 @@
 	<s id="1">La lettre !...</s>
 </p>
 </sp>
-<sp stage="closer" who="RISETTE"><speaker>RISETTE, allant à lui. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="closer">, allant à lui. 
+</stage>
 <p id="70">
 	<s id="1">La lettre d'Amérique ! </s>
 	<s id="2">Donnez !</s>
 </p>
 <stage type="exit">Le portier sort.</stage>
 </sp>
-<sp stage="low/toward"  who="ÉVELINA"><speaker>ÉVELINA, bas à Antonin. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="low/toward">, bas à Antonin. 
+</stage>
 <p id="71">
 	<s id="1">Qu'est-ce que vous alliez donc lui dire ?...</s>
 </p>
 </sp>
-<sp stage="location" who="ANTONIN"><speaker>ANTONIN, passant derrière elle. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="location">, passant derrière elle. 
+</stage>
 <p id="72">
 	<s id="1">Vous m'ennuyez !</s>
 </p>
@@ -2100,7 +2182,8 @@
 	<s id="2">Cinq millions ; le chiffre y est !</s>
 </p>
 </sp>
-<sp stage="stress" who="RISETTE, ÉVELINA"><speaker>RISETTE et ÉVELINA, curieusement.</speaker>
+<sp who="RISETTE, ÉVELINA"><speaker>RISETTE et ÉVELINA</speaker><stage type="stress">, curieusement.
+</stage>
 <p id="83">
 	<s id="1">Eh bien ?</s>
 </p>
@@ -2114,7 +2197,8 @@
 	<s id="4">Et pas de Gigonet !</s>
 </p>
 </sp>
-<sp stage="toward" who="RISETTE"><speaker>RISETTE, à Évelina. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="toward">, à Évelina. 
+</stage>
 <p id="85">
 	<s id="1">Comme il a l'air agité ! </s>
 	<s id="2">Qu'y a-t-il ?</s>
@@ -2145,7 +2229,8 @@
 	<s id="1">Mais, ma chère Risette...</s>
 </p>
 </sp>
-<sp stage="strong" who="RISETTE"><speaker>RISETTE, très sèchement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="strong">, très sèchement. 
+</stage>
 <p id="91">
 	<s id="1">Après tout, les lettres que je reçois ne te regardent pas ?</s>
 </p>
@@ -2155,7 +2240,8 @@
 	<s id="1">Il est vrai que ce sont tes affaires.</s>
 </p>
 </sp>
-<sp stage="estonish" who="ANTONIN"><speaker>ANTONIN, très étonné.</speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="estonish">, très étonné.
+</stage>
 <p id="94">
 	<s id="1">Comment ! </s>
 	<s id="2">Cette lettre est pour vous, Mademoiselle ?</s>
@@ -2183,7 +2269,8 @@
 	<s id="1">Perdu, à tout jamais perdu.</s>
 </p>
 </sp>
-<sp stage="estonish" who="RISETTE"><speaker>RISETTE, au comble de l'étonnement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="estonish">, au comble de l'étonnement. 
+</stage>
 <p id="99">
 	<s id="1">Perdu ? </s>
 	<s id="2">Que veut-il dire ?</s>
@@ -2292,7 +2379,8 @@
 	<s id="1">Adieu, Mademoiselle, adieu pour jamais.</s>
 </p>
 </sp>
-<sp stage="location" who="RISETTE"><speaker>RISETTE, près de la porte. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="location">, près de la porte. 
+</stage>
 <p id="119">
 	<s id="1">Non, Monsieur, vous ne vous en irez pas ; j'ai moi-même à sortir un instant ; j'exige que vous m'attendiez.</s>
 </p>
@@ -2309,7 +2397,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Évelina, Antonin.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Évelina, Antonin.
+</stage>
 <sp who="ÉVELINA"><speaker>ÉVELINA.</speaker>
 <stage type="touch">Elle va le prendre par le bras et l'amène en scène. </stage>
 <p id="1">
@@ -2387,7 +2476,8 @@
 	<s id="2">Mais je n'aime et je n'aimerai jamais qu'une fille au monde, la plus aimable des filles, qui réunit toutes les grâces et toutes les vertus, qui joint au plus charmant visage la voix la plus enchanteresse, qui n'a qu'à se montrer pour enlever tous les coeurs : je n'ai passé qu'une heure avec elle, et j'en suis amoureux pour la vie.</s>
 </p>
 </sp>
-<sp stage="strong" who="ÉVELINA"><speaker>ÉVELINA, sèchement. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="strong">, sèchement. 
+</stage>
 <p id="14">
 	<s id="1">Je n'aime pas qu'on parle ainsi de mes amies devant moi. </s>
 	<s id="2">Allez lui dire ça à elle-même si vous voulez.</s>
@@ -2418,19 +2508,22 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Risette, Évelina, Augustin.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Risette, Évelina, Augustin.
+</stage>
 <sp who="RISETTE"><speaker>RISETTE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">On se boude par ici ?</s>
 </p>
 </sp>
-<sp stage="closer" who="ÉVELINA"><speaker>ÉVELINA, allant à elle. </speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="closer">, allant à elle. 
+</stage>
 <p id="2">
 	<s id="1">Est-ce que c'est vrai que tu es... que vous êtes millionnaire ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="RISETTE"><speaker>RISETTE, riant.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="3">
 	<s id="1">Qui t'a dit cela ?</s>
 </p>
@@ -2440,7 +2533,8 @@
 	<s id="1">C'est monsieur.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ANTONIN"><speaker>ANTONIN, d'un air forcé. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="embarrassed">, d'un air forcé. 
+</stage>
 <p id="5">
 	<s id="1">Permettez-moi, Mademoiselle, de vous féliciter du bonheur qui vous arrive : croyez bien que je suis désolé... </s>
 	<s id="2">Enchanté, je veux dire...</s>
@@ -2451,12 +2545,14 @@
 	<s id="1">Ne me félicitez pas, Monsieur ; il est fort probable que vous ne savez guère l'anglais et que vous avez mal lu ma lettre : il y est, en effet, question de millions ; mais ces millions ne sont pas pour moi.</s>
 </p>
 </sp>
-<sp stage="happy" who="ANTONIN"><speaker>ANTONIN, avec joie. </speaker>
+<sp who="ANTONIN"><speaker>ANTONIN</speaker><stage type="happy">, avec joie. 
+</stage>
 <p id="7">
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp stage="shy" who="RISETTE"><speaker>RISETTE, très simplement. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="shy">, très simplement. 
+</stage>
 <p id="8">
 	<s id="1">Mon cher oncle était négociant, il a fait une faillite de cinq millions et il en est mort. </s>
 	<s id="2">Je suis sa seule héritière, et l'on me propose tout simplement d'accepter l'héritage.</s>
@@ -2487,7 +2583,8 @@
 	<s id="1">Oui, ma petite Risette ; il faut que je vous ouvre mon coeur, j'ai un aveu à vous faire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="RISETTE"><speaker>RISETTE, à part. </speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="aparte">, à part. 
+</stage>
 <p id="13">
 	<s id="1">Enfin !</s>
 </p>
@@ -2497,7 +2594,8 @@
 	<s id="1">Je suis venu ici dans une intention mauvaise.</s>
 </p>
 </sp>
-<sp stage="interrupt" who="RISETTE"><speaker>RISETTE, l'interrompent.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="interrupt">, l'interrompent.
+</stage>
 <p id="15">
 	<s id="1">Je ne veux pas le savoir.</s>
 </p>
@@ -2548,7 +2646,8 @@
 	<s id="2">Évelina !</s>
 </p>
 </sp>
-<sp stage="sad" who="ÉVELINA"><speaker>ÉVELINA, d'un air boudeur.</speaker>
+<sp who="ÉVELINA"><speaker>ÉVELINA</speaker><stage type="sad">, d'un air boudeur.
+</stage>
 <p id="25">
 	<s id="1">Quoi ?...</s>
 </p>
@@ -2587,7 +2686,8 @@
 	<s id="2">C'est vrai que tu as des milles et des cents ?</s>
 </p>
 </sp>
-<sp stage="happy" who="RISETTE"><speaker>RISETTE, gaiment.</speaker>
+<sp who="RISETTE"><speaker>RISETTE</speaker><stage type="happy">, gaiment.
+</stage>
 <p id="32">
 	<s id="1">Mais oui !</s>
 </p>
@@ -2627,4 +2727,3 @@
 </body>
 </text>
 </TEI>
-

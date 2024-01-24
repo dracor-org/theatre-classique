@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,23 +30,25 @@
 			<titlePart type="sub">COMÉDIE.</titlePart>
 			<titlePart type="sub">TRENTE DEUXIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1783'>M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
-		<docAuthor id='CARMONTELLE, Louis de'>de CARMONTELLE.</docAuthor>
+		<docDate value="1783">M. DCC. LXXXIII. Avec approbation et privilège du Roi</docDate>
+		<docAuthor id="CARMONTELLE, Louis de">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='POINÇOT'>À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
+			<printer id="POINÇOT">À VERSAILLES, chez POINÇOT, libraire rue Dauphine, et à Paris Chez MERIGOT Jeune, quai des Augustins, NYON Jeune, Quai des quatre Nations, LA PORTE, rue des Noyers, BELI, rue Saint-Jacques, DE SAINE, au Palais-Royal,Libraires.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR D'ORBEL" sex="1" type="H" statut="aristocrate" age='A' stat_amour='(néant)'>MONSIEUR D'ORBEL</role>, habit de velours bleu, brodé.</castItem>
-		<castItem><role id="MONSIEUR D'ERVIÈRE" sex="1" type="H" statut="aristocrate" age='A' stat_amour='(néant)'>MONSIEUR D'ERVIÈRE</role>, habit rouge, galonné d'or.</castItem>
-		<castItem><role id="MONSIEUR DE GRAND-PRÉ" sex="1" type="H" statut="aristocrate" age='A' stat_amour='(néant)'>MONSIEUR DE GRAND-PRÉ</role>, veuf. En grand deuil, avec des pleureuses.</castItem>
+		<castItem><role id="MONSIEUR D'ORBEL" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR D'ORBEL</role>, habit de velours bleu, brodé.</castItem>
+		<castItem><role id="MONSIEUR D'ERVIÈRE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR D'ERVIÈRE</role>, habit rouge, galonné d'or.</castItem>
+		<castItem><role id="MONSIEUR DE GRAND-PRÉ" sex="1" type="H" statut="aristocrate" age="A" stat_amour="(néant)">MONSIEUR DE GRAND-PRÉ</role>, veuf. En grand deuil, avec des pleureuses.</castItem>
    </castList>
-	<set location='Paris' country='France' periode='XVIIIème' gps="48.856614, 2.352222">La Scène est chez Monsieur d'Ervière.</set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est chez Monsieur d'Ervière.</set>
 <note>Extrait de PROVERBES DRAMATIQUES DE CARMONTELLE (...), chez Poinçot libraire, Tome Second, Versailles, 1783. pp. 319-338.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE VEUF</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur d'Ervière, Monsieur d'Orbel.</head>
-<sp stage="entrance/sad/carry" who="MONSIEUR D'ERVIÈRE"><speaker>MONSIEUR D'ERVIÈRE entre tristement, un billet à la main.</speaker> 
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur d'Ervière, Monsieur d'Orbel.
+</stage>
+<sp who="MONSIEUR D'ERVIÈRE"><speaker>MONSIEUR D'ERVIÈRE</speaker><stage type="entrance/sad/carry"> entre tristement, un billet à la main. 
+</stage> 
 <stage type="sit/sigh">Il s'assied et soupire.</stage>
 <p id="1">
 	<s id="1">Ah !</s>
@@ -158,7 +160,8 @@
 	<s id="1">Moi, je l'aimais beaucoup.</s>
 </p>
 </sp>
-<sp stage="smile" who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL, en souriant.</speaker>
+<sp who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL</speaker><stage type="smile">, en souriant.
+</stage>
 <p id="22">
 	<s id="1">Je le sais bien ; voilà pourquoi tu as la complaisance de la pleurer avec lui ; mais il faut que tout cela finisse.</s>
 </p>
@@ -178,7 +181,8 @@
 	<s id="1">Tiens, lis le billet qu'il m'écrit.</s>
 </p>
 </sp>
-<sp stage="read" who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL, lisant.</speaker>
+<sp who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL</speaker><stage type="read">, lisant.
+</stage>
 <p id="26">
 	<s id="1">Ah ! </s>
 	<s id="2">Il va venir ici ?</s>
@@ -216,8 +220,10 @@
 </p>
 </sp>
 </div2>
-<div2 stage="costume/carry" type="scene" n="2"><head>SCÈNE II. Monsieur d'Ervière, Monsieur d'Orbel, Monsieur de Grand-Pré, en habit noir et en pleureuses, avec un mouchoir.</head>
-<sp stage="stop/get" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, s'arrête en entrant et tient son mouchoir sur ses yeux.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="costume/carry"> Monsieur d'Ervière, Monsieur d'Orbel, Monsieur de Grand-Pré, en habit noir et en pleureuses, avec un mouchoir.
+</stage>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="stop/get">, s'arrête en entrant et tient son mouchoir sur ses yeux.
+</stage>
 <p id="1">
 	<s id="1">Ah, mon ami !</s>
 </p>
@@ -227,7 +233,8 @@
 	<s id="1">Mon cher Grand-Pré, votre douleur est juste ; et je viens aussi pleurer avec vous.</s>
 </p>
 </sp>
-<sp stage="fall/sit/furniture" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, se jetant dans un fauteuil.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="fall/sit/furniture">, se jetant dans un fauteuil.
+</stage>
 <p id="3">
 	<s id="">Mes amis, j'ai tout perdu !</s>
 </p>
@@ -272,7 +279,8 @@
 	<s id="1">À Vincennes ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL, riant.</speaker>
+<sp who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL</speaker><stage type="laugh">, riant.
+</stage>
 <p id="11">
 	<s id="1">Oui.</s>
 </p>
@@ -288,7 +296,8 @@
 	<s id="2">Je ne l'oublierai jamais.</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL, riant.</speaker>
+<sp who="MONSIEUR D'ORBEL"><speaker>MONSIEUR D'ORBEL</speaker><stage type="laugh">, riant.
+</stage>
 <p id="14">
 	<s id="1">Quand je pense encore, comme l'Abbé donna dans le panneau. </s>
 	<s id="2">Ah, ah, ah ! </s>
@@ -315,7 +324,8 @@
 	<s id="2">Ah, ah, ah !</s>
 </p>
 </sp>
-<sp stage="laugh/together" who="ENSEMBLE"><speaker>ENSEMBLE, riant tous trois à l'excès.</speaker>
+<sp who="ENSEMBLE"><speaker>ENSEMBLE</speaker><stage type="laugh/together">, riant tous trois à l'excès.
+</stage>
 <p id="18">
 	<s id="1">Ah, ah, ah, ah, etc.</s>
 </p>
@@ -326,7 +336,8 @@
 	<s id="2">Je n'en puis plus !</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, finissant de rire.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="laugh">, finissant de rire.
+</stage>
 <p id="20">
 	<s id="1">Ah, ah, ah !</s>
 </p>
@@ -336,7 +347,8 @@
 	<s id="1">Mon ami, tu as fait là une perte irréparable.</s>
 </p>
 </sp>
-<sp stage="cry" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, pleurant.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="22">
 	<s id="1">Ah, je le sais bien !</s>
 </p>
@@ -531,7 +543,8 @@
 	<s id="1">Plus long encore.</s>
 </p>
 </sp>
-<sp stage="wave" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, faisant signe de la main de se taire.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="wave">, faisant signe de la main de se taire.
+</stage>
 <p id="53">
 	<s id="1">De fixer un vola....ge.</s>
 </p>
@@ -566,7 +579,8 @@
 	<s id="1">Il n'y a rien, rien au monde, qui puisse tenir lieu d'une femme comme celle-là.</s>
 </p>
 </sp>
-<sp stage="" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, retombant dans le fauteuil.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="">, retombant dans le fauteuil.
+</stage>
 <p id="59">
 	<s id="1">Non, non, mes amis, il n'y a rien, rien. </s>
 	<s id="2">Ah !</s>
@@ -694,7 +708,8 @@
 	<s id="1">Ah, mon ami, tu as raison ; tu dois pleurer cette femme-là toute la vie.</s>
 </p>
 </sp>
-<sp stage="sit/furniture/cry" who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ, se remettant dans le fauteuil et pleurant.</speaker>
+<sp who="MONSIEUR DE GRAND-PRÉ"><speaker>MONSIEUR DE GRAND-PRÉ</speaker><stage type="sit/furniture/cry">, se remettant dans le fauteuil et pleurant.
+</stage>
 <p id="82">
 	<s id="1">Je n'ai pas d'autre projet, mes amis ; je puis bien vous en assurer. </s>
 	<s id="2">Ce que j'ai perdu ne se retrouve pas une seconde fois. </s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,23 +28,23 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grennelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grennelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
-			<head></head>
-			<castItem><role id="HÉLÈNE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>HÉLÈNE</role>.</castItem>
-			<castItem><role id="TEUCER" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>TEUCER</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="2" type="H" statut='choeur' age='A' stat_amour='néant'>LE CHOEUR</role>, composé de captives grecques.</castItem>
-			<castItem><role id="MÉNÉLAS" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>MÉNÉLAS</role>.</castItem>
-			<castItem><role id="UNE VIEILLE ESCLAVE" sex="2" type="H" statut='esclave' age='V' stat_amour='néant'>UNE VIEILLE ESCLAVE</role>.</castItem>
-			<castItem><role id="THÉONOÉ" sex="2" type="H" statut='oracle' age='A' stat_amour='néant'>THÉONOÉ</role>.</castItem>
-0			<castItem><role id="UN MESSAGER" sex="2" type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
-			<castItem><role id="THÉOCLYMÈNE" sex="2" type="H" statut='dieu' age='A' stat_amour='néant'>THÉOCLYMÈNE</role>.</castItem>
-			<castItem><role id="UN AUTRE MESSAGER" sex="2" type="H" statut='messager' age='A' stat_amour='néant'>UN AUTRE MESSAGER</role>.</castItem>
-			<castItem><role id="LES DIOSCURES" sex="9" type="H" statut='héros' age='A' stat_amour='néant'>LES DIOSCURES</role>.</castItem>
+			<head/>
+			<castItem><role id="HÉLÈNE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">HÉLÈNE</role>.</castItem>
+			<castItem><role id="TEUCER" sex="2" type="H" statut="confident" age="A" stat_amour="néant">TEUCER</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="choeur" age="A" stat_amour="néant">LE CHOEUR</role>, composé de captives grecques.</castItem>
+			<castItem><role id="MÉNÉLAS" sex="1" type="H" statut="roi" age="A" stat_amour="néant">MÉNÉLAS</role>.</castItem>
+			<castItem><role id="UNE VIEILLE ESCLAVE" sex="2" type="H" statut="esclave" age="V" stat_amour="néant">UNE VIEILLE ESCLAVE</role>.</castItem>
+			<castItem><role id="THÉONOÉ" sex="2" type="H" statut="oracle" age="A" stat_amour="néant">THÉONOÉ</role>.</castItem>
+0			<castItem><role id="UN MESSAGER" sex="2" type="H" statut="messager" age="A" stat_amour="néant">UN MESSAGER</role>.</castItem>
+			<castItem><role id="THÉOCLYMÈNE" sex="2" type="H" statut="dieu" age="A" stat_amour="néant">THÉOCLYMÈNE</role>.</castItem>
+			<castItem><role id="UN AUTRE MESSAGER" sex="2" type="H" statut="messager" age="A" stat_amour="néant">UN AUTRE MESSAGER</role>.</castItem>
+			<castItem><role id="LES DIOSCURES" sex="9" type="H" statut="héros" age="A" stat_amour="néant">LES DIOSCURES</role>.</castItem>
 		</castList>
 		<set location="Île de Pharos" country="Grèce" periode="Temps mythologiques" gps="31.213377, 29.885300">La scène est à Pharos, île d'Égypte, devant le palais de Théoclymène.</set>
 </front>
@@ -351,7 +351,8 @@
  	<s id="1">Personne ; en Grèce il passe pour être mort.</s> 
 </p> 
 </sp>
-<sp stage="aparte" who="HÉLÈNE"><speaker>HÉLÈNE, à part.</speaker>
+<sp who="HÉLÈNE"><speaker>HÉLÈNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="41">
  	<s id="1">Je suis perdue. </s>
 </p>
@@ -852,7 +853,8 @@
 </sp>
 </div2> 
 <div2 type="scene" n="5"><head>Ménélas, Le Choeur.</head>
-<sp stage="alone" who="MÉNÉLAS"><speaker>MÉNÉLAS, seul.</speaker>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
  	<s id="1">Que dire ? </s>
 	<s id="2">Que croire ? </s>
@@ -1843,7 +1845,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>Théonoé, Ménélas, Hélène, Le Choeur.</head>
-<sp stage="toward" who="THÉONOÉ"><speaker>THÉONOÉ, aux femmes qui l'accompagnent.</speaker>
+<sp who="THÉONOÉ"><speaker>THÉONOÉ</speaker><stage type="toward">, aux femmes qui l'accompagnent.
+</stage>
 <p id="1">
  	<s id="1">Marche devant moi, en portant les torches ardentes, et, suivant le rite sacré, purifie l'espace qui nous environne, afin que nous respirions un air pur ; et toi, si quelqu'un a souillé le sol en le foulant d'un pied impie, promènes-y la flamme lustrale, et secoue sur mon passage la flamme résineuse ; et, quand vous aurez accompli en l'honneur des dieux la loi que je prescris, reportez dans la maison le feu pris au foyer. </s>
 	<s id="2">- Hélène, reconnais-tu la vérité de mes prédictions ? </s>
@@ -2618,7 +2621,8 @@
 	<s id="5">Mais ordonne qu'on nous fournisse un navire pour y transporter ces offrandes, et le bienfait sera complet.</s> 
 </p> 
 </sp>
-<sp stage="toward" who="THÉOCLYMÈNE"><speaker>THÉOCLYMÈNE, à un serviteur.</speaker>
+<sp who="THÉOCLYMÈNE"><speaker>THÉOCLYMÈNE</speaker><stage type="toward">, à un serviteur.
+</stage>
 <p id="94">
  	<s id="1">Va, et donne-leur un vaisseau sidonien à cinquante rames, pourvu de ses rameurs.</s> 
 </p> 
@@ -2628,7 +2632,8 @@
  	<s id="1">Le commandement n'en sera-t-il pas donné à celui qui préside aux funérailles ?</s> 
 </p> 
 </sp>
-<sp stage="toward" who="THÉOCLYMÈNE"><speaker>THÉOCLYMÈNE, à un serviteur.</speaker>
+<sp who="THÉOCLYMÈNE"><speaker>THÉOCLYMÈNE</speaker><stage type="toward">, à un serviteur.
+</stage>
 <p id="96">
  	<s id="1">Sans doute ; et mes matelots sont tenus de lui obéir.</s> 
 </p> 

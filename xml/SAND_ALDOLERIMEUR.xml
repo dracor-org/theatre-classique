@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI>
 <teiHeader>
 		<fileDesc>
@@ -29,25 +29,25 @@
 			<titlePart type="sub">COMÉDIE</titlePart>
 			<titlePart type="sub">Représentée en 1720</titlePart>
 		</docTitle> 
-		<docDate value='1833'>1833.</docDate>
-		<docAuthor id='SAND, George'></docAuthor>
+		<docDate value="1833">1833.</docDate>
+		<docAuthor id="SAND, George"/>
 		<docImprint>
-			<privilege id=""><head></head>
+			<privilege id=""><head/>
 			</privilege>
 			<editor id="REVUE DES DEUX MONDES">PARIS, AU BUREAU DE LA REVUE DES DEUX MONDES, rue des Beaux-Arts, n°6</editor>
-			<printer id='RENOUARD'>IMPRIMÉ CHEZ PAUL RENOUARD, rue Garancière, n°5, F. S.-G.</printer>
+			<printer id="RENOUARD">IMPRIMÉ CHEZ PAUL RENOUARD, rue Garancière, n°5, F. S.-G.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='' location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="ALDO" sex="1" type="H" statut='poète' age='J' stat_amour='néant'>ALDO LE RIMEUR</role>.</castItem>
-		<castItem><role id="MEG" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MEG</role>, sa mère.</castItem>
-		<castItem><role id="JANE" sex="2" type="H" statut='paysan' age='J' stat_amour='néant'>JANE</role>, jeune montagnarde.</castItem>
-		<castItem><role id="AGANDECCA" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>LA REINE AGANDECCA</role>.</castItem>
-		<castItem><role id="TICKEL" sex="1" type="H" statut='nain' age='A' stat_amour='néant'>TICKLE</role>, nain de la reine</castItem>
-		<castItem><role id="ACROCÉRONIUS" sex="1" type="H" statut='astrologue' age='A' stat_amour='néant'>MAÎTRE ACROCÉRONIUS</role>, astrologue de la reine.</castItem>
+		<castItem><role id="ALDO" sex="1" type="H" statut="poète" age="J" stat_amour="néant">ALDO LE RIMEUR</role>.</castItem>
+		<castItem><role id="MEG" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MEG</role>, sa mère.</castItem>
+		<castItem><role id="JANE" sex="2" type="H" statut="paysan" age="J" stat_amour="néant">JANE</role>, jeune montagnarde.</castItem>
+		<castItem><role id="AGANDECCA" sex="2" type="H" statut="roi" age="A" stat_amour="néant">LA REINE AGANDECCA</role>.</castItem>
+		<castItem><role id="TICKEL" sex="1" type="H" statut="nain" age="A" stat_amour="néant">TICKLE</role>, nain de la reine</castItem>
+		<castItem><role id="ACROCÉRONIUS" sex="1" type="H" statut="astrologue" age="A" stat_amour="néant">MAÎTRE ACROCÉRONIUS</role>, astrologue de la reine.</castItem>
 	</castList>
 	<set location="Ithona" country="Angleterre" periode="Antiquité" gps="51.507, -0.127">La scène est à Ithona.</set>
 	<note>Texte présent dans LA REVUE DES DEUX MONDES, TOME TROISIÈME, Deuxième Série. 1833, pp 473-512</note>
@@ -55,14 +55,16 @@
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
 <stage type="decor">Dans le galetas du rimeur ; un escalier au fond conduit à une soupente ; au milieu, une mauvaise table, un escabeau, quelques livres. Il fait nuit.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Aldo, Tickle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Aldo, Tickle.
+</stage>
 <stage type="sit/knock">Aldo est assis la tête dans ses mains, les coudes sur la table. On frappe à la porte.</stage>
 <sp who="ALDO"><speaker>ALDO.</speaker>
 <p id="1"> 
 	<s id="1">Qui frappe ?</s>
 </p>
 </sp>
-<sp stage="location" who="TICKLE"><speaker>TICKLE, en dehors.</speaker>
+<sp who="TICKLE"><speaker>TICKLE</speaker><stage type="location">, en dehors.
+</stage>
 <p id="2"> 
 	<s id="1">Votre très humble serviteur.</s>
 </p>
@@ -104,7 +106,8 @@
 	<s id="1">Permettez-moi de vous mettre sur la table.</s>
 </p>
 </sp>
-<sp stage="location" who="TICKLE"><speaker>TICKLE, sur la table.</speaker>
+<sp who="TICKLE"><speaker>TICKLE</speaker><stage type="location">, sur la table.
+</stage>
 <p id="10"> 
 	<s id="1">Et comment vous portez-vous, mon excellent seigneur, depuis que nous ne nous sommes vus ?</s>
 </p>
@@ -521,7 +524,8 @@
 </sp>
 </div2> 
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="ALDO"><speaker>ALDO, seul.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="alone">, seul.
+</stage>
 <p id="1"> 
 	<s id="1">Un ennemi de plus ! </s>
 	<s id="2">Et c'est ainsi que je vis ? </s>
@@ -739,7 +743,8 @@
 	<l id="8">Est, ma foi ! Superbe...</l>
 <stage type="sleep">Il se rendort.</stage>
 </sp>
-<sp stage="lost/search" who="MEG"><speaker>MEG, qui s'est égarée, à tâtons dans la chambre.</speaker>
+<sp who="MEG"><speaker>MEG</speaker><stage type="lost/search">, qui s'est égarée, à tâtons dans la chambre.
+</stage>
 <p id="17"> 
 	<s id="1">Je ne sais plus où je suis... </s>
 	<s id="2">J'ai encore plus froid ici que dans mon lit... </s>
@@ -754,7 +759,8 @@
 	<s id="11">Je ne me soutiens plus, une étrange défaillance me saisit...</s>
 </p>
 </sp>
-<sp who="ALDO"><speaker>ALDO, rêvant.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage>, rêvant.
+</stage>
 <p id="18"> 
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
@@ -788,7 +794,8 @@
 </p> 
 <stage type="die">Elle meurt.</stage>
 </sp>
-<sp stage="stand" who="ALDO"><speaker>ALDO, se relevant à demi.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="stand">, se relevant à demi.
+</stage>
 <p id="22"> 
 	<s id="1">Pour le coup, on a parlé... </s>
 	<s id="2">Mon nom est parti de ce coin... </s>
@@ -918,7 +925,8 @@
 </p>
 </sp>
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. Jane, Aldo.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jane, Aldo.
+</stage>
 <sp who="JANE"><speaker>JANE.</speaker>
 <p id="1"> 
 	<s id="1">Est-ce que votre mère est morte ? </s>
@@ -1086,7 +1094,8 @@
 	<s id="1">Je vous pardonne.</s>
 </p>
 </sp>
-<sp stage="sad" who="ALDO"><speaker>ALDO, avec amertume.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="sad">, avec amertume.
+</stage>
 <p id="28"> 
 	<s id="1">Vous êtes bonne !</s>
 </p>
@@ -1109,7 +1118,8 @@
 </p> 
 <stage type="kiss">Aldo la baise au front avec froideur.</stage>
 </sp>
-<sp stage="alone" who="ALDO"><speaker>ALDO, seul.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="alone">, seul.
+</stage>
 <p id="32"> 
 	<s id="1">Cette jeune fille est d'une merveilleuse stupidité ! </s>
 	<s id="2">elle me blesse et me choque sans s'en douter, elle m'accorde mon pardon quand c'est elle qui m'offense, et elle reçoit mon baiser sans s'apercevoir au froid de mes lèvres que c'est le dernier ! </s>
@@ -1167,12 +1177,14 @@
 	<s id="9">Une barque pavoisée passe au même moment.</s>
 </p>
 </sp>
-<sp stage="location" who="LA REINE"><speaker>AGANDECCA, sur la barque.</speaker>
+<sp who="LA REINE"><speaker>AGANDECCA</speaker><stage type="location">, sur la barque.
+</stage>
 <p id="35"> 
 	<s id="1">Quel est ce jeune homme si pâle et si beau qui descend vers le fleuve et semble vouloir s'y précipiter ?</s>
 </p>
 </sp>
-<sp stage="location" who="TICKLE"><speaker>TICKLE, sur la barque.</speaker>
+<sp who="TICKLE"><speaker>TICKLE</speaker><stage type="location">, sur la barque.
+</stage>
 <p id="36"> 
 	<s id="1">C'est un homme de rien, un rêveur, un fou, un misérable.</s>
 </p>
@@ -1254,7 +1266,8 @@
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
 <stage type="decor">Dans une galerie du palais de la reine.</stage> 
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Reine, Tickle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Reine, Tickle.
+</stage>
 <sp who="LA REINE"><speaker>LA REINE.</speaker>
 <p id="1"> 
 	<s id="1">Nain, c'est assez ; ce que vous me dites me fâche, et je ne veux pas entendre de mal de lui.</s>
@@ -1415,14 +1428,16 @@
 	<s id="11">Laisse-moi, Tickle ; tu n'as pas le sens commun aujourd'hui.</s>
 </p>
 </sp>
-<sp stage="exit" who="TICKLE"><speaker>TICKLE, sortant.</speaker>
+<sp who="TICKLE"><speaker>TICKLE</speaker><stage type="exit">, sortant.
+</stage>
 <p id="26"> 
 	<s id="1">Fort bien, j'ai réussi à la fâcher ; j'étais bien sûr qu'en disant comme elle, je l'amènerais à dire comme moi.</s>
 </p>
 </sp>
 </div2> 
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LA REINE"><speaker>LA REINE, seule.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="alone">, seule.
+</stage>
 <p id="1"> 
 	<s id="1">Ce Tickle est un fâcheux personnage ; il a une manière d'entrer dans mes idées qui m'en dégoûte sur-le-champ. </s>
 	<s id="">Ces prétendus bouffons, que nous avons autour de nous, sont comme nos mauvais génies : laids et méchants, ils tiennent du diable. </s>
@@ -1466,7 +1481,8 @@
 </p>
 </sp>
 </div2> 
-<div2 type="scene" n="3"><head>SCÈNE III. La Reine, Aldo.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Reine, Aldo.
+</stage>
 <sp who="ALDO"><speaker>ALDO.</speaker>
 <p id="1"> 
 	<s id="1">Que veux-tu de moi, ma bien-aimée ?</s>
@@ -1563,7 +1579,8 @@
 	<s id="1">C'est, du moins, la seule passion dont je sois capable.</s>
 </p>
 </sp>
-<sp stage="stress" who="LA REINE"><speaker>LA REINE, impatientée.</speaker>
+<sp who="LA REINE"><speaker>LA REINE</speaker><stage type="stress">, impatientée.
+</stage>
 <p id="16"> 
 	<s id="1">Alors vous êtes un pauvre sire ; moi, je ne peux pas toujours parler d'Apollo et de Cupido. </s>
 	<s id="2">J'ai d'autres sujets de joie ou de tristesse que le nuage qui passe dans le ciel ou sur le front de mon amant ; j'ai de grands intérêts dans la vie, je suis reine ; je fais la guerre ; je fais des lois, je récompense la valeur, je punis le crime ; j'inspire la crainte, le respect, l'amour, la haine peut-être ; tout cela m'occupe ; je vais d'une chose à une autre, je parcours tous les tons de cette belle musique dont aucune note ne reste silencieuse sous mon archet ; mais votre lyre n'a qu'une corde et ne rend qu'un son. </s>
@@ -1605,7 +1622,8 @@
 </sp>
 </div2> 
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="ALDO"><speaker>ALDO, seul.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="alone">, seul.
+</stage>
 <p id="1"> 
 	<s id="1">Elle a raison, cette femme ! </s>
 	<s id="2">elle a raison devant Dieu et devant les hommes ! </s>
@@ -1816,8 +1834,10 @@
 <stage type="suicide">Il va pour se tuer.</stage>
 </sp>
 </div2> 
-<div2 type="scene" n="5"><head>SCÈNE V. Aldo, Le Docteur Acrocéronius.</head>
-<sp who="ACROCÉRONIUS"><speaker>ACROCÉRONIUS, entrant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Aldo, Le Docteur Acrocéronius.
+</stage>
+<sp who="ACROCÉRONIUS"><speaker>ACROCÉRONIUS</speaker><stage>, entrant.
+</stage>
 <p id="1"> 
 	<s id="1">Que faites-vous, seigneur Aldo, dans cette attitude singulière ?</s>
 </p>
@@ -1949,7 +1969,8 @@
 	<s id="1">Venez avec moi, mon cher fils, et nous tâcherons de bien observer la lune.</s>
 </p>
 </sp>
-<sp stage="hide" who="ALDO"><speaker>ALDO, remettant son épée dans le fourreau.</speaker>
+<sp who="ALDO"><speaker>ALDO</speaker><stage type="hide">, remettant son épée dans le fourreau.
+</stage>
 <p id="22"> 
 	<s id="1">Allons-nous bien loin sur la montagne ?</s>
 </p>

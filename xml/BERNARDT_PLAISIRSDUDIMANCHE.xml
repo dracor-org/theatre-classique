@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">COMÉDIE EN UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,12 +38,12 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME COMMERCY" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>MADAME COMMERCY</role>.</castItem>
-		<castItem><role id="COMMERCY" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>COMMERCY</role>.</castItem>
-		<castItem><role id="TONY" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>TONY</role>.</castItem>
-		<castItem><role id="LARCADIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>LARCADIER</role>.</castItem>
+		<castItem><role id="MADAME COMMERCY" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">MADAME COMMERCY</role>.</castItem>
+		<castItem><role id="COMMERCY" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">COMMERCY</role>.</castItem>
+		<castItem><role id="TONY" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">TONY</role>.</castItem>
+		<castItem><role id="LARCADIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">LARCADIER</role>.</castItem>
 	</castList>
-	<set location="Province" country="France" periode="XXème" gps=""></set>
+	<set location="Province" country="France" periode="XXème" gps=""/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 174-229</note>
 </front>
 <body>
@@ -51,8 +51,9 @@
 <stage type="decor">Au lever du rideau, les quatre personnages sont -assis dans
 un petit salon. Ils viennent de déjeuner, et paraissent un
 peu accablés.</stage>
-<div2 type="scene" n="1"><head></head>
-<sp stage="watch" who="LARCADIER"><speaker>LARCADIER, tirant sa montre.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="watch">, tirant sa montre.
+</stage>
 <p id="1">
 	<s id="1">Je vous demande pardon si je regarde l'heure, mais je m'embête énormément.</s>
 </p>
@@ -67,7 +68,8 @@ peu accablés.</stage>
 	<s id="1">Tout ça ne me dit pas l'heure qu'il est, ma montre est arrêtée...</s>
 </p>
 </sp>
-<sp stage="watch" who="TONY"><speaker>TONY, regardant à son poignet.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="watch">, regardant à son poignet.
+</stage>
 <p id="4">
 	<s id="1">Il est une heure et demie.</s>
 </p>
@@ -77,7 +79,8 @@ peu accablés.</stage>
 	<s id="1">II n'est qu'une heure vingt-huit, mais je ne veux pas provoquer d'incident.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, à son mari</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="toward">, à son mari
+</stage>
 <p id="6">
 	<s id="1">Je trouve absurde, le dimanche, de demander qu'on déjeune de bonne heure sous prétexte qu'il faut faire quelque chose l'après-midi.</s>
 </p>
@@ -92,7 +95,8 @@ peu accablés.</stage>
 	<s id="1">Si on va au théâtre en matinée, comme j'ai horreur de sortir tout de suite après mon déjeuner, je veux avoir une heure devant moi pour faire ma petite partie de billard, qui m'est absolument nécessaire.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, aux autres.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="toward">, aux autres.
+</stage>
 <p id="9">
 	<s id="1">Oui, il s'est mis dans la tête de jouer au billard le dimanche après déjeuner. </s>
 	<s id="2">Il dit que c'est une culture physique nécessaire et que ça remplace la marche qu'il fait en semaine pour aller jusqu'à son bureau.</s>
@@ -189,7 +193,8 @@ peu accablés.</stage>
 </p>
 <stage type="exit">Il sort par le fond.</stage>
 </sp>
-<sp stage="toward/stand" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, à Larcadier qui se lève.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="toward/stand">, à Larcadier qui se lève.
+</stage>
 <p id="26">
 	<s id="1">Vous cherchez les cigares, Monsieur_Larcadier ?</s>
 </p>
@@ -225,7 +230,8 @@ peu accablés.</stage>
 </p>
 <stage type="stand/exit">Il se lève et sort par la gauche.</stage>
 </sp>
-<sp stage="toward" who="TONY"><speaker>TONY, à Madame Commercy.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="toward">, à Madame Commercy.
+</stage>
 <p id="32">
 	<s id="1">Eh bien ! </s>
 	<s id="2">C'est gai, ce qui m'arrive !</s>
@@ -296,7 +302,8 @@ peu accablés.</stage>
 </p>
 <stage type="entrance/smoke/carry">Larcadier entre avec une cigarette à la bouche et un paquet de cigarettes à la main.</stage>
 </sp>
-<sp stage="get" who="COMMERCY"><speaker>COMMERCY, il prend une espèce de petit vase en onyx sur la cheminée.</speaker> 
+<sp who="COMMERCY"><speaker>COMMERCY</speaker><stage type="get">, il prend une espèce de petit vase en onyx sur la cheminée. 
+</stage> 
 <p id="43">
 	<s id="1">Il y a là-dedans quatre numéros, c'est pour les poules.</s>
 </p>
@@ -324,7 +331,8 @@ peu accablés.</stage>
 	<s id="1">Allons, tirez !</s>
 </p>
 </sp>
-<sp stage="play" who="LARCADIER"><speaker>LARCADIER, tirant.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="play">, tirant.
+</stage>
 <p id="48">
 	<s id="1">Quatre !</s>
 </p>
@@ -345,19 +353,22 @@ peu accablés.</stage>
 	<s id="2">Allons, commencez, vous deux.</s>
 </p>
 </sp>
-<sp stage="toward" who="TONY"><speaker>TONY, à Madame Commercy.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="toward">, à Madame Commercy.
+</stage>
 <p id="52">
 	<s id="1">Venez ?</s>
 </p>
 </sp>
-<sp stage="sad" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, résignée.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="sad">, résignée.
+</stage>
 <p id="53">
 	<s id="1">Ah ! </s>
 	<s id="2">Comme c'est amusant !</s>
 </p>
 <stage type="exit">Ils sortent. Larcadier et Commercy restent seuls.</stage>
 </sp>
-<sp stage="ironic" who="COMMERCY"><speaker>COMMERCY, ironique.</speaker>
+<sp who="COMMERCY"><speaker>COMMERCY</speaker><stage type="ironic">, ironique.
+</stage>
 <p id="54">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Qu'est-ce que tu dis de cette loge ? </s>
@@ -468,7 +479,8 @@ peu accablés.</stage>
 	<s id="3">Viens les voir dans la chambre de ma femme.</s>
 </p>
 </sp>
-<sp stage="pain" who="LARCADIER"><speaker>LARCADIER, gémissant.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="pain">, gémissant.
+</stage>
 <p id="80">
 	<s id="1">Mais je m'en fous !</s>
 </p>
@@ -484,7 +496,8 @@ peu accablés.</stage>
 </p>
 <stage type="silence">Nouveau silence.</stage>
 </sp>
-<sp stage="open" who="TONY"><speaker>TONY, ouvrant la porte.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="open">, ouvrant la porte.
+</stage>
 <p id="83">
 	<s id="1">Eh bien ! </s>
 	<s id="2">C'est Madame Commercy qui est la grande victorieuse ! </s>
@@ -515,7 +528,8 @@ peu accablés.</stage>
 	<s id="3">Dites donc, Tony ?...</s>
 </p>
 </sp>
-<sp stage="get/read" who="TONY"><speaker>TONY, qui a pris un journal et s'est mis à lire</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="get/read">, qui a pris un journal et s'est mis à lire
+</stage>
 <p id="88">
 	<s id="1">Qu'est-ce qu'il y a ?</s>
 </p>
@@ -525,7 +539,8 @@ peu accablés.</stage>
 	<s id="1">Vous avez de l'influence sur Madame_Commercy ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="TONY"><speaker>TONY, troublé</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="embarrassed">, troublé
+</stage>
 <p id="90">
 	<s id="1">Mais pourquoi me dites-vous cela ?</s>
 </p>
@@ -598,7 +613,8 @@ peu accablés.</stage>
 	<s id="1">Moi, je veux bien lui demander...</s>
 </p>
 </sp>
-<sp stage="listen" who="LARCADIER"><speaker>LARCADIER, prêtant l'oreille</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="listen">, prêtant l'oreille
+</stage>
 <p id="99">
 	<s id="1">Vous avez entendu ?</s>
 </p>
@@ -617,7 +633,8 @@ peu accablés.</stage>
 	<s id="5">Pendant ce temps-là, vous travaillerez Madame_Commercy, et j'aurai mon bridge.</s>
 </p>
 </sp>
-<sp stage="open/entrance" who="COMMERCY"><speaker>COMMERCY, ouvrant la porte.</speaker>
+<sp who="COMMERCY"><speaker>COMMERCY</speaker><stage type="open/entrance">, ouvrant la porte.
+</stage>
 <p id="102">
 	<s id="1">Quel est le vainqueur ?</s>
 </p>
@@ -627,14 +644,16 @@ peu accablés.</stage>
 	<s id="1">C'est toi, imbécile.</s>
 </p>
 </sp>
-<sp stage="entrance" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, entrant.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="104">
 	<s id="1">Oh ! </s>
 	<s id="2">Il m'a battu avec deux ou trois raccrocs. </s>
 	<s id="3">Jamais il n'aurait dû  gagner.</s>
 </p>
 </sp>
-<sp stage="toward" who="COMMERCY"><speaker>COMMERCY, à Larcadier.</speaker>
+<sp who="COMMERCY"><speaker>COMMERCY</speaker><stage type="toward">, à Larcadier.
+</stage>
 <p id="105">
 	<s id="1">Tu me donnes gagné pour notre match ?</s>
 </p>
@@ -663,7 +682,8 @@ peu accablés.</stage>
 </p>
 <stage type="exit/together/location">Commercy sort, Larcadier le suit dans la salle de billard.</stage>
 </sp>
-<sp stage="toward" who="TONY"><speaker>TONY, à Madame Commercy.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="toward">, à Madame Commercy.
+</stage>
 <p id="110">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Tu sais, ça s'arrange très bien.</s>
@@ -719,7 +739,8 @@ peu accablés.</stage>
 	<s id="2">Vous trouviez ça drôle ?</s>
 </p>
 </sp>
-<sp stage="" who="TONY"><speaker>TONY, déconcerté.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="">, déconcerté.
+</stage>
 <p id="120">
 	<s id="1">Mais oui, voyons ! </s>
 	<s id="2">Nous désirons tous les deux qu'il nous laisse tranquilles, et il n'a qu'une idée, c'est de nous laisser tranquilles ! </s>
@@ -766,12 +787,14 @@ peu accablés.</stage>
 	<s id="1">Mais je ne peux pas saisir, ma chère amie...</s>
 </p>
 </sp>
-<sp stage="closer" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, allant du côté de la porte.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="closer">, allant du côté de la porte.
+</stage>
 <p id="127">
 	<s id="1">Je vais commencer par lui dire ma façon de penser, à mon mari !</s>
 </p>
 </sp>
-<sp stage="pull" who="TONY"><speaker>TONY, la retenant.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="pull">, la retenant.
+</stage>
 <p id="128">
 	<s id="1">Mais non, ma chère amie, ce n'est pas possible, voyons !</s>
 </p>
@@ -874,12 +897,14 @@ peu accablés.</stage>
 	<s id="7">C'est une façon honteuse de me mentir et de me bafouer.</s>
 </p>
 </sp>
-<sp stage="quick" who="TONY"><speaker>TONY, vivement</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="quick">, vivement
+</stage>
 <p id="144">
 	<s id="1">Les voilà qui reviennent!</s>
 </p>
 </sp>
-<sp stage="entrance" who="COMMERCY"><speaker>COMMERCY, entrant.</speaker>
+<sp who="COMMERCY"><speaker>COMMERCY</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="145">
 	<s id="1">Larcadier aplati... et Commercy grand vainqueur.</s>
 </p>
@@ -897,18 +922,21 @@ peu accablés.</stage>
 	<s id="2">Tu veux avoir l'air de ne t'être pas défendu, mais tu as fait ce que tu as pu.</s>
 </p>
 </sp>
-<sp stage="closer/low" who="LARCADIER"><speaker>LARCADIER, en passant près de Tony, à mi-voix.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="closer/low">, en passant près de Tony, à mi-voix.
+</stage>
 <p id="148">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Ça va ?</s>
 </p>
 </sp>
-<sp stage="closer/low" who="TONY"><speaker>TONY, de même.</speaker>
+<sp who="TONY"><speaker>TONY</speaker><stage type="closer/low">, de même.
+</stage>
 <p id="149">
 	<s id="1">Non, ça ne va pas...</s>
 </p>
 </sp>
-<sp stage="closer/low" who="LARCADIER"><speaker>LARCADIER, de même.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="closer/low">, de même.
+</stage>
 <p id="150">
 	<s id="1">Zut ! </s>
 	<s id="2">Vous ne savez pas y faire !</s>
@@ -1096,7 +1124,8 @@ peu accablés.</stage>
 </p>
 <stage type="exit">Sortent Tony et Commercy.</stage>
 </sp>
-<sp stage="alone" who="LARCADIER"><speaker>LARCADIER, seul.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="alone">, seul.
+</stage>
 <p id="184">
 	<s id="1">Bon Dieu ! </s>
 	<s id="2">Que ces gens-là sont embêtants !... </s>
@@ -1230,7 +1259,8 @@ peu accablés.</stage>
 	<s id="1">Vous avez des déceptions de ce côté-là, monsieur Larcadier ?</s>
 </p>	
 </sp>
-<sp stage="silence" who="LARCADIER"><speaker>LARCADIER, après un silence.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="silence">, après un silence.
+</stage>
 <p id="208">
 	<s id="1">Ne parlons pas de ça, Madame.</s>
 </p>
@@ -1245,7 +1275,8 @@ peu accablés.</stage>
 	<s id="1">Ça me serait difficile, Madame...</s>
 </p>
 </sp>
-<sp stage="surprise" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, sans comprendre.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="surprise">, sans comprendre.
+</stage>
 <p id="211">
 	<s id="1">Ça vous serait difficile ?</s>
 </p>
@@ -1255,7 +1286,8 @@ peu accablés.</stage>
 	<s id="1">Vous tenez absolument à ce que je vous fasse des confidences ?</s>
 </p>
 </sp>
-<sp stage="" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, à peu près indifférente.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="">, à peu près indifférente.
+</stage>
 <p id="213">
 	<s id="1">Oh ! </s>
 	<s id="2">J'y tiens... j'y tiens...</s>
@@ -1267,7 +1299,8 @@ peu accablés.</stage>
 	<s id="2">Ce n'est pas moi qui vous l'aurai demandé.</s>
 </p>
 </sp>
-<sp stage="curious" who="MADAME COMMERCY"><speaker>MADAME COMMERCY, déjà plus intéressée.</speaker>
+<sp who="MADAME COMMERCY"><speaker>MADAME COMMERCY</speaker><stage type="curious">, déjà plus intéressée.
+</stage>
 <p id="215">
 	<s id="1">Vous êtes curieux, Monsieur_Larcadier, je ne vous voyais pas sous ce jour-là.</s>
 </p>
@@ -1441,7 +1474,8 @@ peu accablés.</stage>
 </p>
 <stage type="away/ring">Elle se dirige vers la porte. À ce moment, sonnerie du téléphone.</stage>
 </sp>
-<sp stage="nervous" who="LARCADIER"><speaker>LARCADIER, agacé.</speaker>
+<sp who="LARCADIER"><speaker>LARCADIER</speaker><stage type="nervous">, agacé.
+</stage>
 <p id="237">
 	<s id="1">Ah !...</s>
 </p>

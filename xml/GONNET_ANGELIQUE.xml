@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,12 +29,12 @@
 			<titlePart type="main">ANGÉLIQUE OU LES AVANTAGES DE LA CONGRÉGATION</titlePart>
 			<titlePart type="sub">POUR UNE RÉCEPTION DE CONGRÉGANISTES</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858</docDate>
-		<docAuthor id='GONNET, Eugène'>Par l'Abbé E. GONNET.</docAuthor>
+		<docDate value="1858">1858</docDate>
+		<docAuthor id="GONNET, Eugène">Par l'Abbé E. GONNET.</docAuthor>
 		<docImprint>
-			<editor id='CAILLAT-BELHOMME'>AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
-			<printer id='JACQUET'>AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
-			<approbation><head></head>
+			<editor id="CAILLAT-BELHOMME">AVIGNON LIBRAIRE DE CAILLAT-BELHOMME, Éditeur. Rue Saunerie, 15.  PROPRIÉTÉ DE L'ÉDITEUR.</editor>
+			<printer id="JACQUET">AVIGNON, typ. Jacquet, rue Saint-Marc, 22.</printer>
+			<approbation><head/>
 				<p>Avignon le 20 juillet 1858.</p>
 				<p>L'ARCHEVÊQUE D'AVIGNON.</p>
 				<p>Vu le rapport que lui a fait un des membres de la Commission chargée de l'examen des livres dans son diocèse..</p>
@@ -43,17 +43,18 @@
 			</approbation>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>ANGÉLIQUE</role>, postulante.</castItem>
-			<castItem><role id="ÉMILIE" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>ÉMILIE</role>, postulante, amie d'Angélique.</castItem>
-			<castItem><role id="CÉLINA" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>CÉLINA</role>, Congréganiste.</castItem>
-			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="religieux" age='J' stat_amour='néant'>LE CHOEUR</role>.</castItem>
+			<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">ANGÉLIQUE</role>, postulante.</castItem>
+			<castItem><role id="ÉMILIE" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">ÉMILIE</role>, postulante, amie d'Angélique.</castItem>
+			<castItem><role id="CÉLINA" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">CÉLINA</role>, Congréganiste.</castItem>
+			<castItem><role id="LE CHOEUR" sex="2" type="H" statut="religieux" age="J" stat_amour="néant">LE CHOEUR</role>.</castItem>
 		</castList>
 		<set location="Avignon" country="France" periode="XIXème" gps="43.893582, 4.9456364">La scène se passe dans une cour ombragée.</set>
 		<note>Extrait de "Dialogues en vers pour pensionnaires ou congrégations de jeunes demoiselles", 5ème cahier, de l'Abbé Eugène Gonnet. pp 11-24</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ANGÉLIQUE OU LES AVANTAGES DE LA CONGRÉGATION.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Angélique et Emilie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Angélique et Emilie.
+</stage>
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="1">Mais, quand je te le dis, il me semble pourtant</l>
 	<l id="2">Que tu devrais en croire un coeur qui t'aime tant.'</l>
@@ -166,7 +167,8 @@
 	<l id="78" syll="6" part="i">Tu le verras, ma chère.....</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Célina.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Célina.
+</stage>
 <sp who="CÉLINA"><speaker>CÉLINA.</speaker>
 	<l id="78" syll="6" part="f">Ô douce émotion !</l>
 </sp>
@@ -179,7 +181,8 @@
 <sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
 	<l id="80" syll="6" part="i">Tu viens bien à propos.</l>
 </sp>
-<sp who="CÉLINA"><speaker>CÉLINA, à Émilie.</speaker>
+<sp who="CÉLINA"><speaker>CÉLINA</speaker><stage>, à Émilie.
+	</stage>
 	<l id="80" syll="6" part="f">Enfin tu t'es rendue.</l>
 </sp>
 <sp who="ÉMILIE"><speaker>ÉMILIE.</speaker>

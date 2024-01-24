@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<structure>Un acte</structure>
 				<periode>1881-1890</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -30,18 +30,18 @@
 			<titlePart type="sub">Représentée pour la 1ère fois au Théâtre des Mathurins le 24 mai 1899</titlePart>
 			<titlePart type="sub">Les simili-gravures ont été reproduites d'après les photographies de MM. CAUTIN et BERGER.</titlePart>
 		</docTitle> 
-		<docDate value='1889'>Tous droits de reproduction, de traduction et de représentation réservés, pour tous pays, y compris la Suède et la Norvège.</docDate>
+		<docDate value="1889">Tous droits de reproduction, de traduction et de représentation réservés, pour tous pays, y compris la Suède et la Norvège.</docDate>
 		<docAuthor id="ALLAIS, Alphonse">ALPHONSE ALLAIS</docAuthor>
 		<docImprint>
-			<editor id='FLAMMARION'>PARIS — Ernest FLAMMARION, éditeur, 26, rue Racine. — PARIS.</editor>
+			<editor id="FLAMMARION">PARIS — Ernest FLAMMARION, éditeur, 26, rue Racine. — PARIS.</editor>
 			<printer>40575. — Imprimerie LAHURE, rue de Fleurus, 9, à Paris.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE PAUVRE BOUGRE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LE PAUVRE BOUGRE</role>; M. GUYON fils.</castItem> 
-		<castItem><role id="LE GARÇON" sex="1" type="H" statut='garçon de café' age='A' stat_amour='néant'>LE GARÇON</role>, M. RÉFY..</castItem> 
-		<castItem><role id="LE BON GÉNIE" sex="2" type="H" statut='génie' age='A' stat_amour='néant'>LE BON GÉNIE</role>, Melle DORVILLE.</castItem> 
+		<castItem><role id="LE PAUVRE BOUGRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PAUVRE BOUGRE</role>; M. GUYON fils.</castItem> 
+		<castItem><role id="LE GARÇON" sex="1" type="H" statut="garçon de café" age="A" stat_amour="néant">LE GARÇON</role>, M. RÉFY..</castItem> 
+		<castItem><role id="LE BON GÉNIE" sex="2" type="H" statut="génie" age="A" stat_amour="néant">LE BON GÉNIE</role>, Melle DORVILLE.</castItem> 
 	</castList>
-	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE PAUVRE BOUGRE ET LE BON GÉNIE</head>
@@ -119,7 +119,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE III. LE PAUVRE BOUGRE, LE GARÇON DE CAFÉ.</head>
+<div2 type="scene" n=""><head>SCÈNE III.</head><stage> LE PAUVRE BOUGRE, LE GARÇON DE CAFÉ.
+</stage>
 <sp who="LE GARÇON"><speaker>LE GARÇON.</speaker>
 <p id="1">
 	<s id="1">Voilà, voilà, on y vole !</s>
@@ -154,12 +155,14 @@
 	<s id="2">Tous les commerçants m'ont dit de repasser.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE GARÇON"><speaker>LE GARÇON, riant bêtement.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="laugh">, riant bêtement.
+</stage>
 <p id="7">
 	<s id="1">Ils vous prennent pour une blanchisseuse.</s>
 </p>
 </sp>
-<sp stage="wave" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, haussant les épaules.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="8">
 	<s id="1">Vous trouvez ça drôle, vous?</s>
 </p>
@@ -219,7 +222,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Pauvre Bougre, Le Garçon.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Pauvre Bougre, Le Garçon.
+</stage>
 <sp who="LE GARÇON"><speaker>LE GARÇON.</speaker>
 <p id="1">
 	<s id="1">Le bock demandé !
@@ -232,7 +236,8 @@
 	<s id="1">Cette bière n'est pas buvable.</s>
 </p>
 </sp>
-<sp stage="watch" who="LE GARÇON"><speaker>LE GARÇON, contemplant le bock vide.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="watch">, contemplant le bock vide.
+</stage>
 <p id="3">
 	<s id="1">Que serait-ce donc, si elle l'était ?</s>
 </p>
@@ -242,7 +247,8 @@
 	<s id="1">J'en redemanderais.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LE GARÇON"><speaker>LE GARÇON, d'un air détaché.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="ironic">, d'un air détaché.
+</stage>
 <p id="5">
 	<s id="1">Oh ! Ça, la bière ! </s>
 	<s id="2">Ça n'est pas notre fort ici !</s>
@@ -253,7 +259,8 @@
 	<s id="1">Je m'en aperçois.</s>
 </p>
 </sp>
-<sp stage="change" who="LE GARÇON"><speaker>LE GARÇON, changeant la conversation.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="change">, changeant la conversation.
+</stage>
 <note type="L">Sur le pavé : Sans emploi.</note>
 <p id="7">
 	<s id="">Alors, mon pauvre monsieur, toujours sur le pavé ?</s>
@@ -286,7 +293,8 @@
 	<s id="8">L'absinthe, c'est l'évasion céleste de ce bagne terrestre qui s'appelle là vie.</s>
 </p>
 </sp>
-<sp stage="dream" who="LE GARÇON"><speaker>LE GARÇON, rêveur.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="dream">, rêveur.
+</stage>
 <p id="12">
 	<s id="1">Peut-être bien.</s>
 </p>
@@ -318,7 +326,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, seul.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Cet homme est d'une gaîté indécente ! </s>
 	<s id="2">Il me fait cruellement sentir qu'il en a une, lui, de place ! </s>
@@ -327,7 +336,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VII. Le Pauvre Bougre, Le Garçon.</head>
+<div2 type="scene" n=""><head>SCÈNE VII.</head><stage> Le Pauvre Bougre, Le Garçon.
+</stage>
 <sp who="LE GARÇON"><speaker>LE GARÇON.</speaker>
 <stage type="entrance/sing">Il entre en chantant.</stage>
 	<l id="8">C'est l'heure sainte</l>
@@ -458,7 +468,8 @@
 	<s id="4">Ça vous épate, ça ?</s>
 </p>
 </sp>
-<sp stage="cold" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, froidement.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="cold">, froidement.
+</stage>
 <p id="23">
 	<s id="1">Rien ne m'épate.</s>
 </p>
@@ -474,7 +485,8 @@
 	<s id="1">Et alors ?</s> 
 </p>
 </sp>
-<sp stage="sad" who="LE GARÇON"><speaker>LE GARÇON, tristement.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="sad">, tristement.
+</stage>
 <p id="26">
 	<s id="1">Oh ! </s>
 	<s id="2">Le reste, vous pouvez le deviner.</s>
@@ -532,24 +544,28 @@
 	<s id="2">Toutes ces démarches, toutes ces humiliations !...</s>
 </p>
 </sp>
-<sp stage="sad" who="LE GARÇON"><speaker>LE GARÇON, sombre.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="sad">, sombre.
+</stage>
 <p id="36">
 	<s id="1">Les humiliations !... </s>
 	<s id="2">Je connais çà.</s>
 </p>
 </sp>
-<sp stage="think" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, philosophe.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="think">, philosophe.
+</stage>
 <p id="37">
 	<s id="1">Oh ! </s>
 	<s id="3">Les humiliations, à vrai dire, c'est encore ce qui me coûte le moins, car, depuis le temps, je me suis fait un front qui ne sait plus rougir.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LE GARÇON"><speaker>LE GARÇON, ironique.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="ironic">, ironique.
+</stage>
 <p id="38">
 	<s id="1">C'est votre chapeau qui rougit pour vous.</s>
 </p>
 </sp>
-<sp stage="dress/watch" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, enlevant son chapeau et constatant qu'il est, en  effet, tout rouge.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="dress/watch">, enlevant son chapeau et constatant qu'il est, en  effet, tout rouge.
+</stage>
 <p id="39">
 	<s id="1">Le fait est que mon galurin tourne à l'écarlate.</s>
 </p>
@@ -615,7 +631,8 @@
 <stage type="music/stop">Une musique céleste se fait entendre qui arrête brusquement les propos des deux hommes.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Pauvre Bougre, Le Garçon, Le Bon Génie.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Pauvre Bougre, Le Garçon, Le Bon Génie.
+</stage>
 <sp who="LE BON GÉNIE"><speaker>LE BON GÉNIE.</speaker>
 <p id="1">
 	<s id="1">Un bon génie ! </s>
@@ -663,7 +680,8 @@
 	<s id="1">... qu'avec cent sous par jour je serais, le plus heureux des hommes.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE BON GÉNIE"><speaker>LE BON GÉNIE, riant.</speaker>
+<sp who="LE BON GÉNIE"><speaker>LE BON GÉNIE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="9">
 	<s id="1">Cent sous par jour ! </s>
 	<s id="2">Ah ! </s>
@@ -692,7 +710,8 @@
 	<s id="2">Tu vas être exaucé.</s>
 </p>
 </sp>
-<sp stage="happy" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, exultant.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="happy">, exultant.
+</stage>
 <p id="14">
 	<s id="1">Vrai ? </s>
 	<s id="2">Vous pouvez faire ça pour moi ?</s>
@@ -715,7 +734,8 @@
 	<s id="2">Comme j'ai autre chose à faire qu'à t'apporterune thune chaque matin, je vais te remettre tout ton compte en bloc.</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, n'en croyant pas ses oreilles.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="estonish">, n'en croyant pas ses oreilles.
+</stage>
 <p id="18">
 	<s id="1">En bloc !... </s>
 	<s id="2">Tout mon compte, en bloc ! </s>
@@ -725,14 +745,16 @@
 	<s id="1">En bloc !</s>
 </p>
 </sp>
-<sp stage="" who="LE GARÇON"><speaker>LE GARÇON, émerveillé et répétant le geste.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="">, émerveillé et répétant le geste.
+</stage>
 <p id="20">
 	<s id="1">En bloc ! </s>
 	<s id="2">Veinard ! </s>
 	<s id="3">Je vous le disais bien, moi, que ça deviendrait bon pour vous.</s>
 </p> 
 </sp>
-<sp stage="toward" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, au bon génie.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="toward">, au bon génie.
+</stage>
 <p id="21">
 	<s id="1">Et... quand allez-vous me livrer la petite somme ?</s>
 </p>
@@ -747,7 +769,8 @@
 <stage type="music/exit">Il sort au son d'une musique céleste.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Le Pauvre Bougre, Le Garçon.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Le Pauvre Bougre, Le Garçon.
+</stage>
 <sp who="LE GARÇON"><speaker>LE GARÇON.</speaker>
 <p id="23">
 	<s id="1">Ah ! </s>
@@ -756,7 +779,8 @@
 	<s id="4">La fortune !</s>
 </p>
 </sp>
-<sp stage="sad" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, faisant la moue.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="sad">, faisant la moue.
+</stage>
 <p id="24">
 	<s id="1">Oh ! </s>
 	<s id="2">La fortune ! </s>
@@ -784,7 +808,8 @@
 	<s id="2">Ça me changera un peu.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LE GARÇON"><speaker>LE GARÇON, riant bêtement.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="laugh">, riant bêtement.
+</stage>
 <p id="29">
 	<s id="1">À votre place, moi, j'achèterais un chapeau vert et une redingote rouge, ça vous changerait encore plus.</s>
 </p>
@@ -800,7 +825,8 @@
 	<s id="1">Vous allez faire la noce, hein ?</s>
 </p>
 </sp>
-<sp stage="wave" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, haussant les épaules.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="32">
 	<s id="1">La noce ! </s>
 	<s id="2">La grande vie ! </s>
@@ -817,14 +843,16 @@
 	<s id="2">Ainsi, tenez, j'en connais, moi, au Moulin_de_la_Galette...</s>
 </p>
 </sp>
-<sp stage="dream" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, songeur.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="dream">, songeur.
+</stage>
 <p id="34">
 	<s id="1">C'est vrai, que j'ai été bête... </s>
 	<s id="2">J'aurais dû demander un louis... </s>
 	<s id="3">Pour ce que ça lui coûte, à ce bon génie !</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE GARÇON"><speaker>LE GARÇON, frappé d'une idée subite.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="estonish">, frappé d'une idée subite.
+</stage>
 <p id="35">
 	<s id="1">Mais, j'y pense ! </s>
 	<s id="2">Puisque vous allez toucher toute votre galette en bloc.</s>
@@ -847,7 +875,8 @@
 	<s id="3">Vous avez bien le droit d'en faire ce que bon vous semble.</s>
 </p>
 </sp>
-<sp stage="hesitate" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, hésitant.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="hesitate">, hésitant.
+</stage>
 <p id="38">
 	<s id="1">J'y songerai.</s>
 </p>
@@ -864,10 +893,12 @@
 	<s id="2">Un café-concert où vous pousseriez la romance en servant des cerises à l'eau-de-vie.</s>
 </p>
 </sp>
-<sp stage="sing" who="LE GARÇON"><speaker>LE GARÇON, chantant.</speaker>
+<sp who="LE GARÇON"><speaker>LE GARÇON</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="10">Quand nous en serons au temps des cerises.</l>
 </sp>
-<sp stage="interrupt" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, l'interrompant du geste.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="interrupt">, l'interrompant du geste.
+</stage>
 <p id="41">
 	<s id="1">Chut ! </s>
 </p>
@@ -892,7 +923,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Le Pauvre Bougre, Le Garçon, Le Bon Génie.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Le Pauvre Bougre, Le Garçon, Le Bon Génie.
+</stage>
 <sp who="LE BON GÉNIE"><speaker>LE BON GÉNIE.</speaker>
 <p id="1">
 	<s id="1">Rebonjour, pauvre bougre ! </s>
@@ -925,7 +957,8 @@
 	<s id="1">Voilà, pauvre bougre.</s>
 </p>
 </sp>
-<sp stage="watch" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, contemplant ahuri ses sept francs cinquante.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="watch">, contemplant ahuri ses sept francs cinquante.
+</stage>
 <p id="7">
 	<s id="1">Quoi ! </s>
 	<s id="2">Qu'est-ce que c'est que ça ?</s>
@@ -948,7 +981,8 @@
 	<s id="1">La somme que je te remets là, pauvre bougre, représente ton compte exact.</s>
 </p>
 </sp>
-<sp stage="" who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE, s'obstinant à ne pas vouloir comprendre.</speaker>
+<sp who="LE PAUVRE BOUGRE"><speaker>LE PAUVRE BOUGRE</speaker><stage type="">, s'obstinant à ne pas vouloir comprendre.
+</stage>
 <p id="11">
 	<s id="1">Sept francs cinquante ! </s>
 	<s id="2">Non, non ! </s>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<structure>Un acte</structure>
 				<periode>1741-1750</periode>
 				<taille>0-250</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,23 +28,24 @@
 		<docTitle>
 			<titlePart type="main">COMPLIMENT pour l'ouverture du Théâtre Italien, le 7 Avril 1750.</titlePart>
 		</docTitle> 
-		<docDate value='1750'></docDate>
-		<docAuthor id='ROY, Pierre-Charles'></docAuthor>
+		<docDate value="1750"/>
+		<docAuthor id="ROY, Pierre-Charles"/>
 		<docImprint>
-			<editor id='MERCURE DE FRANCE'>MERCURE DE FRANCE, 1750.</editor>
+			<editor id="MERCURE DE FRANCE">MERCURE DE FRANCE, 1750.</editor>
 		</docImprint>		
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR MIRACLE" sex="1" type="H" statut='auteur' age='A' stat_amour='néant'>MONSIEUR MIRACLE</role>.</castItem> 
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquis' age='A' stat_amour='néant'>LA MARQUISE</role>.</castItem> 
-		<castItem><role id="MADEMOISELLE ASTRAUDY" sex="2" type="H" statut='comédien' age='J' stat_amour='néant'>MADEMOISELLE ASTRAUDY</role>.</castItem> 
+		<castItem><role id="MONSIEUR MIRACLE" sex="1" type="H" statut="auteur" age="A" stat_amour="néant">MONSIEUR MIRACLE</role>.</castItem> 
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE</role>.</castItem> 
+		<castItem><role id="MADEMOISELLE ASTRAUDY" sex="2" type="H" statut="comédien" age="J" stat_amour="néant">MADEMOISELLE ASTRAUDY</role>.</castItem> 
 	</castList>
-	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 	<note>Extrait du Mercure de France, juin 1750, premier volume. pp 200-207.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>COMPLIMENT DU 7 avril 1750</head>
 <stage type="explicit">Ce Compliment, ainsi que celui qui se trouve dans le dernier Mercure, a été composé par M. Roy.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Marquise, Monsieur Miracle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Marquise, Monsieur Miracle.
+</stage>
 <sp who="MONSIEUR MIRACLE"><speaker>MONSIEUR MIRACLE.</speaker>
 	<l id="1">D'un comique pareil se peut-on affoler ?</l>
 </sp>
@@ -186,12 +187,14 @@
 	<l id="75">Un pareil choix est souvent applaudi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Mademoiselle Astraudy, La Marquise, Monsieur Miracle.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Mademoiselle Astraudy, La Marquise, Monsieur Miracle.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="76">Bonjour, ma chere enfant, je vous donne audience ;</l>
 	<l id="77">Et Monsieur, qui n'a rien de comparable à lui.</l>
 </sp>
-<sp stage="toward" who="MONSIEUR MIRACLE"><speaker>MONSIEUR MIRACLE, à Mademoiselle Astraudy.</speaker>
+<sp who="MONSIEUR MIRACLE"><speaker>MONSIEUR MIRACLE</speaker><stage type="toward">, à Mademoiselle Astraudy.
+	</stage>
 	<l id="78">Comment ! Elle a des yeux, un fort joli visage.</l>
 	<l id="79" syll="6" part="i">Avez-vous de l'esprit ?</l>
 </sp>
@@ -216,7 +219,8 @@
 	<l id="85" syll="6" part="i">À quelle heure, Monsieur ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Marquise, Mademoiselle Astraudy.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Marquise, Mademoiselle Astraudy.
+</stage>
 <sp who="MADEMOISELLE ASTRAUDY"><speaker>MADEMOISELLE ASTRAUDY.</speaker>
 	<l id="85" syll="6" part="f">Oh ! le plaisant visage !</l>
 	<l id="86" syll="6" part="i">Il fait mal le Seigneur.</l>

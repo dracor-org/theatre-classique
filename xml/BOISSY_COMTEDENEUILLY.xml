@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -31,7 +31,7 @@
 			<titlePart type="sub">Représentée pour la première fois par les Comédiens Italiens, le 18 Janvier 1736.</titlePart>
 			<titlePart type="sub">Le Prix est de 14 sols.</titlePart>
 		</docTitle> 
-		<docDate value='1736'>M. DCC. XXXVI. AVEC APPROBATION ET PRIVILÈGE DU ROI.</docDate>
+		<docDate value="1736">M. DCC. XXXVI. AVEC APPROBATION ET PRIVILÈGE DU ROI.</docDate>
 		<docAuthor id="BOISSY, Louis de">De Monsieur de Boissy.
 </docAuthor>
 		<docImprint>
@@ -44,23 +44,24 @@
 				<p>Registré sur le Registre VIII de la Chambre Royale des libraires et Imprimeurs de Paris, N° 487. Folio 466. conformément aux anciens règlements, confirmés par celui du 28 Février 1723. À Paris et premier Février 1733.</p>
 				<p>Signé, G. MARTIN, Syndic.</p>
 			</privilege>
-			<printer id='PRAULT'>À PARIS, Chez Prault, père, Quai de Gesvres, au Paradis.</printer>
+			<printer id="PRAULT">À PARIS, Chez Prault, père, Quai de Gesvres, au Paradis.</printer>
 		</docImprint>
 
       <castList>
         <head>ACTEURS.</head>
-        <castItem><role id="LE COMTE DE NEUILLY" sex="1" type='H' statut='comte' age='A' statut_amoureux="néant">LE COMTE DE NEUILLY</role>.</castItem>
-        <castItem><role id="LA MARQUISE" sex="2" type='H' statut='marquis' age='A' statut_amoureux="néant">LA MARQUISE</role>.</castItem>
-        <castItem><role id="LE MARQUIS" sex="1" type='H' statut='marquis' age='J' statut_amoureux="néant">LE MARQUIS</role>, fils de la Marquise.</castItem>
-        <castItem><role id="LÉONORE" sex="2" type='H' statut='aristocrate' age='J' statut_amoureux="néant">LÉONORE</role>, crue fille de la Marquise.</castItem>
-        <castItem><role id="LUCIE" sex="2" type='H' statut='aristocrate' age='A' statut_amoureux="néant">LUCIE</role>.</castItem>
-        <castItem><role id="NELTON" sex="1" type='H' statut='confident' age='A' statut_amoureux="néant">NELTON</role>, Confident du Comte de Neuilly.</castItem>
+        <castItem><role id="LE COMTE DE NEUILLY" sex="1" type="H" statut="comte" age="A" statut_amoureux="néant">LE COMTE DE NEUILLY</role>.</castItem>
+        <castItem><role id="LA MARQUISE" sex="2" type="H" statut="marquis" age="A" statut_amoureux="néant">LA MARQUISE</role>.</castItem>
+        <castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="J" statut_amoureux="néant">LE MARQUIS</role>, fils de la Marquise.</castItem>
+        <castItem><role id="LÉONORE" sex="2" type="H" statut="aristocrate" age="J" statut_amoureux="néant">LÉONORE</role>, crue fille de la Marquise.</castItem>
+        <castItem><role id="LUCIE" sex="2" type="H" statut="aristocrate" age="A" statut_amoureux="néant">LUCIE</role>.</castItem>
+        <castItem><role id="NELTON" sex="1" type="H" statut="confident" age="A" statut_amoureux="néant">NELTON</role>, Confident du Comte de Neuilly.</castItem>
       </castList>
 		<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est à Paris dans l'Hôtel de la Marquise.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Nelton, Lucie.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Nelton, Lucie.
+</stage>
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
 	<l id="1">Peut-on savait ici quel sujet vous attire ?</l>
 </sp>
@@ -142,7 +143,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. </head>
-<sp stage="alone" who="NELTON"><speaker>NELTON, seul.</speaker>
+<sp who="NELTON"><speaker>NELTON</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="51">Dans ce jour, malgré moi, je forme sur Milord</l>
 	<l id="52">Un soupçon que j'étouffe et qui renaît plus fort.</l>
 	<l id="53">De son âme avec soin il me cache le trouble.</l>
@@ -163,8 +165,10 @@
 	<l id="68">Mon doute à son aspect ne sait que s'affermir.</l>
 </sp>
 </div2>
-<div2 stage="location" type="scene" n="3"><head>SCÈNE III. Le Comte, Nelton se tenant éloigné.</head>
-<sp stage="watch" who="LE COMTE"><speaker>LE COMTE, sans voir Nelton.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="location"> Le Comte, Nelton se tenant éloigné.
+</stage>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="watch">, sans voir Nelton.
+	</stage>
 	<l id="69">Quels transports inconnus ! Et quel combat terrible !</l>
 	<l id="70">À l'amour jusqu'ici mon coeur inaccessible</l>
 	<l id="71">Avait senti les traits de la seule amitié.</l>
@@ -182,7 +186,7 @@
 	<l id="83">Dans ce même salon un objet enchanteur</l>
 	<l id="84">Paraît, lance un regard, et subjugue mon coeur.</l>
 	<l id="85">Des écueils de l'amour j'ai sauvé ma jeunesse ;</l>
-	<l id="86">J'attends, pour m'y briser, l'âge de la sagesse ></l>
+	<l id="86">J'attends, pour m'y briser, l'âge de la sagesse &gt;</l>
 	<l id="87">Et d'une folle ardeur je me vois assailli !</l>
 	<l id="88">Ô Ciel ! Est-il possible ? Et suis-je bien Neuilly ?</l>
 	<l id="89">Je combats vainement ; ma raison est vaincue :</l>
@@ -192,7 +196,8 @@
 	<l id="93">Je perds depuis trois jours tout le foin de ma gloire,</l>
 	<l id="94">Et les noms les plus chers sortent de ma mémoire.</l>
 </sp>
-<sp stage="aparte" who="NELTON"><speaker>NELTON, à part.</speaker>
+<sp who="NELTON"><speaker>NELTON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="95">Mon soupçon était juste, et le Comte a parlé,</l>
 	<l id="96">Le secret de ses feux m'est enfin dévoilé.</l>
 </sp>
@@ -394,7 +399,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="NELTON"><speaker>NELTON, seul.</speaker>
+<sp who="NELTON"><speaker>NELTON</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="221">Pour un maître si grand mon âme s'intéresse,</l>
 	<l id="222">Et je veux dans ce jour couronner sa tendresse.</l>
 	<l id="223">Recourons à Lucie, employons son appui,</l>
@@ -404,7 +410,8 @@
 	<l id="227">Je ne puis mieux choisir. Je vais... Mais la voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Nelton, Lucie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Nelton, Lucie.
+</stage>
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
 	<l id="228">Pour saluer Milord, je reparais ici ;</l>
 	<l id="229" syll="6" part="i">Mais je ne le vois pas.</l>
@@ -515,7 +522,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="LA MARQUISE"><speaker>LA MARQUISE, seule.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="289">Léonore choisit l'état de la retraite.</l>
 	<l id="290">Sa beauté, sa douceur, font que je la regrette.</l>
 	<l id="291">De ma fille elle occupe et mérite le rang,</l>
@@ -526,7 +534,8 @@
 	<l id="296">Lucie entre, je dois le cacher à ses yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Marquise, Lucie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Marquise, Lucie.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="297">De voir Milord Neuilly je suis impatiente ;</l>
 	<l id="298">Mais des pas que j'ai faits, j'ai lieu d'être contente.</l>
@@ -565,14 +574,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="LUCIE"><speaker>LUCIE, seule.</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="321">Sa noble ambition est digne de louange,</l>
 	<l id="322">Cependant Léonore et sa langueur étrange,</l>
 	<l id="323">Ne cessent un moment d'agiter mon esprit ;</l>
 	<l id="324">Je mets tout en usage, et rien ne l'en guérit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lucie, Nelton.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lucie, Nelton.
+</stage>
 <sp who="NELTON"><speaker>NELTON.</speaker>
 	<l id="325">Madame, pardonnez au zèle qui m'entraîne,</l>
 	<l id="326">L'intérêt de mon maître en ce lieu me ramène :</l>
@@ -634,7 +645,8 @@
 </sp>
 <stage type="exit">Il sort.</stage>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, Lucie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, Lucie.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 	<l id="363">Ah ! De grâce, Lucie, éclaircissez-mon coeur ;</l>
 	<l id="364">Depuis hier au soir, je n'ai pu voir ma soeur :</l>
@@ -697,8 +709,10 @@
 <stage type="exit">Lucie sort.</stage>
 </sp>
 </div2>
-<div2 stage="dream" type="scene" n="6"><head>SCÈNE VI. Le Marquis, Léonore plongée dans la rêverie.</head>
-<sp stage="location" who="LÉONORE"><speaker>LÉONORE, se trouvant vis-a-vis le Marquis.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage type="dream"> Le Marquis, Léonore plongée dans la rêverie.
+</stage>
+<sp who="LÉONORE"><speaker>LÉONORE</speaker><stage type="location">, se trouvant vis-a-vis le Marquis.
+	</stage>
 	<l id="395" syll="6" part="i">Ah ! Mon frère, c'est vous !</l>
 </sp>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
@@ -931,7 +945,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Comte, Nelton.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Comte, Nelton.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="529">Léonore nous quitte, ô, Ciel ! Est-il possible ?</l>
 </sp>
@@ -985,7 +1000,8 @@
 <stage type="exit">Nelton sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Comte, Lucie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Comte, Lucie.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="559">Croirai-je dans ce jour un bruit qui se répand ?</l>
 	<l id="560">Léonore, dit-on, entre dans un couvent.</l>
@@ -1114,11 +1130,13 @@
 	<l id="645">Parlez à la Marquise, et comptez sur Lucie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, Lucie, Nelton.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, Lucie, Nelton.
+</stage>
 <sp who="NELTON"><speaker>NELTON.</speaker>
 	<l id="646">Monsieur, vos pas sont vains, et Madame est sortie.</l>
 </sp>
-<sp stage="toward" who="LE COMTE"><speaker>LE COMTE, à Lucie.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="toward">, à Lucie.
+</stage>
 <stage type="aparte">À part.</stage>
 	<l id="647">Adieu. Si mon ardeur n'éclate dans ce jour,</l>
 	<l id="648">Sa fille part demain, je la perds sans retour.</l>
@@ -1129,7 +1147,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LUCIE"><speaker>LUCIE, seule.</speaker>
+<sp who="LUCIE"><speaker>LUCIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="653">Je déplore son sort, et je plains Léonore,</l>
 	<l id="654">Chaque moment accroît, l'ennui qui la dévore ;</l>
 	<l id="655">Depuis l'instant fatal qu'elle a vu le Marquis,</l>
@@ -1145,7 +1164,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Marquise, Léonore.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Marquise, Léonore.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="665">Léonore, approchez, il est temps que mes mains</l>
 	<l id="666">Écartent le rideau qui voile vos destins.</l>
@@ -1251,7 +1271,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="LÉONORE"><speaker>LÉONORE, seule.</speaker>
+<sp who="LÉONORE"><speaker>LÉONORE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="757">Respirons ! De son fils je ne suis pas la soeur,</l>
 	<l id="758">Et je sens succéder la joie à la douleur.</l>
 	<l id="759">Je puis l'aimer sans crime, et je puis le lui dire.</l>
@@ -1286,7 +1307,8 @@
 	<l id="780">Mais, Madame, voilà le Comte qui s'avance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Comte, La Marquise.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Comte, La Marquise.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="781">Madame, je vous vois, et mon coeur transporté</l>
 	<l id="782">Goûte enfin un bonheur que j'ai tant souhaité.</l>
@@ -1373,11 +1395,13 @@
 	<l id="848" syll="2" part="i">Va vous...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, La Marquise, Lucie.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, La Marquise, Lucie.
+</stage>
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
 	<l id="848" syll="10" part="f">Ah ! Dans te trouble où mon âme est en proie...</l>
 </sp>
-<sp stage="aparte" who="LA MARQUISE"><speaker>LA MARQUISE, à Lucie.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="aparte">, à Lucie.
+	</stage>
 	<l id="849">Quel est donc le sujet d'un tel saisissement ?</l>
 </sp>
 <sp who="LUCIE"><speaker>LUCIE.</speaker>
@@ -1392,7 +1416,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LE COMTE"><speaker>LE COMTE, seul.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="855">Ce coup est accablant ; pour elle j'en soupire :</l>
 	<l id="856">Mais quel est le secret qu'elle voulait me dire ?</l>
 	<l id="857">Regarde-t-il Sussex, ou touche-t-il mes feux ?</l>
@@ -1400,7 +1425,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Marquis, Léonore.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Marquis, Léonore.
+</stage>
 <sp who="LÉONORE"><speaker>LÉONORE.</speaker>
 	<l id="859">Mon frère, rappeliez votre âme évanouie ;</l>
 	<l id="860">Venez, et que d'un mot je vous sauve la vie.</l>
@@ -1538,7 +1564,8 @@
 	<l id="945">Et qu'en dépit du sort, je tiendrai mon serment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="-"><head>SCÈNE VI. Le Marquis, Léonore, La Marquise.</head>
+<div2 type="scene" n="-"><head>SCÈNE VI.</head><stage> Le Marquis, Léonore, La Marquise.
+</stage>
 <sp who="LA MARQUISE"><speaker>LA MARQUISE.</speaker>
 	<l id="946">Je cherche en vain mon fils. Mais quel étonnement !</l>
 	<l id="947">Mon fils, que faites-vous aux pieds de Léonore ?</l>
@@ -1567,7 +1594,8 @@
 	<l id="961">Ç'en est assez. Rentrez dans votre appartement.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Marquise, Le Marquis.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Marquise, Le Marquis.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 	<l id="962">Je ne sais que penser d'un pareil traitement.</l>
 </sp>
@@ -1614,7 +1642,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="LE MARQUIS"><speaker>LE MARQUIS, seul.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="985">Non, le temps ne sera qu'augmenter ma fureur,</l>
 	<l id="986">Que ne me laissait-on mourir dans mon erreur ?</l>
 	<l id="987">Quand je croyais brûler d'une ardeur criminelle,</l>
@@ -1625,7 +1654,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Marquis, Léonore.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Marquis, Léonore.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 	<l id="991">Répondez, Léonore, à mon impatience,</l>
 	<l id="992">Parlez, ne laissez pas mon esprit en balance,</l>
@@ -1732,7 +1762,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="LÉONORE"><speaker>LÉONORE, seule.</speaker>
+<sp who="LÉONORE"><speaker>LÉONORE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1069">Vit-on jamais amants plus malheureux que nous ?</l>
 	<l id="1070">Et peut-on être en butte à de plus rudes coups ?</l>
 	<l id="1071">À peine délivrés du poids honteux du crime,</l>
@@ -1741,7 +1772,8 @@
 	<l id="1074">Un mouvement mêlé de crainte et de respect.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Comte, Léonore.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Comte, Léonore.
+</stage>
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="1075">Madame, en ce moment, je doute si je veille ;</l>
 	<l id="1076">Le bruit le plus flatteur a frappé mon oreille.</l>
@@ -1806,7 +1838,8 @@
 	<l id="1126">Et dites-moi le nom de votre heureux vainqueur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Comte, Léonore, Le Marquis.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Comte, Léonore, Le Marquis.
+</stage>
 <sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
 	<l id="1127">Comte, il n'est plus de frein à l'ardeur qui m'entraîne,</l>
 	<l id="1128">Et dans mon désespoir je me possède à peine.</l>
@@ -1901,7 +1934,8 @@
 	<l id="1182">Et pour la signaler, je rentre sous ses lois.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE. Le Comte, Le Marquis, Léonore, La Marquise.</head> 
+<div2 type="scene" n="5"><head>SCÈNE DERNIÈRE.</head><stage> Le Comte, Le Marquis, Léonore, La Marquise. 
+</stage> 
 <sp who="LE COMTE"><speaker>LE COMTE.</speaker>
 	<l id="1183">Du Comte de Sussex la fille m'est connue,</l>
 	<l id="1184">Madame, et mon amour expire à cette vue.</l>

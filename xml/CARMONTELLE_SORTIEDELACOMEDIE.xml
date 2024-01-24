@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,25 +28,25 @@
 			<titlePart type="main">SORTIE DE LA COMÉDIE FRANÇAISE</titlePart>
 			<titlePart type="sub">ONZIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME DE VERMONT" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME DE VERMONT</role>.</castItem>
-		<castItem><role id="MADAME DE MIRVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME DE MIRVILLE</role>.</castItem>
-		<castItem><role id="LE COMTE DE VERSIN" sex="1" type="H" statut="comte" age="A" stat_amour='néant'>LE COMTE DE VERSIN</role>.</castItem>
-		<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour='néant'>LE CHEVALIER</role>.</castItem>
-		<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>LE DUC</role>.</castItem>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS</role>.</castItem>
-		<castItem><role id="LE VICOMTE" sex="1" type="H" statut="vicomte" age="A" stat_amour='néant'>LE VICOMTE</role>.</castItem>
-		<castItem><role id="LE COUREUR DU DUC" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>LE COUREUR DU DUC</role>.</castItem>
-		<castItem><role id="TANCRÈDE" sex="1" type="H" statut="soldat" age="A" stat_amour='néant'>TANCRÈDE</role>, Nègre, Housard au Marquis.</castItem>
-		<castItem><role id="LUXEMBOURG" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>LUXEMBOURG</role>, appelant les gens.</castItem>
+		<castItem><role id="MADAME DE VERMONT" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE VERMONT</role>.</castItem>
+		<castItem><role id="MADAME DE MIRVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE MIRVILLE</role>.</castItem>
+		<castItem><role id="LE COMTE DE VERSIN" sex="1" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE DE VERSIN</role>.</castItem>
+		<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour="néant">LE CHEVALIER</role>.</castItem>
+		<castItem><role id="LE DUC" sex="1" type="H" statut="duc" age="A" stat_amour="néant">LE DUC</role>.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>.</castItem>
+		<castItem><role id="LE VICOMTE" sex="1" type="H" statut="vicomte" age="A" stat_amour="néant">LE VICOMTE</role>.</castItem>
+		<castItem><role id="LE COUREUR DU DUC" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">LE COUREUR DU DUC</role>.</castItem>
+		<castItem><role id="TANCRÈDE" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">TANCRÈDE</role>, Nègre, Housard au Marquis.</castItem>
+		<castItem><role id="LUXEMBOURG" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">LUXEMBOURG</role>, appelant les gens.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est sur l'escalier de la Comédie Française.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
@@ -54,7 +54,8 @@
 <body>
 <div1 type="act" n="1"><head>SORTIE DE LA COMÉDIE FRANÇAISE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="shout" who="MADAME DE VERMONT"><speaker>MADAME DE VERMONT, criant.</speaker>
+<sp who="MADAME DE VERMONT"><speaker>MADAME DE VERMONT</speaker><stage type="shout">, criant.
+</stage>
 <p id="1">
 	<s id="1">Madame de Mirville, attendez-moi donc, je suis toute seule.</s>
 </p>
@@ -146,7 +147,8 @@
 	<s id="2">Il faut bien que nous causions un peu.</s>
 </p>
 </sp>
-<sp stage="shout" who="LE COUREUR"><speaker>LE COUREUR, criant.</speaker>
+<sp who="LE COUREUR"><speaker>LE COUREUR</speaker><stage type="shout">, criant.
+</stage>
 <p id="17">
 	<s id="1">Monsieur_le_Duc, voilà votre carrosse.</s>
 </p>
@@ -164,7 +166,8 @@
 	<s id="1">Justement je soupe chez moi, Madame de Vermont y sera, cela serait bien honnête à vous, si vous veniez.</s>
 </p>
 </sp>
-<sp stage="away" who="LE DUC"><speaker>LE DUC, en s'en allant.</speaker>
+<sp who="LE DUC"><speaker>LE DUC</speaker><stage type="away">, en s'en allant.
+</stage>
 <p id="20">
 	<s id="1">Sûrement je ferai l'impossible pour vous en aller demander...</s>
 </p>
@@ -325,7 +328,8 @@
 	<s id="1">Je ne vois pas bien.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, arrivant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, arrivant.
+</stage>
 <p id="50">
 	<s id="1">Quoi, Madame, vous étiez ici ! </s>
 	<s id="2">Je ne vous ai aperçu nulle_part.</s>
@@ -417,7 +421,8 @@
 	<s id="1">Je ne vous dirai pas trop ; mais il me semble qu'on m'a dit qu'il y avait plus de huit jours que c'était une affaire arrangée.</s>
 </p>	
 </sp>
-<sp stage="entrance/touch" who="LE VICOMTE"><speaker>LE VICOMTE arrivant, frappant sur l' épaule da Marquis.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage type="entrance/touch"> arrivant, frappant sur l' épaule da Marquis.
+</stage>
 <p id="67">
 	<s id="1">Bonjour, Marquis, attends-tu ton carrosse ?</s>
 </p>
@@ -486,7 +491,8 @@
 	<s id="1">Ah, ce n'est pas à moi qu'il faut dire cela.</s>
 </p>
 </sp>
-<sp who="MADAME DE VERMONT"><speaker>MADAME DE VERMONT, au Chevalier.</speaker>
+<sp who="MADAME DE VERMONT"><speaker>MADAME DE VERMONT</speaker><stage>, au Chevalier.
+</stage>
 <p id="78">
 	<s id="1">Qu'est-ce que cela veut dire, Monsieur, quoi vous soupez encore avec des filles ? </s>
 	<s id="2">Allez, je ne veux plus vous voir.</s>
@@ -499,7 +505,8 @@
 	<s id="3">Hé, mais fi donc !</s>
 </p>
 </sp>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, au Chevalier.</speaker>
+<sp who="LE VICOMTE"><speaker>LE VICOMTE</speaker><stage>, au Chevalier.
+</stage>
 <p id="80">
 	<s id="1">Tu as entendu ? </s>
 	<s id="2">Je me fuis diverti, et voilà le Chevalier qui est querellé à présent.</s>
@@ -523,7 +530,8 @@
 	<s id="2">Le froid vous aura saisi.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, offrant la main à Madame de Mirville.</speaker>
+<sp who="LE COMTE"><speaker>LE COMTE</speaker><stage>, offrant la main à Madame de Mirville.
+</stage>
 <p id="84">
 	<s id="1">Allons, Mesdames, voulez-vous bien venir ? </s>
 	<s id="2">Madame, qu'avez-vous donc ?</s>
@@ -536,7 +544,8 @@
 	<s id="3">Je n'en puis plus !</s>
 </p>
 </sp>
-<sp stage="shout" who="LUXEMBOURG"><speaker>LUXEMBOURG, criant.</speaker>
+<sp who="LUXEMBOURG"><speaker>LUXEMBOURG</speaker><stage type="shout">, criant.
+</stage>
 <p id="86">
 	<s id="1">Madame de Mirville, Madame de Mirville.</s>
 </p>
@@ -546,7 +555,8 @@
 	<s id="1">Mais, Madame, que voulez-vous donc dire ?</s>
 </p>
 </sp>
-<sp stage="shout" who="LUXEMBOURG"><speaker>LUXEMBOURG, criant.</speaker>
+<sp who="LUXEMBOURG"><speaker>LUXEMBOURG</speaker><stage type="shout">, criant.
+</stage>
 <p id="88">
 	<s id="1">Le carrosse de Madame de Mirville.</s>
 </p>
@@ -556,7 +566,8 @@
 	<s id="1">Allons, la voilà.</s>
 </p>
 </sp>
-<sp stage="shout" who="LUXEMBOURG"><speaker>LUXEMBOURG, criant.</speaker>
+<sp who="LUXEMBOURG"><speaker>LUXEMBOURG</speaker><stage type="shout">, criant.
+</stage>
 <p id="90">
 	<s id="1">Madame de Mirville, Madame de Mirville, votre carrosse.</s>
 </p>

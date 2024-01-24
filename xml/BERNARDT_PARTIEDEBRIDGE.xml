@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">La pièce a été jouée pour la première fois au Théâtre Antoine en juin 1916.</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,21 +38,22 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="DERGOS" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>DERGOS</role>.</castItem>
-		<castItem><role id="LUDOR" sex="1" type="H" statut="assureur" age="A" stat_amour=''>LUDOR</role>, assureur.</castItem>
-		<castItem><role id="MARTIN" sex="1" type="H" statut="publiciste" age="A" stat_amour=''>MARTIN</role>, publiciste.</castItem>
-		<castItem><role id="RABON" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>RABON</role>, boursier.</castItem>
-		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="médecin" age="A" stat_amour=''>LE DOCTEUR</role>.</castItem>
-		<castItem><role id="MADAME DERGOS" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>MADAME DERGOS</role>.</castItem>
+		<castItem><role id="DERGOS" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">DERGOS</role>.</castItem>
+		<castItem><role id="LUDOR" sex="1" type="H" statut="assureur" age="A" stat_amour="">LUDOR</role>, assureur.</castItem>
+		<castItem><role id="MARTIN" sex="1" type="H" statut="publiciste" age="A" stat_amour="">MARTIN</role>, publiciste.</castItem>
+		<castItem><role id="RABON" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">RABON</role>, boursier.</castItem>
+		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="médecin" age="A" stat_amour="">LE DOCTEUR</role>.</castItem>
+		<castItem><role id="MADAME DERGOS" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">MADAME DERGOS</role>.</castItem>
 	</castList>
-	<set location='France' country='France' periode='XXème' gps="(N/A)"></set>
+	<set location="France" country="France" periode="XXème" gps="(N/A)"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 113-129</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA PARTIE DE BRIDGE</head>
 <div2 type="scene" n="1"><head>Dergos, Madame Dergos.</head>
 <stage type="decor/furniture">Un petit salon assez élégant au milieu de la scène, une table de bridge est dressée, chaises pour la table.</stage>
-<sp stage="lie" who="DERGOS"><speaker>DERGOS, est étendu sur une chaise longue</speaker>
+<sp who="DERGOS"><speaker>DERGOS</speaker><stage type="lie">, est étendu sur une chaise longue
+</stage>
 <p id="1">
 	<s id="1">Ah... </s>
 </p>
@@ -77,7 +78,8 @@
 	<s id="1">Parce qu'ils aiment mieux jouer au bridge entre hommes et avec des partenaires qu'ils connaissent.</s>
 </p>
 </sp>
-<sp who="DERGOS"><speaker>DERGOS, gémissant</speaker>
+<sp who="DERGOS"><speaker>DERGOS</speaker><stage>, gémissant
+</stage>
 <p id="6">
 	<s id="1">Ah... </s>
 	<s id="2">Ah... </s>
@@ -137,7 +139,8 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="sit" who="LUDOR"><speaker>LUDOR, s'asseyant.</speaker>
+<sp who="LUDOR"><speaker>LUDOR</speaker><stage type="sit">, s'asseyant.
+</stage>
 <p id="16">
 	<s id="1">Ah... Ah... </s>
 	<s id="2">J'espère qu'il ne va pas nous louper notre partie, nous avons lâché notre taxi et dans ce quartier perdu nous n'en trouverons jamais un pour aller chez les Alstoff.</s>
@@ -191,13 +194,15 @@
 </p>
 <stage type="entrance">Entre Dergos.</stage>
 </sp>
-<sp stage="wave" who="DERGOS"><speaker>DERGOS, courbé en deux.</speaker>
+<sp who="DERGOS"><speaker>DERGOS</speaker><stage type="wave">, courbé en deux.
+</stage>
 <p id="26">
 	<s id="1">Je vous demande pardon, ce sont mes reins. </s>
 	<s id="2">J'étais tranquille, depuis quelque temps et puis, voilà...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="RABON"><speaker>RABON, l'interrompant.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="27">
 	<s id="1">Oui, oui, votre femme nous a dit tout ça. </s>
 	<s id="2">On a tiré pour vous, vous êtes avec moi et Ludor est avec Martin. </s>
@@ -206,7 +211,8 @@
 </p>
 <stage type="sit/complain">Ils se mettent à table, Dergos toujours gémissant.</stage>
 </sp>
-<sp who="RABON"><speaker>RABON, avec autorité.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage>, avec autorité.
+</stage>
 <p id="28">
 	<s id="1">Ne vous plaignez pas comme ça tout le temps, ça agace votre mal.</s>
 </p>
@@ -222,12 +228,14 @@
 	<s id="1">Je passe.</s>
 </p>
 </sp>
-<sp stage="explict" who="RABON"><speaker>RABON, partenaire de Dergos.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage type="explict">, partenaire de Dergos.
+</stage>
 <p id="31">
 	<s id="1">Je ne dis rien.</s>
 </p>
 </sp>
-<sp who=""><speaker>MARTIN, partenaire de Ludor</speaker>
+<sp who=""><speaker>MARTIN</speaker><stage>, partenaire de Ludor
+</stage>
 <p id="32">
 	<s id="1">Deux_coeurs.</s>
 </p>
@@ -242,12 +250,14 @@
 	<s id="1">Deux_coeurs, c'est bon pour moi.</s>
 </p>
 </sp>
-<sp stage="sit/location/anxious" who="MADAME DERGOS"><speaker>MADAME DERGOS s'est assise à côté de son mari, inquiète.</speaker>
+<sp who="MADAME DERGOS"><speaker>MADAME DERGOS</speaker><stage type="sit/location/anxious"> s'est assise à côté de son mari, inquiète.
+</stage>
 <p id="35">
 	<s id="1">Comment te sens-tu, Alfred ?</s>
 </p>
 </sp>
-<sp who="RABON"><speaker>RABON, avec autorité.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage>, avec autorité.
+</stage>
 <p id="36">
 	<s id="1">Il va mieux, moi je dis deux_sans_atout.</s>
 </p>
@@ -258,7 +268,8 @@
 </p>
 <stage type="play/entrance/complain">L'enchère en reste là. On joue pour trois levées à coeur. Dergos paraît languissant. Le coup est terminé. Martin a fait ses trois levées à coeur.</stage>
 </sp>
-<sp who="RABON"><speaker>RABON, à Dergos sévèrement.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage>, à Dergos sévèrement.
+</stage>
 <p id="38">
 	<s id="1">Alors, puisque c'est joué, permettez-moi de vous faire une observation, je vous avais cependant bien indiqué qu'il fallait m'envoyer trèfle, ça a une importance énorme, je vous passais la main, il ne faisait pas son compte de levées.</s>
 </p>
@@ -273,7 +284,8 @@
 	<s id="1">Tu ferais mieux de t'excuser auprès de ces messieurs, tu n'es pas bien, tu n'es pas au jeu, ce sera plutôt désagréable pour eux de jouer dans ces conditions.</s>
 </p>	
 </sp>
-<sp who="RABON"><speaker>RABON, vivement.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage>, vivement.
+</stage>
 <p id="41">
 	<s id="1">Mais non, mais non, il va se remettre.</s>
 </p>
@@ -283,13 +295,15 @@
 	<s id="1">Et puis nous l'aurons chacun notre tour.</s>
 </p>
 </sp>
-<sp stage="complain" who="DERGOS"><speaker>DERGOS, plaintif.</speaker>
+<sp who="DERGOS"><speaker>DERGOS</speaker><stage type="complain">, plaintif.
+</stage>
 <p id="43">
 	<s id="1">Ah, ça ne va pas, ah, ça ne va pas...</s>
 </p>
 <stage type="stand/pain/exit">Il se lève douloureusement, suivi par Madame Dergos. Il se dirige vers sa chambre, les trois joueurs restent seuls.</stage>
 </sp>
-<sp stage="stress" who="RABON"><speaker>RABON, décidé.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage type="stress">, décidé.
+</stage>
 <p id="44">
 	<s id="1">C'est bien simple, il n'y a qu'à filer chez les Alstoff.</s>
 </p>
@@ -314,13 +328,15 @@
 	<s id="1">Ça ne veut rien dire, ça ne veut rien dire, ne vous frappez pas, nous allons vous laisser, madame, nous sentons que nous vous encombrons.</s>
 </p>
 </sp>
-<sp who="MADAME DERGOS"><speaker>MADAME DERGOS, suppliante</speaker>
+<sp who="MADAME DERGOS"><speaker>MADAME DERGOS</speaker><stage>, suppliante
+</stage>
 <p id="49">
 	<s id="1">Ah, messieurs, restez encore un peu, j'ai envoyé chercher notre médecin qui habite la maison à côté ; si on le trouve chez lui, ce sera bien, sinon, ce sera affolant d'être seule.</s>
 </p>
 <stage type="watch/wave">Les trois hommes se regardent, ils se font signe qu'il n'y a pas moyen de faire autrement.</stage>
 </sp>
-<sp who="RABON"><speaker>RABON, résigné.</speaker>
+<sp who="RABON"><speaker>RABON</speaker><stage>, résigné.
+</stage>
 <p id="50">
 	<s id="1">Bien, Madame, à votre disposition.</s>
 </p>
@@ -396,7 +412,8 @@
 	<s id="1">Des amis de mon mari qui étaient justement venus passer la soirée.</s>
 </p>
 </sp>
-<sp stage="serious" who="LE DOCTEUR"><speaker>LE DOCTEUR, sévèrement</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="serious">, sévèrement
+</stage>
 <p id="64">
 	<s id="1">Oh ! </s>
 	<s id="2">Il faut qu'il se repose, il vaudrait mieux qu'il n'y ait pas trop de bruit dans la maison.</s>
@@ -532,7 +549,8 @@
 </p>
 <stage type="watch/silence">Il regarde silencieusement la table à jouer.</stage>
 </sp>
-<sp stage="" who="MARTIN"><speaker>MARTIN, engageant.</speaker>
+<sp who="MARTIN"><speaker>MARTIN</speaker><stage type="">, engageant.
+</stage>
 <p id="87">
 	<s id="1">Nous jouerons au taux qui vous plaira.</s>
 </p>
@@ -564,7 +582,8 @@
 	<s id="1">Docteur, j'ai tout ce qu'il me faut pour les enveloppements, la flanelle, l'ouate.</s>
 </p>
 </sp>
-<sp stage="INTERRUPT" who="LE DOCTEUR"><speaker>LE DOCTEUR, l'interrompant.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="INTERRUPT">, l'interrompant.
+</stage>
 <p id="93">
 	<s id="1">Très bien, très bien, eh bien ! </s>
 	<s id="2">Commencez donc ça tout de suite avec la bonne et, pour vous tranquilliser, je resterai encore ici quelque temps.</s>
@@ -606,12 +625,14 @@
 	<s id="1">C'est lui qui se plaint comme ça ?</s>
 </p>
 </sp>
-<sp who="LE DOCTEUR"><speaker>LE DOCTEUR, relevant son jeu.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage>, relevant son jeu.
+</stage>
 <p id="101">
 	<s id="1">Oui, c'est très douloureux.</s>
 </p>
 </sp>
-<sp who="LUDOR"><speaker>LUDOR, après avoir regardé son jeu.</speaker>
+<sp who="LUDOR"><speaker>LUDOR</speaker><stage>, après avoir regardé son jeu.
+</stage>
 <p id="102">
 	<s id="1">Moi, je passe.</s>
 </p>
@@ -655,7 +676,8 @@
 	<s id="1">Malgré soi, on est influencé, on n'est pas à son jeu.</s>
 </p>
 </sp>
-<sp stage="toward" who="LUDOR"><speaker>LUDOR, au docteur.</speaker>
+<sp who="LUDOR"><speaker>LUDOR</speaker><stage type="toward">, au docteur.
+</stage>
 <p id="111">
 	<s id="1">C'est si mauvais que ça, docteur, les piqûres de morphine ?</s>
 </p>

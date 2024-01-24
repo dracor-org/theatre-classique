@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -26,12 +26,12 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type='main'>LE FIDÈLE ESCLAVE</titlePart>
-			<titlePart type='sub'>COMÉDIE</titlePart>
-			<titlePart type='sub'>Dédiée à Monseigneur le Comte DE FURSTENBERG.</titlePart>
+			<titlePart type="main">LE FIDÈLE ESCLAVE</titlePart>
+			<titlePart type="sub">COMÉDIE</titlePart>
+			<titlePart type="sub">Dédiée à Monseigneur le Comte DE FURSTENBERG.</titlePart>
 		</docTitle> 
-		<docDate value='1662'>M. DC. LXII. Avec Privilège du Roi.</docDate>
-		<docAuthor id='VALLÉE'>Par le Sieur Vallée.</docAuthor>
+		<docDate value="1662">M. DC. LXII. Avec Privilège du Roi.</docDate>
+		<docAuthor id="VALLÉE">Par le Sieur Vallée.</docAuthor>
 		<docImprint>
 			<privilege><head>Extrait du Privilège du Roi.</head>
 				<p>Par Grâce et Privilège du Roi, il est permis au Sieur VALLEE, de faire imprimer, vendre et débiter, par tel Imprimeur ou Libraire qu'il voudra, une Comédie intitulée le Fidèle Esclave ; et défenses sont faites à toutes autres personnes de quelque qualité et condition qu'elles soient, de contrefaire ou faire contrefaire ledit Livre, sur les peines portées par ledit Privilège, et pendant le temps d'icelui. </p>
@@ -40,7 +40,7 @@
 			<editor>À PARIS, Chez JEAN COCHART ; Au Palais, en la Galerie des Prisonniers, au Saint Esprit. </editor>
 		</docImprint>
 	<performance>
-			<premiere date="(inconnue)" location="(inconnue)"></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 	</performance>
 		<div type="dedicace"><adresse>À MONSEIGNEUR LE COMTE GUILLAUME DE FURSTENBERG.</adresse> 
 			<head>MONSEIGNEUR,</head>
@@ -84,7 +84,8 @@
 </front>
 <body> 
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. L'Infante, Thelastrie.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> L'Infante, Thelastrie.
+</stage>
 <sp who="THELASTRIE"><speaker>THELASTRIE.</speaker>
 	<l id="1">Je ne saurais, Madame, en cette conjoncture, </l>
 	<l id="2">Où l'esprit incertain juge par conjecture, </l>
@@ -197,7 +198,8 @@
 	<l id="87">Ainsi d'un bon avis ton esprit impuissant </l>
 	<l id="88" syll="6" part="i">Ne peut me soulager. </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="88" syll="6" part="f">Chacun sait ce qu'il sent. </l>
 </sp>
 <sp who="L'INFANTE"><speaker>L'INFANTE.</speaker>
@@ -219,7 +221,8 @@
 	<l id="97">Je parlais d'un amour qui n'est qu'imaginaire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, L'Infante, Thelastrie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, L'Infante, Thelastrie.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="98" syll="6" part="i">Je vous parais suspect. </l>
 </sp>
@@ -267,7 +270,8 @@
 	<l id="125">Sans faire des plaisirs une aveugle coutume </l>
 	<l id="126">En goûtant la douceur songer à l'amertume ? </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="127" syll="6" part="i">Qu'elle déguise bien ! </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -332,7 +336,8 @@
 	<l id="179" syll="2" part="i">Si j'ose... </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, L'Infante, Thelastrie, Corax.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, L'Infante, Thelastrie, Corax.
+</stage>
 <sp who="CORAX"><speaker>CORAX.</speaker>
 	<l id="179" syll="10" part="f">Un étranger hâté de son retour, </l>
 	<l id="180">Et qui présentement arrive en cette Cour, </l>
@@ -382,7 +387,8 @@
 	<l id="200">Vous devez m'obéir et dégager ma foi. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, L'Infante, Thelastrie, Corax, Baliste.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, L'Infante, Thelastrie, Corax, Baliste.
+</stage>
 <sp who="BALISTE"><speaker>BALISTE.</speaker>
 	<l id="201">Sire, le Roi mon Maître, à qui toute l'Afrique </l>
 	<l id="202">Doit ce qu'elle a de beau, de grand, de magnifique, </l>
@@ -474,7 +480,8 @@
 	<l id="281">Quoique vous ayez pris une peine inutile </l>
 	<l id="282" syll="6" part="i">En venant l'y chercher... </l>
 </sp>
-<sp stage="low" who="L'INFANTE"><speaker>L'INFANTE, bas.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="282" syll="6" part="f">Que n'était-ce Carmile ! </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -484,7 +491,8 @@
 	<l id="286">Que c'est un envoyé du Roi de Numidie. </l>
 	<l id="287">Corax vous conduira dans votre appartement. </l>
 </sp>
-<sp stage="toward" who="BALISTE"><speaker>BALISTE, à l'infante.</speaker>
+<sp who="BALISTE"><speaker>BALISTE</speaker><stage type="toward">, à l'infante.
+	</stage>
 	<l id="288">Je vous ferai, Madame, ailleurs mon compliment. </l>
 </sp>
 <sp who="L'INFANTE"><speaker>L'INFANTE.</speaker>
@@ -495,7 +503,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp stage="follow" who="BORISTHÈNE"><speaker>BORISTHÈNE, suivi d'Atramante. </speaker>
+<sp who="BORISTHÈNE"><speaker>BORISTHÈNE</speaker><stage type="follow">, suivi d'Atramante. 
+	</stage>
 	<l id="291">J'expérimente bien qu'une aigre impatience </l>
 	<l id="292">Suit toujours la douceur d'une haute espérance.</l>
 	<l id="293">Au point de posséder le sujet de mes voeux </l>
@@ -511,7 +520,8 @@
 	<l id="303">En ce commun devoir la clarté s'intéresse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Boristhène, Thelastrie, Caldice.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Boristhène, Thelastrie, Caldice.
+</stage>
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="304">Me direz-vous, Madame, où l'on voit ma Princesse ? </l>
 </sp>
@@ -531,7 +541,8 @@
 	<l id="307" syll="6" part="f">Maintenant cette crainte </l>
 	<l id="308">Ne peut à votre Esprit donner aucune atteinte. </l>
 </sp>
-<sp stage="away" who="BORISTHÈNE"><speaker>BORISTHÈNE, s'en allant.</speaker>
+<sp who="BORISTHÈNE"><speaker>BORISTHÈNE</speaker><stage type="away">, s'en allant.
+	</stage>
 	<l id="309">Je vous estime assez pour ne vous quitter pas, </l>
 	<l id="310">Si j'étais attiré par de moindres appas. </l>
 </sp>
@@ -570,7 +581,8 @@
 	<l id="336">Ne déclarent-ils pas ce qu'elle voudrait taire ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. L'Infante, Thelastrie, Caldice.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> L'Infante, Thelastrie, Caldice.
+</stage>
 <sp who="L'INFANTE"><speaker>L'INFANTE.</speaker>
 	<l id="337">À vous ouïr parler l'on penserait d'abord </l>
 	<l id="338">Que dans cet entretien vous n'êtes pas d'accord : </l>
@@ -680,11 +692,13 @@
 	<l id="398">Capables de changer l'ordre de l'Univers.</l>
 	<l id="399">Souffre à ma passion que l'espoir entretienne. </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="400">Le même espoir sera l'aliment de la mienne. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Boristhène, Atramante, L'Infante, Thelastrie, Caldice.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Boristhène, Atramante, L'Infante, Thelastrie, Caldice. 
+</stage> 
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="401">Sachant qu'un Étranger vous devait approcher, </l>
 	<l id="402">J'ai différé, Madame, un bien qui m'est si cher ; </l>
@@ -889,7 +903,8 @@
 	<l id="537">Mais, Madame, ce jour demande un autre emploi. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Boristhène, Atramante, L'Infante, Thelastrie,  Caldice, Corax.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Boristhène, Atramante, L'Infante, Thelastrie,  Caldice, Corax.
+</stage>
 <sp who="CORAX"><speaker>CORAX.</speaker>
 	<l id="538">Je viens exécuter la volonté du Roi. </l>
 	<l id="539">Et vous dire, Madame, en qu'elle impatience, </l>
@@ -900,13 +915,15 @@
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="543">Vous devez donc aller où le Roi vous demande. </l>
 </sp>
-<sp stage="low" who="L'INFANTE"><speaker>L'INFANTE, bas.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="544">Ô Ciel ! Qu'à ce besoin ton secours me défende. </l>
 </sp>
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Roi, L'Infante.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Roi, L'Infante.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="545">Ma patience cède, et mon courroux surmonte, </l>
 	<l id="546">L'un soutient mon honneur, l'autre faisait ma honte ; </l>
@@ -1003,7 +1020,8 @@
 	<l id="614">La Royauté le veut, souffrez que j'y renonce. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, L'Infante, Thelastrie, Corax.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, L'Infante, Thelastrie, Corax.
+</stage>
 <sp who="CORAX"><speaker>CORAX.</speaker>
 	<l id="615" syll="6" part="i">Sire, cet Étranger... </l>
 </sp>
@@ -1032,7 +1050,8 @@
 	<l id="626">Contre un mal violent un violent remède. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Roi, L'Infante, Thelastrie, Corax, Baliste.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Roi, L'Infante, Thelastrie, Corax, Baliste.
+</stage>
 <sp who="BALISTE"><speaker>BALISTE.</speaker>
 	<l id="627">Sire, après tant d'honneur et de bon traitement, </l>
 	<l id="628">À quoi l'on ne saurait répondre dignement : </l>
@@ -1066,10 +1085,12 @@
 	<l id="648">Il faut le retarder en faveur de l'Amour ; </l>
 	<l id="649">L'hymen de Boristhène avecque Mamphisie... </l>
 </sp>
-<sp stage="low" who="L'INFANTE"><speaker>L'INFANTE, bas.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="650">Ce discours mon âme est de douleur saisie. </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="651" syll="6" part="i">La mienne l'est aussi. </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -1110,7 +1131,8 @@
 	<l id="672">Depuis neuf ans détruit, aujourd'hui florissant. </l>
 	<l id="673" syll="6" part="i">Lycie en est le nom... </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="673" syll="6" part="f">Dois-je espérer ou craindre ? </l>
 </sp>
 <sp who="BALISTE"><speaker>BALISTE.</speaker>
@@ -1173,13 +1195,15 @@
 	<l id="723">Sans qu'il ait rien appris, par un certain rapport, </l>
 	<l id="724">Qu'il lui pût assurer ou sa vie, ou sa mort. </l>
 </sp>
-<sp stage="low" who="THELASTRIE"><speaker>THELASTRIE, bas.</speaker>
+<sp who="THELASTRIE"><speaker>THELASTRIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="725">Il faut le retirer de cette incertitude. </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="726">C'est à peu de repos beaucoup d'inquiétude. </l>
 </sp>
-<sp stage="toward" who="L'INFANTE"><speaker>L'INFANTE, à Thelastrie.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="toward">, à Thelastrie.
+	</stage>
 	<l id="727">Pendant tout ce discours, à tous les changements, </l>
 	<l id="728">Je remarquais en toi de nouveaux mouvements. </l>
 </sp>
@@ -1187,7 +1211,8 @@
 	<l id="729">C'est par une raison réservée à vous dire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, L'Infante, Thelastrie, Corax, Baliste, Boristhène, Atramante.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, L'Infante, Thelastrie, Corax, Baliste, Boristhène, Atramante.
+</stage>
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="730">Sire, si je le rends où mon objet m'attire, </l>
 	<l id="731">Quoiqu'à votre entretien je puisse être suspect, </l>
@@ -1203,7 +1228,8 @@
 	<l id="739">En vous donnant l'Infante, on ne peut pas juger, </l>
 	<l id="740">Que j'aie quelque bien, sans vous le partager. </l>
 </sp>
-<sp stage="toward" who="L'INFANTE"><speaker>L'INFANTE, à Thelastrie.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="toward">, à Thelastrie.
+	</stage>
 	<l id="741">Quoi que le Roi lui die, et quoi qu'il se propose, </l>
 	<l id="742">Ma foi n'est pas un bien dont un autre dispose. </l>
 </sp>
@@ -1475,7 +1501,8 @@
 	<l id="900">Pour imiter Hécate, il est mort dans la Mer. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. L'Infante, Thelastrie.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> L'Infante, Thelastrie.
+</stage>
 <sp who="THELASTRIE"><speaker>THELASTRIE.</speaker>
 	<l id="901">Un miracle, Madame, Atramante est Hécate. </l>
 </sp>
@@ -1529,7 +1556,8 @@
 	<l id="936">Laisse-moi seule ici, que je rêve en repos. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. L'Infante, Atramante.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> L'Infante, Atramante.
+</stage>
 <sp who="ATRAMANTE"><speaker>ATRAMANTE.</speaker>
 	<l id="937">Mon Prince, dans l'ardeur de l'amour qui le presse, </l>
 	<l id="938">Ne peut être un moment qu'auprès de sa princesse. </l>
@@ -1569,7 +1597,8 @@
 <sp who="ATRAMANTE"><speaker>ATRAMANTE.</speaker>
 	<l id="955">À ces mots absolus je ne résiste pas. </l>
 </sp>
-<sp stage="touch" who="L'INFANTE"><speaker>L'INFANTE, lui tenant la manche.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="touch">, lui tenant la manche.
+	</stage>
 	<l id="956">Qui vous noircit la main ne noircit pas le bras. </l>
 </sp>
 <sp who="ATRAMANTE"><speaker>ATRAMANTE.</speaker>
@@ -1769,7 +1798,8 @@
 	<l id="1114" syll="6" part="f">Qu'il vienne, je vous prie. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. L'Infante, Thelastrie. </head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> L'Infante, Thelastrie. 
+</stage>
 <sp who="THELASTRIE"><speaker>THELASTRIE.</speaker>
 	<l id="1115">Me direz-vous, Madame, encore que je mens ? </l>
 </sp>
@@ -1808,7 +1838,8 @@
 	<l id="1135">Mon coeur, à ce discours, est doublement content. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Boristhène, Atramante, L'Infante, Thelastrie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Boristhène, Atramante, L'Infante, Thelastrie.
+</stage>
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="1136">N'accorderez-vous point au mien ce qu'il prétend ? </l>
 </sp>
@@ -1845,7 +1876,8 @@
 <sp who="L'INFANTE"><speaker>L'INFANTE.</speaker>
 	<l id="1153">C'est de vous seul, Monsieur, que dépend cette grâce. </l>
 </sp>
-<sp stage="explicit" who="BORISTHÈNE"><speaker>BORISTHÈNE, l'affranchit.</speaker>
+<sp who="BORISTHÈNE"><speaker>BORISTHÈNE</speaker><stage type="explicit">, l'affranchit.
+	</stage>
 	<l id="1154">C'est à vous qu'il la doit, quoique je la lui fasse. </l>
 	<l id="1155">Ne me reconnais point pour ton libérateur. </l>
 </sp>
@@ -1862,7 +1894,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Le Roi, Corax.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Le Roi, Corax.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1159">Vous êtes donc certain de son consentement ? </l>
 </sp>
@@ -1891,7 +1924,8 @@
 	<l id="1173">Vous pourrez maintenant apprendre sa naissance. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Le Roi, Boristhène, Corax.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Le Roi, Boristhène, Corax.
+</stage>
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="1174">Sire, l'on fait justice à ma persévérance ; </l>
 	<l id="1175">Par votre autorité, plus forte que mes voeux, </l>
@@ -1917,7 +1951,8 @@
 	<l id="1189">N'oubliez pas Baliste, Atramante et le reste, </l>
 	<l id="1190">Pour rendre aux Étrangers cet Hymen manifeste. </l>
 </sp>
-<sp stage="exit" who="CORAX"><speaker>CORAX, s'en allant.</speaker>
+<sp who="CORAX"><speaker>CORAX</speaker><stage type="exit">, s'en allant.
+	</stage>
 	<l id="1191">Ce commandement, Sire, a pour moi tant d'appas, </l>
 	<l id="1192">Que mon Esprit voudrait y précéder mes pas. </l>
 </sp>
@@ -1957,7 +1992,8 @@
 	<l id="1221">Je suis à tous moments plus votre redevable. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. le Roi, Boristhène, L'Infante conduite par Corax, Thelastrie, Caldice.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> le Roi, Boristhène, L'Infante conduite par Corax, Thelastrie, Caldice.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1222">Et bien, ma fille, enfin vous êtes raisonnable ; </l>
 	<l id="1223">D'une obstination votre Esprit dégagé, </l>
@@ -2021,11 +2057,13 @@
 	<l id="1271">Je confirme le don que le mien vous a fait ; </l>
 	<l id="1272">En me donnant le vôtre, Hymen est satisfait. </l>
 </sp>
-<sp stage="toward" who="LE ROI"><speaker>LE ROI, à l'Infante.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="toward">, à l'Infante.
+	</stage>
 	<l id="1273">Quoi ! Vous voulez paraître encore difficile ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Atramante dénoirci, en habit de Prince, Le Roi, Boristhène, L'Infante, Thelastrie, Corax, Caldice.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Atramante dénoirci, en habit de Prince, Le Roi, Boristhène, L'Infante, Thelastrie, Corax, Caldice.
+</stage>
 <sp who="ATRAMANTE"><speaker>ATRAMANTE.</speaker>
 	<l id="1274">Sire, si vos bontés ont prévenu Carmile, </l>
 	<l id="1275">Et qu'un sort inhumain l'ait mis au triste état </l>
@@ -2096,8 +2134,10 @@
 	<l id="1332">J'accepte le dernier, pouvant le recevoir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Roi, Atramante, Boristhène, L'Infante, Thelastrie, Corax, Caldice, Baliste.</head>
-<sp stage="toward" who="LE ROI"><speaker>LE ROI, à Baliste.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Roi, Atramante, Boristhène, L'Infante, Thelastrie, Corax, Caldice, Baliste.
+</stage>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="toward">, à Baliste.
+	</stage>
 	<l id="1333">Vous venez à bonne heure accomplir l'assemblée. </l>
 </sp>
 <sp who="BALISTE"><speaker>BALISTE.</speaker>
@@ -2108,10 +2148,12 @@
 <sp who="BORISTHÈNE"><speaker>BORISTHÈNE.</speaker>
 	<l id="1337">Et qui serve celui dont le souhait m'oblige. </l>
 </sp>
-<sp stage="toward" who="LE ROI"><speaker>LE ROI, à l'Infante.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="toward">, à l'Infante.
+	</stage>
 	<l id="1338" syll="6" part="i">N'y consentez-vous pas ? </l>
 </sp>
-<sp stage="watch" who="BALISTE"><speaker>BALISTE, reconnaissant Hécate.</speaker>
+<sp who="BALISTE"><speaker>BALISTE</speaker><stage type="watch">, reconnaissant Hécate.
+	</stage>
 	<l id="1338" syll="6" part="f">Ha ! Grand Dieux, quel prodige ! </l>
 	<l id="1339">Sire, voilà celui pour qui je suis venu, </l>
 	<l id="1340">Comment l'ai-je approché sans l'avoir reconnu ! </l>
@@ -2254,7 +2296,8 @@
 	<l id="1467">Ainsi vos différents demeurent terminés, </l>
 	<l id="1468">Et d'un heureux Hymen ses travaux couronnés. </l>
 </sp>
-<sp stage="toward" who="L'INFANTE"><speaker>L'INFANTE, à Atramante.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="toward">, à Atramante.
+	</stage>
 	<l id="1469" syll="5" part="i">Ne résistez plus ? </l>
 </sp>
 <sp who="ATRAMANTE"><speaker>ATRAMANTE.</speaker>
@@ -2267,7 +2310,8 @@
 	<l id="1475">Jugez des mouvements dont il est agité, </l>
 	<l id="1476">Puisqu'il passe de l'une à l'autre extrémité.</l>
 </sp>
-<sp stage="toward" who="L'INFANTE"><speaker>L'INFANTE, à Boristhène.</speaker>
+<sp who="L'INFANTE"><speaker>L'INFANTE</speaker><stage type="toward">, à Boristhène.
+	</stage>
 	<l id="1477">Prince, que cette joie entre nous soit commune, </l>
 	<l id="1478">Nous sommes deux moitiés, que je vous en donne une ; </l>
 	<l id="1479">La parfaite amitié, qui n'aura point de bout, </l>

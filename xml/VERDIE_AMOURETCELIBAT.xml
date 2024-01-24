@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -29,25 +29,27 @@
 			<titlePart type="main">L'AMOUR ET LE CÉLIBAT</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS.</titlePart>
 		</docTitle> 
-		<docDate value='1819'>1819.</docDate>
-		<docAuthor id='VERDIÉ, Antoine'>par M. VERDIÉ</docAuthor>
+		<docDate value="1819">1819.</docDate>
+		<docAuthor id="VERDIÉ, Antoine">par M. VERDIÉ</docAuthor>
 		<docImprint>
-			<printer id='CAVAZZA'>À BORDEAUX, DE L'IMPRIMERIE DE LA VEUVE J.-B. CAVAZZA RUE DES LOIS, N.° l3, PRÈS LA PORTE-BASSE.</printer>
+			<printer id="CAVAZZA">À BORDEAUX, DE L'IMPRIMERIE DE LA VEUVE J.-B. CAVAZZA RUE DES LOIS, N.° l3, PRÈS LA PORTE-BASSE.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="MONSIEUR DURANT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MONSIEUR DURANT</role>, oncle de Dorval.</castItem> 
-			<castItem><role id="DORVAL" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>DORVAL</role>.</castItem>
-			<castItem><role id="LAFLEUR" sex="1" type="H" statut="domestique" age='A' stat_amour='néant'>LAFLEUR</role>, domestique de M. Durant.</castItem>
-			<castItem><role id="HORTENSE" sex="2" type="H" statut="" age='A' stat_amour='néant'>HORTENSE</role>.</castItem>
-			<castItem><role id="LISETTE" sex="2" type="H" statut="suivante" age='A' stat_amour='néant'>LISETTE</role>, suivante d'Hortense.</castItem> 
+			<castItem><role id="MONSIEUR DURANT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR DURANT</role>, oncle de Dorval.</castItem> 
+			<castItem><role id="DORVAL" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">DORVAL</role>.</castItem>
+			<castItem><role id="LAFLEUR" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">LAFLEUR</role>, domestique de M. Durant.</castItem>
+			<castItem><role id="HORTENSE" sex="2" type="H" statut="" age="A" stat_amour="néant">HORTENSE</role>.</castItem>
+			<castItem><role id="LISETTE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">LISETTE</role>, suivante d'Hortense.</castItem> 
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'AMOUR ET LE CÉLIBAT</head>
 <stage type="decor">Le théâtre représente un salon, dans lequel on voit de chaque côté l'entrée d'un appartement ; celui du côté droit de l'acteur est occupé par Hortense , et l'autre par Monsieur Durant et son neveu ; quelques fauteuils sont placés dans le salon.</stage>
-<div2 type="scene" n="1"><head>SCÈNE I. Monsieur Durant, Dorval, sortant de leur appartement.</head>
-<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, tenant une lettre, ouverte à la main.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Monsieur Durant, Dorval, sortant de leur appartement.
+</stage>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage>, tenant une lettre, ouverte à la main.
+	</stage>
 	<l id="1">Hé bien, mon cher Dorval, en faut-il davantage</l>
 	<l id="2">Pour vous faire à jamais haïr le mariage ;</l>
 	<l id="3">Enfin, vous le voyez, Damont par ses aveux</l>
@@ -125,14 +127,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, seul.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="59">Comme il a l'air soumis, c'est vraiment un bonheur ;</l>
 	<l id="60">Mais depuis quelques jours je le trouve rêveur,</l>
 	<l id="61">Aurait-il par hasard quelque intrigue amoureuse?</l>
 	<l id="62">Voudrait-il me cacher ? oh ! l'idée est affreuse.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Durant, Lafleur.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Durant, Lafleur.
+</stage>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="63">Ah ! Te Voilà Lafleur, qu'a dit mon avocat ? </l>
 </sp>
@@ -209,14 +213,16 @@
 	<l id="116">Monsieur, comme sur vous comptez toujours sur moi,</l>
 	<l id="117" syll="6" part="i">Je vous réponds de lui.</l>
 </sp>
-<sp stage="exit" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, en sortant.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="exit">, en sortant.
+	</stage>
 	<l id="117" syll="6" part="f">Je me fie à ton zèle.</l>
 </sp>
 <sp who="LAFLEUR"><speaker>LAFLEUR.</speaker>
 	<l id="118">Lafleur sera toujours un serviteur fidèle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Dorval, Lafleur.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Dorval, Lafleur.
+</stage>
 <sp who="LAFLEUR"><speaker>LAFLEUR.</speaker>
 	<l id="119">Ah ! Vous voilà, Monsieur, pourquoi donc vous montrer,</l>
 	<l id="120">Votre oncle m'a chargé de vous faire rentrer.</l>
@@ -327,11 +333,13 @@
 <stage type="exit">Il sort par la grande porte du salon.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Hortense, Dorval.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Hortense, Dorval.
+</stage>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
 	<l id="185" syll="6" part="f">Bonjour, ma chère Hortense.</l>
 </sp>
-<sp stage="frighten" who="HORTENSE"><speaker>HORTENSE, d'un air craintif.</speaker>
+<sp who="HORTENSE"><speaker>HORTENSE</speaker><stage type="frighten">, d'un air craintif.
+	</stage>
 	<l id="186" syll="6" part="i">Bonjour, mon cher Dorval.</l>
 </sp>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
@@ -357,7 +365,8 @@
 	<l id="201" syll="6" part="i">Je brave son courroux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Hortense, Dorval, Lafleur.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Hortense, Dorval, Lafleur.
+</stage>
 <sp who="LAFLEUR"><speaker>LAFLEUR.</speaker>
 	<l id="201" syll="6" part="f">Monsieur, quittez la place, </l>
 	<l id="202" syll="6" part="i">Votre oncle suit mes pas.</l>
@@ -372,7 +381,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="LAFLEUR"><speaker>LAFLEUR, seul.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="205">C'est fort bien ; maintenant, songeons à notre affaire</l>
 	<l id="206">D'abord, je ne veux point vivre en célibataire,</l>
 	<l id="207">L'oncle est loin d'arriver, or je puis, à mon tour,</l>
@@ -383,7 +393,8 @@
 	<l id="212">Comme monsieur Dorval, je me marie aussi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. LISETTE, (elle vient de la ville), Lafleur.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> LISETTE, (elle vient de la ville), Lafleur.
+</stage>
 <sp who="LAFLEUR"><speaker>LAFLEUR.</speaker>
 	<l id="213">Salut au tendre objet pour lequel je soupire,</l>
 	<l id="214">Et de qui les appas causent tout mon martyre.</l>
@@ -475,21 +486,24 @@
 	<l id="272">Qu'un mortel tôt ou tard doit connaître l'amour ;</l>
 	<l id="273" syll="10" part="i">Mais entendons-nous bien, premièrement...</l>
 </sp>
-<sp stage="watch" who="LAFLEUR"><speaker>LAFLEUR, apercevant Monsieur Durant.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="watch">, apercevant Monsieur Durant.
+	</stage>
 	<l id="273" syll="2" part="f">Silence !</l>
 	<l id="274">Rentre vite chez toi, le voici qu'il s'avance.</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="275" syll="6" part="i">Bonjour, Monsieur_Lafleur.</l>
 </sp>
-<sp stage="stress" who="LAFLEUR"><speaker>LAFLEUR, affectant de l'humeur.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="stress">, affectant de l'humeur.
+	</stage>
 	<l id="275" syll="6" part="f">Trêve de compliments,</l>
 	<l id="276">À me parler ainsi vous perdez votre temps ;</l>
 	<l id="277">Je vois ce qu'il en est, allez, Mademoiselle,</l>
 	<l id="278">On lui résistera, malgré qu'elle soit belle.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Lafleur, Monsieur Durant.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Lafleur, Monsieur Durant.
+</stage>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="279" syll="6" part="i">Qu'as-tu, mon cher Lafleur ?</l>
 </sp>
@@ -583,12 +597,14 @@
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="331">C'est bien... oui... c'est fort bien... je n'aurais pas mieux fait.</l>
 </sp>
-<sp stage="aparte" who="LAFLEUR"><speaker>LAFLEUR, à part.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="332">Bon, ça ne prend pas mal, le voilà tout distrait ;</l>
 	<l id="333">J'espère lui donner bien du fil à retordre,</l>
 	<l id="334">Et mettre son esprit tout à fait en désordre.</l>
 </sp>
-<sp stage="aparte" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, à part.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="335">Puis-je bien écouter tout ceci de sang-froid.</l>
 </sp>
 <sp who="LAFLEUR"><speaker>LAFLEUR.</speaker>
@@ -604,7 +620,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, seul.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="340">Voyons réfléchissons à tout ce qu'il m'a dit,</l>
 	<l id="341">Jamais je n'ai senti ce que mon coeur éprouve,</l>
 	<l id="342">Et je ne conçois pas l'état où je me trouve,</l>
@@ -637,7 +654,8 @@
 	<l id="369">Serait-ce bien l'amour ! Ô douleur trop cruelle !</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Lisette, Monsieur Durant.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Lisette, Monsieur Durant.
+</stage>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="370" syll="6" part="i">Bien le bonjour, Monsieur.</l>
 </sp>
@@ -804,7 +822,8 @@
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="474" syll="6" part="i">Tu dis qu'elle est pour moi !</l>
 </sp>
-<sp stage="give" who="LISETTE"><speaker>LISETTE, sans lui donner la lettre.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="give">, sans lui donner la lettre.
+	</stage>
 	<l id="474" syll="6" part="f">Tenez, lisez l'adresse.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
@@ -819,17 +838,20 @@
 	<l id="477" syll="6" part="i">Voyons, donne-le moi.</l>
 <stage id="narration">Ici Monsieur Durant glisse sa bourse dans la main de Lisette, qui tient la lettre et qui a l'air de ne pas vouloir la lâchée ; après un court débat, Monsieur Durant enlève la lettre ; et la bourse reste à Lisette.</stage>
 </sp>
-<sp stage="push" who="LISETTE"><speaker>LISETTE, en se débattant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="push">, en se débattant.
+	</stage>
 	<l id="477" syll="6" part="f">Monsieur, je le déchire ;</l>
 	<l id="478" syll="6" part="i">Non, vous ne l'aurez pas.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="478" syll="3" part="m">Je le tiens.</l>
 </sp>
-<sp stage="aparte/show" who="LISETTE"><speaker>LISETTE, à part et faisant sauter la bourse dans sa main.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte/show">, à part et faisant sauter la bourse dans sa main.
+	</stage>
 	<l id="478" syll="3" part="f">Il peut lire.</l>
 </sp>
-<sp stage="open" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, décachetant la lettre.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="open">, décachetant la lettre.
+	</stage>
 	<l id="479" syll="6" part="i">Voyons le contenu.</l> 
 <stage type="read">Il lit. </stage>
 	<l id="479" syll="6" part="f">« Monsieur, depuis longtemps</l>
@@ -843,7 +865,8 @@
 	<l id="482" syll="6" part="i">Ah ! Ne m'interromps pas.</l>
 </sp>
 </div2>
-<div2 stage="entrance" type="scene" n="12"><head>SCÈNE XII. Lisette, Hortense, Monsieur Durant, Lafleur paraît à la porte de l'appartement et semble écouter.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage type="entrance"> Lisette, Hortense, Monsieur Durant, Lafleur paraît à la porte de l'appartement et semble écouter.
+</stage>
 <sp who="HORTENSE"><speaker>HORTENSE.</speaker>
 	<l id="482" syll="6" part="f">Que faites-vous, Lisette ?</l>
 	<l id="483">Lorsque je vous attends, pourquoi vous amuser.</l>
@@ -857,15 +880,19 @@
 <stage type="toward">À Lisette.</stage>
 	<l id="485" syll="6" part="f">Rentrez, Mademoiselle.</l>
 </sp>
-<sp stage="toward/entrance" who="LISETTE"><speaker>LISETTE, à Lafleur, en rentrant.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="toward/entrance">, à Lafleur, en rentrant.
+	</stage>
 	<l id="486" syll="6" part="i">Tout va se découvrir.</l>
 </sp>
-<sp stage="location" who="LAFLEUR"><speaker>LAFLEUR, à la porte de l'appartement.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="location">, à la porte de l'appartement.
+	</stage>
 	<l id="486" syll="6" part="f">Je ferai sentinelle.</l>
 </sp>
 </div2>
-<div2 stage="location/wave" type="scene" n="13"><head>SCÈNE XIII. Hortense, Monsieur Durant, Lafleur, à la porte, a l'air de faire signe à Dorval de venir ; il se montre et écoute avec Lafleur.</head>
-<sp stage="aparte" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, à part.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage type="location/wave"> Hortense, Monsieur Durant, Lafleur, à la porte, a l'air de faire signe à Dorval de venir ; il se montre et écoute avec Lafleur.
+</stage>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="487">Elle veut me parler, commençons l'entretien.</l>
 <stage type="loud">Haut.</stage>
 	<l id="488" syll="9" part="i">Comment vous portez-vous ? La santé...</l>
@@ -897,7 +924,8 @@
 	<l id="496" syll="6" part="f">Lisette m'a tout dit ;</l>
 	<l id="497">N'allez pas la gronder, c'est moi qui l'ai contrainte.</l>
 </sp>
-<sp stage="aparte" who="HORTENSE"><speaker>HORTENSE, à part.</speaker>
+<sp who="HORTENSE"><speaker>HORTENSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="498">Ne nous découvrons pas, car ce n'est qu'une feinte.</l>
 <stage type="loud">Haut. </stage>
 	<l id="499">En vérité, Monsieur, Lisette a fait fort mal,</l>
@@ -917,8 +945,10 @@
 	<l id="510">Oui, cet écrit flatteur me fait assez comprendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Hortense, Monsieur Durant, Dorval, Lafleur.</head>
-<sp stage="entrance/together" who="LAFLEUR"><speaker>LAFLEUR, en sortant de l'appartement avec Dorval.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Hortense, Monsieur Durant, Dorval, Lafleur.
+</stage>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="entrance/together">, en sortant de l'appartement avec Dorval.
+	</stage>
 	<l id="511">Mais, Monsieur, je vous dis que ce n'est pas cela.</l>
 </sp>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
@@ -934,7 +964,8 @@
 <stage type="toward">À Hortense.</stage>
 	<l id="516" syll="6" part="i">Je vais les renvoyer.</l>
 </sp>
-<sp stage="toward" who="LAFLEUR"><speaker>LAFLEUR, à Dorval.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="toward">, à Dorval.
+	</stage>
 	<l id="516" syll="6" part="f">Sachez vous contenir.</l>
 </sp>
 <sp who="HORTENSE"><speaker>HORTENSE.</speaker>
@@ -948,7 +979,8 @@
 	<l id="519">Ne les dérangeons pas, tout ceci va fort bien.</l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Monsieur Durant, Dorval, Lafleur.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Monsieur Durant, Dorval, Lafleur.
+</stage>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="520" syll="6" part="i">Je voudrais bien savoir.....</l>
 </sp>
@@ -982,10 +1014,12 @@
 	<l id="536">Peut-être ce n'est pas, car j'ai lu le journal,</l>
 	<l id="537" syll="6" part="i">Il n'en dit pas un mot.</l>
 </sp>
-<sp stage="aparte" who="DORVAL"><speaker>DORVAL, a part.</speaker>
+<sp who="DORVAL"><speaker>DORVAL</speaker><stage type="aparte">, a part.
+	</stage>
 	<l id="537" syll="6" part="f">Ô l'affreuse nouvelle !</l>
 </sp>
-<sp stage="show" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, montrant la lettre de Lisette.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="show">, montrant la lettre de Lisette.
+	</stage>
 	<l id="538">La lettre que voici vient d'un ami fidèle,</l>
 	<l id="539">Il me prie instamment de me rendre chez nous ;</l>
 	<l id="540">Mais mon procès m'arrête, et je compte sur vous.</l>
@@ -1032,7 +1066,8 @@
 	<l id="559" syll="6" part="f">Vous partirez, c'est dit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Dorval, Lafleur.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Dorval, Lafleur.
+</stage>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
 	<l id="560">Voilà, Monsieur_Lafleur, où vous m'avez conduit.</l>
 </sp>
@@ -1085,7 +1120,8 @@
 	<l id="584" syll="6" part="f">Justement les voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVII. Lisette, Hortense, Dorval, Lafleur.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVII.</head><stage> Lisette, Hortense, Dorval, Lafleur.
+</stage>
 <sp who="HORTENSE"><speaker>HORTENSE.</speaker>
 	<l id="585">Enfin, mon cher Dorval, tâchez donc de m'instruire</l>
 	<l id="586">De tout ce que votre oncle a bien voulu me dire,</l>
@@ -1138,21 +1174,26 @@
 <stage type="kneel">Il est à genoux.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Lisette, Hortense, Monsieur Durant, Dorval, Lafleur.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Lisette, Hortense, Monsieur Durant, Dorval, Lafleur.
+</stage>
 <stage type="stand/watch">Dorval se lève lorsqu'il aperçoit son oncle.</stage>
-<sp stage="entrance/hurry/stop" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, entre précipitamment et s'arrête tout_à_coup.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="entrance/hurry/stop">, entre précipitamment et s'arrête tout_à_coup.
+	</stage>
 	<l id="609">En croirai-je mes yeux ! Juste ciel, quel outrage !</l>
 </sp>
-<sp stage="low/toward" who="LAFLEUR"><speaker>LAFLEUR, bas à Dorval.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="low/toward">, bas à Dorval.
+	</stage>
 	<l id="610">Monsieur, c'est le moment, armez-vous de courage.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="611">Fort bien, mon cher neveu, ne vous dérangez pas.</l>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="612" syll="6" part="i">Que va-t-il lui répondre !</l>
 </sp>
-<sp stage="aparte" who="HORTENSE"><speaker>HORTENSE, à part.</speaker>
+<sp who="HORTENSE"><speaker>HORTENSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="612" syll="6" part="f">Oh ! Le triste embarras.</l>
 </sp>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
@@ -1170,17 +1211,20 @@
 	<l id="619" syll="6" part="f">Sensible à mon amour,</l>
 	<l id="620">Hortense, oh ! J'en suis sûr, me payera de retour.</l>
 </sp>
-<sp stage="ironic" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, d'un air moqueur.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="ironic">, d'un air moqueur.
+	</stage>
 	<l id="621">Je crois, mon cher ami, que vous perdez la tête ;</l>
 	<l id="622">Vraiment vous êtes fou : qu'en pense-tu, Lisette ?</l>
 </sp>
 <sp who="LISETTE"><speaker>LISETTE.</speaker>
 	<l id="623" syll="6" part="i">Ma foi, je n'en sais rien.</l>
 </sp>
-<sp stage="low/toward" who="LAFLEUR"><speaker>LAFLEUR, bas à Dorval.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="low/toward">, bas à Dorval.
+	</stage>
 	<l id="623" syll="6" part="f">Tenez-vous toujours bon.</l>
 </sp>
-<sp stage="toward" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, à Hortense.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="toward">, à Hortense.
+	</stage>
 	<l id="624">Daignez le pardonner, car il perd la raison.</l>
 </sp>
 <sp who="DORVAL"><speaker>DORVAL.</speaker>
@@ -1203,16 +1247,19 @@
 	<l id="631">Ne croyez pas, Monsieur, de lui faire la loi;</l>
 	<l id="632">Respectez-le plutôt, car ce rival c'est moi.</l>
 </sp>
-<sp stage="aparte" who="HORTENSE"><speaker>HORTENSE, à part.</speaker>
+<sp who="HORTENSE"><speaker>HORTENSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="633" syll="3" part="i">Qu'entends-je !</l>
 </sp>
-<sp stage="aparte" who="LISETTE"><speaker>LISETTE, à part.</speaker>
+<sp who="LISETTE"><speaker>LISETTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="633" syll="3" part="m">Le vieux fou.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="633" syll="6" part="f">Hé bien, où sont vos armes ?</l>
 </sp>
-<sp stage="ironic" who="DORVAL"><speaker>DORVAL, avec ironie.</speaker>
+<sp who="DORVAL"><speaker>DORVAL</speaker><stage type="ironic">, avec ironie.
+	</stage>
 	<l id="634">Mon oncle, c'est à vous de posséder ces charmes ;</l>
 	<l id="635">D'être votre rival je conviens que j'ai tort ;</l>
 	<l id="636">Mais vous permettrez bien qu'on prononce mon sort,</l>
@@ -1222,7 +1269,8 @@
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
 	<l id="639">Dorval, autant que vous je serai généreux.</l>
 </sp>
-<sp stage="aparte" who="LAFLEUR"><speaker>LAFLEUR, à part.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="640" syll="6" part="i">Fort bien, nous le tenons.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
@@ -1256,10 +1304,12 @@
 	<l id="656">En vérité, Monsieur, je jure sur ma foi</l>
 	<l id="657">Que je ne comprends rien à tout votre langage.</l>
 </sp>
-<sp stage="show" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, lui montrant la lettre.</speaker>
+<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT</speaker><stage type="show">, lui montrant la lettre.
+	</stage>
 	<l id="658">Voilà, pour vous confondre, un puissant témoignage.</l>
 </sp>
-<sp stage="watch/give/toward" who="HORTENSE"><speaker>HORTENSE, après avoir fixé la lettre et la remettant à Monsieur Durant.</speaker>
+<sp who="HORTENSE"><speaker>HORTENSE</speaker><stage type="watch/give/toward">, après avoir fixé la lettre et la remettant à Monsieur Durant.
+	</stage>
 	<l id="659">On vous aura trompé , soyez sûr et certain</l>
 	<l id="660">Que jamais cet écrit ne fut fait de ma main.</l>
 </sp>
@@ -1284,7 +1334,8 @@
 <sp who="HORTENSE"><speaker>HORTENSE.</speaker>
 	<l id="668" syll="6" part="i">Je l'ignorais, Monsieur.</l>
 </sp>
-<sp stage="aparte" who="LAFLEUR"><speaker>LAFLEUR, à part.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="668" syll="6" part="f">Me voilà découvert.</l>
 </sp>
 <sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT.</speaker>
@@ -1296,7 +1347,8 @@
 	<l id="672">Lorsque vous apprendrez que c'est Monsieur_Lafleur.</l>
 <stage type="wave/surprisewatch/">Ici Monsieur Durant fait un mouvement de surprise, et fixe Lafleur sans lui parler.</stage>
 </sp>
-<sp stage="kneel" who="LAFLEUR"><speaker>LAFLEUR, à genoux.</speaker>
+<sp who="LAFLEUR"><speaker>LAFLEUR</speaker><stage type="kneel">, à genoux.
+	</stage>
 	<l id="673">Monsieur, pardonnez-moi cette petite ruse ;</l>
 	<l id="674">De vous avoir joué je vous demande excuse.</l>
 <stage type="stand">Il se relève.</stage>

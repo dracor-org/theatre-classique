@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -21,7 +21,7 @@
 				<taille>1750-2000</taille>
 				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k70395r</permalien>
 				<liens>
-					<lien type=""></lien>
+					<lien type=""/>
 				</liens>	
 
 			</SourceDesc>
@@ -35,7 +35,7 @@
 			<titlePart type="sub">TRAGÉDIE CHRÉTIENNE</titlePart>
 		</docTitle> 
 		<docDate value="1646">1646</docDate>
-		<docAuthor id="CORNEILLE, Pierre" bio='corneillep'></docAuthor>
+		<docAuthor id="CORNEILLE, Pierre" bio="corneillep"/>
 		<docImprint>
 			<privilege id="1646-04-17"><head>Extrait du privilège du roi</head>
 				<p>Par grâce et privilège du Roi, donnné à Paris le 17 avril 1646. Signé par le Roi en son conseil, DENIS. Il est permis à Toussaint Quinet Marchand libraire à Paris, d'imprimer et faire imprimer, vendre et distribuer une pièce de théâtre intitulée Théodore, vierge et Martyre, tragédie chrétienne, de Mr. Corneille, et ce durant le temps et espace de cinq ans, à compter du jour qu'elle sera achevée d'imprimer : Et défenses sont faites à tous imprimeurs, libraires et autres, de contrefaire ladite pièce, ni même en vendre ou exposer en vente, sans le consentement dudit Quinet, ou de ceux qui auront droit de lui, à peine de trois mille livres d'amende, et de tous dépens, dommages et intérêts, ainsi qu'il est plus amplement porté pour lesdites lettres, qui sont en vertu du présent extrait tenues pour dument signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
@@ -46,7 +46,7 @@
 			<printer id="QUINET">Imprimé à Rouen et se vend À PARIS, Chez TOUSSAINT QUINET, au Palais, sous la montée de la Cour des Aides.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1645" location='Théâtre du Marais'>Représenté pour la première fois en 1645 au Théâtre du Marais.</premiere>
+			<premiere date="1645" location="Théâtre du Marais">Représenté pour la première fois en 1645 au Théâtre du Marais.</premiere>
 		</performance>
 		<castList>
 			<head>ACTEURS</head>
@@ -2557,7 +2557,8 @@
 	<l id="1718" syll="11" part="f">Vous suivrez ailleurs de si doux entretiens.</l>
 	<l id="1719" syll="6" part="i">Amenez-les tous deux.</l>
 </sp>
-<sp stage="alone" who="PAULIN"><speaker>PAULIN, seul.</speaker>
+<sp who="PAULIN"><speaker>PAULIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1719" syll="6" part="f">Quel orage s'apprête !</l>
 	<l id="1720">Que je vois se former une horrible tempête !</l>
 	<l id="1721">Si Placide survient, que de sang répandu !</l>

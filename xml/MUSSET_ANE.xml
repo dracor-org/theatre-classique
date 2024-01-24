@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>L'ÂNE ET LE RUISSEAU, COMÉDIE</title>
-			<author born='1810' born_location='Paris' death='1857' death_location='Paris' academie='1852'>MUSSET, Alfred de</author>
+			<author born="1810" born_location="Paris" death="1857" death_location="Paris" academie="1852">MUSSET, Alfred de</author>
 		</titleStmt>
 		<publicationStmt>	
 			<editor>Texte établi par Paul FIEVRE.</editor>
@@ -28,19 +28,19 @@
 			<titlePart type="main">L'ÂNE ET LE RUISSEAU</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE ET EN PROSE</titlePart>
 		</docTitle> 
-		<docDate value='1858'>1858.</docDate>
-		<docAuthor id='MUSSET, Alfred de' bio='muset'>PAR ALFRED DE MUSSET</docAuthor>
+		<docDate value="1858">1858.</docDate>
+		<docAuthor id="MUSSET, Alfred de" bio="muset">PAR ALFRED DE MUSSET</docAuthor>
 		<docImprint>	
-			<printer id='REVUE DES DEUX MONDES'>PARIS, Librairie des la Revue des Deux mondes, 6 rue des Beaux-Arts. LONDRES, BAILLERIE, 219, Regent Street.</printer>
+			<printer id="REVUE DES DEUX MONDES">PARIS, Librairie des la Revue des Deux mondes, 6 rue des Beaux-Arts. LONDRES, BAILLERIE, 219, Regent Street.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='' location=''></premiere>
+			<premiere date="" location=""/>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id='LE MARQUIS DE PRÉVANNES' sex="1" type="H" statut="marquis" age="A" stat_amour=''>LE MARQUIS DE PRÉVANNES</role>.</castItem>
-			<castItem><role id='LE BARON DE VALBRUN' sex="1" type="H" statut="baron" age="A" stat_amour=''>LE BARON DE VALBRUN</role>.</castItem>
-			<castItem><role id='LA COMTESSE' sex="2" type="H" statut="comte" age="A" stat_amour=''>LA COMTESSE</role>.</castItem>
-			<castItem><role id='MARGUERITE' sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>MARGUERITE</role>, sa cousine.</castItem> 
+			<castItem><role id="LE MARQUIS DE PRÉVANNES" sex="1" type="H" statut="marquis" age="A" stat_amour="">LE MARQUIS DE PRÉVANNES</role>.</castItem>
+			<castItem><role id="LE BARON DE VALBRUN" sex="1" type="H" statut="baron" age="A" stat_amour="">LE BARON DE VALBRUN</role>.</castItem>
+			<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="">LA COMTESSE</role>.</castItem>
+			<castItem><role id="MARGUERITE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">MARGUERITE</role>, sa cousine.</castItem> 
 		</castList>
 		<set location="Paris" country="France" periode="XVIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 		<note>Texte issu de "Un spectacle dans un fauteuil, par Alfred de Musset. Prose. I."- 1834. pp. 278-355</note>
@@ -48,7 +48,8 @@
 <body>
 <div1 type="act" n="1"><head>L'ÂNE ET LE RUISSEAU</head>
 <stage type="decor">Un salon.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Comtesse, Marguerite.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Comtesse, Marguerite.
+</stage>
 <sp who="MARGUERITE"><speaker>MARGUERITE.</speaker>
 <p id="1">
 	<s id="1">Je ne saurai donc pas ce qui vous afflige ?</s>
@@ -355,8 +356,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, Un domestique.</head>
-<sp stage="declamate" who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE, annonçant.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, Un domestique.
+</stage>
+<sp who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur de Prévannes.</s>
 </p>
@@ -390,7 +393,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, Prévannes</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, Prévannes
+</stage>
 <sp who="PRÉVANNES"><speaker>PRÉVANNES.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Mesdames, je ne vous demande pas comment vous allez ce matin, je vous ai vues tout à l'heure aux courses, et vous étiez éblouissantes.</s>
@@ -556,7 +560,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Prévannes.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Comtesse, Prévannes.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Vous vous querellerez donc sans cesse ?</s>
@@ -792,7 +797,8 @@
 	<s id="1">Voulez-vous que je le lui dise ?</s>
 </p>
 </sp>
-<sp stage="toward" who="PRÉVANNES"><speaker>PRÉVANNES, à la fenêtre.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="toward">, à la fenêtre.
+</stage>
 <p id="38">
 	<s id="1">Si cela vous plaît. </s>
 	<s id="2">Voici le Baron lui-même, je le reconnais... </s>
@@ -913,7 +919,8 @@
 <stage type="sit/location">Il s'assied près d'une table.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Valbrun.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Valbrun.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">C'est vous, Monsieur ! </s>
@@ -1061,7 +1068,8 @@
 	<s id="1">C'est ce que je vois.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="27">
 	<s id="1">La peste t'étouffe !</s>
 </p>
@@ -1100,7 +1108,8 @@
 	<s id="3">Je me souviens même...</s>
 </p>
 </sp>
-<sp stage="stand/wave" who="VALBRUN"><speaker>VALBRUN, se levant et saluant.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="stand/wave">, se levant et saluant.
+</stage>
 <p id="34">
 	<s id="1">Je serais heureux de vous recevoir.</s>
 </p>
@@ -1132,7 +1141,8 @@
 </p>
 <stage type="sit">Il se rassied.</stage>
 </sp>
-<sp stage="aparte" who="LA COMTESSE"><speaker>LA COMTESSE, à part.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="39">
 	<s id="1">Prévannes le gêne, j'en étais sûre.</s>
 </p>
@@ -1146,8 +1156,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Marguerite.</head>
-<sp stage="open" who="MARGUERITE"><speaker>MARGUERITE, ouvrant la porte sans entrer.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les Mêmes, Marguerite.
+</stage>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="open">, ouvrant la porte sans entrer.
+</stage>
 <p id="1">
 	<s id="1">Ma cousine...</s>
 </p>
@@ -1214,7 +1226,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. La Comtesse, Prévannes, Valbrun.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> La Comtesse, Prévannes, Valbrun.
+</stage>
 <sp who="VALBRUN"><speaker>VALBRUN.</speaker>
 <p id="1">
 	<s id="1">Il est bien vrai que ces dessins sont parfaits.</s>
@@ -1264,7 +1277,8 @@
 	<s id="2">Elle est par là...</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, a part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, a part.
+</stage>
 <p id="10">
 	<s id="1">Ils me font pitié ; je n'y tiens pas...</s>
 </p>
@@ -1310,7 +1324,8 @@
 	<s id="">Oui, Monsieur.</s>
 </p>
 </sp>
-<sp stage="cold" who="VALBRUN"><speaker>VALBRUN, froidement.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="cold">, froidement.
+</stage>
 <p id="19">
 	<s id="1">Vous me ravissez ! </s>
 	<s id="2">J'espère encore que vous ne doutez pas... </s>
@@ -1327,7 +1342,8 @@
 	<s id="1">Que diantre as-tu donc tant à faire ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="VALBRUN"><speaker>VALBRUN, troublé.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="22">
 	<s id="1">Une course dans le voisinage, chez un... </s>
 	<s id="2">Chez un voisin... </s>
@@ -1357,7 +1373,8 @@
 <stage type="wave/exit">Il salue et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. La Comtesse, Prévannes.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> La Comtesse, Prévannes.
+</stage>
 <sp who="LA COMTESSE"><speaker>LA COMTESSE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -1366,7 +1383,8 @@
 	<s id="4">Je suffoque !</s>
 </p>
 </sp>
-<sp stage="stand" who="PRÉVANNES"><speaker>PRÉVANNES, se levant.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="stand">, se levant.
+</stage>
 <p id="2">
 	<s id="1">Il est véritable que ce garçon-là est... surprenant.</s>
 </p>
@@ -1706,7 +1724,8 @@
 	</p>
 <stage type="write">Il écrit.</stage>
 </sp>
-<sp stage="watch/write" who="LA COMTESSE"><speaker>LA COMTESSE, le regardant écrire.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="watch/write">, le regardant écrire.
+</stage>
 <p id="58">
 	<s id="1">Ah ! </s>
 	<s id="2">Qu'est-ce que vous écrivez là ?</s>
@@ -1751,7 +1770,8 @@
 	<s id="2">Madame, pour une fois par hasard que je puis être fat près de vous impunément, laissez-moi donc en profiler !</s>
 </p>
 </sp>
-<sp stage="watch/location" who="LA COMTESSE"><speaker>LA COMTESSE, regardant à la fenêtre.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="watch/location">, regardant à la fenêtre.
+</stage>
 <p id="66">
 	<s id="1">J'entends une voiture. </s>
 	<s id="2">C'est votre ami qui revient.</s>
@@ -1825,7 +1845,8 @@
 	<s id="2">Au moment où le Baron entre, la Comtesse sort en le saluant froidement.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="LA COMTESSE"><speaker>LA COMTESSE, bas, à Prévannes.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="low/toward">, bas, à Prévannes.
+</stage>
 <p id="78">
 	<s id="1">Oui, qu'il souffre à son tour ! </s>
 	<s id="2">S'il m'aimait...</s>
@@ -1837,8 +1858,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Prévannes, Valbrun.</head>
-<sp stage="estonish" who="VALBRUN"><speaker>VALBRUN, restant quelque temps étonné.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Prévannes, Valbrun.
+</stage>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="estonish">, restant quelque temps étonné.
+</stage>
 <p id="1">
 	<s id="1">Est-ce que la Comtesse est fâchée contre moi?</s>
 </p>
@@ -2044,7 +2067,8 @@
 </p>
 <stage type="get">Il va pour le prendre.</stage>
 </sp>
-<sp stage="sit/sad" who="VALBRUN"><speaker>VALBRUN, s'asseyant d'un air triste.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="sit/sad">, s'asseyant d'un air triste.
+</stage>
 <p id="36">
 	<s id="1">Ah ! </s>
 	<s id="2">Si j'ai hésité, tu sais bien pourquoi.</s>
@@ -2153,7 +2177,8 @@
 	<s id="7">Tu ne te guériras donc jamais de cet empoisonnement-là ?</s>
 </p>
 </sp>
-<sp stage="stand" who="VALBRUN"><speaker>VALBRUN, se levant.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="stand">, se levant.
+</stage>
 <p id="53">
 	<s id="1">Certes, si mon chagrin pouvait s'adoucir... </s>
 	<s id="2">Si un peu d'espoir me revenait... </s>
@@ -2173,7 +2198,8 @@
 	<s id="1">Si fait ; mais je tremble quand j'y pense.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="56">
 	<s id="1">Je crois que je vais remettre mon billet à sa place.</s>
 </p>
@@ -2245,7 +2271,8 @@
 	<s id="3">Si j'étais à ta place...</s>
 </p>
 </sp>
-<sp stage="sit" who="VALBRUN"><speaker>VALBRUN, se rasseyant.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="sit">, se rasseyant.
+</stage>
 <p id="69">
 	<s id="1">Je voudrais bien être à la tienne. </s>
 	<s id="2">Ah ! </s>
@@ -2291,7 +2318,8 @@
 	<s id="1">Je n'ose pas, je ne peux pas, je n'oserai jamais...  à moins que... pourtant...</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="77">
 	<s id="1">Que le diable l'emporte !</s>
 </p>
@@ -2345,7 +2373,8 @@
 	<s id="6">Ce n'en est pas seulement l'apparence : nulle franchise, nulle confiance ; ce n'est qu'un mensonge perpétuel, un supplice de tous les instants, trop heureux si l'on en mourait !</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="85">
 	<s id="1">Décidément, il faut avoir recours aux moyens héroïques ; où mettrai-je cette lettre ?... </s>
 	<s id="2">Dans son chapeau ?... </s>
@@ -2405,7 +2434,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X.</head>
-<sp stage="alone" who="VALBRUN"><speaker>VALBRUN, seul.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="alone">, seul.
+</stage>
 <p id="94">
 	<s id="1">Il a bien vite changé d'idée ! </s>
 	<s id="2">Qu'est-ce que cela signifie ? </s>
@@ -2448,7 +2478,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Valbrun, Marguerite.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Valbrun, Marguerite.
+</stage>
 <sp who="VALBRUN"><speaker>VALBRUN.</speaker>
 <p id="1">
 	<s id="1">C'est vous, Mademoiselle Marguerite! </s>
@@ -2542,7 +2573,8 @@
 	<s id="1">Tenez, Mademoiselle, lisez ce billet.</s>
 </p>
 </sp>
-<sp stage="read" who="MARGUERITE"><speaker>MARGUERITE, lisant.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="read">, lisant.
+</stage>
 <p id="16">
 	<s id="1">« Si je veux vous en croire, Madame... »</s>
 </p>
@@ -2552,7 +2584,8 @@
 	<s id="1">Voyez, je vous prie, voyez, Mademoiselle, s'il était possible de s'attendre...</s>
 </p>
 </sp>
-<sp stage="read" who="MARGUERITE"><speaker>MARGUERITE, lisant.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="read">, lisant.
+</stage>
 <p id="18">
 	<s id="1">« Que rien ne retarde plus mon bonheur... »</s>
 </p>
@@ -2577,7 +2610,8 @@
 	<s id="4">Mademoiselle, il faut nous venger !</s>
 </p>
 </sp>
-<sp stage="read" who="MARGUERITE"><speaker>MARGUERITE, lisant toujours.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="read">, lisant toujours.
+</stage>
 <p id="22">
 	<s id="1">« Mais est-ce assez de me le dire !... »</s>
 </p>
@@ -2602,7 +2636,8 @@
 	<s id="4">Acceptez ma main.</s>
 </p>
 </sp>
-<sp stage="dream" who="MARGUERITE"><speaker>MARGUERITE, avec distraction.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="dream">, avec distraction.
+</stage>
 <p id="26">
 	<s id="1">Votre main ?</s>
 </p>
@@ -2612,7 +2647,8 @@
 	<s id="1">Oui, j'ose vous l'offrir, et, si vous daignez l'accepter, je veux consacrer ma vie entière à effacer le souvenir odieux d'une trahison qui doit vous révolter.</s>
 </p>
 </sp>
-<sp stage="read" who="MARGUERITE"><speaker>MARGUERITE, lisant toujours.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="read">, lisant toujours.
+</stage>
 <p id="28">
 	<s id="1">Vous me consacrez votre vie entière ?...</s>
 </p>
@@ -2712,7 +2748,8 @@
 	<s id="1">En vérité, je ne vois pas...</s>
 </p>
 </sp>
-<sp stage="laugh" who="MARGUERITE"><speaker>MARGUERITE, riant toujours.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="laugh">, riant toujours.
+</stage>
 <p id="44">
 	<s id="1">Ah ! </s>
 	<s id="2">Ah  ! </s>
@@ -2784,7 +2821,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Marguerite, seule ; puis Prévannes.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Marguerite, seule ; puis Prévannes.
+</stage>
 <sp stage="alone" who="MARGUERITE"><speaker>MARGUERITE.</speaker>
 <p id="1">
 	<s id="1">Il s'en va tout de bon, comme un furieux. </s>
@@ -2795,7 +2833,8 @@
 	<s id="6">C'est incroyable!...</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Voilà donc cette petite rebelle, qui s'avise aussi d'hésiter, dit-on. </s>
 	<s id="2">Elle est bien gaie, à ce qu'il semble... </s>
@@ -3070,7 +3109,8 @@
 </p>
 <stage type="away">Il feint de s'en aller.</stage>
 </sp>
-<sp stage="aparte" who="MARGUERITE"><speaker>MARGUERITE, à part.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="50">
 	<s id="1">Est-ce qu'il parlerait tout de bon? </s>
 <stage type="loud">Haut.</stage>
@@ -3143,7 +3183,8 @@
 	<s id="1">Que je pleurerais peut-être...</s>
 </p>
 </sp>
-<sp stage="aparte" who="PRÉVANNES"><speaker>PRÉVANNES, à part.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="aparte">, à part.
+</stage>
 <p id="64">
 	<s id="1">Ô ciel !...</s>
 </p>
@@ -3189,8 +3230,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Les Mêmes, La Comtesse.</head>
-<sp stage="carry" who="LA COMTESSE"><speaker>LA COMTESSE, une lettre à la main.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Les Mêmes, La Comtesse.
+</stage>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="carry">, une lettre à la main.
+</stage>
 <p id="72">
 	<s id="1">Vous voilà ici, Monsieur de Prévannes ? </s>
 	<s id="2">Et je vois Marguerite tout émue.</s>
@@ -3209,7 +3252,8 @@
 	<s id="3">Tenez, je reçois cette lettre à l'instant.</s>
 </p>
 </sp>
-<sp stage="read" who="PRÉVANNES"><speaker>PRÉVANNES, lisant.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="read">, lisant.
+</stage>
 <p id="75">
 	<s id="1">« Il n'était pas nécessaire, Madame, de prendre la peine de feindre avec moi. </s>
 	<s id="2">Vous ne me reverrez de ma vie, et vous n'aurez jamais à vous plaindre... »</s>
@@ -3246,7 +3290,8 @@
 	<s id="4">Vous le voyez, Monsieur de Valbrun n'a cru que trop facilement à votre lettre supposée, et grâce à vos belles roueries, comme vous les appelez, je perds non seulement l'amour, mais l'estime du seul homme que j'aime.</s>
 </p>
 </sp>
-<sp stage="toward" who="MARGUERITE"><speaker>MARGUERITE, à Prévannes.</speaker>
+<sp who="MARGUERITE"><speaker>MARGUERITE</speaker><stage type="toward">, à Prévannes.
+</stage>
 <p id="81">
 	<s id="1">Comment! </s>
 	<s id="2">Monsieur, vous me trompiez tout à l'heure ? </s>
@@ -3444,7 +3489,8 @@
 	<s id="1">Voyez vous-même.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LA COMTESSE"><speaker>LA COMTESSE, troublée.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="embarrassed">, troublée.
+</stage>
 <p id="116">
 	<s id="1">Monsieur de Prévannes... </s>
 	<s id="2">Il va venir.</s>
@@ -3508,8 +3554,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Prévannes, seul ; puis Valbrun.</head>
-<sp stage="alone" who="PRÉVANNES"><speaker>PRÉVANNES, seul.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Prévannes, seul ; puis Valbrun.
+</stage>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Maintenant, Valbrun, à nous deux ! </s>
 	<s id="2">Il y a bien assez longtemps que tu m'impatientes et que tu retardes tous nos projets ; cette fois, morbleu ! </s>
@@ -3542,12 +3590,14 @@
 	<s id="1">Je vous rapporte votre chapeau.</s>
 </p>
 </sp>
-<sp stage="get" who="PRÉVANNES"><speaker>PRÉVANNES, reprenant son chapeau.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="get">, reprenant son chapeau.
+</stage>
 <p id="7">
 	<s id="1">Bien obligé, j'en étais inquiet.</s>
 </p>
 </sp>
-<sp stage="show" who="VALBRUN"><speaker>VALBRUN, lui montrant sa lettre.</speaker>
+<sp who="VALBRUN"><speaker>VALBRUN</speaker><stage type="show">, lui montrant sa lettre.
+</stage>
 <p id="8">
 	<s id="1">Cette lettre est de votre main ?</s>
 </p>
@@ -3805,7 +3855,8 @@
 </p>
 <stage type="open/location">Il va pour ouvrir la porte de la chambre de la Comtesse.</stage>
 </sp>
-<sp stage="stop" who="PRÉVANNES"><speaker>PRÉVANNES, l'arrêtant.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="53">
 	<s id="1">Dis donc, Henri, te souviens-tu que ce malin je te comparais à un âne qui n'ose pas franchir un ruisseau ?</s>
 </p>
@@ -3824,7 +3875,8 @@
 <stage type="push/location/entrance">Il pousse la porte. Entrent la Comtesse et Marguerite.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Prévannes, Valbrun, La Comtesse, Marguerite.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Prévannes, Valbrun, La Comtesse, Marguerite.
+</stage>
 <sp who="PRÉVANNES"><speaker>PRÉVANNES.</speaker>
 <p id="1">
 	<s id="1">Venez, venez, perfide Comtesse. </s>
@@ -3875,7 +3927,8 @@
 </p>
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
-<sp stage="toward" who="PRÉVANNES"><speaker>PRÉVANNES, à Marguerite.</speaker>
+<sp who="PRÉVANNES"><speaker>PRÉVANNES</speaker><stage type="toward">, à Marguerite.
+</stage>
 <p id="10">
 	<s id="1">Et nous, Margot, nous pardonnons-nous ?</s>
 </p>

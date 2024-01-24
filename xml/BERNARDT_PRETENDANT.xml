@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -29,7 +29,7 @@
 		<titlePart part="sub">PIÈCE EN UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -37,22 +37,23 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR RACOSSE" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>MONSIEUR RACOSSE</role>.</castItem>
-		<castItem><role id="POMIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour=''>POMIN</role>.</castItem>
-		<castItem><role id="ENGUERRAND DURAND" sex="1" type="H" statut="bourgeois" age="J" stat_amour=''>ENGUERRAND DURAND</role>.</castItem>
-		<castItem><role id="MADAME RACOSSE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>MADAME RACOSSE</role>.</castItem>
-		<castItem><role id="AUGUSTINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>AUGUSTINE</role>.</castItem>
-		<castItem><role id="RENÉE" sex="2" type="H" statut="bourgeois" age="J" stat_amour=''>RENÉE</role>.</castItem>
-		<castItem><role id="LA BONNE" sex="2" type="H" statut="domestique" age="A" stat_amour=''>LA BONNE</role>.</castItem>
+		<castItem><role id="MONSIEUR RACOSSE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MONSIEUR RACOSSE</role>.</castItem>
+		<castItem><role id="POMIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">POMIN</role>.</castItem>
+		<castItem><role id="ENGUERRAND DURAND" sex="1" type="H" statut="bourgeois" age="J" stat_amour="">ENGUERRAND DURAND</role>.</castItem>
+		<castItem><role id="MADAME RACOSSE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">MADAME RACOSSE</role>.</castItem>
+		<castItem><role id="AUGUSTINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">AUGUSTINE</role>.</castItem>
+		<castItem><role id="RENÉE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="">RENÉE</role>.</castItem>
+		<castItem><role id="LA BONNE" sex="2" type="H" statut="domestique" age="A" stat_amour="">LA BONNE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>	
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>	
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 87-104</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE PRÉTENDANT</head>
 <stage type="decor">La scène représente un salon assez luxueusement meublé. Aux murs, des tableaux de grande valeur. Une bonne achève d'épousseter les meubles. Entre Madame Racosse, un peu mûre, un peu grosse, vêtue d'une robe trop pailletée.</stage>
-<div2 type="scene" n="1"><head></head>
-<sp stage="toward" who="MADAME RACOSSE"><speaker>MADAME RACOSSE, à la bonne.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="MADAME RACOSSE"><speaker>MADAME RACOSSE</speaker><stage type="toward">, à la bonne.
+</stage>
 <p id="1">
 	<s id="1">Où est Monsieur ?</s>
 </p>
@@ -95,7 +96,8 @@
 </p>
 <stage type="exit">Il sort par la porte de droite.</stage>
 </sp>
-<sp stage="entrance/location" who="MADAME RACOSSE"><speaker>MADAME RACOSSE, entrant par la porte de gauche.</speaker>
+<sp who="MADAME RACOSSE"><speaker>MADAME RACOSSE</speaker><stage type="entrance/location">, entrant par la porte de gauche.
+</stage>
 <p id="8">
 	<s id="1">Monsieur n'était pas dans son bureau.</s>
 </p>
@@ -151,7 +153,8 @@
 	<s id="5">Le mariage de ta fille a tout de même plus d'importance que tes impôts...</s>
 </p>
 </sp>
-<sp stage="sad" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, sombre.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="sad">, sombre.
+</stage>
 <p id="17">
 	<s id="1">S'ils continuent, je ne pourrai bientôt plus marier ma fille. </s>
 	<s id="2">Je n'aurai plus un sou à lui donner.</s>
@@ -174,7 +177,8 @@
 	<s id="2">Tu as ta conscience pour toi.</s>
 </p>
 </sp>
-<sp stage="hesitate" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, un peu hésitant.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="hesitate">, un peu hésitant.
+</stage>
 <p id="21">
 	<s id="1">Évidemment ! </s>
 	<s id="2">Évidemment!</s>
@@ -195,7 +199,8 @@
 	<s id="1">Entrez !</s>
 </p>	
 </sp>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entrant.</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="25">
 	<s id="1">C'est madame la soeur de Monsieur.</s>
 </p>
@@ -253,12 +258,14 @@
 	<s id="1">Tu as ta conscience pour toi ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="AUGUSTINE"><speaker>AUGUSTINE, après une hésitation.</speaker>
+<sp who="AUGUSTINE"><speaker>AUGUSTINE</speaker><stage type="hesitate">, après une hésitation.
+</stage>
 <p id="46">
 	<s id="1">Bien sûr !</s>
 </p>
 </sp>
-<sp stage="stop" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, en conclusion.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="stop">, en conclusion.
+</stage>
 <p id="47">
 	<s id="">Eh bien ?</s>
 </p>
@@ -323,12 +330,14 @@
 	<s id="1">Il paraît qu'il y a des gens des contributions qui s'introduisent dans les maisons où il y a une jeune fille à marier, sous prétexte de demander sa main...</s>
 </p>
 </sp>
-<sp stage="frighten" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, terrorisé, à sa femme.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="frighten">, terrorisé, à sa femme.
+</stage>
 <p id="59">
 	<s id="1">Tu entends ça ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="MADAME RACOSSE"><speaker>MADAME RACOSSE, impressionnée elle-même.</speaker>
+<sp who="MADAME RACOSSE"><speaker>MADAME RACOSSE</speaker><stage type="estonish">, impressionnée elle-même.
+</stage>
 <p id="60">
 	<s id="1">Oui, j'entends...</s>
 </p>
@@ -340,7 +349,8 @@
 </p>
 <stage type="sad/silence/watch">Silence accablé. Monsieur Racosse regarde Madame Racosse.</stage>
 </sp>
-<sp stage="toward" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, à Augustine.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="toward">, à Augustine.
+</stage>
 <p id="62">
 	<s id="1">Il faut te dire, justement, que nous attendons quelqu'un aujourd'hui pour la petite...</s>
 </p>
@@ -368,7 +378,8 @@
 	<s id="1">Bonjour, ma tante.</s>
 </p>
 </sp>
-<sp stage="hurry" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, précipitamment.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="hurry">, précipitamment.
+</stage>
 <p id="67">
 	<s id="1">Va changer de robe !</s>
 </p>
@@ -428,7 +439,8 @@
 	<s id="1">J'ai entendu une auto qui vient de stopper devant la maison.</s>
 </p>
 </sp>
-<sp stage="agitated" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, agité.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="agitated">, agité.
+</stage>
 <p id="78">
 	<s id="1">C'est lui ! </s>
 	<s id="2">Tu penses que nous n'avons pas eu le temps d'arrêter notre plan de campagne... </s>
@@ -445,13 +457,15 @@
 	<s id="1">Qu'est-ce que c'est ?</s>
 </p>
 </sp>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entrant</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entrant
+</stage>
 <p id="81">
 	<s id="1">Monsieur, c'est deux messieurs qui veulent parler à Monsieur et à Madame... </s>
 	<s id="2">Je ne les ai pas laissés dans l'antichambre, je les ai fait entrer dans le petit salon.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, entre ses dents.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="aparte">, entre ses dents.
+</stage>
 <p id="82">
 	<s id="">Ils vont voir les Renoir et les Cézanne...</s>
 </p>
@@ -509,7 +523,8 @@
 	<s id="2">Sonne.</s>
 </p>
 </sp>
-<sp stage="ring" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, il sonne.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="ring">, il sonne.
+</stage>
 <p id="93">
 	<s id="1">Qu'est-ce qu'il va falloir inventer ?...</s>
 </p>
@@ -555,7 +570,8 @@
 	<s id="2">Pendant ce temps, ces dames pourront faire visiter à mon ami votre jardin d'hiver dont on m'a parlé !</s>
 </p>
 </sp>
-<sp stage="low/toward" who="AUGUSTINE"><speaker>AUGUSTINE, bas à Racosse.</speaker>
+<sp who="AUGUSTINE"><speaker>AUGUSTINE</speaker><stage type="low/toward">, bas à Racosse.
+</stage>
 <p id="101">
 	<s id="1">Attention !</s>
 </p>
@@ -582,7 +598,8 @@
 </p>
 <stage type="exit">Sortent les trois dames et Enguerrand Durand.</stage>
 </sp>
-<sp stage="toward" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, à Pomin.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="toward">, à Pomin.
+</stage>
 <p id="106">
 	<s id="1">Je vous dirai que la maison que nous occupons, nous l'avons dans la famille depuis 1840 !... </s>
 	<s id="2">Mon grand-père l'avait achetée pour un morceau de pain. </s>
@@ -605,7 +622,8 @@
 	<s id="1">Vous avez de bien beaux tableaux, dans votre petit salon !</s>
 </p>
 </sp>
-<sp stage="low" who="RACOSSE"><speaker>RACOSSE, confidentiellement.</speaker>
+<sp who="RACOSSE"><speaker>RACOSSE</speaker><stage type="low">, confidentiellement.
+</stage>
 <p id="110">
 	<s id="1">Je vous indiquerai le nom du petit peintre qui nous fait ces tableaux. </s>
 	<s id="2">Il a attrapé la manière des grands maîtres...</s>
@@ -667,7 +685,8 @@
 	<s id="2">Il y a des hypothèques jusqu'au-dessus des toits !</s>
 </p>
 </sp>
-<sp stage="silence" who="POMIN"><speaker>POMIN, après un silence.</speaker>
+<sp who="POMIN"><speaker>POMIN</speaker><stage type="silence">, après un silence.
+</stage>
 <p id="121">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Monsieur, je vous remercie de m'avoir parlé avec une telle franchise. </s>
@@ -711,13 +730,15 @@
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="alone" who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE, seul.</speaker>
+<sp who="MONSIEUR RACOSSE"><speaker>MONSIEUR RACOSSE</speaker><stage type="alone">, seul.
+</stage>
 <p id="128">
 	<s id="1">Je l'ai eu.</s>
 </p>
 <stage type="entrance">Entre Enguerrand Durand.</stage>
 </sp>
-<sp stage="enthousiasm" who="ENGUERRAND DURAND"><speaker>ENGUERRAND, dans l'exaltation.</speaker>
+<sp who="ENGUERRAND DURAND"><speaker>ENGUERRAND</speaker><stage type="enthousiasm">, dans l'exaltation.
+</stage>
 <p id="129">
 	<s id="1">Monsieur, ma démarche va vous surprendre, mais je dois vous demander ceci au préalable : est-ce que vous êtes d'accord avec Monsieur Pomin ?</s>
 </p>
@@ -757,7 +778,8 @@
 	<s id="">Mais que dira ce poète quand il apprendra que nous avons de la fortune ?...</s>
 </p>
 </sp>
-<sp stage="low/toward" who="AUGUSTINE"><speaker>AUGUSTINE, de même.</speaker>
+<sp who="AUGUSTINE"><speaker>AUGUSTINE</speaker><stage type="low/toward">, de même.
+</stage>
 <p id="135">
 	<s id="">Il se fera une raison.</s>
 </p>

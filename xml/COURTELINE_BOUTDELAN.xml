@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,29 +28,31 @@
 		<docTitle>
 			<titlePart type="main">LE BOUT DE L'AN</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="L'HUISSIER-AUDIENCIER" sex="1" type="H" statut="huissier" age='A' stat_amour='néant'>L'HUISSIER-AUDIENCIER</role>.</castItem>
-			<castItem><role id="LE GASTEUX DE LA ROCHE TARPÉIENNE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE GASTEUX DE LA ROCHE TARPÉIENNE</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="A" statut="président " age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="L'HUISSIER-AUDIENCIER" sex="1" type="H" statut="huissier" age="A" stat_amour="néant">L'HUISSIER-AUDIENCIER</role>.</castItem>
+			<castItem><role id="LE GASTEUX DE LA ROCHE TARPÉIENNE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE GASTEUX DE LA ROCHE TARPÉIENNE</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="A" statut="président " age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
 			</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 157-163</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE BOUT DE L'AN</head>
-<div2 type="scene" n="1"><head></head>
-<sp stage="call" who="L'HUISSIER-AUDIENCIER"><speaker>L'HUISSIER-AUDIENCIER, appelant.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="L'HUISSIER-AUDIENCIER"><speaker>L'HUISSIER-AUDIENCIER</speaker><stage type="call">, appelant.
+</stage>
 <p id="1">
 	<s id="1">Le ministère public contre Le Gasteux_de_la_Roche_Tarpéienne !</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE GASTEUX"><speaker>LE GASTEUX DE LA ROCHE TARPÉIENNE, à part.</speaker>
+<sp who="LE GASTEUX"><speaker>LE GASTEUX DE LA ROCHE TARPÉIENNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Que dira la marquise_douairière ?...</s>
 </p>
@@ -62,7 +64,8 @@
 	<s id="2">Jeudi dernier, le jour de la mi-Carême, vous avez pénétré au moment des Vêpres dans l'église_de_la_Trinité, grotesquement affublé du déguisement que vous portez encore et avec lequel vous avez été été arrêté – un costume de roi_nègre, je pense.</s>
 </p>
 </sp>
-<sp stage="quiet" who="LE GASTEUX"><speaker>LE GASTEUX DE LA ROCHE TARPÉIENNE, très simple.</speaker>
+<sp who="LE GASTEUX"><speaker>LE GASTEUX DE LA ROCHE TARPÉIENNE</speaker><stage type="quiet">, très simple.
+</stage>
 <p id="4">
 	<s id="1">Behauzin.</s>
 </p>
@@ -106,7 +109,8 @@
 	<s id="3">Vous croyez qu'on rentre dans une église se faire dire une messe de bout de l'an à quatre heures de l'après-midi, comme on rentre chez le pharmacien acheter de l'antipyrine ?</s>
 </p>
 </sp>
-<sp stage="seilence" who="LE GASTEUX"><speaker>LE GASTEUX, après un silence.</speaker>
+<sp who="LE GASTEUX"><speaker>LE GASTEUX</speaker><stage type="seilence">, après un silence.
+</stage>
 <p id="12">
 	<s id="1">J'étais ivre.</s>
 </p>
@@ -152,7 +156,8 @@
 </p>
 <stage type="declamate">Le tribunal délibère puis condamne Le Gasteux de la Roche Tarpéienne à huit jours d'emprisonnement.</stage>
 </sp>
-<sp stage="exit" who="LE GASTEUX"><speaker>LE GASTEUX, emmené à part.</speaker>
+<sp who="LE GASTEUX"><speaker>LE GASTEUX</speaker><stage type="exit">, emmené à part.
+</stage>
 <p id="17">
 	<s id="">Que dira la marquise_douairière ?...</s>
 </p>

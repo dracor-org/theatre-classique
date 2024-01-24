@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,8 +30,8 @@
 			<titlePart type="sub">OU NOUVEAUX PETITS DRAMES DIALOGUÉS SUR DES PROVERBES</titlePart>
 			<titlePart type="sub">Propres à former les moeurs des enfants et des jeunes personnes, depuis l'âge de cinq ans jusqu'à vingt.</titlePart>
 		</docTitle>
- 		<docDate value='1769'>M. DCC. LXIX.</docDate>
-		<docAuthor id='MOISSY, Alexandre-Guillaume de'>Par M. de MOISSY.</docAuthor>
+ 		<docDate value="1769">M. DCC. LXIX.</docDate>
+		<docAuthor id="MOISSY, Alexandre-Guillaume de">Par M. de MOISSY.</docAuthor>
 		<docImprint>
 			<editor id="FAGES">Chez Bailly, Libraire, Quai des Augustins, à l'Occasion.</editor>
 			<approbation><head>APPROBATION.</head>
@@ -123,7 +123,7 @@
 			<p>LES LIAISONS DANGEREUSES, page 319</p>
 			<p>Aventure heureuse qui fait connaître aux jeunes gens l'importance de bien choisir leurs liaisons, pour éviter les chagrins et les malheurs.</p>
 	</div>
-	<div type="table" ><head>TABLE DES MOTS DES PROVERBES.</head>
+	<div type="table"><head>TABLE DES MOTS DES PROVERBES.</head>
 		<p>Proverbe I. La Poupée : Trop parler nuit.</p>
 		<p>II. Les Gourmandes : Fin contre fin, n'est pas bon à faire doublure.</p>
 		<p>III. Le Menuet et l' Allemande : Le bon Oiseau se fait de lui-même.</p>
@@ -148,19 +148,20 @@
 
 <castList>
 	<head>ACTEURS de LE DUEL.</head>
-		<castItem><role id="LE PETIT MARQUIS DE SURMONT" sex="1" type="H" statut='marquis' age='E' stat_amour='(néant)'>LE PETIT MARQUIS DE SURMONT</role>, enfant de onze ou douze ans.</castItem>
-		<castItem><role id="LE PETIT CHEVALIER D'URZY" sex="1" type="H" statut='chevalier' age='E' stat_amour='(néant)'>LE PETIT CHEVALIER D'URZY</role>, enfant de onze ou douze ans.</castItem>
-		<castItem><role id="MADEMOISELLE D'URZY" sex="2" type="H" statut='marquis' age='E' stat_amour='(néant)'>MADEMOISELLE D'URZY</role>, sa Soeur, enfant de onze ou douze ans.</castItem>
-		<castItem><role id="LE GOUVERNEUR" sex="1" type="H" statut='gouverneur' age='A' stat_amour='(néant)'>LE GOUVERNEUR du petit Marquis</role>.</castItem>
-		<castItem><role id="LE PRÉCEPTEUR" sex="1" type="H" statut='précepteur' age='A' stat_amour='(néant)'>LE PRÉCEPTEUR du petit Chevalier</role>.</castItem>
+		<castItem><role id="LE PETIT MARQUIS DE SURMONT" sex="1" type="H" statut="marquis" age="E" stat_amour="(néant)">LE PETIT MARQUIS DE SURMONT</role>, enfant de onze ou douze ans.</castItem>
+		<castItem><role id="LE PETIT CHEVALIER D'URZY" sex="1" type="H" statut="chevalier" age="E" stat_amour="(néant)">LE PETIT CHEVALIER D'URZY</role>, enfant de onze ou douze ans.</castItem>
+		<castItem><role id="MADEMOISELLE D'URZY" sex="2" type="H" statut="marquis" age="E" stat_amour="(néant)">MADEMOISELLE D'URZY</role>, sa Soeur, enfant de onze ou douze ans.</castItem>
+		<castItem><role id="LE GOUVERNEUR" sex="1" type="H" statut="gouverneur" age="A" stat_amour="(néant)">LE GOUVERNEUR du petit Marquis</role>.</castItem>
+		<castItem><role id="LE PRÉCEPTEUR" sex="1" type="H" statut="précepteur" age="A" stat_amour="(néant)">LE PRÉCEPTEUR du petit Chevalier</role>.</castItem>
 </castList>
-	<set location="France" country="France" periode='XVIIIème' gps="(N/A)">La Scène est dans un grand Jardin à charmilles, dépendant de la Maison des Père et Mère du petit Chevalier. L'action se passe après-diné.</set>
+	<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La Scène est dans un grand Jardin à charmilles, dépendant de la Maison des Père et Mère du petit Chevalier. L'action se passe après-diné.</set>
 
 	
 </front>
 <body>
 <div1 type="act" n="1"><head>LE DUEL</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Gouverneur, Le Précepteur.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Le Gouverneur, Le Précepteur.
+</stage>
 <sp who="LE PRÉCEPTEUR"><speaker>LE PRÉCEPTEUR.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -271,8 +272,10 @@
 <stage type="away/hide/location">Ils passent de l'autre côté de la charmille, et suivent ainsi les deux jeunes gens, sans en être vus.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2" stage="costume/decor"><head>SCÈNE II. Le Petit Marquis, Le Petit Chevalier, en épées et en chapeaux se promenant le long de la charmille.</head> 
-<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, en faisant sauter du fable avec une baguette.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="costume/decor"> Le Petit Marquis, Le Petit Chevalier, en épées et en chapeaux se promenant le long de la charmille. 
+</stage> 
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS</speaker><stage>, en faisant sauter du fable avec une baguette.
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Monsieur, si vous n'êtes pas content, prenez des cartes. </s>
@@ -286,7 +289,8 @@
 	<s id="1">Mauvais propos qui, loin de me satisfaire, ne font, Monsieur_le_Marquis, qu'augmenter votre tort vis-à-vis de ma soeur, et me forcer de me fâcher tout de bon contre vous.</s>
 </p>
 </sp>
-<sp stage="play" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS toujours jouant avec sa baguette.</speaker>
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS</speaker><stage type="play"> toujours jouant avec sa baguette.
+</stage>
 <p id="3">
 	<s id="1">Vous fâcher, vous fâcher ? </s>
 	<s id="2">Ah ! </s>
@@ -307,12 +311,14 @@
 	<s id="3">Oui, votre soeur est une bête, je l'ai dit, et je vous le répète encore, mais je ne vous le dis pas grossièrement ; il n'y a pas deux façons de le dire, puisque cela est vrai, entendez-vous ?</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER. Impromptu</speaker>
+<sp who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER.</speaker><stage type="impromptu"> Impromptu
+</stage>
 <p id="6">
 	<s id="1">Si vous ne savez pas deux façons de le dire, vous me forcez à vous apprendre qu'il y en a une de vous faire connaître que ma soeur ni moi, ne méritons pas vos insultes ; on peut vous en faire repentir.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS. Impromptu</speaker>
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS.</speaker><stage type="impromptu"> Impromptu
+</stage>
 <p id="7">
 	<s id="1">Bas, bas, je vous entends ; vous allez vous en plaindre à mon Gouverneur, n'est-ce pas ? </s>
 	<s id="2">Eh bien ! </s>
@@ -343,7 +349,8 @@
 	<s id="3">Avançons dans ce coin, afin que personne ne puisse nous voir, et vous connaîtrez si je suis aussi enfant que vous le dites.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS. Impromptu</speaker>
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS.</speaker><stage type="impromptu"> Impromptu
+</stage>
 <p id="11">
 	<s id="1">Eh bien ! Avançons ; que me montrerez-vous ? </s>
 	<s id="2">Que vous faites le petit brave, parce que vous savez que votre épée tient dans le fourreau ; mais la mienne n'y tient pas, et je pourrais bien vous en donner quelques coups sur les épaules pour vous apprendre à vivre ; mais, non, avançons ; vous tirerez votre épée, et moi, je ne veux me servir que de cette baguette : venez, mon petit ami, cela m'amusera...</s>
@@ -406,7 +413,8 @@
 	<s id="1">Volontiers.</s>
 </p>
 </sp>
-<sp stage="watch" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, le petit Marquis apercevant le Gouverneur et le Précepteur.</speaker>
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS</speaker><stage type="watch">, le petit Marquis apercevant le Gouverneur et le Précepteur.
+</stage>
 <stage type="aparte">À part.</stage>
 <p id="23">
 	<s id="1">Bon, on va nous séparer.</s>
@@ -423,7 +431,8 @@
 <stage type="fight">Ils approchent, jusqu'à toucher leurs épées, que le Gouverneur sépare en se mettant entre eux deux.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les Acteurs précédents, Le Gouverneur, Le  Précepteur.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les Acteurs précédents, Le Gouverneur, Le  Précepteur.
+</stage>
 <sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR.</speaker>
 <p id="1">
 	<s id="1">Hé bien ! </s>
@@ -434,7 +443,8 @@
 	<s id="1">Otez-vous, Monsieur, que je corrige ce petit insolent-là.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER. ( Impromptu )</speaker>
+<sp who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER.</speaker><stage type="impromptu"> ( Impromptu )
+</stage>
 <p id="3">
 	<s id="1">Ne faites pas le méchant, Marquis, ce n'est pas le moment ; remercions plutôt ces Messieurs, et qu'ils jugent qui est-ce qui a tort de nous deux, cela vaudra mieux.</s>
 </p>
@@ -482,8 +492,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. LES ACTEURS PRÉCÉDENS; MADEMOISELLE D'URZY, Soeur du Chevalier.</head>
-<sp who="MADEMOISELLE D'URZY"><speaker>MADEMOISELLE D'URZY. (Impromptu).</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> LES ACTEURS PRÉCÉDENS; MADEMOISELLE D'URZY, Soeur du Chevalier.
+</stage>
+<sp who="MADEMOISELLE D'URZY"><speaker>MADEMOISELLE D'URZY.</speaker><stage> (Impromptu).
+</stage>
 <p id="1">
 	<s id="1">Mon Frère, j'étais inquiète de toi ; je t'ai vu sortir dans le jardin avec Monsieur, j'ai regardé par la fenêtre, j'ai vu que vous vous menaciez i et puis j'ai vu que je ne vous ai plus vus... </s>
 	<s id="2">J'ai eu peur que votre petite querelle à mon sujet.</s>
@@ -496,12 +508,14 @@
 	<s id="3">Voilà le moment...</s>
 </p>
 </sp>
-<sp stage="toward/impromptu" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS à Mademoiselle d'Urzy. ( Impromptu ).</speaker>
+<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS</speaker><stage type="toward/impromptu"> à Mademoiselle d'Urzy. ( Impromptu ).
+</stage>
 <p id="3">
 	<s id="1">Mademoiselle, j'ai eu tort de vous parler tantôt comme j'ai fait, je vous en demande excuse ; je vous prie de l'oublier et de n'en parler à personne.</s>
 </p>
 </sp>
-<sp who="MADEMOISELLE D'URZY"><speaker>MADEMOISELLE D'URZY. (Impromptu).</speaker>
+<sp who="MADEMOISELLE D'URZY"><speaker>MADEMOISELLE D'URZY.</speaker><stage> (Impromptu).
+</stage>
 <p id="4">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur, je n'y ai pas pris garde ; vous dites tant de choses qui... </s>
@@ -538,14 +552,16 @@
 	<s id="1">Ni moi, je vous assure.</s>
 </p>
 </sp>
-<sp stage="impromptu" who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER. (Impromptu)</speaker>
+<sp who="LE PETIT CHEVALIER"><speaker>LE PETIT CHEVALIER.</speaker><stage type="impromptu"> (Impromptu)
+</stage>
 <p id="11">
 	<s id="1">Ni moi, ni ma soeur non plus ; allons, Marquis, redevenons bons amis.</s>
 </p>
 <stage type="exit/hugh">Ils s'en vont tous trois en se tenant embrassés.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Gouverneur, Le Précepteur.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Gouverneur, Le Précepteur.
+</stage>
 <sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>

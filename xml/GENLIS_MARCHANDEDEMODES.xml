@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,30 +28,32 @@
 			<titlePart type="main">LA MARCHANDE DE MODES</titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="MADAME DUPRÉ" sex="2" type="H" statut="commerçant" age='A' stat_amour='néant'>MADAME DUPRÉ</role>, marchande de modes.</castItem>
-			<castItem><role id="JUSTINE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>JUSTINE</role>, première fille de boutique.</castItem>
-			<castItem><role id="ANNETTE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>ANNETTE</role>, fille de boutique.</castItem>
-			<castItem><role id="MARTHE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>MARTHE</role>, fille de boutique.</castItem>
-			<castItem><role id="JOSÉPHINE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>JOSÉPHINE</role>, fille de boutique.</castItem>
-			<castItem><role id="ISABELLE" sex="2" type="H" statut="employé" age='A' stat_amour='néant'>ISABELLE</role>, fille de boutique.</castItem>
-			<castItem><role id="LA MARQUISE DE LINCÉ" sex="2" type="H" statut="marquis" age='A' stat_amour='néant'>LA MARQUISE DE LINCÉ</role>.</castItem>
-			<castItem><role id="LA BARONNE d'ELSAC" sex="2" type="H" statut="baron" age='A' stat_amour='néant'>LA BARONNE d'ELSAC</role>.</castItem>
+			<castItem><role id="MADAME DUPRÉ" sex="2" type="H" statut="commerçant" age="A" stat_amour="néant">MADAME DUPRÉ</role>, marchande de modes.</castItem>
+			<castItem><role id="JUSTINE" sex="2" type="H" statut="employé" age="A" stat_amour="néant">JUSTINE</role>, première fille de boutique.</castItem>
+			<castItem><role id="ANNETTE" sex="2" type="H" statut="employé" age="A" stat_amour="néant">ANNETTE</role>, fille de boutique.</castItem>
+			<castItem><role id="MARTHE" sex="2" type="H" statut="employé" age="A" stat_amour="néant">MARTHE</role>, fille de boutique.</castItem>
+			<castItem><role id="JOSÉPHINE" sex="2" type="H" statut="employé" age="A" stat_amour="néant">JOSÉPHINE</role>, fille de boutique.</castItem>
+			<castItem><role id="ISABELLE" sex="2" type="H" statut="employé" age="A" stat_amour="néant">ISABELLE</role>, fille de boutique.</castItem>
+			<castItem><role id="LA MARQUISE DE LINCÉ" sex="2" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE DE LINCÉ</role>.</castItem>
+			<castItem><role id="LA BARONNE d'ELSAC" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE d'ELSAC</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris, chez madame Dupré.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>LA MARCHANDE DE MODES</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Madame Dupré, Justine.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Madame Dupré, Justine.
+</stage>
 <stage type="decor/sit/work">Madame Dupré assise et travaillant; Justine est à côté d'elle ; après Justine, Annette ; de l'autre côté sont rangées Marthe, Isabelle et Joséphine, travaillant aussi : des lumières sont posées sur les comptoirs.</stage>
-<sp stage="silence/watch" who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ, après un moment de silence, lève la tète, et voit vis-à-vis d'elle les jeunes filles qui parlent tout bas.</speaker>
+<sp who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ</speaker><stage type="silence/watch">, après un moment de silence, lève la tète, et voit vis-à-vis d'elle les jeunes filles qui parlent tout bas.
+</stage>
 <p id="1">
 	<s id="1">Eh bien, Mesdemoiselles, qu'est-ce que c'est donc que toutes ces chuchoteries-là ? </s>
 	<s id="2">Est-ce comme cela que vous travaillez ?... </s>
@@ -115,7 +117,8 @@
 	<s id="2">Justine, va me chercher mon mantelet.</s>
 </p>
 </sp>
-<sp stage="stand" who="JUSTINE"><speaker>JUSTINE, se levant.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="12">
 	<s id="1">Madame, allez-vous sortir seule ?</s>
 </p>
@@ -182,13 +185,15 @@
 	<s id="1">Non, parce qu'il y a trois mois qu'elle est dans ses terres.</s>
 </p>
 </sp>
-<sp stage="back/closer/give" who="JUSTINE"><speaker>JUSTINE, revenant, à Madame Dupré.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="back/closer/give">, revenant, à Madame Dupré.
+</stage>
 <p id="25">
 	<s id="1">Madame, voici votre mantelet et vos gants. </s>
 	<s id="2">Quel carton voulez-vous emporter ?</s>
 </p>
 </sp>
-<sp stage="stand" who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ, se levant.</speaker>
+<sp who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ</speaker><stage type="stand">, se levant.
+</stage>
 <p id="26">
 	<s id="1">Je n'en veux point. </s>
 	<s id="2">Madame de Clémont n'achète plus de chiffons ; elle est revenue de cela.</s>
@@ -229,8 +234,9 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Justine se met à la place de Madame Dupré,
-Annette, Marthe, Joséphine, Isabelle.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Justine se met à la place de Madame Dupré,
+Annette, Marthe, Joséphine, Isabelle.
+</stage>
 <sp who="ANNETTE"><speaker>ANNETTE.</speaker>
 <p id="1">
 	<s id="1">Comme elle a soin de sa mère !</s>
@@ -246,7 +252,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">C'est une excellente femme aussi que madame Moreau.</s>
 </p>
 </sp>
-<sp stage="toward" who="ANNETTE"><speaker>ANNETTE, à Isabelle.</speaker>
+<sp who="ANNETTE"><speaker>ANNETTE</speaker><stage type="toward">, à Isabelle.
+</stage>
 <p id="4">
 	<s id="1">Il n'y a que trois semaines que vous êtes ici ; mais quand vous la connaîtrez mieux, vous l'aimerez bien davantage. </s>
 	<s id="2">Elle est aussi honnête, aussi charitable, aussi pieuse que sa fille, c'est tout dire.</s>
@@ -278,7 +285,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Madame Dupré, quand elle se vit en état, la tira de son village, et la fit venir ici.</s>
 </p>
 </sp>
-<sp stage="sigh" who="ISABELLE"><speaker>ISABELLE, en soupirant.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="sigh">, en soupirant.
+</stage>
 <p id="10">
 	<s id="1">C'est bien heureux de pouvoir faire le bonheur de sa mère !</s>
 </p>
@@ -381,17 +389,20 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">C'est bien long ! </s>
 </p>
 </sp>
-<sp stage="stand/exit" who="JOSÉPHINE"><speaker>JOSÉPHINE, se levant, et sortant du comptoir.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="stand/exit">, se levant, et sortant du comptoir.
+</stage>
 <p id="29">
 	<s id="1">Il faut que je marche un moment, j'ai les pieds tout engourdis de froid.</s>
 </p>
 </sp>
-<sp stage="stand" who="ISABELLE"><speaker>ISABELLE, se levant.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="30">
 	<s id="1">Et moi aussi.</s>
 </p>
 </sp>
-<sp stage="toward" who="ANNETTE"><speaker>ANNETTE, à Juliette.</speaker>
+<sp who="ANNETTE"><speaker>ANNETTE</speaker><stage type="toward">, à Juliette.
+</stage>
 <p id="31">
 	<s id="1">Justine, n'as-tu pas été ce matin chez Madame_la_Baronne d'Elsac ?</s>
 </p>
@@ -444,7 +455,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 </p>
 <stage type="laugh">Toutes les jeunes filles rient, à l'exception de Justine.</stage>
 </sp>
-<sp stage="laugh" who="ISABELLE"><speaker>ISABELLE, riant toujours.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="laugh">, riant toujours.
+</stage>
 <p id="39">
 	<s id="1">Elle fait toutes ces simagrées-là ?</s>
 </p>
@@ -489,7 +501,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Justine a raison ; et nous autres, nous avons eu tort de rire...</s>
 </p>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, à Joséphine.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, à Joséphine.
+</stage>
 <p id="46">
 	<s id="1">Ce que je vous en dis, Joséphine, c'est par amitié pour vous.</s>
 </p>
@@ -552,7 +565,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Eh bien ?</s>
 </p>
 </sp>
-<sp stage="laugh" who="ANNETTE"><speaker>ANNETTE, riant.</speaker>
+<sp who="ANNETTE"><speaker>ANNETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="58">
 	<s id="1">C'est...</s>
 </p>
@@ -588,17 +602,20 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Oh ! N'ayez pas peur.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="JOSÉPHINE"><speaker>JOSÉPHINE, bas à Isabelle.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="low/toward">, bas à Isabelle.
+</stage>
 <p id="65">
 	<s id="1">Prends donc ton sérieux.</s>
 </p>
 </sp>
-<sp stage="low" who="ISABELLE"><speaker>ISABELLE, bas.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="low">, bas.
+</stage>
 <p id="66">
 	<s id="1">Je ne peux pas.</s>
 </p>
 </sp>
-<sp stage="low" who="JOSÉPHINE"><speaker>JOSÉPHINE, bas.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="low">, bas.
+</stage>
 <p id="67">
 	<s id="1">Ni moi... </s>
 	<s id="2">Faisons semblant de nous moucher...</s>
@@ -612,8 +629,9 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 <stage type="stand">Toutes les jeunes filles se lèvent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Baronne, suivie de ses gens, qui restent
-dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Baronne, suivie de ses gens, qui restent
+dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.
+</stage>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="1">
 	<s id="1">Où est madame Dupré ?</s>
@@ -702,7 +720,8 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 	<s id="1">Non ; je ne compte pas faire un long établissement ici...</s>
 </p>
 </sp>
-<sp stage="aparte" who="JOSÉPHINE"><speaker>JOSÉPHINE, à part.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="18">
 	<s id="1">Je parie qu'elle y restera une heure.</s>
 </p>
@@ -723,7 +742,8 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 	<s id="1">Oui, comme cela, sur la main ; et puis, quand on s'en coiffera, ils iront à faire horreur.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MARTRE"><speaker>MARTRE, à part.</speaker>
+<sp who="MARTRE"><speaker>MARTRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="22">
 	<s id="1">Je le crois bien, sur ce visage-là...</s>
 </p>
@@ -789,7 +809,8 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 	<s id="3">Elle n'aime pas les chiffons chers ; elle n'a pas besoin de cela : elle est si jeune et si jolie !...</s>
 </p>
 </sp>
-<sp stage="nervous" who="LA BARONNE"><speaker>LA BARONNE, avec beaucoup d'humeur.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="nervous">, avec beaucoup d'humeur.
+</stage>
 <p id="33">
 	<s id="1">Remportez ce chapeau, et même les autres aussi ; ils sont tous affreux. </s>
 	<s id="2">Je ne sais pas pourquoi j'en prends ici, car on ne les fait bien que chez Mademoiselle Maillard.</s>
@@ -835,7 +856,8 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 	<s id="1">Ils sont déjà faits...</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, réfléchissant sur son jupon.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage>, réfléchissant sur son jupon.
+</stage>
 <p id="41">
 	<s id="1">Il me semble qu'il faudrait des noeuds dans ces creux ?...</s>
 </p>
@@ -865,7 +887,8 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 	<s id="1">Ce sera très-joli.</s>
 </p>
 </sp>
-<sp stage="aparte/wave" who="JOSÉPHINE"><speaker>JOSÉPHINE, à part, en haussant les épaules.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="aparte/wave">, à part, en haussant les épaules.
+</stage>
 <p id="47">
 	<s id="1">À quarante-cinq ans, porter une robe garnie de rubans couleur de rose !...</s>
 </p>
@@ -883,17 +906,20 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 </p>
 <stage type="watch">Elle va voir.</stage>
 </sp>
-<sp stage="watch" who="LA BARONNE"><speaker>LA BARONNE, regardant toujours son jupon.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="watch">, regardant toujours son jupon.
+</stage>
 <p id="50">
 	<s id="1">Quand les glands et les noeuds seront posés, ce sera véritablement charmant.</s>
 </p>	
 </sp>
-<sp stage="back" who="JOSÉPHINE"><speaker>JOSÉPHINE, revenant.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="back">, revenant.
+</stage>
 <p id="51">
 	<s id="1">Mademoiselle Justine, c'est madame la Marquise de Lincé !</s>
 </p>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, pose le jupon sur le comptoir.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, pose le jupon sur le comptoir.
+</stage>
 <p id="52">
 	<s id="1">Bon !... </s>
 	<s id="2">Ah ! </s>
@@ -910,9 +936,11 @@ dans le fond du théâtre, Justine, Annette, Marthe, Joséphine, Isabelle.</head
 <stage type="away/entrance">Elle fait quelques pas pour s'en aller, la marquise paraît.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Baronne, La Marquise, Justine,
-Annette, Marthe, Joséphine, Isabelle.</head>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, à la Marquise.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Baronne, La Marquise, Justine,
+Annette, Marthe, Joséphine, Isabelle.
+</stage>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, à la Marquise.
+</stage>
 <p id="1">
 	<s id="1">Enfin vous voilà revenue, Madame ! </s>
 	<s id="2">Oserais-je vous demander depuis combien de jours ?...</s>
@@ -960,22 +988,26 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Je n'étais venue ici que par hasard, comme vous le croyez bien...</s>
 </p>	
 </sp>
-<sp stage="toward" who="JOSÉPHINE"><speaker>JOSÉPHINE, à la baronne.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="toward">, à la baronne.
+</stage>
 <p id="10">
 	<s id="1">Madame n'a-t-elle pas dit qu'elle voulait emporter sa robe ?</s>
 </p>
 </sp>
-<sp stage="stress" who="LA BARONNE"><speaker>LA BARONNE, sèchement.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="stress">, sèchement.
+</stage>
 <p id="11">
 	<s id="1">Non, gardez-la...</s>
 </p>
 </sp>
-<sp stage="get" who="JOSÉPHINE"><speaker>JOSÉPHINE, prenant la jupe qui est restée sur le comptoir.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="get">, prenant la jupe qui est restée sur le comptoir.
+</stage>
 <p id="12">
 	<s id="1">Il faut ôter cette jupe de dessus ce comptoir.</s>
 </p>
 </sp>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, regardant la jupe.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, regardant la jupe.
+</stage>
 <p id="13">
 	<s id="1">Ah ! </s>
 	<s id="2">Cela me paraît charmant !</s>
@@ -996,12 +1028,14 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Vous la trouvez peut-être un peu jeune pour moi ; mais c'est une fantaisie de madame Dupré.</s>
 </p>
 </sp>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, regardant toujours la jupe.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, regardant toujours la jupe.
+</stage>
 <p id="17">
 	<s id="1">C'est une fantaisie très gaie...</s>
 </p>
 </sp>
-<sp stage="aparye" who="JOSÉPHINE"><speaker>JOSÉPHINE, à part.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="aparye">, à part.
+</stage>
 <p id="18">
 	<s id="1">Risible même.</s>
 </p>
@@ -1011,7 +1045,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Adieu, Madame ; je suis charmée d'avoir eu l'honneur de vous rencontrer ; mais, je vous en prie, ménagez votre santé, afin de nous rapporter cette charmante fraîcheur que l'on vous enviait.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, en souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, en souriant.
+</stage>
 <p id="20">
 	<s id="1">Quel prix doit-on attacher à un agrément que trois mois peuvent faire perdre ?</s>
 </p>
@@ -1025,7 +1060,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. La Marquise, Justine, Annette, Marthe, Joséphine, Isabelle.</head> 
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Marquise, Justine, Annette, Marthe, Joséphine, Isabelle. 
+</stage> 
 <stage type="closer">Les jeunes filles viennent toutes auprès d'elle.</stage>
 <sp who="JUSTINE"><speaker>JUSTINE.</speaker>
 <p id="1">
@@ -1087,12 +1123,14 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Parfaitement bien.</s>
 </p>
 </sp>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, regardant Isabelle.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, regardant Isabelle.
+</stage>
 <p id="11">
 	<s id="1">Voilà une jeune fille que je ne connais pas.</s>
 </p>
 </sp>
-<sp stage="wave" who="ISABELLE"><speaker>ISABELLE, faisant la révérence.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="wave">, faisant la révérence.
+</stage>
 <p id="12">
 	<s id="1">Je ne suis ici, madame, que depuis trois semaines.</s>
 </p>
@@ -1105,7 +1143,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="4">La bonne fille était devenue maigre comme du bois, jamais ne se plaignait, et travaillait toujours ; enfin madame Dupré ayant appris tout cela, s'est chargée d'Isabelle, et la traite comme sa fille.</s>
 </p>
 </sp>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, regardant Isabelle.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, regardant Isabelle.
+</stage>
 <p id="14">
 	<s id="1">La charmante enfant !... </s>
 	<s id="2">Venez ici, ma chère Isabelle... </s>
@@ -1154,7 +1193,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Mon_Dieu, Madame, je suis confuse...</s>
 </p>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, bas à Annelle.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, bas à Annelle.
+</stage>
 <p id="22">
 	<s id="1">Quelle aimable dame !...</s>
 </p>
@@ -1178,7 +1218,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 <stage type="exit/follow">Elle sort ; toutes les jeunes filles la suivent jusqu'à la porte.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Justine, Annette, Marthe, Joséphine, Isabelle.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Justine, Annette, Marthe, Joséphine, Isabelle.
+</stage>
 <sp who="JUSTINE"><speaker>JUSTINE.</speaker>
 <p id="1">
 	<s id="1">Eh bien, y a-t-il dans le monde une plus charmante dame ?</s>
@@ -1190,13 +1231,15 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="2">Non assurément.</s>
 </p>
 </sp>
-<sp stage="toward" who="ISABELLE"><speaker>ISABELLE, à Justine.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="toward">, à Justine.
+</stage>
 <p id="3">
 	<s id="1">Tenez, Mademoiselle, voyez ce qu'elle m'a donné. </s>
 </p>
 <stage type="give">Elle lui donne la bourse.</stage>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, après avoir compté l'argent.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage>, après avoir compté l'argent.
+</stage>
 <p id="4">
 	<s id="1">Il y a dix louis !...</s>
 </p>
@@ -1224,12 +1267,14 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="2">Mais, madame Dupré ne grondera-telle pas ?</s>
 </p>
 </sp>
-<sp stage="toward" who="JUSTINE"><speaker>JUSTINE, à Isabelle.</speaker>
+<sp who="JUSTINE"><speaker>JUSTINE</speaker><stage type="toward">, à Isabelle.
+</stage>
 <p id="9">
 	<s id="1">Non, j'en réponds.</s>
 </p>
 </sp>
-<sp stage="toward" who="JOSÉPHINE"><speaker>JOSÉPHINE, à Isabelle.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage type="toward">, à Isabelle.
+</stage>
 <p id="10">
 	<s id="1">D'ailleurs, pour que ta tâche d'aujourd'hui soit faite, je t'aiderai quand tu reviendras, et nous nous coucherons une heure plus tard.</s>
 </p>
@@ -1244,7 +1289,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 	<s id="1">Merci, mesdemoiselles ; je vous assure que vous n'obligez pas une ingrate.</s>
 </p>
 </sp>
-<sp who="JOSÉPHINE"><speaker>JOSÉPHINE, à Isabelle.</speaker>
+<sp who="JOSÉPHINE"><speaker>JOSÉPHINE</speaker><stage>, à Isabelle.
+</stage>
 <p id="13">
 	<s id="1">Attends que je t'embrasse... car je suis aussi aise que toi-même de ton bonheur. </s>
 	<s id="2">Allons, ne perds plus de temps ; va-t'en bien vite.</s>
@@ -1252,7 +1298,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 <stage type="exit">Isabelle et Annette sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Justine, Marthe, Joséphine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Justine, Marthe, Joséphine.
+</stage>
 <stage type="work">Elles se remettent à l'ouvrage.</stage>
 <sp who="JUSTINE"><speaker>JUSTINE.</speaker>
 <p id="1">
@@ -1298,7 +1345,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Madame Dupré, Justine, Marthe, Joséphine.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Madame Dupré, Justine, Marthe, Joséphine.
+</stage>
 <sp who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ.</speaker>
 <p id="1">
 	<s id="1">Allons, Joséphine, fermez la boutique, il est neuf heures.</s>
@@ -1318,7 +1366,8 @@ Annette, Marthe, Joséphine, Isabelle.</head>
 <stage type="exit">Joséphine et Marthe sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Madame Dupré, Justine.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Madame Dupré, Justine.
+</stage>
 <sp who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ.</speaker>
 <p id="1">
 	<s id="1">Je viens, comme vous savez, de chez madame de Clémont, qui m'a chargée de chercher une femme de chambre pour Madame la Marquise de Lincé : elle me demande un bon sujet, une jeune fille enfin dont je puisse répondre, et j'ai jeté les yeux sur vous, ma chère Justine...</s>

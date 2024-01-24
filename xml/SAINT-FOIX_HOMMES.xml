@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,10 +31,10 @@
 			<titlePart type="sub">Le prix est de 24 sols.</titlePart>
 		</docTitle> 
 		<docDate value="1753">M. DCC. LIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio='patrat'>Par Mr. DE SAINT-FOIX.</docAuthor>
+		<docAuthor id="SAINT-FOIX, Germain-François Poulain de" bio="patrat">Par Mr. DE SAINT-FOIX.</docAuthor>
 		<docImprint>
 			<editor>À PARIS, Chez DUCHESNE, Libraire, rue Saint JAcques au-dessous de la Fontaine Saint-Benoît, au Temple du Goût.</editor>
-			<printer id='BALLARD'>De l'Imprimerie de BALLARD, seul Imprimeur du Roi pour la Musique, et Noteur de la Chapelle de Sa Majesté, rue Saint Jean-de-Beauvais, à Ste Cécile.</printer>
+			<printer id="BALLARD">De l'Imprimerie de BALLARD, seul Imprimeur du Roi pour la Musique, et Noteur de la Chapelle de Sa Majesté, rue Saint Jean-de-Beauvais, à Ste Cécile.</printer>
 		</docImprint>
 		<performance>
 			<premiere date="1753-06-27" location="Comédiens italiens">Représentée par les Comédiens Français ordinaires, le 27 Juin 1753.</premiere>
@@ -44,16 +44,16 @@
 			<p>Le Privilège et l'enregistrement se trouvent à la fin du Recueil des Pièces de Théâtre.</p>
 		</div>
 		<castList><head>ACTEURS.</head>
-			<castItem><role id="MERCURE" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>MERCURE</role>.</castItem>
-			<castItem><role id="PROMÉTHÉE" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>PROMETHÉE</role>.</castItem>
-			<castItem><role id="LA FOLIE" sex="9" type="A" statut='allégorie' age='A' stat_amour='néant'>LA FOLIE</role>.</castItem>
-			<castItem><role id="ACTEURS DANSANTS" sex="1" type="H" statut='allégorie' age='A' stat_amour='néant'>ACTEURS DANSANTS de différents caractères.</role>.</castItem>
+			<castItem><role id="MERCURE" sex="1" type="D" statut="dieu" age="A" stat_amour="néant">MERCURE</role>.</castItem>
+			<castItem><role id="PROMÉTHÉE" sex="1" type="D" statut="dieu" age="A" stat_amour="néant">PROMETHÉE</role>.</castItem>
+			<castItem><role id="LA FOLIE" sex="9" type="A" statut="allégorie" age="A" stat_amour="néant">LA FOLIE</role>.</castItem>
+			<castItem><role id="ACTEURS DANSANTS" sex="1" type="H" statut="allégorie" age="A" stat_amour="néant">ACTEURS DANSANTS de différents caractères.</role>.</castItem>
 	</castList>
-	<set location="Lieu mythologique" country='Pays mythologique' periode='Temps mythologiques' gps="(N/A)">La scène est sur la Terre.</set>
+	<set location="Lieu mythologique" country="Pays mythologique" periode="Temps mythologiques" gps="(N/A)">La scène est sur la Terre.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>LES HOMMES.</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor">Le fond du Théâtre représente une Forêt ; on voit plusieurs Statues au milieu d'un rond d'arbres ; Prométhée descend du Ciel un flambeau à la main, Mercure le suit.</stage>
 <sp who="MERCURE"><speaker>MERCURE.</speaker>
 <p id="1">
@@ -233,7 +233,8 @@
 	<s id="1">Je crains que tu n'en juges trop tard lorsqu'ils existeront.</s>
 </p>
 </sp>
-<sp stage="impatient/closer" who="PROMÉTHÉE"><speaker>PROMÉTHÉE, d'un ton d'impatience en avançant vers une des statues, et l'animant.</speaker> 
+<sp who="PROMÉTHÉE"><speaker>PROMÉTHÉE</speaker><stage type="impatient/closer">, d'un ton d'impatience en avançant vers une des statues, et l'animant. 
+</stage> 
 <p id="36">
 	<s id="">En tout cas j'aurai obéi à Minerve.</s>
 </p>
@@ -260,7 +261,8 @@
 </p>
 <stage type="narration">Tandis que cette première statue par ses attitudes et ses pas, marque sa surprise et son admiration, Prométhée par ses gestes marque combien il est satisfait de son ouvrage, et tâche de faire entrer Mercure dans sa joie. II anime une seconde Statue qui est encore celle d'un homme, et qui exprime à la vue du Ciel et de la Terre les mêmes mouvements de surprise que la première ; ensuite ils s'aperçoivent, courent l'un à l'autre, s'embrassent et se donnent tous les témoignages de l'amitié la plus vive.</stage>
 </sp>
-<sp stage="toward/cold" who="PROMÉTHÉE"><speaker>PROMETHÉE, à Mercure qui regarde froidement.</speaker>
+<sp who="PROMÉTHÉE"><speaker>PROMETHÉE</speaker><stage type="toward/cold">, à Mercure qui regarde froidement.
+</stage>
 <p id="40">
 	<s id="1">Quoi tu parois insensible à ce spectacle, à cette sympathie, à cette tendre amitié qui les a d'abord unis ?</s>
 </p>
@@ -405,7 +407,8 @@
 qui s'est animé lentement, remue dans son chapeau, l'un et l'autre viennent le flatter et le caresser avec bassesse ; Il se débarrasse d'eux d'un air brusque ; ils
 le suivent, et tous les trois sortent de dessus la scène.</stage>
 </sp>
-<sp stage="watch" who="MERCURE"><speaker>MERCURE, regardant une quatrième statue qui paraît celle d'un petit homme vêtu à la Mauresque.</speaker>
+<sp who="MERCURE"><speaker>MERCURE</speaker><stage type="watch">, regardant une quatrième statue qui paraît celle d'un petit homme vêtu à la Mauresque.
+</stage>
 <p id="66">
 	<s id="1">Dis-moi, je te prie, pourquoi cette figure au teint le plus rembruni ?</s>
 </p>
@@ -426,7 +429,8 @@ le suivent, et tous les trois sortent de dessus la scène.</stage>
 	<s id="1">Je n'y connais rien ; rendons-nous visibles ; la flamme céleste, et surtout communiquée par des Dieux, doit lui donner assez d'idées et de connaissances pour comprendre aisément tout ce que nous lui dirons.</s>
 </p>
 </sp>
-<sp stage="surprise" who="LA FOLIE"><speaker>LA FOLIE, feignant de la surprise en les voyant.</speaker>
+<sp who="LA FOLIE"><speaker>LA FOLIE</speaker><stage type="surprise">, feignant de la surprise en les voyant.
+</stage>
 <p id="70">
 	<s id="1">Ah !... </s>
 	<s id="2">Dites-moi, je vous prie, qui fuis-je, qu'étais-je et qu'âtes-vous ?</s>
@@ -500,14 +504,16 @@ le suivent, et tous les trois sortent de dessus la scène.</stage>
 	<s id="1">Parce que les animaux de ton espèce, ont le coeur si méchant qu'au lieu de vivre en paix les uns avec les autres, ils ne chercheraient qu'à se nuire, à se tromper, à s'opprimer, à se détruire.</s>
 </p>
 </sp>
-<sp stage="think" who="LA FOLIE"><speaker>LA FOLIE, réfléchissant.</speaker>
+<sp who="LA FOLIE"><speaker>LA FOLIE</speaker><stage type="think">, réfléchissant.
+</stage>
 <p id="84">
 	<s id="1">Si je suis seul, je m'ennuierai... </s>
 	<s id="2">Si j'ai des camarades, j'aurai beaucoup à souffrir... </s>
 	<s id="3">Eh mais, la vie n'est pas un si beau présent que je croyais.</s>
 </p>
 </sp>
-<sp stage="closer" who="MERCURE"><speaker>MERCURE, s'approchant d'elle.</speaker>
+<sp who="MERCURE"><speaker>MERCURE</speaker><stage type="closer">, s'approchant d'elle.
+</stage>
 <p id="85">
 	<s id="1">Eh bien il n'y a qu'à te l'ôter.</s>
 </p>
@@ -665,7 +671,8 @@ le suivent, et tous les trois sortent de dessus la scène.</stage>
 	<s id="5">Parmi les mortelles, il y en aura sans doute de jolies ; il a l'esprit souple, adroit, insinuant ; Jupiter le députera...</s>
 </p>
 </sp>
-<sp stage="desdain" who="MERCURE"><speaker>MERCURE, d'un ton dédaigneux.</speaker>
+<sp who="MERCURE"><speaker>MERCURE</speaker><stage type="desdain">, d'un ton dédaigneux.
+</stage>
 <p id="114">
 	<s id="1">Je te remercie de l'emploi.</s>
 </p>

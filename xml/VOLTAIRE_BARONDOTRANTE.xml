@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1781-1790</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -29,30 +29,31 @@
 				<titlePart type="sub">OPÉRA BOUFFE</titlePart>
 			</docTitle> 
 			<docDate value="1784">1784</docDate>
-			<docAuthor id="VOLTAIRE" bio='voltaire'>Voltaire</docAuthor>
+			<docAuthor id="VOLTAIRE" bio="voltaire">Voltaire</docAuthor>
 			<docImprint>
-				<privilege id="17**-**-**"></privilege>
-				<imprimeur id="***"></imprimeur>
-				<acheveImprime id="17**-**-**"></acheveImprime>
+				<privilege id="17**-**-**"/>
+				<imprimeur id="***"/>
+				<acheveImprime id="17**-**-**"/>
 			</docImprint>
 			<performance>
-				<premiere date='1784' location='(inconnue)'>Représentée, pour la première fois, en 1784.</premiere>
+				<premiere date="1784" location="(inconnue)">Représentée, pour la première fois, en 1784.</premiere>
 			</performance>
 			<castList><head>PERSONNAGES</head>
-				<castItem><role id="IRÈNE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>IRÈNE</role>.</castItem>
-				<castItem><role id="UNE GOUVERNANTE" sex="2" type="H" statut='gouvernante' age='A' stat_amour='néant'>UNE GOUVERNANTE</role></castItem>
-				<castItem><role id="ABDALLA" sex="1" type="H" statut='corsaire' age='A' stat_amour='néant'>ABDALLA</role>, corsaire turc.</castItem>
-				<castItem><role id="CONSEILLERS PRIVÉS DU BARON" sex="1" type="H" statut='conseiller' age='A' stat_amour='néant'>CONSEILLERS PRIVÉS DU BARON</role>.</castItem>
-				<castItem><role id="HOBEREAUX ET FILLES D'OTRANTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>HOBEREAUX ET FILLES D'OTRANTE</role>.</castItem>
-				<castItem><role id="TROUPE DE TURCS" sex="1" type="H" statut='soldat' age='A' stat_amour='néant'>TROUPE DE TURCS</role>.</castItem>
+				<castItem><role id="IRÈNE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">IRÈNE</role>.</castItem>
+				<castItem><role id="UNE GOUVERNANTE" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">UNE GOUVERNANTE</role></castItem>
+				<castItem><role id="ABDALLA" sex="1" type="H" statut="corsaire" age="A" stat_amour="néant">ABDALLA</role>, corsaire turc.</castItem>
+				<castItem><role id="CONSEILLERS PRIVÉS DU BARON" sex="1" type="H" statut="conseiller" age="A" stat_amour="néant">CONSEILLERS PRIVÉS DU BARON</role>.</castItem>
+				<castItem><role id="HOBEREAUX ET FILLES D'OTRANTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">HOBEREAUX ET FILLES D'OTRANTE</role>.</castItem>
+				<castItem><role id="TROUPE DE TURCS" sex="1" type="H" statut="soldat" age="A" stat_amour="néant">TROUPE DE TURCS</role>.</castItem>
 			</castList>
-			<set location='Otrante' country='Italie' periode='XVIIIème' gps="(N/A)">La scène est dans le château du baron.</set>
+			<set location="Otrante" country="Italie" periode="XVIIIème" gps="(N/A)">La scène est dans le château du baron.</set>
 </front>
 <body>
-<div1 type="act" n='1'><head>ACTE I</head>
+<div1 type="act" n="1"><head>ACTE I</head>
 <stage type="decor">Le théâtre représente un salon magnifique.</stage>
-<div2 type="scene" n='1'><head>SCÈNE I.</head>
-<sp stage="alone/costume/lie/location" who='LE BARON'><speaker>LE BARON, seul, en robe de chambre, couché sur un lit de repos.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="alone/costume/lie/location">, seul, en robe de chambre, couché sur un lit de repos.
+</stage>
 <stage type="sing">Il chante.</stage>
 <note type="C">Le début de cette pièce commnce de la même manière que "La Nuit des Rois" de Shakespeare.</note>
 	<l id="1">Ah que je m'ennuie</l>
@@ -66,8 +67,9 @@
 	<l id="8">Si je puis avoir du plaisir.</l>
 </sp>
 </div2>
-<div2 type="scene" n='1'><head>SCÈNE I.. Le Baron, Un Conseiller privé, en grande perruque, en habit feuille-morte et en manteau noir il entre une foule de hobereaux et de filles d'Otrante.</head>
-<sp who='LE CONSEILLER'><speaker>LE CONSEILLER.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage>. Le Baron, Un Conseiller privé, en grande perruque, en habit feuille-morte et en manteau noir il entre une foule de hobereaux et de filles d'Otrante.
+</stage>
+<sp who="LE CONSEILLER"><speaker>LE CONSEILLER.</speaker>
 	<l id="9">Monseigneur, notre unique envie</l>
 	<l id="10">Est de vous voir heureux dans votre baronnie</l>
 	<l id="11">D'un seigneur tel que vous c'est l'unique destin.</l>
@@ -159,8 +161,10 @@
 	<l id="55">Ma cousine parait je ne bâillerai plus.</l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III.La Baron, Irène.</head>
-<sp stage="sing" who='LE BARON'><speaker>LE BARON, chante.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage>La Baron, Irène.
+</stage>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="56">Belle Irène, belle cousine,</l>
 	<l id="57">Ma langueur chagrine</l>
 	<l id="58">S'en va quand je te vois</l>
@@ -224,7 +228,7 @@
 	<l id="99">Que le temps affermisse un si tendre lien,</l>
 	<l id="100">Que le temps redouble ma chaîne !</l>
 </sp>
-<sp stage="together" who='IRÈNE, LE BARON'><speaker>Tous deux ensemble.</speaker>
+<sp stage="together" who="IRÈNE, LE BARON"><speaker>Tous deux ensemble.</speaker>
 	<l id="101">Non, je ne m'ennuierai jamais</l>
 	<l id="102">J'aimerai toute ma vie.</l>
 	<l id="103">Amour, amour, lance tes traits,</l>
@@ -242,7 +246,8 @@
 	<l id="109">Quel étrange gala ! Chacun court, chacun fuit.</l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Le Baron, Irène, Un Conseiller privé.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Baron, Irène, Un Conseiller privé.
+</stage>
 <sp who="LE CONSEILLER"><speaker>LE CONSEILLER.</speaker>
 	<l id="110">Ah seigneur, c'en est fait les Turcs sont dans la ville.</l>
 </sp>
@@ -274,30 +279,33 @@
 	<l id="118">Viennent de tous côtés, et sont toutes tremblantes.</l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. Les précédents, La Gouvernante, et les filles d'honneur.</head>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les précédents, La Gouvernante, et les filles d'honneur.
+</stage>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="119" part="i">Ah ! Madame ! les Turcs...</l>
 </sp>
 <sp who="IRÈNE"><speaker>IRÈNE.</speaker>
 	<l id="119" part="f">Ah pauvres innocentes !</l>
 	<l id="120">Qu'ont fait ces Turcs maudits ?...</l>
 </sp>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="120" part="f">Les Turcs... je n'en puis plus...</l>
 	<l id="121">Dans votre appartement... Ils sont tous répandus.</l>
 	<l id="122">Le corsaire Abdalla tout enlève, et tout pille</l>
 	<l id="123">On enchaîne à la fois père, enfant, femme, fille.</l>
 	<l id="124">Madame !... Entendez-vous les tambours... Les clameurs ?...</l>
 </sp>
-<sp stage="location" who='LES TURCS'><speaker>LES TURCS, derrière le théâtre.</speaker>
+<sp who="LES TURCS"><speaker>LES TURCS</speaker><stage type="location">, derrière le théâtre.
+	</stage>
 	<l id="125" part="i">Alla ! alla ! guerra !</l>
 </sp>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="125" part="f">Madame.... je me meurs!</l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI. Les Précédents, Abdalla, suivi de ses Turcs.</head>
-<sp who='QUATUOR DE TURCS'><speaker>QUATUOR DE TURCS.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les Précédents, Abdalla, suivi de ses Turcs.
+</stage>
+<sp who="QUATUOR DE TURCS"><speaker>QUATUOR DE TURCS.</speaker>
 	<l id="126">Pillar, pillar, grand Abdalla</l>
 	<l id="127">Alla, ylla, alla!</l>
 	<l id="128">Tout conquir,</l>
@@ -315,11 +323,12 @@
 	<l id="137">Bever, violar,</l>
 	<l id="138">Non amazzar.</l>
 </sp>
-<sp stage="chained/together" who='LE BARON'><speaker>LE BARON, enchaîné avec deux conseillers en grande perruque.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="chained/together">, enchaîné avec deux conseillers en grande perruque.
+	</stage>
 	<l id="139">Irène, vous voyez si dans cette posture</l>
 	<l id="140">Je fais pour un baron une noble figure.</l>
 </sp>
-<sp who='QUATUOR DE TURCS'><speaker>QUATUOR DE TURCS.</speaker>
+<sp who="QUATUOR DE TURCS"><speaker>QUATUOR DE TURCS.</speaker>
 	<l id="141">Pillar, pillar, grand Abdalla</l>
 	<l id="142">Tout saccagear</l>
 	<l id="143">Pillar, bever, violar.</l>
@@ -330,7 +339,8 @@
 <note type="C">le Vers 146 est une parodie des vers de Virgile (Enéide, I, 15) Tant mne animis coelestibus irae ? (B.)</note>
 	<l id="146">Tant d'honneur entre-t-il dans ces vilaines âmes ?</l>
 </sp>
-<sp stage="sing" who='ABDALLA'><speaker>ABDALLA, chante.</speaker>
+<sp who="ABDALLA"><speaker>ABDALLA</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="147">O bravi corsari,</l>
 	<l id="148">Spavento de' mari,</l>
 	<l id="149">Andate a partagir,</l>
@@ -344,7 +354,8 @@
 	<l id="157">Pillar, pillar, grand Abdalla</l>
 	<l id="158">Alla, ylla, alla!</l>
 </sp>
-<sp stage="exit/toward" who='IRÈNE'><speaker>IRÈNE, au Baron qu'on emmène.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="exit/toward">, au Baron qu'on emmène.
+	</stage>
 	<l id="159">Allez, mon cher cousin, je me flatte, j'espère,</l>
 	<l id="160">Si ce Turc est galant, de vous tirer d'affaire.</l>
 	<l id="161">Peut-être direz-vous, par mes soins relevé,</l>
@@ -352,14 +363,15 @@
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='1'><head>ACTE II</head>
-<div2 type="scene" n='1'><head>SCÈNE I. Irène, La Gouvernant.</head>
+<div1 type="act" n="1"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Irène, La Gouvernant.
+</stage>
 <sp who="IRÈNE"><speaker>IRÈNE.</speaker>
 	<l id="163">Consolons-nous, ma bonne il faut avec adresse</l>
 	<l id="164">Corriger, si l'on peut, la fortune traîtresse.</l>
 	<l id="165">Vous savez du baron le bizarre destin ?</l>
 </sp>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="166" part="i">Point du tout.</l>
 </sp>
 <sp who="IRÈNE"><speaker>IRÈNE.</speaker>
@@ -374,7 +386,7 @@
 	<l id="174">Ce sont là, nous dit-on, les jeux de la fortune /</l>
 	<l id="175">Cette bizarrerie en Turquie est commune.</l>
 </sp>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="176">Se peut-il qu'un baron, hélas ! soit réduit là ?</l>
 	<l id="177">Et quelle est votre place à la cour d'Abdalla ?</l>
 </sp>
@@ -385,7 +397,7 @@
 	<l id="181">J'aurai bientôt, je pense, un assez bel emploi.</l>
 	<l id="182">Et j'en ferai, ma bonne, un très-honnête usage.</l>
 </sp>
-<sp who='LA GOUVERNANTE'><speaker>LA GOUVERNANTE.</speaker>
+<sp who="LA GOUVERNANTE"><speaker>LA GOUVERNANTE.</speaker>
 	<l id="183">Ah ! Je n'en doute pas je sais qu'Irène est sage.</l>
 	<l id="184">Mais, madame, un corsaire est un peu dangereux</l>
 	<l id="185">Il paraît volontaire et le pas est scabreux.</l>
@@ -411,9 +423,11 @@
 	<l id="203">Voilà nos ennemis, et voici mes rivales.</l>
 </sp>
 </div2>
-<div2 type="scene" n='1'><head>SCÈNE I.. Irène, La Gouvernante, Abdalla arrive au son d'une musique turque, un mouchoir à la main ; les demoiselles u château d'Otrante forment un cercle autour de lui.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage>. Irène, La Gouvernante, Abdalla arrive au son d'une musique turque, un mouchoir à la main ; les demoiselles u château d'Otrante forment un cercle autour de lui.
+</stage>
 <stage type="entrance/touch">Les Levantis arrivent, donnant chacun la main à une personne.</stage>
-<sp stage="sing" who='ABDALLA'><speaker>ABDALLA, chante.</speaker>
+<sp who="ABDALLA"><speaker>ABDALLA</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="204">Su, su, Zitelle tenere</l>
 	<l id="205">La mia spada fa tremar.</l>
 	<l id="206">Ma voi, fanciulle care,</l>
@@ -424,7 +438,8 @@
 	<l id="211">Col terrore della guerra.</l>
 	<l id="212">Su, su, Zitelle tenere, etc.</l>
 </sp>
-<sp stage="sing" who='IRÈNE'><speaker>IRÈNE, chante cet air tendre et mesuré.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="sing">, chante cet air tendre et mesuré.
+	</stage>
 	<l id="213">C'est pour servir notre adorable maître,</l>
 	<l id="214">C'est pour l'aimer que le ciel nous fit naître.</l>
 	<l id="215">Mars et l'Amour à l'envi l'ont form :</l>
@@ -455,7 +470,8 @@
 	<l id="234">Un' altra volta.</l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Irène, Abdalla.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Irène, Abdalla.
+</stage>
 <sp who="ABDALLA"><speaker>ABDALLA.</speaker>
 	<l id="235">Cara Irena, adesso,</l>
 	<l id="236">Sedete appresso di me.</l>
@@ -463,7 +479,8 @@
 <stage type="sit/closer">Il la fait asseoir plus près.</stage>
 	<l id="238">Più appresso, più appresso.</l>
 </sp>
-<sp stage="location/closer" who='IRÈNE'><speaker>IRÈNE, à côté d'Abdalla, sur le canapé.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="location/closer">, à côté d'Abdalla, sur le canapé.
+	</stage>
 	<l id="239">Seigneur, de vos bontés mon âme est pénétrée ;</l>
 	<l id="240">Je n'ai jamais passé de plus belle soirée.</l>
 	<l id="241">Quand je craignais les Turcs, si fiers dans les combats,</l>
@@ -508,14 +525,15 @@
 <sp who="ABDALLA"><speaker>ABDALLA.</speaker>
 <p id="2">
 	<s id="1">La signora è matta. </s>
-	<s id='2'>Le stalle sono puzzolente ; bisognerà più d'un fiasco d'acqua nanfa per nettarla. </s>
-	<s id='3'>Or su andate a vostro piacere, lo concedo andate, cara, e ritornate.</s>
+	<s id="2">Le stalle sono puzzolente ; bisognerà più d'un fiasco d'acqua nanfa per nettarla. </s>
+	<s id="3">Or su andate a vostro piacere, lo concedo andate, cara, e ritornate.</s>
 </p>
 <stage type="exit">Irène sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE IV.</head>
-<sp stage="sing" who='ABDALLA'><speaker>ABDALLA, chante.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE IV.</head>
+<sp who="ABDALLA"><speaker>ABDALLA</speaker><stage type="sing">, chante.
+</stage>
 <stage type="hit">En se frappant le front.</stage>
 	<l id="263">Ogni fanciulla tien là</l>
 	<l id="264">Qualche fantasia,</l>
@@ -529,10 +547,12 @@
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='3'><head>ACTE III</head>
-<div2 type="scene" n='1'><head>SCÈNE I. Irène, La Baron, en souquenille, une étrille à la main.</head>
+<div1 type="act" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Irène, La Baron, en souquenille, une étrille à la main.
+</stage>
 <stage type="decor">Le théâtre représente un coin d'écurie.</stage>
-<sp stage="sing" who='IRÈNE'><speaker>IRÈNE, chante.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="sing">, chante.
+	</stage>
 	<l id="272">Oui, oui, je dois tout espérer ;</l>
 	<l id="273">Tout est prêt pour vous délivrer.</l>
 	<l id="274">Oui... oui... je peux tout espérer ;</l>
@@ -548,7 +568,7 @@
 	<l id="282">J'étais indigne, hélas ! Du pouvoir souverain,</l>
 	<l id="283">Et du charmant objet que j'aime.</l>
 </sp>
-<sp who='IRÈNE'><speaker>IRÈNE.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE.</speaker>
 	<l id="284">Non, le destin volage</l>
 	<l id="285">Ne peut rien sur mon coeur.</l>
 	<l id="286">Je vous aimai dans la grandeur ;</l>
@@ -586,7 +606,7 @@
 	<l id="313">Et j'espère ce soir, plus heureux qu'au matin,</l>
 	<l id="314">De manger le rôti qu'on cuit pour le vilain.</l>
 </sp>
-<sp who='IRÈNE'><speaker>IRÈNE.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE.</speaker>
 	<l id="315">J'y cours ; vous m'y verrez : mais que votre tendresse</l>
 	<l id="316">Ne s'effarouche pas si de quelque caresse</l>
 	<l id="317">Je daigne encourager ses désirs effrontés :</l>
@@ -598,8 +618,9 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II.</head>
-<sp stage="toward" who='LE BARON'><speaker>LE BARON, à ses vassaux.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="toward">, à ses vassaux.
+	</stage>
 	<l id="323">Allons donc, mes amis, hâtons-nous de nous rendre</l>
 	<l id="324">Au souper où l'Amour avec Mars doit m'attendre.</l>
 	<l id="325">Le temps est précieux : je cours quelque hasard</l>
@@ -610,9 +631,11 @@
 	<l id="330">De la gloire bientôt ils seront les chemins.</l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Abdalla, Irène, seuls à table, sans domestiques.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Abdalla, Irène, seuls à table, sans domestiques. 
+</stage> 
 <stage type="decor">Le théâtre représente une jolie salle à manger.</stage>
-<sp stage="carry/sing" who='IRÈNE'><speaker>IRÈNE, un verre en main, chante.</speaker>
+<sp who="IRÈNE"><speaker>IRÈNE</speaker><stage type="carry/sing">, un verre en main, chante.
+	</stage>
 	<l id="331">Ah quel plaisir</l>
 	<l id="332">De boire avec son corsaire !</l>
 	<l id="333">Chaque coup que je bois augmente mon désir</l>
@@ -634,7 +657,7 @@
 	<l id="347">Al par del vino spumante.</l>
 	<l id="348">Si, si, brindisi a te,</l>
 </sp>
-<sp stage="together" who='IRÈNE, ABDALLA'><speaker>TOUS DEUX ENSEMBLE.</speaker>
+<sp stage="together" who="IRÈNE, ABDALLA"><speaker>TOUS DEUX ENSEMBLE.</speaker>
 	<l id="349">Si, si, brindisi a te,</l>
 	<l id="350">Amate, bevete, ridete.</l>
 	<l id="351">Si, si, brindisi a te, etc.</l>
@@ -642,11 +665,13 @@
 	<l id="352">Si, si, brindisi a te, etc.</l>
 </sp>
 </div2>
-<div2 type="scene" n='1'><head>SCÈNE I.. Les Précédents ; Le Baron, armé, et ses Suivants, entrent de tous côtés dans la chambre.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage>. Les Précédents ; Le Baron, armé, et ses Suivants, entrent de tous côtés dans la chambre.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 	<l id="353">Corsaire, il faut ici danser une autre danse.</l>
 </sp>
-<sp stage="search" who='ABDALLA'><speaker>ABDALLA, cherchant son sabre.</speaker>
+<sp who="ABDALLA"><speaker>ABDALLA</speaker><stage type="search">, cherchant son sabre.
+	</stage>
 	<l id="354" part="i">Che veggo ! Che veggo !</l>
 </sp>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
@@ -672,7 +697,7 @@
 	<l id="367">Peuples heureux, dont elle est souveraine,</l>
 	<l id="368">Répétez avec moi, contents de la servir :</l>
 </sp>
-<sp who='LE CHOEUR'><speaker>LE CHOEUR.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="369">Je jure. je jure d'obéir</l>
 	<l id="370">Pour jamais à la belle Irène.</l>
 </sp>

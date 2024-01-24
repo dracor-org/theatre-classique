@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,24 +28,24 @@
 		<docTitle>
 			<titlePart type="main">BON PÈRE MAIS POCHARD.</titlePart>
 		</docTitle> 
-		<docDate value='1881'>1881. Tous droits réservés.</docDate>
-		<docAuthor id='MOINAUX, Jules'>par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
+		<docDate value="1881">1881. Tous droits réservés.</docDate>
+		<docAuthor id="MOINAUX, Jules">par JULES MOINEAUX, rédacteur de la Gazette des Tribunaux.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
-			<printer id='NOBLET'>8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
+			<editor id="ALBIN MICHEL">PARIS, CHEVALIER-MARESCQ ÉDITEUR, 20 rue SOUFFLOT, 20.</editor>
+			<printer id="NOBLET">8517. - Paris. Imprimerie de Ch. Noblet, 13 rue Cujas. - 1881</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age='A' stat_amour='néant'>LE NARRATEUR</role>.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age='A' stat_amour='néant'>LE PRÉSIDENT</role>.</castItem>
-			<castItem><role id="LA FEMME BOÎTIER" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LA FEMME BOÎTIER</role>.</castItem>
-			<castItem><role id="BOÎTIER" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>BOÎTIER</role>.</castItem>
+			<castItem><role id="LE NARRATEUR" sex="1" type="H" statut="narrateur" age="A" stat_amour="néant">LE NARRATEUR</role>.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="président du tribunal" age="A" stat_amour="néant">LE PRÉSIDENT</role>.</castItem>
+			<castItem><role id="LA FEMME BOÎTIER" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LA FEMME BOÎTIER</role>.</castItem>
+			<castItem><role id="BOÎTIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">BOÎTIER</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de MOINAUX, Jules, "Les tribunaux comiques", Paris, Chevalier-Marescq éditeur, 1881. pp 367-370</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>BON PÈRE MAIS POCHARD.</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="LE NARRATEUR"><speaker>LE NARRATEUR.</speaker>
 <note type="L">Moutard : Terme populaire. Très jeune garçon, quelquefois malpropre et bruyant. [L]</note>
 <p id="1">
@@ -60,7 +60,8 @@
 	<s id="2">Qui est-ce qui dit que mon enfant est naquis dans un hospice ?</s>
 </p>
 </sp>
-<sp stage="toward" who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT, à la plaignante.</speaker>
+<sp who="MONSIEUR LE PRÉSIDENT"><speaker>MONSIEUR LE PRÉSIDENT</speaker><stage type="toward">, à la plaignante.
+</stage>
 <p id="3">
 	<s id="1">Déposez !</s>
 </p>
@@ -86,7 +87,8 @@
 	<s id="2">Bon, voilà : dans les moments qui n'est pas mes couches, il me bat ; mais je ne me gêne pas pour lui jeter n'importe quoi à la tête ; que pour ça, il n'a pas le fond méchant.</s>
 </p>
 </sp>
-<sp who="BOÎTIER"><speaker>BOÎTIER, pleurant. </speaker>
+<sp who="BOÎTIER"><speaker>BOÎTIER</speaker><stage>, pleurant. 
+</stage>
 <p id="9">
 	<s id="">Oh ! non ; oh ! non.</s>
 </p>
@@ -149,7 +151,8 @@
 	<s id="1">Alors, étant un homme bon au fond, mais simplement buveur.</s>
 </p>
 </sp>
-<sp who="cry"><speaker>BOITIER, pleurant.</speaker>
+<sp who="cry"><speaker>BOITIER</speaker><stage>, pleurant.
+</stage>
 <p id="21">
 	<s id="1">Elle me connaît comme si elle m'avait fait.</s>
 </p>
@@ -180,7 +183,8 @@
 	<s id="1">Votre conduite est odieuse.</s>
 </p>
 </sp>
-<sp stage="cry" who="BOÎTIER"><speaker>BOÎTIER, sanglotant. </speaker>
+<sp who="BOÎTIER"><speaker>BOÎTIER</speaker><stage type="cry">, sanglotant. 
+</stage>
 <p id="27">
 	<s id="1">Mais est-ce que je m'en rappelle ! </s>
 	<s id="2">J'étais complètement bu... et mon pauvre moutard que je n'ai pas vu depuis sa naissance.</s>

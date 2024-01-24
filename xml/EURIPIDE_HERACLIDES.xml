@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,23 +28,23 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grenelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
 			<head>PERSONNAGES</head>
-			<castItem><role id="IOLAS" sex="1" type="H" statut='aristocrate' age='V' stat_amour='néant'>IOLAS</role>.</castItem>
-			<castItem><role id="COPRÉE" sex="1" type="H" statut='héraut' age='A' stat_amour='néant'>COPRÉE</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="1" type="H" statut='choeur' age='V' stat_amour='néant'>LE CHOEUR</role>, composé de vieillards athéniens.</castItem>
-			<castItem><role id="DÉMOPHON" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>DÉMOPHON</role>, fils de Thésée.</castItem>
-			<castItem><role id="ACAMAS" sex="1" type="H" statut='prince' age='A' stat_amour='néant'>ACAMAS</role>.</castItem>
-			<castItem><role id="MACARIE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>MACARIE</role>, fille d'Hercule.</castItem>
-			<castItem><role id="UN SERVITEUR" sex="1" type="H" statut='serviteur' age='A' stat_amour='néant'>UN SERVITEUR</role>.</castItem>
-			<castItem><role id="ALCMÈNE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>ALCMÈNE</role>.</castItem>
-			<castItem><role id="UN MESSAGER" sex="1" type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
-			<castItem><role id="EURYSTHÉE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>EURYSTHÉE</role>.</castItem>
+			<castItem><role id="IOLAS" sex="1" type="H" statut="aristocrate" age="V" stat_amour="néant">IOLAS</role>.</castItem>
+			<castItem><role id="COPRÉE" sex="1" type="H" statut="héraut" age="A" stat_amour="néant">COPRÉE</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="1" type="H" statut="choeur" age="V" stat_amour="néant">LE CHOEUR</role>, composé de vieillards athéniens.</castItem>
+			<castItem><role id="DÉMOPHON" sex="1" type="H" statut="roi" age="A" stat_amour="néant">DÉMOPHON</role>, fils de Thésée.</castItem>
+			<castItem><role id="ACAMAS" sex="1" type="H" statut="prince" age="A" stat_amour="néant">ACAMAS</role>.</castItem>
+			<castItem><role id="MACARIE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">MACARIE</role>, fille d'Hercule.</castItem>
+			<castItem><role id="UN SERVITEUR" sex="1" type="H" statut="serviteur" age="A" stat_amour="néant">UN SERVITEUR</role>.</castItem>
+			<castItem><role id="ALCMÈNE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCMÈNE</role>.</castItem>
+			<castItem><role id="UN MESSAGER" sex="1" type="H" statut="messager" age="A" stat_amour="néant">UN MESSAGER</role>.</castItem>
+			<castItem><role id="EURYSTHÉE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">EURYSTHÉE</role>.</castItem>
 		</castList>
 		<set location="Marathon" country="Grèce" periode="Temps mythologiques" gps="38.153281, 23.961991">La scène est à Marathon, à l'entrée d'un temple de Jupiter ou de la Pitié.</set>
 
@@ -430,7 +430,8 @@
 	<s id="1">Oui, s'il apprend à se montrer raisonnable. </s>
 </p>
 </sp>
-<sp stage="toward" who="LE CHOEUR"><speaker>LE CHOEUR, au héraut.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage type="toward">, au héraut.
+</stage>
 <p id="29">
 	<s id="">Va-t'en ; et toi, prince, ne le touche pas. </s>
 </p>

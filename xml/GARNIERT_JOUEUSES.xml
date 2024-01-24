@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -30,26 +30,27 @@
 			<titlePart type="sub">DRAME EN UN ACTE.</titlePart>
 			<titlePart type="sub">SIXIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR VARSEUIL" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR VARSEUIL</role>.</castItem>
-		<castItem><role id="MADAME VARSEUIL" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME VARSEUIL</role>.</castItem>
-		<castItem><role id="LOUISON" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>LOUISON</role>, fille de Monsieur Varseuil, âgée de douze ans.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>HENRIETTE</role>, fille de Monsieur Varseuil, âgée de quatorze ans.</castItem>
-		<castItem><role id="MINETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>MINETTE</role>, amie des filles de Monsieur Varseuil.</castItem>
-		<castItem><role id="CHOCHON" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>CHOCHON</role>, amie des filles de Monsieur Varseuil.</castItem>   </castList>
-<set location='Province' country='France' periode='XVIIIème' gps="(N/A)">La scène est dans une ville de Province, chez Monsieur Varseuil.</set>
+		<castItem><role id="MONSIEUR VARSEUIL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR VARSEUIL</role>.</castItem>
+		<castItem><role id="MADAME VARSEUIL" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME VARSEUIL</role>.</castItem>
+		<castItem><role id="LOUISON" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">LOUISON</role>, fille de Monsieur Varseuil, âgée de douze ans.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">HENRIETTE</role>, fille de Monsieur Varseuil, âgée de quatorze ans.</castItem>
+		<castItem><role id="MINETTE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">MINETTE</role>, amie des filles de Monsieur Varseuil.</castItem>
+		<castItem><role id="CHOCHON" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">CHOCHON</role>, amie des filles de Monsieur Varseuil.</castItem>   </castList>
+<set location="Province" country="France" periode="XVIIIème" gps="(N/A)">La scène est dans une ville de Province, chez Monsieur Varseuil.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 93-115.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE PASSE-DIX</head>
 <stage type="decor">Le théâtre représente une salle basse de la maison de Monsieur Varseuil. On y voit une pendule, une montre d'or avec sa chaîne accrochée à la tapisserie, une table à quadrille sur laquelle est un petit métier de tapisserie, un sofa, une commode, etc. etc.</stage>
 <div2 type="scene" n=""><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL, seule.</speaker>
+<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL</speaker><stage type="alone">, seule.
+</stage>
 <stage type="walk/watch">Elle fait plusieurs tours de salle en se regardant dans les glaces, et finit par prendre sa montre.</stage>
 <stage type="slow">Ceci se dit lentement, et par pauses.</stage>
 <p id="1">
@@ -86,7 +87,8 @@
 	<s id="1">Louison... Henriette...</s>
 </p>
 </sp>
-<sp stage="together/location" who="LOUISON et HENRIETTE"><speaker>LOUISON et HENRIETTE, du dedans.</speaker>
+<sp who="LOUISON et HENRIETTE"><speaker>LOUISON et HENRIETTE</speaker><stage type="together/location">, du dedans.
+</stage>
 <p id="5">
 	<s id="1">Ma chère mère.</s>
 </p>
@@ -98,7 +100,8 @@
 <stage type="fall/sit">Elle se jette sur le sofa.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Madame Varseuil, Louison, Henriette.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Madame Varseuil, Louison, Henriette.
+</stage>
 <stage type="entrance/wave/watch">LouIfon et Henriette entrent l'une après l'autre immédiatement, et font chacune une profonde révérence ; après quoi elles restent debout immobiles et en silence devant Madame Varseuil, qui, à demi couchée sur le sofa , s'ajuste et leur parle sans les regarder.</stage>
 <sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL.</speaker>
 <p id="1">
@@ -125,17 +128,20 @@
 	<s id="1">Et vous, à quoi vous occupiez-vous, Mademoiselle Louison ?</s>
 </p>
 </sp>
-<sp stage="shy" who="LOUISON"><speaker>LOUISON, timidement.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="shy">, timidement.
+</stage>
 <p id="6">
 	<s id="1">Je montais votre bonnet.</s>
 </p>
 </sp>
-<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL, jetant un coup d'oeil sur Louison.</speaker>
+<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL</speaker><stage>, jetant un coup d'oeil sur Louison.
+</stage>
 <p id="7">
 	<s id="1">Qui vous a coiffée aujourd'hui, petite fille ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="LOUISON"><speaker>LOUISON, interdite.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="estonish">, interdite.
+</stage>
 <p id="8">
 	<s id="1">Mais... ma chère mère... en vérité.</s>
 </p>
@@ -161,7 +167,8 @@
 </p>	
 <stage type="location/laugh">Henriette se retire un peu derrière sa soeur et rit sous sa main.</stage>
 </sp>
-<sp stage="aparte" who="LOUISON"><speaker>LOUISON, à part.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="13">
 	<s id="1">Ah Ciel ! </s>
 	<s id="2">Je fuis perdue !</s>
@@ -202,7 +209,8 @@
 	<s id="1">Je ne ris point, ma chère mère.</s>
 </p>
 </sp>
-<sp stage="anger" who="MADAME VERSEUIL"><speaker>MADAME VARSEUIL, avec colère.</speaker>
+<sp who="MADAME VERSEUIL"><speaker>MADAME VARSEUIL</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="20">
 	<s id="1">J'en impose donc ?</s>
 </p>
@@ -220,7 +228,8 @@
 	<s id="4">Votre ouvrage, où est-il ?</s>
 </p>
 </sp>
-<sp stage="get/sit/face" who="HENRIETTE"><speaker>HENRIETTE tire une pièce de broderie de son sac à ouvrage et s'assied d'un air boudeur pour travailler.</speaker> 
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="get/sit/face"> tire une pièce de broderie de son sac à ouvrage et s'assied d'un air boudeur pour travailler. 
+</stage> 
 <stage type="aparte">À part.</stage>
 <p id="23">
 	<s id="1">Sur quelle herbe a-t-elle donc marché aujourd'hui ?</s>
@@ -228,7 +237,8 @@
 <stage type="get/cry/wipe">Louison, pendant ce temps, prend son métier de tapisserie, s'assied et travaille en s'essuyant de temps en temps les yeux.</stage>
 <stage type="stand/anger/watch/smile">Madame Varseuil se lève pour sortir, lance un regard courroucé sur Henriette, qui baisse les yeux et les relève à l'instant avec un souris amer et en pliant les épaules.</stage>
 </sp>
-<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL, revenant sur ses pas.</speaker>
+<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL</speaker><stage>, revenant sur ses pas.
+</stage>
 <p id="24">
 	<s id="1">Où est votre père ?</s>
 </p>
@@ -244,7 +254,8 @@
 	<s id="2">Où est votre père, Louison ?</s>
 </p>
 </sp>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, fanglottant.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, fanglottant.
+</stage>
 <p id="27">
 	<s id="1">Il est... sorti je crois, avec... Monsieur Florelle.</s>
 </p>
@@ -269,8 +280,10 @@
 <stage type="exit">Madame Varseuil sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Louison, Henriette.</head>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, pleurant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Louison, Henriette.
+</stage>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="1">
 	<s id="1">Que je suis malheureuse !</s>
 </p>
@@ -295,7 +308,8 @@
 	<s id="2">En vérité, cela n'est pas pardonnable, et je dirais presque que tu mérites ce qui vient d'arriver.</s>
 </p>
 </sp>
-<sp stage="cry" who="LOUISON"><speaker>LOUISON, sanglottant.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="cry">, sanglottant.
+</stage>
 <p id="5">
 	<s id="1">Hélas ! </s>
 	<s id="2">Je venais de recevoir la plus grande partie de cet argent ; tu fais qu'il provient des ouvrages que je fais en cachette, et souvent bien avant dans la nuit. </s>
@@ -303,7 +317,8 @@
 	<s id="4">Ah Ciel !...</s>
 </p>
 </sp>
-<sp stage="laugh" who="HENRIETTE"><speaker>HENRIETTE, riant.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="6">
 	<s id="1">Et pour... </s>
 	<s id="2">Achève donc : La réflexion est plaisante. </s>
@@ -375,7 +390,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="LOUISON"><speaker>LOUISON, seul.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Qu'elle est heureuse, ma soeur ! </s>
 	<s id="2">Rien ne l'inquiète, c'est toujours le même enjouement. </s>
@@ -383,10 +399,12 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Louison, Henriette, Minette,
-Chonchon. Cette dernière est petite, laide et grimacière.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Louison, Henriette, Minette,
+Chonchon. Cette dernière est petite, laide et grimacière.
+</stage>
 <stage type="">Minette et Chanel ; on entrent en marchant sur la pointe du pied, regardent de tous côtés. Louison est rêveuse.</stage>
-<sp stage="toward/away" who="MINETTE"><speaker>MINETTE, à Henriette qui la fuit.</speaker>
+<sp who="MINETTE"><speaker>MINETTE</speaker><stage type="toward/away">, à Henriette qui la fuit.
+</stage>
 <p id="1">
 	<s id="1">Ta mère est sûrement sortie, Henriette ? </s>
 	<s id="2">Bonjour, Mademoiselle Louison.</s>
@@ -397,7 +415,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Bonjour, ma chère Minette.</s>
 </p>
 </sp>
-<sp stage="guttural" who="CHONCHON"><speaker>CHONCHON, grasseyant.</speaker>
+<sp who="CHONCHON"><speaker>CHONCHON</speaker><stage type="guttural">, grasseyant.
+</stage>
 <p id="3">
 	<s id="1">Ah, mon_Dieu ! </s>
 	<s id="2">Comme z'ai eu peur; z'ai cru voir là bas ta maman.</s>
@@ -447,7 +466,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Si ma mère les avait trouvées, nous aurions été de jolies filles.</s>
 </p>
 </sp>
-<sp stage="search" who="MINETTE"><speaker>MINETTE, cherche dans qes poches.</speaker>
+<sp who="MINETTE"><speaker>MINETTE</speaker><stage type="search">, cherche dans qes poches.
+</stage>
 <p id="12">
 	<s id="1">Quelle triste vie !</s>
 </p>
@@ -457,7 +477,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Vous êtes, vraiment, bien à plaindre.</s>
 </p>
 </sp>
-<sp stage="toward" who="HENRIETTE"><speaker>HENRIETTE, à Chonchon.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="toward">, à Chonchon.
+</stage>
 <p id="14">
 	<s id="1">Encore. </s>
 </p>
@@ -551,7 +572,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Dame, si ze le prête, ze fuis bien aise d'être sûre de le ravoir.</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, à Louison.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, à Louison.
+</stage>
 <p id="31">
 	<s id="1">Hum, nigaude ! </s>
 	<s id="2">Pardi, Mademoiselle Chonchon, vous êtes bien drôle ; est-ce que vous vous imaginez que nous ne sommes pas bonnes pour vous rendre votre demi-louis ? </s>
@@ -591,7 +613,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Ze le veux bien.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LOUISON"><speaker>LOUISON, à part.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Que je suis inquiète. </s>
 	<s id="2">Si ma mère allait revenir.</s>
@@ -612,7 +635,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="">À ton tour : combien mets-tu de fiches ?</s>
 </p>
 </sp>
-<sp stage="dream" who="LOUISON"><speaker>LOUISON, distraite.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="dream">, distraite.
+</stage>
 <p id="41">
 	<s id="1">Comme tu voudras.</s>
 </p>
@@ -634,7 +658,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">T'y tiens-tu, Chonchon ?</s>
 </p>
 </sp>
-<sp stage="naive" who="CHONCHON"><speaker>CHONCHON, niaisement.</speaker>
+<sp who="CHONCHON"><speaker>CHONCHON</speaker><stage type="naive">, niaisement.
+</stage>
 <p id="46">
 	<s id="1">Dame, ze ne fais pas, zai dix-fept.</s>
 </p>
@@ -651,7 +676,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 </p>
 <stage type="face">Elle fait la moue.</stage>
 </sp>
-<sp stage="laugh" who="HENRIETTE"><speaker>HENRIETTE, riant.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="49">
 	<s id="1">Il fallait m'avertir d'avance. </s>
 	<s id="2">À toi, Minette.</s>
@@ -667,7 +693,8 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Et toi, Louison , t'y tiens-tu ?</s>
 </p>
 </sp>
-<sp stage="dream" who="LOUISON"><speaker>LOUISON, toujours distraite.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="dream">, toujours distraite.
+</stage>
 <p id="52">
 	<s id="1">Je crois qu'oui.</s>
 </p>
@@ -677,25 +704,29 @@ Chonchon. Cette dernière est petite, laide et grimacière.</head>
 	<s id="1">Celui-là est bon ; tu trois.</s>
 </p>
 </sp>
-<sp stage="drop/stand" who="LOUISON"><speaker>LOUISON, jetant les cartes et se levant avec précipitation.</speaker>
+<sp who="LOUISON"><speaker>LOUISON</speaker><stage type="drop/stand">, jetant les cartes et se levant avec précipitation.
+Tout est perdu ; voici ma mère.</stage>
 Tout est perdu ; voici ma mère.<p id="">
 	<s id="1">' i</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Madame Varseuil, Louison, Henriette, Minette, Chonchon.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Madame Varseuil, Louison, Henriette, Minette, Chonchon.
+</stage>
 <stage type="wave/smile/get/away/cry/stand">Madame Varseuil salue poliment et d'un air riant les étrangères, lance des regards terribles sur ses filles, et va prendre ses gants qui étaient restés sur la commode. Louison se retire dans un coin de la salle, où elle se met à pleurer. Les trois autres se lèvent et restent debout à leurs places.</stage>
 <sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL.</speaker>
 <p id="1">
 	<s id="1">Mais, voici une joyeuse compagnie ; vous ne vous ennuyez pas, Mesdemoiselles ?</s>
 </p>	
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, d'un petit air hardi et mutin.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage>, d'un petit air hardi et mutin.
+</stage>
 <p id="2">
 	<s id="1">Ce font ces demoiselles qui nous ont fait l'honneur de nous rendre visite ; elles nous ont ensuite proposé une partie de jeu que nous n'avons pas cru devoir leur refuser.</s>
 </p>
 </sp>
-<sp stage="serious" who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL, sévèrement.</speaker>
+<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL</speaker><stage type="serious">, sévèrement.
+</stage>
 <p id="3">
 	<s id="1">C'est fort bien fait, ma fille ; mais il aurait dû vous souvenir que je vous avais défendu d'introduire ici personne en mon absence. </s>
 	<s id="2">Il est vrai que ses défenses ne pouvaient pas regarder ces demoiselles : mais je ne m'attendais pas à l'honneur qu'elles vous ont fait ; et en tout cas vous deviez m'obéir ; elles ne s'en seraient sûrement pas formalisées.</s>
@@ -709,14 +740,16 @@ Tout est perdu ; voici ma mère.<p id="">
 	<s id="4">Nous ne nous formalisons pas.</s>
 </p>
 </sp>
-<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL, d'un air gai.</speaker>
+<sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL</speaker><stage>, d'un air gai.
+</stage>
 <p id="5">
 	<s id="1">À propos, Mademoiselle Chonchon, j'ai rencontré à deux pas d'ici Madame votre mère ; elle me paraît en peine de vous ; vous ne l'avez sûrement pas informée que vous étiez ici ; et vous ne feriez pas mal d'aller calmer ses inquiétudes.</s>
 </p>
 <stage type="wave">Chonchon sort en faisant une grande révérence à Madame Varseuil qui la lui rend d'un air gracieux.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCENE VII. Madame Varseuil, Louison, Henriette, Minette.</head>
+<div2 type="scene" n="7"><head>SCENE VII.</head><stage> Madame Varseuil, Louison, Henriette, Minette.
+</stage>
 <sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL.</speaker>
 <p id="1">
 	<s id="1">Mademoiselle Minette, on sera peut-être en peine de vous. </s>
@@ -750,7 +783,8 @@ dame, elle eft'en très-bonne fanté.</s>
 <stage type="wave">Minette fait une profonde révérence à Madame Varseuil et sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Madame Varseuil, Louison, Henriette.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Madame Varseuil, Louison, Henriette.
+</stage>
 <sp who="MADAME VARSEUIL"><speaker>MADAME VARSEUIL.</speaker>
 <p id="1">
 	<s id="1">Voilà donc de vos tours, Mesdemoiselles ; vous avez la hardiesse d'introduire ici du monde en mon absence et de faire de ma maison une petite académie de jeux ! </s>
@@ -788,7 +822,8 @@ dame, elle eft'en très-bonne fanté.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur et Madame Varseuil, Henriette, Louison.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur et Madame Varseuil, Henriette, Louison.
+</stage>
 <sp who="MONSIEUR VARSEUIL"><speaker>MONSIEUR VARSEUIL.</speaker>
 <p id="1">
 	<s id="1">Que veut donc dire tout ce vacarme-là ?</s>
@@ -839,7 +874,8 @@ dame, elle eft'en très-bonne fanté.</s>
 	<s id="1">Taisez-vous, Henriette.</s>
 </p>
 </sp>
-<sp stage="shout" who="HENRIETTE"><speaker>HENRIETTE, avec la dernière vivacité.</speaker>
+<sp who="HENRIETTE"><speaker>HENRIETTE</speaker><stage type="shout">, avec la dernière vivacité.
+</stage>
 <p id="10">
 	<s id="1">Non, quand vous devriez me tuer, vous ne m'empêcherez pas de dire, qu'il est indigne de nous noircir comme vous le faites auprès de mon père.</s>
 </p>
@@ -850,7 +886,8 @@ dame, elle eft'en très-bonne fanté.</s>
 </p>
 <stage type="slap">Elle s'avance pour donner un soufflet à Henriette.</stage>
 </sp>
-<sp stage="stop" who="MONSIEUR VARSEUIL"><speaker>MONSIEUR VARSEUIL, l'arrêtant.</speaker>
+<sp who="MONSIEUR VARSEUIL"><speaker>MONSIEUR VARSEUIL</speaker><stage type="stop">, l'arrêtant.
+</stage>
 <p id="12">
 	<s id="1">Point de vivacité, ma bonne amie, je vous en prie.</s>
 </p>

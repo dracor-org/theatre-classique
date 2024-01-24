@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -35,20 +35,21 @@
 		<docDate value="1867">1867.</docDate>
 		<docAuthor id="HERVIEUX, Léopold">par Léopold HERVIEUX.</docAuthor>
 		<docImprint>
-			<editor id='LIBRAIRIE DRAMATIQUE'>PARIS, LIBRAIRIE DRAMATIQUE, 10 rue de la Bourse, 10.</editor>
-			<printer id='MORRIS'>PARIS, Typ. Morris et COmp. rue Amelot, 64..</printer>
+			<editor id="LIBRAIRIE DRAMATIQUE">PARIS, LIBRAIRIE DRAMATIQUE, 10 rue de la Bourse, 10.</editor>
+			<printer id="MORRIS">PARIS, Typ. Morris et COmp. rue Amelot, 64..</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR VALBRAY" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR VALBRAY</role>.</castItem>
-		<castItem><role id="PAULINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>PAULINE</role>.</castItem>
-		<castItem><role id="PAUL" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>PAUL</role>.</castItem>
+		<castItem><role id="MONSIEUR VALBRAY" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR VALBRAY</role>.</castItem>
+		<castItem><role id="PAULINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">PAULINE</role>.</castItem>
+		<castItem><role id="PAUL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">PAUL</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 	<note>Texte extrait de "Théâtre Complet", Léopold Hervieux, Paris, Libraire Dramatique, 1867, pp  272-305</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>PAUL ET PAULINE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur Valbray, Pauline.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur Valbray, Pauline.
+</stage>
 <sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY.</speaker>
 	<l id="1">Ma fille, il faut aller refaire ta toilette.</l>
 </sp>
@@ -256,7 +257,8 @@
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 	<l id="118" syll="" part="i">J'écoute.</l>
 </sp>
-<sp stage="aparte" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, à part.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="118" syll="" part="f">Que le ciel en ce moment m'inspire !</l>
 </sp>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
@@ -331,14 +333,18 @@
 	<l id="144" syll="3" part="f">Reste ici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Paul.</head>
-<sp stage="call" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, rappelant sa fille.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Paul.
+</stage>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="call">, rappelant sa fille.
+	</stage>
 	<l id="145" syll="2" part="i">Pauline !</l>
 </sp>
-<sp who="PAULINE"><speaker>PAULINE, apercevant Paul.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage>, apercevant Paul.
+	</stage>
 	<l id="145" syll="1" part="m">Ah !...</l>
 </sp>
-<sp stage="toward" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, à Pauline.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="toward">, à Pauline.
+	</stage>
 	<l id="145" syll="9" part="f">Qu'as-tu donc ? Bonjour, Monsieur_l_artiste.</l>
 </sp>
 <sp who="PAUL"><speaker>PAUL.</speaker>
@@ -375,10 +381,12 @@
 	<l id="159">Et, puisque je ne cherche et ne veux que ton bien,</l>
 	<l id="160">Laisse-toi diriger, sans t'alarmer de rien.</l>
 </sp>
-<sp stage="low/toward" who="PAULINE"><speaker>PAULINE, bas à monsieur Valbray.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="low/toward">, bas à monsieur Valbray.
+	</stage>
 	<l id="161">Je voudrais à vos voeux être toujours docile.</l>
 </sp>
-<sp stage="low/toward" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, bas à Pauline.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="low/toward">, bas à Pauline.
+	</stage>
 	<l id="162">En moi sois confiante, et ce sera facile.</l>
 	<l id="163" syll="6" part="i">Allons, n'en parlons plus.</l>
 <stage type="loud">Haut.</stage>
@@ -403,7 +411,8 @@
 	<l id="168">- Tout en me regardant, veuillez sourire un peu.</l>
 	<l id="169">- C'est cela; sans effort gardez cette posture.</l>
 </sp>
-<sp stage="toward" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, à Pauline.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="toward">, à Pauline.
+	</stage>
 	<l id="170">Que l'art peut ajouter de charme à la nature!</l>
 	<l id="171">Jamais je n'avais vu tes attraits gracieux</l>
 	<l id="172">Si bien qu'en cette pose où tu ravis mes yeux.</l>
@@ -421,7 +430,8 @@
 	<l id="180">Je vais le faire, et suis à toi dans un instant.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Paul, Pauline.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Paul, Pauline.
+</stage>
 <sp who="PAUL"><speaker>PAUL.</speaker>
 	<l id="181">Si vous vous sentez lasse, il n'est rien qui s'oppose</l>
 	<l id="182">À ce que nous fassions une légère pause.</l>
@@ -434,7 +444,8 @@
 	<l id="185">Si je me suis trompé, veuillez, Mademoiselle,</l>
 	<l id="186">Excuser une erreur qui vous prouve mon zèle.</l>
 </sp>
-<sp stage="watch" who="PAULINE"><speaker>PAULINE, baissant les yeux.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="watch">, baissant les yeux.
+	</stage>
 	<l id="187">Vous êtes excusé, Monsieur ; ne craignez rien.</l>
 </sp>
 <sp who="PAUL"><speaker>PAUL.</speaker>
@@ -466,7 +477,8 @@
 	<l id="202">Il faut que je me livre aux élans de mon âme,</l>
 	<l id="203">Je me confie enfin à vous entièrement.</l>
 </sp>
-<sp stage="stand" who="PAULINE"><speaker>PAULINE, se levant.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="stand">, se levant.
+	</stage>
 	<l id="204">Que veut dire, Monsieur, un tel égarement ?</l>
 </sp>
 <sp who="PAUL"><speaker>PAUL.</speaker>
@@ -604,7 +616,8 @@
 	<l id="283">Le voici ; ne laissez surtout paraître rien.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Monsieur Valbray.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Monsieur Valbray.
+</stage>
 <sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY.</speaker>
 	<l id="284">Eh bien ! Ma chère enfant, as-tu par ton maintien</l>
 	<l id="285">De ton peintre rendu la tâche plus légère ?</l>
@@ -620,7 +633,8 @@
 	<l id="289">Certes, Mademoiselle, au cas de réussite,</l>
 	<l id="290">Pourra s'attribuer presque tout le mérite.</l>
 </sp>
-<sp stage="watch" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, regardant la toile.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="watch">, regardant la toile.
+	</stage>
 	<l id="291">Le portrait cependant n'est pas très avancé.</l>
 </sp>
 <sp who="PAUL"><speaker>PAUL.</speaker>
@@ -629,7 +643,8 @@
 	<l id="294">Je voudrais bien le rendre, et je n'y parviens guère ;</l>
 	<l id="295" syll="9" part="i">Mais j'y réussirai, j'en suis sûr.</l>
 </sp>
-<sp stage="cold" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, se refroidissant.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="cold">, se refroidissant.
+	</stage>
 	<l id="295" syll="3" part="f">Je vous crois ;</l>
 	<l id="296">Mais en voici, Monsieur, assez pour cette fois.</l>
 	<l id="297">Pour ne pas abuser de votre complaisance,</l>
@@ -660,8 +675,10 @@
 	<l id="312">Vers quatre heures, ce soir, monsieur, je vous attends.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Valbray, Pauline.</head>
-<sp stage="aparte" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Valbray, Pauline.
+</stage>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="313">J'entrevois un secret qu'il faut que je pénètre ;</l>
 	<l id="314">Tâchons de l'éclaircir sans laisser rien paraître.</l>
 <stage type="loud">Haut.</stage>
@@ -680,7 +697,8 @@
 <sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY.</speaker>
 	<l id="319" syll="2" part="m">Mais quoi ?...</l>
 </sp>
-<sp stage="aparte" who="PAULINE"><speaker>PAULINE, à part.</speaker>
+<sp who="PAULINE"><speaker>PAULINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="319" syll="6" part="f">Je suis folle vraiment.</l>
 	<l id="320" syll="6" part="i">Qu'allais-je dévoiler ?</l>
 </sp>
@@ -1051,7 +1069,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, seul.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="511">L'infâme! Oser fouler à ses pieds toute loi,</l>
 	<l id="512">Me manquer de respect, s'insurger contre moi !</l>
 	<l id="513">Quelle conduite affreuse et quelle ingratitude !</l>
@@ -1069,12 +1088,14 @@
 	<l id="525" syll="6" part="i">L'impudent ! Le voici !</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Valbray, Paul.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Valbray, Paul.
+</stage>
 <sp who="PAUL"><speaker>PAUL.</speaker>
 	<l id="525" syll="6" part="f">Monsieur, je vous salue...</l>
 	<l id="526">Vous voyez que j'arrive à l'heure convenue.</l>
 </sp>
-<sp stage="cold" who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY, froidement.</speaker>
+<sp who="MONSIEUR VALBRAY"><speaker>MONSIEUR VALBRAY</speaker><stage type="cold">, froidement.
+	</stage>
 	<l id="527">Vous ne pouviez, Monsieur, venir plus à propos ;</l>
 	<l id="528">J'avais précisément à vous dire deux mots.</l>
 </sp>
@@ -1229,7 +1250,8 @@
 	<l id="611">Mon père ! Vous, mon père ? Ah ! Que je suis heureux!</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, Paul.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, Paul.
+</stage>
 <sp who="PAULINE"><speaker>PAULINE.</speaker>
 	<l id="612">Que vois-je? Quel spectacle apparaît à mes yeux ?</l>
 </sp>
@@ -1245,7 +1267,8 @@
 	<l id="621">Au lieu de ressentir une crainte illusoire,</l>
 	<l id="622">À la sagacité d'abord j'aurais dû croire.</l>
 </sp>
-<sp stage="toward" who="PAUL"><speaker>PAUL, à Pauline.</speaker>
+<sp who="PAUL"><speaker>PAUL</speaker><stage type="toward">, à Pauline.
+	</stage>
 	<l id="623">Et vous, puisque le sort seconde mon amour,</l>
 	<l id="624">Laissez-moi de nouveau vous l'offrir en ce jour.</l>
 </sp>

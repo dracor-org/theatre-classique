@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,16 +30,16 @@
 		<titlePart part="sub">COMÉDIE EN UN ACTE.</titlePart> 
 	</docTitle>
    <docDate value="1888">1888. Droits de reproduction, de traduction et de représentation réservés.</docDate>
-   <docAuthor id='BEISSIER, Fernand'>FERNANRD BESSIER.</docAuthor>
+   <docAuthor id="BEISSIER, Fernand">FERNANRD BESSIER.</docAuthor>
 	<docImprint>
 		<editor id="LIBRAIRIE THÉÂTRALE">PARIS, LIBRAIRIE THÉÂTRALE 14, RUE DE GRAMMONT, 14</editor>
 		<printer id="PICHAT">Imprimerie Générale de Chatillon-sur-Seine. - A. PICHAT</printer>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MADAME BERNIER" sex="2" type="H" statut="bourgeois" age="V" stat_amour=''>MADAME BERNIER</role>, rentière.</castItem>
-		<castItem><role id="CLAIRE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>CLAIRE</role>, petite fille de Madame Bernier.</castItem>
-		<castItem><role id="ALICE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>ALICE</role>, petite fille de Madame Bernier.</castItem>
-		<castItem><role id="NANON" sex="2" type="H" statut="domestique" age="A" stat_amour=''>NANON</role>, servante.</castItem>
+		<castItem><role id="MADAME BERNIER" sex="2" type="H" statut="bourgeois" age="V" stat_amour="">MADAME BERNIER</role>, rentière.</castItem>
+		<castItem><role id="CLAIRE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">CLAIRE</role>, petite fille de Madame Bernier.</castItem>
+		<castItem><role id="ALICE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">ALICE</role>, petite fille de Madame Bernier.</castItem>
+		<castItem><role id="NANON" sex="2" type="H" statut="domestique" age="A" stat_amour="">NANON</role>, servante.</castItem>
 	</castList>
 	<set location="À la campagne" country="France" periode="XXème" gps="">La scène se passe dans un village.</set>
 <note>Extrait de "Saynètes pour jeunes filles", Fernand Bessier, Paris, Librairie Théâtrale, 1888. pp 1-35.</note>
@@ -50,7 +50,8 @@
 une grande fenêtre. - par les rideaux entr'ouverts on aperçoit la campagne. - À gauche, une vaste cheminée ; à droite, une porte conduisant dans une chambre voisine, à droite aussi aa balTet, et devant le buffet une
 table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="drop" who="NANON"><speaker>NANON, posant les assiettes.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="drop">, posant les assiettes.
+</stage>
 <p id="1">
 	<s id="1">Mademoiselle Claire, ici, Madame, là ; en face, Mademoiselle Alice ; et moi, de ce côté, de façon à pouvoir me dresser facilement et surveiller, en même temps, mon poulet et la crème de Mademoiselle_Alice, une crème superbe dont elle a copié la recette dans un grand journal de Paris. </s>
 	<s id="2">Dame, il s'agissait de faire la fête complète, et de célébrer, comme il faut, le retour do notre chère enfant, ma bonne petite Claire ! </s>
@@ -93,8 +94,10 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Nanon, Alice, puis Claire et Madame Bernier.</head>
-<sp stage="open" who="ALICE"><speaker>ALICE, ouvrant vivement la porte du fond et courant à Nanon.</speaker> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Nanon, Alice, puis Claire et Madame Bernier.
+</stage>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="open">, ouvrant vivement la porte du fond et courant à Nanon. 
+</stage> 
 <p id="1">
 	<s id="1">La voilà ! </s>
 	<s id="2">La voilà !</s>
@@ -117,7 +120,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 </p>
 <stage type="entrance">Claire entre doucement donnant le bras à Madame Bernier. Claire se tient droite, les lèvres un peu pincées, l'air grave.</stage>
 </sp>
-<sp stage="toward" who="CLAIRE"><speaker>CLAIRE, à Alice.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="toward">, à Alice.
+</stage>
 <p id="5">
 	<s id="1">Es-tu folle de nous laisser ainsi !</s>
 </p>
@@ -138,13 +142,15 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 </p>
 <stage type="give">Elle lui tend la main.</stage>
 </sp>
-<sp stage="toward" who="ALICE"><speaker>ALICE, à Nanon.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="toward">, à Nanon.
+</stage>
 <p id="9">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Tu n'embrasses pas ma soeur !</s>
 </p>
 </sp>
-<sp stage="estonish" who="NANON"><speaker>NANON, encore interdite de l'entrée de Claire.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="estonish">, encore interdite de l'entrée de Claire.
+</stage>
 <p id="10">
 	<s id="1">Dame ! </s>
 	<s id="2">Je ne demande pas mieux, moi, si elle veut bien...</s>
@@ -181,19 +187,23 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Alice, Claire, Madame Bernier.</head>
-<sp stage="run/location/furniture" who="ALICE"><speaker>ALICE, courant à la table.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Alice, Claire, Madame Bernier.
+</stage>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="run/location/furniture">, courant à la table.
+</stage>
 <p id="1">
 	<s id="1">Plaçons-nous vite, en attendant; grand'mère ici, Claire là, moi à côté de ma soeur et Nanon à sa place habituelle.</s>
 </p>
 </sp>
-<sp stage="estonish" who="CLAIRE"><speaker>CLAIRE, étonnée.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Nanon mange avec nous ?</s>
 </p>
 </sp>
-<sp stage="watch/surprise" who="MADAME BERNIER"><speaker>MADAME BERNIER, la regardant surprise.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="watch/surprise">, la regardant surprise.
+</stage>
 <p id="3">
 	<s id="1">Et où donc veux-tu qu'elle mange ?</s>
 </p>
@@ -283,12 +293,14 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="6">L'amour des mères est égoïste, et moi je vous aime doublement, puisque la vôtre n'est plus et que je suis restée toute seule pour vous aimer et pour elle et pour moi.</s>
 </p>
 </sp>
-<sp stage="kiss" who="CLAIRE"><speaker>CLAIRE, l'embrassant.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="kiss">, l'embrassant.
+</stage>
 <p id="18">
 	<s id="1">Bonne maman !...</s>
 </p>
 </sp>
-<sp stage="kiss" who="ALICE"><speaker>ALICE, même jeu.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="kiss">, même jeu.
+</stage>
 <p id="19">
 	<s id="1">Grand'mère !...</s>
 </p>
@@ -308,7 +320,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <stage type="kiss">Elle les embrasse.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Claire, Alice, Madame Bernier, Nanon.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Claire, Alice, Madame Bernier, Nanon.
+</stage>
 <sp who="ALICE"><speaker>ALICE.</speaker>
 <p id="1">
 	<s id="1">Et voilà Nanon! on va pouvoir servir.</s>
@@ -324,14 +337,16 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">J'ai pris un peu de café, ce matin.</s>
 </p>
 </sp>
-<sp stage="sit" who="ALICE"><speaker>ALICE, en t'asseyant.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="sit">, en t'asseyant.
+</stage>
 <p id="4">
 	<s id="1">Et figure-toi, Nanon, qu'elle est restée toute une nuit en chemin de fer. </s>
 	<s id="2">Quel voyage, hein ! </s>
 	<s id="3">Le bout du monde.</s>
 </p>
 </sp>
-<sp stage="smile" who="CLAIRE"><speaker>CLAIRE, souriant, et même jeu.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="smile">, souriant, et même jeu.
+</stage>
 <p id="5">
 	<s id="1">Oh ! </s>
 	<s id="2">Le bout du monde ! </s>
@@ -354,7 +369,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Oui, Mademoiselle.</s>
 </p>
 </sp>
-<sp who="MADAME BERNIER"><speaker>MADAME BERNIER, découvrant ta soupière.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage>, découvrant ta soupière.
+</stage>
 <p id="9">
 	<s id="1">Oh ! </s>
 	<s id="2">Quel parfum ! </s>
@@ -374,7 +390,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">On mangeait fort bien dans notre pension ; Madame_de_Lasseny, la directrice, était même fort difficile à ce sujet.</s>
 </p>
 </sp>
-<sp who="MADAME BERNIER"><speaker>MADAME BERNIER, souriante.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage>, souriante.
+</stage>
 <p id="12">
 	<s id="1">C'était sans doute meilleur que chez nous !...</s>
 </p>
@@ -397,17 +414,20 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">C'est si beau de savoir !</s>
 </p>
 </sp>
-<sp stage="naive" who="ALICE"><speaker>ALICE, naïvement.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="naive">, naïvement.
+</stage>
 <p id="16">
 	<s id="1">Et tu sais... beaucoup ?</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, souriant.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, souriant.
+</stage>
 <p id="17">
 	<s id="1">Autant que j'ai pu en apprendre.</s>
 </p>
 </sp>
-<sp who="MADAME BERNIER"><speaker>MADAME BERNIER, tournai.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage>, tournai.
+</stage>
 <p id="18">
 	<s id="1">Alice ne pourrait peut-être pas nous en dire autant ?</s>
 </p>
@@ -419,7 +439,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">Ma soeur a tout pris pour elle ; elle a toujours été la plus savante de la famille et ne m'a rien laissé à apprendre.</s>
 </p>
 </sp>
-<sp who="MADAME BERNIER"><speaker>MADAME BERNIER, U menaçant du doigt.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage>, menaçant du doigt.
+</stage>
 <p id="20">
 	<s id="1">Et tu n'en es pas fâchée, j'en suis bien certaine !</s>
 </p>
@@ -435,7 +456,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">Mais, je sais pas mal de choses déjà : ainsi je fais très bien la tisane de grand'mère, quand elle est enrhumée.</s>
 </p>
 </sp>
-<sp stage="smile" who="MADAME BERNIER"><speaker>MADAME BERNIER, souriant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="smile">, souriant.
+</stage>
 <p id="23">
 	<s id="1">Elle est même très bonne, je le reconnais. </s>
 	<s id="2">Mais voyons, Claire, parle-nous un peu de toi maintenant. </s>
@@ -456,7 +478,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">On danse aussi tel le dimanche.</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, dédaigneuse.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, dédaigneuse.
+</stage>
 <p id="26">
 	<s id="1">Oh ! </s>
 	<s id="2">Ce n'est pas la même chose.</s>
@@ -520,7 +543,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Est-elle enfant !</s>
 </p>
 </sp>
-<sp stage="drop/location" who="NANON"><speaker>NANON, posant le plat sur la table.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="drop/location">, posant le plat sur la table.
+</stage>
 <p id="39">
 	<s id="1">Voilà la surprise.</s>
 </p>
@@ -529,7 +553,7 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <p id="40">
 	<s id="1">Voyons.</s>
 </p>
-<stage type="wa	atxg">Elle découvre le plat.</stage>
+<stage type="wa atxg">Elle découvre le plat.</stage>
 <p id="41">
 	<s id="1">Oh ! </s>
 	<s id="2">Qu'est-ce que c'est que cette affreuse bouillie ?</s>
@@ -545,12 +569,14 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Ça ?</s>
 </p>
 </sp>
-<sp stage="estonish" who="NANON"><speaker>NANON, consternée.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="estonish">, consternée.
+</stage>
 <p id="44">
 	<s id="1">Ça n'a pas tenu !</s>
 </p>
 </sp>
-<sp stage="estonish" who="ALICE"><speaker>ALICE, idem.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="estonish">, idem.
+</stage>
 <p id="45">
 	<s id="1">Mes pauvres oeufs !</s>
 </p>
@@ -571,25 +597,29 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Non, je ne veux pas qu'on y goûte !</s>
 </p>
 </sp>
-<sp stage="aparte" who="NANON"><speaker>NANON, à part.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="aparte">, à part.
+</stage>
 <p id="48">
 	<s id="1">Pauvre petite !</s>
 </p>
 <stage type="carry/away">Elle emporta le plat.</stage>
 </sp>
-<sp stage="laugh" who="CLAIRE"><speaker>CLAIRE, riant.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="49">
 	<s id="1">Je t'apprendrai à les faire.</s>
 </p>
 </sp>
-<sp stage="stand" who="MADAME BERNIER"><speaker>MADAME BERNIER, se levant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="stand">, se levant.
+</stage>
 <p id="50">
 	<s id="1">Vous avez d'ailleurs à vous préparer, maintenant. </s>
 	<s id="2">Nous avons tous nos amis à visiter. </s>
 	<s id="3">Ils nous attendent et il faut se hâter.</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, idem.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, idem.
+</stage>
 <p id="51">
 	<s id="1">Comment, bonne maman, vous allez me promener dans tout le  village ?</s>
 </p>
@@ -614,7 +644,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Et si nous pouvions remettre à demain ces visites...</s>
 </p>
 </sp>
-<sp stage="watch" who="MADAME BERNIER"><speaker>MADAME BERNIER, la regardant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="watch">, la regardant.
+</stage>
 <p id="56">
 	<s id="1">Comme tu voudras.</s>
 </p>
@@ -675,9 +706,11 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <stage type="exi/together">Madame Bernier sort avec Alice.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Claire, Nanon.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Claire, Nanon.
+</stage>
 <stage type="">Nanon achevé de ran^r les ouverts et les assiettes dans le bun*et.</stage>
-<sp who="CLAIRE"><speaker>CLAIRE, à part.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, à part.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Elles me le disaient bien, mes amies de la pension : vous aurez à souffrir dès votre arrivée. </s>
@@ -694,7 +727,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">Savez-vous où est ma chambre ?</s>
 </p>
 </sp>
-<sp who="NANON"><speaker>NANON, montrant la droite.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage>, montrant la droite.
+</stage>
 <p id="3">
 	<s id="1">Par là, Mademoiselle, à côté de celle de Mademoiselle_Alice.</s>
 </p>
@@ -704,12 +738,14 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Merci.</s>
 </p>
 </sp>
-<sp stage="sweet" who="NANON"><speaker>NANON, doucement.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="sweet">, doucement.
+</stage>
 <p id="5">
 	<s id="1">Et à ce propos, Mademoiselle_Claire, voulez-vous me permettre de vous dire un mot ?</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, qui me disposait à sortir, t'arrêtant.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, qui me disposait à sortir, t'arrêtant.
+</stage>
 <p id="6">
 	<s id="1">À mol ?</s>
 </p>
@@ -735,7 +771,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Je vous préviens qu'elle serait la mal venue.</s>
 </p>
 </sp>
-<sp stage="stop/estonish" who="NANON"><speaker>NANON, s'arrêtent Interdite.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="stop/estonish">, s'arrêtent Interdite.
+</stage>
 <p id="11">
 	<s id="1">C'est à moi que vous parlez ainsi, à votre vieille Nanon, qui vous a tenue sur ses genoux, pas plus grande que ça !...</s>
 </p>
@@ -754,7 +791,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="NANON"><speaker>NANON, seule.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">La sans-coeur ! </s>
@@ -772,7 +810,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <stage type="sit/cry">Elle s'assied sur une chaise et pleure.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Nanon et Alice, entrant.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Nanon et Alice, entrant.
+</stage>
 <sp who="ALICE"><speaker>[ALICE].</speaker>
 <p id="1">
 	<s id="1">Nanon ! </s>
@@ -796,7 +835,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Mais ce sont de vraies larmes que tu verses ?</s>
 </p>
 </sp>
-<sp stage="wipe" who="NANON"><speaker>NANON, essuyant tes yeux.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage type="wipe">, essuyant tes yeux.
+</stage>
 <p id="5">
 	<s id="1">Non !</s>
 </p>
@@ -826,7 +866,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">C'est moi qui ai eu tort de vouloir lui faire une observation.</s>
 </p>
 </sp>
-<sp stage="toward" who="ALICE"><speaker>ALICE, comme à elle-même.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="toward">, comme à elle-même.
+</stage>
 <p id="10">
 	<s id="1">Et moi qui me faisais une si grande fête de son arrivée ! </s>
 	<s id="2">J'étais si heureuse, je comptais les jours, les heures, et voilà que maintenant depuis qu'elle est là, j'ai le coeur gros, et j'ai moi aussi des envies de pleurer. </s>
@@ -838,14 +879,16 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Je ne sais pas, mais Mademoiselle_Claire est maintenant très savante et peut-être que c'est nous qui sommes trop ignorants pour elle.</s>
 </p>
 </sp>
-<sp who="ALICE"><speaker>ALICE, comme à elle-même.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage>, comme à elle-même.
+</stage>
 <p id="12">
 	<s id="1">Elle était si bonne pourtant, ma soeur Claire !...</s>
 </p>
 <stage type="closer/listen">Madame Bernier est entrée depuis un instant et les écoute.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Nanon, Alice, Madame Bernier, entrant.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Nanon, Alice, Madame Bernier, entrant.
+</stage>
 <sp who="MADAME BERNIER"><speaker>MADAME BERNIER.</speaker>
 <p id="1">
 	<s id="1">Tu vas, ma chère petite, entrer dans sa chambre et lui dire que je désire lui parler.</s>
@@ -888,7 +931,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <stage type="exit/wave">Nanon sort en secouant la tête et en regardant Claire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Claire, Madame Bernier.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Claire, Madame Bernier.
+</stage>
 <sp who="CLAIRE"><speaker>CLAIRE.</speaker>
 <p id="1">
 	<s id="1">Vous m'avez fait demander, grand'mère ?</s>
@@ -901,7 +945,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">Nous avons à causer.</s>
 </p>
 </sp>
-<sp stage="estonish" who="CLAIRE"><speaker>CLAIRE, surprise.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="estonish">, surprise.
+</stage>
 <p id="3">
 	<s id="1">À causer ?</s>
 </p>
@@ -912,7 +957,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">Je ne te demande que de me répondre avec ton coeur.</s>
 </p>
 </sp>
-<sp stage="low" who="CLAIRE"><speaker>CLAIRE, souriant.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="low">, souriant.
+</stage>
 <p id="5">
 	<s id="1">Mon_Dieu, grand-mère, quel ton solennel ! </s>
 	<s id="2">C'est donc bien grave ce que vous avez à me dire ?</s>
@@ -940,7 +986,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="5">Mais en rentrant tout à l'heure, j'ai vu notre vieille Nanon qui venait de pleurer.</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, vivement.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, vivement.
+</stage>
 <p id="9">
 	<s id="1">Elle s'est donc plainte de ce que je lui ai dit ?</s>
 </p>
@@ -975,7 +1022,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="4">Tu m'as véritablement fait de la peine.</s>
 </p>
 </sp>
-<sp who="CLAIRE"><speaker>CLAIRE, vivement.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage>, vivement.
+</stage>
 <p id="15">
 	<s id="1">Moi, grand'mère, moi qui vous aime tant !</s>
 </p>
@@ -991,14 +1039,16 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Mais je ne suis pas orgueilleuse, grand'mère !</s>
 </p>
 </sp>
-<sp stage="continue" who="MADAME BERNIER"><speaker>MADAME BERNIER, continuant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="continue">, continuant.
+</stage>
 <p id="18">
 	<s id="1">Car personne, vois-tu, ne peut jamais connaître le sort que l'avenir lui réserve, et, tu l'as sans doute appris à ta pension : il n'est si petit dont on ne puisse avoir besoin. </s>
 	<s id="2">- Et à ce propos je veux te raconter une histoire - elle t'intéressera. </s>
 	<s id="3">Un jour, une maman vint à mourir laissant deux petites filles, auxquelles il ne restait pour toute famille qu'une grand'mère déjà vieille...</s>
 </p>
 </sp>
-<sp stage="estonish" who="CLAIRE"><speaker>CLAIRE, étonnée.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="19">
 	<s id="1">Comme nous.</s>
 </p>
@@ -1060,12 +1110,14 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Vous !</s>
 </p>
 </sp>
-<sp who="MADAME BERNIER"><speaker>MADAME BERNIER, continuant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage>, continuant.
+</stage>
 <p id="28">
 	<s id="1">Les deux petites filles, ta soeur et toi ; et la vieille servante...</s>
 </p>
 </sp>
-<sp stage="shout" who="CLAIRE"><speaker>CLAIRE, avec un cri.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="shout">, avec un cri.
+</stage>
 <p id="29">
 	<s id="1">Nanon !...</s>
 </p>
@@ -1076,7 +1128,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">Et j'ai voulu que tu saches cela, pour qu'à ton tour tu comprennes la dette contractée, et que tu rapprennes, toi aussi, à ta soeur, quand elle sera plus grande.</s>
 </p>
 </sp>
-<sp stage="shout" who="CLAIRE"><speaker>CLAIRE, avec un cri.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="shout">, avec un cri.
+</stage>
 <p id="31">
 	<s id="1">Grand'mère, pardonnez-moi !</s>
 </p>
@@ -1094,7 +1147,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="4">Mais, soyez tranquille, cette folie d'un instant s'en est allée pour toujours, et je deviendrai bonne comme vous.</s>
 </p>
 </sp>
-<sp stage="smile/kiss" who="MADAME BERNIER"><speaker>MADAME BERNIER, souriant et l'embrassant.</speaker>
+<sp who="MADAME BERNIER"><speaker>MADAME BERNIER</speaker><stage type="smile/kiss">, souriant et l'embrassant.
+</stage>
 <p id="34">
 	<s id="1">Tu n'auras qu'à être ce que tu as toujours été, mon enfant ; je savais bien que ton coeur n'avait pu changer. </s>
 	<s id="2">L'air de la maison paternelle, vois-tu, est un air béni qui purifie toutes les choses, et qui, chassant les mauvaises pensées, vous refait l'âme bonne et juste et vous remet au coeur les anciennes et les meilleures joies.</s>
@@ -1102,8 +1156,10 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 <stage type="">La porte du fond s'ouvre, Nanon et Alice paraissent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Claire, Madame Bernier, Nanon, Alice.</head>
-<sp stage="run/closer" who="CLAIRE"><speaker>CLAIRE, courant à Nanon.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Claire, Madame Bernier, Nanon, Alice.
+</stage>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="run/closer">, courant à Nanon.
+</stage>
 <p id="1">
 	<s id="1">Nanon, ma bonne Nanon, pardonne-moi à ton tour ! </s>
 	<s id="2">Je t'aime ; je sais tout !</s>
@@ -1120,7 +1176,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="2">Claire, comme jadis, comme toujours, brave coeur ; je connais maintenant ton dévouement.</s>
 </p>
 </sp>
-<sp who="NANON"><speaker>NANON, A madame Bernier.</speaker>
+<sp who="NANON"><speaker>NANON</speaker><stage>, à madame Bernier.
+</stage>
 <p id="4">
 	<s id="1">Oh ! </s>
 	<s id="2">Madame, pourquoi lui avoir raconté cela ?...</s>
@@ -1163,7 +1220,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">Quel bonheur !</s>
 </p>
 </sp>
-<sp stage="toward" who="CLAIRE"><speaker>CLAIRE, à Madame Bernier.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="toward">, à Madame Bernier.
+</stage>
 <p id="11">
 	<s id="1">Et vous, grand'mère, si vous voulez...</s>
 </p>
@@ -1177,7 +1235,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="1">Nous irons demain, mon enfant.</s>
 </p>
 </sp>
-<sp stage="toward/wipe" who="ALICE"><speaker>ALICE, à Nanon qui essuie ses yeux.</speaker>
+<sp who="ALICE"><speaker>ALICE</speaker><stage type="toward/wipe">, à Nanon qui essuie ses yeux.
+</stage>
 <p id="13">
 	<s id="1">Allons bon ! </s>
 	<s id="2">Tu pleures encore; tu ne fais que ça !...</s>
@@ -1190,7 +1249,8 @@ table. Au lever de rideau, Nanon dresse le couvert sur la table.</stage>
 	<s id="3">Et ces larmes-là ne vous font pas du mal, au contraire !...</s>
 </p>
 </sp>
-<sp stage="toward" who="CLAIRE"><speaker>CLAIRE, à Alice.</speaker>
+<sp who="CLAIRE"><speaker>CLAIRE</speaker><stage type="toward">, à Alice.
+</stage>
 <p id="15">
 	<s id="1">Et nous travaillerons ensemble, petite soeur. </s>
 	<s id="2">- Je veux que lu sois bientôt plus savante que moi.</s>

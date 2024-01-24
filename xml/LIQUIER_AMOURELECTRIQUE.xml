@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,15 +29,15 @@
 			<titlePart type="main">LE NORMAND ET LA GASCON </titlePart>
 			<titlePart type="sub">COMÉDIE EN UN ACTE.</titlePart>
 		</docTitle> 
-		<docDate value='1882'>1882. Tous droits réservés.</docDate>
+		<docDate value="1882">1882. Tous droits réservés.</docDate>
 		<docAuthor id="LIQUIER, Gabriel">Par M. GABRIEL LIQUIER</docAuthor>
 		<docImprint>
-			<editor id='BOUNET'>.</editor>
-			<printer id='BOUNET'>ÉVREUX. IMPRIMERIE DE CHARLES HÉRISSEY.</printer>
+			<editor id="BOUNET">.</editor>
+			<printer id="BOUNET">ÉVREUX. IMPRIMERIE DE CHARLES HÉRISSEY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="ARSÈNE GINGINET" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>ARSÈNE GINGINET</role>, M. F. GALIPAUX, du Palais-Royal..</castItem>
-		<castItem><role id="CÉLESTE JOLIVAL" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>CÉLESTE JOLIVAL</role>, Mlle ROSAMOND, de la Comédie-Française..</castItem>
+		<castItem><role id="ARSÈNE GINGINET" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">ARSÈNE GINGINET</role>, M. F. GALIPAUX, du Palais-Royal..</castItem>
+		<castItem><role id="CÉLESTE JOLIVAL" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">CÉLESTE JOLIVAL</role>, Mlle ROSAMOND, de la Comédie-Française..</castItem>
 	</castList>
 <note>Texte tiré de "Théâtre de campagne, Huitième série". Paris : Paul Ollendorff éditeur, 1882.  pp 13-36.</note>
 </front>
@@ -98,7 +98,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE DEUXIÈME.</head>
-<sp who="CÉLESTE"><speaker>CÉLESTE, entrant par le fond ; elle est en tenue de voyage, un petit sac à la main.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage>, entrant par le fond ; elle est en tenue de voyage, un petit sac à la main.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_Ginginet ?... </s>
 	<s id="2">Personne ! </s>
@@ -129,8 +130,10 @@
 <stage type="ring">Elle sonne en arpentant la scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE TROISIÈME. Arsène, Céleste.</head>
-<sp stage="dress" who="ARSÈNE"><speaker>ARSÈNE, en habit noir.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE TROISIÈME.</head><stage> Arsène, Céleste.
+</stage>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="dress">, en habit noir.
+</stage>
 <p id="1">
 	<s id="1">Sapristi ! </s>
 	<s id="2">Il faut en finir !... </s>
@@ -154,13 +157,15 @@
 	<s id="2">Avec ce teint-là !...</s>
 </p>
 </sp>
-<sp stage="quick" who="ARSÈNE"><speaker>ARSÈNE, vivement.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="quick">, vivement.
+</stage>
 <p id="5">
 	<s id="1">C'est la poudre de riz ! </s>
 	<s id="2">Puisque je vous dis que je suis mon groom...</s>
 </p> 
 </sp>
-<sp stage="show" who="CÉLESTE"><speaker>CÉLESTE, soulignant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="show">, soulignant.
+</stage>
 <p id="6">
 	<s id="1">Mon groom... </s>
 	<s id="2">Vous vous êtes coupé.</s>
@@ -184,7 +189,8 @@
 	<s id="2">Rasoirs supérieurs !...</s>
 </p>
 </sp>
-<sp stage="continue" who="CÉLESTE"><speaker>CÉLESTE, continuant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="continue">, continuant.
+</stage>
 <p id="10">
 	<s id="1">Fille d'un capitaine au long cours, actuellement à Terre-Neuve... </s>
 	<s id="2">Et je viens causer avec vous. </s>
@@ -209,7 +215,8 @@
 	<s id="1">Mon Dieu, Madame...</s>
 </p>
 </sp>
-<sp stage="continue" who="CÉLESTE"><speaker>CÉLESTE, rectifiant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="continue">, rectifiant.
+</stage>
 <p id="14">
 	<s id="1">Mademoiselle.</s>
 </p>
@@ -223,7 +230,8 @@
 	<s id="1">C'est que c'est vrai !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Moi qui le croyais vieux et vilain !</s>
 </p>
@@ -238,7 +246,8 @@
 	<s id="1">Et voilà comme vous me recevez, vous, mon adorateur !...</s>
 </p>
 </sp>
-<sp stage="estonish" who="ARSÈNE"><speaker>ARSÈNE, stupéfait.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="estonish">, stupéfait.
+</stage>
 <p id="20">
 	<s id="1">Moi, votre adorateur ?</s>
 </p>
@@ -292,7 +301,8 @@
 	<s id="1">Et j'ai bien l'honneur...</s>
 </p>
 </sp>
-<sp stage="location" who="CÉLESTE"><speaker>CÉLESTE, se plaçant devant lui.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="location">, se plaçant devant lui.
+</stage>
 <p id="30">
 	<s id="1">Un instant ! </s>
 	<s id="2">Je suis Américaine, Monsieur.</s>
@@ -340,13 +350,15 @@
 	<s id="5">Qui m'offrait chaque matin son coeur et son âme... sur des tas de petits papiers bleus !</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARSÈNE"><speaker>ARSÈNE, à part.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="37">
 	<s id="1">Du bleu ! </s>
 	<s id="2">Tout s'explique : elle a des papillons bleus !</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, continuant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage>, continuant.
+</stage>
 <p id="38">
 	<s id="1">Un homme qui m'appelait son ange adoré... qui me baptisait : petit lapin rose !...</s>
 </p>
@@ -378,7 +390,8 @@
 </p> 
 <stage type="get">Elle ferme la porte du fond et prend la clef.</stage>
 </sp>
-<sp stage="aparte" who="ARSÈNE"><speaker>ARSÈNE, à part.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="43">
 	<s id="1">Saperlotte !... </s>
 	<s id="2">Mais je ne suis pas rassuré !... </s>
@@ -434,12 +447,14 @@
 	<s id="2">Vous permettez que je passe aux temps modernes ?</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, s'asseyant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage>, s'asseyant.
+</stage>
 <p id="53">
 	<s id="1">Je vous en prie.</s>
 </p>
 </sp>
-<sp who="ARSÈNE"><speaker>ARSÈNE, de même.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage>, de même.
+</stage>
 <p id="54">
 	<s id="1">Enfin, il y a deux mois, un télégraphe nous fut octroyé. </s>
 	<s id="2">Et comme les télégraphes de province, ça ne marche pas tout seul... généralement... le gouvernement, toujours paternel, nous expédia une employée... du sexe aimable.</s>
@@ -460,7 +475,8 @@
 	<s id="5">Une rose que personne encore n'a respirée qu'à travers son guichet !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="57">
 	<s id="1">A-t-il l'air de l'aimer, mon Dieu !</s>
 </p>
@@ -476,7 +492,8 @@
 	<s id="7">Ma clef, s'il vous plaît ?</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage>, à part.
+</stage>
 <p id="59">
 	<s id="1">Oh ! </s>
 	<s id="2">Être aimée ainsi !... </s>
@@ -484,18 +501,21 @@
 </p> 
 <stage type="get/shake">Elle se lève, prend machinalement la sonnette et la secoue.</stage>
 </sp>
-<sp stage="stand" who="ARSÈNE"><speaker>ARSÈNE, se levant.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="60">
 	<s id="1">Vous sonnez quelqu'un ?</s>
 </p>
 </sp>
-<sp stage="drop" who="CÉLESTE"><speaker>CÉLESTE, posant la sonnette.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="drop">, posant la sonnette.
+</stage>
 <p id="61">
 	<s id="1">La suite de l'histoire, Monsieur. </s>
 </p>
 <stage type="sit">Elle se rassied.</stage>
 </sp>
-<sp stage="sit" who="ARSÈNE"><speaker>ARSÈNE, se rassied aussi.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="sit">, se rassied aussi.
+</stage>
 <p id="62">
 	<s id="1">J'adorais donc Célestine, mais comment le lui dire ? </s>
 	<s id="2">Elle ne sort jamais, et sa mère - une sainte femme... bien désagréable !... - monte la faction autour d'elle comme la vieille garde... aux barrières du Louvre ! </s>
@@ -513,14 +533,16 @@
 	<s id="2">Vous en étiez à : ingénieux et hardi.</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>ARSÈNE, s'épongeant le front.</speaker>
+<sp who="CÉLESTE"><speaker>ARSÈNE</speaker><stage>, s'épongeant le front.
+</stage>
 <p id="65">
 	<s id="1">Je vais donc au bureau du télégraphe. </s>
 	<s id="2">Je prends un de ces petits papiers que le gouvernement, toujours paternel, met à la disposition du public, et j'écris bravement ceci : « Vous ai vue. Vous adore. Ai jamais aimé que vous. Dites qu'adoration déplaît pas. Signé : Arsène. » </s>
 	<s id="3">Puis, je m'approche du guichet, et, m'adressant à Célestine, je lui dis furtivement : « Amour et mystère ! Dépêche pour vous ! »</s>
 </p>
 </sp>
-<sp stage="stand" who="CÉLESTE"><speaker>CÉLESTE, se levant.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="66">
 	<s id="1">Oh ! </s>
 	<s id="2">Dérision !... </s>
@@ -528,18 +550,21 @@
 </p>
 <stage type="get/ring">Elle reprend et agite la sonnette.</stage>
 </sp>
-<sp stage="stand" who="ARSÈNE"><speaker>ARSÈNE, se levant.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="67">
 	<s id="1">Vous sonnez quelqu'un ?</s>
 </p>
 </sp>
-<sp stage="sit" who="CÉLESTE"><speaker>CÉLESTE, se rassied.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="sit">, se rassied.
+</stage>
 <p id="68">
 	<s id="1">La suite, monsieur !... </s>
 	<s id="2">La suite !</s>
 </p>
 </sp>
-<sp stage="sit" who="ARSÈNE"><speaker>ARSÈNE, de même.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="sit">, de même.
+</stage>
 <p id="69">
 	<s id="1">Célestine se mit à sourire... d'un sourire d'ingénue qui comprend tout... et n'en a pas l'air ! </s>
 	<s id="2">Dame ! </s>
@@ -617,7 +642,8 @@
 	<s id="2">Clef, s'il vous plaît ?</s>
 </p>
 </sp>
-<sp stage="stand/quick" who="CÉLESTE"><speaker>CÉLESTE, se levant brusquement.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="stand/quick">, se levant brusquement.
+</stage>
 <p id="79">
 	<s id="1">La voilà !</s>
 </p>
@@ -723,7 +749,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE CINQUIÈME.</head>
-<sp stage="agitated/entrance/furious/alone" who="ARSÈNE"><speaker>ARSÈNE, entrant par le fond, ahuri, en désordre, furieux.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="agitated/entrance/furious/alone">, entrant par le fond, ahuri, en désordre, furieux.
+</stage>
 <p id="1">
 	<s id="1">Déception ! </s>
 	<s id="2">Damnation ! </s>
@@ -780,7 +807,8 @@
 <stage type="write">Il se remet à écrire.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE SIXIÈME. Arsène, Céleste, sortant de la chambre de droite, un papier à la main.</head>
+<div2 type="scene" n="6"><head>SCÈNE SIXIÈME.</head><stage> Arsène, Céleste, sortant de la chambre de droite, un papier à la main.
+</stage>
 <sp who="CÉLESTE"><speaker>CÉLESTE.</speaker>
 <p id="1">
 	<s id="1">C'est fait !</s>
@@ -795,12 +823,14 @@
 	<s id="1">Demain, il sera à Charenton.</s>
 </p>
 </sp>
-<sp stage="watch" who="ARSÈNE"><speaker>ARSÈNE, l'apercevant.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="watch">, l'apercevant.
+</stage>
 <p id="4">
 	<s id="1">Elle !</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, de même.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage>, de même.
+</stage>
 <p id="5">
 	<s id="1">Lui !</s>
 </p>
@@ -822,7 +852,8 @@
 	<s id="2">Chacun son tour !</s>
 </p>
 </sp>
-<sp stage="frighten" who="CÉLESTE"><speaker>, effrayée.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="frighten">, effrayée.
+</stage>
 <p id="9">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu !...</s>
@@ -887,7 +918,8 @@
 	<s id="3">Mais comment puis-je croire ?...</s>
 </p>
 </sp>
-<sp stage="get/show" who="CÉLESTE"><speaker>CÉLESTE, sortant de son petit sac une liasse de télégrammes.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="get/show">, sortant de son petit sac une liasse de télégrammes.
+</stage>
 <p id="19">
 	<s id="1">Connaissez-vous ceci ?</s>
 </p>
@@ -909,13 +941,15 @@
 	<s id="2">C'est mon style !...</s>
 </p>
 </sp>
-<sp stage="read" who="CÉLESTE"><speaker>CÉLESTE, en lisant un autre.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="read">, en lisant un autre.
+</stage>
 <p id="23">
 	<s id="1">Et ceci : « Dessèche sur ma tige. </s>
 	<s id="2">Abaissez regard de pitié sur adorateur... »</s>
 </p>
 </sp>
-<sp stage="aparte" who="ARSÈNE"><speaker>ARSÈNE, à part.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="24">
 	<s id="1">Elle m'a regardé !... </s>
 </p>
@@ -928,7 +962,8 @@
 	<s id="1">Çà, c'est le quatrain... de trois vers.</s>
 </p>
 </sp>
-<sp stage="THROW" who="CÉLESTE"><speaker>CÉLESTE, éparpillant les télégrammes.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="THROW">, éparpillant les télégrammes.
+</stage>
 <p id="26">
 	<s id="1">Et voici toute la collection.</s>
 </p>
@@ -964,7 +999,8 @@
 </p>
 <stage type="tear">Il déchire son papier.</stage>
 </sp>
-<sp stage="aparte" who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="32">
 	<s id="1">Tiens ! </s>
 	<s id="2">Il revient à la raison. </s>
@@ -1020,7 +1056,8 @@
 </p>
 <stage type="touch">Elle lui tape dans une main.</stage>
 </sp>
-<sp stage="stand" who="ARSÈNE"><speaker>ARSÈNE, se relevant d'un bond.</speaker>
+<sp who="ARSÈNE"><speaker>ARSÈNE</speaker><stage type="stand">, se relevant d'un bond.
+</stage>
 <p id="40">
 	<s id="1">Bing ! </s>
 	<s id="2">La secousse_électrique !</s>
@@ -1085,7 +1122,8 @@
 	<s id="2">Vous comprenez que des archives... qui n'existent pas, ça ne suffit pas à remplir un coeur !</s>
 </p>
 </sp>
-<sp stage="aparte" who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="39">
 	<s id="1">Pauvre garçon ! </s>
 	<s id="2">Est-il passionné !..</s>
@@ -1096,7 +1134,8 @@
 	<s id="1">Mademoiselle... J'ai l'honneur de vous demander votre main.</s>
 </p>
 </sp>
-<sp stage="touched" who="CÉLESTE"><speaker>CÉLESTE, troublée.</speaker>
+<sp who="CÉLESTE"><speaker>CÉLESTE</speaker><stage type="touched">, troublée.
+</stage>
 <p id="41">
 	<s id="1">Suis stupéfaite... </s>
 	<s id="2">Demande à réfléchir... </s>

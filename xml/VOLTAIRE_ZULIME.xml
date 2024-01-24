@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -31,9 +31,9 @@
 				<titlePart type="sub">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 8 juin 1740.</titlePart>
 			</docTitle>
 			<docDate value="1801">AN IX. (1801).</docDate>
-			<docAuthor id='VOLTAIRE'>VOLTAIRE</docAuthor>
+			<docAuthor id="VOLTAIRE">VOLTAIRE</docAuthor>
 			<docImprint>
-				<privilege id="17**-**-**"></privilege>
+				<privilege id="17**-**-**"/>
 				<editor id="DIDOT">À PARIS, de l'imprimerie de la fonderie stéréotypes de PIERRE DIDOT et de FIRMIN DIDOT.</editor>
 			</docImprint>
 	<div type=""><head>EXTRAIT D'UNE LETTRE DE VOLTAIRE SUR LA TRAGÉDIE DE ZULIME (1761)</head>
@@ -65,22 +65,24 @@
 	</div>
 
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="BÉNASSAR" sex="1" type="H" statut='shérif' age='A' stat_amour='néant'>BÉNASSAR</role>, shérif de Trémizène.</castItem>
-		<castItem><role id="ZULIME" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>ZULIME</role>, sa fille.</castItem>
-		<castItem><role id="MOHADIR" sex="1" type="H" statut='ministre' age='A' stat_amour='néant'>MOHADIR</role>, ministre de Bénassar.</castItem>
-		<castItem><role id="RAMIRE" sex="1" type="H" statut='esclave' age='A' stat_amour='néant'>RAMIRE</role>, esclave espagnol.</castItem>
-		<castItem><role id="ATIDE" sex="2" type="H" statut='esclave' age='A' stat_amour='néant'>ATIDE</role>, esclave espagnole.</castItem>
-		<castItem><role id="IDAMORE" sex="1" type="H" statut='esclave' age='A' stat_amour='néant'>IDAMORE</role>, esclave espagnol.</castItem>
-		<castItem><role id="SÉRAME" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>SÉRAME</role>, attachée à Zulime</castItem>
-		<castItem><role id="SUITE" sex="9" type="H" statut='suite' age='A' stat_amour='néant'>SUITE</role>.</castItem>
+		<castItem><role id="BÉNASSAR" sex="1" type="H" statut="shérif" age="A" stat_amour="néant">BÉNASSAR</role>, shérif de Trémizène.</castItem>
+		<castItem><role id="ZULIME" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">ZULIME</role>, sa fille.</castItem>
+		<castItem><role id="MOHADIR" sex="1" type="H" statut="ministre" age="A" stat_amour="néant">MOHADIR</role>, ministre de Bénassar.</castItem>
+		<castItem><role id="RAMIRE" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">RAMIRE</role>, esclave espagnol.</castItem>
+		<castItem><role id="ATIDE" sex="2" type="H" statut="esclave" age="A" stat_amour="néant">ATIDE</role>, esclave espagnole.</castItem>
+		<castItem><role id="IDAMORE" sex="1" type="H" statut="esclave" age="A" stat_amour="néant">IDAMORE</role>, esclave espagnol.</castItem>
+		<castItem><role id="SÉRAME" sex="2" type="H" statut="servante" age="A" stat_amour="néant">SÉRAME</role>, attachée à Zulime</castItem>
+		<castItem><role id="SUITE" sex="9" type="H" statut="suite" age="A" stat_amour="néant">SUITE</role>.</castItem>
  	</castList>
-	<set location="Trémizène" country='Afrique' periode='(inconnue)' gps="(N/A)">La scène est dans un château de la province de Trémizène, sur le bord de la mer d'Afrique.</set>
+	<set location="Trémizène" country="Afrique" periode="(inconnue)" gps="(N/A)">La scène est dans un château de la province de Trémizène, sur le bord de la mer d'Afrique.</set>
 	<note>Texte extrait du "Théâtre de Voltaire, Tome Quatrième.", Pris, Firmin Didot, 1801. pp 6-72.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Zulime, Atide, Mohadir.</head>
-<sp stage="low/shy" who="ZULIME"><speaker>ZULIME, d'une voix basse et entrecoupée, les yeux baissés, et regardant à peine Mohadir.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Zulime, Atide, Mohadir.
+</stage>
+<sp who="ZULIME"><speaker>ZULIME</speaker><stage type="low/shy">, d'une voix basse et entrecoupée, les yeux baissés, et regardant à peine Mohadir.
+	</stage>
 	<l id="1">Allez, laissez Zulime aux remparts d'Arsénié ;</l>
 	<l id="2">Partez ; loin de vos yeux je vais cacher ma vie ;</l>
 	<l id="3">Je vais mettre à jamais, dans un autre univers,</l>
@@ -214,7 +216,8 @@
 	<l id="97">Respectez plus Ramire et ses guerriers si braves :</l>
 	<l id="98">Ils sont vos défenseurs, et non plus vos esclaves.</l>
 </sp>
-<sp stage="toward" who="MOHADIR"><speaker>MOHADIR, à Zulime.</speaker>
+<sp who="MOHADIR"><speaker>MOHADIR</speaker><stage type="toward">, à Zulime.
+	</stage>
 	<l id="99">Votre secret, Zulime, est enfin révélé :</l>
 	<l id="100">Ainsi donc par sa voix votre coeur a parlé ?</l>
 </sp>
@@ -253,7 +256,8 @@
 	<l id="114">Porter les derniers coups au sein qui vous fît naître !</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Zulime, Atide.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Zulime, Atide.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="115">Ah ! je succombe, Atide ; et ce coeur désolé</l>
 	<l id="116">Ne soutient plus le poids dont il est accablé.</l>
@@ -339,7 +343,8 @@
 	<l id="180">Le funeste secret qui nous perdrait tous deux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Zulime, Atide, Ramire.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Zulime, Atide, Ramire.
+</stage>
 <sp who="RAMIRE"><speaker>RAMIRE.</speaker>
 	<l id="181">Madame, enfin des cieux la clémence suprême</l>
 	<l id="182">Semble en notre défense agir comme vous-même ;</l>
@@ -408,7 +413,8 @@
 	<l id="231">Je dois l'être, et l'hymen qui va nous engager...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Zulime, Atide, Ramire, Idamore.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Zulime, Atide, Ramire, Idamore.
+</stage>
 <sp who="IDAMORE"><speaker>IDAMORE.</speaker>
 	<l id="232">Dans ce moment, madame, on vient vous assiéger.</l>
 </sp>
@@ -444,11 +450,13 @@
 	<l id="254">D'un père courroucé fuyons l'oeil respectable :</l>
 	<l id="255">Je vais hâter ma fuite, et j'y cours de ce pas.</l>
 </sp>
-<sp stage="toward" who="RAMIRE"><speaker>RAMIRE, à Atide.</speaker>
+<sp who="RAMIRE"><speaker>RAMIRE</speaker><stage type="toward">, à Atide.
+	</stage>
 	<l id="256">Moi, je vais fuir la honte et hâter mon trépas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zamire, Atide.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zamire, Atide.
+</stage>
 <sp who="ATIDE"><speaker>ATIDE.</speaker>
 	<l id="257">Vous n'irez point sans moi : non, cruel que vous êtes ;</l>
 	<l id="258">Je ne souffrirai point vos fureurs indiscrètes.</l>
@@ -546,7 +554,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Ramire, Idamore.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Ramire, Idamore.
+</stage>
 <sp who="IDAMORE"><speaker>IDAMORE.</speaker>
 	<l id="327">Oui, Dieu même est pour nous ; oui, ce dieu de la guerre</l>
 	<l id="328">Nous appelle sur l'onde et désarme la terre.</l>
@@ -671,7 +680,8 @@
 	<l id="410">Si les mers et les vents m'ordonnent de partir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Zulime, Ramire, Sérame.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Zulime, Ramire, Sérame.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="411">Oui, nous touchons, Ramire, à ce moment prospère</l>
 	<l id="412">Qui met en sûreté cette tête si chère.</l>
@@ -806,7 +816,8 @@
 	<l id="501" syll="6" part="f">C'en est trop ; et mon coeur déchiré...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Zulime, Ramire, Atide, Sérame.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Zulime, Ramire, Atide, Sérame.
+</stage>
 <sp who="ATIDE"><speaker>ATIDE.</speaker>
 	<l id="502">Madame, dans ces murs votre père est entré.</l>
 </sp>
@@ -857,7 +868,8 @@
 	<l id="522">Plaignez mon sort, Atide, et ne m'accusez pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Zulime, Bénassar, Sérame.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Zulime, Bénassar, Sérame.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="523">Le voici, je frissonne, et mes yeux s'obscurcissent.</l>
 	<l id="524">Terre, que devant lui tes gouffres m'engloutissent !</l>
@@ -881,7 +893,8 @@
 	<l id="529">Toi qui clans mes chagrins étais mon seul recours !</l>
 	<l id="530" syll="6" part="i">Tu ne me connais plus ?</l>
 </sp>
-<sp stage="kneel" who="ZULIME"><speaker>ZULIME, à genoux.</speaker>
+<sp who="ZULIME"><speaker>ZULIME</speaker><stage type="kneel">, à genoux.
+	</stage>
 	<l id="530" syll="6" part="f">Je vous connais toujours ;</l>
 	<l id="531">Je tombe en frémissant à ces pieds que j'embrasse,</l>
 	<l id="532">Je les baigne de pleurs, et je n'ai point l'audace</l>
@@ -995,7 +1008,8 @@
 	<l id="620">Ils fouleront aux pieds et ton père et leur maître.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zulime, Sérame.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zulime, Sérame.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="621">Seigneur... Ah, cher auteur de mes coupables jours !</l>
 	<l id="622">Voilà quel est le fruit de mes tristes amours !</l>
@@ -1013,7 +1027,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="1"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Zulime, Atide.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Zulime, Atide.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="633">Hélas ! Vous n'aimez point : vous ne concevez pas</l>
 	<l id="634">Tous ces soulèvements, ces craintes, ces combats,</l>
@@ -1084,7 +1099,8 @@
 	<l id="680">Si je n'y suis pas seule, Atide, il m'a trompée.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Zulime, Atide, Idamore.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Zulime, Atide, Idamore.
+</stage>
 <sp who="IDAMORE"><speaker>IDAMORE.</speaker>
 	<l id="681">Madame, votre père appelle ses soldats,</l>
 	<l id="682">Résolvez votre fuite, et ne différez pas.</l>
@@ -1115,8 +1131,10 @@
 	<l id="700" syll="2" part="i">Ah, prince !</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Zulime, Atide, Ramire, Idamore.</head>
-<sp stage="toward" who="IDAMORE"><speaker>IDAMORE, à Ramire.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Zulime, Atide, Ramire, Idamore.
+</stage>
+<sp who="IDAMORE"><speaker>IDAMORE</speaker><stage type="toward">, à Ramire.
+	</stage>
 	<l id="700" syll="10" part="f">J'ai parlé, seigneur, comme vous-même ;</l>
 	<l id="701">J'ai peint de votre coeur les justes sentiments ;</l>
 	<l id="702">Zulime en est bien digne : achevez, il est temps.</l>
@@ -1247,7 +1265,8 @@
 	<l id="778">Contemplent deux ingrats à mes pieds expirants.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Atide, Ramire.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Atide, Ramire.
+</stage>
 <sp who="RAMIRE"><speaker>RAMIRE.</speaker>
 	<l id="779">Ah ! Fuyez sa vengeance, Atide, et que je meure.</l>
 </sp>
@@ -1298,7 +1317,8 @@
 	<l id="805" syll="4" part="m">Non... je vous suis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ramire, Bénassar.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ramire, Bénassar.
+</stage>
 <sp who="BÉNASSAR"><speaker>BÉNASSAR.</speaker>
 	<l id="805" syll="6" part="f">Demeure, malheureux !</l>
 	<l id="806" syll="3" part="i">Demeure.</l>
@@ -1414,7 +1434,8 @@
 	<l id="881" syll="6" part="i">Adieu ; reçois la mienne.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Ramire, Atide.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Ramire, Atide.
+</stage>
 <sp who="ATIDE"><speaker>ATIDE.</speaker>
 	<l id="881" syll="6" part="f">Ah, prince ! On vous attend.</l>
 	<l id="882">Il n'est plus de danger, l'amour seul vous défend.</l>
@@ -1486,7 +1507,8 @@
 	<l id="914" syll="4" part="f">Qu'ai-je donc fait ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ramire, Atide, Idamore.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ramire, Atide, Idamore.
+</stage>
 <sp who="IDAMORE"><speaker>IDAMORE.</speaker>
 	<l id="914" syll="6" part="f">En ce même moment</l>
 	<l id="915">Bénassar vous poursuit, vous, Atide, et Zulime.</l>
@@ -1524,14 +1546,16 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Zulime, Sérame.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Zulime, Sérame.
+</stage>
 <sp who="SÉRAME"><speaker>SÉRAME.</speaker>
 	<l id="939">Remerciez le ciel, au comble des tourments,</l>
 	<l id="940">D'avoir longtemps perdu l'usage de vos sens ;</l>
 	<l id="941">Il vous a dérobé, propice en sa colère,</l>
 	<l id="942">Ce combat effrayant d'un amant et d'un père.</l>
 </sp>
-<sp stage="fall/sit/awake" who="ZULIME"><speaker>ZULIME, jetée dans un fauteuil, et revenant de son évanouissement.</speaker>
+<sp who="ZULIME"><speaker>ZULIME</speaker><stage type="fall/sit/awake">, jetée dans un fauteuil, et revenant de son évanouissement.
+	</stage>
 	<l id="943">Ô jour ! tu luis encore à mes yeux alarmés</l>
 	<l id="944">Qu'une éternelle nuit devrait avoir fermés !</l>
 	<l id="945">Ô sommeil des douleurs ! mort douce et passagère !</l>
@@ -1598,7 +1622,8 @@
 	<l id="987" syll="6" part="i">J'assassine Ramire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Zulime, Sérame.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Zulime, Sérame.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="987" syll="6" part="f">Hé bien, que t'a-t-on dit ?</l>
 	<l id="988" syll="1" part="i">Parle.</l>
@@ -1644,7 +1669,8 @@
 	<l id="1017" syll="3" part="i">C'en est fait.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Zulime, Mohadir, Sérame</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Zulime, Mohadir, Sérame
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="1017" syll="9" part="f">Mohadir, parlez, que fait mon père ?</l>
 	<l id="1018">Puisse sur moi le ciel épuisant sa colère</l>
@@ -1721,7 +1747,8 @@
 	<l id="1063">Daignez de sa justice attendre ici l'effet.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zulime, Sérame.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zulime, Sérame.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="1064">Ah ! J'attends le trépas. Juste ciel ! Qu'ai-je fait ?</l>
 </sp>
@@ -1798,7 +1825,8 @@
 	<l id="1107" syll="6" part="i">Mais Atide est aimée.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Zulime, Atide, amenée par des gardes.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Zulime, Atide, amenée par des gardes.
+</stage>
 <sp who="ZULIME"><speaker>ZULIME.</speaker>
 	<l id="1107" syll="6" part="f">Ah ! Qu'est-ce que je voi ?</l>
 	<l id="1108">Ma rivale à mes yeux ! Atide devant moi !</l>
@@ -1900,7 +1928,8 @@
 	<l id="1181">Sérame, quelle horreur a glacé ton visage ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Zulime, Atide, Sérame.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Zulime, Atide, Sérame.
+</stage>
 <sp who="SÉRAME"><speaker>SÉRAME.</speaker>
 	<l id="1182">Madame, il faut du sort dévorer tout l'outrage,</l>
 	<l id="1183">Il faut d'un coeur soumis souffrir ce coup affreux.</l>
@@ -1931,7 +1960,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Bénassar, Mohadir.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Bénassar, Mohadir.
+</stage>
 <sp who="MOHADIR"><speaker>MOHADIR.</speaker>
 	<l id="1199">Ce dernier trait, sans doute, est le plus criminel.</l>
 	<l id="1200">Je sens le désespoir de ce coeur paternel :</l>
@@ -2005,8 +2035,10 @@
 	<l id="1262">Ah ! Courons, et nous-même immolons la perfide.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Bénassar, Zulime, suivie de ses soldats dans l'enfoncement, Mohadir, Suite.</head>
-<sp stage="carry/throw" who="ZULIME"><speaker>ZULIME, les armes à la main, et jetant ses armes.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Bénassar, Zulime, suivie de ses soldats dans l'enfoncement, Mohadir, Suite.
+</stage>
+<sp who="ZULIME"><speaker>ZULIME</speaker><stage type="carry/throw">, les armes à la main, et jetant ses armes.
+	</stage>
 	<l id="1263">Non, n'allez pas plus loin, frappez ; et vous, soldats,</l>
 	<l id="1264">Laissez périr Zulime, et ne la vengez pas.</l>
 	<l id="1265">Il suffit : votre zèle a servi mon audace.</l>
@@ -2064,8 +2096,10 @@
 	<l id="1308">Mais on conduit Ramire, et je le vois venir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Bénassar, Zulime, Atide, Ramire, Mohadir, Suite.</head>
-<sp stage="attached" who="RAMIRE"><speaker>RAMIRE, enchaîné.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Bénassar, Zulime, Atide, Ramire, Mohadir, Suite.
+</stage>
+<sp who="RAMIRE"><speaker>RAMIRE</speaker><stage type="attached">, enchaîné.
+	</stage>
 	<l id="1309">Achève de m'ôter cette vie importune.</l>
 	<l id="1310">Depuis que je suis né, trahi par la fortune,</l>
 	<l id="1311">Sorti du sang des rois, j'ai vécu dans les fers ;</l>
@@ -2211,10 +2245,12 @@
 	<l id="1416" syll="3" part="i">Le voici.</l>
 <stage type="get/suicide">Elle tire un poignard pour se tuer.</stage>
 </sp>
-<sp stage="get/pull" who="RAMIRE"><speaker>RAMIRE, la désarmant avec Zulime.</speaker>
+<sp who="RAMIRE"><speaker>RAMIRE</speaker><stage type="get/pull">, la désarmant avec Zulime.
+	</stage>
 	<l id="1416" syll="3" part="m">Chère Atide !</l>
 </sp>
-<sp stage="get" who="ZULIME"><speaker>ZULIME, se saisissant du poignard.</speaker>
+<sp who="ZULIME"><speaker>ZULIME</speaker><stage type="get">, se saisissant du poignard.
+	</stage>
 	<l id="1416" syll="6" part="f">Ô ciel ! que faites-vous ?</l>
 </sp>
 <sp who="BÉNASSAR"><speaker>BÉNASSAR.</speaker>

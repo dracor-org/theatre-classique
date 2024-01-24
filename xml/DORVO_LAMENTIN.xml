@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,15 +31,15 @@
 			<titlePart type="sub">Représentée pour la première fois à Paris, sur le théâtre de Sa Majesté l'Impératrice et Reine, l2 janvier 1808.</titlePart>
 			<titlePart type="sub">Prix, 1fr.</titlePart>
 		</docTitle> 
-		<docDate value='1808'>1808.</docDate>
-		<docAuthor id='DORVO, Hyacinthe'>PAR H. DORVO</docAuthor>
+		<docDate value="1808">1808.</docDate>
+		<docAuthor id="DORVO, Hyacinthe">PAR H. DORVO</docAuthor>
 		<docImprint>
-			<privilege><head></head>
-				<p></p>
+			<privilege><head/>
+				<p/>
 			</privilege>
-			<acheveImprime id='1663-11-30'>Achevé d'imprimer : 30 novembre 1663</acheveImprime>
+			<acheveImprime id="1663-11-30">Achevé d'imprimer : 30 novembre 1663</acheveImprime>
 			<editor id="MARTINET">À PARIS, Chez MARTINET, Libraire, rue du Coq, nos 13 et 15.</editor>
-			<printer id='CHAIGNIEAU aîné'>IMPRIMERIE DE CHAIGNIEAU aîné.</printer>
+			<printer id="CHAIGNIEAU aîné">IMPRIMERIE DE CHAIGNIEAU aîné.</printer>
 		</docImprint>
 		<div type="dedicace"><adresse>À SON EXCELLENCE M. BIGOT-DE-PRÉAMENEU, Ministre des Cultes, Membre de l'Institut et de la Légion-d' Honneur Chevalier de la Couronne de Fer.</adresse>
 			<head>Monsieur,</head>
@@ -52,18 +52,19 @@
 		</div>
 		<castList>
 		<head>PERSONNAGES. ACTEURS.</head>
-			<castItem><role id="MONSIEUR LAMENTIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MONSIEUR LAMENTIN</role>, propriétaire, riche, M. Armand.</castItem>
-			<castItem><role id="ISAURE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>ISAURE</role>, sa fille, Melle DEVIN.</castItem>
-			<castItem><role id="JOLIVAL" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>JOLIVAL</role>, cousin de Lamentin, pauvre, M. GRANDVILLE.</castItem>
-			<castItem><role id="FERDINAND" sex="1" type="H" statut='peintre' age='J' stat_amour='néant'>FERDINAND</role>, son fils peintre, amant d'Isaure M. FIRMIN.</castItem>
-			<castItem><role id="PHILO" sex="1" type="H" statut='parasite' age='A' stat_amour='néant'>PHILON</role>, parasite, intrigant et provençal, M. ROSAMBEAU.</castItem>
-			<castItem><role id="UNE HÔTESSE" sex="2" type="H" statut='hôtesse' age='A' stat_amour='néant'>UNE HÔTESSE</role>, Mme LÉGÉ.</castItem>
+			<castItem><role id="MONSIEUR LAMENTIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR LAMENTIN</role>, propriétaire, riche, M. Armand.</castItem>
+			<castItem><role id="ISAURE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ISAURE</role>, sa fille, Melle DEVIN.</castItem>
+			<castItem><role id="JOLIVAL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">JOLIVAL</role>, cousin de Lamentin, pauvre, M. GRANDVILLE.</castItem>
+			<castItem><role id="FERDINAND" sex="1" type="H" statut="peintre" age="J" stat_amour="néant">FERDINAND</role>, son fils peintre, amant d'Isaure M. FIRMIN.</castItem>
+			<castItem><role id="PHILO" sex="1" type="H" statut="parasite" age="A" stat_amour="néant">PHILON</role>, parasite, intrigant et provençal, M. ROSAMBEAU.</castItem>
+			<castItem><role id="UNE HÔTESSE" sex="2" type="H" statut="hôtesse" age="A" stat_amour="néant">UNE HÔTESSE</role>, Mme LÉGÉ.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La Scène est à Paris, dans un hôtel garni. Le théâtre représente un salon.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA MANIE DE SE PLAINDRE,</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. L'Hôtesse, Philon.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> L'Hôtesse, Philon.
+</stage>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
 	<l id="1" syll="6" part="i">Où va monsieur Philon ?</l>
 </sp>
@@ -109,10 +110,12 @@
 	<l id="13">Il m'attend et j'y vais. Adieu charmante femme.</l>
 <stage type="away">Fausse sortie.</stage>
 </sp>
-<sp stage="stop" who="L'HÔTESSE"><speaker>L'HÔTESSE, l'arrêtant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="14" syll="2" part="i">Un mot.</l>
 </sp>
-<sp stage="aparte" who="PHILON"><speaker>PHILON, à part.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="14" syll="4" part="f">Quel embarras !</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -133,7 +136,8 @@
 	<l id="20">Une hôtesse qui joint à l'amabilité</l>
 	<l id="21">L'esprit, l'air du grand monde, et la fraîcheur des grâces...</l>
 </sp>
-<sp stage="sweet" who="L'HÔTESSE"><speaker>L'HÔTESSE, minaudant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="sweet">, minaudant.
+	</stage>
 	<l id="22" syll="4" part="i">Ce compliment...</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -141,7 +145,8 @@
 	<l id="23">Trop heureux le mortel qui prompt à le fixer,</l>
 	<l id="24">Pourrait au célibat vous faire renoncer !</l>
 </sp>
-<sp stage="sweet" who="L'HÔTESSE"><speaker>L'HÔTESSE, de même.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="sweet">, de même.
+	</stage>
 	<l id="25" syll="4" part="i">Vous me flattez.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -150,12 +155,14 @@
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
 	<l id="25" syll="6" part="f">Parlons de notre compte.</l>
 </sp>
-<sp stage="sweet" who="PHILON"><speaker>PHILON, avec cajolerie.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="sweet">, avec cajolerie.
+	</stage>
 	<l id="26">Vous, demoiselle encor ! N'est-ce pas une honte ?</l>
 	<l id="27">Quand on voit des appas de certaine façon,</l>
 	<l id="28">Convenez qu'il est dur de demeurer garçon.</l>
 </sp>
-<sp stage="proud" who="L'HÔTESSE"><speaker>L'HÔTESSE, se rengorgeant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="proud">, se rengorgeant.
+	</stage>
 	<l id="29">Mais, si j'avais voulu me lier, je confesse,</l>
 	<l id="30">Que plus, d'un soupirant m'ont parlé de tendresse.</l>
 </sp>
@@ -170,7 +177,8 @@
 	<l id="32" syll="3" part="i">Serviteur.</l>
 <stage type="away">Il veut s'en aller.</stage>
 </sp>
-<sp stage="stop" who="L'HÔTESSE"><speaker>L'HÔTESSE, l'arrêtant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="32" syll="3" part="f">Un moment.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -185,7 +193,8 @@
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
 	<l id="34" syll="2" part="i">Restez.</l>
 </sp>
-<sp stage="aparte" who="PHILON"><speaker>PHILON, à part.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="34" syll="10" part="f">Je suis perdu si l'on ne m'en délivre.</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -226,7 +235,8 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="54" syll="5" part="f">Vous pouvez m'en croire.</l>
 </sp>
-<sp stage="watch" who="L'HÔTESSE"><speaker>L'HÔTESSE, regardant son papier.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="watch">, regardant son papier.
+	</stage>
 	<l id="55" syll="9" part="i">Il se monte en total à huit-cent...</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -239,7 +249,8 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="57" syll="6" part="i">À qui le dites-vous ?</l>
 </sp>
-<sp stage="show" who="L'HÔTESSE"><speaker>L'HÔTESSE, le lui présentant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="show">, le lui présentant.
+	</stage>
 	<l id="57" syll="6" part="f">Au bas est ma quittance,</l>
 	<l id="58" syll="4" part="i">Jetez les yeux.</l>
 </sp>
@@ -251,7 +262,8 @@
 	<l id="60">Ce que j'en fais, Monsieur, n'est pas par intérêt ;</l>
 	<l id="61" syll="9" part="i">Sans la nécessité qui m'y force...</l>
 </sp>
-<sp stage="hurry" who="PHILON"><speaker>PHILON, avec empressement.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="hurry">, avec empressement.
+	</stage>
 	<l id="61" syll="3" part="f">Qu'entends-je ?</l>
 	<l id="62">Auriez-vous des chagrins ? Vous soupirez, mon ange !</l>
 </sp>
@@ -306,7 +318,8 @@
 	<l id="87">Et que, vous soumettant à la commune loi,</l>
 	<l id="88">Vous consentiez, Madame, à recevoir ma foi.</l>
 </sp>
-<sp stage="sweet" who="L'HÔTESSE"><speaker>L'HÔTESSE, minaudant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="sweet">, minaudant.
+	</stage>
 	<l id="89" syll="6" part="i">La proposition.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -328,7 +341,8 @@
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
 	<l id="93" syll="3" part="f">Allez vite.</l>
 </sp>
-<sp stage="touch" who="PHILON"><speaker>PHILON, lui baise la main.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="touch">, lui baise la main.
+	</stage>
 	<l id="94" syll="6" part="i">Je pars et je reviens.</l>
 <stage type="aparte">À part.</stage>
 	<l id="94" syll="6" part="f">Dieu merci, j'en suis quitte.</l>
@@ -342,7 +356,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="L'HÔTESSE"><speaker>L'HÔTESSE, seule.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="95" syll="6" part="f">Comme il est diligent</l>
 	<l id="96">Et prêt à s'esquiver dès qu'il s'agit d'argent</l>
 	<l id="97">Il a beau se vanter, je ne suis pas sa dupe,</l>
@@ -358,22 +373,27 @@
 	<l id="106">Il vient, tâchons d'abord que mon début lui plaise.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. L'Hôtesse, Ferdinand.</head>
-<sp stage="watch" who="FERDINAND"><speaker>FERDINAND, sans la voir.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> L'Hôtesse, Ferdinand.
+</stage>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="watch">, sans la voir.
+	</stage>
 	<l id="107">Suis-je assez malheureux je la perds, c'en est fait !</l>
 	<l id="108">J'aurais dû le prévoir et m'attendre à ce trait.</l>
 </sp>
-<sp stage="aparte" who="L'HÔTESSE"><speaker>L'HÔTESSE, à part.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="109" syll="2" part="i">Qu'a-t-il ?</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="109" syll="10" part="f">De mon destin la disgrace s'achève,</l>
 	<l id="110">On va la marier, son père me l'enlève.</l>
 </sp>
-<sp stage="closer" who="L'HÔTESSE"><speaker>L'HÔTESSE, s'avançant vers lui.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="closer">, s'avançant vers lui.
+	</stage>
 	<l id="111" syll="6" part="i">Vous l'enlève, Monsieur ?</l>
 </sp>
-<sp stage="suprise" who="FERDINAND"><speaker>FERDINAND, supris.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="suprise">, supris.
+	</stage>
 	<l id="111" syll="1" part="m">Ciel !</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -488,7 +508,8 @@
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="159" syll="6" part="f">Dix-sept ans environ.</l>
 </sp>
-<sp stage="awake" who="L'HÔTESSE"><speaker>L'HÔTESSE, après avoir rêvé.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="awake">, après avoir rêvé.
+	</stage>
 	<l id="159" syll="3" part="f">C'est cela :</l>
 	<l id="160">Je crois la reconnaître au portrait que voilà.</l>
 </sp>
@@ -499,7 +520,8 @@
 	<l id="161" syll="9" part="f">Calmez-vous, la chose n'est pas sûre ;</l>
 	<l id="162">Je n'en répondrais ; pas mais je le conjecture.</l>
 </sp>
-<sp stage="enthousiasm" who="FERDINAND"><speaker>FERDINAND, avec feu.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="enthousiasm">, avec feu.
+	</stage>
 	<l id="163">Et moi j'en suis certain. Je serai son époux,</l>
 	<l id="164">Pour peu que vous vouliez vous employer pour nous. l'hôtesse.</l>
 </sp>
@@ -529,23 +551,30 @@
 	<l id="172">Le voici veillez bien à tous nos intérêts.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes Jolival.</head>
-<sp stage="toward" who="FERDINAND"><speaker>FERDINAND, à l'Hôtesse.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes Jolival.
+</stage>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="toward">, à l'Hôtesse.
+	</stage>
 	<l id="173" syll="2" part="i">Songez donc...</l>
 </sp>
-<sp stage="wave" who="L'HÔTESSE"><speaker>L'HÔTESSE, le saluant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="wave">, le saluant.
+	</stage>
 	<l id="173" syll="10" part="f">Je vous fais mon humble révérence.</l>
 </sp>
-<sp stage="toward" who="JOLIVAL"><speaker>JOLIVAL, à l'Hôtesse.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="toward">, à l'Hôtesse.
+	</stage>
 	<l id="174" syll="4" part="i">Je vous chasse ?</l>
 </sp>
-<sp stage="aparte" who="FERDINAND"><speaker>FERDINAND, à part.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="174" syll="8" part="f">Bien fou qui croit à l'apparence.</l>
 </sp>
-<sp stage="toward" who="L'HÔTESSE"><speaker>L'HÔTESSE, à Jolival.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="toward">, à Jolival.
+	</stage>
 	<l id="175">Pardon, Monsieur, j'ai hâte, et les soins du logis...</l>
 </sp>
-<sp stage="" who="JOLIVAL"><speaker>JOLIVAL, malignement.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="">, malignement.
+	</stage>
 	<l id="176">Ah ! Vous en raisonniez avec monsieur mon fils ?</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -554,7 +583,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ferdinand, Jolival.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ferdinand, Jolival.
+</stage>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="179">À mes bontés, dit-elle; éclaircis-moi ce point.</l>
 	<l id="180">Où tendent ces adieux que je ne comprends point s</l>
@@ -563,7 +593,8 @@
 	<l id="181">Elle doit mille écus, et, faute de ressource,</l>
 	<l id="182">La dame ingénument compte sur votre bourse.</l>
 </sp>
-<sp stage="happy" who="JOLIVAL"><speaker>JOLIVAL, gaiement.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="happy">, gaiement.
+	</stage>
 	<l id="183">Sur ma bourse ? Ma foi le trait est merveilleux,</l>
 	<l id="184">Pour avoir des secours c'est s'adresser au mieux !</l>
 	<l id="185">Il est gai de donner de telles espérances</l>
@@ -685,7 +716,8 @@
 	<l id="257" syll="3" part="f">Une lettre</l>
 	<l id="258">Qu'à la porte en entrant on vient de me remettre.</l>
 </sp>
-<sp stage="read" who="FERDINAND"><speaker>FERDINAND, après avoir lu.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="read">, après avoir lu.
+	</stage>
 	<l id="259" syll="6" part="i">Cet emploi si couru ?</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -699,7 +731,8 @@
 	<l id="261" syll="6" part="i">Une place pareille... </l>
 <stage type="hide">Il remet la lettre dans sa poche.</stage>
 </sp>
-<sp stage="aparte" who="FERDINAND"><speaker>FERDINAND, à part.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="261" syll="6" part="f">Il la tient, à l'entendre.</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -712,23 +745,28 @@
 	<l id="266">Si je n'ai la faveur et l'appui de l'hôtesse ;</l>
 	<l id="267">Et comment la gagner sans cet argent maudit ?...</l>
 </sp>
-<sp stage="low" who="JOLIVAL"><speaker>JOLIVAL, bas.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="low">, bas.
+	</stage>
 	<l id="268" syll="6" part="i">Elle revient, tais-toi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, L'Hôtesse, dans le fond.</head>
-<sp stage="loud/toward" who="JOLIVAL"><speaker>JOLIVAL, haut à Ferdinand.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, L'Hôtesse, dans le fond.
+</stage>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="loud/toward">, haut à Ferdinand.
+	</stage>
 	<l id="268" syll="6" part="f">Je te l'ai déjà dit,</l>
 	<l id="269">Non, tu ne devais pas t'avancer de la sorte.</l>
 	<l id="270">Puis-je me dessaisir d'une somme si forte ?</l>
 	<l id="271">Mais je t'affligerais par un juste refus,</l>
 	<l id="272">Et mieux vaut s'exposer à perdre mille écus.</l>
 </sp>
-<sp stage="closer" who="L'HÔTESSE"><speaker>L'HÔTESSE, s'avançant.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="closer">, s'avançant.
+	</stage>
 	<l id="273">N'ayez à ce sujet aucune inquiétude,</l>
 	<l id="274">Monsieur, et soyez sûr de mon exactitude.</l>
 </sp>
-<sp stage="surprise" who="JOLIVAL"><speaker>JOLIVAL, feignant, la surprise.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="surprise">, feignant, la surprise.
+	</stage>
 	<l id="275" syll="3" part="i">Quoi, Madame ?</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -751,7 +789,8 @@
 	<l id="278">Qu'il vous faut témoigner votre reconnaissance</l>
 	<l id="279">Je l'aime uniquement et n'agis » que pour lui.</l>
 </sp>
-<sp stage="low/toward" who="FERDINAND"><speaker>FERDINAND, bas à Jolival.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="low/toward">, bas à Jolival.
+	</stage>
 	<l id="280" syll="3" part="i">Mon père...</l>
 <stage type="wave">Jolival lui fait signe de se taire.</stage>
 </sp>
@@ -806,7 +845,8 @@
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="289">Que d'obligations ! N'est-ce point un prestige ?</l>
 </sp>
-<sp stage="sweet" who="L'HÔTESSE"><speaker>L'HÔTESSE, avec cajolerie.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="sweet">, avec cajolerie.
+	</stage>
 	<l id="290" syll="6" part="i">Allez, on vous attend.</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
@@ -815,13 +855,15 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="290" syll="3" part="f">Quel vertige !</l>
 </sp>
-<sp stage="furious" who="FERDINAND"><speaker>FERDINAND, hors de lui.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="furious">, hors de lui.
+	</stage>
 	<l id="291">Excusez, mais l'amour me force à vous quitter ;</l>
 	<l id="292">Les moments sont trop chers pour n'en pas profiter.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Jolival, L'Hôtesse.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Jolival, L'Hôtesse.
+</stage>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="293">L'étourdi ! Sur un mot sa tête s'évapore.</l>
 	<l id="294">À qui donc en a-t-il ? Et quelle est cette Isaure ?</l>
@@ -868,7 +910,8 @@
 	<l id="318">Et va vous fatiguer avec ses doléances.</l>
 	<l id="319" syll="4" part="i">Il approche.</l>
 </sp>
-<sp stage="low" who="JOLIVAL"><speaker>JOLIVAL, bas.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="low">, bas.
+	</stage>
 	<l id="319" syll="2" part="m">Suffit.</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -885,20 +928,25 @@
 	<l id="321" syll="1" part="m">Non.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, Lamentin.</head>
-<sp stage="carry" who="LAMENTIN"><speaker>LAMENTIN en noir le crêpe au chapeau le mouchoir blanc à la main bas à l'hôtesse montrant Jolival.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, Lamentin.
+</stage>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="carry"> en noir le crêpe au chapeau le mouchoir blanc à la main bas à l'hôtesse montrant Jolival.
+	</stage>
 	<l id="321" syll="6" part="f">Le voilà ce me semble ?</l>
 </sp>
-<sp stage="low" who="L'HÔTESSE"><speaker>L'HÔTESSE, bas.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="322">Prêt à vous écouter, et je vous laisse ensemble.</l>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="wipe" who="LAMENTIN"><speaker>LAMENTIN, après s'être essuyé les yeux.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="wipe">, après s'être essuyé les yeux.
+	</stage>
 	<l id="323" syll="2" part="i">Monsieur...</l>
 <stage type="aparte">À part.</stage>
 	<l id="323" syll="4" part="m">Que lui dirai-je ?</l>
 </sp>
-<sp stage="aparte" who="JOLIVAL"><speaker>JOLIVAL, à part.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="323" syll="6" part="f">Oh ! Le drôle d'accueil !</l>
 	<l id="324">Quel teint ! Le beau cocher, pour un bureau de deuil !</l>
 </sp>
@@ -913,7 +961,8 @@
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
 	<l id="328" syll="10" part="f">Ayez pitié d'un père à vos genoux !</l>
 </sp>
-<sp stage="help" who="JOLIVAL"><speaker>JOLIVAL, voulant le relever.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="help">, voulant le relever.
+	</stage>
 	<l id="329" syll="6" part="i">Vous moquez-vous de moi ?</l>
 </sp>
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
@@ -1078,7 +1127,8 @@
 	<l id="415">Si je pouvais un jour seulement me flatter</l>
 	<l id="416">D'obtenir un emploi qui me fit exister...</l>
 </sp>
-<sp stage="proud" who="JOLIVAL"><speaker>JOLIVAL, l'air important.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="proud">, l'air important.
+	</stage>
 	<l id="417">Quelque chose vous tente, et vous avez des vues ?</l>
 </sp>
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
@@ -1125,7 +1175,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="432" syll="6" part="i">On ne choisit pas mieux.</l>
 </sp>
-<sp who="LAMENTIN"><speaker>LAMENTIN, l'air pressant.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage>, l'air pressant.
+	</stage>
 	<l id="432" syll="6" part="f">Pour le solliciter,</l>
 	<l id="433">Il me faudrait quelqu'un d'insinuant, d'habile...</l>
 </sp>
@@ -1136,7 +1187,8 @@
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
 	<l id="435" syll="2" part="m">Qui vous ?</l>
 </sp>
-<sp stage="aparte" who="JOLIVAL"><speaker>JOLIVAL, à part.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="435" syll="6" part="f">L'aimable concurrent !</l>
 </sp>
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
@@ -1152,8 +1204,10 @@
 	<l id="439">Ah ! Si la vertu seule a droit à vos secours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Les mêmes, Philon.</head>
-<sp stage="toward" who="PHILON"><speaker>PHILON, à Lamentin.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Les mêmes, Philon.
+</stage>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="toward">, à Lamentin.
+	</stage>
 	<l id="440">Je vous trouve, à la fin ! Ce sont là de vos tours !</l>
 	<l id="441">Le trait est délicat, je vous en félicite.</l>
 	<l id="442">Esquivez-vous encore, et sauvez-vous bien vite.</l>
@@ -1161,7 +1215,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="443" syll="1" part="i">Qu'est-ce ?</l>
 </sp>
-<sp stage="aparte" who="LAMENTIN"><speaker>LAMENTIN, à part.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="443" syll="5" part="f">À l'autre, à présent.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1256,16 +1311,20 @@
 	<l id="479">Et que vous appreniez quand je le fais placer,</l>
 	<l id="480">Ce que de but en blanc l'on gagne à m'offenser.</l>
 </sp>
-<sp stage="low/toward" who="JOLIVAL"><speaker>JOLIVAL, bas à Lamentin.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="low/toward">, bas à Lamentin.
+	</stage>
 	<l id="481" syll="4" part="i">Il est fâché.</l>
 </sp>
-<sp stage="low" who="LAMENTIN"><speaker>LAMENTIN, bas.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="481" syll="2" part="m">Que trop.</l>
 </sp>
-<sp stage="low" who="JOLIVAL"><speaker>JOLIVAL, bas.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="low">, bas.
+	</stage>
 	<l id="481" syll="6" part="f">C'est donc un personnage ?</l>
 </sp>
-<sp stage="low" who="LAMENTIN"><speaker>LAMENTIN, bas.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="482">Faute de mille écus il me fait ce tapage.</l>
 	<l id="483">En vain le ciel de moi paraît avoir pitié ;</l>
 	<l id="484">Tout-à-coup devant vous, flétri calomnié...</l>
@@ -1278,7 +1337,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="488">Là-dessus vous et lui vous ne vous devez rien.</l>
 </sp>
-<sp stage="nervous" who="PHILON"><speaker>PHILON, avec humeur.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="nervous">, avec humeur.
+	</stage>
 	<l id="489" syll="2" part="i">Monsieur !...</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -1295,30 +1355,37 @@
 	<l id="499">C'est un métier divin pour qui sait l'exercer,</l>
 	<l id="500">Je vous engage fort à n'y pas renoncer.</l>
 </sp>
-<sp stage="aparte/watch" who="PHILON"><speaker>PHILON, à part, en le fixant.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="aparte/watch">, à part, en le fixant.
+	</stage>
 	<l id="501" syll="6" part="i">Quel est cet homme-là ?</l>
 </sp>
-<sp stage="offended/toward" who="LAMENTIN"><speaker>LAMENTIN, piqué, à Jolival.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="offended/toward">, piqué, à Jolival.
+	</stage>
 	<l id="501" syll="6" part="f">Faire ainsi ma satyre !</l>
 </sp>
-<sp stage="quiet" who="JOLIVAL"><speaker>JOLIVAL, se calmant du geste.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="quiet">, se calmant du geste.
+	</stage>
 	<l id="502">Point de bruit. Votre note. Allez vous-en l'écrire.</l>
 	<l id="503">Monsieur s'est contre vous justement emporté,</l>
 	<l id="504">Mais il excusera votre incivilité.</l>
 <stage type="entrance/location">Lamentin entre dans le cabinet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes.</head>
-<sp stage="aparte" who="JOLIVAL"><speaker>JOLIVAL, à part.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes.
+</stage>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="505" syll="6" part="i">Faisons-le un peu jaser.</l>
 <stage type="loud">Haut.</stage>
 	<l id="505" syll="6" part="f">Si bien qu'à vous entendre,</l>
 	<l id="506">À l'emploi qu'il désire il ne doit plus prétendre ?</l>
 </sp>
-<sp stage="strong" who="PHILON"><speaker>PHILON, sèchement.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="strong">, sèchement.
+	</stage>
 	<l id="507" syll="1" part="i">Non.</l>
 </sp>
-<sp stage="sweet" who="JOLIVAL"><speaker>JOLIVAL, finement.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="sweet">, finement.
+	</stage>
 	<l id="507" syll="11" part="f">Quoiqu'au rendez-vous il ne soit pas venu</l>
 	<l id="508">Je doute néanmoins que pour un inconnu</l>
 	<l id="509" syll="6" part="i">Vous vous déterminiez.</l>
@@ -1336,7 +1403,8 @@
 	<l id="513" syll="10" part="f">Ce nom vous frappe et vous sera sinistre.</l>
 	<l id="514">Quand on a comme lui la faveur d'un ministre...</l>
 </sp>
-<sp stage="suprise" who="JOLIVAL"><speaker>JOLIVAL, feignant la surprise.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="suprise">, feignant la surprise.
+	</stage>
 	<l id="515" syll="3" part="i">Jolival ?</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1405,7 +1473,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="533" syll="3" part="m">Moi, dis-je.</l>
 </sp>
-<sp who="PHILON"><speaker>PHILON, à part.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage>, à part.
+	</stage>
 	<l id="533" syll="3" part="f">Quelle école !</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -1413,7 +1482,8 @@
 	<l id="535">J'ai gardé le silence, et je suis complaisant.</l>
 	<l id="536">De vos protections vantez-vous à présent.</l>
 </sp>
-<sp stage="proud" who="PHILON"><speaker>PHILON, affectant l'assurance.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="proud">, affectant l'assurance.
+	</stage>
 	<l id="537">Avant de triompher,laissez-moi vous répondre ;</l>
 	<l id="538">Deux mots me suffiront et je vais vous confondre.</l>
 	<l id="539">Ce que je soupçonnais, vous l'avez avoué</l>
@@ -1422,7 +1492,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="541" syll="2" part="i">Plaît-il !</l>
 </sp>
-<sp stage="ironic" who="PHILON"><speaker>PHILON, avec ironie.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="ironic">, avec ironie.
+	</stage>
 	<l id="541" syll="10" part="f">Étalez-nous vos graves remontrances,</l>
 	<l id="542">Vous qui leurrez les gens de fausses espérances.</l>
 </sp>
@@ -1434,12 +1505,14 @@
 	<l id="544">La place qu'en cachette il demande pour lui.</l>
 	<l id="545" syll="6" part="i">C'est charmant ! Mais bientôt...</l>
 </sp>
-<sp who="JOLIVAL"><speaker>JOLIVAL, gaiement.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage>, gaiement.
+	</stage>
 	<l id="545" syll="6" part="f">Refuge pitoyable</l>
 	<l id="546">Vous êtes découvert, soyez plus raisonnable ;</l>
 	<l id="547">Bravement avec moi prenez votre parti.</l>
 </sp>
-<sp stage="aparte" who="PHILON"><speaker>PHILON, à part.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="548" syll="3" part="i">J'enrage.</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -1452,7 +1525,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="PHILON"><speaker>PHILON, seul.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="553">Ah ! Pour apprendre à vivre à qui me mortifie,</l>
 	<l id="554">Que n'ai-je le crédit dont je me glorifie!</l>
 	<l id="555">L'insolent qui me fait, un affront si cruel</l>
@@ -1464,13 +1538,15 @@
 <stage type="location">Il va vers la porte du cabinet.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Philon, Lamentin.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Philon, Lamentin.
+</stage>
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="561">Arrivez, arrivez, l'homme au joyeux langage !</l>
 	<l id="562">Vous avez le tact fin ; et ce serait dommage</l>
 	<l id="563">De vous contrarier, tant vous êtes prudent.</l>
 </sp>
-<sp stage="carry" who="LAMENTIN"><speaker>LAMENTIN, un papier à la main.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="carry">, un papier à la main.
+	</stage>
 	<l id="564" syll="2" part="i">Qu'est-ce ?</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1478,7 +1554,8 @@
 	<l id="565">Votre choix me transporte, et vous faites merveilles !</l>
 	<l id="566">Procurez-vous toujours des ressources pareilles !</l>
 </sp>
-<sp stage="desparate" who="LAMENTIN"><speaker>LAMENTIN, se désespérant par degrés.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="desparate">, se désespérant par degrés.
+	</stage>
 	<l id="567" syll="6" part="i">Qu'est-il donc survenu ?</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1487,7 +1564,8 @@
 	<l id="569">Au lieu de me prêter une légère somme,</l>
 	<l id="570">Mettre vos intérêts entre les mains d'un homme... !</l>
 </sp>
-<sp stage="furious" who="LAMENTIN"><speaker>LAMENTIN, hors de lui.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="furious">, hors de lui.
+	</stage>
 	<l id="571" syll="3" part="i">Achevez.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1523,7 +1601,8 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="581" syll="5" part="m">Je l'ai pénétré.</l>
 </sp>
-<sp stage="sad" who="LAMENTIN"><speaker>LAMENTIN, accablé.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="sad">, accablé.
+	</stage>
 	<l id="581" syll="6" part="f">La nouvelle me tue.</l>
 	<l id="582" syll="6" part="i">Sous des dehors si beaux !...</l>
 </sp>
@@ -1536,14 +1615,17 @@
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII.</head>
-<sp stage="alone" who="LAMENTIN"><speaker>LAMENTIN, seul.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="586">Je suis anéanti ; ma force m'abandonne.</l>
 	<l id="587">Siècle ingrat et pervers ! À qui donc recourir ?</l>
 	<l id="588">Et personne, grand Dieu, ne vient me secourir !</l>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Lamentin, Isaure, Ferdinand.</head>
-<sp stage="closer" who="LAMENTIN"><speaker>LAMENTIN, allant vers eux.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Lamentin, Isaure, Ferdinand.
+</stage>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="closer">, allant vers eux.
+	</stage>
 	<l id="589" syll="6" part="i">Ah ! Qu'est-il devenu ?</l>
 </sp>
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
@@ -1552,7 +1634,8 @@
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="590" syll="3" part="i">Qu'avez-vous ?</l>
 </sp>
-<sp stage="pain" who="LAMENTIN"><speaker>LAMENTIN, comme un homme qui se trouve mal.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="pain">, comme un homme qui se trouve mal.
+	</stage>
 	<l id="590" syll="9" part="f">Je succombe, et Monsieur votre père...</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
@@ -1585,7 +1668,8 @@
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="596" syll="3" part="i">Moi ? Mon père ?</l>
 </sp>
-<sp stage="happy" who="ISAURE"><speaker>ISAURE, gaiement.</speaker>
+<sp who="ISAURE"><speaker>ISAURE</speaker><stage type="happy">, gaiement.
+	</stage>
 	<l id="596" syll="9" part="f">Il nous quitte, et son ravissement,</l>
 	<l id="597">Quand je vous ai nommé, ne saurait se dépeindre ;</l>
 	<l id="598">Sa joie en m'embrassant ne pouvait se contraindre ;</l>
@@ -1604,7 +1688,8 @@
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
 	<l id="606">Il sort pour assurer et le sien et le nôtre.</l>
 </sp>
-<sp stage="furious" who="LAMENTIN"><speaker>LAMENTIN, avec explosion.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="furious">, avec explosion.
+	</stage>
 	<l id="607">Il sort ! Ah ! C'en est fait et tout est éclairci ;</l>
 	<l id="608">Et moi, triste, opprimé je languirais ici !</l>
 	<l id="609">Non, si dans ce débat il faut que je périsse, </l>
@@ -1613,20 +1698,23 @@
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
 	<l id="611" syll="6" part="i">Demeurez et sachez...</l>
 </sp>
-<sp stage="desperate" who="LAMENTIN"><speaker>LAMENTIN. (Désespoir ridicule.)</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN.</speaker><stage type="desperate"> (Désespoir ridicule.)
+	</stage>
 	<l id="611" syll="6" part="f">Rien, discours superflus</l>
 	<l id="612">Une place, ou la mort : je ne veux rien de plus.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Isaure, Ferdinand.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Isaure, Ferdinand.
+</stage>
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
 	<l id="613">Une place dit-il quelle est cette boutade</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="614" syll="6" part="i">Tout est perdu pour nous !</l>
 </sp>
-<sp stage="laugh" who="ISAURE"><speaker>ISAURE, riant.</speaker>
+<sp who="ISAURE"><speaker>ISAURE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="614" syll="6" part="f">Il a l'esprit malade.</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
@@ -1686,7 +1774,8 @@
 	<l id="643">L'avenir, je le sais, pourra nous attrister ;</l>
 	<l id="644">Le présent est à nous, il faut en profiter.</l>
 </sp>
-<sp stage="enthousiasm" who="FERDINAND"><speaker>FERDINAND, avec chaleur.</speaker>
+<sp who="FERDINAND"><speaker>FERDINAND</speaker><stage type="enthousiasm">, avec chaleur.
+	</stage>
 	<l id="645" syll="6" part="i">Ah ! Vous me pénétrez !</l>
 </sp>
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
@@ -1697,11 +1786,14 @@
 	<l id="646" syll="2" part="i">Quel bruit ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI ET DERNIÈRE. Les mêmes, Lamentin, Jolival, Philon, L'Hôtesse.</head>
-<sp stage="entrance" who="LAMENTIN"><speaker>LAMENTIN, avant d'entrer.</speaker>
+<div2 type="scene" n="16"><head>SCÈNE XVI ET DERNIÈRE.</head><stage> Les mêmes, Lamentin, Jolival, Philon, L'Hôtesse.
+</stage>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="entrance">, avant d'entrer.
+	</stage>
 	<l id="646" syll="10" part="f">Vous me trompiez, et c'est une surprise.</l>
 </sp>
-<sp stage="carry" who="JOLIVAL"><speaker>JOLIVAL, un papier à la main.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="carry">, un papier à la main.
+	</stage>
 	<l id="647" syll="4" part="i">Je suis nommé !</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
@@ -1710,7 +1802,8 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="647" syll="6" part="f">Et moi je suis à jeun.</l>
 </sp>
-<sp stage="toward" who="LAMENTIN"><speaker>LAMENTIN, à Jolival.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="toward">, à Jolival.
+	</stage>
 	<l id="648">Le choix qu'on fait de vous n'a pas le sens commun.</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -1732,10 +1825,12 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="653" syll="6" part="f">Non, défenses frivoles.</l>
 </sp>
-<sp stage="toward/give" who="JOLIVAL"><speaker>JOLIVAL, à Lamentin en lui offrant la main.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="toward/give">, à Lamentin en lui offrant la main.
+	</stage>
 	<l id="654" syll="4" part="i">Mon cher cousin !...</l>
 </sp>
-<sp stage="watch" who="LAMENTIN"><speaker>LAMENTIN, regardant autour de lui.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="watch">, regardant autour de lui.
+	</stage>
 	<l id="654" syll="8" part="f">À qui s'adressent ces paroles ?</l>
 </sp>
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
@@ -1778,7 +1873,8 @@
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
 	<l id="668" syll="3" part="f">Et de quoi</l>
 </sp>
-<sp stage="sweet" who="JOLIVAL"><speaker>JOLIVAL, avec cordialité.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="sweet">, avec cordialité.
+	</stage>
 	<l id="668" syll="6" part="f">D'unir nos deux enfants.</l>
 </sp>
 <sp who="ISAURE"><speaker>ISAURE.</speaker>
@@ -1790,13 +1886,16 @@
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
 	<l id="669" syll="6" part="f">Après le tour atroce.</l>
 </sp>
-<sp stage="toward" who="L'HÔTESSE"><speaker>L'HÔTESSE, à Lamentin.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="toward">, à Lamentin.
+	</stage>
 	<l id="670" syll="2" part="i">Monsieur !...</l>
 </sp>
-<sp stage="aparte" who="PHILON"><speaker>PHILON, à part.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="670" syll="10" part="f">Modérons-nous, je serai de la noce.</l>
 </sp>
-<sp stage="toward" who="JOLIVAL"><speaker>JOLIVAL, à Lamentin.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="toward">, à Lamentin.
+	</stage>
 	<l id="671">Un motif en secret paraît vous retenir,</l>
 	<l id="672">Vous souffrez de l'emploi que je viens d'obtenir.</l>
 	<l id="673">Voici de votre mal l'infaillible remède ;</l>
@@ -1809,7 +1908,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="674" syll="4" part="f">Je vous le cède.</l>
 </sp>
-<sp stage="enthousiasm" who="LAMENTIN"><speaker>LAMENTIN, avec sentiment.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="enthousiasm">, avec sentiment.
+	</stage>
 	<l id="675">À ce sublime élan de générosité</l>
 	<l id="676">Je ne puis comprimer ma sensibilité,</l>
 	<l id="677">Ah ! Croyez que mon âme est digne de la vôtre.</l>
@@ -1826,13 +1926,15 @@
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="683">Isaure, ah ! Le bonheur que j'éprouve est si grand.</l>
 </sp>
-<sp stage="naive" who="ISAURE"><speaker>ISAURE, avec naïveté.</speaker>
+<sp who="ISAURE"><speaker>ISAURE</speaker><stage type="naive">, avec naïveté.
+	</stage>
 	<l id="684">Vous ne vous plaindrez plus, n'est-ce pas, Ferdinand ?</l>
 </sp>
 <sp who="FERDINAND"><speaker>FERDINAND.</speaker>
 	<l id="685" syll="2" part="i">Jamais !</l>
 </sp>
-<sp stage="sad" who="L'HÔTESSE"><speaker>L'HÔTESSE, avec tristesse.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="sad">, avec tristesse.
+	</stage>
 	<l id="685" syll="10" part="f">À vos désirs je vois que tout s'arrange ;</l>
 	<l id="686" syll="6" part="i">Et moi mes mille écus.</l>
 </sp>
@@ -1849,7 +1951,8 @@
 <stage type="sweet">En le cajolant.</stage>
 	<l id="689">Un effort, à la noce un peu moins de dépense.</l>
 </sp>
-<sp stage="naive/toward" who="ISAURE"><speaker>ISAURE, naïvement à Lamentin.</speaker>
+<sp who="ISAURE"><speaker>ISAURE</speaker><stage type="naive/toward">, naïvement à Lamentin.
+	</stage>
 	<l id="690">Prenez-les sur ma dot et donnez-lui quittance;</l>
 </sp>
 <sp who="L'HÔTESSE"><speaker>L'HÔTESSE.</speaker>
@@ -1858,7 +1961,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="691" syll="8" part="f">Comment résister à ce trait ?</l>
 </sp>
-<sp stage="toward" who="L'HÔTESSE"><speaker>L'HÔTESSE, à Lamentin.</speaker>
+<sp who="L'HÔTESSE"><speaker>L'HÔTESSE</speaker><stage type="toward">, à Lamentin.
+	</stage>
 	<l id="692" syll="6" part="i">Elle est sensible, humaine...</l>
 </sp>
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
@@ -1871,10 +1975,12 @@
 	<l id="693" syll="9" part="f">J'y souscris. Je ne suis point avare,</l>
 	<l id="694">Mais on dépense tant et l'argent est si rare !...</l>
 </sp>
-<sp stage="sweet" who="PHILON"><speaker>PHILON, mielleusement.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="sweet">, mielleusement.
+	</stage>
 	<l id="695" syll="2" part="i">Et moi ?</l>
 </sp>
-<sp stage="norvous" who="LAMENTIN"><speaker>LAMENTIN, sèchement.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="norvous">, sèchement.
+	</stage>
 	<l id="695" syll="10" part="f">C'est au cousin à vous récompenser.</l>
 </sp>
 <sp who="PHILON"><speaker>PHILON.</speaker>
@@ -1884,7 +1990,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="698">Avec votre crédit on est bientôt en place.</l>
 </sp>
-<sp stage="humble" who="PHILON"><speaker>PHILON, humblement.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="humble">, humblement.
+	</stage>
 	<l id="699">Ce que vous dites-là dépasse mon pouvoir .</l>
 	<l id="700">J'en fais donner, Monsieur, et ne puis en avoir.</l>
 </sp>
@@ -1900,7 +2007,8 @@
 	<l id="703">Il ne réussit plus. Vous, avez de l'esprit ;</l>
 	<l id="704" syll="7" part="i">Devenez homme utile et...</l>
 </sp>
-<sp stage="toward" who="PHILON"><speaker>PHILON, à l'Hôtesse.</speaker>
+<sp who="PHILON"><speaker>PHILON</speaker><stage type="toward">, à l'Hôtesse.
+	</stage>
 	<l id="704" syll="4" part="f">Madame sourit.</l>
 	<l id="705" syll="6" part="i">Quand nous marions-nous ?</l>
 </sp>
@@ -1910,7 +2018,8 @@
 <sp who="PHILON"><speaker>PHILON.</speaker>
 	<l id="706">Touchez-là, je vais l'être en entrant en ménage.</l>
 </sp>
-<sp stage="touch/cry" who="JOLIVAL"><speaker>JOLIVAL, frappant sur l'épaule de Lamentin, qui s'essuie les yeux.</speaker>
+<sp who="JOLIVAL"><speaker>JOLIVAL</speaker><stage type="touch/cry">, frappant sur l'épaule de Lamentin, qui s'essuie les yeux.
+	</stage>
 	<l id="707">Eh cousin, cette fois vous voilà bien content.</l>
 </sp>
 <sp who="LAMENTIN"><speaker>LAMENTIN.</speaker>
@@ -1919,7 +2028,8 @@
 <sp who="JOLIVAL"><speaker>JOLIVAL.</speaker>
 	<l id="709" syll="2" part="i">Encore !</l>
 </sp>
-<sp stage="desparate" who="LAMENTIN"><speaker>LAMENTIN, tragiquement.</speaker>
+<sp who="LAMENTIN"><speaker>LAMENTIN</speaker><stage type="desparate">, tragiquement.
+	</stage>
 	<l id="709" syll="10" part="f">C'est dans le port qu'éclate la tempête.</l>
 	<l id="710">La foudre est suspendue et gronde sur ma tête.</l>
 </sp>

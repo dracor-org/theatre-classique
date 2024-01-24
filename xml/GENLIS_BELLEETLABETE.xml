@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,23 +28,24 @@
 			<titlePart type="main">LA BELLE ET LA BÊTE</titlePart>
 			<titlePart type="sub">COMÉDIE EN DEUX ACTES</titlePart>
 		</docTitle> 
-		<docDate value='1829'>1829</docDate>
-		<docAuthor id='GENLIS, Madame de'></docAuthor>
+		<docDate value="1829">1829</docDate>
+		<docAuthor id="GENLIS, Madame de"/>
 		<docImprint>
 			<editor>PARIS DIDIER, LIBRAIRE ÉDITEUR, 33, Quai des Augustins.</editor>
 			<printer>BELIN-LEPRIEUR ET MORIZOT Éditeurs, 5 rue Pavé-Saint-André.</printer>
 		</docImprint>
 		<castList><head>PERSONNAGES</head>
-			<castItem><role id="ZIRPHÉE" sex="2" type="H" statut="fée" age='A' stat_amour='néant'>ZIRPHÉE</role>.</castItem>
-			<castItem><role id="PHÉDIME" sex="2" type="H" statut="aristocrate" age='J' stat_amour='néant'>PHÉDIME</role>, amie de Zirphée.</castItem>
-			<castItem><role id="PHANOR" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>PHANOR</role>, génie.</castItem>
+			<castItem><role id="ZIRPHÉE" sex="2" type="H" statut="fée" age="A" stat_amour="néant">ZIRPHÉE</role>.</castItem>
+			<castItem><role id="PHÉDIME" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">PHÉDIME</role>, amie de Zirphée.</castItem>
+			<castItem><role id="PHANOR" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">PHANOR</role>, génie.</castItem>
 		</castList>
-		<set location='Lieu féérique' country='Pays féérique' periode='Temps féériques' gps="(N/A)">La scène est dans le palais du génie.</set>
+		<set location="Lieu féérique" country="Pays féérique" periode="Temps féériques" gps="(N/A)">La scène est dans le palais du génie.</set>
 		<note>issu de THÉÂTRE D'ÉDUCATION à l'usage de la Jeunesse par Mme de Genlis, Nouvelle édition revue et corrigée, pp. 73-86</note>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Phanor, Zirphée.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Phanor, Zirphée.
+</stage>
 <stage type="decor/frighten">Au lever de la toile, Phanor cherche à retenir Zirphée, qui détourne la tête avec horreur.</stage>
 <sp who="PHANOR"><speaker>PHANOR.</speaker>
 <p id="1">
@@ -70,12 +71,14 @@
 	<s id="2">Qu'il est à plaindre !</s>
 </p>
 </sp>
-<sp who="PHANOR"><speaker>PHANOR, laissant aller Zirphée.</speaker>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage>, laissant aller Zirphée.
+</stage>
 <p id="5">
 	<s id="1">Vous êtes libre, Zirphée, je ne veux rien devoir à la violence ; continuez à me fuir.</s>
 </p>
 </sp>
-<sp stage="turn" who="ZIRPHÉE"><speaker>ZIRPHÉE, détournant toujours la tête.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="turn">, détournant toujours la tête.
+</stage>
 <p id="6">
 	<s id="1">Mais qu'avez-vous à me dire ?</s>
 </p>
@@ -100,7 +103,8 @@
 	<s id="2">Le bonheur d'être aimé n'est pas fait pour moi, je n'y prétends point ; mais cette figure horrible, que vous n'osez regarder, cache un coeur sensible.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZIRPHÉE"><speaker>ZIRPHÉE, à part.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Que sa voix est touchante !... </s>
 	<s id="2">Pourquoi faut-il...</s>
@@ -111,7 +115,8 @@
 </p>
 <stage type="away">Elle fait quelles pas pour fuir.</stage>
 </sp>
-<sp stage="stop" who="PHANOR"><speaker>PHANOR, veut l'arrêter.</speaker>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="stop">, veut l'arrêter.
+</stage>
 <p id="12">
 	<s id="1">Zirphée ! </s>
 	<s id="2">Calmez cet effroi !</s>
@@ -125,7 +130,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="PHANOR"><speaker>PHANOR, seul.</speaker>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Je commençais à l'attendrir, son âme s'ouvrait à la pitié ; un regard, un seul regard a détruit mon ouvrage... </s>
 	<s id="2">Et j'oserais encore conserver quelque espoir!... Cruelle fée, jouis de l'excès de ma douleur... </s>
@@ -139,15 +145,18 @@
 <stage type="fall/pain/furniture">Il tombe accablé sur une chaise.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Phédime, Phanor.</head>
-<sp who="PHÉDIME"><speaker>PHÉDIME, sans être aperçue.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Phédime, Phanor.
+</stage>
+<sp who="PHÉDIME"><speaker>PHÉDIME</speaker><stage>, sans être aperçue.
+</stage>
 <p id="1">
 	<s id="1">Zirphée m'a dit qu'il était ici... </s>
 	<s id="2">Ah ! </s>
 	<s id="3">Le voilà !</s>
 </p>
 </sp>
-<sp stage="stand" who="PHANOR"><speaker>PHANOR, se levant.</speaker>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="stand">, se levant.
+</stage>
 <p id="2">
 	<s id="1">Phédime, que fait Zirphée ?</s>
 </p>
@@ -299,7 +308,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Phédime, Zirphée.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Phédime, Zirphée.
+</stage>
 <sp who="ZIRPHÉE"><speaker>ZIRPHÉE. </speaker>
 <stage type="dream">Elle s'avance en rêvant.</stage>
 <p id="1">
@@ -530,8 +540,10 @@
 <stage type="away">Zirphée passe de l'autre côté de la scène.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zirphée, Phédime, Phanor.</head>
-<sp stage="closer/slow" who="PHANOR"><speaker>PHANOR, s'approchant doucement.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zirphée, Phédime, Phanor.
+</stage>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="closer/slow">, s'approchant doucement.
+</stage>
 <p id="1">
 	<s id="1">Elle va me fuir encore !...</s>
 </p>
@@ -556,7 +568,8 @@
 	<s id="1">Je le suis en effet.</s>
 </p>
 </sp>
-<sp stage="aparte" who="PHÉDIME"><speaker>PHÉDIME, à part.</speaker>
+<sp who="PHÉDIME"><speaker>PHÉDIME</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Ce début promet beaucoup ; l'entretien sera vif... </s>
 </p>
@@ -565,7 +578,8 @@
 	<s id="1">Si je vous gêne, parlez, je m'en irai.</s>
 </p>
 </sp>
-<sp stage="pull" who="ZIRPHÉE"><speaker>ZIRPHÉE, la retenant.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="pull">, la retenant.
+</stage>
 <p id="8">
 	<s id="1">Phédime !... </s>
 	<s id="2">De grâce !...</s>
@@ -665,7 +679,8 @@
 	<s id="2">Non, Zirphée, ne me regardez point ; je perdrais tout mon bonheur.</s>
 </p>
 </sp>
-<sp stage="watch/shy/watch" who="ZIRPHÉE"><speaker>ZIRPHÉE, le regarde avec timidité, et baisse les yeux.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="watch/shy/watch">, le regarde avec timidité, et baisse les yeux.
+</stage>
 <p id="26">
 	<s id="1">Vous voyez, Phanor, que vous êtes injuste.</s>
 </p>
@@ -677,7 +692,8 @@
 </p>
 <stage type="closer/away/stop">Il fait un mouvement pour s'approcher de Zirphée ; elle tressaille, et fait quelques pas pour le fuir. Phanor recule, Zirphée reste immobile.</stage>
 </sp>
-<sp stage="aparte" who="PHÉDIME"><speaker>PHÉDIME, à part.</speaker>
+<sp who="PHÉDIME"><speaker>PHÉDIME</speaker><stage type="aparte">, à part.
+</stage>
 <p id="28">
 	<s id="1">Les voilà tous deux consternés...</s>
 </p>
@@ -706,7 +722,8 @@
 	<s id="3">Mais vous boudez, je crois.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZIRPHÉE"><speaker>ZIRPHÉE, à part.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="33">
 	<s id="1">Qu'elle m'impatiente !</s>
 </p>
@@ -716,12 +733,14 @@
 	<s id="1">Adieu, Zirphée.</s>
 </p>
 </sp>
-<sp stage="despite" who="ZIRPHÉE"><speaker>ZIRPHÉE, avec dépit.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="despite">, avec dépit.
+</stage>
 <p id="35">
 	<s id="1">Puisque je vous importunerais, allez, Phédime... et vous aussi, Phanor.</s>
 </p>
 </sp>
-<sp stage="away" who="PHANOR"><speaker>PHANOR, quittant le bras de Phédime.</speaker>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="away">, quittant le bras de Phédime.
+</stage>
 <p id="36">
 	<s id="1">Zirphée ! </s>
 	<s id="2">Pourriez-vous croire...</s>
@@ -771,7 +790,8 @@
 	<s id="1">Qu'osez-vous dire ?</s>
 </p>
 </sp>
-<sp who="ZIRPHÉE"><speaker>ZIRPHÉE, regarde Phanor avec timidité, mais sans effroi.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage>, regarde Phanor avec timidité, mais sans effroi.
+</stage>
 <p id="44">
 	<s id="1">Phanor, voulez-vous me donner votre bras ?</s>
 </p>
@@ -782,7 +802,8 @@
 	<s id="2">Malgré la compassion que vous paraissez éprouver pour moi, je vous en conjure, Zirphée, ne vous contraignez point.</s>
 </p>
 </sp>
-<sp stage="touch" who="ZIRPHÉE"><speaker>ZIRPHÉE, lui prenant le bras.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="touch">, lui prenant le bras.
+</stage>
 <p id="46">
 	<s id="1">Eh bien, je vous accompagnerai sans contrainte, sans effort.</s>
 </p>
@@ -805,7 +826,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Zirphée, Phédime.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Zirphée, Phédime.
+</stage>
 <sp who="PHÉDIME"><speaker>PHÉDIME.</speaker>
 <p id="1">
 	<s id="1">Convenez qu'il est impossible d'être plus aimable.</s>
@@ -1018,7 +1040,8 @@
 	<s id="1">En ce cas je me tairai.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ZIRPHÉE"><speaker>ZIRPHÉE, à part.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="41">
 	<s id="1">Je n'y puis plus tenir !...</s>
 </p>
@@ -1035,7 +1058,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. </head>
-<sp who="ZIRPHÉE"><speaker>ZIRPHÉE, seule, après un moment de silence.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage>, seule, après un moment de silence.
+</stage>
 <p id="1">
 	<s id="1">J'allais éclater, je suis charmée qu'elle soit partie... </s>
 	<s id="2">Est-ce bien Phédime, cette amie si tendre que j'ai toujours vue prête à me tout sacrifier ? </s>
@@ -1060,8 +1084,10 @@
 <stage type="fall/sit">Elle tombe sur un siége.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Phanor, Zirphée.</head>
-<sp who="PHANOR"><speaker>PHANOR, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Phanor, Zirphée.
+</stage>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage>, à part.
+</stage>
 <p id="1">
 	<s id="1">Suivons les conseils de Phédime; voyons ce que peut la pitié sur un coeur aussi sensible.</s>
 </p>
@@ -1070,7 +1096,8 @@
 	<s id="1">Zirphée, me permettez-vous d'approcher ?</s>
 </p>
 </sp>
-<sp stage="stand" who="ZIRPHÉE"><speaker>ZIRPHÉE, se levant.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="stand">, se levant.
+</stage>
 <p id="3">
 	<s id="1">Oui, Phanor, venez... </s>
 	<s id="2">Je voudrais vous parler un moment. </s>
@@ -1147,7 +1174,8 @@
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="alone" who="ZIRPHÉE"><speaker>ZIRPHÉE, seule.</speaker>
+<sp who="ZIRPHÉE"><speaker>ZIRPHÉE</speaker><stage type="alone">, seule.
+</stage>
 <p id="16">
 	<s id="1">Arrêtez, arrêtez... </s>
 	<s id="2">Phanor ! </s>
@@ -1169,7 +1197,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Phédime, Zirphée.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Phédime, Zirphée.
+</stage>
 <sp who="PHÉDIME"><speaker>PHÉDIME.</speaker>
 <p id="1">
 	<s id="1">Où courez-vous, Zirphée ?</s>
@@ -1284,8 +1313,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zirphée, Phédime, Phanor.</head>
-<sp stage="hurry/kneel" who="PHANOR"><speaker>PHANOR, accourant, se précipite aux pieds de Zirphée.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zirphée, Phédime, Phanor.
+</stage>
+<sp who="PHANOR"><speaker>PHANOR</speaker><stage type="hurry/kneel">, accourant, se précipite aux pieds de Zirphée.
+</stage>
 <p id="1">
 	<s id="1">Zirphée, ma chère Zirphée, reconnaissez Phanor à l'excès de sa tendresse.</s>
 </p>

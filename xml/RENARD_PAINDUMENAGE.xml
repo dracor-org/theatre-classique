@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1891-1900</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,8 +28,8 @@
 		<docTitle>
 			<titlePart type="main">LE PAIN DU MÉNAGE</titlePart>
 		</docTitle> 
-		<docDate value='1898'>1898.</docDate>
-		<docAuthor id='RENARD, Jules'>Jules RENARD.</docAuthor>
+		<docDate value="1898">1898.</docDate>
+		<docAuthor id="RENARD, Jules">Jules RENARD.</docAuthor>
 		<docImprint>
 			<editor>PARIS, François Bernouard.</editor>
 			<copyright>Tous droits de reproduction, de traduction et de représentation réservés pour tous les pays, y compris la Suède et la Norvège.</copyright>
@@ -39,8 +39,8 @@
 		<p>Souvenir de notre affectueuse entente.</p>
 	</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MARTHE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>MARTHE</role>, au Figaro le 18 MArs 1898 : Melle Marthe BRANDÈS, aux Mathurins Melle Blanche TOUTAIN, Au Gymnase Melle Andrée MÉGARD, À la Renaissance. Melle Jane HELLER</castItem>
-		<castItem><role id="PIERRE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>PIERRE</role>, au Figaro le 18 MArs 1898 : M. Lucien GUITRY, aux Mathurins : M. TARIDE, Au Gymnase : M. GÉMIER, À la Renaissance : M. FRÉDAL.</castItem>
+		<castItem><role id="MARTHE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MARTHE</role>, au Figaro le 18 MArs 1898 : Melle Marthe BRANDÈS, aux Mathurins Melle Blanche TOUTAIN, Au Gymnase Melle Andrée MÉGARD, À la Renaissance. Melle Jane HELLER</castItem>
+		<castItem><role id="PIERRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">PIERRE</role>, au Figaro le 18 MArs 1898 : M. Lucien GUITRY, aux Mathurins : M. TARIDE, Au Gymnase : M. GÉMIER, À la Renaissance : M. FRÉDAL.</castItem>
     </castList>
 	<set location="Province" country="France" periode="XIXème" gps="">À la gare d'une petite ville.</set>
 	<note>Tiré de "Les Oeuvres de Jules Renard : 1864-1910. Vol. 9". - Paris : François Bernouard. pp 41-78  </note>
@@ -251,7 +251,8 @@
 	<s id="2">Je me suis marié jeune, dès que j'ai eu l'âge de raison.</s>
 </p>
 </sp>
-<sp stage="stand/ironic" who="MARTHE"><speaker>MARTHE se lève, moqueuse.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="stand/ironic"> se lève, moqueuse.
+</stage>
 <p id="34">
 	<s id="1">Douze !</s>
 </p>
@@ -626,7 +627,8 @@
 	<s id="2">C'est une perle.</s>
 </p>
 </sp>
-<sp stage="serious" who="PIERRE"><speaker>PIERRE, gravement.</speaker>
+<sp who="PIERRE"><speaker>PIERRE</speaker><stage type="serious">, gravement.
+</stage>
 <p id="98">
 	<s id="">Inestimable.</s>
 </p>
@@ -719,7 +721,8 @@
 	<s id="1">Exemple : Si votre mari vous trompait, que feriez-vous ?</s>
 </p>
 </sp>
-<sp stage="hesitate" who="MARTHE"><speaker>MARTHE, sans hésiter.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="hesitate">, sans hésiter.
+</stage>
 <p id="115">
 	<s id="1">J'ai deux projets, à mon choix : Premièrement, si mon mari me trompe, je le trompe tout de suite, tout de suite, avec le plus voisin de ses amis. </s>
 	<s id="2">Et ce sera si vite fait, que mon mari et moi, nous ne saurons même plus lequel des deux aura commencé.</s>
@@ -815,7 +818,8 @@
 	<s id="2">Bonsoir !</s>
 </p>
 </sp>
-<sp stage="quiet" who="MARTHE"><speaker>MARTHE, avec simplicité.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage type="quiet">, avec simplicité.
+</stage>
 <p id="129">
 	<s id="1">Oh ! </s>
 	<s id="2">Pardon ! </s>
@@ -1527,7 +1531,8 @@
 	<s id="1">Marthe !</s>
 </p>
 </sp>
-<sp who="MARTHE"><speaker>MARTHE, tristement.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage>, tristement.
+</stage>
 <p id="222">
 	<s id="">Nous ne sommes pas assez bêtes ! </s>
 </p>
@@ -1826,7 +1831,8 @@
 	<s id="1">C'est moi.</s>
 </p>
 </sp>
-<sp who="MARTHE"><speaker>MARTHE, très énervée.</speaker>
+<sp who="MARTHE"><speaker>MARTHE</speaker><stage>, très énervée.
+</stage>
 <p id="272">
 	<s id="1">Vous voyez comme j'ai raison.</s>
 </p>

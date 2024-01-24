@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -32,7 +32,7 @@
 		
 	</docTitle> 
 	<docDate value="1767">M. DCC. LXVII. AVEC APPROBATION.</docDate>
-	<docAuthor id="BILLARDON DE SAUVIGNY, Edme Louis" bio=''>PAR M. DE SAUVIGNY</docAuthor>
+	<docAuthor id="BILLARDON DE SAUVIGNY, Edme Louis" bio="">PAR M. DE SAUVIGNY</docAuthor>
 	<docImprint>
 	<approbation id="1767-12-28">
 		<p>J'ai lu, par ordre de M. le Lieutenant-Général de Police, les Sauvages, Tragédie ; et je crois qu'on peut en permettre la représentation. À Paris, ce 9 Novembre 1765. MARIN.</p>
@@ -41,7 +41,7 @@
 	<printer id="RIBOU">À PARIS, Chez la veuve DUCHESNE, Libraire, rue Saint-Jacques, au dessous de la Fontaine Saint-Benoît, au Temple du Goût.</printer>
 	</docImprint>
 	<performance>
-		<premiere date="1767-05-27" location='Théâtre de la rue des Fossés Saint-Germain'></premiere>
+		<premiere date="1767-05-27" location="Théâtre de la rue des Fossés Saint-Germain"/>
 	</performance>
 	<div type="preface"><head>PRÉFACE.</head>
 		<p>Le désir de la vengeance, l'ambition, l'amour, la jalousie ont souvent fait des traîtres ; et l'intérêt malentendu de quelques Citoyens revêtus d'un pouvoir passager, a presque toujours occasionné le malheur des peuples qui, loin des yeux du Souverain, sont dans la dure nécessité de leur obéir.</p>
@@ -57,18 +57,19 @@
 		<p>(a) M. Rousseau, égalité des conditions.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="HIRZA" sex="2" type="H" statut='sauvage' age='A' stat_amour=''>HIRZA</role>. Mlle. DUBOIS.</castItem>
-		<castItem><role id="MONRÉAL" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONRÉAL</role>. M. MOLE.</castItem>
-		<castItem><role id="HIASKAR" sex="1" type="H" statut='sauvage' age='A' stat_amour=''>HIASKAR</role>, Chef de Guerre, M. LE KAIN.</castItem>
-		<castItem><role id="MONRÉAL PÈRE" sex="1" type="H" statut='bourgeois' age='A' stat_amour=''>MONRÉAL PÈRE</role>. M. BRIZARD.</castItem>
-		<castItem><role id="OUKÉA" sex="1" type="H" statut='sauvage' age='V' stat_amour=''>OUKÉA</role>, Chef du Conseil des Vieillards. M.D'AUBERVAL.</castItem>
+		<castItem><role id="HIRZA" sex="2" type="H" statut="sauvage" age="A" stat_amour="">HIRZA</role>. Mlle. DUBOIS.</castItem>
+		<castItem><role id="MONRÉAL" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MONRÉAL</role>. M. MOLE.</castItem>
+		<castItem><role id="HIASKAR" sex="1" type="H" statut="sauvage" age="A" stat_amour="">HIASKAR</role>, Chef de Guerre, M. LE KAIN.</castItem>
+		<castItem><role id="MONRÉAL PÈRE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">MONRÉAL PÈRE</role>. M. BRIZARD.</castItem>
+		<castItem><role id="OUKÉA" sex="1" type="H" statut="sauvage" age="V" stat_amour="">OUKÉA</role>, Chef du Conseil des Vieillards. M.D'AUBERVAL.</castItem>
 	</castList>
-	<set location="Niagara" country="Canada" periode="XVIIIème" gps="43.086163, -79.062602"></set>
+	<set location="Niagara" country="Canada" periode="XVIIIème" gps="43.086163, -79.062602"/>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
 <stage type="decor/watch">On voit dans l'enfoncement le Saut de Niagara. D'un côté, des rochers, des cabanes et quelques arbres ; de l'autre un tombeau élevé sur des piliers matachés, et décoré de chevelures en forme de trophée ; au pied du tombeau est un autel sur lequel sont les armes du défunt, ses flèches, son casse-tête et son manitou. Hiaskar est appuyé et paraît consterné ; les autres guerriers, le conseil des vieillards, Oukéa et plusieurs femmes sauvages sont épars çà et là dans des attitudes de douleur et de désespoir : Hirza est au milieu. Elle regarde le tombeau de son père, et laisse voir plus de colère que d'abattement.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Hiaskar, Hirza, Oukea, vieillards, guerriers, femmes sauvages.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Hiaskar, Hirza, Oukea, vieillards, guerriers, femmes sauvages.
+</stage>
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="1">Sur ta tombe, ô Thamar, les Illinois gémissent !</l>
 	<l id="2">Ces huttes, ces rochers de leurs cris retentissent !</l>
@@ -158,7 +159,8 @@
 	<l id="77">L'un à l'autre opposons ces fléaux de la terre,</l>
 	<l id="78">Et qu'ils soient seuls en butte aux horreurs de la guerre.</l>
 </sp>
-<sp stage="toward" who="HIASKAR"><speaker>HIASKAR, à Hirza.</speaker>
+<sp who="HIASKAR"><speaker>HIASKAR</speaker><stage type="toward">, à Hirza.
+	</stage>
 	<l id="79">Tu dois prêter l'oreille aux discours d'Oukéa.</l>
 	<l id="80">Au conseil des vieillards sa vertu le plaça ;</l>
 	<l id="81">Thamar l'y consultait et sa voix y préside :</l>
@@ -180,7 +182,8 @@
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="92">Qu'importe, si tu peux réparer nos malheurs ?</l>
 </sp>
-<sp stage="show" who="OUKÉA"><speaker>OUKÉA, montrant Hiaskar.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="show">, montrant Hiaskar.
+	</stage>
 	<l id="93">Tu le veux, j'y consens. Mais il t'aime, et j'espère</l>
 	<l id="94" syll="6" part="i">Que l'offre de sa main...</l>
 </sp>
@@ -307,7 +310,8 @@
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Hirza, femmes sauvages.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Hirza, femmes sauvages.
+</stage>
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="171">Mon père, toi qu'Hirza porte au fond de son coeur,</l>
 	<l id="172">Inspire à nos guerriers cette intrépide ardeur,</l>
@@ -326,7 +330,8 @@
 	<l id="184">Comment lui dire, hélas ! Que mon père n'est plus.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="together"><head>SCÈNE III. Monréal, précédé de beaucoup de guerriers, et suivi des Iroquois qu'il a vaincus, Hirza, femmes sauvages.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="together"> Monréal, précédé de beaucoup de guerriers, et suivi des Iroquois qu'il a vaincus, Hirza, femmes sauvages.
+</stage>
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL.</speaker>
 	<l id="185">Le coeur brûlant d'amour, et plein d'impatience,</l>
 	<l id="186">Je reviens triomphant après deux ans d'absence,</l>
@@ -422,7 +427,8 @@
 <stage type="noise">L'on entend un bruit d'armes.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Hiaskar, Monréal, Hirza, femmes sauvages, troupes de guerriers de la suite de  Monréal, troupes de guerriers de la suite d'Hiaskar.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Hiaskar, Monréal, Hirza, femmes sauvages, troupes de guerriers de la suite de  Monréal, troupes de guerriers de la suite d'Hiaskar. 
+</stage> 
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="249" syll="6" part="f">Faisons tête à l'orage ;</l>
 	<l id="250">Amis, voici l'instant de montrer un courage</l>
@@ -443,7 +449,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Hiaskar, Hirza, troupes de Guerriers Sauvages, femmes sauvages.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Hiaskar, Hirza, troupes de Guerriers Sauvages, femmes sauvages.
+</stage>
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="261">Sortez de vos tombeaux, mânes de nos ancêtres.</l>
 	<l id="262">L'Europe ose aspirer à nous donner des maîtres :</l>
@@ -452,7 +459,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Hirza, Femmes sauvages.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Hirza, Femmes sauvages.
+</stage>
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="265">Grands dieux, réveillez-vous au cri de la vengeance ;</l>
 	<l id="266">Voyez le Canada privé de sa défense,</l>
@@ -466,7 +474,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Oukéa, Hiaskar.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Oukéa, Hiaskar.
+</stage>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
 	<l id="273">Qu'Hirza, de Monréal admirant les exploits,</l>
 	<l id="274">Sur l'amant qui la venge ait fait tomber son choix,</l>
@@ -588,7 +597,8 @@
 	<l id="381" syll="2" part="i">Qu'il meure.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Hirza, Monréal, guerriers, femmes sauvages.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes, Hirza, Monréal, guerriers, femmes sauvages. 
+</stage> 
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="381" syll="10" part="f">Heureux le jour où sur nos ennemis</l>
 	<l id="382">Mon amant a vengé mon père et mon pays !</l>
@@ -607,7 +617,8 @@
 	<l id="393">Achève mon bonheur ; que le plus doux des noeuds</l>
 	<l id="394">Au pied de ce tombeau nous unisse tous deux.</l>
 </sp>
-<sp stage="toward" who="OUKÉA"><speaker>OUKÉA, à Hirza.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward">, à Hirza.
+	</stage>
 	<l id="395">On doit beaucoup sans doute à son noble courage :</l>
 	<l id="396">Mais, s'il faut avec lui qu'un noeud sacré t'engage,</l>
 	<l id="397">Du droit de commander nous privons ton époux.</l>
@@ -657,7 +668,8 @@
 <stage type="exit">Elle sort suivie des guerriers et des femmes sauvages.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monréal, Hiaskar.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monréal, Hiaskar.
+</stage>
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL.</speaker>
 	<l id="431">Brave Hiaskar, tu vois que mon bonheur s'apprête.</l>
 	<l id="432" syll="10" part="i">Soyons toujours unis. Suivons leurs pas.</l>
@@ -784,13 +796,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="HIASKAR"><speaker>HIASKAR, seul.</speaker>
+<sp who="HIASKAR"><speaker>HIASKAR</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="499">Mortel présomptueux, tu crois braver ma haine :</l>
 	<l id="500">Tremble ; elle est à son comble, et ta mort est certaine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Oukéa, Hiaskar.</head>
-<sp stage="toward" who="HIASKAR"><speaker>HIASKAR, à Oukéa.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Oukéa, Hiaskar.
+</stage>
+<sp who="HIASKAR"><speaker>HIASKAR</speaker><stage type="toward">, à Oukéa.
+	</stage>
 	<l id="501">Vainement j'ai parlé ; l'indigne Monréal</l>
 	<l id="502">Soupçonne ma franchise et me croit son rival.</l>
 	<l id="503">Si je n'eusse écouté que ma juste colère,</l>
@@ -805,7 +820,8 @@
 	<l id="510">À punir Monréal je prétends l'engager.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Monréal père, un Français qui porte un calumet et des colliers, vieillards.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Monréal père, un Français qui porte un calumet et des colliers, vieillards.
+</stage>
 <sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE.</speaker>
 	<l id="511">Courageux Illinois, une étroite alliance</l>
 	<l id="512">Fut autrefois jurée entre vous et la France</l>
@@ -898,10 +914,12 @@
 	<l id="591">Nous sommes délivrés d'un tyran que j'abhorre.</l>
 	<l id="592">Il en est un pour nous plus dangereux encore.</l>
 </sp>
-<sp stage="toward" who="HIASKAR"><speaker>HIASKAR, à Oukéa.</speaker>
+<sp who="HIASKAR"><speaker>HIASKAR</speaker><stage type="toward">, à Oukéa.
+	</stage>
 	<l id="593">Je veux, s'il doit tomber, que ce soit sous mes coups.</l>
 </sp>
-<sp stage="low/toward" who="OUKÉA"><speaker>OUKÉA, bas à part.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="low/toward">, bas à part.
+	</stage>
 	<l id="594">Tu porterais le trouble et la mort parmi nous.</l>
 	<l id="595">Laisse fondre sur lui l'orage qui s'apprête.</l>
 	<l id="596">Ce n'est qu'un ennemi qui hasarde sa tête.</l>
@@ -984,8 +1002,10 @@
 	<l id="646">Et si tu vis encor, je réponds de tes jours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Oukéa, Monréal père, Monréal fils.</head>
-<sp stage="toward" who="OUKÉA"><speaker>OUKÉA, à Monréal père.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Oukéa, Monréal père, Monréal fils.
+</stage>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward">, à Monréal père.
+	</stage>
 	<l id="647">Du haut de ces rochers j'aurai sur toi la vue.</l>
 	<l id="648">La fille de Thamar, au conseil retenue,</l>
 	<l id="649">Ne saurait avant moi reparaître en ces lieux,</l>
@@ -993,7 +1013,8 @@
 	<l id="651" syll="4" part="i">Va combattre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monréal père, Monréal fils.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monréal père, Monréal fils.
+</stage>
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS.</speaker>
 	<l id="651" syll="8" part="f">Quel bruit vient de se faire entendre ?</l>
 	<l id="652" syll="6" part="i">Il redouble.... Écoutons.</l>
@@ -1016,7 +1037,8 @@
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS.</speaker>
 	<l id="660" syll="9" part="f">Cette voix que j'entends, je crois la reconnaître.</l>
 </sp>
-<sp stage="get" who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE, mettant le sabre à la main.</speaker>
+<sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE</speaker><stage type="get">, mettant le sabre à la main.
+	</stage>
 	<l id="661">À son horreur pour toi, reconnais un Français,</l>
 	<l id="662" syll="4" part="i">Ton général.</l>
 </sp>
@@ -1058,7 +1080,8 @@
 	<l id="672" syll="6" part="f">Ô trop malheureux père !</l>
 	<l id="673">Ai-je pu mettre au jour un si coupable fils ?</l>
 </sp>
-<sp stage="throw" who="MONRÉAL FILS"><speaker>MONRÉAL FILS, jetant son sabre.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS</speaker><stage type="throw">, jetant son sabre.
+	</stage>
 	<l id="674" syll="6" part="i">Moi, votre fils ? Ah dieux !...</l>
 </sp>
 <sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE.</speaker>
@@ -1085,7 +1108,8 @@
 	<l id="691">D'un sang trop criminel ne soyez point avare,</l>
 	<l id="692" syll="6" part="i">L'honneur le veut, frappez.</l>
 </sp>
-<sp stage="drop" who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE, en laissant tomber son épée.</speaker>
+<sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE</speaker><stage type="drop">, en laissant tomber son épée.
+	</stage>
 	<l id="692" syll="6" part="f">Eh ! Le puis-je, barbare ?</l>
 	<l id="693">Ah ! Que n'as-tu d'abord irrité mes fureurs ?</l>
 	<l id="694">Que ne m'as-tu caché tes remords et tes pleurs ?</l>
@@ -1205,7 +1229,8 @@
 	<l id="784">Que les grandes vertus effacent les grands crimes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Hiaskar, Oukéa.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Hiaskar, Oukéa.
+</stage>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
 	<l id="785">C'est trop attendre ; enfin, sachons quel est ton sort.</l>
 <stage type="toward">À Monréal, père.</stage>
@@ -1244,7 +1269,8 @@
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="803" syll="1" part="i">Oui.</l>
 </sp>
-<sp stage="toward" who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE, à Oukéa.</speaker>
+<sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE</speaker><stage type="toward">, à Oukéa.
+	</stage>
 	<l id="803" syll="11" part="f">Vous approuvez donc ce qu'il vient de me dire ?</l>
 </sp>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
@@ -1295,20 +1321,23 @@
 	<l id="821">Qui ne voit dans les siens, quand ils sont sous ses lois,</l>
 	<l id="822">Qu'un instrument servile et fait pour ses exploits !</l>
 </sp>
-<sp stage="toward" who="OUKÉA"><speaker>OUKÉA, à Monréal père.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward">, à Monréal père.
+	</stage>
 	<l id="823">Que ta voix au conseil vienne se faire entendre.</l>
 </sp>
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS.</speaker>
 	<l id="824">C'est là que malgré vous, je prétends vous défendre.</l>
 </sp>
-<sp stage="toward" who="HIASKAR"><speaker>HIASKAR, à Monréal père.</speaker>
+<sp who="HIASKAR"><speaker>HIASKAR</speaker><stage type="toward">, à Monréal père.
+	</stage>
 	<l id="825">De ta haute vertu que mon coeur est jaloux!</l>
 	<l id="826">Français, tu méritais d'être né parmi nous.</l>
 </sp>
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Hirza, Hiaskar.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Hirza, Hiaskar.
+</stage>
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="827">Eh quoi ! Ce meurtrier cruel et sanguinaire,</l>
 	<l id="828">Que ma bouche a juré d'immoler, c'est son père !</l>
@@ -1348,7 +1377,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="HIRZA"><speaker>HIRZA, seule.</speaker>
+<sp who="HIRZA"><speaker>HIRZA</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="854">Hélas ! fut-il jamais un sort plus malheureux ?</l>
 	<l id="855">La hache de la mort a fait tomber mon père ;</l>
 	<l id="856">Et, mon coeur s'abreuvant de sa douleur amère,</l>
@@ -1391,7 +1421,8 @@
 	<l id="893">Mais je vois Monréal ; la mort est dans ses yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monréal, Hirza.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monréal, Hirza.
+</stage>
 <sp who="MONRÉAL FILS"><speaker>MONRÉAL.</speaker>
 	<l id="894">Ah ! Pardonne aux transports d'un amant furieux.</l>
 	<l id="895">On ne versera point le sang qui m'a fait naître :</l>
@@ -1527,8 +1558,10 @@
 	<l id="974">Traître, suis ton devoir ; je vais remplir le mien;</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Hiaskar, Oukéa.</head>
-<sp stage="toward" who="OUKÉA"><speaker>OUKÉA, à Hizra.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Hiaskar, Oukéa.
+</stage>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward">, à Hizra.
+	</stage>
 	<l id="975">Du conseil des vieillards reçois l'ordre suprême.</l>
 	<l id="976">Fidèle à ton serment, tu dois, dès ce jour même,</l>
 	<l id="977">Au tombeau de ton père, immoler de ta main</l>
@@ -1540,8 +1573,10 @@
 	<l id="980">Oui sans doute ; et je cours préparer son supplice.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Hiaskar, Oukéa, Monréal.</head>
-<sp stagee="away/folllow" who="MONRÉAL FILS"><speaker>MONRÉAL, suivant Hirza qui sort.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Hiaskar, Oukéa, Monréal.
+</stage>
+<sp stagee="away/folllow" who="MONRÉAL FILS"><speaker>MONRÉAL</speaker><stage>, suivant Hirza qui sort.
+	</stage>
 	<l id="981">Arrête. Écoute au moins. Quoi ! Tu pourrais... Ah dieux !</l>
 	<l id="982">Hirza, quoi ! De mon sang t'abreuver à mes yeux !</l>
 <stage type="toward">Aux Sauvages.</stage>
@@ -1570,11 +1605,13 @@
 	<l id="1000">De réclamer un droit chez vous inviolable,</l>
 	<l id="1001">Le plus cher à mon coeur, le plus saint pour un fils ?</l>
 </sp>
-<sp stage="give" who="OUKÉA"><speaker>OUKÉA, lui donnant un collier.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="give">, lui donnant un collier.
+	</stage>
 	<l id="1002">Oui, s'il ne saurait nuire aux lois de mon pays.</l>
 	<l id="1003" syll="6" part="i">Ce gage t'en assure.</l>
 </sp>
-<sp stage="hide" who="MONRÉAL FILS"><speaker>MONRÉAL, remettant son épée.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL</speaker><stage type="hide">, remettant son épée.
+	</stage>
 	<l id="1003" syll="6" part="f">Ami, qu'à sa patrie</l>
 	<l id="1004">Mon père soit rendu, j'offre pour lui ma vie.</l>
 	<l id="1005">Je fais plus. En son nom, je jure que son bras</l>
@@ -1586,7 +1623,8 @@
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="1008">Venger Thamar sans doute est juste et nécessaire...</l>
 </sp>
-<sp stage="toward" who="MONRÉAL FILS"><speaker>MONRÉAL, à Oukéa.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL</speaker><stage type="toward">, à Oukéa.
+	</stage>
 	<l id="1009">De l'auteur de mes jours va donc briser les fers.</l>
 </sp>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
@@ -1594,8 +1632,10 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monréal, Hiaskar.</head>
-<sp stage="toward" who="MONRÉAL FILS"><speaker>MONRÉAL, à lui-même.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monréal, Hiaskar.
+</stage>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL</speaker><stage type="toward">, à lui-même.
+	</stage>
 	<l id="1010" syll="6" part="f">Après tant de revers,</l>
 	<l id="1011" syll="3" part="i">Je pourrai donc...</l>
 </sp>
@@ -1633,7 +1673,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VII.</head>
-<sp stage="alone" who="MONRÉAL FILS"><speaker>MONRÉAL, seul.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1035">Tes voeux seront trompés. Oui, si je fus un traître,</l>
 	<l id="1036">Je vais rendre l'honneur au sang qui m'a fait naître.</l>
 	<l id="1037">Ô mes concitoyens, pardonnez mes forfaits ;</l>
@@ -1642,7 +1683,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Hirza, guerriers.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Hirza, guerriers.
+</stage>
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="1039">Il faut donc l'accomplir ce funeste serment !</l>
 	<l id="1040">Et sur qui ?... J'en frémis ! Quels apprêts ! Quel moment!...</l>
@@ -1656,7 +1698,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="HIRZA"><speaker>HIRZA, seule.</speaker>
+<sp who="HIRZA"><speaker>HIRZA</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1045" syll="8" part="f">Je sais qu'ambitieux, parjure, </l>
 	<l id="1046">Tu trahis Monréal, la flamme la plus pure :</l>
 	<l id="1047">Je sais que tout conspire à te fermer mon coeur,</l>
@@ -1685,7 +1728,8 @@
 	<l id="1070">Que vois-je ? Oukéa seul ! Dieux ! Que vient-il m'apprendre ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Oukéa, Hirza.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Oukéa, Hirza.
+</stage>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
 	<l id="1071">Hirza, préparons-nous à de nouveaux revers.</l>
 	<l id="1072">Les prisonniers français ont tous brisé leurs fers.</l>
@@ -1776,11 +1820,13 @@
 	<l id="1125">Je le vois ; cache-lui le poison qui te tue.</l>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE IV. Monréal père, Monréal fils, Hirza, Oukéa, guerriers, conseil des vieillards, femmes sauvages.</head>
+<div2 type="scene" n=""><head>SCÈNE IV.</head><stage> Monréal père, Monréal fils, Hirza, Oukéa, guerriers, conseil des vieillards, femmes sauvages.
+</stage>
 <sp who="HIRZA"><speaker>HIRZA.</speaker>
 	<l id="1126">Quel froid pénètre au fond de mon âme abattue !</l>
 </sp>
-<sp stage="toward" who="MONRÉAL FILS"><speaker>MONRÉAL FILS, à son père.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS</speaker><stage type="toward">, à son père.
+	</stage>
 	<l id="1127">Ah ! Laissez-moi mourir, vous ne connaissez pas</l>
 	<l id="1128">La fureur de mes feux, mes forfaits, mes combats ;</l>
 	<l id="1129">Je vous dois mes remords, mais sans votre présence</l>
@@ -1788,7 +1834,8 @@
 	<l id="1131">Lorsque le ciel permet que je meure pour vous,</l>
 	<l id="1132">Ne plaignez que la main qui va porter les coups.</l>
 </sp>
-<sp stage="toward/threat" who="OUKÉA"><speaker>OUKÉA, à Hirza, tenant une épée.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward/threat">, à Hirza, tenant une épée.
+	</stage>
 	<l id="1133">Que l'aspect de ce fer redouble ta colère :</l>
 	<l id="1134">Il était enfoncé dans le flanc de ton père ,</l>
 	<l id="1135">Ma main l'en arracha ; fais de même en ce jour,</l>
@@ -1802,7 +1849,8 @@
 <stage type="drop">Il met l'épée sur l'autel.</stage>
 	<l id="1143" syll="6" part="i">Viens, armes-en ton bras.</l>
 </sp>
-<sp stage="toward" who="MONRÉAL FILS"><speaker>MONRÉAL FILS, à Hirza.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS</speaker><stage type="toward">, à Hirza.
+	</stage>
 	<l id="1143" syll="6" part="f">J'ai mérité mon sort.</l>
 	<l id="1144">Frappe ; comme un bienfait je recevrai la mort.</l>
 </sp>
@@ -1838,7 +1886,8 @@
 	<l id="1167">Mânes chers et sacrés, vous serez satisfaits.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V ET DERNIÈRE. Les mêmes, Hiaskar.</head>
+<div2 type="scene" n="5"><head>SCÈNE V ET DERNIÈRE.</head><stage> Les mêmes, Hiaskar.
+</stage>
 <sp who="HIASKAR"><speaker>HIASKAR.</speaker>
 	<l id="1168">Arrête, arrête, Hirza ; j'ai rempli tes souhaits.</l>
 	<l id="1169">Les Français à nos coups avaient cru se soustraire ;</l>
@@ -1852,7 +1901,8 @@
 <sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE.</speaker>
 	<l id="1174">Non, j'épargnais un sang utile à ma patrie.</l>
 </sp>
-<sp stage="help" who="HIRZA"><speaker>HIRZA, la main appuyée sur l'autel.</speaker>
+<sp who="HIRZA"><speaker>HIRZA</speaker><stage type="help">, la main appuyée sur l'autel.
+	</stage>
 	<l id="1175">Et moi qui vois la honte où m'abaissent mes feux,</l>
 	<l id="1176">Moi qui devais remplir un serment malheureux,</l>
 	<l id="1177">Moi pour qui désormais la vie est un supplice,</l>
@@ -1863,10 +1913,12 @@
 	<l id="1179">Arrête, chère Hirza !... Pour te prouver ma foi...</l>
 <stage type="steal">Il saisit le fer.</stage>
 </sp>
-<sp stage="hurry/location/closer/steal/push" who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE, se précipitant entre Hirza et son fils lui arrachant le fer et le repoussant.</speaker>
+<sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE</speaker><stage type="hurry/location/closer/steal/push">, se précipitant entre Hirza et son fils lui arrachant le fer et le repoussant.
+	</stage>
 	<l id="1180" syll="3" part="i">Ah, mon fils !</l>
 </sp>
-<sp stage="toward" who="MONRÉAL FILS"><speaker>MONRÉAL FILS, à Hirza.</speaker>
+<sp who="MONRÉAL FILS"><speaker>MONRÉAL FILS</speaker><stage type="toward">, à Hirza.
+	</stage>
 	<l id="1180" syll="9" part="f">Va, tu meurs moins à plaindre que moi.</l>
 </sp>
 <sp who="MONRÉAL PÈRE"><speaker>MONRÉAL PÈRE.</speaker>

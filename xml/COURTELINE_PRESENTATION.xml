@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,22 +28,22 @@
 		<docTitle>
 			<titlePart type="main">LA PRÉSENTATION</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="CHICHINETTE" sex="1" type="H" statut="libraire" age='A' stat_amour='néant'>CHICHINETTE</role>.</castItem>
-			<castItem><role id="LE BEDEAU" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE BEDEAU</role>.</castItem>
+			<castItem><role id="CHICHINETTE" sex="1" type="H" statut="libraire" age="A" stat_amour="néant">CHICHINETTE</role>.</castItem>
+			<castItem><role id="LE BEDEAU" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BEDEAU</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">À Sainte-Claire du Quartier Bréda.</set>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 51-56</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA PRÉSENTATION</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor">Dans les ténèbres du fiacre qui les conduit chez les Brossurbourg, Madame de Bois-Flotté et Arthur, son fils.</stage>
 <sp who="MADAME DE BOIS-FLOTTÉ"><speaker>MADAME DE BOIS-FLOTTÉ.</speaker>
 <p id="1">
@@ -78,15 +78,17 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head></head>
+<div2 type="scene" n="2"><head/>
 <stage type="decor">Le décor change. Il représente maintenant le salon des Brossarbourg.</stage>
-<sp stage="declamate" who="UN LARBIN"><speaker>UN LARBIN, annonçant.</speaker>
+<sp who="UN LARBIN"><speaker>UN LARBIN</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="2">
 	<s id="1">Madame_de_Bois-Flotté, et Monsieur_Arthur, son fils.</s>
 </p>
 <stage type="entrance">Apparition d'Arthur de Bois-Flotté.</stage>
 </sp>
-<sp stage="wave" who="ARTHUR"><speaker>ARTHUR, saluant, très correct.</speaker>
+<sp who="ARTHUR"><speaker>ARTHUR</speaker><stage type="wave">, saluant, très correct.
+</stage>
 <p id="3">
 	<s id="1">Mesdames, Messieurs !... </s>
 	<s id="2">Serviteur !...</s>

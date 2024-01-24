@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -32,10 +32,10 @@
 			<titlePart type="sub">COMÉDIE EN UN ACTE.</titlePart>
 			<titlePart type="sub">Écrite en 1693, non représentée.</titlePart>
 		</docTitle> 
-		<docDate value='1756'>M. DCC. LVI.</docDate>
-		<docAuthor id='BRUEYS et PALAPRAT'>DE MESSIEURS BRUEYS et DE PALAPRAT</docAuthor>
+		<docDate value="1756">M. DCC. LVI.</docDate>
+		<docAuthor id="BRUEYS et PALAPRAT">DE MESSIEURS BRUEYS et DE PALAPRAT</docAuthor>
 		<performance>
-			<premiere date='1689-07-14' location='Théâtre de la rue des Fossés Saint-Germain'>Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 septembre 1689.</premiere>
+			<premiere date="1689-07-14" location="Théâtre de la rue des Fossés Saint-Germain">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 septembre 1689.</premiere>
 		</performance>
 	<castList><head>PERSONNAGES.</head>
 		<castItem><role id="MADAME LUCE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME LUCE</role>.</castItem>
@@ -55,7 +55,8 @@
 </front>
 <body>
 <div1 type="acte" n="1"><head>LES EMBARRAS DU DERRIÈRE DU THÉÂTRE </head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame Luce, Marote.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame Luce, Marote.
+</stage>
 <sp who="MADAME LUCE"><speaker>MADAME LUCE.</speaker>
 <p id="1">
 	<s id="1">Non, non, Marote, tu as pris quelque autre pour Ménandre.</s>
@@ -183,13 +184,15 @@
 	<s id="1">Pardon, Madame, ils ont tort de parler mal de votre pièce, après le bien que je vous en ai ouï dire, et à Monsieur_Ménandre.</s>
 </p>
 </sp>
-<sp stage="watch" who="MADAME LUCE"><speaker>MADAME LUCE, apercevant Ménandre.</speaker>
+<sp who="MADAME LUCE"><speaker>MADAME LUCE</speaker><stage type="watch">, apercevant Ménandre.
+</stage>
 <p id="23">
 	<s id="1">Eh bien, vois si j'avais raison : voilà-t-il pas Monsieur_Ménandre ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Monsieur Ménandre, Madame Luce, Marote.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Monsieur Ménandre, Madame Luce, Marote.
+</stage>
 <sp who="MADAME LUCE"><speaker>MADAME LUCE.</speaker>
 <p id="1">
 	<s id="1">Monsieur, je vous prie de me dire où vous avez laissé mon fils.</s>
@@ -285,7 +288,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur Duverger, Madame Luce, Monsieur Ménandre, Marote.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur Duverger, Madame Luce, Monsieur Ménandre, Marote.
+</stage>
 <sp who="MADAME LUCE"><speaker>MADAME LUCE.</speaker>
 <p id="1">
 	<s id="1">Monsieur, je suis votre servante.</s>
@@ -313,7 +317,8 @@
 	<s id="2">Loué soit Dieu, voici un homme qui parle au moins.</s>
 </p>
 </sp>
-<sp stage="declamate" who="MONSIEUR MÉNANDRE"><speaker>MONSIEUR MÉNANDRE, déclame.</speaker>
+<sp who="MONSIEUR MÉNANDRE"><speaker>MONSIEUR MÉNANDRE</speaker><stage type="declamate">, déclame.
+</stage>
 <p id="6">
 	<s id="1">Précipices affreux...</s>
 </p>
@@ -427,8 +432,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur Ménandre, Madame Luce, Monsieur Duverger, Marote.</head>
-<sp stage="repeat" who="MONSIEUR DUVERGER"><speaker>MONSIEUR DUVERGER, répétant son annonce.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur Ménandre, Madame Luce, Monsieur Duverger, Marote.
+</stage>
+<sp who="MONSIEUR DUVERGER"><speaker>MONSIEUR DUVERGER</speaker><stage type="repeat">, répétant son annonce.
+</stage>
 <p id="1">
 	<s id="1">Messieurs, nous vous donnerons demain pour la première fois.</s>
 </p>
@@ -548,7 +555,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Monsieur Alidor, Madame Luce, Marote.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Monsieur Alidor, Madame Luce, Marote.
+</stage>
 <sp who="MAROTE"><speaker>MAROTE.</speaker>
 <p id="1">
 	<s id="1">Vous prenez fort mal votre temps, Madame, vous voyez bien qu'il joue aujourd'hui, et qu'il repasse son Rôle.</s>
@@ -585,8 +593,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Alidor, Madame Luce.</head>
-<sp stage="reapeat" who="MONSIEUR ALIDOR"><speaker>MONSIEUR ALIDOR, répétant un rôle.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Alidor, Madame Luce.
+</stage>
+<sp who="MONSIEUR ALIDOR"><speaker>MONSIEUR ALIDOR</speaker><stage type="reapeat">, répétant un rôle.
+</stage>
 <note type="C">Ci-dessous les vers 705 à 710 de la tragédie Bérénice de Jean Racine.</note>
 	<l id="1">Pourquoi vous dérober vous-même en ce moment ?</l>
 </sp>
@@ -684,7 +694,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Monsieur Alidor, Le Marquis.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Monsieur Alidor, Le Marquis.
+</stage>
 <sp who="MONSIEUR DUVERGER"><speaker>MONSIEUR DUVERGER.</speaker>
 <p id="1">
 	<s id="1">La peste soit de la folle...</s>
@@ -753,8 +764,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Marquis, Le Baron.</head>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Marquis, Le Baron.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">La peste me tue, si ce petit Monsieur là n'a cru que je riais de lui. </s>
 	<s id="2">Ah, ah, ah... </s>
@@ -836,7 +849,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Monsieur DE L'Étoile, Le Marquis, Le Baron.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Monsieur DE L'Étoile, Le Marquis, Le Baron.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Eh, cadedis, qu'est-ce que je vois ? </s>
@@ -935,8 +949,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Monsieur Floridor, Monsieur de L'Étoile, Le Baron, Le Marquis.</head> 
-<sp stage="serious" who="MONSIEUR FLORIDOR"><speaker>MONSIEUR FLORIDOR, d'un air froid et grave.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Monsieur Floridor, Monsieur de L'Étoile, Le Baron, Le Marquis. 
+</stage> 
+<sp who="MONSIEUR FLORIDOR"><speaker>MONSIEUR FLORIDOR</speaker><stage type="serious">, d'un air froid et grave.
+</stage>
 <p id="1">
 	<s id="1">Qu'est-ce ceci, Monsieur de l'Étoile ? </s>
 	<s id="2">On vient de me dire que vous ne voulez pas achever.</s>
@@ -1004,7 +1020,8 @@
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Mademoiselle de L'Étoile, Monsieur Floridor, Monsieur de L'Étoile, Le Baron, Le Marquis.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Mademoiselle de L'Étoile, Monsieur Floridor, Monsieur de L'Étoile, Le Baron, Le Marquis.
+</stage>
 <sp who="MADEMOISELLE DE L'ÉTOILE"><speaker>MADEMOISELLE DE L'ÉTOILE.</speaker>
 <p id="1">
 	<s id="1">Eh mon_Dieu ! </s>
@@ -1096,7 +1113,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Monsieur Floridor, Monsieur de L'Étoile, Mademoiselle de L'Étoile.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Monsieur Floridor, Monsieur de L'Étoile, Mademoiselle de L'Étoile.
+</stage>
 <sp who="MONSIEUR FLORIDOR"><speaker>MONSIEUR FLORIDOR.</speaker>
 <p id="1">
 	<s id="1">Songeons à disposer votre mari à sortir quand son tour viendra. </s>
@@ -1187,7 +1205,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Marote, Monsieur de L'Étoile, Mademoiselle de L'Étoile.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Marote, Monsieur de L'Étoile, Mademoiselle de L'Étoile.
+</stage>
 <sp who="MADEMOISELLE DE L'ÉTOILE"><speaker>MADEMOISELLE DE L'ÉTOILE.</speaker>
 <p id="1">
 	<s id="1">Eh ! </s>
@@ -1204,7 +1223,8 @@
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Monsieur Ménandre, Monsieur Duverger, Madame Luce, Marote, Monsieur Floridor.</head>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Monsieur Ménandre, Monsieur Duverger, Madame Luce, Marote, Monsieur Floridor.
+</stage>
 <sp who="MONSIEUR DUVERGER"><speaker>MONSIEUR DUVERGER.</speaker>
 <p id="1">
 	<s id="1">Eh ! </s>
@@ -1511,7 +1531,8 @@
 </p>	
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Monsieur de L'Étoile, Mademoiselle de L'Étoile, Monsieur Floridor.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Monsieur de L'Étoile, Mademoiselle de L'Étoile, Monsieur Floridor.
+</stage>
 <sp who="MONSIEUR FLORIDOR"><speaker>MONSIEUR FLORIDOR.</speaker>
 <p id="1">
 	<s id="1">Oh ! </s>
@@ -1550,7 +1571,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XVI. Monsieur Damis, Monsieur de L'Étoile, Monsieur Floridor, Mademoiselle de L'Étoile.</head>
+<div2 type="scene" n="14"><head>SCÈNE XVI.</head><stage> Monsieur Damis, Monsieur de L'Étoile, Monsieur Floridor, Mademoiselle de L'Étoile.
+</stage>
 <sp who="MONSIEUR DE L'ÉTOILE"><speaker>MONSIEUR DE L'ÉTOILE.</speaker>
 <p id="1">
 	<s id="1">Le voici, le pauvre_diable, il enrage aussi bien que moi.</s>
@@ -1624,7 +1646,8 @@
 </p> 
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVII. Monsieur Duverger, Monsieur Damis, Monsieur de L'Étoile, Monsieur Floridor, Mademoiselle de L'Étoile.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVII.</head><stage> Monsieur Duverger, Monsieur Damis, Monsieur de L'Étoile, Monsieur Floridor, Mademoiselle de L'Étoile.
+</stage>
 <sp who="MONSIEUR DUVERGER"><speaker>MONSIEUR DUVERGER.</speaker>
 <p id="1">
 	<s id="1">Nos Danseurs vont finir. </s>
@@ -1689,4 +1712,3 @@
 </body>
 </text>
 </TEI>
-

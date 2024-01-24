@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>vers</type>
 				<periode>1881-1890</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -27,28 +27,29 @@
 				<titlePart type="main">AUX AVANT-POSTES</titlePart>
 				<titlePart type="sub">COMÉDIE EN UN ACTE.</titlePart>
 			</docTitle> 
-			<docDate value='1883'>1883</docDate>
-			<docAuthor id='OHNET, Georges' bio='ohnet'>de Georges OHNET</docAuthor>
+			<docDate value="1883">1883</docDate>
+			<docAuthor id="OHNET, Georges" bio="ohnet">de Georges OHNET</docAuthor>
 			<docImprint>
-				<privilege id=''></privilege>
-				<imprimeur id=''></imprimeur>
-				<acheveImprime id=''></acheveImprime>
+				<privilege id=""/>
+				<imprimeur id=""/>
+				<acheveImprime id=""/>
 			</docImprint>
 			<performance>
-				<premiere date='1732' location='Château de Sceaux'>Représenté pour la première fois en 1732 dans un théâtre particulier.</premiere>
-			<recette value=''></recette>
+				<premiere date="1732" location="Château de Sceaux">Représenté pour la première fois en 1732 dans un théâtre particulier.</premiere>
+			<recette value=""/>
 			</performance>
 			<castList><head>PERSONNAGES</head>
-				<castItem><role id="DIANE DUCHESSE DE BLIGNY" sex="2" type="H" statut='armateur' age='A' stat_amour='néant'>DIANE DUCHESSE DE BLIGNY</role>, jeune veuve.</castItem>
-				<castItem><role id="GASTON DE BLIGNY" sex="1" type="H" statut='président' age='A' stat_amour='néant'>GASTON DE BLIGNY</role>, capitaine à Royal-Dragon.</castItem>
+				<castItem><role id="DIANE DUCHESSE DE BLIGNY" sex="2" type="H" statut="armateur" age="A" stat_amour="néant">DIANE DUCHESSE DE BLIGNY</role>, jeune veuve.</castItem>
+				<castItem><role id="GASTON DE BLIGNY" sex="1" type="H" statut="président" age="A" stat_amour="néant">GASTON DE BLIGNY</role>, capitaine à Royal-Dragon.</castItem>
 			</castList>
-		<set location='Fontenoy' country='Belgique' periode='XVIIIème' gps="(N/A)">La scène se passe au chapitre noble des Dames de Sainte-Croix, à Anthoin, la veille de la bataille de Fontenoy, 10 mai 1745.</set>
+		<set location="Fontenoy" country="Belgique" periode="XVIIIème" gps="(N/A)">La scène se passe au chapitre noble des Dames de Sainte-Croix, à Anthoin, la veille de la bataille de Fontenoy, 10 mai 1745.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>AUX AVANTS-POSTES</head>
 <stage type="decor">Le théâtre représente un salon. Au fond, une porte. A droite, un cabinet. À gauche, en pendant, la fenêtre. Sur un guéridon, un souper préparé.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="entrance" who="DIANE"><speaker>DIANE, elle entre par ie fond en costume de voyage, et parle à la cantonade.</speaker> 
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="entrance">, elle entre par ie fond en costume de voyage, et parle à la cantonade. 
+	</stage> 
 	<l id="1">Venez me prévenir sitôt que la voiture</l>
 	<l id="2" syll="6" part="i">Que j'attends sera là.</l>
 <stage type="location">En scène.</stage>
@@ -141,24 +142,28 @@
 	<l id="51">Cette voiture est lente à venir... Ah ! Je crois</l>
 	<l id="52">Qu'on m'appelle. j'entends marcher !... Et cette fois...</l>
 </sp>
-<sp who="UNE VOIX"><speaker>UNE VOIX, derrière la porte, avec l'accent de la terreur.</speaker>
+<sp who="UNE VOIX"><speaker>UNE VOIX</speaker><stage>, derrière la porte, avec l'accent de la terreur.
+	</stage>
 	<l id="53" syll="6" part="i">Madame la Duchesse !... Ah !</l>
 <stage type="noise">On entend un bruit confus qui se rapproche peu à peu.</stage>
 </sp>
-<sp stage="anxious" who="DIANE"><speaker>DIANE, inquiète.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="anxious">, inquiète.
+	</stage>
 	<l id="53" syll="6" part="f">Pourquoi ce cri d'alarmes ?...</l>
 <stage type="location">Elle va à la porte.</stage>
 	<l id="54">Quelle est cette rumeur subite ?... Et ce bruit d'armes ?...</l>
 	<l id="55" syll="8" part="i">Que se passe-t-il donc ici ?</l>
 <stage type="blow/light/hide/location">Elle souffle vivement les lumières et se cache dans le cabinet à droite.</stage>
 </sp>
-<sp stage="location" who="GASTON"><speaker>GASTON, dans la coulisse.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="location">, dans la coulisse.
+	</stage>
 	<l id="55" syll="4" part="f">Tenez-le bon !</l>
 	<l id="56">Muselez-le, s'il crie, avec un fort bâillon...</l>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone" who="GASTON"><speaker>GASTON, seul. il entre, un large manteau sur les épaules, tenant de la main droite un pistolet, et de la gauche une lanterne de voiture avec laquelle il s'éclaire. Son sabre traîne.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="alone">, seul. il entre, un large manteau sur les épaules, tenant de la main droite un pistolet, et de la gauche une lanterne de voiture avec laquelle il s'éclaire. Son sabre traîne.
+	</stage>
 	<l id="57">Personne !... La maison est tout à fait déserte !</l>
 <stage type="open/toward">Il ouvre la fenêtre et parle et la cantonade.</stage>
 	<l id="58">Dragons, vous malmenez ce drôle en pure perte,</l>
@@ -182,34 +187,40 @@
 <stage type="get/pull">Il reprend ton pistolet, conrt au cabinet, en tire Diane par le bras sans la regarder.</stage>
 	<l id="73" syll="6" part="i">Un geste et je tue !...</l>
 </sp>
-<sp stage="frighten" who="DIANE"><speaker>DIANE, épouvantée.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="frighten">, épouvantée.
+	</stage>
 	<l id="73" syll="3" part="m">Ah !... Par grâce...</l>
 </sp>
-<sp stage="estonish" who="GASTON"><speaker>GASTON, étonné.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="estonish">, étonné.
+	</stage>
 	<l id="73" syll="3" part="f">Une femme !</l>
 	<l id="74">Deux couverts à la table... Eh ! Je crois, sur mon âme,</l>
 	<l id="75">Que je viens de troubler un rendez-vous galant !</l>
 	<l id="76">Pardieu ! C'est l'amoureux qu'il me faut maintenant</l>
 </sp>
-<sp stage="proud" who="DIANE"><speaker>DIANE, se remettant et avec dignité.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="proud">, se remettant et avec dignité.
+	</stage>
 	<l id="77">Vous vous trompez, monsieur, je suis seule. et Française!</l>
 	<l id="78">Éloignez vos soupçons. Il n'est rien qui me plaise</l>
 	<l id="79">Plus que votre présence. Et contre le danger</l>
 	<l id="80">Vous allez, en restant ici, me protéger.</l>
 </sp>
-<sp stage="respect" who="GASTON"><speaker>GASTON, avec beaucoup de respect.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="respect">, avec beaucoup de respect.
+	</stage>
 	<l id="81">Madame, j'obéis, ne soyez plus en peine</l>
 	<l id="82">Excusez-moi, je suis un simple capitaine,</l>
 	<l id="83">Qui prépare, en faisant ce soir un coup de main,</l>
 	<l id="84">La part qu'il devra prendre au combat de demain.</l>
 </sp>
-<sp stage="frighten" who="DIANE"><speaker>DIANE, effrayée.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="frighten">, effrayée.
+	</stage>
 	<l id="85">Quoi ! La bataille est-elle à ce point imminente ?...</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
 	<l id="86" syll="3" part="i">Oui, Madame.</l>
 </sp>
-<sp stage="aparte" who="DIANE"><speaker>DIANE, a part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte">, a part.
+	</stage>
 	<l id="86" syll="9" part="f">Mon_Dieu ! Que la voiture est lente !</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -218,17 +229,20 @@
 	<l id="89" syll="4" part="i">Je me retire...</l>
 <stage type="away">Il fait uue fausse sortie.</stage>
 </sp>
-<sp stage="stop" who="DIANE"><speaker>DIANE, l'arrêtant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="89" syll="8" part="f">Non ! Monsieur, c'est inutile !...</l>
 	<l id="90">Dans un instant, je vais partir, gagner la ville.</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
 	<l id="91">Quoi ! Vraiment, cette nuit et sans avoir soupé ?</l>
 </sp>
-<sp stage="smile" who="DIANE"><speaker>DIANE, souriant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="92">Je n'ai plus d'appétit, la peur me l'a coupé.</l>
 </sp>
-<sp stage="lost" who="GASTON"><speaker>GASTON, étourdiment.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="lost">, étourdiment.
+	</stage>
 	<l id="93" syll="6" part="i">Vous êtes bien heureuse !...</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -236,14 +250,16 @@
 	<l id="94">Vous n'avez pas, Monsieur, mes motifs d'abstinence,</l>
 	<l id="95" syll="3" part="i">Et peut-être.</l>
 </sp>
-<sp stage="smile" who="GASTON"><speaker>GASTON, souriant.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="95" syll="6" part="m">Oh ! Peut-être est de trop !</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="95" syll="3" part="f">À mon tour...</l>
 	<l id="96" syll="4" part="i">Excusez-moi...</l>
 </sp>
-<sp stage="happy" who="GASTON"><speaker>GASTON, gaiment.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="happy">, gaiment.
+	</stage>
 	<l id="96" syll="8" part="f">J'y suis tout prêt !... Mais en retour,</l>
 	<l id="97">Ma satisfaction s'en trouvera complète,</l>
 	<l id="98" syll="6" part="i">Faites-moi la faveur...</l>
@@ -251,21 +267,25 @@
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="98" syll="1" part="m">De ?</l>
 </sp>
-<sp stage="hesiatate" who="GASTON"><speaker>GASTON, avec hésitation.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="hesiatate">, avec hésitation.
+	</stage>
 	<l id="98" syll="5" part="f">De me tenir tête !...</l>
 <stage type="quick">Vivement.</stage>
 	<l id="99" syll="6" part="i">Ne fût-ce qu'un instant !</l>
 </sp>
-<sp stage="" who="DIANE"><speaker>DIANE, interdite.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="">, interdite.
+	</stage>
 	<l id="99" syll="2" part="m">Monsieur...</l>
 </sp>
-<sp stage="sweet" who="GASTON"><speaker>GASTON, gracieusement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="sweet">, gracieusement.
+	</stage>
 	<l id="99" syll="4" part="f">Vous fais-je peur ?</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="100" syll="2" part="i">Non certes !</l>
 </sp>
-<sp stage="happy" who="GASTON"><speaker>GASTON, joyeusement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="happy">, joyeusement.
+	</stage>
 	<l id="100" syll="10" part="f">Aux avant-postes !... Point de censeur !</l>
 	<l id="101">Point d'indiscrets ! Laissez-moi mon rêve d'une heure,</l>
 	<l id="102">Ne me refusez pas ?... Puisqu'en cette demeure,</l>
@@ -276,14 +296,16 @@
 	<l id="107">Laissez-moi, jouissant de cet heureux hasard,</l>
 	<l id="108">Satisfaire à la fois ma bouche et mon regard !</l>
 </sp>
-<sp stage="aparte" who="DIANE"><speaker>DIANE, à part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="109">Après tout, je le dois, puisqu'il est mon convive...</l>
 <stage type="loud">Haut.</stage>
 	<l id="110" syll="2" part="i">Soit donc !</l>
 <stage type="aparte">À part.</stage>
 	<l id="110" syll="10" part="f">En attendant que la voiture arrive !</l>
 </sp>
-<sp stage="sweet" who="GASTON"><speaker>GASTON, doucement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="sweet">, doucement.
+	</stage>
 	<l id="111">À la fin du souper, si je vous fais la cour,</l>
 	<l id="112">Ne vous offensez pas de mes propos d'amour,</l>
 	<l id="113">Peut-être que demain, une balle ennemie</l>
@@ -298,7 +320,8 @@
 	<l id="118">Ce qui m'est arrivé ce soir est de nature</l>
 	<l id="119">À faire regretter la vie amèrement...</l>
 </sp>
-<sp stage="show" who="DIANE"><speaker>DIANE, le menaçant du doigt en souriant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="show">, le menaçant du doigt en souriant.
+	</stage>
 	<l id="120">Ah Nous ne sommes pas même au commencement.</l>
 	<l id="121" syll="6" part="i">Du souper, et déjà...</l>
 </sp>
@@ -312,7 +335,8 @@
 	<l id="125">Un peu, de grâce,... pour compléter la partie...</l>
 	<l id="126">Sans cela vous allez troubler ma modestie...</l>
 </sp>
-<sp stage="give" who="DIANE"><speaker>DIANE, tendant son assiette.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="give">, tendant son assiette.
+	</stage>
 	<l id="127" syll="2" part="i">Allons !</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -326,28 +350,33 @@
 <stage type="stand/closer/dress">Il se lève, s'approche et lui enlève son chapeau.</stage>
 	<l id="131" syll="8" part="f">Souffrant... C'est fait ! Il est ôté !</l>
 </sp>
-<sp stage="smile" who="DIANE"><speaker>DIANE, souriant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="smile">, souriant.
+	</stage>
 	<l id="132" syll="6" part="i">La bonne camériste !</l>
 </sp>
-<sp stage="stand" who="GASTON"><speaker>GASTON, debout.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="stand">, debout.
+	</stage>
 	<l id="132" syll="6" part="f">Oh ! Quelle obscruité !</l>
 	<l id="133" syll="6" part="i">Ne vous semble-t-il pas ?...</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="133" syll="6" part="f">Vraiment, cela vous gène ?</l>
 </sp>
-<sp strage="serious" who="GASTON"><speaker>GASTON, très sérieusement.</speaker>
+<sp strage="serious" who="GASTON"><speaker>GASTON</speaker><stage>, très sérieusement.
+	</stage>
 	<l id="134" syll="3" part="i">Pour vous voir.</l>
 <stage type="light">Il allume les candélabres.</stage>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="134" syll="6" part="f">Pour si peu vous prenez tant de peine ?</l>
 </sp>
-<sp who="GASTON"><speaker>GASTON, très sérieusement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage>, très sérieusement.
+	</stage>
 	<l id="135">Mais j'irais détacher pour voir votre beauté</l>
 	<l id="136">Les étoiles d'argent de ce pur ciel d'été !</l>
 </sp>
-<sp stage="threat" who="DIANE"><speaker>DIANE, le menaçant da doigt.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="threat">, le menaçant da doigt.
+	</stage>
 	<l id="137" syll="9" part="i">Ah ! Nous ne sommes pas à la fin...</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -367,23 +396,27 @@
 	<l id="148">Juger quel est le goût, et quel est le savoir.</l>
 <stage type="open">[Il] débouche.</stage>
 </sp>
-<sp stage="estonish" who="DIANE"><speaker>DIANE, étonnée.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="estonish">, étonnée.
+	</stage>
 	<l id="149">Un châtelain, Monsieur, quelle erreur est la vôtre ?</l>
 	<l id="150">Cette grave demeure où vous êtes, n'est autre</l>
 	<l id="151">Qu'une sainte abbaye, un tranquille couvent !</l>
 </sp>
-<sp stage="calm/open" who="GASTON"><speaker>GASTON, avec calme. Ôtant un bouchon.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="calm/open">, avec calme. Ôtant un bouchon.
+	</stage>
 	<l id="152">En vérité ! Ma foi, l'on m'a conté souvent</l>
 	<l id="153">Que dans tous les couvents la cave est sans pareille.</l>
 	<l id="154">Nous allons en juger, cela tombe à merveille !</l>
 </sp>
-<sp stage="aparte" who="DIANE"><speaker>DIANE, à part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="155">Si ma tante l'abbesse à l'esprit pudibond</l>
 <note type="L">Dragon : Dans l'ancienne armée, nom d'une cavalerie légère qui combattait tantôt  cheval, et tantôt à pied. [L]</note>
 	<l id="156">Me voyait attablée en face d'un dragon...</l>
 	<l id="157" syll="6" part="i">Quels bras au ciel !</l>
 </sp>
-<sp who="GASTON"><speaker>GASTON, versant le vin.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage>, versant le vin.
+	</stage>
 	<l id="157" syll="6" part="f">Sur moi, ne soyez pas en reste ?...</l>
 	<l id="158" syll="6" part="i">Vous direz votre avis...</l>
 <stage type="drink">Il goûte.</stage>
@@ -392,10 +425,12 @@
 <stage type="toward">À Diane.</stage>
 	<l id="160">Une dernière grâce, et faites-moi raison ?</l>
 </sp>
-<sp stage="show" who="DIANE"><speaker>DIANE, levant son verre.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="show">, levant son verre.
+	</stage>
 	<l id="161">Monsieur, je suis Française, et bois à la victoire !</l>
 </sp>
-<sp stage="together" who="DIANE et GASTON"><speaker>DIANE et GASTON, se levant ensemble.</speaker>
+<sp who="DIANE et GASTON"><speaker>DIANE et GASTON</speaker><stage type="together">, se levant ensemble.
+	</stage>
 	<l id="162" syll="4" part="i">À la victoire !</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -409,10 +444,12 @@
 	<l id="164">Mais, pardieu, nous vaincrons ! Et je veux revenir</l>
 	<l id="165">Porter au sommelier mon compliment sincère !</l>
 </sp>
-<sp stage="laugh" who="DIANE"><speaker>DIANE, riant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="166" syll="8" part="i">Et si vous rencontrez l'abbesse ?</l>
 </sp>
-<sp stage="anxious" who="GASTON"><speaker>GASTON, avec inquiétude.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="anxious">, avec inquiétude.
+	</stage>
 	<l id="166" syll="4" part="f">Elle est sévère ?</l>
 	<l id="167">Bah ! Demain j'aurai vu des chocs plus sérieux !</l>
 	<l id="168">Et si l'abbesse veut me faire les gros yeux...</l>
@@ -420,11 +457,13 @@
 	<l id="170">Et pour peu qu'elle soit jeune et surtout jolie</l>
 	<l id="171" syll="6" part="i">Comme vous... Je l'enlève !</l>
 </sp>
-<sp stage="laugh" who="DIANE"><speaker>DIANE, éclatant de rire.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="laugh">, éclatant de rire.
+	</stage>
 	<l id="171" syll="6" part="f">Ah ! ah ! ah ! Juste ciel !</l>
 	<l id="172">Enlever noble dame Agathe de Mériel !...</l>
 </sp>
-<sp stage="estonish" who="GASTON"><speaker>GASTON, étonné.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="estonish">, étonné.
+	</stage>
 	<l id="173" syll="6" part="i">Madame de Mériel ?</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -441,18 +480,22 @@
 	<l id="174" syll="3" part="f">Par ma tante !...</l>
 	<l id="175">Vraiment, c'est curieux ! Je suis chez elle ici ?</l>
 </sp>
-<sp stage="anxious" who="DIANE"><speaker>DIANE, soucieuse.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="anxious">, soucieuse.
+	</stage>
 	<l id="176" syll="3" part="i">Votre tante ?</l>
 </sp>
-<sp stage="happy" who="GASTON"><speaker>GASTON, gaiment.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="happy">, gaiment.
+	</stage>
 	<l id="176" syll="9" part="f">Sans doute ! Une Mériel aussi,</l>
 	<l id="177">De l'autre branche... et qui n'est pas octogénaire,</l>
 	<l id="178">Car elle a dix-neuf ans cette tante bien chère !</l>
 </sp>
-<sp stage="embarrassed" who="DIANE"><speaker>DIANE, troublée.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="embarrassed">, troublée.
+	</stage>
 	<l id="179">Bien chère ?... Vous l'aimez, je le vois, de tout coeur ?</l>
 </sp>
-<sp stage="lost" who="GASTON"><speaker>GASTON, étourdiment.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="lost">, étourdiment.
+	</stage>
 	<l id="180">Je ne la connais pas ! Quand mon oncle eut l'honneur</l>
 	<l id="181">De greffer cette fleur sur notre souche antique,</l>
 	<l id="182">Je me battais, en Flandre... Elle, à la Martinique</l>
@@ -461,7 +504,8 @@
 	<l id="185">Je dis qu'elle m'est chère... en ce qu'elle me coûte</l>
 	<l id="186" syll="6" part="i">Cent mille écus de rente !...</l>
 </sp>
-<sp stage="stress" who="DIANE"><speaker>DIANE, avec effort.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="stress">, avec effort.
+	</stage>
 	<l id="186" syll="4" part="m">En vérité ?</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -472,68 +516,83 @@
 	<l id="190">Et demain, voyez-vous, ou j'aurai rendu l'âme,</l>
 	<l id="191" syll="6" part="i">Ou serai colonel !</l>
 </sp>
-<sp stage="aparte" who="DIANE"><speaker>DIANE, à part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="191" syll="6" part="f">Que mon coeur est troublé !</l>
 </sp>
-<sp stage="sweet" who="GASTON"><speaker>GASTON, doucement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="sweet">, doucement.
+	</stage>
 	<l id="192">Mais vous ne mangez plus ?... J'aurais bien appelé</l>
 	<l id="193">Un dragon pour servir, mais je me faisais fête</l>
 	<l id="194">De vous rendre ces soins, moi-même, en tête-à-tête.</l>
 </sp>
-<sp who="DIANE"><speaker>DIANE, après nn temps.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage>, après nn temps.
+	</stage>
 	<l id="195">Donc, vous êtes, Monsieur, le marquis de Btigny?.</l>
 </sp>
-<sp stage="laugh" who="GASTON"><speaker>GASTON, riant.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="196" syll="9" part="i">En personne ! Un illustre inconnu !</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="196" syll="3" part="f">Que nenni !</l>
 </sp>
-<sp stage="surprise" who="GASTON"><speaker>GASTON, surpris.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="surprise">, surpris.
+	</stage>
 	<l id="197" syll="6" part="i">Quoi ! Vous me connaissez ?</l>
 </sp>
-<sp stage="serious" who="DIANE"><speaker>DIANE, sérieuse.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="serious">, sérieuse.
+	</stage>
 	<l id="197" syll="6" part="f">Beaucoup !... De renommée !...</l>
 </sp>
-<sp stage="anxious" who="GASTON"><speaker>GASTON, inquiet.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="anxious">, inquiet.
+	</stage>
 	<l id="198" syll="3" part="i">Par qui faite.</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="198" syll="9" part="f">Une amie intime et très aimée.</l>
 	<l id="199" syll="6" part="i">Armande de Beauval...</l>
 </sp>
-<sp stage="happy" who="GASTON"><speaker>GASTON, gaiement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="happy">, gaiement.
+	</stage>
 	<l id="199" syll="6" part="f">Armande ? Pauvre enfant !</l>
 	<l id="200">Donnée en mariage à ce vieux Vilmorant,</l>
 	<l id="201">Un maître sot, doublé d'un intraitable avare...</l>
 	<l id="202">Vilain ! L'air d'un vieux bouc !... Et j'ai, mérite rare,</l>
 	<l id="203" syll="6" part="i">Parfait la ressemblance !...</l>
 </sp>
-<sp stage="hide/laugh" who="DIANE"><speaker>DIANE, baissant la tête pour rire.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="hide/laugh">, baissant la tête pour rire.
+	</stage>
 	<l id="203" syll="1" part="m">Oh !</l>
 </sp>
-<sp stage="quick" who="GASTON"><speaker>GASTON, vivement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="203" syll="5" part="f">Vous avez raison !</l>
 	<l id="204">Je m'égare, et vous traite un peu trop en garçon.</l>
 </sp>
-<sp stage="curious" who="DIANE"><speaker>DIANE, avec curiosité.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="curious">, avec curiosité.
+	</stage>
 	<l id="205">Aux avant-postes ! Bah ! Vous êtes excusable !</l>
 	<l id="206" syll="3" part="i">Alors ?...</l>
 </sp>
-<sp stage="confuse" who="GASTON"><speaker>GASTON, avec une confusion feinte.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="confuse">, avec une confusion feinte.
+	</stage>
 	<l id="206" syll="9" part="f">Eh bien !... Oui !... Mais le plus invraisemblable.</l>
 </sp>
-<sp stage="laugh" who="DIANE"><speaker>DIANE, riant.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="207" syll="6" part="i">Vous lui fûtes fidéle ?</l>
 </sp>
-<sp stage="think" who="GASTON"><speaker>GASTON, étourdiment.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="think">, étourdiment.
+	</stage>
 	<l id="207" syll="6" part="f">Oh non !... quand je dis non !...</l>
 	<l id="208" syll="6" part="i">J'ai tort... et cependant....</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="208" syll="6" part="f">Quelle confusion !</l>
 </sp>
-<sp stage="serious" who="GASTON"><speaker>GASTON, plus sérieux.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="serious">, plus sérieux.
+	</stage>
 	<l id="209">Vous allez me comprendre. Il faut d'abord vous dire,</l>
 	<l id="210">Que si je ne suis pas, devant votre sourire,</l>
 	<l id="211">Devenu fou de vous, c'est qu'il est en mon coeur</l>
@@ -558,11 +617,13 @@
 <sp who="DIANE"><speaker>DIANE.</speaker>
 	<l id="227" syll="6" part="i">Vous n'êtes pas aimé ?</l>
 </sp>
-<sp stage="smile/sad" who="GASTON"><speaker>GASTON, avec un sourire triste.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="smile/sad">, avec un sourire triste.
+	</stage>
 	<l id="227" syll="6" part="f">J'ose à peine avouer</l>
 	<l id="228">La vérité. J'ai l'air de vouloir me jouer...</l>
 </sp>
-<sp stage="curious" who="DIANE"><speaker>DIANE, avec intérêt.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="curious">, avec intérêt.
+	</stage>
 	<l id="229" syll="2" part="i">Dites...</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -571,7 +632,8 @@
 	<l id="231">Et quand je dis j'ai vu... Je me vante et j'ai tort,</l>
 	<l id="232" syll="6" part="i">Car elle était masquée !</l>
 </sp>
-<sp stage="frighten/aparte" who="DIANE"><speaker>DIANE, avec un tressaillement. À part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="frighten/aparte">, avec un tressaillement. À part.
+	</stage>
 	<l id="232" syll="2" part="m">Oh ! Ciel !</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -602,21 +664,24 @@
 	<l id="251">Et dans les fleurs, au bruit des danses, je la vois</l>
 	<l id="252">Pour la première, hélas, et la dernière fois !</l>
 </sp>
-<sp stage="aparte/stress" who="DIANE"><speaker>DIANE, à part, avec une vive émotion.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte/stress">, à part, avec une vive émotion.
+	</stage>
 	<l id="253">Plus de doute ! C'est lui ! Dieu ! S'il allait apprendre...</l>
 	<l id="254" syll="6" part="i">Exalté comme il l'est !..</l>
 <stage type="listen">Écoutant et allant à la fenêtre.</stage>
 	<l id="254" syll="6" part="f">Enfin ! Je crois entendre</l>
 	<l id="255" syll="5" part="i">Une voiture...</l>
 </sp>
-<sp stage="estonish" who="GASTON"><speaker>GASTON, étonné.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="estonish">, étonné.
+	</stage>
 	<l id="255" syll="7" part="f">Vous me faites souvenir...</l>
 	<l id="256">Quand nous sommes entrés, nous avons vu venir</l>
 	<l id="257">Une berline vide... étroitement fermée...</l>
 	<l id="258">J'ai même pris en main sa lanterne allumée,</l>
 	<l id="259">Afin de m'éclairer dans ce logis obscur...</l>
 </sp>
-<sp stage="anxious" who="DIANE"><speaker>DIANE, avec inquiétude.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="anxious">, avec inquiétude.
+	</stage>
 	<l id="260" syll="9" part="i">Ah mon_Dieu !... Mais est-elle encore là ?</l>
 </sp>
 <sp who="GASTON"><speaker>GASTON.</speaker>
@@ -634,7 +699,8 @@
 	<l id="264" syll="6" part="i">Quel contre-temps fàcheux !</l>
 <stage type="dress">Elle remet son chapeau.</stage>
 </sp>
-<sp stage="surpise" who="GASTON"><speaker>GASTON, avec surprise.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="surpise">, avec surprise.
+	</stage>
 	<l id="264" syll="3" part="m">Vous partez ?</l>
 </sp>
 <sp who="DIANE"><speaker>DIANE.</speaker>
@@ -647,28 +713,35 @@
 	<l id="267">Vous risquez de tomber aux mains des ennemis.</l>
 	<l id="268" syll="2" part="i">Restez !</l>
 </sp>
-<sp stage="strong" who="DIANE"><speaker>DIANE, avec fermeté.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="strong">, avec fermeté.
+	</stage>
 	<l id="268" syll="10" part="f">Je dois partir, monsieur, je l'ai promis !</l>
 </sp>
-<sp who="GASTON"><speaker>GASTON, s'inclinant.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage>, s'inclinant.
+	</stage>
 	<l id="269">Soit ! Mais au moins souffrez que je vous reconduise.</l>
 </sp>
-<sp stage="quick" who="DIANE"><speaker>DIANE, vivement.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="270" syll="6" part="i">Non certes !</l>
 <stage type="aparte">À part.</stage>
 	<l id="270" syll="9" part="f">De mes gens je crains quelque sottise.</l>
 </sp>
-<sp stage="touch/touch" who="GASTON"><speaker>GASTON, ému lui tendant la main.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="touch/touch">, ému lui tendant la main.
+	</stage>
 	<l id="271">Adieu ! Le souvenir de ces instants trop courts,</l>
 	<l id="272">Est, croyez-le, gravé dans mon coeur pour toujours.</l>
 </sp>
-<sp stage="aparte/stress" who="DIANE"><speaker>DIANE, à part, s'arrêtant très émue.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte/stress">, à part, s'arrêtant très émue.
+	</stage>
 	<l id="273">Ah ! Le quitter ainsi, lorsque la mort, peut-être...</l>
 </sp>
-<sp stage="hesitate" who="GASTON"><speaker>GASTON, la voyant hésiter.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="hesitate">, la voyant hésiter.
+	</stage>
 	<l id="274" syll="2" part="i">Restez !</l>
 </sp>
-<sp stage="strong/aparte" who="DIANE"><speaker>DIANE, avec force, à part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="strong/aparte">, avec force, à part.
+	</stage>
 	<l id="274" syll="10" part="f">Mon lâche coeur ne sera pas le maître !...</l>
 <stage type="loud">Haut.</stage>
 	<l id="275" syll="2" part="i">Adieu !</l>
@@ -676,7 +749,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone/silence/sad" who="GASTON"><speaker>GASTON, seul. Il reste un instant silencieux, puis avec tristesse.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="alone/silence/sad">, seul. Il reste un instant silencieux, puis avec tristesse.
+	</stage>
 	<l id="275" syll="10" part="f">Me voilà seul ! C'est bizarre, vraiment,</l>
 	<l id="276">Mais je viens d'éprouver comme un déchirement</l>
 	<l id="277">En la voyant partir si vite ! Ah ! Tête folle !</l>
@@ -755,7 +829,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="DIANE"><speaker>DIANE, entrant par la porte de gauche ; elle tombe éperdue sur un siège.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage>, entrant par la porte de gauche ; elle tombe éperdue sur un siège.
+	</stage>
 	<l id="317">On se bat ! Il me semble en sinistres rafales</l>
 	<l id="318">Entendre à mon oreille encore siffler les balles...</l>
 	<l id="319" syll="9" part="i">Que je viens d'avoir peur, mon_Dieu !...</l>
@@ -779,7 +854,8 @@
 	<l id="330" syll="6" part="f">Folle ! Je tremble encore !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Diane, Gaston, entrant vivement.	</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Diane, Gaston, entrant vivement.	
+</stage>
 <sp who="GASTON"><speaker>GASTON.</speaker>
 	<l id="331" syll="3" part="i">Fausse alerte.</l>
 <stage type="watch/aparte">Il la voit, à part.</stage>
@@ -787,15 +863,18 @@
 <stage type="loud">Haut.</stage>
 	<l id="331" syll="3" part="m">Vous madame !</l>
 </sp>
-<sp stage="aparte" who="DIANE"><speaker>DIANE, à part.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="331" syll="4" part="f">Il s'est troublé.</l>
 	<l id="332">Il est devenu pâle, et sa voix a tremblé !</l>
 </sp>
-<sp stage="watch/sweet" who="GASTON"><speaker>GASTON, la dévorant des yeux. - Doucement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="watch/sweet">, la dévorant des yeux. - Doucement.
+	</stage>
 	<l id="333">Eh bien ! Vous le voyez, mon conseil était sage,</l>
 	<l id="334">Et vous n'avez pas pu découvrir un passage.</l>
 </sp>
-<sp stage="frighten/quick" who="DIANE"><speaker>DIANE, pour se donner une contenance assurée, parlant vite.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="frighten/quick">, pour se donner une contenance assurée, parlant vite.
+	</stage>
 	<l id="335">Nous venions de partir, et nous allions grand train,</l>
 	<l id="336">Je l'avais ordonné, pour gagner du terrain...</l>
 	<l id="337">Quand un gros d'éctaireurs accourt et nous arrête...</l>
@@ -822,7 +901,8 @@
 <stage type="wave">Diane fait un mouvement.</stage>
 	<l id="351">Ne vous éloignez pas, madame, par pitié !...</l>
 </sp>
-<sp stage="serious" who="DIANE"><speaker>DIANE, gravement.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="serious">, gravement.
+	</stage>
 	<l id="352">Je vous ai témoigné de la franche amitié...</l>
 	<l id="353">Parce que, malgré moi, je me trouve recluse,</l>
 	<l id="354">En abuserez-vous ? Vous seriez sans excuse !</l>
@@ -841,10 +921,12 @@
 	<l id="365">Et voyant tout glacé comme un foyer sous flamme,</l>
 	<l id="366">J'ai compris qu'avec vous vous emportiez mon âme...</l>
 </sp>
-<sp stage="touch" who="DIANE"><speaker>DIANE, très émue.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="touch">, très émue.
+	</stage>
 	<l id="367" syll="3" part="i">Taisez-vous!</l>
 </sp>
-<sp stage="closer" who="GASTON"><speaker>GASTON, se rapprochant.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="closer">, se rapprochant.
+	</stage>
 	<l id="367" syll="9" part="f">Attristé de mon rêve perdu</l>
 	<l id="368">Je reviens... Je vous vois ! Mon bonheur m'est rendu !</l>
 	<l id="369">C'est bien vous ! Et fermant les yeux, je puis entendre</l>
@@ -862,7 +944,8 @@
 	<l id="379">À vos pieds, tout l'amour en mon coeur enfermé...</l>
 	<l id="380">Laissez-moi me bercer de l'espoir d'être aimé !</l>
 </sp>
-<sp stage="give" who="DIANE"><speaker>DIANE, lui abandonnant ses mains.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="give">, lui abandonnant ses mains.
+	</stage>
 	<l id="381">Mon_Dieu ! Sa douce voix me pénètre et m'enchante,</l>
 	<l id="382">Et j'entends dans mon coeur ma jeunesse qui chante,</l>
 	<l id="383">Comme un oiseau des cieux qui fête le printemps,</l>
@@ -873,7 +956,8 @@
 	<l id="388">Soyez heureux ! Je m'en remets à votre honneur !</l>
 <stage type="turn/embarrassed">Elle se détourne en rougissant.</stage>
 </sp>
-<sp stage="enthousiasm" who="GASTON"><speaker>GASTON, transporté. Doucement.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="enthousiasm">, transporté. Doucement.
+	</stage>
 	<l id="389">Ah ! Ne rougissez pas ! Vous n'avez rien à craindre,</l>
 	<l id="390">Il suffirait d'un mot de vous pour me contraindre</l>
 	<l id="391">Moi, dont l'unique joie est de vous adorer</l>
@@ -894,7 +978,8 @@
 	<l id="402">Mon bon ange étendra ses ailes invisibles</l>
 	<l id="403">Sur mon front, si pour moi vous implorez les cieux.</l>
 </sp>
-<sp stage="give" who="DIANE"><speaker>DIANE, lui tendant les fleurs fanées.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="give">, lui tendant les fleurs fanées.
+	</stage>
 	<l id="404">Reprenez ce bouquet fané, si précieux !</l>
 	<l id="405">'De mon sincère amour pour vous qu'il soit le gage...</l>
 </sp>
@@ -903,10 +988,12 @@
 	<l id="407">À vous le rapporter intact et glorieux !</l>
 <stage type="listen">On entend le canon au loin.</stage>
 </sp>
-<sp stage="frighten" who="DIANE"><speaker>DIANE, avec effroi.</speaker>
+<sp who="DIANE"><speaker>DIANE</speaker><stage type="frighten">, avec effroi.
+	</stage>
 	<l id="408" syll="2" part="i">Mon_Dieu !</l>
 </sp>
-<sp stage="open/light" who="GASTON"><speaker>GASTON, ouvrant la fenêtre, le jour paraît.</speaker>
+<sp who="GASTON"><speaker>GASTON</speaker><stage type="open/light">, ouvrant la fenêtre, le jour paraît.
+	</stage>
 	<l id="408" syll="10" part="f">C'est le canon qui tonne furieux...</l>
 	<l id="409" syll="6" part="i">C'est l'appel du combat !</l>
 </sp>

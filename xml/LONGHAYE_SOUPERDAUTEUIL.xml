@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>LE SOUPER D'AUTEUIL, COMÉDIE.</title>
-			<author born='1839' born_location='' death='1920' death_location='' academie=''>LONGHAYE, Georges</author>
+			<author born="1839" born_location="" death="1920" death_location="" academie="">LONGHAYE, Georges</author>
 		</titleStmt>
 		<publicationStmt>
 			<publisher>publié par Paul FIEVRE Avril 2017</publisher>
@@ -27,27 +27,29 @@
 			<titlePart type="main">LE SOUPER D'AUTEUIL</titlePart>
 			<titlePart type="sub">EN UN ACTE ET EN VERS.</titlePart>
 		</docTitle> 
-		<docDate value='1879'>1879</docDate>
-		<docAuthor id='LONGHAYE, Georges'></docAuthor>
+		<docDate value="1879">1879</docDate>
+		<docAuthor id="LONGHAYE, Georges"/>
 		<docImprint>
-			<printer id='MEM'>TOURS, ALFRED MAME ET FILS, ÉDITEURS</printer>
+			<printer id="MEM">TOURS, ALFRED MAME ET FILS, ÉDITEURS</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MOLIÈRE" sex="1" type="H" statut='comédien' age='A' stat_amour='néant'>J.-B. POQUELIN DE MOLIÈRE</role>, valet de chambre tapissier, comédien du roi.</castItem>
-		<castItem><role id="MAUVILLAIN" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>ARMAND DE MAUVILLAIN</role>, doyen de la faculté de médecine.</castItem>
-		<castItem><role id="BOILEAU" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>BOILEAU DESPRÉAUX</role>.</castItem>
-		<castItem><role id="LA FONTAINE" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>JEAN DE LA FONTAINE</role>, homme de lettres.</castItem>
-		<castItem><role id="CHAPELLE" sex="1" type="H" statut='écrivain' age='A' stat_amour='néant'>CLAUDE-EMMANUEL CHAPELLE</role>, homme de lettres.</castItem>
-		<castItem><role id="LULLI" sex="1" type="H" statut='musicien' age='A' stat_amour='néant'>JEAN-BAPTISTE LULLI</role>, maître de la musique du roi.</castItem>
-		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut='laquais' age='A' stat_amour='néant'>UN LAQUAIS</role>.</castItem>
+		<castItem><role id="MOLIÈRE" sex="1" type="H" statut="comédien" age="A" stat_amour="néant">J.-B. POQUELIN DE MOLIÈRE</role>, valet de chambre tapissier, comédien du roi.</castItem>
+		<castItem><role id="MAUVILLAIN" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">ARMAND DE MAUVILLAIN</role>, doyen de la faculté de médecine.</castItem>
+		<castItem><role id="BOILEAU" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">BOILEAU DESPRÉAUX</role>.</castItem>
+		<castItem><role id="LA FONTAINE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">JEAN DE LA FONTAINE</role>, homme de lettres.</castItem>
+		<castItem><role id="CHAPELLE" sex="1" type="H" statut="écrivain" age="A" stat_amour="néant">CLAUDE-EMMANUEL CHAPELLE</role>, homme de lettres.</castItem>
+		<castItem><role id="LULLI" sex="1" type="H" statut="musicien" age="A" stat_amour="néant">JEAN-BAPTISTE LULLI</role>, maître de la musique du roi.</castItem>
+		<castItem><role id="UN LAQUAIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">UN LAQUAIS</role>.</castItem>
     </castList>
 <set location="Auteuil" country="France" periode="XVIIème" gps="48.849055, 2.266300">La scène se passe à Auteuil, dans une maison de campagne louée par Molière. Vers 1670.</set>
 <note>Extrait de "Théâtre chrétien" par le R.P.G. LONGHAYE. pp. 317-349</note>
 </front> 
 <body>
 <div1 type="act" n="1"><head>LE SOUPER D'AUTEUIL</head>
-<div2 type="scene" n="1"><head>SCENE I. Molière, Boileau, Mauvillain, La Fontaine, Chapelle.</head>
-<sp stage="read" who="BOILEAU"><speaker>BOILEAU, lisant.</speaker>
+<div2 type="scene" n="1"><head>SCENE I.</head><stage> Molière, Boileau, Mauvillain, La Fontaine, Chapelle.
+</stage>
+<sp who="BOILEAU"><speaker>BOILEAU</speaker><stage type="read">, lisant.
+	</stage>
 	<l id="1">« Voilà l'homme en effet : il va du blanc au noir,</l>
 	<l id="2">« Il condamne au matin ses sentiments du soir ;</l>
 	<l id="3">« Importun à tout autre, à soi-même incommode,</l>
@@ -100,7 +102,8 @@
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="15" syll="4" part="i">Par Apollon... !</l>
 </sp>
-<sp stage="carry" who="CHAPELLE"><speaker>CHAPELLE, apportant le livre.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="carry">, apportant le livre.
+	</stage>
 	<l id="15" syll="8" part="f">Voici l'instrument du supplice.</l>
 </sp>
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
@@ -141,25 +144,30 @@
 	<l id="27" syll="10" part="f">Ou, sur le fait de la rime trop dure,</l>
 	<l id="28">Lui plaît-il des vingt vers ordonner la lecture ?</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Mauvillain.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Mauvillain.
+	</stage>
 	<l id="29" syll="6" part="i">Tenez pour Chapelain.</l>
 </sp>
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="29" syll="6" part="f">Mais c'est aussi la mort !</l>
 </sp>
-<sp stage="serious" who="MAUVILLAIN"><speaker>MAUVILLAIN, gravement.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="serious">, gravement.
+	</stage>
 	<l id="30">Qu'il lise, et que les dieux ordonnent de son sort.</l>
 </sp>
-<sp stage="toward" who="CHAPELLE"><speaker>CHAPELLE, à Boileau.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="toward">, à Boileau.
+	</stage>
 	<l id="31">Esculape a jugé : vous n'avez rien à dire.</l>
 </sp>
-<sp stage="get" who="BOILEAU"><speaker>BOILEAU, prenant le livre.</speaker>
+<sp who="BOILEAU"><speaker>BOILEAU</speaker><stage type="get">, prenant le livre.
+	</stage>
 	<l id="32">Esculape... fort bien... mais gare la satire !</l>
 	<l id="33">Il est dieu ; mais Guénaut, mais Rainssant, mais Brayer...</l>
 	<l id="34" syll="2" part="i">Suffit.</l>
 <stage type="read">Il se met à lire.</stage>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Mauvillain.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Mauvillain.
+	</stage>
 	<l id="34" syll="4" part="m">Entendez-vous ?</l>
 </sp>
 <sp who="MAUVILLAIN"><speaker>MAUVILLAIN.</speaker>
@@ -183,7 +191,8 @@
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="41" syll="6" part="f">La chose est peu nouvelle.</l>
 </sp>
-<sp stage="close" who="BOILEAU"><speaker>BOILEAU, fermant le livre avec bruit.</speaker>
+<sp who="BOILEAU"><speaker>BOILEAU</speaker><stage type="close">, fermant le livre avec bruit.
+	</stage>
 	<l id="42">Me faire dévorer vingt vers de la Pucelle !</l>
 	<l id="43" syll="6" part="i">Mais je me vengerai.</l>
 </sp>
@@ -207,7 +216,8 @@
 <sp who="MAUVILLAIN"><speaker>MAUVILLAIN.</speaker>
 	<l id="47" syll="6" part="f">Il dort assurément.</l>
 </sp>
-<sp stage="low" who="MOLIÈRE"><speaker>MOLIÈRE, à demi-voix.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="low">, à demi-voix.
+	</stage>
 	<l id="48">Non, messieurs, il poursuit quelque entretien charmant</l>
 	<l id="49">Avec ses animaux, son singe ou sa belette.</l>
 	<l id="50">Tenez, je gagerais, la fable est déjà faite ;</l>
@@ -233,7 +243,8 @@
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="57" syll="6" part="f">Sourd comme une statue.</l>
 </sp>
-<sp stage="loud" who="CHAPELLE"><speaker>CHAPELLE, de même.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="loud">, de même.
+	</stage>
 	<l id="58" syll="8" part="i">Un bélître, un pédant, un fat...</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -244,7 +255,8 @@
 	<l id="60">De vrai, notre bonhomme est bizarre parfois.</l>
 	<l id="61">Docteur, expliquez-nous cette étrange manie.</l>
 </sp>
-<sp stage="abrupt" who="LA FONTAINE"><speaker>LA FONTAINE, brusquement.</speaker>
+<sp who="LA FONTAINE"><speaker>LA FONTAINE</speaker><stage type="abrupt">, brusquement.
+	</stage>
 	<l id="62">Avez-vous lu Baruch ? C'était un grand génie.</l>
 </sp>
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
@@ -253,7 +265,8 @@
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="63" syll="6" part="m">Si j'ai lu Baruch, moi ?</l>
 </sp>
-<sp stage="toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Mauvillain.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="toward">, à Mauvillain.
+	</stage>
 	<l id="63" syll="5" part="f">N'est-ce pas joli ?</l>
 </sp>
 <sp who="LA FONTAINE"><speaker>LA FONTAINE.</speaker>
@@ -266,15 +279,18 @@
 	<l id="64" syll="5" part="f">Ah ! voici Lulli.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Mêmes, Lulli.</head>
-<sp stage="run/closer/toward" who="CHAPELLE"><speaker>CHAPELLE, courant au-devant de Lulli.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Mêmes, Lulli.
+</stage>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="run/closer/toward">, courant au-devant de Lulli.
+	</stage>
 	<l id="65">Baptiste, vite à l'oeuvre ! Un sujet magnifique !</l>
 	<l id="66">Il faut lire Baruch et le mettre en musique.</l>
 </sp>
 <sp who="LULLI"><speaker>LULLI.</speaker>
 	<l id="67" syll="2" part="i">Baruch... !</l>
 </sp>
-<sp stage="toward" who="LA FONTAINE"><speaker>LA FONTAINE, à Chapelle.</speaker>
+<sp who="LA FONTAINE"><speaker>LA FONTAINE</speaker><stage type="toward">, à Chapelle.
+	</stage>
 	<l id="67" syll="10" part="f">Vous vous moquez ? Vous avez tort vraiment.</l>
 </sp>
 <sp who="LULLI"><speaker>LULLI.</speaker>
@@ -318,7 +334,8 @@
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="89" syll="6" part="i">C'est fort mal fait à lui.</l>
 </sp>
-<sp stage="show" who="CHAPELLE"><speaker>CHAPELLE, montrant Boileau.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="show">, montrant Boileau.
+	</stage>
 	<l id="89" syll="6" part="f">Voyez le janséniste.</l>
 </sp>
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
@@ -341,7 +358,8 @@
 <sp who="LULLI"><speaker>LULLI.</speaker>
 	<l id="96" syll="6" part="f">Parbleu, j'en suis ravi.</l>
 </sp>
-<sp stage="serious" who="CHAPELLE"><speaker>CHAPELLE, avec solennité.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="serious">, avec solennité.
+	</stage>
 	<l id="97">Aux joutes de Bacchus, messieurs, on nous appelle.</l>
 	<l id="98" syll="2" part="i">Marchons.</l>
 </sp>
@@ -351,7 +369,8 @@
 <sp who="LULLI"><speaker>LULLI.</speaker>
 	<l id="99" syll="6" part="i">Moi, je veux disputer.</l>
 </sp>
-<sp stage="hit" who="CHAPELLE"><speaker>CHAPELLE, secouant la Fontaine.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="hit">, secouant la Fontaine.
+	</stage>
 	<l id="99" syll="6" part="f">Allons, mon beau rêveur,</l>
 	<l id="100" syll="3" part="i">Venez boire.</l>
 </sp>
@@ -361,13 +380,15 @@
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="100" syll="6" part="f">Quel enragé buveur !</l>
 </sp>
-<sp stage="stress/low" who="CHAPELLE"><speaker>CHAPELLE, acculant Boileau dans un coin et à demi-voix.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="stress/low">, acculant Boileau dans un coin et à demi-voix.
+	</stage>
 	<l id="101">Çà, maître Despréaux, trêve de pédantisme.</l>
 	<l id="102">Rappelez-vous le jour où votre jansénisme,</l>
 	<l id="103">Venant au cabaret prêcher contre le vin,</l>
 	<l id="104">Au fond d'une bouteille a laissé son latin.</l>
 </sp>
-<sp stage="toward" who="LULLI"><speaker>LULLI, à Molière.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="105" syll="2" part="i">Eh bien... ?</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -416,7 +437,8 @@
 	<l id="125">Et par un bon contrat, passé devant notaire,</l>
 	<l id="126">M'a promis pour trente ans de me laisser sur terre.</l>
 </sp>
-<sp stage="estonish" who="LULLI"><speaker>LULLI, émerveillé.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="estonish">, émerveillé.
+	</stage>
 	<l id="127">Je veux être pendu si je ne vais demain</l>
 	<l id="128">Congédier Valot, ce docteur inhumain,</l>
 	<l id="129">Qui, pour des fluxions à la chasse gagnées,</l>
@@ -454,7 +476,8 @@
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="142">J'accepte avec transport une charge si belle.</l>
 </sp>
-<sp stage="aparte" who="BOILEAU"><speaker>BOILEAU, à part.</speaker>
+<sp who="BOILEAU"><speaker>BOILEAU</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="143">S'il veut vider sa cave, il ne peut mieux choisir.</l>
 </sp>
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
@@ -462,7 +485,8 @@
 <stage type="exit">Ils sortent, excepté Mauvillain.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Molière, Mauvillain.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Molière, Mauvillain.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="145" syll="6" part="i">Vous ne les suivez pas ?</l>
 </sp>
@@ -569,7 +593,8 @@
 	<l id="213">Monsieur, fût-ce à la Cour, on est trop sûr de plaire,</l>
 	<l id="214">Et toute flatterie appelle son salaire.</l>
 </sp>
-<sp stage="offended" who="MOLIÈRE"><speaker>MOLIÈRE, piqué.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="offended">, piqué.
+	</stage>
 	<l id="215">Enfin que voulez-vous ? Un rimeur tel que moi</l>
 	<l id="216">Ne voit rien au-dessus des suffrages du roi.</l>
 	<l id="217" syll="5" part="i">Il me protège.</l>
@@ -775,32 +800,39 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="MAUVILLAIN"><speaker>MAUVILLAIN, seul.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="327" syll="8" part="f">Pourtant, s'il ne veut pas guérir,</l>
 	<l id="328">Je ne puis me résoudre à le laisser mourir.</l>
 	<l id="329">J'espère quelque jour le trouver plus traitable.</l>
 	<l id="330">Pauvre homme ! Il cache mal le chagrin qui l'accable :</l>
 	<l id="331">C'est pitié !... Mais quel bruit ! Eh ! qu'est-ce quej'entends ?</l>
 </sp>
-<sp stage="location" who="BOILEAU"><speaker>BOILEAU, derrière le théâtre.</speaker>
+<sp who="BOILEAU"><speaker>BOILEAU</speaker><stage type="location">, derrière le théâtre.
+	</stage>
 	<l id="332" syll="2" part="i">C'est dit.</l>
 </sp>
-<sp stage="location" who="LULLI"><speaker>LULLI, de même.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="location">, de même.
+	</stage>
 	<l id="332" syll="4" part="m">C'est résolu.</l>
 </sp>
-<sp stage="location" who="CHAPELLE"><speaker>CHAPELLE, de même.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="location">, de même.
+	</stage>
 	<l id="332" syll="6" part="f">Ne perdons point de temps.</l>
 <stage type="open">La porte s'ouvre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Mauvillain, Chapelle, Boileau, La Fontaine, Lulli.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Mauvillain, Chapelle, Boileau, La Fontaine, Lulli.
+</stage>
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="333" syll="6" part="i">Ah ! Voici Mauvillain.</l>
 </sp>
-<sp stage="aparte" who="MAUVILLAIN"><speaker>MAUVILLAIN, à part.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="333" syll="6" part="f">Ils sont tous au plus ivre.</l>
 </sp>
-<sp stage="toward" who="LULLI"><speaker>LULLI, aux arrivants.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="toward">, aux arrivants.
+</stage>
 <note type="L">Angarier : Terme vieilli. Vexer, tourmenter. [L]</note>
 	<l id="334" syll="6" part="i">Je vais l'angarier.</l>
 <stage type="toward">À Mauvillain.</stage>
@@ -828,7 +860,8 @@
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
 	<l id="339" syll="2" part="i">Venez.</l>
 </sp>
-<sp stage="aparte" who="MAUVILLAIN"><speaker>MAUVILLAIN, à part.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="339" syll="6" part="f">Que diable faire avec ces quatre fous ?</l>
 <stage type="loud">Haut.</stage>
 	<l id="340" syll="6" part="i">Messieurs, considérez...</l>
@@ -875,7 +908,8 @@
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="351" syll="6" part="f">Allons, parle, Boileau.</l>
 </sp>
-<sp stage="impatient" who="LULLI"><speaker>LULLI, impatienté.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="impatient">, impatienté.
+	</stage>
 	<l id="352">Faut-il tant de façons pour se jeter à l'eau ?</l>
 <stage type="toward">À Mauvillain.</stage>
 	<l id="353">Moi je vous dis en bref que l'humaine existence</l>
@@ -938,7 +972,8 @@
 <sp who="MAUVILLAIN"><speaker>MAUVILLAIN.</speaker>
 	<l id="375" syll="6" part="f">J'en demeure d'accord.</l>
 </sp>
-<sp stage="serious" who="CHAPELLE"><speaker>CHAPELLE, avec gravité.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="serious">, avec gravité.
+</stage>
 <note type="C">Tite et Bérénice, acte V, scène 1.</note>
 	<l id="376">« Chaque instant de la vie est un pas vers la mort, »</l>
 	<l id="377">A dit monsieur Corneille ; et s'il faut qu'on arrive,</l>
@@ -1012,16 +1047,20 @@
 	<l id="405" syll="6" part="f">Que le diable m'emporte</l>
 	<l id="406" syll="4" part="i">Si j'y songeais !</l>
 </sp>
-<sp stage="sad" who="LULLI"><speaker>LULLI, se résignant.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="sad">, se résignant.
+	</stage>
 	<l id="406" syll="2" part="m">Allons.</l>
 </sp>
-<sp stage="aparte" who="MAUVILLAIN"><speaker>MAUVILLAIN, à part.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="406" syll="6" part="f">Courons chercher main forte.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Fontaine, Boileau, Chapelle, Lulli.</head>
-<sp stage="write" who="CHAPELLE"><speaker>CHAPELLE, en posture d'écrire.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Fontaine, Boileau, Chapelle, Lulli.
+</stage>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="write">, en posture d'écrire.
+	</stage>
 	<l id="407">Dicte-moi, Despréaux : le projet me sourit.</l>
 </sp>
 <sp who="BOILEAU"><speaker>BOILEAU.</speaker>
@@ -1072,7 +1111,8 @@
 <stage type="entrance">Entre Molière.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les Mêmes, Molière.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les Mêmes, Molière.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="418" syll="10" part="f">Eh bien ! J'apprends une étrange nouvelle !</l>
 	<l id="419">Des lois de l'amitié l'on fait ici grand cas.</l>
@@ -1157,17 +1197,21 @@
 <stage type="entrance">Entre Mauvillain.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les Mêmes, Mauvillain.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les Mêmes, Mauvillain.
+</stage>
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="436" syll="2" part="i">Enfin...</l>
 </sp>
-<sp stage="low/loward" who="MAUVILLAIN"><speaker>MAUVILLAIN, à l'oreille de Molière.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="low/loward">, à l'oreille de Molière.
+	</stage>
 	<l id="436" syll="4" part="m">Tout sera prêt.</l>
 </sp>
-<sp stage="low/toward" who="MOLIÈRE"><speaker>MOLIÈRE, à Mauvillain, de même.</speaker>
+<sp who="MOLIÈRE"><speaker>MOLIÈRE</speaker><stage type="low/toward">, à Mauvillain, de même.
+	</stage>
 	<l id="436" syll="6" part="f">J'ai bridé nos oisons.</l>
 </sp>
-<sp stage="toward" who="CHAPELLE"><speaker>CHAPELLE, à Mauvillain.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="toward">, à Mauvillain.
+	</stage>
 	<l id="437">Docteur, faites au moins que Molière m'entende.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1180,13 +1224,15 @@
 <sp who="MAUVILLAIN"><speaker>MAUVILLAIN.</speaker>
 	<l id="443" syll="4" part="i">Assurément.</l>
 </sp>
-<sp stage="toward" who="CHAPELLE"><speaker>CHAPELLE, à Molière.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="443" syll="8" part="f">Veux-tu me voir à tes genoux ?</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="444" syll="3" part="i">À d'autres.</l>
 </sp>
-<sp stage="aparte" who="MAUVILLAIN"><speaker>MAUVILLAIN, à part.</speaker>
+<sp who="MAUVILLAIN"><speaker>MAUVILLAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="444" syll="9" part="f">Suis-je pas à l'hôpital des fous ?</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1207,7 +1253,8 @@
 	<l id="449" syll="11" part="f">Vous n'entendez rien. Allez, je vous pardonne :</l>
 	<l id="450">Vous êtes trop naïfs et j'ai l'âme trop bonne.</l>
 </sp>
-<sp stage="tender" who="CHAPELLE"><speaker>CHAPELLE, avec attendrissement.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="tender">, avec attendrissement.
+	</stage>
 	<l id="451" syll="1" part="i">Ah !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1256,7 +1303,8 @@
 <sp who="CHAPELLE"><speaker>CHAPELLE.</speaker>
 	<l id="467">Je ne suis qu'un grand sot ; je ne me comprends pas.</l>
 </sp>
-<sp stage="toward" who="LULLI"><speaker>LULLI, à Molière.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="468">Ordonne : nous ferons tout ce que tu voudras.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1286,7 +1334,8 @@
 	<l id="478">Là, d'un style énergique, à la foule je conte</l>
 	<l id="479">Que, las d'un monde ingrat, les plus fameux auteurs...</l>
 </sp>
-<sp stage="enthousiasm" who="LULLI"><speaker>LULLI, enthousiasmé.</speaker>
+<sp who="LULLI"><speaker>LULLI</speaker><stage type="enthousiasm">, enthousiasmé.
+	</stage>
 	<l id="480">Oh parbleu ! j'y voudrais cent mille spectateurs.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1341,7 +1390,8 @@
 <sp who="LA FONTAINE"><speaker>LA FONTAINE.</speaker>
 	<l id="497" syll="4" part="i">C'est au mieux.</l>
 </sp>
-<sp stage="toward" who="CHAPELLE"><speaker>CHAPELLE, à Molière.</speaker>
+<sp who="CHAPELLE"><speaker>CHAPELLE</speaker><stage type="toward">, à Molière.
+	</stage>
 	<l id="497" syll="8" part="f">Mon ami, vous êtes un grand homme.</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1365,7 +1415,8 @@
 <stage type="exit">Ils sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Molière, Mauvillain.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Molière, Mauvillain.
+</stage>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
 	<l id="503" syll="6" part="f">La nuit porte conseil,</l>
 	<l id="504">Et vous serez, messieurs, bien penauds au réveil.</l>

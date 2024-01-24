@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>vers</type>
 				<periode>1641-1650</periode>
 				<taille>1500-1750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -29,7 +29,7 @@
 			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1643">M. DC. XLIII. AVEC PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id="DESMARRES, Joseph" bio='desmarres'></docAuthor>
+		<docAuthor id="DESMARRES, Joseph" bio="desmarres"/>
 		<docImprint>
 			<privilege id="1661-03-24"><head>Extrait du privilège du Roi</head>
 			<p>Par grâce et Privilège du Rou donné à Paris le 16. de Mars 1643. signé par le Roy en son Conseil, GODEFROY, il est permis à ANTOINE DE SOMMAVILLE Marchand Libraire à Paris, d'imprimer un Livre intitulé, Théâtre de Roxelane Tragi-Comédie, durant le temps de cinq ans. Et défenses sont faites à toutes personnes de quelque qualité ou condition qu'elles soient, de l'imprimer, ou faire imprimer, à peine de quinze cens livres d'amende, ainsi qu'il est porté plus au long par ledit Privilège. Achevé d'imprimer pour la première fois, le seizième de Mars mil six cents quarante-trois. Ledit Sommaville a associé audit Privilège Augustin Courbé, Marchand Libraire à Paris, suivant l'accord fait entre eux. Les Exemplaires ont été fournis.</p>
@@ -38,7 +38,7 @@
 			<printer id="SOMMAVILLE, COURBÉ">À PARIS, Antoine de Sommaville, à l'Écu de France, dans la Salle de Merciers. ET Augustin Courbé, Lib. Et Impr. De Monsieur Frère du Roi, à la Palme, en la même Salle.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1643' location='(inconnue)'></premiere>
+			<premiere date="1643" location="(inconnue)"/>
 		</performance>
 		<div type=""><adresse>À MADEMOISELLE DE SOUCARRIÈRE.</adresse>
 			<head>Mademoiselle,</head>
@@ -47,23 +47,24 @@
 			<p>Votre très humble, et très obéissant serviteur, DESMARES</p>
 		</div>	
 	<castList><head>ACTEURS.</head>
-		<castItem><role id="SOLIMAN" sex="1" type="H" statut="sultan" age="A" stat_amour='néant'>SOLIMAN</role>.</castItem>
-		<castItem><role id="ROXELANE" sex="2" type="H" statut="sultan" age="A" stat_amour='néant'>ROXELANE</role>, SULTANE.</castItem>
-		<castItem><role id="CIRCASSE" sex="2" type="H" statut="sultan" age="A" stat_amour='néant'>CIRCASSE</role>, autre SULTANE.</castItem>
-		<castItem><role id="LE MUFTI" sex="1" type="H" statut="mufti" age="A" stat_amour='néant'>LE MUFTI</role>, ou Souverain Prêtre de la Loi de Mahomet.</castItem>
-		<castItem><role id="ACMAT BASSA" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>ACMAT BASSA</role>, ami de Circasse.</castItem>
-		<castItem><role id="RUSTAN BASSA" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>RUSTAN BASSA</role>, gendre de Soliman et de Roxelane.</castItem>
-		<castItem><role id="CHAMERIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>CHAMERIE</role>, fille de Soliman et de Roxelane.</castItem>
-		<castItem><role id="ORMIN" sex="1" type="H" statut="colonel" age="A" stat_amour='néant'>ORMIN</role>, Colonel de Janissaires.</castItem>
-		<castItem><role id="OSMAN" sex="1" type="H" statut="bassa" age="A" stat_amour='néant'>OSMAN</role>, autre BASSA.</castItem>
-		<castItem><role id="PAGES" sex="1" type="H" statut="page" age="A" stat_amour='néant'>DEUX PAGES</role>.</castItem>
-		<castItem><role id="JANISSAIRES" sex="1" type="H" statut="janissaire" age="A" stat_amour='néant'>DEUX JANISSAIRES</role>.</castItem>
+		<castItem><role id="SOLIMAN" sex="1" type="H" statut="sultan" age="A" stat_amour="néant">SOLIMAN</role>.</castItem>
+		<castItem><role id="ROXELANE" sex="2" type="H" statut="sultan" age="A" stat_amour="néant">ROXELANE</role>, SULTANE.</castItem>
+		<castItem><role id="CIRCASSE" sex="2" type="H" statut="sultan" age="A" stat_amour="néant">CIRCASSE</role>, autre SULTANE.</castItem>
+		<castItem><role id="LE MUFTI" sex="1" type="H" statut="mufti" age="A" stat_amour="néant">LE MUFTI</role>, ou Souverain Prêtre de la Loi de Mahomet.</castItem>
+		<castItem><role id="ACMAT BASSA" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">ACMAT BASSA</role>, ami de Circasse.</castItem>
+		<castItem><role id="RUSTAN BASSA" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">RUSTAN BASSA</role>, gendre de Soliman et de Roxelane.</castItem>
+		<castItem><role id="CHAMERIE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">CHAMERIE</role>, fille de Soliman et de Roxelane.</castItem>
+		<castItem><role id="ORMIN" sex="1" type="H" statut="colonel" age="A" stat_amour="néant">ORMIN</role>, Colonel de Janissaires.</castItem>
+		<castItem><role id="OSMAN" sex="1" type="H" statut="bassa" age="A" stat_amour="néant">OSMAN</role>, autre BASSA.</castItem>
+		<castItem><role id="PAGES" sex="1" type="H" statut="page" age="A" stat_amour="néant">DEUX PAGES</role>.</castItem>
+		<castItem><role id="JANISSAIRES" sex="1" type="H" statut="janissaire" age="A" stat_amour="néant">DEUX JANISSAIRES</role>.</castItem>
 	</castList>
 	<set location="Constantinople" country="Turquie" periode="XVIème" gps="41.008238, 28.978359">La Scène est au Sérail.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Circasse, Acmat.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Circasse, Acmat.
+</stage>
 <sp who="CIRCASSE"><speaker>CIRCASSE.</speaker>
 	<l id="1">Vous, de qui l'amitié ne suit point l'espérance, </l>
 	<l id="2">Vous à qui la vertu tient lieu de récompense,</l>
@@ -262,7 +263,8 @@
 	<l id="146">Que je vous dois de biens pour tant de bons offices.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Roxelane, Le Mufti.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Roxelane, Le Mufti.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="147">Non, non, ne pensEZ pas que la présomption</l>
 	<l id="148">Suggère ce dessein à mon ambition.</l>
@@ -392,7 +394,8 @@
 	<l id="236">Et m'assurez de vaincre avant que d'attaquer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Roxelane, Circasse, Le Page.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Roxelane, Circasse, Le Page.
+</stage>
 <sp who="LE PAGE"><speaker>LE PAGE.</speaker>
 	<l id="237">La Sultane Circasse est ici prés, Madame,</l>
 	<l id="238" syll="6" part="i">Qui demande à vous voir.</l>
@@ -552,7 +555,8 @@
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="340" syll="6" part="f">Adieu ma chère soeur.</l>
 </sp>
-<sp stage="away" who="CIRCASSE"><speaker>CIRCASSE, s'étant séparée.</speaker>
+<sp who="CIRCASSE"><speaker>CIRCASSE</speaker><stage type="away">, s'étant séparée.
+	</stage>
 	<l id="341">De quelque faux appas que ton discours se farde</l>
 	<l id="342">Je suis bien résolue à me donner de garde.</l>
 </sp>
@@ -609,7 +613,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Soliman, Acmat, Le Mufti, Ormin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Soliman, Acmat, Le Mufti, Ormin.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="389">Non non, cette grandeur dont l'éclat m'environne,</l>
 	<l id="390">Les superbes palais, le sceptre, la couronne, </l>
@@ -861,7 +866,8 @@
 	<l id="577">Qu'elle ne sache rien de cette conférence.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Roxelane, Le Mufti, Acmat, Ormin.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Roxelane, Le Mufti, Acmat, Ormin.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="578">Enfin vous me rendez cette aimable présence.</l>
 </sp>
@@ -1036,7 +1042,8 @@
 	<l id="692">Un grand dessein que j'ai demande votre emploi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Roxelane, Le Mufti.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Roxelane, Le Mufti.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 <note type="L">Exorable : Qui se laisse fléchir par des supplications. [L]</note>
 	<l id="693">Jusqu'ici la fortune à nos voeux exorable</l>
@@ -1089,7 +1096,8 @@
 </div2>
 </div1>
 <div1 type="act" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Soliman, Rustan, Le Page, Ormin, Osman.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Soliman, Rustan, Le Page, Ormin, Osman.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="725">Non je ne vous crois pas, Roxelane est trop sage </l>
 	<l id="726">Page, pensez à vous ce discours vous engage.</l>
@@ -1181,7 +1189,8 @@
 	<l id="784">De sa rébellion je veux être éclairci.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Acmat, Circasse.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Acmat, Circasse.
+</stage>
 <sp who="ACMAT"><speaker>ACMAT.</speaker>
 	<l id="785">Je ne puis rien comprendre en cette procédure ; </l>
 	<l id="786">Mais toujours je prévois quelque grande aventure.</l>
@@ -1230,7 +1239,8 @@
 	<l id="819">Mais notre confident à grands pas vient à nous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Acmat, Circasse, Osman.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Acmat, Circasse, Osman.
+</stage>
 <sp who="CIRCASSE"><speaker>CIRCASSE.</speaker>
 	<l id="820">Hé bien mon cher Osman, que nous apportez-vous ? </l>
 </sp>
@@ -1347,7 +1357,8 @@
 	<l id="886" syll="6" part="i">Et ma fille est en pleurs.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Roxelane, Rustan, Chamerie.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Roxelane, Rustan, Chamerie.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="886" syll="6" part="f">Rustan qui vous amène ?</l>
 </sp>
@@ -1530,7 +1541,8 @@
 	<l id="975">Consolez vous ce mal ne s'adresse qu'à moi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Roxelane, Rustan, Chamerie, Ormin, avec deux janissaires.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Roxelane, Rustan, Chamerie, Ormin, avec deux janissaires.
+</stage>
 <sp who="ROXELANE"><speaker>ROXELANE.</speaker>
 	<l id="976">Hé bien faut-il mourir ; que vous a dit le Roi ?</l>
 	<l id="977">Vous a-t-il commandé de lui porter ma tête ?</l>
@@ -1639,7 +1651,8 @@
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Soliman, Circasse, Ormin, Osman.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Soliman, Circasse, Ormin, Osman.
+</stage>
 <sp who="CIRCASSE"><speaker>CIRCASSE.</speaker>
 	<l id="1043" syll="6" part="i">Seigneur que vous plaît-il.</l>
 </sp>
@@ -1694,7 +1707,8 @@
 	<l id="1077" syll="6" part="i">Mais voici notre ingrate. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Soliman, Roxelane, Circasse, Ormin, Osman.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Soliman, Roxelane, Circasse, Ormin, Osman.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1077" syll="6" part="f">He bien belle Princesse !</l>
 	<l id="1078">Ma faveur vous offense et mon amour vous blesse</l>
@@ -1814,7 +1828,8 @@
 	<l id="1172">Adieu, Circasse, adieu, Soldats retirez-vous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Soliman, Roxelane.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Soliman, Roxelane.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1173">Enfin je me vois libre et je puis sans contrainte</l>
 	<l id="1174">Vous dire les douleurs dont mon âme est atteinte.</l>
@@ -1957,7 +1972,8 @@
 	<l id="1279" syll="4" part="i">Quelqu'un à moi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Soliman, Roxelane, Ormin, Osman, etc.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Soliman, Roxelane, Ormin, Osman, etc.
+</stage>
 <sp who="ORMIN"><speaker>ORMIN.</speaker>
 	<l id="1279" syll="2" part="m">Seigneur.</l>
 </sp>
@@ -2001,7 +2017,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Circasse, Acmat.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Circasse, Acmat.
+</stage>
 <sp who="CIRCASSE"><speaker>CIRCASSE.</speaker>
 	<l id="1305">En ce jour où le Ciel doit montrer à ma peine </l>
 	<l id="1306">Ou sa dernière grâce ou sa dernière haine,</l>
@@ -2087,7 +2104,8 @@
 	<l id="1356">Que cette fuite Acmat redouble ma terreur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCENE II. Soliman, Circasse, Acmat, Le Mufti, Rustan, Ormin, Osman.</head>
+<div2 type="scene" n="2"><head>SCENE II.</head><stage> Soliman, Circasse, Acmat, Le Mufti, Rustan, Ormin, Osman.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1357">Amis dont la valeur jointe à l'expérience</l>
 	<l id="1358">Affermit ma couronne, assure ma puissance</l>
@@ -2375,7 +2393,8 @@
 	<l id="1587">Mais j'aperçois l'objet de mes contentements.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE DERNIÈRE. Soliman, Roxelane, Le Mufti, Circasse, Acmat, Rustan, Ormin, Osman.</head>
+<div2 type="scene" n="3"><head>SCÈNE DERNIÈRE.</head><stage> Soliman, Roxelane, Le Mufti, Circasse, Acmat, Rustan, Ormin, Osman.
+</stage>
 <sp who="SOLIMAN"><speaker>SOLIMAN.</speaker>
 	<l id="1588">Venez chaste beauté, reine des Musulmans</l>
 	<l id="1589">Venez de Soliman l'épouse légitime.</l>

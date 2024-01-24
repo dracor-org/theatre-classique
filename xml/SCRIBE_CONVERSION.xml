@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -19,7 +19,7 @@
 				<type>mixte</type>
 				<periode>1751-1760</periode>
 				<taille>250-500</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -36,19 +36,20 @@
 			<printer>PARIS. - IMPRIMERIE de Ve DONDET-DUPRÉ, rue Saint-Louis, 46, au Marais.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="AMBROSIO" sex="1" type="H" statut="prêtre" age="A" stat_amour='néant'>FRA-AMBROSIO</role>.</castItem>
-		<castItem><role id="GIROLAMO" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>GIROLAMO</role>.</castItem>
-		<castItem><role id="LORETTA" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>LORETTA</role>.</castItem>
-		<castItem><role id="ZERLINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>ZERLINE</role>.</castItem>
-		<castItem><role id="BARNABÉ" sex="1" type="H" statut="moine" age="A" stat_amour='néant'>BARNABÉ</role>.</castItem>
-		<castItem><role id="LE PEUPLE" sex="9" type="H" statut="peuple" age="A" stat_amour='néant'>LE PEUPLE</role>.</castItem>
+		<castItem><role id="AMBROSIO" sex="1" type="H" statut="prêtre" age="A" stat_amour="néant">FRA-AMBROSIO</role>.</castItem>
+		<castItem><role id="GIROLAMO" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">GIROLAMO</role>.</castItem>
+		<castItem><role id="LORETTA" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LORETTA</role>.</castItem>
+		<castItem><role id="ZERLINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">ZERLINE</role>.</castItem>
+		<castItem><role id="BARNABÉ" sex="1" type="H" statut="moine" age="A" stat_amour="néant">BARNABÉ</role>.</castItem>
+		<castItem><role id="LE PEUPLE" sex="9" type="H" statut="peuple" age="A" stat_amour="néant">LE PEUPLE</role>.</castItem>
 	</castList>
-	<set location="Rome" country="Italie" periode="XVIIIème" gps="41.902783, 12.496365"></set>
+	<set location="Rome" country="Italie" periode="XVIIIème" gps="41.902783, 12.496365"/>
 	<note>Texte extrait de "Proverbes et Nouvelles par Eugène Scribe", Paris Gosselin, 1861. pp. 316-323.</note>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>LA CONVERSION.</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Ambrosio, Girolamo.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Ambrosio, Girolamo.
+</stage>
 <stage type="location">La cellule de Fra-Ambrosio. - Au fond, son confessionnal. - Sur une table, un chapelet, des papiers, des livres de piété.</stage>
 <sp who="AMBROSIO"><speaker>AMBROSIO.</speaker>
 <p id="1">
@@ -67,7 +68,8 @@
 	<s id="1">Qui vient là ?</s>
 </p>
 </sp>
-<sp stage="happy" who="GIROLAMO"><speaker>GIROLAMO, d'un air béat.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage type="happy">, d'un air béat.
+</stage>
 <p id="3">
 	<s id="1">Votre fidèle valet, Monseigneur, qui vient vous prévenir que la cérémonie est pour midi.</s>
 </p>
@@ -77,13 +79,15 @@
 	<s id="1">Quelle cérémonie ?</s>
 </p>
 </sp>
-<sp who="GIROLAMO"><speaker>GIROLAMO, du même ton.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage>, du même ton.
+</stage>
 <p id="5">
 	<s id="1">Le mariage du Marquis_de_Gondolfo, le gouverneur_de_Rome. Par Saint_Phanuce, mon patron, avez-vous oublié que c'était vous qui deviez lui donner la bénédiction nuptiale ? </s>
 	<s id="2">Faveur insigne pour le couvent des dominicains, ce qui nous fait assez de jaloux chez les révérends pères de Jésus.</s>
 </p>
 </sp>
-<sp stage="work" who="AMBROSIO"><speaker>AMBROSIO, travaillant sans l'écouter.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="work">, travaillant sans l'écouter.
+</stage>
 <p id="6">
 	<s id="1">Quel bavardage !</s>
 </p>
@@ -130,7 +134,8 @@
 	<s id="1">Je l'ai entendu dire à la Duchesse_de_Popoli, qui sortait avec le Comte_de_Lucques.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AMBROSIO"><speaker>AMBROSIO, à part.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="14">
 	<s id="1">Ah ! </s>
 	<s id="2">Elle y était avec son amant ?</s>
@@ -162,13 +167,15 @@
 	<s id="1">Toujours travailler, comme un homme de rien, comme un savant, vous qui êtes d'une des premières maisons des États romains ; une famille si noble et si nombreuse !</s>
 </p>
 </sp>
-<sp stage="sad" who="AMBROSIO"><speaker>AMBROSIO, avec amertume.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="sad">, avec amertume.
+</stage>
 <p id="20">
 	<s id="1">Trop nombreuse, en effet, pour que nous puissions partager ! </s>
 	<s id="2">Aussi les titres, les dignités,la fortune, le droit même d'être heureux, tout a été pour mes frères aînés ; et moi, qui n'avais d'autre tort que d'être le dernier, je l'aurai expié bien chèrement peut-être !</s>
 </p>
 </sp>
-<sp stage="naive" who="GIROLAMO"><speaker>GIROLAMO, d'un ton patelin.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage type="naive">, d'un ton patelin.
+</stage>
 <p id="21">
 	<s id="1">Par les saints apôtres, vous n'avez pas à vous plaindre. </s>
 	<s id="2">Vous êtes en passe d'arriver à tout, évêque, cardinal, et, qui sait même ? </s>
@@ -201,7 +208,8 @@
 </p>
 <stage type="show">Girolamo lui présente plusieurs lettres puis va et vient dans l'appartement en préparant ce qu'il faut pour la toilette de son maître.</stage>
 </sp>
-<sp stage="open" who="AMBROSIO"><speaker>AMBROSIO, ouvrant la première.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="open">, ouvrant la première.
+</stage>
 <p id="26">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est d'Édouard_Villougby, mon ami, mon camarade d'études. </s>
@@ -236,13 +244,15 @@
 	<s id="8">Ils se sont levés, ils ont été aux voix, et cinq ou six qui l'ont emporté nous ont condamnés à tout jamais à être malheureux ou coupables.</s>
 </p>
 </sp>
-<sp who="GIROLAMO"><speaker>GIROLAMO, rentrant.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage>, rentrant.
+</stage>
 <p id="30">
 	<s id="1">Monseigneur, vous n'entendez pas ? </s>
 	<s id="2">Voici les cloches qui annoncent l'arrivée du cortège, et il faut vous préparer pour ce mariage.</s>
 </p>
 </sp>
-<sp who="AMBROSIO"><speaker>AMBROSIO, à part.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage>, à part.
+</stage>
 <p id="31">
 	<s id="1">Un mariage ! </s>
 	<s id="2">Encore un mariage !... </s>
@@ -294,7 +304,8 @@
 </p>
 <stage type="noise">On entend de nouveau sonner les cloches.</stage>
 </sp>
-<sp who="GIROLAMO"><speaker>GIROLAMO, tout en l'habillant.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage>, tout en l'habillant.
+</stage>
 <p id="39">
 	<s id="1">Voici l'étole et la chasuble. </s>
 	<s id="2">Entendez-vous tout ce bruit autour du couvent ? </s>
@@ -313,7 +324,8 @@
 	<s id="1">Ces étrangers que je soupçonne être des Anglais, des hérétiques, et qui crient toujours famine.</s>
 </p>
 </sp>
-<sp stage="give" who="AMBROSIO"><speaker>AMBROSIO, lui donnant de l'argent.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="give">, lui donnant de l'argent.
+</stage>
 <p id="42">
 	<s id="1">Tu leur donneras cela.</s>
 </p>
@@ -344,7 +356,8 @@
 	<s id="1">Il est sans ouvrage, et son fils aîné a la fièvre.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AMBROSIO"><speaker>AMBROSIO, à part.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="48">
 	<s id="1">Pauvre Juliette ! </s>
 	<s id="2">J'évite de ta voir, elle doit croire que je la néglige.</s>
@@ -370,7 +383,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="wave/alone" who="GIROLAMO"><speaker>GIROLAMO, s'inclinant.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage type="wave/alone">, s'inclinant.
+</stage>
 <p id="52">
 	<s id="1">Oui, Monseigneur ; Votre Excellence, Votre Grâce peut compter sur moi, sur mon zèle... </s>
 </p>
@@ -402,7 +416,8 @@
 <stage type="entrance">Entre Fra-Ambrosiod'un air agité, et en désordre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ambrosio, Girolamo, Loretta.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ambrosio, Girolamo, Loretta.
+</stage>
 <sp who="AMBROSIO"><speaker>AMBROSIO.</speaker>
 <p id="1">
 	<s id="1">Ils sont unis !... </s>
@@ -439,7 +454,8 @@
 	<s id="2">Seriez-vous malade ?</s>
 </p>
 </sp>
-<sp stage="show" who="AMBROSIO"><speaker>AMBROSIO, montrant son coeur.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="show">, montrant son coeur.
+</stage>
 <p id="5">
 	<s id="1">Oui ; le mal est là.</s>
 </p>
@@ -501,7 +517,8 @@
 </p>
 <stage type="narration">Il se met dans le confessionnal ; Girolamo va ouvrir la porte à droite ; entre Loretta couverte d'un voile. Elle s'approche, du confessionnal, s'agenouille et commence sa prière. Girolamo est sorti.</stage>
 </sp>
-<sp stage="hide" who="AMBROSIO"><speaker>AMBROSIO, caché dans le confessionnal.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="hide">, caché dans le confessionnal.
+</stage>
 <note type="L">Confiteor : Nom donné à la prière que font les catholiques avant de se confesser, à la messe et dans d'autres circonstances. [L]</note>
 <p id="17">
 	<s id="1">Dites votre Confiteor.</s>
@@ -607,7 +624,8 @@
 	<l id="1">Lisette, ma Lisette,</l>
 	<l id="2">Tu m'as trompé toujours.</l>
 </sp>
-<sp stage="interrupt" who="AMBROSIO"><speaker>AMBROSIO, l'interrompant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="35">
 	<s id="1">Ce n'est pas la peine.</s>
 </p>
@@ -622,7 +640,8 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp stage="cry" who="LORETTA"><speaker>LORETTA, pleurant.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="cry">, pleurant.
+</stage>
 <p id="38">
 	<s id="1">Je ne m'en suis aperçu qu'après. </s>
 	<s id="2">Ô mon ange ! </s>
@@ -752,7 +771,8 @@
 	<s id="1">Achevez votre confiteor.</s>
 </p>
 </sp>
-<sp who="LORETTA"><speaker>LORETTA, se frappant le sein.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage>, se frappant le sein.
+</stage>
 <p id="58">
 	<s id="1">Mea culpa, mea culpa, mea maxima culpa. </s>
 	<s id="2">Ideo precor beatam Mariant semper virginem, beatum Michaelem archangelum, beatum Joannem-Baptistam, sanctos apostolos Petrumet Paulum, omnes sanctos, et te, pater, orare pro me ad Dominum Deum nostrum. Misereatur ostri, omnipotens Deus, et, dimissis peccatis nostris, perducat nos ad vitàm aeternam, Amen.</s>
@@ -760,7 +780,8 @@
 <stage type="pray">Loretta fait le signe de la croix, baisse son voile, se lève
  et sort.</stage>
 </sp>
-<sp who="AMBROSIO"><speaker>AMBROSIO, seul et rêvant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage>, seul et rêvant.
+</stage>
 <p id="59">
 	<s id="1">Jamais je n'avais rien entendu de pareil. </s>
 	<s id="2">Quoi ! </s>
@@ -850,7 +871,8 @@
 	<s id="1">Je venais prendre vos ordres.</s>
 </p>
 </sp>
-<sp stage="agotated" who="AMBROSIO"><speaker>AMBROSIO, avec agitation.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="agotated">, avec agitation.
+</stage>
 <p id="70">
 	<s id="1">Mon chapeau, mon manteau ; je vais sortir.</s>
 </p>
@@ -874,7 +896,8 @@
 	<s id="1">Loretta, près le Ponte-Rotto !</s>
 </p>
 </sp>
-<sp stage="follow" who="GIROLAMO"><speaker>GIROLAMO, le suivant.</speaker>
+<sp who="GIROLAMO"><speaker>GIROLAMO</speaker><stage type="follow">, le suivant.
+</stage>
 <p id="75">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est pour la signora_Loretta qu'est cet argent !</s>
@@ -903,7 +926,8 @@
 	<s id="1">Vous suivrai-je ?</s>
 </p>
 </sp>
-<sp stage="think" who="AMBROSIO"><speaker>AMBROSIO, préoccupé.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="think">, préoccupé.
+</stage>
 <p id="80">
 	<s id="1">C'est inutile ; je reviens... </s>
 	<s id="2">Je sors... je... </s>
@@ -926,7 +950,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Ambrosio, Loretta.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Ambrosio, Loretta.
+</stage>
 <stage type="location/decor">L'appartement de Loretta, richement décoré. - Au fond une
 madone au-dessus d'un divan.</stage>
 <sp who="LORETTA"><speaker>LORETTA.</speaker>
@@ -935,7 +960,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Quoi, déjà me quitter ?</s>
 </p>
 </sp>
-<sp stage="sad" who="AMBROSIO"><speaker>AMBROSIO, d'un air sombre.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="sad">, d'un air sombre.
+</stage>
 <p id="2">
 	<s id="1">Il le faut, Loretta.</s>
 </p>
@@ -949,7 +975,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="5">Tout à l'heure, près de moi, des larmes roulaient dans tes yeux.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AMBROSIO"><speaker>AMBROSIO, à part.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Oui, mon âme est triste et flétrie ; elle était née pour un autre bonheur, pour un bonheur qu'on peut avouer</s>
 </p>
@@ -983,7 +1010,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="3">Quels sont tes chagrins? dis-les-moi.</s>
 </p>
 </sp>
-<sp stage="watch/pain" who="AMBROSIO"><speaker>AMBROSIO, la regardant douloureusement.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="watch/pain">, la regardant douloureusement.
+</stage>
 <p id="9">
 	<s id="1">Ah ! </s>
 	<s id="2">Tu n'y peux rien.</s>
@@ -995,7 +1023,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Et puisque tu es malheureux, tiens, reprends tes présents, je n'en veux pas.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="AMBROSIO"><speaker>AMBROSIO, rougissant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="embarrassed">, rougissant.
+</stage>
 <p id="11">
 	<s id="1">Oh ciel ! </s>
 	<s id="2">Quelle humiliation!</s>
@@ -1021,7 +1050,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Tu n'as voulu m'avouer ni ton nom ni ton rang ; mais tu m'es supérieur, je le sais, je le devine : n'importe, si tu le veux, je t'aimerai comme mon égal.</s>
 </p>
 </sp>
-<sp stage="watch/estonish" who="AMBROSIO"><speaker>AMBROSIO, la regardant avec étonnement.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="watch/estonish">, la regardant avec étonnement.
+</stage>
 <p id="15">
 	<s id="1">Que dis-tu ?</s>
 </p>
@@ -1057,7 +1087,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="5">Moi, je ne crois pas à un prédicateur quand il est petit ou quand il est laid.</s>
 </p>
 </sp>
-<sp stage="smile" who="AMBROSIO"><speaker>AMBROSIO, souriant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="smile">, souriant.
+</stage>
 <p id="21">
 	<s id="1">Vraiment ?</s>
 </p>
@@ -1078,7 +1109,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Ce matin encore, au confessionnal...</s>
 </p>
 </sp>
-<sp stage="embarrassed/interrupt" who="AMBROSIO"><speaker>AMBROSIO, troublé et l'interrompant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="embarrassed/interrupt">, troublé et l'interrompant.
+</stage>
 <p id="25">
 	<s id="1">Adieu, Loretta, adieu.</s>
 </p>
@@ -1100,8 +1132,10 @@ madone au-dessus d'un divan.</stage>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Ambrosio, Zerline, Loretta. </head>
-<sp stage="hurry/frighten" who="ZERLINE"><speaker>ZERLINE, accourant tout effrayée.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Ambrosio, Zerline, Loretta. 
+</stage>
+<sp who="ZERLINE"><speaker>ZERLINE</speaker><stage type="hurry/frighten">, accourant tout effrayée.
+</stage>
 <p id="1">
 	<s id="1">Ah ! Signora, n'entendez-vous pas tout ce bruit ?</s>
 </p>
@@ -1117,7 +1151,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Ils menacent d'enfoncer la porte, que j'ai refusé d'ouvrir.</s>
 </p>
 </sp>
-<sp stage="aparte" who="AMBROSIO"><speaker>AMBROSIO, à part.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Ô ciel ! </s>
 	<s id="2">C'est fait de moi !</s>
@@ -1139,12 +1174,14 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Qu'ai-je entendu ?</s>
 </p>
 </sp>
-<sp stage="low" who="AMBROSIO"><speaker>AMBROSIO, à demi-voix.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="8">
 	<s id="1">La vérité ; c'est moi-même.</s>
 </p>
 </sp>
-<sp stage="happy" who="LORETTA"><speaker>LORETTA, transportée de joie.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="happy">, transportée de joie.
+</stage>
 <p id="9">
 	<s id="1">Il serait possible ! </s>
 	<s id="2">J'ai été assez heureuse, assez bénie du ciel, pour que vous, mon père. </s>
@@ -1209,18 +1246,21 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Eh bien ?</s>
 </p>
 </sp>
-<sp stage="confuse" who="LORETTA"><speaker>LORETTA, baissant les yeux avec confusion.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="confuse">, baissant les yeux avec confusion.
+</stage>
 <p id="21">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Cette porte secrète, il la connaît aussi.</s>
 </p>
 </sp>
-<sp stage="anger" who="AMBROSIO"><speaker>AMBROSIO, avec colère.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="22">
 	<s id="1">Malheureuse !</s>
 </p>
 </sp>
-<sp stage="desperate" who="LORETTA"><speaker>LORETTA, avec désespoir.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="desperate">, avec désespoir.
+</stage>
 <p id="23">
 	<s id="1">Ah ! </s>
 	<s id="2">Pardonne-moi ! </s>
@@ -1242,15 +1282,18 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">À genoux, à genoux toutes deux, et prosternez-vous!</s>
 </p>
 </sp>
-<sp stage="frighten/kneel" who="LORETTA"><speaker>LORETTA, effrayée, tombant à genoux et joignant ses deux mains.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="frighten/kneel">, effrayée, tombant à genoux et joignant ses deux mains.
+</stage>
 <p id="27">
 	<s id="1">M'y voici, mon père, que voulez-vous de moi ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Ambrosio, Girolamo, Loretta, Zerline, Barnabé, Le Peuple.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Ambrosio, Girolamo, Loretta, Zerline, Barnabé, Le Peuple.
+</stage>
 <stage type="kneel/open/entrance/watch/estonish">Les deux femmes sont à ses pieds et le front courbé vers la terre. -  Dans ce moment les portes s'ouvrent ; Barnabé, Girolamo et tout le peuple se précipitent dans l'appartement, et s'arrêtent étonnés à la vue d'Ambrosio débout entre les deux femmes.</stage>
-<sp stage="loud" who="AMBROSIO"><speaker>AMBROSIO, à voix haute et d'un ton inspiré.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="loud">, à voix haute et d'un ton inspiré.
+</stage>
 <p id="1">
 	<s id="1">Malheur à vous ! </s>
 	<s id="2">Malheur à moi ! </s>
@@ -1265,7 +1308,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="3">Est-ce de moi qu'il parle ?</s>
 </p>
 </sp>
-<sp who="AMBROSIO"><speaker>AMBROSIO, se retournant et l'apercevant.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage>, se retournant et l'apercevant.
+</stage>
 <p id="3">
 	<s id="1">Qui t'amène ici ? </s>
 	<s id="2">Qui conduit ce peuple sur tes pas ? </s>
@@ -1277,7 +1321,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Restez tous ; et écoutez.</s>
 </p>
 </sp>
-<sp stage="frighten" who="UNE FEMME DU PEUPLE"><speaker>UNE FEMME DU PEUPLE, tremblante.</speaker>
+<sp who="UNE FEMME DU PEUPLE"><speaker>UNE FEMME DU PEUPLE</speaker><stage type="frighten">, tremblante.
+</stage>
 <p id="5">
 	<s id="1">Jésus ! </s>
 	<s id="2">Maria ! </s>
@@ -1289,7 +1334,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Je vous l'ai toujours dit.</s>
 </p>
 </sp>
-<sp stage="low/toward" who="BARNABÉ"><speaker>BARNABÉ, à demi-voix au peuple.</speaker>
+<sp who="BARNABÉ"><speaker>BARNABÉ</speaker><stage type="low/toward">, à demi-voix au peuple.
+</stage>
 <p id="7">
 	<s id="1">Vous pourriez croire à une telle imposture ?</s>
 </p>
@@ -1299,7 +1345,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Je crois en Dieu ; et puis qu'il annonce sa parole, écoutons-le.</s>
 </p>
 </sp>
-<sp stage="turn/toward/slow" who="AMBROSIO"><speaker>AMBROSIO se retourne vers Loretta ; qui est toujours à genoux ; il baisse les yeux, et lui dit lentement et d'une voix troublée.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="turn/toward/slow"> se retourne vers Loretta ; qui est toujours à genoux ; il baisse les yeux, et lui dit lentement et d'une voix troublée.
+</stage>
 <p id="9">
 	<s id="1">Venu en ces lieux par hasard... ou plutôt par la volonté de la Providence, pour vous éclairer... pour vous sauver... pour vous arracher à cette vie criminelle... que le ciel qui m'inspire me donne la force de vous convaincre !...</s>
 </p>
@@ -1322,13 +1369,15 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Que lui répondras-tu alors ?</s>
 </p>
 </sp>
-<sp stage="frighten/toward" who="LORETTA"><speaker>LORETTA, avec effroi et étendant les bras vers lui.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="frighten/toward">, avec effroi et étendant les bras vers lui.
+</stage>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon père !</s>
 </p>
 </sp>
-<sp stage="watch/touch/stand/sweet" who="AMBROSIO"><speaker>AMBROSIO la regarde un instant, la voit à ses pieds pâle et tremblante ; son coeur s'émeut, des larmes s'échappent de ses yeux ; il lui prend la main, la relève, et continue avec douceur.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="watch/touch/stand/sweet"> la regarde un instant, la voit à ses pieds pâle et tremblante ; son coeur s'émeut, des larmes s'échappent de ses yeux ; il lui prend la main, la relève, et continue avec douceur.
+</stage>
 <p id="13">
 	<s id="1">Loin de moi de vouloir jeter le désespoir dans votre âme ! </s>
 	<s id="2">Coupable moi-même, je dois prier pour le pécheur, et non pas le maudire. </s>
@@ -1346,18 +1395,21 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Oui, oui, mon père, c'est Dieu qui parle par votre bouche ; sa grâce m'a touchée ; je me repentirai, j'expierai mes fautes ; j'entrerai au couvent_des_Annonciades, je vous le jure.</s>
 </p>
 </sp>
-<sp stage="estonish" who="AMBROSIO"><speaker>AMBROSIO, étonné.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="15">
 	<s id="1">Que dit-elle ?</s>
 </p>
 </sp>
-<sp stage="ruen/toward" who="LORETTA"><speaker>LORETTA, se retournant vers le peuple.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="ruen/toward">, se retournant vers le peuple.
+</stage>
 <p id="16">
 	<s id="1">Et tous, témoins de mes désordres, soyez-le de mon repentir et de ma conversion. </s>
 	<s id="2">Priez pour moi ; priez pour celui à qui je devrai mon salut.</s>
 </p>
 </sp>
-<sp who="LE PEUPLE"><speaker>TOUT LE PEUPLE, tombant à genoux.</speaker>
+<sp who="LE PEUPLE"><speaker>TOUT LE PEUPLE</speaker><stage>, tombant à genoux.
+</stage>
 <p id="17">
 	<s id="1">Gloria in excelsis ! </s>
 	<s id="2">Gloire à Fra-Ambrosio, à l'élu de Dieu !</s>
@@ -1369,12 +1421,14 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Et nous avons pu le soupçonner ! Pardonne-nous, mon père et donne-nous ta bénédiction.</s>
 </p>
 </sp>
-<sp stage="touch" who="AMBROSIO"><speaker>AMBROSIO, ému.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="touch">, ému.
+</stage>
 <p id="19">
 	<s id="1">Assez, assez, mes enfants ; je ne mérite point vos hommages.</s>
 </p>
 </sp>
-<sp stage="kneel" who="LE PEUPLE"><speaker>TOUS, à genoux.</speaker>
+<sp who="LE PEUPLE"><speaker>TOUS</speaker><stage type="kneel">, à genoux.
+</stage>
 <p id="20">
 	<s id="1">Ta bénédiction.</s>
 </p>
@@ -1389,7 +1443,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">C'est le père_Barnabé et Girolamo qui nous ont excités contre lui, qui nous ont amenés ici.</s>
 </p>
 </sp>
-<sp stage="estonish" who="AMBROSIO"><speaker>AMBROSIO, étonné.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="23">
 	<s id="1">Quoi ; Girolamo, mon serviteur !</s>
 </p>
@@ -1400,7 +1455,8 @@ madone au-dessus d'un divan.</stage>
 	<s id="2">Traînons-les dans la rue ; jetons-les  au Tibre !</s>
 </p>
 </sp>
-<sp stage="closer/push" who="LE PEUPLE"><speaker>TOUS, entourant Barnabé et Girolamo, et les entraînant de force.</speaker>
+<sp who="LE PEUPLE"><speaker>TOUS</speaker><stage type="closer/push">, entourant Barnabé et Girolamo, et les entraînant de force.
+</stage>
 <p id="25">
 	<s id="1">Au Tibre ! </s>
 	<s id="2">Au Tibre!</s>
@@ -1421,8 +1477,10 @@ madone au-dessus d'un divan.</stage>
 <stage type="shame/exit">Barnabé et Girolamo confus baissent la tête ; tout le peuple sort avec eux, et Zerline les reconduit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Ambrosio, Loretta.</head>
-<sp stage="alone" who="AMBROSIO"><speaker>AMBROSIO, seul.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Ambrosio, Loretta.
+</stage>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Oui, oui, je leur pardonne ; et du fond du coeur, pour que Dieu me pardonne aussi.</s>
 </p>
@@ -1440,12 +1498,14 @@ madone au-dessus d'un divan.</stage>
 	<s id="1">Adieu, Loretta ; je pars : embrasse-moi.</s>
 </p>
 </sp>
-<sp stage="wave/pray" who="LORETTA"><speaker>LORETTA, faisant le signe de la croix.</speaker>
+<sp who="LORETTA"><speaker>LORETTA</speaker><stage type="wave/pray">, faisant le signe de la croix.
+</stage>
 <p id="4">
 	<s id="">Non, jamais ; je vous l'ai dit.</s>
 </p>
 </sp>
-<sp stage="wave/suprise" who="AMBROSIO"><speaker>AMBROSIO, la regardant avec surprise.</speaker>
+<sp who="AMBROSIO"><speaker>AMBROSIO</speaker><stage type="wave/suprise">, la regardant avec surprise.
+</stage>
 <p id="5">
 	<s id="1">Quoi ! </s>
 	<s id="2">C'est sérieusement ? </s>

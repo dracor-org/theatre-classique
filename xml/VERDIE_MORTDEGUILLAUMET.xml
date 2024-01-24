@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,19 +30,19 @@
 			<titlePart type="sub">TRAGÉDIE EN DEUX ACTE ET EN VERS.</titlePart>
 			<titlePart type="sub">REPRÉSENTÉE POUR LA PREMIERE FOIS SUR LE THÊATRE-FRANÇAIS DE BORDEAUX, LE 11 JANVIER 1817.</titlePart>
 		</docTitle> 
-		<docDate value='1868'>1868. Tous droits réservés.</docDate>
-		<docAuthor id='VERDIÉ, Antoine'>par M. VERDIÉ</docAuthor>
+		<docDate value="1868">1868. Tous droits réservés.</docDate>
+		<docAuthor id="VERDIÉ, Antoine">par M. VERDIÉ</docAuthor>
 		<docImprint>
-			<printer id='CAVAZZA'>Bordeaux. - Imprimerie général d'émile CRUGY, rue et hôtel Saint-Siméon, 16.</printer>
+			<printer id="CAVAZZA">Bordeaux. - Imprimerie général d'émile CRUGY, rue et hôtel Saint-Siméon, 16.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="BERNAT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>BERNAT</role>, cousin de Madelon M. FRANCISQUE.</castItem>
-			<castItem><role id="BERTOUMIOU" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>BERTOUMIOU</role>, frère de Madelon M. ACHILLE.</castItem>
-			<castItem><role id="GUILLAUMET" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>GUILLAUMET</role>, sous le nom de MARTIN M. FOURNIER.</castItem>
-			<castItem><role id="ANTOINE" sex="1" type="H" statut="meunier" age='A' stat_amour='néant'>ANTOINE</role>, garçon meunier M. LEPEINTRE aîné.</castItem>
-			<castItem><role id="RAMOUNET" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>RAMOUNET</role>, ancien voisin de Bernat M. FRÉDÉRIC.</castItem>
-			<castItem><role id="MADELON" sex="2" type="H" statut="meunier" age='A' stat_amour='néant'>MADELON</role>, meunière Mme LEPEINTRE.</castItem>
-			<castItem><role id="SUZON" sex="2" type="H" statut="domestique" age='J' stat_amour='néant'>SUZON</role>, fille de Bertoumiou. Melle VIRGINIE.</castItem>
+			<castItem><role id="BERNAT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">BERNAT</role>, cousin de Madelon M. FRANCISQUE.</castItem>
+			<castItem><role id="BERTOUMIOU" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">BERTOUMIOU</role>, frère de Madelon M. ACHILLE.</castItem>
+			<castItem><role id="GUILLAUMET" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">GUILLAUMET</role>, sous le nom de MARTIN M. FOURNIER.</castItem>
+			<castItem><role id="ANTOINE" sex="1" type="H" statut="meunier" age="A" stat_amour="néant">ANTOINE</role>, garçon meunier M. LEPEINTRE aîné.</castItem>
+			<castItem><role id="RAMOUNET" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">RAMOUNET</role>, ancien voisin de Bernat M. FRÉDÉRIC.</castItem>
+			<castItem><role id="MADELON" sex="2" type="H" statut="meunier" age="A" stat_amour="néant">MADELON</role>, meunière Mme LEPEINTRE.</castItem>
+			<castItem><role id="SUZON" sex="2" type="H" statut="domestique" age="J" stat_amour="néant">SUZON</role>, fille de Bertoumiou. Melle VIRGINIE.</castItem>
 		</castList>
 		<set location="Bordeaux" country="France" periode="XIXème" gps="44.837789, -0.57918">La scène se passe devant un moulin a eau situé sur la Jalle de Blanquefort, près Bordeaux.3</set>
 </front>
@@ -50,7 +50,8 @@
 <div1 type="acte" n="1"><head>ACTE PREMIER</head>
 <stage type="decor">Le théâtre représente un moulin à eau situé sur la Jalle de Blanquefort, dans le fond et sur le coté droit de l'acteur. Au fond, et un peu en face du public, on voit au pont lui traverse la Jalle et semble conduire dans la campagne.</stage>
 <div2 type="scene" n="1"><head>SCÊNE PREMIÈRE.</head>
-<sp stage="" who="ANTOINE"><speaker>ANTOINE, sortant du moulin avec un sac vide sur le bras.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="">, sortant du moulin avec un sac vide sur le bras.
+	</stage>
 	<l id="1">Oui, je suis décidé... Je quitte de tout ce moulin ; </l>
 	<l id="2">Ce que j'y vois je me lasse à la fin ;</l>
 	<l id="3">Je veux leur faire voir, n'étant pas de la cave, </l>
@@ -95,7 +96,8 @@
 	<l id="41">Je veux lui faire voir à cet original.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Antoine, Guillaumet.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Antoine, Guillaumet.
+</stage>
 <sp who="GUILLAUMET"><speaker>GUILLAUMET.</speaker>
 	<l id="42" syll="6" part="i">De qui donc parles-tu ?</l>
 </sp>
@@ -163,11 +165,13 @@
 	<l id="87">C'est trop m'apostropher, et ton impertinence</l>
 	<l id="88">Pourrait bien à la fin lasser ma patience.</l>
 </sp>
-<sp stage="closer" who="ANTOINE"><speaker>ANTOINE, s'approchant de Guillaume.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="closer">, s'approchant de Guillaume.
+	</stage>
 	<l id="89">Je parle avec raison; oui, tu n'es qu'un câlin,</l>
 	<l id="90">Qui n'es pas dans le cas de moudre un sac de grain.</l>
 </sp>
-<sp stage="slap" who="GUILLAUMET"><speaker>GUILLAUMET, lui donnant un soufflet.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="slap">, lui donnant un soufflet.
+	</stage>
 	<l id="91">Tiens, maudit insolent, serre ça dans tes poches.</l>
 </sp>
 <sp who="ANTOINE"><speaker>ANTOINE.</speaker>
@@ -177,7 +181,8 @@
 	<l id="94">Et puis nous allons voir lequel aura beau jeu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE III. Antoine, Guillaumet, Madelon.</head>
+<div2 type="scene" n="2"><head>SCÈNE III.</head><stage> Antoine, Guillaumet, Madelon.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="95">Quel est donc ce sabbat ? D'où vient ce tintamarre ?</l>
 	<l id="96">Pour vous mettre d'accord, faut-il prendre une barre ?</l>
@@ -229,10 +234,12 @@
 <note type="L">Capon : Populairement, joueur rusé, fin et appliqué à prendre tous ses avantages. [L]</note>
 	<l id="117">Crois-tu me faire peur, dis donc, mauvais capon ?</l>
 </sp>
-<sp stage="closer" who="GUILLAUMET"><speaker>GUILLAUMET, allant vers Antoine.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="closer">, allant vers Antoine.
+	</stage>
 	<l id="118" syll="4" part="i">Ah ! C'en est trop !</l>
 </sp>
-<sp stage="pull" who="MADELON"><speaker>MADELON, le retenant.</speaker>
+<sp who="MADELON"><speaker>MADELON</speaker><stage type="pull">, le retenant.
+	</stage>
 	<l id="118" syll="2" part="m">Eh bien !</l>
 </sp>
 <sp who="GUILLAUMET"><speaker>GUILLAUMET.</speaker>
@@ -242,7 +249,8 @@
 	<l id="119">De grâce, finissez de faire ce tapage.</l>
 	<l id="120">Et toi, maudit vaurien, va-t'en à ton ouvrage.</l>
 </sp>
-<sp stage="aparte" who="ANTOINE"><speaker>ANTOINE, à part.</speaker>
+<sp who="ANTOINE"><speaker>ANTOINE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="121">Ils sont tous deux d'accord, et je vois le mic-mac ;</l>
 	<l id="122">Mais, puisque c'est ainsi, je vais prendre mon sac.</l>
 	<l id="123" syll="6" part="i">Retournons au moulin.</l>
@@ -252,7 +260,8 @@
 	<l id="123" syll="6" part="f">Voyez, il me menace.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Guillaumet, Madelon.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Guillaumet, Madelon.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="124">À quoi bon l'écouter ? Il faut lui faire grâce :</l>
 	<l id="125">Vous devez bien savoir qu'il est pauvre d'esprit,</l>
@@ -387,7 +396,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="MADELON"><speaker>MADELON, seule.</speaker>
+<sp who="MADELON"><speaker>MADELON</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="203">On aura beau prêcher que c'est une folie ;</l>
 	<l id="204">En dépit des jaloux, demain je me marie.</l>
 	<l id="205">Le parti me convient, c'est un charmant garçon ;</l>
@@ -409,7 +419,8 @@
 	<l id="220">Et, pour le faire aller, je veux me prendre un homme.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Madelon, Antoine.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Madelon, Antoine.
+</stage>
 <sp who="ANTOINE"><speaker>ANTOINE.</speaker>
 	<l id="221" syll="3" part="i">Me voici.</l>
 </sp>
@@ -525,7 +536,8 @@
 <stage type="break/think/get">Il veut le fouler aux pieds, réfléchit, et le ramasse.</stage>
 	<l id="302">Non, je le garde encor, de peur de m'enrhumer.</l>
 </sp>
-<sp stage="laugh" who="MADELON"><speaker>MADELON, riant.</speaker>
+<sp who="MADELON"><speaker>MADELON</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="303">Comment diable as-tu fait pour fourrer dans ta tête</l>
 	<l id="304">Que j'avais le dessein de faire ta conquête,</l>
 	<l id="305">Toi qui, depuis deux ans près de moi, comme un sot,</l>
@@ -615,7 +627,8 @@
 <stage type="exit">Il sort sur le pont.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Madelon, Guillaumet.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Madelon, Guillaumet.
+</stage>
 <sp who="GUILLAUMET"><speaker>GUILLAUMET.</speaker>
 	<l id="367">Ma chère Madelon, faites-moi donc comprendre</l>
 	<l id="368">D'où viennent les propos qu'Antoine fait entendre ;</l>
@@ -681,7 +694,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp stage="alone" who="GUILLAUMET"><speaker>GUILLAUMET, seul.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="407">Il faut en convenir, ma vie est agréable :</l>
 	<l id="408">Je me lève du lit et vais me mettre à table ;</l>
 	<l id="409">La meunière m'adore, et veut absolument</l>
@@ -709,7 +723,8 @@
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="MADELON"><speaker>MADELON, seule.</speaker>
+<sp who="MADELON"><speaker>MADELON</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="429">Allons, c'est convenu ; pas plus tard que demain,</l>
 	<l id="430">On me donne le nom de Madame Martin.</l>
 	<l id="431">Il faut en convenir, c'est une rude épreuve</l>
@@ -720,7 +735,8 @@
 	<l id="436">Et je voyais l'instant que j'en tombais malade.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. MADELON, GUILLAUMET.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> MADELON, GUILLAUMET.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="437">Ah ! Vous voilà, mon cher ? Eh bien ! Notre voisin,</l>
 	<l id="438" syll="3" part="i">Qu'a-t-il dit ?</l>
@@ -748,14 +764,16 @@
 	<l id="450">Eh ! Tenez, justement j'aperçois mon cousin.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Guillaumet, Madelon, Bernat.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Guillaumet, Madelon, Bernat.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="451" syll="6" part="i">Bonjour, mon cher Bernat.</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
 	<l id="451" syll="2" part="m">Vonjour.</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="451" syll="4" part="f">Ah ! Misérable !</l>
 <stage type="toward">À Madelon.</stage>
 	<l id="452">Pardon, je vais rentrer pour vous mettre la table.</l>
@@ -772,7 +790,8 @@
 	<l id="454" syll="5" part="f">Ah ! Satre d'un sab[b]at !</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. MADELON, BERNAT.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> MADELON, BERNAT.
+</stage>
 <stage type="away/back">Bernat, pendant un moment, va vers le moulin et revient troublé ; il ne peut se contenir ; Il a un gros bâton duquel il frappe.</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="455">Eh bien ! Qu'avez-vous donc ? D'où vient cette surprise ?</l>
@@ -797,7 +816,8 @@
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="462">Pas plus tard que demain je vous ferai danser.</l>
 </sp>
-<sp stage="quiet" who="BERNAT"><speaker>BERNAT, moins troublé.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="quiet">, moins troublé.
+	</stage>
 	<l id="463">Et dis-moi, le parti paraît-il conbénable ?</l>
 </sp>
 <sp who="MADELON"><speaker>MADELON.</speaker>
@@ -887,7 +907,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="BERNAT"><speaker>BERNAT, seul.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="alone">, seul.
+</stage>
 <stage type="agitated">Il s'anime par degrés.</stage>
 	<l id="507">Me serais-je trompé ? Serait-ce une méprise ?</l>
 	<l id="508">L'ai-je bien réconnu, malgré qu'il se déguise ?</l>
@@ -906,8 +927,10 @@
 <stage type="hit/stay">Il semble le frapper de son bâton et reste en position.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE VI. BERNAT, en posture; GUILLAUMET, la figure enfarinée.</head>
-<sp stage="proud/listen" who="GUILLAUMET"><speaker>GUILLAUMET, effrontément et sans être entendu de Bernal.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE VI.</head><stage> BERNAT, en posture; GUILLAUMET, la figure enfarinée.
+</stage>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="proud/listen">, effrontément et sans être entendu de Bernal.
+	</stage>
 	<l id="521">Allons, ne craignons rien, je sais qu'il est capon,</l>
 	<l id="522">Je le ferai trembler en lui montrant du front ;</l>
 	<l id="523">D'ailleurs, je le connais, c'est une bonne bête.</l>
@@ -918,7 +941,8 @@
 <stage type="aparte">À part.</stage>
 	<l id="526" syll="6" part="i">Il ne me remet plus.</l>
 </sp>
-<sp stage="aparte" who="BERNAT"><speaker>BERNAT, à part.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="526" syll="6" part="f">Ce n'est pas Guillaumet.</l>
 <stage type="loud/closer">Haut, en s'approchant.</stage>
 	<l id="527">Je boulais bous parler concernant ma cosine.</l>
@@ -931,7 +955,8 @@
 	<l id="532">Nous autres, voyez-vous, c'est comme une manie,</l>
 	<l id="533">Nous ne saurions aller sans être farineux.</l>
 </sp>
-<sp stage="aparte" who="BERNAT"><speaker>BERNAT, à part.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="534">C'est bien la même boix qu'abait ce maudit gueux.</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
@@ -980,7 +1005,8 @@
 	<l id="549">Je te connais, coquin, et ton déguisement</l>
 	<l id="550">Ne put te dérover à mon uil clairboyant.</l>
 </sp>
-<sp stage="anger/away" who="GUILLAUMET"><speaker>GUILLAUMET, avec colère, fait reculer Bernat.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="anger/away">, avec colère, fait reculer Bernat.
+	</stage>
 	<l id="551">Qu'appelez-vous coquin ! D'où vient cette menace ?</l>
 	<l id="552">Avez-vous bien le front de me le dire en face ?</l>
 	<l id="553">Pour qui me prenez-vous ? Je ne sais qui me tient</l>
@@ -1006,7 +1032,8 @@
 	<l id="563">Ne crois pas m'échapper ; il faut que je me benge</l>
 	<l id="564">Du dégât que tu fis dans toute ma bendange.</l>
 </sp>
-<sp stage="kneel" who="GUILLAUMET"><speaker>GUILLAUMET, à genoux.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="kneel">, à genoux.
+	</stage>
 	<l id="565">Hélas ! Mon cher Bernat, daignez me pardonner ;</l>
 	<l id="566">Vous avez, je le sais, le droit de me blâmer.</l>
 	<l id="567">Oui, mon très cher cousin, j'ai tort, je le confesse ;</l>
@@ -1035,8 +1062,10 @@
 <stage type="exit">Il court vers le moulin.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. GUILLAUMET, BERNAT, RAMOUNET.</head>
-<sp stage="stop" who="RAMOUNET"><speaker>RAMOUNET, arrêtant Bernât.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> GUILLAUMET, BERNAT, RAMOUNET.
+</stage>
+<sp who="RAMOUNET"><speaker>RAMOUNET</speaker><stage type="stop">, arrêtant Bernât.
+	</stage>
 	<l id="583">Bonjour, mon cher Bernât ; où cours-tu de la sorte ?</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
@@ -1049,10 +1078,12 @@
 	<l id="588">C'est moi qui te tirai de ce lac de piquette</l>
 	<l id="589">Où te précipita l'infâme Guillaumet.</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="590" syll="6" part="i">Encore un contre-temps.</l>
 </sp>
-<sp stage="hugh" who="BERNAT"><speaker>BERNAT, le serrant dans ses bras.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="hugh">, le serrant dans ses bras.
+	</stage>
 	<l id="590" syll="6" part="f">Quoi ! c'est toi, Ramounet ?</l>
 	<l id="591">Ah ! Daigne m'excuser ! Le truvle, la colère,</l>
 	<l id="592">La furur... Le coquin me la payera, j'espère.</l>
@@ -1068,16 +1099,19 @@
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
 	<l id="599">L'ouvlier, me dis-tu ? non ; apprends que le traître...</l>
 </sp>
-<sp stage="toward" who="GUILLAUMET"><speaker>GUILLAUMET, à Bernat.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="toward">, à Bernat.
+	</stage>
 	<l id="600">Bernat, vous me perdez en me faisant connaître.</l>
 <stage type="toward">À Ramounet.</stage>
 	<l id="601">Mon cher, pour le calmer, j'ose compter sur vous ;</l>
 	<l id="602">Daignez, par vos conseils, apaiser son courroux.</l>
 </sp>
-<sp stage="aparte" who="BERNAT"><speaker>BERNAT, à part.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="603" syll="6" part="i">Je ne sais où j'en suis.</l>
 </sp>
-<sp stage="toward" who="RAMOUNET"><speaker>RAMOUNET, à Guillaumet.</speaker>
+<sp who="RAMOUNET"><speaker>RAMOUNET</speaker><stage type="toward">, à Guillaumet.
+	</stage>
 	<l id="603" syll="6" part="f">Le désespoir l'accable.</l>
 	<l id="604">Victime d'un bourreau, Bernat est misérable.</l>
 	<l id="605">Si vous étiez instruit d'où provient sa douleur,</l>
@@ -1088,7 +1122,8 @@
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
 	<l id="609" syll="6" part="i">Non, je bux me benger.</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="609" syll="6" part="f">Oh ! Le triste embarras !</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
@@ -1105,13 +1140,15 @@
 <sp who="RAMOUNET"><speaker>RAMOUNET.</speaker>
 	<l id="615" syll="6" part="i">Lui ! Se pourrait-il bien ?</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="615" syll="6" part="f">Ô fatale aventure !</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
 	<l id="616">Reconnais, dans ses traits, ce monstre de nature.</l>
 </sp>
-<sp stage="toward" who="GUILLAUMET"><speaker>GUILLAUMET, à Ramounet.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="toward">, à Ramounet.
+	</stage>
 	<l id="617">Il s'abuse, il vous trompe, et son cruel état...</l>
 </sp>
 <sp who="RAMOUNET"><speaker>RAMOUNET.</speaker>
@@ -1123,7 +1160,8 @@
 	<l id="621">Vous êtes dans l'erreur, et de pareils discours...</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Bernat, Ramounet, Guillaumet, Madelon.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Bernat, Ramounet, Guillaumet, Madelon.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="622" syll="6" part="i">Quel bruit faites-vous donc ?</l>
 </sp>
@@ -1186,7 +1224,8 @@
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="649" syll="6" part="i">Mais que vous a-t-il fait ?</l>
 </sp>
-<sp who="GUILLAUMET"><speaker>GUILLAUMET, à Madelon.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage>, à Madelon.
+	</stage>
 	<l id="649" syll="6" part="f">Ils perdent la raison.</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
@@ -1219,14 +1258,17 @@
 	<l id="662">Et laissons à loisir raisonner ces deux fous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Bernat, Ramounet, Guillaumet, Madelon, Bertoumiou, Suzon.</head>
-<sp stage="show" who="BERTOUMIOU"><speaker>BERTOUMIOU, montrant le moulin.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Bernat, Ramounet, Guillaumet, Madelon, Bertoumiou, Suzon.
+</stage>
+<sp who="BERTOUMIOU"><speaker>BERTOUMIOU</speaker><stage type="show">, montrant le moulin.
+	</stage>
 	<l id="663" syll="6" part="i">Tiens, nous sommes rendus.</l>
 </sp>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="663" syll="6" part="f">Ah ! Bon, voici mon frère.</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="664">Ouf ! Me voilà flambé : Suzon avec son père.</l>
 </sp>
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
@@ -1262,13 +1304,15 @@
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
 	<l id="671" syll="6" part="i">Tiens, te voilà, Bernat ?</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="671" syll="6" part="f">Contre moi tout conspire.</l>
 </sp>
 <sp who="BERNAT"><speaker>BERNAT.</speaker>
 	<l id="672" syll="6" part="i">Et Ramounet aussi.</l>
 </sp>
-<sp stage="toward" who="BERTOUMIOU"><speaker>BERTOUMIOU, à Suzon.</speaker>
+<sp who="BERTOUMIOU"><speaker>BERTOUMIOU</speaker><stage type="toward">, à Suzon.
+	</stage>
 	<l id="672" syll="6" part="f">Que le diable t'étire !</l>
 	<l id="673">As-tu peur qu'on t'enlève ? Eh ! Laisse-moi jaser</l>
 	<l id="674">Avec deux bons amis que je veux embrasser.</l>
@@ -1279,20 +1323,23 @@
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
 	<l id="676">Qui peut te faire peur ? D'où vient ton épouvante ?</l>
 </sp>
-<sp stage="show" who="SUZON"><speaker>SUZON, lui montrant Guillaumet.</speaker>
+<sp who="SUZON"><speaker>SUZON</speaker><stage type="show">, lui montrant Guillaumet.
+	</stage>
 	<l id="677">Je le reconnais bien, c'est là mon prétendu.</l>
 </sp>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="678" syll="6" part="i">Quel est donc ce discours !</l>
 </sp>
-<sp stage="aparte" who="GUILLAUMET"><speaker>GUILLAUMET, à part.</speaker>
+<sp who="GUILLAUMET"><speaker>GUILLAUMET</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="678" syll="6" part="f">Hay ! Hay ! Je suis perdu !</l>
 </sp>
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
 <note type="L">Gaule : Grande perche. C'est avec une gaule qu'on abat les noix. [L]</note>
 	<l id="679">Ah ! Mon ami Bernat, prête-moi cette gaule !</l>
 </sp>
-<sp stage="" who="BERNAT"><speaker>BERNAT, sans loi abandonner le bâton.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="">, sans loi abandonner le bâton.
+	</stage>
 	<l id="680" syll="6" part="i">Mais pourquoi faire donc ?</l>
 </sp>
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
@@ -1360,7 +1407,8 @@
 <stage type="toward">À Guillaumet.</stage>
 	<l id="717">Plût à Diu le prémier t'ùt serbi d'arsenic !</l>
 </sp>
-<sp stage="toward" who="BERTOUMIOU"><speaker>BERTOUMIOU, à Bernat.</speaker>
+<sp who="BERTOUMIOU"><speaker>BERTOUMIOU</speaker><stage type="toward">, à Bernat.
+	</stage>
 	<l id="718">À l'égard des poulets, chez nous ça fait berni[que].</l>
 <stage type="toward">À Madelon.</stage>
 	<l id="719">Enfin, pendant six mois, lui parlant de tendresse,</l>
@@ -1469,7 +1517,8 @@
 <stage type="exit">Il sort avec précipitation.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Hernat, Bertoumiou, Ramounet, Madelon, Suzon.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Hernat, Bertoumiou, Ramounet, Madelon, Suzon.
+</stage>
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="791" syll="6" part="i">Que va-t-il devenir ?</l>
 </sp>
@@ -1526,7 +1575,8 @@
 <stage type="exit/together">Ils font mine de vouloir rentrer.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Les précédents, Antoine, marchant a pas lents, les bras croisés.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Les précédents, Antoine, marchant a pas lents, les bras croisés.
+</stage>
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
 	<l id="821">Que nous veut ce garçon ? Il parait fort chagrin.</l>
 </sp>
@@ -1641,7 +1691,8 @@
 	<l id="896">Différer quelque temps de se mettre en ménage.</l>
 	<l id="897">D'ailleurs, je ne veux point me chercher d'embarras.</l>
 </sp>
-<sp stage="pull" who="BERNAT"><speaker>BERNAT, le tirant de côté.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="pull">, le tirant de côté.
+	</stage>
 	<l id="898">Écoute, mon ami, crois-moi, n'épouse pas,</l>
 	<l id="899">Pourquoi tu pourrais vien entrer dans la frairie.</l>
 </sp>
@@ -1672,7 +1723,8 @@
 	<l id="913">Je vous aime toujours, et ne puis être heureux</l>
 	<l id="914">Que lorsqu'il vous plaira satisfaire mes voeux.</l>
 </sp>
-<sp stage="embarrassed" who="MADELON"><speaker>MADELON, avec embarras.</speaker>
+<sp who="MADELON"><speaker>MADELON</speaker><stage type="embarrassed">, avec embarras.
+	</stage>
 	<l id="915" syll="6" part="i">Antoine, tu sais bien...</l>
 </sp>
 <sp stage="interrupt" who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>
@@ -1691,7 +1743,8 @@
 <sp who="MADELON"><speaker>MADELON.</speaker>
 	<l id="919" syll="6" part="f">Moi, je ne suis plus triste.</l>
 </sp>
-<sp stage="aparte" who="BERNAT"><speaker>BERNAT, à part.</speaker>
+<sp who="BERNAT"><speaker>BERNAT</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="920">Encore un candidat à mettre sur la liste !</l>
 </sp>
 <sp who="BERTOUMIOU"><speaker>BERTOUMIOU.</speaker>

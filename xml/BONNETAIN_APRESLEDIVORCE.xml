@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>APRÈS LE DIVORCE, PIÈCE</title>
-				<author type="texte" ISNI="0000 0001 0800 7969">BONNETAIN, Paul (1858-1899)</author>>
+				<author type="texte" ISNI="0000 0001 0800 7969">BONNETAIN, Paul (1858-1899)</author>&gt;
 			</titleStmt>
 			<publicationStmt>	
 				<publisher>publié par Paul FIEVRE, février 2017</publisher>
@@ -29,17 +29,17 @@
 			<titlePart type="sub">Représenté pour la première fois au Théâtre d'Application le jeudi 16 janvier 1890.</titlePart>
 			<titlePart type="sub">PRIX : UN FRANC</titlePart>
 		</docTitle> 
-		<docDate value='1890'>M DCCC XC</docDate>
-		<docAuthor id='BONNETAIN, Paul' bio='bonnetain'>PAUL BONNETAIN</docAuthor>
+		<docDate value="1890">M DCCC XC</docDate>
+		<docAuthor id="BONNETAIN, Paul" bio="bonnetain">PAUL BONNETAIN</docAuthor>
 		<docImprint>
-			<privilege id=''><head></head>
+			<privilege id=""><head/>
 			<p>Tous droits réservés.</p>
 			</privilege>
-			<acheveImprime id=''></acheveImprime>
-			<printer id='LEMERRE'>PARIS ARLPHONSE LEMERRE, EDITEUR, 23-31, PARRAGE CHOISEUL, 23-31</printer>
+			<acheveImprime id=""/>
+			<printer id="LEMERRE">PARIS ARLPHONSE LEMERRE, EDITEUR, 23-31, PARRAGE CHOISEUL, 23-31</printer>
 		</docImprint>
 		<performance>
-			<premiere date='1662' location='Théâtre du Marais'>Représenté pour la première fois en 1662 au Théâtre du Marais.</premiere>
+			<premiere date="1662" location="Théâtre du Marais">Représenté pour la première fois en 1662 au Théâtre du Marais.</premiere>
 		</performance>
 	<div type="dedicace"><adresse>À MADAME ALPHONSE DAUDET</adresse>
 		<head>Cher Madame,</head>
@@ -49,9 +49,9 @@
 		<p>Paris, 22 janvier 1890.</p>
 	</div>
 	<castList><head>PERSONNAGES.</head>
-	   <castItem><role id="BLAISY" sex="1" type="H" statut='commandant' age='A' stat_amour='néant'>BLAISY</role>, père, 55 ans. M, RAYMOND* de l'Odéon. M. RAYMOND de l'Odéon.</castItem>
-	   <castItem><role id="RENÉ BLAISY" sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>RENÉ BLAISY</role>, le fils, 26 ans. M. ANTOINE, du Théâtre Libre M. LEGRAND du Théâtre Libre.</castItem>
-	   <castItem><role id="MADAME BLAISY" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME BLAISY</role>, 45 ans, Melle BARNY du Théâtre Libre, Melle DERIGNY de l'Odéon.</castItem>
+	   <castItem><role id="BLAISY" sex="1" type="H" statut="commandant" age="A" stat_amour="néant">BLAISY</role>, père, 55 ans. M, RAYMOND* de l'Odéon. M. RAYMOND de l'Odéon.</castItem>
+	   <castItem><role id="RENÉ BLAISY" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">RENÉ BLAISY</role>, le fils, 26 ans. M. ANTOINE, du Théâtre Libre M. LEGRAND du Théâtre Libre.</castItem>
+	   <castItem><role id="MADAME BLAISY" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME BLAISY</role>, 45 ans, Melle BARNY du Théâtre Libre, Melle DERIGNY de l'Odéon.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">À Paris, en 1889.</set>
 	<note>La première distribution est celle de la création dans le salon de M. et Mme Alphonse Daudet, le 19 avril 1888 ; - le seconde celle de l'unique représentation publique, au Théâtre d'Application, le 16 janvier 1890.</note>
@@ -60,7 +60,8 @@
 <div1 type="act" n="1"><head>APRÈS LE DIVORCE</head>
 <stage type="decor">Un salon fumoir dans un appartement de garçon. Porte au fond et à gauche. Cheminée à droite, panoplie d'armes contre un mur. Le portrait de Mme Blaisy accroché bien en vue. Nécessaire de fumeur et boîte à cigare ouverte sur une  petite table. - Au lever du rideau, René Blaisy, en veston du matin, le bras droit eu écharpe, est assis la tête baissée. Prés de lui, sur une table, des lettres, des journaux encore sous bande et un service à thé.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="alone" who="RENÉ"><speaker>RENÉ, seul. </speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="alone">, seul. 
+</stage>
 <stage type="noise/watch/stress">On entend unirait de voix, il lève la tête, l'air impatienté.</stage>
 <p id="1">
 	<s id="1">Qu'est-ce qu'il y a encore ?... </s>
@@ -68,8 +69,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE II. René, Monsieur Blaisy.</head>
-<sp stage="entrance" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, entrant au fond.</speaker>
+<div2 type="scene" n=""><head>SCÈNE II.</head><stage> René, Monsieur Blaisy.
+</stage>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="entrance">, entrant au fond.
+</stage>
 <p id="1">
 	<s id="1">Ne gronde pas ton domestique... </s>
 	<s id="2">C'est moi ! </s>
@@ -84,13 +87,15 @@
 	<s id="1">Ce n'est rien, au moins, cette blessure ?...</s>
 </p>
 </sp>
-<sp stage="touch" who="RENÉ"><speaker>RENÉ, après une poignée de main glaciale.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="touch">, après une poignée de main glaciale.
+</stage>
 <p id="4">
 	<s id="1">Non, rien... </s>
 	<s id="2">Je vous remercie, mon père.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, l'air peu à peu gêné de l'accueil de son fils.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="embarrassed">, l'air peu à peu gêné de l'accueil de son fils.
+</stage>
 <p id="5">
 	<s id="1">Une piqûre à la face interne de l'avant-bras, n'est-ce pas ?... </s>
 	<s id="2">J'ai lu ça dans les journaux. </s>
@@ -124,7 +129,8 @@
 	<s id="1">Encore une histoire de femme, je parie ?</s>
 </p>
 </sp>
-<sp stage="sad" who="RENÉ"><speaker>RENÉ, avec amertume.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="sad">, avec amertume.
+</stage>
 <p id="10">
 	<s id="1">Oui !</s>
 </p>
@@ -136,7 +142,8 @@
 	<s id="3">Une fois comme ça, en passant.</s>
 </p>
 </sp>
-<sp stage="continue" who="RENÉ"><speaker>RENÉ, même ton.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="continue">, même ton.
+</stage>
 <p id="12">
 	<s id="1">En passant !... De même que vous êtes venu prendre de mes nouvelles en passant !</s>
 </p>
@@ -160,7 +167,8 @@
 	<s id="2">Un bobo!</s>
 </p>
 </sp>
-<sp satge="closer/touch" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, se rapprochant et lui prenant la main..</speaker>
+<sp satge="closer/touch" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage>, se rapprochant et lui prenant la main..
+</stage>
 <p id="16">
 	<s id="1">Mais tu as l'air malade !... </s>
 	<s id="2">Voyons, tu souffres ? </s>
@@ -170,12 +178,14 @@
 	<s id="1">Pourquoi donc cette mine de déterré ?</s>
 </p>
 </sp>
-<sp stage="stand" who="RENÉ"><speaker>RENÉ, voulant se lever.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="stand">, voulant se lever.
+</stage>
 <p id="18">
 	<s id="1">Je vais très bien..., très bien..., je vous jure.</s>
 </p>
 </sp>
-<sp stand="sit" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, le forçant doucement à se rasseoir.</speaker>
+<sp stand="sit" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage>, le forçant doucement à se rasseoir.
+</stage>
 <p id="19">
 	<s id="1">Tu as du chagrin, alors !... </s>
 	<s id="2">Elle t'a trompé ! </s>
@@ -208,7 +218,8 @@
 	<s id="1">On en souffre !</s>
 </p>
 </sp>
-<sp stage="stand" who="RENÉ"><speaker>RENÉ, se levant.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="stand">, se levant.
+</stage>
 <p id="24">
 	<s id="1">Mieux vaut souffrir que faire souffrir les autres !</s>
 </p>
@@ -251,7 +262,8 @@
 </p>
 <stage type="show">Il lui montre la boite.</stage>
 </sp>
-<sp stage="get/sit" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, prenant un cigare, en coupant le bout et s'asseyant en face de lui.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="get/sit">, prenant un cigare, en coupant le bout et s'asseyant en face de lui.
+</stage>
 <p id="31">
 	<s id="1">C'est le docteur Fleury qui te soigne ?</s>
 </p>
@@ -262,7 +274,8 @@
 </p>
 <stage type="watch">À la dérobée il regarde l'heure a sa montre.</stage>
 </sp>
-<sp stage="watch" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, surprenant ce geste.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="watch">, surprenant ce geste.
+</stage>
 <p id="33">
 	<s id="1">Bête que je suis !... </s>
 	<s id="2">Tu attends quelqu'un et je te gêne !... </s>
@@ -273,7 +286,8 @@
 </p> 
 <stage type="light">Il allume son cigare.</stage>
 </sp>
-<sp stage="nervous" who="RENÉ"><speaker>RENÉ, nerveux.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="nervous">, nerveux.
+</stage>
 <p id="34">
 	<s id="1">Je le regrette, mais c'est encore une fausse supposition... </s>
 	<s id="2">J'attends bien quelqu'un..., avec qui je ne désirerais pas vous faire rencontrer..., mais ce n'est pas ce que vous croyez... </s>
@@ -281,7 +295,8 @@
 </p>
 <stage type="sit">Il s'assoit.</stage>
 </sp>
-<sp stage="surprise" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, surprenant ce geste.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="surprise">, surprenant ce geste.
+</stage>
 <p id="35">
 	<s id="1">Ah ! </s>
 </p>
@@ -330,7 +345,8 @@
 	<s id="1">Pourquoi mens-tu ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="RENÉ"><speaker>RENÉ, l'air gêné.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="embarrassed">, l'air gêné.
+</stage>
 <p id="44">
 	<s id="1">Je mens, moi ? </s>
 	<s id="2">Mais je ne vous ai rien dît!</s>
@@ -365,7 +381,8 @@
 	<s id="1">C'est ta mère, sans doute, qui t'a dit de me traiter ainsi ?</s>
 </p>
 </sp>
-<sp stage="stand/serious" who="RENÉ"><speaker>RENÉ, se levant, très grave.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="stand/serious">, se levant, très grave.
+</stage>
 <p id="49">
 	<s id="1">Ah ! </s>
 	<s id="2">Pardon !... </s>
@@ -373,7 +390,8 @@
 	<s id="4">Je ne vous demande que ça !... que ça !</s>
 </p>
 </sp>
-<sp stage="animate" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, s'animant.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="animate">, s'animant.
+</stage>
 <p id="50">
 	<s id="1">Alors, qu'elle me laisse mon fils ! </s>
 	<s id="2">Qu'elle ne travaille plus à m'aliéner...</s>
@@ -403,7 +421,8 @@
 	<s id="2">Et puis, à quoi bon réveiller le passé ? Il n'est pas si gai !</s>
 </p>
 </sp>
-<sp stage="nervous" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, s'animant davantage.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="nervous">, s'animant davantage.
+</stage>
 <p id="54">
 	<s id="1">Pourquoi m'y forces-tu ? </s>
 	<s id="2">Pourquoi n'es-tu plus le même ? </s>
@@ -452,7 +471,8 @@
 	<s id="1">Je n'ai pas à vous juger, vous venez de le dire.</s>
 </p>
 </sp>
-<sp stage="disdain" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, haussant les épaules.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="disdain">, haussant les épaules.
+</stage>
 <p id="62">
 	<s id="1">Et, sans doute, tes préférences sont allées aussi du côté où l'on t'aimait le mieux ?</s>
 </p>
@@ -486,7 +506,8 @@
 	<s id="5">Et tu pars de là pour partager arbitrairement entre ton père et ta mère !...</s>
 </p>
 </sp>
-<sp stage="smile/sad" who="RENÉ"><speaker>RENÉ, souriant, tristement.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="smile/sad">, souriant, tristement.
+</stage>
 <p id="68">
 	<s id="1">Chut, mon père ! </s>
 	<s id="2">Il m'a bien fallu, à vingt ans, apprendre des choses...</s>
@@ -505,7 +526,8 @@
 	<s id="6">Demain... dans quelques jours... dans quelque temps, vous me reverrez tel qu'avant...</s>
 </p>
 </sp>
-<sp stage="laugh" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, ricanant.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="laugh">, ricanant.
+</stage>
 <p id="71">
 	<s id="1">Tel qu'avant !</s>
 </p>
@@ -540,7 +562,8 @@
 	<s id="3">Eh bien, je vais la voir, ta mère, et lui dire qu'elle n'a pas le droit, m'entends-tu, de te dicter...</s>
 </p>
 </sp>
-<sp stage="quick" who="RENÉ"><speaker>RENÉ, vivement.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="quick">, vivement.
+</stage>
 <p id="77">
 	<s id="1">Vous ne ferez pas cela ! </s>
 	<s id="2">C'est faux, d'abord. </s>
@@ -574,7 +597,8 @@
 </p> 
 <stage type="hugh">Il cherche à l'étreindre.</stage>
 </sp>
-<sp stage="afflicted" who="RENÉ"><speaker>RENÉ, touché, mais se refusant encore.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="afflicted">, touché, mais se refusant encore.
+</stage>
 <p id="82">
 	<s id="">Papa !...</s>
 </p>
@@ -610,13 +634,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes, Le Domestique, au dehors.</head>
-<sp stage="location" who="LE DOMESTIQUE"><speaker>LA VOIX DU DOMESTIQUE, au dehors.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes, Le Domestique, au dehors.
+</stage>
+<sp who="LE DOMESTIQUE"><speaker>LA VOIX DU DOMESTIQUE</speaker><stage type="location">, au dehors.
+</stage>
 <p id="1">
 	<s id="1">Oui, monsieur.</s>
 </p>
 </sp>
-<sp stage="toward/closer" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, à René qui revient vers lui.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="toward/closer">, à René qui revient vers lui.
+</stage>
 <p id="1">
 	<s id="1">Je ne te croyais pas cruel.</s>
 </p>
@@ -629,7 +656,8 @@
 	<s id="4">Mon pauvre père !</s>
 </p>
 </sp>
-<sp stage="cry/dress" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, essuyant un commencement de larme et prenant son chapeau.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="cry/dress">, essuyant un commencement de larme et prenant son chapeau.
+</stage>
 <p id="3">
 	<s id="1">Enfin !... </s>
 	<s id="2">C'est la vie qui veut ça, n'est-ce pas ?... </s>
@@ -647,7 +675,8 @@
 	<s id="1">Je n'y manquerai pas.</s>
 </p>
 </sp>
-<sp stage="away/back" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, pirouettant sur ses talons, puis revenant.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="away/back">, pirouettant sur ses talons, puis revenant.
+</stage>
 <p id="5">
 	<s id="1">Dis donc, mon enfant, c'est assez 1890, la petite scène que nous venons de jouer ! </s>
 	<s id="2">Le père divorcé s'attendrissant chez son fils, et le fils le congédiant parce qu'il attend une... amie !... </s>
@@ -658,7 +687,8 @@
 	<s id="1">Au revoir, mon petit René.</s>
 </p>
 </sp>
-<sp stage="touch" who="RENÉ"><speaker>RENÉ, lui serrant la main comme à la scène II.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="touch">, lui serrant la main comme à la scène II.
+</stage>
 <p id="7">
 	<s id="1">Vous pouviez mieux sortir, mon père ! </s>
 	<s id="2">Vous m'aviez remué, tout à l'heure... </s>
@@ -689,12 +719,14 @@
 	<s id="3">Au revoir.</s>
 </p>
 </sp>
-<sp stage="strong" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, violemment.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="strong">, violemment.
+</stage>
 <p id="12">
 	<s id="1">Et moi je veux que tu t'expliques, je le veux !</s>
 </p>
 </sp>
-<sp stage="stress/quiet" who="RENÉ"><speaker>RENÉ, violemment, mais d'un ton plus contenu.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="stress/quiet">, violemment, mais d'un ton plus contenu.
+</stage>
 <p id="13">
 	<s id="1">Vous le voulez ? </s>
 	<s id="2">Vous le... voulez ? </s>
@@ -726,7 +758,8 @@
 	<s id="1">Et le petit Vermot a-t-il refusé d'aller avec toi sur le pré parce que c'est à ton bras et non au mien que ta mère entre chez sa mère ?</s>
 </p>
 </sp>
-<sp stage="sad" who="RENÉ"><speaker>RENÉ, avec amertume.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="sad">, avec amertume.
+</stage>
 <p id="16">
 	<s id="1">Il y a d'autres refus que celui-là ! </s>
 	<s id="2">J'en sais quelque chose !</s>
@@ -738,7 +771,8 @@
 	<s id="2">Qu'est-ce qu'on t'a refusé, dis ?</s>
 </p>
 </sp>
-<sp stage="anger" who="RENÉ"><speaker>RENÉ, avec emportement.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="anger">, avec emportement.
+</stage>
 <p id="18">
 	<s id="l">Vous voulez le savoir : eh bien, tant pis, mon père, vous le saurez... </s>
 	<s id="2">On m'a refusé le bonheur ! </s>
@@ -828,19 +862,22 @@
 	<s id="">C'est vrai ! Je t'ai aussi ruiné !</s>
 </p>
 </sp>
-<sp stage="exhaltation" who="RENÉ"><speaker>RENÉ, avec feu.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="exhaltation">, avec feu.
+</stage>
 <p id="29">
 	<s id="1">Ô papa, vous savez bien que ça, je ne vous le reprocherai jamais.</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, avec colère.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="30">
 	<s id="1">Ça, non ; mais le reste ! </s>
 	<s id="2">Appelle-moi donc père dénaturé ! </s>
 	<s id="3">Tu le penses !</s>
 </p>
 </sp>
-<sp stage="sad" who="RENÉ"><speaker>RENÉ, tristement.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="sad">, tristement.
+</stage>
 <p id="31">
 	<s id="1">Vous me voyez malheureux et vous me parlez ainsi ! </s>
 	<s id="2">Puisque je ne vous reproche rien ! </s>
@@ -853,7 +890,8 @@
 	<s id="9">Je tâcherai d'oublier.</s>
 </p>
 </sp>
-<sp stage="silence" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, après un silence.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="silence">, après un silence.
+</stage>
 <p id="32">
 	<s id="1">Ta mère sait ton échec ?</s>
 </p>
@@ -888,7 +926,8 @@
 	<s id="4">Dans son désespoir elle n'a pas laissé échapper un seul mot contre vous, un seul !...</s>
 </p>
 </sp>
-<sp stage="strong" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, violemment.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="strong">, violemment.
+</stage>
 <p id="38">
 	<s id="1">Il n'aurait plus manqué que ça !... </s>
 	<s id="2">Qu'elle pleure, c'est ce qu'elle a de mieux à faire !</s>
@@ -923,7 +962,8 @@
 	<s id="5">- Elle m'a fait taire : « C'est ton père, m'a-t-elle dit, et j'ai bien pardonné, moi ! »</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, avec éclat.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="anger">, avec éclat.
+</stage>
 <p id="42">
 	<s id="1">Et tu as obéi ! </s>
 	<s id="2">Le fils a excusé le père !... </s>
@@ -941,36 +981,42 @@
 	<s id="14">Et ne parler des siens...</s>
 </p>
 </sp>
-<sp stage="closer" who="RENÉ"><speaker>RENÉ, s'avançant vers son père.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="closer">, s'avançant vers son père.
+</stage>
 <p id="43">
 	<s id="1">Des siens ?</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, toujours emporté.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="anger">, toujours emporté.
+</stage>
 <p id="44">
 	<s id="1">Des siens ! </s>
 	<s id="2">Et je me les suis laissé donner tous ! </s>
 	<s id="3">Car j'avais dans ma poche, signé d'elle, librement, l'aveu de sa faute.</s>
 </p>
 </sp>
-<sp stage="closer/faint" who="RENÉ"><speaker>RENÉ, plus près encore et hagard.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="closer/faint">, plus près encore et hagard.
+</stage>
 <p id="45">
 	<s id="1">De sa faute... à ma mère ?</s>
 </p>
 </sp>
-<sp stage="away/emabrrassed/low" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, reculant, effaré de ce qu'il a dit, avec le jeu de physionomie d'un homme qui voudrait rattraper ses paroles, et presque à voix basse.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="away/emabrrassed/low">, reculant, effaré de ce qu'il a dit, avec le jeu de physionomie d'un homme qui voudrait rattraper ses paroles, et presque à voix basse.
+</stage>
 <p id="46">
 	<s id="1">Oui...</s>
 </p>
 </sp>
-<sp sstage="anger" who="RENÉ"><speaker>RENÉ, avec explosion.</speaker>
+<sp sstage="anger" who="RENÉ"><speaker>RENÉ</speaker><stage>, avec explosion.
+</stage>
 <p id="47">
 	<s id="1">Non !... </s>
 	<s id="2">Non !... </s>
 	<s id="3">Vous en avez menti !</s>
 </p>
 </sp>
-<sp stage="threat" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, se redressant et menaçant.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="threat">, se redressant et menaçant.
+</stage>
 <p id="48">
 	<s id="1">René !</s>
 </p>
@@ -997,14 +1043,17 @@
 	<s id="4">Mon père, c'est...</s>
 </p>	
 </sp>
-<sp stage="away/close/threat" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, qui a reculé, se rapproche menaçant.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="away/close/threat">, qui a reculé, se rapproche menaçant.
+</stage>
 <p id="52">
 	<s id="1">C'est ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Madame Blaisy.</head>
-<sp stage="entrance/location/closer" who="MADAME BLAISY"><speaker>MADAME BLAISY, entrant par la porte opposée à celle par où est entré son mari a la scène IIe, et venant du cabinet de travail de René.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes, Madame Blaisy.
+</stage>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="entrance/location/closer">, entrant par la porte opposée à celle par où est entré son mari a la scène IIe, et venant du cabinet de travail de René.
+</stage>
 <p id="1">
 	<s id="1">C'est lâche !</s>
 </p>
@@ -1026,7 +1075,8 @@
 </p>
 <stage type="sit/anxious">Il vient tomber, les mains tordues, sur un siège au fond, à gauche.</stage>
 </sp>
-<sp stage="run/kneel" who="MADAME BLAISY"><speaker>MADAME BLAISY, courant à lui, s'agenouillant, et lui prenant la main.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="run/kneel">, courant à lui, s'agenouillant, et lui prenant la main.
+</stage>
 <p id="5">
 	<s id="1">René !</s>
 </p>
@@ -1046,7 +1096,8 @@
 </p>
 <stage type="walk">Il va et vient à grands pas, l'air fou, Le père recule vers la porte, non loin de laquelle il s'arrête, comme cloué an sol et regardant son fils, Le bandage du blessé est tombé dans la violence des mouvements d'ours en cage qu'à faits le jeune homme.</stage>
 </sp>
-<sp stage="watch/run" who="MADAME BLAISY"><speaker>MADAME BLAISY, apercevant l'écharpe pendante, et courant à René.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="watch/run">, apercevant l'écharpe pendante, et courant à René.
+</stage>
 <p id="7">
 	<s id="1">Ah ! </s>
 	<s id="2">Tu vas te faire mal !...</s>
@@ -1063,7 +1114,8 @@
 </p>
 <stage type="touch">Et malgré lui, elle lui replace le bras dans l'écharpe, après en avoir ré-assujetti rapidement le pansement. René, après la première révolte, se laisse faire.</stage>
 </sp>
-<sp stage="childish" who="RENÉ"><speaker>RENÉ, d'une voix d'enfant.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="childish">, d'une voix d'enfant.
+</stage>
 <p id="10">
 	<s id="">Merci, maman...</s>
 </p>
@@ -1076,7 +1128,8 @@
 	<s id="1">Vous ne trouvez donc pas que j'aie encore assez souffert?.,. Oh! toi, maman!.,, toi!.,, toi!,.,</s>
 </p>
 </sp>
-<sp stage="cry/toward" who="MADAME BLAISY"><speaker>MADAME BLAISY, après un grand sanglot, s'adressant à son mari.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="cry/toward">, après un grand sanglot, s'adressant à son mari.
+</stage>
 <p id="13">
 	<s id="1">Êtes-vous satisfait ?... </s>
 </p>
@@ -1085,7 +1138,8 @@
 	<s id="1">Mon enfant...</s>
 </p>
 </sp>
-<sp stage="listen" who="RENÉ"><speaker>RENÉ, sans l'entendre.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="listen">, sans l'entendre.
+</stage>
 <p id="15">
 	<s id="1">Ainsi, tu mentais ? </s>
 	<s id="2">Tu m'as toujours menti !</s>
@@ -1108,12 +1162,14 @@
 </p>
 <stage type="walk/nervous">Il va et vient tout en parlant.</stage>
 </sp>
-<sp stage="toward" who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY, à sa femme.</speaker>
+<sp who="MONSIEUR BLAISY"><speaker>MONSIEUR BLAISY</speaker><stage type="toward">, à sa femme.
+</stage>
 <p id="19">
 	<s id="1">Mais calmez-le donc !</s>
 </p>
 </sp>
-<sp stage="toward" who="RENÉ"><speaker>RENÉ, à son père.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="toward">, à son père.
+</stage>
 <p id="20">
 	<s id="1">Et le nom ? </s>
 	<s id="2">Vous avez oublié le nom !... </s>
@@ -1190,13 +1246,15 @@
 </p> 
 <stage type="hide">Il se passe la main sur les yeux.</stage>
 </sp>
-<sp stage="abrupt" who="RENÉ"><speaker>RENÉ, brusquement.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="abrupt">, brusquement.
+</stage>
 <p id="32">
 	<s id="1">Quand était-ce ? </s>
 	<s id="2">Quand ?...</s>
 </p>
 </sp>
-<sp stage="afflicted/pain/cry" who="MADAME BLAISY"><speaker>MADAME BLAISY, littéralement affolée, mourante de honte et de chagrin.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="afflicted/pain/cry">, littéralement affolée, mourante de honte et de chagrin.
+</stage>
 <p id="33">
 	<s id="1">Après toi... </s>
 	<s id="2">Tu avais cinq ans... </s>
@@ -1212,13 +1270,15 @@
 	<s id="3">Ils venaient de se retrouver...</s>
 </p>
 </sp>
-<sp stage="toward" who="RENÉ"><speaker>RENÉ, à son père.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="toward">, à son père.
+</stage>
 <p id="36">
 	<s id="1">Son nom ?... </s>
 	<s id="2">Bricey, n'est-ce pas?</s>
 </p>
 </sp>
-<sp stage="low" who="MADAME BLAISY"><speaker>MADAME BLAISY, très bas.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="low">, très bas.
+</stage>
 <p id="37">
 	<s id="1">Oui.</s>
 </p>
@@ -1232,7 +1292,8 @@
 	<s id="1">Il m'a aimé !</s>
 </p>
 </sp>
-<sp stage="quick" who="MADAME BLAISY"><speaker>MADAME BLAISY, plus vite.</speaker>
+<sp who="MADAME BLAISY"><speaker>MADAME BLAISY</speaker><stage type="quick">, plus vite.
+</stage>
 <p id="40">
 	<s id="1">Oui, il t'a aimé... </s>
 	<s id="2">Ah ! </s>
@@ -1276,7 +1337,8 @@
 	<s id="17">Et je le pris en haine...</s>
 </p>
 </sp>
-<sp stage="away/toward" who="RENÉ"><speaker>RENÉ, à Monsieur Blaisy qui veut partir.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="away/toward">, à Monsieur Blaisy qui veut partir.
+</stage>
 <p id="43">
 	<s id="1">Je vous en prie, mon père, restez là...</s>
 </p>
@@ -1326,7 +1388,8 @@
 </p>
 <stage type="hide/cry">Elle cache sa tête dans ses mains et sanglote.</stage>
 </sp>
-<sp stage="closer" who="RENÉ"><speaker>RENÉ, s'avançant vers elle.</speaker>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="closer">, s'avançant vers elle.
+</stage>
 <p id="47">
 	<s id="">Maman !</s>
 </p>
@@ -1341,8 +1404,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Madame Blaisy, René.</head>
-<sp stage="kneel/touch" who="RENÉ"><speaker>RENÉ, s'agenouillant et prenant les deux mains de sa mère.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Madame Blaisy, René.
+</stage>
+<sp who="RENÉ"><speaker>RENÉ</speaker><stage type="kneel/touch">, s'agenouillant et prenant les deux mains de sa mère.
+</stage>
 <p id="1">
 	<s id="1">Pardon, maman !... </s>
 	<s id="2">Pardon !</s>
@@ -1353,4 +1418,3 @@
 </body>
 </text>
 </TEI>
-

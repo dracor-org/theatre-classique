@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,29 +30,30 @@
 			<titlePart type="sub">Comédie en un acte et en prose</titlePart>
 			<titlePart type="sub">Publiée en 1851 et représentée pour la première fois sur le théâtre du Gymnase dramatique, le 30 octobre 1851.</titlePart>
 		</docTitle> 
-		<docDate value='1876'>M. DCC LXXVI.</docDate>
-		<docAuthor id='MUSSET, Alfred de' bio='muset'>D'ALFRED DE MUSSET</docAuthor>
+		<docDate value="1876">M. DCC LXXVI.</docDate>
+		<docAuthor id="MUSSET, Alfred de" bio="muset">D'ALFRED DE MUSSET</docAuthor>
 		<docImprint>
 			<editor id="LEMERRE">PARIS ALPHONSE LEMERRE, ÉDITEUR, 27-31 PASSAGE CHOISEUL.</editor>
-			<printer id='CLAYE'>IMPRIMÉ PAR J. CLAYE.</printer>
+			<printer id="CLAYE">IMPRIMÉ PAR J. CLAYE.</printer>
 		</docImprint>
 		<performance>
 			<premiere date="1851-10-30" location="Gymnase dramatique">Représentée pour la première fois au Gymnase dramatique le 30 octobre 1851.</premiere>
 		</performance>
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE MARQUIS STÉFANI" sex="1" type="H" statut="marquis" age="A" stat_amour=''>LE MARQUIS STÉFANI</role>.</castItem>
-			<castItem><role id="LE BARON DE STEINBERG" sex="1" type="H" statut="baron" age="A" stat_amour=''>LE BARON DE STEINBERG</role>.</castItem>
-			<castItem><role id="CALABRE" sex="1" type="H" statut="valet de chambre" age="A" stat_amour=''>CALABRE</role>, Valet de chambre du baron.</castItem>
-			<castItem><role id="LE NOTAIRE" sex="1" type="H" statut="notaire" age="A" stat_amour=''>LE NOTAIRE</role>.</castItem>
-			<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour=''>UN DOMESTIQUE</role>.</castItem>
-			<castItem><role id="BETTINE" sex="2" type="H" statut="cantatrise" age="A" stat_amour=''>BETTINE</role>, cantatrice italienne.</castItem>
+			<castItem><role id="LE MARQUIS STÉFANI" sex="1" type="H" statut="marquis" age="A" stat_amour="">LE MARQUIS STÉFANI</role>.</castItem>
+			<castItem><role id="LE BARON DE STEINBERG" sex="1" type="H" statut="baron" age="A" stat_amour="">LE BARON DE STEINBERG</role>.</castItem>
+			<castItem><role id="CALABRE" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="">CALABRE</role>, Valet de chambre du baron.</castItem>
+			<castItem><role id="LE NOTAIRE" sex="1" type="H" statut="notaire" age="A" stat_amour="">LE NOTAIRE</role>.</castItem>
+			<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="">UN DOMESTIQUE</role>.</castItem>
+			<castItem><role id="BETTINE" sex="2" type="H" statut="cantatrise" age="A" stat_amour="">BETTINE</role>, cantatrice italienne.</castItem>
 		</castList>
 		<set location="Italie" country="Italie" periode="XIXème" gps="48.856614, 2.352222">La scène est en Italie.</set>
 		<note>Texte issu de "OEuvres d'Alfred de Musset, tome V. Comédies et proverbes", Paris : Alphonse Lemerre 1876.- pp. 325-404</note>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>BETTINE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Calabre, Le Notaire.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Calabre, Le Notaire.
+</stage>
 <stage type="decor">Un salon de campagne.</stage>
 <sp who="CALABRE"><speaker>CALABRE.</speaker>
 <p id="1">
@@ -157,12 +158,14 @@
 	<s id="3">- Que me veut-on ?</s>
 </p>
 </sp>
-<sp who="LE DOMESTIQUE"><speaker>UN DOMESTIQUE, entrant.</speaker>
+<sp who="LE DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage>, entrant.
+</stage>
 <p id="18">
 	<s id="1">Monsieur, c'est une lettre de la Princesse.</s>
 </p>
 </sp>
-<sp who="CALABRE"><speaker>CALABRE, prenant la lettre.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage>, prenant la lettre.
+</stage>
 <p id="19">
 	<s id="1">C'est bon. </s>
 	<s id="2">Vous savez bien que Monsieur n'y est pas.</s>
@@ -180,7 +183,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les Précédents, Steinberg.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les Précédents, Steinberg.
++</stage>
 +<sp who="STEINBERG"><speaker>STEINBERG.</speaker>
 <p id="1">
 	<s id="1">Pas encore levée ! </s>
@@ -205,7 +209,8 @@
 	<s id="1">C'est de la part de la Princesse, Monsieur.</s>
 </p>
 </sp>
-<sp stage="open" who="STEINBERG"><speaker>STEINBERG, ouvrant la lettre.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="open">, ouvrant la lettre.
+</stage>
 <p id="5">
 	<s id="1">Voyons.</s>
 </p>
@@ -216,13 +221,16 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Steinberg, Calabre.</head>
-<sp stage="aparte" who="CALABRE"><speaker>CALABRE, à part.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Steinberg, Calabre.
+</stage>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Si c'est encore quelque invitation, quelque partie de plaisir en l'air, nous allons avoir un orage.</s>
 </p>
 </sp>
-<sp who="STEINBERG"><speaker>STEINBERG, lisant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage>, lisant.
+</stage>
 <p id="2">
 	<s id="1">Qu'est-ce que tu marmottes entre tes dents ?</s>
 </p>
@@ -370,7 +378,8 @@
 	<s id="1">Pardonnez-moi encore, monsieur, mais...</s>
 </p>
 </sp>
-<sp stage="stand" who="STEINBERG"><speaker>STEINBERG, se levant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="stand">, se levant.
+</stage>
 <p id="26">
 	<s id="1">Écoute-moi. </s>
 	<s id="2">Bettine est charmante ; avec son talent, sa brillante renommée, au milieu de tous les plaisirs, de toutes les séductions qui entourent et assiègent une actrice à la mode, elle a su vivre de telle sorte que la calomnie elle-même n'a jamais osé approcher d'elle, et l'honnêteté de son coeur est aussi visible que la pure clarté de ses yeux. </s>
@@ -501,7 +510,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les Précédents, Un Domestique.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les Précédents, Un Domestique.
+</stage>
 <sp who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE.</speaker>
 <p id="1">
 	<s id="1">Monsieur_le_Baron, c'est une carte que je porte à madame.</s>
@@ -551,7 +561,8 @@
 	<s id="1">Il veut voir madame, et il attend qu'elle soit visible.</s>
 </p>
 </sp>
-<sp stage="aparte" who="STEINBERG"><speaker>STEINBERG, à part.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="aparte">, à part.
+</stage>
 <p id="10">
 	<s id="1">Stéfani ! </s>
 	<s id="2">Je connais ce nom-là.</s>
@@ -566,7 +577,8 @@
 	<s id="1">Mais... oui, Monsieur,... je le crois du moins.</s>
 </p>
 </sp>
-<sp stage="watch" who="STEINBERG"><speaker>STEINBERG, regardant au balcon.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="watch">, regardant au balcon.
+</stage>
 <p id="13">
 	<s id="1">C'est lui-même, je le reconnais. </s>
 	<s id="2">C'est un vrai pilier de coulisses, soi-disant connaisseur, et grand admirateur de la signora_Bettina.</s>
@@ -601,8 +613,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Calabre, Le Notaire, puis Bettine.</head>
-<sp stage="aparte" who="CALABRE"><speaker>CALABRE, à part.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Calabre, Le Notaire, puis Bettine.
+</stage>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">Cela va mal, cela va bien mal. </s>
 	<s id="2">Pauvre jeune dame, si bonne, si jolie !</s>
@@ -628,7 +642,8 @@
 	<s id="1">Je vous ai dit que Monsieur_le_Baron les amènerait.</s>
 </p>
 </sp>
-<sp stage="entrance/sing" who="BETTINE"><speaker>BETTINE, arrivant en chantant.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="entrance/sing">, arrivant en chantant.
+</stage>
 <p id="6">
 	<s id="1">Ah ! </s>
 	<s id="2">Te voilà, notaire, ô cher notaire, mon cher ami ! </s>
@@ -729,7 +744,8 @@
 </p>
 <stage type="exit/wave">Il se retire avec de grandes salutations.</stage>
 </sp>
-<sp who="BETTINE"><speaker>BETTINE, à Calabre.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage>, à Calabre.
+</stage>
 <p id="24">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Toi, qu'est-ce que tu fais là ? </s>
@@ -804,7 +820,8 @@
 	<s id="1">Non, Madame ; Monsieur_le_Baron m'a ordonné expressément...</s>
 </p>
 </sp>
-<sp stage="laugh" who="BETTINE"><speaker>BETTINE, riant.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="36">
 	<s id="1">Ah ! </s>
 	<s id="2">Tu es fou... </s>
@@ -818,7 +835,8 @@
 	<s id="10">Va-t'en vite, va chercher Steinberg.</s>
 </p>
 </sp>
-<sp stage="aparte/exit" who="CALABRE"><speaker>CALABRE, à part, en sortant.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="aparte/exit">, à part, en sortant.
+</stage>
 <p id="37">
 	<s id="1">Qu'est-ce que j'y peux ? </s>
 	<s id="2">Je n'y peux rien... </s>
@@ -826,8 +844,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Bettine, Le Marquis.</head>
-<sp stage="closer" who="BETTINE"><speaker>BETTINE, allant au-devant du Marquis.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Bettine, Le Marquis.
+</stage>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="closer">, allant au-devant du Marquis.
+</stage>
 <p id="1">
 	<s id="1">Et depuis quand dans ce pays ? </s>
 	<s id="2">Et par quel hasard, cher marquis ?... </s>
@@ -979,7 +999,8 @@
 	<s id="2">Tra, tra, comment était-ce donc ?</s>
 </p>
 </sp>
-<sp stage="sing" who="BETTINE"><speaker>BETTINE, chante les premières mesures de l'air final de la Cenerentola, puis s'arrête tout à coup et dit :</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="sing">, chante les premières mesures de l'air final de la Cenerentola, puis s'arrête tout à coup et dit :
+</stage>
 <note type="L">La Cenerentola : Opéra bouffe de Gioachino Rossini à partir du conte de Perrault Cndrillon. Représenté pour la première fois le 25 janvier 1817.</note>
 <p id="26">
 	<s id="1">Ah ! </s>
@@ -1345,7 +1366,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les Précédents, Calabre.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les Précédents, Calabre.
+</stage>
 <sp who="CALABRE"><speaker>CALABRE.</speaker>
 <p id="1">
 	<s id="1">Me voilà, madame, me voilà. Vous m'avez appelé ?</s>
@@ -1549,7 +1571,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Calabre, seul, puis Le Notaire.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Calabre, seul, puis Le Notaire.
+</stage>
 <sp who="CALABRE"><speaker>CALABRE.</speaker>
 <p id="1">
 	<s id="1">Allons, cela va un peu mieux. </s>
@@ -1588,7 +1611,8 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp stage="watch" who="CALABRE"><speaker>CALABRE, regardant toujours.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="watch">, regardant toujours.
+</stage>
 <p id="7">
 	<s id="1">Je croyais que vous disiez quelque chose.</s>
 </p>
@@ -1622,7 +1646,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Calabre, Steinberg.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Calabre, Steinberg.
+</stage>
 <sp who="STEINBERG"><speaker>STEINBERG.</speaker>
 <p id="1">
 	<s id="1">C'est donc ainsi qu'on suit mes ordres ?</s>
@@ -1770,7 +1795,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les Précédents, Bettine.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les Précédents, Bettine.
+</stage>
 <sp who="BETTINE"><speaker>BETTINE.</speaker>
 <p id="1">
 	<s id="1">Cent_mille_francs, Steinberg ! </s>
@@ -1817,7 +1843,8 @@
 	<s id="2">Pour aujourd'hui, c'est assez bavarder.</s>
 </p>
 </sp>
-<sp stage="aparte/exit" who="CALABRE"><speaker>CALABRE, à part, en sortant.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="aparte/exit">, à part, en sortant.
+</stage>
 <p id="9">
 	<s id="1">Bon ! </s>
 	<s id="2">Encore une gourmade en passant. </s>
@@ -1826,7 +1853,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Steinberg, Bettine.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Steinberg, Bettine.
+</stage>
 <sp who="BETTINE"><speaker>BETTINE.</speaker>
 <p id="1">
 	<s id="1">Vous n'êtes pas sincère, mon ami.</s>
@@ -1922,7 +1950,8 @@
 	<s id="7">Allons, voyons, c'est une plaisanterie, convenez-en, un pur caprice, ou plutôt, tenez, je vous devine, c'est un prétexte, un biais que vous prenez pour me faire oublier ce que je voulais savoir et vous délivrer de mes questions.</s>
 </p>
 </sp>
-<sp who="STEINBERG"><speaker>STEINBERG, s'asseyant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage>, s'asseyant.
+</stage>
 <p id="16">
 	<s id="1">Oh ! </s>
 	<s id="2">Ma chère Bettine, vous êtes bien charmante, et moi je suis... bien malheureux.</s>
@@ -1974,7 +2003,8 @@
 </p>
 <stage type="music">Elle se met au piano et joue la ritournelle d'une romance.</stage>
 </sp>
-<sp who="STEINBERG"><speaker>STEINBERG, se levant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage>, se levant.
+</stage>
 <p id="24">
 	<s id="1">Bettine, pas cette chanson-là.</s>
 </p>
@@ -1996,7 +2026,8 @@
 	<l id="7">Ces roses fanées,</l>
 	<l id="8">Mortes sur ton coeur.</l>
 </sp>
-<sp stage="aparte/music" who="STEINBERG"><speaker>STEINBERG, à part, tandis que Bettine joue sans chanter.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="aparte/music">, à part, tandis que Bettine joue sans chanter.
+</stage>
 <p id="26">
 	<s id="1">Pourrais-je jamais l'abandonner ? </s>
 	<s id="2">Et pour qui ? </s>
@@ -2011,7 +2042,8 @@
 	<s id="3">Il me semble que je me trompe,... je ne me rappelle pas bien,... venez donc...</s>
 </p>
 </sp>
-<sp who="STEINBERG"><speaker>STEINBERG, se rapprochant du piano et chantant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage>, se rapprochant du piano et chantant.
+	</stage>
 	<l id="9">Nina, ma charmante,</l>
 	<l id="10">Pendant la tourmente,</l>
 	<l id="11">La mer écumante</l>
@@ -2049,7 +2081,8 @@
 	<s id="1">Ne parlons pas de cela, Steinberg.</s>
 </p>
 </sp>
-<sp stage="stand" who="STEINBERG"><speaker>STEINBERG, se levant.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="stand">, se levant.
+</stage>
 <p id="31">
 	<s id="1">J'en veux parler, je suis las de feindre, de me contraindre, de me sentir indigne de vous. </s>
 	<s id="2">Mes visites chez la princesse vous ont coûté des larmes, je le sais...</s>
@@ -2076,8 +2109,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Les Précédents, Calabre.</head>
-<sp stage="entrance/carry" who="CALABRE"><speaker>CALABRE, entrant avec une lettre et une boîte.</speaker>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Les Précédents, Calabre.
+</stage>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="entrance/carry">, entrant avec une lettre et une boîte.
+</stage>
 <p id="1">
 	<s id="1">On apporte cette lettre pour Monsieur_le_Baron.</s>
 </p>
@@ -2099,12 +2134,14 @@
 </p>
 <stage type="carry">Il prend la lettre.</stage>
 </sp>
-<sp stage="give" who="CALABRE"><speaker>CALABRE, donnant la boîte à Bettine.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="give">, donnant la boîte à Bettine.
+</stage>
 <p id="5">
 	<s id="1">Ceci est pour madame.</s>
 </p>
 </sp>
-<sp stage="read/hurry" who="STEINBERG"><speaker>STEINBERG, après avoir lu précipitamment la lettre.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="read/hurry">, après avoir lu précipitamment la lettre.
+</stage>
 <p id="6">
 	<s id="1">Calabre !</s>
 </p>
@@ -2141,7 +2178,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE XIII. Bettine, Calabre.</head>
+<div2 type="scene" n="13"><head>SCÈNE XIII.</head><stage> Bettine, Calabre.
+</stage>
 <sp who="BETTINE"><speaker>BETTINE.</speaker>
 <p id="1">
 	<s id="1">Qu'arrive-t-il encore, mon ami ? </s>
@@ -2162,7 +2200,8 @@
 	<s id="2">Excepté moi, tout le monde la connaît donc dans cette maison ?</s>
 </p>
 </sp>
-<sp stage="show" who="CALABRE"><speaker>CALABRE, désignant la boîte.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="show">, désignant la boîte.
+</stage>
 <p id="4">
 	<s id="1">Ceci, madame, vient de la part du Marquis.</s>
 </p>
@@ -2220,15 +2259,18 @@
 	<s id="1">Est-ce cent mille francs ?</s>
 </p>
 </sp>
-<sp stage="low" who="CALABRE"><speaker>CALABRE, à voix basse.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="low">, à voix basse.
+</stage>
 <p id="14">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Oui.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="14"><head>SCÈNE XIV. Les Précédents, Steinberg.</head>
-<sp stage="toward" who="STEINBERG"><speaker>STEINBERG, à Calabre.</speaker>
+<div2 type="scene" n="14"><head>SCÈNE XIV.</head><stage> Les Précédents, Steinberg.
+</stage>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage type="toward">, à Calabre.
+</stage>
 <p id="1">
 	<s id="1">Que faites-vous là ? </s>
 	<s id="2">Retirez-vous.</s>
@@ -2337,7 +2379,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Les Précédents, Calabre.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Les Précédents, Calabre.
+</stage>
 <sp who="CALABRE"><speaker>CALABRE.</speaker>
 <p id="1">
 	<s id="1">Monsieur...</s>
@@ -2375,7 +2418,8 @@
 </p>
 <stage type="give">Elle le remet à Steinberg.</stage>
 </sp>
-<sp who="STEINBERG"><speaker>STEINBERG, ouvrant l'écrin.</speaker>
+<sp who="STEINBERG"><speaker>STEINBERG</speaker><stage>, ouvrant l'écrin.
+</stage>
 <p id="8">
 	<s id="1">Ce sont de fort beaux diamants. </s>
 	<s id="2">Peste ! </s>
@@ -2643,7 +2687,8 @@
 <stage type="exit">Il sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE XVI. Bettine, Calabre.</head>
+<div2 type="scene" n="16"><head>SCÈNE XVI.</head><stage> Bettine, Calabre.
+</stage>
 <sp who="BETTINE"><speaker>BETTINE.</speaker>
 <p id="1">
 	<s id="1">Calabre.</s>
@@ -2675,7 +2720,8 @@
 	<s id="1">Non, madame, je vous le répète, il ne faut pas croire que monsieur le Baron vous ait dit là son dernier mot, ni même qu'il ait parlé sincèrement ; non, c'est impossible. Il changera de langage quand son dépit sera calmé, car ce n'est pas contre vous qu'il peut être irrité ; il reviendra, madame, il va revenir.</s>
 </p>
 </sp>
-<sp who="BETTINE"><speaker>BETTINE, regardant au balcon.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage>, regardant au balcon.
+</stage>
 <p id="7">
 	<s id="1">Le voilà qui part.</s>
 </p>
@@ -2760,7 +2806,8 @@
 	<s id="2">Ne t'inquiète pas.</s>
 </p>
 </sp>
-<sp stage="entrance" who="LE DOMESTIQUE"><speaker>UN DOMESTIQUE, entrant.</speaker>
+<sp who="LE DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="20">
 	<s id="1">Monsieur le Marquis_Stéfani demande si Madame veut le recevoir.</s>
 </p>
@@ -2823,8 +2870,10 @@
 </p>
 </sp>
 </div2>
-<div2 stage="entrance/exit" type="scene" n="17"><head>SCÈNE XVII. Bettine, Le Marquis, entrant à droite pendant que Calabre sort à gauche.</head>
-<sp stage="aparte" who="BETTINE"><speaker>BETTINE, à part.</speaker>
+<div2 type="scene" n="17"><head>SCÈNE XVII.</head><stage type="entrance/exit"> Bettine, Le Marquis, entrant à droite pendant que Calabre sort à gauche.
+</stage>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="1">
 	<s id="1">C'est pourtant bien là ce que j'espère !</s>
 </p>
@@ -2921,7 +2970,8 @@
 	<s id="1">Oui, et il ne sait pas jouer.</s>
 </p>
 </sp>
-<sp stage="sit/think" who="BETTINE"><speaker>BETTINE, s'assied pensive.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="sit/think">, s'assied pensive.
+</stage>
 <p id="17">
 	<s id="1">Il ne faut pas croire que le lansquenet, tout bête qu'il est, soit de pur hasard. </s>
 	<s id="2">Il y a manière de perdre son argent. </s>
@@ -2978,7 +3028,8 @@
 	<s id="1">Asseyez-vous donc, je vous en supplie.</s>
 </p>
 </sp>
-<sp stage="sit" who="LE MARQUIS"><speaker>LE MARQUIS, s'asseyant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sit">, s'asseyant.
+</stage>
 <p id="25">
 	<s id="">À la bonne heure, pourvu que vous me promettiez, une minute avant que je sois de trop, d'être assez de mes amis pour me mettre à la porte.</s>
 </p>
@@ -3174,7 +3225,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="18"><head>SCÈNE XVIII. Les Précédents, Calabre.</head>
+<div2 type="scene" n="18"><head>SCÈNE XVIII.</head><stage> Les Précédents, Calabre.
+</stage>
 <sp who="BETTINE"><speaker>BETTINE.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -3217,7 +3269,8 @@
 	<s id="1">Voici une lettre.</s>
 </p>
 </sp>
-<sp stage="read/quick" who="BETTINE"><speaker>BETTINE, après avoir lu vite.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="read/quick">, après avoir lu vite.
+</stage>
 <p id="9">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est très bien... parfaitement bien... c'est à merveille.</s>
@@ -3240,7 +3293,8 @@
 	<s id="1">Veillez sur elle, monsieur, je vais chercher ce qu'il faut.</s>
 </p>
 </sp>
-<sp stage="get" who="LE MARQUIS"><speaker>LE MARQUIS, tirant un flacon.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="get">, tirant un flacon.
+</stage>
 <p id="14">
 	<s id="1">Ce flacon suffira. </s>
 	<s id="2">Qu'êtes-vous donc venu lui annoncer ?</s>
@@ -3308,7 +3362,8 @@
 	<s id="2">Il n'y a rien de moins plaisant que de voler l'argent du prochain.</s>
 </p>
 </sp>
-<sp stage="agitated" who="BETTINE"><speaker>BETTINE, s'animant par degrés.</speaker>
+<sp who="BETTINE"><speaker>BETTINE</speaker><stage type="agitated">, s'animant par degrés.
+</stage>
 <p id="23">
 	<s id="1">Voler ! </s>
 	<s id="2">Qui parle d'une chose pareille ? </s>
@@ -3351,7 +3406,8 @@
 	<s id="4">Lisez tout haut, je vous en prie.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, lisant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, lisant.
+</stage>
 <p id="28">
 	<s id="1">« Ma chère Bettine,</s>
 </p>
@@ -3364,7 +3420,8 @@
 	<s id="1">Obligé de me remercier !</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, continuant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, continuant.
+</stage>
 <p id="31">
 	<s id="1">« Mais vous comprenez que mon premier soin doit être de chercher les moyens de vous rendre la somme que vous avez bien voulu m'avancer... »</s>
 </p>
@@ -3374,7 +3431,8 @@
 	<s id="1">On n'écrirait pas mieux à un homme d'affaires.</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, de même.
+</stage>
 <p id="33">
 	<s id="1">« Le projet que nous avions formé ne pouvant plus se réaliser, les convenances mêmes semblent s'opposer à ce que je demeure plus longtemps près de vous... »</s>
 </p>
@@ -3384,7 +3442,8 @@
 	<s id="1">Que dites-vous de cela, Marquis ?</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, de même.
+</stage>
 <p id="35">
 	<s id="1">« Je vais donc quitter ce pays. </s>
 	<s id="2">Une personne de nos amies... »</s>
@@ -3395,7 +3454,8 @@
 	<s id="1">Quelle audace !</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, de même.
+</stage>
 <p id="37">
 	<s id="1">« ... De nos amies part maintenant pour Rome, et m'offre de l'accompagner. </s>
 	<s id="2">Je sais, du reste, que je ne vous laisse pas seule... »</s>
@@ -3406,7 +3466,8 @@
 	<s id="1">Continuez, continuez.</s>
 </p>
 </sp>
-<sp stage="read" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="read">, de même.
+</stage>
 <p id="39">
 	<s id="1">« Et que je puisse revenir ou non, vous pouvez compter, chère Bettine, que vous recevrez bientôt de mes nouvelles.</s>
 </p>
@@ -3507,7 +3568,8 @@
 	<s id="1">Parle si tu veux.</s>
 </p>
 </sp>
-<sp stage="stand/location/furniture" who="LE MARQUIS"><speaker>LE MARQUIS, se levant et allant à la table.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="stand/location/furniture">, se levant et allant à la table.
+</stage>
 <p id="53">
 	<s id="1">Ceci pique fort ma curiosité. Qu'y a-t-il donc, monsieur Calabre ?</s>
 </p>
@@ -3775,7 +3837,8 @@
 </p>
 <stage type="kiss">Il lui baise la main.</stage>
 </sp>
-<sp stage="entrance" who="LE NOTAIRE"><speaker>LE NOTAIRE, sortant du pavillon.</speaker>
+<sp who="LE NOTAIRE"><speaker>LE NOTAIRE</speaker><stage type="entrance">, sortant du pavillon.
+</stage>
 <p id="93">
 	<s id="1">Monsieur_Calabre !</s>
 </p>
@@ -3792,7 +3855,8 @@
 	<s id="2">Je vais retourner à la ville.</s>
 </p>
 </sp>
-<sp stage="sh" who="CALABRE"><speaker>CALABRE, lui montrant Bettine, qui a laissé sa main dans celle du marquis.</speaker>
+<sp who="CALABRE"><speaker>CALABRE</speaker><stage type="sh">, lui montrant Bettine, qui a laissé sa main dans celle du marquis.
+</stage>
 <p id="96">
 	<s id="1">Attendez, attendez un peu.</s>
 </p>

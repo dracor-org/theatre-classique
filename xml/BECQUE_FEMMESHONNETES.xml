@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -34,8 +34,8 @@
 			<titlePart type="sub">Reprise au Théâtre national de l'Odéon le 25 octobre 1907.</titlePart>
 			<titlePart type="sub">Reprise à la Comédie-Française le 28 mars 1923.</titlePart>
 		</docTitle> 
-		<docDate value='1924'>M CM XXIV</docDate>
-		<docAuthor id='BECQUE, Henry'>d'Henri Becque.</docAuthor>
+		<docDate value="1924">M CM XXIV</docDate>
+		<docAuthor id="BECQUE, Henry">d'Henri Becque.</docAuthor>
 		<docImprint>
 			<editor>PARIS, Les éditions G. Crès et Cie.</editor>
 			<printer>5543. Tours, Imprimerie E. ARRAULT et Cie.</printer>
@@ -44,10 +44,10 @@
 			</performance>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LAMBERT" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LAMBERT</role>.</castItem>
-		<castItem><role id="MADAME CHEVALIER" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME CHEVALIER</role>.</castItem>
-		<castItem><role id="LOUISE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LOUISE</role>.</castItem>
-		<castItem><role id="GENEVIÈVE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>GENEVIÈVE</role>.</castItem>
+		<castItem><role id="LAMBERT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LAMBERT</role>.</castItem>
+		<castItem><role id="MADAME CHEVALIER" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME CHEVALIER</role>.</castItem>
+		<castItem><role id="LOUISE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LOUISE</role>.</castItem>
+		<castItem><role id="GENEVIÈVE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">GENEVIÈVE</role>.</castItem>
     </castList>
 <set location="Fontainebleau" country="France" periode="XIXème" gps="48.404676, 2.70162">La scène se passe à Fontainebleau, de nos jours.</set>
 <note>"Oeuvres complètes, III, théâtre",Paris, les Editions Crès et Cie, 21, rue Hauteville.</note>
@@ -55,9 +55,11 @@
 <body>
 <div1 type="acte" n="1"><head>LES HONNÊTES FEMMES</head>
 <stage type="decor">Le théâtre représente un salon donnant sur un parc. Au fond, deux portes-fenêtres séparées par une console, la console est surmontée d'une glace sans tain et garnie de fleurs. Portes latérales, à deux battants. En scène, sur la gauche, au premier plan, une table entre deux fauteuils se faisant vis-à-vis ; sur cette table et sur les sièges voisins, des robes, des vêtements d'enfant, du linge de toute sorte. En scène également, à droite, au premier plan, un canapé ; près du canapé, un guéridon ; sur le guéridon, un plateau avec une bouteille, deux verres et une assiette de pâtisseries. Meubles et objets luxueux qui figurent une pièce élégante et ordonnée.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame Chevalier,  Louise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame Chevalier,  Louise.
+</stage>
 <stage type="location/sit/work">Au lever du rideau, Madame Chevalier, installée près de la table, dans le fauteuil à gauche et les pieds sur une chaise, travaille.</stage>
-<sp stage="entrance/close" who="LOUISE"><speaker>LOUISE, entrant et s'approchant.</speaker>
+<sp who="LOUISE"><speaker>LOUISE</speaker><stage type="entrance/close">, entrant et s'approchant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur_Lambert, Madame.</s>
 </p>
@@ -113,7 +115,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. </head>
-<sp stage="closer" who="LAMBERT"><speaker>LAMBERT, allant à Madame Chevalier, qui lui donne la main.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="closer">, allant à Madame Chevalier, qui lui donne la main.
+</stage>
 <p id="1">
 	<s id="1">Comment allez-vous, Madame ?</s>
 </p>
@@ -488,7 +491,8 @@
 	<s id="6">Cette existence a peut-être ses jours de soleil et ses jours d'orage...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, l'interrompant.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="interrupt">, l'interrompant.
+</stage>
 <p id="66">
 	<s id="1">Taisez-vous un peu.</s>
 </p>
@@ -554,7 +558,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lambert, Madame Chevalier.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lambert, Madame Chevalier.
+</stage>
 <sp who="LAMBERT"><speaker>LAMBERT.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Madame, ces enfants...</s>
@@ -571,12 +576,14 @@
 	<s id="1">Cette fois, Monsieur_Lambert, vous ne pourrez pas me refuser.</s>
 </p>
 </sp>
-<sp stage="closer" who="LAMBERT"><speaker>LAMBERT, allant à elle.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="closer">, allant à elle.
+</stage>
 <p id="4">
 	<s id="1">Puisque vous le voulez, Madame...</s>
 </p>
 </sp>
-<sp stage="give" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, en lui donnant un verre.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="give">, en lui donnant un verre.
+</stage>
 <p id="5">
 	<s id="1">Il est gentil, n'est-ce pas, mon petit vin ?</s>
 </p>
@@ -655,12 +662,14 @@
 </p>
 <stage type="back/work">Elle retourne à la table et y fait quelques petits rangements.</stage>
 </sp>
-<sp stage="location/closer" who="LAMBERT"><speaker>LAMBERT, qui est venu se placer derrière elle.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="location/closer">, qui est venu se placer derrière elle.
+</stage>
 <p id="20">
 	<s id="1">Si l'on nous avait vus trinquer ensemble ?</s>
 </p>
 </sp>
-<sp stage="surprise" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, après un mouvement de surprise.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="surprise">, après un mouvement de surprise.
+</stage>
 <p id="21">
 	<s id="1">On le pouvait bien facilement.</s>
 </p>
@@ -702,7 +711,8 @@
 	<s id="1">On n'aurait pas soupçonné entre eux un bout de roman ?</s>
 </p>
 </sp>
-<sp stage="cold" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, froidement.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="cold">, froidement.
+</stage>
 <p id="29">
 	<s id="1">On se serait trompé, voilà tout.</s>
 </p>
@@ -728,19 +738,22 @@
 </p>
 <stage type="embarrassed/closer/wave">Lambert, très décontenancé, ne sait que dire ; il fait un pas vers elle, elle l'invite à se retirer.</stage>
 </sp>
-<sp stage="location/costume" who="LAMBERT"><speaker>LAMBERT, allant à la table où il a posé son chapeau.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="location/costume">, allant à la table où il a posé son chapeau.
+</stage>
 <p id="32">
 	<s id="1">Est-elle honnête ?</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Les mêmes, Louise.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Les mêmes, Louise.
+</stage>
 <sp who="LOUISE"><speaker>LOUISE.</speaker>
 <p id="1">
 	<s id="1">Mademoiselle_Dupont, Madame.</s>
 </p>
 </sp>
-<sp stage="estonish" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, étonnée.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="2">
 	<s id="1">Geneviève ?</s>
 </p>
@@ -760,7 +773,8 @@
 	<s id="1">Non, Madame, avec sa gouvernante.</s>
 </p>
 </sp>
-<sp stage="show" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, montrant la porte de droite.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="show">, montrant la porte de droite.
+</stage>
 <p id="6">
 	<s id="1">Elle est là ?</s>
 </p>
@@ -770,13 +784,15 @@
 	<s id="1">Oui, Madame.</s>
 </p>
 </sp>
-<sp stage="away/location" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, allant à la porte.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="away/location">, allant à la porte.
+</stage>
 <p id="8">
 	<s id="1">Entre donc, mon enfant, entre donc.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Geneviève, en costume de voyage, un sac à la main.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Geneviève, en costume de voyage, un sac à la main.
+</stage>
 <sp who="GENEVIÈVE"><speaker>GENEVIÈVE.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Madame.</s>
@@ -820,7 +836,8 @@
 	<s id="1">Elle n'avait pas besoin de me l'écrire.</s>
 </p>
 </sp>
-<sp stage="give" who="GENEVIÈVE"><speaker>GENEVIÈVE, lui donnant la lettre.</speaker>
+<sp who="GENEVIÈVE"><speaker>GENEVIÈVE</speaker><stage type="give">, lui donnant la lettre.
+</stage>
 <p id="9">
 	<s id="1">Lisez-la. </s>
 	<s id="2">- Louise !</s>
@@ -856,7 +873,8 @@
 	<s id="1">Vous ne leur direz pas que je suis là, je veux les surprendre moi-même.</s>
 </p>
 </sp>
-<sp stage="read" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, lisant la lettre.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="read">, lisant la lettre.
+</stage>
 <p id="16">
 	<s id="1">« Ma bonne amie, ma fille me tourmente depuis longtemps pour aller passer quelques jours avec toi et je n'ai pas osé lui refuser cette distraction, elle en a si peu, malgré l'embarras que cette grande enfant va te causer. </s>
 	<s id="2">Je lui ai bien recommandé d'être paisible, de retenir sa langue le plus possible, et de mettre son séjour à profit en s'imprégnant de ton admirable raison. </s>
@@ -946,7 +964,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Lambert, Geneviève.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Lambert, Geneviève.
+</stage>
 <sp who="GENEVIÈVE"><speaker>GENEVIÈVE.</speaker>
 <p id="1">
 	<s id="1">Vous connaissez beaucoup Madame_Chevalier ?</s>
@@ -1142,7 +1161,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Les mêmes, Madame Chevalier.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Les mêmes, Madame Chevalier.
+</stage>
 <sp who="MADAME CHEVALIER"><speaker>DELPHINE.</speaker>
 <p id="31">
 	<s id="1">Allons, Geneviève, Louise t'attend pour te conduire chez toi. </s>
@@ -1152,7 +1172,8 @@
 <stage type="smile">Lambert sourit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Lambert, Madame Chevalier.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Lambert, Madame Chevalier.
+</stage>
 <sp who="MADAME CHEVALIER"><speaker>DELPHINE.</speaker>
 <p id="1">
 	<s id="1">J'ai été sotte tout à l'heure... </s>
@@ -1160,7 +1181,8 @@
 	<s id="3">On ne se fâche pas, parce qu'on lui a plu, avec un aimable garçon qu'on estime et qu'on apprécie soi-même.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBERT"><speaker>LAMBERT, à part.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="2">
 	<s id="1">Ça marche.</s>
 </p>
@@ -1170,7 +1192,8 @@
 	<s id="1">Mon mari aussi a beaucoup d'amitié pour vous.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBERT"><speaker>LAMBERT, à part.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Parfait ! </s>
 	<s id="2">Parfait !</s>
@@ -1182,7 +1205,8 @@
 	<s id="2">C'est ce qui me dispose si bien en votre faveur, quoique je ne vous connaisse pas encore suffisamment.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LAMBERT"><speaker>LAMBERT, à part.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="aparte">, à part.
+</stage>
 <p id="6">
 	<s id="1">Elle est perdue.</s>
 </p>
@@ -1211,7 +1235,8 @@
 	<s id="1">Quel âge avez-vous ?</s>
 </p>
 </sp>
-<sp stage="estonish/smile" who="LAMBERT"><speaker>LAMBERT, étonné, après un petit sourire.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="estonish/smile">, étonné, après un petit sourire.
+</stage>
 <p id="12">
 	<s id="1">Trente ans.</s>
 </p>
@@ -1233,7 +1258,8 @@
 	<s id="3">Votre santé est bonne ?</s>
 </p>
 </sp>
-<sp stage="estonish/smile" who="LAMBERT"><speaker>LAMBERT, même jeu.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="estonish/smile">, même jeu.
+</stage>
 <p id="16">
 	<s id="1">Excellente.</s>
 </p>
@@ -1284,7 +1310,8 @@
 	<s id="1">Monsieur_Lambert, je vous ai trouvé une femme.</s>
 </p>
 </sp>
-<sp stage="estonish/sad" who="LAMBERT"><speaker>LAMBERT, stupéfait et accablé.</speaker>
+<sp who="LAMBERT"><speaker>LAMBERT</speaker><stage type="estonish/sad">, stupéfait et accablé.
+</stage>
 <p id="26">
 	<s id="1">Comment, Madame, vous m'avez retenu.</s>
 </p>
@@ -1471,7 +1498,8 @@
 </p>
 <stage type="stage/thing/stop">Il se lève comme un homme indécis et violenté ; pause.</stage>
 </sp>
-<sp stage="stand" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, se levant à son tour.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="stand">, se levant à son tour.
+</stage>
 <p id="59">
 	<s id="1">Eh bien, Monsieur_Lambert, ce mariage est-il fait ?</s>
 </p>
@@ -1637,7 +1665,8 @@
 </p>
 <stage type="wait">Pause.</stage>
 </sp>
-<sp stage="closer/quick" who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER, allant à lui, avec volubilité.</speaker>
+<sp who="MADAME CHEVALIER"><speaker>MADAME CHEVALIER</speaker><stage type="closer/quick">, allant à lui, avec volubilité.
+</stage>
 <p id="90">
 	<s id="1">Je parle à un homme judicieux, n'est-ce pas ?</s>
 </p>
@@ -1834,7 +1863,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Les mêmes, Geneviève, Louise, Les enfants.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Les mêmes, Geneviève, Louise, Les enfants.
+</stage>
 <sp who="GENEVIÈVE"><speaker>GENEVIÈVE.</speaker>
 <p id="1">
 	<s id="1">Nous voilà.</s>

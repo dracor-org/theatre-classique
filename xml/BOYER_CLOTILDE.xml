@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -29,7 +29,7 @@
 			<titlePart type="main">CLOTILDE</titlePart>
 			<titlePart type="sub">TRAGÉDIE.</titlePart>
 			</docTitle> 
-		<docDate value='1659'>M. DC. LIX. Avec Privilège du Roi</docDate>
+		<docDate value="1659">M. DC. LIX. Avec Privilège du Roi</docDate>
 		<docAuthor id="BOYER, Claude">Par Monsieur Boyer.</docAuthor>
 		<docImprint>
 			<printer id="CALLEVILLE">À Paris, Chez CHARLES DE SERCY, au Palais, dans la Salle Dauphine, à la Bonne-Foi couronnée.</printer>
@@ -59,20 +59,21 @@
 		</div>
 		<castList>
 			<head>ACTEURS.</head>
-			<castItem><role id="CLOTILDE" sex="2" type='H' statut="comte" age='J' statut_amoureux="néant">CLOTILDE</role>, Fille de Deuthère.</castItem>
-			<castItem><role id="DEUTHÈRE" sex="2" type='H' statut="comte" age='A' statut_amoureux="néant">DEUTHÈRE</role>, Veuve du Comte de Béziers.</castItem>
-			<castItem><role id="CLIDAMANT" sex="1" type='H' statut="favori" age='A' statut_amoureux="néant">CLIDAMANT</role>, Favori du Roi.</castItem>
-			<castItem><role id="THEODEBERT" sex="1" type='H' statut="roi" age='A' statut_amoureux="néant">THEODEBERT</role>, Roi de Metz.</castItem>
-			<castItem><role id="CLODOMIRE" sex="1" type='H' statut="aristocrate" age='J' statut_amoureux="néant">CLODOMIRE</role>, Fils de Théodebert.</castItem>
-			<castItem><role id="SIGILE" sex="1" type='H' statut="capitaine" age='A' statut_amoureux="néant">SIGILE</role>, Capitaine des Gardes du Roi.</castItem>
-			<castItem><role id="LUCINDE" sex="2" type='H' statut="confident" age='A' statut_amoureux="néant">LUCINDE</role>, Confidente de Deuthère.</castItem>
-			<castItem><role id="THÉOSILE" sex="2" type='H' statut="confident" age='A' statut_amoureux="néant">THÉOSILE</role>, Confidente de Clotilde.</castItem>
+			<castItem><role id="CLOTILDE" sex="2" type="H" statut="comte" age="J" statut_amoureux="néant">CLOTILDE</role>, Fille de Deuthère.</castItem>
+			<castItem><role id="DEUTHÈRE" sex="2" type="H" statut="comte" age="A" statut_amoureux="néant">DEUTHÈRE</role>, Veuve du Comte de Béziers.</castItem>
+			<castItem><role id="CLIDAMANT" sex="1" type="H" statut="favori" age="A" statut_amoureux="néant">CLIDAMANT</role>, Favori du Roi.</castItem>
+			<castItem><role id="THEODEBERT" sex="1" type="H" statut="roi" age="A" statut_amoureux="néant">THEODEBERT</role>, Roi de Metz.</castItem>
+			<castItem><role id="CLODOMIRE" sex="1" type="H" statut="aristocrate" age="J" statut_amoureux="néant">CLODOMIRE</role>, Fils de Théodebert.</castItem>
+			<castItem><role id="SIGILE" sex="1" type="H" statut="capitaine" age="A" statut_amoureux="néant">SIGILE</role>, Capitaine des Gardes du Roi.</castItem>
+			<castItem><role id="LUCINDE" sex="2" type="H" statut="confident" age="A" statut_amoureux="néant">LUCINDE</role>, Confidente de Deuthère.</castItem>
+			<castItem><role id="THÉOSILE" sex="2" type="H" statut="confident" age="A" statut_amoureux="néant">THÉOSILE</role>, Confidente de Clotilde.</castItem>
 		</castList>
 		<set location="Metz" country="France" periode="VIème" gps="49.119309, 6.175716">La Scène est à Metz, dans le Palais Royal.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clotilde, Lucinde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clotilde, Lucinde.
+</stage>
 <sp who="CLOTILDE"><speaker>CLOTILDE.</speaker>
 	<l id="1" syll="6" part="i">Cesse de me flatter...</l>
 </sp>
@@ -172,8 +173,10 @@
 	<l id="75" syll="9" part="i">Cache au moins mon secret, ma Mère...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Deuthère, Lucinde.</head>
-<sp stage="toward" who="DEUTHERE"><speaker>DEUTHERE, parlant à Clotilde.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Deuthère, Lucinde.
+</stage>
+<sp who="DEUTHERE"><speaker>DEUTHERE</speaker><stage type="toward">, parlant à Clotilde.
+	</stage>
 	<l id="75" syll="3" part="f">Laissez-nous.</l>
 	<l id="76" syll="2" part="i">Hé bien...</l>
 </sp>
@@ -225,7 +228,8 @@
 	<l id="106">Souffrant d'un malheureux, sa haine se soulage. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Clidamant, Deuthere, Lucinde.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Clidamant, Deuthere, Lucinde.
+</stage>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
 	<l id="107">Madame, vous allez sans doute voir le Roi</l>
 	<l id="108">Achever de trahir ma flamme, et votre foi ;</l>
@@ -343,7 +347,8 @@
 	<l id="204">Songez bien que je suis entre ce Trône et vous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lucinde, Deuthere.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lucinde, Deuthere.
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 	<l id="205">Est-ce là votre adresse à calmer son courage ? </l>
 </sp>
@@ -363,7 +368,8 @@
 	<l id="214">Le Roi m'aime, il suffit... Mais je vois qu'il s'avance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Roi, Deuthere.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Roi, Deuthere.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="215" syll="6" part="i">J'allais vous voir, Madame.</l>
 </sp>
@@ -475,7 +481,8 @@
 	<l id="299">J'en pourrai disposer au gré de ma fureur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Sigile, Le Roi.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Sigile, Le Roi.
+</stage>
 <sp who="SIGILE"><speaker>SIGILE.</speaker>
 	<l id="300">Voilà de Clidamant le conseil et l'adresse.</l>
 </sp>
@@ -534,7 +541,8 @@
 	<l id="347">Mais j'aperçois le Prince, il vient me secourir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Roi, Clodomire.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Roi, Clodomire.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="348">Ah ! Mon Fils, sauve-moi d'un conseil trop sévère ;</l>
 	<l id="349">Si l'amour t'a charmé comme il a fait ton Père,</l>
@@ -568,7 +576,8 @@
 	<l id="363">Admire mon amour, et n'en soupire pas. </l>
 	<l id="364">J'aime un objet charmant, une beauté suprême.</l>
 </sp>
-<sp stage="low" who="CLODOMIRE"><speaker>CLODOMIRE, bas.</speaker>
+<sp who="CLODOMIRE"><speaker>CLODOMIRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="365" syll="6" part="i">Tu t'émeus, mon amour. </l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -595,7 +604,8 @@
 	<l id="379">La grandeur de mon feu, la beauté de mon choix :</l>
 	<l id="380">Et pour tout dire enfin, c'est Clotilde que j'aime. </l>
 </sp>
-<sp stage="low" who="CLODOMIRE"><speaker>CLODOMIRE, bas.</speaker>
+<sp who="CLODOMIRE"><speaker>CLODOMIRE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="381">Clotilde ! juste effroi de mon amour extrême,</l>
 	<l id="382">Désordre de mon coeur, vous me l'aviez bien dit. </l>
 </sp>
@@ -622,7 +632,8 @@
 	<l id="396">Hélas ! que cet espoir a pour moi peu de charmes,</l>
 	<l id="397">Tandis que votre amour me donne tant d'alarmes.</l>
 </sp>
-<sp stage="toward" who="LE ROI"><speaker>LE ROI, à Sigile.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="toward">, à Sigile.
+	</stage>
 	<l id="398">Toi, va voir ma Princesse, et dis-lui mon tourment : </l>
 	<l id="399">Fais-lui mon feu si beau, mon Trône si charmant,</l>
 	<l id="400">Qu'au plus puissant devoir son âme les préfère,</l>
@@ -631,7 +642,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Deuthere, Sigile, Lucinde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Deuthere, Sigile, Lucinde.
+</stage>
 <sp who="DEUTHERE"><speaker>DEUTHERE.</speaker>
 	<l id="402">Quoi, Sigile en ces lieux ! dans mon appartement ! </l>
 	<l id="403" syll="6" part="i">Entrer sans mon congé !</l>
@@ -750,8 +762,10 @@
 	<l id="478">Si l'amour des grandeurs... mais elle vient à nous. </l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Deuthere, Clotilde, Lucinde.</head>
-<sp stage="continue" who="DEUTHERE"><speaker>DEUTHERE, continue.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Deuthere, Clotilde, Lucinde.
+</stage>
+<sp who="DEUTHERE"><speaker>DEUTHERE</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="479">Lucinde, qu'elle est belle ! ah ! mes soupçons jaloux</l>
 	<l id="480">Auprès de tant d'appâts redoublement mes alarmes.</l>
 	<l id="481">Hé bien, ma fille, un Trône a-t-il pour vous des charmes,</l>
@@ -834,7 +848,8 @@
 	<l id="524">Allez, tous mes désirs secondent votre flamme.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Lucinde, Deuthere.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Lucinde, Deuthere.
+</stage>
 <sp who="LUCINDE"><speaker>LUCINDE.</speaker>
 	<l id="525">Tout rit à vos souhaits ; tout est pour vous, Madame ;</l>
 	<l id="526">L'Hymen de votre Fille est un si grand bonheur,</l>
@@ -845,7 +860,8 @@
 	<l id="531" syll="6" part="i">Madame, le voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Clidamant, Deuthere, Lucinde.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Clidamant, Deuthere, Lucinde.
+</stage>
 <sp who="CLIDAMANT"><speaker>CLIDAMANT.</speaker>
 	<l id="531" syll="6" part="f">Je m'en allais chez vous.</l>
 </sp>
@@ -1005,7 +1021,8 @@
 	<l id="651">L'infâme souvenir de mes vielles erreurs. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Deuthere, Lucinde.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Deuthere, Lucinde.
+</stage>
 <sp who="DEUTHERE"><speaker>DEUTHERE.</speaker>
 	<l id="652">Enfin c'est à ce coup que le sort qui m'outrage</l>
 	<l id="653">Sans plus rien ménager, vomit toute sa rage. </l>
@@ -1035,8 +1052,10 @@
 	<l id="677">Mais il va voir quel est le succès de sa rage. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Roi, Deuthere, Clidamant, Lucinde.</head>
-<sp stage="toward" who="LE ROI"><speaker>LE ROI, parlant à Clidamant.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Roi, Deuthere, Clidamant, Lucinde.
+</stage>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="toward">, parlant à Clidamant.
+	</stage>
 	<l id="678">Mais enfin je ne puis lui parler, ni la voir.</l>
 	<l id="679">Quel sera mon recours dans ce grand désespoir ? </l>
 </sp>
@@ -1072,7 +1091,8 @@
 	<l id="696">Je vais la préparer à ce grand Hyménée.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Roi, Clidamant.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Roi, Clidamant.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="697">Ô Succès fortuné d'une amour condamnée ! </l>
 	<l id="698">Par quelque mouvement qu'elle me rende heureux,</l>
@@ -1132,7 +1152,8 @@
 	<l id="743">Et fais dans tous les coeurs triompher son amour.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Clodomire, Le Roi.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Clodomire, Le Roi.
+</stage>
 <sp who="CLODOMIRE"><speaker>CLODOMIRE.</speaker>
 	<l id="744">Il est temps de parler ; meurs, respect trop sévère.</l>
 	<l id="745">Mon Rival est mon Roi ; mais c'est aussi mon Père.</l>
@@ -1271,7 +1292,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Deuthere, Clidamant.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Deuthere, Clidamant.
+</stage>
 <sp who="DEUTHERE"><speaker>DEUTHERE.</speaker>
 	<l id="812" syll="6" part="i">Écoutez, Clidamant.</l>
 </sp>
@@ -1350,7 +1372,8 @@
 	<l id="871">J'ai consumé ce temps à vous faire trembler.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Deuthere, Lucinde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Deuthere, Lucinde.
+</stage>
 <sp who="DEUTHERE"><speaker>DEUTHERE.</speaker>
 	<l id="872">Vois dans quel désespoir cette fureur l'entraîne ;</l>
 	<l id="873">Il s'en va couronner et ma Fille, et ma haine.</l>
@@ -1428,8 +1451,10 @@
 	<l id="932">Béziers m'offre un asile, et voyant sa Comtesse...</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Clodomire, Deuthere, Lucinde.</head>
-<sp stage="interrupt" who="CLODOMIRE"><speaker>CLODOMIRE, l'interrompant.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Clodomire, Deuthere, Lucinde.
+</stage>
+<sp who="CLODOMIRE"><speaker>CLODOMIRE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="933">Pardonnez, si pour vous transporter d'allégresse,</l>
 	<l id="934">Je n'ai point attendu le congé de vous voir ;</l>
 	<l id="935">Ma juste impatience a forcé mon devoir. </l>
@@ -1501,7 +1526,8 @@
 	<l id="980" syll="6" part="i">L'ardeur... Mais le Roi vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Le Roi, Clodomire.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Le Roi, Clodomire.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="980" syll="6" part="f">Quelle est cette allégresse,</l>
 	<l id="981" syll="2" part="i">Prince ?</l>
@@ -1593,7 +1619,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp stage="alone" who="LE ROI"><speaker>LE ROI, seul.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1049">Que fais-tu, malheureux ? À quelle violence,</l>
 	<l id="1050">À quels ressentiments, Père dénaturé, </l>
 	<l id="1051">Souffres-tu la douleur d'un Fils désespéré ?</l>
@@ -1607,7 +1634,8 @@
 	<l id="1059">La Nature est muette, où l'Amour est si fort. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Le Roi, Clotilde.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Le Roi, Clotilde.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1060">Princesse, quel bonheur en ces lieux vous amère ?</l>
 	<l id="1061">Venez-vous adoucir la rigueur de ma peine,</l>
@@ -1710,7 +1738,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="LE ROI"><speaker>LE ROI, seul.</speaker>
+<sp who="LE ROI"><speaker>LE ROI</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1144">Quelle est, Théodebert, ta faiblesse et ta honte ? </l>
 	<l id="1145">Une Fille te brave, un Enfant te surmonte ;</l>
 	<l id="1146">Un caprice d'amour, une infidélité,</l>
@@ -1722,7 +1751,8 @@
 	<l id="1152">Laisse agir mon devoir en faveur de ma gloire. </l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Roi, Clidamant.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Roi, Clidamant.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1153">Viens enfin, Clidamant, aider à ma victoire.</l>
 	<l id="1154">Tous mes soins rebutés, mon amour sans espoir,</l>
@@ -1792,7 +1822,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Deuthere, Clodomire.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Deuthere, Clodomire.
+</stage>
 <sp who="CLODOMIRE"><speaker>CLODOMIRE.</speaker>
 	<l id="1208">Vous voyez que son Fils rougit de sa faiblesse. </l>
 	<l id="1209">Il veut absolument posséder la Princesse ; </l>
@@ -1863,7 +1894,8 @@
 	<l id="1249">Est-ce respect, amour, désir, crainte, espérance ? </l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Deuthere, Clodomire, Clotilde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Deuthere, Clodomire, Clotilde.
+</stage>
 <sp who="DEUTHERE"><speaker>DEUTHERE.</speaker>
 	<l id="1250">Savez-vous quel bonheur vous arrive aujourd'hui ? </l>
 	<l id="1251">Le Prince vous adore ; et je vous donne à lui. </l>
@@ -1985,7 +2017,8 @@
 	<l id="1338">Que le Roi tonne, éclate, en un mot c'est mon bien ; </l>
 	<l id="1339">Je consens qu'il soit vôtre, et le reste n'est rien.</l>
 </sp>
-<sp stage="toward" who="CLODOMIRE"><speaker>CLODOMIRE, à Deuthere.</speaker>
+<sp who="CLODOMIRE"><speaker>CLODOMIRE</speaker><stage type="toward">, à Deuthere.
+	</stage>
 	<l id="1340">Ah ! c'est trop obliger un Amant misérable ;</l>
 	<l id="1341">Mon bonheur à ce prix me devient effroyable ; </l>
 	<l id="1342">Non que mon amour craigne un Rival couronné,</l>
@@ -2041,7 +2074,8 @@
 	<l id="1383">Je serai malgré vous aux mains d'un autre Amant.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Clodomire, Deuthere.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Clodomire, Deuthere.
+</stage>
 <sp who="CLODOMIRE"><speaker>CLODOMIRE.</speaker>
 	<l id="1384">Ah ! c'est trop maltraiter mon respect et ma flamme</l>
 	<l id="1385">Je suivrai, je suivrai votre conseil, Madame.</l>
@@ -2093,7 +2127,8 @@
 	<l id="1419">Le Roi vient. Vous, tâchez d'apaiser son courroux. </l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Clodomire, Le Roi, Clidamant.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Clodomire, Le Roi, Clidamant.
+</stage>
 <sp who="CLODOMIRE"><speaker>CLODOMIRE.</speaker>
 	<l id="1420" syll="9" part="i">Ah ! Seigneur, permettez qu'à vos pieds...</l>
 </sp>
@@ -2139,7 +2174,8 @@
 	<l id="1454">C'est ainsi seulement que je veux vous punir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Clodomire, Clidamant.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Clodomire, Clidamant.
+</stage>
 <sp who="CLODOMIRE"><speaker>CLODOMIRE.</speaker>
 	<l id="1455">Pouvez-vous, mes fureurs, ici vous contenir ?</l>
 	<l id="1456">Clidamant, arrêtez. Lâche auteur de ma peine,</l>
@@ -2163,7 +2199,8 @@
 	<l id="1467">Ces bruits étonnent peu des Hommes comme moi. </l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Sigile, Clidamant.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Sigile, Clidamant.
+</stage>
 <sp who="SIGILE"><speaker>SIGILE.</speaker>
 	<l id="1468">Quel intérêt, Seigneur, presse contre Deuthère</l>
 	<l id="1469">Toute votre faveur, toute votre colère ? </l>
@@ -2255,7 +2292,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clotilde, Théosile.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clotilde, Théosile.
+</stage>
 <sp who="CLOTILDE"><speaker>CLOTILDE.</speaker>
 	<l id="1532">Si j'ai recours au Roi contre la violence,</l>
 	<l id="1533">Que peut-on reprocher à ma faible innocence ? </l>
@@ -2337,7 +2375,8 @@
 	<l id="1579">Fierté, laisse sortir le secret de mon coeur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Clotilde, Clidamant.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Clotilde, Clidamant.
+</stage>
 <sp who="CLOTILDE"><speaker>CLOTILDE.</speaker>
 	<l id="1580">Dans l'état où je suis, Clidamant, votre zèle</l>
 	<l id="1581">M'apporte-t-il enfin quelque conseil fidèle ?</l>
@@ -2511,7 +2550,8 @@
 	<l id="1714">Mais elle vient. Allons achever son malheur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Clotilde, Deuthere.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Clotilde, Deuthere.
+</stage>
 <sp who="CLOTILDE"><speaker>CLOTILDE.</speaker>
 	<l id="1715">Ô comble de mépris, de honte, et de douleur !</l>
 	<l id="1716">Ô honte de mon sexe ! ô honte de ma flamme,</l>
@@ -2554,7 +2594,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="DEUTHERE"><speaker>DEUTHERE, seule.</speaker>
+<sp who="DEUTHERE"><speaker>DEUTHERE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="1744">Perfide, c'est assez, je vois tout votre crime,</l>
 	<l id="1745">Vous n'avez pu cacher l'ardeur qui vous anime ;</l>
 	<l id="1746">C'est là l'indigne éclat d'un coeur laborieux.</l>
@@ -2571,7 +2612,8 @@
 	<l id="1757">Ma fureur se redouble à l'aspect d'un perfide.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Le Roi, Sigile.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Le Roi, Sigile.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1758">Sigile, son conseil trop lent à me guérir,</l>
 	<l id="1759">Contre un désir bouillant ne me peut secourir.</l>
@@ -2587,8 +2629,10 @@
 	<l id="1769">Laissez aller mon coeur au comble de sa joie.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Sigile, Le Roi, Clodomire.</head>
-<sp stage="threat/stop" who="CLODOMIRE"><speaker>CLODOMIRE, ayant l'épée à la main, arrêté par Sigile.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Sigile, Le Roi, Clodomire.
+</stage>
+<sp who="CLODOMIRE"><speaker>CLODOMIRE</speaker><stage type="threat/stop">, ayant l'épée à la main, arrêté par Sigile.
+	</stage>
 	<l id="1770" syll="6" part="i">Laisse agir ma fureur...</l>
 </sp>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
@@ -2689,7 +2733,8 @@
 	<l id="1845">Amour, achève enfin ma fortune et ma gloire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Le Roi, Clidamant.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Le Roi, Clidamant.
+</stage>
 <sp who="LE ROI"><speaker>LE ROI.</speaker>
 	<l id="1846">Viens voir quel est enfin le succès de tes voeux.</l>
 </sp>
@@ -2837,7 +2882,8 @@
 	<l id="1957">Et de se dérober aux traits de ma justice.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Roi, Clotilde, Clodomire.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Roi, Clotilde, Clodomire.
+</stage>
 <sp who="CLOTILDE"><speaker>CLOTILDE.</speaker>
 	<l id="1958">Ne vous opposez pas à mes justes douleurs.</l>
 </sp>
@@ -2873,7 +2919,8 @@
 	<l id="1974">Clidamant a tout fait ; c'est lui qu'il faut punir. </l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE. Sigile, Le Roi, Clodomire, Clotilde.</head>
+<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE.</head><stage> Sigile, Le Roi, Clodomire, Clotilde.
+</stage>
 <sp who="SIGILE"><speaker>SIGILE.</speaker>
 	<l id="1975">C'en est fait, Clidamant a su nous prévenir.</l>
 	<l id="1976">Seigneur, lui-même il vient de se faire justice ;</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -29,18 +29,18 @@
 			<titlePart type="main">COMÉDIE-PROVERBE EN UN ACTE</titlePart>
 			<titlePart type="sub">DIX-HUITIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1785'>M. DCC. LXXXV.</docDate>
-		<docAuthor id='GARNIER, Thomas' bio='garnier'>Par MONSIEUR G***.</docAuthor>
+		<docDate value="1785">M. DCC. LXXXV.</docDate>
+		<docAuthor id="GARNIER, Thomas" bio="garnier">Par MONSIEUR G***.</docAuthor>
 		<docImprint>
-			<printer id='JORRY'>À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
+			<printer id="JORRY">À LIÈGE, Chez F.J. DESOER, Imprimeur-Libraire, sur le Pontd'Isle, à la Croix d'Or.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LISIDOR" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>LISDOR</role>.</castItem>
-		<castItem><role id="CLARICE" sex="2" type="H" statut="aristocrate" age="J" stat_amour='néant'>CLARICE</role>, fille de Lisidor.</castItem>
-		<castItem><role id="ÉRASTE" sex="1" type="H" statut="baron" age="A" stat_amour='néant'>ÉRASTE</role>.</castItem>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>ISABELLE</role>.</castItem>
-		<castItem><role id="DAMIS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>DAMIS</role>, amant d'Isabelle.</castItem>
-		<castItem><role id="PICARD" sex="1" type="H" statut="laquais" age="A" stat_amour='néant'>PICARD</role>, Laquais.</castItem>
+		<castItem><role id="LISIDOR" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">LISDOR</role>.</castItem>
+		<castItem><role id="CLARICE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">CLARICE</role>, fille de Lisidor.</castItem>
+		<castItem><role id="ÉRASTE" sex="1" type="H" statut="baron" age="A" stat_amour="néant">ÉRASTE</role>.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">ISABELLE</role>.</castItem>
+		<castItem><role id="DAMIS" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">DAMIS</role>, amant d'Isabelle.</castItem>
+		<castItem><role id="PICARD" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">PICARD</role>, Laquais.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est à Paris, dans la maison de Lisidor.</set>
 <note>Le texte est issu de "Nouveaux proverbes dramatiques ou recueil de comédies de société pour servir de suite aux Théâtres de Société et d'Éducation" par Monsieur G[arnier], 1785. pp. 421-440.</note>
@@ -48,7 +48,8 @@
 <body>
 <div1 type="act" n="1"><head>LES TROIS DAMIS</head>
 <stage type="decor">Le théâtre représente l'appartement de Lisidor.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Éraste, Clarice.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Éraste, Clarice.
+</stage>
 <stage type="entrance">Ils entrent sur la scène en conversant.</stage>
 <sp who="ÉRASTE"><speaker>ÉRASTE.</speaker>
 <p id="1">
@@ -115,7 +116,8 @@
 	<s id="3">Ne pouvant être à vous, les autres hommes me feront également indifférents.</s>
 </p>
 </sp>
-<sp stage="kiss" who="ÉRASTE"><speaker>ÉRASTE, lui baisant la main.</speaker>
+<sp who="ÉRASTE"><speaker>ÉRASTE</speaker><stage type="kiss">, lui baisant la main.
+</stage>
 <p id="13">
 	<s id="1">Adorable Clarice ! </s>
 	<s id="2">Que nous femmes à plaindre !</s>
@@ -416,8 +418,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Lisidor, Éraste, Clarice.</head>
-<sp stage="wave/unpleased/embarassed" who="LISIDOR"><speaker>LISIDOR, salue Éraste d'un air mécontent et embarrassé.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Lisidor, Éraste, Clarice.
+</stage>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="wave/unpleased/embarassed">, salue Éraste d'un air mécontent et embarrassé.
+</stage>
 <p id="1">
 	<s id="1">Monsieur, je suis votre serviteur.</s>
 </p>
@@ -454,7 +458,8 @@
 </p>
 <stage type="kiss">Il l'embrasse.</stage>
 </sp>
-<sp stage="embarrassed" who="LISIDOR"><speaker>LISIDOR, avec embarras.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="8">
 	<s id="1">Monsieur...</s>
 </p>
@@ -475,12 +480,14 @@
 	<s id="1">Je suis de Pontoise, et je m'appelle Damis.</s>
 </p>
 </sp>
-<sp stage="aparte" who="CLARICE"><speaker>CLARICE, à part.</speaker>
+<sp who="CLARICE"><speaker>CLARICE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="12">
 	<s id="1">Qui lui va-t-il conter ?</s>
 </p>
 </sp>
-<sp stage="happy" who="LISIDOR"><speaker>LISIDOR, d'un air épanoui.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="happy">, d'un air épanoui.
+</stage>
 <p id="13">
 	<s id="1">Eh quoi ! </s>
 	<s id="2">C'est vous, mon ami ? </s>
@@ -520,14 +527,16 @@
 	<s id="1">Je suis disposée à vous obéir en tout, mon père.</s>
 </p>
 </sp>
-<sp stage="happy" who="LISIDOR"><speaker>LISIDOR, avec satisfaction.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="happy">, avec satisfaction.
+</stage>
 <p id="20">
 	<s id="1">Je m'en doutais ; ce que c'est que la bonne éducation !</s>
 </p>
 <stage type="wave/away">Il fait un signe de satisfaction à Clarice et la congédie.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Lisidor, Éraste.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Lisidor, Éraste.
+</stage>
 <sp who="LISIDOR"><speaker>LISIDOR.</speaker>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -634,7 +643,8 @@
 	<s id="1">Monsieur, ce font des bagatelles que je tâche d'oublier.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LISIDOR"><speaker>LISIDOR, riant.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="laugh">, riant.
+</stage>
 <p id="19">
 	<s id="1">Eh ! </s>
 	<s id="2">Oui, oui, oui, tâchez, tâchez toujours : Les nouvelles aventures font oublier les vieilles ; mais pour notre ami, franchement, je le désapprouve.</s>
@@ -669,7 +679,8 @@
 	<s id="1">J'y serais très disposé, Monsieur ; mais, à vous parler franchement , je m'occupe peu de la conduite de mon père, pour jouir de mon côté d'une liberté plus entière : ce sont nos conventions.</s>
 </p>
 </sp>
-<sp stage="laugh" who="LISIDOR"><speaker>LISIDOR, riant.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="laugh">, riant.
+</stage>
 <p id="26">
 	<s id="1">Eh ! Eh ! Eh ! </s>
 	<s id="2">L'habile garçon ! </s>
@@ -695,15 +706,18 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="LISIDOR"><speaker>LISIDOR, seul.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage>, seul.
+</stage>
 <p id="1">
 	<s id="1">Il n'est, ma foi, pas mal, ce garçon-là, pas mal du tout. </s>
 	<s id="2">J'avais quelqu'inquiétude sur la parole que j'ai donnée à mon vieil ami, sans connaître son fils ; mais heureusement je n'ai point à me repentir, et la petite fille doit être fort contente.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Lisidor, Picard.</head>
-<sp stage="loud" who="PICARD"><speaker>PICARD, annonçant.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Lisidor, Picard.
+</stage>
+<sp who="PICARD"><speaker>PICARD</speaker><stage type="loud">, annonçant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur Damis.</s>
 </p>
@@ -726,7 +740,8 @@
 <stage type="exit">Picard sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Lisidor, Isabelle en homme.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Lisidor, Isabelle en homme.
+</stage>
 <stage type="costume/entrance/carry">Isabelle travestie en homme, entre une lettre
 à la main, et salue Lisidor sans rien dire.</stage>
 <sp who="LISIDOR"><speaker>LISIDOR.</speaker>
@@ -751,7 +766,8 @@
 	<s id="1">Je suis Damis, de Pontoise.</s>
 </p>
 </sp>
-<sp stage="surprise" who="LISIDOR"><speaker>LISIDOR, avec la plus grande surprise.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="surprise">, avec la plus grande surprise.
+</stage>
 <p id="5">
 	<s id="1">Qui ? </s>
 	<s id="2">Vous !</s>
@@ -762,7 +778,8 @@
 	<s id="1">Voici une lettre de mon père qui vous expliquera le sujet de ma visite.</s>
 </p>
 </sp>
-<sp who="LISIDOR"><speaker>LISIDOR, la prend avec empressement.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage>, la prend avec empressement.
+</stage>
 <p id="7">
 	<s id="1">Voyons. C'est parbleu son écriture. </s>
 </p>
@@ -771,7 +788,8 @@
 	<s id="1">Je suis confondu : voilà une étrange effronterie.</s>
 </p>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, qui a entendu les derniers mots, inquiète et déconcertée.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage>, qui a entendu les derniers mots, inquiète et déconcertée.
+</stage>
 <p id="9">
 	<s id="1">Ah ciel ! Tout est découvert, je suis perdue.</s>
 </p>
@@ -795,7 +813,8 @@
 	<s id="1">Un maître fourbe fort d'ici, qui s'est annoncé sous votre nom.</s>
 </p>
 </sp>
-<sp stage="extonish/aparte" who="ISABELLE"><speaker>ISABELLE, intriguée, à part.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="extonish/aparte">, intriguée, à part.
+</stage>
 <p id="14">
 	<s id="1">Damis m'aurait-il prévenue ? </s>
 </p>
@@ -804,7 +823,8 @@
 	<s id="1">Le tour est vraiment original.. :</s>
 </p>
 </sp>
-<sp who="LISIDOR"><speaker>LISIDOR, férieufement.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage>, férieufement.
+</stage>
 <p id="16">
 	<s id="1">Dites que le tour est pendable, mon ami, dites que le tour est pendable. </s>
 	<s id="2">Comment, moi morbleu ! </s>
@@ -813,7 +833,8 @@
 	<s id="5">Je lui apprendrai à qui il se joue.</s>
 </p>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, d'un ton mal assuré.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage>, d'un ton mal assuré.
+</stage>
 <p id="17">
 	<s id="1">Monsieur, je me flatte que vous ne doutez pas...</s>
 </p>
@@ -845,7 +866,8 @@
 	<s id="1">Il doit revenir, et comme il ne sait point votre arrivée, je me propose de le confondre et de le mettre entre les mains de la Justice.</s>
 </p>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, intriguée et alarmée.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage>, intriguée et alarmée.
+</stage>
 <p id="23">
 	<s id="1">Ah ! </s>
 	<s id="2">Gardez-vous-en bien.</s>
@@ -856,7 +878,8 @@
 	<s id="1">Et pourquoi ?...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ISABELLE"><speaker>ISABELLE, avec embarras.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="embarrassed">, avec embarras.
+</stage>
 <p id="25">
 	<s id="1">Peut-être est-ce un jeune fou sans expérience.</s>
 </p>
@@ -1023,7 +1046,8 @@
 	<s id="2">Eh, eh, eh.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ISABELLE"><speaker>ISABELLE, déconcertée.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage type="embarrassed">, déconcertée.
+</stage>
 <p id="56">
 	<s id="1">Moi, Monsieur.</s>
 </p>
@@ -1060,14 +1084,16 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp stage="alone" who="LISIDOR"><speaker>LISIDOR, seul.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="">Parbleu, l'aventure est comique et le véritable Damis a suivi de près l'imposteur. </s>
 	<s id="2">Un petit moment plutôt ils se rencontraient, et...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Lisidor, Picard.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Lisidor, Picard.
+</stage>
 <sp who="PICARD"><speaker>PICARD.</speaker>
 <p id="1">
 	<s id="1">Il y a encore là-bas un Monsieur qui dit s'appeler monsieur Damis, et qui demande à vous parler.</s>
@@ -1084,7 +1110,8 @@
 	<s id="1">Ferai-je entrer, monsieur ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LISIDOR"><speaker>LISIDOR, à part.</speaker>
+<sp who="LISIDOR"><speaker>LISIDOR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Oh ! </s>
 	<s id="2">Parbleu, je tiens celui-ci. </s>

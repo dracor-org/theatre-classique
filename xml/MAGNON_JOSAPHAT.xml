@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
 	 </docTitle>
 	<docDate value="1647">M. DC. XLVII. AVEC PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id="MAGNON, Jean" bio='magnon'>De Mr. Magnon.</docAuthor>
+		<docAuthor id="MAGNON, Jean" bio="magnon">De Mr. Magnon.</docAuthor>
 	<docImprint>
 	<privilege id="1646-08-31"><head>Extrait du privilège du Roi.</head>
 		<p>Par grâce et Privilège du Roi : Donné à Paris le dernier Août 1646, Signé par le Roi en son Conseil, SYMON : Il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre, intitulée Josaphat Tragi-Comédie, et ce durant le temps de cinq ans, à compter du jour que la dite pièce sera achevée d'imprimer, et défenses seront faites à tous Imprimeurs et Libraires d'en imprimer, vendre et distribuer d'autre impression que celle dudit SOMMAVILLE ou ses ayant causes, sur peine aux contrevenants de trois mille livres d'amende, confiscation des exemplaires, et de tous dépens, dommages et intérêts, ainsi qu'il est plus au long porté par les dites Lettres</p>
@@ -39,10 +39,10 @@
 	</privilege>
 	
 	<imprimeur id="SOMMAVILLE">À PARIS, Chez ANTOINE DE SOMMAVILLE, Au Palais, dans la Salle des Merciers, à l'Écu de France.</imprimeur>
-	<acheveImprime value='1646-10-12'>Achevé d'Imprimer pour la première fois, le 12ème Octobre 1646.</acheveImprime>
+	<acheveImprime value="1646-10-12">Achevé d'Imprimer pour la première fois, le 12ème Octobre 1646.</acheveImprime>
 	</docImprint>
 		<performance>
-			<premiere date="1644" location='(inconnue)'></premiere>
+			<premiere date="1644" location="(inconnue)"/>
 		</performance>
 <div type="dedicace">
 <adresse>À HAUT ET PUISSANT PRINCE, BERNARD DE FOIX DUC D'ESPERNON, De la Vallette et de Candalle, Pair et Colonel général de France, Chevalier des Ordres du Roi, et de la Jarretière, Prince et Captal de Buch, Conte de Foix, d'Astarac etc. Sire de l'Espare, etc. Gouverneur et Lieutenant général pour le Roi en Guyenne.</adresse>
@@ -54,19 +54,20 @@
 	<signature>MAGNON.</signature>
 </div>
 <castList><head>PERSONNAGES.</head>
-	<castItem><role id="ABENNER" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>ABENNER</role>, Roi des Indes.</castItem>
-	<castItem><role id="JOSAPHAT" sex="1" type="H" statut='prince' age='A' stat_amour='néant'>JOSAPHAT</role>, son fils.</castItem>
-	<castItem><role id="ARACHE" sex="1" type="H" statut='général' age='A' stat_amour='néant'>ARACHE</role>, Lieutenant général des Armées d'Abenner.</castItem>
-	<castItem><role id="AMALAZIE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>AMALAZIE</role>, prisonnière de guerre d'Abenner.</castItem>
-	<castItem><role id="BARLAAM" sex="1" type="H" statut='courtisan' age='A' stat_amour='néant'>BARLAAM</role>, Courtisan d'Abenner, disgracié.</castItem>
-	<castItem><role id="NACOR" sex="1" type="H" statut='courtisan' age='A' stat_amour='néant'>NACOR</role>, Courtisan d'Abenner.</castItem>
-	<castItem><role id="GARDES" sex="1" type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
+	<castItem><role id="ABENNER" sex="1" type="H" statut="roi" age="A" stat_amour="néant">ABENNER</role>, Roi des Indes.</castItem>
+	<castItem><role id="JOSAPHAT" sex="1" type="H" statut="prince" age="A" stat_amour="néant">JOSAPHAT</role>, son fils.</castItem>
+	<castItem><role id="ARACHE" sex="1" type="H" statut="général" age="A" stat_amour="néant">ARACHE</role>, Lieutenant général des Armées d'Abenner.</castItem>
+	<castItem><role id="AMALAZIE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">AMALAZIE</role>, prisonnière de guerre d'Abenner.</castItem>
+	<castItem><role id="BARLAAM" sex="1" type="H" statut="courtisan" age="A" stat_amour="néant">BARLAAM</role>, Courtisan d'Abenner, disgracié.</castItem>
+	<castItem><role id="NACOR" sex="1" type="H" statut="courtisan" age="A" stat_amour="néant">NACOR</role>, Courtisan d'Abenner.</castItem>
+	<castItem><role id="GARDES" sex="1" type="H" statut="garde" age="A" stat_amour="néant">GARDES</role>.</castItem>
 </castList>
-<set location='Narsingue' country='Inde' periode='VIIème' gps="(N/A)">La scène est dans Narsingue, dans le Palais d'Abenner.</set>
+<set location="Narsingue" country="Inde" periode="VIIème" gps="(N/A)">La scène est dans Narsingue, dans le Palais d'Abenner.</set>
 </front>
 <body>
-<div1 type="act" n='1'><head>ACTE I</head>
-<div2 type="scene" n='1'><head>SCÈNE I. Amalazie, Arache.</head>
+<div1 type="act" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Amalazie, Arache.
+</stage>
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
 	<l id="1">Vous soupirez Madame, et vous versez des larmes, </l>
 	<l id="2">Dans un temps où la Cour étale tous ses charmes ; </l>
@@ -232,8 +233,9 @@
 	<l id="113">Il désire vous voir avec impatience. </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Amalazie, Arache, un Garde.</head>
-<sp who='UN GARDE'><speaker>UN GARDE.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Amalazie, Arache, un Garde.
+</stage>
+<sp who="UN GARDE"><speaker>UN GARDE.</speaker>
 	<l id="114">Seigneur le Prince arrive avec magnificence, </l>
 	<l id="115">Déjà toute la Cour s'en va le recevoir </l>
 	<l id="116" part="i">Il paraîtra bientôt. </l>
@@ -260,7 +262,8 @@
 	<l id="124">Allons le recevoir ? Madame je le vois. </l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Josaphat, Amalazie, Arache, Troupe de Courtisans.</head> 
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Josaphat, Amalazie, Arache, Troupe de Courtisans. 
+</stage> 
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
 	<l id="125">Hé bien Seigneur le peuple a vu son jeune maître </l>
 	<l id="126">Enfin son Dieu visible a daigné lui paraître, </l>
@@ -270,7 +273,8 @@
 	<l id="130">Et par ses compliments sa joie est témoignée ; </l>
 	<l id="131">En voici l'armement que je vous viens offrir. </l>
 </sp>
-<sp stage="low" who='JOSAPHAT'><speaker>JOSAPHAT, bas.</speaker>
+<sp who="JOSAPHAT"><speaker>JOSAPHAT</speaker><stage type="low">, bas.
+	</stage>
 	<l id="132">Que ce fatal objet me va faire souffrir, </l>
 	<l id="133">Mon coeur pressent ses maux avant qu'il les connaisse. </l>
 </sp>
@@ -299,7 +303,8 @@
 	<l id="147">Des yeux accoutumés à répandre des pleurs : </l>
 	<l id="148">Une bouche employée à dire ses malheurs. </l>
 </sp>
-<sp stage="interrupt" who='ARACHE'><speaker>ARACHE, l'interrompant.</speaker>
+<sp who="ARACHE"><speaker>ARACHE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="149">Seigneur incessamment la mort est son envie. </l>
 </sp>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
@@ -367,7 +372,8 @@
 	<l id="184">Quand il vous faut servir, j'ose tout hasarder. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Josaphat, Arache.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Josaphat, Arache.
+</stage>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
 	<l id="185" part="i">Prince qu'elle est aimable. </l>
 </sp>
@@ -447,11 +453,13 @@
 	<l id="230">Je vous dirai tantôt ce que mon âme en pense ; </l>
 	<l id="231">Rompons cet entretien je vois venir le Roi. </l>
 </sp>
-<sp stage="low" who='ARACHE'><speaker>ARACHE, bas.</speaker>
+<sp who="ARACHE"><speaker>ARACHE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="232">Dieux du Dieu des Chrétiens aurait-il su la loi. </l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. Abenner, Josaphat, Arache, Gardes.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Abenner, Josaphat, Arache, Gardes.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="233" part="i">Vous avez vu Narsingue. </l>
 </sp>
@@ -533,7 +541,8 @@
 	<l id="273">Vous Prince dont le Zèle agissait tant pour elle </l>
 	<l id="274">Allez lui rapporter cette heureuse nouvelle. </l>
 </sp>
-<sp stage="low" who='ARACHE'><speaker>ARACHE, bas.</speaker>
+<sp who="ARACHE"><speaker>ARACHE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="275">Se peut-il rencontrer un esprit plus confus. </l>
 </sp>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
@@ -548,7 +557,8 @@
 	<l id="282">Et par-là demander le coeur que l'on me donne, </l>
 	<l id="283">Je vous suis, recevez un si célèbre emploi. </l>
 </sp>
-<sp stage="low" who='ARACHE'><speaker>ARACHE, bas. </speaker>
+<sp who="ARACHE"><speaker>ARACHE</speaker><stage type="low">, bas. 
+	</stage>
 	<l id="284">Faut-il que ma prière ait agi contre moi, </l>
 	<l id="285">Je me charge Seigneur de cette confidence. </l>
 </sp>
@@ -556,7 +566,8 @@
 	<l id="286">Qu'on déclare partout cette réjouissance, </l>
 	<l id="287">Que Narsingue à l'envi célèbre cet amour. </l>
 </sp>
-<sp stage="low" who='ARACHE'><speaker>ARACHE, bas.</speaker>
+<sp who="ARACHE"><speaker>ARACHE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="288">Ah ! Plutôt par ma mort solennisons ce jour ; </l>
 	<l id="289">Allons voir ma Princesse, allons lui tout redire </l>
 <stage type="loud">Haut.</stage>
@@ -564,9 +575,10 @@
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='2'><head>ACTE II</head>
-<div2 type="scene" n='1'><head>SCÈNE I.</head>
-<sp stage="alone" who='JOSAPHAT'><speaker>JOSAPHAT, seul.</speaker>
+<div1 type="act" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp who="JOSAPHAT"><speaker>JOSAPHAT</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="291">Je me vois bien déchu d'une haute espérance </l>
 	<l id="292">Je me vois rebuté contre toute apparence : </l>
 	<l id="293">Avoir pu dédaigner le fils de son vainqueur </l>
@@ -585,7 +597,8 @@
 	<l id="306">Les passions en foule agissent dessus moi. </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Josaphat, Un Garde.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Josaphat, Un Garde.
+</stage>
 <sp who="UN GARDE"><speaker>LE GARDE.</speaker>
 	<l id="307">Seigneur, un joailler se présente à la porte </l>
 	<l id="308">Il n'est rien d'excellent que cet homme n'apporte. </l>
@@ -596,7 +609,8 @@
 	<l id="311">Éblouissons par-là les yeux d'Amalazie.</l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Josaphat, Barlaam, Gardes.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Josaphat, Barlaam, Gardes.
+</stage>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
 	<l id="312" part="i">Hé bien, qu'as-tu de beau ? </l>
 </sp>
@@ -679,7 +693,8 @@
 	<l id="359">Tu me peux tout montrer, suivant qu'on se retire. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Josaphat, Barlaam.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Josaphat, Barlaam.
+</stage>
 <sp who="BARLAAM"><speaker>BARLAAM.</speaker>
 	<l id="360">Ôtez ce que mon_Dieu m'a forcé de vous dire, </l>
 	<l id="361">La perle que je porte a bien d'autres clartés </l>
@@ -861,13 +876,15 @@
 	<l id="490">Et là tu m'instruiras des secrets de ton Dieu, </l>
 	<l id="491" part="i">De ta Religion. </l>
 </sp>
-<sp stage="exit" who='BARLAAM'><speaker>BARLAAM, sortant.</speaker>
+<sp who="BARLAAM"><speaker>BARLAAM</speaker><stage type="exit">, sortant.
+	</stage>
 	<l id="491" part="f">Il est de votre gloire ; </l>
 	<l id="492">Mon_Dieu, j'ai commencé poursuivez ma victoire. </l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V.</head>
-<sp stage="alone" who='JOSAPHAT'><speaker>JOSAPHAT, seul.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head>
+<sp who="JOSAPHAT"><speaker>JOSAPHAT</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="493">J'entre dans le combat, puissant Dieu défends-moi, </l>
 	<l id="494">De moi je ne puis rien je puis tout avec toi, </l>
 	<l id="495">Fausses divinités que mon peuple idolâtre, </l>
@@ -880,7 +897,8 @@
 	<l id="502">Donne-moi les moyens de le pouvoir toucher. </l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI. Josaphat, Abenner.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Josaphat, Abenner.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="503">Hé bien tout se prépare à ce grand hyménée, </l>
 	<l id="504">Il va solenniser cette belle journée, </l>
@@ -972,8 +990,9 @@
 	<l id="548">Hé bien sortons mon_Dieu, je te laisse mon père. </l>
 </sp>
 </div2>
-<div2 type="scene" n='7'><head>SCÈNE VII.</head>
-<sp stage="alone" who='ABENNER'><speaker>ABENNER, seul.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head>
+<sp who="ABENNER"><speaker>ABENNER</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="549">C'est donc toi Barlaam, âme lâche et sans foi, </l>
 	<l id="550">Ayant trahi tes Dieux, viens-tu trahir ton Roi ? </l>
 	<l id="551">Tristes prédictions funestes conjonctures, </l>
@@ -992,7 +1011,8 @@
 	<l id="564">Te puis-je consoler, malheureuse princesse. </l>
 </sp>
 </div2>
-<div2 type="scene" n='8'><head>SCÈNE VIII. Abenner, Amalazie, Arache.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Abenner, Amalazie, Arache.
+</stage>
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
 	<l id="565">Seigneur Amalazie attend de nouveaux fers. </l>
 </sp>
@@ -1043,7 +1063,7 @@
 	<l id="602">Qu'on cherche Barlaam qu'on l'accable de fers ; </l>
 	<l id="603" part="i">Vous gardes imprudents. </l>
 </sp>
-<sp who='UN GARDE'><speaker>UN GARDE.</speaker>
+<sp who="UN GARDE"><speaker>UN GARDE.</speaker>
 	<l id="603" part="m">Seigneur. </l>
 </sp>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
@@ -1104,8 +1124,9 @@
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='3'><head>ACTE III</head>
-<div2 type="scene" n='1'><head>SCÈNE I. Abenner, Nacor.</head>
+<div1 type="act" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Abenner, Nacor.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="635">Nacor, en ce rencontre il se faut bien conduire, </l>
 	<l id="636">Je te ferai puissant si tu le peux réduire : </l>
@@ -1158,7 +1179,8 @@
 	<l id="665">Fais enfin triompher la loi que nous tenons. </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Abenner, Arache, Josaphat, Amalazie, Nacor, Courtisans.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Abenner, Arache, Josaphat, Amalazie, Nacor, Courtisans.
+</stage>
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
 	<l id="666">Seigneur, voici le Prince et nous vous l'amenons. </l>
 </sp>
@@ -1453,7 +1475,8 @@
 	<l id="840" part="f">Veux-tu suivre ce traître. </l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Abenner, Amalazie, Arache, Josaphat.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Abenner, Amalazie, Arache, Josaphat.
+</stage>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
 	<l id="841">Seigneur, je suis chrétien, je me fais mon arrêt, </l>
 	<l id="842">Je suis pressé de mourir pour le même intérêt. </l>
@@ -1495,7 +1518,8 @@
 	<l id="860">Épargne en ma faveur la tête de mon père. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Abenner, Amalazie, Arache.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Abenner, Amalazie, Arache.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="861">Il court à son malheur il lui faut résister, </l>
 	<l id="862">Et malgré sa vitesse il le faut arrêter : </l>
@@ -1562,7 +1586,8 @@
 	<l id="894" part="i">Adieu pensez-y bien. </l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. Amalazie, Arache.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Amalazie, Arache.
+</stage>
 <sp who="AMALAZIE"><speaker>AMALAZIE.</speaker>
 	<l id="894" part="f">Il s'est enfin ouvert, </l>
 	<l id="895">Et ce lion cache manifeste sa rage. </l>
@@ -1630,15 +1655,17 @@
 	<l id="941">Tous tes raisonnements sont ici superflus, </l>
 	<l id="942">Laisse aller ma Princesse et ne la retient plus. </l>
 </sp>
-<sp stage="alone" who='AMALAZIE'><speaker>AMALAZIE, seule.</speaker>
+<sp who="AMALAZIE"><speaker>AMALAZIE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="943">Ce que n'a pu le trône, Arache l'a pu faire, </l>
 	<l id="944">Il le peut il le veut, Amour il faut lui plaire. </l>
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='4'><head>ACTE IV</head>
-<div2 type="scene" n='1'><head>SCÈNE I.</head>
-<sp stage="alone" who='JOSAPHAT'><speaker>JOSAPHAT, seul.</speaker>
+<div1 type="act" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp who="JOSAPHAT"><speaker>JOSAPHAT</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="945">Mon_Dieu, tu vois des cieux les périls que je cours </l>
 	<l id="946">Parmi tant de dangers j'ai besoin d'un secours : </l>
 	<l id="947">Sans que mon coeur, contre eux hasarde sa défaite, </l>
@@ -1660,7 +1687,8 @@
 	<l id="963">Mon_Dieu je vois venir cette belle idolâtre. </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Amalazie, Josaphat.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Amalazie, Josaphat.
+</stage>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
 	<l id="964">Madame à quel dessein me venez-vous combattre ? </l>
 </sp>
@@ -1824,7 +1852,8 @@
 	<l id="1066">Je le vais reconnaître au bruit de ses soupirs. </l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Amalazie, Josaphat, Arache.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Amalazie, Josaphat, Arache.
+</stage>
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
 	<l id="1067" part="i">Ah ! Seigneur, ah ! Madame. </l>
 </sp>
@@ -2107,7 +2136,8 @@
 	<l id="1215">Vous verrez le succès qu'aura cette prudence. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Amalazie, Arache, Josaphat, Abenner, Barlaam.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Amalazie, Arache, Josaphat, Abenner, Barlaam.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="1216">C'est par là que tu peux arrêter ma vengeance. </l>
 </sp>
@@ -2174,7 +2204,8 @@
 <note type="C">V. 1250, l'original porte "n'y", il s'agit vraisemblablement de "ni" .</note>
 	<l id="1250">La terre avec le Ciel, ni l'homme avecque Dieu. </l>
 </sp>
-<sp stage="low/toward" who='AMALAZIE'><speaker>AMALAZIE, bas à Arache.</speaker>
+<sp who="AMALAZIE"><speaker>AMALAZIE</speaker><stage type="low/toward">, bas à Arache.
+	</stage>
 	<l id="1251">Prince découvrons-nous ce grand zèle m'enflamme. </l>
 </sp>
 <sp who="ARACHE"><speaker>ARACHE.</speaker>
@@ -2215,8 +2246,9 @@
 </sp>
 </div2>
 </div1>
-<div1 type="act" n='5'><head>ACTE V</head>
-<div2 type="scene" n='1'><head>SCÈNE I. Abenner, Barlaam.</head>
+<div1 type="act" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Abenner, Barlaam.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="1261">Écoute Barlaam, j'ai différé ta mort, </l>
 	<l id="1262" part="i">Je puis tout. </l>
@@ -2310,8 +2342,9 @@
 	<l id="1314">Gardes, qu'on le remette au fonds de sa prison. </l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II.</head>
-<sp stage="alone" who='ABENNER'><speaker>ABENNER, seul.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head>
+<sp who="ABENNER"><speaker>ABENNER</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="1315">Trouve-t-on parmi nous de pareilles constances, </l>
 	<l id="1316">Est-ce à nous cruels Dieux de prendre vos vengeances ? </l>
 <note type="L">Foudre : Se dit figurément de la colère de Dieu, ou des Rois. [F]</note>
@@ -2329,7 +2362,8 @@
 	<l id="1328">Je tremble, leur abord marque quelque tristesse. </l>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. Abenner, Amalazie, Arache.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Abenner, Amalazie, Arache.
+</stage>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="1329" part="i">Qu'est devenu mon fils ? </l>
 </sp>
@@ -2343,7 +2377,8 @@
 	<l id="1333">Je ne le veux point voir, qu'on l'aille dépêcher, </l>
 	<l id="1334" part="i">Différez ? </l>
 </sp>
-<sp stage="low" who='AMALAZIE'><speaker>AMALAZIE, bas.</speaker>
+<sp who="AMALAZIE"><speaker>AMALAZIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="1334" part="f">J'ai prévu qu'il se pourrait toucher. </l>
 </sp>
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
@@ -2377,7 +2412,8 @@
 <sp who="ABENNER"><speaker>ABENNER.</speaker>
 	<l id="1348" part="i">Il est donc mort ? </l>
 </sp>
-<sp stage="toward" who='AMALAZIE'><speaker>AMALAZIE, à Arache.</speaker>
+<sp who="AMALAZIE"><speaker>AMALAZIE</speaker><stage type="toward">, à Arache.
+	</stage>
 	<l id="1348" part="f">Voyez comme se perd sa haine ; </l>
 	<l id="1349">Comme insensiblement s'affaiblit sa rigueur, </l>
 	<l id="1350">Et comme l'amitié reprend place en son coeur. </l>
@@ -2466,7 +2502,8 @@
 	<l id="1394">Et combien de pensers agitent mes esprits. </l>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Abenner, Amalazie, Arache, Josaphat.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Abenner, Amalazie, Arache, Josaphat.
+</stage>
 <sp who="JOSAPHAT"><speaker>JOSAPHAT.</speaker>
 	<l id="1395">Seigneur je viens chercher un juge inexorable, </l>
 	<l id="1396">J'appelle devant vous d'un arrêt favorable ; </l>

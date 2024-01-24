@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -36,25 +36,27 @@
 			<printer>PARIS. - IMPRIMERIE de Ve DONDET-DUPRÉ, rue Saint-Louis, 46, au Marais</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="médecin" age="A" stat_amour='néant'>LE DOCTEUR</role>.</castItem>
-		<castItem><role id="GUILLAUME" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>GUILLAUME</role>.</castItem>
-		<castItem><role id="ERNEST" sex="1" type="H" statut="médecin" age="A" stat_amour='néant'>ERNEST</role>.</castItem>
-		<castItem><role id="LA MARQUISE" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LA MARQUISE</role>.</castItem>
-		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour='néant'>LE MARQUIS</role>.</castItem>
-		<castItem><role id="JULIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour='néant'>JULIE</role>.</castItem>
-		<castItem><role id="LA COUTURIÈRE" sex="2" type="H" statut="couturière" age="A" stat_amour='néant'>LA COUTURIÈRE</role>.</castItem>
-		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour='néant'>LA COMTESSE</role>.</castItem>
-		<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age="A" stat_amour='néant'>LA BARONNE</role>.</castItem>
-		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestiQUE" age="A" stat_amour='néant'>UN DOMESTIQUE</role>.</castItem>
+		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
+		<castItem><role id="GUILLAUME" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">GUILLAUME</role>.</castItem>
+		<castItem><role id="ERNEST" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">ERNEST</role>.</castItem>
+		<castItem><role id="LA MARQUISE" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LA MARQUISE</role>.</castItem>
+		<castItem><role id="LE MARQUIS" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>.</castItem>
+		<castItem><role id="JULIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">JULIE</role>.</castItem>
+		<castItem><role id="LA COUTURIÈRE" sex="2" type="H" statut="couturière" age="A" stat_amour="néant">LA COUTURIÈRE</role>.</castItem>
+		<castItem><role id="LA COMTESSE" sex="2" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE</role>.</castItem>
+		<castItem><role id="LA BARONNE" sex="2" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE</role>.</castItem>
+		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestiQUE" age="A" stat_amour="néant">UN DOMESTIQUE</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222"/>
 	<note>Texte extrait de "Proverbes et Nouvelles par Eugène Scribe", Paris Gosselin, 1861. pp. 307-315.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE JEUNE DOCTEUR. </head>
-<div2 type="scene" n="2"><head>SCÈNE PREMIÈRE. Le Docteur, Ernest.</head>
+<div2 type="scene" n="2"><head>SCÈNE PREMIÈRE.</head><stage> Le Docteur, Ernest.
+</stage>
 <stage type="decor">Le cabinet du premier médecin de Paris. Le Docteur, que Guillaume,son valet de chambre, achève d'habiller. Ernest, près d'une table et travaillant.</stage>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à son valet de chambre.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à son valet de chambre.
+</stage>
 <p id="1">
 	<s id="1">Ma montre ! </s>
 	<s id="2">Ma tabatière ! </s>
@@ -114,7 +116,8 @@
 	<s id="1">Je travaille, Monsieur, j'étudie.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DOCTEUR"><speaker>LE DOCTEUR, à part.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="11">
 	<s id="1">Est-il bête ! </s>
 	<s id="2">Voilà trois ans qu'il a le nez fourré dans les livres, et ne sort de mon cabinet que pour aller à mon hospice voir mes malades. </s>
@@ -168,7 +171,8 @@
 	<s id="1">Et s'ils meurent aujourd'hui ?</s>
 </p>
 </sp>
-<sp stage="impatient" who="LE DOCTEUR"><speaker>LE DOCTEUR, avec impatience.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="impatient">, avec impatience.
+</stage>
 <p id="20">
 	<s id="1">S'ils meurent ! </s>
 	<s id="2">S'ils meurent ! </s>
@@ -252,7 +256,8 @@
 	<s id="3">Moi qui dîne aujourd'hui chez elle !</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, avec émotion.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, avec émotion.
+</stage>
 <p id="32">
 	<s id="1">Madame_de_Nangis !...</s>
 </p>
@@ -280,7 +285,8 @@
 	<s id="8">C'est moi qui l'ai tirée dernièrement de cette maladie que vous avez soignée.</s>
 </p>
 </sp>
-<sp stage="sigh" who="ERNEST"><speaker>ERNEST, soupirant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="sigh">, soupirant.
+</stage>
 <p id="36">
 	<s id="1">Oui, Monsieur ; j'ai passé cinq jours et cinq nuits à l'hôtel.</s>
 </p>
@@ -316,7 +322,8 @@
 	<s id="1">Et qu'a-t-elle donc ?</s>
 </p>
 </sp>
-<sp stage="write" who="LE DOCTEUR"><speaker>LE DOCTEUR, écrivant.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="write">, écrivant.
+</stage>
 <p id="43">
 	<s id="1">Rien d'alarmant ! </s>
 	<s id="2">Il y a en elle, au contraire, trop de sève, trop d'existence ! </s>
@@ -330,7 +337,8 @@
 	<s id="1">Quoi donc ?</s>
 </p>
 </sp>
-<sp who="LE DOCTEUR"><speaker>LE DOCTEUR, écrivant toujours.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage>, écrivant toujours.
+</stage>
 <p id="35">
 	<s id="1">Un régime tout opposé, sous peine de perdre sa beauté, sa fraîcheur ; menace terrible pour une jolie femme...</s>
 </p>
@@ -349,12 +357,14 @@
 	<s id="1">Lui, qui aspire à la pairie, et qui voudrait faire revivre après lui un son nom...</s>
 </p>
 </sp>
-<sp stage="aparte/despite" who="ERNEST"><speaker>ERNEST, à part, avec dépit.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte/despite">, à part, avec dépit.
+</stage>
 <p id="39">
 	<s id="">Qui est déjà mort de son vivant !</s>
 </p>
 </sp>
-<sp stage="write/close" who="LE DOCTEUR"><speaker>LE DOCTEUR, fermant la lettre et y mettant l'adresse.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="write/close">, fermant la lettre et y mettant l'adresse.
+</stage>
 <p id="40">
 	<s id="1">Voilà qui est fini... </s>
 	<s id="2">Je m'en vais. </s>
@@ -414,7 +424,8 @@
 	<s id="1">C'est ce qui vous trompe, monsieur; selon moi, cette ordonnance devait tuer la malade.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LE DOCTEUR"><speaker>LE DOCTEUR, d'un air railleur.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="ironic">, d'un air railleur.
+</stage>
 <p id="50">
 	<s id="1">Vraiment ! </s>
 	<s id="2">Qui vous l'a dit ?</s>
@@ -425,7 +436,8 @@
 	<s id="1">L'événement même ; car je n'en ai pas suivi un mot : j'ai fait tout le contraire, et la marquise existe encore.</s>
 </p>
 </sp>
-<sp stage="furious" who="LE DOCTEUR"><speaker>LE DOCTEUR, furieux.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="furious">, furieux.
+</stage>
 <p id="52">
 	<s id="1">Monsieur, un pareil manque d'égards... </s>
 	<s id="2">Un tel abus de confiance...</s>
@@ -452,7 +464,8 @@
 	<s id="1">Elle est prête.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à Guillaume.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à Guillaume.
+</stage>
 <p id="57">
 	<s id="1">C'est bien heureux ! Vous porterez cette lettre à l'instant à l'hôtel de Nangis ? </s>
 	<s id="2">Vous la remettrez à la marquise... </s>
@@ -466,7 +479,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="alone/watch/exit" who="ERNEST"><speaker>ERNEST, seul, le regardantsortir.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="alone/watch/exit">, seul, le regardantsortir.
+</stage>
 <p id="1">
 	<s id="1">Voilà le monde !... </s>
 	<s id="2">Voilà ceux qui réussissent!... </s>
@@ -497,8 +511,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ernest, Le Marquis.</head>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, d'un air préoccupé.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ernest, Le Marquis.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, d'un air préoccupé.
+</stage>
 <p id="1">
 	<s id="1">Bonjour, mon cher monsieur, bonjour ! </s>
 	<s id="2">- Le docteur est-il ?</s>
@@ -509,7 +525,8 @@
 	<s id="1">Non, monsieur, il vient de sortir !</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, ayant l'air de réfléchir.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, ayant l'air de réfléchir.
+</stage>
 <p id="2">
 	<s id="1">Sorti ? </s>
 	<s id="2">- Soit.</s>
@@ -520,12 +537,14 @@
 	<s id="2">- Mais depuis cette fièvre_ataxique dans laquelle vous m'avez soigné, j'ai presque autant de confiance en vous qu'en lui.</s>
 </p>
 </sp>
-<sp stage="wave" who="ERNEST"><speaker>ERNEST, en s'inclinant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="wave">, en s'inclinant.
+</stage>
 <p id="4">
 	<s id="1">Monsieur le Marquis !</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, mystérieusement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, mystérieusement.
+</stage>
 <p id="5">
 	<s id="1">Vous sentez que c'est entre nous, et que je ne le dirais pas dans le monde, parce qu'on se moquerait de moi...</s>
 </p>
@@ -540,20 +559,23 @@
 	<s id="1">Et puisque nous voilà seuls, il faut que je vous consulte longuement, en détail, et en reprenant de plus haut.</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, lui avançant un fauteuil.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, lui avançant un fauteuil.
+</stage>
 <p id="8">
 	<s id="1">Daignez donc vous asseoir.</s>
 </p>
 <stage type="sit/think/turn">Ils s'asseyent tous les deux ; le Marquis se recueille un instant, puis se tourne vers Ernest.</stage>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, gravement et pesant chaque mot.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, gravement et pesant chaque mot.
+</stage>
 <p id="9">
 	<s id="1">J'ai de la fortune. </s>
 	<s id="2">- Deux cent mille livres de rentes ou à peu près, de la naissance, du crédit. </s>
 	<s id="3">- Membre de la chambre_des_députés, j'aurais pu arriver au Luxembourg lors de la dernière invasion...</s>
 </p>
 </sp>
-<sp stage="estonish" who="ERNEST"><speaker>ERNEST, étonné.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="estonish">, étonné.
+</stage>
 <p id="10">
 	<s id="">Quelle invasion ?...</s>
 </p>
@@ -569,7 +591,8 @@
 	<s id="1">Et pourquoi ?</s>
 </p>
 </sp>
-<sp stage="subtil" who="LE MARQUIS"><speaker>LE MARQUIS, avec finesse.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="subtil">, avec finesse.
+</stage>
 <p id="13">
 	<s id="1">Pour avoir droit à la dotation que nous nous sommes votée dernièrement, sans avoir l'air de savoir ce que nous faisions.</s>
 </p>
@@ -583,7 +606,8 @@
 	<s id="1">Vraiment !</s>
 </p>
 </sp>
-<sp stage="serious" who="LE MARQUIS"><speaker>LE MARQUIS, avec gravité.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="serious">, avec gravité.
+</stage>
 <p id="16">
 	<s id="1">Oui, mon cher ; nous ne sommes plus dans ces temps où les marquis étaient légers, étourdis, et réussissaient dans le monde en ruinant leur fortune ou leur santé ! </s>
 	<s id="2">On a changé tout cela. </s>
@@ -600,7 +624,8 @@
 	<s id="1">Et à quoi ?</s>
 </p>
 </sp>
-<sp stage="serious" who="LE MARQUIS"><speaker>LE MARQUIS, gravement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="serious">, gravement.
+</stage>
 <p id="19">
 	<s id="1">À bien me porter ! Lorsque l'on a tout ici-bas on n'a plus que cela à faire.</s>
 </p>
@@ -638,7 +663,8 @@
 	<s id="1">Et ceux que vous avez maintenant...</s>
 </p>
 </sp>
-<sp stage="low/serious" who="LE MARQUIS"><speaker>LE MARQUIS, en confidence et avec un air de profondeur.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="low/serious">, en confidence et avec un air de profondeur.
+</stage>
 <p id="26">
 	<s id="">Je les publierai plus tard, — parce que dans ce moment ils donneraient lieu à des réclamations, à des répliques ; cela influerait sur mon repos, sur ma santé, qui, dans ce moment, je l'avouerai, me donne des inquiétudes !...</s>
 </p>
@@ -708,7 +734,8 @@
 	<s id="1">On a parlé pour, on a parié contre ; la discussion a été tellement longue et approfondie, que la séance, qui avait commencé à sept heures n'a été levée qu'à dix, et en entrant dans le salon je me suis senti des douleurs de tête, des pesanteurs, un malaise général...</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+</stage>
 <p id="40">
 	<s id="1">Une indigestion administrative!...</s>
 </p>
@@ -718,7 +745,8 @@
 	<s id="1">Et le soir ce fut bien pis ; je trouvai, en rentrant chez moi, la Marquise qui allait partir pour le bal, et qui était charmante.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ERNEST"><speaker>ERNEST, troublé.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="42">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu !</s>
@@ -730,12 +758,14 @@
 	<s id="2">Quel air d'effroi ?...</s>
 </p>
 </sp>
-<sp stage="anxious" who="ERNEST"><speaker>ERNEST, avec inquiétude.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="anxious">, avec inquiétude.
+</stage>
 <p id="44">
 	<s id="1">Est-ce par hasard ?...</s>
 </p>
 </sp>
-<sp stage="cold" who="LE MARQUIS"><speaker>LE MARQUIS, froidement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="cold">, froidement.
+</stage>
 <p id="45">
 	<s id="1">Jamais, mon ami jamais, depuis mes travaux parlementaires. </s>
 	<s id="2">Quelquefois cependant...</s>
@@ -747,7 +777,8 @@
 	<s id="3">Mais, loin de donner suite à mes propositions, la marquise à toujours passé à l'ordre du jour.</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, avec joie.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, avec joie.
+</stage>
 <p id="47">
 	<s id="1">Heureusement.</s>
 </p>
@@ -757,7 +788,8 @@
 	<s id="1">Et pourquoi donc ?</s>
 </p>
 </sp>
-<sp stage="quick" who="ERNEST"><speaker>ERNEST, vivement.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="quick">, vivement.
+</stage>
 <p id="49">
 	<s id="1">Pourquoi ? </s>
 	<s id="2">Vous me demandez pourquoi?... </s>
@@ -777,29 +809,34 @@
 	<s id="4">Je ne sais même si je ne l'aimerais pas mieux.</s>
 </p>
 </sp>
-<sp stage="frighten" who="LE MARQUIS"><speaker>LE MARQUIS, effrayé.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="frighten">, effrayé.
+</stage>
 <p id="52">
 	<s id="1">Qu'est-ce que vous me dites-là ?</s>
 </p>
 </sp>
-<sp stage="warm" who="ERNEST"><speaker>ERNEST, avec chaleur.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="warm">, avec chaleur.
+</stage>
 <p id="53">
 	<s id="">Aussi, je vous en prie en grâce, Monsieur_le_Marquis, je vous en supplie...</s>
 </p>
 </sp>
-<sp stage="touch" who="LE MARQUIS"><speaker>LE MARQUIS, lui prenant les mains.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="touch">, lui prenant les mains.
+</stage>
 <p id="54">
 	<s id="1">Mon ami, mon cher ami, rassurez-vous, n'ayez pas peur ; je suis trop sensible à l'intérêt que vous me portez pour ne pas suivre vos avis... </s>
 	<s id="2">Diable ! </s>
 	<s id="3">Il ne s'agit pas ici de plaisanterie.</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+</stage>
 <p id="55">
 	<s id="1">Je respire.</s>
 </p>
 </sp>
-<sp stage="quick" who="LE MARQUIS"><speaker>LE MARQUIS, marchant vivement dans l'appartement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="quick">, marchant vivement dans l'appartement.
+</stage>
 <p id="56">
 	<s id="1">Apoplexie foudroyante ! </s>
 	<s id="2">Voilà ce que je craignais, et toutes les fois que j'ai eu envie de monter à la tribune, la crainte de m'animer m'a toujours arrêté à la première marche. </s>
@@ -829,7 +866,8 @@
 	<s id="1">Que cela ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="aparte">, à part.
+</stage>
 <p id="61">
 	<s id="">Au fait, si je ne le droguais pas, il ne se croirait jamais guéri.</s>
 </p>
@@ -867,7 +905,8 @@
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE IV.</head>
 <stage type="location">Le boudoir de la Marquise.</stage>
-<sp stage="alone" who="LA MARQUISE"><speaker>LA MARQUISE, seule, sur un canapé, et tenant à te main une lettre qu'elle vient de lire.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="alone">, seule, sur un canapé, et tenant à te main une lettre qu'elle vient de lire.
+</stage>
 <p id="1">
 	<s id="1">Quelle folie ! </s>
 	<s id="2">Quelle déraison ! </s>
@@ -940,8 +979,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. LA MARQUISE, LE MARQUIS.</head>
-<sp stage="sweet" who="LA MARQUISE"><speaker>LA MARQUISE, de l'air le plus aimable.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> LA MARQUISE, LE MARQUIS.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sweet">, de l'air le plus aimable.
+</stage>
 <p id="1">
 	<s id="1">C'est vous, Monsieur ? </s>
 	<s id="2">Qui vous amène chez moi?</s>
@@ -1036,7 +1077,8 @@
 	<s id="1">Oui, Madame ; chaque soir, à l'extrême-droite, nous sommes là plusieurs honorables qui observons tout avec soin, et nous devons même proposer des réductions.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="19">
 	<s id="1">Dans les jupes des danseuses ?</s>
 </p>
@@ -1048,12 +1090,14 @@
 	<s id="2">J'en parlerai à Monsieur_de_La_Rochefoucauld.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, souriant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, souriant.
+</stage>
 <p id="21">
 	<s id="1">Est-ce là, Monsieur, le sujet de votre discours d'aujourd'hui ?</s>
 </p>
 </sp>
-<sp stage="serious" who="LE MARQUIS"><speaker>LE MARQUIS, gravement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="serious">, gravement.
+</stage>
 <p id="22">
 	<s id="1">Non, Madame, c'est une question de propriété particulière...</s>
 </p>
@@ -1072,7 +1116,8 @@
 	<s id="2">Moi surtout, qui aurai besoin aujourd'hui de tous mes moyens !</s>
 </p>
 </sp>
-<sp stage="closer" who="LA MARQUISE"><speaker>LA MARQUISE, se reculant et lui faisant une place sur le canapé.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="closer">, se reculant et lui faisant une place sur le canapé.
+</stage>
 <p id="25">
 	<s id="1">Hé bien ! </s>
 	<s id="2">Monsieur, mettez-vous là, près de moi.</s>
@@ -1083,17 +1128,20 @@
 	<s id="1">Je vous gênerai.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, prenant sa broderie.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, prenant sa broderie.
+</stage>
 <p id="27">
 	<s id="1">Du tout... je vous écoute en travaillant.</s>
 </p>
 </sp>
-<sp stage="touch/aparte" who="LE MARQUIS"><speaker>LE MARQUIS, troublé et à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="touch/aparte">, troublé et à part.
+</stage>
 <p id="28">
 	<s id="1">C'est comme un fait exprès, elle est encore plus aimable et plus séduisante qu'à l'ordinaire !</s>
 </p>
 </sp>
-<sp stage="sweet" who="LA MARQUISE"><speaker>LA MARQUISE, avec amabilité.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sweet">, avec amabilité.
+</stage>
 <p id="29">
 	<s id="1">Hé bien ! </s>
 	<s id="2">Monsieur... vous disiez donc... </s>
@@ -1120,7 +1168,8 @@
 	<s id="2">Vous vous rappelez noire discussion d'hier pour ma loge aux Italiens.</s>
 </p>
 </sp>
-<sp stage="quick" who="LE MARQUIS"><speaker>LE MARQUIS,vivement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="quick">,vivement.
+</stage>
 <p id="34">
 	<s id="1">Notre discussion !... </s>
 </p>
@@ -1135,7 +1184,8 @@
 	<s id="3">Car il est absurde qu'au mois de mai, et pour douze représentations, on renouvelle un abonnement aux Italiens... surtout pour entendre des chanteurs autrichiens ou bavarois qu'on n'entend pas !</s>
 </p>
 </sp>
-<sp stage="laugh" who="LA MARQUISE"><speaker>LA MARQUISE, riant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="laugh">, riant.
+</stage>
 <p id="37">
 	<s id="1">Vous conviendrez, mon ami, que c'est là une querelle d'Allemand...</s>
 </p>
@@ -1166,12 +1216,14 @@
 	<s id="5">Mais dès que cela vous contrarie, je n'en veux plus, j'y renonce !</s>
 </p>
 </sp>
-<sp stage="anger" who="LE MARQUIS"><speaker>LE MARQUIS, cherchant encore a paraître fâché.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="anger">, cherchant encore a paraître fâché.
+</stage>
 <p id="42">
 	<s id="1">Non, Madame, - non, - et puisque j'ai promis...</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, tendrement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, tendrement.
+</stage>
 <p id="43">
 	<s id="1">Ce serait pure complaisance de votre part... et je ne veux rien par complaisance... </s>
 	<s id="2">Je veux que cela vous plaise comme à moi... </s>
@@ -1187,7 +1239,8 @@
 	<s id="1">N'y consentez-vous pas ?...</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE MARQUIS"><speaker>LE MARQUIS, troublé.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="embarrassed">, troublé.
+</stage>
 <p id="46">
 	<s id="1">Moi, madame, moi ?... </s>
 	<s id="2">Certainement. </s>
@@ -1199,14 +1252,17 @@
 	<s id="1">Quoi donc ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE MARQUIS"><speaker>LE MARQUIS, de même.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="embarrassed">, de même.
+</stage>
 <p id="48">
 	<s id="1">Je veux dire... s'il dépendait de moi...</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Les mêmes, Julie.</head>
-<sp stage="happy" who="LE MARQUIS"><speaker>LE MARQUIS, avec joie.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Les mêmes, Julie.
+</stage>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="happy">, avec joie.
+</stage>
 <p id="1">
 	<s id="1">Voici Julie... </s>
 	<s id="2">Votre femme_de_chambre.</s>
@@ -1227,7 +1283,8 @@
 	<s id="1">Madame, c'est votre couturière qui vous apporte votre nouvelle robe...</s>
 </p>
 </sp>
-<sp stage="impatient" who="LA MARQUISE"><speaker>LA MARQUISE, avec impatience.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="impatient">, avec impatience.
+</stage>
 <p id="5">
 	<s id="1">Dans un moment.</s>
 </p>
@@ -1240,7 +1297,8 @@
 	<s id="4">- Adieu, chère amie ; je vous laisse.</s>
 </p>
 </sp>
-<sp stage="serious" who="LA MARQUISE"><speaker>LA MARQUISE, d'un air de reproche.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="serious">, d'un air de reproche.
+</stage>
 <p id="7">
 	<s id="1">Pourquoi donc ?</s>
 </p>
@@ -1283,7 +1341,8 @@
 	<s id="1">Non... qu'il n'y avait pas de réunion aujourd'hui.</s>
 </p>
 </sp>
-<sp stage="sad" who="LE MARQUIS"><speaker>LE MARQUIS, attérê.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sad">, attérê.
+</stage>
 <p id="14">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu !... </s>
@@ -1295,7 +1354,8 @@
 	<s id="1">Dont je me félicite, car j'avais à vous parler.</s>
 </p>
 </sp>
-<sp stage="anxious" who="LE MARQUIS"><speaker>LE MARQUIS, avec inquiétude.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="anxious">, avec inquiétude.
+</stage>
 <p id="16">
 	<s id="1">À moi ?...</s>
 </p>
@@ -1305,7 +1365,8 @@
 	<s id="1">Oui, à vous, cinq minutes d'entretien.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="LE MARQUIS"><speaker>LE MARQUIS, embarrassé.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="embarrassed">, embarrassé.
+</stage>
 <p id="18">
 	<s id="1">Je ne demanderais pas mieux, mais votre couturière qui attend.</s>
 </p>
@@ -1316,8 +1377,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les Précédents, La Couturière.</head>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, au Marquis.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Les Précédents, La Couturière.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, au Marquis.
+</stage>
 <p id="1">
 	<s id="1">C'est l'affaire d'un instant, et si vous voulez permettre,..</s>
 </p>
@@ -1338,7 +1401,8 @@
 	<s id="1">Vous savez bien que je n'en ai jamais...</s>
 </p>
 </sp>
-<sp stage="watch/sit" who="LA MARQUISE"><speaker>LA MARQUISE, voyant le marquis qui s'asseoit.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch/sit">, voyant le marquis qui s'asseoit.
+</stage>
 <p id="5">
 	<s id="1">Hé bien ! </s>
 	<s id="2">Monsieur, vous voterez par assis et levé, vous vous croirez à la Chambre.</s>
@@ -1353,12 +1417,14 @@
 	<s id="1">Ce qu'il y a de plus nouveau, Madame, pour robe d'été : mousseline égyptienne.</s>
 </p>
 </sp>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE,à son mari.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">,à son mari.
+</stage>
 <p id="8">
 	<s id="1">Qu'en dites-vous, Monsieur ?</s>
 </p>
 </sp>
-<sp stage="sad" who="LE MARQUIS"><speaker>LE MARQUIS, d'un ton de regret.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sad">, d'un ton de regret.
+</stage>
 <p id="9">
 	<s id="1">Je dis, Madame, je dis qu'il est impossible de voir un plus beau bras que le vôtre.</s>
 </p>
@@ -1399,7 +1465,8 @@
 	<s id="2">Regardez donc.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="17">
 	<s id="1">Elle a peur que je ne m'en aperçoive pas.</s>
 </p>
@@ -1414,7 +1481,8 @@
 	<s id="1">Non, madame, on les porte ainsi.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, à son mari.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, à son mari.
+</stage>
 <p id="20">
 	<s id="1">Qu'en pensez-vous, mon ami ?</s>
 </p>
@@ -1450,13 +1518,16 @@
 <stage type="exit">Julie et la couturière sortent.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Le Marquis, La Marquise.</head>
-<sp stage="watch" who="LA MARQUISE"><speaker>LA MARQUISE, arrangeant encore sa robe devant la glace.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Le Marquis, La Marquise.
+</stage>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="watch">, arrangeant encore sa robe devant la glace.
+</stage>
 <p id="1">
 	<s id="1">Maintenant, Monsieur, je suis toute à vous, causons.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, à part et la regardant.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, à part et la regardant.
+</stage>
 <p id="2">
 	<s id="1">Dieu ! </s>
 	<s id="2">Avec quel bonheur je lui dirais combien elle est belle, si ce n'était l'apoplexie foudroyante !</s>
@@ -1472,7 +1543,8 @@
 	<s id="1">Rien !</s>
 </p>
 </sp>
-<sp stage="sweet" who="LA MARQUISE"><speaker>LA MARQUISE, du ton le plus doux.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="sweet">, du ton le plus doux.
+</stage>
 <p id="5">
 	<s id="1">Si vraiment, et c'est là-dessus que je voulais m'expliquer franchement avec vous ! </s>
 	<s id="2">Vous avez quelque arrière-pensée?</s>
@@ -1483,7 +1555,8 @@
 	<s id="1">Non, Madame.</s>
 </p>
 </sp>
-<sp stage="tender" who="LA MARQUISE"><speaker>LA MARQUISE, tendrement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="tender">, tendrement.
+</stage>
 <p id="7">
 	<s id="1">Bien vrai ! </s>
 	<s id="2">Notre discussion d'hier ne vous a laissé aucun fâcheux souvenir ?</s>
@@ -1510,7 +1583,8 @@
 	<s id="1">Vous ne dites pas cela d'un ton pénétré, d'un accent... qui parte du coeur.</s>
 </p>
 </sp>
-<sp stage="sweet" who="LE MARQUIS"><speaker>LE MARQUIS, avec chaleur.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="sweet">, avec chaleur.
+</stage>
 <p id="12">
 	<s id="1">Quoi ! </s>
 	<s id="2">Vous pourriez douter ?...</s>
@@ -1522,7 +1596,8 @@
 	<s id="2">C'est vous qui ne le voulez pas !</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, la regardant avec des yeux animés.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage>, la regardant avec des yeux animés.
+</stage>
 <p id="14">
 	<s id="1">Moi, Madame, je ne le veux pas ! </s>
 	<s id="2">Moi, qui vous admire ! </s>
@@ -1542,7 +1617,8 @@
 	<s id="3">Vous rougissez.</s>
 </p>
 </sp>
-<sp stage="quickly" who="LE MARQUIS"><speaker>LE MARQUIS, vivement.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="quickly">, vivement.
+</stage>
 <p id="18">
 	<s id="1">Moi rougir !... </s>
 </p>
@@ -1556,7 +1632,8 @@
 	<s id="1">Je crois en effet que le sang me porte à la tête.</s>
 </p>
 </sp>
-<sp stage="estonish/watch" who="LA MARQUISE"><speaker>LA MARQUISE, le regardant avec étonnement.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="estonish/watch">, le regardant avec étonnement.
+</stage>
 <p id="21">
 	<s id="1">Mais à qui en avez-vous donc ? </s>
 	<s id="2">À quoi pensez-vous ?</s>
@@ -1578,7 +1655,8 @@
 	<s id="1">À mon discours, qui malgré moi me préoccupe... et dont toutes les phrases me reviennent sans cesse à l'esprit ; car si vous saviez, Madame ; ce que c'est qu'un discours...</s>
 </p>
 </sp>
-<sp stage="nervous" who="LA MARQUISE"><speaker>LA MARQUISE, avec humeur.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="nervous">, avec humeur.
+</stage>
 <p id="25">
 	<s id="1">Eh ! </s>
 	<s id="2">Monsieur, il ne s'agit pas ici de discours !</s>
@@ -1590,7 +1668,8 @@
 	<s id="2">Voulez-vous me permettre de vous le lire ?...</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, avec impatience.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, avec impatience.
+</stage>
 <p id="27">
 	<s id="1">Monsieur !...</s>
 </p>
@@ -1640,18 +1719,21 @@
 	<s id="2">Mais pour exécutif...</s>
 </p>
 </sp>
-<sp stage="anger" who="LE MARQUIS"><speaker>LE MARQUIS, avec colère.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="anger">, avec colère.
+</stage>
 <p id="36">
 	<s id="1">Qu'est-ce à dire ?...</s>
 </p>
 </sp>
-<sp stage="anger" who="LA MARQUISE"><speaker>LA MARQUISE, de même.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="anger">, de même.
+</stage>
 <p id="37">
 	<s id="1">Que vous ne savez rien faire, rien exécuter de ce qui est bien... de ce qui est convenable.</s>
 </p>
 <stage type="entrance/declamate">Julie ouvrant la porte et annonçant Monsieur le docteur Ernest.</stage>
 </sp>
-<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, à part.</speaker>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="aparte">, à part.
+</stage>
 <p id="38">
 	<s id="1">Dieu soit loué ! </s>
 </p>
@@ -1660,7 +1742,8 @@
 	<s id="1">Venez donc, mon cher docteur ; vous arrivez à propos pour interrompre un tête à tête conjugal.</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, saluant la Marquise.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, saluant la Marquise.
+</stage>
 <p id="40">
 	<s id="1">Ma présence est peut-être indiscrète ?...</s>
 </p>
@@ -1715,7 +1798,8 @@
 </div2>
 <div2 type="scene" n=""><head>SCÈNE IX.</head>
 <stage type="decor/narration">Le salon du marquis. - Il est six heures. - Presque tous les convives sont arrivés. Ernest, debout près de la cheminée, cause avec la Marquise. De l'autre côté, la Comtesse et la Baronne. Au fond du salon, plusieurs convives sont debout, formés en groupes ; d'autres causent en se promenant.</stage> 
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, moniraiit Ernest qui cause à voix basse avec la Marquise.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage>, moniraiit Ernest qui cause à voix basse avec la Marquise.
+</stage>
 <p id="1">
 	<s id="1">Il est très bien, ce jeune docteur !</s>
 </p>
@@ -1730,7 +1814,8 @@
 	<s id="1">Il paraît qu'ici on s'en loue beaucoup.</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, de l'autre côté de la cheminée, à la marquise.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, de l'autre côté de la cheminée, à la marquise.
+</stage>
 <p id="4">
 	<s id="1">Oui, madame, croyez-moi, il n'y a plus aucun danger.</s>
 </p>
@@ -1740,18 +1825,21 @@
 	<s id="1">Vous en êtes bien sûr ?</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, vivement.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage>, vivement.
+</stage>
 <p id="6">
 	<s id="1">Je vous l'atteste.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, baissant les yeux.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage>, baissant les yeux.
+</stage>
 <p id="7">
 	<s id="1">À la bonne heure ! </s>
 	<s id="2">C'est en vous désormais que je veux avoir confiance.</s>
 </p>
 </sp>
-<sp stage="loud.toward" who="LA COMTESSE"><speaker>LA COMTESSE, haut à Ernest.</speaker>
+<sp who="LA COMTESSE"><speaker>LA COMTESSE</speaker><stage type="loud.toward">, haut à Ernest.
+</stage>
 <p id="8">
 	<s id="1">Et moi, Monsieur, que pensez-vous de mes spasmes ?</s>
 </p>
@@ -1766,7 +1854,8 @@
 	<s id="1">Et mon mari qui ne veut pas m'acheter la terre du Bourget !</s>
 </p>
 </sp>
-<sp stage="smile" who="ERNEST"><speaker>ERNEST, souriant.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="smile">, souriant.
+</stage>
 <p id="11">
 	<s id="1">Voilà la cause du mal.</s>
 </p>
@@ -1782,33 +1871,39 @@
 </p>
 <stage type="entrance/wave/closer">Entre le docteur, la tête haute et sans regarder personne ; il fait à Ernest un signe de tête protecteur, et s'approche de la Marquise, qu'il salue.</stage>
 </sp>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à la Marquise.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à la Marquise.
+</stage>
 <p id="14">
 	<s id="1">Madame_la_Marquise a-t-elle reçu de moi, ce matin, la petite consultation que je lui avais promise ?</s>
 </p>
 </sp>
-<sp stage="" who="LA MARQUISE"><speaker>LA MARQUISE, rougissant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="">, rougissant.
+</stage>
 <p id="15">
 	<s id="">Oui, monsieur !</s>
 </p>
 </sp>
-<sp stage="low" who="LE DOCTEUR"><speaker>LE DOCTEUR, à demi-voix.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="16">
 	<s id="1">C'est tout à fait mon avis !</s>
 </p>
 </sp>
-<sp stage="loud" who="ERNEST"><speaker>ERNEST, tout haut.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="loud">, tout haut.
+</stage>
 <p id="17">
 	<s id="1">Ce n'est pas le mien !</s>
 </p>
 </sp>
-<sp stage="estonish" who="LE DOCTEUR"><speaker>LE DOCTEUR, stupéfait.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="estonish">, stupéfait.
+</stage>
 <p id="18">
 	<s id="1">Comment ! </s>
 	<s id="2">Ce n'est pas le vôtre !...</s>
 </p>
 </sp>
-<sp stage="interrupt" who="LA MARQUISE"><speaker>LA MARQUISE, les interrompant.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="interrupt">, les interrompant.
+</stage>
 <p id="19">
 	<s id="1">Pas de discussions à ce sujet.</s>
 </p>
@@ -1827,12 +1922,14 @@
 	<s id="1">Et moi aussi...</s>
 </p>
 </sp>
-<sp stage="happy" who="ERNEST"><speaker>ERNEST, gaiement.</speaker>
+<sp who="ERNEST"><speaker>ERNEST</speaker><stage type="happy">, gaiement.
+</stage>
 <p id="23">
 	<s id="">Me voilà sûr d'avoir raison !</s>
 </p>
 </sp>
-<sp stage="estonish/watch" who="LE DOCTEUR"><speaker>LE DOCTEUR, étonné et regardant Ernest.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="estonish/watch">, étonné et regardant Ernest.
+</stage>
 <p id="24">
 	<s id="1">Quel changement ! </s>
 	<s id="2">Je n'en reviens pas... </s>
@@ -1870,12 +1967,14 @@
 	<s id="1">C'est ce que nous disions tout à l'heure 1</s>
 </p>
 </sp>
-<sp stage="toward" who="LA BARONNE"><speaker>LA BARONNE, au docteur.</speaker>
+<sp who="LA BARONNE"><speaker>LA BARONNE</speaker><stage type="toward">, au docteur.
+</stage>
 <p id="31">
 	<s id="1">Ah ! Monsieur est votre élève ?</s>
 </p>
 </sp>
-<sp stage="despite" who="LE DOCTEUR"><speaker>LE DOCTEUR, cachant son dépit.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="despite">, cachant son dépit.
+</stage>
 <p id="32">
 	<s id="1">Oui, Madame, je m'en vante.</s>
 </p>
@@ -1891,12 +1990,14 @@
 	<s id="2">Il y a à la maison du roi une place de médecin...</s>
 </p>
 </sp>
-<sp stage="low" who="LE DOCTEUR"><speaker>LE DOCTEUR, à demi-voix.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="35">
 	<s id="1">Celle dont je vous parlais...</s>
 </p>
 </sp>
-<sp stage="think/toward" who="LA MARQUISE"><speaker>LA MARQUISE au docteur, d'un air distrait.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="think/toward"> au docteur, d'un air distrait.
+</stage>
 <p id="36">
 	<s id="1">C'est vrai... </s>
 	<s id="2">C'est vous qui m'avez appris qu'elle était vacante. </s>
@@ -1906,7 +2007,8 @@
 	<s id="1">Une place superbe !</s>
 </p>
 </sp>
-<sp who="LA MARQUIS"><speaker>LA MARQUIS, vivement.</speaker>
+<sp who="LA MARQUIS"><speaker>LA MARQUIS</speaker><stage>, vivement.
+</stage>
 <p id="38">
 	<s id="1">Je la demanderai, Madame, je la demanderai. </s>
 </p>
@@ -1921,24 +2023,28 @@
 	<s id="2">Vous ne pouvez rien faire qui me soit plus agréable.</s>
 </p>
 </sp>
-<sp stage="aparte" who="LE DOCTEUR"><speaker>LE DOCTEUR, à part.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="aparte">, à part.
+</stage>
 <p id="41">
 	<s id="1">C'est fini ! </s>
 	<s id="2">Le voilà lancé ! </s>
 	<s id="3">Et à propos de quoi je vous le demande !</s>
 </p>
 </sp>
-<sp stage="declamate" who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE, annonçant.</speaker>
+<sp who="UN DOMESTIQUE"><speaker>UN DOMESTIQUE</speaker><stage type="declamate">, annonçant.
+</stage>
 <p id="42">
 	<s id="1">Madame_la_Marquise est servie !</s>
 </p>
 </sp>
-<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, à Ernest.</speaker>
+<sp who="LA MARQUISE"><speaker>LA MARQUISE</speaker><stage type="toward">, à Ernest.
+</stage>
 <p id="43">
 	<s id="1">Allons, notre protégé, donnez-moi la main.</s>
 </p>
 </sp>
-<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, au docteur, pendant que tout le monde passe dans la salle à manger.</speaker> 
+<sp who="LE MARQUIS"><speaker>LE MARQUIS</speaker><stage type="toward">, au docteur, pendant que tout le monde passe dans la salle à manger. 
+</stage> 
 <p id="44">
 	<s id="1">Savez-vous, Docteur, que c'est glorieux pour vous ?...</s>
 </p>

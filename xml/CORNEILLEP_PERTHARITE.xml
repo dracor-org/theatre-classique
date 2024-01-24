@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -30,7 +30,7 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1653">M. DC. LIII. AVEC PRIVILEGE DU ROI.</docDate>
-		<docAuthor id="CORNEILLE, Pierre" bio='corneillep'>Pierre Corneille</docAuthor>
+		<docAuthor id="CORNEILLE, Pierre" bio="corneillep">Pierre Corneille</docAuthor>
 		<docImprint>
 			<privilege id="164*-**-**"><head>Extrait du Privilège du Roi</head>
 				<p>Par Grace et privilège du Roi, donné à Paris le 24 décembre 1651,. Signé par le Roi en son conseil, MARTIN, ils est permis au sieur CORNEILLE avocat en notre cour de parlement de Rouen, de faire imprimer qu'il voudra choisir trois pièces de théâtre, intitulées, Pertharite roi des Lombards, Don Bertran de Cigarral, L'Amour à la mode, pendant le temps et espace de neuf ans, à compter du jour qu'elles seront achevées d'imprimer ; défendant, très expressément à toutes personnes de quelque qualité et condition qu'elles puissent être, d'imprimer ou contrefaire les dites trois pièces de théâtre, à peine aux contrevenants de deux mille livres d'amende, dépens, dommages et intérêts, et confiscation des exemplaires qui se trouveront d'autre impression que ce qu'il aura fait faire, ainsi qu'il est plus long porté par lesdites lettres.</p>
@@ -40,22 +40,23 @@
 			<printer id="MAURRY">À ROUEN, chez Laurent MAURRY, près le Palais. Et se vend à Paris Chez GUILLAUME DE LUYES, au Palais, sous la montée de la Cour des Aides.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1651" location='Hôtel de Bourgogne'>Représenté pour la première fois en 1651 au Théâtre de l'Hôtel de Bourgogne.</premiere>
+			<premiere date="1651" location="Hôtel de Bourgogne">Représenté pour la première fois en 1651 au Théâtre de l'Hôtel de Bourgogne.</premiere>
 		</performance>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="PERTHARITE" sex="1" type="H" statut="roi" age="A" stat_amour='néant'>PERTHARITE</role>, roi des Lombards.</castItem>
-		<castItem><role id="GRIMOALD" sex="1" type="H" statut="comte" age="A" stat_amour='néant'>GRIMOALD</role>, Comte de Bénévent, ayant conquis le royaume des Lombards.</castItem>
-		<castItem><role id="GARIBALDE" sex="1" type="H" statut="duc" age="A" stat_amour='néant'>GARIBALDE</role>, duc de Turin.</castItem>
-		<castItem><role id="UNULPHE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>UNULPHE</role>, seigneur Lombard.</castItem>
-		<castItem><role id="RODELINDE" sex="2" type="H" statut="roi" age="A" stat_amour='néant'>RODELINDE</role>, femme de Pertharite.</castItem>
-		<castItem><role id="EDVIGE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>ÉDVIGE</role>, soeur de Pertharite.</castItem>
-		<castItem><role id="SOLDATS" sex="9" type="H" statut="soldat" age="A" stat_amour='néant'>SOLDATS</role>.</castItem>
+		<castItem><role id="PERTHARITE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">PERTHARITE</role>, roi des Lombards.</castItem>
+		<castItem><role id="GRIMOALD" sex="1" type="H" statut="comte" age="A" stat_amour="néant">GRIMOALD</role>, Comte de Bénévent, ayant conquis le royaume des Lombards.</castItem>
+		<castItem><role id="GARIBALDE" sex="1" type="H" statut="duc" age="A" stat_amour="néant">GARIBALDE</role>, duc de Turin.</castItem>
+		<castItem><role id="UNULPHE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">UNULPHE</role>, seigneur Lombard.</castItem>
+		<castItem><role id="RODELINDE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">RODELINDE</role>, femme de Pertharite.</castItem>
+		<castItem><role id="EDVIGE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">ÉDVIGE</role>, soeur de Pertharite.</castItem>
+		<castItem><role id="SOLDATS" sex="9" type="H" statut="soldat" age="A" stat_amour="néant">SOLDATS</role>.</castItem>
 	</castList>
 	<set location="Milan" country="Italie" periode="VIIème" gps="45.465422, 9.185924">La scène est à Milan.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Rodelinde, Unulphe.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Rodelinde, Unulphe.
+</stage>
 <sp who="RODELINDE"><speaker>RODELINDE.</speaker>
 	<l id="1">Oui, l'honneur qu'il me rend ne fait que m'outrager ;</l>
 	<l id="2">Je vous le dis encore, rien ne peut me changer :</l>
@@ -199,7 +200,8 @@
 	<l id="120">Cette ardeur qui n'était jusque-là qu'un doux crime...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Rodelinde, Édwige.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Rodelinde, Édwige.
+</stage>
 <sp who="ÉDWIGE"><speaker>ÉDWIGE.</speaker>
 	<l id="121">Madame, si j'étais d'un naturel jaloux,</l>
 	<l id="122">Je m'inquiéterais de le voir avec vous,</l>
@@ -364,7 +366,8 @@
 	<l id="234">Lui rendent les mépris que vous en recevez.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCENE III. Grimoald, Rodelinde, Édwige, Garibald, Unulphe.</head>
+<div2 type="scene" n="3"><head>SCENE III.</head><stage> Grimoald, Rodelinde, Édwige, Garibald, Unulphe.
+</stage>
 <sp who="RODELINDE"><speaker>RODELINDE.</speaker>
 	<l id="235">Approche, Grimoald, et dis à ta jalouse,</l>
 	<l id="236">À qui du moins ta foi doit le titre d'épouse,</l>
@@ -406,7 +409,8 @@
 	<l id="268">Et regagnez un coeur que je vous abandonne.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grimoald, Édwige, Garibalde, Unulphe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grimoald, Édwige, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="269">Qu'avez-vous dit, madame, et que supposez-vous</l>
 	<l id="270">Pour la faire douter du sort de son époux ?</l>
@@ -579,7 +583,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Édwige, Garibalde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Édwige, Garibalde.
+</stage>
 <sp who="ÉDWIGE"><speaker>ÉDWIGE.</speaker>
 	<l id="389">Je l'ai dit à mon traître, et je vous le redis :</l>
 	<l id="390">Je me dois cette joie après de tels mépris ;</l>
@@ -734,7 +739,8 @@
 	<l id="523" part="i">Mais voici Grimoald.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCENE III. Grimoald, Garibalde.</head>
+<div2 type="scene" n="3"><head>SCENE III.</head><stage> Grimoald, Garibalde.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="523" part="f">Eh bien ! Quelle espérance,</l>
 	<l id="524">Duc ? Et qu'obtiendrons-nous de ta persévérance ?</l>
@@ -820,7 +826,8 @@
 	<l id="584">Si je dois en tes mains laisser gronder ce foudre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grimoald, Garibalde, Unulphe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grimoald, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="585">Que faut-il faire, Unulphe ? Est-il temps de mourir ?</l>
 	<l id="586">N'as-tu vu pour ton roi nul espoir de guérir ?</l>
@@ -890,7 +897,8 @@
 	<l id="622">Rendra rudes les coups dont on va me percer !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Grimoald, Rodelinde, Garibalde, Unulphe.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Grimoald, Rodelinde, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="623">Madame, il est donc vrai que votre âme sensible</l>
 	<l id="624">À la compassion s'est rendue accessible ;</l>
@@ -1058,7 +1066,8 @@
 </div2>
 </div1>
 <div1 type="act" n="1"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Garibalde, Rodelinde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Garibalde, Rodelinde.
+</stage>
 <sp who="GARIBALDE"><speaker>GARIBALDE.</speaker>
 	<l id="751">Ce n'est plus seulement l'offre d'un diadème</l>
 	<l id="752">Que vous fait pour un fils un prince qui vous aime,</l>
@@ -1142,7 +1151,8 @@
 	<l id="806">Qu'à ce prix donc il vienne, et m'apporte sa foi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Rodelinde, Édwige.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Rodelinde, Édwige.
+</stage>
 <sp who="ÉDWIGE"><speaker>ÉDWIGE.</speaker>
 	<l id="807">Votre félicité sera mal assurée</l>
 	<l id="808">Dessus un fondement de si peu de durée.</l>
@@ -1231,7 +1241,8 @@
 	<l id="854">Et je n'ai plus besoin de rapport de mes yeux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Grimoald, Rodelinde, Garibalde, Unulphe.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Grimoald, Rodelinde, Garibalde, Unulphe.
+</stage>
 <sp who="RODELINDE"><speaker>RODELINDE.</speaker>
 	<l id="855">Je me rends, Grimoald, mais non pas à la force :</l>
 	<l id="856">Le titre que tu prends m'est une douce amorce,</l>
@@ -1406,7 +1417,8 @@
 	<l id="1001">Oui, je la prends, madame, et veux auparavant...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Pertharite, Grimoald, Rodelinde, Garibalde, Unulphe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pertharite, Grimoald, Rodelinde, Garibalde, Unulphe.
+</stage>
 <sp who="UNULPHE"><speaker>UNULPHE.</speaker>
 	<l id="1002">Que faites-vous, seigneur ? Pertharite est vivant :</l>
 	<l id="1003">Ce n'est plus un bruit sourd, le voilà qu'on amène ;</l>
@@ -1529,7 +1541,8 @@
 	<l id="1090">Achève de te mettre au rang des vrais tyrans.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Grimoald, Pertharite, Garibalde, Unulphe.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Grimoald, Pertharite, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="1091">Que cet événement de nouveau m'embarrasse !</l>
 </sp>
@@ -1583,7 +1596,8 @@
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Grimoald, Garibalde.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Grimoald, Garibalde.
+</stage>
 <sp who="GARIBALDE"><speaker>GARIBALDE.</speaker>
 	<l id="1125">Je ne m'en dédis point, seigneur ; ce prompt retour</l>
 	<l id="1126">N'est qu'une illusion qu'on fait à votre amour.</l>
@@ -1662,7 +1676,8 @@
 	<l id="1195" part="i">Elle me l'a promis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Grimoald, Garibalde, Édwige.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Grimoald, Garibalde, Édwige.
+</stage>
 <sp who="ÉDWIGE"><speaker>ÉDWIGE.</speaker>
 	<l id="1195" part="f">Je te l'ai promis, traître !</l>
 	<l id="1196">Oui, je te l'ai promis, et l'aurais fait peut-être,</l>
@@ -1786,7 +1801,8 @@
 	<l id="1301" part="i">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Grimoald, Garibalde, Unulphe.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Grimoald, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="1301" part="m">Que veut Unulphe ?</l>
 </sp>
@@ -1845,7 +1861,8 @@
 	<l id="1336">Quand au fond de son coeur il souffre un autre maître.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grimoald, Pertharite, Rodelinde, Garibalde, Unulphe.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grimoald, Pertharite, Rodelinde, Garibalde, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="1337">Viens, fourbe, viens, méchant, éprouver ma bonté,</l>
 	<l id="1338">Et ne la réduis pas à la sévérité.</l>
@@ -1900,7 +1917,8 @@
 	<l id="1380">Qu'avant que je l'ordonne aucun n'entre ni sorte.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Pertharite, Rodelinde.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Pertharite, Rodelinde.
+</stage>
 <sp who="PERTHARITE"><speaker>PERTHARITE.</speaker>
 	<l id="1381">Madame, vous voyez où l'amour m'a conduit.</l>
 	<l id="1382">J'ai su que de ma mort il courait un faux bruit,</l>
@@ -2031,7 +2049,8 @@
 	<l id="1486" part="i">Vous qui savez...</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Pertharite, Rodelinde, Unulphe.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Pertharite, Rodelinde, Unulphe.
+</stage>
 <sp who="UNULPHE"><speaker>UNULPHE.</speaker>
 	<l id="1486" part="f">Madame, achevez promptement :</l>
 	<l id="1487">Le roi, de plus en plus se rendant intraitable,</l>
@@ -2060,7 +2079,8 @@
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Unulphe, Édwige.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Unulphe, Édwige.
+</stage>
 <sp who="ÉDWIGE"><speaker>ÉDWIGE.</speaker>
 	<l id="1499">Quoi ? Grimoald s'obstine à perdre ainsi mon frère !</l>
 	<l id="1500">D'imposture et de fourbe il traite sa misère !</l>
@@ -2127,7 +2147,8 @@
 	<l id="1546">M'avouera le premier que je l'ai bien servi.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE II. Grimoald, Édwige, Unulphe.</head>
+<div2 type="scene" n="5"><head>SCÈNE II.</head><stage> Grimoald, Édwige, Unulphe.
+</stage>
 <sp who="GRIMOALD"><speaker>GRIMOALD.</speaker>
 	<l id="1547">Que voulez-vous enfin, madame, que j'espère ?</l>
 	<l id="1548" part="i">Qu'ordonnez-vous de moi ?</l>
@@ -2253,8 +2274,10 @@
 	<l id="1653">Et les soins que j'ai pris... Mais la reine survient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Grimoald, Rodelinde, Édwige, Unulphe.</head>
-<sp stage="toward" who="GRIMOALD"><speaker>Grimoald, à Rodelinde.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Grimoald, Rodelinde, Édwige, Unulphe.
+</stage>
+<sp who="GRIMOALD"><speaker>Grimoald</speaker><stage type="toward">, à Rodelinde.
+	</stage>
 	<l id="1654">Que tardez-vous, madame, et quel soin vous retient ?</l>
 	<l id="1655">Suivez de votre époux le nom, l'image, ou l'ombre ;</l>
 	<l id="1656">De ceux qui m'ont trahi croissez l'indigne nombre,</l>
@@ -2365,8 +2388,10 @@
 	<l id="1733" part="i">Mais que veut ce soldat ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Grimoald, Pertharite, Rodelinde, Édwige, Unulphe, Soldats.</head>
-<sp stage="toward" who="SOLDAT"><speaker>SOLDAT, à Grimoald.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Grimoald, Pertharite, Rodelinde, Édwige, Unulphe, Soldats.
+</stage>
+<sp who="SOLDAT"><speaker>SOLDAT</speaker><stage type="toward">, à Grimoald.
+	</stage>
 	<l id="1733" part="f">Vous avertir, Seigneur,</l>
 	<l id="1734">D'un grand malheur ensemble et d'un rare bonheur.</l>
 	<l id="1735">Garibalde n'est plus, et l'imposteur infâme</l>
@@ -2414,7 +2439,8 @@
 	<l id="1765" part="f">Quel combat pour la seconde fois !</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Grimoald, Pertharite, Édwige, Rodelinde.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Grimoald, Pertharite, Édwige, Rodelinde.
+</stage>
 <sp who="PERTHARITE"><speaker>PERTHARITE.</speaker>
 	<l id="1766">Tu me revois, tyran qui méconnais les rois ;</l>
 	<l id="1767">Et j'ai payé pour toi d'un si rare service</l>
@@ -2530,4 +2556,3 @@
 </body>
 </text>
 </TEI>
-

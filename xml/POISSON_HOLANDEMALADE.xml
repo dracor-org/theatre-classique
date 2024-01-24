@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>vers</type>
 				<periode>1671-1680</periode>
 				<taille>500-750</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,38 +28,39 @@
    	 <titlePart part="sub">COMÉDIE en UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1672">M. DC. LXXII. Avec Privilège du Roi.</docDate>
-   <docAuthor id='POISSON, Raymond' bio='poisson'>DE MONSIEUR POISSON</docAuthor>
+   <docAuthor id="POISSON, Raymond" bio="poisson">DE MONSIEUR POISSON</docAuthor>
 	<docImprint>
-		<privilege id="16**-**-**"></privilege>
-		<acheveImprime id="16**-**-**"></acheveImprime>
+		<privilege id="16**-**-**"/>
+		<acheveImprime id="16**-**-**"/>
 		<printer id="RIBOU">À PARIS, Chez JEAN RIBOU, au Palais de la Salle Royale, à l'Image Saint-Louis</printer>
 	</docImprint>
 	<performance>
-		<premiere date="1672-08" location='Hôtel de Bourgogne'>Représentée pour la première fois en août 1672 à L'Hôtel de Bourgogne. </premiere>
+		<premiere date="1672-08" location="Hôtel de Bourgogne">Représentée pour la première fois en août 1672 à L'Hôtel de Bourgogne. </premiere>
 	</performance>
 
 	<castList><head>ACTEURS</head>
-   	<castItem><role id="LA HOLLANDE" sex="2" type="P" statut='allégorie' age='A' stat_amour='néant'>LA HOLLANDE</role>.</castItem>
-   	<castItem><role id="BELINE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>BELINE</role>, sa suivante.</castItem>
-   	<castItem><role id="MARILLE" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>MARILLE</role>, servante de la Hollande.</castItem>
-   	<castItem><role id="GOULEMER" sex="1" type="H" statut='marin' age='A' stat_amour='néant'>GOULEMER</role>, Matelot. </castItem>
-   	<castItem><role id="FRELINGUE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>FRELINGUE</role>, Hollandaise.</castItem>
-   	<castItem><role id="BADZIN" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>BADZIN</role>, Hollandais.</castItem>
-   	<castItem><role id="LA FLAMANDE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LA FLAMANDE</role>.</castItem>
-   	<castItem><role id="L'HÔTE" sex="1" type="H" statut='hôte' age='A' stat_amour='néant'>L'HÔTE</role>.</castItem>
-   	<castItem><role id="I. BOURGUEMESTRE" sex="1" type="H" statut='bourgmestre' age='A' stat_amour='néant'>I. BOURGUEMESTRE</role>.</castItem>
-   	<castItem><role id="II.BOURGUEMESTRE" sex="1" type="H" statut='bourgmestre' age='A' stat_amour='néant'>II.BOURGUEMESTRE</role>.</castItem>
-   	<castItem><role id="MÉDECIN FRANÇAIS" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>MÉDECIN FRANÇAIS</role>.</castItem>
-   	<castItem><role id="MÉDECIN ESPAGNOL" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>MÉDECIN ESPAGNOL</role>.</castItem>
-   	<castItem><role id="MÉDECIN ANGLAIS" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>MÉDECIN ANGLAIS</role>.</castItem>
-   	<castItem><role id="MÉDECIN ALLEMAND" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>MÉDECIN ALLEMAND</role>.</castItem>
-   	<castItem><role id="PACOLE" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>PACOLE</role>, servante.</castItem>
+   	<castItem><role id="LA HOLLANDE" sex="2" type="P" statut="allégorie" age="A" stat_amour="néant">LA HOLLANDE</role>.</castItem>
+   	<castItem><role id="BELINE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">BELINE</role>, sa suivante.</castItem>
+   	<castItem><role id="MARILLE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">MARILLE</role>, servante de la Hollande.</castItem>
+   	<castItem><role id="GOULEMER" sex="1" type="H" statut="marin" age="A" stat_amour="néant">GOULEMER</role>, Matelot. </castItem>
+   	<castItem><role id="FRELINGUE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">FRELINGUE</role>, Hollandaise.</castItem>
+   	<castItem><role id="BADZIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">BADZIN</role>, Hollandais.</castItem>
+   	<castItem><role id="LA FLAMANDE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">LA FLAMANDE</role>.</castItem>
+   	<castItem><role id="L'HÔTE" sex="1" type="H" statut="hôte" age="A" stat_amour="néant">L'HÔTE</role>.</castItem>
+   	<castItem><role id="I. BOURGUEMESTRE" sex="1" type="H" statut="bourgmestre" age="A" stat_amour="néant">I. BOURGUEMESTRE</role>.</castItem>
+   	<castItem><role id="II.BOURGUEMESTRE" sex="1" type="H" statut="bourgmestre" age="A" stat_amour="néant">II.BOURGUEMESTRE</role>.</castItem>
+   	<castItem><role id="MÉDECIN FRANÇAIS" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">MÉDECIN FRANÇAIS</role>.</castItem>
+   	<castItem><role id="MÉDECIN ESPAGNOL" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">MÉDECIN ESPAGNOL</role>.</castItem>
+   	<castItem><role id="MÉDECIN ANGLAIS" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">MÉDECIN ANGLAIS</role>.</castItem>
+   	<castItem><role id="MÉDECIN ALLEMAND" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">MÉDECIN ALLEMAND</role>.</castItem>
+   	<castItem><role id="PACOLE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">PACOLE</role>, servante.</castItem>
   </castList>
 	<set location="Amsterdam" country="Pays-Bas" periode="XVIIème" gps="52.370216, 4.895168">La Scène est à Amsterdam.</set>
 </front>
 <body>
-<div1 type='act' n='1'><head>LA HOLLANDE MALADE</head>
-<div2 type="scene" n='1'><head>SCÈNE PREMIÈRE. Goulemer, Frelingue, Badzin, Marille.</head> 
+<div1 type="act" n="1"><head>LA HOLLANDE MALADE</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Goulemer, Frelingue, Badzin, Marille. 
+</stage> 
 <stage type="decor/entrance/drink/smoke">Il paraît un cabaret à bière, et Goulemer et Frelingue sont à une table, et Marille et Badzin à l'autre, buvant et fumant.</stage>
 <sp who="GOULEMER"><speaker>GOULEMER.</speaker>
 	<l id="1" part="i">Buvons ce pot. À vous ?</l>
@@ -223,7 +224,8 @@
 	<l id="68">On ne pouvait pas être en meilleure santé.</l>
 </sp>
 </div2>
-<div2 type="scene" n='2'><head>SCÈNE II. Pacole, Badzin, Marille, L'Hôte, Goulemer, Frelingue.</head> 
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pacole, Badzin, Marille, L'Hôte, Goulemer, Frelingue. 
+</stage> 
 <sp who="PACOLE"><speaker>PACOLE.</speaker>
 	<l id="69">Marille, venez donc ? Vite l'on vous demande.</l>
 </sp>
@@ -264,13 +266,15 @@
 <sp who="PACOLE"><speaker>PACOLE.</speaker>
 	<l id="84" part="i">Oui ; Mais venez-vous-en.</l>
 </sp>
-<sp stage="pull" who='MARILLE'><speaker>MARILLE, emmène Frelingue.</speaker>
+<sp who="MARILLE"><speaker>MARILLE</speaker><stage type="pull">, emmène Frelingue.
+	</stage>
 	<l id="84" part="f">Je marche fur tes pas.</l>
 </sp>
 <sp who="BADZIN"><speaker>BADZIN.</speaker>
 	<l id="85" part="i">Cà.</l>
 </sp>
-<sp stage="toward/entrance" who="L'HÔTE"><speaker>L'HÔTE, à Badzin qui rentre.</speaker>
+<sp who="L'HÔTE"><speaker>L'HÔTE</speaker><stage type="toward/entrance">, à Badzin qui rentre.
+	</stage>
 	<l id="85" part="f">Payez là-dedans. Hélas ! Que c'est dommage !</l>
 </sp>
 <sp who="GOULEMER"><speaker>GOULEMER.</speaker>
@@ -382,25 +386,27 @@
 <stage type="exit/decor">Ils rentrent, et le théâtre se change en la Chambre de Madame Hollande.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='3'><head>SCÈNE III. La Hollande, Béline, Marille.</head>
-<sp stage="pull/help/sit" who='LA HOLLANDE'><speaker>LA HOLLANDE, menée par dessous le bras, et mise dans une chaise.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Hollande, Béline, Marille.
+</stage>
+<sp who="LA HOLLANDE"><speaker>LA HOLLANDE</speaker><stage type="pull/help/sit">, menée par dessous le bras, et mise dans une chaise.
+	</stage>
 	<l id="123">Ah, Beline, mon mal pénètre jusqu'aux os.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="124">Si vous pouviez un peu demeurer en repos...</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="125">Demeurer en repos ! Le puis-je, misérable,</l>
 	<l id="126">Lorsque j'ai des voisins qui font un bruit de Diable ?</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="127" part="i">Vos forces sont encor grandes.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="127" part="f">Je le sais bien ;</l>
 	<l id="128">Mais ces forces pourtant ne me servent de rien.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="129">En ces sortes de maux les forces sont utiles.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
@@ -408,7 +414,7 @@
 	<l id="131">Et je puis bien hélas ? dire avec douleur,</l>
 	<l id="132">Que j'ai des forces, mais que je manque de cour.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="133" part="i">Vous sautiez bien tantôt.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
@@ -416,13 +422,13 @@
 	<l id="134">Je sauterai bien mieux avant que l'Hiver vienne.</l>
 	<l id="135">N'a-t-on rien qui me put fortifier le coeur ?</l>
 </sp>
-<sp who='MARILLE'><speaker>MARILLE.</speaker>
+<sp who="MARILLE"><speaker>MARILLE.</speaker>
 	<l id="136">Oui, Madame, il vous faut prendre quelque liqueur.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="137" part="i">Un peu de vin d'Espagne, il m'est bon...</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="137" part="f">Ce Breuvage</l>
 	<l id="138">Est le seul qui vous peut donner quelque courage.</l>
 </sp>
@@ -431,14 +437,14 @@
 	<l id="140">Il me fortifiera je crois, j'en userai.</l>
 	<l id="141">Ah, ah, un vin d'Espagne, attend-on que je meure ?</l>
 </sp>
-<sp who='MARILLE'><speaker>MARILLE.</speaker>
+<sp who="MARILLE"><speaker>MARILLE.</speaker>
 	<l id="142">On vous le va quérir, Madame, tout à l'heure.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="143">Quand mon mal commença, j'en prenais tous les jours,</l>
 	<l id="144">Il n'a pu cependant en arrêter le cours.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="145">Mais le tonnerre ici s'est toujours fait entendre,</l>
 	<l id="146" part="i">Il peut être tourné.</l>
 </sp>
@@ -473,8 +479,9 @@
 <stage type="exit">Marille rentre.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='4'><head>SCÈNE IV. Pacole, Le Hollande, Beline.</head>
-<sp who='PACOLE'><speaker>PACOLE.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Pacole, Le Hollande, Beline.
+</stage>
+<sp who="PACOLE"><speaker>PACOLE.</speaker>
 	<l id="155">Madame, Flandre est là, qu'on n'entend presque pas,</l>
 	<l id="156">Avec son baragouin, vous demande là-bas.</l>
 </sp>
@@ -483,8 +490,9 @@
 	<l id="158">Ha le ventre, le ventre. Ah ventre, ventre, ventre,</l>
 </sp>
 </div2>
-<div2 type="scene" n='5'><head>SCÈNE V. La Flamande, La Hollande, Beline.</head>
-<sp who='LA FLAMANDE'><speaker>LA FLAMANDE.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> La Flamande, La Hollande, Beline.
+</stage>
+<sp who="LA FLAMANDE"><speaker>LA FLAMANDE.</speaker>
 	<l id="159">Je li viens point vous voir pour li fer vous jurer,</l>
 	<l id="160">Mon Dame je li viens pour li vous assurer...</l>
 </sp>
@@ -516,7 +524,7 @@
 	<l id="171">Je m'en moquais de même, et ne le croyais pas ;</l>
 	<l id="172">Te l'aurais défié, mais il m'a mise à bas.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="173">Et si bas, que chacun doute qu'elle en relève.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
@@ -530,7 +538,7 @@
 	<l id="177">J'attends des médecins de grande expérience,</l>
 	<l id="178" part="i">Qui me soulageront.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="178" part="f">Qui la tueront, je pense ;</l>
 	<l id="179">Ils sont tous étrangers. L'Epagnol et l'Anglais,</l>
 	<l id="180">Et l'Allemand encor, bref jusques au Français,</l>
@@ -565,11 +573,12 @@
 	<l id="200" part="i">Eh tous ces médecins ?</l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI. Marille, Pacole, La Hollande, Beline.</head>
-<sp who='MARILLE'><speaker>MARILLE.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Marille, Pacole, La Hollande, Beline.
+</stage>
+<sp who="MARILLE"><speaker>MARILLE.</speaker>
 	<l id="200" part="f">Ils arrivent là-bas.</l>
 </sp>
-<sp who='PACOLE'><speaker>PACOLE.</speaker>
+<sp who="PACOLE"><speaker>PACOLE.</speaker>
 	<l id="201" part="i">Deux bourguemestres-là...</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
@@ -577,11 +586,12 @@
 	<l id="202">Je ne puis plus souffrir ces monstres effroyables.</l>
 </sp>
 </div2>
-<div2 type="scene" n='7'><head>SCÈNE VII. Deux bourguemestres, La Hollande, Belinde.</head>
-<sp who='PREMIER BOURGUEMESTRE'><speaker>PREMIER BOURGUEMESTRE.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Deux bourguemestres, La Hollande, Belinde.
+</stage>
+<sp who="PREMIER BOURGUEMESTRE"><speaker>PREMIER BOURGUEMESTRE.</speaker>
 	<l id="203" part="i">Hé Madame, tout-beau.</l>
 </sp>
-<sp who='LA HOLLANDE'><speaker>LA HOLLANDE.</speaker>
+<sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="203" part="f">Vos conseils odieux </l>
 	<l id="204">N'ont-ils pas attiré tout le mal dans ces lieux !</l>
 	<l id="205">Si vos esprits grossiers eussent prévu ces choses,</l>
@@ -590,7 +600,7 @@
 	<l id="208">Ne serait pas venu m'étouffer jusqu'ici,</l>
 	<l id="209">Et me tirer enfin les entrailles du ventre.</l>
 </sp>
-<sp who='SECOND BOURGUEMESTRE'><speaker>SECOND BOURGUEMESTRE.</speaker>
+<sp who="SECOND BOURGUEMESTRE"><speaker>SECOND BOURGUEMESTRE.</speaker>
 	<l id="210">Pouvons-nous empêcher, Madame, que l'air n'entre ?</l>
 	<l id="211">Un air subtil encor comme l'est celui-là.</l>
 	<l id="212">Nous n'avons point d'emplâtre à mettre à tout cela,</l>
@@ -599,10 +609,10 @@
 	<l id="215">Vous pourriez bien pour nous avoir plus de bonté,</l>
 	<l id="216">Et faire moins d'outrage à notre dignité.</l>
 </sp>
-<sp who='LA HOLLANDE'><speaker>LA HOLLANDE.</speaker>
+<sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="217">Ehque ces Médecins viennent-cn diligence)</l>
 </sp>
-<sp who='PREMIER BOURGUEMESTRE'><speaker>PREMIER BOURGUEMESTRE.</speaker>
+<sp who="PREMIER BOURGUEMESTRE"><speaker>PREMIER BOURGUEMESTRE.</speaker>
 	<l id="218">Mais notre mal, Madame, est plus grand qu'on ne pense,</l>
 	<l id="219">Puisqu'il n'est que trop vrai que le sort nous a mis</l>
 	<l id="220">Au point de recourir à tous nos ennemis.</l>
@@ -619,25 +629,26 @@
 	<l id="231">Qu'eux-mêmes affligés, ils ont cent fois dit tous,</l>
 	<l id="232">Que la santé n'était au Monde que pour vous ?</l>
 </sp>
-<sp who='SECOND BOURGUEMESTRE'><speaker>SECOND BOURGUEMESTRE.</speaker>
+<sp who="SECOND BOURGUEMESTRE"><speaker>SECOND BOURGUEMESTRE.</speaker>
 	<l id="233">Plus votre mal est grand, plus leur âme est ravie :</l>
 	<l id="234">Prenons un autre biais pour vous sauver la vie,</l>
 	<l id="235">Mais prenons-le chez nous, et que vos assassins</l>
 	<l id="236">S'en retournent chez eux faire les médecins.</l>
 </sp>
-<sp who='LA HOLLANDE'><speaker>LA HOLLANDE.</speaker>
+<sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="237">Que vous me fatiguez d'inutiles harangues !</l>
 	<l id="238">Hé laissez en repos vos ignorantes langues.</l>
 </sp>
 </div2>
-<div2 type="scene" n='6'><head>SCÈNE VI.I. Pacole, Médecins français, Médecin Anglais, Les Bourguemestres, La Hollande, Beline.</head> 
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage>I. Pacole, Médecins français, Médecin Anglais, Les Bourguemestres, La Hollande, Beline. 
+</stage> 
 <sp who="PACOLE"><speaker>PACOLE.</speaker>
 	<l id="239">Le Médecin Français, et l'Auglais sont ici.</l>
 </sp>
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="240" part="i">Voilà déjà l'Anglais.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="240" part="m">Le Français !</l>
 </sp>
 <sp who="PACOLE"><speaker>PACOLE.</speaker>
@@ -655,10 +666,10 @@
 <sp who="LA HOLLANDE"><speaker>LA HOLLANDE.</speaker>
 	<l id="242">Hé qui le peut savoir, Messieurs, mieux que vous-mêmes !</l>
 </sp>
-<sp who='PREMIER BOURGUEMESTRE'><speaker>PREMIER BOURGUEMESTRE.</speaker>
+<sp who="PREMIER BOURGUEMESTRE"><speaker>PREMIER BOURGUEMESTRE.</speaker>
 	<l id="243">Pouvons-nous bien souffrir ces nations chez nous ?</l>
 </sp>
-<sp who='SECOND BOURGUEMESTRE'><speaker>SECOND BOURGUEMESTRE.</speaker>
+<sp who="SECOND BOURGUEMESTRE"><speaker>SECOND BOURGUEMESTRE.</speaker>
 	<l id="244" part="i">S'ils nous pouvaient crever...</l>
 </sp>
 <sp who="L'ANGLAIS"><speaker>L'ANGLAIS.</speaker>
@@ -667,7 +678,7 @@
 <sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS.</speaker>
 	<l id="244" part="f">Taisez-vous ?</l>
 </sp>
-<sp who='PREMIER BOURGUEMESTRE'><speaker>PREMIER BOURGUEMESTRE.</speaker>
+<sp who="PREMIER BOURGUEMESTRE"><speaker>PREMIER BOURGUEMESTRE.</speaker>
 	<l id="245">Nous parler de la sorte ! Apprenez à connaître</l>
 	<l id="246">Un Bourguemestre ici ? Sachez qu'il est le maître,</l>
 	<l id="247">Qu'il a le plein pouvoir, et que l'étant tous deux,</l>
@@ -679,14 +690,15 @@
 <note tyep="L">Maroufle : Term injurieux qu'on donne aux gens gros de corps et d'esprit. Il est bas. [F]</note>
 	<l id="250" part="f">Taisez vous, gros maroufle ?</l>
 </sp>
-<sp who='PREMIER BOURGUEMESTRE'><speaker>PREMIER BOURGUEMESTRE.</speaker>
+<sp who="PREMIER BOURGUEMESTRE"><speaker>PREMIER BOURGUEMESTRE.</speaker>
 	<l id="251">Une telle insolence excite mon courroux.</l>
 	<l id="252" part="i">Vous m'appeliez maroufle, Insolent ?</l>
 </sp>
-<sp stage="slap" who='LE FRANÇAIS'><speaker>LE FRANÇAIS, lui donnant un soufflet.</speaker>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage type="slap">, lui donnant un soufflet.
+	</stage>
 	<l id="252" part="f">Taisez-vous ?</l>
 </sp>
-<sp who='SECOND BOURGUEMESTRE'><speaker>SECOND BOURGUEMESTRE.</speaker>
+<sp who="SECOND BOURGUEMESTRE"><speaker>SECOND BOURGUEMESTRE.</speaker>
 	<l id="253">Un soufflet devant moi ! Devant Madame Hollande !</l>
 	<l id="254">Madame, peut-on voir hardiesse plus grande ?</l>
 	<l id="255">Ici, le plus huppé tremble en parlant à nous,</l>
@@ -695,10 +707,11 @@
 <sp who="L'ANGLAIS"><speaker>L'ANGLAIS.</speaker>
 	<l id="256" part="f">Taisez-vous gros âne ?</l>
 </sp>
-<sp who='SECOND BOURGUEMESTRE'><speaker>SECOND BOURGUEMESTRE.</speaker>
+<sp who="SECOND BOURGUEMESTRE"><speaker>SECOND BOURGUEMESTRE.</speaker>
 	<l id="256" part="m">Insolent !</l>
 </sp>
-<sp stage="slap" who="L'ANGLAIS"><speaker>L'ANGLAIS, lui donnant un soufflet.</speaker>
+<sp who="L'ANGLAIS"><speaker>L'ANGLAIS</speaker><stage type="slap">, lui donnant un soufflet.
+	</stage>
 	<l id="256" part="f">Taisez vous ?</l>
 <stage type="exit/wave/touch">Les deux bourguemestres sortent en saluant Madame Hollande tristement, la main sur leur joue.</stage>
 </sp>
@@ -743,11 +756,13 @@
 <stage type="get/furniture/fall">Disant ce dernier mot, il tire la chaise de Madame Holande, qui tombe.</stage>
 </sp>
 </div2>
-<div2 type="scene" n='9'><head>SCÈNE IX. La Hollande, Le Médecin espagnol, Le Médecin français; Le Médecin anglais.</head>
-<sp stage="stand/fall" who="L'ESPAGNOL"><speaker>L'ESPAGNOL la relève, et elle se laisse encore tomber devant.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> La Hollande, Le Médecin espagnol, Le Médecin français; Le Médecin anglais.
+</stage>
+<sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL</speaker><stage type="stand/fall"> la relève, et elle se laisse encore tomber devant.
+	</stage>
 	<l id="273">Monsieur, Madame Hollande est je pense tombée.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 <stage type="help/stand/sit">Les Médecins la relèvent encor, et la remettent dans sa chaise, et lors ce demi-vers se dit.</stage>
 	<l id="274">Monsieur, relevez-là. Je crois qu'elle est pâmée.</l>
 </sp>
@@ -763,7 +778,7 @@
 <sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL.</speaker>
 	<l id="276" part="f">Bon, bon,</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="277" part="i">Êtes-vous mieux, Madame ?</l>
 </sp>
 <sp who="L'ANGLAIS"><speaker>L'ANGLAIS.</speaker>
@@ -772,7 +787,7 @@
 <sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL.</speaker>
 	<l id="278">De mon Catholicum avalez cette prise.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="279">Hélas ! Elle se meurt, Monsieur, c'est du poison.</l>
 </sp>
 <sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS.</speaker>
@@ -792,14 +807,14 @@
 	<l id="285" part="i">Mais son pouls est fort bon.</l>
 <stage type="help">Il tient le bras de Beline, croyant tenir celui de la Malade.</stage>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="285" part="f">C'est mon bras, elle est morte.</l>
 </sp>
 <sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL.</speaker>
 	<l id="286">Je le croyais le sien, ou le diable m'emporte.</l>
 	<l id="287">Je m'étonnais aussi qu'elle eut le pouls si bon.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="288">Vous me serriez les bras d'une étrange façon !</l>
 </sp>
 <sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL.</speaker>
@@ -815,7 +830,7 @@
 	<l id="292">Et cela cause en vous ces agitations,</l>
 	<l id="293">Tous vos membres étant de Provinces Unies,</l>
 	<l id="294">Mais qui ne l'étant plus, toutes ces harmonies</l>
-	<l id="295">>Ne sont plus qu'un chaos : Enfin tout est péri,</l>
+	<l id="295">&gt;Ne sont plus qu'un chaos : Enfin tout est péri,</l>
 <note type="L">Charivari : Bruit confus que font des gens du peuple avec des poêles, des bassins et des chaudrons pour faire injure à quelqu'un. On fait les charivaris en dérision des gens d'un âge fort inégal qui se marient.</note>
 	<l id="296">D'un concert que c'était, c'est un charivari,</l>
 	<l id="297">Les esprits y manquants, la gangrène succède,</l>
@@ -848,8 +863,10 @@
 	<l id="313" part="i">Le voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n='10'><head>SCÈNE DERNIÈRE. La Hollande, Le M. Allemand, Le M. Français, Le M. Anglais, Le M. Espagnol, Beline.</head>
-<sp stage="entrance" who="L'ALLEMAND"><speaker>L'ALLEMAND, fourré partout, venant sort lentement.</speaker>
+<div2 type="scene" n="10"><head>SCÈNE DERNIÈRE.</head><stage> La Hollande, Le M. Allemand, Le M. Français, Le M. Anglais, Le M. Espagnol, Beline.
+</stage>
+<sp who="L'ALLEMAND"><speaker>L'ALLEMAND</speaker><stage type="entrance">, fourré partout, venant sort lentement.
+	</stage>
 	<l id="313" part="f">J'ai la goûte aux pieds, ne vous déplaise.</l>
 </sp>
 <sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL.</speaker>
@@ -872,7 +889,7 @@
 	<l id="321">Le pouls intermittent un fort mauvais augure :</l>
 	<l id="322">Elle ne la fera pas longue, je m'assure.</l>
 </sp>
-<sp who='BELINE'><speaker>BELINE.</speaker>
+<sp who="BELINE"><speaker>BELINE.</speaker>
 	<l id="323">Peut-elle encor durer quelque temps ?</l>
 </sp>
 <sp who="L'ALLEMAND"><speaker>L'ALLEMAND.</speaker>
@@ -1066,7 +1083,8 @@
 <sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS.</speaker>
 	<l id="422">Hé jouez donc, Messieurs, puisqu'on vous le demande ?</l>
 </sp>
-<sp stage="dance" who="LA HOLLANDE"><speaker>LA HOLLANDE, après avoir dansé avec les Médecins.</speaker>
+<sp who="LA HOLLANDE"><speaker>LA HOLLANDE</speaker><stage type="dance">, après avoir dansé avec les Médecins.
+	</stage>
 	<l id="423" part="i">Ha mes membres sont morts.</l>
 </sp>
 <sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS.</speaker>
@@ -1109,13 +1127,16 @@
 <sp who="MARILLE"><speaker>MARILLE.</speaker>
 	<l id="435" part="f">Hélas ! Quel crève-cour !</l>
 </sp>
-<sp stage="toward" who="LE FRANÇAIS"><speaker>LE FRANÇAIS, à l'Espagnol.</speaker>
+<sp who="LE FRANÇAIS"><speaker>LE FRANÇAIS</speaker><stage type="toward">, à l'Espagnol.
+	</stage>
 	<l id="436" part="i">Serviteur.</l>
 </sp>
-<sp stage="toward" who="L'ANGLAIS"><speaker>L'ANGLAIS, à l'Espagnol.</speaker>
+<sp who="L'ANGLAIS"><speaker>L'ANGLAIS</speaker><stage type="toward">, à l'Espagnol.
+	</stage>
 	<l id="436" part="m">Serviteur.</l>
 </sp>
-<sp stage="toward" who="L'ESPAGNOL"><speaker>L'ESPAGNOL au Médecin Anglais et le dernier serviteur an Peuple.</speaker>
+<sp who="L'ESPAGNOL"><speaker>L'ESPAGNOL</speaker><stage type="toward"> au Médecin Anglais et le dernier serviteur an Peuple.
+	</stage>
 	<l id="436" part="f">Serviteur, Serviteur.</l>
 </sp>
 </div2>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,30 +31,31 @@
 			<titlePart type="sub">Il faut savoir parler et se taire à propos. Scène II.</titlePart>
 			<titlePart type="sub">NOUVELLE ÉDITION.</titlePart>
 		</docTitle> 
-		<docDate value='1778'>M. DCC. LXXVIII.</docDate>
-		<docAuthor id='POULHARIEZ, Pierre-Nicolas'>par M. POULHARIEZ.</docAuthor>
+		<docDate value="1778">M. DCC. LXXVIII.</docDate>
+		<docAuthor id="POULHARIEZ, Pierre-Nicolas">par M. POULHARIEZ.</docAuthor>
 		<docImprint>
-			<privilege id=''></privilege>
-			<acheveImprime id=''></acheveImprime>
-			<editor id='RUAULT'>À PARIS Chez RUAULT, Libraire, rue de la Harpe..</editor>
+			<privilege id=""/>
+			<acheveImprime id=""/>
+			<editor id="RUAULT">À PARIS Chez RUAULT, Libraire, rue de la Harpe..</editor>
 		</docImprint>
 		<performance>
-			<premiere date='1773-03-22' location='En société'>Représenté en société à Marseille le 22 mars 1776.</premiere>
+			<premiere date="1773-03-22" location="En société">Représenté en société à Marseille le 22 mars 1776.</premiere>
 		</performance>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="MONSIEUR ARGANTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR ARGANTE</role>.</castItem>
-		<castItem><role id="MADAME ARGANTE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>MADAME ARGANTE</role>.</castItem>
-		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>ANGÉLIQUE</role>, leur fille.</castItem>
-		<castItem><role id="VALÈRE" sex="1" type="H" statut='aristocrate' age='J' stat_amour='néant'>VALÈRE</role>, amant d'Angélique.</castItem>
-		<castItem><role id="ARISTE" sex="1" type="H" statut='aristocrate' age='V' stat_amour='néant'>ARISTE</role>.</castItem>
-		<castItem><role id="JEAN" sex="1" type="H" statut='valet de chambre' age='A' stat_amour='néant'>JEAN</role>, Valet de chambre d'Ariste.</castItem>
-		<castItem><role id="MARTON" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='néant'>MARTON</role>, Femme de chambre d'Angélique.</castItem>
+		<castItem><role id="MONSIEUR ARGANTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR ARGANTE</role>.</castItem>
+		<castItem><role id="MADAME ARGANTE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME ARGANTE</role>.</castItem>
+		<castItem><role id="ANGÉLIQUE" sex="2" type="H" statut="aristocrate" age="J" stat_amour="néant">ANGÉLIQUE</role>, leur fille.</castItem>
+		<castItem><role id="VALÈRE" sex="1" type="H" statut="aristocrate" age="J" stat_amour="néant">VALÈRE</role>, amant d'Angélique.</castItem>
+		<castItem><role id="ARISTE" sex="1" type="H" statut="aristocrate" age="V" stat_amour="néant">ARISTE</role>.</castItem>
+		<castItem><role id="JEAN" sex="1" type="H" statut="valet de chambre" age="A" stat_amour="néant">JEAN</role>, Valet de chambre d'Ariste.</castItem>
+		<castItem><role id="MARTON" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="néant">MARTON</role>, Femme de chambre d'Angélique.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est aux environs de Paris, dans un appartement du Château de Madame Argante.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE TACITURNE.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Marton, et Jean, venant d'un côté opposé.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Marton, et Jean, venant d'un côté opposé.
+</stage>
 <sp who="JEAN"><speaker>JEAN.</speaker>
 	<l id="1">Ah, Marton ! Quel sujet t'amène en ce lieu ?</l>
 </sp>
@@ -95,7 +96,8 @@
 	<l id="16" syll="6" part="f">Oui, mais elle est sincère ;</l>
 	<l id="17">Et lui fera l'aveu qu'elle, ne l'aime point.</l>
 </sp>
-<sp stage="quiet" who="JEAN"><speaker>JEAN, avec confiance.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="quiet">, avec confiance.
+	</stage>
 	<l id="18">Va, nous sommes, Marton, tranquilles sur ce point ;</l>
 	<l id="19">Et nous l'épouserons malgré Monsieur Argante :</l>
 	<l id="20">D'ailleurs il est bon homme, et sa femme est méchante,</l>
@@ -124,12 +126,14 @@
 	<l id="41">J'exigerais, surtout, qu'il vint de bonne foi</l>
 	<l id="42" syll="3" part="i">S'excuser.</l>
 </sp>
-<sp who="JEAN"><speaker>JEAN, d'un ton goguenard.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, d'un ton goguenard.
+	</stage>
 	<l id="42" syll="10" part="f">Tu voudrais... quelqu'un fait comme moi.</l>
 	<l id="43">Qui t'aImât à la rage, et qui fût assez bête,</l>
 	<l id="44">Pour se laisser toujours gouverner à ta tête ?</l>
 </sp>
-<sp who="MARTON"><speaker>MARTON, avec une feinte modestie.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage>, avec une feinte modestie.
+	</stage>
 	<l id="45" syll="9" part="i">Quoi, vous m'épouseriez !... Vous Monsieur ?</l> 
 </sp>
 <sp who="JEAN"><speaker>JEAN.</speaker>
@@ -140,7 +144,8 @@
 	<l id="47">Si ton coeur est touché de ma brûlante flamme,</l> 
 	<l id="48">Je t'offre dès ce soir, de te prendre pour femme.</l>
 </sp>
-<sp stage="laugh" who="MARTON"><speaker>MARTON, lui riant au nez.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="laugh">, lui riant au nez.
+	</stage>
 	<l id="49">Tu veux donc que j'épouse un ivrogne, un joueur,</l>
 	<l id="50">Un médisant, un traître, un fripon, un coureur.</l>
 </sp>
@@ -153,15 +158,18 @@
 	<l id="53">Enfin Jean, là-dessus s'il faut te parler net,</l>
 	<l id="54">un homme tel que toi, n'est point du tout mon fait.</l>
 </sp>
-<sp stage="closer/kiss" who="JEAN"><speaker>JEAN, s'avançant pour l'embrasser.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="closer/kiss">, s'avançant pour l'embrasser.
+	</stage>
 	<l id="55">Viens ça, ma belle enfant, que je te récompense</l>
 	<l id="56" syll="6" part="i">Par cinq à six baisers ?...</l>
 </sp>
-<sp who="MARTON"><speaker>MARTON, sérieusement.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage>, sérieusement.
+	</stage>
 	<l id="56" syll="6" part="f">Va, va, je t'en dispense ;</l>
 	<l id="57">J'exige seulement que tu sois circonspect.</l>
 </sp>
-<sp who="JEAN"><speaker>JEAN, d'un ton ironique, et levant son chapeau.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, d'un ton ironique, et levant son chapeau.
+	</stage>
 	<l id="58">Madame, une autre fois j'aurais plus de respect,</l>
 <stage type="offended/dress">D'un ton piqué, et se couvrant.</stage>
 	<l id="59">Tu fais la renchérie à présent mais peut-être</l>
@@ -232,7 +240,8 @@
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
 <stage type="decor/slow">Le commencement de cette scène doit être récité fort lentement, laissant toujours un intervalle entre les deux interlocuteurs.</stage>
-<sp who="ARISTE"><speaker>ARISTE, s'avance en rêvants et après unmommt de: silena ,il dit</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage>, s'avance en rêvants et après unmommt de: silena ,il dit
+	</stage>
 	<l id="100" syll="3" part="f">Et ma lettre ?</l>
 </sp>
 <sp who="JEAN"><speaker>JEAN.</speaker>
@@ -272,13 +281,15 @@
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 	<l id="104" syll="4" part="m">Mais Angélique !...</l>
 </sp>
-<sp stage="interrupt" who="JEAN"><speaker>JEAN, l'interrompant.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="104" syll="6" part="f">Était avec sa mère.</l>
 </sp>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
 	<l id="105" syll="3" part="i">Angélique ?...</l>
 </sp>
-<sp stage="interrupt" who="JEAN"><speaker>JEAN, l'interrompant encore.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="interrupt">, l'interrompant encore.
+	</stage>
 	<l id="105" syll="3" part="m">Vous aime.</l>
 </sp>
 <sp who="ARISTE"><speaker>ARISTE.</speaker>
@@ -287,13 +298,15 @@
 <sp who="JEAN"><speaker>JEAN.</speaker>
 	<l id="105" syll="2" part="f">Marton.</l>
 </sp>
-<sp who="ARISTE"><speaker>ARISTE, vite.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage>, vite.
+	</stage>
 	<l id="106" syll="2" part="i">Comment ?</l>
 </sp>
 <sp who="JEAN"><speaker>JEAN.</speaker>
 	<l id="106" syll="4" part="m">Le dit ainsi.</l>
 </sp>
-<sp who="ARISTE"><speaker>ARISTE , souriant, et caressant le menton de Jean.</speaker>
+<sp who="ARISTE"><speaker>ARISTE </speaker><stage>, souriant, et caressant le menton de Jean.
+	</stage>
 	<l id="106" syll="3" part="m">Le crois-tu ?</l>
 </sp>
 <sp who="JEAN"><speaker>JEAN.</speaker>
@@ -316,10 +329,12 @@
 	<l id="114">« Un homme tel que toi n'est point du tout mon fait,</l>
 	<l id="115" syll="6" part="i">Un ivrogne, un coureur... »</l>
 </sp>
-<sp stage="impatient" who="ARISTE"><speaker>ARISTE, s'impatientant.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="impatient">, s'impatientant.
+	</stage>
 	<l id="115" syll="6" part="f">Te plaît-il de te taire ?</l>
 </sp>
-<sp stage="continue" who="JEAN"><speaker>JEAN, poursuivant toujours.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="continue">, poursuivant toujours.
+	</stage>
 	<l id="116">Tu voudrais, affectant une sagesse austère,</l>
 <note type="C">Agnès personnage de Molière : jeune fille innocente.</note>
 	<l id="117">Qu'on te crût une Agnès ? Mais Poitevin, Hector,</l>
@@ -348,13 +363,16 @@
 	<l id="132">Je trouve le secret de vous mettre en colère.</l>
 	<l id="133">Voudriez-vous enfin m'expliquer en deux mots ?...</l>
 </sp>
-<sp stage="anger/abrupt/entrance" who="ARISTE"><speaker>ARISTE, d'un ton de colère, et sortant brusquement de sa place.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="anger/abrupt/entrance">, d'un ton de colère, et sortant brusquement de sa place.
+	</stage>
 	<l id="134">Il faut savoir parler, et se taire à propos.</l> 
 </sp>
-<sp stage="sweet" who="JEAN"><speaker>JEAN, d'un ton doucereux.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="sweet">, d'un ton doucereux.
+	</stage>
 	<l id="135">Si vous preniez, Monsieur, ce conseil pour vous-même ?...</l>
 </sp>
-<sp stage="quick" who="ARISTE"><speaker>ARISTE, vivement.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="quick">, vivement.
+	</stage>
 	<l id="136" syll="3" part="i">Que dis-tu ?...</l>
 </sp>
 <sp who="JEAN"><speaker>JEAN.</speaker>
@@ -362,8 +380,10 @@
 	<l id="137">La voici justement qui s'approche de nous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Ariste, Jean, Madame Argante, Angélique, Marton.</head>
-<sp stage="carry" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, ayant une lettre d'Ariste à la main.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Ariste, Jean, Madame Argante, Angélique, Marton.
+</stage>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="carry">, ayant une lettre d'Ariste à la main.
+	</stage>
 	<l id="138">Il vous sied bien, Monsieur, d'écrire, un billet doux ;</l>
 	<l id="139">Votre style, sur tout, est précis, laconique !...</l>
 	<l id="140">Mais au fait : vous voulez épouser Angélique ;</l>
@@ -376,13 +396,15 @@
 	<l id="146">Quant au bonhomme Argante, il n'est compté pour rien.</l>
 <stage type="kiss/give/watch">Ariste baise la main de Madame Argante en signe de remerciement, puis il va se présenter sa lettre à Angélique. Elle la reçoit, et regarde sa mère pour savoir si elle doit la lire. Sa mère le lui permet.</stage>
 </sp>
-<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE, lit.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage>, lit.
+</stage>
 <p id="1">
 	<s id="1">« Charmante Angélique ; c'est aujourd'hui le plus beau jour de ma vie ; Marton m'a fait la confidence que vous m'aimiez... »</s>
 </p>
 <stage type="anger">Elle regarde Marton d'un air courroucé.</stage>
 </sp>
-<sp stage="toward" who="MARTON"><speaker>MARTON, à Ariste.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="toward">, à Ariste.
+	</stage>
 	<l id="147" syll="6" part="i">J'ai tenu ce propos !...</l>
 <stage type="impatient">Avec impatience.</stage>
 	<l id="147" syll="6" part="f">Parlez donc, je vous prie ?</l>
@@ -404,7 +426,8 @@
 	<l id="156">Qui tous deux ignorant ce que tu vaux peut-être,</l>
 	<l id="157" syll="2" part="i">Pourraient...</l>
 </sp>
-<sp stage="" who="MARTON"><speaker>MARTON, d'un air indifférent.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="">, d'un air indifférent.
+	</stage>
 	<l id="157" syll="6" part="f">De tes discours je fais très peu de cas,</l>
 	<l id="158">On te connaît menteur, on ne te croira pas.</l>
 </sp>
@@ -419,7 +442,8 @@
 	<l id="163">Marton, retirez-vous, et fuyez ma présence,</l>
 	<l id="164">Demain vous payerez cher une telle insolence.</l>
 </sp>
-<sp stage="away/closer/threat" who="MARTON"><speaker>MARTON, en s'en allant, s'approche de Jean, et le menace par ces paroles.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="away/closer/threat">, en s'en allant, s'approche de Jean, et le menace par ces paroles.
+	</stage>
 	<l id="165">Si je te puis jamais trouver hors de ces lieux,</l>
 	<l id="166">Sois sûr que, tout au moins, je t'arrache les yeux,</l>
 </sp>
@@ -431,10 +455,12 @@
 	<l id="171">Pour mon maître, elle dit, que c'est une autre affaire,</l>
 	<l id="172">Et qu'Angélique veut tout ce que veut sa mère. »</l>
 </sp>
-<sp stage="toward" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, à Angélique.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="toward">, à Angélique.
+	</stage>
 	<l id="173">Vraiment je le crois bien. Relisez cet écrit,</l>
 </sp>
-<sp stage="read" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, lit.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="read">, lit.
+</stage>
 <p id="1">
 	<s id="1">« Charmante Angélique : c'est aujourd'hui le plus beau jour de ma vie ; Marton m'a fait la confidence que vous m'aimiez : daignez me le confirmer de votre belle bouche, si vous voulez mettre le comble à mon bonheur. Je n'attends que cet heureux moment, pour vous offrir ma fortune et mon coeur : croyez que tant que je vivrai, je serai le plus reconnaissant, et le plus tendre des époux. </s>
 </p>
@@ -443,7 +469,8 @@
 </p>
 <stage type="cry">Elle pleure.</stage>
 </sp>
-<sp stage="toward" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, à Ariste.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="toward">, à Ariste.
+	</stage>
 	<l id="174">Monsieur, excusez la, c'est un petit esprit :</l>
 	<l id="175">D'ailleurs elle est timide et l'on sait qu'à son âge,</l>
 	<l id="176">Une fille rougit au mot de mariage...</l>
@@ -452,7 +479,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, seule.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="179">Il le faut avouer, mon état est bien triste !</l>
 	<l id="180">J'aimerais mieux mourir que d'épouser Ariste ;</l>
 	<l id="181">Et l'on veut me forcer à lui donner ma foi,</l>
@@ -467,8 +495,10 @@
 	<l id="190">C'est là... Valère vient, mon tendre coeur renaît.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Angélique, Valère.</head>
-<sp stage="serious" who="VALÈRE"><speaker>VALÈRE, d'un ton de reproche.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Angélique, Valère.
+</stage>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="serious">, d'un ton de reproche.
+	</stage>
 	<l id="191">Eh, quoi ! vous oubliez si tôt votre promesse,</l>
 	<l id="192">Vous, Angélique, vous, qui me juriez sans cesse,</l>
 	<l id="193">Que votre main jamais n'appartiendrait qu'à moi !</l>
@@ -478,10 +508,12 @@
 	<l id="197">Qu'il fait, que dans ce jour vous faîtes son bonheur :</l>
 	<l id="198">Mais qu'il redoute tout de ma juste fureur !...</l>
 </sp>
-<sp stage="interrupt" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, l'interrompant.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="199" syll="6" part="i">Écoutez-moi, Valère...</l>
 </sp>
-<sp stage="continue" who="VALÈRE"><speaker>VALÈRE, poursuivant toujours.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="continue">, poursuivant toujours.
+	</stage>
 	<l id="199" syll="6" part="f">En vain par votre adresse,</l>
 	<l id="200">Chercheriez vous encore à tromper ma tendresse !</l>
 	<l id="201">Que ne disiez-vous, sans user de détour,</l>
@@ -495,7 +527,8 @@
 	<l id="209">Et puisqu'il est trop vrai que vous voulez ma mort,</l>
 	<l id="210">Adieu, perfide, adieu, je vais remplir mon sort.</l>
 </sp>
-<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE, pansant.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage>, pansant.
+	</stage>
 	<l id="211">Ah, Valère arrêtez. Gardez de jamais croire</l>
 	<l id="212">Que je pusse tramer une action si noire ; </l>
 	<l id="213">Moi, qui vous ai choisi , pour être mon époux,</l>
@@ -507,20 +540,24 @@
 	<l id="219">Et je résisterais aux ordres de ma mère,</l>
 	<l id="220">S'il fallait épouser tout autre que Valère.</l> 
 </sp>
-<sp stage="enthoisiasm" who="VALÈRE"><speaker>VALÈRE, avec transport.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="enthoisiasm">, avec transport.
+	</stage>
 	<l id="221">Qu'entends-je ? Ah, quel bonheur !... Au comble de mes voeux,</l>
 	<l id="222">Quel mortel plus que moi, pourrait se croire heureux !</l>
 <stage type="kiss">Il lui baise la main à plusieurs reprises.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Monsieur Argante, Valère, Angélique.</head>
-<sp stage="watch" who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE, apercevant Valère.</speaker>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Monsieur Argante, Valère, Angélique.
+</stage>
+<sp who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE</speaker><stage type="watch">, apercevant Valère.
+	</stage>
 	<l id="223">Bravo !... je suis charmé de vous trouver ensemble ;</l>
 	<l id="224">Et puisque, le hasard en ces lieux nous rassemble,</l>
 	<l id="225">Je viens vous annoncer qu'avant la fin du jour,</l>
 	<l id="226">Vous ailes voir tous deux couronner votre amour.</l>
 </sp>
-<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE, avec effusion de coeur.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage>, avec effusion de coeur.
+	</stage>
 	<l id="227">Ô mon père ! Le Ciel, dans cette circonstance,</l>
 	<l id="228">En exauçant mes voeux, comble mon espérance.</l>
 	<l id="229">Puisqu'il me fait enfin éprouver la douceur</l>
@@ -538,7 +575,8 @@
 	<l id="239">Car je lui ferais voir que je suis le seul maître ;</l>
 	<l id="240">Et que ce n'est qu'à moi qu'il appartient de l'être.</l>
 </sp>
-<sp stage="pain" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, avec douleur.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="pain">, avec douleur.
+	</stage>
 	<l id="241">Ma mère ne fait rien !... Hélas !... Que dites-vous ?...</l>
 	<l id="242">Ah, Valère jamais ne sera mon époux !</l>
 </sp>
@@ -552,7 +590,8 @@
 	<l id="247">De celle dont le coeur vous chérira sans cesse,</l>
 	<l id="248">Et dans qui le respect égale la tendresse.</l>
 </sp>
-<sp stage="toward" who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE, à tous deux.</speaker>
+<sp who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE</speaker><stage type="toward">, à tous deux.
+	</stage>
 	<l id="249">Soyez sûrs, mes enfants, que je n'oublierai rien, </l>
 	<l id="250">Faisant voue bonheur, je crois faire le mien.</l>
 <stage type="toward">À Angélique.</stage>
@@ -578,8 +617,10 @@
 	<l id="264">Mais j'ai besoin de toi... Viens donc ?... Adieu mon gendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Valère, Ariste, Jean.</head>
-<sp stage="alone" who="VALÈRE"><speaker>VALÈRE, seul.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Valère, Ariste, Jean.
+</stage>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="265">Monsieur Argante en vain cherche à me rassurer :</l>
 	<l id="266">Dans cet état cruel je ne puis demeurer ;</l>
 	<l id="267">Et quoiqu'il soit porté, de même que son frère,</l>
@@ -591,15 +632,19 @@
 	<l id="273">Puisque le hasard seul a su me l'amener.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Valère, Ariste, Jean.</head>
-<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Ariste.</speaker>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Valère, Ariste, Jean.
+</stage>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="toward">, à Ariste.
+	</stage>
 	<l id="274">Peut-on savoir, Monsieur, sans vous importuner,</l>
 	<l id="275">Si vous aimez toujours l'adorable Angélique !</l>
 </sp>
-<sp stage="serious/dress/proud" who="JEAN"><speaker>JEAN, d'un ton décidé, mettant son chapeau sur l'oreille et passant fièrement devant Valère.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="serious/dress/proud">, d'un ton décidé, mettant son chapeau sur l'oreille et passant fièrement devant Valère.
+	</stage>
 	<l id="276" syll="3" part="i">Oui, Monsieur.</l>
 </sp>
-<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Jean. </speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="toward">, à Jean. 
+	</stage>
 	<l id="276" syll="3" part="m">Taisez vous.</l>
 <stage type="aparte">À part.</stage>
 	<l id="276" syll="6" part="f">Son silence me pique,</l>
@@ -624,7 +669,8 @@
 <stage type="costume/threat">Il met son chapeau, et tire son épée : Ariste en fait autant de son côté.</stage>
 	<l id="284">Il faut qu'auparavant vous m'arrachiez la vie.</l>
 </sp>
-<sp who="JEAN"><speaker>JEAN, se mettant entre deux et retenant Valère.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, se mettant entre deux et retenant Valère.
+	</stage>
 	<l id="285">Ah ! Monsieur, arrêtez ? Ô Ciel ! Que faites vous ?</l>
 	<l id="286">Quoi ! Pour si peu de chose on vous voit en courroux !</l>
 	<l id="287">Mon maître est amoureux, et son amour l'abuse.</l>
@@ -647,9 +693,11 @@
 <stage type="fight">Ils se portent quelques bottes.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Madame Argante, Valère, Ariste, Jean.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Madame Argante, Valère, Ariste, Jean.
+</stage>
 <stage type="listen/dress/quiet">Au commencement de cette scène, Ariste et Valère entendant parler Madame Argante, ôtent leurs chapeaux, et baissent la pointe de leurs épées.</stage>
-<sp type="location" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, au fond du Théâtre.</speaker>
+<sp type="location" who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage>, au fond du Théâtre.
+	</stage>
 	<l id="301">Eh, bien ! Qui peut ici causer tant de fracas ?...</l>
 <stage type="closer">Toujours en s'avancant.</stage>
 	<l id="302">En vérité, Messieurs, je ne vous conçois pas,</l>
@@ -659,13 +707,15 @@
 	<l id="305">Ou bien est-ce un duel ? Je veux savoir pourquoi</l>
 	<l id="306">Vous prétendez tous deux, vous égorger chez moi ?</l>
 </sp>
-<sp stage="closer" who="VALÈRE"><speaker>VALÈRE, s'approchant de Madame Argante.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="closer">, s'approchant de Madame Argante.
+	</stage>
 	<l id="307">Ah, Madame! de vous obtiendrai-je ma grâce ?</l>
 	<l id="308">Le motif doit sans doute excuser mon audace ;</l>
 	<l id="309">J'adore votre fille, et ne puis sans courroux,</l> 
 	<l id="310">Voir un autre que moi devenir son époux.</l>
 </sp>
-<sp stage="aburpt" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, d'un ton brusque.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="aburpt">, d'un ton brusque.
+	</stage>
 	<l id="311">Quoi ! Ne pourrai-je pas, Monsieur, dans ma famille,</l>
 	<l id="312">Sans prendre votre avis, disposer de ma fille ?</l>
 	<l id="313">Je suis au désespoir d'augmenter votre ennui,</l>
@@ -677,14 +727,16 @@
 	<l id="316">Avant qu'il s'accomplisse il faudra que j'expire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Madadame Argante, Ariste, Jean.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Madadame Argante, Ariste, Jean.
+</stage>
 <sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE.</speaker>
 	<l id="317">Puisque nous sommes seuls, je puis donc m'expliquer.</l>
 	<l id="318">Mais il faut, s'il vous plaît, Monsieur ; me répliquer ;</l>
 	<l id="319">Car je ne puis savoir ce que vous voulez dire,</l>
 	<l id="320">Si vous n'avez enfin la bonté de m'instruire.</l>
 </sp>
-<sp who="JEAN"><speaker>JEAN, après un moment de silence dans lequel Madame Argante témoigne son impatience de ce qu'on ne luI répond rien.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, après un moment de silence dans lequel Madame Argante témoigne son impatience de ce qu'on ne luI répond rien.
+	</stage>
 	<l id="321">Je suis le confident de mon maître aujourd'hui</l>
 	<l id="322">Madame : permettez que je parle pour lui.</l>
 	<l id="323">Je vous ferai savoir ses capitaux, ses rentes,</l>
@@ -703,7 +755,8 @@
 	<l id="331" syll="10" part="f">Puisqu'il vous plaît d'entrer dans ma famille ;</l>
 	<l id="332">Quel avantage ici faites-vous à ma fille ?</l>
 </sp>
-<sp stage="proud" who="JEAN"><speaker>JEAN, d'un ton important.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="proud">, d'un ton important.
+	</stage>
 	<l id="333">Il lui reconnaîtra cent mille écus comptant,</l>
 	<l id="334">Si ce n'est pas assez, encore tout autant.</l>
 	<l id="335">Il ne s'Informe pas de la dot qu'on lui donne :</l>
@@ -729,13 +782,15 @@
 	<l id="351">Je vais vous le chercher, si vous daignez m'attendre.</l>
 <stage type="ask/exit">Il demande à son maître la clé de sa cassette. Il sort.</stage>
 </sp>
-<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE, avec vivacité.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage>, avec vivacité.
+	</stage>
 	<l id="352">Dois-je croire, Monsieur, ce que je viens d'entendre ;</l>
 	<l id="353">Et faut-il me fier à ce qu'il me dit là ?...</l>
 	<l id="354" syll="6" part="i">Vous ne répondez rien !... </l>
 <stage type="closer/write">Ariste, pour toute réponse, s'avance d'une table qui doit être au fond du théâtre, et se met à écrire.</stage>
 </sp>
-<sp stage="entrance" who="JEAN"><speaker>JEAN, rentrant tout essoufflé, avec le porte-feuille.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="entrance">, rentrant tout essoufflé, avec le porte-feuille.
+	</stage>
 	<l id="354" syll="6" part="f">Madame, le voilà.</l>
 <stage type="aparte/toward">À part, à Madame Argante.</stage>
 	<l id="355">J'ai, ma foi, très bien fait de revenir bien vite,</l>
@@ -755,7 +810,8 @@
 	<l id="367">Mais je le vois venir... Tenez, je vous annonce,</l>
 	<l id="368">Qu'il vient vous apporter lui-même sa réponse.</l>
 </sp>
-<sp stage="read/loud" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, lit haut.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="read/loud">, lit haut.
+</stage>
 <p id="1">
 	<s id="1">« Madame, mon valet est un faquin qui se mêle toujours de ce gui ne le regarde point, et qui a la rage de parler à tout propos... »</s>
 </p>
@@ -796,7 +852,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp stage="alone" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, seule.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="381">Ariste est taciturne, il le faut avouer !</l>
 	<l id="382">On a beau le flatter, le prôner, le louer,</l>
 	<l id="383">Ne pouvant se résoudre à dire une parole,</l>
@@ -821,7 +878,8 @@
 	<l id="402">J'entends quelqu'un... c'est lui... bon homme avancez vous !</l>
 </sp>
 </div2>
-<div2 type="scene" n="12"><head>SCÈNE XII. Monsieur Argante, Madame Argante.</head>
+<div2 type="scene" n="12"><head>SCÈNE XII.</head><stage> Monsieur Argante, Madame Argante.
+</stage>
 <sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE.</speaker>
 	<l id="403">Il est temps aujourd'hui qu'avec vous je m'explique.</l>
 	<l id="404">On dit que vous voulez marier Angélique ;</l> 
@@ -914,7 +972,8 @@
 	<l id="452">Ce qu'on doit observer, quand on s'unit ensemble :</l>
 	<l id="453">Pour l'intérêt, on peut le consulter après.</l>
 </sp>
-<sp stage="ironic" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, d'un ton railleur.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="ironic">, d'un ton railleur.
+	</stage>
 	<l id="454">L'on vous fabriquera des maris tout exprès.</l>
 <stage type="aparte">À part.</stage>
 	<l id="455" syll="2" part="i">J'enrage. </l>
@@ -936,16 +995,19 @@
 	<l id="465">Moi, je vous jure ici, Monsieur, que malgré vous :</l>
 	<l id="466">Ariste, dès ce soir deviendra son époux.</l>
 </sp>
-<sp stage="offended" who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE, d'un ton piqué.</speaker>
+<sp who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE</speaker><stage type="offended">, d'un ton piqué.
+	</stage>
 	<l id="467" syll="6" part="i">Cela ne sera pas.</l>
 </sp>
-<sp stage="imitate" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, le contrefaisant.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="imitate">, le contrefaisant.
+	</stage>
 	<l id="467" syll="6" part="f">Cela sera, vous dis-je ?</l>
 </sp>
 <sp who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE.</speaker>
 	<l id="468">Pour finir en un mot, Madame : je l'exige.</l>
 </sp>
-<sp stage="smile" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, avec un sourire forcé.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="smile">, avec un sourire forcé.
+	</stage>
 	<l id="469">Vous l'exigez Monsieur. Pour finir en un mot,</l>
 	<l id="470">Je saurai vous prouver que vous n'êtes qu'un sot.</l>
 </sp>
@@ -957,7 +1019,8 @@
 	<l id="472">Vous n'êtes qu'une folle, et qu'une extravagante, </l>
 	<l id="473">Qui ne méritez plus qu'on daigne vous aimer.</l>
 </sp>
-<sp stage="aparte" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, à part</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="aparte">, à part
+	</stage>
 	<l id="474">Feignons, car ce propos commence à m'alarmer.</l>
 <stage type="loud/emphasis">Haut et d'un ton tragique.</stage>
 	<l id="475">Non, je ne reviens point de ma surprise extrême !</l>
@@ -979,20 +1042,24 @@
 <note type="C">Ce vers est semblable à plusieurs de travggiédie ou comédies : Rénard le Légataire, Piron le Métromanie, Gouges Molière chez Ninon, Racine Iphigénie, Sommerive Bajazet, Voltaire Sémiramis.</note>
 	<l id="490">Vous me voyez, mon fils, embrasser vos genoux.</l>
 </sp>
-<sp stage="aparte" who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE, à part.</speaker>
+<sp who="MONSIEUR ARGANTE"><speaker>MONSIEUR ARGANTE</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="491">Je me sens attendri jusques au fond de l'âme ;</l>
 <stage type="loud">Haut.</stage>
 	<l id="492">Et mes pleurs malgré moi... Va, ma petite femme,</l>
 	<l id="493">Je ferai désormais tout ce que tu voudras...</l>
 </sp>
-<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE, toujours aux genoux de son mari  doit ici faire semblant de s'évanouir.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage>, toujours aux genoux de son mari  doit ici faire semblant de s'évanouir.
+	</stage>
 	<l id="494">Que vois-je !... Elle se meurt !... Ô Ciel, quel embarras !...</l>
 	<l id="495">Et si j'ai pu t'offenser, excuse mon audace,</l>
 	<l id="496">Tiens, je tombe à tes pieds, pour obtenir ma grâce,</l>
 </sp>
 </div2>
-<div2 type="scene" n="13"><head>SCÈNE DERNIÈRE. Monsieur Argante, Madamae Argante, Valère, Angélique, Marton, entrant d'un côté. Ariste ; Jean, de l'autre.</head>
-<sp stage="toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à sa mère.</speaker>
+<div2 type="scene" n="13"><head>SCÈNE DERNIÈRE.</head><stage> Monsieur Argante, Madamae Argante, Valère, Angélique, Marton, entrant d'un côté. Ariste ; Jean, de l'autre.
+</stage>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward">, à sa mère.
+</stage>
 <stage type="hurry/stand">Monsieur et Madame Argante se relève précipitamment.</stage>
 	<l id="497">Ah, Madame !... Mon oncle, en ce même moment,</l>
 	<l id="498">En faveur de Valère a fait son testament ;</l>
@@ -1003,11 +1070,13 @@
 	<l id="503">Et d'avance s'il faut renoncer à Valère. </l>
 	<l id="504">Parlez : je ferai tout, pour ne vous pas déplaire.</l>
 </sp>
-<sp stage="aparte" who="MARTON"><speaker>MARTON, à part.</speaker>
+<sp who="MARTON"><speaker>MARTON</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="505">On ne peut pas agir, je crois, plus finement,</l>
 	<l id="506" syll="6" part="i">Pour venir à son but.</l>
 </sp>
-<sp stage="toward" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, à Valère.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="toward">, à Valère.
+	</stage>
 	<l id="506" syll="6" part="f">Voyons ce testament.</l>
 <stage type="read">Après avoir lu.</stage>
 	<l id="507">Puisque vous êtes riche, allons, sans plus attendre ;</l>
@@ -1017,16 +1086,19 @@
 	<l id="509">Madame je ressens autant que je le dois</l>
 	<l id="510">Les marques de bonté que vous avez pour moi.</l>
 </sp>
-<sp stage="toward" who="ANGÉLIQUE"><speaker>ANGÉLIQUE, à sa mère.</speaker>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE</speaker><stage type="toward">, à sa mère.
+	</stage>
 	<l id="511">Vous connaissez mon coeur, je ne fuis point ingrate.</l>
 </sp>
-<sp stage="toward" who="MADAME ARGANTE"><speaker>MADAME ARGANTE, à Ariste.</speaker>
+<sp who="MADAME ARGANTE"><speaker>MADAME ARGANTE</speaker><stage type="toward">, à Ariste.
+	</stage>
 	<l id="512">Ma fille ne veut pas d'un époux automate,</l>
 	<l id="513">Monsieur: voilà de vous tous les papiers que j'ai ;</l>
 <stage type="get">Jean reçoit le portefeuille.</stage>
 	<l id="514">Je suis votre servante, adieu , prenez congé.</l>
 </sp>
-<sp stage="toward/aparte" who="JEAN"><speaker>JEAN, à Ariste à part.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage type="toward/aparte">, à Ariste à part.
+	</stage>
 	<l id="515">Si vous avez, Monsieur, quelque chose à lui dire ;</l>
 	<l id="516">J'irai vite chercher ce qu'il faut pour écrire, </l>
 <stage type="watch">Ariste le regarde d'un air de colère.</stage>
@@ -1039,7 +1111,8 @@
 	<l id="520">De ce que pour vous deux il a bien voulu faire.</l>
 <stage type="exit/stay">Ils sortent tous, excepté Jean, et Ariste. </stage>
 </sp>
-<sp who="JEAN"><speaker>JEAN, arrêtant Marton.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, arrêtant Marton.
+	</stage>
 	<l id="521">Un moment donc Marton ?... Je veux t'épouser, moi.</l>
 </sp>
 <sp who="MARTON"><speaker>MARTON.</speaker>
@@ -1048,14 +1121,16 @@
 	<l id="524">Mon choix serait tout fait ; j'épouserais le Diable.</l>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp who="JEAN"><speaker>JEAN, après une courte pause.</speaker>
+<sp who="JEAN"><speaker>JEAN</speaker><stage>, après une courte pause.
+	</stage>
 	<l id="525">Tous nos projets ; Monsieur, ont si bien réussi, </l>
 	<l id="526">Qu'il ne nous reste plus, qu'à décamper d'ici... </l>
 	<l id="527">Mais vous rêvez, je crois ? Eh, fi donc ! À votre âge,</l>
 	<l id="528">Vous convient-il, morbleu ! De manquer de courage ?</l>
 	<l id="529">Tenez, imitez moi, je suis tout consolé. </l>
 </sp>
-<sp stage="dream" who="ARISTE"><speaker>ARISTE, après avoir rêvé quelque temps.</speaker>
+<sp who="ARISTE"><speaker>ARISTE</speaker><stage type="dream">, après avoir rêvé quelque temps.
+	</stage>
 	<l id="530">Je n'ai qu'un seul regret... c'est d'avoir trop parlé.</l>
 </sp>
 </div2>

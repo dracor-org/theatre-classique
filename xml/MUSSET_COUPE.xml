@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,14 +30,14 @@
 			<titlePart type="sub">Poème dramatique en cinq actes et en vers.</titlePart>
 			<titlePart type="sub">Représentée pour la première fois au Théâtre-Français le 22 février 1849, publiée en 1850.</titlePart>
 		</docTitle> 
-		<docDate value='1867'>1867.</docDate>
-		<docAuthor id='MUSSET, Alfred de' bio='muset'>D'ALFRED DE MUSSET</docAuthor>
+		<docDate value="1867">1867.</docDate>
+		<docAuthor id="MUSSET, Alfred de" bio="muset">D'ALFRED DE MUSSET</docAuthor>
 		<docImprint>
 			<editor id="CHARPENTIER">PARIS, CHARPENTIER, ÉDITEUR, 28 QUAI DE L'ÉCOLE.</editor>
-			<printer id='LAHURE'>IMPRIMERIE GÉNÉRALE DE CH. LAHURE, Rue de Flaurus, 8, à Paris.</printer>
+			<printer id="LAHURE">IMPRIMERIE GÉNÉRALE DE CH. LAHURE, Rue de Flaurus, 8, à Paris.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1831" location=""></premiere>
+			<premiere date="1831" location=""/>
 		</performance>
 	<div type="citation">
 		<p>Entre la coupe et les lèvres, il reste encore de la place pour un malheur.</p>
@@ -382,22 +382,23 @@
 	</div>
 
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LE CHASSEUR FRANK" sex="1" type="H" statut="chasseur" age="A" stat_amour=''>LE CHASSEUR FRANK</role>.</castItem>
-			<castItem><role id="LE PALATIN STRANIO" sex="1" type="H" statut="palatin" age="A" stat_amour=''>LE PALATIN STRANIO</role>.</castItem>
-			<castItem><role id="LE CHEVALIER GUNTHER" sex="1" type="H" statut="chevalier" age="A" stat_amour=''>LE CHEVALIER GUNTHER</role>.</castItem>
-			<castItem><role id="UN LIEUTENANT DE FRANK" sex="1" type="H" statut="lieutenant" age="A" stat_amour=''>UN LIEUTENANT DE FRANK</role>.</castItem>
-			<castItem><role id="MONTAGNARDS CHEVALIERS" sex="1" type="H" statut="chavalier" age="A" stat_amour=''>MONTAGNARDS CHEVALIERS</role>.</castItem>[a-z
-			<castItem><role id="MOINES" sex="1" type="H" statut="moise" age="A" stat_amour=''>MOINES</role>.</castItem>
-			<castItem><role id="PEUPLE" sex="1" type="H" statut="peuple" age="A" stat_amour=''>PEUPLE</role>.</castItem>
-			<castItem><role id="MONNA BELCOLORE" sex="2" type="H" statut="" age="A" stat_amour=''>MONNA BELCOLORE</role>.</castItem>
-			<castItem><role id="DÉIDAMIA" sex="2" type="H" statut="" age="A" stat_amour=''>DÉIDAMIA</role>.</castItem>
+			<castItem><role id="LE CHASSEUR FRANK" sex="1" type="H" statut="chasseur" age="A" stat_amour="">LE CHASSEUR FRANK</role>.</castItem>
+			<castItem><role id="LE PALATIN STRANIO" sex="1" type="H" statut="palatin" age="A" stat_amour="">LE PALATIN STRANIO</role>.</castItem>
+			<castItem><role id="LE CHEVALIER GUNTHER" sex="1" type="H" statut="chevalier" age="A" stat_amour="">LE CHEVALIER GUNTHER</role>.</castItem>
+			<castItem><role id="UN LIEUTENANT DE FRANK" sex="1" type="H" statut="lieutenant" age="A" stat_amour="">UN LIEUTENANT DE FRANK</role>.</castItem>
+			<castItem><role id="MONTAGNARDS CHEVALIERS" sex="1" type="H" statut="chavalier" age="A" stat_amour="">MONTAGNARDS CHEVALIERS</role>.</castItem>[a-z
+			<castItem><role id="MOINES" sex="1" type="H" statut="moise" age="A" stat_amour="">MOINES</role>.</castItem>
+			<castItem><role id="PEUPLE" sex="1" type="H" statut="peuple" age="A" stat_amour="">PEUPLE</role>.</castItem>
+			<castItem><role id="MONNA BELCOLORE" sex="2" type="H" statut="" age="A" stat_amour="">MONNA BELCOLORE</role>.</castItem>
+			<castItem><role id="DÉIDAMIA" sex="2" type="H" statut="" age="A" stat_amour="">DÉIDAMIA</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Costumes du temps de Louis XVI.</set>
 		<note>Texte issu de "OEuvres d'Alfred de Musset/ ornées de dessins de M. Bida gravés en taille-douce par les premiers artistes)", Paris Charpentier Editeur, 1867.- pp. 325-404</note>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Les Chasseurs, Frank.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Les Chasseurs, Frank.
+</stage>
 <stage type="decor/frire">Une place publique. - Un grand feu allumé au milieu. </stage>
 <sp who="LE CHOEUR"><speaker>LE CHOEUR.</speaker>
 	<l id="1">Pâle comme l'amour, et de pleurs arrosée,</l>
@@ -511,7 +512,8 @@
 	<l id="93">Malheur à la maison, malheur à la cité,</l>
 	<l id="94">Et malédiction sur la mère patrie !</l>
 </sp>
-<sp stage="exit/location" who="LE CHOEUR"><speaker>UN AUTRE CHOEUR, sortant d'une maison.</speaker>
+<sp who="LE CHOEUR"><speaker>UN AUTRE CHOEUR</speaker><stage type="exit/location">, sortant d'une maison.
+	</stage>
 	<l id="95">Qui parle ainsi ? qui vient jeter sur notre toit,</l>
 	<l id="96">À cette heure de nuit, ces clameurs monstrueuses,</l>
 	<l id="97">Et nous sonner ainsi les trompettes hideuses</l>
@@ -534,7 +536,8 @@
 <sp who="CHASSEURS"><speaker>TOUS LES CHASSEURS.</speaker>
 	<l id="113">Pourquoi refuses-tu ta place à notre table ?</l>
 </sp>
-<sp stage="toward" who="FRANK"><speaker>FRANK, à l'un d'eux.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="toward">, à l'un d'eux.
+	</stage>
 	<l id="114">Hélas ! Noble seigneur, soyez-moi charitable !</l>
 	<l id="115">Un denier, s'il vous plaît, j'ai bien soif et bien faim.</l>
 	<l id="116">Rien qu'un pauvre denier pour m'acheter du pain.</l>
@@ -627,7 +630,8 @@
 	<l id="176">Le voilà, si tu veux, pour te porter bonheur.</l>
 <stage type="throw">Elle lui jette son bouquet.</stage>
 </sp>
-<sp stage="alone/get" who="FRANK"><speaker>FRANK, seul, ramassant le bouquet.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="alone/get">, seul, ramassant le bouquet.
+	</stage>
 	<l id="177">Comme elle court gaîment ! Sa mère est ma voisine ;</l>
 	<l id="178">J'ai vu cette enfant-là grandir et se former.</l>
 	<l id="179">Pauvre, innocente fille ! Elle aurait pu m'aimer.</l>
@@ -636,7 +640,8 @@
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
 <stage type="decor/light">Un chemin creux dans la forêt. - Le point du jour.</stage>
-<sp stage="sit/location" who="FRANK"><speaker>FRANK, assis sur l'herbe.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="sit/location">, assis sur l'herbe.
+	</stage>
 	<l id="180">Et quand tout sera dit, - quand la triste demeure</l>
 	<l id="181">De ce malheureux Frank, de ce vil mendiant,</l>
 	<l id="182">Sera tombée en poudre et dispersée au vent,</l>
@@ -645,7 +650,8 @@
 	<l id="185">Ah ! Massacre et malheur ! Que vais-je devenir ?</l>
 <stage type="sleep">Il s'endort.</stage>
 </sp>
-<sp stage="location" who="LA VOIX"><speaker>UNE VOIX, dans un songe.</speaker>
+<sp who="LA VOIX"><speaker>UNE VOIX</speaker><stage type="location">, dans un songe.
+	</stage>
 	<l id="186">Il est deux routes dans la vie :</l>
 	<l id="187">L'une solitaire et fleurie,</l>
 	<l id="188">Qui descend sa pente chérie</l>
@@ -663,7 +669,8 @@
 	<l id="200">La première est la patience,</l>
 	<l id="201">La seconde est l'ambition.</l>
 </sp>
-<sp stage="dream" who="FRANK"><speaker>FRANK, rêvant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="dream">, rêvant.
+	</stage>
 	<l id="202">Esprits ! Si vous venez m'annoncer ma ruine,</l>
 	<l id="203">Pourquoi le Dieu qui me créa</l>
 	<l id="204">Fit-il, en m'animant, tomber sur ma poitrine</l>
@@ -774,7 +781,8 @@
 <div1 type="acte" n="2"><head>ACTE II</head>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
 <stage type="decor">Un salon.</stage>
-<sp stage="location" who="FRANK"><speaker>FRANK, devant une table chargée d'or.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="location">, devant une table chargée d'or.
+	</stage>
 	<l id="251">De tous les fils secrets qui font mouvoir la vie,</l>
 	<l id="252">Ô toi, le plus subtil et le plus merveilleux !</l>
 	<l id="253">Or ! Principe de tout, larme au soleil ravie !</l>
@@ -828,7 +836,8 @@
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head> 
 <stage type="location">Une route. - Montagnards, passant.</stage>
-<sp stage="location" who="CHASSEURS"><speaker>CHANSON DE CHASSE, dans le lointain.</speaker>
+<sp who="CHASSEURS"><speaker>CHANSON DE CHASSE</speaker><stage type="location">, dans le lointain.
+	</stage>
 	<l id="295">Chasseur, hardi chasseur, que vois-tu dans l'espace ?</l>
 	<l id="296">Mes chiens grattent la terre et cherchent une trace.</l>
 	<l id="297">Debout, mes cavaliers ! C'est le pied du chamois. - </l>
@@ -861,7 +870,8 @@
 <stage type="exit">Exeunt.</stage>
 </sp>
 </div2>
-<div2 stage="sit" type="scene" n="3"><head>SCÈNE III. Monna Belcolore, Frank, assis dans un kiosque.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="sit"> Monna Belcolore, Frank, assis dans un kiosque.
+</stage>
 <stage id="light/">La nuit. - Une terrasse au bord d'un chemin. </stage>
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="322">Dors, ô pâle jeune homme, épargne ta faiblesse.</l>
@@ -935,14 +945,16 @@
 	<l id="372">Allons, un beau baiser, et c'est moi qui le donne,</l>
 	<l id="373">Un baiser pour ta vie et qu'on me dise tout.</l>
 </sp>
-<sp stage="sigh" who="BELCOLORE"><speaker>BELCOLORE, soupirant.</speaker>
+<sp who="BELCOLORE"><speaker>BELCOLORE</speaker><stage type="sigh">, soupirant.
+	</stage>
 	<l id="374">Ah ! Je n'ai pas toujours vécu comme l'on pense.</l>
 	<l id="375">Ma famille était noble, et puissante à Florence.</l>
 	<l id="376">On nous a ruinés ; - ce n'est que le malheur</l>
 	<l id="377">Qui m'a forcée à vivre aux dépens de l'honneur...</l>
 	<l id="378" syll="6" part="i">Mon coeur n'était pas fait...</l>
 </sp>
-<sp stage="turn" who="FRANK"><speaker>FRANK, se détournant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="turn">, se détournant.
+	</stage>
 	<l id="378" syll="6" part="f">Toujours la même histoire !</l>
 	<l id="379">Voici peut-être ici la vingtième catin</l>
 	<l id="380">À qui je la demande, et toujours ce refrain !</l>
@@ -1055,7 +1067,8 @@
 	<l id="454">Mon_Dieu, deux jours plus tard, c'en était fait de moi !</l>
 <stage type="push">Il va s'appuyer sur la terrasse ; un soldat passe à cheval sur la route.</stage>
 </sp>
-<sp stage="sing" who="LE SOLDAT"><speaker>LE SOLDAT, chantant.</speaker>
+<sp who="LE SOLDAT"><speaker>LE SOLDAT</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="455">Un soldat qui va son chemin</l>
 	<l id="456">Se raille du tonnerre.</l>
 	<l id="457">Il tient son sabre d'une main,</l>
@@ -1066,13 +1079,15 @@
 	<l id="462">Son bras est à sa patrie,</l>
 	<l id="463">Et sa tête à l'empereur.</l>
 </sp>
-<sp stage="call" who="FRANK"><speaker>FRANK, l'appelant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="call">, l'appelant.
+	</stage>
 	<l id="464">Holà, l'ami ! Deux mots. - Vous semblez un compère</l>
 	<l id="465">De bonne contenance, et de joyeuse humeur.</l>
 	<l id="466">Vos braves compagnons vont-ils entrer en guerre ?</l>
 	<l id="467">Dans quelle place forte est donc votre empereur ?</l>
 </sp>
-<sp stage="toward" who="LE SOLDAT"><speaker>LE SOLDAT, à Glurens.</speaker>
+<sp who="LE SOLDAT"><speaker>LE SOLDAT</speaker><stage type="toward">, à Glurens.
+	</stage>
 	<l id="468">Dans deux jours nous serons en campagne.</l>
 	<l id="469">Je rejoins de ce pas ma corporation.</l>
 </sp>
@@ -1100,7 +1115,8 @@
 	<l id="481" syll="6" part="i">S'il est vrai qu'un beau soir...</l>
 <stage type="exit/run">Ils partent au galop.</stage>
 </sp>
-<sp who="BELCOLORE"><speaker>BELCOLORE, sur le balcon.</speaker>
+<sp who="BELCOLORE"><speaker>BELCOLORE</speaker><stage>, sur le balcon.
+	</stage>
 	<l id="481" syll="6" part="f">Je l'aime cependant.</l>
 </sp>
 </div2>
@@ -1207,7 +1223,8 @@
 <stage type="exit">Ils entrent dans le palais.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II.</head> Frank, Gunther, restés seuls.
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Frank, Gunther, restés seuls.
+</stage> Frank, Gunther, restés seuls.
 <sp who="GUNTHER"><speaker>GUNTHER.</speaker>
 	<l id="551">Ne les suivez-vous pas, seigneur, sous ce portique ?</l>
 	<l id="552">Ô mon maître ! Au milieu d'une fête publique,</l>
@@ -1224,7 +1241,8 @@
 	<l id="563">Qui vous arrête ici ? Vous devez être las.</l>
 	<l id="564">La peine et le danger font les joyeux repas.</l>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR, dans la maison.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage>, dans la maison.
+	</stage>
 	<l id="565">Chantons, et faisons vacarme,</l>
 	<l id="566">Comme il convient à de dignes buveurs.</l>
 	<l id="567">Vivent ceux que le vin désarme !</l>
@@ -1237,7 +1255,8 @@
 	<l id="572">Des convives joyeux je vois flotter les ombres</l>
 	<l id="573">Derrière ces vitraux de feux resplendissants.</l>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR, à la fenêtre.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage>, à la fenêtre.
+	</stage>
 	<l id="574">Frank, pourquoi tardes-tu ? - Gunther, si notre troupe</l>
 	<l id="575">Ne fait pas, sous ce toit, peur à vos cheveux blancs,</l>
 	<l id="576">Soyez le bienvenu pour vider une coupe.</l>
@@ -1276,7 +1295,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Frank, vêtu en moine et masqué ; deux serviteurs.</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head><stage> Frank, vêtu en moine et masqué ; deux serviteurs.
+</stage>
 <stage type="location/furniture">Devant le palais de Frank. La porte est tendue en noir. - On dresse un catafalque.</stage>
 <sp who="FRANK"><speaker>FRANK.</speaker>
 	<l id="604">Que l'on apporte ici les cierges et la bière.</l>
@@ -1319,11 +1339,13 @@
 	<l id="636">On parle d'un combat. - Quand se sont-ils battus ?</l>
 <stage type="narration">Frank, durant cette scène, doit déguiser sa voix. Je prie ceux qui la trouveraient invraisemblable d'aller au bal de l'Opéra. Un de mes amis fit déguiser sa servante au carnaval et la plaça dans son salon, au milieu d'un bal où personne n'était masqué. On ne lui avait mis qu'un petit masque sans barbe qui ne cachait point la bouche ; et cependant elle dansa presque deux heures entières, sans être reconnue, avec des jeunes gens à qui elle avait apporté deux cents verres d'eau dans sa vie.</stage>
 </sp>
-<sp who="FRANK"><speaker>FRANK, masqué.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage>, masqué.
+	</stage>
 	<l id="637">À qui parlez-vous donc ? Il ne vous entend plus.</l>
 <stage type="show">Il leur montre la bière.</stage>
 </sp>
-<sp strteg="wave" who="LE CHOEUR"><speaker>LE CHOEUR, s'inclinant.</speaker>
+<sp strteg="wave" who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage>, s'inclinant.
+	</stage>
 	<l id="638">S'il est un meilleur monde au-dessus de nos têtes,</l>
 	<l id="639">Ô Frank ! Si du séjour des vents et des tempêtes</l>
 	<l id="640">Ton âme sur ces monts plane et voltige encor ;</l>
@@ -1334,7 +1356,8 @@
 	<l id="645">Et vois tes compagnons briser leurs javelines</l>
 	<l id="646">Sur cette froide terre, où ton corps est resté !</l>
 </sp>
-<sp stage="entrance/hurry" who="GUNTHER"><speaker>GUNTHER, accourant.</speaker>
+<sp who="GUNTHER"><speaker>GUNTHER</speaker><stage type="entrance/hurry">, accourant.
+	</stage>
 	<l id="647">Quoi ! Si brave et si jeune, et sitôt emporté !</l>
 	<l id="648">Mon Frank ! Est-ce bien vrai, messieurs ? Ah ! Mort funeste !</l>
 	<l id="649">Moi qui ne demandais qu'à vivre assez longtemps</l>
@@ -1344,7 +1367,8 @@
 	<l id="653">Moi qui n'aimais que toi ! Misérable vieillesse !</l>
 	<l id="654">Je ne te verrai plus, mon Frank ! On t'a tué.</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="655">Ce pauvre vieux Gunther, je l'avais oublié.</l>
 </sp>
 <sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker>
@@ -1355,7 +1379,8 @@
 	<l id="660">Il est mort en soldat, sur la terre chrétienne.</l>
 	<l id="661">L'âme appartient à Dieu ; l'armée aura le corps.</l>
 </sp>
-<sp stage="closer" who="TROIS MOINES"><speaker>TROIS MOINES, s'avançant.</speaker>
+<sp who="TROIS MOINES"><speaker>TROIS MOINES</speaker><stage type="closer">, s'avançant.
+</stage>
 <stage type="sing">Chant.</stage>
 	<l id="662">Le Seigneur sur l'ombre éternelle</l>
 	<l id="663">Suspend son ardente prunelle,</l>
@@ -1366,7 +1391,8 @@
 	<l id="668">Il dit aux maux qu'il nous envoie :</l>
 	<l id="669">« Comptez les morts que vous prenez. »</l>
 </sp>
-<sp stage="kneel" who="LE CHOEUR"><speaker>LE CHOEUR, à genoux.</speaker>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage type="kneel">, à genoux.
+	</stage>
 	<l id="670">Seigneur, j'ai plus péché que vous ne pardonnez.</l>
 </sp>
 <sp who="LES MOINES"><speaker>LES MOINES.</speaker>
@@ -1405,7 +1431,8 @@
 	<l id="695">Que le juste en son âme espère !</l>
 	<l id="696">Gloire à la sainte Trinité !</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="697">C'est une jonglerie atroce, en vérité !</l>
 	<l id="698">Ô toi qui les entends, suprême intelligence,</l>
 	<l id="699">Quelle pagode ils font de leur Dieu de vengeance !</l>
@@ -1420,10 +1447,12 @@
 	<l id="706">Si l'un de nous connaît l'histoire de sa vie,</l>
 	<l id="707" syll="6" part="i">Qu'il s'avance et qu'il parle.</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="707" syll="6" part="f">Ah ! Nous y voilà donc !</l>
 </sp>
-<sp stage="closer" who="L'OFFICIER"><speaker>UN OFFICIER, sortant des rangs.</speaker>
+<sp who="L'OFFICIER"><speaker>UN OFFICIER</speaker><stage type="closer">, sortant des rangs.
+	</stage>
 	<l id="708">Soldats et chevaliers, braves compagnons d'armes,</l>
 	<l id="709">Si jamais homme au monde a mérité vos larmes,</l>
 	<l id="710">C'est celui qui n'est plus. - Charle était mon ami.</l>
@@ -1432,7 +1461,8 @@
 	<l id="713">Frank chez des montagnards vécut longtemps en frère,</l>
 	<l id="714">En fils, - chéri de tous, et de tous bien venu.</l>
 </sp>
-<sp stage="closer" who="FRANK"><speaker>FRANK, s'avançant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="closer">, s'avançant.
+	</stage>
 	<l id="715">Vous vous trompez, Monsieur, vous l'avez mal connu.</l>
 	<l id="716">Frank était détesté de tout le voisinage.</l>
 	<l id="717">Est-il ici quelqu'un qui soit de son village ?</l>
@@ -1548,13 +1578,15 @@
 <sp who="LE PEUPLE ET LES SOLDATS"><speaker>LE PEUPLE ET LES SOLDATS.</speaker>
 	<l id="777" syll="6" part="f">Moine, la bière est vide.</l>
 </sp>
-<sp stage="costume" who="FRANK"><speaker>FRANK, se démasquant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="costume">, se démasquant.
+	</stage>
 	<l id="778">La bière est vide ? Alors c'est que Frank est vivant.</l>
 </sp>
 <sp who="LES SOLDATS"><speaker>LES SOLDATS.</speaker>
 	<l id="779" syll="6" part="i">Capitaine, c'est vous !</l>
 </sp>
-<sp stage="toward" who="FRANK"><speaker>FRANK, à l'officier.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="toward">, à l'officier.
+	</stage>
 	<l id="779" syll="6" part="f">Lieutenant, votre épée.</l>
 	<l id="780">Vous avez laissé faire une étrange équipée.</l>
 	<l id="781">Si j'avais été mort, où serais-je à présent ?</l>
@@ -1564,7 +1596,8 @@
 <stage type="exit">Tout le monde sort en silence.</stage>
 	<l id="785">C'en est fait, - une soif ardente, inextinguible,</l>
 </sp>
-<sp stage="alone" who="FRANK"><speaker>FRANK, seul.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="786">Dévorera mes os tant que j'existerai.</l>
 	<l id="787">Ô mon_Dieu ! Tant d'efforts, un combat si terrible,</l>
 	<l id="788">Un dévouement sans borne, un corps tout balafré...</l>
@@ -1656,7 +1689,8 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="842">Si je te disais oui, tu serais mal tombé.</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="843">Ah ! Voilà Jupiter qui tente Danaé.</l>
 <stage type="loud">Haut.</stage>
 	<l id="844">Je vous en avertis, je suis très misanthrope :</l>
@@ -1678,7 +1712,8 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="853" syll="6" part="i">Tu me donnes cela ?</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="853" syll="6" part="f">Voyez l'attraction !</l>
 	<l id="854">Comme la chair est faible à la tentation !</l>
 <stage type="loud">Haut.</stage>
@@ -1710,7 +1745,8 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="867" syll="6" part="i">Il est fait à Paris ?</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="867" syll="6" part="f">Voyez-vous le poisson,</l>
 	<l id="868">Comme il vient à fleur d'eau reprendre l'hameçon !</l>
 <stage type="loud">Haut.</stage>
@@ -1734,7 +1770,8 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="876" syll="6" part="i">Eh bien ! Oui, je le veux.</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="876" syll="6" part="f">Tu pâlis, Danaé.</l>
 <stage type="touch/loud">Il lui prend la main. Haut.</stage>
 	<l id="877">Regarde, mon enfant ; cette rue est déserte.</l>
@@ -1744,7 +1781,8 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="880" syll="6" part="i">Sous la maison de Frank !</l>
 </sp>
-<sp stage="aparte" who="FRANK"><speaker>FRANK, à part.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="880" syll="6" part="f">- Pourquoi pas mon tombeau ?</l>
 <stage type="loud">Haut.</stage>
 	<l id="881">- Au fait, nous sommes seuls ; cette bière est solide.</l>
@@ -1755,13 +1793,15 @@
 <sp who="BELCOLORE"><speaker>BELCOLORE.</speaker>
 	<l id="883" syll="6" part="f">Moine, la bière est vide.</l>
 </sp>
-<sp stage="dress" who="FRANK"><speaker>FRANK, se démasquant.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="dress">, se démasquant.
+	</stage>
 	<l id="884">La bière est vide ? alors c'est que Frank est vivant.</l>
 	<l id="885">- Va-t'en, prostituée, ou ton heure est venue !</l>
 	<l id="886">- Va-t'en, ne parle pas ! Ne te retourne pas !</l>
 <stage type="threat">Il la chasse son poignard à la main.</stage>
 </sp>
-<sp stage="alone" who="FRANK"><speaker>FRANK, seul.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="887">Ta lame, ô mon stylet, est belle toute nue</l>
 	<l id="888">Comme une belle vierge. - Ô mon coeur et mon bras,</l>
 	<l id="889">Pourquoi donc tremblez-vous, et pourquoi l'un de l'autre</l>
@@ -2255,7 +2295,8 @@
 	<l id="1283">Mais je t'appartenais, j'ai gardé ton trésor.</l>
 <stage type="hugh">Elle tombe dans ses bras.</stage>
 </sp>
-<sp stage="stand/abrupt" who="FRANK"><speaker>FRANK, se levant brusquement.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="stand/abrupt">, se levant brusquement.
+	</stage>
 	<l id="1284" syll="6" part="i">Quelqu'un est là, c'est vrai.</l>
 </sp>
 <sp who="DÉIDAMIA"><speaker>DÉIDAMIA.</speaker>
@@ -2270,26 +2311,30 @@
 	<l id="1287">Mon_Dieu ! Que va-t-il faire, et qu'est-il arrivé ?</l>
 	<l id="1288">Le voilà qui revient. - Eh bien ! L'as-tu trouvé ?</l>
 </sp>
-<sp stage="location" who="FRANK"><speaker>FRANK, à la fenêtre, en dehors.</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="location">, à la fenêtre, en dehors.
+	</stage>
 	<l id="1289">Non, mais, par le tonnerre, il faudra qu'il y vienne.</l>
 	<l id="1290">Je crois que c'est un spectre, et vous aviez raison.</l>
 	<l id="1291">Attendez-moi. - Je fais le tour de la maison.</l>
 </sp>
-<sp stage="location" who="DÉIDAMIA"><speaker>DÉIDAMIA, courant à la fenêtre.</speaker>
+<sp who="DÉIDAMIA"><speaker>DÉIDAMIA</speaker><stage type="location">, courant à la fenêtre.
+	</stage>
 	<l id="1292">Charle, ne t'en va pas ! S'il s'enfuit dans la plaine,</l>
 	<l id="1293">Laisse-le s'envoler, ce spectre de malheur.</l>
 <stage type="entrance/location/away">Belcolore paraît de l'autre côté de la fenêtre et s'enfuit aussitôt.</stage>
 	<l id="1294">Au secours ! Au secours ! On m'a frappée au coeur.</l>
 <stage type="fall/exit">Déidamia tombe et sort en se traînant.</stage>
 </sp>
-<sp stage="run/location" who="LES MONTAGNARDS"><speaker>LES MONTAGNARDS, accourant au dehors.</speaker>
+<sp who="LES MONTAGNARDS"><speaker>LES MONTAGNARDS</speaker><stage type="run/location">, accourant au dehors.
+	</stage>
 	<l id="1295">Frank ! Que se passe-t-il ? On nous appelle, on crie.</l>
 	<l id="1296">Qui donc est là par terre étendu dans son sang ?</l>
 	<l id="1297">Juste Dieu ! C'est Mamette ! Ah ! Son âme est partie.</l>
 	<l id="1298">Un stylet italien est entré dans son flanc.</l>
 	<l id="1299" syll="6" part="i">Au meurtre ! Frank, au meurtre !</l>
 </sp>
-<sp stage="entrance/location/dead/hugh" who="FRANK"><speaker>FRANK,rentrant dans la cabane avec Déidamia morte dans ses bras</speaker>
+<sp who="FRANK"><speaker>FRANK</speaker><stage type="entrance/location/dead/hugh">,rentrant dans la cabane avec Déidamia morte dans ses bras
+	</stage>
 	<l id="1299" syll="6" part="f">Ô toi, ma bien-aimée !</l>
 	<l id="1300">Sur mon premier baiser ton âme s'est fermée.</l>
 	<l id="1301">Pendant plus de quinze ans tu l'avais attendu,</l>
@@ -2299,4 +2344,4 @@
 </div1>
 </body>
 </text>
-</TEI>	
+</TEI>

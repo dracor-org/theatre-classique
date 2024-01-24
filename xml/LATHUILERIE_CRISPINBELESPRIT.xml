@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -29,25 +29,26 @@
 			<titlePart type="main">CRISPIN BEL ESPRIT</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle>
-		<docDate value='1682'>M. DC. LXXXII. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docDate value="1682">M. DC. LXXXII. AVEC PRIVILÈGE DU ROI.</docDate>
 		<docAuthor id="LA THUILERIE, Jean-François JUVENON dit">PAR LE SIEUR DE LA THUILERIE, comédien de la Troupe du Roi.</docAuthor>
 			
 	<castList><head>ACTEURS</head>
-	<castItem><role id='VICTORIN' sex="1" type="H" statut='officier' age='A' stat_amour='néant'>VICTORIN</role>, officier.</castItem>
-	<castItem><role id='VICTORINE' sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>VICTORINE</role>, sa femme.</castItem>
-	<castItem><role id='ORPHISE' sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>ORPHISE</role>, fille de Monsieur Victorin et de Madame Victorine.</castItem>
-	<castItem><role id='VALÈRE' sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>VALÈRE</role>, amant d'Orphite.</castItem>
-	<castItem><role id='CRISPIN' sex="1" type="H" statut='valet' age='A' stat_amour='néant'>CRISPIN</role>, valet de Valère.</castItem>
-	<castItem><role id='LISE' sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>LISE</role>, suivante de madame Victorine.</castItem>
-	<castItem><role id='PÉNÉTRANT' sex="1" type="H" statut='savant' age='A' stat_amour='néant'>PÉNÉTRANT</role>, savant.</castItem>
-	<castItem><role id='MILLEPONT' sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>MILLEPONT</role>, père de Valère.</castItem>
+	<castItem><role id="VICTORIN" sex="1" type="H" statut="officier" age="A" stat_amour="néant">VICTORIN</role>, officier.</castItem>
+	<castItem><role id="VICTORINE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">VICTORINE</role>, sa femme.</castItem>
+	<castItem><role id="ORPHISE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ORPHISE</role>, fille de Monsieur Victorin et de Madame Victorine.</castItem>
+	<castItem><role id="VALÈRE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">VALÈRE</role>, amant d'Orphite.</castItem>
+	<castItem><role id="CRISPIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">CRISPIN</role>, valet de Valère.</castItem>
+	<castItem><role id="LISE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">LISE</role>, suivante de madame Victorine.</castItem>
+	<castItem><role id="PÉNÉTRANT" sex="1" type="H" statut="savant" age="A" stat_amour="néant">PÉNÉTRANT</role>, savant.</castItem>
+	<castItem><role id="MILLEPONT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">MILLEPONT</role>, père de Valère.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 <note>Extrait de "Petites comédie rares et curieuses du XVIIème avec notes et notices" par Victor Fournel, Paris : A. Quantin, Imprimeur Editeur, 1884. pp. 147-201.</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>CRISPIN BEL ESPRIT</head>
-<div2 stage="costume" type="scene" n="1"><head>SCÈNE PREMIÈRE. Valère déguisé, Crispin.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage type="costume"> Valère déguisé, Crispin.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="1">Oui, Monsieur, j'ai conduit à bout mon entreprise.</l>
 	<l id="2">Je vous amené ici chez la mère d'Orphise,</l>
@@ -195,7 +196,8 @@
 	<l id="79" syll="4" part="f">Paix, le voici.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Pénétrant, Crispin, Valere.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Pénétrant, Crispin, Valere.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="80">Ah, Monsieur, quel bonheur de vous revoir ici !</l>
 	<l id="81">J'en ressens une joie en mon coeur non petite.</l>
@@ -211,10 +213,12 @@
 	<l id="87">Et comme je prétends qu'il soit connu de tous,</l>
 	<l id="88">Il est fort à propos qu'il soit aimé de vous.</l>
 </sp>
-<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Pénétrant.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="toward">, à Pénétrant.
+	</stage>
 	<l id="89" syll="4" part="i">C'est un honneur...</l>
 </sp>
-<sp stage="toward" who="PÉNÉTRANT"><speaker>PÉNÉTRANT, à Valère.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage type="toward">, à Valère.
+	</stage>
 	<l id="89" syll="2" part="m">Monsieur...</l>
 </sp>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
@@ -257,7 +261,8 @@
 	<l id="110">Orphise est avec elle. Elle semble chagrine.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Victorine, Orphise, Lise, Pénétrant, Valère, Crispin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Victorine, Orphise, Lise, Pénétrant, Valère, Crispin.
+</stage>
 <sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT.</speaker>
 	<l id="111">Vous voyez ; Apollon m'interdirait sa Cour,</l>
 	<l id="112">Si sans venir vous voir je passais plus d'un jour.</l>
@@ -304,7 +309,8 @@
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="131" syll="9" part="f">Qu'il a l'air noble, modeste et doux !</l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, bas à son maître.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, bas à son maître.
+	</stage>
 	<l id="132">Jouez bien votre rôle, et la Dame est pour nous.</l>
 </sp>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
@@ -321,7 +327,8 @@
 	<l id="143">Voir si leurs sentiments sont conformes aux miens,</l>
 	<l id="144">Et tirer quelque fruit de tous leurs entretiens.</l>
 </sp>
-<sp stage="toward" who="CRISPIN"><speaker>CRISPIN, à Victorine.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="toward">, à Victorine.
+	</stage>
 	<l id="145">Hé bien, que dites-vous ? Monsieur sait-il pas vivre ?</l>
 <stage type="toward">À Pénétrant.</stage>
 	<l id="146">Il semble qu'il ait pris tout cela dans un livre.</l>
@@ -342,10 +349,12 @@
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="152" syll="6" part="f">Oui, Monsieur, la voilà.</l>
 </sp>
-<sp stage="low" who="CRISPIN"><speaker>CRISPIN, bas.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="153" syll="3" part="i">Ô la buse !</l>
 </sp>
-<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Orphise.</speaker>
+<sp who="VALÈRE"><speaker>VALÈRE</speaker><stage type="toward">, à Orphise.
+	</stage>
 	<l id="153" syll="9" part="f">Souffrez qu'envers vous je m'acquitte</l>
 	<l id="154">D'une civilité par mon devoir prescrite,</l>
 	<l id="155">Madame, et que mon coeur ose vous répéter</l>
@@ -437,25 +446,31 @@
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="209">Allons nous préparer à la métamorphose.</l>
 </sp>
-<sp stage="toward" who="VICTORINE"><speaker>VICTORINE, à Crispin.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="toward">, à Crispin.
+	</stage>
 	<l id="210">Je veux auparavant vous dire quelque chose.</l>
 	<l id="211">Avez-vous vu les vers que je vous ai fiez ?</l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, bas à Pénétrant.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, bas à Pénétrant.
+	</stage>
 	<l id="212">Les vers que vous savez font-ils rectifiez ?</l>
 </sp>
-<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT, bas à Crispin.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage>, bas à Crispin.
+	</stage>
 	<l id="213" syll="3" part="i">Oui, Monsieur.</l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, bas à Victorine.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, bas à Victorine.
+	</stage>
 	<l id="213" syll="3" part="m">Tout est fait. </l>
 <stage type="low/toward">Bas à Pénétrant.</stage>
 	<l id="213" syll="6" part="f">Donnez-les moi, de grâce.</l>
 </sp>
-<sp stage="low/toward" who="PÉNÉTRANT"><speaker>PÉNÉTRANT, bas à Crispin.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage type="low/toward">, bas à Crispin.
+	</stage>
 	<l id="214">Je vais vous les donner : suivez-moi dans la place,</l>
 </sp>
-<sp stage="low/toward" who="CRISPIN"><speaker>CRISPIN, bas à Victorine.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="low/toward">, bas à Victorine.
+	</stage>
 	<l id="215">Je vais dans peu de temps revenir sur mes pas,</l>
 	<l id="216">J'apporterai vos vers et n'y manquerai pas.</l>
 </sp>
@@ -469,7 +484,8 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCENE IV. Orphise, Lise.</head>
+<div2 type="scene" n="4"><head>SCENE IV.</head><stage> Orphise, Lise.
+</stage>
 <sp who="LISE"><speaker>LISE.</speaker>
 	<l id="219" syll="6" part="f">Pleurerez-vous toujours ?</l>
 </sp>
@@ -591,7 +607,8 @@
 	<l id="272">Madame, à ses dépens je vais me divertir.</l>
 </sp>
 </div2>
-<div2 stage="threat" type="scene" n="5"><head>SCÈNE V. Lise, Crispin en épée.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage type="threat"> Lise, Crispin en épée.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="273">Ah, Lise, te voilà. Foi de savant, je t'aime,</l>
 	<l id="274">Et je mets à tes pieds ma science et moi-même.</l>
@@ -683,7 +700,8 @@
 	<l id="307" syll="2" part="f">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n=""><head>SCÈNE VI. Victorine, Crispin.</head>
+<div2 type="scene" n=""><head>SCÈNE VI.</head><stage> Victorine, Crispin.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="308">Madame, qu'à propos vous venez en ce lieu !</l>
 	<l id="309">Pour vous porter vos vers, où tant d'art on voit luire,</l>
@@ -728,7 +746,8 @@
 	<l id="332">Je vous ferai passer pour... Mais il vient à nous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Victorin, Victorine, Crispin.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Victorin, Victorine, Crispin.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="333" syll="2" part="i">Tant pis.</l>
 </sp>
@@ -909,7 +928,8 @@
 	<l id="409">Est peut-être arrivé. Je reviens dans une heure.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Victorine, Crispin, Orphise, Lise.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Victorine, Crispin, Orphise, Lise.
+</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="410" syll="6" part="i">Hélas, que j'ai souffert !</l>
 </sp>
@@ -928,7 +948,8 @@
 	<l id="415" syll="6" part="i">Voici Monsieur_Naissant.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Valère, Victorine, Orphise, Crispin, Lise.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Valère, Victorine, Orphise, Crispin, Lise.
+</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="415" syll="6" part="f">Vous nous enchantez tous,</l>
 	<l id="416">Et je crains qu'Apollon, de Mars ne soit jaloux.</l>
@@ -967,7 +988,8 @@
 	<l id="428">Sous l'habit d'un guerrier nous déguise un savant.</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Victorine, Orphise, Valère, Pénétrant, Crispin, Lise.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Victorine, Orphise, Valère, Pénétrant, Crispin, Lise.
+</stage>
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="429">Quoi, faut-il, Victorin, par votre humeur fantasque,</l>
 	<l id="430">Que chez vous Apollon ne puisse entrer qu'en masque ?</l>
@@ -1107,11 +1129,13 @@
 <sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT.</speaker>
 	<l id="483" syll="6" part="i">C'est trop perdre de temps.</l>
 </sp>
-<sp stage="toward" who="CRISPIN"><speaker>CRISPIN, à Valère.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="toward">, à Valère.
+	</stage>
 	<l id="483" syll="6" part="f">Ah ! Monsieur, elle lit.</l>
 	<l id="484">Me voilà dégradé du nom de bel-esprit.</l>
 </sp>
-<sp stage="read" who="VICTORINE"><speaker>VICTORINE, lit.</speaker>
+<sp who="VICTORINE"><speaker>VICTORINE</speaker><stage type="read">, lit.
+</stage>
 <p id="1">
 	<s id="1">Stances libres et satiriques, contre une femme qui fait tous les neuf mois des enfants, et qui n'a jamais fait de vers.</s>
 </p>
@@ -1133,13 +1157,15 @@
 </lg>
 </poem>
 </sp>
-<sp stage="explicit" who="PÉNÉTRANT"><speaker>PÉNÉTRANT, après qu'elle a lu.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage type="explicit">, après qu'elle a lu.
+	</stage>
 	<l id="498" syll="3" part="i">Qu'entends-je ?</l>
 </sp>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="498" syll="3" part="m">Quoi, Monsieur ?</l>
 </sp>
-<sp who="CRISPIN"><speaker>CRISPIN, bas.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage>, bas.
+	</stage>
 	<l id="498" syll="6" part="f">Je souffre comme un Diable.</l>
 </sp>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
@@ -1223,7 +1249,8 @@
 	<l id="529" syll="6" part="f">Je quitte aussi ce lieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="11"><head>SCÈNE XI. Victorine, Orphise, Valère, Lise.</head>
+<div2 type="scene" n="11"><head>SCÈNE XI.</head><stage> Victorine, Orphise, Valère, Lise.
+</stage>
 <sp who="VICTORINE"><speaker>VICTORINE.</speaker>
 	<l id="530">Ce démêlé, Monsieur, nous fera de la peine :</l>
 	<l id="531" syll="6" part="i">Ils pourraient se tuer.</l>
@@ -1236,7 +1263,8 @@
 </sp>
 </div2>
 <div2 type="scene" n=""><head>SCÈNE XII.</head>
-<sp stage="alone" who="CRISPIN"><speaker>CRISPIN, seul.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="534">J'ai dit que je sortais ; mais ce n'est qu'une feinte.</l>
 	<l id="535">Quelque brave qu'on soit, on n'est guère sans crainte.</l>
 	<l id="536">Pénétrant me suivait sans_doute, car je vois</l>
@@ -1244,34 +1272,43 @@
 	<l id="538">Pourtant c'est un auteur; ainsi je me rassure.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE XIII. Pénétrant, Crispin.</head>
-<sp stage="watch" who="PÉNÉTRANT"><speaker>PÉNÉTRANT, sans voir Crispin.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE XIII.</head><stage> Pénétrant, Crispin.
+</stage>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage type="watch">, sans voir Crispin.
+	</stage>
 	<l id="539">Je ne me vis jamais en pareille aventure.</l>
 	<l id="540">J'ai fait fort sagement de me cacher ici.</l>
 	<l id="541">Craignant qu'il ne sortit, j'ai jugé... Qu'est-ceci ?</l>
 <stage type="wathc">Voyant Crispin.</stage>
 	<l id="542" syll="6" part="i">Que vois-je ? Clairvoyant.</l>
 </sp>
-<sp stage="watch" who="CRISPIN"><speaker>CRISPIN, voyant Pénétrant.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="watch">, voyant Pénétrant.
+	</stage>
 	<l id="542" syll="6" part="f">Mon ennemi ? Je tremble.</l>
 	<l id="543">Ah ! je n'espérais pas nous retrouver ensemble.</l>
 </sp>
-<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT, à part.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage>, à part.
+	</stage>
 	<l id="544">Il me regarde, il voit que je tremble de peur.</l>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="545">Hélas ! Pourquoi faut-il que je manque de coeur?</l>
 </sp>
-<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT, à part.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage>, à part.
+	</stage>
 	<l id="546" syll="6" part="i">Je suis perdu s'il vient.</l>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="546" syll="6" part="f">Je suis mort, s'il avance.</l>
 </sp>
-<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT, à part.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage>, à part.
+	</stage>
 	<l id="547">Si je l'adoucissais par quelque complaisance...</l>
 </sp>
-<sp stage="aparte" who="CRISPIN"><speaker>CRISPIN, à part.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="548">Si, demandant pardon, j'apaisais son courroux...</l>
 </sp>
 <sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT.</speaker>
@@ -1280,7 +1317,8 @@
 <sp who="CRISPIN"><speaker>CRISPIN.</speaker>
 	<l id="550" syll="9" part="i">Lui rendrai-je l'épée ?  Allons.</l>
 </sp>
-<sp stage="toward" who="PÉNÉTRANT"><speaker>PÉNÉTRANT, à Crispin.</speaker>
+<sp who="PÉNÉTRANT"><speaker>PÉNÉTRANT</speaker><stage type="toward">, à Crispin.
+	</stage>
 	<l id="550" syll="3" part="f">Peut-on vous dire</l>
 	<l id="551" syll="2" part="i">Bonjour ?</l>
 </sp>
@@ -1348,12 +1386,14 @@
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV.</head>
-<sp stage="alone" who="CRISPIN"><speaker>CRISPIN, seul.</speaker>
+<sp who="CRISPIN"><speaker>CRISPIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="566">Ainsi jusqu'à moi la peur avait saisi son âme.</l>
 	<l id="567" syll="6" part="i">Si j'avais su cela !...</l>
 </sp>
 </div2>
-<div2 type="scene" n="15"><head>SCÈNE XV. Victorine, Valère, Orphise, Lise.</head>
+<div2 type="scene" n="15"><head>SCÈNE XV.</head><stage> Victorine, Valère, Orphise, Lise.
+</stage>
 <sp who="VALÈRE"><speaker>VALÈRE.</speaker>
 	<l id="567" syll="6" part="f">Je suis perdu, Madame.</l>
 </sp>
@@ -1375,7 +1415,8 @@
 	<l id="575">Je vous plains l'un et l'autre, et ne puis autre chose.</l>
 </sp>
 </div2>
-<div2 type="scene" n="16"><head>SCÈNE DERNIÈRE. Victorin, Millepont, Orphise, Victorine, Valère, Crispin, Lise.</head>
+<div2 type="scene" n="16"><head>SCÈNE DERNIÈRE.</head><stage> Victorin, Millepont, Orphise, Victorine, Valère, Crispin, Lise.
+</stage>
 <sp who="VICTORIN"><speaker>VICTORIN.</speaker>
 	<l id="576">En vérité, Monsieur, vous venez à propos.</l>
 	<l id="577">On ne me laissait pas un moment en repos :</l>

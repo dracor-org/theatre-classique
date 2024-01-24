@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 	<teiHeader>
 		<fileDesc>
@@ -31,14 +31,14 @@
 		<titlePart type="sub">Parade en vaudevilles mêlée de prose et de vers</titlePart>
 	</docTitle>
 	<docDate value="1755">[M. DCC. LV.]</docDate>
-		<docAuthor id="GRANDVAL, Charles-François Racot de" bio='grandval'></docAuthor>
+		<docAuthor id="GRANDVAL, Charles-François Racot de" bio="grandval"/>
 	<docImprint>
-	<privilege id=""></privilege>
+	<privilege id=""/>
 	<imprimeur id="GRAND CAIRE">AU GRAND CAIRE.</imprimeur>
-	<acheveImprime id=""></acheveImprime>
+	<acheveImprime id=""/>
 		</docImprint>
 		<performance>
-			<premiere date="10-1755" location='Charlotte de Montmartre'></premiere>
+			<premiere date="10-1755" location="Charlotte de Montmartre"/>
 		</performance>
 		<div type="dedicace"><head>ÉPITRE DEDICATOIRE.</head>
 			<adresse>L'AUTEUR À SES AMIS.</adresse>
@@ -80,18 +80,19 @@
 			<p type="v">En produisant son Ouvrage au grand jour.</p>
 		</div>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="CASSANDRE" sex="1" type="H" statut='bourgeois' age='V' stat_amour='néant'>CASSANDRE</role>, Vieillard.</castItem>
-		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>LE DOCTEUR</role>, père ou cru père d'Isabelle.</castItem>
-		<castItem><role id="ISABELLE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>ISABELLE</role>.</castItem>
-		<castItem><role id="LÉANDRE" sex="1" type="H" statut='bourgeois' age='J' stat_amour='néant'>LÉANDRE</role>, Neveu de Cassandre et accordé en mariage à Isabelle.</castItem>
-		<castItem><role id="COLOMBINE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>COLOMBINE</role>, Suivante d'Isabelle.</castItem>
-		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>UN DOMESTIQUE</role>.</castItem>
+		<castItem><role id="CASSANDRE" sex="1" type="H" statut="bourgeois" age="V" stat_amour="néant">CASSANDRE</role>, Vieillard.</castItem>
+		<castItem><role id="LE DOCTEUR" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE DOCTEUR</role>, père ou cru père d'Isabelle.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">ISABELLE</role>.</castItem>
+		<castItem><role id="LÉANDRE" sex="1" type="H" statut="bourgeois" age="J" stat_amour="néant">LÉANDRE</role>, Neveu de Cassandre et accordé en mariage à Isabelle.</castItem>
+		<castItem><role id="COLOMBINE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">COLOMBINE</role>, Suivante d'Isabelle.</castItem>
+		<castItem><role id="UN DOMESTIQUE" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">UN DOMESTIQUE</role>.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène est à Paris dans le Jardin ou dans la Salle de Compagnie de la Maison du Docteur.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>L'EUNUQUE</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cassandre, Isabelle, Colombine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cassandre, Isabelle, Colombine.
+</stage>
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 <stage type="title">Air. Des Fraises.</stage>
 	<l id="1">Trois rois j'ai vu le mois d'août,</l>
@@ -339,13 +340,15 @@
 	<l id="154">Lére la, Lére lan la.</l>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, à Cassandre.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, à Cassandre.
+</stage>
 <stage type="title">Fin de l'Air... Il faut que je file, fils.</stage>
 	<l id="155">Allez donc vous faire faire</l>
 	<l id="156">Vite l'opération.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Isabelle, Colombine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Isabelle, Colombine.
+</stage>
 <sp who="COLOMBINE"><speaker>COLOMBINE.</speaker>
 <p id="1">
 	<s id="1">Vous voyez ; j'ai fait ce que j'ai pu pour détourner ce vieux pénard de vous épouser ; mais s'il gagne l'esprit de votre père, comment ferons-nous ?</s>
@@ -534,7 +537,8 @@
 	<l id="258">J'aperçois à l'instant le retour de mon père.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Le Docteur, Cassandre, Isabelle, Colombine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Le Docteur, Cassandre, Isabelle, Colombine.
+</stage>
 <stage type="costume">Léandre, déguisé en esclave Turc ayant une fausse barbe.</stage>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
 <note type="L">Barrière de Vaugirard : Une des portes qui permettait d'entrer dans Paris. Vaugirard est intégré au XVème arrondissement de Paris.</note>
@@ -577,8 +581,10 @@
 <stage type="exit">Léandre sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>[SCÈNE IV]. Le Docteur, Cassandre, Isabelle, Colombine.</head>
-<sp stage="toward" who="LE DOCTEUR"><speaker>LE DOCTEUR, à Isabelle.</speaker>
+<div2 type="scene" n="4"><head>[SCÈNE IV].</head><stage> Le Docteur, Cassandre, Isabelle, Colombine.
+</stage>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage type="toward">, à Isabelle.
+</stage>
 <p id="1">
 	<s id="1">Viens donc que je t'embrasse.</s>
 </p>
@@ -824,7 +830,8 @@
 	<s id="4">Mais, mon ami, allons donc voir les petits enfants qui font tout de même que si vous étiez grand-père.</s>
 </p>
 </sp>
-<sp who="LE DOCTEUR"><speaker>LE DOCTEUR, en sortant avec Cassandre.</speaker>
+<sp who="LE DOCTEUR"><speaker>LE DOCTEUR</speaker><stage>, en sortant avec Cassandre.
+</stage>
 <p id="23">
 	<s id="1">Colombine ! </s>
 	<s id="2">Reste avec ma fille tandis qu'elle causera avec cet eunuque qui vient ici. </s>
@@ -843,8 +850,10 @@
 <stage type="exit">Elle sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Léandre, Isabelle.</head>
-<sp who="LÉANDRE"><speaker>LÉANDRE, déguisé comme il a déjà paru.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Léandre, Isabelle.
+</stage>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage>, déguisé comme il a déjà paru.
+</stage>
 <stage type="title">Air. Nous sommes précepteurs d'Amour.</stage>
 	<l id="370">Madame, parlez sans façon,</l>
 	<l id="371">Pourrai-je ne pas vous déplaire ?</l>
@@ -1143,7 +1152,8 @@
 	<l id="494">Ils ressemblent aux pères,</l>
 	<l id="495">Ma foi, ce font eux.</l>
 </sp>
-<sp stage="anger" who="LÉANDRE"><speaker>LÉANDRE, feignant de la colère.</speaker>
+<sp who="LÉANDRE"><speaker>LÉANDRE</speaker><stage type="anger">, feignant de la colère.
+</stage>
 <p id="23">
 	<s id="1">Oh ! </s>
 	<s id="2">Je n'y puis plus tenir ! </s>
@@ -1184,13 +1194,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE. Cassandre, Le Docteur, Léandre, Isabelle, Colombine.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI ET DERNIÈRE.</head><stage> Cassandre, Le Docteur, Léandre, Isabelle, Colombine.
+</stage>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
 <stage type="title">Air. Allons la voir à Saint Cloud.</stage>
 	<l id="510">Vous venez fort à propos ;</l>
 	<l id="511">Reconnaissez-vous Léandre ?</l>
 </sp>
-<sp stage="together" who="COLOMBINE, LE DOCTEUR"><speaker>COLOMBINE ET LE DOCTEUR, ensemble.</speaker>
+<sp who="COLOMBINE, LE DOCTEUR"><speaker>COLOMBINE ET LE DOCTEUR</speaker><stage type="together">, ensemble.
+	</stage>
 	<l id="512">C'est lui-même en chair et en os.</l>
 </sp>
 <sp who="LÉANDRE"><speaker>LÉANDRE.</speaker>
@@ -1203,7 +1215,8 @@
 	<l id="515">Non, non, mon Oncle, c'est un tour,</l>
 	<l id="516">Une supercherie.</l>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, revenant de son évanouissement.</speaker>
+<sp who="ISABELLE"><speaker>ISABELLE</speaker><stage>, revenant de son évanouissement.
+	</stage>
 	<l id="517">Ah ! vous me rendez la vie.</l>
 <p id="26">
 	<s id="">Je conviens, mon cher Léandre, de vous avoir fait quelques niches pendant votre absence ; mais je suis excusable, puisque nous n'avions pas encore passé le le bail de l'hyménée.</s>
@@ -1297,7 +1310,8 @@
 	<l id="573">Signez : j'ai sur moi le contrat,</l>
 	<l id="574">Je ne sais pas écrire.</l>
 </sp>
-<sp stage="repeat" who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS, répètent.</speaker>
+<sp who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS</speaker><stage type="repeat">, répètent.
+	</stage>
 	<l id="575">Je ne sais pas écrire.</l>
 </sp>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
@@ -1305,7 +1319,8 @@
 	<l id="577">Mais voyez s'il n'y manque rien ;</l>
 	<l id="578">Jamais je n'ai su lire.</l>
 </sp>
-<sp stage="repeat" who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS, répètent.</speaker>
+<sp who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS</speaker><stage type="repeat">, répètent.
+	</stage>
 	<l id="579">Jamais je n'ai su lire.</l>
 </sp>
 <sp who="LE DOCTEUR"><speaker>LE DOCTEUR.</speaker>
@@ -1316,7 +1331,8 @@
 	<l id="584">Nous songerons, après leur passe-temps céleste.</l>
 	<l id="585">À nous bien arranger pour finir tout le reste.</l>
 </sp>
-<sp who="COLOMBINE"><speaker>COLOMBINE, à Isabelle et Léandre.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage>, à Isabelle et Léandre.
+</stage>
 <stage type="title">Air. Nous autres bons villageois.</stage>
 	<l id="586">Sans que l'on vous dise amen ;</l>
 	<l id="587">Vous fîtes trois fois un Léandre,</l>
@@ -1378,7 +1394,8 @@
 	<l id="623">C'est toujours un peu se gratter</l>
 	<l id="624">Où ça démange.</l>
 </sp>
-<sp stage="toward" who="COLOMBINE"><speaker>COLOMBINE, au Public.</speaker>
+<sp who="COLOMBINE"><speaker>COLOMBINE</speaker><stage type="toward">, au Public.
+</stage>
 <stage type="title">Même Air.</stage>
 	<l id="625">En désirant vous contenter</l>
 	<l id="626">Aurions-nous pris le change,</l>

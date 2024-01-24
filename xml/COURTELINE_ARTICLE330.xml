@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -30,24 +30,24 @@
 			<titlePart type="sub">NOUVELLE EDITION.</titlePart>
 			<titlePart type="sub">Théâtre Antoine, 12 décembre 1900.</titlePart>
 		</docTitle> 
-		<docDate value='1904'>1904. Droits de traduction, de reproduction et d'analyse réservés pour tous pays, y compris la Suède et la Norvège. </docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1904">1904. Droits de traduction, de reproduction et d'analyse réservés pour tous pays, y compris la Suède et la Norvège. </docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, P.-V. STOCK, ÉDITEUR, (Ancienne librairie TRESSE et STOCK) 27 rue de RICHLIEU. Prsè le théâtre frnaçais</editor>
-			<printer id='BRULLIARD'>ÉMILE COLIN - IMPRIMERIE DE LAGNY</printer>
+			<editor id="ALBIN MICHEL">PARIS, P.-V. STOCK, ÉDITEUR, (Ancienne librairie TRESSE et STOCK) 27 rue de RICHLIEU. Prsè le théâtre frnaçais</editor>
+			<printer id="BRULLIARD">ÉMILE COLIN - IMPRIMERIE DE LAGNY</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES.</head>
-			<castItem><role id="LA BRIGE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LA BRIGE</role>, Monsieur Dumény.</castItem>
-			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE PRÉSIDENT</role>, Monsieur Antoine.</castItem>
-			<castItem><role id="LE SUBSTITUT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE SUBSTITUT</role>, Monsieur Signoret.</castItem>
-			<castItem><role id="L'HUISSIER" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>L'HUISSIER</role>, Monsieur Tunc.</castItem>
+			<castItem><role id="LA BRIGE" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LA BRIGE</role>, Monsieur Dumény.</castItem>
+			<castItem><role id="LE PRÉSIDENT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PRÉSIDENT</role>, Monsieur Antoine.</castItem>
+			<castItem><role id="LE SUBSTITUT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE SUBSTITUT</role>, Monsieur Signoret.</castItem>
+			<castItem><role id="L'HUISSIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">L'HUISSIER</role>, Monsieur Tunc.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222">Une salle d'audience au Palais de Justice.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>L'ARTICLE 330</head>
 <stage type="decor/entrance">- Au lever du rideau, mouvement de scène, brouhaha de conversations et, presque aussitôt, coup de sonnette. Le calme se fait à l'instant même. Un garçon de bureau se précipite et va ouvrir à deux battants la porte de la chambre de conseil.</stage>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <sp who="L'HUISSIER"><speaker>L'HUISSIER.</speaker>
 <p id="1">
 	<s id="1">Le tribunal ! </s>
@@ -124,7 +124,8 @@
 	<s id="1">Vous êtes anarchiste ?</s>
 </p>
 </sp>
-<sp stage="wave" who="LA BRIGE"><speaker>LA BRIGE, haussant les épaules.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="15">
 	<s id="1">Ah ! la ! la !... </s>
 	<s id="2">La_République serait bien ce qu'il y a de plus bête au monde, si l'anarchie n'était plus bête qu'elle encore. </s>
@@ -151,7 +152,8 @@
 	<s id="1">Je vous crois sans peine ; mais je suis un gaillard habile.</s>
 </p>
 </sp>
-<sp stage="ironic" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, ironique.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="ironic">, ironique.
+</stage>
 <p id="20">
 	<s id="">Soit dit sans vous flatter.</s>
 </p>
@@ -300,12 +302,14 @@
 	<s id="1">Le tribunal vous écoute. Lisez, Monsieur_le_Substitut.</s>
 </p>
 </sp>
-<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT, lisant.</speaker>
+<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT</speaker><stage>, lisant.
+</stage>
 <p id="49">
 	<s id="">« L'an_1900, le 21_septembre, j'ai, Jean, Alfred, Hyacinthe... »</s>
 </p>
 </sp>
-<sp stage="low" who="LA BRIGE"><speaker>LA BRIGE, à mi-voix.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="low">, à mi-voix.
+</stage>
 <p id="50">
 	<s id="1">Tous les huissiers s'appellent Hyacinthe ; on n'a jamais su pourquoi.</s>
 </p>
@@ -341,7 +345,8 @@
 	<s id="1">Je cherchais une pièce de deux sous.</s>
 </p>
 </sp>
-<sp stage="read" who="LE SUBSTITUT"><speaker>LE SUBSTITUT, lisant.</speaker>
+<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT</speaker><stage type="read">, lisant.
+</stage>
 <p id="57">
 	<s id="1">« Trente-sept minutes après, le Trottoir_Roulant ayant achevé son parcours, nous  nous trouvâmes ramené à notre point de départ, où étant, nous pûmes constater que les choses étaient toujours dans le même état. </s>
 	<s id="2">Une deuxième fois, item. </s>
@@ -349,7 +354,8 @@
 	<s id="4">Une quatrième fois, item. »</s>
 </p>
 </sp>
-<sp stage="toward" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, à La Brige.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="toward">, à La Brige.
+</stage>
 <p id="58">
 	<s id="">Vous cherchiez toujours vos deux sous ?</s>
 </p>
@@ -359,13 +365,15 @@
 	<s id="1">Ils avaient glissé sous un meuble, je tâchais de les ramener à moi avec le bout de mon parapluie.</s>
 </p>
 </sp>
-<sp stage="wave" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, haussant les épaules.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="wave">, haussant les épaules.
+</stage>
 <p id="60">
 	<s id="1">En voilà des explications ! </s>
 	<s id="2">Achevez, Monsieur_le_Substitut.</s>
 </p>
 </sp>
-<sp stage="read" who="LE SUBSTITUT"><speaker>LE SUBSTITUT, lisant.</speaker>
+<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT</speaker><stage type="read">, lisant.
+</stage>
 <p id="61">
 	<s id="1">« Nous avons également remarqué que  les faits relatés ci-dessus, loin de passer inaperçus aux yeux des personnes placées  sur la plate-forme_électrique, paraissaient exciter chez la plupart d'entre elles un mécontentement des plus vifs, d'où des  protestations nombreuses et de bruyantes exclamations, au nombre desquelles il convient de mentionner les suivantes : « C'est  dégoûtant ! - Goujat ! - Cochon ! - Ô Ciel ! - Qu'est-ce que je vois ! - C'est  une infamie. - Amélie, je te défends de  regarder par là... » </s>
 	<s id="2">De tout quoi nous  avons dressé le présent constat pour la requérante en faire tel usage que de droit, et lui en avons laissé la présente copie  dont le coût est de 11_francs_25, plus une feuille  de papier spécial du prix de 60_centimes. »</s>
@@ -376,7 +384,8 @@
 	<s id="1">La_Brige !</s>
 </p>
 </sp>
-<sp stage="stand" who="LA BRIGE"><speaker>LA BRIGE, qui se lève.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="stand">, qui se lève.
+</stage>
 <p id="63">
 	<s id="">Monsieur le Président ?</s>
 </p>
@@ -407,7 +416,8 @@
 	<s id="1">Le tribunal vous a épargné des dépositions accablantes.</s>
 </p>
 </sp>
-<sp stage="smile" who="LA BRIGE"><speaker>LA BRIGE, souriant.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="69">
 	<s id="1">Je lui fais grâce d'une plaidoirie d'avocat. </s>
 	<s id="2">Nous aurons donc rivalisé de générosité et de grandeur d'âme. </s>
@@ -541,7 +551,8 @@
 	<s id="2">Ce sont là deux demi-soeurs, qui, sorties de deux pères, se crachent à la figure en se traitant de bâtardes et vivent à couteaux tirés, tandis que les honnêtes gens, menacés de gendarmes, se tournent les pouces et le sang en attendant qu'elles se mettent d'accord.</s>
 </p>
 </sp>
-<sp stage="sad" who="LE SUBSTITUT"><speaker>LE SUBSTITUT, exaspéré.</speaker>
+<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT</speaker><stage type="sad">, exaspéré.
+</stage>
 <p id="88">
 	<s id="1">Un mot de plus et je requiers contre vous la juste application de la peine.</s>
 </p>
@@ -628,7 +639,8 @@
 	<s id="1">Ah ça, mais vous connaissez le_Code...</s>
 </p>
 </sp>
-<sp stage="smile" who="LA BRIGE"><speaker>LA BRIGE, souriant.</speaker>
+<sp who="LA BRIGE"><speaker>LA BRIGE</speaker><stage type="smile">, souriant.
+</stage>
 <p id="103">
 	<s id="1">...Comme un simple malfaiteur. Il est même inouï de penser que la connaissance du Code et la crainte de ses conséquences constituent le seul terrain commun aux gens de bien et à la crapule.</s>
 </p>
@@ -708,7 +720,8 @@
 	<s id="1">Et en Écossais ?</s>
 </p>
 </sp>
-<sp stage="loud" who="LE SUBSTITUT"><speaker>LE SUBSTITUT, avec éclat.</speaker>
+<sp who="LE SUBSTITUT"><speaker>LE SUBSTITUT</speaker><stage type="loud">, avec éclat.
+</stage>
 <p id="118">
 	<s id="">Non !</s>
 </p>
@@ -771,7 +784,8 @@
 	<s id="1">Silence !</s>
 </p>
 </sp>
-<sp stage="declamate" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, prononçant.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="declamate">, prononçant.
+</stage>
 <p id="130">
 	<s id="">« Attendu qu'il n'est rien au monde de plus complètement sacré, de plus parfaitement inviolable, que la maison du prochain ; que Cicéron promulgue cette vérité première et qu'il y a lieu de tenir compte du sentiment de ce jurisconsulte...</s>
 </p>
@@ -792,7 +806,8 @@
 	<s id="1">Mille pardons !</s>
 </p>
 </sp>
-<sp stage="declamate" who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT, prononçant.</speaker>
+<sp who="LE PRÉSIDENT"><speaker>LE PRÉSIDENT</speaker><stage type="declamate">, prononçant.
+</stage>
 <p id="134">
 	<s id="1">« Mais d'autre part :</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -31,29 +31,30 @@
 		<titlePart type="sub">COMÉDIE</titlePart>
 		
 	</docTitle> 
-	<docDate value="1786"></docDate>
-	<docAuthor id="[Anonyme]"></docAuthor>
+	<docDate value="1786"/>
+	<docAuthor id="[Anonyme]"/>
 	<docImprint>
 		<source id="">Manuscrit BnF Français 9262, folio 27-</source>
 	</docImprint>
 	<performance>
-		<premiere date='(inconnue)' location='(inconnue)' />
+		<premiere date="(inconnue)" location="(inconnue)"/>
 	</performance>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="DOLNANGE" sex="1" type="H" statut='officier' age='J' stat_amour=''>DOLNANGE</role>, Officier français, Premier rôle, jeune.</castItem>
-		<castItem><role id="BELFORT" sex="1" type="H" statut='officier' age='A' stat_amour=''>BELFORT</role>, officier français. second rôle.</castItem>
-		<castItem><role id="GERMAIN" sex="1" type="H" statut="valet" age='A' stat_amour=''>GERMAIN</role>, valet de Dolnange. Grande livrée.</castItem>
-		<castItem><role id="DUBOIS" sex="1" type="H" statut="valet" age='A' stat_amour=''>DUBOIS</role>, valet de Belfort. Second valet.</castItem>
-		<castItem><role id="ZÉLAMIRE" sex="2" type="H" statut='sauvage' age='A' stat_amour=''>ZÉLAMIRE</role>, amante de Dolnange. Jeune première amoureuse.</castItem>
-		<castItem><role id="NADINE" sex="2" type="H" statut='sauvage' age='A' stat_amour=''>NADINE</role>, soeur de Zélamire. Ingénuité.</castItem>		
-		<castItem><role id="OUKÉA" sex="1" type="H" statut='sauvage' age='A' stat_amour=''>OUKÉA</role>, Sauvage. Premier rôle masqué.</castItem>		
-		<castItem><role id="TROUPE DE SAUVAGES" sex="9" type="H" statut='sauvage' age='A' stat_amour=''>TROUPE DE SAUVAGES</role>.</castItem>		
+		<castItem><role id="DOLNANGE" sex="1" type="H" statut="officier" age="J" stat_amour="">DOLNANGE</role>, Officier français, Premier rôle, jeune.</castItem>
+		<castItem><role id="BELFORT" sex="1" type="H" statut="officier" age="A" stat_amour="">BELFORT</role>, officier français. second rôle.</castItem>
+		<castItem><role id="GERMAIN" sex="1" type="H" statut="valet" age="A" stat_amour="">GERMAIN</role>, valet de Dolnange. Grande livrée.</castItem>
+		<castItem><role id="DUBOIS" sex="1" type="H" statut="valet" age="A" stat_amour="">DUBOIS</role>, valet de Belfort. Second valet.</castItem>
+		<castItem><role id="ZÉLAMIRE" sex="2" type="H" statut="sauvage" age="A" stat_amour="">ZÉLAMIRE</role>, amante de Dolnange. Jeune première amoureuse.</castItem>
+		<castItem><role id="NADINE" sex="2" type="H" statut="sauvage" age="A" stat_amour="">NADINE</role>, soeur de Zélamire. Ingénuité.</castItem>		
+		<castItem><role id="OUKÉA" sex="1" type="H" statut="sauvage" age="A" stat_amour="">OUKÉA</role>, Sauvage. Premier rôle masqué.</castItem>		
+		<castItem><role id="TROUPE DE SAUVAGES" sex="9" type="H" statut="sauvage" age="A" stat_amour="">TROUPE DE SAUVAGES</role>.</castItem>		
 	</castList>
-	<set location='Canada' country='Canada' periode='XVIIIème' gps="44.537240, -78.228485">La scène est en Canada.</set>
+	<set location="Canada" country="Canada" periode="XVIIIème" gps="44.537240, -78.228485">La scène est en Canada.</set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Dolnange, Germain.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Dolnange, Germain.
+</stage>
 <sp who="DOLNANGE"><speaker>DOLNANGE.</speaker>
 	<l id="1">Oui la tranquillité de cet endroit champêtre,</l>
 	<l id="2">Au séjour de Paris préférable peut-être,</l>
@@ -187,11 +188,13 @@
 	<l id="87" syll="3" part="f">C'est à tort...</l>
 	<l id="88">Je ne me trompe pas, c'est mon ami Belfort.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="89">Si les Hurons voulaient l'avaler à ma place !</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Dolnange, Germain, Belfort, Dubois.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Dolnange, Germain, Belfort, Dubois.
+</stage>
 <sp who="BELFORT"><speaker>BELFORT.</speaker>
 	<l id="90">C'est toi que je revois ! Et le Ciel, par sa grâce,</l>
 	<l id="91">Remplit en ce moment mes plus ardents souhaits.</l>
@@ -328,7 +331,8 @@
 	<l id="182">Emmenons le grand-père, et toute la famille,</l>
 	<l id="183" syll="6" part="i">Et fuyons loin d'ici</l>
 </sp>
-<sp stage="toward" who="BELFORT"><speaker>BELFORT, à Dolnange.</speaker>
+<sp who="BELFORT"><speaker>BELFORT</speaker><stage type="toward">, à Dolnange.
+	</stage>
 	<l id="183" syll="6" part="f">Viens, retournons au camp.</l>
 	<l id="184">Voyons ton oncle ; il est humain, compatissant.</l>
 	<l id="185">Il plaindra ton amour, l'approuvera peut-être,</l>
@@ -376,7 +380,8 @@
 	<l id="204">Que par mille vertus elle a bien mérité.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Germain, Dubois.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Germain, Dubois.
+</stage>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="205">À quoi me réduit-on !... Trop faible créature !</l>
 	<l id="206">Le sort a dans ces bois marqué ma sépulture.</l>
@@ -428,7 +433,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="GERMAIN"><speaker>GERMAIN, seul.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="233">Attends-moi donc... Ah, c'est la soeur de Zélamire.</l>
 	<l id="234">Dubois... Il est bien loin, sa frayeur me fait rire.</l>
 	<l id="235">Aussi poltron qu'un autre, il vantait sa valeur.</l>
@@ -444,8 +450,10 @@
 	<l id="244">Sanguinaire et cruel jusques dans leurs amours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Germain, Nadine.</head>
-<sp stage="show" who="NADINE"><speaker>NADINE, sans voir Germain.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Germain, Nadine.
+</stage>
+<sp who="NADINE"><speaker>NADINE</speaker><stage type="show">, sans voir Germain.
+	</stage>
 	<l id="245">Zélamire viendra quand... je ne vois personne...</l>
 	<l id="246">Dolnange, hélas, a cru que ma soeur l'abandonne.</l>
 	<l id="247">Il sera reparti... là... je m'en doutais bien...</l>
@@ -595,7 +603,8 @@
 	<l id="327">Qui voit un autre objet usurper le bonheur,</l>
 	<l id="328">Qu'elle dut obtenir du tyran de son coeur.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="329" syll="1" part="i">Bon.</l>
 </sp>
 <sp who="NADINE"><speaker>NADINE.</speaker>
@@ -619,12 +628,14 @@
 	<l id="341">En rompant nos liens, à former d'autres chaînes</l>
 	<l id="342">Qui ne soient pas pour nous une source de peines.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="343">Ciel, les Hurons ! Fuyons un supplice nouveau.</l>
 	<l id="344">Les gloutons de Germain ne feraient qu'un morceau.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Nadine, Oukéa.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Nadine, Oukéa.
+</stage>
 <sp who="NADINE"><speaker>NADINE.</speaker>
 	<l id="345">Où va-t-il donc ? Il court sans doute après son maître.</l>
 	<l id="346">Tant mieux... C'est Oukéa qu'ici je vois paraître.</l>
@@ -744,7 +755,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>[SCÈNE I]. Germain, Dubois.</head>
+<div2 type="scene" n="1"><head>[SCÈNE I].</head><stage> Germain, Dubois.
+</stage>
 <sp who="DUBOIS"><speaker>DUBOIS.</speaker>
 	<l id="427">Tu veux venir ici, mais y sommes-nous bien ?</l>
 </sp>
@@ -801,7 +813,8 @@
 <stage type="away/location">Ils se retirent dans le fond.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE II. Zélamire, Dubois et Germain, à l'écart.</head> 
+<div2 type="scene" n="3"><head>SCÈNE II.</head><stage> Zélamire, Dubois et Germain, à l'écart. 
+</stage> 
 <sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE.</speaker>
 	<l id="449">Dolnange, me voici ! Mon âme impatiente !...</l>
 	<l id="450">Ah, ne te cache plus aux yeux de ton amante.</l>
@@ -823,7 +836,8 @@
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="464" syll="3" part="i">Il m'a dit...</l>
 </sp>
-<sp stage="interrupt" who="ZÉLAMIRE"><speaker>ZÉLAMIRE, l'interrompant.</speaker>
+<sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="464" syll="9" part="f">Je frémis... achève promptement ! </l>
 </sp>
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
@@ -882,7 +896,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III.</head>
-<sp stage="alone" who="ZÉLAMIRE"><speaker>ZÉLAMIRE, seule.</speaker>
+<sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="499">Je ne suis pas tranquille et jusqu'à son retour,</l>
 	<l id="500">Mon coeur plus inquiet... Pourquoi donc ce détour ?</l>
 	<l id="501">Ce mystère m'étonne... Est-il nécessaire</l>
@@ -895,16 +910,19 @@
 	<l id="508">Mais c'est son retour seul qui peut les dissiper. </l>
 </sp>
 </div2>
-<div2 stage="location/run" type="scene" n="4"><head>SCÈNE IV. Zélamire, Oukéa, Germain, sur la montagne et courant à Zélamire.</head> 
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage type="location/run"> Zélamire, Oukéa, Germain, sur la montagne et courant à Zélamire. 
+</stage> 
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="509">Je me meurs ! On me tue ! Il faut que je périsse !</l>
 </sp>
-<sp stage="threat" who="OUKÉA"><speaker>OUKÉA, une massue à la main.</speaker>
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="threat">, une massue à la main.
+	</stage>
 	<l id="510">Rien ne peut te soustraire à ton juste supplice.</l>
 	<l id="511">Je vais même à ses yeux te déchirer le flanc</l>
 	<l id="512">Et laver mon affront dans ton infâme sang.</l>
 </sp>
-<sp stage="kneel/frighten" who="GERMAIN"><speaker>GERMAIN, à genoux et tremblant.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="kneel/frighten">, à genoux et tremblant.
+	</stage>
 	<l id="513">Respectable affamé, par la faim qui vous presse,</l>
 	<l id="514">Laissez-moi vivre encor : il faut que je m'engraisse. </l>
 	<l id="515">Quel plaisir aurez-vous de me tordre le cou ?</l>
@@ -944,7 +962,8 @@
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
 	<l id="532" syll="3" part="m">Non, attends.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="532" syll="4" part="f">C'est fait de moi.</l>
 </sp>
 <sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE.</speaker>
@@ -1001,7 +1020,8 @@
 <sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE.</speaker>
 	<l id="561" syll="3" part="m">Pourrait-il...</l>
 </sp>
-<sp stage="low" who="GERMAIN"><speaker>GERMAIN, bas.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="low">, bas.
+	</stage>
 	<l id="561" syll="3" part="f">Zélamire !</l>
 	<l id="562" syll="3" part="i">Croyez qu'il...</l>
 </sp>
@@ -1025,7 +1045,8 @@
 	<l id="568">Pour conserver ta vie, il n'est que ce moyen.</l>
 	<l id="569" syll="6" part="i">La vérité te sauve.</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="569" syll="6" part="f">Ou plutôt le mensonge</l>
 	<l id="570" syll="6" part="i">Ayons recours à lui... </l>
 <stage type="loud">Haut.</stage>
@@ -1059,7 +1080,8 @@
 <stage type="escape">Il s'enfuit.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Zélamire, Oukéa.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Zélamire, Oukéa.
+</stage>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>
 	<l id="579" syll="6" part="f">Eh quoi, ton coeur gémit ?</l>
 	<l id="580">Regrettes-tu l'ingrat qui te trompe et te fuit ?</l>
@@ -1217,7 +1239,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="ZÉLAMIRE"><speaker>ZÉLAMIRE, seule.</speaker>
+<sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="697">Arrête et viens plutôt égorger son amante.</l>
 	<l id="698">Il fuit... et de mon sang sa rage mécontente</l>
 	<l id="699">Veut répandre celui qui m'est plus précieux...</l>
@@ -1228,7 +1251,8 @@
 	<l id="704">Et mon amant en moi va trouver un vengeur. </l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Zélamire, Nadine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Zélamire, Nadine.
+</stage>
 <sp who="NADINE"><speaker>NADINE.</speaker>
 	<l id="705">Ah, ma soeur, ne perds pas la force qui te reste.</l>
 	<l id="706">Courons nous opposer à leur rage funeste.</l>
@@ -1252,7 +1276,8 @@
 	<l id="722">Cruels, sachez qu'il faut qu'elle soit expirante.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Zélamire, Nadine, Dolnange.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Zélamire, Nadine, Dolnange.
+</stage>
 <sp who="DOLNANGE"><speaker>DOLNANGE.</speaker>
 	<l id="723" syll="6" part="i">Tu vivras pour m'aimer.</l>
 </sp>
@@ -1287,12 +1312,15 @@
 	<l id="736">Dolnange, il faut nous dire un éternel adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE. Zélamire, Nadine, Dolnange, Germain, Dubois, Oukéa, Troupe de Sauvages.</head> 
-<sp stage="toward" who="OUKÉA"><speaker>OUKÉA, aux Sauvages.</speaker>
+<div2 type="scene" n="9"><head>SCÈNE DERNIÈRE.</head><stage> Zélamire, Nadine, Dolnange, Germain, Dubois, Oukéa, Troupe de Sauvages. 
+</stage> 
+<sp who="OUKÉA"><speaker>OUKÉA</speaker><stage type="toward">, aux Sauvages.
+	</stage>
 	<l id="737">Amis, secondez tous le transport qui m'anime,</l>
 	<l id="738">Et que nul parmi vous n'épargne la victime.</l>
 </sp>
-<sp stage="run/closer" who="ZÉLAMIRE"><speaker>ZÉLAMIRE, courant à eux.</speaker>
+<sp who="ZÉLAMIRE"><speaker>ZÉLAMIRE</speaker><stage type="run/closer">, courant à eux.
+	</stage>
 	<l id="739">Pour arriver au coeur que tu prétends percer,</l>
 	<l id="740">Cruel, c'est par le mien que tu dois commencer.</l>
 </sp>
@@ -1392,7 +1420,8 @@
 <sp who="GERMAIN"><speaker>GERMAIN.</speaker>
 	<l id="798">Oui, cette marchandise est assez rare en France.</l>
 </sp>
-<sp stage="toward" who="BELFORT"><speaker>BELFORT, à Nadine.</speaker>
+<sp who="BELFORT"><speaker>BELFORT</speaker><stage type="toward">, à Nadine.
+	</stage>
 	<l id="799">Votre coeur est-il libre et pourrais-je espérer</l>
 	<l id="800">Qu'à tout autre en ces lieux il m'ose préférer ?</l>
 </sp>
@@ -1402,10 +1431,12 @@
 	<l id="803">Mais je ne prétends pas que tu sois mon mari :</l>
 	<l id="804" syll="5" part="i">Ce sont des monstres !</l>
 </sp>
-<sp stage="aparte" who="GERMAIN"><speaker>GERMAIN, à part.</speaker>
+<sp who="GERMAIN"><speaker>GERMAIN</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="804" syll="1" part="m">Bon !</l>
 </sp>
-<sp stage="show" who="NADINE"><speaker>NADINE, montrant Dolnange.</speaker>
+<sp who="NADINE"><speaker>NADINE</speaker><stage type="show">, montrant Dolnange.
+	</stage>
 	<l id="804" syll="6" part="f">Il me l'a dit ainsi.</l>
 </sp>
 <sp who="BELFORT"><speaker>BELFORT.</speaker>
@@ -1418,7 +1449,8 @@
 	<l id="807">Je ne citais que ceux qui sont mal assortis,</l>
 	<l id="808">Jamais les vrais amants ne sont mauvais maris.</l>
 </sp>
-<sp stage="toward" who="BELFORT"><speaker>BELFORT, à Nadine.</speaker>
+<sp who="BELFORT"><speaker>BELFORT</speaker><stage type="toward">, à Nadine.
+	</stage>
 	<l id="809" syll="6" part="i">Je vous en convaincrai.</l>
 </sp>
 <sp who="OUKÉA"><speaker>OUKÉA.</speaker>

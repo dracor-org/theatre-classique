@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -18,7 +18,7 @@
 				<type>prose</type>
 				<periode>1821-1830</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,21 +28,21 @@
 			<titlePart type="main">LES DEUX ÉDUCATIONS</titlePart>
 			<titlePart type="sub">PROVERBE MORAL</titlePart>
 		</docTitle> 
-		<docDate value='1832'>1832.</docDate>
-		<docAuthor id='MADAME CAMPAN'>de Mme CAMPAN</docAuthor>
+		<docDate value="1832">1832.</docDate>
+		<docAuthor id="MADAME CAMPAN">de Mme CAMPAN</docAuthor>
 		<docImprint>
-				<printer id=''>Paris, LEBIGRE FRÈRES, LIBRAIRES.</printer>
+				<printer id="">Paris, LEBIGRE FRÈRES, LIBRAIRES.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
-			<castItem><role id="MADAME DE FURVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>MADAME DE FURVILLE</role>.</castItem>
-			<castItem><role id="MADAME LEBLANC" sex="2" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME LEBLANC</role>.</castItem>
-			<castItem><role id="BRILLANTINE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>MADEMOISELLE BRILLANTINE TOUTOR</role>.</castItem>
-			<castItem><role id="BETSY" sex="2" type="H" statut="domestique" age="A" stat_amour='néant'>BETSY</role>, sa femme de chambre anglaise.</castItem>
-			<castItem><role id="AGLAÉ" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>AGLAÉ FOURNIER</role>.</castItem>
-			<castItem><role id="SOPHIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>SOPHIE</role>, sa soeur.</castItem>
-			<castItem><role id="MÉLANIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour='néant'>MÉLANIE</role>, sa seconde soeur.</castItem>
-			<castItem><role id="MONIQUE" sex="2" type="H" statut="domestique" age="V" stat_amour='néant'>MONIQUE</role>, leur vieille bonne.</castItem>
-			<castItem><role id="UNE OUVRIÈRE" sex="2" type="H" statut="ouvrier" age="A" stat_amour='néant'>UNE OUVRIÈRE</role>, personnage muet.</castItem>
+			<castItem><role id="MADAME DE FURVILLE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MADAME DE FURVILLE</role>.</castItem>
+			<castItem><role id="MADAME LEBLANC" sex="2" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME LEBLANC</role>.</castItem>
+			<castItem><role id="BRILLANTINE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">MADEMOISELLE BRILLANTINE TOUTOR</role>.</castItem>
+			<castItem><role id="BETSY" sex="2" type="H" statut="domestique" age="A" stat_amour="néant">BETSY</role>, sa femme de chambre anglaise.</castItem>
+			<castItem><role id="AGLAÉ" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">AGLAÉ FOURNIER</role>.</castItem>
+			<castItem><role id="SOPHIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">SOPHIE</role>, sa soeur.</castItem>
+			<castItem><role id="MÉLANIE" sex="2" type="H" statut="bourgeois" age="J" stat_amour="néant">MÉLANIE</role>, sa seconde soeur.</castItem>
+			<castItem><role id="MONIQUE" sex="2" type="H" statut="domestique" age="V" stat_amour="néant">MONIQUE</role>, leur vieille bonne.</castItem>
+			<castItem><role id="UNE OUVRIÈRE" sex="2" type="H" statut="ouvrier" age="A" stat_amour="néant">UNE OUVRIÈRE</role>, personnage muet.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La scène se passe à Paris, dans le salon de musique de M. Toutor, et dans l'atelier de travail de mademoiselle Fournier.</set>
 	<note>Texte établi à partir de l'ouvrage "DE L'ÉDUCATION, par Mme CAMPAN suivi des conseils au jeunes filles, de quelques essais de morale et d'un théâtre pour les jeunes personnes, ouvrage mis en ordre et publié, avec des introductions par M. F. BARRIÈRE. Nouvelle édition ; augmentée de lettres, avec une introduction. Tome Troisième", Paris, LEBIGRE FRÈRES, LIBRAIRES, 1832. pp 125-151</note>
@@ -50,7 +50,8 @@
 <body>
 <div1 type="act" n="1"><head>ACTE PREMIER.</head>
 <stage type="decor">Salon de musique de Monsieur Toutor.</stage>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Madame de Furville, avec un carton ; Madame Leblanc, avec un paquet.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Madame de Furville, avec un carton ; Madame Leblanc, avec un paquet.
+</stage>
 <stage type="costume">Madame de Furville doit être mise en ouvrière à la journée, moins bien que Madame Leblanc.</stage>
 <sp who="MADAME LEBLANC"><speaker>MADAME LEBLANC.</speaker>
 <p id="1">
@@ -122,13 +123,15 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2" stage="declamation"><head>SCÈNE II. Les mêmes ; Betsy, prononçant le français en anglais.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage type="declamation"> Les mêmes ; Betsy, prononçant le français en anglais.
+</stage>
 <sp who="BETSY"><speaker>BETSY.</speaker>
 <p id="1">
 	<s id="1">Un piou de paicience, Madame Leblanc, miss va venir, je vous assioure ; ses youx ils étaient bien difficiles pour ouvrir ce matin.</s>
 </p>
 </sp>
-<sp stage="strong" who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE, d'un ton assuré.</speaker>
+<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE</speaker><stage type="strong">, d'un ton assuré.
+</stage>
 <p id="2">
 	<s id="1">À quelle heure s'est-elle donc couchée ?</s>
 </p>
@@ -139,7 +142,8 @@
 	<s id="2">Je vous pense bien extraordinaire.</s>
 </p>
 </sp>
-<sp stage="aparte" who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE, à part.</speaker>
+<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Elle a raison ; il est plus difficile de prendre le ton d'une fille de journée que de porter son carton : observons-nous.</s>
 </p>
@@ -158,7 +162,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3" stage="dress"><head>SCÈNE III. Les mêmes ; Mademoiselle Brillantine, en négligé du matin, étendant les bras, se frottant les yeux, et paraissant craindre le grand jour.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage type="dress"> Les mêmes ; Mademoiselle Brillantine, en négligé du matin, étendant les bras, se frottant les yeux, et paraissant craindre le grand jour.
+</stage>
 <sp who="BRILLANTINE"><speaker>BRILLANTINE.</speaker>
 <p id="1">
 	<s id="1">Ah Dieu ! </s>
@@ -171,7 +176,8 @@
 	<s id="1">Il n'y paraît pas, Mademoiselle, à l'état et à la fraîcheur de votre teint.</s>
 </p>
 </sp>
-<sp who="BRILLANTINE"><speaker>BRILLANTINE, avec complaisance.</speaker>
+<sp who="BRILLANTINE"><speaker>BRILLANTINE</speaker><stage>, avec complaisance.
+</stage>
 <p id="3">
 	<s id="1">Vous croyez ?... </s>
 	<s id="2">C'est heureux, en vérité ; car on me tue absolument, on me tue ; des invitations tous les jours, des reproches à mon père lorsqu'il veut refuser ; il se ferait de méchantes affaires dans tout Paris.</s>
@@ -182,7 +188,8 @@
 	<s id="1">Il fallait rester dans votre lit, Mademoiselle, vous auriez tout aussi bien vu mes broderies.</s>
 </p>
 </sp>
-<sp stage="nervous/fall/sit" who="BRILLANTINE"><speaker>BRILLANTINE, avec un petit air d'humeur, se jetant dans un fauteuil.</speaker>
+<sp who="BRILLANTINE"><speaker>BRILLANTINE</speaker><stage type="nervous/fall/sit">, avec un petit air d'humeur, se jetant dans un fauteuil.
+</stage>
 <p id="5">
 	<s id="1">Je vous l'ai dit, Mademoiselle Bernicourt couche dans ma chambre ; elle ne s'éveillera qu'à une heure. </s>
 	<s id="2">Elle ne me l'aurait jamais pardonné. Voyons.</s>
@@ -240,7 +247,8 @@
 	<s id="4">Il est, dit-on, très instruit ; mais il n'a point de tournure, point d'usage : je lui en donnerai.</s>
 </p>
 </sp>
-<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE, à part.</speaker>
+<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE</speaker><stage>, à part.
+</stage>
 <p id="15">
 	<s id="1">Belle fin d'éducation qu'elle réserve à mon fils.</s>
 </p>
@@ -382,7 +390,8 @@
 <stage type="exit/danse/sing">Elle sort en dansant et chantant.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Madame Leblanc, Madame de Furville.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Madame Leblanc, Madame de Furville.
+</stage>
 <sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -398,7 +407,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Sophie et Mélanie Fournier, occupées l'une à un métier, l'autre à une broderie en mousseline.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Sophie et Mélanie Fournier, occupées l'une à un métier, l'autre à une broderie en mousseline.
+</stage>
 <stage type="decor">Le théâtre représente l'atelier de Mademoiselle Founier. On y voit des dessins, un chevalet, des métiers, une table avec des corbeilles à ouvrages, de petits coffres, etc.</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
@@ -437,7 +447,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Les mêmes ; Mère Monique.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Les mêmes ; Mère Monique.
+</stage>
 <sp who="MÈRE MONIQUE"><speaker>MÈRE MONIQUE.</speaker>
 <p id="1">
 	<s id="1">Notre petite ménagère n'aura rien à dire en rentrant : ma cuisine est propre à ravir, mon pot est mis, son café est prêt. </s>
@@ -503,7 +514,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Les mêmes ; Madame de Furville et Madame  Leblanc.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Les mêmes ; Madame de Furville et Madame  Leblanc.
+</stage>
 <sp who="SOPHIE"><speaker>SOPHIE.</speaker>
 <p id="1">
 	<s id="1">C'est vous, madame Leblanc ? </s>
@@ -545,7 +557,8 @@
 	<s id="1">Non, mademoiselle.</s>
 </p>
 </sp>
-<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, à Madame de Furville.</speaker>
+<sp who="SOPHIE"><speaker>SOPHIE</speaker><stage type="toward">, à Madame de Furville.
+</stage>
 <p id="8">
 	<s id="1">Et vous, Madame ?</s>
 </p>
@@ -556,9 +569,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes ; Aglaé et son ouvrière. Elle
-tient un paquet de roses à la main.</head>
-<sp stage="run" who="MÉLANIE"><speaker>MÉLANIE, courant au-devant d'elle.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Les mêmes ; Aglaé et son ouvrière. Elle
+tient un paquet de roses à la main.
+</stage>
+<sp who="MÉLANIE"><speaker>MÉLANIE</speaker><stage type="run">, courant au-devant d'elle.
+</stage>
 <p id="1">
 	<s id="1">Oh ! </s>
 	<s id="2">Ma bonne petite maman, que vous avez chaud ! </s>
@@ -665,7 +680,8 @@ tient un paquet de roses à la main.</head>
 	<s id="1">Je ne le croîs pas, Madame : j'ai formé mes idées sur le bonheur dont je puisse jouir dans mon état présent, et souvent, dans ces petits rêves de l'imagination dont la sagesse ne peut pas garantir, j'ai senti qu'avec des richesses je chercherais mon bonheur dans une infinité de jouissances qui paraissent trop inconnues aux gens riches.</s>
 </p>
 </sp>
-<sp stage="toward" who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE, à Madame Leblanc.</speaker>
+<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE</speaker><stage type="toward">, à Madame Leblanc.
+</stage>
 <p id="18">
 	<s id="1">Elle est charmante ! </s>
 	<s id="2">Votre aiguille est votre unique occupation, Mademoiselle ?</s>
@@ -697,20 +713,23 @@ tient un paquet de roses à la main.</head>
 	<s id="1">Oui, Madame, tandis que ce bon père ex pose ses jours pour la gloire, pour son prince et pour l'État, ne devons-nous pas tenir son esprit tranquille sur ce qui se passe dans son ménage ; lui faire voir que celle que nous regretterons toujours avec lui y est remplacée autant qu'il est en notre pouvoir ; que le soir, avant de nous coucher, nous lui rendons un compte exact de l'emploi de notre journée, et que nous ne nous livrons au sommeil qu'après avoir prié Dieu qu'il daigne sauver ses jours et faire triompher les armes de la France ?</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE, transportée.</speaker>
+<sp who="MADAME DE FURVILLE"><speaker>MADAME DE FURVILLE</speaker><stage type="enthousiasm">, transportée.
+</stage>
 <p id="15">
 	<s id="1">Oui, c'est elle ! </s>
 	<s id="2">La voilà ! </s>
 	<s id="3">Mon fils n'épousera point d'autre.</s>
 </p>
 </sp>
-<sp stage="toward" who="AGLAÉ"><speaker>AGLAÉ, à Madame Leblanc.</speaker>
+<sp who="AGLAÉ"><speaker>AGLAÉ</speaker><stage type="toward">, à Madame Leblanc.
+</stage>
 <p id="16">
 	<s id="1">Qui, elle ? </s>
 	<s id="2">Que veut-elle dire ?</s>
 </p>
 </sp>
-<sp who="MADAME LEBLANC"><speaker>MADAME LEBLANC, serrant Aglaé sur son coeur.</speaker>
+<sp who="MADAME LEBLANC"><speaker>MADAME LEBLANC</speaker><stage>, serrant Aglaé sur son coeur.
+</stage>
 <p id="17">
 	<s id="1">Vous le saurez, chère et aimable Aglaé ; le ciel récompensera vos vertus.</s>
 </p>

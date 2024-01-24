@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">La pièce a été jouée dans une matinée de bienfaisance par MM. SIGNORET, HENRY MAYER, ANDRÉ ANTOINE et par Mme JANE RENOUARDT.</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -38,18 +38,18 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ROSELEUR" sex="1" type="H" statut="avocat" age="A" stat_amour=''>ROSELEUR</role>, avocat, 35 à 40 ans.</castItem>
-		<castItem><role id="GERBIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>GERBIER</role>, même âge.</castItem>
-		<castItem><role id="GENOUVIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>GENOUVIER</role>, âge quelconque.</castItem>
-		<castItem><role id="LAURE" sex="2" type="H" statut="bourgeois" age="A" stat_amour=''>LAURE</role>, 25 à 30 ans.</castItem>
-		<castItem><role id="JEANNETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>JEANNETTE</role>, femme de chambre.</castItem>
+		<castItem><role id="ROSELEUR" sex="1" type="H" statut="avocat" age="A" stat_amour="">ROSELEUR</role>, avocat, 35 à 40 ans.</castItem>
+		<castItem><role id="GERBIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">GERBIER</role>, même âge.</castItem>
+		<castItem><role id="GENOUVIER" sex="1" type="H" statut="bourgeois" age="A" stat_amour="">GENOUVIER</role>, âge quelconque.</castItem>
+		<castItem><role id="LAURE" sex="2" type="H" statut="bourgeois" age="A" stat_amour="">LAURE</role>, 25 à 30 ans.</castItem>
+		<castItem><role id="JEANNETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour="">JEANNETTE</role>, femme de chambre.</castItem>
 	</castList>
-	<set location='France' country='France' periode='XXème' gps="(N/A)"></set>
+	<set location="France" country="France" periode="XXème" gps="(N/A)"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 113-129</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>UN MYSTÈRE SANS IMPORTANCE</head>
-<div2 type="scene" n="1"><head></head>
+<div2 type="scene" n="1"><head/>
 <stage type="decor/entrance">La scène représente un cabinet d'avocat très bien meublé. Roseleur entre avec Gerbier ; il le fait passer devant lui.</stage>
 <sp who="ROSELEUR"><speaker>ROSELEUR.</speaker>
 <p id="1">
@@ -174,7 +174,8 @@
 	<s id="1">Ça t'occupe...</s>
 </p>	
 </sp>
-<sp stage="nervous" who="ROSELEUR"><speaker>ROSELEUR, énervé.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="nervous">, énervé.
+</stage>
 <p id="24">
 	<s id="1">Mais non, mais non. </s>
 	<s id="2">Il s'agit là d'une chose de peu d'importance, autrement je l'aurais certainement retenue. </s>
@@ -187,7 +188,8 @@
 	<s id="1">Tu me disais que ta vie était monotone.</s>
 </p>
 </sp>
-<sp stage="dream" who="ROSELEUR"><speaker>ROSELEUR, songeur.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="dream">, songeur.
+</stage>
 <p id="25">
 	<s id="1">Ce noeud à mon mouchoir, je l'ai fait au moment où j'avais mon pardessus... </s>
 	<s id="2">En effet, j'ai toujours deux mouchoirs, un dans la poche de mon pantalon, l'autre dans la poche de mon pardessus. </s>
@@ -231,7 +233,8 @@
 	<s id="1">Il y a un rapporteur de nommé...</s>
 </p>
 </sp>
-<sp stage="wave" who="ROSELEUR"><speaker>ROSELEUR, vague.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="wave">, vague.
+</stage>
 <p id="32">
 	<s id="1">Un rapporteur de nommé ?</s>
 </p>
@@ -241,7 +244,8 @@
 	<s id="1">C'est précisément le conseiller de ton quartier.</s>
 </p>
 </sp>
-<sp stage="slow" who="ROSELEUR"><speaker>ROSELEUR, machinal.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="slow">, machinal.
+</stage>
 <p id="34">
 	<s id="1">Ah ! </s>
 	<s id="2">Voilà une bonne coïncidence...</s>
@@ -288,7 +292,8 @@
 	<s id="2">Tous les matins, de 9 à 11.</s>
 </p>
 </sp>
-<sp stage="dream" who="ROSELEUR"><speaker>ROSELEUR, rêveur.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="dream">, rêveur.
+</stage>
 <p id="42">
 	<s id="1">Tous les matins, de 9 à 11, tous les matins de 9 à 11... </s>
 	<s id="2">Je suis sorti ce matin à 9 heures et demie, j'ai pris un taxi... </s>
@@ -299,13 +304,15 @@
 	<s id="6">C'est le plan de votre maison de retraite ?...</s>
 </p>
 </sp>
-<sp stage="open" who="GERBIER"><speaker>GERBIER, dépliant le plan.</speaker>
+<sp who="GERBIER"><speaker>GERBIER</speaker><stage type="open">, dépliant le plan.
+</stage>
 <p id="43">
 	<s id="1">Il est vraiment très séduisant. </s>
 	<s id="2">Voilà la cour d'entrée, le promenoir couvert...</s>
 </p>
 </sp>
-<sp stage="read" who="ROSELEUR"><speaker>ROSELEUR, penché sur le plan.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="read">, penché sur le plan.
+</stage>
 <p id="44">
 	<s id="1">C'est très bien... très bien...</s>
 </p>
@@ -315,7 +322,8 @@
 	<s id="1">Le réfectoire...</s>
 </p>
 </sp>
-<sp stage="watch" who="ROSELEUR"><speaker>ROSELEUR, toujours penché sur le plan.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="watch">, toujours penché sur le plan.
+</stage>
 <p id="46">
 	<s id="1">Je ne suis pas resté seul tout le temps... </s>
 	<s id="2">Je suis descendu du taxi pour m'arrêter dans un magasin d'antiquités... </s>
@@ -332,7 +340,8 @@
 	<s id="2">En attendant que nous ayons ce terrain pour construire, il faut que nous obtenions un abri provisoire pour nos vieux hospitalisés qui sont sur le pavé.</s>
 </p>
 </sp>
-<sp stage="dream" who="ROSELEUR"><speaker>ROSELEUR, songeur.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="dream">, songeur.
+</stage>
 <p id="48">
 	<s id="1">En sortant de chez l'antiquaire, je suis resté avec lui sur le pas de la porte... </s>
 	<s id="2">Non, non, je ne lui ai rien dit à ce moment... </s>
@@ -344,13 +353,15 @@
 	<s id="1">Qu'est-ce que c'est ?</s>
 </p>
 </sp>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entrant.</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entrant.
+</stage>
 <p id="50">
 	<s id="1">C'est Sylvain, Monsieur... </s>
 	<s id="2">Je lui ai demandé si Monsieur avait fait un noeud à son mouchoir ce matin, il ne s'en rappelle plus.</s>
 </p>
 </sp>
-<sp qtage="furious" who="ROSELEUR"><speaker>ROSELEUR, furieux.</speaker>
+<sp qtage="furious" who="ROSELEUR"><speaker>ROSELEUR</speaker><stage>, furieux.
+</stage>
 <p id="51">
 	<s id="1">C'est pour cela que vous me dérangez !</s>
 </p>
@@ -433,7 +444,8 @@
 </p>
 <stage type="exit">Sort Gerbier.</stage>
 </sp>
-<sp stage="wave/toward" who="ROSELEUR"><speaker>ROSELEUR, après un petit signe distrait dans la direction de Gerbier.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="wave/toward">, après un petit signe distrait dans la direction de Gerbier.
+</stage>
 <stage type="toward">À la bonne :</stage>
 <p id="67">
 	<s id="1">Bien, bien. Dites donc, que vous a dit Sylvain tout à l'heure ?</s>
@@ -472,7 +484,8 @@
 </p>
 <stage type="exit">Elle sort.</stage>
 </sp>
-<sp stage="alone/location" who="ROSELEUR"><speaker>ROSELEUR, seul à son bureau.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="alone/location">, seul à son bureau.
+</stage>
 <p id="20">
 	<s id="1">Avez-vous toujours cette petite boîte de laque ancienne ? </s>
 	<s id="2">Ai-je dit à l'antiquaire. </s>
@@ -519,7 +532,8 @@
 	<s id="3">Une chose que vous avez oubliée... </s>
 </p>
 </sp>
-<sp stage="stress" who="ROSELEUR"><speaker>ROSELEUR, vivement</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="stress">, vivement
+</stage>
 <p id="28">
 	<s id="1">Qu'est-ce que j'ai oublié ? </s>
 	<s id="2">Dites, dites !</s>
@@ -530,7 +544,8 @@
 	<s id="1">Il y a aujourd'hui six mois...</s>
 </p>
 </sp>
-<sp stage="sad" who="ROSELEUR"><speaker>ROSELEUR, déçu.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="sad">, déçu.
+</stage>
 <p id="30">
 	<s id="1">Ah oui !</s>
 </p>
@@ -540,7 +555,8 @@
 	<s id="1">C'est tout l'effet que ça vous fait ?</s>
 </p>
 </sp>
-<sp stage="tender" who="ROSELEUR"><speaker>ROSELEUR, attendri.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="tender">, attendri.
+</stage>
 <p id="32">
 	<s id="1">Ma chérie !</s>
 </p>
@@ -550,7 +566,8 @@
 	<s id="1">Et vous n'avez pas pensé à me le dire ce matin au téléphone.</s>
 </p>
 </sp>
-<sp stage="estonish" who="ROSELEUR"><speaker>ROSELEUR, sursautant.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="estonish">, sursautant.
+</stage>
 <p id="34">
 	<s id="1">Au téléphone !</s>
 </p>
@@ -585,7 +602,8 @@
 	<s id="1">Mais pourquoi cette enquête ?</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="ROSELEUR"><speaker>ROSELEUR, un peu gêné.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="embarrassed">, un peu gêné.
+</stage>
 <p id="39">
 	<s id="1">À propos d'une affaire très grave que j'étudie en ce moment.</s>
 </p>
@@ -596,7 +614,8 @@
 	<s id="2">Laissez vos papiers tranquilles, je suis là.</s>
 </p>
 </sp>
-<sp stage="enthousiasm" who="ROSELEUR"><speaker>ROSELEUR, avec transport.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="enthousiasm">, avec transport.
+</stage>
 <p id="41">
 	<s id="1">Oui, tu es là ! </s>
 	<s id="2">Toi seule existes !... </s>
@@ -636,7 +655,8 @@
 	<s id="2">Comme tu m'embrasses fort !</s>
 </p>
 </sp>
-<sp stage="think" who="ROSELEUR"><speaker>ROSELEUR, distraitement.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="think">, distraitement.
+</stage>
 <p id="48">
 	<s id="1">Je ne l'ai pas fait exprès !</s>
 </p>
@@ -646,7 +666,8 @@
 	<s id="1">Comment, tu ne l'as pas fait exprès ?</s>
 </p>
 </sp>
-<sp stage="quick" who="ROSELEUR"><speaker>ROSELEUR, vivement.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="quick">, vivement.
+</stage>
 <p id="50">
 	<s id="1">Si, si, je l'ai fait exprès, chérie ! </s>
 </p>
@@ -671,7 +692,8 @@
 	<s id="1">Jeannette !</s>
 </p>
 </sp>
-<sp stage="entrance" who="LA BONNE"><speaker>LA BONNE, entre tout de suite.</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="entrance">, entre tout de suite.
+</stage>
 <p id="55">
 	<s id="1">Monsieur ?</s>
 </p>
@@ -708,7 +730,8 @@
 </p>
 <stage type="wave">Laure fait un mouvement.</stage>
 </sp>
-<sp stage="toward" who="ROSELEUR"><speaker>ROSELEUR, à la bonne.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="toward">, à la bonne.
+</stage>
 <p id="63">
 	<s id="1">C'est bon, c'est bon.</s>
 </p>
@@ -739,7 +762,8 @@
 	<s id="">Si, si, je suis attendue chez ma mère.</s>
 </p>
 </sp>
-<sp stage="towrad.exit" who="ROSELEUR"><speaker>ROSELEUR, à la bonne qui sort.</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="towrad.exit">, à la bonne qui sort.
+</stage>
 <p id="69">
 	<s id="1">Faites entrer ce monsieur.</s>
 </p>
@@ -748,7 +772,8 @@
 	<s id="1">Je t'adore !</s>
 </p>
 </sp>
-<sp stage="low" who="LAURE"><speaker>LAURE, à demi-voix.</speaker>
+<sp who="LAURE"><speaker>LAURE</speaker><stage type="low">, à demi-voix.
+</stage>
 <p id="71">
 	<s id="1">Moi, je vous trouve bien absent !</s>
 </p>
@@ -790,7 +815,8 @@
 	<s id="4">Je n'ai pas voulu qu'elle tombât dans les mains d'une tierce personne ; alors, j'ai pensé qu'il n'était pas indiscret et que c'était au contraire un devoir de discrétion de venir vous la remettre.</s>
 </p>
 </sp>
-<sp stage="" who="ROSELEUR"><speaker>ROSELEUR, regardant la lettre</speaker>
+<sp who="ROSELEUR"><speaker>ROSELEUR</speaker><stage type="">, regardant la lettre
+</stage>
 <p id="78">
 	<s id="1">En effet ; cette lettre est pour moi, mais je prends ne comprends pas comment elle se trouve entre vos mains.</s>
 </p>
@@ -906,14 +932,16 @@
 	<s id="1">Allez ranger ce pardessus.</s>
 </p>
 </sp>
-<sp stage="wave" who="GENOUVRIER"><speaker>GENOUVRIER, s'inclinant.</speaker>
+<sp who="GENOUVRIER"><speaker>GENOUVRIER</speaker><stage type="wave">, s'inclinant.
+</stage>
 <p id="102">
 	<s id="1">Oh ! </s>
 	<s id="2">De rien. </s>
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp stage="watch" who="LA BONNE"><speaker>LA BONNE, examinant le pardessus.</speaker>
+<sp who="LA BONNE"><speaker>LA BONNE</speaker><stage type="watch">, examinant le pardessus.
+</stage>
 <p id="103">
 	<s id="1">Il n'est pas si bien que l'autre.</s>
 </p>

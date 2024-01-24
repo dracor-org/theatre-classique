@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -30,7 +30,7 @@
 		<titlePart part="sub">SAYNÈTE EN UN ACTE.</titlePart> 
 	</docTitle>
    <docDate value="1888">1888. Droits de reproduction, de traduction et de représentation réservés.</docDate>
-   <docAuthor id='BEISSIER, Fernand'>FERNAND BESSIER.</docAuthor>
+   <docAuthor id="BEISSIER, Fernand">FERNAND BESSIER.</docAuthor>
 	<docImprint>
 		<editor id="LIBRAIRIE THÉÂTRALE">PARIS, LIBRAIRIE THÉÂTRALE 14, RUE DE GRAMMONT, 14</editor>
 		<printer id="PICHAT">Imprimerie Générale de Chatillon-sur-Seine. - A. PICHAT</printer>
@@ -47,7 +47,8 @@
 <div1 type="acte" n="1"><head>L'OISEAU BLEU</head>
 <stage type="location/decor/sit/read">Au Japon. - Une chambre dans le palais impérial, donnant sur des jardins, qu'on aperçoit par la grande baie du fond. À droite et à gauche, une porte conduisant dans l'intérieur du palais.- Au lever du rideau, Kou-Mia assise écoute, Liou-li, qui assise aussi, mais à ses pieds, achève une lecture.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp stage="read" who="LIOU-LI"><speaker>LIOU-LI, achevant une lecture.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage type="read">, achevant une lecture.
+</stage>
 <note type="L">Chènevis : La graine du chanvre. [L]</note>
 <p id="1">
 	<s id="1">« Et alors l'Oiseau bleu s'approchant de l'Empereur lui dit: Je mourrai dans ta cage, aux barreaux d'or... </s>
@@ -58,7 +59,8 @@
 	<s id="6">Mais le soir, quand tout le monde dormait, sur les camélias du jardin dont les branches roses montaient jusqu'à la fenêtre impériale, l'oiseau bleu vint se poser, et toute la nuit il chanta, berçant les rêves de l'Empereur, et chaque soir il revint.... »</s>
 </p>
 </sp>
-<sp who="KOU-MIA"><speaker>KOU-MIA, l'interrompant.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage>, l'interrompant.
+</stage>
 <p id="2">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Moi, si j'avais été l'oiseau bleu, j'aurais préféré la cage aux barreaux d'or, où la vie était si douce et si facile, aux grands arbres où souvent il devait s'endormir l'estomac vide et les ailes lasses. </s>
@@ -136,30 +138,35 @@
 </p>
 <stage type="voice">On entend au dehors la voix de Peki.</stage>
 </sp>
-<sp stage="sing" who="PEKI"><speaker>PEKI, chantant.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="sing">, chantant.
+	</stage>
 	<l id="1">Au milieu des vertes branches</l>
 	<l id="2">Je viens de bâtir mon nid,</l>
 	<l id="3">J'ai cueilli des roses blanches</l>
 	<l id="4">Pour mon lit.</l>
 </sp>
-<sp stage="estonish" who="KOU-MIA"><speaker>KOU-MIA, étonnée.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="estonish">, étonnée.
+</stage>
 <p id="14">
 	<s id="1">Tiens ! </s>
 	<s id="2">Qui donc chante là ?</s>
 </p>
 </sp>
-<sp stage="closer" who="LIOU-LI"><speaker>LIOU-LI, allant à la fenêtre.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage type="closer">, allant à la fenêtre.
+</stage>
 <p id="15">
 	<s id="1">Voulez-vous que je regarde ?</s>
 </p>
 </sp>
-<sp stage="location" who="KOU-MIA"><speaker>KOU-MIA, curieuse, allant aussi à la fenêtre.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="location">, curieuse, allant aussi à la fenêtre.
+</stage>
 <p id="16">
 	<s id="1">Oui... </s>
 	<s id="2">Voyons !</s>
 </p>
 </sp>
-<sp stage="location/sing" who="PEKI"><speaker>PEKI, au dehors, continuant.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="location/sing">, au dehors, continuant.
+	</stage>
 	<l id="5">Pour boire j'ai le calice</l>
 	<l id="6">De la plus petite fleur,</l>
 	<l id="7">Et je n'ai fiel, ni malice</l>
@@ -218,7 +225,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp stage="watch/location/alone" who="KOU-MIA"><speaker>KOU-MIA, elle regarde par la fenêtre.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="watch/location/alone">, elle regarde par la fenêtre.
+</stage>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Voilà Liou-li... </s>
@@ -239,7 +247,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Kou-Mia, Liou-Li, Peki.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Kou-Mia, Liou-Li, Peki.
+</stage>
 <stage type="entrance/costume/stop/estonish">Peki entre. Costume pauvre, mais très pittoresque. Elle s'arrête étonnée à la vue de Kou-Mia.</stage>
 <sp who="KOU-MIA"><speaker>KOU-MIA.</speaker>
 <p id="1">
@@ -253,7 +262,8 @@
 	<s id="2">Puisque je t'ai dit que c'était la princesse qui te demandait.</s>
 </p>
 </sp>
-<sp stage="happy" who="PEKI"><speaker>PEKI, joyeusement.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="happy">, joyeusement.
+</stage>
 <p id="3">
 	<s id="1">Oui... </s>
 	<s id="2">Eh ! </s>
@@ -261,7 +271,8 @@
 	<s id="4">Me voilà!</s>
 </p>
 </sp>
-<sp stage="aparte" who="KOU-MIA"><speaker>KOU-MIA, à part.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Comme elle parait joyeuse... </s>
 	<s id="2">Il est donc possible d'être heureux, même en étant pauvre !</s>
@@ -316,12 +327,14 @@
 	<s id="2">Demandez aux colibris qui nichent sous les pêchers de votre jardin impérial si la feuille verte leur est douce, si le grand air leur est nécessaire et s'ils aiment leurs chansons !</s>
 </p>
 </sp>
-<sp who="LIOU-LI"><speaker>LIOU-LI, s'approchant curieusement.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage>, s'approchant curieusement.
+</stage>
 <p id="12">
 	<s id="1">Et si par hasard, la porte, à laquelle tu frappes, ne  s'ouvre pas ?</s>
 </p>
 </sp>
-<sp stage="happy" who="PEKI"><speaker>PEKI, gaiment.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="happy">, gaiment.
+</stage>
 <p id="13">
 	<s id="1">Alors je couche sous la garde des cieux, à la clarté des étoiles, à l'abri d'un buisson, et j'y dors sans façons ; car la route est à tout le monde, et l'on n'y paie ni son sommeil, ni son repas.</s>
 </p>
@@ -385,7 +398,8 @@
 	<s id="2">Tu sais qui je suis !</s>
 </p>
 </sp>
-<sp stage="naive" who="PEKI"><speaker>PEKI, naïvement.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="naive">, naïvement.
+</stage>
 <p id="25">
 	<s id="1">Oui, maintenant.</s>
 </p>
@@ -507,12 +521,14 @@
 	<s id="1">Va, et reviens aussitôt.</s>
 </p>
 </sp>
-<sp stage="toxard" who="LIOU-LI"><speaker>LIOU-LI, à Teki.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage type="toxard">, à Teki.
+</stage>
 <p id="47">
 	<s id="1">Par ici, petite.</s>
 </p>
 </sp>
-<sp stage="toward" who="PEKI"><speaker>PEKI, à Liou-li.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="toward">, à Liou-li.
+</stage>
 <p id="48">
 	<s id="1">Et faites-moi bien belle au moins !...</s>
 </p>
@@ -520,7 +536,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="alone" who="KOU-MIA"><speaker>KOU-MIA, seule.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Est-ce bon d'être heureux ? </s>
 	<s id="2">Sa joie est si vive qu'elle me la communique déjà. </s>
@@ -533,7 +550,8 @@
 	<s id="9">Courir ainsi les grands chemins, à son âge, était-ce triste !</s>
 </p>
 </sp>
-<sp stage="entrance" who="LIOU-LI"><speaker>LIOU-LI, entre vivement.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage type="entrance">, entre vivement.
+</stage>
 <p id="2">
 	<s id="1">Princesse ! </s>
 	<s id="2">La voilà, elle est prête !</s>
@@ -557,9 +575,11 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Kou-Mia, Liou-Li, Peki.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Kou-Mia, Liou-Li, Peki.
+</stage>
 <stage type="">Peki entre; elle est en superbe robe deiole, des bracelets aux bras ; on ne la »ent pas A son aise dans son nouvel ajustement.</stage>
-<sp who="PEKI"><speaker>PEKI, allant A Kou-Mia qui la regarde un peu surprise.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage>, allant A Kou-Mia qui la regarde un peu surprise.
+</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Comment me trouvez-vous ? </s>
@@ -576,7 +596,8 @@
 	<s id="3">Ne trouves-tu pas, Liou-li ?</s>
 </p>
 </sp>
-<sp stage="aparte" who="LIOU-LI"><speaker>LIOU-LI, à part.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage type="aparte">, à part.
+</stage>
 <p id="4">
 	<s id="1">Sûrement.</s>
 </p>
@@ -644,7 +665,8 @@
 	<s id="2">Commence, nous t'écoutons.</s>
 </p>
 </sp>
-<sp stage="embarrassed" who="PEKI"><speaker>PEKI, embarrassée.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="embarrassed">, embarrassée.
+</stage>
 <p id="18">
 	<s id="1">Dame ! Je ne sais pas moi; qu'est-ce qu'il faut vous conter ? </s>
 </p>
@@ -675,7 +697,8 @@
 	<s id="1">Tu as trouvé ?</s>
 </p>
 </sp>
-<sp stage="sad" who="PEKI"><speaker>PEKI, un peu triste.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="sad">, un peu triste.
+</stage>
 <p id="24">
 	<s id="1">Je cherche.</s>
 </p>
@@ -713,12 +736,14 @@
 	<s id="3">Le rossignol ne devait pas tarder à regretter son pauvre nid de mousse où il avait vécu si heureux et si insouciant.</s>
 </p>
 </sp>
-<sp stage="toward" who="KOU-MIA"><speaker>KOU-MIA, à Peki.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="toward">, à Peki.
+</stage>
 <p id="31">
 	<s id="1">Tu n'en sais pas une autre ?</s>
 </p>
 </sp>
-<sp stage="surprise" who="PEKI"><speaker>PEKI, surprise.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="surprise">, surprise.
+</stage>
 <p id="32">
 	<s id="1">Une autre ?</s>
 </p>
@@ -729,7 +754,8 @@
 	<s id="2">Elle n'est pas gaie, celle-là.</s>
 </p>
 </sp>
-<sp stage="toward" who="PEKI"><speaker>PEKI, comme A elle-même.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="toward">, comme A elle-même.
+</stage>
 <p id="34">
 	<s id="1">C'est vrai, le rossignol meurt, loin de son nid.</s>
 </p>
@@ -744,7 +770,8 @@
 	<s id="1">Je ne sais pas moi-même comment l'idée m'en est venue.</s>
 </p>
 </sp>
-<sp stage="aparte" who="KOU-MIA"><speaker>KOU-MIA, à part.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="aparte">, à part.
+</stage>
 <p id="37">
 	<s id="1">Elle ne me semble déjà plus la même. </s>
 </p>
@@ -766,7 +793,8 @@
 	<s id="1">Je t'écoute.</s>
 </p>
 </sp>
-<sp stage="sing" who="PEKI"><speaker>PEKI, reprenant sa chanson d'entrée.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="sing">, reprenant sa chanson d'entrée.
+	</stage>
 	<l id="9">J'ai pour boire le calice</l>
 	<l id="10">De la plus petite fleur,</l>
 	<l id="11">Et je n'ai fiel, ni malice</l>
@@ -805,7 +833,8 @@
 	<s id="1">Tes yeux semblent gonflés de pleurs ; et je vois sous ta paupière une larme que tu cherches en vain à retenir.</s>
 </p>
 </sp>
-<sp stage="naive" who="PEKI"><speaker>PEKI, naïvement.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="naive">, naïvement.
+</stage>
 <p id="45">
 	<s id="1">C'est la première !...</s>
 </p>
@@ -837,7 +866,8 @@
 	<s id="1">Viens !</s>
 </p>
 </sp>
-<sp who="LIOU-LI"><speaker>LIOU-LI, en s'en allant à part.</speaker>
+<sp who="LIOU-LI"><speaker>LIOU-LI</speaker><stage>, en s'en allant à part.
+</stage>
 <p id="51">
 	<s id="1">Pauvre petite !</s>
 </p>
@@ -845,7 +875,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone" who="PEKI"><speaker>PEKI, seule.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="alone">, seule.
+</stage>
 <p id="1">
 	<s id="1">Mais qu'est-ce que j'ai donc ?... </s>
 	<s id="2">Que se passe-t-il en moi ?... </s>
@@ -904,8 +935,10 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Kou-Mia, Liou-Li.</head>
-<sp stage="entrance" who="KOU-MIA"><speaker>KOU-MIA, entrant doucement, suivie de Liou-li.</speaker>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Kou-Mia, Liou-Li.
+</stage>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="entrance">, entrant doucement, suivie de Liou-li.
+</stage>
 <p id="1">
 	<s id="1">Doucement : elle doit reposer, la pauvre petite. </s>
 	<s id="2">- Ne faisons pas de bruit.</s>
@@ -916,7 +949,8 @@
 	<s id="1">Je n'entends rien.</s>
 </p>
 </sp>
-<sp stage="" who="KOU-MIA"><speaker>KOU-MIA, regardant et t'arrêtant surprise.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="">, regardant et t'arrêtant surprise.
+</stage>
 <p id="3">
 	<s id="1">Personne !</s>
 </p>
@@ -981,7 +1015,8 @@
 	<s id="1">Que veux-tu dire ?</s>
 </p>
 </sp>
-<sp stage="closer/touch/kneel" who="PEKI"><speaker>PEKI, s'avançant, lui prend la main et se met à genoux.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="closer/touch/kneel">, s'avançant, lui prend la main et se met à genoux.
+</stage>
 <p id="15">
 	<s id="1">Ceci, ma chère princesse : Que vous êtes bonne autant que belle ! </s>
 	<s id="2">Que la pauvre Peki n'oubliera jamais ce que vous avez voulu faire pour elle ; qu'elle priera pour vous chaque soir, afin que vous ayez, sur cette terre, toute la part de joie et de bonheur à laquelle vous avez droit.</s>
@@ -1038,7 +1073,8 @@
 	<s id="1">Mais comment cette idée t'est-elle revenue ?</s>
 </p>
 </sp>
-<sp stage="show" who="PEKI"><speaker>PEKI, lui montrant le livre.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="show">, lui montrant le livre.
+</stage>
 <p id="24">
 	<s id="1">En regardant ce livre. </s>
 </p>
@@ -1086,18 +1122,21 @@
 	<s id="2">Que vous êtes bonne !</s>
 </p>
 </sp>
-<sp stage="call" who="KOU-MIA"><speaker>KOU-MIA, la rappelant.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="call">, la rappelant.
+</stage>
 <p id="33">
 	<s id="1">Mais tu sais - il y a une fin à cette histoire : l'oiseau bleu n'oublia pas celui qui lui rendait la liberté. </s>
 	<s id="2">Il revint souvent.</s>
 </p>
 </sp>
-<sp stage="location" who="PEKI"><speaker>PEKI, du seuil.</speaker>
+<sp who="PEKI"><speaker>PEKI</speaker><stage type="location">, du seuil.
+</stage>
 <p id="34">
 	<s id="1">Quand vous voudrez entendre mes chansons, ouvrez vos fenêtres, faites un signe et je viendrai.</s>
 </p>
 </sp>
-<sp stage="sad" who="KOU-MIA"><speaker>KOU-MIA, tristement.</speaker>
+<sp who="KOU-MIA"><speaker>KOU-MIA</speaker><stage type="sad">, tristement.
+</stage>
 <p id="35">
 	<s id="1">Adieu donc !</s>
 </p>

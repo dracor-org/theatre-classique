@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -18,7 +18,7 @@
 			<type>prose</type>
 			<periode>1761-1770</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien></permalien>
+			<permalien/>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -28,26 +28,27 @@
 			<titlePart type="main">LE POULET</titlePart>
 			<titlePart type="sub">TROISIÈME PROVERBE.</titlePart>
 		</docTitle> 
-		<docDate value='1771'>M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
-		<docAuthor id='CARMONTELLE, Louis de' bio='carmontelle'>de CARMONTELLE.</docAuthor>
+		<docDate value="1771">M. DCC. LXVIII. Avec Approbation et Privilège du Roi.</docDate>
+		<docAuthor id="CARMONTELLE, Louis de" bio="carmontelle">de CARMONTELLE.</docAuthor>
 		<docImprint>
-			<printer id='MERLIN'>À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
+			<printer id="MERLIN">À Paris, chez MERLIN, Au bas de la Rue de Harpe, vis à vis de la rue Poupée.</printer>
 		</docImprint>
 		<performance>
-			<premiere date='(inconnue)' location='(inconnue)'></premiere>
+			<premiere date="(inconnue)" location="(inconnue)"/>
 		</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="MONSIEUR D'ORVILLE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR D'ORVILLE</role>.</castItem>
-		<castItem><role id="MONSIEUR FRÉMONT" sex="1" type="H" statut='médecin' age='A' stat_amour='néant'>MONSIEUR FRÉMONT</role>, médecin.</castItem>
-		<castItem><role id="LA BRIE" sex="1" type="H" statut='laquais' age='A' stat_amour='néant'>LA BRIE</role>, laquais de Monsieur d'Orville.</castItem>
-		<castItem><role id="COMTOIS" sex="1" type="H" statut='laquais' age='A' stat_amour='néant'>COMTOIS</role>, laquais de Monsieur d'Orville.</castItem>
+		<castItem><role id="MONSIEUR D'ORVILLE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">MONSIEUR D'ORVILLE</role>.</castItem>
+		<castItem><role id="MONSIEUR FRÉMONT" sex="1" type="H" statut="médecin" age="A" stat_amour="néant">MONSIEUR FRÉMONT</role>, médecin.</castItem>
+		<castItem><role id="LA BRIE" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">LA BRIE</role>, laquais de Monsieur d'Orville.</castItem>
+		<castItem><role id="COMTOIS" sex="1" type="H" statut="laquais" age="A" stat_amour="néant">COMTOIS</role>, laquais de Monsieur d'Orville.</castItem>
 	</castList>
-<set location='France' country='France' periode='XVIIIème' gps="(N/A)">La scène est chez Monsieur d'Orville.</set>
+<set location="France" country="France" periode="XVIIIème" gps="(N/A)">La scène est chez Monsieur d'Orville.</set>
 <note>Dans PROVERBES DRAMATIQUES, Tome premier, Première partie, 1768.</note>
 </front>
 <body>
 <div1 type="act" n="1"><head>LE POULET.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Monsieur D'Orville, Comtois, La Brie.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Monsieur D'Orville, Comtois, La Brie.
+</stage>
 <sp who="MONSIEUR D'ORVILLE"><speaker>MONSIEUR D'ORVILLE.</speaker>
 <p id="1">
 	<s id="1">Parbleu, cette médecine là m'a bien fatigué ! </s>
@@ -122,7 +123,8 @@
 <stage type="sleep/snore">Il s'endort et ronfle.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Monsieur D'Orville, La Brie, Comtois, portant le poulet.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Monsieur D'Orville, La Brie, Comtois, portant le poulet.
+</stage>
 <sp who="LA BRIE"><speaker>LA BRIE.</speaker>
 <p id="1">
 	<s id="1">Apporte du pain.</s>
@@ -172,7 +174,8 @@
 	<s id="1">Tu n'en viendras jamais à bout.</s>
 </p>
 </sp>
-<sp stage="shout" who="COMTOIS"><speaker>COMTOIS, criant.</speaker>
+<sp who="COMTOIS"><speaker>COMTOIS</speaker><stage type="shout">, criant.
+</stage>
 <p id="9">
 	<s id="1">Monsieur.</s>
 </p>
@@ -400,7 +403,8 @@
 	<s id="1">Paix donc.</s>
 </p>
 </sp>
-<sp who="MONSIEUR D'ORVILLE"><speaker>MONSIEUR D'ORVILLE, se frottant les yeux.</speaker>
+<sp who="MONSIEUR D'ORVILLE"><speaker>MONSIEUR D'ORVILLE</speaker><stage>, se frottant les yeux.
+</stage>
 <p id="50">
 	<s id="1">Hé bien, qu'est-ce que vous faites-là vous autres ?</s>
 </p>
@@ -531,14 +535,17 @@
 </p>
 <stage type="wash">II se rince ta bouche.</stage>
 </sp>
-<sp stage="toward/low" who="LA BRIE"><speaker>LA BRIE, à Comtois, bas.</speaker>
+<sp who="LA BRIE"><speaker>LA BRIE</speaker><stage type="toward/low">, à Comtois, bas.
+</stage>
 <p id="75">
 	<s id="1">Tu vois bien que Dame Jeanne n'aura rien à dire non plus.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Monsieur D'Orville, Monsieur Frémont, La Brie, Comtois.</head>
-<sp stage="shout" who="LA BRIE"><speaker>LA BRIE annonçant.</speaker>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Monsieur D'Orville, Monsieur Frémont, La Brie, Comtois.
+</stage>
+<sp who="LA BRIE"><speaker>LA BRIE</speaker><stage type="shout"> annonçant.
+</stage>
 <p id="1">
 	<s id="1">Monsieur Frémont.</s>
 </p>
@@ -578,7 +585,8 @@
 	<s id="1">Bon, Monsieur, a bien plus fait, il a mangé le poulet tout entier !</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT, en colère.</speaker>
+<sp who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT</speaker><stage type="anger">, en colère.
+</stage>
 <p id="9">
 	<s id="1">Le poulet entier ?</s>
 </p>
@@ -588,7 +596,8 @@
 	<s id="">Et bu sa bouteille de vin.</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT, en colère.</speaker>
+<sp who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT</speaker><stage type="anger">, en colère.
+</stage>
 <p id="11">
 	<s id="">Sa bouteille de vin et un poulet !</s>
 </p>
@@ -598,7 +607,8 @@
 	<s id="1">Hé, Monsieur, je mourais de faim.</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT, en colère.</speaker>
+<sp who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT</speaker><stage type="anger">, en colère.
+</stage>
 <p id="13">
 	<s id="1">Vous mouriez de faim ! </s>
 	<s id="2">Vous n'êtes pas plus raisonnable que cela ?</s>
@@ -609,7 +619,8 @@
 	<s id="1">Hé Monsieur ; c'est comme si je n'avais rien mangé, je me sens toujours le même besoin.</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT, en colère.</speaker>
+<sp who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT</speaker><stage type="anger">, en colère.
+</stage>
 <p id="15">
 	<s id="1">Le même besoin ! </s>
 	<s id="2">N'êtes-vous pas honteux ! </s>
@@ -621,7 +632,8 @@
 	<s id="1">Mais, Monsieur, considérez...</s>
 </p>
 </sp>
-<sp stage="anger" who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT, en colère.</speaker>
+<sp who="MONSIEUR FRÉMONT"><speaker>MONSIEUR FRÉMONT</speaker><stage type="anger">, en colère.
+</stage>
 <p id="17">
 	<s id="1">Je vous ordonne une aile de poulet, allez, allez, Monsieur, avec une intempérance comme celle-là, vous ne méritez pas qu'on s'attache à vous, et qu'on en prenne soin.</s>
 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -19,7 +19,7 @@
 			<type>prose</type>
 			<periode>1781-1790</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien cote=""></permalien>
+			<permalien cote=""/>
 		</SourceDesc>
 	</fileDesc>
 </teiHeader>
@@ -30,25 +30,26 @@
 			<titlePart type="sub">PROVERBE DRAMATIQUE EN UN ACTE ET EN PROSE.</titlePart>
 		</docTitle> 
 		<docDate value="1785">M DCC LXXXV.</docDate>
-		<docAuthor id="BORDE, Charles"></docAuthor>
+		<docAuthor id="BORDE, Charles"/>
 		<docImprint>
 			<editor id="HOOKHAM">À LONDRES, Chez T. HOOKHAM, Libraire, dans Bond-Street, au Coin de Bruton Street.</editor>
 		</docImprint>
 	<castList><head>ACTEURS</head>
-		<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age='A' stat_amour='néant'>LE BARON</role>.</castItem>
-		<castItem><role id="LA BARONNE" sex="1" type="H" statut="baron" age='A' stat_amour='néant'>LA BARONNE</role>.</castItem>
-		<castItem><role id="CIDALISE" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>CIDALISE</role>, Soeur du Baron.</castItem>
-		<castItem><role id="MONSIEUR GAILLARD" sex="1" type="H" statut="procureur fiscal" age='A' stat_amour='néant'>MONSIEUR GAILLARD</role>, Procureur Fiscal.</castItem>
-		<castItem><role id="MONSIEUR FLEURI" sex="1" type="H" statut="employé" age='A' stat_amour='néant'>MONSIEUR FLEURI</role>, Employé aux Aides.</castItem>
-		<castItem><role id="RUSTAUT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>RUSTAUT</role>.</castItem>
-		<castItem><role id="UN PAYSAN" sex="1" type="H" statut="paysan" age='A' stat_amour='néant'>UN PAYSAN</role>.</castItem>
-		<castItem><role id="VALETS" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>VALETS</role>.</castItem>
+		<castItem><role id="LE BARON" sex="1" type="H" statut="baron" age="A" stat_amour="néant">LE BARON</role>.</castItem>
+		<castItem><role id="LA BARONNE" sex="1" type="H" statut="baron" age="A" stat_amour="néant">LA BARONNE</role>.</castItem>
+		<castItem><role id="CIDALISE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">CIDALISE</role>, Soeur du Baron.</castItem>
+		<castItem><role id="MONSIEUR GAILLARD" sex="1" type="H" statut="procureur fiscal" age="A" stat_amour="néant">MONSIEUR GAILLARD</role>, Procureur Fiscal.</castItem>
+		<castItem><role id="MONSIEUR FLEURI" sex="1" type="H" statut="employé" age="A" stat_amour="néant">MONSIEUR FLEURI</role>, Employé aux Aides.</castItem>
+		<castItem><role id="RUSTAUT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">RUSTAUT</role>.</castItem>
+		<castItem><role id="UN PAYSAN" sex="1" type="H" statut="paysan" age="A" stat_amour="néant">UN PAYSAN</role>.</castItem>
+		<castItem><role id="VALETS" sex="1" type="H" statut="valet" age="A" stat_amour="néant">VALETS</role>.</castItem>
 	</castList>
 	<set location="Campagne" country="France" periode="XIXème" gps="">La scène est dans le château du Baron.</set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LE GENTILHOMME CAMPAGNARD</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. La Baronne, Cidalise.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> La Baronne, Cidalise.
+</stage>
 <sp who="CIDALISE"><speaker>CIDALISE.</speaker>
 <p id="1">
 	<s id="1">Enfin, ma chère soeur, nous pourrons jouir de quelques moments de repos ; mon frère va à la chasse cette après-midi.</s>
@@ -203,7 +204,8 @@
 	<s id="7">Et je mourrai toute entière !</s>
 </p>
 </sp>
-<sp stage="hide" who="LE BARON"><speaker>LE BARON, sans être vu.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="hide">, sans être vu.
+</stage>
 <p id="29">
 	<s id="1">Holà ! </s>
 	<s id="2">Hé ! </s>
@@ -305,13 +307,15 @@
 	<s id="26">Et quand on est aussi majestueux que vous l'êtes...</s>
 </p>
 </sp>
-<sp stage="watch" who="LE BARON"><speaker>LE BARON, sans être vu.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="watch">, sans être vu.
+</stage>
 <p id="43">
 	<s id="1">Ah ! </s>
 	<s id="2">Coquin, te voilà donc attrapé : tu ne m'échapperas pas : tiens, tiens, voilà pour t'apprendre, pour te corriger...</s>
 </p>
 </sp>
-<sp who="LE PAYSAN"><speaker>LE PAYSAN, sans être vu.</speaker>
+<sp who="LE PAYSAN"><speaker>LE PAYSAN</speaker><stage>, sans être vu.
+</stage>
 <p id="44">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur_le_Baron, pardon, pardon.</s>
@@ -329,7 +333,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. La Baronne, Cidalise, Le Baron.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> La Baronne, Cidalise, Le Baron.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce donc, ma femme ? </s>
@@ -424,7 +429,8 @@
 	<s id="1">Adieu, Monsieur.</s>
 </p>
 </sp>
-<sp stage="back" who="LE BARON"><speaker>LE BARON, revenant.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="back">, revenant.
+</stage>
 <p id="17">
 	<s id="">À propos, j'ai une prière à vous faire ; c'est de renvoyer ce petit commis, et ce procureur_fiscal, s'ils viennent vous voir.</s>
 </p>
@@ -514,7 +520,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. La Baronne, Cidalise.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> La Baronne, Cidalise.
+</stage>
 <sp who="CIDALISE"><speaker>CIDALISE.</speaker>
 <p id="1">
 	<s id="1">Mon frère, mon frère, vous me poussez à bout.</s>
@@ -655,7 +662,8 @@
 	<s id="3">Il me semble que je l'entends : voici du nouveau ; il parle beaucoup plus bas qu'à l'ordinaire : il se forme un peu.</s>
 </p>
 </sp>
-<sp who="LE BARON"><speaker>LE BARON, sans être vu.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage>, sans être vu.
+</stage>
 <p id="28">
 	<s id="1">Où est ma femme ?</s>
 </p>
@@ -679,7 +687,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. La Baronne, Cidalise, Le Baron.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> La Baronne, Cidalise, Le Baron.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Quoi ! </s>
@@ -726,13 +735,15 @@
 	<s id="2">Non, Monsieur, la paix, la tranquillité, c'est tout ce que je veux.</s>
 </p>
 </sp>
-<sp stage="location" who="LE BARON"><speaker>LE BARON, derrière le théâtre.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage type="location">, derrière le théâtre.
+</stage>
 <p id="9">
 	<s id="1">Tu as beau t'échapper ; je t'attraperai, je t'attraperai.</s>
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCENE V. La Baronne, Cidalise.</head>
+<div2 type="scene" n="5"><head>SCENE V.</head><stage> La Baronne, Cidalise.
+</stage>
 <sp who="CIDALISE"><speaker>CIDALISE.</speaker>
 <p id="1">
 	<s id="1">Enfin, nous en sommes débarrassées : le voilà parti.</s>
@@ -766,7 +777,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. La Baronne, Cidalise, Monsieur Fleuri, Monsieur Gaillard.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> La Baronne, Cidalise, Monsieur Fleuri, Monsieur Gaillard.
+</stage>
 <sp who="MONSIEUR GAILLARD"><speaker>MONSIEUR GAILLARD.</speaker>
 <p id="1">
 	<s id="1">MEsdames, nous voilà rendus à l'assignation.</s>
@@ -891,7 +903,8 @@
 	<s id="1">Vous m'en répondez, Monsieur_Fleuri ?</s>
 </p>
 </sp>
-<sp stage="kiss" who="MONSIEUR FLEURI"><speaker>MONSIEUR FLEURI, lui baisant la main.</speaker>
+<sp who="MONSIEUR FLEURI"><speaker>MONSIEUR FLEURI</speaker><stage type="kiss">, lui baisant la main.
+</stage>
 <p id="25">
 	<s id="1">J'en fais mon affaire ; il conviendra aussi que je sache un peu comment Monsieur_le_Baron...</s>
 </p>
@@ -1066,7 +1079,8 @@
 	<s id="2">Vous êtes toute ma consolation.</s>
 </p>
 </sp>
-<sp who="LE BARON"><speaker>LE BARON, sans être vu.</speaker>
+<sp who="LE BARON"><speaker>LE BARON</speaker><stage>, sans être vu.
+</stage>
 <p id="58">
 	<s id="1">Eh ! </s>
 	<s id="2">Rustaut, tu dis que tu les as vus ?</s>
@@ -1218,7 +1232,8 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Cidalise, La Baronne, Le Baron.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Cidalise, La Baronne, Le Baron.
+</stage>
 <sp who="LE BARON"><speaker>LE BARON.</speaker>
 <p id="1">
 	<s id="1">Les voilà toutes deux évanouies : je m'y attendAis : pour deux chiens de chasse tués ! </s>

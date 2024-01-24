@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -28,7 +28,7 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1639">M. DC. XXXIX. AVEC PRIVILÈRE DU ROI.</docDate>
-		<docAuthor id="CORNEILLE, Pierre"></docAuthor>
+		<docAuthor id="CORNEILLE, Pierre"/>
 		<docImprint>
 			<privilege id="1639-02-11"><head>Extrait du privilège du Roi.</head>
 			<p>Par grâce et privilège du Roi, il est permis à François Targa, marchand libraire à Paris, d'imprimer ou faire imprimer, et exposer en vente, un livre intitulé Médée Tragédie par Mr CORNEILLE ; et défenses sont faite à tous imprimeurs libraires, et autres, d'imprimer, ni faire imprimer le dit livre sans sa permission, ou de ceux qui auront droit de lui, et cependant le temps de sept ans à compter du jour que ledit livre sera achevé d'imprimer pour la première fois, à peine aux contrevenants, de trois mille livres d'amende, confiscation des exemplaires qui se trouveront contrefaits, et de tous dépens, dommages et intérêts, ainsi qu'il est contenu plus au long aux dites lettres de privilège. Donné à Parsi le onzième février six cent trente neuf.</p>
@@ -45,25 +45,26 @@
 			<p>Votre très humble serviteur, CORNEILLE.</p>
 		</div>
 		<performance>
-			<premiere date="1635" location='Théâtre du Marais'>Représenté pour la première fois en 1635 au Théâtre du Marais.</premiere>
+			<premiere date="1635" location="Théâtre du Marais">Représenté pour la première fois en 1635 au Théâtre du Marais.</premiere>
 		</performance>
 		<castList><head>ACTEURS</head>
-			<castItem><role id="CRÉON" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>CRÉON</role>, roi de Corinthe.</castItem>
-			<castItem><role id="AEGÉE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>AEGÉE</role>, roi d'Athènes.</castItem>
-			<castItem><role id="JASON" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>JASON</role>, mari de Médée.</castItem>
-			<castItem><role id="POLLUX" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>POLLUX</role>, Argonaute, ami de Jason.</castItem>
-			<castItem><role id="CRÉUSE" sex="2" type="H" statut='prince' age='J' stat_amour='néant'>CRÉUSE</role>, fille de Créon.</castItem>
-			<castItem><role id="MÉDÉE" sex="2" type="H" statut='roi' age='A' stat_amour='néant'>MÉDÉE</role>, femme de Jason.</castItem>
-			<castItem><role id="CLÉONE" sex="2" type="H" statut='gouvernante' age='A' stat_amour='néant'>CLÉONE</role>, gouvernante de Créuse.</castItem>
-			<castItem><role id="NÉRINE" sex="2" type="H" statut='suivante' age='A' stat_amour='néant'>NÉRINE</role>, suivante de Médée.</castItem>
-			<castItem><role id="THEUDAS" sex="1" type="H" statut='domestique' age='A' stat_amour='néant'>THEUDAS</role>, domestique de Créon.</castItem>
-			<castItem><role id="GARDES" sex="9" type="H" statut='garde' age='A' stat_amour='néant'>TROUPES, des Gardes de Créon</role>.</castItem>
+			<castItem><role id="CRÉON" sex="1" type="H" statut="roi" age="A" stat_amour="néant">CRÉON</role>, roi de Corinthe.</castItem>
+			<castItem><role id="AEGÉE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">AEGÉE</role>, roi d'Athènes.</castItem>
+			<castItem><role id="JASON" sex="1" type="H" statut="roi" age="A" stat_amour="néant">JASON</role>, mari de Médée.</castItem>
+			<castItem><role id="POLLUX" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">POLLUX</role>, Argonaute, ami de Jason.</castItem>
+			<castItem><role id="CRÉUSE" sex="2" type="H" statut="prince" age="J" stat_amour="néant">CRÉUSE</role>, fille de Créon.</castItem>
+			<castItem><role id="MÉDÉE" sex="2" type="H" statut="roi" age="A" stat_amour="néant">MÉDÉE</role>, femme de Jason.</castItem>
+			<castItem><role id="CLÉONE" sex="2" type="H" statut="gouvernante" age="A" stat_amour="néant">CLÉONE</role>, gouvernante de Créuse.</castItem>
+			<castItem><role id="NÉRINE" sex="2" type="H" statut="suivante" age="A" stat_amour="néant">NÉRINE</role>, suivante de Médée.</castItem>
+			<castItem><role id="THEUDAS" sex="1" type="H" statut="domestique" age="A" stat_amour="néant">THEUDAS</role>, domestique de Créon.</castItem>
+			<castItem><role id="GARDES" sex="9" type="H" statut="garde" age="A" stat_amour="néant">TROUPES, des Gardes de Créon</role>.</castItem>
 		</castList>
 		<set location="Corinthe" country="Grèce" periode="Temps mythologiques" gps="37.938637, 22.932238">La scène est à Corinthe.</set>
 	</front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Pollux, Jason.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Pollux, Jason.
+</stage>
 <sp who="POLLUX"><speaker>POLLUX.</speaker>
 	<l id="1">Que je sens à la fois de surprise et de joie !</l>
 	<l id="2">Se peut-il qu'en ces lieux enfin je vous revoie,</l>
@@ -299,7 +300,8 @@
 	<l id="172">D'avoir osé tenir contre tant de beauté.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Jason, Créuse, Cléone.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Jason, Créuse, Cléone.
+</stage>
 <sp who="JASON"><speaker>JASON.</speaker>
 	<l id="173">Que vos dévotions d'un longue souffrance</l>
 	<l id="174">Gênent un pauvre amant, qui meurt en votre absence !</l>
@@ -420,7 +422,8 @@
 	<l id="268">L'Isthme n'empêche plus les deux mers de s'unir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Médée, Nérine.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Médée, Nérine.
+</stage>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 	<l id="269">Eh bien, Nérine, à quand, à quand cet hyménée ?</l>
 	<l id="270">En ont-ils choisi l'heure ? En sais-tu la journée ?</l>
@@ -535,7 +538,8 @@ celui qui est hardi, qui ose beaucoup. [L]</note>
 	<l id="337">Sois seulement fidèle, et sans te mettre en peine</l>
 	<l id="338">Laisse agir pleinement mon savoir et ma haine.</l>
 </sp>
-<sp stage="alone" who="NÉRINE"><speaker>NÉRINE, seule.</speaker>
+<sp who="NÉRINE"><speaker>NÉRINE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="339">Madame. Elle s'enfuit au lieu de m'écouter,</l>
 	<l id="340">Ces violents transports la vont précipiter,</l>
 	<l id="341">Elle court à sa perte, et sa brutale envie</l>
@@ -546,7 +550,8 @@ celui qui est hardi, qui ose beaucoup. [L]</note>
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Médée, Nérine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Médée, Nérine.
+</stage>
 <sp who="NÉRINE"><speaker>NÉRINE.</speaker>
 	<l id="345">Bien qu'un péril certain suive votre entreprise,</l>
 	<l id="346">Assurez-vous sur moi, je vous suis toute acquise,</l>
@@ -580,7 +585,8 @@ celui qui est hardi, qui ose beaucoup. [L]</note>
 	<l id="368">Contenez-vous Madame, il sort de son palais.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Créon, Médée, Nérine, soldats.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Créon, Médée, Nérine, soldats.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="369">Quoi ? Je te vois encore ! Avec quelle impudence</l>
 	<l id="370">Peux-tu, sans t'effrayer, soutenir ma présence ?</l>
@@ -769,7 +775,8 @@ nos yeux. [L]</note>
 	<l id="508">En a-t-il arraché quelque soumission ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Créon, Jason, Créuse, Cléone, soldats.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Créon, Jason, Créuse, Cléone, soldats.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="509">Te voilà sans rivale, et mon pays sans guerres,</l>
 	<l id="510">Ma fille, c'est demain qu'elle sort de ma terre.</l>
@@ -811,7 +818,8 @@ nos yeux. [L]</note>
 	<l id="540">Surtout ne le reçois qu'avec civilité.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Jason, Créuse, Cléone.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Jason, Créuse, Cléone.
+</stage>
 <sp who="JASON"><speaker>JASON.</speaker>
 	<l id="541">Que ne vous dois-je point pour cette préférence,</l>
 	<l id="542">Où mes désirs n'osaient porter mon espérance !</l>
@@ -906,7 +914,8 @@ nos yeux. [L]</note>
 	<l id="608">Ma bouche accortement saura s'en acquitter.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. AEgée, Créuse, Cléone.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> AEgée, Créuse, Cléone.
+</stage>
 <sp who="AEGEE"><speaker>AEGÉE.</speaker>
 	<l id="609">Sur un bruit qui m'étonne et que je ne puis croire</l>
 	<l id="610">Madame, mon amour jaloux de votre gloire,</l>
@@ -983,26 +992,27 @@ nos yeux. [L]</note>
 	<l id="670">Que le bien de l'État, mon pays et mon père.</l>
 </sp>
 <sp who="AEGEE"><speaker>AEGÉE.</speaker>
-	<l id='671'>Puisque mon mauvais sort à ce point me réduit,</l>
-	<l id='672'>Qu'au lieu de me servir ma couronne me nuit :</l>
-	<l id='673'>Pour divertir l'effet de ce funeste oracle,</l>
-	<l id='674'>Je dépose à vos pieds ce précieux obstacle.</l>
-	<l id='675'>Madame, à mes sujets donnez un autre Roi,</l>
-	<l id='676'>De tout ce que je suis ne retenez que moi,</l>
-	<l id='677'>Allez sceptre, grandeurs, majesté, diadème, </l>
-	<l id='678'>Votre odieux éclat déplaît à ce que j'aime,</l>
-	<l id='679'>Je hais ce nom de Roi qui s'oppose à mes voeux,</l>
-	<l id='680'>Et le titre d'esclave est le seul que je veux.</l>
+	<l id="671">Puisque mon mauvais sort à ce point me réduit,</l>
+	<l id="672">Qu'au lieu de me servir ma couronne me nuit :</l>
+	<l id="673">Pour divertir l'effet de ce funeste oracle,</l>
+	<l id="674">Je dépose à vos pieds ce précieux obstacle.</l>
+	<l id="675">Madame, à mes sujets donnez un autre Roi,</l>
+	<l id="676">De tout ce que je suis ne retenez que moi,</l>
+	<l id="677">Allez sceptre, grandeurs, majesté, diadème, </l>
+	<l id="678">Votre odieux éclat déplaît à ce que j'aime,</l>
+	<l id="679">Je hais ce nom de Roi qui s'oppose à mes voeux,</l>
+	<l id="680">Et le titre d'esclave est le seul que je veux.</l>
 </sp>
 <sp who="CRÉUSE"><speaker>CRÉUSE.</speaker>
-	<l id='681'>Sans plus vous emporter à cette complaisance </l>
-	<l id='682'>Perdez mon souvenir avecque ma présence,</l>
-	<l id='683'>Et puisque mes raisons ont si peu de pouvoir</l>
-	<l id='684'>Que votre émotion se redouble à me voir,</l>
-	<l id='685'>Afin de redonner le repos à votre âme,</l>
-	<l id='686' part="i">Souffrez que je vous quitte.</l>
+	<l id="681">Sans plus vous emporter à cette complaisance </l>
+	<l id="682">Perdez mon souvenir avecque ma présence,</l>
+	<l id="683">Et puisque mes raisons ont si peu de pouvoir</l>
+	<l id="684">Que votre émotion se redouble à me voir,</l>
+	<l id="685">Afin de redonner le repos à votre âme,</l>
+	<l id="686" part="i">Souffrez que je vous quitte.</l>
 </sp>
-<sp stage="alone" who="AEGEE"><speaker>AEGÉE, seul.</speaker>
+<sp who="AEGEE"><speaker>AEGÉE</speaker><stage type="alone">, seul.
+	</stage>
 	<l id="686" part="f">Allez, allez, madame,</l>
 	<l id="687">Étaler vos appas et vanter vos mépris</l>
 	<l id="688">À l'infâme sorcier qui charme vos esprits.</l>
@@ -1057,7 +1067,8 @@ nos yeux. [L]</note>
 	<l id="728">Les desseins que je veux et n'ose traverser.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Jason, Nérine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Jason, Nérine.
+</stage>
 <sp who="JASON"><speaker>JASON.</speaker>
 	<l id="729">Nérine, et bien que dit notre pauvre exilée ?</l>
 	<l id="730">Tes sages entretiens l'ont ils point consolée ?</l>
@@ -1121,7 +1132,8 @@ nos yeux. [L]</note>
 	<l id="778">Ma rencontre la trouble je le vois qui s'irrite.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Médée, Jason, Nérine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Médée, Jason, Nérine.
+</stage>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 	<l id="779">Ne fuyez pas, Jason, de ces funestes lieux,</l>
 	<l id="780">C'est à moi d'en partir, recevez mes adieux.</l>
@@ -1363,7 +1375,8 @@ nos yeux. [L]</note>
 	<l id="948">Si je ne perds la vie avant ton souvenir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Médée, Nérine.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Médée, Nérine.
+</stage>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 	<l id="949">J'y donnerai bon ordre : il est en ta puissance</l>
 	<l id="950">D'oublier mon amour, mais non pas ma vengeance :</l>
@@ -1404,8 +1417,10 @@ nos yeux. [L]</note>
 </div2>
 </div1>
 <div1 type="act" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Médée, Nérine.</head>
-<sp stage="alone" who="MÉDÉE"><speaker>MÉDÉE, seule.</speaker>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Médée, Nérine.
+</stage>
+<sp who="MÉDÉE"><speaker>MÉDÉE</speaker><stage type="alone">, seule.
+	</stage>
 	<l id="969">C'est trop peu de Jason que ton oeil me dérobe,</l>
 	<l id="970">C'est trop peu de mon lit, tu veux encore ma robe,</l>
 	<l id="971">Rivale insatiable, et c'est encore trop peu</l>
@@ -1532,7 +1547,8 @@ nos yeux. [L]</note>
 	<l id="1064">Et sans me répliquer, fais ce que je te dis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Créon, Pollux, soldats.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Créon, Pollux, soldats.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1065">Nous devons bien chérir cette valeur parfaite</l>
 	<l id="1066">Qui de nos ravisseurs nous donne la défaite,</l>
@@ -1610,7 +1626,8 @@ nos yeux. [L]</note>
 	<l id="1120">Ma parole est donnée, et je la veux garder.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Créon, Pollux, Cléone.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Créon, Pollux, Cléone.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1121" part="i">Que font nos deux amants, Cléone ?</l>
 </sp>
@@ -1690,7 +1707,8 @@ nos yeux. [L]</note>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="jailed" who="AEGEE"><speaker>AEGÉE, en prison.</speaker>
+<sp who="AEGEE"><speaker>AEGÉE</speaker><stage type="jailed">, en prison.
+</stage>
 <poem type="stances">
 <lg n="1">
 	<l id="1169">Demeure affreuse des coupables,</l>
@@ -1756,7 +1774,8 @@ nos yeux. [L]</note>
 </poem>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. AEgée, Médée.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> AEgée, Médée.
+</stage>
 <sp who="AEGEE"><speaker>AEGÉE.</speaker>
 	<l id="1217">Mais d'où vient ce bruit sourd ? Quelle pâle lumière</l>
 	<l id="1218">Dissipe ces horreurs et frappe ma paupière ?</l>
@@ -1874,7 +1893,8 @@ nos yeux. [L]</note>
 </div2>
 </div1>
 <div1 type="act" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Médée, Theudas.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Médée, Theudas.
+</stage>
 <sp who="THEUDAS"><speaker>THEUDAS.</speaker>
 	<l id="1305">Ah ! Déplorable prince ! Ah Fortune cruelle !</l>
 	<l id="1306">Que je porte à Jason une triste nouvelle !</l>
@@ -1889,10 +1909,10 @@ nos yeux. [L]</note>
 </sp>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 	<l id="1310">Dépêche, ou ces longueurs attireront ma haine.</l>
-	<l id='1311'>Ma verge qui déjà t'empêche de courir</l>
-	<l id='1312'>N'a que trop de vertu pour te faire mourir.</l>
-	<l id='1313'>Garde toi seulement d'irriter ma colère,</l>
-	<l id='1314'>Et pense que ta mort dépend de me déplaire.</l>
+	<l id="1311">Ma verge qui déjà t'empêche de courir</l>
+	<l id="1312">N'a que trop de vertu pour te faire mourir.</l>
+	<l id="1313">Garde toi seulement d'irriter ma colère,</l>
+	<l id="1314">Et pense que ta mort dépend de me déplaire.</l>
 </sp>
 <sp who="THEUDAS"><speaker>THEUDAS.</speaker>
 	<l id="1315">Apprenez donc l'effet le plus prodigieux</l>
@@ -1932,7 +1952,8 @@ nos yeux. [L]</note>
 	<l id="1340">Dont bientôt Ménélas doit être possesseur,</l>
 	<l id="1341">Et j'allais lui porter ce funeste message.</l>
 </sp>
-<sp stage="touch/magic" who="MÉDÉE"><speaker>MÉDÉE, lui donnant un autre coup de sa baguette.</speaker>
+<sp who="MÉDÉE"><speaker>MÉDÉE</speaker><stage type="touch/magic">, lui donnant un autre coup de sa baguette.
+	</stage>
 	<l id="1342">Va, tu peux maintenant achever ton voyage.</l>
 	<l id="1343">Est-ce assez, ma vengeance, est-ce assez de deux morts ?</l>
 	<l id="1344">Consulte avec loisir tes plus ardents transports.</l>
@@ -1969,7 +1990,8 @@ nos yeux. [L]</note>
 	<l id="1374">Allons à son trépas ajouter ce carnage.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Créon, domestiques.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Créon, domestiques.
+</stage>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1375">Loin de me soulager, vous croissez mes tourments,</l>
 	<l id="1376">Le poison à mon corps unit mes vêtements,</l>
@@ -1990,7 +2012,8 @@ nos yeux. [L]</note>
 	<l id="1391">Il faut ainsi payer votre cruel secours.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Créon, Créuse, Cléone.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Créon, Créuse, Cléone.
+</stage>
 <sp who="CRÉUSE"><speaker>CRÉUSE.</speaker>
 	<l id="1392">Où fuyez-vous de moi, cher auteur de mes jours ?</l>
 	<l id="1393">Fuyez-vous l'innocente et malheureuse source</l>
@@ -2045,19 +2068,19 @@ nos yeux. [L]</note>
 	<l id="1434">De grâce hâtez-vous de recevoir mon âme.</l>
 </sp>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
-	<l id='1435' part="i">Ah ma fille.</l>
+	<l id="1435" part="i">Ah ma fille.</l>
 </sp>
 <sp who="CRÉUSE"><speaker>CRÉUSE.</speaker>
-	<l id='1435' part="m">Ah mon père.</l>
+	<l id="1435" part="m">Ah mon père.</l>
 </sp>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
-	<l id='1435' part="f">À ces embrassements</l>
-	<l id='1436'>Qui retiendrait ses pleurs, et ses gémissements ?</l>
-	<l id='1437'>Dns ces ardents baisers leurs âmes se confondent,</l>
-	<l id='1438'>Et leurs tristes sanglots seulement se répondent.</l>
+	<l id="1435" part="f">À ces embrassements</l>
+	<l id="1436">Qui retiendrait ses pleurs, et ses gémissements ?</l>
+	<l id="1437">Dns ces ardents baisers leurs âmes se confondent,</l>
+	<l id="1438">Et leurs tristes sanglots seulement se répondent.</l>
 </sp>
 <sp who="CRÉUSE"><speaker>CRÉUSE.</speaker>
-	<l id='1439' part="i">Hé quoi ? Vous me quittez !</l>
+	<l id="1439" part="i">Hé quoi ? Vous me quittez !</l>
 </sp>
 <sp who="CRÉON"><speaker>CRÉON.</speaker>
 	<l id="1439" part="f">Oui, je ne verrai pas</l>
@@ -2101,7 +2124,8 @@ nos yeux. [L]</note>
 	<l id="1463">Et son étonnement va passer en fureur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Jason, Créuse, Cléone, Theudas.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Jason, Créuse, Cléone, Theudas.
+</stage>
 <sp who="JASON"><speaker>JASON.</speaker>
 	<l id="1464">Que vois-je ici, grands dieux ! Quel spectacle d'horreur !</l>
 	<l id="1465">Quelque part que mes yeux portent ma vue errante,</l>
@@ -2144,10 +2168,10 @@ nos yeux. [L]</note>
 	<l id="1496">Le déplorable prix de m'avoir trop aimé,</l>
 	<l id="1497">Et puisque cette robe a causé votre perte</l>
 	<l id="1498">Je dois être puni de vous l'avoir offerte,</l>
-	<l id='1499'>Trop heureux si sa force agissant en mes mains</l>
-	<l id='1500'>Eut de notre ennemie éventé les desseins,</l>
-	<l id='1501'>Et détournant sur moi ses trames déloyales</l>
-	<l id='1502'>Mon âme eut satisfait pour deux âmes royales,</l>
+	<l id="1499">Trop heureux si sa force agissant en mes mains</l>
+	<l id="1500">Eut de notre ennemie éventé les desseins,</l>
+	<l id="1501">Et détournant sur moi ses trames déloyales</l>
+	<l id="1502">Mon âme eut satisfait pour deux âmes royales,</l>
 	<l id="1503">Mais ce poison m'épargne, et ces feux impuissants</l>
 	<l id="1504">Refusent de finir les douleurs que je sens.</l>
 	<l id="1505">Il faut donc que je vive, et vous m'êtes ravie !</l>
@@ -2179,10 +2203,10 @@ nos yeux. [L]</note>
 	<l id="1526">Et je ne suivrai pas son âme qui s'envole ?</l>
 	<l id="1527">Mon esprit retenu par ses commandements</l>
 	<l id="1528">Réserve encore ma vie à de pires tourments.</l>
-	<l id='1529'>Ô honte ! Mes regrets permettent que je vive</l>
-	<l id='1530'>Et ne secourent pas ma main qu'elle captive,</l>
-	<l id='1531'>Leur atteinte est trop faible, et dans un tel malheur</l>
-	<l id='1532'>Je suis trop peu touché pour mourir de douleur.</l>
+	<l id="1529">Ô honte ! Mes regrets permettent que je vive</l>
+	<l id="1530">Et ne secourent pas ma main qu'elle captive,</l>
+	<l id="1531">Leur atteinte est trop faible, et dans un tel malheur</l>
+	<l id="1532">Je suis trop peu touché pour mourir de douleur.</l>
 	<l id="1533">Pardonne, chère épouse, à mon obéissance,</l>
 	<l id="1534">Mon déplaisir mortel défère à ta puissance,</l>
 	<l id="1535">Et de mes jours maudits tout prêt de triompher,</l>
@@ -2220,7 +2244,8 @@ nos yeux. [L]</note>
 	<l id="1565">Toutefois qu'ont-ils fait qu'obéir à leur mère ?</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Médée, Jason.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Médée, Jason.
+</stage>
 <sp who="MÉDÉE"><speaker>MÉDÉE.</speaker>
 	<l id="1566">Lâche, ton désespoir encore en délibère ?</l>
 	<l id="1567">Lève les yeux perfide, et reconnais ce bras.</l>

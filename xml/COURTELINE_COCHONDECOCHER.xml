@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 	<fileDesc>
@@ -28,25 +28,26 @@
 		<docTitle>
 			<titlePart type="main">COCHON DE COCHER !</titlePart>
 		</docTitle> 
-		<docDate value='1894'>1894. Tous droits réservés.</docDate>
-		<docAuthor id='COURTELINE, Georges'>de GEORGES COURTELINE.</docAuthor>
+		<docDate value="1894">1894. Tous droits réservés.</docDate>
+		<docAuthor id="COURTELINE, Georges">de GEORGES COURTELINE.</docAuthor>
 		<docImprint>
-			<editor id='ALBIN MICHEL'>PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
-			<printer id='COLIN'>ÉMILE COLIN - Imprimerie de Lagny.</printer>
+			<editor id="ALBIN MICHEL">PARIS, ERNEST FLAMMARION, ÉDITEUR, 26, rue RACINE, près l'Odéon.</editor>
+			<printer id="COLIN">ÉMILE COLIN - Imprimerie de Lagny.</printer>
 		</docImprint>		
 		<castList><head>PERSONNAGES..</head>
-			<castItem><role id="TIRACINQ" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>TIRACINQ</role>.</castItem>
-			<castItem><role id="LE PASSANT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>LE PASSANT</role>.</castItem>
-			<castItem><role id="UN VOYOU" sex="1" type="H" statut="voleur" age='A' stat_amour='néant'>UN VOYOU</role>.</castItem>
-			<castItem><role id="LE COCHER" sex="1" type="H" statut="cocher" age='A' stat_amour='néant'>LE COCHER</role>.</castItem>
+			<castItem><role id="TIRACINQ" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">TIRACINQ</role>.</castItem>
+			<castItem><role id="LE PASSANT" sex="1" type="H" statut="bourgeois" age="A" stat_amour="néant">LE PASSANT</role>.</castItem>
+			<castItem><role id="UN VOYOU" sex="1" type="H" statut="voleur" age="A" stat_amour="néant">UN VOYOU</role>.</castItem>
+			<castItem><role id="LE COCHER" sex="1" type="H" statut="cocher" age="A" stat_amour="néant">LE COCHER</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"></set>
+		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222"/>
 		<note>Extrait de COURTELINE, Georges, "Ombres parisiennes", Paris, Ernest Flammarion, 1894. pp 173-177</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>COCHON DE COCHER ! </head>
-<div2 type="scene" n="1"><head></head>
-<sp stage="" who="TIRACINQ"><speaker>TIRACINQ, debout près d'une fiacre vide et consultant le cadran éclairé de la gare de Lyon.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="TIRACINQ"><speaker>TIRACINQ</speaker><stage type="">, debout près d'une fiacre vide et consultant le cadran éclairé de la gare de Lyon.
+</stage>
 <note type="L">Automédon : Dans la mythologie, nom du conducteur du char d'Achille. </note>
 <p id="1">
 	<s id="1">Cochon de cocher, qui me dit : « Ne bougez pas, je reviens. </s>
@@ -64,7 +65,8 @@
 	<s id="1">Vous êtes libre ?</s>
 </p>
 </sp>
-<sp stage="offended" who="TIRACINQ"><speaker>TIRACINQ, froissé de la méprise.</speaker>
+<sp who="TIRACINQ"><speaker>TIRACINQ</speaker><stage type="offended">, froissé de la méprise.
+</stage>
 <p id="3">
 	<s id="1">Allez donc au bain ! </s>
 	<s id="2">Imbécile !</s>
@@ -100,7 +102,8 @@
 	<s id="2">« Ne bougez.... »</s>
 </p>
 </sp>
-<sp stage="entrance" who="UN VOYOU"><speaker>UN VOYOU qui passe.</speaker>
+<sp who="UN VOYOU"><speaker>UN VOYOU</speaker><stage type="entrance"> qui passe.
+</stage>
 <p id="8">
 	<s id="">Va donc, Collignon !</s>
 </p>
@@ -148,12 +151,14 @@
 	<s id="1">Oui, je vas remiser, rue_de_Lyon.</s>
 </p>
 </sp>
-<sp stage="estonish/desparate" who="TIRACINQ"><speaker>TIRACINQ, stupéfait et exaspéré.</speaker>
+<sp who="TIRACINQ"><speaker>TIRACINQ</speaker><stage type="estonish/desparate">, stupéfait et exaspéré.
+</stage>
 <p id="17">
 	<s id="1">Et vous ne pouviez pas me dire cela tout à l'heure ?</s>
 </p>
 </sp>
-<sp who="LE COCHER"><speaker>LE COCHER, simple.</speaker>
+<sp who="LE COCHER"><speaker>LE COCHER</speaker><stage>, simple.
+</stage>
 <p id="18">
 	<s id="1">Si, Monsieur ; mais en mon absence, qui aurait gardé ma voiture ?</s>
 </p>

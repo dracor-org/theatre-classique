@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -33,7 +33,7 @@
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1667">M. DC. LXVII. AVEC PRIVILÈGE DU ROI.</docDate>
-		<docAuthor id="MOLIERE" bio='moliere'>Par J. B. P. DE MOLIÈRE</docAuthor>
+		<docAuthor id="MOLIERE" bio="moliere">Par J. B. P. DE MOLIÈRE</docAuthor>
 		<docImprint>
 			<privilege id="1666-06-21"><head>Extrait du privilège du Roi.</head>
 				<p>Par grâce et privilège du Roi, donné à Fontainebleau le 21 juin 1666. Signé, Par le Roi en son conseil, BERAUD : il est permis à J.B.P. de MOLIÈRE, Comédien de la Troupe de Monsieur le Duc d'Orléans, de faire imprimer, vendre et débiter une comédie par lui composée, intitulée, Le Misanthrope, pendant cinq années : Et défenses sont faites à tous autres, de l'imprimer, ni vendre, d'autre édition que de celle de l'exposant, ou de ceux qui auront droit de lui, à peine de quinze cent livres d'amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts, comme il est porté plus amplement par lesdites Lettres.</p>
@@ -41,10 +41,10 @@
 				<p>Registré sur le livre de la Communauté, signé, PIGET, Syndic.</p>
 			</privilege>
 			<acheveImprime id="1666-12-24">Achevé d'imprimer pour le première fois, le 24 décembre 1666.</acheveImprime>
-			<printer id='RIBOU'>À PARIS, chez JEAN RIBOU, au Palais, vis à vis de la Porte de l'Église de la Saint Chapelle, à l'Image Saint-Louis.</printer>
+			<printer id="RIBOU">À PARIS, chez JEAN RIBOU, au Palais, vis à vis de la Porte de l'Église de la Saint Chapelle, à l'Image Saint-Louis.</printer>
 		</docImprint>
 		<performance>
-			<premiere date="1666-06-04" location='Théâtre du Palais-Royal'>Représenté pour la première fois le 4 juin 1666 au Théâtre du Palais Royal.</premiere>
+			<premiere date="1666-06-04" location="Théâtre du Palais-Royal">Représenté pour la première fois le 4 juin 1666 au Théâtre du Palais Royal.</premiere>
 		</performance>
 		<div type="preface"><head>LE LIBRAIRE AU LECTEUR</head>
 			<p>Le Misanthrope, dès sa première représentation, ayant reçu au théâtre, l'approbation que le lecteur ne lui pourra refuser, et la Cour étant à Fontainebleau, lorsqu'il parut ; j'ai cru que je ne pouvais rien faire de plus agréable pour le public, que de lui faire part de cette lettre, qui fut écrite, un jour après, à une personne de qualité, sur le sujet de cette comédie. Celui qui l'écrivit étant un homme dont le mérite et l'esprit est fort connu, sa lettre fut vue de la meilleure partie de la Cour, et trouvé si juste par tout ce qu'il y a de gens les plus éclairés en ces matières, que je me suis persuadé qu'après leur avoir plu, le lecteur me serait obligé du soin que j'avais pris d'en chercher une copie pour la lui donner, et qu'il lui rendra la justice que tant de personnes de la plus haute naissance lui ont accordée.</p>
@@ -110,23 +110,24 @@
 			<p>Vous trouverez, sans doute, ma lettre trop longue ; mais je n'ai pu m'arrêter, et j'ai trouvé qu'il était difficile de parler sur un si grand sujet, en peu de mots. Ce long discours ne devrait pas déplaire aux courtisans, puisqu'ils ont assez fait voir, par leurs applaudissements, qu'ils trouvaient la Comédie belle. En tout cas, je n'ai écrit que pour vous ; et j'espère que vous cacherez ceci, si vous jugez qu'il ne vaille pas la peine d'être montré. Ne craignez pas que j'y trouve à redire ; je suis autrement soumis à votre jugement, qu'Oronte ne l'était aux avis du Misanthrope.</p>
 		</div>
 	<castList><head>ACTEURS</head>
-	<castItem><role id="ALCESTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='Célimène'>ALCESTE</role>, amant de Célimène.</castItem>
-	<castItem><role id="PHILINTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>PHILINTE</role>, un ami d'Alceste.</castItem>
-	<castItem><role id="ORONTE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='Célimène'>ORONTE</role>, amant de Célimène.</castItem>
-	<castItem><role id="CÉLIMÈNE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='Alceste'>CÉLIMÈNE</role>, amante d'Alceste.</castItem>
-	<castItem><role id="ÉLIANTE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>ÉLIANTE</role>, cousine de Célimène.</castItem>
-	<castItem><role id="ARSINOÉ" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>ARSINOÉ</role>, amie de Célimène.</castItem>
-	<castItem><role id="ACASTE" sex="1" type="H" statut='marquis' age='A' stat_amour='néant'>ACASTE</role>, marquis.</castItem>
-	<castItem><role id="CLITANDRE" sex="1" type="H" statut='marquis' age='A' stat_amour='néant'>CLITANDRE</role>, marquis.</castItem>
-	<castItem><role id="BASQUE" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>BASQUE</role>, valet de Célimène.</castItem>
-	<castItem><role id="DUBOIS" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>DU BOIS</role>, valet d'Alceste.</castItem>
-	<castItem><role id="UN GARDE" sex="1" type="H" statut='garde' age='A' stat_amour='néant'>UN GARDE</role> de la maréchaussée de France.</castItem>
+	<castItem><role id="ALCESTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ALCESTE</role>, amant de Célimène.</castItem>
+	<castItem><role id="PHILINTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">PHILINTE</role>, un ami d'Alceste.</castItem>
+	<castItem><role id="ORONTE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ORONTE</role>, amant de Célimène.</castItem>
+	<castItem><role id="CÉLIMÈNE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="Alceste">CÉLIMÈNE</role>, amante d'Alceste.</castItem>
+	<castItem><role id="ÉLIANTE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLIANTE</role>, cousine de Célimène.</castItem>
+	<castItem><role id="ARSINOÉ" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">ARSINOÉ</role>, amie de Célimène.</castItem>
+	<castItem><role id="ACASTE" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">ACASTE</role>, marquis.</castItem>
+	<castItem><role id="CLITANDRE" sex="1" type="H" statut="marquis" age="A" stat_amour="néant">CLITANDRE</role>, marquis.</castItem>
+	<castItem><role id="BASQUE" sex="1" type="H" statut="valet" age="A" stat_amour="néant">BASQUE</role>, valet de Célimène.</castItem>
+	<castItem><role id="DUBOIS" sex="1" type="H" statut="valet" age="A" stat_amour="néant">DU BOIS</role>, valet d'Alceste.</castItem>
+	<castItem><role id="UN GARDE" sex="1" type="H" statut="garde" age="A" stat_amour="néant">UN GARDE</role> de la maréchaussée de France.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 	</front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Philinte, Alceste.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Philinte, Alceste.
+</stage>
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="1" part="i">Qu'est-ce donc ? Qu'avez-vous ?</l>
 </sp>
@@ -541,7 +542,8 @@
 	<l id="249">Je crains fort pour vos feux ; et l'espoir où vous êtes,</l>
 	<l id="250" part="i">Pourrait...</l>
 </sp></div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Oronte, Alceste, Philinte.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Oronte, Alceste, Philinte.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="250" part="f">J'ai su là-bas que, pour quelques emplettes,</l>
 	<l id="251">Éliante est sortie, et Célimène aussi :</l>
@@ -690,7 +692,7 @@
 	<l id="320">Quoi ? Vous avez le front de trouver cela beau ?</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
-<poem type='quatrain'>
+<poem type="quatrain">
 	<lg n="1">
 		<l id="321">Vous eûtes de la complaisance,</l>
 		<l id="322">Mais vous en deviez moins avoir ;</l>
@@ -702,11 +704,12 @@
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="325">Ah ! Qu'en termes galants, ces choses-là sont mises !</l>
 </sp>
-<sp stage="low" who="ALCESTE"><speaker>ALCESTE, bas.</speaker>
+<sp who="ALCESTE"><speaker>ALCESTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="326">Morbleu, vil complaisant, vous louez des sottises ?</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
-<poem type='sonnet'>
+<poem type="sonnet">
 	<lg n="1">
 		<l id="327">S'il faut qu'une attente éternelle</l>
 		<l id="328">Pousse à bout l'ardeur de mon zèle,</l>
@@ -722,7 +725,8 @@
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="333">La chute en est jolie, amoureuse, admirable.</l>
 </sp>
-<sp stage="low" who="ALCESTE"><speaker>ALCESTE, bas.</speaker>
+<sp who="ALCESTE"><speaker>ALCESTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="334">La peste de ta chute ! Empoisonneur au Diable,</l>
 	<l id="335">En eusses-tu fait une à te casser le nez !</l>
 </sp>
@@ -738,7 +742,8 @@
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="338" part="i">Non, je ne flatte point.</l>
 </sp>
-<sp stage="low" who="ALCESTE"><speaker>ALCESTE, bas.</speaker>
+<sp who="ALCESTE"><speaker>ALCESTE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="338" part="f">Et que fais-tu donc, traître ?</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
@@ -902,7 +907,8 @@
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="434">Ma foin mon grand Monsieur, je le prends comme il faut.</l>
 </sp>
-<sp stage="closer/location" who="PHILINTE"><speaker>PHILINTE, se mettant entre-deux.</speaker>
+<sp who="PHILINTE"><speaker>PHILINTE</speaker><stage type="closer/location">, se mettant entre-deux.
+	</stage>
 	<l id="435">Ah ! Messieurs c'en est trop, laissez cela de grâce.</l>
 </sp>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
@@ -913,7 +919,8 @@
 	<l id="438">Et moi, je suis, Monsieur, votre humble serviteur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Philinte, Alceste.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Philinte, Alceste.
+</stage>
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="439">Hé bien ! Vous le voyez ; pour être trop sincère,</l>
 	<l id="440">Vous voilà sur les bras, une fâcheuse affaire ;</l>
@@ -964,7 +971,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alceste, Célimène.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alceste, Célimène.
+</stage>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="447">Madame, voulez-vous que je vous parle net ?</l>
 	<l id="448">De vos façons d'agir, je suis mal satisfait :</l>
@@ -1098,7 +1106,8 @@
 	<l id="531">Parlons à coeur ouvert, et voyons d'arrêter...</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Célimène, Alceste, Basque.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Célimène, Alceste, Basque.
+</stage>
 <sp who="CÉLIMÈNE"><speaker>CÉLIMÈNE.</speaker>
 	<l id="532" part="i">Qu'est-ce ?</l>
 </sp>
@@ -1142,7 +1151,8 @@
 	<l id="551">Et les précautions de votre jugement.</l>
 
 </sp></div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Basque, Alceste, Célimène.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Basque, Alceste, Célimène.
+</stage>
 <sp who="BASQUE"><speaker>BASQUE.</speaker>
 	<l id="552" part="i">Voici Clitandre, encor, Madame.</l>
 </sp>
@@ -1186,7 +1196,8 @@
 	<l id="558">Hé bien, allez, sortez il vous est tout loisible.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Éliante, Philinte, Acaste, Clitandre, Alceste, Célimène, Basque.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Éliante, Philinte, Acaste, Clitandre, Alceste, Célimène, Basque.
+</stage>
 <sp who="ELIANTE"><speaker>ÉLIANTE.</speaker>
 	<l id="559">Voici les deux marquis, qui montent avec nous,</l>
 	<l id="560" part="i">Vous l'est-on venu dire ?</l>
@@ -1249,7 +1260,8 @@
 	<l id="581">Dans les propos qu'il tient, on ne voit jamais goutte,</l>
 	<l id="582">Et ce n'est que du bruit que tout ce qu'on écoute.</l>
 </sp>
-<sp stage="toward" who="ELIANTE"><speaker>ÉLIANTE, à Philinte.</speaker>
+<sp who="ELIANTE"><speaker>ÉLIANTE</speaker><stage type="toward">, à Philinte.
+	</stage>
 	<l id="583">Ce début n'est pas mal ; et contre le prochain,</l>
 	<l id="584">La conversation prend un assez bon train.</l>
 </sp>
@@ -1508,7 +1520,8 @@
 	<l id="742">Nous verrons, si c'est moi, que vous voudrez qui sorte.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Basque, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Basque, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.
+</stage>
 <sp who="BASQUE"><speaker>BASQUE.</speaker>
 	<l id="743">Monsieur, un homme est là, qui voudrait vous parler,</l>
 	<l id="744">Pour affaire, dit-il qu'on ne peut reculer.</l>
@@ -1530,7 +1543,8 @@
 	<l id="749" part="i">Venez, Monsieur.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Garde, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Garde, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.
+</stage>
 <sp who="GARDE"><speaker>GARDE.</speaker>
 	<l id="749" part="f">Monsieur, j'ai deux mots à vous dire.</l>
 </sp>
@@ -1614,7 +1628,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Clitandre, Acaste.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Clitandre, Acaste.
+</stage>
 <sp who="CLITANDRE"><speaker>CLITANDRE.</speaker>
 	<l id="777">Cher marquis, je te vois l'âme bien satisfaite,</l>
 	<l id="778">Toute chose t'égaye, et rien ne t'inquiète.</l>
@@ -1737,7 +1752,8 @@
 	<l id="847" part="i">Mais chut.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Célimène, Acaste, Clitandre.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Célimène, Acaste, Clitandre.
+</stage>
 <sp who="CÉLIMÈNE"><speaker>CÉLIMÈNE.</speaker>
 	<l id="847" part="m">Encore ici ?</l>
 </sp>
@@ -1751,7 +1767,8 @@
 <sp who="CLITANDRE"><speaker>CLITANDRE.</speaker>
 	<l id="849" part="m">Non.</l>
 </sp></div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Basque, Célimène, Acaste, Clitandre.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Basque, Célimène, Acaste, Clitandre.
+</stage>
 <sp who="BASQUE"><speaker>BASQUE.</speaker>
 	<l id="849" part="f">Arsinoé, Madame,</l>
 	<l id="850" part="i">Monte ici, pour vous voir.</l>
@@ -1791,7 +1808,8 @@
 	<l id="872">Elle est impertinente au suprême degré,</l>
 	<l id="873" part="i">Et...</l>
 </sp></div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Arsinoé, Célimène.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Arsinoé, Célimène.
+</stage>
 <sp who="CÉLIMÈNE"><speaker>CÉLIMÈNE.</speaker>
 	<l id="873" part="f">Ah ! Quel heureux sort, en ce lieu, vous amène ;</l>
 	<l id="874">Madame, sans mentir, j'étais de vous en peine.</l>
@@ -2002,7 +2020,8 @@
 	<l id="1040">D'excuser, aisément, mon incivilité.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Alceste, Arsinoé.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Alceste, Arsinoé.
+</stage>
 <sp who="ARSINOÉ"><speaker>ARSINOÉ.</speaker>
 	<l id="1041">Vous voyez, elle veut que je vous entretienne ; </l>
 	<l id="1042">Attendant un moment, que mon carrosse vienne,</l>
@@ -2133,7 +2152,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Éliante, Philinte.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Éliante, Philinte.
+</stage>
 <sp who="PHILINTE"><speaker>PHILINTE.</speaker>
 	<l id="1133">Non, l'on n'a point vu d'âme à manier si dure,</l>
 	<l id="1134">Ni d'accommodement plus pénible à conclure ;</l>
@@ -2242,7 +2262,8 @@
 	<l id="1216">Et de tous mes souhaits, j'en presse le moment.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Alceste, Éliante, Philinte.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Alceste, Éliante, Philinte.
+</stage>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="1217">Ah ! Faites-moi raison, Madame, d'une offense</l>
 	<l id="1218">Qui vient de triompher de toute ma constance.</l>
@@ -2342,7 +2363,8 @@
 	<l id="1276">Un coeur tout dégagé de ses trompeurs attraits.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Célimène, Alceste.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Célimène, Alceste.
+</stage>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="1277">Ô ciel ! De mes transports puis-je être, ici, le maître ?</l>
 </sp>
@@ -2569,7 +2591,8 @@
 	<l id="1435">Voici Monsieur du Bois, plaisamment, figuré.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Du Bois, Célimène, Alceste.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Du Bois, Célimène, Alceste.
+</stage>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="1436">Que veut cet équipage, et cet air effaré ?</l>
 	<l id="1437" part="i">Qu'as-tu ?</l>
@@ -2682,7 +2705,8 @@
 	<l id="1472">Je ne sais, mais j'aspire à m'en voir éclairci.</l>
 	<l id="1473">Auras-tu bientôt fait, impertinent au diable ?</l>
 </sp>
-<sp stage="search" who="DUBOIS"><speaker>DU BOIS, après l'avoir longtemps cherché.</speaker>
+<sp who="DUBOIS"><speaker>DU BOIS</speaker><stage type="search">, après l'avoir longtemps cherché.
+	</stage>
 	<l id="1474">Ma foi, je l'ai, Monsieur, laissé sur votre table.</l>
 </sp>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
@@ -2702,7 +2726,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Alceste, Philinte.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Alceste, Philinte.
+</stage>
 <sp who="ALCESTE"><speaker>ALCESTE.</speaker>
 	<l id="1481">La résolution en est prise, vous dis-je.</l>
 </sp>
@@ -2841,7 +2866,8 @@
 	<l id="1586">Et je vais obliger Éliante à descendre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Oronte, Célimène, Alceste.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Oronte, Célimène, Alceste.
+</stage>
 <sp who="ORONTE"><speaker>ORONTE.</speaker>
 	<l id="1587">Oui, c'est à vous, de voir, si par des noeuds si doux</l>
 	<l id="1588">Madame, vous voulez m'attacher tout à vous :</l>
@@ -2864,7 +2890,8 @@
 	<l id="1601">Choisissez s'il vous plaît, de garder l'un, ou l'autre :</l>
 	<l id="1602">Ma résolution n'attend rien que la vôtre.</l>
 </sp>
-<sp stage="entrance/location" who="ALCESTE"><speaker>ALCESTE, sortant du coin où il s'était retiré.</speaker>
+<sp who="ALCESTE"><speaker>ALCESTE</speaker><stage type="entrance/location">, sortant du coin où il s'était retiré.
+	</stage>
 	<l id="1603">Oui, Monsieur a raison ; Madame, il faut choisir,</l>
 	<l id="1604">Et sa demande, ici, s'accorde à mon désir,</l>
 	<l id="1605">Pareille ardeur me presse, et même soin m'amène ;</l>
@@ -2952,7 +2979,8 @@
 	<l id="1652">J'en vais prendre pour juge, Éliante qui vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Éliante, Philinte, Célimène, Oronte, Alceste.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Éliante, Philinte, Célimène, Oronte, Alceste.
+</stage>
 <sp who="CÉLIMÈNE"><speaker>CÉLIMÈNE.</speaker>
 	<l id="1653">Je me vois, ma cousine, ici, persécutée,</l>
 	<l id="1654">Par des gens dont l'humeur y paraît concertée,</l>
@@ -2986,7 +3014,8 @@
 	<l id="1668">Et moi, je vous entends, si vous ne parlez pas.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE DERNIÈRE. Acaste, Clitandre, Arsinoé, Philinte, Éliante, Oronte, Célimène, Alceste.</head>
+<div2 type="scene" n="4"><head>SCÈNE DERNIÈRE.</head><stage> Acaste, Clitandre, Arsinoé, Philinte, Éliante, Oronte, Célimène, Alceste.
+</stage>
 <sp who="ACASTE"><speaker>ACASTE.</speaker>
 	<l id="1669">Madame, nous venons, tous deux, sans vous déplaire.</l>
 	<l id="1670">Éclaircir, avec vous une petite affaire.</l>
@@ -3023,38 +3052,38 @@
 	<l id="1690">Mais ceci vaut, assez la peine de le lire.</l>
 <note type="L">Flandrin : Sobriquet que l'on donne aux hommes élancés. C'est un grand flandrin. Il est du style familier. [Ac]</note>
 <p id="1">
-	<s id='1'>Vous êtes un étrange homme de condamner mon enjouement, et de me reprocher que je n'ai jamais tant de joie, que lorsque je ne suis pas avec vous. </s>
-	<s id='2'>Il n'y a rien de plus injuste, et si vous ne venez bien vite me demander pardon de cette offense, je ne vous la pardonnerai de ma vie. </s>
-	<s id='3'>Notre grand flandrin de vicomte...</s>
+	<s id="1">Vous êtes un étrange homme de condamner mon enjouement, et de me reprocher que je n'ai jamais tant de joie, que lorsque je ne suis pas avec vous. </s>
+	<s id="2">Il n'y a rien de plus injuste, et si vous ne venez bien vite me demander pardon de cette offense, je ne vous la pardonnerai de ma vie. </s>
+	<s id="3">Notre grand flandrin de vicomte...</s>
 </p>
-	<l id='1691'>Il devrait être ici.</l>
+	<l id="1691">Il devrait être ici.</l>
 <p id="3">
-	<s id='1'>Notre grand flandrin de vicomte, par qui vous commencez vos plaintes, est un homme qui ne saurait me revenir ; et depuis que je l'ai vu trois quarts d'heure durant, cracher dans un puits, pour faire des ronds, je n'ai pu jamais, prendre bonne opinion de lui. </s>
-	<s id='2'>Pour le petit marquis.[..]</s>
+	<s id="1">Notre grand flandrin de vicomte, par qui vous commencez vos plaintes, est un homme qui ne saurait me revenir ; et depuis que je l'ai vu trois quarts d'heure durant, cracher dans un puits, pour faire des ronds, je n'ai pu jamais, prendre bonne opinion de lui. </s>
+	<s id="2">Pour le petit marquis.[..]</s>
 </p>
-	<l id='1692'>C'est moi-même, messieurs, sans nulle vanité.</l>
+	<l id="1692">C'est moi-même, messieurs, sans nulle vanité.</l>
 <note type="L">Rubans : tissu plat fort mince, dont la largeur ne passe pas trois ou quatre doigts, et qui sert à nouer, lier et serrer quelque chose. Il sert aussi à orner les habits. [F]</note>
 <p id="4">
 	<s id="1">Pour le petit Marquis, qui me tint hier, longtemps la main, je trouve qu'il n'y a rien de si mince que toute sa personne ; et ce sont de ces mérites qui n'ont que la cape et l'épée. </s>
 	<s id="2">Pour l'homme aux rubans verts...</s>
 </p>
-	<l id='1693' part="i">À vous le dé, Monsieur.</l>
+	<l id="1693" part="i">À vous le dé, Monsieur.</l>
 <p id="5">
-	<s id='1'>Pour l'homme aux rubans verts, il me divertit quelquefois, avec ses brusqueries, et son chagrin bourru ; mais il est cent moments, où je le trouve le plus fâcheux du monde. </s>
+	<s id="1">Pour l'homme aux rubans verts, il me divertit quelquefois, avec ses brusqueries, et son chagrin bourru ; mais il est cent moments, où je le trouve le plus fâcheux du monde. </s>
 	<s id="2">Et pour l'homme à la veste...</s>
 </p>
-	<l id='1693' part="f">Voici votre paquet.</l>
+	<l id="1693" part="f">Voici votre paquet.</l>
 <p id="6">	
-	<s id='1'>Et pour l'homme à la veste, qui s'est jeté dans le bel esprit, et veut être auteur malgré tout le monde, je ne puis me donner la peine d'écouter ce qu'il dit ; et sa prose me fatigue autant que ses vers. </s>
-	<s id='2'>Mettez-vous, donc, en tête, que je ne me divertis pas toujours si bien que vous pensez ; que je vous trouve à dire plus que je ne voudrais, dans toutes les parties où l'on m'entraîne ; et que c'est un merveilleux assaisonnement aux plaisirs qu'on goûte, que la présence des gens qu'on aime.</s>
+	<s id="1">Et pour l'homme à la veste, qui s'est jeté dans le bel esprit, et veut être auteur malgré tout le monde, je ne puis me donner la peine d'écouter ce qu'il dit ; et sa prose me fatigue autant que ses vers. </s>
+	<s id="2">Mettez-vous, donc, en tête, que je ne me divertis pas toujours si bien que vous pensez ; que je vous trouve à dire plus que je ne voudrais, dans toutes les parties où l'on m'entraîne ; et que c'est un merveilleux assaisonnement aux plaisirs qu'on goûte, que la présence des gens qu'on aime.</s>
 </p>
 </sp>
 <sp who="CLITANDRE"><speaker>CLITANDRE.</speaker>
-	<l id='1694'>Me voici maintenant moi.</l>
+	<l id="1694">Me voici maintenant moi.</l>
 <p id="8">
-	<s id='1'>Votre Clitandre dont vous me parlez, et qui fait tant le doucereux, est le dernier des hommes pour qui j'aurais de l'amitié. </s>
-	<s id='2'>Il est extravagant de se persuader qu'on l'aime ; et vous l'êtes de croire qu'on ne vous aime pas. </s>
-	<s id='3'>Changez, pour être raisonnable, vos sentiments contre les siens ; et voyez-moi le plus que vous pourrez, pour m'aider à porter le chagrin d'en être obsédée.</s>
+	<s id="1">Votre Clitandre dont vous me parlez, et qui fait tant le doucereux, est le dernier des hommes pour qui j'aurais de l'amitié. </s>
+	<s id="2">Il est extravagant de se persuader qu'on l'aime ; et vous l'êtes de croire qu'on ne vous aime pas. </s>
+	<s id="3">Changez, pour être raisonnable, vos sentiments contre les siens ; et voyez-moi le plus que vous pourrez, pour m'aider à porter le chagrin d'en être obsédée.</s>
 </p>
 	<l id="1695">D'un fort beau caractère on voit là le modèle,</l>
 	<l id="1696">Madame, et vous savez comment cela s'appelle ? </l>

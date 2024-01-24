@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
   <teiHeader>
      <fileDesc>
@@ -29,7 +29,7 @@
           <titlePart type="main">LE JEUNE MARIUS</titlePart>
           <titlePart type="sub">TRAGÉDIE</titlePart>
         </docTitle>
-        <docAuthor id='BOYER, Claude'>Par Monsieur Claude BOYER.</docAuthor>
+        <docAuthor id="BOYER, Claude">Par Monsieur Claude BOYER.</docAuthor>
 		<docDate value="1670">M. DC. LXX. AVEC PRIVILEGE DU ROY.</docDate>       
         <docImprint>À PARIS, Chez GABRIEL QUINET, au Palais, dans la Galerie des Prisonniers, à l'Ange Gabriel.</docImprint>
       <div type="dedicace"><head>À Monseigneur Colbert. Ministre et secrétaire d'État.</head>
@@ -54,26 +54,27 @@
 			<p>A. SOUBRON, Syndic.</p>
 		  </div>
 			<printer id="QUINET">À PARIS, Chez GABRIEL QUINET, au Palais, dans la Gallerie des Prisonniers, à l'Ange Gabriel.</printer>
-			<acheveImprime value='1669-03-28'>Achevé d'imprimer pour la première fois le 28 Mars 1669.</acheveImprime>
+			<acheveImprime value="1669-03-28">Achevé d'imprimer pour la première fois le 28 Mars 1669.</acheveImprime>
 		</docImprint>
 
         <castList><head>Acteurs.</head>
           <castItem>
-            <role id="MARIEUX" sex="2" type="H" statut='général' age='A' stat_amour='néant'>MARIUS.</role>Consul Romain, fils de C. Marius.</castItem>
-			<castItem><role id="SYLLA" sex="1" type="H" statut='général' age='A' stat_amour='néant'>SYLLA</role>, Général.</castItem>
-			<castItem><role id="POMPÉE" sex="1" type="H" statut='lieutenant' age='A' stat_amour='néant'>POMPÉE</role>, Lieutenant de Sylla.</castItem>
-			<castItem><role id="CÉCILIE" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>CÉCILIE</role>, Fille de Sylla.</castItem>
-			<castItem><role id="PISON" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>PISON</role>, Ami de Sylla.</castItem>
-			<castItem><role id="MAXIME" sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>MAXIME</role>, ami de Marius.</castItem>
-			<castItem><role id="MARCELLE" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>MARCELLE.</role> Confidente de Cécilie.</castItem>
-			<castItem><role id="SABINE" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>SABINE</role>, Confidente de Cécilie</castItem>
-			<castItem><role id="OCTAVE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>OCTAVE.</role></castItem>
+            <role id="MARIEUX" sex="2" type="H" statut="général" age="A" stat_amour="néant">MARIUS.</role>Consul Romain, fils de C. Marius.</castItem>
+			<castItem><role id="SYLLA" sex="1" type="H" statut="général" age="A" stat_amour="néant">SYLLA</role>, Général.</castItem>
+			<castItem><role id="POMPÉE" sex="1" type="H" statut="lieutenant" age="A" stat_amour="néant">POMPÉE</role>, Lieutenant de Sylla.</castItem>
+			<castItem><role id="CÉCILIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">CÉCILIE</role>, Fille de Sylla.</castItem>
+			<castItem><role id="PISON" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">PISON</role>, Ami de Sylla.</castItem>
+			<castItem><role id="MAXIME" sex="2" type="H" statut="aristocrate" age="A" stat_amour="néant">MAXIME</role>, ami de Marius.</castItem>
+			<castItem><role id="MARCELLE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">MARCELLE.</role> Confidente de Cécilie.</castItem>
+			<castItem><role id="SABINE" sex="2" type="H" statut="confident" age="A" stat_amour="néant">SABINE</role>, Confidente de Cécilie</castItem>
+			<castItem><role id="OCTAVE" sex="1" type="H" statut="aristocrate" age="A" stat_amour="néant">OCTAVE.</role></castItem>
 		</castList>
-	<set location='Prenestina' country='Italie' periode='Avant JC Ier' gps="41.8629967, 12.9518024">La Scène est à Preneste, dans le Palais de Marius. </set>
+	<set location="Prenestina" country="Italie" periode="Avant JC Ier" gps="41.8629967, 12.9518024">La Scène est à Preneste, dans le Palais de Marius. </set>
 </front>
 <body>
 <div1 type="act" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Marius, Maxime.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Marius, Maxime.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="1">Quel zèle, quel bonheur t'a conduit en ces lieux,</l>
 	<l id="2">Et t'a fait traverser un Camp victorieux ?</l>
@@ -243,7 +244,8 @@
 	<l id="136">Former quelque entreprise, et combattre son père.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Marius, Cécilie, Maxime, Sabine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Marius, Cécilie, Maxime, Sabine.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 	<l id="137">Ce qu'annonce Maxime est une vérité</l>
 	<l id="138">Seigneur, avouez-vous ce secours tant vanté,</l>
@@ -383,7 +385,8 @@
 	<l id="245">Et le fer à la main forcer sa dureté</l>
 	<l id="246">À me rendre l'espoir que vous m'avez ôté.</l>
 </sp>
-<sp stage="stop" who="CÉCILIE"><speaker>CÉCILIE, l'arrêtant.</speaker>
+<sp who="CÉCILIE"><speaker>CÉCILIE</speaker><stage type="stop">, l'arrêtant.
+	</stage>
 	<l id="247">Où courrez-vous, Seigneur ? Hélas qu'allez-vous faire ?</l>
 </sp>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
@@ -435,7 +438,8 @@
 	<l id="280">Vous aurez tout mon sang pour le prix de vos larmes.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Cécilie, Sabine, Marcelle.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Cécilie, Sabine, Marcelle.
+</stage>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
 	<l id="281">Ce malheureux amant, que vous traitez si mal,</l>
 	<l id="282">N'a-t-il point deviné, quand il croit qu'un rival</l>
@@ -569,7 +573,8 @@
 </div2>
 </div1>
 <div1 type="act" n="2"><head>ACTE II.</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cécilie, Maxime, Sabine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cécilie, Maxime, Sabine.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 	<l id="391">Maxime, je sais tout ; cent messagers fidèles</l>
 	<l id="392">N'ont que trop annoncé ces funestes nouvelles.</l>
@@ -638,7 +643,8 @@
 	<l id="445">C'est contre l'étranger qu'il vous sert maintenant</l>
 	<l id="446">Dans ses murs où Sylla l'a fait son Lieutenant.</l>
 </sp>
-<sp stage="low" who="CÉCILIE"><speaker>CÉCILIE, bas.</speaker>
+<sp who="CÉCILIE"><speaker>CÉCILIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="447">Quoi Pompée est dans Rome ! Ah la joie est extrême,</l>
 	<l id="448">Sabine, de pouvoir excuser ce qu'on aime.</l>
 </sp>
@@ -654,7 +660,8 @@
 	<l id="457" syll="3" part="i">Mais il vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Marius, Cécilie, Sabine.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Marius, Cécilie, Sabine.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="457" syll="9" part="f">Pardonnez si je montre à vos yeux</l>
 	<l id="458">Pour un faible succès un front victorieux.</l>
@@ -765,7 +772,8 @@
 	<l id="548">Mais quelqu'un vient ici, c'est Pison qui s'avance.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Marius, Cécilie, Pison, Maxime,  Sabine.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Marius, Cécilie, Pison, Maxime,  Sabine.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="549">Hé bien Pison. Sylla nous donne-t-il la paix ?</l>
 </sp>
@@ -792,7 +800,8 @@
 	<l id="563">Que comme sa grandeur ma gloire est sans seconde,</l>
 	<l id="564">Et qu'il jouisse en paix de l'Empire du monde.</l>
 </sp>
-<sp stage="low" who="CÉCILIE"><speaker>CÉCILIE, bas.</speaker>
+<sp who="CÉCILIE"><speaker>CÉCILIE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="565">Quoi jusques-là mon père abaisse sa fierté,</l>
 	<l id="566" syll="3" part="i">Sabine ?</l>
 </sp>
@@ -997,7 +1006,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Sylla, Marius, Cécilie, suite.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Sylla, Marius, Cécilie, suite.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="735">Des mains du grand Sylla recevoir Cécilie ?</l>
 </sp>
@@ -1062,8 +1072,10 @@
 	<l id="774">Sous vos ordres, Seigneur, je vais tout préparer.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Sylla, Cécilie, Pison.</head>
-<sp who="SYLLA"><speaker>SYLLA. bas.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Sylla, Cécilie, Pison.
+</stage>
+<sp who="SYLLA"><speaker>SYLLA</speaker><stage>, bas.
+	</stage>
 	<l id="775">Comprends-tu bien l'effort que je viens de me faire,</l>
 	<l id="776">Fortune, en contraignant ma haine et ma colère :</l>
 	<l id="777">Je ne puis oublier ce que tu fis pour moi,</l>
@@ -1121,7 +1133,8 @@
 	<l id="814">Digne de Cécilie, et de Rome et de vous.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Sylla, Cécilie, Octave.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Sylla, Cécilie, Octave.
+</stage>
 <sp who="OCTAVE"><speaker>OCTAVE.</speaker>
 	<l id="815">Seigneur. Pompée arrive, et le bruit de sa gloire</l>
 	<l id="816">Déjà de toutes parts annonce sa victoire ;</l>
@@ -1204,7 +1217,8 @@
 	<l id="866">Des soins plus importants occupent mon esprit.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Sylla, Pison.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Sylla, Pison.
+</stage>
 <sp who="SYLLA"><speaker>SYLLA.</speaker>
 	<l id="867">Fidèle compagnon des travaux d'une guerre,</l>
 	<l id="868">Qui m'a presque assuré l'empire de la terre,</l>
@@ -1315,8 +1329,10 @@
 	<l id="957" syll="2" part="i">Il vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sylla, Pompée, Pison, suite.</head>
-<sp stage="continue" who="SYLLA"><speaker>SYLLA, continue.</speaker>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sylla, Pompée, Pison, suite.
+</stage>
+<sp who="SYLLA"><speaker>SYLLA</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="957" syll="10" part="f">Peut on jamais, Seigneur, d'assez de gloire,</l>
 	<l id="958">D'un triomphe assez beau payer votre victoire ?</l>
 	<l id="959">Digne héros issu du plus beau sang Romain ?</l>
@@ -1406,7 +1422,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Pompée, Marcelle.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Pompée, Marcelle.
+</stage>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
 	<l id="1021">tous vos discours, Seigneur, me font assez comprendre,</l>
 	<l id="1022">Qu'au lieu de Marius Sylla vous veut pour gendre.</l>
@@ -1480,7 +1497,8 @@
 	<l id="1071" syll="6" part="i">Dois-je arrêter ? Fuyons.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Cécilie, Pompée, Suite.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Cécilie, Pompée, Suite.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 	<l id="1071" syll="6" part="f">Vous me fuyez, Seigneur :</l>
 	<l id="1072">Non, non, ne craignez plus cette injuste rigueur,</l>
@@ -1606,7 +1624,8 @@
 	<l id="1152">Et ne veux rien résoudre en l'état où je suis.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Sylla, Cécilie, Pison.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Sylla, Cécilie, Pison.
+</stage>
 <sp who="SYLLA"><speaker>SILLA.</speaker>
 	<l id="1153">Quoi, ma fille, Pompée évite ma présence ?</l>
 </sp>
@@ -1717,13 +1736,15 @@
 	<l id="1233">Répondez à l'honneur de cette confidence,</l>
 	<l id="1234">Et songez qu'il y va de toute ma puissance.</l>
 </sp>
-<sp stage="away" who="CÉCILIE"><speaker>CÉCILIE, en s'en allant.</speaker>
+<sp who="CÉCILIE"><speaker>CÉCILIE</speaker><stage type="away">, en s'en allant.
+	</stage>
 	<l id="1235">Ô ! Dieux qui d'un tel sang avez formé le mien,</l>
 	<l id="1236">Que ne me donnez-vous un coeur comme le sien</l>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp stage="toward" who="PISON"><speaker>PISON, à Sylla.</speaker>
+<sp who="PISON"><speaker>PISON</speaker><stage type="toward">, à Sylla.
+	</stage>
 	<l id="1237">Vous puis-je demander quelle rigueur extrême</l>
 	<l id="1238">Oblige votre fille à choisir elle-même ?</l>
 	<l id="1239">Vous lui deviez cacher, pour choisir l'un des deux,</l>
@@ -1743,7 +1764,8 @@
 	<l id="1249">Et peut-être qu'enfin...mais le voici lui-même...</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sylla, Marius, Pison, Maxime.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sylla, Marius, Pison, Maxime.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="1250" syll="3" part="i">Quoi, Seigneur...</l>
 </sp>
@@ -1881,7 +1903,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp stage="alone/toward" who="SYLLA"><speaker>SYLLA, seul à Pison.</speaker>
+<sp who="SYLLA"><speaker>SYLLA</speaker><stage type="alone/toward">, seul à Pison.
+	</stage>
 	<l id="1369" syll="10" part="f">Vois maintenant le secret de ma haine.</l>
 	<l id="1370">Pour perdre Marius et sans honte et sans peine,</l>
 	<l id="1371">Le choix de Cécilie est un moyen certain :</l>
@@ -1898,7 +1921,8 @@
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cécilie, Marcele.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head><stage> Cécilie, Marcele.
+</stage>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
 	<l id="1381">Je ne vous connais plus dans ce désordre extrême.</l>
 </sp>
@@ -2006,7 +2030,8 @@
 	<l id="1462">Marius vient Marcelle, au secours de ma gloire.</l>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Marius, Cécilie, Marcelle, Maxime.</head>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Marius, Cécilie, Marcelle, Maxime.
+</stage>
 <sp who="MARIUS"><speaker>MARIUS.</speaker>
 	<l id="1463">Je sais ce que Sylla vient de vous ordonner ;</l>
 	<l id="1464">Madame, et mon abord semble vous étonner.</l>
@@ -2135,8 +2160,10 @@
 	<l id="1557" syll="2" part="m">Adieu.</l>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Cécilie. Marcelle.</head>
-<sp stage="continue" who="CÉCILIE"><speaker>CÉCILIE, continue.</speaker>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Cécilie. Marcelle.
+</stage>
+<sp who="CÉCILIE"><speaker>CÉCILIE</speaker><stage type="continue">, continue.
+	</stage>
 	<l id="1557" syll="6" part="f">Que son sort est à plaindre !</l>
 </sp>
 <sp who="MARCELLE"><speaker>MARCELLE.</speaker>
@@ -2150,7 +2177,8 @@
 	<l id="1563">Il faut choisir Marcelle, allons en sa faveur...</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Cécilie, Pompée, Marcelle.</head>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head><stage> Cécilie, Pompée, Marcelle.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 	<l id="1564">Mais j'aperçois Pompée, où courez-vous, Seigneur ?</l>
 </sp>
@@ -2225,7 +2253,8 @@
 	<l id="1623" syll="2" part="i">Il vient.</l>
 </sp>
 </div2>
-<div2 type="scene" n="5"><head>SCÈNE V. Sylla, Pompée, Cécilie, Sabine.</head>
+<div2 type="scene" n="5"><head>SCÈNE V.</head><stage> Sylla, Pompée, Cécilie, Sabine.
+</stage>
 <sp who="SYLLA"><speaker>SILLA.</speaker>
 	<l id="1623" syll="10" part="f">Peut-on savoir qui sera votre époux ?</l>
 	<l id="1624">Mais j'entends votre choix, Pompée est avec vous.</l>
@@ -2234,7 +2263,8 @@
 	<l id="1625">En effet sur ce choix c'est lui que j'en dois croire,</l>
 	<l id="1626">J'ai choisi Marius Seigneur, et j'en fais gloire.</l>
 </sp>
-<sp stage="aparte" who="SYLLA"><speaker>SYLLA, à part.</speaker>
+<sp who="SYLLA"><speaker>SYLLA</speaker><stage type="aparte">, à part.
+	</stage>
 	<l id="1627" syll="1" part="i">Dieux !</l>
 </sp>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
@@ -2308,7 +2338,8 @@
 	<l id="1684">Ce précieux rival, cet ennemi si cher.</l>
 </sp>
 </div2>
-<div2 type="scene" n="6"><head>SCÈNE VI. Sylla, Pompée, Cécilie, Pison, Marcelle.</head>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head><stage> Sylla, Pompée, Cécilie, Pison, Marcelle.
+</stage>
 <sp who="PISON"><speaker>PISON.</speaker>
 	<l id="1685" syll="2" part="i">Seigneur....</l>
 </sp>
@@ -2336,7 +2367,8 @@
 	<l id="1700">À plaindre dignement un Amant malheureux.</l>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Pompée, Cécilié, Sabine.</head>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head><stage> Pompée, Cécilié, Sabine.
+</stage>
 <sp who="POMPÉE"><speaker>POMPÉE.</speaker>
 	<l id="1701">Que me commandez-vous dans cette conjoncture ?</l>
 </sp>
@@ -2352,7 +2384,8 @@
 	<l id="1706">Allez, et réglez seul mon devoir et le vôtre.</l>
 </sp>
 </div2>
-<div2 type="scene" n="8"><head>SCÈNE VIII. Cécilie, Sabine.</head>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head><stage> Cécilie, Sabine.
+</stage>
 <sp who="SABINE"><speaker>SABINE.</speaker>
 	<l id="1707">Quel est votre dessein ? Malgré son désespoir</l>
 	<l id="1708">Le sort de Marius est en votre pouvoir.</l>
@@ -2382,7 +2415,8 @@
 	<l id="1724">Et le soin de ma gloire est mon premier devoir.</l>
 </sp>
 </div2>
-<div2 type="scene" n="9"><head>SCÈNE IX. Cécilie, Sabine, Marcelle.</head>
+<div2 type="scene" n="9"><head>SCÈNE IX.</head><stage> Cécilie, Sabine, Marcelle.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 <note type="L">Le vers 1725 n'est pas un alexandrin.</note>
 	<l id="1725" syll="2" part="i">Qu'est-ce ?</l>
@@ -2407,7 +2441,8 @@
 	<l id="1734">Allons sans plus tarder, allons par ma présence...</l>
 </sp>
 </div2>
-<div2 type="scene" n="10"><head>SCÈNE X. Cécilie. POMPÉE. MARCELLE. SABINE.</head>
+<div2 type="scene" n="10"><head>SCÈNE X.</head><stage> Cécilie. POMPÉE. MARCELLE. SABINE.
+</stage>
 <sp who="CÉCILIE"><speaker>CÉCILIE.</speaker>
 	<l id="1735" syll="6" part="i">Ah ! Seigneur, Marius...</l>
 </sp>
@@ -2460,7 +2495,8 @@
 	<l id="1776">Je crains tout pour lui-même, et pour Rome et pour nous.</l>
 </sp>
 </div2>
- <div2 type="scene" n="11"><head>SCÈNE DERNIÈRE. Pompée, Cécilie, Pison.</head>
+ <div2 type="scene" n="11"><head>SCÈNE DERNIÈRE.</head><stage> Pompée, Cécilie, Pison.
+</stage>
 <sp who="PISON"><speaker>PISON.</speaker>
 	<l id="1777">Sylla n'attend que vous, et sa cruelle rage</l>
 	<l id="1778">Brûle d'aller dans Rome achever son ouvrage,</l>
@@ -2476,4 +2512,3 @@
 </body>
 </text>
 </TEI>
-

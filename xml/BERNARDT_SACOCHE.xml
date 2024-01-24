@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader> 
 		<fileDesc>
@@ -29,7 +29,7 @@
 		<titlePart part="sub">PIÈCE EN UN ACTE</titlePart> 
 	</docTitle>
    <docDate value="1930">1930.</docDate>
-   <docAuthor id='BERNARD, Tristan'>de Tristan Bernard.</docAuthor>
+   <docAuthor id="BERNARD, Tristan">de Tristan Bernard.</docAuthor>
 	<docImprint>
 		<editor>ALBIN MICHEL, 22 rue Huyghens, PARIS (14°)</editor>
 		<printer>ÉTABLISSEMENTS BUSSON IMPRIMEURS, 117 rue des Poisonniers, PARIS (18°)</printer>
@@ -37,20 +37,21 @@
 		<copyright>Droits de traduction, reproduction, représentation théâtrale et adaptation cinématographique réservés pour tous pays.</copyright>
 	</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="ÉMILE" sex="1" type="H" statut="employé" age="A" stat_amour=''>ÉMILE</role>, garçon de banque.</castItem>
-		<castItem><role id="ADRIEN" sex="1" type="H" statut="voleur" age="A" stat_amour=''>ADRIEN</role>, cambrioleur.</castItem>
-		<castItem><role id="UN COMPLICE" sex="1" type="H" statut="voleur" age="A" stat_amour=''>UN COMPLICE</role>.</castItem>
-		<castItem><role id="LE CHEF DES AGENTS" sex="1" type="H" statut="policier" age="A" stat_amour=''>LE CHEF DES AGENTS</role>.</castItem>
-		<castItem><role id="AGENTS" sex="1" type="H" statut="policier" age="A" stat_amour=''>AGENTS</role>.</castItem>
+		<castItem><role id="ÉMILE" sex="1" type="H" statut="employé" age="A" stat_amour="">ÉMILE</role>, garçon de banque.</castItem>
+		<castItem><role id="ADRIEN" sex="1" type="H" statut="voleur" age="A" stat_amour="">ADRIEN</role>, cambrioleur.</castItem>
+		<castItem><role id="UN COMPLICE" sex="1" type="H" statut="voleur" age="A" stat_amour="">UN COMPLICE</role>.</castItem>
+		<castItem><role id="LE CHEF DES AGENTS" sex="1" type="H" statut="policier" age="A" stat_amour="">LE CHEF DES AGENTS</role>.</castItem>
+		<castItem><role id="AGENTS" sex="1" type="H" statut="policier" age="A" stat_amour="">AGENTS</role>.</castItem>
 	</castList>
-	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"></set>
+	<set location="Paris" country="France" periode="XXème" gps="48.856614, 2.352222"/>
 	<note>Extrait de l'ouvrage "Théâtre sans directeur" Paris, Albin Michel, 1930, pp. 105-112</note>
 </front>
 <body>
 <div1 type="acte" n="1"><head>LA SACOCHE</head>
 <stage type="location">Sur une berge de la Seine, entre Asnières et Saint-Denis. Fin de jour.</stage>
-<div2 type="scene" n="1"><head></head>
-<sp stage="dress" who="ÉMILE"><speaker>ÉMILE, en uniforme de garçon de banque.</speaker>
+<div2 type="scene" n="1"><head/>
+<sp who="ÉMILE"><speaker>ÉMILE</speaker><stage type="dress">, en uniforme de garçon de banque.
+	</stage>
 	<l id="1">Si j'ai la mine déconfite,</l>
 	<l id="2">C'est pour d'assez graves raisons :</l>
 	<l id="3">J'arrive à l'instant de Maisons...</l>
@@ -83,7 +84,8 @@
 	<l id="27">Dans la direction des infernaux palus...</l>
 <stage type="lie/sleep">Il s'étend et s'endort d'un sommeil profond.</stage>
 </sp>
-<sp stage="entrance/carry" who="ADRIEN"><speaker>ADRIEN, entrant en scène, un portefeuille à la main.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="entrance/carry">, entrant en scène, un portefeuille à la main.
+	</stage>
 	<l id="28">L'audace des bandits est vraiment sans limite !</l>
 	<l id="29">En quel temps vivons-nous ? La police est un mythe !</l>
 	<l id="30">À quatre heures dix, en plein jour,</l>
@@ -134,7 +136,8 @@
 	<l id="61">Ce n'est jamais, crois-moi, des rencontres fort bonnes...</l>
 	<l id="62">Surtout quand on n'a pas un casier des plus blancs...</l>
 </sp>
-<sp stage="wave" who="ADRIEN"><speaker>ADRIEN, hochant la tête.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="wave">, hochant la tête.
+	</stage>
 	<l id="63">Et puis, ce dormeur imbécile,</l>
 	<l id="64">- Pour peu que ces vieux flics aient le soupçon facile -</l>
 	<l id="65">Pourrait leur inspirer des pronostics troublants...</l>
@@ -149,15 +152,18 @@
 	<l id="69" syll="3" part="f">Et c'est peu...</l>
 <stage type="drop">Il garnit rapidement la sacoche d'Emile.</stage>
 </sp>
-<sp stage="low" who="LE COMPLICE"><speaker>LE COMPLICE, bas.</speaker>
+<sp who="LE COMPLICE"><speaker>LE COMPLICE</speaker><stage type="low">, bas.
+	</stage>
 	<l id="70" syll="2" part="i">Les flics !</l>
 </sp>
-<sp stage="closer" who="ADRIEN"><speaker>ADRIEN, allant au-devant des hommes de police.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="closer">, allant au-devant des hommes de police.
+	</stage>
 	<l id="70" syll="10" part="f">Ah ! C'est le Ciel, messieurs, qui vous envoie !</l>
 	<l id="71">Nous avons découvert sur le bord de la voie</l>
 	<l id="72" syll="6" part="i">Cet homme qui dormait...</l>
 </sp>
-<sp stage="serious" who="LE CHEF"><speaker>LE CHEF, sentencieux.</speaker>
+<sp who="LE CHEF"><speaker>LE CHEF</speaker><stage type="serious">, sentencieux.
+	</stage>
 	<l id="72" syll="6" part="f">Avec un verre en trop</l>
 	<l id="73">Probablement... Quel est ce drôle de pierrot ?</l>
 	<l id="74">Si l'on était méchant, un rapport à la Banque...</l>
@@ -168,7 +174,8 @@
 <stage type="count">Il compte.</stage>
 	<l id="77" syll="9" part="f">dix billets... Ils n'auraient rien laissé.</l>
 </sp>
-<sp stage="shy" who="ADRIEN"><speaker>ADRIEN, déférent.</speaker>
+<sp who="ADRIEN"><speaker>ADRIEN</speaker><stage type="shy">, déférent.
+	</stage>
 	<l id="78">Vous n'avez plus besoin de nous, messieurs ? C'est l'heure</l>
 	<l id="79">Où l' on commence à s'affamer.</l>
 	<l id="80">La soupe et la patronne, en notre humble demeure,</l>
@@ -178,12 +185,14 @@
 	<l id="82" syll="1" part="i">Allez...</l>
 <stage type="exit">Adrien et son pote ne se le font pas dire deux fois.</stage>
 </sp>
-<sp stage="awake" who="LE CHEF"><speaker>LE CHEF, réveillant le dormeur.</speaker>
+<sp who="LE CHEF"><speaker>LE CHEF</speaker><stage type="awake">, réveillant le dormeur.
+	</stage>
 	<l id="82" syll="4" part="m">Que fais-tu là ?</l>
 <stage type="awake/estonish">Emile le regarde éberlué.</stage>
 	<l id="82" syll="2" part="m">Ton nom ?</l>
 </sp>
-<sp stage="hesitate" who="ÉMILE"><speaker>ÉMILE, balbutiant.</speaker>
+<sp who="ÉMILE"><speaker>ÉMILE</speaker><stage type="hesitate">, balbutiant.
+	</stage>
 	<l id="82" syll="4" part="f">Durand, Emile...</l>
 </sp>
 <sp who="LE CHEF"><speaker>LE CHEF.</speaker>
@@ -198,7 +207,8 @@
 	<l id="86" syll="6" part="f">Comment ? Ils n'y sont plus ?</l>
 	<l id="87">Je viens d'en compter dix, sans que tu te réveilles !</l>
 </sp>
-<sp stage="count" who="ÉMILE"><speaker>ÉMILE, comptant à son tour.</speaker>
+<sp who="ÉMILE"><speaker>ÉMILE</speaker><stage type="count">, comptant à son tour.
+	</stage>
 	<l id="88">Huit... neuf... dix... Dix billets ! Merveille des merveilles !</l>
 <stage type="aparte">À part.</stage>
 	<l id="89" syll="6" part="i">Je n'en avais que sept !</l>
@@ -221,7 +231,8 @@
 <sp who="LE CHEF"><speaker>LE CHEF.</speaker>
 	<l id="93" syll="2" part="m">Bonsoir !</l>
 </sp>
-<sp stage="toward" who="ÉMILE"><speaker>ÉMILE, au public.</speaker>
+<sp who="ÉMILE"><speaker>ÉMILE</speaker><stage type="toward">, au public.
+	</stage>
 	<l id="93" syll="4" part="f">Je crois en Dieu...</l>
 <stage type="">STANCES</stage>
 <poem type="stances">

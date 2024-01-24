@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -31,15 +31,15 @@
 			<titlePart type="sub">REPRÉSENTÉ À LA COMÉDIE FRANÇAISE le 15 janvier 1880.</titlePart>
 			<titlePart type="sub">À l'occasion du 238èmeanniversaire de la Comédie Française</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880. Droits de reproduction, de traduction et de représention réservés.</docDate>
+		<docDate value="1880">1880. Droits de reproduction, de traduction et de représention réservés.</docDate>
 		<docAuthor id="ADENIS, Eugène">par Eugène Adenis</docAuthor>
 		<docImprint>
-			<editor id='OLLENDORF'>PARIS, TRESSE, ÉDITEUR, 8, 9, 10, 11, GALERIE DU THÉÂTRE-FRANÇAIS, PALAIS ROYAL</editor>
+			<editor id="OLLENDORF">PARIS, TRESSE, ÉDITEUR, 8, 9, 10, 11, GALERIE DU THÉÂTRE-FRANÇAIS, PALAIS ROYAL</editor>
 			<printer>Société anonyme d'Impr, Paul DUPONT, direct., rue Jean-Jacques Rousseau (24.1.80).</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="SCAPIN" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>SCAPIN</role>.</castItem> 
-		<castItem><role id="DIOGÈNE" sex="1" type="H" statut='philosophe' age='A' stat_amour='néant'>DIOGÈNE</role>.</castItem> 
+		<castItem><role id="SCAPIN" sex="1" type="H" statut="valet" age="A" stat_amour="néant">SCAPIN</role>.</castItem> 
+		<castItem><role id="DIOGÈNE" sex="1" type="H" statut="philosophe" age="A" stat_amour="néant">DIOGÈNE</role>.</castItem> 
 	</castList>
 	<set location="Paris" country="France" periode="XVIIème" gps="48.856614, 2.352222">La scène se passe au XVIIème siècle. Une place publique. - À droite, premier plan.</set>
 </front>
@@ -88,26 +88,32 @@
 <stage type="knock">Il frappe.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="2"><head>SCÈNE II. Diogène, Scapin.</head>
-<sp type="entrance/wave" who="SCAPIN"><speaker>SCAPIN, paraissant, un doigt sur la bouche.</speaker>
+<div2 type="scene" n="2"><head>SCÈNE II.</head><stage> Diogène, Scapin.
+</stage>
+<sp type="entrance/wave" who="SCAPIN"><speaker>SCAPIN</speaker><stage>, paraissant, un doigt sur la bouche.
+	</stage>
 	<l id="35" syll="9" part="f">Chut ! C'est l'heure où le maître a coutume</l>
 	<l id="36" syll="4" part="i">De reposer.</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="36" syll="8" part="f">Ah ! Dieux, le singulier costume !</l>
 </sp>
-<sp stage="silence" who="SCAPIN"><speaker>SCAPIN, lui imposant silence.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="silence">, lui imposant silence.
+	</stage>
 	<l id="37">Paix donc ! Le maître dort : respecte son sommeil.</l>
 </sp>
-<sp stage="toward/watch" who="DIOGÈNE"><speaker>DIOGÈNE, à lui-même en examinant Scapin.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="toward/watch">, à lui-même en examinant Scapin.
+	</stage>
 	<l id="38">Quel est-ce personnage au teint rose et vermeil ?</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, même jeu.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, même jeu.
+	</stage>
 	<l id="39">D'où sort cet étranger à la mine inquiète ?</l>
 <stage type="pull/location/close">Il l'entraîne au milieu du théâtre après avoir fermé 1a porte.</stage>
 	<l id="40" syll="6" part="i">Parle à présent : j'écoute.</l>
 </sp>
-<sp stage="toward" who="DIOGÈNE"><speaker>DIOGÈNE, à lui-même.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="toward">, à lui-même.
+	</stage>
 	<l id="40" syll="6" part="f">Il a l'air bien honnête</l>
 	<l id="41">Au moins !... Dis-moi, quelle est cette ville ?... Tu ris</l>
 </sp>
@@ -126,7 +132,8 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>	
 	<l id="42" syll="3" part="f">C'est Paris.</l>
 </sp>
-<sp stage="happy" who="DIOGÈNE"><speaker>DIOGÈNE, avec admiration.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="happy">, avec admiration.
+	</stage>
 	<l id="43">Eh ! quoi, Paris, dis-tu, quoi ! l'Athènes française,</l>
 	<l id="44">La ville immense et folle ! Ah ! Dieux ! Que je suis aise !</l>
 	<l id="45">C'est là Paris, Paris, le moderne flambeau</l>
@@ -134,7 +141,8 @@
 <stage type="watch">Regardant tout autour de lui et d'un ton naturel.</stage>
 	<l id="46" syll="4" part="f">Ça n'est pas beau !</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, étonné.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, étonné.
+	</stage>
 	<l id="47" syll="2" part="i">Plaît-il ?</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -143,14 +151,16 @@
 	<l id="49">Qu'à travers ces récits plus merveilleux encor,</l>
 	<l id="50">Mon esprit le voyait bâti de marbre et d'or ?</l>
 </sp>
-<sp stage="laugh" who="SCAPIN"><speaker>SCAPIN, riant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="51">Qui t'avait fait tous ces contes de l'autre monde ?</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="52">Qui ?... Parbleu, tu l'as dit, tous ceux qui passaient l'onde</l>
 	<l id="53" syll="6" part="i">Du Styx... oui, tous les morts !</l>
 </sp>
-<sp stage="away" who="SCAPIN"><speaker>SCAPIN, reculant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="away">, reculant.
+	</stage>
 	<l id="53" syll="6" part="f">Tous les morts !... Où cela ?</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -159,7 +169,8 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="54" syll="9" part="f">Aux enfers !... Que me chante-t-il là ?</l>
 </sp>
-<sp stage="low" who="DIOGÈNE"><speaker>DIOGÈNE, confidentiellement.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="low">, confidentiellement.
+	</stage>
 	<l id="55">Je m'en suis échappé sans bruit ce matin même.</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
@@ -170,7 +181,8 @@
 	<l id="58">J'expierais plus de maux que je n'en ai soufferts</l>
 	<l id="59">Jadis, de mon vivant, sur cette terre inique !</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, vivement.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, vivement.
+	</stage>
 	<l id="60" syll="2" part="i">Ton nom ?</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -182,22 +194,26 @@
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="61" syll="2" part="i">C'est moi...</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, continuant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, continuant.
+	</stage>
 	<l id="61" syll="10" part="f">Qui pour maison habitait un tonneau !...</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="62" syll="2" part="i">C'est moi.</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, continuant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, continuant.
+	</stage>
 	<l id="62" syll="10" part="f">Qui pour boisson n'absorbait que de l'eau !...</l>
 </sp>
-<sp stage="sigh" who="DIOGÈNE"><speaker>DIOGÈNE, avec un soupir.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="sigh">, avec un soupir.
+	</stage>
 	<l id="63" syll="3" part="i">Ah !... C'est moi!</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="63" syll="9" part="f">Qui fuyait l'homme et surtout... la femme !</l>
 </sp>
-<sp stage="sigh" who="DIOGÈNE"><speaker>DIOGÈNE, avec deux soupirs.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="sigh">, avec deux soupirs.
+	</stage>
 	<l id="64" syll="9" part="i">Ah ! Ah !... C'est encor moi! toujours moi !</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
@@ -217,7 +233,8 @@
 	<l id="77">Disparu pour toujours et prêt à revenir</l>
 	<l id="78">À la charge... Scapin, enfin, pour vous servir !</l>
 </sp>
-<sp stage="estonish/toward" who="DIOGÈNE"><speaker>DIOGÈNE, stupéfait, à lui-même.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="estonish/toward">, stupéfait, à lui-même.
+	</stage>
 	<l id="79">Par les dieux ! Quel langage!... Il a vraiment la face</l>
 	<l id="80" syll="3" part="i">D'un coquin !</l>
 </sp>
@@ -233,7 +250,8 @@
 	<l id="83">Qui sait ! Mercure peut réussir où Minerve</l>
 	<l id="84" syll="3" part="i">Échouerait !</l>
 </sp>
-<sp stage="toward" who="DIOGÈNE"><speaker>DIOGÈNE, à lui-même.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="toward">, à lui-même.
+	</stage>
 	<l id="84" syll="9" part="f">Que sa noble égide me préserve,</l>
 	<l id="85">De la société d'un faquin tel que toi !</l>
 <stage type="loud">Haut.</stage>
@@ -261,7 +279,8 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="89">Bien dit, et nous serons compagnons de plaisirs.</l>
 </sp>
-<sp stage="offended" who="DIOGÈNE"><speaker>DIOGÈNE, scandalisé.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="offended">, scandalisé.
+	</stage>
 	<l id="90" syll="1" part="i">Nous ?</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>	
@@ -271,7 +290,8 @@
 	<l id="93">Toi-même, vivre avec du pain sec et de l'eau.</l>
 	<l id="94">Et prendre les arrêts forcés dans un tonneau !</l>
 </sp>
-<sp stage="offended" who="DIOGÈNE"><speaker>DIOGÈNE, piqué.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="offended">, piqué.
+	</stage>
 	<l id="95">Sans agir en cynique, on peut rester en somme,</l>
 	<l id="96" syll="3" part="i">Philosophe.</l>
 </sp>
@@ -294,7 +314,8 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="105" syll="2" part="f">Attends.</l>
 </sp>
-<sp stage="toward" who="DIOGÈNE"><speaker>DIOGÈNE, à lui-même.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="toward">, à lui-même.
+	</stage>
 	<l id="106">Çà ! Le drôle va-t-il me retenir longtemps !</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
@@ -302,10 +323,12 @@
 	<l id="108">Tu ne pouvais alors, mon brève Diogène,</l>
 	<l id="109">Faire, en me rencontrant, un plus heureux début !</l>
 </sp>
-<sp stage="low" who="DIOGÈNE"><speaker>DIOGÈNE, entre ses dents.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="low">, entre ses dents.
+	</stage>
 	<l id="110" syll="9" part="i">Oui-dà, la peste soit du hasard !</l>
 </sp>
-<sp stage="continue" who="SCAPIN"><speaker>SCAPIN, continuant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="continue">, continuant.
+	</stage>
 	<l id="110" syll="3" part="f">Car ton but,</l>
 	<l id="111">Grâce à moi, tu le peux atteindre tout à l'heure.</l>
 	<l id="112">Regarde : tu vois bien cette simple demeure ?</l>
@@ -342,12 +365,14 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="119">Tu vois que pour franchis une telle distance...</l>
 </sp>
-<sp stage="interrupt" who="DIOGÈNE"><speaker>DIOGÈNE, 1'interrompant.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="interrupt">, l'interrompant.
+	</stage>
 	<l id="120">C'est égal : ajournons encore la sentence.</l>
 	<l id="121">Malgré tout, je préfère attendre et rester coi</l>
 	<l id="122" syll="10" part="i">Que de me prononcer à la légère.</l>
 </sp>
-<sp stage="serious" who="SCAPIN"><speaker>SCAPIN, grave.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="serious">, grave.
+	</stage>
 	<l id="122" syll="2" part="f">Eh ! Quoi !</l>
 	<l id="123">L'homme qui va frapper du fouet de la satire</l>
 	<l id="124">Ceux que l'intérêt guide ou que le vice attire,</l>
@@ -363,7 +388,8 @@
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="133" syll="6" part="i">Je ne dis pas cela.</l>
 </sp>
-<sp stage="continue" who="SCAPIN"><speaker>SCAPIN, continuant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="continue">, continuant.
+	</stage>
 	<l id="133" syll="6" part="f">Quelle rare vertu,</l>
 	<l id="134">Quel mérite éclatant faut-il qu'un homme ait eu,</l>
 	<l id="135">Ô philosophe amer, pour que tu le désignes</l>
@@ -405,12 +431,14 @@
 	<l id="171">Celui-là, quel que soit le nom dont on le nomme,</l>
 	<l id="172">A la face de tous je le proclame un homme !</l>
 </sp>
-<sp stage="enthousiasm" who="DIOGÈNE"><speaker>DIOGÈNE, entraîné.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="enthousiasm">, entraîné.
+	</stage>
 	<l id="173" syll="2" part="i">Eh bien !...</l>
 <stage type="hesitate">Se ravisant.</stage>
 	<l id="173" syll="6" part="m">Non, je dis, moi je dis...</l>
 </sp>
-<sp stage="impatient" who="SCAPIN"><speaker>SCAPIN, impatienté.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="impatient">, impatienté.
+	</stage>
 	<l id="173" syll="4" part="f">Quoi ! Que dis tu ?</l>
 	<l id="174">Insipide rêveur altéré de vertu...</l>
 	<l id="175" syll="4" part="i">Chez les autres !</l>
@@ -423,7 +451,8 @@
 	<l id="179">Dans ce sac ridicule où Scapin l'enveloppe,</l>
 	<l id="180">Je ne reconnais plus l'auteur du Misanthrope !</l>
 </sp>
-<sp stage="estonish" who="SCAPIN"><speaker>SCAPIN, stupéfait.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="estonish">, stupéfait.
+	</stage>
 	<l id="181" syll="5" part="i">Il a lu Boileau !</l>
 <stage type="desapointed">Voulant protester.</stage>
 	<l id="181" syll="1" part="m">Mais...</l>
@@ -492,7 +521,8 @@
 <stage type="exit">Scapin sort.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="3"><head>SCÈNE III. Diogène un instant seul, puis Scapin.</head>
+<div2 type="scene" n="3"><head>SCÈNE III.</head><stage> Diogène un instant seul, puis Scapin.
+</stage>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="197" syll="2" part="m">Parti !</l>
 <stage type="anger">Avec colère.</stage>
@@ -505,28 +535,33 @@
 	<l id="203">Effronté ! Nous aurons, oui-dà chacun le nôtre !</l>
 	<l id="204">Je vais chercher le mien, - tout seul ; - gardez le vôtre !</l>
 </sp>
-<sp stage="entrance/run" who="SCAPIN"><speaker>SCAPIN, entrant en courant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="entrance/run">, entrant en courant.
+	</stage>
 	<l id="205" syll="4" part="i">Diogène ?...</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="205" syll="2" part="m">Mon nom ?</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, faisant semblant de ne pas voir Diogène.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, faisant semblant de ne pas voir Diogène.
+	</stage>
 	<l id="205" syll="6" part="f">Ô danger imprévu !</l>
 	<l id="206" syll="5" part="i">Pauvre Diogène !</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="206" syll="1" part="f">Hein !</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, courant sur le théâtre ; - même jeu.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, courant sur le théâtre ; - même jeu.
+	</stage>
 	<l id="206" syll="6" part="f">Quelqu'un l'a-t-il pas vu ?</l>
 <stage type="call">Appelant.</stage>
 	<l id="207">Diogène ?... Il était ici dans l'instant même !</l>
 </sp>
-<sp stage="run/follow" who="DIOGÈNE"><speaker>DIOGÈNE, courant après lui.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="run/follow">, courant après lui.
+	</stage>
 	<l id="208" syll="6" part="i">Hé ! Scapin, hé ! Scapin ?</l>
 </sp>
-<sp stage="run/follow" who="SCAPIN"><speaker>SCAPIN, courant après lui.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="run/follow">, courant après lui.
+	</stage>
 	<l id="208" syll="6" part="f">Le péril est extrême !</l>
 	<l id="209" syll="9" part="i">Et comment l'avertir du danger ?...</l>
 <stage type="hurt">Il se heurte contre Diogène.</stage>
@@ -592,27 +627,31 @@
 	<l id="231">Scapin !... Et souviens-toi de ta bonne promesse :</l>
 	<l id="232" syll="4" part="i">Viens à mon aide !...</l>
 </sp>
-<sp stage="dream" who="SCAPIN"><speaker>SCAPIN, rêveur.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="dream">, rêveur.
+	</stage>
 	<l id="232" syll="5" part="m">Eh ! Oui, j'y songe !</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="232" syll="3" part="f">Le temps presse</l>
 	<l id="233" syll="6" part="i">Scapin, mon doux Scapin !</l>
 </sp>
-<sp stage="thonk" who="SCAPIN"><speaker>SCAPIN, réfléchissant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="thonk">, réfléchissant.
+	</stage>
 	<l id="233" syll="6" part="f">Si tu veux t'échapper,</l>
 	<l id="234">Cerbère aura bientôt fait de te rattraper !</l>
 	<l id="235">Le péril est plus grand encor si tu demeures !</l>
 	<l id="236">Ah ! Je ne trouve rien ! Il faudra que tu meures</l>
 	<l id="237" syll="9" part="i">Une seconde fois : c'est écrit !</l>
 </sp>
-<sp who="DIOGÈNE"><speaker>DIOGÈNE, se lamentant.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage>, se lamentant.
+	</stage>
 	<l id="237" syll="3" part="f">Par le Styx!</l>
 	<l id="238">Quel moyen inventer pour résoudre cet X ?</l>
 	<l id="239">Si j'étais un héros, je pourrais me défendre,</l>
 	<l id="240">Je pourrais !... Dieux puissants, que ne suis-je Alexandre ?</l>
 </sp>
-<sp stage="hurt/happy" who="SCAPIN"><speaker>SCAPIN, se frappant le front, avec joie.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="hurt/happy">, se frappant le front, avec joie.
+	</stage>
 	<l id="241" syll="1" part="i">Ah !</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -630,7 +669,8 @@
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="241" syll="2" part="m">Eh bien ?...</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, s'arrêtant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage>, s'arrêtant.
+	</stage>
 	<l id="241" syll="2" part="f">Mais non,</l>
 	<l id="242" syll="6" part="i">Jamais tu ne voudras...</l>
 </sp>
@@ -645,10 +685,12 @@
 <stage type="location">Il remonte.</stage>
 	<l id="244" syll="9" part="f">Voici la troupe qui s'avance !</l>
 </sp>
-<sp stage="frighten" who="DIOGÈNE"><speaker>DIOGÈNE, au comble de la terreur.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="frighten">, au comble de la terreur.
+	</stage>
 	<l id="245" syll="1" part="i">Ah !</l>
 </sp>
-<sp stage="throw" who="SCAPIN"><speaker>SCAPIN, lui jetant son sac.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="throw">, lui jetant son sac.
+	</stage>
 	<l id="245" syll="5" part="f">Mon sac... dans mon sec !...</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -659,7 +701,8 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="246" syll="6" part="f">Silence ! Les voici !</l>
 </sp>
-<sp stage="imitate" who="SCAPIN"><speaker>SCAPIN, contrefaisant plusieurs voix.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="imitate">, contrefaisant plusieurs voix.
+	</stage>
 	<l id="247">Par ici, - non, par là, - courons toute la ville !</l>
 	<l id="248">- Nous le retrouverons, allez, soyez tranquille ! </l>
 	<l id="249">- Oui, oui. - Que pensez-vous, Minos, de ce bandit ? - </l>
@@ -677,21 +720,25 @@
 	<l id="256">De lui faire sentir les torts de sa doctrine !</l>
 <stage type="hit/shout">Il frappe sur le sac. - Diogène se met à crier.</stage>
 </sp>
-<sp stage="location" who="DIOGÈNE"><speaker>DIOGÈNE, dans le sac.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="location">, dans le sac.
+	</stage>
 	<l id="257" syll="6" part="i">Ah ! ah ! ah ! ah ! Tout beau !</l>
 <stage type="show/watch">Il met la tête hors du sac.</stage>
 	<l id="257" syll="3" part="m">Personne !</l>
 </sp>
-<sp stage="hide" who="SCAPIN"><speaker>SCAPIN, lui remettant la tête dans le sac.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="hide">, lui remettant la tête dans le sac.
+	</stage>
 	<l id="257" syll="3" part="f">Doucement.</l>
 	<l id="258" syll="6" part="i">Ah ! C'est invraisemblable !</l>
 <stage type="hit">Il frappe.</stage>
 </sp>
-<sp stage="shout" who="DIOGÈNE"><speaker>DIOGÈNE, criant.</speaker>
+<sp who="DIOGÈNE"><speaker>DIOGÈNE</speaker><stage type="shout">, criant.
+	</stage>
 	<l id="258" syll="3" part="m">Ah ! Par grâce !...</l>
 <stage type="sho">Il veut sortir.</stage>
 </sp>
-<sp stage="hide" who="SCAPIN"><speaker>SCAPIN, même jeu.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="hide">, même jeu.
+	</stage>
 	<l id="258" syll="3" part="f">Un moment !</l>
 <stage type="hit">Frappant.</stage>
 	<l id="259" syll="9" part="i">Ah ! C'est absurde ! Ah ! C'est insensé !</l>
@@ -709,7 +756,8 @@
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
 	<l id="262" syll="8" part="m">Scapin, je retire le mot.</l>
 </sp>
-<sp stage="laugh" who="SCAPIN"><speaker>SCAPIN, riant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="263" syll="2" part="i">Oui-dà !</l>
 </sp>
 <sp who="DIOGÈNE"><speaker>DIOGÈNE.</speaker>
@@ -757,10 +805,12 @@
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
 	<l id="270" syll="3" part="m">Sois donc libre.</l>
 </sp>
-<sp stage="show" who="DIOGoÈNE"><speaker>DIOGÈNE, sortant du sac.</speaker>
+<sp who="DIOGoÈNE"><speaker>DIOGÈNE</speaker><stage type="show">, sortant du sac.
+	</stage>
 	<l id="270" syll="6" part="f">Ouf ! Aïe ! Oh ! Je suis mort !</l>
 </sp>
-<sp stage="laugh" who="SCAPIN"><speaker>SCAPIN, riant.</speaker>
+<sp who="SCAPIN"><speaker>SCAPIN</speaker><stage type="laugh">, riant.
+	</stage>
 	<l id="271">Dans ce sac ridicule où Scapin l'enveloppe</l>
 	<l id="272">Eh bien, reconnais-tu l'auteur du Misanthrope !</l>
 	<l id="273">L'humble farce, mon cher, que les petits esprits,</l>

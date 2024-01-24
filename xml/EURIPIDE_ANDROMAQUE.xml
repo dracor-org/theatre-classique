@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
 		<fileDesc>
@@ -17,7 +17,7 @@
 				<type>prose</type>
 				<periode>(Antique)</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien/>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -28,24 +28,24 @@
 			<titlePart type="sub">TRAGÉDIE</titlePart>
 			<titlePart type="main">Traduction nouvelle de Émile PESSONNEAUX</titlePart>
 		</docTitle> 
-		<docDate value='1880'>1880</docDate>
-		<docAuthor id="EURIPIDE" bio=''>EURIPIDE.</docAuthor>
+		<docDate value="1880">1880</docDate>
+		<docAuthor id="EURIPIDE" bio="">EURIPIDE.</docAuthor>
 		<docImprint>
-			<printer id='CHARPENTIER EDITEUR'>PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grennelle-Saint-Gervais</printer>
+			<printer id="CHARPENTIER EDITEUR">PARIS : G. CHARPENTIER EDITEUR, 13, rue de Grennelle-Saint-Gervais</printer>
 		</docImprint>
 		<castList>
-			<head></head>
-			<castItem><role id="ANDROMAQUE" sex="2" type="H" statut='prince' age='A' stat_amour='Hector'>ANDROMAQUE</role>, prisonnière de Néoptolème.</castItem>
-			<castItem><role id="UNE ESCLAVE TROYENNE" sex="2" type="H" statut='servante' age='A' stat_amour='néant'>UNE ESCLAVE TROYENNE</role>.</castItem>
-			<castItem><role id="HERMIONE" sex="2" type="H" statut='prince' age='A' stat_amour='néant'>HERMIONE</role>.</castItem>
-			<castItem><role id="LA NOURRICE" sex="2" type="H" statut='nourrice' age='A' stat_amour='néant'>LA NOURRICE.</role>.</castItem>
-			<castItem><role id="LE CHOEUR" sex="9" type="H" statut='choeur' age='A' stat_amour='néant'>LE CHOEUR</role> composé de femmes de Phthie.</castItem>
-			<castItem><role id="MÉNÉLAS" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>MÉNÉLAS</role>, père d'Hermione.</castItem>
-			<castItem><role id="MOLOSSUS" sex="1" type="H" statut='prince' age='E' stat_amour='néant'>MOLOSSUS</role>, fils d'Andromaque et de Néoptolème.</castItem>
-			<castItem><role id="PÉLÉE" sex="1" type="H" statut='roi' age='V' stat_amour='néant'>PÉLÉE</role>, père d'Achille et ancien roi de Phthie.</castItem>
-			<castItem><role id="ORESTE" sex="1" type="H" statut='roi' age='A' stat_amour='néant'>ORESTE</role>.</castItem>
-			<castItem><role id="LE MESSAGER" sex="1" type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
-			<castItem><role id="THÉTIS" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>THÉTIS</role>.</castItem>
+			<head/>
+			<castItem><role id="ANDROMAQUE" sex="2" type="H" statut="prince" age="A" stat_amour="Hector">ANDROMAQUE</role>, prisonnière de Néoptolème.</castItem>
+			<castItem><role id="UNE ESCLAVE TROYENNE" sex="2" type="H" statut="servante" age="A" stat_amour="néant">UNE ESCLAVE TROYENNE</role>.</castItem>
+			<castItem><role id="HERMIONE" sex="2" type="H" statut="prince" age="A" stat_amour="néant">HERMIONE</role>.</castItem>
+			<castItem><role id="LA NOURRICE" sex="2" type="H" statut="nourrice" age="A" stat_amour="néant">LA NOURRICE.</role>.</castItem>
+			<castItem><role id="LE CHOEUR" sex="9" type="H" statut="choeur" age="A" stat_amour="néant">LE CHOEUR</role> composé de femmes de Phthie.</castItem>
+			<castItem><role id="MÉNÉLAS" sex="1" type="H" statut="roi" age="A" stat_amour="néant">MÉNÉLAS</role>, père d'Hermione.</castItem>
+			<castItem><role id="MOLOSSUS" sex="1" type="H" statut="prince" age="E" stat_amour="néant">MOLOSSUS</role>, fils d'Andromaque et de Néoptolème.</castItem>
+			<castItem><role id="PÉLÉE" sex="1" type="H" statut="roi" age="V" stat_amour="néant">PÉLÉE</role>, père d'Achille et ancien roi de Phthie.</castItem>
+			<castItem><role id="ORESTE" sex="1" type="H" statut="roi" age="A" stat_amour="néant">ORESTE</role>.</castItem>
+			<castItem><role id="LE MESSAGER" sex="1" type="H" statut="messager" age="A" stat_amour="néant">UN MESSAGER</role>.</castItem>
+			<castItem><role id="THÉTIS" sex="1" type="D" statut="dieu" age="A" stat_amour="néant">THÉTIS</role>.</castItem>
 		</castList>
 		<set location="Phthie" country="Grèce" periode="Temps mythologiques" link="38.904442, 22.435217">La scène est à Phthie, à l'entrée du temple de Thétis et du palais de Néoptolème.</set>
 
@@ -413,7 +413,8 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>Ménélas, Le Choeur, Molossus, Andromaque.</head>
-<sp stage="together" who="MÉNÉLAS"><speaker>MÉNÉLAS, arrivant avec Molossus.</speaker>
+<sp who="MÉNÉLAS"><speaker>MÉNÉLAS</speaker><stage type="together">, arrivant avec Molossus.
+</stage>
 <p id="1">
 	<s id="1">Me voici : je me suis emparé de ton fils que tu avais caché dans une maison étrangère, à l'insu de ma fille. </s>
 	<s id="2">Tu te flattais d'avoir sauvé tes jours en embrassant la statue de la déesse, et ceux de ton fils en le dérobant à nos yeux ; mais tu t'es montrée moins avisée que Ménélas, femme ; et, si tu ne quittes volontairement cette enceinte, cet enfant sera immolé à ta place. </s>
@@ -574,8 +575,9 @@
 </p>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head></head>
-<sp stage="alone" who="LE CHOEUR"><speaker>LE CHOEUR, seul.</speaker>
+<div2 type="scene" n="4"><head/>
+<sp who="LE CHOEUR"><speaker>LE CHOEUR</speaker><stage type="alone">, seul.
+</stage>
 <p id="1">
 	<s id="1">Jamais je n'approuverai les noeuds d'un double hyménée ; point d'enfants nés de mères différentes : c'est au sein des familles un principe de discordes et d'amers chagrins. </s>
 	<s id="2">Je veux que l'époux, content de son épouse, n'admette point une autre femme au partage de sa tendresse. </s>
@@ -905,7 +907,7 @@
 	<s id="3">Laissez-moi arracher mes cheveux et me déchirer cruellement avec mes ongles. </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="2">
 	<s id="1">Ô ma fille, que veux-tu faire ? </s>
 	<s id="2">Pourquoi te défigurer ?</s>
@@ -918,7 +920,7 @@
 	<s id="3">Envole-toi dans les airs, loin de ma tête, voile au tissu léger. </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="4">
 	<s id="1">Ma fille, cache ta poitrine, attache ta robe.</s>
 </p>
@@ -929,7 +931,7 @@
 	<s id="2">Mes torts envers mon époux sont évidents, manifestes, et éclatent de toutes parts. </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="6">
 	<s id="1">Tu t'affliges d'avoir tramé la mort de ta rivale ?</s>
 </p>
@@ -939,7 +941,7 @@
 	<s id="1">Oui, je déplore la cruauté et l'impudence des actes que j'ai commis, femme exécrable, digne de l'exécration des hommes. </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="8">
 	<s id="1">Ton époux te pardonnera cette faute.</s>
 </p>
@@ -951,7 +953,7 @@
 	<s id="3">Pourquoi m'empêches-tu de me pendre ? </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="10">
 	<s id="1">Que je te laisse t'abandonner à ton délire, pour que tu meures ?</s>
 </p>
@@ -963,7 +965,7 @@
 	<s id="3">Qui me transportera sur les rochers qui dominent la mer ou sur la cime boisée des montagnes, pour que je meure et descende aux enfers ? </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="12">
 	<s id="1">Pourquoi te tourmenter ainsi ? </s>
 	<s id="2">Les dieux envoient un jour ou l'autre le malheur visiter les mortels.</s>
@@ -978,7 +980,7 @@
 	<s id="5">Que ne suis-je l'oiseau à l'aile rapide pour m'envoler loin de la Phthiotide, ou le vaisseau de bois de pin que l'effort des rames emporta le premier à travers les roches Cyanées ! </s>
 </p>
 </sp>
-<sp who='LA NOURRICE'><speaker>LA NOURRICE.</speaker>
+<sp who="LA NOURRICE"><speaker>LA NOURRICE.</speaker>
 <p id="14">
 	<s id="1">Ma fille, je n'ai point approuvé les extrémités auxquelles tu t'es portée contre cette Troyenne, et je blâme également l'excès de ta frayeur. </s>
 	<s id="2">Non, ton époux ne renoncera pas à ton alliance, et restera sourd aux discours perfides d'une femme barbare. </s>
@@ -994,7 +996,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>Oreste, Hermione, Le Choeur.</head>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="1">
 	<s id="1">Étrangères, n'est-ce point ici la demeure, la résidence royale du fils d'Achille ?</s>
 </p>
@@ -1004,7 +1006,7 @@
 	<s id="">Tu l'as dit ; mais toi, qui nous fais cette question, qui es-tu ? </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="3">
 	<s id="1">Le fils d'Agamemnon et de Clytemnestre ; Oreste est mon nom. </s>
 	<s id="2">Je vais consulter l'oracle de Jupiter, à Dodone. </s>
@@ -1020,7 +1022,7 @@
 	<s id="4">Que mes bras, entourant tes genoux, me tiennent lieu du rameau des suppliants. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Que vois-je ? </s>
@@ -1032,7 +1034,7 @@
 	<s id="1">Oui, la fille unique d'Hélène, née dans le palais de Tyndare son père : car tu ne dois rien ignorer. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="7">
 	<s id="1">Ô Phébus secourable ! </s>
 	<s id="2">Délivre-la de ses maux. </s>
@@ -1045,7 +1047,7 @@
 	<s id="1">C'est moi-même, et l'époux auquel j'appartiens, et quelqu'un des dieux : tout s'unit pour me perdre. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="9">
 	<s id="1">Une femme qui n'est pas encore mère, peut-elle souffrir autrement que comme épouse ? </s>
 </p>
@@ -1055,7 +1057,7 @@
 	<s id="1">Tel est précisément le mal dont je souffre : tu m'as habilement arraché cet aveu. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="11">
 	<s id="1">Ton époux te préfère-t-il une autre femme ?</s>
 </p>
@@ -1065,7 +1067,7 @@
 	<s id="1">Sa captive, la veuve d'Hector. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="13">
 	<s id="1">Il est mauvais qu'un homme ait deux femmes.</s>
 </p>
@@ -1076,7 +1078,7 @@
 	<s id="2">Et alors je me suis vengée. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="15">
 	<s id="1">Tu as ourdi quelqu'une de ces trames familières aux femmes ?</s>
 </p>
@@ -1086,7 +1088,7 @@
 	<s id="1">J'ai voulu tuer la mère et le bâtard, son fils. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="17">
 	<s id="1">Les as-tu tués, ou quelque contre-temps les a-t-il dérobés à ta colère ?</s>
 </p>
@@ -1096,7 +1098,7 @@
 	<s id="1">Le vieux Pélée a pris le parti des méchants. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="19">
 	<s id="1">Avais-tu un complice dans ce projet de meurtre ?</s>
 </p>
@@ -1106,7 +1108,7 @@
 	<s id="1">Mon père, venu tout exprès de Sparte. </s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="21">
 	<s id="1">Et il s'est laissé vaincre par le bras d'un vieillard ?</s>
 </p>
@@ -1116,7 +1118,7 @@
 	<s id="1">Du moins il l'a respecté ; et il est parti, me laissant sans défense.</s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="23">
 	<s id="1">Je comprends : tu crains ton époux après ce que tu as fait.</s>
 </p>
@@ -1146,7 +1148,7 @@
 	<s id="2">Si tu as une excuse, aujourd'hui, sache néanmoins que le devoir d'une femme est de voiler les défauts des femmes.</s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="26">
 	<s id="1">Sage est celui qui nous apprit à entendre [l]es hommes s'expliquer eux-mêmes en notre présence. </s>
 	<s id="2">Pour moi, sachant le trouble qui règne dans cette famille et ta querelle avec la veuve d'Hector, je veillais et j'attendais, soit que tu dusses rester ici, soit qu'effrayée et redoutant la captive tu voulusses fuir de cette maison. </s>
@@ -1165,7 +1167,7 @@
 	<s id="2">Mais emmène-moi au plus vite loin de ces lieux, de peur que mon époux ne rentre au palais avant mon départ, ou que Pélée, instruit de ma fuite, ne lance des chars à ma poursuite.</s>
 </p>
 </sp>
-<sp who='ORESTE'><speaker>ORESTE.</speaker>
+<sp who="ORESTE"><speaker>ORESTE.</speaker>
 <p id="28">
 	<s id="1">Ne redoute pas le bras d'un vieillard ; ne crains rien non plus du fils d'Achille, après les outrages qu'il m'a adressés. </s>
 	<s id="2">Cette main a dressé un piège sous ses pas, et l'a enlacé dans les noeuds inévitables de la mort. </s>
@@ -1278,7 +1280,7 @@
 	<s id="2">Mon coeur est saisi d'un sinistre pressentiment. </s>
 </p>
 </sp>
-<sp who='LE MESSAGER'><speaker>LE MESSAGER.</speaker>
+<sp who="LE MESSAGER"><speaker>LE MESSAGER.</speaker>
 <p id="3">
 	<s id="1">Sache, Pélée, que ton petit-fils n'est plus : il a péri sous le glaive meurtrier des habitants de Delphes et de l'étranger de Mycènes. </s>
 </p>
@@ -1296,7 +1298,7 @@
 	<s id="1">Je suis anéanti ; c'est fait de moi : ma voix s'éteint ; mes jambes se dérobent sous moi. </s>
 </p>
 </sp>
-<sp who='LE MESSAGER'><speaker>LE MESSAGER.</speaker>
+<sp who="LE MESSAGER"><speaker>LE MESSAGER.</speaker>
 <p id="6">
 	<s id="1">Redresse-toi pour entendre le récit de ce qui s'est passé, si toutefois tu veux venger tes amis.</s>
 </p>
@@ -1309,7 +1311,7 @@
 	<s id="4">Quelque pénible que soit ce récit, je veux l'entendre. </s>
 </p>
 </sp>
-<sp who='LE MESSAGER'><speaker>LE MESSAGER.</speaker>
+<sp who="LE MESSAGER"><speaker>LE MESSAGER.</speaker>
 <note type="L">Pyrrhique ;Terme d'antiquité. Sorte de danse qui se faisait les armes à la main. [L]</note>
 <p id="8">
 	<s id="1">Trois fois le soleil avait achevé sa course brillante, depuis notre arrivée sur le sol fameux de Phébus, et nous promenions partout des regards curieux. </s>
