@@ -51,7 +51,7 @@
 		<castItem><role id="CRISPIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>CRISPIN</role>, Fils de Madame Simone, Le Sieur Bordier.</castItem>
 		<castItem><role id="FRANÇOIS" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>FRANÇOIS</role>, Amant de Lolotte, et Camarade de Crispin , Le Sieur Talon, l'aîné.</castItem>
 		<castItem><role id="ARLEQUIN" sex="1" type="H" statut="bourgeois" age="J" stat_amour='néant'>ARLEQUIN</role>, Neveu de M. Cristophe, et Camarade de François et de Crispin, Le Sieur Moreau.</castItem>
-		<castItem><role id="TROUPE D'ENFANTS" sex="9" type="H" statut="E" age="E" stat_amour='néant'>TROUPE D'ENFANTS</role>.</castItem>
+		<castItem><role id="TROUPE D'ENFANTS" sex="9" type="H" statut="enfant" age="E" stat_amour='néant'>TROUPE D'ENFANTS</role>.</castItem>
 	</castList>
 	<set location="Paris" country="France" periode="XVIIIème" gps="48.856614, 2.352222">La Scène est dans l'appartement de Madame Simone.</set>
 </front>
@@ -103,7 +103,7 @@
 	<s id="3">Ah ! </s>
 </p>
 </sp>
-<sp who="CRISPIN"><speaker>CRISPIN, attrapant Tonton.</speaker>
+<sp stage="pull" who="CRISPIN"><speaker>CRISPIN, attrapant Tonton.</speaker>
 <p id="9">
 	<s id="1">Oh ! </s>
 	<s id="2">Pour le coup, je vous tiens. </s>
@@ -506,7 +506,7 @@
 	<s id="2">Ils n'y sont pas. </s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, se montrant.</speaker>
+<sp stage="show" who="ARLEQUIN"><speaker>ARLEQUIN, se montrant.</speaker>
 <p id="2">
 	<s id="1">Oh que si, oh que si ; me voilà.</s>
 </p>
@@ -633,7 +633,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. FRANÇOIS, ARLEQUIN. </head>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, accourant. </speaker>
+<sp stage="run" who="FRANÇOIS"><speaker>FRANÇOIS, accourant. </speaker>
 <p id="1">
 	<s id="1">Eh bien, mon cher Arlequin, conte moi vite ce que tu as fait, ce quelle à dit. </s>
 	<s id="2">Je suis d'une impatience....</s>
@@ -919,7 +919,7 @@
 	<s id="1">Mais, ma bonne Maman, vous ne les fuyez pas, vous, les hommes.</s>
 </p>
 </sp>
-<sp who="MADAME SIMONE"><speaker>MADAME SIMONE, embarrassée.</speaker>
+<sp stage="embarrassed" who="MADAME SIMONE"><speaker>MADAME SIMONE, embarrassée.</speaker>
 <p id="15">
 	<s id="1">Oh ! </s>
 	<s id="2">Moi, ... j'ai de l'expérience... </s>
@@ -963,7 +963,7 @@
 	<s id="5">Allez, Mademoiselle, allez reprendre votre ouvrage : que je vous voie lever les yeux !</s>
 </p>
 </sp>
-<sp who="LOLOTTE"><speaker>LOLOTTE, à part, en fe remettant à son ouvrage. </speaker>
+<sp stage="aparte/work" who="LOLOTTE"><speaker>LOLOTTE, à part, en se remettant à son ouvrage. </speaker>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="3">Que le[s] mères font grondeuses ! </s>
@@ -1213,7 +1213,7 @@
 	<s id="1">Je suis de la meilleure humeur du monde ! </s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, bas à François. </speaker>
+<sp stage="low/toward" who="ARLEQUIN"><speaker>ARLEQUIN, bas à François. </speaker>
 <p id="11">
 	<s id="1">Tu vois qu'elle te donne beau jeu. </s>
 </p>
@@ -1233,14 +1233,14 @@
 	<s id="1">C'est ... qu'il est bien vrai que je vous aime. </s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, à part. </speaker>
+<sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part. </speaker>
 <p id="15">
 	<s id="1">Le voilà pourtant qui se dégourdit.</s>
 </p>
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV. Les Acteurs précédents, Tonton.</head>
-<sp who="TONTON"><speaker>TONTON, au fond du Théâtre.</speaker>
+<sp stage="location" who="TONTON"><speaker>TONTON, au fond du Théâtre.</speaker>
 <p id="1">
 	<s id="1">Que font-ils donc là ? </s>
 	<s id="2">Motus ; épions-les.</s>
@@ -1268,7 +1268,7 @@
 	<s id="1">J'aurais peut-être tort de vous croire. </s>
 </p>
 </sp>
-<sp who="TONTON"><speaker>TONTON, au fond du Théâtre. </speaker>
+<sp stage="location" who="TONTON"><speaker>TONTON, au fond du Théâtre. </speaker>
 <p id="6">
 	<s id="1">Ma chère soeur s'attendrit. </s>
 </p>
@@ -1511,7 +1511,7 @@
 	<s id="2">Madame, j'ai bien, l'honneur de vous saluer.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, adoucissant sa voix, et faisant la révérence. </speaker>
+<sp stage="sweet/wave" who="ARLEQUIN"><speaker>ARLEQUIN, adoucissant sa voix, et faisant la révérence. </speaker>
 <p id="14">
 	<s id="1">Votre servante, Monsieur_François. </s>
 	<s id="2">Eh bien, comment vont les plaisirs ? </s>
@@ -1821,7 +1821,7 @@
 	<s id="1">Ma chère Madame_Simone, que je vous aime !</s>
 </p>
 </sp>
-<sp who="LOLOTTE"><speaker>LOLOTTE, accourant. </speaker>
+<sp stage="run" who="LOLOTTE"><speaker>LOLOTTE, accourant. </speaker>
 <p id="19">
 	<s id="1">Maman, Maman, je prends part à votre bonheur. </s>
 	<s id="2">Mais rendez-moi heureuse aussi.</s>

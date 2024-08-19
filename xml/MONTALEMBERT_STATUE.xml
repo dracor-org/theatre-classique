@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding='utf-8'?>
 <TEI xml:lang="fr">
 <teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>LA STATUE, COMÉDIE</title>
-				<author type="texte" ISNI="0000 0000 8135 6906">MONTALEMBERT, Marc-René de (1714-1800) </author>
-			</titleStmt>
-			<publicationStmt>	 				
-				<editor>Texte établi par Paul FIEVRE, avril 2019</editor>
-				<publisher>publié par Paul FIEVRE, mai 2019</publisher>
-				<idno>MONTALEMBERT_STATUE</idno>
+	<fileDesc>
+		<titleStmt>
+			<title>LA STATUE, COMÉDIE</title>
+			<author type="texte" ISNI="0000 0000 8135 6906">MONTALEMBERT, Marc-René de (1714-1800) </author>
+		</titleStmt>
+		<publicationStmt>	 				
+			<editor>Texte établi par Paul FIEVRE, avril 2019</editor>
+			<publisher>publié par Paul FIEVRE, mai 2019</publisher>
+			<idno>MONTALEMBERT_STATUE</idno>
 			<rights>Creative Commons BY-NC-SA</rights>
-			</publicationStmt>
-			<SourceDesc>
-				<genre>Comédie</genre>
-				<inspiration>moeurs</inspiration><structure>Deux actes</structure>
-				<type>mixte</type>
-				<periode>1781-1790</periode>
-				<taille>0-250</taille>
-				<permalien>https://gallica.bnf.fr/ark:/12148/bpt6k85893v?rk=42918;4</permalien>
-			</SourceDesc>
-		</fileDesc>
+		</publicationStmt>
+		<SourceDesc>
+			<genre>Comédie</genre>
+			<inspiration>moeurs</inspiration>
+			<structure>Deux actes</structure>
+			<type>mixte</type>
+			<periode>1781-1790</periode>
+			<taille>0-250</taille>
+			<permalien cote="BnF LLA Yf-7657 ">https://gallica.bnf.fr/ark:/12148/bpt6k85893v?rk=42918;4</permalien>
+		</SourceDesc>
+	</fileDesc>
 </teiHeader>
 <text>
 	<front>
@@ -373,7 +374,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Le Marquis, Un Domestique.</head>
-<sp who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE, venant du côté de la maison.</speaker>
+<sp stage="closer/location" who="LE DOMESTIQUE"><speaker>LE DOMESTIQUE, venant du côté de la maison.</speaker>
 <p id="1">
 	<s id="1">Monsieur ?</s>
 </p>
@@ -1175,7 +1176,7 @@ Chevalier venant du côte de la maison.</head>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. La Comtesse, Le Chevalier.</head>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, revenant du côté des jardins.</speaker>
+<sp stage="location" who="LA COMTESSE"><speaker>LA COMTESSE, revenant du côté des jardins.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Chevalier, je suis la plus malheureuse créature qui existe !</s>
@@ -1261,7 +1262,7 @@ Chevalier venant du côte de la maison.</head>
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, seule.</speaker>
+<sp stage="alone" who="LA COMTESSE"><speaker>LA COMTESSE, seule.</speaker>
 <p id="1">
 	<s id="1">Il ne m'est plus possible d'en douter?....</s>
 </p>
@@ -1305,7 +1306,7 @@ Chevalier venant du côte de la maison.</head>
 	<s id="1">Vous-même, Madame.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, après avoir rêvé un moment.</speaker>
+<sp stage="dream" who="LA COMTESSE"><speaker>LA COMTESSE, après avoir rêvé un moment.</speaker>
 <p id="4">
 	<s id="1">Dites-lui que, s'il le veut, il en est bien le maître.</s>
 </p>
@@ -1525,7 +1526,7 @@ Chevalier venant du côte de la maison.</head>
 	<s id="1">Calmez-vous, c'est moi qui vous le demande.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, parlant toujours à lui-même.</speaker>
+<sp stage="aparte" who="LE MARQUIS"><speaker>LE MARQUIS, parlant toujours à lui-même.</speaker>
 <p id="6">
 	<s id="1">Et je ne puis l'oublier, malgré tant de perfidie !</s>
 </p>
@@ -1546,7 +1547,7 @@ Chevalier venant du côte de la maison.</head>
 	<s id="1">Quelle douleur !</s>
 </p>
 </sp>
-<sp stage="" who="LE MARQUIS"><speaker>LE MARQUIS, revenant à lui un peu plus tranquille.</speaker>
+<sp stage="back/quiet" who="LE MARQUIS"><speaker>LE MARQUIS, revenant à lui un peu plus tranquille.</speaker>
 <p id="9">
 	<s id="1">Non, mon ami vous ne fauriez avoir d'idée de ce que je souffre...</s>
 </p>
@@ -1578,7 +1579,7 @@ Chevalier venant du côte de la maison.</head>
 <stage type="down/closer/touch">Elle descend, le Marquis va au-devant d'elle, lui donne la main avec transport. Ils s'avancent pour le Quinque.</stage>
 <stage type="title">QUINQUE.</stage>
 </sp>
-<sp who="LA COMTESSE, LE MARQUIS"><speaker>LA COMTESSE, LE MARQUIS. </speaker>
+<sp stage="together" who="LA COMTESSE, LE MARQUIS"><speaker>LA COMTESSE, LE MARQUIS. </speaker>
 	<l id="183">Dans quelle erreur nous étions l'un et l'autre ! </l>
 	<l id="184">Aucun bonheur n'est comparable  au nôtre. </l>
 	<l id="185">Livrons-nous aux plus doux transports ; </l>
@@ -1587,7 +1588,7 @@ Chevalier venant du côte de la maison.</head>
 	<l id="188">Feront la chaîne fortunée </l>
 	<l id="189">De notre heureuse destinée. </l>
 </sp>
-<sp who="JULIE, LE CHEVALIER"><speaker>JULIE, LE CHEVALIER.</speaker>
+<sp stage="together" who="JULIE, LE CHEVALIER"><speaker>JULIE, LE CHEVALIER.</speaker>
 	<l id="190">Dans quelle erreur ils étaient l'un et l'autre :</l>
 	<l id="191">Aucun bonheur n'est comparable au nôtre.</l>
 	<l id="192">Livrons-nous aux plus doux transports ;</l>
@@ -1596,7 +1597,7 @@ Chevalier venant du côte de la maison.</head>
 	<l id="195">Feront la chaîne fortunée</l>
 	<l id="196">De notre heureuse destinée.</l>
 </sp>
-<sp who="LE BARON"><speaker>LE BARON, au Marquis et à la Comtesse.</speaker>
+<sp stage="toward" who="LE BARON"><speaker>LE BARON, au Marquis et à la Comtesse.</speaker>
 	<l id="197">Dans quelle erreur vous étiez l'un et l'autre,</l>
 	<l id="198">Aucun bonheur n'est comparable au vôtre.</l>
 	<l id="199">Livrez-vous aux plus doux transports ;</l>

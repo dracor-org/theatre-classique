@@ -60,7 +60,7 @@
 <stage type="decor">Le théâtre représente un salon ; porte au fond, portes latérales.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Sophie, Laurence, Madame Dupré.</head>
 <stage type="sit/furniture/location">Au lever du rideau, Madame Dupré et Sophie sont assises auprès d'une table, à droite.</stage>
-<sp who="LAURENCE"><speaker>LAURENCE, accourant tout en pleurs.</speaker>
+<sp stage="entrance/hurry/cry" who="LAURENCE"><speaker>LAURENCE, accourant tout en pleurs.</speaker>
 <p id="1">
 	<s id="1">Mes chères amies, que je suis malheureuse ! </s>
 	<s id="2">On ne veut pas que je vienne ce soir.</s>
@@ -140,7 +140,7 @@
 	<s id="1">Déjà !</s>
 </p>
 </sp>
-<sp who="SOPHIE"><speaker>SOPHIE, passant au milieu.</speaker>
+<sp stage="location" who="SOPHIE"><speaker>SOPHIE, passant au milieu.</speaker>
 <p id="15">
 	<s id="1">Il le faut bien ; mais vous viendrez me voir, n'est-ce pas, mes chères amies ? </s>
 	<s id="2">Ah ! </s>
@@ -424,7 +424,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V. Dupré, Madame Dupré.</head>
-<sp who="DUPRÉ"><speaker>DUPRÉ, à la cantonade.</speaker>
+<sp stage="toward" who="DUPRÉ"><speaker>DUPRÉ, à la cantonade.</speaker>
 <p id="1">
 	<s id="1">Oui, oui, je crois que ce sera très bien ainsi : du reste, adressez-vous à ma femme.</s>
 </p>
@@ -1048,7 +1048,7 @@
 	<s id="1">Quelle délicatesse !</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, en montrant un écrin.</speaker>
+<sp stage="show" who="ERNEST"><speaker>ERNEST, en montrant un écrin.</speaker>
 <p id="38">
 	<s id="1">J'ai là un collier de perles, c'est peu de chose.</s>
 </p>
@@ -1093,7 +1093,7 @@
 	<s id="2">Après les services importants que vous m'avez rendus, je ne crois pas encore dignement reconnaître vos témoignages d'amitié, et vous me désobligeriez beaucoup en refusant.</s>
 </p>
 </sp>
-<sp stage="" who="DUPRÉ"><speaker>DUPRÉ, acceptant.</speaker>
+<sp stage="opinion" who="DUPRÉ"><speaker>DUPRÉ, acceptant.</speaker>
 <p id="45">
 	<s id="1">Vous me prenez par les sentiments, Monsieur_le_Comte ; il est bien difficile de vous résister. </s>
 	<s id="2">J'espère qu'enfin Madame_Dupré sera contente.</s>
@@ -1216,7 +1216,7 @@
 	<s id="2">À vous seule ?</s>
 </p>
 </sp>
-<sp who="LAURENCE"><speaker>LAURENCE, naïvement.</speaker>
+<sp stage="naïve" who="LAURENCE"><speaker>LAURENCE, naïvement.</speaker>
 <p id="6">
 	<s id="1">Quoi, monsieur ! </s>
 	<s id="2">Vous avez quelque chose à me dire ? </s>
@@ -1275,7 +1275,7 @@
 	<l id="35">S'il n'est plus là.</l>
 	<l id="36">Pourquoi souffrir s'il n'est plus là ?</l>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, transporté.</speaker>
+<sp stage="enthousiasm" who="ERNEST"><speaker>ERNEST, transporté.</speaker>
 <p id="14">
 	<s id="1">Vous n'aimez pas, Laurence, vous n'aimez pas... </s>
 	<s id="2">L'amour est un bonheur qui tourmente, qui obsède et le jour et la nuit.</s>
@@ -1362,7 +1362,7 @@
 	<s id="3">Laurence !...</s>
 </p>
 </sp>
-<sp who="LAURENCE"><speaker>LAURENCE, avec un trouble croissant.</speaker>
+<sp stage="stress" who="LAURENCE"><speaker>LAURENCE, avec un trouble croissant.</speaker>
 <p id="29">
 	<s id="1">Ne me regardez pas comme cela.</s>
 </p>
@@ -1434,7 +1434,7 @@
 	<s id="2">J'ignore ce qui se passe dans mon âme, Monsieur_Ernest ; vous m'avez attristée ; je ne sais pourquoi des larmes...</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, avec passion.</speaker>
+<sp stage="enthousiasm" who="ERNEST"><speaker>ERNEST, avec passion.</speaker>
 <p id="42">
 	<s id="1">Ah ! </s>
 	<s id="2">Laurence !...</s>
@@ -1459,7 +1459,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI. Ernest, Madame Dupré, Laurence.</head>
-<sp who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ, à part, en entrant.</speaker>
+<sp stage="entrance/aparte" who="MADAME DUPRÉ"><speaker>MADAME DUPRÉ, à part, en entrant.</speaker>
 <p id="1">
 	<s id="1">Laurence est avec lui !</s>
 </p>
@@ -2037,7 +2037,7 @@
 	<s id="1">Il le faut donc ! </s>
 	<s id="2">Ô tourment !</s>
 </p>
-<stage type="">Haut.</stage>
+<stage type="loud">Haut.</stage>
 <p id="6">
 	<s id="1">Tiens, Laurence.</s>
 </p>
@@ -2095,7 +2095,7 @@
 	<s id="5">Que je souffre !</s>
 </p>
 </sp>
-<sp who="DUPRÉ"><speaker>DUPRÉ, remontant la scène.</speaker>
+<sp stage="entrance" who="DUPRÉ"><speaker>DUPRÉ, remontant la scène.</speaker>
 <p id="17">
 	<s id="1">Entendez-vous nos musiciens ? </s>
 	<s id="2">Il ne faut pas qu'ils jouent pour rien.</s>
@@ -2471,7 +2471,7 @@
 <p id="13">
 	<s id="1">Voici la part de la vanité.</s>
 </p>
-<stage type="">Haut.</stage>
+<stage type="loud">Haut.</stage>
 <p id="14">
 	<s id="1">Quant à la fortune ?...</s>
 </p>
@@ -2939,7 +2939,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII.</head>
-<sp who="LAURENCE"><speaker>LAURENCE, seule.</speaker>
+<sp stage="alone" who="LAURENCE"><speaker>LAURENCE, seule.</speaker>
 <p id="1">
 	<s id="1">Oui, plus je sens la profondeur de ma chute, et plus je me relève à mes propres regards. </s>
 	<s id="2">L'homme que Monsieur_de_Boncourt a choisi pour sa fille doit être digne de recevoir ma confidence ; il saura m'accorder la protection qui m'est due à moi, être faible, sans défense ; et du moins je sauverai l'honneur de mon père. </s>
@@ -2965,7 +2965,7 @@
 </sp>
 </div2>
 <div2 stage="location" type="scene" n="8"><head>SCÈNE VIII. Sophie, Laurence, Gersaint, il se tient d'abord dans le fond.</head>
-<sp who="SOPHIE"><speaker>SOPHIE, à Gersaint.</speaker>
+<sp stage="toward" who="SOPHIE"><speaker>SOPHIE, à Gersaint.</speaker>
 <p id="1">
 	<s id="1">Laissez-moi la préparer à vous recevoir.</s>
 </p>
@@ -3023,13 +3023,13 @@
 	<s id="1">Pauvre fille !</s>
 </p>
 </sp>
-<sp stage="" who="LAURENCE"><speaker>LAURENCE, se jetant dans ses bras.</speaker>
+<sp stage="hugh" who="LAURENCE"><speaker>LAURENCE, se jetant dans ses bras.</speaker>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur...</s>
 </p>
 </sp>
-<sp who="SOPHIE"><speaker>SOPHIE, passant à la droite de Gersaint.</speaker>
+<sp stage="location" who="SOPHIE"><speaker>SOPHIE, passant à la droite de Gersaint.</speaker>
 <p id="13">
 	<s id="1">Je la confie à vos soins ; consolez-la, je vous en prie. </s>
 	<s id="2">Je vous laisse, il faut que je me rende près de mon père, mais je reviens bientôt.</s>
@@ -3284,7 +3284,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="11"><head>SCÈNE XI.</head>
-<sp who="LAURENCE"><speaker>LAURENCE, seule.</speaker>
+<sp stage="alone" who="LAURENCE"><speaker>LAURENCE, seule.</speaker>
 <p id="1">
 	<s id="1">Ernest ! </s>
 	<s id="2">Ce nom m'a fait trembler ; je n'ose jeter les yeux à travers cette croisée... Ernest !</s>
@@ -3579,7 +3579,7 @@
 	<s id="1">On ne se doute guère à Châtillon que je viens ici vous marier.</s>
 </p>
 </sp>
-<sp who="ERNEST"><speaker>ERNEST, de même.</speaker>
+<sp stage="low/toward" who="ERNEST"><speaker>ERNEST, de même.</speaker>
 <p id="5">
 	<s id="1">À la fin, mon cher, je dis adieu à tous les amusements de la jeunesse ; je deviens un homme grave, il le faut : la carrière de l'ambition est ouverte et j'y entre.</s>
 </p>
@@ -3601,7 +3601,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI. Les mêmes, Sophie, Laurence.</head>
-<sp who="ERNEST"><speaker>ERNEST, à part.</speaker>
+<sp stage="aparte" who="ERNEST"><speaker>ERNEST, à part.</speaker>
 <p id="1">
 	<s id="1">Ciel ! </s>
 	<s id="2">Laurence !</s>
@@ -3646,7 +3646,7 @@
 	<s id="2">Mais il y a six mois, vous l'avez vue, je crois, chez monsieur Dupré.</s>
 </p>
 </sp>
-<sp who="LAURENCE"><speaker>LAURENCE, le regardant fixement.</speaker>
+<sp stage="watch" who="LAURENCE"><speaker>LAURENCE, le regardant fixement.</speaker>
 <p id="9">
 	<s id="1">Monsieur_le_Comte s'en souvient-il ?</s>
 </p>
@@ -3674,7 +3674,7 @@
 	<s id="1">Qu'a donc Mademoiselle ?</s>
 </p>
 </sp>
-<sp who="LAURENCE"><speaker>LAURENCE, avec effort.</speaker>
+<sp stage="stress" who="LAURENCE"><speaker>LAURENCE, avec effort.</speaker>
 <p id="14">
 	<s id="1">Le bonheur de mon amie m'est précieux et cher, et lorsque vous vous chargez de la rendre heureuse...</s>
 </p>
@@ -3694,7 +3694,7 @@
 	<s id="1">Le cher Comte m'a l'air un peu embarrassé.</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, allant auprès de la table.</speaker>
+<sp stage="closer/furniture" who="LE MARQUIS"><speaker>LE MARQUIS, allant auprès de la table.</speaker>
 <p id="18">
 	<s id="1">Allons, Monsieur_le_Comte, prenez cette plume, et signez.</s>
 </p>
@@ -3706,7 +3706,7 @@
 </p>
 <stage type="hesitate/sign">Après avoir hésité un instant, il signe.</stage>
 </sp>
-<sp who="LAURENCE"><speaker>LAURENCE, à part.</speaker>
+<sp stage="aparte" who="LAURENCE"><speaker>LAURENCE, à part.</speaker>
 <p id="20">
 	<s id="1">Tout est fini !</s>
 </p>
@@ -3756,7 +3756,7 @@
 </p>
 <stage type="sign">Elle va signer.</stage>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, remettant un écrin à son fils.</speaker>
+<sp stage="give/toward" who="LA COMTESSE"><speaker>LA COMTESSE, remettant un écrin à son fils.</speaker>
 <p id="39">
 	<s id="1">Tenez, Ernest, ce sont mes diamants : offrez-les à votre femme.</s>
 </p>

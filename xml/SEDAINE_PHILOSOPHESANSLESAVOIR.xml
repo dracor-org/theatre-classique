@@ -52,7 +52,7 @@
 		<castItem><role id="MONSIEUR DESPARVILLE FILS" sex="1" type="H" statut="officier" age='J' stat_amour='néant'>MONSIEUR DESPARVILLE FILS</role>, officier de cavalerie.</castItem>
 		<castItem><role id="MADAME VANDERK" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>MADAME VANDERK</role>.</castItem>
 		<castItem><role id="UNE MARQUISE" sex="2" type="H" statut="marquis" age='A' stat_amour='néant'>UNE MARQUISE</role>, soeur de Monsieur Vanderk père.</castItem>
-		<castItem><role id="ANTOINE" sex="1" type="H" statut="homme deconfiance" age='A' stat_amour='néant'>ANTOINE</role>, homme confiance de Monsieur Vanderk.</castItem>
+		<castItem><role id="ANTOINE" sex="1" type="H" statut="homme de confiance" age='A' stat_amour='néant'>ANTOINE</role>, homme confiance de Monsieur Vanderk.</castItem>
 		<castItem><role id="VICTORINE" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>VICTORINE</role>, fille d'Antoine.</castItem>
 		<castItem><role id="MADEMOISELLE SOPHIE VANDERK" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>MADEMOISELLE SOPHIE VANDERK</role>, fille de Monsieur Vanderk.</castItem>
 		<castItem><role id="UN PRÉSIDENT" sex="1" type="H" statut="président" age='A' stat_amour='néant'>UN PRÉSIDENT</role>, futur époux de Mademoiselle Vanderk.</castItem>
@@ -3139,7 +3139,7 @@ toujours sa témérité.</s>
 	<s id="1">Antoine, reste ici.</s>
 </p>
 </sp>
-<sp who="LA TANTE"><speaker>LA TANTE, en s'en allant.</speaker>
+<sp stage="away" who="LA TANTE"><speaker>LA TANTE, en s'en allant.</speaker>
 <p id="2">
 	<s id="1">Je vois qu'il est heureux, mais très heureux pour mon neveu que je sois venue ici. </s>
 	<s id="2">Vous mon frère, vous avez perdu toute idée de noblesse, de grandeur ; le commerce rétrécit l'âme, mon frère. </s>
@@ -3150,7 +3150,7 @@ toujours sa témérité.</s>
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI.</head>
-<sp who="ANTOINE"><speaker>ANTOINE, seul.</speaker>
+<sp stage="alone" who="ANTOINE"><speaker>ANTOINE, seul.</speaker>
 <p id="1">
 	<s id="1">Oui, ma résolution est prise : comment ? </s>
 	<s id="2">Un misérable, un drôle...</s>
@@ -3980,7 +3980,7 @@ toujours sa témérité.</s>
 	<s id="1">Non, restez, je vous l'ordonne : vos pleurs vous trahiraient ; je vous défends de sortir d'ici que je ne sois rentré.</s>
 </p>
 </sp>
-<sp who="VICTORINE"><speaker>VICTORINE, apercevant Monsieur Vanderk fils.</speaker>
+<sp stage="watch" who="VICTORINE"><speaker>VICTORINE, apercevant Monsieur Vanderk fils.</speaker>
 <p id="10">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur.</s>

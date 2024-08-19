@@ -49,15 +49,15 @@
 		</performance>
 
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>ADÉLAÏDE</role>, Directrice d'Opéra, Mde Trial.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>HIRADOT</role>, oncle d'Adélaïde, M. Suin.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>RIGAUT</role>, Etudiant en Droit, M. Trial.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>ISIDORE</role>, ami de Rigaut, M. Narbonne.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>MONSIEUR JOURDAIN</role>, oncle de Rigaut, M. Nainville.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>MONSIEUR MOUTON</role>, Maître en Droit, M. la Ruette.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>UN SUISSE</role>, M. Gaillard.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>Choeurs de Chanteurs, Chanteuses, Danseurs et Danseuses</role>.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour=''>Plusieurs Garçons de Théâtre</role>.</castItem>
+		<castItem><role id="ADÉLAÏDE" sex="2" type="H" statut="directeur" age="A" stat_amour=''>ADÉLAÏDE</role>, Directrice d'Opéra, Mde Trial.</castItem>
+		<castItem><role id="HIRADOT" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>HIRADOT</role>, oncle d'Adélaïde, M. Suin.</castItem>
+		<castItem><role id="RIGAUT" sex="1" type="H" statut="étudiant" age="J" stat_amour=''>RIGAUT</role>, étudiant en Droit, M. Trial.</castItem>
+		<castItem><role id="ISIDORE" sex="1" type="H" statut="bourgeois" age="J" stat_amour=''>ISIDORE</role>, ami de Rigaut, M. Narbonne.</castItem>
+		<castItem><role id="MONSIEUR JOURDAIN" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>MONSIEUR JOURDAIN</role>, oncle de Rigaut, M. Nainville.</castItem>
+		<castItem><role id="MONSIEUR MOUTON" sex="1" type="H" statut="professeur" age="A" stat_amour=''>MONSIEUR MOUTON</role>, Maître en Droit, M. la Ruette.</castItem>
+		<castItem><role id="UN SUISSE" sex="1" type="H" statut="suisse" age="A" stat_amour=''>UN SUISSE</role>, M. Gaillard.</castItem>
+		<castItem><role id="CHOEUR" sex="9" type="H" statut="artiste" age="A" stat_amour=''>Choeurs de Chanteurs, Chanteuses, Danseurs et Danseuses</role>.</castItem>
+		<castItem><role id="GARÇONS DE THÉÂTRE" sex="1" type="H" statut="employé" age="A" stat_amour=''>Plusieurs Garçons de Théâtre</role>.</castItem>
 	</castList>
 <set location="Reims" country="France" periode="XVIIIème" gps="49.258329, 4.031696">La Scène est à Reims en Champagne. Pendant les trois premières scènes le Théâtre est
 nue et dans la confusion, d'un spectacle naissant.</set>
@@ -453,7 +453,7 @@ nue et dans la confusion, d'un spectacle naissant.</set>
 	<l id="275">Moi n'afoir pu tenir contre in Pourchois mutin</l>
 	<l id="276">Qui repoussir tout seul mon pique avec son main;</l>
 </sp>
-<sp who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS, l'un après l'autre, avec un geste d'effroi.</speaker>
+<sp stage="frighten" who="TOUS LES ACTEURS"><speaker>TOUS LES ACTEURS, l'un après l'autre, avec un geste d'effroi.</speaker>
 	<l id="277">Seul, est-il possible !</l>
 </sp>
 <sp who="LE SUISSE"><speaker>LE SUISSE.</speaker>
@@ -502,7 +502,7 @@ nue et dans la confusion, d'un spectacle naissant.</set>
 	<l id="298" syll="6" part="f">Celui qui m'intéresse ;</l>
 	<l id="299" syll="3" part="i">Dont le chant...</l>
 </sp>
-<sp who="HIRADOT"><speaker>HIRADOT, courant à la coulisse.</speaker>
+<sp stage="run/location" who="HIRADOT"><speaker>HIRADOT, courant à la coulisse.</speaker>
 	<l id="299" syll="9" part="f">Qu'il soit libre. Arrêtez en ce cas, </l>
 	<l id="300" syll="6" part="i">Arrêtez, chers amis....</l>
 </sp>
@@ -643,7 +643,7 @@ nue et dans la confusion, d'un spectacle naissant.</set>
 	<l id="403">Les yeux d'Adélaïde ont un si grand pouvoir !</l>
 	<l id="404" syll="4" part="i">Quand on la voit...</l>
 </sp>
-<sp who="RIGAUT"><speaker>RIGAUT, avec indifférence.</speaker>
+<sp stage="quiet" who="RIGAUT"><speaker>RIGAUT, avec indifférence.</speaker>
 	<l id="404" syll="4" part="f">J'ai pu la voir ; </l>
 	<l id="405">Mais je ne l'ai pas regardée.</l>
 </sp>
@@ -905,7 +905,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="567">Recevoir un quartaut d'un vin très délicat,</l>
 	<l id="568">Que je vous réservais pour qu'il fût avocat.</l>
 </sp>
-<sp who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, avec empressement.</speaker>
+<sp stage="hurry" who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, avec empressement.</speaker>
 	<l id="569" syll="3" part="i">Heim ? Parlez.</l>
 </sp>
 <sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN.</speaker>
@@ -939,7 +939,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="583">Il a de l'âme, il est sensible ; </l>
 	<l id="584">Et c'est-là franchement le ressort des vertus.</l>
 </sp>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, avec humeur.</speaker>
+<sp stage="stress" who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, avec humeur.</speaker>
 	<l id="585" syll="4" part="i">Il s'agit bien...</l>
 </sp>
 <sp who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON.</speaker>
@@ -991,7 +991,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="611">Mais on se moque, je crois : </l>
 	<l id="612">Quel est cet insolent délire ? </l>
 </sp>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, furieux.</speaker>
+<sp stage="furious" who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, furieux.</speaker>
 	<l id="613">Morbleu, Mesdames, laissez-moi;</l>
 	<l id="614">Je ne suis pas ici pour rire.</l>
 </sp>
@@ -1183,7 +1183,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="713" syll="5" part="m">Qui donne un désir</l>
 	<l id="714">Doit un plaisir.</l>
 </sp>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE, RIGAUT.</speaker>
+<sp stage="together" who="ADÉLAÏDE, RIGAUT"><speaker>ADÉLAÏDE, RIGAUT.</speaker>
 <stage type="title">DUO.</stage>
 <stage type="title">AIR : du Duo de Monsieur de la Garde.</stage>
 	<l id="715">Nous nous aimons ; mais c'est peu de s'aimer,</l>
@@ -1326,8 +1326,8 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Rigaut, Monsieur Jourdain, Monsieur Mouton.</head>
-<sp who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, dans le fond du Théâtre.</speaker>
-<stage type="title">AIR. Vaudeville du Bucheron ; Richard qui faites grand tapage.</stage>
+<sp stage="location" who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, dans le fond du Théâtre.</speaker>
+<stage type="title">AIR. Vaudeville du Bûcheron ; Richard qui faites grand tapage.</stage>
 	<l id="806">Quoi sous cet attirail fantasque</l>
 	<l id="807">Est-ce lui ? Peut-on avancer ?</l>
 </sp>
@@ -1341,7 +1341,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="812">Trop de pétulance ;</l>
 	<l id="813">Gâte tout. </l>
 </sp>
-<sp who="RIGAUT"><speaker>RIGAUT, qui les aperçoit.</speaker>
+<sp stage="watch" who="RIGAUT"><speaker>RIGAUT, qui les aperçoit.</speaker>
 	<l id="814">Grands Dieux ! Rêvai-je ou si je veille ? </l>
 	<l id="815">L'oncle et l'agrégé !... C'en est fait.</l>
 </sp>
@@ -1413,7 +1413,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="859">Blessé la Justice cent fois</l>
 	<l id="860">Afin qu'un jour il put la rendre.</l>
 </sp>
-<sp who="RIGAUT"><speaker>RIGAUT, d'un ton affectueux.</speaker>
+<sp stage="tender" who="RIGAUT"><speaker>RIGAUT, d'un ton affectueux.</speaker>
 	<l id="861">Écoutez-moi, cher oncle, et vous vous calmerez :</l>
 	<l id="862">Vous m'envoyez à Reims y prendre mes degrés ;</l>
 	<l id="863">J'y vais : je me présente. On m'exclut de la classe :</l>
@@ -1434,7 +1434,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="876">Comme il compte ses torts avec sécurité ! </l>
 	<l id="877">Comme il donne au mensonge un air de vérité !</l>
 </sp>
-<sp who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, impatiemment,</speaker>
+<sp stage="impatient" who="MONSIEUR MOUTON"><speaker>MONSIEUR MOUTON, impatiemment.</speaker>
 	<l id="878">Et ne pas plaider ! Quel dommage !</l>
 </sp>
 <sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN.</speaker>
@@ -1467,7 +1467,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="898">Le, casque tombe et mon chapeau me reste ;</l>
 	<l id="899" syll="6" part="i">Je suis prêt à partir.</l>
 </sp>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN,</speaker>
+<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN.</speaker>
 	<l id="899" syll="6" part="f">Fuyons, car j'aperçois...</l>
 </sp>
 </div2>
@@ -1503,7 +1503,7 @@ le couronnent de fleurs et l'entourent de guirlandes. L'Orchestre joue l'air : D
 	<l id="918">Votre nom fera tracé ;</l>
 	<l id="919">Dans l'étude...</l>
 </sp>
-<sp who="ADÉLAÏDE"><speaker>ADÉLAÏDE, furieuse, l'arrête.</speaker>
+<sp stage="furious/stop" who="ADÉLAÏDE"><speaker>ADÉLAÏDE, furieuse, l'arrête.</speaker>
 	<l id="920">Va, d'un vain souvenir mon amour te dispense.</l>
 	<l id="921">Cruel ! Voilà ma récompense.</l>
 	<l id="922">Il part sans pousser un soupir,</l>

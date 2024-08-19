@@ -48,7 +48,7 @@
 <div1 type="act" n="1"><head>LA BOURSE DE LOUIS</head>
 <stage type="decor">Le Théâtre représente un Cabinet de verdure, où aboutissent plusieurs allées de charmille ; sur le devant est un banc de gazon. Au fond, dans l'éloignement, on aperçoit le Château du Marquis.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Gouverneur, Le Petit Marquis.</head>
-<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, entre le premier sur la scène, le petit Marquis le fuit d'un air rêveur.</speaker>
+<sp stage="entrance/escape" who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, entre le premier sur la scène, le petit Marquis le fuit d'un air rêveur.</speaker>
 <p id="1">
 	<s id="1">Arrêtons-nous un peu, Monsieur_le_Marquis, nous avons fait une promenade un peu longue.</s>
 </p>
@@ -84,7 +84,7 @@
 	<s id="2">Que diriez-vous donc si je vous apprenais qu'il en est beaucoup qui n'en mangent pas à leur suffisance.</s>
 </p>
 </sp>
-<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, d'un air mécontents</speaker>
+<sp stage="unhappy" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, d'un air mécontent.</speaker>
 <p id="8">
 	<s id="1">Allons donc, cela ne se peut pas.</s>
 </p>
@@ -144,7 +144,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, seul.</speaker>
+<sp stage="alone" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, seul.</speaker>
 <p id="1">
 	<s id="1">Pardi, ce que m'a dit monsieur le Gouverneur m'inquiète ; comment se peut-il que l'on soit si gai, tandis qu'on a tant de sujet d'être triste.</s>
 </p>
@@ -163,7 +163,7 @@
 	<s id="1">Oh non, Monsieur_le_Marquis, c'est que je ne vous savions pas là.</s>
 </p>
 </sp>
-<sp who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, à Jeannot qui s'en va.</speaker>
+<sp stage="toward/exit" who="LE PETIT MARQUIS"><speaker>LE PETIT MARQUIS, à Jeannot qui s'en va.</speaker>
 <p id="3">
 	<s id="1">Où vas-tu donc ? </s>
 	<s id="2">Est-ce que je te fais peur ?</s>
@@ -182,7 +182,7 @@
 	<s id="3">Assieds-toi auprès de moi.</s>
 </p>	
 </sp>
-<sp who="JEANNOT"><speaker>JEANNOT, faisant des révérences.</speaker>
+<sp stage="wave" who="JEANNOT"><speaker>JEANNOT, faisant des révérences.</speaker>
 <p id="6">
 	<s id="1">Oh, monsieu le Marquis...</s>
 </p>
@@ -192,7 +192,7 @@
 	<s id="1">Allons, assieds-toi donc.</s>
 </p>
 </sp>
-<sp who=""><speaker>JEANNOT, faisant toujours des révérences et se cachant avec son chapeau.</speaker> 
+<sp stage="wave/hide" who="JEANNOT"><speaker>JEANNOT, faisant toujours des révérences et se cachant avec son chapeau.</speaker> 
 <p id="8">
 	<s id="1">Monsieu le Marquis... je savons que... je ne sommes pas daignes...</s>
 </p>
@@ -275,7 +275,7 @@
 	<s id="2">Mon papa, à qui je les montrais ce matin, me disais comme ça : Oh, te voilà bien riche ; et tu feras riche à ton tour, mon pauvre Jeannot.</s>
 </p>
 </sp>
-<sp who="JEANNOT"><speaker>JEANNOT, ouvre de grands yeux, considère la bourse et n'ose y toucher.</speaker>
+<sp stage="estonish/touch" who="JEANNOT"><speaker>JEANNOT, ouvre de grands yeux, considère la bourse et n'ose y toucher.</speaker>
 <p id="23">
 	<s id="1">Ça est-il possible !</s>
 </p>
@@ -286,7 +286,7 @@
 	<s id="2">Cet argent-là m'appartient ; j'aime mieux te le donner, que de m'acheter des bijoux dont je ne me soucie plus un instant après.</s>
 </p>
 </sp>
-<sp who="JEANNOT"><speaker>JEANNOT, prend la bourse en tressaillant de joie.</speaker>
+<sp stage="get/happy" who="JEANNOT"><speaker>JEANNOT, prend la bourse en tressaillant de joie.</speaker>
 <p id="25">
 	<s id="1">C'est donc tout de bon, monsieu le Marquis.</s>
 </p>
@@ -306,7 +306,7 @@
 	<s id="1">Ne crains rien.</s>
 </p>
 </sp>
-<sp stage="" who="JEANNOT"><speaker>JEANNOT, transporté.</speaker>
+<sp stage="enthousiasm" who="JEANNOT"><speaker>JEANNOT, transporté.</speaker>
 <p id="29">
 	<s id="1">Je ne sais où j'en suis ; je n'en reviens pas. </s>
 	<s id="2">Il faut que j'aille montrer ça à mon père.</s>
@@ -327,7 +327,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCENE V. Le Petit Marquis, Le Gouverneur.</head>
-<sp who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, tenant un gros livre, une Carte Géographique et des Globes.</speaker>
+<sp stage="get" who="LE GOUVERNEUR"><speaker>LE GOUVERNEUR, tenant un gros livre, une Carte Géographique et des Globes.</speaker>
 <p id="1">
 	<s id="1">Eh bien, monsieur le Marquis, vous voilà encore dans la rêverie : vous songez toujours aux malheurs des pauvres ; vous faites bien, les Grands ne sauraient trop s'en occuper.</s>
 </p>
@@ -346,7 +346,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. Le Marquis de Rosemont, les précédents.</head>
-<sp stage="" who="LE MARQUIS"><speaker>LE MARQUIS, entre sur la scène, en se promenant, un livre à la main.</speaker>
+<sp stage="entrance/carry" who="LE MARQUIS"><speaker>LE MARQUIS, entre sur la scène, en se promenant, un livre à la main.</speaker>
 <p id="1">
 	<s id="1">Ah, ah, messieurs, je ne vous soupçonnais pas si près.</s>
 </p>
@@ -405,7 +405,7 @@
 	<s id="1">Mais, mon père, acoutez-moi.</s>
 </p>
 </sp>
-<sp who="RUSTAUT"><speaker>RUSTAUT, avec de grands cris, toujours sans paraître.</speaker>
+<sp stage="shout/hide" who="RUSTAUT"><speaker>RUSTAUT, avec de grands cris, toujours sans paraître.</speaker>
 <p id="5">
 	<s id="1">Tais-toi. </s>
 	<s id="2">T'es eun misérable, eun infâme, eun... </s>
@@ -432,7 +432,7 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp who="RUSTAUT"><speaker>RUSTAUT, essoufflé.</speaker>
+<sp stage="breathless" who="RUSTAUT"><speaker>RUSTAUT, essoufflé.</speaker>
 <p id="10">
 	<s id="1">Monseigneur... </s>
 	<s id="2">Faites-moi justice de ce scélérat... </s>

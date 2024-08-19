@@ -236,19 +236,19 @@
 <div2 type="scene" n="2"><head>SCÈNE II. Madame Desgranges, MADELEINE, assises 
 et travaillant.</head> 
 <stage type="entrance">Desgranges et Le père Boyer, venant du fond.</stage>
-<sp who="DESGRANGES"><speaker>DESGRANGES entre, des papiers à la main.</speaker>
+<sp stage="entrance/carry" who="DESGRANGES"><speaker>DESGRANGES entre, des papiers à la main.</speaker>
 <p id="1">
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
 	<s id="3">Que le père Boyer monte.</s>
 </p>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, allant à son père.</speaker>
+<sp stage="closer" who="MADELEINE"><speaker>MADELEINE, allant à son père.</speaker>
 <p id="3">
 	<s id="1">Bonjour, père !</s>
 </p>
 </sp>
-<sp who="DESGRANGES"><speaker>DESGRANGES, l'embrassant.</speaker>
+<sp stage="kiss" who="DESGRANGES"><speaker>DESGRANGES, l'embrassant.</speaker>
 <p id="3">
 	<s id="">Bonjour, fillette ! </s>
 </p>
@@ -257,7 +257,7 @@ et travaillant.</head>
 	<s id="">Je suis à vous tout de suite, mes enfants, quelques papiers à signer pour la mairie.</s>
 </p>
 </sp>
-<sp who="BOYER"><speaker>BOYER, au fond.</speaker>
+<sp stage="toward" who="BOYER"><speaker>BOYER, au fond.</speaker>
 <p id="5">
 	<s id="1">Je ne vous dérange pas, monsieur le maire.</s>
 </p>
@@ -323,7 +323,7 @@ et travaillant.</head>
 	<s id="1">que le grand regret de Boyer, c'est de n'avoir pas pu nourrir son fils !...</s>
 </p>
 </sp>
-<sp who="BOYER"><speaker>BOYER, riant.</speaker>
+<sp stage="laugh" who="BOYER"><speaker>BOYER, riant.</speaker>
 <p id="17">
 	<s id="1">Oh ! </s>
 	<s id="2">Monsieur le maire !</s>
@@ -774,7 +774,7 @@ et travaillant.</head>
 	<s id="3">Si tu me dis des choses agréables, cela devient grave !</s>
 </p>
 </sp>
-<sp who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, avec câlinerie.</speaker>
+<sp stage="sweet" who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, avec câlinerie.</speaker>
 <p id="50">
 	<s id="1">Voyons, voyons, raisonnons... </s>
 	<s id="2">De quoi s'agit-il après tout ? </s>
@@ -837,7 +837,7 @@ et travaillant.</head>
 	<s id="8">Tu as beaucoup d'imagination pour les entremets sucrés !</s>
 </p>
 </sp>
-<sp who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, plus doucement et flattée.</speaker>
+<sp stage="sweet" who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, plus doucement et flattée.</speaker>
 <p id="60">
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
@@ -901,14 +901,14 @@ et travaillant.</head>
 	<s id="1">Moi ?</s>
 </p>
 </sp>
-<sp stage="touch" who="HENRI"><speaker>HENRI, ému.</speaker>
+<sp stage="moved" who="HENRI"><speaker>HENRI, ému.</speaker>
 <p id="3">
 	<s id="1">Oh ! </s>
 	<s id="2">Monsieur ! </s>
 	<s id="3">Monsieur !</s>
 </p>
 </sp>
-<sp who="DESGRANGES"><speaker>DESGRANGES, se tournant tout d'un coup vers Henri.</speaker>
+<sp stage="turn/closer" who="DESGRANGES"><speaker>DESGRANGES, se tournant tout d'un coup vers Henri.</speaker>
 <p id="4">
 	<s id="1">Parbleu ! </s>
 	<s id="2">Vous faites bien d'arriver. </s>
@@ -929,14 +929,14 @@ et travaillant.</head>
 	<s id="2">Mais moi, moi, quand j'ai épousé ta mère, elle valait cinquante mille fois moins que toi !</s>
 </p>
 </sp>
-<sp who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, se récriant.</speaker>
+<sp stage="shout/offended" who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, se récriant.</speaker>
 <p id="7">
 	<s id="1">Comment ?</s>
 </p>
 </sp>
 <sp who="DESGRANGES"><speaker>DESGRANGES.</speaker>
 <p id="8">
-	<s id="1">Je veux dire qu'elle avait cinquante mille francs de moins que toi, et pourtant je n'ai pas hésité.</s>
+	<s id="1">Je veux dire qu'elle avait cinquante_mille_francs de moins que toi, et pourtant je n'ai pas hésité.</s>
 </p>
 </sp>
 <sp stage="quick" who="HENRI"><speaker>HENRI, vivement.</speaker>
@@ -1124,7 +1124,7 @@ et travaillant.</head>
 	<s id="4">Partez et revenez !</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, s'élançant au dehors.</speaker>
+<sp stage="location" who="HENRI"><speaker>HENRI, s'élançant au dehors.</speaker>
 <p id="37">
 	<s id="1">À tout à l'heure ! </s>
 	<s id="2">Les deux femmes l'accompagnent jusqu'à la porte :
@@ -1145,7 +1145,7 @@ et travaillant.</head>
 	<s id="2">Un 15 novembre !</s>
 </p>
 </sp>
-<sp who="HENRI"><speaker>HENRI, déclamant.</speaker>
+<sp stage="declamate" who="HENRI"><speaker>HENRI, déclamant.</speaker>
 <p id="2">
 	<s id="1">C'est un jour de printemps égaré dans l'automne.</s>
 </p>
@@ -1293,7 +1293,7 @@ et travaillant.</head>
 	<s id="1">Mon cache-nez !...</s>
 </p>
 </sp>
-<sp who="JEAN"><speaker>JEAN, cherchant.</speaker>
+<sp stage="search" who="JEAN"><speaker>JEAN, cherchant.</speaker>
 <p id="27">
 	<s id="1">Je l'ai vu là ce matin, sur ce meuble, Monsieur.</s>
 </p>
@@ -1326,7 +1326,7 @@ et travaillant.</head>
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp who="DESGRANGES"><speaker>DESGRANGES, montrant sa femme en riant.</speaker>
+<sp stage="show/laugh" who="DESGRANGES"><speaker>DESGRANGES, montrant sa femme en riant.</speaker>
 <note type="L">La Pie Voleuse est un opéra de Rossini.</note>
 <p id="33">
 	<s id="1">C'est elle qui me l'a pris ! </s>
@@ -1939,7 +1939,7 @@ et travaillant.</head>
 	<s id="1">« J'apprends que vous êtes à la campagne ; si vous ne pouvez venir, indiquez-moi quelqu'un de sûr, et je lui remettrai les soixante francs. »</s>
 </p>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, consternée.</speaker>
+<sp stage="dismayed" who="MADELEINE"><speaker>MADELEINE, consternée.</speaker>
 <p id="46">
 	<s id="1">Soixante francs !</s>
 </p>
@@ -2442,7 +2442,7 @@ et travaillant.</head>
 	<s id="4">Une plainte en escroquerie.</s>
 </p>
 </sp>
-<sp who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, épouvantée.</speaker>
+<sp stage="frighten" who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, épouvantée.</speaker>
 <p id="8">
 	<s id="">Que dites-vous ?</s>
 </p>
@@ -2468,7 +2468,7 @@ et travaillant.</head>
 	<s id="4">Si ce scandale éclate, que dira mon père ?</s>
 </p>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, l'embrassant avec douleur.</speaker>
+<sp stage="kiss/pain" who="MADELEINE"><speaker>MADELEINE, l'embrassant avec douleur.</speaker>
 <p id="12">
 	<s id="1">Henri !... </s>
 	<s id="2">Mon ami !...</s>
@@ -2580,7 +2580,7 @@ et travaillant.</head>
 	<s id="7">Voyons donc l'effet qu'ils font à la lumière !</s>
 </p>
 </sp>
-<sp who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, troublée.</speaker>
+<sp stage="trouble" who="MADAME DESGRANGES"><speaker>MADAME DESGRANGES, troublée.</speaker>
 <p id="5">
 	<s id="1">Quoi ?</s>
 </p>
@@ -2623,7 +2623,7 @@ et travaillant.</head>
 	<s id="1">Nous sommes perdus !...</s>
 </p>
 </sp>
-<sp who="DESGRANGES"><speaker>DESGRANGES, qui a ouvert le secrétaire.</speaker>
+<sp stage="open/furniture" who="DESGRANGES"><speaker>DESGRANGES, qui a ouvert le secrétaire.</speaker>
 <p id="13">
 	<s id="1">Ils n'y sont plus !... </s>
 	<s id="2">Où sont-ils donc ?... </s>
@@ -2701,17 +2701,17 @@ et travaillant.</head>
 <sp stage="happy" who="HENRI"><speaker>HENRI, avec un cri de joie, montrant un papier.</speaker>
 <p id="24">
 	<s id="1">Ce bon sur le Trésor ! </s>
-	<s id="2">Ce bon de vingt-cinq mille francs !</s>
+	<s id="2">Ce bon de vingt-cinq_mille_francs !</s>
 </p>
 </sp>
 <sp stage="hurry/closer" who="TOUS TROIS"><speaker>TOUS TROIS, courant à lui.</speaker>
 <p id="25">
 	<s id="1">Mon père !... </s>
 	<s id="2">Mon ami !... </s>
-	<s id="3">Cher monsieur Desgranges !</s>
+	<s id="3">Cher Monsieur_Desgranges !</s>
 </p>
 </sp>
-<sp who="DESGRANGES"><speaker>DESGRANGES, se dégageant de leurs embrassements.</speaker>
+<sp stage="away/kiss" who="DESGRANGES"><speaker>DESGRANGES, se dégageant de leurs embrassements.</speaker>
 <p id="26">
 	<s id="1">C'est bon ! </s>
 	<s id="2">C'est bon ! </s>

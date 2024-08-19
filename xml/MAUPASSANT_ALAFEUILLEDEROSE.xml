@@ -39,19 +39,19 @@
 		<premiere>La pièce À la Feuille de rose, maison turque fut représentée le 13 avril 1875, pour la première fois, chez les peintres Becker et Leloir, dans leur atelier de la rue de Fleurus.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>MICHÉ</role>, maquereau.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>CRÊTE DE COQ</role>, garçon de bordel.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>MONSIEUR BEAUFLANQUET</role>, Maire de Conville.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>MADAME BEAUFLANQUET</role>, Mairesse de Conville.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>LÉON</role>, amoureux de Madame Beauflanquet.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>RAPHAËLE</role>, Employée du bordel.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>FATMA</role>, Employée du bordel.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>BLONDINETTE</role>, Employée du bordel.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>UN CAPITAINE RETRAITÉ</role>.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>UN JEUNE HOMME</role>.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>UN SAPEUR</role>.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>UN MARSEILLAIS</role>.</castItem>
-		<castItem><role id="" sex="1" type="H" statut="" age="A" stat_amour='néant'>UN ANGLAIS</role>.</castItem>
+		<castItem><role id="MICHÉ" sex="1" type="H" statut="maquereau" age="A" stat_amour='néant'>MICHÉ</role>, maquereau.</castItem>
+		<castItem><role id="CRÊTE DE COQ" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>CRÊTE DE COQ</role>, garçon de bordel.</castItem>
+		<castItem><role id="MONSIEUR BEAUFLANQUET" sex="1" type="H" statut="maire" age="A" stat_amour='néant'>MONSIEUR BEAUFLANQUET</role>, Maire de Conville.</castItem>
+		<castItem><role id="MADAME BEAUFLANQUET" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME BEAUFLANQUET</role>, Mairesse de Conville.</castItem>
+		<castItem><role id="LÉON" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>LÉON</role>, amoureux de Madame Beauflanquet.</castItem>
+		<castItem><role id="RAPHAËLE" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>RAPHAËLE</role>, Employée du bordel.</castItem>
+		<castItem><role id="FATMA" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>FATMA</role>, Employée du bordel.</castItem>
+		<castItem><role id="BLONDINETTE" sex="1" type="H" statut="employé" age="A" stat_amour='néant'>BLONDINETTE</role>, Employée du bordel.</castItem>
+		<castItem><role id="" sex="1" type="H" statut="capitaine" age="A" stat_amour='néant'>UN CAPITAINE RETRAITÉ</role>.</castItem>
+		<castItem><role id="" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>UN JEUNE HOMME</role>.</castItem>
+		<castItem><role id="UN SAPEUR" sex="1" type="H" statut="sapeur" age="A" stat_amour='néant'>UN SAPEUR</role>.</castItem>
+		<castItem><role id="UN MARSEILLAIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>UN MARSEILLAIS</role>.</castItem>
+		<castItem><role id="UN ANGLAIS" sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>UN ANGLAIS</role>.</castItem>
 	</castList>
 <set location="Paris" country="France" periode="XIXème" gps="">La scène se passe à Paris de nos jours dans un salon de bordel.</set>
 </front>
@@ -177,7 +177,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, alone.</speaker>
+<sp stage="alone" who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, alone.</speaker>
 <p id="1">
 	<s id="1">Raphaële !</s>
 </p>
@@ -347,7 +347,7 @@
 	<s id="2">Mon ami, je crois que Léon a très bien fait de nous envoyer ici.</s>
 </p>
 </sp>
-<sp who="MICHÉ"><speaker>MICHÉ, à Crête-de-Coq.</speaker>
+<sp stage="toward" who="MICHÉ"><speaker>MICHÉ, à Crête-de-Coq.</speaker>
 <p id="9">
 	<s id="1">Conduis Madame et Monsieur à la chambre jaune.</s>
 </p>
@@ -797,7 +797,7 @@
 	<s id="2">Pardon elles parlent le français comme vous et moi.</s>
 </p>
 </sp>
-<sp who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, entrant.</speaker>
+<sp stage="entrance" who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, entrant.</speaker>
 <p id="13">
 	<s id="1">Monsieur Miché, le bossu se dispute avec Mademoiselle Raphaële.</s>
 </p>
@@ -1373,7 +1373,7 @@ Les femmes l'entourent et le pelotent.
 	<s id="1">Eh bien merci, tu peux te fouiller que je baise avec toi.</s>
 </p>
 </sp>
-<sp who="MICHÉ"><speaker>MICHÉ, blaguant.</speaker>
+<sp stage="kiding" who="MICHÉ"><speaker>MICHÉ, blaguant.</speaker>
 <p id="18">
 	<s id="1">Eh bien, et moi, et bibi, dans un incendie un jour je monte au quatrième étage d'une maison qui était en feu. </s>
 	<s id="2">Il y avait quatre personnes à sauver. </s>
@@ -1479,9 +1479,9 @@ Les femmes l'entourent et le pelotent.
 	<s id="1">Toi, reste, tu vas faire aller le roquentin. </s>
 	<s id="2">Vous les garces, faites moi un petit tableau là-bas.</s>
 </p>
-<stage type="work">Il essaye de baiser Raphaële.</stage>
+<stage type="kiss">Il essaye de baiser Raphaële.</stage>
 </sp>
-<sp who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, faisant aller la manivelle.</speaker>
+<sp stage="work" who="CRÊTE DE COQ"><speaker>CRÊTE DE COQ, faisant aller la manivelle.</speaker>
 <p id="35">
 	<s id="1">Ah ! </s>
 	<s id="2">Malheur, quel supplice ! </s>
@@ -2028,7 +2028,7 @@ Les femmes l'entourent et le pelotent.
 	<s id="2">Voilà !</s>
 </p>
 </sp>
-<sp who="LE SAPEUR"><speaker>LE SAPEUR, à Raphaële.</speaker>
+<sp stage="toward" who="LE SAPEUR"><speaker>LE SAPEUR, à Raphaële.</speaker>
 <p id="26">
 	<s id="1">Que vous seriez aimable pour pisser quelques gouttes dans le vase.</s>
 </p>

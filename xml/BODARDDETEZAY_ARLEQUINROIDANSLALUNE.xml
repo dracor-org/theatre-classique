@@ -61,9 +61,9 @@
 			<p type="v">D'ailleurs, Je compte sur un droit</p>
 			<p type="v">Dont n'a jamais douté personne ;</p>
 			<p type="v">Et déjà mon coeur me conçoit.</p>
-			<p type="">L'amitié si douce et si bonne</p>
-			<p type="">Sait embellir ce qu'elle donne,</p>
-			<p type="">Et les présents qu'elle reçoit.</p>
+			<p type="v">L'amitié si douce et si bonne</p>
+			<p type="v">Sait embellir ce qu'elle donne,</p>
+			<p type="v">Et les présents qu'elle reçoit.</p>
 	</div>
 	<div type="préface"><head>PRÉFACE.</head>
 		<p>Je ne chercherai point ici à faire l'apologie de cette pièce et à justifier les défauts qu'on y remarquera. Je l'offre sans prétention, et je demande qu'on le juge avec indulgence. Elle a fait rire, c'est le seul but que je m'étais proposé. Je me suis jugé moi-même d'avance. Je sais qu'elle fournit peu d'intérêt ; qu'elle laisse beaucoup à désirer du côté de l'intrigue, et que trente représentations qu'elle a eues, en assez peu de temps pouvaient seules me la faire pardonner.</p> 
@@ -72,7 +72,7 @@
 	<castList><head>PERSONNAGES.</head>
 		<castItem><role id="AZÈMA" sex="2" type="H" statut='empereur' age='A' stat_amour='néant'>AZÈMA</role>, Impératrice.</castItem>
 		<castItem><role id="DURPHÈGOR" sex="1" type="H" statut='grand prêtre' age='A' stat_amour='néant'>DURPHÈGOR</role>, Grand-Prêtre.</castItem>
-		<castItem><role id="FATIME" sex="2" type="H" statut='confidente' age='A' stat_amour='néant'>FATIME</role>, Confidente d'Azéma.</castItem>
+		<castItem><role id="FATIME" sex="2" type="H" statut='confident' age='A' stat_amour='néant'>FATIME</role>, Confidente d'Azéma.</castItem>
 		<castItem><role id="L'ÉTHÉRÉE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>L'ÉTHÉRÉE</role>.</castItem>
 		<castItem><role id="ARLEQUIN" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>ARLEQUIN</role>.</castItem>
 		<castItem><role id="UN SÉNATEUR" sex="1" type="H" statut='sénateur' age='A' stat_amour='néant'>UN SÉNATEUR</role>.</castItem>
@@ -602,7 +602,7 @@
 	<s id="2">Je m'en tiens à celui-là.</s>
 </p>
 </sp>
-<sp who="DURPHÉGOR"><speaker>DURPHÉGOR, ayant ouvert le billet.</speaker>
+<sp stage="read" who="DURPHÉGOR"><speaker>DURPHÉGOR, ayant ouvert le billet.</speaker>
 <p id="7">
 	<s id="1">Peuple, voici votre Empereur.</s>
 </p>
@@ -617,7 +617,7 @@
 	<s id="1">Vous en serez convaincu. </s>
 	<s id="2">Que l'on me donne la couronne et le manteau impérial.</s>
 </p>
-<stage type="">La Musique joue pendant qu'on habille Arlequin.</stage>
+<stage type="play/dress">La Musique joue pendant qu'on habille Arlequin.</stage>
 </sp>
 <sp stage="dress" who="ARLEQUIN"><speaker>ARLEQUIN, revêtu des habits.</speaker>
 <p id="10">
@@ -683,7 +683,7 @@
 	<s id="2">Arlequin, mon ami, où es-tu ?</s>
 </p>
 </sp>
-<sp who="L'ÉTHÉRÉE"><speaker>L'ÉTHÉRÉE, le reconnaissant.</speaker>
+<sp stage="recognize" who="L'ÉTHÉRÉE"><speaker>L'ÉTHÉRÉE, le reconnaissant.</speaker>
 <p id="9">
 	<s id="1">Que vois-je ! </s>
 	<s id="2">Ô Ciel ! </s>
@@ -810,7 +810,7 @@
 	<s id="6">Je vous ferai maltôtier... </s>
 	<s id="7">Mais nous parlerons de cela tantôt.</s>
 </p>
-<stage type="">À sa suite.</stage>
+<stage type="toward">À sa suite.</stage>
 <p id="31">
 	<s id="1">Dites-moi, vous autres ? </s>
 	<s id="2">Les Empereurs dînent-ils dans ce pays-ci ? </s>
@@ -1023,7 +1023,7 @@
 	<s id="1">Seigneur, ce gibier nous est inconnu.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, d'un air dépisté.</speaker>
+<sp stage="despite" who="ARLEQUIN"><speaker>ARLEQUIN, d'un air dépité.</speaker>
 <p id="19">
 	<s id="1">Macaroni gibier !</s>
 </p>
@@ -1033,7 +1033,7 @@
 	<s id="1">Volaille, si vous voulez.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, d'un air dépisté.</speaker>
+<sp stage="despite" who="ARLEQUIN"><speaker>ARLEQUIN, d'un air dépité.</speaker>
 <p id="21">
 	<s id="1">Macaroni volaille !</s>
 </p>
@@ -1121,7 +1121,7 @@
 	<s id="1">Un petit cochon_de_lait.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, sautant de joie.</speaker>
+<sp stage="jump/happy" who="ARLEQUIN"><speaker>ARLEQUIN, sautant de joie.</speaker>
 <p id="37">
 	<s id="1">Un petit cochon_de_lait, mon ami ! </s>
 	<s id="2">Un petit cochon_de_lait ! </s>
@@ -1199,7 +1199,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, seul.</speaker>
+<sp stage="alone" who="ARLEQUIN"><speaker>ARLEQUIN, seul.</speaker>
 <note type="L">Courir la pretantaine : Terme familier usité seulement dans cette locution : courir la pretantaine, courir çà et là, sans nécessité. [L]</note>
 <p id="1">
 	<s id="1">Enfin, me voilà Empereur au moment où j'y pensais le moins ! </s>
@@ -1273,7 +1273,7 @@
 <p id="8">
 	<s id="1">C'est qu'en vérité tout honteux.</s>
 </p>
-<stage type="">Haut.</stage>
+<stage type="loud">Haut.</stage>
 <p id="9">
 	<s id="1">Monsieur, voudriez-vous me faire un plaisir ?</s>
 </p>
@@ -1343,7 +1343,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCENE IV. Arlequin, Le Valet de chambre, Le Secrétaire.</head>
-<sp who="LE VALET DE CHAMBRE"><speaker>LE VALET DE CHAMBRE, u/et Trra/W.</speaker>
+<sp stage="toward" who="LE VALET DE CHAMBRE"><speaker>LE VALET DE CHAMBRE, au Secrétaire.</speaker>
 <p id="1">
 	<s id="1">Monsieur, vous arrivez a propos ; sa Hautesse a besoin de vous. </s>
 	<s id="2">Elle daignait m'entretenir dans ce moment même de ce qui vous regarde, et je lui faisais de vous tout l'éloge que vous méritez.</s>
@@ -1589,7 +1589,7 @@
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
-<stage type="">Le Théâtre représente une pratie des jardins du Palais. On voit une colonnade dans le fond.</stage>
+<stage type="decor">Le Théâtre représente une partie des jardins du Palais. On voit une colonnade dans le fond.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Arlequin, Le Secrétaire, Le Maître d'Hôtel, Un Financier, Un Danseur, Deux Paysans ; Une Jeune Bergère, Plusieurs personnages  muets des placets à la main.</head>
 <sp stage="aparte" who="ARLEQUIN"><speaker>ARLEQUIN, à part.</speaker>
 <p id="1">
@@ -1690,7 +1690,7 @@
 	<s id="2">Me prenez-vous pour un Empereur mal élevé ?</s>
 </p>
 </sp>
-<sp who="LE FINANCIER"><speaker>LE FINANCIER, s'asseyant.</speaker>
+<sp stage="sit" who="LE FINANCIER"><speaker>LE FINANCIER, s'asseyant.</speaker>
 <p id="18">
 	<s id="1">C'est votre Hautesse qui l'ordonne.</s>
 </p>
@@ -2256,7 +2256,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V. Arlequin, Durphégor, L'Éthérée.</head>
-<sp who="DURPHÉGOR"><speaker>DURPHÉGOR, à l'Êthérée.</speaker>
+<sp stage="toward" who="DURPHÉGOR"><speaker>DURPHÉGOR, à l'Êthérée.</speaker>
 <p id="1">
 	<s id="1">Venez, Seigneur, venez m'aider à vaincre la résistance de se Hautesse, qui refuse maintenant le Sceptre qu'elle a bien voulu accepter.</s>
 </p>
@@ -2309,7 +2309,7 @@
 	<s id="1">À la bonne-heure, si elle vous fait plaisir, vous n'avez qu'à parler.</s>
 </p>
 </sp>
-<sp who="DURPHÉGOR"><speaker>DURPHÉGOR, à L'Étherée.</speaker>
+<sp stage="toward" who="DURPHÉGOR"><speaker>DURPHÉGOR, à L'Étherée.</speaker>
 <p id="11">
 	<s id="1">Je sors, persuadé que vous saurez engager sa Hautesse à ne plus s'opposer à nos voeux.</s>
 </p>

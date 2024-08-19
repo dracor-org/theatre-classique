@@ -114,7 +114,7 @@
 	<l id="32">Pourtant, si la pauvrette avait suivi ma trace ?</l>
 	<l id="33">Baste ! Il est trop matin. Elle dort sur les deux</l>
 	<l id="34" syll="2" part="i">Oreilles.</l>
-<stage type="">Il entre dans une petite maison de vilaine apparence, après avoir soigneusement regardé autour de lui. Nérine paraît, attentive, Inquiète, avec l'allure d'un chien de chasse qui flaire le gibier.</stage>
+<stage type="narration">Il entre dans une petite maison de vilaine apparence, après avoir soigneusement regardé autour de lui. Nérine paraît, attentive, Inquiète, avec l'allure d'un chien de chasse qui flaire le gibier.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
@@ -153,16 +153,16 @@
 	<l id="54">Et m'appelle. Faisons disparaître le sac,</l>
 	<l id="55">Mon complice, et je suis aussi blanc que la neige.</l>
 </sp>
-<sp who="NÉRINE"><speaker>NÉRINE, cachée.</speaker>
+<sp stage="hide" who="NÉRINE"><speaker>NÉRINE, cachée.</speaker>
 	<l id="56" syll="4" part="i">Nous verrons bien.</l>
 </sp>
-<sp who="SCAPIN"><speaker>SCAPIN, appuyant.</speaker>
+<sp stage="pressing" who="SCAPIN"><speaker>SCAPIN, appuyant.</speaker>
 	<l id="56" syll="6" part="m">Un lys, une colombe.</l>
 <stage type="search">Cherchant, avec une profonde indifférence.</stage>
 	<l id="56" syll="2" part="f">N'ai-je </l>
 	<l id="57" syll="4" part="i">Rien oublié ?</l>
 </sp>
-<sp who="NÉRINE"><speaker>NÉRINE, cachée.</speaker>
+<sp stage="hide" who="NÉRINE"><speaker>NÉRINE, cachée.</speaker>
 	<l id="57" syll="2" part="m">Si fait.</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
@@ -171,13 +171,13 @@
 	<l id="59">Le souffle frais et pur do la brise marine !</l>
 <stage type="search">Avec le même accent que la première fois.</stage>
 	<l id="60" syll="6" part="i">N'ai-je rien oublié ?</l>
-<stage type="">Comme un homme qui se rappelle tout à coup une chose profondément oubliée.</stage>
+<stage type="forget/think">Comme un homme qui se rappelle tout à coup une chose profondément oubliée.</stage>
 	<l id="60" syll="6" part="f">Si ! D'épouser Nérine.</l>
 </sp>
 <sp stage="hide" who="NÉRINE"><speaker>NÉRINE, cachée.</speaker>
 	<l id="61" syll="3" part="i">C'est heureux.</l>
 </sp>
-<sp stage="" who="SCAPIN"><speaker>SCAPIN, avec un détachement plein de fatuité.</speaker>
+<sp stage="proud" who="SCAPIN"><speaker>SCAPIN, avec un détachement plein de fatuité.</speaker>
 	<l id="61" syll="1" part="m">Bah !</l>
 <stage type="happy">Avec bonhomie.</stage>
 	<l id="61" syll="5" part="m">Pourquoi se marier ?</l>
@@ -604,7 +604,7 @@
 <sp stage="entrance" who="SCAPIN"><speaker>SCAPIN, sortant du sac.</speaker>
 	<l id="241" syll="3" part="i">Bien joué.</l>
 </sp>
-<sp who="NÉRINE"><speaker>NÉRINE, faisant la révérence, avec une modestie</speaker> ironique.
+<sp stage="wave/modesty" who="NÉRINE"><speaker>NÉRINE, faisant la révérence, avec une modestie</speaker> ironique.
 	<l id="241" syll="6" part="m">Monseigneur me comble.</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>
@@ -637,7 +637,7 @@
 	<l id="248">Grâce à lui, j'ai rompu la toile où ma poitrine</l>
 	<l id="249" syll="5" part="i">Étouffait, et j'ai...</l>
 </sp>
-<sp who="NÉRINE"><speaker>NÉRINE, les bras ouverts.</speaker>
+<sp stage="wave" who="NÉRINE"><speaker>NÉRINE, les bras ouverts.</speaker>
 	<l id="249" syll="7" part="f">Viens, Scapin, mon cher époux.</l>
 </sp>
 <sp who="SCAPIN"><speaker>SCAPIN.</speaker>

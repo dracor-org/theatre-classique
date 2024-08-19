@@ -38,8 +38,8 @@
 		<performance>
 			<premiere date="1888" location="Théâtre des Phynances">Restitué en son intégrité tel qu'il a été représenté par les marionnettes du Théâtre des Phynances en 1888.</premiere>
 		</performance>
-		<div type="">
-			<p type="V">Adonc le Pére Ubu hoscha la poire, dont fut depuis nommé par les Anglais Shakespeare, et avez de lui sous ce nom maintes belles tragédies par  écrit.</p>
+		<div type="préface">
+			<p type="V">Adonc le Père Ubu hoscha la poire, dont fut depuis nommé par les Anglais Shakespeare, et avez de lui sous ce nom maintes belles tragédies par  écrit.</p>
 		</div>
 		<div type="dédicace">
 			<p>Ce livre est dédié à MARCEL SCHWOB.</p>
@@ -205,7 +205,7 @@
 	<s id="3">Plutôt mourir !</s>
 </p>
 </sp>
-<sp who="MÈRE UBU"><speaker>MÈRE UBU, à part.</speaker>
+<sp stage="aparte" who="MÈRE UBU"><speaker>MÈRE UBU, à part.</speaker>
 <p id="22">
 	<s id="1">Oh ! </s>
 	<s id="2">Merdre !</s>
@@ -693,7 +693,7 @@
 </p>
 <stage type="exit">Il sort.</stage>
 </sp>
-<sp who="MÈRE UBU"><speaker>MÈRE UBU, courant après lui.</speaker>
+<sp stage="run/follow" who="MÈRE UBU"><speaker>MÈRE UBU, courant après lui.</speaker>
 <p id="8">
 	<s id="1">Oh ! </s>
 	<s id="2">Père_Ubu, Père_Ubu, je te donnerai de l'andouille.</s>
@@ -1100,7 +1100,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="3">Sainte-Vierge, je suis mort.</s>
 </p>
 </sp>
-<sp who="BOLESLAS"><speaker>BOLESLAS, à Ladislas.</speaker>
+<sp stage="toward" who="BOLESLAS"><speaker>BOLESLAS, à Ladislas.</speaker>
 <p id="22">
 	<s id="1">Qu'est-ce là ? </s>
 	<s id="2">Dégainons.</s>
@@ -2104,7 +2104,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Plusieurs paysans sont assemblés.</head>
 <stage type="decor">Une maison de paysans dans les environs de Varsovie.</stage>
-<sp who="UN PAYSAN"><speaker>UN PAYSAN, entrant.</speaker>
+<sp stage="entrance" who="UN PAYSAN"><speaker>UN PAYSAN, entrant.</speaker>
 <p id="1">
 	<s id="1">Apprenez la grande nouvelle. </s>
 	<s id="2">Le roi est mort, les ducs aussi et le jeune Bougrelas s'est sauvé avec sa mère dans les montagnes. </s>
@@ -2874,7 +2874,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Les mêmes, Un Capitaine, puis L'Armée russe.</head>
-<sp who="UN CAPITAINE"><speaker>UN CAPITAINE, arrivant.</speaker>
+<sp stage="entrance" who="UN CAPITAINE"><speaker>UN CAPITAINE, arrivant.</speaker>
 <p id="1">
 	<s id="">Sire Ubu, les Russes attaquent.</s>
 </p>
@@ -2900,7 +2900,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 </p>
 <stage type="run/fight">Tous descendent au pas de course. La bataille vient de s'engager. Ils disparaissent dans des torrents de fumée au pied de la colline.</stage>
 </sp>
-<sp who="UN RUSSE"><speaker>UN RUSSE, frappant.</speaker>
+<sp stage="hit" who="UN RUSSE"><speaker>UN RUSSE, frappant.</speaker>
 <p id="5">
 	<s id="1">Pour Dieu et le Czar !</s>
 </p>
@@ -3189,7 +3189,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="2">Je n'ai plus peur, mais j'ai encore la fuite.</s>
 </p>
 </sp>
-<sp who="COTICE"><speaker>COTICE, à part.</speaker>
+<sp stage="aparte" who="COTICE"><speaker>COTICE, à part.</speaker>
 <p id="4">
 	<s id="1">Quel pourceau.</s>
 </p>
@@ -3387,13 +3387,13 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="4">Puis-je descendre de mon rocher ?</s>
 </p>
 </sp>
-<sp who="PILE"><speaker>PILE, avec mépris.</speaker>
+<sp stage="despite" who="PILE"><speaker>PILE, avec mépris.</speaker>
 <p id="22">
 	<s id="1">Tant que vous voudrez.</s>
 </p>
 </sp>
 <sp stage="dowb" who="PÈRE UBU"><speaker>PÈRE UBU, descendant.</speaker>
-<note type="L">Palotin : personne indignifiante, sans relief. Mot forgé à partir de " palot", première occurrence dans ce texte.</note>
+<note type="L">Palotin : personne insignifiante, sans relief. Mot forgé à partir de "palot", première occurrence dans ce texte.</note>
 <note type="L">Ptenôtre : Prière chrétienne. Par extension, vaines paroles sans cesse répétées. [L]</note>
 <p id="23">
 	<s id="1">Vous pouvez vous flatter que si vous êtes encore vivants et si vous foulez encore la neige de Lithuanie, vous le devez à la vertu magnanime du Maître des Finances, qui s'est évertué, échiné et égosillé à débiter des patenôtres pour votre salut, et qui a manié avec autant de courage le glaive spirituel de la prière que vous avez manié avec adresse le temporel de l'ici présent Palotin Cotice coup-de-poing explosif. </s>
@@ -3712,7 +3712,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="4">Je veux être pendu !</s>
 </p>
 </sp>
-<sp who="MÈRE UBU"><speaker>MÈRE UBU, grossissant sa voix.</speaker>
+<sp stage="loud" who="MÈRE UBU"><speaker>MÈRE UBU, grossissant sa voix.</speaker>
 <p id="9">
 	<s id="1">Oui, monsieur Ubu, on parle, en effet, et la trompette de l'archange qui doit tirer les morts de la cendre et de la poussière finale ne parlerait pas autrement ! </s>
 	<s id="2">Écoutez cette voix sévère. </s>
@@ -4003,7 +4003,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 </p>
 <stage type="throw">Il lui jette l'ours.</stage>
 </sp>
-<sp who="MÈRE UBU"><speaker>MÈRE UBU, tombant accablée sous le poids de l'ours.</speaker>
+<sp stage="fall" who="MÈRE UBU"><speaker>MÈRE UBU, tombant accablée sous le poids de l'ours.</speaker>
 <p id="58">
 	<s id="1">Ah ! </s>
 	<s id="2">Grand Dieu ! </s>
@@ -4052,7 +4052,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="2">Comment est-il venu ici ?</s>
 </p>
 </sp>
-<sp who="PÈRE UBU"><speaker>PÈRE UBU, confus.</speaker>
+<sp stage="confuse" who="PÈRE UBU"><speaker>PÈRE UBU, confus.</speaker>
 <p id="64">
 	<s id="1">Je ne sais pas. </s>
 	<s id="2">Ah ! </s>
@@ -4175,7 +4175,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="2">Polognard, soûlard, bâtard, hussard, tartare, calard, cafard, mouchard, savoyard, communard !</s>
 </p>
 </sp>
-<sp who="MÈRE UBU"><speaker>MÈRE UBU, le battant aussi.</speaker>
+<sp stage="hit" who="MÈRE UBU"><speaker>MÈRE UBU, le battant aussi.</speaker>
 <p id="5">
 	<s id="1">Tiens, capon, cochon, félon, histrion, fripon, souillon, polochon !</s>
 </p>
@@ -4281,7 +4281,7 @@ Ladislas, Père Ubu, Capitaine Bordure et ses Hommes, Giron, Pile, Cotice.</head
 	<s id="1">Il n'y en a plus que deux à garder la porte.</s>
 </p>
 </sp>
-<sp who="PÈRE UBU"><speaker>PÈRE UBU, les assommant à coups d'ours.</speaker>
+<sp stage="hit" who="PÈRE UBU"><speaker>PÈRE UBU, les assommant à coups d'ours.</speaker>
 <p id="23">
 	<s id="1">Et d'un, et de deux ! Ouf ! me voilà dehors ! Sauvons-nous ! suivez, les autres, et vivement !</s>
 </p>

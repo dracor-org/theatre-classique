@@ -48,7 +48,7 @@
 		<castItem><role id="LE GUERRIER" sex="1" type="H" statut="soldat" age='A' stat_amour='néant'>LE GUERRIER</role>, Alexandre Rignault.</castItem>
 		<castItem><role id="ALCMÈNE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>ALCMÈNE</role>, Valentine Tessier.</castItem>
 		<castItem><role id="AMPHITRYON" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>AMPHITRYON</role>, Allain-Durthal.</castItem>
-		<castItem><role id="ECCLISSÉ" sex="2" type="H" statut="nourrisse" age='A' stat_amour='néant'>ECCLISSÉ</role>, Charlotte Clasis.</castItem>
+		<castItem><role id="ECCLISSÉ" sex="2" type="H" statut="nourrice" age='A' stat_amour='néant'>ECCLISSÉ</role>, Charlotte Clasis.</castItem>
 		<castItem><role id="LÉDA" sex="2" type="H" statut="dieu" age='A' stat_amour='néant'>LÉDA</role>, Lucienne Bogaert.</castItem>
 		<castItem><role id="L'ÉCHO" sex="9" type="D" statut="écho" age='A' stat_amour='néant'>L'ÉCHO</role>, Suzet Mais.</castItem>
 	</castList>
@@ -649,7 +649,7 @@
 </p>
 <stage type="closer">Le guerrier gravit les derniers degrés et se rapproche.</stage>
 </sp>
-<sp who="SOSIE"><speaker>SOSIE, tirant un rouleau et lisant.</speaker>
+<sp stage="get/read" who="SOSIE"><speaker>SOSIE, tirant un rouleau et lisant.</speaker>
 <p id="29">
 	<s id="1">Entre l'Ilissus et son affluent, nous avons fait un prisonnier, un chevreuil venu de Thrace... </s>
 	<s id="2">Entre le mont Olympe et le Taygète, par une opération habile, nous avons fait sortir des sillons un beau gazon, qui deviendra le blé, et lancé sur les seringas deux vagues entières d'abeilles. </s>
@@ -5524,7 +5524,7 @@
 	<s id="1">Je voudrais, avant de pénétrer dans cette chambre, que tu effleures de tes lèvres mes cheveux.</s>
 </p>
 </sp>
-<sp who="AMPHITRYON"><speaker>AMPHITRYON, la prenant dans ses bras et l'embrassant dans le cou.</speaker>
+<sp stage="pull/kiss" who="AMPHITRYON"><speaker>AMPHITRYON, la prenant dans ses bras et l'embrassant dans le cou.</speaker>
 <p id="40">
 	<s id="1">Voilà !</s>
 </p>

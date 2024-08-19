@@ -46,7 +46,7 @@
 		</performance>
 	<castList><head>ACTEURS</head>
 		<castItem><role id="VALÈRE" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>VALÈRE</role>, Amateur. M. Molé.</castItem>
-		<castItem><role id="DAMON" sex="1" type="H" statut='bourgois' age='A' stat_amour='néant'>DAMON</role>, Ami de Valère. M. Grandval.</castItem>
+		<castItem><role id="DAMON" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>DAMON</role>, Ami de Valère. M. Grandval.</castItem>
 		<castItem><role id="CONSTANCE" sex="2" type="H" statut='bourgeois' age='J' stat_amour='néant'>CONSTANCE</role>, fille de Damon. Mlle. Doligni</castItem>
 		<castItem><role id="CÉLIANTE" sex="2" type="H" statut='bourgrois' age='A' stat_amour='néant'>CÉLIANTE</role>. Mde. Préville.</castItem>
 		<castItem><role id="PASQUIN" sex="1" type="H" statut='valet' age='A' stat_amour='néant'>PASQUIN</role>, Valet de Valère. M. Préville.</castItem>
@@ -613,7 +613,7 @@
 	<l id="277">Que de fois le ciseau dût tomber de ta main !</l>
 	<l id="278">Surtout en formant ce beau sein, </l>
 	<l id="279">Oui, tu devais toi-même adorer ton ouvrage. </l>
-<stage type="">Après un silence.</stage>
+<stage type="silence">Après un silence.</stage>
 	<l id="280">Ce marbre me semble animé. </l>
 	<l id="281">Grecque charmante ! Ah , si j'avais pu naître</l>
 	<l id="282">Dans son temps ! Que sait on ? Peut-être..... </l>
@@ -914,7 +914,7 @@
 	<l id="412" syll="6" part="f">Tu peux rester encore. </l>
 	<l id="413">Céliante avec lui parcourt son cabinet.</l>
 </sp>
-<sp who="CONSTANCE"><speaker>CONSTANCE, revenant avec un air d'inquiétude.</speaker>
+<sp stage="back/anxious" who="CONSTANCE"><speaker>CONSTANCE, revenant avec un air d'inquiétude.</speaker>
 	<l id="414" syll="6" part="i">Quoi ! Céliante !</l>
 </sp>
 <sp who="DAMON"><speaker>DAMON.</speaker>
@@ -1233,7 +1233,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="15"><head>SCÈNE XV.</head>
-<sp who="CONSTANCE"><speaker>CONSTANCE, seul.</speaker>
+<sp stage="alone" who="CONSTANCE"><speaker>CONSTANCE, seul.</speaker>
 	<l id="556" syll="6" part="f">Demeurons un instant,</l>
 	<l id="557" syll="6" part="i">Rien qu'un instant.</l>
 <stage type="closer">Elle s'approche de la statue.</stage>
@@ -1359,7 +1359,7 @@
 	<l id="611" syll="6" part="f">Oui, c'est mon père</l>
 	<l id="612" syll="6" part="i">Qui lui seul a voulu....</l>
 </sp>
-<sp who="VALÈRE"><speaker>VALÈRE, à Damon.</speaker>
+<sp stage="toward" who="VALÈRE"><speaker>VALÈRE, à Damon.</speaker>
 	<l id="612" syll="6" part="f">Vous cachiez tant d'appas ! </l>
 <stage type="toward">À Constance.</stage>
 	<l id="613">Il m'a joué. Vous que j'adore, </l>

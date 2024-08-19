@@ -38,8 +38,8 @@
 	<castList><head>PERSONNAGES</head>
 		<castItem><role id="JUSTINE" sex="2" type="H" statut='marquis' age='A' stat_amour='(néant)'>JUSTINE</role>, Marchande de Modes. En Marchande, avec des tabliers de taffetas vert.</castItem>
 		<castItem><role id="ROSALIE" sex="2" type="H" statut='marquis' age='A' stat_amour='(néant)'>ROSALIE</role>, Marchande de Modes. En Marchande, avec des tabliers de taffetas vert.</castItem>
-		<castItem><role id="MADAME LOUVIER" sex="2" type="H" statut='marchande' age='A' stat_amour='(néant)'>MADAME LOUVIER</role>, Marchande de Drap. En robe rayée, un tablier noir avec un bonnet en papillon, et une coiffe.</castItem>
-		<castItem><role id="MADEMOISELLE JAVOTTE" sex="2" type="H" statut='marchande' age='J' stat_amour='(néant)'>MADEMOISELLE JAVOTTE</role>, fille de Madame Bouvier. Robe grise, tablier noir.</castItem>
+		<castItem><role id="MADAME LOUVIER" sex="2" type="H" statut='marchand' age='A' stat_amour='(néant)'>MADAME LOUVIER</role>, Marchande de Drap. En robe rayée, un tablier noir avec un bonnet en papillon, et une coiffe.</castItem>
+		<castItem><role id="MADEMOISELLE JAVOTTE" sex="2" type="H" statut='marchand' age='J' stat_amour='(néant)'>MADEMOISELLE JAVOTTE</role>, fille de Madame Bouvier. Robe grise, tablier noir.</castItem>
 		<castItem><role id="DE L'AUNE" sex="1" type="H" statut='employé' age='A' stat_amour='(néant)'>DE L'AUNE</role>, Garçon de boutique de Madame Bouvier. Habit noir, longs cheveux sans chapeau.</castItem>
 		<castItem><role id="MONSIEUR RAYMOND" sex="1" type="H" statut='bourgeois' age='A' stat_amour='(néant)'>MONSIEUR RAIMOND</role>, boiteux et bredouilleur. Habit brun, veste d'or, perruque à noeuds, mise de travers, avec une canne.</castItem>
 		<castItem><role id="GRAND-PIERRE" sex="1" type="H" statut='commissaire de quartier' age='A' stat_amour='(néant)'>GRAND-PIERRE</role>, Commissionnaire du quartier. En veste déchirée, col déboutonné, mauvais chapeau et des guêtres.</castItem>
@@ -602,7 +602,7 @@ dans leur boutique ; De L'Aune, se promenant dans la boutique de Madame Louvier
 </p>
 <stage type="sit/location/smoke">Il va s'asseoir sur une pierre, et il fume sa pipe.</stage>
 </sp>
-<sp who="JUSTINE"><speaker>JUSTINE, la plume à la main.</speaker>
+<sp stage="write" who="JUSTINE"><speaker>JUSTINE, la plume à la main.</speaker>
 <p id="21">
 	<s id="1">Ah çà, que demanderons-nous à présent ? </s>
 	<s id="2">Je voudrais bien avoir une montre.</s>
@@ -648,7 +648,7 @@ dans leur boutique ; De L'Aune, se promenant dans la boutique de Madame Louvier
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Rosalie, Justine, Madame Louvier, Madame Javotte, Grand-Pierre.</head>
-<sp who="MADAME LOUVIER"><speaker>MADAME LOUVIER, s'asseyant et tricottant.</speaker>
+<sp stage="sit/work" who="MADAME LOUVIER"><speaker>MADAME LOUVIER, s'asseyant et tricottant.</speaker>
 <p id="1">
 	<s id="1">Tenez, Javotte, asseyez-vous-là. </s>
 </p>
@@ -1391,7 +1391,7 @@ dans leur boutique ; De L'Aune, se promenant dans la boutique de Madame Louvier
 	<s id="1">Monsieur, en vous remerciant ; quand il vous faudra autre chose, nous vous demandons la préférence.</s>
 </p>
 </sp>
-<sp who="MONSIEUR RAIMOND"><speaker>MONSIEUR RAIMOND, se levant.</speaker>
+<sp stage="stand" who="MONSIEUR RAIMOND"><speaker>MONSIEUR RAIMOND, se levant.</speaker>
 <p id="53">
 	<s id="">Sûrement.</s>
 </p>
@@ -2296,7 +2296,7 @@ dans leur boutique ; De L'Aune, se promenant dans la boutique de Madame Louvier
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV. Rosalie, Justine, Madame Louvier, Mademoiselle Javotte, Monsieur Raimond, De L'Aune, Grand-Pierre.</head>
-<sp who="MADAME LOUVIER"><speaker>MADAME LOUVIER, à Monsieur Raimond.</speaker>
+<sp stage="toward" who="MADAME LOUVIER"><speaker>MADAME LOUVIER, à Monsieur Raimond.</speaker>
 <p id="1">
 	<s id="1">Monsieur, je vous demande bien pardon, de vous avoir fait attendre.</s>
 </p>

@@ -220,7 +220,7 @@
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Berthe, Lucette.</head>
 <stage type="location/open/entrance">La porte du fond s'ouvre et Lucette paraît. Timidement, elle t'arrête sur la seuil, n'osant avancer ; elle tient un panier à la main.</stage>
-<sp who="BERTHE"><speaker>BERTHE, sans se retourner.</speaker>
+<sp stage="turn" who="BERTHE"><speaker>BERTHE, sans se retourner.</speaker>
 <p id="1">
 	<s id="1">C'est vous, Marton ?</s>
 </p>
@@ -246,12 +246,12 @@
 	<s id="4">Alors, sans façon, je suis venue, j'ai frappé, et me voilà.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, allant au panier.</speaker>
+<sp stage="location" who="BERTHE"><speaker>BERTHE, allant au panier.</speaker>
 <p id="5">
 	<s id="1">Et qu'est-ce que tu apportes ?</s>
 </p>
 </sp>
-<sp stage="" who="LUCETTE"><speaker>LUCETTE, découvrant ton panier.</speaker>
+<sp stage="show" who="LUCETTE"><speaker>LUCETTE, découvrant ton panier.</speaker>
 <p id="6">
 	<s id="1">De belles pêches, les premières, Mademoiselle_Berthe ! </s>
 	<s id="2">Dès que la mère les a vues mûres à point, vitement elle est allée les cueillir : « elles seront pour madame et pour mademoiselle, a-t-elle dit. </s>
@@ -329,7 +329,7 @@
 	<s id="5">Elle parlait, ma foi, presque aussi bien que notre curé.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, souriant.</speaker>
+<sp stage="smile" who="BERTHE"><speaker>BERTHE, souriant.</speaker>
 <p id="19">
 	<s id="1">Vraiment !</s>
 </p>
@@ -446,7 +446,7 @@
 	<s id="2">D'autant que je ne savais qu'acheter ; me voilà fixée maintenant.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, refusant.</speaker>
+<sp stage="stop" who="LUCETTE"><speaker>LUCETTE, refusant.</speaker>
 <p id="37">
 	<s id="1">Mais, Mademoiselle_Berthe...</s>
 </p>
@@ -460,7 +460,7 @@
 	<s id="5">Mais prends vite, te dis-je, puisque le temps presse et que la mère Renaude attend.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, prenant la bourse.</speaker>
+<sp stage="get" who="LUCETTE"><speaker>LUCETTE, prenant la bourse.</speaker>
 <p id="39">
 	<s id="1">Oh ! </s>
 	<s id="2">Que vous êtes bonne, Mademoiselle_Berthe. </s>
@@ -485,7 +485,7 @@
 	<s id="2">Adresse-toi à Marton ; elle t'accompagnera, et la préviendra, s'il y a déjà du monde.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, remontant.</speaker>
+<sp stage="location" who="LUCETTE"><speaker>LUCETTE, remontant.</speaker>
 <p id="43">
 	<s id="1">C'est cela. </s>
 </p>
@@ -531,7 +531,7 @@
 	<s id="">Tiens !</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, l'embrassant.</speaker>
+<sp stage="kiss" who="LUCETTE"><speaker>LUCETTE, l'embrassant.</speaker>
 <p id="52">
 	<s id="1">Oh ! </s>
 	<s id="2">Merci, Mademoiselle. </s>
@@ -553,7 +553,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="BERTHE"><speaker>BERTHE, seule.</speaker>
+<sp stage="alone" who="BERTHE"><speaker>BERTHE, seule.</speaker>
 <stage type="location/watch/furniture">Elle retourne à sa table, regarde sa bourse vide.</stage>
 <p id="1">
 	<s id="1">Eh bien ! </s>
@@ -573,7 +573,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V.</head>
-<sp who="BERTHE"><speaker>BERTHE, un peu surprise.</speaker>
+<sp stage="surprise" who="BERTHE"><speaker>BERTHE, un peu surprise.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est vous, marraine.</s>
@@ -765,7 +765,7 @@
 	<s id="1">Décidément, ma petite, vous êtes par trop difficile, et c'est un vrai défaut que cette coquetterie-là.</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, elle baisse la tète, arec un soupir et à part.</speaker>
+<sp stage="wave/sigh/aparte" who="BERTHE"><speaker>BERTHE, elle baisse la tète, avec un soupir et à part.</speaker>
 <p id="34">
 	<s id="1">Il était bien joli pourtant ! </s>
 	<s id="2">Eh bien non ! </s>
@@ -775,7 +775,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. La Marquise, Berthe, Lucette.</head>
-<sp who="LUCETTE"><speaker>LUCETTE, entrant virement, puis s'arrèltnt, honteuse.</speaker>
+<sp stage="entrance/quick/stop/shame" who="LUCETTE"><speaker>LUCETTE, entrant virement, puis s'arrêtent, honteuse.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Vous voilà, Madame_la_marquise ! </s>
@@ -819,7 +819,7 @@
 </p>
 <stage type="wave">Même jeu de Berthe, lui faisant signe de ne rien dire.</stage>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, ne comprenant pas.</speaker>
+<sp stage="estonish" who="LUCETTE"><speaker>LUCETTE, ne comprenant pas.</speaker>
 <p id="8">
 	<s id="1">Oui, j'ai raconté tout cela à Mademoiselle_Berthe. </s>
 	<s id="2">On allait la chasser de sa maison, cette brave femme ; on allait vendre ses meubles et la jeter dans la rue, malade, sans un morceau de pain, et sans un coin pour reposer sa tête ! </s>
@@ -899,7 +899,7 @@
 	<s id="3">Je ne le voulais pas ; mais elle a exigé que je le prenne, - et je l'ai pris.</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, regardant Berthe, qui baisse les yeux à part.</speaker>
+<sp stage="watch/low" who="LA MARQUISE"><speaker>LA MARQUISE, regardant Berthe, qui baisse les yeux à part.</speaker>
 <p id="21">
 	<s id="1">Je comprends tout. </s>
 	<s id="2">Est-ce vrai, Berthe, tout cela ?</s>
@@ -927,7 +927,7 @@
 	<s id="1">Embrasse-moi !</s>
 </p>
 </sp>
-<sp who="BERTHE"><speaker>BERTHE, se jetant dans ses bras.</speaker>
+<sp stage="hugh" who="BERTHE"><speaker>BERTHE, se jetant dans ses bras.</speaker>
 <p id="26">
 	<s id="1">Oh ! </s>
 	<s id="2">Marraine !</s>
@@ -979,7 +979,7 @@
 	<s id="2">Avec toi, je n'en ai pas fini.</s>
 </p>
 </sp>
-<sp who="LUCETTE"><speaker>LUCETTE, prenant son paquet.</speaker>
+<sp stage="get" who="LUCETTE"><speaker>LUCETTE, prenant son paquet.</speaker>
 <p id="36">
 	<s id="1">Cette fois-ci, je m'en vais. </s>
 	<s id="2">Je suis déjà en retard ; mais je marcherai plus vite, voilà tout. </s>

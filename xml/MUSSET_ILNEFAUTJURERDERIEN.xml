@@ -44,7 +44,7 @@
 			<castItem><role id="UN ABBÉ" sex="1" type="H" statut="abbé" age="A" stat_amour=''>UN ABBÉ</role>.</castItem>
 			<castItem><role id="LA BARONNE DE MANTES" sex="2" type="H" statut="baron" age="A" stat_amour=''>LA BARONNE DE MANTES</role>.</castItem>
 			<castItem><role id="UN MAÎTRE DE DANSE" sex="1" type="H" statut="maître de danse" age="A" stat_amour=''>UN MAÎTRE DE DANSE</role>.</castItem>
-			<castItem><role id="CÉCILE" sex="2" type="H" statut="bouregeois" age="J" stat_amour=''>CÉCILE</role>, sa fille.</castItem>
+			<castItem><role id="CÉCILE" sex="2" type="H" statut="bourgeois" age="J" stat_amour=''>CÉCILE</role>, sa fille.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XVIème" gps="48.856614, 2.352222">La scène est à Paris.</set>
 		<note>Texte issu de "Comédies et proverbes d'Alfred de Musset, seule édition complète revue et corrigée par l'auteur - Tome second". Paris, Charpentier, 1853. pp. 63-121</note>
@@ -2065,7 +2065,7 @@
 	<s id="3">Qu'est-ce que vous avez dans vos poches ?</s>
 </p>
 </sp>
-<sp who="CÉCILE"><speaker>CÉCILE, pleurant.</speaker>
+<sp stage="cry" who="CÉCILE"><speaker>CÉCILE, pleurant.</speaker>
 <p id="59">
 	<s id="1">Mais, maman, ce n'est pas ma faute ; c'est ce Monsieur qui m'a écrit.</s>
 </p>
@@ -2340,7 +2340,7 @@
 	<s id="9">Je jure qu'elle sera ma maîtresse, mais qu'elle ne sera jamais ma femme ; il n'y a maintenant ni épreuve, ni promesse, ni alternative ; je veux qu'on se souvienne à jamais dans cette famille du jour où l'on m'en a chassé.</s>
 </p>
 </sp>
-<sp who="L'AUBERGISTE"><speaker>L'AUBERGISTE, sortant de la maison.</speaker>
+<sp stage="entrance/location" who="L'AUBERGISTE"><speaker>L'AUBERGISTE, sortant de la maison.</speaker>
 <p id="22">
 	<s id="1">Messieurs, le soleil commence à baisser ; est-ce que vous ne me ferez pas l'honneur de dîner chez moi ?</s>
 </p>
@@ -2544,7 +2544,7 @@
 	<s id="6">Mademoiselle, répondez-moi, que ressentez-vous ?</s>
 </p>
 </sp>
-<sp who="CÉCILE"><speaker>CÉCILE, de même.</speaker>
+<sp stage="location" who="CÉCILE"><speaker>CÉCILE, de même.</speaker>
 <p id="26">
 	<s id="1">Je me trouve mal ! </s>
 	<s id="2">Je me trouve mal !</s>
@@ -2558,7 +2558,7 @@
 </p>
 <stage type="open">Il ouvre la porte.</stage>
 </sp>
-<sp who="CÉCILE"><speaker>CÉCILE, de même.</speaker>
+<sp stage="location" who="CÉCILE"><speaker>CÉCILE, de même.</speaker>
 <p id="28">
 	<s id="1">Ma foi, l'abbé, je prends sur moi de m'en aller ; on en dira ce qu'on voudra.</s>
 </p>
@@ -3192,7 +3192,7 @@
 	<s id="10">Tenez ; croyez-moi, c'est là ce qui prouve qu'on aime, et c'est pour cela que je suis ici.</s>
 </p>
 </sp>
-<sp who="VALENTIN"><speaker>VALENTIN, à part.</speaker>
+<sp stage="aparte" who="VALENTIN"><speaker>VALENTIN, à part.</speaker>
 <p id="59">
 	<s id="1">Ou j'ai sous le bras le plus rusé démon que l'enfer ait jamais vomi, ou la voix qui me parle est celle d'un ange, et elle m'ouvre le chemin des cieux.</s>
 </p>

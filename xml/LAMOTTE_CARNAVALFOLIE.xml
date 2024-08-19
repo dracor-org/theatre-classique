@@ -52,18 +52,18 @@
 		<castItem><role id="VÉNUS" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>VÉNUS</role>.</castItem>
 		<castItem><role id="MOMUS" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>MOMUS</role>.</castItem>
 		<castItem><role id="MERCURE" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>MERCURE</role>.</castItem>
-		<castItem><role id="LES DIEUX ET LES DÉESSES" sex="9" type="D" statut='dieux' age='A' stat_amour='néant'>LES DIEUX ET LES DÉESSES</role>.</castItem>
+		<castItem><role id="LES DIEUX ET LES DÉESSES" sex="9" type="D" statut='dieu' age='A' stat_amour='néant'>LES DIEUX ET LES DÉESSES</role>.</castItem>
 	</castList>
 	<castList><head>PERSONNAGES DU BALLET.</head>
 			<castItem><role id="PLUTUS" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>PLUTUS</role>, Dieu des Richesses.</castItem>
 			<castItem><role id="LA JEUNESSE" sex="2" type="D" statut='allégorie' age='A' stat_amour='néant'>LA JEUNESSE</role>.</castItem>
 			<castItem><role id="LA FOLIE" sex="1" type="D" statut='allégorie' age='A' stat_amour='néant'>LA FOLIE</role>, fille de PLUTUS et de la JEUNESSE.</castItem>
-			<castItem><role id="LE CARNAVAL" sex="1" type="D" statut='allegorie' age='A' stat_amour='néant'>LE CARNAVAL</role>.</castItem>
+			<castItem><role id="LE CARNAVAL" sex="1" type="D" statut='allégorie' age='A' stat_amour='néant'>LE CARNAVAL</role>.</castItem>
 			<castItem><role id="MOMUS" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>MOMUS</role>.</castItem>
 			<castItem><role id="SUITE DE PLUTUS ET DE LA JEUNESSE" sex="9" type="H" statut='suite' age='A' stat_amour='néant'>SUITE DE PLUTUS ET DE LA JEUNESSE</role>.</castItem>
 			<castItem><role id="CHEF DES MATELOTS" sex="1" type="H" statut='marin' age='A' stat_amour='néant'>CHEF DES MATELOTS</role>.</castItem>
 			<castItem><role id="TROUPE DE MATELOTS" sex="1" type="H" statut='marin' age='A' stat_amour='néant'>TROUPE DE MATELOTS</role>.</castItem>
-			<castItem><role id="UN MUSICIEN" sex="1" type="H" statut='musicieb' age='A' stat_amour='néant'>UN MUSICIEN</role>.</castItem>
+			<castItem><role id="UN MUSICIEN" sex="1" type="H" statut='musicien' age='A' stat_amour='néant'>UN MUSICIEN</role>.</castItem>
 			<castItem><role id="UN POÈTE" sex="1" type="H" statut='poète' age='A' stat_amour='néant'>UN POÈTE</role>.</castItem>
 			<castItem><role id="TROUPE DE MATASSINS" sex="1" type="H" statut='danseur' age='A' stat_amour='néant'>TROUPE DE MATASSINS</role>.</castItem>
 			<castItem><role id="JUPITER" sex="1" type="D" statut='dieu' age='A' stat_amour='néant'>JUPITER</role>.</castItem>
@@ -80,7 +80,7 @@
 <div1 type="prologue" n="0"><head>PROLOGUE.</head>
 <stage type="decor">Le Théâtre représente les Cieux, où les Dieux sont en festin.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp who="JUPITER , VENUS, et LE CHOEUR"><speaker>JUPITER , VENUS, et LE CHOEUR, en se faisant servir le Nectar.</speaker>
+<sp stage="together" who="JUPITER , VENUS, et LE CHOEUR"><speaker>JUPITER , VENUS, et LE CHOEUR, en se faisant servir le Nectar.</speaker>
 	<l id="1">Qu'à nos voeux ici tout réponde ;</l>
 	<l id="2">Versez-nous, versez-nous la céleste liqueur.</l>
 	<l id="3">Versez, que le Nectar enchante notre coeur,</l>
@@ -881,7 +881,7 @@ Carnaval, Suite de Plutus et de La Jeunesse.</head>
 	<l id="499">Sarete Dottori</l>
 	<l id="500">Nell'arte d'allegria.</l>
 </sp>
-<sp who="LE PROFESSEUR DE FOLIE"><speaker>LE PROFESSEUR, donnant un papier de Musique à un Musicien.</speaker>
+<sp stage="give" who="LE PROFESSEUR DE FOLIE"><speaker>LE PROFESSEUR, donnant un papier de Musique à un Musicien.</speaker>
 	<l id="501">Cantate, cantate.</l>
 <stage type="sing">Il chante avec l'écolier.</stage>
 	<l id="502">Amorosi sospiri</l>

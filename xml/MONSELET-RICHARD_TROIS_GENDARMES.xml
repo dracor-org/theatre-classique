@@ -96,7 +96,7 @@
 	<l id="10">Fortos, assommez-moi ce turc d'un coup de poing.</l>
 <stage type="hit/costume/fall">Fortos retrousse sa manche. Caramel lui fait passer Mordonc auquel il donne un coup de poing sur la tête qui lui enfonce sur turban jusqu'au cou. Mordonc tombe assis.</stage>
 </sp>
-<sp who="FORTOS"><speaker>FORTOS, rabattant ses manches, </speaker>
+<sp stage="dress" who="FORTOS"><speaker>FORTOS, rabattant ses manches.</speaker>
 	<l id="11" syll="6" part="i">N'en reviendra pas.</l>
 </sp>
 <sp who="FEIGNANT"><speaker>FEIGNANT.</speaker>
@@ -383,7 +383,7 @@
 <sp who="FEIGNANT"><speaker>FEIGNANT.</speaker>
 	<l id="133" syll="7" part="f">C'est Milady_Bacchanal.</l>
 </sp>
-<sp who="MILADY"><speaker>MILADY, en dehors.</speaker>
+<sp stage="location" who="MILADY"><speaker>MILADY, en dehors.</speaker>
 	<l id="134" syll="6" part="i">Je m'ennuie ; il fait froid...</l>
 </sp>
 <sp who="FORTOS"><speaker>FORTOS.</speaker>
@@ -484,7 +484,7 @@
 <sp who="MILADY"><speaker>MILADY.</speaker>
 	<l id="167" syll="2" part="i">Toujours !</l>
 </sp>
-<sp who="FEIGNANT"><speaker>FEIGNANT, à part.</speaker>
+<sp stage="aparte" who="FEIGNANT"><speaker>FEIGNANT, à part.</speaker>
 	<l id="167" syll="10" part="f">[D]ieu ! Que ma dignité me semble compromise !</l>
 </sp>
 <sp who="MILADY"><speaker>MILADY.</speaker>
@@ -676,7 +676,7 @@
 <sp stage="eat" who="LE GARÇON"><speaker>LE GARÇON, mangeant.</speaker>
 	<l id="225" syll="2" part="m">C'est bon.</l>
 </sp>
-<sp who="FORTOS"><speaker>FORTOS, brandissant sa fourchette.</speaker>
+<sp stage="show" who="FORTOS"><speaker>FORTOS, brandissant sa fourchette.</speaker>
 	<l id="225" syll="3" part="m">Dans ce cas...</l>
 </sp>
 <sp who="FEIGNANT"><speaker>FEIGNANT.</speaker>
@@ -787,14 +787,14 @@ FEIGNANT, dans le cabinet.
 <stage type="silence">Silence.</stage>
 </sp>
 </div2>
-<div2 type="scene" n="7"><head>SCÈNE VII. Les Quatre Gendarmes, dont h cabinet à gauche Mordonc amenant Cromwell à grands pas.</head>
+<div2 stage="entrance" type="scene" n="7"><head>SCÈNE VII. Les Quatre Gendarmes, dont le cabinet à gauche Mordonc amenant Cromwell à grands pas.</head>
 <sp stage="low" who="MORDONC"><speaker>MORDONC, bas.</speaker>
 	<l id="267" syll="3" part="i">Ils sont là !</l>
 </sp>
 <sp who="CROMWELL"><speaker>CROMWELL.</speaker>
 	<l id="267" syll="1" part="m">Qui?</l>
 </sp>
-<sp who="MORDONC"><speaker>MORDONC, de même.</speaker>
+<sp stage="quick" who="MORDONC"><speaker>MORDONC, de même.</speaker>
 	<l id="267" syll="3" part="m">Chut ! Eux.</l>
 </sp>
 <sp who="CROMWELL"><speaker>CROMWELL.</speaker>
@@ -865,7 +865,7 @@ FEIGNANT, dans le cabinet.
 	<l id="291" syll="6" part="f">Ça, donne moi ces quatre</l>
 	<l id="292" syll="1" part="i">Hommes.</l>
 </sp>
-<sp who="CROMWELL"><speaker>CROMWELL, après un silence.</speaker>
+<sp stage="silence" who="CROMWELL"><speaker>CROMWELL, après un silence.</speaker>
 	<l id="292" syll="3" part="m">Prenez-les.</l>
 </sp>
 <sp who="MORDONC"><speaker>MORDONC.</speaker>
@@ -875,7 +875,7 @@ FEIGNANT, dans le cabinet.
 <sp who="CROMWELL"><speaker>CROMWELL.</speaker>
 	<l id="294" syll="3" part="i">Que fais-tu ?</l>
 </sp>
-<sp who="MORDONC"><speaker>MORDONC, fermant la porte du cabinet.</speaker>
+<sp stage="close/location" who="MORDONC"><speaker>MORDONC, fermant la porte du cabinet.</speaker>
 	<l id="294" syll="2" part="m">Tu vois.</l>
 </sp>
 <sp stage="toward" who="FEIGNANT"><speaker>FEIGNANT, aux gendarmes.</speaker>
@@ -1063,7 +1063,7 @@ FEIGNANT, dans le cabinet.
 <sp stage="threat" who="MORDONC"><speaker>MORDONC, toujours en garde.</speaker>
 	<l id="343">Gendarmes, prenez-vous mon bras pour une enseigne ?</l>
 </sp>
-<sp who="FEIGNANT"><speaker>FEIGNANT, écartant tout le monde.</speaker>
+<sp stage="push" who="FEIGNANT"><speaker>FEIGNANT, écartant tout le monde.</speaker>
 	<l id="344">Lâchez-moi, mes amis, il faut que je le saigne.</l>
 	<l id="345">Sus, cher Monsieur_Mordonc, en garde, s'il vous plaît.</l>
 <stage type="away/turn">Et Mordoc rompt en tournant.</stage>
@@ -1146,7 +1146,7 @@ FEIGNANT, dans le cabinet.
 <sp who="FEIGNANT"><speaker>FEIGNANT.</speaker>
 	<l id="367" syll="6" part="f">J'aime cette franchise.</l>
 </sp>
-<sp who="FORTOS"><speaker>FORTOS, indiquant la fenêtre.</speaker>
+<sp stage="show" who="FORTOS"><speaker>FORTOS, indiquant la fenêtre.</speaker>
 	<l id="368">Sous ce balcon. Messieurs, l'onde écume et se brise,</l>
 	<l id="369" syll="10" part="i">Dans la Seine jetons ce turc affreux.</l>
 </sp>
@@ -1215,7 +1215,7 @@ FEIGNANT, dans le cabinet.
 	<l id="388">Lui-même n'y saurait parvenir. Un volume</l>
 	<l id="389" syll="6" part="i">N'en viendrait pas à bout.</l>
 </sp>
-<sp stage="" who="FEIGNANT"><speaker>FEIGNANT, illuminé.</speaker>
+<sp stage="estonish" who="FEIGNANT"><speaker>FEIGNANT, illuminé.</speaker>
 	<l id="389" syll="6" part="f">Une ligne pourtant</l>
 	<l id="390">Suffira, mes amis, à cet événement.</l>
 <stage type="get">Il s'empare d'une ligne appendue au mur.</stage>
@@ -1240,7 +1240,7 @@ FEIGNANT, dans le cabinet.
 <sp who="MILADY"><speaker>MILADY.</speaker>
 	<l id="398" syll="2" part="m">Mordonc !</l>
 </sp>
-<sp who="CROMWELL"><speaker>CROMWELL, t'essuyant les yeux.</speaker>
+<sp stage="wipe" who="CROMWELL"><speaker>CROMWELL, t'essuyant les yeux.</speaker>
 	<l id="398" syll="6" part="f">Je pleure comme un veau !</l>
 </sp>
 <sp who="MORDONC"><speaker>MORDONC.</speaker>

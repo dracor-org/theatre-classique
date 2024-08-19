@@ -19,7 +19,7 @@
 				<type>prose</type>
 				<periode>1861-1870</periode>
 				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
+				<permalien cote="BnF LLA YF-164">https://gallica.bnf.fr/ark:/12148/bpt6k5448851m/f33.item</permalien>
 			</SourceDesc>
 		</fileDesc>
 </teiHeader>
@@ -52,7 +52,7 @@
 <div1 type="acte" n="1"><head>POTEMKIN</head>
 <stage type="decor/costume">Un appartement magnifique dans le palais de la Tauride. - Sur un lit recouvert de peaux de tigre un homme à moitié habillé est étendu et sommeille. - Près de lui , sur le parquet, des papiers, des cartes géographiques. - Un sabre, richement damasquiné, des ordres en diamants. - Sur une table à côté les restes d'un repas et plusieurs bouteilles vides.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I. La Comtesse Branitzka, Le Prince Potemkin.</head>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE BRANITZKA, entrant.</speaker>
+<sp stage="entrance" who="LA COMTESSE"><speaker>LA COMTESSE BRANITZKA, entrant.</speaker>
 <p id="1">
 	<s id="1">Midi... </s>
 	<s id="2">Et il dort encore.</s>
@@ -71,7 +71,7 @@
 	<s id="1">Grégoire, éveillez-vous.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>LE PRINCE POTEMKIN, s'éveillant.</speaker>
+<sp stage="awake" who="POTEMKIN"><speaker>LE PRINCE POTEMKIN, s'éveillant.</speaker>
 <p id="4">
 	<s id="1">À moi, Grenadiers !... </s>
 </p>
@@ -220,7 +220,7 @@
 	<s id="1">De plus un homme de tête et de mérite.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, déchirant la pétition.</speaker>
+<sp stage="tear" who="POTEMKIN"><speaker>POTEMKIN, déchirant la pétition.</speaker>
 <p id="38">
 	<s id="1">Il n'aura pas la place !... </s>
 	<s id="2">Colonel, s'il le veut... général, si cela lui plaît... </s>
@@ -376,7 +376,7 @@
 	<s id="1">Non pas de toi ; mais tu es jeune, tu es jolie, tu es entourée de courtisans qui t'adorent, ne t'y trompe pas, parce que tu es la nièce de Potemkin.</s>
 </p>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE, souriant.</speaker>
+<sp stage="smile" who="LA COMTESSE"><speaker>LA COMTESSE, souriant.</speaker>
 <p id="61">
 	<s id="1">Et pour d'autres raisons aussi.</s>
 </p>
@@ -493,8 +493,8 @@
 	<s id="2">Voici son nom et celui de son régiment.</s>
 </p>
 </sp>
-<sp stage="" who="POTEMKIN"><speaker>POTEMKIN, regardant le papier qu'elle m'a donné.</speaker>
-<note type="C">Kherson : vielle d'Ukraine à l'embouchure du Dniepr sur la mer Noire, à l'est d'Odessa</note>
+<sp stage="read" who="POTEMKIN"><speaker>POTEMKIN, regardant le papier qu'elle m'a donné.</speaker>
+<note type="C">Kherson : vielle d'Ukraine à l'embouchure du Dniepr sur la mer Noire, à l'est d'Odessa.</note>
 <p id="80">
 	<s id="1">Mouravieff, grenadier au régiment de Kherson... régiment arrivé hier à Saint-Petersbourg.</s>
 </p> 
@@ -544,7 +544,7 @@
 	<s id="1">Je suis sûre que cela vous amusera et vous intéressera.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, au domestique qui entre, lui donnant le papier.</speaker>
+<sp stage="toward/give" who="POTEMKIN"><speaker>POTEMKIN, au domestique qui entre, lui donnant le papier.</speaker>
 <p id="89">
 	<s id="1">Qu'on fasse venir sur-le-champ ce soldat. </s>
 </p>
@@ -732,7 +732,7 @@
 	<s id="1">Peut-être un rival qu'elle va vous donner ?</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, souriant.</speaker>
+<sp stage="smile" who="POTEMKIN"><speaker>POTEMKIN, souriant.</speaker>
 <p id="123">
 	<s id="1">Si ce n'était que cela, je le saurais, elle me l'aurait dit.</s>
 </p>
@@ -801,7 +801,7 @@
 	<s id="1">C'est toi qu'on nomme Mouravieff ?</s>
 </p>
 </sp>
-<sp who="MOURAVIEFF"><speaker>MOURAVIEFF, portant la main d son bonnet et balbutiant.</speaker>
+<sp stage="hesitate/touch" who="MOURAVIEFF"><speaker>MOURAVIEFF, portant la main à son bonnet et balbutiant.</speaker>
 <p id="2">
 	<s id="1">Oui, Général.</s>
 </p>
@@ -817,7 +817,7 @@
 	<s id="3">N'étais-tu pas avec moi au siège d'Oczakoff ?</s>
 </p>
 </sp>
-<sp who="MOURAVIEFF"><speaker>MOURAVIEFF, toujours immobile.</speaker>
+<sp stage="stop" who="MOURAVIEFF"><speaker>MOURAVIEFF, toujours immobile.</speaker>
 <p id="5">
 	<s id="1">Oui, général.</s>
 </p>
@@ -856,7 +856,7 @@
 	<s id="2">Je te parle, mon camarade, de la gloire qui a si bien payé nos travaux.</s>
 </p>
 </sp>
-<sp who="MOURAVIEFF"><speaker>MOURAVIEFF, cherchant d se remettre.</speaker>
+<sp stage="quiet" who="MOURAVIEFF"><speaker>MOURAVIEFF, cherchant à se remettre.</speaker>
 <note type="L">Kopeck : monnaie russe, elle vaut un centième de rouble.</note>
 <p id="13">
 	<s id="1">Bien payé ; oui, général, nous avions six kopecks par jour.</s>
@@ -1134,7 +1134,7 @@ pièce, comme il était entré.</stage>
 </p>
 <stage type="entrance/low">Entre par une petite porte à droite un officier des gardes, qui s'approche vivement de Potemkin et qui lui dit à demi-voie : L'impératrice.</stage>
 </sp>
-<sp who="LA COMTESSE"><speaker>LA COMTESSE se lève vivement, Potemkin reste assis.</speaker>
+<sp stage="stand/sit" who="LA COMTESSE"><speaker>LA COMTESSE se lève vivement, Potemkin reste assis.</speaker>
 <p id="65">
 	<s id="1">L'impératrice dans ces lieux !</s>
 </p>
@@ -1405,7 +1405,7 @@ pièce, comme il était entré.</stage>
 	<s id="1">Vous me refusez ?</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, avec humeur.</speaker>
+<sp stage="stress" who="CATHERINE"><speaker>CATHERINE, avec humeur.</speaker>
 <p id="55">
 	<s id="1">Je ne dis pas cela... mais dans un autre moment... plus tard on s'en occupera.</s>
 </p>
@@ -1417,7 +1417,7 @@ pièce, comme il était entré.</stage>
 	<s id="3">Il faut être prêt avant que l'Europe ne s'éveille ; et c'est dans l'intérêt du pays, dans le vôtre, que j'insiste encore, et que j'oserai vous dire qu'il le faut... que je le demande... que je le veux.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, avec fierté.</speaker>
+<sp stage="proud" who="CATHERINE"><speaker>CATHERINE, avec fierté.</speaker>
 <p id="57">
 	<s id="1">Et moi, je ne le veux pas.</s>
 </p>
@@ -1496,7 +1496,7 @@ pièce, comme il était entré.</stage>
 	<s id="1">Le receveur des impôts de Novogorod, accusé de concussion, à cinq années en Sibérie.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, de même.</speaker>
+<sp stage="sad" who="CATHERINE"><speaker>CATHERINE, de même.</speaker>
 <p id="69">
 	<s id="1">Six ans de plus.</s>
 </p>
@@ -1511,13 +1511,13 @@ pièce, comme il était entré.</stage>
 	<s id="1">Dix ans de plus.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, l'arrêtant au moment où elle va écrire.</speaker>
+<sp stage="stop/write" who="POTEMKIN"><speaker>POTEMKIN, l'arrêtant au moment où elle va écrire.</speaker>
 <p id="72">
 	<s id="1">Un instant... </s>
 	<s id="2">Je demande grâce pour ce supplément de peine.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, avec humeur.</speaker>
+<sp stage="stress" who="CATHERINE"><speaker>CATHERINE, avec humeur.</speaker>
 <p id="73">
 	<s id="1">Que m'importe !... </s>
 </p>
@@ -1600,7 +1600,7 @@ de quoi il est question.</s>
 	<s id="2">Vous pouvez voir sa déposition consignée dans cet arrêt qui n'attend plus que votre signature.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, jetant la plume.</speaker>
+<sp stage="throw" who="CATHERINE"><speaker>CATHERINE, jetant la plume.</speaker>
 <p id="87">
 	<s id="1">Je ne la donnerai pas.</s>
 </p>
@@ -1623,7 +1623,7 @@ de quoi il est question.</s>
 	<s id="1">Votre Majesté ne parle pas sérieusement ?</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, vivement.</speaker>
+<sp stage="quick" who="CATHERINE"><speaker>CATHERINE, vivement.</speaker>
 <note type="C">Cesare Beccaria (1738-1794) a écrit "Des délits et des peines" qui eut une grande réputation.</note>
 <p id="91">
 	<s id="1">Si, monsieur. </s>
@@ -1641,7 +1641,7 @@ de quoi il est question.</s>
 	<s id="2">Ils vont tous jeter les hauts cris ; la princesse se plaindra.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, s'échauffant.</speaker>
+<sp stage="nervous" who="CATHERINE"><speaker>CATHERINE, s'échauffant.</speaker>
 <p id="93">
 	<s id="1">Et de quoi ? </s>
 	<s id="2">Que veut-elle de plus ? </s>
@@ -1737,7 +1737,7 @@ de quoi il est question.</s>
 	<s id="2">Caprice, fantaisie, bizarrerie, si vous voulez ; il n'y a que celui-là qui me plaise, qui sourit à mon ambition, précisément parce que c'est impossible ; et puisqu'il est dit qu'ici-bas, au sein même du bonheur, on doit éternellement désirer quelque chose, ce sera toujours mon rêve, ma chimère, mon idée fixe, cela et Constantinople.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, vivement.</speaker>
+<sp stage="quick" who="POTEMKIN"><speaker>POTEMKIN, vivement.</speaker>
 <p id="107">
 	<s id="1">Constantinople vaut mieux ; et si Votre_Majesté veut en croire mes conseils, si, revenant à des objets sérieux, elle me permet de lui rappeler encore l'organisation de la Crimée ; c'est de ses ports que sortiront les flottes qui vous conduiront à Byzance. </s>
 	<s id="2">Je ne vous demande pour cela que trois ans ; que pendant trois ans je commande dans ces riches contrées...</s>
@@ -2031,7 +2031,7 @@ un demi-tour à droite, et va pour sortir.</stage>
 	<s id="1">Mon auguste souveraine est-elle satisfaite de sa journée ?</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, le regardant d'un air étonné.</speaker>
+<sp stage="watch/estonish" who="CATHERINE"><speaker>CATHERINE, le regardant d'un air étonné.</speaker>
 <p id="3">
 	<s id="1">Que voulez-vous dire ?</s>
 </p>
@@ -2146,7 +2146,7 @@ un demi-tour à droite, et va pour sortir.</stage>
 	<s id="1">Ou plutôt elle lui dicte la réponse à ma note de ce matin.</s>
 </p>
 </sp>
-<sp who="MOMONOFF"><speaker>MOMONOFF, timidement.</speaker>
+<sp stage="shy" who="MOMONOFF"><speaker>MOMONOFF, timidement.</speaker>
 <p id="24">
 	<s id="1">Je crois qu'elle lui fait part d'un plan de campagne contre la France qu'elle est décidée à combattre.</s>
 </p>
@@ -2216,7 +2216,7 @@ un demi-tour à droite, et va pour sortir.</stage>
 	<s id="4">Je crois vraiment que mon voeu est encore à se réaliser.</s>
 </p>
 </sp>
-<sp who="POTEMKIN"><speaker>POTEMKIN, riant.</speaker>
+<sp stage="laugh" who="POTEMKIN"><speaker>POTEMKIN, riant.</speaker>
 <p id="37">
 	<s id="">Je vois alors, et quoi qu'on ose tenter, que la majesté royale est décidément... inviolable !</s>
 </p>

@@ -46,7 +46,7 @@
 		<castItem><role id="LE CHEVALIER" sex="1" type="H" statut="chevalier" age="A" stat_amour="">LE CHEVALIER ULADISLAS</role>, chevalier de fortune.</castItem>
 		<castItem><role id="POLACCO" sex="1" type="H" statut="commerçant" age="A" stat_amour="">POLACCO</role>, marchand ambulant.</castItem>
 		<castItem><role id="BARBERINE" sex="2" type="H" statut="comte" age="A" stat_amour="">BARBERINE</role>, femme d'Ulric.</castItem>
-		<castItem><role id="KALÉKAIRI" sex="2" type="H" statut="suivantr" age="A" stat_amour="">KALÉKAIRI</role>, jeune suivante turque.</castItem>
+		<castItem><role id="KALÉKAIRI" sex="2" type="H" statut="suivante" age="A" stat_amour="">KALÉKAIRI</role>, jeune suivante turque.</castItem>
 		<castItem><role id="L'HÔTELIER" sex="1" type="H" statut="hôtelier" age="A" stat_amour="">[L'HÔTELIER]</role>, etc.</castItem>
 		<castItem><role id="LA SENTINELLE" sex="1" type="H" statut="sentinelle" age="A" stat_amour="">[LA SENTINELLE]</role>.</castItem>
 		<castItem><role id="COURTISANS" sex="9" type="H" statut="courtisan" age="A" stat_amour="">COURTISANS</role>, etc.</castItem>
@@ -1009,7 +1009,7 @@
 	<s id="10">Ô rêveurs que nous sommes !</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
 <p id="29">
 	<s id="1">C'est surtout ce livre que j'ai acheté qui me bouleverse la cervelle ; si je l'ouvre le soir en me couchant, je ne saurais dormir de toute la nuit. </s>
 	<s id="2">Que de récits étonnants, que de choses admirables ! </s>
@@ -1434,7 +1434,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, Plusieurs courtisans.</head>
-<sp who="PREMIER COURTISAN"><speaker>PREMIER COURTISAN, à Ulric.</speaker>
+<sp stage="toward" who="PREMIER COURTISAN"><speaker>PREMIER COURTISAN, à Ulric.</speaker>
 <p id="1">
 	<s id="1">Comte Ulric, la reine va rentrer tout à l'heure au palais. </s>
 	<s id="2">Elle nous a ordonné de vous dire que votre présence y sera nécessaire.</s>
@@ -2314,7 +2314,7 @@
 	<s id="2">Certainement ; c'est d'elle que me viennent presque tous les bijoux que je porte.</s>
 </p>
 </sp>
-<sp who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
+<sp stage="aparte" who="BARBERINE"><speaker>BARBERINE, à part.</speaker>
 <p id="28">
 	<s id="">Ce garçon-là n'est pas bien méchant.</s>
 </p>
@@ -2576,7 +2576,7 @@
 	<s id="1">L'Uscoque ne voulait rien dire ; mais Kalékairi l'a grisé, et il lui a tout raconté.</s>
 </p>
 </sp>
-<sp who="BARBERINE"><speaker>BARBERINE, regardant Rosemberg.</speaker>
+<sp stage="watch" who="BARBERINE"><speaker>BARBERINE, regardant Rosemberg.</speaker>
 <p id="12">
 	<s id="1">Vraiment, cela est incroyable !</s>
 </p>
@@ -2857,7 +2857,7 @@
 	<s id="1">J'y vais.</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, bas à Barberine.</speaker>
+<sp stage="low/toward" who="ROSEMBERG"><speaker>ROSEMBERG, bas à Barberine.</speaker>
 <p id="4">
 	<s id="1">Hé ! </s>
 	<s id="2">quoi ! </s>
@@ -2878,7 +2878,7 @@
 	<s id="1">Kalékairi ne veut pas dîner.</s>
 </p>
 </sp>
-<sp who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
+<sp stage="aparte" who="ROSEMBERG"><speaker>ROSEMBERG, à part.</speaker>
 <p id="7">
 	<s id="1">Elle veut rester, la petite Éthiopienne !</s>
 </p>
@@ -3047,7 +3047,7 @@
  	<l id="19">Holà ! Remplis ton verre,</l>
  	<l id="20">Holà ! Landerira.</l>
 </sp>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, ouvrant le guichet.</speaker>
+<sp stage="open" who="KALÉKAIRI"><speaker>KALÉKAIRI, ouvrant le guichet.</speaker>
 <p id="7">
 	<s id="1">La maîtresse dit, puisque vous ne filez pas, que vous vous passerez sans doute de souper, et elle croit que vous n'avez pas faim ; ainsi je vous souhaite une bonne nuit.</s>
 </p>
@@ -3258,7 +3258,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X. Rosemberg, Kalékairi.</head>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, portant deux plats.</speaker>
+<sp stage="carry" who="KALÉKAIRI"><speaker>KALÉKAIRI, portant deux plats.</speaker>
 <p id="1">
 	<s id="1">Voilà le souper. </s>
 	<s id="2">Il y a des concombres et une salade de laitues.</s>
@@ -3558,7 +3558,7 @@
 	<s id="1">Madame, l'argent est tout prêt.</s>
 </p>
 </sp>
-<sp who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
+<sp stage="low/toward" who="KALÉKAIRI"><speaker>KALÉKAIRI, bas à Rosemberg.</speaker>
 <p id="17">
 	<s id="1">Que va dire votre tante Béatrix ?</s>
 </p>

@@ -44,10 +44,10 @@
 			<signature>W. BUSNACH.</signature>
 		</div>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id="LA FICELLE DRAMATIQUE" sex="2" type="H" statut='' age='A' stat_amour='néant'>LA FICELLE DRAMATIQUE</role>, Mademoiselle DÉSIRÉE.</castItem>
+		<castItem><role id="LA FICELLE DRAMATIQUE" sex="2" type="H" statut="personnification" age='A' stat_amour='néant'>LA FICELLE DRAMATIQUE</role>, Mademoiselle DÉSIRÉE.</castItem>
 		<castItem><role id="JULIE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>JULIE</role>, Mademoiselle CARROUCHE-DALBERT.</castItem>
 		<castItem><role id="LE THÉÂTRE BELLEFOND" sex="2" type="H" statut='personnification' age='A' stat_amour='néant'>LE THÉÂTRE BELLEFOND</role>, Mademoiselle CARROUCHE-DALBERT.</castItem>
-		<castItem><role id="LA FRÉGATE-ÉCOLE" sex="2" type="H" statut='personnifacation' age='A' stat_amour='néant'>LA FRÉGATE-ÉCOLE</role>, Mademoiselle SURAND.</castItem>
+		<castItem><role id="LA FRÉGATE-ÉCOLE" sex="2" type="H" statut='personnification' age='A' stat_amour='néant'>LA FRÉGATE-ÉCOLE</role>, Mademoiselle SURAND.</castItem>
 		<castItem><role id="LA COMÈTE" sex="2" type="H" statut='bourgeois' age='A' stat_amour='néant'>LA COMÈTE</role>, Madame MAGNUS.</castItem>
 		<castItem><role id="COLLODION" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>COLLODION</role>, Monsieur PÉTAIN.</castItem>
 		<castItem><role id="ROMULUS" sex="1" type="H" statut='bourgeois' age='A' stat_amour='néant'>ROMULUS</role>, Monsieur GUSTAVE BLOCK.</castItem>
@@ -319,7 +319,7 @@
 </p>
 <stage type="sit/furniture">Elle se rassied dans le fauteuil.</stage>
 </sp>
-<sp who="BAIN-DE-FER"><speaker>BAIN-DE-FER, à son objectif.</speaker>
+<sp stage="toward" who="BAIN-DE-FER"><speaker>BAIN-DE-FER, à son objectif.</speaker>
 <p id="38">
 	<s id="1">Fixe repos !... </s>
 	<s id="2">Ça va commencer...</s>
@@ -327,7 +327,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Collodion, Bain-de-fer, Julie.</head>
-<sp who="COLLODION"><speaker>COLLODION, un journal à la main.</speaker>
+<sp stage="carry" who="COLLODION"><speaker>COLLODION, un journal à la main.</speaker>
 <p id="1">
 	<s id="1">Malgré moi, j'y pense sans cesse, et dans le tourment qui m'oppresse...</s>
 </p>
@@ -403,7 +403,7 @@
 </p>
 </sp>
 <sp who="JULIE"><speaker>JULIE.</speaker>
-<note type="">Vicomte Ponson du Terrail : Pierre Alexis de Ponson du Terrail (1829-1871) écrivain de 200 romans populaires. Son personnage récurrent est Rocambole.</note>
+<note type="C">Vicomte Ponson du Terrail : Pierre Alexis de Ponson du Terrail (1829-1871) écrivain de 200 romans populaires. Son personnage récurrent est Rocambole.</note>
 <p id="14">
 	<s id="1">Jamais, papa ; je ne lis que les feuilletons, ceux du vicomte Ponson_du_Terrail par exemple ! </s>
 	<s id="2">Ah voilà qui est amusant !</s>
@@ -993,7 +993,7 @@
 	<s id="2">Où est-elle, la claque ?</s>
 </p>
 </sp>
-<sp who="ROMULUS"><speaker>ROMULUS, à Collodion.</speaker>
+<sp stage="toward" who="ROMULUS"><speaker>ROMULUS, à Collodion.</speaker>
 <p id="2">
 	<s id="1">Monsieur_Chabannais, que j'ai l'honneur de vous présenter.</s>
 </p>
@@ -1342,8 +1342,8 @@ Se calmant.
 	<s id="3">Dites donc, entre nous, voyons, soyez franche, avec une pompe et une livre de sel de cuisine, c'est plus économique ?</s>
 </p>
 </sp>
-<sp who="LA FRÉGATE"><speaker>LA FRÉGATE, pleurant.</speaker>
-<note type="">Le Constitutionnel : journal du commerce, politique et littéraire (2 mai 1819-21 juil. 1914);</note>
+<sp stage="cry" who="LA FRÉGATE"><speaker>LA FRÉGATE, pleurant.</speaker>
+<note type="C">Le Constitutionnel : journal du commerce, politique et littéraire (2 mai 1819-21 juil. 1914);</note>
 <p id="15">
 	<s id="1">Ah ! </s>
 	<s id="2">C'est affreux ça ! </s>
@@ -1391,7 +1391,7 @@ Se calmant.
 	<l id="128">Venait-il pas de trouver un requin !</l>
 	<l id="129">Oui, oui, Monsieur, un énorme requin !</l>
 </sp>
-<sp who="COLLODION"><speaker>COLLODION, à Romulus.</speaker>
+<sp stage="toward" who="COLLODION"><speaker>COLLODION, à Romulus.</speaker>
 <p id="21">
 	<s id="1">Est-ce que vous coupez dans le pont de cette frégate ?</s>
 </p>
@@ -1808,7 +1808,6 @@ Se calmant.
 	<s id="1">Hélas !</s>
 </p>
 <stage type="title">AIR : Roi de Béotie.</stage>
-<stage type="">1</stage>
 <note type="L">Araucanie : région du Chili qui fut déclarée royaume en 1860 par un français Antoine de Tounens (1835-1878) dont il se dit le roi. Tounens fut arrêté par l'armée chilienne le 5 janvier 1862 et fut renvoyé en France le 28 octobre 1862.</note>
 	<l id="163">Je suis le roi d'Araucanie,</l>
 	<l id="164">Orélie-Antoine premier,</l>
@@ -2753,7 +2752,7 @@ Se calmant.
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI. Collodion, Romulus, La Ficelle.</head>
-<sp who="COLLODION"><speaker>COLLODION, à la Ficelle.</speaker>
+<sp stage="toward" who="COLLODION"><speaker>COLLODION, à la Ficelle.</speaker>
 <p id="1">
 	<s id="1">Pardon, j'abuse de votre complaisance ; mais n'auriez-vous pas encore quelque chose à nous faire voir ?...</s>
 </p>

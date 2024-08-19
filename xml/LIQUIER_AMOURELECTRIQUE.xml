@@ -32,13 +32,13 @@
 		<docDate value='1882'>1882. Tous droits réservés.</docDate>
 		<docAuthor id="LIQUIER, Gabriel">Par M. GABRIEL LIQUIER</docAuthor>
 		<docImprint>
-			<editor id='BOUNET'>.</editor>
 			<printer id='BOUNET'>ÉVREUX. IMPRIMERIE DE CHARLES HÉRISSEY.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES.</head>
 		<castItem><role id="ARSÈNE GINGINET" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>ARSÈNE GINGINET</role>, M. F. GALIPAUX, du Palais-Royal..</castItem>
-		<castItem><role id="CÉLESTE JOLIVAL" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>CÉLESTE JOLIVAL</role>, Mlle ROSAMOND, de la Comédie-Française..</castItem>
+		<castItem><role id="CÉLESTE JOLIVAL" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>CÉLESTE JOLIVAL</role>, Mlle ROSAMOND, de la Comédie-Française.		</castItem>
 	</castList>
+	<set location="En province" country="France" periode="XIXème" gps="43.32, -1.03"></set>
 <note>Texte tiré de "Théâtre de campagne, Huitième série". Paris : Paul Ollendorff éditeur, 1882.  pp 13-36.</note>
 </front>
 <body>
@@ -98,7 +98,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE DEUXIÈME.</head>
-<sp who="CÉLESTE"><speaker>CÉLESTE, entrant par le fond ; elle est en tenue de voyage, un petit sac à la main.</speaker>
+<sp stage="entrance/location/costume" who="CÉLESTE"><speaker>CÉLESTE, entrant par le fond ; elle est en tenue de voyage, un petit sac à la main.</speaker>
 <p id="1">
 	<s id="1">Monsieur_Ginginet ?... </s>
 	<s id="2">Personne ! </s>
@@ -346,7 +346,7 @@
 	<s id="2">Tout s'explique : elle a des papillons bleus !</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, continuant.</speaker>
+<sp stage="continue" who="CÉLESTE"><speaker>CÉLESTE, continuant.</speaker>
 <p id="38">
 	<s id="1">Un homme qui m'appelait son ange adoré... qui me baptisait : petit lapin rose !...</s>
 </p>
@@ -434,12 +434,12 @@
 	<s id="2">Vous permettez que je passe aux temps modernes ?</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, s'asseyant.</speaker>
+<sp stage="sit" who="CÉLESTE"><speaker>CÉLESTE, s'asseyant.</speaker>
 <p id="53">
 	<s id="1">Je vous en prie.</s>
 </p>
 </sp>
-<sp who="ARSÈNE"><speaker>ARSÈNE, de même.</speaker>
+<sp stage="sit" who="ARSÈNE"><speaker>ARSÈNE, de même.</speaker>
 <p id="54">
 	<s id="1">Enfin, il y a deux mois, un télégraphe nous fut octroyé. </s>
 	<s id="2">Et comme les télégraphes de province, ça ne marche pas tout seul... généralement... le gouvernement, toujours paternel, nous expédia une employée... du sexe aimable.</s>
@@ -476,7 +476,7 @@
 	<s id="7">Ma clef, s'il vous plaît ?</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
+<sp stage="aparte" who="CÉLESTE"><speaker>CÉLESTE, à part.</speaker>
 <p id="59">
 	<s id="1">Oh ! </s>
 	<s id="2">Être aimée ainsi !... </s>
@@ -513,7 +513,7 @@
 	<s id="2">Vous en étiez à : ingénieux et hardi.</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>ARSÈNE, s'épongeant le front.</speaker>
+<sp stage="wipe" who="CÉLESTE"><speaker>ARSÈNE, s'épongeant le front.</speaker>
 <p id="65">
 	<s id="1">Je vais donc au bureau du télégraphe. </s>
 	<s id="2">Je prends un de ces petits papiers que le gouvernement, toujours paternel, met à la disposition du public, et j'écris bravement ceci : « Vous ai vue. Vous adore. Ai jamais aimé que vous. Dites qu'adoration déplaît pas. Signé : Arsène. » </s>
@@ -800,7 +800,7 @@
 	<s id="1">Elle !</s>
 </p>
 </sp>
-<sp who="CÉLESTE"><speaker>CÉLESTE, de même.</speaker>
+<sp stage="watch" who="CÉLESTE"><speaker>CÉLESTE, de même.</speaker>
 <p id="5">
 	<s id="1">Lui !</s>
 </p>

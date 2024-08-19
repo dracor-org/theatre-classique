@@ -45,14 +45,14 @@
 		<castItem><role id="HÉLÈNE" sex="2" type="H" statut="roi" age="A" stat_amour='néant'>HÉLÈNE</role>. </castItem>
 		<castItem><role id="HÉCUBE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>HÉCUBE</role>. </castItem>
 		<castItem><role id="CASSANDRE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>CASSANDRE</role>. </castItem>
-		<castItem><role id="LA PAIX" sex="2" type="A" statut="" age="A" stat_amour='néant'>LA PAIX</role>. </castItem>
+		<castItem><role id="LA PAIX" sex="2" type="A" statut="allégorie" age="A" stat_amour='néant'>LA PAIX</role>. </castItem>
 		<castItem><role id="IRIS" sex="2" type="D" statut="dieu" age="A" stat_amour='néant'>IRIS</role>. </castItem>
 		<castItem><role id="SERVANTES ET TROYENNES" sex="1" type="H" statut="peuple" age="A" stat_amour='néant'>SERVANTES ET TROYENNES</role>. </castItem>
 		<castItem><role id="ANDROMAQUE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>ANDROMAQUE</role>. </castItem>
-		<castItem><role id="LA PETITE POLYXÈNE" sex="2" type="H" statut="" age="A" stat_amour='néant'>LA PETITE POLYXÈNE</role>. </castItem>
-		<castItem><role id="ABNÉOS" sex="1" type="H" statut="" age="A" stat_amour='néant'>ABNÉOS</role>. </castItem>
-		<castItem><role id="TROÏLUS" sex="1" type="H" statut="" age="A" stat_amour='néant'>TROÏLUS</role>. </castItem>
-		<castItem><role id="OLPIDÈS" sex="1" type="H" statut="" age="A" stat_amour='néant'>OLPIDÈS</role>. </castItem>
+		<castItem><role id="LA PETITE POLYXÈNE" sex="2" type="H" statut="aristocrate" age="E" stat_amour='néant'>LA PETITE POLYXÈNE</role>. </castItem>
+		<castItem><role id="ABNÉOS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>ABNÉOS</role>. </castItem>
+		<castItem><role id="TROÏLUS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>TROÏLUS</role>. </castItem>
+		<castItem><role id="OLPIDÈS" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>OLPIDÈS</role>. </castItem>
 		<castItem><role id="HECTOR" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>HECTOR</role>. </castItem>
 		<castItem><role id="ULYSSE" sex="1" type="H" statut="roi" age="A" stat_amour='néant'>USLYSSE</role>. </castItem>
 		<castItem><role id="DEMOKOS" sex="1" type="H" statut="poète" age="A" stat_amour='néant'>DEMOKOS</role>. </castItem>
@@ -234,7 +234,7 @@
 	<s id="1">Ne me fais pas peur, Cassandre.</s>
 </p>
 </sp>
-<sp who="UNE JEUNE SERVANTE"><speaker>UNE JEUNE SERVANTE, qui passe avec du linge.</speaker>
+<sp stage="entrance/carry" who="UNE JEUNE SERVANTE"><speaker>UNE JEUNE SERVANTE, qui passe avec du linge.</speaker>
 <p id="30">
 	<s id="">Quel beau jour, maîtresse !</s>
 </p>
@@ -1905,7 +1905,7 @@
 	<s id="1">Elle s'amuse à ne pas dormir la nuit, tout en fermant les yeux.</s>
 </p>
 </sp>
-<sp who="HÉCUBE"><speaker>HÉCUBE, à Polyxène.</speaker>
+<sp stage="toward" who="HÉCUBE"><speaker>HÉCUBE, à Polyxène.</speaker>
 <p id="100">
 	<s id="1">Oui, tu peux en parler, toi ! </s>
 	<s id="2">C'est épouvantable ! </s>
@@ -5660,7 +5660,7 @@
 	<s id="1">Je t'aime, Hector.</s>
 </p>
 </sp>
-<sp who="HECTOR"><speaker>HECTOR, montrant sa joue.</speaker>
+<sp stage="show" who="HECTOR"><speaker>HECTOR, montrant sa joue.</speaker>
 <p id="21">
 	<s id="1">Oui. </s>
 	<s id="2">Mais ne m'embrasse pas encore tout de suite, veux-tu ?</s>
@@ -6445,7 +6445,7 @@
 	<s id="7">Ou il y aura la guerre.</s>
 </p>
 </sp>
-<sp who="PÂRIS, LES VIEILLARDS"><speaker>PÂRIS, LES VIEILLARDS.</speaker>
+<sp stage="together" who="PÂRIS, LES VIEILLARDS"><speaker>PÂRIS, LES VIEILLARDS.</speaker>
 <p id="132">
 	<s id="1">Merci, Iris !</s>
 </p>
@@ -6465,7 +6465,7 @@
 	<s id="6">Ou il y aura la guerre...</s>
 </p>
 </sp>
-<sp who="HECTOR, LES FEMMES"><speaker>HECTOR, LES FEMMES.</speaker>
+<sp stage="together" who="HECTOR, LES FEMMES"><speaker>HECTOR, LES FEMMES.</speaker>
 <p id="135">
 	<s id="1">Merci, Iris !</s>
 </p>

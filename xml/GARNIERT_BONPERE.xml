@@ -50,7 +50,7 @@
 <div1 type="act" n="1"><head>LE BON PÈRE</head>
 <stage type="decor">Le Théâtre représente un appartement de Monsieur Mondor.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I.</head>
-<sp who="ANTOINE"><speaker>MONSIEUR DE FERVAL père, sous le nom d'ANTOINE.</speaker>
+<sp stage="explicit" who="ANTOINE"><speaker>MONSIEUR DE FERVAL père, sous le nom d'ANTOINE.</speaker>
 <stage type="alone/sit/work">Il est seul, assis devant une petite table, occupé à plier une lettre.</stage>
 <stage type="explicit">Ce Drame est imite d'une nouvelle de M. B**, insérée dans la Mercure.</stage>
 <p id="1">
@@ -86,7 +86,7 @@
 	<s id="1">Oui, c'est moi ; allons, dépêchez-vous.</s>
 </p>
 </sp>
-<sp who="JULIEN"><speaker>JULIEN, sans paraître.</speaker>
+<sp stage="hide" who="JULIEN"><speaker>JULIEN, sans paraître.</speaker>
 <p id="5">
 	<s id="1">Tout à l'heure, je suis à vous ; un peu de patience...</s>
 </p>
@@ -142,10 +142,10 @@
 </sp>
 <sp who="ANTOINE"><speaker>ANTOINE.</speaker>
 <p id="9">
-	<s id="1">Il ne faut pas vous fâcher : laissez là cette lettre, j'instruirai Monsieur Mondor de vos refus.</s>
+	<s id="1">Il ne faut pas vous fâcher : laissez là cette lettre, j'instruirai Monsieur_Mondor de vos refus.</s>
 </p>	
 </sp>
-<sp who="JULIEN"><speaker>JULIEN, prenant la httre avec humeur.</speaker>
+<sp stage="get/nervous" who="JULIEN"><speaker>JULIEN, prenant la lettre avec humeur.</speaker>
 <p id="10">
 	<s id="1">C'est que c'est vrai ça : vous vous faites mieux servir que les maîtres, voyez-vous, et cela me déplait à moi.</s>
 </p>
@@ -291,7 +291,7 @@
 </p>
 <stage type="cry">Il pleure.</stage>
 </sp>
-<sp who="MONSIEUR MONDOR"><speaker>MONSIEUR MONDOR, attendri.</speaker>
+<sp stage="tender" who="MONSIEUR MONDOR"><speaker>MONSIEUR MONDOR, attendri.</speaker>
 <p id="17">
 	<s id="1">Eh, finissez vous m'attendrissez aussi, moi ; fi donc : à nos âges, pleurer comme des enfants, on se moquerait de nous. </s>
 	<s id="2">Allez, allez ; ayez bonne espérance, vous ne serez pas réduit ù cette extrémité-là.</s>
@@ -392,7 +392,7 @@
 	<s id="1">Quand il vous plaira, mon oncle.</s>
 </p>
 </sp>
-<sp who="MONSIEUR MONDOR"><speaker>MONSIEUR MONDOR, à demi-voix.</speaker>
+<sp stage="low" who="MONSIEUR MONDOR"><speaker>MONSIEUR MONDOR, à demi-voix.</speaker>
 <p id="12">
 	<s id="1">Trop tôt peut-être pour toi.</s>
 </p>
@@ -549,7 +549,7 @@
 	<s id="1">Antoine, je respecte votre âge, je pardonne à votre zèle ; mais...</s>
 </p>
 </sp>
-<sp who="ANTOINE"><speaker>ANTOINE, d'un ton pénétré et s'approchant affectueusement de Monsieur de Ferval.</speaker>
+<sp stage="think/closer/tender" who="ANTOINE"><speaker>ANTOINE, d'un ton pénétré et s'approchant affectueusement de Monsieur de Ferval.</speaker>
 <p id="20">
 	<s id="1">Mon cher maître, rentrez en vous-même, vous avez une âme honnête et faite pour le bien : est-il possible que l'orgueil vous aveugle assez pour empêcher de voir toute l'indignité et la bassesse... </s>
 	<s id="2">Oui, la bassesse du personnage que vous jouez ; avec de l'esprit et du bon sens, il vous rend la dupe d'une troupe de jeunes insensés. Pensez à un père qui vous aime, qui vous idolâtre songez quel serait son chagrin s'il apprenait que vous menez une vie aussi méprisable. </s>
@@ -557,7 +557,7 @@
 	<s id="3">Je le connais, il en mourrait.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE FERVAL"><speaker>MONSIEUR DE FERVAL, vivement.</speaker>
+<sp stage="quick" who="MONSIEUR DE FERVAL"><speaker>MONSIEUR DE FERVAL, vivement.</speaker>
 <p id="21">
 	<s id="1">Mon cher Antoine ! </s>
 	<s id="2">Tu connais mon père, où l'as-tu vu ? </s>
@@ -621,7 +621,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX.</head>
-<sp who="ANTOINE"><speaker>ANTOINE, seul.</speaker>
+<sp stage="alone" who="ANTOINE"><speaker>ANTOINE, seul.</speaker>
 <stage type="walk/think/slow">Il se promène à grands pas et d'un air pensif. Il dit ceci par intervalles, et très lentement.</stage>
 <p id="1">
 	<s id="1">Voilà le coup de partie. </s>
@@ -714,10 +714,10 @@
 	<s id="2">Non, si mon malheureux père vivait, il ne penserait, il n'agirait pas autrement ; je ne sentirais pas pour lui plus d'attachement, plus de vénération.</s>
 </p>
 </sp>
-<sp who="ANTOINE"><speaker>ANTOINE, se jetant au col de Monsieur de Ferval.</speaker>
+<sp stage="stress" who="ANTOINE"><speaker>ANTOINE, se jetant au col de Monsieur de Ferval.</speaker>
 <p id="11">
 	<s id="1">Mon fils, mon cher fils, embrassez-moi. </s>
-	<s id="2">Vos sentiments répondent à mes espérances ; je m'aperçois que la réduction des mauvaises compagnies, l'étourderie de votre âge, et peut-être la dureté de votre oncle, ont été les seules causes d'un dérangement qui vous est surement actuellement en horreur. </s>
+	<s id="2">Vos sentiments répondent à mes espérances ; je m'aperçois que la réduction des mauvaises compagnies, l'étourderie de votre âge, et peut-être la dureté de votre oncle, ont été les seules causes d'un dérangement qui vous est sûrement actuellement en horreur. </s>
 	<s id="3">Ne pleurez plus un père qui vit encore et qui ne vit que pour vous aimer.</s>
 </p>
 </sp>

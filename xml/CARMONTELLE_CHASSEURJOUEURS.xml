@@ -39,7 +39,7 @@
 	</performance>
 	<castList><head>PERSONNAGES</head>
 		<castItem><role id="DURAND" sex="1" type="H" statut='chasseur' age='A' stat_amour='(néant)'>DURAND</role>, chasseur.</castItem>
-		<castItem><role id="CLERAC" sex="1" type="H" statut='officier' age='A' stat_amour='(néant)'>CLERAC</role>, offcier d'infanterie, joueur.</castItem>
+		<castItem><role id="CLERAC" sex="1" type="H" statut='officier' age='A' stat_amour='(néant)'>CLERAC</role>, officier d'infanterie, joueur.</castItem>
 		<castItem><role id="SAINT-ROMAIN" sex="1" type="H" statut='officier' age='A' stat_amour='(néant)'>SAINT-ROMAIN</role>, officier d'infanterie, joueurs.</castItem>
 		<castItem><role id="LA RENTRÉE" sex="1" type="H" statut='garde-chasse' age='A' stat_amour='(néant)'>LA RENTRÉE</role>, garde-chasse.</castItem>
    </castList>
@@ -409,7 +409,7 @@
 </p>
 <stage type="help">Ils aident Saint-Romain.</stage>
 </sp>
-<sp who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, à la Rentrée.</speaker>
+<sp stage="toward" who="SAINT-ROMAIN"><speaker>SAINT-ROMAIN, à la Rentrée.</speaker>
 <p id="12">
 	<s id="">Ne dites pas que vous nous avez trouvés ici à jouer.</s>
 </p>

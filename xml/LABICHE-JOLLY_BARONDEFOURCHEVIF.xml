@@ -54,14 +54,13 @@
 <div1 type="acte" n="1"><head>LE BARON DE FOURCHEVIF</head>
 <stage type="decor">Le théâtre représente un vieux salon gothique donnant sur un parc ; portrait de famille, un meuble moderne en acajou, trois portes au fond. À droite, premier plan, table servant de bureau. Deuxième plan, porte. À gauche, premier plan, fenêtre. — Deuxième plan, grande cheminée.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. ADÈLE, Tronquoy.</head>
-<sp who="TRONQUOY"><speaker>TRONQUOY, il porte une livrée trop dorée et de mauvais goût, il regarde dans la glace, à droite.</speaker>
+<sp stage="costume/watch" who="TRONQUOY"><speaker>TRONQUOY, il porte une livrée trop dorée et de mauvais goût, il regarde dans la glace, à droite.</speaker>
 <p id="1">
 	<s id="1">Suis-je beau, mon_Dieu ! </s>
 	<s id="2">Suis-je beau !</s>
 </p>
 </sp>
-<sp who="ADÈLE"><speaker>ADÈLE, assise devant un chevalet, à gauche, peint des fleurs
-placées dans un vase, sur un guéridon.</speaker>
+<sp stage="sit/furniture/location" who="ADÈLE"><speaker>ADÈLE, assise devant un chevalet, à gauche, peint des fleurs placées dans un vase, sur un guéridon.</speaker>
 <p id="2">
 	<s id="1">Non, je ne pourrai jamais rendre ces tons-là... </s>
 	<s id="2">Le camellia est une fleur décourageante.</s>
@@ -172,7 +171,7 @@ placées dans un vase, sur un guéridon.</speaker>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Les mêmes, La Baronne, puis FOURCHEVIF. *</head>
-<sp who="LA BARONNE"><speaker>LA BARONNE, entrant du fond.</speaker>
+<sp stage="entrance/location" who="LA BARONNE"><speaker>LA BARONNE, entrant du fond.</speaker>
 <p id="1">
 	<s id="1">Bonjour, Adèle.</s>
 </p>
@@ -538,7 +537,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Dame, c'est une mésalliance !</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
+<sp stage="aparte" who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
 <p id="32">
 	<s id="1">Elle est superbe ma femme... </s>
 	<s id="2">Elle a toujours l'air de revenir des croisades !</s>
@@ -556,7 +555,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </sp>
 <sp who="LA BARONNE"><speaker>LA BARONNE.</speaker>
 <p id="35">
-	<s id="1">Si monsieur Dandrin consentait à mettre une apostrophe à son nom !</s>
+	<s id="1">Si Monsieur_Dandrin consentait à mettre une apostrophe à son nom !</s>
 </p>
 </sp>
 <sp who="FOURCHEVIF"><speaker>FOURCHEVIF.</speaker>
@@ -793,7 +792,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Voilà sa carte.</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, lisant.</speaker>
+<sp stage="read" who="FOURCHEVIF"><speaker>FOURCHEVIF, lisant.</speaker>
 <p id="42">
 	<s id="1">Etienne Lambert... </s>
 	<s id="2">Je ne connais pas... </s>
@@ -835,7 +834,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Après ça, il n'est pas mieux mis que moi.</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, à Fourchevif.</speaker>
+<sp stage="toward" who="LAMBERT"><speaker>LAMBERT, à Fourchevif.</speaker>
 <p id="5">
 	<s id="1">Monsieur, vous avez au bout de votre parc un rocher célèbre parmi les artistes qui viennent en Dauphiné, et je viens vous demander la permission d'en faire une étude.</s>
 </p>
@@ -889,7 +888,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Hein ?</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, sortant par la droite, deuxième plan.</speaker>
+<sp stage="exit/location" who="FOURCHEVIF"><speaker>FOURCHEVIF, sortant par la droite, deuxième plan.</speaker>
 <p id="15">
 	<s id="1">Tronquoy, ne quitte pas monsieur.</s>
 </p>
@@ -936,7 +935,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Parbleu !</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, à lui-même.</speaker>
+<sp stage="aparte" who="LAMBERT"><speaker>LAMBERT, à lui-même.</speaker>
 <p id="9">
 	<s id="1">Ah ! </s>
 	<s id="2">Par exemple, c'est un peu fort !</s>
@@ -966,7 +965,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Lambert, Fourchevif.</head>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, entrant.</speaker>
+<sp stage="entrance" who="FOURCHEVIF"><speaker>FOURCHEVIF, entrant.</speaker>
 <p id="1">
 	<s id="1">Vous m'avez fait demander ? Dépêchons-nous, je suis pressé.</s>
 </p>
@@ -1250,7 +1249,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </p>
 <stage type="sit/furniture/get">Il le fait asseoir sur la chaise qu'il vient de quitter et en prend une autre.</stage>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
+<sp stage="aparte" who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
 <p id="42">
 	<s id="1">Qu'est-ce qu'il va me demander, mon_Dieu !</s>
 </p>
@@ -1500,7 +1499,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="2">Alors, le bailli ?...</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, d'un air indifférent.</speaker>
+<sp stage="indifferent" who="LAMBERT"><speaker>LAMBERT, d'un air indifférent.</speaker>
 <p id="91">
 	<s id="1">Oh ! </s>
 	<s id="2">ON le laissa là pour ne pas gâter là boiserie... </s>
@@ -2380,7 +2379,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII. Rouquérolle, Fourchevif.</head>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
+<sp stage="aparte" who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
 <p id="1">
 	<s id="1">Il me fourre un intendant ! </s>
 	<s id="2">Je n'en ai pas besoin. </s>
@@ -2445,7 +2444,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Volontiers...</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, qui a tiré un papier de sa poche.</speaker>
+<sp stage="get/location" who="FOURCHEVIF"><speaker>FOURCHEVIF, qui a tiré un papier de sa poche.</speaker>
 <p id="11">
 	<s id="1">Voici un petit projet de bail sur lequel je ne serais pas fâché d'avoir votre avis...</s>
 </p> 
@@ -2718,7 +2717,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="">Moi ?</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, prenant un papier sur la table.</speaker>
+<sp stage="get/furniture/location" who="FOURCHEVIF"><speaker>FOURCHEVIF, prenant un papier sur la table.</speaker>
 <p id="60">
 	<s id="1">Voici la liste de mes locataires... avec les sommes à toucher... </s>
 	<s id="2">Vous n'aurez qu'à copier.</s>
@@ -2835,7 +2834,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="3">Donnez-moi des conseils, monsieur, et surtout soyez  franc !</s>
 </p>
 </sp>
-<sp who="ROUQUÉROLLE"><speaker>ROUQUÉROLLE, à part.</speaker>
+<sp stage="aparte" who="ROUQUÉROLLE"><speaker>ROUQUÉROLLE, à part.</speaker>
 <p id="9">
 	<s id="1">Elle est gentille ! </s>
 </p>
@@ -3064,7 +3063,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="3">Ce sera bien mieux en n'empâtant pas tant.</s>
 </p>
 </sp>
-<sp who="ADÈLE"><speaker>ADÈLE, à part.</speaker>
+<sp stage="aparte" who="ADÈLE"><speaker>ADÈLE, à part.</speaker>
 <p id="17">
 	<s id="1">Ma foi! </s>
 	<s id="2">Je ne sais plus lequel écouler !</s>
@@ -3271,7 +3270,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </p>
 <stage type="exit">Tronquoy sort.</stage>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
+<sp stage="aparte" who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
 <p id="36">
 	<s id="">A-t-on jamais vu mettre des lettres sur le plat ! </s>
 </p>
@@ -3281,7 +3280,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="2">Un de mes électeurs les plus influents.</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, regardant le cachet de la lettre.</speaker>
+<sp stage="watch" who="LAMBERT"><speaker>LAMBERT, regardant le cachet de la lettre.</speaker>
 <p id="38">
 	<s id="1">Oh ! </s>
 	<s id="2">Oh ! </s>
@@ -3311,7 +3310,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="3">Monsieur_de_la_Brossinière a usurpé votre blason !</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, tranquillement.</speaker>
+<sp stage="quiet" who="FOURCHEVIF"><speaker>FOURCHEVIF, tranquillement.</speaker>
 <p id="43">
 	<s id="1">Tiens ! Tiens ! Tiens !</s>
 </p>
@@ -3374,7 +3373,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="2">Elle est un peu sèche, ma... votre lettre.</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, mettant la lettre sous enveloppe.</speaker>
+<sp stage="location/hide" who="LAMBERT"><speaker>LAMBERT, mettant la lettre sous enveloppe.</speaker>
 <p id="54">
 	<s id="1">Je l'espère bien !... </s>
 	<s id="2">Vous voilà probablement avec une affaire sur les bras, mais l'honneur est sauf !</s>
@@ -3393,7 +3392,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="3">Il est présumable que Monsieur_de_la_Brossinière ne grattera pas... et qu'il vous enverra ses témoins.</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, se levant.</speaker>
+<sp stage="stannd" who="FOURCHEVIF"><speaker>FOURCHEVIF, se levant.</speaker>
 <p id="57">
 	<s id="1">Un duel ! </s>
 	<s id="2">Mais je ne me bats pas, moi !</s>
@@ -3443,7 +3442,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="2">Plutôt mourir !!!</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, froidement.</speaker>
+<sp stage="cold" who="LAMBERT"><speaker>LAMBERT, froidement.</speaker>
 <p id="66">
 	<s id="1">Soit, monsieur... mais vous trouverez bon que je reprenne un nom que vous ne savez pas porter.</s>
 </p>
@@ -3464,7 +3463,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </p>
 <stage type="entrance">Il entre dans la chambre à gauche.</stage>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, seul.</speaker>
+<sp stage="alone" who="FOURCHEVIF"><speaker>FOURCHEVIF, seul.</speaker>
 <p id="70">
 	<s id="1">S'il croit que j'ai envie de me faire embrocher pour ces merlettes !</s>
 </p>
@@ -3562,7 +3561,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="3">Il a de bon petit vin, le baron !</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
+<sp stage="aparte" who="FOURCHEVIF"><speaker>FOURCHEVIF, à part.</speaker>
 <p id="2">
 	<s id="">Tiens ! </s>
 	<s id="2">C'est mon intendant!... </s>
@@ -3581,7 +3580,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Je lui payerai ses huit jours.</s>
 </p>
 </sp>
-<sp who="ROUQUÉROLLE"><speaker>ROUQUÉROLLE, à part.</speaker>
+<sp stage="aparte" who="ROUQUÉROLLE"><speaker>ROUQUÉROLLE, à part.</speaker>
 <p id="5">
 	<s id="1">C'est drôle ! </s>
 	<s id="2">Je suis étourdi. </s>
@@ -3702,7 +3701,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="19"><head>SCÈNE XIX. Adèle, Fourchevif, La Baronne.</head>
-<sp who="FOURCHEVIF"><speaker>FOURCHEVIF, bas à sa femme.</speaker>
+<sp stage="low/toward" who="FOURCHEVIF"><speaker>FOURCHEVIF, bas à sa femme.</speaker>
 <p id="1">
 	<s id="1">Commence... </s>
 	<s id="2">Je te soutiendrai.</s>
@@ -3809,13 +3808,13 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Mais Monsieur Jules non plus ?</s>
 </p>
 </sp>
-<sp who="ADÈLE"><speaker>ADÈLE, naïvement.</speaker>
+<sp stage="naive" who="ADÈLE"><speaker>ADÈLE, naïvement.</speaker>
 <p id="20">
 	<s id="1">Ah ! </s>
 	<s id="2">Si, papa !</s>
 </p>
 </sp>
-<sp who="FOURCHEVIF, LA BARONNE"><speaker>FOURCHEVIF et LA BARONNE, se levant.</speaker>
+<sp stage="stand/together" who="FOURCHEVIF, LA BARONNE"><speaker>FOURCHEVIF et LA BARONNE, se levant.</speaker>
 <p id="21">
 	<s id="1">Comment !</s>
 </p>
@@ -3900,7 +3899,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">N'avoir qu'une fille...</s>
 </p>
 </sp>
-<sp who="LA BARONNE"><speaker>LA BARONNE, de même.</speaker>
+<sp stage="cry" who="LA BARONNE"><speaker>LA BARONNE, de même.</speaker>
 <p id="36">
 	<s id="1">Qu'on adore !...</s>
 </p>
@@ -4010,7 +4009,7 @@ Adèle, par le fond, avec le panier de pêchés.</stage>
 	<s id="1">Non, c'est moi.</s>
 </p>
 </sp>
-<sp who="LAMBERT"><speaker>LAMBERT, passant devant Fourchevif.</speaker>
+<sp stage="location" who="LAMBERT"><speaker>LAMBERT, passant devant Fourchevif.</speaker>
 <p id="12">
 	<s id="1">Vous êtes charmante, Mademoiselle... </s>
 	<s id="2">Mais rassurez-vous, je ne songe pas à me marier.</s>

@@ -49,7 +49,7 @@
 <div1 type="act" n="1"><head>L'ENRAGÉ</head>
 <div2 type="scene" n="1"><head>SCENE PREMIÈRE. Le COMTE, Madame Thomas.</head>
 <stage type="decor">La scène représente une chambre d'auberge de campagne.</stage>
-<sp who="MADAME THOMAS"><speaker>MADAME THOMAS, entrant la première, et fermant la fenêtre.</speaker>
+<sp stage="entrance/close" who="MADAME THOMAS"><speaker>MADAME THOMAS, entrant la première, et fermant la fenêtre.</speaker>
 <p id="1">
 	<s id="1">Monsieur_le_Comte, voilà votre chambre.</s>
 </p>
@@ -456,7 +456,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Le Comte, Madame Thomas.</head>
-<sp who="MADAME THOMAS"><speaker>MADAME THOMAS, mettant le couvert.</speaker>
+<sp stage="work" who="MADAME THOMAS"><speaker>MADAME THOMAS, mettant le couvert.</speaker>
 <p id="1">
 	<s id="1">Le couvert sera bientôt mis ; c'est toujours une avance.</s>
 </p>
@@ -821,7 +821,7 @@
 	<s id="2">Ils s'arrangent tous les deux et déploient leurs serviettes.</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS"><speaker>MADAME THOMAS, apportant le gigot.</speaker>
+<sp stage="carry" who="MADAME THOMAS"><speaker>MADAME THOMAS, apportant le gigot.</speaker>
 <note type="C">* On fait un gigot avec un morceau de pain, dans lequel on enfonce une fourchette pour faire le manche, que l'on entoure de papier.</note>
 <p id="6">
 	<s id="1">Tenez, Messieurs, voilà un gigot qui a la meilleure mine du monde.</s>
@@ -997,7 +997,7 @@
 	<s id="1">C'est que... vous...</s>
 </p>
 </sp>
-<sp who="LE COMTE" stage="face"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="39">
 	<s id="1">Quoi ?</s>
 </p>
@@ -1007,7 +1007,7 @@
 	<s id="1">Je ne sais pas ce que cela veut dire.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="41">
 	<s id="1">Ce mouvement là que je fais ?</s>
 </p>
@@ -1017,7 +1017,7 @@
 	<s id="1">Oui, mon Général.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="43">
 	<s id="1">Je vous le dirai si vous voulez, ce n'est rien.</s>
 </p>
@@ -1027,7 +1027,7 @@
 	<s id="1">Vous ne faisiez pas de même avant le souper.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="45">
 	<s id="1">Non, cela vient de me prendre tout à l'heure. </s>
 	<s id="2">Depuis quinze jours je suis comme cela souvent. </s>
@@ -1040,14 +1040,14 @@
 	<s id="1">Et peut-on savoir d'où cela vient ?</s>
 </p>
 </sp>
-<sp who="LE COMTE" stage="face"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="47">
 	<s id="1">Je vous le dirai si vous voulez. </s>
 	<s id="2">Il y a environ un mois que je fus mordu par un petit chien.</s>
 </p>
 <stage type="face">Il fait la grimace.</stage>
 </sp>
-<sp who="LE CHEVALIER"><speaker>LE CHEVALIER, avec inquiétude.</speaker>
+<sp stage="anxious" who="LE CHEVALIER"><speaker>LE CHEVALIER, avec inquiétude.</speaker>
 <p id="48">
 	<s id="1">Par un chien ?</s>
 </p>
@@ -1064,7 +1064,7 @@
 	<s id="1">Je n'ai plus faim.</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER" stage="face"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="face" who="LE CHEVALIER"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="51">
 	<s id="1">Quand je fais ce mouvement là, je crois toujours le voir ce chien comme s'il allait se jeter sur moi.</s>
 </p>
@@ -1073,17 +1073,17 @@
 	<s id="1">Mais ce n'est rien.</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER" stage="stand/gat/watch"><speaker>LE CHEVALIER, se lève et prend son assiette en regardant attentivement le Comte.</speaker>
+<sp stage="stand/gat/watch" who="LE CHEVALIER"><speaker>LE CHEVALIER, se lève et prend son assiette en regardant attentivement le Comte.</speaker>
 <p id="53">
 	<s id="1">...</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
+<sp stage="stand/gat/watch" who="LE COMTE"><speaker>LE COMTE, faisant la grimace.</speaker>
 <p id="54">
 	<s id="1">Où allez-vous ?</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER" stage="away"><speaker>LE CHEVALIER, s'en allant.</speaker>
+<sp stage="away" who="LE CHEVALIER"><speaker>LE CHEVALIER, s'en allant.</speaker>
 <p id="55">
 	<s id="1">Je m'en vais revenir.</s>
 </p>
@@ -1095,7 +1095,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp who="LE COMTE" stage="eat"><speaker>LE COMTE, mangeant.</speaker>
+<sp stage="eat" who="LE COMTE"><speaker>LE COMTE, mangeant.</speaker>
 <p id="1">
 	<s id="1">Si je n'avais pas pris ce parti là, je me serais couché sans souper.</s>
 </p>
@@ -1114,7 +1114,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX. Le Comte, Madame Thomas.</head>
-<sp who="MADAME THOMAS" stage="hide"><speaker>MADAME THOMAS, sans paraître.</speaker>
+<sp  stage="hide" who="MADAME THOMAS"><speaker>MADAME THOMAS, sans paraître.</speaker>
 <p id="1">
 	<s id="1">Monsieur, laissez-moi faire, je m'en vais lui parler.</s>
 </p>
@@ -1124,7 +1124,7 @@
 	<s id="1">Hé bien, venez donc.</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS" stage="location"><speaker>MADAME THOMAS à la porte, tenant la clef.</speaker>
+<sp stage="location/open" who="MADAME THOMAS"><speaker>MADAME THOMAS à la porte, tenant la clef.</speaker>
 <p id="3">
 	<s id="1">Comment , Monsieur...</s>
 </p>
@@ -1134,7 +1134,7 @@
 	<s id="1">Qu'est-ce que vous avez donc ? Entrez, entrez.</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS" stage="location"><speaker>MADAME THOMAS, à la porte.</speaker>
+<sp stage="location" who="MADAME THOMAS"><speaker>MADAME THOMAS, à la porte.</speaker>
 <p id="5">
 	<s id="1">C'est Monsieur le Chevalier, qui dit comme cela, que c'est fort mal fait à moi de le faire souper avec un enragé.</s>
 </p>
@@ -1144,7 +1144,7 @@
 	<s id="1">Il le croit réellement ?</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS" stage="location"><speaker>MADAME THOMAS, à la porte.</speaker>
+<sp stage="location" who="MADAME THOMAS"><speaker>MADAME THOMAS, à la porte.</speaker>
 <p id="7">
 	<s id="1">Comment s'il le croit, oui, Monsieur, il le croit, et c'est fort mal fait à vous de venir comme cela, décrier mon auberge.</s>
 </p>
@@ -1154,7 +1154,7 @@
 	<s id="1">Mais je ne suis pas enragé.</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS" stage="location"><speaker>MADAME THOMAS, à la porte.</speaker>
+<sp stage="location" who="MADAME THOMAS"><speaker>MADAME THOMAS, à la porte.</speaker>
 <p id="9">
 	<s id="1">Pourquoi donc est-ce qu'il le dit ?</s>
 </p>
@@ -1185,7 +1185,7 @@
 	<s id="1">Faites-le venir.</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS"><speaker>MADAME THOMAS, criant.</speaker>
+<sp stage="shout" who="MADAME THOMAS"><speaker>MADAME THOMAS, criant.</speaker>
 <p id="15">
 	<s id="1">Monsieur le Chevalier, venez, venez.</s>
 </p>
@@ -1212,7 +1212,7 @@
 	<s id="1">Je vous dis que non.</s>
 </p>
 </sp>
-<sp who="LE CHEVALIER" stage="closer"><speaker>LE CHEVALIER, avançant.</speaker>
+<sp stage="closer" who="LE CHEVALIER"><speaker>LE CHEVALIER, avançant.</speaker>
 <p id="4">
 	<s id="1">J'ai crû que vous alliez le devenir.</s>
 </p>
@@ -1253,7 +1253,7 @@
 	<s id="1">Ma foi, j'en ai été la dupe tout-à-fait.</s>
 </p>
 </sp>
-<sp who="LE COMTE"><speaker>LE COMTE, se levant.</speaker>
+<sp stage="stand" who="LE COMTE"><speaker>LE COMTE, se levant.</speaker>
 <p id="12">
 	<s id="1">Voulez-vous que nous allions voir nos chevaux ?</s>
 </p>

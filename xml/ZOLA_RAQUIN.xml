@@ -448,7 +448,7 @@
 	<s id="1">Si, tu peux te lever.</s>
 </p>
 </sp> 
-<sp who="CAMILLE"><speaker>CAMILLE, se levant et venant regarder le portrait.</speaker> 
+<sp stage="stand/closer/watch" who="CAMILLE"><speaker>CAMILLE, se levant et venant regarder le portrait.</speaker> 
 <p id="31"> 
 	<s id="1">Fini, tout à fait fini ?</s>
 </p>
@@ -490,7 +490,7 @@
 	<s id="4">Tu ne trouves pas, Thérèse ?</s>
 </p>
 </sp> 
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, sans s'approcher.</speaker> 
+<sp stage="wait" who="THÉRÈSE"><speaker>THÉRÈSE, sans s'approcher.</speaker> 
 <p id="4"> 
 	<s id="1">Si.</s>
 </p> 
@@ -832,7 +832,7 @@
 	<s id="1">Où est mon chapeau ? </s>
 </p>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, se levant tranquillement.</speaker>
+<sp stage="stand/quiet" who="THÉRÈSE"><speaker>THÉRÈSE, se levant tranquillement.</speaker>
 <p id="23">
 	<s id="1">Bah ! </s>
 	<s id="2">tu crois qu'elle va monter ? </s>
@@ -871,7 +871,7 @@
 	<s id="6">Tu es lâche, vois-tu. </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, la prenant entre ses bras.</speaker>
+<sp stage="hugh" who="LAURENT"><speaker>LAURENT, la prenant entre ses bras.</speaker>
 <p id="28"> 
 	<s id="1">Non, nous pouvons nous faire une existence tranquille. </s>
 	<s id="2">Il ne s'agit que de chercher, que d'attendre les circonstances... </s>
@@ -1139,7 +1139,7 @@
 	<s id="7">Est-ce convenu ? </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, sur le devant de la scène, fixant la toile dans  le cadre.</speaker>
+<sp stage="location/watch" who="LAURENT"><speaker>LAURENT, sur le devant de la scène, fixant la toile dans le cadre.</speaker>
 <p id="10">
 	<s id="1">Oui... </s>
 	<s id="2">Mais on pourrait compléter le programme.</s>
@@ -1663,7 +1663,7 @@
 	<s id="11">Si je traversais un bois avec Monsieur Michaud, je le prierais de se taire. </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, à Michaud.</speaker>
+<sp stage="toward" who="LAURENT"><speaker>LAURENT, à Michaud.</speaker>
 <p id="20">
 	<s id="1">Vous pensez donc que beaucoup de crimes restent impunis ?</s>
 </p>
@@ -1807,7 +1807,7 @@
 </p>
 <stage type="stand">Il descend.</stage>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, se levant en grommelant.</speaker>
+<sp stage="stand/low" who="GRIVET"><speaker>GRIVET, se levant en grommelant.</speaker>
 <p id="44"> 
 	<s id="1">Il appelle ça causer d'autre chose, aller chercher des chaises.</s>
 </p>
@@ -1827,12 +1827,12 @@
 </p>
 <stage type="down">Ils descendent tous les deux.</stage>
 </sp>
-<sp stage="get/low" who="LAURENT"><speaker>LAURENT, prenant brusquement les mains de Thérèse, baissant la voix.</speaker>
+<sp stage="touch/low" who="LAURENT"><speaker>LAURENT, prenant brusquement les mains de Thérèse, baissant la voix.</speaker>
 <p id="47">
 	<s id="1">Tu jures de m'obéir ?</s>
 </p>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, de même.</speaker>
+<sp stage="touch/low" who="THÉRÈSE"><speaker>THÉRÈSE, de même.</speaker>
 <p id="48">
 	<s id="1">Oui, je t'appartiens, fais de moi ce qu'il te plaira. </s>
 </p>
@@ -1898,7 +1898,7 @@
 	<s id="2">Donne la boîte de dominos, maman. </s>
 </p>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, avec béatitude.</speaker>
+<sp stage="happy" who="GRIVET"><speaker>GRIVET, avec béatitude.</speaker>
 <p id="3">
 	<s id="1">C'est un plaisir... </s>
 	<s id="2">Le jeudi, quand je m'éveille, je me dis : « Tiens ! </s>
@@ -1907,7 +1907,7 @@
 	<s id="5">Vous ne sauriez croire... </s>
 </p>
 </sp>
-<sp who="SUZANNE"><speaker>SUZANNE, l'interrompant.</speaker>
+<sp stage="interrupt" who="SUZANNE"><speaker>SUZANNE, l'interrompant.</speaker>
 <p id="4">
 	<s id="1">Voulez-vous que je vous sucre, Monsieur Grivet ?</s>
 </p>
@@ -1928,7 +1928,7 @@
 	<s id="1">Est-ce que tu ne viens pas, Thérèse? </s>
 </p>
 </sp>
-<sp who="MADAME RAQUIN"><speaker>MADAME RAQUIN, lui donnant la boîte de dominos.</speaker>
+<sp stage="give" who="MADAME RAQUIN"><speaker>MADAME RAQUIN, lui donnant la boîte de dominos.</speaker>
 <p id="8">
 	<s id="1">Laisse-la. </s>
 	<s id="2">Tu sais qu'elle est souffrante... </s>
@@ -2121,7 +2121,7 @@
 </p>
 <stage type="cry">Elle pleure. </stage>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, repoussant son jeu.</speaker>
+<sp stage="push" who="GRIVET"><speaker>GRIVET, repoussant son jeu.</speaker>
 <p id="17">
 	<s id="1">Alors, il vaut mieux ne pas jouer. </s>
 	<s id="2">C'est malheureux que ça vous fasse cet effet-là... </s>
@@ -2365,7 +2365,7 @@
 </p>
 <stage type="drop">Il pose un domino.</stage>
 </sp>
-<sp who="SUZANNE"><speaker>SUZANNE, qui s'est approchée de Thérèse.</speaker>
+<sp stage="closer" who="SUZANNE"><speaker>SUZANNE, qui s'est approchée de Thérèse.</speaker>
 <p id="55">
 	<s id="1">Bonne amie, voulez-vous que je vous parle du prince bleu ?</s>
 </p>
@@ -2390,7 +2390,7 @@
 </p>
 <stage type="stand/watch">Suzanne se lève à demi et regarde les joueurs.</stage>
 </sp>
-<sp who="MICHAUD"><speaker>MICHAUD, avec colère, à Grivet.</speaker>
+<sp stage="anger/toward" who="MICHAUD"><speaker>MICHAUD, avec colère, à Grivet.</speaker>
 <p id="59">
 	<s id="1">Mais vous avez boudé au cinq, tout à l'heure, et maintenant vous mettez cinq partout.</s>
 </p>
@@ -2859,7 +2859,7 @@
 </p>
 <stage type="cry">Elle pleure.</stage>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, timidement.</speaker>
+<sp stage="shy" who="GRIVET"><speaker>GRIVET, timidement.</speaker>
 <p id="11">
 	<s id="1">Alors, on ne joue plus ?</s>
 </p>
@@ -2930,7 +2930,7 @@
 	<s id="1">Oui. </s>
 </p>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, se levant.</speaker>
+<sp stage="stand" who="GRIVET"><speaker>GRIVET, se levant.</speaker>
 <p id="22">
 	<s id="1">Bien, nous vous laissons... </s>
 </p>
@@ -3313,7 +3313,7 @@
 	<s id="1">Oui. </s>
 </p>
 </sp>
-<sp who="MADAME RAQUIN"><speaker>MADAME RAQUIN, très émue.</speaker>
+<sp stage="moved" who="MADAME RAQUIN"><speaker>MADAME RAQUIN, très émue.</speaker>
 <p id="32">
 	<s id="1">Merci, ma fille, tu me rends bien heureuse. </s>
 </p>
@@ -3467,7 +3467,7 @@
 </p>
 <stage type="closer">Il s'approche sournoisement du lit.</stage>
 </sp>
-<sp who="MADAME RAQUIN"><speaker>MADAME RAQUIN, avec un sourire.</speaker>
+<sp stage="smile" who="MADAME RAQUIN"><speaker>MADAME RAQUIN, avec un sourire.</speaker>
 <p id="5">
 	<s id="1">Allons, Messieurs, vous ne pouvez assister à la toilette de la mariée.</s>
 </p>
@@ -3512,7 +3512,7 @@
 	<s id="1">Vous avez fourré les orties dedans ? </s>
 </p>
 </sp>
-<sp who="GRIVET"><speaker>GRIVET, de même.</speaker>
+<sp stage="low" who="GRIVET"><speaker>GRIVET, de même.</speaker>
 <p id="13">
 	<s id="1">Juste au beau milieu. </s>
 </p>
@@ -3719,7 +3719,7 @@
 </p>
 <stage type="exit/carry">Elle sort par le fond en emportant la robe.</stage>
 </sp>
-<sp who="SUZANNE"><speaker>SUZANNE, après avoir fait asseoir Thérèse devant le feu.</speaker>
+<sp stage="sit/location" who="SUZANNE"><speaker>SUZANNE, après avoir fait asseoir Thérèse devant le feu.</speaker>
 <p id="22">
 	<s id="1">Vous voilà déjà toute rouge. </s>
 	<s id="2">Vous étiez tantôt pâle comme une morte.</s>
@@ -3806,7 +3806,7 @@
 </p>
 <stage type="show">Elle présente le peignoir au feu.</stage>
 </sp>
-<sp who="SUZANNE"><speaker>SUZANNE, reprenant.</speaker>
+<sp stage="continue" who="SUZANNE"><speaker>SUZANNE, reprenant.</speaker>
 <p id="36">
 	<s id="1">Et quand le prince bleu attendrait, comme attend monsieur Laurent, je mettrais quelque malice à le laisser s'impatienter. </s>
 	<s id="2">Puis, lorsqu'il serait à la porte, oh! </s>
@@ -3964,7 +3964,7 @@
 	<s id="1">Non, attends, j'ai froid. </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, après un silence.</speaker>
+<sp stage="silence" who="LAURENT"><speaker>LAURENT, après un silence.</speaker>
 <p id="3">
 	<s id="1">Enfin, nous voilà seuls, ma Thérèse, loin des autres, libres de nous aimer... </s>
 	<s id="2">La vie est à nous, cette chambre est à nous, et tu es à moi, chère femme, parce que je t'ai conquise, et que tu as bien voulu te donner. </s>
@@ -4008,7 +4008,7 @@
 	<s id="6">C'est notre nuit de noces, personne ne viendra. </s>
 </p>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, avec épouvante.</speaker>
+<sp stage="terror" who="THÉRÈSE"><speaker>THÉRÈSE, avec épouvante.</speaker>
 <p id="9">
 	<s id="1">Ne dis pas cela, ne dis pas cela... </s>
 	<s id="2">Tu es plus pâle que moi, Laurent et ta langue balbutie à dire ces choses. </s>
@@ -4499,7 +4499,7 @@
 	<s id="2">La paralysie monte et la prend à la gorge. </s>
 </p>
 </sp>
-<sp who="MADAME RAQUIN"><speaker>MADAME RAQUIN, s'avançant de nouveau, faisant un effort suprême.</speaker>
+<sp stage="closer/stress" who="MADAME RAQUIN"><speaker>MADAME RAQUIN, s'avançant de nouveau, faisant un effort suprême.</speaker>
 <p id="5">
 	<s id="1">Mon pauvre enfant... </s>
 	<s id="2">Les misérables, les misérables !</s>
@@ -4618,7 +4618,7 @@
 	<s id="3">Quand tu seras mariée, tu le feras encadrer, ce bienheureux plan !</s>
 </p>
 </sp> 
-<sp who="SUZANNE"><speaker>SUZANNE, se levant et venant à droite, en passant derrière Thérèse.</speaker> 
+<sp stage="stand/location" who="SUZANNE"><speaker>SUZANNE, se levant et venant à droite, en passant derrière Thérèse.</speaker> 
 <p id="13"> 
 	<s id="1">Mais, puisque je vous dis qu'il ne m'a servi à rien !... </s>
 	<s id="2">Vous ne m'écoutez donc pas ?... </s>
@@ -5174,7 +5174,7 @@
 </p>
 <stage type="stand/follow">Il se lève et suit Michaud.</stage>
 </sp>
-<sp who="SUZANNE"><speaker>SUZANNE, qui est restée près de Madame Raquin.</speaker>
+<sp stage="stay/location" who="SUZANNE"><speaker>SUZANNE, qui est restée près de Madame Raquin.</speaker>
 <p id="32">
 	<s id="1">Ah ! </s>
 	<s id="2">Voyez donc ! </s>
@@ -5604,7 +5604,7 @@
 	<s id="2">Tu as tué Camille ! </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, se levant et se rasseyant.</speaker>
+<sp stage="stand/sit" who="LAURENT"><speaker>LAURENT, se levant et se rasseyant.</speaker>
 <p id="31">
 	<s id="1">Tais-toi !...</s>
 </p>
@@ -5808,7 +5808,7 @@
 </p>
 <stage type="location/claoser">Elle passe entre la cheminée et Laurent et vient se placer en face de lui, les poings appuyés à la table à ouvrage.</stage> 
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, à voix plus basse.</speaker>
+<sp stage="low" who="LAURENT"><speaker>LAURENT, à voix plus basse.</speaker>
 <p id="62">
 	<s id="1">Je ne puis pas...</s>
 </p>
@@ -5937,7 +5937,7 @@
 	<s id="1">C'est le châtiment. </s>
 </p>
 </sp>
-<sp who="LAURENT"><speaker>LAURENT, avec éclat.</speaker>
+<sp stage="show" who="LAURENT"><speaker>LAURENT, avec éclat.</speaker>
 <p id="80">
 	<s id="1">Va-t'en, femme, tu me rends fou... </s>
 	<s id="2">Va-t'en, ou je te... </s>

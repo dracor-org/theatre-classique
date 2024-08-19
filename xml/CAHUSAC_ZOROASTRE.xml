@@ -41,7 +41,7 @@
 			</approbation>
 			<editor type="DELORMEL">AUX DÉPENS de l'Académie. À PARIS, chez la V. DELORMEL et FILS, Imprimeur de ladite Académie, rue du Foin, à l'Image Sainte-Geneviève. On trouvera des livres des Paroles à la Salle de l'Opéra.</editor>
 		</docImprint>
-	<div type="">
+	<div type="explicit">
 		<p>Les paroles de Monsieur de CAHUSAC de l'Académie Royale des Sciences et Belles Lettres de Prusse.</p>
 		<p>La Musique de Monsieur RAMEAU.</p>
 	</div>
@@ -75,7 +75,7 @@
 		<head>LES PERSONNAGES, les interprètes.</head>
 		<castItem><role id="ZOROASTRE" sex="1" type="H" statut="magicien" age="A" stat_amour='néant'>ZOROASTRE</role>, Instituteur des Mages. Mr Poirier.</castItem> 
 		<castItem><role id="AMÉLITE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>AMÉLITE</role>, héritière présomptive du trône de la Bactiane Mlle l'Arrivée, Mzlle Fel.</castItem>
-		<castItem><role id="ERINICE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>ERINICE</role>, Princesse du sang des Rois de la Bactiane. Melle Chavalier.</castItem>
+		<castItem><role id="ERINICE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>ERINICE</role>, Princesse du sang des Rois de la Bactiane. Melle Chevalier.</castItem>
 		<castItem><role id="ABRAMANE" sex="1" type="H" statut="prêtre" age="A" stat_amour='néant'>ABRAMANE</role>, Grand Prêtre d'Ariman. Mr duChassé.</castItem>
 		<castItem><role id="CÉPHIE" sex="2" type="H" statut="aristocrate" age="A" stat_amour='néant'>CÉPHIE</role>, jeune Bactrienne de la Cour d'Amélite. Melle Davaux.</castItem>
 		<castItem><role id="ZOPIRE" sex="1" type="H" statut="prêtre" age="A" stat_amour='néant'>ZOPIRE</role>, Prêtre d'Ariman. Mr Person.</castItem>
@@ -235,7 +235,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Amélite, Céphie, Zélise, Jeunes Bactriens et Bactriennes.</head>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR, sur lequel on danse autour d'Amélite.</speaker>
+<sp stage="dance" who="LE CHOEUR"><speaker>LE CHOEUR, sur lequel on danse autour d'Amélite.</speaker>
 	<l id="86">Rassurez-vous, tendre Amélite,</l>
 	<l id="87">Voyez ces jeux, écoutez-nous ;</l>
 	<l id="88">Que le trouble qui vous agite</l>
@@ -291,7 +291,7 @@
 	<l id="123">Ne peut me ravir mon amant.</l>
 <stage type="danse/noise/light">Le ballet continue, il est interrompu par un bruit semblable à celui qui précède les tremblements de terre, le ciel s'obscurcit etc.</stage>
 </sp>
-<sp who="AMÉLITE, CÉPHIE, CHOEUR"><speaker>AMÉLITE, CÉPHIE, CHOEUR.</speaker>
+<sp stage="together" who="AMÉLITE, CÉPHIE, CHOEUR"><speaker>AMÉLITE, CÉPHIE, CHOEUR.</speaker>
 	<l id="124">Les rayons du soleil palissent.</l>
 	<l id="125">La terre tremble : le jour fuit.</l>
 	<l id="126">Au bruit dont les éclairs retentissent,</l>
@@ -337,7 +337,7 @@
 	<l id="144">Dieux, protecteurs de l'innocence,</l>
 	<l id="145">Dieux justes, prenez ma défense !</l>
 </sp>
-<sp who="LE CHOEUR DES ESPRITS CRUELS"><speaker>LE CHOEUR DES ESPRITS CRUELS, qui saisissent et entraînent Amélite.</speaker>
+<sp stage="pull" who="LE CHOEUR DES ESPRITS CRUELS"><speaker>LE CHOEUR DES ESPRITS CRUELS, qui saisissent et entraînent Amélite.</speaker>
 	<l id="146">Tremble, tremble, suis nos pas :</l>
 	<l id="147">En vain l'innocence crie,</l>
 	<l id="148">L'enfer ne l'écoute pas.</l>
@@ -422,7 +422,7 @@
 	<l id="196">Mon âme vole dans les cieux.</l>
 <stage type="fall/location/lmagique">Il tombe sur un lit de fleurs, et les Esprits des éléments forment un enchantement autour de zOROASTRE.</stage>
 </sp>
-<sp who="OROMASÈS, CHOEUR"><speaker>OROMASÈS, CHOEUR.</speaker>
+<sp stage="togather" who="OROMASÈS, CHOEUR"><speaker>OROMASÈS, CHOEUR.</speaker>
 	<l id="197">Zoroastre, vole à la gloire ;</l>
 	<l id="198">Triomphe, éclaire l'univers.</l>
 	<l id="199">Sur tes pas conduis la victoire ;</l>
@@ -471,7 +471,7 @@
 	<l id="220">Juste ciel, quelle barbarie !</l>
 	<l id="221">Suivrez-vous sans-cesse mes pas ?</l>
 </sp>
-<sp who="ERINICE"><speaker>ERINICE, en paraissant.</speaker>
+<sp stage="entrance" who="ERINICE"><speaker>ERINICE, en paraissant.</speaker>
 	<l id="222">Arrête. Cet instant est le seul qui te reste.</l>
 	<l id="223">Renonce au trône, ou meurs.</l>
 </sp>
@@ -581,14 +581,14 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Amélite, Zoroastre, Peuples.</head>
-<sp who="ZOROASTRE"><speaker>ZOROASTRE, aux Peuples.</speaker>
+<sp stage="toward" who="ZOROASTRE"><speaker>ZOROASTRE, aux Peuples.</speaker>
 	<l id="286">Le ciel, qu'ont attendri mes pleurs et votre zèle,</l>
 	<l id="287">Vous rend le seul objet digne de votre choix.</l>
 <stage type="show">En leur montrant Amélite.</stage>
 	<l id="288">Le coup allait partir, et vous perdiez en elle</l>
 	<l id="289">Tout l'auguste sang de vos rois.</l>
 </sp>
-<sp who="CÉPHIE, CHOEUR"><speaker>CÉPHIE, CHOEUR.</speaker>
+<sp stage="together" who="CÉPHIE, CHOEUR"><speaker>CÉPHIE, CHOEUR.</speaker>
 	<l id="290">Éclatez transports d'allégresse</l>
 	<l id="291">Brillez dans nos chants et nos jeux.</l>
 	<l id="292">Célébrons le moment heureux</l>
@@ -622,7 +622,7 @@
 	<l id="314">Fait souvent briller les éclaire.</l>
 <stage type="danse">Le ballet continue.</stage>
 </sp>
-<sp who="ZOROASTRE"><speaker>ZOROASTRE, aux peuples.</speaker>
+<sp stage="toward" who="ZOROASTRE"><speaker>ZOROASTRE, aux peuples.</speaker>
 	<l id="315">Cessez de redouter des prêtres criminels.</l>
 	<l id="316">Renoncez à des dieux cruels,</l>
 	<l id="317">Qui frappent quand on les implore.</l>
@@ -631,7 +631,7 @@
 	<l id="320">Que l'amour seul offre nos voeux,</l>
 	<l id="321">Au Dieu bien faisant que j'adore.</l>
 </sp>
-<sp who="AMÉLITE, CÉPHIE, CHOEUR"><speaker>AMÉLITE, CÉPHIE, CHOEUR.</speaker>
+<sp stage="together" who="AMÉLITE, CÉPHIE, CHOEUR"><speaker>AMÉLITE, CÉPHIE, CHOEUR.</speaker>
 	<l id="322">Qu'il triomphe des autres Dieux.</l>
 </sp>
 <sp who="AMÉLITE"><speaker>AMÉLITE.</speaker>
@@ -647,7 +647,7 @@
 	<l id="328">Chantez, chantez ; vos malheurs cessent :</l>
 	<l id="329">Que les plus doux plaisirs renaissent.</l>
 </sp>
-<sp who="CÉPHIE, CHOEUR"><speaker>CÉPHIE, CHOEUR.</speaker>
+<sp stage="together" who="CÉPHIE, CHOEUR"><speaker>CÉPHIE, CHOEUR.</speaker>
 	<l id="330">Chantons, chantons, nos malheurs cessent,</l>
 	<l id="331">Que les plus doux plaisirs renaissent :</l>
 	<l id="332">Que Zoroastre soit heureux.</l>
@@ -812,7 +812,7 @@
 	<l id="428">Les fleurs, les fruits, la verdure</l>
 	<l id="429">Semblent renaître à ton retour.</l>
 </sp>
-<sp who="AMÉLITE, ZOROASTRE"><speaker>ZOROASTRE, AMÉLITE.</speaker>
+<sp stage="together" who="AMÉLITE, ZOROASTRE"><speaker>ZOROASTRE, AMÉLITE.</speaker>
 	<l id="430">Tout se ranime aux premiers feux du jour.</l>
 	<l id="431">L'oiseau chante, l'onde murmure;</l>
 	<l id="432">Ce sont les doux concerts que t'offre la nature.</l>
@@ -916,7 +916,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII. Zoroastre, Amélite, Peuples Bactriens qu'on entend, et qu'on ne voit pas.</head>
-<sp who="ZOROASTRE"><speaker>ZOROASTRE, en courant aux piéds d'Amélite.</speaker>
+<sp stage="run/kneel" who="ZOROASTRE"><speaker>ZOROASTRE, en courant aux piéds d'Amélite.</speaker>
 	<l id="477" syll="8" part="i">Amélite !... Elle expire... Ô ciel !...</l>
 </sp>
 <sp stage="location" who="LE CHOEUR"><speaker>LE CHOEUR, dans l'éloignement.</speaker>
@@ -1066,7 +1066,7 @@
 	<l id="566">Éclate ; venge-toi : ce n'est qu'à la terreur</l>
 	<l id="567">Que tu dois l'encens de la terre.</l>
 </sp>
-<sp who="ZOPIRE, LES CHOEURS"><speaker>ZOPIRE, et LES CHOEURS.</speaker>
+<sp stage="together" who="ZOPIRE, LES CHOEURS"><speaker>ZOPIRE, et LES CHOEURS.</speaker>
 	<l id="568">On attaque ta gloire: on arme ton bras vengeur ;</l>
 	<l id="569">Fais briller dans les airs les flammes du tonnerre ;</l>
 	<l id="570">Éclate ; venge-toi : ce n'est qu'à la terreur</l>
@@ -1115,7 +1115,7 @@
 <stage type="title">BALLET.</stage>
 <stage type="give">La Haine donne à la Vengeance une poignée de serpents ; le Désespoir lui donne un poignard ensanglanté.</stage>
 </sp>
-<sp who="LA VENGEANCE"><speaker>LA VENGEANCE, à Erinice.</speaker>
+<sp stage="toxard" who="LA VENGEANCE"><speaker>LA VENGEANCE, à Erinice.</speaker>
 	<l id="599">Vengez-vous, cessez de souffrir.</l>
 	<l id="600">Plus une injure est éclatante,</l>
 	<l id="601">Plus il est doux de la punir.</l>
@@ -1152,7 +1152,7 @@
 	<l id="625">L'honneur parle : combats.</l>
 	<l id="626">Meurs, s'il le faut ; mais venge ton outrage.</l>
 </sp>
-<sp who="ABRAMANE"><speaker>ABRAMANE, à la Vengeance.</speaker>
+<sp stage="toward" who="ABRAMANE"><speaker>ABRAMANE, à la Vengeance.</speaker>
 	<l id="627">Que le vengeance a de douceurs !</l>
 	<l id="628">Un plaisir inconnu passe, avec tes fureurs,</l>
 	<l id="629">Jusques dans le fond de mon âme.</l>
@@ -1176,7 +1176,7 @@
 <sp who="ABRAMANE"><speaker>ABRAMANE.</speaker>
 	<l id="638">Ah ! Quel espoir plus doux.</l>
 </sp>
-<sp who="ABRAMANE, ERINICE, ZOPIRE, LES FURIES, LE CHOEUR"><speaker>ABRAMANE, ERINICE, ZOPIRE, LES FURIES, LE CHOEUR.</speaker>
+<sp stage="together" who="ABRAMANE, ERINICE, ZOPIRE, LES FURIES, LE CHOEUR"><speaker>ABRAMANE, ERINICE, ZOPIRE, LES FURIES, LE CHOEUR.</speaker>
 	<l id="639">Quel bonheur ! L'enfer nous seconde.</l>
 	<l id="640">Que ses feux embrasent les airs :</l>
 	<l id="641">Qu'ils dévorent la terre et l'onde :</l>
@@ -1200,13 +1200,13 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII. Abramane, Erinice, et les  Acteurs précédents.</head>
-<sp who="TOUS"><speaker>ERINICE, LA VENGEANCE, ABRAMANE, ZOPIRE, NARBANOR, LES FURIES, PRÊTRES, DÉMONS.</speaker>
+<sp stage="together" who="TOUS"><speaker>ERINICE, LA VENGEANCE, ABRAMANE, ZOPIRE, NARBANOR, LES FURIES, PRÊTRES, DÉMONS.</speaker>
 	<l id="652">Courrez, courrez aux armes.</l>
 	<l id="653">Courrons courrons aux armes.</l>
 	<l id="654">La victoire est à vous rien ne peut vous troubler.</l>
 	<l id="655">La victoire est à nous rien ne peut nous troubler.</l>
 </sp>
-<sp who="LA VENGEANCE, LE CHOEUR"><speaker>LA VENGEANCE, avec le Choeur.</speaker>
+<sp stage="together" who="LA VENGEANCE, LE CHOEUR"><speaker>LA VENGEANCE, avec le Choeur.</speaker>
 	<l id="656">Pour vous quelle gloire :</l>
 	<l id="657">Tout va trembler.</l>
 	<l id="658">Le sang va couler,</l>
@@ -1229,7 +1229,7 @@
 <div1 type="acte" n="5"><head>ACTE V</head>
 <stage type="decor">Le théâtre représente le champ antique de Zerdoust, où se faisait l'inauguration des rois de la BActriane. Il est entouré de rochers, coupé de prairies, et borné dans le fond par la chaîne de montagnes, qui sépare cette partie de l'Asie, de l'Indostan/</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp who="ERINICE"><speaker>ERINICE, seule.</speaker>
+<sp stage="alone" who="ERINICE"><speaker>ERINICE, seule.</speaker>
 <note type="explicit">L'ami du feu, les plus anciens persans nommaient ainsi Abraham. Ce même nom fut donné dans les suites à Zoroastre, que l'amour de tout l'Orient confondit avec le premier. [NdA]</note>
 	<l id="672">Quel tourment !... Où trouver trace de ses pas ?</l>
 	<l id="673">Un barbare aurait-il assouvi sa furie ?</l>
@@ -1327,7 +1327,7 @@
 	<l id="737">Aux rois, qu'il s'est choisi, doit rendre son hommage.</l>
 	<l id="738">Il y guide Amélite et vient s'y rassembler...</l>
 </sp>
-<sp who="LE CHOEUR DE PEUPLES"><speaker>LE CHOEUR DE PEUPLES, qu'on ne voit point.</speaker>
+<sp stage="watch" who="LE CHOEUR DE PEUPLES"><speaker>LE CHOEUR DE PEUPLES, qu'on ne voit point.</speaker>
 	<l id="739">Dieux, ô dieux ! Quel coup terrible !</l>
 </sp>
 <sp who="ZOROASTRE"><speaker>ZOROASTRE.</speaker>
@@ -1356,7 +1356,7 @@
 	<l id="752">Qu'ai-je à faire du jour sans elle ?...</l>
 	<l id="753">Ô ciel ! Quelle honteux désespoir !</l>
 </sp>
-<sp who="LE CHOEUR DE PRÊTRES"><speaker>LE CHOEUR DE PRÊTRES armés, qui paraissent en foule au fond du théâtre.</speaker>
+<sp stage="entrance/location/together" who="LE CHOEUR DE PRÊTRES"><speaker>LE CHOEUR DE PRÊTRES armés, qui paraissent en foule au fond du théâtre.</speaker>
 	<l id="754">Que la fière Erinice</l>
 	<l id="755">Triomphe et régné en ces lieux.</l>
 </sp>

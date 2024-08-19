@@ -43,9 +43,9 @@
 		<castItem><role id="LÉLIO" sex="1" type="H" statut="dervis" age="A" stat_amour='néant'>LÉLIO</role>, Dervis. M. SEVESTE.</castItem>
 		<castItem><role id="ARLEQUIN" sex="1" type="H" statut="domestique" age="A" stat_amour='néant'>ARLEQUIN</role>, son domestique. M. LAPORTE.</castItem>
 		<castItem><role id="ALI" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>ALI</role>, esclave de Taher. HIPPOLYTE.</castItem>
-		<castItem><role id="CARLE" sex="1" type="H" statut="sclave" age="A" stat_amour='néant'>CARLE</role>, esclave français. CARLE.</castItem>
-		<castItem><role id="ISABELLE" sex="Z" type="H" statut="" age="A" stat_amour='néant'>ISABELLE</role>, esclave de Taher. Melle RIVIÈRE.</castItem>
-		<castItem><role id="ESCLAVES FRANÇAIS" sex="1" type="H" statut="" age="A" stat_amour='néant'>ESCLAVES FRANÇAIS</role>.</castItem>
+		<castItem><role id="CARLE" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>CARLE</role>, esclave français. CARLE.</castItem>
+		<castItem><role id="ISABELLE" sex="2" type="H" statut="esclave" age="A" stat_amour='néant'>ISABELLE</role>, esclave de Taher. Melle RIVIÈRE.</castItem>
+		<castItem><role id="ESCLAVES FRANÇAIS" sex="1" type="H" statut="esclave" age="A" stat_amour='néant'>ESCLAVES FRANÇAIS</role>.</castItem>
 	</castList>
 	<set location="Constantinople" country="Turquie" periode="XVIIIème" gps="41.008238, 28.978359">À Sculati, pris Constantinople.</set>
 	<note>Texte extrait de "Proverbes et Nouvelles par Eugène Scribe", Paris Gosselin, 1861. pp. 316-323.</note>
@@ -491,7 +491,7 @@
 	<s id="1">Vous m'avouerez, en effet, que vous avez des reproches à vous faire.</s>
 </p>
 </sp>
-<sp who="ALI"><speaker>ALI, d'un air repentant.</speaker>
+<sp stage="rependant" who="ALI"><speaker>ALI, d'un air repentant.</speaker>
 <p id="15">
 	<s id="1">Il est vrai ; je suis bien un peu coupable.</s>
 </p>
@@ -566,7 +566,7 @@
 	<s id="3">Vous savez bien qu'Isabelle est inaccessible, et que Taher, rebuté de ses rigueurs...</s>
 </p>
 </sp>
-<sp who="LÉLIO"><speaker>LÉLIO, avec joie.</speaker>
+<sp stage="happy" who="LÉLIO"><speaker>LÉLIO, avec joie.</speaker>
 <p id="27">
 	<s id="1">A sans doute résolu de s'en défaire.</s>
 </p>
@@ -1118,7 +1118,7 @@
 	<s id="1">Mais quand il n'y a pas d'autres moyens ! Nos amis sont là, Taher est seul, sans escorte, et s'il résiste, nous l'enlèverons lui-même.</s>
 </p>
 </sp>
-<sp who="ARLEQUIN"><speaker>ARLEQUIN, vivement.</speaker>
+<sp stage="quick" who="ARLEQUIN"><speaker>ARLEQUIN, vivement.</speaker>
 <p id="10">
 	<s id="1">Et ne voyez-vous pas que ce moyen nous perdra ? </s>
 	<s id="2">Si vous laissez le Cadi il fera courir sur nos traces. </s>
@@ -1234,7 +1234,7 @@
 <sp who="ISABELLE"><speaker>ISABELLE.</speaker>
 	<l id="199">Ah ! Que mon coeur est agité !</l>
 </sp>
-<sp who="LÉLIO, ARLEQUIN et TAHER"><speaker>LÉLIO, ARLEQUIN et TAHER.</speaker>
+<sp stage="together" who="LÉLIO, ARLEQUIN et TAHER"><speaker>LÉLIO, ARLEQUIN et TAHER.</speaker>
 	<l id="200">On respecte ici la beauté,</l>
 	<l id="201">Entrez dans cette enceinte !</l>
 	<l id="202">Entrez ! Entrez sans crainte.</l>
@@ -1581,7 +1581,7 @@
 <sp stage="proud" who="LÉLIO"><speaker>LÉLIO, avec suffisance.</speaker>
 	<l id="247">Il était jeune et fort bien fait...</l>
 </sp>
-<sp who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
+<sp stage="aparte" who="ISABELLE"><speaker>ISABELLE, à part.</speaker>
 	<l id="248">C'est bien là, c'est bien son portrait.</l>
 </sp>
 <sp who="LÉLIO"><speaker>LÉLIO.</speaker>
@@ -1906,7 +1906,7 @@
 	<l id="287">Qu'en celle heureuse circonstance,</l>
 	<l id="288">J'ai travaillé comme pour moi.</l>
 </sp>
-<sp who="TAHER"><speaker>TAHER, considérant Isabelle.</speaker>
+<sp stage="watch" who="TAHER"><speaker>TAHER, considérant Isabelle.</speaker>
 <p id="9">
 	<s id="1">Mais, mais, c'est qu'en effet... </s>
 	<s id="2">Elle me regarde d'un air... </s>
@@ -2031,7 +2031,7 @@
 </p>
 <stage type="exit">On entre à gauche dans la grotte où l'on a posé la table et où Isabelle est entrée.</stage>
 </sp>
-<sp who="TAHER"><speaker>TAHER, bas a Lélio vivement.</speaker>
+<sp stage="low/toward" who="TAHER"><speaker>TAHER, bas à Lélio vivement.</speaker>
 <p id="8">
 	<s id="1">Mais ils vont trouver Isabelle !</s>
 </p>

@@ -38,13 +38,13 @@
 			<copyright>Tous droits de reproduction, de traduction et de représentation réservés pour tous les pays, y compris la Suède et la Norvège.</copyright>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="RÉPIN" sex="1" type="H" statut="" age='A' stat_amour='néant'>RÉPIN</role>.</castItem>
-		<castItem><role id="GAILLARDON" sex="1" type="H" statut="" age='A' stat_amour='néant'>GAILLARDON</role>.</castItem>
-		<castItem><role id="MALAHIEUDE" sex="1" type="H" statut="" age='A' stat_amour='néant'>MALAHIEUDE</role>.</castItem>
-		<castItem><role id="MADAME RÉPIN" sex="1" type="H" statut="" age='A' stat_amour='néant'>MADAME RÉPIN</role>.</castItem>
-		<castItem><role id="HENRIETTE" sex="1" type="H" statut="" age='A' stat_amour='néant'>HENRIETTE</role>.</castItem>
-		<castItem><role id="MARIE" sex="1" type="H" statut="" age='A' stat_amour='néant'>MARIE</role>.</castItem>
-		<castItem><role id="AUGUSTINE" sex="1" type="H" statut="" age='A' stat_amour='néant'>AUGUSTINE</role>.</castItem>
+		<castItem><role id="RÉPIN" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>RÉPIN</role>.</castItem>
+		<castItem><role id="GAILLARDON" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>GAILLARDON</role>.</castItem>
+		<castItem><role id="MALAHIEUDE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MALAHIEUDE</role>.</castItem>
+		<castItem><role id="MADAME RÉPIN" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MADAME RÉPIN</role>.</castItem>
+		<castItem><role id="HENRIETTE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>HENRIETTE</role>.</castItem>
+		<castItem><role id="MARIE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MARIE</role>.</castItem>
+		<castItem><role id="AUGUSTINE" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>AUGUSTINE</role>.</castItem>
     </castList>
 	<set location="Province" country="France" periode="XIXème" gps="">À la gare d'une petite ville.</set>
 </front>
@@ -80,7 +80,7 @@
 	<s id="1">Mais le gaillard se marie.</s>
 </p>
 </sp>
-<sp who="MADAME RÉPIN"><speaker>MADAME RÉPIN, parler lent.</speaker>
+<sp stage="slow" who="MADAME RÉPIN"><speaker>MADAME RÉPIN, parler lent.</speaker>
 <p id="6">
 	<s id="1">Avec qui donc ?</s>
 </p>
@@ -428,7 +428,7 @@
 	<s id="1">Écoutez, écoutez, bonne nouvelle ! Gaillardon en prend une !</s>
 </p>
 </sp>
-<sp who="MADAME RÉPIN"><speaker>MADAME RÉPIN, ahurie.</speaker>
+<sp stage="estonish" who="MADAME RÉPIN"><speaker>MADAME RÉPIN, ahurie.</speaker>
 <p id="5">
 	<s id="1">Une quoi ?</s>
 </p>
@@ -509,7 +509,7 @@
 	<s id="1">Évidemment !</s>
 </p>
 </sp>
-<sp who="MARIE"><speaker>MARIE, sautant de joie.</speaker>
+<sp stage="happy" who="MARIE"><speaker>MARIE, sautant de joie.</speaker>
 <p id="20">
 	<s id="1">Oh ! </s>
 	<s id="2">Tant mieux ! </s>
@@ -545,7 +545,7 @@
 	<s id="1">Alors, maintenant, puisque Henriette a son affaire, mon tour est venu, papa ?</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, gaieté ronde.</speaker>
+<sp stage="happy" who="RÉPIN"><speaker>RÉPIN, gaieté ronde.</speaker>
 <p id="26">
 	<s id="1">Oui, mais il ne faut pas pour cela te monter la tête. </s>
 	<s id="2">Il suffit que tu sois à prendre pour qu'on ne veuille plus de toi. </s>
@@ -935,7 +935,7 @@
 	<s id="1">Très bien, pas mal, merci, et vous ?</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, à Henriette.</speaker>
+<sp stage="toward" who="RÉPIN"><speaker>RÉPIN, à Henriette.</speaker>
 <p id="12">
 	<s id="1">Il t'a rien dit ?</s>
 </p>
@@ -975,7 +975,7 @@
 	<s id="1">À table, Monsieur_Gaillardon, à table !</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, remontant.</speaker>
+<sp stage="location" who="RÉPIN"><speaker>RÉPIN, remontant.</speaker>
 <p id="19">
 	<s id="1">Oui, à table ! </s>
 	<s id="2">La soupe refroidit.</s>
@@ -1029,7 +1029,7 @@
 </p>
 <stage type="get/noise">Tous ont pris une chaise, sur le dossier de laquelle ils tambourinent, prêts à s'élancer, au moindre commandement, pour s'asseoir.</stage>
 </sp>
-<sp who="MADAME RÉPIN"><speaker>MADAME RÉPIN, comptant les couverts.</speaker>
+<sp stage="count" who="MADAME RÉPIN"><speaker>MADAME RÉPIN, comptant les couverts.</speaker>
 <p id="28">
 	<s id="1">Un, deux, trois, quatre, cinq... </s>
 	<s id="2">C'est bien ça, le compte y est... </s>
@@ -1247,7 +1247,7 @@
 	<s id="1">Vous le connaissez ?</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, se rengorgeant.</speaker>
+<sp stage="proud" who="RÉPIN"><speaker>RÉPIN, se rengorgeant.</speaker>
 <p id="64">
 	<s id="1">J'ai eu l'occasion de l'approcher quelquefois. </s>
 	<s id="2">Il m'a parlé ! </s>
@@ -1261,7 +1261,7 @@
 	<s id="2">Et vous lui avez répondu ?</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, dignement.</speaker>
+<sp stage="proud" who="RÉPIN"><speaker>RÉPIN, dignement.</speaker>
 <p id="66">
 	<s id="1">Oui, Monsieur_Gaillardon, je lui ai répondu ! </s>
 	<s id="2">Je lui ai répondu : « Monsieur le préfet est bien bon... Vous êtes bien bon, monsieur le préfet. »</s>
@@ -1382,7 +1382,7 @@
 </p>
 <stage type="exit/location">Il s'esquive vers la cour.</stage>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, aussitôt fiévreusement.</speaker>
+<sp stage="stress" who="RÉPIN"><speaker>RÉPIN, aussitôt fiévreusement.</speaker>
 <p id="89">
 	<s id="1">Attention ! </s>
 	<s id="2">Gaillardon ne va guère tarder à rentrer. Faut qu'il se trouve seul avec notre Henriette. </s>
@@ -1526,7 +1526,7 @@
 	<s id="1">Qu'est-ce qu'il t'a dit, mon Henriette ?</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, de même.</speaker>
+<sp stage="low/toward" who="HENRIETTE"><speaker>HENRIETTE, de même.</speaker>
 <p id="8">
 	<s id="1">Il m'a rien dit.</s>
 </p>
@@ -1568,7 +1568,7 @@
 	<s id="1">Voyons, voyons, nous fixons le jour ?</s>
 </p>
 </sp>
-<sp who="GAILLARDON"><speaker>GAILLARDON, de même.</speaker>
+<sp stage="drop/toward" who="GAILLARDON"><speaker>GAILLARDON, de même.</speaker>
 <p id="15">
 	<s id="1">Enfin, nous y voilà ! </s>
 	<s id="2">Je n'osais pas le dire, mais, sans reproche, depuis la soupe, je commençais à trouver le temps long. </s>
@@ -1577,7 +1577,7 @@
 </sp>
 <sp who="RÉPIN"><speaker>RÉPIN.</speaker>
 <p id="16">
-	<s id="1">Très bien alors, prenons le 27 octobre. </s>
+	<s id="1">Très bien alors, prenons le 27_octobre. </s>
 	<s id="2">Ça vous va-t-il ?</s>
 </p>
 </sp>
@@ -1740,7 +1740,7 @@
 	<s id="2">Asseyez-vous un brin.</s>
 </p>
 </sp>
-<sp who="MALAHIEUDE"><speaker>MALAHIEUDE, prenant une chaise et s'asseyant à la droite de Répin.</speaker>
+<sp stage="get/sit/location" who="MALAHIEUDE"><speaker>MALAHIEUDE, prenant une chaise et s'asseyant à la droite de Répin.</speaker>
 <p id="8">
 	<s id="1">Eh ben, tout de même, mais rien qu'une minute.</s>
 </p>
@@ -1774,7 +1774,7 @@
 	<s id="1">Révérence parler, vous avez l'air tout drôle...</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, riant.</speaker>
+<sp stage="laugh" who="RÉPIN"><speaker>RÉPIN, riant.</speaker>
 <p id="14">
 	<s id="1">Lui ? </s>
 	<s id="2">Ah ben ! </s>
@@ -1838,7 +1838,7 @@
 	<s id="1">Tout à l'heure, m'sieu Répin, j'avais... ce que j'ai encore.</s>
 </p>
 </sp>
-<sp who="MADAME RÉPIN"><speaker>MADAME RÉPIN, inquiète.</speaker>
+<sp stage="stress" who="MADAME RÉPIN"><speaker>MADAME RÉPIN, inquiète.</speaker>
 <p id="3">
 	<s id="1">Quoi ? </s>
 	<s id="2">Quoi ?</s>
@@ -1965,7 +1965,7 @@
 	<s id="5">Mais l'affaire n'est pas avenante... pour moi, du moins.</s>
 </p>
 </sp>
-<sp who="RÉPIN"><speaker>RÉPIN, avec quelque gravité.</speaker>
+<sp stage="serious" who="RÉPIN"><speaker>RÉPIN, avec quelque gravité.</speaker>
 <p id="24">
 	<s id="1">Monsieur Gaillardon, je connais les convenances, et il m'est arrivé, je vous l'ai dit, de parler en personne au préfet, un charmant homme... </s>
 	<s id="2">Je ne vous dirai pas que je suis surpris, je suis étonné... profondément étonné. </s>
@@ -2013,7 +2013,7 @@
 	<s id="1">Presque vingt-six.</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, suppliante, en larmes.</speaker>
+<sp stage="cry/pray" who="HENRIETTE"><speaker>HENRIETTE, suppliante, en larmes.</speaker>
 <p id="32">
 	<s id="1">Si, si... je le sais depuis longtemps... </s>
 	<s id="2">Mais, vois-tu, j'aime mieux attendre encore un petit peu.</s>

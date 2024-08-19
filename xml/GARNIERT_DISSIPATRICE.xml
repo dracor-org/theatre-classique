@@ -49,7 +49,7 @@
 <div1 type="act" n="1"><head>LA DISSIPATRICE</head>
 <stage type="">Le Théâtre représente une salle basse : On y voit une table, un canapé et un petit métier de tapisserie tendu. L'action se passe sur les dix heures du matin.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp who="JULIE" stage="alone"><speaker>JULIE, seule.</speaker>
+<sp stage="alone" who="JULIE"><speaker>JULIE, seule.</speaker>
 <stage type="sit/stop">Elle est assise et achève de monter un bonnet.</stage>
 <p id="1">
 	<s id="1">Il faut que je sois bien complaisante. </s>
@@ -401,7 +401,7 @@
 	<s id="1">Mais enfin, que t'aurait-il coûté d'attendre l'arrivée de ce vaisseau, avant que de t'engager dans toute forte de dépenses ?</s>
 </p>
 </sp>
-<sp who="VICTORINE"><speaker>VICTORINE, avec vivacité.</speaker>
+<sp stage="quick" who="VICTORINE"><speaker>VICTORINE, avec vivacité.</speaker>
 <p id="15">
 	<s id="1">L'impatience de jouir... </s>
 	<s id="2">On ne peut être heureux assez tôt, ni assez longtemps.</s>
@@ -430,9 +430,9 @@
 	<s id="1">Votre servante, Mesdemoiselles ; laquelle de vous deux, s'il vous plait, est Mademoiselle Victorine Valmont ?</s>
 </p>
 </sp>
-<sp who="VICTORINE"><speaker>VICTORINE, fan sfe lever, d'un air négligent.</speaker>
+<sp stage="sit/think" who="VICTORINE"><speaker>VICTORINE, sans se lever, d'un air négligent.</speaker>
 <p id="2">
-	<s id="1">Je sais ce que c'es t; vous êtes la veuve Fontange, sans doute. </s>
+	<s id="1">Je sais ce que c'est; vous êtes la veuve Fontange, sans doute. </s>
 	<s id="2">Apportez-vous mes dentelles ?</s>
 </p>
 </sp>
@@ -501,7 +501,7 @@
 	<s id="1">Eh mais, bonne, si vous voulez ; je n'entre point là dedans , moi ; toujours est-il que je ne peux vous les laisser à crédit que vous ne me donniez un bon répondant.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, à sa soeur.</speaker>
+<sp stage="toward" who="JULIE"><speaker>JULIE, à sa soeur.</speaker>
 <p id="16">
 	<s id="1">Laisse cela, ma soeur, cette femme va d'impertinences, en impertinences ; et elle est décidée à remporter ses dentelles.</s>
 </p>
@@ -579,10 +579,10 @@
 <div2 type="scene" n=""><head>SCÈNE VII. Julie, Victorine, Madame Fontange, Un Facteur.</head>
 <sp stage="give" who="LE FACTEUR"><speaker>LE FACTEUR, donnant une lettre.</speaker>
 <p id="1">
-	<s id="1">À Mademoiselle Valmont l'aînée ; dix-huit sols.</s>
+	<s id="1">À Mademoiselle Valmont l'aînée ; dix-huit_sols.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, prenant la lettre.</speaker>
+<sp stage="get" who="JULIE"><speaker>JULIE, prenant la lettre.</speaker>
 <p id="2">
 	<s id="1">De l'Orient : voilà sûrement des nouvelles ; je reconnais l'écriture de notre correspondant.</s>
 </p>
@@ -619,7 +619,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX ET DERNIÈRE. Julie, Victorine.</head>
-<sp who="VICTORINE"><speaker>VICTORINE, pleurant.</speaker>
+<sp stage="cry" who="VICTORINE"><speaker>VICTORINE, pleurant.</speaker>
 <p id="1">
 	<s id="1">Ah, ma chère soeur, me voilà perdue, ruinée ; comment cela s'est-il pu faire ?</s>
 </p>

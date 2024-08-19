@@ -47,7 +47,7 @@
 		</div>
 
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="L'AMIRAL KERGUEN" sex="1" type="H" statut="Amiral" age='A' stat_amour='néant'>L'AMIRAL KERGUEN</role>, M. FEBVRE.</castItem>
+		<castItem><role id="L'AMIRAL KERGUEN" sex="1" type="H" statut="amiral" age='A' stat_amour='néant'>L'AMIRAL KERGUEN</role>, M. FEBVRE.</castItem>
 		<castItem><role id="SMILIS" sex="2" type="H" statut="bourgeois" age='J' stat_amour='néant'>SMILIS</role>, fille adoptive de l'Amiral Mlle REICHENBERG.</castItem>
 		<castItem><role id="MARTIN" sex="1" type="H" statut="second-maître" age='V' stat_amour='néant'>MARTIN</role>, vieux second-maître au service de l'Amiral. M. GOT.</castItem>
 		<castItem><role id="LE COMMANDANT RICHARD" sex="1" type="H" statut="commandant" age='A' stat_amour='néant'>LE COMMANDANT RICHARD</role>, capitaine de vaisseau M. LAROCHE.</castItem>
@@ -395,7 +395,7 @@
 	<s id="2">Et tu peux continuer, si ton service ne t'appelle pas ailleurs.</s>
 </p>
 </sp>
-<sp who="MARTIN"><speaker>MARTIN, avec importance.</speaker>
+<sp stage="proud" who="MARTIN"><speaker>MARTIN, avec importance.</speaker>
 <p id="48">
 	<s id="">Oh ! </s>
 	<s id="2">depuis longtemps, mon service a bien changé de figure ; et malgré ma tenue (une vieille habitude, dont je ne veux pas me défaire !) il n'y a plus ici de matelot ni de second-maître depuis longtemps.</s>
@@ -1087,7 +1087,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII. L'Amiral, Richard.</head>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, au fond, arrêté avec Richard. Tous deux regardent dans la coulisse.</speaker>
+<sp stage="location/stop/watch/location" who="L'AMIRAL"><speaker>L'AMIRAL, au fond, arrêté avec Richard. Tous deux regardent dans la coulisse.</speaker>
 <p id="1">
 	<s id="1">Tu l'as vue rire et causer ; regarde-la danser ! </s>
 	<s id="2">Quelle grâce !... </s>
@@ -1226,7 +1226,7 @@
 	<s id="2">Tu as peur de l'aimer !</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, froissé.</speaker>
+<sp stage="offended" who="L'AMIRAL"><speaker>L'AMIRAL, froissé.</speaker>
 <p id="19">
 	<s id="1">Ah ! </s>
 	<s id="2">Que vas-tu dire là ? </s>
@@ -1467,7 +1467,7 @@
 	<s id="6">Contre le fils ?</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, furieux.</speaker>
+<sp stage="furious" who="L'AMIRAL"><speaker>L'AMIRAL, furieux.</speaker>
 <p id="53">
 	<s id="1">Eh non !</s>
 </p>
@@ -1552,7 +1552,7 @@
 	<s id="7">Ma foi non !</s>
 </p>
 </sp>
-<sp who="MARTIN"><speaker>MARTIN, à part.</speaker>
+<sp stage="aparte" who="MARTIN"><speaker>MARTIN, à part.</speaker>
 <p id="6">
 	<s id="1">Bon !</s>
 </p>
@@ -1623,7 +1623,7 @@
 <div1 type="acte" n="2"><head>ACTE DEUXIÈME</head>
 <stage type="decor/furniture">La scène est à Paris chez l'Amiral Kerguen. - Même décor qu'au premier acte. Seulement la disposition des meubles est changée. À droite, un canapé près d'une table. Et partout, sur les tables et les consoles, une profusion de fleurs. Lilas blancs et roses blanches. On aperçoit, dans les vestibules, des plantes, des palmiers nains, des camélias. - Au lever du rideau, des groupes vont et viennent. - On cause.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Commandant Richard, Georges Richard, Plusieurs officiers de marine, en grande tenue, Divers invités, Hommes et Femmes, Martin et Domestiques, circulant.</head>
-<sp who="UN OFFICIER DE MARINE"><speaker>UN OFFICIER DE MARINE, au commandant Richard. Ils sont assis tous deux sur le canapé à droite.</speaker>
+<sp stage="toward/sit/furniture/location" who="UN OFFICIER DE MARINE"><speaker>UN OFFICIER DE MARINE, au commandant Richard. Ils sont assis tous deux sur le canapé à droite.</speaker>
 <p id="1">
 	<s id="1">Mon cher, - Kerguen est une nature exceptionnelle. </s>
 	<s id="2">Dans sa famille, on est jeune à soixante_ans ! </s>
@@ -1700,7 +1700,7 @@
 	<s id="1">C'est une bonne idée : je l'avais eue !...</s>
 </p>
 </sp>
-<sp who="L'OFFICIER"><speaker>L'OFFICIER, à ceux qui l'entourent.</speaker>
+<sp stage="toward" who="L'OFFICIER"><speaker>L'OFFICIER, à ceux qui l'entourent.</speaker>
 <p id="15">
 	<s id="1">N'est-ce pas, Messieurs, qu'elle est charmante, la mariée ?</s>
 </p>
@@ -1730,7 +1730,7 @@
 </div2>
 <div2 stage="costume" type="scene" n="2"><head>SCÈNE II. Les mêmes, L'Amiral et Smilis, en toilette de mariée, au bras de l'Amiral.</head>
 <stage type="entrance/follow">Ils sont suivis d'un cortège d'amis.</stage>
-<sp who="L'OFFICIER"><speaker>L'OFFICIER, regardant l'Amiral.</speaker>
+<sp stage="watch" who="L'OFFICIER"><speaker>L'OFFICIER, regardant l'Amiral.</speaker>
 <p id="1">
 	<s id="1">Ils ont beau dire !... </s>
 	<s id="2">Un jeune homme, c'est charmant, mais ce vieux est superbe !</s>
@@ -2397,14 +2397,14 @@
 	<s id="3">Je vais au devoir !</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, relevant la tête.</speaker>
+<sp stage="wave" who="L'AMIRAL"><speaker>L'AMIRAL, relevant la tête.</speaker>
 <p id="26">
 	<s id="1">Au devoir !... </s>
 	<s id="2">Et tu pars sans m'avoir dit le mien !</s>
 </p>
 <stage type="touch/away">Ils se serrent la main ; Richard s'éloigne.</stage>
 </sp>
-<sp who="RICHARD"><speaker>RICHARD, près de sortir, se retournant.</speaker>
+<sp stage="exit/turn" who="RICHARD"><speaker>RICHARD, près de sortir, se retournant.</speaker>
 <p id="27">
 	<s id="1">Au revoir, Amiral !</s>
 </p>
@@ -2415,7 +2415,7 @@
 <div1 type="acte" n="3"><head>ACTE TROISIÈME</head>
 <stage type="decor/furniture/write">Un salon de la préfecture maritime de Toulon. - Piano à droite. - À gauche, une corbeille à ouvrage près de la table sur laquelle, au lever du rideau, L'Amiral est en train d'écrire.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. L'Amiral, Deux lieutenants de vaisseau attendant ses ordres, Martin.</head>
-<sp who="MARTIN"><speaker>MARTIN, remettant une lettre à l'Amiral.</speaker>
+<sp stage="give/toward" who="MARTIN"><speaker>MARTIN, remettant une lettre à l'Amiral.</speaker>
 <p id="1">
 	<s id="1">Amiral !</s>
 </p>
@@ -2594,7 +2594,7 @@
 </p>
 <stage type="furniture/read">Smilis va au piano et feuillette des cahiers de musique.</stage>
 </sp>
-<sp who="MARTIN"><speaker>MARTIN, bourru.</speaker>
+<sp stage="unhappy" who="MARTIN"><speaker>MARTIN, bourru.</speaker>
 <p id="6">
 	<s id="1">Je lui ai dit ce que vous voulez... </s>
 	<s id="2">Il n'était pas content...</s>
@@ -2864,7 +2864,7 @@
 	<s id="12">Et voyez-vous, c'est une idée que je ne peux pas ,supporter.</s>
 </p>
 </sp>
-<sp who="GEORGES"><speaker>GEORGES, froidement.</speaker>
+<sp stage="cold" who="GEORGES"><speaker>GEORGES, froidement.</speaker>
 <p id="20">
 	<s id="1">Il n'est pas question de mon départ... </s>
 	<s id="2">Voulez-vous que nous fassions un peu de musique ensemble ?</s>
@@ -3139,7 +3139,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VIII. Richard, Smilis, Georges.</head>
-<sp who="RICHARD"><speaker>RICHARD, riant à Smilis.</speaker>
+<sp stage="laugh/toward" who="RICHARD"><speaker>RICHARD, riant à Smilis.</speaker>
 <p id="1">
 	<s id="1">C'est donc vous le chef de gamelle ?</s>
 </p>
@@ -3218,7 +3218,7 @@
 	<s id="2">Il y a une chose, qui, d'elle-même, s'impose à tout le monde : c'est le respect pour une enfant sans défense !</s>
 </p>
 </sp>
-<sp who="RICHARD"><speaker>RICHARD, lui tendant la main.</speaker>
+<sp stage="wave" who="RICHARD"><speaker>RICHARD, lui tendant la main.</speaker>
 <p id="12">
 	<s id="1">Je te demande pardon !</s>
 </p>
@@ -3389,7 +3389,7 @@
 	<s id="4">Une surprise heureuse...</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, gouailleur.</speaker>
+<sp stage="proud/loud" who="L'AMIRAL"><speaker>L'AMIRAL, gouailleur.</speaker>
 <p id="19">
 	<s id="1">Eh ! </s>
 	<s id="2">Eh ! </s>
@@ -3492,7 +3492,7 @@
 	<s id="2">Tu as eu le temps de revenir de Chine, toi !</s>
 </p>
 </sp>
-<sp who="RICHARD"><speaker>RICHARD, poursuivant.</speaker>
+<sp stage="continue" who="RICHARD"><speaker>RICHARD, poursuivant.</speaker>
 <p id="36">
 	<s id="1">... À une tranquillité parfaite, à une sécurité aveugle !... </s>
 	<s id="2">Quand, mari d'une jeune femme, on prodigue, comme tu le fais, les soirées et les fêtes, quand on rassemble autour de soi... chez soi...</s>
@@ -3559,7 +3559,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII. Les mêmes, Martin.</head>
-<sp who="MARTIN"><speaker>MARTIN, entrant de droite.</speaker>
+<sp stage="entrance/location" who="MARTIN"><speaker>MARTIN, entrant de droite.</speaker>
 <p id="1">
 	<s id="">Amiral, le laboratoire est prêt.</s>
 </p>
@@ -3580,7 +3580,7 @@
 	<s id="1">Oui, Amiral !</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, riant.</speaker>
+<sp stage="laugh" who="L'AMIRAL"><speaker>L'AMIRAL, riant.</speaker>
 <p id="5">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Tu ne devrais pas te troubler pour ça, puisque c'est dans tes habitudes.</s>
@@ -3603,7 +3603,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV. Martin, Smilis.</head>
-<sp who="SMILIS"><speaker>SMILIS, entrant.</speaker>
+<sp stage="entrance" who="SMILIS"><speaker>SMILIS, entrant.</speaker>
 <p id="1">
 	<s id="1">Martin, Martin, est-ce vrai tout ce que raconte là, au maître_d_hôtel, ce matelot de La_Victorieuse ?</s>
 </p>
@@ -3784,7 +3784,7 @@
 </p>
 <stage type="narration">Georges attend la réponse de l'Amiral, - debout au milieu de la scène. L'Amiral, qui a reçu l'aveu de Georges avec un mouvement de douleur et de colère aussitôt réprimé, demeure un instant immobile, puis se promène quelque temps d'un bout à l'autre de la scène comme un officier sur la dunette, les mains derrière le dos.</stage>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, avec le ton ferme et calme du commandement.</speaker>
+<sp stage="quiet/strong" who="L'AMIRAL"><speaker>L'AMIRAL, avec le ton ferme et calme du commandement.</speaker>
 <p id="9">
 	<s id="1">Monsieur le lieutenant de vaisseau, vous irez à cinq_heures à l'état-major de la flotte, vous transmettrez les ordres pour demain, tels que nous les avons réglés... </s>
 	<s id="2">On devra faire préparer les postes de mouillage pour les six navires de l'escadre qui entreront en rade demain matin à cinq heures... </s>
@@ -3798,7 +3798,7 @@
 <div1 type="acte" n="4"><head>ACTE QUATRIÈME</head>
 <stage type="decor">La scène représente la terrasse d'une villa sur les falaises de Sainte-Marguerite, en Provence, près de Toulon ; la mer au fond. - Pins et lauriers roses. - C'est le soir, un peu avant le coucher du soleil, - On aperçoit au fond à droite la presqu'île de Saint-Mandrier ; au fond, à gauche, la pleine mer. - À droite, au premier plan, le perron de la villa. - Tables et sièges de jardin. - Entre deux pins, à gauche, est suspendu le hamac de Smilis. - Au lever du rideau elle s'y balance en chantant à demi-voix.</stage> 
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Smilis, Martin, qui balance le hamac.</head>
-<sp who="SMILIS"><speaker>SMILIS, chantant.</speaker>
+<sp stage="sing" who="SMILIS"><speaker>SMILIS, chantant.</speaker>
 	<l id="21">Il fit monter la belle</l>
 	<l id="22">Sur un vaisseau tout d'or...</l>
 	<l id="23">Ah ! Berce ! Berce ! Ah ! Berce encor,</l>
@@ -3913,7 +3913,7 @@
 	<s id="8">Mais l'oncle vient, et, comme c'est l'oncle, c'est déjà un grand bonheur, et on sait lui sourire, à lui, dès qu'on l'aperçoit au bout de l'allée !...</s>
 </p>
 </sp>
-<sp who="SMILIS"><speaker>SMILIS, se levant.</speaker>
+<sp stage="stand" who="SMILIS"><speaker>SMILIS, se levant.</speaker>
 <p id="12">
 	<s id="1">Martin !</s>
 </p>
@@ -3998,8 +3998,8 @@
 <p id="">
 	<s id="1">Après ça, si je vous avais fait de la peine, vous savez, ça serait par bêtise... </s>
 	<s id="2">Tiens ! </s>
-	<s id="3">j'entends la voiture... </s>
-	<s id="4">ça n'est pourtant pas l'heure où il arrive de la Préfecture... </s>
+	<s id="3">J'entends la voiture... </s>
+	<s id="4">Ça n'est pourtant pas l'heure où il arrive de la Préfecture... </s>
 	<s id="5">Le canon du port n'a pas encore tiré. </s>
 	<s id="6">- C'est lui !... </s>
 	<s id="7">C'est l'Amiral... </s>
@@ -4009,7 +4009,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. L'Amiral, Smilis.</head>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, petite tenue.</speaker>
+<sp stage="costume" who="L'AMIRAL"><speaker>L'AMIRAL, petite tenue.</speaker>
 <p id="1">
 	<s id="1">Comment vas-tu ce soir, ma chère enfant ?</s>
 </p>
@@ -4081,7 +4081,7 @@
 	<s id="1">Le bon soldat a droit au repos.</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, la prenant sur ses genoux.</speaker>
+<sp stage="sit" who="L'AMIRAL"><speaker>L'AMIRAL, la prenant sur ses genoux.</speaker>
 <p id="13">
 	<s id="1">Nous n'allons pas pleurer, j'espère ! </s>
 	<s id="2">Tu n'es plus une enfant, voyons !... </s>
@@ -4116,7 +4116,7 @@
 	<s id="2">Ne dites plus de ces choses !...</s>
 </p>
 </sp>
-<sp who="L'AMIRAL"><speaker>L'AMIRAL, se levant, avec gaîté.</speaker>
+<sp stage="stand/happy" who="L'AMIRAL"><speaker>L'AMIRAL, se levant, avec gaîté.</speaker>
 <p id="17">
 	<s id="1">Tu as raison ! </s>
 	<s id="2">Ta santé, ton bonheur, m'aideront à guérir... </s>
@@ -4125,7 +4125,7 @@
 	<s id="5">Sois tranquille !...Je compte bien vivre.</s>
 </p>
 </sp>
-<sp who="SMILIS"><speaker>SMILIS, tendrement.</speaker>
+<sp stage="terder" who="SMILIS"><speaker>SMILIS, tendrement.</speaker>
 <p id="18">
 	<s id="1">Longtemps ! </s>
 	<s id="2">Oh ! </s>
@@ -4417,7 +4417,7 @@
 	<s id="2">Et toi qui as su voir où allaient ces jeunes gens, tu ne vois donc pas où je vais ?</s>
 </p>
 </sp>
-<sp who="RICHARD"><speaker>RICHARD, après l'avoir examiné, commençant un cri.</speaker>
+<sp stage="watch" who="RICHARD"><speaker>RICHARD, après l'avoir examiné, commençant un cri.</speaker>
 <p id="39">
 	<s id="1">A[h]...</s>
 </p>
@@ -4531,7 +4531,7 @@
 	<s id="3">Il part demain.</s>
 </p>
 </sp>
-<sp stage="" who="SMILIS"><speaker>SMILIS, à Richard.</speaker>
+<sp stage="toward" who="SMILIS"><speaker>SMILIS, à Richard.</speaker>
 <p id="3">
 	<s id="1">Ah ! </s>
 	<s id="2">Monsieur_Georges... </s>
@@ -4680,7 +4680,7 @@
 	<s id="1">Ne se fait-il pas sauter, quand il a jugé sa mort nécessaire ?</s>
 </p>
 </sp>
-<sp who="RICHARD"><speaker>RICHARD, avec désespoir.</speaker>
+<sp stage="desparate" who="RICHARD"><speaker>RICHARD, avec désespoir.</speaker>
 <p id="12">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu ! </s>

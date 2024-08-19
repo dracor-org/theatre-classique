@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:lang="fr">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>L'ENDYMION, TRAGI-COMÉDIE.</title>
+			<author type="texte" ISNI="0000 0000 8015 902X">Françoise Pascal (1632-1680?)</author>
+		</titleStmt>
+		<publicationStmt>	
+			<editor>Texte établi par Paul FIÈVRE, octobre 2023</editor>
+			<publisher>Publié par Paul FIEVRE, novembre 2023</publisher>
+			<idno>PASCAL_ENDYMION</idno>
+			<rights>Creative Commons BY-NC-SA</rights>
+		</publicationStmt>
+		<SourceDesc>
+			<genre>Tragi-comédie</genre>
+			<inspiration>mythologie</inspiration>
+			<structure>Cinq actes</structure>
+			<type>vers</type>
+			<periode>1651-1660</periode>
+			<taille>(mesure non pertinente)</taille>
+			<permalien cote="BnF ARS GD-526">https://gallica.bnf.fr/ark:/12148/bpt6k329010w</permalien>
+		</SourceDesc>
+	</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">L'ENDYMION</titlePart>
+			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+			<titlePart type="sub">DÉDIÉE À MADEMOISELLE DE VILLEROY.</titlePart>
+		</docTitle> 	
+		<docDate value='1657'>M. DC. CVII. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="PASCAL, Françoise">PAR FRANÇOISE PASCAL, fille lyonnaise.</docAuthor>
+		<docImprint>
+			<editor id="PETIT">À LYON, Chez CLÉMENT PETIT, rue Mercière devant Saint-Antoine.</editor>
+		</docImprint>
+			<div type="dedidace"><adresse>À MADEMOISELLE DE VILLEROY.</adresse>
+		<head>MADEMOISELLE,</head>
+		<p>Quoi qu'Endymion mette toutes les beautés terrestres au dessous de celle de Diane, il n'en fait pas de même de vous, soit qu'il vous croie ou mortelle ou divine, et qu'il ait ouï faire le même récit de vos perfections, qu'il fait de celles de cette Déesse. Car s'il la considère comme le plus bel astre du Ciel, il sait aussi que vous êtes un des plus beaux astres de la Cour, et toutes les adorations, et les voeux qu'il lui rend, n'empêchent pas qu'il n'ait pour vous l'admiration qu'en a déjà une partie de la Terre, et qu'il n'avoue, que la nature a formé en vous quelque chose de céleste, puisque elle n'a non plus épargné à vous rendre considérable par votre illustre, et haute naissance, qu'elle s'est montrée prodigue à départir toutes ses grâces en votre personne, vous rendant un miracle de notre sexe. C'est par cette raison MADEMOISELLE, qu'Endymion a cherché l'honneur de vous apprendre les aventures ; que si elles sont assez heureuses, pour trouver quelque petite place dans votre estime : il pourra dire, que la gloire d'être aimé d'une Déesse, ne lui est pas plus avantageuse, puisque vous lui permettez de voir le jour : il pourra dire encor, qu'il vous doit plus qu'à cette Déesse, qui le faisait incessamment dormir. Enfin MADEMOISELLE, c'est une grâce que je n'osais bonnement espérer ; car vous qui êtes une merveille du corps et de l'esprit, dont vous pouvez produire mille belles choses ; je ne sais si ce n'est point avoir trop entrepris, que d'aller exposer ce petit ouvrage à vos yeux, et dans une Cour qui a toutes les sciences infuses : toutefois j'en attends l'événement avec la permission de porter la qualité</p>
+		<p>MADEMOISELLE,</p>
+		<p>de Votre très humble, et très obéissante servante,</p>
+		<p>FRANÇOISE PASCAL.</p>
+	</div>
+	<div type="avis"><head>AVIS AU LECTEUR.</head>
+		<p>Mon cher Lecteur, puisque mon Agathonphile s'était autant acquis de censeurs, que d'incrédules ; je ne sais ce que je dois attendre d'Endymion. Je sais bien que tu y trouveras moins de fautes, qu'au premier ; mais je te prie pourtant de croire, que personne n'y a mêlé de son style, comme quelques-uns l'ont cru d'Agathonphile, quoi qu'effectivement, ceux qui ont tant soit peu d'expérience à la Poésie, puissent bien juger, que ces vers ne sauraient être sortis d'un grand génie ; et qu'un homme est capable de produire, quelque chose de plus fort : et afin que l'avantage, que ce poème peut avoir sur l'autre, ne te fasse tomber dans la première erreur, c'est que j'y ai un peu plus de connaissance qu'autre fois, tu le verras. Adieu.</p>
+	</div>
+	<castList><head>LES ACTEURS.</head>
+		<castItem><role id="ENDYMION" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>ENDYMION</role>, amoureux de Diane.</castItem>
+		<castItem><role id="POLYDAMON" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>POLYDAMON</role>, ami d'Endymion.</castItem>
+		<castItem><role id="DIANE" sex="2" type="D" statut="dieu" age='A' stat_amour='néant'>DIANE</role>, Déesse.</castItem>
+		<castItem><role id="CHOEUR DE NYMPHES" sex="2" type="D" statut="nymphe" age='A' stat_amour='néant'>CHOEUR DE NYMPHES</role>.</castItem>
+		<castItem><role id="ISMÈNE" sex="2" type="H" statut="magicien" age='A' stat_amour='néant'>ISMÈNE</role>, Magicienne.</castItem>
+		<castItem><role id="PARTHENOPÉE" sex="1" type="H" statut="prophète" age='A' stat_amour='néant'>PARTHENOPÉE</role>, vieille prophétesse.</castItem>
+		<castItem><role id="THYMOTÉE" sex="1" type="H" statut="sacrificateur" age='A' stat_amour='néant'>THYMOTÉE</role>, sacrificateur.</castItem>
+		<castItem><role id="STENOBÉE" sex="2" type="H" statut="aristacrate" age='J' stat_amour='néant'>STENOBÉE</role>, Vierge de l'autel de Diane, et nièce de Thymotée.</castItem>
+		<castItem><role id="HERMODAN" sex="1" type="H" statut="berger" age='A' stat_amour='néant'>HERMODAN</role>, berger amant de Diophanie.</castItem>
+		<castItem><role id="DIOPHANIE" sex="3" type="H" statut="berger" age='A' stat_amour='néant'>DIOPHANIE</role>, métamorphosée en myrte.</castItem>
+		<castItem><role id="PYRIDOR" sex="1" type="H" statut="ministre" age='A' stat_amour='néant'>PYRIDOR</role>, Ministre de Thymotée.</castItem>
+		<castItem><role id="ADMON" sex="1" type="H" statut="ministre" age='A' stat_amour='néant'>ADMON</role>, Ministre de Thymotée.</castItem>
+		<castItem><role id="CHOEUR DE PEUPLE" sex="9" type="H" statut="peuple" age='A' stat_amour='néant'>CHOEUR DE PEUPLE</role>.</castItem>
+		<castItem><role id="CHOEUR DE FILLES" sex="2" type="H" statut="choeur" age='A' stat_amour='néant'>CHOEUR DE FILLES</role>.</castItem>
+		<castItem><role id="UN ESCLAVE" sex="1" type="H" statut="" age='A' stat_amour='néant'>UN ESCLAVE</role>.</castItem>
+		<castItem><role id="CLINDOR" sex="1" type="H" statut="" age='A' stat_amour='néant'>CLINDOR</role>.</castItem>
+	</castList>
+	<set location="Albanie" country="Albanie" periode="Temps mythologiques" gps="41.156986,20.181222">La scène est en Albanie.</set>
+</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE I</head>
+<stage type="decor">Il paraît au fond du théâtre, la face du temple de Diane : et d'un côté, plusieurs arbres touffus ; et de l'autre, une pointe de rocher fort élevée, et derrière quelques feuillages.</stage>
+<div2 type="scene" n="1"><head>SCÈNE I. Endymion, Polydamon, sortant du Temple de Diane.</head> 
+<sp who="ENDYMION"><speaker>[ENDYMION].</speaker>
+	<l id="1">Enfin, Polydamon si je meurs pour Diane,</l>
+	<l id="2">Il faut que cet amour ne soit jamais profane :</l>
+	<l id="3">De crainte d'offenser sa divine pudeur,</l>
+	<l id="4">J'ai peur que cette flamme, ait un peu trop d'ardeur</l>
+	<l id="5">Que cette passion ne se rende évidente :</l>
+	<l id="6">Si ma langueur un jour ne devient plus prudente,</l>
+	<l id="7">Oui, cher Polydamon, étant à cet aspect</l>
+	<l id="8">Je tremble en l'adorant d'amour et de respect.</l>
+	<l id="9">Il est vrai, qu'en effet cette belle Déesse,</l>
+	<l id="10">Sait mon intention encor qu'elle me blesse :</l>
+	<l id="11">ses yeux où la pudeur fait son plus beau séjour,</l>
+	<l id="12">M'impriment le respect aussi bien que l'amour :</l>
+	<l id="13">Mais encor que mes yeux n'aient pas l'avantage</l>
+	<l id="14">D'admirer de plus près son céleste visage,</l>
+	<l id="15">Elle sait toutefois qu'ils ne sont point distraits :</l>
+	<l id="16">À contempler de loin des si rares attraits :</l>
+	<l id="17">Elle viendra bientôt pour me dire elle même,</l>
+	<l id="18">L'estime qu'elle fait de mon amour extrême.</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="19">Heureux Endymion, d'où te vient ce bonheur,</l>
+	<l id="20">Vit-on jamais mortel, recevoir tant d'honneur</l>
+	<l id="21">D'être considéré d'une beauté divine,</l>
+	<l id="22">D'un miracle des Cieux ; de moi je m'imagine,</l>
+	<l id="23">Que c'est avec raison qu'on t'adore en tous lieux ?</l>
+	<l id="24">Puisque même on te voit dans l'estime des Dieux !</l>
+	<l id="25">L'on voit dessus ton corps des merveilles si rares,</l>
+	<l id="26">Qu'elles peuvent toucher les coeurs les plus barbares :</l>
+	<l id="27">Mille jeunes beautés au seul bruit de ton nom,</l>
+	<l id="28" syll="6" part="i">Vont soupirant pour toi.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="28" syll="6" part="f">Cesse Polydamon</l>
+	<l id="29">Cesse de me flatter... Mais que vois-je paraître,</l>
+	<l id="30" syll="6" part="i">Cette femme m'approche.</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="30" syll="6" part="f">Et qui pourrait elle être[.]</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="31" syll="" part="i">Qu'elle extrême vieillesse[.]</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="31" syll="6" part="f">Elle s'en va mourir[.]</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="32">Elle n'a plus de vie et ne saurait courir.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Parthenopée, Endymion, Polydamon.</head>
+<sp who="PARTHENOPÉE"><speaker>PARTHENOPÉE.</speaker>
+	<l id="33" syll="6" part="i">Endymion viens ça :</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="33" syll="6" part="f">Bons Dieux ! Elle t'appelle,</l>
+	<l id="34" syll="6" part="i">Et ne te saurait voir.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="34" syll="6" part="f">Ô ! Ciel que me veut elle ?</l>
+</sp>
+<sp who="PARTHENOPÉE"><speaker>PARTHENOPÉE.</speaker>
+	<l id="35" syll="6" part="i">Approche, ne crains rien [!]</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="35" syll="6" part="f">Approchons toutefois,</l>
+	<l id="36">Écoutons les accents de cette faible voix[.]</l>
+</sp>
+<sp who="PARTHENOPÉE"><speaker>PARTHENOPÉE.</speaker>
+	<l id="37">Approches toi mon fils, je te veux faire entendre,</l>
+	<l id="38" syll="6" part="i">Ce que tu ne sais pas[.]</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="38" syll="6" part="f">Hé ! Bien je veux l'apprendre.</l>
+</sp>
+<sp who="PARTHENOPÉE"><speaker>PARTHENOPÉE.</speaker>
+	<l id="39">De l'Astre qui charme ton coeur,</l>
+	<l id="40">S'en étant rendu le vainqueur,</l>
+	<l id="41">Et qui reçoit tes sacrifices,</l>
+	<l id="42">Tu te verras gratifié :</l>
+	<l id="43">Mais enfin t'étant trop fié</l>
+	<l id="44">À ce peu de temps de délices ;</l>
+	<l id="45">Les Dieux sujets au changement,</l>
+	<l id="46">Te feront voir tout autrement</l>
+	<l id="47">S'étant servi de ta faiblesse,</l>
+	<l id="48">Un Dieu trompeur te fera voir</l>
+	<l id="49">Ce que tu ne peux concevoir,</l>
+	<l id="50">Afin d'obliger ta Déesse :</l>
+	<l id="51">Ce Dieu t'ayant fermé les yeux,</l>
+	<l id="52">Te fera courir en tous lieux ;</l>
+	<l id="53">Te faisant voir des choses vaines,</l>
+	<l id="54">Qui te charmeront les esprits,</l>
+	<l id="55">Mais enfin ne soit point surpris :</l>
+	<l id="56">Car mes paroles sont certaines. </l>
+<stage type="exit">Elle se retire.</stage>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="57">Dieux ! Elle est hors du sens : d'où peut elle savoir,</l>
+	<l id="58" syll="2" part="i">Ton nom ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="58" syll="10" part="f">Polydamon, laisse moi concevoir</l>
+	<l id="59">Un peu ce qu'elle a dit, car je vois au contraire,</l>
+	<l id="60">Que ce discours obscur ne sent rien du vulgaire,</l>
+	<l id="61">Mais enfin je m'en vais tâcher de l'observer.</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="62">Adieu donc cher ami, je te laisse rêver.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="63">Adieu je t'irai voir, je veux rêver une heure</l>
+	<l id="64" syll="6" part="i">Sur ce qu'elle m'a dit ?</l>
+</sp>
+<sp who="POLYDAMON"><speaker>POLYDAMON.</speaker>
+	<l id="64" syll="6" part="f">Voilà donc ta demeure.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+<stage type="title">STANCES.</stage>
+<poem type="stances">
+<lg n="1">
+	<l id="65">Dieux ! Que ce mystère est profond,</l>
+	<l id="66">Et qu'il est incompréhensible :</l>
+	<l id="67">Célestes qui voyez au fond</l>
+	<l id="68">De ce qui nous est invisible ;</l>
+	<l id="69">Que signifie ce discours,</l>
+</lg>
+<lg n="2">
+	<l id="70">Où je ne saurais rien entendre :</l>
+	<l id="71">Donnez moi moyen de l'apprendre ;</l>
+	<l id="72">Et d'en deviner les détours :</l>
+	<l id="73">Cette bouche qui vient de dire des miracles :</l>
+	<l id="74">Sait-elle les secrets de vos divins oracles ?</l>
+</lg>
+<lg n="3">
+	<l id="75">Mais cherchons encor ce secret,</l>
+	<l id="76">Remettons nous dans la mémoire</l>
+	<l id="77">Le récit qu'elle nous à fait,</l>
+	<l id="78">Que je ne saurais ainsi croire :</l>
+	<l id="79">Elle nous a dit que les Dieux</l>
+</lg>
+<lg n="4">
+	<l id="80">sont aussi changeants que les hommes ;</l>
+	<l id="81">Que même en le siècle où nous sommes,</l>
+	<l id="82">L'on voit régner dedans les Cieux,</l>
+	<l id="83">Aussi bien qu'ici bas, l'abus et l'inconstance ;</l>
+	<l id="84">Trompant l'espoir de ceux qui suivent leur puissance.</l>
+</lg>
+<lg n="5">
+	<l id="85">se peut-il que les Immortels,</l>
+	<l id="86">se moquent de nos sacrifices :</l>
+	<l id="87">Et qu'ils méprisent leurs Autels :</l>
+	<l id="88">Ne seraient ce point des malices ?</l>
+	<l id="89">Ces discours sont injurieux</l>
+</lg>
+<lg n="6">
+	<l id="90">À votre sagesse profonde,</l>
+	<l id="91">Qui ne souffre point de seconde</l>
+	<l id="92">En ces secrets mystérieux :</l>
+	<l id="93">Et c'est pourquoi grands Dieux, je viens de faire injure</l>
+	<l id="94">A vos divins pouvoirs, usant de ce murmure.</l>
+</lg>
+<lg n="7">
+	<l id="95">Je pourrais vous être odieux,</l>
+	<l id="96">De croire une bouche profane :</l>
+	<l id="97">Poursuivons nos desseins pieux,</l>
+	<l id="98">Puisqu'ils plaisent à ma Diane ;</l>
+	<l id="99">Et ne pensons plus désormais,</l>
+</lg>
+<lg n="8">
+	<l id="100">À ce langage chimérique :</l>
+	<l id="101">Quittons ce penser fantastique,</l>
+	<l id="102">Et soyons le même à jamais :</l>
+	<l id="103">Rendons sans fin des voeux à cet objet céleste,</l>
+	<l id="104">si ma raison le veut, ma bouche le proteste.</l>
+</lg>
+</poem>
+	<l id="105">Mon âme s'en est fait résous-toi si tu veux,</l>
+	<l id="106">De lui continuer tes devoirs et tes voeux :</l>
+	<l id="107">Nous en verrons la fin, allons sur cette roche,</l>
+	<l id="108">Je vois finir le jour, et la nuit qui s'approche :</l>
+	<l id="109">Mon bel Astre luira, mais le jour cependant,</l>
+	<l id="110">À perdre la clarté me semble un peu bien lent.</l>
+	<l id="111">Maintenant le soleil m'est moins cher que la Lune ;</l>
+	<l id="112">sa brillante clarté sans cesse m'importune :</l>
+	<l id="113">Mais gardons d'offenser ce miracle des Dieux :</l>
+	<l id="114">Le frère de Diane, et qu'elle aime le mieux.</l>
+	<l id="115">N'importe toutefois, Diane est ma Déesse,</l>
+	<l id="116">Et la nuit s'approchant, ce bel Astre s'empresse</l>
+	<l id="117">À contenter mes yeux... Mais Dieux ! quelle clarté</l>
+	<l id="118">Vient éclairer ces lieux, quelle est cette beauté ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Diane, Endymion.</head>
+<stage type="entrance">Diane paraît avec son croissant sur sa tête, son carquois derrière le dos, et son arc à la main : elle prend la parole voyant Endymion surpris.</stage>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="119">Endymion, je suis celle que tu révères,</l>
+	<l id="120">Qu'y te viens faire voir bien plus que tu n'espères :</l>
+	<l id="121">Regardes maintenant ce que tu souhaitais,</l>
+	<l id="122">Et vois que je fais plus que je ne promettais ;</l>
+	<l id="123">Tes veux sont exaucés, j'en garde la mémoire,</l>
+	<l id="124">Je sais que tu prends soins à publier ma gloire :</l>
+	<l id="125">Comme tu fais partout éclater ma grandeur,</l>
+	<l id="126">Et que par toi chacun adore ma splendeur :</l>
+	<l id="127">Mais si je n'en avais quelque reconnaissance,</l>
+	<l id="128">Il te serait permis de dire en ma présence,</l>
+	<l id="129">Que l'on voit des ingrats, jusques dedans les Cieux :</l>
+	<l id="130">Et tu pourrais blâmer d'injustice les Dieux.</l>
+	<l id="131">Dis moi ce que tu veux, et crois qu'une Déesse</l>
+	<l id="132">Peut toujours accomplir l'effet de sa promesse :</l>
+	<l id="133">Je crois qu'assurément tu ne veux demander,</l>
+	<l id="134">Que ce que je pourrai justement t'accorder.</l>
+	<l id="135">Ne sois plus interdis, vois que l'heure me presse :</l>
+	<l id="136" syll="6" part="i">Que je suis attendue.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="136" syll="6" part="f">Ô ! Charmante Déesse,</l>
+	<l id="137">Ton aspect a mes sens, si fort extasiés,</l>
+	<l id="138">Que mes yeux n'en seraient jamais rassasiés :</l>
+	<l id="139">L'honneur dont je jouis surpasse toutes choses,</l>
+	<l id="140">Je ne vois que des feux, que des lys et des roses :</l>
+	<l id="141">Déesse, je ne puis ni désirer plus rien ;</l>
+	<l id="142">Puisque jamais plaisir ne fut égal au mien,</l>
+	<l id="143">Beau miracle des Cieux, que faut il que j'espère,</l>
+	<l id="144">Après ce que je vois ? Je serais téméraire</l>
+	<l id="145" syll="6" part="i">De demander encor :</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="145" syll="6" part="f">Demande seulement</l>
+	<l id="146" syll="6" part="i">Tu peux tout obtenir.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="146" syll="6" part="f">Dans le ravissement</l>
+	<l id="147">Où je suis maintenant, Déesse incomparable,</l>
+	<l id="148">Je te demanderais ce bonheur désirable :</l>
+	<l id="149">De contempler sans fin les beautés que je vois,</l>
+	<l id="150">Si tu ne me punis dans cet aveugle choix.</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="151">Pourrais tu bien souffrir dans la longueur extrême,</l>
+	<l id="152">Ce que dans un moment t'a mis hors de toi même ?</l>
+	<l id="153">Et quand bien tu serais au rang des premiers Dieux,</l>
+	<l id="154">Tu ne me verrais pas demi-jour dans les Cieux :</l>
+	<l id="155">Tâches donc de chercher quelque juste demande.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="156">Il me faut obéir, Diane le commande,</l>
+	<l id="157">Déesse, ta bonté me veut donc obliger,</l>
+	<l id="158">À faire une demande, où je n'ose songer,</l>
+	<l id="159">Mais enfin il faudra que je prenne l'audace,</l>
+	<l id="160">De t'oser demander quelque petite place,</l>
+	<l id="161">Prés des Astres qui sont les plus proches de toi,</l>
+	<l id="162">Ou si ce divin rang est trop rare pour moi ;</l>
+	<l id="163">si c'est que les destins y fassent résistance,</l>
+	<l id="164">Que ce soit profaner leur divine influence,</l>
+	<l id="165">Ou si c'est que le nombre en soit tout accompli ;</l>
+	<l id="166">Et que le Ciel en soit parfaitement rempli</l>
+	<l id="167">Tu recevras du moins mes pieux sacrifices,</l>
+	<l id="168" syll="6" part="i">Et je serai content.</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="168" syll="6" part="f">Saches que tes services</l>
+	<l id="169">Maugréeront toujours, que je prendrai soin</l>
+	<l id="170">De te gratifier lorsqu'il sera besoin,</l>
+	<l id="171" syll="8" part="i">Soit au Ciel, soit en terre : Adieu.</l>
+<stage type="exit">Elle disparaît.</stage>
+</sp>
+<sp stage="alone" who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+	<l id="171" syll="4" part="f">Quelle merveille !</l>
+	<l id="172">Mortels en vîtes vous jamais une pareille ?</l>
+	<l id="173">Ô céleste beauté, combien m'as tu fait voir</l>
+	<l id="174">De miracles divins qu'on ne peut concevoir :</l>
+	<l id="175">Espériez vous, mes yeux, de voir un tel prodige ?</l>
+	<l id="176">Voyez à quels devoirs Diane vous oblige :</l>
+	<l id="177">Rendons lui mille voeux, dressons lui des Autels,</l>
+	<l id="178">Puisqu'elle nous élève au dessus des mortels :</l>
+	<l id="179">Ne songe plus mon âme a ta peine passée,</l>
+	<l id="180">Ne vois tu pas qu'elle est par trop récompensée.</l>
+	<l id="181">Ha ! que Diane est belle, et qu'à d'autres beautés.</l>
+	<l id="182">Mes yeux malaisément se verront arrêtés.</l>
+	<l id="183">Allons sur ce rocher pour contempler encore,</l>
+	<l id="184">Jusques au point du jour cet Astre que j'adore :</l>
+	<l id="185">Élevons notre voix, qu'elle puisse éclater</l>
+	<l id="186">Par les plus doux accents que l'on peut inventer.</l>
+<stage type="sit/sing">Il s'assit sur le rocher, et chante.</stage>
+<stage type="title">CHANSON.</stage>
+<poem type="chanson">
+<lg n="1">
+	<l id="187">Beautés terrestres cachez vous</l>
+	<l id="188">Auprès de cet objet céleste,</l>
+	<l id="189">Si mon âme a senti vos coups,</l>
+	<l id="190">Maintenant elle vous déteste :</l>
+	<l id="191">Et ne veut plus rendre ses voeux</l>
+	<l id="192">Qu'à ce beau miracle des cieux.</l>
+</lg>
+<lg n="2">
+	<l id="193">Je dis d'un zèle plein d'ardeur,</l>
+	<l id="194">Qu'en cette merveille divine</l>
+	<l id="195">Les grâces avec le pudeur</l>
+	<l id="196">Ont prit leur plus belle origine :</l>
+	<l id="197">Et qu'on ne doit rendre des voeux</l>
+	<l id="198">Qu'à ce beau miracle des Cieux.</l>
+</lg>
+<lg n="3">
+	<l id="199">Depuis le moment que mes yeux.</l>
+	<l id="200">Virent cet astre plein de charmes,</l>
+	<l id="201">Je vais, je cours en tous les lieux,</l>
+	<l id="202">Méprisant toutes les alarmes ;</l>
+	<l id="203">Pour rendre incessamment des voeux</l>
+	<l id="204">À ce beau miracle des Cieux.</l>
+</lg>
+</poem>
+<stage type="watch">Il contemple la Lune, et ne voit pas Ismène qui le cherche.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Ismène, Endymion.</head>
+<sp who="ISMÈNE"><speaker>ISMÈNE, seule.</speaker>
+	<l id="205">Je cherche Endymion, pour alléger les peines</l>
+	<l id="206">Dont je vois dans ses yeux les marques trop certaines</l>
+	<l id="207">Il adore Diane, et ne s'aperçoi[t] pas</l>
+	<l id="208">Qu'il se consume en vain pour de si beaux appas.</l>
+	<l id="209">Aimable Endymion, Diane est trop sévère ;</l>
+	<l id="210">C'est en vain qu'à l'aimer ton âme persévère.</l>
+	<l id="211">si les Dieux tous puissants n'osent pas l'approcher,</l>
+	<l id="212">La flamme d'un mortel peut elle la toucher ?</l>
+	<l id="213">Pourtant Endymion est le plus beau du monde,</l>
+	<l id="214">Il n'est point de mortel qu'ici bas le seconde :</l>
+	<l id="215">Je sais bien que les Dieux, après ses qualités,</l>
+	<l id="216">N'ont pour le surmonter que leur divinités.</l>
+	<l id="217">Il le faut soulager dans l'ennui qui le presse,</l>
+	<l id="218">Afin qu'il puisse voir quelque jour sa Déesse.</l>
+	<l id="219">Il veut cacher des maux qui me sont évidents,</l>
+	<l id="220">Il contraint ses beaux feux que je vois trop ardents :</l>
+	<l id="221">Je lui veux faire voir que j'en ai connaissance,</l>
+	<l id="222">Et l'assurer qu'en vain il se fait violence :</l>
+	<l id="223">Que son mal m'est connu, qu'il a beau déguiser,</l>
+	<l id="224">Et qu'enfin par mon art je le puis apaiser.</l>
+	<l id="225">Mais ne le vois je pas qui contemple la Lune ;</l>
+	<l id="226">Allons pour l'assurer de la douce fortune :</l>
+	<l id="227">Il est sur ce rocher, où je le vois toujours</l>
+	<l id="228">Qui demande les nuits mieux que les plus beaux jours.</l>
+</sp>
+<sp stage="watch" who="ENDYMION"><speaker>ENDYMION, voyant Ismène.</speaker>
+	<l id="229">Ne vois je point venir l'incomparable Ismène,</l>
+	<l id="230" syll="6" part="i">C'est elle assurément.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="230" syll="6" part="f">Raconte moi ta peine,</l>
+	<l id="231">Endymion mon fils, découvre moi ton coeur,</l>
+	<l id="232">Que depuis si longtemps je vois vivre en langueur.</l>
+	<l id="233">Puis je donner secours au mal qui te possède,</l>
+	<l id="234">Mon art ne saurait il t'apporter du remède ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="235">Tu te trompes Ismène en te l'imaginant,</l>
+	<l id="236">Saches que dans l'état où je suis maintenant,</l>
+	<l id="237">C'est le ravissement que je sens dans mon âme,</l>
+	<l id="238">Puisqu'il s'en faut bien peu que mon coeur ne se pâme :</l>
+	<l id="239">Que mon oeil ne se ferme ayant vu des clartés</l>
+	<l id="240">Et des fleurs, et des feux, des charmes, des beautés,</l>
+	<l id="241">Dont il ne pouvait plus supporter la lumière,</l>
+	<l id="242">Et je ne crois pas être en ma force première.</l>
+	<l id="243">Ha ! je l'ai souhaitée, et je l'ai vue enfin,</l>
+	<l id="244">Elle m'a satisfait : ce bel Astre divin,</l>
+	<l id="245" syll="6" part="i">Ismène, c'est Diane.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="245" syll="6" part="f">He quoi ! tu l'as donc vue ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="246">Oui j'ai vu les attraits dont le ciel la pourvue.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="247">Heureux Endymion, que peux tu souhaiter</l>
+	<l id="248" syll="6" part="i">Après un tel bonheur ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="248" syll="6" part="f">De toujours présenter</l>
+	<l id="249">Mes devoirs et mes voeux, et de finir ma vie,</l>
+	<l id="250">Pour ce rare sujet qui m'a l'âme ravie.</l>
+	<l id="251">Mais encor, sage Ismène, honneur de l'Univers,</l>
+	<l id="252">Puisque ton art fait tant de miracles divers,</l>
+	<l id="253">Qu'on te nomme par tout la Merveille des femmes,</l>
+	<l id="254">Que l'on te voit louer par les plus belles âmes,</l>
+	<l id="255">Ne suis je pas heureux de te trouver ici,</l>
+	<l id="256">Pour te prier encor de m'ôter de souci.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="257">Et quel est ton souci, dis moi, que tu souhaites ?</l>
+	<l id="258">Saches qu'à te servir les Ismènes sont prêtes :</l>
+	<l id="259">Dépêche promptement de me le faire ouïr.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="260">Hélas ! c'est que le bien dont je viens de jouir,</l>
+	<l id="261">N'étant pas de durée, étant un peu trop rare,</l>
+	<l id="262">Je vois que pour longtemps ce plaisir se prépare :</l>
+	<l id="263">Et que si j'ai joui d'un plaisir si parfait,</l>
+	<l id="264">Peut être que mes voeux n'auront plus tant d'effet :</l>
+	<l id="265">Ne puis je encor trouver quelque endroit favorable,</l>
+	<l id="266">Afin d'y contempler cet objet adorable ?</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="267">si tes souhaits ne sont qu'à la considérer,</l>
+	<l id="268">Crois, cher Endymion, que tu dois espérer</l>
+	<l id="269">Ce qui dépend de moi comme de mes sciences,</l>
+	<l id="270">Je prétends te donner des promptes assistances :</l>
+	<l id="271">Même tes sentiments ont beaucoup de raisons.</l>
+	<l id="272">Lors que Diane fort des célestes maisons,</l>
+	<l id="273">Elle va s'écarter jusques à la contrée,</l>
+	<l id="274">Où logent maintenant Érigone, et l'Astrée.</l>
+	<l id="275">Et d'un autre côté voir les filles d'Atlas,</l>
+	<l id="276">C'est là que plus souvent elle dresse ses pas :</l>
+	<l id="277">Elle visite encor Andromède, Céphée,</l>
+	<l id="278">Cassiope, Orion, les terres de Morphée :</l>
+	<l id="279">Des antres du Centaure elle fait son palais :</l>
+	<l id="280">Quand elle veut chercher le repos et le frais,</l>
+	<l id="281">C'est le fleuve sacré le séjour des délices,</l>
+	<l id="282">Qu'elle choisit toujours après ses exercices.</l>
+	<l id="283">Mais enfin par mon art je saurai l'observer,</l>
+	<l id="284">En quel lieu qu'elle soit, nous pourrons la trouver.</l>
+	<l id="285">Mais il me faut savoir comme tu la demandes,</l>
+	<l id="286">Voir si c'est en Hécate, ou bien que se prétendes</l>
+	<l id="287">De la voir en Diane, enfin j'en suis d'accord ;</l>
+	<l id="288">Car en Hécate au moins saches que cet abord</l>
+	<l id="289">Nous rends tous insensés, ou transformés en pierre ;</l>
+	<l id="290">Ou bien tous écrasés par un coup de tonnerre</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="291">Ismène, mes souhaits sont de la voir ainsi</l>
+	<l id="292">Que je la viens de voir en cette place ici.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="293">Hé bien, tu l'y verras, et saches qu'à mes charmes</l>
+	<l id="294">Jusques aux immortels je fais rendre les armes :</l>
+	<l id="295">Oui je contenterai tes désirs innocents,</l>
+	<l id="296">Et puis rendre des Dieux les efforts impuissants :</l>
+	<l id="297">Mais va t'en donc chercher ta loge solitaire,</l>
+	<l id="298">Et ne demande pas le fonds de ce mystère.</l>
+	<l id="299">Je te puis assurer qu'au bruit d'un seul soupir,</l>
+	<l id="300">Tu serais renverser l'effet de ton désir :</l>
+	<l id="301">Et même je connais que ton impatience,</l>
+	<l id="302">Ne me saurait donner demi jour de silence :</l>
+	<l id="303">Et je vois bien encor à tes yeux languissants</l>
+	<l id="304">Que tu dois accorder du repos à tes sens.</l>
+<stage type="get/show">Elle sort une fiole d'eau.</stage>
+	<l id="305">Vois, cher Endymion, de cette eau souveraine,</l>
+	<l id="306">Que moi même puisai dans la vraie fontaine</l>
+	<l id="307">Du grand Dieu du sommeil, lorsque dans ses jardins</l>
+	<l id="308">Il me permit de voir ces parterres divins :</l>
+	<l id="309">J'y vis cette eau sacrée, et je fus curieuse,</l>
+	<l id="310">Connaissant qu'elle était fi douce et précieuse,</l>
+	<l id="311">D'en demander au Dieu : lors il me fut permis</l>
+	<l id="312">D'en prendre, et d'en donner à mes plus chers amis :</l>
+	<l id="313">Tu connaîtras mon fils combien elle est charmante :</l>
+	<l id="314">Adieu, de tes souhaits ne perds rien que l'attente.</l>
+<stage type="give">Elle lui donne la fiole.</stage>
+	<l id="315">Je viendrai t'éveiller lors qu'il en sera temps,</l>
+	<l id="316">Et rendrai par mes faits tes saints désirs contents.</l>
+	<l id="317" syll="6" part="i">Va donc te reposer.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="317" syll="6" part="f">Que te pourrai je rendre</l>
+	<l id="318" syll="6" part="i">Après de tels biens faits ?</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="318" syll="6" part="f">Je ne veux rien prétendre</l>
+	<l id="319">Pour prix de mes travaux que ton affection,</l>
+	<l id="320">Et c'est de te servir toute ma passion.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="321">Ismène tu me rends sans fin ton redevable :</l>
+</sp>
+<sp stage="exit" who="ISMÈNE"><speaker>ISMÈNE, en s'en allant.</speaker>
+	<l id="322" syll="6" part="i">Reposes toi mon fils.</l>
+</sp>
+<sp stage="alone" who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+	<l id="322" syll="6" part="f">Ô femme incomparable !</l>
+	<l id="323">Que ton art est charmant, et qu'il a de vertus,</l>
+	<l id="324">De donner du repos à mes yeux abattus,</l>
+	<l id="325">Mes goûtons de cette eau, afin que je sommeille,</l>
+	<l id="326">sans être interrompu tant qu'Ismène m'éveille.</l>
+	<l id="327">Ô céleste douceur ! Ah ! Goût délicieux !</l>
+<stage type="drink">Il boit.</stage>
+	<l id="328">Ô charme qui déjà vient surprendre mes yeux !</l>
+	<l id="329">Agréables plaisirs, délices nonpareilles,</l>
+	<l id="330">Qui me donnez repos après mes longues veilles.</l>
+<stage type="decor">Il paraît un bois d'arbres touffus, et au devant des autres est un myrte qui les surpasse en hauteur, et qui a même quelque forme d'une personne : et à l'ouverture du théâtre l'on voit un char parmi les nues attelé de deux dragons ; et l'on voit Endymion et Ismène dedans.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Ismène et Endymion dans le char.</head>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="331">Remarque tous ces lieux que tu n'as jamais vu,</l>
+	<l id="332">Contemple les beautés dont le Ciel est pourvu :</l>
+	<l id="333">Jette la vue en bas, admire ce grand monde,</l>
+	<l id="334">Et vois comme la terre est une forme ronde,</l>
+	<l id="335">Dis un peu si tes yeux ne sont point éblouis</l>
+	<l id="336">De voir de ce haut lieu tant de divers pays :</l>
+	<l id="337">Vois le mont de Taurus, vois la Lycaonie,</l>
+	<l id="338">Le fleuve de Melas et toute la Lycie.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="339">Chère Ismène, mon coeur goûte tant de douceurs</l>
+	<l id="340">Que je me sens revivre ainsi que je me meurs :</l>
+	<l id="341" syll="6" part="i">Ô ! plaisirs nonpareils,</l>
+</sp>
+<sp stage="stop" who="ISMÈNE"><speaker>ISMÈNE, faisant arrêter le char.</speaker>
+	<l id="341" syll="6" part="f">Notre course est finie,</l>
+	<l id="342">Il me faut à ce coup quitter ta compagnie,</l>
+	<l id="343">Voici le bois sacré qu'il te faut traverser,</l>
+	<l id="344">Et prends garde du moins de faire renverser</l>
+	<l id="345">Les effets de mon art, fais agir ton courage,</l>
+	<l id="346">Qu'il paroisse en tes yeux comme sur ton visage.</l>
+	<l id="347">Quand tu commenceras d'entrer dedans le bois,</l>
+	<l id="348">Garde bien d'élever trop clairement ta voix ;</l>
+	<l id="349">Passe tout doucement, et tire ton épée,</l>
+	<l id="350">Fais que ta main en soit toujours bien occupée :</l>
+	<l id="351">Afin que sa lueur puisse faire fuir</l>
+	<l id="352">Des monstres qu'à l'abord s'en vont évanouir :</l>
+	<l id="353">Tu verras des dragons, des hydres, des vipères,</l>
+	<l id="354">Des centaures, des ours, des tigres, des chimères,</l>
+	<l id="355">Qui te feront frémir d'épouvante et d'horreur,</l>
+	<l id="356">Mais ne te laisse point porter dans la terreur.</l>
+	<l id="357">Ces fantômes sont vains, une lame brillante,</l>
+	<l id="358">Une moindre clarté leur donne l'épouvante</l>
+	<l id="359">Et s'étant disparus, tu verras à l'instant</l>
+	<l id="360" syll="6" part="i">Les effets de ce charme.</l>
+<stage type="entrance/location">Elle le fait sortir du char et le mène à l'entrée du bois.</stage>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="360" syll="6" part="f">Enfin je suis contant :</l>
+	<l id="361">Ismène si le Ciel veut m'être favorable,</l>
+	<l id="362">Je dirai que ton art n'a rien de comparable.</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="363">Mais si quelque malheur t'arrivait dans ce bois,</l>
+	<l id="364">Tu n'as qu'à prononcer mon nom deux ou trois fois :</l>
+	<l id="365">Et je viendrai d'abord dans ce seul mot d'Ismène</l>
+	<l id="366" syll="6" part="i">Te donner du secours,</l>
+<stage type="exit">Elle disparaît.</stage>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="366" syll="6" part="f">Ô ! femme plus qu'humaine ;</l>
+	<l id="367">Mais je ne la vois plus, c'est maintenant à moi</l>
+	<l id="368">De préparer mon coeur au plus cruel effroi.</l>
+<stage type="watch">Il voit ici tous les monstres qu'Ismène lui a dit.</stage>
+	<l id="369">Dieux ! Que vois je déjà, ce peut il que la terre</l>
+	<l id="370">souffre de ces Dragons une semblable guerre :</l>
+	<l id="371">Mais n'appréhendons rien, faisons luire ce fer,</l>
+	<l id="372">Afin d'épouvanter cette race d'enfer.</l>
+	<l id="373">J'en vois déjà fuir, ô Dieux quelle faiblesse !</l>
+	<l id="374">Armons nous seulement d'un peu de hardiesse :</l>
+	<l id="375">Ils quittent tous ces lieux, et frémissent de peur,</l>
+	<l id="376">Par la seule clarté de cet astre trompeur,</l>
+	<l id="377">D'un fer un peu brillant ils craignent la lumière ;</l>
+	<l id="378">Tous se vont retirer dans leur place première :</l>
+	<l id="379">Ils ne paraissent plus, je suis hors de danger ;</l>
+	<l id="380">Mon âme, maintenant il ne faut plus songer</l>
+	<l id="381">Ce que signifiaient ces visions funèbres :</l>
+	<l id="382">Attendant que le jour dissipe les ténèbres,</l>
+	<l id="383">Fléchissons les genoux parmi ces sacrés lieux,</l>
+	<l id="384">Et supplions le Ciel qu'il écoute nos voeux.</l>
+	<l id="385">Ha ! Dieux, quel bruit confus vient frapper mes oreilles,</l>
+	<l id="386">Mon coeur goûte déjà des douceurs nonpareilles :</l>
+	<l id="387">Quoi ne serait ce point quelque commencement</l>
+	<l id="388">Des effets merveilleux de cet enchantement ?</l>
+	<l id="389">Mais Dieux ! quel hurlement, quelle horrible tempête,</l>
+	<l id="390">Quel foudre, justes Cieux, vient écraser ma tête ?</l>
+	<l id="391">Enfin que ferons nous pour notre réconfort,</l>
+	<l id="392">Il nous faut préparer à recevoir la mort.</l>
+	<l id="393">Ah ! Quel enchantement, quelle horrible furie !</l>
+	<l id="394">Ismène que ton art est plein de tromperie :</l>
+	<l id="395">Viens donc me secourir, comme tu m'as promis,</l>
+	<l id="396">Dans les extrémités, où tu me vois soumis.</l>
+	<l id="397">Ha ! Bons Dieux sous mes pieds je sens trembler la terre.</l>
+	<l id="398">Je n'attends que la mort par un coup de tonnerre.</l>
+	<l id="399">He ! mais quel changement, je vois tout apaiser,</l>
+	<l id="400">Je n'entends plus de bruit, tout se vient disposer</l>
+	<l id="401">À remettre mes sens de leur mortelle crainte,</l>
+	<l id="402">À changer les couleurs dont ma face était peinte :</l>
+	<l id="403">Et je sens que déjà la douceur des Zéphirs</l>
+	<l id="404">Permettent à mon coeur de pousser des soupirs ;</l>
+	<l id="405">Et de reprendre haleine après tant d'épouvante</l>
+	<l id="406">Après tant de malheurs que le destin m'invente :</l>
+	<l id="407">Ha ! La douce clarté qui me vient éclairer ;</l>
+	<l id="408">Courage Endymion, commence d'espérer :</l>
+	<l id="409">C'est Diane, c'est elle... Ha ! Je vois son visage,</l>
+	<l id="410">Cachons nous promptement sous cet épais feuillage.</l>
+	<l id="411">Ha ! Mes sens, ha ! Mes yeux, qu'allez vous devenir ?</l>
+<stage class="hide/location">Il se cache parmi des feuillages ; cependant Diane vient accompagnée de ces Nymphes, et de quelques chiens : elle s'assoit sur une roche vis à vis d'Endymion, sur qui elle jette la vue.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Diane, Choer de Nymphes, Endymion.</head>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="412">Mais vous ne savez pas qui me peut retenir</l>
+	<l id="413" syll="6" part="i">Aujourd'hui dans ce bois ?</l>
+</sp>
+<sp who="I. NYMPHE"><speaker>I. NYMPHE.</speaker>
+	<l id="413" syll="6" part="f">Non, c'est assez Déesse,</l>
+	<l id="414">Que ton plaisir soit tel, sans qu'aucune s'empresse</l>
+	<l id="415" syll="6" part="i">Dans savoir le sujet.</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="415" syll="6" part="f">Ce lien m'est si charmant,</l>
+	<l id="416" syll="6" part="i">L'aspect en est si doux :</l>
+</sp>
+<sp who="II. NYMPHE"><speaker>II. NYMPHE.</speaker>
+	<l id="416" syll="6" part="f">Ce ruisseau seulement</l>
+	<l id="417" syll="6" part="i">Charme tous les esprits.</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="417" syll="6" part="f">La chasse en est très belle[.]</l>
+</sp>
+<sp who="I. NYMPHE"><speaker>I. NYMPHE.</speaker>
+	<l id="418">Les Cerfs y recevront une guerre mortelle,</l>
+	<l id="419" syll="" part="i">Puisque ce lieu te plaît.</l>
+</sp>
+<sp who="II. NYMPHE"><speaker>II. NYMPHE.</speaker>
+	<l id="419" syll="6" part="f">Hé ! Déesse vois tu</l>
+	<l id="420">Quel est cet insolent ?... Ça qu'il soit abattu</l>
+	<l id="421" syll="6" part="i">Du premier de mes traits ;</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="421" syll="6" part="f">Non, non, s'il faut qu'il meure,</l>
+	<l id="422">Il faut que ce soit moi, qui face sa blessure :</l>
+	<l id="423">Que l'on m'apporte ici l'arc avec le carquois</l>
+	<l id="424">Que le fils de Venus me donna l'autre fois,</l>
+	<l id="425">Alors que je passais la forêt d'Idalie,</l>
+	<l id="426">Et je vais tout d'un coup abattre sa folie.</l>
+	<l id="427">Elle lui jette cinq ou six flèches de Cupidon</l>
+	<l id="428">pour tromper les yeux de ses Nymphes.</l>
+</sp>
+<sp stage="low" who="ENDYMION"><speaker>ENDYMION, en secret.</speaker>
+	<l id="429">Ha ! Cruelle Déesse, hélas rigoureux sort,</l>
+	<l id="430">Ô Nymphes sans pitié complices de ma mort ;</l>
+	<l id="431">Que vous faisaient mes yeux, Nymphes impitoyables,</l>
+	<l id="432">Pour regarder Diane étaient ils si coupables</l>
+	<l id="433">Elle qui me voyait avec un oeil si doux,</l>
+	<l id="434">N'avait pas fait dessein de me lancer ces coups.</l>
+	<l id="435" syll="7" part="i">Mais ô Dieux ! Je me meurs, ha !</l>
+<stage type="fall/die">Il tombe comme mort.</stage>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="435" syll="5" part="f">Sa trame est finie :</l>
+</sp>
+<sp who="II. NYMPHE"><speaker>II. NYMPHE.</speaker>
+	<l id="436">Et voila maintenant son audace punie.</l>
+<stage type="exit">Elles se retirent.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Endymion, Une Nymphe de Diane.</head>
+<sp stage="alone/lie" who="ENDYMION"><speaker>ENDYMION, seul toujours couché.</speaker>
+	<l id="437">Ô Glorieuse mort qui vient d'un coup divin !</l>
+	<l id="438">Ô charmante douleur qui ne prend point de fin !</l>
+	<l id="439">Je sens mourir mon coeur d'une mort continue,</l>
+	<l id="440">Et qui me fait revivre alors qu'elle me tue :</l>
+	<l id="441">Ô ! maux pleins de douceurs aimable cruauté,</l>
+	<l id="442">Agréable langueur, chère félicité ;</l>
+	<l id="443">Délicieux tourment, délectable amertume,</l>
+	<l id="444">Doux feux qui me brûlez sans que je me consume !</l>
+	<l id="445">Que feras tu mon corps percé de tous côtés ?</l>
+	<l id="446">Que ferez vous mes yeux n'ayant plus de clartés ?</l>
+	<l id="447" syll="6" part="i">Ah ! Diane faut il...</l>
+</sp>
+<sp stage="watch" who="NYMPHE"><speaker>NYMPHE, cherchant un chien, elle voit Endymion.</speaker>
+	<l id="447" syll="6" part="f">Ô Licante, Licante,</l>
+	<l id="448">Hé hé que fais tu là pauvre âme languissante ?</l>
+	<l id="449">Souffres tu quelque mal, rêves tu, réponds moi :</l>
+	<l id="450" syll="6" part="i">Du moins regarde moi :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="450" syll="3" part="m">Je ne puis[.]</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="450" syll="3" part="f">Et pourquoi ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="451">Tu vois bien que mes yeux sont tout couverts de flèches,</l>
+	<l id="452">Et que mon pauvre corps a plus de mille brèches ;</l>
+	<l id="453" syll="6" part="i">Que je suis tout percé :</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="453" syll="6" part="f">Que me dis tu, bons Dieux !</l>
+	<l id="454">Je te puis assurer que ton corps, ni tes yeux,</l>
+	<l id="455">N'ont ni flèches, ni mal : regarde je t'en prie</l>
+	<l id="456" syll="6" part="i">Comme ils sont offensés :</l>
+<stage type="open">Elle lui ouvre les yeux elle-même.</stage>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="456" syll="6" part="f">Divine tromperie !</l>
+	<l id="457">Et qu'ai je fais grands Dieux, qui puisse mériter</l>
+	<l id="458" syll="6" part="i">Les coups que j'ai reçus.</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="458" syll="6" part="f">Prends garde d'irriter</l>
+	<l id="459">La Déesse, et les Dieux : mais reconnais les grâces</l>
+	<l id="460">Que Diane te fait en quel lieu que tu passes :</l>
+	<l id="461">Et saches qu'aujourd'hui tu t'es mis au hasard,</l>
+	<l id="462">De recevoir ici plus de cent coups de dard,</l>
+	<l id="463">Des Nymphes, de long temps à qui Diane même</l>
+	<l id="464">Donne tous ses pouvoirs par sa douceur extrême :</l>
+	<l id="465">Et que les hommes font leurs cruels ennemis</l>
+	<l id="466">Qu'on en a jamais vu à qui il fut permis</l>
+	<l id="467">De jouir un moment de sa douce présence,</l>
+	<l id="468">sans que l'on n'ait bientôt puni son imprudence :</l>
+	<l id="469">Vois que pour contenter leur cruelle fureur,</l>
+	<l id="470">Elle a trompé leurs yeux en te perçant le coeur.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="471">Belle Nymphe dis moi, comme quoi la Déesse</l>
+	<l id="472" syll="6" part="i">Me traite dans son âme ?</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="472" syll="6" part="f">Avec plus de tendresse</l>
+	<l id="473">Qu'elle n'en eut jamais pour les autres mortels,</l>
+	<l id="474">Qui pour sa gloire seule élèvent des autels :</l>
+	<l id="475">Je ne peux assurer qu'elle te favorise</l>
+	<l id="476">Par dessus les humains avec tant de franchise,</l>
+	<l id="477">Que les Dieux s'étonnant de te voir estimer</l>
+	<l id="478">De celle que l'amour n'a jamais peu charmer,</l>
+	<l id="479">En murmurent entre eux de connaître qu'elle aime</l>
+	<l id="480">Et méprise les Cieux, et la dignité même,</l>
+	<l id="481">Pour te gratifier avec tant de bonté ;</l>
+	<l id="482">Et tu vas l'accusant de trop de cruauté ?</l>
+	<l id="483">Que ne dit elle point un jour près du Méandre,</l>
+	<l id="484">Vers Milet, et Priène, elle nous fit entendre</l>
+	<l id="485">Le dessein qu'elle avait de te favoriser,</l>
+	<l id="486">Et tout son entretien ne fut qu'à te priser :</l>
+	<l id="487">Lors qu'en se promenant, voici, nous disait elle,</l>
+	<l id="488">Le lien d'Endymion de cet amant fidèle :</l>
+	<l id="489">Mais je ne le vois plus, où s'est il retiré ;</l>
+	<l id="490">Ce lieu qui autrefois l'avait tant attiré,</l>
+	<l id="491">N'a t'il plus ce pouvoir, a t'il quitté la chasse ?</l>
+	<l id="492">Ou bien s'il a reçu ici quelque disgrâce ?</l>
+	<l id="493">Mais, nous dit elle alors ; je veux vous avertir,</l>
+	<l id="494">(Ou je vous le ferais aussitôt ressentir)</l>
+	<l id="495">Que lors qu'Endymion d'une ardeur retenue</l>
+	<l id="496">Cherche l'occasion de jouir de ma vue...</l>
+	<l id="497">Qu'à moins que d'éprouver le feu de mon courroux,</l>
+	<l id="498">Il ne ressente point la rigueur de vos coups.</l>
+	<l id="499">Elle parle aux sylvains, aux faunes, aux naïades,</l>
+	<l id="500">De tes rares vertus mêmement aux dryades.</l>
+	<l id="501">Pense tu qu'elle même ait bien tout le repos</l>
+	<l id="502">Qu'elle peut souhaiter ? voyant qu'à tous propos</l>
+	<l id="503">La Grèce la demande, et tantôt la Scythie,</l>
+	<l id="504">L'Arménie, la Crète, et dans l'Éthiopie :</l>
+	<l id="505">Voit en quelque pays par où ce grand oeil luit,</l>
+	<l id="506">Que Diane ne fasse un même cours la nuit ?</l>
+	<l id="507">Mais je retarde trop, et je suis attendue ;</l>
+	<l id="508">Enfin n'étant ici longtemps entretenue,</l>
+	<l id="509">Je te veux avertir que Diane m'a dit</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="510">Ô Dieux préparons nous d'entendre se récit ;</l>
+	<l id="511">Que t'a dit ma Déesse, ô ! Nymphe incomparable ?</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="512">Quelque chose qui doit t'être bien agréable.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="513" syll="6" part="i">Hé bien qu'a t'elle dit ?</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="513" syll="6" part="f">De te persuader</l>
+	<l id="514">De la servir toujours, et de la regarder</l>
+	<l id="515">Comme celle qui veut te combler de ses grâces,</l>
+	<l id="516">Autant que tu suivras ses adorables traces ;</l>
+	<l id="517">Où les autres mortels n'oseraient aspirer :</l>
+	<l id="518">Tu peux tout obtenir, tu dois tout espérer.</l>
+	<l id="519">si tu veux te tenir demain vers la montagne,</l>
+	<l id="520">Où Diane n'aura que moi pour sa compagne,</l>
+	<l id="521">Elle m'a protesté de te donner le temps</l>
+	<l id="522">De la considérer comme tu le prétends.</l>
+	<l id="523">Adieu je suis pressée : et ne manque pas l'heure</l>
+	<l id="524" syll="6" part="i">Que Diane t'ordonne.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="524" syll="6" part="f">Ha ! Que plutôt je meure,</l>
+	<l id="525">Avant que négliger une telle faveur,</l>
+	<l id="526">Mon âme la souhaite, avecque trop d'ardeur ;</l>
+	<l id="527" syll="6" part="i">Mais adieu belle Nymphe.</l>
+</sp>
+<sp who="NYMPHE"><speaker>NYMPHE.</speaker>
+	<l id="527" syll="6" part="f">Adieu le plus aimable</l>
+	<l id="528">D'entre tous les mortels : Diane est excusable</l>
+	<l id="529">De te favoriser sur tant d'adorateurs. </l>
+<stage type="exit">Elle se retire.</stage>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="530">Cesse de me traiter de ces discours flatteurs.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="alone" who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+<stage type="">STANCES.</stage>
+<poem type="stances">
+<lg n="1">
+	<l id="531">Variables destins, trompeuses visions,</l>
+	<l id="532">Obscure sombre nuit, adorables rayons</l>
+	<l id="533">D'une divinité tantôt inexorable,</l>
+	<l id="534">Par des coups immortels plus cruels que la mort :</l>
+	<l id="535">Et celle-ci m'a dit pour tout mon réconfort</l>
+	<l id="536">Que Diane m'était trop douce et favorable.</l>
+</lg>
+<lg n="2">
+	<l id="537">Diane ton pouvoir ne peut il surmonter</l>
+	<l id="538">Ces monstres de rigueur que tu veux contenter</l>
+	<l id="539">Par des traits inhumains dont j'ai senti les pointes ?</l>
+	<l id="540">Déesse tu pouvais m'exempter de ces coups,</l>
+	<l id="541">Sans aveugler mes yeux en un moment si doux,</l>
+	<l id="542">Et de forcer ma bouche à te faire des plaintes.</l>
+	<l id="543">Aurai-je traversé les lieux les plus affreux ;</l>
+</lg>
+<lg n="3">
+	<l id="544">Aurai-je surmonté des monstres odieux ;</l>
+	<l id="545">Pour jouir un moment de tes grâces divines ?</l>
+	<l id="546">Pour contempler encor tes célestes beautés,</l>
+	<l id="547">Mes yeux ont vu les fleurs au milieu des clartés,</l>
+	<l id="548">Mais mon coeur aussitôt a senti des épines.</l>
+</lg>
+<lg n="4">
+	<l id="549">Diane mes désirs étaient ils indiscrets ?</l>
+	<l id="550">Venais je dans ces lieux écouter vos secrets ?</l>
+	<l id="551">Pour traverser mon coeur de flèches si cuisantes</l>
+	<l id="552">Oui Déesse, il est vrai que j'étais criminels,</l>
+	<l id="553">Et que je méritais un supplice éternels,</l>
+	<l id="554">De venir éprouver des armes si puissantes,</l>
+</lg>
+<lg n="5">
+	<l id="555">Arrêtons nous ici, tous mes sens sont lassés ;</l>
+	<l id="556">Allons nous reposer après nos maux passés,</l>
+	<l id="557">Au pied de ce grand myrte, où la mousse est épaisse,</l>
+	<l id="558">Pour soutenir mon corps qui se meurt de faiblesse.</l>
+</lg>
+</poem>
+<stage type="lie/sleep">Il se couche au pied du myrte, et s'endort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Sthenobée, Endymion couché.</head>
+<sp stage="alone/carry" who="STHENOBÉE"><speaker>STHENOBÉE, seule portant un couteau à la main, cherche quelqu'un pour lui couper une branche du myrte.</speaker>
+	<l id="559">Je vais cherchant quelqu'un qui veuille ici m'aider</l>
+	<l id="560">À ce que malgré moi je lui veux demander :</l>
+	<l id="561">Tel homme que je suis m'est ici nécessaire,</l>
+	<l id="562">Il me pourrait servir, et ne me saurait plaire,</l>
+	<l id="563">Car, Diane, tu sais que je suis toute à toi,</l>
+	<l id="564">Et que je t'ai promis de vivre sous ta loi</l>
+	<l id="565">Tu sais comme pour moi dix mille coeurs soupirent,</l>
+	<l id="566">Et qu'à me posséder vainement ils aspirent.</l>
+	<l id="567">Mais la nécessité me va faire accepter</l>
+	<l id="568">Quelque main qu'on me vit autrefois rejeter.</l>
+	<l id="569">Il me faut assister à certain sacrifice ;</l>
+	<l id="570">Et quelqu'un aujourd'hui me rendra cet office,</l>
+	<l id="571">De me vouloir couper du myrte que je vois,</l>
+	<l id="572">Qui surpasse en hauteur les arbres de ce bois.</l>
+	<l id="573">Mais j'aperçois un homme au pied de ce grand arbre,</l>
+	<l id="574">Qui surpasse en beauté les lys, et le cinabre :</l>
+	<l id="575">Approchons doucement pour voir cet inconnu,</l>
+	<l id="576">Et sachons depuis quand il est ici venu.</l>
+	<l id="577">Avançons... Mais bons Dieux ! Je connais ce visage,</l>
+	<l id="578">D'où peut être sorti ce divin personnage ?</l>
+	<l id="579">Ha ! Diane, il est vrai que je le vis un jour,</l>
+	<l id="580">Et malgré mes efforts j'eus pour lui de l'amour :</l>
+	<l id="581">Mais depuis quelque mois que je m'en vois absente,</l>
+	<l id="582">J'ai tâché de bannir cette idée charmante.</l>
+	<l id="583">Enfin je m'y forçai quand je ne le vis plus,</l>
+	<l id="584">Et que tous mes soupirs se trouvaient superflus.</l>
+	<l id="585">Je me remis enfin dessous la loi première,</l>
+	<l id="586">Et cependant mon coeur brûlait pour la dernière.</l>
+<stage type="awake/watch">Endymion ouvrant les yeux, considère Sthenobée qui le prie de lui couper un petit rameau du myrte.</stage>
+	<l id="587">Toi, que les Dieux peut-être ont fait venir ici,</l>
+	<l id="588">Parmi ces bois sacrés pour m'ôter de souci,</l>
+	<l id="589">Coupe moi de ce myrte une petite branche ;</l>
+	<l id="590">Et je te vaiS donner aussitôt en revanche</l>
+	<l id="591">Ce coeur tant désiré, tant de fois pourchassé,</l>
+	<l id="592">Que jamais à nul homme on ne vit attaché :</l>
+	<l id="593">À moins que tu ne sois d'un naturel barbare.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION, se levant tire son épée pour lui couper la</speaker> branche.
+	<l id="594">Qui te refuserait, beauté charmante et rare,</l>
+	<l id="595" syll="6" part="i">Un service plus grand ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="595" syll="6" part="f">Attends encor un peu ;</l>
+	<l id="596">Car si l'an me venait surprendre dans ce lieu,</l>
+	<l id="597">Ainsi seule avec toi, l'on en pourrait médire ;</l>
+	<l id="598">Fais donc en me servant tout ce que je désire.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="599">Oui, divine beauté, tu peux me commander.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="600">Encor une faveur, qu'il me faut accorder :</l>
+	<l id="601">Aussitôt que ta main aura de cette épée</l>
+	<l id="602">Pour suivre mon dessein cette branche coupée,</l>
+	<l id="603">Il te faut retirer, pour me donner loisir</l>
+	<l id="604" syll="6" part="i">De la prendre aussitôt :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+<stage type="break">Il abbat un petit rameau.</stage>
+	<l id="604" syll="6" part="f">Je suivrai ton désir.</l>
+	<l id="605">Voilà donc ô beauté ce que tu me demandes :</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="606">Trop aimable étranger, que tes bontés sont grandes,</l>
+	<l id="607" syll="6" part="i">Je les reconnaîtrai.</l>
+<stage type="">Tandis qu'elle prend la branche, et se retire des hommes sortent du bois qui saisissent Endymion.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Endymion, Troupe d'hommes, Hermodan, Diophanie, changée en myrte, Esclave.</head> 
+<sp who="I. HOMME"><speaker>I. HOMME.</speaker>
+	<l id="607" syll="6" part="f">Quel sacrilège, ô Dieux !</l>
+	<l id="608">Qui t'a fait attirer la colère des Cieux.</l>
+	<l id="609">Et qui t'amène ici malheureux et proFane ?</l>
+	<l id="610">sais tu de quelle mort ton crime te condamne ?</l>
+</sp>
+<sp who="II HOMME."><speaker>II HOMME.</speaker>
+	<l id="611">Compagnons écoutez la pitoyable voix,</l>
+	<l id="612">Dont les tristes accents font retentir ce bois</l>
+	<l id="613" syll="6" part="i">Dans le tronc de ce myrte...</l>
+</sp>
+<sp who="III. HOMME"><speaker>III. HOMME.</speaker>
+	<l id="613" syll="6" part="f">Ô grands Dieux, quel miracle !</l>
+	<l id="614">Quoi ne serait ce point quelque nouvel oracle ?</l>
+	<l id="615">Belle âme qui te plains dans ce myrte nouveau,</l>
+	<l id="616">Apprends nous quel destin t'a mis en ce tombeau,</l>
+	<l id="617" syll="6" part="i">Au nom de tous les Dieux :</l>
+</sp>
+<sp stage="costume" who="DIOPHANIE"><speaker>DIOPHANIE, metamorphosée en myrte.</speaker>
+	<l id="617" syll="6" part="f">Ha ! Cruelle fortune,</l>
+	<l id="618">Enfin me seras tu désormais importune ?</l>
+	<l id="619">Toi malheureux, qui viens pour troubler mon repos,</l>
+	<l id="620">Qui t'avait fait venir ainsi mal à propos,</l>
+	<l id="621">Pour venir m'attaquer dessous ce nouvel être,</l>
+	<l id="622">Où jamais les humains ne m'auraient peu connaître ?</l>
+	<l id="623">Quels maux, et quels tourments n'avais je point soufferts ?</l>
+	<l id="624">Ceux que j'ai crû perdus, les ai je recouverts ?</l>
+	<l id="625">Grands Dieux, que vous a fait cette Diophanie,</l>
+	<l id="626">Qui croyait que sa peine était enfin bannie ?</l>
+	<l id="627" syll="6" part="i">Hélas ! Cruels destins.</l>
+</sp>
+<sp stage="kneel/location" who="HERMODAN"><speaker>HERMODAN, se jetant au pied du myrte.</speaker>
+	<l id="627" syll="6" part="f">Ô Dieux, qu'ai je entendu ?</l>
+	<l id="628">Voici donc le trésor que mon coeur a perdu :</l>
+	<l id="629">Ha ! Ma Diophanie, hélas je t'ai perdue,</l>
+	<l id="630">Puis que dans cet état tu m'es enfin rendue :</l>
+	<l id="631">Quoi le plus bel ouvrage, et le mieux achevé</l>
+	<l id="632">Que les Dieux eussent fait, est ainsi retrouvé ?</l>
+	<l id="633">Adorable sujet reçois encor mon âme,</l>
+	<l id="634">Sous cette triste écorce où je t'offre ma flamme.</l>
+	<l id="635">Incomparable objet, est-ce dans cet état</l>
+	<l id="636">Que je revois ce corps, dont le divin éclat</l>
+	<l id="637">Avait ravis les Dieux aussi bien que les hommes ?</l>
+	<l id="638">Enfin ce peut il bien, que le bois ou nous sommes,</l>
+	<l id="639">Ait bien peu me cacher si longtemps ce trésor ;</l>
+	<l id="640">Que me le faisant voir il le retienne encor ?</l>
+	<l id="641">Beaux yeux qui me brûliez, et me brûlez sans cesse,</l>
+	<l id="642">Beauté que j'adorais, et qui toujours me blesse :</l>
+	<l id="643">Hélas ! ne vois tu pas ce malheureux amant,</l>
+	<l id="644">Que tu sus autrefois charmer si doucement.</l>
+	<l id="645">Parle moi donc encor, incomparable bouche,</l>
+	<l id="646">Et ne te caches plus sous cette triste souche.</l>
+</sp>
+<sp who="I. HOMME"><speaker>I. HOMME.</speaker>
+	<l id="647">Quel prodige nouveau ! Ce malheureux berger</l>
+	<l id="648" syll="6" part="i">Va mourir en ces lieux :</l>
+</sp>
+<sp who="III. HOMME"><speaker>III. HOMME.</speaker>
+	<l id="648" syll="6" part="f">Il le faut soulager.</l>
+	<l id="649">Viens berger, lève toi, raconte nous de grâce.</l>
+	<l id="650">Quel accident te fait mourir en cette place.</l>
+</sp>
+<sp who="HERMODAN"><speaker>HERMODAN.</speaker>
+	<l id="651">Hélas je ne saurais ; cet homme mieux que moi</l>
+	<l id="652" syll="6" part="i">Vous dira le sujet.</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="652" syll="6" part="f">Hermodan lève toi,</l>
+	<l id="653">Nous irons hors d'ici raconter cette histoire,</l>
+	<l id="654">sans lui renouveler la cruelle mémoire</l>
+	<l id="655" syll="6" part="i">Des maux qu'elle a soufferts[.]</l>
+</sp>
+<sp who="HERMODAN"><speaker>HERMODAN.</speaker>
+	<l id="655" syll="6" part="f">Non, allez seulement ;</l>
+	<l id="656">Je veux finir ici l'excès de mon tourment :</l>
+	<l id="657">Je lui veux immoler le reste de ma vie,</l>
+	<l id="658" syll="6" part="i">Car il m'est impossible...</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="658" syll="6" part="f">Ha ! Non, perds cette envie :</l>
+	<l id="659">Allons cher Hermodan, je ne te quitte pas,</l>
+	<l id="660">En quel lieu que tu sois je veux suivre tes pas :</l>
+	<l id="661" syll="6" part="i">Viens donc, je t'en supplie.</l>
+</sp>
+<sp who="HERMODAN"><speaker>HERMODAN.</speaker>
+	<l id="661" syll="6" part="f">Hé bien je te proteste.</l>
+	<l id="662">D'abandonner ce myrte agréable et funeste,</l>
+	<l id="663">Lors que j'aurai rendu par des pleurs et des cris,</l>
+	<l id="664">Ce que mon amour doit à des beautés sans prix :</l>
+	<l id="665">Puisque c'est maintenant ce que je puis lui rendre.</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="666">C'est inutilement que l'on le veut attendre.</l>
+</sp>
+<sp who="III. HOMME"><speaker>III. HOMME.</speaker>
+	<l id="667">Menons en attendant ce jeune homme en prison,</l>
+	<l id="668">Pour avoir de son crime un entière raison[.]</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head>
+<sp who="HERMODAN"><speaker>HERMODAN, seul au pied du myrte.</speaker>
+<stage type="title">STANCES.</stage>
+<poem type="">
+<lg n="1">
+	<l id="669">Objet pitoyable et charmant,</l>
+	<l id="670">Malgré l'écorce qui te cache,</l>
+	<l id="671">Ouvre moi beau sujet ce sacré monument,</l>
+	<l id="672">Aussi bien mon âme se fâche</l>
+	<l id="673">De vivre si longtemps ne voyant plus ces yeux,</l>
+	<l id="674">Qui furent autrefois mes soleils, et mes Dieux.</l>
+</lg>
+<lg n="2">
+	<l id="675">Aimables et tristes cheveux</l>
+	<l id="676">Que je vois changés en feuillage ;</l>
+	<l id="677">Beau front, trône vivant, où j'adressais mes voeux,</l>
+	<l id="678">Beaux yeux ; adorable visage,</l>
+	<l id="679">Toi, bouche, dont amour fit sortir autrefois</l>
+	<l id="680">L'oracle qui prédit l'heur dort je jouissais.</l>
+</lg>
+<lg n="3">
+	<l id="681">Hélas souffrez, tristes rameaux,</l>
+	<l id="682">Souffrez que cette voix divine</l>
+	<l id="683">Se fasse entendre encor pour alléger mes maux ;</l>
+	<l id="684">Ou que mon corps prenne racine</l>
+	<l id="685">Au pied de ce beau myrte où sont tous mes désirs,</l>
+	<l id="686">Lors vous verrez cesser mes pleurs, et mes soupirs.</l>
+</lg>
+<lg n="4">
+	<l id="687">Mais c'en est fait, je n'entends plus</l>
+	<l id="688">Sa voix si douce et si charmante ;</l>
+	<l id="689">Mes cris et mes regrets se trouvent superflus,</l>
+	<l id="690">C'est en vain que je me tourmente :</l>
+	<l id="691">Mais ayant arrosé ce myrte de nos pleurs,</l>
+	<l id="692">Arrosons le de sang pour finir nos malheurs.</l>
+</lg>
+</poem>
+<stage type="search">En attendant qu'il se met en devoir de chercher un fer, l'Acte finit.</stage>
+<stage type="decor">Au fond de théâtre est la face du palais de Thymotée, avec une galerie appuyée sur des colonnes de jaspes ; et au devant du palais un jardin avec quantité de pins et de cyprès de chaque côté du théâtre : et au milieu des parterres de fleurs. Thymotée et ses Ministres sortent du palais, et entrent dans le jardin.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Thymotée, Sthenobée, Admon,</head> Pyridor, Esclave.
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="693">Enfin que dites vous de ce beau personnage ?</l>
+	<l id="694">Avez-vous remarqué dans l'air de son visage</l>
+	<l id="695">Une jeune fierté mêlée de douceur,</l>
+	<l id="696">Qui fait voir dans ses yeux la grandeur de son coeur.</l>
+</sp>
+<sp who="PYRIDOR"><speaker>PYRIDOR.</speaker>
+	<l id="697">son langage est charmant autant que sa personne.</l>
+</sp>
+<sp who="STENOBÉE"><speaker>STENOBÉE.</speaker>
+	<l id="698">Et lui fait mériter ce coeur que je lui donne.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="699">Il s'accuse du crime, et s'en croit innocent,</l>
+	<l id="700">Puisqu'il y fut poussé par un charme puissant :</l>
+	<l id="701">Une femme divine en beauté sans égale</l>
+	<l id="702">L'a contraint à couper cette branche fatale.</l>
+	<l id="703">Mais enfin, mes amis, ne le trouvez-vous pas</l>
+	<l id="704" syll="6" part="i">Digne d'être immolé ?</l>
+</sp>
+<sp who="ADMON"><speaker>ADMON.</speaker>
+	<l id="704" syll="6" part="f">Ce glorieux trépas</l>
+	<l id="705">Ne doit appartenir qu'à des âmes si belles,</l>
+	<l id="706">Comme est cet étranger, dont les vertus sont telles</l>
+	<l id="707">Qu'on le doit bien juger, par dessus les mortels,</l>
+	<l id="708">Digne d'être immolé sur nos sacrés autels.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="709">Allons tous de ce pas consulter les oracles</l>
+	<l id="710" syll="6" part="i">Pour savoir si les Dieux...</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Clindor, Thymotée, Admon, Pyridor, Sthenobée.</head> 
+<sp who="CLINDOR"><speaker>CLINDOR.</speaker>
+	<l id="710" syll="6" part="f">Voilà deux beaux miracles !</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="711">Mais d'où viens tu Clindor rempli d'étonnement ?</l>
+	<l id="712" syll="6" part="i">Qui trouble tes esprits ?</l>
+</sp>
+<sp who="CLINDOR"><speaker>CLINDOR.</speaker>
+	<l id="712" syll="6" part="f">Attendez un moment,</l>
+	<l id="713">Après ce que j'ai vu, laissez-moi prendre haleine,</l>
+	<l id="714">Que je puisse parler avecque moins de peine.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="715">Clindor, apprends nous donc ce que toi seul a vu[.]</l>
+</sp>
+<sp who="CLINDOR"><speaker>CLINDOR.</speaker>
+	<l id="716">Ce prodige inouï rend mon sang tout ému.</l>
+	<l id="717">Enfin vous savez tous qu'en la forêt sacrée,</l>
+	<l id="718">Où ce myrte nouveau paraît droit à l'entrée ;</l>
+	<l id="719">Ce pauvre infortuné que nous avons laissé</l>
+	<l id="720">En terre, vers ce tronc, qu'il tenait embrassé :</l>
+	<l id="721">Après l'avoir longtemps arrosé de ses larmes,</l>
+	<l id="722">sa douleur l'a contraint à prendre d'autres armes.</l>
+	<l id="723">Je me suis approché connaissant son dessein,</l>
+	<l id="724">En saisissant le fer qu'il portait dans son sein :</l>
+	<l id="725">Il a fait ses efforts pour me le faire rendre,</l>
+	<l id="726">Mais j'ai su contre lui doucement me défendre :</l>
+	<l id="727">Ayant caché ce fer, j'ai fait tout mon pouvoir</l>
+	<l id="728">Pour tâcher d'arrêter son cruel désespoir :</l>
+	<l id="729">Et je le prie en vain, la fureur le transporte,</l>
+	<l id="730">Rien ne peut l'adoucir, à tout coup il s'emporte,</l>
+	<l id="731">Je l'ai quitté pourtant, en l'ayant désarmé</l>
+	<l id="732">De ce fer, qui pour lui m'avait tant alarmé :</l>
+	<l id="733">Il m'appelle méchant, cruel, impitoyable,</l>
+	<l id="734">De vouloir prolonger son destin misérable :</l>
+	<l id="735">Dans ce torrent de maux je le laisse crier,</l>
+	<l id="736">Malgré tous ses tourments, il a beau me prier,</l>
+	<l id="737">Je l'ai laissé tout seul dans ces dures atteintes,</l>
+	<l id="738">Qui faisaient retentir la forêt de ses plaintes :</l>
+	<l id="739">Sachant le désespoir où se porte l'amour,</l>
+	<l id="740">Je l'ai voulu revoir dans ce triste séjour :</l>
+	<l id="741">Mais qu'ai je vu, bons Dieux ! au lieu du personnage,</l>
+	<l id="742">J'ai vu touchant le myrte un olivier sauvage :</l>
+	<l id="743">Après tant de langueurs ses voeux sont exaucés,</l>
+	<l id="744">Il a tari ses pleurs, ses tourments sont passés :</l>
+	<l id="745">Ces rameaux vont joignant ceux la de son amante,</l>
+	<l id="746">Qui peut faire juger combien elle est contente</l>
+	<l id="747" syll="6" part="i">De voir ce cher Berger.</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="747" syll="6" part="f">Ô merveille des Dieux !</l>
+	<l id="748">Trop heureux Hermodan, pouvais tu jamais mieux</l>
+	<l id="749" syll="4" part="i">Te rencontrer ?</l>
+</sp>
+<sp who="ADMON"><speaker>ADMON.</speaker>
+	<l id="749" syll="8" part="f">Ami, raconte nous l'histoire,</l>
+	<l id="750" syll="6" part="i">Comme tu nous promis.</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="750" syll="6" part="f">Hélas, triste mémoire,</l>
+	<l id="751">Faut il renouveler de si cruels malheurs,</l>
+	<l id="752">Que je ne dirai point sans répandre des pleurs ?</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="753">Mon fils, pour contenter toute la compagnie,</l>
+	<l id="754" syll="2" part="i">Commence :</l>
+</sp>
+<sp who="ESCLAVE"><speaker>ESCLAVE.</speaker>
+	<l id="754" syll="10" part="f">Chacun sait comme Diophanie</l>
+	<l id="755">Fut avant son malheur la plus rare beauté,</l>
+	<l id="756">Qui puisse à tous les coeurs ôter la liberté :</l>
+	<l id="757">Tout cédait à l'abord d'une telle merveille,</l>
+	<l id="758">Qui fut comme en beautés en rigueur sans pareille :</l>
+	<l id="759">Dès ses plus jeunes ans, à l'imitation</l>
+	<l id="760">De celles de son âge, elle prit passion</l>
+	<l id="761">De garder les troupeaux, et trouvait ses délices</l>
+	<l id="762">Et ses contentements dedans ces exercices.</l>
+	<l id="763">Parmi tous les bergers qui lui furent connus,</l>
+	<l id="764">Qui près d'elle en ces lieux furent les mieux venus ;</l>
+	<l id="765">Ce fut cet Hermodan, qui depuis leur enfance</l>
+	<l id="766">Est de ses amitiés entière jouissance :</l>
+	<l id="767">Mais connaissant enfin leurs charmes tous puissants,</l>
+	<l id="768">Amour blesse d'un trait ces deux coeurs innocents :</l>
+	<l id="769">Car enfin s'ils étaient les plus parfaits du monde,</l>
+	<l id="770">Ils s'aimèrent aussi d'une amour sans seconde :</l>
+	<l id="771">Mais au point qu'Hermodan se croyait plus heureux,</l>
+	<l id="772">C'est lors que le destin lui fut plus rigoureux.</l>
+	<l id="773">Une beauté si rare était trop admirée,</l>
+	<l id="774">Pour demeurer longtemps sans se voir adorée,</l>
+	<l id="775">L'on voyait mille amants mourir pour ses beaux yeux,</l>
+	<l id="776">Et le seul Hermodan était victorieux.</l>
+	<l id="777">Amphidamas fut l'un des plus considérables,</l>
+	<l id="778">Et se vit à la fin un des plus misérables :</l>
+	<l id="779">Son père la pressait pour cet illustre amant ;</l>
+	<l id="780">Mais elle fut rebelle à son commandement.</l>
+	<l id="781">C'est en vain toutefois qu'elle s'en veut défendre,</l>
+	<l id="782">Son père avait dessein pour un si puissant gendre :</l>
+	<l id="783">Enfin il voulut tant user d'autorité,</l>
+	<l id="784">Qu'il en a fait périr cette extrême beauté :</l>
+	<l id="785">Feignant de s'accorder au vouloir de son père,</l>
+	<l id="786">Quant elle le voyait emporté de colère :</l>
+	<l id="787">Elle lui protesta de les rendre contents,</l>
+	<l id="788">Pourvu qu'on lui donna cinq ou six jours de temps.</l>
+	<l id="789">On lui donne ce temps avec beaucoup de joie,</l>
+	<l id="790">Mais c'était lui donner le chemin et la voie</l>
+	<l id="791">Qui leur devait coûter tant d'ennuis et de pleurs ;</l>
+	<l id="792">Puisque les Dieux touchés de ses vives douleurs,</l>
+	<l id="793">Permirent que dans peut cette beauté divine</l>
+	<l id="794">Vit couvrir son beau corps d'une dure racine.</l>
+	<l id="795">On la cherche partout après cet accident,</l>
+	<l id="796">Puisque pas un de nous, ni le pauvre Hermodan,</l>
+	<l id="797">En ne la voyant plus n'eut jamais le pensée</l>
+	<l id="798">Que les Dieux pour toujours l'eussent ainsi placée :</l>
+	<l id="799">Nous cherchâmes bien loin ce qui fut près de nous,</l>
+	<l id="800">Et si cet étranger n'eut encor parmi vous</l>
+	<l id="801">D'une main sacrilège abattu ce feuillage,</l>
+	<l id="802">Son père l'aurait fait rechercher davantage.</l>
+	<l id="803">Mais allons informer ce père malheureux</l>
+	<l id="804">Quel accident causa son dessein rigoureux.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="805">Dieux ! Le triste récit, quelle étrange nouvelle</l>
+	<l id="806">Apprendra Licaspis, père de cette belle.</l>
+	<l id="807">Mais allons maintenant poursuivre nos desseins,</l>
+	<l id="808">Puisqu'ils sont pour les Dieux tous pieux et tous saints.</l>
+	<l id="809">Allons leur demander si la belle victime,</l>
+	<l id="810">Pour qui chacun de nous a tant pris de l'estime,</l>
+	<l id="811">Leur doit être immolée en ce jour solennel ?</l>
+</sp>
+<sp who="PYRIDOR"><speaker>PYRIDOR.</speaker>
+	<l id="812">Comme on est assuré qu'il n'est pas criminel,</l>
+	<l id="813">Ainsi qu'on le croyait ; si c'est par la prière</l>
+	<l id="814" syll="6" part="i">D'une Divinité...</l>
+</sp>
+<sp stage="low" who="STHENOBÉE"><speaker>STHENOBÉE, en secret.</speaker>
+	<l id="814" syll="6" part="f">J'en suis la meurtrière,</l>
+	<l id="815" syll="6" part="i">C'était pour m'obéir</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="815" syll="6" part="f">Mes amis, il est temps</l>
+	<l id="816">De porter jusqu'au Ciel par des cris éclatants</l>
+	<l id="817">Nos désirs et nos voeux, afin que la Déesse</l>
+	<l id="818">Reçoive la victime où le peuple s'empresse.</l>
+<stage type="exit/alone">Ils s'en vont tous : Sthenobée demeure seule.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="alone" who="STHENOBÉE"><speaker>STHENOBÉE, seule.</speaker>
+<poem type="strophes">
+<lg n="1">
+	<l id="819">Que sont devenus tes plaisirs ?</l>
+	<l id="820">Que signifient tes soupirs,</l>
+	<l id="821">Ô criminelle Sthenobée !</l>
+	<l id="822">En quel malheur es tu tombée ?</l>
+	<l id="823">Amour te tiendra désormais,</l>
+	<l id="824">Puis qu'il se glisse dans ton âme,</l>
+	<l id="825">Il y va produire une flamme</l>
+	<l id="826">sans qu'elle s'éteigne jamais,</l>
+</lg>
+<lg n="2">
+	<l id="827">Impitoyable et dure loi,</l>
+	<l id="828">Lorsque je me rangeai sous toi,</l>
+	<l id="829">Tu me devais du moins promettre,</l>
+	<l id="830">Qu'en l'état où je m'allais mettre</l>
+	<l id="831">Rien ne pourrait toucher ce coeur,</l>
+	<l id="832">Qu'il serait toujours inflexible,</l>
+	<l id="833">Qu'on ne le verrait point sensible</l>
+	<l id="834">Aux traits de ce petit vainqueur.</l>
+</lg>
+<lg n="3">
+	<l id="835">Lors qu'à cette divinité</l>
+	<l id="836">Je vouai ma virginité</l>
+	<l id="837">En voulant suivre son exemple :</l>
+	<l id="838">Je le fus jurer dans son temple :</l>
+	<l id="839">Mais Diane ne me dit pas</l>
+	<l id="840">Qu'Amour viendrait dans l'Albanie,</l>
+	<l id="841">Pour user de sa tyrannie,</l>
+	<l id="842">Et me vaincre par tant d'appas.</l>
+</lg>
+<lg n="4">
+	<l id="843">Que cet esclave en est pourvu,</l>
+	<l id="844">Il faudrait ne l'avoir point vue,</l>
+	<l id="845">Pour ne pas ressentir ses charmes,</l>
+	<l id="846">Et ne pas lui rendre les armes :</l>
+	<l id="847">Les efforts que mon coeur a fait</l>
+	<l id="848">Pour résister à ses mérites,</l>
+	<l id="849">Ont eu des forces trop petites,</l>
+	<l id="850">Et l'objet était trop parfait.</l>
+</lg>
+<lg n="5">
+	<l id="851">Mais que devons nous espérer,</l>
+	<l id="852">À quoi nous sert de soupirer ?</l>
+	<l id="853">Ce sujet qui cause mon crime,</l>
+	<l id="854">sera l'innocente victime</l>
+	<l id="855">Qui se doit bientôt immoler :</l>
+	<l id="856">Une Déesse impitoyable,</l>
+	<l id="857">Pour rendre mon amour coupable,</l>
+	<l id="858">Me le vient aujourd'hui voler.</l>
+</lg>
+<lg n="6">
+	<l id="859">Que mon destin est rigoureux !</l>
+	<l id="860">s'il faut que ce coeur amoureux</l>
+	<l id="861">Ressente un si cruel désastre,</l>
+	<l id="862">De voir éclipser ce bel Astre</l>
+	<l id="863">Au milieu de son beau printemps,</l>
+	<l id="864">Ce parfait miracle des hommes !</l>
+	<l id="865">Je vois bien qu'au siècle où nous sommes,</l>
+	<l id="866">Les immortels sont inconstants.</l>
+</lg>
+<lg n="7">
+	<l id="867">Grands Dieux pourquoi me faites vous</l>
+	<l id="868">Ressentir ses aimables coups,</l>
+	<l id="869">Pour le ravir à la même heure ?</l>
+	<l id="870">Pourquoi permettez-vous qu'il meure ?</l>
+	<l id="871">Est-ce pour punir mon amour</l>
+	<l id="872">Qu'il faut faire ce sacrifice ?</l>
+	<l id="873">Faut-il qu'Endymion périsse</l>
+	<l id="874">En ce triste et funeste jour ?</l>
+</lg>
+<lg n="8">
+	<l id="875">Diane, s'il le faut ainsi,</l>
+	<l id="876">Permets que je m'immole aussi,</l>
+	<l id="877">Et pour contenter ton envie</l>
+	<l id="878">Tu recevras encor ma vie,</l>
+	<l id="879">Et tu verras finir alors</l>
+	<l id="880">L'excès de ma flamme amoureuse,</l>
+	<l id="881">Qui te semble trop odieuse,</l>
+	<l id="882">Et doit mériter tant de morts.</l>
+</lg>
+</poem>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Alcyonnée, Sthenobée.</head>
+<sp stage="suprise" who="ALCYONNÉE"><speaker>ALCYONNÉE, surprenant Sthenobée.</speaker>
+	<l id="883">Sthenobée, il est vrai, tu te fais violence,</l>
+	<l id="884">Et tu souffres bien plus par ce profond silence :</l>
+	<l id="885">Apprends moi donc ton mal, puis qu'il m'est important,</l>
+	<l id="886">Il pourra s'adoucir en me le racontant :</l>
+	<l id="887">Mais si je te disais quelle en est ma pensée,</l>
+	<l id="888">Des maux qui maintenant te tiennent oppressée,</l>
+	<l id="889">M'avouerais tu bien quel en est le sujet ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="890">Oui ! Je t'avouerai quel est ce triste objet,</l>
+	<l id="891">Digne de ma pitié, comme il est de ma flamme.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="892">Cet esclave étranger a captivé ton âme :</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="893" syll="2" part="i">C'est lui,</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="893" syll="10" part="f">Je m'en doutais, et tu me l'as caché ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="894">Ne t'en étonnes plus ; c'est que j'avais tâché</l>
+	<l id="895">De bannir de mon coeur la flamme criminelle ;</l>
+	<l id="896">Et mon cruel destin la veut rendre éternelle :</l>
+	<l id="897">Sévère et sacré voeu qui cause mon tourment,</l>
+	<l id="898">Qui me fait désirer et refuser l'amant !</l>
+	<l id="899">Insupportable loi qui me tient engagée,</l>
+	<l id="900">Où malgré mon amour je me sens obligée !</l>
+	<l id="901">Mais c'est en vain, Diane, il faut que malgré moi,</l>
+	<l id="902">Je brise le serment de vivre sous ta loi.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="903">Aimable Sthenobée, à quoi bon tant de plaintes ?</l>
+	<l id="904">Et puis qu'enfin l'amour t'a donné des atteintes,</l>
+	<l id="905">Puisque ton chaste coeur a malgré tes efforts</l>
+	<l id="906">Fléchi dessous les lois qui causent tes remords,</l>
+	<l id="907">Un si digne sujet te peut rendre excusable,</l>
+	<l id="908">ses mérites rendront ton amour pardonnable.</l>
+	<l id="909">Mais je m'étonne encor, que ce bel inconnu,</l>
+	<l id="910">Depuis quelques moments qu'il est ici venu,</l>
+	<l id="911">Ait peu charmer ton coeur avec tant d'avantage ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="912">Hélas ! Tu t'es trompée en tenant ce langage ;</l>
+	<l id="913">Je le vis une fois au temple de Venus,</l>
+	<l id="914">Et d'autres avec lui qui m'étaient inconnus :</l>
+	<l id="915">Rien ne me plût que lui ; mais il me plût de sorte,</l>
+	<l id="916">Que la première loi ne fut pas assez forte</l>
+	<l id="917">Pour résister aux coups d'un vainqueur si parfait,</l>
+	<l id="918">Tout l'effort que je fis se trouva sans effet.</l>
+	<l id="919">Je lui parlai toujours pendant quelques journées,</l>
+	<l id="920">Qui pour sacrifier nous furent ordonnées :</l>
+	<l id="921">Enfin il paraissait si charmant à mes yeux,</l>
+	<l id="922">Que mon coeur aussitôt en conçut ces beaux feux.</l>
+	<l id="923">Pour lui, je ne sais pas quelle était sa pensée ?</l>
+	<l id="924">Je ne sais si pour moi son âme fut blessée ?</l>
+	<l id="925">Quoi qu'il me témoignât beaucoup d'empressement,</l>
+	<l id="926">Il me traitait toujours fort sérieusement,</l>
+	<l id="927">Par des certains respects remplis d'indifférence,</l>
+	<l id="928">Qui bannissait d'abord ma plus douce espérance :</l>
+	<l id="929">Et s'étendait toujours sur ce peu de beauté,</l>
+	<l id="930">Qui ne pût néanmoins ravir sa liberté :</l>
+	<l id="931">Car bien qu'il soupirât étant à ma présence,</l>
+	<l id="932">Je remarquais en lui beaucoup d'impatience :</l>
+	<l id="933">Je n'étais pas toujours l'objet de ses regards,</l>
+	<l id="934">Et ses yeux vagabonds allaient de toutes parts :</l>
+	<l id="935">Ils s'élevaient aux Cieux d'une ardeur suppliante,</l>
+	<l id="936">Encor que je lui fusse incessamment présente :</l>
+	<l id="937">C'est le sujet pourquoi l'on ne peut ignorer,</l>
+	<l id="938">Que quelqu'autre que moi le faisait soupirer.</l>
+	<l id="939">Et si cette raison ne fut pas bien puissante</l>
+	<l id="940">Pour bannir de mon coeur cette flamme naissante ;</l>
+	<l id="941">Encor qu'il soit certain qu'il ne m'haïssait pas,</l>
+	<l id="942">si crois-je qu'il brûlait pour des autres appas.</l>
+	<l id="943">Et bien qu'il témoignât quand nous nous séparâmes.</l>
+	<l id="944">D'avoir quelque regret lors que nous le quittâmes ;</l>
+	<l id="945">J'ai bien vu du depuis son peu d'affection,</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="946">Quoi ! Tu pourrais douter qu'il n'eut de passion</l>
+	<l id="947">Pour des attraits si doux, pour des si puissants charmes,</l>
+	<l id="948">À qui même les Dieux pourraient rendre les armes ?</l>
+	<l id="949">Quitte cette pensée ; et crois que tes beaux yeux,</l>
+	<l id="950">Pour se faire adorer, font courir en tous lieux :</l>
+	<l id="951">Qui l'aurait fait venir aux bois de l'Albanie,</l>
+	<l id="952">Pour des Albaniens sentir la tyrannie ;</l>
+	<l id="953">Que pour voir les beautés qui le surent charmer ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="954">Ha ! Chère Alcyonnée, à quoi me sert d'aimer</l>
+	<l id="955" syll="6" part="i">Cet aimable sujet ?</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="955" syll="6" part="f">Et quel nouvel obstacle ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="956">Quoi mes yeux verrez-vous un si cruel spectacle ?</l>
+	<l id="957">Grands Dieux pourrez-vous voir sur vos sacrés autels</l>
+	<l id="958">Immoler aujourd'hui le plus beau des mortels ?</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="959">Quoi ! L'on doit l'immoler ; en es tu bien certaine ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="960">Je ne le sais pas bien, mais j'en souffre une peine</l>
+	<l id="961" syll="6" part="i">Qu'on ne peut exprimer.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="961" syll="6" part="f">Mais en a-t-on parlé ?</l>
+	<l id="962" syll="6" part="i">Qui le dit Sthenobée ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="962" syll="6" part="f">Hélas ! Ils sont allé</l>
+	<l id="963" syll="6" part="i">Pour consulter l'Oracle.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="963" syll="6" part="f">Ô Dieux ! Est il possible ?</l>
+	<l id="964">Non, il faudrait avoir un coeur trop insensible</l>
+	<l id="965">Pour répandre à ce jour le sang d'un Demi-dieu ;</l>
+	<l id="966">Ma chère Sthenobée ôtons nous de ce lieu,</l>
+	<l id="967">Et sachons s'il est vrai qu'il faille qu'il périsse</l>
+	<l id="968">Empêchons s'il se peut ce cruel sacrifice.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="969">Hélas veuillent les Dieux ruiner le dessein</l>
+	<l id="970">Que nos prêtres ont pris, quoi qu'il soit juste et saint.</l>
+<stage type="decor">Le palais de Thymotée paraît avec quantité colonnes, et au milieu de la salle du palais une table couverte d'un beau tapis, où l'on met dessus les corbeilles de fleurs, et les vases d'or, ou d'autres métaux, le tout pour le sacrifice d'Endymion qui paraît seul au milieu de la salle chargé de chaînes d'or, et d'argent.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+<sp stage="carry" who="ENDYMION"><speaker>ENDYMION, chargé de chaînes aux mains et aux pieds.</speaker>
+<poem type="strophes">
+<lg n="1">
+	<l id="971">Diane, maintenant seras-tu satisfaite ?</l>
+	<l id="972">Ou bien si ta vengeance est encor imparfaite,</l>
+	<l id="973">Est-ce pour prix de mes travaux ?</l>
+	<l id="974">Est-ce ainsi que tu veux récompenser mes peines ?</l>
+	<l id="975">Est-ce pour alléger mes maux,</l>
+	<l id="976">Que l'on m'a chargé de ces chaînes ;</l>
+	<l id="977">Ne m'invente-t-on point quelques tourments nouveaux ?</l>
+</lg>
+<lg n="2">
+	<l id="978">Ne finira-t-on point ma malheureuse trame ?</l>
+	<l id="979">Ingrate Déité, tu sais bien que mon âme</l>
+	<l id="980">Languissait déjà sous tes fers :</l>
+	<l id="981">Mais encor que les tiens ne sont pas si visibles,</l>
+	<l id="982">Les maux que mon coeur a soufferts,</l>
+	<l id="983">Font bien voir qu'ils sont plus sensibles,</l>
+	<l id="984">Que ceux-ci dont mes mains, et mes pieds sont couverts.</l>
+</lg>
+<lg n="3">
+	<l id="985">Déesse, c'est ainsi que l'on me gratifie,</l>
+	<l id="986">Si bien que c'est en vain que mon amour se fie</l>
+	<l id="987">D'être récompensée un jour.</l>
+	<l id="988">Est-ce de mes langueurs une suite infinie ?</l>
+	<l id="989">Étant dans ce cruel séjour</l>
+	<l id="990">Exposé sous la tyrannie</l>
+	<l id="991">D'un peuple sans pitié, barbare, et sans amours ?</l>
+</lg>
+<lg n="4">
+	<l id="992">L'on en veut à mes jours : et quoi qu'on me le cache,</l>
+	<l id="993">Si je suis la victime, il faut que je le sache :</l>
+	<l id="994">Ils font tous leurs préparatifs ;</l>
+	<l id="995">Et même leurs discours me donnent connaissance,</l>
+	<l id="996">Que je suis celui des captifs,</l>
+	<l id="997">Qui doit périr sous leur puissance ;</l>
+	<l id="998">Et si de me le dire ils sont encor craintifs.</l>
+</lg>
+<lg n="5">
+	<l id="999">Mais, Déesse, apprends moi la cause de mon crime</l>
+	<l id="1000">Pour voir si ton courroux peut être légitime :</l>
+	<l id="1001">Ha ! C'est toi, sacrilège main,</l>
+	<l id="1002">Qui pour trop obéir ma rendu si coupable :</l>
+	<l id="1003">Pour m'être rendu trop humain</l>
+	<l id="1004">À cet objet incomparable,</l>
+	<l id="1005">Pour lequel j'ai coupé ce myrte si soudain.</l>
+</lg>
+</poem>
+	<l id="1006">Mais que vois je venir, c'est lui ; ce sont mes maîtres</l>
+	<l id="1007">Le sacrificateur, avec ses autres prêtres.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Thymotée, Pyridor, Admon, Ministres de Thymotée, Endymion.</head>
+<stage type="carry/pour/wave">Un esclave portant un vase d'eau lustrale, dont Thymotée jette une rosée sur Endymion avec une profonde révérence.</stage>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1008">Endymion reçois ce premier appareil,</l>
+	<l id="1009">Puisque tu paraîtras comme un autre soleil,</l>
+	<l id="1010">Lors que nous le verrons au bout de sa carrière</l>
+	<l id="1011">Cacher dessous la mer sa céleste lumière ;</l>
+	<l id="1012">Ainsi que l'on verra cet autre Astre qui luit,</l>
+	<l id="1013">Pour chasser en tous lieux les ombres de la nuit ;</l>
+	<l id="1014">Enfin cette Déesse, et si grande, et si belle,</l>
+	<l id="1015">Dont on fait aujourd'hui la fête solennelle,</l>
+	<l id="1016">Désire que bientôt tu lui sois immolé,</l>
+	<l id="1017">Sachant que pour les Dieux ton coeur est si zélé :</l>
+	<l id="1018">Les Oracles l'ont dit, et la Déesse même</l>
+	<l id="1019">Témoigne d'en avoir un désir tout extrême.</l>
+	<l id="1020">Enfin Endymion, tu vois bien que les Dieux</l>
+	<l id="1021">Te vont faire sans doute habitant dans les Cieux :</l>
+	<l id="1022">L'on voit bien que la terre est du tout incapable</l>
+	<l id="1023">De porter si longtemps un homme incomparable :</l>
+	<l id="1024">Les Dieux t'en retirant, pour te favoriser,</l>
+	<l id="1025">Font voir qu'ils n'ont dessein qu'à t'immortaliser.</l>
+</sp>
+<sp who="ADMON"><speaker>ADMON, aux autres.</speaker>
+	<l id="1026">Ha ! Que vois-je bons Dieux ! Quel généreux courage !</l>
+	<l id="1027">Il apprend cet arrêt sans changer de visage.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1028">Courage Endymion, prépare ce grand coeur,</l>
+	<l id="1029">sans accuser les Dieux d'avoir trop de rigueur :</l>
+	<l id="1030" syll="6" part="i">Offre leur ta belle âme.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1030" syll="6" part="f">Il n'est pas nécessaire</l>
+	<l id="1031">De m'instruire en cela de ce que je dois faire :</l>
+	<l id="1032">Ô ! L'agréable arrêt, la souhaitable mort,</l>
+	<l id="1033">Ne dois-je pas bénir la douceur de mon sort ?</l>
+	<l id="1034">Enfin c'est pour Diane, mort chère et glorieuse,</l>
+	<l id="1035">Qui sur toutes les morts sera victorieuse :</l>
+	<l id="1036">C'est donc pour ma Déesse ? est il rien de si doux</l>
+	<l id="1037">Que de mourir pour elle, et d'en sentir les coups ?</l>
+	<l id="1038">Aiguisez vos couteaux, allez en diligence,</l>
+	<l id="1039">J'attendrai ce moment avec impatience :</l>
+	<l id="1040">Loin de l'appréhender, j'en adore l'auteur,</l>
+	<l id="1041">Je vous le dis encor, grand sacrificateur,</l>
+	<l id="1042" syll="6" part="i">Puisque c'est pour Diane...</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1042" syll="6" part="f">Oui, mon fils, c'est pour elle,</l>
+	<l id="1043" syll="6" part="i">C'est elle qui l'ordonne :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1043" syll="6" part="f">Ha ! L'aimable nouvelle :</l>
+	<l id="1044">Et puis qu'il faut mourir, Allons, j'en suis contant,</l>
+	<l id="1045">Je recevrai le coup d'un coeur ferme et constant.</l>
+	<l id="1046">Mais si de m'immoler vous avez répugnance,</l>
+	<l id="1047">Comme je le connais à votre contenance,</l>
+	<l id="1048">Si vous appréhendez d'accomplir ce dessein,</l>
+	<l id="1049">Vous me verrez plonger le couteau dans mon sein.</l>
+	<l id="1050">Quoi vous versez des pleurs ? Et moi je meurs d'envie</l>
+	<l id="1051">D'arriver sur l'autel pour y finir ma vie.</l>
+	<l id="1052">Je n'ai plus de désirs que pour ce doux trépas ;</l>
+	<l id="1053">Et l'on me déplairait de ne m'y mener pas.</l>
+	<l id="1054">Enfin me voici prêt, mettez ordre au service,</l>
+	<l id="1055">Allez donc promptement préparer mon supplice.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1056">Ton supplice, mon fils, n'a rien de rigoureux,</l>
+	<l id="1057">Il sera trouvé doux par un coeur généreux :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1058">Puisque c'est pour les Dieux que l'on me sacrifie,</l>
+	<l id="1059">Il faut avec raison que je m'en glorifie,</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1060">Oui les Dieux t'ont choisi par dessus les humains,</l>
+	<l id="1061">Nous te tenons ici de leurs divines mains :</l>
+	<l id="1062">Car il est vrai, mon fils, que ce sont nos maximes,</l>
+	<l id="1063">De n'immoler jamais que d'illustres victimes.</l>
+	<l id="1064">Tu te dois croire heureux d'être mis de ce rang,</l>
+	<l id="1065">Et baiser le couteau qui doit t'ouvrir le flanc.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1066">Thymotée c'est assez, j'en reçois de la gloire,</l>
+	<l id="1067">Et du contentement plus qu'on ne le peut croire :</l>
+	<l id="1068">Allez, mes chers amis, courez, qu'attendez vous !</l>
+	<l id="1069">Voyez que je suis prêt, préparez vous donc tous :</l>
+	<l id="1070">Faites vos appareils, puisque voici l'hostie,</l>
+	<l id="1071">Contente, et même preste, aussitôt qu'avertie.</l>
+</sp>
+<sp stage="kiss" who="THYMOTÉE"><speaker>THYMOTÉE, embrassant Endymion.</speaker>
+	<l id="1072">Ô ! Coeur trop généreux, plus céleste qu'humain,</l>
+	<l id="1073">Miracle des mortels ! faudra-t'il que ma main</l>
+	<l id="1074">Plonge dans ce grand coeur la lame meurtrière ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1075">Non, non, ne craignez rien, ma constance est entière :</l>
+	<l id="1076">Vous me verrez plus prêt à recevoir le coup,</l>
+	<l id="1077" syll="6" part="i">Que vous à le donner.</l>
+</sp>
+<sp stage="exit/together" who="THYMOTÉE"><speaker>THYMOTÉE, en s'en allant avec sa troupe.</speaker>
+	<l id="1077" syll="6" part="f">Ha ! Mon fils, c'est beaucoup.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="alone" who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+<stage type="title">STANCES.</stage>
+<poem type="stances">
+<lg n="1">
+	<l id="1078">Ce qu'on m'avait prédit n'est que trop véritable :</l>
+	<l id="1079">Tu l'as donc ordonné, Déesse variable ;</l>
+	<l id="1080">Que je sois immolé pour ce jour solennel ?</l>
+	<l id="1081">Oui, je mourrai, Diane, et sans savoir mon crime</l>
+	<l id="1082">J'irai sur ton autel pour être ta victime,</l>
+	<l id="1083">Et répandre mon sang pour être criminel.</l>
+</lg>
+<lg n="2">
+	<l id="1084">Nous murmurons mon coeur, cet arrêt nous étonne,</l>
+	<l id="1085">Et Diane le veut, c'est elle qui l'ordonne,</l>
+	<l id="1086">Vois qu'elle en est le juge, et qu'il faut obéir :</l>
+	<l id="1087">Que tu le sus hier d'une bouche mortelle,</l>
+	<l id="1088">C'est pourquoi maintenant l'agréable nouvelle</l>
+	<l id="1089">De cet arrêt de mort te doit bien réjouir.</l>
+</lg>
+<lg n="3">
+	<l id="1090">Mourons, Endymion, sans faire résistance ;</l>
+	<l id="1091">Et montrons à la mort un coeur plein de constance :</l>
+	<l id="1092">Oui, Diane, aujourd'hui tu verras ton autel,</l>
+	<l id="1093">Pour contenter tes yeux, et pour te satisfaire,</l>
+	<l id="1094">Rougir de toutes parts ; puisque c'est pour te plaire</l>
+	<l id="1095">Que tu veux voir le sang d'un malheureux mortel.</l>
+</lg>
+<lg n="4">
+	<l id="1096">Mais, Diane, c'est trop, tu me combles de gloire,</l>
+	<l id="1097">Et j'ose murmurer d'une telle victoire ;</l>
+	<l id="1098">C'est toi qui veux ma mort, je ne dispute plus :</l>
+	<l id="1099">Déesse, j'y consens, mon âme se dispose</l>
+	<l id="1100">À mourir pour l'honneur d'une si belle choses ;</l>
+	<l id="1101">Je serais criminel d'en faire le refus.</l>
+</lg>
+<lg n="5">
+	<l id="1102">Mais j'entends Sthenobée avec sa compagnie,</l>
+	<l id="1103">Cette rare beauté, l'honneur de l'Albanie,</l>
+	<l id="1104">Ha ! bons Dieux ! je la vois en un bel appareil,</l>
+	<l id="1105">Écoutons les discours de ce brillant soleil :</l>
+</lg>
+</poem>
+	<l id="1106" syll="6" part="i">Cachons nous en un coin.</l>
+<stage type="hide">Il se cache derrière une colonne.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Sthenobée, Choeur de Filles.</head>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1106" syll="6" part="f">Hélas que puis je faire ?</l>
+	<l id="1107">Où sera mon recours, puisque tout m'est contraire ?</l>
+	<l id="1108">Les Oracles l'ont dit, les Dieux l'ont ordonné,</l>
+	<l id="1109">S'en est fait, il est mort, puis qu'il est condamné,</l>
+	<l id="1110">Te verrai je finir, jour pompeux et funeste ?</l>
+	<l id="1111">Il faut que malgré moi sans fin je te déteste :</l>
+	<l id="1112">Ne t'en étonnes pas, Déesse, ta rigueur</l>
+	<l id="1113">Malgré tous mes devoirs fait murmurer mon coeur.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1114">Quelle fête est ceci ? quelle réjouissance ?</l>
+	<l id="1115">L'on ne voir que des pleurs, pas un n'a l'assurance,</l>
+	<l id="1116">Quoi que du sacrifice ils prennent tous les soins</l>
+	<l id="1117">À disposer leurs yeux d'aller être témoins,</l>
+	<l id="1118">Au pied de cet autel, d'un spectacle si triste ;</l>
+	<l id="1119">Leur devoir le veut bien, mais la pitié résiste ?</l>
+	<l id="1120">Ha ! Déesse, bannis ce cruel attentat,</l>
+	<l id="1121">Qui met tout ce triomphe en un lugubre état :</l>
+	<l id="1122">Permets que quelque biche, ou bien une génisse,</l>
+	<l id="1123">Sur l'autel où tu veux qu'Endymion finisse,</l>
+	<l id="1124">Épargne de son sang celui d'Endymion ;</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1125">Ha ! Tu serais déçue en cette opinion.</l>
+	<l id="1126">Il faut croire plutôt que Diane se hâte</l>
+	<l id="1127">D'arriver au moment dont sa rigueur se flatte.</l>
+	<l id="1128">Mais cherchons la victime, et malgré nos douleurs,</l>
+	<l id="1129">Mettons dessus son chef la couronne de fleurs ;</l>
+	<l id="1130">Et le bandeau de pourpre, et donnons lui des larmes,</l>
+	<l id="1131">Puisque pour le sauver je n'ai point d'autres armes.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Endymion, Sthenobée, Choeur de</head> Filles.
+<sp stage="entrance" who="ENDYMION"><speaker>ENDYMION, paraisssant.</speaker>
+	<l id="1132">Heureux Endymion ! Ô jour trop doux pour moi</l>
+	<l id="1133" syll="6" part="i">D'être plaint de la sorte !</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1133" syll="6" part="f">Viens donc approche toi,</l>
+	<l id="1134">Aimable Endymion, si je fais cet office,</l>
+	<l id="1135">Saches que de ta mort je ne suis point complice :</l>
+	<l id="1136">Avec combien de pleurs, avec quel désespoir,</l>
+	<l id="1137">Me suis je résolue à ce triste devoir ?</l>
+	<l id="1138">Que ne puis je épargner ta vie par la mienne ;</l>
+	<l id="1139">Mais la loi ne peut pas souffrir que je l'obtienne.</l>
+	<l id="1140">Enfin pour m'obéir tu te vis arrêté,</l>
+	<l id="1141">Par les Albaniens tu t'es vu maltraité :</l>
+	<l id="1142">Tu te vois prisonnier et tout chargé de chaînes,</l>
+	<l id="1143">Et si je ne suis pas la cause de tes peines :</l>
+	<l id="1144">Car sans doute les Dieux ont voulu te choisir,</l>
+	<l id="1145">Te voyant si parfait, si propre à leur désir,</l>
+	<l id="1146">Pour leur être immolé, comme chacun le pense ;</l>
+	<l id="1147">Quand je te réservais une autre récompense,</l>
+	<l id="1148" syll="6" part="i">Ainsi que je devais.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1148" syll="6" part="f">Non, aimable beauté,</l>
+	<l id="1149">Je serai satisfait dans ma captivité,</l>
+	<l id="1150">Comme je meurs content, puisque c'est pour Diane,</l>
+	<l id="1151">Que c'est un juste arrêt, puisque tout m'y condamne :</l>
+	<l id="1152">Et même en te servant j'étais trop glorieux,</l>
+	<l id="1153">J'aurais trouvé mon sort plus doux que rigoureux,</l>
+	<l id="1154">De n'avoir que des fers pour prix de mon service ;</l>
+	<l id="1155">Ne ne parles donc plus de ce petit office :</l>
+	<l id="1156">Il est par trop payé de ce torrent de pleurs,</l>
+	<l id="1157">Je vois que mon trépas n'aura que des douceurs.</l>
+	<l id="1158">Mais sèche tes beaux yeux, objet divin et rare,</l>
+	<l id="1159">Et ne t'opposes plus à ce qu'on me prépare :</l>
+	<l id="1160">Puisque pour l'empêcher tu combats vainement,</l>
+	<l id="1161">Non, c'est verser des pleurs trop inutilement.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1162">Tu méprises ainsi le bien que je t'envie ?</l>
+	<l id="1163">Doncques ma volonté sera si mal suivie :</l>
+	<l id="1164">Ha ! Pourquoi malheureux vins-tu parmi nos bois ?</l>
+	<l id="1165">Quel destin insensé t'a fait suivre ses lois ?</l>
+	<l id="1166">Enfin qui t'a poussé de quitter ta patrie ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1167">Un doux charme flatteur, et plein de tromperie :</l>
+	<l id="1168">Mais n'importe, mon coeur en est trop satisfait,</l>
+	<l id="1169">sans oser m'étonner du chemin que j'ai fait,</l>
+	<l id="1170">M'étant abandonné sous les charmes d'Ismène,</l>
+	<l id="1171">Qui cause maintenant la mort où l'on me mène.</l>
+	<l id="1172">Enfin n'en parlons plus, Allons sans différer,</l>
+	<l id="1173">Adorons ce beau jour au lieu de murmurer :</l>
+	<l id="1174" syll="2" part="i">Courons[.]</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1174" syll="10" part="f">Endymion, ton courage me tue,</l>
+	<l id="1175">L'heure de ton trépas n'est pas encor venue :</l>
+	<l id="1176">J'ose encor espérer un doux événement[.]</l>
+</sp>
+<sp stage="low" who="FÉLICIE"><speaker>FÉLICIE, bas.</speaker>
+	<l id="1177">Ô Dieux ! Qu'elle est à plaindre en son aveuglement.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1178">Obligeante beauté, d'où vient que ta belle âme</l>
+	<l id="1179">se rend sensible au coup qui doit finir ma trame ?</l>
+	<l id="1180" syll="6" part="i">Qui t'en donne sujet ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1180" syll="6" part="f">Quoi tu peux ignorer</l>
+	<l id="1181">Quel sujet aujourd'hui me force de pleurer ?</l>
+	<l id="1182">Tu sais ce que j'ai dit de notre connaissance ?</l>
+	<l id="1183">Sitôt que je t'ai vu malgré la longue absence,</l>
+	<l id="1184">Ne t'ai je pas connu, ne m'as tu pas appris</l>
+	<l id="1185">Que mon abord aussi t'a rendes tout surpris ?</l>
+	<l id="1186">Ne te souvient il plus de ce grand sacrifice</l>
+	<l id="1187" syll="6" part="i">Où tu me fus connu ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1187" syll="6" part="f">Je mourrais de délice</l>
+	<l id="1188">Aimable Sthenobée, en des si doux moments,</l>
+	<l id="1189">Tu pouvais bien juger de mes ravissements,</l>
+	<l id="1190">Quand ton divin aspect venait frapper ma vue</l>
+	<l id="1191">Par les rares attraits dont le Ciel t'a pourvue :</l>
+	<l id="1192">Non, rien ne me plaisait que non seul entretien,</l>
+	<l id="1193">Je ne pouvais souffrir d'autre abord que le tien :</l>
+	<l id="1194">Et je gardai toujours cette adorable idée,</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1195">Hélas ! Pourrais-je bien être persuadée</l>
+	<l id="1196" syll="10" part="i">De tout ce que tu dis, Endymion ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1196" syll="2" part="f">Hé quoi</l>
+	<l id="1197" syll="6" part="i">Tu pourrais en douter ?</l>
+</sp>
+<sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
+	<l id="1197" syll="6" part="f">Enfin prépare toi,</l>
+	<l id="1198">Sthenobée, il est temps, mets lui cette couronne.</l>
+<stage type="get/costume">Elles prennent une des corbeilles de fleurs qui sont sur la table, et la présentent à Sthenobée, qui prend la couronne faite pour Endymion, et le bandeau de pourpre pour lui mettre sur le front.</stage>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1199">Ha ! Funeste devoir, la force m'abandonne :</l>
+	<l id="1200">Non, ma main ne saurait soutenir ce bandeau,</l>
+	<l id="1201">Qui te doit aujourd'hui traîner dans le tombeau.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1202">Hé chère Sthenobée, Hé viens, je t'en supplie,</l>
+	<l id="1203">Enfin si ta douleur aujourd'hui se publie,</l>
+	<l id="1204">Quel murmure en feront tous les Albaniens,</l>
+	<l id="1205">Ceux qui se sont aidés à mettre mes liens ?</l>
+	<l id="1206">Enfin que dirait on de voir dedans le temple</l>
+	<l id="1207">La Vierge de l'autel, cet objet sans exemple,</l>
+	<l id="1208">Pleurer un malheureux, qu'un sort infortuné</l>
+	<l id="1209">A laissé dans leurs mains, l'ayant abandonné.</l>
+	<l id="1210">Pourquoi donc me pleurer si ma mort est certaine ?</l>
+	<l id="1211">Modère Sthenobée une douleur si vaine.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1212">Hé bien, puis qu'il le faut, et qu'enfin tu le veux,</l>
+	<l id="1213">Je m'en vais maintenant entourer tes cheveux</l>
+	<l id="1214" syll="6" part="i">De ce triste bandeau.</l>
+<stage type="sit/costume">Il s'assoit, et Sthenobée lui met le bandeau et la couronne de fleurs, et quelques rubans que les filles lui attachent en attendant qu'il lève les yeux au Ciel.</stage>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1214" syll="6" part="f">Puisqu'il faut que je meure,</l>
+	<l id="1215">Descends grande Déesse, et fais hâter cette heure,</l>
+	<l id="1216">Qui doit finir mes jours pour la gloire des tiens,</l>
+	<l id="1217">Que ne finis tu donc le triste cours des miens ?</l>
+	<l id="1218" syll="2" part="i">Tu dois...</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1218" syll="10" part="f">Diane, hé quoi seras tu triomphante ?</l>
+	<l id="1219">Verrai je le moment de ta cruelle attente</l>
+	<l id="1220">Finir comme tu veux, sévère Déité ?</l>
+	<l id="1221">N'était ce pas assez de sa captivité ?</l>
+	<l id="1222">N'était ce pas assez qu'il fut chargé de chaînes,</l>
+	<l id="1223">Et vivre quelque temps sous nos lois inhumaines ?</l>
+	<l id="1224">Du moins j'aurais tâché par un trait de pitié,</l>
+	<l id="1225">Ou pour dire de plus, par ma pure amitié,</l>
+	<l id="1226">À rompre les liens de ce triste esclavage ?</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1227">Non, non, Diane doit avoir cet avantage :</l>
+	<l id="1228">Enfin elle est Déesse, il lui faut obéir :</l>
+	<l id="1229">Sthenobée, il est vrai, ce serait la trahir,</l>
+	<l id="1230">Et mêmes tous les Dieux, de rompre leurs coutumes.</l>
+	<l id="1231">Et tout ce que tu dis, et ce que tu présumes,</l>
+	<l id="1232">Ne peut bannir l'effet de ce pieux dessein :</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1233">Cruel Endymion, si mon espoir est vain,</l>
+	<l id="1234">J'aurais bien du sujet dans l'ennui qui me presse</l>
+	<l id="1235">De me plaindre de toi plus que de la Déesse :</l>
+	<l id="1236">Quoi que par sa rigueur je te visse immoler,</l>
+	<l id="1237">Je trouverais encor de quoi me consoler,</l>
+	<l id="1238">si pour me contenter tu désirais de vivre,</l>
+	<l id="1239">si mes justes souhaits tu désirais de suivre :</l>
+	<l id="1240">Peut être que les Dieux touchés de mon tourment,</l>
+	<l id="1241">Arrêteraient l'effet de leur commandement :</l>
+	<l id="1242">Mais c'est en vain, ingrat, cet arrêt te contente,</l>
+	<l id="1243">Je vois que ma douleur t'est trop indifférente :</l>
+	<l id="1244">Les rigueurs de Diane ont charmés tes esprits ;</l>
+	<l id="1245">Après elle tu tiens tout le reste à mépris :</l>
+	<l id="1246">Enfin tu la bénis cette triste journée.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1247">Sthenobée, tu vois quelle est ma destinée :</l>
+	<l id="1248">Diane pour ce jour a voulu me choisir,</l>
+	<l id="1249">Et tu veux t'opposer a son juste désir :</l>
+	<l id="1250">Ne murmures donc plus contre cette Déesse.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1251">C'est en vain que pour toi mon âme s'intéresse,</l>
+	<l id="1252">Ingrat Endymion, que tu reconnais peu</l>
+	<l id="1253" syll="6" part="i">Ce que je sens pour toi :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1253" syll="6" part="f">Fais m'en donc un aveu ;</l>
+	<l id="1254">Parle plus clairement, Merveille incomparable,</l>
+	<l id="1255">Et ne te repens point de m'être favorable :</l>
+	<l id="1256">Apprends moi ce secret, pourquoi me le cacher ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1257">Quand je te le dirais, pourrait il te toucher ?</l>
+	<l id="1258">Et même je sens trop de remords dans mon âme.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1259">Cet aveu pourrait-il te donner quelque blâme,</l>
+	<l id="1260" syll="6" part="i">Aimable Sthenobée ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1260" syll="6" part="f">Il le peut en effet,</l>
+	<l id="1261">Et j'aime mieux encor en garder le secret :</l>
+	<l id="1262">Mais crois, Endymion, que quoi qu'il m'en arrive,</l>
+	<l id="1263" syll="6" part="i">Pour empêcher ta mort...</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1263" syll="6" part="f">Tu veux donc que je vive,</l>
+	<l id="1264" syll="6" part="i">Généreuse beauté ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1264" syll="6" part="f">J'y ferai mon pouvoir,</l>
+	<l id="1265">Et j'ose vivre encor avec ce doux espoir :</l>
+	<l id="1266">Que si par mon moyen, et par ma diligence</l>
+	<l id="1267">Les Dieux changent ton sort ; après ta délivrance</l>
+	<l id="1268">Tu sauras le sujet qui me peut faire agir,</l>
+	<l id="1269">Que même en y pensant me fait encor rougir :</l>
+	<l id="1270">Mais adieu, je m'en vais tâcher s'il est possible,</l>
+	<l id="1271">De trouver un moyen favorable ou nuisible.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1272">Va divine beauté, si tous en sont d'accord,</l>
+	<l id="1273" syll="6" part="i">J'y veux bien consentir :</l>
+</sp>
+<sp stage="away" who="STHENOBÉE"><speaker>STHENOBÉE, en s'en allant et les filles.</speaker>
+	<l id="1273" syll="6" part="f">J'y ferai mon effort.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head>
+<sp stage="alone" who="ENDYMION"><speaker>ENDYMION, seul.</speaker>
+<poem type="strophes">
+<lg n="1">
+	<l id="1274">Enfin cette beauté, malgré sa retenue,</l>
+	<l id="1275">M'a presque ouvert son coeur, sa flamme m'est connue,</l>
+	<l id="1276">Quoi qu'elle en veuille déguiser,</l>
+	<l id="1277">sa rougeur me la fait connaître ;</l>
+	<l id="1278">Et sa douleur la fait paraître,</l>
+	<l id="1279">Puisque rien ne peut l'apaiser.</l>
+	<l id="1280">Qu'elle est à plaindre en ce combat,</l>
+	<l id="1281">Elle n'oserait me l'apprendre,</l>
+	<l id="1282">Et me le voudrait faire entendre ;</l>
+	<l id="1283">Ainsi son esprit souffre en ce triste débat.</l>
+</lg>
+<lg n="2">
+	<l id="1284">L'amour, et la douleur, avecque la contrainte</l>
+	<l id="1285">Causent dedans son coeur une mortelle atteinte :</l>
+	<l id="1286">Oui malgré les voeux, et serments,</l>
+	<l id="1287">Que j'ai fait pour toi, ma Déesse,</l>
+	<l id="1288">Je sens que sont tourment me blesse,</l>
+	<l id="1289">sans des amoureux sentiments ;</l>
+	<l id="1290">Mon coeur meurt de compassion</l>
+	<l id="1291">Pour cette adorable affligée,</l>
+	<l id="1292">Mon âme se sent obligée</l>
+	<l id="1293">De lui donner des traits de son affection.</l>
+</lg>
+<lg n="3">
+	<l id="1294">Diane, je le puis, sans te faire une offense,</l>
+	<l id="1295">Je dois à son amour ce peu de récompense :</l>
+	<l id="1296">Car enfin, si je meurs pour toi,</l>
+	<l id="1297">Ce n'est pas me rendre parjure,</l>
+	<l id="1298">Ni te vouloir faire un injure</l>
+	<l id="1299">De ne pas violer ma foi :</l>
+	<l id="1300">Déesse, crois que tes rigueurs</l>
+	<l id="1301">Me sont beaucoup plus agréables,</l>
+	<l id="1302">Que les beautés les plus traitables ;</l>
+	<l id="1303">Puisque j'adore encor l'objet de mes langueurs.</l>
+</lg>
+<lg n="4">
+	<l id="1304">Mais Sthenobée enfin, tu demandes ma vie,</l>
+	<l id="1305">Lorsque Diane veut qu'elle me soit ravie :</l>
+	<l id="1306">Et pourquoi veux tu disputer</l>
+	<l id="1307">Le prompt arrêt de cet Oracle ?</l>
+	<l id="1308">Pourquoi voudrais tu m'être obstacle</l>
+	<l id="1309">à ce que je veux accepter ?</l>
+	<l id="1310">si Diane le veut ainsi,</l>
+	<l id="1311">Que l'Albanie le souhaite,</l>
+	<l id="1312">Et que la victime soit preste,</l>
+	<l id="1313">Tu n'avanceras rien de t'en mettre en souci.</l>
+</lg>
+</poem>
+	<l id="1314">Mais allons voir pourtant quelle en sera l'issue,</l>
+	<l id="1315">Et si cette beauté ne sera point déçue.</l>
+<stage type="decor">L'on voit ici une forêt, dont les arbres touffus laissent pourtant une place spacieuse, où est l'autel dédié pour le sacrifice, au tour duquel est Sthénobée, et ses filles, qui portent des corbeilles de fleurs, dont elles le parsèment.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE I. Sthenobée, Choeur de Filles.</head>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1316">À La fin j'ai trouvé des bornes à mes maux,</l>
+	<l id="1317">Nos victimes seront de simples animaux :</l>
+	<l id="1318">Les Dieux ont modéré leur cruelle justice,</l>
+	<l id="1319">Endymion n'aura que l'ombre du supplice :</l>
+	<l id="1320">Nos taureaux seulement se verront égorgés,</l>
+	<l id="1321">Et lors mes déplaisirs en seront allégés :</l>
+	<l id="1322">J'ai trouvé du secours ; l'incomparable Ismène</l>
+	<l id="1323">M'a tirée à la fin de cette dure peine.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1324" syll="3" part="i">Quelle Ismène ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1324" syll="9" part="f">Une femme inconnue en ces lieux.</l>
+	<l id="1325">Et qui sans doute sort de la race des Dieux :</l>
+	<l id="1326">Enfin l'on peut juger qu'elle est presque divine,</l>
+	<l id="1327">Et que des Immortels elle a prit origine.</l>
+	<l id="1328">Mes filles, vous savez quels étaient mes regrets,</l>
+	<l id="1329">Et vous avez ouï les propos indiscrets,</l>
+	<l id="1330">Auxquels mes des plaisirs et mes maux m'ont contrainte ;</l>
+	<l id="1331">Alors que j'ai trouvé pour alléger ma plainte,</l>
+	<l id="1332">Quand je faisais voler mes soupirs jusqu'aux cieux,</l>
+	<l id="1333">Cette fameuse Ismène est parue à mes yeux :</l>
+	<l id="1334">Un lugubre torrent, de sanglots et de larmes</l>
+	<l id="1335">M'ont empêché de voir cette mère de charmes :</l>
+	<l id="1336">Mais lorsqu'elle a parlé me surprenant ainsi,</l>
+	<l id="1337">ses discours ont rendu mon mal bien adouci.</l>
+	<l id="1338">Il n'était pas besoin de lui dire la cause</l>
+	<l id="1339">Des maux que je souffrais ; c'était trop peu de chose</l>
+	<l id="1340">De paraître à ses yeux avec tant de douleur :</l>
+	<l id="1341">Elle savait déjà le fonds de mon malheur.</l>
+	<l id="1342">Enfin ce grand savoir, à qui rien ne seconde,</l>
+	<l id="1343">Fait voir qu'il n'est jamais de chose si profonde</l>
+	<l id="1344">Qui ne lui soit connue, aux lieux les plus cachés,</l>
+	<l id="1345">Quand on croit la fuir, l'on s'en voit empêchés,</l>
+	<l id="1346">Elle peut nous servir, ou nous être contraire,</l>
+	<l id="1347">L'on ne doit que tâcher de ne lui point déplaire :</l>
+	<l id="1348">Elle sait les malheurs qui doivent arriver,</l>
+	<l id="1349">Elle en peut garantir, elle peut en priver.</l>
+	<l id="1350">Elle a su ma douleur sans m'avoir jamais vie,</l>
+	<l id="1351">Ainsi mes maux ont en l'allégeance imprévue,</l>
+	<l id="1352">Elle m'a présenté ce couteau merveilleux,</l>
+	<l id="1353">Aussi faible léger qu'il paraît à vos yeux :</l>
+	<l id="1354">Enfin elle m'a dit que cette faible lame</l>
+	<l id="1355">Ferait bientôt cesser les douleurs de mon âme :</l>
+	<l id="1356">Quand on le plongera dans ce coeur innocent,</l>
+	<l id="1357">Les charmes qu'elle y met le rendront impuissant :</l>
+	<l id="1358">Et que pour faire agir l'effet de sa promesse,</l>
+	<l id="1359">Elle se veut mêler au milieu de la presse.</l>
+	<l id="1360">Elle m'a dit son nom, même en se nommant,</l>
+	<l id="1361">Elle a vu dans mes yeux beaucoup d'étonnement :</l>
+	<l id="1362">Car ce nom m'a surprise, ainsi qu'on le peut croire,</l>
+	<l id="1363">Puisque je n'avais point bannis de ma mémoire</l>
+	<l id="1364">Tout ce qu'Endymion m'avait dit aujourd'hui ;</l>
+	<l id="1365">Ne vous souvient il pas, mes filles, que c'est lui,</l>
+	<l id="1366">Qui nous avait parlé d'une certaine Ismène ?</l>
+</sp>
+<sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
+	<l id="1367">Il est vrai Sthenobée, je suis bien certaine</l>
+	<l id="1368" syll="6" part="i">Qu'il nous a dit encor...</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1368" syll="6" part="f">Oui, je me trompe fort,</l>
+	<l id="1369">S'il n'a dit qu'elle était maîtresse de son fort,</l>
+	<l id="1370">S'étant abandonné sous son art, ses charmes,</l>
+	<l id="1371">Elle peut être auteur de toutes ces alarmes.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1372">Je ne m'étonne pas si l'on la voit courir</l>
+	<l id="1373">Dans ces lieux étrangers, afin d'y secourir</l>
+	<l id="1374">Le pauvre Endymion ; dont l'âme est asservie</l>
+	<l id="1375">sous les charmes puissants, dont elle s'est servie :</l>
+	<l id="1376">Elle vient arrêter les maux qu'elle a causés.</l>
+</sp>
+<sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
+	<l id="1377">Donc les Albaniens en vain sont disposés ?</l>
+	<l id="1378">Grands Dieux soyez de même à nos voeux favorables,</l>
+	<l id="1379">Modérez le courroux dont vous fûtes capables.</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1380">Approchons de l'autel, et faisons nos devoirs,</l>
+	<l id="1381">Laissant agir les Dieux de leurs divins pouvoirs :</l>
+	<l id="1382">Et parsemons de fleurs cet autel vénérable,</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1383">Ismène, en tes serments seras tu véritable ?</l>
+</sp>
+<sp who="FÉLICIE"><speaker>FÉLICIE.</speaker>
+	<l id="1384">J'entends les instruments, avecque mille voix,</l>
+	<l id="1385">Dont les sons éclatants font retentir nos bois :</l>
+	<l id="1386">C'est sans doute le peuple avecque la victime.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1387">Ah ! Malgré mon espoir ma douleur se ranime :</l>
+	<l id="1388">La crainte et la frayeur me poursuivront toujours,</l>
+	<l id="1389">Tant qu'Ismène viendra me donner du secours :</l>
+	<l id="1390">Je tremble, je frémis, je suis encor en doute ;</l>
+	<l id="1391">Je les sens approcher, Alcyonnée écoute,</l>
+	<l id="1392">Ces peuples aveuglés viennent tous glorieux,</l>
+	<l id="1393">Qui font voler leurs cris jusque dedans les Cieux.</l>
+	<l id="1394">Mais, bons Dieux, je les vois ces peuples tyranniques,</l>
+	<l id="1395">Voyez leurs ornements pompeux et magnifiques ?</l>
+	<l id="1396">La victime paraît, et ne diriez vous pas</l>
+	<l id="1397">Qu'elle a peu de souci de son prochain trépas ?</l>
+	<l id="1398">Ce port majestueux, et cette mine auguste ?</l>
+	<l id="1399">Mes filles, avouez, que ma douleur est juste.</l>
+<stage type="entrance/decor">Le peuple sort de derrière les arbres, les uns portant des instruments, les autres des vases avec de l'encens, les autres des flambeaux chantant des hymnes à la gloire de la Déesse ; et Thymotée parmi les autres portant la tiare, et le manteau de sacrificateur, et Endymion au milieu habillé en victime.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Thymotée, Endymion, Sthenobée, Choeur de Filles, Un Esclave, Troupe de Peuple.</head>
+<sp stage="sing/alone" who="L'ESCLAVE"><speaker>L'ESCLAVE, chante seul.</speaker>
+	<l id="1400">Déesse, voici la victime,</l>
+	<l id="1401">Que toi même as voulu choisir,</l>
+	<l id="1402">Puisqu'elle était si propre à ton désir,</l>
+	<l id="1403">Et si digne de ton estime ;</l>
+	<l id="1404">Tu verras bientôt ton autel</l>
+	<l id="1405">Rougir du sang de ce mortel ;</l>
+	<l id="1406">Et lors on te verras contente,</l>
+	<l id="1407">Quand l'Albanie aura satisfait ton attente.</l>
+</sp>
+<sp who="TROUPE DE PEUPLE"><speaker>TROUPE DE PEUPLE.</speaker>
+	<l id="1408">Adorable, et grande Déesse,</l>
+	<l id="1409">Monte vite sur l'horizon,</l>
+	<l id="1410">Car tu dois bien savoir qu'il est raison</l>
+	<l id="1411">Que maintenant tu nous paroisse ;</l>
+	<l id="1412">Pour la gloire que tu ressens</l>
+	<l id="1413">Des victimes, et des encens,</l>
+	<l id="1414">Qu'on t'offrira cette journée,</l>
+	<l id="1415">Que ton divin aspect rendra plus fortunée.</l>
+</sp>
+<sp stage="alone" who="STHENOBÉE"><speaker>STHENOBÉE, seule.</speaker>
+	<l id="1416">Cette victime généreuse</l>
+	<l id="1417">A de la mort si peu d'effroi,</l>
+	<l id="1418">Qu'elle la craint bien moins que moi,</l>
+	<l id="1419">Qui la trouve trop rigoureuse :</l>
+	<l id="1420">Ismène, nous verrons la fin</l>
+	<l id="1421">Qu'en disposera le destin ;</l>
+	<l id="1422">Mais cependant sois équitable :</l>
+	<l id="1423">Montre toi maintenant et juste, et véritable.</l>
+</sp>
+<sp who="CHOEUR DE FILLES"><speaker>CHOEUR DE FILLES.</speaker>
+	<l id="1424">Déesse, s'il faut pour ta gloire,</l>
+	<l id="1425">Faire mourir en même temps,</l>
+	<l id="1426">Ces deux objets ; ainsi que tu prétends</l>
+	<l id="1427">Estimeras tu ta victoire ?</l>
+	<l id="1428">Car si l'un meurt, l'autre à l'abord</l>
+	<l id="1429">Ne peut demander que la mort :</l>
+	<l id="1430">Déesse il faut que ta clémence</l>
+	<l id="1431">se montre en même temps avecque ta puissance.</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1432">Que nos voix ont de sympathie,</l>
+	<l id="1433">Elles suivent mon sentiment ;</l>
+	<l id="1434">Ces chères soeurs me font voir clairement ;</l>
+	<l id="1435">Que leurs coeurs sont de la partie</l>
+	<l id="1436">De ceux, qui de compassion,</l>
+	<l id="1437">Ou peut être d'affection</l>
+	<l id="1438">Plaignent la dure destinée</l>
+	<l id="1439">D'une victime digne autant qu'infortunée.</l>
+</sp>
+<sp who="TROUPE DE PEUPLE"><speaker>TROUPE DE PEUPLE.</speaker>
+	<l id="1440">Déesse, il est vrai que nos larmes</l>
+	<l id="1441">sont témoins de notre pitié,</l>
+	<l id="1442">Et que nos coeurs ressentent la moitié</l>
+	<l id="1443">De la cruauté de tes armes :</l>
+	<l id="1444">La victime est digne des pleurs,</l>
+	<l id="1445">Qu'un chacun donne à ses malheurs ;</l>
+	<l id="1446">Mais enfin tu seras servie,</l>
+	<l id="1447">Puisque ta volonté sera bientôt suivie.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1448">Peuples Albaniens vous irritez les Dieux,</l>
+	<l id="1449">Vous plaignez la victime, et murmurez contre eux :</l>
+	<l id="1450">La victime est contente, et son trépas vous touche ;</l>
+	<l id="1451">Elle en aime l'auteur, sachez-le de sa bouche[.]</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1452">Peuples Albaniens, pourquoi me pleurez vous</l>
+	<l id="1453">Pourquoi de la Déesse attirer le courroux ?</l>
+	<l id="1454">Pourquoi lui refuser ce qu'elle vous demande ?</l>
+	<l id="1455">Croiriez vous de lui faire une faveur trop grande ?</l>
+	<l id="1456">Non, non, avancez vous, voici mon sein ouvert,</l>
+	<l id="1457">Portez y hardiment la pointe de ce fer :</l>
+	<l id="1458">Ouvrez vite ce coeur, la Déesse l'ordonne,</l>
+	<l id="1459">Ce n'est que sous ses lois que ce coeur s'abandonne.</l>
+	<l id="1460">Mais quoi ! De toutes parts je n'entends que regret :</l>
+	<l id="1461">Malgré moi vous prenez encor mes intérêts.</l>
+	<l id="1462">Thymotée approchez n'ayez point répugnance ;</l>
+	<l id="1463">satisfaites les Dieux par cette obéissance.</l>
+<stage type="up/location/kneel">Thymotée monte sur l'autel, avec Endymion et Sthenobée : et Endymion se met à genoux en continuant de parler.</stage>
+	<l id="1464">Parais vite, Déesse, afin que ton aspect</l>
+	<l id="1465">Imprime dans leurs coeurs la crainte, et le respect :</l>
+	<l id="1466">Et permet que leurs cris soient des cris d'allégresse ;</l>
+	<l id="1467">Fais qu'ils changent en ris la douleur qui les presse :</l>
+	<l id="1468">Qu'ils ne murmurent plus contre ta volonté,</l>
+	<l id="1469">Qu'ils aient du respect pour ta divinité,</l>
+	<l id="1470">Qu'ils prononcent toujours des hymnes à ta gloire,</l>
+	<l id="1471">Que sans fin ta grandeur règne dans leur mémoire.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1472">Enfin Endymion, laisse les murmurer ;</l>
+	<l id="1473">Si ton coeur est content, ils ont beau te pleurer ;</l>
+	<l id="1474" syll="6" part="i">Il faut servir les Dieux :</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1474" syll="6" part="f">Hé poursuivons de grâce ;</l>
+	<l id="1475">Sans écouter les pleurs de cette populace.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1476">Oui, mon fils, poursuivons sans les plus écouter.</l>
+	<l id="1477" syll="6" part="i">Donnez moi le couteau[.]</l>
+<stage type="toward">Il parle à Sthenobée.</stage>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1477" syll="3" part="m">Le voila ;</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1477" syll="3" part="f">Sthenobée</l>
+	<l id="1478">À quoi t'amuses tu, qui t'a persuadée</l>
+	<l id="1479">Que cette faible lame aurait le même effet</l>
+	<l id="1480" syll="6" part="i">Des couteaux d'autres fois ?</l>
+</sp>
+<sp who="STHENOBÉE"><speaker>STHENOBÉE.</speaker>
+	<l id="1480" syll="6" part="f">Saches en le sujet ;</l>
+	<l id="1481">Vois cette femme ici qui te peut satisfaire,</l>
+	<l id="1482">Écoute ses raisons sans te mettre en colère :</l>
+	<l id="1483">C'est elle seulement, qui te doit informer</l>
+	<l id="1484">Des vertus de ce fer, qui vient de t'alarmer,</l>
+	<l id="1485" syll="6" part="i">Pour être trop léger.</l>
+</sp>
+<sp stage="watch/surpise" who="ENDYMION"><speaker>ENDYMION, voyant Ismène demeure surpris.</speaker>
+	<l id="1485" syll="6" part="f">Ô Dieux ! Quelle surprise,</l>
+	<l id="1486" syll="3" part="i">Ha ! Trompeuse[.]</l>
+</sp>
+<sp who="ISMÈNE"><speaker>ISMÈNE.</speaker>
+	<l id="1486" syll="9" part="f">Il est vrai, Diane m'autorise :</l>
+	<l id="1487">Vous Thymotée sortez de cet étonnement ;</l>
+	<l id="1488">J'apporte ici ce fer par son commandement.</l>
+	<l id="1489">Car vous saurez qu'un jour revenant de la chasse,</l>
+	<l id="1490">Ayant couru longtemps elle se trouva lasse :</l>
+	<l id="1491">Mais le Dieu du sommeil l'ayant fait reposer,</l>
+	<l id="1492">Quelques moments après il lui vint proposer</l>
+	<l id="1493">D'agréer un repas, elle, et toute sa suite :</l>
+	<l id="1494">Elle accepte l'honneur où ce grand Dieu l'invite :</l>
+	<l id="1495">Après ce doux repas, ce qui lui plût le mieux,</l>
+	<l id="1496">Au mépris des palais riches et précieux,</l>
+	<l id="1497">Ce fut plusieurs ruisseaux par des si doux murmures</l>
+	<l id="1498">Qui charmèrent ses sens : et les grottes obscures</l>
+	<l id="1499">Où le Dieu lui fit voir toutes ses raretés,</l>
+	<l id="1500">Dont les yeux de Diane en furent enchantés.</l>
+	<l id="1501">Le Dieu lui demanda ce qui lui pourrait plaire,</l>
+	<l id="1502">Qu'elle prit en ce lieu de quoi se satisfaire :</l>
+	<l id="1503">Mais lui même voulut lui choisir ce couteau,</l>
+	<l id="1504">Qui parût à ses yeux si léger, et si beau ;</l>
+	<l id="1505">Qu'elle accepta bientôt ce présent agréable,</l>
+	<l id="1506">Qui lui devait un jour être si favorable :</l>
+	<l id="1507">Puis qu'elle connaissait par sa légèreté,</l>
+	<l id="1508">Qu'il ouvrirait un coeur avec subtilité.</l>
+	<l id="1509">Qu'on lui devait un jour faire un grand sacrifice,</l>
+	<l id="1510">Dont le couteau pourrait servir à cet office.</l>
+	<l id="1511">Cette victime encor satisfait tant les Dieux,</l>
+	<l id="1512">Que bientôt la Déesse en descendra des Cieux :</l>
+	<l id="1513">Vous la verrez venir toute resplendissante,</l>
+	<l id="1514">D'une manière enfin beaucoup reconnaissante,</l>
+	<l id="1515">Elle même l'a dit ; en m'ayant ordonné</l>
+	<l id="1516">D'apporter ce couteau, que je vous ai donné :</l>
+	<l id="1517">Observez promptement ce qu'elle vous commande.</l>
+<stage type="exit">Elle disparaît.</stage>
+</sp>
+<sp stage="toward" who="THYMOTÉE"><speaker>THYMOTÉE, s'adressant au peuple.</speaker>
+	<l id="1518">Voyez Albaniens, ce que Diane mande.</l>
+</sp>
+<sp stage="location/hide" who="STHENOBÉE"><speaker>STHENOBÉE, derrière Thymotée en secret.</speaker>
+	<l id="1519" syll="2" part="i">Ô Dieux !</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1519" syll="10" part="f">Si maintenant on lui doit obéir,</l>
+	<l id="1520">Et si l'on ne doit pas encor se réjouir,</l>
+	<l id="1521">De connaître les soins qu'elle prend de nous-mêmes ?</l>
+	<l id="1522">Ne murmurez donc plus, arrêtez vos blasphèmes :</l>
+	<l id="1523">Car sans doute les Dieux s'en vont être ravis,</l>
+	<l id="1524">Alors qu'ils se verront si promptement servis.</l>
+	<l id="1525">Enfin pour toi, mon fils, je connais ton envie,</l>
+	<l id="1526">Qui n'est qu'à voir finir ta glorieuse vie.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1527">Thymotée, il est vrai, tu me sembles bien lent,</l>
+	<l id="1528">Quand je sens mon désir et ferme, et violent.</l>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1529">Peuples Albaniens, que vos injustes plaintes</l>
+	<l id="1530">Laissent agir vos voix sans pleurs, et sans contraintes :</l>
+	<l id="1531">Et témoignez aux Dieux, que votre repentir</l>
+	<l id="1532">De leur juste courroux vous peut bien garantir :</l>
+	<l id="1533">Ils sont doux et cléments, malgré votre murmure,</l>
+	<l id="1534">Par vos soumissions Ismène vous assure,</l>
+	<l id="1535">D'être récompensés des devoirs qu'on leurs rends,</l>
+	<l id="1536">Et les Albaniens seront aux premiers rangs</l>
+	<l id="1537">De ceux qui chaque jour leurs font des sacrifices,</l>
+	<l id="1538">C'est nous, à qui les Dieux se montreront propices.</l>
+<stage type="turn/toward">Se tournant devers Sthenobée.</stage>
+	<l id="1539">Sthenobée, il est temps d'accomplir leur souhait,</l>
+	<l id="1540" syll="6" part="i">Donne moi le couteau[.]</l>
+</sp>
+<sp stage="give" who="STHENOBÉE"><speaker>STHENOBÉE, lui ayant donné le couteau tombe évanouie de l'autel en bas, et ses filles la reçoivent.</speaker>
+	<l id="1540" syll="6" part="f">Justes cieux, s'en est fait.</l>
+	<l id="1541" syll="6" part="i">Ismène, et ton secours ?</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1541" syll="6" part="f">Ô disgrâce inouïe !</l>
+</sp>
+<sp stage="turn" who="THYMOTÉE"><speaker>THYMOTÉE, se tournant.</speaker>
+	<l id="1542" syll="6" part="i">Hé ! Qu'a donc Sthenobée ?</l>
+</sp>
+<sp who="ALCYONNÉE"><speaker>ALCYONNÉE.</speaker>
+	<l id="1542" syll="6" part="f">Elle est évanouie.</l>
+<stage type="down/kneel">Thymotée descend de l'Autel pour secourir Sthenobée, et Endymion demeure seul à genoux.</stage>
+</sp>
+<sp who="THYMOTÉE"><speaker>THYMOTÉE.</speaker>
+	<l id="1543">Hé bons Dieux ! quel malheur, quel jour est celui-ci ?</l>
+	<l id="1544">Diane, tes souhaits s'accompliront ainsi ?</l>
+	<l id="1545">Ou s'il faut aujourd'hui te donner deux victimes ?</l>
+	<l id="1546">Peuples Albaniens, vous causez par vos crimes,</l>
+	<l id="1547">La mort de Sthenobée, après tant de discours,</l>
+	<l id="1548">Dont à peine ai je pu faire arrêter le cours.</l>
+	<l id="1549">Mais Dieux ! Elle se meurt, sa vue languissante</l>
+	<l id="1550" syll="3" part="i">Le fait voir...</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1550" syll="9" part="f">Je la vois, cette beauté mourante.</l>
+	<l id="1551">Ha ! Déesse du moins épargne cet objet,</l>
+	<l id="1552">Ne la fait pas mourir pour si peu de sujet :</l>
+	<l id="1553">Hé quoi ! pour m'avoir plaint, tu la fais criminelle ?</l>
+	<l id="1554">Tu couvre ce soleil d'une nue éternelle ?</l>
+<stage type="down">Endymion voit Diane qui descend du Ciel dans un char attelé de chevaux blancs.</stage>
+	<l id="1555">Mais Thymotée viens donc, viens donc auparavant,</l>
+	<l id="1556">La Déesse paraît, et me voici vivant.</l>
+	<l id="1557" syll="6" part="i">Elle s'irritera.</l>
+</sp>
+<sp stage="give" who="THYMOTÉE"><speaker>THYMOTÉE, lui donnant le couteau.</speaker>
+	<l id="1557" syll="6" part="f">Tiens, mon fils, cette lame</l>
+	<l id="1558">Toi même pourras mieux mettre fin à ta trame.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1559">Thymotée, il est vrai, tu n'en peux point douter,</l>
+	<l id="1560">Et Diane à la fin se verra contenter.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Diane, Endymion.</head>
+<sp stage="down/location" who="DIANE"><speaker>DIANE, en descendant lentement jusque sur l'autel.</speaker>
+	<l id="1561">Endymion, je suis contente,</l>
+	<l id="1562">Arrête ce fer meurtrier,</l>
+	<l id="1563">Je connais ton coeur trop entier,</l>
+	<l id="1564">Pour croire que jamais j'attente</l>
+	<l id="1565">Aux beau fil de tes jours, qui charment tant de coeurs :</l>
+	<l id="1566">Ta volonté m'est si connue,</l>
+	<l id="1567">Que je suis en ces lieux venue,</l>
+	<l id="1568">Pour finir de tes maux les cruelles longueurs.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1569">Ha ! Diane, ces maux ont trop de récompense.</l>
+	<l id="1570">De jouir maintenant de ta douce présence :</l>
+	<l id="1571">Obligeante Déesse, après ce que je vois,</l>
+	<l id="1572">Je ne puis que douter si je suis bien à moi.</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="1573">Oui, c'est moi qui te viens apprendre</l>
+	<l id="1574">Que ces peuples ici sont vains,</l>
+	<l id="1575">Qu'ils n'ont rien parmi les humains ;</l>
+	<l id="1576">Le peuple s'évanouit peu à peu.</l>
+	<l id="1577">Puis qu'ainsi qu'ils m'ont vu descendre,</l>
+	<l id="1578">Mon abord commençait à les faire fuir :</l>
+	<l id="1579">songe donc par quels artifices,</l>
+	<l id="1580">Tu t'es vu parmi des supplices,</l>
+	<l id="1581">Qu'enfin devant tes yeux tu vois évanouir.</l>
+</sp>
+<sp who="ENDYMION"><speaker>ENDYMION.</speaker>
+	<l id="1582">Déesse, ce mystère est trop inconcevable,</l>
+	<l id="1583">Et même je me sens pas trop ton redevable ;</l>
+	<l id="1584">sans t'oser demander qui m'a mis en ces lieux,</l>
+	<l id="1585">Qui sans ton seul abord m'était si périlleux :</l>
+	<l id="1586">Mais que dis-je, Déesse, en mourant pour ta gloire,</l>
+	<l id="1587">J'étais plus satisfait qu'on ne saurait le croire.</l>
+	<l id="1588">Car enfin tu le sais, si j'en ai murmuré,</l>
+	<l id="1589">Si je voyais la mort d'un courage assuré ?</l>
+</sp>
+<sp who="DIANE"><speaker>DIANE.</speaker>
+	<l id="1590">Je sais quelles sont tes pensées :</l>
+	<l id="1591">Je connais tes vrais sentiments :</l>
+	<l id="1592">Et c'est par des enchantements,</l>
+	<l id="1593">Que ces choses se sont passées.</l>
+	<l id="1594">Depuis que le sommeil eut assoupi tes sens,</l>
+	<l id="1595">Par l'ordonnance souveraine,</l>
+	<l id="1596">Qu'en reçut la fameuse Ismène ;</l>
+	<l id="1597">Qui fait voir qu'en effet ses charmes sont puissants.</l>
+	<l id="1598">Mais sans différer davantage,</l>
+	<l id="1599">Viens prendre place auprès de moi,</l>
+	<l id="1600">C'est le paiement de ta foi,</l>
+	<l id="1601">Toi seul auras cet avantage.</l>
+	<l id="1602">Après t'avoir montré les célestes palais,</l>
+	<l id="1603">Tu verras encore la place,</l>
+	<l id="1604">Que Diane te fait la grâce</l>
+	<l id="1605">De te donner un jour, après tant de souhaits.</l>
+</sp>
+<sp stage="up/location" who="ENDYMION"><speaker>ENDYMION, entrant dans le char.</speaker>
+	<l id="1606">Ha ! Déesse, c'est trop ; des si faibles services</l>
+	<l id="1607">Se verront ils payés d'éternelles délices ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="watch" who="ISMÈNE"><speaker>ISMÈNE, voyant monter Endymion.</speaker>
+	<l id="1608">Va, cher Endymion, au glorieux séjour,</l>
+	<l id="1609">Que t'a fait mériter ton innocent amour :</l>
+	<l id="1610">Ne t'étonnes donc plus de tant d'étranges choses,</l>
+	<l id="1611">Car les Dieux vont changer tes épines en roses,</l>
+	<l id="1612">Et ne m'accuses plus de t'avoir enchanté,</l>
+	<l id="1613">Puisque je suis l'auteur de sa félicité :</l>
+	<l id="1614">Tes maux ont été vains, puisque ce n'est qu'en songe[s]</l>
+	<l id="1615">Mais enfin tes plaisirs ne seront pas mensonges.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

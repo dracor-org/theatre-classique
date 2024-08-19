@@ -14,11 +14,12 @@
 		</publicationStmt>
 		<SourceDesc>
 			<genre>Comédie</genre>
-			<inspiration>moeurs</inspiration>			<structure>Un acte</structure>
+			<inspiration>moeurs</inspiration>
+			<structure>Un acte</structure>
 			<type>prose</type>
 			<periode>1921-1930</periode>
 			<taille>(mesure non pertinente)</taille>
-			<permalien>https://gallica.bnf.fr/ark:/12148/bpt6k1525391b?rk=257512;0</permalien>
+			<permalien cote="BnF RLR RES M-YF-41">https://gallica.bnf.fr/ark:/12148/bpt6k1525391b?rk=257512;0</permalien>
 		</SourceDesc>
 </fileDesc>
 </teiHeader>
@@ -45,7 +46,7 @@
 <div1 type="acte" n="1"><head>NUIT DE NOCES</head>
 <div2 type="scene" n=""><head>SCÈNE I</head>
 <stage type="hour/light">MINUIT. La chambre nuptiale. Décorée avec beaucoup de luxe et de goût par Pierrot d'après celle de Marthe et Dumailly. Le lit très étroit, une faible veilleuse. Colombinette est déjà au lit.</stage>
-<sp stage="" who="MADAME COLOMBINE"><speaker>MADAME COLOMBINE tire sur elle les blancs rideaux et lui murmure des choses avec des larmes dans l'organe, lui met un dernier gros baiser avec un sanglot sur le front.</speaker>
+<sp stage="close/low/kiss" who="MADAME COLOMBINE"><speaker>MADAME COLOMBINE tire sur elle les blancs rideaux et lui murmure des choses avec des larmes dans l'organe, lui met un dernier gros baiser avec un sanglot sur le front.</speaker>
 <p id="1">
 	<s id="1">Mon pauv'chat ! </s>
 	<s id="2">Du courage ! </s>
@@ -53,7 +54,7 @@
 </p>
 <stage type="narration">Soudain au fond on voit la portière s'entr'ouvrir pour laisser passer l'O rond de la bouche de Pierrot et l'on entend roucouler : Coucou! Rires étouffés et frémissements de Colombinette. Dernier baiser. Dernier mon pauv'chat. Dernier courage ! Puis encore un gros baiser sur le front de ce pauv'chat.</stage>
 </sp>
-<sp who=""><speaker>MADAME COLOMBINE, ferme les rideaux et sortant, à Pierrot qui est derrière la portière.</speaker>
+<sp stage="close/toward/location" who="MADAME COLOMBINE"><speaker>MADAME COLOMBINE, ferme les rideaux et sortant, à Pierrot qui est derrière la portière.</speaker>
 <p id="2">
 	<s id="1">Ah ! </s>
 	<s id="2">Ménagez-là, mon gendre.</s>
@@ -71,13 +72,13 @@
 	<s id="1">Coucou !</s>
 </p>
 </sp>
-<sp who="COLOMBINETTE"><speaker>COLOMBINETTE, très effrayée, se pelotonne.</speaker>
+<sp stage="frighten/wave" who="COLOMBINETTE"><speaker>COLOMBINETTE, très effrayée, se pelotonne.</speaker>
 <p id="5">
 	<s id="1">Ah ! </s>
 	<s id="2">Mon_Dieu, mon_Dieu !</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, avec une voix naturelle qu'on ne lui connaissait pas.</speaker>
+<sp stage="quiet" who="PIERROT"><speaker>PIERROT, avec une voix naturelle qu'on ne lui connaissait pas.</speaker>
 <p id="6">
 	<s id="1">Maintenant, soyons sérieux. </s>
 </p>
@@ -344,12 +345,12 @@
 	<s id="3">Oh ! </s>
 	<s id="4">Je vais l'aimer bien.</s>
 </p>
-<stage type="knock">On entend toc, toc!</stage>
+<stage type="knock">On entend toc, toc !</stage>
 <p id="15">
 	<s id="1">Entrez...</s>
 </p>
 </sp>
-<sp who="PIERROT"><speaker>PIERROT, imitant le chant de la poule qui vient de pondre.</speaker>
+<sp stage="cocorico" who="PIERROT"><speaker>PIERROT, imitant le chant de la poule qui vient de pondre.</speaker>
 <p id="16">
 	<s id="1">Bonjour Poupoupoupou-lette!</s>
 </p>

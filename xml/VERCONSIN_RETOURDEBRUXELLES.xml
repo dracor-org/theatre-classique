@@ -885,7 +885,7 @@ Elle regarde dans le sac.
 <div1 type="act" n="2"><head>DEUXIÈME TABLEAU.</head>
 <stage type="decor">La scène se passe à la frontière, dans la salle de la visite des bagages. Des malles et des sacs de nuit rangés sur deux tables placées au premier plan, l'une à droite, l'autre à gauche. Banc au fond.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Deux Douaniers, Gaston , Adrienne, Miss Déborah, Mathilde, Une Vieille Dame, Un Porteur.</head>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à la table de droite.</speaker>
+<sp stage="location" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à la table de droite.</speaker>
 <p id="1">
 	<s id="1">Par ici, messieurs les voyageurs. </s>
 </p>
@@ -915,7 +915,7 @@ Elle regarde dans le sac.
 </p>
 <stage type="narration">Tous ouvrent leurs malles ; le premier douanier commence à visiter les malles d'Adrienne.</stage>
 </sp>
-<sp who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME, au deuxième, douanier.</speaker>
+<sp stage="toward" who="LA VIEILLE DAME"><speaker>LA VIEILLE DAME, au deuxième, douanier.</speaker>
 <p id="7">
 	<s id="1">Moi, d'abord.</s>
 </p>
@@ -1088,7 +1088,7 @@ Elle regarde dans le sac.
 	<s id="1">Mais c'est un objet intime, Monsieur.</s>
 </p>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, renseigné.</speaker>
+<sp stage="explicit" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, renseigné.</speaker>
 <p id="39">
 	<s id="1">Ah ! </s>
 	<s id="2">Il fallait donc le dire tout de suite. </s>
@@ -1254,7 +1254,7 @@ Elle regarde dans le sac.
 </p>
 <stage type="close">Il reboucle la malle de Mathilde.</stage>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, à part.</speaker>
+<sp stage="aparte" who="MATHILDE"><speaker>MATHILDE, à part.</speaker>
 <p id="27">
 	<s id="1">Hein !</s>
 </p>
@@ -1290,7 +1290,7 @@ Elle regarde dans le sac.
 </p>
 <stage type="sit">Elle s'assoit sur le banc.</stage>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, bas à Gaston, en désignant Adrienne.</speaker>
+<sp stage="low/toward/show" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, bas à Gaston, en désignant Adrienne.</speaker>
 <p id="34">
 	<s id="1">Ainsi vous pensez que cette dame ?...</s>
 </p>
@@ -1428,14 +1428,14 @@ Elle regarde dans le sac.
 	<s id="1">Laissez-moi.</s>
 </p>
 </sp>
-<sp stage="" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, tirant un ruban de dentelles qui s'échappe par la manche ouverte d'Adrienne.</speaker>
+<sp stage="get/costume" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, tirant un ruban de dentelles qui s'échappe par la manche ouverte d'Adrienne.</speaker>
 <p id="60">
 	<s id="1">Qu'est-ce que c'est que cela ? </s>
 	<s id="2">De la dentelle magnifique ! </s>
 </p>
 <stage type="faint/help">Adrienne chancelle. Mathilde et Miss Déborah la soutiennent.</stage>
 </sp>
-<sp who="GASTON" stage="aparte"><speaker>GASTON, à part.</speaker>
+<sp stage="aparte" who="GASTON"><speaker>GASTON, à part.</speaker>
 <p id="61">
 	<s id="1">Comment ! </s>
 	<s id="2">Elle en avait !</s>
@@ -1450,12 +1450,12 @@ Elle regarde dans le sac.
 	<s id="1">Pardonne-moi, Gaston.</s>
 </p>
 </sp>
-<sp who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à part.</speaker>
+<sp stage="aparte" who="DEUXIÈME DOUANIER"><speaker>DEUXIÈME DOUANIER, à part.</speaker>
 <p id="64">
 	<s id="1">Tiens, ils se connaissent !</s>
 </p>
 </sp>
-<sp who="MATHILDE"><speaker>MATHILDE, à Gaston.</speaker>
+<sp stage="toward" who="MATHILDE"><speaker>MATHILDE, à Gaston.</speaker>
 <p id="65">
 	<s id="1">Soyez indulgent, Monsieur ; c'est moi qui suis la plus coupable.</s>
 </p>
@@ -1470,7 +1470,7 @@ Elle regarde dans le sac.
 	<s id="1">Comment, Monsieur, vous connaissez cette dame et c'est vous qui m'avez expédié !...</s>
 </p>
 </sp>
-<sp who="GASTON"><speaker>GASTON, à part.</speaker>
+<sp stage="aparte" who="GASTON"><speaker>GASTON, à part.</speaker>
 <p id="68">
 	<s id="1">Silence !</s>
 </p>

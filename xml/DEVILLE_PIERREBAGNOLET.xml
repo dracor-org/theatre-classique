@@ -177,7 +177,7 @@
 </p>
 <stage type="show/give">Il lui présente son bouquet en lui tournant le dos.</stage>
 </sp>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, le contrefaisant toujours.</speaker>
+<sp stage="imitate" who="THÉRÈSE"><speaker>THÉRÈSE, le contrefaisant toujours.</speaker>
 <p id="6">
 	<s id="1">Dame, c'est bien galant à vous, Monsieur_Claude !</s>
 </p>
@@ -190,7 +190,7 @@
 	<s id="4">Qui ne l'serait pas à l'envers d'l'endroit d'une jolie créature comme vous, Mamselle_Thérèse ?</s>
 </p>
 </sp>
-<sp who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, toujours caché, à part.</speaker>
+<sp stage="hide/aparte" who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, toujours caché, à part.</speaker>
 <p id="8">
 	<s id="1">Il est connaisseur, Monsieur_Claude !</s>
 </p>
@@ -452,7 +452,7 @@
 	<s id="4">Il a d'ailleurs un dédit de deux_mille_écus, et vous voyez....</s>
 </p>
 </sp>
-<sp who="MADAME THOMAS"><speaker>MADAME THOMAS, l'interrompant.</speaker>
+<sp stage="interrupt" who="MADAME THOMAS"><speaker>MADAME THOMAS, l'interrompant.</speaker>
 <p id="12">
 	<s id="1">Je vois, Monsieur, que c'est plutôt l'envie de me contrarier.</s>
 </p>
@@ -633,7 +633,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp who="THÉRÈSE"><speaker>THÉRÈSE, seule.</speaker>
+<sp stage="alone" who="THÉRÈSE"><speaker>THÉRÈSE, seule.</speaker>
 <p id="1">
 	<s id="1">Je le veux, je le veux.... </s>
 	<s id="2">C'est bientôt dit !... </s>
@@ -757,7 +757,7 @@
 	<s id="1">Il faut être bien entêtée pour refuser un si bon parti ; cent_mille_francs !</s>
 </p>
 </sp>
-<sp who="PIERRE BAGNOLET"><speaker>PIERRE BAGNOLET, à Madame Thomas.</speaker>
+<sp stage="alone" who="PIERRE BAGNOLET"><speaker>PIERRE BAGNOLET, à Madame Thomas.</speaker>
 <p id="10">
 	<s id="1">Et ben acquis, encore ; y n'y a pas un sou qui ne sait le fruit du travail et de la peine. </s>
 	<s id="2">Y a biaucoup d'gros Financiers, qui s'estimont ben au-dessus d'unsimpe paysan, qui n'en diriont pas autant... </s>
@@ -783,7 +783,7 @@
 </p>
 <stage type="away">Il veut sortir.</stage>
 </sp>
-<sp who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, le retenant.</speaker>
+<sp stage="pull" who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, le retenant.</speaker>
 <p id="14">
 	<s id="1">Écoutez-moi donc.</s>
 </p>
@@ -801,7 +801,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII. Thérèse, Monsieur Thomas, Madame Thomas.</head>
-<sp who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Madame Thomas.</speaker>
+<sp stage="toward" who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Madame Thomas.</speaker>
 <p id="1">
 	<s id="1">Vous triomphez, Madame Thomas ! </s>
 	<s id="2">Je vois bien votre intention. </s>
@@ -972,7 +972,7 @@ aujourd'hui les contrats.</s>
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV. Coeur-d'amour, Monsieur Thomas, Madame Thomas, Thérèse, Claude Bagnolet. </head>
-<sp who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Coeur-d'Amour.</speaker>
+<sp stage="toward" who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Coeur-d'Amour.</speaker>
 <p id="1">
 	<s id="1">Comment ! </s>
 	<s id="2">Malheureux, tu oses paroître ici !</s>
@@ -1090,7 +1090,7 @@ aujourd'hui les contrats.</s>
 </sp>
 </div2>
 <div2 type="scene" n="15"><head>SCÈNE XV. Monsieur Thomas, Madame Thomas, Thérèse, Coeur-d'amour.</head>
-<sp who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Coeur-d'Amour.</speaker>
+<sp stage="toward" who="MONSIEUR THOMAS"><speaker>MONSIEUR THOMAS, à Coeur-d'Amour.</speaker>
 <p id="1">
 	<s id="1">Y a-t-il de la conscience de demander une pareille somme, surtout, après avoir trompé la bonne-foi de ce pauvre garçon ?</s>
 </p>
@@ -1122,7 +1122,7 @@ aujourd'hui les contrats.</s>
 	<s id="2">Il ne faut pas tous les biens du monde pour être content.</s>
 </p>
 </sp>
-<sp who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, à Monsieur Thomas.</speaker>
+<sp stage="toward" who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, à Monsieur Thomas.</speaker>
 <p id="6">
 	<s id="1">Sans doute ; et puis, laissez nous faire, avec le temps nous nous enrichirons. </s>
 	<s id="2">Vous-même, Monsieur_Thomas, si vous n'aviez pas eu le secret de faire sortir dans une année de votre cave plus de pièces de vins qu'il n'en entrait dans trois, seriez-vous aujourd'hui si à votre aise ?</s>
@@ -1160,7 +1160,7 @@ aujourd'hui les contrats.</s>
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI et dernière. Pierre Bagnolet, Claude Bagnolet, tenant son père par l'habit, et se cachant derrière lui ; Monsieur Thomas, Madams Thomas, Thérèse, Coeur-d'amour.</head>
-<sp who="PIERRE BAGNOLET"><speaker>PIERRE BAGNOLET, à Coeur-d'Amour.</speaker>
+<sp stage="toward" who="PIERRE BAGNOLET"><speaker>PIERRE BAGNOLET, à Coeur-d'Amour.</speaker>
 <p id="1">
 	<s id="1">C'est donc vous, Monsieu l'soldar, qui engagais les gens maugré eux ? </s>
 	<s id="2">C'est bian parfide à vous, morgué ! </s>
@@ -1179,7 +1179,7 @@ aujourd'hui les contrats.</s>
 	<s id="1">C'est le tour d'un malhonnête homme de vouloir...</s>
 </p>
 </sp>
-<sp who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, l'interrompant, et portant la main à son sabre.</speaker>
+<sp stage="interrupt/threat" who="COEUR-D'AMOUR"><speaker>COEUR-D'AMOUR, l'interrompant, et portant la main à son sabre.</speaker>
 <p id="4">
 	<s id="1">Malheureux ! </s>
 	<s id="2">Si je n'étais ici, je t'apprendrais à me manquer !</s>
@@ -1236,7 +1236,7 @@ aujourd'hui les contrats.</s>
 	<s id="4">J'avions peine à craire qu'un homme qui sart son Roi fut capable d'faire une pareille bassesse !</s>
 </p>
 </sp>
-<sp who="CLAUDE BAGNOLET"><speaker>CLAUDE BAGNOLET, sautant au cou de son père, qui l'enlève dans ses bras.</speaker>
+<sp stage="hugh/pull" who="CLAUDE BAGNOLET"><speaker>CLAUDE BAGNOLET, sautant au cou de son père, qui l'enlève dans ses bras.</speaker>
 <p id="14">
 	<s id="1">Mon papa !</s>
 </p>

@@ -6,12 +6,12 @@
 				<title>FRANÇOIS LE CHAMPI, COMÉDIE.</title>
 				<author type="texte" ISNI="0000 0001 2130 9531">George SAND (1804-1876)</author>
 			</titleStmt>
-			<publicationStmp>	
+			<publicationStmt>	
 				<editor>Texte établi par Paul Fièvre janvier 2021</editor>
 				<publisher>Publié par Paul FIEVRE février 2021</publisher>
 				<rights>Creative Commons BY-NC-SA</rights>
 				<idno>SAND_FRANCOISLECHAMPI</idno>
-			</publicationStmp>
+			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
 				<inspiration>moeurs</inspiration>
@@ -349,7 +349,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 	<s id="3">Il n'est pas malade, lui ?...</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, grossissant sa voix.</speaker>
+<sp stage="shout" who="CATHERINE"><speaker>CATHERINE, grossissant sa voix.</speaker>
 <p id="7">
 	<s id="1">Il est grand comme un chêne, hardi comme un soldat, et corporé comme un charpentier, entendez-vous ?... </s>
 	<s id="2">Et à nous deux on ne vous craint guère, comprenez-vous ?</s>
@@ -362,7 +362,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 	<s id="3">Ce cher petit enfant !</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, à Mariette.</speaker>
+<sp stage="toward" who="CATHERINE"><speaker>CATHERINE, à Mariette.</speaker>
 <p id="9">
 	<s id="1">Voyez-vous, demoiselle, qu'il n'est point sourdaud, et qu'il connaît Jeannie !...</s>
 </p>
@@ -381,7 +381,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 </p>
 <stage type="closer">Catherine s'avance vers François.</stage>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, dans la coulisse.</speaker>
+<sp stage="location" who="MADELEINE"><speaker>MADELEINE, dans la coulisse.</speaker>
 <p id="12">
 	<s id="1">Catherine !</s>
 </p>
@@ -754,7 +754,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 	<s id="5">Mais mange donc !</s>
 </p>
 </sp>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, se levant.</speaker>
+<sp stage="stand" who="FRANÇOIS"><speaker>FRANÇOIS, se levant.</speaker>
 <p id="16">
 	<s id="1">Je suis si content d'être là, que je n'ai envie de boire ni de manger... </s>
 	<s id="2">Mais vous toussez beaucoup, Madame_Blanchet ?</s>
@@ -1074,7 +1074,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="15"><head>SCÈNE XV.</head>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, seul.</speaker>
+<sp stage="alone" who="FRANÇOIS"><speaker>FRANÇOIS, seul.</speaker>
 <stage type="location/open">Il va devant la crédence et l'ouvre.</stage>
 <p id="1">
 	<s id="1">D'abord, je vas me débarrasser de ma ceinture, et serrer ici les écus que j'ai gagnés.</s>
@@ -1257,7 +1257,7 @@ spectateur, un escalier de bois conduit à la chambre de Mariette.</stage>
 	<s id="1">Soit !...</s>
 </p>
 </sp>
-<sp who="JEAN"><speaker>JEAN, à part, en sortant.</speaker>
+<sp stage="aparte/exit" who="JEAN"><speaker>JEAN, à part, en sortant.</speaker>
 <p id="25">
 	<s id="1">Étais-je bête, de me molester l'esprit pour un champi !... </s>
 	<s id="2">C'est égal, je ne vas pas loin... </s>
@@ -1728,7 +1728,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="1">Et m'a-t-il jamais payée ?</s>
 </p>
 </sp>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, changeant peu a peu de ton.</speaker>
+<sp stage="shout" who="FRANÇOIS"><speaker>FRANÇOIS, changeant peu a peu de ton.</speaker>
 <p id="20">
 	<s id="1">Eh ! </s>
 	<s id="2">Oui.</s>
@@ -1774,7 +1774,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="1">Mais c'est peine perdue, mon gars ; je suis dans mon droit, et je plaiderai jusqu'à ce qu'elle paraisse, cette fameuse quittance.</s>
 </p>
 </sp>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, tranquillement et feignant de chercher sa poche.</speaker>
+<sp stage="quiet/search" who="FRANÇOIS"><speaker>FRANÇOIS, tranquillement et feignant de chercher sa poche.</speaker>
 <p id="29">
 	<s id="1">Vous voulez donc la voir absolument, cette pauvre quittance du bon Dieu ?</s>
 </p>
@@ -1794,7 +1794,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="1">Ce ne peut être ma signature, voyons !...</s>
 </p>
 </sp>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, remettant tranquillement le papier dans sa poche.</speaker>
+<sp stage="close/give/quiet" who="FRANÇOIS"><speaker>FRANÇOIS, remettant tranquillement le papier dans sa poche.</speaker>
 <p id="33">
 	<s id="1">Prenez donc garde, Madame_Sévère, vous allez vous échauffer le sang ! </s>
 	<s id="2">Et, à cette heure, auriez-vous point affaire à votre logis ? </s>
@@ -1835,7 +1835,7 @@ que tu me conduisais quand j'étais petit.</s>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, seul.</speaker>
+<sp stage="alone" who="FRANÇOIS"><speaker>FRANÇOIS, seul.</speaker>
 <p id="1">
 	<s id="1">J'en étais bien sûr, elle a donné dans le piège ; elle ne plaidera point ; pour être malhonnête, on n'est pas toujours habile ! </s>
 	<s id="2">Mais j'ai peut-être été un peu vite avec elle ; elle s'en va furieuse !... </s>
@@ -1998,7 +1998,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="1">Ma foi, vous le mériteriez bien !</s>
 </p>
 </sp>
-<sp who="MARIETTE"><speaker>MARIETTE, très animée, le regardant.</speaker>
+<sp stage="agitated/watch" who="MARIETTE"><speaker>MARIETTE, très animée, le regardant.</speaker>
 <p id="30">
 	<s id="1">Allons ! </s>
 	<s id="2">Dites ce que vous avez contre moi; ce sera plus tôt fini.</s>
@@ -2036,7 +2036,7 @@ que tu me conduisais quand j'étais petit.</s>
 </p>
 <stage type="cry">Elle pleure.</stage>
 </sp>
-<sp who="FRANÇOIS"><speaker>FRANÇOIS, un peu ému.</speaker>
+<sp stage="moved" who="FRANÇOIS"><speaker>FRANÇOIS, un peu ému.</speaker>
 <p id="37">
 	<s id="1">Voilà que vous vous en prenez à vos beaux yeux, à présent, Mariette ?</s>
 </p>
@@ -2198,7 +2198,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="5">Il est votre amoureux attitré, puisqu'il vous plaît ; vous avez le droit de le recevoir, comme il a celui de vous fréquenter ; et, si votre monde veut l'éconduire, il faut que je sois là, pour vous donner protection et savoir qui, de vous ou de votre belle-soeur, est céans la fille à marier.</s>
 </p>
 </sp>
-<sp who="MARIETTE"><speaker>MARIETTE, distraite.</speaker>
+<sp stage="think" who="MARIETTE"><speaker>MARIETTE, distraite.</speaker>
 <p id="10">
 	<s id="1">Votre neveu est venu ? </s>
 	<s id="2">Je ne le vois point.</s>
@@ -2244,7 +2244,7 @@ que tu me conduisais quand j'étais petit.</s>
 	<s id="1">Franchement, Mariette, ce païen de meunier vous a jeté un charme.</s>
 </p>
 </sp>
-<sp who="MARIETTE"><speaker>MARIETTE, après s'être caché un instant la figure dans les mains.</speaker>
+<sp stage="hide" who="MARIETTE"><speaker>MARIETTE, après s'être caché un instant la figure dans les mains.</speaker>
 <p id="18">
 	<s id="1">Eh bien, je crois que vous avez dit le fin mot, Sévère, c'est comme un charme qu'il a jeté sur moi ! </s>
 	<s id="2">Tant plus il me moleste, tant plus je suis obligée de penser à lui ! </s>
@@ -2666,7 +2666,7 @@ Mariette, Catherine.</head>
 	<s id="2">Je crois parler comme il faut.</s>
 </p>
 </sp>
-<sp who="SÉVÈRE"><speaker>SÉVÈRE, haut, avec aigreur.</speaker>
+<sp stage="loud/sad" who="SÉVÈRE"><speaker>SÉVÈRE, haut, avec aigreur.</speaker>
 <p id="9">
 	<s id="1">Et tu ne vois donc pas que c'est une manière de t'éconduire toi-même ? </s>
 	<s id="2">Qu'on ne veut dire ni oui ni non ?... </s>
@@ -2750,7 +2750,7 @@ Mariette, Catherine.</head>
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII. Catherine, Madeleine, François, Jeannie.</head>
-<sp who="MADELEINE"><speaker>MADELEINE, va s'asseoir sur le fauteuil.</speaker>
+<sp stage="loud/sad" who="MADELEINE"><speaker>MADELEINE, va s'asseoir sur le fauteuil.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
 	<s id="2">Mes enfants, je ne sais pas ce que j'ai fait de mal, mais j'en suis bien punie ! </s>
@@ -2759,7 +2759,7 @@ Mariette, Catherine.</head>
 	<s id="5">Elle me fend le coeur !</s>
 </p>
 </sp>
-<sp who="JEANNIE"><speaker>JEANNIE, entrant.</speaker>
+<sp stage="entrance" who="JEANNIE"><speaker>JEANNIE, entrant.</speaker>
 <p id="2">
 	<s id="1">Eh bien, qu'est-ce qu'il va donc ?... </s>
 	<s id="2">La Sévère sort d'ici et ma pauvre maman pleure !...</s>
@@ -2771,7 +2771,7 @@ Mariette, Catherine.</head>
 	<s id="2">En voilà un du moins qui vous aime !</s>
 </p>
 </sp>
-<sp who="JEANNIE"><speaker>JEANNIE, embrassant sa mère.</speaker>
+<sp stage="kiss" who="JEANNIE"><speaker>JEANNIE, embrassant sa mère.</speaker>
 <p id="4">
 	<s id="1">Oh ! </s>
 	<s id="2">Si je vous aime !</s>
@@ -3165,7 +3165,7 @@ Mariette, Catherine.</head>
 	<s id="5">Mais, moi, de si vilains sentiments me révoltent, à la fin ; je ne veux point que vous soyez trompée comme je l'ai été par ce petit serpent-là ; je le croyais un bon enfant, bien amoureux de vous ; mais renvoyez-moi ça, tout de suite, car j'aimerais mieux vous voir mariée avec le champi qu'avec un sujet si traître, si poltron et si intéressé.</s>
 </p>
 </sp>
-<sp who="JEAN"><speaker>JEAN, faisant le geste d'ôter son chapeau.</speaker>
+<sp stage="dress" who="JEAN"><speaker>JEAN, faisant le geste d'ôter son chapeau.</speaker>
 <p id="19">
 	<s id="1">Merci, ma tante ! </s>
 	<s id="2">Allons, vous avez dit le tout, et le restant avec. </s>

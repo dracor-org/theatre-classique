@@ -96,8 +96,8 @@
 			<castItem><role id="ORLOFF" sex="1" type="H" statut="capitaine" age='A' stat_amour='néant'>ORLOFF</role>, Chef des Strélits. NAUDET.</castItem>
 			<castItem><role id="HERMANN" sex="1" type="H" statut="capitaine" age='A' stat_amour='néant'>HERMANN</role>, Chef de la garde allemande du Czar. LACAVE.</castItem>
 			<castItem><role id="BORIS" sex="1" type="H" statut="boyard" age='A' stat_amour='néant'>BORIS</role>, Boyard. VARENES.</castItem>
-			<castItem><role id="FOEDOR" sex="1" type="H" statut="" age='A' stat_amour='néant'>FOEDOR</role>, Esclave, Confident de Gleboff. GONTHIER.</castItem>
-			<castItem><role id="DIVERS peRSONNAGES" sex="1" type="H" statut="" age='A' stat_amour='néant'>Boyards, Strélits, Popes, personnages muets.</role></castItem>		</castList>
+			<castItem><role id="FOEDOR" sex="1" type="H" statut="confident" age='A' stat_amour='néant'>FOEDOR</role>, Esclave, Confident de Gleboff. GONTHIER.</castItem>
+			<castItem><role id="DIVERS peRSONNAGES" sex="1" type="H" statut="peuple" age='A' stat_amour='néant'>Boyards, Strélits, Popes, personnages muets.</role></castItem>		</castList>
 		<set location="Moscou" country="Russie" periode="XVIIIème" gps="61.5231115, 105.1">La scène est à Moscow, dans le Kremlin, ou ancien palais des Czars ; elle représente un vestibule de ce palais : sur un des côtés est un Bog représentant un Saint-Alexandre Neuwski.</set>
 	<note>La superstition grecque réprouvant les images taillées, le Bog est une simple peinture sans relief.  </note>
 	</front>
@@ -310,7 +310,7 @@ Chefs, des Boyards et des Strélits.</head>
 <sp who="ALEXIS"><speaker>ALEXIS.</speaker>
 	<l id="169">Oui, c'est moi qu'en vos bras un sort plus doux ramène.</l>
 </sp>
-<sp who="GLEBOFF"><speaker>GLEBOFF, le recevant dans ses bras.</speaker>
+<sp stage="hugh" who="GLEBOFF"><speaker>GLEBOFF, le recevant dans ses bras.</speaker>
 	<l id="170" syll="3" part="i">Cher Prince !</l>
 </sp>
 <sp who="ORLOFF"><speaker>ORLOFF.</speaker>
@@ -2088,7 +2088,7 @@ Chefs, des Boyards et des Strélits.</head>
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV.</head>
-<sp who="GLEBOFF"><speaker>GLEBOFF, seul.</speaker>
+<sp stage="alone" who="GLEBOFF"><speaker>GLEBOFF, seul.</speaker>
 	<l id="1435">Croirai-je à ce discours ? Mais, fût-elle sincère?</l>
 	<l id="1436">Pierre, un jour, percera ce ténébreux mystère ;</l>
 	<l id="1437">Il saura qu'en secret j'inspirais Alexis.</l>
@@ -2104,7 +2104,7 @@ Chefs, des Boyards et des Strélits.</head>
 <sp who="ORLOFF"><speaker>ORLOFF.</speaker>
 	<l id="1444">Qu'a-t-on fait d'Alexis ? Est-il vivant encore ?</l>
 </sp>
-<sp who="GLEBOFF"><speaker>GLEBOFF, le reconnaissant.</speaker>
+<sp stage="recognize" who="GLEBOFF"><speaker>GLEBOFF, le reconnaissant.</speaker>
 	<l id="1445">C'est vous, Orloff ? Mon oeil vous aurait méconnu !</l>
 <stage type="stress/cold">Avec contrainte, et froidement.</stage>
 	<l id="1446">Alexis est vivant dans la tour retenu.</l>
@@ -2146,7 +2146,7 @@ Chefs, des Boyards et des Strélits.</head>
 <sp who="ORLOFF"><speaker>ORLOFF.</speaker>
 	<l id="1474" syll="6" part="i">Pierre vient dans ces lieux !</l>
 </sp>
-<sp who="GLEBOFF"><speaker>GLEBOFF, avec un enthousiasme affecté.</speaker>
+<sp stage="enthousiasm" who="GLEBOFF"><speaker>GLEBOFF, avec un enthousiasme affecté.</speaker>
 	<l id="1474" syll="6" part="f">Qu'il y trouve la mort.</l>
 	<l id="1475">Tantôt, ici, du ciel expliquant la menace,</l>
 	<l id="1476">Ma voix vous promettait un terme a tant d'audace.</l>
@@ -2186,7 +2186,7 @@ Chefs, des Boyards et des Strélits.</head>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Gleboff, Alexis, Menzikoff, Gardes.</head>
-<sp who="MENZIKOFF"><speaker>MENZIKOFF, àGleboff.</speaker>
+<sp stage="toward" who="MENZIKOFF"><speaker>MENZIKOFF, à Gleboff.</speaker>
 	<l id="1497">Vous connaissez du Czar les ordres absolus ?</l>
 </sp>
 <sp who="GLEBOFF"><speaker>GLEBOFF.</speaker>
@@ -2345,7 +2345,7 @@ Chefs, des Boyards et des Strélits.</head>
 	<l id="1580">Plus calme enfin, d'un signe il disperse sa garde.</l>
 	<l id="1581">Presque seul sur rires pas il s'avance vers vous.</l>
 </sp>
-<sp who="ALEXIS"><speaker>ALEXIS, prenant le glaive en main.</speaker>
+<sp stage="get" who="ALEXIS"><speaker>ALEXIS, prenant le glaive en main.</speaker>
 	<l id="1582">Ce fer m'est confié ; j'en dois porter les coups.</l>
 	<l id="1583">C'est à moi d'obéir à cet arrêt funeste.</l>
 	<l id="1584">La vengeance ! Ô ma mère ! Est tout ce qui nous reste.</l>
@@ -2382,7 +2382,7 @@ Chefs, des Boyards et des Strélits.</head>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII. Alexis, Pierre. </head>
 <stage type="light">La nuit couvre entièrement le théâtre.</stage>
-<sp who="PIERRE"><speaker>PIERRE, au fond du théâtre.</speaker>
+<sp stage="location" who="PIERRE"><speaker>PIERRE, au fond du théâtre.</speaker>
 	<l id="1605">Qu'on cherche Menzikoff. Sans, doute un faux avis</l>
 	<l id="1606">M'annonçait par Gleboff mes intérêts trahis.</l>
 	<l id="1607">Fermes dans un devoir terrible autant qu'auguste,</l>
@@ -2395,7 +2395,7 @@ Chefs, des Boyards et des Strélits.</head>
 </sp>
 </div2>
 <div2 type="scene" n="14"><head>SCÈNE XIV. Alexis, Pierre, Menzikoff, Soldats de la suite,de Menzikoff avec des flambeaux.</head>
-<sp who="ALEXIS"><speaker>ALEXIS, sortant de son égarement et ayant l'air de répondre à une voix fantastique.</speaker>
+<sp stage="lost/toward" who="ALEXIS"><speaker>ALEXIS, sortant de son égarement et ayant l'air de répondre à une voix fantastique.</speaker>
 	<l id="1614" syll="6" part="i">J'obéis, je t'entends...</l>
 </sp>
 <sp stage="pull" who="MENZIKOFF"><speaker>MENZIKOFF le saisissant.</speaker>

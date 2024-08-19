@@ -42,7 +42,7 @@
 		<castItem><role id="KILMÉNIE" sex="2" type="H" statut='paysan' age='J' stat_amour='néant'>KILMÉNIE, dix-sept ans</role>, sa soeur.</castItem>
 	</castList>
 	<castList><head>PERSONNAGES DE LES FÉES.</head>
-		<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquise' age='A' stat_amour='néant'>LA MARQUISE</role>.</castItem>
+		<castItem><role id="LA MARQUISE" sex="2" type="H" statut='marquis' age='A' stat_amour='néant'>LA MARQUISE</role>.</castItem>
 		<castItem><role id="LA MÈRE GERVAIS" sex="2" type="H" statut='paysan' age='A' stat_amour='néant'>LA MÈRE GERVAIS</role>.</castItem>
 		<castItem><role id="FANCHON" sex="2" type="H" statut='paysan' age='J' stat_amour='néant'>FANCHON</role>, sa fille aînée.</castItem>
 		<castItem><role id="NICOLINE" sex="2" type="H" statut='paysan' age='J' stat_amour='néant'>NICOLINE</role>, sa fille cadette.</castItem>
@@ -50,7 +50,7 @@
 	<castList><head>PERSONNAGES DE LA DOUBLE MÉPRISE.</head>
 		<castItem><role id="MADAME VINGMAILLE" sex="2" type="H" statut='marquis' age='A' stat_amour='néant'>MADAME VINGMAILLE</role>.</castItem>
 		<castItem><role id="CÉCILE" sex="2" type="H" statut='aristocrate' age='J' stat_amour='néant'>CÉCILE</role>, sa fille.</castItem>
-		<castItem><role id="HENRIETTE" sex="2" type="H" statut='institutrice' age='J' stat_amour='néant'>HENRIETTE</role>,jeune institutrice.</castItem>
+		<castItem><role id="HENRIETTE" sex="2" type="H" statut='instituteur' age='J' stat_amour='néant'>HENRIETTE</role>,jeune institutrice.</castItem>
 		<castItem><role id="FANCHON" sex="2" type="H" statut='cuisinier' age='J' stat_amour='néant'>JOSÉPHINE</role>, cuisinière.</castItem>
 		<castItem><role id="FANCHON" sex="2" type="H" statut='femme de chambre' age='A' stat_amour='néant'>JUSTINE</role>, femme de chambre.</castItem>
 	</castList>
@@ -117,8 +117,8 @@
 </p>
 </sp>
 <sp who="JEMMY"><speaker>JEMMY.</speaker>
-<note type="">Prestonpans : petit ville d'Ecosse à ouest d'Édimbourg.</note>
-<note type="">Bataille de Prestonpans : Bataille entre les anglais et les jacobites qui vit la victoire de ces derniers le 21 septembre 1745.</note>
+<note type="L">Prestonpans : petit ville d'Ecosse à ouest d'Édimbourg.</note>
+<note type="L">Bataille de Prestonpans : Bataille entre les anglais et les jacobites qui vit la victoire de ces derniers le 21 septembre 1745.</note>
 <p id="10">
 	<s id="1">Oui. </s>
 	<s id="2">La misère ne suffisait pas, et voilà la guerre, maintenant. </s>
@@ -178,7 +178,7 @@
 	<s id="1">Ah !</s>
 </p>
 </sp>
-<sp who="LA PRINCESSE"><speaker>LA PRINCESSE, écoutant au fond.</speaker>
+<sp stage="listen/location" who="LA PRINCESSE"><speaker>LA PRINCESSE, écoutant au fond.</speaker>
 <note type="C">Elle est coiffée d'un feutre d'amazone, avec plume, et porte une grande mante, fermée devant et du haut en bas par une rangée de vingt-quatre boutons.</note>
 <p id="4">
 	<s id="1">Rien ! </s>
@@ -347,7 +347,7 @@
 	<s id="2">Charles-Édouard et moi nous avons été élevés ensemble, comme frère et soeur.</s>
 </p>
 </sp>
-<sp who="KILMÉNIE"><speaker>KILMÉNIE, joignant les mains et à elle-même.</speaker>
+<sp stage="touch" who="KILMÉNIE"><speaker>KILMÉNIE, joignant les mains et à elle-même.</speaker>
 <p id="16">
 	<s id="1">Bonté divine ! </s>
 	<s id="2">Une princesse!</s>
@@ -476,7 +476,7 @@
 	<s id="2">Tu n'y penses pas !</s>
 </p>
 </sp>
-<sp who="MISTRESS WATSON"><speaker>MISTRESS WATSON, écoutant.</speaker>
+<sp stage="listen" who="MISTRESS WATSON"><speaker>MISTRESS WATSON, écoutant.</speaker>
 <p id="7">
 	<s id="1">Laisse donc ! </s>
 </p>
@@ -633,7 +633,7 @@
 	<s id="2">Te moques-tu de nous, à la fin ?</s>
 </p> 
 </sp>
-<sp who="KILMÉNIE"><speaker>KILMÉNIE, qui, pendant ce temps, a découpé et enlevé avec des ciseaux l'étoffe qui recouvrait le premier bouton de la mante, montrant une pièce d'or.</speaker>
+<sp stage="work" who="KILMÉNIE"><speaker>KILMÉNIE, qui, pendant ce temps, a découpé et enlevé avec des ciseaux l'étoffe qui recouvrait le premier bouton de la mante, montrant une pièce d'or.</speaker>
 <p id="11">
 	<s id="1">Jugez-en vous-mêmes !</s>
 </p>
@@ -688,7 +688,7 @@
 	<s id="1">C'est bien, mère_Gervais, ne vous fâchez pas, nous nous en allons.</s>
 </p>
 </sp>
-<sp who="CLAUDINE"><speaker>CLAUDINE, de même.</speaker>
+<sp stage="stand/closer/toward" who="CLAUDINE"><speaker>CLAUDINE, de même.</speaker>
 <p id="2">
 	<s id="1">Nous reviendrons quand Nicoline sera rentrée.</s>
 </p>
@@ -990,7 +990,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Les précédentes, Fanchon.</head>
-<sp who="FANCHON"><speaker>FANCHON, entrant de gauche et avec humeur, en se détirant.</speaker> 
+<sp stage="entrance/location/nervous" who="FANCHON"><speaker>FANCHON, entrant de gauche et avec humeur, en se détirant.</speaker> 
 <p id="1">
 	<s id="1">Eh ben, qu'est-ce qu'il y a ? </s>
 	<s id="2">Est-ce que le feu est à la maison ?</s>
@@ -1509,7 +1509,7 @@
 	<s id="1">Elle s'habille en ce moment, mais ça ne fait rien, elle vous recevra tout de suite, car on vous attendait avec une impatience...</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, étonnée.</speaker>
+<sp stage="estonish" who="HENRIETTE"><speaker>HENRIETTE, étonnée.</speaker>
 <p id="6">
 	<s id="1">On m'attendait, moi ?</s>
 </p>
@@ -1517,10 +1517,10 @@
 <sp who="JUSTINE"><speaker>JUSTINE.</speaker>
 <p id="7">
 	<s id="1">Certainement. </s>
-	<s id="2">Et Mademoiselle Cécile est déjà venue me demander si vous étiez arrivée ?</s>
+	<s id="2">Et Mademoiselle_Cécile est déjà venue me demander si vous étiez arrivée ?</s>
 </p>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, étonnée.</speaker>
+<sp stage="estonish" who="HENRIETTE"><speaker>HENRIETTE, étonnée.</speaker>
 <p id="8">
 	<s id="1">C'est bien étonnant, car je suis sûre que ces dames ne me connaissent pas, et ne m'attendaient pas. </s>
 	<s id="2">Pour qui me prenez-vous donc ?</s>
@@ -1576,7 +1576,7 @@
 </p>
 <stage type="drop/location">Elle va poser son sac sur le guéridon.</stage>
 </sp>
-<sp who="JOSÉPHINE"><speaker>JOSÉPHINE, entrant par le fond et tenant à la main un sac de voyage semblable à celui d'Henriette.</speaker> 
+<sp stage="entrance/carry" who="JOSÉPHINE"><speaker>JOSÉPHINE, entrant par le fond et tenant à la main un sac de voyage semblable à celui d'Henriette.</speaker> 
 <p id="2">
 	<s id="1">Bonjour, madame.</s>
 </p>
@@ -1871,7 +1871,7 @@ sont des oranges, et un sucrier contenant du sucre en poudre.</speaker>
 	<s id="3">Je veux bien flatter les goûts de Monsieur_l_inspecteur, puisque j'ai besoin de lui, mais je ne sais vraiment pas comment m'y prendre.</s>
 </p>
 </sp>
-<sp who="JOSÉPHINE"><speaker>JOSÉPHINE, assise au bureau.</speaker>
+<sp stage="sit/location/furniture" who="JOSÉPHINE"><speaker>JOSÉPHINE, assise au bureau.</speaker>
 <p id="4">
 	<s id="1">La jeune demoiselle m'a dit : « Si vous réussissez, mon oncle vous fera facilement avoir 1200_francs. </s>
 	<s id="2">En voilà des gages ! </s>
@@ -1918,7 +1918,7 @@ sont des oranges, et un sucrier contenant du sucre en poudre.</speaker>
 </p> 
 <stage type="show">Elle le lui montre.</stage>
 </sp>
-<sp who="HENRIETTE"><speaker>HENRIETTE, lisant.</speaker>
+<sp stage="read" who="HENRIETTE"><speaker>HENRIETTE, lisant.</speaker>
 <p id="12">
 	<s id="1">« Des devoirs de l'institutrice dans l'enseignement primaire. » </s>
 	<s id="2">Mais c'est la moindre des choses, cela.</s>
@@ -1988,13 +1988,13 @@ sont des oranges, et un sucrier contenant du sucre en poudre.</speaker>
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Joséphine, Cécile, Henriette.</head>
-<sp who="CÉCILE"><speaker>CÉCILE, entrant et s'adressant à Joséphine.</speaker>
+<sp stage="entrance/toward" who="CÉCILE"><speaker>CÉCILE, entrant et s'adressant à Joséphine.</speaker>
 <p id="1">
 	<s id="1">Mademoiselle, mon oncle vient d'arriver, et il vous attend pour vous interroger. </s>
 	<s id="2">Avez-vous terminé le petit rapport que je vous ai remis ?</s>
 </p>
 </sp>
-<sp who="JOSÉPHINE"><speaker>JOSÉPHINE, le lui donnant.</speaker>
+<sp stage="give" who="JOSÉPHINE"><speaker>JOSÉPHINE, le lui donnant.</speaker>
 <p id="2">
 	<s id="1">Le voici, Mademoiselle.</s>
 </p>
@@ -2069,7 +2069,7 @@ sont des oranges, et un sucrier contenant du sucre en poudre.</speaker>
 	<s id="1">Je suis prête, Madame, mais comme il y a beaucoup de choses que je ne comprends pas, il me semble qu'une explication...</s>
 </p>
 </sp>
-<sp who="MADAME VINGMAILLE"><speaker>MADAME VINGMAILLE, l'interrompant.</speaker>
+<sp stage="interrupt" who="MADAME VINGMAILLE"><speaker>MADAME VINGMAILLE, l'interrompant.</speaker>
 <p id="8">
 	<s id="1">Oh ! </s>
 	<s id="2">Pas maintenant, pas d'explications maintenant. </s>

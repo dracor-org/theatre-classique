@@ -54,7 +54,7 @@
 <div1 type="acte" n="1"><head>IL EST DE LA POLICE</head>
 <stage type="decor">Un salon. - Porte au fond. - Portes latérales. - Une cheminée. Un  placard.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Julie, Graindor, puis Josépha.</head>
-<sp who="JULIE"><speaker>JULIE, à la cantonade</speaker>
+<sp stage="toward" who="JULIE"><speaker>JULIE, à la cantonade.</speaker>
 <p id="1">
 	<s id="1">Adieu mon ami, adieu, à bientôt.</s>
 </p>
@@ -137,7 +137,7 @@
 	<s id="1">C'est une forte fille.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, se plaçant devant Julie, avec sa malle sous son bras.</speaker>
+<sp stage="location/carry" who="CATHERINE"><speaker>CATHERINE, se plaçant devant Julie, avec sa malle sous son bras.</speaker>
 <p id="3">
 	<s id="1">Eh ben !</s>
 </p>
@@ -216,7 +216,7 @@
 	<s id="1">Vlà un papier qui certifie comme quoi j'ai été couronnée rosière dans mon endroit.</s>
 </p>
 </sp>
-<sp who="JOSÉPHA"><speaker>JOSÉPHA, la regardant avec étonnement.</speaker>
+<sp stage="watch/estonish" who="JOSÉPHA"><speaker>JOSÉPHA, la regardant avec étonnement.</speaker>
 <p id="16">
 	<s id="1">Ah ! </s>
 	<s id="2">Bah !</s>
@@ -547,7 +547,7 @@
 	<s id="2">Mais, vous me chatouillez...</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, à part.</speaker>
+<sp stage="aparte" who="CATHERINE"><speaker>CATHERINE, à part.</speaker>
 <p id="12">
 	<s id="1">Elle est sensible. </s>
 </p>
@@ -586,7 +586,7 @@
 </p>
 <stage type="search">Toutes deux fouillent à leur poche et en tirent une lettre.</stage>
 </sp>
-<sp who="CATHERINE, JOSÉPHA"><speaker>CATHERINE ET JOSÉPHA, ensemble.</speaker>
+<sp stage="TOGETHER" who="CATHERINE, JOSÉPHA"><speaker>CATHERINE ET JOSÉPHA, ensemble.</speaker>
 <p id="20">
 	<s id="1">Lisez-moi ça...</s>
 </p>
@@ -791,12 +791,12 @@
 	<s id="1">Non.</s>
 </p>
 </sp>
-<sp who="JOSÉPHA"><speaker>JOSÉPHA, mystérieusement.</speaker>
+<sp stage="serious" who="JOSÉPHA"><speaker>JOSÉPHA, mystérieusement.</speaker>
 <p id="57">
 	<s id="1">De la police.</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, faisant un mouvement.</speaker>
+<sp stage="wave" who="CATHERINE"><speaker>CATHERINE, faisant un mouvement.</speaker>
 <p id="58">
 	<s id="1">Ah ! </s>
 	<s id="2">Saprelotte !</s>
@@ -847,7 +847,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Julie.</head>
-<sp who="JULIE"><speaker>JULIE, entre par le fond.</speaker>
+<sp stage="entrance/location" who="JULIE"><speaker>JULIE, entre par le fond.</speaker>
 <p id="1">
 	<s id="1">Catherine !</s>
 </p>
@@ -1078,7 +1078,7 @@
 	<s id="1">Hum ! Hum !</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, tressaillant.</speaker>
+<sp stage="frighten" who="GRAINDOR"><speaker>GRAINDOR, tressaillant.</speaker>
 <p id="3">
 	<s id="1">Ce sont eux !... </s>
 	<s id="2">Déjà !...</s>
@@ -1205,7 +1205,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX. Julie, puis Octave.</head>
-<sp who="JULIE"><speaker>JULIE, seule.</speaker>
+<sp stage="alone" who="JULIE"><speaker>JULIE, seule.</speaker>
 <p id="1">
 	<s id="1">Enfin, il est parti !... </s>
 	<s id="2">Comprend-on ce Comte...? </s>
@@ -1321,7 +1321,7 @@
 au bout de dix-huit mois que vous revenez...</s>
 </p>
 </sp>
-<sp who="OCTAVE"><speaker>OCTAVE, d'un ton pénétré.</speaker>
+<sp stage="think" who="OCTAVE"><speaker>OCTAVE, d'un ton pénétré.</speaker>
 <p id="21">
 	<s id="1">Julie, écoutez-moi, je relève d'une longue maladie... </s>
 	<s id="2">J'ai eu la grippe !...</s>
@@ -1345,7 +1345,7 @@ au bout de dix-huit mois que vous revenez...</s>
 	<s id="2">La coqueluche ne dure pas dix-huit mois.</s>
 </p>
 </sp>
-<sp who="OCTAVE"><speaker>OCTAVE, solennel.</speaker>
+<sp stage="serious" who="OCTAVE"><speaker>OCTAVE, solennel.</speaker>
 <p id="25">
 	<s id="1">Non, mais elle a dégénéré à son tour en bronchite capillaire... l'affreuse bronchite capillaire !... </s>
 	<s id="2">Ah ! </s>
@@ -1360,7 +1360,7 @@ au bout de dix-huit mois que vous revenez...</s>
 	<s id="3">Voyons, soyez franc, vous avez quelque chose à me demander ?</s>
 </p>
 </sp>
-<sp who="OCTAVE"><speaker>OCTAVE, solennel.</speaker>
+<sp stage="serious" who="OCTAVE"><speaker>OCTAVE, solennel.</speaker>
 <p id="27">
 	<s id="1">Julie, je vous aime toujours... </s>
 	<s id="2">Je vous aime plus que jamais.</s>
@@ -1774,7 +1774,7 @@ au bout de dix-huit mois que vous revenez...</s>
 	<s id="">Octave... voici vos lettres !</s>
 </p>
 </sp>
-<sp who="OCTAVE"><speaker>OCTAVE, pleurant.</speaker>
+<sp stage="cry" who="OCTAVE"><speaker>OCTAVE, pleurant.</speaker>
 <p id="8">
 	<s id="1">Ah ! </s>
 	<s id="2">Julie !... </s>
@@ -1980,7 +1980,7 @@ par Octave.</stage>
 	<s id="1">J'ai coiffé la Colarde !</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, passant près de la table.</speaker>
+<sp stage="location/furniture" who="JULIE"><speaker>JULIE, passant près de la table.</speaker>
 <p id="11">
 	<s id="1">Eh bien ! </s>
 	<s id="2">Voyons... </s>
@@ -2070,7 +2070,7 @@ par Octave.</stage>
 	<s id="1">Dépêchez-vous !</s>
 </p>
 </sp>
-<sp who="CATHERINE"><speaker>CATHERINE, tout en la coiffant.</speaker>
+<sp stage="dress" who="CATHERINE"><speaker>CATHERINE, tout en la coiffant.</speaker>
 <p id="25">
 	<s id="1">Et comme Madame est potelée... </s>
 	<s id="2">Une vraie caille... avec des petites fossettes... jolies !... jolies !... </s>
@@ -2201,7 +2201,7 @@ par Octave.</stage>
 	<s id="1">Ça ne pique pas !</s>
 </p>
 </sp>
-<sp who="JOSÉPHA"><speaker>JOSÉPHA, entrant très affairée.</speaker>
+<sp stage="estonish" who="JOSÉPHA"><speaker>JOSÉPHA, entrant très affairée.</speaker>
 <p id="6">
 	<s id="1">Monsieur !... </s>
 	<s id="2">Madame !</s>
@@ -2349,7 +2349,7 @@ par Octave.</stage>
 	<s id="1">Ne bougez pas...</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, à part, en la regardant faire.</speaker>
+<sp stage="aparte/watch" who="GRAINDOR"><speaker>GRAINDOR, à part, en la regardant faire.</speaker>
 <p id="15">
 	<s id="1">La main est lourde... </s>
 	<s id="2">Mais l'habitude y est... </s>
@@ -2402,7 +2402,7 @@ par Octave.</stage>
 	<s id="2">S'il vous plait ?</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, à part.</speaker>
+<sp stage="aparte" who="GRAINDOR"><speaker>GRAINDOR, à part.</speaker>
 <p id="24">
 	<s id="1">Nous allons bien voir si c'est un homme ! </s>
 </p>
@@ -2558,7 +2558,7 @@ par Octave.</stage>
 	<s id="4">Voire courtisane ?</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, protestant.</speaker>
+<sp stage="strong" who="GRAINDOR"><speaker>GRAINDOR, protestant.</speaker>
 <p id="53">
 	<s id="1">Oh !</s>
 </p>
@@ -2767,7 +2767,7 @@ par Octave.</stage>
 	<s id="2">Ma femme.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, à Graindor.</speaker>
+<sp stage="toward" who="JULIE"><speaker>JULIE, à Graindor.</speaker>
 <p id="88">
 	<s id="1">Eh bien ?</s>
 </p>
@@ -3006,7 +3006,7 @@ par Octave.</stage>
 </sp>
 </div2>
 <div2 type="scene" n="18"><head>SCÈNE XVIII. Julie, Graindor, puis Octave, puis Josépha.</head> 
-<sp who="GRAINDOR"><speaker>GRAINDOR, entre par le fond, le carnet de bal de sa femme à la main, à lui-même.</speaker> 
+<sp stage="entrance/carry/aparte" who="GRAINDOR"><speaker>GRAINDOR, entre par le fond, le carnet de bal de sa femme à la main, à lui-même.</speaker> 
 <p id="1">
 	<s id="1">Ce n'est pas assez de mes inquiétudes politiques, il faut encore que des préoccupations conjugales...</s>
 </p>
@@ -3021,7 +3021,7 @@ par Octave.</stage>
 	<s id="1">Quoi donc, mon ami ?</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, lui montrant le carnet.</speaker>
+<sp stage="watch" who="GRAINDOR"><speaker>GRAINDOR, lui montrant le carnet.</speaker>
 <p id="4">
 	<s id="1">Connaissez-vous ceci ?</s>
 </p>
@@ -3184,7 +3184,7 @@ par Octave.</stage>
 	<s id="2">Tirez-moi de là !</s>
 </p>
 </sp>
-<sp who="OCTAVE"><speaker>OCTAVE, bas.</speaker>
+<sp stage="low" who="OCTAVE"><speaker>OCTAVE, bas.</speaker>
 <p id="32">
 	<s id="1">Si vous croyez que c'est facile !</s>
 </p>
@@ -3219,7 +3219,7 @@ par Octave.</stage>
 	<s id="1">Un geste de plus et vous êtes perdu !...</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, étonné.</speaker>
+<sp stage="estonish" who="GRAINDOR"><speaker>GRAINDOR, étonné.</speaker>
 <p id="39">
 	<s id="1">Quoi ?</s>
 </p>
@@ -3433,7 +3433,7 @@ par Octave.</stage>
 	<s id="2">C'est une fille à présent.</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, à part.</speaker>
+<sp stage="aparte" who="JULIE"><speaker>JULIE, à part.</speaker>
 <p id="10">
 	<s id="1">Ce n'est pas possible.</s>
 </p>
@@ -3462,7 +3462,7 @@ par Octave.</stage>
 	<s id="1">C'est mon institutrice.</s>
 </p>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, lisant.</speaker>
+<sp stage="read" who="GRAINDOR"><speaker>GRAINDOR, lisant.</speaker>
 <p id="16">
 	<s id="1">« Elle a tout conté à son, mari, le brigadier de gendarmerie. »</s>
 </p>
@@ -3559,7 +3559,7 @@ par Octave.</stage>
 </p>
 <stage type="kiss">Il veut embrasser Julie.</stage>
 </sp>
-<sp who="GRAINDOR"><speaker>GRAINDOR, le repoussant.</speaker>
+<sp stage="push" who="GRAINDOR"><speaker>GRAINDOR, le repoussant.</speaker>
 <p id="33">
 	<s id="1">Prends donc garde, butor !</s>
 </p>

@@ -7,12 +7,12 @@
 			<author type="texte" ISNI="0000 0001 0889 3665">Jean-Baptiste RADET (1752-1830)</author>
 			<author type="texte" ISNI="0000 0000 4431 8388">Pierre Paul Raboteau (1765-1825)</author>
 		</titleStmt>
-		<publicationStmp>	
+		<publicationStmt>	
 			<editor>Texte établi par Paul FIEVRE janvier 2021.</editor>
 			<publisher>Publié par Paul FIEVRE février 2021.</publisher>
 			<idno>RADET-RABOTEAU_AVAREAMI</idno>
 			<rights>Creative Commons BY-NC-SA</rights>
-		</publicationStmp>
+		</publicationStmt>
 		<SourceDesc>
 			<genre>Comédie</genre>
 			<inspiration>moeurs françaises</inspiration>
@@ -54,7 +54,7 @@
 		<castItem><role id="FINETTE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>FINETTE</role>, femme-de-chambre d'Agathine. Melle Blosseville</castItem>
 		<castItem><role id="ROBERT" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>ROBERT</role>, homme d'affaires de Sainville. Lenoble.</castItem>
 		<castItem><role id="JACQUES" sex="1" type="H" statut="bourgeois" age="A" stat_amour=''>JACQUES</role>, jardinier. Hypolite.</castItem>
-		<castItem><role id="VILLAGEOIS ET VILLAGEOISES" sex="9" type="H" statut="paysans" age="A" stat_amour=''>VILLAGEOIS ET VILLAGEOISES</role>.</castItem>
+		<castItem><role id="VILLAGEOIS ET VILLAGEOISES" sex="9" type="H" statut="paysan" age="A" stat_amour=''>VILLAGEOIS ET VILLAGEOISES</role>.</castItem>
 	</castList>
 	<set location="Sedan" country='France' periode='XIXème' gps="49.7, 4.95">La scène est à la campagne, à quelques lieues de Sedan.</set>
 <note>S'adresser au citoyen Ficht, chef de l'orchestre du théâtre du Vaudeville, pour les accompagnements de toutes les pièces joués sur ce théâtre depuis sa création.</note>
@@ -553,7 +553,7 @@
 	<s id="2">J'allais à l'instant même faire ma commission lorsqu'une réflexion m'arrêta.</s>
 </p>
 </sp>
-<sp who="ROBERT"><speaker>ROBERT, très attentif.</speaker>
+<sp stage="watch" who="ROBERT"><speaker>ROBERT, très attentif.</speaker>
 <p id="40">
 	<s id="1">Voyons, Monsieur, votre réflexion.</s>
 </p>
@@ -767,7 +767,7 @@
 	<l id="80">À la piété filiale. </l>
 <stage type="title">Bis.</stage>
 </sp>
-<sp who="SAINVILLE FILS"><speaker>SAINVILLE, fils.</speaker>
+<sp who="SAINVILLE FILS"><speaker>SAINVILLE fils.</speaker>
 <p id="21">
 	<s id="1">Je ne puis qu'applaudir à des sentiments que je partage ; mais, ma chère Agathine, après un refus aussi étrange...</s>
 </p>
@@ -820,7 +820,7 @@
 	<s id="1">Bonjour, Sainville.</s>
 </p>
 </sp>
-<sp who="SAINVILLE"><speaker>SAINVILLE, du même ton.</speaker>
+<sp stage="sad" who="SAINVILLE"><speaker>SAINVILLE, du même ton.</speaker>
 <p id="3">
 	<s id="1">Bonjour Dormel... </s>
 </p>
@@ -1108,8 +1108,8 @@
 	<l id="110">Jacques, sa femme et ses enfants. </l>
 <stage type="bis">Bis.</stage>
 	<l id="111">Toute la petite famille</l>
-	<l id="112">M'appelle ici le bieu venu :</l>
-	<l id="113">Autour de moi la gaité brille ;</l>
+	<l id="112">M'appelle ici le bienvenu :</l>
+	<l id="113">Autour de moi la gaîté brille ;</l>
 	<l id="114">Est-il un meilleur revenu ? </l>
 <stage type="bis">Bis.</stage>
 </sp>
@@ -1123,7 +1123,7 @@
 	<s id="1">Ce ne sont pas les moins sûres.</s>
 </p>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, avec chaleur.</speaker>
+<sp stage="warm" who="DORMEL"><speaker>DORMEL, avec chaleur.</speaker>
 <p id="52">
 	<s id="1">Monsieur, un négociant ne peut trop borner ses dépenses. </s>
 	<s id="2">Il a déjà bien assez des hasards de son commerce : car enfin, les faux calculs, les mauvaises spéculations... les banqueroutes.... Le commerce n'a rien de sûr ; et si l'on considérait bien ce qu'on y risque...</s>
@@ -1308,7 +1308,7 @@
 	<s id="2">Monsieur !</s>
 </p>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, serrant brusquement son argent.</speaker>
+<sp stage="get/strong" who="DORMEL"><speaker>DORMEL, serrant brusquement son argent.</speaker>
 <p id="3">
 	<s id="1">Hein !... </s>
 	<s id="2">Qu'est-ce ?</s>
@@ -1627,7 +1627,7 @@
 	<s id="2">C'est le contrat d'acquisition de cette maison ; et j'en avais besoin aujourd'hui même.</s>
 </p>
 </sp>
-<sp who="ROBERT"><speaker>ROBERT, le tirant par l'habit.</speaker>
+<sp stage="pull" who="ROBERT"><speaker>ROBERT, le tirant par l'habit.</speaker>
 <p id="12">
 	<s id="1">Monsieur, je voudrais vous parler.</s>
 </p>
@@ -1810,7 +1810,7 @@
 <sp who="SAINVILLE"><speaker>SAINVILLE.</speaker>
 	<l id="225">Il ne m'en coûte rien.</l>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, se récriant.</speaker>
+<sp stage="shout" who="DORMEL"><speaker>DORMEL, se récriant.</speaker>
 	<l id="226">Ton bien !</l>
 </sp>
 <sp who="SAINVILLE"><speaker>SAINVILLE.</speaker>
@@ -1898,7 +1898,7 @@
 	<s id="1">Jette les yeux sur ce papier.</s>
 </p>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, voyant la signature.</speaker>
+<sp stage="watch" who="DORMEL"><speaker>DORMEL, voyant la signature.</speaker>
 <p id="26">
 	<s id="1">Édouard_Wilton !</s>
 </p>
@@ -1992,7 +1992,7 @@
 	<s id="4">Et tu auras de plus un jardin pour l'enterrer.</s>
 </p>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, honteux.</speaker>
+<sp stage="shame" who="DORMEL"><speaker>DORMEL, honteux.</speaker>
 <p id="38">
 	<s id="1">Ah ! </s>
 	<s id="2">Sainville !</s>
@@ -2034,7 +2034,7 @@
 	<l id="241">J'agis en galant homme.</l>
 	<l id="242">Laisse la maison, je la prends.</l>
 </sp>
-<sp who="DORMEL"><speaker>DORMEL, réfléchissant.</speaker>
+<sp stage="think" who="DORMEL"><speaker>DORMEL, réfléchissant.</speaker>
 	<l id="243">Vingt mille francs,</l>
 	<l id="244">Bien nets et bien francs,</l>
 	<l id="245">Vraiment, c'est une somme !</l>
@@ -2114,7 +2114,7 @@
 <sp who="CHOEUR"><speaker>CHOEUR.</speaker>
 	<l id="267">Oui, puisse-t-il etc.</l>
 </sp>
-<sp who="SAINVILLE"><speaker>SAINVILLE, père.</speaker>
+<sp who="SAINVILLE"><speaker>SAINVILLE père.</speaker>
 <p id="3">
 	<s id="1">Mes amis, le nouveau propriétaire ne peut que se féliciter d'avoir d'aussi bons voisins. </s>
 	<s id="2">N'est-il pas vrai, Dormel ?</s>
@@ -2141,7 +2141,7 @@
 	<s id="1">Un moment.</s>
 </p>
 </sp>
-<sp who="SAINVILLE"><speaker>SAINVILLE, père, se tournant vers les paysans.</speaker>
+<sp stage="turn/toward" who="SAINVILLE"><speaker>SAINVILLE père, se tournant vers les paysans.</speaker>
 <p id="8">
 	<s id="1">Mes amis, ce n'est point à moi que vous devez adresser vos compliments. </s>
 	<s id="2">C'est à mon ami Dormel.</s>
@@ -2287,12 +2287,12 @@
 	<s id="1">Quelle honte pour moi, s'ils savaient !...</s>
 </p>
 </sp>
-<sp who="LE NOTAIRE"><speaker>LE NOTAIRE, à Sainville père.</speaker>
+<sp stage="toward" who="LE NOTAIRE"><speaker>LE NOTAIRE, à Sainville père.</speaker>
 <p id="32">
 	<s id="1">Monsieur, voici les deux contrats de mariage.</s>
 </p>
 </sp>
-<sp who="SAINVILLE"><speaker>SAINVILLE, père, les prenant.</speaker>
+<sp stage="get" who="SAINVILLE"><speaker>SAINVILLE, père, les prenant.</speaker>
 <p id="33">
 	<s id="1">Fort bien... </s>
 	<s id="2">Celui de ces jeunes gens.</s>

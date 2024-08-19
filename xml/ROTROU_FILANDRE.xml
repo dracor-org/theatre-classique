@@ -1,0 +1,2921 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LE FILANDRE, COMÉDIE</title>
+				<author type="text" ISNI='0000 0001 2283 1639'>ROTROU, Jean (1609-1650)</author>
+			</titleStmt>
+			<publicationStmt>	
+				<editor>publié par Paul FIEVRE, décembre 2016.</editor>
+				<publisher>publié par Paul FIEVRE, décembre 2016.</publisher>
+				<idno>ROTROU_FILANDRE</idno>
+			</publicationStmt>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien cote="BnF RLR RES-YF-366">http://gallica.bnf.fr/ark:/12148/btv1b86221143</permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">LE FILANDRE</titlePart>
+				<titlePart type="sub">COMÉDIE</titlePart>
+			</docTitle>
+			<docDate value='1637'>M. DC. XXXVII. AVEC PRIVILÈGE DU ROI.</docDate>
+			<docAuthor id='ROTROU, Jean' bio='rotrou'>DE ROTROU</docAuthor>
+			<docImprint>
+				<privilege id='1637-02-07'><head>Extrait du privilège du Roi</head>
+				<p>Par grâce et privilège du Roi donné à Paris le 7 février 1637 ; Signé, par le Roi en son conseil DE MONCEAUX, il est permis à Antoine de SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de théâtre, intitulée, Le Filandre Comédie, durant le temps et espace de neuf ans, à compter du jour qu'elle sera achevée d'imprimer. Et défense sont faites à tous imprimeurs, libraires et autres de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine de trois mille livres d'amende, de tous les dépens, dommages et intérêts ; ainsi qu'il est amplement porté par lesdites Lettres qui sont en vertu du présent extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p></privilege>
+				<imprimeur id='SOMMAVILLE'>Chez ANTHOINE DE SOMMAVILLE, au Palais, dans la petite salle, à l'Écu de France.</imprimeur>
+				<acheveImprime id='1637-08-12'>Achevé d'imprimer pour la première fois, le 24 Mars, mille six cent trente sept.</acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='1635' location='(inconnue)'>Représenté pour le première fois en 1635.</premiere>
+			</performance>
+	<privilege id="1637-02-07"><head>Extrait du Privilège du Roi.</head>
+	<p>Par grâce et Privilège du Roi donné à Paris le 7 février 1637. Signé ; par le Roi en son Conseil, DE MONCEAUX, il est permis à ANTHOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre, intitulée Agesilan de Colchos, par le Sieur de Rotrou, Tragi-comédie, durant le temps et espace de neuf ans, à compter du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous Imprimeurs, Libraires, et autres de contrefaire la dite pièce, ni en vendre, ou exposer en vente de contrefaite, à peine de trois mille livres d'amende, de tous les dépens, dommages et intérêts, ainsi qu'il est plus amplement porté par les dites Lettres qui sont en vertu du présent Extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p></privilege>
+	<acheveImprimer id="1637-08-12">Achevé d'Imprimer pour la première fois, le 12ème jour d'août mille six cent trente sept.</acheveImprimer >
+	<castList><head>ACTEURS</head>
+		<castItem><role id='THÉANE' sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>THÉANE</role>, maîtresse de Thimante.</castItem>
+		<castItem><role id='CÉPHISE' sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>CÉPHISE</role>, soeur de Théane.</castItem>
+		<castItem><role id='THIMANTE' sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>THIMANTE</role>, amant de Théane.</castItem>
+		<castItem><role id='FILANDRE' sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>FILANDRE</role>, rival de Thimante.</castItem>
+		<castItem><role id='CÉLIDOR' sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>CÉLIDOR</role>, amant de Nérée.</castItem>
+		<castItem><role id='NÉRÉE' sex="2" type="H" statut='aristocrate' age='A' stat_amour='néant'>NÉRÉE</role>, maîtresse de Célidor.</castItem>
+		<castItem><role id='DORILAS' sex="1" type="H" statut='berger' age='A' stat_amour='néant'>DORILAS</role>, berger.</castItem>
+		<castItem><role id='MÉNALQUE' sex="1" type="H" statut='batelier' age='A' stat_amour='néant'>MÉNALQUE</role>, batelier.</castItem>
+		<castItem><role id='DAMÈTE' sex="1" type="H" statut='paysan' age='A' stat_amour='néant'>DAMÈTE</role>, paysan.</castItem>
+	</castList>
+	<set location='(non indiqué)' country='Grèce' periode='(inconnue)' link=''></set>
+</front>
+<body>
+<div1 type="act" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="alone/location" who="THÉANE"><speaker>THÉANE, seule dans un jardin.</speaker>
+<poem type="stances">
+<lg n="1">
+	<l id="1">C'est trop, insensible courage,</l>
+	<l id="2">Se défendre des traits d'amour :</l>
+	<l id="3">Chacun lui doit rendre hommage,</l>
+	<l id="4">Car chacun lui doit le jour.</l>
+</lg>
+<lg n="2">
+	<l id="5">Tôt ou tard ce vainqueur nous blesse ;</l>
+	<l id="6">Ses traits enfin m'ouvrent le sein ;</l>
+	<l id="7">Et je lui rends par faiblesse</l>
+	<l id="8">Ce qu'on lui doit par dessein.</l>
+</lg>
+<lg n="3">
+	<l id="9">Je résistais à ses amorces,</l>
+	<l id="10">J'étouffais mes jeunes désirs,</l>
+	<l id="11">Et je signalais mes forces</l>
+	<l id="12">Aux dépens de mes plaisirs.</l>
+</lg>
+</poem>
+	<l id="13">Mais enfin sa main plus puissante...</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Céphise, Théane.</head>
+<sp stage="show" who="CÉPHISE"><speaker>CÉPHISE, se montrant.</speaker>
+	<l id="14">A changé votre coeur en faveur de Thimante ;</l>
+	<l id="15" syll="6" part="i">Ne dissimulez plus.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="15" syll="6" part="f">Dieux ! Je parle une fois,</l>
+	<l id="16">Et ce timide coeur est trahi par ma voix.</l>
+	<l id="17">J'espérais seulement en ces lieux solitaires</l>
+	<l id="18">Devoir entretenir de muets secrétaires ;</l>
+	<l id="19">Je croyais n'avouer mes naissantes douleurs</l>
+	<l id="20">Qu'à la fidélité des arbres et des fleurs,</l>
+	<l id="21">Et je n'ai pu cacher cette ardeur amoureuse</l>
+	<l id="22">Aux soucis importuns d'une soeur curieuse.</l>
+	<l id="23">Eh bien, fâcheuse soeur, tes voeux sont satisfaits,</l>
+	<l id="24">Et tu feras tes jeux du dessein que je fais :</l>
+	<l id="25">Cette superbe fille à la fin s'est rendue ;</l>
+	<l id="26">Je perds ma liberté si longtemps défendue.</l>
+	<l id="27">Tu riras de ma honte et de ma vanité.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="28">Je rirais bien plutôt de ma simplicité.</l>
+	<l id="29">Puis-je, car tu m'as crue, et tu sais trop que j'aime,</l>
+	<l id="30">Blâmer un mal en toi qui m'est cher en moi-même ?</l>
+	<l id="31">J'aime, et j'aime en ce point plus lâchement que toi,</l>
+	<l id="32">Qu'un ingrat me captive et possède ma foi ;</l>
+	<l id="33">Célidor me rebute, et je l'estime encore ;</l>
+	<l id="34">Et tu fais lâcheté de chérir qui t'adore !</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="35">Songe à mon changement, et plains-moi si tu sais</l>
+	<l id="36">Combien on est timide en ces premiers accès.</l>
+	<l id="37">Veux-tu que ma raison, si longtemps absolue,</l>
+	<l id="38">À ce prompt changement soit sitôt résolue ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="39">Ma soeur, un changement est aisé s'il est doux :</l>
+	<l id="40">Je me plaignais de même, et toutes comme nous.</l>
+	<l id="41">Notre sexe rougit d'actions innocentes ;</l>
+	<l id="42">La honte dans nos coeurs suit ces ardeurs naissantes ;</l>
+	<l id="43">Mais elle se dissipe, et le temps à la fin</l>
+	<l id="44">Nous fait de notre amour bénir notre destin :</l>
+	<l id="45">Il est doux d'obéir à son pouvoir suprême ;</l>
+	<l id="46">Je trouve des plaisirs dans la tristesse même ;</l>
+	<l id="47">Et, quoique je révère un ingrat qui me fuit,</l>
+	<l id="48">Qui me vient conseiller de l'oublier me nuit.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="49">Ma fortune est meilleure, et j'ai cet avantage</l>
+	<l id="50">Que ce que j'ai d'amour Thimante le partage ;</l>
+	<l id="51">Je possède ses voeux, et cet aimable amant</l>
+	<l id="52">Me considère seule, ou feint subtilement.</l>
+	<l id="53">Mille fois mes rigueurs l'ont réduit à se plaindre :</l>
+	<l id="54">Il est vrai qu'il est homme, et tout homme sait feindre ;</l>
+	<l id="55">La nature pour nous lui prescrit des regrets</l>
+	<l id="56">Qui, comme ils sont communs, doivent être suspects.</l>
+	<l id="57">Toutes ont des appas, toutes semblent leur plaire,</l>
+	<l id="58">Et son sexe lui rend ce vice nécessaire ;</l>
+	<l id="59">Il prise un beau visage, et, complaisant qu'il est,</l>
+	<l id="60">Prise souvent aussi celui qui lui déplaît.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="61">L'homme doit tout priser, au moins en la présence ;</l>
+	<l id="62">La nature l'oblige à cette complaisance.</l>
+	<l id="63">Mais par ses actions on connaît aisément</l>
+	<l id="64">S'il parle en courtisan ou s'il parle en amant :</l>
+	<l id="65">Pour l'une il a des voeux, pour les autres des feintes ;</l>
+	<l id="66">Celle qu'il n'aime point lui cause peu de plaintes ;</l>
+	<l id="67">S'il la voit sans dessein et n'est qu'officieux,</l>
+	<l id="68">Elle ne tire point de larmes de ses yeux,</l>
+	<l id="69">Il ne l'appelle point du nom d'inexorable,</l>
+	<l id="70">Il ne répute point son destin misérable.</l>
+	<l id="71">Notre coeur par nos yeux ne se peut démentir ;</l>
+	<l id="72">Et pour bien exprimer il faut bien ressentir.</l>
+	<l id="73">Les plaintes, les respects et les pleurs de Thimante,</l>
+	<l id="74">Vous figurent assez l'ennui qui le tourmente.</l>
+	<l id="75">Que n'est-il Célidor, ou que cet inhumain</l>
+	<l id="76">N'a-t-il pour mon sujet un aimable dessein !</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="77">Comme tu vois pour toi son coeur inaccessible,</l>
+	<l id="78">Rien ne captive-t-il ce vainqueur insensible ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="79">Nérée en est chérie, et ses voeux mutuels</l>
+	<l id="80">Entretiennent mes maux si longs et si cruels.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="81" syll="6" part="i">Quoi ! La soeur de Thimante ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="81" syll="6" part="f">Oui, l'aime et le captive :</l>
+	<l id="82">Il vous donne des voeux lorsque sa soeur m'en prive ;</l>
+	<l id="83">Il vous offre son coeur tandis qu'elle me perd ;</l>
+	<l id="84">La soeur me désespère, et le frère vous sert :</l>
+	<l id="85">Mais qu'il ait tous les biens que le ciel lui destine,</l>
+	<l id="86">Et que mon intérêt ne soit point sa ruine.</l>
+	<l id="87">Vouez votre franchise à ce fidèle amant,</l>
+	<l id="88">Et ne reculez point pour mon avancement ;</l>
+	<l id="89">Que son repos, ma soeur, succède à ses supplices ;</l>
+	<l id="90">Et mon soulagement naîtra de vos délices.</l>
+	<l id="91">Voyant en son bonheur la justice d'Amour,</l>
+	<l id="92">Je vivrai dans l'espoir de l'obtenir un jour.</l>
+	<l id="93">Ses maux sont infinis, et votre résistance</l>
+	<l id="94">Aurait pu ruiner la plus forte constance.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE, tirant un papier de sa poche.</speaker>
+	<l id="95">Il a beaucoup souffert, si ces lignes au moins</l>
+	<l id="96">Sont de sa passion de fidèles témoins.</l>
+	<l id="97">Je les reçus hier ; écoute en quel langage</l>
+	<l id="98">Sa plume a figuré sa peine et son servage.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="99" syll="6" part="i">Donnez que je les lise.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="99" syll="6" part="f">Écoutez seulement.</l>
+<stage type="title">STANCES.</stage>
+<poem type="stances">
+<lg n="1">
+	<l id="100">« À l'aimable beauté qui cause mon tourment.</l>
+	<l id="101">Donc en cette saison nouvelle,</l>
+	<l id="102">Où toutes choses font l'amour,</l>
+	<l id="103">Théane est encor si cruelle</l>
+	<l id="104">Qu'il faut que je perde le jour !</l>
+	<l id="105">Son âme est encor dépourvue... »</l>
+</lg>
+</poem>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="106" syll="6" part="i">Voici Filandre.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="106" syll="6" part="f">Adieu, sauve-moi de sa vue.</l>
+	<l id="107">Tu me retrouveras sous ces feuillages verts,</l>
+	<l id="108">Où je vais admirer la suite de ces vers.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Filandre, Céphise.</head>
+<sp stage="toward" who="FILANDRE"><speaker>FILANDRE, à Théane.</speaker>
+<stage type="sit/location">Elle va s'asseoir sous des arbres.</stage>
+	<l id="109">Un mot, belle insensible ! Elle fuit, l'inhumaine !</l>
+	<l id="110">Je remarque partout des effets de sa haine.</l>
+	<l id="111">Après tant de refus l'aimant si lâchement,</l>
+	<l id="112">Filandre, son mépris te punit justement.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="113">Plaignons-nous à l'envi, pleurons par compagnie</l>
+	<l id="114">De deux cruels vainqueurs l'aveugle tyrannie.</l>
+	<l id="115">Je ne soupire pas pour un objet plus doux :</l>
+	<l id="116">Mais plutôt à l'envi, crois-moi, consolons-nous ;</l>
+	<l id="117">Puisque nos désespoirs, nos soupirs et nos larmes,</l>
+	<l id="118">Contre leurs cruautés sont d'inutiles armes ;</l>
+	<l id="119">Joignons, si tu me crois, le repos à l'amour ;</l>
+	<l id="120">Aimons, mais sans haïr la lumière du jour.</l>
+	<l id="121">Quoique pour Célidor mon amour soit extrême,</l>
+	<l id="122">Je l'aime toutefois un peu moins que moi-même ;</l>
+	<l id="123">Mon mal est violent, mais il n'est pas mortel :</l>
+	<l id="124">Suis mes sages conseils, et le tien sera tel.</l>
+	<l id="125">Ton frère m'est ingrat, et ma soeur t'est cruelle ;</l>
+	<l id="126">Je soupire pour lui, tu soupires pour elle ;</l>
+	<l id="127">Par un commun dessein modérons nos douleurs,</l>
+	<l id="128">Et dispensons nos yeux de la honte des pleurs.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="129">Ton amour est légère, un faible noeud t'engage</l>
+	<l id="130">Et qui parle en amant tient un autre langage.</l>
+	<l id="131">Il n'est point de tourment égal à mon souci :</l>
+	<l id="132">Quand l'amour est extrême, il est extrême aussi.</l>
+	<l id="133">Les résolutions prouvent de la réserve</l>
+	<l id="134">Et de la liberté que le coeur se conserve :</l>
+	<l id="135">Sans trêve les amants soupirent, sont jaloux ;</l>
+	<l id="136" syll="6" part="i">Ils n'ont point de repos.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="136" syll="6" part="f">Oui, mais les amants fous.</l>
+	<l id="137">Depuis qu'on a conçu tant de mélancolie,</l>
+	<l id="138">Et qu'on l'appelle amour, je l'appelle folie.</l>
+	<l id="139">Ma peine est supportable, et le plaisir d'aimer</l>
+	<l id="140">Modère de ce coeur le mal le plus amer.</l>
+	<l id="141">Pour fléchir toutefois cet esprit insensible,</l>
+	<l id="142">Il le faut avouer, je ferais l'impossible,</l>
+	<l id="143">Mais sans lui témoigner ces furieux transports</l>
+	<l id="144">Qui joignent seulement la honte à nos efforts.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="145" syll="6" part="i">Si tu veux m'assister...</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="145" syll="2" part="m">Eh bien ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="145" syll="4" part="f">Sois assurée</l>
+	<l id="146">Que je te puis servir aux dépens de Nérée.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="147" syll="6" part="i">Importunant ton frère ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="147" syll="6" part="f">Et faisant plus encor.</l>
+	<l id="148">Il n'est pas malaisé d'aveugler Célidor :</l>
+	<l id="149">C'est un esprit jaloux ; et le moindre artifice</l>
+	<l id="150">Obtient un prompt effet où préside ce vice.</l>
+	<l id="151">Laisse-moi seulement tramer ce que je veux ;</l>
+	<l id="152">Je porterai son coeur à recevoir tes voeux.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="153">Si j'obtiens de tes soins cet effet désirable,</l>
+	<l id="154">Filandre, heureux ami, que tu m'es favorable !</l>
+	<l id="155">Que puis-je pour ton bien, et quelle invention</l>
+	<l id="156">Tenterai-je en faveur de ton affection ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="157">Par des moyens pareils, par de mêmes services,</l>
+	<l id="158">Tu peux faire à mes maux succéder les délices.</l>
+	<l id="159">Peins Thimante inconstant aux beaux yeux de ta soeur,</l>
+	<l id="160">Arrache-lui ses voeux s'il en est possesseur ;</l>
+	<l id="161">Fais, mais subtilement, juger à cette belle</l>
+	<l id="162">Que tes yeux ont blessé cet esprit infidèle,</l>
+	<l id="163">Que ta grâce a charmé ce malheureux amant,</l>
+	<l id="164">Et qu'il te fait par moi découvrir son tourment.</l>
+	<l id="165">Tes soins me changeront cette belle inhumaine,</l>
+	<l id="166">Tu feras de Thimante un objet de sa haine :</l>
+	<l id="167">J'aurai trahi mon frère, et tu m'auras rendu</l>
+	<l id="168">Par un office égal ce que tu m'auras dû.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="169">Oui, mais trahir ma soeur ! Ô frivole pensée !</l>
+	<l id="170">Le ciel me l'a permis quand un dieu m'a blessée :</l>
+	<l id="171">Aux esprits amoureux ces crimes sont remis,</l>
+	<l id="172">Et chacun se doit plus qu'à ses meilleurs amis.</l>
+	<l id="173">Donc ne différons plus ce dessein nécessaire,</l>
+	<l id="174">Et trompons à l'envi, moi ma soeur, toi ton frère ;</l>
+	<l id="175">Tirons de leurs ennuis notre contentement.</l>
+	<l id="176">Mais qu'allons-nous tenter, peut-être vainement ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="177">Les résolutions, généreuse Céphise,</l>
+	<l id="178">Font plus de la moitié d'une haute entreprise.</l>
+	<l id="179">Rien ne peut succéder à des coeurs engourdis,</l>
+	<l id="180">Mais le sort fait beaucoup en faveur des hardis.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="181">C'est fait, j'embrasserai ce soin illégitime :</l>
+	<l id="182">Mais, tout se découvrant, réponds-tu de mon crime ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="183">Lorsque je suis l'objet de tout le châtiment...</l>
+	<l id="184">Mais j'en espère mieux : commençons seulement.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="185">As-tu quelque papier ? Tire-le de ta poche ;</l>
+	<l id="186">Fais que ma soeur le voie : elle est bien près, approche ;</l>
+	<l id="187">Presse-moi de le prendre et parlons un peu haut :</l>
+	<l id="188">Tu verras ce dessein réussir comme il faut.</l>
+<stage type="show">Filandre tire de sa poche une fausse lettre qu'il présente à Céphise, comme de la part de Thimante, serviteur de Théane..</stage>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="189">Au moins reçois sa lettre, ingrate, inexorable ;</l>
+	<l id="190">Et cesse d'affliger cet amant misérable</l>
+	<l id="191">Qui hait à ton sujet le céleste flambeau,</l>
+	<l id="192">Et dont ta cruauté va creuser le tombeau.</l>
+</sp>
+<sp stage="location" who="THÉANE"><speaker>THÉANE, parmi les arbres.</speaker>
+	<l id="193" syll="6" part="i">De qui lui parle-t-il ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="193" syll="1" part="m">Donne.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+<stage type="get/tear">Elle reçoit la lettre et la déchire.</stage>
+	<l id="193" syll="5" part="f">Ingrate, barbare,</l>
+	<l id="194">Indigne de l'honneur d'une amitié si rare,</l>
+	<l id="195">Insensible beauté, tu la romps, et ta main</l>
+	<l id="196">Seconde les rigueurs de ce coeur inhumain ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="197">Jugez de mon humeur par cette expérience,</l>
+	<l id="198">Et ne m'obligez plus à tant de patience.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="199" syll="6" part="i">Ô ciel ! Peux-tu souffrir ?...</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="199" syll="6" part="f">Adieu ; certain souci</l>
+	<l id="200">Fait que j'aime à rêver : laissez-moi seule ici.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="201">Le temps le vengera, cruelle, dédaigneuse ;</l>
+	<l id="202">Et le ciel punira ton humeur orgueilleuse.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Théane, Céphise.</head>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="203">Ô dieux ! Combien je hais cet amant importun !</l>
+	<l id="204" syll="6" part="i">Quel discours t'a-t-il fait ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="204" syll="6" part="f">Un compliment commun.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="205">Sur la fin toutefois il parlait d'autre sorte.</l>
+</sp>
+<sp stage="cold" who="CÉPHISE"><speaker>CÉPHISE, froidement.</speaker>
+	<l id="206">Il ne m'entretenait de rien qui vous importe.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="207">Il veut par ton moyen me parler et me voir.</l>
+	<l id="208">Confesse ; n'a-t-il pas imploré ton pouvoir ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="209" syll="8" part="i">Je l'aurais excusé ; non, mais...</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="209" syll="4" part="f">Quoi ! Mais possible</l>
+	<l id="210">Que, trouvant mon esprit à ses voeux insensible,</l>
+	<l id="211">Il a dessous tes lois engagé son désir.</l>
+	<l id="212">Ô dieux ! Qu'il m'aurait fait un sensible plaisir !</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="213">Il ne trouve qu'en vous le sujet de sa peine ;</l>
+	<l id="214">Et quand il m'aimerait, son amour serait vaine.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="215">Enfin, ma chère soeur, ne dissimule point :</l>
+	<l id="216">Un secret déplaisir à ta froideur est joint ;</l>
+	<l id="217">Et l'altération qu'on voit en ton visage,</l>
+	<l id="218">D'amour ou de mépris est un clair témoignage.</l>
+	<l id="219" syll="6" part="i">Filandre te plaît-il ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="219" syll="6" part="f">Comme il plaît à vos yeux.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="220">Il n'est à mon sujet ni vain ni glorieux ;</l>
+	<l id="221">Il vanterait à tort les noms que je lui donne :</l>
+	<l id="222">Je crois qu'il est si bon qu'il ne blesse personne.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="223">Je ne l'abaisse point : il a des qualités</l>
+	<l id="224">Capables d'asservir beaucoup de libertés ;</l>
+	<l id="225">Mais il adresse ailleurs ses yeux et sa pensée,</l>
+	<l id="226">Et je n'ai pas dessein d'en être caressée.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="227">Il tenait un papier au point de son départ :</l>
+	<l id="228">Te le présentait-il pour m'offrir de sa part ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="229" syll="1" part="i">Non.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="229" syll="11" part="f">Je l'ai vu, menteuse, à la faveur de l'ombre ;</l>
+	<l id="230">Et je vous écoutais en cet endroit si sombre.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="231">Un amant par sa voix implorait mon secours.</l>
+	<l id="232">Mais brisons, je vous prie, ou changeons de discours.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="233">Tu m'offenses, ma soeur : quelle injuste croyance,</l>
+	<l id="234">Quel aveugle soupçon cause ta défiance ?</l>
+	<l id="235">T'es-tu dessus ma foi fiée à tes dépens,</l>
+	<l id="236">Et parlé-je de rien si tu me le défends ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="237">Qu'en l'esprit des mortels l'inconstance est commune !</l>
+	<l id="238">Mais j'ai trop dit ; adieu, ce discours m'importune.</l>
+</sp>
+<sp stage="pull" who="THÉANE"><speaker>THÉANE, la retenant.</speaker>
+	<l id="239">Achève-le pourtant, tout importun qu'il est ;</l>
+	<l id="240">Car ce discours, sans doute, est de mon intérêt.</l>
+	<l id="241">Tu sembles me chérir d'une ardeur si parfaite,</l>
+	<l id="242">Et tu pourrais, ma soeur, être amie et secrète !</l>
+	<l id="243">Tous ces efforts sont vains : je ne te quitte point,</l>
+	<l id="244">Ou tu contenteras mon esprit sur ce point.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="245">Thimante est trop coupable, il faut que je le die :</l>
+	<l id="246">Prépare tes desseins contre sa perfidie ;</l>
+	<l id="247">Éteins ces feux naissants, et perds le sentiment</l>
+	<l id="248">Que tu m'as témoigné pour cet indigne amant.</l>
+	<l id="249">Vois ce léger esprit d'un oeil aussi sévère</l>
+	<l id="250">Que tu me verras sourde à sa lâche prière.</l>
+	<l id="251">Filandre en sa faveur implorait ma pitié.</l>
+	<l id="252">Que dis-tu là-dessus ? Vante son amitié,</l>
+	<l id="253">Juge s'il obtiendra ma faveur implorée :</l>
+	<l id="254">J'ai chassé son ami, sa lettre déchirée,</l>
+	<l id="255">Et reparti de sorte aux discours qu'il m'a faits,</l>
+	<l id="256">Que Thimante est bien vain s'il m'approche jamais.</l>
+	<l id="257">Que je te plains, ma soeur, si ton mal est extrême !</l>
+</sp>
+<sp stage="cold" who="THÉANE"><speaker>THÉANE, froidement.</speaker>
+	<l id="258">Que mon sujet soit vain ; chérissez qui vous aime.</l>
+<stage type="exit">Elle sort.</stage>
+</sp>
+<sp stage="alone" who="CÉPHISE"><speaker>CÉPHISE, seule.</speaker>
+	<l id="259">Que ce discours la touche, et qu'un prompt changement</l>
+	<l id="260">A joint son désespoir à son étonnement !</l>
+	<l id="261">Mon dessein me succède, et j'ai dans son visage</l>
+	<l id="262">Vu d'un mépris aveugle un assuré présage.</l>
+	<l id="263">Excusez, justes dieux, de sensibles accès,</l>
+	<l id="264">Et tirez de ma feinte un prospère succès.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Thimante, Céphise.</head>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="265" syll="6" part="i">À quoi songe Céphise ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="265" syll="6" part="f">À quoi songe Thimante,</l>
+	<l id="266">D'importuner de voeux une orgueilleuse amante ?</l>
+	<l id="267">Crois-tu la disposer à recevoir ta foi ?</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="268" syll="6" part="i">Le temps peut tout changer.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="268" syll="6" part="f">Il ne peut rien pour toi.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="269">Il calme la fureur des plus fières tempêtes,</l>
+	<l id="270">Il abat des rochers les orgueilleuses têtes,</l>
+	<l id="271">Il change tout le monde, et tu penses qu'un coeur</l>
+	<l id="272">Puisse éviter longtemps ce glorieux vainqueur !</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="273">Il peut tout sur nos corps, il détruit la nature ;</l>
+	<l id="274">On ne peut éviter sa défaite future :</l>
+	<l id="275">Mais l'esprit ne suit pas le changement des ans,</l>
+	<l id="276">Et ne relève point de l'empire du temps.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="277">Qui t'oblige à ces mots ? Cette reine des belles</l>
+	<l id="278">Combat-elle mes voeux par des rigueurs nouvelles ?</l>
+	<l id="279" syll="6" part="i">Apprends-moi mon malheur.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="279" syll="6" part="f">Tu le connais assez.</l>
+	<l id="280">Ne te suffît-il pas de ses mépris passés ?</l>
+	<l id="281">Peux-tu prétendre encor le bien qu'elle te nie,</l>
+	<l id="282">Et crois-tu vaincre un jour sa rigueur infinie ?</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="283">La pitié peut changer les mépris les plus forts.</l>
+	<l id="284">Mon trépas, après tout, suivra mes vains efforts.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="285">Meurs donc sans plus attendre, et t'épargne la peine</l>
+	<l id="286">Qu'on te verrait souffrir en sa recherche vaine.</l>
+	<l id="287">Thimante, il est aisé de parler du trépas :</l>
+	<l id="288">Je veux mourir, souvent, et ne me hâte pas.</l>
+	<l id="289">La vie est à chacun une belle maîtresse ;</l>
+	<l id="290">Tous l'aiment ardemment, quelque autre qui les blesse.</l>
+	<l id="291">La mort est en ce temps un rare effet d'amour ;</l>
+	<l id="292">Et pour quoi qu'on en ait, on en a pour le jour.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="293">Depuis qu'on a perdu l'espoir dont on se flatte</l>
+	<l id="294">Le jour est odieux. Mais voyons cette ingrate.</l>
+</sp>
+<sp stage="pull" who="CÉPHISE"><speaker>CÉPHISE, le retenant.</speaker>
+	<l id="295">Où vas-tu, malheureux ? Adresse ailleurs tes pas ;</l>
+	<l id="296">Théane assurément ne te souffrira pas.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="297" syll="6" part="i">Obtiens-moi ce bonheur.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="297" syll="6" part="f">Son expresse défense</l>
+	<l id="298">Doit obliger tes yeux à souffrir son absence.</l>
+	<l id="299">Je sers ta passion, je parle de tes feux,</l>
+	<l id="300">Et je la sollicite à recevoir tes voeux ;</l>
+	<l id="301">Mais je ne puis fléchir ce superbe courage :</l>
+	<l id="302">J'avancerais autant en priant son image.</l>
+	<l id="303">« Ma soeur, m'a-t-elle dit, cet importun amant</l>
+	<l id="304">Pour mon occasion endure un vain tourment ;</l>
+	<l id="305">Mon dessein n'a point fait son ardeur importune,</l>
+	<l id="306">Et je ne réponds point des coups de la fortune :</l>
+	<l id="307">Tâche de m'exempter de l'importunité</l>
+	<l id="308">D'un amant si parfait, mais si peu souhaité.</l>
+	<l id="309">Dis qu'un mal de côté m'arrête au lit encore,</l>
+	<l id="310">Ou que je suis sortie au lever de l'aurore. »</l>
+</sp>
+<sp stage="threat" who="THIMANTE"><speaker>THIMANTE, voulant tirer son épée.</speaker>
+	<l id="311">Perds, malheureux amant, pour ton mal si constant.</l>
+	<l id="312" syll="6" part="i">Le jour après l'espoir.</l>
+</sp>
+<sp stage="pull" who="CÉPHISE"><speaker>CÉPHISE, le retenant.</speaker>
+	<l id="312" syll="6" part="f">Ne te hâte pas tant :</l>
+	<l id="313">Invente, si tu peux, des moyens salutaires ;</l>
+	<l id="314">Mais ta mort ne saurait avancer tes affaires.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="315">Je vivrai pour servir cet objet précieux ;</l>
+	<l id="316">Je chérirai mes maux s'ils lui sont glorieux.</l>
+	<l id="317">En mourant je l'offense, et je la fais coupable</l>
+	<l id="318">De ce tragique effet de mon sort lamentable.</l>
+	<l id="319">J'ai le prix de ma peine, et je suis satisfait</l>
+	<l id="320">Si sa gloire dépend du mal qu'elle me fait.</l>
+	<l id="321" syll="6" part="i">Adieu, je t'obéis.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="321" syll="6" part="f">Que ta constance est rare !</l>
+	<l id="322">J'emploierai tous mes soins contre cette barbare ;</l>
+	<l id="323">Et s'ils ont quelque effet, je te mande en ce lieu.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="324" syll="6" part="i">Je n'espère qu'en toi.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="324" syll="6" part="f">Crains toutefois ; adieu.</l>
+<stage type="exit">Thimante sort.</stage>
+	<l id="325">Enfin un rare effet succède à mon adresse :</l>
+	<l id="326">Je trompe également l'amant et la maîtresse,</l>
+	<l id="327">Et je puis espérer la fin de mon tourment</l>
+	<l id="328">Si Filandre me sert aussi fidèlement.</l>
+	<l id="329">C'est trahir toutefois des amants que j'estime ;</l>
+	<l id="330">Un secret repentir me reproche mon crime.</l>
+	<l id="331">Mais forçons tout respect, et tentons jusqu'au bout</l>
+	<l id="332">Une fille amoureuse est capable de tout.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Filandre, Célidor.</head>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="333" syll="6" part="i">Que dis-tu là-dessus ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="333" syll="6" part="f">Il est vrai que Nérée</l>
+	<l id="334">Peut d'un coeur amoureux sans crime être adorée.</l>
+	<l id="335">Ce dieu qui range tout sous le joug de ses lois,</l>
+	<l id="336">Ce glorieux vainqueur des peuples et des rois,</l>
+	<l id="337">Tire de sa beauté d'inévitables armes,</l>
+	<l id="338">Et par ses propres traits fait moins que par ses charmes.</l>
+	<l id="339">Mais Céphise, mon frère, a d'autres qualités :</l>
+	<l id="340">Son oeil est un vainqueur fatal aux libertés ;</l>
+	<l id="341">Son esprit est charmant ; et son mérite extrême,</l>
+	<l id="342">Si l'Amour a des yeux, captive l'Amour même.</l>
+	<l id="343">Tu ne peux toutefois partager ses douleurs,</l>
+	<l id="344">Et tu vois d'un oeil sec ses yeux mouillés de pleurs.</l>
+	<l id="345">Est-ce que la beauté fait la tristesse belle ?</l>
+	<l id="346">Pour cette occasion sa douleur te plaît-elle ?</l>
+	<l id="347">L'aimes-tu malheureuse et triste comme elle est,</l>
+	<l id="348">Et la fais-tu souffrir parce qu'elle te plaît ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="349">Veux-tu qu'un même coeur souffre un double martyre,</l>
+	<l id="350">Que sur moi deux objets aient un égal empire ;</l>
+	<l id="351">Et puis-je, sous le joug de leurs diverses lois,</l>
+	<l id="352">Entretenir Céphise et Nérée à la fois ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="353" syll="6" part="i">Connais-tu bien Nérée ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="353" syll="6" part="f">Assez pour la défendre</l>
+	<l id="354">Contre l'injuste effort du mépris de Filandre.</l>
+	<l id="355">Qui ne cède à ses yeux, et quels astres pareils</l>
+	<l id="356">Égalent la clarté de ces jeunes soleils ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="357">Elle brûle pour toi ? Tu possèdes son âme ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="358">J'ose sans vanité m'assurer de sa flamme ;</l>
+	<l id="359">Et je la trouve aveugle en ce point seulement</l>
+	<l id="360">Qu'elle pousse des voeux pour un indigne amant.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="361">Ah ! Si Nérée un jour me permet de te dire...</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="362" syll="1" part="i">Quoi ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="362" syll="11" part="f">Je n'achève point ; ce mot te doit suffire.</l>
+	<l id="363">Nourris le vain tourment dont ton coeur est atteint.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="364">Adieu, frère ; et, crois-moi, ne plains point qui te plaint.</l>
+<stage type="exit">Il sort.</stage>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="365">Je ne vois point encor son âme préparée</l>
+	<l id="366">Aux aveugles soupçons de la foi de Nérée ;</l>
+	<l id="367">Et leur amour est tel qu'il est bien malaisé</l>
+	<l id="368">De désunir leurs coeurs comme j'ai proposé.</l>
+	<l id="369">Mais en moi leurs desseins ont un fort adversaire.</l>
+	<l id="370">Je respecterai peu la qualité de frère.</l>
+	<l id="371">Je vais chercher Nérée aux vallons d'alentour,</l>
+	<l id="372">Et pour mon intérêt desservir leur amour.</l>
+	<l id="373" syll="6" part="i">Qu'elle vient à propos !</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Nérée, Filandre.</head>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="373" syll="6" part="f">Quel accident étrange</l>
+	<l id="374">Porte si lâchement vos deux esprits au change ?</l>
+	<l id="375">Que t'a fait Célidor, et de quel traitement</l>
+	<l id="376">As-tu pu rebuter ce malheureux amant ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="377" syll="6" part="i">Que me dis-tu, Filandre ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="377" syll="6" part="f">A-t-il à tes merveilles</l>
+	<l id="378">Trouvé des qualités et des grâces pareilles ?</l>
+	<l id="379">A-t-il en ses discours, ou dans quelque action,</l>
+	<l id="380">Manqué de courtoisie ou de discrétion ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="381" syll="6" part="i">Qu'est-ce que tu me dis ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="381" syll="6" part="f">Son respect et sa flamme</l>
+	<l id="382">Étaient-ils ou suspects ou capables de blâme ?</l>
+	<l id="383">Tes yeux n'étaient-ils pas les vainqueurs absolus</l>
+	<l id="384">De ce coeur inconstant qu'ils ne possèdent plus ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="385">Éclaircis là-dessus ma croyance incertaine.</l>
+	<l id="386">Que ton discours me cause une ennuyeuse peine !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="387">Un esprit moins subtil te croirait, à te voir</l>
+	<l id="388">Quand tu feins d'ignorer ce que je veux savoir.</l>
+	<l id="389">Ton coeur ne peut fier ce discours à ta bouche ;</l>
+	<l id="390">Tu n'oses témoigner que ce malheur te touche ;</l>
+	<l id="391">Et, connaissant ta faute et ta légèreté,</l>
+	<l id="392">Tu veux à ton regret joindre la vanité.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="393" syll="6" part="i">Parle plus clairement.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="393" syll="6" part="f">Que tu fais l'ignorante !</l>
+	<l id="394">As-tu pour Célidor une âme indifférente ?</l>
+	<l id="395">Cruelle, trouvais-tu son service ennuyeux,</l>
+	<l id="396">Et ne plut-il jamais à tes superbes yeux ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="397">Que tu me fais languir ! Au nom d'Amour, Filandre,</l>
+	<l id="398">Apprends-moi là-dessus ce que j'en puis entendre.</l>
+	<l id="399">J'ignore le sujet des discours que tu fais :</l>
+	<l id="400">Crois ce que je te dis, ou ne me crois jamais.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="401">Peux-tu, dissimulée, ignorer que Céphise</l>
+	<l id="402">De ton perfide amant captive la franchise ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="403" syll="6" part="i">Ô dieux ! Que me dis-tu ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="403" syll="6" part="f">Comment, tu n'en sais rien ?</l>
+	<l id="404">Tu n'as pas de ton crime autorisé le sien ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="405" syll="6" part="i">Achève, je te prie.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="405" syll="6" part="f">En cette même place,</l>
+	<l id="406">« Mon frère, m'a-t-il dit, j'implore ici ta grâce,</l>
+	<l id="407">Je perds sans ta faveur la lumière du jour ;</l>
+	<l id="408">Sers le plus malheureux des prisonniers d'Amour. »</l>
+	<l id="409">« Quoi ! Me suis-je écrié, l'infidèle Nérée</l>
+	<l id="410">A-t-elle de tes feux sa flamme séparée ?</l>
+	<l id="411">D'autres ont-ils atteint cet objet amoureux ? »</l>
+	<l id="412">« Plût au ciel ! M'a-t-il dit, je m'emploierais pour eux,</l>
+	<l id="413">Céphise est la beauté dont mon âme est ravie ;</l>
+	<l id="414">Va faire à cette belle une offre de ma vie.</l>
+	<l id="415">Ne m'interroge point dessus ce changement ;</l>
+	<l id="416">Dans peu tu sauras tout : parle-lui seulement. »</l>
+	<l id="417">Il eût continué, mais, t'ayant aperçue,</l>
+	<l id="418">Cet infidèle amant s'est soustrait à ma vue,</l>
+	<l id="419">Et j'attendais de toi cette confession</l>
+	<l id="420">Que tu n'oses fier à ma discrétion.</l>
+	<l id="421" syll="3" part="i">Dis-moi tout.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="421" syll="6" part="f">L'innocent qu'on accuse d'un crime,</l>
+	<l id="422">Entendant de sa mort l'arrêt illégitime,</l>
+	<l id="423">À moins d'étonnement et de confusion</l>
+	<l id="424">Que ce coeur n'en ressent en cette occasion.</l>
+	<l id="425">Le traître aime Céphise ! Et ce lâche homicide</l>
+	<l id="426">Est capable une fois du titre de perfide !</l>
+	<l id="427">Il gouvernait mon coeur par des hommages feints !</l>
+	<l id="428">Ce tyran de mes voeux attirait mes desseins !</l>
+	<l id="429">J'immolais des soupirs à cet esprit volage,</l>
+	<l id="430">Et ma lâche raison chérissait son servage !</l>
+	<l id="431">Tu m'obliges, Filandre, et cet heureux avis</l>
+	<l id="432">Dégagera mes sens sous ses lois asservis.</l>
+	<l id="433">Il est vrai, je l'aimais, et ma fureur extrême</l>
+	<l id="434">Rendrait un moindre esprit dangereux à soi-même :</l>
+	<l id="435">Ce sensible mépris armerait des humains,</l>
+	<l id="436">Contre leurs propres jours, les plus timides mains.</l>
+	<l id="437">Mais j'ai l'esprit plus fort, et partout cette rage</l>
+	<l id="438">Est capable de tout, sinon en mon courage.</l>
+	<l id="439">Un généreux dessein peut vaincre ces douleurs,</l>
+	<l id="440">Et je suis préparée à de pires malheurs.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="441">Si je vois cet ingrat, et que sa repentance</l>
+	<l id="442">À sa rémission invite ta constance...</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="443">C'est beaucoup qu'une fois il ait pu m'enflammer</l>
+	<l id="444">Qu'il aime cette belle, ou qu'il cesse d'aimer.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="445">Si, l'oeil mouillé de pleurs, il implore ta grâce...</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="446">Je croirai ton conseil : que faut-il que je fasse ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="447">Il la doit obtenir de ton affection :</l>
+	<l id="448">Mais qu'un peu de froideur soit sa punition.</l>
+</sp>
+<sp stage="anger" who="NÉRÉE"><speaker>NÉRÉE, avec colère.</speaker>
+	<l id="449">Qu'il suive tes avis, et qu'en cette espérance</l>
+	<l id="450">Il tente mon ardeur et ma persévérance ;</l>
+	<l id="451">Et dans ce changement, par mes justes mépris,</l>
+	<l id="452">Apprends l'art de punir de volages esprits.</l>
+	<l id="453">Les visibles effets d'une peine infinie,</l>
+	<l id="454">La voix de tout le monde en sa faveur unie,</l>
+	<l id="455">Ses yeux qui l'ont trahi, ces lâches criminels</l>
+	<l id="456">Changés par ses remords en ruisseaux éternels ;</l>
+	<l id="457">Son visage mourant, sa main et son épée</l>
+	<l id="458">En son perfide sang devant mes yeux trempée,</l>
+	<l id="459">Son coeur mis en mes mains, l'instant de son trépas</l>
+	<l id="460">Et son dernier soupir, ne me toucheraient pas.</l>
+	<l id="461">Je verrais d'un même oeil son mépris et sa peine ;</l>
+	<l id="462">Ce coeur, comme en l'amour, est constant en sa haine.</l>
+	<l id="463">Porte-le de ma part à ne me voir jamais :</l>
+	<l id="464">Cet avis est encore un bien que je lui fais.</l>
+	<l id="465" syll="2" part="i">Adieu.</l>
+</sp>
+<sp stage="aparte" who="FILANDRE"><speaker>FILANDRE, à part.</speaker>
+	<l id="465" syll="10" part="f">Quelle fureur agite sa pensée !</l>
+	<l id="466">Et quel trouble saisit une amante offensée !</l>
+<stage type="exit">Il sort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Nérée, Célidor.</head>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="467">Quelques nouveaux pensers t'arrêtaient en, ce lieu ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="468">Ou communs ou nouveaux, il ne t'importe ; adieu.</l>
+<stage type="exit">Elle veut sortir.</stage>
+</sp>
+<sp stage="pull" who="CÉLIDOR"><speaker>CÉLIDOR, la retenant.</speaker>
+	<l id="469">Ô dieux ! Quelle froideur sur ce visage est peinte !</l>
+	<l id="470">Nérée, ajoute un mot et dissipe ma crainte.</l>
+	<l id="471">Tu trembles, tu pâlis... Dieux ! Qu'est-ce que je vois ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="472">Que veut cet insolent ? Effronté, laisse-moi.</l>
+<stage type="exit">Elle sort.</stage>
+</sp>
+<sp stage="alone" who="CÉLIDOR"><speaker>CÉLIDOR, seul.</speaker>
+	<l id="473">D'où provient, dieux cruels, ce changement extrême ?</l>
+	<l id="474">Est-elle encor Nérée, ou suis-je encor moi-même ?</l>
+	<l id="475">Dieux ! Quel juste sujet de haine et de rigueur</l>
+	<l id="476">Altère ses attraits et me change son coeur ?</l>
+	<l id="477">Nérée, ai-je trahi l'amitié qui nous lie ?</l>
+	<l id="478">Tu tremblais à ma vue, et ta face est pâlie !</l>
+	<l id="479">Ô dieux, qu'opposerai-je à mes naissants ennuis,</l>
+	<l id="480">Et qui me peut tirer de la peine où je suis ?</l>
+	<l id="481">Ai-je par imprudence excité sa colère ?</l>
+	<l id="482">J'ai soumis toute chose au dessein de lui plaire ;</l>
+	<l id="483">J'ai gouverné ma vie avecque tous les soins</l>
+	<l id="484">Qui pouvaient de mes voeux rendre ses yeux témoins.</l>
+	<l id="485">Je n'ai vu que Nérée, et même ma pensée</l>
+	<l id="486">À d'autres entretiens ne s'est point dispensée.</l>
+	<l id="487">Depuis l'heureux moment que son bel oeil me prit,</l>
+	<l id="488">Il plaît seul à mes yeux et seul à mon esprit :</l>
+	<l id="489">L'ingrate toutefois, sitôt qu'elle m'a vue,</l>
+	<l id="490">De mes tristes regards a détourné sa vue.</l>
+	<l id="491">Je reçois des mépris d'où j'attendais des voeux ;</l>
+	<l id="492">La cruelle me nie un moment que je veux ;</l>
+	<l id="493">Et, sans m'entretenir du sujet de sa haine,</l>
+	<l id="494">Elle laisse ma vie et ma mort incertaine.</l>
+	<l id="495">Ma mort te plaira-t-elle, inhumaine beauté ?</l>
+	<l id="496">Rage, pleurs, désespoir, aidez sa cruauté :</l>
+	<l id="497">Vous trouvez à vos coups une âme préparée ;</l>
+	<l id="498">Finissez une vie odieuse à Nérée.</l>
+	<l id="499">Mort, sur mes tristes jours exerce ton pouvoir,</l>
+	<l id="500">Puisque je ne puis vivre et cesser de la voir.</l>
+	<l id="501">Beaux lieux, chers confidents des secrets de ma dame,</l>
+	<l id="502">Quel accident fatal me chasse de son âme ?</l>
+	<l id="503">Peut-elle aimer ailleurs, et puis-je innocemment</l>
+	<l id="504">Reprocher à son coeur ce honteux changement ?</l>
+	<l id="505">Sois témoin de mes pleurs, fidèle secrétaire ;</l>
+	<l id="506">Peux-tu voir sa beauté me trahir, et le taire ?</l>
+	<l id="507">Mais, ô frivoles craintes, inutiles discours !</l>
+	<l id="508">Comme elle ces déserts sont et muets et sourds,</l>
+	<l id="509">Et, s'ils ne l'étaient pas après cette aventure,</l>
+	<l id="510">Ils tiendraient à faveur de changer de nature.</l>
+	<l id="511">Ces timides objets, honorés de ses pas,</l>
+	<l id="512">Voudraient perdre la voix pour ne la trahir pas.</l>
+	<l id="513">Enfin ce corps lassé succombe à ma tristesse :</l>
+	<l id="514">La chasse et mes ennuis causent cette faiblesse.</l>
+	<l id="515">Sommeil, sois éternel ; et perdez, tristes yeux,</l>
+	<l id="516">Perdant votre soleil, la lumière des cieux.</l>
+<stage type="sleep">Il s'endort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Céphise, Célidor, endormi.</head>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="517">Redoublez vos accès, amoureuses atteintes :</l>
+	<l id="518">Je vois l'indigne objet de mes secrètes plaintes.</l>
+	<l id="519">Que d'un prompt changement mes esprits sont touchés !</l>
+	<l id="520">Céphise, que crains-tu ? Tes vainqueurs sont cachés :</l>
+	<l id="521">Un aimable repos tient ses paupières closes ;</l>
+	<l id="522">Tu ne verras en lui que des lis et des roses ;</l>
+	<l id="523">Il n'offre à tes regards que ses moindres appas,</l>
+	<l id="524">Et ces astres couverts ne t'éblouiront pas.</l>
+	<l id="525">Psyché, le coeur saisi d'une crainte pareille,</l>
+	<l id="526">S'approche quelquefois de l'Amour qui sommeille,</l>
+	<l id="527">Et Vénus, observant ces respects infinis,</l>
+	<l id="528">En faveur du sommeil va baiser Adonis.</l>
+	<l id="529">En ce ravissement que l'amour et la crainte</l>
+	<l id="530">En l'esprit d'une fille apportent de contrainte !</l>
+	<l id="531">Hélas ! Qu'opposerai-je à ce doux ennemi</l>
+	<l id="532">Quand il est éveillé, s'il me blesse endormi ?</l>
+	<l id="533">Mais, ô frivoles pleurs ! Ménageons sa présence</l>
+<stage type="kneel/closer">Elle se met à genoux auprès de lui.</stage>
+	<l id="534">Que je dois au sommeil plus qu'à sa complaisance.</l>
+	<l id="535">Voyons avec plaisir ce visage charmant,</l>
+	<l id="536">Si doux et si fatal à mon contentement ;</l>
+	<l id="537">Admirons en repos ces attraits qui m'en privent,</l>
+	<l id="538">Et baisons sans rougir ces mains qui me captivent.</l>
+	<l id="539">Croissez, saintes ardeurs qui consumez mon coeur :</l>
+	<l id="540">Il est doux de souffrir pour un si beau vainqueur.</l>
+<stage type="touch">Lui touchant ses cheveux.</stage>
+	<l id="541">Chers liens des esprits, jadis des mêmes tresses</l>
+	<l id="542">Le roi de la lumière enchaînait ses maîtresses.</l>
+	<l id="543">Votre nombre infini, beaux chaînons déliés,</l>
+	<l id="544">N'égalent pas celui des coeurs que vous liez.</l>
+	<l id="545">Céphise, use du temps, et que ces belles chaînes,</l>
+	<l id="546">Si tes soupirs sont vains, au moins payent tes peines.</l>
+<stage type="">Elle tire des ciseaux d'un étui qu'elle a en sa poche.</stage>
+	<l id="547">Coupe de ces cheveux, mais si subtilement</l>
+	<l id="548">Que tu n'éveilles pas cet agréable amant.</l>
+	<l id="549">Ô larcin précieux ! Ce trésor estimable</l>
+	<l id="550">Est le sujet du crime, et liera le coupable.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Céphise, Célidor, endormi, Filandre.</head>
+<sp stage="location" who="FILANDRE"><speaker>FILANDRE, de loin.</speaker>
+	<l id="551" syll="6" part="i">Céphise, que fais-tu ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="551" syll="6" part="f">Qui porte ici tes pas ?</l>
+	<l id="552">Tu pourrais l'éveiller ; attends, n'approche pas.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="553">Tu ne peux contenir ton ardeur apparente ;</l>
+<stage type="stand/closer">Elle se lève et va à lui.</stage>
+	<l id="554">Et quand je plains mes maux tu fais l'indifférente.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="555">Je ne prévoyais pas tes regards indiscrets ;</l>
+	<l id="556">Et tous effets d'amour sont beaux s'ils sont secrets.</l>
+	<l id="557">Je ne me cachais pas aux objets de ces plaines ;</l>
+	<l id="558">Je ne redoutais point ces fleurs ni ces fontaines ;</l>
+	<l id="559">Comme elles ce rocher n'entend, ni voit, ni sent,</l>
+	<l id="560">Et toi seul as connu ce larcin innocent.</l>
+	<l id="561">Ta vue eût diverti cette jeune licence ;</l>
+	<l id="562">Mais c'est à Célidor une légère offense.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="563" syll="6" part="i">Ses cheveux lui sont chers.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="563" syll="6" part="f">Mon coeur m'est cher aussi,</l>
+	<l id="564">Et l'ingrat me l'a pris. Mais tirons-nous d'ici,</l>
+	<l id="565">Et viens sous ce feuillage en quatre mots apprendre</l>
+	<l id="566">Ce que j'ai fait tantôt en faveur de Filandre.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="567">En ce même entretien tu sauras à ton tour</l>
+	<l id="568">Avec combien d'ardeur j'ai servi ton amour.</l>
+</sp>
+<sp stage="sleep" who="CÉLIDOR"><speaker>CÉLIDOR, dormant.</speaker>
+<stage type="exit/location">Ils s'en vont dans le bois.</stage>
+	<l id="569">Ô merveille adorable aux yeux de tout le monde,</l>
+	<l id="570">Nérée, arrête ici ta course vagabonde ;</l>
+	<l id="571">Vois la sueur épaisse et les ruisseaux de pleurs</l>
+	<l id="572">Dont j'arrose tes pas imprimés sur ces fleurs.</l>
+	<l id="573">Elle fuit, l'inhumaine, et sa vitesse extrême</l>
+	<l id="574">Égale en ces déserts celle du foudre même.</l>
+	<l id="575">Hélas ! Je ne vois plus cet objet précieux ;</l>
+	<l id="576">Ses détours infinis l'ont ravie à mes yeux.</l>
+<stage type="wave">Il se soulève.</stage>
+	<l id="577">Cours, malheureux amant, emploie ici ta peine,</l>
+	<l id="578">Et perds en la servant la vie après l'haleine.</l>
+	<l id="579">Que vois-je, que poursuis-je, insensé que je suis ?</l>
+<stage type="awake">Il s'éveille.</stage>
+	<l id="580">Ô réveil importun ! Ô clarté que je fuis,</l>
+	<l id="581">Porte ailleurs tes rayons ; laisse au feu du tonnerre</l>
+	<l id="582">Le soin d'illuminer cet endroit de la terre.</l>
+	<l id="583">Ma mort sera le prix du jour qu'il donnera,</l>
+	<l id="584">Et mes jours achevés, ton astre éclairera.</l>
+<stage type="stand">Il se lève.</stage>
+	<l id="585">Enfin que résoudra ma douteuse pensée</l>
+	<l id="586">En l'extrême douleur dont mon âme est pressée ?</l>
+	<l id="587">Ferai-je à cette ingrate et perfide beauté</l>
+	<l id="588">Voir le dernier effet de sa légèreté ?</l>
+	<l id="589">Ma main teinte en mon sang, et ma vue égarée</l>
+	<l id="590">Me procurera-t-elle un soupir de Nérée ?</l>
+	<l id="591">Ah ! Que je trouverais mon destin glorieux</l>
+	<l id="592">Si, mourant, je tirais des larmes de ses yeux !</l>
+	<l id="593">Que je préférerais une mort regrettée</l>
+	<l id="594">À la possession d'une âme rejetée,</l>
+	<l id="595" syll="6" part="i">D'un rebut de Nérée !</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Filandre, Céphise, Célidor.</head>
+<sp stage="toward" who="CÉPHISE"><speaker>CÉPHISE, à Filandre.</speaker>
+	<l id="595" syll="6" part="f">Il nous voit, avançons.</l>
+</sp>
+<sp stage="aparte" who="CÉLIDOR"><speaker>CÉLIDOR, à part.</speaker>
+	<l id="596">J'espère par ces gens éclaircir mes soupçons.</l>
+	<l id="597">Mais pour les écouter, avant que de paraître,</l>
+	<l id="598">Cachons-nous un moment à l'ombre de ce hêtre.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="599">Il se cache à nos yeux, et cette occasion</l>
+	<l id="600">Nous servira, Céphise, à sa confusion.</l>
+	<l id="601">Parle-moi de Nérée et de son inconstance,</l>
+	<l id="602">Et crois qu'il nous écoute. Approchons-nous, commence.</l>
+</sp>
+<sp stage="loud" who="CÉPHISE"><speaker>CÉPHISE, haut.</speaker>
+	<l id="603" syll="6" part="i">Ô dieux ! Que me dis-tu ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="603" syll="6" part="f">Je dis la vérité.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="604">Et tu sais de sa voix son infidélité ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="605">Écoute ; je faisais au récit de mes peines</l>
+	<l id="606">Répondre les échos des bois et des fontaines ;</l>
+	<l id="607">Et ces rochers, touchés des douleurs que je sens,</l>
+	<l id="608">Imitaient mes soupirs et mes derniers accents :</l>
+	<l id="609">Je louais de ta soeur la beauté sans pareille,</l>
+	<l id="610">Quand une voix plaintive arrive à mon oreille :</l>
+	<l id="611">« Filandre, ai-je entendu ? Théane a des appas,</l>
+	<l id="612">Mais ton oeil en a vu qui ne leur cèdent pas. »</l>
+	<l id="613">Moi, surpris à ces mots, et la vue égarée,</l>
+	<l id="614">J'avance dans le bois et j'aperçois Nérée.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="615" syll="6" part="i">Que lui répondis-tu ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="615" syll="6" part="f">Que je tenais ses yeux</l>
+	<l id="616">Entre les doux vainqueurs qui règnent en ces lieux ;</l>
+	<l id="617">Que j'aimais sa vertu ; que son mérite extrême</l>
+	<l id="618">Pourrait prétendre un prix avec Théane même ;</l>
+	<l id="619">Que mon frère éprouvait la force de ses traits...</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="620" syll="4" part="i">Et que dit-elle ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="620" syll="8" part="f">Attends, tu le sauras après.</l>
+	<l id="621">Mais, ajoutai-je alors, mon amour me convie</l>
+	<l id="622">À soutenir Théane aux dépens de ma vie :</l>
+	<l id="623">J'estime que tout cède à ses doux ornements.</l>
+	<l id="624">Cette croyance est libre aux esprits des amants.</l>
+	<l id="625">« Il est vrai, me dit-elle, et je puis sans offense</l>
+	<l id="626">Avoir en ta faveur une égale croyance.</l>
+	<l id="627">Je crois que tes attraits sont les plus doux vainqueurs</l>
+	<l id="628">Qui servent à l'Amour à captiver les coeurs,</l>
+	<l id="629">Et je te viens enfin, toute honte bannie,</l>
+	<l id="630">Avouer les effets de leur force infinie.</l>
+	<l id="631">Mon oeil t'en a parlé ; mais tu ne l'entends points</l>
+	<l id="632">Et ton aveuglement à mon malheur est joint.</l>
+	<l id="633">J'ai, pour te faire mieux savoir mon infortune,</l>
+	<l id="634">Souffert de Célidor la recherche importune :</l>
+	<l id="635">Je recevais ses voeux, je l'ai vu sans mépris ;</l>
+	<l id="636">Mais toi seul cependant engageais mes esprits,</l>
+	<l id="637">Et je ne le souffrais que pour être soufferte</l>
+	<l id="638">De tes yeux, d'où dépend mon repos ou ma perte. »</l>
+	<l id="639">Jugez quel je devins : « Madame, dis-je alors.</l>
+	<l id="640">Je sais que cette gloire excède mes efforts :</l>
+	<l id="641">Vous feignez seulement cette amoureuse peine</l>
+	<l id="642">Pour avoir le plaisir de rendre une âme vaine,</l>
+	<l id="643">Mais il est malaisé, connaissant mes défauts ;</l>
+	<l id="644">Je sais votre mérite et le peu que je vaux ;</l>
+	<l id="645">Honorez Célidor de cette courtoisie,</l>
+	<l id="646">Et l'aimant, prévoyez sa juste jalousie. »</l>
+	<l id="647">Mon respect à ces mots joignit de longs discours</l>
+	<l id="648">Dont Nérée en colère interrompit le cours.</l>
+	<l id="649">« Bien, ingrat ! me dit-elle, un moyen nécessaire</l>
+	<l id="650">Me fera mépriser et l'un et l'autre frère :</l>
+	<l id="651">Puisque par ta rigueur mes voeux sont rejetés,</l>
+	<l id="652">Célidor se plaindra des mêmes cruautés. »</l>
+	<l id="653">Cette fille, à ces mots, se perdit dans les ombres,</l>
+	<l id="654">Et me laissa confus sous ces feuillages sombres.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="655">Ainsi de Célidor l'espoir sera déçu.</l>
+	<l id="656">Que t'en témoigne-t-il ? S'en est-il aperçu ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="657">Tantôt en ta faveur j'ai sa grâce implorée,</l>
+	<l id="658">Sans oser toutefois lui parler de Nérée ;</l>
+	<l id="659">Car, si j'en puis juger, il l'aime infiniment,</l>
+	<l id="660">Et je crains un malheur de son ressentiment ;</l>
+	<l id="661">Il aura sa colère assez tôt reconnue.</l>
+	<l id="662">Adieu, je vais chez nous attendre sa venue.</l>
+<stage type="exit">Il sort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Célidor, sortant du bois, Céphise.</head>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="663">Donc ce coeur a poussé des soupirs superflus.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE, se tournant vers Filandre.</speaker>
+	<l id="664">Filandre, le voici... Mais il ne m'entend plus.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="665">Dieu ! Vous laissez le jour à cette criminelle,</l>
+	<l id="666">Et vous n'avez ni mains ni supplices pour elle !</l>
+	<l id="667">Vous punissez le vice, arbitres des mortels,</l>
+	<l id="668">Et vous souffrez Nérée au pied de vos autels !</l>
+	<l id="669">Ou sur elle ou sur moi montrez votre puissance ;</l>
+	<l id="670">Que la mort soit sa peine ou soit ma récompense.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="671">Exauce en ma faveur de semblables souhaits ;</l>
+	<l id="672">Ciel, punis cet auteur des plaintes que je fais ;</l>
+	<l id="673">Que mon mal ou le sien témoigne ta justice ;</l>
+	<l id="674">Que son trépas me venge ou le mien me guérisse.</l>
+	<l id="675">Mais vivons, Célidor, et vivons satisfaits :</l>
+	<l id="676">Fuis ce que tu chéris, aime ce que tu hais ;</l>
+	<l id="677">Reconnais la fidèle, et punis l'inconstante ;</l>
+	<l id="678">Rends Nérée enragée, et Céphise contente.</l>
+	<l id="679" syll="6" part="i">Tu ne me parles pas ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="679" syll="6" part="f">Importune beauté,</l>
+	<l id="680">Oblige un autre objet de ta fidélité :</l>
+	<l id="681">Tu ne peux m'honorer d'une amour légitime ;</l>
+	<l id="682">Quand tu m'offres des voeux tu taches ton estime.</l>
+	<l id="683">Qui me connaît me fuit, et j'attire tes pas !</l>
+	<l id="684">Tu poursuis le rebut de qui ne te vaut pas !</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="685">T'offensant tu me nuis ; ton mérite est extrême :</l>
+	<l id="686">Cruel, en t'estimant, estime ce que j'aime.</l>
+	<l id="687">Tu sais ce que tu vaux, insensible vainqueur ;</l>
+	<l id="688">Mais cette modestie importe à ta rigueur ;</l>
+	<l id="689">Ton coeur se met si bas pour être inaccessible,</l>
+	<l id="690">Et ton abaissement est un refus visible.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="691">Crois ce qui te plaira ; mais tu sais mes ennuis.</l>
+	<l id="692">N'attends point de réponse en l'état où je suis.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="693">Tes yeux aussi, cruel, sont témoins de mes peines :</l>
+	<l id="694">Je combats vainement tes rigueurs inhumaines ;</l>
+	<l id="695">Et lorsque je te dis l'excès de mon tourment</l>
+	<l id="696">Tu ne m'honores pas d'un regard seulement.</l>
+	<l id="697">Cruel, ingrat auteur de mon inquiétude,</l>
+	<l id="698">Quel vice est comparable à ton ingratitude ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="699">Céphise, d'autres soins occupent mes esprits :</l>
+	<l id="700">Les importunités accroissent les mépris.</l>
+</sp>
+<sp stage="steal/suicide" who="CÉPHISE"><speaker>CÉPHISE, lui tirant son épée, et se retirer de lui.</speaker>
+<stage type="watch/kill/watch">Elle la regarde longtemps. Elle fait mine de se vouloir tuer. Célidor la regarde sans s'étonner.</stage>
+	<l id="701">Eh bien ! Lâche sujet de ma longue infortune,</l>
+	<l id="702">Il faut cesser de vivre et de t'être importune.</l>
+	<l id="703">Je dois finir ma vie avec cet entretien,</l>
+	<l id="704">Et j'ai trop prolongé mon martyre et le tien :</l>
+	<l id="705">Ce fer m'ouvrant le sein, au moins ouvre la bouche,</l>
+	<l id="706">Et dis-moi seulement que mon malheur te touche...</l>
+	<l id="707">Non, je fais ce dessein un peu légèrement.</l>
+	<l id="708">Et tu m'aurais vendu ce mot trop chèrement.</l>
+	<l id="709">Quoi ! Tu vois sous ce fer ma gorge découverte,</l>
+	<l id="710">Et ne détournes pas le dessein de ma perte ?</l>
+<stage type="throw">Elle jette l'épée.</stage>
+</sp>
+<sp stage="get" who="CÉLIDOR"><speaker>CÉLIDOR, reprenant son épée, que Céphise a jeté à bas.</speaker>
+	<l id="711">Pour attenter sur toi ton esprit est trop sain,</l>
+	<l id="712">Et je sais que tes mains ont trop peu de dessein.</l>
+	<l id="713">Je connais trop Céphise, et son humeur joyeuse</l>
+	<l id="714">Se rit des mouvements d'une âme furieuse.</l>
+	<l id="715">Mais juge de mes maux par cette extrémité :</l>
+	<l id="716">Tu sais mourir par feinte, et-moi par vérité.</l>
+	<l id="717">Céphise, par ce coup je punis le coupable,</l>
+	<l id="718">Dont le mal que tu sens rend la mort équitable.</l>
+	<l id="719">Vois périr d'un oeil sec l'auteur de ton tourment,</l>
+	<l id="720">Et ne détourne point son juste châtiment.</l>
+<stage type="watch/laugh">Céphise le regardant en riant, il la regarde, et puis dit en remettant son épée.</stage>
+	<l id="721">Il est plus à propos d'imiter ta sagesse :</l>
+	<l id="722">Ton exemple s'oppose au dessein qui me presse ;</l>
+	<l id="723">Le ciel ne consent pas à cet acte inhumain ;</l>
+	<l id="724">Et puis mes maux feront ce qu'aurait fait ma main.</l>
+</sp>
+<sp stage="laugh" who="CÉPHISE"><speaker>CÉPHISE, riant.</speaker>
+	<l id="725">Un plus simple eût suivi les conseils de la rage,</l>
+	<l id="726">Que j'appelle sottise, et les autres courage.</l>
+	<l id="727">Je t'attends, Célidor, au temps qui t'est prescrit :</l>
+	<l id="728">Le mépris et l'amour changeront ton esprit.</l>
+	<l id="729">Songe à ma récompense ; et, de quoi que je rie,</l>
+	<l id="730">Ne tiens pas pour un jeu ma triste rêverie.</l>
+	<l id="731">Je sens pour ton sujet de véritables feux.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="732">C'est inutilement ; éteins-les si tu peux.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="alone" who="THÉANE"><speaker>THÉANE, seule.</speaker>
+<poem type="stances">
+<lg n="1">
+	<l id="733">Aveugles tyrans de mes jours,</l>
+	<l id="734">Pressants transports, lâches amours ;</l>
+	<l id="735">Honteuse inquiétude,</l>
+	<l id="736">Que vous naissez hors de saison !</l>
+	<l id="737">L'auteur de cette servitude</l>
+	<l id="738">Où languit enfin ma raison</l>
+	<l id="739">Fait cesser mon ingratitude,</l>
+	<l id="740">Pour commencer sa trahison.</l>
+</lg>
+<lg n="2">
+	<l id="741">J'ai longtemps sondé son respect :</l>
+	<l id="742">Son service m'était suspect.</l>
+	<l id="743">Par sa peine infinie</l>
+	<l id="744">Mon coeur n'était point adouci ;</l>
+	<l id="745">Et quand ma rigueur est bannie,</l>
+	<l id="746">Et que j'ai part en son souci,</l>
+	<l id="747">Cet esprit inconstant me nie</l>
+	<l id="748">Ce que je lui niais aussi.</l>
+</lg>
+<lg n="3">
+	<l id="749">Les regards d'un oeil plus charmant</l>
+	<l id="750">Attirent ce perfide amant.</l>
+	<l id="751">Quand il n'est plus en doute</l>
+	<l id="752">Que sa prison plaise, il en sort :</l>
+	<l id="753">Il se tait alors qu'on l'écoute ;</l>
+	<l id="754">Il se lasse au dernier effort,</l>
+	<l id="755">Et se jette en une autre route</l>
+	<l id="756">Quand on lui présente le port.</l>
+</lg>
+<lg n="4">
+	<l id="757">Que l'inévitable destin</l>
+	<l id="758">Qui régit nos jours est mutin !</l>
+	<l id="759">Aventure fatale !</l>
+	<l id="760">Le sort, de libre que j'étais,</l>
+	<l id="761">Me fait la honteuse rivale</l>
+	<l id="762">D'une qui m'a parlé cent fois</l>
+	<l id="763">D'aimer cette âme déloyale</l>
+	<l id="764">Qui me tient enfin sous ses lois.</l>
+</lg>
+</poem>
+	<l id="765">Ô frivole discours ! Tu pourrais, lâche amante,</l>
+	<l id="766">Conserver tes desseins en faveur de Thimante !</l>
+	<l id="767">Tu souffres pour un traître alors qu'il est content !</l>
+	<l id="768">Il te plaît infidèle, et t'a déplu constant !</l>
+	<l id="769">Au moment de son crime il fait naître ta peine,</l>
+	<l id="770">Et tire ton amour du sujet de sa haine !</l>
+	<l id="771">Indigne passion de ce superbe coeur</l>
+	<l id="772">Où l'on vit si longtemps présider la rigueur,</l>
+	<l id="773">Qui fut inaccessible au bel oeil qui le blesse,</l>
+	<l id="774">Et faillit par constance autant que par faiblesse !</l>
+	<l id="775">Ne délibère plus, triste source d'ennuis ;</l>
+	<l id="776">Force l'état honteux où tes jours sont réduits.</l>
+	<l id="777">Ta raison peut dompter un dessein inutile,</l>
+	<l id="778">Puisque des maux naissants le remède est facile.</l>
+	<l id="779">Crains l'abord de Thimante, évite ses appas.</l>
+	<l id="780">Le voilà l'inconstant : fuis, cours, ne l'attends pas.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Thimante, Théane.</head>
+<sp stage="run/follow" who="THIMANTE"><speaker>THIMANTE, courant après.</speaker>
+	<l id="781">Théane, où fuyez-vous ? Âme insensible et fière,</l>
+<stage type="pull">Il tient Théane par sa robe.</stage>
+	<l id="782">Des amants de ces lieux orgueilleuse meurtrière,</l>
+	<l id="783">Prêtez un seul moment l'oreille à mes discours ;</l>
+	<l id="784">Je ne veux implorer ni pitié ni secours.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="785">Que te profiteraient de si dures contraintes ?</l>
+	<l id="786">Tu n'es plus en état de m'adresser tes plaintes.</l>
+	<l id="787" syll="6" part="i">Effronté, laisse-moi.</l>
+</sp>
+<sp stage="watch/escape" who="THIMANTE"><speaker>THIMANTE, le voyant fuir.</speaker>
+	<l id="787" syll="6" part="f">Cours, ingrate beauté,</l>
+	<l id="788">Et fais plus que tes jours durer ta cruauté ;</l>
+	<l id="789">Égale à tes attraits ta rigueur inhumaine ;</l>
+	<l id="790">Un généreux dessein me peut tirer de peine.</l>
+	<l id="791">Je ne tenterai point des efforts superflus.</l>
+	<l id="792">Sans changer ton esprit je puis ne souffrir plus :</l>
+	<l id="793">La mort me tirera des fers où je soupire,</l>
+	<l id="794">Et, ce dernier des maux finira mon martyre.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Thimante, Filandre.</head>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="795">Quel accident, Thimante, altère ainsi tes sens ?</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="796">L'insupportable excès des ennuis que je sens.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="797">Ton coeur est-il sensible aux traits qu'Amour te tire ?</l>
+	<l id="798">Un homme comme toi préside en son empire ;</l>
+	<l id="799">Les plus rares beautés t'importunent de voeux.</l>
+	<l id="800">Et tu prescris des lois à celles que tu veux[.]</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="801">Ajoute à mes malheurs encor ta raillerie,</l>
+	<l id="802">Il ne m'importe ; adieu, laisse-moi, je t'en prie.</l>
+<stage type="pull">Filandre le veut retenir.</stage>
+</sp>
+<sp stage="alone" who="FILANDRE"><speaker>FILANDRE, seul.</speaker>
+	<l id="803">Théane a rebuté ce malheureux amant :</l>
+<stage type="away">Il s'en va.</stage>
+	<l id="804">Céphise en ma faveur a feint subtilement.</l>
+	<l id="805">Poursuivons désormais cette orgueilleuse amante,</l>
+	<l id="806">Tirons notre bonheur du malheur de Thimante,</l>
+	<l id="807">Établissons l'amour où règne le mépris :</l>
+	<l id="808">Par droit ou par esprit nos voeux auront leur prix.</l>
+	<l id="809">Je vois ce beau sujet du feu qui me dévore,</l>
+	<l id="810">Et je tremble à l'aspect de ces yeux que j'adore.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Filandre, Théane, Nérée.</head>
+<sp stage="toward" who="THÉANE"><speaker>THÉANE, à Nérée.</speaker>
+	<l id="811">Je hais cet importun autant que le trépas.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="812">Le voulez-vous chasser, ne lui répondez pas.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="813" syll="6" part="i">Je suivrai ton avis.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="813" syll="6" part="f">Belle prison des âmes,</l>
+<stage type="toward/watch">Théane parle toujours à Nérée sans le regarder.</stage>
+	<l id="814">Doux miracle d'amour, source de tant de flammes,</l>
+	<l id="815">Enfin que produiront mes soupirs et mes pleurs,</l>
+	<l id="816">Et quel terme est prescrit à mes longues douleurs ?</l>
+	<l id="817">Quels voeux succéderont à votre résistance ?</l>
+	<l id="818">Pour qui triompheront l'amour et la constance ?</l>
+	<l id="819">Ces yeux qui charment tout, ces vainqueurs absolus,</l>
+	<l id="820">Sont-ils dessus ce choix encore irrésolus ?</l>
+	<l id="821">Honorez d'un regard une de vos conquêtes ;</l>
+	<l id="822">Accordez un mot seul à ses justes requêtes.</l>
+	<l id="823">Me fermez-vous l'oreille, et ne voyez-vous pas</l>
+	<l id="824">Un malheureux captif qui marche sur vos pas ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+<stage type="together">Elle parlent toujours ensemble.</stage>
+	<l id="825" syll="6" part="i">Que me dis-tu, Nérée ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="825" syll="6" part="f">Ô rigueur infinie !</l>
+	<l id="826">T'implore un seul regard, et l'on me le dénie.</l>
+	<l id="827">Insensible Théane, accordez un moment</l>
+	<l id="828">Au récit des douleurs d'un misérable amant.</l>
+</sp>
+<sp stage="toward" who="THÉANE"><speaker>THÉANE, à Nérée.</speaker>
+	<l id="829" syll="6" part="i">Ô dieux ! Que m'as-tu dit ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="829" syll="6" part="f">Ingrate, inexorable,</l>
+	<l id="830">Fais-moi voir ce bel oeil sévère ou favorable.</l>
+	<l id="831">Cruelle, je consens que mes soupirs soient vains ;</l>
+	<l id="832">Mais ouvre au moins sur moi ces astres inhumains,</l>
+	<l id="833">Et ne refuse pas à ma douleur profonde</l>
+	<l id="834">Ce que ta courtoisie accorde à tout le monde.</l>
+	<l id="835">Orgueilleuse, esprit rare entre les vains mépris,</l>
+	<l id="836">Quelle rigueur insigne égale tes esprits ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="837" syll="6" part="i">Importun, laissez-nous.</l>
+<stage type="toward">Elle continue à parler à Nérée.</stage>
+</sp>
+<sp stage="toward/listen" who="FILANDRE"><speaker>FILANDRE, à Théane, qui continue de ne point l'écouter.</speaker>
+	<l id="837" syll="6" part="f">Indigne objet que j'aime,</l>
+	<l id="838">Que le ciel irrité te traite un jour de même ;</l>
+	<l id="839">Que la douleur préside en ce coeur de rocher,</l>
+	<l id="840">Et qu'alors tes soupirs ne le puissent toucher ;</l>
+	<l id="841">Qu'il te rende un exemple horrible à tes pareilles ;</l>
+	<l id="842">Qu'il ferme à tes souhaits les yeux et les oreilles ;</l>
+	<l id="843">Qu'il s'oppose à tes voeux, et que tes vanités</l>
+	<l id="844">Exercent la rigueur de ses divinités.</l>
+	<l id="845">Le temps est absolu sur les plus belles choses :</l>
+	<l id="846">Il n'épargnera pas ni ces lis ni ces roses ;</l>
+	<l id="847">Un léger accident peut gâter ce beau teint,</l>
+	<l id="848">Et changer les couleurs dont ce visage est peint.</l>
+	<l id="849">Tu peux ne causer plus ni passion ni peine,</l>
+	<l id="850">Et d'un objet d'amour être un objet de haine.</l>
+	<l id="851">Comme ta cruauté me chasse de ce lieu,</l>
+	<l id="852">Ta laideur quelque jour m'en peut chasser. Adieu.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+<stage type="toward">Elle dit à Nérée.</stage>
+	<l id="853">Adieu ! Que ton conseil m'est enfin salutaire !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="854">Pour leur fermer la bouche, il ne faut que se taire.</l>
+	<l id="855">Mais sachant quel malheur traverse mon amour</l>
+	<l id="856">Théane, tu me dois du conseil à ton tour.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="857">Fuis sans délibérer un ingrat qui t'oublie ;</l>
+	<l id="858">D'un généreux effort romps le noeud qui vous lie :</l>
+	<l id="859">Le temps éloignera cet objet odieux</l>
+	<l id="860">De ton triste penser, s'il est loin de tes yeux.</l>
+	<l id="861">Le temps et la raison font ces métamorphoses ;</l>
+	<l id="862">Ils sont maîtres d'Amour, qui l'est de toutes choses.</l>
+	<l id="863">Mais j'offre du remède au point de mon trépas ;</l>
+	<l id="864">Je donne des avis et je n'en use pas.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="865" syll="2" part="i">Comment ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="865" syll="10" part="f">Hélas ! Il faut que je confesse...</l>
+	<l id="866">Mais te dois-je avouer cette ardeur qui me presse ?</l>
+	<l id="867">Que me sert de t'ouvrir les secrets de mon sein,</l>
+	<l id="868">Qu'à me rendre plus lâche et ton frère plus vain ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="869">Mon exemple t'oblige à cette confiance ;</l>
+	<l id="870">Théane, l'aimes-tu ? Que j'ai d'impatience.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="871">Je l'aime, je l'avoue ; et ce superbe coeur</l>
+	<l id="872">Qui vainquit tant d'appas a trouvé son vainqueur.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="873">Ô glorieux effet d'amour et de justice,</l>
+	<l id="874">Il n'est point de rigueur que le temps ne bannisse.</l>
+	<l id="875">Il craignait ton abord, et, s'il osait te voir,</l>
+	<l id="876">Les foudres de tes yeux étouffaient son espoir.</l>
+	<l id="877">Jamais l'aversion n'a paru si constante</l>
+	<l id="878">Qu'à combattre en ton coeur les désirs de Thimante.</l>
+	<l id="879">Ta rigueur si longtemps l'a traité de refus,</l>
+	<l id="880">Et tu lui donnes tout quand il n'espère plus.</l>
+	<l id="881">Il n'attend que la mort, mélancolique, sombre,</l>
+	<l id="882">Triste, pâle, défait, et déjà moins qu'une ombre :</l>
+	<l id="883">Mais s'il ne te déplaît, si ton dessein est tel,</l>
+	<l id="884">Courons, faisons un dieu de l'ombre d'un mortel.</l>
+	<l id="885">Seule, irai-je finir sa triste rêverie ?</l>
+	<l id="886">Je reviens de ce pas ; laisse-moi, je te prie.</l>
+</sp>
+<sp stage="pull" who="THÉANE"><speaker>THÉANE, la retenant.</speaker>
+	<l id="887">Non, non, que veux-tu faire ? Eh quoi ! Ne sais-tu pas...</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="888">J'ai dessein seulement d'empêcher son trépas.</l>
+	<l id="889">Je ne parlerai point de ta naissante peine ;</l>
+	<l id="890">J'arrêterai son âme ; et, sans la rendre vaine,</l>
+	<l id="891">Il laissera bientôt le dessein de mourir</l>
+	<l id="892">S'il apprend seulement que tu le peux souffrir.</l>
+</sp>
+<sp stage="pull" who="THÉANE"><speaker>THÉANE, la retenant toujours.</speaker>
+	<l id="893">Demeure ici, Nérée. Hélas ! Cette nouvelle</l>
+	<l id="894">Toucherait froidement cet esprit infidèle :</l>
+	<l id="895">De là part de ma soeur il en serait charmé ;</l>
+	<l id="896">Mais venant d'un objet qui n'en est plus aimé,</l>
+	<l id="897">Il en peut seulement tirer la vaine gloire</l>
+	<l id="898">De vaincre et de pouvoir mépriser sa victoire.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="899">Tu m'offenses, cruelle, et ce dernier discours,</l>
+	<l id="900">Qui dément les premiers, m'oblige à son secours.</l>
+	<l id="901">Tu peux joindre, inhumaine, insensible courage,</l>
+	<l id="902">À ses autres malheurs le titre de volage ;</l>
+	<l id="903">Tu hais, tu hais Thimante, et tu feins de changer</l>
+	<l id="904">Pour me paraître juste, et non pour l'obliger.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="905">Hélas ! Le ciel connaît si mon âme est atteinte.</l>
+	<l id="906">Mais apprends de ma soeur le sujet de ma plainte.</l>
+	<l id="907" syll="6" part="i">La voilà ; parle-lui.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Théane, Nérée, Céphise.</head>
+<sp stage="kiss" who="CÉPHISE"><speaker>CÉPHISE, baisant les cheveux de Célidor.</speaker>
+	<l id="907" syll="6" part="f">Célidor, seul espoir...</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="908">Que baises-tu, Céphise ? Attends, laisse-moi voir.</l>
+</sp>
+<sp stage="surprise" who="CÉPHISE"><speaker>CÉPHISE, feignant la surprise.</speaker>
+	<l id="909" syll="6" part="i">Nérée, arrête-toi.</l>
+</sp>
+<sp stage="open" who="NÉRÉE"><speaker>NÉRÉE, lui ouvrant la main.</speaker>
+	<l id="909" syll="6" part="f">Ta résistance est vaine.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="910">Ta curiosité pourra te mettre en peine.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="911" syll="6" part="i">Il n'importe, je veux...</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="911" syll="1" part="m">Quoi ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="911" syll="5" part="f">Voir ce que tu tiens.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="912">Eh bien, tu le verras. Connais-tu ces liens ?</l>
+</sp>
+<sp stage="" who="NÉRÉE"><speaker>NÉRÉE, regardant les cheveux.</speaker>
+	<l id="913">Sont-ils de Célidor ? Sa chevelure est blonde.</l>
+	<l id="914">Ô perfide ! Ô cruel, le plus traître du monde !</l>
+	<l id="915" syll="6" part="i">Qui te les a donnés ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="915" syll="6" part="f">Mon désir et ma main,</l>
+	<l id="916">Car je les ai coupés. Mais ce discours est vain :</l>
+	<l id="917">Tu ne peux sans regret savoir d'où vient ce gage ;</l>
+	<l id="918">Et d'autres entretiens te plairont davantage.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="919">Hélas ! Tu m'apprends tout en ne me disant rien ;</l>
+	<l id="920">Il vient de Célidor, ce tyran de mon bien.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="921" syll="6" part="i">Te l'a-t-il confessé ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="921" syll="6" part="f">Depuis que ce volage</l>
+	<l id="922">À tes rares beautés rend un secret hommage,</l>
+	<l id="923">J'évite sa rencontre et je crains son abord</l>
+	<l id="924">Plus que les criminels ne redoutent la mort ;</l>
+	<l id="925">Je fuis les faux appas de cette âme traîtresse.</l>
+	<l id="926">Tu l'honores beaucoup d'avoir pris cette tresse.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="927">Tu sais que mes douleurs ont gagné sa pitié,</l>
+	<l id="928">Que son coeur est sensible à ma longue amitié.</l>
+	<l id="929">Il t'a longtemps servie ; et je jure, Nérée,</l>
+	<l id="930">Que j'ai longtemps aussi ton amour révérée.</l>
+	<l id="931">Le respect que j'avais pour tes voeux innocents</l>
+	<l id="932">M'a fait longtemps cacher les douleurs que je sens :</l>
+	<l id="933">Je souffrais tes plaisirs aux dépens de ma joie,</l>
+	<l id="934">Et n'osais demander ce que le ciel m'octroie.</l>
+	<l id="935">Mais qui vit sans se plaindre au milieu des tourments,</l>
+	<l id="936">Et quel respect enfin ne forcent les amants ?</l>
+	<l id="937">Je n'osais desservir ton amour si connue :</l>
+	<l id="938">Mais le désir croissant, la crainte diminue ;</l>
+	<l id="939">Et j'ai fait à l'Amour employer tous ses traits</l>
+	<l id="940">Pour toucher cet auteur des plaintes que tu fais ;</l>
+	<l id="941">J'ai tenté tous moyens, tant qu'enfin mon adresse</l>
+	<l id="942">Ou sa facilité m'établit sa maîtresse.</l>
+	<l id="943">Il feint subtilement et ses serments sont vains,</l>
+	<l id="944">Ou je donne des lois au plus beau des humains.</l>
+	<l id="945">Mais écoute comment j'ai pris ces belles chaînes</l>
+	<l id="946">À cet aimable auteur de nos communes peines :</l>
+	<l id="947">J'employai la prière, et son humilité</l>
+	<l id="948">Lui fit blâmer longtemps ma curiosité.</l>
+	<l id="949">Les cheveux, me dit-il, sont des présents des dames</l>
+	<l id="950">Qui montrent d'agréer le servage des âmes ;</l>
+	<l id="951">Mais on n'a jamais vu qu'une fille ait porté</l>
+	<l id="952">Ces signes de bassesse et de captivité.</l>
+	<l id="953">Céphise, dis-je alors, sera donc la première ;</l>
+	<l id="954">Là mon autorité succède à ma prière ;</l>
+	<l id="955">J'approche les ciseaux, et coupe ces cheveux</l>
+	<l id="956">Que n'osait m'accorder cet objet de mes voeux.</l>
+	<l id="957" syll="6" part="i">Rend-les-moi. Que fais-tu ?</l>
+</sp>
+<sp stage="wave" who="NÉRÉE"><speaker>NÉRÉE, rompant les cheveux.</speaker>
+	<l id="957" syll="6" part="f">Ce qu'en ma juste rage</l>
+	<l id="958">Je ferais de bon coeur si j'avais ce volage.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="959" syll="2" part="i">Ô dieux !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="959" syll="10" part="f">J'oblige encor cet infidèle amant</l>
+	<l id="960">Par des signes honteux de mon ressentiment :</l>
+	<l id="961">Le sujet de sa gloire est joint à son supplice,</l>
+	<l id="962">Et c'est l'avoir aimé que de punir son vice.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="963">Fais ce qui te plaira ; mais que ta passion</l>
+	<l id="964">Exerce à mes dépens ton indiscrétion,</l>
+	<l id="965">Notre seule amitié rend ce mal supportable,</l>
+	<l id="966">Et d'autres t'en feraient une peine équitable.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="967">T'imputé-je les maux dont mes jours sont suivis,</l>
+	<l id="968">Et t'ai-je reproché ce que tu me ravis ?</l>
+	<l id="969">Tu poursuis Célidor, et, perdant sa franchise,</l>
+	<l id="970">Je ne t'accuse pas toutefois de sa prise :</l>
+	<l id="971">Aime ce beau vainqueur, tout coupable qu'il est.</l>
+	<l id="972">Dieux ! Qu'il est malaisé d'oublier ce qui plaît !</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="973">Donc pour Céphise on quitte et Théane et Nérée ;</l>
+	<l id="974">Celle qui la fut moins est la plus honorée.</l>
+	<l id="975">Peut-être ton malheur avait charmé les yeux</l>
+	<l id="976">Quand tu ne plaisais pas aux amants de ces lieux :</l>
+	<l id="977">Mais aujourd'hui tout cède à tes grâces divines ;</l>
+	<l id="978">Tu peux tout maintenant, riche de nos ruines.</l>
+	<l id="979">Thimante t'a-t-il fait agréer son souci,</l>
+	<l id="980">Et ne portes-tu point de ses cheveux aussi ?</l>
+	<l id="981">Ils ne déplaisent pas, sa chevelure est belle.</l>
+</sp>
+<sp stage="aparte" who="CÉPHISE"><speaker>CÉPHISE, à part.</speaker>
+	<l id="982">Ô_Dieux ! Je suis perdue. Aventure cruelle !</l>
+<stage type="loud">Haut.</stage>
+	<l id="983">La chaleur du soleil, importune en ce lieu,</l>
+	<l id="984">M'oblige à vous quitter : je vais chez nous, adieu.</l>
+</sp>
+<sp stage="pull" who="NÉRÉE"><speaker>NÉRÉE, la retenant.</speaker>
+	<l id="985">Non, non, parle un moment de l'amour de Thimante :</l>
+	<l id="986">La chaleur aujourd'hui n'est point si violente.</l>
+	<l id="987">Il implore tes voeux : en est-il possesseur ?</l>
+	<l id="988">Tu considères trop l'intérêt de ta soeur.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="989">Il m'aime, je l'avoue, et sa recherche est vaine.</l>
+	<l id="990">J'ai condamné Thimante à sa première peine :</l>
+	<l id="991">Il pousse en mon sujet d'inutiles soupirs ;</l>
+	<l id="992">Et des dieux ne pourraient partager mes désirs.</l>
+</sp>
+<sp stage="estonish" who="NÉRÉE"><speaker>NÉRÉE, feignant l'étonnement.</speaker>
+	<l id="993" syll="6" part="i">Céphise en donne ainsi ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="993" syll="6" part="f">Que veux-tu que je die ?</l>
+	<l id="994">Je devais à ma soeur conter sa perfidie.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="995" syll="6" part="i">Quoi ! Céphise est si vaine ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="995" syll="6" part="f">Oh ! Cette vanité</l>
+	<l id="996">Serait d'un moindre honneur que je n'ai mérité ;</l>
+	<l id="997">Et j'ai porté les yeux plus haut que ce volage</l>
+	<l id="998">Qui rompt si lâchement le beau noeud qui l'engage.</l>
+	<l id="999">Ce perfide est ton frère, et cette qualité</l>
+	<l id="1000">Me fait seule souffrir son importunité.</l>
+	<l id="1001" syll="6" part="i">Mais il travaille en vain.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1001" syll="6" part="f">Oyant cette imposture,</l>
+	<l id="1002">Que sert un foudre au ciel, auteurs de la nature ?</l>
+	<l id="1003" syll="3" part="i">Thimante...</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1003" syll="3" part="m">Oui, ton frère.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1003" syll="6" part="f">Adore tes appas ?</l>
+	<l id="1004">Tu le dis à Nérée, et tu ne rougis pas !</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1005">Je ne rougis, Nérée, au sujet de personne.</l>
+	<l id="1006">Tu connais peu l'amour si ce discours t'étonne :</l>
+	<l id="1007">Il fait en mille coeurs des changements pareils ;</l>
+	<l id="1008">Mille pour une étoile ont quitté des soleils.</l>
+	<l id="1009">Il tait de son amour la douce violence,</l>
+	<l id="1010">Et sa discrétion paraît en son silence.</l>
+	<l id="1011">Lui celant quels objets ont pour toi des appas,</l>
+	<l id="1012">La qualité de soeur ne te condamne pas :</l>
+	<l id="1013">Avec l'extrême amour le respect est extrême ;</l>
+	<l id="1014">Et tel voudrait cacher ce respect à soi-même.</l>
+	<l id="1015">Thimante parle en frère, et se tait en amant :</l>
+	<l id="1016">Mais je plains son malheur d'aimer si vainement ;</l>
+	<l id="1017">L'amour de Célidor rend ses recherches vaines :</l>
+	<l id="1018">Accusez ce sujet de vos communes peines.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1019">Ô redoutable esprit, j'ignore ton dessein.</l>
+	<l id="1020">Mais porte à cet amant un poignard dans le sein ;</l>
+	<l id="1021">Contre cet innocent dispose ton courage</l>
+	<l id="1022">À tout ce que t'ordonne et la haine et la rage :</l>
+	<l id="1023">Les plus cruels tourments pourraient moins l'affliger</l>
+	<l id="1024">Que ce subtil moyen de le désobliger.</l>
+	<l id="1025">Théane, ouvre l'oreille au discours véritable</l>
+	<l id="1026">Qui te rendra suspect cet esprit redoutable.</l>
+	<l id="1027">Si comme ta beauté mon frère aime le jour ;</l>
+	<l id="1028">Si la plus forte ardeur égale son amour ;</l>
+	<l id="1029">Si d'autres ont touché ni ses yeux ni son âme,</l>
+	<l id="1030">Et s'il ne meurt plutôt que sa première flamme,</l>
+	<l id="1031">Que je sois à ta vue un objet odieux</l>
+	<l id="1032">Et le but des mépris des hommes et des dieux.</l>
+	<l id="1033">Souffre que je le voie, et qu'aux yeux de Céphise</l>
+	<l id="1034">Par ses propres serments mon discours l'autorise.</l>
+	<l id="1035">Je veux qu'aucun tourment n'égale mes malheurs</l>
+	<l id="1036">Si ses moindres regards ne t'arrachent des pleurs.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1037">Si ton occasion l'oblige à se contraindre,</l>
+	<l id="1038">Thimante étant un homme est capable de feindre.</l>
+	<l id="1039">Mais va, fais que ma soeur en juge utilement,</l>
+	<l id="1040">Et crois qu'on connaît moins un frère qu'un amant.</l>
+<stage type="exit">Elle sort.</stage>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1041">Sa rougeur la trahit lorsqu'elle dissimule ;</l>
+	<l id="1042">Et je suis peu subtile, ou je suis trop crédule.</l>
+	<l id="1043">Mes soupçons établis rétabliront la paix.</l>
+	<l id="1044" syll="6" part="i">Cours, va quérir Thimante.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1044" syll="6" part="f">Ô dieux ! Que tu me plais !</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="alone" who="THIMANTE"><speaker>THIMANTE, seul.</speaker>
+	<l id="1045">Ne délibère plus d'une mort nécessaire ;</l>
+	<l id="1046">Achève, malheureux, tes jours et ta misère ;</l>
+	<l id="1047">Tu ne peux oublier cette ingrate beauté,</l>
+	<l id="1048">Ni perdre ton amour sans perdre la clarté.</l>
+	<l id="1049">Sachant qu'elle est pour toi de pitié dépourvue,</l>
+	<l id="1050">Délivre ses beaux yeux de l'horreur de ta vue :</l>
+	<l id="1051">Fuyant en sa faveur la lumière du jour,</l>
+	<l id="1052">Tu prouveras ensemble et perdras ton amour.</l>
+	<l id="1053">Sus, quel moyen propice à ta funeste envie</l>
+	<l id="1054">Par une prompte mort terminera ta vie ?</l>
+	<l id="1055">Le fer en ce dessein ne te peut secourir,</l>
+	<l id="1056">Puisque des traits plus forts t'ont blessé sans mourir.</l>
+	<l id="1057">Croire que de tes maux le poison te délivre ;</l>
+	<l id="1058">Le plus fort des poisons te laisse encore vivre :</l>
+	<l id="1059">Tu souffres sans danger ce poison amoureux</l>
+	<l id="1060">Que te mit dans le coeur cet objet rigoureux.</l>
+	<l id="1061">Enfin le vaste sein de Marne ou de la Seine</l>
+	<l id="1062">S'offre d'ensevelir et ton corps et ta peine.</l>
+	<l id="1063">Suis ce dernier moyen ; meurs, déplorable amant,</l>
+	<l id="1064">Et passe d'un ingrat en un traître élément :</l>
+	<l id="1065">Cours, et, t'entretenant du repos qui t'arrive,</l>
+	<l id="1066">Marche sans discerner son eau d'avec sa rive.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Nérée, Thimante.</head>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1067">Sur quoi pouvez-vous seul méditer en ce lieu ?</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1068">Vous le saurez bientôt. Je tarde trop ; adieu.</l>
+<stage type="escape">Il s'enfuit.</stage>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1069">Mon frère, attends un peu, ta maîtresse te prie...</l>
+	<l id="1070">Mais je ne le vois plus, c'est en vain que je crie.</l>
+	<l id="1071">Ô malheur de mes jours ! Un dessein furieux</l>
+	<l id="1072">Lui fait abandonner la lumière des cieux ;</l>
+	<l id="1073">Son oeil ardent et triste, et sa course légère,</l>
+	<l id="1074">Témoignent ce qu'enfin la rage lui suggère.</l>
+	<l id="1075">Théane, joins tes pleurs à mon cruel tourment.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Théane, Nérée.</head>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1076" syll="2" part="i">Comment ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1076" syll="10" part="f">Je suis sans frère, et tu n'as plus d'amant.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1077" syll="6" part="i">Ô dieux ! Thimante est mort !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1077" syll="6" part="f">Sa perte est trop certaine.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1078" syll="6" part="i">Et qui l'a fait mourir ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1078" syll="6" part="f">Son amour et ta haine</l>
+	<l id="1079">Je n'ai pu divertir ce fatal accident ;</l>
+	<l id="1080">Il sort d'ici, courant, furieux, l'oeil ardent,</l>
+	<l id="1081">En ce dessein fatal d'attenter sur sa vie</l>
+	<l id="1082">Que déjà par ses mains tes mépris ont ravie.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1083">Si nous pouvions encor divertir son trépas !</l>
+	<l id="1084" syll="6" part="i">Courons, tu tardes trop.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1084" syll="6" part="f">Tu vas perdre tes pas.</l>
+<stage type="exit">Elles sortent.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp stage="alone" who="FILANDRE"><speaker>FILANDRE, seul.</speaker>
+	<l id="1085">Durez pour mon repos, salutaires pensées ;</l>
+	<l id="1086">Vos conseils éteindront mes ardeurs insensées.</l>
+	<l id="1087">Il est vrai que Théane a peu de doux attraits,</l>
+	<l id="1088">Et que mon faible coeur cède à de faibles traits.</l>
+	<l id="1089">Son esprit est commun, son humeur si farouche,</l>
+	<l id="1090">Que tout nuit à ses yeux et que rien ne la touche ;</l>
+	<l id="1091">Elle fait vanité des droits de sa raison,</l>
+	<l id="1092">Et son ingratitude est sans comparaison :</l>
+	<l id="1093">Ainsi que sa beauté sa naissance est commune ;</l>
+	<l id="1094">Je pouvais aspirer plus haut que sa fortune ;</l>
+	<l id="1095">D'autres me rangeraient sous de plus dignes lois...</l>
+	<l id="1096">Inutiles discours ! Mon coeur dément ma voix.</l>
+	<l id="1097">Pour flatter mon tourment j'en méprise la cause ;</l>
+	<l id="1098">Mon sentiment détruit ce que je me propose :</l>
+	<l id="1099">Théane est adorable, et les maux que je sens</l>
+	<l id="1100">Sont un léger effet de ses charmes puissants ;</l>
+	<l id="1101">Tout prise, tout révère une beauté si rare ;</l>
+	<l id="1102">Et qui s'en peut défendre est aveugle ou barbare.</l>
+	<l id="1103">Je plains injustement les maux que j'ai soufferts :</l>
+	<l id="1104">Des princes seraient vains de l'honneur de ses fers.</l>
+	<l id="1105">Mais qu'espéré-je enfin d'un glorieux servage ?</l>
+	<l id="1106">Ne pouvant par raison, forçons-le par courage ;</l>
+	<l id="1107">Publions sans dessein qu'elle a beaucoup d'appas ;</l>
+	<l id="1108">Estimons sa prison, mais n'y demeurons pas.</l>
+	<l id="1109">Ô frivole entretien ! Un captif délibère</l>
+	<l id="1110">Et parle absolument de ce qu'il ne peut faire ;</l>
+	<l id="1111">Il parle de souffrir ou violer ses lois,</l>
+	<l id="1112">Comme si sa beauté m'en permettait le choix,</l>
+	<l id="1113">Et ne conservait pas sans dessein les franchises</l>
+	<l id="1114">Que sans dessein aussi cette insensible a prises.</l>
+	<l id="1115">Enfin que résoudrai-je entre tant de desseins ?</l>
+	<l id="1116">Puisqu'à me secourir tant de discours sont vains,</l>
+	<l id="1117">Ne délibérons plus et souffrons toute chose,</l>
+	<l id="1118">Puisqu'il faut endurer, quoi que je me propose.</l>
+	<l id="1119">Je vois ce rare objet qui gouverne mon sort :</l>
+	<l id="1120">Devais-je souhaiter ou craindre son abord ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Nérée, Théane, Filandre.</head>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1121">Sèche tes pleurs, Nérée, et n'en sois plus en peine ;</l>
+	<l id="1122">Nous l'aurions découvert autour de cette plaine.</l>
+	<l id="1123">Un malheureux amant court toujours au trépas ;</l>
+	<l id="1124">Il en fait les desseins, mais il ne les suit pas.</l>
+	<l id="1125">Nous préférons la mort au mal qui nous tourmente ;</l>
+	<l id="1126">Mais au point de nous prendre elle nous épouvante.</l>
+	<l id="1127">Tel armait contre soi son courage inhumain</l>
+	<l id="1128">De qui le fer enfin est tombé de la main ;</l>
+	<l id="1129">Le plus désespéré... Mais j'aperçois Filandre.</l>
+	<l id="1130">Sachons si ce rival n'en a pu rien apprendre.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1131">Dois-je espérer enfin quelques moments si bons ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1132">Avez-vous vu Thimante ? Après je vous réponds.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1133">Non depuis ce matin ; mais je crois que Céphise</l>
+	<l id="1134">Captive sa présence autant que sa franchise :</l>
+	<l id="1135" syll="6" part="i">Il ne la quitte point.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1135" syll="6" part="f">Que dit cet imposteur ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1136">En quoi, belle Nérée, ai-je paru menteur ?</l>
+	<l id="1137">Quelqu'un ignore-t-il qu'il aime cette belle,</l>
+	<l id="1138">Et vous a-t-il caché sa passion nouvelle ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1139">Tu nuis par intérêt à ce perfide amant.</l>
+	<l id="1140">Quel témoignage as-tu d'un si prompt changement ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1141">Si porter ses poulets est un mauvais office,</l>
+	<l id="1142" syll="6" part="i">Je lui nuis, je l'avoue.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1142" syll="6" part="f">Oh ! Le vain artifice !</l>
+	<l id="1143">On ne douterait plus de sa légèreté :</l>
+	<l id="1144">Mais fais nos yeux témoins de cette vérité.</l>
+	<l id="1145" syll="6" part="i">Les a-t-elle reçus ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1145" syll="6" part="f">Oui ; mais sa main superbe</l>
+	<l id="1146">Les rompit à mes yeux et les jeta sur l'herbe.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1147">Mais, rompus qu'ils étaient, tu les auras serrés.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1148">Le vent en dispersa les morceaux déchirés.</l>
+	<l id="1149">J'ai quitté cette ingrate, et conseillé Thimante</l>
+	<l id="1150">D'étouffer, pour son bien, sa passion naissante ;</l>
+	<l id="1151">Car je l'estime plus rival que malheureux.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1152">Ô conseil favorable ! Ô l'ami généreux !</l>
+	<l id="1153">Traître ! On verra Thimante ; et l'instant de ta perte</l>
+	<l id="1154">Suivra, s'il est vivant, ta fourbe découverte ;</l>
+	<l id="1155">Et si ton artifice a causé son trépas,</l>
+	<l id="1156">Tous les efforts humains ne te sauveraient pas.</l>
+	<l id="1157">On verra la fureur, si le soleil m'éclaire,</l>
+	<l id="1158">Par les mains de la soeur venger la mort du frère ;</l>
+	<l id="1159">Et, revivant cent fois, cent trépas différents</l>
+	<l id="1160">Immoleraient ta vie à ses mânes errants.</l>
+<stage type="toward">Elle dit à Théane.</stage>
+	<l id="1161">Pour obtenir de vous une injuste allégeance</l>
+	<l id="1162">Il attire Céphise à son intelligence :</l>
+	<l id="1163">Mais je perdrai le jour si mes serments sont vains</l>
+	<l id="1164">Et si la vérité ne confond leurs desseins.</l>
+	<l id="1165">Tu ris, tu parais froid après cette imposture,</l>
+	<l id="1166">Et tu ne rougis pas, horreur de la nature !</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Nérée, Théane, Filandre, Célidor.</head>
+<sp stage="toward" who="CÉLIDOR"><speaker>CÉLIDOR, à Nérée.</speaker>
+	<l id="1167">Quoi ! C'est par ces discours que vous traitez l'amour ?</l>
+	<l id="1168">Ce sont vos compliments, et les noms de maîtresses</l>
+	<l id="1169">Se peuvent accorder avecque ces caresses ?</l>
+	<l id="1170">Dieux ! Que peuvent prouver ces regards menaçants ?</l>
+	<l id="1171">Filandre n'est-il plus le charme de vos sens ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1172" syll="6" part="i">Ô fatale amertume !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1172" syll="6" part="f">Ingrat, quelle manie</l>
+	<l id="1173">Joint l'humeur de railler à ta faute infinie ?</l>
+	<l id="1174">Traître, superbe esprit, vain sujet de mes pleurs,</l>
+	<l id="1175">N'ajoute point la honte à tes autres douleurs.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1176">Mais vous, n'ajoutez point la feinte à votre offense ;</l>
+	<l id="1177">Suivez le changement où ce coeur se dispense ;</l>
+	<l id="1178">Confessez que mon frère a vos sens enchantés ;</l>
+	<l id="1179">Ne désavouez point ce que vous ressentez :</l>
+	<l id="1180">Vous n'obscurcirez point votre rare mérite,</l>
+	<l id="1181">Et le nombre aujourd'hui rend ce crime licite.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1182">Qui moi ! J'aime Filandre ? Il a la vanité</l>
+	<l id="1183">De prétendre du droit dessus ma liberté ?</l>
+	<l id="1184">Ses aimables regards ont mon âme embrasée ?</l>
+	<l id="1185">Aurais-je tant brûlé sans m'en être avisée ?</l>
+	<l id="1186">Ai-je poussé pour lui des soupirs amoureux ?</l>
+	<l id="1187">Que ma fortune est grande et mon destin heureux !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1188">Pour vous estimer tant, le sort ni la naissance</l>
+	<l id="1189">N'ont point en si haut lieu porté votre puissance ;</l>
+	<l id="1190">Je ne serais pas vain de votre affection,</l>
+	<l id="1191">Et ce n'est pas l'objet de mon ambition.</l>
+	<l id="1192">Croyez-vous au rapport de ce mélancolique,</l>
+	<l id="1193">Dont la jalouse humeur rend l'esprit frénétique ;</l>
+	<l id="1194">Qui croit que tout objet se rend à vos appas ;</l>
+	<l id="1195">Qui voit tout ce qu'il craint, et tout ce qui n'est pas ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1196">J'ai cru ce que j'ai dit, s'il est vrai que je veille ;</l>
+	<l id="1197">Et l'on dément en vain mon oeil et mon oreille.</l>
+	<l id="1198">Hier tu vis Céphise, et j'entendis ta voix :</l>
+	<l id="1199">De quoi lui parlais-tu sur le bord de ce bois ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1200">D'adoucir de sa soeur la rigueur inhumaine,</l>
+	<l id="1201">Et de rendre son coeur plus sensible à ma peine.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1202" syll="6" part="i">De cela seulement ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1202" syll="6" part="f">Puisque tu m'entendis,</l>
+	<l id="1203">Que me demandes-tu ? Tu sais ce que je dis.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1204">Que Nérée, imposteur, t'importunait de plaintes,</l>
+	<l id="1205">Mais que tu résistais à ses douces atteintes ;</l>
+	<l id="1206">Que tu plaignais son mal et ne l'allégeais pas,</l>
+	<l id="1207">Parce que tu languis pour de plus doux appas.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1208" syll="6" part="i">Ô le doux entretien !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1208" syll="6" part="f">Combien la jalousie</l>
+	<l id="1209">Cause d'illusions en notre fantaisie !</l>
+	<l id="1210">Ô_Dieux ! Comme l'amour trouble le jugement,</l>
+	<l id="1211">Et comme ce qu'on craint on le craint aisément !</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1212">Je conçois, malheureux, où tendait ta malice.</l>
+	<l id="1213">C'est trop ; n'ajoute point l'outrage à l'artifice :</l>
+	<l id="1214">Qu'un autre soit l'objet des fourbes que tu fais,</l>
+	<l id="1215">Et ne m'oblige pas aux extrêmes effets.</l>
+	<l id="1216">Ni raison d'amitié, ni respect de nature,</l>
+	<l id="1217">Ne me divertiraient de punir l'imposture ;</l>
+	<l id="1218">Nous ne pourrions sans bruit calmer nos différents ;</l>
+	<l id="1219">L'Amour n'entend raison d'amis ni de parents.</l>
+</sp>
+<sp stage="laugh" who="FILANDRE"><speaker>FILANDRE, en riant.</speaker>
+	<l id="1220">Si le jour te déplaît, et si tu hais ta vie,</l>
+	<l id="1221">Je pourrais là-dessus contenter ton envie.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1222">C'est trop délibérer, monstre indigne du jour.</l>
+<stage type="toward">À Nérée.</stage>
+	<l id="1223">Madame, que sa mort vous prouve mon amour.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1224">Arrêtez, Célidor ; dieux ! Quelle ardeur extrême</l>
+	<l id="1225">Vous fait tant oublier mon respect et vous-même ?</l>
+</sp>
+<sp stage="laugh" who="FILANDRE"><speaker>FILANDRE, en riant.</speaker>
+	<l id="1226">Modère un peu, mauvais, des transports si soudains.</l>
+	<l id="1227">Que tu t'emportes, frère, à d'étranges desseins !</l>
+	<l id="1228">Peins de ses premiers traits ce visage sévère ;</l>
+	<l id="1229">Épargne un peu mes jours ; ma mort te coûte un frère.</l>
+	<l id="1230">Ton courage est trop prompt, et ne peut m'affliger</l>
+	<l id="1231">De la perte du jour sans te désobliger.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1232">Que deux puissants respects, l'amour et la naissance</l>
+	<l id="1233">Te servent aujourd'hui d'une heureuse défense !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1234" syll="6" part="i">Il conserve mes jours !</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1234" syll="6" part="f">Avec ta lâcheté.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1235">Le plus généreux tremble en cette extrémité.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1236" syll="6" part="i">Ton exemple le prouve.</l>
+</sp>
+<sp stage="get" who="FILANDRE"><speaker>FILANDRE, tirant son épée.</speaker>
+	<l id="1236" syll="6" part="f">Enfin ton arrogance</l>
+	<l id="1237">Porte ta vaine humeur à trop d'extravagance :</l>
+	<l id="1238">Ton discours si superbe et si respectueux</l>
+	<l id="1239">Fait souffrir trop longtemps un coeur impétueux.</l>
+<stage type="steal/pull">Comme il se veulent battre, les deux soeurs leur ôtent leurs épées.</stage>
+	<l id="1240">Non, non, dispensez-nous de plus longues contraintes :</l>
+	<l id="1241">Un moment finira sa folie et vos craintes.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1242">Quoi, mon autorité s'exerce vainement !</l>
+	<l id="1243">Tout respect est banni de l'esprit d'un amant !</l>
+	<l id="1244" syll="6" part="i">Filandre, où songez-vous ?</l>
+</sp>
+<sp stage="wave/steal" who="CÉLIDOR"><speaker>CÉLIDOR, à Nérée, lui voulant ôter son épée.</speaker>
+	<l id="1244" syll="6" part="f">Souffrez, belle Nérée...</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1245">Non, calme les transports de ton âme altérée ;</l>
+	<l id="1246">Cesse d'aimer Céphise, ou respecte sa soeur</l>
+	<l id="1247">Qui peut de ses beautés te rendre possesseur.</l>
+<stage type="watch/estonish">Célidor la regarde tout interdit.</stage>
+	<l id="1248">La crainte de rougir du titre d'infidèle</l>
+	<l id="1249">T'empêche d'avouer que tu souffres pour elle :</l>
+	<l id="1250">Mais suis, perfide esprit, tes aveugles désirs ;</l>
+	<l id="1251">Que sa possession te comble de plaisirs ;</l>
+	<l id="1252">Je ne m'oppose point à ton ardeur nouvelle ;</l>
+	<l id="1253">J'offre de te servir auprès de cette belle,</l>
+	<l id="1254">Si ce charmant objet de ton affection</l>
+	<l id="1255">Ne partage avec toi ton inclination.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1256" syll="6" part="i">Ô sensible malheur !</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1256" syll="6" part="f">Insensible, inhumaine,</l>
+	<l id="1257">Si vous ne finissez, n'accroissez point ma peine.</l>
+	<l id="1258">Que les yeux de Céphise aient rien pu dessus moi !</l>
+	<l id="1259">Et que je les préfère aux astres que je vois !</l>
+	<l id="1260">Que ce coeur seulement pût rendre sa franchise</l>
+	<l id="1261">À des charmes plus forts que tous ceux de Céphise !</l>
+	<l id="1262">Ayez, belle Nérée, un meilleur sentiment</l>
+	<l id="1263">Et de votre mérite et de mon jugement.</l>
+	<l id="1264">Retirant de vos fers mon âme prisonnière,</l>
+	<l id="1265">Et perdant mon amour, je perdrai la lumière,</l>
+	<l id="1266">Quelle animosité fatale à mon repos</l>
+	<l id="1267">Vous a fait pour ma perte entendre ce propos ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1268">Adieu, réprime un peu ton insolente envie,</l>
+	<l id="1269">Et crois que ces beautés ont conservé ta vie.</l>
+</sp>
+<sp stage="pull" who="NÉRÉE"><speaker>NÉRÉE, le retenant.</speaker>
+	<l id="1270">Tu rendras, lâche auteur de mes tristes soucis,</l>
+	<l id="1271">Par ta confession mes soupçons éclaircis.</l>
+	<l id="1272">Tu tâches de sauver ta honte par ta fuite,</l>
+	<l id="1273">Pour tramer à ta fourbe une fatale suite ;</l>
+	<l id="1274">Mais je puis, et je veux, en cette occasion,</l>
+	<l id="1275">Tirer notre repos de ta confession.</l>
+	<l id="1276">Avec combien d'adresse et combien d'artifice</l>
+	<l id="1277">M'as-tu rendu suspect son fidèle service !</l>
+	<l id="1278">Il avait, disais-tu, rompu ses premiers noeuds,</l>
+	<l id="1279">Et Céphise, à t'ouïr, possédait tous ses voeux ;</l>
+	<l id="1280">Tu m'as de leur amour dépeint la violence,</l>
+	<l id="1281">Et cette trahison paraît en ton silence.</l>
+	<l id="1282">Où tend cette imposture, et quelle intention</l>
+	<l id="1283">Oppose tes efforts à notre affection ?</l>
+	<l id="1284" syll="6" part="i">Tu ne me réponds rien ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1284" syll="6" part="f">Ô malice infinie !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1285">Dieux ! Quelle extravagance égale sa manie !</l>
+	<l id="1286">Que des plus sains esprits l'amour trouble les sens !</l>
+	<l id="1287">Ce mal est-il commun aux ardeurs que je sens ?</l>
+	<l id="1288">Et, sans m'apercevoir d'une égale folie,</l>
+	<l id="1289">Ne la puis-je éviter dans le noeud qui me lie ?</l>
+	<l id="1290">Me peut-on accuser de ces honteux accès</l>
+	<l id="1291">Que l'amour violent produit en son excès ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1292">C'est trop ; n'ajoute point, lâche, traître, parjure,</l>
+	<l id="1293">Le mépris à la fourbe et l'outrage à l'injure.</l>
+	<l id="1294">Hier que me dis-tu ? Qu'entendis-je en ce bois ?</l>
+	<l id="1295">Peux-tu par tes discours désavouer ta voix ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1296">Adieu, dispense-moi d'ouïr tes rêveries,</l>
+	<l id="1297">Et je t'obligerai de quoi que tu me pries.</l>
+	<l id="1298">Ton discours d'un grand trouble est un signe apparent ;</l>
+	<l id="1299">Le lit t'est de besoin ; crois-moi, ton mal est grand.</l>
+<stage type="watch">Il s'en va en les regardant de côté.</stage>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1300">Tu ris, lâche imposteur ! Mais tu dois à ton frère</l>
+	<l id="1301">La modération de ma juste colère ;</l>
+	<l id="1302" syll="6" part="i">Et Thimante au besoin...</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1302" syll="6" part="f">Que mon bras à vos yeux</l>
+	<l id="1303">Immole à vos désirs cette horreur de ces lieux !</l>
+</sp>
+<sp stage="exit" who="FILANDRE"><speaker>FILANDRE, s'en allant.</speaker>
+	<l id="1304" syll="6" part="i">J'épargne ta folie ; adieu.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Nérée, Théane, Célidor.</head>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1304" syll="6" part="f">Eh ! Quelle adresse !</l>
+	<l id="1305">Il ruinait tes voeux et l'ardeur qui me presse :</l>
+	<l id="1306">Tu partages les feux que mon âme ressent,</l>
+	<l id="1307">J'avais en Célidor un esclave innocent.</l>
+	<l id="1308">Que je suis obligée à sa lâche imposture,</l>
+	<l id="1309">Qui rend à mes travaux leur fruit avec usure !</l>
+	<l id="1310">En mon contentement sois aussi satisfait,</l>
+	<l id="1311">Et ne me venge point du plaisir qu'il m'a fait.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1312">Traitez comme il vous plaît son offense infinie ;</l>
+	<l id="1313">Vous étant découverte, elle est assez punie.</l>
+	<l id="1314">Votre commandement lui conserve le jour,</l>
+	<l id="1315">Et j'aurai seulement des sentiments d'amour.</l>
+	<l id="1316">Bannissez tout soupçon, et croyez que Céphise</l>
+	<l id="1317">Se vanterait à tort du plaisir de ma prise :</l>
+	<l id="1318">Je ne méprise point ses rares qualités,</l>
+	<l id="1319">Mais vos charmes plus doux ont mes yeux enchantés.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1320" syll="6" part="i">Elle s'en est vantée.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1320" syll="6" part="f">Ô vanité frivole !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1321">Et portait des cheveux qui prouvaient ses paroles.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1322" syll="2" part="i">Des miens ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1322" syll="4" part="m">Oui, je le crois.</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1322" syll="6" part="f">Perdez ce sentiment :</l>
+	<l id="1323">Elle vous rend suspect un trop fidèle amant.</l>
+	<l id="1324">On dit qu'elle m'estime à l'égal de sa vie ;</l>
+	<l id="1325">Mon frère contre vous seconde son envie,</l>
+	<l id="1326">Et croyait ruiner notre commun dessein :</l>
+	<l id="1327">Mais, grâces à l'Amour, leur artifice est vain,</l>
+	<l id="1328">Nos esprits réunis, leur fourbe découverte,</l>
+	<l id="1329">Et mes jours conservés au moment de ma perte.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1330">Je défie avec toi les traverses du sort :</l>
+	<l id="1331">Tout mon plaisir renaît si mon frère n'est mort ;</l>
+	<l id="1332">Mais déjà de son corps son âme est séparée,</l>
+	<l id="1333" syll="6" part="i">Si ma crainte n'est vaine...</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1333" syll="6" part="f">Espère mieux, Nérée ;</l>
+	<l id="1334">Par un commun repos nos voeux seront contents ;</l>
+	<l id="1335">Cherchons-le toutefois, ne perdons point de temps.</l>
+	<l id="1336" syll="6" part="i">Je suivrai ce sentier.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1336" syll="6" part="f">Et nous par cette route</l>
+	<l id="1337">Nous chercherons quelqu'un qui nous tire de doute.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Filandre, Céphise.</head>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1338">Notre commune ardeur éprouve en son excès</l>
+	<l id="1339">D'un malheureux dessein un malheureux succès ;</l>
+	<l id="1340">Et le ciel, qui sait tout, a fait voir sa puissance</l>
+	<l id="1341">À montrer l'imposture et prouver l'innocence.</l>
+	<l id="1342" syll="6" part="i">Notre artifice est vain.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1342" syll="6" part="f">Je n'espérais pas mieux :</l>
+	<l id="1343">Le malheur suit toujours un dessein vicieux.</l>
+	<l id="1344">Quelque adresse qu'on ait à causer ces ombrages,</l>
+	<l id="1345">La vérité paraît et force tous nuages.</l>
+	<l id="1346">Nous pouvions pour un temps désunir leurs esprits ;</l>
+	<l id="1347">Mais un parfait amour obtient toujours son prix.</l>
+	<l id="1348">Ainsi toute espérance enfin nous abandonne :</l>
+	<l id="1349">Souffrons pour leur repos puisque le ciel l'ordonne,</l>
+	<l id="1350">Et laissons prospérer un légitime amour.</l>
+	<l id="1351">Tu vas m'entretenir de la perte du jour ;</l>
+	<l id="1352">Et, si je connais bien ton débile courage,</l>
+	<l id="1353">Tu ne vas témoigner que désespoir, que rage,</l>
+	<l id="1354">Tu vas à ton secours implorer le trépas ;</l>
+	<l id="1355">Fais ce qui te plaira, mais je ne mourrai pas.</l>
+	<l id="1356">Ne crois pas qu'au besoin ma constance me laisse :</l>
+	<l id="1357">J'ai part en ton malheur, et non en ta faiblesse.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1358">Mon coeur serait plus fort en cette adversité</l>
+	<l id="1359">Si je croyais mes yeux dignes de la clarté ;</l>
+	<l id="1360">Mais je crois que le ciel ne me luit qu'avec peine ;</l>
+	<l id="1361">Je suis de tous objets et l'horreur et la haine,</l>
+	<l id="1362">Et je naquis pourvu de la nécessité</l>
+	<l id="1363">De déplaire à chacun et d'être rebuté.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1364">Ta seule modestie est si considérable</l>
+	<l id="1365">Qu'elle te rend partout un objet adorable.</l>
+	<l id="1366">Ne te rebute point des mépris de ma soeur :</l>
+	<l id="1367">Un qui ne te vaut pas en sera possesseur ;</l>
+	<l id="1368">Et je connais, Filandre, une fille aussi rare</l>
+	<l id="1369">Que tu n'éprouverais ni sourde ni barbare,</l>
+	<l id="1370">Et qui, plus favorable à tes moindres tourments,</l>
+	<l id="1371">Te donnerait de toi de meilleurs sentiments.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1372">Un avertissement de pareille importance,</l>
+	<l id="1373">Si tu me dis son nom, sera ta récompense ;</l>
+	<l id="1374">Je connais un captif qui recevrait tes fers,</l>
+	<l id="1375">Et qui les baiserait se les voyant offerts.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1376">Je n'ai pas ce malheur d'être tant méprisée ;</l>
+	<l id="1377">Et si je déplais fort, je suis fort abusée.</l>
+	<l id="1378">J'estime que mon sort n'est pas si rigoureux</l>
+	<l id="1379">Que je ne pusse plaire à quelque malheureux :</l>
+	<l id="1380">Quelques-uns par pitié partageraient mes peines.</l>
+	<l id="1381">Mais quel est ce captif qui baiserait mes chaînes ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1382">Que je sache premier quelle jeune beauté</l>
+	<l id="1383">S'offre de présider dessus ma liberté.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1384">Le faut-il avouer ? C'est Céphise elle-même.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1385">Et l'avouerai-je aussi ? C'est Filandre qui l'aime.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1386" syll="6" part="i">Ô sensible plaisir !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1386" syll="6" part="f">Ô bonheur de mes jours !</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1387">Voilà se déclarer sans beaucoup de discours.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1388">Je jure d'oublier une ingrate maîtresse</l>
+	<l id="1389">Si tu joins tes désirs à l'ardeur qui me presse ;</l>
+	<l id="1390">Je jure de tes yeux l'agréable douceur</l>
+	<l id="1391">Que tu n'as rien qui cède aux attraits de ta soeur.</l>
+	<l id="1392">Et mon aveuglement était incomparable</l>
+	<l id="1393">Quand je ne trouvais pas ce visage adorable.</l>
+</sp>
+<sp stage="aparte" who="CÉPHISE"><speaker>CÉPHISE, à part.</speaker>
+	<l id="1394">Voilà Filandre pris, et ce beau compliment</l>
+	<l id="1395">Est toujours le premier des discours d'un amant.</l>
+<stage type="toward">À Filandre.</stage>
+	<l id="1396">Mais si ma soeur encor t'offrait cette assistance</l>
+	<l id="1397">Que son ingrate humeur dénie à ta constance,</l>
+	<l id="1398">Rien ne serait égal à ses moindres appas ;</l>
+	<l id="1399">Et, quand je vaudrais plus, je ne la vaudrais pas.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1400">Il est vrai, cet objet du tourment que j'endure</l>
+	<l id="1401">Avec fort peu d'efforts rouvrirait ma blessure ;</l>
+	<l id="1402">Mais tes yeux, secourus de la force du temps,</l>
+	<l id="1403">L'ôteront de mon coeur, et nous serons contents.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1404">Ce discours me contente, et j'aime ta franchise,</l>
+	<l id="1405">Si nue et si conforme à l'humeur de Céphise ;</l>
+	<l id="1406">Et, sans t'entretenir de discours superflus,</l>
+	<l id="1407">Si Célidor m'aimait, je ne t'aimerais plus.</l>
+	<l id="1408">Mais, perdant tout espoir, suivons notre entreprise,</l>
+	<l id="1409">Et faisons par dessein ce qu'ils font par surprise :</l>
+	<l id="1410">Oublions au besoin ces objets inhumains,</l>
+	<l id="1411">Et pour nous entr'aimer blessons-nous de nos mains.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1412">Je suivrai quelque loi que ton vouloir m'ordonne.</l>
+	<l id="1413">Mais quelqu'un vient à nous... Que son geste m'étonne !</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Filandre, Céphise, Dorilas.</head>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="1414">Ô fatal accident ! Ô funeste rapport !</l>
+	<l id="1415">Ô malheureux effet de l'amour et du sort !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1416" syll="6" part="i">Qui t'afflige, berger ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="1416" syll="6" part="f">Ô malheur déplorable</l>
+	<l id="1417">D'un amant si parfait et si considérable !</l>
+	<l id="1418" syll="6" part="i">Où demeure Théane ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1418" syll="6" part="f">Assez proche d'ici.</l>
+	<l id="1419">Pourquoi ? Que lui veux-tu ? Tire-nous de souci.</l>
+	<l id="1420">Qui cause tes soupirs ? Et de quelle nouvelle</l>
+	<l id="1421">Vas-tu, triste berger, affliger cette belle ?</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="1422">Je lui vais annoncer l'effet de ses dédains,</l>
+	<l id="1423">Et la tragique fin du plus beau des humains.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1424" syll="6" part="i">Ô dieux ! Thimante est mort !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1424" syll="6" part="f">Ô perte indubitable !</l>
+</sp>
+<sp who="DORILAS"><speaker>DORILAS.</speaker>
+	<l id="1425">Oyez de son trépas le discours véritable.</l>
+	<l id="1426">Entre mille pensers qui me divertissaient</l>
+	<l id="1427">En ces lieux écartés où mes troupeaux paissaient,</l>
+	<l id="1428">Ses plaintes dans les cieux ingratement poussées</l>
+	<l id="1429">M'ont fait tourner la vue et cesser mes pensées :</l>
+	<l id="1430">J'ai vu ce jeune amant, les yeux mouillés de pleurs,</l>
+	<l id="1431">Fouler à pas pressés les herbes et les fleurs,</l>
+	<l id="1432">Et redoubler sa course à six pas de la Seine,</l>
+	<l id="1433">Près de s'ensevelir en son humide plaine :</l>
+	<l id="1434">Ses sens étaient saisis de l'horreur du trépas ;</l>
+	<l id="1435">Passant, il me sentait et ne me voyait pas ;</l>
+	<l id="1436">Il suivait sans égard sa course vagabonde,</l>
+	<l id="1437">Et ne discernait point ni la terre ni l'onde :</l>
+	<l id="1438">Enfin pour l'arrêter j'ai fait un prompt effort,</l>
+	<l id="1439">Et de quelques moments j'ai différé sa mort.</l>
+	<l id="1440">Théane vient et l'écoute sans se montrer.</l>
+	<l id="1441">Ce déplorable amant, la couleur altérée,</l>
+<stage type="low/lost">La voix basse et confuse, et la vue égarée :</stage>
+	<l id="1442">« Qui que tu sois, dit-il, dont le pieux dessein</l>
+	<l id="1443">Veut différer l'arrêt de mon sort inhumain,</l>
+	<l id="1444">Par le triste discours de ma peine infinie</l>
+	<l id="1445">Tu saurais que ton soin m'est une tyrannie,</l>
+	<l id="1446">Que mon trépas est juste, et que je suis l'amant</l>
+	<l id="1447">Qui sais le mieux aimer et le plus constamment.</l>
+	<l id="1448">Si tu ne connais pas l'ingrate qui me tue,</l>
+	<l id="1449">C'est Théane... » À ces mots sa voix interrompue</l>
+	<l id="1450">A laissé succéder des soupirs si pressants</l>
+	<l id="1451">Qu'ils auraient affligé les plus barbares sens.</l>
+	<l id="1452">Ce jeune amant enfin, en cette violence,</l>
+	<l id="1453">Par ce dernier discours a forcé son silence :</l>
+	<l id="1454">« Assure sa beauté de la fin de mon sort,</l>
+	<l id="1455">Et ne divertis point ce généreux effort.</l>
+	<l id="1456">Adieu ; mon bien dépend de ce dessein funeste. »</l>
+	<l id="1457">À ces mots il unit la vigueur qui lui reste,</l>
+	<l id="1458">Et par un tel effort se tire de mes bras,</l>
+	<l id="1459">Que ma force ne peut divertir son trépas :</l>
+	<l id="1460">Il s'est précipité ; l'onde s'en est émue,</l>
+	<l id="1461">Et son front s'est ridé d'horreur qu'elle a reçue.</l>
+	<l id="1462">Elle tient toutefois ce corps si précieux</l>
+	<l id="1463">Qu'elle ne permet plus qu'il paraisse à nos yeux ;</l>
+	<l id="1464">Et ses flots aplatis n'ont point laissé de marques</l>
+	<l id="1465">Sur l'endroit qui retient ce beau butin des Parques.</l>
+	<l id="1466">Je ne figure point mes pleurs ni mes soupirs ;</l>
+	<l id="1467">J'obéis seulement à ses derniers désirs ;</l>
+	<l id="1468">Et je vais annoncer à cette indigne amante</l>
+	<l id="1469">La déplorable fin du malheureux Thimante,</l>
+	<l id="1470">Le pitoyable objet d'un sort si rigoureux,</l>
+	<l id="1471">Le plus beau des mortels et le plus malheureux.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1472" syll="6" part="i">Ô sensible douleur !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1472" syll="6" part="f">Triste effet de mon crime !</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Filandre, Céphise, Dorilas, Théane.</head>
+<sp stage="anger" who="THÉANE"><speaker>THÉANE, avec colère.</speaker>
+	<l id="1473">Sus, de quoi s'armera mon dessein légitime ?</l>
+	<l id="1474">Aveugles ennemis d'une si belle amour,</l>
+	<l id="1475">Traîtres, Thimante est mort, et vous voyez le jour !</l>
+	<l id="1476">Suivons les mouvements de la haine enragée</l>
+	<l id="1477">Que produit en ce coeur mon amour outragée,</l>
+	<l id="1478">Et par un juste effort étouffons de ces mains</l>
+	<l id="1479">Ces monstres, le mépris et l'horreur des humains.</l>
+</sp>
+<sp stage="kneel" who="FILANDRE"><speaker>FILANDRE, à genoux.</speaker>
+	<l id="1480">Coupable de sa mort, auteur de l'artifice,</l>
+	<l id="1481">Je confesse le crime et j'attends le supplice.</l>
+	<l id="1482">Thimante était constant, j'ai trahi ses desseins ;</l>
+	<l id="1483">Céphise me servait, et nos efforts sont vains.</l>
+	<l id="1484">Un tragique succès a suivi l'imposture ;</l>
+	<l id="1485">Et ma mort doit finir enfin cette aventure.</l>
+	<l id="1486">Vous épargnez un traître, et vos bras engourdis</l>
+	<l id="1487">Sentent en ma faveur leurs efforts refroidis.</l>
+	<l id="1488">Le soleil en pâlit, et cet astre s'irrite</l>
+	<l id="1489">De quoi vous différez la mort que je mérite.</l>
+	<l id="1490">Privez-moi de sa vue, et vengez librement</l>
+	<l id="1491">Sur ce coupable corps le trépas d'un amant.</l>
+	<l id="1492">Je suis dû pour victime à son âme ravie,</l>
+	<l id="1493">Et sans aveu des dieux j'ai ce reste de vie.</l>
+	<l id="1494">Si l'on a vu mon crime, on murmure là-bas</l>
+	<l id="1495">De quoi le ciel diffère un si juste trépas.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1496">Si contre ma fureur tu restes sans défense,</l>
+	<l id="1497">Ton châtiment dépend de ton obéissance :</l>
+	<l id="1498">Pour recevoir ta peine obéis seulement,</l>
+	<l id="1499">Et consens à l'effet de mon commandement.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1500">Ne différez donc plus : quel arrêt équitable</l>
+	<l id="1501">Peut réparer le crime et punir le coupable,</l>
+	<l id="1502">Ce traître, le plus vil des amants de ces lieux,</l>
+	<l id="1503">Le mépris de la terre et la haine des cieux ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1504">Je ne trouverais pas en la fin de ta vie</l>
+	<l id="1505">Ni Thimante vengé, ni ma rage assouvie ?</l>
+	<l id="1506">Mais ton obéissance accomplit ce dessein</l>
+	<l id="1507">Si tu portes ce fer en ce barbare sein.</l>
+<stage type="show">Montrant sa gorge.</stage>
+	<l id="1508">Ici ma passion implore ton courage :</l>
+	<l id="1509">Force pour mon repos ce respect qui m'outrage ;</l>
+	<l id="1510">Joins au crime d'amour un crime de raison,</l>
+	<l id="1511">Et par ta cruauté lave ta trahison :</l>
+	<l id="1512">Répare, lâche auteur du deuil qui me tourmente,</l>
+	<l id="1513">Le trépas de l'amant par la mort de l'amante :</l>
+	<l id="1514">Que j'aie en son malheur une commune part ;</l>
+	<l id="1515">Ouvre ce coeur ingrat qui s'est ouvert trop tard ;</l>
+	<l id="1516">Je bénirai ta main, quelque effort qu'elle fasse :</l>
+	<l id="1517">Deviens un peu barbare, et ton crime s'efface.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1518">Vivez, vivez, Madame, et cherchez en ma mort</l>
+	<l id="1519">À vos cruels ennuis un peu de réconfort ;</l>
+	<l id="1520">Pour votre allégement rendez-la plus cruelle ;</l>
+	<l id="1521">Obtenez de là-haut qu'elle soit éternelle,</l>
+	<l id="1522">Que je souffre à vos yeux un trépas renaissant</l>
+	<l id="1523">Qui punisse le crime et venge l'innocent.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1524">Si Filandre a failli, j'aurai, comme en son crime,</l>
+	<l id="1525">En sa punition une part légitime.</l>
+	<l id="1526">N'épargnez point mes jours, et votre allégement</l>
+	<l id="1527">S'augmentera, ma soeur, par ce commun tourment.</l>
+	<l id="1528">J'ai feint en sa faveur votre amant infidèle ;</l>
+	<l id="1529">J'ai d'un couple aussi rare excité la querelle,</l>
+	<l id="1530">Peint Nérée inconstante aux yeux de Célidor,</l>
+	<l id="1531">Qui l'aime toutefois et qui la sert encor.</l>
+	<l id="1532">Ainsi le ciel est juste, et mon âme déçue</l>
+	<l id="1533">À d'un mauvais dessein une mauvaise issue.</l>
+	<l id="1534">Joignez votre colère à l'intérêt des dieux,</l>
+	<l id="1535">Qui ne peuvent souffrir ce forfait odieux.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1536">Cherchons sur le rivage, en ce malheur extrême,</l>
+	<l id="1537">Ce butin non du sort, mais butin de soi-même ;</l>
+	<l id="1538">Et si nous le trouvons, par ses propres efforts</l>
+	<l id="1539">Que chacun à l'envi s'immole à ce beau corps.</l>
+<stage type="toward">Au berger.</stage>
+	<l id="1540">Toi qui sais où la Seine a terminé sa vie,</l>
+	<l id="1541">Conduis-nous en ce lieu, contente mon envie ;</l>
+	<l id="1542">Et, voyant sur le sien nos corps privés du jour,</l>
+	<l id="1543">Viens apprendre chez nous ce triste effet d'amour.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1544">Puisque vous différez le trépas nécessaire</l>
+	<l id="1545">Qui répare mon crime et finit ma misère,</l>
+	<l id="1546">Je vais trouver sa soeur, dont le ressentiment</l>
+	<l id="1547">Pourra contre ma vie agir plus librement.</l>
+<stage type="exit">Théane, Céphise et Dorilas sortent.</stage>
+	<l id="1548">Les objets animés de cette plaine verte</l>
+	<l id="1549">N'ouïront plus de mon coeur plaindre la douce perte,</l>
+	<l id="1550">Et je n'entendrai plus les amoureux accents</l>
+	<l id="1551">Dont ces chantres de l'air me ravissent les sens.</l>
+	<l id="1552">Pour la dernière fois mon pied foule les herbes,</l>
+	<l id="1553">Mon oeil de ces rochers voit les têtes superbes,</l>
+	<l id="1554">Et mon oreille entend pour la dernière fois</l>
+	<l id="1555">Répondre à mes discours les échos de ces bois.</l>
+	<l id="1556" syll="6" part="i">Mais j'aperçois Nérée.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Nérée, Célidor, Filandre.</head>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1556" syll="6" part="f">Hélas ! Quelle apparence</l>
+	<l id="1557">Doit après tant de pas nourrir mon espérance ?</l>
+	<l id="1558" syll="6" part="i">Non, Thimante n'est plus.</l>
+</sp>
+<sp stage="kneel/give" who="FILANDRE"><speaker>FILANDRE, à genoux, lui donnant son épée.</speaker>
+	<l id="1558" syll="6" part="f">Coupable de sa mort,</l>
+	<l id="1559">Je fais vos belles mains maîtresses de mon sort.</l>
+	<l id="1560">Vous trouvez en ce corps, généreuse Nérée,</l>
+	<l id="1561">À son juste supplice une âme préparée.</l>
+	<l id="1562">Punissez de ce fer le pire des mortels</l>
+	<l id="1563">Qu'avec peine les dieux souffrent à leurs autels,</l>
+	<l id="1564">Le mépris et l'horreur du séjour où nous sommes,</l>
+	<l id="1565">Qui n'a reçu le jour que pour l'ôter aux hommes,</l>
+	<l id="1566">Qui, né pour traverser le repos des amants,</l>
+	<l id="1567">Fut si longtemps auteur de vos communs tourments.</l>
+	<l id="1568">Pour trouver du remède au mal qui me tourmente</l>
+	<l id="1569">J'ai trahi votre amour et l'amour de Thimante ;</l>
+	<l id="1570">Céphise me servait, je la servais aussi ;</l>
+	<l id="1571">Nous tentions tous moyens, et rien n'a réussi :</l>
+	<l id="1572">Nos efforts n'ont produit que la fin déplorable</l>
+	<l id="1573">D'un frère si parfait et si considérable.</l>
+	<l id="1574">Pourquoi différez-vous l'instant de mon trépas ?</l>
+	<l id="1575">Est-ce que ce discours ne vous afflige pas,</l>
+	<l id="1576">Ou que vous réservez à mon propre courage</l>
+	<l id="1577">La résolution de venger cet outrage ?</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1578" syll="6" part="i">Traître, mon frère est mort ?</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1578" syll="6" part="f">Thimante ne vit plus ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1579">Changez-en des effets ces discours superflus :</l>
+	<l id="1580">Ordonnez ou donnez un sévère supplice,</l>
+	<l id="1581">Et vos regrets enfin suivront votre justice.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1582">Cruel ! Quel accident a terminé ses jours ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1583">Un perfide élément en a borné le cours.</l>
+	<l id="1584">Un pasteur de ces lieux dans le sein de la Seine</l>
+	<l id="1585">L'a vu précipiter et sa vie et sa peine :</l>
+	<l id="1586">Théane fait chercher ce butin du trépas.</l>
+</sp>
+<sp stage="run/location" who="NÉRÉE"><speaker>NÉRÉE, courant vers la Seine.</speaker>
+	<l id="1587" syll="6" part="i">Ô ciel ! Ô dieux cruels !</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1587" syll="6" part="f">Courons, suivons ses pas.</l>
+<stage type="exit">Ils sortent.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V.</head>
+<sp stage="entrance" who="THIMANTE"><speaker>THIMANTE, sortant d'une île.</speaker>
+	<l id="1588">Destins, dont la rigueur s'obstine à me poursuivre,</l>
+	<l id="1589">Enfin permettez-moi de mourir ou de vivre ;</l>
+	<l id="1590">Que l'astre de mes jours force sa cruauté,</l>
+	<l id="1591">Ou que par sa rigueur le jour me soit ôté.</l>
+	<l id="1592">L'enfer, d'intelligence avec cette inhumaine</l>
+	<l id="1593">Qui nourrit si longtemps ma douleur et sa haine,</l>
+	<l id="1594">Comme elle, a rebuté le tribut de mes jours ;</l>
+	<l id="1595">La Mort comme l'Amour me manque de secours :</l>
+	<l id="1596">Je revois ces beautés dont la plaine est pourvue,</l>
+	<l id="1597">Et le soleil encor se présente à ma vue.</l>
+	<l id="1598">Qui t'a fait, inhumain et barbare élément,</l>
+	<l id="1599">Avec cette beauté compléter mon tourment ?</l>
+	<l id="1600">Vaste empire des vents, triste lieu des naufrages,</l>
+	<l id="1601">Tombeau de tant de morts, source de tant d'orages</l>
+	<l id="1602">Que ton sein à ce corps refuse un doux trépas,</l>
+	<l id="1603">Et que tu m'es cruel en ne me l'étant pas !</l>
+	<l id="1604">Ta rage si souvent a fait des homicides,</l>
+	<l id="1605">Et tu m'as rejeté de tes grottes humides !</l>
+	<l id="1606">Quel accident fatal a remis sur tes bords</l>
+	<l id="1607">Ce triste, languissant et déplorable corps ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Théane, Céphise, Dorilas, et Thimante, qui d'abord ne les voit point.</head>
+<sp stage="estonish" who="THÉANE"><speaker>THÉANE, étonnée.</speaker>
+	<l id="1608" syll="6" part="i">C'est lui, n'en doutons plus.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1608" syll="6" part="f">Ô destin favorable !</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1609">Mais quel doit être enfin l'espoir d'un misérable</l>
+	<l id="1610">Dont l'amour ni la mort, notre dernier recours,</l>
+	<l id="1611">Ne peuvent consentir d'accorder le secours ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1612">Allons, que son repos succède à sa tristesse.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1613">Laissons agir un peu la douleur qui le presse.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1614">Connaissant qu'elle sert de preuve à ton pouvoir,</l>
+	<l id="1615">Fille vaine et superbe, il t'est doux de la voir.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1616">Tente, amant déplorable, en ta douleur profonde,</l>
+	<l id="1617">Une seconde fois la cruauté de l'onde ;</l>
+	<l id="1618">Par un dernier effort suis ton premier dessein,</l>
+	<l id="1619">Et perds l'âme et la vie en son humide sein.</l>
+<stage type="run/location">Il court vers la Seine.</stage>
+</sp>
+<sp stage="pull/kiss" who="THÉANE"><speaker>THÉANE, le retenant et l'embrassant.</speaker>
+	<l id="1620">Mais sur ce sein plutôt reprends l'âme et la vie</l>
+	<l id="1621">Que par sa dureté cent fois il t'a ravie.</l>
+	<l id="1622">Ce moment doit finir les rigueurs de ton sort,</l>
+	<l id="1623">Et ce sein, cher Thimante, est ton onde et ta mort.</l>
+	<l id="1624">D'où vient qu'en ce bonheur, qu'enfin le ciel t'envoie,</l>
+	<l id="1625">Tu tardes si longtemps à témoigner ta joie ?</l>
+	<l id="1626">Est-ce un léger effet de bénir ton destin,</l>
+	<l id="1627">Et sens-tu tes désirs refroidis par leur fin ?</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1628">Pareil au criminel qui, la face bandée,</l>
+	<l id="1629">Lorsqu'il attend le coup voit sa mort retardée,</l>
+	<l id="1630">Son bandeau détaché, ses juges satisfaits,</l>
+	<l id="1631">Le peuple souriant et ses liens défaits :</l>
+	<l id="1632">Tel, les sens étonnés et le coeur tout de glace,</l>
+	<l id="1633">Je demeure confus au moment de ma grâce ;</l>
+	<l id="1634">Tel mon esprit balance entre l'étonnement</l>
+	<l id="1635">De l'appréhension d'un juste châtiment ;</l>
+	<l id="1636">Car avoir sous vos lois ma franchise asservie,</l>
+	<l id="1637">Cette offense me rend indigne de la vie.</l>
+	<l id="1638">Le ciel doit un supplice à mon ambition,</l>
+	<l id="1639">Et je cherche en la mort cette punition.</l>
+	<l id="1640">Ne me prescrivez point la douce loi de vivre,</l>
+	<l id="1641">Si vous savez l'ennui dont ma mort vous délivre.</l>
+	<l id="1642">Abandonnez, Madame, à l'horreur du trépas</l>
+	<l id="1643">Cet indigne butin de vos rares appas :</l>
+	<l id="1644">Vous me verrez égal à l'arrêt de ma peine ;</l>
+	<l id="1645">Je vous estimerai plus juste qu'inhumaine ;</l>
+	<l id="1646">Notre commun repos naîtra de mon malheur,</l>
+	<l id="1647">Et ma perte dépend d'un moment de douleur.</l>
+	<l id="1648">Cette onde a vu ma vie à sa rage exposée ;</l>
+	<l id="1649">Mais, pour vous imiter, elle l'a refusée,</l>
+	<l id="1650">Et je sollicitais à finir mon tourment</l>
+	<l id="1651">Pour la seconde fois ce superbe élément,</l>
+	<l id="1652">Quand cette belle main a ma course arrêtée,</l>
+	<l id="1653">Et différé la mort que j'ai trop méritée.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1654">J'ai douté si longtemps d'une si belle amour ;</l>
+	<l id="1655">Et dans ce déplaisir je conserve le jour !</l>
+	<l id="1656">Rare objet de mes voeux, vainqueur de ma franchise,</l>
+	<l id="1657">Charmant et digne auteur de ma première prise,</l>
+	<l id="1658">Invente pour ma faute un supplice inhumain ;</l>
+	<l id="1659">Ce coeur te plaira-t-il arraché de ta main ?</l>
+	<l id="1660">N'épargne point mes jours, et fends ce sein barbare</l>
+	<l id="1661">Qui rebutait l'honneur d'une amitié si rare ;</l>
+	<l id="1662">Laisse à ce coeur ingrat le dessein de mourir,</l>
+	<l id="1663">Et cherche à ses dépens le moyen de guérir.</l>
+	<l id="1664">Mais avant qu'en ma mort expier mon offense,</l>
+	<l id="1665">Sur ce sein, si tu veux, prends quelque récompense ;</l>
+	<l id="1666">Baise-le s'il te plaît et s'il a des attraits,</l>
+	<l id="1667">Et pour sa cruauté tu le fendras après.</l>
+</sp>
+<sp stage="kiss" who="THIMANTE"><speaker>THIMANTE, lui baisant le sein.</speaker>
+	<l id="1668">Mon coeur, ravi de joie au transport qui l'enflamme,</l>
+	<l id="1669">Perd son premier dessein : ne mourons point, Madame ;</l>
+	<l id="1670">Savourons à l'envi ce doux fruit de nos maux,</l>
+	<l id="1671">Et goûtons les plaisirs après tant de travaux.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1672">Ô rare effet d'amour, dont la rage assouvie</l>
+	<l id="1673">À tant de vaines morts fait succéder la vie !</l>
+	<l id="1674">Je pâlissais déjà de l'horreur du trépas ;</l>
+	<l id="1675">Autant que je pouvais j'en retirais mes pas,</l>
+	<l id="1676">Et je n'avais pas fait sans une peine extrême</l>
+	<l id="1677">Ce funeste dessein d'attenter sur moi-même :</l>
+	<l id="1678">Le jour m'était plus cher que cette vanité</l>
+	<l id="1679">De mourir ardemment pour l'avoir mérité.</l>
+	<l id="1680">Mais le ciel favorise une amitié si sainte ;</l>
+<stage type="toward">À Thimante.</stage>
+	<l id="1681">Il conserve Thimante, il dissipe ma crainte.</l>
+	<l id="1682">Ma soeur est innocente ; accuse de ton mal</l>
+	<l id="1683">Le dessein que j'avais de punir ton rival.</l>
+	<l id="1684">Je t'ai peint infidèle en faveur de Filandre,</l>
+	<l id="1685">Et j'ai feint qu'à mes yeux tu t'es laissé surprendre.</l>
+	<l id="1686">Mais j'ai contre ton bien tenu de vains propos :</l>
+	<l id="1687">La vérité plus forte établit ton repos ;</l>
+	<l id="1688">Et ce coeur repentant bénit sa destinée</l>
+	<l id="1689">Par qui pour ton bonheur ma fourbe est ruinée.</l>
+	<l id="1690">Par un trait de pitié rends mes désirs contents,</l>
+	<l id="1691">Et ne diffère point le pardon que j'attends.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1692">Hélas ! Qui n'obtiendrait ma pitié réclamée</l>
+	<l id="1693">En ce divin transport dont mon âme est charmée ?</l>
+	<l id="1694">Et, si l'espoir que j'ai ne me doit abuser,</l>
+	<l id="1695">Acquérant ce trésor que puis-je refuser ?</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1696">Cesse de témoigner un soupçon qui m'irrite,</l>
+	<l id="1697">Puisque ta défiance offense ton mérite.</l>
+	<l id="1698">Oui, je suis à Thimante, et les rigueurs du sort</l>
+	<l id="1699">Contre ce beau dessein feraient un vain effort.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Théane, Céphise, Dorilas, Thimante, Ménalque, Damète.</head>
+<sp stage="toward" who="MÉNALQUE"><speaker>MÉNALQUE, à Damète.</speaker>
+	<l id="1700">Attends, il n'est pas mort : le voilà si je veille ;</l>
+	<l id="1701">Son oeil revoit le jour. Ô céleste merveille !</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1702" syll="6" part="i">Que nous veulent ces gens ?</l>
+</sp>
+<sp stage="toward" who="MÉNALQUE"><speaker>MÉNALQUE, à Damète.</speaker>
+	<l id="1702" syll="6" part="f">Je l'ai vu toutefois</l>
+	<l id="1703">Étendu sur ces bords sans vigueur et sans voix :</l>
+	<l id="1704">Son oeil avait perdu la lumière du monde</l>
+	<l id="1705">Au point qu'en mon esquif je le tirai de l'onde ;</l>
+	<l id="1706">Et pour le transporter mes efforts étant vains,</l>
+	<l id="1707">Je suis allé chercher le secours de tes mains.</l>
+</sp>
+<sp who="DAMÈTE"><speaker>DAMÈTE.</speaker>
+	<l id="1708" syll="6" part="i">Ô dieux !</l>
+</sp>
+<sp stage="listen" who="THIMANTE"><speaker>THIMANTE, l'ayant entendu.</speaker>
+	<l id="1708" syll="6" part="f">Heureux vieillard à qui je dois la vie,</l>
+	<l id="1709">Que tes prospérités égalent ton envie !</l>
+	<l id="1710">M'as-tu mis sur ces bords, et lui disais-tu pas</l>
+	<l id="1711">Que ton heureux secours m'a sauvé du trépas ?</l>
+</sp>
+<sp who="MÉNALQUE"><speaker>MÉNALQUE.</speaker>
+	<l id="1712">Oui, je vous ai rendu l'assistance opportune</l>
+	<l id="1713">Que vous me devez moins qu'au soin de la fortune.</l>
+	<l id="1714">Assis dessus ces bords j'attendais les passants,</l>
+	<l id="1715">Quand un objet d'horreur a saisi tous mes sens :</l>
+	<l id="1716">J'ai vu sans mouvement, sans force et sans haleine</l>
+	<l id="1717">Ce corps flottant au gré du vent et de la Seine.</l>
+	<l id="1718">Ce spectacle d'horreur m'arrêtait sur ces bords,</l>
+	<l id="1719">Et mon étonnement retardait mes efforts ;</l>
+	<l id="1720">Mais enfin j'ai forcé la frayeur inutile</l>
+	<l id="1721">Qui laissait en ma main cette rame immobile :</l>
+	<l id="1722">J'ai d'un bras animé fait courir mon bateau</l>
+	<l id="1723">Et rendu ce beau corps aux rives de cette eau.</l>
+	<l id="1724">Je croyais votre vie hors d'espoir de remède.</l>
+</sp>
+<sp who="DAMÈTE"><speaker>DAMÈTE.</speaker>
+	<l id="1725">Et pour vous transporter il réclamait mon aide.</l>
+	<l id="1726">Mais mon secours est vain, grâce au secours divin ;</l>
+	<l id="1727">Je ne vous puis servir que d'un verre de vin.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1728">Favorable vieillard, par quel heureux service</l>
+	<l id="1729">Me pourrai-je venger de ce pieux office ?</l>
+	<l id="1730">Tu me fais possesseur de ces rares appas.</l>
+	<l id="1731">Mais Filandre fort triste adresse ici ses pas.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1732">Caché sous ces buissons vous entendrez ma plainte,</l>
+	<l id="1733">Et me verrez punir son crime par sa crainte.</l>
+	<l id="1734" syll="6" part="i">Ma soeur, secondez-moi.</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Filandre, Nérée, Célidor, Théane, Céphise, Thimante, caché.</head>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1734" syll="6" part="f">Ces beaux yeux pleins de pleurs</l>
+	<l id="1735">Montrent de son trépas les visibles douleurs :</l>
+	<l id="1736">Thimante ne vit plus, et sa perte assurée</l>
+	<l id="1737">Attire en son malheur et Théane et Nérée.</l>
+	<l id="1738">Sus, qui se vengera sur ce coupable corps</l>
+	<l id="1739">Qu'expose sans défense un sensible remords ?</l>
+	<l id="1740">Toutes deux ressentant la perte de Thimante,</l>
+	<l id="1741">Je ne puis éviter ou la soeur ou l'amante :</l>
+	<l id="1742">Ma mort est nécessaire, et ces retardements</l>
+	<l id="1743">Font un juste reproche à vos ressentiments.</l>
+</sp>
+<sp stage="get" who="THÉANE"><speaker>THÉANE, prenant l'épée de Célidor.</speaker>
+	<l id="1744">Traître, à ton châtiment cette main occupée,</l>
+	<l id="1745">Tient le fil de ta vie au bout de cette épée :</l>
+	<l id="1746">Ce coup te ravira la lumière des cieux,</l>
+	<l id="1747">Et ton sang rougira les herbes de ces lieux.</l>
+	<l id="1748">Va conter à Thimante, en ces campagnes sombres</l>
+	<l id="1749">Où son âme sans corps erre parmi les ombres,</l>
+	<l id="1750">Que j'ai grossi de pleurs son humide cercueil,</l>
+	<l id="1751">Et qu'il a dans ta mort des preuves de mon deuil :</l>
+	<l id="1752">Assure cet objet dont mon âme est ravie</l>
+	<l id="1753">Que de ma perte aussi ta mort sera suivie ;</l>
+	<l id="1754">Que là-bas ce vainqueur s'apprête à butiner</l>
+	<l id="1755">Les plus chères faveurs qu'un esprit peut donner.</l>
+	<l id="1756">Mais c'est trop différer un trépas légitime :</l>
+	<l id="1757">Il faut que par son coup ton sang lave ton crime.</l>
+</sp>
+<sp stage="steal" who="NÉRÉE"><speaker>NÉRÉE, voulant lui arracher l'épée.</speaker>
+	<l id="1758">Non, non, donnez ce fer, puisque la loi du sang</l>
+	<l id="1759">M'oblige davantage à lui percer le flanc :</l>
+	<l id="1760">Sa mort par votre main ne peut me satisfaire ;</l>
+	<l id="1761">Permettez à la soeur la vengeance du frère.</l>
+	<l id="1762">Ô refus importun qui prolonge son sort,</l>
+	<l id="1763">Et qui diffère tant le moment de sa mort !</l>
+	<l id="1764">Puisqu'on n'accorde point cette épée à mes larmes,</l>
+	<l id="1765">Faisons contre ses jours servir ses propres armes.</l>
+	<l id="1766" syll="6" part="i">Reçois, lâche imposteur...</l>
+</sp>
+<sp stage="show/threat" who="THIMANTE"><speaker>THIMANTE, sortant l'épée à la main.</speaker>
+	<l id="1766" syll="6" part="f">Votre ressentiment</l>
+	<l id="1767">N'emploiera pour sa mort que ce bras seulement.</l>
+	<l id="1768">Thimante m'était cher, j'entreprends sa vengeance ;</l>
+	<l id="1769">Ne me disputez point cette juste allégeance,</l>
+	<l id="1770">Et redoutez de voir dessus ces belles mains</l>
+	<l id="1771">Le sang que verserait cette horreur des humains.</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1772" syll="6" part="i">Ô merveille infinie !</l>
+</sp>
+<sp who="CÉLIDOR"><speaker>CÉLIDOR.</speaker>
+	<l id="1772" syll="6" part="f">Ô destin favorable !</l>
+</sp>
+<sp who="NÉRÉE"><speaker>NÉRÉE.</speaker>
+	<l id="1773">Est-il à mon plaisir un bonheur comparable ?</l>
+	<l id="1774" syll="6" part="i">Mon frère voit le jour !</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1774" syll="6" part="f">Voyant ce que je vois,</l>
+	<l id="1775">Dieux ! Me puis-je assurer moi-même d'être moi ?</l>
+	<l id="1776">Je consens toutefois à l'effet de sa haine,</l>
+	<l id="1777">Et ne désire point qu'on diffère ma peine.</l>
+	<l id="1778">J'ai causé ses tourments, j'ai trahi ses desseins,</l>
+	<l id="1779">Et la raison ne peut me sauver de ses mains.</l>
+</sp>
+<sp who="THIMANTE"><speaker>THIMANTE.</speaker>
+	<l id="1780">Puisqu'à mes longs ennuis tant de bonheur succède,</l>
+	<l id="1781">Que nos maux soient finis par un commun remède.</l>
+	<l id="1782">Me cédant ce trésor vous réparez assez</l>
+	<l id="1783">Le sujet importun de mes malheurs passés ;</l>
+	<l id="1784">Et les crimes d'amour, après la repentance,</l>
+	<l id="1785">Ne sont ni reprochés ni punis sans offense.</l>
+	<l id="1786">Je vois cette beauté qui me tient sous ses lois</l>
+	<l id="1787">Disposée à donner ce pardon de sa voix.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1788">Je hais la trahison ; mais, quoi que je propose,</l>
+	<l id="1789">Je la dois pardonner puisque j'en suis la cause.</l>
+	<l id="1790" syll="6" part="i">Filandre, vis content.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1790" syll="6" part="f">Puisque vous l'ordonnez,</l>
+	<l id="1791">Je conserve mes jours au malheur destinés ;</l>
+	<l id="1792">Je vivrai pour vous rendre un éternel hommage.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1793">Ô résolution d'un généreux courage !</l>
+	<l id="1794">Dans le dessein de vivre il semble autant souffrir</l>
+	<l id="1795">Qu'un autre souffrirait au dessein de mourir.</l>
+	<l id="1796">Filandre, est-il pas vrai ? Parle d'une âme saine,</l>
+	<l id="1797">Tu te vois délivré d'une sensible peine.</l>
+	<l id="1798">L'honneur te défendait d'éviter le trépas ;</l>
+	<l id="1799">Mais, si je te connais, il ne te plaisait pas.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1800">Puisqu'enfin ton amour est l'objet où j'aspire,</l>
+	<l id="1801">Je dois tout avouer et ne t'ose dédire.</l>
+	<l id="1802">Enfin que ferons-nous, puisque nos voeux sont vains ?</l>
+	<l id="1803">Désires-tu l'effet de nos communs destins ?</l>
+	<l id="1804">Un heureux mariage unira-t-il nos âmes ?</l>
+	<l id="1805">Et ressens-tu pour moi de mutuelles flammes ?</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1806">Éprouvons quelque temps nos désirs et nos voeux ;</l>
+	<l id="1807">Songeons-y mûrement ; nous sommes fins tous deux.</l>
+	<l id="1808">Ce serait un malheur fort plaisant que le nôtre,</l>
+	<l id="1809">Si, les ayant trompés, nous nous trompions l'un l'autre.</l>
+	<l id="1810">Songe plus d'une fois au dessein que tu fais :</l>
+	<l id="1811">Tes regards par les miens seront-ils satisfaits ?</l>
+	<l id="1812">Chéris-tu mon humeur, ma façon et ma taille ?</l>
+	<l id="1813">Ont-elles à tes yeux quelque chose qui vaille ?</l>
+	<l id="1814">Peux-tu sans violence offrir ta liberté</l>
+	<l id="1815">À celle en qui l'Amour mit si peu de beauté ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1816">Tes vertus sont un charme à qui les examine ;</l>
+	<l id="1817">Ta taille est d'importance, et ta grâce divine :</l>
+	<l id="1818">Tu feras aisément par tes perfections</l>
+	<l id="1819">De ma naissante ardeur de fortes passions.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1820">Je te plais, c'est beaucoup ; il n'est plus nécessaire</l>
+	<l id="1821">Que de considérer si tu me pourras plaire :</l>
+	<l id="1822">Le temps, et tes vertus achèveront ce point.</l>
+	<l id="1823">Je ris, mais sans dessein ; ne désespère point.</l>
+	<l id="1824">Si je m'y connais bien, je sens quelque étincelle</l>
+	<l id="1825">Capable de produire une ardeur mutuelle :</l>
+	<l id="1826" syll="6" part="i">Tu peux attendre un mois.</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1826" syll="6" part="f">J'en puis attendre deux.</l>
+</sp>
+<sp who="CÉPHISE"><speaker>CÉPHISE.</speaker>
+	<l id="1827" syll="6" part="i">Ce dessein te plaît-il ?</l>
+</sp>
+<sp who="FILANDRE"><speaker>FILANDRE.</speaker>
+	<l id="1827" syll="6" part="f">Je veux ce que tu veux.</l>
+</sp>
+<sp who="THÉANE"><speaker>THÉANE.</speaker>
+	<l id="1828">L'aimable passe-temps ! Sus, qu'une aise commune</l>
+	<l id="1829">Nous fasse en ce bonheur bénir notre fortune.</l>
+	<l id="1830">Toi, pieux messager, et toi de qui l'effort</l>
+	<l id="1831">A conservé Thimante et diverti ma mort,</l>
+	<l id="1832">Qu'après vos longs travaux le soin des destinées</l>
+	<l id="1833">Vous accorde la paix et de longues années.</l>
+	<l id="1834">Bénissez avec nous le démon des amants,</l>
+	<l id="1835">Qui satisfait nos voeux et finit nos tourments. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>

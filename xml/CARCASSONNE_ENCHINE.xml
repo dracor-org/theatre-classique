@@ -36,7 +36,7 @@
 			<printer id='PICHAT'>IMPRIMERIE GÉNÉRALE DE CHATILLON-SUR-SEINE. - A. PICHAT.</printer>
 		</docImprint>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="NELLY" sex="2" type="H" statut="" age="J" stat_amour='(néant)'>NELLY</role>.</castItem>
+		<castItem><role id="NELLY" sex="2" type="H" statut="bourgeois" age="J" stat_amour='(néant)'>NELLY</role>.</castItem>
 		<castItem><role id="MADEMOISELLE LAURE" sex="2" type="H" statut="gouvernante" age="A" stat_amour='(néant)'>MADEMOISELLE LAURE</role>, sa gouvernante.</castItem>
 		<castItem><role id="PAT-TCHOU-LI" sex="2" type="H" statut="bourgeois" age="J" stat_amour='(néant)'>PAT-TCHOU-LI</role>.</castItem>
 		<castItem><role id="KA-OUT-TCHOU" sex="2" type="H" statut="bourgeois" age="J" stat_amour='(néant)'>KA-OUT-TCHOU</role>.</castItem>
@@ -314,7 +314,7 @@
 </sp>
 <sp who="MADEMOISELLE LAURE"><speaker>MADEMOISELLE LAURE.</speaker>
 	<l id="101">Il suffit pour cela de se lever matin.</l>
-<stage type="">Les deux jeunes Chinoises sont entrées dans le cabinet, à gauche ; elles en ressortent, saluent avec l'index levé à la hauteur de la tête et s'en vont par la galerie.</stage>
+<stage type="entrance/exit/location">Les deux jeunes Chinoises sont entrées dans le cabinet, à gauche ; elles en ressortent, saluent avec l'index levé à la hauteur de la tête et s'en vont par la galerie.</stage>
 </sp>
 <sp stage="toward" who="MADEMOISELLE LAURE"><speaker>MADEMOISELLE LAURE, à Nelly.</speaker>
 	<l id="102">Hâtons-nous donc ; venez, ma chère demoiselle,</l>
@@ -323,7 +323,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Ka-out-tchou, puis Pat-tchou-li.</head>
-<sp who="KA-OUT-TCHOU"><speaker>KA-OUT-TCHOU, désignant le cabinet.</speaker>
+<sp stage="show" who="KA-OUT-TCHOU"><speaker>KA-OUT-TCHOU, désignant le cabinet.</speaker>
 	<l id="104">Tout ce qu'on dit ici s'entend fort bien de là ;</l>
 	<l id="105" syll="9" part="i">Il faut de la prudence, et beaucoup.</l>
 <stage type="watch/entrance">Apercevant Pat-tchou-li qui entre.</stage>
@@ -1030,7 +1030,7 @@
 	<l id="362">Tout ce qu'on a laissé... Vous avez éprouvé</l>
 	<l id="363" syll="6" part="i">Ce bonheur, n'est-ce pas ?</l>
 </sp>
-<sp who="NELLY"><speaker>NELLY, vaguement.</speaker>
+<sp stage="wave" who="NELLY"><speaker>NELLY, vaguement.</speaker>
 	<l id="363" syll="6" part="f">J'ai peut-être rêvé.</l>
 <stage type="sing">À ce moment, un choeur de jeunes filles se fait entendre au dehors ; Nelly et Mademoiselle Laure se lèvent.</stage>
 </sp>
@@ -1070,7 +1070,7 @@
 	<l id="380">Puis, avec les enfants de l'école voisine</l>
 	<l id="381">Nous avons complété le tableau de la Chine.</l>
 </sp>
-<sp who="NELLY"><speaker>NELLY, tendant les mains à Ka-out-tchou et à Pat-tchou-li.</speaker>
+<sp stage="touch" who="NELLY"><speaker>NELLY, tendant les mains à Ka-out-tchou et à Pat-tchou-li.</speaker>
 	<l id="382">Je vous en sais bon gré, car l'on a bien raison</l>
 	<l id="383">De ne jamais quitter le seuil de sa maison.</l>
 </sp>

@@ -38,7 +38,7 @@
 			<castItem><role id="MONSIEUR DURANT" sex="1" type="H" statut="bourgeois" age='A' stat_amour='néant'>MONSIEUR DURANT</role>, oncle de Dorval.</castItem> 
 			<castItem><role id="DORVAL" sex="1" type="H" statut="bourgeois" age='J' stat_amour='néant'>DORVAL</role>.</castItem>
 			<castItem><role id="LAFLEUR" sex="1" type="H" statut="domestique" age='A' stat_amour='néant'>LAFLEUR</role>, domestique de M. Durant.</castItem>
-			<castItem><role id="HORTENSE" sex="2" type="H" statut="" age='A' stat_amour='néant'>HORTENSE</role>.</castItem>
+			<castItem><role id="HORTENSE" sex="2" type="H" statut="bourgeois" age='A' stat_amour='néant'>HORTENSE</role>.</castItem>
 			<castItem><role id="LISETTE" sex="2" type="H" statut="suivante" age='A' stat_amour='néant'>LISETTE</role>, suivante d'Hortense.</castItem> 
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">La scène se passe à Paris.</set>
@@ -47,7 +47,7 @@
 <div1 type="acte" n="1"><head>L'AMOUR ET LE CÉLIBAT</head>
 <stage type="decor">Le théâtre représente un salon, dans lequel on voit de chaque côté l'entrée d'un appartement ; celui du côté droit de l'acteur est occupé par Hortense , et l'autre par Monsieur Durant et son neveu ; quelques fauteuils sont placés dans le salon.</stage>
 <div2 type="scene" n="1"><head>SCÈNE I. Monsieur Durant, Dorval, sortant de leur appartement.</head>
-<sp who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, tenant une lettre, ouverte à la main.</speaker>
+<sp stage="get" who="MONSIEUR DURANT"><speaker>MONSIEUR DURANT, tenant une lettre, ouverte à la main.</speaker>
 	<l id="1">Hé bien, mon cher Dorval, en faut-il davantage</l>
 	<l id="2">Pour vous faire à jamais haïr le mariage ;</l>
 	<l id="3">Enfin, vous le voyez, Damont par ses aveux</l>

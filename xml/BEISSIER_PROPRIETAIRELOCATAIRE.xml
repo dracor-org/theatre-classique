@@ -49,7 +49,7 @@
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. </head>
-<sp who="GUIGNOL"><speaker>GUIGNOL, entrant.</speaker>
+<sp stage="entrance" who="GUIGNOL"><speaker>GUIGNOL, entrant.</speaker>
 <p id="1">
 	<s id="1">Plus moyen de trouver un sou ! </s>
 	<s id="2">C'est fini. </s>
@@ -372,7 +372,7 @@
 	<s id="1">À l'assassin !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, les poursuivant et les frappant toujours.</speaker>
+<sp stage="follow/hit" who="GUIGNOL"><speaker>GUIGNOL, les poursuivant et les frappant toujours.</speaker>
 <p id="54">
 	<s id="1">Voulez-vous bien vous taire ! </s>
 	<s id="2">Vous allez ameuter le quartier.</s>
@@ -606,7 +606,7 @@
 	<s id="3">Au secours ! À moi !</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
+<sp stage="hit" who="GUIGNOL"><speaker>GUIGNOL, même jeu.</speaker>
 <p id="34">
 	<s id="1">Mais ne crie donc pas comme ça ! </s>
 	<s id="2">On croirait que je te fais du mal !</s>
@@ -686,12 +686,12 @@
 	<s id="1">Voici le fait...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, l'interrompant.</speaker>
+<sp stage="interrupt" who="GUIGNOL"><speaker>GUIGNOL, l'interrompant.</speaker>
 <p id="12">
 	<s id="1">Non, voici...</s>
 </p>
 </sp>
-<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, même jeu.</speaker>
+<sp stage="continue" who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, même jeu.</speaker>
 <p id="13">
 	<s id="1">Monsieur...</s>
 </p>
@@ -841,7 +841,7 @@
 	<s id="1">Allons, en route ! </s>
 </p>
 </sp>
-<sp who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, appelant.</speaker>
+<sp stage="call" who="LE PROPRIÉTAIRE"><speaker>LE PROPRIÉTAIRE, appelant.</speaker>
 <p id="40">
 	<s id="1">Gendarme !</s>
 </p>
@@ -1116,7 +1116,7 @@
 	<s id="1">Lui...</s>
 </p>
 </sp>
-<sp who="GUIGNOL"><speaker>GUIGNOL, désignant le propriétaire.</speaker>
+<sp stage="show" who="GUIGNOL"><speaker>GUIGNOL, désignant le propriétaire.</speaker>
 <p id="38">
 	<s id="1">Lui... </s>
 </p>

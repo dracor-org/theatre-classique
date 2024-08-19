@@ -48,12 +48,12 @@
 			<castItem><role id="FAUSSETTE" sex="2" type="H" statut="bourgeois" age='J' stat_amour=''>FAUSSETTE</role>, amie de Thyrcée. Mme. BRUNET.</castItem>
 			<castItem><role id="FISTON" sex="1" type="H" statut="bourgeois" age='A' stat_amour=''>FISTON</role>, époux de Thyrcée. M. FRÉDÉRICK.</castItem>
 			<castItem><role id="BEBÉE" sex="2" type="H" statut="bourgeois" age='A' stat_amour=''>BEBÉE</role>, première femme de Fiston. Mlle. JULIE.</castItem>
-			<castItem><role id="" sex="1" type="H" statut="" age='A' stat_amour=''>ALIX</role>, servante de Bebée. M. BRUNET.</castItem>
+			<castItem><role id="" sex="1" type="H" statut="servante" age='A' stat_amour=''>ALIX</role>, servante de Bebée. M. BRUNET.</castItem>
 			<castItem><role id="DEUX ENFANTS" sex="9" type="H" statut="bourgeois" age='E' stat_amour=''>DEUX ENFANTS</role>.</castItem>
-			<castItem><role id="CHOEURS DE PAYSANS, DE PAYSANNES" sex="9" type="H" statut="" age='A' stat_amour=''>CHOEURS DE PAYSANS, DE PAYSANNES</role>.</castItem> 
+			<castItem><role id="CHOEURS DE PAYSANS, DE PAYSANNES" sex="9" type="H" statut="paysan" age='A' stat_amour=''>CHOEURS DE PAYSANS, DE PAYSANNES</role>.</castItem> 
 			<castItem><role id="UN BEDEAU" sex="1" type="H" statut="bedeau" age='A' stat_amour=''>UN BEDEAU</role>.</castItem>
 			<castItem><role id="UN MARGUILLIER" sex="1" type="H" statut="marguillier" age='A' stat_amour=''>UN MARGUILLIER</role>.</castItem>
-			<castItem><role id="DEUX SERPENTS" sex="9" type="H" statut="" age='A' stat_amour=''>DEUX SERPENTS</role>.</castItem> 
+			<castItem><role id="DEUX SERPENTS" sex="9" type="Z" statut="serpent" age='A' stat_amour=''>DEUX SERPENTS</role>.</castItem> 
 			<castItem><role id="QUATRE CHANTRES" sex="1" type="H" statut="chanteur" age='A' stat_amour=''>QUATRE CHANTRES</role>.</castItem>
 			<castItem><role id="MÉNÉTRIERS" sex="1" type="H" statut="ménétrier" age='A' stat_amour=''>MÉNÉTRIERS</role>.</castItem>
 			<castItem><role id="ENFANTS DE CHOEUR" sex="1" type="H" statut="chanteur" age='E' stat_amour=''>SIX ENFANTS DE CHOEUR</role>.</castItem>
@@ -305,7 +305,7 @@
 	<l id="115">Maint'nant nous pouvons rire.</l>
 <stage type="music">Pendant tout ce morceau, les garçons ont marqué la mesure avec leur pieds.</stage>
 </sp>
-<sp who="THYRCÉE"><speaker>THYRCÉE, se levant précipitamment de son siège.</speaker>
+<sp stage="stand/hurry/furniture" who="THYRCÉE"><speaker>THYRCÉE, se levant précipitamment de son siège.</speaker>
 <stage type="title">AIR : des trembleurs.</stage>
 	<l id="116">Ah grands Dieux !... Est-il possible !</l>
 	<l id="117">Qu'il est grand ! Qu'il est terrible !</l>
@@ -444,7 +444,7 @@
 </p>
 </sp>
 </div2>
-<div2 stage="" type="scene" n="5"><head>SCÈNE V. Les mêmes, Bebée (déguisée en pelerine, et la tête cachée dans son capuchon.</head> 
+<div2 stage="costume" type="scene" n="5"><head>SCÈNE V. Les mêmes, Bebée (déguisée en pelerine, et la tête cachée dans son capuchon.</head> 
 <sp who="BEBÉE"><speaker>[BEBÉE].</speaker>
 <p id="1">
 	<s id="1">Monsieur le bailli, vous voyez une femme excédée de fatigue, et qui vient vous demander la permission de rester quelque-temps dans ce village, pour tâcher d'y gagner sa pauvre vie...</s>
@@ -477,7 +477,7 @@
 <p id="6">
 	<s id="1">C'est moi !... </s>
 </p>
-<stage type="">À Fiston.</stage>
+<stage type="toward">À Fiston.</stage>
 <p id="7">
 	<s id="1">Me reconnais-tu, traître.</s>
 </p>
@@ -702,7 +702,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="8"><head>SCÈNE VIII.</head>
-<sp who="BEBÉE"><speaker>BEBÉE, seule.</speaker>
+<sp stage="alone" who="BEBÉE"><speaker>BEBÉE, seule.</speaker>
 <stage type="title">même air.</stage>
 <stage type="title">Deuxième.</stage>
 	<l id="225">J'éclaterai donc à mon tour,</l>

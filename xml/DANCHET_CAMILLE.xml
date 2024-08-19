@@ -7,11 +7,11 @@
 			<author type="texte" ISNI="0000 0000 8127 2438">Antoine DANCHET (1671-1748)</author>
 			<author type="musique" ISNI="0000 0001 0916 0885">André CAMPRA (1660-1744)</author>
 		</titleStmt>
-		<publicationStmp>	
+		<publicationStmt>	
 			<editor>Texte établi par Paul FIEVRE, Novembre 2023</editor>
 			<publisher>publié par Paul FIEVRE, Décembre 2023</publisher>
 			<rights>Creative Commons BY-NC-SA</rights>
-		</publicationStmp>
+		</publicationStmt>
 		<SourceDesc>
 				<genre>Opéra</genre>	
 				<inspiration>histoire</inspiration>
@@ -110,7 +110,7 @@
 		<castList><head>ACTEURS CHANTANTS DE LA TRAGÉDIE.</head>
 			<castItem><role id="CAMILLE" sex="2" type="H" statut="prince" age="A" stat_amour='néant'>CAMILLE</role>, fille de Metabus Roi des Volfques, Mademoiselle Jouraet.</castItem>
 			<castItem><role id="ALMON" sex="1" type="H" statut="prince" age="A" stat_amour='néant'>ALMON</role>, Prince Volsque, autrefois Chef des Armées de Metabus, et Père de Camille, M. Thevenard.</castItem>
-			<castItem><role id="RUTILE" sex="1" type="H" statut="" age="A" stat_amour='néant'>RUTILE</role>, sujet fidèle de Metabus, M. Mantienne.</castItem>
+			<castItem><role id="RUTILE" sex="1" type="H" statut="aristocrate" age="A" stat_amour='néant'>RUTILE</role>, sujet fidèle de Metabus, M. Mantienne.</castItem>
 			<castItem><role id="AUFIDE" sex="1" type="H" statut="tyran" age="A" stat_amour='néant'>AUFIDE</role>, tyran des Volsques, M. Hardouin.</castItem>
 			<castItem><role id="CORITE" sex="1" type="H" statut="aristocrate" age="J" stat_amour='néant'>CORITE</role>, Fils d'Aufide, Amant de Camille. M. Cochereau.</castItem>
 			<castItem><role id="EGERINE" sex="2" type="H" statut="suivante" age="A" stat_amour='néant'>EGERINE</role>, suivante de Camille, Mlle Pasquier.</castItem>
@@ -193,7 +193,7 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 	<l id="41">C'est votre coeur que leurs yeux vous demandent.</l>
 <stage type="listen/music">On entend un bruit de Timbales et de Trompettes.</stage>
 </sp>
-<sp who="LA NYMPHE DE LA SEINE, FLORE, ZEPHIRE"><speaker>LA NYMPHE DE LA SEINE, FLORE ET ZEPHIRE.</speaker>
+<sp stage="together" who="LA NYMPHE DE LA SEINE, FLORE, ZEPHIRE"><speaker>LA NYMPHE DE LA SEINE, FLORE ET ZEPHIRE.</speaker>
 	<l id="42">Quels bruits font retentir les airs !</l>
 	<l id="43">Mars voudrait-il troubler nos paisibles concerts ?</l>
 <stage type="sing/entrance">Pendant que la Nymphe de la Seine, Flore et Zephire chantent le Trio, le Dieu Mars descend environné de drapeaux, de lauriers et de palmes.</stage>
@@ -244,7 +244,7 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 	<l id="70">Plaisirs, venez de toutes parts ,</l>
 	<l id="71">La Paix a banni les alarmes.</l>
 </sp>
-<sp who="LA NYMPHE DE LA SEINE, FLORE, LE CHOEUR DES PEUPLES"><speaker>LA NYMPHE DE LA SEINE, FLORE ET LE CHOEUR DES PEUPLES.</speaker>
+<sp stage="together" who="LA NYMPHE DE LA SEINE, FLORE, LE CHOEUR DES PEUPLES"><speaker>LA NYMPHE DE LA SEINE, FLORE ET LE CHOEUR DES PEUPLES.</speaker>
 	<l id="72">Formons les plus aimables Jeux,</l>
 	<l id="73">Trompettes, animez nos Fêtes,</l>
 	<l id="74">Joignez vos nobles sons à nos chants amoureux ;</l>
@@ -590,7 +590,7 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="ALMON"><speaker>ALMON, seul.</speaker>
+<sp stage="alone" who="ALMON"><speaker>ALMON, seul.</speaker>
 	<l id="285">Je l'attends, je connais sa flamme,</l>
 	<l id="286">De quels coups, juste ciel ! Je vais frapper son âme ?</l>
 	<l id="287">Sombres forêts , antres affreux,</l>
@@ -742,13 +742,13 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 	<l id="377">Sur ce tombeau sacré laissons couler nos pleurs.</l>
 <stage type="location">Tous les Conjurés viennent autour du tombeau rendre les honneurs funèbres et à la manière des anciens, jeter des fleurs sur l'urne qui conserve les cendres du Roi.</stage>
 </sp>
-<sp who="ALMON, RUTILE"><speaker>ALMON, RUTILE.</speaker>
+<sp stage="togather" who="ALMON, RUTILE"><speaker>ALMON, RUTILE.</speaker>
 	<l id="378">Mânes de notre auguste Maître,</l>
 	<l id="379">Ombre du plus grand des Héros,</l>
 	<l id="380">Puisse-tu dans ce lieu champêtre</l>
 	<l id="381">Jouir d'un éternel repos.</l>
 </sp>
-<sp who="ALMON, RUTILE, CAMILLE"><speaker>ALMON, RUTILE, CAMILLE.</speaker>
+<sp stage="together" who="ALMON, RUTILE, CAMILLE"><speaker>ALMON, RUTILE, CAMILLE.</speaker>
 	<l id="382">Tu vois nos fureurs légitimes,</l>
 	<l id="383">Goûte l'espoir d'être vengé,</l>
 	<l id="384">Le Ciel juste ennemi des crimes,</l>
@@ -894,7 +894,7 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 	<l id="470">Chantez, Peuples, rendez hommage</l>
 	<l id="471">À l'adorable objet qui me tient sous sa loi.</l>
 </sp>
-<sp who="AUFIDE, CORITE"><speaker>AUFIDE, CORITE.</speaker>
+<sp stage="together" who="AUFIDE, CORITE"><speaker>AUFIDE, CORITE.</speaker>
 	<l id="472">Chantez, publiez sa victoire,</l>
 	<l id="473">Tout cède à sa valeur, tout cède à ses appas,</l>
 	<l id="474">Les Amours unis à la gloire</l>
@@ -1115,7 +1115,7 @@ Seine, Choeurs de Peuples, Suite de Flore, Suite de Zephire;</head>
 <sp who="ALMON"><speaker>ALMON.</speaker>
 	<l id="589" syll="6" part="f">Que je suis agité !</l>
 </sp>
-<sp who="CAMILLE"><speaker>CAMILLE, à Almon.</speaker>
+<sp stage="toward" who="CAMILLE"><speaker>CAMILLE, à Almon.</speaker>
 	<l id="590">La résistance est inutile[.]</l>
 </sp>
 <sp who="ALMON"><speaker>ALMON.</speaker>

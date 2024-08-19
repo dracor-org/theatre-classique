@@ -34,9 +34,9 @@
 			<printer id='SCHILLER'>PARIS, Charles SCHILLER, Imprimeur breveté, 10, Faubourg Montmartre.</printer>
 	</docImprint>
 	<castList><head>PERSONNAGES.</head>
-		<castItem><role id='LA MARQUISE DE MONTRICHARD' sex="2" type="H" statut="marquise" age="A" stat_amour='néant'>LA MARQUISE DE MONTRICHARD</role>.</castItem>
+		<castItem><role id='LA MARQUISE DE MONTRICHARD' sex="2" type="H" statut="marquis" age="A" stat_amour='néant'>LA MARQUISE DE MONTRICHARD</role>.</castItem>
 		<castItem><role id='JULIE' sex="2" type="H" statut="aristocrate" age="J" stat_amour='Le Colonel'>JULIE</role>, sa fille.</castItem> 
-		<castItem><role id='MISS JACKSON' sex="2" type="H" statut="institutrice" age="A" stat_amour='néant'>MISS JACKSON</role>, institutrice de Julie.</castItem>
+		<castItem><role id='MISS JACKSON' sex="2" type="H" statut="instituteur" age="A" stat_amour='néant'>MISS JACKSON</role>, institutrice de Julie.</castItem>
 		<castItem><role id='LE COLONEL DE SAQUEVILLE' sex="1" type="H" statut="colonel" age="A" stat_amour='néant'>LE COLONEL DE SAQUEVILLE</role>.</castItem> 
 		<castItem><role id='MONSIEUR SÉVIN' sex="1" type="H" statut="bourgeois" age="A" stat_amour='néant'>MONSIEUR SÉVIN</role>.</castItem>  
 	</castList>
@@ -437,12 +437,12 @@
 	<s id="2">Nous ne sommes pas prêts de le revoir.</s>
 </p>
 </sp>
-<sp who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, regardant au dehors.</speaker>
+<sp stage="watch/location" who="MONSIEUR SÉVIN"><speaker>MONSIEUR SÉVIN, regardant au dehors.</speaker>
 <p id="64">
 	<s id="1">Voici le colonel !</s>
 </p>
 </sp>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, très troublée.</speaker>
+<sp stage="stress" who="LA MARQUISE"><speaker>LA MARQUISE, très troublée.</speaker>
 <p id="65">
 	<s id="1">Déjà ! </s>
 </p>
@@ -647,7 +647,7 @@
 	<s id="3">N'est-ce-pas que j'ai acquis bien du talent ?</s>
 </p>
 </sp>
-<sp who="LE COLONEL"><speaker>LE COLONEL, regardant la tapisserie.</speaker>
+<sp stage="watch" who="LE COLONEL"><speaker>LE COLONEL, regardant la tapisserie.</speaker>
 <p id="32">
 	<s id="1">Un verset du Coran... </s>
 	<s id="2">Mais qui vous a envoyé ce dessin ?</s>
@@ -935,7 +935,7 @@
 	<s id="1">O mattutini alberi...</s>
 </p>
  <stage type="exit/together/sing">Elle sort en chantant avec le colonel.</stage></sp>
-<sp who="MISS JACKSON"><speaker>MISS JACKSON, la suivant tout effarée.</speaker>
+<sp stage="estonish" who="MISS JACKSON"><speaker>MISS JACKSON, la suivant tout effarée.</speaker>
 <p id="11">
 	<s id="1">Miss Julia ! </s>
 	<s id="2">Miss Julia ! </s>
@@ -1162,7 +1162,7 @@
 	<s id="2">Lui !...</s>
 </p>
 </sp>
-<sp who="JULIE"><speaker>JULIE, riant.</speaker>
+<sp stage="laugh" who="JULIE"><speaker>JULIE, riant.</speaker>
 <p id="22">
 	<s id="1">Il ruisselait sur la grève comme un fleuve !</s>
 </p>
@@ -1953,7 +1953,7 @@
 </div2> 
 <div2 type="scene" n="11"><head>SCÈNE XI. Les mêmes, La Marquise.</head> 
 <stage type="entrance">Elle entre par le côté opposé à celui où est sortie Julie. Elle est coiffée en cheveux avec des rubans et porte une toilette élégante.</stage>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, à Sévin.</speaker>
+<sp stage="toward" who="LA MARQUISE"><speaker>LA MARQUISE, à Sévin.</speaker>
 <p id="1">
 	<s id="1">Mon cher monsieur Sévin, veuillez rejoindre le colonel et lui dire que je veux absolument lui parler avant son départ.</s>
 </p>
@@ -1977,7 +1977,8 @@
  </sp> 
  </div2> 
  <div2 type="scene" n="12"><head>SCÈNE XII.</head>
-<sp who="LA MARQUISE"><speaker>LA MARQUISE, seule; elle va à l'endroit où la fleur jetée par Julie est tombée, la ramasse et après un moment de silence :</speaker>  <p id="1">
+<sp stage="alone/location/location" who="LA MARQUISE"><speaker>LA MARQUISE, seule ; elle va à l'endroit où la fleur jetée par Julie est tombée, la ramasse et après un moment de silence :</speaker>
+<p id="1">
 	<s id="1">L'aime-t-elle ? </s>
 	<s id="2">Est-ce une simple gaieté de cette folle tête ?... </s>
 	<s id="3">Les jeunes filles sont si enfants !... </s>

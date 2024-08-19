@@ -6,12 +6,12 @@
 				<title>LA PETITE GLANEUSE, COMÉDIE.</title>
 				<author type="texte" ISNI="0000 0001 2145 0471">Arnaud BERQUIN (1747-1791)</author>
 			</titleStmt>
-			<publicationStmp>	
+			<publicationStmt>	
 				<editor>Texte établi par Paul Fièvre décembre 2021</editor>
 				<publisher>Publié par Paul FIEVRE octobre 2021</publisher>
 				<rights>Creative Commons BY-NC-SA</rights>
 				<idno>BERQUIN_PETITEGLANEUSE</idno>
-			</publicationStmp>
+			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
 				<inspiration>moeurs</inspiration>
@@ -48,7 +48,7 @@
 <body>
 <div1 type="acte" n="1"><head>LA PETITE GLANEUSE</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
-<sp who="ÉMILIE"><speaker>ÉMILIE, tenant des deux mains, parles anses, une corbeille pleine d'épis. Elle va s'asseoir auprès d'une gerbe.</speaker>
+<sp stage="carry/furniture/sit/location" who="ÉMILIE"><speaker>ÉMILIE, tenant des deux mains, par les anses, une corbeille pleine d'épis. Elle va s'asseoir auprès d'une gerbe.</speaker>
 <p id="1">
  	<s id="1">Allons, voilà qui n'est pas trop mal commencé. </s>
  	<s id="2">Quelle joie pour ma pauvre mère !</s>
@@ -74,7 +74,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Émilie, Hubert.</head>
-<sp who="HUBERT"><speaker>HUBERT, l'arrêtant par le bras. </speaker>
+<sp stage="stop" who="HUBERT"><speaker>HUBERT, l'arrêtant par le bras. </speaker>
 <p id="1">
  	<s id="1">Ah ! </s>
 	<s id="2">Petite voleuse, je vous y prends !</s>
@@ -396,7 +396,7 @@
 	<s id="3">Mais je te le garde, et tu n'y perdras rien.</s>
 </p>
 </sp>
-<sp who="MARCELLIN"><speaker>MARCELLIN, lui présentant encore la pièce. </speaker>
+<sp stage="show" who="MARCELLIN"><speaker>MARCELLIN, lui présentant encore la pièce. </speaker>
 <p id="21">
  	<s id="1">Reçois-la comme une médaille.</s>
 </p> 
@@ -940,7 +940,7 @@
 	<s id="1">C'est notre bon papa.</s>
 </p>
 </sp>
-<sp who="MARCELLIN"><speaker>MARCELLIN, à Émilie. </speaker>
+<sp stage="toward" who="MARCELLIN"><speaker>MARCELLIN, à Émilie. </speaker>
 <p id="2">
  	<s id="1">Oh ! </s>
 	<s id="2">C'est un bon père, je t'assure ; tu n'as rien à craindre. </s>
@@ -970,7 +970,7 @@
 	<s id="2">Il parle tout seul.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, qui l'a entendue. </speaker>
+<sp stage="listen" who="MONSIEUR DE BEAUVAL"><speaker>MONSIEUR DE BEAUVAL, qui l'a entendue. </speaker>
 <p id="4">
  	<s id="1">Non, ma chère fille. </s>
 	<s id="2">Si mes enfants en ont bien agi envers toi, ils n'ont rien fait que tu ne paraisses mériter.</s>

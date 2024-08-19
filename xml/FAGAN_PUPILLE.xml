@@ -43,7 +43,7 @@
 		<castItem><role id="JULIE" sex="2" type="H" statut='aristocrate' age='J' stat_amour=''>JULIE</role>.</castItem>
 		<castItem><role id="ORGON" sex="1" type="H" statut='aristocrate' age='A' stat_amour=''>ORGON</role>, ami d'Ariste.</castItem>
 		<castItem><role id="LE MARQUIS" sex="1" type="H" statut='marquis' age='J' stat_amour=''>LE MARQUIS</role>, neveu d'Orgon.</castItem>
-		<castItem><role id="LISETTE" sex="2" type="H" statut='suivanyte' age='J' stat_amour=''>LISETTE</role>.</castItem>
+		<castItem><role id="LISETTE" sex="2" type="H" statut='suivante' age='J' stat_amour=''>LISETTE</role>.</castItem>
 	</castList>
 	<set location='France' country='France' periode='XVIIIème' gps="">La Scène est dans l'appartement d'Ariste.</set>
 </front>
@@ -220,7 +220,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Le Marquis, qui s'était caché ; Ariste, Orgon.</head>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, se jettant entre Orgon et Ariste</speaker>
+<sp stage="pull" who="LE MARQUIS"><speaker>LE MARQUIS, se jetant entre Orgon et Ariste.</speaker>
 <p id="1">
 	<s id="1">Oui, Monsieur, je viens vous avouer, et vous expliquer ce que mon Oncle ne vous dit que confusément. Il est vrai que Julie...</s>
 </p>
@@ -595,7 +595,7 @@
 	<s id="2">Le fâcheux contre-temps !</s>
 </p>
 </sp>
-<sp who="LE MARQUIS"><speaker>LE MARQUIS, à Julie.</speaker>
+<sp stage="toward" who="LE MARQUIS"><speaker>LE MARQUIS, à Julie.</speaker>
 <p id="4">
 	<s id="1">Je vous trouve donc, divine personne !</s>
 </p>
@@ -1506,7 +1506,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="17"><head>SCÈNE XVII.</head>
-<sp who="ARISTE"><speaker>ARISTE, seule.</speaker>
+<sp stage="alone" who="ARISTE"><speaker>ARISTE, seule.</speaker>
 <p id="1">
 	<s id="1">Non, à rappeler de sang froid ce qui s'est passé : son intention n'était pas d'écrire à Valère. </s>
 	<s id="2">Mais quelle conséquence en tirer ? </s>
@@ -1872,7 +1872,7 @@
 	<s id="1">Ni moi.</s>
 </p>
 </sp>
-<sp who="ARISTE"><speaker>ARISTE, après avoir hésité.</speaker>
+<sp stage="hesitate" who="ARISTE"><speaker>ARISTE, après avoir hésité.</speaker>
 <p id="32">
 	<s id="1">Ni moi.</s>
 </p>
@@ -1979,7 +1979,7 @@
 	<s id="2">Est-ce qu'il perd l'esprit ?</s>
 </p>
 </sp>
-<sp who="ORGON"><speaker>ORGON, continuant.</speaker>
+<sp stage="continue" who="ORGON"><speaker>ORGON, continuant.</speaker>
 <p id="17">
 	<s id="1">Il était, dis-je, peu naturel qu'un homme septuagénaire regardât ces attraits comme un bien qui pût lui devenir propre : mais de même qu'Éson fut rajeuni par les charmes de Médée, vos charmes enchanteurs....</s>
 </p>

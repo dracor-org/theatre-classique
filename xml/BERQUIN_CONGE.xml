@@ -6,12 +6,12 @@
 				<title>LE CONGÉ, COMÉDIE.</title>
 				<author type="texte" ISNI="0000 0001 2145 0471">Arnaud BERQUIN (1747-1791)</author>
 			</titleStmt>
-			<publicationStmp>	
+			<publicationStmt>	
 				<editor>Texte établi par Paul Fièvre octobre 2021</editor>
 				<publisher>Publié par Paul FIEVRE novembre 2021</publisher>
 				<rights>Creative Commons BY-NC-SA</rights>
 				<idno>BERQUIN_DESERTEUR</idno>
-			</publicationStmp>
+			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
 				<inspiration>moeurs</inspiration>
@@ -51,7 +51,7 @@
 <body>
 <div1 type="acte" n="1"><head>LE CONGÉ</head>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Didier, Eugénie.</head>
-<stage type="">Eugénie est assise sur un tronc d'arbre renversé. Elle épluche des fraises qu'elle a sur ses genoux, dans le creux de son chapeau de paille. Didier lui en porte dans le sien. Les fraises sont proprement arrangées dans les deux chapeaux, sur une couche de feuilles de vigne.</stage>
+<stage type="narration">Eugénie est assise sur un tronc d'arbre renversé. Elle épluche des fraises qu'elle a sur ses genoux, dans le creux de son chapeau de paille. Didier lui en porte dans le sien. Les fraises sont proprement arrangées dans les deux chapeaux, sur une couche de feuilles de vigne.</stage>
 <sp who="DIDIER"><speaker>DIDIER.</speaker>
 <p id="1">
 	<s id="1">Tiens, ma soeur, j'espère que nous en aurons une jolie provision.</s>
@@ -1313,7 +1313,7 @@
 	<s id="3">Il faut qu'il se soit trompé. </s>
 	<s id="4">Courons après lui.</s>
 </p> 
-<stage type="">Il se met à courir en criant. </stage>
+<stage type="run/shout">Il se met à courir en criant. </stage>
 <p id="6">
 	<s id="1">Monsieur l'officier ! </s>
 	<s id="2">Monsieur l'officier !</s>
@@ -1474,7 +1474,7 @@
 	<s id="1">Vous allez voir.</s>
 </p>
 </sp>
-<sp who="LES ENFANTS"><speaker>LES ENFANTS, se souriant les uns aux autres. </speaker>
+<sp stage="smile" who="LES ENFANTS"><speaker>LES ENFANTS, se souriant les uns aux autres. </speaker>
 <p id="27">
 	<s id="1">Une chanson ! </s>
 	<s id="2">Une chanson ! </s>
@@ -1500,7 +1500,7 @@
 	<s id="2">Il n'y a que cela dont je puisse me réjouir.</s>
 </p>
 </sp>
-<sp who="MONSIEUR DE GERVILLE"><speaker>MONSIEUR DE GERVILLE, reprend la lettre. </speaker>
+<sp stage="get" who="MONSIEUR DE GERVILLE"><speaker>MONSIEUR DE GERVILLE, reprend la lettre. </speaker>
 <p id="31">
 	<s id="1">Laissez-moi la lire tout entière.</s>
 </p>
@@ -1553,7 +1553,7 @@
 	<s id="1">Oui, oui ; lis toi-même.</s>
 </p> 
 </sp>
-<sp who="MADAME DE GERVILLE"><speaker>MADAME DE GERVILLE, à demi évanouie. </speaker>
+<sp stage="happy" who="MADAME DE GERVILLE"><speaker>MADAME DE GERVILLE, à demi évanouie. </speaker>
 <p id="42">
 	<s id="1">Je suis toute tremblante. </s>
 	<s id="2">Je ne saurais.</s>

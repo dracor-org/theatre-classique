@@ -302,16 +302,16 @@
 		<castItem><role id="VALÉRIAN" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>VALÉRIAN</role>.</castItem>
 		<castItem><role id="L'ANGE" sex="1" type="D" statut='ange' age='A' stat_amour='néant'>L'ANGE</role>.</castItem>
 		<castItem><role id="TIBURCE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>TIBURCE</role>.</castItem>
-		<castItem><role id="ALMACHIE" sex="1" type="H" statut='' age='A' stat_amour='néant'>ALMACHIE</role>.</castItem>
-		<castItem><role id="MOUSTAROT" sex="1" type="H" statut='' age='A' stat_amour='néant'>MOUSTAROT</role>.</castItem>
-		<castItem><role id="LE CHOEUR" sex="1" type="H" statut='' age='A' stat_amour='néant'>LE CHOEUR</role>.</castItem>
+		<castItem><role id="ALMACHIE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>ALMACHIE</role>.</castItem>
+		<castItem><role id="MOUSTAROT" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>MOUSTAROT</role>.</castItem>
+		<castItem><role id="LE CHOEUR" sex="1" type="H" statut='choeur' age='A' stat_amour='néant'>LE CHOEUR</role>.</castItem>
 	</castList>
 	<set location="Rome" country="Italie" periode="IIème" gps="41.902783, 12.496365"></set>
 </front>
 <body>
 <div1 type="acte" n="1"><head>ACTE I</head>
 <div2 type="scene" n="1"><head></head>
-<sp who="PATRICE"><speaker>PATRICE, commence.</speaker>
+<sp stage="explicit" who="PATRICE"><speaker>PATRICE, commence.</speaker>
 <stage type="explicit">Comparaison du Soleil rapportée à la grâce divine, laquelle produit des vertueux effets en l'âme où elle est versée comme le Soleil fait éclore maintes belles fleurs, la part où il darde mieux, et plus souvent ses rayons.</stage>
 	<l id="1">Comme quand le flambeau du monde vide-épars,</l>
 	<l id="2">Éparpille en courant ses rays de toutes parts</l>
@@ -1864,7 +1864,7 @@
 	<l id="1149">Que vous l'entretiendrez des divines merveilles,</l>
 	<l id="1150">Près de vous, attentif, j'ouvrirai mes oreilles.</l>
 </sp>
-<sp who="TIBURCE"><speaker>TIBURCE, retiré un peu à part.</speaker>
+<sp stage="location/aparte" who="TIBURCE"><speaker>TIBURCE, retiré un peu à part.</speaker>
 <stage type="explicit">Le désir n'est jamais assez tôt assouvi.</stage>
 	<l id="1151">Tant plus profondément qu'un désir ronge-coeur</l>
 	<l id="1152">Rampe bourreau cruel, dedans l'intérieur,</l>
@@ -2358,13 +2358,13 @@
 	<l id="1491">Dites-vous ? Effrontés : Ah ! C'est donc ainsi</l>
 	<l id="1492">Que vous me redoutez. Oy ! Quels gens sont-ce ci ?</l>
 </sp>
-<sp who="SAINTE CÉCILE, VALÉRIAN, TIBURCE"><speaker>SAINTE CECILE, VALÉRIAN ET TIBURCE, tous ensemble.</speaker>
+<sp stage="together" who="SAINTE CÉCILE, VALÉRIAN, TIBURCE"><speaker>SAINTE CECILE, VALÉRIAN ET TIBURCE, tous ensemble.</speaker>
 	<l id="1493" syll="6" part="i">Qui ne craignent que Dieu.</l>
 </sp>
 <sp who="ALMACHIE"><speaker>ALMACHIE.</speaker>
 	<l id="1493" syll="6" part="f">Vous parlez tous ensemble.</l>
 </sp>
-<sp who="SAINTE CÉCILE, VALÉRIAN, TIBURCE"><speaker>SAINTE CECILE, VALÉRIAN ET TIBURCE.</speaker>
+<sp stage="together" who="SAINTE CÉCILE, VALÉRIAN, TIBURCE"><speaker>SAINTE CECILE, VALÉRIAN ET TIBURCE.</speaker>
 	<l id="1494">« Tous trois nous le craignons, et sous lui chacun tremble.</l>
 </sp>
 <sp who="ALMACHIE"><speaker>ALMACHIE.</speaker>
@@ -3359,7 +3359,7 @@
 	<l id="2216">Ou, voulant la frapper elle le retenait,</l>
 	<l id="2217">J'entends quelque clameur sous des accents de plainte.</l>
 </sp>
-<sp who="MOUSTAROT"><speaker>MOUSTAROT, derrière le théâtre.</speaker>
+<sp stage="location" who="MOUSTAROT"><speaker>MOUSTAROT, derrière le théâtre.</speaker>
 	<l id="2218" syll="6" part="i">Encore ce coup-là.</l>
 </sp>
 <sp who="ALMACHIE"><speaker>ALMACHIE.</speaker>

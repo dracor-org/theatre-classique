@@ -7,10 +7,10 @@
 			<author type="texte" ISNI="0000 0001 2131 7988">Georges CLÉMENCEAU (1841-1929)</author>
 			<author type="musique" ISNI="0000 0001 2100 0243">Gabriel FAURÉ (1845-1924)</author>
 		</titleStmt>
-		<publicationStmp>
+		<publicationStmt>
 			<editor>Texte établi par Paul FIEVRE septembre 2023</editor>
 			<publisher>publié par Paul FIEVRE octobre 2023</publisher>
-		</publicationStmp>
+		</publicationStmt>
 		<SourceDesc>
 			<genre>Pièce</genre>
 			<inspiration>moeurs</inspiration>
@@ -40,13 +40,13 @@
 		<premiere date='1902-11-04' location="Théâtre de la Ranaissance">Représenté au Théâtre de la Renaissance (Théâtre Grévin), le 4 novembre 1901.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="TCHANG-I" sex="1" type="H" statut="" age='A' stat_amour='néant'>TCHANG-I</role>, mandarin (45 ans), Monsieur Gémier.</castItem>
+		<castItem><role id="TCHANG-I" sex="1" type="H" statut="aistocrate" age='A' stat_amour='néant'>TCHANG-I</role>, mandarin (45 ans), Monsieur Gémier.</castItem>
 		<castItem><role id="TOU-FOU" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>TOU-FOU</role>, mandarin (40 ans) Monsieur Beaulieu</castItem>
 		<castItem><role id="LI-KIANG" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>LI-KIANG</role>, mandarin (60. ans) Monsieur Mosnier.</castItem>
 		<castItem><role id="WEN-SIÉOU" sex="1" type="H" statut="aristocrate" age='J' stat_amour='néant'>WEN-SIÉOU</role>, fils de Tchang-I (12ans). Mlle Renée Leduc.</castItem>
 		<castItem><role id="TCHAO" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>TCHAO</role>, condamné Monsieur Jarrier.</castItem>
 		<castItem><role id="LI-LAO" sex="1" type="H" statut="messager" age='A' stat_amour='néant'>LI-LAO</role>, messager de l'Empereur. Monsieur Adès.</castItem>
-		<castItem><role id="SI-TCHUN" sex="Z" type="H" statut="aristocrate" age='A' stat_amour='néant'>SI-TCHUN</role>, femme de Tchang-I Mademoiselllee Andrée Mégard.</castItem>
+		<castItem><role id="SI-TCHUN" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>SI-TCHUN</role>, femme de Tchang-I Mademoiselllee Andrée Mégard.</castItem>
 		<castItem><role id="UN ARCHER" sex="1" type="H" statut="archer" age='A' stat_amour='néant'>UN ARCHER</role>.</castItem>
 		<castItem><role id="SOLDATS" sex="1" type="H" statut="soldat" age='A' stat_amour='néant'>SOLDATS</role>.</castItem>
 		<castItem><role id="SERVITEURS" sex="1" type="H" statut="serviteur" age='A' stat_amour='néant'>SERVITEURS</role>.</castItem>
@@ -424,7 +424,7 @@
 	<s id="2">J'évite scrupuleusement, sans doute, de m'écarter des maximes et des règles prescrites par les rites. Mais il y a dix ans, Seigneur Tchang-I, que vous n'avez contemplé mon visage, et je crains bien que mes attraits.</s>
 </p>
 </sp>
-<sp who="SI-TCHUN"><speaker>SI-TCHUN, après lui avoir passé la main sur le visage.</speaker>
+<sp stage="touch" who="SI-TCHUN"><speaker>SI-TCHUN, après lui avoir passé la main sur le visage.</speaker>
 <p id="6">
 	<s id="1">Non, non. </s>
 	<s id="2">Cette modestie vous convient et vous pare. </s>
@@ -929,7 +929,7 @@
 </div2>
 <div2 type="scene" n="6"><head>SCÈNE VI. Les Mêmes, Si-Tchûn, Li-Kiang, 
 Wen-Siéou.</head>
-<sp who="LI-KIANG"><speaker>LI-KIANG, entrant avec Si- Tchun et Wen-Siéou.</speaker>
+<sp stage="entrance" who="LI-KIANG"><speaker>LI-KIANG, entrant avec Si- Tchun et Wen-Siéou.</speaker>
 <p id="1">
 	<s id="1">Comme vous en avez exprimé le désir, Seigneur Tchang-I, nous vous amenons votre fils Wen-Siéou pour que vous puissiez juger de ses talents par vous-même.</s>
 </p>
@@ -1382,7 +1382,7 @@ les devoirs du fils envers ses parents ?</s>
 	<s id="1">Par la raison que je viens de recevoir cette lettre du chef des Eunuques_de_la_Cour m'informant que l'Empereur vous envoie un messager.</s>
 </p>
 </sp>
-<sp who="TCHANG-I"><speaker>TCHANG-I, agité.</speaker>
+<sp stage="agitated" who="TCHANG-I"><speaker>TCHANG-I, agité.</speaker>
 <p id="21">
 	<s id="1">Un messager ? </s>
 	<s id="2">À moi ? </s>
@@ -1749,7 +1749,7 @@ les devoirs du fils envers ses parents ?</s>
 	<s id="4">Aimons-nous.</s>
 </p>
 </sp>
-<sp who="TOU-FOU"><speaker>TOU-FOU, l'entraînant vers ta chambre nuptiale.</speaker>
+<sp stage="pull" who="TOU-FOU"><speaker>TOU-FOU, l'entraînant vers ta chambre nuptiale.</speaker>
 <p id="16">
 	<s id="1">Oui ! </s>
 	<s id="2">Oui ! </s>
@@ -1846,7 +1846,7 @@ les devoirs du fils envers ses parents ?</s>
 </sp>
 </div2>
 <div2 type="scene" n="13"><head>SCÈNE XIII. Tchang-I, Tchao.</head>
-<sp stage="" who="TCHAO"><speaker>TCHAO, délivré de sa cangue et vêtu de l'habit que Tchang-I, lui a donné, entrant à petits pas.</speaker>
+<sp stage="costume/entrance/slow" who="TCHAO"><speaker>TCHAO, délivré de sa cangue et vêtu de l'habit que Tchang-I, lui a donné, entrant à petits pas.</speaker>
 <p id="1">
 	<s id="1">Pas de bruit. </s>
 	<s id="2">Ils sont tous partis. </s>

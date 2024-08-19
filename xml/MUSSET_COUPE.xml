@@ -386,11 +386,11 @@
 			<castItem><role id="LE PALATIN STRANIO" sex="1" type="H" statut="palatin" age="A" stat_amour=''>LE PALATIN STRANIO</role>.</castItem>
 			<castItem><role id="LE CHEVALIER GUNTHER" sex="1" type="H" statut="chevalier" age="A" stat_amour=''>LE CHEVALIER GUNTHER</role>.</castItem>
 			<castItem><role id="UN LIEUTENANT DE FRANK" sex="1" type="H" statut="lieutenant" age="A" stat_amour=''>UN LIEUTENANT DE FRANK</role>.</castItem>
-			<castItem><role id="MONTAGNARDS CHEVALIERS" sex="1" type="H" statut="chavalier" age="A" stat_amour=''>MONTAGNARDS CHEVALIERS</role>.</castItem>[a-z
-			<castItem><role id="MOINES" sex="1" type="H" statut="moise" age="A" stat_amour=''>MOINES</role>.</castItem>
+			<castItem><role id="MONTAGNARDS CHEVALIERS" sex="1" type="H" statut="chevalier" age="A" stat_amour=''>MONTAGNARDS CHEVALIERS</role>.</castItem>
+			<castItem><role id="MOINES" sex="1" type="H" statut="moine" age="A" stat_amour=''>MOINES</role>.</castItem>
 			<castItem><role id="PEUPLE" sex="1" type="H" statut="peuple" age="A" stat_amour=''>PEUPLE</role>.</castItem>
-			<castItem><role id="MONNA BELCOLORE" sex="2" type="H" statut="" age="A" stat_amour=''>MONNA BELCOLORE</role>.</castItem>
-			<castItem><role id="DÉIDAMIA" sex="2" type="H" statut="" age="A" stat_amour=''>DÉIDAMIA</role>.</castItem>
+			<castItem><role id="MONNA BELCOLORE" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>MONNA BELCOLORE</role>.</castItem>
+			<castItem><role id="DÉIDAMIA" sex="2" type="H" statut="aristocrate" age="A" stat_amour=''>DÉIDAMIA</role>.</castItem>
 		</castList>
 		<set location="Paris" country="France" periode="XIXème" gps="48.856614, 2.352222">Costumes du temps de Louis XVI.</set>
 		<note>Texte issu de "OEuvres d'Alfred de Musset/ ornées de dessins de M. Bida gravés en taille-douce par les premiers artistes)", Paris Charpentier Editeur, 1867.- pp. 325-404</note>
@@ -1100,7 +1100,7 @@
 	<l id="481" syll="6" part="i">S'il est vrai qu'un beau soir...</l>
 <stage type="exit/run">Ils partent au galop.</stage>
 </sp>
-<sp who="BELCOLORE"><speaker>BELCOLORE, sur le balcon.</speaker>
+<sp stage="location" who="BELCOLORE"><speaker>BELCOLORE, sur le balcon.</speaker>
 	<l id="481" syll="6" part="f">Je l'aime cependant.</l>
 </sp>
 </div2>
@@ -1224,7 +1224,7 @@
 	<l id="563">Qui vous arrête ici ? Vous devez être las.</l>
 	<l id="564">La peine et le danger font les joyeux repas.</l>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR, dans la maison.</speaker>
+<sp stage="location" who="LE CHOEUR"><speaker>LE CHOEUR, dans la maison.</speaker>
 	<l id="565">Chantons, et faisons vacarme,</l>
 	<l id="566">Comme il convient à de dignes buveurs.</l>
 	<l id="567">Vivent ceux que le vin désarme !</l>
@@ -1237,7 +1237,7 @@
 	<l id="572">Des convives joyeux je vois flotter les ombres</l>
 	<l id="573">Derrière ces vitraux de feux resplendissants.</l>
 </sp>
-<sp who="LE CHOEUR"><speaker>LE CHOEUR, à la fenêtre.</speaker>
+<sp stage="location" who="LE CHOEUR"><speaker>LE CHOEUR, à la fenêtre.</speaker>
 	<l id="574">Frank, pourquoi tardes-tu ? - Gunther, si notre troupe</l>
 	<l id="575">Ne fait pas, sous ce toit, peur à vos cheveux blancs,</l>
 	<l id="576">Soyez le bienvenu pour vider une coupe.</l>
@@ -1319,7 +1319,7 @@
 	<l id="636">On parle d'un combat. - Quand se sont-ils battus ?</l>
 <stage type="narration">Frank, durant cette scène, doit déguiser sa voix. Je prie ceux qui la trouveraient invraisemblable d'aller au bal de l'Opéra. Un de mes amis fit déguiser sa servante au carnaval et la plaça dans son salon, au milieu d'un bal où personne n'était masqué. On ne lui avait mis qu'un petit masque sans barbe qui ne cachait point la bouche ; et cependant elle dansa presque deux heures entières, sans être reconnue, avec des jeunes gens à qui elle avait apporté deux cents verres d'eau dans sa vie.</stage>
 </sp>
-<sp who="FRANK"><speaker>FRANK, masqué.</speaker>
+<sp stage="hide" who="FRANK"><speaker>FRANK, masqué.</speaker>
 	<l id="637">À qui parlez-vous donc ? Il ne vous entend plus.</l>
 <stage type="show">Il leur montre la bière.</stage>
 </sp>

@@ -38,8 +38,8 @@
 		<premiere date="1737" location='chez la Marquise de Mauconseil'>Représenté pour le première fois en 1737 en société à Bagatelle chez la Marquise de Mauconseil.</premiere>
 	</performance>
 	<castList><head>PERSONNAGES</head>
-		<castItem><role id="LÉONTINE" sex="2" type="H" statut="" age="J" stat_amour=''>LÉONTINE</role>, jeune Veuve.</castItem>
-		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="" age="J" stat_amour=''>DOROTHÉE</role>, amie de Léontine. </castItem>
+		<castItem><role id="LÉONTINE" sex="2" type="H" statut="aristocrate" age="J" stat_amour=''>LÉONTINE</role>, jeune Veuve.</castItem>
+		<castItem><role id="DOROTHÉE" sex="2" type="H" statut="aristocrate" age="J" stat_amour=''>DOROTHÉE</role>, amie de Léontine. </castItem>
 		<castItem><role id="LE VICOMTE DE CLEMENGIS" sex="1" type="H" statut="vicomte" age="A" stat_amour=''>LE VICOMTE DE CLEMENGIS</role>.</castItem>
 		<castItem><role id="ROSALIE" sex="2" type="H" statut="femme de chambre" age="A" stat_amour=''>ROSALIE</role>, Femme de Chambre de Léontine.</castItem> 
 		<castItem><role id="PICARD" sex="1" type="H" statut="valet" age="A" stat_amour=''>PICARD</role>, Valet du Vicomte. </castItem>
@@ -1009,7 +1009,7 @@
 	<s id="4">Tenez, cette lettre vous en instruira mieux.</s>
 </p>	
 </sp>
-<sp who="LÉONTINE"><speaker>LÉONTINE, prenant la lettre avec beaucoup d'émotion.</speaker>
+<sp stage="stress" who="LÉONTINE"><speaker>LÉONTINE, prenant la lettre avec beaucoup d'émotion.</speaker>
 <p id="4">
 	<s id="1">Cette écriture est la même... </s>
 	<s id="2">Oui, c'est de lui, sans doute.</s>
@@ -1045,7 +1045,7 @@
 	<s id="1">Laissez-nous vous dis-je.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE porte la corbeille et le bouquet sur une table, et dit en fuyant.</speaker>
+<sp stage="carry/away" who="ROSALIE"><speaker>ROSALIE porte la corbeille et le bouquet sur une table, et dit en fuyant.</speaker>
 <p id="10">
 	<s id="1">Ma foi, si j'étais à votre place, il n'aurait pas fait tant de chemin  inutilement.</s>
 </p> 
@@ -1053,7 +1053,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="5"><head>SCÈNE V. Léontine, Le Vicomte.</head>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, après un moment de silence.</speaker>
+<sp stage="silence" who="LE VICOMTE"><speaker>LE VICOMTE, après un moment de silence.</speaker>
 <p id="1">
 	<s id="1">Eh bien, Madame, il est donc ici ?</s>
 </p>
@@ -1606,7 +1606,7 @@
 	<s id="2">Qu'il approche.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE, au Notaire.</speaker>
+<sp stage="toward" who="ROSALIE"><speaker>ROSALIE, au Notaire.</speaker>
 <p id="25">
 	<s id="1">Avancez donc.</s>
 </p>
@@ -1620,7 +1620,7 @@
 	<s id="4">Queu plaisir j'aurais à déchiffrer c'te chère écriture-là !</s>
 </p>	
 </sp>
-<sp who="DOROTHÉE"><speaker>DOROTHÉE, à Léontine.</speaker>
+<sp stage="toward" who="DOROTHÉE"><speaker>DOROTHÉE, à Léontine.</speaker>
 <p id="27">
 	<s id="1">Eh bien, vous l'entendez ; c'est pourtant Colin qui parle. </s>
 	<s id="2">Cela vaut, pour le moins, la réponse de Jeannette.</s>
@@ -1972,7 +1972,7 @@
 	<s id="1">Jeannette, vous pouvez commencer.</s>
 </p>
 </sp>
-<sp who="ROSALIE"><speaker>ROSALIE, à Picard.</speaker>
+<sp stage="toward" who="ROSALIE"><speaker>ROSALIE, à Picard.</speaker>
 <p id="16">
 	<s id="1">Mon_Dieu ! </s>
 	<s id="2">Comme le coeur me bat !</s>
@@ -2541,8 +2541,7 @@
 	<s id="1">Ô Ciel !</s>
 </p>	
 </sp>
-<sp who="LE VICOMTE"><speaker>LE VICOMTE, sortant de l'arbre avec précipitation ; 
-et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de surprise, tombe dans les bras de Dorothée.</speaker>
+<sp stage="entrance/hurry/kneel/suprise/fall" who="LE VICOMTE"><speaker>LE VICOMTE, sortant de l'arbre avec précipitation ;  et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de surprise, tombe dans les bras de Dorothée.</speaker>
 <p id="117">
 	<s id="1">Connaissez donc enfin celui qui vous adore : vous le voyez, Madame.</s>
 </p>
@@ -3040,7 +3039,7 @@ et courant se jeter aux pieds de Léontine, qui, dans le premier mouvement de su
 	<s id="2">Laissez-moi.</s>
 </p>
 </sp>
-<sp who="OPHÉMON"><speaker>OPHÉMON, à part, en s'en allant.</speaker>
+<sp stage="aparte/away" who="OPHÉMON"><speaker>OPHÉMON, à part, en s'en allant.</speaker>
 <p id="62">
 	<s id="1">Courons porter au Vicomte cette excellente nouvelle.</s>
 </p>

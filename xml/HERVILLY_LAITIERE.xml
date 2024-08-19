@@ -67,7 +67,7 @@
 	<s id="7">Maurice !</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, sans se retourner.</speaker>
+<sp stage="turn" who="MAURICE"><speaker>MAURICE, sans se retourner.</speaker>
 <p id="3">
 	<s id="1">Que veux-tu ?</s>
 </p>
@@ -307,7 +307,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II.</head>
-<sp who="MAURICE"><speaker>MAURICE, à sa table de travail, après un silence.</speaker>
+<sp stage="silence/furniture" who="MAURICE"><speaker>MAURICE, à sa table de travail, après un silence.</speaker>
 <p id="1">
 	<s id="1">Elle est en retard aujourd'hui. </s>
 	<s id="2">- Déjà ! </s>
@@ -353,13 +353,14 @@
 </sp>
 </div2>
 <div2 type="scene" n="3"><head>SCÈNE III. Georges, entrant par le fond, puis Sidonie.</head>
-<sp who="GEORGES"><speaker>GEORGES, à la cantonade, après avoir regardé dans la salle.</speaker>
+<sp stage="toward/watch/location" who="GEORGES"><speaker>GEORGES, à la cantonade, après avoir regardé dans la salle.</speaker>
 <p id="1">
-	<s id="1">Tu es joliment en retard, Marthe. Entre vite. </s>
-	<s id="2">Il n'est pas là.</s>
+	<s id="1">Tu es joliment en retard, Marthe. </s>
+	<s id="2">Entre vite. </s>
+	<s id="3">Il n'est pas là.</s>
 </p>
 </sp>
-<sp who="SIDONIE"><speaker>SIDONIE, en laitière.</speaker>
+<sp stage="costume" who="SIDONIE"><speaker>SIDONIE, en laitière.</speaker>
 <p id="2">
 	<s id="1">Voyons, Georges, tu es fou ! </s>
 	<s id="2">Tu m'appelles Marthe !</s>
@@ -930,7 +931,7 @@
 	<s id="3">Que c'est beau !</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, doucement.</speaker>
+<sp stage="sweet" who="MAURICE"><speaker>MAURICE, doucement.</speaker>
 <p id="2">
 	<s id="1">Mon amie... </s>
 	<s id="2">Voici un costume complet de Parisienne... </s>
@@ -1040,7 +1041,7 @@
 </p>
 <stage type="dress">Elle le met le plus gauchement possible.</stage>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, désespéré.</speaker>
+<sp stage="desparate" who="MAURICE"><speaker>MAURICE, désespéré.</speaker>
 <p id="15">
 	<s id="1">Non ! </s>
 	<s id="2">Sapristi ! </s>
@@ -1114,7 +1115,7 @@
 	<s id="2">Ça fait mal !</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, se tordant les mains.</speaker>
+<sp stage="wave" who="MAURICE"><speaker>MAURICE, se tordant les mains.</speaker>
 <p id="24">
 	<s id="1">Ah! mon_Dieu ! </s>
 	<s id="2">Bon! </s>
@@ -1195,7 +1196,7 @@
 	<s id="12">Ce n'est pas ma faute, si je suis née paysanne...</s>
 </p>
 </sp>
-<sp who="MAURICE"><speaker>MAURICE, accablé.</speaker>
+<sp stage="sad" who="MAURICE"><speaker>MAURICE, accablé.</speaker>
 <p id="34">
 	<s id="1">Adieu, adieu ! </s>
 	<s id="2">Laisse-moi... </s>

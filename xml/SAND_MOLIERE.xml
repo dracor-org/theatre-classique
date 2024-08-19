@@ -6,11 +6,11 @@
 				<title>MOLIÈRE, DRAME.</title>
 				<author type="texte" ISNI="0000 0001 2130 9531">SAND, George (1804-1876)</author>
 			</titleStmt>
-			<publicationStmp>	
+			<publicationStmt>	
 				<editor>Texte établi par Paul Fièvre octobre 2018</editor>
 				<publisher>publié par Paul FIEVRE octobre 2018</publisher>
 				<rights>Creative Commons BY-NC-SA</rights>
-			</publicationStmp>
+			</publicationStmt>
 			<SourceDesc>
 				<genre>Comédie</genre>
 				<inspiration>vie littéraire</inspiration>				<structure>Deux actes</structure>
@@ -107,7 +107,7 @@
 <div1 type="act" n="1"><head>ACTE I</head>
 <stage type="decor">Arbres et rochers sur une hauteur. - Chemin creux au fond.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. DUPARC, puis BRÉCOURT.</head>
-<stage type="">Brécourt est dans une carriole-fourgon traînée par un cheval, qu'il arrête sur le théâtre.</stage>
+<stage type="location/vehicule/stop">Brécourt est dans une carriole-fourgon traînée par un cheval, qu'il arrête sur le théâtre.</stage>
 <sp stage="entrance" who="BRÉCOURT"><speaker>BRÉCOURT, descendant du fourgon.</speaker>
 <p id="1">
 	<s id="1">Cet endroit-ci me semble disposé à souhait pour la halte, le repas et la sieste. </s>
@@ -132,7 +132,7 @@
 	<s id="7">Et si nous allumions du feu ?</s>
 </p>
 </sp>
-<sp who="DUPARC"><speaker>DUPARC, qui l'a aidé à sortir du fourgon un grand panier carré, des coussins et divers ustensiles.</speaker>
+<sp stage="help/exit/furniture" who="DUPARC"><speaker>DUPARC, qui l'a aidé à sortir du fourgon un grand panier carré, des coussins et divers ustensiles.</speaker>
 <p id="4">
 	<s id="1">Pourquoi faire ?</s>
 </p>
@@ -186,7 +186,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="3" stage="costume"><head>SCÈNE III. Brécourt, Pierrette, très pauvrement vêtue avec un jupon rapiécé.</head>
-<sp who="PIERRETTE"><speaker>PIERRETTE, entrant de droite à reculons et parlant vers la coulisse.</speaker>
+<sp stage="entrance/location/toward" who="PIERRETTE"><speaker>PIERRETTE, entrant de droite à reculons et parlant vers la coulisse.</speaker>
 <p id="1">
 	<s id="1">Allons, mesdemoiselles, soyez belles et sages, et n'allez point courir dans les blés pour y gâter vos beaux habits.</s>
 </p>
@@ -215,7 +215,7 @@
 <p id="4">
 	<s id="1">« Une grande sotte qui a seize ans et qui ne sait rien de rien ! » </s>
 </p>
-<stage type="">Reprenant sa voix.</stage>
+<stage type="voice">Reprenant sa voix.</stage>
 <p id="5">
 	<s id="1">Oh ! </s>
 	<s id="2">Oui-da ! </s>
@@ -432,7 +432,7 @@
 	<s id="1">Comment ?</s>
 </p>
 </sp>
-<sp who="PIERRETTE"><speaker>PIERRETTE, montrant la coulisse par où elle est entrée.</speaker>
+<sp stage="show/location/entrance" who="PIERRETTE"><speaker>PIERRETTE, montrant la coulisse par où elle est entrée.</speaker>
 <p id="9">
 	<s id="1">Oui, mes oies, qui sont par là, le long des blés.</s>
 </p>
@@ -566,12 +566,12 @@
 	<s id="6">Je redoublerai de soins pour rendre ma soeur digne de vous, et je lui servirai véritablement de tutrice et de mère, pour joindre son sort au vôtre dès qu'elle sera en âge de se marier.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, un peu ému.</speaker>
+<sp stage="moved" who="MOLIÈRE"><speaker>MOLIÈRE, un peu ému.</speaker>
 <p id="8">
 	<s id="1">Parlez-vous sérieusement, Madeleine ?</s>
 </p>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, émue, mais se contenant.</speaker>
+<sp stage="moved/quiet" who="MADELEINE"><speaker>MADELEINE, émue, mais se contenant.</speaker>
 <p id="9">
 	<s id="1">Je vous le jure par notre amitié même.</s>
 </p>
@@ -812,7 +812,7 @@
 	<s id="1">Bon appétit, mon camarade !</s>
 </p>
 </sp>
-<sp who="LE CAVALIER"><speaker>LE CAVALIER, prenant une bouteille dans le panier.</speaker>
+<sp stage="get" who="LE CAVALIER"><speaker>LE CAVALIER, prenant une bouteille dans le panier.</speaker>
 <p id="2">
 	<s id="1">Grand merci ! </s>
 	<s id="2">À votre santé !</s>
@@ -866,7 +866,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="12"><head>SCÈNE XII. Les Mêmes, Molière, Armande, Madeleine, Duparc, Pierrette.</head>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, séparant leurs épées avec sa canne.</speaker>
+<sp stage="hit" who="MOLIÈRE"><speaker>MOLIÈRE, séparant leurs épées avec sa canne.</speaker>
 <p id="1">
 	<s id="1">Halte-là, messieurs !... </s>
 	<s id="2">Brécourt, qu'est-ce donc ?</s>
@@ -1249,7 +1249,7 @@
 	<s id="1">En vérité, monsieur...</s>
 </p>
 </sp>
-<sp stage="entrance/tired" who="PIERRETTE"><speaker>PIERRETTE, qui est sortie quelques moments auparavant, revient tout essoufflée.</speaker> 
+<sp stage="entrance/breathless" who="PIERRETTE"><speaker>PIERRETTE, qui est sortie quelques moments auparavant, revient tout essoufflée.</speaker> 
 <p id="67">
 	<s id="1">Hé, monsieur ! </s>
 	<s id="2">Hé ! </s>
@@ -1267,7 +1267,7 @@
 </div2>
 <div2 type="scene" n="13"><head>Scène XIII. Pierrette, Armande, Madeleine, Molière, 
 Duparc, Brécourt.</head> 
-<sp who="ARMANDE"><speaker>ARMANDE, à Molière.</speaker>
+<sp stage="toward" who="ARMANDE"><speaker>ARMANDE, à Molière.</speaker>
 <p id="1">
 	<s id="1">Qu'est-ce donc que cet homme-là qui n'a point du tout l'air de penser comme vous ?</s>
 </p>
@@ -1580,7 +1580,7 @@ Duparc, Brécourt.</head>
 </sp>
 </div2>
 <div2 type="scene" n="18"><head>SCÈNE XVIII. Pierrette, Molière, Madeleine, Armande, Duparc, Brécourt.</head> 
-<sp who="PIERRETTE"><speaker>PIERRETTE, à Armande.</speaker>
+<sp stage="toward" who="PIERRETTE"><speaker>PIERRETTE, à Armande.</speaker>
 <p id="1">
 	<s id="1">Tenez, mamselle ! </s>
 	<s id="2">Voilà un affiquet que le monsieur qui était là tout à l'heure m'a baillé pour vous. </s>
@@ -1892,7 +1892,7 @@ Duparc, Brécourt.</head>
 	<s id="1">Oui, quand vous la regardez, parce qu'elle veut vous complaire.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, tressaillant.</speaker>
+<sp stage="frighten" who="MOLIÈRE"><speaker>MOLIÈRE, tressaillant.</speaker>
 <p id="19">
 	<s id="1">Elle veut me plaire ? </s>
 	<s id="2">Que dis-tu là ?</s>
@@ -2478,13 +2478,13 @@ Duparc, Brécourt.</head>
 	<s id="1">Ouais ! </s>
 	<s id="2">Voilà un bon coeur bien aimant !</s>
 </p>
-<stage type="">Haut.</stage>
+<stage type="loud">Haut.</stage>
 <p id="15">
 	<s id="1">Allons, allons, mon cher Baron, un peu de courage, surtout devant les gens ! </s>
 	<s id="2">Vous laissez trop voir vos sentiments pour moi, et Molière finira par s'en apercevoir.</s>
 </p>
 </sp>
-<sp who="BARON"><speaker>BARON, tressaillant.</speaker>
+<sp stage="frighten" who="BARON"><speaker>BARON, tressaillant.</speaker>
 <p id="16">
 	<s id="1">Vous craignez donc Molière ?</s>
 </p>
@@ -2645,7 +2645,7 @@ Duparc, Brécourt.</head>
 	<s id="3">Mais voilà mademoiselle votre soeur, si je ne me trompe !</s>
 </p>
 </sp>
-<sp who="ARMANDE"><speaker>ARMANDE, le reconnaissant.</speaker>
+<sp stage="recognize" who="ARMANDE"><speaker>ARMANDE, le reconnaissant.</speaker>
 <p id="2">
 	<s id="1">Monsieur_le_Prince_de_Condé ! </s>
 	<s id="2">Ah ! </s>
@@ -2761,7 +2761,7 @@ Duparc, Brécourt.</head>
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX. Armande, Baron.</head>
-<sp who="BARON"><speaker>BARON, entrant précipitamment.</speaker>
+<sp stage="entrance/hurry" who="BARON"><speaker>BARON, entrant précipitamment.</speaker>
 <p id="1">
 	<s id="1">Voilà Molière qui vient ! </s>
 	<s id="2">Allez-vous donc mettre le soupçon dans son coeur et lui montrer ma lettre ? </s>
@@ -2782,7 +2782,7 @@ Duparc, Brécourt.</head>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X. Les Mêmes, Molière, Condé, Madeleine, Brécourt, Duparc, Pierrette.</head>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, qui entre avec Condé.</speaker>
+<sp stage="entrance/together" who="MOLIÈRE"><speaker>MOLIÈRE, qui entre avec Condé.</speaker>
 <p id="1">
 	<s id="1">Je crois que ce jour-ci est le plus beau de ma vie. </s>
 	<s id="2">Le vainqueur de Nordlingue et de Rocroy s'est souvenu de Molière et l'a voulu serrer dans ses bras, pour l'amour de la morale et de la vérité. </s>
@@ -2942,7 +2942,7 @@ Duparc, Brécourt.</head>
 	<s id="2">C'est mon coeur qui me mène dans ces moments-là, et je sens alors que je vis, que j'aime et que je souffre !</s>
 </p>
 </sp>
-<sp stage="" who="ARMANDE"><speaker>ARMANDE, caressante.</speaker>
+<sp stage="sweet" who="ARMANDE"><speaker>ARMANDE, caressante.</speaker>
 <p id="10">
 	<s id="1">Et qui donc aimez-vous, Molière ?</s>
 </p>
@@ -3007,18 +3007,18 @@ Duparc, Brécourt.</head>
 	<s id="1">Mais oui, si je m'y laisse emporter sans prudence et sans retenue.</s>
 </p>
 </sp>
-<sp stage="" who="MOLIÈRE"><speaker>MOLIÈRE, entre l'émotion et la méfiance.</speaker>
+<sp stage="stress" who="MOLIÈRE"><speaker>MOLIÈRE, entre l'émotion et la méfiance.</speaker>
 <p id="20">
 	<s id="1">Vous moquez-vous, Armande ? </s>
 	<s id="2">Et voulez-vous faire la prude avec un homme qui se rend trop de justice pour donner lieu à vos méfiances ?</s>
 </p>
 </sp>
-<sp who="ARMANDE"><speaker>ARMANDE, avec aplomb.</speaker>
+<sp stage="serious" who="ARMANDE"><speaker>ARMANDE, avec aplomb.</speaker>
 <p id="21">
 	<s id="1">Si vous appelez pruderie la vertu, alors, Molière, il ne me reste plus qu'à vous quitter pour toujours.</s>
 </p>
 </sp>
-<sp stage="" who="MOLIÈRE"><speaker>MOLIÈRE, avec douleur.</speaker>
+<sp stage="pain" who="MOLIÈRE"><speaker>MOLIÈRE, avec douleur.</speaker>
 <p id="22">
 	<s id="1">Me quitter ? </s>
 	<s id="2">Et pourquoi donc, mon_Dieu ? </s>
@@ -3036,7 +3036,7 @@ Duparc, Brécourt.</head>
 	<s id="5">Je me veux donc marier, vous dis-je, il faut que vous le sachiez et ma soeur aussi.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, pâle et tremblant.</speaker>
+<sp stage="frighten" who="MOLIÈRE"><speaker>MOLIÈRE, pâle et tremblant.</speaker>
 <p id="24">
 	<s id="1">Et avec qui, s'il vous plaît, avez-vous résolu de vous marier ?</s>
 </p>
@@ -3086,7 +3086,7 @@ Duparc, Brécourt.</head>
 	<s id="2">Je vous demande un peu pourquoi ?</s>
 </p>
 </sp>
-<sp who="MADELEINE"><speaker>MADELEINE, saisie, à part.</speaker>
+<sp stage="stress/aparte" who="MADELEINE"><speaker>MADELEINE, saisie, à part.</speaker>
 <p id="4">
 	<s id="1">Oh ! </s>
 	<s id="2">Je le sais bien, moi !... </s>
@@ -3219,7 +3219,7 @@ Duparc, Brécourt.</head>
 	<s id="1">Ma soeur me trompe, vous ne m'aimez pas.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, se levant avec transport et la serrant dans ses bras.</speaker>
+<sp stage="stand/entousiasm/hugh" who="MOLIÈRE"><speaker>MOLIÈRE, se levant avec transport et la serrant dans ses bras.</speaker>
 <p id="7">
 	<s id="1">Armande ! </s>
 	<s id="2">Mon enfant ! </s>
@@ -3250,7 +3250,7 @@ Duparc, Brécourt.</head>
 </sp>
 </div2>
 <div2 type="scene" n="17"><head>SCÈNE XVII. Les Mêmes, Pierrette.</head>
-<sp who="PIERRETTE"><speaker>PIERRETTE, accourant.</speaker>
+<sp stage="run" who="PIERRETTE"><speaker>PIERRETTE, accourant.</speaker>
 <p id="1">
 	<s id="1">Monsieur Molière ! </s>
 	<s id="2">Monsieur Molière ! </s>
@@ -3333,7 +3333,7 @@ Duparc, Brécourt.</head>
 	<l id="1">Le plus grand malheur, c'est de naître.</l>
 	<l id="2">Le seul bonheur, c'est de mourir.</l>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, répétant, sans chanter, les deux vers.</speaker>
+<sp stage="repeat/speak" who="MOLIÈRE"><speaker>MOLIÈRE, répétant, sans chanter, les deux vers.</speaker>
 	<l id="3">Le plus grand malheur, c'est de naître.</l>
 	<l id="4">Le seul bonheur, c'est de mourir.</l>
 <p id="1">
@@ -3609,7 +3609,7 @@ Duparc, Brécourt.</head>
 	<s id="1">C'est vrai qu'on en a le coeur tribouillé par toute la maison.</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, debout à la fenêtre.</speaker>
+<sp stage="stand/location" who="MOLIÈRE"><speaker>MOLIÈRE, debout à la fenêtre.</speaker>
 <p id="9">
 	<s id="1">Une belle matinée de printemps ! </s>
 	<s id="2">Le soleil est levé, les oiseaux chantent. </s>
@@ -3790,7 +3790,7 @@ Duparc, Brécourt.</head>
 	<s id="1">Mon père !</s>
 </p>
 </sp>
-<sp stage="" who="PIERRETTE"><speaker>PIERRETTE, s'essuyant les yeux.</speaker>
+<sp stage="wipe" who="PIERRETTE"><speaker>PIERRETTE, s'essuyant les yeux.</speaker>
 <p id="17">
 	<s id="1">Tout ce que monsieur dit du roi et de lui, ça me tire toujours des larmes, parce que c'est toute mon histoire avec monsieur !</s>
 </p>
@@ -4079,7 +4079,7 @@ Duparc, Brécourt.</head>
 	<s id="3">Adieu, Madame !</s>
 </p>
 </sp>
-<sp who="ARMANDE"><speaker>ARMANDE, sèchement.</speaker>
+<sp stage="strong" who="ARMANDE"><speaker>ARMANDE, sèchement.</speaker>
 <p id="35">
 	<s id="1">Pardonnez-moi, vous resterez, Baron.</s>
 </p>
@@ -4419,7 +4419,7 @@ D'un ton impératif et repoussant Brécourt et Madeleine, qui veulent la retenir
 </p>
 <stage type="stand/watch/pull">Elle se lève, Molière, qui l'observe, la retient.</stage>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, faisant un grand effort sur lui-même.</speaker>
+<sp stage="stress" who="MOLIÈRE"><speaker>MOLIÈRE, faisant un grand effort sur lui-même.</speaker>
 <p id="4">
 	<s id="1">Eh bien, mes amis, ayons donc assez de philosophie et de savoir-vivre, pour ne nous point ensevelir dans les chagrins domestiques. </s>
 	<s id="2">Nous n'en avons pas le droit parce que nous n'en avons pas le temps. </s>
@@ -5519,12 +5519,12 @@ Si je le veux ?</s>
 	<s id="2">Voyons-les, ces vers ; je gage qu'ils sont méchants comme votre figure...</s>
 </p>
 </sp>
-<sp who="LE BEL ESPRIT"><speaker>LE BEL ESPRIT, effrayé.</speaker>
+<sp stage="frighten" who="LE BEL ESPRIT"><speaker>LE BEL ESPRIT, effrayé.</speaker>
 <p id="35">
 	<s id="1">Ils ne méritent point...</s>
 </p>
 </sp>
-<sp who="CONDÉ"><speaker>CONDÉ, lui arrachant les vers et les lisant.</speaker>
+<sp stage="get/read" who="CONDÉ"><speaker>CONDÉ, lui arrachant les vers et les lisant.</speaker>
 	<l id="1">Molière est dans la fosse noire ;</l>
 	<l id="2">On dit qu'il est mort tout de bon ;</l>
 	<l id="3">Pour moi, je n'en saurais rien croire ;</l>
@@ -6183,7 +6183,7 @@ Si je le veux ?</s>
 </sp>
 </div2>
 <div2 type="scene" n="10"><head>SCÈNE X. Baron, Armande.</head>
-<sp who="ARMANDE"><speaker>ARMANDE, arrivant par une autre coulisse que celle où Madeleine est sortie pour la chercher.</speaker>
+<sp stage="zentrance/location/search" who="ARMANDE"><speaker>ARMANDE, arrivant par une autre coulisse que celle où Madeleine est sortie pour la chercher.</speaker>
 <p id="1">
 	<s id="1">Eh bien, rentrons-nous à la fin ?</s>
 </p>
@@ -6859,7 +6859,7 @@ Si je le veux ?</s>
 	<s id="3">Êtes-vous en état d'aller assister au petit coucher du roi ?</s>
 </p>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, sortant de sa rêverie.</speaker>
+<sp stage="awake" who="MOLIÈRE"><speaker>MOLIÈRE, sortant de sa rêverie.</speaker>
 <p id="8">
 	<s id="1">Le roi ?... </s>
 	<s id="2">Une fête ?... </s>
@@ -6917,7 +6917,7 @@ Si je le veux ?</s>
 	<s id="1">Qu'est-ce donc ?</s>
 </p>
 </sp>
-<sp who="BARON"><speaker>BARON, donnant la lettre à Brécourt.</speaker>
+<sp stage="give" who="BARON"><speaker>BARON, donnant la lettre à Brécourt.</speaker>
 <p id="16">
 	<s id="1">Une lettre, une lettre folle et puérile, que j'écrivis à sa femme avant son mariage. </s>
 	<s id="2">Molière ! </s>

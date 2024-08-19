@@ -62,7 +62,7 @@
 <stage type="decor">Le théâtre représente la boutique de maître Poquelin, tapissier du roi et marchand fripier. Au fond, une devanture ouverte ou à claire-voie, donnant sur la rue, avec une porte à droite.- A gauche, un comptoir. - A droite au fond, une horloge. - Meubles, étoffas, outils, habits pendus, etc. - Portes à droite et à gauche.</stage>
 <div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
 <stage type="work/watch">Au lever du rideau, Nanon Laforest, un tricot à la main, regarde par la porte du fond dans la rue.</stage>
-<sp who="NANON"><speaker>NANON LAFOREST, redescendant la scène.</speaker>
+<sp stage="location" who="NANON"><speaker>NANON LAFOREST, redescendant la scène.</speaker>
 	<l id="1">Rien ! - Point de Jean-Baptiste ! - Et grand-papa Crosse1</l>
 	<l id="2">De ramener l'enfant, voyez s'il est pressé !...</l>
 	<l id="3">Tantôt, quand de son gendre il eut vu la sortie :</l>
@@ -372,7 +372,7 @@
 <sp stage="away" who="GAUTHIER"><speaker>GAUTHIER, se dirigeant vers le fond.</speaker>
 	<l id="103" syll="2" part="i">Adieu !</l>
 </sp>
-<sp who="NANON"><speaker>NANON, le ramenant et le renvoyant par la droite.</speaker>
+<sp stage="pull/push/toward" who="NANON"><speaker>NANON, le ramenant et le renvoyant par la droite.</speaker>
 	<l id="103" syll="10" part="f">Par ma cuisine, afin qu'il ne vous voie !</l>
 </sp>
 <sp who="GAUTHIER"><speaker>GAUTHIER.</speaker>
@@ -1189,7 +1189,7 @@
 <sp who="NANON"><speaker>NANON.</speaker>
 	<l id="373">Voilà mon fou parti ! - Mais tu ne fais plus rien !</l>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, se remettant à son fauteuil.</speaker>
+<sp stage="stand/location" who="MOLIÈRE"><speaker>MOLIÈRE, se remettant à son fauteuil.</speaker>
 	<l id="374" syll="6" part="i">Pardi ! Je l'oubliais !...</l>
 <stage type="away/back">Revenant à Nanon qui s'en allait.</stage>
 	<l id="374" syll="6" part="f">Quel bon comédien</l>
@@ -1273,7 +1273,7 @@
 <sp stage="laugh" who="NANON"><speaker>NANON, riant.</speaker>
 	<l id="413" syll="9" part="i">Il est fou, je vous dis, à lier !</l>
 </sp>
-<sp who="MOLIÈRE"><speaker>MOLIÈRE, écrivant.</speaker>
+<sp stage="write" who="MOLIÈRE"><speaker>MOLIÈRE, écrivant.</speaker>
 	<l id="413" syll="3" part="f">Je t'écoute.</l>
 </sp>
 <sp who="NANON"><speaker>NANON.</speaker>
@@ -1351,7 +1351,7 @@
 <sp who="NANON"><speaker>NANON.</speaker>
 	<l id="424" syll="2" part="m">C'est moi !</l>
 </sp>
-<sp who="POQUELIN"><speaker>POQUELIN, Mnaoolcre.</speaker>
+<sp stage="quiet" who="POQUELIN"><speaker>POQUELIN, sans colère.</speaker>
 	<l id="424" syll="4" part="m">Non ; c'est mon fils !</l>
 <stage type="watch">Considérant la tache du fauteuil.</stage>
 	<l id="425">Le voilà bien perdu : cette fois, c'est la bonne,</l>
@@ -1474,7 +1474,7 @@
 <sp stage="low/toward" who="NANON"><speaker>NANON, bas, à Gauthier.</speaker>
 	<l id="461" syll="2" part="m">Marchez !</l>
 </sp>
-<sp who="GAUTHIER"><speaker>GAUTHIER, à Molière.</speaker>
+<sp stage="toward" who="GAUTHIER"><speaker>GAUTHIER, à Molière.</speaker>
 	<l id="461" syll="6" part="f">Tu nous vois sur la scène ;</l>
 	<l id="462" syll="1" part="i">Mais..</l>
 </sp>
@@ -1570,7 +1570,7 @@
 	<l id="509">J'apprendrai le beau style et meublerai ma tête.</l>
 	<l id="510">Pardi ! Ce n'est qu'un homme, après tout, un poète !</l>
 </sp>
-<sp who="GAUTHIER"><speaker>GAUTHIER, à part.</speaker>
+<sp stage="aparte" who="GAUTHIER"><speaker>GAUTHIER, à part.</speaker>
 	<l id="511" syll="6" part="i">La peste ! Quel bambin !</l>
 </sp>
 <sp who="MOLIÈRE"><speaker>MOLIÈRE.</speaker>
@@ -1652,7 +1652,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="16"><head>SCÈNE XVI. Molière, Gauthier-garguille, Nanon, Monsieur Jourdain, Loyal, huissier, Quatre Laquais de Monsieur Jourdain.</head>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, entrant avec Nanon.</speaker>
+<sp stage="entrance/togather" who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, entrant avec Nanon.</speaker>
 	<l id="541">Ah ! Voilà de quoi rire, et l'insolence est grande !</l>
 	<l id="542">Que j'attende, corbleu ! Pense-t-on que j'attende ?</l>
 	<l id="543">J'instrumente à l'instant, si l'argent n'est compté.</l>
@@ -1822,16 +1822,16 @@
 <sp who="GAUTHIER"><speaker>GAUTHIER.</speaker>
 	<l id="581">Avec cet air de cour on n'est point du commerce.</l>
 </sp>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, saluant.</speaker>
+<sp stage="wave" who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, saluant.</speaker>
 	<l id="582" syll="2" part="i">Monsieur !</l>
 <stage type="aparte">À part.</stage>
 	<l id="582" syll="4" part="m">Quel honnête homme !</l>
 </sp>
-<sp who="LOYAL"><speaker>LOYAL, à Monsieur Jourdain.</speaker>
+<sp stage="toward" who="LOYAL"><speaker>LOYAL, à Monsieur Jourdain.</speaker>
 	<l id="582" syll="6" part="f">À la partie adverse,</l>
 	<l id="583" syll="8" part="i">Il faut signifier, Monsieur...</l>
 </sp>
-<sp who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, à Loyal.</speaker>
+<sp stage="toward" who="MONSIEUR JOURDAIN"><speaker>MONSIEUR JOURDAIN, à Loyal.</speaker>
 	<l id="583" syll="4" part="f">Dans un moment.</l>
 </sp>
 <sp stage="toward" who="GAUTHIER"><speaker>GAUTHIER, à Monsieur Jourdain.</speaker>
@@ -1987,7 +1987,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="19"><head>SCÈNE XIX. Les Mêmes, Le Père Cressé.</head>
-<sp stage="hurry/open" who="LE PÈRE CRESSÉ"><speaker>LE PÈRE CRESSÉ, essoufflé, déployant un rouleau d'étoffe.</speaker>
+<sp stage="hurry/breathless" who="LE PÈRE CRESSÉ"><speaker>LE PÈRE CRESSÉ, essoufflé, déployant un rouleau d'étoffe.</speaker>
 	<l id="619" syll="8" part="f">Enfants ! Tout est raccommodé ,</l>
 	<l id="620" syll="6" part="i">Un coupon de rencontre !</l>
 </sp>
@@ -2010,7 +2010,7 @@
 <sp who="POQUELIN"><speaker>POQUELIN.</speaker>
 	<l id="623" syll="9" part="i">Notre meuble est vendu, mon beau-père.</l>
 </sp>
-<sp who="LE PÈRE CRESSÉ"><speaker>LE PÈRE CRESSÉ, déployant un papier.</speaker>
+<sp stage="open" who="LE PÈRE CRESSÉ"><speaker>LE PÈRE CRESSÉ, déployant un papier.</speaker>
 	<l id="623" syll="3" part="f">Ah !... tant mieux !</l>
 	<l id="624">Si j'avais su !... Voici, du moins !. .. Ouvrez vos yeux :</l>
 	<l id="625">C'est un écrit du roi qui transfère la charge</l>
@@ -2109,7 +2109,7 @@
 <sp stage="kiss" who="LE PÈRE CRESSÉ"><speaker>LE PÈRE CRESSÉ, embrassant Nanon.</speaker>
 	<l id="667" syll="3" part="i">Ah ! Nanon !</l>
 </sp>
-<sp who="GAUTHIER"><speaker>GAUTHIER, de marne.</speaker>
+<sp stage="kiss" who="GAUTHIER"><speaker>GAUTHIER, de même.</speaker>
 	<l id="667" syll="3" part="m">Ah ! Nanon !</l>
 </sp>
 <sp who="NANON"><speaker>NANON.</speaker>

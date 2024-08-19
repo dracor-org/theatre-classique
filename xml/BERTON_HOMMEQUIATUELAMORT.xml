@@ -174,7 +174,7 @@ Ils ont presque terminé leur travail... Quel sale boulot !...
 	<s id="2">On dit ça... !</s>
 </p>
 </sp>
-<sp who="BENOIT"><speaker>BENOIT, se levant et s'approchant de la fenêtre. </speaker>
+<sp stage="stand/closer/location" who="BENOIT"><speaker>BENOIT, se levant et s'approchant de la fenêtre. </speaker>
 <p id="21">
 	<s id="1">Mais qu'est-ce qu'il fout, le soleil, à ne pas vouloir se lever !</s>
 </p>
@@ -518,7 +518,7 @@ Ils ont presque terminé leur travail... Quel sale boulot !...
 	<s id="2">C'est l'évidence même.</s>
 </p>	
 </sp>
-<sp stage="" who="GAUVAIN"><speaker>GAUVAIN, poursuivant son idée. </speaker>
+<sp stage="continue" who="GAUVAIN"><speaker>GAUVAIN, poursuivant son idée. </speaker>
 <p id="31">
 	<s id="1">... Je l'ai toujours... </s>
 </p>
@@ -579,7 +579,7 @@ Ils ont presque terminé leur travail... Quel sale boulot !...
 	<s id="3">Savez-vous, mon jeune ami, qu'il y a beaucoup de vos collègues qui pourraient vous envier ! </s>
 </p>
 </sp>
-<sp who="GAUVAIN"><speaker>GAUVAIN, avec un sourire amer. </speaker>
+<sp stage="smile" who="GAUVAIN"><speaker>GAUVAIN, avec un sourire amer. </speaker>
 <p id="41">
 	<s id="1">Vous appelez cela une chance !...</s>
 </p>
@@ -785,12 +785,12 @@ Ils ont presque terminé leur travail... Quel sale boulot !...
 	<s id="2">Je veux lui parler ! </s>
 </p>
 </sp>
-<sp who="BENOIT"><speaker>BENOIT, entrant et donnant au Directeur une carte de visite. </speaker>
+<sp stage="entrance/give/toward" who="BENOIT"><speaker>BENOIT, entrant et donnant au Directeur une carte de visite. </speaker>
 <p id="77">
 	<s id="1">Monsieur le Directeur, il y a là une personne qui désirerait vous voir et qui m'a prié de vous remettre cette carte.</s>
 </p>
 </sp>
-<sp who="LE DIRECTEUR"><speaker>LE DIRECTEUR, lisant le nom qui est sur la carte. </speaker>
+<sp stage="read" who="LE DIRECTEUR"><speaker>LE DIRECTEUR, lisant le nom qui est sur la carte. </speaker>
 <p id="78">
 	<s id="1">Ah oui... </s>
 	<s id="2">Mais il vient trop tôt... </s>
@@ -990,7 +990,7 @@ Ils ont presque terminé leur travail... Quel sale boulot !...
 <div2 type="scene" n="5"><head>SCÈNE V. Bricard, l'Avocat Général, Moralès, 
 le Juge d'Instruction, le Directeur de la prison, un aide du Bourreau, puis l'Aumônier de la prison.</head>
 <stage type="narration">Moralès est vêtu simplement d'un pantalon et de sa chemise. L'aide du bourreau le fait asseoir sur l'escabeau qui a été préparé, puis, avec les ciseaux que lui tend Bricard, il coupe le col de la chemise du condamné. Au contact des ciseaux, Moralès réprime un tressaillement. Le silence est complet. On entend que le crissement des ciseaux. L'aide prend ensuite un rasoir et rase la nuque de Moralès. </stage> 
-<sp who="LE JUGE"><speaker>LE JUGE, s'approchant. </speaker>
+<sp stage="closer" who="LE JUGE"><speaker>LE JUGE, s'approchant. </speaker>
 <p id="1">
 	<s id="1">Moralès, avez-vous des révélations à faire à la Justice ? </s>
 </p>
@@ -1027,7 +1027,7 @@ le Juge d'Instruction, le Directeur de la prison, un aide du Bourreau, puis l'Au
 	<s id="1">Je lui transmettrai vos paroles.</s>
 </p>	
 </sp>
-<sp who="LE DIRECTEUR"><speaker>LE DIRECTEUR, à Moralès. </speaker>
+<sp stage="toward" who="LE DIRECTEUR"><speaker>LE DIRECTEUR, à Moralès. </speaker>
 <p id="7">
 	<s id="1">Monsieur l'Aumônier vous attend dans la chapelle... </s>
 	<s id="2">Voulez-vous lui parler ?</s>
@@ -1057,7 +1057,7 @@ le Juge d'Instruction, le Directeur de la prison, un aide du Bourreau, puis l'Au
 	<s id="1">Gauvain, je vous en prie... </s>
 </p>
 </sp>
-<sp who="GAUVAIN"><speaker>GAUVAIN, se dégageant. </speaker>
+<sp stage="away" who="GAUVAIN"><speaker>GAUVAIN, se dégageant. </speaker>
 <p id="13">
 	<s id="1">Laissez-moi... </s>
 	<s id="2">Je veux lui parler. </s>
@@ -1201,7 +1201,7 @@ le Juge d'Instruction, le Directeur de la prison, un aide du Bourreau, puis l'Au
 </p>	
 <stage type="watch">Les gardiens regardent le Directeur qui leur fait signe de laisser au condamné un instant de répit. Moralès tire une longue bouffée de sa cigarette et la regarde se dissiper dans l'air. Lentement sa main s'abaisse et il laisse tomber sa cigarette.</stage> 
 </sp>
-<sp who="MORALÈS"><speaker>MORALÈS, mettant lui-même ses mains derrière le dos. </speaker>
+<sp stage="wave" who="MORALÈS"><speaker>MORALÈS, mettant lui-même ses mains derrière le dos. </speaker>
 <p id="36">
 	<s id="1">Allez-y. </s>
 </p>
@@ -1355,7 +1355,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="2">Durant leur vie, ils affectent de ne croire ni à Dieu ni au Diable... et quand la mort est là et qu'ils aperçoivent le Crucifix, toute l'hérédité religieuse qui dort en eux se réveille et les oblige à tomber à genoux devant l'image sacrée...</s>
 </p> 
 </sp>
-<sp stage="" who="GAUVAIN"><speaker>GAUVAIN, haletant. </speaker>
+<sp stage="gasp" who="GAUVAIN"><speaker>GAUVAIN, haletant.</speaker>
 <p id="21">
 	<s id="1">Si Moralès s'est confessé à l'Aumônier, il lui a fait l'aveu de ses crimes... </s>
 	<s id="2">N'est-ce pas ?... </s>
@@ -1443,7 +1443,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="1">Non, messieurs, ce n'est pas la mort... </s>
 </p>
 </sp>
-<sp who="LE JUGE"><speaker>LE JUGE, sursautant. </speaker>
+<sp stage="surprise" who="LE JUGE"><speaker>LE JUGE, sursautant. </speaker>
 <p id="36">
 	<s id="1">Par exemple ! </s>
 </p>
@@ -1495,7 +1495,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="8">C'est impossible ! </s>
 </p>
 </sp>
-<sp who="FARGUS"><speaker>FARGUS, souriant. </speaker>
+<sp stage="smile" who="FARGUS"><speaker>FARGUS, souriant. </speaker>
 <p id="43">
 	<s id="1">Impossible ?... </s>
 	<s id="2">Il paraît que c'est un mot qui n'est pas français... </s>
@@ -1538,7 +1538,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="1">Mais comment s'en rendre compte ?</s>
 </p>
 </sp>
-<sp who="FARGUS"><speaker>FARGUS, montrant sa table. </speaker>
+<sp stage="show" who="FARGUS"><speaker>FARGUS, montrant sa table. </speaker>
 <p id="49">
 	<s id="1">À l'aide de ce dispositif, qui est de mon invention... </s>
 	<s id="2">Tout à l'heure, je placerai la tête de Moralès dans ce support... </s>
@@ -1621,7 +1621,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. L'Avocat Général, le Professeur Fargus, Marec, son aide.</head>  
-<sp who="FARGUS"><speaker>FARGUS, à son aide. </speaker>
+<sp stage="toward" who="FARGUS"><speaker>FARGUS, à son aide. </speaker>
 <p id="1">
 	<s id="1">Attention, c'est le moment !... </s>
 	<s id="2">Marec, que donne le courant électrique ? </s>
@@ -1690,7 +1690,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="2">Il va parler ?... </s>
 </p>
 </sp>
-<sp who="GAUVAIN"><speaker>GAUVAIN, bouleversé. </speaker>
+<sp stage="stress" who="GAUVAIN"><speaker>GAUVAIN, bouleversé. </speaker>
 <p id="11">
 	<s id="1">Ô mon_Dieu !... </s>
 	<s id="2">L'aveu !... </s>
@@ -1709,7 +1709,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 	<s id="1">Ah !... </s>
 </p>
 </sp>
-<sp who="FARGUS"><speaker>FARGUS, très calme. </speaker>
+<sp stage="quiet" who="FARGUS"><speaker>FARGUS, très calme. </speaker>
 <stage type="/explicit/back/work">Le couperet ne lui a pas laissé le temps d'achever sa phrase... Il revient à sa table.</stage> 
 <p id="14">
 	<s id="1">Et maintenant, Madame la Mort, à nous deux ! </s>
@@ -1920,7 +1920,7 @@ On entend par instants à la cantonade des coups de marteau, des bruits de foule
 </p>
 <stage type="wave">L'aide met l'appareil en mouvement. Les lèvres mortes continuent à remuer. Un silence. Tous regardent et attendent anxieusement.</stage> 
 </sp>
-<sp who="GAUVAIN"><speaker>GAUVAIN, dans un souffle. </speaker>
+<sp stage="low" who="GAUVAIN"><speaker>GAUVAIN, dans un souffle. </speaker>
 <p id="25">
 	<s id="1">Grand Dieu, que va-t-il dire ?... </s>
 </p>
