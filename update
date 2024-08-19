@@ -4,20 +4,85 @@ usage () {
   cat <<EOF
 Update repo with files from theatre-classique.fr
 
-Usage: $0 [--all | --help]
+Usage:
+$0 [--new] [--verbose] [filenames]
+$0 --list [filenames]
+$0 --help
 
 OPTIONS:
-  -a, --all       update all files including existing ones
+  -N, --new       download only new files not updating existing ones
   -d, --delay     number of seconds to wait between requests (default: 1)
+  -l, --list      list URLs found in theatre-classique.fr
+  -v, --verbose   
   -h, --help      show this message
 
 EOF
 }
 
+# page to scrape the TEI URLs from
+INDEX_URL="http://theatre-classique.fr/pages/programmes/PageEdition.php"
+# base URL for TEI documents
+DOCUMENT_BASE=http://theatre-classique.fr/pages/documents
+
+# directory with original downloads
+TARGET_DIR=./xml
+
+# file for commit message
+MESSAGE_FILE=message.txt
+ERROR_LOG=errors.txt
+
+
+get_urls () {
+  if [ -n "$1" ]; then
+    for f in $@; do
+      name=$(basename $f)
+      echo "$DOCUMENT_BASE/$name"
+    done
+  else
+    LYNX="lynx -listonly -nonumbers -dump $INDEX_URL"
+    GREP="grep /pages/documents/"
+    for url in $($LYNX | $GREP); do
+      echo $url
+    done
+  fi
+}
+
+download () {
+  # echo $@
+  if ! [ -d $TARGET_DIR ]; then
+    mkdir -p $TARGET_DIR
+  fi
+  for url in $(get_urls $@); do
+    name=$(basename $url)
+    file="$TARGET_DIR/$name"
+
+    if ! [[ -f $file ]] || [[ -n "$ALL" ]] || [[ -n "$1" ]]; then
+      wget -O $file $url
+      rc=$?
+      if [ $rc == 0 ]; then
+        # add newline to end of originals for cleaner diffs
+        echo >> $file
+      elif [ $rc == 8 ]; then
+        # ignore 404 or other server errors
+        rm $file
+        echo $url >> $ERROR_LOG
+        echo
+      else
+        # abort on other errors
+        exit 1
+      fi
+      [ -z $VERBOSE ] || echo "waiting $DELAY seconds..."
+      sleep $DELAY
+    else
+      [ -z $VERBOSE ] || echo "skipping $name"
+    fi
+  done
+}
+
 # options parsing inspired by
 # https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
 
-ALL=""
+ALL="yes"
 PARAMS=""
 DELAY=1
 
@@ -27,8 +92,12 @@ while (( "$#" )); do
       usage
       exit 0
       ;;
-    -a|--all)
-      ALL=yes
+    -N|--new)
+      ALL=""
+      shift
+      ;;
+    -l|--list)
+      LISTONLY=yes
       shift
       ;;
     -v|--verbose)
@@ -63,48 +132,83 @@ done
 # set positional arguments in their proper place
 eval set -- "$PARAMS"
 
-# page to scrape the TEI URLs from
-INDEX_URL="http://theatre-classique.fr/pages/programmes/PageEdition.php"
+FILES=${@:-""}
 
-# directory with original downloads
-TARGET_DIR=./xml
-
-LYNX="lynx -listonly -nonumbers -dump $INDEX_URL"
-GREP="grep /pages/documents/"
-
-if ! [ -d $TARGET_DIR ]; then
-  mkdir -p $TARGET_DIR
-else
-  echo "Directory $TARGET_DIR exists."
-  echo "For a fresh download remove files in that directory."
-  echo
+if [ -n "$LISTONLY" ]; then
+  get_urls $FILES
+  exit
 fi
 
-git checkout main
+if [ -z "$FILES" ]; then
+  WITH_BRANCH=1
+fi
 
-# retrieve TEI files from Theatre Classique
-for url in $($LYNX | $GREP); do
-  name=$(basename $url)
-  file="$TARGET_DIR/$name"
-
-  if ! [[ -f $file ]] || [[ -n "$ALL" ]]; then
-    wget -O $file $url
-    rc=$?
-    if [ $rc == 0 ]; then
-      # add newline to end of originals for cleaner diffs
-      echo >> $file
-    elif [ $rc == 8 ]; then
-      # ignore 404 or other server errors
-      rm $file
-      echo "Server error. Ignoring file!"
-      echo
-    else
-      # abort on other errors
-      exit 1
-    fi
-    [ -z $VERBOSE ] || echo "waiting $DELAY seconds..."
-    sleep $DELAY
-  else
-    [ -z $VERBOSE ] || echo "skipping $name"
+if [ -n "$WITH_BRANCH" ]; then
+  # create branch name
+  BRANCH=updates-$(date '+%Y-%m-%d')
+  if [ -n "$(git show-ref refs/heads/$BRANCH)" ]; then
+    BRANCH=updates-$(date '+%Y-%m-%d-%H%M%S')
   fi
-done
+
+  WORKTREE=../theatre-classique-$BRANCH
+
+  git fetch origin
+  # TODO: make sure origin/main is the upstream main branch
+  git branch $BRANCH origin/main
+  git worktree add $WORKTREE $BRANCH
+  cd $WORKTREE
+
+  if [ -n "$ALL" ]; then
+    MSG="Update all files from theatre-classique.fr"
+    rm -r $TARGET_DIR
+  elif [ -n "$FILES" ]; then
+    MSG="Update files from theatre-classique.fr"
+  else
+    MSG="Add new files from theatre-classique.fr" 
+  fi
+  echo $MSG > $MESSAGE_FILE
+
+  download $FILES
+
+  if [ -f $ERROR_LOG ]; then
+    cat << EOF | tee -a $MESSAGE_FILE
+
+    The following documents could not be downloaded:
+
+EOF
+    cat $ERROR_LOG | tee -a $MESSAGE_FILE
+    rm $ERROR_LOG
+  fi
+
+  STATUS=$(git status --porcelain $TARGET_DIR)
+
+  if [ -n "$STATUS" ]; then
+    git add $TARGET_DIR
+    git commit -F $MESSAGE_FILE
+
+    cat << EOF
+
+    Updates have been added to the branch $BRANCH.
+
+    After checking the correctness of the updates you may want to merge this
+    branch into the 'main' branch or create a pull request.
+
+    If new plays have been added you can create new entries for the ids.xml file of
+    the fredracor repo by running:
+
+    ./new-id-entries $(git rev-parse --short HEAD)
+
+EOF
+  else
+    echo "No changes"
+    echo
+  fi
+
+  rm $MESSAGE_FILE
+  cd -
+  git worktree remove $WORKTREE
+else
+  download $FILES
+  echo
+  git status --porcelain $TARGET_DIR
+fi

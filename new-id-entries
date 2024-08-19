@@ -1,0 +1,37 @@
+#!/bin/bash
+
+COMMIT=$(git rev-parse --short ${1:-HEAD})
+
+NEW_FILES=$(git show --name-status $COMMIT | grep '^A\t' | sed 's/^A\t//')
+
+if [ -z "$NEW_FILES" ]; then
+  >&2 echo "No new files."
+  exit
+fi
+
+cat << EOF
+<!--
+These are the new files added in commit $COMMIT.
+
+The below 'play' elements can be inserted into the ids.xml file of the fredracor
+repo. You may want to edit the slugs which are basically the lowercase versions
+of the original file names.
+
+Also note that some of these new files may actually be renamed versions of
+previously existing files. If that's the case you should edit the original
+ids.xml entry instead of adding a new 'play' element.
+-->
+<ids>
+EOF
+
+for f in $NEW_FILES; do
+  name=$(basename $f .xml)
+  slug=$(
+    echo $name | tr '[:upper:]' '[:lower:]'  | \
+    sed 's/%20//g' | sed 's/_/-/g'
+  )
+
+  echo " <play id=\"fre000000\" file=\"$name\" slug=\"$slug\"/>"
+done
+
+echo "</ids>"
