@@ -36,15 +36,16 @@
 		<docDate value='1879'>M D CCC LXXIX.</docDate>
 		<docAuthor id="[Anonyme]"></docAuthor>
 		<docImprint>
-			<printer id="JOUAUST">À PARIS DES PRESSES DE D. JOUAUST, imprimeur breveté, rue SAINT-HONORÉ, 338</printer>
-			<editor id='LIBRAIRIE DES BIBLIOPHILES'>À PARIS, LIBRAIRIE DES BIBLIOPHILES, rue Saint-Honoré, 338. </editor>
-			<print><head>TIRAGE</head>
-				<p>300 exemplaires sur papier vergé (Nos 41 à 340).</p>
-				<p>20 sur papier de Chine (Nos , à 20).</p>
-				<p>20 sur papier Whatman (Nos 21 à40).</p>
-				<p>340 exemplaires, numérotés. N°187</p>
-			</print>
+			<publisher id='LIBRAIRIE DES BIBLIOPHILES'>À PARIS, LIBRAIRIE DES BIBLIOPHILES, rue Saint-Honoré, 338. </publisher>
 		</docImprint>
+		<!-- NB: in the original source this appears before the title page -->
+		<div>
+			<head>TIRAGE</head>
+			<p>300 exemplaires sur papier vergé (Nos 41 à 340).</p>
+			<p>20 sur papier de Chine (Nos , à 20).</p>
+			<p>20 sur papier Whatman (Nos 21 à40).</p>
+			<p>340 exemplaires, numérotés. N°187</p>
+		</div>
 	<div type="preface"><head>PRÉFACE</head>
 		<p>Lorsque je rédigeais le Catalogue raisonné de la Bibliothèque dramatique de M. Soleinne, en 1843, j'eus l'occasion de parcourir la tragi-comédie de MELISSE, que personne peut-être n'avait lue avant moi, ou dont la lecture n'avait frappé, émerveillé, préoccupé personne. En effet, cette pièce de théâtre ne figure que dans la table des RECHERCHES SUR LES THÉATRES DE FRANCE, par Beauchamps (Paris, Prault, 1785, in-4), et elle se trouve seulement mentionnée, sous l'année 1658, dans la BIBLIOTHÈQUE DU THÉATRE FRANÇOIS (Dresde, Michel Groell, 1768, 3 vol. in-8), qui n'est qu'une description analytique de la Bibliothèque dramatique du Duc de La Vallière, laquelle est entrée, pour la plus grande partie, dans la Bibliothèque du Marquis de Paulmy, acquise par le Comte d'Artois en 1784, et devenue aujourd'hui la Bibliothèque de l'Arsenal.</p>
 		<p>Je ne fis alors qu'examiner à la hâte cette pièce, inconnue de tous les bibliophiles (sans nom de lieu ni d'imprimeur, et sans date, in-12, de 4ff. préliminaires, avec un simple faux titre, et de 80 pages), et je fus tellement étonné d'y trouver des pensées délicates, des vers admirablement venus, des passages de style excellent, qui me rappelaient la langue de Molière, que je n'ai pas hésité à soupçonner, dans cette oeuvre ignorée, un des premiers essais de notre grand poète comique. Voici la note que j'écrivis au-dessous de l'article de MELISSE, que j'avais cru devoir placer sous la date de 1639, au lieu de celle de 1658, que l'abbé Rive avait indiquée approximativement au duc de La Vallière : </p>
@@ -3002,6 +3003,11 @@
 </div2>
 </div1>
 </body>
+<back>
+	<docImprint>
+		<pubPlace>À PARIS</pubPlace> <publisher>DES PRESSES DE D. JOUAUST, imprimeur breveté, rue SAINT-HONORÉ, 338</publisher>
+		<docDate when='1879'>M D CCC LXXIX</docDate>
+	</docImprint>
+</back>
 </text>
 </TEI>
-
