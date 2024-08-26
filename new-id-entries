@@ -31,7 +31,7 @@ for f in $NEW_FILES; do
     sed 's/%20//g' | sed 's/_/-/g'
   )
 
-  echo " <play id=\"fre000000\" file=\"$name\" slug=\"$slug\"/>"
+  echo " <play id=\"fre000000\" file=\"$name.xml\" slug=\"$slug\"/>"
 done
 
 echo "</ids>"
