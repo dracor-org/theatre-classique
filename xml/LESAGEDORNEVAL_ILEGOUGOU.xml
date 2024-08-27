@@ -49,7 +49,7 @@
 			<castItem><role id='LE GÉNIE BENINGUET' sex="1" type="H" statut='génie' age='A' stat_amour='néant'>LE GÉNIE BENINGUET</role>.</castItem>
 			<castItem><role id='OFFICIERS DU SAGAMO' sex="9" type="H" statut='officier' age='A' stat_amour='néant'>OFFICIERS DU SAGAMO</role>.</castItem>
 			<castItem><role id='LE FAVORI du SAGAMO' sex="1" type="H" statut='favori' age='A' stat_amour='néant'>LE FAVORI du SAGAMO</role>.</castItem>
-			<castItem><role id='TROUPE DE SAUVAGES' sex="9" type="H" statut='peuple' age='A' stat_amour='néant'>TROUPE DE SAUVAGES</role>.</castItem>
+			<castItem><role id='SAUVAGES' sex="9" type="H" statut='peuple' age='A' stat_amour='néant'>TROUPE DE SAUVAGES</role>.</castItem>
 			<castItem><role id='TROUPES DE LUTINS' sex="9" type="H" statut='lutin' age='A' stat_amour='néant'>TROUPES DE LUTINS</role>.</castItem>
 		</castList>
 		<set location="Île de Miscou" country="Canada" periode="XVIIIème" link="47.960439, -64.519517">Le théâtre représente une île dans les ailes et une mer dans le fonds.</set>
@@ -138,7 +138,7 @@
 </div2>
 <div2 type="scene" n='3'><head>SCÈNE III. Léandre, Arlequin, Le Sagamo et suite.</head>
 <stage type="narration">Le Sagamo paraît. Il est précédé par plusieurs sauvages dont les uns portent des arcs et des flèches, les autres des massues ; il y en a qui font résonner des orgues de barbarie et d'autres qui frappent sur des plaques de cuivre. Devant lui est une petite danseuse qui porte son calumet. Quantité de ses officiers le suivent, ayant tous le sabre nu à la main.</stage>
-<sp who='CHOEUR DE SAUVAGES'><speaker>CHOEUR DE SAUVAGES</speaker>
+<sp who='SAUVAGES'><speaker>CHOEUR DE SAUVAGES</speaker>
 <stage type="title">Air du choeur des Bostangis de L'Europe galante, 5e entrée, scène 5.</stage>
 	<l id='1'>Vivo vivo</l>
 	<l id='2'>Grano Sagamo !</l>
@@ -233,7 +233,7 @@
 </p>
 <stage type="help/threat">Sitôt qu'Arlequin est déchaîné, il va sauter au cou du Sagamo et le renverse.</stage>
 </sp>
-<sp stage="threat" who='LES SAUVAGES'><speaker>LES SAUVAGES, empoignant Arlequin.</speaker>
+<sp stage="threat" who='SAUVAGES'><speaker>LES SAUVAGES, empoignant Arlequin.</speaker>
 <p id='17'>
 	<s id='1'>Tuac, tuac, l'insolentac !</s>
 </p>
@@ -383,7 +383,7 @@
 </p>
 <stage type="drink/shout">Il veut boire un verre de vin qu'il tient, mais les sauvages par leurs cris lui font répandre. </stage>
 </sp>
-<sp who='PIERROT et les SAUVAGES'><speaker>PIERROT et les SAUVAGES se prosternent à terre et poussent de grands cris de joie.</speaker>
+<sp who='PIERROT, SAUVAGES'><speaker>PIERROT et les SAUVAGES se prosternent à terre et poussent de grands cris de joie.</speaker>
 <p id='7'>
 	<s id='1'>Haleatibou ! </s>
 	<s id='2'>Haleatibou !</s>
@@ -1612,4 +1612,3 @@
 </body>
 </text>
 </TEI>
-
