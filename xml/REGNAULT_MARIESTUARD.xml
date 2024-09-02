@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TEI xml:lang="fr">
+<teiHeader>
+		<fileDesc>
+			<titlestmt>
+				<title>MARIE STUARD REINE D'ÉCOSSE, TRAGÉDIE.</title>
+				<author type="texte" ISNI="0000 0000 0029 0635">Charles REGNAULT (16..-16..)</author>
+			</titlestmt>
+			<publicationstmt>	
+				<editor>Texte établi par Paul FIEVRE, mars 2024.</editor>
+				<publisher>publié par Paul FIEVRE, avril 2024.</publisher>
+				<idno>REGNAULT_MARIESTUARD</idno>
+				<rights>Creative Commons BY-NC-SA</rights>
+			</publicationstmt>
+			<sourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire</inspiration>
+				<type>vers</type>
+				<structure>Cinq actes</structure>
+				<periode>1631-1640</periode>
+				<taille>1500-1750</taille>
+				<permalien cote="BnF RLR RES-YF-1445">https://gallica.bnf.fr/ark:/12148/bpt6k118771k</permalien>
+			</sourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">MARIE STUARD REINE D'ÉCOSSE</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1639'>M. DC. XXXIX. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="REGNAULT, Charles">de Monsieur REGNAULT</docAuthor>
+		<docImprint>
+			<privilege><head>PRIVILÈGE DU ROI.</head>
+				<p>LOUIS PAR LA GRÂCE DE DIEU ROI DE FRANCE ET DE NAVARRE, à nos amés et féaux Conseillers les Gens tenants nos Cours de Parlement Maîtres des Requêtes ordinaires de Notre Hôtel, Baillifs, Sénéchaux, Prévôts, leurs Lieutenants, et à tous autres de nos Justiciers et Officiers qu'il appartiendra, salut. Notre cher et bien amé Toussaint Quinet, Marchand Libraire de notre bonne ville de Paris, nous à fait remontrer qu'il désirerait faire imprimer une pièce de théâtre intitulée Marie Stuard Reine d'Écosse Tragédie, ce qu'il ne peut faire sans avoir sur ce nos lettres humblement requérant icelles. À CES CAUSES désirant favorablement traiter ledit exposant, nous lui avons permis et permettons par ces présentes de faire imprimer, vendre débiter en tous lieux de notre obéissance, ledit livre en telle marge et tel caractère et autant de fois que bon lui semblera durant le temps et espace de cinq ans, entiers et accomplis à conter du jour que ledit livre fera achevé d'imprimer pour la première fois, et faisons très expresses défenses à toutes personnes de quelque qualité et condition qu'elles soient de l'imprimer faire imprimer vendre ni débiter durant ledit temps en aucun lieu de notre obéissance sans le consentement de l'exposant, sous prétexte d'augmentation, correction, changement de titre, fausses marques ou autres en quelque sorte et manière que ce soit, à peine de trois mille livres d'amende payable sans déport, nonobstant oppositions ou appellations quelconques par chacun des contrevenants, applicables un tiers à nous, un tiers à l'Hôtel Dieu de notre bonne ville de Paris, et l'autre tiers audit exposant, confiscation des exemplaires contrefaits et de tous dépens dommages et intérêts à condition qu'il en sera mis deux exemplaires en notre Bibliothèque publique, et un en celle de notre très cher et féal le sieur Séguier Chevalier Chancelier de France, avant que de les exposer en vente, à peine de nullité des présentes, du contenu desquelles nous vous mandons que vous fassiez jouir et user pleinement et paisiblement ledit exposant, et tous ceux qui auront droit de lui sans aucun empêchement, Voulons aussi qu'en mettant au commencement ou à la fin dudit liure un extrait des présentes, elles soient tenues pour dûment signifiées et que foi y soit ajoutée, et aux copies d'icelles collationnées par l'un de nos amés et féaux Conseillers et secrétaires, comme à l'original, Mandons aussi au premier notre Huissier ou sergent sur ce requis de faire pour l'exécution des présentes tous exploits nécessaires sans demander autre permission. CAR TEL EST NOTRE PLAISIR, Nonobstant clameur de Haro, et Chartres Normandes et autres lettres à ce contraires.</p>
+				<p>Donné à Chaillot le 14 jour de Mai l'an de grâce mil six cent trente huit et de notre règne le vingt huitième.</p>
+				<p>Par le Roi en son Conseil,</p>
+				<p>DE MONCEAUX.</p>
+				<p>Les exemplaires ont été fournis, ainsi qu'il est porté par les lettres de Privilège.</p>
+			</privilege>
+			<acheveImprime id="1638-12-19">Achevé d'Imprimer pour la première fois le 19 Décembre 1638.</acheveImprime>
+			<editor id='QUINET'>À PARIS, Chez TOUSSAINT QUINET, au Palais, dans le petite salle sous la montée de la Cour des Aides.</editor>		
+		</docImprint>
+		<div type="dédicace"><adresse>À MONSEIGNEUR MONSEIGNEUR L'EMINENTISSIME CARDINAL DUC DE RICHELIEU</adresse>
+			<head>MONSEIGNEUR,</head>
+			<p>Celle qui se jette à vos pieds est cette Marie Stuard à qui feu Henry II d'heureuse mémoire, donna François son fils pour mari, c'est celle qui reçut en ce temps là fur le front, la même Couronne que vous faites briller aujourd'hui fur la tête de mon Prince, et celle dont la condition, ni la vertu ne peuvent toutefois empêcher la perte. Véritablement MONSEIGNEUR, celui est un extrême avantage de ce qu'après avoir perdu le jour sur l'échafaud, vous lui voyez rendre l'honneur sur le Théâtre, et que si sa mort ne fut point vengée, au moins son innocence sera-t-elle défendue. Elle ne pouvait espérer toute Reine qu'elle est un traitement plus humain, ni plus favorable de votre EMINENCE qui s'est donné la peine elle-même d'ouïr ses aventures, et n'a pas refusé des larmes à la représentation d'un sujet si tragique ; Mais MONSEIGNEVR, il est à craindre que comme elle fut la plus infortunée de toutes les Princesses pendant sa vie, elle ne soit la plus malheureuse de toutes nos Dames illustres après sa mort ; je vois déjà renaître avec elle un nombre infinis d'ennemis, non pas plus forts, mais plus dangereux que les premiers ; car au moins les Conseillers d'Élisabeth quelques sévères qu'ils furent, examinèrent son procès auparavant de la juger, mais ceux-ci les plus injustes et les plus envieux de tous les juges, la veulent condamner sans l'avoir jamais ouïe ; Elle aurait eu sujet de crainte en son malheur, et d'appréhension en sa faiblesse, puisque la main de celui qui la redonne au public n'est pas si votre assez forte pour la défendre EMINENCE n'eut été son refuge, et ne l'eut prise en sa protection. Je ne présume pourtant pas si fort de moi MONSEIGNEUR, que de croire d'avoir pu vous contenter en ce rencontre, il faut atteindre au suprême degré de la perfection, ou de la vanité, pour se persuader de vous satisfaire ! De moi je m'estimerai toujours trop heureux, si mon poème ne m'a point fait rougir devant votre EMINENCE, s'il m'est permis d'aspirer à la gloire de ne vous avoir point déplu, et fi vous m'honorez tant que de souffrir que je prenne à jamais la qualité,</p>
+			<p>MONsEIGNEUR,</p>
+			<p>De votre très humble très obéissant et très fidèle serviteur</p>
+			<signature>REGNAULT.</signature>
+		</div>
+		<div type="préface"><head>APOLOGIE DE LA REINE d'ÉCOSSE au Lecteur.</head>
+			<p>Ce ne m'est pas seulement peu d'honneur, mais il m'est encore très glorieux d'avoir à marcher sur les traces des plus excellents hommes du dernier siècle, et d'écrire en suite des plus rares plumes du nôtre, une histoire si recommandable que celle de MARIE STUARD.</p> 
+			<p>Le divin Ronsard a tellement écrit en faveur de cette sage Princesse qu'à moins que d'être envieux, ou méchant tout à fait, on ne peut révoquer en doute son mérite.</p>
+			<p>Bucanan même, ce grand génie de qui l'Europe entière a su le nom et dont la vivacité d'esprit n'a péché qu'en ce qu'elle fut trop satyrique, n'a pu s'empêcher de la louer en mourant quoi qu'il reçut pension des Luthériens pour écrire contre elle, ce qui doit passer pour marque infaillible de fa vertu puisque son ennemi se trouve son panégyriste. Messieurs de Bellieure, Delagueste, de la Motte Aigron, et de l'Aubépine (de qui les noms sont immortels) ont si généreusement parlé pour elle contre ses ennemis, par des harangues que nos curieux conservent encore, que les enfants de ses plus grands adversaires entreprennent aujourd'hui sa défense en Angleterre.</p>
+			<p>Feu Monsieur l'Eminentissime Cardinal du Perron fit son Épitaphe peu de jours après son exécution, qui fut le Mercredi des Cendres de l'année 1587 à 4 heures du matin, ce tombeau les fera vivre l'une et l'autre en la mémoire de tous les hommes.</p>
+			<p>Un livre intitulé Le martyre de la Reine d'Ecoffe imprimé sous main dans Londres, découvrit la vérité de son histoire, obscurcie par la méchanceté des Puritains qui semaient partout des libelles diffamatoires contre son innocence.</p>
+			<p>La naissance de l'hérésie du sieur Florimond de Raymond parut en suite et fit savoir à toute la terre la longue tyrannie d'Élisabeth, et la constante patience de Marie.</p>
+			<p>Depuis peu les Révérends Pères Caussin et Hilarion, ont fait des traités particuliers de la vie et de la mort de cette grande Reine, à qui tous les écrivains ensemble ne reprochent qu'un excès de bonté.</p>
+			<p>C'est après tant d'illustres auteurs que je montre son innocence en ma Tragédie, c'est pourquoi, Lecteur, ce n'est pas pour t'en donner un argument que je t'écris, mais c'est pour t'avertir que je ne t'en donne point, un sujet si connu n'a pas besoin d'interprétation, et ce serait expliquer l'Histoire en l'Histoire même, car quoi que je me sois attaché particulièrement à la matière, j'ai disposé mon poème en telle sorte qu'il ne faut que l'ouïr, ou le lire pour le comprendre. Les récits y sont en leur lieux, tu n'y trouveras point de liaisons superflues, ni d'Episodes qui n'y soient nécessaires, les actions faites auparavant la scène, y font racontées sans aucune altération ou déguisement de la vérité de mon sujet ; j'ose avancer que sa lecture ni sa représentation n'ont pas mal réussi, puisqu'elles ont tiré des larmes des premiers, et des plus beaux yeux de la France : il est vrai que chacun voit les choses bien différemment, tel méprise ce qu'un autre estime, tous les visages font inégaux, et tous les esprits ne se ressemblent pas, je ne veux point user de tyrannie fur le tien, ni t'obliger d'adorer l'ouvrage de mes mains, parce que plusieurs l'ont approuvé, tu me favoriseras trop en le voyant d'un oeil sans passion, sois donc désintéressé pour être juge, et ne crois pas que je fois incapable de faire mieux, mais sache que je suis dans l'age où l'on commet encor tant de fautes qu'elles sont pardonnables alors qu'elles font belles. </p>
+			<p>Adieu.</p>
+		</div>
+		<div type="épigramme"><head>ÉPIGRAME À MONSIEUR REGNAULT sur sa Tragédie.</head>
+			<p type="v">Regnault, quand cette grande ReIne</p>
+			<p type="v">Vit finir la vie et sa peine</p>
+			<p type="v">Toute l'Europe en murmura :</p>
+			<p type="v">Cette mort (disait on) est injuste et cruelle,</p>
+			<p type="v">Mais depuis tu l'as faite et si juste et fi belle,</p>
+			<p type="v">Que même en la pleignant chacun l'approuvera.</p>
+			<p>ROTROU.</p>
+		</div>
+		<div type="épigramme"><adresse>À MONSIEUR REGNAULT son cher ami, auteur de Marie stuard.</adresse>
+		<head>EPIGRAMME.</head>
+				<p type="v">De ton Élisabeth la jalouse puissance</p>
+				<p type="v">Fit mourir une Reine en sa funeste Cour,</p>
+				<p type="v">L'Angleterre autrefois lui vit perdre le jour,</p>
+				<p type="v">Mais ta plume aujourd'hui la fait revivre en France.</p>
+				<p>POUCET DE MONTAVBAN.</p>
+		</div>
+		<div type="épigramme"><adresse>A MONsIEVR REGNAULT.</adresse>
+			<head>Épigramme.</head>
+			<p type="v">Regnault, si ta MARIE eut eu ton éloquence,</p>
+			<p type="v">Elle eut montré son innocence</p>
+			<p type="v">Aux yeux de ses persécuteurs.</p>
+			<p type="v">Et trouvant par tout des refuges</p>
+			<p type="v">Eut fait comme toi de ses Juges</p>
+			<p type="v">Ses plus humbles adorateurs,</p>
+			<p>GILLET.</p>
+		</div>
+		<div type="épigramme"><adresse>AU MÊME</adresse>
+			<head>Autre Épigramme.</head>
+			<p type="v">Quelque cruel tourment qu'ait souffert cette Reine</p>
+			<p type="v">Nous n'avons pas sujet de regretter sa mort,</p>
+			<p type="v">Puisqu'elle est trop heureuse ayant fini son sort</p>
+			<p type="v">De s'immortaliser avec si peu de peine,</p>
+			<p type="v">Et d'avoir cet honneur qu'un des plus grands esprits</p>
+			<p type="v">La fait revivre en ses écrits.</p>
+			<p>GILLET.</p>
+		</div>
+		<div type="épigramme"><head>À MONSIEUR REGNAULT SUR SA TRAGÉDIE.</head>
+			<p type="v">Vois que tes beaux écrits charment toute la terre,</p>
+			<p type="v">Et que jamais mortel n'ait fait de si bons vers,</p>
+			<p type="v">Si ne font ils que des éclairs</p>
+			<p type="v">Qui nous présagent un tonnerre.</p>
+			<p>AVICE</p>
+		</div>
+		<div type="stances"><adresse>À MONSIEUR REGNAULT</adresse>
+	    <head>STANCES, SUR LE MÊME SUJET.</head>
+			<p type="v">>Subtil esprit, savant génie,</p>
+			<p type="v">Qui savez comme l'on manie</p>
+			<p type="v">L'art de profe et l'art de rimer.</p>
+			<p type="v">souffrez que ma muSe vous die</p>
+			<p type="v">Que votre docte Tragédie</p>
+			<p type="v">A su celui de nous charmer.</p>
+			<p type="v">Elle a des grâces si naïves,</p>
+			<p type="v">Et des beautés qui sont si vives</p>
+			<p type="v">Que c'est trop peu de l'admirer.</p>
+			<p type="v">Et je crois ( loin de flatterie )</p>
+			<p type="v">Que sans commettre idolâtrie,</p>
+			<p type="v">Son seul prix est de l'adorer.</p>
+			<p type="v">Toute l'Europe en est ravie</p>
+			<p type="v">Quoi qu'elle pleure encor la vie</p>
+			<p type="v">Qu'elle n'a jamais pu sauver.</p>
+			<p type="v">Vos vers ont eu cette puissance,</p>
+			<p type="v">Conservez donc leur livre en France</p>
+			<p type="v">Si vous la voulez conserver.</p>
+			<p>CHOPPIN.</p>
+		</div>
+		<div type="épigramme"><adresse>À MONSIEUR REGNAULT SUR SA TRAGÉDIE.</adresse>
+			<head>EPIGRAMME.</head>
+			<p type="v">Quelle aimable clarté dessus notre horizon</p>
+			<p type="v">Apporte un nouveau jour qui contente la vue ?</p>
+			<p type="v">Quand d'un brillant soleil la terre est dépourvue</p>
+			<p type="v">Et par la jalousie et par la trahison.</p>
+			<p type="v">Un divin sentiment, dans la douleur nous touche,</p>
+			<p type="v">Un astre brille ici, lorsqu'un autre se couche</p>
+			<p type="v">Dans un fleuve de sang tristement répandu.</p>
+			<p type="v">Car de tes doctes vers la splendeur immortelle,</p>
+			<p type="v">Ébloui tant nos yeux d'une grâce nouvelle,</p>
+			<p type="v">La terre troue en toi ce qu'elle avait perdu.</p>
+			<p>DU PELLETIER</p>
+		</div>
+		<div type="poène"><head>À MONSIEVR REGNAULT, SUR SA REINE D'ECOSSE.</head>
+			<p type="v">Sur une insigne cruauté</p>
+			<p type="v">Tu bâtis un trône à ta gloire,</p>
+			<p type="v">Et l'injuste trépas d'une rare beauté</p>
+			<p type="v">Te place justement au temple de mémoire,</p>
+			<p type="v">Poursuis, divin Regnault, l'Histoire des François</p>
+			<p type="v">Et nous fais voir bientôt les généreux exploits</p>
+			<p type="v">De cette fille magnanime ;</p>
+			<p type="v">Hâte toi d'exposer sur un ardant autel</p>
+			<p type="v">Cette chaste et sainte victime,</p>
+			<p type="v">Travaillant à sa mort tu te rends immortel.</p>
+			<p>QALLEBRET</p>
+		</div>
+		<div typep="sonnet"><head>SONNET A MONSIEUR REGNAULT</head>
+			<p type="v">On admire ta plume en son premier effort</p>
+			<p type="v">L'Histoire de Marie étant si bien traitée,</p>
+			<p type="v">Ta gloire en même temps par le monde portée</p>
+			<p type="v">De la Tamise au Gange a déjà pris effort.</p>
+			<p type="v">Ta Reine dont l'Église á regretté le sort</p>
+			<p type="v">Est morte en Angleterre à tort persécutée,</p>
+			<p type="v">Par tes divins écrits elle est ressuscitée,</p>
+			<p type="v">Pour recevoir en France une seconde mort.</p>
+			<p type="v">Ô complice innocent des rigueurs d'Isabelle !</p>
+			<p type="v">Ce glorieux trépas rend sa soeur immortelle,</p>
+			<p type="v">On luy doit des autels c'est la commune voie.</p>
+			<p type="v">Il est juste et apprends de sa triste aventure</p>
+			<p type="v">Que si l'on veut revivre à la race future</p>
+			<p type="v">Ainsi que cette Reine il faut mourir deux fois.</p>
+				<p>SAINT GERMAIN.</p>
+		</div>
+		<div type="épigramme"><head>ÉPIGRAMME SUR LA MARIE D'ECOSSE DE MONSIEUR REGNAULT.</head>
+			<p type="v">Tous blâment le coup déplorable</p>
+			<p type="v">Qui mit ta Princesse au tombeau,</p>
+			<p type="v">Mais loin de le blâmer, je le juge louable</p>
+			<p type="v">Puisqu'il y a fait produire un ouvrage si beau.</p> <p>DE L'ISLE.</p>
+		</div>
+		<div type="épigramme"><head>AU MÊME</head>
+			<p type="v">Tu dépeins si bien les rigueurs</p>
+			<p type="v">Et les maximes d'Isabelle</p>
+			<p type="v">Que tu fais naître dans nos coeurs</p>
+			<p type="v">De l'horreur pour cette cruelle :</p>
+			<p type="v">Et chacun confesse tout haut</p>
+			<p type="v">Que ta Marie à tant de charmes,</p>
+			<p type="v">Qu'elle a plus fait verser de larmes</p>
+			<p type="v">Au Théâtre qu'à l'échafaud.</p>
+			<p>LE COMTE.</p>
+		</div>
+
+		<castList><head>LES PERSONNAGES</head>
+			<castItem><role id="MARIE STUARD" sex="2" type="H" statut="roi" age='A' stat_amour='néant'>MARIE STUARD</role>, sérénissime Reine d'Écosse et d'Irlande, douairière de France. légitime héritière d'Angleterre.</castItem>
+			<castItem><role id="KENEDE" sex="2" type="H" statut="aristocrate" age='A' stat_amour='néant'>KENEDE</role>, une de ses filles d'honneur.</castItem>
+			<castItem><role id="LE DUC DE NORFOLK" sex="1" type="H" statut="" age='A' stat_amour='néant'>LE DUC DE NORFOLK</role>, son amant et autrefois favori d'Élisabeth.</castItem>
+			<castItem><role id="MELVIN" sex="1" type="H" statut="aristocrate" age='A' stat_amour='néant'>MELVIN</role>, Grand Maistre de la maison d'Écosse, et celui qui fait le récit de la mort de sa Reine.</castItem>
+			<castItem><role id="LE VICOMTE DE HERRIN" sex="1" type="H" statut="vicomte" age='A' stat_amour='néant'>LE VICOMTE DE HERRIN</role>, seigneur écossais.</castItem>
+			<castItem><role id="ÉLISABETH" sex="2" type="H" statut="roi" age='A' stat_amour='néant'>ÉLISABETH</role>, fille naturelle de Henry VIII d'Angleterre.</castItem>
+			<castItem><role id="LE COMTE DE MORAY" sex="1" type="H" statut="Comte" age='A' stat_amour='néant'>LE COMTE DE MORAY</role>, bâtard de Jacques V. Roi d'Écosse, et frère naturel de Marie.</castItem>
+			<castItem><role id="LE COMTE DE KENT" sex="1" type="H" statut="comte" age='A' stat_amour='néant'>LE COMTE DE KENT</role>, Conseiller d'Élisabeth.</castItem>
+			<castItem><role id="LEMARES DE SCHEROBERY" sex="1" type="H" statut="conseiller" age='A' stat_amour='néant'>LEMARES DE SCHEROBERY</role>, Conseiller d'Élisabeth.</castItem>
+			<castItem><role id="LES ÉTATS D'ANGLETERRE" sex="1" type="H" statut="" age='A' stat_amour='néant'>LES ÉTATS D'ANGLETERRE</role>, Conseillers d'Élisabeth.</castItem>
+			<castItem><role id="POMPONNE DE BELLIEVRE" sex="1" type="H" statut="ambassadeur" age='A' stat_amour='néant'>POMPONNE DE BELLIEVRE</role>, Ambassadeur de France et depuis Chancelier.</castItem>
+			<castItem><role id="KILLEGRE" sex="1" type="H" statut="capiraine" age='A' stat_amour='néant'>KILLEGRE</role>, Capitaine des Gardes.</castItem>
+			<castItem><role id="TROUPE D'OFFICIERs" sex="1" type="H" statut="officier" age='A' stat_amour='néant'>TROUPE D'OFFICIERs</role> de Marie et du Duc.</castItem>
+			<castItem><role id="AMIAS PAULET" sex="1" type="H" statut="concierge" age='A' stat_amour='néant'>AMIAS PAULET</role>, Concierge de la Tour où est Marie.</castItem>
+			<castItem><role id="PAGE DE LA CHAMBRE D'ÉLISABETH" sex="1" type="H" statut="page" age='A' stat_amour='néant'>PAGE DE LA CHAMBRE D'ÉLISABETH</role>.</castItem>
+		</castList>
+			<set location="Londres" country="Angleterre" periode="XVIème" gps="51.507, -0.127">La scène est en Angleterre.</set>
+</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE PREMIER</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Marie, Le Duc de Norfolk, Kenede.</head>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1">Puisque vous désirez d'une ardeur incroyable</l>
+	<l id="2">Voir de tant d'accidents le portrait effroyable,</l>
+	<l id="3">En ce nouveau récit de mes vieilles douleurs</l>
+	<l id="4">Ne me défendez pas la liberté des pleurs</l>
+	<l id="5">Je vais vous raconter d'étranges aventures ;</l>
+	<l id="6">L'étonnement du siècle et des races futures,</l>
+	<l id="7">Mais qui feront frémir d'horreur et de pitié</l>
+	<l id="8">Ceux qui conserveront un reste d'amitié,.</l>
+	<l id="9">Sachez donc quelle fut ma première misère !</l>
+	<l id="10">Je vis presque en naissant la perte de mon père,</l>
+	<l id="11">Car le soleil sur moi n'avait pas fait un tour.</l>
+	<l id="12">Lorsqu'on priva ce Roi de la clarté du jour,</l>
+	<l id="13">Et quel horrible feu des flambeaux de la guerre</l>
+	<l id="14">« Chassa ma mère et moi de ma natale terre,</l>
+	<l id="15">Qu'un enfant est heureux ! Lorsque dès son berceau</l>
+	<l id="16">L'astre de sa naissance éclaire à son tombeau,</l>
+	<l id="17">Que le jour qu'il anime est celui qui le tue,</l>
+	<l id="18">Et qu'il perd la lumière alors qu'il la salue,</l>
+	<l id="19">La mort dont le seul nom nous épouvante tous</l>
+	<l id="20">Ne s'apparaît à lui que d'un visage doux, »</l>
+	<l id="21">Hélas qu'un pareil sort m'eut été favorable,</l>
+	<l id="22">Cette captivité si longue et déplorable</l>
+	<l id="23">Et mille autres malheurs où mes jours sont réduits</l>
+	<l id="24">Ne me feraient pas voir en l'état ou je suis .</l>
+	<l id="25">Déjà sept fois les ans avaient changé les choses</l>
+	<l id="26">Par sept fois j'avais vu naître et mourir les roses,</l>
+	<l id="27">Quand je restai sans mère et qu'en France je vins</l>
+	<l id="28">Dessous d'autres climats trouver d'autres destins,</l>
+	<l id="29">Henri second du nom, Monarque magnanime,</l>
+	<l id="30">Y fit de ma personne une si grande estime,</l>
+	<l id="31">Qu'il me mit sous le joug des amoureuses lois</l>
+	<l id="32">Avec François son fils, digne sang des Valois.</l>
+	<l id="33">Mais le sort nous trahit et la même journée</l>
+	<l id="34">Que l'on solennisait un si bel Hyménée,</l>
+	<l id="35">Au milieu des tournois, des pompes, des festins</l>
+	<l id="36">Paris vit de ce Prince achever les destins.</l>
+	<l id="37">François son successeur brillant pour disparaître</l>
+	<l id="38">Fit mourir tôt après, l'heur qu'il m'avait fait naître</l>
+	<l id="39">Ainsi ces deux grands Rois terminèrent leurs ans,</l>
+	<l id="40">L'un dedans son automne, l'autre en son printemps</l>
+	<l id="41">Lors veuve, sans enfants, je revins en ma terre</l>
+	<l id="42">Toute sanglante encor d'une intestine guerre,</l>
+	<l id="43">Ou, d'un second Hymen j'allumai le flambeau</l>
+	<l id="44">Pour un Prince amoureux autant qu'il était beau</l>
+	<l id="45">Le COMTE_de_LENOX, doux charme de mon âme,</l>
+	<l id="46">Inspira dans mon coeur une seconde flamme,</l>
+	<l id="47">Et quoi qu'un frère ingrat s'élevât contre moi</l>
+	<l id="48">J'épousai cet amant dont je me fis un Roi.</l>
+	<l id="49">Nous jouissions déjà d'une parfaite joie</l>
+	<l id="50">Qui filait nos plaisirs sur l'or et sur la soie,</l>
+	<l id="51">Déjà nous ignorions toutes sortes d'ennuis,</l>
+	<l id="52">Nos jours duraient sans cesse, et n'avaient point de nuits,</l>
+	<l id="53">Quand mon frère glissa, dedans la fantaisie</l>
+	<l id="54">De mon peuple abusé par la vieille hérésie</l>
+	<l id="55">D'oublier son respect et sa fidélité</l>
+	<l id="56">Pour me ravir le sceptre avec la liberté.</l>
+	<l id="57">Ce dessein m'excita des querelles civiles,</l>
+	<l id="58">Révolta les sujets de mes meilleures villes,</l>
+	<l id="59">Remplit toute l'Écosse de sang et d'effroi</l>
+	<l id="60">Et conjura ma perte, après celle du Roi.</l>
+	<l id="61">Puis ce frère, où plutôt ce traître et ce perfide</l>
+	<l id="62">M'accusant de son crime et de son parricide</l>
+	<l id="63">Me conduisit lui-même en ces tristes châteaux</l>
+<note type="L">La lac de Leven ou loch Leven situé à une vingtaine de kilomètres d'Édimbourg. Un château austère su XIVème y trône sur une petite île d'une centaine de mètres de long. Marie Stuard y séjourna en 1565 puis y fut enfermée une année dès juin 1567.</note>
+	<l id="64">Que le lac_de_Léven entoure de ses eaux.</l>
+	<l id="65">Ô que d'affreuses nuits ! D'horribles journées</l>
+	<l id="66">Sont depuis ce temps là dans leur cercles tournées.</l>
+	<l id="67">Que d'images de mort effrayèrent mes yeux,.</l>
+	<l id="68">Tandis qu'on me retint en ces funestes lieux.</l>
+	<l id="69">À la fin, un enfant de qui Douglas est père.</l>
+	<l id="70">Sentit son jeune coeur touché de mammifère,</l>
+	<l id="71">Et me sollicita de m'embarquer sur l'eau</l>
+	<l id="72">Par le moyen des clefs qu'il surprit au château.</l>
+	<l id="73">J'approuvai son avis, j'admirai sa prudence ;</l>
+	<l id="74">Et le priai surtout d'observer le silence</l>
+	<l id="75">M'étonnant qu'un enfant eut l'esprit assez mûr</l>
+	<l id="76">Pour faire élection d'un moyen qui fut sûr.</l>
+	<l id="77">L'astre qui fait nos jours était plongé dans l'onde</l>
+	<l id="78">Le sommeil avait clos les yeux de tout le monde.</l>
+	<l id="79">Lorsqu'il vint m'avertir au milieu de la nuit</l>
+	<l id="80">Et déprendre la fuite et d'éviter le bruit.</l>
+	<l id="81">Kenede, digne objet d'éternelle mémoire</l>
+	<l id="82">Fit lors une action toute pleine de gloire,</l>
+	<l id="83">Elle exposa sa vie à la merci de l'eau</l>
+	<l id="84">Et se précipita poursuivre mon vaisseau.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="85">Quoi qu'en cette action j'aie été téméraire</l>
+	<l id="86">J'y fis bien moins encor que je ne devais faire</l>
+	<l id="87">J'étais trop obligée à votre Majesté !</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="88">Ô merveilleux effet de générosité ?</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="89">Étant dessus le lac, nous allons de la sorte</l>
+	<l id="90">À l'autre bord de l'onde ou le vent nous emporte</l>
+	<l id="91">L'Illustre de Celon (il m'en souvient toujours)</l>
+	<l id="92">En cette occasion me prête son secours</l>
+	<l id="93">Jure de me venger de mes justes querelles</l>
+	<l id="94">Lève mille boucliers, pour punir des rebelles ;</l>
+	<l id="95">Et donne une bataille ou ce rare seigneur</l>
+	<l id="96">Par le prix de son sang rachète mon bonheur.</l>
+	<l id="97">Ces Rebelles domptez contre mon espérance</l>
+	<l id="98">Le conçois le dessein de retourner en France,</l>
+	<l id="99">Mais comme nous suivons ce pays qui nous fuit</l>
+	<l id="100">Le jour nous est ravi par une horrible nuit :</l>
+	<l id="101">Voilà qu'un prompt éclair messager de la nue</l>
+	<l id="102">D'une foudre prochaine annonce la venue.</l>
+	<l id="103">Certes en ce moment nous vîmes de nos yeux</l>
+	<l id="104">Les abîmes du monde et le centre des Cieux.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="105" syll="6" part="i">Hélas !... mais poursuivez.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="105" syll="6" part="f">Dans ce pressant orage </l>
+	<l id="106">Jamais l'étonnement ne m'ôta le courage</l>
+	<l id="107">Je demeurai constante en ces extrémités</l>
+	<l id="108">Et j'eus le coeur plus grand que mes calamités.</l>
+	<l id="109">Quand tous les éléments eurent fini leur guerre</l>
+	<l id="110">Lèvent me rejeta sur les bords d'Angleterre</l>
+	<l id="111">Et le fit à dessein parce_que je voulais</l>
+	<l id="112">Attacher un jour l'ancre aux rivages Gaulois</l>
+	<l id="113">Alors Élisabeth cette fille d'un crime</l>
+	<l id="114">Qui nonobstant mes droits passe pour légitime,</l>
+	<l id="115">M'envoya par Lincestre un coeur de diamant.</l>
+	<l id="116">D'où j'appris que le sien l'était pareillement ;</l>
+	<l id="117">Et que les qualités de cruelle et de dure</l>
+	<l id="118">L'avaient faite déjà de la même nature.</l>
+	<l id="119">Mais ce récit m'ennuie, et puis vous avez su</l>
+	<l id="120">Ce que je vous dirais, que vous n'avez pas vu.</l>
+<note type="L">Nombrer : Trouver le nombre de. [L]</note>
+	<l id="121">Celui qui nombrera les arènes menues</l>
+	<l id="122">Que l'eau le reflux de tant d'ondes chenues</l>
+	<l id="123">Certes celui la seule vous dira mes travaux</l>
+	<l id="124">Et vous pourra conter le reste de mes maux[.)</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="125">De moi je ne crois pas que les races futures</l>
+	<l id="126">Prennent pour vérités de telles aventures ;</l>
+	<l id="127">Mais vous en êtes hors, il n'y faut plus penser</l>
+	<l id="128">Puisque s'en souvenir c'est les recommencer :</l>
+	<l id="129">Ne parlons désormais que de notre Hyménée,</l>
+	<l id="130">Dont nous touchons ici l'adorable journée.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="131">Je crains malgré les voeux que nous en avons faits</l>
+	<l id="132">Que les torches d'Hymen ne nous luisent jamais,</l>
+	<l id="133">Ou qu'au lieu d'éclairer nos saintes épousailles</l>
+	<l id="134">Elles ne fassent voir nos tristes funérailles.</l>
+	<l id="135">Barbare Élisabeth ! Qui crois n'avoir rien fait </l>
+	<l id="136">Si chacun de tes jours n'est marqué d'un forfait ;</l>
+	<l id="137">Toi qui de mon Empire as la vertu bannie</l>
+	<l id="138">Pour y faire à présent régner la tyrannie :</l>
+	<l id="139">Si tu reçus le jour sous un tel ascendant</l>
+	<l id="140">Qu'il t'ait prédestinée à vivre en commandant.</l>
+	<l id="141">Tu devais exercer ta rude tyrannie</l>
+	<l id="142">Sur la brutalité des tigres d'Hyrcanie,</l>
+	<l id="143">Et tu ne devais pas commander aux humains,</l>
+	<l id="144">Par ce sceptre sanglant qui dégoutte en tes mains</l>
+	<l id="145">Des tragiques effets de ton humeur altière :</l>
+	<l id="146">À qui mon innocence à servi de matière.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="147">Madame ce discours paraît hors de saison</l>
+	<l id="148">Puis qu'on va terminer votre longue prison</l>
+	<l id="149">Qu'en fin Élisabeth s'est réconciliée</l>
+	<l id="150">À votre Majesté comme à son alliée,</l>
+	<l id="151">Et qu'elle m'a promis d'avoir plus de douceur</l>
+	<l id="152">Et de vivre avec vous comme avecque sa soeur.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="153">Je crains qu'en me baisant sa perfidie éclate</l>
+	<l id="154">J'appréhende sa main encor qu'elle me flatte</l>
+	<l id="155">Et je pense pour moi que quelque trahison</l>
+	<l id="156">Parmi ce doux breuvage à mêlé du poison.</l>
+	<l id="157">Je connais des longtemps par expérience</l>
+	<l id="158">Quelle est Élisabeth et sa noire science ;</l>
+	<l id="159">Mais vous ne connaîtrez cet esprit dangereux,</l>
+	<l id="160">Qu'alors que mon amour vous rendra malheureux</l>
+	<l id="161">Car... et souvenez vous d'une telle pensée</l>
+	<l id="162">Notre prospérité doit être traversée,</l>
+	<l id="163">Et je vois un funeste et prochain accident</l>
+	<l id="164">Qui vos jours et les miens plonge en leur occident.</l>
+	<l id="165">Cette Reine suivra la fureur qui l'anime,</l>
+	<l id="166">Et sa déloyauté fera gloire d'un crime,</l>
+	<l id="167">D'un crime que jamais nos neveux ne croiront</l>
+	<l id="168">Elle me ravira l'ornement de mon front ;</l>
+	<l id="169">Et comme en profitant d'une civile guerre</l>
+	<l id="170">Elle usurpa jadis le trône d'Angleterre :</l>
+	<l id="171">Elle m'arrachera contre toutes les lois</l>
+	<l id="172">La Couronne, la vie, et le sceptre à la fois.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="173">Ne la soupçonnez pas de tant de perfidie</l>
+	<l id="174">L'autorité quelle a permet que l'on s'y fie :</l>
+	<l id="175">Et puis la majesté que vos pareilles ont</l>
+	<l id="176">Leur donne des vertus qui brillent sur son front.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="177">L'autorité souvent est mère d'injustice,</l>
+	<l id="178">Souvent la Majesté cache le front du vice</l>
+	<l id="179">Ceux qui sont les chemins en détournent leur pas,</l>
+	<l id="180">Et ceux qui font les lois ne les observent pas.</l>
+	<l id="181">Craignez donc désormais si vous me voulez plaire,</l>
+	<l id="182">D'éprouver avec moi la fortune contraire;</l>
+	<l id="183">Ne considérez plus un sujet de douleur</l>
+	<l id="184">Et n'ayez plus d'amour pour l'objet du malheur.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="185">Que me commandez vous ? Ma lumière, mon âme ;</l>
+	<l id="186">Si j'ose me servir de ces noms pleins de flamme</l>
+	<l id="187">Et si l'amour me souffre assez de libertés</l>
+	<l id="188">Pour vous donner déjà ces belles qualités.</l>
+	<l id="189">Voudriez vous rétracter la parole donnée</l>
+	<l id="190">En faveur de mes soins et de notre Hyménée</l>
+	<l id="191">Heureux grand dessein dont j'espère l'effet</l>
+	<l id="192">Suivant le voeu commun que nous en avons fait.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="193">Quel sujet avez-vous de douter de ma flamme</l>
+	<l id="194">Puisque vous possédez la moitié de mon âme ?</l>
+	<l id="195">Quoi généreux amant soupçonnez vous ma foi ?</l>
+	<l id="196">Vous persuadez vous d'aimer autant que moi ?</l>
+	<l id="197">Et voyant mon ardeur qui s'augmente et qui dure</l>
+	<l id="198">Pouvez vous justement me faire tant d'injure ?</l>
+	<l id="199">Hà perdez ce soupçon si vous l'avez conçu,</l>
+	<l id="200">Et réparez le tort que mon coeur à reçu[.]</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="201">Bien que vous me fassiez cette faveur insigne</l>
+	<l id="202">Le doute du bonheur dont je me sens indigne,</l>
+	<l id="203" syll="6" part="i">Et je ne puis penser...</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="203" syll="6" part="f">Au nom de nos amours</l>
+	<l id="204">Mettez fin je vous prie à semblables discours.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="205">Si je les répétais je serais une offense</l>
+	<l id="206">Et ce commandement m'impose le silence.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Élisabeth, Le Comte de Mourray,  Le Comte de Kent.</head>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="207">Vois Norfolk me trahit et le ciel à permis</l>
+	<l id="208">Que même un favori soit de mes ennemis !</l>
+	<l id="209">Quoi le Duc dites vous, aujourd'hui se marie</l>
+	<l id="210">sans ma permission à la Reine Marie ?</l>
+	<l id="211">Même loin de le taire, ou le dissimuler</l>
+	<l id="212">Tous deux vous ont prié de m'en venir parler</l>
+<stage type="low/location">Elle dit ceci tous bas à l'écart.</stage>
+	<l id="213">Ô de quelles fureurs me sens-je possédée !</l>
+	<l id="214">Hà perfide, est-ce ainsi que ta foi m'est gardée ?</l>
+	<l id="215">Cette immuable foi ? Cette immortelle amour</l>
+	<l id="216">Qu'on devait conserver plus longtemps que le jour ?</l>
+	<l id="217">Ne te souvient-il plus de ces secrètes flammes,</l>
+	<l id="218">Ni de ces chastes noeuds qui joignaient nos deux âmes ?</l>
+	<l id="219">Je dusse être honteuse et je dusse rougir</l>
+	<l id="220">De quoi ma passion n'a peu se mieux régir</l>
+	<l id="221">Ou mieux distribuer mes faveurs avancées,</l>
+	<l id="222">Et je meurs repensant à ces choses passées :</l>
+	<l id="223">Mais je t'empêcherai d'en pouvoir discourir,</l>
+	<l id="224">Et j'en sais le moyen, je te ferai mourir,</l>
+	<l id="225">C'en est fait mon amour s'est changée en furie</l>
+<stage type="back/closer">Elle revient devers les Comtes.</stage>
+	<l id="226">De sorte que le Duc épousera Marie,</l>
+	<l id="227" syll="6" part="i">Depuis quand l'aime-t-il ?</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="227" syll="6" part="f">Il me souvient qu'un jour</l>
+	<l id="228">Les États_d_Angleterre assemblèrent la Cour,</l>
+	<l id="229">Pour faire le procès à cette Criminelle,</l>
+	<l id="230">Là tous furent pour vous, là tous furent contre elle,</l>
+	<l id="231">Et le Duc toutefois changea de sentiment,</l>
+	<l id="232">De juge qu'il était devenu son amant.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="233" syll="6" part="i">Le parjure l'ingrat !</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="233" syll="6" part="f">C'eut été peu de chose,</l>
+	<l id="234" syll="6" part="i">S'il n'eut fait encor plus ?</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="234" syll="4" part="m">Hé quoi dites...</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="234" syll="2" part="f">Je n'ose.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="235" syll="4" part="i">Dites moi tout...</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="235" syll="8" part="f">Ce Duc, que vous estimiez, tant...</l>
+	<l id="236">Mais dois-je découvrir ce secret important ?</l>
+	<l id="237">Oui... Madame ce Duc, ce Duc même conspire</l>
+	<l id="238">De vous mettre au cercueil de perdre cet Empire,</l>
+	<l id="239">D'usurper votre sceptre, et de se faire Roi</l>
+	<l id="240">En élevant ma soeur au trône ou je vous vois.</l>
+	<l id="241">Ayant fait arrêter son premier secrétaire</l>
+	<l id="242">Qui de ces deux paquets était dépositaire ;</l>
+	<l id="243">Et voyant qu'il feignait sans me rien confesser</l>
+	<l id="244">J'ai cru que le meilleur était de le presser</l>
+	<l id="245">Et pour en découvrir la vérité sans peine</l>
+	<l id="246">Je l'ai fait à mes yeux appliquer à la gêne,</l>
+	<l id="247">Ou ces mots à peu près sont sortis de sa voix,</l>
+	<l id="248">MARIE A RÉSOLU LA PERTE DES ANGLAIS,</l>
+	<l id="249">NORFOLK A SUSCITÉ LEs BARONS, ET CONSPIRE...</l>
+	<l id="250">Là sa parole meurt et puis lui-même expire,</l>
+	<l id="251">Au moins j'ai l'avantage et le contentement</l>
+	<l id="252">D'en avoir su tirer cet éclaircissement.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+<note type="L">La Comte de Kent : Henry Grey (1573-1615).</note>
+	<l id="253">Écoutez par ma voix, la voie de la patrie</l>
+	<l id="254">Qui pour votre salut vous conjure et vous prie</l>
+	<l id="255">De détourner plutôt ce danger apparent,</l>
+	<l id="256">Que de voir qu'un ruisseau devienne un jour torrent,</l>
+	<l id="257">Et court malgré vous ou sa fureur l'emporte.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="258">Hà traître ! Devais tu me tromper de la sorte ?</l>
+	<l id="259">Et sans considérer quelle en serait la fin</l>
+	<l id="260">Devais tu concevoir cet orgueilleux dessein ?</l>
+	<l id="261">Je ne pus l'étouffer lorsque tu le fis naître</l>
+	<l id="262">Mais je sais les moyens de l'empêcher de croître.</l>
+	<l id="263">Tels crimes impunis ont causé quelquefois</l>
+	<l id="264">La ruine et la mort des trônes et des Rois</l>
+	<l id="265">Donnez moi ces paquets, voyons, que ce peut être ?</l>
+<stage id="rezd">Elle lit la souscription d'une lettre supposée de Marie.</stage>
+	<l id="266">AU COMTE_D_ARONDEL, AU COMTE_DE_GLOUCESTER.</l>
+	<l id="267">Voila déjà des noms que l'on n'aurait pas mis</l>
+	<l id="268">S'ils n'eussent point été ceux de mes ennemis.</l>
+<stage type="open/read">Elle l'ouvre et lit.</stage>
+	<l id="269">Si pour me secourir vous concevez l'audace</l>
+	<l id="270">De vaincre Élisabeth qui cause mon malheur,</l>
+	<l id="271">Et si par vos moyens je sors de cette place</l>
+	<l id="272">Vous en aurez une en mon coeur.</l>
+	<l id="273" syll="2" part="i">Marie...</l>
+	<l id="273" syll="10" part="f">Ô criminelle ô perfide alliée</l>
+	<l id="274">J'avais déjà pour toi ma colère oubliée,</l>
+	<l id="275">Mais voyons les secrets de cet autre papier,</l>
+	<l id="276">Dont le titre est semblable à celui du premier.</l>
+<stage type="8read">Elle lit la fausse lettre du Duc.</stage>
+	<l id="277">VOus savez la misère et l'état déplorable</l>
+	<l id="278">Où Marie à présent voit réduire son sort</l>
+	<l id="279">Et comme Élisabeth, étant inexorable</l>
+	<l id="280">Elle n'attend plus que la mort.</l>
+	<l id="281">Que de compassion vos âmes affligées</l>
+	<l id="282">Ressentent quelques maux de ceux qu'elle a soufferts,</l>
+	<l id="283">Et qu'un jour par vos mains ses mains soient soulagées</l>
+	<l id="284">Du pesant fardeau de leur fers.</l>
+	<l id="285" syll="2" part="i">Norfolk ......</l>
+	<l id="285" syll="10" part="f">À ce rapport, il faut que je me fie,</l>
+	<l id="286">Mes yeux sont les témoins de cette perfidie</l>
+	<l id="287">Oui voilà le cachet de ce lâche seigneur.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="288">Et voici l'écriture et le seing de ma soeur[.]</l>
+</sp>
+<sp stage="hide" who="ÉLISABETH"><speaker>ÉLISABETH, ayant resserré les lettres.</speaker>
+	<l id="289">Inventons un tourment qui leur soit équitable,</l>
+	<l id="290">Une punition horrible, épouvantable,</l>
+	<l id="291">Qui laisse on triste exemple à la postérité,</l>
+	<l id="292">De haine de justice de sévérité.</l>
+	<l id="293">Je veux que l'on immole à ma juste furie</l>
+	<l id="294">Et le Duc_de_Nolfoc et la Reine_Marie,</l>
+	<l id="295">Efforcez vous de plaire à cette passion</l>
+	<l id="296">Et les sacrifiez à mon ambition ;</l>
+	<l id="297">Satisfaites en tout à ma colère extrême</l>
+	<l id="298">Donnez leur deux bandeaux au lieu d'un diadème,</l>
+	<l id="299">Et pour les élever en un degré plus haut</l>
+	<l id="300">Dressez dessus leur trône un sanglant échafaud,</l>
+	<l id="301">Nous... Imitons les faits d'Hérode es de Tibère,</l>
+	<l id="302">Et s'il se peut encor surpassons notre père ;</l>
+	<l id="303">Perdons une Princesse avec un favori,</l>
+	<l id="304">Et par là paressons la fille de Henry.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="305">Par là vos actions dignement s'éternisent,</l>
+	<l id="306">Et tous vos faits en un par là s'immortalisent,</l>
+	<l id="307">Achevant cet ouvrage il faut que vous voyez</l>
+	<l id="308">La Fortune en vos mains, et l'envie à vos pieds.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Le Comte de Mourray, Le Comte de  Kent.</head>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="309">L'Art n'a jamais si bien imité la nature</l>
+	<l id="310">Que l'on a contrefait cette double écriture,</l>
+	<l id="311">Marie et son amant travailleront en vain,</l>
+	<l id="312">Pour se mettre à couvert des traits de notre main.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="313">Il semble que le Ciel favorise ce crime,</l>
+	<l id="314">Et je doute déjà qu'il ne soit légitime,</l>
+	<l id="315">Tous succède à vos voeux, tout rit à vos desseins.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="316">Le sceptre de ma soeur va tomber en mes mains,</l>
+	<l id="317">Et je ferai bientôt (orné de sa Couronne)</l>
+	<l id="318">Un pas de son tombeau pour monter sur son trône,</l>
+	<l id="319">Il est vrai que je faux je ne le puis nier</l>
+	<l id="320">Mais ma faute pourtant se peut justifier,</l>
+	<l id="321">Car quoi que ce projet paraisse illégitime</l>
+	<l id="322">« C'est être vertueux que de faire un beau crime</l>
+	<l id="323">Et le doux nom de Roi ne saurait trop coûter</l>
+	<l id="324">Quand par un sacrilège on devrait l'acheter. »</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="aparte" who="LE DUC DE NORFOLK"><speaker>LE DUC DE NORFOLK, à soi-même.</speaker>
+	<l id="325">Quel triste Démon ennemi de la joie</l>
+	<l id="326">Et jaloux du bonheur que l'amour nous envoie,</l>
+	<l id="327" syll="6" part="i">M'oblige de rêver ?</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="327" syll="6" part="f">La Reine Élisabeth, </l>
+	<l id="328" syll="6" part="i">Vous mande MonSeigneur .....</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="328" syll="1" part="m">Ou ?</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="328" syll="6" part="f">Dans le Cabinet,</l>
+	<l id="329">Mais Si je ne me trompe elle-même s'avance.</l>
+</sp>
+<sp stage="low" who="LE DUC"><speaker>LE DUC, tout bas.</speaker>
+	<l id="330">D'on vient qu'a son aspect je manque d'assurance,</l>
+	<l id="331">Un secret mouVement me donne de l'effroi</l>
+	<l id="332">Je crains de l'aborder et je ne sais pourquoi.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Élisabeth, Le Duc de Norfolk.</head>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="333">Je vous ai dit cent fois que je serais contente,</l>
+	<l id="334">De pouvoir achever le projet que je tente,</l>
+	<l id="335">Et d'augmenter l'éclat que le ciel ma donné</l>
+	<l id="336">Aux dépens d'un Royaume d'un front couronné</l>
+	<l id="337">Mon âme qui languit ne peut être guérie,</l>
+	<l id="338">Que par l'heureux succès de la mort de Marie,</l>
+	<l id="339">Moi devant qui des Rois se sont humiliés</l>
+	<l id="340">Je foulerai sa tête à mes superbes pieds.</l>
+	<l id="341">Son crime est assez grand d'avoir su nous déplaire,</l>
+	<l id="342">Éteignons la clarté du flambeau qui l'éclaire</l>
+	<l id="343">Contre elle employons tout, jusqu'à la cruauté</l>
+	<l id="344">Ravissons lui le jour qu'elle nous eut ôté</l>
+	<l id="345">Pour empêcher un mal commettons en un autre</l>
+	<l id="346">Et répandons son sang pour conserver le nôtre.</l>
+	<l id="347">Vous de qui le Conseil et la fidélité,</l>
+	<l id="348">Ne forment de desseins qu'à mon utilité</l>
+	<l id="349">Cher Duc conseillez-moi que faut il que je fasse,</l>
+	<l id="350">Dois-je lui refuser, ou lui donner sa grâce.</l>
+</sp>
+<sp stage="aparte" who="LE DUC DE NORFOLK"><speaker>LE DUC DE NORFOLK, à l'écart.</speaker>
+	<l id="351">Il faut adroitement répondre à ses discours</l>
+	<l id="352">Car sans doute le Comte à trahi nos amours.</l>
+	<l id="353">Hà qu'attentivement son oeil me considère !</l>
+	<l id="354">Madame mon esprit n'est pas si téméraire.</l>
+	<l id="355">Que de songer jamais à vous donner conseil</l>
+	<l id="356">Ce serait présenter la lumière au soleil ;</l>
+	<l id="357">Que votre majesté de cela me dispense</l>
+	<l id="358">Je crains que mes avis choquent votre prudence.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="359" syll="6" part="i">Je veux absolument...</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id="359" syll="6" part="f">Bien donc je vais parler,</l>
+	<l id="360">Plus pour vous obéir que pour vous conseiller</l>
+	<l id="361">Je ne puis concevoir Madame, qu'une Reine</l>
+	<l id="362">Ait pour une Princesse une si forte haine,</l>
+	<l id="363">Qu'aspirant avec elle a de mêmes honneurs</l>
+	<l id="364">Vous ayez toutefois de contraires humeurs</l>
+	<l id="365">Il le faut avouer ce prodige m'étonne,</l>
+	<l id="366">Et sans favoriser le parti de personne :</l>
+	<l id="367">Je dis que la douceur a bien souvent fait voir</l>
+	<l id="368">Des ennemis rangés aux termes du devoir ;</l>
+	<l id="369">C'est un céleste aimant qui sans aucune peine</l>
+	<l id="370">Attire à soi les cours d'une invisible chaîne.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="371">La Maison de Henry, la race d'Édouard</l>
+	<l id="372">S'opposent des longtemps à celle de Stuard,</l>
+	<l id="373">C'est l'ancienne erreur d'une immortelle haine</l>
+	<l id="374">Qui nous tourne en nature avec si peu de peine</l>
+	<l id="375">Que sans avoir d'horreur des maux qu'elle nous fait</l>
+	<l id="376">Nous la suçons toujours aussitôt que le lait ;</l>
+	<l id="377">Tellement que delà proviennent en partie</l>
+	<l id="378">Cette dissension et cette antipathie.</l>
+	<l id="379">Outre que la raison m'oblige de haïr</l>
+	<l id="380">Celle qui chaque jour conspire à me trahir,</l>
+	<l id="381">Et celle dont la faute est encor si récente</l>
+	<l id="382">Que la même vertu veut que je m'en ressente.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="383">Hà Madame épargnez en elle votre sang</l>
+	<l id="384">Et ne meurtrissez pas celles de votre rang,</l>
+	<l id="385">Car quand cette Princesse après vous sans seconde,</l>
+	<l id="386">Aurait enfin commis tous les crimes du monde.</l>
+	<l id="387">Le respect de ces noms de Reines et de Rois</l>
+	<l id="388">La soustrairait toujours à la rigueur des lois.</l>
+	<l id="389">Lorsqu'un grand à failli Dieu seul fait son supplice,</l>
+	<l id="390">Il s'en réserve seul à lui seul la justice,</l>
+	<l id="391">Il abaisse ce grand qu'il avait élevé.</l>
+	<l id="392">Et détruit ce chef_d_oeuvre ou son nom est gravé.</l>
+	<l id="393">Les Reines et les Rois ses vivantes images</l>
+	<l id="394">Et de ses dignes mains adorables ouvrages</l>
+	<l id="395">Ne se doivent punir que par ses propres mains,</l>
+	<l id="396">Et fussent ils le crime l'horreur des humains.</l>
+	<l id="397">De sorte qu'à présent vous voyez que Marie</l>
+	<l id="398">Pour le salut de qui, toute l'Europe crie,</l>
+	<l id="399">Et dont l'esprit divin vous donne du soupçon</l>
+	<l id="400">N'est votre inférieure en aucune façon</l>
+	<l id="401">Et qu'étant absolue autant que sage et belle</l>
+	<l id="402">Elle dépend de vous ; aussi peu que vous d'elle.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="403">N'importe j'userai de mon autorité !</l>
+	<l id="404">Et ne la tiendrai point en d'autre qualité</l>
+	<l id="405">Que d'une prisonnière et d'une criminelle.</l>
+</sp>
+<sp stage="low" who="LE DUC"><speaker>LE DUC, tout bas.</speaker>
+	<l id="406">Vos crimes seulement vous la font juger telle.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="407">Encor qu'elle soit Reine il semble toutefois,</l>
+	<l id="408">Qu'elle soit ma sujette, et soumise à mes lois</l>
+	<l id="409">Un instinct que je sens et que je ne puis dire</l>
+	<l id="410">Me donne dessus elle un naturel empire</l>
+	<l id="411">Et comme sa prison la porte à me haïr</l>
+	<l id="412">Un mouvement secret m'oblige à la trahir.</l>
+	<l id="413">Mais il faut que sa mort paraisse légitime.</l>
+</sp>
+<sp stage="low" who="LE DUC"><speaker>LE DUC, tout bas.</speaker>
+	<l id="414">Énorme sacrilège ! Épouvantable crime !</l>
+	<l id="415">Que tu feras parler les théâtres de nous !</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="416">Duc, qui vous rend si triste, et que murmurez vous.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="417">Je diSAis ce qu'un jour les nations étranges</l>
+	<l id="418">Pourront dire de vous au lieu de vos louanges</l>
+	<l id="419">Lorsqu'ils raconteront cette histoire aux neveux</l>
+	<l id="420">Et ces neveux encore à ceux qui naîtront d'eux</l>
+	<l id="421">Rendant votre mémoire à chacun odieuse,</l>
+	<l id="422">Au lieu que vous pouvez la rendre glorieuse</l>
+	<l id="423">En ôtant des ce jour aux siècles à venir,</l>
+	<l id="424">Le funeste sujet de s'en entretenir,</l>
+	<l id="425">Les Rois qu'un monde entier de peuples idolâtre,</l>
+	<l id="426">Sont regardés du trône ainsi que d'un théâtre,</l>
+	<l id="427">Comme ils sont élevés ils en sont plutôt vus</l>
+	<l id="428">Par leur propres rayons leurs défauts sont connus.</l>
+	<l id="429">Je sais bien que je parle avec trop de licence</l>
+	<l id="430">Mais votre Majesté m'en donne la puissance.</l>
+	<l id="431">Donc par le sacré nom que portait votre soeur</l>
+	<l id="432">Laissez vivre en repos cet objet du malheur.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="433">Il faudrait pour cela qu'à présent j'ignorasse</l>
+	<l id="434">Quelle est son entreprise quelle est son audace,</l>
+	<l id="435">Elle veut m'arracher la Couronne du front</l>
+	<l id="436">Et se sert du pouvoir que mes ennemis ont,</l>
+	<l id="437">Voyez ce qu'elle écrit afin de me déplaire</l>
+	<l id="438">Au Comte_d_Arondel mon plus grand adversaire,</l>
+<stage type="show/away">Elle lui montre la fausse lettre de Marie et dit à l'écart.</stage>
+	<l id="439" syll="6" part="i">Il pâlit, Il rougit.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="439" syll="6" part="f">Que voyez-vous mes yeux.</l>
+</sp>
+<sp stage="low" who="ÉLISABETH"><speaker>ÉLISABETH, tout bas.</speaker>
+	<l id="440" syll="6" part="i">Hà qu'il feint bien le traître !</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="440" syll="6" part="f">Ô vie, ô terre, ô Cieux !</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="441">Que pourra-t-il répondre par quelle imposture...</l>
+</sp>
+<sp stage="read" who="LE DUC"><speaker>LE DUC, ayant lu.</speaker>
+	<l id="442">Voilà son cachet même et sa même écriture .</l>
+	<l id="443">Mais puissai-je à vos yeux périr présentement,</l>
+	<l id="444">Si cela ne s'est fait par un enchantement ;</l>
+	<l id="445">Ou par le noir effet de quelque perfidie,</l>
+	<l id="446">C'est ce que le soupçon me permet que j'en die,</l>
+	<l id="447">Je connais son esprit il est trop généreux</l>
+	<l id="448">Pour avoir entrepris rien de si dangereux,</l>
+	<l id="449">Je ne le saurais croire et je m'ose promettre</l>
+	<l id="450">Que d'autres que Marie ont écrit cette lettre,</l>
+	<l id="451">Est-il croyable aussi qu'elle eut jamais commis</l>
+	<l id="452">À ces Comtes ingrats ses mortels ennemis,</l>
+	<l id="453">L'espoir qui lui restait ; et puis se fut jetée</l>
+	<l id="454">Entre les mêmes mains qui l'ont si mal traitée,</l>
+	<l id="455">Il n'est pas vraisemblable et si je le comprends</l>
+	<l id="456">Madame assurément cela choque le sens.</l>
+	<l id="457">Non, elle n'a point eu cette damnable envie</l>
+	<l id="458">Et je le soutiendrais au péril dé ma vie.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="459">Je vois bien que le Duc est son adorateur</l>
+	<l id="460">Et que son ennemi devient son orateur,</l>
+	<l id="461">Quoi qui me conseillait, ici me dissuade</l>
+	<l id="462">Sans doute votre esprit est devenu malade,</l>
+	<l id="463">Vous m'étiez autrefois fidèle confident</l>
+	<l id="464">D'où vient qu'à me servir vous êtes moins ardent ?</l>
+	<l id="465" syll="6" part="i">Aimez vous sa beauté ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="465" syll="6" part="f">J'aime son innocence</l>
+	<l id="466">Encor que sa prison ait borné sa puissance,</l>
+	<l id="467">Et n'ai pourtant conçu pour elle d'amitié</l>
+	<l id="468">Que par la bienveillance et que par la pitié.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="469">Vos discours ce me semble ont trop de violence</l>
+	<l id="470">Pour n'être les enfants que de la bienveillance</l>
+	<l id="471">Et vous la défendez, avec trop d'action</l>
+	<l id="472">Pour n'avoir pas pour elle un peu de passion</l>
+	<l id="473">Donc en me l'avouant quittez là cette feinte :</l>
+	<l id="474">Contez moi vos amours et sans honte et sans crainte,</l>
+	<l id="475">Et loin de perdre en vain des propos superflus</l>
+	<l id="476">Puisque j'ai tout appris ne me le celez plus.</l>
+	<l id="477">Confessez d'avoir fait, en aimant cette Reine</l>
+	<l id="478">L'objet de votre amour du sujet de ma haine.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="479">Ce n'est pas mon dessein de vous cacher ici</l>
+	<l id="480">Qu'elle m'aime Madame et que je l'aime aussi,</l>
+	<l id="481">L'hymen à déjà mis sa main dedans la mienne</l>
+	<l id="482">Elle a reçu ma foi quand j'ai reçu la sienne,</l>
+	<l id="483">Et le Duc_de_Lincestre avant que de partir</l>
+	<l id="484">M'avait promis hier de vous en avertir.</l>
+	<l id="485">Car c'eut été pécher que de ne vous pas dire</l>
+	<l id="486">Que c'est pour ce bel oeil que mon âme soupire.</l>
+	<l id="487">Je ne le puis celer ; lorsqu'en plein Parlement</l>
+	<l id="488">Afin d'exécuter votre commandement</l>
+	<l id="489">Je fis de vos États une entière assemblée</l>
+	<l id="490">En jugeant son procès j'eus l'âme un peu troublée</l>
+	<l id="491">Un divin mouvement se forma dans mon sein</l>
+	<l id="492">Et me porta l'esprit à changer de dessein</l>
+	<l id="493">J'eus plus de conscience et moins d'effronterie</l>
+	<l id="494">Que d'accuser à faux l'innocente Marie,</l>
+	<l id="495">Et pour donner contre elle un passage à ma voix</l>
+	<l id="496">Trois fois j'ouvris la bouche et la fermai trois fois,</l>
+	<l id="497">Enfin continuant l'erreur que j'avais faite</l>
+	<l id="498">Ma bouche devint sèche et ma langue muette</l>
+	<l id="499">Chaque juge pour lors s'osa licencier</l>
+	<l id="500">En même temps que moi de la justifier.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="501">Infidèle ! Ainsi donc je serai méprisée</l>
+	<l id="502">Et mes faveurs ainsi tourneront en risée,</l>
+	<l id="503">Faveurs, dignes d'un Dieu, que tu reçus de moi</l>
+	<l id="504">Lorsque je te fis Duc pour te faire après Roi.</l>
+	<l id="505">Est-ce là ce devoir d'éternelle durée</l>
+	<l id="506">Et la fidélité que tu m'avais jurée</l>
+	<l id="507">Quoi rompant l'ordre exprès que je t'avais commis</l>
+	<l id="508">Écrire pour Marie à tous mes ennemis,</l>
+	<l id="509">Ha cette trahison ou ta fureur préside</l>
+	<l id="510">Te rendra malheureux de même que perfide,</l>
+	<l id="511">Mais pour t'ôter le temps de contester en vain</l>
+	<l id="512">Reconnais cette lettre, elle vient de ta main.</l>
+<stage type="show">Elle lui montre sa fausse lettre.</stage>
+</sp>
+<sp stage="watch" who="LE DUC"><speaker>LE DUC, voyant son écrit contrefait :</speaker>
+	<l id="513">Tu sais mon innocence et vois cette imposture</l>
+	<l id="514" syll="2" part="i">Grand Dieu...</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="514" syll="10" part="f">Non, non, mes yeux voient ton écriture</l>
+	<l id="515">Et ne sont à présent que trop bien informés</l>
+	<l id="516">De qui viennent ces traits, ta main les a formés.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="517" syll="6" part="i">Si vous m'aviez ouï...</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="517" syll="6" part="f">Que me pourrais-tu dire</l>
+	<l id="518">afin de me fléchir ou bien de me séduire.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="519">Je veux être puni d'un tourment éternel</l>
+	<l id="520">Si j'ai tracé ces mots, si j'en suis criminel.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="521">La crainte du danger ou ta faute te plonge</l>
+	<l id="522">Te va faire déjà recourir au mensonge,</l>
+	<l id="523">Mais je n'aurai jamais de créance en ta vois</l>
+	<l id="524">Pour n'être pas trompée une seconde fois,</l>
+	<l id="525">Cette lettre est de toi, j'en ai fait la lecture</l>
+	<l id="526">Et je l'ai confrontée avec ton écriture.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="527">Madame que le feu du céleste courroux</l>
+	<l id="528">Consomme cette main qui la tient devant vous</l>
+	<l id="529" syll="2" part="i">Si j'ai...</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH, sortant en colère.</speaker>
+	<l id="529" syll="10" part="f">Je ne crois point ceux qui m'ont outragée ;</l>
+	<l id="530">Mais je ne mourrai pas ou j'en mourrai vengée.</l>
+</sp>
+<sp stage="stop/kneel" who="LE DUC"><speaker>LE DUC, l'arrêtant à genoux.</speaker>
+	<l id="531">Quoi sans m'avoir permis de me justifier</l>
+	<l id="532">Sans me montrer ma faute la vérifier,</l>
+	<l id="533">Sur de simples soupçons m'ordonner un supplice</l>
+	<l id="534">Consultez en au moins un peu votre justice ;</l>
+	<l id="535">Vous remettant aux yeux la suite de mes jours</l>
+	<l id="536">Voyez y quel je fus : et quel je suis toujours</l>
+	<l id="537">Ou bien j'appellerai devant votre clémence</l>
+	<l id="538">Du rigoureux arrêt de votre véhémence.</l>
+	<l id="539">Mesurez donc ma faute à de meilleurs compas</l>
+	<l id="540">Et devant que m'ouïr ne me condamne pas.</l>
+<stage type="exit/escape">Élisabeth rentre et lui échappe.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp stage="alone" who="LE DUC"><speaker>LE DUC, demeuré seul.</speaker>
+	<l id="541">La cruelle s'enfuit après sa perfidie</l>
+	<l id="542">Sus ! Devenons l'auteur de quelque tragédie,</l>
+	<l id="543">Faisons lui dire vrai... qu'en ce triste accident.</l>
+	<l id="544">Elle paraisse juste au moins, en me perdant ;</l>
+	<l id="545">Laissons à cette ingrate un sujet raisonnable :</l>
+	<l id="546">Qui donne une couleur à son dessein damnable</l>
+	<l id="547">Ruinons ce pays de l'un à l'autre bout,</l>
+	<l id="548">Allumons un brasier qui le consomme tout,</l>
+	<l id="549">Aimons les ennemis de l'État_d_Angleterre</l>
+	<l id="550">Aujourd'hui faisons naître une immortelle guerre;</l>
+	<l id="551">Puisqu'on nous hait ici courons à l'étranger</l>
+	<l id="552">Enfin n'épargnons rien qui nous puisse venger.</l>
+	<l id="553">Bientôt Élisabeth sera sans diadème</l>
+	<l id="554">Et bientôt sa grandeur périra par soi-même,</l>
+	<l id="555">Le sort qui l'éleva la fera trébucher</l>
+	<l id="556">Et son Palais Royal deviendra son bûcher.</l>
+	<l id="557">Londres sera détruite et le reste de l'île</l>
+	<l id="558">Perdra les qualités d'heureux et de fertile,</l>
+	<l id="559">Et la Tamise on jour surpassera ses bords</l>
+	<l id="560">Parles pleurs des vivants et par le sang des morts :</l>
+	<l id="561">L'Angleterre verra de nouvelles misères</l>
+	<l id="562">Et meurtrir devant soi ses enfants et ses pères,</l>
+	<l id="563">Tout sera si changé que ses yeux ébahis</l>
+	<l id="564">La rendront étrangère en son propre pays.</l>
+	<l id="565">Sus donques repoussons le crime par le crime</l>
+	<l id="566">N'ayons aucun respect pour aucune maxime</l>
+	<l id="567">Et faisons retourner ce perfide attentat,</l>
+	<l id="568">Et contre Élisabeth et contre son État.</l>
+	<l id="569">Je parle de vengeance et peut-être à cette heure</l>
+	<l id="570">La Reine à résolu dans son coeur que je meure,</l>
+	<l id="571">Mais si hors du Palais je puis faire un seul pas</l>
+	<l id="572">Tout le peuple pour moi ne s'épargnera pas</l>
+	<l id="573">Et tous mes ennemis sentiront sa furie.</l>
+	<l id="574">Cependant racontons à la Reine Marie</l>
+	<l id="575">Que Lincestre et Mourray trahissent nos amours,</l>
+	<l id="576">Et c'est si la fureur nous permet le discours.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Élisabeth, Le Comte de Mourray, Le Comte de Kent.</head>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="577">Oui Comte, j'y consens, perdez-le pour me plaire</l>
+	<l id="578">Je veux qu'il soit puni d'une mort exemplaire.</l>
+	<l id="579">Acceptez aujourd'hui cette commission</l>
+	<l id="580">Et vous en acquittez avec discrétion,</l>
+	<l id="581">Rendant à mes États sa faute si palpable</l>
+	<l id="582">Qu'enfin on le condamne innocent ou coupable.</l>
+<stage type="low">Elle dit ceci à l'écart tout bas.</stage>
+	<l id="583">Mais ferai je périr ce Duc tant estimé</l>
+	<l id="584">Et romprai je un chef_d_oeuvre après l'avoir aimé,</l>
+	<l id="585">Raserai je ce Temple ? Enfin ferai je abattre</l>
+	<l id="586">Cet adorable autel dont je fus idolâtre ?</l>
+	<l id="587">Hà non certes mon coeur est bien moins animé</l>
+	<l id="588">Contre l'objet divin dont il était charmé,</l>
+	<l id="589">L'amour veut que je l'aime que je lui pardonne</l>
+	<l id="590">Et s'offense déjà de quoi je le soupçonne</l>
+	<l id="591">Je lui pardonne donc, peut être le dessein</l>
+	<l id="592">Qu'il avait contre moi sortira de son sein.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="593">Quoi votre Majesté devient irrésolue</l>
+	<l id="594">Et rétracte une chose après l'avoir conclue</l>
+	<l id="595">Il faut être plus ferme en votre passion</l>
+	<l id="596">Et donner davantage à notre opinion.</l>
+	<l id="597">L'entreprise du Duc n'est pas exécutée</l>
+	<l id="598">Mais il a trop failli de l'avoir projeté,</l>
+	<l id="599">C'est un crime commis qu'un crime propose</l>
+	<l id="600">C'est l'avoir déjà fait que de l'avoir osé,</l>
+	<l id="601">Et tel que soit le Duc on peut lire en son âme</l>
+	<l id="602">Qu'il voudrait voir déjà votre palais en flamme,</l>
+	<l id="603">Empêchez ce malheur qui n'est pas arrivé</l>
+	<l id="604">Devant que le projet en soit parachevé.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="605">Souffrez que je vous die que je vous assure</l>
+	<l id="606">Que l'Angleterre un jour souffrira plus d'injure</l>
+	<l id="607">Que n'ont reçu d'honneur tant d'illustres guerriers</l>
+	<l id="608">Qui de lys couronnés se firent des lauriers.</l>
+	<l id="609">S'il faut que votre État par vos bontés périsse,</l>
+	<l id="610">Ce que le Ciel empêche en faisant qu'il fleurisse,</l>
+	<l id="611">Et s'il faut qu'en sauvant ce Prince criminel</l>
+	<l id="612">Vous attiriez sur nous un malheur éternel.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="613">Ordonnant son trépas je me saigne dans l'âme</l>
+	<l id="614">Si j'en permets l'effet j'en souffrirai le blâme</l>
+	<l id="615">Outre qu'en ce projet rempli d'ambition</l>
+	<l id="616">Je crains, justement, une sédition.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="617">Il est vrai que le peuple est assez redoutable</l>
+	<l id="618">Tout cède à la fureur de ce monstre indomptable,</l>
+	<l id="619">Et je ne sais que trop qu'il peut se soulever</l>
+	<l id="620">Et rompre ce dessein au lieu de l'approuver;</l>
+	<l id="621">Mais nous l'entreprendrons de puissance absolue</l>
+	<l id="622">Si votre Majesté s'y trouve résolue,</l>
+	<l id="623">Les plus séditieux en cette extrémité</l>
+	<l id="624">Deviendront partisans de votre volonté ;</l>
+	<l id="625">Et tous les Citoyens nous prêteront main forte</l>
+	<l id="626">Apprenants que leur Reine à ce dessein nous porte</l>
+	<l id="627">Voilà le seul moyen de vivre et de régner</l>
+	<l id="628">Votre propre intérêt devait vous l'enseigner,</l>
+	<l id="629">Par lui vous recevrez l'obéissance due</l>
+	<l id="630">Et par lui désormais vous serez absolue.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="631">Nous mettrons à l'effet votre commandement.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="632">Ne précipitez rien, hâtez vous, lentement.</l>
+	<l id="633">Car si la mort du Duc paraît injurieuse,</l>
+	<l id="634">Il faudra que la cause en soit plus spécieuse.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Marie, Le Duc de Norfolk.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="635">Vous voulez que je souffre un si Cruel affront,</l>
+	<l id="636">Qui m'imprime à jamais la honte sur le front</l>
+	<l id="637">Sans témoigner ici combien il m'est sensible,</l>
+	<l id="638">Ha ! Vous me commandez une chose impossible</l>
+	<l id="639">Madame, je crains fort qu'en cette extrémité</l>
+	<l id="640">Je ne puisse obéir à votre majesté.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="641">Vous verrez les desseins d'eux mêmes se détruire</l>
+	<l id="642">De cette Élisabeth qui s'efforce à vous nuire,</l>
+	<l id="643">Un cours si violent ne pourra pas durer,</l>
+	<l id="644">Pour l'empêcher de croître on le doit endurer.</l>
+	<l id="645">Laissez couler ces eaux afin qu'elles tarissent</l>
+	<l id="646">Et souffrez ces excès il faudra qu'ils finissent.</l>
+	<l id="647">Donc, sans vous ressentir de ce commun affront</l>
+	<l id="648">Qui de même qu'à vous me fait rougir le front</l>
+	<l id="649">Si j'ai sur votre esprit encor quelque puissance,</l>
+	<l id="650">Qu'elle paraisse ici dans votre obéissance.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="651">Vos désirs sont les miens, tant que je vivrai....</l>
+	<l id="652">Mais de quel bruit confus retentit le degré ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Marie, Le Duc de Norfolk, Kenede.</head>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="653">Sauvez vous Monseigneur voici venir le Comte,</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="654" syll="6" part="i">Quoi le Comte mon frère ?</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="654" syll="6" part="f">Oui le voici qui monte.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="655" syll="6" part="i">Hà Ciel je suis perdu[.]</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="655" syll="6" part="f">Même il s'ose vanter</l>
+	<l id="656">Qu'il ne vient en ces lieux que pour vous arrêter.</l>
+	<l id="657">Et déjà les Barons pour complaire à leur Reine</l>
+	<l id="658">S'assemblent là-dessus dans la salle prochaine.</l>
+	<l id="659">Je vous en avertis sauvez vous promptement,</l>
+	<l id="660">Et venez vous cacher dans notre appartement.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="661" syll="6" part="i">Approuvez cet avis.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="661" syll="6" part="f">Je ne suis pas si lâche,</l>
+	<l id="662">Non il n'est pas besoin que l'innocent se cache,</l>
+	<l id="663">Je ne crains point de mal n'en ayant jamais fait,</l>
+	<l id="664">Et mon coeur est exempt de peur et de forfait,</l>
+	<l id="665">Qui fuit devant son juge est de faute capable,</l>
+	<l id="666">Qui se cache s'accuse, et qui craint est coupable.</l>
+	<l id="667">Allons plutôt lui mettre un poignard dans le sein.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="668">Ou perdez nous tous deux, ou perdez ce dessein,</l>
+	<l id="669">Prouvez moi votre amour par votre retenue,</l>
+	<l id="670">Que votre obéissance enfin me soit connue ;</l>
+	<l id="671">N'avancez point ma mort voulant me conserver,</l>
+	<l id="672">Et ne vous perdez point afin de me sauver :</l>
+	<l id="673">Ce serait attiser encor plus cette braise,</l>
+	<l id="674">Et d'une juste cause en faire une mauvaise.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="675">Ma générosité cède donc à l'amour.</l>
+	<l id="676">Je veux vous obéir jusqu'à mon dernier jour.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Marie, Le Duc de Norfolk, Kenede, Le Comte de Moray, Killegre avec ses Gardes.</head>
+<sp stage="toward" who="MARIE"><speaker>MARIE, à Kenede.</speaker>
+	<l id="677" syll="6" part="i">Ne vous éloignez point.</l>
+</sp>
+<sp stage="toward" who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY, au Capitaine des Gardes.</speaker>
+<note type="L">Le Comte de Moray : James Stuart (1531-1570). Demi-frère de Marie Stuard et régent d'Écosse de 1567 à 1570.</note>
+	<l id="677" syll="6" part="f">Ne sont ils pas ensemble ?</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="678">Aujourd'hui dessus nous tout le malheur s'assemble</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="679">Madame si je crains je ne crains que pour vous,</l>
+	<l id="680">Mais le sort va tomber le Comte vient à nous,</l>
+	<l id="681">Ferai je à ce perfide un accueil honorable ?</l>
+</sp>
+<sp stage="wave" who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY, les saluant.</speaker>
+	<l id="682" syll="6" part="i">Le Ciel vous soit propice ?</l>
+</sp>
+<sp stage="quiet" who="LE DUC"><speaker>LE DUC, négligemment.</speaker>
+	<l id="682" syll="6" part="f">Et vous soit favorable.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="683">Vous visitez souvent la Reine notre soeur.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="684">Il est vrai que souvent je reçois cet honneur</l>
+	<l id="685">Mais c'est dessous l'aveu d'un futur Hyménée,</l>
+	<l id="686">Et la permission que vous m'avez donnée</l>
+	<l id="687">De me joindre avec vous par son affinité</l>
+	<l id="688">Que je viens adorer cette divinité.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="689">Ne vous souvient il plus de ce qu'à dit la Reine,</l>
+	<l id="690">Touchant certains écris dont elle est sort en peine.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="691">Que la Reine jamais, ne me souffre à ses yeux. </l>
+	<l id="692">Qu'elle invoque sur moi la justice des Cieux ;</l>
+	<l id="693">Qu'à ses sévérités, je serve de victime</l>
+	<l id="694">Si mon coeur fut jamais coupable d'aucun crime,</l>
+	<l id="695">Si rien que la vertu le rendit amoureux.</l>
+	<l id="696">S'il ne lui fut fidèle autant que généreux.</l>
+	<l id="697">Ou s'il conçut jamais une seule pensée...</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="698">Je sais comme en tous points l'affaire s'est passée.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="699">Mon frère (Et toutefois m'eSt il encor permis)</l>
+	<l id="700">D'appeler de la SOrte un de mes ennemis,</l>
+	<l id="701">Soupçonnez vous le Duc d'une action si lâche ?</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="702">Et ce que je veux bien que tout le monde sache,</l>
+	<l id="703">Outre qu'il m'est suspect, je vous soupçonne aussi.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="704">Je sais que dès longtemps vous me traitez ainsi,</l>
+	<l id="705">Ce n'est pas d'aujourd'hui que vous m'êtes contraire</l>
+	<l id="706">Cela me fait douter que vous soyez, mon frère,</l>
+	<l id="707">Mais peut-être qu'un jour on verra de tout point</l>
+	<l id="708" syll="3" part="i">L'innocence.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="708" syll="3" part="m">Achevez.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="708" syll="6" part="f">Non, je n'achève point.</l>
+</sp>
+<sp stage="explicit" who="KILLEGRE"><speaker>KILLEGRE, Capitaine des gardes s'approchant du Duc.</speaker>
+	<l id="709">Monseigneur je vous fais, avec beaucoup de peine.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="710" syll="3" part="i">Tu me fais...</l>
+</sp>
+<sp who="KILLEGRE"><speaker>KILLEGRE.</speaker>
+	<l id="710" syll="9" part="f">Je vous fais prisonnier de la Reine.</l>
+	<l id="711" syll="6" part="i">Ne vous défendez point.</l>
+</sp>
+<sp stage="threat" who="LE DUC"><speaker>LE DUC, Tire son épée.</speaker>
+	<l id="711" syll="6" part="f">Toi-même défends toi.</l>
+</sp>
+<sp who="KILLEGRE"><speaker>KILLEGRE.</speaker>
+	<l id="712">J'ai plus de peur pour vous que je n'en ai pour moi.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="713" syll="6" part="i">Duc, Rendez lui l'épée.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="713" syll="6" part="f">Il faut que je la rende.</l>
+	<l id="714" syll="6" part="i">À sa Majesté même.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="714" syll="6" part="f">Hélas que j'appréhende.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC, étant saisi on lui ôte l'épée.</speaker>
+	<l id="715">Mais je manque de force et non pas de valeur,</l>
+	<l id="716">Ces traîtres se sont joins avecque mon malheur,</l>
+	<l id="717">Ô funeste surprise ! Ô déplorable chose !</l>
+	<l id="718">Ô malheureux effet d'une divine cause !</l>
+	<l id="719">Présages trop certains ! Trop mal reconnus !</l>
+	<l id="720">Oracles de mon sort ? Que ne vous ai-je crus ?</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="721">Hà prince infortuné je meurs lors que je songe</l>
+	<l id="722">À l'abîme des maux ou mon amour vous plonge</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="723">J'adorerais mes fers, mes maux me seraient doux</l>
+	<l id="724">Et je les chérirais puisqu'ils viennent de vous</l>
+	<l id="725" syll="3" part="i">Mais je crains...</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="725" syll="1" part="m">Quoi ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="725" syll="8" part="f">Je crains que la mort nous sépare[.]</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="726">Une pareille peur de mon âme s'empare,</l>
+	<l id="727">Au moins nous nous joindrons par un hymen nouveau</l>
+	<l id="728">Dans le lit nuptial ou bien dans le tombeau;</l>
+	<l id="729">Et j'espère du Ciel cette cruelle grâce.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="730">Souffrez que je vous quitte et que je vous embrasse</l>
+	<l id="731">C'est peut être aujourd'hui pour la dernière fois.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="732">La douleur me saisit et m'empêche la voix.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Duc de Norfolk, Le Capitaine des Gardes, Le Duc.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="733" syll="6" part="i">Où font ils assemblés ?</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE.</speaker>
+	<l id="733" syll="6" part="f">Dans la chambre prochaine.</l>
+	<l id="734">Vous plaît il d'y venir, ou que je vous y mène,</l>
+	<l id="735" syll="6" part="i">Car les Barons Anglais .....</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="735" syll="" part="f">Marche, je suis tes pas</l>
+	<l id="736">Fais seulement ta charge et ne me parle pas.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Le Comte de Moray, Le Comte de Kent, Le Vicomte de Herrin, Le Maréchal de Sherobery, Les États tous en rang.</head>
+<sp stage="stand" who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY, préside et s'étant levé dit.</speaker>
+	<l id="737">Vénérables états, devant vous je proteste</l>
+	<l id="738">Eti appelle à témoin la justice céleste,</l>
+	<l id="739">Que si je prends ici cette commission</l>
+	<l id="740">C'est par obéissance et non par passion.</l>
+</sp>
+<sp who="LES ÉTATS"><speaker>LES ÉTATS.</speaker>
+	<l id="741">Ce discours nous offense et cette excuse est vaine</l>
+	<l id="742">Nous ne murmurons point du choix qu'à fait la Reine,</l>
+	<l id="743">Et nous connaissons trop quelle est votre équité</l>
+	<l id="744">Pour ne pas déférer à son autorité.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC, devant les Juges.</speaker>
+	<l id="745">Si parmi vous vivait cette ancienne Astrée</l>
+	<l id="746">De nos premiers aïeux chastement révérée,</l>
+	<l id="747">Ou si la vérité vierge fille des ans</l>
+	<l id="748">Gardait encor ici ses rayons éclatants.</l>
+	<l id="749">Je pourrais espérer la fin de mes misères</l>
+	<l id="750">Ayant pour me juger des hommes très sévères,</l>
+	<l id="751">Mais que leur jugement me doit donner d'effroi</l>
+	<l id="752">Puis qu'en eux ces vertus sont éteintes pour moi</l>
+	<l id="753">Comment aurai-je aussi ni grâce ni refuge</l>
+	<l id="754">Si mon accusateur est mon souverain juge</l>
+	<l id="755">Et puisque Élisabeth a tout exprès commis</l>
+	<l id="756">Pour me charger de faits mes autres ennemis.</l>
+	<l id="757">Je me soumets pourtant à leur décret auguste</l>
+	<l id="758">Encore que l'effet n'en puisse être qu'injuste.</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="759">Je suis pour l'innocence et le Ciel m'est témoin</l>
+	<l id="760">Que j'ai de la justice un particulier soin ;</l>
+	<l id="761">Je vous le fis paraître au procès de Marie</l>
+	<l id="762">Sa dernière espérance était déjà périe</l>
+	<l id="763">Quand l'entrepris sa cause et généreusement</l>
+	<l id="764">Remis en sa faveur l'ordre du jugement.</l>
+	<l id="765">Sous le faix des ennuis cette Reine accablée</l>
+	<l id="766">N'attendait que la mort après notre assemblée</l>
+	<l id="767">Déjà les Puritains et les Luthériens</l>
+	<l id="768">Recouraient pour la perdre aux extrêmes moyens</l>
+	<l id="769">Mais contre son espoir et contre leur attente</l>
+	<l id="770">Je la leur fis à tous déclarer innocente.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="771">Hélas il m'en souvient cette Princesse aussi</l>
+	<l id="772">Était au même état ou l'on me voit ici,</l>
+	<l id="773">Sa soeur qui désirait la rendre criminelle</l>
+	<l id="774">M'avait sollicité de déposer contre elle</l>
+	<l id="775">Jurant de satisfaire à mon ambition</l>
+	<l id="776">Et d'augmenter l'éclat de ma condition.</l>
+	<l id="777">Hà ! Si j'eusse écouté cette cruelle Reine</l>
+	<l id="778">Mon innocence ici ne serait pas en peine,</l>
+	<l id="779">Et celui qu'on à vu sur un trône si haut</l>
+	<l id="780">Ne craindrait pas l'horreur d'un funeste échafaud.</l>
+	<l id="781">Au reste je parais devant mon homicide</l>
+	<l id="782">Coupable seulement de n'être pas perfide,</l>
+	<l id="783">Je me dois estimer bienheureux en ce point</l>
+	<l id="784">Que ma plus grande faute est de n'en avoir point,</l>
+	<l id="785">Et je puis me vanter qu'Élisabeth s'anime ,</l>
+	<l id="786">Du crime que j'ai fait d'avoir vécu sans crime,</l>
+	<l id="787">Car puisque ma vertu l'avait bien su fâcher</l>
+	<l id="788">Afin de lui complaire il me fallait pécher.</l>
+	<l id="789">Mais mon âme est Royale ne fut jamais lâche</l>
+	<l id="790">Jusqu'à fouiller mes jours d'une pareille tache</l>
+	<l id="791">Jusqu'à perdre par là le nom de généreux</l>
+	<l id="792">Et me rendre cruel pour devenir heureux.</l>
+	<l id="793">Ce serait sans avoir ni courage ni honte</l>
+	<l id="794">Vivre en l'impiété de même que le Comte,</l>
+	<l id="795">Qui fait gloire de perdre une adorable soeur</l>
+	<l id="796">Pour être de ses biens injuste possesseur.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="797">Brisez là ce discours, tâchez de répondre</l>
+	<l id="798">Aux accuSations dont je vais vous confondre.</l>
+	<l id="799">Je [dis] premièrement que votre ambition</l>
+	<l id="800">A suscité le peuple à la sédition.</l>
+	<l id="801">Que vous avez prié de réveiller la guerre</l>
+	<l id="802">Les ennemis jurés de l'État d'Angleterre.</l>
+	<l id="803">Je vous accuse encor avec juste raison</l>
+	<l id="804">D'avoir contre la Reine employé du poison.</l>
+	<l id="805">D'avoir écrit souvent au Comte_de_Glocestre ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="806">Crimes qui ne sont pas et qui ne peuvent être.</l>
+	<l id="807">Hà seigneur tu le sais toi qui lis dans mon coeur !</l>
+	<l id="808">Mais dois-je plus longtemps souffrir cet imposteur[.]</l>
+</sp>
+<sp who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE SHEROBERY.</speaker>
+	<l id="809" syll="6" part="i">Il est déjà confus...</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="809" syll="6" part="f">Écoutons je vous prie[.]</l>
+</sp>
+<sp stage="continue" who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY, continue.</speaker>
+	<l id="810">D'avoir prêté main forte à la Reine Marie</l>
+	<l id="811">Et fait lever des gens exprès à ce dessein</l>
+	<l id="812">Qu'un amour furieux vous mettait dans le sein.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="813">Ce fut votre parole en qui j'eus confiance</l>
+	<l id="814">Qui me fit espérer son illustre alliance</l>
+	<l id="815">Et vous avez vous-même allumé le flambeau</l>
+	<l id="816">Qui peut être joindra deux moitiés au tombeau :</l>
+	<l id="817">Mais pour mieux établir vos sanglantes maximes</l>
+	<l id="818">Il n'était pas besoin de supposer ces crimes</l>
+	<l id="819">Vous deviez seulement me condamner à mort</l>
+	<l id="820">Puisque l'on vous a fait le maître de mon sort.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="821" syll="6" part="i">Vous ne répondez pas...</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="821" syll="6" part="f">Faut il que je réponde</l>
+	<l id="822">Après la plus énorme imposture du monde ?</l>
+	<l id="823">Oui Comte mes forfaits méritent le trépas</l>
+	<l id="824">Et j'en ai tant commis qu'il ne m'en souvient pas.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="825">Voyez, sans y penser il confesse sa faute[.]</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="826">Nous l'avons trop ouï ? Capitaine qu'on l'ôte[.]</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="827">Éloigne-le de nous, afin que promptement</l>
+	<l id="828">Je puisse prononcer un dernier jugement[.]</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="829">Inique jugement ! Qui vous sera funeste</l>
+	<l id="830">Si Dieu préside encor sur le trône céleste.</l>
+	<l id="831">Écoutez cependant quel sera votre sort</l>
+	<l id="832">Ma perte vous perdra, vous mourrez par ma mort</l>
+	<l id="833">Cent têtes renaîtront d'une tête coupée</l>
+	<l id="834">La vôtre tombera la mienne étant frappée</l>
+	<l id="835">Et le glaive du Ciel juste effroi des méchants</l>
+	<l id="836">Fera passer vos jours par les mêmes tranchants.</l>
+	<l id="837">Voilà votre destin que j'ose vous prédire.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="838">Il a perdu le sens, il faut le laisser dire.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Le Comte de Moray, Le Comte de Kent, les États, Le Maréchal de Sherobery, Le Vicomte de Herrin, Les États.</head>
+<sp stage="stand" who="LES ÉTATS"><speaker>LES ÉTATS, se lèvent.</speaker>
+	<l id="839">COmte nous sommes prêts de vous donner nos voix.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+<stage type="location">Va aux opinions.</stage>
+	<l id="840">Pour le juger à mort il suffira de trois.</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="841">Ô déplorable Prince encor plus déplorable</l>
+	<l id="842">Que pour sauver autrui tu te rends misérable</l>
+	<l id="843">Misérable au contraire un sort jamais plus beau</l>
+	<l id="844">Ne pouvait préserver ta gloire du tombeau.</l>
+</sp>
+<sp who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE SHEROBERY.</speaker>
+	<l id="845" syll="6" part="i">On attend votre voix.</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="845" syll="6" part="f">Je n'y saurais conclure,</l>
+	<l id="846">Sans doute la justice, y souffre trop d'injure.</l>
+	<l id="847" syll="6" part="i">Le Duc est innocent.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="847" syll="6" part="f">Si cela vous déplaît</l>
+	<l id="848">Le ne laisserai pas de prononcer l'arrêt</l>
+<stage type="sit/speak">Il se rassied et parle.</stage>
+	<l id="849">Puisque tous les États le trouvent légitime</l>
+	<l id="850">J'ordonne que son sang lave aujourd'hui son crime.</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="851">Ha Comte cette plaie est pour durer longtemps.</l>
+	<l id="852">Les peuples qui l'aimaient en seront mécontents.</l>
+	<l id="853">Cette exécution est un peu tyrannique</l>
+	<l id="854">Et je prenais de là quelque accident tragique.</l>
+	<l id="855">Et ce coup qu'à vos mains malgré moi je permets,</l>
+	<l id="856">Dessus nos successeurs doit saigner à jamais.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Le Duc de Norfolk, ses domestiques, Le Capitaine des Gardes.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="857">Donc il faudra qu'un jour nos neveux pleins de gloire</l>
+	<l id="858">Trouvant de mes malheurs la déplorable histoire</l>
+	<l id="859">Afin de me troubler encor dans le tombeau.</l>
+	<l id="860">Lisent, ce Duc mourut par la main d'un bourreau :</l>
+	<l id="861">Ne suis-je descendu de tant d'illustres Princes</l>
+	<l id="862">Qui tinrent sous leurs lois mille grandes Provinces,</l>
+	<l id="863">Et n'ai-je pris naissance en un degré si haut</l>
+	<l id="864">Que pour perdre le jour dessus un échafaud.</l>
+	<l id="865">Quoi donc ne m'a t'on vu second Mars à la guerre</l>
+	<l id="866">Protéger la grandeur de l'état d'Angleterre,</l>
+	<l id="867">Qu'afin qu'Élisabeth jalouse de mon bien</l>
+	<l id="868">Versât après, mon sang qui défendit le sien,</l>
+	<l id="869">Ha triste récompense, ! Ha désespoir ! Ha ! Honte :</l>
+	<l id="870">C'en est fait à ce coup la douleur me surmonte.</l>
+<stage type="toward">À ses domestiques.</stage>
+	<l id="871">Au moins vous qui jadis fûtes mes officiers</l>
+	<l id="872">Déplorables témoins de mes regrets derniers</l>
+	<l id="873">Si vous gardez encor à servir votre maître</l>
+	<l id="874">Cette ardeur qu'autrefois vous lui faisiez paraître</l>
+	<l id="875">Ou si quelqu'un de vous par inclination,</l>
+	<l id="876">Conserve encor pour moi la moindre affection,</l>
+	<l id="877">Qu'il m'assiste au besoin et que dessous sa lame</l>
+	<l id="878">Je rende entre ses bras le sang avecque l'âme</l>
+	<l id="879">Quoi lâches vous n'osez ! Ô cruelle pitié !</l>
+	<l id="880">Ô service infidèle ! Ô funeste amitié !</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="881">Monsieur on nous attend songez à vous résoudre.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="882">Ha Ciel si j'expirais sous les coups de ta foudre !</l>
+	<l id="883">Terre si tu m'ouvrais ton flanc dessous mes pas ?</l>
+	<l id="884">Je serais glorieux, même par mon trépas.</l>
+	<l id="885">Mais nos voeux sont sans fruit je vois bien que nous sommes</l>
+	<l id="886">Abandonnez des cieux de même que des hommes,</l>
+	<l id="887">Tout est sourd à nos cris, il nous faudra mourir :</l>
+	<l id="888">Sans qu'une noble fin nous vienne secourir.</l>
+	<l id="889">Tu m'as prédit ces maux adorable Marie :</l>
+	<l id="890">Augure du danger qui menaçait ma vie.</l>
+	<l id="891">Afin de l'éviter mon âme, je devais</l>
+	<l id="892">Suivre de point en point l'oracle de ta voix ;</l>
+	<l id="893">Mais quoi le sort voulait, qu'aujourd'hui je périsse</l>
+	<l id="894">Et que ce fut encor par un honteux supplice,</l>
+	<l id="895">Mes jours étaient contés devant qu'on me vit né</l>
+	<l id="896">Sous l'auspice fatal d'un astre infortuné.</l>
+	<l id="897">Pardonne moi pourtant et suprême puissance</l>
+	<l id="898">Si je blasphème ici contre ta connaissance,</l>
+	<l id="899">Il n'est de destins ni de fatales soeurs,</l>
+	<l id="900">Mes fautes seulement ont causé mes malheurs.</l>
+	<l id="901">J'ai mérité la mort puisque tu me la donnes</l>
+	<l id="902">Ta main en me frappant me montre deux Couronnes</l>
+	<l id="903">J'en recevrai le coup, mais généreusement.</l>
+	<l id="904">Je ne pouvais mourir plus glorieusement :</l>
+	<l id="905">Courons donc à la mort qui nous paraît si belle</l>
+	<l id="906">Et ne la fuyons point puisqu'elle nous appelle.</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="907" syll="6" part="i">Enfin il s'y résout.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="907" syll="6" part="f">Vois, clair flambeau du jour</l>
+	<l id="908">Sur l'autel du trépas des victimes d'amour.</l>
+	<l id="909">Adieu Marie, adieu, merveille sans Seconde</l>
+	<l id="910">Adieu toute la gloire l'ornement du monde</l>
+	<l id="911">Beau miracle d'amour et de fidélité.</l>
+	<l id="912">Prodige sans pareil de générosité.</l>
+	<l id="913">Amis quelqu'un de vous veuille preNdre la Reine</l>
+	<l id="914">D'adoucir les ennuis de cette grande Reine :</l>
+	<l id="915">Et lui fasse savoir qu'en me privant du jour</l>
+	<l id="916">Élisabeth n'a pu, me priver de l'amour.</l>
+</sp>
+</div2>
+<div2 type="scene" n=""><head>SCÈNE V. Melvin, Le Vicomte de Herrin.</head>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="917">Ne verrons nous jamais apprêtant de misères</l>
+	<l id="918">Les vertus qui vivaient aux siècles de nos pères ?</l>
+	<l id="919">Ha sang ! Ha piété ! Rare ornement de Rois !</l>
+	<l id="920">Saintes filles du ciel, inviolables lois ! </l>
+	<l id="921">Toutes à l'âge d'or autres fois si connues,</l>
+	<l id="922">En cet âge de fer qu'êtes vous devenues ?</l>
+	<l id="923">Que vous n'aidez un Prince a nul autre pareil</l>
+	<l id="924">Mais le plus malheureux qui soit sous le soleil.</l>
+	<l id="925">Hélas dans ce héros on va mettre parterre</l>
+	<l id="926">La force et le soutien de toute l'Angleterre,</l>
+	<l id="927">Y repensant je pâme et mon esprit ressent</l>
+	<l id="928">Plus d'atteintes de mort que ce jeune innocent.</l>
+	<l id="929">Sa fidèle moitié, triste et mourante Reine</l>
+	<l id="930">Ma prié de le voir en sa dernière peine[.]</l>
+</sp>
+<sp who="MELVIN"><speaker>MELVIN.</speaker>	
+	<l id="931">L'échafaud est dressé dedans la basse-cour</l>
+	<l id="932">Et je crois que le Duc est sorti de la Tour,</l>
+	<l id="933">Car j'ai vu près du Louvre un peuple qui consulte</l>
+	<l id="934">De faire en sa faveur exciter le tumulte.</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="935">Allons à ce spectacle d'un courage franc</l>
+	<l id="936">Répandons devant tous des larmes sur son sang.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Le Comte de Kent, Le Comte de Moray.
+</head>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="937">Ha ! Que ma faute est grande et que je suis coupable,</l>
+	<l id="938">Que le Duc était juste es qu'il est regrettable</l>
+	<l id="939">Que Son cruel arrêt me rend peu satisfait</l>
+	<l id="940">Et que j'ai de témoins du crime que j'ai fait.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="941">Au contraire par vous l'ennemi de la Reine</l>
+	<l id="942">Va paraître aujourd'hui sur la sanglante Seine,</l>
+	<l id="943">Tous succède à vos voeux tout vous vient à souhait</l>
+	<l id="944">Et votre ambition va toucher son effet.</l>
+	<l id="945">Il reste seulement qu'une main plus hardie</l>
+	<l id="946">Fasse l'acte dernier de votre tragédie</l>
+	<l id="947">Et mêle au sang du Duc celuI de votre soeur.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="948" syll="6" part="i">Ô soeur ô frère ô sang.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="948" syll="6" part="f">Vous changez de couleur ?</l>
+	<l id="949">D'où vient ce changement : quel si triste présage</l>
+	<l id="950">Altère la beauté de ce sacré visage ?</l>
+	<l id="951">Et quel sujet de crainte ou votre sort soit peint</l>
+	<l id="952">Fait succéder les lis aux roses de ce teint.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="953">Moi-même je me jette en ce péril extrême</l>
+	<l id="954">Moi-même je deviens l'assassin de moi-même,</l>
+	<l id="955">De la terre et du Ciel j'attire le courroux</l>
+	<l id="956">Perdant un innocent, un Prince aimé de tous.</l>
+	<l id="957">Mon coeur épouvanté par un sinistre augure</l>
+	<l id="958">Me prédit par sa mort ma ruine future.</l>
+	<l id="959">Je trouve sous sa tombe un précipice ouvert</l>
+	<l id="960">Il périt par ma faute et sa perte me perd[.]</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="961">Guérissez cette plaie ou votre âme est blessée</l>
+	<l id="962">Bannissez ces frayeurs loin de votre pensée</l>
+	<l id="963">Ne songez point aux maux que vous devez avoir</l>
+	<l id="964">On ne voit que trop tôt ce que l'on craint de voir.</l>
+	<l id="965">Et puis votre bonheur vous défend de vous plaindre,</l>
+	<l id="966">Tout vous rit en ces lieux que pouvez vous y craindre.</l>
+</sp>
+<sp who="LE COMTE DE MORAY"><speaker>LE COMTE DE MORAY.</speaker>
+	<l id="967">Une appréhension se glisse dans mon coeur</l>
+	<l id="968">Et je crains sans savoir le sujet de ma peur.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII.</head>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="969">Que nos félicités sont de peu de durée</l>
+	<l id="970">Et que la jouissance en est mal assurée !</l>
+	<l id="971">Qu'avec peu de raison les superbes humains</l>
+	<l id="972">Souhaitent de se voir des sceptres dans les mains ;</l>
+	<l id="973">Il ne me reste plus que la seule mémoire</l>
+	<l id="974">Des spécieux respects d'une trompeuse gloire ;</l>
+	<l id="975">Mes honneurs inconstants et mes biens incertains</l>
+	<l id="976">Comme un fleuve courant, s'écoulent de mes mains.</l>
+	<l id="977">Mon bonheur est un feu que l'air fait disparaître</l>
+	<l id="978">Un astre qui s'éclipse en commençant de naître ;</l>
+	<l id="979">Et tous ces feux brillants dont on m'a vu jouir</l>
+	<l id="980">N'éclairaient autrefois qu'afin de m'éblouir.</l>
+	<l id="981">Ce mal n'est pas nouveau, depuis l'heure première</l>
+	<l id="982">Que mes yeux en naissant reçurent la lumière.</l>
+	<l id="983">Depuis le triste jour qui me fit respirer</l>
+	<l id="984">Je n'ai presque jamais cessé de soupirer.</l>
+	<l id="985">Et je ne goûte point une douceur entière</l>
+	<l id="986">Qui ne soit de mes pleurs l'éternelle matière</l>
+	<l id="987">Mes plus chastes plaisirs sont mêlés de douleurs</l>
+	<l id="988">Comme l'épine est jointe aux plus aimables fleurs</l>
+	<l id="989">Mille accidents nouveaux incessamment m'arrivent</l>
+	<l id="990">Et mes adversités comme flots s'entre-suivent</l>
+	<l id="991">Mais s'il faut que le Duc souffre pour moi la mort</l>
+	<l id="992">Voilà le pire trait que m'ait lancé le sort.</l>
+	<l id="993">Le Vicomte devrait me tirer de mes peines</l>
+	<l id="994">Et m'en donner au moins des nouvelles certaines.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="995">Madame le voici, mais un si triste abord.....</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="996">Ha ! Je n'en doute plus, c'en est fait, il est mort .</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Marie, Kenede, Le Vicomte de Herrin.</head>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="997">Oui Madame il est mort, mais il est mort en Prince</l>
+	<l id="998">Avecque les regrets de toute la Province,</l>
+	<l id="999">Et dans ce lieu sanglant témoin de nos douleurs</l>
+	<l id="1000">Ses plus grands ennemis ont répandu des pleurs.</l>
+	<l id="1001">Il a paru constant et ce qui plus me touche</l>
+	<l id="1002">C'est qu'il a toujours eu votre nom à la bouche</l>
+	<l id="1003">Qu'il a fait (méprisant les horreurs du tombeau)</l>
+	<l id="1004">Bien moins de résistance au glaive du bourreau,</l>
+	<l id="1005">Que n'en fait à nos doigts une tremblante feuille</l>
+	<l id="1006">Ou quelque jeune fleur à la main qui la cueille.</l>
+	<l id="1007">Et qu'on n'a rien pu voir en ce divin époux</l>
+	<l id="1008">Ni d'indigne de lui, ni d'indigne de vous.</l>
+<stage type="faint/furniture">Marie tombe sur son lit évanouie.</stage>
+</sp>
+<sp stage="help" who="KENEDE"><speaker>KENEDE, la soutenant.</speaker>
+	<l id="1009">Faites paraître ici les vertus de votre âme</l>
+	<l id="1010">Et si vous le pouvez consolez vous Madame.</l>
+	<l id="1011">La mort quoi que sans yeux ne se trompe jamais</l>
+	<l id="1012">Elle compte nos jours aussitôt qu'ils sont faits,</l>
+	<l id="1013">Nous montons dans les Cieux par ces degrés suprêmes</l>
+	<l id="1014">Pour nous y couronner de mille diadèmes,</l>
+	<l id="1015">C'est un sort général que tout doit encourir</l>
+	<l id="1016">Il ne faut jamais naître ou bien il faut mourir.</l>
+	<l id="1017">Ce seul genre de mort nous la rend odieuse,</l>
+	<l id="1018">Mais l'innocence aussi nous la rend glorieuse ;</l>
+	<l id="1019">Et ceux qui des vertus ont marché sur les pas</l>
+	<l id="1020">Comme faisait le Duc, ne la redoutent pas.</l>
+</sp>
+<sp stage="awahe" who="MARIE"><speaker>MARIE, revenue à soi.</speaker>
+	<l id="1021">Ha déplorable Prince ! Ha Reine infortunée.</l>
+	<l id="1022">Ô tragiques Amours ! Ô sanglant hyménée !</l>
+	<l id="1023">Je perds le nom d'épouse avant que de l'avoir</l>
+	<l id="1024">Et la perte du Duc m'en ôte le pouvoir.</l>
+	<l id="1025">Monarque de mon coeur à qui les destinées</l>
+	<l id="1026">Tranchent à mon sujet le fil de tes années</l>
+	<l id="1027">Si même après la mort tes amoureux esprits</l>
+	<l id="1028">Gardent les chastes feux dont ils furent épris</l>
+	<l id="1029">S'ils en ont la mémoire et si leurs ombres vaines.</l>
+	<l id="1030">Ont encor quelquefois des affaires humaines</l>
+	<l id="1031">S'il se peut que du Ciel tu saches mes ennuis</l>
+	<l id="1032">Tire moi de l'état ou tu vois que je suis.</l>
+	<l id="1033">Fais que dans peu de temps nos veuvages finissent</l>
+	<l id="1034">Et qu'à jamais nos corps et nos âmes s'unissent</l>
+	<l id="1035">Au nom des sacrés noeuds qui joignaient nos deux coeurs</l>
+	<l id="1036">Et des yeux qu'autrefois tu nommais tes vainqueurs.</l>
+	<l id="1037">Ou si par ton secours je ne cesse de vivre</l>
+	<l id="1038">Je saurai bien trouver le moyen de te suivre.</l>
+	<l id="1039">Nous descendrons ensemble en un même tombeau,</l>
+	<l id="1040">Et l'amour devant nous portera son flambeau.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Élisabeth, Le Comte de Kent, 
+Lemar, Deshersbery.</head>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH, sur le trône.</speaker>
+	<l id="1041">Le Comte Assassiné ... Je doute si je veille.</l>
+	<l id="1042">Au funeste rapport que me fait mon oreille.</l>
+	<l id="1043" syll="6" part="i">Le Comte assassiné.....</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1043" syll="6" part="f">Mes yeux mes tristes yeux</l>
+	<l id="1044">Ont vu priver les siens de la clarté des Cieux.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1045">Ha sensible nouvelle : ha perte déplorable !</l>
+	<l id="1046" syll="6" part="i">Mais est elle certaine ?</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1046" syll="6" part="f">Elle est trop véritable</l>
+	<l id="1047">Et se connaît assez aux pleurs que je répands .</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1048">Ha que nos ennemis riront à nos dépens.</l>
+	<l id="1049">Ha que nos ennemis chériront leur défaite</l>
+	<l id="1050">Puisque s'étant vengez, elle n'est qu'imparfaite ;</l>
+	<l id="1051">Le Duc n'est pas à plaindre en son tragique sort</l>
+	<l id="1052">Puisque le sang du Comte à réparé sa mort.</l>
+	<l id="1053">Si la Grèce perdit autrefois un Achille</l>
+	<l id="1054">En ce fidèle Prince aujourd'hui j'en perds mille.</l>
+	<l id="1055">Mais faites nous savoir quel malheur sans pareil</l>
+	<l id="1056">A ravi la lumière à ce jeune soleil.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1057">Le Duc jugé par nous, est conduit au supplice</l>
+	<l id="1058">Ou le peuple confus à la foule se glisse,</l>
+	<l id="1059">Et du murmure long d'une commune voix</l>
+	<l id="1060">Dit qu'il à mérité la rigueur de nos lois.</l>
+	<l id="1061">Tous s'assemblent autour de ce triste Théâtre</l>
+	<l id="1062">Comme pour voir des jeux, ou bien pour voir combattre</l>
+	<l id="1063">Le Comte toutefois en détourne ses pas</l>
+	<l id="1064">Et n'ose être témoin d'un si juste trépas.</l>
+	<l id="1065">Outre que la vertu de ce vaillant courage</l>
+	<l id="1066">S'ébranle par l'horreur d'un sinistre présage,</l>
+	<l id="1067">Et sans avoir connu le sujet de sa peur</l>
+	<l id="1068">Redoute le péril d'un incertain malheur.</l>
+	<l id="1069">Assez mal assistés nous allons de la sorte</l>
+	<l id="1070">Ou, sans aucun désir, notre désir nous porte</l>
+	<l id="1071">Lorsqu'à diverses fois j'entends autour de nous</l>
+	<l id="1072">Donner avec fureur et recevoir des coups.</l>
+	<l id="1073">C'étaient des gens armés qui querellaient les nôtres</l>
+	<l id="1074">Une troupe écossaise y paressait entre autres .</l>
+	<l id="1075">Nous courons dessus eux mais malgré nos efforts</l>
+	<l id="1076">Ces traîtres assassins demeurent les plus forts.</l>
+	<l id="1077">Le Comte qui s'avance afin de les poursuivre.</l>
+	<l id="1078">(Ô triste souvenir) cesse déjà de vivre,</l>
+	<l id="1079">Atteint de mille coups il tombe renversé</l>
+	<l id="1080">J'approche et je le vois plutôt mort que blessé.</l>
+	<l id="1081">Ayant fait un grand bruit en trébuchant parterre</l>
+	<l id="1082">Comme un chêne abattu sous l'effort du tonnerre.</l>
+	<l id="1083">Là jetant un sanglot ou son âme s'enfuit</l>
+	<l id="1084">Ses yeux se sont couverts d'une éternelle nuit.</l>
+	<l id="1085">Ne pouvant rechercher de secours plus utile</l>
+	<l id="1086">Moi-même j'avertis les gardes de la ville</l>
+	<l id="1087">Chacun d'eux aussitôt précipite ses pas</l>
+	<l id="1088">Sur les lâches auteurs de ce cruel trépas</l>
+	<l id="1089">Et je crois qu'aujourd'hui plusieurs de leur complices</l>
+	<l id="1090">Doivent être envoyés aux extrêmes supplices.</l>
+	<l id="1091" syll="6" part="i">Voilà comme il est mort.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1091" syll="6" part="f">Ha quelle cruauté</l>
+	<l id="1092">Se rendra comparable à leur déloyauté !</l>
+	<l id="1093">Sus ! que pour accourcir leur malheureuses trames</l>
+	<l id="1094">On prépare des fers des poisons et des flammes .</l>
+	<l id="1095">Qu'on fasse de leur vie un renaissant trépas</l>
+	<l id="1096">S'il se peut que la mort ne les prévienne pas.</l>
+	<l id="1097">Et qu'aux mânes du Comte ils servent de victimes</l>
+	<l id="1098">Encore tous ces maux sont moindres que leur crimes.</l>
+	<l id="1099">Et je dois inventer quelque nouveau tourment</l>
+	<l id="1100">Qui se puisse égaler à mon ressentiment..</l>
+	<l id="1101">En ce triste accident dont le récit m'irrite</l>
+	<l id="1102">La fureur me saisit, la clémence me quitte.</l>
+	<l id="1103" syll="6" part="i">Et le corps de ce Prince...</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1103" syll="6" part="f">On le voit ici près</l>
+	<l id="1104">Dans sa pompe dernière entouré de cyprès</l>
+	<l id="1105">Là parmi les regrets que sa perte nous donne</l>
+	<l id="1106">Il reçoit des honneurs dignes de sa personne.</l>
+	<l id="1107">Au reste le succès de ce nouveau malheur</l>
+	<l id="1108">Rend encor plus suspects les desseins de sa four</l>
+	<l id="1109">Mais elle prendra part aux communes alarmes</l>
+	<l id="1110">Son sang dans peu de temps réparera nos larmes</l>
+	<l id="1111">Et les états émeus par sa déloyauté</l>
+	<l id="1112">Lui seront ressentir la même cruauté.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1113">Tant plus je considère une telle entreprise</l>
+	<l id="1114">D'autant plus, mon esprit se change se divise ;</l>
+	<l id="1115">Même le coup_d_État que ma main entreprend</l>
+	<l id="1116">Me semble dangereux, à cause qu'il est grand.</l>
+	<l id="1117">Sa mort assurément produisant ma ruine</l>
+	<l id="1118">Armerait contre moi la vengeance divine</l>
+	<l id="1119">Et je reçois du Ciel par ce dernier trépas</l>
+	<l id="1120">Un avertissement de ne la perdre pas.</l>
+	<l id="1121">Non, non, n'écoutons plus la haine qui nous porte</l>
+	<l id="1122">À voir d'un air content cette Princesse morte</l>
+	<l id="1123">Gardons bien d'exciter le Céleste courroux</l>
+	<l id="1124">Et pensons quelle est Reine aussi bien comme nous,</l>
+	<l id="1125">Reprenons la douceur trop longtemps oubliée</l>
+	<l id="1126">Au moins considérons qu'elle est notre alliée.</l>
+	<l id="1127">Que trois États entiers ont ployé sous ses lois</l>
+	<l id="1128">Et quelle est fille et soeur, mère et veuve de Rois .</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1129">Quoi Madame à présent que sa fuite s'apprête</l>
+	<l id="1130">Pouvez vous épargner cette coupable tête ?</l>
+	<l id="1131">Vous fâchez vous si peu pour un crime si grand ?</l>
+	<l id="1132">Ha quittez la tendresse ou votre esprit se rend</l>
+	<l id="1133">Domptez ce sentiment d'amitié, qui vous dompte,</l>
+	<l id="1134">Vengez vous, perdez là sans en avoir de honte :</l>
+	<l id="1135">Et pour vous mieux servir de semblables moyens</l>
+	<l id="1136">Voilez vos yeux, afin, que l'on ferme les siens.</l>
+	<l id="1137">Conservez par sa mort votre puissance auguste</l>
+	<l id="1138">Et soyez moins humaine afin d'être plus juste.</l>
+	<l id="1139">Ne vous souvient il plus du damnable dessein</l>
+	<l id="1140">Que son perfide amant avait dedans le sein ?</l>
+	<l id="1141">Si nous l'eussions permis vous eussiez vu paraître</l>
+	<l id="1142">Le Comte_d_Arondel et celui de Glocestre,</l>
+	<l id="1143">La Tamise eut tremblé dessous leurs avirons</l>
+	<l id="1144">Toute l'île eut gémi dessous leurs escadrons.</l>
+	<l id="1145">Sans le Ciel qui vous aime et qui nous favorise</l>
+	<l id="1146">Ils eussent achevé cette grande entreprise,</l>
+	<l id="1147">Et vos tristes sujets n'auraient plus aujourd'hui</l>
+	<l id="1148">Si je n'eusse été cru, de Reine, ni d'appui.</l>
+	<l id="1149">Cette affaire à présent vous touche et nous regarde</l>
+	<l id="1150">Chérissez votre vie afin qu'elle nous garde.</l>
+	<l id="1151">Et puisque notre espoir ne dépend que de vous</l>
+	<l id="1152">Tâchez en vous sauvant de nous conserver tous.</l>
+	<l id="1153">Ou si vous méprisez l'avis que je vous donne</l>
+	<l id="1154">Je crains pour l'Angleterre pour votre personne.</l>
+	<l id="1155" syll="6" part="i">Il est temps d'y penser.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1155" syll="6" part="f">Votre conseil me plaît</l>
+	<l id="1156">Je l'aime tout sanglant et tout cruel qu'il est</l>
+	<l id="1157">Je cède à vos raisons je veux à cette heure</l>
+	<l id="1158">Puisque vous le voulez que la Princesse meure.</l>
+	<l id="1159">Prononcez, lui l'arrêt et faites que demain</l>
+	<l id="1160">L'on mette à cet ouvrage une dernière main.</l>
+	<l id="1161">Puisque pour mon salut sa perte est nécessaire</l>
+	<l id="1162">Je n'y résiste plus ne le pouvant plus faire</l>
+	<l id="1163">Toutefois mon Génie à qui rien n'est secret</l>
+	<l id="1164">Sait que j'en ai dans l'âme un extrême regret.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1165">Ces obstacles ôtés, vous n'aurez rien à craindre</l>
+	<l id="1166">Au trône de Marie où vous allez atteindre.</l>
+	<l id="1167">Le Démon des Anglais sera toujours vainqueur</l>
+	<l id="1168">Et les astres pour vous n'auront point de rigueur,</l>
+	<l id="1169">Le temps qui des vertus efface la mémoire</l>
+	<l id="1170">N'obscurcira jamais votre immortelle gloire :</l>
+	<l id="1171">Et l'empire orgueilleux de votre Majesté,</l>
+	<l id="1172">Finira bien plus tard que la postérité.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Marie, Kenede, vêtues de deuil dans une chambre tendue de noir.</head>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1173">Non, je ne sais que trop, sous quelle destinée</l>
+	<l id="1174">Doit couler de mes jours la fuite infortunée</l>
+	<l id="1175">J'y rêve incessamment... encore à ce matin</l>
+	<l id="1176">Songeant aux tristes lois du sévère destin</l>
+	<l id="1177">Voila que mon cher Duc à moi se représente</l>
+	<l id="1178">Son image depuis en tous lieux m'épouvante</l>
+	<l id="1179">Son corps pâle et sanglant paraît à découvert</l>
+	<l id="1180">Dans les flots de son sang sa belle âme se perd.</l>
+	<l id="1181">Et des yeux de l'esprit je vois dessus sa plaie</l>
+	<l id="1182">De ma prochaine mort l'apparence trop vraie.</l>
+	<l id="1183">Mais quel témoin faut il des maux que je prévois</l>
+	<l id="1184">Que l'avertissement qu'en songe j'en reçois.</l>
+	<l id="1185">Les prêtres étonnés par un fâcheux auspice,</l>
+	<l id="1186">( Ce me semble ) ont quitté le divin sacrifice ;</l>
+	<l id="1187">Et pour m'assurer mieux de mes derniers malheurs,</l>
+	<l id="1188">La statue ébranlée à répandu des pleurs 	:</l>
+	<l id="1189">Le temple en a gémi, plusieurs coups de tonnerre</l>
+	<l id="1190">Sous mes pieds chancelants ont fait trembler la terre ;</l>
+	<l id="1191">Du sang à rejailli de l'autel sur mes mains</l>
+	<l id="1192">Et les flambeaux sacrés, trois fois se sont éteints.</l>
+	<l id="1193">Puis je sais que déjà ma sentence est donnée</l>
+	<l id="1194">Et qu'à mes ennemis je fuis abandonnée.</l>
+	<l id="1195">Mais je n'ignore pas qu'il faut se préparer</l>
+	<l id="1196">À recevoir les traits que l'on ne peut parer.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1197">Madame espérez mieux, je viens tout au contraire</l>
+	<l id="1198">Vous annoncer la mort du Comte votre frère</l>
+	<l id="1199">Ce Prince injurieux à suivi votre époux</l>
+	<l id="1200">Et le glaive du Ciel à frappé devant tous</l>
+	<l id="1201">Le sacrificateur, avecque la victime</l>
+	<l id="1202">L'un par un châtiment et l'autre par un crime.</l>
+	<l id="1203">Vous aurez à ce jour la fin de vos douleurs.</l>
+	<l id="1204">Mais ou mon oeil se trompe ou vous jetez des pleurs</l>
+	<l id="1205">En cet heureux malheur que le sort vous envoie.</l>
+	<l id="1206">Ne pleurez point Madame, ou bien pleurez de joie.</l>
+	<l id="1207">Le Comte dont la perte a vengé votre époux</l>
+	<l id="1208">Méritait la rigueur du céleste courroux.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1209">Il est vrai que le Comte était mon adversaire,</l>
+	<l id="1210">Et mon persécuteur ; mais il était mon frère.</l>
+	<l id="1211">Le récit de fa mort me donne de l'effroi</l>
+	<l id="1212">Et j'ai pitié de lui, qui n'en eut point de moi.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1213">On vient vous interrompre ô Ciel j'ai l'âme atteinte</l>
+	<l id="1214">Par la soudaine horreur d'une mortelle crainte.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Marie, Kenede, Amias Paulet.</head>
+<sp who="AMIAS PAULET"><speaker>AMIAS PAULET.</speaker>
+	<l id="1215" syll="3" part="i">Madame.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1215" syll="3" part="m">Que veux tu ?</l>
+</sp>
+<sp who="AMIAS PAULET"><speaker>AMIAS PAULET.</speaker>
+	<l id="1215" syll="6" part="f">Vos juges assemblés...</l>
+</sp>
+<sp stage="aparte" who="KENEDE"><speaker>KENEDE, à l'écart.</speaker>
+	<l id="1216">Ma frayeur continue mes sens sont troublez</l>
+</sp>
+<sp who="AMIAS PAULET"><speaker>AMIAS PAULET.</speaker>
+	<l id="1217">Demandent à vous voir de la part de la Reine.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1218">Je ne méritais pas qu'ils prissent cette peine</l>
+	<l id="1219">Mes juges envers moi sont bien officieux</l>
+	<l id="1220">De me rendre visite en de si tristes lieux.</l>
+	<l id="1221">Va leur dire pourtant que je suis toute prête</l>
+	<l id="1222">À quoi que leur pouvoir ait destiné ma tête.</l>
+	<l id="1223">Ô favorable jour ! Ô jour trop attendu !</l>
+	<l id="1224">Ou mon premier état me doit être rendu.</l>
+	<l id="1225">Je sors de deux prisons en sortant de la vie.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1226" syll="2" part="i">Hélas.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1226" syll="10" part="f">Quoi vous pleurez, me portez vous envie ?</l>
+	<l id="1227">Sachez que ce trépas qui me tire des fers</l>
+	<l id="1228">Me redonne le sceptre le jour que je perds.</l>
+	<l id="1229">Et qu'une mort injuste est toujours honorable.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1230">Ha vertueuse Reine ; ha constance admirable !</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Marie, Le Comte de Kent, Le Maréchal de Sherobery, Les États, Le Capitaine des Gardes, Kenede.</head>
+<sp stage="wave" who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT, sans saluer Marie.</speaker>
+	<l id="1231">J'ai charge de vous faire un funeste rapport.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1232" syll="2" part="i">Quel ?</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1232" syll="11" part="f">La Reine a signé l' Arrêt de votre mort.</l>
+	<l id="1233" syll="3" part="i">Lisez le...</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1233" syll="9" part="f">C'est ici ma dernière infortune</l>
+	<l id="1234">Vous m'allez exempter de mille morts par une,</l>
+	<l id="1235">En pensant me traiter avecque cruauté</l>
+	<l id="1236">Vous m'accordez un don que j'ai bien souhaité.</l>
+	<l id="1237">Mais quoi qu'un peuple vil insolemment me brave</l>
+	<l id="1238">Et que grande Princesse il me traite en esclave.</l>
+	<l id="1239">Apprenez que personne entre tous les humains</l>
+	<l id="1240">Ne peut jeter sur moi ses parricides mains .</l>
+	<l id="1241">On m'a ravi l'Empire où j'étais souveraine</l>
+	<l id="1242">Mais il me reste encor la qualité de Reine.</l>
+	<l id="1243">Vos pareils sont soumis aux volontés des Rois</l>
+	<l id="1244">Sans pouvoir attenter sur ceux qui font les lois,</l>
+	<l id="1245">Et cette liberté que ma prison vous donne</l>
+	<l id="1246">Peut tout dessus mon sceptre rien sur ma personne.</l>
+	<l id="1247">Apprenez que souvent on a vu dans mes yeux</l>
+	<l id="1248">Les rayons éclatants d'un soleil glorieux.</l>
+	<l id="1249">Que tous mes alliez, ont de royales marques</l>
+	<l id="1250">Et qu'entre mes aïeux on compte cent monarques.</l>
+	<l id="1251">J'ai trois fois soupiré pour des objets nouveaux,</l>
+	<l id="1252">Trois fois j'ai de l'Hymen rallumé les flambeaux</l>
+	<l id="1253">J'ai reçu pour époux trois illustres personnes</l>
+	<l id="1254">Ma tête quelquefois à porté trois couronnes .</l>
+	<l id="1255">Et des augustes mains de la divinité</l>
+	<l id="1256">J'ai reçu cet honneur qu'on nomme Majesté</l>
+	<l id="1257">Dont les astres brillants et les flammes célestes</l>
+	<l id="1258">Sont de tant de grandeurs les déplorables restes.</l>
+	<l id="1259">Au moins j'ai cet espoir qui me doit contenter</l>
+	<l id="1260">Que pas un des mortels ne me les peut ôter.</l>
+	<l id="1261">Vous donc qui me parlez, avec tant d'insolence</l>
+	<l id="1262">M'apportant un arrêt tout plein de violence</l>
+	<l id="1263">Vous, dont le vice même abhorre les projets</l>
+	<l id="1264">Et qui fûtes heureux d'être de mes sujets</l>
+	<l id="1265">Devant que la fureur d'une injuste puissance</l>
+	<l id="1266">Triomphant de ma vie de mon innocence :</l>
+	<l id="1267">Quel pouvoir avez-vous sur un front couronné</l>
+	<l id="1268">Dites le moi de grâce et qui vous l'a donné.</l>
+</sp>
+<sp who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT.</speaker>
+	<l id="1269">Je pense que la Reine à pu nous le permettre</l>
+	<l id="1270">Elle est sans injustice et n'en saurait commettre.</l>
+</sp>
+<sp stage="toward" who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE SHEROBERY.</speaker>
+	<l id="1271">Vous devez excuser si nous vous offensons.</l>
+	<l id="1272">Élisabeth commande et nous obéissons.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1273">Cette cruelle fille est digne de son père</l>
+	<l id="1274">Et des maux qu'il a faits d'où provient ma misère,</l>
+	<l id="1275">Elle suit ses chemins comme il les à tracés,</l>
+	<l id="1276">Achevant les projets qu'il avait commencé,</l>
+	<l id="1277">Et comme feu Henry la fit naître d'un crime.</l>
+	<l id="1278">Elle a les passions de ce sang qui l'anime,</l>
+	<l id="1279">Car on a remarqué qu'un lit incestueux</l>
+	<l id="1280">Na pu jamais produire un enfant vertueux,</l>
+	<l id="1281">Elle m'ôte la vie avecque la Couronne</l>
+	<l id="1282">Je l'aime toutefois et si je lui pardonne.</l>
+</sp>
+<sp who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE SHEROBERY.</speaker>
+	<l id="1283">Celui qui dans nos coeurs pénètre nos secrets</l>
+	<l id="1284">Sait combien cet arrêt nous laisse de regrets,</l>
+	<l id="1285">Puisqu'il vous désoblige et qu'une autre puissance</l>
+	<l id="1286">Désire votre mort de notre obéissance.</l>
+</sp>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1287">Quand je verrai la place où l'on me fait mourir</l>
+	<l id="1288">Au lieu d'en reculer vous m'y verrez courir,</l>
+	<l id="1289">Ce sont de lâches coeurs que la peur doit atteindre</l>
+	<l id="1290">Les coeurs comme le mien ne peuvent jamais craindre,</l>
+	<l id="1291">En ma faveur pourtant souffrez que mon destin</l>
+	<l id="1292">Se puisse prolonger encore d'un matin.</l>
+	<l id="1293">Et que les Officiers de qui je fus suivie</l>
+	<l id="1294">Soient témoins de ma mort ainsi que de ma vie.</l>
+	<l id="1295">Après, tout vous succède et qu'à jamais aux Cieux</l>
+	<l id="1296">Pour un si grand bienfait vos jours soient précieux ;</l>
+	<l id="1297">Enfin votre bonheur soi-même se surpasse.</l>
+</sp>
+<sp who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE SHEROBERY.</speaker>
+	<l id="1298">Oui très facilement on vous fait cette grâce</l>
+	<l id="1299">Même s'il ce pouvait vous auriez les moyens</l>
+	<l id="1300">De disposer encor du reste de vos biens.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Marie, Kenede.</head>
+<sp who="MARIE"><speaker>MARIE.</speaker>
+	<l id="1301">Vous.... faites assembler dans la salle prochaine</l>
+	<l id="1302">Les tristes Officiers qui servaient votre Reine ;</l>
+	<l id="1303">Là vous recevrez tous au partir de ce lieu</l>
+	<l id="1304">Puis qu'il faut que je meure un éternel Adieu.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1305" syll="6" part="i">Ô funestes devoirs ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head>
+<sp stage="alone" who="MARIE"><speaker>MARIE, demeure seule.</speaker>
+	<l id="1305" syll="6" part="f">Il faut que ma constance</l>
+	<l id="1306">Étonne les esprits de toute l'assistance ;</l>
+	<l id="1307">Qu'aux fronts des spectateurs j'imprime un pâle effroi,</l>
+	<l id="1308">Et que mes ennemis soient plus émeus que moi.</l>
+	<l id="1309">Adieu vaines grandeurs, pompe, sceptre, couronne,</l>
+	<l id="1310">Adieu plaisirs amers que l'Empire nous donne.</l>
+	<l id="1311">Enfin mes chers époux, la Parque va venir</l>
+	<l id="1312">Et qui nous sépara nous saura réunir.</l>
+	<l id="1313">Je vous consacre à tous mes immortelles flammes</l>
+	<l id="1314">Et malgré vos trépas je vais joindre vos âmes.</l>
+	<l id="1315">Adieu Prince que j'aime et que j'ai mis au jour</l>
+	<l id="1316">Seul gage et seul enfant que m'a donné l'amour !</l>
+	<l id="1317">Mais écoute mon fils ma dernière parole.</l>
+	<l id="1318">Suis la route que prend mon âme qui s'envole</l>
+	<l id="1319">Ressouviens toi toujours de Dieu qui te fit Roi</l>
+	<l id="1320">Et des préceptes saints que tu reçus de moi.</l>
+	<l id="1321">Toutefois je te laisse en un âge si tendre</l>
+	<l id="1322">Qu'à mes raisonnements tu ne peux rien entendre.</l>
+	<l id="1323">Cela rend ton malheur supportable en ce point</l>
+	<l id="1324">Qu'encore qu'il soit grand, tu ne le connais point.</l>
+	<l id="1325">Je ne pénètre pas dans les choses futures</l>
+	<l id="1326">Et je laisse à Dieu seul, ces sciences obscures.</l>
+	<l id="1327">Mais selon le progrès de ton jeune destin</l>
+	<l id="1328">Si le commencement en fait juger la fin.</l>
+	<l id="1329">Hélas mon cher enfant je crains bien que ta vie</l>
+	<l id="1330">Ne soit d'un mauvais sort sans cesse poursuivie.</l>
+	<l id="1331">C'est la même parole le même discours</l>
+	<l id="1332">Que me tenait ma mère, ornement de nos jours.</l>
+	<l id="1333">( Fâcheux ressouvenir ) lorsque cette Princesse</l>
+	<l id="1334">Les yeux baignés de pleurs, le coeur plein de tristesse,</l>
+	<l id="1335">Plaignait les mêmes maux que maintenant je vois ;</l>
+	<l id="1336">Et pour moi redoutait ce que je crains pour toi.</l>
+	<l id="1337">Toi qui sur nos destins absolument présides,</l>
+	<l id="1338">Grand Roi qui pour jamais dans ton trône résides,</l>
+	<l id="1339">Père des immortels, seul Monarque des Cieux</l>
+	<l id="1340">De grâce en ma faveur abaisse un peu les yeux,</l>
+	<l id="1341">Et si de mes malheurs la grandeur t'est connue</l>
+	<l id="1342">Fais que mes voeux ardents pénètrent dans ta nue ;</l>
+	<l id="1343">Que le Prince écossais, digne sang de mon sang,</l>
+	<l id="1344">Soit remis quelque jour en notre premier rang.</l>
+	<l id="1345">Donne à ce rejeton d'une tige sacrée</l>
+	<l id="1346">Notre marque Royale autrefois révérée.</l>
+	<l id="1347">Fais que par ses vertus ce bel astre naissant !</l>
+	<l id="1348">Dans le Ciel de la gloire aille toujours croissant.</l>
+	<l id="1349">Qu'il monte par ton aide au trône de son père</l>
+	<l id="1350">Ou qu'il hérite au moins des sceptres de sa mère.</l>
+	<l id="1351">Seigneur permets qu'un jour ce généreux lion</l>
+	<l id="1352">Terrasse l'hérésie et la rébellion.</l>
+	<l id="1353">Que ce jeune orphelin dans son âge plus tendre</l>
+	<l id="1354">Comme un autre Phenix renaisse de ma cendre;</l>
+	<l id="1355">Et qu'en un siècle d'or nos fortunés, neveux</l>
+	<l id="1356">Recueillent la moisson et le fruit de mes voeux.</l>
+	<l id="1357">Ô monarque éternel ! Exauce ma prière</l>
+	<l id="1358">Tu sais bien qu'elle est juste et que c'est ma dernière.</l>
+	<l id="1359">Mais puisqu'il faut mourir finissons ce discours</l>
+	<l id="1360">Augmentons notre gloire en abrégeant nos jours ;</l>
+	<l id="1361">Et devant que quitter ces terrestres demeures</l>
+	<l id="1362">Employons les moments de nos dernières heures :</l>
+	<l id="1363">Portons en un corps faible un courage bien fort,</l>
+	<l id="1364">Et voyons sans pâlir, la face de la mort.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp stage="alone" who="ÉLISABETH"><speaker>ÉLISABETH, seule au cabinet.</speaker>
+	<l id="1365">Vois ? Souffrant le succès d'une telle aventure</l>
+	<l id="1366">Veux-je ensemble offenser le Ciel et la Nature ?</l>
+	<l id="1367">Quoi veux-je en violant toutes sortes de droits</l>
+	<l id="1368">Arroser l'échafaud du sang même des Rois ?</l>
+	<l id="1369">Non... la postérité fouillerait ma mémoire</l>
+	<l id="1370">Par le sujet sanglant d'une tragique histoire,</l>
+	<l id="1371">Et noircirait ma vie afin de se venger</l>
+	<l id="1372">Du Trophée odieux que l'on va m'ériger.</l>
+	<l id="1373">Mais souffrirai je aussi qu'à mon désavantage</l>
+	<l id="1374">Et par ma lâcheté ma gloire se partage ?</l>
+	<l id="1375">Que mon superbe empire adore deux soleils ?</l>
+	<l id="1376">Et reçoive le jour de deux astres pareils ?</l>
+	<l id="1377">De mouvements divers je me sens combattue</l>
+	<l id="1378">L'ambition m'anime et la crainte me tue,</l>
+	<l id="1379">Chaque penser que j'ai me plaît me déplaît</l>
+	<l id="1380">Depuis que j'ai donné ce rigoureux arrêt,</l>
+	<l id="1381">Mille appréhensions me repassent dans l'âme</l>
+	<l id="1382">Je romps incessamment les desseins que je trame ;</l>
+	<l id="1383">Je rêve je médite et de tous les côtés</l>
+	<l id="1384">Je ne puis découvrir que des extrémités :</l>
+	<l id="1385">Dans ce dédale obscur, ou ma raison se trouve</l>
+	<l id="1386">Je quitte un sentiment si tôt que je l'approuve ;</l>
+	<l id="1387">Je veux perdre Marie et je ne le veux pas</l>
+	<l id="1388">Je crains également sa vie et son trépas.</l>
+	<l id="1389">La pitié toutefois demeure la plus forte,</l>
+	<l id="1390">Et la raison enfin sur la haine l'emporte :</l>
+	<l id="1391">Que cette Reine vive et que le Ciel plus doux</l>
+	<l id="1392">Lui cache désormais les traits de son courroux,</l>
+	<l id="1393">Peut-être... mais que veut ce garde qui s'avance.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Élisabeth, Le Capitaine des Gardes.</head>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="1394">L'Ambassadeur d'Écosse avec celui de France.</l>
+	<l id="1395">Souhaite le bonheur de vous entretenir</l>
+	<l id="1396" syll="6" part="i">Madame vous plaît il...</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1396" syll="6" part="f">Qu'on les face venir ;</l>
+	<l id="1397">Ma clémence à la fin exauce leur prière</l>
+	<l id="1398">Et je cesse aujourd'hui de leur être contraire.</l>
+	<l id="1399">Ils viennent en ces lieux par un dernier effort</l>
+	<l id="1400">Divertir s'il se peut le coup de cette mort :</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Élisabeth, Les Ambassadeurs.</head>
+<sp who="L'AMBASSADEUR D'ECOSSE"><speaker>L'AMBASSADEUR D'ECOSSE.</speaker>
+	<l id="1401">Princesse à qui le sort soit toujours favorable,</l>
+	<l id="1402">Retirez, de danger ma Reine déplorable</l>
+	<l id="1403">Et ne permettez pas que la postérité</l>
+	<l id="1404">Qui de vos actions saura la vérité</l>
+	<l id="1405">Vous reproche la mort de cette désolée,</l>
+	<l id="1406">Et l'hospitalité lâchement violée</l>
+	<l id="1407">Révoquez le pouvoir de ce cruel arrêt :</l>
+	<l id="1408">Ou tous les Rois ensemble ont beaucoup d'intérêt.</l>
+</sp>
+<sp who="L'AMBASSADEUR DE FRANCE"><speaker>L'AMBASSADEUR DE FRANCE.</speaker>
+	<l id="1409">Le Prince des Français par ma bouche s'écrie</l>
+	<l id="1410">Qu'on l'outrage lui-même en outrageant Marie.</l>
+	<l id="1411">Sauvez nous notre Reine en lui sauvant sa soeur</l>
+	<l id="1412">Et qu'enfin la Justice encline à la douceur.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1413">Je sais ce que je dois à vos Princes Augustes,</l>
+	<l id="1414">Pour ne les pas ouïr leurs plaintes font trop justes,</l>
+	<l id="1415">Venez, soyez témoins que je vais de ce pas</l>
+	<l id="1416">Révoquer au Conseil l'arrêt de son trépas.</l>
+</sp>
+<sp who="L'AMBASSADEUR D'ECOSSE"><speaker>L'AMBASSADEUR D'ECOSSE.</speaker>
+	<l id="1417">Ô Clémence divine et du Ciel inspirée</l>
+	<l id="1418">Ô faveur incroyable et presque inespérée</l>
+</sp>
+<sp who="L'AMBASSADEUR DE FRANCE"><speaker>L'AMBASSADEUR DE FRANCE.</speaker>
+	<l id="1419">Madame, que le cours de vos prospérités</l>
+	<l id="1420">Vous donne autant de biens que vous en méritez !</l>
+	<l id="1421">Mais que veulent ces gens dont les sombres visages</l>
+	<l id="1422">Ainsi lavés de pleurs sont de mauvais présages ?</l>
+	<l id="1423">Ils portent dans ce deuil l'image de la mort</l>
+	<l id="1424">Et je lis sur leur front quelque triste rapport.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1425">Une subite horreur dans mes veines dévale.</l>
+	<l id="1426">Hier je prononçai la sentence fatale</l>
+	<l id="1427">Dont l'exécution s'est du faire aujourd'hui,</l>
+	<l id="1428">Et j'appréhende fort qu'on ne m'ait obéi.</l>
+	<l id="1429">Approche mes amis quel sujet vous amène ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Élisabeth, Le Comte de Kent, Le Maréchal de Sherobery, Le Vicomte de Herrin, les États, Les Ambassadeurs, Kenede, Troupe d'Officiers de Marie.</head>
+<sp who="MELVIN"><speaker>MELVIN.</speaker>
+	<l id="1430">Le trépas de Marie, autrefois notre Reine.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1431">Hélas ! J'ai vu trancher par une infâme main</l>
+	<l id="1432">Le tendre et sacré fil de son royal destin.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1433">J'ai causé ton malheur, Princesse infortunée !</l>
+</sp>
+<sp who="LE MARÉCHAL DE SHEROBERY"><speaker>LE MARÉCHAL DE sHEROBERY.</speaker>
+	<l id="1434" syll="6" part="i">Ha perte irréparable !</l>
+</sp>
+<sp who="LE VICOMTE DE HERRIN"><speaker>LE VICOMTE DE HERRIN.</speaker>
+	<l id="1434" syll="6" part="f">Ha funeste journée !</l>
+</sp>
+<sp who="L'AMBASSADEUR D'ECOSSE"><speaker>L'AMBASSADEUR D'ECOSSE.</speaker>
+ 	<l id="1435">Quoi cet illustre sang d'Écosse descendu</l>
+	<l id="1436">Sur un triste échafaud vient d'être répandu ?</l>
+	<l id="1437">Celle que nous avions pour régente reçue,</l>
+	<l id="1438">Digne de tant de Rois dont elle était issue,</l>
+	<l id="1439">Celle à qu'il on voyait tant d'Empires en main</l>
+	<l id="1440">A servi de spectacle à son peuple inhumain ?</l>
+	<l id="1441">Quoi parle coup sanglant d'une mort déshonnête</l>
+	<l id="1442">On arrache les Lis qui couronnaient sa tête,</l>
+	<l id="1443">Sa plus proche parente en prononce l'arrêt</l>
+	<l id="1444">Et l'on verse son sang tout innocent qu'il est ?</l>
+	<l id="1445">Cette mort vous accuse vous rend criminelle,</l>
+	<l id="1446">Vous avez offensé cent monarques en elle</l>
+	<l id="1447">Et celui que je sers encore plus que tous,</l>
+	<l id="1448">Mais sachez que ce sang rejaillira sur vous,</l>
+	<l id="1449">Les Français se joindront aux bandes écossaises</l>
+	<l id="1450">Pour combattre l'effort de vos troupes anglaises.</l>
+	<l id="1451">Vos sujets révoltés trahiront vos desseins</l>
+	<l id="1452">Et par un juste sort vos parricides mains</l>
+	<l id="1453">Du meurtre de ma Reine encor toutes fouillées</l>
+	<l id="1454">De leur sceptre sanglant se verront dépouillées</l>
+	<l id="1455">Nous suivrons le parti de nos Rois outragés,</l>
+	<l id="1456">Et nous ne mourrons point sans les avoir vengés,</l>
+	<l id="1457">Excusez toutefois l'ardeur qui me transporte</l>
+	<l id="1458">Un fidèle sujet doit parler de la sorte,</l>
+	<l id="1459">Madame, pardonnez à mon ressentiment</l>
+	<l id="1460">Je serais criminel de parler autrement</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1461">Sa générosité bien loin de me déplaire</l>
+	<l id="1462">Me plaît infiniment, j'approuve sa colère,</l>
+	<l id="1463">Qui l'oblige à pleurer en ce commun malheur</l>
+	<l id="1464">Celle qui fait sa perte et qui fait ma douleur.</l>
+</sp>
+<sp who="L'AMBASSADEUR DE FRANCE"><speaker>L'AMBASSADEUR DE FRANCE.</speaker>
+	<l id="1465">Hélas ! Il me souvient qu'autrefois jeune Infante</l>
+	<l id="1466">Elle vint sur nos bords pompeuse et triomphante,</l>
+	<l id="1467">Je vis son écusson de trois sceptres orné</l>
+	<l id="1468">Son front de trois bandeaux richement couronné,</l>
+	<l id="1469">Le myrte, l'olivier, le laurier et la palme</l>
+	<l id="1470">Faisaient à deux États espérer un doux Calme,</l>
+	<l id="1471">La terre l'Océan voyaient de toutes parts</l>
+	<l id="1472">Éclore de beaux lys dessous des léopards :</l>
+	<l id="1473">Et les Cieux éteignant les flambeaux de la guerre</l>
+	<l id="1474">Joignaient déjà la France avec quel Angleterre,</l>
+	<l id="1475">Cette île si fatale, ou,parles lois du sort,</l>
+	<l id="1476">Il était résolu que nous vissions sa mort,</l>
+	<l id="1477">Ô trépas ! Regrettable à toute la nature !</l>
+	<l id="1478">Ô malheur de nos jours ! Rare et triste aventure !</l>
+	<l id="1479">Celle qui méritait un triomphe nouveau</l>
+	<l id="1480">Tend son col innocent sous le fer d'un bourreau;</l>
+	<l id="1481">Et le funeste coup que ce brutal lui donne</l>
+	<l id="1482">Fait tomber de sa tête une illustre Couronne.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1483">Ha Ciel ! Impitoyable à ces cris innocents !</l>
+	<l id="1484">Témoin de son désastre et des maux que je sens,</l>
+	<l id="1485">As-tu jeté les yeux sur ce sanglant naufrage</l>
+	<l id="1486">Sans sauver du débris ton plus parfait ouvrage ?</l>
+	<l id="1487">Était-ce un coup fatal qu'on ne peut empêcher ?</l>
+	<l id="1488">Devait elle périr ? Et devais-je pécher ?</l>
+</sp>
+<sp stage="low" who="LE COMTE DE KENT"><speaker>LE COMTE DE KENT, tous bas.</speaker>
+	<l id="1489">En l'humeur qui la tient craignons de lui déplaire</l>
+	<l id="1490">Puisqu'il est encor temps évitons sa colère,</l>
+	<l id="1491">Et pour nous conserver à nous mêmes le jour,</l>
+	<l id="1492">Éloignons sa présence en absentant la Cour.</l>
+<stage type="exit/together">Il sort avec les États.</stage>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1493">Vous qui me conseilliez de perdre cette Reine</l>
+	<l id="1494">Qui causâtes sa mort et qui causez ma peine</l>
+	<l id="1495">N'avez-vous point tremblé barbares assassins.</l>
+	<l id="1496">Lors qu'un exécuteur a fini vos desseins ?</l>
+	<l id="1497">Avez-vous eu le front ô lâches et perfides</l>
+	<l id="1498">De répandre son sang sur vos mains parricides ?</l>
+	<l id="1499">Mais je leur parle en vain, mes cris sont superflus</l>
+	<l id="1500">Les traîtres font en fuite et ne m'écoutent plus.</l>
+	<l id="1501">Aucun de ces tyrans n'ose à présent paraître ...</l>
+	<l id="1502">Tous s'estiment punis parce qu'ils doivent l'être :</l>
+	<l id="1503">Déjà mille serpents attachez à leurs coeurs</l>
+	<l id="1504">Leur font appréhender d'éternelles rigueurs.</l>
+	<l id="1505">Mais de quelque façon que ce tourment les traite</l>
+	<l id="1506">Leur mort seul le pourra, me rendre satisfaite.</l>
+	<l id="1507">Ces ingrats, ces cruels, tous remplis de fureur</l>
+	<l id="1508">Ont fait d'une Princesse un spectacle d'horreur,</l>
+	<l id="1509">Une exécution sacrilège et funeste</l>
+	<l id="1510">Un autel de Buzire, un repas de Thyeste.</l>
+	<l id="1511">J'ai creusé cependant moi-même son tombeau,</l>
+	<l id="1512">J'ai prononcé l'arrêt, j'ai prêté le couteau,</l>
+	<l id="1513">Et cette île a servi par notre perfidie</l>
+	<l id="1514">De théâtre sanglant à cette tragédie.</l>
+	<l id="1515">Ha je souffre le mal qu'elle vient d'encourir</l>
+	<l id="1516">Et je meurs du regret de l'avoir fait mourir,</l>
+	<l id="1517">Que ne puis-je montrer combien j'en suis atteinte</l>
+	<l id="1518">Rallumant par ma mort cette lumière éteinte.</l>
+	<l id="1519">Mais puisqu'on ne peut plus divertir ces malheurs</l>
+	<l id="1520">Répandons tous ensemble un long fleuve de pleurs</l>
+	<l id="1521">Et toi qui fus présent à sa fin déplorable</l>
+	<l id="1522">Fais nous de ce spectacle un tableau mémorable.</l>
+</sp>
+<sp who="MELVIN"><speaker>MELVIN.</speaker>
+	<l id="1523">Madame, permettez que je n'en parle plus</l>
+	<l id="1524">Ce fâcheux souvenir rend mes esprits confus.</l>
+	<l id="1525">Quoi votre Majesté veut elle que j'essaye</l>
+	<l id="1526">À recevoir encore une mortelle plaie</l>
+</sp>
+<sp who="MELVIN"><speaker>MELVIN.</speaker>
+	<l id="1527">Je vais recommencer d'inutiles regrets</l>
+	<l id="1528">Et rouvrir ma blessure avec de nouveaux traits :</l>
+	<l id="1529">Un glaçon de frayeur dans mon âme se glisse</l>
+	<l id="1530">Mais vous le commandez, il faut que j'obéisse.</l>
+	<l id="1531">Hier après l'arrêt qui nous affligea tous</l>
+	<l id="1532">La Reine dit ces mots l'ail tourné devers nous.</l>
+	<l id="1533">« Fidèles Officiers qui depuis tant d'années</l>
+	<l id="1534">Supportez avec moi mes longues destinées.</l>
+	<l id="1535">Au moment qui me force à vous abandonner</l>
+	<l id="1536">J'ai ce seul déplaisir de ne vous rien donner.</l>
+	<l id="1537">Le Ciel reconnaîtra votre commun mérite</l>
+	<l id="1538">Mais que je vous embrasse avant que je vous quitte</l>
+	<l id="1539">Car je compte ce jour le dernier de mes jours.</l>
+	<l id="1540">Adieu... » Cette Princesse achevait ce discours</l>
+	<l id="1541">Quand nous vîmes couler de ces beaux yeux humides</l>
+	<l id="1542">Parmi des flots d'argent mille perles liquides</l>
+	<l id="1543">Lors mêlant nos soupirs à nos mourantes voix</l>
+	<l id="1544">Nous lui dîmes adieu pour la dernière fois.</l>
+	<l id="1545">Ensuite elle donne ordre aux choses nécessaires,</l>
+	<l id="1546">Dispose un testament, récite des prières,</l>
+	<l id="1547">Et se laisse charmer du frère de la mort</l>
+	<l id="1548">Qui d'un somme profond l'assoupit et l'endort.</l>
+	<l id="1549">La Lune cependant parmi ses sombres voiles</l>
+	<l id="1550">A paru cette nuit sans feux et sans étoiles</l>
+	<l id="1551">L'aurore en se levant pour pleurer nos malheurs</l>
+	<l id="1552">A versé ce matin des larmes sur les fleurs.</l>
+	<l id="1553">Et le père du jour rentrant dans sa carrière</l>
+	<l id="1554">A semblé ne prêter qu'à regret sa lumière.</l>
+	<l id="1555">Le Ciel même, le Ciel s'est tout couvert de deuil</l>
+	<l id="1556">Voyant tant de vertus qu'on mettait au Cercueil</l>
+	<l id="1557">La Reine sort du lit et cette infortunée</l>
+	<l id="1558">Veut comme à son triomphe en pompe être menée.</l>
+	<l id="1559">Elle se fait conduire à ces funestes lieux</l>
+	<l id="1560">Nous la suivons de près tous les larmes aux yeux.</l>
+	<l id="1561">D'un velours triste et noir la salle était parée</l>
+	<l id="1562">Et des gardes sans nombre en défendaient l'entrée,</l>
+	<l id="1563">Le peuple toutefois en ondes agité</l>
+	<l id="1564">Se coule avecque nous parmi l'obscurité.</l>
+	<l id="1565">Et court à l'échafaud afin que sans obstacle</l>
+	<l id="1566">Il puisse regarder ce tragique spectacle.</l>
+	<l id="1567">Chacun des assistants parle diversement</l>
+	<l id="1568">Et chacun veut juger selon son sentiment</l>
+	<l id="1569">L'on dit que ce supplice est de mauvais exemple</l>
+	<l id="1570">Lorsque sans passion son âme le contemple</l>
+	<l id="1571">L'autre que cet arrêt choque toutes les lois</l>
+	<l id="1572">Qui respectent du moins le sacré sang des Rois.</l>
+	<l id="1573">Enfin l'on oit partout un peuple qui murmure</l>
+	<l id="1574">Ou de votre ordonnance ou de cette aventure.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1575">Il est vrai que ce peuple avait juste raison</l>
+	<l id="1576">De parler de sa perte et de ma trahison.</l>
+	<l id="1577">Ô jour infortuné ! Mais poursuis ; que j'entende</l>
+	<l id="1578">Ce que je désirais et ce que j'appréhende.</l>
+</sp>
+<sp who="MELVIN"><speaker>MELVIN.</speaker>
+	<l id="1579">D'un front majestueux, d'un port superbe et haut</l>
+	<l id="1580">Elle monte aux degrés, de son triste échafaud.</l>
+	<l id="1581">Ses grâces, ses beautés émeuvent l'assistance</l>
+	<l id="1582">Ceux qui la consolaient admirent sa constance,</l>
+	<l id="1583">Perdent cette vertu qui la vient couronner</l>
+	<l id="1584">Et n'ont plus le pouvoir qu'ils lui veulent donner.</l>
+	<l id="1585">Puis sans changer de face et sans être troublée</l>
+	<l id="1586">Elle tient ce propos à toute l'assemblée.</l>
+	<l id="1587">« C'est un spectacle bien nouveau</l>
+	<l id="1588">Que de voir aux mains d'un bourreau</l>
+	<l id="1589">La tête d'une grande Reine.</l>
+	<l id="1590">Mais puisque le Ciel là permis</l>
+	<l id="1591">Je meurs sans regret et sans peine</l>
+	<l id="1592">Et pardonne à mes ennemis. »</l>
+	<l id="1593">À ces mots, vers les Cieux elle jette la vue</l>
+	<l id="1594">Souhaitant que son âme y puisse être reçue.</l>
+	<l id="1595">Un murmure confus qui remplit tout d'horreur</l>
+	<l id="1596">Nous arrête la voix nous serre le coeur.</l>
+	<l id="1597">Mille images de mort, mille frayeurs soudaines,</l>
+	<l id="1598">Nous altèrent les sens et nous glacent les veines.</l>
+	<l id="1599">Et d'un commun effroi la mortelle pâleur</l>
+	<l id="1600">Imprime à tous nos fronts une même couleur.</l>
+	<l id="1601">Lors on voit des flambeaux, dont la lumière sombre</l>
+	<l id="1602">Fait briller une hache, en l'épaisseur de l'ombre.</l>
+	<l id="1603">Chacun dessus la Reine a les yeux arrêtés</l>
+	<l id="1604">Et tous les spectateurs en sont presque enchantés.</l>
+	<l id="1605">Elle paraît plus belle, ainsi que l'oeil du monde</l>
+	<l id="1606">Luit avec plus de force en se couchant dans l'onde.</l>
+	<l id="1607">La lampe qui s'éteint éclaire beaucoup mieux</l>
+	<l id="1608">Ainsi de nouveaux feux rayonnent dans ses yeux.</l>
+	<l id="1609">L'exécuteur s'approche, et prend cette victime</l>
+	<l id="1610">Pour faire un sacrifice, ou pour mieux dire un crime</l>
+	<l id="1611">Elle est comme l'hostie au milieu de l'autel</l>
+	<l id="1612">Qui de la main du prêtre attend le coup mortel.</l>
+	<l id="1613">Déjà le bras se lève, et sa tête frappée</l>
+	<l id="1614">Par trois diverses fois ne peut être coupée.</l>
+	<l id="1615">Quelque secret destin que je ne connais pas</l>
+	<l id="1616">Voulait de notre Reine empêcher le trépas.</l>
+	<l id="1617">On sépare pourtant sous l'effort d'une lame</l>
+	<l id="1618">Et la tête du corps, et le corps d'avec l'âme.</l>
+	<l id="1619">Le fer rougit de honte à ce coup violent,</l>
+	<l id="1620">Même tout l'échafaud en demeure sanglant,</l>
+	<l id="1621">La tête qui bondit donne de l'épouvante</l>
+	<l id="1622">Murmurant certains mots dans sa bouche mourante</l>
+	<l id="1623">Nous les avons ouïs avec étonnement</l>
+	<l id="1624">Elle a dit à nos pieds, je meurs innocemment.</l>
+	<l id="1625">Lors un grand bruit s'élève et toute l'assemblée</l>
+	<l id="1626">Paraît de ce prodige avoir l'âme troublée.</l>
+	<l id="1627">Et quelque temps après le corps perd sa chaleur,</l>
+	<l id="1628">Le chef son mouvement, le sang sa couleur.</l>
+</sp>
+<sp who="KENEDE"><speaker>KENEDE.</speaker>
+	<l id="1629">Puisque notre espérance en notre Reine est morte</l>
+	<l id="1630">Puisque dans son cercueil notre bonheur s'emporte</l>
+	<l id="1631">Madame au moins souffrez que nous cherchions ailleurs</l>
+	<l id="1632">Un Ciel plus favorable des destins meilleurs.</l>
+</sp>
+<sp who="ÉLISABETH"><speaker>ÉLISABETH.</speaker>
+	<l id="1633">Demeurez en ces lieux pour pleurer sur sa cendre</l>
+	<l id="1634">C'est un dernier honneur que vous lui devez rendre.</l>
+	<l id="1635">Allez voir derechef son froid et pâle corps</l>
+	<l id="1636">Qui n'attend plus de nous que ce qu'on donne aux morts.</l>
+	<l id="1637">Il faut qu'auparavant que ce soleil se couche</l>
+	<l id="1638">J'imprime un long baiser sur sa divine bouche.</l>
+	<l id="1639">Il faut s'il m'est permis encor de lui parler</l>
+	<l id="1640">Par de justes regrets ma perte consoler.</l>
+	<l id="1641">Laver son sang de pleurs, et pour devoir suprême</l>
+	<l id="1642">Rechercher cette Reine en cette Reine même.</l>
+	<l id="1643">Considérer ses traits que j'ai défigurés</l>
+	<l id="1644">Et fermer ses beaux yeux autrefois adorés.</l>
+<stage type="faint">Elle perd le sens.</stage>
+	<l id="1645">Ha j'aperçois sa tête et sa Royale face</l>
+	<l id="1646">Fume encor dans son  sang et bondit sur la place :</l>
+	<l id="1647">Ses yeux de son trépas les muets orateurs</l>
+	<l id="1648">Dont les plus inhumains furent adorateurs,</l>
+	<l id="1649">Ces astres éclipsés me reprochent mon crime,</l>
+	<l id="1650">Cette bouche fermée encore me l'exprime ;</l>
+	<l id="1651">Et ce trône d'amour, que l'on a vu périr</l>
+	<l id="1652">Coupable que je suis me condamne à mourir.</l>
+	<l id="1653">Mais j'ensevelirai de crainte du tonnerre</l>
+	<l id="1654">Et mon crime et ma honte au centre de la terre :</l>
+	<l id="1655">Je suivrai la Tamise et sur ses larges bords</l>
+	<l id="1656">Je me figurerai le noir fleuve des morts.</l>
+	<l id="1657">Je quitterai ma Cour dans ce malheur extrême</l>
+	<l id="1658">Et me séparerai moi-même de moi-même :</l>
+	<l id="1659">En évitant mon ombre avec autant d'effroi</l>
+	<l id="1660">Qu'un serpent qui se fuit, et se laisse après soi.</l>
+	<l id="1661">Je sens déjà les feux d'une horrible furie</l>
+	<l id="1662">Une tremblante voix sort du sang de Marie ;</l>
+	<l id="1663">Elle, et le défunt Duc désirent mon trépas</l>
+	<l id="1664">Leurs fantômes affreux marchent dessus mes pas.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI>
