@@ -53,8 +53,8 @@
 	<castItem><role id="LICANDRE" sex="1" type="H" statut='aristocrate' age='A' stat_amour='néant'>LICANDRE</role>, gentilhomme français , amant d'Éliante.</castItem> 	
 	<castItem><role id="CRISPIN" sex="1" type="H" statut="valet" age='A' stat_amour='néant'>CRISPIN</role>, valet de Licandre.</castItem> 	
 	<castItem><role id="UN INSULAIRE" sex="1" type="H" statut='insulaire' age='A' stat_amour='néant'>UN INSULAIRE</role>.</castItem> 
-	<castItem><role id="LE GRAND PRÊTRE" sex="1" type="H" statut='prêtre' age='A' stat_amour='néant'>LE GRAND-PRÊTRE de l'île</role>.</castItem> 	
-	<castItem><role id="LA GRANDE PRÊTRESSE" sex="2" type="H" statut='prêtre' age='A' stat_amour='néant'>LA GRANDE-PRÊTRESSE</role>.</castItem> 	
+	<castItem><role id="GRAND-PRÊTRE" sex="1" type="H" statut='prêtre' age='A' stat_amour='néant'>LE GRAND-PRÊTRE de l'île</role>.</castItem> 	
+	<castItem><role id="GRANDE-PRÊTRESSE" sex="2" type="H" statut='prêtre' age='A' stat_amour='néant'>LA GRANDE-PRÊTRESSE</role>.</castItem> 	
 	<castItem><role id="GARDES" sex="9" type="H" statut='garde' age='A' stat_amour='néant'>GARDES et suite du gouverneur.</role>.</castItem> 	
 	<castItem><role id="SUITE" sex="9" type="H" statut='suite' age='A' stat_amour='néant'>SUITE du gouverneur.</role>.</castItem> 	
 	<castItem><role id="HABITANTS DE L4ILE" sex="1" type="H" statut='peuple' age='A' stat_amour='néant'>Plusieurs habitants de l'île, chantant et dansant.</role>.</castItem> 	
@@ -935,14 +935,14 @@
 	<l id='357'>Je dois être brûlé tout vif... Ô sort affreux !...</l>
 	<l id='358'>Mon maître, quoique mort, est, ma foi, plus heureux.</l>
 </sp>
-<sp who='GRAND-PRÊTRE_GRANDE-PRÊTRESSE'><speaker>LEGRAND-PRÊTRE et LA GRANDE-PRÊTRESSE chantant ensemble.</speaker>
+<sp who='GRAND-PRÊTRE_GRANDE-PRÊTRESSE'><speaker>LE GRAND-PRÊTRE et LA GRANDE-PRÊTRESSE chantant ensemble.</speaker>
 	<l id='359'>Crispin, il faut braver le sort.</l>
 	<l id='360'>Par lui ta femme t'est ravie :</l>
 	<l id='361'>Rejoins-la par un noble effort.</l>
 	<l id='362'>Pour elle tu brûlais, brûlais, pendant sa vie,</l>
 	<l id='363'>Brûle, brûle, avec elle, après sa mort,</l>
 </sp>
-<sp stage="sing/alone/toward" who="LA GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE chantant seule, à Crispin.</speaker>
+<sp stage="sing/alone/toward" who="GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE chantant seule, à Crispin.</speaker>
 	<l id='364'>D'un long veuvage on n'a point l'amertume</l>
 	<l id='365'>En suivant sa femme au tombeau.</l>
 	<l id='366'>De ce pays bénissez la coutume :</l>
@@ -961,7 +961,7 @@
 <sp stage="together/show" who="CHOEUR D'INSULAIRES"><speaker>CHOEUR D'INSULAIRES, de l'un et de l'autre sexes, montrant Crispin.</speaker>
 	<l id='376'>Chantons, dansons, et célébrons son sort.</l>
 </sp>
-<sp stage="sing/show" who="LA GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE, chantant seule, montrant Crispin.</speaker>
+<sp stage="sing/show" who="GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE, chantant seule, montrant Crispin.</speaker>
 	<l id='377'>Dans ses yeux sa joie est bien peinte.</l>
 	<l id='378'>Qu'il est content ! Qu'il est heureux !</l>
 	<l id='379'>Nous l'allons voir dans les feux,</l>
@@ -1055,7 +1055,7 @@
 	<l id='413' part="f">Oui, Dieu merci !</l>
 	<l id='414' part="i">Le poison a raté.</l>
 </sp>
-<sp stage="toward/serious" who='LE-GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, au gouverneur, avec sévérité.</speaker>
+<sp stage="toward/serious" who='GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, au gouverneur, avec sévérité.</speaker>
 	<l id='414' part="f">Que vois-je ici paraître ?</l>
 	<l id='415'>Avez-vous prétendu vous moquer du grand-prêtre, </l>
 	<l id='416' part="i">Monsieur le gouverneur ?</l>
@@ -1067,7 +1067,7 @@
 	<l id='419'>M'a fait, blessant vos lois, un peu trop entreprendre. </l>
 	<l id='420' part="i">Il était mon époux.</l>
 </sp>
-<sp who='LE-GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE.</speaker>
+<sp who='GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE.</speaker>
 	<l id='420' part="f">Votre époux ? Eh ! Pourquoi </l>
 	<l id='421'>Ne me pas confier un tel secret, à moi ?</l>
 	<l id='422'>Je n'aurais pas permis ce second hyménée, </l>
@@ -1082,7 +1082,7 @@
 <sp who='LE-GOUVERNEUR'><speaker>LE GOUVERNEUR.</speaker>
 	<l id='429' part="i">Oui, sans doute;</l>
 </sp>
-<sp stage="toward" who='LE-GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, à Licandre et à Éliante.</speaker>
+<sp stage="toward" who='GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, à Licandre et à Éliante.</speaker>
 	<l id='429' part="m">Ainsi donc, vivez heureux.</l>
 </sp>
 <sp who='ÉLIANTE'><speaker>ÉLIANTE.</speaker>
@@ -1141,7 +1141,7 @@
 	<l id='453'>Que je ne serai point sujet à votre loi.</l>
 <stage type="danse">Les insulaires des deux sexes forment des danses.</stage>
 </sp>
-<sp stage="sing/alone/toward" who='LE-GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, chantant seul, à Licandre, à Éliante et à Crispin.</speaker>
+<sp stage="sing/alone/toward" who='GRAND-PRÊTRE'><speaker>LE GRAND-PRÊTRE, chantant seul, à Licandre, à Éliante et à Crispin.</speaker>
 	<l id='454'>Étrangers, qui trouvez ridicule</l>
 	<l id='455'>Qu'ici l'on brûle</l>
 	<l id='456'>Le survivant avec le mort,</l>
@@ -1152,7 +1152,7 @@
 	<l id='461'>À la mort de son époux.</l>
 <stage type="danse">Les insulaires, des deux sexes, reprennent leurs danses.</stage>
 </sp>
-<sp stage="sing/alone/toward" who="LA GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE, chantant seule, à Licandre, à Éliante et à Crispin.</speaker>
+<sp stage="sing/alone/toward" who="GRANDE-PRÊTRESSE"><speaker>LA GRANDE-PRÊTRESSE, chantant seule, à Licandre, à Éliante et à Crispin.</speaker>
 	<l id='462'>Si vous voulez, malgré l'orage,</l>
 	<l id='463'>Voguer encore en ce beau jour,</l>
 	<l id='464'>Que ce soit sur la mer d'Amour :</l>
